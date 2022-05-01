@@ -2,9 +2,10 @@
   "name": "fab-cards",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "import.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "import": "node import.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/manwaring/fab-cards/issues"
   },
-  "homepage": "https://github.com/manwaring/fab-cards#readme"
+  "homepage": "https://github.com/manwaring/fab-cards#readme",
+  "devDependencies": {
+    "papaparse": "^5.3.2"
+  }
 }

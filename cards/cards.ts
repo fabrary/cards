@@ -1,23 +1,60 @@
-export interface Card {
+interface Card {
   bannedFormats?: Format[];
   class: Class;
   identifier: String;
+  functionalText: String;
   imageUrl: String;
-  keywords: String[];
+  keywords: Keywords[];
   name: String;
   rarity: Rarity;
   setIdentifiers: String[];
   sets: Release[];
-  stats: Stats;
-  talent?: Talent[];
-  text: String;
   type: Type;
-  subType?:
-    | ActionSubType
-    | EquipmentSubType
-    | ResourceSubType
-    | TokenSubType
-    | WeaponSubType;
+  typeText: String;
+}
+
+export interface ActionCard extends Card {
+  attack?: Number;
+  cost?: Number;
+  defense?: Number;
+  pitch?: Number;
+  talent?: Talent[];
+  specialization?: Hero;
+  subType: ActionSubType;
+}
+
+export interface EquipmentCard extends Card {
+  defense?: Number;
+  handsRequired?: HandsRequired;
+  talent?: Talent[];
+  subType: EquipmentSubType;
+}
+
+export interface HeroCard extends Card {
+  intellect: Number;
+  hero: Hero;
+  life: Number;
+  young: boolean;
+}
+
+export interface ResourceCard extends Card {
+  cost?: Number;
+  defense?: Number;
+  pitch?: Number;
+  talent?: Talent[];
+  subType: ResourceSubType;
+}
+
+export interface TokenCard extends Card {
+  talent?: Talent[];
+  subType: TokenSubType;
+}
+
+export interface WeaponCard extends Card {
+  attack?: Number;
+  handsRequired: HandsRequired;
+  talent?: Talent[];
+  subType: WeaponSubType;
 }
 
 export enum Class {
@@ -66,14 +103,14 @@ export enum Release {
   WelcomeToRathe,
 }
 
-export interface Stats {
-  attack?: Number;
-  cost?: Number;
-  defense?: Number;
-  intellect?: Number;
-  life?: Number;
-  pitch?: Number;
-}
+// export interface Stats {
+//   attack?: Number;
+//   cost?: Number;
+//   defense?: Number;
+//   intellect?: Number;
+//   life?: Number;
+//   pitch?: Number;
+// }
 
 export enum Talent {
   NotTalented,
@@ -102,6 +139,7 @@ export enum Type {
 
 export enum ActionSubType {
   Ally,
+  Attack,
   Arrow,
   Aura,
   Item,
@@ -149,7 +187,35 @@ export enum HandsRequired {
   TwoHanded,
 }
 
-export enum KeyWords {
+export enum Hero {
+  Azalea,
+  Benji,
+  Boltyn,
+  Bravo,
+  Briar,
+  Chane,
+  Dash,
+  DataDoll,
+  Dorinthea,
+  GenisWotchuneed,
+  Ira,
+  Iyslander,
+  Kano,
+  Kassai,
+  Katsu,
+  Kavdaen,
+  Kayo,
+  Levia,
+  Lexi,
+  Oldhim,
+  Prism,
+  Rhinar,
+  Shiyana,
+  Valda,
+  Viserai,
+}
+
+export enum Keywords {
   ArcaneBarrier,
   Battleworn,
   BladeBreak,
