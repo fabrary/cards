@@ -1,5 +1,4 @@
 export interface Card {
-  id?: String; // https://github.com/ai/nanoid/
   bannedFormats?: Format[];
   class: Class;
   identifier: String;
@@ -10,13 +9,21 @@ export interface Card {
   setIdentifiers: String[];
   sets: Release[];
   stats: Stats;
-  talent?: [Talent];
+  talent?: Talent[];
   text: String;
   type: Type;
+  subType?:
+    | ActionSubType
+    | EquipmentSubType
+    | ResourceSubType
+    | TokenSubType
+    | WeaponSubType;
 }
 
 export enum Class {
+  NotClassed,
   Generic,
+  Bard,
   Brute,
   Guardian,
   Illusionist,
@@ -44,12 +51,14 @@ export enum Rarity {
   Majestic,
   Legendary,
   Fabled,
+  Promo,
 }
 
 export enum Release {
   ArcaneRising,
   CrucibleOfWar,
   Everfest,
+  HeroDeck,
   Monarch,
   Promos,
   TalesOfAria,
@@ -78,23 +87,29 @@ export enum Talent {
 }
 
 export enum Type {
-  Equipment,
-  Hero,
-  Weapon,
   Action,
   AttackAction,
   AttackReaction,
   DefenseReaction,
+  Equipment,
+  Hero,
   Instant,
+  Mentor,
+  Resource,
   Token,
+  Weapon,
 }
 
-export enum SubType {
+export enum ActionSubType {
+  Ally,
+  Arrow,
   Aura,
   Item,
+  Landmark,
+  Trap,
 }
 
-export enum EquipmentType {
+export enum EquipmentSubType {
   Arms,
   Chest,
   Head,
@@ -102,7 +117,17 @@ export enum EquipmentType {
   OffHand,
 }
 
-export enum WeaponType {
+export enum ResourceSubType {
+  Gem,
+}
+
+export enum TokenSubType {
+  Ally,
+  Aura,
+  Item,
+}
+
+export enum WeaponSubType {
   Axe,
   Bow,
   Claw,
