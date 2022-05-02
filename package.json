@@ -1,14 +1,16 @@
 {
   "name": "fab-cards",
   "description": "CSV, JSON, and JavaScript/TypeScript representation of Flesh and Blood cards",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "generate": "ts-node import/generateCardData.ts",
     "prebuild": "rm -rf dist",
-    "build": "esbuild ./src/index.ts --outdir=dist --bundle --minify",
-    "postbuild": "tsc --declaration"
+    "build": "esbuild ./src/index.ts --outdir=dist --bundle --minify --platform=node",
+    "postbuild": "tsc --declaration",
+    "test": "ts-node test/index.ts",
+    "full": "npm run generate && npm run build && npm test"
   },
   "devDependencies": {
     "@types/node": "^17.0.30",
