@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "outDir": "dist",
+    "target": "ES6"
+  },
+  "include": ["src"]
+}
