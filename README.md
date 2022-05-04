@@ -2,8 +2,9 @@
 
 Card information is saved in the following files:
 
-- [import/cards.csv](import/cards.csv): source of truth (managed in Google Sheets)
-- [src/cards.json](src/cards.json): generated from CSV
+- [src/cards.csv](src/cards.csv): source of truth (managed in Google Sheets)
+- [dist/cards.csv](dist/cards.csv): copy of `src/cards.csv`
+- [dist/cards.json](dist/cards.json): generated from CSV
 - [dist/index.js](dist/index.js): generated from CSV
 
-To regenerate `cards.json` and `index.js` run `npm run build` after installing project dependencies.
+To generate the `dist` version of `cards.csv`, `cards.json`, and `index.js` run `npm run build` after installing project dependencies.
