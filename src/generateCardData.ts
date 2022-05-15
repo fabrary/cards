@@ -29,6 +29,7 @@ const fieldsWithListValues = [
   "bannedFormats",
   "setIdentifiers",
   "sets",
+  "talents",
   "keywords",
 ];
 const transform = (value: any, field: string) => {
@@ -77,8 +78,8 @@ const getActionCardInfo = (card: ActionCard): String => {
   card.subType = card.actionSubType;
   return `{
     ${getCardInfo(card)}
-    ${card.cost ? `cost: ${card.cost},` : ``}
-    ${card.defense ? `defense: ${card.defense},` : ``}
+    ${card.cost || card.cost === 0 ? `cost: ${card.cost},` : ``}
+    ${card.defense || card.defense === 0 ? `defense: ${card.defense},` : ``}
     ${card.pitch ? `pitch: ${card.pitch},` : ``}
     ${card.power ? `power: ${card.power},` : ``}
     talents: [${getEnumValues(card.talents, "Talent")}],
@@ -95,7 +96,7 @@ const getEquipmentCardInfo = (card: EquipmentCard): String => {
   card.subType = card.equipmentType;
   return `{
     ${getCardInfo(card)}
-    ${card.defense ? `defense: ${card.defense},` : ``}
+    ${card.defense || card.defense === 0 ? `defense: ${card.defense},` : ``}
     ${card.handsRequired ? `handsRequired: ${card.handsRequired},` : ``}
     talents: [${getEnumValues(card.talents, "Talent")}],
     ${card.subType ? `subType: EquipmentSubType.${card.subType}` : ``}
@@ -117,8 +118,8 @@ const getResourceCardInfo = (card: ResourceCard): String => {
   card.subType = card.resourceSubType;
   return `{
     ${getCardInfo(card)}
-    ${card.cost ? `cost: ${card.cost},` : ``}
-    ${card.defense ? `defense: ${card.defense},` : ``}
+    ${card.cost || card.cost === 0 ? `cost: ${card.cost},` : ``}
+    ${card.defense || card.defense === 0 ? `defense: ${card.defense},` : ``}
     ${card.pitch ? `pitch: ${card.pitch},` : ``}
     talents: [${getEnumValues(card.talents, "Talent")}],
     ${card.subType ? `subType: ResourceSubType.${card.subType}` : ``}
@@ -193,6 +194,7 @@ for (const klass in Class) {
     Release,
     ResourceCard,
     ResourceSubType,
+    Talent,
     TokenCard,
     TokenSubType,
     Type,

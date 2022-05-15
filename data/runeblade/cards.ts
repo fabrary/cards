@@ -15,6 +15,7 @@
     Release,
     ResourceCard,
     ResourceSubType,
+    Talent,
     TokenCard,
     TokenSubType,
     Type,
@@ -36,7 +37,7 @@
     typeText: "Runeblade Hero",
     intellect: 4,
     hero: Hero.Viserai,
-    life: undefined,
+    life: 40,
     
   },{
     bannedFormats: [Format.Blitz],
@@ -52,7 +53,7 @@
     typeText: "Runeblade Hero – Young",
     intellect: 4,
     hero: Hero.Viserai,
-    life: undefined,
+    life: 20,
     young: true,
   },{
     bannedFormats: [Format.Blitz],
@@ -73,7 +74,7 @@ If you have played a 'non-attack' action card this turn, Nebula Blade gains +3{p
     handsRequired: HandsRequired.TwoHanded,
     power: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: WeaponSubType.Sword
   },{
     bannedFormats: [],
@@ -91,7 +92,7 @@ If you have played a 'non-attack' action card this turn, Nebula Blade gains +3{p
     typeText: "Runeblade Equipment – Arms",
     defense: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Arms
   },{
     bannedFormats: [],
@@ -107,9 +108,9 @@ If you have played a 'non-attack' action card this turn, Nebula Blade gains +3{p
     sets: [Release.ArcaneRising],
     type: Type.Equipment,
     typeText: "Runeblade Equipment – Head",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Head
   },{
     bannedFormats: [],
@@ -133,7 +134,7 @@ If Arknight Ascendency hits, create X Runechant tokens, where X is the damage de
     defense: 3,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -153,11 +154,11 @@ If Arknight Ascendency hits, create X Runechant tokens, where X is the damage de
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Runeblade Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -179,7 +180,7 @@ If Arknight Ascendency hits, create X Runechant tokens, where X is the damage de
     defense: 3,
     pitch: 2,
     power: 9,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -201,11 +202,11 @@ You may discard an action card. If you discard an attack action card this way, s
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Runeblade Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -229,7 +230,7 @@ You may discard an action card. If you discard an attack action card this way, s
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -251,7 +252,7 @@ You may discard an action card. If you discard an attack action card this way, s
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -273,7 +274,7 @@ You may discard an action card. If you discard an attack action card this way, s
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -295,7 +296,7 @@ You may discard an action card. If you discard an attack action card this way, s
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -321,7 +322,7 @@ Create a Runechant token. *(It's an aura with "When you play an attack action ca
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -347,7 +348,7 @@ Create a Runechant token. *(It's an aura with "When you play an attack action ca
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -373,7 +374,7 @@ Create a Runechant token. *(It's an aura with "When you play an attack action ca
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -395,7 +396,7 @@ Create a Runechant token. *(It's an aura with "When you play an attack action ca
     defense: 3,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -417,7 +418,7 @@ Create a Runechant token. *(It's an aura with "When you play an attack action ca
     defense: 3,
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -439,7 +440,7 @@ Create a Runechant token. *(It's an aura with "When you play an attack action ca
     defense: 3,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -463,7 +464,7 @@ Draw a card.`,
     defense: 3,
     pitch: 1,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -487,7 +488,7 @@ Draw a card.`,
     defense: 3,
     pitch: 2,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -511,7 +512,7 @@ Draw a card.`,
     defense: 3,
     pitch: 3,
     power: 1,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -535,7 +536,7 @@ Draw a card.`,
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -559,7 +560,7 @@ Draw a card.`,
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -583,7 +584,7 @@ Draw a card.`,
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -605,7 +606,7 @@ Draw a card.`,
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -627,7 +628,7 @@ Draw a card.`,
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -649,7 +650,7 @@ Draw a card.`,
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -677,7 +678,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -705,7 +706,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -733,7 +734,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -751,11 +752,11 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Runeblade Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -773,11 +774,11 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Runeblade Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -795,11 +796,11 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Runeblade Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -819,7 +820,7 @@ When you play an attack action card or attack with a weapon, destroy Runechant a
     sets: [Release.ArcaneRising,Release.CrucibleOfWar,Release.Everfest],
     type: Type.Token,
     typeText: "Runeblade Token – Aura",
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: TokenSubType.Aura
   },{
     bannedFormats: [],
@@ -838,7 +839,7 @@ When you pitch Arknight Shard, create a Runechant token.`,
     
     
     pitch: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: ResourceSubType.Gem
   },{
     bannedFormats: [],
@@ -857,7 +858,7 @@ If a hero has more {h} than any other hero, they can't gain {h}.`,
     handsRequired: HandsRequired.TwoHanded,
     power: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: WeaponSubType.Sword
   },{
     bannedFormats: [Format.ClassicConstructed],
@@ -875,7 +876,7 @@ If a hero has more {h} than any other hero, they can't gain {h}.`,
     typeText: "Runeblade Equipment – Chest",
     defense: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Chest
   },{
     bannedFormats: [],
@@ -897,7 +898,7 @@ If Dread Triptych hits, create a Runechant token.`,
     defense: 3,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -923,7 +924,7 @@ If you have dealt arcane damage to an opposing hero this turn, you may play Ratt
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -949,7 +950,7 @@ At the beginning of your action phase, destroy Runeblood Barrier.`,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -969,11 +970,11 @@ At the beginning of your action phase, destroy Runeblood Barrier.`,
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Runeblade Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -993,11 +994,11 @@ At the beginning of your action phase, destroy Runeblood Barrier.`,
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Runeblade Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1017,11 +1018,11 @@ At the beginning of your action phase, destroy Runeblood Barrier.`,
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Runeblade Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1043,7 +1044,7 @@ At the beginning of your action phase, destroy Runeblood Barrier.`,
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1065,7 +1066,7 @@ At the beginning of your action phase, destroy Runeblood Barrier.`,
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1087,7 +1088,7 @@ At the beginning of your action phase, destroy Runeblood Barrier.`,
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1111,7 +1112,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1135,7 +1136,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1159,7 +1160,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1183,7 +1184,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1207,7 +1208,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1231,7 +1232,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1251,7 +1252,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
     typeText: "Shadow Runeblade Hero",
     intellect: 4,
     hero: Hero.Chane,
-    life: undefined,
+    life: 40,
     
   },{
     bannedFormats: [],
@@ -1267,7 +1268,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
     typeText: "Shadow Runeblade Hero – Young",
     intellect: 4,
     hero: Hero.Chane,
-    life: undefined,
+    life: 20,
     young: true,
   },{
     bannedFormats: [],
@@ -1288,7 +1289,7 @@ If Galaxxi Black hits a hero, deal 1 arcane damage to that hero.`,
     handsRequired: HandsRequired.TwoHanded,
     power: 1,
     
-    talents: [],
+    talents: [Talent.Shadow],
     subType: WeaponSubType.Sword
   },{
     bannedFormats: [],
@@ -1306,11 +1307,11 @@ As an additional cost to play Shadow of Ursur, you may banish a card with blood 
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Shadow Runeblade Action - Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1336,7 +1337,7 @@ If you lose {h} during your turn, destroy Dimenxxional Crossroads. *(Damage caus
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1362,7 +1363,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1388,7 +1389,7 @@ You may put a 'non-attack' action card with blood debt from your graveyard on th
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1414,7 +1415,7 @@ You may put a 'non-attack' action card with blood debt from your graveyard on th
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1440,7 +1441,7 @@ You may put a 'non-attack' action card with blood debt from your graveyard on th
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1466,7 +1467,7 @@ Reveal the top card of your deck. If it's a Runeblade card, deal 1 arcane damage
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1492,7 +1493,7 @@ Reveal the top card of your deck. If it's a Runeblade card, deal 1 arcane damage
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1518,7 +1519,7 @@ Reveal the top card of your deck. If it's a Runeblade card, deal 1 arcane damage
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1546,7 +1547,7 @@ The next attack action card with cost 2 or less you play this turns gains +1{p} 
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1574,7 +1575,7 @@ The next attack action card with cost 1 or less you play this turns gains +1{p} 
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1602,7 +1603,7 @@ The next attack action card with cost 0 you play this turns gains +1{p} and **go
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1622,11 +1623,11 @@ The next attack action card with cost 0 you play this turns gains +1{p} and **go
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Shadow Runeblade Action - Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     power: 3,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1646,11 +1647,11 @@ The next attack action card with cost 0 you play this turns gains +1{p} and **go
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Shadow Runeblade Action - Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     power: 2,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1670,11 +1671,11 @@ The next attack action card with cost 0 you play this turns gains +1{p} and **go
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Shadow Runeblade Action - Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     power: 1,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1700,7 +1701,7 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1726,7 +1727,7 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1752,7 +1753,7 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1776,7 +1777,7 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
     defense: 3,
     pitch: 1,
     power: 3,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1800,7 +1801,7 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
     defense: 3,
     pitch: 2,
     power: 2,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1824,7 +1825,7 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
     defense: 3,
     pitch: 3,
     power: 1,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1848,7 +1849,7 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1872,7 +1873,7 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1896,7 +1897,7 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1922,7 +1923,7 @@ If you have dealt arcane damage to an opposing hero this turn, Rip Through Reali
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1948,7 +1949,7 @@ If you have dealt arcane damage to an opposing hero this turn, Rip Through Reali
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1974,7 +1975,7 @@ If you have dealt arcane damage to an opposing hero this turn, Rip Through Reali
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1998,11 +1999,11 @@ The next attack action card with cost 2 or less you play this turn gains "When y
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Shadow Runeblade Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -2026,11 +2027,11 @@ The next attack action card with cost 1 or less you play this turn gains "When y
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Shadow Runeblade Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -2054,11 +2055,11 @@ The next attack action card with cost 0 or less you play this turn gains "When y
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Shadow Runeblade Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -2078,7 +2079,7 @@ At the beginning of your action phase, banish the top card of your deck.`,
     sets: [Release.Monarch],
     type: Type.Token,
     typeText: "Shadow Runeblade Token – Aura",
-    talents: [],
+    talents: [Talent.Shadow],
     subType: TokenSubType.Aura
   },{
     bannedFormats: [],
@@ -2099,7 +2100,7 @@ A hero dealt damage by Dread Scythe can't gain {h} during their next action phas
     handsRequired: HandsRequired.TwoHanded,
     power: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: WeaponSubType.Scythe
   },{
     bannedFormats: [],
@@ -2117,7 +2118,7 @@ A hero dealt damage by Dread Scythe can't gain {h} during their next action phas
     typeText: "Runeblade Equipment – Chest",
     defense: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Chest
   },{
     bannedFormats: [Format.Blitz],
@@ -2141,7 +2142,7 @@ Shuffle your deck. Banish Sonata Arcanix.
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     specialCost: "XX",
     
@@ -2163,7 +2164,7 @@ Shuffle your deck. Banish Sonata Arcanix.
     defense: 3,
     pitch: 1,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2185,7 +2186,7 @@ Shuffle your deck. Banish Sonata Arcanix.
     defense: 3,
     pitch: 2,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2207,7 +2208,7 @@ Shuffle your deck. Banish Sonata Arcanix.
     defense: 3,
     pitch: 3,
     power: 1,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2225,11 +2226,11 @@ Shuffle your deck. Banish Sonata Arcanix.
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Runeblade Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2247,11 +2248,11 @@ Shuffle your deck. Banish Sonata Arcanix.
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Runeblade Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2269,11 +2270,11 @@ Shuffle your deck. Banish Sonata Arcanix.
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Runeblade Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     power: 1,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2297,7 +2298,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
     typeText: "Elemental Runeblade Hero",
     intellect: 4,
     hero: Hero.Briar,
-    life: undefined,
+    life: 40,
     
   },{
     bannedFormats: [],
@@ -2317,7 +2318,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
     typeText: "Elemental Runeblade Hero – Young",
     intellect: 4,
     hero: Hero.Briar,
-    life: undefined,
+    life: 20,
     young: true,
   },{
     bannedFormats: [],
@@ -2339,7 +2340,7 @@ When you attack with Blossoming Spellblade, if it was **fused**, deal 1 arcane d
     defense: 3,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -2363,11 +2364,11 @@ Deal 1 arcane damage to target hero.
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Elemental Runeblade Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -2393,11 +2394,11 @@ If Force of Nature was fused, your next attack this turn gains +1{p}.
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Elemental Runeblade Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -2422,7 +2423,7 @@ When you attack with Explosive Growth, deal 1 arcane damage to target hero.`,
     defense: 3,
     pitch: 1,
     power: 3,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -2447,7 +2448,7 @@ When you attack with Explosive Growth, deal 1 arcane damage to target hero.`,
     defense: 3,
     pitch: 2,
     power: 2,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -2472,7 +2473,7 @@ When you attack with Explosive Growth, deal 1 arcane damage to target hero.`,
     defense: 3,
     pitch: 3,
     power: 1,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -2498,7 +2499,7 @@ If you have dealt arcane damage this turn, Rites of Lightning gains **go again.*
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -2524,7 +2525,7 @@ If you have dealt arcane damage this turn, Rites of Lightning gains **go again.*
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -2550,7 +2551,7 @@ If you have dealt arcane damage this turn, Rites of Lightning gains **go again.*
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -2570,11 +2571,11 @@ When you attack with Arcanic Shockwave, if it was **fused**, deal 1 arcane damag
     sets: [Release.Promos,Release.TalesOfAria],
     type: Type.Action,
     typeText: "Elemental Runeblade Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -2594,11 +2595,11 @@ When you attack with Arcanic Shockwave, if it was **fused**, deal 1 arcane damag
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Elemental Runeblade Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -2618,11 +2619,11 @@ When you attack with Arcanic Shockwave, if it was **fused**, deal 1 arcane damag
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Elemental Runeblade Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -2646,7 +2647,7 @@ If Vela Flash was **fused**, you may play your next 'non-attack' action card thi
     defense: 3,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -2670,7 +2671,7 @@ If Vela Flash was **fused**, you may play your next 'non-attack' action card thi
     defense: 3,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -2694,7 +2695,7 @@ If Vela Flash was **fused**, you may play your next 'non-attack' action card thi
     defense: 3,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -2720,7 +2721,7 @@ When you attack with Rites of Replenishment, if it was **fused**, you may put an
     defense: 3,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -2746,7 +2747,7 @@ When you attack with Rites of Replenishment, if it was **fused**, you may put an
     defense: 3,
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -2772,7 +2773,7 @@ When you attack with Rites of Replenishment, if it was **fused**, you may put an
     defense: 3,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -2798,7 +2799,7 @@ If Stir the Wildwood was **fused**, it gains +2{p}.`,
     defense: 3,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -2824,7 +2825,7 @@ If Stir the Wildwood was **fused**, it gains +2{p}.`,
     defense: 3,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -2850,7 +2851,7 @@ If Stir the Wildwood was **fused**, it gains +2{p}.`,
     defense: 3,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -2874,11 +2875,11 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Elemental Runeblade Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -2902,11 +2903,11 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Elemental Runeblade Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -2930,11 +2931,11 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Elemental Runeblade Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -2958,7 +2959,7 @@ If Inspire Lightning was **fused**, deal 3 arcane damage to target hero.`,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -2982,7 +2983,7 @@ If Inspire Lightning was **fused**, deal 2 arcane damage to target hero.`,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -3006,7 +3007,7 @@ If Inspire Lightning was **fused**, deal 1 arcane damage to target hero.`,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -3029,7 +3030,7 @@ Whenever you attack with Rosetta Thorn, if you've played an attack action card a
     handsRequired: HandsRequired.TwoHanded,
     power: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: WeaponSubType.Sword
   },{
     bannedFormats: [Format.Blitz,Format.ClassicConstructed],
@@ -3050,7 +3051,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
     handsRequired: HandsRequired.TwoHanded,
     power: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: WeaponSubType.Sword
   },{
     bannedFormats: [],
@@ -3070,7 +3071,7 @@ At the beginning of your end phase, destroy Spellbound Creepers unless you have 
     typeText: "Runeblade Equipment – Legs",
     defense: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Legs
   },{
     bannedFormats: [],
@@ -3084,9 +3085,9 @@ At the beginning of your end phase, destroy Spellbound Creepers unless you have 
     sets: [Release.TalesOfAria],
     type: Type.Equipment,
     typeText: "Runeblade Equipment – Legs",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Legs
   },{
     bannedFormats: [],
@@ -3104,11 +3105,11 @@ At the beginning of your end phase, destroy Sting of Sorcery.`,
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Runeblade Action – Aura",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3130,7 +3131,7 @@ At the beginning of your end phase, destroy Sting of Sorcery.`,
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3152,7 +3153,7 @@ At the beginning of your end phase, destroy Sting of Sorcery.`,
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3174,7 +3175,7 @@ At the beginning of your end phase, destroy Sting of Sorcery.`,
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3194,9 +3195,9 @@ At the beginning of your end phase, destroy Sting of Sorcery.`,
     sets: [Release.Everfest],
     type: Type.Equipment,
     typeText: "Runeblade Equipment – Arms",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Arms
   },{
     bannedFormats: [],
@@ -3214,7 +3215,7 @@ At the beginning of your end phase, destroy Sting of Sorcery.`,
     defense: 3,
     pitch: 1,
     power: 7,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3232,11 +3233,11 @@ At the beginning of your end phase, destroy Sting of Sorcery.`,
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Runeblade Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3258,11 +3259,11 @@ At the beginning of your end phase, destroy all Runechants you control.
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Runeblade Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3288,7 +3289,7 @@ At the beginning of your action phase, remove a verse counter from Runeblood Inc
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3314,7 +3315,7 @@ At the beginning of your action phase, remove a verse counter from Runeblood Inc
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3340,7 +3341,7 @@ At the beginning of your action phase, remove a verse counter from Runeblood Inc
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3364,7 +3365,7 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
     defense: 3,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3388,7 +3389,7 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
     defense: 3,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3412,7 +3413,7 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
     defense: 3,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3434,7 +3435,7 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3456,7 +3457,7 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3478,7 +3479,7 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3500,7 +3501,7 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3522,7 +3523,7 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3544,7 +3545,7 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     

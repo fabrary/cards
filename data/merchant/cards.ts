@@ -15,6 +15,7 @@
     Release,
     ResourceCard,
     ResourceSubType,
+    Talent,
     TokenCard,
     TokenSubType,
     Type,
@@ -38,7 +39,7 @@
     typeText: "Hero – Merchant",
     intellect: 4,
     hero: Hero.Ruudi,
-    life: undefined,
+    life: 40,
     
   },{
     bannedFormats: [],
@@ -54,7 +55,7 @@
     typeText: "Merchant Hero – Young",
     intellect: 4,
     hero: Hero.Kavdaen,
-    life: undefined,
+    life: 20,
     young: true,
   },{
     bannedFormats: [],
@@ -70,7 +71,7 @@
     typeText: "Merchant Hero – Young",
     intellect: 4,
     hero: Hero.GenisWotchuneed,
-    life: undefined,
+    life: 20,
     young: true,
   },{
     bannedFormats: [],
@@ -88,7 +89,7 @@
     typeText: "Merchant Equipment – Arms",
     defense: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Arms
   }];
   

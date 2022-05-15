@@ -15,6 +15,7 @@
     Release,
     ResourceCard,
     ResourceSubType,
+    Talent,
     TokenCard,
     TokenSubType,
     Type,
@@ -34,11 +35,11 @@
     sets: [Release.Promos],
     type: Type.Instant,
     typeText: "Generic Instant",
-    
+    cost: 0,
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -59,7 +60,7 @@
     
     
     pitch: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: ResourceSubType.Gem
   },{
     bannedFormats: [],
@@ -79,7 +80,7 @@
     typeText: "Generic Equipment – Chest",
     defense: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Chest
   },{
     bannedFormats: [],
@@ -93,9 +94,9 @@
     sets: [Release.WelcomeToRathe],
     type: Type.Equipment,
     typeText: "Generic Equipment – Head",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Head
   },{
     bannedFormats: [Format.Blitz],
@@ -109,9 +110,9 @@
     sets: [Release.Promos,Release.WelcomeToRathe],
     type: Type.Equipment,
     typeText: "Generic Equipment – Chest",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Chest
   },{
     bannedFormats: [],
@@ -125,9 +126,9 @@
     sets: [Release.Promos,Release.WelcomeToRathe],
     type: Type.Equipment,
     typeText: "Generic Equipment – Arms",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Arms
   },{
     bannedFormats: [],
@@ -141,9 +142,9 @@
     sets: [Release.Promos,Release.WelcomeToRathe],
     type: Type.Equipment,
     typeText: "Generic Equipment – Legs",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Legs
   },{
     bannedFormats: [],
@@ -159,7 +160,7 @@
     typeText: "Generic Equipment – Head",
     defense: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Head
   },{
     bannedFormats: [],
@@ -175,7 +176,7 @@
     typeText: "Generic Equipment – Chest",
     defense: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Chest
   },{
     bannedFormats: [],
@@ -191,7 +192,7 @@
     typeText: "Generic Equipment – Arms",
     defense: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Arms
   },{
     bannedFormats: [],
@@ -207,7 +208,7 @@
     typeText: "Generic Equipment – Legs",
     defense: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Legs
   },{
     bannedFormats: [],
@@ -226,11 +227,11 @@ Choose 1;
     sets: [Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -254,7 +255,7 @@ If Tome of Fyendal is played from arsenal, gain 1{h} for each card in your hand.
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -276,7 +277,7 @@ If Tome of Fyendal is played from arsenal, gain 1{h} for each card in your hand.
     defense: 3,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -299,11 +300,11 @@ On;
     sets: [Release.Promos,Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Generic Action – Item",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -323,11 +324,11 @@ Banish Remembrance.`,
     sets: [Release.WelcomeToRathe],
     type: Type.Instant,
     typeText: "Generic Instant",
-    
+    cost: 0,
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -349,7 +350,7 @@ Banish Remembrance.`,
     defense: 2,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -371,7 +372,7 @@ Banish Remembrance.`,
     defense: 2,
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -393,7 +394,7 @@ Banish Remembrance.`,
     defense: 2,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -411,11 +412,11 @@ Banish Remembrance.`,
     sets: [Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -433,11 +434,11 @@ Banish Remembrance.`,
     sets: [Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -455,11 +456,11 @@ Banish Remembrance.`,
     sets: [Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -477,11 +478,11 @@ Banish Remembrance.`,
     sets: [Release.Promos,Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Generic Action – Item",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -499,11 +500,11 @@ Banish Remembrance.`,
     sets: [Release.Promos,Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Generic Action – Item",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -521,11 +522,11 @@ Banish Remembrance.`,
     sets: [Release.Promos,Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Generic Action – Item",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -543,11 +544,11 @@ Banish Remembrance.`,
     sets: [Release.WelcomeToRathe],
     type: Type.Instant,
     typeText: "Generic Instant",
-    
+    cost: 0,
     
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -565,11 +566,11 @@ Banish Remembrance.`,
     sets: [Release.WelcomeToRathe],
     type: Type.Instant,
     typeText: "Generic Instant",
-    
+    cost: 0,
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -587,11 +588,11 @@ Banish Remembrance.`,
     sets: [Release.WelcomeToRathe],
     type: Type.Instant,
     typeText: "Generic Instant",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -613,7 +614,7 @@ Banish Remembrance.`,
     defense: 2,
     pitch: 1,
     power: 7,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -635,7 +636,7 @@ Banish Remembrance.`,
     defense: 2,
     pitch: 2,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -657,7 +658,7 @@ Banish Remembrance.`,
     defense: 2,
     pitch: 3,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -681,7 +682,7 @@ Banish Remembrance.`,
     defense: 2,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -705,7 +706,7 @@ Banish Remembrance.`,
     defense: 2,
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -729,7 +730,7 @@ Banish Remembrance.`,
     defense: 2,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -753,7 +754,7 @@ Create a Quicken aura token with “When you play an attack action card or attac
     defense: 2,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -777,7 +778,7 @@ Create a Quicken aura token with “When you play an attack action card or attac
     defense: 2,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -801,7 +802,7 @@ Create a Quicken aura token with “When you play an attack action card or attac
     defense: 2,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -823,7 +824,7 @@ Create a Quicken aura token with “When you play an attack action card or attac
     defense: 2,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -845,7 +846,7 @@ Create a Quicken aura token with “When you play an attack action card or attac
     defense: 2,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -867,7 +868,7 @@ Create a Quicken aura token with “When you play an attack action card or attac
     defense: 2,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -889,7 +890,7 @@ Create a Quicken aura token with “When you play an attack action card or attac
     defense: 3,
     pitch: 1,
     power: 7,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -911,7 +912,7 @@ Create a Quicken aura token with “When you play an attack action card or attac
     defense: 3,
     pitch: 2,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -933,7 +934,7 @@ Create a Quicken aura token with “When you play an attack action card or attac
     defense: 3,
     pitch: 3,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -951,11 +952,11 @@ Create a Quicken aura token with “When you play an attack action card or attac
     sets: [Release.Promos,Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -973,11 +974,11 @@ Create a Quicken aura token with “When you play an attack action card or attac
     sets: [Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -995,11 +996,11 @@ Create a Quicken aura token with “When you play an attack action card or attac
     sets: [Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1019,11 +1020,11 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
     sets: [Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1043,11 +1044,11 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
     sets: [Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1067,11 +1068,11 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
     sets: [Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     power: 1,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1093,7 +1094,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
     defense: 2,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1115,7 +1116,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
     defense: 2,
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1137,7 +1138,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
     defense: 2,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1159,7 +1160,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
     defense: 2,
     pitch: 1,
     power: 7,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1181,7 +1182,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
     defense: 2,
     pitch: 2,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1203,7 +1204,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
     defense: 2,
     pitch: 3,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1221,11 +1222,11 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
     sets: [Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1243,11 +1244,11 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
     sets: [Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1265,11 +1266,11 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
     sets: [Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1287,11 +1288,11 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
     sets: [Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Generic Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1309,11 +1310,11 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
     sets: [Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Generic Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1331,11 +1332,11 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
     sets: [Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Generic Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1359,7 +1360,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1383,7 +1384,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1407,7 +1408,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1428,7 +1429,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
     
     
     pitch: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
   },{
     bannedFormats: [],
@@ -1444,7 +1445,7 @@ When you play an attack card or attack with a weapon, destroy Quicken then the a
     sets: [Release.WelcomeToRathe,Release.CrucibleOfWar,Release.Everfest],
     type: Type.Token,
     typeText: "Generic Token – Aura",
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: TokenSubType.Aura
   },{
     bannedFormats: [],
@@ -1463,7 +1464,7 @@ When you pitch Eye of Ophidia, **opt 2.**`,
     
     
     pitch: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: ResourceSubType.Gem
   },{
     bannedFormats: [],
@@ -1481,7 +1482,7 @@ When you pitch Eye of Ophidia, **opt 2.**`,
     typeText: "Generic Equipment – Head",
     defense: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Head
   },{
     bannedFormats: [],
@@ -1495,9 +1496,9 @@ When you pitch Eye of Ophidia, **opt 2.**`,
     sets: [Release.Promos,Release.ArcaneRising],
     type: Type.Equipment,
     typeText: "Generic Equipment – Head",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Head
   },{
     bannedFormats: [],
@@ -1511,9 +1512,9 @@ When you pitch Eye of Ophidia, **opt 2.**`,
     sets: [Release.ArcaneRising],
     type: Type.Equipment,
     typeText: "Generic Equipment – Chest",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Chest
   },{
     bannedFormats: [],
@@ -1527,9 +1528,9 @@ When you pitch Eye of Ophidia, **opt 2.**`,
     sets: [Release.ArcaneRising],
     type: Type.Equipment,
     typeText: "Generic Equipment – Arms",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Arms
   },{
     bannedFormats: [],
@@ -1543,9 +1544,9 @@ When you pitch Eye of Ophidia, **opt 2.**`,
     sets: [Release.Promos,Release.ArcaneRising],
     type: Type.Equipment,
     typeText: "Generic Equipment – Legs",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Legs
   },{
     bannedFormats: [],
@@ -1559,9 +1560,9 @@ When you pitch Eye of Ophidia, **opt 2.**`,
     sets: [Release.Promos,Release.ArcaneRising],
     type: Type.Equipment,
     typeText: "Generic Equipment – Head",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Head
   },{
     bannedFormats: [],
@@ -1575,9 +1576,9 @@ When you pitch Eye of Ophidia, **opt 2.**`,
     sets: [Release.Promos,Release.ArcaneRising],
     type: Type.Equipment,
     typeText: "Generic Equipment – Chest",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Chest
   },{
     bannedFormats: [],
@@ -1591,9 +1592,9 @@ When you pitch Eye of Ophidia, **opt 2.**`,
     sets: [Release.Promos,Release.ArcaneRising],
     type: Type.Equipment,
     typeText: "Generic Equipment – Arms",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Arms
   },{
     bannedFormats: [],
@@ -1607,9 +1608,9 @@ When you pitch Eye of Ophidia, **opt 2.**`,
     sets: [Release.Promos,Release.ArcaneRising],
     type: Type.Equipment,
     typeText: "Generic Equipment – Legs",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Legs
   },{
     bannedFormats: [],
@@ -1629,7 +1630,7 @@ If Command and Conquer hits a hero, destroy all cards in their arsenal.`,
     defense: 3,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1656,7 +1657,7 @@ If Command and Conquer hits a hero, destroy all cards in their arsenal.`,
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1678,7 +1679,7 @@ If Command and Conquer hits a hero, destroy all cards in their arsenal.`,
     defense: 2,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1700,11 +1701,11 @@ At the beginning of your action phase, destroy Chains of Eminence`,
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Generic Action – Aura",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1722,11 +1723,11 @@ At the beginning of your action phase, destroy Chains of Eminence`,
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Generic Action – Item",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1750,7 +1751,7 @@ When you play Life for a Life, if you have less {h} than an opposing hero, it ga
     defense: 2,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1774,7 +1775,7 @@ When you play Life for a Life, if you have less {h} than an opposing hero, it ga
     defense: 2,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1798,7 +1799,7 @@ When you play Life for a Life, if you have less {h} than an opposing hero, it ga
     defense: 2,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1824,7 +1825,7 @@ At the beginning of your end phase, destroy Enchanting Melody unless you have pl
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1850,7 +1851,7 @@ At the beginning of your end phase, destroy Enchanting Melody unless you have pl
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1876,7 +1877,7 @@ At the beginning of your end phase, destroy Enchanting Melody unless you have pl
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1898,11 +1899,11 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Generic Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1924,11 +1925,11 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Generic Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1950,11 +1951,11 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Generic Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1976,7 +1977,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1998,7 +1999,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2020,7 +2021,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2042,7 +2043,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     defense: 2,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2064,7 +2065,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     defense: 2,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2086,7 +2087,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     defense: 2,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2108,7 +2109,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     defense: 2,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2130,7 +2131,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     defense: 2,
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2152,7 +2153,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     defense: 2,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2172,11 +2173,11 @@ If Fervent Forerunner is played from arsenal, it gains **go again.**`,
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2196,11 +2197,11 @@ If Fervent Forerunner is played from arsenal, it gains **go again.**`,
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2220,11 +2221,11 @@ If Fervent Forerunner is played from arsenal, it gains **go again.**`,
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     power: 1,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2248,7 +2249,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     defense: 2,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2272,7 +2273,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     defense: 2,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2296,7 +2297,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     defense: 2,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2318,7 +2319,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     defense: 2,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2340,7 +2341,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     defense: 2,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2362,7 +2363,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     defense: 2,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2382,11 +2383,11 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2406,11 +2407,11 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2430,11 +2431,11 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2456,7 +2457,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     defense: 2,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2478,7 +2479,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     defense: 2,
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2500,7 +2501,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     defense: 2,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2522,7 +2523,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     defense: 2,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2544,7 +2545,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     defense: 2,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2566,7 +2567,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     defense: 2,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2590,7 +2591,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2614,7 +2615,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2638,7 +2639,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2664,7 +2665,7 @@ If Force Sight is played from arsenal, **opt 2.** *(Look at the top 2 cards of y
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2690,7 +2691,7 @@ If Force Sight is played from arsenal, **opt 2.** *(Look at the top 2 cards of y
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2716,7 +2717,7 @@ If Force Sight is played from arsenal, **opt 2.** *(Look at the top 2 cards of y
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2736,11 +2737,11 @@ If Force Sight is played from arsenal, **opt 2.** *(Look at the top 2 cards of y
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Generic Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2760,11 +2761,11 @@ If Force Sight is played from arsenal, **opt 2.** *(Look at the top 2 cards of y
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Generic Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2784,11 +2785,11 @@ If Force Sight is played from arsenal, **opt 2.** *(Look at the top 2 cards of y
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Generic Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2808,11 +2809,11 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Generic Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2832,11 +2833,11 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Generic Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2856,11 +2857,11 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Generic Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2880,11 +2881,11 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Generic Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2904,11 +2905,11 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Generic Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2928,11 +2929,11 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Generic Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2955,7 +2956,7 @@ At the beginning of your end phase, if Talishar, the Lost Prince has 3 or more r
     handsRequired: HandsRequired.TwoHanded,
     
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: WeaponSubType.Sword
   },{
     bannedFormats: [],
@@ -2969,9 +2970,9 @@ At the beginning of your end phase, if Talishar, the Lost Prince has 3 or more r
     sets: [Release.Promos,Release.CrucibleOfWar],
     type: Type.Equipment,
     typeText: "Generic Equipment – Arms",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Arms
   },{
     bannedFormats: [],
@@ -2993,7 +2994,7 @@ At the beginning of your end phase, if Talishar, the Lost Prince has 3 or more r
     defense: 2,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3015,11 +3016,11 @@ Draw X cards, where X is 1 plus the number of Gorganian Tomes in all graveyards.
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Generic Action",
+    cost: 0,
     
     
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3037,11 +3038,11 @@ Draw X cards, where X is 1 plus the number of Gorganian Tomes in all graveyards.
     sets: [Release.CrucibleOfWar],
     type: Type.Instant,
     typeText: "Generic Instant",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3061,11 +3062,11 @@ If Promise of Plenty is played from arsenal, it gains **go again.**`,
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3085,11 +3086,11 @@ If Promise of Plenty is played from arsenal, it gains **go again.**`,
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3109,11 +3110,11 @@ If Promise of Plenty is played from arsenal, it gains **go again.**`,
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     power: 1,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3137,7 +3138,7 @@ Draw 2 cards.`,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3155,11 +3156,11 @@ Draw 2 cards.`,
     sets: [Release.CrucibleOfWar],
     type: Type.Instant,
     typeText: "Generic Instant",
-    
+    cost: 0,
     
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3177,11 +3178,11 @@ Draw 2 cards.`,
     sets: [Release.CrucibleOfWar],
     type: Type.Instant,
     typeText: "Generic Instant",
-    
+    cost: 0,
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3199,11 +3200,11 @@ Draw 2 cards.`,
     sets: [Release.CrucibleOfWar],
     type: Type.Instant,
     typeText: "Generic Instant",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3225,7 +3226,7 @@ Draw 2 cards.`,
     defense: 3,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3247,7 +3248,7 @@ Draw 2 cards.`,
     defense: 3,
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3269,7 +3270,7 @@ Draw 2 cards.`,
     defense: 3,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3287,7 +3288,7 @@ Draw 2 cards.`,
     sets: [Release.Promos,Release.CrucibleOfWar,Release.Everfest],
     type: Type.Token,
     typeText: "Generic Token – Item",
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: TokenSubType.Item
   },{
     bannedFormats: [],
@@ -3301,9 +3302,9 @@ Draw 2 cards.`,
     sets: [Release.Monarch],
     type: Type.Equipment,
     typeText: "Generic Equipment – Chest",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Chest
   },{
     bannedFormats: [],
@@ -3317,9 +3318,9 @@ Draw 2 cards.`,
     sets: [Release.Monarch],
     type: Type.Equipment,
     typeText: "Generic Equipment – Arms",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Arms
   },{
     bannedFormats: [],
@@ -3333,9 +3334,9 @@ Draw 2 cards.`,
     sets: [Release.Monarch],
     type: Type.Equipment,
     typeText: "Generic Equipment – Legs",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Legs
   },{
     bannedFormats: [],
@@ -3349,9 +3350,9 @@ Draw 2 cards.`,
     sets: [Release.Monarch],
     type: Type.Equipment,
     typeText: "Generic Equipment – Head",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Head
   },{
     bannedFormats: [],
@@ -3365,9 +3366,9 @@ Draw 2 cards.`,
     sets: [Release.Monarch],
     type: Type.Equipment,
     typeText: "Generic Equipment – Chest",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Chest
   },{
     bannedFormats: [],
@@ -3381,9 +3382,9 @@ Draw 2 cards.`,
     sets: [Release.Monarch],
     type: Type.Equipment,
     typeText: "Generic Equipment – Arms",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Arms
   },{
     bannedFormats: [],
@@ -3397,9 +3398,9 @@ Draw 2 cards.`,
     sets: [Release.Monarch],
     type: Type.Equipment,
     typeText: "Generic Equipment – Legs",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Legs
   },{
     bannedFormats: [],
@@ -3415,11 +3416,11 @@ Draw 2 cards.`,
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3441,7 +3442,7 @@ Draw 2 cards.`,
     defense: 3,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3463,7 +3464,7 @@ Draw 2 cards.`,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3485,7 +3486,7 @@ Draw 2 cards.`,
     defense: 2,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3507,7 +3508,7 @@ Draw 2 cards.`,
     defense: 2,
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3529,7 +3530,7 @@ Draw 2 cards.`,
     defense: 2,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3547,11 +3548,11 @@ Draw 2 cards.`,
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3569,11 +3570,11 @@ Draw 2 cards.`,
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3591,11 +3592,11 @@ Draw 2 cards.`,
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3617,7 +3618,7 @@ Draw 2 cards.`,
     defense: 2,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3639,7 +3640,7 @@ Draw 2 cards.`,
     defense: 2,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3661,7 +3662,7 @@ Draw 2 cards.`,
     defense: 2,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3683,11 +3684,11 @@ The next attack action card with cost 2 or less you play this turn gains **go ag
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Generic Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3709,11 +3710,11 @@ The next attack action card with cost 1 or less you play this turn gains **go ag
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Generic Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3735,11 +3736,11 @@ The next attack action card with cost 0 or less you play this turn gains **go ag
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Generic Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3761,7 +3762,7 @@ The next attack action card with cost 0 or less you play this turn gains **go ag
     defense: 2,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3783,7 +3784,7 @@ The next attack action card with cost 0 or less you play this turn gains **go ag
     defense: 2,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3805,7 +3806,7 @@ The next attack action card with cost 0 or less you play this turn gains **go ag
     defense: 2,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3829,7 +3830,7 @@ The next attack action card with cost 0 or less you play this turn gains **go ag
     defense: 2,
     pitch: 1,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3853,7 +3854,7 @@ The next attack action card with cost 0 or less you play this turn gains **go ag
     defense: 2,
     pitch: 2,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3877,7 +3878,7 @@ The next attack action card with cost 0 or less you play this turn gains **go ag
     defense: 2,
     pitch: 3,
     power: 1,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3901,7 +3902,7 @@ The next attack action card with cost 0 or less you play this turn gains **go ag
     defense: 2,
     pitch: 1,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3925,7 +3926,7 @@ The next attack action card with cost 0 or less you play this turn gains **go ag
     defense: 2,
     pitch: 2,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3949,7 +3950,7 @@ The next attack action card with cost 0 or less you play this turn gains **go ag
     defense: 2,
     pitch: 3,
     power: 1,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3969,11 +3970,11 @@ If Frontline Scout is played from arsenal, it gains **go again.**`,
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -3993,11 +3994,11 @@ If Frontline Scout is played from arsenal, it gains **go again.**`,
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4017,11 +4018,11 @@ If Frontline Scout is played from arsenal, it gains **go again.**`,
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     power: 1,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4041,11 +4042,11 @@ If Overload hits, it gains **go again.**`,
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4065,11 +4066,11 @@ If Overload hits, it gains **go again.**`,
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4089,11 +4090,11 @@ If Overload hits, it gains **go again.**`,
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     power: 1,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4115,7 +4116,7 @@ If Overload hits, it gains **go again.**`,
     defense: 2,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4137,7 +4138,7 @@ If Overload hits, it gains **go again.**`,
     defense: 2,
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4159,7 +4160,7 @@ If Overload hits, it gains **go again.**`,
     defense: 2,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4181,7 +4182,7 @@ If Overload hits, it gains **go again.**`,
     defense: 2,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4203,7 +4204,7 @@ If Overload hits, it gains **go again.**`,
     defense: 2,
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4225,7 +4226,7 @@ If Overload hits, it gains **go again.**`,
     defense: 2,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4247,7 +4248,7 @@ If Overload hits, it gains **go again.**`,
     defense: 2,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4269,7 +4270,7 @@ If Overload hits, it gains **go again.**`,
     defense: 2,
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4291,7 +4292,7 @@ If Overload hits, it gains **go again.**`,
     defense: 2,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4313,7 +4314,7 @@ If Overload hits, it gains **go again.**`,
     defense: 2,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4335,7 +4336,7 @@ If Overload hits, it gains **go again.**`,
     defense: 2,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4357,7 +4358,7 @@ If Overload hits, it gains **go again.**`,
     defense: 2,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4377,11 +4378,11 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4401,11 +4402,11 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4425,11 +4426,11 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Generic Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     power: 1,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4451,7 +4452,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     defense: 2,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4473,7 +4474,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     defense: 2,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4495,7 +4496,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     defense: 2,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4515,11 +4516,11 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Generic Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4539,11 +4540,11 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Generic Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4563,11 +4564,11 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Generic Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4591,7 +4592,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4615,7 +4616,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4639,7 +4640,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4661,11 +4662,11 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Generic Action – Item",
-    
+    cost: 0,
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4683,11 +4684,11 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     sets: [Release.Monarch],
     type: Type.Instant,
     typeText: "Generic Instant",
-    
+    cost: 0,
     
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4705,11 +4706,11 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     sets: [Release.Monarch],
     type: Type.Instant,
     typeText: "Generic Instant",
-    
+    cost: 0,
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4727,11 +4728,11 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     sets: [Release.Monarch],
     type: Type.Instant,
     typeText: "Generic Instant",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4749,9 +4750,9 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     sets: [Release.TalesOfAria],
     type: Type.Equipment,
     typeText: "Generic Equipment – Head",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Head
   },{
     bannedFormats: [],
@@ -4765,9 +4766,9 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     sets: [Release.TalesOfAria],
     type: Type.Equipment,
     typeText: "Generic Equipment – Chest",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Chest
   },{
     bannedFormats: [],
@@ -4781,9 +4782,9 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     sets: [Release.TalesOfAria],
     type: Type.Equipment,
     typeText: "Generic Equipment – Arms",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Arms
   },{
     bannedFormats: [],
@@ -4797,9 +4798,9 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     sets: [Release.TalesOfAria],
     type: Type.Equipment,
     typeText: "Generic Equipment – Legs",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Legs
   },{
     bannedFormats: [],
@@ -4815,7 +4816,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     typeText: "Generic Equipment – Off-Hand",
     
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.OffHand
   },{
     bannedFormats: [],
@@ -4833,7 +4834,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     defense: 3,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4855,7 +4856,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     defense: 3,
     pitch: 1,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4877,11 +4878,11 @@ Create a Silver token for each permanent destroyed this way.
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Generic Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4905,7 +4906,7 @@ Search your deck for a card with Amulet, Potion, or Talisman in its name, put it
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4931,7 +4932,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4957,7 +4958,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
     defense: 2,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -4983,7 +4984,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
     defense: 2,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -5009,7 +5010,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
     defense: 2,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -5029,11 +5030,11 @@ Until the start of your next turn, attacks that target you have -1{p}.
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Generic Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -5053,11 +5054,11 @@ Until the start of your next turn, attacks that target you have -1{p}.
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Generic Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -5077,11 +5078,11 @@ Until the start of your next turn, attacks that target you have -1{p}.
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Generic Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -5103,11 +5104,11 @@ Choose a random card from their hand and reveal it. If it's the named card, crea
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Generic Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -5129,11 +5130,11 @@ Choose a random card from their hand and reveal it. If it's the named card, crea
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Generic Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -5155,11 +5156,11 @@ Choose a random card from their hand and reveal it. If it's the named card, crea
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Generic Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -5181,11 +5182,11 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Generic Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -5207,11 +5208,11 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Generic Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -5233,11 +5234,11 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Generic Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -5257,11 +5258,11 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     sets: [Release.Promos,Release.Everfest],
     type: Type.Instant,
     typeText: "Generic Instant",
-    
+    cost: 0,
     
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -5281,11 +5282,11 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     sets: [Release.Promos,Release.Everfest],
     type: Type.Instant,
     typeText: "Generic Instant",
-    
+    cost: 0,
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -5305,11 +5306,11 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     sets: [Release.Promos,Release.Everfest],
     type: Type.Instant,
     typeText: "Generic Instant",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -5329,11 +5330,11 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Generic Action – Item",
-    
+    cost: 0,
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -5353,11 +5354,11 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Generic Action – Item",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -5377,11 +5378,11 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Generic Action – Item",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -5401,11 +5402,11 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Generic Action – Item",
-    
+    cost: 0,
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -5425,11 +5426,11 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Generic Action – Item",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -5449,11 +5450,11 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Generic Action – Item",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -5471,11 +5472,11 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Generic Action – Item",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -5493,11 +5494,11 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Generic Action – Item",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -5515,11 +5516,11 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Generic Action – Item",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -5537,11 +5538,11 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Generic Action – Item",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -5559,11 +5560,11 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Generic Action – Item",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -5581,11 +5582,11 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Generic Action – Item",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -5605,11 +5606,11 @@ At the beginning of your end phase, if you have less cards in arsenal than an op
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Generic Action – Item",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -5629,11 +5630,11 @@ When you play a card from your banished zone, destroy Talisman of Cremation and 
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Generic Action – Item",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -5653,11 +5654,11 @@ When an attack you control gains exactly +1{p} from an effect during the reactio
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Generic Action – Item",
-    
+    cost: 0,
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -5677,11 +5678,11 @@ Whenever you pitch a card, if you would gain exactly one {r}, instead destroy Ta
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Generic Action – Item",
-    
+    cost: 0,
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -5701,11 +5702,11 @@ If an opponent would draw 1 or more cards during your action phase, instead dest
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Generic Action – Item",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -5725,11 +5726,11 @@ When a source you control deals exactly 2 damage to an opposing hero, destroy Ta
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Generic Action – Item",
-    
+    cost: 0,
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -5747,7 +5748,7 @@ When a source you control deals exactly 2 damage to an opposing hero, destroy Ta
     sets: [Release.Everfest],
     type: Type.Token,
     typeText: "Generic Token – Item",
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: TokenSubType.Item
   }];
   

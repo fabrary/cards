@@ -1,49 +1,49 @@
 export interface Card {
   bannedFormats?: Format[];
   class: Class;
-  identifier: String;
-  functionalText: String;
-  imageUrl: String;
+  identifier: string;
+  functionalText: string;
+  imageUrl: string;
   keywords: Keyword[];
-  name: String;
+  name: string;
   rarity: Rarity;
-  setIdentifiers?: String[];
+  setIdentifiers?: string[];
   sets: Release[];
   type: Type;
-  typeText: String;
+  typeText: string;
 }
 
 export interface ActionCard extends Card {
-  cost?: Number;
-  defense?: Number;
-  pitch?: Number;
-  power?: Number;
+  cost?: number;
+  defense?: number;
+  pitch?: number;
+  power?: number;
   talents?: Talent[];
-  specialCost?: String;
-  specialDefense?: String;
-  specialPower?: String;
+  specialCost?: string;
+  specialDefense?: string;
+  specialPower?: string;
   specialization?: Hero;
   subType: ActionSubType;
 }
 
 export interface EquipmentCard extends Card {
-  defense?: Number;
+  defense?: number;
   handsRequired?: HandsRequired;
   talents?: Talent[];
   subType: EquipmentSubType;
 }
 
 export interface HeroCard extends Card {
-  intellect: Number;
+  intellect: number;
   hero: Hero;
-  life: Number;
+  life: number;
   young: boolean;
 }
 
 export interface ResourceCard extends Card {
-  cost?: Number;
-  defense?: Number;
-  pitch?: Number;
+  cost?: number;
+  defense?: number;
+  pitch?: number;
   talents?: Talent[];
   subType: ResourceSubType;
 }
@@ -54,8 +54,8 @@ export interface TokenCard extends Card {
 }
 
 export interface WeaponCard extends Card {
-  power?: Number;
-  specialPower?: String;
+  power?: number;
+  specialPower?: string;
   handsRequired: HandsRequired;
   talents?: Talent[];
   subType: WeaponSubType;

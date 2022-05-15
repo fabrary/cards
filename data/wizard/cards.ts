@@ -15,6 +15,7 @@
     Release,
     ResourceCard,
     ResourceSubType,
+    Talent,
     TokenCard,
     TokenSubType,
     Type,
@@ -36,7 +37,7 @@
     typeText: "Wizard Hero",
     intellect: 4,
     hero: Hero.Kano,
-    life: undefined,
+    life: 30,
     
   },{
     bannedFormats: [],
@@ -52,7 +53,7 @@
     typeText: "Wizard Hero – Young",
     intellect: 4,
     hero: Hero.Kano,
-    life: undefined,
+    life: 15,
     young: true,
   },{
     bannedFormats: [],
@@ -69,7 +70,7 @@
     handsRequired: HandsRequired.TwoHanded,
     
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: WeaponSubType.Staff
   },{
     bannedFormats: [],
@@ -85,9 +86,9 @@
     sets: [Release.Promos,Release.ArcaneRising],
     type: Type.Equipment,
     typeText: "Wizard Equipment – Legs",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Legs
   },{
     bannedFormats: [],
@@ -103,9 +104,9 @@
     sets: [Release.ArcaneRising],
     type: Type.Equipment,
     typeText: "Wizard Equipment – Chest",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Chest
   },{
     bannedFormats: [],
@@ -121,11 +122,11 @@ Deal X arcane damage to target hero, where X is the amount of arcane damage you 
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Wizard Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -149,7 +150,7 @@ If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -175,7 +176,7 @@ Deal 2 arcane damage to target hero.
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -201,7 +202,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -222,11 +223,11 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Wizard Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -250,7 +251,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -274,7 +275,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -298,7 +299,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -320,7 +321,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -342,7 +343,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -364,7 +365,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -388,7 +389,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -412,7 +413,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -436,7 +437,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -454,11 +455,11 @@ The next card you play this turn with an effect that deals arcane damage, instea
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Wizard Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -476,11 +477,11 @@ The next card you play this turn with an effect that deals arcane damage, instea
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Wizard Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -498,11 +499,11 @@ The next card you play this turn with an effect that deals arcane damage, instea
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Wizard Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -526,7 +527,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -550,7 +551,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -574,7 +575,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -596,7 +597,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -618,7 +619,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -640,7 +641,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -658,11 +659,11 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Wizard Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -680,11 +681,11 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Wizard Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -702,11 +703,11 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Wizard Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -728,7 +729,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -750,7 +751,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -772,7 +773,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -793,7 +794,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     handsRequired: HandsRequired.TwoHanded,
     
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: WeaponSubType.Staff
   },{
     bannedFormats: [],
@@ -809,9 +810,9 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     sets: [Release.CrucibleOfWar],
     type: Type.Equipment,
     typeText: "Wizard Equipment – Arms",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Arms
   },{
     bannedFormats: [],
@@ -831,7 +832,7 @@ If you have played another Wizard 'non-attack' action card this turn, deal 3 arc
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -851,11 +852,11 @@ If you have played another Wizard 'non-attack' action card this turn, put Gaze t
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Wizard Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -877,7 +878,7 @@ If you have played another Wizard 'non-attack' action card this turn, put Gaze t
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -899,11 +900,11 @@ The next card you play this turn with an effect that deals arcane damage, instea
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Wizard Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -925,11 +926,11 @@ The next card you play this turn with an effect that deals arcane damage, instea
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Wizard Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -951,11 +952,11 @@ The next card you play this turn with an effect that deals arcane damage, instea
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Wizard Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -979,7 +980,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1003,7 +1004,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1027,7 +1028,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1051,7 +1052,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1075,7 +1076,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1099,7 +1100,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1123,7 +1124,7 @@ If you have played another Wizard 'non-attack' action card this turn, you may pl
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1147,7 +1148,7 @@ If you have played another Wizard 'non-attack' action card this turn, you may pl
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1171,7 +1172,7 @@ If you have played another Wizard 'non-attack' action card this turn, you may pl
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1195,7 +1196,7 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
     typeText: "Elemental Wizard Hero – Young",
     intellect: 4,
     hero: Hero.Iyslander,
-    life: undefined,
+    life: 18,
     young: true,
   },{
     bannedFormats: [],
@@ -1212,7 +1213,7 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
     handsRequired: HandsRequired.TwoHanded,
     
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: WeaponSubType.Staff
   },,{
     bannedFormats: [],
@@ -1232,7 +1233,7 @@ If Aether Wildfire is played during an opponents turn, until end of turn, action
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1254,7 +1255,7 @@ If Aether Wildfire is played during an opponents turn, until end of turn, action
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     specialCost: "X",
     
@@ -1276,7 +1277,7 @@ If Aether Wildfire is played during an opponents turn, until end of turn, action
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1298,7 +1299,7 @@ If Aether Wildfire is played during an opponents turn, until end of turn, action
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1320,7 +1321,7 @@ If Aether Wildfire is played during an opponents turn, until end of turn, action
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1340,11 +1341,11 @@ You may choose a card revealed this way. If you do, that hero puts it on the bot
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Wizard Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1364,11 +1365,11 @@ You may choose a card revealed this way. If you do, that hero puts it on the bot
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Wizard Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1388,11 +1389,11 @@ You may choose a card revealed this way. If you do, that hero puts it on the bot
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Wizard Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1416,7 +1417,7 @@ At the beginning of your action phase, destroy Pyroglyphic Protection.`,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1440,7 +1441,7 @@ At the beginning of your action phase, destroy Pyroglyphic Protection.`,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1464,7 +1465,7 @@ At the beginning of your action phase, destroy Pyroglyphic Protection.`,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1488,7 +1489,7 @@ If Timekeeper's Whim is played during an opponents turn, put it on the bottom of
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1512,7 +1513,7 @@ If Timekeeper's Whim is played during an opponents turn, put it on the bottom of
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1536,7 +1537,7 @@ If Timekeeper's Whim is played during an opponents turn, put it on the bottom of
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     

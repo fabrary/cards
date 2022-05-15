@@ -15,6 +15,7 @@
     Release,
     ResourceCard,
     ResourceSubType,
+    Talent,
     TokenCard,
     TokenSubType,
     Type,
@@ -36,7 +37,7 @@
     typeText: "Bard Hero – Young",
     intellect: 4,
     hero: Hero.Yorick,
-    life: undefined,
+    life: 20,
     young: true,
   }];
   

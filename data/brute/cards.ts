@@ -15,6 +15,7 @@
     Release,
     ResourceCard,
     ResourceSubType,
+    Talent,
     TokenCard,
     TokenSubType,
     Type,
@@ -36,7 +37,7 @@
     typeText: "Brute Hero",
     intellect: 4,
     hero: Hero.Rhinar,
-    life: undefined,
+    life: 40,
     
   },{
     bannedFormats: [],
@@ -52,7 +53,7 @@
     typeText: "Brute Hero – Young",
     intellect: 4,
     hero: Hero.Rhinar,
-    life: undefined,
+    life: 20,
     young: true,
   },{
     bannedFormats: [],
@@ -71,7 +72,7 @@
     handsRequired: HandsRequired.TwoHanded,
     power: 4,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: WeaponSubType.Club
   },{
     bannedFormats: [],
@@ -89,7 +90,7 @@
     typeText: "Brute Equipment - Legs",
     defense: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Legs
   },{
     bannedFormats: [],
@@ -107,7 +108,7 @@
     typeText: "Brute Equipment – Chest",
     defense: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Chest
   },{
     bannedFormats: [],
@@ -129,7 +130,7 @@ As an additional cost to play Alpha Rampage, discard a random card.
     defense: 3,
     pitch: 1,
     power: 9,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -155,7 +156,7 @@ If the discarded card has 6 or more {p}, draw 2 cards and Bloodrush Bellow gains
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -177,11 +178,11 @@ If the discarded card has 6 or more {p}, gain 2 action points.`,
     sets: [Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Brute Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -203,7 +204,7 @@ If the discarded card has 6 or more {p}, gain 2 action points.`,
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -227,7 +228,7 @@ If the discarded card has 6 or more {p}, Breakneck Battery gains **go again**.`,
     defense: 3,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -251,7 +252,7 @@ If the discarded card has 6 or more {p}, Breakneck Battery gains **go again**.`,
     defense: 3,
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -275,7 +276,7 @@ If the discarded card has 6 or more {p}, Breakneck Battery gains **go again**.`,
     defense: 3,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -299,7 +300,7 @@ If the discarded card has 6 or more {p}, draw a card.`,
     defense: 3,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -323,7 +324,7 @@ If the discarded card has 6 or more {p}, draw a card.`,
     defense: 3,
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -347,7 +348,7 @@ If the discarded card has 6 or more {p}, draw a card.`,
     defense: 3,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -369,11 +370,11 @@ If the discarded card has 6 or more {p}, draw a card.`,
     sets: [Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Brute Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -395,11 +396,11 @@ If the discarded card has 6 or more {p}, draw a card.`,
     sets: [Release.WelcomeToRathe,Release.HeroDeck],
     type: Type.Action,
     typeText: "Brute Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -421,11 +422,11 @@ If the discarded card has 6 or more {p}, draw a card.`,
     sets: [Release.WelcomeToRathe,Release.HeroDeck],
     type: Type.Action,
     typeText: "Brute Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -447,7 +448,7 @@ If the discarded card has 6 or more {p}, draw a card.`,
     defense: 3,
     pitch: 1,
     power: 7,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -469,7 +470,7 @@ If the discarded card has 6 or more {p}, draw a card.`,
     defense: 3,
     pitch: 2,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -491,7 +492,7 @@ If the discarded card has 6 or more {p}, draw a card.`,
     defense: 3,
     pitch: 3,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -513,7 +514,7 @@ If the discarded card has 6 or more {p}, draw a card.`,
     defense: 3,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -535,7 +536,7 @@ If the discarded card has 6 or more {p}, draw a card.`,
     defense: 3,
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -557,7 +558,7 @@ If the discarded card has 6 or more {p}, draw a card.`,
     defense: 3,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -579,7 +580,7 @@ If the discarded card has 6 or more {p}, draw a card.`,
     defense: 3,
     pitch: 1,
     power: 7,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -601,7 +602,7 @@ If the discarded card has 6 or more {p}, draw a card.`,
     defense: 3,
     pitch: 2,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -623,7 +624,7 @@ If the discarded card has 6 or more {p}, draw a card.`,
     defense: 3,
     pitch: 3,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -645,7 +646,7 @@ If the discarded card has 6 or more {p}, draw a card.`,
     defense: 3,
     pitch: 1,
     power: 8,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -667,7 +668,7 @@ If the discarded card has 6 or more {p}, draw a card.`,
     defense: 3,
     pitch: 2,
     power: 7,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -689,7 +690,7 @@ If the discarded card has 6 or more {p}, draw a card.`,
     defense: 3,
     pitch: 3,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -715,7 +716,7 @@ If the discarded card has 6 or more {p}, draw a card.`,
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -741,7 +742,7 @@ If the discarded card has 6 or more {p}, draw a card.`,
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -767,7 +768,7 @@ If the discarded card has 6 or more {p}, draw a card.`,
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -789,11 +790,11 @@ Your next Brute attack this turn gains +5{p}
     sets: [Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Brute Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -815,11 +816,11 @@ Your next Brute attack this turn gains +4{p}
     sets: [Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Brute Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -841,11 +842,11 @@ Your next Brute attack this turn gains +3{p}
     sets: [Release.WelcomeToRathe,Release.HeroDeck],
     type: Type.Action,
     typeText: "Brute Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -869,7 +870,7 @@ Your next Brute attack this turn gains +3{p}
     typeText: "Brute Hero – Young",
     intellect: 4,
     hero: Hero.Kayo,
-    life: undefined,
+    life: 19,
     young: true,
   },{
     bannedFormats: [],
@@ -888,7 +889,7 @@ If you have discarded a card with 6 or more {p} this turn, Mandible Claw gains *
     handsRequired: HandsRequired.OneHanded,
     power: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: WeaponSubType.Claw
   },{
     bannedFormats: [],
@@ -904,9 +905,9 @@ If you have discarded a card with 6 or more {p} this turn, Mandible Claw gains *
     sets: [Release.CrucibleOfWar],
     type: Type.Equipment,
     typeText: "Brute Equipment – Head",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Head
   },{
     bannedFormats: [],
@@ -924,7 +925,7 @@ If you have discarded a card with 6 or more {p} this turn, Mandible Claw gains *
     defense: 3,
     pitch: 2,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -948,7 +949,7 @@ If Massacre is discarded to pay the cost of a Brute attack action card, the atta
     defense: 3,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -972,7 +973,7 @@ If Massacre is discarded to pay the cost of a Brute attack action card, the atta
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -996,7 +997,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     defense: 3,
     pitch: 1,
     power: 7,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1020,7 +1021,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     defense: 3,
     pitch: 2,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1044,7 +1045,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     defense: 3,
     pitch: 3,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1066,7 +1067,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     defense: 3,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1088,7 +1089,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     defense: 3,
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1110,7 +1111,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     defense: 3,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1132,7 +1133,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     defense: 3,
     pitch: 1,
     power: 7,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1154,7 +1155,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     defense: 3,
     pitch: 2,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1176,7 +1177,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     defense: 3,
     pitch: 3,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1200,7 +1201,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1224,7 +1225,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1248,7 +1249,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1268,7 +1269,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     typeText: "Shadow Brute Hero",
     intellect: 4,
     hero: Hero.Levia,
-    life: undefined,
+    life: 40,
     
   },{
     bannedFormats: [],
@@ -1284,7 +1285,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     typeText: "Shadow Brute Hero – Young",
     intellect: 4,
     hero: Hero.Levia,
-    life: undefined,
+    life: 20,
     young: true,
   },{
     bannedFormats: [],
@@ -1303,7 +1304,7 @@ Whenever you attack with Hexagore, the Death Hydra, it deals damage to you equal
     handsRequired: HandsRequired.TwoHanded,
     power: 6,
     
-    talents: [],
+    talents: [Talent.Shadow],
     subType: WeaponSubType.Flail
   },{
     bannedFormats: [],
@@ -1321,7 +1322,7 @@ Whenever you attack with Hexagore, the Death Hydra, it deals damage to you equal
     typeText: "Shadow Brute Equipment – Legs",
     defense: 1,
     
-    talents: [],
+    talents: [Talent.Shadow],
     subType: EquipmentSubType.Legs
   },{
     bannedFormats: [],
@@ -1341,7 +1342,7 @@ Whenever you attack with Hexagore, the Death Hydra, it deals damage to you equal
     
     pitch: 2,
     power: 6,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1365,7 +1366,7 @@ Whenever you attack with Hexagore, the Death Hydra, it deals damage to you equal
     defense: 3,
     pitch: 2,
     power: 6,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1389,7 +1390,7 @@ Whenever you attack with Hexagore, the Death Hydra, it deals damage to you equal
     
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1415,7 +1416,7 @@ If a card with 6 or more {p} is banished this way, Endless maw gains +3{p}.
     defense: 3,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1441,7 +1442,7 @@ If a card with 6 or more {p} is banished this way, Endless maw gains +3{p}.
     defense: 3,
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1467,7 +1468,7 @@ If a card with 6 or more {p} is banished this way, Endless maw gains +3{p}.
     defense: 3,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1493,7 +1494,7 @@ If a card with 6 or more {p} is banished this way, Writhing Beast Hulk gains **d
     defense: 3,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1519,7 +1520,7 @@ If a card with 6 or more {p} is banished this way, Writhing Beast Hulk gains **d
     defense: 3,
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1545,7 +1546,7 @@ If a card with 6 or more {p} is banished this way, Writhing Beast Hulk gains **d
     defense: 3,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1571,7 +1572,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1597,7 +1598,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1623,7 +1624,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1647,7 +1648,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     defense: 3,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1671,7 +1672,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     defense: 3,
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1695,7 +1696,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     defense: 3,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1719,7 +1720,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     pitch: 1,
     power: 8,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1743,7 +1744,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     pitch: 2,
     power: 7,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1767,7 +1768,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     pitch: 3,
     power: 6,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1793,7 +1794,7 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
     defense: 3,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1819,7 +1820,7 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
     defense: 3,
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1845,7 +1846,7 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
     defense: 3,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1869,7 +1870,7 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
     defense: 3,
     pitch: 1,
     power: 7,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1893,7 +1894,7 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
     defense: 3,
     pitch: 2,
     power: 6,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1917,7 +1918,7 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
     defense: 3,
     pitch: 3,
     power: 5,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1941,7 +1942,7 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
     defense: 3,
     pitch: 1,
     power: 7,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1965,7 +1966,7 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
     defense: 3,
     pitch: 2,
     power: 6,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1989,7 +1990,7 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
     defense: 3,
     pitch: 3,
     power: 5,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -2015,7 +2016,7 @@ The next Brute or Shadow attack action card you play this turn gains +4{p}.
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -2041,7 +2042,7 @@ The next Brute or Shadow attack action card you play this turn gains +3{p}.
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -2067,7 +2068,7 @@ The next Brute or Shadow attack action card you play this turn gains +2{p}.
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -2090,7 +2091,7 @@ Whenever you attack with Ravenous Meataxe, draw a card then discard a random car
     handsRequired: HandsRequired.TwoHanded,
     power: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: WeaponSubType.Axe
   },{
     bannedFormats: [],
@@ -2110,7 +2111,7 @@ Whenever you attack with Ravenous Meataxe, draw a card then discard a random car
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2134,7 +2135,7 @@ While Pulping is defended by less than 2 non-equipment cards, it has **go again.
     
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2158,7 +2159,7 @@ While Pulping is defended by less than 2 non-equipment cards, it has **go again.
     
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2182,7 +2183,7 @@ While Pulping is defended by less than 2 non-equipment cards, it has **go again.
     
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2204,7 +2205,7 @@ While Pulping is defended by less than 2 non-equipment cards, it has **go again.
     
     pitch: 1,
     power: 7,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2226,7 +2227,7 @@ While Pulping is defended by less than 2 non-equipment cards, it has **go again.
     
     pitch: 2,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2248,7 +2249,7 @@ While Pulping is defended by less than 2 non-equipment cards, it has **go again.
     
     pitch: 3,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2272,7 +2273,7 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     typeText: "Brute Equipment – Arms",
     defense: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Arms
   },{
     bannedFormats: [],
@@ -2290,7 +2291,7 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     defense: 3,
     pitch: 1,
     power: 8,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2312,11 +2313,11 @@ If you would roll 1 or more dice this turn, instead roll that many dice plus 1 a
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Brute Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2340,7 +2341,7 @@ If you would roll 1 or more dice this turn, instead roll that many dice plus 1 a
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2362,11 +2363,11 @@ If you have rolled a 4, 5, or 6 on a die this turn, instead **intimidate** twice
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Brute Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2388,11 +2389,11 @@ If you have rolled a 5 or 6 on a die this turn, instead **intimidate** twice.
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Brute Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2414,11 +2415,11 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Brute Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2440,7 +2441,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
     
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2462,7 +2463,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
     
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2484,7 +2485,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
     
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2506,7 +2507,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
     
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2528,7 +2529,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
     
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2550,7 +2551,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
     
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2570,11 +2571,11 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Brute Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2594,11 +2595,11 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Brute Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2618,11 +2619,11 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Brute Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     

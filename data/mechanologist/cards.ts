@@ -15,6 +15,7 @@
     Release,
     ResourceCard,
     ResourceSubType,
+    Talent,
     TokenCard,
     TokenSubType,
     Type,
@@ -36,7 +37,7 @@
     typeText: "Mechanologist Hero",
     intellect: 4,
     hero: Hero.Dash,
-    life: undefined,
+    life: 40,
     
   },{
     bannedFormats: [],
@@ -52,7 +53,7 @@
     typeText: "Mechanologist Hero – Young",
     intellect: 4,
     hero: Hero.Dash,
-    life: undefined,
+    life: 20,
     young: true,
   },{
     bannedFormats: [],
@@ -71,7 +72,7 @@
     handsRequired: HandsRequired.TwoHanded,
     power: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: WeaponSubType.Pistol
   },{
     bannedFormats: [],
@@ -89,7 +90,7 @@
     typeText: "Mechanologist Equipment – Chest",
     defense: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Chest
   },{
     bannedFormats: [],
@@ -105,9 +106,9 @@
     sets: [Release.ArcaneRising],
     type: Type.Equipment,
     typeText: "Mechanologist Equipment – Legs",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Legs
   },{
     bannedFormats: [],
@@ -129,7 +130,7 @@ Draw a card.
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -151,11 +152,11 @@ At the beginning of your action phase, remove a steam counter from Teklo Core an
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Mechanologist Action – Item",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -177,7 +178,7 @@ At the beginning of your action phase, remove a steam counter from Teklo Core an
     defense: 3,
     pitch: 1,
     power: 10,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -203,7 +204,7 @@ If you have **boosted** this turn, draw a card.`,
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     specialCost: "XX",
     
@@ -227,7 +228,7 @@ If you have **boosted** this turn, draw a card.`,
     
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -251,7 +252,7 @@ If you have **boosted** this turn, draw a card.`,
     defense: 3,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -275,7 +276,7 @@ If you have **boosted** this turn, draw a card.`,
     defense: 3,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -299,7 +300,7 @@ If you have **boosted** this turn, draw a card.`,
     defense: 3,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -321,11 +322,11 @@ If you have **boosted** this turn, put a steam counter on it.
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Mechanologist Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -347,11 +348,11 @@ If you have **boosted** this turn, put a steam counter on it.
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Mechanologist Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -373,11 +374,11 @@ If you have **boosted** this turn, put a steam counter on it.
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Mechanologist Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -403,7 +404,7 @@ If you have **boosted** this turn, put a steam counter on it.
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -427,7 +428,7 @@ If you have **boosted** this turn, put a steam counter on it.
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -447,11 +448,11 @@ If you have **boosted** this turn, put a steam counter on it.
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Mechanologist Action – Item",
-    
+    cost: 0,
     
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -475,7 +476,7 @@ If you have **boosted** this turn, put a steam counter on it.
     defense: 3,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -499,7 +500,7 @@ If you have **boosted** this turn, put a steam counter on it.
     defense: 3,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -523,7 +524,7 @@ If you have **boosted** this turn, put a steam counter on it.
     defense: 3,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -545,7 +546,7 @@ If you have **boosted** this turn, put a steam counter on it.
     defense: 3,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -567,7 +568,7 @@ If you have **boosted** this turn, put a steam counter on it.
     defense: 3,
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -589,7 +590,7 @@ If you have **boosted** this turn, put a steam counter on it.
     defense: 3,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -607,11 +608,11 @@ If you have **boosted** this turn, put a steam counter on it.
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Mechanologist Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -629,11 +630,11 @@ If you have **boosted** this turn, put a steam counter on it.
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Mechanologist Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -651,11 +652,11 @@ If you have **boosted** this turn, put a steam counter on it.
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Mechanologist Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -677,7 +678,7 @@ If you have **boosted** this turn, put a steam counter on it.
     defense: 3,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -699,7 +700,7 @@ If you have **boosted** this turn, put a steam counter on it.
     defense: 3,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -721,7 +722,7 @@ If you have **boosted** this turn, put a steam counter on it.
     defense: 3,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -743,11 +744,11 @@ If you have **boosted** this turn, **opt 1**. *(Look at the top card of your dec
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Mechanologist Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -769,11 +770,11 @@ If you have **boosted** this turn, **opt 1**. *(Look at the top card of your dec
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Mechanologist Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -795,11 +796,11 @@ If you have **boosted** this turn, **opt 1**. *(Look at the top card of your dec
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Mechanologist Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -825,7 +826,7 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -849,7 +850,7 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
     
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -869,11 +870,11 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Mechanologist Action – Item",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -893,7 +894,7 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
     typeText: "Mechanologist Hero – Young",
     intellect: 3,
     hero: Hero.DataDoll,
-    life: undefined,
+    life: 20,
     young: true,
   },{
     bannedFormats: [],
@@ -914,7 +915,7 @@ Plasma Barrel Shot's {p} is equal to 1 plus the number of times you have **boost
     handsRequired: HandsRequired.TwoHanded,
     
     specialPower: "X",
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: WeaponSubType.Gun
   },{
     bannedFormats: [],
@@ -930,9 +931,9 @@ Plasma Barrel Shot's {p} is equal to 1 plus the number of times you have **boost
     sets: [Release.CrucibleOfWar],
     type: Type.Equipment,
     typeText: "Mechanologist, Equipment – Head",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Head
   },{
     bannedFormats: [],
@@ -950,7 +951,7 @@ Plasma Barrel Shot's {p} is equal to 1 plus the number of times you have **boost
     defense: 3,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -972,11 +973,11 @@ When Absorption Dome has no steam counters on it, destroy it.`,
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Mechanologist Action – Item",
-    
+    cost: 0,
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1000,7 +1001,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
     
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1024,7 +1025,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1048,7 +1049,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1072,7 +1073,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1096,7 +1097,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1120,7 +1121,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1144,7 +1145,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1166,7 +1167,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
     defense: 3,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1188,7 +1189,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
     defense: 3,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1210,7 +1211,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
     defense: 3,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1230,11 +1231,11 @@ Reveal the top card of your deck. If it's a Mechanologist item card with cost 2 
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Mechanologist Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1254,11 +1255,11 @@ Reveal the top card of your deck. If it's a Mechanologist item card with cost 1 
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Mechanologist Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1278,11 +1279,11 @@ Reveal the top card of your deck. If it's a Mechanologist item card with cost 0 
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Mechanologist Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1308,7 +1309,7 @@ Whenever your hero would be dealt exactly 1 damage, prevent it.`,
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1338,7 +1339,7 @@ The first time you activate Micro-processor each turn, gain 1 action point.`,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1360,11 +1361,11 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Mechanologist Action – Item",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1388,7 +1389,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1408,11 +1409,11 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Mechanologist Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1432,11 +1433,11 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Mechanologist Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1456,11 +1457,11 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Mechanologist Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     power: 1,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1482,7 +1483,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     defense: 3,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1504,7 +1505,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     defense: 3,
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1526,7 +1527,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     defense: 3,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1550,7 +1551,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     defense: 3,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1574,7 +1575,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     defense: 3,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1598,7 +1599,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     defense: 3,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1620,11 +1621,11 @@ If you have **boosted** this turn, put Rotary Ram on the bottom of your deck.
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Mechanologist Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1646,11 +1647,11 @@ If you have **boosted** this turn, put Rotary Ram on the bottom of your deck.
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Mechanologist Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1672,11 +1673,11 @@ If you have **boosted** this turn, put Rotary Ram on the bottom of your deck.
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Mechanologist Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     

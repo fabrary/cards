@@ -1,7 +1,7 @@
 {
   "name": "fab-cards",
   "description": "CSV, JSON, and JavaScript/TypeScript representations of Flesh and Blood cards",
-  "version": "1.0.3",
+  "version": "1.0.7",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -13,7 +13,7 @@
     "full": "npm run generate && npm run build && npm test"
   },
   "devDependencies": {
-    "@types/node": "^17.0.30",
+    "@types/node": "^17.0.31",
     "@types/papaparse": "^5.3.2",
     "esbuild": "^0.14.38",
     "papaparse": "^5.3.2",

@@ -15,6 +15,7 @@
     Release,
     ResourceCard,
     ResourceSubType,
+    Talent,
     TokenCard,
     TokenSubType,
     Type,
@@ -36,7 +37,7 @@
     typeText: "Ranger Hero",
     intellect: 4,
     hero: Hero.Azalea,
-    life: undefined,
+    life: 40,
     
   },{
     bannedFormats: [],
@@ -52,7 +53,7 @@
     typeText: "Ranger Hero – Young",
     intellect: 4,
     hero: Hero.Azalea,
-    life: undefined,
+    life: 20,
     young: true,
   },{
     bannedFormats: [],
@@ -69,7 +70,7 @@
     handsRequired: HandsRequired.TwoHanded,
     
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: WeaponSubType.Bow
   },{
     bannedFormats: [],
@@ -89,7 +90,7 @@
     typeText: "Ranger Equipment – Head",
     defense: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Head
   },{
     bannedFormats: [],
@@ -105,9 +106,9 @@
     sets: [Release.ArcaneRising],
     type: Type.Equipment,
     typeText: "Ranger Equipment – Arms",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Arms
   },{
     bannedFormats: [],
@@ -129,7 +130,7 @@ If Red in the Ledger hits a hero, they can't play or activate more than 1 action
     defense: 3,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -153,7 +154,7 @@ If Red in the Ledger hits a hero, they can't play or activate more than 1 action
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -173,11 +174,11 @@ If Endless Arrow hits, put it into your hand.`,
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Ranger Action – Arrow Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -201,11 +202,11 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Ranger Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -225,11 +226,11 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Ranger Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -253,7 +254,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -277,7 +278,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -301,7 +302,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -323,11 +324,11 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Ranger Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -349,11 +350,11 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Ranger Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -375,11 +376,11 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Ranger Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -403,7 +404,7 @@ If Head Shot is put into your arsenal face up, it gains +2{p} until end of turn.
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -427,7 +428,7 @@ If Head Shot is put into your arsenal face up, it gains +2{p} until end of turn.
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -451,7 +452,7 @@ If Head Shot is put into your arsenal face up, it gains +2{p} until end of turn.
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -475,7 +476,7 @@ If Hamstring Shot hits a hero, their first attack during their next turn costs a
     defense: 3,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -499,7 +500,7 @@ If Hamstring Shot hits a hero, their first attack during their next turn costs a
     defense: 3,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -523,7 +524,7 @@ If Hamstring Shot hits a hero, their first attack during their next turn costs a
     defense: 3,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -543,11 +544,11 @@ If Ridge Rider Shot is put into your arsenal face up, **opt 1.** *(Look at the t
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Ranger Action – Arrow Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -567,11 +568,11 @@ If Ridge Rider Shot is put into your arsenal face up, **opt 1.** *(Look at the t
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Ranger Action – Arrow Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -591,11 +592,11 @@ If Ridge Rider Shot is put into your arsenal face up, **opt 1.** *(Look at the t
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Ranger Action – Arrow Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -619,7 +620,7 @@ If Salvage Shot hits, put it on the bottom of your deck when the chain link reso
     defense: 3,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -643,7 +644,7 @@ If Salvage Shot hits, put it on the bottom of your deck when the chain link reso
     defense: 3,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -667,7 +668,7 @@ If Salvage Shot hits, put it on the bottom of your deck when the chain link reso
     defense: 3,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -687,11 +688,11 @@ If Searing Shot hits a hero, they lose 1{h}.`,
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Ranger Action – Arrow Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -711,11 +712,11 @@ If Searing Shot hits a hero, they lose 1{h}.`,
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Ranger Action – Arrow Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -735,11 +736,11 @@ If Searing Shot hits a hero, they lose 1{h}.`,
     sets: [Release.ArcaneRising],
     type: Type.Action,
     typeText: "Ranger Action – Arrow Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -763,7 +764,7 @@ If Searing Shot hits a hero, they lose 1{h}.`,
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -787,7 +788,7 @@ If Searing Shot hits a hero, they lose 1{h}.`,
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -811,7 +812,7 @@ If Searing Shot hits a hero, they lose 1{h}.`,
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -832,7 +833,7 @@ If Searing Shot hits a hero, they lose 1{h}.`,
     handsRequired: HandsRequired.TwoHanded,
     
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: WeaponSubType.Bow
   },{
     bannedFormats: [],
@@ -852,7 +853,7 @@ If Searing Shot hits a hero, they lose 1{h}.`,
     typeText: "Ranger Equipment – Legs",
     defense: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Legs
   },{
     bannedFormats: [],
@@ -874,7 +875,7 @@ If Remorseless hits a hero, until the end of their next turn, whenever they play
     defense: 3,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -896,11 +897,11 @@ If Remorseless hits a hero, until the end of their next turn, whenever they play
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Ranger Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -924,7 +925,7 @@ The next time your hero would be dealt damage this turn, prevent it.`,
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -944,11 +945,11 @@ If Pathing Helix hits and you have no cards in your arsenal, you may put a card 
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Ranger Action – Arrow Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -968,11 +969,11 @@ If Pathing Helix hits and you have no cards in your arsenal, you may put a card 
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Ranger Action – Arrow Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -992,11 +993,11 @@ If Pathing Helix hits and you have no cards in your arsenal, you may put a card 
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Ranger Action – Arrow Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1020,7 +1021,7 @@ If Sleep Dart hits a hero, they lose all hero card effects and activated abiliti
     defense: 3,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1044,7 +1045,7 @@ If Sleep Dart hits a hero, they lose all hero card effects and activated abiliti
     defense: 3,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1068,7 +1069,7 @@ If Sleep Dart hits a hero, they lose all hero card effects and activated abiliti
     defense: 3,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1092,7 +1093,7 @@ If Sleep Dart hits a hero, they lose all hero card effects and activated abiliti
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1116,7 +1117,7 @@ If Sleep Dart hits a hero, they lose all hero card effects and activated abiliti
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1140,7 +1141,7 @@ If Sleep Dart hits a hero, they lose all hero card effects and activated abiliti
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1162,7 +1163,7 @@ If Sleep Dart hits a hero, they lose all hero card effects and activated abiliti
     typeText: "Elemental Ranger Hero",
     intellect: 4,
     hero: Hero.Lexi,
-    life: undefined,
+    life: 40,
     
   },{
     bannedFormats: [],
@@ -1180,7 +1181,7 @@ If Sleep Dart hits a hero, they lose all hero card effects and activated abiliti
     typeText: "Elemental Ranger Hero – Young",
     intellect: 4,
     hero: Hero.Lexi,
-    life: undefined,
+    life: 20,
     young: true,
   },{
     bannedFormats: [],
@@ -1201,7 +1202,7 @@ If Sleep Dart hits a hero, they lose all hero card effects and activated abiliti
     handsRequired: HandsRequired.TwoHanded,
     
     
-    talents: [],
+    talents: [Talent.Elemental],
     subType: WeaponSubType.Bow
   },{
     bannedFormats: [],
@@ -1221,7 +1222,7 @@ If Sleep Dart hits a hero, they lose all hero card effects and activated abiliti
     handsRequired: HandsRequired.TwoHanded,
     
     
-    talents: [],
+    talents: [Talent.Elemental],
     subType: WeaponSubType.Bow
   },{
     bannedFormats: [],
@@ -1245,7 +1246,7 @@ If Frost Lock was **fused**, it gains +1{p} and "If this hits a hero, until the 
     defense: 3,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1273,7 +1274,7 @@ If Light it Up deals damage to a hero equal to or greater than the number of equ
     defense: 3,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1297,11 +1298,11 @@ If Ice Storm was **fused**, your next arrow attack this turn gains "If this hits
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Elemental Ranger Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1327,7 +1328,7 @@ If Cold Wave was **fused**, cards and activated abilities cost opposing heroes a
     defense: 3,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1353,7 +1354,7 @@ If Cold Wave was **fused**, cards and activated abilities cost opposing heroes a
     defense: 3,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1379,7 +1380,7 @@ If Cold Wave was **fused**, cards and activated abilities cost opposing heroes a
     defense: 3,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1401,11 +1402,11 @@ If Snap Shot was **fused**, you may activate abilities of bows you control an ad
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Elemental Ranger Action – Arrow Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1427,11 +1428,11 @@ If Snap Shot was **fused**, you may activate abilities of bows you control an ad
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Elemental Ranger Action – Arrow Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1453,11 +1454,11 @@ If Snap Shot was **fused**, you may activate abilities of bows you control an ad
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Elemental Ranger Action – Arrow Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1483,7 +1484,7 @@ If Blizzard Bolt was **fused**, whenever an attack deals damage to a hero this t
     defense: 3,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1509,7 +1510,7 @@ If Blizzard Bolt was **fused**, whenever an attack deals damage to a hero this t
     defense: 3,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1535,7 +1536,7 @@ If Blizzard Bolt was **fused**, whenever an attack deals damage to a hero this t
     defense: 3,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1561,7 +1562,7 @@ If Buzz Bolt was **fused**, whenever an attack hits a hero this turn, it deals 1
     defense: 3,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1587,7 +1588,7 @@ If Buzz Bolt was **fused**, whenever an attack hits a hero this turn, it deals 1
     defense: 3,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1613,7 +1614,7 @@ If Buzz Bolt was **fused**, whenever an attack hits a hero this turn, it deals 1
     defense: 3,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1639,7 +1640,7 @@ If Chilling Icevein was **fused**, whenever an attack deals damage to a hero thi
     defense: 3,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1665,7 +1666,7 @@ If Chilling Icevein was **fused**, whenever an attack deals damage to a hero thi
     defense: 3,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1691,7 +1692,7 @@ If Chilling Icevein was **fused**, whenever an attack deals damage to a hero thi
     defense: 3,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1713,11 +1714,11 @@ If Dazzling Crescendo was **fused**, it gains **go again.**`,
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Elemental Ranger Action – Arrow Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1739,11 +1740,11 @@ If Dazzling Crescendo was **fused**, it gains **go again.**`,
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Elemental Ranger Action – Arrow Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1765,11 +1766,11 @@ If Dazzling Crescendo was **fused**, it gains **go again.**`,
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Elemental Ranger Action – Arrow Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1795,7 +1796,7 @@ If Flake Out was **fused**, it gains **dominate.** *(The defending hero can't de
     defense: 3,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1821,7 +1822,7 @@ If Flake Out was **fused**, it gains **dominate.** *(The defending hero can't de
     defense: 3,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1847,7 +1848,7 @@ If Flake Out was **fused**, it gains **dominate.** *(The defending hero can't de
     defense: 3,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1873,7 +1874,7 @@ If Frazzle was **fused**, whenever an attack would deal damage this turn, instea
     defense: 3,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1899,7 +1900,7 @@ If Frazzle was **fused**, whenever an attack would deal damage this turn, instea
     defense: 3,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1925,7 +1926,7 @@ If Frazzle was **fused**, whenever an attack would deal damage this turn, instea
     defense: 3,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1949,7 +1950,7 @@ If New Horizon is destroyed, destroy all cards in your arsenal.
     typeText: "Ranger Equipment – Head",
     defense: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Head
   },{
     bannedFormats: [],
@@ -1963,9 +1964,9 @@ If New Horizon is destroyed, destroy all cards in your arsenal.
     sets: [Release.TalesOfAria],
     type: Type.Equipment,
     typeText: "Ranger Equipment – Head",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Head
   },{
     bannedFormats: [],
@@ -1981,11 +1982,11 @@ If New Horizon is destroyed, destroy all cards in your arsenal.
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Ranger Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2005,11 +2006,11 @@ If Bolt'n' Shot's {p} is greater than its base {p}, it has **go again** and "If 
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Ranger Action – Arrow Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2029,11 +2030,11 @@ If Bolt'n' Shot's {p} is greater than its base {p}, it has **go again** and "If 
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Ranger Action – Arrow Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2053,11 +2054,11 @@ If Bolt'n' Shot's {p} is greater than its base {p}, it has **go again** and "If 
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Ranger Action – Arrow Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2083,7 +2084,7 @@ If Bolt'n' Shot's {p} is greater than its base {p}, it has **go again** and "If 
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2109,7 +2110,7 @@ If Bolt'n' Shot's {p} is greater than its base {p}, it has **go again** and "If 
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2135,7 +2136,7 @@ If Bolt'n' Shot's {p} is greater than its base {p}, it has **go again** and "If 
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2158,7 +2159,7 @@ Arrows you control have "Defense reactions can't be played from hand this chain 
     handsRequired: HandsRequired.TwoHanded,
     
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: WeaponSubType.Bow
   },{
     bannedFormats: [],
@@ -2178,7 +2179,7 @@ If Battering Bolt hits a hero, they reveal their hand and discard all cards othe
     defense: 3,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2198,11 +2199,11 @@ If Battering Bolt hits a hero, they reveal their hand and discard all cards othe
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Ranger Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2220,11 +2221,11 @@ If Battering Bolt hits a hero, they reveal their hand and discard all cards othe
     sets: [Release.Everfest],
     type: Type.Instant,
     typeText: "Ranger Instant",
-    
+    cost: 0,
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2244,11 +2245,11 @@ If Battering Bolt hits a hero, they reveal their hand and discard all cards othe
     sets: [Release.Promos,Release.Everfest],
     type: Type.Action,
     typeText: "Ranger Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2268,11 +2269,11 @@ If Battering Bolt hits a hero, they reveal their hand and discard all cards othe
     sets: [Release.Promos,Release.Everfest],
     type: Type.Action,
     typeText: "Ranger Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2292,11 +2293,11 @@ If Battering Bolt hits a hero, they reveal their hand and discard all cards othe
     sets: [Release.Promos,Release.Everfest],
     type: Type.Action,
     typeText: "Ranger Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2320,7 +2321,7 @@ When Fatigue Shot hits a hero, the base {p} of the first attack action card they
     defense: 3,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2344,7 +2345,7 @@ When Fatigue Shot hits a hero, the base {p} of the first attack action card they
     defense: 3,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2368,7 +2369,7 @@ When Fatigue Shot hits a hero, the base {p} of the first attack action card they
     defense: 3,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2392,7 +2393,7 @@ When Timidity Point hits a hero, attacks they control lose and can't gain **domi
     defense: 3,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2416,7 +2417,7 @@ When Timidity Point hits a hero, attacks they control lose and can't gain **domi
     defense: 3,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2440,7 +2441,7 @@ When Timidity Point hits a hero, attacks they control lose and can't gain **domi
     defense: 3,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2462,11 +2463,11 @@ When Timidity Point hits a hero, attacks they control lose and can't gain **domi
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Ranger Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2488,11 +2489,11 @@ When Timidity Point hits a hero, attacks they control lose and can't gain **domi
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Ranger Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2514,11 +2515,11 @@ When Timidity Point hits a hero, attacks they control lose and can't gain **domi
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Ranger Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     

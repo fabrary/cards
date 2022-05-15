@@ -15,6 +15,7 @@
     Release,
     ResourceCard,
     ResourceSubType,
+    Talent,
     TokenCard,
     TokenSubType,
     Type,
@@ -36,7 +37,7 @@
     typeText: "Warrior Hero",
     intellect: 4,
     hero: Hero.Dorinthea,
-    life: undefined,
+    life: 40,
     
   },{
     bannedFormats: [],
@@ -52,7 +53,7 @@
     typeText: "Warrior Hero – Young",
     intellect: 4,
     hero: Hero.Dorinthea,
-    life: undefined,
+    life: 20,
     young: true,
   },{
     bannedFormats: [],
@@ -73,7 +74,7 @@ At the beginning of your end phase, if Dawnblade has not hit this turn, remove a
     handsRequired: HandsRequired.TwoHanded,
     power: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: WeaponSubType.Sword
   },{
     bannedFormats: [],
@@ -91,7 +92,7 @@ At the beginning of your end phase, if Dawnblade has not hit this turn, remove a
     typeText: "Warrior Equipment – Arms",
     defense: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Arms
   },{
     bannedFormats: [],
@@ -109,7 +110,7 @@ At the beginning of your end phase, if Dawnblade has not hit this turn, remove a
     typeText: "Warrior Equipment – Legs",
     defense: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Legs
   },,{
     bannedFormats: [],
@@ -131,7 +132,7 @@ Until end of turn, target weapon gains +2{p} and “Whenever this weapon hits, d
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -151,11 +152,11 @@ Until end of turn, target weapon gains +2{p} and “Whenever this weapon hits, d
     sets: [Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Warrior Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -179,7 +180,7 @@ Until end of turn, target weapon gains +2{p} and “Whenever this weapon hits, d
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -203,7 +204,7 @@ Until end of turn, target weapon gains +2{p} and “Whenever this weapon hits, d
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -227,7 +228,7 @@ Until end of turn, target weapon gains +2{p} and “Whenever this weapon hits, d
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -247,11 +248,11 @@ Until end of turn, target weapon gains +2{p} and “Whenever this weapon hits, d
     sets: [Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Warrior Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -271,11 +272,11 @@ Until end of turn, target weapon gains +2{p} and “Whenever this weapon hits, d
     sets: [Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Warrior Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -295,11 +296,11 @@ Until end of turn, target weapon gains +2{p} and “Whenever this weapon hits, d
     sets: [Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Warrior Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -323,7 +324,7 @@ Until end of turn, target weapon gains +2{p} and “Whenever this weapon hits, d
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -347,7 +348,7 @@ Until end of turn, target weapon gains +2{p} and “Whenever this weapon hits, d
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -371,7 +372,7 @@ Until end of turn, target weapon gains +2{p} and “Whenever this weapon hits, d
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -395,7 +396,7 @@ Until end of turn, target weapon gains +2{p} and “Whenever this weapon hits, d
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -419,7 +420,7 @@ Until end of turn, target weapon gains +2{p} and “Whenever this weapon hits, d
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -443,7 +444,7 @@ Until end of turn, target weapon gains +2{p} and “Whenever this weapon hits, d
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -465,7 +466,7 @@ At the beginning of your end phase, if you've attacked 2 or more times with weap
     typeText: "Warrior Hero – Young",
     intellect: 4,
     hero: Hero.Kassai,
-    life: undefined,
+    life: 20,
     young: true,
   },{
     bannedFormats: [],
@@ -484,7 +485,7 @@ When Cintari Saber is defended by an attack action card, it gains +1{p} until en
     handsRequired: HandsRequired.OneHanded,
     power: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: WeaponSubType.Sword
   },{
     bannedFormats: [],
@@ -502,7 +503,7 @@ When Cintari Saber is defended by an attack action card, it gains +1{p} until en
     typeText: "Warrior Equipment – Chest",
     defense: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Chest
   },,,{
     bannedFormats: [],
@@ -524,7 +525,7 @@ Whenever a weapon you control hits this turn, create 2 Copper tokens.
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -550,7 +551,7 @@ The next defense reaction card the defending hero plays this turn costs an addit
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -576,7 +577,7 @@ The next defense reaction card the defending hero plays this turn costs an addit
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -602,7 +603,7 @@ The next defense reaction card the defending hero plays this turn costs an addit
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -624,11 +625,11 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Warrior Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -650,11 +651,11 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Warrior Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -676,11 +677,11 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Warrior Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -706,7 +707,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains *
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -732,7 +733,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains *
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -758,7 +759,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains *
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -780,7 +781,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains *
     typeText: "Light Warrior Hero",
     intellect: 4,
     hero: Hero.Boltyn,
-    life: undefined,
+    life: 40,
     
   },{
     bannedFormats: [],
@@ -798,7 +799,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains *
     typeText: "Light Warrior Hero – Young",
     intellect: 4,
     hero: Hero.Boltyn,
-    life: undefined,
+    life: 20,
     young: true,
   },{
     bannedFormats: [],
@@ -817,7 +818,7 @@ If you've **charged** this turn, Raydn gains +3{p}.`,
     handsRequired: HandsRequired.TwoHanded,
     
     
-    talents: [],
+    talents: [Talent.Light],
     subType: WeaponSubType.Sword
   },{
     bannedFormats: [],
@@ -835,7 +836,7 @@ If you've **charged** this turn, Raydn gains +3{p}.`,
     defense: 3,
     pitch: 2,
     power: 7,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -859,11 +860,11 @@ If you've **charged** this turn, you may attack an additional time with each wea
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Light Warrior Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -889,7 +890,7 @@ Attacks on this combat chain gain +1{p} for each Light card charged this way.`,
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -911,7 +912,7 @@ Attacks on this combat chain gain +1{p} for each Light card charged this way.`,
     defense: 3,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -933,7 +934,7 @@ Attacks on this combat chain gain +1{p} for each Light card charged this way.`,
     defense: 3,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -955,7 +956,7 @@ Attacks on this combat chain gain +1{p} for each Light card charged this way.`,
     defense: 3,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -977,7 +978,7 @@ Attacks on this combat chain gain +1{p} for each Light card charged this way.`,
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -999,7 +1000,7 @@ Attacks on this combat chain gain +1{p} for each Light card charged this way.`,
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -1021,7 +1022,7 @@ Attacks on this combat chain gain +1{p} for each Light card charged this way.`,
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -1041,11 +1042,11 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Light Warrior Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     power: 3,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -1065,11 +1066,11 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Light Warrior Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     power: 2,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -1089,11 +1090,11 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Light Warrior Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     power: 1,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -1115,7 +1116,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     defense: 3,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -1137,7 +1138,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     defense: 3,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -1159,7 +1160,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     defense: 3,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -1179,11 +1180,11 @@ If you've **charged** this turn, Engulfing Light gains "If this hits, put it int
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Light Warrior Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     power: 3,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -1203,11 +1204,11 @@ If you've **charged** this turn, Engulfing Light gains "If this hits, put it int
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Light Warrior Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     power: 2,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -1227,11 +1228,11 @@ If you've **charged** this turn, Engulfing Light gains "If this hits, put it int
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Light Warrior Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     power: 1,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -1249,11 +1250,11 @@ If you've **charged** this turn, Engulfing Light gains "If this hits, put it int
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Light Warrior Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -1271,11 +1272,11 @@ If you've **charged** this turn, Engulfing Light gains "If this hits, put it int
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Light Warrior Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -1293,11 +1294,11 @@ If you've **charged** this turn, Engulfing Light gains "If this hits, put it int
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Light Warrior Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -1321,7 +1322,7 @@ If you've **charged** this turn, Take Flight gains **go again.**`,
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -1345,7 +1346,7 @@ If you've **charged** this turn, Take Flight gains **go again.**`,
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -1369,7 +1370,7 @@ If you've **charged** this turn, Take Flight gains **go again.**`,
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -1392,7 +1393,7 @@ Whenever you attack with Hatchet of Body, if Hatchet of Mind was the last attack
     handsRequired: HandsRequired.OneHanded,
     power: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: WeaponSubType.Axe
   },{
     bannedFormats: [],
@@ -1411,7 +1412,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     handsRequired: HandsRequired.OneHanded,
     power: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: WeaponSubType.Axe
   },{
     bannedFormats: [],
@@ -1429,7 +1430,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     typeText: "Warrior Equipment – Legs",
     defense: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Legs
   },{
     bannedFormats: [],
@@ -1447,7 +1448,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     typeText: "Warrior Equipment – Arms",
     defense: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Arms
   },{
     bannedFormats: [],
@@ -1467,7 +1468,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1491,7 +1492,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1515,7 +1516,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1539,7 +1540,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1563,7 +1564,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1587,7 +1588,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1611,7 +1612,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1635,7 +1636,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1659,7 +1660,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1683,7 +1684,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1705,7 +1706,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     typeText: "Warrior Equipment – Head",
     defense: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Head
   },,{
     bannedFormats: [],
@@ -1725,11 +1726,11 @@ As an additional cost to play Blood on Her Hands, destroy any number of Copper y
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Warrior Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1751,11 +1752,11 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Warrior Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1778,11 +1779,11 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Warrior Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1805,11 +1806,11 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Warrior Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1832,11 +1833,11 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Warrior Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1858,11 +1859,11 @@ The next time a weapon hits this turn, create a Copper token.
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Warrior Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1884,11 +1885,11 @@ The next time a weapon hits this turn, create a Copper token.
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Warrior Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1910,11 +1911,11 @@ The next time a weapon hits this turn, create a Copper token.
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Warrior Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     

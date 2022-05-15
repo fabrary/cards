@@ -15,6 +15,7 @@
     Release,
     ResourceCard,
     ResourceSubType,
+    Talent,
     TokenCard,
     TokenSubType,
     Type,
@@ -42,7 +43,7 @@ At the beginning of each end phase, if a hero has 2 or more cards with yellow co
     
     
     
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -64,7 +65,7 @@ At the beginning of each end phase, if a hero has 2 or more cards with yellow co
     typeText: "Light Equipment – Chest",
     defense: 1,
     
-    talents: [],
+    talents: [Talent.Light],
     subType: EquipmentSubType.Chest
   },{
     bannedFormats: [],
@@ -80,9 +81,9 @@ At the beginning of each end phase, if a hero has 2 or more cards with yellow co
     sets: [Release.Monarch],
     type: Type.Equipment,
     typeText: "Light Equipment – Head",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.Light],
     subType: EquipmentSubType.Head
   },{
     bannedFormats: [],
@@ -98,11 +99,11 @@ At the beginning of each end phase, if a hero has 2 or more cards with yellow co
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Light Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     power: 7,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -120,11 +121,11 @@ At the beginning of each end phase, if a hero has 2 or more cards with yellow co
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Light Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -148,7 +149,7 @@ If a card has been put into your hero's soul this turn, instead draw 3 cards.`,
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -170,7 +171,7 @@ If a card has been put into your hero's soul this turn, instead draw 3 cards.`,
     defense: 2,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -192,7 +193,7 @@ If a card has been put into your hero's soul this turn, instead draw 3 cards.`,
     defense: 2,
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -214,7 +215,7 @@ If a card has been put into your hero's soul this turn, instead draw 3 cards.`,
     defense: 2,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -238,7 +239,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
     
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -262,7 +263,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -286,7 +287,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -304,11 +305,11 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Light Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -326,11 +327,11 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Light Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -348,11 +349,11 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Light Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -374,7 +375,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
     defense: 2,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -396,7 +397,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
     defense: 2,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -418,7 +419,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
     defense: 2,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -440,7 +441,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
     defense: 3,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -462,7 +463,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
     defense: 3,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -484,7 +485,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
     defense: 3,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -508,7 +509,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -532,7 +533,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -556,7 +557,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -580,7 +581,7 @@ Target attacking or defending attack action card gets -3{p}.`,
     
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -604,7 +605,7 @@ Target attacking or defending attack action card gets -2{p}.`,
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -628,7 +629,7 @@ Target attacking or defending attack action card gets -1{p}.`,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -652,7 +653,7 @@ If you have less {h} than an opposing Shadow hero, put {name} into your hero's s
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -676,7 +677,7 @@ At the start of your turn, if you have 13 or less {h}, banish Carrion Husk.
     typeText: "Shadow, Equipment, Chest",
     defense: 6,
     
-    talents: [],
+    talents: [Talent.Shadow],
     subType: EquipmentSubType.Chest
   },{
     bannedFormats: [],
@@ -692,9 +693,9 @@ At the start of your turn, if you have 13 or less {h}, banish Carrion Husk.
     sets: [Release.Promos,Release.Monarch],
     type: Type.Equipment,
     typeText: "Shadow, Equipment, Head",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.Shadow],
     subType: EquipmentSubType.Head
   },{
     bannedFormats: [],
@@ -712,11 +713,11 @@ Create a Blasmophet, the Soul Harvester token.`,
     sets: [Release.Monarch],
     type: Type.Instant,
     typeText: "Shadow Instant",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -738,11 +739,11 @@ Create an Ursur, the Soul Reaper token.`,
     sets: [Release.Monarch],
     type: Type.Instant,
     typeText: "Shadow Instant",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -768,7 +769,7 @@ Mutated Mass's {p} and {d} is equal to twice the number of cards in your pitch z
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Shadow],
     specialPower: "*",
     
     specialDefense: "*",
@@ -788,11 +789,11 @@ Mutated Mass's {p} and {d} is equal to twice the number of cards in your pitch z
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Shadow Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -814,11 +815,11 @@ Draw a card.
     sets: [Release.Monarch],
     type: Type.Action,
     typeText: "Shadow Action",
-    
+    cost: 0,
     
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -840,7 +841,7 @@ Draw a card.
     defense: 2,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -862,7 +863,7 @@ Draw a card.
     defense: 2,
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -884,7 +885,7 @@ Draw a card.
     defense: 2,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -910,7 +911,7 @@ If Soul Harvest hits a hero, they banish all cards in their soul and lose {h} eq
     defense: 3,
     pitch: 3,
     power: 6,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -936,7 +937,7 @@ While Soul Reaping is attacking a hero with 1 or more cards in their soul, it ha
     defense: 3,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -964,7 +965,7 @@ The next attack action card you play this turn gains +3{p}.
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -992,7 +993,7 @@ The next attack action card you play this turn gains +2{p}.
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1020,7 +1021,7 @@ The next attack action card you play this turn gains +1{p}.
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1044,7 +1045,7 @@ The next attack action card you play this turn gains +1{p}.
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1068,7 +1069,7 @@ The next attack action card you play this turn gains +1{p}.
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1092,7 +1093,7 @@ The next attack action card you play this turn gains +1{p}.
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1114,7 +1115,7 @@ The next attack action card you play this turn gains +1{p}.
     defense: 2,
     pitch: 1,
     power: 7,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1136,7 +1137,7 @@ The next attack action card you play this turn gains +1{p}.
     defense: 2,
     pitch: 2,
     power: 6,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1158,7 +1159,7 @@ The next attack action card you play this turn gains +1{p}.
     defense: 2,
     pitch: 3,
     power: 5,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1182,7 +1183,7 @@ The next attack action card you play this turn gains +1{p}.
     defense: 3,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1206,7 +1207,7 @@ The next attack action card you play this turn gains +1{p}.
     defense: 3,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1230,7 +1231,7 @@ The next attack action card you play this turn gains +1{p}.
     defense: 3,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1254,7 +1255,7 @@ The next attack action card you play this turn gains +1{p}.
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1278,7 +1279,7 @@ The next attack action card you play this turn gains +1{p}.
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1302,7 +1303,7 @@ The next attack action card you play this turn gains +1{p}.
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1320,11 +1321,11 @@ The next attack action card you play this turn gains +1{p}.
     sets: [Release.Monarch],
     type: Type.Instant,
     typeText: "Shadow Instant",
-    
+    cost: 0,
     
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1342,11 +1343,11 @@ The next attack action card you play this turn gains +1{p}.
     sets: [Release.Monarch],
     type: Type.Instant,
     typeText: "Shadow Instant",
-    
+    cost: 0,
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1364,11 +1365,11 @@ The next attack action card you play this turn gains +1{p}.
     sets: [Release.Monarch],
     type: Type.Instant,
     typeText: "Shadow Instant",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1388,11 +1389,11 @@ If you have more {h} than an opposing Light hero, you may banish an action card 
     sets: [Release.Promos,Release.Monarch],
     type: Type.Instant,
     typeText: "Shadow Instant",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Shadow],
     
     
     
@@ -1414,7 +1415,7 @@ Whenever Blasmophet attacks, you may banish a Shadow card from your hand. If you
     sets: [Release.Promos,Release.Monarch],
     type: Type.Token,
     typeText: "Shadow Token – Demon Ally",
-    talents: [],
+    talents: [Talent.Shadow],
     subType: TokenSubType.Ally
   },{
     bannedFormats: [],
@@ -1432,7 +1433,7 @@ While Ursur is attacking a hero with 1 or more cards in their soul, the attack h
     sets: [Release.Promos,Release.Monarch],
     type: Type.Token,
     typeText: "Shadow Token – Demon Ally",
-    talents: [],
+    talents: [Talent.Shadow],
     subType: TokenSubType.Ally
   },{
     bannedFormats: [],
@@ -1456,7 +1457,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
     
     
     
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1484,7 +1485,7 @@ If Fulminate was **fused** with a Lightning card, attack action cards you contro
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1512,7 +1513,7 @@ If Flashfreeze was **fused** with a Lightning card, attacks you control this tur
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1538,7 +1539,7 @@ If Exposed to the Elements was **fused** with an Ice card, destroy an equipment 
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1562,7 +1563,7 @@ If Entwine Earth was **fused**, it gains +2{p}.`,
     defense: 2,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1586,7 +1587,7 @@ If Entwine Earth was **fused**, it gains +2{p}.`,
     defense: 2,
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1610,7 +1611,7 @@ If Entwine Earth was **fused**, it gains +2{p}.`,
     defense: 2,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1634,7 +1635,7 @@ If Entwine Ice was **fused**, it gains **dominate.** *(The defending hero can't 
     defense: 2,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1658,7 +1659,7 @@ If Entwine Ice was **fused**, it gains **dominate.** *(The defending hero can't 
     defense: 2,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1682,7 +1683,7 @@ If Entwine Ice was **fused**, it gains **dominate.** *(The defending hero can't 
     defense: 2,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1702,11 +1703,11 @@ If Entwine Lightning was **fused**, it gains **go again.**`,
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Elemental Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1726,11 +1727,11 @@ If Entwine Lightning was **fused**, it gains **go again.**`,
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Elemental Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1750,11 +1751,11 @@ If Entwine Lightning was **fused**, it gains **go again.**`,
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Elemental Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1774,11 +1775,11 @@ If Entwine Lightning was **fused**, it gains **go again.**`,
     sets: [Release.Promos,Release.TalesOfAria],
     type: Type.Action,
     typeText: "Elemental Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1798,11 +1799,11 @@ If Entwine Lightning was **fused**, it gains **go again.**`,
     sets: [Release.Promos,Release.TalesOfAria],
     type: Type.Action,
     typeText: "Elemental Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1822,11 +1823,11 @@ If Entwine Lightning was **fused**, it gains **go again.**`,
     sets: [Release.Promos,Release.TalesOfAria],
     type: Type.Action,
     typeText: "Elemental Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1850,7 +1851,7 @@ If you've **fused** this turn, you may play Rejuvenate as though it were an inst
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1874,7 +1875,7 @@ If you've **fused** this turn, you may play Rejuvenate as though it were an inst
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1898,7 +1899,7 @@ If you've **fused** this turn, you may play Rejuvenate as though it were an inst
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1918,7 +1919,7 @@ At the beginning of your action phase, destroy Embodiment of Earth.`,
     sets: [Release.TalesOfAria],
     type: Type.Token,
     typeText: "Elemental Token – Aura",
-    talents: [],
+    talents: [Talent.Elemental],
     subType: TokenSubType.Aura
   },{
     bannedFormats: [],
@@ -1932,7 +1933,7 @@ At the beginning of your action phase, destroy Embodiment of Earth.`,
     sets: [Release.TalesOfAria],
     type: Type.Token,
     typeText: "Elemental Token – Aura",
-    talents: [],
+    talents: [Talent.Elemental],
     subType: TokenSubType.Aura
   },{
     bannedFormats: [],
@@ -1948,7 +1949,7 @@ At the beginning of your end phase or when you play a card or activate an abilit
     sets: [Release.TalesOfAria,Release.Everfest],
     type: Type.Token,
     typeText: "Elemental Token – Aura",
-    talents: [],
+    talents: [Talent.Elemental],
     subType: TokenSubType.Aura
   },{
     bannedFormats: [],
@@ -1964,11 +1965,11 @@ Your next Ice, Lightning, or Elemental attack this turn gains +4{p}.`,
     sets: [Release.TalesOfAria],
     type: Type.Instant,
     typeText: "Lightning Ice Instant",
-    
+    cost: 0,
     
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Lightning,Talent.Ice],
     
     
     
@@ -1990,11 +1991,11 @@ Put up to 2 target Earth, Lightning and/or Elemental action cards from your grav
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Earth Lightning Action",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Earth,Talent.Lightning],
     
     
     
@@ -2012,9 +2013,9 @@ Put up to 2 target Earth, Lightning and/or Elemental action cards from your grav
     sets: [Release.Promos,Release.TalesOfAria],
     type: Type.Equipment,
     typeText: "Earth Equipment – Head",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.Earth],
     subType: EquipmentSubType.Head
   },{
     bannedFormats: [],
@@ -2028,9 +2029,9 @@ Put up to 2 target Earth, Lightning and/or Elemental action cards from your grav
     sets: [Release.TalesOfAria],
     type: Type.Equipment,
     typeText: "Earth Equipment – Head",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.Earth],
     subType: EquipmentSubType.Head
   },{
     bannedFormats: [],
@@ -2052,7 +2053,7 @@ Attack action cards you control have +3{p}.
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Earth],
     
     
     
@@ -2078,7 +2079,7 @@ Draw 3 cards.
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Earth],
     
     
     
@@ -2100,7 +2101,7 @@ Draw 3 cards.
     defense: 2,
     pitch: 1,
     power: 7,
-    talents: [],
+    talents: [Talent.Earth],
     
     
     
@@ -2122,7 +2123,7 @@ Draw 3 cards.
     defense: 2,
     pitch: 2,
     power: 6,
-    talents: [],
+    talents: [Talent.Earth],
     
     
     
@@ -2144,7 +2145,7 @@ Draw 3 cards.
     defense: 2,
     pitch: 3,
     power: 5,
-    talents: [],
+    talents: [Talent.Earth],
     
     
     
@@ -2166,11 +2167,11 @@ If it's **fused**, instead it gains +4{p}.
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Earth Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Earth],
     
     
     
@@ -2192,11 +2193,11 @@ If it's **fused**, instead it gains +3{p}.
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Earth Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Earth],
     
     
     
@@ -2218,11 +2219,11 @@ If it's **fused**, instead it gains +2{p}.
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Earth Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Earth],
     
     
     
@@ -2240,11 +2241,11 @@ If it's **fused**, instead it gains +2{p}.
     sets: [Release.TalesOfAria],
     type: Type.Instant,
     typeText: "Earth Instant",
-    
+    cost: 0,
     
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Earth],
     
     
     
@@ -2262,11 +2263,11 @@ If it's **fused**, instead it gains +2{p}.
     sets: [Release.TalesOfAria],
     type: Type.Instant,
     typeText: "Earth Instant",
-    
+    cost: 0,
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Earth],
     
     
     
@@ -2284,11 +2285,11 @@ If it's **fused**, instead it gains +2{p}.
     sets: [Release.TalesOfAria],
     type: Type.Instant,
     typeText: "Earth Instant",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Earth],
     
     
     
@@ -2310,7 +2311,7 @@ If it's **fused**, instead it gains +2{p}.
     defense: 3,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.Earth],
     
     
     
@@ -2332,7 +2333,7 @@ If it's **fused**, instead it gains +2{p}.
     defense: 3,
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.Earth],
     
     
     
@@ -2354,7 +2355,7 @@ If it's **fused**, instead it gains +2{p}.
     defense: 3,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.Earth],
     
     
     
@@ -2376,7 +2377,7 @@ If it's **fused**, instead it gains +2{p}.
     defense: 2,
     pitch: 1,
     power: 7,
-    talents: [],
+    talents: [Talent.Earth],
     
     
     
@@ -2398,7 +2399,7 @@ If it's **fused**, instead it gains +2{p}.
     defense: 2,
     pitch: 2,
     power: 6,
-    talents: [],
+    talents: [Talent.Earth],
     
     
     
@@ -2420,7 +2421,7 @@ If it's **fused**, instead it gains +2{p}.
     defense: 2,
     pitch: 3,
     power: 5,
-    talents: [],
+    talents: [Talent.Earth],
     
     
     
@@ -2442,7 +2443,7 @@ If it's **fused**, instead it gains +2{p}.
     defense: 2,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.Earth],
     
     
     
@@ -2464,7 +2465,7 @@ If it's **fused**, instead it gains +2{p}.
     defense: 2,
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.Earth],
     
     
     
@@ -2486,7 +2487,7 @@ If it's **fused**, instead it gains +2{p}.
     defense: 2,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.Earth],
     
     
     
@@ -2510,7 +2511,7 @@ If it's **fused**, instead it gains +2{p}.
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Earth],
     
     
     
@@ -2534,7 +2535,7 @@ If it's **fused**, instead it gains +2{p}.
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Earth],
     
     
     
@@ -2558,7 +2559,7 @@ If it's **fused**, instead it gains +2{p}.
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Earth],
     
     
     
@@ -2584,7 +2585,7 @@ If Sow Tomorrow is played from arsenal, draw a card.
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Earth],
     
     
     
@@ -2610,7 +2611,7 @@ If Sow Tomorrow is played from arsenal, draw a card.
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Earth],
     
     
     
@@ -2636,7 +2637,7 @@ If Sow Tomorrow is played from arsenal, draw a card.
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Earth],
     
     
     
@@ -2656,11 +2657,11 @@ If Sow Tomorrow is played from arsenal, draw a card.
     sets: [Release.Promos,Release.TalesOfAria],
     type: Type.Action,
     typeText: "Earth Action – Item",
+    cost: 0,
     
     
     
-    
-    talents: [],
+    talents: [Talent.Earth],
     
     
     
@@ -2684,7 +2685,7 @@ If Sow Tomorrow is played from arsenal, draw a card.
     typeText: "Ice Equipment – Chest",
     defense: 1,
     
-    talents: [],
+    talents: [Talent.Ice],
     subType: EquipmentSubType.Chest
   },{
     bannedFormats: [],
@@ -2698,9 +2699,9 @@ If Sow Tomorrow is played from arsenal, draw a card.
     sets: [Release.TalesOfAria],
     type: Type.Equipment,
     typeText: "Ice Equipment – Chest",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.Ice],
     subType: EquipmentSubType.Chest
   },{
     bannedFormats: [],
@@ -2722,7 +2723,7 @@ Cards and activated abilities cost opposing heroes an additional {r}.
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Ice],
     
     
     
@@ -2740,11 +2741,11 @@ Cards and activated abilities cost opposing heroes an additional {r}.
     sets: [Release.TalesOfAria],
     type: Type.Instant,
     typeText: "Ice Instant",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Ice],
     
     
     
@@ -2766,7 +2767,7 @@ Cards and activated abilities cost opposing heroes an additional {r}.
     defense: 2,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.Ice],
     
     
     
@@ -2788,7 +2789,7 @@ Cards and activated abilities cost opposing heroes an additional {r}.
     defense: 2,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.Ice],
     
     
     
@@ -2810,7 +2811,7 @@ Cards and activated abilities cost opposing heroes an additional {r}.
     defense: 2,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.Ice],
     
     
     
@@ -2836,7 +2837,7 @@ Whenever an attack hits a hero this turn, create a Frostbite token under their c
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Ice],
     
     
     
@@ -2862,7 +2863,7 @@ Whenever an attack hits a hero this turn, create a Frostbite token under their c
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Ice],
     
     
     
@@ -2888,7 +2889,7 @@ Whenever an attack hits a hero this turn, create a Frostbite token under their c
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Ice],
     
     
     
@@ -2910,11 +2911,11 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Ice Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Ice],
     
     
     
@@ -2936,11 +2937,11 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Ice Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Ice],
     
     
     
@@ -2962,11 +2963,11 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Ice Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Ice],
     
     
     
@@ -2988,7 +2989,7 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
     defense: 2,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.Ice],
     
     
     
@@ -3010,7 +3011,7 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
     defense: 2,
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.Ice],
     
     
     
@@ -3032,7 +3033,7 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
     defense: 2,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.Ice],
     
     
     
@@ -3054,7 +3055,7 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
     defense: 3,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.Ice],
     
     
     
@@ -3076,7 +3077,7 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
     defense: 3,
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.Ice],
     
     
     
@@ -3098,7 +3099,7 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
     defense: 3,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.Ice],
     
     
     
@@ -3118,11 +3119,11 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Ice Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Ice],
     
     
     
@@ -3142,11 +3143,11 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Ice Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Ice],
     
     
     
@@ -3166,11 +3167,11 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Ice Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Ice],
     
     
     
@@ -3196,7 +3197,7 @@ If Polar Blast is played from arsenal, draw a card.
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Ice],
     
     
     
@@ -3222,7 +3223,7 @@ If Polar Blast is played from arsenal, draw a card.
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Ice],
     
     
     
@@ -3248,7 +3249,7 @@ If Polar Blast is played from arsenal, draw a card.
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Ice],
     
     
     
@@ -3268,11 +3269,11 @@ If Polar Blast is played from arsenal, draw a card.
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Ice Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Ice],
     
     
     
@@ -3292,11 +3293,11 @@ If Polar Blast is played from arsenal, draw a card.
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Ice Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Ice],
     
     
     
@@ -3316,11 +3317,11 @@ If Polar Blast is played from arsenal, draw a card.
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Ice Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Ice],
     
     
     
@@ -3340,11 +3341,11 @@ If Polar Blast is played from arsenal, draw a card.
     sets: [Release.Promos,Release.TalesOfAria],
     type: Type.Action,
     typeText: "Ice Action – Item",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Ice],
     
     
     
@@ -3364,9 +3365,9 @@ If Polar Blast is played from arsenal, draw a card.
     sets: [Release.Promos,Release.TalesOfAria],
     type: Type.Equipment,
     typeText: "Lightning Equipment – Arms",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.Light],
     subType: EquipmentSubType.Arms
   },{
     bannedFormats: [],
@@ -3380,9 +3381,9 @@ If Polar Blast is played from arsenal, draw a card.
     sets: [Release.TalesOfAria],
     type: Type.Equipment,
     typeText: "Lightning Equipment – Arms",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.Light],
     subType: EquipmentSubType.Arms
   },{
     bannedFormats: [],
@@ -3404,7 +3405,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -3422,11 +3423,11 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     sets: [Release.TalesOfAria],
     type: Type.Instant,
     typeText: "Lightning Instant",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -3446,11 +3447,11 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Lightning Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -3470,11 +3471,11 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Lightning Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -3494,11 +3495,11 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Lightning Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -3518,11 +3519,11 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     sets: [Release.Promos,Release.TalesOfAria],
     type: Type.Action,
     typeText: "Lightning Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -3542,11 +3543,11 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     sets: [Release.Promos,Release.TalesOfAria],
     type: Type.Action,
     typeText: "Lightning Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -3566,11 +3567,11 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     sets: [Release.Promos,Release.TalesOfAria],
     type: Type.Action,
     typeText: "Lightning Action",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -3588,11 +3589,11 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     sets: [Release.TalesOfAria],
     type: Type.Instant,
     typeText: "Lightning Instant",
-    
+    cost: 0,
     
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -3610,11 +3611,11 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     sets: [Release.TalesOfAria],
     type: Type.Instant,
     typeText: "Lightning Instant",
-    
+    cost: 0,
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -3632,11 +3633,11 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     sets: [Release.TalesOfAria],
     type: Type.Instant,
     typeText: "Lightning Instant",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -3656,11 +3657,11 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Lightning Action – Attack",
-    
-    
+    cost: 0,
+    defense: 0,
     pitch: 1,
     power: 3,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -3680,11 +3681,11 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Lightning Action – Attack",
-    
-    
+    cost: 0,
+    defense: 0,
     pitch: 2,
     power: 2,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -3704,11 +3705,11 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Lightning Action – Attack",
-    
-    
+    cost: 0,
+    defense: 0,
     pitch: 3,
     power: 1,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -3726,11 +3727,11 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Lightning Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -3748,11 +3749,11 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Lightning Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -3770,11 +3771,11 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     sets: [Release.TalesOfAria],
     type: Type.Action,
     typeText: "Lightning Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -3796,7 +3797,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     defense: 3,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -3818,7 +3819,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     defense: 3,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -3840,7 +3841,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     defense: 3,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -3862,7 +3863,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     defense: 2,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -3884,7 +3885,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     defense: 2,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -3906,7 +3907,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     defense: 2,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -3932,7 +3933,7 @@ If Electrify is played from arsenal, draw a card.
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -3958,7 +3959,7 @@ If Electrify is played from arsenal, draw a card.
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -3984,7 +3985,7 @@ If Electrify is played from arsenal, draw a card.
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -4004,11 +4005,11 @@ If Electrify is played from arsenal, draw a card.
     sets: [Release.Promos,Release.TalesOfAria],
     type: Type.Action,
     typeText: "Lightning Action – Item",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Light],
     
     
     

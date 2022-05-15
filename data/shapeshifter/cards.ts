@@ -15,6 +15,7 @@
     Release,
     ResourceCard,
     ResourceSubType,
+    Talent,
     TokenCard,
     TokenSubType,
     Type,
@@ -38,7 +39,7 @@ At the start of your turn, you may banish an equipment you control. If you do, e
     typeText: "Shapeshifter Hero – Young",
     intellect: 4,
     hero: Hero.Taylor,
-    life: undefined,
+    life: 18,
     young: true,
   },{
     bannedFormats: [],
@@ -56,7 +57,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
     typeText: "Shapeshifter Hero – Young",
     intellect: 4,
     hero: Hero.Shiyana,
-    life: undefined,
+    life: 20,
     young: true,
   }];
   

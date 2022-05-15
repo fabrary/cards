@@ -1,4 +1,4 @@
-name,identifier,setIdentifiers,sets,rarity,class,talent,type,actionSubType,equipmentType,resourceSubType,tokenSubType,weaponType,handsRequired,pitch,cost,power,defense,specialCost,specialPower,specialDefense,hero,young,health,intellect,keywords,earthFusion,iceFusion,lightningFusion,specialization,bannedFormats,functionalText,typeText,imageUrl
+name,identifier,setIdentifiers,sets,rarity,class,talents,type,actionSubType,equipmentType,resourceSubType,tokenSubType,weaponType,handsRequired,pitch,cost,power,defense,specialCost,specialPower,specialDefense,hero,young,life,intellect,keywords,earthFusion,iceFusion,lightningFusion,specialization,bannedFormats,functionalText,typeText,imageUrl
 "Ruu'di, Gem Keeper",ruudi-gem-keeper,LSS001,Promos,Promo,Merchant,NotTalented,Hero,,,,,,,,,,,,,,Ruudi,,40,4,,,,,,"Blitz, ClassicConstructed","You may only have PSA graded cards in your deck.
 
 **Once per Turn Action** - {r}: Reveal the top card of your deck. If it's graded Gem Min 10, put it into your hand, otherwise each opponent may draw a card. **Go again**",Hero – Merchant,https://storage.googleapis.com/fabmaster/media/images/LSS001.width-450.png
@@ -2899,15 +2899,15 @@ Embodiment of Lightning,embodiment-of-lightning,ELE110,TalesOfAria,Token,NotClas
 Frostbite,frostbite,"ELE111, EVR197","TalesOfAria, Everfest",Token,NotClassed,Elemental,Token,,,,Aura,,,,,,,,,,,,,,,,,,,,"Cards and activated abilities you control cost an additional {r}.
 
 At the beginning of your end phase or when you play a card or activate an ability, destroy Frostbite.",Elemental Token – Aura,https://storage.googleapis.com/fabmaster/media/images/ELE111.width-450.png
-Pulse of Volthaven,pulse-of-volthaven-red,ELE112,TalesOfAria,Majestic,NotClassed,Ice,Instant,,,,,,,1,0,,,,,,,,,,Legendary,,,,,,"**Legendary** *(You may only have 1 Pulse of Volthaven in your deck.)*
+Pulse of Volthaven,pulse-of-volthaven-red,ELE112,TalesOfAria,Majestic,NotClassed,"Lightning, Ice",Instant,,,,,,,1,0,,,,,,,,,,Legendary,,,,,,"**Legendary** *(You may only have 1 Pulse of Volthaven in your deck.)*
 
 Your next Ice, Lightning, or Elemental attack this turn gains +4{p}.",Lightning Ice Instant,https://storage.googleapis.com/fabmaster/media/images/ELE112.width-450.png
-Pulse of Candlehold,pulse-of-candlehold-yellow,ELE113,TalesOfAria,Majestic,NotClassed,Earth,Action,,,,,,,2,0,,3,,,,,,,,"Legendary, GoAgain",,,,,,"**Legendary** *(You may only have 1 Pulse of Candlehold in your deck.)*
+Pulse of Candlehold,pulse-of-candlehold-yellow,ELE113,TalesOfAria,Majestic,NotClassed,"Earth, Lightning",Action,,,,,,,2,0,,3,,,,,,,,"Legendary, GoAgain",,,,,,"**Legendary** *(You may only have 1 Pulse of Candlehold in your deck.)*
 
 Put up to 2 target Earth, Lightning and/or Elemental action cards from your graveyard on top of your deck. Banish Pulse of Candlehold.
 
 **Go again**",Earth Lightning Action,https://storage.googleapis.com/fabmaster/media/images/ELE113.width-450.png
-Pulse of Isenloft,pulse-of-isenloft-blue,ELE114,TalesOfAria,Majestic,NotClassed,Earth,DefenseReaction,,,,,,,3,2,,6,,,,,,,,Legendary,,,,,,"**Legendary** *(You may only have 1 Pulse of Isenloft in your deck.)*
+Pulse of Isenloft,pulse-of-isenloft-blue,ELE114,TalesOfAria,Majestic,NotClassed,"Ice, Earth",DefenseReaction,,,,,,,3,2,,6,,,,,,,,Legendary,,,,,,"**Legendary** *(You may only have 1 Pulse of Isenloft in your deck.)*
 
 Earth, Ice, and Elemental action cards have +1{d} while defending this turn.",Ice Earth Defense Reaction,https://storage.googleapis.com/fabmaster/media/images/ELE114.width-450.png
 Crown of Seeds,crown-of-seeds,"FAB052, ELE115","Promos, TalesOfAria",Legendary,NotClassed,Earth,Equipment,,Head,,,,,,,,0,,,,,,,,,,,,,,"**Once per Turn Instant** - {r}, put a face down card from your arsenal on the bottom of your deck: Draw a card and prevent the next 1 damage that would be dealt to your hero this turn.",Earth Equipment – Head,https://storage.googleapis.com/fabmaster/media/images/FAB052.width-450.png

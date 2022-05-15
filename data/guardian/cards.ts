@@ -15,6 +15,7 @@
     Release,
     ResourceCard,
     ResourceSubType,
+    Talent,
     TokenCard,
     TokenSubType,
     Type,
@@ -36,7 +37,7 @@
     typeText: "Guardian Hero",
     intellect: 4,
     hero: Hero.Bravo,
-    life: undefined,
+    life: 40,
     
   },{
     bannedFormats: [],
@@ -52,7 +53,7 @@
     typeText: "Guardian Hero – Young",
     intellect: 4,
     hero: Hero.Bravo,
-    life: undefined,
+    life: 20,
     young: true,
   },{
     bannedFormats: [],
@@ -71,7 +72,7 @@ If you have 2 or more cards in your pitch zone with cost 3 or greater, Anothos h
     handsRequired: HandsRequired.TwoHanded,
     power: 4,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: WeaponSubType.Hammer
   },{
     bannedFormats: [],
@@ -89,7 +90,7 @@ If you have 2 or more cards in your pitch zone with cost 3 or greater, Anothos h
     typeText: "Guardian Equipment – Chest",
     defense: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Chest
   },{
     bannedFormats: [],
@@ -107,7 +108,7 @@ If you have 2 or more cards in your pitch zone with cost 3 or greater, Anothos h
     typeText: "Guardian Equipment – Head",
     defense: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Head
   },{
     bannedFormats: [],
@@ -127,7 +128,7 @@ If you have 2 or more cards in your pitch zone with cost 3 or greater, Anothos h
     defense: 3,
     pitch: 1,
     power: 11,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -149,7 +150,7 @@ If you have 2 or more cards in your pitch zone with cost 3 or greater, Anothos h
     defense: 3,
     pitch: 1,
     power: 9,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -171,7 +172,7 @@ If you have 2 or more cards in your pitch zone with cost 3 or greater, Anothos h
     defense: 3,
     pitch: 3,
     power: 8,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -197,7 +198,7 @@ At the beginning of your action phase, destroy Forged for War.`,
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -223,7 +224,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -245,7 +246,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     defense: 3,
     pitch: 1,
     power: 9,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -267,7 +268,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     defense: 3,
     pitch: 2,
     power: 8,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -289,7 +290,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     defense: 3,
     pitch: 3,
     power: 7,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -315,7 +316,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -341,7 +342,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -367,7 +368,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -389,7 +390,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
     defense: 3,
     pitch: 1,
     power: 8,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -411,7 +412,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
     defense: 3,
     pitch: 2,
     power: 7,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -433,7 +434,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
     defense: 3,
     pitch: 3,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -455,7 +456,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
     defense: 3,
     pitch: 1,
     power: 7,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -477,7 +478,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
     defense: 3,
     pitch: 2,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -499,7 +500,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
     defense: 3,
     pitch: 3,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -521,7 +522,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
     defense: 3,
     pitch: 1,
     power: 7,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -543,7 +544,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
     defense: 3,
     pitch: 2,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -565,7 +566,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
     defense: 3,
     pitch: 3,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -587,7 +588,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
     defense: 3,
     pitch: 1,
     power: 8,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -609,7 +610,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
     defense: 3,
     pitch: 2,
     power: 7,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -631,7 +632,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
     defense: 3,
     pitch: 3,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -655,7 +656,7 @@ At the beginning of your action phase, destroy Emerging Power then the next Guar
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -679,7 +680,7 @@ At the beginning of your action phase, destroy Emerging Power then the next Guar
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -703,7 +704,7 @@ At the beginning of your action phase, destroy Emerging Power then the next Guar
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -731,7 +732,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -759,7 +760,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -787,7 +788,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -805,7 +806,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     sets: [Release.WelcomeToRathe,Release.CrucibleOfWar,Release.TalesOfAria,Release.Everfest],
     type: Type.Token,
     typeText: "Guardian Token – Aura",
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: TokenSubType.Aura
   },{
     bannedFormats: [],
@@ -822,7 +823,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     handsRequired: HandsRequired.TwoHanded,
     power: 6,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: WeaponSubType.Hammer
   },{
     bannedFormats: [],
@@ -840,7 +841,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     typeText: "Guardian Equipment – Arms",
     defense: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Arms
   },{
     bannedFormats: [],
@@ -858,7 +859,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     defense: 3,
     pitch: 1,
     power: 8,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -880,7 +881,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     defense: 3,
     pitch: 2,
     power: 10,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -906,7 +907,7 @@ At the beginning of your action phase, destroy Stamp Authority.`,
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -930,7 +931,7 @@ At the beginning of your action phase, destroy Towering Titan then the next Guar
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -954,7 +955,7 @@ At the beginning of your action phase, destroy Towering Titan then the next Guar
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -978,7 +979,7 @@ At the beginning of your action phase, destroy Towering Titan then the next Guar
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1000,7 +1001,7 @@ At the beginning of your action phase, destroy Towering Titan then the next Guar
     defense: 3,
     pitch: 1,
     power: 7,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1022,7 +1023,7 @@ At the beginning of your action phase, destroy Towering Titan then the next Guar
     defense: 3,
     pitch: 2,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1044,7 +1045,7 @@ At the beginning of your action phase, destroy Towering Titan then the next Guar
     defense: 3,
     pitch: 3,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1066,7 +1067,7 @@ At the beginning of your action phase, destroy Towering Titan then the next Guar
     defense: 3,
     pitch: 1,
     power: 8,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1088,7 +1089,7 @@ At the beginning of your action phase, destroy Towering Titan then the next Guar
     defense: 3,
     pitch: 2,
     power: 7,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1110,7 +1111,7 @@ At the beginning of your action phase, destroy Towering Titan then the next Guar
     defense: 3,
     pitch: 3,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1134,7 +1135,7 @@ At the beginning of your action phase, destroy Emerging Dominance then the next 
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1158,7 +1159,7 @@ At the beginning of your action phase, destroy Emerging Dominance then the next 
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1182,7 +1183,7 @@ At the beginning of your action phase, destroy Emerging Dominance then the next 
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1200,11 +1201,11 @@ At the beginning of your action phase, destroy Emerging Dominance then the next 
     sets: [Release.CrucibleOfWar],
     type: Type.Instant,
     typeText: "Guardian Instant",
-    
+    cost: 0,
     
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1222,11 +1223,11 @@ At the beginning of your action phase, destroy Emerging Dominance then the next 
     sets: [Release.CrucibleOfWar],
     type: Type.Instant,
     typeText: "Guardian Instant",
-    
+    cost: 0,
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1244,11 +1245,11 @@ At the beginning of your action phase, destroy Emerging Dominance then the next 
     sets: [Release.CrucibleOfWar],
     type: Type.Instant,
     typeText: "Guardian Instant",
-    
+    cost: 0,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1270,7 +1271,7 @@ At the beginning of your action phase, destroy Emerging Dominance then the next 
     typeText: "Elemental Guardian Hero",
     intellect: 4,
     hero: Hero.Oldhim,
-    life: undefined,
+    life: 40,
     
   },{
     bannedFormats: [],
@@ -1288,7 +1289,7 @@ At the beginning of your action phase, destroy Emerging Dominance then the next 
     typeText: "Elemental Guardian Hero – Young",
     intellect: 4,
     hero: Hero.Oldhim,
-    life: undefined,
+    life: 20,
     young: true,
   },{
     bannedFormats: [],
@@ -1307,7 +1308,7 @@ If an Ice card is pitched this way, Winter's Wail gains "If this hits a hero, cr
     handsRequired: HandsRequired.OneHanded,
     power: 4,
     
-    talents: [],
+    talents: [Talent.Elemental],
     subType: WeaponSubType.Hammer
   },{
     bannedFormats: [],
@@ -1331,7 +1332,7 @@ If Endless Winter hits a hero, until the end of their next turn, whenever they a
     defense: 3,
     pitch: 1,
     power: 8,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1355,7 +1356,7 @@ If Oaken Old was **fused**, it gains +2{p}, **dominate**, and “If this hits a 
     defense: 3,
     pitch: 1,
     power: 7,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1381,7 +1382,7 @@ Search your deck for a Guardian attack action card with cost less than or equal 
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1405,7 +1406,7 @@ If Entangle was **fused**, it gains "If this hits a hero, their first attack dur
     defense: 3,
     pitch: 1,
     power: 7,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1429,7 +1430,7 @@ If Entangle was **fused**, it gains "If this hits a hero, their first attack dur
     defense: 3,
     pitch: 2,
     power: 6,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1453,7 +1454,7 @@ If Entangle was **fused**, it gains "If this hits a hero, their first attack dur
     defense: 3,
     pitch: 3,
     power: 5,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1477,7 +1478,7 @@ If Glacial Footsteps was **fused**, it gains **dominate.** *(The defending hero 
     defense: 3,
     pitch: 1,
     power: 10,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1501,7 +1502,7 @@ If Glacial Footsteps was **fused**, it gains **dominate.** *(The defending hero 
     defense: 3,
     pitch: 2,
     power: 9,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1525,7 +1526,7 @@ If Glacial Footsteps was **fused**, it gains **dominate.** *(The defending hero 
     defense: 3,
     pitch: 3,
     power: 8,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1549,7 +1550,7 @@ If Mulch was **fused**, it gains "If this hits a hero, put a card from their ars
     defense: 3,
     pitch: 1,
     power: 8,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1573,7 +1574,7 @@ If Mulch was **fused**, it gains "If this hits a hero, put a card from their ars
     defense: 3,
     pitch: 2,
     power: 7,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1597,7 +1598,7 @@ If Mulch was **fused**, it gains "If this hits a hero, put a card from their ars
     defense: 3,
     pitch: 3,
     power: 6,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1621,7 +1622,7 @@ If Snow Under was **fused**, it gains "If Snow Under hits a hero, create a Frost
     defense: 3,
     pitch: 1,
     power: 7,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1645,7 +1646,7 @@ If Snow Under was **fused**, it gains "If Snow Under hits a hero, create a Frost
     defense: 3,
     pitch: 2,
     power: 6,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1669,7 +1670,7 @@ If Snow Under was **fused**, it gains "If Snow Under hits a hero, create a Frost
     defense: 3,
     pitch: 3,
     power: 5,
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1697,7 +1698,7 @@ At the beginning of your action phase, destroy Emerging Avalanche then the next 
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1725,7 +1726,7 @@ At the beginning of your action phase, destroy Emerging Avalanche then the next 
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1753,7 +1754,7 @@ At the beginning of your action phase, destroy Emerging Avalanche then the next 
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1781,7 +1782,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1809,7 +1810,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1837,7 +1838,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.Elemental],
     
     
     
@@ -1860,7 +1861,7 @@ If there is a card with cost 3 or greater in your pitch zone, Titan's Fist has +
     handsRequired: HandsRequired.OneHanded,
     power: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: WeaponSubType.Hammer
   },{
     bannedFormats: [],
@@ -1874,9 +1875,9 @@ If there is a card with cost 3 or greater in your pitch zone, Titan's Fist has +
     sets: [Release.Promos,Release.TalesOfAria],
     type: Type.Equipment,
     typeText: "Guardian Equipment – Off-Hand",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.OffHand
   },{
     bannedFormats: [],
@@ -1892,7 +1893,7 @@ If there is a card with cost 3 or greater in your pitch zone, Titan's Fist has +
     typeText: "Guardian Equipment – Off-Hand",
     defense: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.OffHand
   },{
     bannedFormats: [],
@@ -1912,7 +1913,7 @@ If there is a card with cost 3 or greater in your pitch zone, Titan's Fist has +
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1938,7 +1939,7 @@ At the beginning of your action phase, destroy Embolden then the next Guardian a
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1964,7 +1965,7 @@ At the beginning of your action phase, destroy Embolden then the next Guardian a
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1990,7 +1991,7 @@ At the beginning of your action phase, destroy Embolden then the next Guardian a
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2012,7 +2013,7 @@ At the beginning of your action phase, destroy Embolden then the next Guardian a
     defense: 3,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2034,7 +2035,7 @@ At the beginning of your action phase, destroy Embolden then the next Guardian a
     defense: 3,
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2056,7 +2057,7 @@ At the beginning of your action phase, destroy Embolden then the next Guardian a
     defense: 3,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2079,7 +2080,7 @@ When you pitch Grandeur of Valahai, create a Seismic Surge token.`,
     
     
     pitch: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: ResourceSubType.Gem
   },{
     bannedFormats: [],
@@ -2097,7 +2098,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
     typeText: "Elemental Guardian Hero",
     intellect: 4,
     hero: Hero.Bravo,
-    life: undefined,
+    life: 40,
     
   },{
     bannedFormats: [],
@@ -2113,7 +2114,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
     typeText: "Ice Guardian Equipment – Off-Hand",
     defense: 2,
     
-    talents: [],
+    talents: [Talent.Ice],
     subType: EquipmentSubType.OffHand
   },{
     bannedFormats: [],
@@ -2131,7 +2132,7 @@ At the start of your turn, if you control 3 or more Seismic Surge tokens, cards 
     typeText: "Guardian Hero – Young",
     intellect: 4,
     hero: Hero.Valda,
-    life: undefined,
+    life: 21,
     young: true,
   },{
     bannedFormats: [],
@@ -2149,7 +2150,7 @@ At the start of your turn, if you control 3 or more Seismic Surge tokens, cards 
     typeText: "Guardian Equipment – Chest",
     defense: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Chest
   },{
     bannedFormats: [],
@@ -2169,7 +2170,7 @@ If Pulverize hits a hero, their first attack during their next turn has -4{p}.`,
     defense: 3,
     pitch: 1,
     power: 14,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2193,7 +2194,7 @@ If Pulverize hits a hero, their first attack during their next turn has -4{p}.`,
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     specialCost: "X3",
     
@@ -2219,7 +2220,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2241,7 +2242,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
     defense: 3,
     pitch: 1,
     power: 10,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2263,7 +2264,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
     defense: 3,
     pitch: 2,
     power: 9,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2285,7 +2286,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
     defense: 3,
     pitch: 3,
     power: 8,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2307,7 +2308,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
     defense: 3,
     pitch: 1,
     power: 10,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2329,7 +2330,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
     defense: 3,
     pitch: 2,
     power: 9,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2351,7 +2352,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
     defense: 3,
     pitch: 3,
     power: 8,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2375,7 +2376,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
     defense: 3,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2399,7 +2400,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
     defense: 3,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2423,7 +2424,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
     defense: 3,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2445,7 +2446,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
     
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2467,7 +2468,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -2489,7 +2490,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     

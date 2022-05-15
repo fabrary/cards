@@ -15,6 +15,7 @@
     Release,
     ResourceCard,
     ResourceSubType,
+    Talent,
     TokenCard,
     TokenSubType,
     Type,
@@ -36,7 +37,7 @@
     typeText: "Ninja Hero",
     intellect: 4,
     hero: Hero.Katsu,
-    life: undefined,
+    life: 40,
     
   },{
     bannedFormats: [],
@@ -52,7 +53,7 @@
     typeText: "Ninja Hero – Young",
     intellect: 4,
     hero: Hero.Katsu,
-    life: undefined,
+    life: 20,
     young: true,
   },{
     bannedFormats: [],
@@ -71,7 +72,7 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi gains **go
     handsRequired: HandsRequired.OneHanded,
     
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: WeaponSubType.Dagger
   },{
     bannedFormats: [],
@@ -89,7 +90,7 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi gains **go
     typeText: "Ninja Equipment – Head",
     defense: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Head
   },{
     bannedFormats: [],
@@ -107,7 +108,7 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi gains **go
     typeText: "Ninja Equipment – Arms",
     defense: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Arms
   },{
     bannedFormats: [],
@@ -123,11 +124,11 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi gains **go
     sets: [Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -151,7 +152,7 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi gains **go
     defense: 3,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -173,7 +174,7 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi gains **go
     defense: 3,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -195,7 +196,7 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi gains **go
     defense: 3,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -213,11 +214,11 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi gains **go
     sets: [Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -235,11 +236,11 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi gains **go
     sets: [Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -257,11 +258,11 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi gains **go
     sets: [Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -283,7 +284,7 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi gains **go
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -305,7 +306,7 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi gains **go
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -327,7 +328,7 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi gains **go
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -349,7 +350,7 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi gains **go
     defense: 3,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -371,7 +372,7 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi gains **go
     defense: 3,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -393,7 +394,7 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi gains **go
     defense: 3,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -411,11 +412,11 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi gains **go
     sets: [Release.Promos,Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -433,11 +434,11 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi gains **go
     sets: [Release.Promos,Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -455,11 +456,11 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi gains **go
     sets: [Release.Promos,Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     power: 1,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -481,7 +482,7 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi gains **go
     defense: 2,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -503,7 +504,7 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi gains **go
     defense: 2,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -525,7 +526,7 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi gains **go
     defense: 2,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -543,11 +544,11 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi gains **go
     sets: [Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -565,11 +566,11 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi gains **go
     sets: [Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -587,11 +588,11 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi gains **go
     sets: [Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     power: 1,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -613,7 +614,7 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi gains **go
     defense: 2,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -635,7 +636,7 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi gains **go
     defense: 2,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -657,7 +658,7 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi gains **go
     defense: 2,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -675,11 +676,11 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi gains **go
     sets: [Release.Promos,Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -697,11 +698,11 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi gains **go
     sets: [Release.Promos,Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -719,11 +720,11 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi gains **go
     sets: [Release.Promos,Release.WelcomeToRathe],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     power: 1,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -743,7 +744,7 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi gains **go
     typeText: "Ninja Hero – Young",
     intellect: 4,
     hero: Hero.Ira,
-    life: undefined,
+    life: 20,
     young: true,
   },{
     bannedFormats: [],
@@ -761,7 +762,7 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi gains **go
     typeText: "Ninja Hero – Young",
     intellect: 4,
     hero: Hero.Benji,
-    life: undefined,
+    life: 17,
     young: true,
   },{
     bannedFormats: [],
@@ -778,7 +779,7 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi gains **go
     handsRequired: HandsRequired.TwoHanded,
     power: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: WeaponSubType.Sword
   },{
     bannedFormats: [],
@@ -797,7 +798,7 @@ If Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {p}
     handsRequired: HandsRequired.OneHanded,
     power: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: WeaponSubType.Dagger
   },{
     bannedFormats: [],
@@ -815,7 +816,7 @@ If Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {p}
     typeText: "Ninja Equipment – Legs",
     defense: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Legs
   },{
     bannedFormats: [],
@@ -829,11 +830,11 @@ If Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {p}
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -851,11 +852,11 @@ If Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {p}
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     power: 1,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -876,11 +877,11 @@ If Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {p}
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -898,11 +899,11 @@ If Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {p}
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -920,11 +921,11 @@ If Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {p}
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -942,11 +943,11 @@ If Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {p}
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     power: 1,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -964,11 +965,11 @@ If Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {p}
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -986,11 +987,11 @@ If Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {p}
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1008,11 +1009,11 @@ If Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {p}
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     power: 1,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1034,7 +1035,7 @@ If Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {p}
     defense: 3,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1056,7 +1057,7 @@ If Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {p}
     defense: 3,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1078,7 +1079,7 @@ If Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {p}
     defense: 3,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1096,11 +1097,11 @@ If Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {p}
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 1,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1118,11 +1119,11 @@ If Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {p}
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1140,11 +1141,11 @@ If Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {p}
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1166,7 +1167,7 @@ If Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {p}
     defense: 3,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1188,7 +1189,7 @@ If Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {p}
     defense: 3,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1210,7 +1211,7 @@ If Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {p}
     defense: 3,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1234,7 +1235,7 @@ If Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {p}
     defense: 2,
     pitch: 2,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1252,11 +1253,11 @@ If Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {p}
     sets: [Release.CrucibleOfWar],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1282,7 +1283,7 @@ If Whirling Mist Blossom hits, and it's the second or higher chain link in a row
     defense: 2,
     pitch: 2,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1302,7 +1303,7 @@ Whenever your hero would be dealt damage, prevent 1 damage that source would dea
     sets: [Release.CrucibleOfWar],
     type: Type.Token,
     typeText: "Ninja Token – Aura",
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: TokenSubType.Aura
   },{
     bannedFormats: [],
@@ -1320,7 +1321,7 @@ Whenever your hero would be dealt damage, prevent 1 damage that source would dea
     typeText: "Ninja Equipment – Head",
     defense: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Head
   },{
     bannedFormats: [],
@@ -1334,11 +1335,11 @@ Whenever your hero would be dealt damage, prevent 1 damage that source would dea
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1360,11 +1361,11 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 2,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1382,11 +1383,11 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 3,
     pitch: 3,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1406,11 +1407,11 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1430,11 +1431,11 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1454,11 +1455,11 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     power: 1,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1478,11 +1479,11 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 1,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1502,11 +1503,11 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 2,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1526,11 +1527,11 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Ninja Action – Attack",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     power: 1,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1557,7 +1558,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
     defense: 2,
     pitch: 1,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1584,7 +1585,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
     defense: 2,
     pitch: 2,
     power: 2,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1611,7 +1612,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
     defense: 2,
     pitch: 3,
     power: 1,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     

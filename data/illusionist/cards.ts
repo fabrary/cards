@@ -15,6 +15,7 @@
     Release,
     ResourceCard,
     ResourceSubType,
+    Talent,
     TokenCard,
     TokenSubType,
     Type,
@@ -36,7 +37,7 @@
     typeText: "Light Illusionist Hero",
     intellect: 4,
     hero: Hero.Prism,
-    life: undefined,
+    life: 40,
     
   },{
     bannedFormats: [],
@@ -52,7 +53,7 @@
     typeText: "Light Illusionist Hero – Young",
     intellect: 4,
     hero: Hero.Prism,
-    life: undefined,
+    life: 20,
     young: true,
   },{
     bannedFormats: [],
@@ -71,7 +72,7 @@ While there is a card with a yellow color strip in your pitch zone, Illusionist 
     handsRequired: HandsRequired.TwoHanded,
     
     
-    talents: [],
+    talents: [Talent.Light],
     subType: WeaponSubType.Scepter
   },{
     bannedFormats: [],
@@ -93,7 +94,7 @@ If Herald of Erudition hits, put it into your hero's soul and draw 2 cards.
     defense: 3,
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -121,7 +122,7 @@ If Arc Light Sentinel is in the arena when an opponent announces an attack, they
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -145,7 +146,7 @@ If Arc Light Sentinel is in the arena when an opponent announces an attack, they
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -171,7 +172,7 @@ If Herald of Judgment hits, put it into your hero's soul and the defending hero 
     defense: 3,
     pitch: 2,
     power: 6,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -197,7 +198,7 @@ If Herald of Triumph hits, put it into your hero's soul. *(Put this card face up
     defense: 3,
     pitch: 1,
     power: 7,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -223,7 +224,7 @@ If Herald of Triumph hits, put it into your hero's soul. *(Put this card face up
     defense: 3,
     pitch: 2,
     power: 6,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -249,7 +250,7 @@ If Herald of Triumph hits, put it into your hero's soul. *(Put this card face up
     defense: 3,
     pitch: 3,
     power: 5,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -273,7 +274,7 @@ If Herald of Triumph hits, put it into your hero's soul. *(Put this card face up
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -297,7 +298,7 @@ If Herald of Triumph hits, put it into your hero's soul. *(Put this card face up
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -323,7 +324,7 @@ Illusionist attack action cards you control have **go again.** *(If an attack is
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -347,7 +348,7 @@ Illusionist attack action cards you control have **go again.** *(If an attack is
     defense: 3,
     pitch: 1,
     power: 7,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -371,7 +372,7 @@ Illusionist attack action cards you control have **go again.** *(If an attack is
     defense: 3,
     pitch: 2,
     power: 6,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -395,7 +396,7 @@ Illusionist attack action cards you control have **go again.** *(If an attack is
     defense: 3,
     pitch: 3,
     power: 5,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -419,7 +420,7 @@ Illusionist attack action cards you control have **go again.** *(If an attack is
     defense: 3,
     pitch: 1,
     power: 7,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -443,7 +444,7 @@ Illusionist attack action cards you control have **go again.** *(If an attack is
     defense: 3,
     pitch: 2,
     power: 6,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -467,7 +468,7 @@ Illusionist attack action cards you control have **go again.** *(If an attack is
     defense: 3,
     pitch: 3,
     power: 5,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -491,7 +492,7 @@ Illusionist attack action cards you control have **go again.** *(If an attack is
     defense: 3,
     pitch: 1,
     power: 7,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -515,7 +516,7 @@ Illusionist attack action cards you control have **go again.** *(If an attack is
     defense: 3,
     pitch: 2,
     power: 6,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -539,7 +540,7 @@ Illusionist attack action cards you control have **go again.** *(If an attack is
     defense: 3,
     pitch: 3,
     power: 5,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -565,7 +566,7 @@ If Herald of Tenacity hits, put it into your hero's soul. *(Put this card face u
     defense: 3,
     pitch: 1,
     power: 6,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -591,7 +592,7 @@ If Herald of Tenacity hits, put it into your hero's soul. *(Put this card face u
     defense: 3,
     pitch: 2,
     power: 5,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -617,7 +618,7 @@ If Herald of Tenacity hits, put it into your hero's soul. *(Put this card face u
     defense: 3,
     pitch: 3,
     power: 4,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -641,7 +642,7 @@ If Herald of Tenacity hits, put it into your hero's soul. *(Put this card face u
     defense: 3,
     pitch: 1,
     power: 7,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -665,7 +666,7 @@ If Herald of Tenacity hits, put it into your hero's soul. *(Put this card face u
     defense: 3,
     pitch: 2,
     power: 6,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -689,7 +690,7 @@ If Herald of Tenacity hits, put it into your hero's soul. *(Put this card face u
     defense: 3,
     pitch: 3,
     power: 5,
-    talents: [],
+    talents: [Talent.Light],
     
     
     
@@ -712,7 +713,7 @@ During your action phase, Illusionist auras you control are weapons with 4{p} an
     handsRequired: HandsRequired.TwoHanded,
     
     
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: WeaponSubType.Orb
   },{
     bannedFormats: [],
@@ -730,9 +731,9 @@ If Phantasmal Footsteps defends a non-Illusionist attack with 6 or more {p}, des
     sets: [Release.Promos,Release.Monarch],
     type: Type.Equipment,
     typeText: "Illusionist Equipment – Legs",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Legs
   },{
     bannedFormats: [],
@@ -748,9 +749,9 @@ If Phantasmal Footsteps defends a non-Illusionist attack with 6 or more {p}, des
     sets: [Release.Monarch],
     type: Type.Equipment,
     typeText: "Illusionist Equipment – Arms",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Arms
   },{
     bannedFormats: [],
@@ -770,7 +771,7 @@ If Phantasmal Footsteps defends a non-Illusionist attack with 6 or more {p}, des
     defense: 3,
     pitch: 1,
     power: 9,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -792,7 +793,7 @@ If Phantasmal Footsteps defends a non-Illusionist attack with 6 or more {p}, des
     
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -814,7 +815,7 @@ If Phantasmal Footsteps defends a non-Illusionist attack with 6 or more {p}, des
     
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -836,7 +837,7 @@ If Phantasmal Footsteps defends a non-Illusionist attack with 6 or more {p}, des
     
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -860,7 +861,7 @@ If Phantasmal Footsteps defends a non-Illusionist attack with 6 or more {p}, des
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -884,7 +885,7 @@ If Phantasmal Footsteps defends a non-Illusionist attack with 6 or more {p}, des
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -908,7 +909,7 @@ If Phantasmal Footsteps defends a non-Illusionist attack with 6 or more {p}, des
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -930,7 +931,7 @@ If Phantasmal Footsteps defends a non-Illusionist attack with 6 or more {p}, des
     defense: 3,
     pitch: 1,
     power: 8,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -952,7 +953,7 @@ If Phantasmal Footsteps defends a non-Illusionist attack with 6 or more {p}, des
     defense: 3,
     pitch: 2,
     power: 7,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -974,7 +975,7 @@ If Phantasmal Footsteps defends a non-Illusionist attack with 6 or more {p}, des
     defense: 3,
     pitch: 3,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -998,7 +999,7 @@ If Phantasmal Footsteps defends a non-Illusionist attack with 6 or more {p}, des
     defense: 3,
     pitch: 1,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1022,7 +1023,7 @@ If Phantasmal Footsteps defends a non-Illusionist attack with 6 or more {p}, des
     defense: 3,
     pitch: 2,
     power: 4,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1046,7 +1047,7 @@ If Phantasmal Footsteps defends a non-Illusionist attack with 6 or more {p}, des
     defense: 3,
     pitch: 3,
     power: 3,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1066,7 +1067,7 @@ If your hero would be dealt damage, instead destroy Spectral Shield and prevent 
     sets: [Release.Monarch,Release.Everfest],
     type: Type.Token,
     typeText: "Illusionist Token – Aura",
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: TokenSubType.Aura
   },,{
     bannedFormats: [],
@@ -1082,9 +1083,9 @@ If your hero would be dealt damage, instead destroy Spectral Shield and prevent 
     sets: [Release.Everfest],
     type: Type.Equipment,
     typeText: "Illusionist Equipment – Head",
+    defense: 0,
     
-    
-    talents: [],
+    talents: [Talent.NotTalented],
     subType: EquipmentSubType.Head
   },{
     bannedFormats: [],
@@ -1102,11 +1103,11 @@ Fractal Replication's {d} is equal to the greatest base {d} among Illusionist at
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Illusionist Action – Attack",
-    
+    cost: 0,
     
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     specialPower: "*",
     
     specialDefense: "*",
@@ -1130,7 +1131,7 @@ When Miraging Metamorph is destroyed, create a token that's a copy of an aura yo
     defense: 3,
     pitch: 1,
     power: 7,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1150,11 +1151,11 @@ When Miraging Metamorph is destroyed, create a token that's a copy of an aura yo
     sets: [Release.Everfest],
     type: Type.Action,
     typeText: "Illusionist Action – Aura",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1174,11 +1175,11 @@ When Miraging Metamorph is destroyed, create a token that's a copy of an aura yo
     sets: [Release.Promos,Release.Everfest],
     type: Type.Action,
     typeText: "Illusionist Action – Aura",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1198,11 +1199,11 @@ When Miraging Metamorph is destroyed, create a token that's a copy of an aura yo
     sets: [Release.Promos,Release.Everfest],
     type: Type.Action,
     typeText: "Illusionist Action – Aura",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1222,11 +1223,11 @@ When Miraging Metamorph is destroyed, create a token that's a copy of an aura yo
     sets: [Release.Promos,Release.Everfest],
     type: Type.Action,
     typeText: "Illusionist Action – Aura",
-    
+    cost: 0,
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1250,7 +1251,7 @@ When Coalescence Mirage is destroyed, you may put an Illusionist aura card with 
     defense: 3,
     pitch: 1,
     power: 7,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1274,7 +1275,7 @@ When Coalescence Mirage is destroyed, you may put an Illusionist aura card with 
     defense: 3,
     pitch: 2,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1298,7 +1299,7 @@ When Coalescence Mirage is destroyed, you may put an Illusionist aura card with 
     defense: 3,
     pitch: 3,
     power: 5,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1322,7 +1323,7 @@ When Phantasmal Haze is destroyed, create a Spectral Shield token.`,
     defense: 3,
     pitch: 1,
     power: 8,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1346,7 +1347,7 @@ When Phantasmal Haze is destroyed, create a Spectral Shield token.`,
     defense: 3,
     pitch: 2,
     power: 7,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1370,7 +1371,7 @@ When Phantasmal Haze is destroyed, create a Spectral Shield token.`,
     defense: 3,
     pitch: 3,
     power: 6,
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1394,7 +1395,7 @@ The next attack action card you play this turn is Illusionist in addition to its
     defense: 2,
     pitch: 1,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1418,7 +1419,7 @@ The next attack action card you play this turn is Illusionist in addition to its
     defense: 2,
     pitch: 2,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
@@ -1442,7 +1443,7 @@ The next attack action card you play this turn is Illusionist in addition to its
     defense: 2,
     pitch: 3,
     
-    talents: [],
+    talents: [Talent.NotTalented],
     
     
     
