@@ -139,6 +139,7 @@ export enum ActionSubType {
   Aura = "Aura",
   Item = "Item",
   Landmark = "Landmark",
+  NonAttack = "Non-Attack",
   Trap = "Trap",
 }
 

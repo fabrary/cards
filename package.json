@@ -6,6 +6,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "generate": "ts-node src/generateCardData.ts",
+    "transform": "ts-node src/transformSourceData.ts",
     "prebuild": "rm -rf dist",
     "build": "esbuild ./data/index.ts --outdir=dist --bundle --minify --platform=node",
     "postbuild": "cp data/cards.json dist/cards.json && cp src/cards.csv dist/cards.csv && tsc --declaration",
