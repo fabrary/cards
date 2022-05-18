@@ -1,5 +1,4 @@
 export interface Card {
-  bannedFormats?: Format[];
   class: Class;
   identifier: string;
   functionalText: string;
@@ -7,6 +6,7 @@ export interface Card {
   keywords: Keyword[];
   name: string;
   rarity: Rarity;
+  restrictedFormats?: Format[];
   setIdentifiers?: string[];
   sets: Release[];
   type: Type;
@@ -16,6 +16,7 @@ export interface Card {
 export interface ActionCard extends Card {
   cost?: number;
   defense?: number;
+  fusions?: Fusion[];
   pitch?: number;
   power?: number;
   talents?: Talent[];
@@ -23,7 +24,7 @@ export interface ActionCard extends Card {
   specialDefense?: string;
   specialPower?: string;
   specialization?: Hero;
-  subType: ActionSubType;
+  subType?: ActionSubType;
 }
 
 export interface EquipmentCard extends Card {
@@ -45,7 +46,7 @@ export interface ResourceCard extends Card {
   defense?: number;
   pitch?: number;
   talents?: Talent[];
-  subType: ResourceSubType;
+  subType?: ResourceSubType;
 }
 
 export interface TokenCard extends Card {
@@ -54,9 +55,9 @@ export interface TokenCard extends Card {
 }
 
 export interface WeaponCard extends Card {
+  handsRequired: HandsRequired;
   power?: number;
   specialPower?: string;
-  handsRequired: HandsRequired;
   talents?: Talent[];
   subType: WeaponSubType;
 }
@@ -84,6 +85,12 @@ export enum Format {
   Commoner = "Commoner",
 }
 
+export enum Fusion {
+  Earth = "Earth",
+  Ice = "Ice",
+  Lightning = "Lightning",
+}
+
 export enum Rarity {
   Token = "Token",
   Common = "Common",
@@ -96,15 +103,34 @@ export enum Rarity {
 }
 
 export enum Release {
+  // Full sets
   ArcaneRising = "Arcane Rising",
   CrucibleOfWar = "Crucible of War",
   Everfest = "Everfest",
   HeroDeck = "Hero Deck",
+  HistoryPack1 = "History Pack 1",
   Monarch = "Monarch",
-  Promos = "Promos",
   TalesOfAria = "Tales of Aria",
   Uprising = "Uprising",
   WelcomeToRathe = "Welcome to Rathe",
+
+  // Hero/blitz decks
+  BoltynBlitzDeck = "Boltyn Blitz Deck",
+  BriarBlitzDeck = "Briary Blitz Deck",
+  BravoBlitzDeck = "Bravo Blitz Deck",
+  ChaneBlitzDeck = "Chane Blitz Deck",
+  ClassicBattlesRhinarDorinthea = "Classic Battles: Rhinar vs Dorinthea",
+  DorintheaHeroDeck = "Dorinthea Hero Deck",
+  IraWelcomeDeck = "Ira Welcome Deck",
+  KatsuHeroDeck = "Katsu Hero Deck",
+  LeviaBlitzDeck = "LeviaBlitzDeck",
+  LexiBlitzDeck = "Lexi Blitz Deck",
+  OldhimBlitzDeck = "Oldhim Blitz Deck",
+  PrismBlitzDeck = "Prism Blitz Deck",
+  RhinarHeroDeck = "Rhinar Hero Deck",
+
+  // One-offs
+  Promos = "Promos",
 }
 
 export enum Talent {
@@ -148,7 +174,7 @@ export enum EquipmentSubType {
   Chest = "Chest",
   Head = "Head",
   Legs = "Legs",
-  OffHand = "Off-hand",
+  OffHand = "Off-Hand",
 }
 
 export enum ResourceSubType {
@@ -193,7 +219,7 @@ export enum Hero {
   Dash = "Dash",
   DataDoll = "Data Doll",
   Dorinthea = "Dorinthea",
-  GenisWotchuneed = "Genis Wotcuneed",
+  GenisWotchuneed = "Genis Wotchuneed",
   Ira = "Ira",
   Iyslander = "Iyslander",
   Kano = "Kano",
@@ -203,10 +229,10 @@ export enum Hero {
   Kayo = "Kayo",
   Levia = "Levia",
   Lexi = "Lexi",
-  Oldhim = "Oldim",
+  Oldhim = "Oldhim",
   Prism = "Prism",
   Rhinar = "Rhinar",
-  Ruudi = "Ruu'di",
+  Ruudi = "Ruu’di",
   Shiyana = "Shiyana",
   Taylor = "Taylor",
   Valda = "Valda",
