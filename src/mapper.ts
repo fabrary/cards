@@ -199,7 +199,7 @@ const setIdentifierToSetMappings = {
   ARC: Release.ArcaneRising,
   CRU: Release.CrucibleOfWar,
   MON: Release.Monarch,
-  ELE: Release.Monarch,
+  ELE: Release.TalesOfAria,
   EVR: Release.Everfest,
   UPR: Release.Uprising,
 };
