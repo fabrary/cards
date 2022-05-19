@@ -25,60 +25,60 @@ cards.forEach((card) => {
 
 **`Card`** contains all of the fields that are common across all card types - every card object will have data for these fields.
 
-| Field             | Data type                 | Examples                                                                       |
-| ----------------- | ------------------------- | ------------------------------------------------------------------------------ |
-| class             | `string` of `Class` enum  | `"Generic"`, `"Wizard"`                                                        |
-| identifier        | `string`                  | `"snatch-red"`, `"aether-wildfire-red"`                                        |
-| functionalText    | `string`                  | `"If Snatch hits, draw a card."`                                               |
-| imageUrl          | `string`                  | `"https://storage.googleapis.com/fabmaster/media/images/1HP371.width-450.png"` |
-| keywords          | `array` of `Keyword` enum | `[ "Boost" ]`                                                                  |
-| name              | `string`                  | `"Rain Razors"`, `"Pummel"`                                                    |
-| rarity            | `Rarity` enum             | `"Super Rare"`, `"Token"`                                                      |
-| restrictedFormats | `array` of `Format` enum  | `[ "Blitz" ]`                                                                  |
-| setIdentifiers    | `array` of `string`       | `[ "1HP009", "CRU006" ]`                                                       |
-| sets              | `array` of `Release` enum | `[ "History Pack 1", "Crucible of War" ]`                                      |
-| type              | `string` of `Type` enum   | `"Action"`, `"Hero"`                                                           |
-| typeText          | `string`                  | `"Elemental Ranger Action – Arrow Attack"`                                     |
+| Field             | Data type            | Examples                                    |
+| ----------------- | -------------------- | ------------------------------------------- |
+| class             | `Class` enum         | `"Generic"`, `"Wizard"`                     |
+| identifier        | `string`             | `"snatch-red"`, `"aether-wildfire-red"`     |
+| functionalText    | `string`             | `"If Snatch hits, draw a card."`            |
+| imageUrl          | `string`             | `"https://.../images/1HP371.width-450.png"` |
+| keywords          | `Keyword` enum array | `[ "Boost" ]`                               |
+| name              | `string`             | `"Rain Razors"`, `"Pummel"`                 |
+| rarity            | `Rarity` enum        | `"Super Rare"`, `"Token"`                   |
+| restrictedFormats | `Format` enum array  | `[ "Blitz" ]`                               |
+| setIdentifiers    | `string` array       | `[ "1HP009", "CRU006" ]`                    |
+| sets              | `Release` enum array | `[ "History Pack 1", "Crucible of War" ]`   |
+| type              | `Type` enum array    | `"Action"`, `"Hero"`                        |
+| typeText          | `string`             | `"Elemental Ranger Action – Arrow Attack"`  |
 
 <br/>
 
 **`ActionCard`** extends **`Card`** and contains additional properties - although not every action card will have values for all fields
 
-| Field          | Data type                        | Examples                |
-| -------------- | -------------------------------- | ----------------------- |
-| cost           | `number`                         | `0`, `10`               |
-| defense        | `number`                         | `3`, `4`                |
-| fusions        | `array` of `Fusion` enum         | `[ "Earth", "Ice" ]`    |
-| pitch          | `number`                         | `1`, `2`, `3`           |
-| power          | `number`                         | `3`, `14`               |
-| talents        | `array` of `Talent` enum         | `[ "Draconic" ]`        |
-| specialCost    | `string`                         | `"XX"`, `"3X"`          |
-| specialDefense | `string`                         | `"*"`                   |
-| specialPower   | `string`                         | `"*"`                   |
-| specialization | `string` of `Hero` enum          | `"Lexi"`, `"Iyslander"` |
-| subType        | `string` of `ActionSubType` enum | `"Attack"`, `"Aura"`    |
+| Field          | Data type            | Examples                |
+| -------------- | -------------------- | ----------------------- |
+| cost           | `number`             | `0`, `10`               |
+| defense        | `number`             | `3`, `4`                |
+| fusions        | `Fusion` enum array  | `[ "Earth", "Ice" ]`    |
+| pitch          | `number`             | `1`, `2`, `3`           |
+| power          | `number`             | `3`, `14`               |
+| talents        | `Talent` enum array  | `[ "Draconic" ]`        |
+| specialCost    | `string`             | `"XX"`, `"3X"`          |
+| specialDefense | `string`             | `"*"`                   |
+| specialPower   | `string`             | `"*"`                   |
+| specialization | `Hero` enum          | `"Lexi"`, `"Iyslander"` |
+| subType        | `ActionSubType` enum | `"Attack"`, `"Aura"`    |
 
 <br/>
 
 **`EquipmentCard`** extends **`Card`** and contains additional properties - although not every equipment card will have values for all fields
 
-| Field         | Data type                           | Examples               |
-| ------------- | ----------------------------------- | ---------------------- |
-| defense       | `number`                            | `0`, `2`               |
-| handsRequired | `string` of `HandsRequired` enum    | `"1H"`                 |
-| talents       | `array` of `Talent` enum            | `[ "Ice" ]`            |
-| subType       | `string` of `EquipmentSubType` enum | `"Arms"`, `"Off-Hand"` |
+| Field         | Data type               | Examples               |
+| ------------- | ----------------------- | ---------------------- |
+| defense       | `number`                | `0`, `2`               |
+| handsRequired | `HandsRequired` enum    | `"1H"`                 |
+| talents       | `Talent` enum           | `[ "Ice" ]`            |
+| subType       | `EquipmentSubType` enum | `"Arms"`, `"Off-Hand"` |
 
 <br/>
 
 **`HeroCard`** extends **`Card`** and contains additional properties - although not every hero card will have values for all fields
 
-| Field     | Data type               | Examples             |
-| --------- | ----------------------- | -------------------- |
-| intellect | `number`                | `3`, `4`             |
-| hero      | `string` of `Hero` enum | `"Rhinar"`, `"Dori"` |
-| life      | `number`                | `18`, `40`           |
-| young     | `boolean`               | `true`               |
+| Field     | Data type   | Examples             |
+| --------- | ----------- | -------------------- |
+| intellect | `number`    | `3`, `4`             |
+| hero      | `Hero` enum | `"Rhinar"`, `"Dori"` |
+| life      | `number`    | `18`, `40`           |
+| young     | `boolean`   | `true`               |
 
 <br/>
 
