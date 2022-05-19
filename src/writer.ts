@@ -12,6 +12,7 @@ import {
   Hero,
   HeroCard,
   Keyword,
+  MentorCard,
   Rarity,
   Release,
   ResourceCard,
@@ -28,6 +29,7 @@ interface AllCards {
   actions: ActionCard[];
   equipment: EquipmentCard[];
   heroes: HeroCard[];
+  mentors: MentorCard[];
   resources: ResourceCard[];
   tokens: TokenCard[];
   weapons: WeaponCard[];
@@ -63,6 +65,7 @@ const getCardInfo = (card: Card): String => {
       "Format",
       Format
     )}],
+    setIdentifiers: [${card.setIdentifiers.map((id) => `"${id}"`)}],
     sets: [${getEnumValues(card.sets, "Release", Release)}],
     type: ${getEnumValue(card.type, "Type", Type)},
     typeText: "${card.typeText}",`;
@@ -125,13 +128,17 @@ const generateHeroTS = (card: HeroCard): String => {
   }`;
 };
 
+const generateMentorTS = (card: MentorCard): String => {
+  return `{
+    ${getCardInfo(card)}
+    ${card.defense || card.defense === 0 ? `defense: ${card.defense},` : ``}
+  }`;
+};
+
 const generateResourceTS = (card: ResourceCard): String => {
   return `{
     ${getCardInfo(card)}
-    ${card.cost || card.cost === 0 ? `cost: ${card.cost},` : ``}
-    ${card.defense || card.defense === 0 ? `defense: ${card.defense},` : ``}
     ${card.pitch ? `pitch: ${card.pitch},` : ``}
-    talents: [${getEnumValues(card.talents, "Talent", Talent)}],
     ${
       card.subType
         ? `subType: ${getEnumValue(
@@ -209,7 +216,8 @@ const writeTS = (cards: AllCards, outputDirectory: string) => {
 };
 
 const getCardsByType = (cards: AllCards) => {
-  const { actions, equipment, heroes, resources, tokens, weapons } = cards;
+  const { actions, equipment, heroes, mentors, resources, tokens, weapons } =
+    cards;
   const basicActions = [];
   const attackReactions = [];
   const defenseReactions = [];
@@ -236,6 +244,7 @@ const getCardsByType = (cards: AllCards) => {
     instants,
     equipment,
     heroes,
+    mentors,
     resources,
     tokens,
     weapons,
@@ -250,6 +259,7 @@ const generateTS = (cards: AllCards): string => {
     instants,
     equipment,
     heroes,
+    mentors,
     resources,
     tokens,
     weapons,
@@ -268,6 +278,7 @@ const generateTS = (cards: AllCards): string => {
     Hero,
     HeroCard,
     Keyword,
+    MentorCard,
     Rarity,
     Release,
     ResourceCard,
@@ -289,6 +300,7 @@ const generateTS = (cards: AllCards): string => {
   )}];
   const instants: ActionCard[] = [${instants.map(generateActionTS)}];
   const equipment: EquipmentCard[] = [${equipment.map(generateEquipmentTS)}];
+  const mentors: MentorCard[] = [${mentors.map(generateMentorTS)}];
   const heroes: HeroCard[] = [${heroes.map(generateHeroTS)}];
   const resources: ResourceCard[] = [${resources.map(generateResourceTS)}];
   const tokens: TokenCard[] = [${tokens.map(generateTokenTS)}];
@@ -301,6 +313,7 @@ const generateTS = (cards: AllCards): string => {
     ...instants,
     ...equipment,
     ...heroes,
+    ...mentors,
     ...resources,
     ...tokens,
     ...weapons,
@@ -309,17 +322,7 @@ const generateTS = (cards: AllCards): string => {
   return ts;
 };
 
-export const writeFiles = (
-  cards: {
-    actions: ActionCard[];
-    equipment: EquipmentCard[];
-    heroes: HeroCard[];
-    resources: ResourceCard[];
-    tokens: TokenCard[];
-    weapons: WeaponCard[];
-  },
-  outputDirectory: string
-) => {
+export const writeFiles = (cards: AllCards, outputDirectory: string) => {
   makeSureDirectoryExists(outputDirectory);
   // writeJson(cards);
   // writeCSV();

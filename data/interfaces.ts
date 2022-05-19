@@ -41,11 +41,12 @@ export interface HeroCard extends Card {
   young: boolean;
 }
 
-export interface ResourceCard extends Card {
-  cost?: number;
+export interface MentorCard extends Card {
   defense?: number;
+}
+
+export interface ResourceCard extends Card {
   pitch?: number;
-  talents?: Talent[];
   subType?: ResourceSubType;
 }
 
@@ -116,7 +117,7 @@ export enum Release {
 
   // Hero/blitz decks
   BoltynBlitzDeck = "Boltyn Blitz Deck",
-  BriarBlitzDeck = "Briary Blitz Deck",
+  BriarBlitzDeck = "Briar Blitz Deck",
   BravoBlitzDeck = "Bravo Blitz Deck",
   ChaneBlitzDeck = "Chane Blitz Deck",
   ClassicBattlesRhinarDorinthea = "Classic Battles: Rhinar vs Dorinthea",

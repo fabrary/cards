@@ -11,6 +11,7 @@ import {
   Hero,
   HeroCard,
   Keyword,
+  MentorCard,
   Rarity,
   Release,
   ResourceCard,
@@ -318,7 +319,7 @@ const getCommonCardData = (card: ParsedCard): Card => {
     name: card.name,
     rarity: getRarity(card),
     restrictedFormats: getRestrictedFormats(card),
-    setIdentifiers: card.setIdentifiers,
+    setIdentifiers: card.identifiers,
     sets: getSets(card),
     type,
     typeText: card.typeText,
@@ -366,6 +367,13 @@ const getHeroCardData = (card: ParsedCard): HeroCard => {
   };
 };
 
+const getMentorCardData = (card: ParsedCard): MentorCard => {
+  return {
+    ...getCommonCardData(card),
+    defense: getDefense(card),
+  };
+};
+
 const getResourceCardData = (card: ParsedCard): ResourceCard => {
   const { subType } = getTypeAndSubType(card);
   return {
@@ -408,6 +416,7 @@ export const mapCardData = (
   actions: ActionCard[];
   equipment: EquipmentCard[];
   heroes: HeroCard[];
+  mentors: MentorCard[];
   resources: ResourceCard[];
   tokens: TokenCard[];
   weapons: WeaponCard[];
@@ -415,13 +424,13 @@ export const mapCardData = (
   const actions: ActionCard[] = [];
   const equipment: EquipmentCard[] = [];
   const heroes: HeroCard[] = [];
+  const mentors: MentorCard[] = [];
   const resources: ResourceCard[] = [];
   const tokens: TokenCard[] = [];
   const weapons: WeaponCard[] = [];
   cards.forEach((card) => {
     const { type, subType } = getTypeAndSubType(card);
     switch (type) {
-      // TODO Type.Mentor
       case Type.Action:
       case Type.AttackAction:
       case Type.AttackReaction:
@@ -435,6 +444,9 @@ export const mapCardData = (
       case Type.Hero:
         heroes.push(getHeroCardData(card));
         break;
+      case Type.Mentor:
+        mentors.push(getMentorCardData(card));
+        break;
       case Type.Resource:
         resources.push(getResourceCardData(card));
         break;
@@ -447,5 +459,5 @@ export const mapCardData = (
     }
   });
   // console.log(actions.find((card) => card.name === "Reckless Swing"));
-  return { actions, equipment, heroes, resources, tokens, weapons };
+  return { actions, equipment, heroes, mentors, resources, tokens, weapons };
 };
