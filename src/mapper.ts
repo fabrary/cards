@@ -32,6 +32,9 @@ const getClass = (card: ParsedCard): Class => {
       return Class[klass];
     }
   }
+  if (getTalents(card)?.length) {
+    return Class.NotClassed;
+  }
   return Class.Generic;
 };
 
@@ -115,9 +118,9 @@ const getImageUrl = (card: ParsedCard): string => {
 };
 
 const getKeywords = (card: ParsedCard): Keyword[] => {
-  const { cardKeywords } = card;
+  const { cardKeywords, grantedKeywords, name } = card;
   const keywords = [];
-  cardKeywords.forEach((keyword) => {
+  [...cardKeywords, ...grantedKeywords].forEach((keyword) => {
     for (const [key, value] of Object.entries(Keyword)) {
       if (keyword.includes(value)) {
         keywords.push(Keyword[key]);
@@ -495,6 +498,6 @@ export const mapCardData = (
         break;
     }
   });
-  // console.log(heroes.find((card) => card.name === "Prism"));
+  // console.log(actions.find((card) => card.name === "Frost Hex"));
   return { actions, equipment, heroes, mentors, resources, tokens, weapons };
 };

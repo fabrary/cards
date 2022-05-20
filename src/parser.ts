@@ -119,6 +119,6 @@ export const parseCardData = (tsv): ParsedCard[] => {
     transform,
     transformHeader,
   });
-  // console.log(cards.data.find((card) => card.name === "Prism"));
+  // console.log(cards.data.find((card) => card.name === "Frost Hex"));
   return cards.data;
 };
