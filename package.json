@@ -1,7 +1,7 @@
 {
   "name": "fab-cards",
   "description": "JavaScript/TypeScript representations of Flesh and Blood cards",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {

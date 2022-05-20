@@ -198,7 +198,11 @@ const todayIsWithinDateRanges = (start: string, end: string): boolean => {
     const today = new Date();
     const startDate = new Date(start);
     const endDate = new Date(end);
-    return startDate < today && today < endDate;
+    if (typeof endDate === "number") {
+      return startDate < today && today < endDate;
+    } else {
+      return startDate < today;
+    }
   } else {
     return false;
   }
