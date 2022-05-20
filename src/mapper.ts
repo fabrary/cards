@@ -254,7 +254,7 @@ const getSpecialization = (card: ParsedCard): Hero => {
   cardKeywords.forEach((keyword) => {
     if (keyword.includes("Specialization")) {
       const [hero] = keyword.split(" Specialization");
-      specialization = Hero[hero];
+      specialization = Hero[hero.replace(" ", "")];
     }
   });
 

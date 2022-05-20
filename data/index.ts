@@ -21911,7 +21911,7 @@
     
     
     
-    
+    specialization: Hero.DataDoll,
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
