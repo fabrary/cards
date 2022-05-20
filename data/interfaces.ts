@@ -243,6 +243,7 @@ export enum Hero {
 }
 
 export enum Keyword {
+  Affliction = "Affliction",
   ArcaneBarrier = "Arcane Barrier",
   Battleworn = "Battleworn",
   BladeBreak = "Blade Break",

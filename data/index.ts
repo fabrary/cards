@@ -24481,6 +24481,222 @@
     
     
     subType: ActionSubType.Item,
+  },{
+    class: Class.Generic,
+    identifier: "thaw-red",
+    functionalText: `While thaw is in your graveyard, at the start of your turn, you may banish it and choose 1:  - Destroy target Frostbite. - Destroy target Ice affliction. - **Unfreeze** target **frozen** card.`,
+    imageUrl: "https://storage.googleapis.com/fabmaster/media/images/UPR086.width-450.png",
+    keywords: [],
+    name: "Thaw",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR086"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Action – Attack",
+    cost: 2,
+    defense: 2,
+    fusions: [],
+    pitch: 1,
+    power: 6,
+    talents: [Talent.Draconic],
+    
+    
+    
+    
+    subType: ActionSubType.Attack,
+  },{
+    class: Class.Wizard,
+    identifier: "encase-red",
+    functionalText: `**Ice Fusion** *(As an additional cost to play Encase, you may reveal an Ice card from your hand.)*  Deal 3 arcane damage to any target. If Encase was **fused** and deals damage to a hero, **freeze** that hero and all equipment they control until the start of your next turn. *(A frozen object can’t be played or activated.)*`,
+    imageUrl: "https://storage.googleapis.com/fabmaster/media/images/ICE_CM1lpsjE9_03.width-450.png",
+    keywords: [Keyword.Fusion],
+    name: "Encase",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR104"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Elemental Wizard Action",
+    cost: 0,
+    defense: 3,
+    fusions: [Fusion.Ice],
+    pitch: 1,
+    
+    talents: [Talent.Elemental],
+    
+    
+    
+    
+    subType: ActionSubType.NonAttack,
+  },{
+    class: Class.Wizard,
+    identifier: "ice-eternal-blue",
+    functionalText: `**Iyslander Specialization** *(You may only have Ice Eternal in your deck if your hero is Iyslander.)*  **Ice Fusion** *(As an additional cost to play Ice Eternal, you may reveal an Ice card from your hand.)*  Create X Frostbite tokens under target hero’s control. Then, if Ice Eternal was **fused**, deal arcane damage to that hero equal to the number of Frostbites they control.`,
+    imageUrl: "https://storage.googleapis.com/fabmaster/media/images/UPR109.width-450.png",
+    keywords: [Keyword.Specialization,Keyword.Fusion],
+    name: "Ice Eternal",
+    rarity: Rarity.Rare,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR109"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Elemental Wizard Action",
+    
+    defense: 3,
+    fusions: [Fusion.Ice],
+    pitch: 3,
+    
+    talents: [Talent.Elemental],
+    specialCost: "XX",
+    
+    
+    specialization: Hero.Iyslander,
+    subType: ActionSubType.NonAttack,
+  },{
+    class: Class.Wizard,
+    identifier: "icebind-blue",
+    functionalText: `**Ice Fusion** *(As an additional cost to play Ice Eternal, you may reveal an Ice card from your hand.)*  Deal 1 arcane damage to any target. If Icebind was **fused** and deals damage to a hero, **freeze** a card in their arsenal until the start of your next turn. *(A frozen object can’t be played or activated.)*`,
+    imageUrl: "https://storage.googleapis.com/fabmaster/media/images/UPR121.width-450.png",
+    keywords: [Keyword.Fusion],
+    name: "Icebind",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR121"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Elemental Wizard Action",
+    cost: 0,
+    defense: 3,
+    fusions: [Fusion.Ice],
+    pitch: 3,
+    
+    talents: [Talent.Elemental],
+    
+    
+    
+    
+    subType: ActionSubType.NonAttack,
+  },{
+    class: Class.Wizard,
+    identifier: "frost-hex-blue",
+    functionalText: `**Iyslander Specialization** *(You may only have Frost Hex in your deck if your hero is Iyslander.)*  *(An affliction enters the arena under an opposing hero’s control.)*  Frostbites you control have “At the beginning of your end phase, this deals 1 arcane damage to you.”`,
+    imageUrl: "https://storage.googleapis.com/fabmaster/media/images/UPR126.width-450.png",
+    keywords: [Keyword.Specialization],
+    name: "Frost Hex",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR126"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Ice Wizard Action – Affliction Aura",
+    cost: 3,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    
+    talents: [Talent.Ice],
+    
+    
+    
+    specialization: Hero.Iyslander,
+    subType: ActionSubType.Aura,
+  },{
+    class: Class.Wizard,
+    identifier: "ice-bolt-blue",
+    functionalText: `Deal 3 arcane damage to any target.`,
+    imageUrl: "https://storage.googleapis.com/fabmaster/media/images/ICE_CM1lpsjE9_04.width-450.png",
+    keywords: [],
+    name: "Ice Bolt",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR135"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Ice Wizard Action",
+    cost: 2,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    
+    talents: [Talent.Ice],
+    
+    
+    
+    
+    subType: ActionSubType.NonAttack,
+  },{
+    class: Class.Generic,
+    identifier: "channel-the-bleak-expanse-blue",
+    functionalText: `**Go again**  Heroes can’t reveal cards, search decks, or draw cards from effects.  **Channel Ice** - At the beginning of your end phase, put a flow counter on Channel the Bleak Expanse then destroy it unless you put an Ice card from your pitch zone on the bottom of your deck for each flow counter on it.`,
+    imageUrl: "https://storage.googleapis.com/fabmaster/media/images/ICE_CM1lpsjE9_05.width-450.png",
+    keywords: [Keyword.Channel],
+    name: "Channel the Bleak Expanse",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR138"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Ice Action – Aura",
+    cost: 1,
+    defense: 2,
+    fusions: [],
+    pitch: 3,
+    
+    talents: [Talent.Ice],
+    
+    
+    
+    
+    subType: ActionSubType.Aura,
+  },{
+    class: Class.Generic,
+    identifier: "hypothermia-blue",
+    functionalText: `*(An affliction enters the arena under an opposing hero’s control.)*  Attacks you control can’t gain **go again**. *(This does not affect attacks that naturally have go again.)*  At the beginning of your end phase, destroy Hypothermia.`,
+    imageUrl: "https://storage.googleapis.com/fabmaster/media/images/UPR139.width-450.png",
+    keywords: [],
+    name: "Hypothermia",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR139"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Ice Action – Affliction Aura",
+    cost: 0,
+    defense: 2,
+    fusions: [],
+    pitch: 3,
+    
+    talents: [Talent.Ice],
+    
+    
+    
+    
+    subType: ActionSubType.Aura,
+  },{
+    class: Class.Generic,
+    identifier: "cold-snap-blue",
+    functionalText: `Target hero may pay {r}. If they don’t, **freeze** a card in their arsenal or an ally they control until the start of your next turn. *(A frozen object can’t be played or activated.)*  If cold snap is played from arsenal, draw a card.  **Go again**`,
+    imageUrl: "https://storage.googleapis.com/fabmaster/media/images/UPR149.width-450.png",
+    keywords: [],
+    name: "Cold Snap",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR149"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Ice Action",
+    cost: 1,
+    defense: 2,
+    fusions: [],
+    pitch: 3,
+    
+    talents: [Talent.Ice],
+    
+    
+    
+    
+    subType: ActionSubType.NonAttack,
   }];
   const attackReactions: ActionCard[] = [{
     class: Class.Ninja,
@@ -30044,8 +30260,8 @@
     name: "Iyslander",
     rarity: Rarity.Majestic,
     restrictedFormats: [],
-    setIdentifiers: ["HER052","EVR120"],
-    sets: [Release.Promos,Release.Everfest],
+    setIdentifiers: ["HER052","EVR120","UPR103"],
+    sets: [Release.Promos,Release.Uprising,Release.Everfest],
     type: Type.Hero,
     typeText: "Elemental Wizard Hero – Young",
     intellect: 4,
@@ -30503,6 +30719,24 @@
     life: 20,
     talents: [],
     young: true
+  },{
+    class: Class.Wizard,
+    identifier: "iyslander-stormbind",
+    functionalText: `**Essence of Ice** *(You may have Ice cards in your deck.)*  If it's not your turn, you may play blue 'non-attack' action cards from your arsenal as though they were an instant.  Whenever you play an Ice card during an opponents turn, create a Frostbite token under their control.`,
+    imageUrl: "https://storage.googleapis.com/fabmaster/media/images/ICE_CM1lpsjE9_01.width-450.png",
+    keywords: [Keyword.Essence],
+    name: "Iyslander, Stormbind",
+    rarity: Rarity.Token,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR102"],
+    sets: [Release.Uprising],
+    type: Type.Hero,
+    typeText: "Elemental Wizard Hero",
+    intellect: 4,
+    hero: Hero.Iyslander,
+    life: 36,
+    talents: [Talent.Elemental],
+    young: null
   }];
   const resources: ResourceCard[] = [{
     class: Class.Generic,
