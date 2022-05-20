@@ -158,21 +158,57 @@ const getRestrictedFormats = (card: ParsedCard): Format[] => {
   const {
     blitzBanned,
     blitzLivingLegend,
+    blitzSuspendedStart,
+    blitzSuspendedEnd,
     classicConstructedBanned,
     classicConstructedLivingLegend,
+    classicConstructedSuspendedStart,
+    classicConstructedSuspendedEnd,
     commonerBanned,
   } = card;
   const restrictedFormats = [];
-  if (blitzBanned || blitzLivingLegend) {
+  if (
+    blitzLivingLegend ||
+    todayIsAfterDate(blitzBanned) ||
+    todayIsWithinDateRanges(blitzSuspendedStart, blitzSuspendedEnd)
+  ) {
     restrictedFormats.push(Format.Blitz);
   }
-  if (classicConstructedBanned || classicConstructedLivingLegend) {
+  if (
+    classicConstructedLivingLegend ||
+    todayIsAfterDate(classicConstructedBanned) ||
+    todayIsWithinDateRanges(
+      classicConstructedSuspendedStart,
+      classicConstructedSuspendedEnd
+    )
+  ) {
     restrictedFormats.push(Format.ClassicConstructed);
   }
   if (commonerBanned) {
     restrictedFormats.push(Format.Commoner);
   }
   return restrictedFormats;
+};
+
+const todayIsWithinDateRanges = (start: string, end: string): boolean => {
+  if (start && end) {
+    const today = new Date();
+    const startDate = new Date(start);
+    const endDate = new Date(end);
+    return startDate < today && today < endDate;
+  } else {
+    return false;
+  }
+};
+
+const todayIsAfterDate = (date: string): boolean => {
+  if (date) {
+    const today = new Date();
+    const dat = new Date(date);
+    return today > dat;
+  } else {
+    return false;
+  }
 };
 
 const setIdentifierToSetMappings = {
@@ -363,6 +399,7 @@ const getHeroCardData = (card: ParsedCard): HeroCard => {
     intellect: card.intellect,
     hero: getHero(card),
     life: card.life,
+    talents: getTalents(card),
     young: getYoung(card),
   };
 };
@@ -458,6 +495,6 @@ export const mapCardData = (
         break;
     }
   });
-  // console.log(actions.find((card) => card.name === "Reckless Swing"));
+  // console.log(heroes.find((card) => card.name === "Prism"));
   return { actions, equipment, heroes, mentors, resources, tokens, weapons };
 };

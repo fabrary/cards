@@ -38,6 +38,7 @@ export interface HeroCard extends Card {
   intellect: number;
   hero: Hero;
   life: number;
+  talents?: Talent[];
   young: boolean;
 }
 

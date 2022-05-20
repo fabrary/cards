@@ -92,17 +92,17 @@ const headerMappings = {
   Artists: "artists",
   "Card Played Horizontally": "cardPlayedHorizontally",
   "Blitz Legal": "blitzLegal",
-  "CC Legal": "classicConstructedLegal",
-  "Commoner Legal": "commonerLegal",
   "Blitz Living Legend": "blitzLivingLegend",
-  "CC Living Legend": "classicConstructedLivingLegend",
   "Blitz Banned": "blitzBanned",
-  "Commoner Banned": "classicConstructedBanned",
-  "CC Banned": "commonerBanned",
   "Blitz Suspended Start": "blitzSuspendedStart",
   "Blitz Suspended End": "blitzSuspendedEnd",
+  "CC Legal": "classicConstructedLegal",
+  "CC Living Legend": "classicConstructedLivingLegend",
+  "CC Banned": "classicConstructedBanned",
   "CC Suspended Start": "classicConstructedSuspendedStart",
   "CC Suspended End": "classicConstructedSuspendedEnd",
+  "Commoner Legal": "commonerLegal",
+  "Commoner Banned": "commonerBanned",
   "Commoner Suspended Start": "commonerSuspendedStart",
   "Commoner Suspended End": "commonerSuspendedEnd",
   Variations: "variations",
@@ -119,6 +119,6 @@ export const parseCardData = (tsv): ParsedCard[] => {
     transform,
     transformHeader,
   });
-  // console.log(cards.data.find((card) => card.name === "Reckless Swing"));
+  // console.log(cards.data.find((card) => card.name === "Prism"));
   return cards.data;
 };

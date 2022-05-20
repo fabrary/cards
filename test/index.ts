@@ -2,7 +2,7 @@ import { readFileSync } from "fs";
 import { parse } from "papaparse";
 import { cards as libraryCards } from "../dist/index";
 
-const csv = readFileSync("src/card.tsv", "utf8");
+const csv = readFileSync("src/cards.tsv", "utf8");
 const parsed = parse(csv, {
   header: true,
   dynamicTyping: true,

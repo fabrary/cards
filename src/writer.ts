@@ -124,6 +124,7 @@ const generateHeroTS = (card: HeroCard): String => {
     intellect: ${card.intellect},
     hero: ${getEnumValue(card.hero, "Hero", Hero)},
     life: ${card.life},
+    talents: [${getEnumValues(card.talents, "Talent", Talent)}],
     young: ${card.young}
   }`;
 };
