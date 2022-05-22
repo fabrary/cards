@@ -10,10 +10,12 @@ import {
   HandsRequired,
   Hero,
   HeroCard,
+  Image,
   Keyword,
   MentorCard,
   Rarity,
   Release,
+  ReleaseEdition,
   ResourceCard,
   ResourceSubType,
   Talent,
@@ -41,6 +43,25 @@ const getClass = (card: ParsedCard): Class => {
 const getCost = (card: ParsedCard): number => {
   const { cost } = card;
   return typeof cost === "string" ? null : cost;
+};
+
+const getDefaultImageUrl = (card: ParsedCard): string => {
+  const images = getImages(card);
+  const firstEdition = images.find(
+    (image) => image.edition === ReleaseEdition.First
+  );
+  const alphaEdition = images.find(
+    (image) => image.edition === ReleaseEdition.Alpha
+  );
+  const unlimitedEdition = images.find(
+    (image) => image.edition === ReleaseEdition.Unlimited
+  );
+  return (
+    firstEdition?.url ||
+    alphaEdition?.url ||
+    unlimitedEdition?.url ||
+    images[0].url
+  );
 };
 
 const getDefense = (card: ParsedCard): number => {
@@ -111,10 +132,39 @@ const getIdentifier = (card: ParsedCard): string => {
   return color ? `${name}-${color}` : name;
 };
 
-const getImageUrl = (card: ParsedCard): string => {
-  const { imageUrls } = card;
-  const [imageUrl] = imageUrls[0].split(" ");
-  return imageUrl;
+const setEditionMapping = {
+  A: ReleaseEdition.Alpha,
+  F: ReleaseEdition.First,
+  U: ReleaseEdition.Unlimited,
+  N: ReleaseEdition.Promo,
+};
+const getImages = (card: ParsedCard): Image[] => {
+  const images: Image[] = [];
+  const { images: unparsedImages } = card;
+  for (const image of unparsedImages) {
+    const [url, identifier, rawEdition] = image.split(" - ");
+    const setAbbreviation = identifier.slice(0, 3);
+    const set = setIdentifierToSetMappings[setAbbreviation];
+    const edition = setEditionMapping[rawEdition];
+    if (!set) {
+      console.log({
+        image,
+        url,
+        identifier,
+        rawEdition,
+        edition,
+        set,
+        setAbbreviation,
+      });
+    }
+    images.push({
+      edition,
+      identifier,
+      set,
+      url,
+    });
+  }
+  return images;
 };
 
 const getKeywords = (card: ParsedCard): Keyword[] => {
@@ -219,11 +269,17 @@ const todayIsAfterDate = (date: string): boolean => {
 };
 
 const setIdentifierToSetMappings = {
-  FAB: Release.Promos,
-  HER: Release.Promos,
-  LGS: Release.Promos,
-  LSS: Release.Promos,
-  XXX: Release.Promos,
+  // Full sets
+  WTR: Release.WelcomeToRathe,
+  ARC: Release.ArcaneRising,
+  CRU: Release.CrucibleOfWar,
+  "1HP": Release.HistoryPack1,
+  MON: Release.Monarch,
+  ELE: Release.TalesOfAria,
+  EVR: Release.Everfest,
+  UPR: Release.Uprising,
+
+  // Starter/blitz decks
   BOL: Release.BoltynBlitzDeck,
   BRI: Release.BriarBlitzDeck,
   BVO: Release.BravoBlitzDeck,
@@ -237,14 +293,14 @@ const setIdentifierToSetMappings = {
   RNR: Release.RhinarHeroDeck,
   TEA: Release.DorintheaHeroDeck,
   DVR: Release.ClassicBattlesRhinarDorinthea,
-  "1HP": Release.HistoryPack1,
-  WTR: Release.WelcomeToRathe,
-  ARC: Release.ArcaneRising,
-  CRU: Release.CrucibleOfWar,
-  MON: Release.Monarch,
-  ELE: Release.TalesOfAria,
-  EVR: Release.Everfest,
-  UPR: Release.Uprising,
+
+  // Promos
+  FAB: Release.Promos,
+  HER: Release.Promos,
+  LGS: Release.Promos,
+  LSS: Release.Promos,
+  OXO: Release.Promos,
+  XXX: Release.Promos,
 };
 const getSets = (card: ParsedCard): Release[] =>
   card.setIdentifiers
@@ -357,7 +413,8 @@ const getCommonCardData = (card: ParsedCard): Card => {
     class: getClass(card),
     identifier: getIdentifier(card),
     functionalText: card.functionalText,
-    imageUrl: getImageUrl(card),
+    defaultImageUrl: getDefaultImageUrl(card),
+    images: getImages(card),
     keywords: getKeywords(card),
     name: card.name,
     rarity: getRarity(card),

@@ -15,7 +15,7 @@ export interface ParsedCard {
   grantedKeywords: string[];
   life: number;
   identifiers: string[];
-  imageUrls: string[];
+  images: string[];
   intellect: number;
   name: string;
   pitch: number;
@@ -52,7 +52,7 @@ const fieldsWithListValues = [
   "abilitiesAndEffectKeywords",
   "grantedKeywords",
   "variations",
-  "imageUrls",
+  "images",
 ];
 const transform = (value: any, field: string) => {
   if (fieldsWithListValues.includes(field)) {
@@ -61,6 +61,7 @@ const transform = (value: any, field: string) => {
           ...new Set(
             value
               .trim()
+              .replaceAll("–", "-")
               .split(",")
               .map((value) => value.trim())
           ),
@@ -106,7 +107,7 @@ const headerMappings = {
   "Commoner Suspended Start": "commonerSuspendedStart",
   "Commoner Suspended End": "commonerSuspendedEnd",
   Variations: "variations",
-  "Image URLs": "imageUrls",
+  "Image URLs": "images",
 };
 const transformHeader = (original: string, index: number) =>
   headerMappings[original];

@@ -2,7 +2,8 @@ export interface Card {
   class: Class;
   identifier: string;
   functionalText: string;
-  imageUrl: string;
+  defaultImageUrl: string;
+  images?: Image[];
   keywords: Keyword[];
   name: string;
   rarity: Rarity;
@@ -11,6 +12,14 @@ export interface Card {
   sets: Release[];
   type: Type;
   typeText: string;
+}
+
+export interface Image {
+  art?: Art;
+  edition: ReleaseEdition;
+  identifier: string;
+  set: Release;
+  url: string;
 }
 
 export interface ActionCard extends Card {
@@ -133,6 +142,13 @@ export enum Release {
 
   // One-offs
   Promos = "Promos",
+}
+
+export enum ReleaseEdition {
+  Alpha = "Alpha",
+  First = "First",
+  Promo = "Promo",
+  Unlimited = "Unlimited",
 }
 
 export enum Talent {
@@ -273,4 +289,11 @@ export enum Keyword {
   Temper = "Temper",
   Thaw = "Thaw",
   Unfreeze = "Unfreeze",
+}
+
+export enum Art {
+  ColdFoil = "Cold foil",
+  GoldColdFoil = "Gold cold foil",
+  RainbowFoil = "Rainbow foil",
+  Standard = "Standard",
 }

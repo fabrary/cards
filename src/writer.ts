@@ -2,6 +2,7 @@ import { copyFileSync, existsSync, mkdirSync, writeFileSync } from "fs";
 import {
   ActionCard,
   ActionSubType,
+  Art,
   Card,
   Class,
   EquipmentCard,
@@ -11,10 +12,12 @@ import {
   HandsRequired,
   Hero,
   HeroCard,
+  Image,
   Keyword,
   MentorCard,
   Rarity,
   Release,
+  ReleaseEdition,
   ResourceCard,
   ResourceSubType,
   Talent,
@@ -52,11 +55,25 @@ const getEnumValue = (value: any, enumName: string, enm: any) => {
   return `${enumName}.${enumValue}`;
 };
 
+const getImages = (images: Image[]) => {
+  return images.reduce(
+    (images, image) =>
+      (images += `{
+      edition: ${getEnumValue(image.edition, "ReleaseEdition", ReleaseEdition)},
+      identifier: "${image.identifier}",
+      set: ${getEnumValue(image.set, "Release", Release)},
+      url: "${image.url}",
+    },`),
+    ``
+  );
+};
+
 const getCardInfo = (card: Card): String => {
   return `class: ${getEnumValue(card.class, "Class", Class)},
     identifier: "${card.identifier}",
     functionalText: \`${card.functionalText}\`,
-    imageUrl: "${card.imageUrl}",
+    defaultImageUrl: "${card.defaultImageUrl}",
+    images: [${getImages(card.images)}],
     keywords: [${getEnumValues(card.keywords, "Keyword", Keyword)}],
     name: "${card.name}",
     rarity: ${getEnumValue(card.rarity, "Rarity", Rarity)},
@@ -267,6 +284,7 @@ const generateTS = (cards: AllCards): string => {
   } = getCardsByType(cards);
   const ts = `
   import {
+    Art,
     ActionCard,
     ActionSubType,
     Card,
@@ -282,6 +300,7 @@ const generateTS = (cards: AllCards): string => {
     MentorCard,
     Rarity,
     Release,
+    ReleaseEdition,
     ResourceCard,
     ResourceSubType,
     Talent,
