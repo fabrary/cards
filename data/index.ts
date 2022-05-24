@@ -47984,6 +47984,11 @@
       identifier: "EVR120",
       set: Release.Everfest,
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR120.width-450.png",
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "UPR103",
+      set: Release.Uprising,
+      url: "https://storage.googleapis.com/fabmaster/media/images/ICE_CM1lpsjE9_02.width-450.png",
     },],
     keywords: [Keyword.Essence],
     name: "Iyslander",
