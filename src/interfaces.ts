@@ -3,12 +3,12 @@ export interface Card {
   identifier: string;
   functionalText: string;
   defaultImageUrl: string;
-  images?: Image[];
+  images: Image[];
   keywords: Keyword[];
   name: string;
   rarity: Rarity;
-  restrictedFormats?: Format[];
-  setIdentifiers?: string[];
+  restrictedFormats: Format[];
+  setIdentifiers: string[];
   sets: Release[];
   type: Type;
   typeText: string;
@@ -273,7 +273,7 @@ export enum Keyword {
   Essence = "Essence",
   Freeze = "Freeze",
   Fusion = "Fusion",
-  GoAgain = "Go Again",
+  GoAgain = "Go again",
   Heave = "Heave",
   Intimidate = "Intimidate",
   Legendary = "Legendary",
