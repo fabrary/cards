@@ -293,6 +293,7 @@ const setIdentifierToSetMappings = {
   RNR: Release.RhinarHeroDeck,
   TEA: Release.DorintheaHeroDeck,
   DVR: Release.ClassicBattlesRhinarDorinthea,
+  RVD: Release.ClassicBattlesRhinarDorinthea,
 
   // Promos
   FAB: Release.Promos,
