@@ -49346,7 +49346,7 @@
     intellect: 4,
     hero: Hero.Oldhim,
     life: 40,
-    talents: [Talent.Elemental],
+    talents: [Talent.Earth,Talent.Elemental,Talent.Ice],
     young: null
   },{
     class: Class.Guardian,
@@ -49385,7 +49385,7 @@
     intellect: 4,
     hero: Hero.Oldhim,
     life: 20,
-    talents: [Talent.Elemental],
+    talents: [Talent.Earth,Talent.Elemental,Talent.Ice],
     young: true
   },{
     class: Class.Ranger,
@@ -49424,7 +49424,7 @@
     intellect: 4,
     hero: Hero.Lexi,
     life: 40,
-    talents: [Talent.Elemental],
+    talents: [Talent.Elemental,Talent.Ice,Talent.Lightning],
     young: null
   },{
     class: Class.Ranger,
@@ -49463,7 +49463,7 @@
     intellect: 4,
     hero: Hero.Lexi,
     life: 20,
-    talents: [Talent.Elemental],
+    talents: [Talent.Elemental,Talent.Ice,Talent.Lightning],
     young: true
   },{
     class: Class.Runeblade,
@@ -49502,7 +49502,7 @@
     intellect: 4,
     hero: Hero.Briar,
     life: 40,
-    talents: [Talent.Elemental],
+    talents: [Talent.Earth,Talent.Elemental,Talent.Lightning],
     young: null
   },{
     class: Class.Runeblade,
@@ -49541,7 +49541,7 @@
     intellect: 4,
     hero: Hero.Briar,
     life: 20,
-    talents: [Talent.Elemental],
+    talents: [Talent.Earth,Talent.Elemental,Talent.Lightning],
     young: true
   },{
     class: Class.Guardian,
@@ -49570,7 +49570,7 @@
     intellect: 4,
     hero: Hero.Bravo,
     life: 40,
-    talents: [Talent.Elemental],
+    talents: [Talent.Earth,Talent.Elemental,Talent.Ice,Talent.Lightning],
     young: null
   },{
     class: Class.Guardian,
@@ -49662,7 +49662,7 @@
     intellect: 4,
     hero: Hero.Iyslander,
     life: 18,
-    talents: [Talent.Elemental],
+    talents: [Talent.Elemental,Talent.Ice],
     young: true
   },{
     class: Class.Warrior,
@@ -49710,7 +49710,7 @@
     intellect: 4,
     hero: Hero.Iyslander,
     life: 36,
-    talents: [Talent.Elemental],
+    talents: [Talent.Elemental,Talent.Ice],
     young: null
   }];
   const resources: ResourceCard[] = [{
@@ -51906,4 +51906,6 @@
     ...tokens,
     ...weapons,
   ];
+
+  export * from "./interfaces";
   

@@ -338,6 +338,8 @@ const generateTS = (cards: AllCards): string => {
     ...tokens,
     ...weapons,
   ];
+
+  export * from "./interfaces";
   `;
   return ts;
 };

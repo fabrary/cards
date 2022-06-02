@@ -338,14 +338,23 @@ const getSpecialPower = (card: ParsedCard): string => {
 };
 
 const getTalents = (card: ParsedCard): Talent[] => {
-  const { types } = card;
-  const talents = [];
+  const { types, cardKeywords } = card;
+  const talents = new Set<Talent>();
   for (const [talent, value] of Object.entries(Talent)) {
     if (types.includes(value)) {
-      talents.push(Talent[talent]);
+      talents.add(Talent[talent]);
+    }
+    if (types.includes(Type.Hero)) {
+      for (const cardKeyword of cardKeywords) {
+        for (const keyword of cardKeyword.split(" ")) {
+          if (keyword === value) {
+            talents.add(Talent[talent]);
+          }
+        }
+      }
     }
   }
-  return talents;
+  return [...talents];
 };
 
 const getTypeAndSubType = (
