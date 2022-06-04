@@ -32,7 +32,7 @@ export interface ActionCard extends Card {
   specialCost?: string;
   specialDefense?: string;
   specialPower?: string;
-  specialization?: Hero;
+  specializations?: Hero[];
   subType?: ActionSubType;
 }
 
@@ -108,6 +108,7 @@ export enum Rarity {
   Rare = "Rare",
   SuperRare = "Super Rare",
   Majestic = "Majestic",
+  Marvel = "Marvel",
   Legendary = "Legendary",
   Fabled = "Fabled",
   Promo = "Promo",
@@ -178,6 +179,7 @@ export enum Type {
 
 export enum ActionSubType {
   Ally = "Ally",
+  Ash = "Ash",
   Attack = "Attack",
   Arrow = "Arrow",
   Aura = "Aura",
@@ -201,6 +203,7 @@ export enum ResourceSubType {
 
 export enum TokenSubType {
   Ally = "Ally",
+  Ash = "Ash",
   Aura = "Aura",
   Item = "Item",
 }
@@ -237,6 +240,8 @@ export enum Hero {
   Dash = "Dash",
   DataDoll = "Data Doll",
   Dorinthea = "Dorinthea",
+  Dromai = "Dromai",
+  Fai = "Fai",
   GenisWotchuneed = "Genis Wotchuneed",
   Ira = "Ira",
   Iyslander = "Iyslander",
@@ -277,18 +282,23 @@ export enum Keyword {
   Heave = "Heave",
   Intimidate = "Intimidate",
   Legendary = "Legendary",
+  Material = "Material",
   Mentor = "Mentor",
   Negate = "Negate",
   Opt = "Opt",
   Phantasm = "Phantasm",
+  Quell = "Quell",
   Reload = "Reload",
   Reprise = "Reprise",
+  Rupture = "Rupture",
   Specialization = "Specialization",
   Spectra = "Spectra",
   Spellvoid = "Spellvoid",
   Temper = "Temper",
+  Transform = "Transform",
   Thaw = "Thaw",
   Unfreeze = "Unfreeze",
+  Ward = "Ward",
 }
 
 export enum Art {

@@ -100,11 +100,7 @@ const generateActionTS = (card: ActionCard): String => {
     ${card.specialCost ? `specialCost: "${card.specialCost}",` : ``}
     ${card.specialDefense ? `specialDefense: "${card.specialDefense}",` : ``}
     ${card.specialPower ? `specialPower: "${card.specialPower}",` : ``}
-    ${
-      card.specialization
-        ? `specialization: ${getEnumValue(card.specialization, "Hero", Hero)},`
-        : ``
-    }
+    specializations: [${getEnumValues(card.specializations, "Hero", Hero)}],
     ${
       card.subType
         ? `subType: ${getEnumValue(

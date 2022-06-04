@@ -70,7 +70,7 @@
     
     
     
-    specialization: Hero.Rhinar,
+    specializations: [Hero.Rhinar],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -110,7 +110,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
@@ -150,7 +150,7 @@
     
     
     
-    specialization: Hero.Rhinar,
+    specializations: [Hero.Rhinar],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
@@ -195,7 +195,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -235,7 +235,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -275,7 +275,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -320,7 +320,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -360,7 +360,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -400,7 +400,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -440,7 +440,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
@@ -490,7 +490,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
@@ -535,7 +535,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
@@ -580,7 +580,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -625,7 +625,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -665,7 +665,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -715,7 +715,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -755,7 +755,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -795,7 +795,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -840,7 +840,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -890,7 +890,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -930,7 +930,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -980,7 +980,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -1025,7 +1025,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -1085,7 +1085,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -1130,7 +1130,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
@@ -1165,7 +1165,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
@@ -1205,7 +1205,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
@@ -1245,7 +1245,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
@@ -1285,7 +1285,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
@@ -1330,7 +1330,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Guardian,
@@ -1370,7 +1370,7 @@
     
     
     
-    specialization: Hero.Bravo,
+    specializations: [Hero.Bravo],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -1410,7 +1410,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -1445,7 +1445,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -1480,7 +1480,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
@@ -1520,7 +1520,7 @@
     
     
     
-    specialization: Hero.Bravo,
+    specializations: [Hero.Bravo],
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
@@ -1565,7 +1565,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -1605,7 +1605,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -1650,7 +1650,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -1700,7 +1700,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
@@ -1745,7 +1745,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
@@ -1795,7 +1795,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
@@ -1835,7 +1835,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -1870,7 +1870,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -1910,7 +1910,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -1955,7 +1955,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -1995,7 +1995,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -2040,7 +2040,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -2080,7 +2080,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -2120,7 +2120,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -2165,7 +2165,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -2210,7 +2210,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -2255,7 +2255,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -2295,7 +2295,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -2335,7 +2335,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
@@ -2375,7 +2375,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
@@ -2410,7 +2410,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
@@ -2450,7 +2450,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
@@ -2490,7 +2490,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
@@ -2535,7 +2535,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Ninja,
@@ -2575,7 +2575,7 @@
     
     
     
-    specialization: Hero.Katsu,
+    specializations: [Hero.Katsu],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -2615,7 +2615,7 @@
     
     
     
-    specialization: Hero.Katsu,
+    specializations: [Hero.Katsu],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -2650,7 +2650,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -2685,7 +2685,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -2725,7 +2725,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -2760,7 +2760,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -2800,7 +2800,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -2845,7 +2845,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -2885,7 +2885,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -2925,7 +2925,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -2965,7 +2965,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -3000,7 +3000,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -3035,7 +3035,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -3080,7 +3080,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -3120,7 +3120,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -3170,7 +3170,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -3215,7 +3215,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -3260,7 +3260,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -3300,7 +3300,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -3345,7 +3345,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -3390,7 +3390,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -3430,7 +3430,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -3475,7 +3475,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -3520,7 +3520,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -3560,7 +3560,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -3615,7 +3615,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -3660,7 +3660,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -3710,7 +3710,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
@@ -3750,7 +3750,7 @@
     
     
     
-    specialization: Hero.Dorinthea,
+    specializations: [Hero.Dorinthea],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -3785,7 +3785,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -3830,7 +3830,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -3875,7 +3875,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -3920,7 +3920,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -3965,7 +3965,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -4000,7 +4000,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -4040,7 +4040,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -4085,7 +4085,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -4130,7 +4130,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -4175,7 +4175,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -4220,7 +4220,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -4260,7 +4260,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -4305,7 +4305,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -4345,7 +4345,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -4385,7 +4385,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -4425,7 +4425,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -4470,7 +4470,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
@@ -4510,7 +4510,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -4545,7 +4545,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -4585,7 +4585,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -4625,7 +4625,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -4665,7 +4665,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -4705,7 +4705,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -4760,7 +4760,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
@@ -4810,7 +4810,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
@@ -4860,7 +4860,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
@@ -4895,7 +4895,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -4935,7 +4935,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -4975,7 +4975,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -5010,7 +5010,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -5045,7 +5045,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -5080,7 +5080,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -5125,7 +5125,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -5165,7 +5165,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -5215,7 +5215,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -5250,7 +5250,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -5285,7 +5285,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -5320,7 +5320,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -5355,7 +5355,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -5400,7 +5400,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -5440,7 +5440,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -5495,7 +5495,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -5535,7 +5535,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -5575,7 +5575,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -5610,7 +5610,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -5645,7 +5645,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -5695,7 +5695,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -5730,7 +5730,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -5765,7 +5765,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -5800,7 +5800,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -5835,7 +5835,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -5880,7 +5880,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -5920,7 +5920,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -5960,7 +5960,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -5995,7 +5995,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -6035,7 +6035,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -6075,7 +6075,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -6115,7 +6115,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -6155,7 +6155,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -6195,7 +6195,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -6235,7 +6235,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -6280,7 +6280,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
@@ -6320,7 +6320,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
@@ -6360,7 +6360,7 @@
     
     
     
-    specialization: Hero.Dash,
+    specializations: [Hero.Dash],
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
@@ -6395,7 +6395,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -6435,7 +6435,7 @@
     specialCost: "XX",
     
     
-    specialization: Hero.Dash,
+    specializations: [Hero.Dash],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
@@ -6475,7 +6475,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
@@ -6515,7 +6515,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -6555,7 +6555,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -6595,7 +6595,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -6630,7 +6630,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
@@ -6665,7 +6665,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
@@ -6700,7 +6700,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
@@ -6740,7 +6740,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
@@ -6780,7 +6780,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
@@ -6820,7 +6820,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
@@ -6870,7 +6870,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -6915,7 +6915,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -6960,7 +6960,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -7000,7 +7000,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -7040,7 +7040,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -7080,7 +7080,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -7120,7 +7120,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -7160,7 +7160,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -7200,7 +7200,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -7240,7 +7240,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -7280,7 +7280,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -7320,7 +7320,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -7355,7 +7355,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
@@ -7390,7 +7390,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
@@ -7425,7 +7425,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
@@ -7465,7 +7465,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
@@ -7505,7 +7505,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
@@ -7545,7 +7545,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Ranger,
@@ -7585,7 +7585,7 @@
     
     
     
-    specialization: Hero.Azalea,
+    specializations: [Hero.Azalea],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -7625,7 +7625,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
@@ -7665,7 +7665,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -7705,7 +7705,7 @@
     
     
     
-    specialization: Hero.Azalea,
+    specializations: [Hero.Azalea],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
@@ -7740,7 +7740,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
@@ -7775,7 +7775,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
@@ -7810,7 +7810,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
@@ -7845,7 +7845,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
@@ -7890,7 +7890,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
@@ -7930,7 +7930,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
@@ -7970,7 +7970,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
@@ -8010,7 +8010,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -8050,7 +8050,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -8090,7 +8090,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -8125,7 +8125,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -8160,7 +8160,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -8195,7 +8195,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -8235,7 +8235,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -8275,7 +8275,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -8315,7 +8315,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -8355,7 +8355,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -8395,7 +8395,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -8435,7 +8435,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -8475,7 +8475,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -8515,7 +8515,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -8555,7 +8555,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -8605,7 +8605,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -8650,7 +8650,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -8695,7 +8695,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -8735,7 +8735,7 @@
     
     
     
-    specialization: Hero.Viserai,
+    specializations: [Hero.Viserai],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -8775,7 +8775,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -8810,7 +8810,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -8850,7 +8850,7 @@
     
     
     
-    specialization: Hero.Viserai,
+    specializations: [Hero.Viserai],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -8885,7 +8885,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -8925,7 +8925,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -8965,7 +8965,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -9005,7 +9005,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -9045,7 +9045,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -9085,7 +9085,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -9125,7 +9125,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -9165,7 +9165,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -9205,7 +9205,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -9245,7 +9245,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -9280,7 +9280,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -9315,7 +9315,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -9350,7 +9350,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -9390,7 +9390,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -9430,7 +9430,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -9470,7 +9470,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -9505,7 +9505,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -9540,7 +9540,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -9575,7 +9575,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -9615,7 +9615,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Runeblade,
@@ -9655,7 +9655,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Runeblade,
@@ -9695,7 +9695,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Runeblade,
@@ -9735,7 +9735,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -9775,7 +9775,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -9815,7 +9815,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -9855,7 +9855,7 @@
     
     
     
-    specialization: Hero.Kano,
+    specializations: [Hero.Kano],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -9895,7 +9895,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -9935,7 +9935,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -9975,7 +9975,7 @@
     
     
     
-    specialization: Hero.Kano,
+    specializations: [Hero.Kano],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -10015,7 +10015,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -10055,7 +10055,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -10095,7 +10095,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -10135,7 +10135,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -10175,7 +10175,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -10215,7 +10215,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -10255,7 +10255,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -10295,7 +10295,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -10335,7 +10335,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -10375,7 +10375,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -10410,7 +10410,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -10445,7 +10445,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -10480,7 +10480,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -10520,7 +10520,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -10560,7 +10560,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -10600,7 +10600,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -10640,7 +10640,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -10680,7 +10680,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -10720,7 +10720,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -10760,7 +10760,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -10800,7 +10800,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -10840,7 +10840,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -10890,7 +10890,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -10935,7 +10935,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -10980,7 +10980,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -11020,7 +11020,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -11055,7 +11055,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -11090,7 +11090,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Generic,
@@ -11125,7 +11125,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
@@ -11165,7 +11165,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -11205,7 +11205,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -11245,7 +11245,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -11285,7 +11285,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Generic,
@@ -11325,7 +11325,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Generic,
@@ -11365,7 +11365,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Generic,
@@ -11405,7 +11405,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -11445,7 +11445,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -11485,7 +11485,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -11520,7 +11520,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -11555,7 +11555,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -11590,7 +11590,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -11625,7 +11625,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -11660,7 +11660,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -11695,7 +11695,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -11730,7 +11730,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -11765,7 +11765,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -11800,7 +11800,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -11835,7 +11835,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -11870,7 +11870,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -11905,7 +11905,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -11940,7 +11940,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -11975,7 +11975,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -12010,7 +12010,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -12050,7 +12050,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -12090,7 +12090,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -12130,7 +12130,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -12165,7 +12165,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -12200,7 +12200,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -12235,7 +12235,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -12270,7 +12270,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -12305,7 +12305,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -12340,7 +12340,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -12380,7 +12380,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -12420,7 +12420,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -12465,7 +12465,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -12500,7 +12500,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -12535,7 +12535,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -12570,7 +12570,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -12605,7 +12605,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -12640,7 +12640,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -12675,7 +12675,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -12710,7 +12710,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -12745,7 +12745,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -12780,7 +12780,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -12820,7 +12820,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -12860,7 +12860,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -12900,7 +12900,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
@@ -12940,7 +12940,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -12980,7 +12980,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -13015,7 +13015,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -13050,7 +13050,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -13085,7 +13085,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -13120,7 +13120,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -13155,7 +13155,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -13190,7 +13190,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -13225,7 +13225,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -13265,7 +13265,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -13305,7 +13305,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -13345,7 +13345,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -13380,7 +13380,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -13415,7 +13415,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -13450,7 +13450,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -13490,7 +13490,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -13530,7 +13530,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -13565,7 +13565,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
@@ -13605,7 +13605,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
@@ -13645,7 +13645,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
@@ -13685,7 +13685,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
@@ -13720,7 +13720,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -13755,7 +13755,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -13790,7 +13790,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -13830,7 +13830,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -13870,7 +13870,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -13910,7 +13910,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -13950,7 +13950,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
@@ -13990,7 +13990,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
@@ -14030,7 +14030,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Ninja,
@@ -14070,7 +14070,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -14110,7 +14110,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -14150,7 +14150,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -14190,7 +14190,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -14230,7 +14230,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -14270,7 +14270,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -14310,7 +14310,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -14350,7 +14350,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -14390,7 +14390,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -14430,7 +14430,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -14465,7 +14465,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -14500,7 +14500,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -14540,7 +14540,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -14580,7 +14580,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -14620,7 +14620,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -14665,7 +14665,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -14705,7 +14705,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -14745,7 +14745,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -14790,7 +14790,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -14835,7 +14835,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -14880,7 +14880,7 @@
     
     
     
-    specialization: Hero.Ira,
+    specializations: [Hero.Ira],
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
@@ -14920,7 +14920,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -14955,7 +14955,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -14990,7 +14990,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -15025,7 +15025,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -15065,7 +15065,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -15105,7 +15105,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -15150,7 +15150,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -15190,7 +15190,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -15225,7 +15225,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -15260,7 +15260,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
@@ -15295,7 +15295,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -15330,7 +15330,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
@@ -15370,7 +15370,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
@@ -15410,7 +15410,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -15450,7 +15450,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -15490,7 +15490,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -15530,7 +15530,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -15570,7 +15570,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -15610,7 +15610,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -15645,7 +15645,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -15680,7 +15680,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -15715,7 +15715,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -15750,7 +15750,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
@@ -15785,7 +15785,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
@@ -15820,7 +15820,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
@@ -15860,7 +15860,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -15895,7 +15895,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
@@ -15930,7 +15930,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -15965,7 +15965,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -16000,7 +16000,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -16040,7 +16040,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -16080,7 +16080,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -16120,7 +16120,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -16155,7 +16155,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
@@ -16190,7 +16190,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
@@ -16225,7 +16225,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -16265,7 +16265,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -16300,7 +16300,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -16340,7 +16340,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Runeblade,
@@ -16380,7 +16380,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -16420,7 +16420,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -16460,7 +16460,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -16500,7 +16500,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -16535,7 +16535,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -16570,7 +16570,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -16610,7 +16610,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -16650,7 +16650,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -16690,7 +16690,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -16730,7 +16730,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -16770,7 +16770,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -16810,7 +16810,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -16850,7 +16850,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -16885,7 +16885,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -16925,7 +16925,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -16965,7 +16965,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -17005,7 +17005,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -17040,7 +17040,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -17075,7 +17075,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -17110,7 +17110,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -17145,7 +17145,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -17180,7 +17180,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -17215,7 +17215,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -17255,7 +17255,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -17295,7 +17295,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -17335,7 +17335,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -17375,7 +17375,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -17415,7 +17415,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -17450,7 +17450,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -17485,7 +17485,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -17520,7 +17520,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -17555,7 +17555,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -17590,7 +17590,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -17625,7 +17625,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -17665,7 +17665,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -17700,7 +17700,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Landmark,
   },{
     class: Class.Illusionist,
@@ -17740,7 +17740,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
@@ -17785,7 +17785,7 @@
     
     
     
-    specialization: Hero.Prism,
+    specializations: [Hero.Prism],
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
@@ -17820,7 +17820,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
@@ -17855,7 +17855,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
@@ -17890,7 +17890,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
@@ -17935,7 +17935,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
@@ -17975,7 +17975,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
@@ -18020,7 +18020,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
@@ -18060,7 +18060,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
@@ -18095,7 +18095,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
@@ -18135,7 +18135,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
@@ -18175,7 +18175,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
@@ -18210,7 +18210,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
@@ -18250,7 +18250,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
@@ -18290,7 +18290,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
@@ -18325,7 +18325,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
@@ -18365,7 +18365,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
@@ -18410,7 +18410,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
@@ -18450,7 +18450,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
@@ -18495,7 +18495,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
@@ -18530,7 +18530,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
@@ -18570,7 +18570,7 @@
     
     
     
-    specialization: Hero.Boltyn,
+    specializations: [Hero.Boltyn],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -18610,7 +18610,7 @@
     
     
     
-    specialization: Hero.Boltyn,
+    specializations: [Hero.Boltyn],
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
@@ -18650,7 +18650,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
@@ -18685,7 +18685,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
@@ -18720,7 +18720,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
@@ -18760,7 +18760,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
@@ -18795,7 +18795,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
@@ -18830,7 +18830,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
@@ -18870,7 +18870,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
@@ -18905,7 +18905,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
@@ -18945,7 +18945,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
@@ -18985,7 +18985,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
@@ -19025,7 +19025,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
@@ -19060,7 +19060,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
@@ -19100,7 +19100,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
@@ -19135,7 +19135,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
@@ -19175,7 +19175,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
@@ -19215,7 +19215,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
@@ -19255,7 +19255,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
@@ -19290,7 +19290,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
@@ -19330,7 +19330,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
@@ -19370,7 +19370,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
@@ -19405,7 +19405,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -19440,7 +19440,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -19475,7 +19475,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -19515,7 +19515,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -19550,7 +19550,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -19585,7 +19585,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -19625,7 +19625,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -19660,7 +19660,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -19705,7 +19705,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -19740,7 +19740,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -19775,7 +19775,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -19810,7 +19810,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -19850,7 +19850,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -19895,7 +19895,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -19930,7 +19930,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -19970,7 +19970,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -20005,7 +20005,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -20045,7 +20045,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
@@ -20080,7 +20080,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
@@ -20125,7 +20125,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
@@ -20165,7 +20165,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
@@ -20205,7 +20205,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
@@ -20240,7 +20240,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
@@ -20280,7 +20280,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
@@ -20320,7 +20320,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
@@ -20355,7 +20355,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
@@ -20390,7 +20390,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
@@ -20430,7 +20430,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
@@ -20465,7 +20465,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -20510,7 +20510,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -20550,7 +20550,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -20590,7 +20590,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -20625,7 +20625,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -20660,7 +20660,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -20695,7 +20695,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -20735,7 +20735,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -20770,7 +20770,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -20805,7 +20805,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
@@ -20840,7 +20840,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -20880,7 +20880,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -20915,7 +20915,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -20955,7 +20955,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -20990,7 +20990,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -21025,7 +21025,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -21065,7 +21065,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -21100,7 +21100,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -21135,7 +21135,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -21170,7 +21170,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
@@ -21205,7 +21205,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
@@ -21245,7 +21245,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
@@ -21290,7 +21290,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -21325,7 +21325,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -21365,7 +21365,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -21405,7 +21405,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -21440,7 +21440,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -21480,7 +21480,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -21520,7 +21520,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -21555,7 +21555,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -21595,7 +21595,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -21635,7 +21635,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -21670,7 +21670,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -21705,7 +21705,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -21745,7 +21745,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -21785,7 +21785,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -21820,7 +21820,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -21860,7 +21860,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
@@ -21895,7 +21895,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
@@ -21935,7 +21935,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -21970,7 +21970,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -22005,7 +22005,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Runeblade,
@@ -22045,7 +22045,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -22080,7 +22080,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -22115,7 +22115,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -22150,7 +22150,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -22185,7 +22185,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -22220,7 +22220,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -22255,7 +22255,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -22295,7 +22295,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -22330,7 +22330,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -22370,7 +22370,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -22405,7 +22405,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -22440,7 +22440,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -22480,7 +22480,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -22515,7 +22515,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -22555,7 +22555,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -22595,7 +22595,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -22630,7 +22630,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -22670,7 +22670,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -22710,7 +22710,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -22745,7 +22745,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -22785,7 +22785,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -22825,7 +22825,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -22860,7 +22860,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -22895,7 +22895,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -22935,7 +22935,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -22975,7 +22975,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -23010,7 +23010,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -23045,7 +23045,7 @@
     
     specialDefense: "*",
     specialPower: "*",
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -23080,7 +23080,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -23115,7 +23115,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -23155,7 +23155,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -23190,7 +23190,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -23225,7 +23225,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -23265,7 +23265,7 @@
     
     
     
-    specialization: Hero.Levia,
+    specializations: [Hero.Levia],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -23305,7 +23305,7 @@
     
     
     
-    specialization: Hero.Chane,
+    specializations: [Hero.Chane],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -23345,7 +23345,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -23380,7 +23380,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -23415,7 +23415,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -23455,7 +23455,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -23490,7 +23490,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -23525,7 +23525,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -23560,7 +23560,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -23605,7 +23605,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -23640,7 +23640,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -23675,7 +23675,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -23710,7 +23710,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -23745,7 +23745,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -23780,7 +23780,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -23820,7 +23820,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -23855,7 +23855,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
@@ -23890,7 +23890,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
@@ -23930,7 +23930,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -23970,7 +23970,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -24010,7 +24010,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -24050,7 +24050,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -24095,7 +24095,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -24130,7 +24130,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -24165,7 +24165,7 @@
     specialCost: "XX",
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -24210,7 +24210,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -24250,7 +24250,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -24290,7 +24290,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -24325,7 +24325,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -24360,7 +24360,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -24400,7 +24400,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -24435,7 +24435,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -24470,7 +24470,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -24505,7 +24505,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -24540,7 +24540,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -24575,7 +24575,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -24610,7 +24610,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -24645,7 +24645,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -24680,7 +24680,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -24715,7 +24715,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -24750,7 +24750,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -24785,7 +24785,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -24820,7 +24820,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -24855,7 +24855,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -24890,7 +24890,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -24925,7 +24925,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -24960,7 +24960,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -24995,7 +24995,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -25030,7 +25030,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -25065,7 +25065,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -25100,7 +25100,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -25135,7 +25135,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -25170,7 +25170,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -25205,7 +25205,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -25240,7 +25240,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -25275,7 +25275,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -25310,7 +25310,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -25345,7 +25345,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -25380,7 +25380,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -25415,7 +25415,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -25450,7 +25450,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -25485,7 +25485,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -25520,7 +25520,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -25555,7 +25555,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -25595,7 +25595,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -25630,7 +25630,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -25675,7 +25675,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -25710,7 +25710,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -25745,7 +25745,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -25780,7 +25780,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -25815,7 +25815,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -25850,7 +25850,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -25885,7 +25885,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -25920,7 +25920,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -25955,7 +25955,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -25990,7 +25990,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -26025,7 +26025,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -26060,7 +26060,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -26095,7 +26095,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -26130,7 +26130,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -26165,7 +26165,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -26200,7 +26200,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -26240,7 +26240,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -26280,7 +26280,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -26315,7 +26315,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -26350,7 +26350,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.NotClassed,
@@ -26385,7 +26385,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Landmark,
   },{
     class: Class.Guardian,
@@ -26420,7 +26420,7 @@
     
     
     
-    specialization: Hero.Oldhim,
+    specializations: [Hero.Oldhim],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -26455,7 +26455,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -26490,7 +26490,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -26525,7 +26525,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -26565,7 +26565,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -26605,7 +26605,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -26640,7 +26640,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -26680,7 +26680,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -26715,7 +26715,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -26750,7 +26750,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -26790,7 +26790,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -26830,7 +26830,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -26865,7 +26865,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -26905,7 +26905,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -26940,7 +26940,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
@@ -26975,7 +26975,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
@@ -27010,7 +27010,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
@@ -27055,7 +27055,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
@@ -27090,7 +27090,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
@@ -27130,7 +27130,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Ranger,
@@ -27165,7 +27165,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -27200,7 +27200,7 @@
     
     
     
-    specialization: Hero.Lexi,
+    specializations: [Hero.Lexi],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -27235,7 +27235,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
@@ -27270,7 +27270,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -27305,7 +27305,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -27340,7 +27340,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -27380,7 +27380,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -27415,7 +27415,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -27450,7 +27450,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -27490,7 +27490,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -27525,7 +27525,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -27560,7 +27560,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -27600,7 +27600,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -27640,7 +27640,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -27675,7 +27675,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -27710,7 +27710,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -27750,7 +27750,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -27785,7 +27785,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -27825,7 +27825,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -27860,7 +27860,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -27895,7 +27895,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -27930,7 +27930,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -27965,7 +27965,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -28000,7 +28000,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -28040,7 +28040,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -28080,7 +28080,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -28115,7 +28115,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -28150,7 +28150,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -28185,7 +28185,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -28220,7 +28220,7 @@
     
     
     
-    specialization: Hero.Briar,
+    specializations: [Hero.Briar],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -28260,7 +28260,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -28295,7 +28295,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -28330,7 +28330,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -28370,7 +28370,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -28405,7 +28405,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -28440,7 +28440,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -28475,7 +28475,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -28510,7 +28510,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -28545,7 +28545,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -28580,7 +28580,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -28615,7 +28615,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -28650,7 +28650,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -28690,7 +28690,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -28725,7 +28725,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -28765,7 +28765,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -28810,7 +28810,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -28850,7 +28850,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -28885,7 +28885,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -28925,7 +28925,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -28960,7 +28960,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -29000,7 +29000,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -29035,7 +29035,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -29070,7 +29070,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -29105,7 +29105,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -29140,7 +29140,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -29175,7 +29175,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -29215,7 +29215,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -29250,7 +29250,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -29285,7 +29285,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -29320,7 +29320,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -29355,7 +29355,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -29390,7 +29390,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -29435,7 +29435,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -29470,7 +29470,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -29505,7 +29505,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -29545,7 +29545,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -29585,7 +29585,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -29625,7 +29625,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -29660,7 +29660,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -29695,7 +29695,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -29730,7 +29730,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -29765,7 +29765,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -29800,7 +29800,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.NotClassed,
@@ -29835,7 +29835,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -29875,7 +29875,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -29910,7 +29910,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -29950,7 +29950,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -29990,7 +29990,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -30025,7 +30025,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -30060,7 +30060,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -30095,7 +30095,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -30135,7 +30135,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -30175,7 +30175,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -30210,7 +30210,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -30245,7 +30245,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -30285,7 +30285,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -30330,7 +30330,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -30370,7 +30370,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -30410,7 +30410,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -30450,7 +30450,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -30485,7 +30485,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -30530,7 +30530,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -30570,7 +30570,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -30605,7 +30605,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -30645,7 +30645,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -30690,7 +30690,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.NotClassed,
@@ -30730,7 +30730,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.NotClassed,
@@ -30770,7 +30770,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -30805,7 +30805,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -30840,7 +30840,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -30875,7 +30875,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -30910,7 +30910,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -30945,7 +30945,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -30985,7 +30985,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -31020,7 +31020,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -31055,7 +31055,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -31090,7 +31090,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -31125,7 +31125,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -31160,7 +31160,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -31195,7 +31195,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -31230,7 +31230,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -31270,7 +31270,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -31305,7 +31305,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -31345,7 +31345,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -31380,7 +31380,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -31420,7 +31420,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -31465,7 +31465,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -31505,7 +31505,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -31540,7 +31540,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -31580,7 +31580,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -31620,7 +31620,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -31665,7 +31665,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.NotClassed,
@@ -31700,7 +31700,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.NotClassed,
@@ -31735,7 +31735,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -31775,7 +31775,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -31810,7 +31810,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -31855,7 +31855,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -31895,7 +31895,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -31935,7 +31935,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -31970,7 +31970,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -32005,7 +32005,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -32040,7 +32040,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -32075,7 +32075,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -32115,7 +32115,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -32150,7 +32150,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -32190,7 +32190,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -32230,7 +32230,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -32265,7 +32265,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -32305,7 +32305,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -32340,7 +32340,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -32375,7 +32375,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
@@ -32415,7 +32415,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -32455,7 +32455,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -32500,7 +32500,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -32545,7 +32545,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Guardian,
@@ -32580,7 +32580,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Guardian,
@@ -32620,7 +32620,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
@@ -32655,7 +32655,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
@@ -32690,7 +32690,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
@@ -32730,7 +32730,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -32765,7 +32765,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -32805,7 +32805,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -32840,7 +32840,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
@@ -32880,7 +32880,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -32915,7 +32915,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -32950,7 +32950,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -32990,7 +32990,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
@@ -33025,7 +33025,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
@@ -33060,7 +33060,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -33095,7 +33095,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Runeblade,
@@ -33130,7 +33130,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -33165,7 +33165,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -33200,7 +33200,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -33230,7 +33230,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -33260,7 +33260,7 @@
     
     
     
-    specialization: Hero.Kayo,
+    specializations: [Hero.Kayo],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
@@ -33290,7 +33290,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
@@ -33320,7 +33320,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
@@ -33350,7 +33350,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
@@ -33380,7 +33380,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
@@ -33415,7 +33415,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -33445,7 +33445,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -33475,7 +33475,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -33510,7 +33510,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -33540,7 +33540,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -33570,7 +33570,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -33600,7 +33600,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
@@ -33630,7 +33630,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
@@ -33660,7 +33660,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Guardian,
@@ -33695,7 +33695,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -33725,7 +33725,7 @@
     specialCost: "X3",
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Guardian,
@@ -33755,7 +33755,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
@@ -33790,7 +33790,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -33825,7 +33825,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -33860,7 +33860,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -33895,7 +33895,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -33930,7 +33930,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -33965,7 +33965,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
@@ -33995,7 +33995,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Guardian,
@@ -34025,7 +34025,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Guardian,
@@ -34055,7 +34055,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ninja,
@@ -34085,7 +34085,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -34115,7 +34115,7 @@
     
     
     
-    specialization: Hero.Benji,
+    specializations: [Hero.Benji],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -34150,7 +34150,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -34185,7 +34185,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -34220,7 +34220,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -34255,7 +34255,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -34285,7 +34285,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -34315,7 +34315,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -34345,7 +34345,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -34375,7 +34375,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -34405,7 +34405,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
@@ -34435,7 +34435,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
@@ -34465,7 +34465,7 @@
     
     
     
-    specialization: Hero.Kassai,
+    specializations: [Hero.Kassai],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -34495,7 +34495,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -34530,7 +34530,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -34570,7 +34570,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -34605,7 +34605,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -34635,7 +34635,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -34665,7 +34665,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -34695,7 +34695,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
@@ -34725,7 +34725,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
@@ -34755,7 +34755,7 @@
     
     
     
-    specialization: Hero.DataDoll,
+    specializations: [Hero.DataDoll],
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
@@ -34785,7 +34785,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
@@ -34815,7 +34815,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
@@ -34845,7 +34845,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -34875,7 +34875,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -34905,7 +34905,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -34935,7 +34935,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -34965,7 +34965,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -34995,7 +34995,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -35025,7 +35025,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -35055,7 +35055,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -35085,7 +35085,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
@@ -35115,7 +35115,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
@@ -35145,7 +35145,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
@@ -35175,7 +35175,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
@@ -35205,7 +35205,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -35235,7 +35235,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
@@ -35270,7 +35270,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
@@ -35305,7 +35305,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
@@ -35340,7 +35340,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
@@ -35370,7 +35370,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -35400,7 +35400,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -35430,7 +35430,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -35460,7 +35460,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -35490,7 +35490,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -35520,7 +35520,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
@@ -35550,7 +35550,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
@@ -35580,7 +35580,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
@@ -35610,7 +35610,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -35640,7 +35640,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -35670,7 +35670,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -35700,7 +35700,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
@@ -35735,7 +35735,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Runeblade,
@@ -35770,7 +35770,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Runeblade,
@@ -35805,7 +35805,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Runeblade,
@@ -35835,7 +35835,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -35865,7 +35865,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -35895,7 +35895,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -35925,7 +35925,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -35955,7 +35955,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -35985,7 +35985,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -36015,7 +36015,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -36045,7 +36045,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
@@ -36075,7 +36075,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Wizard,
@@ -36110,7 +36110,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -36140,7 +36140,7 @@
     specialCost: "X",
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -36175,7 +36175,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -36210,7 +36210,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -36245,7 +36245,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -36275,7 +36275,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -36305,7 +36305,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -36335,7 +36335,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -36365,7 +36365,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Wizard,
@@ -36395,7 +36395,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Wizard,
@@ -36425,7 +36425,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Wizard,
@@ -36455,7 +36455,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -36485,7 +36485,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -36515,7 +36515,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
@@ -36545,7 +36545,7 @@
     
     specialDefense: "*",
     specialPower: "*",
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
@@ -36575,7 +36575,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
@@ -36605,7 +36605,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Illusionist,
@@ -36640,7 +36640,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Illusionist,
@@ -36675,7 +36675,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Illusionist,
@@ -36710,7 +36710,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Illusionist,
@@ -36740,7 +36740,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
@@ -36770,7 +36770,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
@@ -36800,7 +36800,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
@@ -36830,7 +36830,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
@@ -36860,7 +36860,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
@@ -36890,7 +36890,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
@@ -36920,7 +36920,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
@@ -36950,7 +36950,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
@@ -36980,7 +36980,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -37010,7 +37010,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -37040,7 +37040,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -37070,7 +37070,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -37105,7 +37105,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -37135,7 +37135,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -37170,7 +37170,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -37205,7 +37205,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -37240,7 +37240,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -37275,7 +37275,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -37310,7 +37310,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -37345,7 +37345,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -37380,7 +37380,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -37415,7 +37415,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -37450,7 +37450,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -37480,7 +37480,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -37510,7 +37510,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -37540,7 +37540,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -37570,7 +37570,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
@@ -37600,7 +37600,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
@@ -37630,7 +37630,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
@@ -37660,7 +37660,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
@@ -37690,7 +37690,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
@@ -37720,7 +37720,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
@@ -37750,7 +37750,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
@@ -37780,7 +37780,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
@@ -37810,7 +37810,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
@@ -37840,7 +37840,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
@@ -37870,7 +37870,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
@@ -37900,7 +37900,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
@@ -37930,7 +37930,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
@@ -37960,7 +37960,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
@@ -37990,7 +37990,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
@@ -38020,7 +38020,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
@@ -38050,7 +38050,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
@@ -38080,7 +38080,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Item,
   },{
     class: Class.Warrior,
@@ -38110,7 +38110,7 @@
     
     
     
-    specialization: Hero.Dorinthea,
+    specializations: [Hero.Dorinthea],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
@@ -38140,7 +38140,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -38170,7 +38170,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
@@ -38200,7 +38200,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
@@ -38230,7 +38230,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -38260,7 +38260,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -38290,7 +38290,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
@@ -38320,7 +38320,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
@@ -38350,7 +38350,57 @@
     
     
     
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    class: Class.Illusionist,
+    identifier: "dracona-optimai",
+    functionalText: `Whenever Dracona Optimai attacks a hero, reveal the top 3 cards of your deck. He deals arcane damage equal to twice the number of red cards revealed this way to them or an ally they control.`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [],
+    name: "Dracona Optimai",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR006"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Illusionist – Dragon Ally",
     
+    
+    fusions: [],
+    
+    power: 6,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Ally,
+  },{
+    class: Class.Illusionist,
+    identifier: "invoke-dracona-optimai-red",
+    functionalText: `A **legendary** invocation to **transform** a chosen ash you posses into Dracona Optimai. **Go again**`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.Legendary,Keyword.Transform,Keyword.GoAgain],
+    name: "Invoke Dracona Optimai",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR006"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Illusionist Action – Invocation",
+    cost: 6,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -38380,7 +38430,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Attack,
   },{
     class: Class.Wizard,
@@ -38410,7 +38460,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -38440,7 +38490,7 @@
     specialCost: "XX",
     
     
-    specialization: Hero.Iyslander,
+    specializations: [Hero.Iyslander],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -38470,7 +38520,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
@@ -38500,7 +38550,7 @@
     
     
     
-    specialization: Hero.Iyslander,
+    specializations: [Hero.Iyslander],
     subType: ActionSubType.Aura,
   },{
     class: Class.Wizard,
@@ -38530,7 +38580,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
@@ -38560,7 +38610,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.NotClassed,
@@ -38590,7 +38640,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.NotClassed,
@@ -38620,8 +38670,233 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.NonAttack,
+  },{
+    class: Class.NotClassed,
+    identifier: "breaking-point-red",
+    functionalText: `**Rupture** - If Breaking Point is played as chain link 4 or higher, it has “When this hits a hero, destroy all cards in their arsenal.”`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.Rupture],
+    name: "Breaking Point",
+    rarity: Rarity.Promo,
+    restrictedFormats: [],
+    setIdentifiers: ["FAB091"],
+    sets: [Release.Promos],
+    type: Type.Action,
+    typeText: "Draconic Action – Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 5,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    class: Class.Illusionist,
+    identifier: "rake-the-embers-red",
+    functionalText: `Create an Ash token, then **transform** up to 3 ash you control into Aether Ashwings. *(Create Aether Ashwing tokens and put the ash under them.)*  **Go again**`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.GoAgain,Keyword.Transform],
+    name: "Rake the Embers",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR033"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Illusionist Token – Dragon Ally",
+    cost: 1,
+    defense: 2,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    class: Class.Illusionist,
+    identifier: "billowing-mirage-red",
+    functionalText: `When you attack with Billowing Mirage, **transform** up to 1 ash you control into an Aether Ashwing. *(Create an Aether Ashwing token and put the ash under it.)*  **Go again**`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.Transform,Keyword.GoAgain],
+    name: "Billowing Mirage",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR018"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Illusionist Action – Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 3,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    class: Class.NotClassed,
+    identifier: "lava-burst-red",
+    functionalText: `**Rupture** - If Lava Burst is played as chain link 4 or higher, it has +3 {p}.`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.Rupture],
+    name: "Lava Burst",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR098"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 2,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    class: Class.Illusionist,
+    identifier: "skittering-sands-red",
+    functionalText: `**Transform** target ash you control into an Aether Ashwing. It gains +3 {p} until end of turn. *(Create an Aether Ashwing token and put the ash under it.)*  **Go again**`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.Transform,Keyword.GoAgain],
+    name: "Skittering Sands",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR036"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Illusionist – Attack",
+    cost: 0,
+    defense: 2,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    class: Class.Illusionist,
+    identifier: "invoke-dominia-red",
+    functionalText: `**Legendary** *(You may only have 1 Invoke Dominia in your deck.)*  **Transform** target ash you control into Dominia. **Go again** *(Put the ash under her.)*`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.Legendary,Keyword.Transform,Keyword.GoAgain],
+    name: "Invoke Dominia",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR008"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Illusionist Action – Invocation",
+    cost: 4,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    class: Class.Illusionist,
+    identifier: "dominia",
+    functionalText: `Whenever Dominia attacks a hero, reveal the top card of your deck. If it's a red card, look at their hand and banish a card from it.`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [],
+    name: "Dominia",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR008"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Illusionist Token – Dragon Ally",
+    
+    
+    fusions: [],
+    
+    power: 4,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Ally,
+  },{
+    class: Class.NotClassed,
+    identifier: "red-hot-red",
+    functionalText: `**Dromai or Fai Specialization** *(You may only have Red Hot in your deck if your hero is Dromai or Fai.)  **Rupture** - If Red Hot is played as chain link 4 or higher, it has "When you attack with this, reveal the top X cards of your deck, where X is the number of Draconic chain links you control. Deal damage equal to the number of red cards revealed this way to any target, then shuffle."`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.Rupture,Keyword.Specialization],
+    name: "Red Hot",
+    rarity: Rarity.Rare,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR090"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Action – Attack",
+    cost: 2,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 4,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [Hero.Dromai,Hero.Fai],
+    subType: ActionSubType.Attack,
+  },{
+    class: Class.Illusionist,
+    identifier: "burn-them-all-red",
+    functionalText: `**Go again**  Once per turn, when a dragon you control attacks, it deals 1 arcane damage to each opposing hero.  At the beginning of your end phase, put a raze counter on Burn Them All then destroy it unless you banish red card from your graveyard for each raze counter on it.`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.GoAgain],
+    name: "Burn Them All",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR005"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Illusionist Action – Aura",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Aura,
   }];
   const attackReactions: ActionCard[] = [{
     class: Class.Ninja,
@@ -38661,7 +38936,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Warrior,
@@ -38701,7 +38976,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Warrior,
@@ -38741,7 +39016,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Warrior,
@@ -38781,7 +39056,7 @@
     
     
     
-    specialization: Hero.Dorinthea,
+    specializations: [Hero.Dorinthea],
     
   },{
     class: Class.Warrior,
@@ -38826,7 +39101,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Warrior,
@@ -38866,7 +39141,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Warrior,
@@ -38906,7 +39181,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Warrior,
@@ -38961,7 +39236,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Warrior,
@@ -39006,7 +39281,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Warrior,
@@ -39056,7 +39331,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Warrior,
@@ -39096,7 +39371,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Warrior,
@@ -39131,7 +39406,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Warrior,
@@ -39171,7 +39446,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Warrior,
@@ -39216,7 +39491,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Warrior,
@@ -39261,7 +39536,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Warrior,
@@ -39301,7 +39576,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -39341,7 +39616,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -39381,7 +39656,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -39426,7 +39701,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -39471,7 +39746,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -39511,7 +39786,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -39551,7 +39826,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Warrior,
@@ -39596,7 +39871,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Warrior,
@@ -39631,7 +39906,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Warrior,
@@ -39671,7 +39946,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Warrior,
@@ -39716,7 +39991,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Warrior,
@@ -39756,7 +40031,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -39801,7 +40076,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Warrior,
@@ -39836,7 +40111,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Warrior,
@@ -39876,7 +40151,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Warrior,
@@ -39916,7 +40191,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Warrior,
@@ -39951,7 +40226,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Warrior,
@@ -39981,7 +40256,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Warrior,
@@ -40011,7 +40286,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Warrior,
@@ -40041,7 +40316,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Warrior,
@@ -40071,7 +40346,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Warrior,
@@ -40111,7 +40386,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Warrior,
@@ -40141,7 +40416,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Warrior,
@@ -40171,7 +40446,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Warrior,
@@ -40201,7 +40476,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -40231,7 +40506,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -40261,7 +40536,7 @@
     
     
     
-    
+    specializations: [],
     
   }];
   const defenseReactions: ActionCard[] = [{
@@ -40302,7 +40577,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Guardian,
@@ -40342,7 +40617,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Guardian,
@@ -40382,7 +40657,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Guardian,
@@ -40427,7 +40702,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Ninja,
@@ -40467,7 +40742,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Ninja,
@@ -40507,7 +40782,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Ninja,
@@ -40552,7 +40827,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Warrior,
@@ -40597,7 +40872,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Warrior,
@@ -40637,7 +40912,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Warrior,
@@ -40677,7 +40952,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -40717,7 +40992,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -40757,7 +41032,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -40797,7 +41072,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -40837,7 +41112,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -40877,7 +41152,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -40917,7 +41192,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Ranger,
@@ -40957,7 +41232,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Ranger,
@@ -40997,7 +41272,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Ranger,
@@ -41037,7 +41312,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Runeblade,
@@ -41087,7 +41362,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Runeblade,
@@ -41132,7 +41407,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Runeblade,
@@ -41177,7 +41452,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Wizard,
@@ -41212,7 +41487,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Wizard,
@@ -41247,7 +41522,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Wizard,
@@ -41282,7 +41557,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -41327,7 +41602,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -41367,7 +41642,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -41407,7 +41682,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Ranger,
@@ -41442,7 +41717,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Trap,
   },{
     class: Class.Ranger,
@@ -41482,7 +41757,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Trap,
   },{
     class: Class.Ranger,
@@ -41517,7 +41792,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Trap,
   },{
     class: Class.Generic,
@@ -41582,7 +41857,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.NotClassed,
@@ -41617,7 +41892,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.NotClassed,
@@ -41652,7 +41927,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -41687,7 +41962,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -41722,7 +41997,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -41757,7 +42032,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Guardian,
@@ -41792,7 +42067,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Guardian,
@@ -41832,7 +42107,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Guardian,
@@ -41867,7 +42142,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Guardian,
@@ -41907,7 +42182,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Guardian,
@@ -41942,7 +42217,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Guardian,
@@ -41977,7 +42252,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.NotClassed,
@@ -42012,7 +42287,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Runeblade,
@@ -42047,7 +42322,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Runeblade,
@@ -42082,7 +42357,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Runeblade,
@@ -42117,7 +42392,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Ninja,
@@ -42147,7 +42422,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Ninja,
@@ -42177,7 +42452,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Ninja,
@@ -42207,7 +42482,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Wizard,
@@ -42237,7 +42512,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -42267,7 +42542,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -42297,7 +42572,7 @@
     
     
     
-    
+    specializations: [],
     
   }];
   const instants: ActionCard[] = [{
@@ -42328,7 +42603,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Brute,
@@ -42363,7 +42638,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -42398,7 +42673,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -42438,7 +42713,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -42478,7 +42753,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -42538,7 +42813,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -42578,7 +42853,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -42618,7 +42893,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -42658,7 +42933,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -42698,7 +42973,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Guardian,
@@ -42733,7 +43008,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Guardian,
@@ -42768,7 +43043,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Guardian,
@@ -42803,7 +43078,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Ranger,
@@ -42843,7 +43118,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Wizard,
@@ -42878,7 +43153,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -42913,7 +43188,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -42948,7 +43223,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -42983,7 +43258,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -43018,7 +43293,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Illusionist,
@@ -43053,7 +43328,7 @@
     
     
     
-    specialization: Hero.Prism,
+    specializations: [Hero.Prism],
     subType: ActionSubType.Aura,
   },{
     class: Class.Illusionist,
@@ -43088,7 +43363,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Illusionist,
@@ -43128,7 +43403,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Illusionist,
@@ -43173,7 +43448,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.Illusionist,
@@ -43218,7 +43493,7 @@
     
     
     
-    
+    specializations: [],
     subType: ActionSubType.Aura,
   },{
     class: Class.NotClassed,
@@ -43253,7 +43528,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.NotClassed,
@@ -43288,7 +43563,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.NotClassed,
@@ -43323,7 +43598,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.NotClassed,
@@ -43358,7 +43633,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.NotClassed,
@@ -43393,7 +43668,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.NotClassed,
@@ -43428,7 +43703,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.NotClassed,
@@ -43463,7 +43738,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.NotClassed,
@@ -43503,7 +43778,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Illusionist,
@@ -43543,7 +43818,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Illusionist,
@@ -43578,7 +43853,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Illusionist,
@@ -43613,7 +43888,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Runeblade,
@@ -43648,7 +43923,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.NotClassed,
@@ -43683,7 +43958,7 @@
     
     
     
-    specialization: Hero.Levia,
+    specializations: [Hero.Levia],
     
   },{
     class: Class.NotClassed,
@@ -43718,7 +43993,7 @@
     
     
     
-    specialization: Hero.Chane,
+    specializations: [Hero.Chane],
     
   },{
     class: Class.NotClassed,
@@ -43753,7 +44028,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.NotClassed,
@@ -43788,7 +44063,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.NotClassed,
@@ -43828,7 +44103,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.NotClassed,
@@ -43868,7 +44143,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -43903,7 +44178,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -43938,7 +44213,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -43973,7 +44248,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Guardian,
@@ -44008,7 +44283,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.NotClassed,
@@ -44043,7 +44318,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.NotClassed,
@@ -44078,7 +44353,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.NotClassed,
@@ -44113,7 +44388,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.NotClassed,
@@ -44153,7 +44428,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.NotClassed,
@@ -44188,7 +44463,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.NotClassed,
@@ -44223,7 +44498,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.NotClassed,
@@ -44258,7 +44533,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.NotClassed,
@@ -44298,7 +44573,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.NotClassed,
@@ -44333,7 +44608,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.NotClassed,
@@ -44368,7 +44643,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Guardian,
@@ -44398,7 +44673,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Guardian,
@@ -44428,7 +44703,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Guardian,
@@ -44458,7 +44733,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Ranger,
@@ -44488,7 +44763,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -44523,7 +44798,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -44558,7 +44833,7 @@
     
     
     
-    
+    specializations: [],
     
   },{
     class: Class.Generic,
@@ -44593,7 +44868,32 @@
     
     
     
+    specializations: [],
     
+  },{
+    class: Class.Illusionist,
+    identifier: "sand-cover-red",
+    functionalText: `Target ash you control gains **ward 4** until end of turn. *(If your hero would be dealt damage, prevent 4 of that damage and destroy this.)*`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.Ward],
+    name: "Sand Cover",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR039"],
+    sets: [Release.Uprising],
+    type: Type.Instant,
+    typeText: "Draconic Illusionist Instant",
+    cost: 0,
+    
+    fusions: [],
+    pitch: 1,
+    
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
     
   }];
   const equipment: EquipmentCard[] = [{
@@ -47706,6 +48006,24 @@
     
     talents: [],
     subType: EquipmentSubType.Head
+  },{
+    class: Class.Illusionist,
+    identifier: "silken-form",
+    functionalText: `**Instant** - Destroy SIlken Form: **Transform** target ash you control into an Aether Ashwing. *(Create an Aether Ashwing token and put the ash under it.)*  **Quell 1** *(If your hero would be dealt damage, you may pay {r} to prevent 1 of that damage. If you do, destroy Silken Form at the beginning of the end phase.)*`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.Transform,Keyword.Quell],
+    name: "Silken Form",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR004"],
+    sets: [Release.Uprising],
+    type: Type.Equipment,
+    typeText: "Draconic Illusionist Action",
+    
+    
+    talents: [Talent.Draconic],
+    subType: EquipmentSubType.Arms
   }];
   const mentors: MentorCard[] = [{
     class: Class.Warrior,
@@ -49712,6 +50030,25 @@
     life: 36,
     talents: [Talent.Elemental,Talent.Ice],
     young: null
+  },{
+    class: Class.Illusionist,
+    identifier: "dromai-ash-artist",
+    functionalText: `Whenever you pitch a red card, create an Ash token. *(A red card is a card with a red color strip.)*  If you've played a red card this turn, dragons you control have **go again** while attacking. *(If an attacking dragon dies before chain link resolution, you don't go again.)*`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [],
+    name: "Dromai, Ash Artist",
+    rarity: Rarity.Token,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR001"],
+    sets: [Release.Uprising],
+    type: Type.Hero,
+    typeText: "Draconic Illusionist Hero",
+    intellect: 4,
+    hero: Hero.Dromai,
+    life: 40,
+    talents: [Talent.Draconic],
+    young: null
   }];
   const resources: ResourceCard[] = [{
     class: Class.Generic,
@@ -50418,6 +50755,38 @@
     typeText: "Generic Token – Item",
     talents: [],
     subType: TokenSubType.Item
+  },{
+    class: Class.Illusionist,
+    identifier: "ash",
+    functionalText: `**Material** - While Ash is under an object, that object has **phantasm**.  *(When this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this and close the combat chain.)*`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.Material,Keyword.Phantasm],
+    name: "Ash",
+    rarity: Rarity.Token,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR043"],
+    sets: [Release.Uprising],
+    type: Type.Token,
+    typeText: "Draconic Illusionist Token – Ash",
+    talents: [Talent.Draconic],
+    subType: TokenSubType.Ash
+  },{
+    class: Class.Illusionist,
+    identifier: "aether-ashwing",
+    functionalText: `**Arcane Barrer 1** *(If your hero would be dealt arcane damage, you may pay {r} to prevent 1 of that damage.)*`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.ArcaneBarrier],
+    name: "Aether Ashwing",
+    rarity: Rarity.Token,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR042"],
+    sets: [Release.Uprising],
+    type: Type.Token,
+    typeText: "Draconic Illusionist Token – Dragon Ally",
+    talents: [Talent.Draconic],
+    subType: TokenSubType.Ally
   }];
   const weapons: WeaponCard[] = [{
     class: Class.Brute,
@@ -51892,6 +52261,25 @@
     
     talents: [],
     subType: WeaponSubType.Club
+  },{
+    class: Class.Illusionist,
+    identifier: "storm-of-sandikai",
+    functionalText: `Dragon allies you control have "**Once per Turn Action** - 0: **Attack**".  *(Allies can be attacked and can't be defended by the controlling hero. They die when they have 0 {l}. At end of turn, allies life totals are reset.)*`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [],
+    name: "Storm of Sandikai",
+    rarity: Rarity.Token,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR003"],
+    sets: [Release.Uprising],
+    type: Type.Weapon,
+    typeText: "Draconic Illusionist Weapon – Scepter (2H)",
+    handsRequired: HandsRequired.TwoHanded,
+    
+    
+    talents: [Talent.Draconic],
+    subType: WeaponSubType.Scepter
   }];
 
   export const cards: ( ActionCard | EquipmentCard | HeroCard | ResourceCard | TokenCard | WeaponCard )[] = [

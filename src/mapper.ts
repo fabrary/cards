@@ -56,12 +56,17 @@ const getDefaultImageUrl = (card: ParsedCard): string => {
   const unlimitedEdition = images.find(
     (image) => image.edition === ReleaseEdition.Unlimited
   );
-  return (
-    firstEdition?.url ||
-    alphaEdition?.url ||
-    unlimitedEdition?.url ||
-    images[0].url
-  );
+  const url =
+    images.length > 0
+      ? firstEdition?.url ||
+        alphaEdition?.url ||
+        unlimitedEdition?.url ||
+        images[0].url
+      : "";
+  if (!url) {
+    console.log(`Missing images for ${card.name}`);
+  }
+  return url;
 };
 
 const getDefense = (card: ParsedCard): number => {
@@ -308,18 +313,21 @@ const getSets = (card: ParsedCard): Release[] =>
     .map((set) => setIdentifierToSetMappings[set])
     .filter((set) => set);
 
-const getSpecialization = (card: ParsedCard): Hero => {
+const getSpecializations = (card: ParsedCard): Hero[] => {
   const { cardKeywords } = card;
 
-  let specialization = null;
+  const specializations = [];
   cardKeywords.forEach((keyword) => {
     if (keyword.includes("Specialization")) {
-      const [hero] = keyword.split(" Specialization");
-      specialization = Hero[hero.replace(" ", "")];
+      const [oneOrMoreHeroes] = keyword.split(" Specialization");
+      const heroes = oneOrMoreHeroes.split(" or ");
+      for (const hero of heroes) {
+        specializations.push(Hero[hero.replace(" ", "")]);
+      }
     }
   });
 
-  return specialization;
+  return specializations;
 };
 
 const getSpecialCost = (card: ParsedCard): string => {
@@ -405,6 +413,10 @@ const getTypeAndSubType = (
     }
   }
 
+  if (card.name === "Dracona Optimai" || card.name === "Dominia") {
+    type = Type.Action;
+  }
+
   if (type === Type.Action && !subType) {
     subType = ActionSubType.NonAttack;
   }
@@ -449,7 +461,7 @@ const getActionCardData = (card: ParsedCard): ActionCard => {
     specialCost: getSpecialCost(card),
     specialDefense: getSpecialDefense(card),
     specialPower: getSpecialPower(card),
-    specialization: getSpecialization(card),
+    specializations: getSpecializations(card),
     // @ts-ignore
     subType,
   };
@@ -566,6 +578,9 @@ export const mapCardData = (
         break;
       case Type.Weapon:
         weapons.push(getWeaponCardData(card));
+        break;
+      default:
+        console.log(`No card type for ${card.name}`);
         break;
     }
   });
