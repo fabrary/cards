@@ -20772,8 +20772,7 @@
     
     specializations: [],
     subType: ActionSubType.NonAttack,
-  }];
-  const basicActions2: ActionCard[] = [{
+  },{
     class: Class.Warrior,
     identifier: "second-swing-blue",
     functionalText: `If you have attacked with a weapon this turn, your next attack this turn gains +2{p}.  **Go again**`,
@@ -20993,7 +20992,8 @@
     
     specializations: [],
     subType: ActionSubType.Attack,
-  },{
+  }];
+  const basicActions2: ActionCard[] = [{
     class: Class.Brute,
     identifier: "endless-maw-blue",
     functionalText: `As an additional cost to play Endless Maw, banish 3 random cards from your graveyard.  If a card with 6 or more {p} is banished this way, Endless maw gains +3{p}.  **Blood Debt** *(At the beginning of your end phase, if Endless Maw is in your banished zone, lose 1{h}.)*`,
@@ -38355,6 +38355,56 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
+    identifier: "burn-them-all-red",
+    functionalText: `**Go again**  Once per turn, when a dragon you control attacks, it deals 1 arcane damage to each opposing hero.  At the beginning of your end phase, put a raze counter on Burn Them All then destroy it unless you banish red card from your graveyard for each raze counter on it.`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.GoAgain],
+    name: "Burn Them All",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR005"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Illusionist Action – Aura",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Aura,
+  },{
+    class: Class.Illusionist,
+    identifier: "invoke-dracona-optimai-red",
+    functionalText: `A **legendary** invocation to **transform** a chosen ash you posses into Dracona Optimai. **Go again**`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.Legendary,Keyword.Transform,Keyword.GoAgain],
+    name: "Invoke Dracona Optimai",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR006"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Illusionist Action – Invocation",
+    cost: 6,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    class: Class.Illusionist,
     identifier: "dracona-optimai",
     functionalText: `Whenever Dracona Optimai attacks a hero, reveal the top 3 cards of your deck. He deals arcane damage equal to twice the number of red cards revealed this way to them or an ally they control.`,
     defaultImageUrl: "",
@@ -38380,20 +38430,370 @@
     subType: ActionSubType.Ally,
   },{
     class: Class.Illusionist,
-    identifier: "invoke-dracona-optimai-red",
-    functionalText: `A **legendary** invocation to **transform** a chosen ash you posses into Dracona Optimai. **Go again**`,
+    identifier: "tomeltai",
+    functionalText: `Whenever Tomeltai attacks a hero, reveal the top 2 cards of your deck. If 1 or more red cards are revealed this way, put that many -1 {d} counters on an equipment they control, then if it has 0 {d}, destroy it.`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [],
+    name: "Tomeltai",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR007"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Illusionist – Dragon Ally",
+    
+    
+    fusions: [],
+    
+    power: 5,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Ally,
+  },{
+    class: Class.Illusionist,
+    identifier: "invoke-dominia-red",
+    functionalText: `**Legendary** *(You may only have 1 Invoke Dominia in your deck.)*  **Transform** target ash you control into Dominia. **Go again** *(Put the ash under her.)*`,
     defaultImageUrl: "",
     images: [],
     keywords: [Keyword.Legendary,Keyword.Transform,Keyword.GoAgain],
-    name: "Invoke Dracona Optimai",
+    name: "Invoke Dominia",
     rarity: Rarity.Majestic,
     restrictedFormats: [],
-    setIdentifiers: ["UPR006"],
+    setIdentifiers: ["UPR008"],
     sets: [Release.Uprising],
     type: Type.Action,
     typeText: "Draconic Illusionist Action – Invocation",
-    cost: 6,
+    cost: 4,
     defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    class: Class.Illusionist,
+    identifier: "dominia",
+    functionalText: `Whenever Dominia attacks a hero, reveal the top card of your deck. If it's a red card, look at their hand and banish a card from it.`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [],
+    name: "Dominia",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR008"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Illusionist – Dragon Ally",
+    
+    
+    fusions: [],
+    
+    power: 4,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Ally,
+  },{
+    class: Class.Illusionist,
+    identifier: "invoke-azvolia-red",
+    functionalText: `**Transform** target ash you control into Azvolai. **Go again**`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.Transform,Keyword.GoAgain],
+    name: "Invoke Azvolia",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR009"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Illusionist Action – Invocation",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    class: Class.Illusionist,
+    identifier: "azvolia",
+    functionalText: `Whenever Azvolai attacks, you may have him deal 1 arcane damage to up to any 2 targets.`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [],
+    name: "Azvolia",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR009"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Illusionist – Dragon Ally",
+    
+    
+    fusions: [],
+    
+    power: 2,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Ally,
+  },{
+    class: Class.Illusionist,
+    identifier: "invoke-kyloria-red",
+    functionalText: `*(Invocations resolve flipped as an ally in the arena.)*  **Transform** target ash you control into Kyloria. **Go again** *(Put the ash under her.)*`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.Transform,Keyword.GoAgain],
+    name: "Invoke Kyloria",
+    rarity: Rarity.Rare,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR011"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Illusionist Action – Invocation",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    class: Class.Illusionist,
+    identifier: "kyloria",
+    functionalText: `Whenever Kyloria hits a hero, gain control of an item they control. If you don't gain control of an item this way, draw a card.`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [],
+    name: "Kyloria",
+    rarity: Rarity.Rare,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR011"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Illusionist Token – Dragon Ally",
+    
+    
+    fusions: [],
+    
+    power: 4,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Ally,
+  },{
+    class: Class.Illusionist,
+    identifier: "invoke-ouvia-red",
+    functionalText: `**Transform** target ash you control into Ouvia. **Go again**`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.Transform,Keyword.GoAgain],
+    name: "Invoke Ouvia",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR014"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Illusionist Action – Invocation",
+    cost: 2,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    class: Class.Illusionist,
+    identifier: "ouvia",
+    functionalText: `At the start of your turn or when Ouvia enters the arena, **transform** up to 1 ash you control into an Aether Ashwing.`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.Transform],
+    name: "Ouvia",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR014"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Illusionist Token – Dragon Ally",
+    
+    
+    fusions: [],
+    
+    power: 1,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Ally,
+  },{
+    class: Class.Illusionist,
+    identifier: "billowing-mirage-red",
+    functionalText: `When you attack with Billowing Mirage, **transform** up to 1 ash you control into an Aether Ashwing. *(Create an Aether Ashwing token and put the ash under it.)*  **Go again**`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.Transform,Keyword.GoAgain],
+    name: "Billowing Mirage",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR018"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Illusionist Action – Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 3,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    class: Class.Illusionist,
+    identifier: "rake-the-embers-red",
+    functionalText: `Create an Ash token, then **transform** up to 3 ash you control into Aether Ashwings. *(Create Aether Ashwing tokens and put the ash under them.)*  **Go again**`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.GoAgain,Keyword.Transform],
+    name: "Rake the Embers",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR033"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Illusionist Token – Dragon Ally",
+    cost: 1,
+    defense: 2,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    class: Class.Illusionist,
+    identifier: "skittering-sands-red",
+    functionalText: `**Transform** target ash you control into an Aether Ashwing. It gains +3 {p} until end of turn. *(Create an Aether Ashwing token and put the ash under it.)*  **Go again**`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.Transform,Keyword.GoAgain],
+    name: "Skittering Sands",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR036"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Illusionist – Attack",
+    cost: 0,
+    defense: 2,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    class: Class.NotClassed,
+    identifier: "breaking-point-red",
+    functionalText: `**Rupture** - If Breaking Point is played as chain link 4 or higher, it has “When this hits a hero, destroy all cards in their arsenal.”`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.Rupture],
+    name: "Breaking Point",
+    rarity: Rarity.Promo,
+    restrictedFormats: [],
+    setIdentifiers: ["FAB091"],
+    sets: [Release.Promos],
+    type: Type.Action,
+    typeText: "Draconic Action – Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 5,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    class: Class.Ninja,
+    identifier: "phoenix-form-red",
+    functionalText: `If you control 1 or more Phoenix Flames, Phoenix Form has **go again**. If you control 2 or more, it has +2 {a}. If you control 3 or more, it has "When this hits a hero, draw 3 cards."`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.GoAgain],
+    name: "Phoenix Form",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR048"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Ninja Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 3,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    class: Class.Ninja,
+    identifier: "rise-from-the-ashes-red",
+    functionalText: `The next Draconic or Ninja attack action card you play this turn gains +3 {a}.  You may return a Phoenix Flame from your graveyard to your hand.  **Go again**`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.GoAgain],
+    name: "Rise from the Ashes",
+    rarity: Rarity.Rare,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR057"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Ninja Action",
+    cost: 0,
+    defense: 2,
     fusions: [],
     pitch: 1,
     
@@ -38427,6 +38827,256 @@
     fusions: [],
     pitch: 1,
     power: 6,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    class: Class.NotClassed,
+    identifier: "uprising-red",
+    functionalText: `Your next 4 Draconic attacks this turn gain +1 {p}.  **Go again**`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.GoAgain],
+    name: "Uprising",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR088"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Action",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    class: Class.NotClassed,
+    identifier: "red-hot-red",
+    functionalText: `**Dromai or Fai Specialization** *(You may only have Red Hot in your deck if your hero is Dromai or Fai.)  **Rupture** - If Red Hot is played as chain link 4 or higher, it has "When you attack with this, reveal the top X cards of your deck, where X is the number of Draconic chain links you control. Deal damage equal to the number of red cards revealed this way to any target, then shuffle."`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.Rupture,Keyword.Specialization],
+    name: "Red Hot",
+    rarity: Rarity.Rare,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR090"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Action – Attack",
+    cost: 2,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 4,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [Hero.Dromai,Hero.Fai],
+    subType: ActionSubType.Attack,
+  },{
+    class: Class.NotClassed,
+    identifier: "rise-up-red",
+    functionalText: `**Dromai or Fai Specialization** *(You may only have Red Hot in your deck if your hero is Dromai or Fai.)  **Rupture** - If Rise Up is played as chain link 4 or higher, it has **dominate** and +X {a}, where X is twice the number of Phoenix Flames you control. *(The defending hero can't defend with or play more than 1 defending card or defense reaction from their hand this chain link.)*`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.Rupture,Keyword.Specialization,Keyword.Dominate],
+    name: "Rise Up",
+    rarity: Rarity.Rare,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR091"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Action – Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 3,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [Hero.Dromai,Hero.Fai],
+    subType: ActionSubType.Attack,
+  },{
+    class: Class.NotClassed,
+    identifier: "burn-away-red",
+    functionalText: `As an additional cost to play Burn Away, you may banish a Phoenix Flame from your graveyard. When you do, Burn Away gains +2 {a} and **go again**.`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.GoAgain],
+    name: "Burn Away",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR094"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 2,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    class: Class.NotClassed,
+    identifier: "flameborn-retribution-red",
+    functionalText: `When you defend with Flameborn Retribution, if you've been dealt damage this turn, you may return a Phoenix Flame from your graveyard to your hand.  **Go again**`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.GoAgain],
+    name: "Flameborn Retribution",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR095"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Action – Attack",
+    cost: 1,
+    defense: 2,
+    fusions: [],
+    pitch: 1,
+    power: 3,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    class: Class.NotClassed,
+    identifier: "flamecall-awakening-red",
+    functionalText: `When you attack with Flamecall Awakening, if you've played another red card this turn, you may search your deck for a Phoenix Flame, reveal it, put it into your hand, then shuffle.  **Go again**`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.GoAgain],
+    name: "Flamecall Awakening",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR096"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Action – Attack",
+    cost: 1,
+    defense: 2,
+    fusions: [],
+    pitch: 1,
+    power: 3,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    class: Class.NotClassed,
+    identifier: "inflame-red",
+    functionalText: `When you attack with Inflame, if you've played another red card this turn, you may return a Phoenix Flame from your graveyard to your hand.  **Go again**.`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.GoAgain],
+    name: "Inflame",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR097"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Action – Attack",
+    cost: 0,
+    defense: 2,
+    fusions: [],
+    pitch: 1,
+    power: 1,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    class: Class.NotClassed,
+    identifier: "lava-burst-red",
+    functionalText: `**Rupture** - If Lava Burst is played as chain link 4 or higher, it has +3 {p}.`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.Rupture],
+    name: "Lava Burst",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR098"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 2,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    class: Class.NotClassed,
+    identifier: "stoke-the-flames-red",
+    functionalText: `When Stoke the Flames hits, you may return Phoenix Flame from your graveyard to your hand. If you do, Stoke the Flames gains **go again**.`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.GoAgain],
+    name: "Stoke the Flames",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR100"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Action – Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 4,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    class: Class.NotClassed,
+    identifier: "phoenix-flame-red",
+    functionalText: `*(A player may add up to 3 Phoenix Flame to their deck in an Uprising limited format.)*  If you control 2 or more Draconic chain links, Phoenix Flame has +1 {a}.  **Go again**`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.GoAgain],
+    name: "Phoenix Flame",
+    rarity: Rarity.Token,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR101"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Action – Attack",
+    cost: 0,
+    
+    fusions: [],
+    pitch: 1,
+    
     talents: [Talent.Draconic],
     
     
@@ -38673,356 +39323,6 @@
     
     specializations: [],
     subType: ActionSubType.NonAttack,
-  },{
-    class: Class.NotClassed,
-    identifier: "breaking-point-red",
-    functionalText: `**Rupture** - If Breaking Point is played as chain link 4 or higher, it has “When this hits a hero, destroy all cards in their arsenal.”`,
-    defaultImageUrl: "",
-    images: [],
-    keywords: [Keyword.Rupture],
-    name: "Breaking Point",
-    rarity: Rarity.Promo,
-    restrictedFormats: [],
-    setIdentifiers: ["FAB091"],
-    sets: [Release.Promos],
-    type: Type.Action,
-    typeText: "Draconic Action – Attack",
-    cost: 1,
-    defense: 3,
-    fusions: [],
-    pitch: 1,
-    power: 5,
-    talents: [Talent.Draconic],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Attack,
-  },{
-    class: Class.Illusionist,
-    identifier: "rake-the-embers-red",
-    functionalText: `Create an Ash token, then **transform** up to 3 ash you control into Aether Ashwings. *(Create Aether Ashwing tokens and put the ash under them.)*  **Go again**`,
-    defaultImageUrl: "",
-    images: [],
-    keywords: [Keyword.GoAgain,Keyword.Transform],
-    name: "Rake the Embers",
-    rarity: Rarity.Common,
-    restrictedFormats: [],
-    setIdentifiers: ["UPR033"],
-    sets: [Release.Uprising],
-    type: Type.Action,
-    typeText: "Draconic Illusionist Token – Dragon Ally",
-    cost: 1,
-    defense: 2,
-    fusions: [],
-    pitch: 1,
-    
-    talents: [Talent.Draconic],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.NonAttack,
-  },{
-    class: Class.Illusionist,
-    identifier: "billowing-mirage-red",
-    functionalText: `When you attack with Billowing Mirage, **transform** up to 1 ash you control into an Aether Ashwing. *(Create an Aether Ashwing token and put the ash under it.)*  **Go again**`,
-    defaultImageUrl: "",
-    images: [],
-    keywords: [Keyword.Transform,Keyword.GoAgain],
-    name: "Billowing Mirage",
-    rarity: Rarity.Common,
-    restrictedFormats: [],
-    setIdentifiers: ["UPR018"],
-    sets: [Release.Uprising],
-    type: Type.Action,
-    typeText: "Draconic Illusionist Action – Attack",
-    cost: 1,
-    defense: 3,
-    fusions: [],
-    pitch: 1,
-    power: 3,
-    talents: [Talent.Draconic],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Attack,
-  },{
-    class: Class.NotClassed,
-    identifier: "lava-burst-red",
-    functionalText: `**Rupture** - If Lava Burst is played as chain link 4 or higher, it has +3 {p}.`,
-    defaultImageUrl: "",
-    images: [],
-    keywords: [Keyword.Rupture],
-    name: "Lava Burst",
-    rarity: Rarity.Common,
-    restrictedFormats: [],
-    setIdentifiers: ["UPR098"],
-    sets: [Release.Uprising],
-    type: Type.Action,
-    typeText: "Draconic Action – Attack",
-    cost: 0,
-    defense: 3,
-    fusions: [],
-    pitch: 1,
-    power: 2,
-    talents: [Talent.Draconic],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Attack,
-  },{
-    class: Class.Illusionist,
-    identifier: "skittering-sands-red",
-    functionalText: `**Transform** target ash you control into an Aether Ashwing. It gains +3 {p} until end of turn. *(Create an Aether Ashwing token and put the ash under it.)*  **Go again**`,
-    defaultImageUrl: "",
-    images: [],
-    keywords: [Keyword.Transform,Keyword.GoAgain],
-    name: "Skittering Sands",
-    rarity: Rarity.Common,
-    restrictedFormats: [],
-    setIdentifiers: ["UPR036"],
-    sets: [Release.Uprising],
-    type: Type.Action,
-    typeText: "Draconic Illusionist – Attack",
-    cost: 0,
-    defense: 2,
-    fusions: [],
-    pitch: 1,
-    
-    talents: [Talent.Draconic],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.NonAttack,
-  },{
-    class: Class.Illusionist,
-    identifier: "invoke-dominia-red",
-    functionalText: `**Legendary** *(You may only have 1 Invoke Dominia in your deck.)*  **Transform** target ash you control into Dominia. **Go again** *(Put the ash under her.)*`,
-    defaultImageUrl: "",
-    images: [],
-    keywords: [Keyword.Legendary,Keyword.Transform,Keyword.GoAgain],
-    name: "Invoke Dominia",
-    rarity: Rarity.Majestic,
-    restrictedFormats: [],
-    setIdentifiers: ["UPR008"],
-    sets: [Release.Uprising],
-    type: Type.Action,
-    typeText: "Draconic Illusionist Action – Invocation",
-    cost: 4,
-    defense: 3,
-    fusions: [],
-    pitch: 1,
-    
-    talents: [Talent.Draconic],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.NonAttack,
-  },{
-    class: Class.Illusionist,
-    identifier: "dominia",
-    functionalText: `Whenever Dominia attacks a hero, reveal the top card of your deck. If it's a red card, look at their hand and banish a card from it.`,
-    defaultImageUrl: "",
-    images: [],
-    keywords: [],
-    name: "Dominia",
-    rarity: Rarity.Majestic,
-    restrictedFormats: [],
-    setIdentifiers: ["UPR008"],
-    sets: [Release.Uprising],
-    type: Type.Action,
-    typeText: "Draconic Illusionist Token – Dragon Ally",
-    
-    
-    fusions: [],
-    
-    power: 4,
-    talents: [Talent.Draconic],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Ally,
-  },{
-    class: Class.NotClassed,
-    identifier: "red-hot-red",
-    functionalText: `**Dromai or Fai Specialization** *(You may only have Red Hot in your deck if your hero is Dromai or Fai.)  **Rupture** - If Red Hot is played as chain link 4 or higher, it has "When you attack with this, reveal the top X cards of your deck, where X is the number of Draconic chain links you control. Deal damage equal to the number of red cards revealed this way to any target, then shuffle."`,
-    defaultImageUrl: "",
-    images: [],
-    keywords: [Keyword.Rupture,Keyword.Specialization],
-    name: "Red Hot",
-    rarity: Rarity.Rare,
-    restrictedFormats: [],
-    setIdentifiers: ["UPR090"],
-    sets: [Release.Uprising],
-    type: Type.Action,
-    typeText: "Draconic Action – Attack",
-    cost: 2,
-    defense: 3,
-    fusions: [],
-    pitch: 1,
-    power: 4,
-    talents: [Talent.Draconic],
-    
-    
-    
-    specializations: [Hero.Dromai,Hero.Fai],
-    subType: ActionSubType.Attack,
-  },{
-    class: Class.Illusionist,
-    identifier: "burn-them-all-red",
-    functionalText: `**Go again**  Once per turn, when a dragon you control attacks, it deals 1 arcane damage to each opposing hero.  At the beginning of your end phase, put a raze counter on Burn Them All then destroy it unless you banish red card from your graveyard for each raze counter on it.`,
-    defaultImageUrl: "",
-    images: [],
-    keywords: [Keyword.GoAgain],
-    name: "Burn Them All",
-    rarity: Rarity.Majestic,
-    restrictedFormats: [],
-    setIdentifiers: ["UPR005"],
-    sets: [Release.Uprising],
-    type: Type.Action,
-    typeText: "Draconic Illusionist Action – Aura",
-    cost: 0,
-    defense: 3,
-    fusions: [],
-    pitch: 1,
-    
-    talents: [Talent.Draconic],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Aura,
-  },{
-    class: Class.NotClassed,
-    identifier: "uprising-red",
-    functionalText: `Your next 4 Draconic attacks this turn gain +1 {p}.  **Go again**`,
-    defaultImageUrl: "",
-    images: [],
-    keywords: [Keyword.GoAgain],
-    name: "Uprising",
-    rarity: Rarity.Majestic,
-    restrictedFormats: [],
-    setIdentifiers: ["UPR088"],
-    sets: [Release.Uprising],
-    type: Type.Action,
-    typeText: "Draconic Action",
-    cost: 0,
-    defense: 3,
-    fusions: [],
-    pitch: 1,
-    
-    talents: [Talent.Draconic],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.NonAttack,
-  },{
-    class: Class.NotClassed,
-    identifier: "phoenix-flame-red",
-    functionalText: `*(A player may add up to 3 Phoenix Flame to their deck in an Uprising limited format.)*  If you control 2 or more Draconic chain links, Phoenix Flame has +1 {a}.  **Go again**`,
-    defaultImageUrl: "",
-    images: [],
-    keywords: [Keyword.GoAgain],
-    name: "Phoenix Flame",
-    rarity: Rarity.Token,
-    restrictedFormats: [],
-    setIdentifiers: ["UPR101"],
-    sets: [Release.Uprising],
-    type: Type.Action,
-    typeText: "Draconic Action – Attack",
-    cost: 0,
-    
-    fusions: [],
-    pitch: 1,
-    
-    talents: [Talent.Draconic],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Attack,
-  },{
-    class: Class.Ninja,
-    identifier: "phoenix-form-red",
-    functionalText: `If you control 1 or more Phoenix Flames, Phoenix Form has **go again**. If you control 2 or more, it has +2 {a}. If you control 3 or more, it has "When this hits a hero, draw 3 cards."`,
-    defaultImageUrl: "",
-    images: [],
-    keywords: [Keyword.GoAgain],
-    name: "Phoenix Form",
-    rarity: Rarity.Majestic,
-    restrictedFormats: [],
-    setIdentifiers: ["UPR048"],
-    sets: [Release.Uprising],
-    type: Type.Action,
-    typeText: "Draconic Ninja Action – Attack",
-    cost: 0,
-    defense: 3,
-    fusions: [],
-    pitch: 1,
-    power: 3,
-    talents: [Talent.Draconic],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Attack,
-  },{
-    class: Class.Illusionist,
-    identifier: "tomeltai",
-    functionalText: `Whenever Tomeltai attacks a hero, reveal the top 2 cards of your deck. If 1 or more red cards are revealed this way, put that many -1 {d} counters on an equipment they control, then if it has 0 {d}, destroy it.`,
-    defaultImageUrl: "",
-    images: [],
-    keywords: [],
-    name: "Tomeltai",
-    rarity: Rarity.Majestic,
-    restrictedFormats: [],
-    setIdentifiers: ["UPR007"],
-    sets: [Release.Uprising],
-    type: Type.Action,
-    typeText: "Draconic Illusionist – Dragon Ally",
-    
-    
-    fusions: [],
-    
-    power: 5,
-    talents: [Talent.Draconic],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Ally,
-  },{
-    class: Class.NotClassed,
-    identifier: "inflame-red",
-    functionalText: `When you attack with Inflame, if you've played another red card this turn, you may return a Phoenix Flame from your graveyard to your hand.  **Go again**.`,
-    defaultImageUrl: "",
-    images: [],
-    keywords: [Keyword.GoAgain],
-    name: "Inflame",
-    rarity: Rarity.Common,
-    restrictedFormats: [],
-    setIdentifiers: ["UPR097"],
-    sets: [Release.Uprising],
-    type: Type.Action,
-    typeText: "Draconic Action – Attack",
-    cost: 0,
-    defense: 2,
-    fusions: [],
-    pitch: 1,
-    power: 1,
-    talents: [Talent.Draconic],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Attack,
   }];
 
   const attackReactions: ActionCard[] = [{
@@ -48176,6 +48476,24 @@
     
     talents: [Talent.Draconic],
     subType: EquipmentSubType.Arms
+  },{
+    class: Class.Ninja,
+    identifier: "heat-wave",
+    functionalText: `**Instant** - Destroy Heat Wave: Phoenix Flames you control gain +1 {a} until end of turn.  **Quell 1** *(If your hero would be dealt damage, you may pay {p} to prevent 1 of that damage. If you do, destroy Heat Wave at the beginning of the end phase.)`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.Quell],
+    name: "Heat Wave",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR047"],
+    sets: [Release.Uprising],
+    type: Type.Equipment,
+    typeText: "Draconic Ninja Equipment - Arms",
+    defense: 0,
+    
+    talents: [Talent.Draconic],
+    subType: EquipmentSubType.Arms
   }];
   const mentors: MentorCard[] = [{
     class: Class.Warrior,
@@ -50159,30 +50477,6 @@
     talents: [],
     young: true
   },{
-    class: Class.Wizard,
-    identifier: "iyslander-stormbind",
-    functionalText: `**Essence of Ice** *(You may have Ice cards in your deck.)*  If it's not your turn, you may play blue 'non-attack' action cards from your arsenal as though they were an instant.  Whenever you play an Ice card during an opponents turn, create a Frostbite token under their control.`,
-    defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ICE_CM1lpsjE9_01.width-450.png",
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "UPR102",
-      set: Release.Uprising,
-      url: "https://storage.googleapis.com/fabmaster/media/images/ICE_CM1lpsjE9_01.width-450.png",
-    },],
-    keywords: [Keyword.Essence],
-    name: "Iyslander, Stormbind",
-    rarity: Rarity.Token,
-    restrictedFormats: [],
-    setIdentifiers: ["UPR102"],
-    sets: [Release.Uprising],
-    type: Type.Hero,
-    typeText: "Elemental Wizard Hero",
-    intellect: 4,
-    hero: Hero.Iyslander,
-    life: 36,
-    talents: [Talent.Elemental,Talent.Ice],
-    young: null
-  },{
     class: Class.Illusionist,
     identifier: "dromai-ash-artist",
     functionalText: `Whenever you pitch a red card, create an Ash token. *(A red card is a card with a red color strip.)*  If you've played a red card this turn, dragons you control have **go again** while attacking. *(If an attacking dragon dies before chain link resolution, you don't go again.)*`,
@@ -50219,6 +50513,30 @@
     hero: Hero.Fai,
     life: 40,
     talents: [Talent.Draconic],
+    young: null
+  },{
+    class: Class.Wizard,
+    identifier: "iyslander-stormbind",
+    functionalText: `**Essence of Ice** *(You may have Ice cards in your deck.)*  If it's not your turn, you may play blue 'non-attack' action cards from your arsenal as though they were an instant.  Whenever you play an Ice card during an opponents turn, create a Frostbite token under their control.`,
+    defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ICE_CM1lpsjE9_01.width-450.png",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "UPR102",
+      set: Release.Uprising,
+      url: "https://storage.googleapis.com/fabmaster/media/images/ICE_CM1lpsjE9_01.width-450.png",
+    },],
+    keywords: [Keyword.Essence],
+    name: "Iyslander, Stormbind",
+    rarity: Rarity.Token,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR102"],
+    sets: [Release.Uprising],
+    type: Type.Hero,
+    typeText: "Elemental Wizard Hero",
+    intellect: 4,
+    hero: Hero.Iyslander,
+    life: 36,
+    talents: [Talent.Elemental,Talent.Ice],
     young: null
   }];
   const resources: ResourceCard[] = [{
@@ -50928,22 +51246,6 @@
     subType: TokenSubType.Item
   },{
     class: Class.Illusionist,
-    identifier: "ash",
-    functionalText: `**Material** - While Ash is under an object, that object has **phantasm**.  *(When this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this and close the combat chain.)*`,
-    defaultImageUrl: "",
-    images: [],
-    keywords: [Keyword.Material,Keyword.Phantasm],
-    name: "Ash",
-    rarity: Rarity.Token,
-    restrictedFormats: [],
-    setIdentifiers: ["UPR043"],
-    sets: [Release.Uprising],
-    type: Type.Token,
-    typeText: "Draconic Illusionist Token – Ash",
-    talents: [Talent.Draconic],
-    subType: TokenSubType.Ash
-  },{
-    class: Class.Illusionist,
     identifier: "aether-ashwing",
     functionalText: `**Arcane Barrer 1** *(If your hero would be dealt arcane damage, you may pay {r} to prevent 1 of that damage.)*`,
     defaultImageUrl: "",
@@ -50958,6 +51260,22 @@
     typeText: "Draconic Illusionist Token – Dragon Ally",
     talents: [Talent.Draconic],
     subType: TokenSubType.Ally
+  },{
+    class: Class.Illusionist,
+    identifier: "ash",
+    functionalText: `**Material** - While Ash is under an object, that object has **phantasm**.  *(When this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this and close the combat chain.)*`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.Material,Keyword.Phantasm],
+    name: "Ash",
+    rarity: Rarity.Token,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR043"],
+    sets: [Release.Uprising],
+    type: Type.Token,
+    typeText: "Draconic Illusionist Token – Ash",
+    talents: [Talent.Draconic],
+    subType: TokenSubType.Ash
   }];
   const weapons: WeaponCard[] = [{
     class: Class.Brute,
