@@ -413,7 +413,11 @@ const getTypeAndSubType = (
     }
   }
 
-  if (card.name === "Dracona Optimai" || card.name === "Dominia") {
+  if (
+    card.name === "Dracona Optimai" ||
+    card.name === "Dominia" ||
+    card.name === "Tomeltai"
+  ) {
     type = Type.Action;
   }
 

@@ -278,6 +278,15 @@ const generateTS = (cards: AllCards): string => {
     tokens,
     weapons,
   } = getCardsByType(cards);
+  const basicActions1 = basicActions.slice(
+    0,
+    Math.ceil(basicActions.length / 2)
+  );
+  const basicActions2 = basicActions.slice(
+    Math.ceil(basicActions.length / 2),
+    basicActions.length
+  );
+  // const uprisingActions = basicActions3.slice();
   const ts = `
   import {
     Art,
@@ -307,7 +316,9 @@ const generateTS = (cards: AllCards): string => {
     WeaponSubType
   } from './interfaces';
   
-  const actions: ActionCard[] = [${basicActions.map(generateActionTS)}];
+  const basicActions1: ActionCard[] = [${basicActions1.map(generateActionTS)}];
+  const basicActions2: ActionCard[] = [${basicActions2.map(generateActionTS)}];
+
   const attackReactions: ActionCard[] = [${attackReactions.map(
     generateActionTS
   )}];
@@ -323,7 +334,8 @@ const generateTS = (cards: AllCards): string => {
   const weapons: WeaponCard[] = [${weapons.map(generateWeaponTS)}];
 
   export const cards: ( ActionCard | EquipmentCard | HeroCard | ResourceCard | TokenCard | WeaponCard )[] = [
-    ...actions,
+    ...basicActions1,
+    ...basicActions2,
     ...attackReactions,
     ...defenseReactions,
     ...instants,

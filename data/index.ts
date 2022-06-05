@@ -27,7 +27,7 @@
     WeaponSubType
   } from './interfaces';
   
-  const actions: ActionCard[] = [{
+  const basicActions1: ActionCard[] = [{
     class: Class.Brute,
     identifier: "alpha-rampage-red",
     functionalText: `**Rhinar Specialization** *(You may only have Alpha Rampage in your deck if your hero is Rhinar)*  As an additional cost to play Alpha Rampage, discard a random card.  When you attack with Alpha Rampage, **intimidate**.`,
@@ -20772,7 +20772,8 @@
     
     specializations: [],
     subType: ActionSubType.NonAttack,
-  },{
+  }];
+  const basicActions2: ActionCard[] = [{
     class: Class.Warrior,
     identifier: "second-swing-blue",
     functionalText: `If you have attacked with a weapon this turn, your next attack this turn gains +2{p}.  **Go again**`,
@@ -38897,7 +38898,133 @@
     
     specializations: [],
     subType: ActionSubType.Aura,
+  },{
+    class: Class.NotClassed,
+    identifier: "uprising-red",
+    functionalText: `Your next 4 Draconic attacks this turn gain +1 {p}.  **Go again**`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.GoAgain],
+    name: "Uprising",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR088"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Action",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    class: Class.NotClassed,
+    identifier: "phoenix-flame-red",
+    functionalText: `*(A player may add up to 3 Phoenix Flame to their deck in an Uprising limited format.)*  If you control 2 or more Draconic chain links, Phoenix Flame has +1 {a}.  **Go again**`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.GoAgain],
+    name: "Phoenix Flame",
+    rarity: Rarity.Token,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR101"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Action – Attack",
+    cost: 0,
+    
+    fusions: [],
+    pitch: 1,
+    
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    class: Class.Ninja,
+    identifier: "phoenix-form-red",
+    functionalText: `If you control 1 or more Phoenix Flames, Phoenix Form has **go again**. If you control 2 or more, it has +2 {a}. If you control 3 or more, it has "When this hits a hero, draw 3 cards."`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.GoAgain],
+    name: "Phoenix Form",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR048"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Ninja Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 3,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    class: Class.Illusionist,
+    identifier: "tomeltai",
+    functionalText: `Whenever Tomeltai attacks a hero, reveal the top 2 cards of your deck. If 1 or more red cards are revealed this way, put that many -1 {d} counters on an equipment they control, then if it has 0 {d}, destroy it.`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [],
+    name: "Tomeltai",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR007"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Illusionist – Dragon Ally",
+    
+    
+    fusions: [],
+    
+    power: 5,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Ally,
+  },{
+    class: Class.NotClassed,
+    identifier: "inflame-red",
+    functionalText: `When you attack with Inflame, if you've played another red card this turn, you may return a Phoenix Flame from your graveyard to your hand.  **Go again**.`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.GoAgain],
+    name: "Inflame",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR097"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Action – Attack",
+    cost: 0,
+    defense: 2,
+    fusions: [],
+    pitch: 1,
+    power: 1,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
   }];
+
   const attackReactions: ActionCard[] = [{
     class: Class.Ninja,
     identifier: "ancestral-empowerment-red",
@@ -40533,6 +40660,31 @@
     pitch: 3,
     
     talents: [],
+    
+    
+    
+    specializations: [],
+    
+  },{
+    class: Class.NotClassed,
+    identifier: "liquefy-red",
+    functionalText: `**Rupture** - If Liquefy is played at chain link 4 or higher, target attack action card gains "When this hits a hero, put a -1 {d} counter on an equipment they control. Then if it has 0 {d}, destroy it."`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.Rupture],
+    name: "Liquefy",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR087"],
+    sets: [Release.Uprising],
+    type: Type.AttackReaction,
+    typeText: "Draconic Attack Reaction",
+    cost: 1,
+    defense: 2,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [Talent.Draconic],
     
     
     
@@ -52283,7 +52435,8 @@
   }];
 
   export const cards: ( ActionCard | EquipmentCard | HeroCard | ResourceCard | TokenCard | WeaponCard )[] = [
-    ...actions,
+    ...basicActions1,
+    ...basicActions2,
     ...attackReactions,
     ...defenseReactions,
     ...instants,
