@@ -50201,6 +50201,25 @@
     life: 40,
     talents: [Talent.Draconic],
     young: null
+  },{
+    class: Class.Ninja,
+    identifier: "fai-rising-rebellion",
+    functionalText: `You may start the game with a Phoenix Flame in your graveyard.  **Once per Turn Instant** - {p}{p}{p}: Return a Phoenix Flame from your graveyard to your hand. This ability costs {p} less for each draconic chain link you control.`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [],
+    name: "Fai, Rising Rebellion",
+    rarity: Rarity.Token,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR044"],
+    sets: [Release.Uprising],
+    type: Type.Hero,
+    typeText: "Draconic Ninja Hero",
+    intellect: 3,
+    hero: Hero.Fai,
+    life: 40,
+    talents: [Talent.Draconic],
+    young: null
   }];
   const resources: ResourceCard[] = [{
     class: Class.Generic,

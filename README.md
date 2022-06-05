@@ -44,19 +44,19 @@ cards.forEach((card) => {
 
 **`ActionCard`** extends **`Card`** and contains additional properties - although not every action card will have values for all fields
 
-| Field          | Data type            | Examples                |
-| -------------- | -------------------- | ----------------------- |
-| cost           | `number`             | `0`, `10`               |
-| defense        | `number`             | `3`, `4`                |
-| fusions        | `Fusion` enum array  | `[ "Earth", "Ice" ]`    |
-| pitch          | `number`             | `1`, `2`, `3`           |
-| power          | `number`             | `3`, `14`               |
-| talents        | `Talent` enum array  | `[ "Draconic" ]`        |
-| specialCost    | `string`             | `"XX"`, `"3X"`          |
-| specialDefense | `string`             | `"*"`                   |
-| specialPower   | `string`             | `"*"`                   |
-| specialization | `Hero` enum          | `"Lexi"`, `"Iyslander"` |
-| subType        | `ActionSubType` enum | `"Attack"`, `"Aura"`    |
+| Field           | Data type            | Examples             |
+| --------------- | -------------------- | -------------------- |
+| cost            | `number`             | `0`, `10`            |
+| defense         | `number`             | `3`, `4`             |
+| fusions         | `Fusion` enum array  | `[ "Earth", "Ice" ]` |
+| pitch           | `number`             | `1`, `2`, `3`        |
+| power           | `number`             | `3`, `14`            |
+| talents         | `Talent` enum array  | `[ "Draconic" ]`     |
+| specialCost     | `string`             | `"XX"`, `"3X"`       |
+| specialDefense  | `string`             | `"*"`                |
+| specialPower    | `string`             | `"*"`                |
+| specializations | `Hero` enum array    | `["Dromai","Fai"]`   |
+| subType         | `ActionSubType` enum | `"Attack"`, `"Aura"` |
 
 <br/>
 
