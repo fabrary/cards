@@ -418,7 +418,9 @@ const getTypeAndSubType = (
     "Dominia",
     "Dracona Optimai",
     "Kyloria",
+    "Nekria",
     "Ouvia",
+    "Themai",
     "Tomeltai",
     "Vynserakai",
   ];

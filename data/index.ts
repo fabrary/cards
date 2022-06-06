@@ -21172,8 +21172,7 @@
     
     specializations: [],
     subType: ActionSubType.NonAttack,
-  }];
-  const basicActions2: ActionCard[] = [{
+  },{
     class: Class.Brute,
     identifier: "convulsions-from-the-bellows-of-hell-yellow",
     functionalText: `As an additional cost to play Convulsions from the Bellows of Hell, banish 3 random cards from your graveyard.  If a card with 6 or more {p} is banished this way, the next attack action card you play this turn gains +2{p} and **dominate.** *(The defending hero can't defend the attack with more than 1 card from their hand.)*  **Go again**`,
@@ -21328,7 +21327,8 @@
     
     specializations: [],
     subType: ActionSubType.Attack,
-  },{
+  }];
+  const basicActions2: ActionCard[] = [{
     class: Class.Brute,
     identifier: "boneyard-marauder-blue",
     functionalText: `As an additional cost to play Boneyard Marauder, banish 3 random cards from your graveyard.  **Blood Debt** *(At the beginning of your end phase, if Boneyard Marauder is in your banished zone, lose 1{h}.)*`,
@@ -38665,6 +38665,56 @@
     subType: ActionSubType.Ally,
   },{
     class: Class.Illusionist,
+    identifier: "invoke-nekria-red",
+    functionalText: `*(Invocations resolve flipped as an ally in the arena.)*  **Transform** target ash you control into Nekria. **Go again** *(Put the ash under her.)*`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.Transform,Keyword.GoAgain],
+    name: "Invoke Nekria",
+    rarity: Rarity.Rare,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR013"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Illusionist Action – Invocation",
+    cost: 3,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    class: Class.Illusionist,
+    identifier: "nekria",
+    functionalText: `Whenever Nekria deals or is dealt damage, put a -1 {l} counter on her and create an Ash token.`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [],
+    name: "Nekria",
+    rarity: Rarity.Rare,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR013"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Illusionist Token – Dragon Ally",
+    
+    
+    fusions: [],
+    
+    power: 4,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Ally,
+  },{
+    class: Class.Illusionist,
     identifier: "invoke-ouvia-red",
     functionalText: `**Transform** target ash you control into Ouvia. **Go again**`,
     defaultImageUrl: "",
@@ -38707,6 +38757,56 @@
     fusions: [],
     
     power: 1,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Ally,
+  },{
+    class: Class.Illusionist,
+    identifier: "invoke-themai-red",
+    functionalText: `**Transform** target ash you control into Themai. **Go again**`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.Transform,Keyword.GoAgain],
+    name: "Invoke Themai",
+    rarity: Rarity.Rare,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR015"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Illusionist Action – Invocation",
+    cost: 2,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    class: Class.Illusionist,
+    identifier: "themai",
+    functionalText: `Opponents can't play cards or activate abilities during your turn.`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [],
+    name: "Themai",
+    rarity: Rarity.Rare,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR015"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Illusionist Token – Dragon Ally",
+    
+    
+    fusions: [],
+    
+    power: 3,
     talents: [Talent.Draconic],
     
     
@@ -39133,6 +39233,56 @@
     
     specializations: [],
     subType: ActionSubType.NonAttack,
+  },{
+    class: Class.Ninja,
+    identifier: "cinderskin-devotion-red",
+    functionalText: `If you control 2 or more Draconic chain links, Cinderskin Devotion has **go again**.`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.GoAgain],
+    name: "CInderskin Devotion",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR063"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Ninja Action – Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 4,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    class: Class.Ninja,
+    identifier: "lava-vein-loyalty-red",
+    functionalText: `If you control 2 or more Draconic chain links, Lava Vein Loyalty has **go again**.`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.GoAgain],
+    name: "Lava Vein Loyalty",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR069"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Ninja Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 3,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
     identifier: "thaw-red",
@@ -39682,6 +39832,31 @@
     fusions: [],
     pitch: 1,
     power: 1,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    class: Class.Ninja,
+    identifier: "take-the-tempo-red",
+    functionalText: `When Take the Tempo hits, if you've hit 3 or more times this combat chain, banish the top card of your deck. If it's an attack action card, you may play it until the end of your next turn.`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [],
+    name: "Take the Tempo",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR161"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Ninja Action - Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 5,
     talents: [],
     
     
@@ -45777,6 +45952,31 @@
     
     specializations: [],
     
+  },{
+    class: Class.NotClassed,
+    identifier: "tome-of-firebrand-red",
+    functionalText: `Play Tome of Firebrand only if you control 4 or more Draconic chain links.  Draw 2 cards.`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [],
+    name: "Tome of Firebrand",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR089"],
+    sets: [Release.Uprising],
+    type: Type.Instant,
+    typeText: "Draconic Instant",
+    cost: 1,
+    
+    fusions: [],
+    pitch: 1,
+    
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    
   }];
   const equipment: EquipmentCard[] = [{
     class: Class.Generic,
@@ -48929,6 +49129,24 @@
     
     talents: [Talent.Draconic],
     subType: EquipmentSubType.Arms
+  },{
+    class: Class.Generic,
+    identifier: "crown-of-providence",
+    functionalText: `When you defend with Crown of Providence, you may put a card from your hand or arsenal on the bottom of your deck. If you do, draw a card.  **Blade Break**`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.BladeBreak],
+    name: "Crown of Providence",
+    rarity: Rarity.Legendary,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR182"],
+    sets: [Release.Uprising],
+    type: Type.Equipment,
+    typeText: "Generic Equipment – Head",
+    defense: 2,
+    
+    talents: [],
+    subType: EquipmentSubType.Head
   }];
   const mentors: MentorCard[] = [{
     class: Class.Warrior,
@@ -50939,20 +51157,12 @@
     class: Class.Illusionist,
     identifier: "dromai",
     functionalText: `Whenever you pitch a red card, create an Ash token. *(A red card is a card with a red color strip.)*  If you've played a red card this turn, dragons you control have **go again** while attacking. *(If an attacking dragon dies before chain link resolution, you don't go again.)*`,
-<<<<<<< HEAD
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/UPR002.width-450.png",
-=======
-    defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/UPR002.width-300.png",
->>>>>>> 748ba86581d69e709b7bd7b9a42e228746e2b3e1
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "UPR002",
       set: Release.Uprising,
-<<<<<<< HEAD
       url: "https://storage.googleapis.com/fabmaster/media/images/UPR002.width-450.png",
-=======
-      url: "https://storage.googleapis.com/fabmaster/media/images/UPR002.width-300.png",
->>>>>>> 748ba86581d69e709b7bd7b9a42e228746e2b3e1
     },],
     keywords: [Keyword.GoAgain],
     name: "Dromai",
@@ -53256,6 +53466,25 @@
     
     talents: [Talent.Draconic],
     subType: WeaponSubType.Scepter
+  },{
+    class: Class.Ninja,
+    identifier: "searing-emberblade",
+    functionalText: `**Once per Turn Action** - {p} {p}: Attack  If you control 2 or more Draconic chain links, Searing Emberblade has **go again**.`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.GoAgain],
+    name: "Searing Emberblade",
+    rarity: Rarity.Token,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR046"],
+    sets: [Release.Uprising],
+    type: Type.Weapon,
+    typeText: "Draconic Ninja Weapon – Sword (2H)",
+    handsRequired: HandsRequired.TwoHanded,
+    power: 3,
+    
+    talents: [Talent.Draconic],
+    subType: WeaponSubType.Sword
   }];
 
   export const cards: ( ActionCard | EquipmentCard | HeroCard | ResourceCard | TokenCard | WeaponCard )[] = [
