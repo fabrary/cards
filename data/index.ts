@@ -50939,12 +50939,20 @@
     class: Class.Illusionist,
     identifier: "dromai",
     functionalText: `Whenever you pitch a red card, create an Ash token. *(A red card is a card with a red color strip.)*  If you've played a red card this turn, dragons you control have **go again** while attacking. *(If an attacking dragon dies before chain link resolution, you don't go again.)*`,
+<<<<<<< HEAD
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/UPR002.width-450.png",
+=======
+    defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/UPR002.width-300.png",
+>>>>>>> 748ba86581d69e709b7bd7b9a42e228746e2b3e1
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "UPR002",
       set: Release.Uprising,
+<<<<<<< HEAD
       url: "https://storage.googleapis.com/fabmaster/media/images/UPR002.width-450.png",
+=======
+      url: "https://storage.googleapis.com/fabmaster/media/images/UPR002.width-300.png",
+>>>>>>> 748ba86581d69e709b7bd7b9a42e228746e2b3e1
     },],
     keywords: [Keyword.GoAgain],
     name: "Dromai",
