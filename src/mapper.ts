@@ -414,12 +414,13 @@ const getTypeAndSubType = (
   }
 
   const dragons = [
-    "Dracona Optimai",
-    "Dominia",
-    "Tomeltai",
     "Azvolai",
+    "Dominia",
+    "Dracona Optimai",
     "Kyloria",
     "Ouvia",
+    "Tomeltai",
+    "Vynserakai",
   ];
   if (dragons.includes(card.name)) {
     type = Type.Action;
