@@ -117,6 +117,7 @@ const getIdentifier = (card: ParsedCard): string => {
   const name = unformattedName
     .toLowerCase()
     .replace("[^A-Za-z ]+", "")
+    .replace("?", "")
     .replace(/ /g, "-")
     .replace(/,/g, "")
     .replace(/’/g, "");

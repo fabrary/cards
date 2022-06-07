@@ -1468,4 +1468,5 @@ UPR182	UPR	Crown of Providence				2			L	Generic, Equipment, Head	Blade Break				
 UPR184	UPR	Quelling Robe				0			C	Generic, Equipment, Chest	Quell				**Quell 1**		Generic Equipment - Chest																	S – UPR184 – N	
 UPR185	UPR	Quelling Sleeves				0			C	Generic, Equipment, Arms	Quell				**Quell 1**		Generic Equipment - Arms																	S – UPR185 – N	
 UPR186	UPR	Quelling Slippers				0			C	Generic, Equipment, Legs	Quell				**Quell 1**		Generic Equipment - Legs																	S – UPR186 – N	
+UPR189	UPR	That All You Got?	2	0		3			M	Generic, Defense Reaction					While this is defending an attach with 2 or less {a}, when the combait chain closes, draw a card.		Generic Defense Reaction					No												S – UPR189 – N	
 UPR221	UPR	Oasis Respite	1	1					C	Generic, Instant					Prevent the next 4 damage that would be dealt to target hero this turn by a source of your choice. If they have less life than each other hero, they may gain 1{l}.		Generic Instant																	S – UPR221 – N	

@@ -43886,6 +43886,31 @@
     
     specializations: [],
     
+  },{
+    class: Class.Generic,
+    identifier: "that-all-you-got-yellow",
+    functionalText: `While this is defending an attach with 2 or less {a}, when the combait chain closes, draw a card.`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [],
+    name: "That All You Got?",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR189"],
+    sets: [Release.Uprising],
+    type: Type.DefenseReaction,
+    typeText: "Generic Defense Reaction",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    
   }];
   const instants: ActionCard[] = [{
     class: Class.Generic,
