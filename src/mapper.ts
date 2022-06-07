@@ -415,6 +415,7 @@ const getTypeAndSubType = (
 
   const dragons = [
     "Azvolai",
+    "Cromai",
     "Dominia",
     "Dracona Optimai",
     "Kyloria",

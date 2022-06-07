@@ -21327,8 +21327,7 @@
     
     specializations: [],
     subType: ActionSubType.Attack,
-  }];
-  const basicActions2: ActionCard[] = [{
+  },{
     class: Class.Brute,
     identifier: "boneyard-marauder-blue",
     functionalText: `As an additional cost to play Boneyard Marauder, banish 3 random cards from your graveyard.  **Blood Debt** *(At the beginning of your end phase, if Boneyard Marauder is in your banished zone, lose 1{h}.)*`,
@@ -21408,7 +21407,8 @@
     
     specializations: [],
     subType: ActionSubType.Attack,
-  },{
+  }];
+  const basicActions2: ActionCard[] = [{
     class: Class.Brute,
     identifier: "deadwood-rumbler-yellow",
     functionalText: `Draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, banish a card from a graveyard.  **Blood Debt** *(At the beginning of your end phase, if Deadwood Rumbler is in your banished zone, lose 1{h}.)*`,
@@ -38615,6 +38615,56 @@
     subType: ActionSubType.Ally,
   },{
     class: Class.Illusionist,
+    identifier: "invoke-cromai-red",
+    functionalText: `**Transform** target ash you control into Cromai. **Go again**`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.Transform,Keyword.GoAgain],
+    name: "Invoke Cromai",
+    rarity: Rarity.Rare,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR010"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Illusionist Action – Invocation",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    class: Class.Illusionist,
+    identifier: "cromai",
+    functionalText: `Once per turn, when Cromai attacks or leaves the arena, gain 1 action point.`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [],
+    name: "Cromai",
+    rarity: Rarity.Rare,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR010"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Illusionist – Dragon Ally",
+    
+    
+    fusions: [],
+    
+    power: 3,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Ally,
+  },{
+    class: Class.Illusionist,
     identifier: "invoke-kyloria-red",
     functionalText: `*(Invocations resolve flipped as an ally in the arena.)*  **Transform** target ash you control into Kyloria. **Go again** *(Put the ash under her.)*`,
     defaultImageUrl: "",
@@ -39210,6 +39260,56 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    identifier: "engulfing-flamewave-red",
+    functionalText: `When Engulfing Flamewave hits, reveal the top card of your deck. If it's an attack action card with cost less than number of Draconic chain links you control, banish it. You may play it this turn.  **Go again**`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.GoAgain],
+    name: "Engulfing Flamewave",
+    rarity: Rarity.Rare,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR051"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Ninja Action – Attack",
+    cost: 2,
+    defense: 2,
+    fusions: [],
+    pitch: 1,
+    power: 5,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    class: Class.Ninja,
+    identifier: "mounting-anger-red",
+    functionalText: `When Mounting Anger hits, you may banish an attack action card from your hand with cost less than the number of Draconic chain links you control. If you do, it gains +1 {p} and you may play it this turn.  **Go again**`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.GoAgain],
+    name: "Mounting Anger",
+    rarity: Rarity.Rare,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR054"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Ninja Action – Attack",
+    cost: 1,
+    defense: 2,
+    fusions: [],
+    pitch: 1,
+    power: 4,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    class: Class.Ninja,
     identifier: "rise-from-the-ashes-red",
     functionalText: `The next Draconic or Ninja attack action card you play this turn gains +3 {a}.  You may return a Phoenix Flame from your graveyard to your hand.  **Go again**`,
     defaultImageUrl: "",
@@ -39274,6 +39374,31 @@
     typeText: "Draconic Ninja Action – Attack",
     cost: 0,
     defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 3,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    class: Class.Ninja,
+    identifier: "rising-resentment-red",
+    functionalText: `When Rising Resentment hits, you may banish an attack action card from your hand with cost less than the number of Draconic chain links you control. If you do, it costs {p} less to play and you may play it this turn.  **Go again**`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.GoAgain],
+    name: "Rising Resentment",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR075"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Ninja Action – Attack",
+    cost: 0,
+    defense: 2,
     fusions: [],
     pitch: 1,
     power: 3,
