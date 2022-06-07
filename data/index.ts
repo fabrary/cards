@@ -49455,6 +49455,24 @@
     talents: [Talent.Draconic],
     subType: EquipmentSubType.Arms
   },{
+    class: Class.Wizard,
+    identifier: "alluvion-constellas",
+    functionalText: `The first time Alluvion Constellas prevents arcane damage each turn, if it has less than 4 energy counters, you may put an energy counter on it.  **Instant** - Remove 2 energy counters from Alluvion Constellas: The next staff ability you activate this turn costs {p}{p}{p} less.  **Arcane Barrier 1**`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.ArcaneBarrier],
+    name: "Alluvion Constellas",
+    rarity: Rarity.Legendary,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR166"],
+    sets: [Release.Uprising],
+    type: Type.Equipment,
+    typeText: "Wizard Equipment - Chest",
+    defense: 0,
+    
+    talents: [],
+    subType: EquipmentSubType.Chest
+  },{
     class: Class.Generic,
     identifier: "crown-of-providence",
     functionalText: `When you defend with Crown of Providence, you may put a card from your hand or arsenal on the bottom of your deck. If you do, draw a card.  **Blade Break**`,
