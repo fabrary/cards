@@ -49581,6 +49581,24 @@
     talents: [Talent.Draconic],
     subType: EquipmentSubType.Arms
   },{
+    class: Class.Illusionist,
+    identifier: "ghostly-touch",
+    functionalText: `Whenecer an illusionist attack you control is destroyed by phantasm, put a haunt counter on Ghostly Touch.  Once per Turn Action - Remove a haunt counter from Ghostly Touch: Until end of turn, this becomes an Illusionist ally with phantasm, base and equal to the number of haunt counters on it, and One per Turn Action - Attack. Go again`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.GoAgain,Keyword.Phantasm],
+    name: "Ghostly Touch",
+    rarity: Rarity.Legendary,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR151"],
+    sets: [Release.Uprising],
+    type: Type.Equipment,
+    typeText: "Illusionist Equipment – Arms",
+    defense: 0,
+    
+    talents: [],
+    subType: EquipmentSubType.Arms
+  },{
     class: Class.Wizard,
     identifier: "alluvion-constellas",
     functionalText: `The first time Alluvion Constellas prevents arcane damage each turn, if it has less than 4 energy counters, you may put an energy counter on it.  **Instant** - Remove 2 energy counters from Alluvion Constellas: The next staff ability you activate this turn costs {p}{p}{p} less.  **Arcane Barrier 1**`,
