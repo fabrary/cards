@@ -14,6 +14,7 @@
     HeroCard,
     Keyword,
     MentorCard,
+    PlaceholderCard,
     Rarity,
     Release,
     ReleaseEdition,
@@ -21482,8 +21483,7 @@
     
     specializations: [],
     subType: ActionSubType.Attack,
-  }];
-  const basicActions2: ActionCard[] = [{
+  },{
     class: Class.Brute,
     identifier: "dread-screamer-red",
     functionalText: `As an additional cost to play Dread Screamer, banish 3 random cards from your graveyard  If a card with 6 or more {p} is banished this way, Dread Screamer gains **go again.**.  **Blood Debt** *(At the beginning of your end phase, if Dread Screamer is in your banished zone, lose 1{h}.)*`,
@@ -21523,7 +21523,8 @@
     
     specializations: [],
     subType: ActionSubType.Attack,
-  },{
+  }];
+  const basicActions2: ActionCard[] = [{
     class: Class.Brute,
     identifier: "dread-screamer-yellow",
     functionalText: `As an additional cost to play Dread Screamer, banish 3 random cards from your graveyard  If a card with 6 or more {p} is banished this way, Dread Screamer gains **go again.**.  **Blood Debt** *(At the beginning of your end phase, if Dread Screamer is in your banished zone, lose 1{h}.)*`,
@@ -38945,6 +38946,56 @@
     subType: ActionSubType.Ally,
   },{
     class: Class.Illusionist,
+    identifier: "invoke-yendurai-red",
+    functionalText: `**Transform** target ash you control into Yendurai. **Go again**`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.Transform,Keyword.GoAgain],
+    name: "Invoke Yendurai",
+    rarity: Rarity.Rare,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR017"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Illusionist Action – Invocation",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    class: Class.Illusionist,
+    identifier: "yendurai",
+    functionalText: `Yendurai enters the arena with an endurance counter on him.  If Yendurai would be dealth damage, remove an endurance counter from him to prevent 3 of that damage.`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [],
+    name: "Yendurai",
+    rarity: Rarity.Rare,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR017"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Draconic Illusionist Token – Dragon Ally",
+    
+    
+    fusions: [],
+    
+    power: 3,
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Ally,
+  },{
+    class: Class.Illusionist,
     identifier: "billowing-mirage-red",
     functionalText: `When you attack with Billowing Mirage, **transform** up to 1 ash you control into an Aether Ashwing. *(Create an Aether Ashwing token and put the ash under it.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/UPR018.width-450.png",
@@ -46323,6 +46374,31 @@
     specializations: [],
     
   },{
+    class: Class.Wizard,
+    identifier: "rewind-blue",
+    functionalText: `**Negate** target 'non-attack' action card and return it to its owner's hand. Then that hero gains 1 action point.`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.Negate],
+    name: "Rewind",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR169"],
+    sets: [Release.Uprising],
+    type: Type.Instant,
+    typeText: "Wizard Instant",
+    cost: 1,
+    
+    fusions: [],
+    pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    
+  },{
     class: Class.Generic,
     identifier: "oasis-respite-red",
     functionalText: `Prevent the next 4 damage that would be dealt to target hero this turn by a source of your choice. If they have less life than each other hero, they may gain 1{l}.`,
@@ -49542,6 +49618,24 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Generic,
+    identifier: "helios-mitre",
+    functionalText: `Instant - Prevent the next 1 damage that would be deault to your hero this turn by a source of your choice. Destroy Helio's MItre at the beginning of the end phase.`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [],
+    name: "Helio's Mitre",
+    rarity: Rarity.Token,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR183"],
+    sets: [Release.Uprising],
+    type: Type.Equipment,
+    typeText: "Generic Equipment – Head",
+    defense: 0,
+    
+    talents: [],
+    subType: EquipmentSubType.Head
+  },{
+    class: Class.Generic,
     identifier: "quelling-robe",
     functionalText: `**Quell 1**`,
     defaultImageUrl: "",
@@ -51696,6 +51790,21 @@
     life: 36,
     talents: [Talent.Elemental,Talent.Ice],
     young: null
+  }];
+  const placeholders: PlaceholderCard[] = [{
+    class: Class.Generic,
+    identifier: "dragons-of-legend",
+    functionalText: `You may put this in your deck in place of an invocation you own. Mark the box next to the dragon's name this invokes. When this card is played or put into your graveyard, swap it for the invocation card.`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [],
+    name: "Dragons of Legend",
+    rarity: Rarity.Token,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR225"],
+    sets: [Release.Uprising],
+    type: Type.InvocationPlaceholderCard,
+    typeText: "Invocation Placeholder Card",
   }];
   const resources: ResourceCard[] = [{
     class: Class.Generic,
@@ -53982,7 +54091,7 @@
     subType: WeaponSubType.Staff
   }];
 
-  export const cards: ( ActionCard | EquipmentCard | HeroCard | ResourceCard | TokenCard | WeaponCard )[] = [
+  export const cards: ( Card | ActionCard | EquipmentCard | HeroCard | PlaceholderCard | ResourceCard | TokenCard | WeaponCard )[] = [
     ...basicActions1,
     ...basicActions2,
     ...attackReactions,
@@ -53991,6 +54100,7 @@
     ...equipment,
     ...heroes,
     ...mentors,
+    ...placeholders,
     ...resources,
     ...tokens,
     ...weapons,

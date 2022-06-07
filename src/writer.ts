@@ -15,6 +15,7 @@ import {
   Image,
   Keyword,
   MentorCard,
+  PlaceholderCard,
   Rarity,
   Release,
   ReleaseEdition,
@@ -33,6 +34,7 @@ interface AllCards {
   equipment: EquipmentCard[];
   heroes: HeroCard[];
   mentors: MentorCard[];
+  placeholders: PlaceholderCard[];
   resources: ResourceCard[];
   tokens: TokenCard[];
   weapons: WeaponCard[];
@@ -149,6 +151,12 @@ const generateMentorTS = (card: MentorCard): String => {
   }`;
 };
 
+const generatePlaceholderTS = (card: MentorCard): String => {
+  return `{
+    ${getCardInfo(card)}
+  }`;
+};
+
 const generateResourceTS = (card: ResourceCard): String => {
   return `{
     ${getCardInfo(card)}
@@ -230,8 +238,16 @@ const writeTS = (cards: AllCards, outputDirectory: string) => {
 };
 
 const getCardsByType = (cards: AllCards) => {
-  const { actions, equipment, heroes, mentors, resources, tokens, weapons } =
-    cards;
+  const {
+    actions,
+    equipment,
+    heroes,
+    mentors,
+    placeholders,
+    resources,
+    tokens,
+    weapons,
+  } = cards;
   const basicActions = [];
   const attackReactions = [];
   const defenseReactions = [];
@@ -259,6 +275,7 @@ const getCardsByType = (cards: AllCards) => {
     equipment,
     heroes,
     mentors,
+    placeholders,
     resources,
     tokens,
     weapons,
@@ -274,6 +291,7 @@ const generateTS = (cards: AllCards): string => {
     equipment,
     heroes,
     mentors,
+    placeholders,
     resources,
     tokens,
     weapons,
@@ -303,6 +321,7 @@ const generateTS = (cards: AllCards): string => {
     HeroCard,
     Keyword,
     MentorCard,
+    PlaceholderCard,
     Rarity,
     Release,
     ReleaseEdition,
@@ -329,11 +348,14 @@ const generateTS = (cards: AllCards): string => {
   const equipment: EquipmentCard[] = [${equipment.map(generateEquipmentTS)}];
   const mentors: MentorCard[] = [${mentors.map(generateMentorTS)}];
   const heroes: HeroCard[] = [${heroes.map(generateHeroTS)}];
+  const placeholders: PlaceholderCard[] = [${placeholders.map(
+    generatePlaceholderTS
+  )}];
   const resources: ResourceCard[] = [${resources.map(generateResourceTS)}];
   const tokens: TokenCard[] = [${tokens.map(generateTokenTS)}];
   const weapons: WeaponCard[] = [${weapons.map(generateWeaponTS)}];
 
-  export const cards: ( ActionCard | EquipmentCard | HeroCard | ResourceCard | TokenCard | WeaponCard )[] = [
+  export const cards: ( Card | ActionCard | EquipmentCard | HeroCard | PlaceholderCard | ResourceCard | TokenCard | WeaponCard )[] = [
     ...basicActions1,
     ...basicActions2,
     ...attackReactions,
@@ -342,6 +364,7 @@ const generateTS = (cards: AllCards): string => {
     ...equipment,
     ...heroes,
     ...mentors,
+    ...placeholders,
     ...resources,
     ...tokens,
     ...weapons,

@@ -13,6 +13,7 @@ import {
   Image,
   Keyword,
   MentorCard,
+  PlaceholderCard,
   Rarity,
   Release,
   ReleaseEdition,
@@ -118,6 +119,7 @@ const getIdentifier = (card: ParsedCard): string => {
     .toLowerCase()
     .replace("[^A-Za-z ]+", "")
     .replace("?", "")
+    .replace("'", "")
     .replace(/ /g, "-")
     .replace(/,/g, "")
     .replace(/’/g, "");
@@ -425,6 +427,7 @@ const getTypeAndSubType = (
     "Themai",
     "Tomeltai",
     "Vynserakai",
+    "Yendurai",
   ];
   if (dragons.includes(card.name)) {
     type = Type.Action;
@@ -510,6 +513,12 @@ const getMentorCardData = (card: ParsedCard): MentorCard => {
   };
 };
 
+const getPlaceholderCardData = (card: ParsedCard): PlaceholderCard => {
+  return {
+    ...getCommonCardData(card),
+  };
+};
+
 const getResourceCardData = (card: ParsedCard): ResourceCard => {
   const { subType } = getTypeAndSubType(card);
   return {
@@ -553,6 +562,7 @@ export const mapCardData = (
   equipment: EquipmentCard[];
   heroes: HeroCard[];
   mentors: MentorCard[];
+  placeholders: PlaceholderCard[];
   resources: ResourceCard[];
   tokens: TokenCard[];
   weapons: WeaponCard[];
@@ -561,6 +571,7 @@ export const mapCardData = (
   const equipment: EquipmentCard[] = [];
   const heroes: HeroCard[] = [];
   const mentors: MentorCard[] = [];
+  const placeholders: PlaceholderCard[] = [];
   const resources: ResourceCard[] = [];
   const tokens: TokenCard[] = [];
   const weapons: WeaponCard[] = [];
@@ -583,6 +594,9 @@ export const mapCardData = (
       case Type.Mentor:
         mentors.push(getMentorCardData(card));
         break;
+      case Type.InvocationPlaceholderCard:
+        placeholders.push(getPlaceholderCardData(card));
+        break;
       case Type.Resource:
         resources.push(getResourceCardData(card));
         break;
@@ -598,5 +612,14 @@ export const mapCardData = (
     }
   });
   // console.log(actions.find((card) => card.name === "Frost Hex"));
-  return { actions, equipment, heroes, mentors, resources, tokens, weapons };
+  return {
+    actions,
+    equipment,
+    heroes,
+    mentors,
+    placeholders,
+    resources,
+    tokens,
+    weapons,
+  };
 };
