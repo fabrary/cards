@@ -40153,6 +40153,31 @@
     
     specializations: [],
     subType: ActionSubType.Attack,
+  },{
+    class: Class.Wizard,
+    identifier: "singe-red",
+    functionalText: `Deal 1 arcane damage to target hero and up to 3 target allies they control.`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [],
+    name: "Singe",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR179"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Wizard Action",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
   }];
 
   const attackReactions: ActionCard[] = [{
