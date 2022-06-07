@@ -21442,8 +21442,7 @@
     
     specializations: [],
     subType: ActionSubType.Attack,
-  }];
-  const basicActions2: ActionCard[] = [{
+  },{
     class: Class.Brute,
     identifier: "deadwood-rumbler-blue",
     functionalText: `Draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, banish a card from a graveyard.  **Blood Debt** *(At the beginning of your end phase, if Deadwood Rumbler is in your banished zone, lose 1{h}.)*`,
@@ -21483,7 +21482,8 @@
     
     specializations: [],
     subType: ActionSubType.Attack,
-  },{
+  }];
+  const basicActions2: ActionCard[] = [{
     class: Class.Brute,
     identifier: "dread-screamer-red",
     functionalText: `As an additional cost to play Dread Screamer, banish 3 random cards from your graveyard  If a card with 6 or more {p} is banished this way, Dread Screamer gains **go again.**.  **Blood Debt** *(At the beginning of your end phase, if Dread Screamer is in your banished zone, lose 1{h}.)*`,
@@ -40079,6 +40079,31 @@
     specializations: [],
     subType: ActionSubType.NonAttack,
   },{
+    class: Class.Illusionist,
+    identifier: "transmogrify-red",
+    functionalText: `Then next attack action card you play this turn is Illusionist, has 8 base {p}, and gains **phantasm**. *(It keeps its other card types.)*  **Go again**`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.Phantasm,Keyword.GoAgain],
+    name: "Transmogrify",
+    rarity: Rarity.Rare,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR155"],
+    sets: [Release.Uprising],
+    type: Type.Action,
+    typeText: "Illusionist Action",
+    cost: 1,
+    defense: 2,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
     class: Class.Ninja,
     identifier: "double-strike-red",
     functionalText: `When Double Strike's chain link resolves, banish it. You may play it this combat chain. If you do, it loses this ability.  **Go again**`,
@@ -46247,6 +46272,31 @@
     
     specializations: [],
     
+  },{
+    class: Class.Generic,
+    identifier: "oasis-respite-red",
+    functionalText: `Prevent the next 4 damage that would be dealt to target hero this turn by a source of your choice. If they have less life than each other hero, they may gain 1{l}.`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [],
+    name: "Oasis Respite",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR221"],
+    sets: [Release.Uprising],
+    type: Type.Instant,
+    typeText: "Generic Instant",
+    cost: 1,
+    
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    
   }];
   const equipment: EquipmentCard[] = [{
     class: Class.Generic,
@@ -49422,6 +49472,60 @@
     
     talents: [],
     subType: EquipmentSubType.Head
+  },{
+    class: Class.Generic,
+    identifier: "quelling-robe",
+    functionalText: `**Quell 1**`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.Quell],
+    name: "Quelling Robe",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR184"],
+    sets: [Release.Uprising],
+    type: Type.Equipment,
+    typeText: "Generic Equipment - Chest",
+    defense: 0,
+    
+    talents: [],
+    subType: EquipmentSubType.Chest
+  },{
+    class: Class.Generic,
+    identifier: "quelling-sleeves",
+    functionalText: `**Quell 1**`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.Quell],
+    name: "Quelling Sleeves",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR185"],
+    sets: [Release.Uprising],
+    type: Type.Equipment,
+    typeText: "Generic Equipment - Arms",
+    defense: 0,
+    
+    talents: [],
+    subType: EquipmentSubType.Arms
+  },{
+    class: Class.Generic,
+    identifier: "quelling-slippers",
+    functionalText: `**Quell 1**`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [Keyword.Quell],
+    name: "Quelling Slippers",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR186"],
+    sets: [Release.Uprising],
+    type: Type.Equipment,
+    typeText: "Generic Equipment - Legs",
+    defense: 0,
+    
+    talents: [],
+    subType: EquipmentSubType.Legs
   }];
   const mentors: MentorCard[] = [{
     class: Class.Warrior,
@@ -53789,6 +53893,25 @@
     
     talents: [Talent.Draconic],
     subType: WeaponSubType.Sword
+  },{
+    class: Class.Wizard,
+    identifier: "waning-moon",
+    functionalText: `**Once per Turn Instant** - {p}{p}: Deal 2 arcane damage to target hero. If it's not your turn, instead deal 3 arcane damage to them. Activate this ability only if you've played a 'non-attack' action card this turn.`,
+    defaultImageUrl: "",
+    images: [],
+    keywords: [],
+    name: "Waning Moon",
+    rarity: Rarity.Token,
+    restrictedFormats: [],
+    setIdentifiers: ["UPR165"],
+    sets: [Release.Uprising],
+    type: Type.Weapon,
+    typeText: "Wizard Weapon – Staff (2H)",
+    handsRequired: HandsRequired.TwoHanded,
+    
+    
+    talents: [],
+    subType: WeaponSubType.Staff
   }];
 
   export const cards: ( ActionCard | EquipmentCard | HeroCard | ResourceCard | TokenCard | WeaponCard )[] = [
