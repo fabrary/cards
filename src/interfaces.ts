@@ -55,7 +55,9 @@ export interface MentorCard extends Card {
   defense?: number;
 }
 
-export interface PlaceholderCard extends Card {}
+export interface PlaceholderCard extends Card {
+  subType: PlaceholderSubType;
+}
 
 export interface ResourceCard extends Card {
   pitch?: number;
@@ -174,7 +176,7 @@ export enum Type {
   Hero = "Hero",
   Instant = "Instant",
   Mentor = "Mentor",
-  InvocationPlaceholderCard = "Invocation Placeholder Card",
+  PlaceholderCard = "Placeholder Card",
   Resource = "Resource",
   Token = "Token",
   Weapon = "Weapon",
@@ -186,6 +188,7 @@ export enum ActionSubType {
   Attack = "Attack",
   Arrow = "Arrow",
   Aura = "Aura",
+  Invocation = "Invocation",
   Item = "Item",
   Landmark = "Landmark",
   NonAttack = "Non-Attack",
@@ -198,6 +201,10 @@ export enum EquipmentSubType {
   Head = "Head",
   Legs = "Legs",
   OffHand = "Off-Hand",
+}
+
+export enum PlaceholderSubType {
+  Invocation = "Invocation",
 }
 
 export enum ResourceSubType {

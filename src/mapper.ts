@@ -14,6 +14,7 @@ import {
   Keyword,
   MentorCard,
   PlaceholderCard,
+  PlaceholderSubType,
   Rarity,
   Release,
   ReleaseEdition,
@@ -375,6 +376,7 @@ const getTypeAndSubType = (
   subType:
     | ActionSubType
     | EquipmentSubType
+    | PlaceholderSubType
     | ResourceSubType
     | TokenSubType
     | WeaponSubType;
@@ -392,13 +394,14 @@ const getTypeAndSubType = (
     | ActionSubType
     | EquipmentSubType
     | ResourceSubType
+    | PlaceholderSubType
     | TokenSubType
     | WeaponSubType;
   for (const subTypeEnum of [
     ActionSubType,
     EquipmentSubType,
     ResourceSubType,
-    ResourceSubType,
+    PlaceholderSubType,
     TokenSubType,
     WeaponSubType,
   ]) {
@@ -422,6 +425,7 @@ const getTypeAndSubType = (
     "Dominia",
     "Dracona Optimai",
     "Kyloria",
+    "Miragai",
     "Nekria",
     "Ouvia",
     "Themai",
@@ -514,8 +518,11 @@ const getMentorCardData = (card: ParsedCard): MentorCard => {
 };
 
 const getPlaceholderCardData = (card: ParsedCard): PlaceholderCard => {
+  const { subType } = getTypeAndSubType(card);
   return {
     ...getCommonCardData(card),
+    // @ts-ignore
+    subType,
   };
 };
 
@@ -594,7 +601,7 @@ export const mapCardData = (
       case Type.Mentor:
         mentors.push(getMentorCardData(card));
         break;
-      case Type.InvocationPlaceholderCard:
+      case Type.PlaceholderCard:
         placeholders.push(getPlaceholderCardData(card));
         break;
       case Type.Resource:

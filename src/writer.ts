@@ -16,6 +16,7 @@ import {
   Keyword,
   MentorCard,
   PlaceholderCard,
+  PlaceholderSubType,
   Rarity,
   Release,
   ReleaseEdition,
@@ -151,9 +152,18 @@ const generateMentorTS = (card: MentorCard): String => {
   }`;
 };
 
-const generatePlaceholderTS = (card: MentorCard): String => {
+const generatePlaceholderTS = (card: PlaceholderCard): String => {
   return `{
     ${getCardInfo(card)}
+        ${
+          card.subType
+            ? `subType: ${getEnumValue(
+                card.subType,
+                "PlaceholderSubType",
+                PlaceholderSubType
+              )}`
+            : ``
+        }
   }`;
 };
 
@@ -322,6 +332,7 @@ const generateTS = (cards: AllCards): string => {
     Keyword,
     MentorCard,
     PlaceholderCard,
+    PlaceholderSubType,
     Rarity,
     Release,
     ReleaseEdition,
