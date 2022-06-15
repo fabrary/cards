@@ -55898,7 +55898,8 @@
     type: Type.Resource,
     typeText: "Generic Resource – Gem",
     pitch: 3,
-    subType: ResourceSubType.Gem
+    subType: ResourceSubType.Gem,
+    talents: [],
   },{
     class: Class.Generic,
     identifier: "cracked-bauble-yellow",
@@ -55970,6 +55971,7 @@
     typeText: "Generic Resource",
     pitch: 2,
     
+    talents: [],
   },{
     class: Class.Generic,
     identifier: "eye-of-ophidia-blue",
@@ -55995,7 +55997,8 @@
     type: Type.Resource,
     typeText: "Generic Resource – Gem",
     pitch: 3,
-    subType: ResourceSubType.Gem
+    subType: ResourceSubType.Gem,
+    talents: [],
   },{
     class: Class.Runeblade,
     identifier: "arknight-shard-blue",
@@ -56021,7 +56024,8 @@
     type: Type.Resource,
     typeText: "Runeblade Resource – Gem",
     pitch: 3,
-    subType: ResourceSubType.Gem
+    subType: ResourceSubType.Gem,
+    talents: [],
   },{
     class: Class.Guardian,
     identifier: "grandeur-of-valahai-blue",
@@ -56042,7 +56046,8 @@
     type: Type.Resource,
     typeText: "Guardian Resource – Gem",
     pitch: 3,
-    subType: ResourceSubType.Gem
+    subType: ResourceSubType.Gem,
+    talents: [],
   },{
     class: Class.Generic,
     identifier: "titanium-bauble-blue",
@@ -56069,6 +56074,7 @@
     typeText: "Generic Resource",
     pitch: 3,
     
+    talents: [],
   },{
     class: Class.NotClassed,
     identifier: "blood-of-the-dracai-red",
@@ -56084,7 +56090,8 @@
     type: Type.Resource,
     typeText: "Draconic Resource – Gem",
     pitch: 1,
-    subType: ResourceSubType.Gem
+    subType: ResourceSubType.Gem,
+    talents: [Talent.Draconic],
   }];
   const tokens: TokenCard[] = [{
     class: Class.Guardian,

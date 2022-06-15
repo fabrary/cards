@@ -177,9 +177,10 @@ const generateResourceTS = (card: ResourceCard): String => {
             card.subType,
             "ResourceSubType",
             ResourceSubType
-          )}`
+          )},`
         : ``
     }
+    talents: [${getEnumValues(card.talents, "Talent", Talent)}],
   }`;
 };
 
@@ -258,10 +259,10 @@ const getCardsByType = (cards: AllCards) => {
     tokens,
     weapons,
   } = cards;
-  const basicActions = [];
-  const attackReactions = [];
-  const defenseReactions = [];
-  const instants = [];
+  const basicActions: Card[] = [];
+  const attackReactions: Card[] = [];
+  const defenseReactions: Card[] = [];
+  const instants: Card[] = [];
   actions.forEach((action) => {
     switch (action.type) {
       case Type.AttackReaction:

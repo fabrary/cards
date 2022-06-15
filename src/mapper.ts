@@ -42,7 +42,7 @@ const getClass = (card: ParsedCard): Class => {
   return Class.Generic;
 };
 
-const getCost = (card: ParsedCard): number => {
+const getCost = (card: ParsedCard): number | null => {
   const { cost } = card;
   return typeof cost === "string" ? null : cost;
 };
@@ -71,7 +71,7 @@ const getDefaultImageUrl = (card: ParsedCard): string => {
   return url;
 };
 
-const getDefense = (card: ParsedCard): number => {
+const getDefense = (card: ParsedCard): number | null => {
   const { defense } = card;
   return typeof defense === "string" ? null : defense;
 };
@@ -93,16 +93,18 @@ const getFusions = (card: ParsedCard): Fusion[] => {
 
 const getHands = (card: ParsedCard): HandsRequired => {
   const { types } = card;
-  let hands = null;
+  let hands;
   if (types.some((type) => type.includes("1H"))) {
     hands = HandsRequired.OneHanded;
   } else if (types.some((type) => type.includes("2H"))) {
     hands = HandsRequired.TwoHanded;
+  } else {
+    hands = null;
   }
   return hands;
 };
 
-const getHero = (card: ParsedCard): Hero => {
+const getHero = (card: ParsedCard): Hero | null => {
   const { types, name } = card;
   if (types.includes("Hero")) {
     for (const [hero, value] of Object.entries(Hero)) {
@@ -182,6 +184,7 @@ const getKeywords = (card: ParsedCard): Keyword[] => {
   [...cardKeywords, ...grantedKeywords].forEach((keyword) => {
     for (const [key, value] of Object.entries(Keyword)) {
       if (keyword.includes(value)) {
+        // @ts-ignore
         keywords.push(Keyword[key]);
       }
     }
@@ -190,12 +193,12 @@ const getKeywords = (card: ParsedCard): Keyword[] => {
   return keywords;
 };
 
-const getPower = (card: ParsedCard): number => {
+const getPower = (card: ParsedCard): number | null => {
   const { power } = card;
   return typeof power === "string" ? null : power;
 };
 
-const getRarity = (card: ParsedCard): Rarity => {
+const getRarity = (card: ParsedCard): Rarity | undefined => {
   const { rarity: rarities } = card;
   if (rarities.some((rarity) => rarity.startsWith("T"))) {
     return Rarity.Token;
@@ -228,7 +231,7 @@ const getRestrictedFormats = (card: ParsedCard): Format[] => {
     classicConstructedSuspendedEnd,
     commonerBanned,
   } = card;
-  const restrictedFormats = [];
+  const restrictedFormats: Format[] = [];
   if (
     blitzLivingLegend ||
     todayIsAfterDate(blitzBanned) ||
@@ -320,7 +323,7 @@ const getSets = (card: ParsedCard): Release[] =>
 const getSpecializations = (card: ParsedCard): Hero[] => {
   const { cardKeywords } = card;
 
-  const specializations = [];
+  const specializations: Hero[] = [];
   cardKeywords.forEach((keyword) => {
     if (keyword.includes("Specialization")) {
       const [oneOrMoreHeroes] = keyword.split(" Specialization");
@@ -334,23 +337,24 @@ const getSpecializations = (card: ParsedCard): Hero[] => {
   return specializations;
 };
 
-const getSpecialCost = (card: ParsedCard): string => {
+const getSpecialCost = (card: ParsedCard): string | null => {
   const { cost } = card;
   return typeof cost === "string" ? cost : null;
 };
 
-const getSpecialDefense = (card: ParsedCard): string => {
+const getSpecialDefense = (card: ParsedCard): string | null => {
   const { defense } = card;
   return typeof defense === "string" ? defense : null;
 };
 
-const getSpecialPower = (card: ParsedCard): string => {
+const getSpecialPower = (card: ParsedCard): string | null => {
   const { power } = card;
   return typeof power === "string" ? power : null;
 };
 
 const getTalents = (card: ParsedCard): Talent[] => {
   const { types, cardKeywords } = card;
+
   const talents = new Set<Talent>();
   for (const [talent, value] of Object.entries(Talent)) {
     if (types.includes(value)) {
@@ -372,17 +376,18 @@ const getTalents = (card: ParsedCard): Talent[] => {
 const getTypeAndSubType = (
   card: ParsedCard
 ): {
-  type: Type;
+  type: Type | null;
   subType:
     | ActionSubType
     | EquipmentSubType
     | PlaceholderSubType
     | ResourceSubType
     | TokenSubType
-    | WeaponSubType;
+    | WeaponSubType
+    | null;
 } => {
   const { types } = card;
-  let type: Type;
+  let type: Type | null = null;
   for (const [typeKey, typeValue] of Object.entries(Type)) {
     if (types.includes(typeValue)) {
       type = Type[typeKey];
@@ -396,7 +401,8 @@ const getTypeAndSubType = (
     | ResourceSubType
     | PlaceholderSubType
     | TokenSubType
-    | WeaponSubType;
+    | WeaponSubType
+    | null = null;
   for (const subTypeEnum of [
     ActionSubType,
     EquipmentSubType,
@@ -444,7 +450,7 @@ const getTypeAndSubType = (
   return { type, subType };
 };
 
-const getYoung = (card: ParsedCard): boolean => {
+const getYoung = (card: ParsedCard): boolean | null => {
   const { types } = card;
   return types.includes("Hero") && types.includes("Young") ? true : null;
 };
@@ -459,11 +465,11 @@ const getCommonCardData = (card: ParsedCard): Card => {
     images: getImages(card),
     keywords: getKeywords(card),
     name: card.name,
-    rarity: getRarity(card),
+    rarity: getRarity(card) as Rarity,
     restrictedFormats: getRestrictedFormats(card),
     setIdentifiers: card.identifiers,
     sets: getSets(card),
-    type,
+    type: type as Type,
     typeText: card.typeText,
   };
 };
@@ -472,15 +478,15 @@ const getActionCardData = (card: ParsedCard): ActionCard => {
   const { subType } = getTypeAndSubType(card);
   return {
     ...getCommonCardData(card),
-    cost: getCost(card),
-    defense: getDefense(card),
+    cost: getCost(card) as number,
+    defense: getDefense(card) as number,
     fusions: getFusions(card),
     pitch: card.pitch,
-    power: getPower(card),
+    power: getPower(card) as number,
     talents: getTalents(card),
-    specialCost: getSpecialCost(card),
-    specialDefense: getSpecialDefense(card),
-    specialPower: getSpecialPower(card),
+    specialCost: getSpecialCost(card) as string,
+    specialDefense: getSpecialDefense(card) as string,
+    specialPower: getSpecialPower(card) as string,
     specializations: getSpecializations(card),
     // @ts-ignore
     subType,
@@ -491,7 +497,7 @@ const getEquipmentCardData = (card: ParsedCard): EquipmentCard => {
   const { subType } = getTypeAndSubType(card);
   return {
     ...getCommonCardData(card),
-    defense: getDefense(card),
+    defense: getDefense(card) as number,
     handsRequired: getHands(card),
     talents: getTalents(card),
     // @ts-ignore
@@ -503,17 +509,17 @@ const getHeroCardData = (card: ParsedCard): HeroCard => {
   return {
     ...getCommonCardData(card),
     intellect: card.intellect,
-    hero: getHero(card),
+    hero: getHero(card) as Hero,
     life: card.life,
     talents: getTalents(card),
-    young: getYoung(card),
+    young: getYoung(card) as boolean,
   };
 };
 
 const getMentorCardData = (card: ParsedCard): MentorCard => {
   return {
     ...getCommonCardData(card),
-    defense: getDefense(card),
+    defense: getDefense(card) as number,
   };
 };
 
@@ -553,8 +559,8 @@ const getWeaponCardData = (card: ParsedCard): WeaponCard => {
   const { subType } = getTypeAndSubType(card);
   return {
     ...getCommonCardData(card),
-    power: getPower(card),
-    specialPower: getSpecialPower(card),
+    power: getPower(card) as number,
+    specialPower: getSpecialPower(card) as string,
     handsRequired: getHands(card),
     talents: getTalents(card),
     // @ts-ignore

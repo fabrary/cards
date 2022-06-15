@@ -62,6 +62,7 @@ export interface PlaceholderCard extends Card {
 export interface ResourceCard extends Card {
   pitch?: number;
   subType?: ResourceSubType;
+  talents?: Talent[];
 }
 
 export interface TokenCard extends Card {
