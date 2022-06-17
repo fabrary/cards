@@ -117,6 +117,7 @@ export const parseCardData = (tsv): ParsedCard[] => {
   const cards = parse<ParsedCard>(csv, {
     header: true,
     dynamicTyping: true,
+    skipEmptyLines: true,
     transform,
     transformHeader,
   });

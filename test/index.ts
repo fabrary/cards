@@ -6,12 +6,18 @@ const csv = readFileSync("src/cards.tsv", "utf8");
 const parsed = parse(csv, {
   header: true,
   dynamicTyping: true,
+  skipEmptyLines: true,
 });
 const parsedCards = parsed.data;
 
-const libraryCardNames = libraryCards.map((card) => card.name);
+const libraryCardNames = libraryCards
+  .map((card) => card.name)
+  .filter((name) => name !== undefined && name !== null && name !== "");
+
 // @ts-ignore
-const parsedCardNames = parsedCards.map((card) => card.Name);
+const parsedCardNames = parsedCards.map(
+  (card) => (card as { Name: string }).Name
+);
 const cardsMissingFromLibrary = parsedCardNames.filter(
   (name) => !libraryCardNames.includes(name)
 );
