@@ -234,6 +234,8 @@ const getRestrictedFormats = (card: ParsedCard): Format[] => {
     commonerLegal,
     commonerBanned,
   } = card;
+  const { type } = getTypeAndSubType(card);
+
   const restrictedFormats: Format[] = [];
 
   const ILLEGAL_IN_FORMAT_FLAG = "No";
@@ -241,7 +243,7 @@ const getRestrictedFormats = (card: ParsedCard): Format[] => {
     blitzLivingLegend ||
     todayIsAfterDate(blitzBanned) ||
     todayIsWithinDateRanges(blitzSuspendedStart, blitzSuspendedEnd) ||
-    blitzLegal === ILLEGAL_IN_FORMAT_FLAG
+    (type !== Type.Hero && blitzLegal === ILLEGAL_IN_FORMAT_FLAG)
   ) {
     restrictedFormats.push(Format.Blitz);
   }
@@ -252,14 +254,14 @@ const getRestrictedFormats = (card: ParsedCard): Format[] => {
       classicConstructedSuspendedStart,
       classicConstructedSuspendedEnd
     ) ||
-    classicConstructedLegal === ILLEGAL_IN_FORMAT_FLAG
+    (type !== Type.Hero && classicConstructedLegal === ILLEGAL_IN_FORMAT_FLAG)
   ) {
     restrictedFormats.push(Format.ClassicConstructed);
   }
-  if (card.name === "Tear Asunder") {
-    console.log({ commonerBanned, commonerLegal });
-  }
-  if (commonerBanned || commonerLegal === ILLEGAL_IN_FORMAT_FLAG) {
+  if (
+    commonerBanned ||
+    (type !== Type.Hero && commonerLegal === ILLEGAL_IN_FORMAT_FLAG)
+  ) {
     restrictedFormats.push(Format.Commoner);
   }
   return restrictedFormats;
