@@ -221,21 +221,27 @@ const getRarity = (card: ParsedCard): Rarity | undefined => {
 
 const getRestrictedFormats = (card: ParsedCard): Format[] => {
   const {
+    blitzLegal,
     blitzBanned,
     blitzLivingLegend,
     blitzSuspendedStart,
     blitzSuspendedEnd,
+    classicConstructedLegal,
     classicConstructedBanned,
     classicConstructedLivingLegend,
     classicConstructedSuspendedStart,
     classicConstructedSuspendedEnd,
+    commonerLegal,
     commonerBanned,
   } = card;
   const restrictedFormats: Format[] = [];
+
+  const ILLEGAL_IN_FORMAT_FLAG = "No";
   if (
     blitzLivingLegend ||
     todayIsAfterDate(blitzBanned) ||
-    todayIsWithinDateRanges(blitzSuspendedStart, blitzSuspendedEnd)
+    todayIsWithinDateRanges(blitzSuspendedStart, blitzSuspendedEnd) ||
+    blitzLegal === ILLEGAL_IN_FORMAT_FLAG
   ) {
     restrictedFormats.push(Format.Blitz);
   }
@@ -245,11 +251,15 @@ const getRestrictedFormats = (card: ParsedCard): Format[] => {
     todayIsWithinDateRanges(
       classicConstructedSuspendedStart,
       classicConstructedSuspendedEnd
-    )
+    ) ||
+    classicConstructedLegal === ILLEGAL_IN_FORMAT_FLAG
   ) {
     restrictedFormats.push(Format.ClassicConstructed);
   }
-  if (commonerBanned) {
+  if (card.name === "Tear Asunder") {
+    console.log({ commonerBanned, commonerLegal });
+  }
+  if (commonerBanned || commonerLegal === ILLEGAL_IN_FORMAT_FLAG) {
     restrictedFormats.push(Format.Commoner);
   }
   return restrictedFormats;
