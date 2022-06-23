@@ -1,8 +1,8 @@
 export interface Card {
-  class: Class;
   identifier: string;
-  functionalText: string;
+  class: Class;
   defaultImageUrl: string;
+  functionalText: string;
   images: Image[];
   keywords: Keyword[];
   name: string;
