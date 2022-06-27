@@ -73,7 +73,7 @@ const getImages = (images: Image[]) => {
 
 const getCardInfo = (card: Card): String => {
   return `class: ${getEnumValue(card.class, "Class", Class)},
-    identifier: "${card.identifier}",
+    cardIdentifier: "${card.cardIdentifier}",
     functionalText: \`${card.functionalText}\`,
     defaultImageUrl: "${card.defaultImageUrl}",
     images: [${getImages(card.images)}],

@@ -471,7 +471,7 @@ const getCommonCardData = (card: ParsedCard): Card => {
   const { type } = getTypeAndSubType(card);
   return {
     class: getClass(card),
-    identifier: getIdentifier(card),
+    cardIdentifier: getIdentifier(card),
     functionalText: card.functionalText,
     defaultImageUrl: getDefaultImageUrl(card),
     images: getImages(card),

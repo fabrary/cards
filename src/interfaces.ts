@@ -1,5 +1,5 @@
 export interface Card {
-  identifier: string;
+  cardIdentifier: string;
   class: Class;
   defaultImageUrl: string;
   functionalText: string;

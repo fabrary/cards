@@ -31,7 +31,7 @@
   
   const basicActions1: ActionCard[] = [{
     class: Class.Brute,
-    identifier: "alpha-rampage-red",
+    cardIdentifier: "alpha-rampage-red",
     functionalText: `**Rhinar Specialization** *(You may only have Alpha Rampage in your deck if your hero is Rhinar)*  As an additional cost to play Alpha Rampage, discard a random card.  When you attack with Alpha Rampage, **intimidate**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR006.png",
     images: [{
@@ -76,7 +76,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "bloodrush-bellow-yellow",
+    cardIdentifier: "bloodrush-bellow-yellow",
     functionalText: `As an additional cost to play Bloodrush Bellow, discard a random card.  Your Brute attacks gain +2{p} this turn.  If the discarded card has 6 or more {p}, draw 2 cards and Bloodrush Bellow gains **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR007.png",
     images: [{
@@ -116,7 +116,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
-    identifier: "sand-sketched-plan-blue",
+    cardIdentifier: "sand-sketched-plan-blue",
     functionalText: `**Rhinar Specialization** *(You may only have Sand Sketched Plan your deck if your hero is Rhinar)*  Search your deck for a card, put it into your hand, discard a random card, then shuffle your deck.  If the discarded card has 6 or more {p}, gain 2 action points.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR009.png",
     images: [{
@@ -156,7 +156,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
-    identifier: "breakneck-battery-red",
+    cardIdentifier: "breakneck-battery-red",
     functionalText: `As an additional cost to play Breakneck Battery, discard a random card.  If the discarded card has 6 or more {p}, Breakneck Battery gains **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR011.png",
     images: [{
@@ -201,7 +201,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "breakneck-battery-yellow",
+    cardIdentifier: "breakneck-battery-yellow",
     functionalText: `As an additional cost to play Breakneck Battery, discard a random card.  If the discarded card has 6 or more {p}, Breakneck Battery gains **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR012.png",
     images: [{
@@ -241,7 +241,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "breakneck-battery-blue",
+    cardIdentifier: "breakneck-battery-blue",
     functionalText: `As an additional cost to play Breakneck Battery, discard a random card.  If the discarded card has 6 or more {p}, Breakneck Battery gains **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR013.png",
     images: [{
@@ -281,7 +281,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "savage-feast-red",
+    cardIdentifier: "savage-feast-red",
     functionalText: `As an additional cost to play Savage Feast discard a random card.  When you attack with Savage Feast, if a card with 6 or more {p} was discarded as an additional cost to play it, draw a card.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR014.png",
     images: [{
@@ -326,7 +326,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "savage-feast-yellow",
+    cardIdentifier: "savage-feast-yellow",
     functionalText: `As an additional cost to play Savage Feast discard a random card.  When you attack with Savage Feast, if a card with 6 or more {p} was discarded as an additional cost to play it, draw a card.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR015.png",
     images: [{
@@ -366,7 +366,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "savage-feast-blue",
+    cardIdentifier: "savage-feast-blue",
     functionalText: `As an additional cost to play Savage Feast discard a random card.  When you attack with Savage Feast, if a card with 6 or more {p} was discarded as an additional cost to play it, draw a card.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR016.png",
     images: [{
@@ -406,7 +406,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "barraging-beatdown-red",
+    cardIdentifier: "barraging-beatdown-red",
     functionalText: `Your next Brute attack this turn gains “While this attack is defended by less than 2 non-equipment cards, it has +4{p}  **Intimidate** *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owners hand.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR017.png",
     images: [{
@@ -446,7 +446,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
-    identifier: "barraging-beatdown-yellow",
+    cardIdentifier: "barraging-beatdown-yellow",
     functionalText: `Your next Brute attack this turn gains “While this attack is defended by less than 2 non-equipment cards, it has +3{p}  **Intimidate** *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owners hand.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR018.png",
     images: [{
@@ -496,7 +496,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
-    identifier: "barraging-beatdown-blue",
+    cardIdentifier: "barraging-beatdown-blue",
     functionalText: `Your next Brute attack this turn gains “While this attack is defended by less than 2 non-equipment cards, it has +2{p}  **Intimidate** *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owners hand.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR019.png",
     images: [{
@@ -541,7 +541,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
-    identifier: "savage-swing-red",
+    cardIdentifier: "savage-swing-red",
     functionalText: `As an additional cost to play Savage Swing, discard a random card.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR020.png",
     images: [{
@@ -586,7 +586,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "savage-swing-yellow",
+    cardIdentifier: "savage-swing-yellow",
     functionalText: `As an additional cost to play Savage Swing, discard a random card.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR021.png",
     images: [{
@@ -631,7 +631,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "savage-swing-blue",
+    cardIdentifier: "savage-swing-blue",
     functionalText: `As an additional cost to play Savage Swing, discard a random card.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR022.png",
     images: [{
@@ -671,7 +671,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "pack-hunt-red",
+    cardIdentifier: "pack-hunt-red",
     functionalText: `When you attack with Pack Hunt, **intimidate**. *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owners hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR023.png",
     images: [{
@@ -721,7 +721,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "pack-hunt-yellow",
+    cardIdentifier: "pack-hunt-yellow",
     functionalText: `When you attack with Pack Hunt, **intimidate**. *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owners hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR024.png",
     images: [{
@@ -761,7 +761,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "pack-hunt-blue",
+    cardIdentifier: "pack-hunt-blue",
     functionalText: `When you attack with Pack Hunt, **intimidate**. *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owners hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR025.png",
     images: [{
@@ -801,7 +801,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "smash-instinct-red",
+    cardIdentifier: "smash-instinct-red",
     functionalText: `When you attack with Smash Instinct, **intimidate**. *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owners hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR026.png",
     images: [{
@@ -846,7 +846,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "smash-instinct-yellow",
+    cardIdentifier: "smash-instinct-yellow",
     functionalText: `When you attack with Smash Instinct, **intimidate**. *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owners hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR027.png",
     images: [{
@@ -896,7 +896,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "smash-instinct-blue",
+    cardIdentifier: "smash-instinct-blue",
     functionalText: `When you attack with Smash Instinct, **intimidate**. *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owners hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR028.png",
     images: [{
@@ -936,7 +936,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "wrecker-romp-red",
+    cardIdentifier: "wrecker-romp-red",
     functionalText: `As an additional cost to play Wrecker Romp. Discard a random card.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR029.png",
     images: [{
@@ -986,7 +986,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "wrecker-romp-yellow",
+    cardIdentifier: "wrecker-romp-yellow",
     functionalText: `As an additional cost to play Wrecker Romp. Discard a random card.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR030.png",
     images: [{
@@ -1031,7 +1031,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "wrecker-romp-blue",
+    cardIdentifier: "wrecker-romp-blue",
     functionalText: `As an additional cost to play Wrecker Romp. Discard a random card.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR031.png",
     images: [{
@@ -1091,7 +1091,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "awakening-bellow-red",
+    cardIdentifier: "awakening-bellow-red",
     functionalText: `The next Brute attack action card you play this turn gains +3{p}  **Intimidate** *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owners hand.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR032.png",
     images: [{
@@ -1136,7 +1136,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
-    identifier: "awakening-bellow-yellow",
+    cardIdentifier: "awakening-bellow-yellow",
     functionalText: `The next Brute attack action card you play this turn gains +2{p}  **Intimidate** *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owners hand.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR033.png",
     images: [{
@@ -1171,7 +1171,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
-    identifier: "awakening-bellow-blue",
+    cardIdentifier: "awakening-bellow-blue",
     functionalText: `The next Brute attack action card you play this turn gains +1{p}  **Intimidate** *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owners hand.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR034.png",
     images: [{
@@ -1211,7 +1211,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
-    identifier: "primeval-bellow-red",
+    cardIdentifier: "primeval-bellow-red",
     functionalText: `As an additional cost to play Primeval Bellow, discard a random card.  Your next Brute attack this turn gains +5{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR035.png",
     images: [{
@@ -1251,7 +1251,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
-    identifier: "primeval-bellow-yellow",
+    cardIdentifier: "primeval-bellow-yellow",
     functionalText: `As an additional cost to play Primeval Bellow, discard a random card.  Your next Brute attack this turn gains +4{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR036.png",
     images: [{
@@ -1291,7 +1291,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
-    identifier: "primeval-bellow-blue",
+    cardIdentifier: "primeval-bellow-blue",
     functionalText: `As an additional cost to play Primeval Bellow, discard a random card.  Your next Brute attack this turn gains +3{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR037.png",
     images: [{
@@ -1336,7 +1336,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Guardian,
-    identifier: "crippling-crush-red",
+    cardIdentifier: "crippling-crush-red",
     functionalText: `**Bravo Specialization** *(You may only have Crippling Crush in your deck if your hero is Bravo.)*  **Crush** - If Crippling Crush deals 4 or more damage to a hero, they discard 2 random cards.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR043.png",
     images: [{
@@ -1376,7 +1376,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "spinal-crush-red",
+    cardIdentifier: "spinal-crush-red",
     functionalText: `**Crush** - If Spinal Crush deals 4 or more damage to a hero, action cards, activated abilities, and attacks they control lose and can’t gain **go again** during their next action phase.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR044.png",
     images: [{
@@ -1416,7 +1416,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "cranial-crush-blue",
+    cardIdentifier: "cranial-crush-blue",
     functionalText: `**Crush** - If Cranial Crush deals 4 or more damage to a hero, they can’t draw cards during their next action phase`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR045.png",
     images: [{
@@ -1451,7 +1451,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "forged-for-war-yellow",
+    cardIdentifier: "forged-for-war-yellow",
     functionalText: `**Go again**  Equipment you control gain +1{d}.  At the beginning of your action phase, destroy Forged for War.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR046.png",
     images: [{
@@ -1486,7 +1486,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
-    identifier: "show-time!-blue",
+    cardIdentifier: "show-time!-blue",
     functionalText: `**Bravo Specialization** *(You may only have Show Time! In your deck if your hero is Bravo.)*  When Show Time! enters the arena, search your deck for a Guardian attack action card, reveal it and put it into your hand, then shuffle your deck.  At the beginning of your action phase, destroy Show Time! then draw a card.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR047.png",
     images: [{
@@ -1526,7 +1526,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
-    identifier: "disable-red",
+    cardIdentifier: "disable-red",
     functionalText: `**Crush** - If Disable deals 4 or more damage to a hero, put a card from their arsenal on the bottom of its owner deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR048.png",
     images: [{
@@ -1571,7 +1571,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "disable-yellow",
+    cardIdentifier: "disable-yellow",
     functionalText: `**Crush** - If Disable deals 4 or more damage to a hero, put a card from their arsenal on the bottom of its owner deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR049.png",
     images: [{
@@ -1611,7 +1611,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "disable-blue",
+    cardIdentifier: "disable-blue",
     functionalText: `**Crush** - If Disable deals 4 or more damage to a hero, put a card from their arsenal on the bottom of its owner deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR050.png",
     images: [{
@@ -1656,7 +1656,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "blessing-of-deliverance-red",
+    cardIdentifier: "blessing-of-deliverance-red",
     functionalText: `**Go again**  When Blessing of Deliverance enters the arena, if you have a card with cost 3 or greater in your pitch zone, draw a card.  At the beginning of the action phase, destroy Blessing of Deliverance then reveal the top 3 cards of your deck. Gain 1{h} for each card with cost 3 or greater revealed this way.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR054.png",
     images: [{
@@ -1706,7 +1706,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
-    identifier: "blessing-of-deliverance-yellow",
+    cardIdentifier: "blessing-of-deliverance-yellow",
     functionalText: `**Go again**  When Blessing of Deliverance enters the arena, if you have a card with cost 3 or greater in your pitch zone, draw a card.  At the beginning of the action phase, destroy Blessing of Deliverance then reveal the top 2 cards of your deck. Gain 1{h} for each card with cost 3 or greater revealed this way.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR055.png",
     images: [{
@@ -1751,7 +1751,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
-    identifier: "blessing-of-deliverance-blue",
+    cardIdentifier: "blessing-of-deliverance-blue",
     functionalText: `**Go again**  When Blessing of Deliverance enters the arena, if you have a card with cost 3 or greater in your pitch zone, draw a card.  At the beginning of the action phase, destroy Blessing of Deliverance then reveal the top card of your deck. Gain 1{h} for each card with cost 3 or greater revealed this way.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR056.png",
     images: [{
@@ -1801,7 +1801,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
-    identifier: "buckling-blow-red",
+    cardIdentifier: "buckling-blow-red",
     functionalText: `**Crush** - If Buckling Blow deals 4 or more damage to a hero, put a -1{d} counter on target equipment they control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR057.png",
     images: [{
@@ -1841,7 +1841,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "buckling-blow-yellow",
+    cardIdentifier: "buckling-blow-yellow",
     functionalText: `**Crush** - If Buckling Blow deals 4 or more damage to a hero, put a -1{d} counter on target equipment they control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR058.png",
     images: [{
@@ -1876,7 +1876,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "buckling-blow-blue",
+    cardIdentifier: "buckling-blow-blue",
     functionalText: `**Crush** - If Buckling Blow deals 4 or more damage to a hero, put a -1{d} counter on target equipment they control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR059.png",
     images: [{
@@ -1916,7 +1916,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "cartilage-crush-red",
+    cardIdentifier: "cartilage-crush-red",
     functionalText: `**Crush** - If Cartilage Crush deals 4 or more damage to a hero, their first action during their next turn costs an additional {r}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR060.png",
     images: [{
@@ -1961,7 +1961,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "cartilage-crush-yellow",
+    cardIdentifier: "cartilage-crush-yellow",
     functionalText: `**Crush** - If Cartilage Crush deals 4 or more damage to a hero, their first action during their next turn costs an additional {r}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR061.png",
     images: [{
@@ -2001,7 +2001,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "cartilage-crush-blue",
+    cardIdentifier: "cartilage-crush-blue",
     functionalText: `**Crush** - If Cartilage Crush deals 4 or more damage to a hero, their first action during their next turn costs an additional {r}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR062.png",
     images: [{
@@ -2046,7 +2046,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "crush-confidence-red",
+    cardIdentifier: "crush-confidence-red",
     functionalText: `**Crush** - If Crush Confidence deals 4 or more damage to a hero, they lose all hero card effects and activated abilities until the end of their next turn. *(Treat the hero card as if the text box is empty)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR063.png",
     images: [{
@@ -2086,7 +2086,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "crush-confidence-yellow",
+    cardIdentifier: "crush-confidence-yellow",
     functionalText: `**Crush** - If Crush Confidence deals 4 or more damage to a hero, they lose all hero card effects and activated abilities until the end of their next turn. *(Treat the hero card as if the text box is empty)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR064.png",
     images: [{
@@ -2126,7 +2126,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "crush-confidence-blue",
+    cardIdentifier: "crush-confidence-blue",
     functionalText: `**Crush** - If Crush Confidence deals 4 or more damage to a hero, they lose all hero card effects and activated abilities until the end of their next turn. *(Treat the hero card as if the text box is empty)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR065.png",
     images: [{
@@ -2171,7 +2171,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "debilitate-red",
+    cardIdentifier: "debilitate-red",
     functionalText: `**Crush** - If Debilitate deals 4 or more damage to a hero, their first attack during their next turn has -2{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR066.png",
     images: [{
@@ -2216,7 +2216,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "debilitate-yellow",
+    cardIdentifier: "debilitate-yellow",
     functionalText: `**Crush** - If Debilitate deals 4 or more damage to a hero, their first attack during their next turn has -2{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR067.png",
     images: [{
@@ -2261,7 +2261,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "debilitate-blue",
+    cardIdentifier: "debilitate-blue",
     functionalText: `**Crush** - If Debilitate deals 4 or more damage to a hero, their first attack during their next turn has -2{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR068.png",
     images: [{
@@ -2301,7 +2301,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "emerging-power-red",
+    cardIdentifier: "emerging-power-red",
     functionalText: `**Go again**  At the beginning of your action phase, destroy Emerging Power then the next Guardian attack action card you play this turn gains +3{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR069.png",
     images: [{
@@ -2341,7 +2341,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
-    identifier: "emerging-power-yellow",
+    cardIdentifier: "emerging-power-yellow",
     functionalText: `**Go again**  At the beginning of your action phase, destroy Emerging Power then the next Guardian attack action card you play this turn gains +2{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR070.png",
     images: [{
@@ -2381,7 +2381,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
-    identifier: "emerging-power-blue",
+    cardIdentifier: "emerging-power-blue",
     functionalText: `**Go again**  At the beginning of your action phase, destroy Emerging Power then the next Guardian attack action card you play this turn gains +1{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR071.png",
     images: [{
@@ -2416,7 +2416,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
-    identifier: "stonewall-confidence-red",
+    cardIdentifier: "stonewall-confidence-red",
     functionalText: `*(Auras stay in the arena until they are destroyed.)*  **Go again**  Cards you control with cost 3 or greater gain +4{d} while defending.  At the beginning of your action phase, destroy Stonewall Confidence.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR072.png",
     images: [{
@@ -2456,7 +2456,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
-    identifier: "stonewall-confidence-yellow",
+    cardIdentifier: "stonewall-confidence-yellow",
     functionalText: `*(Auras stay in the arena until they are destroyed.)*  **Go again**  Cards you control with cost 3 or greater gain +3{d} while defending.  At the beginning of your action phase, destroy Stonewall Confidence.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR073.png",
     images: [{
@@ -2496,7 +2496,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
-    identifier: "stonewall-confidence-blue",
+    cardIdentifier: "stonewall-confidence-blue",
     functionalText: `*(Auras stay in the arena until they are destroyed.)*  **Go again**  Cards you control with cost 3 or greater gain +2{d} while defending.  At the beginning of your action phase, destroy Stonewall Confidence.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR074.png",
     images: [{
@@ -2541,7 +2541,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Ninja,
-    identifier: "lord-of-wind-blue",
+    cardIdentifier: "lord-of-wind-blue",
     functionalText: `**Katsu Specialization** *(You may only have Lord of Wind in your deck if your hero is Katsu.)*  **Combo** - If Mugenshi: RELEASE was the last attack this combat chain, as an additional cost to play Lord of Wind, you may pay any amount of {r}. If you do, shuffle that many target cards named Surging Strike, Whelming Gustwave and/or Mugenshi: RELEASE from your graveyard into your deck, then Lord of Wind gains that much {p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR081.png",
     images: [{
@@ -2581,7 +2581,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "mugenshi:-release-yellow",
+    cardIdentifier: "mugenshi:-release-yellow",
     functionalText: `**Katsu Specialization** *(You may only have Mugenshi: RELEASE in your deck if your hero is Katsu.)*  **Combo** - If Whelming Gustwave was the last attack this combat chain, Mugenshi: RELEASE gains +1{p}, **go again**, and “If this hits, search your deck for any number of cards named Lord of Wind, reveal them, put them into your hand, then shuffle your deck.”`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR083.png",
     images: [{
@@ -2621,7 +2621,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "hurricane-technique-yellow",
+    cardIdentifier: "hurricane-technique-yellow",
     functionalText: `**Combo** - If Rising Knee Thrust was the last attack this combat chain, Hurricane Technique gains +1{p}, **go again**, and “If Hurricane Technique hits, put it into your hand.”`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR084.png",
     images: [{
@@ -2656,7 +2656,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "pounding-gale-red",
+    cardIdentifier: "pounding-gale-red",
     functionalText: `**Combo** - If Open the Center was the last attack this combat chain, Pounding Gale gains “If Pounding Gale would deal damage to a hero, instead it deals double that much damage”`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR085.png",
     images: [{
@@ -2691,7 +2691,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "fluster-fist-red",
+    cardIdentifier: "fluster-fist-red",
     functionalText: `**Combo** - If Open the Center was the last attack this combat chain, Fluster Fist gains +1{p} for each attack that has hit this combat chain.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR086.png",
     images: [{
@@ -2731,7 +2731,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "fluster-fist-yellow",
+    cardIdentifier: "fluster-fist-yellow",
     functionalText: `**Combo** - If Open the Center was the last attack this combat chain, Fluster Fist gains +1{p} for each attack that has hit this combat chain.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR087.png",
     images: [{
@@ -2766,7 +2766,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "fluster-fist-blue",
+    cardIdentifier: "fluster-fist-blue",
     functionalText: `**Combo** - If Open the Center was the last attack this combat chain, Fluster Fist gains +1{p} for each attack that has hit this combat chain.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR088.png",
     images: [{
@@ -2806,7 +2806,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "blackout-kick-red",
+    cardIdentifier: "blackout-kick-red",
     functionalText: `**Combo** - If Rising Knee Thrust was the last attack this combat chain, Blackout Kick gains +3{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR089.png",
     images: [{
@@ -2851,7 +2851,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "blackout-kick-yellow",
+    cardIdentifier: "blackout-kick-yellow",
     functionalText: `**Combo** - If Rising Knee Thrust was the last attack this combat chain, Blackout Kick gains +3{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR090.png",
     images: [{
@@ -2891,7 +2891,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "blackout-kick-blue",
+    cardIdentifier: "blackout-kick-blue",
     functionalText: `**Combo** - If Rising Knee Thrust was the last attack this combat chain, Blackout Kick gains +3{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR091.png",
     images: [{
@@ -2931,7 +2931,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "open-the-center-red",
+    cardIdentifier: "open-the-center-red",
     functionalText: `**Combo** - If Head Jab was the last attack this combat chain, Open the Center gains +1{p}, **go again**, and **dominate**. *(The defending hero can’t defend Open the Center with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR095.png",
     images: [{
@@ -2971,7 +2971,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "open-the-center-yellow",
+    cardIdentifier: "open-the-center-yellow",
     functionalText: `**Combo** - If Head Jab was the last attack this combat chain, Open the Center gains +1{p}, **go again**, and **dominate**. *(The defending hero can’t defend Open the Center with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR096.png",
     images: [{
@@ -3006,7 +3006,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "open-the-center-blue",
+    cardIdentifier: "open-the-center-blue",
     functionalText: `**Combo** - If Head Jab was the last attack this combat chain, Open the Center gains +1{p}, **go again**, and **dominate**. *(The defending hero can’t defend Open the Center with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR097.png",
     images: [{
@@ -3041,7 +3041,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "head-jab-red",
+    cardIdentifier: "head-jab-red",
     functionalText: `**Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR098.png",
     images: [{
@@ -3086,7 +3086,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "head-jab-yellow",
+    cardIdentifier: "head-jab-yellow",
     functionalText: `**Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR099.png",
     images: [{
@@ -3126,7 +3126,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "head-jab-blue",
+    cardIdentifier: "head-jab-blue",
     functionalText: `**Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR100.png",
     images: [{
@@ -3176,7 +3176,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "leg-tap-red",
+    cardIdentifier: "leg-tap-red",
     functionalText: `**Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR101.png",
     images: [{
@@ -3221,7 +3221,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "leg-tap-yellow",
+    cardIdentifier: "leg-tap-yellow",
     functionalText: `**Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR102.png",
     images: [{
@@ -3266,7 +3266,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "leg-tap-blue",
+    cardIdentifier: "leg-tap-blue",
     functionalText: `**Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR103.png",
     images: [{
@@ -3306,7 +3306,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "rising-knee-thrust-red",
+    cardIdentifier: "rising-knee-thrust-red",
     functionalText: `**Combo** - If Leg Tap was the last attack this combat chain, Rising Knee Thrust gains +2{p} and **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR104.png",
     images: [{
@@ -3351,7 +3351,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "rising-knee-thrust-yellow",
+    cardIdentifier: "rising-knee-thrust-yellow",
     functionalText: `**Combo** - If Leg Tap was the last attack this combat chain, Rising Knee Thrust gains +2{p} and **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR105.png",
     images: [{
@@ -3396,7 +3396,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "rising-knee-thrust-blue",
+    cardIdentifier: "rising-knee-thrust-blue",
     functionalText: `**Combo** - If Leg Tap was the last attack this combat chain, Rising Knee Thrust gains +2{p} and **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR106.png",
     images: [{
@@ -3436,7 +3436,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "surging-strike-red",
+    cardIdentifier: "surging-strike-red",
     functionalText: `**Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR107.png",
     images: [{
@@ -3481,7 +3481,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "surging-strike-yellow",
+    cardIdentifier: "surging-strike-yellow",
     functionalText: `**Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR108.png",
     images: [{
@@ -3526,7 +3526,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "surging-strike-blue",
+    cardIdentifier: "surging-strike-blue",
     functionalText: `**Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR109.png",
     images: [{
@@ -3566,7 +3566,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "whelming-gustwave-red",
+    cardIdentifier: "whelming-gustwave-red",
     functionalText: `**Combo** - If Surging Strike was the last attack this combat chain, Whelming Gustwave gains +1{p}, **go again**, and “If this hits, draw a card.”`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR110.png",
     images: [{
@@ -3621,7 +3621,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "whelming-gustwave-yellow",
+    cardIdentifier: "whelming-gustwave-yellow",
     functionalText: `**Combo** - If Surging Strike was the last attack this combat chain, Whelming Gustwave gains +1{p}, **go again**, and “If this hits, draw a card.”`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR111.png",
     images: [{
@@ -3666,7 +3666,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "whelming-gustwave-blue",
+    cardIdentifier: "whelming-gustwave-blue",
     functionalText: `**Combo** - If Surging Strike was the last attack this combat chain, Whelming Gustwave gains +1{p}, **go again**, and “If this hits, draw a card.”`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR112.png",
     images: [{
@@ -3716,7 +3716,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
-    identifier: "steelblade-supremacy-red",
+    cardIdentifier: "steelblade-supremacy-red",
     functionalText: `**Dorinthea Specialization** *(You may only have Steelblade Supremacy in your deck if your hero is Dorinthea.)*  Until end of turn, target weapon gains +2{p} and “Whenever this weapon hits, draw a card.”  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR119.png",
     images: [{
@@ -3756,7 +3756,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "ironsong-determination-yellow",
+    cardIdentifier: "ironsong-determination-yellow",
     functionalText: `Your next weapon attack this gains +1{p} and **dominate** until end of turn.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR122.png",
     images: [{
@@ -3791,7 +3791,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "warriors-valor-red",
+    cardIdentifier: "warriors-valor-red",
     functionalText: `Your next weapon attack this turn gains +3{p} and “If this hits, the attack gains **go again**.”  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR129.png",
     images: [{
@@ -3836,7 +3836,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "warriors-valor-yellow",
+    cardIdentifier: "warriors-valor-yellow",
     functionalText: `Your next weapon attack this turn gains +2{p} and “If this hits, the attack gains **go again**.”  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR130.png",
     images: [{
@@ -3881,7 +3881,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "warriors-valor-blue",
+    cardIdentifier: "warriors-valor-blue",
     functionalText: `Your next weapon attack this turn gains +1{p} and “If this hits, the attack gains **go again**.”  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR131.png",
     images: [{
@@ -3926,7 +3926,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "sharpen-steel-red",
+    cardIdentifier: "sharpen-steel-red",
     functionalText: `Your next weapon attack this turn gains +3{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR141.png",
     images: [{
@@ -3971,7 +3971,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "sharpen-steel-yellow",
+    cardIdentifier: "sharpen-steel-yellow",
     functionalText: `Your next weapon attack this turn gains +2{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR142.png",
     images: [{
@@ -4006,7 +4006,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "sharpen-steel-blue",
+    cardIdentifier: "sharpen-steel-blue",
     functionalText: `Your next weapon attack this turn gains +1{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR143.png",
     images: [{
@@ -4046,7 +4046,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "driving-blade-red",
+    cardIdentifier: "driving-blade-red",
     functionalText: `Your next weapon attack this turn gains +3{p} and **go again**.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR144.png",
     images: [{
@@ -4091,7 +4091,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "driving-blade-yellow",
+    cardIdentifier: "driving-blade-yellow",
     functionalText: `Your next weapon attack this turn gains +2{p} and **go again**.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR145.png",
     images: [{
@@ -4136,7 +4136,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "driving-blade-blue",
+    cardIdentifier: "driving-blade-blue",
     functionalText: `Your next weapon attack this turn gains +1{p} and **go again**.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR146.png",
     images: [{
@@ -4181,7 +4181,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "natures-path-pilgrimage-red",
+    cardIdentifier: "natures-path-pilgrimage-red",
     functionalText: `Your next weapon attack this turn gains +3{p} and “If this hits and you have no cards in your arsenal, reveal the top card of your deck. If it’s an action card, put it face down into your arsenal.”  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR147.png",
     images: [{
@@ -4226,7 +4226,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "natures-path-pilgrimage-yellow",
+    cardIdentifier: "natures-path-pilgrimage-yellow",
     functionalText: `Your next weapon attack this turn gains +2{p} and “If this hits and you have no cards in your arsenal, reveal the top card of your deck. If it’s an action card, put it face down into your arsenal.”  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR148.png",
     images: [{
@@ -4266,7 +4266,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "natures-path-pilgrimage-blue",
+    cardIdentifier: "natures-path-pilgrimage-blue",
     functionalText: `Your next weapon attack this turn gains +1{p} and “If this hits and you have no cards in your arsenal, reveal the top card of your deck. If it’s an action card, put it face down into your arsenal.”  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR149.png",
     images: [{
@@ -4311,7 +4311,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "enlightened-strike-red",
+    cardIdentifier: "enlightened-strike-red",
     functionalText: `As an additional cost to play Enlightened Strike, put a card from your hand on the bottom of your deck.  Choose 1; - When you attack with Enlightened Strike, draw a card. - Enlightened Strike gains +2{p}. - Enlightened Strike gains **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR159.png",
     images: [{
@@ -4351,7 +4351,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "tome-of-fyendal-yellow",
+    cardIdentifier: "tome-of-fyendal-yellow",
     functionalText: `Draw 2 cards.  If Tome of Fyendal is played from arsenal, gain 1{h} for each card in your hand.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR160.png",
     images: [{
@@ -4391,7 +4391,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "last-ditch-effort-blue",
+    cardIdentifier: "last-ditch-effort-blue",
     functionalText: `When you play Last Ditch Effort, if you have no cards in your deck, it gains +4{p} and **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR161.png",
     images: [{
@@ -4431,7 +4431,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "crazy-brew-blue",
+    cardIdentifier: "crazy-brew-blue",
     functionalText: `**Action** - Destroy Crazy Brew: Roll a 6 sided die. On;  - 1 or 2 - Lose 2{h}. **Go again** - 3 or 4 - Gain 2{h}. **Go again** - 5 or 6 - Gain {r}{r}, gain 2 action points, and your next attack this turn gains +2{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR162.png",
     images: [{
@@ -4476,7 +4476,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
-    identifier: "drone-of-brutality-red",
+    cardIdentifier: "drone-of-brutality-red",
     functionalText: `If Drone of Brutality would be put into your graveyard from anywhere, instead put it on the bottom of your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR164.png",
     images: [{
@@ -4516,7 +4516,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "drone-of-brutality-yellow",
+    cardIdentifier: "drone-of-brutality-yellow",
     functionalText: `If Drone of Brutality would be put into your graveyard from anywhere, instead put it on the bottom of your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR165.png",
     images: [{
@@ -4551,7 +4551,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "drone-of-brutality-blue",
+    cardIdentifier: "drone-of-brutality-blue",
     functionalText: `If Drone of Brutality would be put into your graveyard from anywhere, instead put it on the bottom of your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR166.png",
     images: [{
@@ -4591,7 +4591,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "snatch-red",
+    cardIdentifier: "snatch-red",
     functionalText: `If Snatch hits, draw a card.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR167.png",
     images: [{
@@ -4631,7 +4631,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "snatch-yellow",
+    cardIdentifier: "snatch-yellow",
     functionalText: `If Snatch hits, draw a card.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR168.png",
     images: [{
@@ -4671,7 +4671,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "snatch-blue",
+    cardIdentifier: "snatch-blue",
     functionalText: `If Snatch hits, draw a card.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR169.png",
     images: [{
@@ -4711,7 +4711,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "energy-potion-blue",
+    cardIdentifier: "energy-potion-blue",
     functionalText: `**Instant** - Destroy Energy Potion: Gain {r}{r}`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR170.png",
     images: [{
@@ -4766,7 +4766,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
-    identifier: "potion-of-strength-blue",
+    cardIdentifier: "potion-of-strength-blue",
     functionalText: `**Action** - Destroy Potion of Strength: Your next attack this turn gains +2{p}. **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR171.png",
     images: [{
@@ -4816,7 +4816,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
-    identifier: "timesnap-potion-blue",
+    cardIdentifier: "timesnap-potion-blue",
     functionalText: `**Action** - Destroy Timesnap Potion: Gain 2 action points.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR172.png",
     images: [{
@@ -4866,7 +4866,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
-    identifier: "barraging-brawnhide-red",
+    cardIdentifier: "barraging-brawnhide-red",
     functionalText: `While Barraging Brawnhide is defended by less than 2 non-equipment cards, it has +1{p}`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR176.png",
     images: [{
@@ -4901,7 +4901,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "barraging-brawnhide-yellow",
+    cardIdentifier: "barraging-brawnhide-yellow",
     functionalText: `While Barraging Brawnhide is defended by less than 2 non-equipment cards, it has +1{p}`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR177.png",
     images: [{
@@ -4941,7 +4941,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "barraging-brawnhide-blue",
+    cardIdentifier: "barraging-brawnhide-blue",
     functionalText: `While Barraging Brawnhide is defended by less than 2 non-equipment cards, it has +1{p}`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR178.png",
     images: [{
@@ -4981,7 +4981,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "demolition-crew-red",
+    cardIdentifier: "demolition-crew-red",
     functionalText: `As an additional cost to play Demolition Crew, reveal a card in your hand with cost 2 or greater.  **Dominate** *(The defending hero can’t defend Demolition Crew with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR179.png",
     images: [{
@@ -5016,7 +5016,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "demolition-crew-yellow",
+    cardIdentifier: "demolition-crew-yellow",
     functionalText: `As an additional cost to play Demolition Crew, reveal a card in your hand with cost 2 or greater.  **Dominate** *(The defending hero can’t defend Demolition Crew with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR180.png",
     images: [{
@@ -5051,7 +5051,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "demolition-crew-blue",
+    cardIdentifier: "demolition-crew-blue",
     functionalText: `As an additional cost to play Demolition Crew, reveal a card in your hand with cost 2 or greater.  **Dominate** *(The defending hero can’t defend Demolition Crew with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR181.png",
     images: [{
@@ -5086,7 +5086,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "flock-of-the-feather-walkers-red",
+    cardIdentifier: "flock-of-the-feather-walkers-red",
     functionalText: `As an additional cost to play Flock of the Feather Walkers, reveal a card in your hand with cost 1 or less.  When you attack with Flock of the Feather Walkers, create a Quicken aura token. *(It’s an aura with “When you play an attack action card or attack with a weapon, destroy Quicken then the attack gains **go again**.”)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR182.png",
     images: [{
@@ -5131,7 +5131,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "flock-of-the-feather-walkers-yellow",
+    cardIdentifier: "flock-of-the-feather-walkers-yellow",
     functionalText: `As an additional cost to play Flock of the Feather Walkers, reveal a card in your hand with cost 1 or less.  When you attack with Flock of the Feather Walkers, create a Quicken aura token. *(It’s an aura with “When you play an attack action card or attack with a weapon, destroy Quicken then the attack gains **go again**.”)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR183.png",
     images: [{
@@ -5171,7 +5171,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "flock-of-the-feather-walkers-blue",
+    cardIdentifier: "flock-of-the-feather-walkers-blue",
     functionalText: `As an additional cost to play Flock of the Feather Walkers, reveal a card in your hand with cost 1 or less.  When you attack with Flock of the Feather Walkers, create a Quicken aura token. *(It’s an aura with “When you play an attack action card or attack with a weapon, destroy Quicken then the attack gains **go again**.”)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR184.png",
     images: [{
@@ -5221,7 +5221,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "nimble-strike-red",
+    cardIdentifier: "nimble-strike-red",
     functionalText: `As an additional cost to play Nimble Strike, you may banish a card named Nimblism from your graveyard. If you do, Nimble Strike gain +1{p} and **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR185.png",
     images: [{
@@ -5256,7 +5256,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "nimble-strike-yellow",
+    cardIdentifier: "nimble-strike-yellow",
     functionalText: `As an additional cost to play Nimble Strike, you may banish a card named Nimblism from your graveyard. If you do, Nimble Strike gain +1{p} and **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR186.png",
     images: [{
@@ -5291,7 +5291,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "nimble-strike-blue",
+    cardIdentifier: "nimble-strike-blue",
     functionalText: `As an additional cost to play Nimble Strike, you may banish a card named Nimblism from your graveyard. If you do, Nimble Strike gain +1{p} and **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR187.png",
     images: [{
@@ -5326,7 +5326,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "raging-onslaught-red",
+    cardIdentifier: "raging-onslaught-red",
     functionalText: `null`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR188.png",
     images: [{
@@ -5361,7 +5361,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "raging-onslaught-yellow",
+    cardIdentifier: "raging-onslaught-yellow",
     functionalText: `null`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR189.png",
     images: [{
@@ -5406,7 +5406,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "raging-onslaught-blue",
+    cardIdentifier: "raging-onslaught-blue",
     functionalText: `null`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR190.png",
     images: [{
@@ -5446,7 +5446,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "scar-for-a-scar-red",
+    cardIdentifier: "scar-for-a-scar-red",
     functionalText: `When you play Scar for a Scar, if you have less {h} than an opposing hero, it gains **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR191.png",
     images: [{
@@ -5506,7 +5506,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "scar-for-a-scar-yellow",
+    cardIdentifier: "scar-for-a-scar-yellow",
     functionalText: `When you play Scar for a Scar, if you have less {h} than an opposing hero, it gains **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR192.png",
     images: [{
@@ -5551,7 +5551,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "scar-for-a-scar-blue",
+    cardIdentifier: "scar-for-a-scar-blue",
     functionalText: `When you play Scar for a Scar, if you have less {h} than an opposing hero, it gains **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR193.png",
     images: [{
@@ -5596,7 +5596,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "scour-the-battlescape-red",
+    cardIdentifier: "scour-the-battlescape-red",
     functionalText: `You may put a card from your hand on the bottom of your deck. If you do, draw a card.  If Scour the Battlescape is played from arsenal, it gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR194.png",
     images: [{
@@ -5631,7 +5631,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "scour-the-battlescape-yellow",
+    cardIdentifier: "scour-the-battlescape-yellow",
     functionalText: `You may put a card from your hand on the bottom of your deck. If you do, draw a card.  If Scour the Battlescape is played from arsenal, it gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR195.png",
     images: [{
@@ -5666,7 +5666,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "scour-the-battlescape-blue",
+    cardIdentifier: "scour-the-battlescape-blue",
     functionalText: `You may put a card from your hand on the bottom of your deck. If you do, draw a card.  If Scour the Battlescape is played from arsenal, it gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR196.png",
     images: [{
@@ -5716,7 +5716,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "regurgitating-slog-red",
+    cardIdentifier: "regurgitating-slog-red",
     functionalText: `As an additional cost to play Regurgitating Slog, you may banish a card named Sloggism from your graveyard. If you do, Regurgitating Slog gains **dominate.** *(The defending hero can’t defend Regurgitating Slog with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR197.png",
     images: [{
@@ -5751,7 +5751,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "regurgitating-slog-yellow",
+    cardIdentifier: "regurgitating-slog-yellow",
     functionalText: `As an additional cost to play Regurgitating Slog, you may banish a card named Sloggism from your graveyard. If you do, Regurgitating Slog gains **dominate.** *(The defending hero can’t defend Regurgitating Slog with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR198.png",
     images: [{
@@ -5786,7 +5786,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "regurgitating-slog-blue",
+    cardIdentifier: "regurgitating-slog-blue",
     functionalText: `As an additional cost to play Regurgitating Slog, you may banish a card named Sloggism from your graveyard. If you do, Regurgitating Slog gains **dominate.** *(The defending hero can’t defend Regurgitating Slog with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR199.png",
     images: [{
@@ -5821,7 +5821,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "wounded-bull-red",
+    cardIdentifier: "wounded-bull-red",
     functionalText: `When you play Wounded Bull, if you have less {h} than an opposing hero, it gains +1{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR200.png",
     images: [{
@@ -5856,7 +5856,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "wounded-bull-yellow",
+    cardIdentifier: "wounded-bull-yellow",
     functionalText: `When you play Wounded Bull, if you have less {h} than an opposing hero, it gains +1{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR201.png",
     images: [{
@@ -5901,7 +5901,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "wounded-bull-blue",
+    cardIdentifier: "wounded-bull-blue",
     functionalText: `When you play Wounded Bull, if you have less {h} than an opposing hero, it gains +1{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR202.png",
     images: [{
@@ -5941,7 +5941,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "wounding-blow-red",
+    cardIdentifier: "wounding-blow-red",
     functionalText: `null`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR203.png",
     images: [{
@@ -5981,7 +5981,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "wounding-blow-yellow",
+    cardIdentifier: "wounding-blow-yellow",
     functionalText: `null`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR204.png",
     images: [{
@@ -6016,7 +6016,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "wounding-blow-blue",
+    cardIdentifier: "wounding-blow-blue",
     functionalText: `null`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR205.png",
     images: [{
@@ -6056,7 +6056,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "nimblism-red",
+    cardIdentifier: "nimblism-red",
     functionalText: `The next attack action card with cost 1 or less you play this turn gains +3{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR218.png",
     images: [{
@@ -6096,7 +6096,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "nimblism-yellow",
+    cardIdentifier: "nimblism-yellow",
     functionalText: `The next attack action card with cost 1 or less you play this turn gains +2{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR219.png",
     images: [{
@@ -6136,7 +6136,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "nimblism-blue",
+    cardIdentifier: "nimblism-blue",
     functionalText: `The next attack action card with cost 1 or less you play this turn gains +1{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR220.png",
     images: [{
@@ -6176,7 +6176,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "sloggism-red",
+    cardIdentifier: "sloggism-red",
     functionalText: `The next attack action card with cost 2 or greater you play this turn gains +6{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR221.png",
     images: [{
@@ -6216,7 +6216,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "sloggism-yellow",
+    cardIdentifier: "sloggism-yellow",
     functionalText: `The next attack action card with cost 2 or greater you play this turn gains +5{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR222.png",
     images: [{
@@ -6256,7 +6256,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "sloggism-blue",
+    cardIdentifier: "sloggism-blue",
     functionalText: `The next attack action card with cost 2 or greater you play this turn gains +4{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR223.png",
     images: [{
@@ -6301,7 +6301,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
-    identifier: "high-octane-red",
+    cardIdentifier: "high-octane-red",
     functionalText: `Whenever you **boost** a card this turn, gain 1 action point.  Draw a card.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC006.png",
     images: [{
@@ -6341,7 +6341,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
-    identifier: "teklo-core-blue",
+    cardIdentifier: "teklo-core-blue",
     functionalText: `**Dash Specialization** *(You may only have Teklo Core in your deck if your hero is Dash.)*  Teklo Core enters the arena with 2 steam counters on it. When Teklo Core has no steam counters on it, destroy it.  At the beginning of your action phase, remove a steam counter from Teklo Core and gain {r}{r}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC007.png",
     images: [{
@@ -6386,7 +6386,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
-    identifier: "maximum-velocity-red",
+    cardIdentifier: "maximum-velocity-red",
     functionalText: `Play Maximum Velocity only if you have **boosted** 3 or more times this turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC008.png",
     images: [{
@@ -6421,7 +6421,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "spark-of-genius-yellow",
+    cardIdentifier: "spark-of-genius-yellow",
     functionalText: `**Dash Specialization** *(You may only have Spark of Genius in your deck if your hero is Dash.)*  Search your deck for a Mechanologist item card with cost X, put it into the arena, then shuffle your deck.  If you have **boosted** this turn, draw a card.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC009.png",
     images: [{
@@ -6466,7 +6466,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
-    identifier: "induction-chamber-red",
+    cardIdentifier: "induction-chamber-red",
     functionalText: `**Action** - {r}: If there are no steam counters on Induction Chamber, put a steam counter on it. **Go again**  **Once per Turn Attack Reaction** - Remove a steam counter from Induction Chamber: Target Mechanologist pistol attack gains **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC010.png",
     images: [{
@@ -6506,7 +6506,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
-    identifier: "pedal-to-the-medal-red",
+    cardIdentifier: "pedal-to-the-medal-red",
     functionalText: `If Pedal to the Metal hits, your next attack this turn gains **dominate**. *(The defending hero can't defend the attack with more than 1 card from their hand.)*  **Boost** *(As an additional cost to play Pedal to the Metal, you may banish the top card of your deck. If it's a Mechanologist card, Pedal to the Metal gains **go again**.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC011.png",
     images: [{
@@ -6551,7 +6551,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "pedal-to-the-medal-yellow",
+    cardIdentifier: "pedal-to-the-medal-yellow",
     functionalText: `If Pedal to the Metal hits, your next attack this turn gains **dominate**. *(The defending hero can't defend the attack with more than 1 card from their hand.)*  **Boost** *(As an additional cost to play Pedal to the Metal, you may banish the top card of your deck. If it's a Mechanologist card, Pedal to the Metal gains **go again**.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC012.png",
     images: [{
@@ -6596,7 +6596,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "pedal-to-the-medal-blue",
+    cardIdentifier: "pedal-to-the-medal-blue",
     functionalText: `If Pedal to the Metal hits, your next attack this turn gains **dominate**. *(The defending hero can't defend the attack with more than 1 card from their hand.)*  **Boost** *(As an additional cost to play Pedal to the Metal, you may banish the top card of your deck. If it's a Mechanologist card, Pedal to the Metal gains **go again**.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC013.png",
     images: [{
@@ -6641,7 +6641,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "pour-the-mold-red",
+    cardIdentifier: "pour-the-mold-red",
     functionalText: `Put a Mechanologist item with cost 2 or less from your hand into the arena.  If you have **boosted** this turn, put a steam counter on it.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC014.png",
     images: [{
@@ -6676,7 +6676,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
-    identifier: "pour-the-mold-yellow",
+    cardIdentifier: "pour-the-mold-yellow",
     functionalText: `Put a Mechanologist item with cost 1 or less from your hand into the arena.  If you have **boosted** this turn, put a steam counter on it.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC015.png",
     images: [{
@@ -6711,7 +6711,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
-    identifier: "pour-the-mold-blue",
+    cardIdentifier: "pour-the-mold-blue",
     functionalText: `Put a Mechanologist item with cost 0 or less from your hand into the arena.  If you have **boosted** this turn, put a steam counter on it.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC016.png",
     images: [{
@@ -6746,7 +6746,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
-    identifier: "aether-sink-yellow",
+    cardIdentifier: "aether-sink-yellow",
     functionalText: `Aether Sink enters the arena with a steam counter on it.  **Action** - {r}: If there are no steam counters on Aether Sink, put a steam counter on it. **Go again**  **Instant** - Remove a steam counter from Aether Sink: Aether Sink gains **Arcane Barrier 2** until end of turn. *(If your hero would be dealt arcane damage, you may pay {r}{r} instead. If you do, prevent 2 arcane damage that source would deal.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC017.png",
     images: [{
@@ -6786,7 +6786,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
-    identifier: "cognition-nodes-blue",
+    cardIdentifier: "cognition-nodes-blue",
     functionalText: `**Action** - {r}: If there are no steam counters on Cognition Nodes, put a steam counter on it. **Go again**  **Once per Turn Attack Reaction** - Remove a steam counter from Cognition Nodes: Target attack action card gains “If this hits, put it on the bottom of your deck.”`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC018.png",
     images: [{
@@ -6826,7 +6826,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
-    identifier: "convection-amplifier-red",
+    cardIdentifier: "convection-amplifier-red",
     functionalText: `Convection Amplifier enters the arena with 2 steam counters on it. When Convection Amplifier has no steam counters on it, destroy it.  **Action** - Remove a steam counter from Convection Amplifier: The next attack action card you play this turn gains **dominate**. **Go again** *(The defending hero can't defend the attack with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC019.png",
     images: [{
@@ -6871,7 +6871,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
-    identifier: "over-loop-red",
+    cardIdentifier: "over-loop-red",
     functionalText: `If Over Loop hits, put it on the bottom of your deck.  **Boost** *(As an additional cost to play Over Loop, you may banish the top card of your deck. If it's a Mechanologist card, Over Loop gains **go again**.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC020.png",
     images: [{
@@ -6926,7 +6926,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "over-loop-yellow",
+    cardIdentifier: "over-loop-yellow",
     functionalText: `If Over Loop hits, put it on the bottom of your deck.  **Boost** *(As an additional cost to play Over Loop, you may banish the top card of your deck. If it's a Mechanologist card, Over Loop gains **go again**.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC021.png",
     images: [{
@@ -6976,7 +6976,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "over-loop-blue",
+    cardIdentifier: "over-loop-blue",
     functionalText: `If Over Loop hits, put it on the bottom of your deck.  **Boost** *(As an additional cost to play Over Loop, you may banish the top card of your deck. If it's a Mechanologist card, Over Loop gains **go again**.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC022.png",
     images: [{
@@ -7026,7 +7026,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "throttle-red",
+    cardIdentifier: "throttle-red",
     functionalText: `**Boost** *(As an additional cost to play Throttle, you may banish the top card of your deck. If it's a Mechanologist card, Throttle gains **go again**.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC023.png",
     images: [{
@@ -7071,7 +7071,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "throttle-yellow",
+    cardIdentifier: "throttle-yellow",
     functionalText: `**Boost** *(As an additional cost to play Throttle, you may banish the top card of your deck. If it's a Mechanologist card, Throttle gains **go again**.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC024.png",
     images: [{
@@ -7116,7 +7116,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "throttle-blue",
+    cardIdentifier: "throttle-blue",
     functionalText: `**Boost** *(As an additional cost to play Throttle, you may banish the top card of your deck. If it's a Mechanologist card, Throttle gains **go again**.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC025.png",
     images: [{
@@ -7161,7 +7161,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "zero-to-sixty-red",
+    cardIdentifier: "zero-to-sixty-red",
     functionalText: `**Boost** *(As an additional cost to play Zero to Sixty, you may banish the top card of your deck. If it's a Mechanologist card, Zero to Sixty gains **go again**.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC026.png",
     images: [{
@@ -7206,7 +7206,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "zero-to-sixty-yellow",
+    cardIdentifier: "zero-to-sixty-yellow",
     functionalText: `**Boost** *(As an additional cost to play Zero to Sixty, you may banish the top card of your deck. If it's a Mechanologist card, Zero to Sixty gains **go again**.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC027.png",
     images: [{
@@ -7251,7 +7251,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "zero-to-sixty-blue",
+    cardIdentifier: "zero-to-sixty-blue",
     functionalText: `**Boost** *(As an additional cost to play Zero to Sixty, you may banish the top card of your deck. If it's a Mechanologist card, Zero to Sixty gains **go again**.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC028.png",
     images: [{
@@ -7296,7 +7296,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "zipper-hit-red",
+    cardIdentifier: "zipper-hit-red",
     functionalText: `**Boost** *(As an additional cost to play Zipper Hit, you may banish the top card of your deck. If it's a Mechanologist card, Zipper Hit gains **go again**.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC029.png",
     images: [{
@@ -7341,7 +7341,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "zipper-hit-yellow",
+    cardIdentifier: "zipper-hit-yellow",
     functionalText: `**Boost** *(As an additional cost to play Zipper Hit, you may banish the top card of your deck. If it's a Mechanologist card, Zipper Hit gains **go again**.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC030.png",
     images: [{
@@ -7386,7 +7386,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "zipper-hit-blue",
+    cardIdentifier: "zipper-hit-blue",
     functionalText: `**Boost** *(As an additional cost to play Zipper Hit, you may banish the top card of your deck. If it's a Mechanologist card, Zipper Hit gains **go again**.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC031.png",
     images: [{
@@ -7431,7 +7431,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "locked-and-loaded-red",
+    cardIdentifier: "locked-and-loaded-red",
     functionalText: `The next Mechanologist attack action card you play this turn gains +3{p}.  If you have **boosted** this turn, **opt 1**. *(Look at the top card of your deck. You may put it on the bottom.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC032.png",
     images: [{
@@ -7471,7 +7471,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
-    identifier: "locked-and-loaded-yellow",
+    cardIdentifier: "locked-and-loaded-yellow",
     functionalText: `The next Mechanologist attack action card you play this turn gains +2{p}.  If you have **boosted** this turn, **opt 1**. *(Look at the top card of your deck. You may put it on the bottom.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC033.png",
     images: [{
@@ -7511,7 +7511,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
-    identifier: "locked-and-loaded-blue",
+    cardIdentifier: "locked-and-loaded-blue",
     functionalText: `The next Mechanologist attack action card you play this turn gains +1{p}.  If you have **boosted** this turn, **opt 1**. *(Look at the top card of your deck. You may put it on the bottom.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC034.png",
     images: [{
@@ -7551,7 +7551,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
-    identifier: "dissipation-shield-yellow",
+    cardIdentifier: "dissipation-shield-yellow",
     functionalText: `Dissipation Shield enters the arena with 4 steam counters on it.  At the beginning of your action phase, destroy Dissipation Shield unless you remove a steam counter from it.  **Instant** - Destroy Dissipation Shield: The next time your hero would be dealt damage this turn, prevent X damage, where X is the number of steam counters on Dissipation Shield.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC035.png",
     images: [{
@@ -7591,7 +7591,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
-    identifier: "hyper-driver-red",
+    cardIdentifier: "hyper-driver-red",
     functionalText: `Hyper Driver enters the arena with 3 steam counters on it. When Hyper Driver has no steam counters on it, destroy it.  **Once per Turn Effect** - When you **boost** a card, remove a steam counter from Hyper Driver and gain {r}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC036.png",
     images: [{
@@ -7631,7 +7631,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
-    identifier: "optekal-monocle-blue",
+    cardIdentifier: "optekal-monocle-blue",
     functionalText: `Optekal Monocle enters the arena with 5 steam counters on it. When Optekal Monocle has no steam counters on it, destroy it.  **Action** - Remove a steam counter from Optekal Monocle: **Opt 1**. **Go again** *(Look at the top card of your deck. You may put it on the bottom.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC037.png",
     images: [{
@@ -7676,7 +7676,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Ranger,
-    identifier: "red-in-the-ledger-red",
+    cardIdentifier: "red-in-the-ledger-red",
     functionalText: `**Azalea Specialization** *(You may only have Red in the Ledger in your deck if your hero is Azalea.)*  *(Arrows can only be played from arsenal and only if you control a bow.)*  If Red in the Ledger hits a hero, they can't play or activate more than 1 action during their next turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC043.png",
     images: [{
@@ -7721,7 +7721,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "three-of-a-kind-red",
+    cardIdentifier: "three-of-a-kind-red",
     functionalText: `Draw 3 cards. Until end of turn, you may only play cards from arsenal.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC044.png",
     images: [{
@@ -7761,7 +7761,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
-    identifier: "endless-arrow-red",
+    cardIdentifier: "endless-arrow-red",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  If Endless Arrow hits, put it into your hand.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC045.png",
     images: [{
@@ -7801,7 +7801,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "nock-the-deathwhistle-blue",
+    cardIdentifier: "nock-the-deathwhistle-blue",
     functionalText: `**Azalea Specialization** *(You may only have Nock the Deathwhistle in your deck if your hero is Azalea.)*  Search your deck for an arrow card, reveal it, then shuffle your deck and put it on top of your deck.  **Reload** *(If you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC046.png",
     images: [{
@@ -7846,7 +7846,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
-    identifier: "rapid-fire-yellow",
+    cardIdentifier: "rapid-fire-yellow",
     functionalText: `Until end of turn, arrows you control gain **go again.**  **Reload** *(If you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC047.png",
     images: [{
@@ -7881,7 +7881,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
-    identifier: "silver-the-tip-red",
+    cardIdentifier: "silver-the-tip-red",
     functionalText: `If you have no cards in your arsenal, look at the top 4 cards of your deck. You may put an arrow card from among them face up into your arsenal, then put the rest on the bottom of your deck in any order.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC051.png",
     images: [{
@@ -7916,7 +7916,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
-    identifier: "silver-the-tip-yellow",
+    cardIdentifier: "silver-the-tip-yellow",
     functionalText: `If you have no cards in your arsenal, look at the top 3 cards of your deck. You may put an arrow card from among them face up into your arsenal, then put the rest on the bottom of your deck in any order.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC052.png",
     images: [{
@@ -7951,7 +7951,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
-    identifier: "silver-the-tip-blue",
+    cardIdentifier: "silver-the-tip-blue",
     functionalText: `If you have no cards in your arsenal, look at the top 2 cards of your deck. You may put an arrow card from among them face up into your arsenal, then put the rest on the bottom of your deck in any order.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC053.png",
     images: [{
@@ -7986,7 +7986,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
-    identifier: "take-aim-red",
+    cardIdentifier: "take-aim-red",
     functionalText: `The next Ranger attack action card you play this turn, gains +3{p}.  **Reload** *(If you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC054.png",
     images: [{
@@ -8031,7 +8031,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
-    identifier: "take-aim-yellow",
+    cardIdentifier: "take-aim-yellow",
     functionalText: `The next Ranger attack action card you play this turn, gains +2{p}.  **Reload** *(If you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC055.png",
     images: [{
@@ -8071,7 +8071,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
-    identifier: "take-aim-blue",
+    cardIdentifier: "take-aim-blue",
     functionalText: `The next Ranger attack action card you play this turn, gains +1{p}.  **Reload** *(If you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC056.png",
     images: [{
@@ -8111,7 +8111,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
-    identifier: "head-shot-red",
+    cardIdentifier: "head-shot-red",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  If Head Shot is put into your arsenal face up, it gains +2{p} until end of turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC057.png",
     images: [{
@@ -8151,7 +8151,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "head-shot-yellow",
+    cardIdentifier: "head-shot-yellow",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  If Head Shot is put into your arsenal face up, it gains +2{p} until end of turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC058.png",
     images: [{
@@ -8191,7 +8191,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "head-shot-blue",
+    cardIdentifier: "head-shot-blue",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  If Head Shot is put into your arsenal face up, it gains +2{p} until end of turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC059.png",
     images: [{
@@ -8231,7 +8231,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "hamstring-shot-red",
+    cardIdentifier: "hamstring-shot-red",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  If Hamstring Shot hits a hero, their first attack during their next turn costs an additional {r}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC060.png",
     images: [{
@@ -8266,7 +8266,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "hamstring-shot-yellow",
+    cardIdentifier: "hamstring-shot-yellow",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  If Hamstring Shot hits a hero, their first attack during their next turn costs an additional {r}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC061.png",
     images: [{
@@ -8301,7 +8301,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "hamstring-shot-blue",
+    cardIdentifier: "hamstring-shot-blue",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  If Hamstring Shot hits a hero, their first attack during their next turn costs an additional {r}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC062.png",
     images: [{
@@ -8336,7 +8336,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "ridge-rider-shot-red",
+    cardIdentifier: "ridge-rider-shot-red",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  If Ridge Rider Shot is put into your arsenal face up, **opt 1**. *(Look at the top card of your deck. You may put it on the bottom.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC063.png",
     images: [{
@@ -8381,7 +8381,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "ridge-rider-shot-yellow",
+    cardIdentifier: "ridge-rider-shot-yellow",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  If Ridge Rider Shot is put into your arsenal face up, **opt 1**. *(Look at the top card of your deck. You may put it on the bottom.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC064.png",
     images: [{
@@ -8426,7 +8426,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "ridge-rider-shot-blue",
+    cardIdentifier: "ridge-rider-shot-blue",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  If Ridge Rider Shot is put into your arsenal face up, **opt 1**. *(Look at the top card of your deck. You may put it on the bottom.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC065.png",
     images: [{
@@ -8471,7 +8471,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "salvage-shot-red",
+    cardIdentifier: "salvage-shot-red",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  If Salvage Shot hits, put it on the bottom of your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC066.png",
     images: [{
@@ -8511,7 +8511,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "salvage-shot-yellow",
+    cardIdentifier: "salvage-shot-yellow",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  If Salvage Shot hits, put it on the bottom of your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC067.png",
     images: [{
@@ -8551,7 +8551,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "salvage-shot-blue",
+    cardIdentifier: "salvage-shot-blue",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  If Salvage Shot hits, put it on the bottom of your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC068.png",
     images: [{
@@ -8591,7 +8591,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "searing-shot-red",
+    cardIdentifier: "searing-shot-red",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  If Searing Shot hits a hero, they lose 1{h}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC069.png",
     images: [{
@@ -8631,7 +8631,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "searing-shot-yellow",
+    cardIdentifier: "searing-shot-yellow",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  If Searing Shot hits a hero, they lose 1{h}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC070.png",
     images: [{
@@ -8671,7 +8671,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "searing-shot-blue",
+    cardIdentifier: "searing-shot-blue",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  If Searing Shot hits a hero, they lose 1{h}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC071.png",
     images: [{
@@ -8711,7 +8711,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "sic-‘em-shot-red",
+    cardIdentifier: "sic-‘em-shot-red",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC072.png",
     images: [{
@@ -8761,7 +8761,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "sic-‘em-shot-yellow",
+    cardIdentifier: "sic-‘em-shot-yellow",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC073.png",
     images: [{
@@ -8806,7 +8806,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "sic-‘em-shot-blue",
+    cardIdentifier: "sic-‘em-shot-blue",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC074.png",
     images: [{
@@ -8851,7 +8851,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "arknight-ascendancy-red",
+    cardIdentifier: "arknight-ascendancy-red",
     functionalText: `**Viserai Specialization** *(You may only have Arknight Ascendency in your deck if your hero is Viserai.)*  Arknight Ascendency costs {r} less to play for each Runechant you control.  If Arknight Ascendency hits, create X Runechant tokens, where X is the damage dealt by Arknight Ascendency.  **Dominate**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC080.png",
     images: [{
@@ -8896,7 +8896,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "mordred-tide-red",
+    cardIdentifier: "mordred-tide-red",
     functionalText: `Until end of turn, if you would create a Runechant token, instead create that many plus 1.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC081.png",
     images: [{
@@ -8936,7 +8936,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "ninth-blade-of-the-blood-oath-yellow",
+    cardIdentifier: "ninth-blade-of-the-blood-oath-yellow",
     functionalText: `Ninth Blade of the Blood Oath costs {r} less to play for each Runechant you control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC082.png",
     images: [{
@@ -8971,7 +8971,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "become-the-arknight-blue",
+    cardIdentifier: "become-the-arknight-blue",
     functionalText: `**Viserai Specialization** *(You may only have Become the Arknight in your deck if your hero is Viserai.)*  You may discard an action card. If you discard an attack action card this way, search your deck for a Runeblade ‘non-attack’ action card, reveal it, and put it into your hand. If you discard a ‘non-attack’ action card this way, search your deck for a Runeblade attack action card, reveal it, and put it into your hand. Shuffle your deck.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC083.png",
     images: [{
@@ -9016,7 +9016,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "tome-of-the-arknight-blue",
+    cardIdentifier: "tome-of-the-arknight-blue",
     functionalText: `Reveal the top 2 cards of your deck. If you reveal an attack action card and a 'non-attack' action card this way, put them into your hand.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC084.png",
     images: [{
@@ -9051,7 +9051,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "spellblade-assault-red",
+    cardIdentifier: "spellblade-assault-red",
     functionalText: `When you attack with Spellblade Assault, create 2 Runechant tokens. *(They're auras with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC085.png",
     images: [{
@@ -9096,7 +9096,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "spellblade-assault-yellow",
+    cardIdentifier: "spellblade-assault-yellow",
     functionalText: `When you attack with Spellblade Assault, create 2 Runechant tokens. *(They're auras with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC086.png",
     images: [{
@@ -9141,7 +9141,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "spellblade-assault-blue",
+    cardIdentifier: "spellblade-assault-blue",
     functionalText: `When you attack with Spellblade Assault, create 2 Runechant tokens. *(They're auras with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC087.png",
     images: [{
@@ -9186,7 +9186,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "oath-of-the-arknight-red",
+    cardIdentifier: "oath-of-the-arknight-red",
     functionalText: `Your next Runeblade attack this turn gains +3{p}.  Create a Runechant token. *(It's an aura with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC091.png",
     images: [{
@@ -9231,7 +9231,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "oath-of-the-arknight-yellow",
+    cardIdentifier: "oath-of-the-arknight-yellow",
     functionalText: `Your next Runeblade attack this turn gains +2{p}.  Create a Runechant token. *(It's an aura with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC092.png",
     images: [{
@@ -9276,7 +9276,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "oath-of-the-arknight-blue",
+    cardIdentifier: "oath-of-the-arknight-blue",
     functionalText: `Your next Runeblade attack this turn gains +1{p}.  Create a Runechant token. *(It's an aura with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC093.png",
     images: [{
@@ -9321,7 +9321,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "amplify-the-arknight-red",
+    cardIdentifier: "amplify-the-arknight-red",
     functionalText: `Amplify the Arknight costs {r} less to play for each Runechant you control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC094.png",
     images: [{
@@ -9361,7 +9361,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "amplify-the-arknight-yellow",
+    cardIdentifier: "amplify-the-arknight-yellow",
     functionalText: `Amplify the Arknight costs {r} less to play for each Runechant you control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC095.png",
     images: [{
@@ -9401,7 +9401,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "amplify-the-arknight-blue",
+    cardIdentifier: "amplify-the-arknight-blue",
     functionalText: `Amplify the Arknight costs {r} less to play for each Runechant you control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC096.png",
     images: [{
@@ -9441,7 +9441,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "drawn-to-the-dark-dimension-red",
+    cardIdentifier: "drawn-to-the-dark-dimension-red",
     functionalText: `Drawn to the Dark Dimension costs {r} less to play for each Runechant you control.  Draw a card.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC097.png",
     images: [{
@@ -9476,7 +9476,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "drawn-to-the-dark-dimension-yellow",
+    cardIdentifier: "drawn-to-the-dark-dimension-yellow",
     functionalText: `Drawn to the Dark Dimension costs {r} less to play for each Runechant you control.  Draw a card.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC098.png",
     images: [{
@@ -9511,7 +9511,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "drawn-to-the-dark-dimension-blue",
+    cardIdentifier: "drawn-to-the-dark-dimension-blue",
     functionalText: `Drawn to the Dark Dimension costs {r} less to play for each Runechant you control.  Draw a card.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC099.png",
     images: [{
@@ -9546,7 +9546,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "rune-flash-red",
+    cardIdentifier: "rune-flash-red",
     functionalText: `Rune Flash costs {r} less to play for each Runechant you control.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC100.png",
     images: [{
@@ -9586,7 +9586,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "rune-flash-yellow",
+    cardIdentifier: "rune-flash-yellow",
     functionalText: `Rune Flash costs {r} less to play for each Runechant you control.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC101.png",
     images: [{
@@ -9626,7 +9626,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "rune-flash-blue",
+    cardIdentifier: "rune-flash-blue",
     functionalText: `Rune Flash costs {r} less to play for each Runechant you control.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC102.png",
     images: [{
@@ -9666,7 +9666,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "spellblade-strike-red",
+    cardIdentifier: "spellblade-strike-red",
     functionalText: `Create a Runechant token. *(It's an aura with “When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.”)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC103.png",
     images: [{
@@ -9706,7 +9706,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "spellblade-strike-yellow",
+    cardIdentifier: "spellblade-strike-yellow",
     functionalText: `Create a Runechant token. *(It's an aura with “When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.”)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC104.png",
     images: [{
@@ -9746,7 +9746,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "spellblade-strike-blue",
+    cardIdentifier: "spellblade-strike-blue",
     functionalText: `Create a Runechant token. *(It's an aura with “When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.”)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC105.png",
     images: [{
@@ -9786,7 +9786,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "bloodspill-invocation-red",
+    cardIdentifier: "bloodspill-invocation-red",
     functionalText: `*(Aura's stay in the arena until they are destroyed.)*  **Go again**  When an attack action card you control hits, destroy Bloodspill Invocation then create 3 Runechant tokens. *(They're auras with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*  When your hero is dealt damage, destroy Bloodspill Invocation.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC106.png",
     images: [{
@@ -9831,7 +9831,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Runeblade,
-    identifier: "bloodspill-invocation-yellow",
+    cardIdentifier: "bloodspill-invocation-yellow",
     functionalText: `*(Aura's stay in the arena until they are destroyed.)*  **Go again**  When an attack action card you control hits, destroy Bloodspill Invocation then create 3 Runechant tokens. *(They're auras with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*  When your hero is dealt damage, destroy Bloodspill Invocation.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC107.png",
     images: [{
@@ -9876,7 +9876,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Runeblade,
-    identifier: "bloodspill-invocation-blue",
+    cardIdentifier: "bloodspill-invocation-blue",
     functionalText: `*(Aura's stay in the arena until they are destroyed.)*  **Go again**  When an attack action card you control hits, destroy Bloodspill Invocation then create 3 Runechant tokens. *(They're auras with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*  When your hero is dealt damage, destroy Bloodspill Invocation.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC108.png",
     images: [{
@@ -9921,7 +9921,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Runeblade,
-    identifier: "read-the-runes-red",
+    cardIdentifier: "read-the-runes-red",
     functionalText: `Create 3 Runechant tokens. *(They're auras with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC109.png",
     images: [{
@@ -9966,7 +9966,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "read-the-runes-yellow",
+    cardIdentifier: "read-the-runes-yellow",
     functionalText: `Create 2 Runechant tokens. *(They're auras with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC110.png",
     images: [{
@@ -10011,7 +10011,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "read-the-runes-blue",
+    cardIdentifier: "read-the-runes-blue",
     functionalText: `Create a Runechant token. *(It's an aura with “When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.”)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC111.png",
     images: [{
@@ -10056,7 +10056,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "blazing-aether-red",
+    cardIdentifier: "blazing-aether-red",
     functionalText: `**Kano Specialization** *(You may only have Blazing Aether in your deck if your hero is Kano.)*  Deal X arcane damage to target hero, where X is the amount of arcane damage you have dealt to that hero this turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC118.png",
     images: [{
@@ -10101,7 +10101,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "sonic-boom-yellow",
+    cardIdentifier: "sonic-boom-yellow",
     functionalText: `Deal 3 arcane damage to target opposing hero.  If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 'non-attack' action card, you may banish it. If you do, you may play it this turn as though it were an instant and it costs X resource points less to play, where X is the damage dealt by Sonic Boom.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC119.png",
     images: [{
@@ -10141,7 +10141,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "forked-lightning-red",
+    cardIdentifier: "forked-lightning-red",
     functionalText: `Deal 2 arcane damage to target hero.  Deal 2 arcane damage to target hero.  *(Effects that modify damage modify both damage effects of Forked Lightning. Forked Lightning is considered a single source of damage.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC120.png",
     images: [{
@@ -10186,7 +10186,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "lesson-in-lava-yellow",
+    cardIdentifier: "lesson-in-lava-yellow",
     functionalText: `**Kano Specialization** *(You may only have Lesson in Lava in your deck if your hero is Kano.)*  Deal 3 arcane damage to target opposing hero.  If Lesson in Lava deals damage, you may search your deck for a Wizard card with {r} cost equal to or less than the damage dealt by Lesson in Lava, reveal it, then shuffle your deck and put it on top of your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC121.png",
     images: [{
@@ -10231,7 +10231,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "tome-of-aetherwind-red",
+    cardIdentifier: "tome-of-aetherwind-red",
     functionalText: `Choose 2. You may choose the same mode more than once;  - The next card you play this turn with an effect that deals arcane damage, instead deals that much arcane damage plus 1. - Draw a card.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC122.png",
     images: [{
@@ -10271,7 +10271,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "aether-spindle-red",
+    cardIdentifier: "aether-spindle-red",
     functionalText: `Deal 4 arcane damage to target opposing hero.  **Opt X**, where X is the damage dealt by Aether Spindle. *(Look at the top X cards of your deck. You may put them on the top and/or bottom in any order.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC126.png",
     images: [{
@@ -10316,7 +10316,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "aether-spindle-yellow",
+    cardIdentifier: "aether-spindle-yellow",
     functionalText: `Deal 3 arcane damage to target opposing hero.  **Opt X**, where X is the damage dealt by Aether Spindle. *(Look at the top X cards of your deck. You may put them on the top and/or bottom in any order.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC127.png",
     images: [{
@@ -10361,7 +10361,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "aether-spindle-blue",
+    cardIdentifier: "aether-spindle-blue",
     functionalText: `Deal 2 arcane damage to target opposing hero.  **Opt X**, where X is the damage dealt by Aether Spindle. *(Look at the top X cards of your deck. You may put them on the top and/or bottom in any order.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC128.png",
     images: [{
@@ -10406,7 +10406,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "stir-the-aetherwinds-red",
+    cardIdentifier: "stir-the-aetherwinds-red",
     functionalText: `You may play your next Wizard 'non-attack' action card this turn as though it were an instant and if it has an effect that deals arcane damage, instead that effect deals that much arcane damage plus 3.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC129.png",
     images: [{
@@ -10446,7 +10446,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "stir-the-aetherwinds-yellow",
+    cardIdentifier: "stir-the-aetherwinds-yellow",
     functionalText: `You may play your next Wizard 'non-attack' action card this turn as though it were an instant and if it has an effect that deals arcane damage, instead that effect deals that much arcane damage plus 2.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC130.png",
     images: [{
@@ -10486,7 +10486,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "stir-the-aetherwinds-blue",
+    cardIdentifier: "stir-the-aetherwinds-blue",
     functionalText: `You may play your next Wizard 'non-attack' action card this turn as though it were an instant and if it has an effect that deals arcane damage, instead that effect deals that much arcane damage plus 1.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC131.png",
     images: [{
@@ -10526,7 +10526,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "aether-flare-red",
+    cardIdentifier: "aether-flare-red",
     functionalText: `Deal 3 arcane damage to target opposing hero.  The next card you play this turn with an effect that deals arcane damage, instead deals that much arcane damage plus X, where X is the damage dealt by Aether Flare.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC132.png",
     images: [{
@@ -10566,7 +10566,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "aether-flare-yellow",
+    cardIdentifier: "aether-flare-yellow",
     functionalText: `Deal 2 arcane damage to target opposing hero.  The next card you play this turn with an effect that deals arcane damage, instead deals that much arcane damage plus X, where X is the damage dealt by Aether Flare.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC133.png",
     images: [{
@@ -10606,7 +10606,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "aether-flare-blue",
+    cardIdentifier: "aether-flare-blue",
     functionalText: `Deal 1 arcane damage to target opposing hero.  The next card you play this turn with an effect that deals arcane damage, instead deals that much arcane damage plus X, where X is the damage dealt by Aether Flare.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC134.png",
     images: [{
@@ -10646,7 +10646,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "index-red",
+    cardIdentifier: "index-red",
     functionalText: `Look at the top 5 cards of your deck. Put 1 card from among them on top of your deck, and the rest on the bottom of your deck in any order.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC135.png",
     images: [{
@@ -10681,7 +10681,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "index-yellow",
+    cardIdentifier: "index-yellow",
     functionalText: `Look at the top 4 cards of your deck. Put 1 card from among them on top of your deck, and the rest on the bottom of your deck in any order.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC136.png",
     images: [{
@@ -10716,7 +10716,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "index-blue",
+    cardIdentifier: "index-blue",
     functionalText: `Look at the top 3 cards of your deck. Put 1 card from among them on top of your deck, and the rest on the bottom of your deck in any order.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC137.png",
     images: [{
@@ -10751,7 +10751,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "reverberate-red",
+    cardIdentifier: "reverberate-red",
     functionalText: `Deal 3 arcane damage to target opposing hero.  If Reverberate deals damage, you may banish a Wizard 'non-attack' action card from your hand with {r} cost less than or equal to the damage dealt by Reverberate. If you do, you may play it this turn as though it were an instant.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC138.png",
     images: [{
@@ -10791,7 +10791,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "reverberate-yellow",
+    cardIdentifier: "reverberate-yellow",
     functionalText: `Deal 2 arcane damage to target opposing hero.  If Reverberate deals damage, you may banish a Wizard 'non-attack' action card from your hand with {r} cost less than or equal to the damage dealt by Reverberate. If you do, you may play it this turn as though it were an instant.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC139.png",
     images: [{
@@ -10831,7 +10831,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "reverberate-blue",
+    cardIdentifier: "reverberate-blue",
     functionalText: `Deal 1 arcane damage to target opposing hero.  If Reverberate deals damage, you may banish a Wizard 'non-attack' action card from your hand with {r} cost less than or equal to the damage dealt by Reverberate. If you do, you may play it this turn as though it were an instant.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC140.png",
     images: [{
@@ -10871,7 +10871,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "scalding-rain-red",
+    cardIdentifier: "scalding-rain-red",
     functionalText: `Deal 4 arcane damage to target hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC141.png",
     images: [{
@@ -10911,7 +10911,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "scalding-rain-yellow",
+    cardIdentifier: "scalding-rain-yellow",
     functionalText: `Deal 3 arcane damage to target hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC142.png",
     images: [{
@@ -10951,7 +10951,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "scalding-rain-blue",
+    cardIdentifier: "scalding-rain-blue",
     functionalText: `Deal 2 arcane damage to target hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC143.png",
     images: [{
@@ -10991,7 +10991,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "zap-red",
+    cardIdentifier: "zap-red",
     functionalText: `Deal 3 arcane damage to target hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC144.png",
     images: [{
@@ -11031,7 +11031,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "zap-yellow",
+    cardIdentifier: "zap-yellow",
     functionalText: `Deal 2 arcane damage to target hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC145.png",
     images: [{
@@ -11071,7 +11071,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "zap-blue",
+    cardIdentifier: "zap-blue",
     functionalText: `Deal 1 arcane damage to target hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC146.png",
     images: [{
@@ -11111,7 +11111,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "voltic-bolt-red",
+    cardIdentifier: "voltic-bolt-red",
     functionalText: `Deal 5 arcane damage to target hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC147.png",
     images: [{
@@ -11161,7 +11161,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "voltic-bolt-yellow",
+    cardIdentifier: "voltic-bolt-yellow",
     functionalText: `Deal 4 arcane damage to target hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC148.png",
     images: [{
@@ -11201,7 +11201,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "voltic-bolt-blue",
+    cardIdentifier: "voltic-bolt-blue",
     functionalText: `Deal 3 arcane damage to target hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC149.png",
     images: [{
@@ -11246,7 +11246,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "command-and-conquer-red",
+    cardIdentifier: "command-and-conquer-red",
     functionalText: `Defense reaction cards can’t be played to Command and Conquer’s chain link.  If Command and Conquer hits a hero, destroy all cards in their arsenal.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC159.png",
     images: [{
@@ -11286,7 +11286,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "pursuit-of-knowledge-blue",
+    cardIdentifier: "pursuit-of-knowledge-blue",
     functionalText: `If Pursuit of Knowledge hits, your hero gains +1{i} until end of turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC161.png",
     images: [{
@@ -11321,7 +11321,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "chains-of-eminence-red",
+    cardIdentifier: "chains-of-eminence-red",
     functionalText: `**Go again**  When Chains of Eminence enters the arena, name a card. The named card can't be pitched, played or used to defend while Chains of Eminence is in the arena.  At the beginning of your action phase, destroy Chains of Eminence`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC162.png",
     images: [{
@@ -11356,7 +11356,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Generic,
-    identifier: "rusted-relic-blue",
+    cardIdentifier: "rusted-relic-blue",
     functionalText: `**Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} instead. If you do, prevent 1 arcane damage that source would deal.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC163.png",
     images: [{
@@ -11391,7 +11391,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
-    identifier: "life-for-a-life-red",
+    cardIdentifier: "life-for-a-life-red",
     functionalText: `If Life for a Life hits, gain 1{h}.  When you play Life for a Life, if you have less {h} than an opposing hero, it gains **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC164.png",
     images: [{
@@ -11431,7 +11431,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "life-for-a-life-yellow",
+    cardIdentifier: "life-for-a-life-yellow",
     functionalText: `If Life for a Life hits, gain 1{h}.  When you play Life for a Life, if you have less {h} than an opposing hero, it gains **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC165.png",
     images: [{
@@ -11471,7 +11471,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "life-for-a-life-blue",
+    cardIdentifier: "life-for-a-life-blue",
     functionalText: `If Life for a Life hits, gain 1{h}.  When you play Life for a Life, if you have less {h} than an opposing hero, it gains **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC166.png",
     images: [{
@@ -11511,7 +11511,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "enchanting-melody-red",
+    cardIdentifier: "enchanting-melody-red",
     functionalText: `**Go again**  If your hero would be dealt damage, instead destroy Enchanting Melody and prevent 4 damage that source would deal.  At the beginning of your end phase, destroy Enchanting Melody unless you have played a 'non-attack' action card this turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC167.png",
     images: [{
@@ -11551,7 +11551,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Generic,
-    identifier: "enchanting-melody-yellow",
+    cardIdentifier: "enchanting-melody-yellow",
     functionalText: `**Go again**  If your hero would be dealt damage, instead destroy Enchanting Melody and prevent 3 damage that source would deal.  At the beginning of your end phase, destroy Enchanting Melody unless you have played a 'non-attack' action card this turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC168.png",
     images: [{
@@ -11591,7 +11591,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Generic,
-    identifier: "enchanting-melody-blue",
+    cardIdentifier: "enchanting-melody-blue",
     functionalText: `**Go again**  If your hero would be dealt damage, instead destroy Enchanting Melody and prevent 2 damage that source would deal.  At the beginning of your end phase, destroy Enchanting Melody unless you have played a 'non-attack' action card this turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC169.png",
     images: [{
@@ -11631,7 +11631,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Generic,
-    identifier: "plunder-run-red",
+    cardIdentifier: "plunder-run-red",
     functionalText: `The next time an attack action card you control hits this turn, draw a card.  If Plunder Run is played from arsenal, the next attack action card you play this turn gains +3{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC170.png",
     images: [{
@@ -11671,7 +11671,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "plunder-run-yellow",
+    cardIdentifier: "plunder-run-yellow",
     functionalText: `The next time an attack action card you control hits this turn, draw a card.  If Plunder Run is played from arsenal, the next attack action card you play this turn gains +2{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC171.png",
     images: [{
@@ -11711,7 +11711,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "plunder-run-blue",
+    cardIdentifier: "plunder-run-blue",
     functionalText: `The next time an attack action card you control hits this turn, draw a card.  If Plunder Run is played from arsenal, the next attack action card you play this turn gains +1{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC172.png",
     images: [{
@@ -11751,7 +11751,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "back-alley-breakline-red",
+    cardIdentifier: "back-alley-breakline-red",
     functionalText: `If an activated ability or action card effect puts Back Alley Breakline face up into a zone from your deck, gain 1 action point.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC176.png",
     images: [{
@@ -11786,7 +11786,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "back-alley-breakline-yellow",
+    cardIdentifier: "back-alley-breakline-yellow",
     functionalText: `If an activated ability or action card effect puts Back Alley Breakline face up into a zone from your deck, gain 1 action point.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC177.png",
     images: [{
@@ -11821,7 +11821,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "back-alley-breakline-blue",
+    cardIdentifier: "back-alley-breakline-blue",
     functionalText: `If an activated ability or action card effect puts Back Alley Breakline face up into a zone from your deck, gain 1 action point.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC178.png",
     images: [{
@@ -11856,7 +11856,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "cadaverous-contraband-red",
+    cardIdentifier: "cadaverous-contraband-red",
     functionalText: `If Cadaverous Contraband hits, you may put a ‘non-attack’ action card from your graveyard on top of your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC179.png",
     images: [{
@@ -11891,7 +11891,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "cadaverous-contraband-yellow",
+    cardIdentifier: "cadaverous-contraband-yellow",
     functionalText: `If Cadaverous Contraband hits, you may put a ‘non-attack’ action card from your graveyard on top of your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC180.png",
     images: [{
@@ -11926,7 +11926,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "cadaverous-contraband-blue",
+    cardIdentifier: "cadaverous-contraband-blue",
     functionalText: `If Cadaverous Contraband hits, you may put a ‘non-attack’ action card from your graveyard on top of your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC181.png",
     images: [{
@@ -11961,7 +11961,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "fervent-forerunner-red",
+    cardIdentifier: "fervent-forerunner-red",
     functionalText: `If Fervent Forerunner hits, **opt 2.** *(Look at the top 2 cards of your deck. You may put them on the top and/or bottom in any order.)*  If Fervent Forerunner is played from arsenal, it gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC182.png",
     images: [{
@@ -12001,7 +12001,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "fervent-forerunner-yellow",
+    cardIdentifier: "fervent-forerunner-yellow",
     functionalText: `If Fervent Forerunner hits, **opt 2.** *(Look at the top 2 cards of your deck. You may put them on the top and/or bottom in any order.)*  If Fervent Forerunner is played from arsenal, it gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC183.png",
     images: [{
@@ -12041,7 +12041,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "fervent-forerunner-blue",
+    cardIdentifier: "fervent-forerunner-blue",
     functionalText: `If Fervent Forerunner hits, **opt 2.** *(Look at the top 2 cards of your deck. You may put them on the top and/or bottom in any order.)*  If Fervent Forerunner is played from arsenal, it gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC184.png",
     images: [{
@@ -12081,7 +12081,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "moon-wish-red",
+    cardIdentifier: "moon-wish-red",
     functionalText: `You may put a card from your hand on top of your deck rather than pay Moon Wish's {r} cost.  If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it into your hand, then shuffle your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC185.png",
     images: [{
@@ -12116,7 +12116,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "moon-wish-yellow",
+    cardIdentifier: "moon-wish-yellow",
     functionalText: `You may put a card from your hand on top of your deck rather than pay Moon Wish's {r} cost.  If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it into your hand, then shuffle your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC186.png",
     images: [{
@@ -12151,7 +12151,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "moon-wish-blue",
+    cardIdentifier: "moon-wish-blue",
     functionalText: `You may put a card from your hand on top of your deck rather than pay Moon Wish's {r} cost.  If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it into your hand, then shuffle your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC187.png",
     images: [{
@@ -12186,7 +12186,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "push-the-point-red",
+    cardIdentifier: "push-the-point-red",
     functionalText: `If the last attack on this combat chain hit, Push the Point gains +2{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC188.png",
     images: [{
@@ -12221,7 +12221,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "push-the-point-yellow",
+    cardIdentifier: "push-the-point-yellow",
     functionalText: `If the last attack on this combat chain hit, Push the Point gains +2{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC189.png",
     images: [{
@@ -12256,7 +12256,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "push-the-point-blue",
+    cardIdentifier: "push-the-point-blue",
     functionalText: `If the last attack on this combat chain hit, Push the Point gains +2{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC190.png",
     images: [{
@@ -12291,7 +12291,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "ravenous-rabble-red",
+    cardIdentifier: "ravenous-rabble-red",
     functionalText: `When you attack with Ravenous Rabble, reveal the top card of your deck. Ravenous Rabble gets -X{p}, where X is the pitch value of the card revealed this way. *(The pitch value is located in the top left corner of the card.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC191.png",
     images: [{
@@ -12336,7 +12336,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "ravenous-rabble-yellow",
+    cardIdentifier: "ravenous-rabble-yellow",
     functionalText: `When you attack with Ravenous Rabble, reveal the top card of your deck. Ravenous Rabble gets -X{p}, where X is the pitch value of the card revealed this way. *(The pitch value is located in the top left corner of the card.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC192.png",
     images: [{
@@ -12381,7 +12381,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "ravenous-rabble-blue",
+    cardIdentifier: "ravenous-rabble-blue",
     functionalText: `When you attack with Ravenous Rabble, reveal the top card of your deck. Ravenous Rabble gets -X{p}, where X is the pitch value of the card revealed this way. *(The pitch value is located in the top left corner of the card.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC193.png",
     images: [{
@@ -12426,7 +12426,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "rifting-red",
+    cardIdentifier: "rifting-red",
     functionalText: `If Rifting hits, you may play your next 'non-attack' action card this turn as though it were an instant.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC194.png",
     images: [{
@@ -12461,7 +12461,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "rifting-yellow",
+    cardIdentifier: "rifting-yellow",
     functionalText: `If Rifting hits, you may play your next 'non-attack' action card this turn as though it were an instant.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC195.png",
     images: [{
@@ -12496,7 +12496,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "rifting-blue",
+    cardIdentifier: "rifting-blue",
     functionalText: `If Rifting hits, you may play your next 'non-attack' action card this turn as though it were an instant.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC196.png",
     images: [{
@@ -12531,7 +12531,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "vigor-rush-red",
+    cardIdentifier: "vigor-rush-red",
     functionalText: `If you have played a 'non-attack' action card this turn, Vigor Rush gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC197.png",
     images: [{
@@ -12566,7 +12566,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "vigor-rush-yellow",
+    cardIdentifier: "vigor-rush-yellow",
     functionalText: `If you have played a 'non-attack' action card this turn, Vigor Rush gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC198.png",
     images: [{
@@ -12601,7 +12601,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "vigor-rush-blue",
+    cardIdentifier: "vigor-rush-blue",
     functionalText: `If you have played a 'non-attack' action card this turn, Vigor Rush gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC199.png",
     images: [{
@@ -12636,7 +12636,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "come-to-fight-red",
+    cardIdentifier: "come-to-fight-red",
     functionalText: `The next attack action card you play this turn gains +3{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC203.png",
     images: [{
@@ -12681,7 +12681,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "come-to-fight-yellow",
+    cardIdentifier: "come-to-fight-yellow",
     functionalText: `The next attack action card you play this turn gains +2{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC204.png",
     images: [{
@@ -12726,7 +12726,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "come-to-fight-blue",
+    cardIdentifier: "come-to-fight-blue",
     functionalText: `The next attack action card you play this turn gains +1{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC205.png",
     images: [{
@@ -12776,7 +12776,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "force-sight-red",
+    cardIdentifier: "force-sight-red",
     functionalText: `The next attack action card you play this turn gains +3{p}.  If Force Sight is played from arsenal, **opt 2.** *(Look at the top 2 cards of your deck. You may put them on the top and/or bottom in any order.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC206.png",
     images: [{
@@ -12816,7 +12816,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "force-sight-yellow",
+    cardIdentifier: "force-sight-yellow",
     functionalText: `The next attack action card you play this turn gains +2{p}.  If Force Sight is played from arsenal, **opt 2.** *(Look at the top 2 cards of your deck. You may put them on the top and/or bottom in any order.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC207.png",
     images: [{
@@ -12856,7 +12856,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "force-sight-blue",
+    cardIdentifier: "force-sight-blue",
     functionalText: `The next attack action card you play this turn gains +1{p}.  If Force Sight is played from arsenal, **opt 2.** *(Look at the top 2 cards of your deck. You may put them on the top and/or bottom in any order.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC208.png",
     images: [{
@@ -12896,7 +12896,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "lead-the-charge-red",
+    cardIdentifier: "lead-the-charge-red",
     functionalText: `The next time you play an action card with cost 0 or greater this turn, gain 1 action point.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC209.png",
     images: [{
@@ -12931,7 +12931,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "lead-the-charge-yellow",
+    cardIdentifier: "lead-the-charge-yellow",
     functionalText: `The next time you play an action card with cost 1 or greater this turn, gain 1 action point.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC210.png",
     images: [{
@@ -12966,7 +12966,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "lead-the-charge-blue",
+    cardIdentifier: "lead-the-charge-blue",
     functionalText: `The next time you play an action card with cost 2 or greater this turn, gain 1 action point.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC211.png",
     images: [{
@@ -13001,7 +13001,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "sun-kiss-red",
+    cardIdentifier: "sun-kiss-red",
     functionalText: `Gain 3{h}.  If you have played a card named Moon Wish this turn, draw a card and Sun Kiss gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC212.png",
     images: [{
@@ -13036,7 +13036,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "sun-kiss-yellow",
+    cardIdentifier: "sun-kiss-yellow",
     functionalText: `Gain 2{h}.  If you have played a card named Moon Wish this turn, draw a card and Sun Kiss gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC213.png",
     images: [{
@@ -13071,7 +13071,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "sun-kiss-blue",
+    cardIdentifier: "sun-kiss-blue",
     functionalText: `Gain 1{h}.  If you have played a card named Moon Wish this turn, draw a card and Sun Kiss gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC214.png",
     images: [{
@@ -13106,7 +13106,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "whisper-of-the-oracle-red",
+    cardIdentifier: "whisper-of-the-oracle-red",
     functionalText: `**Opt 4** *(Look at the top 4 cards of your deck. You may put them on the top and/or bottom in any order.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC215.png",
     images: [{
@@ -13146,7 +13146,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "whisper-of-the-oracle-yellow",
+    cardIdentifier: "whisper-of-the-oracle-yellow",
     functionalText: `**Opt 3** *(Look at the top 3 cards of your deck. You may put them on the top and/or bottom in any order.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC216.png",
     images: [{
@@ -13186,7 +13186,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "whisper-of-the-oracle-blue",
+    cardIdentifier: "whisper-of-the-oracle-blue",
     functionalText: `**Opt 2** *(Look at the top 2 cards of your deck. You may put them on the top and/or bottom in any order.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC217.png",
     images: [{
@@ -13226,7 +13226,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
-    identifier: "beast-within-yellow",
+    cardIdentifier: "beast-within-yellow",
     functionalText: `If Beast Within is put into a graveyard from anywhere other than the combat chain, banish the top card of your deck and lose 1{h}. If it has 6 or more {p}, put it into your hand, otherwise, repeat this process.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU007.png",
     images: [{
@@ -13266,7 +13266,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "massacre-red",
+    cardIdentifier: "massacre-red",
     functionalText: `When you attack with Massacre, if you have discarded a card with 6 or more {p} this turn, Massacre gains +2{p} and **intimidate.**  If Massacre is discarded to pay the cost of a Brute attack action card, **intimidate.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU008.png",
     images: [{
@@ -13306,7 +13306,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "argh…-smash!-yellow",
+    cardIdentifier: "argh…-smash!-yellow",
     functionalText: `Roll a 6 sided die. Destroy up to X items, where X is half the number rolled, rounded down.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU009.png",
     images: [{
@@ -13341,7 +13341,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "barraging-big-horn-red",
+    cardIdentifier: "barraging-big-horn-red",
     functionalText: `As an additional cost to play Barraging Big Horn, discard a random card.  While Barraging Big Horn is defended by less than 2 non-equipment cards, it has **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU010.png",
     images: [{
@@ -13376,7 +13376,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "barraging-big-horn-yellow",
+    cardIdentifier: "barraging-big-horn-yellow",
     functionalText: `As an additional cost to play Barraging Big Horn, discard a random card.  While Barraging Big Horn is defended by less than 2 non-equipment cards, it has **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU011.png",
     images: [{
@@ -13411,7 +13411,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "barraging-big-horn-blue",
+    cardIdentifier: "barraging-big-horn-blue",
     functionalText: `As an additional cost to play Barraging Big Horn, discard a random card.  While Barraging Big Horn is defended by less than 2 non-equipment cards, it has **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU012.png",
     images: [{
@@ -13446,7 +13446,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "predatory-assault-red",
+    cardIdentifier: "predatory-assault-red",
     functionalText: `If you have discarded a card with 6 or more {p} this turn, Predatory Assault gains **dominate.** *(The defending hero can’t defend Predatory Assault with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU013.png",
     images: [{
@@ -13486,7 +13486,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "predatory-assault-yellow",
+    cardIdentifier: "predatory-assault-yellow",
     functionalText: `If you have discarded a card with 6 or more {p} this turn, Predatory Assault gains **dominate.** *(The defending hero can’t defend Predatory Assault with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU014.png",
     images: [{
@@ -13526,7 +13526,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "predatory-assault-blue",
+    cardIdentifier: "predatory-assault-blue",
     functionalText: `If you have discarded a card with 6 or more {p} this turn, Predatory Assault gains **dominate.** *(The defending hero can’t defend Predatory Assault with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU015.png",
     images: [{
@@ -13566,7 +13566,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "riled-up-red",
+    cardIdentifier: "riled-up-red",
     functionalText: `If you have discarded a card with 6 or more {p} this turn, Riled Up gains +1{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU016.png",
     images: [{
@@ -13606,7 +13606,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "riled-up-yellow",
+    cardIdentifier: "riled-up-yellow",
     functionalText: `If you have discarded a card with 6 or more {p} this turn, Riled Up gains +1{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU017.png",
     images: [{
@@ -13646,7 +13646,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "riled-up-blue",
+    cardIdentifier: "riled-up-blue",
     functionalText: `If you have discarded a card with 6 or more {p} this turn, Riled Up gains +1{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU018.png",
     images: [{
@@ -13686,7 +13686,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "swing-fist-think-later-red",
+    cardIdentifier: "swing-fist-think-later-red",
     functionalText: `As an additional cost to play Swing Fist, Think Later, discard a random card.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU019.png",
     images: [{
@@ -13721,7 +13721,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "swing-fist-think-later-yellow",
+    cardIdentifier: "swing-fist-think-later-yellow",
     functionalText: `As an additional cost to play Swing Fist, Think Later, discard a random card.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU020.png",
     images: [{
@@ -13756,7 +13756,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "swing-fist-think-later-blue",
+    cardIdentifier: "swing-fist-think-later-blue",
     functionalText: `As an additional cost to play Swing Fist, Think Later, discard a random card.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU021.png",
     images: [{
@@ -13791,7 +13791,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "mangle-red",
+    cardIdentifier: "mangle-red",
     functionalText: `**Crush** - If Mangle deals 4 or more damage to a hero, destroy target equipment they control with a -1{d} counter on it.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU026.png",
     images: [{
@@ -13831,7 +13831,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "righteous-cleansing-yellow",
+    cardIdentifier: "righteous-cleansing-yellow",
     functionalText: `**Crush** - If Righteous Cleansing deals 4 or more damage to a hero, look at the top 5 cards of their deck. Banish 1 or more cards with the same name from among them, then put the rest on top of their deck in any order.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU027.png",
     images: [{
@@ -13871,7 +13871,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "stamp-authority-blue",
+    cardIdentifier: "stamp-authority-blue",
     functionalText: `When Stamp Authority enters the arena, if you have 2 or more cards in your pitch zone with cost 3 or greater, your hero gains +1{i} until end of turn.  While Stamp Authority is in the arena, attack action card effects do not trigger when they hit.  At the beginning of your action phase, destroy Stamp Authority.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU028.png",
     images: [{
@@ -13906,7 +13906,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
-    identifier: "towering-titan-red",
+    cardIdentifier: "towering-titan-red",
     functionalText: `*(Auras stay in the arena until they are destroyed.)*  At the beginning of your action phase, destroy Towering Titan then the next Guardian attack action card you play this turn gains +10{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU029.png",
     images: [{
@@ -13946,7 +13946,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
-    identifier: "towering-titan-yellow",
+    cardIdentifier: "towering-titan-yellow",
     functionalText: `*(Auras stay in the arena until they are destroyed.)*  At the beginning of your action phase, destroy Towering Titan then the next Guardian attack action card you play this turn gains +9{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU030.png",
     images: [{
@@ -13986,7 +13986,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
-    identifier: "towering-titan-blue",
+    cardIdentifier: "towering-titan-blue",
     functionalText: `*(Auras stay in the arena until they are destroyed.)*  At the beginning of your action phase, destroy Towering Titan then the next Guardian attack action card you play this turn gains +8{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU031.png",
     images: [{
@@ -14026,7 +14026,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
-    identifier: "crush-the-weak-red",
+    cardIdentifier: "crush-the-weak-red",
     functionalText: `**Crush** - If Crush the Weak deals 4 or more damage to a hero, they can't play attack action cards with 3 or less base {p} during their next action phase.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU032.png",
     images: [{
@@ -14061,7 +14061,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "crush-the-weak-yellow",
+    cardIdentifier: "crush-the-weak-yellow",
     functionalText: `**Crush** - If Crush the Weak deals 4 or more damage to a hero, they can't play attack action cards with 3 or less base {p} during their next action phase.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU033.png",
     images: [{
@@ -14096,7 +14096,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "crush-the-weak-blue",
+    cardIdentifier: "crush-the-weak-blue",
     functionalText: `**Crush** - If Crush the Weak deals 4 or more damage to a hero, they can't play attack action cards with 3 or less base {p} during their next action phase.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU034.png",
     images: [{
@@ -14131,7 +14131,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "chokeslam-red",
+    cardIdentifier: "chokeslam-red",
     functionalText: `**Crush** - If Chokeslam deals 4 or more damage to a hero, attack action cards they control can't gain {p} during their next action phase.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU035.png",
     images: [{
@@ -14171,7 +14171,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "chokeslam-yellow",
+    cardIdentifier: "chokeslam-yellow",
     functionalText: `**Crush** - If Chokeslam deals 4 or more damage to a hero, attack action cards they control can't gain {p} during their next action phase.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU036.png",
     images: [{
@@ -14211,7 +14211,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "chokeslam-blue",
+    cardIdentifier: "chokeslam-blue",
     functionalText: `**Crush** - If Chokeslam deals 4 or more damage to a hero, attack action cards they control can't gain {p} during their next action phase.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU037.png",
     images: [{
@@ -14251,7 +14251,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "emerging-dominance-red",
+    cardIdentifier: "emerging-dominance-red",
     functionalText: `*(Auras stay in the arena until they are destroyed.)*  At the beginning of your action phase, destroy Emerging Dominance then the next Guardian attack action card you play this turn gains +3{p} and **dominate**. *(The defending hero can't defend the attack with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU038-RF.png",
     images: [{
@@ -14296,7 +14296,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
-    identifier: "emerging-dominance-yellow",
+    cardIdentifier: "emerging-dominance-yellow",
     functionalText: `*(Auras stay in the arena until they are destroyed.)*  At the beginning of your action phase, destroy Emerging Dominance then the next Guardian attack action card you play this turn gains +2{p} and **dominate**. *(The defending hero can't defend the attack with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU039-RF.png",
     images: [{
@@ -14341,7 +14341,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
-    identifier: "emerging-dominance-blue",
+    cardIdentifier: "emerging-dominance-blue",
     functionalText: `*(Auras stay in the arena until they are destroyed.)*  At the beginning of your action phase, destroy Emerging Dominance then the next Guardian attack action card you play this turn gains +1{p} and **dominate**. *(The defending hero can't defend the attack with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU040-RF.png",
     images: [{
@@ -14386,7 +14386,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Ninja,
-    identifier: "find-center-blue",
+    cardIdentifier: "find-center-blue",
     functionalText: `**Combo** - If Crane Dance was the last attack this combat chain, Find Center can't be defended by cards with {r} cost less than the number of chain links you control, and it gains "If this hits, create a Zen State token."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU054.png",
     images: [{
@@ -14426,7 +14426,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "flood-of-force-yellow",
+    cardIdentifier: "flood-of-force-yellow",
     functionalText: `**Combo** - If Rushing River or Flood of Force was the last attack this combat chain, when you attack with Flood of Force, reveal the top card of your deck. If it's a card with **combo,** put it into your hand then Flood of Force gains +3{p} and **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU055.png",
     images: [{
@@ -14466,7 +14466,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "herons-flight-red",
+    cardIdentifier: "herons-flight-red",
     functionalText: `**Combo** - If Crane Dance was the last attack this combat chain, when you attack with Heron's Flight, it gains +2{p} and you choose 1;  - Heron’s flight can only be defended by attack action cards. - Heron’s flight can only be defended by ‘non-attack’ action cards.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU056.png",
     images: [{
@@ -14506,7 +14506,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "crane-dance-red",
+    cardIdentifier: "crane-dance-red",
     functionalText: `**Combo** - If Soulbead Strike was the last attack this combat chain, Crane Dance gains +1{p}, **go again**, and it can't be defended by attack action cards with base {p} greater than the number of chain links you control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU057.png",
     images: [{
@@ -14546,7 +14546,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "crane-dance-yellow",
+    cardIdentifier: "crane-dance-yellow",
     functionalText: `**Combo** - If Soulbead Strike was the last attack this combat chain, Crane Dance gains +1{p}, **go again**, and it can't be defended by attack action cards with base {p} greater than the number of chain links you control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU058.png",
     images: [{
@@ -14586,7 +14586,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "crane-dance-blue",
+    cardIdentifier: "crane-dance-blue",
     functionalText: `**Combo** - If Soulbead Strike was the last attack this combat chain, Crane Dance gains +1{p}, **go again**, and it can't be defended by attack action cards with base {p} greater than the number of chain links you control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU059.png",
     images: [{
@@ -14626,7 +14626,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "rushing-river-red",
+    cardIdentifier: "rushing-river-red",
     functionalText: `**Combo** - If Torrent of Tempo was the last attack this combat chain, Rushing River gains +1{p}, **go again**, and "If Rushing River hits, draw X cards then put X cards from your hand on top of your deck in any order, where X is the number of attacks that have hit this combat chain.”`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/CRU60.width-450.png",
     images: [{
@@ -14666,7 +14666,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "rushing-river-yellow",
+    cardIdentifier: "rushing-river-yellow",
     functionalText: `**Combo** - If Torrent of Tempo was the last attack this combat chain, Rushing River gains +1{p}, **go again**, and "If Rushing River hits, draw X cards then put X cards from your hand on top of your deck in any order, where X is the number of attacks that have hit this combat chain.”`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU061.png",
     images: [{
@@ -14706,7 +14706,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "rushing-river-blue",
+    cardIdentifier: "rushing-river-blue",
     functionalText: `**Combo** - If Torrent of Tempo was the last attack this combat chain, Rushing River gains +1{p}, **go again**, and "If Rushing River hits, draw X cards then put X cards from your hand on top of your deck in any order, where X is the number of attacks that have hit this combat chain.”`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU062.png",
     images: [{
@@ -14746,7 +14746,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "flying-kick-red",
+    cardIdentifier: "flying-kick-red",
     functionalText: `If Flying Kick is played as chain link 3 or higher, it gains +2{r}`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU063.png",
     images: [{
@@ -14786,7 +14786,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "flying-kick-yellow",
+    cardIdentifier: "flying-kick-yellow",
     functionalText: `If Flying Kick is played as chain link 3 or higher, it gains +2{r}`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU064.png",
     images: [{
@@ -14821,7 +14821,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "flying-kick-blue",
+    cardIdentifier: "flying-kick-blue",
     functionalText: `If Flying Kick is played as chain link 3 or higher, it gains +2{r}`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU065.png",
     images: [{
@@ -14856,7 +14856,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "soulbead-strike-red",
+    cardIdentifier: "soulbead-strike-red",
     functionalText: `If Soulbead Strike hits, it gains **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU066.png",
     images: [{
@@ -14896,7 +14896,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "soulbead-strike-yellow",
+    cardIdentifier: "soulbead-strike-yellow",
     functionalText: `If Soulbead Strike hits, it gains **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU067.png",
     images: [{
@@ -14936,7 +14936,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "soulbead-strike-blue",
+    cardIdentifier: "soulbead-strike-blue",
     functionalText: `If Soulbead Strike hits, it gains **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU068.png",
     images: [{
@@ -14976,7 +14976,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "torrent-of-tempo-red",
+    cardIdentifier: "torrent-of-tempo-red",
     functionalText: `If Torrent of Tempo hits, it gains **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU069.png",
     images: [{
@@ -15021,7 +15021,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "torrent-of-tempo-yellow",
+    cardIdentifier: "torrent-of-tempo-yellow",
     functionalText: `If Torrent of Tempo hits, it gains **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU070.png",
     images: [{
@@ -15061,7 +15061,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "torrent-of-tempo-blue",
+    cardIdentifier: "torrent-of-tempo-blue",
     functionalText: `If Torrent of Tempo hits, it gains **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU071.png",
     images: [{
@@ -15101,7 +15101,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "bittering-thorns-yellow",
+    cardIdentifier: "bittering-thorns-yellow",
     functionalText: `If Bittering Thorns hits, your next attack this turn gains +1{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU072.png",
     images: [{
@@ -15146,7 +15146,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "salt-the-wound-yellow",
+    cardIdentifier: "salt-the-wound-yellow",
     functionalText: `Salt the Wound gains +1{p} for each attack that has hit this combat chain.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU073.png",
     images: [{
@@ -15191,7 +15191,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "whirling-mist-blossom-yellow",
+    cardIdentifier: "whirling-mist-blossom-yellow",
     functionalText: `**Ira Specialization** *(You may only have Whirling Mist Blossom in your deck if your hero is Ira.)*  If Whirling Mist Blossom hits, and it's the second or higher chain link in a row to hit, draw 2 cards.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU074.png",
     images: [{
@@ -15241,7 +15241,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
-    identifier: "spoils-of-war-red",
+    cardIdentifier: "spoils-of-war-red",
     functionalText: `Your next weapon attack this turn gains +2{p} and **go again**.  Whenever a weapon you control hits this turn, create 2 Copper tokens.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU084.png",
     images: [{
@@ -15281,7 +15281,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "dauntless-red",
+    cardIdentifier: "dauntless-red",
     functionalText: `Your next weapon attack this turn gains +3{p}.  The next defense reaction card the defending hero plays this turn costs an additional {r} to play.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU085.png",
     images: [{
@@ -15316,7 +15316,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "dauntless-yellow",
+    cardIdentifier: "dauntless-yellow",
     functionalText: `Your next weapon attack this turn gains +2{p}.  The next defense reaction card the defending hero plays this turn costs an additional {r} to play.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU086.png",
     images: [{
@@ -15351,7 +15351,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "dauntless-blue",
+    cardIdentifier: "dauntless-blue",
     functionalText: `Your next weapon attack this turn gains +1{p}.  The next defense reaction card the defending hero plays this turn costs an additional {r} to play.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU087.png",
     images: [{
@@ -15386,7 +15386,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "hit-and-run-red",
+    cardIdentifier: "hit-and-run-red",
     functionalText: `Your next weapon attack this turn gains **go again**.  If you have attacked with a weapon this turn, your next attack this turn gains +3{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU091.png",
     images: [{
@@ -15426,7 +15426,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "hit-and-run-yellow",
+    cardIdentifier: "hit-and-run-yellow",
     functionalText: `Your next weapon attack this turn gains **go again**.  If you have attacked with a weapon this turn, your next attack this turn gains +2{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU092.png",
     images: [{
@@ -15466,7 +15466,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "hit-and-run-blue",
+    cardIdentifier: "hit-and-run-blue",
     functionalText: `Your next weapon attack this turn gains **go again**.  If you have attacked with a weapon this turn, your next attack this turn gains +1{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU093.png",
     images: [{
@@ -15511,7 +15511,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "push-forward-red",
+    cardIdentifier: "push-forward-red",
     functionalText: `Your next weapon attack this turn gains +3{p}.  If you have attacked with a weapon this turn, your next attack this turn gains **dominate.** *(The defending hero can’t defend the attack with more than 1 card from their hand.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU094.png",
     images: [{
@@ -15556,7 +15556,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "push-forward-yellow",
+    cardIdentifier: "push-forward-yellow",
     functionalText: `Your next weapon attack this turn gains +2{p}.  If you have attacked with a weapon this turn, your next attack this turn gains **dominate.** *(The defending hero can’t defend the attack with more than 1 card from their hand.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU095.png",
     images: [{
@@ -15596,7 +15596,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "push-forward-blue",
+    cardIdentifier: "push-forward-blue",
     functionalText: `Your next weapon attack this turn gains +1{p}.  If you have attacked with a weapon this turn, your next attack this turn gains **dominate.** *(The defending hero can’t defend the attack with more than 1 card from their hand.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU096.png",
     images: [{
@@ -15636,7 +15636,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
-    identifier: "meganetic-shockwave-blue",
+    cardIdentifier: "meganetic-shockwave-blue",
     functionalText: `The defending hero must defend Meganetic Shockwave with X equipment they control, where X is the number of times you have **boosted** this combat chain.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU103.png",
     images: [{
@@ -15671,7 +15671,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "absorption-dome-yellow",
+    cardIdentifier: "absorption-dome-yellow",
     functionalText: `Absorption Dome enters the arena with steam counters on it equal to the number of times you have **boosted** this turn.  If your hero would be dealt damage, remove that many steam counters from Absorption Dome instead, then prevent damage equal to the number of steam counters removed this way.  When Absorption Dome has no steam counters on it, destroy it.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU104.png",
     images: [{
@@ -15706,7 +15706,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
-    identifier: "plasma-purifier-red",
+    cardIdentifier: "plasma-purifier-red",
     functionalText: `**Action** - {r}: If there are no steam counters on Plasma Purifier, put a steam counter on it. **Go again**  **Once per Turn Action** - Remove a steam counter from Plasma Purifier: Target Mechanologist pistol you control gains +1{p} until end of turn. **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU105.png",
     images: [{
@@ -15746,7 +15746,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
-    identifier: "high-speed-impact-red",
+    cardIdentifier: "high-speed-impact-red",
     functionalText: `If High Speed Impact hits, the next attack you boost this combat chain gains **dominate**. *(The defending hero can't defend the attack with more than 1 card from their hand.)*  **Boost** *(As an additional cost to play High Speed Impact, you may banish the top card of your deck. If it's a Mechanologist card, High Speed Impact gains* ***go again***.*)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU106.png",
     images: [{
@@ -15791,7 +15791,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "high-speed-impact-yellow",
+    cardIdentifier: "high-speed-impact-yellow",
     functionalText: `If High Speed Impact hits, the next attack you boost this combat chain gains **dominate**. *(The defending hero can't defend the attack with more than 1 card from their hand.)*  **Boost** *(As an additional cost to play High Speed Impact, you may banish the top card of your deck. If it's a Mechanologist card, High Speed Impact gains* ***go again***.*)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU107.png",
     images: [{
@@ -15836,7 +15836,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "high-speed-impact-blue",
+    cardIdentifier: "high-speed-impact-blue",
     functionalText: `If High Speed Impact hits, the next attack you boost this combat chain gains **dominate**. *(The defending hero can't defend the attack with more than 1 card from their hand.)*  **Boost** *(As an additional cost to play High Speed Impact, you may banish the top card of your deck. If it's a Mechanologist card, High Speed Impact gains* ***go again***.*)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU108.png",
     images: [{
@@ -15881,7 +15881,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "combustible-courier-red",
+    cardIdentifier: "combustible-courier-red",
     functionalText: `If Combustible Courier hits, the next attack you **boost** this combat chain gains +3{p}.  **Boost** *(As an additional cost to play Combustible Courier, you may banish the top card of your deck. If it's a Mechanologist card, Combustible Courier gains* **go again**.*)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU109.png",
     images: [{
@@ -15926,7 +15926,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "combustible-courier-yellow",
+    cardIdentifier: "combustible-courier-yellow",
     functionalText: `If Combustible Courier hits, the next attack you **boost** this combat chain gains +3{p}.  **Boost** *(As an additional cost to play Combustible Courier, you may banish the top card of your deck. If it's a Mechanologist card, Combustible Courier gains* **go again**.*)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU110.png",
     images: [{
@@ -15971,7 +15971,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "combustible-courier-blue",
+    cardIdentifier: "combustible-courier-blue",
     functionalText: `If Combustible Courier hits, the next attack you **boost** this combat chain gains +3{p}.  **Boost** *(As an additional cost to play Combustible Courier, you may banish the top card of your deck. If it's a Mechanologist card, Combustible Courier gains* **go again**.*)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU111.png",
     images: [{
@@ -16016,7 +16016,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "overblast-red",
+    cardIdentifier: "overblast-red",
     functionalText: `Overblast gains +X{p}, where X is the number of times you have **boosted** this combat chain.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU112.png",
     images: [{
@@ -16051,7 +16051,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "overblast-yellow",
+    cardIdentifier: "overblast-yellow",
     functionalText: `Overblast gains +X{p}, where X is the number of times you have **boosted** this combat chain.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU113.png",
     images: [{
@@ -16086,7 +16086,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "overblast-blue",
+    cardIdentifier: "overblast-blue",
     functionalText: `Overblast gains +X{p}, where X is the number of times you have **boosted** this combat chain.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU114.png",
     images: [{
@@ -16121,7 +16121,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "teklovossens-workshop-red",
+    cardIdentifier: "teklovossens-workshop-red",
     functionalText: `**Opt X**, where X is the number of times you have **boosted** this turn. *(Look at the top X cards of your deck. You may put them on the top and/or bottom in any order.)*  Reveal the top card of your deck. If it’s a Mechanologist item card with cost 2 or less, put it into the arena.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU115.png",
     images: [{
@@ -16161,7 +16161,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
-    identifier: "teklovossens-workshop-yellow",
+    cardIdentifier: "teklovossens-workshop-yellow",
     functionalText: `**Opt X**, where X is the number of times you have **boosted** this turn. *(Look at the top X cards of your deck. You may put them on the top and/or bottom in any order.)*  Reveal the top card of your deck. If it’s a Mechanologist item card with cost 1 or less, put it into the arena.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU116.png",
     images: [{
@@ -16201,7 +16201,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
-    identifier: "teklovossens-workshop-blue",
+    cardIdentifier: "teklovossens-workshop-blue",
     functionalText: `**Opt X**, where X is the number of times you have **boosted** this turn. *(Look at the top X cards of your deck. You may put them on the top and/or bottom in any order.)*  Reveal the top card of your deck. If it’s a Mechanologist item card with cost 0 or less, put it into the arena.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU117.png",
     images: [{
@@ -16241,7 +16241,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
-    identifier: "remorseless-red",
+    cardIdentifier: "remorseless-red",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  If Remorseless is put into your arsenal face up, until end of turn it gains "Defense reaction cards can't be played from arsenal to Remoreseless's chain link."  If Remorseless hits a hero, until the end of their next turn, whenever they play an action card, they lose 1{h}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU123.png",
     images: [{
@@ -16281,7 +16281,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "poison-the-tips-yellow",
+    cardIdentifier: "poison-the-tips-yellow",
     functionalText: `Until end of turn, arrows you control gain "If this hits a hero, they discard a card."  **Reload** *(If you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU124.png",
     images: [{
@@ -16316,7 +16316,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
-    identifier: "pathing-helix-red",
+    cardIdentifier: "pathing-helix-red",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  If Pathing Helix hits and you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU129.png",
     images: [{
@@ -16351,7 +16351,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "pathing-helix-yellow",
+    cardIdentifier: "pathing-helix-yellow",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  If Pathing Helix hits and you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU130.png",
     images: [{
@@ -16386,7 +16386,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "pathing-helix-blue",
+    cardIdentifier: "pathing-helix-blue",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  If Pathing Helix hits and you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU131.png",
     images: [{
@@ -16421,7 +16421,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "sleep-dart-red",
+    cardIdentifier: "sleep-dart-red",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  If Sleep Dart hits a hero, they lose all hero card effects and activated abilities until the end of their next turn. *(Treat the hero card as if the text box is empty.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU132.png",
     images: [{
@@ -16466,7 +16466,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "sleep-dart-yellow",
+    cardIdentifier: "sleep-dart-yellow",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  If Sleep Dart hits a hero, they lose all hero card effects and activated abilities until the end of their next turn. *(Treat the hero card as if the text box is empty.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU133.png",
     images: [{
@@ -16511,7 +16511,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "sleep-dart-blue",
+    cardIdentifier: "sleep-dart-blue",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  If Sleep Dart hits a hero, they lose all hero card effects and activated abilities until the end of their next turn. *(Treat the hero card as if the text box is empty.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU134.png",
     images: [{
@@ -16556,7 +16556,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "increase-the-tension-red",
+    cardIdentifier: "increase-the-tension-red",
     functionalText: `Your next arrow attack this turn gains +3{p} and "Defense reactions can't be played from hand this chain link."  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU135.png",
     images: [{
@@ -16591,7 +16591,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
-    identifier: "increase-the-tension-yellow",
+    cardIdentifier: "increase-the-tension-yellow",
     functionalText: `Your next arrow attack this turn gains +2{p} and "Defense reactions can't be played from hand this chain link."  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU136.png",
     images: [{
@@ -16626,7 +16626,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
-    identifier: "increase-the-tension-blue",
+    cardIdentifier: "increase-the-tension-blue",
     functionalText: `Your next arrow attack this turn gains +1{p} and "Defense reactions can't be played from hand this chain link."  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU137.png",
     images: [{
@@ -16661,7 +16661,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "dread-triptych-blue",
+    cardIdentifier: "dread-triptych-blue",
     functionalText: `When you attack with Dread Triptych, if you've played a 'non-attack' action card this turn, create a Runechant token.  When you attack with Dread Triptych, if you've dealt arcane damage this turn, create a Runechant token.  If Dread Triptych hits, create a Runechant token.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU142.png",
     images: [{
@@ -16701,7 +16701,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "rattle-bones-red",
+    cardIdentifier: "rattle-bones-red",
     functionalText: `Banish target Runeblade attack action card from your graveyard. You may play it this turn.  If you have dealt arcane damage to an opposing hero this turn, you may play Rattle Bones as though it were an instant.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU143.png",
     images: [{
@@ -16736,7 +16736,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "runeblood-barrier-yellow",
+    cardIdentifier: "runeblood-barrier-yellow",
     functionalText: `Create 4 Runechant tokens.  If your hero would be dealt damage, instead destroy that many Runechants you control and prevent 1 damage that source would deal for each Runechant token destroyed this way.  At the beginning of your action phase, destroy Runeblood Barrier.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU144.png",
     images: [{
@@ -16776,7 +16776,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Runeblade,
-    identifier: "mauvrion-skies-red",
+    cardIdentifier: "mauvrion-skies-red",
     functionalText: `The next runeblade attack action card you play this turn gains **go again** and “If this hits, create 3 Runechant tokens.” *(They're auras with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU145.png",
     images: [{
@@ -16821,7 +16821,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "mauvrion-skies-yellow",
+    cardIdentifier: "mauvrion-skies-yellow",
     functionalText: `The next runeblade attack action card you play this turn gains **go again** and “If this hits, create 2 Runechant tokens.” *(They're auras with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU146.png",
     images: [{
@@ -16866,7 +16866,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "mauvrion-skies-blue",
+    cardIdentifier: "mauvrion-skies-blue",
     functionalText: `The next runeblade attack action card you play this turn gains **go again** and “If this hits, create a Runechant token.” *(It’s an aura with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU147.png",
     images: [{
@@ -16911,7 +16911,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "consuming-volition-red",
+    cardIdentifier: "consuming-volition-red",
     functionalText: `If you have dealt arcane damage this turn, Consuming Volition gains "If this hits a hero, they discard a card."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU148.png",
     images: [{
@@ -16951,7 +16951,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "consuming-volition-yellow",
+    cardIdentifier: "consuming-volition-yellow",
     functionalText: `If you have dealt arcane damage this turn, Consuming Volition gains "If this hits a hero, they discard a card."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU149.png",
     images: [{
@@ -16986,7 +16986,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "consuming-volition-blue",
+    cardIdentifier: "consuming-volition-blue",
     functionalText: `If you have dealt arcane damage this turn, Consuming Volition gains "If this hits a hero, they discard a card."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU150.png",
     images: [{
@@ -17021,7 +17021,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "meat-and-greet-red",
+    cardIdentifier: "meat-and-greet-red",
     functionalText: `If Meat and Greet hits, create a Runechant token. *(It's an aura with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*  If you have dealt arcane damage to an opposing hero this turn, Meat and Greet gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU151.png",
     images: [{
@@ -17066,7 +17066,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "meat-and-greet-yellow",
+    cardIdentifier: "meat-and-greet-yellow",
     functionalText: `If Meat and Greet hits, create a Runechant token. *(It's an aura with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*  If you have dealt arcane damage to an opposing hero this turn, Meat and Greet gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU152.png",
     images: [{
@@ -17111,7 +17111,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "meat-and-greet-blue",
+    cardIdentifier: "meat-and-greet-blue",
     functionalText: `If Meat and Greet hits, create a Runechant token. *(It's an aura with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*  If you have dealt arcane damage to an opposing hero this turn, Meat and Greet gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU153.png",
     images: [{
@@ -17156,7 +17156,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "sutcliffes-research-notes-red",
+    cardIdentifier: "sutcliffes-research-notes-red",
     functionalText: `Reveal the top 3 cards of your deck. Create a Runechant token for each Runeblade attack action card revealed this way, then put the cards on top of your deck in any order. *(They're auras with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU154.png",
     images: [{
@@ -17201,7 +17201,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "sutcliffes-research-notes-yellow",
+    cardIdentifier: "sutcliffes-research-notes-yellow",
     functionalText: `Reveal the top 2 cards of your deck. Create a Runechant token for each Runeblade attack action card revealed this way, then put the cards on top of your deck in any order. *(They're auras with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU155.png",
     images: [{
@@ -17246,7 +17246,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "sutcliffes-research-notes-blue",
+    cardIdentifier: "sutcliffes-research-notes-blue",
     functionalText: `Reveal the top card of your deck. Create a Runechant token for each Runeblade attack action card revealed this way, then put the cards on top of your deck in any order. *(It’s an aura with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU156.png",
     images: [{
@@ -17291,7 +17291,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "chain-lightning-yellow",
+    cardIdentifier: "chain-lightning-yellow",
     functionalText: `You may play your next Wizard 'non-attack' action card this turn as though it were an instant.  If you have played another Wizard 'non-attack' action card this turn, deal 3 arcane damage to each opposing hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU162.png",
     images: [{
@@ -17331,7 +17331,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "gaze-the-ages-blue",
+    cardIdentifier: "gaze-the-ages-blue",
     functionalText: `**Opt 2** *(Look at the top 2 cards of your deck. You may put them on the top and/or bottom in any order.)*  If you have played another Wizard 'non-attack' action card this turn, put Gaze the Ages into your hand as it resolves.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU163.png",
     images: [{
@@ -17366,7 +17366,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "cindering-foresight-red",
+    cardIdentifier: "cindering-foresight-red",
     functionalText: `If it's not your turn, you may play Cindering Foresight as though it were an instant.  The next card you play this turn with an effect that deals arcane damage, instead deals that much arcane damage plus 1.  **Opt 3** *(Look at the top 3 cards of your deck. You may put them on the top and/or bottom in any order.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU165.png",
     images: [{
@@ -17406,7 +17406,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "cindering-foresight-yellow",
+    cardIdentifier: "cindering-foresight-yellow",
     functionalText: `If it's not your turn, you may play Cindering Foresight as though it were an instant.  The next card you play this turn with an effect that deals arcane damage, instead deals that much arcane damage plus 1.  **Opt 2** *(Look at the top 2 cards of your deck. You may put them on the top and/or bottom in any order.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU166.png",
     images: [{
@@ -17446,7 +17446,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "cindering-foresight-blue",
+    cardIdentifier: "cindering-foresight-blue",
     functionalText: `If it's not your turn, you may play Cindering Foresight as though it were an instant.  The next card you play this turn with an effect that deals arcane damage, instead deals that much arcane damage plus 1.  **Opt 1** *(Look at the top card of your deck. You may put it on the bottom.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU167.png",
     images: [{
@@ -17486,7 +17486,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "foreboding-bolt-red",
+    cardIdentifier: "foreboding-bolt-red",
     functionalText: `Deal 3 damage to target hero.  **Opt 1** *(Look at the top card of your deck. You may put it on the bottom.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU168.png",
     images: [{
@@ -17521,7 +17521,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "foreboding-bolt-yellow",
+    cardIdentifier: "foreboding-bolt-yellow",
     functionalText: `Deal 2 damage to target hero.  **Opt 1** *(Look at the top card of your deck. You may put it on the bottom.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU169.png",
     images: [{
@@ -17556,7 +17556,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "foreboding-bolt-blue",
+    cardIdentifier: "foreboding-bolt-blue",
     functionalText: `Deal 1 damage to target hero.  **Opt 1** *(Look at the top card of your deck. You may put it on the bottom.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU170.png",
     images: [{
@@ -17591,7 +17591,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "rousing-aether-red",
+    cardIdentifier: "rousing-aether-red",
     functionalText: `Deal 4 arcane damage to target hero.  The next card you play this turn with an effect that deals arcane damage, instead deals that much arcane damage plus 1.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU171.png",
     images: [{
@@ -17626,7 +17626,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "rousing-aether-yellow",
+    cardIdentifier: "rousing-aether-yellow",
     functionalText: `Deal 3 arcane damage to target hero.  The next card you play this turn with an effect that deals arcane damage, instead deals that much arcane damage plus 1.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU172.png",
     images: [{
@@ -17661,7 +17661,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "rousing-aether-blue",
+    cardIdentifier: "rousing-aether-blue",
     functionalText: `Deal 2 arcane damage to target hero.  The next card you play this turn with an effect that deals arcane damage, instead deals that much arcane damage plus 1.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU173.png",
     images: [{
@@ -17696,7 +17696,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "snapback-red",
+    cardIdentifier: "snapback-red",
     functionalText: `Deal 3 arcane damage to target hero.  If you have played another Wizard 'non-attack' action card this turn, you may play Snapback as though it were an instant.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU174.png",
     images: [{
@@ -17736,7 +17736,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "snapback-yellow",
+    cardIdentifier: "snapback-yellow",
     functionalText: `Deal 2 arcane damage to target hero.  If you have played another Wizard 'non-attack' action card this turn, you may play Snapback as though it were an instant.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU175.png",
     images: [{
@@ -17776,7 +17776,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "snapback-blue",
+    cardIdentifier: "snapback-blue",
     functionalText: `Deal 1 arcane damage to target hero.  If you have played another Wizard 'non-attack' action card this turn, you may play Snapback as though it were an instant.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU176.png",
     images: [{
@@ -17816,7 +17816,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "coax-a-commotion-red",
+    cardIdentifier: "coax-a-commotion-red",
     functionalText: `If Coax a Commotion hits, choose any number:  - Each hero creates a Quicken token. - Each hero draws a card. - Each hero gains 1{h}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU180.png",
     images: [{
@@ -17856,7 +17856,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "gorganian-tome",
+    cardIdentifier: "gorganian-tome",
     functionalText: `**Legendary** *(You may only have 1 Gorganian Tome in your deck.)*  Draw X cards, where X is 1 plus the number of Gorganian Tomes in all graveyards.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU181.png",
     images: [{
@@ -17896,7 +17896,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "promise-of-plenty-red",
+    cardIdentifier: "promise-of-plenty-red",
     functionalText: `If Promise of Plenty hits, each hero who doesn’t have a card in their arsenal puts the top card of their deck face down into their arsenal.  If Promise of Plenty is played from arsenal, it gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU183.png",
     images: [{
@@ -17931,7 +17931,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "promise-of-plenty-yellow",
+    cardIdentifier: "promise-of-plenty-yellow",
     functionalText: `If Promise of Plenty hits, each hero who doesn’t have a card in their arsenal puts the top card of their deck face down into their arsenal.  If Promise of Plenty is played from arsenal, it gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU184.png",
     images: [{
@@ -17966,7 +17966,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "promise-of-plenty-blue",
+    cardIdentifier: "promise-of-plenty-blue",
     functionalText: `If Promise of Plenty hits, each hero who doesn’t have a card in their arsenal puts the top card of their deck face down into their arsenal.  If Promise of Plenty is played from arsenal, it gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU185.png",
     images: [{
@@ -18001,7 +18001,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "cash-in-yellow",
+    cardIdentifier: "cash-in-yellow",
     functionalText: `You may destroy 4 Coppers, 2 Silvers, or 1 Gold you control rather than pay Cash In's {r} cost.  Draw 2 cards.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU188.png",
     images: [{
@@ -18036,7 +18036,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "brutal-assault-red",
+    cardIdentifier: "brutal-assault-red",
     functionalText: `null`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU192.png",
     images: [{
@@ -18071,7 +18071,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "brutal-assault-yellow",
+    cardIdentifier: "brutal-assault-yellow",
     functionalText: `null`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU193.png",
     images: [{
@@ -18106,7 +18106,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "brutal-assault-blue",
+    cardIdentifier: "brutal-assault-blue",
     functionalText: `null`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU194.png",
     images: [{
@@ -18146,7 +18146,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "great-library-of-solana",
+    cardIdentifier: "great-library-of-solana",
     functionalText: `**Legendary** *(You may only have 1 Great Library of Solana in your deck.)*  At the beginning of each end phase, if a hero has 2 or more cards with yellow color strips in their pitch zone, they gain +1{i} until end of turn.  **Action** - Discard 2 cards with yellow color strips: Destroy Great Library of Solana. Any hero may activate this ability. **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON000.width-450.png",
     images: [{
@@ -18181,7 +18181,7 @@
     subType: ActionSubType.Landmark,
   },{
     class: Class.Illusionist,
-    identifier: "herald-of-erudition-yellow",
+    cardIdentifier: "herald-of-erudition-yellow",
     functionalText: `**Dominate** *(The defending hero can't defend Herald of Erudition with more than 1 card from their hand.)*  If Herald of Erudition hits, put it into your hero's soul and draw 2 cards.  **Phantasm** *(If Herald of Erudition is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Erudition and close the combat chain.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON004.width-450.png",
     images: [{
@@ -18221,7 +18221,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "herald-of-judgment-yellow",
+    cardIdentifier: "herald-of-judgment-yellow",
     functionalText: `**Prism Specialization** *(You may only have Herald of Judgment in your deck if your hero is Prism.)*  If Herald of Judgment hits, put it into your hero's soul and the defending hero can't play cards from their banished zone during their next action phase. *(Put this card face up under your hero card.)*  **Phantasm** *(If Herald of Judgment is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Judgment and close the combat chain.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON007.width-450.png",
     images: [{
@@ -18266,7 +18266,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "herald-of-triumph-red",
+    cardIdentifier: "herald-of-triumph-red",
     functionalText: `Attack action cards have -1{p} while defending Herald of Triumph.  If Herald of Triumph hits, put it into your hero's soul. *(Put this card face up under your hero card.)*  **Phantasm** *(If Herald of Triumph is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Triumph and close the combat chain.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON008.width-450.png",
     images: [{
@@ -18301,7 +18301,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "herald-of-triumph-yellow",
+    cardIdentifier: "herald-of-triumph-yellow",
     functionalText: `Attack action cards have -1{p} while defending Herald of Triumph.  If Herald of Triumph hits, put it into your hero's soul. *(Put this card face up under your hero card.)*  **Phantasm** *(If Herald of Triumph is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Triumph and close the combat chain.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON009.width-450.png",
     images: [{
@@ -18336,7 +18336,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "herald-of-triumph-blue",
+    cardIdentifier: "herald-of-triumph-blue",
     functionalText: `Attack action cards have -1{p} while defending Herald of Triumph.  If Herald of Triumph hits, put it into your hero's soul. *(Put this card face up under your hero card.)*  **Phantasm** *(If Herald of Triumph is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Triumph and close the combat chain.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON010.width-450.png",
     images: [{
@@ -18371,7 +18371,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "herald-of-protection-red",
+    cardIdentifier: "herald-of-protection-red",
     functionalText: `If Herald of Protection hits, put it into your hero's soul and create a Spectral Shield token. *(It's an Illusionist aura with "If your hero would be dealt damage, instead destroy Spectral Shield and prevent 1 damage that source would deal.")*  **Phantasm** *(If Herald of Protection is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Protection and close the combat chain.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON014.width-450.png",
     images: [{
@@ -18416,7 +18416,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "herald-of-protection-yellow",
+    cardIdentifier: "herald-of-protection-yellow",
     functionalText: `If Herald of Protection hits, put it into your hero's soul and create a Spectral Shield token. *(It's an Illusionist aura with "If your hero would be dealt damage, instead destroy Spectral Shield and prevent 1 damage that source would deal.")*  **Phantasm** *(If Herald of Protection is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Protection and close the combat chain.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON015.width-450.png",
     images: [{
@@ -18456,7 +18456,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "herald-of-protection-blue",
+    cardIdentifier: "herald-of-protection-blue",
     functionalText: `If Herald of Protection hits, put it into your hero's soul and create a Spectral Shield token. *(It's an Illusionist aura with "If your hero would be dealt damage, instead destroy Spectral Shield and prevent 1 damage that source would deal.")*  **Phantasm** *(If Herald of Protection is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Protection and close the combat chain.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON016.width-450.png",
     images: [{
@@ -18501,7 +18501,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "herald-of-ravages-red",
+    cardIdentifier: "herald-of-ravages-red",
     functionalText: `If Herald of Ravages hits, put it into your hero's soul and deal 1 arcane damage to target hero. *(Put this card face up under your hero card.)*  **Phantasm** *(If Herald of Ravages is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Ravages and close the combat chain.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/9986165132..223435430.width-450.png",
     images: [{
@@ -18541,7 +18541,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "herald-of-ravages-yellow",
+    cardIdentifier: "herald-of-ravages-yellow",
     functionalText: `If Herald of Ravages hits, put it into your hero's soul and deal 1 arcane damage to target hero. *(Put this card face up under your hero card.)*  **Phantasm** *(If Herald of Ravages is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Ravages and close the combat chain.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/23fgw5465b464.width-450.png",
     images: [{
@@ -18576,7 +18576,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "herald-of-ravages-blue",
+    cardIdentifier: "herald-of-ravages-blue",
     functionalText: `If Herald of Ravages hits, put it into your hero's soul and deal 1 arcane damage to target hero. *(Put this card face up under your hero card.)*  **Phantasm** *(If Herald of Ravages is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Ravages and close the combat chain.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/456b443654yteb65764.width-450.png",
     images: [{
@@ -18616,7 +18616,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "herald-of-rebirth-red",
+    cardIdentifier: "herald-of-rebirth-red",
     functionalText: `If Herald of Rebirth hits, put it into your hero's soul and put up to 1 card with phantasm from your graveyard on top of your deck. *(Put this card face up under your hero card.)*  **Phantasm** *(If Herald of Rebirth is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Rebirth and close the combat chain.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON020.width-450.png",
     images: [{
@@ -18656,7 +18656,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "herald-of-rebirth-yellow",
+    cardIdentifier: "herald-of-rebirth-yellow",
     functionalText: `If Herald of Rebirth hits, put it into your hero's soul and put up to 1 card with phantasm from your graveyard on top of your deck. *(Put this card face up under your hero card.)*  **Phantasm** *(If Herald of Rebirth is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Rebirth and close the combat chain.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON021.width-450.png",
     images: [{
@@ -18691,7 +18691,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "herald-of-rebirth-blue",
+    cardIdentifier: "herald-of-rebirth-blue",
     functionalText: `If Herald of Rebirth hits, put it into your hero's soul and put up to 1 card with phantasm from your graveyard on top of your deck. *(Put this card face up under your hero card.)*  **Phantasm** *(If Herald of Rebirth is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Rebirth and close the combat chain.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON022.width-450.png",
     images: [{
@@ -18731,7 +18731,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "herald-of-tenacity-red",
+    cardIdentifier: "herald-of-tenacity-red",
     functionalText: `**Dominate** *(The defending hero can't defend Herald of Tenacity with more than 1 card from their hand.)*  If Herald of Tenacity hits, put it into your hero's soul. *(Put this card face up under your hero card.)*  **Phantasm** *(If Herald of Tenacity is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Tenacity and close the combat chain.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON023.width-450.png",
     images: [{
@@ -18771,7 +18771,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "herald-of-tenacity-yellow",
+    cardIdentifier: "herald-of-tenacity-yellow",
     functionalText: `**Dominate** *(The defending hero can't defend Herald of Tenacity with more than 1 card from their hand.)*  If Herald of Tenacity hits, put it into your hero's soul. *(Put this card face up under your hero card.)*  **Phantasm** *(If Herald of Tenacity is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Tenacity and close the combat chain.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON024.width-450.png",
     images: [{
@@ -18806,7 +18806,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "herald-of-tenacity-blue",
+    cardIdentifier: "herald-of-tenacity-blue",
     functionalText: `**Dominate** *(The defending hero can't defend Herald of Tenacity with more than 1 card from their hand.)*  If Herald of Tenacity hits, put it into your hero's soul. *(Put this card face up under your hero card.)*  **Phantasm** *(If Herald of Tenacity is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Tenacity and close the combat chain.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON025.width-450.png",
     images: [{
@@ -18846,7 +18846,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "wartune-herald-red",
+    cardIdentifier: "wartune-herald-red",
     functionalText: `If Wartune Herald hits, put it into your hero's soul. *(Put this card face up under your hero card.)*  **Phantasm** *(If Wartune Herald is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Wartune Herald and close the combat chain.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON026.width-450.png",
     images: [{
@@ -18891,7 +18891,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "wartune-herald-yellow",
+    cardIdentifier: "wartune-herald-yellow",
     functionalText: `If Wartune Herald hits, put it into your hero's soul. *(Put this card face up under your hero card.)*  **Phantasm** *(If Wartune Herald is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Wartune Herald and close the combat chain.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON027.width-450.png",
     images: [{
@@ -18931,7 +18931,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "wartune-herald-blue",
+    cardIdentifier: "wartune-herald-blue",
     functionalText: `If Wartune Herald hits, put it into your hero's soul. *(Put this card face up under your hero card.)*  **Phantasm** *(If Wartune Herald is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Wartune Herald and close the combat chain.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON028.width-450.png",
     images: [{
@@ -18976,7 +18976,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
-    identifier: "bolting-blade-yellow",
+    cardIdentifier: "bolting-blade-yellow",
     functionalText: `Bolting Blade costs {r}{r} less to play for each time you've **charged** this turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON032.width-450.png",
     images: [{
@@ -19011,7 +19011,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
-    identifier: "lumina-ascension-yellow",
+    cardIdentifier: "lumina-ascension-yellow",
     functionalText: `**Boltyn Specialization** *(You may only have Lumina Ascension in your deck if your hero is Boltyn.)*  Until end of turn, weapons you control gain +1{p} and "If this hits, reveal the top card of your deck. If it's a Light card, put it into your hero's soul and gain 1{h}, otherwise put it on the bottom of your deck."  If you've **charged** this turn, you may attack an additional time with each weapon you control.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON034.width-450.png",
     images: [{
@@ -19051,7 +19051,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "v-of-the-vanguard-yellow",
+    cardIdentifier: "v-of-the-vanguard-yellow",
     functionalText: `**Boltyn Specialization** *(You may only have V of the Vanguard in your deck if your hero is Boltyn.)*  As an additional cost to play V of the Vanguard, you may **charge** your hero's soul any number of times. *(Put 1 or more cards from your hand face up under your hero card.)*  Attacks on this combat chain gain +1{p} for each Light card charged this way.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON035.width-450.png",
     images: [{
@@ -19091,7 +19091,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
-    identifier: "battlefield-blitz-red",
+    cardIdentifier: "battlefield-blitz-red",
     functionalText: `If you’ve **charged** this turn, Battlefield Blitz gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON036.width-450.png",
     images: [{
@@ -19131,7 +19131,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
-    identifier: "battlefield-blitz-yellow",
+    cardIdentifier: "battlefield-blitz-yellow",
     functionalText: `If you’ve **charged** this turn, Battlefield Blitz gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON037.width-450.png",
     images: [{
@@ -19166,7 +19166,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
-    identifier: "battlefield-blitz-blue",
+    cardIdentifier: "battlefield-blitz-blue",
     functionalText: `If you’ve **charged** this turn, Battlefield Blitz gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON038.width-450.png",
     images: [{
@@ -19201,7 +19201,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
-    identifier: "valiant-thrust-red",
+    cardIdentifier: "valiant-thrust-red",
     functionalText: `If you’ve **charged** this turn, Valiant Thrust gains +3{p}`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON039.width-450.png",
     images: [{
@@ -19241,7 +19241,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
-    identifier: "valiant-thrust-yellow",
+    cardIdentifier: "valiant-thrust-yellow",
     functionalText: `If you’ve **charged** this turn, Valiant Thrust gains +3{p}`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON040.width-450.png",
     images: [{
@@ -19276,7 +19276,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
-    identifier: "valiant-thrust-blue",
+    cardIdentifier: "valiant-thrust-blue",
     functionalText: `If you’ve **charged** this turn, Valiant Thrust gains +3{p}`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON041.width-450.png",
     images: [{
@@ -19311,7 +19311,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
-    identifier: "bolt-of-courage-red",
+    cardIdentifier: "bolt-of-courage-red",
     functionalText: `As an additional cost to play Bolt of Courage, you may **charge** your hero's soul. *(Put a card from your hand face up under your hero card.)*  If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a card."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON042.width-450.png",
     images: [{
@@ -19351,7 +19351,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
-    identifier: "bolt-of-courage-yellow",
+    cardIdentifier: "bolt-of-courage-yellow",
     functionalText: `As an additional cost to play Bolt of Courage, you may **charge** your hero's soul. *(Put a card from your hand face up under your hero card.)*  If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a card."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON043.width-450.png",
     images: [{
@@ -19386,7 +19386,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
-    identifier: "bolt-of-courage-blue",
+    cardIdentifier: "bolt-of-courage-blue",
     functionalText: `As an additional cost to play Bolt of Courage, you may **charge** your hero's soul. *(Put a card from your hand face up under your hero card.)*  If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a card."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON044.width-450.png",
     images: [{
@@ -19426,7 +19426,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
-    identifier: "cross-the-line-red",
+    cardIdentifier: "cross-the-line-red",
     functionalText: `As an additional cost to play Cross the Line, you may **charge** your hero’s soul. *(Put a card from your hand face up under your hero card.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON045.width-450.png",
     images: [{
@@ -19466,7 +19466,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
-    identifier: "cross-the-line-yellow",
+    cardIdentifier: "cross-the-line-yellow",
     functionalText: `As an additional cost to play Cross the Line, you may **charge** your hero’s soul. *(Put a card from your hand face up under your hero card.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON046.width-450.png",
     images: [{
@@ -19506,7 +19506,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
-    identifier: "cross-the-line-blue",
+    cardIdentifier: "cross-the-line-blue",
     functionalText: `As an additional cost to play Cross the Line, you may **charge** your hero’s soul. *(Put a card from your hand face up under your hero card.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON047.width-450.png",
     images: [{
@@ -19541,7 +19541,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
-    identifier: "engulfing-light-red",
+    cardIdentifier: "engulfing-light-red",
     functionalText: `As an additional cost to play Engulfing Light, you may **charge** your hero's soul. *(Put a card from your hand face up under your hero card.)*  If you've **charged** this turn, Engulfing Light gains "If this hits, put it into your hero's soul."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON048.width-450.png",
     images: [{
@@ -19581,7 +19581,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
-    identifier: "engulfing-light-yellow",
+    cardIdentifier: "engulfing-light-yellow",
     functionalText: `As an additional cost to play Engulfing Light, you may **charge** your hero's soul. *(Put a card from your hand face up under your hero card.)*  If you've **charged** this turn, Engulfing Light gains "If this hits, put it into your hero's soul."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON049.width-450.png",
     images: [{
@@ -19616,7 +19616,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
-    identifier: "engulfing-light-blue",
+    cardIdentifier: "engulfing-light-blue",
     functionalText: `As an additional cost to play Engulfing Light, you may **charge** your hero's soul. *(Put a card from your hand face up under your hero card.)*  If you've **charged** this turn, Engulfing Light gains "If this hits, put it into your hero's soul."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON050.width-450.png",
     images: [{
@@ -19656,7 +19656,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
-    identifier: "express-lightning-red",
+    cardIdentifier: "express-lightning-red",
     functionalText: `As an additional cost to play Express Lightning, you may **charge** your hero's soul. *(Put a card from your hand face up under your hero card.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON051.width-450.png",
     images: [{
@@ -19696,7 +19696,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
-    identifier: "express-lightning-yellow",
+    cardIdentifier: "express-lightning-yellow",
     functionalText: `As an additional cost to play Express Lightning, you may **charge** your hero's soul. *(Put a card from your hand face up under your hero card.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON052.width-450.png",
     images: [{
@@ -19736,7 +19736,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
-    identifier: "express-lightning-blue",
+    cardIdentifier: "express-lightning-blue",
     functionalText: `As an additional cost to play Express Lightning, you may **charge** your hero's soul. *(Put a card from your hand face up under your hero card.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON053.width-450.png",
     images: [{
@@ -19771,7 +19771,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
-    identifier: "take-flight-red",
+    cardIdentifier: "take-flight-red",
     functionalText: `As an additional cost to play Take Flight, you may **charge** your hero's soul. *(Put a card from your hand face up under your hero card.)*  If you've **charged** this turn, Take Flight gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON054.width-450.png",
     images: [{
@@ -19811,7 +19811,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
-    identifier: "take-flight-yellow",
+    cardIdentifier: "take-flight-yellow",
     functionalText: `As an additional cost to play Take Flight, you may **charge** your hero's soul. *(Put a card from your hand face up under your hero card.)*  If you've **charged** this turn, Take Flight gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON055.width-450.png",
     images: [{
@@ -19851,7 +19851,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
-    identifier: "take-flight-blue",
+    cardIdentifier: "take-flight-blue",
     functionalText: `As an additional cost to play Take Flight, you may **charge** your hero's soul. *(Put a card from your hand face up under your hero card.)*  If you've **charged** this turn, Take Flight gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON056.width-450.png",
     images: [{
@@ -19886,7 +19886,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "celestial-cataclysm-yellow",
+    cardIdentifier: "celestial-cataclysm-yellow",
     functionalText: `As an additional cost to play Celestial Cataclysm, banish 3 cards from your hero's soul.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON062.width-450.png",
     images: [{
@@ -19921,7 +19921,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "soul-food-yellow",
+    cardIdentifier: "soul-food-yellow",
     functionalText: `Put Soul Food and all cards in your hand into your hero's soul. *(Put the cards face up under your hero card.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON064.width-450.png",
     images: [{
@@ -19956,7 +19956,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "invigorating-light-red",
+    cardIdentifier: "invigorating-light-red",
     functionalText: `When you play Invigorating Light, if there are no cards in your hero's soul, put it into your hero's soul when the combat chain closes. *(Put the card face up under your hero card.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON066.width-450.png",
     images: [{
@@ -19996,7 +19996,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "invigorating-light-yellow",
+    cardIdentifier: "invigorating-light-yellow",
     functionalText: `When you play Invigorating Light, if there are no cards in your hero's soul, put it into your hero's soul when the combat chain closes. *(Put the card face up under your hero card.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON067.width-450.png",
     images: [{
@@ -20031,7 +20031,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "invigorating-light-blue",
+    cardIdentifier: "invigorating-light-blue",
     functionalText: `When you play Invigorating Light, if there are no cards in your hero's soul, put it into your hero's soul when the combat chain closes. *(Put the card face up under your hero card.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON068.width-450.png",
     images: [{
@@ -20066,7 +20066,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "illuminate-red",
+    cardIdentifier: "illuminate-red",
     functionalText: `If Illuminate hits, put it into your hero’s soul. *(Put this card face up under your hero card.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON072.width-450.png",
     images: [{
@@ -20106,7 +20106,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "illuminate-yellow",
+    cardIdentifier: "illuminate-yellow",
     functionalText: `If Illuminate hits, put it into your hero’s soul. *(Put this card face up under your hero card.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON073.width-450.png",
     images: [{
@@ -20141,7 +20141,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "illuminate-blue",
+    cardIdentifier: "illuminate-blue",
     functionalText: `If Illuminate hits, put it into your hero’s soul. *(Put this card face up under your hero card.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON074.width-450.png",
     images: [{
@@ -20186,7 +20186,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "impenetrable-belief-red",
+    cardIdentifier: "impenetrable-belief-red",
     functionalText: `If 3 or more cards have been put into an opposing hero's banished zone this turn, Impenetrable Belief gains +2{d} while defending.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON075.width-450.png",
     images: [{
@@ -20221,7 +20221,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "impenetrable-belief-yellow",
+    cardIdentifier: "impenetrable-belief-yellow",
     functionalText: `If 3 or more cards have been put into an opposing hero's banished zone this turn, Impenetrable Belief gains +2{d} while defending.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON076.width-450.png",
     images: [{
@@ -20256,7 +20256,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "impenetrable-belief-blue",
+    cardIdentifier: "impenetrable-belief-blue",
     functionalText: `If 3 or more cards have been put into an opposing hero's banished zone this turn, Impenetrable Belief gains +2{d} while defending.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON077.width-450.png",
     images: [{
@@ -20291,7 +20291,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "rising-solartide-red",
+    cardIdentifier: "rising-solartide-red",
     functionalText: `If Rising Solartide hits, put it into your hero’s soul. *(Put this card face up under your hero card.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON078.width-450.png",
     images: [{
@@ -20331,7 +20331,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "rising-solartide-yellow",
+    cardIdentifier: "rising-solartide-yellow",
     functionalText: `If Rising Solartide hits, put it into your hero’s soul. *(Put this card face up under your hero card.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON079.width-450.png",
     images: [{
@@ -20376,7 +20376,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "rising-solartide-blue",
+    cardIdentifier: "rising-solartide-blue",
     functionalText: `If Rising Solartide hits, put it into your hero’s soul. *(Put this card face up under your hero card.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON080.width-450.png",
     images: [{
@@ -20411,7 +20411,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "seek-enlightenment-red",
+    cardIdentifier: "seek-enlightenment-red",
     functionalText: `The next attack action card you play this turn gains +3{p} and "If this hits, put it into your hero's soul." *(Put the card face up under your hero card.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON081.width-450.png",
     images: [{
@@ -20451,7 +20451,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "seek-enlightenment-yellow",
+    cardIdentifier: "seek-enlightenment-yellow",
     functionalText: `The next attack action card you play this turn gains +2{p} and "If this hits, put it into your hero's soul." *(Put the card face up under your hero card.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON082.width-450.png",
     images: [{
@@ -20486,7 +20486,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "seek-enlightenment-blue",
+    cardIdentifier: "seek-enlightenment-blue",
     functionalText: `The next attack action card you play this turn gains +1{p} and "If this hits, put it into your hero's soul." *(Put the card face up under your hero card.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON083.width-450.png",
     images: [{
@@ -20526,7 +20526,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
-    identifier: "phantasmaclasm-red",
+    cardIdentifier: "phantasmaclasm-red",
     functionalText: `Look at the defending hero's hand and choose a card. They put it on the bottom of their deck then draw a card.  **Phantasm** *(If Phantasmaclasm is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Phantasmaclasm and close the combat chain.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/fy8w7r78545yit3787efygs8def.width-450.png",
     images: [{
@@ -20561,7 +20561,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "phantasmify-red",
+    cardIdentifier: "phantasmify-red",
     functionalText: `The next attack action card you play this turn is Illusionist in addition to its other class types, and gains +3/4/5{p} and **phantasm.** *(If the attack is defended by a non-Illusionist attack action card with 6 or more {p}, destroy it and close the combat chain.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON095.width-450.png",
     images: [{
@@ -20606,7 +20606,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
-    identifier: "phantasmify-yellow",
+    cardIdentifier: "phantasmify-yellow",
     functionalText: `The next attack action card you play this turn is Illusionist in addition to its other class types, and gains +3/4/5{p} and **phantasm.** *(If the attack is defended by a non-Illusionist attack action card with 6 or more {p}, destroy it and close the combat chain.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON096.width-450.png",
     images: [{
@@ -20646,7 +20646,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
-    identifier: "phantasmify-blue",
+    cardIdentifier: "phantasmify-blue",
     functionalText: `The next attack action card you play this turn is Illusionist in addition to its other class types, and gains +3/4/5{p} and **phantasm.** *(If the attack is defended by a non-Illusionist attack action card with 6 or more {p}, destroy it and close the combat chain.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON097.width-450.png",
     images: [{
@@ -20686,7 +20686,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
-    identifier: "enigma-chimera-red",
+    cardIdentifier: "enigma-chimera-red",
     functionalText: `**Phantasm** *(If Enigma Chimera is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Enigma Chimera and close the combat chain.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON098.width-450.png",
     images: [{
@@ -20721,7 +20721,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "enigma-chimera-yellow",
+    cardIdentifier: "enigma-chimera-yellow",
     functionalText: `**Phantasm** *(If Enigma Chimera is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Enigma Chimera and close the combat chain.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON099.width-450.png",
     images: [{
@@ -20761,7 +20761,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "enigma-chimera-blue",
+    cardIdentifier: "enigma-chimera-blue",
     functionalText: `**Phantasm** *(If Enigma Chimera is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Enigma Chimera and close the combat chain.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON100.width-450.png",
     images: [{
@@ -20801,7 +20801,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "spears-of-surreality-red",
+    cardIdentifier: "spears-of-surreality-red",
     functionalText: `**Phantasm** *(If Spears of Surreality is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Spears of Surreality and close the combat chain.)*  **Go again** *(If Spears of Surreality is destroyed, go again does not resolve.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON101.width-450.png",
     images: [{
@@ -20836,7 +20836,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "spears-of-surreality-yellow",
+    cardIdentifier: "spears-of-surreality-yellow",
     functionalText: `**Phantasm** *(If Spears of Surreality is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Spears of Surreality and close the combat chain.)*  **Go again** *(If Spears of Surreality is destroyed, go again does not resolve.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON102.width-450.png",
     images: [{
@@ -20871,7 +20871,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "spears-of-surreality-blue",
+    cardIdentifier: "spears-of-surreality-blue",
     functionalText: `**Phantasm** *(If Spears of Surreality is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Spears of Surreality and close the combat chain.)*  **Go again** *(If Spears of Surreality is destroyed, go again does not resolve.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON103.width-450.png",
     images: [{
@@ -20911,7 +20911,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
-    identifier: "spill-blood-red",
+    cardIdentifier: "spill-blood-red",
     functionalText: `Axes you control gain +2{p} and **dominate** until end of turn.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON109.width-450.png",
     images: [{
@@ -20946,7 +20946,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "dusk-path-pilgrimage-red",
+    cardIdentifier: "dusk-path-pilgrimage-red",
     functionalText: `Your next weapon attack this turn gains +3{p} and "If this hits, you may attack an additional time with this weapon this turn." *(You must have an action point to attack an additional time.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON110.width-450.png",
     images: [{
@@ -20991,7 +20991,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "dusk-path-pilgrimage-yellow",
+    cardIdentifier: "dusk-path-pilgrimage-yellow",
     functionalText: `Your next weapon attack this turn gains +2{p} and "If this hits, you may attack an additional time with this weapon this turn." *(You must have an action point to attack an additional time.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON111.width-450.png",
     images: [{
@@ -21031,7 +21031,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "dusk-path-pilgrimage-blue",
+    cardIdentifier: "dusk-path-pilgrimage-blue",
     functionalText: `Your next weapon attack this turn gains +1{p} and "If this hits, you may attack an additional time with this weapon this turn." *(You must have an action point to attack an additional time.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON112.width-450.png",
     images: [{
@@ -21071,7 +21071,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "plow-through-red",
+    cardIdentifier: "plow-through-red",
     functionalText: `Your next weapon attack this turn gains +3{p} and "If this weapon is defended by an attack action card, it gains +1{p} until end of turn".  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON113.width-450.png",
     images: [{
@@ -21106,7 +21106,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "plow-through-yellow",
+    cardIdentifier: "plow-through-yellow",
     functionalText: `Your next weapon attack this turn gains +2{p} and "If this weapon is defended by an attack action card, it gains +1{p} until end of turn".  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON114.width-450.png",
     images: [{
@@ -21141,7 +21141,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "plow-through-blue",
+    cardIdentifier: "plow-through-blue",
     functionalText: `Your next weapon attack this turn gains +1{p} and "If this weapon is defended by an attack action card, it gains +1{p} until end of turn".  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON115.width-450.png",
     images: [{
@@ -21176,7 +21176,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "second-swing-red",
+    cardIdentifier: "second-swing-red",
     functionalText: `If you have attacked with a weapon this turn, your next attack this turn gains +4{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON116.width-450.png",
     images: [{
@@ -21216,7 +21216,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "second-swing-yellow",
+    cardIdentifier: "second-swing-yellow",
     functionalText: `If you have attacked with a weapon this turn, your next attack this turn gains +3{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON117.width-450.png",
     images: [{
@@ -21251,7 +21251,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "second-swing-blue",
+    cardIdentifier: "second-swing-blue",
     functionalText: `If you have attacked with a weapon this turn, your next attack this turn gains +2{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON118.width-450.png",
     images: [{
@@ -21286,7 +21286,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
-    identifier: "deep-rooted-evil-yellow",
+    cardIdentifier: "deep-rooted-evil-yellow",
     functionalText: `If a card with 6 or more {p} has been put into your banished zone this turn, you may play Deep Rooted Evil from your banished zone.  **Blood Debt** *(At the beginning of your end phase, if Deep Rooted Evil is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON123.width-450.png",
     images: [{
@@ -21321,7 +21321,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "mark-of-the-beast-yellow",
+    cardIdentifier: "mark-of-the-beast-yellow",
     functionalText: `If Mark of the Beast would be put into your graveyard from anywhere, instead banish it.  **Blood Debt** *(At the beginning of your end phase, if Mark of the Beast is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON124.width-450.png",
     images: [{
@@ -21361,7 +21361,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "shadow-of-blasphomet-red",
+    cardIdentifier: "shadow-of-blasphomet-red",
     functionalText: `Draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, search your deck for a card with **blood debt**, banish it, then shuffle your deck.  **Blood Debt** *(At the beginning of your end phase, if Shadow of Blasmophet is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/KLUiCIJEFKdt8QM545A4g.width-450.png",
     images: [{
@@ -21396,7 +21396,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "endless-maw-red",
+    cardIdentifier: "endless-maw-red",
     functionalText: `As an additional cost to play Endless Maw, banish 3 random cards from your graveyard.  If a card with 6 or more {p} is banished this way, Endless maw gains +3{p}.  **Blood Debt** *(At the beginning of your end phase, if Endless Maw is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/8Hvi6X0i746eD8UVlBjt.width-450.png",
     images: [{
@@ -21436,7 +21436,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "endless-maw-yellow",
+    cardIdentifier: "endless-maw-yellow",
     functionalText: `As an additional cost to play Endless Maw, banish 3 random cards from your graveyard.  If a card with 6 or more {p} is banished this way, Endless maw gains +3{p}.  **Blood Debt** *(At the beginning of your end phase, if Endless Maw is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/3HnONyYapgg32MEXbFXUB.width-450.png",
     images: [{
@@ -21471,7 +21471,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "endless-maw-blue",
+    cardIdentifier: "endless-maw-blue",
     functionalText: `As an additional cost to play Endless Maw, banish 3 random cards from your graveyard.  If a card with 6 or more {p} is banished this way, Endless maw gains +3{p}.  **Blood Debt** *(At the beginning of your end phase, if Endless Maw is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/SAy5p6Yoa21bM89UuG8l4.width-450.png",
     images: [{
@@ -21506,7 +21506,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "writhing-beast-hulk-red",
+    cardIdentifier: "writhing-beast-hulk-red",
     functionalText: `As an additional cost to play Writhing Beast Hulk, banish 3 random cards from your graveyard.  If a card with 6 or more {p} is banished this way, Writhing Beast Hulk gains **dominate.** *(The defending hero can’t defend Writhing Beast Hulk with more than 1 card from their hand.)*  **Blood Debt** *(At the beginning of your end phase, if Writhing Beast Hulk is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON129.width-450.png",
     images: [{
@@ -21546,7 +21546,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "writhing-beast-hulk-yellow",
+    cardIdentifier: "writhing-beast-hulk-yellow",
     functionalText: `As an additional cost to play Writhing Beast Hulk, banish 3 random cards from your graveyard.  If a card with 6 or more {p} is banished this way, Writhing Beast Hulk gains **dominate.** *(The defending hero can’t defend Writhing Beast Hulk with more than 1 card from their hand.)*  **Blood Debt** *(At the beginning of your end phase, if Writhing Beast Hulk is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON130.width-450.png",
     images: [{
@@ -21581,7 +21581,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "writhing-beast-hulk-blue",
+    cardIdentifier: "writhing-beast-hulk-blue",
     functionalText: `As an additional cost to play Writhing Beast Hulk, banish 3 random cards from your graveyard.  If a card with 6 or more {p} is banished this way, Writhing Beast Hulk gains **dominate.** *(The defending hero can’t defend Writhing Beast Hulk with more than 1 card from their hand.)*  **Blood Debt** *(At the beginning of your end phase, if Writhing Beast Hulk is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON131.width-450.png",
     images: [{
@@ -21616,7 +21616,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "convulsions-from-the-bellows-of-hell-red",
+    cardIdentifier: "convulsions-from-the-bellows-of-hell-red",
     functionalText: `As an additional cost to play Convulsions from the Bellows of Hell, banish 3 random cards from your graveyard.  If a card with 6 or more {p} is banished this way, the next attack action card you play this turn gains +3{p} and **dominate.** *(The defending hero can't defend the attack with more than 1 card from their hand.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON132.width-450.png",
     images: [{
@@ -21651,7 +21651,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
-    identifier: "convulsions-from-the-bellows-of-hell-yellow",
+    cardIdentifier: "convulsions-from-the-bellows-of-hell-yellow",
     functionalText: `As an additional cost to play Convulsions from the Bellows of Hell, banish 3 random cards from your graveyard.  If a card with 6 or more {p} is banished this way, the next attack action card you play this turn gains +2{p} and **dominate.** *(The defending hero can't defend the attack with more than 1 card from their hand.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON133.width-450.png",
     images: [{
@@ -21686,7 +21686,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
-    identifier: "convulsions-from-the-bellows-of-hell-blue",
+    cardIdentifier: "convulsions-from-the-bellows-of-hell-blue",
     functionalText: `As an additional cost to play Convulsions from the Bellows of Hell, banish 3 random cards from your graveyard.  If a card with 6 or more {p} is banished this way, the next attack action card you play this turn gains +1{p} and **dominate.** *(The defending hero can't defend the attack with more than 1 card from their hand.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON134.width-450.png",
     images: [{
@@ -21726,7 +21726,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
-    identifier: "boneyard-marauder-red",
+    cardIdentifier: "boneyard-marauder-red",
     functionalText: `As an additional cost to play Boneyard Marauder, banish 3 random cards from your graveyard.  **Blood Debt** *(At the beginning of your end phase, if Boneyard Marauder is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON135.width-450.png",
     images: [{
@@ -21771,7 +21771,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "boneyard-marauder-yellow",
+    cardIdentifier: "boneyard-marauder-yellow",
     functionalText: `As an additional cost to play Boneyard Marauder, banish 3 random cards from your graveyard.  **Blood Debt** *(At the beginning of your end phase, if Boneyard Marauder is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON136.width-450.png",
     images: [{
@@ -21806,7 +21806,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "boneyard-marauder-blue",
+    cardIdentifier: "boneyard-marauder-blue",
     functionalText: `As an additional cost to play Boneyard Marauder, banish 3 random cards from your graveyard.  **Blood Debt** *(At the beginning of your end phase, if Boneyard Marauder is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON137.width-450.png",
     images: [{
@@ -21846,7 +21846,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "deadwood-rumbler-red",
+    cardIdentifier: "deadwood-rumbler-red",
     functionalText: `Draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, banish a card from a graveyard.  **Blood Debt** *(At the beginning of your end phase, if Deadwood Rumbler is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON138.width-450.png",
     images: [{
@@ -21886,7 +21886,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "deadwood-rumbler-yellow",
+    cardIdentifier: "deadwood-rumbler-yellow",
     functionalText: `Draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, banish a card from a graveyard.  **Blood Debt** *(At the beginning of your end phase, if Deadwood Rumbler is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON139.width-450.png",
     images: [{
@@ -21921,7 +21921,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "deadwood-rumbler-blue",
+    cardIdentifier: "deadwood-rumbler-blue",
     functionalText: `Draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, banish a card from a graveyard.  **Blood Debt** *(At the beginning of your end phase, if Deadwood Rumbler is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON140.width-450.png",
     images: [{
@@ -21961,7 +21961,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "dread-screamer-red",
+    cardIdentifier: "dread-screamer-red",
     functionalText: `As an additional cost to play Dread Screamer, banish 3 random cards from your graveyard  If a card with 6 or more {p} is banished this way, Dread Screamer gains **go again.**.  **Blood Debt** *(At the beginning of your end phase, if Dread Screamer is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON141.width-450.png",
     images: [{
@@ -22001,7 +22001,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "dread-screamer-yellow",
+    cardIdentifier: "dread-screamer-yellow",
     functionalText: `As an additional cost to play Dread Screamer, banish 3 random cards from your graveyard  If a card with 6 or more {p} is banished this way, Dread Screamer gains **go again.**.  **Blood Debt** *(At the beginning of your end phase, if Dread Screamer is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON142.width-450.png",
     images: [{
@@ -22036,7 +22036,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "dread-screamer-blue",
+    cardIdentifier: "dread-screamer-blue",
     functionalText: `As an additional cost to play Dread Screamer, banish 3 random cards from your graveyard  If a card with 6 or more {p} is banished this way, Dread Screamer gains **go again.**.  **Blood Debt** *(At the beginning of your end phase, if Dread Screamer is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON143.width-450.png",
     images: [{
@@ -22076,7 +22076,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "graveling-growl-red",
+    cardIdentifier: "graveling-growl-red",
     functionalText: `Play Graveling Growl only if a card with 6 or more {p} has been put into your banished zone this turn.  **Blood Debt** *(At the beginning of your end phase, if Graveling Growl is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON144.width-450.png",
     images: [{
@@ -22116,7 +22116,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "graveling-growl-yellow",
+    cardIdentifier: "graveling-growl-yellow",
     functionalText: `Play Graveling Growl only if a card with 6 or more {p} has been put into your banished zone this turn.  **Blood Debt** *(At the beginning of your end phase, if Graveling Growl is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON145.width-450.png",
     images: [{
@@ -22151,7 +22151,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "graveling-growl-blue",
+    cardIdentifier: "graveling-growl-blue",
     functionalText: `Play Graveling Growl only if a card with 6 or more {p} has been put into your banished zone this turn.  **Blood Debt** *(At the beginning of your end phase, if Graveling Growl is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON146.width-450.png",
     images: [{
@@ -22186,7 +22186,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "hungering-slaughterbeast-red",
+    cardIdentifier: "hungering-slaughterbeast-red",
     functionalText: `As an additional cost to play Hungering Slaughterbeast, banish 3 random cards from your graveyard.  **Blood Debt** *(At the beginning of your end phase, if Hungering Slaughterbeast is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON147.width-450.png",
     images: [{
@@ -22226,7 +22226,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "hungering-slaughterbeast-yellow",
+    cardIdentifier: "hungering-slaughterbeast-yellow",
     functionalText: `As an additional cost to play Hungering Slaughterbeast, banish 3 random cards from your graveyard.  **Blood Debt** *(At the beginning of your end phase, if Hungering Slaughterbeast is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON148.width-450.png",
     images: [{
@@ -22266,7 +22266,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "hungering-slaughterbeast-blue",
+    cardIdentifier: "hungering-slaughterbeast-blue",
     functionalText: `As an additional cost to play Hungering Slaughterbeast, banish 3 random cards from your graveyard.  **Blood Debt** *(At the beginning of your end phase, if Hungering Slaughterbeast is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON149.width-450.png",
     images: [{
@@ -22301,7 +22301,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "unwordly-bellow-red",
+    cardIdentifier: "unwordly-bellow-red",
     functionalText: `As an additional cost to play Unworldly Bellow, banish 3 random cards from your graveyard.  The next Brute or Shadow attack action card you play this turn gains +4{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON150.width-450.png",
     images: [{
@@ -22341,7 +22341,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
-    identifier: "unwordly-bellow-yellow",
+    cardIdentifier: "unwordly-bellow-yellow",
     functionalText: `As an additional cost to play Unworldly Bellow, banish 3 random cards from your graveyard.  The next Brute or Shadow attack action card you play this turn gains +3{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON151.width-450.png",
     images: [{
@@ -22376,7 +22376,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
-    identifier: "unwordly-bellow-blue",
+    cardIdentifier: "unwordly-bellow-blue",
     functionalText: `As an additional cost to play Unworldly Bellow, banish 3 random cards from your graveyard.  The next Brute or Shadow attack action card you play this turn gains +2{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON152.width-450.png",
     images: [{
@@ -22416,7 +22416,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "shadow-of-ursur-blue",
+    cardIdentifier: "shadow-of-ursur-blue",
     functionalText: `You may play Shadow of Ursur from your banished zone.  As an additional cost to play Shadow of Ursur, you may banish a card with blood debt from your hand. If you do, Shadow of Ursur gains **go again.**  **Blood Debt** *(At the beginning of your end phase, if Shadow of Ursur is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON156.width-450.png",
     images: [{
@@ -22451,7 +22451,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "dimenxxional-crossroads-yellow",
+    cardIdentifier: "dimenxxional-crossroads-yellow",
     functionalText: `**Go again**  Whenever you play an attack action card or a 'non-attack' action card from the banished zone, if you haven't played another card of that type this turn, deal 1 arcane damage to target hero.  If you lose {h} during your turn, destroy Dimenxxional Crossroads. *(Damage causes loss of {h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON157.width-450.png",
     images: [{
@@ -22486,7 +22486,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Runeblade,
-    identifier: "unhallowed-rites-red",
+    cardIdentifier: "unhallowed-rites-red",
     functionalText: `If you have played a 'non-attack' action card this turn, you may play Unhallowed Rites from your banished zone.  You may put a 'non-attack' action card with blood debt from your graveyard on the bottom of your deck.  **Blood Debt** *(At the beginning of your end phase, if Unhallowed Rites is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON159.width-450.png",
     images: [{
@@ -22526,7 +22526,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "unhallowed-rites-yellow",
+    cardIdentifier: "unhallowed-rites-yellow",
     functionalText: `If you have played a 'non-attack' action card this turn, you may play Unhallowed Rites from your banished zone.  You may put a 'non-attack' action card with blood debt from your graveyard on the bottom of your deck.  **Blood Debt** *(At the beginning of your end phase, if Unhallowed Rites is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON160.width-450.png",
     images: [{
@@ -22561,7 +22561,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "unhallowed-rites-blue",
+    cardIdentifier: "unhallowed-rites-blue",
     functionalText: `If you have played a 'non-attack' action card this turn, you may play Unhallowed Rites from your banished zone.  You may put a 'non-attack' action card with blood debt from your graveyard on the bottom of your deck.  **Blood Debt** *(At the beginning of your end phase, if Unhallowed Rites is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON161.width-450.png",
     images: [{
@@ -22596,7 +22596,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "dimenxxional-gateway-red",
+    cardIdentifier: "dimenxxional-gateway-red",
     functionalText: `Opt 3 *(Look at the top 3 cards of your deck. You may put them on the top and/or bottom in any order.)*  Reveal the top card of your deck. If it's a Runeblade card, deal 1 arcane damage to each opposing hero. If it's a Shadow card, you may banish it.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON162.width-450.png",
     images: [{
@@ -22631,7 +22631,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "dimenxxional-gateway-yellow",
+    cardIdentifier: "dimenxxional-gateway-yellow",
     functionalText: `Opt 2 *(Look at the top 2 cards of your deck. You may put them on the top and/or bottom in any order.)*  Reveal the top card of your deck. If it's a Runeblade card, deal 1 arcane damage to each opposing hero. If it's a Shadow card, you may banish it.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON163.width-450.png",
     images: [{
@@ -22666,7 +22666,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "dimenxxional-gateway-blue",
+    cardIdentifier: "dimenxxional-gateway-blue",
     functionalText: `Opt 1 *(Look at the top card of your deck. You may it on the bottom.)*  Reveal the top card of your deck. If it's a Runeblade card, deal 1 arcane damage to each opposing hero. If it's a Shadow card, you may banish it.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON164.width-450.png",
     images: [{
@@ -22701,7 +22701,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "seeping-shadows-red",
+    cardIdentifier: "seeping-shadows-red",
     functionalText: `You may play Seeping Shadows from your banished zone.  The next attack action card with cost 2 or less you play this turns gains +1{p} and **go again.**  **Go again**  **Blood Debt** *(At the beginning of your end phase, if Seeping Shadows is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON165.width-450.png",
     images: [{
@@ -22736,7 +22736,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "seeping-shadows-yellow",
+    cardIdentifier: "seeping-shadows-yellow",
     functionalText: `You may play Seeping Shadows from your banished zone.  The next attack action card with cost 1 or less you play this turns gains +1{p} and **go again.**  **Go again**  **Blood Debt** *(At the beginning of your end phase, if Seeping Shadows is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON166.width-450.png",
     images: [{
@@ -22776,7 +22776,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "seeping-shadows-blue",
+    cardIdentifier: "seeping-shadows-blue",
     functionalText: `You may play Seeping Shadows from your banished zone.  The next attack action card with cost 0 you play this turns gains +1{p} and **go again.**  **Go again**  **Blood Debt** *(At the beginning of your end phase, if Seeping Shadows is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON167.width-450.png",
     images: [{
@@ -22811,7 +22811,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "bounding-demigon-red",
+    cardIdentifier: "bounding-demigon-red",
     functionalText: `If you have played a 'non-attack' action card this turn, you may play Bounding Demigon from your banished zone. If you do, it gains +1{p}.  **Blood Debt** *(At the beginning of your end phase, if Bounding Demigon is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON168.width-450.png",
     images: [{
@@ -22851,7 +22851,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "bounding-demigon-yellow",
+    cardIdentifier: "bounding-demigon-yellow",
     functionalText: `If you have played a 'non-attack' action card this turn, you may play Bounding Demigon from your banished zone. If you do, it gains +1{p}.  **Blood Debt** *(At the beginning of your end phase, if Bounding Demigon is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON169.width-450.png",
     images: [{
@@ -22886,7 +22886,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "bounding-demigon-blue",
+    cardIdentifier: "bounding-demigon-blue",
     functionalText: `If you have played a 'non-attack' action card this turn, you may play Bounding Demigon from your banished zone. If you do, it gains +1{p}.  **Blood Debt** *(At the beginning of your end phase, if Bounding Demigon is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON170.width-450.png",
     images: [{
@@ -22921,7 +22921,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "piercing-shadow-vise-red",
+    cardIdentifier: "piercing-shadow-vise-red",
     functionalText: `You may play Piercing Shadow Vise from your banished zone.  If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow Vise gains +2 {p}.  **Blood Debt** *(At the beginning of your end phase, if Piercing Shadow Vise is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON171.width-450.png",
     images: [{
@@ -22961,7 +22961,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "piercing-shadow-vise-yellow",
+    cardIdentifier: "piercing-shadow-vise-yellow",
     functionalText: `You may play Piercing Shadow Vise from your banished zone.  If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow Vise gains +2 {p}.  **Blood Debt** *(At the beginning of your end phase, if Piercing Shadow Vise is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON172.width-450.png",
     images: [{
@@ -22996,7 +22996,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "piercing-shadow-vise-blue",
+    cardIdentifier: "piercing-shadow-vise-blue",
     functionalText: `You may play Piercing Shadow Vise from your banished zone.  If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow Vise gains +2 {p}.  **Blood Debt** *(At the beginning of your end phase, if Piercing Shadow Vise is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON173.width-450.png",
     images: [{
@@ -23036,7 +23036,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "rift-bind-red",
+    cardIdentifier: "rift-bind-red",
     functionalText: `You may play Rift Bind from your banished zone. If you do, it gains +X{p}, where X is the number of 'non-attack' action cards you have played this turn.  **Blood Debt** *(At the beginning of your end phase, if Rift Bind is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON174.width-450.png",
     images: [{
@@ -23076,7 +23076,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "rift-bind-yellow",
+    cardIdentifier: "rift-bind-yellow",
     functionalText: `You may play Rift Bind from your banished zone. If you do, it gains +X{p}, where X is the number of 'non-attack' action cards you have played this turn.  **Blood Debt** *(At the beginning of your end phase, if Rift Bind is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON175.width-450.png",
     images: [{
@@ -23111,7 +23111,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "rift-bind-blue",
+    cardIdentifier: "rift-bind-blue",
     functionalText: `You may play Rift Bind from your banished zone. If you do, it gains +X{p}, where X is the number of 'non-attack' action cards you have played this turn.  **Blood Debt** *(At the beginning of your end phase, if Rift Bind is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON176.width-450.png",
     images: [{
@@ -23151,7 +23151,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "rifted-torment-red",
+    cardIdentifier: "rifted-torment-red",
     functionalText: `You may play Rifted Torment from your banished zone. If you do, deal 1 arcane damage to target hero.  **Blood Debt** *(At the beginning of your end phase, if Rifted Torment is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON177.width-450.png",
     images: [{
@@ -23191,7 +23191,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "rifted-torment-yellow",
+    cardIdentifier: "rifted-torment-yellow",
     functionalText: `You may play Rifted Torment from your banished zone. If you do, deal 1 arcane damage to target hero.  **Blood Debt** *(At the beginning of your end phase, if Rifted Torment is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON178.width-450.png",
     images: [{
@@ -23226,7 +23226,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "rifted-torment-blue",
+    cardIdentifier: "rifted-torment-blue",
     functionalText: `You may play Rifted Torment from your banished zone. If you do, deal 1 arcane damage to target hero.  **Blood Debt** *(At the beginning of your end phase, if Rifted Torment is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON179.width-450.png",
     images: [{
@@ -23266,7 +23266,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "rip-through-reality-red",
+    cardIdentifier: "rip-through-reality-red",
     functionalText: `You may play Rip Through Reality from your banished zone.  If you have dealt arcane damage to an opposing hero this turn, Rip Through Reality gains ((go again.**  **Blood Debt** *(At the beginning of your end phase, if Rip Through Reality is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON180.width-450.png",
     images: [{
@@ -23306,7 +23306,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "rip-through-reality-yellow",
+    cardIdentifier: "rip-through-reality-yellow",
     functionalText: `You may play Rip Through Reality from your banished zone.  If you have dealt arcane damage to an opposing hero this turn, Rip Through Reality gains ((go again.**  **Blood Debt** *(At the beginning of your end phase, if Rip Through Reality is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON181.width-450.png",
     images: [{
@@ -23341,7 +23341,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "rip-through-reality-blue",
+    cardIdentifier: "rip-through-reality-blue",
     functionalText: `You may play Rip Through Reality from your banished zone.  If you have dealt arcane damage to an opposing hero this turn, Rip Through Reality gains ((go again.**  **Blood Debt** *(At the beginning of your end phase, if Rip Through Reality is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON182.width-450.png",
     images: [{
@@ -23376,7 +23376,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "seeds-of-agony-red",
+    cardIdentifier: "seeds-of-agony-red",
     functionalText: `You may play Seeds of Agony from your banished zone.  The next attack action card with cost 2 or less you play this turn gains "When you attack with this, deal 1 arcane damage to target hero.”  **Go again**  **Blood Debt** *(At the beginning of your end phase, if Seeds of Agony is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON183_up.width-450.png",
     images: [{
@@ -23416,7 +23416,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "seeds-of-agony-yellow",
+    cardIdentifier: "seeds-of-agony-yellow",
     functionalText: `You may play Seeds of Agony from your banished zone.  The next attack action card with cost 1 or less you play this turn gains "When you attack with this, deal 1 arcane damage to target hero.”  **Go again**  **Blood Debt** *(At the beginning of your end phase, if Seeds of Agony is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON184.width-450.png",
     images: [{
@@ -23456,7 +23456,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "seeds-of-agony-blue",
+    cardIdentifier: "seeds-of-agony-blue",
     functionalText: `You may play Seeds of Agony from your banished zone.  The next attack action card with cost 0 or less you play this turn gains "When you attack with this, deal 1 arcane damage to target hero.”  **Go again**  **Blood Debt** *(At the beginning of your end phase, if Seeds of Agony is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON185.width-450.png",
     images: [{
@@ -23491,7 +23491,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "mutated-mass-blue",
+    cardIdentifier: "mutated-mass-blue",
     functionalText: `You may play Mutated Mass from your banished zone.  Mutated Mass's {p} and {d} is equal to twice the number of cards in your pitch zone with different costs.  **Blood Debt** *(At the beginning of your end phase, if Mutated Mass is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON191.width-450.png",
     images: [{
@@ -23526,7 +23526,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "shadow-puppetry-red",
+    cardIdentifier: "shadow-puppetry-red",
     functionalText: `The next attack action card you play this turn gains +1 {p}, **go again** and "If this attack hits, look at the top card of your deck. You may banish it.”  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON193.width-450.png",
     images: [{
@@ -23561,7 +23561,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "tome-of-torment-red",
+    cardIdentifier: "tome-of-torment-red",
     functionalText: `You may play Tome of Torment from your banished zone.  Draw a card.  **Blood Debt**  *(At the beginning of your end phase, if Tome of Torment is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON194.width-450.png",
     images: [{
@@ -23596,7 +23596,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "consuming-aftermath-red",
+    cardIdentifier: "consuming-aftermath-red",
     functionalText: `As an additional cost to play Consuming Aftermath, you may banish a card from your hand. If a Shadow card is banished this way, Consuming Aftermath gains **dominate.** *(The defending hero can't defend Consuming Aftermath with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON195.width-450.png",
     images: [{
@@ -23636,7 +23636,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "consuming-aftermath-yellow",
+    cardIdentifier: "consuming-aftermath-yellow",
     functionalText: `As an additional cost to play Consuming Aftermath, you may banish a card from your hand. If a Shadow card is banished this way, Consuming Aftermath gains **dominate.** *(The defending hero can't defend Consuming Aftermath with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON196.width-450.png",
     images: [{
@@ -23671,7 +23671,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "consuming-aftermath-blue",
+    cardIdentifier: "consuming-aftermath-blue",
     functionalText: `As an additional cost to play Consuming Aftermath, you may banish a card from your hand. If a Shadow card is banished this way, Consuming Aftermath gains **dominate.** *(The defending hero can't defend Consuming Aftermath with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON197.width-450.png",
     images: [{
@@ -23706,7 +23706,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "soul-harvest-blue",
+    cardIdentifier: "soul-harvest-blue",
     functionalText: `**Legendary Levia Specialization** *(You may only have 1 Soul Harvest in your deck and only if your hero is Levia.)*  As an additional cost to play Soul Harvest, banish 6 cards from your graveyard. It gains +1{p} for each card with **blood debt** banished this way.  If Soul Harvest hits a hero, they banish all cards in their soul and lose {h} equal to the number of cards banished this way.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON198.width-450.png",
     images: [{
@@ -23746,7 +23746,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "soul-reaping-red",
+    cardIdentifier: "soul-reaping-red",
     functionalText: `**Legendary Chane Specialization** *(You may only have 1 Soul Reaping in your deck and only if your hero is Chane.)*  You may banish 1 or more cards from your hand rather than pay Soul Reaping's {r} cost. If you do, gain {r} for each card with **blood debt** banished this way.  While Soul Reaping is attacking a hero with 1 or more cards in their soul, it has go again.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON199.width-450.png",
     images: [{
@@ -23786,7 +23786,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "howl-from-beyond-red",
+    cardIdentifier: "howl-from-beyond-red",
     functionalText: `You may play Howl from Beyond from your banished zone.  The next attack action card you play this turn gains +3{p}.  **Go again**  **Blood Debt** *(At the beginning of your end phase, if Howl from Beyond is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON200.width-450.png",
     images: [{
@@ -23826,7 +23826,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "howl-from-beyond-yellow",
+    cardIdentifier: "howl-from-beyond-yellow",
     functionalText: `You may play Howl from Beyond from your banished zone.  The next attack action card you play this turn gains +2{p}.  **Go again**  **Blood Debt** *(At the beginning of your end phase, if Howl from Beyond is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON201.width-450.png",
     images: [{
@@ -23861,7 +23861,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "howl-from-beyond-blue",
+    cardIdentifier: "howl-from-beyond-blue",
     functionalText: `You may play Howl from Beyond from your banished zone.  The next attack action card you play this turn gains +1{p}.  **Go again**  **Blood Debt** *(At the beginning of your end phase, if Howl from Beyond is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON202.width-450.png",
     images: [{
@@ -23896,7 +23896,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "ghostly-visit-red",
+    cardIdentifier: "ghostly-visit-red",
     functionalText: `You may play Ghostly Visit from your banished zone.  **Blood Debt** *(At the beginning of your end phase, if Ghostly Visit is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON203.width-450.png",
     images: [{
@@ -23936,7 +23936,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "ghostly-visit-yellow",
+    cardIdentifier: "ghostly-visit-yellow",
     functionalText: `You may play Ghostly Visit from your banished zone.  **Blood Debt** *(At the beginning of your end phase, if Ghostly Visit is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON204.width-450.png",
     images: [{
@@ -23971,7 +23971,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "ghostly-visit-blue",
+    cardIdentifier: "ghostly-visit-blue",
     functionalText: `You may play Ghostly Visit from your banished zone.  **Blood Debt** *(At the beginning of your end phase, if Ghostly Visit is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON205.width-450.png",
     images: [{
@@ -24006,7 +24006,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "lunartide-plunderer-red",
+    cardIdentifier: "lunartide-plunderer-red",
     functionalText: `If Lunartide Plunderer hits a hero, banish Lunartide Plunderer and a card from their soul.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON206.width-450.png",
     images: [{
@@ -24041,7 +24041,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "lunartide-plunderer-yellow",
+    cardIdentifier: "lunartide-plunderer-yellow",
     functionalText: `If Lunartide Plunderer hits a hero, banish Lunartide Plunderer and a card from their soul.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON207.width-450.png",
     images: [{
@@ -24086,7 +24086,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "lunartide-plunderer-blue",
+    cardIdentifier: "lunartide-plunderer-blue",
     functionalText: `If Lunartide Plunderer hits a hero, banish Lunartide Plunderer and a card from their soul.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON208.width-450.png",
     images: [{
@@ -24121,7 +24121,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "void-wraith-red",
+    cardIdentifier: "void-wraith-red",
     functionalText: `You may play Void Wraith from your banished zone.  **Blood Debt** *(At the beginning of your end phase, if Void Wraith is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON209.width-450.png",
     images: [{
@@ -24156,7 +24156,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "void-wraith-yellow",
+    cardIdentifier: "void-wraith-yellow",
     functionalText: `You may play Void Wraith from your banished zone.  **Blood Debt** *(At the beginning of your end phase, if Void Wraith is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON210.width-450.png",
     images: [{
@@ -24192,7 +24192,7 @@
   }];
   const basicActions2: ActionCard[] = [{
     class: Class.NotClassed,
-    identifier: "void-wraith-blue",
+    cardIdentifier: "void-wraith-blue",
     functionalText: `You may play Void Wraith from your banished zone.  **Blood Debt** *(At the beginning of your end phase, if Void Wraith is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON211.width-450.png",
     images: [{
@@ -24227,7 +24227,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "spew-shadow-red",
+    cardIdentifier: "spew-shadow-red",
     functionalText: `Choose an attack action card with cost 2 or less in your banished zone. You may play it this turn. If it attacks a Light hero, it gains +2{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON212.width-450.png",
     images: [{
@@ -24262,7 +24262,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "spew-shadow-yellow",
+    cardIdentifier: "spew-shadow-yellow",
     functionalText: `Choose an attack action card with cost 1 or less in your banished zone. You may play it this turn. If it attacks a Light hero, it gains +2{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON213.width-450.png",
     images: [{
@@ -24302,7 +24302,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "spew-shadow-blue",
+    cardIdentifier: "spew-shadow-blue",
     functionalText: `Choose an attack action card with cost 0 or less in your banished zone. You may play it this turn. If it attacks a Light hero, it gains +2{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON214.width-450.png",
     images: [{
@@ -24337,7 +24337,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
-    identifier: "tear-limb-from-limb-blue",
+    cardIdentifier: "tear-limb-from-limb-blue",
     functionalText: `Draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, the next Brute attack action card you play this turn gains +X{p}, where X is its base {p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON222.width-450.png",
     images: [{
@@ -24372,7 +24372,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
-    identifier: "pulping-red",
+    cardIdentifier: "pulping-red",
     functionalText: `Draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, Pulping gains **dominate.** *(The defending hero can't defend Pulping with more than 1 card from their hand.)*  While Pulping is defended by less than 2 non-equipment cards, it has **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/83qQVRV7av7WVwN6jhg0d.width-450.png",
     images: [{
@@ -24412,7 +24412,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "pulping-yellow",
+    cardIdentifier: "pulping-yellow",
     functionalText: `Draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, Pulping gains **dominate.** *(The defending hero can't defend Pulping with more than 1 card from their hand.)*  While Pulping is defended by less than 2 non-equipment cards, it has **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/322d1Gx66IHv4QNM3gOjV7.width-450.png",
     images: [{
@@ -24452,7 +24452,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "pulping-blue",
+    cardIdentifier: "pulping-blue",
     functionalText: `Draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, Pulping gains **dominate.** *(The defending hero can't defend Pulping with more than 1 card from their hand.)*  While Pulping is defended by less than 2 non-equipment cards, it has **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/h3ntlAv43eGM6Nq3R046zh.width-450.png",
     images: [{
@@ -24492,7 +24492,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "smash-with-big-tree-red",
+    cardIdentifier: "smash-with-big-tree-red",
     functionalText: `null`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON226.width-450.png",
     images: [{
@@ -24532,7 +24532,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "smash-with-big-tree-yellow",
+    cardIdentifier: "smash-with-big-tree-yellow",
     functionalText: `null`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON227.width-450.png",
     images: [{
@@ -24577,7 +24577,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "smash-with-big-tree-blue",
+    cardIdentifier: "smash-with-big-tree-blue",
     functionalText: `null`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON228.width-450.png",
     images: [{
@@ -24612,7 +24612,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "sonata-arcanix-red",
+    cardIdentifier: "sonata-arcanix-red",
     functionalText: `Reveal the top X+3 cards of your deck.  For each 'non-attack' action card revealed this way, you may put an attack action card revealed this way into your hand. Then deal arcane damage to target hero equal to the number of cards put into your hand this way.  Shuffle your deck. Banish Sonata Arcanix.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON231.width-450.png",
     images: [{
@@ -24647,7 +24647,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "vexing-malice-red",
+    cardIdentifier: "vexing-malice-red",
     functionalText: `Deal 2 arcane damage to target hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON232.width-450.png",
     images: [{
@@ -24692,7 +24692,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "vexing-malice-yellow",
+    cardIdentifier: "vexing-malice-yellow",
     functionalText: `Deal 2 arcane damage to target hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON233.width-450.png",
     images: [{
@@ -24732,7 +24732,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "vexing-malice-blue",
+    cardIdentifier: "vexing-malice-blue",
     functionalText: `Deal 2 arcane damage to target hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON234.width-450.png",
     images: [{
@@ -24772,7 +24772,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "arcanic-crackle-red",
+    cardIdentifier: "arcanic-crackle-red",
     functionalText: `Deal 1 arcane damage to target hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON235.width-450.png",
     images: [{
@@ -24807,7 +24807,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "arcanic-crackle-yellow",
+    cardIdentifier: "arcanic-crackle-yellow",
     functionalText: `Deal 1 arcane damage to target hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON236.width-450.png",
     images: [{
@@ -24842,7 +24842,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "arcanic-crackle-blue",
+    cardIdentifier: "arcanic-crackle-blue",
     functionalText: `Deal 1 arcane damage to target hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON237.width-450.png",
     images: [{
@@ -24882,7 +24882,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "exude-confidence-red",
+    cardIdentifier: "exude-confidence-red",
     functionalText: `While Exude Confidence isn't defended by a card with equal or greater {p}, the defending hero can't play or activate instants or defense reactions this combat chain.  **Instant** - {r}{r}{r}: Exude Confidence gains +2{p}. Activate this ability only while Exude Confidence is attacking.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON245.width-450.png",
     images: [{
@@ -24917,7 +24917,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "nourishing-emptiness-red",
+    cardIdentifier: "nourishing-emptiness-red",
     functionalText: `While there are no attack action cards in your graveyard, Nourishing Emptiness has **dominate** and "If this hits, your hero gains +1{i} until end of turn."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON246.width-450.png",
     images: [{
@@ -24952,7 +24952,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "rouse-the-ancients-blue",
+    cardIdentifier: "rouse-the-ancients-blue",
     functionalText: `As an additional cost to play Rouse the Ancients, you may reveal any number of attack action cards from your hand with 13 or more total {p}. If you do, Rouse the Ancients gains +7{p} and **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON247.width-450.png",
     images: [{
@@ -24987,7 +24987,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "out-muscle-red",
+    cardIdentifier: "out-muscle-red",
     functionalText: `While Out Muscle isn't defended by a card with equal or greater {p}, it has **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON248.width-450.png",
     images: [{
@@ -25022,7 +25022,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "out-muscle-yellow",
+    cardIdentifier: "out-muscle-yellow",
     functionalText: `While Out Muscle isn't defended by a card with equal or greater {p}, it has **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON249.width-450.png",
     images: [{
@@ -25057,7 +25057,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "out-muscle-blue",
+    cardIdentifier: "out-muscle-blue",
     functionalText: `While Out Muscle isn't defended by a card with equal or greater {p}, it has **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON250.width-450.png",
     images: [{
@@ -25092,7 +25092,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "seek-horizon-red",
+    cardIdentifier: "seek-horizon-red",
     functionalText: `As an additional cost to play Seek Horizon, you may put a card from your hand on top of your deck. If you do, Seek Horizon gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON251.width-450.png",
     images: [{
@@ -25127,7 +25127,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "seek-horizon-yellow",
+    cardIdentifier: "seek-horizon-yellow",
     functionalText: `As an additional cost to play Seek Horizon, you may put a card from your hand on top of your deck. If you do, Seek Horizon gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON252.width-450.png",
     images: [{
@@ -25162,7 +25162,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "seek-horizon-blue",
+    cardIdentifier: "seek-horizon-blue",
     functionalText: `As an additional cost to play Seek Horizon, you may put a card from your hand on top of your deck. If you do, Seek Horizon gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON253.width-450.png",
     images: [{
@@ -25197,7 +25197,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "tremor-of-íarathael-red",
+    cardIdentifier: "tremor-of-íarathael-red",
     functionalText: `If a card has been put into your banished zone this turn, Tremor of íArathael gains +2{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON254.width-450.png",
     images: [{
@@ -25232,7 +25232,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "tremor-of-íarathael-yellow",
+    cardIdentifier: "tremor-of-íarathael-yellow",
     functionalText: `If a card has been put into your banished zone this turn, Tremor of íArathael gains +2{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON255.width-450.png",
     images: [{
@@ -25267,7 +25267,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "tremor-of-íarathael-blue",
+    cardIdentifier: "tremor-of-íarathael-blue",
     functionalText: `If a card has been put into your banished zone this turn, Tremor of íArathael gains +2{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON256.width-450.png",
     images: [{
@@ -25302,7 +25302,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "captains-call-red",
+    cardIdentifier: "captains-call-red",
     functionalText: `The next attack action card with cost 2 or less you play this turn gains +2{p}.  The next attack action card with cost 2 or less you play this turn gains **go again.**  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON260.width-450.png",
     images: [{
@@ -25337,7 +25337,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "captains-call-yellow",
+    cardIdentifier: "captains-call-yellow",
     functionalText: `The next attack action card with cost 1 or less you play this turn gains +2{p}.  The next attack action card with cost 1 or less you play this turn gains **go again.**  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON261.width-450.png",
     images: [{
@@ -25372,7 +25372,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "captains-call-blue",
+    cardIdentifier: "captains-call-blue",
     functionalText: `The next attack action card with cost 0 or less you play this turn gains +2{p}.  The next attack action card with cost 0 or less you play this turn gains **go again.**  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON262.width-450.png",
     images: [{
@@ -25407,7 +25407,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "adrenaline-rush-red",
+    cardIdentifier: "adrenaline-rush-red",
     functionalText: `When you play Adrenaline Rush, if you have less {h} than an opposing hero, it gains +3{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON263.width-450.png",
     images: [{
@@ -25442,7 +25442,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "adrenaline-rush-yellow",
+    cardIdentifier: "adrenaline-rush-yellow",
     functionalText: `When you play Adrenaline Rush, if you have less {h} than an opposing hero, it gains +3{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON264.width-450.png",
     images: [{
@@ -25477,7 +25477,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "adrenaline-rush-blue",
+    cardIdentifier: "adrenaline-rush-blue",
     functionalText: `When you play Adrenaline Rush, if you have less {h} than an opposing hero, it gains +3{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON265.width-450.png",
     images: [{
@@ -25512,7 +25512,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "belittle-red",
+    cardIdentifier: "belittle-red",
     functionalText: `As an additional cost to play Belittle, you may reveal an attack action card with 3 or less base {p} from your hand. If you do, search your deck for a card named Minnowism, reveal it, put it into your hand, then shuffle your deck.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON266.width-450.png",
     images: [{
@@ -25547,7 +25547,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "belittle-yellow",
+    cardIdentifier: "belittle-yellow",
     functionalText: `As an additional cost to play Belittle, you may reveal an attack action card with 3 or less base {p} from your hand. If you do, search your deck for a card named Minnowism, reveal it, put it into your hand, then shuffle your deck.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON267.width-450.png",
     images: [{
@@ -25582,7 +25582,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "belittle-blue",
+    cardIdentifier: "belittle-blue",
     functionalText: `As an additional cost to play Belittle, you may reveal an attack action card with 3 or less base {p} from your hand. If you do, search your deck for a card named Minnowism, reveal it, put it into your hand, then shuffle your deck.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON268.width-450.png",
     images: [{
@@ -25617,7 +25617,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "brandish-red",
+    cardIdentifier: "brandish-red",
     functionalText: `If Brandish hits, your next weapon attack this turn gains +1{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON269.width-450.png",
     images: [{
@@ -25652,7 +25652,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "brandish-yellow",
+    cardIdentifier: "brandish-yellow",
     functionalText: `If Brandish hits, your next weapon attack this turn gains +1{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON270.width-450.png",
     images: [{
@@ -25687,7 +25687,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "brandish-blue",
+    cardIdentifier: "brandish-blue",
     functionalText: `If Brandish hits, your next weapon attack this turn gains +1{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON271.width-450.png",
     images: [{
@@ -25722,7 +25722,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "frontline-scout-red",
+    cardIdentifier: "frontline-scout-red",
     functionalText: `You may look at the defending hero's hand.  If Frontline Scout is played from arsenal, it gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON272.width-450.png",
     images: [{
@@ -25757,7 +25757,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "frontline-scout-yellow",
+    cardIdentifier: "frontline-scout-yellow",
     functionalText: `You may look at the defending hero's hand.  If Frontline Scout is played from arsenal, it gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON273.width-450.png",
     images: [{
@@ -25792,7 +25792,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "frontline-scout-blue",
+    cardIdentifier: "frontline-scout-blue",
     functionalText: `You may look at the defending hero's hand.  If Frontline Scout is played from arsenal, it gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON274.width-450.png",
     images: [{
@@ -25827,7 +25827,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "overload-red",
+    cardIdentifier: "overload-red",
     functionalText: `**Dominate** *(The defending hero can’t defend Overload with more than 1 card from their hand.)*  If Overload hits, it gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON275.width-450.png",
     images: [{
@@ -25862,7 +25862,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "overload-yellow",
+    cardIdentifier: "overload-yellow",
     functionalText: `**Dominate** *(The defending hero can’t defend Overload with more than 1 card from their hand.)*  If Overload hits, it gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON276.width-450.png",
     images: [{
@@ -25897,7 +25897,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "overload-blue",
+    cardIdentifier: "overload-blue",
     functionalText: `**Dominate** *(The defending hero can’t defend Overload with more than 1 card from their hand.)*  If Overload hits, it gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON277.width-450.png",
     images: [{
@@ -25932,7 +25932,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "pound-for-pound-red",
+    cardIdentifier: "pound-for-pound-red",
     functionalText: `When you play Pound for Pound, if you have less {h} than an opposing hero, it gains **dominate.** *(The defending hero can't defend Pound for Pound with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON278.width-450.png",
     images: [{
@@ -25967,7 +25967,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "pound-for-pound-yellow",
+    cardIdentifier: "pound-for-pound-yellow",
     functionalText: `When you play Pound for Pound, if you have less {h} than an opposing hero, it gains **dominate.** *(The defending hero can't defend Pound for Pound with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON279.width-450.png",
     images: [{
@@ -26002,7 +26002,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "pound-for-pound-blue",
+    cardIdentifier: "pound-for-pound-blue",
     functionalText: `When you play Pound for Pound, if you have less {h} than an opposing hero, it gains **dominate.** *(The defending hero can't defend Pound for Pound with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON280.width-450.png",
     images: [{
@@ -26037,7 +26037,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "rally-the-rearguard-red",
+    cardIdentifier: "rally-the-rearguard-red",
     functionalText: `**Once per Turn Instant** - Discard a card: Rally the Rearguard gains +3{d}. Activate this ability only while Rally the Rearguard is defending.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON281.width-450.png",
     images: [{
@@ -26077,7 +26077,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "rally-the-rearguard-yellow",
+    cardIdentifier: "rally-the-rearguard-yellow",
     functionalText: `**Once per Turn Instant** - Discard a card: Rally the Rearguard gains +3{d}. Activate this ability only while Rally the Rearguard is defending.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON282.width-450.png",
     images: [{
@@ -26112,7 +26112,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "rally-the-rearguard-blue",
+    cardIdentifier: "rally-the-rearguard-blue",
     functionalText: `**Once per Turn Instant** - Discard a card: Rally the Rearguard gains +3{d}. Activate this ability only while Rally the Rearguard is defending.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON283.width-450.png",
     images: [{
@@ -26157,7 +26157,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "stony-wootonhog-red",
+    cardIdentifier: "stony-wootonhog-red",
     functionalText: `While Stony Woottonhog is defended by less than 2 non-equipment cards, it has +1{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON284.width-450.png",
     images: [{
@@ -26192,7 +26192,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "stony-wootonhog-yellow",
+    cardIdentifier: "stony-wootonhog-yellow",
     functionalText: `While Stony Woottonhog is defended by less than 2 non-equipment cards, it has +1{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON285.width-450.png",
     images: [{
@@ -26227,7 +26227,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "stony-wootonhog-blue",
+    cardIdentifier: "stony-wootonhog-blue",
     functionalText: `While Stony Woottonhog is defended by less than 2 non-equipment cards, it has +1{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON286.width-450.png",
     images: [{
@@ -26262,7 +26262,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "surging-militia-red",
+    cardIdentifier: "surging-militia-red",
     functionalText: `Surging Militia has +1{p} for each non-equipment card defending it.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON287.width-450.png",
     images: [{
@@ -26297,7 +26297,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "surging-militia-yellow",
+    cardIdentifier: "surging-militia-yellow",
     functionalText: `Surging Militia has +1{p} for each non-equipment card defending it.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON288.width-450.png",
     images: [{
@@ -26332,7 +26332,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "surging-militia-blue",
+    cardIdentifier: "surging-militia-blue",
     functionalText: `Surging Militia has +1{p} for each non-equipment card defending it.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON289.width-450.png",
     images: [{
@@ -26367,7 +26367,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "yinti-yanti-red",
+    cardIdentifier: "yinti-yanti-red",
     functionalText: `While Yinti Yanti is attacking and you control an aura, it has +1{p}.  While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON290.width-450.png",
     images: [{
@@ -26402,7 +26402,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "yinti-yanti-yellow",
+    cardIdentifier: "yinti-yanti-yellow",
     functionalText: `While Yinti Yanti is attacking and you control an aura, it has +1{p}.  While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON291.width-450.png",
     images: [{
@@ -26437,7 +26437,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "yinti-yanti-blue",
+    cardIdentifier: "yinti-yanti-blue",
     functionalText: `While Yinti Yanti is attacking and you control an aura, it has +1{p}.  While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON292.width-450.png",
     images: [{
@@ -26472,7 +26472,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "zealous-belting-red",
+    cardIdentifier: "zealous-belting-red",
     functionalText: `While there is a card in your pitch zone with {p} greater than Zealous Belting's base {p}, Zealous Belting has **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON293.width-450.png",
     images: [{
@@ -26507,7 +26507,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "zealous-belting-yellow",
+    cardIdentifier: "zealous-belting-yellow",
     functionalText: `While there is a card in your pitch zone with {p} greater than Zealous Belting's base {p}, Zealous Belting has **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON294.width-450.png",
     images: [{
@@ -26542,7 +26542,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "zealous-belting-blue",
+    cardIdentifier: "zealous-belting-blue",
     functionalText: `While there is a card in your pitch zone with {p} greater than Zealous Belting's base {p}, Zealous Belting has **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON295.width-450.png",
     images: [{
@@ -26577,7 +26577,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "minnowism-red",
+    cardIdentifier: "minnowism-red",
     functionalText: `The next attack action card with 3 or less base {p} you play this turn gains +3{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON296.width-450.png",
     images: [{
@@ -26612,7 +26612,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "minnowism-yellow",
+    cardIdentifier: "minnowism-yellow",
     functionalText: `The next attack action card with 3 or less base {p} you play this turn gains +2{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON297.width-450.png",
     images: [{
@@ -26647,7 +26647,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "minnowism-blue",
+    cardIdentifier: "minnowism-blue",
     functionalText: `The next attack action card with 3 or less base {p} you play this turn gains +1{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON298.width-450.png",
     images: [{
@@ -26682,7 +26682,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "warmongers-recital-red",
+    cardIdentifier: "warmongers-recital-red",
     functionalText: `The next attack action card you play this turn gains +3{p} and "If this hits, put it on the bottom of your deck."  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON299.width-450.png",
     images: [{
@@ -26722,7 +26722,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "warmongers-recital-yellow",
+    cardIdentifier: "warmongers-recital-yellow",
     functionalText: `The next attack action card you play this turn gains +2{p} and "If this hits, put it on the bottom of your deck."  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON300.width-450.png",
     images: [{
@@ -26762,7 +26762,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "warmongers-recital-blue",
+    cardIdentifier: "warmongers-recital-blue",
     functionalText: `The next attack action card you play this turn gains +1{p} and "If this hits, put it on the bottom of your deck."  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON301.width-450.png",
     images: [{
@@ -26797,7 +26797,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "talisman-of-dousing-yellow",
+    cardIdentifier: "talisman-of-dousing-yellow",
     functionalText: `*(Items stay in the arena until they are destroyed.)*  **Go again**  **Spellvoid 1** *(If your hero would be dealt arcane damage, you may destroy Talisman of Dousing instead. If you do, prevent 1 arcane damage that source would deal.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON302.width-450.png",
     images: [{
@@ -26832,7 +26832,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.NotClassed,
-    identifier: "korshem-crossroad-of-elements",
+    cardIdentifier: "korshem-crossroad-of-elements",
     functionalText: `**Legendary** *(You may only have 1 Korshem, Crossroads of the Elements in your deck.)*  **Go again**  Whenever a hero reveals 1 or more cards, they choose 1; Gain {r}, or gain 1{h}, or their next attack this turn gains +1{p}, or the next action card they defend with this turn gains +1{d}.  At the beginning of the end phase, if no hero has gained {r} or {h} from a card effect and no card or token controlled by a hero has had {p} or {d} increased this turn, destroy Korshem, Crossroads of the Elements.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE000_vertical.width-450.png",
     images: [{
@@ -26867,7 +26867,7 @@
     subType: ActionSubType.Landmark,
   },{
     class: Class.Guardian,
-    identifier: "endless-winter-red",
+    cardIdentifier: "endless-winter-red",
     functionalText: `**Oldhim Specialization** *(You may only have Endless Winter in your deck if your hero is Oldhim.)*  **Ice Fusion** *(As an additional cost to play Endless Winter, you may reveal an Ice card from your hand.)*  If Endless Winter was **fused**, whenever the defending hero adds a defending card to this chain link, create a Frostbite token under their control.  If Endless Winter hits a hero, until the end of their next turn, whenever they activate an ability, create a Frostbite token under their control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE004.width-450.png",
     images: [{
@@ -26902,7 +26902,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "oaken-old-red",
+    cardIdentifier: "oaken-old-red",
     functionalText: `**Earth and Ice Fusion** *(As an additional cost to play Oaken Old, you may reveal an Earth and an Ice card from your hand.)*  If Oaken Old was **fused**, it gains +2{p}, **dominate**, and “If this hits a hero, they put 2 random cards from their hand on the bottom of their deck in any order.”`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE005.width-450.png",
     images: [{
@@ -26937,7 +26937,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "entangle-red",
+    cardIdentifier: "entangle-red",
     functionalText: `**Earth Fusion** *(As an additional cost to play Entangle, you may reveal an Earth card from your hand.)*  If Entangle was **fused**, it gains "If this hits a hero, their first attack during their next turn has -2{p}."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE013.width-450.png",
     images: [{
@@ -26972,7 +26972,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "entangle-yellow",
+    cardIdentifier: "entangle-yellow",
     functionalText: `**Earth Fusion** *(As an additional cost to play Entangle, you may reveal an Earth card from your hand.)*  If Entangle was **fused**, it gains "If this hits a hero, their first attack during their next turn has -2{p}."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE014.width-450.png",
     images: [{
@@ -27007,7 +27007,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "entangle-blue",
+    cardIdentifier: "entangle-blue",
     functionalText: `**Earth Fusion** *(As an additional cost to play Entangle, you may reveal an Earth card from your hand.)*  If Entangle was **fused**, it gains "If this hits a hero, their first attack during their next turn has -2{p}."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE015.width-450.png",
     images: [{
@@ -27047,7 +27047,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "glacial-footsteps-red",
+    cardIdentifier: "glacial-footsteps-red",
     functionalText: `**Ice Fusion** *(As an additional cost to play Glacial Footsteps, you may reveal an Ice card from your hand.)*  If Glacial Footsteps was **fused**, it gains **dominate.** *(The defending hero can't defend Glacial Footsteps with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE016.width-450.png",
     images: [{
@@ -27087,7 +27087,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "glacial-footsteps-yellow",
+    cardIdentifier: "glacial-footsteps-yellow",
     functionalText: `**Ice Fusion** *(As an additional cost to play Glacial Footsteps, you may reveal an Ice card from your hand.)*  If Glacial Footsteps was **fused**, it gains **dominate.** *(The defending hero can't defend Glacial Footsteps with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE017.width-450.png",
     images: [{
@@ -27122,7 +27122,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "glacial-footsteps-blue",
+    cardIdentifier: "glacial-footsteps-blue",
     functionalText: `**Ice Fusion** *(As an additional cost to play Glacial Footsteps, you may reveal an Ice card from your hand.)*  If Glacial Footsteps was **fused**, it gains **dominate.** *(The defending hero can't defend Glacial Footsteps with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE018.width-450.png",
     images: [{
@@ -27162,7 +27162,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "mulch-red",
+    cardIdentifier: "mulch-red",
     functionalText: `**Earth Fusion** *(As an additional cost to play Mulch, you may reveal an Earth card from your hand.)*  If Mulch was **fused**, it gains "If this hits a hero, put a card from their arsenal on the bottom of their deck."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE019.width-450.png",
     images: [{
@@ -27197,7 +27197,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "mulch-yellow",
+    cardIdentifier: "mulch-yellow",
     functionalText: `**Earth Fusion** *(As an additional cost to play Mulch, you may reveal an Earth card from your hand.)*  If Mulch was **fused**, it gains "If this hits a hero, put a card from their arsenal on the bottom of their deck."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE020.width-450.png",
     images: [{
@@ -27232,7 +27232,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "mulch-blue",
+    cardIdentifier: "mulch-blue",
     functionalText: `**Earth Fusion** *(As an additional cost to play Mulch, you may reveal an Earth card from your hand.)*  If Mulch was **fused**, it gains "If this hits a hero, put a card from their arsenal on the bottom of their deck."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE021.width-450.png",
     images: [{
@@ -27272,7 +27272,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "snow-under-red",
+    cardIdentifier: "snow-under-red",
     functionalText: `**Ice Fusion** *(As an additional cost to play Snow Under, you may reveal an Ice card from your hand.)*  If Snow Under was **fused**, it gains "If Snow Under hits a hero, create a Frostbite token under their control."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE022.width-450.png",
     images: [{
@@ -27312,7 +27312,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "snow-under-yellow",
+    cardIdentifier: "snow-under-yellow",
     functionalText: `**Ice Fusion** *(As an additional cost to play Snow Under, you may reveal an Ice card from your hand.)*  If Snow Under was **fused**, it gains "If Snow Under hits a hero, create a Frostbite token under their control."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE023.width-450.png",
     images: [{
@@ -27347,7 +27347,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "snow-under-blue",
+    cardIdentifier: "snow-under-blue",
     functionalText: `**Ice Fusion** *(As an additional cost to play Snow Under, you may reveal an Ice card from your hand.)*  If Snow Under was **fused**, it gains "If Snow Under hits a hero, create a Frostbite token under their control."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE024.width-450.png",
     images: [{
@@ -27387,7 +27387,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "emerging-avalanche-red",
+    cardIdentifier: "emerging-avalanche-red",
     functionalText: `**Ice Fusion** *(As an additional cost to play Emerging Avalanche, you may reveal an Ice card from your hand.)*  **Go again**  When Emerging Avalanche enters the arena, if it was **fused**, create a Frostbite token under target hero control.  At the beginning of your action phase, destroy Emerging Avalanche then the next attack action card you play this turn gains +3{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE025.width-450.png",
     images: [{
@@ -27422,7 +27422,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
-    identifier: "emerging-avalanche-yellow",
+    cardIdentifier: "emerging-avalanche-yellow",
     functionalText: `**Ice Fusion** *(As an additional cost to play Emerging Avalanche, you may reveal an Ice card from your hand.)*  **Go again**  When Emerging Avalanche enters the arena, if it was **fused**, create a Frostbite token under target hero control.  At the beginning of your action phase, destroy Emerging Avalanche then the next attack action card you play this turn gains +3{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE026.width-450.png",
     images: [{
@@ -27457,7 +27457,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
-    identifier: "emerging-avalanche-blue",
+    cardIdentifier: "emerging-avalanche-blue",
     functionalText: `**Ice Fusion** *(As an additional cost to play Emerging Avalanche, you may reveal an Ice card from your hand.)*  **Go again**  When Emerging Avalanche enters the arena, if it was **fused**, create a Frostbite token under target hero control.  At the beginning of your action phase, destroy Emerging Avalanche then the next attack action card you play this turn gains +3{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE027.width-450.png",
     images: [{
@@ -27492,7 +27492,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
-    identifier: "strength-of-sequoia-red",
+    cardIdentifier: "strength-of-sequoia-red",
     functionalText: `**Earth Fusion** *(As an additional cost to play Strength of Sequoia, you may reveal an Earth card from your hand.)*  **Go again**  When Strength of Sequoia enters the arena, if it was **fused**, create a Seismic Surge token.  At the beginning of your action phase, destroy Strength of Sequoia then the next attack action card you play this turn gains +3{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE028.width-450.png",
     images: [{
@@ -27537,7 +27537,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
-    identifier: "strength-of-sequoia-yellow",
+    cardIdentifier: "strength-of-sequoia-yellow",
     functionalText: `**Earth Fusion** *(As an additional cost to play Strength of Sequoia, you may reveal an Earth card from your hand.)*  **Go again**  When Strength of Sequoia enters the arena, if it was **fused**, create a Seismic Surge token.  At the beginning of your action phase, destroy Strength of Sequoia then the next attack action card you play this turn gains +2{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE029.width-450.png",
     images: [{
@@ -27572,7 +27572,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
-    identifier: "strength-of-sequoia-blue",
+    cardIdentifier: "strength-of-sequoia-blue",
     functionalText: `**Earth Fusion** *(As an additional cost to play Strength of Sequoia, you may reveal an Earth card from your hand.)*  **Go again**  When Strength of Sequoia enters the arena, if it was **fused**, create a Seismic Surge token.  At the beginning of your action phase, destroy Strength of Sequoia then the next attack action card you play this turn gains +1{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE030.width-450.png",
     images: [{
@@ -27612,7 +27612,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Ranger,
-    identifier: "frost-lock-blue",
+    cardIdentifier: "frost-lock-blue",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  **Ice Fusion** *(As an additional cost to play Frost Lock, you may reveal an Ice card from your hand.)*  Cards and activated abilities cost opposing heros an additional {r} this turn.  If Frost Lock was **fused**, it gains +1{p} and "If this hits a hero, until the end of their next turn they can't pitch or play cards with base cost 0."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE035.width-450.png",
     images: [{
@@ -27647,7 +27647,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "light-it-up-yellow",
+    cardIdentifier: "light-it-up-yellow",
     functionalText: `**Lexi Specialization** *(You may only have Light it Up in your deck if your hero is Lexi.)*  **Lightning Fusion** *(As an additional cost to play Light it Up, you may reveal a Lightning card from your hand.)*  If Light it Up was **fused**, it gains "If this hits a hero, deal 1 damage to them for each equipment they control."  If Light it Up deals damage to a hero equal to or greater than the number of equipment they control, equipment they control lose and can't gain activated abilities until the end of their next turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE036.width-450.png",
     images: [{
@@ -27682,7 +27682,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "ice-storm-red",
+    cardIdentifier: "ice-storm-red",
     functionalText: `**Ice and Lightning Fusion** *(As an additional cost to play Ice Storm, you may reveal an Ice and a Lightning card from your hand.)*  Your next arrow attack this turn gains +3{p}.  If Ice Storm was **fused**, your next arrow attack this turn gains "If this hits a hero, deal 1 damage to them" and "Whenever this attack deals damage to a hero, create that many Frostbite tokens under their control."  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE037.width-450.png",
     images: [{
@@ -27717,7 +27717,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
-    identifier: "cold-wave-red",
+    cardIdentifier: "cold-wave-red",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  **Ice Fusion** *(As an additional cost to play Cold Wave, you may reveal an Ice card from your hand.)*  If Cold Wave was **fused**, cards and activated abilities cost opposing heroes an additional {r} this turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE038.width-450.png",
     images: [{
@@ -27752,7 +27752,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "cold-wave-yellow",
+    cardIdentifier: "cold-wave-yellow",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  **Ice Fusion** *(As an additional cost to play Cold Wave, you may reveal an Ice card from your hand.)*  If Cold Wave was **fused**, cards and activated abilities cost opposing heroes an additional {r} this turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE039.width-450.png",
     images: [{
@@ -27787,7 +27787,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "cold-wave-blue",
+    cardIdentifier: "cold-wave-blue",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  **Ice Fusion** *(As an additional cost to play Cold Wave, you may reveal an Ice card from your hand.)*  If Cold Wave was **fused**, cards and activated abilities cost opposing heroes an additional {r} this turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE040.width-450.png",
     images: [{
@@ -27822,7 +27822,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "snap-shot-red",
+    cardIdentifier: "snap-shot-red",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  **Lightning Fusion** *(As an additional cost to play Snap Shot, you may reveal a Lightning card from your hand.)*  If Snap Shot was **fused**, you may activate abilities of bows you control an additional time this turn and as though they were an instant.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE041.width-450.png",
     images: [{
@@ -27862,7 +27862,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "snap-shot-yellow",
+    cardIdentifier: "snap-shot-yellow",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  **Lightning Fusion** *(As an additional cost to play Snap Shot, you may reveal a Lightning card from your hand.)*  If Snap Shot was **fused**, you may activate abilities of bows you control an additional time this turn and as though they were an instant.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE042.width-450.png",
     images: [{
@@ -27897,7 +27897,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "snap-shot-blue",
+    cardIdentifier: "snap-shot-blue",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  **Lightning Fusion** *(As an additional cost to play Snap Shot, you may reveal a Lightning card from your hand.)*  If Snap Shot was **fused**, you may activate abilities of bows you control an additional time this turn and as though they were an instant.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE043.width-450.png",
     images: [{
@@ -27932,7 +27932,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "blizzard-bolt-red",
+    cardIdentifier: "blizzard-bolt-red",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  **Ice Fusion** *(As an additional cost to play Blizzard Bolt, you may reveal an Ice card from your hand.)*  If Blizzard Bolt was **fused**, whenever an attack deals damage to a hero this turn, create a Frostbite token under their control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE044.width-450.png",
     images: [{
@@ -27972,7 +27972,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "blizzard-bolt-yellow",
+    cardIdentifier: "blizzard-bolt-yellow",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  **Ice Fusion** *(As an additional cost to play Blizzard Bolt, you may reveal an Ice card from your hand.)*  If Blizzard Bolt was **fused**, whenever an attack deals damage to a hero this turn, create a Frostbite token under their control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE045.width-450.png",
     images: [{
@@ -28007,7 +28007,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "blizzard-bolt-blue",
+    cardIdentifier: "blizzard-bolt-blue",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  **Ice Fusion** *(As an additional cost to play Blizzard Bolt, you may reveal an Ice card from your hand.)*  If Blizzard Bolt was **fused**, whenever an attack deals damage to a hero this turn, create a Frostbite token under their control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE046.width-450.png",
     images: [{
@@ -28042,7 +28042,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "buzz-bolt-red",
+    cardIdentifier: "buzz-bolt-red",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  **Lightning Fusion** *(As an additional cost to play Buzz Bolt, you may reveal a Lightning card from your hand.)*  If Buzz Bolt was **fused**, whenever an attack hits a hero this turn, it deals 1 damage to them.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE047.width-450.png",
     images: [{
@@ -28082,7 +28082,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "buzz-bolt-yellow",
+    cardIdentifier: "buzz-bolt-yellow",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  **Lightning Fusion** *(As an additional cost to play Buzz Bolt, you may reveal a Lightning card from your hand.)*  If Buzz Bolt was **fused**, whenever an attack hits a hero this turn, it deals 1 damage to them.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE048.width-450.png",
     images: [{
@@ -28122,7 +28122,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "buzz-bolt-blue",
+    cardIdentifier: "buzz-bolt-blue",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  **Lightning Fusion** *(As an additional cost to play Buzz Bolt, you may reveal a Lightning card from your hand.)*  If Buzz Bolt was **fused**, whenever an attack hits a hero this turn, it deals 1 damage to them.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE049.width-450.png",
     images: [{
@@ -28157,7 +28157,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "chilling-icevein-red",
+    cardIdentifier: "chilling-icevein-red",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  **Ice Fusion** *(As an additional cost to play Chilling Icevein, you may reveal an Ice card from your hand.)*  If Chilling Icevein was **fused**, whenever an attack deals damage to a hero this turn, they discard a card unless they pay {r}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE050.width-450.png",
     images: [{
@@ -28192,7 +28192,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "chilling-icevein-yellow",
+    cardIdentifier: "chilling-icevein-yellow",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  **Ice Fusion** *(As an additional cost to play Chilling Icevein, you may reveal an Ice card from your hand.)*  If Chilling Icevein was **fused**, whenever an attack deals damage to a hero this turn, they discard a card unless they pay {r}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE051.width-450.png",
     images: [{
@@ -28232,7 +28232,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "chilling-icevein-blue",
+    cardIdentifier: "chilling-icevein-blue",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  **Ice Fusion** *(As an additional cost to play Chilling Icevein, you may reveal an Ice card from your hand.)*  If Chilling Icevein was **fused**, whenever an attack deals damage to a hero this turn, they discard a card unless they pay {r}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE052.width-450.png",
     images: [{
@@ -28267,7 +28267,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "dazzling-crescendo-red",
+    cardIdentifier: "dazzling-crescendo-red",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  **Lightning Fusion** *(As an additional cost to play Dazzling Crescendo, you may reveal an Lightning card from your hand.)*  If Dazzling Crescendo was **fused**, it gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE053.width-450.png",
     images: [{
@@ -28307,7 +28307,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "dazzling-crescendo-yellow",
+    cardIdentifier: "dazzling-crescendo-yellow",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  **Lightning Fusion** *(As an additional cost to play Dazzling Crescendo, you may reveal an Lightning card from your hand.)*  If Dazzling Crescendo was **fused**, it gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE054.width-450.png",
     images: [{
@@ -28342,7 +28342,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "dazzling-crescendo-blue",
+    cardIdentifier: "dazzling-crescendo-blue",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  **Lightning Fusion** *(As an additional cost to play Dazzling Crescendo, you may reveal an Lightning card from your hand.)*  If Dazzling Crescendo was **fused**, it gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE055.width-450.png",
     images: [{
@@ -28377,7 +28377,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "flake-out-red",
+    cardIdentifier: "flake-out-red",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  **Ice Fusion** *(As an additional cost to play Flake Out, you may reveal an Ice card from your hand.)*  If Flake Out was **fused**, it gains **dominate.** *(The defending hero can't defend Flake Out with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE056.width-450.png",
     images: [{
@@ -28412,7 +28412,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "flake-out-yellow",
+    cardIdentifier: "flake-out-yellow",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  **Ice Fusion** *(As an additional cost to play Flake Out, you may reveal an Ice card from your hand.)*  If Flake Out was **fused**, it gains **dominate.** *(The defending hero can't defend Flake Out with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE057.width-450.png",
     images: [{
@@ -28447,7 +28447,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "flake-out-blue",
+    cardIdentifier: "flake-out-blue",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  **Ice Fusion** *(As an additional cost to play Flake Out, you may reveal an Ice card from your hand.)*  If Flake Out was **fused**, it gains **dominate.** *(The defending hero can't defend Flake Out with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE058.width-450.png",
     images: [{
@@ -28482,7 +28482,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "frazzle-red",
+    cardIdentifier: "frazzle-red",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  **Lightning Fusion** *(As an additional cost to play Frazzle, you may reveal a Lightning card from your hand.)*  If Frazzle was **fused**, whenever an attack would deal damage this turn, instead it deals that much damage plus 1.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE059.width-450.png",
     images: [{
@@ -28522,7 +28522,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "frazzle-yellow",
+    cardIdentifier: "frazzle-yellow",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  **Lightning Fusion** *(As an additional cost to play Frazzle, you may reveal a Lightning card from your hand.)*  If Frazzle was **fused**, whenever an attack would deal damage this turn, instead it deals that much damage plus 1.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE060.width-450.png",
     images: [{
@@ -28562,7 +28562,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "frazzle-blue",
+    cardIdentifier: "frazzle-blue",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  **Lightning Fusion** *(As an additional cost to play Frazzle, you may reveal a Lightning card from your hand.)*  If Frazzle was **fused**, whenever an attack would deal damage this turn, instead it deals that much damage plus 1.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE061.width-450.png",
     images: [{
@@ -28597,7 +28597,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "blossoming-spellblade-red",
+    cardIdentifier: "blossoming-spellblade-red",
     functionalText: `**Earth and Lightning Fusion** *(As an additional cost to play Blossoming Spellblade, you may reveal an Earth and a Lightning card from your hand.)*  If Blossoming Spellblade was **fused**, it gains "Whenever this deals damage to an opposing hero, you may banish a 'non-attack' action card from your graveyard. If you do, you may play it this turn as though it were an instant and if it would be put into your graveyard, instead banish it."  When you attack with Blossoming Spellblade, if it was **fused**, deal 1 arcane damage to target hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE064.width-450.png",
     images: [{
@@ -28632,7 +28632,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "flicker-wisp-yellow",
+    cardIdentifier: "flicker-wisp-yellow",
     functionalText: `**Lightning Fusion** *(As an additional cost to play Flicker Wisp, you may reveal a Lightning card from your hand.)*  If Flicker Wisp was **fused**, until end of turn, action card effects you control that deal arcane damage, instead deal that much arcane damage plus 1.  Deal 1 arcane damage to target hero.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE065.width-450.png",
     images: [{
@@ -28667,7 +28667,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "force-of-nature-blue",
+    cardIdentifier: "force-of-nature-blue",
     functionalText: `**Briar Specialization** *(You may only have Force of Nature in your deck if your hero is Briar.)*  **Earth Fusion** *(As an additional cost to play Force of Nature, you may reveal an Earth card from your hand.)*  Whenever an attack action card you control hits this turn, if its {p} is greater than its base {p}, draw a card.  If Force of Nature was fused, your next attack this turn gains +1{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE066.width-450.png",
     images: [{
@@ -28702,7 +28702,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "explosive-growth-red",
+    cardIdentifier: "explosive-growth-red",
     functionalText: `**Earth Fusion** *(As an additional cost to play Explosive Growth, you may reveal an Earth card from your hand.)*  If Explosive Growth was **fused**, whenever it deals damage, attacks gain +1{p} this combat chain. When you attack with Explosive Growth, deal 1 arcane damage to target hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE067.width-450.png",
     images: [{
@@ -28742,7 +28742,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "explosive-growth-yellow",
+    cardIdentifier: "explosive-growth-yellow",
     functionalText: `**Earth Fusion** *(As an additional cost to play Explosive Growth, you may reveal an Earth card from your hand.)*  If Explosive Growth was **fused**, whenever it deals damage, attacks gain +1{p} this combat chain. When you attack with Explosive Growth, deal 1 arcane damage to target hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE068.width-450.png",
     images: [{
@@ -28777,7 +28777,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "explosive-growth-blue",
+    cardIdentifier: "explosive-growth-blue",
     functionalText: `**Earth Fusion** *(As an additional cost to play Explosive Growth, you may reveal an Earth card from your hand.)*  If Explosive Growth was **fused**, whenever it deals damage, attacks gain +1{p} this combat chain. When you attack with Explosive Growth, deal 1 arcane damage to target hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE069.width-450.png",
     images: [{
@@ -28812,7 +28812,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "rites-of-lightning-red",
+    cardIdentifier: "rites-of-lightning-red",
     functionalText: `**Lightning Fusion** *(As an additional cost to play Rites of Lightning, you may reveal a Lightning card from your hand.)*  When you attack with Rites of Lightning, if it was **fused**, deal 1 arcane damage to target hero.  If you have dealt arcane damage this turn, Rites of Lightning gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE070.width-450.png",
     images: [{
@@ -28852,7 +28852,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "rites-of-lightning-yellow",
+    cardIdentifier: "rites-of-lightning-yellow",
     functionalText: `**Lightning Fusion** *(As an additional cost to play Rites of Lightning, you may reveal a Lightning card from your hand.)*  When you attack with Rites of Lightning, if it was **fused**, deal 1 arcane damage to target hero.  If you have dealt arcane damage this turn, Rites of Lightning gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE071.width-450.png",
     images: [{
@@ -28887,7 +28887,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "rites-of-lightning-blue",
+    cardIdentifier: "rites-of-lightning-blue",
     functionalText: `**Lightning Fusion** *(As an additional cost to play Rites of Lightning, you may reveal a Lightning card from your hand.)*  When you attack with Rites of Lightning, if it was **fused**, deal 1 arcane damage to target hero.  If you have dealt arcane damage this turn, Rites of Lightning gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE072.width-450.png",
     images: [{
@@ -28922,7 +28922,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "arcanic-shockwave-red",
+    cardIdentifier: "arcanic-shockwave-red",
     functionalText: `**Lightning Fusion** *(As an additional cost to play Arcanic Shockwave, you may reveal a Lightning card from your hand.)*  When you attack with Arcanic Shockwave, if it was **fused**, deal 1 arcane damage to target hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE073.width-450.png",
     images: [{
@@ -28957,7 +28957,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "arcanic-shockwave-yellow",
+    cardIdentifier: "arcanic-shockwave-yellow",
     functionalText: `**Lightning Fusion** *(As an additional cost to play Arcanic Shockwave, you may reveal a Lightning card from your hand.)*  When you attack with Arcanic Shockwave, if it was **fused**, deal 1 arcane damage to target hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE074.width-450.png",
     images: [{
@@ -28992,7 +28992,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "arcanic-shockwave-blue",
+    cardIdentifier: "arcanic-shockwave-blue",
     functionalText: `**Lightning Fusion** *(As an additional cost to play Arcanic Shockwave, you may reveal a Lightning card from your hand.)*  When you attack with Arcanic Shockwave, if it was **fused**, deal 1 arcane damage to target hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE075.width-450.png",
     images: [{
@@ -29027,7 +29027,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "vela-flash-red",
+    cardIdentifier: "vela-flash-red",
     functionalText: `**Lightning Fusion** *(As an additional cost to play Vela Flash, you may reveal a Lightning card from your hand.)*  If Vela Flash was **fused**, you may play your next 'non-attack' action card this turn as though it were an instant.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE076.width-450.png",
     images: [{
@@ -29062,7 +29062,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "vela-flash-yellow",
+    cardIdentifier: "vela-flash-yellow",
     functionalText: `**Lightning Fusion** *(As an additional cost to play Vela Flash, you may reveal a Lightning card from your hand.)*  If Vela Flash was **fused**, you may play your next 'non-attack' action card this turn as though it were an instant.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE077.width-450.png",
     images: [{
@@ -29097,7 +29097,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "vela-flash-blue",
+    cardIdentifier: "vela-flash-blue",
     functionalText: `**Lightning Fusion** *(As an additional cost to play Vela Flash, you may reveal a Lightning card from your hand.)*  If Vela Flash was **fused**, you may play your next 'non-attack' action card this turn as though it were an instant.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE078.width-450.png",
     images: [{
@@ -29132,7 +29132,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "rites-of-replenishment-red",
+    cardIdentifier: "rites-of-replenishment-red",
     functionalText: `**Earth Fusion** *(As an additional cost to play Rites of Replenishment, you may reveal an Earth card from your hand.)*  When you attack with Rites of Replenishment, if you have dealt arcane damage this turn, you may put a 'non-attack' action card from your graveyard on the bottom of your deck.  When you attack with Rites of Replenishment, if it was **fused**, you may put an attack action card from your graveyard on the bottom of your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE079.width-450.png",
     images: [{
@@ -29172,7 +29172,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "rites-of-replenishment-yellow",
+    cardIdentifier: "rites-of-replenishment-yellow",
     functionalText: `**Earth Fusion** *(As an additional cost to play Rites of Replenishment, you may reveal an Earth card from your hand.)*  When you attack with Rites of Replenishment, if you have dealt arcane damage this turn, you may put a 'non-attack' action card from your graveyard on the bottom of your deck.  When you attack with Rites of Replenishment, if it was **fused**, you may put an attack action card from your graveyard on the bottom of your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE080.width-450.png",
     images: [{
@@ -29207,7 +29207,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "rites-of-replenishment-blue",
+    cardIdentifier: "rites-of-replenishment-blue",
     functionalText: `**Earth Fusion** *(As an additional cost to play Rites of Replenishment, you may reveal an Earth card from your hand.)*  When you attack with Rites of Replenishment, if you have dealt arcane damage this turn, you may put a 'non-attack' action card from your graveyard on the bottom of your deck.  When you attack with Rites of Replenishment, if it was **fused**, you may put an attack action card from your graveyard on the bottom of your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE081.width-450.png",
     images: [{
@@ -29247,7 +29247,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "stir-the-wildwood-red",
+    cardIdentifier: "stir-the-wildwood-red",
     functionalText: `**Earth Fusion** *(As an additional cost to play Stir the Wildwood, you may reveal an Earth card from your hand.)*  If you have dealt arcane damage to an opposing hero this turn, Stir the Wildwood gains +2{p}.  If Stir the Wildwood was **fused**, it gains +2{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE082.width-450.png",
     images: [{
@@ -29292,7 +29292,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "stir-the-wildwood-yellow",
+    cardIdentifier: "stir-the-wildwood-yellow",
     functionalText: `**Earth Fusion** *(As an additional cost to play Stir the Wildwood, you may reveal an Earth card from your hand.)*  If you have dealt arcane damage to an opposing hero this turn, Stir the Wildwood gains +2{p}.  If Stir the Wildwood was **fused**, it gains +2{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE083.width-450.png",
     images: [{
@@ -29332,7 +29332,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "stir-the-wildwood-blue",
+    cardIdentifier: "stir-the-wildwood-blue",
     functionalText: `**Earth Fusion** *(As an additional cost to play Stir the Wildwood, you may reveal an Earth card from your hand.)*  If you have dealt arcane damage to an opposing hero this turn, Stir the Wildwood gains +2{p}.  If Stir the Wildwood was **fused**, it gains +2{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE084.width-450.png",
     images: [{
@@ -29367,7 +29367,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "bramble-spark-red",
+    cardIdentifier: "bramble-spark-red",
     functionalText: `**Earth Fusion** *(As an additional cost to play Bramble Spark, you may reveal an Earth card from your hand.)*  The next attack action card you play this turn gains "When you attack with this, deal 1 arcane damage to target hero."  If Bramble Spark was **fused**, the next attack action card you play this turn gains +3{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE085.width-450.png",
     images: [{
@@ -29407,7 +29407,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "bramble-spark-yellow",
+    cardIdentifier: "bramble-spark-yellow",
     functionalText: `**Earth Fusion** *(As an additional cost to play Bramble Spark, you may reveal an Earth card from your hand.)*  The next attack action card you play this turn gains "When you attack with this, deal 1 arcane damage to target hero."  If Bramble Spark was **fused**, the next attack action card you play this turn gains +2{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE086.width-450.png",
     images: [{
@@ -29442,7 +29442,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "bramble-spark-blue",
+    cardIdentifier: "bramble-spark-blue",
     functionalText: `**Earth Fusion** *(As an additional cost to play Bramble Spark, you may reveal an Earth card from your hand.)*  The next attack action card you play this turn gains "When you attack with this, deal 1 arcane damage to target hero."  If Bramble Spark was **fused**, the next attack action card you play this turn gains +1{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE087.width-450.png",
     images: [{
@@ -29482,7 +29482,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "inspire-lightning-red",
+    cardIdentifier: "inspire-lightning-red",
     functionalText: `**Lightning Fusion** *(As an additional cost to play Inspire Lightning, you may reveal a Lightning card from your hand.)*  If Inspire Lightning was **fused**, deal 3 arcane damage to target hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE088.width-450.png",
     images: [{
@@ -29517,7 +29517,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "inspire-lightning-yellow",
+    cardIdentifier: "inspire-lightning-yellow",
     functionalText: `**Lightning Fusion** *(As an additional cost to play Inspire Lightning, you may reveal a Lightning card from your hand.)*  If Inspire Lightning was **fused**, deal 2 arcane damage to target hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE089.width-450.png",
     images: [{
@@ -29552,7 +29552,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "inspire-lightning-blue",
+    cardIdentifier: "inspire-lightning-blue",
     functionalText: `**Lightning Fusion** *(As an additional cost to play Inspire Lightning, you may reveal a Lightning card from your hand.)*  If Inspire Lightning was **fused**, deal 1 arcane damage to target hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE090.width-450.png",
     images: [{
@@ -29587,7 +29587,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "fulminate-yellow",
+    cardIdentifier: "fulminate-yellow",
     functionalText: `**Earth and/or Lightning Fusion** *(As an additional cost to play Fulminate, you may reveal an Earth and/or Lightning card from your hand.)*  If Fulminate was **fused** with an Earth card, attack action cards you control gain +3{p} this turn.  If Fulminate was **fused** with a Lightning card, attack action cards you control gain **go again** this turn.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE091.width-450.png",
     images: [{
@@ -29622,7 +29622,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "flashfreeze-red",
+    cardIdentifier: "flashfreeze-red",
     functionalText: `**Ice and/or Lightning Fusion** *(As an additional cost to play Flashfreeze, you may reveal an Ice and/or Lightning card from your hand.)*  If Flashfreeze was **fused** with an Ice card, attacks you control this turn gain "When you attack with this, it gains **dominate**, unless the defending hero pays {r}{r}."  If Flashfreeze was **fused** with a Lightning card, attacks you control this turn gain "If this hits a hero, deal 3 damage to them."  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE092.width-450.png",
     images: [{
@@ -29657,7 +29657,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "entwine-earth-red",
+    cardIdentifier: "entwine-earth-red",
     functionalText: `**Earth Fusion** *(As an additional cost to play Entwine Earth, you may reveal an Earth card from your hand.)*  If Entwine Earth was **fused**, it gains +2{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE094.width-450.png",
     images: [{
@@ -29697,7 +29697,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "entwine-earth-yellow",
+    cardIdentifier: "entwine-earth-yellow",
     functionalText: `**Earth Fusion** *(As an additional cost to play Entwine Earth, you may reveal an Earth card from your hand.)*  If Entwine Earth was **fused**, it gains +2{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE095.width-450.png",
     images: [{
@@ -29732,7 +29732,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "entwine-earth-blue",
+    cardIdentifier: "entwine-earth-blue",
     functionalText: `**Earth Fusion** *(As an additional cost to play Entwine Earth, you may reveal an Earth card from your hand.)*  If Entwine Earth was **fused**, it gains +2{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE096.width-450.png",
     images: [{
@@ -29767,7 +29767,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "entwine-ice-red",
+    cardIdentifier: "entwine-ice-red",
     functionalText: `**Ice Fusion** *(As an additional cost to play Entwine Ice, you may reveal an Ice card from your hand.)*  If Entwine Ice was **fused**, it gains **dominate.** *(The defending hero can't defend Entwine Ice with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE097.width-450.png",
     images: [{
@@ -29802,7 +29802,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "entwine-ice-yellow",
+    cardIdentifier: "entwine-ice-yellow",
     functionalText: `**Ice Fusion** *(As an additional cost to play Entwine Ice, you may reveal an Ice card from your hand.)*  If Entwine Ice was **fused**, it gains **dominate.** *(The defending hero can't defend Entwine Ice with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE098.width-450.png",
     images: [{
@@ -29837,7 +29837,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "entwine-ice-blue",
+    cardIdentifier: "entwine-ice-blue",
     functionalText: `**Ice Fusion** *(As an additional cost to play Entwine Ice, you may reveal an Ice card from your hand.)*  If Entwine Ice was **fused**, it gains **dominate.** *(The defending hero can't defend Entwine Ice with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE099.width-450.png",
     images: [{
@@ -29872,7 +29872,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "entwine-lightning-red",
+    cardIdentifier: "entwine-lightning-red",
     functionalText: `**Lightning Fusion** *(As an additional cost to play Entwine Lightning, you may reveal a Lightning card from your hand.)*  If Entwine Lightning was **fused**, it gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE100.width-450.png",
     images: [{
@@ -29917,7 +29917,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "entwine-lightning-yellow",
+    cardIdentifier: "entwine-lightning-yellow",
     functionalText: `**Lightning Fusion** *(As an additional cost to play Entwine Lightning, you may reveal a Lightning card from your hand.)*  If Entwine Lightning was **fused**, it gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE101.width-450.png",
     images: [{
@@ -29952,7 +29952,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "entwine-lightning-blue",
+    cardIdentifier: "entwine-lightning-blue",
     functionalText: `**Lightning Fusion** *(As an additional cost to play Entwine Lightning, you may reveal a Lightning card from your hand.)*  If Entwine Lightning was **fused**, it gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE102.width-450.png",
     images: [{
@@ -29987,7 +29987,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "invigorate-red",
+    cardIdentifier: "invigorate-red",
     functionalText: `The next attack you **fuse** this turn gains +4{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE103.width-450.png",
     images: [{
@@ -30027,7 +30027,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "invigorate-yellow",
+    cardIdentifier: "invigorate-yellow",
     functionalText: `The next attack you **fuse** this turn gains +3{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE104.width-450.png",
     images: [{
@@ -30067,7 +30067,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "invigorate-blue",
+    cardIdentifier: "invigorate-blue",
     functionalText: `The next attack you **fuse** this turn gains +2{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE105.width-450.png",
     images: [{
@@ -30107,7 +30107,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "rejuvenate-red",
+    cardIdentifier: "rejuvenate-red",
     functionalText: `Gain 3{h}  If you've **fused** this turn, you may play Rejuvenate as though it were an instant.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE106.width-450.png",
     images: [{
@@ -30142,7 +30142,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "rejuvenate-yellow",
+    cardIdentifier: "rejuvenate-yellow",
     functionalText: `Gain 2{h}  If you've **fused** this turn, you may play Rejuvenate as though it were an instant.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE107.width-450.png",
     images: [{
@@ -30177,7 +30177,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "rejuvenate-blue",
+    cardIdentifier: "rejuvenate-blue",
     functionalText: `Gain 1{h}  If you've **fused** this turn, you may play Rejuvenate as though it were an instant.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE108.width-450.png",
     images: [{
@@ -30212,7 +30212,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "pulse-of-candlehold-yellow",
+    cardIdentifier: "pulse-of-candlehold-yellow",
     functionalText: `**Legendary** *(You may only have 1 Pulse of Candlehold in your deck.)*  Put up to 2 target Earth, Lightning and/or Elemental action cards from your graveyard on top of your deck. Banish Pulse of Candlehold.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE113.width-450.png",
     images: [{
@@ -30247,7 +30247,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "channel-mount-heroic-red",
+    cardIdentifier: "channel-mount-heroic-red",
     functionalText: `**Go again**  Attack action cards you control have +3{p}.  **Channel Earth** - At the beginning of your end phase, put an flow counter on Channel Mount Heroic then destroy it unless you put an Earth card from your pitch zone on the bottom of your deck for each flow counter on it.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE117.width-450.png",
     images: [{
@@ -30282,7 +30282,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.NotClassed,
-    identifier: "tome-of-harvests-blue",
+    cardIdentifier: "tome-of-harvests-blue",
     functionalText: `As an additional cost to play Tome of Harvests, put a card from your arsenal on the bottom of your deck.  Draw 3 cards.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE118.width-450.png",
     images: [{
@@ -30317,7 +30317,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "evergreen-red",
+    cardIdentifier: "evergreen-red",
     functionalText: `If Evergreen is played from arsenal, put it on the bottom of your deck when the combat chain closes.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE119.width-450.png",
     images: [{
@@ -30357,7 +30357,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "evergreen-yellow",
+    cardIdentifier: "evergreen-yellow",
     functionalText: `If Evergreen is played from arsenal, put it on the bottom of your deck when the combat chain closes.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE120.width-450.png",
     images: [{
@@ -30392,7 +30392,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "evergreen-blue",
+    cardIdentifier: "evergreen-blue",
     functionalText: `If Evergreen is played from arsenal, put it on the bottom of your deck when the combat chain closes.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE121.width-450.png",
     images: [{
@@ -30432,7 +30432,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "weave-earth-red",
+    cardIdentifier: "weave-earth-red",
     functionalText: `The next Earth or Elemental attack action card you play this turn gains +3{p}.  If it's **fused**, instead it gains +4{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE122.width-450.png",
     images: [{
@@ -30472,7 +30472,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "weave-earth-yellow",
+    cardIdentifier: "weave-earth-yellow",
     functionalText: `The next Earth or Elemental attack action card you play this turn gains +2{p}.  If it's **fused**, instead it gains +3{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE123.width-450.png",
     images: [{
@@ -30507,7 +30507,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "weave-earth-blue",
+    cardIdentifier: "weave-earth-blue",
     functionalText: `The next Earth or Elemental attack action card you play this turn gains +1{p}.  If it's **fused**, instead it gains +2{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE124.width-450.png",
     images: [{
@@ -30542,7 +30542,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "autumns-touch-red",
+    cardIdentifier: "autumns-touch-red",
     functionalText: `null`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE128.width-450.png",
     images: [{
@@ -30577,7 +30577,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "autumns-touch-yellow",
+    cardIdentifier: "autumns-touch-yellow",
     functionalText: `null`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE129.width-450.png",
     images: [{
@@ -30617,7 +30617,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "autumns-touch-blue",
+    cardIdentifier: "autumns-touch-blue",
     functionalText: `null`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE130.width-450.png",
     images: [{
@@ -30657,7 +30657,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "break-ground-red",
+    cardIdentifier: "break-ground-red",
     functionalText: `When you attack with Break Ground, you may put a card from your arsenal on the bottom of your deck. If you do, draw a card.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE131.width-450.png",
     images: [{
@@ -30692,7 +30692,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "break-ground-yellow",
+    cardIdentifier: "break-ground-yellow",
     functionalText: `When you attack with Break Ground, you may put a card from your arsenal on the bottom of your deck. If you do, draw a card.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE132.width-450.png",
     images: [{
@@ -30727,7 +30727,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "break-ground-blue",
+    cardIdentifier: "break-ground-blue",
     functionalText: `When you attack with Break Ground, you may put a card from your arsenal on the bottom of your deck. If you do, draw a card.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE133.width-450.png",
     images: [{
@@ -30767,7 +30767,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "burgeoning-red",
+    cardIdentifier: "burgeoning-red",
     functionalText: `If Burgeoning is played from arsenal, it gains +1{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE134.width-450.png",
     images: [{
@@ -30812,7 +30812,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "burgeoning-yellow",
+    cardIdentifier: "burgeoning-yellow",
     functionalText: `If Burgeoning is played from arsenal, it gains +1{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE135.width-450.png",
     images: [{
@@ -30852,7 +30852,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "burgeoning-blue",
+    cardIdentifier: "burgeoning-blue",
     functionalText: `If Burgeoning is played from arsenal, it gains +1{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE136.width-450.png",
     images: [{
@@ -30892,7 +30892,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "earthlore-surge-red",
+    cardIdentifier: "earthlore-surge-red",
     functionalText: `The next attack action card you play this turn gains +5{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE137.width-450.png",
     images: [{
@@ -30932,7 +30932,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "earthlore-surge-yellow",
+    cardIdentifier: "earthlore-surge-yellow",
     functionalText: `The next attack action card you play this turn gains +4{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE138.width-450.png",
     images: [{
@@ -30967,7 +30967,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "earthlore-surge-blue",
+    cardIdentifier: "earthlore-surge-blue",
     functionalText: `The next attack action card you play this turn gains +3{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE139.width-450.png",
     images: [{
@@ -31012,7 +31012,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "sow-tomorrow-red",
+    cardIdentifier: "sow-tomorrow-red",
     functionalText: `Put target Earth or Elemental action card with cost 0 or greater from your graveyard on the bottom of your deck. Banish Sow Tomorrow.  If Sow Tomorrow is played from arsenal, draw a card.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE140.width-450.png",
     images: [{
@@ -31052,7 +31052,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "sow-tomorrow-yellow",
+    cardIdentifier: "sow-tomorrow-yellow",
     functionalText: `Put target Earth or Elemental action card with cost 1 or greater from your graveyard on the bottom of your deck. Banish Sow Tomorrow.  If Sow Tomorrow is played from arsenal, draw a card.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE141.width-450.png",
     images: [{
@@ -31087,7 +31087,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "sow-tomorrow-blue",
+    cardIdentifier: "sow-tomorrow-blue",
     functionalText: `Put target Earth or Elemental action card with cost 2 or greater from your graveyard on the bottom of your deck. Banish Sow Tomorrow.  If Sow Tomorrow is played from arsenal, draw a card.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE142.width-450.png",
     images: [{
@@ -31127,7 +31127,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "amulet-of-earth",
+    cardIdentifier: "amulet-of-earth",
     functionalText: `**Go again**  **Instant** - Destroy Amulet of Earth: Attack action cards you control gain +1{p} and +1{d} this turn. Activate this ability only if you have Earth **fused** this turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE143.width-450.png",
     images: [{
@@ -31172,7 +31172,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.NotClassed,
-    identifier: "channel-lake-frigid-blue",
+    cardIdentifier: "channel-lake-frigid-blue",
     functionalText: `**Go again**  Cards and activated abilities cost opposing heroes an additional {r}.  **Channel Ice** - At the beginning of your end phase, put a flow counter on Channel Lake Frigid then destroy it unless you put an Ice card from your pitch zone on the bottom of your deck for each flow counter on it.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE146.width-450.png",
     images: [{
@@ -31212,7 +31212,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.NotClassed,
-    identifier: "frost-fang-red",
+    cardIdentifier: "frost-fang-red",
     functionalText: `If Frost Fang hits a hero, they discard a card unless they pay {r}{r}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE148.width-450.png",
     images: [{
@@ -31252,7 +31252,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "frost-fang-yellow",
+    cardIdentifier: "frost-fang-yellow",
     functionalText: `If Frost Fang hits a hero, they discard a card unless they pay {r}{r}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE149.width-450.png",
     images: [{
@@ -31287,7 +31287,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "frost-fang-blue",
+    cardIdentifier: "frost-fang-blue",
     functionalText: `If Frost Fang hits a hero, they discard a card unless they pay {r}{r}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE150.width-450.png",
     images: [{
@@ -31322,7 +31322,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "ice-quake-red",
+    cardIdentifier: "ice-quake-red",
     functionalText: `Your next attack this turn gains +3{p}.  Whenever an attack hits a hero this turn, create a Frostbite token under their control.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE151.width-450.png",
     images: [{
@@ -31357,7 +31357,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "ice-quake-yellow",
+    cardIdentifier: "ice-quake-yellow",
     functionalText: `Your next attack this turn gains +2{p}.  Whenever an attack hits a hero this turn, create a Frostbite token under their control.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE152.width-450.png",
     images: [{
@@ -31392,7 +31392,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "ice-quake-blue",
+    cardIdentifier: "ice-quake-blue",
     functionalText: `Your next attack this turn gains +1{p}.  Whenever an attack hits a hero this turn, create a Frostbite token under their control.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE153.width-450.png",
     images: [{
@@ -31427,7 +31427,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "weave-ice-red",
+    cardIdentifier: "weave-ice-red",
     functionalText: `The next Ice or Elemental attack action card you play this turn gains +3{p}.  If it's **fused**, it gains **dominate.** *(The defending hero can't defend the attack with more than 1 card from their hand.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE154.width-450.png",
     images: [{
@@ -31467,7 +31467,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "weave-ice-yellow",
+    cardIdentifier: "weave-ice-yellow",
     functionalText: `The next Ice or Elemental attack action card you play this turn gains +2{p}.  If it's **fused**, it gains **dominate.** *(The defending hero can't defend the attack with more than 1 card from their hand.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE155.width-450.png",
     images: [{
@@ -31502,7 +31502,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "weave-ice-blue",
+    cardIdentifier: "weave-ice-blue",
     functionalText: `The next Ice or Elemental attack action card you play this turn gains +1{p}.  If it's **fused**, it gains **dominate.** *(The defending hero can't defend the attack with more than 1 card from their hand.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE156.width-450.png",
     images: [{
@@ -31537,7 +31537,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "icy-encounter-red",
+    cardIdentifier: "icy-encounter-red",
     functionalText: `If Icy Encounter hits a hero, create a Frostbite token under their control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE157.width-450.png",
     images: [{
@@ -31572,7 +31572,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "icy-encounter-yellow",
+    cardIdentifier: "icy-encounter-yellow",
     functionalText: `If Icy Encounter hits a hero, create a Frostbite token under their control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE158.width-450.png",
     images: [{
@@ -31607,7 +31607,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "icy-encounter-blue",
+    cardIdentifier: "icy-encounter-blue",
     functionalText: `If Icy Encounter hits a hero, create a Frostbite token under their control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE159.width-450.png",
     images: [{
@@ -31642,7 +31642,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "winters-grasp-red",
+    cardIdentifier: "winters-grasp-red",
     functionalText: `null`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE160.width-450.png",
     images: [{
@@ -31677,7 +31677,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "winters-grasp-yellow",
+    cardIdentifier: "winters-grasp-yellow",
     functionalText: `null`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE161.width-450.png",
     images: [{
@@ -31712,7 +31712,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "winters-grasp-blue",
+    cardIdentifier: "winters-grasp-blue",
     functionalText: `null`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE162.width-450.png",
     images: [{
@@ -31752,7 +31752,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "chill-to-the-bone-red",
+    cardIdentifier: "chill-to-the-bone-red",
     functionalText: `The next time an Ice or Elemental attack hits a hero this turn, create 3 Frostbite tokens under their control.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE163.width-450.png",
     images: [{
@@ -31787,7 +31787,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "chill-to-the-bone-yellow",
+    cardIdentifier: "chill-to-the-bone-yellow",
     functionalText: `The next time an Ice or Elemental attack hits a hero this turn, create 2 Frostbite tokens under their control.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE164.width-450.png",
     images: [{
@@ -31827,7 +31827,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "chill-to-the-bone-blue",
+    cardIdentifier: "chill-to-the-bone-blue",
     functionalText: `The next time an Ice or Elemental attack hits a hero this turn, create a Frostbite token under their control.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE165.width-450.png",
     images: [{
@@ -31862,7 +31862,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "polar-blast-red",
+    cardIdentifier: "polar-blast-red",
     functionalText: `Target opposing hero may pay {r}{r}{r}. If they don’t your next attack this turn gains **dominate.** *(The defending hero can't defend the attack with more than 1 card from their hand.)*  If Polar Blast is played from arsenal, draw a card.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE166.width-450.png",
     images: [{
@@ -31902,7 +31902,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "polar-blast-yellow",
+    cardIdentifier: "polar-blast-yellow",
     functionalText: `Target opposing hero may pay {r}{r}. If they don’t your next attack this turn gains **dominate.** *(The defending hero can't defend the attack with more than 1 card from their hand.)*  If Polar Blast is played from arsenal, draw a card.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE167.width-450.png",
     images: [{
@@ -31947,7 +31947,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "polar-blast-blue",
+    cardIdentifier: "polar-blast-blue",
     functionalText: `Target opposing hero may pay {r}. If they don’t your next attack this turn gains **dominate.** *(The defending hero can't defend the attack with more than 1 card from their hand.)*  If Polar Blast is played from arsenal, draw a card.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE168.width-450.png",
     images: [{
@@ -31987,7 +31987,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "winters-bite-red",
+    cardIdentifier: "winters-bite-red",
     functionalText: `Target hero discards a card unless they pay {r}{r}{r}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE169.width-450.png",
     images: [{
@@ -32022,7 +32022,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "winters-bite-yellow",
+    cardIdentifier: "winters-bite-yellow",
     functionalText: `Target hero discards a card unless they pay {r}{r}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE170.width-450.png",
     images: [{
@@ -32062,7 +32062,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "winters-bite-blue",
+    cardIdentifier: "winters-bite-blue",
     functionalText: `Target hero discards a card unless they pay {r}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE171.width-450.png",
     images: [{
@@ -32102,7 +32102,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "amulet-of-ice-blue",
+    cardIdentifier: "amulet-of-ice-blue",
     functionalText: `**Go again**  **Instant** - Destroy Amulet of Ice: Target hero discards a card unless they pay {r}{r}. Activate this ability only if you have Ice **fused** this turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE172.width-450.png",
     images: [{
@@ -32147,7 +32147,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.NotClassed,
-    identifier: "channel-thunder-steppe-yellow",
+    cardIdentifier: "channel-thunder-steppe-yellow",
     functionalText: `**Go again**  Whenever you play an action card, you may pay {r}. If you do, it gains **go again.**  **Channel Lightning** - At the beginning of your end phase, put a flow counter on Channel Thunder Steppe then destroy it unless you put a Lightning card from your pitch zone on the bottom of your deck for each flow counter on it.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE175.width-450.png",
     images: [{
@@ -32182,7 +32182,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.NotClassed,
-    identifier: "flash-red",
+    cardIdentifier: "flash-red",
     functionalText: `The next action card you play this turn with cost 0 or greater gains **go again.**  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE177.width-450.png",
     images: [{
@@ -32217,7 +32217,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "flash-yellow",
+    cardIdentifier: "flash-yellow",
     functionalText: `The next action card you play this turn with cost 1 or greater gains **go again.**  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE178.width-450.png",
     images: [{
@@ -32257,7 +32257,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "flash-blue",
+    cardIdentifier: "flash-blue",
     functionalText: `The next action card you play this turn with cost 2 or greater gains **go again.**  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE179.width-450.png",
     images: [{
@@ -32292,7 +32292,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "weave-lightning-red",
+    cardIdentifier: "weave-lightning-red",
     functionalText: `The next Lightning or Elemental attack action card you play this turn gains +3{p}. If it's **fused**, it gains **go again.**  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE180.width-450.png",
     images: [{
@@ -32337,7 +32337,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "weave-lightning-yellow",
+    cardIdentifier: "weave-lightning-yellow",
     functionalText: `The next Lightning or Elemental attack action card you play this turn gains +2{p}. If it's **fused**, it gains **go again.**  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE181.width-450.png",
     images: [{
@@ -32377,7 +32377,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "weave-lightning-blue",
+    cardIdentifier: "weave-lightning-blue",
     functionalText: `The next Lightning or Elemental attack action card you play this turn gains +1{p}. If it's **fused**, it gains **go again.**  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE182.width-450.png",
     images: [{
@@ -32417,7 +32417,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "ball-lightning-red",
+    cardIdentifier: "ball-lightning-red",
     functionalText: `Whenever a Lightning or Elemental action card would deal damage this combat chain, instead it deals that much damage plus 1.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE186.width-450.png",
     images: [{
@@ -32452,7 +32452,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "ball-lightning-yellow",
+    cardIdentifier: "ball-lightning-yellow",
     functionalText: `Whenever a Lightning or Elemental action card would deal damage this combat chain, instead it deals that much damage plus 1.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE187.width-450.png",
     images: [{
@@ -32487,7 +32487,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "ball-lightning-blue",
+    cardIdentifier: "ball-lightning-blue",
     functionalText: `Whenever a Lightning or Elemental action card would deal damage this combat chain, instead it deals that much damage plus 1.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE188.width-450.png",
     images: [{
@@ -32522,7 +32522,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "lightning-surge-red",
+    cardIdentifier: "lightning-surge-red",
     functionalText: `If Lightning Surge is played from arsenal, it gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE189.width-450.png",
     images: [{
@@ -32557,7 +32557,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "lightning-surge-yellow",
+    cardIdentifier: "lightning-surge-yellow",
     functionalText: `If Lightning Surge is played from arsenal, it gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE190.width-450.png",
     images: [{
@@ -32597,7 +32597,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "lightning-surge-blue",
+    cardIdentifier: "lightning-surge-blue",
     functionalText: `If Lightning Surge is played from arsenal, it gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE191.width-450.png",
     images: [{
@@ -32632,7 +32632,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "heavens-claws-red",
+    cardIdentifier: "heavens-claws-red",
     functionalText: `null`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE192.width-450.png",
     images: [{
@@ -32672,7 +32672,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "heavens-claws-yellow",
+    cardIdentifier: "heavens-claws-yellow",
     functionalText: `null`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE193.width-450.png",
     images: [{
@@ -32712,7 +32712,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "heavens-claws-blue",
+    cardIdentifier: "heavens-claws-blue",
     functionalText: `null`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE194.width-450.png",
     images: [{
@@ -32747,7 +32747,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "shock-striker-red",
+    cardIdentifier: "shock-striker-red",
     functionalText: `**Once per Turn Instant** - {r}{r}: Shock Striker gains "If Shock Striker hits a hero, deal 1 damage to them."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE195.width-450.png",
     images: [{
@@ -32787,7 +32787,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "shock-striker-yellow",
+    cardIdentifier: "shock-striker-yellow",
     functionalText: `**Once per Turn Instant** - {r}{r}: Shock Striker gains "If Shock Striker hits a hero, deal 1 damage to them."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE196.width-450.png",
     images: [{
@@ -32822,7 +32822,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "shock-striker-blue",
+    cardIdentifier: "shock-striker-blue",
     functionalText: `**Once per Turn Instant** - {r}{r}: Shock Striker gains "If Shock Striker hits a hero, deal 1 damage to them."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE197.width-450.png",
     images: [{
@@ -32857,7 +32857,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "electrify-red",
+    cardIdentifier: "electrify-red",
     functionalText: `The next time an attack action card hits a hero this turn, it deals 3 damage to them.  If Electrify is played from arsenal, draw a card.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE198.width-450.png",
     images: [{
@@ -32897,7 +32897,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "electrify-yellow",
+    cardIdentifier: "electrify-yellow",
     functionalText: `The next time an attack action card hits a hero this turn, it deals 2 damage to them.  If Electrify is played from arsenal, draw a card.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE199.width-450.png",
     images: [{
@@ -32937,7 +32937,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "electrify-blue",
+    cardIdentifier: "electrify-blue",
     functionalText: `The next time an attack action card hits a hero this turn, it deals 1 damage to them.  If Electrify is played from arsenal, draw a card.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE200.width-450.png",
     images: [{
@@ -32982,7 +32982,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "amulet-of-lightning-blue",
+    cardIdentifier: "amulet-of-lightning-blue",
     functionalText: `**Go again**  **Instant** - Destroy Amulet of Lightning: Target action card gains **go again.** Activate this ability only if you have Lightning **fused** this turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE201.width-450.png",
     images: [{
@@ -33027,7 +33027,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Guardian,
-    identifier: "tear-asunder-blue",
+    cardIdentifier: "tear-asunder-blue",
     functionalText: `Your next Guardian attack this turn gains +1{p}, **dominate**, and "If this hits a hero, they discard 2 cards."  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE205.width-450.png",
     images: [{
@@ -33062,7 +33062,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Guardian,
-    identifier: "embolden-red",
+    cardIdentifier: "embolden-red",
     functionalText: `**Go again**  When Embolden enters the arena, if you control another non-token aura, draw a card.  At the beginning of your action phase, destroy Embolden then the next Guardian attack action card you play this turn gains +5{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE206.width-450.png",
     images: [{
@@ -33102,7 +33102,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
-    identifier: "embolden-yellow",
+    cardIdentifier: "embolden-yellow",
     functionalText: `**Go again**  When Embolden enters the arena, if you control another non-token aura, draw a card.  At the beginning of your action phase, destroy Embolden then the next Guardian attack action card you play this turn gains +4{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE207.width-450.png",
     images: [{
@@ -33137,7 +33137,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
-    identifier: "embolden-blue",
+    cardIdentifier: "embolden-blue",
     functionalText: `**Go again**  When Embolden enters the arena, if you control another non-token aura, draw a card.  At the beginning of your action phase, destroy Embolden then the next Guardian attack action card you play this turn gains +3{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE208.width-450.png",
     images: [{
@@ -33172,7 +33172,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
-    identifier: "thump-red",
+    cardIdentifier: "thump-red",
     functionalText: `While Thump’s {p} is greater than its base {p}, it gains **dominate** and "If this hits a hero, they discard a card." *(The defending hero can't defend Thump with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE209.width-450.png",
     images: [{
@@ -33212,7 +33212,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "thump-yellow",
+    cardIdentifier: "thump-yellow",
     functionalText: `While Thump’s {p} is greater than its base {p}, it gains **dominate** and "If this hits a hero, they discard a card." *(The defending hero can't defend Thump with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE210.width-450.png",
     images: [{
@@ -33247,7 +33247,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "thump-blue",
+    cardIdentifier: "thump-blue",
     functionalText: `While Thump’s {p} is greater than its base {p}, it gains **dominate** and "If this hits a hero, they discard a card." *(The defending hero can't defend Thump with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE211.width-450.png",
     images: [{
@@ -33287,7 +33287,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "seek-and-destroy-red",
+    cardIdentifier: "seek-and-destroy-red",
     functionalText: `Your next arrow attack this turn gains +3{p} and "If this hits a hero, at the beginning of their next end phase, they discard all cards in their hand and destroy all cards in their arsenal."  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE215.width-450.png",
     images: [{
@@ -33322,7 +33322,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
-    identifier: "boltn-shot-red",
+    cardIdentifier: "boltn-shot-red",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  If Bolt’n’ Shot's {p} is greater than its base {p}, it has **go again** and "If this hits, **reload.**" *(If you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE216.width-450.png",
     images: [{
@@ -33362,7 +33362,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "boltn-shot-yellow",
+    cardIdentifier: "boltn-shot-yellow",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  If Bolt’n’ Shot's {p} is greater than its base {p}, it has **go again** and "If this hits, **reload.**" *(If you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE217.width-450.png",
     images: [{
@@ -33397,7 +33397,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "boltn-shot-blue",
+    cardIdentifier: "boltn-shot-blue",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  If Bolt’n’ Shot's {p} is greater than its base {p}, it has **go again** and "If this hits, **reload.**" *(If you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE218.width-450.png",
     images: [{
@@ -33432,7 +33432,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "over-flex-red",
+    cardIdentifier: "over-flex-red",
     functionalText: `Your next arrow attack this turn gains +4{p}.  **Reload** *(If you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE219.width-450.png",
     images: [{
@@ -33472,7 +33472,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
-    identifier: "over-flex-yellow",
+    cardIdentifier: "over-flex-yellow",
     functionalText: `Your next arrow attack this turn gains +3{p}.  **Reload** *(If you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE220.width-450.png",
     images: [{
@@ -33507,7 +33507,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
-    identifier: "over-flex-blue",
+    cardIdentifier: "over-flex-blue",
     functionalText: `Your next arrow attack this turn gains +2{p}.  **Reload** *(If you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE221.width-450.png",
     images: [{
@@ -33542,7 +33542,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "sting-of-sorcery-blue",
+    cardIdentifier: "sting-of-sorcery-blue",
     functionalText: `**Go again**  Attack action cards you control gain “When you attack with this, deal 1 arcane damage to target hero.”  At the beginning of your end phase, destroy Sting of Sorcery.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE226.width-450.png",
     images: [{
@@ -33577,7 +33577,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Runeblade,
-    identifier: "singeing-steelblade-red",
+    cardIdentifier: "singeing-steelblade-red",
     functionalText: `When you attack with Singeing Steelblade, deal 1 arcane damage to target hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE230.width-450.png",
     images: [{
@@ -33612,7 +33612,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "singeing-steelblade-yellow",
+    cardIdentifier: "singeing-steelblade-yellow",
     functionalText: `When you attack with Singeing Steelblade, deal 1 arcane damage to target hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE231.width-450.png",
     images: [{
@@ -33647,7 +33647,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "singeing-steelblade-blue",
+    cardIdentifier: "singeing-steelblade-blue",
     functionalText: `When you attack with Singeing Steelblade, deal 1 arcane damage to target hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE232.width-450.png",
     images: [{
@@ -33682,7 +33682,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "swing-big-red",
+    cardIdentifier: "swing-big-red",
     functionalText: `If Swing Big doesn't hit, the defending hero creates a Quicken token when the combat chain closes.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR002.width-450.png",
     images: [{
@@ -33712,7 +33712,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "ready-to-roll-blue",
+    cardIdentifier: "ready-to-roll-blue",
     functionalText: `**Kayo Specialization** *(You may only have Ready to Roll in your deck if your hero is Kayo.)*  If you would roll 1 or more dice this turn, instead roll that many dice plus 1 and ignore the lowest roll.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR003.width-450.png",
     images: [{
@@ -33742,7 +33742,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
-    identifier: "rolling-thunder-red",
+    cardIdentifier: "rolling-thunder-red",
     functionalText: `Roll a 6 sided die. Your next Brute attack this turn gains +X{p}, where X the number rolled.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR004.width-450.png",
     images: [{
@@ -33772,7 +33772,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
-    identifier: "high-roller-red",
+    cardIdentifier: "high-roller-red",
     functionalText: `**Intimidate** *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owners hand.)*  If you have rolled a 4, 5, or 6 on a die this turn, instead **intimidate** twice.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR005.width-450.png",
     images: [{
@@ -33802,7 +33802,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
-    identifier: "high-roller-yellow",
+    cardIdentifier: "high-roller-yellow",
     functionalText: `**Intimidate** *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owners hand.)*  If you have rolled a 5 or 6 on a die this turn, instead **intimidate** twice.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR006.width-450.png",
     images: [{
@@ -33832,7 +33832,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
-    identifier: "high-roller-blue",
+    cardIdentifier: "high-roller-blue",
     functionalText: `**Intimidate** *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owners hand.)*  If you have rolled a 6 on a die this turn, instead **intimidate** twice.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR007.width-450.png",
     images: [{
@@ -33862,7 +33862,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
-    identifier: "bare-fangs-red",
+    cardIdentifier: "bare-fangs-red",
     functionalText: `When you attack with Bare Fangs, draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, Bare Fangs gains +2{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR008.width-450.png",
     images: [{
@@ -33897,7 +33897,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "bare-fangs-yellow",
+    cardIdentifier: "bare-fangs-yellow",
     functionalText: `When you attack with Bare Fangs, draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, Bare Fangs gains +2{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR009.width-450.png",
     images: [{
@@ -33927,7 +33927,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "bare-fangs-blue",
+    cardIdentifier: "bare-fangs-blue",
     functionalText: `When you attack with Bare Fangs, draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, Bare Fangs gains +2{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR010.width-450.png",
     images: [{
@@ -33957,7 +33957,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "wild-ride-red",
+    cardIdentifier: "wild-ride-red",
     functionalText: `When you attack with Wild Ride, draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, Wild Ride gains **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR011.width-450.png",
     images: [{
@@ -33992,7 +33992,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "wild-ride-yellow",
+    cardIdentifier: "wild-ride-yellow",
     functionalText: `When you attack with Wild Ride, draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, Wild Ride gains **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR012.width-450.png",
     images: [{
@@ -34022,7 +34022,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "wild-ride-blue",
+    cardIdentifier: "wild-ride-blue",
     functionalText: `When you attack with Wild Ride, draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, Wild Ride gains **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR013.width-450.png",
     images: [{
@@ -34052,7 +34052,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "bad-beats-red",
+    cardIdentifier: "bad-beats-red",
     functionalText: `Roll a 6 sided die. If the number rolled is a 4, 5, or 6, the next Brute attack action card you play this turn gains +5{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR014.width-450.png",
     images: [{
@@ -34082,7 +34082,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
-    identifier: "bad-beats-yellow",
+    cardIdentifier: "bad-beats-yellow",
     functionalText: `Roll a 6 sided die. If the number rolled is a 5 or 6, the next Brute attack action card you play this turn gains +5{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR015.width-450.png",
     images: [{
@@ -34112,7 +34112,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
-    identifier: "bad-beats-blue",
+    cardIdentifier: "bad-beats-blue",
     functionalText: `Roll a 6 sided die. If the number rolled is a 6, the next Brute attack action card you play this turn gains +5{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR016.width-450.png",
     images: [{
@@ -34142,7 +34142,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Guardian,
-    identifier: "pulverize-red",
+    cardIdentifier: "pulverize-red",
     functionalText: `**Heave 3** *(At the beginning of your end phase, if Pulverize is in your hand and you have an empty arsenal zone, you may pay {r}{r}{r} and put Pulverize face up into your arsenal. If you do, create 3 Seismic Surge tokens.)*  If Pulverize hits a hero, their first attack during their next turn has -4{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR021.width-450.png",
     images: [{
@@ -34177,7 +34177,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "imposing-visage-blue",
+    cardIdentifier: "imposing-visage-blue",
     functionalText: `Search your deck for an aura card with cost X or less, put it into the arena, then shuffle your deck.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR022.width-450.png",
     images: [{
@@ -34207,7 +34207,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Guardian,
-    identifier: "nerves-of-steel-blue",
+    cardIdentifier: "nerves-of-steel-blue",
     functionalText: `When Nerves of Steel enters the arena, remove a -1{d} counter from a chest equipment you control.  **Battleworn** and **temper** on equipment you control doesn’t trigger if it defends an attack with 2 or less {p}. *(***Battleworn*** and ***temper*** trigger when the combat chain closes.)*  When your hero is dealt damage, destroy Nerves of Steel.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR023.width-450.png",
     images: [{
@@ -34237,7 +34237,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
-    identifier: "thunder-quake-red",
+    cardIdentifier: "thunder-quake-red",
     functionalText: `**Heave 3** *(At the beginning of your end phase, if Thunder Quake is in your hand and you have an empty arsenal zone, you may pay {r}{r}{r} and put Thunder Quake face up into your arsenal. If you do, create 3 Seismic Surge tokens.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR024.width-450.png",
     images: [{
@@ -34272,7 +34272,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "thunder-quake-yellow",
+    cardIdentifier: "thunder-quake-yellow",
     functionalText: `**Heave 3** *(At the beginning of your end phase, if Thunder Quake is in your hand and you have an empty arsenal zone, you may pay {r}{r}{r} and put Thunder Quake face up into your arsenal. If you do, create 3 Seismic Surge tokens.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR025.width-450.png",
     images: [{
@@ -34307,7 +34307,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "thunder-quake-blue",
+    cardIdentifier: "thunder-quake-blue",
     functionalText: `**Heave 3** *(At the beginning of your end phase, if Thunder Quake is in your hand and you have an empty arsenal zone, you may pay {r}{r}{r} and put Thunder Quake face up into your arsenal. If you do, create 3 Seismic Surge tokens.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR026.width-450.png",
     images: [{
@@ -34342,7 +34342,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "macho-grande-red",
+    cardIdentifier: "macho-grande-red",
     functionalText: `**Dominate** *(The defending hero can't defend Macho Grande with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR027.width-450.png",
     images: [{
@@ -34377,7 +34377,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "macho-grande-yellow",
+    cardIdentifier: "macho-grande-yellow",
     functionalText: `**Dominate** *(The defending hero can't defend Macho Grande with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR028.width-450.png",
     images: [{
@@ -34412,7 +34412,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "macho-grande-blue",
+    cardIdentifier: "macho-grande-blue",
     functionalText: `**Dominate** *(The defending hero can't defend Macho Grande with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR029.width-450.png",
     images: [{
@@ -34447,7 +34447,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
-    identifier: "seismic-stir-red",
+    cardIdentifier: "seismic-stir-red",
     functionalText: `Create 3 Seismic Surge tokens.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR030.width-450.png",
     images: [{
@@ -34477,7 +34477,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Guardian,
-    identifier: "seismic-stir-yellow",
+    cardIdentifier: "seismic-stir-yellow",
     functionalText: `Create 2 Seismic Surge tokens.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR031.width-450.png",
     images: [{
@@ -34507,7 +34507,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Guardian,
-    identifier: "seismic-stir-blue",
+    cardIdentifier: "seismic-stir-blue",
     functionalText: `Create a Seismic Surge token.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR032.width-450.png",
     images: [{
@@ -34537,7 +34537,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ninja,
-    identifier: "break-tide-yellow",
+    cardIdentifier: "break-tide-yellow",
     functionalText: `**Combo** - If Rushing River or Flood of Force was the last attack this combat chain, Break Tide gains +3{p}, **dominate**, and "If Break Tide hits, banish the top card of your deck. Until the end of your next turn, you may play it."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR038.width-450.png",
     images: [{
@@ -34567,7 +34567,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "spring-tidings-yellow",
+    cardIdentifier: "spring-tidings-yellow",
     functionalText: `**Benji Specialization** *(You may only have Spring Tidings in your deck if your hero is Benji.)*  When Spring Tidings hits, draw a card for each other attack action card with 2 or less base{p} you control on the combat chain.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR039.width-450.png",
     images: [{
@@ -34597,7 +34597,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "winds-of-eternity-blue",
+    cardIdentifier: "winds-of-eternity-blue",
     functionalText: `**Combo** - If Winds of Eternity was the last attack this combat chain, Winds of Eternity gains +2{p} and "If this hits, shuffle all cards named Hundred Winds you control on this combat chain into your deck."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR040.width-450.png",
     images: [{
@@ -34632,7 +34632,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "hundred-winds-red",
+    cardIdentifier: "hundred-winds-red",
     functionalText: `**Combo** - If Hundred Winds was the last attack this combat chain, this attack gains +1{p} for each other card named Hundred Winds you control on this combat chain.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR041.width-450.png",
     images: [{
@@ -34667,7 +34667,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "hundred-winds-yellow",
+    cardIdentifier: "hundred-winds-yellow",
     functionalText: `**Combo** - If Hundred Winds was the last attack this combat chain, this attack gains +1{p} for each other card named Hundred Winds you control on this combat chain.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR042.width-450.png",
     images: [{
@@ -34702,7 +34702,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "hundred-winds-blue",
+    cardIdentifier: "hundred-winds-blue",
     functionalText: `**Combo** - If Hundred Winds was the last attack this combat chain, this attack gains +1{p} for each other card named Hundred Winds you control on this combat chain.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR043.width-450.png",
     images: [{
@@ -34737,7 +34737,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "ride-the-tailwind-red",
+    cardIdentifier: "ride-the-tailwind-red",
     functionalText: `When Ride the Tailwind hits, the next attack action card with 2 or less base {p} you play this combat chain gains **go again.**  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR044.width-450.png",
     images: [{
@@ -34767,7 +34767,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "ride-the-tailwind-yellow",
+    cardIdentifier: "ride-the-tailwind-yellow",
     functionalText: `When Ride the Tailwind hits, the next attack action card with 2 or less base {p} you play this combat chain gains **go again.**  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR045.width-450.png",
     images: [{
@@ -34797,7 +34797,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "ride-the-tailwind-blue",
+    cardIdentifier: "ride-the-tailwind-blue",
     functionalText: `When Ride the Tailwind hits, the next attack action card with 2 or less base {p} you play this combat chain gains **go again.**  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR046.width-450.png",
     images: [{
@@ -34827,7 +34827,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "twin-twisters-red",
+    cardIdentifier: "twin-twisters-red",
     functionalText: `Choose 1:  - Twin Twisters gains "When this hits, your next attack this combat chain gains +1{p}.” - Twin Twisters gains +1{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR047.width-450.png",
     images: [{
@@ -34857,7 +34857,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "twin-twisters-yellow",
+    cardIdentifier: "twin-twisters-yellow",
     functionalText: `Choose 1:  - Twin Twisters gains "When this hits, your next attack this combat chain gains +1{p}.” - Twin Twisters gains +1{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR048.width-450.png",
     images: [{
@@ -34887,7 +34887,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "twin-twisters-blue",
+    cardIdentifier: "twin-twisters-blue",
     functionalText: `Choose 1:  - Twin Twisters gains "When this hits, your next attack this combat chain gains +1{p}.” - Twin Twisters gains +1{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR049.width-450.png",
     images: [{
@@ -34917,7 +34917,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
-    identifier: "blood-on-her-hands-yellow",
+    cardIdentifier: "blood-on-her-hands-yellow",
     functionalText: `**Kassai Specialization**  As an additional cost to play Blood on Her Hands, destroy any number of Copper you control. For each Copper destroyed this way choose a mode. You may choose each mode twice.  - Target 1H weapon gains +1{p} this turn while attacking this turn. - Target 1H weapon gains **go again** this turn while attacking this turn. - Target 1H weapon may attack twice this turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR055.width-450.png",
     images: [{
@@ -34947,7 +34947,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "oath-of-steel-red",
+    cardIdentifier: "oath-of-steel-red",
     functionalText: `Whenever you attack with a weapon this turn, put a +1{p} counter on it.  At the beginning of your end phase, remove all +1{p} counters from weapons you control.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR056.width-450.png",
     images: [{
@@ -34977,7 +34977,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "slice-and-dice-red",
+    cardIdentifier: "slice-and-dice-red",
     functionalText: `Whenever you attack with a sword or dagger this turn;  - If it's your first weapon attack this turn, it gains +1{p}. - If it's your second weapon attack this turn, it gains +3{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR057.width-450.png",
     images: [{
@@ -35012,7 +35012,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "slice-and-dice-yellow",
+    cardIdentifier: "slice-and-dice-yellow",
     functionalText: `Whenever you attack with a sword or dagger this turn;  - If it's your first weapon attack this turn, it gains +1{p}. - If it's your second weapon attack this turn, it gains +2{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR058.width-450.png",
     images: [{
@@ -35052,7 +35052,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "slice-and-dice-blue",
+    cardIdentifier: "slice-and-dice-blue",
     functionalText: `Whenever you attack with a sword or dagger this turn;  - If it's your first weapon attack this turn, it gains +1{p}. - If it's your second weapon attack this turn, it gains +1{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR059.width-450.png",
     images: [{
@@ -35087,7 +35087,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "outland-skirmish-red",
+    cardIdentifier: "outland-skirmish-red",
     functionalText: `Your next 1H weapon attack this turn gains +3{p}.  The next time a weapon hits this turn, create a Copper token.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR066.width-450.png",
     images: [{
@@ -35117,7 +35117,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "outland-skirmish-yellow",
+    cardIdentifier: "outland-skirmish-yellow",
     functionalText: `Your next 1H weapon attack this turn gains +2{p}.  The next time a weapon hits this turn, create a Copper token.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR067.width-450.png",
     images: [{
@@ -35147,7 +35147,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "outland-skirmish-blue",
+    cardIdentifier: "outland-skirmish-blue",
     functionalText: `Your next 1H weapon attack this turn gains +1{p}.  The next time a weapon hits this turn, create a Copper token.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR068.width-450.png",
     images: [{
@@ -35177,7 +35177,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
-    identifier: "dissolution-sphere-yellow",
+    cardIdentifier: "dissolution-sphere-yellow",
     functionalText: `Dissolution Sphere enters the arena with a steam counter on it.  At the beginning of your action phase, destroy Dissolution Sphere unless you remove a steam counter from it.  Whenever your hero would be dealt exactly 1 damage, prevent it.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR069.width-450.png",
     images: [{
@@ -35207,7 +35207,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
-    identifier: "micro-processor-blue",
+    cardIdentifier: "micro-processor-blue",
     functionalText: `**Data Doll Specialization** *(You may only have Micro-processor in your deck if your hero is Data Doll.)*  **Once Per Turn Action** - 0: **Opt 1**  **Once Per Turn Action** - 0: Draw a card then put a card from your hand on top of your deck.  **Once Per Turn Action** - 0: Banish the top card of your deck.  The first time you activate Micro-processor each turn, gain 1 action point.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR070.width-450.png",
     images: [{
@@ -35237,7 +35237,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
-    identifier: "signal-jammer-blue",
+    cardIdentifier: "signal-jammer-blue",
     functionalText: `Signal Jammer enters the arena with a steam counter on it.  At the beginning of your action phase, destroy Signal Jammer unless you remove a steam counter from it.  Each hero can't play more than 1 'non-attack' action card each turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR071.width-450.png",
     images: [{
@@ -35267,7 +35267,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
-    identifier: "teklo-pounder-blue",
+    cardIdentifier: "teklo-pounder-blue",
     functionalText: `Teklo Pounder enters the arena with 3 steam counters on it. When Teklo Pounder has no steam counters on it, destroy it.  **Once per Turn Effect** - Whenever you boost an attack action card, remove a steam counter from Teklo Pounder. If you do, the attack gains +2{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR072.width-450.png",
     images: [{
@@ -35297,7 +35297,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
-    identifier: "t-bone-red",
+    cardIdentifier: "t-bone-red",
     functionalText: `If you control a card on the combat chain that was boosted, the defending hero must defend T-Bone with an equipment they control if able.  **Boost** *(As an additional cost to play T-Bone, you may banish the top card of your deck. If it's a Mechanologist card, T-Bone gains ***go again.***)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR073.width-450.png",
     images: [{
@@ -35327,7 +35327,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "t-bone-yellow",
+    cardIdentifier: "t-bone-yellow",
     functionalText: `If you control a card on the combat chain that was boosted, the defending hero must defend T-Bone with an equipment they control if able.  **Boost** *(As an additional cost to play T-Bone, you may banish the top card of your deck. If it's a Mechanologist card, T-Bone gains ***go again.***)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR074.width-450.png",
     images: [{
@@ -35357,7 +35357,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "t-bone-blue",
+    cardIdentifier: "t-bone-blue",
     functionalText: `If you control a card on the combat chain that was boosted, the defending hero must defend T-Bone with an equipment they control if able.  **Boost** *(As an additional cost to play T-Bone, you may banish the top card of your deck. If it's a Mechanologist card, T-Bone gains ***go again.***)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR075.width-450.png",
     images: [{
@@ -35387,7 +35387,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "payload-red",
+    cardIdentifier: "payload-red",
     functionalText: `If you have **boosted** this combat chain, Payload gains **dominate.** *(The defending hero can't defend Payload with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR076.width-450.png",
     images: [{
@@ -35417,7 +35417,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "payload-yellow",
+    cardIdentifier: "payload-yellow",
     functionalText: `If you have **boosted** this combat chain, Payload gains **dominate.** *(The defending hero can't defend Payload with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR077.width-450.png",
     images: [{
@@ -35447,7 +35447,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "payload-blue",
+    cardIdentifier: "payload-blue",
     functionalText: `If you have **boosted** this combat chain, Payload gains **dominate.** *(The defending hero can't defend Payload with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR078.width-450.png",
     images: [{
@@ -35477,7 +35477,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "zoom-in-red",
+    cardIdentifier: "zoom-in-red",
     functionalText: `When you attack with Zoom in, **opt X**, where X is the number of times you have **boosted** this combat chain. *(Look at the top X cards of your deck. You may put them on the top and/or bottom in any order.)*  **Boost** *(As an additional cost to play Zoom In, you may banish the top card of your deck. If it's a Mechanologist card, Zoom In gains ***go again.***)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR079.width-450.png",
     images: [{
@@ -35507,7 +35507,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "zoom-in-yellow",
+    cardIdentifier: "zoom-in-yellow",
     functionalText: `When you attack with Zoom in, **opt X**, where X is the number of times you have **boosted** this combat chain. *(Look at the top X cards of your deck. You may put them on the top and/or bottom in any order.)*  **Boost** *(As an additional cost to play Zoom In, you may banish the top card of your deck. If it's a Mechanologist card, Zoom In gains ***go again.***)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR080.width-450.png",
     images: [{
@@ -35537,7 +35537,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "zoom-in-blue",
+    cardIdentifier: "zoom-in-blue",
     functionalText: `When you attack with Zoom in, **opt X**, where X is the number of times you have **boosted** this combat chain. *(Look at the top X cards of your deck. You may put them on the top and/or bottom in any order.)*  **Boost** *(As an additional cost to play Zoom In, you may banish the top card of your deck. If it's a Mechanologist card, Zoom In gains ***go again.***)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR081.width-450.png",
     images: [{
@@ -35567,7 +35567,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
-    identifier: "rotary-ram-red",
+    cardIdentifier: "rotary-ram-red",
     functionalText: `The next Mechanologist attack action card you play this turn gains +3{p}.  If you have **boosted** this turn, put Rotary Ram on the bottom of your deck.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR082.width-450.png",
     images: [{
@@ -35597,7 +35597,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
-    identifier: "rotary-ram-yellow",
+    cardIdentifier: "rotary-ram-yellow",
     functionalText: `The next Mechanologist attack action card you play this turn gains +2{p}.  If you have **boosted** this turn, put Rotary Ram on the bottom of your deck.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR083.width-450.png",
     images: [{
@@ -35627,7 +35627,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
-    identifier: "rotary-ram-blue",
+    cardIdentifier: "rotary-ram-blue",
     functionalText: `The next Mechanologist attack action card you play this turn gains +1{p}.  If you have **boosted** this turn, put Rotary Ram on the bottom of your deck.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR084.width-450.png",
     images: [{
@@ -35657,7 +35657,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
-    identifier: "battering-bolt-red",
+    cardIdentifier: "battering-bolt-red",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  If Battering Bolt hits a hero, they reveal their hand and discard all cards other than action cards. Then they lose 1{h} for each card discarded this way.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR088.width-450.png",
     images: [{
@@ -35687,7 +35687,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "tri-shot-blue",
+    cardIdentifier: "tri-shot-blue",
     functionalText: `You may activate target bow you control 2 additional times this turn.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR089.width-450.png",
     images: [{
@@ -35717,7 +35717,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
-    identifier: "release-the-tension-red",
+    cardIdentifier: "release-the-tension-red",
     functionalText: `Your next arrow attack this turn gains +3{p} and "Defense reactions can't be played from arsenal this chain link."  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR091.width-450.png",
     images: [{
@@ -35752,7 +35752,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
-    identifier: "release-the-tension-yellow",
+    cardIdentifier: "release-the-tension-yellow",
     functionalText: `Your next arrow attack this turn gains +2{p} and "Defense reactions can't be played from arsenal this chain link."  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR092.width-450.png",
     images: [{
@@ -35787,7 +35787,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
-    identifier: "release-the-tension-blue",
+    cardIdentifier: "release-the-tension-blue",
     functionalText: `Your next arrow attack this turn gains +1{p} and "Defense reactions can't be played from arsenal this chain link."  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR093.width-450.png",
     images: [{
@@ -35822,7 +35822,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
-    identifier: "fatigue-shot-red",
+    cardIdentifier: "fatigue-shot-red",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  When Fatigue Shot hits a hero, the base {p} of the first attack action card they play during their next turn is halved, rounded up. *(An attack with 5 base {p} becomes 3{p}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR094.width-450.png",
     images: [{
@@ -35852,7 +35852,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "fatigue-shot-yellow",
+    cardIdentifier: "fatigue-shot-yellow",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  When Fatigue Shot hits a hero, the base {p} of the first attack action card they play during their next turn is halved, rounded up. *(An attack with 5 base {p} becomes 3{p}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR095.width-450.png",
     images: [{
@@ -35882,7 +35882,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "fatigue-shot-blue",
+    cardIdentifier: "fatigue-shot-blue",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  When Fatigue Shot hits a hero, the base {p} of the first attack action card they play during their next turn is halved, rounded up. *(An attack with 5 base {p} becomes 3{p}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR096.width-450.png",
     images: [{
@@ -35912,7 +35912,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "timidity-point-red",
+    cardIdentifier: "timidity-point-red",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  When Timidity Point hits a hero, attacks they control lose and can't gain **dominate** during their next turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR097.width-450.png",
     images: [{
@@ -35942,7 +35942,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "timidity-point-yellow",
+    cardIdentifier: "timidity-point-yellow",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  When Timidity Point hits a hero, attacks they control lose and can't gain **dominate** during their next turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR098.width-450.png",
     images: [{
@@ -35972,7 +35972,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "timidity-point-blue",
+    cardIdentifier: "timidity-point-blue",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  When Timidity Point hits a hero, attacks they control lose and can't gain **dominate** during their next turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR099.width-450.png",
     images: [{
@@ -36002,7 +36002,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
-    identifier: "read-the-glide-path-red",
+    cardIdentifier: "read-the-glide-path-red",
     functionalText: `Your next arrow attack this turn gains +3{p}.  **Opt 1** *(Look at the top card of your deck. You may put it on the bottom.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR100.width-450.png",
     images: [{
@@ -36032,7 +36032,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
-    identifier: "read-the-glide-path-yellow",
+    cardIdentifier: "read-the-glide-path-yellow",
     functionalText: `Your next arrow attack this turn gains +2{p}.  **Opt 1** *(Look at the top card of your deck. You may put it on the bottom.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR101.width-450.png",
     images: [{
@@ -36062,7 +36062,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
-    identifier: "read-the-glide-path-blue",
+    cardIdentifier: "read-the-glide-path-blue",
     functionalText: `Your next arrow attack this turn gains +1{p}.  **Opt 1** *(Look at the top card of your deck. You may put it on the bottom.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR102.width-450.png",
     images: [{
@@ -36092,7 +36092,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "runic-reclamation-red",
+    cardIdentifier: "runic-reclamation-red",
     functionalText: `When Runic Reclamation hits a hero, destroy target aura they control. If you do, create a Runechant token.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR104.width-450.png",
     images: [{
@@ -36122,7 +36122,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "swarming-gloomveil-red",
+    cardIdentifier: "swarming-gloomveil-red",
     functionalText: `If you have played or created 1 or more auras this turn, Swarming Gloomveil gains **go again.** If you have played and/or created 2 or more, it gains +1{p}. If you have played and/or created 3 or more, it gains "When this hits a hero, they can't prevent arcane damage from sources you control this turn."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR105.width-450.png",
     images: [{
@@ -36152,7 +36152,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "revel-in-runeblood-red",
+    cardIdentifier: "revel-in-runeblood-red",
     functionalText: `If you have played an attack action card and another 'non-attack action' action card this turn, create 4 Runechant tokens.  At the beginning of your end phase, destroy all Runechants you control.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR106.width-450.png",
     images: [{
@@ -36182,7 +36182,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
-    identifier: "runeblood-incantation-red",
+    cardIdentifier: "runeblood-incantation-red",
     functionalText: `**Go again**  Runeblood Incantation enters the arena with 3 verse counters on it.  At the beginning of your action phase, remove a verse counter from Runeblood Incantation. If you do create a Runechant token. Otherwise, destroy Runeblood Incantation.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR107.width-450.png",
     images: [{
@@ -36217,7 +36217,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Runeblade,
-    identifier: "runeblood-incantation-yellow",
+    cardIdentifier: "runeblood-incantation-yellow",
     functionalText: `**Go again**  Runeblood Incantation enters the arena with 2 verse counters on it.  At the beginning of your action phase, remove a verse counter from Runeblood Incantation. If you do create a Runechant token. Otherwise, destroy Runeblood Incantation.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR108.width-450.png",
     images: [{
@@ -36252,7 +36252,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Runeblade,
-    identifier: "runeblood-incantation-blue",
+    cardIdentifier: "runeblood-incantation-blue",
     functionalText: `**Go again**  Runeblood Incantation enters the arena with a verse counter on it.  At the beginning of your action phase, remove a verse counter from Runeblood Incantation. If you do create a Runechant token. Otherwise, destroy Runeblood Incantation.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR109.width-450.png",
     images: [{
@@ -36287,7 +36287,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Runeblade,
-    identifier: "drowning-dire-red",
+    cardIdentifier: "drowning-dire-red",
     functionalText: `If you have played or created an aura this turn, Drowning Dire gains **dominate.** *(The defending hero can't defend Drowning Dire with more than 1 card from their hand.)*  When Drowning Dire hits, you may put a 'non-attack' action card from your graveyard on the bottom of your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR110.width-450.png",
     images: [{
@@ -36317,7 +36317,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "drowning-dire-yellow",
+    cardIdentifier: "drowning-dire-yellow",
     functionalText: `If you have played or created an aura this turn, Drowning Dire gains **dominate.** *(The defending hero can't defend Drowning Dire with more than 1 card from their hand.)*  When Drowning Dire hits, you may put a 'non-attack' action card from your graveyard on the bottom of your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR111.width-450.png",
     images: [{
@@ -36347,7 +36347,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "drowning-dire-blue",
+    cardIdentifier: "drowning-dire-blue",
     functionalText: `If you have played or created an aura this turn, Drowning Dire gains **dominate.** *(The defending hero can't defend Drowning Dire with more than 1 card from their hand.)*  When Drowning Dire hits, you may put a 'non-attack' action card from your graveyard on the bottom of your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR112.width-450.png",
     images: [{
@@ -36377,7 +36377,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "reek-of-corruption-red",
+    cardIdentifier: "reek-of-corruption-red",
     functionalText: `If you have played or created an aura this turn, Reek of Corruption gains "When this hits a hero, they discard a card."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR113.width-450.png",
     images: [{
@@ -36407,7 +36407,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "reek-of-corruption-yellow",
+    cardIdentifier: "reek-of-corruption-yellow",
     functionalText: `If you have played or created an aura this turn, Reek of Corruption gains "When this hits a hero, they discard a card."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR114.width-450.png",
     images: [{
@@ -36437,7 +36437,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "reek-of-corruption-blue",
+    cardIdentifier: "reek-of-corruption-blue",
     functionalText: `If you have played or created an aura this turn, Reek of Corruption gains "When this hits a hero, they discard a card."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR115.width-450.png",
     images: [{
@@ -36467,7 +36467,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "shrill-of-skullform-red",
+    cardIdentifier: "shrill-of-skullform-red",
     functionalText: `If you have played or created an aura this turn, Shrill of Skullform gains +3{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR116.width-450.png",
     images: [{
@@ -36497,7 +36497,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "shrill-of-skullform-yellow",
+    cardIdentifier: "shrill-of-skullform-yellow",
     functionalText: `If you have played or created an aura this turn, Shrill of Skullform gains +3{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR117.width-450.png",
     images: [{
@@ -36527,7 +36527,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
-    identifier: "shrill-of-skullform-blue",
+    cardIdentifier: "shrill-of-skullform-blue",
     functionalText: `If you have played or created an aura this turn, Shrill of Skullform gains +3{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR118.width-450.png",
     images: [{
@@ -36557,7 +36557,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Wizard,
-    identifier: "aether-wildfire-red",
+    cardIdentifier: "aether-wildfire-red",
     functionalText: `Deal 4 arcane damage to target opposing hero.  If Aether Wildfire is played during an opponents turn, until end of turn, action card effects that deal arcane damage instead deal that much arcane damage plus X, where X is the damage dealt by Aether Wildfire.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR123.width-450.png",
     images: [{
@@ -36592,7 +36592,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "scour-blue",
+    cardIdentifier: "scour-blue",
     functionalText: `Destroy X target aura tokens and/or auras with cost 0 controlled by target hero. Then deal arcane damage to that hero equal to the number of auras destroyed this way.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR124.width-450.png",
     images: [{
@@ -36622,7 +36622,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "emeritus-scolding-red",
+    cardIdentifier: "emeritus-scolding-red",
     functionalText: `Deal 4 arcane damage to target hero. If Emeritus Scolding is played during an opponents turn, instead deal 6 arcane damage to target hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR125.width-450.png",
     images: [{
@@ -36657,7 +36657,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "emeritus-scolding-yellow",
+    cardIdentifier: "emeritus-scolding-yellow",
     functionalText: `Deal 3 arcane damage to target hero. If Emeritus Scolding is played during an opponents turn, instead deal 5 arcane damage to target hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR126.width-450.png",
     images: [{
@@ -36692,7 +36692,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "emeritus-scolding-blue",
+    cardIdentifier: "emeritus-scolding-blue",
     functionalText: `Deal 2 arcane damage to target hero. If Emeritus Scolding is played during an opponents turn, instead deal 4 arcane damage to target hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR127.width-450.png",
     images: [{
@@ -36727,7 +36727,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "pry-red",
+    cardIdentifier: "pry-red",
     functionalText: `Target hero reveals 3 cards from their hand. If Pry is played during an opponents turn, instead they reveal all cards in their hand.  You may choose a card revealed this way. If you do, that hero puts it on the bottom of their deck then draws a card.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR128.width-450.png",
     images: [{
@@ -36757,7 +36757,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "pry-yellow",
+    cardIdentifier: "pry-yellow",
     functionalText: `Target hero reveals 2 cards from their hand. If Pry is played during an opponents turn, instead they reveal all cards in their hand.  You may choose a card revealed this way. If you do, that hero puts it on the bottom of their deck then draws a card.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR129.width-450.png",
     images: [{
@@ -36787,7 +36787,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "pry-blue",
+    cardIdentifier: "pry-blue",
     functionalText: `Target hero reveals a card from their hand. If Pry is played during an opponents turn, instead they reveal all cards in their hand.  You may choose a card revealed this way. If you do, that hero puts it on the bottom of their deck then draws a card.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR130.width-450.png",
     images: [{
@@ -36817,7 +36817,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "pyroglyphic-protection-red",
+    cardIdentifier: "pyroglyphic-protection-red",
     functionalText: `If your hero would be dealt arcane damage, prevent 3 arcane damage that source would deal.  At the beginning of your action phase, destroy Pyroglyphic Protection.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR131.width-450.png",
     images: [{
@@ -36847,7 +36847,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Wizard,
-    identifier: "pyroglyphic-protection-yellow",
+    cardIdentifier: "pyroglyphic-protection-yellow",
     functionalText: `If your hero would be dealt arcane damage, prevent 2 arcane damage that source would deal.  At the beginning of your action phase, destroy Pyroglyphic Protection.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR132.width-450.png",
     images: [{
@@ -36877,7 +36877,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Wizard,
-    identifier: "pyroglyphic-protection-blue",
+    cardIdentifier: "pyroglyphic-protection-blue",
     functionalText: `If your hero would be dealt arcane damage, prevent 1 arcane damage that source would deal.  At the beginning of your action phase, destroy Pyroglyphic Protection.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR133.width-450.png",
     images: [{
@@ -36907,7 +36907,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Wizard,
-    identifier: "timekeepers-whim-red",
+    cardIdentifier: "timekeepers-whim-red",
     functionalText: `Deal 5 arcane damage to target hero.  If Timekeeper's Whim is played during an opponents turn, put it on the bottom of your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR134.width-450.png",
     images: [{
@@ -36937,7 +36937,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "timekeepers-whim-yellow",
+    cardIdentifier: "timekeepers-whim-yellow",
     functionalText: `Deal 4 arcane damage to target hero.  If Timekeeper's Whim is played during an opponents turn, put it on the bottom of your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR135.width-450.png",
     images: [{
@@ -36967,7 +36967,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "timekeepers-whim-blue",
+    cardIdentifier: "timekeepers-whim-blue",
     functionalText: `Deal 3 arcane damage to target hero.  If Timekeeper's Whim is played during an opponents turn, put it on the bottom of your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR136.width-450.png",
     images: [{
@@ -36997,7 +36997,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
-    identifier: "fractal-replication-red",
+    cardIdentifier: "fractal-replication-red",
     functionalText: `When you play or defend with Fractal Replication, it gains the abilities and effects of all Illusionist attack action cards on the combat chain.  Fractal Replication's {p} is equal to the greatest base {p} among Illusionist attack action cards on the combat chain.  Fractal Replication's {d} is equal to the greatest base {d} among Illusionist attack action cards on the combat chain.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR138.width-450.png",
     images: [{
@@ -37027,7 +37027,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "miraging-metamorph-red",
+    cardIdentifier: "miraging-metamorph-red",
     functionalText: `**Phantasm** *(When Miraging Metamorph is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Mirror Image and close the combat chain.)*  When Miraging Metamorph is destroyed, create a token that's a copy of an aura you control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR139.width-450.png",
     images: [{
@@ -37057,7 +37057,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "shimmers-of-silver-blue",
+    cardIdentifier: "shimmers-of-silver-blue",
     functionalText: `**Once per Turn Effect** - Whenever you attack with an Illusionist aura weapon, put a +1{p} counter on it.  **Spectra** *(Shimmers of Silver can be attacked. When Shimmers of Silver becomes the target of an attack, destroy it and close the combat chain. The attack does not resolve.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR140.width-450.png",
     images: [{
@@ -37087,7 +37087,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Illusionist,
-    identifier: "haze-bending-blue",
+    cardIdentifier: "haze-bending-blue",
     functionalText: `**Once per Turn Effect** - Whenever Haze Bending or another Illusionist non-token aura you control is destroyed, create a Spectral Shield token.  **Spectra** *(Dispersion Haze can be attacked. When Dispersion Haze becomes the target of an attack, destroy it and close the combat chain. The attack does not resolve.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR141.width-450.png",
     images: [{
@@ -37122,7 +37122,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Illusionist,
-    identifier: "passing-mirage-blue",
+    cardIdentifier: "passing-mirage-blue",
     functionalText: `Your first Illusionist attack each turn loses and can't gain **phantasm.**  **Spectra** *(Passing Mirage can be attacked. When Passing Mirage becomes the target of an attack, destroy it and close the combat chain. The attack does not resolve.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR142.width-450.png",
     images: [{
@@ -37157,7 +37157,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Illusionist,
-    identifier: "pierce-reality-blue",
+    cardIdentifier: "pierce-reality-blue",
     functionalText: `The first Illusionist attack action card you play each turn has +2{p}.  **Spectra** *(Piercing Reality can be attacked. When Piercing Reality becomes the target of an attack, destroy it and close the combat chain. The attack does not resolve.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR143.width-450.png",
     images: [{
@@ -37192,7 +37192,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Illusionist,
-    identifier: "coalescence-mirage-red",
+    cardIdentifier: "coalescence-mirage-red",
     functionalText: `**Phantasm** *(If Coalescence Mirage is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Coalescence Mirage and close the combat chain.)*  When Coalescence Mirage is destroyed, you may put an Illusionist aura card with 0 from your hand into the arena.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR144.width-450.png",
     images: [{
@@ -37222,7 +37222,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "coalescence-mirage-yellow",
+    cardIdentifier: "coalescence-mirage-yellow",
     functionalText: `**Phantasm** *(If Coalescence Mirage is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Coalescence Mirage and close the combat chain.)*  When Coalescence Mirage is destroyed, you may put an Illusionist aura card with 0 from your hand into the arena.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR145.width-450.png",
     images: [{
@@ -37252,7 +37252,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "coalescence-mirage-blue",
+    cardIdentifier: "coalescence-mirage-blue",
     functionalText: `**Phantasm** *(If Coalescence Mirage is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Coalescence Mirage and close the combat chain.)*  When Coalescence Mirage is destroyed, you may put an Illusionist aura card with 0 from your hand into the arena.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR146.width-450.png",
     images: [{
@@ -37282,7 +37282,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "phantasmal-haze-red",
+    cardIdentifier: "phantasmal-haze-red",
     functionalText: `**Phantasm** *(If Phantasmal Haze is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Phantasmal Haze and close the combat chain.)*  When Phantasmal Haze is destroyed, create a Spectral Shield token.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR147.width-450.png",
     images: [{
@@ -37312,7 +37312,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "phantasmal-haze-yellow",
+    cardIdentifier: "phantasmal-haze-yellow",
     functionalText: `**Phantasm** *(If Phantasmal Haze is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Phantasmal Haze and close the combat chain.)*  When Phantasmal Haze is destroyed, create a Spectral Shield token.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR148.width-450.png",
     images: [{
@@ -37342,7 +37342,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "phantasmal-haze-blue",
+    cardIdentifier: "phantasmal-haze-blue",
     functionalText: `**Phantasm** *(If Phantasmal Haze is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Phantasmal Haze and close the combat chain.)*  When Phantasmal Haze is destroyed, create a Spectral Shield token.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR149.width-450.png",
     images: [{
@@ -37372,7 +37372,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "veiled-intentions-red",
+    cardIdentifier: "veiled-intentions-red",
     functionalText: `**Go again**  The next attack action card you play this turn is Illusionist in addition to its other card, and gains +4{p}, **phantasm**, and "When this is destroyed, draw a card."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR150.width-450.png",
     images: [{
@@ -37402,7 +37402,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
-    identifier: "veiled-intentions-yellow",
+    cardIdentifier: "veiled-intentions-yellow",
     functionalText: `**Go again**  The next attack action card you play this turn is Illusionist in addition to its other card, and gains +3{p}, **phantasm**, and "When this is destroyed, draw a card."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR151.width-450.png",
     images: [{
@@ -37432,7 +37432,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
-    identifier: "veiled-intentions-blue",
+    cardIdentifier: "veiled-intentions-blue",
     functionalText: `**Go again**  The next attack action card you play this turn is Illusionist in addition to its other card, and gains +2{p}, **phantasm**, and "When this is destroyed, draw a card."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR152.width-450.png",
     images: [{
@@ -37462,7 +37462,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "bingo-red",
+    cardIdentifier: "bingo-red",
     functionalText: `When Bingo hits a hero, they reveal a card from their hand. If an attack action card is revealed this way, Bingo gains **go again.** If a 'non-attack' action card is revealed this way, draw a card.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR156.width-450.png",
     images: [{
@@ -37492,7 +37492,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "firebreathing-red",
+    cardIdentifier: "firebreathing-red",
     functionalText: `**Instant** - {r}: Firebreathing gains +1{p}. Activate this ability only while Firebreathing is attacking.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR157.width-450.png",
     images: [{
@@ -37522,7 +37522,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "cash-out-blue",
+    cardIdentifier: "cash-out-blue",
     functionalText: `As an additional cost to play Cash Out, you may destroy any number of weapons, equipment and/or non-token items you control.  Create a Silver token for each permanent destroyed this way.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR158.width-450.png",
     images: [{
@@ -37552,7 +37552,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "knick-knack-bric-a-brac-red",
+    cardIdentifier: "knick-knack-bric-a-brac-red",
     functionalText: `As an additional cost to play Knick Knack Bric-a-brac, you may destroy any number of Copper, Silver, and/or Gold you control.  Search your deck for a card with Amulet, Potion, or Talisman in its name, put it into the arena, then shuffle. For each 4 Copper, 2 Silver, and/or 1 Gold destroyed this way, repeat this process.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR159.width-450.png",
     images: [{
@@ -37587,7 +37587,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "this-rounds-on-me-blue",
+    cardIdentifier: "this-rounds-on-me-blue",
     functionalText: `Each hero draws a card.  Until the start of your next turn, attacks that target you have -1{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR160.width-450.png",
     images: [{
@@ -37617,7 +37617,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "life-of-the-party-red",
+    cardIdentifier: "life-of-the-party-red",
     functionalText: `You may discard or destroy a card you control named Crazy Brew rather than pay Life of the Party's {r} cost. If you do, choose all modes, otherwise choose 1 at random;  - Life of the Party gains "When this hits, gain life 2{h}." - Life of the Party gains +2{p}. - Life of the Party gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR161.width-450.png",
     images: [{
@@ -37652,7 +37652,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "life-of-the-party-yellow",
+    cardIdentifier: "life-of-the-party-yellow",
     functionalText: `You may discard or destroy a card you control named Crazy Brew rather than pay Life of the Party's {r} cost. If you do, choose all modes, otherwise choose 1 at random;  - Life of the Party gains "When this hits, gain life 2{h}." - Life of the Party gains +2{p}. - Life of the Party gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR162.width-450.png",
     images: [{
@@ -37687,7 +37687,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "life-of-the-party-blue",
+    cardIdentifier: "life-of-the-party-blue",
     functionalText: `You may discard or destroy a card you control named Crazy Brew rather than pay Life of the Party's {r} cost. If you do, choose all modes, otherwise choose 1 at random;  - Life of the Party gains "When this hits, gain life 2{h}." - Life of the Party gains +2{p}. - Life of the Party gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR163.width-450.png",
     images: [{
@@ -37722,7 +37722,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "high-striker-red",
+    cardIdentifier: "high-striker-red",
     functionalText: `The next time an attack you control hits this turn, create 6 Copper tokens.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR164.width-450.png",
     images: [{
@@ -37757,7 +37757,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "high-striker-yellow",
+    cardIdentifier: "high-striker-yellow",
     functionalText: `The next time an attack you control hits this turn, create 4 Copper tokens.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR165.width-450.png",
     images: [{
@@ -37792,7 +37792,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "high-striker-blue",
+    cardIdentifier: "high-striker-blue",
     functionalText: `The next time an attack you control hits this turn, create 2 Copper tokens.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR166.width-450.png",
     images: [{
@@ -37827,7 +37827,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "pick-a-card-any-card-red",
+    cardIdentifier: "pick-a-card-any-card-red",
     functionalText: `Look at target opponent's hand then name a card.  Choose a random card from their hand and reveal it. If it's the named card, create a Silver token. Repeat this process thrice.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR167.width-450.png",
     images: [{
@@ -37862,7 +37862,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "pick-a-card-any-card-yellow",
+    cardIdentifier: "pick-a-card-any-card-yellow",
     functionalText: `Look at target opponent's hand then name a card.  Choose a random card from their hand and reveal it. If it's the named card, create a Silver token. Repeat this process twice.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR168.width-450.png",
     images: [{
@@ -37897,7 +37897,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "pick-a-card-any-card-blue",
+    cardIdentifier: "pick-a-card-any-card-blue",
     functionalText: `Look at target opponent's hand then name a card.  Choose a random card from their hand and reveal it. If it's the named card, create a Silver token. Repeat this process once.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR169.width-450.png",
     images: [{
@@ -37932,7 +37932,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "smashing-good-time-red",
+    cardIdentifier: "smashing-good-time-red",
     functionalText: `The next time an attack action card hits a hero this turn, you may destroy an item they control with 2 or less{r}  If Smashing Good Time is played from arsenal, the next attack action card you play this turn gains +3{p}  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR170.width-450.png",
     images: [{
@@ -37962,7 +37962,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "smashing-good-time-yellow",
+    cardIdentifier: "smashing-good-time-yellow",
     functionalText: `The next time an attack action card hits a hero this turn, you may destroy an item they control with 2 or less{r}  If Smashing Good Time is played from arsenal, the next attack action card you play this turn gains +2{p}  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR171.width-450.png",
     images: [{
@@ -37992,7 +37992,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "smashing-good-time-blue",
+    cardIdentifier: "smashing-good-time-blue",
     functionalText: `The next time an attack action card hits a hero this turn, you may destroy an item they control with 2 or less{r}  If Smashing Good Time is played from arsenal, the next attack action card you play this turn gains +1{p}  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR172.width-450.png",
     images: [{
@@ -38022,7 +38022,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "amulet-of-assertiveness-yellow",
+    cardIdentifier: "amulet-of-assertiveness-yellow",
     functionalText: `**Go again**  **Attack Reaction** - Destroy Amulet of Assertiveness: Target attack gains "When this hits, banish the top card of your deck. If it's an attack action card, you may play it this turn." Activate this ability only if you have 4 or more cards in hand.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR176.width-450.png",
     images: [{
@@ -38052,7 +38052,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
-    identifier: "amulet-of-echoes-blue",
+    cardIdentifier: "amulet-of-echoes-blue",
     functionalText: `**Go again**  **Instant** - Destroy Amulet of Echoes: Target hero discards 2 cards. Activate this ability only if they have played 2 or more cards with the same name this turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR177.width-450.png",
     images: [{
@@ -38082,7 +38082,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
-    identifier: "amulet-of-havencall-blue",
+    cardIdentifier: "amulet-of-havencall-blue",
     functionalText: `**Go again**  **Defense Reaction** - Destroy Amulet of Havencall: Search your deck for a card named Rally the Rearguard, add it to this chain link as a defending card, then shuffle. Activate this ability only if you have no cards in hand.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR178.width-450.png",
     images: [{
@@ -38112,7 +38112,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
-    identifier: "amulet-of-ignition-yellow",
+    cardIdentifier: "amulet-of-ignition-yellow",
     functionalText: `**Go again**  **Instant** - Destroy Amulet of Ignition: The next ability you activate this turn costs {r} less. Activate this ability only if you haven't played a card or activated an ability this turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR179.width-450.png",
     images: [{
@@ -38142,7 +38142,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
-    identifier: "amulet-of-intervention-blue",
+    cardIdentifier: "amulet-of-intervention-blue",
     functionalText: `**Go again**  **Instant** - Destroy Amulet of Intervention: Prevent the next 1 damage that would be dealt to your hero this turn. Activate this ability only while your hero is the target of a source that would deal damage equal to or greater than your hero's {h}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR180.width-450.png",
     images: [{
@@ -38172,7 +38172,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
-    identifier: "amulet-of-oblation-blue",
+    cardIdentifier: "amulet-of-oblation-blue",
     functionalText: `**Go again**  **Instant** - Destroy Amulet of Oblation: Until end of turn, target attack action gains "If this would be put into a graveyard, instead put it on the bottom of its owner's deck." Activate this ability only if a card has entered a graveyard this turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR181.width-450.png",
     images: [{
@@ -38202,7 +38202,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
-    identifier: "clarity-potion-blue",
+    cardIdentifier: "clarity-potion-blue",
     functionalText: `**Instant** - Destroy Clarity Potion: **Opt 2.** *(Look at the top 2 cards of your deck. You may put them on the top and/or bottom in any order.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR182.width-450.png",
     images: [{
@@ -38232,7 +38232,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
-    identifier: "healing-potion-blue",
+    cardIdentifier: "healing-potion-blue",
     functionalText: `**Action** - Destroy Healing Potion: Gain 2{h}. **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR183.width-450.png",
     images: [{
@@ -38262,7 +38262,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
-    identifier: "potion-of-seeing-blue",
+    cardIdentifier: "potion-of-seeing-blue",
     functionalText: `**Instant** - Destroy Potion of Seeing: Look at target hero's hand.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR184.width-450.png",
     images: [{
@@ -38292,7 +38292,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
-    identifier: "potion-of-deja-vu-blue",
+    cardIdentifier: "potion-of-deja-vu-blue",
     functionalText: `**Instant** - Destroy Potion of Déjà Vu: Put all cards from your pitch zone on top of your deck in any order. *(Opponents don't get to see the order of the cards.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR185.width-450.png",
     images: [{
@@ -38322,7 +38322,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
-    identifier: "potion-of-ironhide-blue",
+    cardIdentifier: "potion-of-ironhide-blue",
     functionalText: `**Instant** - Destroy Potion of Ironhide: Attack action cards you own gain +1{d} this turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR186.width-450.png",
     images: [{
@@ -38352,7 +38352,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
-    identifier: "potion-of-luck-blue",
+    cardIdentifier: "potion-of-luck-blue",
     functionalText: `**Instant** - Destroy Potion of Luck: Shuffle your hand and arsenal into your deck then draw that many cards.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR187.width-450.png",
     images: [{
@@ -38382,7 +38382,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
-    identifier: "talisman-of-balance-blue",
+    cardIdentifier: "talisman-of-balance-blue",
     functionalText: `**Go again**  At the beginning of your end phase, if you have less cards in arsenal than an opposing hero, destroy Talisman of Balance and put the top card of your deck into an empty arsenal zone you control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR188.width-450.png",
     images: [{
@@ -38412,7 +38412,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
-    identifier: "talisman-of-cremation-blue",
+    cardIdentifier: "talisman-of-cremation-blue",
     functionalText: `**Go again**  When you play a card from your banished zone, destroy Talisman of Cremation and name a card. Banish all cards with the chosen name from each opposing hero's graveyard.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR189.width-450.png",
     images: [{
@@ -38442,7 +38442,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
-    identifier: "talisman-of-featherfoot-yellow",
+    cardIdentifier: "talisman-of-featherfoot-yellow",
     functionalText: `**Go again**  When an attack you control gains exactly +1{p} from an effect during the reaction step, destroy Talisman of Featherfoot and the attack gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR190.width-450.png",
     images: [{
@@ -38472,7 +38472,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
-    identifier: "talisman-of-recompense-yellow",
+    cardIdentifier: "talisman-of-recompense-yellow",
     functionalText: `**Go again**  Whenever you pitch a card, if you would gain exactly one {r}, instead destroy Talisman of Recompense and gain {r}{r}{r}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR191.width-450.png",
     images: [{
@@ -38502,7 +38502,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
-    identifier: "talisman-of-tithes-blue",
+    cardIdentifier: "talisman-of-tithes-blue",
     functionalText: `**Go again**  If an opponent would draw 1 or more cards during your action phase, instead destroy Talisman of Tithes and they draw that many cards minus 1.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR192.width-450.png",
     images: [{
@@ -38532,7 +38532,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
-    identifier: "talisman-of-warfare-yellow",
+    cardIdentifier: "talisman-of-warfare-yellow",
     functionalText: `**Go again**  When a source you control deals exactly 2 damage to an opposing hero, destroy Talisman of Warfare and all cards in all arsenals.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR193.width-450.png",
     images: [{
@@ -38562,7 +38562,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Warrior,
-    identifier: "glistening-steelblade-yellow",
+    cardIdentifier: "glistening-steelblade-yellow",
     functionalText: `**Dorinthea Specialization** *(You may only have Glistening Steelblade in your deck if your hero is Dorinthea.)*  Your next Dawnblade attack this turn has **go again**.  Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/DVR008.width-450.png",
     images: [{
@@ -38592,7 +38592,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
-    identifier: "en-garde-red",
+    cardIdentifier: "en-garde-red",
     functionalText: `Your next weapon attack this turn gains +3{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/DVR009.width-450.png",
     images: [{
@@ -38622,7 +38622,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "on-a-knife-edge-yellow",
+    cardIdentifier: "on-a-knife-edge-yellow",
     functionalText: `Your next sword attack this turn gains **go again**.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/DVR019.width-450.png",
     images: [{
@@ -38652,7 +38652,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "visit-the-blacksmith-blue",
+    cardIdentifier: "visit-the-blacksmith-blue",
     functionalText: `Your next sword attack this turn gains +1{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/DVR022.width-450.png",
     images: [{
@@ -38682,7 +38682,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
-    identifier: "beast-mode-red",
+    cardIdentifier: "beast-mode-red",
     functionalText: `If you have **intimidated** this turn, Beast Mode gains +2{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/RVD009.width-450.png",
     images: [{
@@ -38712,7 +38712,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "wrecking-ball-red",
+    cardIdentifier: "wrecking-ball-red",
     functionalText: `When you attack with Wrecking Ball, draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, **intimidate**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/RVD013.width-450.png",
     images: [{
@@ -38742,7 +38742,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "pack-call-yellow",
+    cardIdentifier: "pack-call-yellow",
     functionalText: `When you defend with Pack Call, reveal the top card of your deck. If it has 6 or more {p}, put it on top of your deck. Otherwise, put it on the bottom.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/RVD015.width-450.png",
     images: [{
@@ -38772,7 +38772,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "muscle-mutt-yellow",
+    cardIdentifier: "muscle-mutt-yellow",
     functionalText: `null`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/RVD018.width-450.png",
     images: [{
@@ -38802,7 +38802,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
-    identifier: "clearing-bellow-blue",
+    cardIdentifier: "clearing-bellow-blue",
     functionalText: `**Intimidate** *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return it to its owner’s hand.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/RVD025.width-450.png",
     images: [{
@@ -38832,7 +38832,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
-    identifier: "burn-them-all-red",
+    cardIdentifier: "burn-them-all-red",
     functionalText: `**Go again**  Once per turn, when a dragon you control attacks, it deals 1 arcane damage to each opposing hero.  At the beginning of your end phase, put a raze counter on Burn Them All then destroy it unless you banish red card from your graveyard for each raze counter on it.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR005.png",
     images: [{
@@ -38862,7 +38862,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Illusionist,
-    identifier: "invoke-dracona-optimai-red",
+    cardIdentifier: "invoke-dracona-optimai-red",
     functionalText: `**Legendary** *(You may only have 1 Invoke Dracona Optimai in your deck.)*  **Transform** target ash you control into Dracona Optimai. **Go again** *(Put the ash under him.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR006.png",
     images: [{
@@ -38897,7 +38897,7 @@
     subType: ActionSubType.Invocation,
   },{
     class: Class.Illusionist,
-    identifier: "dracona-optimai",
+    cardIdentifier: "dracona-optimai",
     functionalText: `Whenever Dracona Optimai attacks a hero, reveal the top 3 cards of your deck. He deals arcane damage equal to twice the number of red cards revealed this way to them or an ally they control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR006_A_Back.png",
     images: [{
@@ -38932,7 +38932,7 @@
     subType: ActionSubType.Ally,
   },{
     class: Class.Illusionist,
-    identifier: "invoke-tomeltai-red",
+    cardIdentifier: "invoke-tomeltai-red",
     functionalText: `**Legendary** *(You may only have 1 Invoke Tomeltai in your deck.)*  **Transform** target ash you control into Tomeltai. **Go again** *(Put the ash under him.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR007.png",
     images: [{
@@ -38967,7 +38967,7 @@
     subType: ActionSubType.Invocation,
   },{
     class: Class.Illusionist,
-    identifier: "tomeltai",
+    cardIdentifier: "tomeltai",
     functionalText: `Whenever Tomeltai attacks a hero, reveal the top 2 cards of your deck. If 1 or more red cards are revealed this way, put that many -1{d} counters on an equipment they control, then if it has 0{d}, destroy it.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR007_A_Back.png",
     images: [{
@@ -39002,7 +39002,7 @@
     subType: ActionSubType.Ally,
   },{
     class: Class.Illusionist,
-    identifier: "invoke-dominia-red",
+    cardIdentifier: "invoke-dominia-red",
     functionalText: `**Legendary** *(You may only have 1 Invoke Dominia in your deck.)*  **Transform** target ash you control into Dominia. **Go again** *(Put the ash under her.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR008.png",
     images: [{
@@ -39037,7 +39037,7 @@
     subType: ActionSubType.Invocation,
   },{
     class: Class.Illusionist,
-    identifier: "dominia",
+    cardIdentifier: "dominia",
     functionalText: `Whenever Dominia attacks a hero, reveal the top card of your deck. If it’s a red card, look at their hand and banish a card from it.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR008_A_Back.png",
     images: [{
@@ -39072,7 +39072,7 @@
     subType: ActionSubType.Ally,
   },{
     class: Class.Illusionist,
-    identifier: "invoke-azvolai-red",
+    cardIdentifier: "invoke-azvolai-red",
     functionalText: `*(Invocations resolve flipped as an ally in the arena.*)  **Transform** target ash you control into Azvolai. **Go again** *(Put the ash under him.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR009.png",
     images: [{
@@ -39107,7 +39107,7 @@
     subType: ActionSubType.Invocation,
   },{
     class: Class.Illusionist,
-    identifier: "azvolai",
+    cardIdentifier: "azvolai",
     functionalText: `Whenever Azvolai attacks, you may have him deal 1 arcane damage to up to any 2 targets.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR009_A_Back.png",
     images: [{
@@ -39142,7 +39142,7 @@
     subType: ActionSubType.Ally,
   },{
     class: Class.Illusionist,
-    identifier: "invoke-cromai-red",
+    cardIdentifier: "invoke-cromai-red",
     functionalText: `*(Invocations resolve flipped as an ally in the arena.*)  **Transform** target ash you control into Cromai. **Go again** *(Put the ash under him.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR010.png",
     images: [{
@@ -39177,7 +39177,7 @@
     subType: ActionSubType.Invocation,
   },{
     class: Class.Illusionist,
-    identifier: "cromai",
+    cardIdentifier: "cromai",
     functionalText: `Once per turn, when Cromai attacks or leaves the arena, gain 1 action point.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR010_A_Back.png",
     images: [{
@@ -39212,7 +39212,7 @@
     subType: ActionSubType.Ally,
   },{
     class: Class.Illusionist,
-    identifier: "invoke-kyloria-red",
+    cardIdentifier: "invoke-kyloria-red",
     functionalText: `*(Invocations resolve flipped as an ally in the arena.*)  **Transform** target ash you control into Kyloria. **Go again** *(Put the ash under her.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR011.png",
     images: [{
@@ -39247,7 +39247,7 @@
     subType: ActionSubType.Invocation,
   },{
     class: Class.Illusionist,
-    identifier: "kyloria",
+    cardIdentifier: "kyloria",
     functionalText: `Whenever Kyloria hits a hero, gain control of an item they control. If you don’t gain control of an item this way, draw a card.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR011_A_Back.png",
     images: [{
@@ -39282,7 +39282,7 @@
     subType: ActionSubType.Ally,
   },{
     class: Class.Illusionist,
-    identifier: "invoke-miragai-red",
+    cardIdentifier: "invoke-miragai-red",
     functionalText: `*(Invocations resolve flipped as an ally in the arena.*)  **Transform** target ash you control into Miragai. **Go again** *(Put the ash under him.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR012.png",
     images: [{
@@ -39317,7 +39317,7 @@
     subType: ActionSubType.Invocation,
   },{
     class: Class.Illusionist,
-    identifier: "miragai",
+    cardIdentifier: "miragai",
     functionalText: `Your first dragon attack each turn loses and can’t gain **phantasm**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR012_A_Back.png",
     images: [{
@@ -39352,7 +39352,7 @@
     subType: ActionSubType.Ally,
   },{
     class: Class.Illusionist,
-    identifier: "invoke-nekria-red",
+    cardIdentifier: "invoke-nekria-red",
     functionalText: `**Transform** target ash you control into Nekria. **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR013.png",
     images: [{
@@ -39387,7 +39387,7 @@
     subType: ActionSubType.Invocation,
   },{
     class: Class.Illusionist,
-    identifier: "nekria",
+    cardIdentifier: "nekria",
     functionalText: `Whenever Nekria deals or is dealt damage, put a -1{h} counter on her and create an Ash token.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR013_A_Back.png",
     images: [{
@@ -39422,7 +39422,7 @@
     subType: ActionSubType.Ally,
   },{
     class: Class.Illusionist,
-    identifier: "invoke-ouvia-red",
+    cardIdentifier: "invoke-ouvia-red",
     functionalText: `*(Invocations resolve flipped as an ally in the arena.*)  **Transform** target ash you control into Ouvia. **Go again** *(Put the ash under her.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR014.png",
     images: [{
@@ -39457,7 +39457,7 @@
     subType: ActionSubType.Invocation,
   },{
     class: Class.Illusionist,
-    identifier: "ouvia",
+    cardIdentifier: "ouvia",
     functionalText: `At the start of your turn or when Ouvia enters the arena, **transform** up to 1 ash you control into an Aether Ashwing. *(Create an Aether Ashwing token and put the ash under it.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR014_A_Back.png",
     images: [{
@@ -39492,7 +39492,7 @@
     subType: ActionSubType.Ally,
   },{
     class: Class.Illusionist,
-    identifier: "invoke-themai-red",
+    cardIdentifier: "invoke-themai-red",
     functionalText: `*(Invocations resolve flipped as an ally in the arena.*)  **Transform** target ash you control into Themai. **Go again** *(Put the ash under him.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR015.png",
     images: [{
@@ -39527,7 +39527,7 @@
     subType: ActionSubType.Invocation,
   },{
     class: Class.Illusionist,
-    identifier: "themai",
+    cardIdentifier: "themai",
     functionalText: `Opponents can’t play cards or activate abilities during your turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR015_A_Back.png",
     images: [{
@@ -39562,7 +39562,7 @@
     subType: ActionSubType.Ally,
   },{
     class: Class.Illusionist,
-    identifier: "invoke-vynserakai-red",
+    cardIdentifier: "invoke-vynserakai-red",
     functionalText: `*(Invocations resolve flipped as an ally in the arena.*)  **Transform** target ash you control into Vynserakai. **Go again** *(Put the ash under him.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR016.png",
     images: [{
@@ -39597,7 +39597,7 @@
     subType: ActionSubType.Invocation,
   },{
     class: Class.Illusionist,
-    identifier: "vynserakai",
+    cardIdentifier: "vynserakai",
     functionalText: `Whenever Vynserakai hits a hero, he deals 3 arcane damage to them.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR016_A_Back.png",
     images: [{
@@ -39632,7 +39632,7 @@
     subType: ActionSubType.Ally,
   },{
     class: Class.Illusionist,
-    identifier: "invoke-yendurai-red",
+    cardIdentifier: "invoke-yendurai-red",
     functionalText: `*(Invocations resolve flipped as an ally in the arena.*)  **Transform** target ash you control into Yendurai. **Go again** *(Put the ash under him.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR017.png",
     images: [{
@@ -39667,7 +39667,7 @@
     subType: ActionSubType.Invocation,
   },{
     class: Class.Illusionist,
-    identifier: "yendurai",
+    cardIdentifier: "yendurai",
     functionalText: `Yendurai enters the arena with an endurance counter on him.  If Yendurai would be dealt damage, remove an endurance counter from him to prevent 3 of that damage.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR017_A_Back.png",
     images: [{
@@ -39702,7 +39702,7 @@
     subType: ActionSubType.Ally,
   },{
     class: Class.Illusionist,
-    identifier: "billowing-mirage-red",
+    cardIdentifier: "billowing-mirage-red",
     functionalText: `When you attack with Billowing Mirage, **transform** up to 1 ash you control into an Aether Ashwing. *(Create an Aether Ashwing token and put the ash under it.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR018.png",
     images: [{
@@ -39732,7 +39732,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "billowing-mirage-yellow",
+    cardIdentifier: "billowing-mirage-yellow",
     functionalText: `When you attack with Billowing Mirage, **transform** up to 1 ash you control into an Aether Ashwing. *(Create an Aether Ashwing token and put the ash under it.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR019.png",
     images: [{
@@ -39762,7 +39762,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "billowing-mirage-blue",
+    cardIdentifier: "billowing-mirage-blue",
     functionalText: `When you attack with Billowing Mirage, **transform** up to 1 ash you control into an Aether Ashwing. *(Create an Aether Ashwing token and put the ash under it.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR020.png",
     images: [{
@@ -39792,7 +39792,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "dunebreaker-cenipai-red",
+    cardIdentifier: "dunebreaker-cenipai-red",
     functionalText: `**Phantasm** *(When this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this and close the combat chain.)*  When Dunebreaker Cenipai is destroyed, create an Ash token.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR021.png",
     images: [{
@@ -39822,7 +39822,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "dunebreaker-cenipai-yellow",
+    cardIdentifier: "dunebreaker-cenipai-yellow",
     functionalText: `**Phantasm** *(When this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this and close the combat chain.)*  When Dunebreaker Cenipai is destroyed, create an Ash token.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR022.png",
     images: [{
@@ -39852,7 +39852,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "dunebreaker-cenipai-blue",
+    cardIdentifier: "dunebreaker-cenipai-blue",
     functionalText: `**Phantasm** *(When this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this and close the combat chain.)*  When Dunebreaker Cenipai is destroyed, create an Ash token.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR023.png",
     images: [{
@@ -39882,7 +39882,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "dustup-red",
+    cardIdentifier: "dustup-red",
     functionalText: `When Dustup hits, create an Ash token, then **transform** up to 1 ash you control into an Aether Ashwing. *(Create an Aether Ashwing token and put the ash under it.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR024.png",
     images: [{
@@ -39912,7 +39912,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "dustup-yellow",
+    cardIdentifier: "dustup-yellow",
     functionalText: `When Dustup hits, create an Ash token, then **transform** up to 1 ash you control into an Aether Ashwing. *(Create an Aether Ashwing token and put the ash under it.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR025.png",
     images: [{
@@ -39942,7 +39942,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "dustup-blue",
+    cardIdentifier: "dustup-blue",
     functionalText: `When Dustup hits, create an Ash token, then **transform** up to 1 ash you control into an Aether Ashwing. *(Create an Aether Ashwing token and put the ash under it.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR026.png",
     images: [{
@@ -39972,7 +39972,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "embermaw-cenipai-red",
+    cardIdentifier: "embermaw-cenipai-red",
     functionalText: `**Phantasm** *(When this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this and close the combat chain.)*  When Embermaw Cenipai is destroyed, create an Ash token.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR027.png",
     images: [{
@@ -40002,7 +40002,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "embermaw-cenipai-yellow",
+    cardIdentifier: "embermaw-cenipai-yellow",
     functionalText: `**Phantasm** *(When this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this and close the combat chain.)*  When Embermaw Cenipai is destroyed, create an Ash token.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR028.png",
     images: [{
@@ -40032,7 +40032,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "embermaw-cenipai-blue",
+    cardIdentifier: "embermaw-cenipai-blue",
     functionalText: `**Phantasm** *(When this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this and close the combat chain.)*  When Embermaw Cenipai is destroyed, create an Ash token.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR029.png",
     images: [{
@@ -40062,7 +40062,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "sweeping-blow-red",
+    cardIdentifier: "sweeping-blow-red",
     functionalText: `When you attack with Sweeping Blow, create an Ash token.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR030.png",
     images: [{
@@ -40092,7 +40092,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "sweeping-blow-yellow",
+    cardIdentifier: "sweeping-blow-yellow",
     functionalText: `When you attack with Sweeping Blow, create an Ash token.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR031.png",
     images: [{
@@ -40122,7 +40122,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "sweeping-blow-blue",
+    cardIdentifier: "sweeping-blow-blue",
     functionalText: `When you attack with Sweeping Blow, create an Ash token.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR032.png",
     images: [{
@@ -40152,7 +40152,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "rake-the-embers-red",
+    cardIdentifier: "rake-the-embers-red",
     functionalText: `Create an Ash token, then **transform** up to 3 ash you control into Aether Ashwings. *(Create Aether Ashwing tokens and put the ash under them.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR033.png",
     images: [{
@@ -40182,7 +40182,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
-    identifier: "rake-the-embers-yellow",
+    cardIdentifier: "rake-the-embers-yellow",
     functionalText: `Create an Ash token, then **transform** up to 2 ash you control into Aether Ashwings. *(Create Aether Ashwing tokens and put the ash under them.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR034.png",
     images: [{
@@ -40212,7 +40212,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
-    identifier: "rake-the-embers-blue",
+    cardIdentifier: "rake-the-embers-blue",
     functionalText: `Create an Ash token, then **transform** up to 1 ash you control into Aether Ashwings. *(Create an Aether Ashwing token and put the ash under it.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR035.png",
     images: [{
@@ -40242,7 +40242,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
-    identifier: "skittering-sands-red",
+    cardIdentifier: "skittering-sands-red",
     functionalText: `**Transform** target ash you control into an Aether Ashwing. It gains +3{p} until end of turn. *(Create an Aether Ashwing token and put the ash under it.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR036.png",
     images: [{
@@ -40272,7 +40272,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
-    identifier: "skittering-sands-yellow",
+    cardIdentifier: "skittering-sands-yellow",
     functionalText: `**Transform** target ash you control into an Aether Ashwing. It gains +2{p} until end of turn. *(Create an Aether Ashwing token and put the ash under it.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR037.png",
     images: [{
@@ -40302,7 +40302,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
-    identifier: "skittering-sands-blue",
+    cardIdentifier: "skittering-sands-blue",
     functionalText: `**Transform** target ash you control into an Aether Ashwing. It gains +1{p} until end of turn. *(Create an Aether Ashwing token and put the ash under it.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR038.png",
     images: [{
@@ -40332,7 +40332,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ninja,
-    identifier: "phoenix-form-red",
+    cardIdentifier: "phoenix-form-red",
     functionalText: `If you control 1 or more Phoenix Flames, Phoenix Form has **go again**. If you control 2 or more, it has +2{p}. If you control 3 or more, it has “When this hits a hero, draw 3 cards.”`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR048.png",
     images: [{
@@ -40367,7 +40367,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "spreading-flames-red",
+    cardIdentifier: "spreading-flames-red",
     functionalText: `Draconic attacks you control have +1{p} while their base {p} is less than the number of Draconic chain links you control.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR049.png",
     images: [{
@@ -40397,7 +40397,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "engulfing-flamewave-red",
+    cardIdentifier: "engulfing-flamewave-red",
     functionalText: `When Engulfing Flamewave hits, reveal the top card of your deck. If it’s an attack action card with cost less than number of Draconic chain links you control, banish it. You may play it this turn.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR051.png",
     images: [{
@@ -40427,7 +40427,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "engulfing-flamewave-yellow",
+    cardIdentifier: "engulfing-flamewave-yellow",
     functionalText: `When Engulfing Flamewave hits, reveal the top card of your deck. If it’s an attack action card with cost less than number of Draconic chain links you control, banish it. You may play it this turn.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR052.png",
     images: [{
@@ -40457,7 +40457,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "engulfing-flamewave-blue",
+    cardIdentifier: "engulfing-flamewave-blue",
     functionalText: `When Engulfing Flamewave hits, reveal the top card of your deck. If it’s an attack action card with cost less than number of Draconic chain links you control, banish it. You may play it this turn.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR053.png",
     images: [{
@@ -40487,7 +40487,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "mounting-anger-red",
+    cardIdentifier: "mounting-anger-red",
     functionalText: `When Mounting Anger hits, you may banish an attack action card from your hand with cost less than the number of Draconic chain links you control. If you do, it gains +1{p} and you may play it this turn.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR054.png",
     images: [{
@@ -40517,7 +40517,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "mounting-anger-yellow",
+    cardIdentifier: "mounting-anger-yellow",
     functionalText: `When Mounting Anger hits, you may banish an attack action card from your hand with cost less than the number of Draconic chain links you control. If you do, it gains +1{p} and you may play it this turn.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR055.png",
     images: [{
@@ -40547,7 +40547,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "mounting-anger-blue",
+    cardIdentifier: "mounting-anger-blue",
     functionalText: `When Mounting Anger hits, you may banish an attack action card from your hand with cost less than the number of Draconic chain links you control. If you do, it gains +1{p} and you may play it this turn.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR056.png",
     images: [{
@@ -40577,7 +40577,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "rise-from-the-ashes-red",
+    cardIdentifier: "rise-from-the-ashes-red",
     functionalText: `The next Draconic or Ninja attack action card you play this turn gains +3{p}.  You may return a Phoenix Flame from your graveyard to your hand.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR057.png",
     images: [{
@@ -40607,7 +40607,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ninja,
-    identifier: "rise-from-the-ashes-yellow",
+    cardIdentifier: "rise-from-the-ashes-yellow",
     functionalText: `The next Draconic or Ninja attack action card you play this turn gains +2{p}.  You may return a Phoenix Flame from your graveyard to your hand.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR058.png",
     images: [{
@@ -40637,7 +40637,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ninja,
-    identifier: "rise-from-the-ashes-blue",
+    cardIdentifier: "rise-from-the-ashes-blue",
     functionalText: `The next Draconic or Ninja attack action card you play this turn gains +1{p}.  You may return a Phoenix Flame from your graveyard to your hand.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR059.png",
     images: [{
@@ -40667,7 +40667,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ninja,
-    identifier: "brand-with-cinderclaw-red",
+    cardIdentifier: "brand-with-cinderclaw-red",
     functionalText: `Your next attack this combat chain is Draconic in addition to its other card types.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR060.png",
     images: [{
@@ -40697,7 +40697,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "brand-with-cinderclaw-yellow",
+    cardIdentifier: "brand-with-cinderclaw-yellow",
     functionalText: `Your next attack this combat chain is Draconic in addition to its other card types.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR061.png",
     images: [{
@@ -40727,7 +40727,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "brand-with-cinderclaw-blue",
+    cardIdentifier: "brand-with-cinderclaw-blue",
     functionalText: `Your next attack this combat chain is Draconic in addition to its other card types.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR062.png",
     images: [{
@@ -40757,7 +40757,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "cinderskin-devotion-red",
+    cardIdentifier: "cinderskin-devotion-red",
     functionalText: `If you control 2 or more Draconic chain links, Cinderskin Devotion has **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR063.png",
     images: [{
@@ -40787,7 +40787,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "cinderskin-devotion-yellow",
+    cardIdentifier: "cinderskin-devotion-yellow",
     functionalText: `If you control 2 or more Draconic chain links, Cinderskin Devotion has **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR064.png",
     images: [{
@@ -40817,7 +40817,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "cinderskin-devotion-blue",
+    cardIdentifier: "cinderskin-devotion-blue",
     functionalText: `If you control 2 or more Draconic chain links, Cinderskin Devotion has **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR065.png",
     images: [{
@@ -40847,7 +40847,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "dust-runner-outlaw-red",
+    cardIdentifier: "dust-runner-outlaw-red",
     functionalText: `**Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR066.png",
     images: [{
@@ -40877,7 +40877,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "dust-runner-outlaw-yellow",
+    cardIdentifier: "dust-runner-outlaw-yellow",
     functionalText: `**Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR067.png",
     images: [{
@@ -40907,7 +40907,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "dust-runner-outlaw-blue",
+    cardIdentifier: "dust-runner-outlaw-blue",
     functionalText: `**Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR068.png",
     images: [{
@@ -40937,7 +40937,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "lava-vein-loyalty-red",
+    cardIdentifier: "lava-vein-loyalty-red",
     functionalText: `If you control 2 or more Draconic chain links, Lava Vein Loyalty has **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR069.png",
     images: [{
@@ -40967,7 +40967,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "lava-vein-loyalty-yellow",
+    cardIdentifier: "lava-vein-loyalty-yellow",
     functionalText: `If you control 2 or more Draconic chain links, Lava Vein Loyalty has **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR070.png",
     images: [{
@@ -40997,7 +40997,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "lava-vein-loyalty-blue",
+    cardIdentifier: "lava-vein-loyalty-blue",
     functionalText: `If you control 2 or more Draconic chain links, Lava Vein Loyalty has **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR071.png",
     images: [{
@@ -41027,7 +41027,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "rebellious-rush-red",
+    cardIdentifier: "rebellious-rush-red",
     functionalText: `**Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR072.png",
     images: [{
@@ -41057,7 +41057,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "rebellious-rush-yellow",
+    cardIdentifier: "rebellious-rush-yellow",
     functionalText: `**Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR073.png",
     images: [{
@@ -41087,7 +41087,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "rebellious-rush-blue",
+    cardIdentifier: "rebellious-rush-blue",
     functionalText: `**Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR074.png",
     images: [{
@@ -41117,7 +41117,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "rising-resentment-red",
+    cardIdentifier: "rising-resentment-red",
     functionalText: `When Rising Resentment hits, you may banish an attack action card from your hand with cost less than the number of Draconic chain links you control. If you do, it costs {r} less to play and you may play it this turn.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR075.png",
     images: [{
@@ -41147,7 +41147,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "rising-resentment-yellow",
+    cardIdentifier: "rising-resentment-yellow",
     functionalText: `When Rising Resentment hits, you may banish an attack action card from your hand with cost less than the number of Draconic chain links you control. If you do, it costs {r} less to play and you may play it this turn.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR076.png",
     images: [{
@@ -41177,7 +41177,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "rising-resentment-blue",
+    cardIdentifier: "rising-resentment-blue",
     functionalText: `When Rising Resentment hits, you may banish an attack action card from your hand with cost less than the number of Draconic chain links you control. If you do, it costs {r} less to play and you may play it this turn.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR077.png",
     images: [{
@@ -41207,7 +41207,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "ronin-renegade-red",
+    cardIdentifier: "ronin-renegade-red",
     functionalText: `**Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR078.png",
     images: [{
@@ -41237,7 +41237,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "ronin-renegade-yellow",
+    cardIdentifier: "ronin-renegade-yellow",
     functionalText: `**Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR079.png",
     images: [{
@@ -41267,7 +41267,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "ronin-renegade-blue",
+    cardIdentifier: "ronin-renegade-blue",
     functionalText: `**Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR080.png",
     images: [{
@@ -41297,7 +41297,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "soaring-strike-red",
+    cardIdentifier: "soaring-strike-red",
     functionalText: `When Soaring Strike hits, you may banish an attack action card from your hand with cost less than the number of Draconic chain links you control. If you do, it gains **go again** and you may play it this turn.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR081.png",
     images: [{
@@ -41327,7 +41327,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "soaring-strike-yellow",
+    cardIdentifier: "soaring-strike-yellow",
     functionalText: `When Soaring Strike hits, you may banish an attack action card from your hand with cost less than the number of Draconic chain links you control. If you do, it gains **go again** and you may play it this turn.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR082.png",
     images: [{
@@ -41357,7 +41357,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "soaring-strike-blue",
+    cardIdentifier: "soaring-strike-blue",
     functionalText: `When Soaring Strike hits, you may banish an attack action card from your hand with cost less than the number of Draconic chain links you control. If you do, it gains **go again** and you may play it this turn.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR083.png",
     images: [{
@@ -41387,7 +41387,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "thaw-red",
+    cardIdentifier: "thaw-red",
     functionalText: `While thaw is in your graveyard, at the start of your turn, you may banish it and choose 1:  - Destroy target Frostbite. - Destroy target Ice affliction. - **Unfreeze** target **frozen** card.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR086.png",
     images: [{
@@ -41417,7 +41417,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "uprising-red",
+    cardIdentifier: "uprising-red",
     functionalText: `Your next 4 Draconic attacks this turn gain +1{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR088.png",
     images: [{
@@ -41447,7 +41447,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "red-hot-red",
+    cardIdentifier: "red-hot-red",
     functionalText: `**Dromai or Fai Specialization** *(You may only have Red Hot in your deck if your hero is Dromai or Fai.)*  **Rupture** - If Red Hot is played as chain link 4 or higher, it has “When you attack with this, reveal the top X cards of your deck, where X is the number of Draconic chain links you control. Deal damage equal to the number of red cards revealed this way to any target, then shuffle.”`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR090.png",
     images: [{
@@ -41477,7 +41477,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "rise-up-red",
+    cardIdentifier: "rise-up-red",
     functionalText: `**Dromai or Fai Specialization** *(You may only have Rise Up in your deck if your hero is Dromai or Fai.)*  **Rupture** - If Rise Up is played as chain link 4 or higher, it has **dominate** and +X{p}, where X is twice the number of Phoenix Flames you control. *(The defending hero can’t defend with or play more than 1 defending card or defense reaction from their hand this chain link.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR091.png",
     images: [{
@@ -41507,7 +41507,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "blaze-headlong-red",
+    cardIdentifier: "blaze-headlong-red",
     functionalText: `If you’ve played another red card this turn, Blaze Headlong has **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR092.png",
     images: [{
@@ -41537,7 +41537,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "breaking-point-red",
+    cardIdentifier: "breaking-point-red",
     functionalText: `**Rupture** - If Breaking Point is played as chain link 4 or higher, it has “When this hits a hero, destroy all cards in their arsenal.”`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR093.png",
     images: [{
@@ -41567,7 +41567,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "burn-away-red",
+    cardIdentifier: "burn-away-red",
     functionalText: `As an additional cost to play Burn Away, you may banish a Phoenix Flame from your graveyard. When you do, Burn Away gains +2{p} and **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR094.png",
     images: [{
@@ -41597,7 +41597,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "flameborn-retribution-red",
+    cardIdentifier: "flameborn-retribution-red",
     functionalText: `When you defend with Flameborn Retribution, if you’ve been dealt damage this turn, you may return a Phoenix Flame from your graveyard to your hand.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR095.png",
     images: [{
@@ -41627,7 +41627,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "flamecall-awakening-red",
+    cardIdentifier: "flamecall-awakening-red",
     functionalText: `When you attack with Flamecall Awakening, if you’ve played another red card this turn, you may search your deck for a Phoenix Flame, reveal it, put it into your hand, then shuffle.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR096.png",
     images: [{
@@ -41662,7 +41662,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "inflame-red",
+    cardIdentifier: "inflame-red",
     functionalText: `When you attack with Inflame, if you’ve played another red card this turn, you may return a Phoenix Flame from your graveyard to your hand.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR097.png",
     images: [{
@@ -41697,7 +41697,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "lava-burst-red",
+    cardIdentifier: "lava-burst-red",
     functionalText: `**Rupture** - If Lava Burst is played as chain link 4 or higher, it has +3{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR098.png",
     images: [{
@@ -41727,7 +41727,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "searing-touch-red",
+    cardIdentifier: "searing-touch-red",
     functionalText: `**Rupture** - If Searing Touch is played as chain link 4 or higher, it has “When you attack with this, deal 2 damage to any target.”`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR099.png",
     images: [{
@@ -41757,7 +41757,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "stoke-the-flames-red",
+    cardIdentifier: "stoke-the-flames-red",
     functionalText: `When Stoke the Flames hits, you may return a Phoenix Flame from your graveyard to your hand. If you do, Stoke the Flames gains **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR100.png",
     images: [{
@@ -41792,7 +41792,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
-    identifier: "phoenix-flame-red",
+    cardIdentifier: "phoenix-flame-red",
     functionalText: `*(A player may add up to 3 Phoenix Flame to their deck in an Uprising limited format.)*  If you control 2 or more Draconic chain links, Phoenix Flame has +1{p}.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR101.png",
     images: [{
@@ -41827,7 +41827,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Wizard,
-    identifier: "encase-red",
+    cardIdentifier: "encase-red",
     functionalText: `**Ice Fusion** *(As an additional cost to play Encase, you may reveal an Ice card from your hand.)*  Deal 3 arcane damage to any target. If Encase was **fused** and deals damage to a hero, **freeze** that hero and all equipment they control until the start of your next turn. *(A frozen object can’t be played or activated.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR104.png",
     images: [{
@@ -41857,7 +41857,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "freezing-point-red",
+    cardIdentifier: "freezing-point-red",
     functionalText: `**Ice Fusion** *(As an additional cost to play Freezing Point, you may reveal an Ice card from your hand.)*  Deal 5 arcane damage to a target hero. If Freezing Point was fused, instead deal X arcane damage, where X is 5 plus the number of Frostbites, Ice afflictions, and frozen cards they control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR105.png",
     images: [{
@@ -41887,7 +41887,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "ice-eternal-blue",
+    cardIdentifier: "ice-eternal-blue",
     functionalText: `**Iyslander Specialization** *(You may only have Ice Eternal in your deck if your hero is Iyslander.)*  **Ice Fusion** *(As an additional cost to play Ice Eternal, you may reveal an Ice card from your hand.)*  Create X Frostbite tokens under target hero’s control. Then, if Ice Eternal was **fused**, deal arcane damage to that hero equal to the number of Frostbites they control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR109.png",
     images: [{
@@ -41917,7 +41917,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "succumb-to-winter-red",
+    cardIdentifier: "succumb-to-winter-red",
     functionalText: `**Ice Fusion** *(As an additional cost to play Succumb to Winter, you may reveal an Ice card from your hand.)*  Deal 5 arcane damage to any target. If Succumb to Winter was **fused** and targets a hero, destroy a **frozen** card in their arsenal. If it was **fused** and targets a **frozen** ally, destroy that ally.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR110.png",
     images: [{
@@ -41947,7 +41947,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "succumb-to-winter-yellow",
+    cardIdentifier: "succumb-to-winter-yellow",
     functionalText: `**Ice Fusion** *(As an additional cost to play Succumb to Winter, you may reveal an Ice card from your hand.)*  Deal 4 arcane damage to any target. If Succumb to Winter was **fused** and targets a hero, destroy a **frozen** card in their arsenal. If it was **fused** and targets a **frozen** ally, destroy that ally.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR111.png",
     images: [{
@@ -41977,7 +41977,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "succumb-to-winter-blue",
+    cardIdentifier: "succumb-to-winter-blue",
     functionalText: `**Ice Fusion** *(As an additional cost to play Succumb to Winter, you may reveal an Ice card from your hand.)*  Deal 3 arcane damage to any target. If Succumb to Winter was **fused** and targets a hero, destroy a **frozen** card in their arsenal. If it was **fused** and targets a **frozen** ally, destroy that ally.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR112.png",
     images: [{
@@ -42007,7 +42007,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "aether-icevein-red",
+    cardIdentifier: "aether-icevein-red",
     functionalText: `**Ice Fusion** *(As an additional cost to play Aether Icevein, you may reveal an Ice card from your hand.)*  Deal 5 arcane damage to any target. If Aether Icevein was **fused** and deals damage to a hero, they discard a card unless they pay {r}{r}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR113.png",
     images: [{
@@ -42037,7 +42037,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "aether-icevein-yellow",
+    cardIdentifier: "aether-icevein-yellow",
     functionalText: `**Ice Fusion** *(As an additional cost to play Aether Icevein, you may reveal an Ice card from your hand.)*  Deal 4 arcane damage to any target. If Aether Icevein was **fused** and deals damage to a hero, they discard a card unless they pay {r}{r}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR114.png",
     images: [{
@@ -42067,7 +42067,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "aether-icevein-blue",
+    cardIdentifier: "aether-icevein-blue",
     functionalText: `**Ice Fusion** *(As an additional cost to play Aether Icevein, you may reveal an Ice card from your hand.)*  Deal 3 arcane damage to any target. If Aether Icevein was **fused** and deals damage to a hero, they discard a card unless they pay {r}{r}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR115.png",
     images: [{
@@ -42097,7 +42097,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "brain-freeze-red",
+    cardIdentifier: "brain-freeze-red",
     functionalText: `**Ice Fusion** *(As an additional cost to play Brain Freeze, you may reveal an Ice card from your hand.)*  Target opponent reveals their hand. If Brain Freeze was **fused**, put an action card with cost 2 or less from their hand on top of their deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR116.png",
     images: [{
@@ -42127,7 +42127,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "brain-freeze-yellow",
+    cardIdentifier: "brain-freeze-yellow",
     functionalText: `**Ice Fusion** *(As an additional cost to play Brain Freeze, you may reveal an Ice card from your hand.)*  Target opponent reveals their hand. If Brain Freeze was **fused**, put an action card with cost 1 or less from their hand on top of their deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR117.png",
     images: [{
@@ -42157,7 +42157,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "brain-freeze-blue",
+    cardIdentifier: "brain-freeze-blue",
     functionalText: `**Ice Fusion** *(As an additional cost to play Brain Freeze, you may reveal an Ice card from your hand.)*  Target opponent reveals their hand. If Brain Freeze was **fused**, put an action card with cost 0 from their hand on top of their deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR118.png",
     images: [{
@@ -42187,7 +42187,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "icebind-red",
+    cardIdentifier: "icebind-red",
     functionalText: `**Ice Fusion** *(As an additional cost to play Ice Eternal, you may reveal an Ice card from your hand.)*  Deal 3 arcane damage to any target. If Icebind was **fused** and deals damage to a hero, **freeze** a card in their arsenal until the start of your next turn. *(A frozen object can’t be played or activated.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR119.png",
     images: [{
@@ -42217,7 +42217,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "icebind-yellow",
+    cardIdentifier: "icebind-yellow",
     functionalText: `**Ice Fusion** *(As an additional cost to play Ice Eternal, you may reveal an Ice card from your hand.)*  Deal 2 arcane damage to any target. If Icebind was **fused** and deals damage to a hero, **freeze** a card in their arsenal until the start of your next turn. *(A frozen object can’t be played or activated.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR120.png",
     images: [{
@@ -42247,7 +42247,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "icebind-blue",
+    cardIdentifier: "icebind-blue",
     functionalText: `**Ice Fusion** *(As an additional cost to play Ice Eternal, you may reveal an Ice card from your hand.)*  Deal 1 arcane damage to any target. If Icebind was **fused** and deals damage to a hero, **freeze** a card in their arsenal until the start of your next turn. *(A frozen object can’t be played or activated.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR121.png",
     images: [{
@@ -42277,7 +42277,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "polar-cap-red",
+    cardIdentifier: "polar-cap-red",
     functionalText: `**Ice Fusion** *(As an additional cost to play Polar Cap, you may reveal an Ice card from your hand.)*  Deal 4 arcane damage to any target. If Polar Cap was **fused** and deals damage to a hero, create a Frostbite token under their control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR122.png",
     images: [{
@@ -42307,7 +42307,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "polar-cap-yellow",
+    cardIdentifier: "polar-cap-yellow",
     functionalText: `**Ice Fusion** *(As an additional cost to play Polar Cap, you may reveal an Ice card from your hand.)*  Deal 3 arcane damage to any target. If Polar Cap was **fused** and deals damage to a hero, create a Frostbite token under their control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR123.png",
     images: [{
@@ -42337,7 +42337,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "polar-cap-blue",
+    cardIdentifier: "polar-cap-blue",
     functionalText: `**Ice Fusion** *(As an additional cost to play Polar Cap, you may reveal an Ice card from your hand.)*  Deal 2 arcane damage to any target. If Polar Cap was **fused** and deals damage to a hero, create a Frostbite token under their control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR124.png",
     images: [{
@@ -42367,7 +42367,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "frost-hex-blue",
+    cardIdentifier: "frost-hex-blue",
     functionalText: `**Iyslander Specialization** *(You may only have Frost Hex in your deck if your hero is Iyslander.)*  *(An affliction enters the arena under an opposing hero’s control.)*  Frostbites you control have “At the beginning of your end phase, this deals 1 arcane damage to you.”`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR126.png",
     images: [{
@@ -42402,7 +42402,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Wizard,
-    identifier: "aether-hail-red",
+    cardIdentifier: "aether-hail-red",
     functionalText: `Deal 4 arcane damage to any target.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR127.png",
     images: [{
@@ -42432,7 +42432,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "aether-hail-yellow",
+    cardIdentifier: "aether-hail-yellow",
     functionalText: `Deal 3 arcane damage to any target.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR128.png",
     images: [{
@@ -42462,7 +42462,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "aether-hail-blue",
+    cardIdentifier: "aether-hail-blue",
     functionalText: `Deal 2 arcane damage to any target.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR129.png",
     images: [{
@@ -42492,7 +42492,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "frosting-red",
+    cardIdentifier: "frosting-red",
     functionalText: `Deal 3 arcane damage to any target.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR130.png",
     images: [{
@@ -42522,7 +42522,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "frosting-yellow",
+    cardIdentifier: "frosting-yellow",
     functionalText: `Deal 2 arcane damage to any target.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR131.png",
     images: [{
@@ -42552,7 +42552,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "frosting-blue",
+    cardIdentifier: "frosting-blue",
     functionalText: `Deal 1 arcane damage to any target.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR132.png",
     images: [{
@@ -42582,7 +42582,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "ice-bolt-red",
+    cardIdentifier: "ice-bolt-red",
     functionalText: `Deal 5 arcane damage to any target.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR133.png",
     images: [{
@@ -42612,7 +42612,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "ice-bolt-yellow",
+    cardIdentifier: "ice-bolt-yellow",
     functionalText: `Deal 4 arcane damage to any target.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR134.png",
     images: [{
@@ -42642,7 +42642,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "ice-bolt-blue",
+    cardIdentifier: "ice-bolt-blue",
     functionalText: `Deal 3 arcane damage to any target.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR135.png",
     images: [{
@@ -42672,7 +42672,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "channel-the-bleak-expanse-blue",
+    cardIdentifier: "channel-the-bleak-expanse-blue",
     functionalText: `**Go again**  Heroes can’t reveal cards, search decks, or draw cards from effects.  **Channel Ice** - At the beginning of your end phase, put a flow counter on Channel the Bleak Expanse then destroy it unless you put an Ice card from your pitch zone on the bottom of your deck for each flow counter on it.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR138.png",
     images: [{
@@ -42702,7 +42702,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.NotClassed,
-    identifier: "hypothermia-blue",
+    cardIdentifier: "hypothermia-blue",
     functionalText: `*(An affliction enters the arena under an opposing hero’s control.)*  Attacks you control can’t gain **go again**. *(This does not affect attacks that naturally have go again.)*  At the beginning of your end phase, destroy Hypothermia.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR139.png",
     images: [{
@@ -42732,7 +42732,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.NotClassed,
-    identifier: "insidious-chill-blue",
+    cardIdentifier: "insidious-chill-blue",
     functionalText: `Insidious Chill enters the arena with 3 frost counters on it. When it has no frost counters on it, destroy it.  Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you do, target hero discards a card unless they pay {r}{r}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR140.png",
     images: [{
@@ -42762,7 +42762,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.NotClassed,
-    identifier: "isenhowl-weathervane-red",
+    cardIdentifier: "isenhowl-weathervane-red",
     functionalText: `The next time you **Ice fuse** this turn, create 4 Frostbite tokens under target hero’s control.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR141.png",
     images: [{
@@ -42792,7 +42792,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "isenhowl-weathervane-yellow",
+    cardIdentifier: "isenhowl-weathervane-yellow",
     functionalText: `The next time you **Ice fuse** this turn, create 3 Frostbite tokens under target hero’s control.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR142.png",
     images: [{
@@ -42822,7 +42822,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "isenhowl-weathervane-blue",
+    cardIdentifier: "isenhowl-weathervane-blue",
     functionalText: `The next time you **Ice fuse** this turn, create 2 Frostbite tokens under target hero’s control.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR143.png",
     images: [{
@@ -42852,7 +42852,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "arctic-incarceration-red",
+    cardIdentifier: "arctic-incarceration-red",
     functionalText: `Create 3 Frostbite tokens under target hero’s control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR144.png",
     images: [{
@@ -42882,7 +42882,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "arctic-incarceration-yellow",
+    cardIdentifier: "arctic-incarceration-yellow",
     functionalText: `Create 2 Frostbite tokens under target hero’s control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR145.png",
     images: [{
@@ -42912,7 +42912,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "arctic-incarceration-blue",
+    cardIdentifier: "arctic-incarceration-blue",
     functionalText: `Create a Frostbite token under target hero’s control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR146.png",
     images: [{
@@ -42942,7 +42942,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "cold-snap-red",
+    cardIdentifier: "cold-snap-red",
     functionalText: `Target hero may pay {r}{r}{r}. If they don’t, **freeze** a card in their arsenal or an ally they control until the start of your next turn. *(A frozen object can’t be played or activated.)*  If Cold Snap is played from arsenal, draw a card.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR147.png",
     images: [{
@@ -42972,7 +42972,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "cold-snap-yellow",
+    cardIdentifier: "cold-snap-yellow",
     functionalText: `Target hero may pay {r}{r}. If they don’t, **freeze** a card in their arsenal or an ally they control until the start of your next turn. *(A frozen object can’t be played or activated.)*  If Cold Snap is played from arsenal, draw a card.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR148.png",
     images: [{
@@ -43002,7 +43002,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
-    identifier: "cold-snap-blue",
+    cardIdentifier: "cold-snap-blue",
     functionalText: `Target hero may pay {r}. If they don’t, **freeze** a card in their arsenal or an ally they control until the start of your next turn. *(A frozen object can’t be played or activated.)*  If Cold Snap is played from arsenal, draw a card.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR149.png",
     images: [{
@@ -43032,7 +43032,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
-    identifier: "frightmare-red",
+    cardIdentifier: "frightmare-red",
     functionalText: `Play Frightmare only if an Illusionist attack action card you control has been destroyed by **phantasm** this turn.  **Phantasm** *(When this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this and close the combat chain.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR153.png",
     images: [{
@@ -43062,7 +43062,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
-    identifier: "transmogrify-red",
+    cardIdentifier: "transmogrify-red",
     functionalText: `The next attack action card you play this turn is Illusionist, has 8 base {p}, and gains **phantasm**. *(It keeps its other card types.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR155.png",
     images: [{
@@ -43092,7 +43092,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
-    identifier: "transmogrify-yellow",
+    cardIdentifier: "transmogrify-yellow",
     functionalText: `The next attack action card you play this turn is Illusionist, has 7 base {p}, and gains **phantasm**. *(It keeps its other card types.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR156.png",
     images: [{
@@ -43122,7 +43122,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
-    identifier: "transmogrify-blue",
+    cardIdentifier: "transmogrify-blue",
     functionalText: `The next attack action card you play this turn is Illusionist, has 6 base {p}, and gains **phantasm**. *(It keeps its other card types.)*  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR157.png",
     images: [{
@@ -43152,7 +43152,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ninja,
-    identifier: "double-strike-red",
+    cardIdentifier: "double-strike-red",
     functionalText: `When Double Strike’s chain link resolves, banish it. You may play it this combat chain. If you do, it loses this ability.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR160.png",
     images: [{
@@ -43182,7 +43182,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
-    identifier: "take-the-tempo-red",
+    cardIdentifier: "take-the-tempo-red",
     functionalText: `When Take the Tempo hits, if you’ve hit 3 or more times this combat chain, banish the top card of your deck. If it’s an attack action card, you may play it until the end of your next turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR161.png",
     images: [{
@@ -43212,7 +43212,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Wizard,
-    identifier: "tome-of-duplicity-blue",
+    cardIdentifier: "tome-of-duplicity-blue",
     functionalText: `Look at the top 2 cards of your deck, then banish one. If it’s a ‘non-attack’ action card, you may play it this turn as though it were an instant.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR168.png",
     images: [{
@@ -43242,7 +43242,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "dampen-red",
+    cardIdentifier: "dampen-red",
     functionalText: `Deal 4 arcane damage to any target.  Prevent the next X arcane damage that would be dealt to your hero this turn, where X is the damage dealt by Dampen.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR170.png",
     images: [{
@@ -43272,7 +43272,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "dampen-yellow",
+    cardIdentifier: "dampen-yellow",
     functionalText: `Deal 3 arcane damage to any target.  Prevent the next X arcane damage that would be dealt to your hero this turn, where X is the damage dealt by Dampen.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR171.png",
     images: [{
@@ -43302,7 +43302,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "dampen-blue",
+    cardIdentifier: "dampen-blue",
     functionalText: `Deal 2 arcane damage to any target.  Prevent the next X arcane damage that would be dealt to your hero this turn, where X is the damage dealt by Dampen.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR172.png",
     images: [{
@@ -43332,7 +43332,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "aether-dart-red",
+    cardIdentifier: "aether-dart-red",
     functionalText: `Deal 3 arcane damage to any target.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR173.png",
     images: [{
@@ -43362,7 +43362,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "aether-dart-yellow",
+    cardIdentifier: "aether-dart-yellow",
     functionalText: `Deal 2 arcane damage to any target.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR174.png",
     images: [{
@@ -43392,7 +43392,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "aether-dart-blue",
+    cardIdentifier: "aether-dart-blue",
     functionalText: `Deal 1 arcane damage to any target.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR175.png",
     images: [{
@@ -43422,7 +43422,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "read-the-ripples-red",
+    cardIdentifier: "read-the-ripples-red",
     functionalText: `At the beginning of your end phase, destroy Read the Ripples then **opt 1**, **opt 1**, **opt 1**, and draw a card. *(Look at the top card of your deck. You may put it on the bottom.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR176.png",
     images: [{
@@ -43452,7 +43452,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Wizard,
-    identifier: "read-the-ripples-yellow",
+    cardIdentifier: "read-the-ripples-yellow",
     functionalText: `At the beginning of your end phase, destroy Read the Ripples then **opt 1**, **opt 1**, and draw a card. *(Look at the top card of your deck. You may put it on the bottom.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR177.png",
     images: [{
@@ -43482,7 +43482,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Wizard,
-    identifier: "read-the-ripples-blue",
+    cardIdentifier: "read-the-ripples-blue",
     functionalText: `At the beginning of your end phase, destroy Read the Ripples then **opt 1** and draw a card. *(Look at the top card of your deck. You may put it on the bottom.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR178.png",
     images: [{
@@ -43512,7 +43512,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Wizard,
-    identifier: "singe-red",
+    cardIdentifier: "singe-red",
     functionalText: `Deal 1 arcane damage to target hero and up to 3 target allies they control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR179.png",
     images: [{
@@ -43542,7 +43542,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "singe-yellow",
+    cardIdentifier: "singe-yellow",
     functionalText: `Deal 1 arcane damage to target hero and up to 2 target allies they control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR180.png",
     images: [{
@@ -43572,7 +43572,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
-    identifier: "singe-blue",
+    cardIdentifier: "singe-blue",
     functionalText: `Deal 1 arcane damage to target hero and up to 1 target ally they control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR181.png",
     images: [{
@@ -43602,7 +43602,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "erase-face-red",
+    cardIdentifier: "erase-face-red",
     functionalText: `When Erase Face hits a hero, cards and tokens they own lose all class and talent types until the end of their next turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR187.png",
     images: [{
@@ -43632,7 +43632,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "vipox-red",
+    cardIdentifier: "vipox-red",
     functionalText: `When Vipox hits a hero, they lose {h} equal to the number of cards in their hand.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR188.png",
     images: [{
@@ -43662,7 +43662,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "fog-down-yellow",
+    cardIdentifier: "fog-down-yellow",
     functionalText: `Non-attack’ action cards lose and can’t gain **go again**.  At the beginning of your action phase, destroy Fog Down.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR190.png",
     images: [{
@@ -43692,7 +43692,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Generic,
-    identifier: "flex-red",
+    cardIdentifier: "flex-red",
     functionalText: `When you attack or defend with Flex, you may pay {r}{r}. If you do, it gains +2{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR191.png",
     images: [{
@@ -43722,7 +43722,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "flex-yellow",
+    cardIdentifier: "flex-yellow",
     functionalText: `When you attack or defend with Flex, you may pay {r}{r}. If you do, it gains +2{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR192.png",
     images: [{
@@ -43752,7 +43752,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "flex-blue",
+    cardIdentifier: "flex-blue",
     functionalText: `When you attack or defend with Flex, you may pay {r}{r}. If you do, it gains +2{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR193.png",
     images: [{
@@ -43782,7 +43782,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "fyendals-fighting-spirit-red",
+    cardIdentifier: "fyendals-fighting-spirit-red",
     functionalText: `When you attack or defend with Fyendal’s Fighting Spirit, if you have less {h} than an opposing hero, gain 1{h}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR194.png",
     images: [{
@@ -43812,7 +43812,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "fyendals-fighting-spirit-yellow",
+    cardIdentifier: "fyendals-fighting-spirit-yellow",
     functionalText: `When you attack or defend with Fyendal’s Fighting Spirit, if you have less {h} than an opposing hero, gain 1{h}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR195.png",
     images: [{
@@ -43842,7 +43842,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "fyendals-fighting-spirit-blue",
+    cardIdentifier: "fyendals-fighting-spirit-blue",
     functionalText: `When you attack or defend with Fyendal’s Fighting Spirit, if you have less {h} than an opposing hero, gain 1{h}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR196.png",
     images: [{
@@ -43872,7 +43872,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "sift-red",
+    cardIdentifier: "sift-red",
     functionalText: `Put up to 4 cards from your hand on the bottom of your deck, then draw that many cards.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR197.png",
     images: [{
@@ -43902,7 +43902,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "sift-yellow",
+    cardIdentifier: "sift-yellow",
     functionalText: `Put up to 3 cards from your hand on the bottom of your deck, then draw that many cards.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR198.png",
     images: [{
@@ -43932,7 +43932,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "sift-blue",
+    cardIdentifier: "sift-blue",
     functionalText: `Put up to 2 cards from your hand on the bottom of your deck, then draw that many cards.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR199.png",
     images: [{
@@ -43962,7 +43962,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "strategic-planning-red",
+    cardIdentifier: "strategic-planning-red",
     functionalText: `Put an action card with cost 2 or less from a graveyard on the bottom of its owner’s deck. At the beginning of the end phase, draw a card.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR200.png",
     images: [{
@@ -43992,7 +43992,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "strategic-planning-yellow",
+    cardIdentifier: "strategic-planning-yellow",
     functionalText: `Put an action card with cost 1 or less from a graveyard on the bottom of its owner’s deck. At the beginning of the end phase, draw a card.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR201.png",
     images: [{
@@ -44022,7 +44022,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "strategic-planning-blue",
+    cardIdentifier: "strategic-planning-blue",
     functionalText: `Put an action card with cost 0 from a graveyard on the bottom of its owner’s deck. At the beginning of the end phase, draw a card.  **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR202.png",
     images: [{
@@ -44052,7 +44052,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "brothers-in-arms-red",
+    cardIdentifier: "brothers-in-arms-red",
     functionalText: `When you defend with Brothers in Arms, you may pay {r}. If you do, it gains +2{d}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR203.png",
     images: [{
@@ -44082,7 +44082,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "brothers-in-arms-yellow",
+    cardIdentifier: "brothers-in-arms-yellow",
     functionalText: `When you defend with Brothers in Arms, you may pay {r}. If you do, it gains +2{d}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR204.png",
     images: [{
@@ -44112,7 +44112,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "brothers-in-arms-blue",
+    cardIdentifier: "brothers-in-arms-blue",
     functionalText: `When you defend with Brothers in Arms, you may pay {r}. If you do, it gains +2{d}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR205.png",
     images: [{
@@ -44142,7 +44142,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "critical-strike-red",
+    cardIdentifier: "critical-strike-red",
     functionalText: `null`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR206.png",
     images: [{
@@ -44172,7 +44172,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "critical-strike-yellow",
+    cardIdentifier: "critical-strike-yellow",
     functionalText: `null`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR207.png",
     images: [{
@@ -44202,7 +44202,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "critical-strike-blue",
+    cardIdentifier: "critical-strike-blue",
     functionalText: `null`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR208.png",
     images: [{
@@ -44232,7 +44232,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "trade-in-red",
+    cardIdentifier: "trade-in-red",
     functionalText: `When you attack with Trade In, you may discard a card. If you do, draw a card.  If Trade In is played from arsenal, it gains **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR212.png",
     images: [{
@@ -44262,7 +44262,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "trade-in-yellow",
+    cardIdentifier: "trade-in-yellow",
     functionalText: `When you attack with Trade In, you may discard a card. If you do, draw a card.  If Trade In is played from arsenal, it gains **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR213.png",
     images: [{
@@ -44292,7 +44292,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "trade-in-blue",
+    cardIdentifier: "trade-in-blue",
     functionalText: `When you attack with Trade In, you may discard a card. If you do, draw a card.  If Trade In is played from arsenal, it gains **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR214.png",
     images: [{
@@ -44322,7 +44322,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
-    identifier: "healing-balm-red",
+    cardIdentifier: "healing-balm-red",
     functionalText: `Gain 3{h}`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR215.png",
     images: [{
@@ -44352,7 +44352,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "healing-balm-yellow",
+    cardIdentifier: "healing-balm-yellow",
     functionalText: `Gain 2{h}`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR216.png",
     images: [{
@@ -44382,7 +44382,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "healing-balm-blue",
+    cardIdentifier: "healing-balm-blue",
     functionalText: `Gain 1{h}`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR217.png",
     images: [{
@@ -44412,7 +44412,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
-    identifier: "sigil-of-protection-red",
+    cardIdentifier: "sigil-of-protection-red",
     functionalText: `**Ward 4** *(If your hero would be dealt damage, prevent 4 of that damage and destroy Sigil of Protection.)*  At the beginning of your action phase, destroy Sigil of Protection.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR218.png",
     images: [{
@@ -44442,7 +44442,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Generic,
-    identifier: "sigil-of-protection-yellow",
+    cardIdentifier: "sigil-of-protection-yellow",
     functionalText: `**Ward 3** *(If your hero would be dealt damage, prevent 3 of that damage and destroy Sigil of Protection.)*  At the beginning of your action phase, destroy Sigil of Protection.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR219.png",
     images: [{
@@ -44472,7 +44472,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Generic,
-    identifier: "sigil-of-protection-blue",
+    cardIdentifier: "sigil-of-protection-blue",
     functionalText: `**Ward 2** *(If your hero would be dealt damage, prevent 2 of that damage and destroy Sigil of Protection.)*  At the beginning of your action phase, destroy Sigil of Protection.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR220.png",
     images: [{
@@ -44504,7 +44504,7 @@
 
   const attackReactions: ActionCard[] = [{
     class: Class.Ninja,
-    identifier: "ancestral-empowerment-red",
+    cardIdentifier: "ancestral-empowerment-red",
     functionalText: `Target Ninja attack action card gains +1{p}.  Draw a card.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR082.png",
     images: [{
@@ -44544,7 +44544,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "glint-the-quicksilver-blue",
+    cardIdentifier: "glint-the-quicksilver-blue",
     functionalText: `Target weapon attack gains **go again**.  **Reprise** - If the defending hero has defended with a card from their hand this chain link, draw a card.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR118.png",
     images: [{
@@ -44584,7 +44584,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "rout-red",
+    cardIdentifier: "rout-red",
     functionalText: `Target weapon attack gains +3{p}.  **Reprise** - If the defending hero has defended with a card from their hand this chain link, you may return target non-equipment defending card to its owners hand.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR120.png",
     images: [{
@@ -44624,7 +44624,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "singing-steelblade-yellow",
+    cardIdentifier: "singing-steelblade-yellow",
     functionalText: `**Dorinthea Specialization** *(You may only have Singing Steelblade in your deck if your hero is Dorinthea.)*  Target weapon attack gains +1{p}.  **Reprise** - If the defending hero has defended with a card from hand this chain link, search your deck for an attack reaction card, banish it face up, then shuffle your deck. You may play it this chain link.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR121.png",
     images: [{
@@ -44664,7 +44664,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "overpower-red",
+    cardIdentifier: "overpower-red",
     functionalText: `Target weapon attack gains +4{p}  **Reprise** - If the defending hero has defended with a card from their hand this chain link, instead it gains +6{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR123.png",
     images: [{
@@ -44709,7 +44709,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "overpower-yellow",
+    cardIdentifier: "overpower-yellow",
     functionalText: `Target weapon attack gains +3{p}  **Reprise** - If the defending hero has defended with a card from their hand this chain link, instead it gains +5{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR124.png",
     images: [{
@@ -44749,7 +44749,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "overpower-blue",
+    cardIdentifier: "overpower-blue",
     functionalText: `Target weapon attack gains +2{p}  **Reprise** - If the defending hero has defended with a card from their hand this chain link, instead it gains +4{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR125.png",
     images: [{
@@ -44789,7 +44789,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "ironsong-response-red",
+    cardIdentifier: "ironsong-response-red",
     functionalText: `**Reprise** - If the defending hero has defended with a card from their hand this chain link, target weapon attack gains +3{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR132.png",
     images: [{
@@ -44844,7 +44844,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "ironsong-response-yellow",
+    cardIdentifier: "ironsong-response-yellow",
     functionalText: `**Reprise** - If the defending hero has defended with a card from their hand this chain link, target weapon attack gains +2{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR133.png",
     images: [{
@@ -44889,7 +44889,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "ironsong-response-blue",
+    cardIdentifier: "ironsong-response-blue",
     functionalText: `**Reprise** - If the defending hero has defended with a card from their hand this chain link, target weapon attack gains +1{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR134.png",
     images: [{
@@ -44939,7 +44939,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "biting-blade-red",
+    cardIdentifier: "biting-blade-red",
     functionalText: `Target weapon attack gains +3{p}.  **Reprise** - If the defending hero has defended with a card from their hand this chain link, weapons you control gain +1{p} until end of turn`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR135.png",
     images: [{
@@ -44979,7 +44979,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "biting-blade-yellow",
+    cardIdentifier: "biting-blade-yellow",
     functionalText: `Target weapon attack gains +2{p}.  **Reprise** - If the defending hero has defended with a card from their hand this chain link, weapons you control gain +1{p} until end of turn`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR136.png",
     images: [{
@@ -45014,7 +45014,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "biting-blade-blue",
+    cardIdentifier: "biting-blade-blue",
     functionalText: `Target weapon attack gains +1{p}.  **Reprise** - If the defending hero has defended with a card from their hand this chain link, weapons you control gain +1{p} until end of turn`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR137.png",
     images: [{
@@ -45054,7 +45054,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "stroke-of-foresight-red",
+    cardIdentifier: "stroke-of-foresight-red",
     functionalText: `Target weapon attack gains +3{p}.  **Reprise** - If the defending hero has defended with a card from their hand this chain link, draw a card, then put a card from your hand on the top or bottom of your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR138.png",
     images: [{
@@ -45099,7 +45099,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "stroke-of-foresight-yellow",
+    cardIdentifier: "stroke-of-foresight-yellow",
     functionalText: `Target weapon attack gains +2{p}.  **Reprise** - If the defending hero has defended with a card from their hand this chain link, draw a card, then put a card from your hand on the top or bottom of your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR139.png",
     images: [{
@@ -45144,7 +45144,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "stroke-of-foresight-blue",
+    cardIdentifier: "stroke-of-foresight-blue",
     functionalText: `Target weapon attack gains +1{p}.  **Reprise** - If the defending hero has defended with a card from their hand this chain link, draw a card, then put a card from your hand on the top or bottom of your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR140.png",
     images: [{
@@ -45184,7 +45184,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "pummel-red",
+    cardIdentifier: "pummel-red",
     functionalText: `Choose 1; - Target club or hammer weapon attack gains +4{p}. - Target attack action with cost 2 or greater gains +4{p} and “If this hits a hero, they discard a card.”`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR206.png",
     images: [{
@@ -45224,7 +45224,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "pummel-yellow",
+    cardIdentifier: "pummel-yellow",
     functionalText: `Choose 1; - Target club or hammer weapon attack gains +3{p}. - Target attack action with cost 2 or greater gains +3{p} and “If this hits a hero, they discard a card.”`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR207.png",
     images: [{
@@ -45264,7 +45264,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "pummel-blue",
+    cardIdentifier: "pummel-blue",
     functionalText: `Choose 1; - Target club or hammer weapon attack gains +2{p}. - Target attack action with cost 2 or greater gains +2{p} and “If this hits a hero, they discard a card.”`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR208.png",
     images: [{
@@ -45309,7 +45309,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "razor-reflex-red",
+    cardIdentifier: "razor-reflex-red",
     functionalText: `Choose 1; - Target sword or dagger weapon attack gains +3{p}. - Target attack action card with cost 1 or less gains +3{p} and “If this hits, this attack gains **go again**.”`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR209.png",
     images: [{
@@ -45354,7 +45354,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "razor-reflex-yellow",
+    cardIdentifier: "razor-reflex-yellow",
     functionalText: `Choose 1; - Target sword or dagger weapon attack gains +2{p}. - Target attack action card with cost 1 or less gains +2{p} and “If this hits, this attack gains **go again**.”`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR210.png",
     images: [{
@@ -45394,7 +45394,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "razor-reflex-blue",
+    cardIdentifier: "razor-reflex-blue",
     functionalText: `Choose 1; - Target sword or dagger weapon attack gains +1{p}. - Target attack action card with cost 1 or less gains +1{p} and “If this hits, this attack gains **go again**.”`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR211.png",
     images: [{
@@ -45434,7 +45434,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "twinning-blade-yellow",
+    cardIdentifier: "twinning-blade-yellow",
     functionalText: `You may attack an additional time with target sword this turn. *(You must have an action point to attack an additional time.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU082.png",
     images: [{
@@ -45484,7 +45484,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "unified-decree-yellow",
+    cardIdentifier: "unified-decree-yellow",
     functionalText: `Target weapon attack gains +3{p}.  **Reprise** - If the defending hero has defended with a card from their hand this chain link, look at the top card of your deck. If it's an attack reaction card, you may banish it. If you do, you may play it this combat chain.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU083.png",
     images: [{
@@ -45519,7 +45519,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "out-for-blood-red",
+    cardIdentifier: "out-for-blood-red",
     functionalText: `Target weapon attack gains +3{p}.  **Reprise** - If the defending hero has defended with a card from their hand this chain link, your next attack this turn gains +1{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU088.png",
     images: [{
@@ -45559,7 +45559,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "out-for-blood-yellow",
+    cardIdentifier: "out-for-blood-yellow",
     functionalText: `Target weapon attack gains +2{p}.  **Reprise** - If the defending hero has defended with a card from their hand this chain link, your next attack this turn gains +1{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU089.png",
     images: [{
@@ -45604,7 +45604,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "out-for-blood-blue",
+    cardIdentifier: "out-for-blood-blue",
     functionalText: `Target weapon attack gains +1{p}.  **Reprise** - If the defending hero has defended with a card from their hand this chain link, your next attack this turn gains +1{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU090.png",
     images: [{
@@ -45644,7 +45644,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "lunging-press-blue",
+    cardIdentifier: "lunging-press-blue",
     functionalText: `Target attack action card gains +1{p}`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU186.png",
     images: [{
@@ -45689,7 +45689,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "beacon-of-victory-yellow",
+    cardIdentifier: "beacon-of-victory-yellow",
     functionalText: `As an additional cost to play Beacon of Victory, banish X cards from your hero's soul. X can't be 0.  Target attack gains +X{p}.  If you've **charged** this turn, search your deck for an action card with cost X or less, reveal it, put it into your hand, then shuffle your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON033.width-450.png",
     images: [{
@@ -45724,7 +45724,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "courageous-steelhand-red",
+    cardIdentifier: "courageous-steelhand-red",
     functionalText: `If you've **charged** this turn, target attack gains +3{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON057.width-450.png",
     images: [{
@@ -45764,7 +45764,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "courageous-steelhand-yellow",
+    cardIdentifier: "courageous-steelhand-yellow",
     functionalText: `If you've **charged** this turn, target attack gains +2{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON058.width-450.png",
     images: [{
@@ -45804,7 +45804,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "courageous-steelhand-blue",
+    cardIdentifier: "courageous-steelhand-blue",
     functionalText: `If you've **charged** this turn, target attack gains +1{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON059.width-450.png",
     images: [{
@@ -45839,7 +45839,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "shatter-yellow",
+    cardIdentifier: "shatter-yellow",
     functionalText: `Until end of turn, target 2H weapon gains "Whenever this would deal {p} damage, instead you may destroy target defending equipment with {d} less than the damage that would be dealt this way.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR054.width-450.png",
     images: [{
@@ -45869,7 +45869,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "blade-runner-red",
+    cardIdentifier: "blade-runner-red",
     functionalText: `Target 1H weapon attack gains **go again.**  Your next weapon attack this turn gains +3{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR060.width-450.png",
     images: [{
@@ -45899,7 +45899,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "blade-runner-yellow",
+    cardIdentifier: "blade-runner-yellow",
     functionalText: `Target 1H weapon attack gains **go again.**  Your next weapon attack this turn gains +2{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR061.width-450.png",
     images: [{
@@ -45929,7 +45929,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "blade-runner-blue",
+    cardIdentifier: "blade-runner-blue",
     functionalText: `Target 1H weapon attack gains **go again.**  Your next weapon attack this turn gains +1{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR062.width-450.png",
     images: [{
@@ -45959,7 +45959,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "in-the-swing-red",
+    cardIdentifier: "in-the-swing-red",
     functionalText: `Play In the Swing only if you have attacked 2 or more times with weapons this turn.  Target weapon attack gains +3{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR063.width-450.png",
     images: [{
@@ -45999,7 +45999,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "in-the-swing-yellow",
+    cardIdentifier: "in-the-swing-yellow",
     functionalText: `Play In the Swing only if you have attacked 2 or more times with weapons this turn.  Target weapon attack gains +2{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR064.width-450.png",
     images: [{
@@ -46029,7 +46029,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "in-the-swing-blue",
+    cardIdentifier: "in-the-swing-blue",
     functionalText: `Play In the Swing only if you have attacked 2 or more times with weapons this turn.  Target weapon attack gains +1{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR065.width-450.png",
     images: [{
@@ -46059,7 +46059,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "run-through-yellow",
+    cardIdentifier: "run-through-yellow",
     functionalText: `Target sword attack gains **go again**.  Your next sword attack this turn gains +2{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/DVR013.width-450.png",
     images: [{
@@ -46089,7 +46089,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "thrust-red",
+    cardIdentifier: "thrust-red",
     functionalText: `Target sword attack gains +3{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/DVR014.width-450.png",
     images: [{
@@ -46119,7 +46119,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "blade-flash-blue",
+    cardIdentifier: "blade-flash-blue",
     functionalText: `Target sword attack gains **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/DVR023.width-450.png",
     images: [{
@@ -46149,7 +46149,7 @@
     
   },{
     class: Class.Ninja,
-    identifier: "combustion-point-red",
+    cardIdentifier: "combustion-point-red",
     functionalText: `Target Draconic or Ninja attack action card gains +1{p}.  You may banish a non-equipment defending card with {d} less than the number of Draconic chain links you control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR050.png",
     images: [{
@@ -46179,7 +46179,7 @@
     
   },{
     class: Class.NotClassed,
-    identifier: "liquefy-red",
+    cardIdentifier: "liquefy-red",
     functionalText: `**Rupture** - If Liquefy is played at chain link 4 or higher, target attack action card gains “When this hits a hero, put a -1{d} counter on an equipment they control. Then if it has 0{d}, destroy it.”`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR087.png",
     images: [{
@@ -46209,7 +46209,7 @@
     
   },{
     class: Class.Ninja,
-    identifier: "rapid-reflex-red",
+    cardIdentifier: "rapid-reflex-red",
     functionalText: `Target attack action card with cost 0 gains +3{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR162.png",
     images: [{
@@ -46239,7 +46239,7 @@
     
   },{
     class: Class.Ninja,
-    identifier: "rapid-reflex-yellow",
+    cardIdentifier: "rapid-reflex-yellow",
     functionalText: `Target attack action card with cost 0 gains +2{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR163.png",
     images: [{
@@ -46269,7 +46269,7 @@
     
   },{
     class: Class.Ninja,
-    identifier: "rapid-reflex-blue",
+    cardIdentifier: "rapid-reflex-blue",
     functionalText: `Target attack action card with cost 0 gains +1{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR164.png",
     images: [{
@@ -46300,7 +46300,7 @@
   }];
   const defenseReactions: ActionCard[] = [{
     class: Class.Brute,
-    identifier: "reckless-swing-blue",
+    cardIdentifier: "reckless-swing-blue",
     functionalText: `As an additional cost to play Reckless Swing, discard a random card.  If the discarded card has 6 or more {p}, deal 2 damage to the attacking hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR008.png",
     images: [{
@@ -46340,7 +46340,7 @@
     
   },{
     class: Class.Guardian,
-    identifier: "staunch-response-red",
+    cardIdentifier: "staunch-response-red",
     functionalText: `As an additional cost to play Staunch Response you may pay {r}{r}{r}{r}. If you do, Staunch Response gains +3{d}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR051.png",
     images: [{
@@ -46380,7 +46380,7 @@
     
   },{
     class: Class.Guardian,
-    identifier: "staunch-response-yellow",
+    cardIdentifier: "staunch-response-yellow",
     functionalText: `As an additional cost to play Staunch Response you may pay {r}{r}{r}{r}. If you do, Staunch Response gains +3{d}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR052.png",
     images: [{
@@ -46420,7 +46420,7 @@
     
   },{
     class: Class.Guardian,
-    identifier: "staunch-response-blue",
+    cardIdentifier: "staunch-response-blue",
     functionalText: `As an additional cost to play Staunch Response you may pay {r}{r}{r}{r}. If you do, Staunch Response gains +3{d}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR053.png",
     images: [{
@@ -46465,7 +46465,7 @@
     
   },{
     class: Class.Ninja,
-    identifier: "flic-flak-red",
+    cardIdentifier: "flic-flak-red",
     functionalText: `If the next card you defend with this turn is a card with **combo**, it gains +2{d}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR092.png",
     images: [{
@@ -46505,7 +46505,7 @@
     
   },{
     class: Class.Ninja,
-    identifier: "flic-flak-yellow",
+    cardIdentifier: "flic-flak-yellow",
     functionalText: `If the next card you defend with this turn is a card with **combo**, it gains +2{d}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR093.png",
     images: [{
@@ -46545,7 +46545,7 @@
     
   },{
     class: Class.Ninja,
-    identifier: "flic-flak-blue",
+    cardIdentifier: "flic-flak-blue",
     functionalText: `If the next card you defend with this turn is a card with **combo**, it gains +2{d}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR094.png",
     images: [{
@@ -46590,7 +46590,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "steelblade-shunt-red",
+    cardIdentifier: "steelblade-shunt-red",
     functionalText: `If Steelblade Shunt defends a weapon attack, deal 1 damage to the attacking hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR126.png",
     images: [{
@@ -46635,7 +46635,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "steelblade-shunt-yellow",
+    cardIdentifier: "steelblade-shunt-yellow",
     functionalText: `If Steelblade Shunt defends a weapon attack, deal 1 damage to the attacking hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR127.png",
     images: [{
@@ -46675,7 +46675,7 @@
     
   },{
     class: Class.Warrior,
-    identifier: "steelblade-shunt-blue",
+    cardIdentifier: "steelblade-shunt-blue",
     functionalText: `If Steelblade Shunt defends a weapon attack, deal 1 damage to the attacking hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR128.png",
     images: [{
@@ -46715,7 +46715,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "unmovable-red",
+    cardIdentifier: "unmovable-red",
     functionalText: `*(Defense reactions can be played from hand or arsenal to defend. It costs 3 to defend with Unmovable.)*  If Unmovable is played from arsenal, it gains +1{d}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR212.png",
     images: [{
@@ -46755,7 +46755,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "unmovable-yellow",
+    cardIdentifier: "unmovable-yellow",
     functionalText: `*(Defense reactions can be played from hand or arsenal to defend. It costs 3 to defend with Unmovable.)*  If Unmovable is played from arsenal, it gains +1{d}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR213.png",
     images: [{
@@ -46795,7 +46795,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "unmovable-blue",
+    cardIdentifier: "unmovable-blue",
     functionalText: `*(Defense reactions can be played from hand or arsenal to defend. It costs 3 to defend with Unmovable.)*  If Unmovable is played from arsenal, it gains +1{d}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR214.png",
     images: [{
@@ -46835,7 +46835,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "sink-below-red",
+    cardIdentifier: "sink-below-red",
     functionalText: `You may put a card from your hand on the bottom of your deck. If you do, draw a card.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR215.png",
     images: [{
@@ -46875,7 +46875,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "sink-below-yellow",
+    cardIdentifier: "sink-below-yellow",
     functionalText: `You may put a card from your hand on the bottom of your deck. If you do, draw a card.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR216.png",
     images: [{
@@ -46915,7 +46915,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "sink-below-blue",
+    cardIdentifier: "sink-below-blue",
     functionalText: `You may put a card from your hand on the bottom of your deck. If you do, draw a card.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR217.png",
     images: [{
@@ -46955,7 +46955,7 @@
     
   },{
     class: Class.Ranger,
-    identifier: "take-cover-red",
+    cardIdentifier: "take-cover-red",
     functionalText: `**Reload** *(If you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC048.png",
     images: [{
@@ -46995,7 +46995,7 @@
     
   },{
     class: Class.Ranger,
-    identifier: "take-cover-yellow",
+    cardIdentifier: "take-cover-yellow",
     functionalText: `**Reload** *(If you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC049.png",
     images: [{
@@ -47035,7 +47035,7 @@
     
   },{
     class: Class.Ranger,
-    identifier: "take-cover-blue",
+    cardIdentifier: "take-cover-blue",
     functionalText: `**Reload** *(If you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC050.png",
     images: [{
@@ -47075,7 +47075,7 @@
     
   },{
     class: Class.Runeblade,
-    identifier: "reduce-to-runechant-red",
+    cardIdentifier: "reduce-to-runechant-red",
     functionalText: `Reduce to Runechant costs {r} less to play for each Runechant you control.  Create a Runechant token. *(It's an aura with “When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.”)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC088.png",
     images: [{
@@ -47130,7 +47130,7 @@
     
   },{
     class: Class.Runeblade,
-    identifier: "reduce-to-runechant-yellow",
+    cardIdentifier: "reduce-to-runechant-yellow",
     functionalText: `Reduce to Runechant costs {r} less to play for each Runechant you control.  Create a Runechant token. *(It's an aura with “When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.”)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC089.png",
     images: [{
@@ -47180,7 +47180,7 @@
     
   },{
     class: Class.Runeblade,
-    identifier: "reduce-to-runechant-blue",
+    cardIdentifier: "reduce-to-runechant-blue",
     functionalText: `Reduce to Runechant costs {r} less to play for each Runechant you control.  Create a Runechant token. *(It's an aura with “When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.”)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC090.png",
     images: [{
@@ -47230,7 +47230,7 @@
     
   },{
     class: Class.Wizard,
-    identifier: "absorb-in-aether-red",
+    cardIdentifier: "absorb-in-aether-red",
     functionalText: `The next card you play this turn with an effect that deals arcane damage, instead deals that much arcane damage plus 2.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC123.png",
     images: [{
@@ -47265,7 +47265,7 @@
     
   },{
     class: Class.Wizard,
-    identifier: "absorb-in-aether-yellow",
+    cardIdentifier: "absorb-in-aether-yellow",
     functionalText: `The next card you play this turn with an effect that deals arcane damage, instead deals that much arcane damage plus 2.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC124.png",
     images: [{
@@ -47300,7 +47300,7 @@
     
   },{
     class: Class.Wizard,
-    identifier: "absorb-in-aether-blue",
+    cardIdentifier: "absorb-in-aether-blue",
     functionalText: `The next card you play this turn with an effect that deals arcane damage, instead deals that much arcane damage plus 2.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC125.png",
     images: [{
@@ -47335,7 +47335,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "fate-foreseen-red",
+    cardIdentifier: "fate-foreseen-red",
     functionalText: `**Opt 1** *(Look at the top card of your deck. You may put it on the bottom.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC200.png",
     images: [{
@@ -47380,7 +47380,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "fate-foreseen-yellow",
+    cardIdentifier: "fate-foreseen-yellow",
     functionalText: `**Opt 1** *(Look at the top card of your deck. You may put it on the bottom.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC201.png",
     images: [{
@@ -47420,7 +47420,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "fate-foreseen-blue",
+    cardIdentifier: "fate-foreseen-blue",
     functionalText: `**Opt 1** *(Look at the top card of your deck. You may put it on the bottom.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC202.png",
     images: [{
@@ -47460,7 +47460,7 @@
     
   },{
     class: Class.Ranger,
-    identifier: "tripwire-trap-red",
+    cardIdentifier: "tripwire-trap-red",
     functionalText: `*(Traps can only be played from arsenal.)*  Hit effects don't trigger this chain link unless the attacking hero pays {r}. *(The attacking hero chooses whether to pay {r} as Tripwire Trap resolves.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU126.png",
     images: [{
@@ -47500,7 +47500,7 @@
     subType: ActionSubType.Trap,
   },{
     class: Class.Ranger,
-    identifier: "pitfall-trap-yellow",
+    cardIdentifier: "pitfall-trap-yellow",
     functionalText: `*(Traps can only be played from arsenal.)*  Deal 2 damage to the attacking hero unless they pay {r}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU127.png",
     images: [{
@@ -47540,7 +47540,7 @@
     subType: ActionSubType.Trap,
   },{
     class: Class.Ranger,
-    identifier: "rockslide-trap-blue",
+    cardIdentifier: "rockslide-trap-blue",
     functionalText: `*(Traps can only be played from arsenal.)*  Target attack gets -2{p} unless the attacking hero pays {r}. *(The attacking hero chooses whether to pay {r} as Rock Slide Trap resolves.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU128.png",
     images: [{
@@ -47580,7 +47580,7 @@
     subType: ActionSubType.Trap,
   },{
     class: Class.Generic,
-    identifier: "springboard-somersault-yellow",
+    cardIdentifier: "springboard-somersault-yellow",
     functionalText: `If Springboard Somersault is played from arsenal, it gains +2{d}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU187.png",
     images: [{
@@ -47645,7 +47645,7 @@
     
   },{
     class: Class.NotClassed,
-    identifier: "soul-shield-yellow",
+    cardIdentifier: "soul-shield-yellow",
     functionalText: `Put Soul Shield into your hero's soul when the combat chain closes. *(Put this card face up under your hero card.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON063.width-450.png",
     images: [{
@@ -47680,7 +47680,7 @@
     
   },{
     class: Class.NotClassed,
-    identifier: "guardian-of-the-shadowrealm-red",
+    cardIdentifier: "guardian-of-the-shadowrealm-red",
     functionalText: `**Action** - {r}{r}: Return Guardian of the Shadowrealm from your banished zone into your hand. Activate this ability only while Guardian of the Shadowrealm is in your banished zone.  **Blood Debt** *(At the beginning of your end phase, if Guardian of the Shadowrealm is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON192.width-450.png",
     images: [{
@@ -47715,7 +47715,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "rise-above-red",
+    cardIdentifier: "rise-above-red",
     functionalText: `You may put a card from your hand on top of your deck rather than pay Rise Above's {r} cost.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON257.width-450.png",
     images: [{
@@ -47750,7 +47750,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "rise-above-yellow",
+    cardIdentifier: "rise-above-yellow",
     functionalText: `You may put a card from your hand on top of your deck rather than pay Rise Above's {r} cost.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON258.width-450.png",
     images: [{
@@ -47785,7 +47785,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "rise-above-blue",
+    cardIdentifier: "rise-above-blue",
     functionalText: `You may put a card from your hand on top of your deck rather than pay Rise Above's {r} cost.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON259.width-450.png",
     images: [{
@@ -47820,7 +47820,7 @@
     
   },{
     class: Class.Guardian,
-    identifier: "biting-gale-red",
+    cardIdentifier: "biting-gale-red",
     functionalText: `**Ice Fusion** *(As an additional cost to play Biting Gale, you may reveal an Ice card from your hand.)*  If Biting Gale was **fused**, the attacking hero discards a card unless they pay {r}{r}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE007.width-450.png",
     images: [{
@@ -47855,7 +47855,7 @@
     
   },{
     class: Class.Guardian,
-    identifier: "biting-gale-yellow",
+    cardIdentifier: "biting-gale-yellow",
     functionalText: `**Ice Fusion** *(As an additional cost to play Biting Gale, you may reveal an Ice card from your hand.)*  If Biting Gale was **fused**, the attacking hero discards a card unless they pay {r}{r}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE008.width-450.png",
     images: [{
@@ -47895,7 +47895,7 @@
     
   },{
     class: Class.Guardian,
-    identifier: "biting-gale-blue",
+    cardIdentifier: "biting-gale-blue",
     functionalText: `**Ice Fusion** *(As an additional cost to play Biting Gale, you may reveal an Ice card from your hand.)*  If Biting Gale was **fused**, the attacking hero discards a card unless they pay {r}{r}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE009.width-450.png",
     images: [{
@@ -47930,7 +47930,7 @@
     
   },{
     class: Class.Guardian,
-    identifier: "turn-timber-red",
+    cardIdentifier: "turn-timber-red",
     functionalText: `**Earth Fusion** *(As an additional cost to play Turn Timber, you may reveal an Earth card from your hand.)*  If Turn Timber was **fused**, it gains +2{d}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE010.width-450.png",
     images: [{
@@ -47970,7 +47970,7 @@
     
   },{
     class: Class.Guardian,
-    identifier: "turn-timber-yellow",
+    cardIdentifier: "turn-timber-yellow",
     functionalText: `**Earth Fusion** *(As an additional cost to play Turn Timber, you may reveal an Earth card from your hand.)*  If Turn Timber was **fused**, it gains +2{d}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE011.width-450.png",
     images: [{
@@ -48005,7 +48005,7 @@
     
   },{
     class: Class.Guardian,
-    identifier: "turn-timber-blue",
+    cardIdentifier: "turn-timber-blue",
     functionalText: `**Earth Fusion** *(As an additional cost to play Turn Timber, you may reveal an Earth card from your hand.)*  If Turn Timber was **fused**, it gains +2{d}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE012.width-450.png",
     images: [{
@@ -48040,7 +48040,7 @@
     
   },{
     class: Class.NotClassed,
-    identifier: "pulse-of-isenloft-blue",
+    cardIdentifier: "pulse-of-isenloft-blue",
     functionalText: `**Legendary** *(You may only have 1 Pulse of Isenloft in your deck.)*  Earth, Ice, and Elemental action cards have +1{d} while defending this turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE114.width-450.png",
     images: [{
@@ -48075,7 +48075,7 @@
     
   },{
     class: Class.Runeblade,
-    identifier: "sigil-of-suffering-red",
+    cardIdentifier: "sigil-of-suffering-red",
     functionalText: `Deal 1 arcane damage to the attacking hero.  If you have dealt arcane damage this turn, Sigil of Suffering gains +1{d}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE227.width-450.png",
     images: [{
@@ -48110,7 +48110,7 @@
     
   },{
     class: Class.Runeblade,
-    identifier: "sigil-of-suffering-yellow",
+    cardIdentifier: "sigil-of-suffering-yellow",
     functionalText: `Deal 1 arcane damage to the attacking hero.  If you have dealt arcane damage this turn, Sigil of Suffering gains +1{d}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE228.width-450.png",
     images: [{
@@ -48145,7 +48145,7 @@
     
   },{
     class: Class.Runeblade,
-    identifier: "sigil-of-suffering-blue",
+    cardIdentifier: "sigil-of-suffering-blue",
     functionalText: `Deal 1 arcane damage to the attacking hero.  If you have dealt arcane damage this turn, Sigil of Suffering gains +1{d}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE229.width-450.png",
     images: [{
@@ -48180,7 +48180,7 @@
     
   },{
     class: Class.Ninja,
-    identifier: "wax-on-red",
+    cardIdentifier: "wax-on-red",
     functionalText: `While Wax On is defending an attack action card with cost 0, it gains +2{d}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR050.width-450.png",
     images: [{
@@ -48210,7 +48210,7 @@
     
   },{
     class: Class.Ninja,
-    identifier: "wax-on-yellow",
+    cardIdentifier: "wax-on-yellow",
     functionalText: `While Wax On is defending an attack action card with cost 0, it gains +2{d}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR051.width-450.png",
     images: [{
@@ -48240,7 +48240,7 @@
     
   },{
     class: Class.Ninja,
-    identifier: "wax-on-blue",
+    cardIdentifier: "wax-on-blue",
     functionalText: `While Wax On is defending an attack action card with cost 0, it gains +2{d}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR052.width-450.png",
     images: [{
@@ -48270,7 +48270,7 @@
     
   },{
     class: Class.Wizard,
-    identifier: "sigil-of-parapets-blue",
+    cardIdentifier: "sigil-of-parapets-blue",
     functionalText: `While Sigil of Parapets is defending, whenever you play a Wizard card, Sigil of Parapet's gains +2{d}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR122.width-450.png",
     images: [{
@@ -48300,7 +48300,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "toughen-up-blue",
+    cardIdentifier: "toughen-up-blue",
     functionalText: `*(Defense reactions can be played from hand or arsenal to defend. Toughen Up costs 2 to play.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/DVR024.width-450.png",
     images: [{
@@ -48330,7 +48330,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "dodge-blue",
+    cardIdentifier: "dodge-blue",
     functionalText: `*(Defense reactions can be played from hand or arsenal to defend.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/RVD026.width-450.png",
     images: [{
@@ -48360,7 +48360,7 @@
     
   },{
     class: Class.Wizard,
-    identifier: "sigil-of-permafrost-red",
+    cardIdentifier: "sigil-of-permafrost-red",
     functionalText: `**Ice Fusion** *(As an additional cost to play Sigil of Permafrost, you may reveal an Ice card from your hand.)*  If Sigil of Permafrost was **fused**, the next time you deal arcane damage to a hero this turn, create that many Frostbite tokens under their control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR106.png",
     images: [{
@@ -48390,7 +48390,7 @@
     
   },{
     class: Class.Wizard,
-    identifier: "sigil-of-permafrost-yellow",
+    cardIdentifier: "sigil-of-permafrost-yellow",
     functionalText: `**Ice Fusion** *(As an additional cost to play Sigil of Permafrost, you may reveal an Ice card from your hand.)*  If Sigil of Permafrost was **fused**, the next time you deal arcane damage to a hero this turn, create that many Frostbite tokens under their control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR107.png",
     images: [{
@@ -48420,7 +48420,7 @@
     
   },{
     class: Class.Wizard,
-    identifier: "sigil-of-permafrost-blue",
+    cardIdentifier: "sigil-of-permafrost-blue",
     functionalText: `**Ice Fusion** *(As an additional cost to play Sigil of Permafrost, you may reveal an Ice card from your hand.)*  If Sigil of Permafrost was **fused**, the next time you deal arcane damage to a hero this turn, create that many Frostbite tokens under their control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR108.png",
     images: [{
@@ -48450,7 +48450,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "that-all-you-got-yellow",
+    cardIdentifier: "that-all-you-got-yellow",
     functionalText: `While this is defending an attack with 2 or less {p}, when the combat chain closes, draw a card.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR189.png",
     images: [{
@@ -48481,7 +48481,7 @@
   }];
   const instants: ActionCard[] = [{
     class: Class.Generic,
-    identifier: "go-bananas-yellow",
+    cardIdentifier: "go-bananas-yellow",
     functionalText: `Name an action card. Open and reveal a booster pack of Flesh and Blood and put all cards with the chosen name into your hand. If the booster pack does not contain a card with the chosen name, you may repeat this process.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/LSS002-P.width-450.png",
     images: [{
@@ -48511,7 +48511,7 @@
     
   },{
     class: Class.Brute,
-    identifier: "bone-head-barrier-yellow",
+    cardIdentifier: "bone-head-barrier-yellow",
     functionalText: `Roll a 6 sided die. Prevent the next X damage that would be dealt to your hero this turn, where X is the number rolled.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR010.png",
     images: [{
@@ -48546,7 +48546,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "remembrance-yellow",
+    cardIdentifier: "remembrance-yellow",
     functionalText: `Shuffle up to 3 action cards from your graveyard into your deck.  Banish Remembrance.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR163.png",
     images: [{
@@ -48581,7 +48581,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "sigil-of-solace-red",
+    cardIdentifier: "sigil-of-solace-red",
     functionalText: `Gain 3{h}`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR173.png",
     images: [{
@@ -48621,7 +48621,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "sigil-of-solace-yellow",
+    cardIdentifier: "sigil-of-solace-yellow",
     functionalText: `Gain 2{h}`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR174.png",
     images: [{
@@ -48661,7 +48661,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "sigil-of-solace-blue",
+    cardIdentifier: "sigil-of-solace-blue",
     functionalText: `Gain 1{h}`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR175.png",
     images: [{
@@ -48721,7 +48721,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "art-of-war-yellow",
+    cardIdentifier: "art-of-war-yellow",
     functionalText: `Choose 2;  - Attack action cards you control gain +1{p} and +1{d} this turn. - The next attack action card you play this turn gains **go again**. - Until end of turn, you may defend with attack action cards from arsenal. - You may banish an attack action card from your hand. If you do, draw 2 cards.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC160.png",
     images: [{
@@ -48761,7 +48761,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "eirinas-prayer-red",
+    cardIdentifier: "eirinas-prayer-red",
     functionalText: `Reveal the top card of your deck. Prevent the next X arcane damage that would be dealt to your hero this turn, where X is 6 minus the pitch value of the card revealed this way. *(The pitch value is located in the top left corner of the card.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC173.png",
     images: [{
@@ -48806,7 +48806,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "eirinas-prayer-yellow",
+    cardIdentifier: "eirinas-prayer-yellow",
     functionalText: `Reveal the top card of your deck. Prevent the next X arcane damage that would be dealt to your hero this turn, where X is 5 minus the pitch value of the card revealed this way. *(The pitch value is located in the top left corner of the card.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC174.png",
     images: [{
@@ -48851,7 +48851,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "eirinas-prayer-blue",
+    cardIdentifier: "eirinas-prayer-blue",
     functionalText: `Reveal the top card of your deck. Prevent the next X arcane damage that would be dealt to your hero this turn, where X is 4 minus the pitch value of the card revealed this way. *(The pitch value is located in the top left corner of the card.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC175.png",
     images: [{
@@ -48896,7 +48896,7 @@
     
   },{
     class: Class.Guardian,
-    identifier: "blessing-of-serenity-red",
+    cardIdentifier: "blessing-of-serenity-red",
     functionalText: `The next time your hero would be dealt {p} damage this turn, prevent 3 damage that source would deal.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU041.png",
     images: [{
@@ -48931,7 +48931,7 @@
     
   },{
     class: Class.Guardian,
-    identifier: "blessing-of-serenity-yellow",
+    cardIdentifier: "blessing-of-serenity-yellow",
     functionalText: `The next time your hero would be dealt {p} damage this turn, prevent 2 damage that source would deal.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU042.png",
     images: [{
@@ -48966,7 +48966,7 @@
     
   },{
     class: Class.Guardian,
-    identifier: "blessing-of-serenity-blue",
+    cardIdentifier: "blessing-of-serenity-blue",
     functionalText: `The next time your hero would be dealt {p} damage this turn, prevent 1 damage that source would deal.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU043.png",
     images: [{
@@ -49001,7 +49001,7 @@
     
   },{
     class: Class.Ranger,
-    identifier: "feign-death-yellow",
+    cardIdentifier: "feign-death-yellow",
     functionalText: `Play Feign Death only if your hero has been dealt damage this turn.  The next time your hero would be dealt damage this turn, prevent it.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU125.png",
     images: [{
@@ -49041,7 +49041,7 @@
     
   },{
     class: Class.Wizard,
-    identifier: "aetherize-blue",
+    cardIdentifier: "aetherize-blue",
     functionalText: `**Negate** target instant card with cost {r} or less. *(The card does not resolve. Put it into its owner's graveyard.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU164.png",
     images: [{
@@ -49081,7 +49081,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "snag-blue",
+    cardIdentifier: "snag-blue",
     functionalText: `Attack action cards can't gain {p} from their own effects, or the effects of attack reaction cards this turn. *(This only affects {p} that would be gained after Snag has resolved.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU182.png",
     images: [{
@@ -49121,7 +49121,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "reinforce-the-line-red",
+    cardIdentifier: "reinforce-the-line-red",
     functionalText: `Target defending attack action card gains +4{d}`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU189.png",
     images: [{
@@ -49156,7 +49156,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "reinforce-the-line-yellow",
+    cardIdentifier: "reinforce-the-line-yellow",
     functionalText: `Target defending attack action card gains +3{d}`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU190.png",
     images: [{
@@ -49191,7 +49191,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "reinforce-the-line-blue",
+    cardIdentifier: "reinforce-the-line-blue",
     functionalText: `Target defending attack action card gains +2{d}`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU191.png",
     images: [{
@@ -49226,7 +49226,7 @@
     
   },{
     class: Class.Illusionist,
-    identifier: "arc-light-sentinel-yellow",
+    cardIdentifier: "arc-light-sentinel-yellow",
     functionalText: `**Prism Specialization** *(You may only have Arc Light Sentinel in your deck if your hero is Prism.)*  If Arc Light Sentinel is in the arena when an opponent announces an attack, they must choose Arc Light Sentinel as the target of the attack.  **Spectra** *(Arc Light Sentinel can be attacked. When Arc Light Sentinel becomes the target of an attack, destroy it and close the combat chain. The attack does not resolve.)*  `,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON005.width-450.png",
     images: [{
@@ -49261,7 +49261,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Illusionist,
-    identifier: "genesis-yellow",
+    cardIdentifier: "genesis-yellow",
     functionalText: `At the start of your turn, you may put a card from your hand into your hero's soul. If it's an Illusionist card, create a Spectral Shield token. If it's a Light card, draw a card.  **Spectra** *(Genesis can be attacked. When Genesis becomes the target of an attack, destroy it and close the combat chain. The attack does not resolve.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON006.width-450.png",
     images: [{
@@ -49296,7 +49296,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Illusionist,
-    identifier: "parable-of-humility-yellow",
+    cardIdentifier: "parable-of-humility-yellow",
     functionalText: `Attack action cards controlled by an opposing hero have -1{p} while attacking and defending.  **Spectra** *(Parable of Humility can be attacked. When Parable of Humility becomes the target of an attack, destroy it and close the combat chain. The attack does not resolve.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/16984263482378r4623792.width-450.png",
     images: [{
@@ -49336,7 +49336,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Illusionist,
-    identifier: "merciful-retribution-yellow",
+    cardIdentifier: "merciful-retribution-yellow",
     functionalText: `Whenever an aura or attack action card you control is destroyed, deal 1 arcane damage to target hero. If it's a non-token Light card, put it into your hero's soul. *(Put it face up under your hero card.)*  **Spectra** *(Merciful Retribution can be attacked. When Merciful Retribution becomes the target of an attack, destroy it and close the combat chain. The attack does not resolve.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON012.width-450.png",
     images: [{
@@ -49381,7 +49381,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Illusionist,
-    identifier: "ode-to-wrath-yellow",
+    cardIdentifier: "ode-to-wrath-yellow",
     functionalText: `Whenever a source you control deals damage to an opposing hero, they lose 1{h}.  Illusionist attack action cards you control have **go again.** *(If an attack is destroyed, **go again** does not resolve.)*  **Spectra** *(Ode to Wrath can be attacked. When Ode to Wrath becomes the target of an attack, destroy it and close the combat chain. The attack does not resolve.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON013.width-450.png",
     images: [{
@@ -49426,7 +49426,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.NotClassed,
-    identifier: "tome-of-divinity-yellow",
+    cardIdentifier: "tome-of-divinity-yellow",
     functionalText: `Draw 2 cards.  If a card has been put into your hero's soul this turn, instead draw 3 cards.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON065.width-450.png",
     images: [{
@@ -49461,7 +49461,7 @@
     
   },{
     class: Class.NotClassed,
-    identifier: "glisten-red",
+    cardIdentifier: "glisten-red",
     functionalText: `Distribute up to four +1{p} counters among any number of weapons you control.  At the beginning of your end phase, remove all +1{p} counters from weapons you control. *(If a permanent is no longer a weapon during your end phase, +1{p} counters on it are not removed.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON069.width-450.png",
     images: [{
@@ -49496,7 +49496,7 @@
     
   },{
     class: Class.NotClassed,
-    identifier: "glisten-yellow",
+    cardIdentifier: "glisten-yellow",
     functionalText: `Distribute up to three +1{p} counters among any number of weapons you control.  At the beginning of your end phase, remove all +1{p} counters from weapons you control. *(If a permanent is no longer a weapon during your end phase, +1{p} counters on it are not removed.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON070.width-450.png",
     images: [{
@@ -49531,7 +49531,7 @@
     
   },{
     class: Class.NotClassed,
-    identifier: "glisten-blue",
+    cardIdentifier: "glisten-blue",
     functionalText: `Distribute up to two +1{p} counters among any number of weapons you control.  At the beginning of your end phase, remove all +1{p} counters from weapons you control. *(If a permanent is no longer a weapon during your end phase, +1{p} counters on it are not removed.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON071.width-450.png",
     images: [{
@@ -49566,7 +49566,7 @@
     
   },{
     class: Class.NotClassed,
-    identifier: "blinding-beam-red",
+    cardIdentifier: "blinding-beam-red",
     functionalText: `Blinding Beam cost {r} less to play if it targets a Shadow Card.  Target attacking or defending attack action card gets -3{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON084.width-450.png",
     images: [{
@@ -49601,7 +49601,7 @@
     
   },{
     class: Class.NotClassed,
-    identifier: "blinding-beam-yellow",
+    cardIdentifier: "blinding-beam-yellow",
     functionalText: `Blinding Beam cost {r} less to play if it targets a Shadow Card.  Target attacking or defending attack action card gets -2{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON085.width-450.png",
     images: [{
@@ -49636,7 +49636,7 @@
     
   },{
     class: Class.NotClassed,
-    identifier: "blinding-beam-blue",
+    cardIdentifier: "blinding-beam-blue",
     functionalText: `Blinding Beam cost {r} less to play if it targets a Shadow Card.  Target attacking or defending attack action card gets -1{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON086.width-450.png",
     images: [{
@@ -49671,7 +49671,7 @@
     
   },{
     class: Class.NotClassed,
-    identifier: "ray-of-hope-yellow",
+    cardIdentifier: "ray-of-hope-yellow",
     functionalText: `Attacks you control have +1{p} while attacking a Shadow hero this turn.  If you have less {h} than an opposing Shadow hero, put {name} into your hero's soul. *(Put this card face up under your hero card.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON087.width-450.png",
     images: [{
@@ -49711,7 +49711,7 @@
     
   },{
     class: Class.Illusionist,
-    identifier: "prismatic-shield-red",
+    cardIdentifier: "prismatic-shield-red",
     functionalText: `Create 3 Spectral Shield tokens. *(They’re Illusionist auras with "If your hero would be dealt damage, instead destroy Spectral Shield and prevent 1 damage that source would deal.")*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON092.width-450.png",
     images: [{
@@ -49751,7 +49751,7 @@
     
   },{
     class: Class.Illusionist,
-    identifier: "prismatic-shield-yellow",
+    cardIdentifier: "prismatic-shield-yellow",
     functionalText: `Create 2 Spectral Shield tokens. *(They’re Illusionist auras with "If your hero would be dealt damage, instead destroy Spectral Shield and prevent 1 damage that source would deal.")*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON093.width-450.png",
     images: [{
@@ -49786,7 +49786,7 @@
     
   },{
     class: Class.Illusionist,
-    identifier: "prismatic-shield-blue",
+    cardIdentifier: "prismatic-shield-blue",
     functionalText: `Create 1 Spectral Shield tokens. *(It’s an Illusionist aura with "If your hero would be dealt damage, instead destroy Spectral Shield and prevent 1 damage that source would deal.")*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON094.width-450.png",
     images: [{
@@ -49821,7 +49821,7 @@
     
   },{
     class: Class.Runeblade,
-    identifier: "invert-existence-blue",
+    cardIdentifier: "invert-existence-blue",
     functionalText: `You may play Invert Existence from your banished zone.  Banish up to 2 cards in an opposing hero's graveyard. If an attack action card and a 'non-attack' action card are banished this way, deal 2 arcane damage to that hero.  **Blood Debt** *(At the beginning of your end phase, if Invert Existence is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON158.width-450.png",
     images: [{
@@ -49856,7 +49856,7 @@
     
   },{
     class: Class.NotClassed,
-    identifier: "doomsday-blue",
+    cardIdentifier: "doomsday-blue",
     functionalText: `**Legendary Levia Specialization** *(You may only have 1 Doomsday in your deck and only if your hero is Levia.)*  Play Doomsday only if there are 6 or more cards with blood debt in your banished zone.  Create a Blasmophet, the Soul Harvester token.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON189.width-450.png",
     images: [{
@@ -49891,7 +49891,7 @@
     
   },{
     class: Class.NotClassed,
-    identifier: "eclipse-blue",
+    cardIdentifier: "eclipse-blue",
     functionalText: `**Legendary Chane Specialization** *(You may only have 1 Eclipse in your deck and only if your hero is Chane.)*  Play Eclipse only if you have played 6 or more cards with **blood debt** this turn. If you have, you may play Eclipse from your banished zone.  Create an Ursur, the Soul Reaper token.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON190.width-450.png",
     images: [{
@@ -49926,7 +49926,7 @@
     
   },{
     class: Class.NotClassed,
-    identifier: "blood-tribute-red",
+    cardIdentifier: "blood-tribute-red",
     functionalText: `**Opt 3**, then banish the top card of your deck. (Look at the top 3 cards of your deck. You may put them on the top and/or bottom in any order.)`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON215.width-450.png",
     images: [{
@@ -49961,7 +49961,7 @@
     
   },{
     class: Class.NotClassed,
-    identifier: "blood-tribute-yellow",
+    cardIdentifier: "blood-tribute-yellow",
     functionalText: `**Opt 2**, then banish the top card of your deck. (Look at the top 2 cards of your deck. You may put them on the top and/or bottom in any order.)`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON216.width-450.png",
     images: [{
@@ -49996,7 +49996,7 @@
     
   },{
     class: Class.NotClassed,
-    identifier: "blood-tribute-blue",
+    cardIdentifier: "blood-tribute-blue",
     functionalText: `**Opt 1**, then banish the top card of your deck. (Look at the top card of your deck. You may put it on the bottom.)`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON217.width-450.png",
     images: [{
@@ -50036,7 +50036,7 @@
     
   },{
     class: Class.NotClassed,
-    identifier: "eclipse-existence-blue",
+    cardIdentifier: "eclipse-existence-blue",
     functionalText: `Until end of turn, whenever an attack hits a Light hero, you may banish a card from their soul. If they do, they lose 1{h}.  If you have more {h} than an opposing Light hero, you may banish an action card from your graveyard.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON218.width-450.png",
     images: [{
@@ -50076,7 +50076,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "memorial-ground-red",
+    cardIdentifier: "memorial-ground-red",
     functionalText: `Put target attack action card with cost 2 or less from your graveyard on top of your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON303.width-450.png",
     images: [{
@@ -50111,7 +50111,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "memorial-ground-yellow",
+    cardIdentifier: "memorial-ground-yellow",
     functionalText: `Put target attack action card with cost 1 or less from your graveyard on top of your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON304.width-450.png",
     images: [{
@@ -50146,7 +50146,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "memorial-ground-blue",
+    cardIdentifier: "memorial-ground-blue",
     functionalText: `Put target attack action card with cost 0 or less from your graveyard on top of your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON305.width-450.png",
     images: [{
@@ -50181,7 +50181,7 @@
     
   },{
     class: Class.Guardian,
-    identifier: "awakening-blue",
+    cardIdentifier: "awakening-blue",
     functionalText: `**Earth Fusion** *(As an additional cost to play Awakening, you may reveal an Earth card from your hand.)*  If you have less {h} than an opposing hero, create Seismic Surge tokens equal to the difference. If Awakening was **fused**, instead create twice that many Seismic Surge tokens.  Search your deck for a Guardian attack action card with cost less than or equal to the number of Seismic Surge tokens you control, reveal it, put it into your hand, then shuffle your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE006.width-450.png",
     images: [{
@@ -50216,7 +50216,7 @@
     
   },{
     class: Class.NotClassed,
-    identifier: "exposed-to-the-elements-blue",
+    cardIdentifier: "exposed-to-the-elements-blue",
     functionalText: `**Earth and/or Ice Fusion** *(As an additional cost to play Exposed to the Elements, you may reveal an Earth and/or Ice card from your hand.)*  If Exposed to the Elements was **fused** with an Earth card, put a -1{d} counter on target equipment.  If Exposed to the Elements was **fused** with an Ice card, destroy an equipment with 0{d} controlled by target hero unless they pay {r}{r}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE093.width-450.png",
     images: [{
@@ -50251,7 +50251,7 @@
     
   },{
     class: Class.NotClassed,
-    identifier: "pulse-of-volthaven-red",
+    cardIdentifier: "pulse-of-volthaven-red",
     functionalText: `**Legendary** *(You may only have 1 Pulse of Volthaven in your deck.)*  Your next Ice, Lightning, or Elemental attack this turn gains +4{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE112.width-450.png",
     images: [{
@@ -50286,7 +50286,7 @@
     
   },{
     class: Class.NotClassed,
-    identifier: "summerwood-shelter-red",
+    cardIdentifier: "summerwood-shelter-red",
     functionalText: `Target defending Earth or Elemental action card gains +4{d}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE125.width-450.png",
     images: [{
@@ -50321,7 +50321,7 @@
     
   },{
     class: Class.NotClassed,
-    identifier: "summerwood-shelter-yellow",
+    cardIdentifier: "summerwood-shelter-yellow",
     functionalText: `Target defending Earth or Elemental action card gains +3{d}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE126.width-450.png",
     images: [{
@@ -50361,7 +50361,7 @@
     
   },{
     class: Class.NotClassed,
-    identifier: "summerwood-shelter-blue",
+    cardIdentifier: "summerwood-shelter-blue",
     functionalText: `Target defending Earth or Elemental action card gains +2{d}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE127.width-450.png",
     images: [{
@@ -50396,7 +50396,7 @@
     
   },{
     class: Class.NotClassed,
-    identifier: "blizzard-blue",
+    cardIdentifier: "blizzard-blue",
     functionalText: `Target attack loses and can't gain **go again** unless the attacking hero pays {r}{r}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE147.width-450.png",
     images: [{
@@ -50431,7 +50431,7 @@
     
   },{
     class: Class.NotClassed,
-    identifier: "blink-blue",
+    cardIdentifier: "blink-blue",
     functionalText: `Gain 1 action point. *(You can only gain action points during your action phase.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE176.width-450.png",
     images: [{
@@ -50466,7 +50466,7 @@
     
   },{
     class: Class.NotClassed,
-    identifier: "lightning-press-red",
+    cardIdentifier: "lightning-press-red",
     functionalText: `Target attack action card with cost 1 or less gains +3{p}`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE183.width-450.png",
     images: [{
@@ -50506,7 +50506,7 @@
     
   },{
     class: Class.NotClassed,
-    identifier: "lightning-press-yellow",
+    cardIdentifier: "lightning-press-yellow",
     functionalText: `Target attack action card with cost 1 or less gains +2{p}`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE184.width-450.png",
     images: [{
@@ -50541,7 +50541,7 @@
     
   },{
     class: Class.NotClassed,
-    identifier: "lightning-press-blue",
+    cardIdentifier: "lightning-press-blue",
     functionalText: `Target attack action card with cost 1 or less gains +1{p}`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE185.width-450.png",
     images: [{
@@ -50576,7 +50576,7 @@
     
   },{
     class: Class.Guardian,
-    identifier: "steadfast-red",
+    cardIdentifier: "steadfast-red",
     functionalText: `Prevent the next 6 damage that would be dealt to your hero this turn by a source of your choice.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR033.width-450.png",
     images: [{
@@ -50606,7 +50606,7 @@
     
   },{
     class: Class.Guardian,
-    identifier: "steadfast-yellow",
+    cardIdentifier: "steadfast-yellow",
     functionalText: `Prevent the next 5 damage that would be dealt to your hero this turn by a source of your choice.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR034.width-450.png",
     images: [{
@@ -50636,7 +50636,7 @@
     
   },{
     class: Class.Guardian,
-    identifier: "steadfast-blue",
+    cardIdentifier: "steadfast-blue",
     functionalText: `Prevent the next 4 damage that would be dealt to your hero this turn by a source of your choice.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR035.width-450.png",
     images: [{
@@ -50666,7 +50666,7 @@
     
   },{
     class: Class.Ranger,
-    identifier: "rain-razors-yellow",
+    cardIdentifier: "rain-razors-yellow",
     functionalText: `Arrows have +2{p} while attacking this turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR090.width-450.png",
     images: [{
@@ -50696,7 +50696,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "even-bigger-than-that!-red",
+    cardIdentifier: "even-bigger-than-that!-red",
     functionalText: `Play Even Bigger Than That! only if you've dealt {p} this turn.  **Opt 3**, then reveal the top card of your deck. If it has {p} greater than the amount of damage you've dealt this turn, create a Quicken token and draw a card. *(Look at the top 3 cards of your deck. You may put them on the top and/or bottom in any order.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR173.width-450.png",
     images: [{
@@ -50731,7 +50731,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "even-bigger-than-that!-yellow",
+    cardIdentifier: "even-bigger-than-that!-yellow",
     functionalText: `Play Even Bigger Than That! only if you've dealt {p} this turn.  **Opt 2**, then reveal the top card of your deck. If it has {p} greater than the amount of damage you've dealt this turn, create a Quicken token and draw a card. *(Look at the top 2 cards of your deck. You may put them on the top and/or bottom in any order.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR174.width-450.png",
     images: [{
@@ -50766,7 +50766,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "even-bigger-than-that!-blue",
+    cardIdentifier: "even-bigger-than-that!-blue",
     functionalText: `Play Even Bigger Than That! only if you've dealt {p} this turn.  **Opt 1**, then reveal the top card of your deck. If it has {p} greater than the amount of damage you've dealt this turn, create a Quicken token and draw a card. *(Look at the top card of your deck. You may put it on the bottom.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR175.width-450.png",
     images: [{
@@ -50801,7 +50801,7 @@
     
   },{
     class: Class.Illusionist,
-    identifier: "sand-cover-red",
+    cardIdentifier: "sand-cover-red",
     functionalText: `Target ash you control gains **Ward 4** until end of turn. *(If your hero would be dealt damage, prevent 4 of that damage and destroy this.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR039.png",
     images: [{
@@ -50831,7 +50831,7 @@
     
   },{
     class: Class.Illusionist,
-    identifier: "sand-cover-yellow",
+    cardIdentifier: "sand-cover-yellow",
     functionalText: `Target ash you control gains **Ward 3** until end of turn. *(If your hero would be dealt damage, prevent 4 of that damage and destroy this.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR040.png",
     images: [{
@@ -50861,7 +50861,7 @@
     
   },{
     class: Class.Illusionist,
-    identifier: "sand-cover-blue",
+    cardIdentifier: "sand-cover-blue",
     functionalText: `Target ash you control gains **Ward 2** until end of turn. *(If your hero would be dealt damage, prevent 4 of that damage and destroy this.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR041.png",
     images: [{
@@ -50891,7 +50891,7 @@
     
   },{
     class: Class.NotClassed,
-    identifier: "tome-of-firebrand-red",
+    cardIdentifier: "tome-of-firebrand-red",
     functionalText: `Play Tome of Firebrand only if you control 4 or more Draconic chain links.  Draw 2 cards.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR089.png",
     images: [{
@@ -50921,7 +50921,7 @@
     
   },{
     class: Class.Illusionist,
-    identifier: "semblance-blue",
+    cardIdentifier: "semblance-blue",
     functionalText: `Negate all **phantasm** triggered effects of target Illusionist attack you control. The attack loses and can’t gain **phantasm**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR154.png",
     images: [{
@@ -50951,7 +50951,7 @@
     
   },{
     class: Class.Wizard,
-    identifier: "rewind-blue",
+    cardIdentifier: "rewind-blue",
     functionalText: `**Negate** target ‘non-attack’ action card and return it to its owner’s hand. Then that hero gains 1 action point. *(A hero can only gain action points during their action phase.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR169.png",
     images: [{
@@ -50986,7 +50986,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "oasis-respite-red",
+    cardIdentifier: "oasis-respite-red",
     functionalText: `Prevent the next 4 damage that would be dealt to target hero this turn by a source of your choice. If they have less life than each other hero, they may gain 1{h}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR221.png",
     images: [{
@@ -51016,7 +51016,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "oasis-respite-yellow",
+    cardIdentifier: "oasis-respite-yellow",
     functionalText: `Prevent the next 3 damage that would be dealt to target hero this turn by a source of your choice. If they have less life than each other hero, they may gain 1{h}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR222.png",
     images: [{
@@ -51046,7 +51046,7 @@
     
   },{
     class: Class.Generic,
-    identifier: "oasis-respite-blue",
+    cardIdentifier: "oasis-respite-blue",
     functionalText: `Prevent the next 2 damage that would be dealt to target hero this turn by a source of your choice. If they have less life than each other hero, they may gain 1{h}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR223.png",
     images: [{
@@ -51077,7 +51077,7 @@
   }];
   const equipment: EquipmentCard[] = [{
     class: Class.Generic,
-    identifier: "spell-fray-cloak",
+    cardIdentifier: "spell-fray-cloak",
     functionalText: `**Spellvoid 1** *(If your hero would be dealt arcane damage, you may destroy Spell Fray Chest instead. If you do, prevent 1 arcane damage that source would deal.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/BOL006.width-450.png",
     images: [{
@@ -51105,7 +51105,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Generic,
-    identifier: "spell-fray-gloves",
+    cardIdentifier: "spell-fray-gloves",
     functionalText: `**Spellvoid 1** *(If your hero would be dealt arcane damage, you may destroy Spell Fray Gloves instead. If you do, prevent 1 arcane damage that source would deal.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/CHN006.width-450.png",
     images: [{
@@ -51128,7 +51128,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Generic,
-    identifier: "spell-fray-leggings",
+    cardIdentifier: "spell-fray-leggings",
     functionalText: `**Spellvoid 1** *(If your hero would be dealt arcane damage, you may destroy Spell Fray Leggings instead. If you do, prevent 1 arcane damage that source would deal.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/PSM007.width-450.png",
     images: [{
@@ -51151,7 +51151,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Brute,
-    identifier: "scabskin-leathers",
+    cardIdentifier: "scabskin-leathers",
     functionalText: `**Once per turn Action** - 0: Roll a 6 sided die. Gain action points equal to half the number rolled, rounded down.  **Battleworn** *(If you defend with Scabskin Leathers, put a -1{d} counter on it when the combat chain closes.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR004.png",
     images: [{
@@ -51189,7 +51189,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Brute,
-    identifier: "barkbone-strapping",
+    cardIdentifier: "barkbone-strapping",
     functionalText: `**Instant** - Destroy Barkbone Strapping: Roll a 6 die. Gain {r} equal to half the number rolled, rounded down.  **Battleworn** *(If you defend with Barkbone Strapping, put a -1{d} counter on it when the combat chain closes.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR005.png",
     images: [{
@@ -51227,7 +51227,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Guardian,
-    identifier: "tectonic-plating",
+    cardIdentifier: "tectonic-plating",
     functionalText: `**Once per turn Action** - {r}: Create a Seismic Surge aura token. **Go again**  **Battleworn** *(If you defend with Tectonic Plating, put a -1{d} counter on it when the combat chain closes.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR041.png",
     images: [{
@@ -51265,7 +51265,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Guardian,
-    identifier: "helm-of-isens-peak",
+    cardIdentifier: "helm-of-isens-peak",
     functionalText: `**Action** - {r}, destroy Helm of Isen Peak: Your hero gains +1{i} until end of turn.  **Battleworn** *(If you defend with Helm of Isen’s Peak, put a -1{d} counter on it when the combat chain closes.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR042.png",
     images: [{
@@ -51308,7 +51308,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Ninja,
-    identifier: "mask-of-momentum",
+    cardIdentifier: "mask-of-momentum",
     functionalText: `**Once per Turn Effect** - When an attack action card you control is the third or higher chain link in a row to hit, draw a card.  **Blade Break** *(If you defend with Mask of Momentum, destroy it when the combat chain closes.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR079.png",
     images: [{
@@ -51346,7 +51346,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Ninja,
-    identifier: "breaking-scales",
+    cardIdentifier: "breaking-scales",
     functionalText: `**Attack Reaction** - Destroy Breaking Scales: Target attack action card with **combo** gains +1{p}.  **Battleworn** *(If you defend with Breaking Scales, put a -1{d} counter on it when the combat chain closes.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR080.png",
     images: [{
@@ -51384,7 +51384,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Warrior,
-    identifier: "braveforge-bracers",
+    cardIdentifier: "braveforge-bracers",
     functionalText: `**Once per turn Action** - {r}: Your next weapon attack this turn gains +1{p}. Activate this ability only if a weapon you control has hit this turn. **Go again**  **Battleworn** *(If you defend with Braveforge Bracers, put a -1{d} counter on it when the combat chain closes.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR116.png",
     images: [{
@@ -51422,7 +51422,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Warrior,
-    identifier: "refraction-bolters",
+    cardIdentifier: "refraction-bolters",
     functionalText: `When a weapon you control hits, you may destroy Refraction Bolters. If you do, the attack gains **go again**.  **Battleworn** (If you defend with Refraction Bolters, put a -1{d} counter on it when the combat chain closes.)`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR117.png",
     images: [{
@@ -51460,7 +51460,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Generic,
-    identifier: "fyendals-spring-tunic",
+    cardIdentifier: "fyendals-spring-tunic",
     functionalText: `At the start of your turn, if Fyendal’s Spring Tunic has less than 3 energy counters, you may put an energy counter on it.  **Instant** - Remove 3 energy counters from Fyendal’s Spring Tunic: Gain {r}  **Blade Break** *(If your defend with Fyendal’s Spring Tunic, destroy it when the combat chain closes.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU178.png",
     images: [{
@@ -51513,7 +51513,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Generic,
-    identifier: "hope-merchants-hood",
+    cardIdentifier: "hope-merchants-hood",
     functionalText: `**Instant** - Destroy Hope Merchant’s Hood: Shuffle any number of cards from your hand into your deck, then draw that many cards.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR151.png",
     images: [{
@@ -51551,7 +51551,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Generic,
-    identifier: "heartened-cross-strap",
+    cardIdentifier: "heartened-cross-strap",
     functionalText: `**Action** - Destroy Heartened Cross Strap: The next attack action card you play this turn costs {r}{r} less to play. **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR152.png",
     images: [{
@@ -51604,7 +51604,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Generic,
-    identifier: "goliath-gauntlet",
+    cardIdentifier: "goliath-gauntlet",
     functionalText: `**Action** - Destroy Goliath Gauntlet: The next attack action card with cost 2 or greater you play this turn gains +2{p}. **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR153.png",
     images: [{
@@ -51657,7 +51657,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Generic,
-    identifier: "snapdragon-scalers",
+    cardIdentifier: "snapdragon-scalers",
     functionalText: `**Attack Reaction** - Destroy Snapdragon Scalers: Target attack action card with cost 1 or less gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR154.png",
     images: [{
@@ -51710,7 +51710,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Generic,
-    identifier: "ironrot-helm",
+    cardIdentifier: "ironrot-helm",
     functionalText: `**Blade Break** *(If your defend with Ironrot Helm, destroy it when the combat chain closes.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR155.png",
     images: [{
@@ -51763,7 +51763,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Generic,
-    identifier: "ironrot-plate",
+    cardIdentifier: "ironrot-plate",
     functionalText: `**Blade Break** *(If your defend with Ironrot Plate, destroy it when the combat chain closes.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR156.png",
     images: [{
@@ -51811,7 +51811,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Generic,
-    identifier: "ironrot-gauntlet",
+    cardIdentifier: "ironrot-gauntlet",
     functionalText: `**Blade Break** *(If your defend with Ironrot Gauntlet, destroy it when the combat chain closes.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR157.png",
     images: [{
@@ -51864,7 +51864,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Generic,
-    identifier: "ironrot-legs",
+    cardIdentifier: "ironrot-legs",
     functionalText: `**Blade Break** *(If your defend with Ironrot Legs, destroy it when the combat chain closes.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR158.png",
     images: [{
@@ -51922,7 +51922,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Mechanologist,
-    identifier: "teklo-foundry-heart",
+    cardIdentifier: "teklo-foundry-heart",
     functionalText: `**Once per Turn Action** - {r}: Banish the top 2 cards of your deck. Gain {r} for each Mechanologist card banished this way. Activate this ability only if you have **boosted** this turn. **Go again**  **Battleworn** *(If you defend with Teklo Foundry Heart, put a -1 {d} counter on it when the combat chain closes.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC004.png",
     images: [{
@@ -51960,7 +51960,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Mechanologist,
-    identifier: "achilles-accelerator",
+    cardIdentifier: "achilles-accelerator",
     functionalText: `**Instant** - Destroy Achilles Accelerator: Gain 1 action point. Activate this ability only if you have **boosted** this turn.  **Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} instead. If you do, prevent 1 arcane damage that source would deal.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC005.png",
     images: [{
@@ -51993,7 +51993,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Ranger,
-    identifier: "skullbone-crosswrap",
+    cardIdentifier: "skullbone-crosswrap",
     functionalText: `**Once per Turn Action** - Turn a face down card in your arsenal face up: **Opt 1**. **Go again**  **Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} instead. If you do, prevent 1 arcane damage that source would deal.)*  **Blade Break** *(If you defend with Skullbone Crosswrap, destroy it when the combat chain closes.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC041.png",
     images: [{
@@ -52031,7 +52031,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Ranger,
-    identifier: "bulls-eye-bracers",
+    cardIdentifier: "bulls-eye-bracers",
     functionalText: `**Action** - Destroy Bull's Eye Bracers: If you have no cards in your arsenal, you may put an arrow card from your hand face up into your arsenal. It gains +1{p} until end of turn. **Go again**  **Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} instead. If you do, prevent 1 arcane damage that source would deal.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC042.png",
     images: [{
@@ -52064,7 +52064,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Runeblade,
-    identifier: "grasp-of-the-arknight",
+    cardIdentifier: "grasp-of-the-arknight",
     functionalText: `**Once per Turn Action** - {r}{r}: Create a Runechant token. This ability costs an additional {r} to activate for each Runechant you control. **Go again**  **Battleworn** *(If you defend with Grasp of the Arknight, put a -1 {d} counter on it when the combat chain closes.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC078.png",
     images: [{
@@ -52102,7 +52102,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Runeblade,
-    identifier: "crown-of-dichotomy",
+    cardIdentifier: "crown-of-dichotomy",
     functionalText: `**Action** - {r}, destroy Crown of Dichotomy: Put target Runeblade attack action card and target Runeblade 'non-attack' action card from your graveyard on top of your deck in any order.  **Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} instead. If you do, prevent 1 arcane damage that source would deal.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC079.png",
     images: [{
@@ -52135,7 +52135,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Wizard,
-    identifier: "storm-striders",
+    cardIdentifier: "storm-striders",
     functionalText: `**Instant** - {r}, destroy Storm Striders: You may play your next Wizard 'non-attack' action card this turn as though it were an instant.  **Arcane Barrier 2** *(If your hero would be dealt arcane damage, you may pay {r}{r} instead. If you do, prevent 2 arcane damage that source would deal.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC116.png",
     images: [{
@@ -52173,7 +52173,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Wizard,
-    identifier: "robe-of-rapture",
+    cardIdentifier: "robe-of-rapture",
     functionalText: `**Action** - Destroy Robe of Rapture: Gain {r}{r}{r}.  **Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} instead. If you do, prevent 1 arcane damage that source would deal.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC117.png",
     images: [{
@@ -52206,7 +52206,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Generic,
-    identifier: "arcanite-skullcap",
+    cardIdentifier: "arcanite-skullcap",
     functionalText: `If you have less {h} than your opponent, Arcanite Skullcap gains +1{d} and **Arcane Barrier 3**. *(If your hero would be dealt arcane damage, you may pay {r}{r}{r} instead. If you do, prevent 3 arcane damage that source would deal.)*  **Battleworn** *(If you defend with Arcanite Skullcap, put a -1{d} counter on it when the combat chain closes.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC150.png",
     images: [{
@@ -52244,7 +52244,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Generic,
-    identifier: "talismanic-lens",
+    cardIdentifier: "talismanic-lens",
     functionalText: `**Instant** - Destroy Talismanic Lens: **Opt 2** *(Look at the top 2 cards of your deck. You may put them on the top and/or bottom in any order.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC151.png",
     images: [{
@@ -52287,7 +52287,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Generic,
-    identifier: "vest-of-the-first-fist",
+    cardIdentifier: "vest-of-the-first-fist",
     functionalText: `When an attack action card you control hits, you may destroy Vest of the First Fist. If you do, gain {r}{r}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC152.png",
     images: [{
@@ -52320,7 +52320,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Generic,
-    identifier: "bracers-of-belief",
+    cardIdentifier: "bracers-of-belief",
     functionalText: `**Action** - Destroy Bracers of Belief: Reveal the top card of your deck. If you do, the next attack action card you play this turn, gains +X{p}, where X is 3 minus the pitch value of the card revealed this way. **Go again** *(The pitch value is located in the top left corner of the card.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC153.png",
     images: [{
@@ -52358,7 +52358,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Generic,
-    identifier: "mage-master-boots",
+    cardIdentifier: "mage-master-boots",
     functionalText: `**Action** - {r}, destroy Mage Master Boots: The next 'non-attack' action card you play this turn gains **go again**. **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC154.png",
     images: [{
@@ -52396,7 +52396,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Generic,
-    identifier: "nullrune-hood",
+    cardIdentifier: "nullrune-hood",
     functionalText: `**Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} instead. If you do, prevent 1 arcane damage that source would deal.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC155.png",
     images: [{
@@ -52434,7 +52434,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Generic,
-    identifier: "nullrune-robe",
+    cardIdentifier: "nullrune-robe",
     functionalText: `**Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} instead. If you do, prevent 1 arcane damage that source would deal.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC156.png",
     images: [{
@@ -52472,7 +52472,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Generic,
-    identifier: "nullrune-gloves",
+    cardIdentifier: "nullrune-gloves",
     functionalText: `**Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} instead. If you do, prevent 1 arcane damage that source would deal.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC157.png",
     images: [{
@@ -52510,7 +52510,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Generic,
-    identifier: "nullrune-boots",
+    cardIdentifier: "nullrune-boots",
     functionalText: `**Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} instead. If you do, prevent 1 arcane damage that source would deal.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC158.png",
     images: [{
@@ -52548,7 +52548,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Brute,
-    identifier: "skullhorn",
+    cardIdentifier: "skullhorn",
     functionalText: `**Action** - Destroy Skullhorn: Draw a card then discard a random card. **Go again**  **Arcane Barrier 2** *(If your hero would be dealt arcane damage, you may pay {r}{r} instead. If you do, prevent 2 arcane damage that source would deal.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU006.png",
     images: [{
@@ -52581,7 +52581,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Guardian,
-    identifier: "crater-fist",
+    cardIdentifier: "crater-fist",
     functionalText: `**Action** - {r}{r}{r}, destroy Crater Fist: Your attacks with **crush** gain +2{p} this turn. **Go again**  **Temper** *(If you defend with Crater Fist, put a -1{d} counter on it when the combat chain closes then destroy it if it has 0{d}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU025.png",
     images: [{
@@ -52614,7 +52614,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Ninja,
-    identifier: "breeze-rider-boots",
+    cardIdentifier: "breeze-rider-boots",
     functionalText: `When a Ninja attack action card you control hits, you may destroy Breeze Rider Boots. If you do, attack action cards with **combo** gain **go again** this turn.  **Battleworn** *(If you defend with Breeze Rider Boots, put a -1{d} counter on it when the combat chain closes.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU053.png",
     images: [{
@@ -52647,7 +52647,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Warrior,
-    identifier: "courage-of-bladehold",
+    cardIdentifier: "courage-of-bladehold",
     functionalText: `**Action** - Destroy Courage of Bladehold: Your sword attacks cost {r} less this turn. **Go again**  **Temper** *(If you defend with Courage of Bladehold, put a -1{d} counter on it when the combat chain closes then destroy it if it has 0{d}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU081.png",
     images: [{
@@ -52685,7 +52685,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Mechanologist,
-    identifier: "viziertronic-model-i",
+    cardIdentifier: "viziertronic-model-i",
     functionalText: `**Action** - destroy Vizertronic Model i: Whenever you **boost** this turn, draw a card then put a card from your hand on top of your deck. **Go again**  **Arcane Barrier 2** *(If your hero would be dealt arcane damage, you may pay {r}{r} instead. If you do, prevent 2 arcane damage that source would deal.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU102.png",
     images: [{
@@ -52718,7 +52718,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Ranger,
-    identifier: "perch-grapplers",
+    cardIdentifier: "perch-grapplers",
     functionalText: `**Action** - {r}{r}, destroy Perch Grapplers: Until end of turn, face up arrow cards played from arsenal gain **go again**. **Go again**  **Blade Break** *(If you defend with Perch Grapplers, destroy it when the combat chain closes.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU122.png",
     images: [{
@@ -52751,7 +52751,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Runeblade,
-    identifier: "bloodsheath-skeleta",
+    cardIdentifier: "bloodsheath-skeleta",
     functionalText: `**Instant** - Destroy Bloodsheath Skeleta: The next attack action card and 'non-attack' action card you play this turn gain "This card costs {r} less to play for each Runechant you control."  **Temper** *(If you defend with Bloodsheath Skeleta, put a -1{d} counter on it when the combat chain closes then destroy it if it has 0{d}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU141.png",
     images: [{
@@ -52784,7 +52784,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Wizard,
-    identifier: "metacarpus-node",
+    cardIdentifier: "metacarpus-node",
     functionalText: `Whenever you play a card with an effect that deals arcane damage, you may pay {r}. If you do, that effect deals that much arcane damage plus 1 and at the beginning of the end phase, destroy Metacarpus Node.  **Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} instead. If you do, prevent 1 arcane damage that source would deal.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU161.png",
     images: [{
@@ -52817,7 +52817,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Generic,
-    identifier: "gamblers-gloves",
+    cardIdentifier: "gamblers-gloves",
     functionalText: `If an effect would resolve that includes rolling a 6 sided die, instead you may destroy Gambler’s Gloves. If you do, the controller of the effect rerolls all 6 sided dice rolled this way. *(You decide whether to use Gambler’s Glove after seeing the result of the die roll.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU179.png",
     images: [{
@@ -52855,7 +52855,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.NotClassed,
-    identifier: "vestige-of-sol",
+    cardIdentifier: "vestige-of-sol",
     functionalText: `Whenever you pitch a Light card, if a card has been put into your hero’s soul this turn, gain {r}.  **Blade Break** *(If you defend with Vestige of Sol, destroy it when the combat chain closes.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON060.width-450.png",
     images: [{
@@ -52888,7 +52888,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.NotClassed,
-    identifier: "halo-of-illumination",
+    cardIdentifier: "halo-of-illumination",
     functionalText: `**Instant** - {r}, destroy Halo of Illumination: Put a card from your hand into your hero's soul. If it's a Light card, draw a card. *(Put the card face up under your hero card.)*  **Spellvoid 2** *(If your hero would be dealt arcane damage, you may destroy Halo of Illumination instead. If you do, prevent 2 arcane damage that source would deal.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON061.width-450.png",
     images: [{
@@ -52926,7 +52926,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Illusionist,
-    identifier: "phantasmal-footsteps",
+    cardIdentifier: "phantasmal-footsteps",
     functionalText: `The first time an Illusionist attack action card you control is destroyed each turn, you may pay {r}. If you do, gain 1 action point.  Whenever you defend with Phantasmal Footsteps, you may pay {r}. If you do, its {d} becomes 1 until end of turn.  If Phantasmal Footsteps defends a non-Illusionist attack with 6 or more {p}, destroy it when the combat chain closes.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON089.width-450.png",
     images: [{
@@ -52959,7 +52959,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Illusionist,
-    identifier: "dream-weavers",
+    cardIdentifier: "dream-weavers",
     functionalText: `**Action** - Destroy Dream Weavers: The next Illusionist attack action card you play this turn loses and can't gain **phantasm**. **Go again**  **Spellvoid 1** *(If your hero would be dealt arcane damage, you may destroy Dream Weaver instead. If you do, prevent 1 arcane damage that source would deal.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON090.width-450.png",
     images: [{
@@ -52992,7 +52992,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Warrior,
-    identifier: "valiant-dynamo",
+    cardIdentifier: "valiant-dynamo",
     functionalText: `At the beginning of your end phase, if you have attacked 2 or more times with weapons this turn, you may remove a -1{d} counter from Valiant Dynamo.  **Battleworn** *(If you defend with Valiant Dynamo, put a -1{d} counter on it when the combat chain closes.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON107.width-450.png",
     images: [{
@@ -53025,7 +53025,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Warrior,
-    identifier: "gallantry-gold",
+    cardIdentifier: "gallantry-gold",
     functionalText: `**Action** - {r}, destroy Gallantry Gold: Your weapon attacks gain +1{p} this turn. **Go again**  **Battleworn** *(If you defend with Gallantry Gold, put a -1{d} counter on it when the combat chain closes.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON108.width-450.png",
     images: [{
@@ -53063,7 +53063,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Brute,
-    identifier: "hooves-of-the-shadowbeast",
+    cardIdentifier: "hooves-of-the-shadowbeast",
     functionalText: `Whenever a card with 6 or more {p} is put into your banished zone, you may destroy Hooves of the Shadowbeast. If you do, gain 1 action point. *(When an equipment is destroyed, it's put into the graveyard.)*  **Battleworn** *(If you defend with Hooves of the Shadowbeast, put a -1{d} counter on it when the combat chain closes.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON122.width-450.png",
     images: [{
@@ -53096,7 +53096,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.NotClassed,
-    identifier: "carrion-husk",
+    cardIdentifier: "carrion-husk",
     functionalText: `If you defend with Carrion Husk, banish it when the combat chain closes.  At the start of your turn, if you have 13 or less {h}, banish Carrion Husk.  **Blood Debt** *(At the beginning of your end phase, if Carrion Husk is in your banished zone, lose 1{h}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON187.width-450.png",
     images: [{
@@ -53129,7 +53129,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.NotClassed,
-    identifier: "ebon-fold",
+    cardIdentifier: "ebon-fold",
     functionalText: `**Instant** - {r}, destroy Ebon Fold: Banish a card from your hand. If it's a Shadow card, draw a card.  **Spellvoid 2** *(If your hero would be dealt arcane damage, you may destroy Ebon Fold instead. If you do, prevent 2 arcane damage that source would deal.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON188.width-450.png",
     images: [{
@@ -53172,7 +53172,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Runeblade,
-    identifier: "aether-ironweave",
+    cardIdentifier: "aether-ironweave",
     functionalText: `**Action** - Destroy Aether Ironweave: Gain {r}{r}. Activate this ability only if you have played an attack action card and a 'non-attack' action card this turn. **Go again**  **Battleworn** *(If you defend with Aether Ironweave, put a -1{d} counter on it when the combat chain closes.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON230.width-450.png",
     images: [{
@@ -53205,7 +53205,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Generic,
-    identifier: "blood-drop-brocade",
+    cardIdentifier: "blood-drop-brocade",
     functionalText: `**Instant** - Destroy Blood Drop Brocade: Gain {r}. Activate this ability only if you have dealt or been dealt {p} damage this turn. *(When an equipment is destroyed, it's put into the graveyard.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON238.width-450.png",
     images: [{
@@ -53233,7 +53233,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Generic,
-    identifier: "stubby-hammerers",
+    cardIdentifier: "stubby-hammerers",
     functionalText: `**Action** - Destroy Stubby Hammerers: Attack action cards with 3 or less base power gain +1{p} while attacking this turn. **Go again** *(When an equipment is destroyed, it's put into the graveyard.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON239.width-450.png",
     images: [{
@@ -53261,7 +53261,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Generic,
-    identifier: "time-skippers",
+    cardIdentifier: "time-skippers",
     functionalText: `**Action** - {r}{r}{r}, destroy Time Skippers: Gain 2 action points. *(When an equipment is destroyed, it's put into the graveyard.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON240.width-450.png",
     images: [{
@@ -53289,7 +53289,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Generic,
-    identifier: "ironhide-helm",
+    cardIdentifier: "ironhide-helm",
     functionalText: `When you defend with Ironhide Helm, you may pay {r}. If you do, it gains +2{d} and destroy it when the combat chain closes. *(When an equipment is destroyed, it's put into the graveyard.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON241.width-450.png",
     images: [{
@@ -53317,7 +53317,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Generic,
-    identifier: "ironhide-plate",
+    cardIdentifier: "ironhide-plate",
     functionalText: `When you defend with Ironhide Plate, you may pay {r}. If you do, it gains +2{d} and destroy it when the combat chain closes. *(When an equipment is destroyed, it's put into the graveyard.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON242.width-450.png",
     images: [{
@@ -53345,7 +53345,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Generic,
-    identifier: "ironhide-gauntlet",
+    cardIdentifier: "ironhide-gauntlet",
     functionalText: `When you defend with Ironhide Gauntlet, you may pay {r}. If you do, it gains +2{d} and destroy it when the combat chain closes. *(When an equipment is destroyed, it's put into the graveyard.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON243.width-450.png",
     images: [{
@@ -53378,7 +53378,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Generic,
-    identifier: "ironhide-legs",
+    cardIdentifier: "ironhide-legs",
     functionalText: `When you defend with Ironhide Legs, you may pay {r}. If you do, it gains +2{d} and destroy it when the combat chain closes. *(When an equipment is destroyed, it's put into the graveyard.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON244.width-450.png",
     images: [{
@@ -53416,7 +53416,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.NotClassed,
-    identifier: "crown-of-seeds",
+    cardIdentifier: "crown-of-seeds",
     functionalText: `**Once per Turn Instant** - {r}, put a face down card from your arsenal on the bottom of your deck: Draw a card and prevent the next 1 damage that would be dealt to your hero this turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE115.width-450.png",
     images: [{
@@ -53449,7 +53449,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.NotClassed,
-    identifier: "plume-of-evergrowth",
+    cardIdentifier: "plume-of-evergrowth",
     functionalText: `**Instant** - {r}{r}{r}, destroy Plume of Evergrowth: Return target Earth action card or Earth instant card from your graveyard to your hand.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE116.width-450.png",
     images: [{
@@ -53482,7 +53482,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.NotClassed,
-    identifier: "heart-of-ice",
+    cardIdentifier: "heart-of-ice",
     functionalText: `**Once per Turn Action** - {r}: Cards and activated abilities cost opposing heroes additional {r} this turn. **Go again**  **Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} instead. If you do, prevent 1 arcane damage that source would deal.)*  **Blade Break** *(If you defend with Heart of Ice, destroy it when the combat chain closes.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE144.width-450.png",
     images: [{
@@ -53515,7 +53515,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.NotClassed,
-    identifier: "coat-of-frost",
+    cardIdentifier: "coat-of-frost",
     functionalText: `**Action** - Destroy Coat of Frost: Create a Frostbite token under target hero's control. **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE145.width-450.png",
     images: [{
@@ -53548,7 +53548,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.NotClassed,
-    identifier: "shock-charmers",
+    cardIdentifier: "shock-charmers",
     functionalText: `**Instant** - {r}{r}: The next time an attack action card you control hits a hero this turn, it deals 1 damage to them.  **Spellvoid 2** *(If your hero would be dealt arcane damage, you may destroy Shock Charmers instead. If you do, prevent 2 arcane damage that source would deal.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE173.width-450.png",
     images: [{
@@ -53581,7 +53581,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.NotClassed,
-    identifier: "mark-of-lightning",
+    cardIdentifier: "mark-of-lightning",
     functionalText: `Whenever a Lightning or Elemental attack you control is defended by a card from hand, you may destroy Mark of Lightning. If you do, the attack deals 1 damage to the defending hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE174.width-450.png",
     images: [{
@@ -53614,7 +53614,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Guardian,
-    identifier: "rampart-of-the-rams-head",
+    cardIdentifier: "rampart-of-the-rams-head",
     functionalText: `Whenever you defend with Rampart of the Ram’s Head, you may pay {r}. If you do, it gains +1{d} until end of turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE203.width-450.png",
     images: [{
@@ -53647,7 +53647,7 @@
     subType: EquipmentSubType.OffHand
   },{
     class: Class.Guardian,
-    identifier: "rotten-old-buckler",
+    cardIdentifier: "rotten-old-buckler",
     functionalText: `**Blade Break** *(If you defend with Rotten Old Buckler, destroy it when the combat chain closes.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE204.width-450.png",
     images: [{
@@ -53680,7 +53680,7 @@
     subType: EquipmentSubType.OffHand
   },{
     class: Class.Ranger,
-    identifier: "new-horizon",
+    cardIdentifier: "new-horizon",
     functionalText: `If you have a face up card in your arsenal, you have an additional arsenal zone.  If New Horizon is destroyed, destroy all cards in your arsenal.  **Blade Break** *(If you defend with New Horizon, destroy it when the combat chain closes.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE213.width-450.png",
     images: [{
@@ -53713,7 +53713,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Ranger,
-    identifier: "honing-hood",
+    cardIdentifier: "honing-hood",
     functionalText: `**Instant** - Destroy Honing Hood: Return all cards in your arsenal to your hand, then put a card from your hand face down into your arsenal.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE214.width-450.png",
     images: [{
@@ -53746,7 +53746,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Runeblade,
-    identifier: "spellbound-creepers",
+    cardIdentifier: "spellbound-creepers",
     functionalText: `**Once per Turn Instant** - {r}, put a bind counter on Spellbound Creepers: You may play your next 'non-attack' action card this turn as though it were an instant. Activate this ability only if you have attacked or defended with an attack action card this turn.  At the beginning of your end phase, destroy Spellbound Creepers unless you have dealt arcane damage equal to or greater than the number of bind counters on Spellbound Creepers.  **Blade Break** *(If you defend with Spellbound Creepers, destroy it when the combat chain closes.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE224.width-450.png",
     images: [{
@@ -53779,7 +53779,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Runeblade,
-    identifier: "sutcliffes-suede-hides",
+    cardIdentifier: "sutcliffes-suede-hides",
     functionalText: `**Attack Reaction** - {r}, destroy Sutcliffe's Suede Hides: Target attack action card gains **go again.** Activate this ability only if you have played a 'non-attack' action card this turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE225.width-450.png",
     images: [{
@@ -53812,7 +53812,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Generic,
-    identifier: "ragamuffins-hat",
+    cardIdentifier: "ragamuffins-hat",
     functionalText: `**Instant** - Destroy Ragamuffin’s Hat: Draw a card then put a card from your hand on the top or bottom of your deck. Activate this ability only if you have 1 card in hand.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE233.width-450.png",
     images: [{
@@ -53840,7 +53840,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Generic,
-    identifier: "deep-blue",
+    cardIdentifier: "deep-blue",
     functionalText: `**Action** - Put a card from your hand on the bottom of your deck, destroy Deep Blue: Gain {r}{r}{r}. **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE234.width-450.png",
     images: [{
@@ -53873,7 +53873,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Generic,
-    identifier: "cracker-jax",
+    cardIdentifier: "cracker-jax",
     functionalText: `**Action** - Destroy Cracker Jax: The next attack action card you play this turn gains +1{p}. **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE235.width-450.png",
     images: [{
@@ -53901,7 +53901,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Generic,
-    identifier: "runaways",
+    cardIdentifier: "runaways",
     functionalText: `**Instant** - Destroy Runaways: Prevent the next 1 damage that would be dealt to your hero this turn. Activate this ability only if your hero has been dealt damage this turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE236.width-450.png",
     images: [{
@@ -53929,7 +53929,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Brute,
-    identifier: "skull-crushers",
+    cardIdentifier: "skull-crushers",
     functionalText: `Whenever you roll a 5 or 6 on a die, your Brute attacks gain +1{p} this turn.  Whenever you roll a 1 on a die, destroy Skull Crushers.  **Battleworn** *(If you defend with Skull Crushers, put a -1{d} counter on it when the combat chain closes.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR001.width-450.png",
     images: [{
@@ -53952,7 +53952,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Guardian,
-    identifier: "stalagmite-bastion-of-isenloft",
+    cardIdentifier: "stalagmite-bastion-of-isenloft",
     functionalText: `Whenever you defend with Stalagmite, create a Frostbite token under the attacking hero's control. **Temper**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR018.width-450.png",
     images: [{
@@ -53980,7 +53980,7 @@
     subType: EquipmentSubType.OffHand
   },{
     class: Class.Guardian,
-    identifier: "earthlore-bounty",
+    cardIdentifier: "earthlore-bounty",
     functionalText: `Whenever you draw a card from the effect of an action card, create a Seismic Surge token for each card drawn this way.  **Temper** *(If you defend with Earthlore Bounty, put a -1{d} counter on it when the combat chain closes then destroy it if it has 0{d}.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR020.width-450.png",
     images: [{
@@ -54008,7 +54008,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Ninja,
-    identifier: "mask-of-the-pouncing-lynx",
+    cardIdentifier: "mask-of-the-pouncing-lynx",
     functionalText: `When an attack action card you control hits, you may destroy Mask of the Pouncing Lynx. If you do, search your deck for an attack action card with 2 or less {p}, banish it, then shuffle. You may play it this turn.  **Blade Break** *(If you defend with Mask of the Pouncing Lynx, destroy it when the combat chain closes.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR037.width-450.png",
     images: [{
@@ -54031,7 +54031,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Warrior,
-    identifier: "helm-of-sharp-eye",
+    cardIdentifier: "helm-of-sharp-eye",
     functionalText: `**Attack Reaction** - {r}, destroy Helm of Sharp Eye: Banish the top card of your deck. You may play it this combat chain. Activate this ability only if you control a weapon with {p} greater than twice it's base {p}.  **Battleworn** *(If you defend with Helm of Sharp Eye, put a -1{d} counter on it when the combat chain closes.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR053.width-450.png",
     images: [{
@@ -54054,7 +54054,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Merchant,
-    identifier: "silver-palms",
+    cardIdentifier: "silver-palms",
     functionalText: `At the start of each other hero's turn, if they have less {h} than you, they may draw a card. If they do, you create a Silver token.  **Blade Break** *(If you defend with Silver Paws, destroy it when the combat chain closes.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR086.width-450.png",
     images: [{
@@ -54077,7 +54077,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Runeblade,
-    identifier: "vexing-quillhand",
+    cardIdentifier: "vexing-quillhand",
     functionalText: `**Action** - Destroy Vexing Quillhand: Create 2 Runechant tokens. **Go again**  **Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} instead. If you do, prevent 1 arcane damage that source would deal.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR103.width-450.png",
     images: [{
@@ -54100,7 +54100,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Illusionist,
-    identifier: "crown-of-reflection",
+    cardIdentifier: "crown-of-reflection",
     functionalText: `**Instant** - Destroy Crown of Reflection: Destroy target Illusionist aura you control. If you do, you may put an Illusionist aura card from your hand into the arena with cost less than or equal the aura destroyed this way. Activate Crown of Reflection only during your action phase.  **Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} instead. If you do, prevent 1 arcane damage that source would deal.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR137.width-450.png",
     images: [{
@@ -54123,7 +54123,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Generic,
-    identifier: "arcane-lantern",
+    cardIdentifier: "arcane-lantern",
     functionalText: `**Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} instead. If you do, prevent 1 arcane damage that source would deal.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR155.width-450.png",
     images: [{
@@ -54146,7 +54146,7 @@
     subType: EquipmentSubType.OffHand
   },{
     class: Class.Generic,
-    identifier: "blossom-of-spring",
+    cardIdentifier: "blossom-of-spring",
     functionalText: `**Action** - Destroy Blossom of Spring: Gain {r}. **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/DVR004.width-450.png",
     images: [{
@@ -54174,7 +54174,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Brute,
-    identifier: "bone-vizier",
+    cardIdentifier: "bone-vizier",
     functionalText: `When Bone Vizier is destroyed, reveal the top card of your deck. If it has 6 or more {p}, put it on top of your deck. Otherwise, put it on the bottom.  **Blade Break** *(When the combat chain closes, if this defended, destroy it.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/RVD003.width-450.png",
     images: [{
@@ -54197,7 +54197,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Illusionist,
-    identifier: "silken-form",
+    cardIdentifier: "silken-form",
     functionalText: `**Instant** - Destroy Silken Form: **Transform** target ash you control into an Aether Ashwing. *(Create an Aether Ashwing token and put the ash under it.)*  **Quell 1** *(If your hero would be dealt damage, you may pay {r} to prevent 1 of that damage. If you do, destroy Silken Form at the beginning of the end phase.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR004.png",
     images: [{
@@ -54225,7 +54225,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Ninja,
-    identifier: "heat-wave",
+    cardIdentifier: "heat-wave",
     functionalText: `**Instant** - Destroy Heat Wave: Phoenix Flames you control gain +1{p} until end of turn.  **Quell 1** *(If your hero would be dealt damage, you may pay {r} to prevent 1 of that damage. If you do, destroy Heat Wave at the beginning of the end phase.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR047.png",
     images: [{
@@ -54248,7 +54248,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.NotClassed,
-    identifier: "flamescale-furnace",
+    cardIdentifier: "flamescale-furnace",
     functionalText: `**Once per Turn Instant** - {r}: Gain {r} for each red card in your pitch zone. Activate this ability only if you’ve played a red card this turn.  **Temper** *(When the combat chain closes, if this defended, put a -1{d} counter on it, then if it has 0{d}, destroy it.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR084.png",
     images: [{
@@ -54271,7 +54271,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.NotClassed,
-    identifier: "sash-of-sandikai",
+    cardIdentifier: "sash-of-sandikai",
     functionalText: `**Instant** - Destroy Sash of Sandikai: Gain {r}. Activate this ability only if you’ve played a red card this turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR085.png",
     images: [{
@@ -54294,7 +54294,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Wizard,
-    identifier: "conduit-of-frostburn",
+    cardIdentifier: "conduit-of-frostburn",
     functionalText: `**Instant** - Destroy Conduit of Frostburn: The next card you play this turn with an effect that deals arcane damage gains “When this deals arcane damage to a hero, destroy a **frozen** card in their arsenal.”  **Quell 1** *(If your hero would be dealt damage, you may pay {r} to prevent 1 of that damage. If you do, destroy Conduit of Frostburn at the beginning of the end phase.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR125.png",
     images: [{
@@ -54317,7 +54317,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.NotClassed,
-    identifier: "coronet-peak",
+    cardIdentifier: "coronet-peak",
     functionalText: `**Action** - {r}{r}{r}: Target hero discards a card unless they pay {r}.  **Blade Break** *(When the combat chain closes, if this defended, destroy it.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR136.png",
     images: [{
@@ -54340,7 +54340,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.NotClassed,
-    identifier: "glacial-horns",
+    cardIdentifier: "glacial-horns",
     functionalText: `**Action** - Destroy Glacial Horns: Choose a hero. **Freeze** up to 1 card in their arsenal and 1 ally they control until the start of your next turn. **Go again** *(A frozen object can’t be played or activated.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR137.png",
     images: [{
@@ -54363,7 +54363,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Illusionist,
-    identifier: "ghostly-touch",
+    cardIdentifier: "ghostly-touch",
     functionalText: `Whenever an Illusionist attack you control is destroyed by **phantasm**, put a haunt counter on Ghostly Touch.  **Once per Turn Action** - Remove a haunt counter from Ghostly Touch: Until end of turn, this becomes an Illusionist ally with **phantasm**, base {p} and {h} equal to the number of haunt counters on it, and “**Once per Turn Action** - {r}{r}{r}: **Attack**”. **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR151.png",
     images: [{
@@ -54386,7 +54386,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Illusionist,
-    identifier: "silent-stilettos",
+    cardIdentifier: "silent-stilettos",
     functionalText: `Whenever an attacking ally you control dies or an attack action card you control is destroyed by **phantasm**, you may pay {r}{r}{r}. If you do, destroy Silent Stilettos and gain 1 action point.  **Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} to prevent 1 of that damage.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR152.png",
     images: [{
@@ -54409,7 +54409,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Ninja,
-    identifier: "tiger-stripe-shuko",
+    cardIdentifier: "tiger-stripe-shuko",
     functionalText: `The second attack action card with 2 or less base {p} you play each turn has +1{p} and "Damage that would be dealt by this can't be prevented."  **Blade Break** *(When the combat chain closes, if this defended, destroy it.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR158.png",
     images: [{
@@ -54432,7 +54432,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Ninja,
-    identifier: "tide-flippers",
+    cardIdentifier: "tide-flippers",
     functionalText: `**Attack Reaction** - Destroy Tide Flippers: Target attack action card with 2 or less base {p} gains **go again**.  **Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} to prevent 1 of that damage.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR159.png",
     images: [{
@@ -54455,7 +54455,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Wizard,
-    identifier: "alluvion-constellas",
+    cardIdentifier: "alluvion-constellas",
     functionalText: `The first time Alluvion Constellas prevents arcane damage each turn, if it has less than 4 energy counters, you may put an energy counter on it.  **Instant** - Remove 2 energy counters from Alluvion Constellas: The next staff ability you activate this turn costs {r}{r}{r} less.  **Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} to prevent 1 of that damage.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR166.png",
     images: [{
@@ -54478,7 +54478,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Wizard,
-    identifier: "spellfire-cloak",
+    cardIdentifier: "spellfire-cloak",
     functionalText: `**Instant** - Destroy Spellfire Cloak: Gain {r}. Activate this ability only during an opponent’s turn.  **Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} to prevent 1 of that damage.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR167.png",
     images: [{
@@ -54501,7 +54501,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Generic,
-    identifier: "crown-of-providence",
+    cardIdentifier: "crown-of-providence",
     functionalText: `When you defend with Crown of Providence, you may put a card from your hand or arsenal on the bottom of your deck. If you do, draw a card.  **Blade Break** *(When the combat chain closes, if this defended, destroy it.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR182.png",
     images: [{
@@ -54524,7 +54524,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Generic,
-    identifier: "helios-mitre",
+    cardIdentifier: "helios-mitre",
     functionalText: `*(A player may add a Helio’s Mitre to their card pool in an Uprising limited format.)*  **Instant** - {r}{r}: Prevent the next 1 damage that would be dealt to your hero this turn by a source of your choice. Destroy Helio’s Mitre at the beginning of the end phase.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR183.png",
     images: [{
@@ -54552,7 +54552,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Generic,
-    identifier: "quelling-robe",
+    cardIdentifier: "quelling-robe",
     functionalText: `**Quell 1** *(If your hero would be dealt damage, you may pay {r} to prevent 1 of that damage. If you do, destroy Quelling Robe at the beginning of the end phase.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR184.png",
     images: [{
@@ -54575,7 +54575,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Generic,
-    identifier: "quelling-sleeves",
+    cardIdentifier: "quelling-sleeves",
     functionalText: `**Quell 1** *(If your hero would be dealt damage, you may pay {r} to prevent 1 of that damage. If you do, destroy Quelling Sleeves at the beginning of the end phase.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR185.png",
     images: [{
@@ -54598,7 +54598,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Generic,
-    identifier: "quelling-slippers",
+    cardIdentifier: "quelling-slippers",
     functionalText: `**Quell 1** *(If your hero would be dealt damage, you may pay {r} to prevent 1 of that damage. If you do, destroy Quelling Slippers at the beginning of the end phase.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR186.png",
     images: [{
@@ -54622,7 +54622,7 @@
   }];
   const mentors: MentorCard[] = [{
     class: Class.Warrior,
-    identifier: "minerva-themis",
+    cardIdentifier: "minerva-themis",
     functionalText: `**Mentor** *(You may only have Minerva in your deck if your hero is young.)*  At the start of your turn, if Minerva is face down in your arsenal, you may turn her face up.  1H weapons you control have +1{p}. Whenever a weapon you control hits, put a lesson counter on Minerva. Then if there are 3 or more lesson counters on Minerva, banish her, search your deck for a **specialization** card, put it face up into your arsenal, and shuffle your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB044.png",
     images: [{
@@ -54647,7 +54647,7 @@
     defense: 3,
   },{
     class: Class.Runeblade,
-    identifier: "lord-sutcliffe",
+    cardIdentifier: "lord-sutcliffe",
     functionalText: `**Mentor** *(You may only have Sutcliffe in your deck if your hero is young.)*  At the start of your turn, if Sutcliffe is face down in your arsenal, you may turn him face up.  Whenever you play a ‘non-attack’ action card, deal 1 arcane damage to each hero and put a lesson counter on Sutcliffe for each damage dealt this way. Then if there are 3 or more lesson counters on Sutcliffe, banish him, search your deck for a **specialization** card, put it face up into your arsenal, and shuffle your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB046.png",
     images: [{
@@ -54672,7 +54672,7 @@
     defense: 3,
   },{
     class: Class.Brute,
-    identifier: "lady-barthimont",
+    cardIdentifier: "lady-barthimont",
     functionalText: `**Mentor** *(You may only have Barthimont in your deck if your hero is young.)*  At the start of your turn, if Barthimont is face down in your arsenal, you may turn her face up.  Whenever you play an attack action card, banish the top card of your deck. If the banished card has 6 or more {p}, the attack gains **dominate** and put a lesson counter on Barthimont. Then if there are 2 or more lesson counters on Barthimont, banish her, search your deck for a **specialization** card, put it face up into your arsenal, and shuffle your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB045.png",
     images: [{
@@ -54697,7 +54697,7 @@
     defense: 3,
   },{
     class: Class.Illusionist,
-    identifier: "the-librarian",
+    cardIdentifier: "the-librarian",
     functionalText: `**Mentor** *(You may only have The Librarian in your deck if your hero is young.)*  At the start of your turn, if The Librarian is face down in your arsenal, you may turn him face up.  Whenever you create a Spectral Shield token, draw a card and put a lesson counter on The Librarian. Then if there are 3 or more lesson counters on The Librarian, banish him, search your deck for a **specialization** card, put it face up into your arsenal, and shuffle your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB043.png",
     images: [{
@@ -54722,7 +54722,7 @@
     defense: 3,
   },{
     class: Class.Warrior,
-    identifier: "hala-goldenheim",
+    cardIdentifier: "hala-goldenheim",
     functionalText: `*(You may only have Hala in your deck if your hero is young.)*  While Hala is face down in arsenal, at the start of your turn, you may turn her face up.  While Hala is face up in arsenal, whenever a sword attack you control hits, it gains **go again** and put a lesson counter on Hala. Then if there are 2 or more lesson counters on Hala, banish her, search your deck for Glistening Steelblade, put it face up in arsenal, and shuffle.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/DVR007.width-450.png",
     images: [{
@@ -54742,7 +54742,7 @@
     defense: 3,
   },{
     class: Class.Brute,
-    identifier: "chief-rukutan",
+    cardIdentifier: "chief-rukutan",
     functionalText: `*(You may only have Ruk’utan in your deck if your hero is young.)*  While Ruk’utan is face down in arsenal, at the start of your turn, you may turn him face up.  While Ruk’utan is face up in arsenal, whenever you play a card with 6 or more {p}, **intimidate**, and put a lesson counter on him. Then if there are 2 or more lesson counters on Ruk’utan, banish him, search your deck for Alpha Rampage, put it face up in arsenal, and shuffle.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/RVD007.width-450.png",
     images: [{
@@ -54763,7 +54763,7 @@
   }];
   const heroes: HeroCard[] = [{
     class: Class.Merchant,
-    identifier: "ruudi-gem-keeper",
+    cardIdentifier: "ruudi-gem-keeper",
     functionalText: `You may only have PSA graded cards in your deck.  **Once per Turn Action** - {r}: Reveal the top card of your deck. If it’s graded Gem Min 10, put it into your hand, otherwise each opponent may draw a card. **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/LSS001.width-450.png",
     images: [{
@@ -54787,7 +54787,7 @@
     young: null
   },{
     class: Class.Shapeshifter,
-    identifier: "taylor",
+    cardIdentifier: "taylor",
     functionalText: `You may have equipment of any class or talent in your inventory. Each equipment in your starting inventory must have a different name.  At the start of your turn, you may banish an equipment you control. If you do, equip a card of the same subtype from your inventory.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/LSS003_A.width-450.png",
     images: [{
@@ -54811,7 +54811,7 @@
     young: true
   },{
     class: Class.Bard,
-    identifier: "yorick-weaver-of-tales",
+    cardIdentifier: "yorick-weaver-of-tales",
     functionalText: `At the start of the game, all heroes shuffle their starting decks together. All heroes share the same deck and graveyard this game.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/LSS004_A.width-450.png",
     images: [{
@@ -54835,7 +54835,7 @@
     young: true
   },{
     class: Class.Brute,
-    identifier: "rhinar-reckless-rampage",
+    cardIdentifier: "rhinar-reckless-rampage",
     functionalText: `Whenever you discard a card with 6 or more {p} during your action phase, **intimidate**. *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owners hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU001.png",
     images: [{
@@ -54894,7 +54894,7 @@
     young: null
   },{
     class: Class.Brute,
-    identifier: "rhinar",
+    cardIdentifier: "rhinar",
     functionalText: `When you discard a card with 6 or more {p} during your action phase, **intimidate**. *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owners hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR002.png",
     images: [{
@@ -54948,7 +54948,7 @@
     young: true
   },{
     class: Class.Guardian,
-    identifier: "bravo-showstopper",
+    cardIdentifier: "bravo-showstopper",
     functionalText: `**Action** - {r}{r}: Until end of turn, your attack action cards with cost 3 or greater gains **dominate**. **Go again** *(The defending hero can’t defend with more than 1 card from their hand)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU022.png",
     images: [{
@@ -55007,7 +55007,7 @@
     young: null
   },{
     class: Class.Guardian,
-    identifier: "bravo",
+    cardIdentifier: "bravo",
     functionalText: `**Action** - {r}{r}: Until end of turn, your attack action cards with cost 3 or greater gains **dominate**. **Go again** *(The defending hero can’t defend with more than 1 card from their hand)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR039.png",
     images: [{
@@ -55056,7 +55056,7 @@
     young: true
   },{
     class: Class.Ninja,
-    identifier: "katsu-the-wanderer",
+    cardIdentifier: "katsu-the-wanderer",
     functionalText: `The first time an attack action card you control hits, you may discard a card with cost 0. If you do, search your deck for a card with **combo**, banish it face up, then shuffle your deck. You may play it this turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU045.png",
     images: [{
@@ -55115,7 +55115,7 @@
     young: null
   },{
     class: Class.Ninja,
-    identifier: "katsu",
+    cardIdentifier: "katsu",
     functionalText: `The first time an attack action card you control hits, you may discard a card with cost 0. If you do, search your deck for a card with **combo**, banish it face up, then shuffle your deck. You may play it this turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR077.png",
     images: [{
@@ -55164,7 +55164,7 @@
     young: true
   },{
     class: Class.Warrior,
-    identifier: "dorinthea-ironsong",
+    cardIdentifier: "dorinthea-ironsong",
     functionalText: `**Once per turn Effect** - When a weapon you control hits, you may attack an additional time with that weapon this turn. *(You must have an action point to attack an additional time.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU076.png",
     images: [{
@@ -55223,7 +55223,7 @@
     young: null
   },{
     class: Class.Warrior,
-    identifier: "dorinthea",
+    cardIdentifier: "dorinthea",
     functionalText: `**Once per turn Effect** - When a weapon you control hits, you may attack an additional time with that weapon this turn. *(You must have an action point to attack an additional time.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR114.png",
     images: [{
@@ -55272,7 +55272,7 @@
     young: true
   },{
     class: Class.Mechanologist,
-    identifier: "dash-inventor-extraordinaire",
+    cardIdentifier: "dash-inventor-extraordinaire",
     functionalText: `You may start the game with a Mechanologist item with cost 2 or less in the arena. *(It’s considered to have entered the arena.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC001.png",
     images: [{
@@ -55326,7 +55326,7 @@
     young: null
   },{
     class: Class.Mechanologist,
-    identifier: "dash",
+    cardIdentifier: "dash",
     functionalText: `You may start the game with a Mechanologist item with cost 2 or less in the arena. *(It’s considered to have entered the arena.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC002.png",
     images: [{
@@ -55365,7 +55365,7 @@
     young: true
   },{
     class: Class.Ranger,
-    identifier: "azalea-ace-in-the-hole",
+    cardIdentifier: "azalea-ace-in-the-hole",
     functionalText: `**Once per Turn Action** - 0: Put a card from your arsenal on the bottom of your deck. If you do, put the top card of your deck face up into your arsenal. If it’s an arrow card, it gains **dominate** until end of turn. **Go again** *(The defending hero can’t defend the attack with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC038.png",
     images: [{
@@ -55419,7 +55419,7 @@
     young: null
   },{
     class: Class.Ranger,
-    identifier: "azalea",
+    cardIdentifier: "azalea",
     functionalText: `**Once per Turn Action** - 0: Put a card from your arsenal on the bottom of your deck. If you do, put the top card of your deck face up into your arsenal. If it’s an arrow card, it gains **dominate** until end of turn. **Go again** *(The defending hero can’t defend the attack with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC039.png",
     images: [{
@@ -55458,7 +55458,7 @@
     young: true
   },{
     class: Class.Runeblade,
-    identifier: "viserai-rune-blood",
+    cardIdentifier: "viserai-rune-blood",
     functionalText: `Whenever you play a Runeblade card, if you have played another 'non-attack' action card this turn, create a Runechant token. *(It's an aura with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.”)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC075.png",
     images: [{
@@ -55512,7 +55512,7 @@
     young: null
   },{
     class: Class.Runeblade,
-    identifier: "viserai",
+    cardIdentifier: "viserai",
     functionalText: `Whenever you play a Runeblade card, if you have played another 'non-attack' action card this turn, create a Runechant token. *(It's an aura with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.”)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC076.png",
     images: [{
@@ -55551,7 +55551,7 @@
     young: true
   },{
     class: Class.Wizard,
-    identifier: "kano-dracai-of-aether",
+    cardIdentifier: "kano-dracai-of-aether",
     functionalText: `**Instant** - {r}{r}{r}: Look at the top card of your deck. If it's a 'non-attack' action card, you may banish it. If you do, you may play it this turn as though it were an instant.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC113.png",
     images: [{
@@ -55605,7 +55605,7 @@
     young: null
   },{
     class: Class.Wizard,
-    identifier: "kano",
+    cardIdentifier: "kano",
     functionalText: `**Instant** - {r}{r}{r}: Look at the top card of your deck. If it's a 'non-attack' action card, you may banish it. If you do, you may play it this turn as though it were an instant.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC114.png",
     images: [{
@@ -55644,7 +55644,7 @@
     young: true
   },{
     class: Class.Brute,
-    identifier: "kayo-berserker-runt",
+    cardIdentifier: "kayo-berserker-runt",
     functionalText: `Whenever you play an attack action card with base power 6 or more {p}, roll a 6 sided die. On;  - 1 to 4 - Halve the attack's base {p}, rounded down.  - 5 to 6 - Double the attack's base {p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU002.png",
     images: [{
@@ -55683,7 +55683,7 @@
     young: true
   },{
     class: Class.Ninja,
-    identifier: "ira-crimson-haze",
+    cardIdentifier: "ira-crimson-haze",
     functionalText: `Your second attack each turn gains +1{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU046.png",
     images: [{
@@ -55727,7 +55727,7 @@
     young: true
   },{
     class: Class.Ninja,
-    identifier: "benji-the-piercing-wind",
+    cardIdentifier: "benji-the-piercing-wind",
     functionalText: `Attack action cards you control with 2 or less {p} can't be defended by cards from hand. *(This includes defense reaction cards.)*  **Once per Turn Effect** - When an attack action card you control hits, your next attack this turn gains +1{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU047.png",
     images: [{
@@ -55771,7 +55771,7 @@
     young: true
   },{
     class: Class.Warrior,
-    identifier: "kassai-cintari-sellsword",
+    cardIdentifier: "kassai-cintari-sellsword",
     functionalText: `Your second sword attack each turn costs {r} less.  At the beginning of your end phase, if you have attacked 2 or more times with weapons this turn, create a Copper token for each weapon attack that hit. *(It's an item with "**Action**- {r}{r}{r}{r}, destroy Copper: Draw a card. **Go again**")*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU077.png",
     images: [{
@@ -55815,7 +55815,7 @@
     young: true
   },{
     class: Class.Shapeshifter,
-    identifier: "shiyana-diamond-gemini",
+    cardIdentifier: "shiyana-diamond-gemini",
     functionalText: `You may have **specialization** cards of any hero in your deck.  At the beginning of your action phase, Shiyana becomes a copy of target hero until the start of your next turn, and gains "Cards you own are the class of your hero in addition to their other class types."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU097.png",
     images: [{
@@ -55844,7 +55844,7 @@
     young: true
   },{
     class: Class.Mechanologist,
-    identifier: "data-doll-mkii",
+    cardIdentifier: "data-doll-mkii",
     functionalText: `Whenever a Mechanologist item with cost 2 or less is put into your banished zone from your deck, put it into the arena.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU099.png",
     images: [{
@@ -55883,7 +55883,7 @@
     young: true
   },{
     class: Class.Merchant,
-    identifier: "kavdaen-trader-of-skins",
+    cardIdentifier: "kavdaen-trader-of-skins",
     functionalText: `**Once per Turn Action** - {r}{r}{r}: If a hero has more {h} than all other hero’s, they lose 1{h} and create a Copper token. Then if a hero has less {h} than all other hero’s, they gain 1{h}. **Go again** *(It's an item with "***Action*** - {r}{r}{r}{r}, destroy Copper: Draw a card. ***Go again***")*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU118.png",
     images: [{
@@ -55927,7 +55927,7 @@
     young: true
   },{
     class: Class.Illusionist,
-    identifier: "prism-sculptor-of-arc-light",
+    cardIdentifier: "prism-sculptor-of-arc-light",
     functionalText: `**Once per Turn Instant** - {r}{r}, banish a card from Prism's soul: Create a Spectral Shield token. *(It's an Illusionist aura with "If your hero would be dealt damage, instead destroy Spectral Shield and prevent 1 damage that source would deal.")*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON001.width-450.png",
     images: [{
@@ -55966,7 +55966,7 @@
     young: null
   },{
     class: Class.Illusionist,
-    identifier: "prism",
+    cardIdentifier: "prism",
     functionalText: `**Once per Turn Instant** - {r}{r}, banish a card from Prism's soul: Create a Spectral Shield token. *(It's an Illusionist aura with "If your hero would be dealt damage, instead destroy Spectral Shield and prevent 1 damage that source would deal.")*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON002.width-450.png",
     images: [{
@@ -56005,7 +56005,7 @@
     young: true
   },{
     class: Class.Warrior,
-    identifier: "ser-boltyn-breaker-of-dawn",
+    cardIdentifier: "ser-boltyn-breaker-of-dawn",
     functionalText: `If you've **charged** this turn, attacks you control have +1{p} while defended by an attack action card.  **Attack Reaction** - Banish a card from Boltyn's soul: Target attack with {p} greater than its base {p} gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON029.width-450.png",
     images: [{
@@ -56044,7 +56044,7 @@
     young: null
   },{
     class: Class.Warrior,
-    identifier: "boltyn",
+    cardIdentifier: "boltyn",
     functionalText: `If you've **charged** this turn, attacks you control have +1{p} while defended by an attack action card.  **Attack Reaction** - Banish a card from Boltyn's soul: Target attack with {p} greater than its base {p} gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON030.width-450.png",
     images: [{
@@ -56083,7 +56083,7 @@
     young: true
   },{
     class: Class.Brute,
-    identifier: "levia-shadowborn-abomination",
+    cardIdentifier: "levia-shadowborn-abomination",
     functionalText: `If a card with 6 or more {p} has been put into your banished zone this turn, cards you own lose **blood debt** during the end phase.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/Mty2ZQtPLgqDHz9EjdOMHZOUJhISA3s8RIgr3lus4KTmVq.width-450.png",
     images: [{
@@ -56122,7 +56122,7 @@
     young: null
   },{
     class: Class.Brute,
-    identifier: "levia",
+    cardIdentifier: "levia",
     functionalText: `If a card with 6 or more {p} has been put into your banished zone this turn, cards you own lose **blood debt** during the end phase.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/QB393QB0F93d2Hhhs5Cf_iMdCfa8qpl1J91FOlwlsYvSnv.width-450.png",
     images: [{
@@ -56161,7 +56161,7 @@
     young: true
   },{
     class: Class.Runeblade,
-    identifier: "chane-bound-by-shadow",
+    cardIdentifier: "chane-bound-by-shadow",
     functionalText: `**Once per Turn Action** - Create a Soul Shackle token: Your next Runeblade or Shadow action this turn gains **go again. Go again** *(It's a Shadow Runeblade aura with "At the beginning of your action phase, banish the top card of your deck.")*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON153.width-450.png",
     images: [{
@@ -56200,7 +56200,7 @@
     young: null
   },{
     class: Class.Runeblade,
-    identifier: "chane",
+    cardIdentifier: "chane",
     functionalText: `**Once per Turn Action** - Create a Soul Shackle token: Your next Runeblade or Shadow action this turn gains **go again. Go again** *(It's a Shadow Runeblade aura with "At the beginning of your action phase, banish the top card of your deck.")*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON154.width-450.png",
     images: [{
@@ -56239,7 +56239,7 @@
     young: true
   },{
     class: Class.Guardian,
-    identifier: "oldhim-grandfather-of-eternity",
+    cardIdentifier: "oldhim-grandfather-of-eternity",
     functionalText: `**Essence of Earth and Ice** *(You may have Earth and Ice cards in your deck.)*  **Once per Turn Defense Reaction** - {r}{r}{r}: If an Earth card is pitched this way, prevent the next 2 damage that would be dealt to Oldhim this turn. If an Ice card is pitched this way, the attacking hero puts a card from their hand on top of their deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE001.width-450.png",
     images: [{
@@ -56278,7 +56278,7 @@
     young: null
   },{
     class: Class.Guardian,
-    identifier: "oldhim",
+    cardIdentifier: "oldhim",
     functionalText: `**Essence of Earth and Ice** *(You may have Earth and Ice cards in your deck.)*  **Once per Turn Defense Reaction** - {r}{r}{r}: If an Earth card is pitched this way, prevent the next 2 damage that would be dealt to Oldhim this turn. If an Ice card is pitched this way, the attacking hero puts a card from their hand on top of their deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE002.width-450.png",
     images: [{
@@ -56317,7 +56317,7 @@
     young: true
   },{
     class: Class.Ranger,
-    identifier: "lexi-livewire",
+    cardIdentifier: "lexi-livewire",
     functionalText: `**Essence of Ice and Lightning** *(You may have Ice and Lightning cards in your deck.)*  **Once per Turn Action** - Turn a face down card in your arsenal face up: If it's a Lightning card, your next attack this turn gains **go again.** If it's an Ice card, create a Frostbite token under target hero's control. **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE031.width-450.png",
     images: [{
@@ -56356,7 +56356,7 @@
     young: null
   },{
     class: Class.Ranger,
-    identifier: "lexi",
+    cardIdentifier: "lexi",
     functionalText: `**Essence of Ice and Lightning** *(You may have Ice and Lightning cards in your deck.)*  **Once per Turn Action** - Turn a face down card in your arsenal face up: If it's a Lightning card, your next attack this turn gains **go again.** If it's an Ice card, create a Frostbite token under target hero's control. **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE032.width-450.png",
     images: [{
@@ -56395,7 +56395,7 @@
     young: true
   },{
     class: Class.Runeblade,
-    identifier: "briar-warden-of-thorns",
+    cardIdentifier: "briar-warden-of-thorns",
     functionalText: `**Essence of Earth and Lightning** *(You may have Earth and Lightning cards in your deck.)*  The first time an attack action card you control deals damage to an opposing hero, create an Embodiment of Earth token.  Whenever you play your second 'non-attack' action card each turn, create an Embodiment of Lightning token.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE062.width-450.png",
     images: [{
@@ -56434,7 +56434,7 @@
     young: null
   },{
     class: Class.Runeblade,
-    identifier: "briar",
+    cardIdentifier: "briar",
     functionalText: `**Essence of Earth and Lightning** *(You may have Earth and Lightning cards in your deck.)*  The first time an attack action card you control deals damage to an opposing hero, create an Embodiment of Earth token.  Whenever you play your second 'non-attack' action card each turn, create an Embodiment of Lightning token.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE063.width-450.png",
     images: [{
@@ -56473,7 +56473,7 @@
     young: true
   },{
     class: Class.Guardian,
-    identifier: "bravo-star-of-the-show",
+    cardIdentifier: "bravo-star-of-the-show",
     functionalText: `**Essence of Earth, Ice, and Lightning** *(You may have Earth, Ice, and Lightning cards in your deck.)*  At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card from your hand. If you do, the next attack action card with cost 3 or greater you play this turn gains +2{p}, **dominate**, and **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR017.width-450.png",
     images: [{
@@ -56502,7 +56502,7 @@
     young: null
   },{
     class: Class.Guardian,
-    identifier: "valda-brightaxe",
+    cardIdentifier: "valda-brightaxe",
     functionalText: `Whenever an opponent draws a card during an action phase, create a Seismic Surge token for each card drawn this way.  At the start of your turn, if you control 3 or more Seismic Surge tokens, cards you own with **crush** gain **dominate** this turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR019.width-450.png",
     images: [{
@@ -56531,7 +56531,7 @@
     young: true
   },{
     class: Class.Merchant,
-    identifier: "genis-wotchuneed",
+    cardIdentifier: "genis-wotchuneed",
     functionalText: `**Once per Turn Action** - {r}{r}: Each other hero may put a card from their hand on the bottom of their deck. If they do, they draw a card and you create a Silver token. If you gain no Silver this way, draw a card. **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR085.width-450.png",
     images: [{
@@ -56560,7 +56560,7 @@
     young: true
   },{
     class: Class.Wizard,
-    identifier: "iyslander",
+    cardIdentifier: "iyslander",
     functionalText: `**Essence of Ice** *(You may have Ice cards in your deck.)*  If it's not your turn, you may play blue 'non-attack' action cards from your arsenal as though they were an instant.  Whenever you play an Ice card during an opponents turn, create a Frostbite token under their control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR120.width-450.png",
     images: [{
@@ -56604,7 +56604,7 @@
     young: true
   },{
     class: Class.Warrior,
-    identifier: "dorinthea-quicksilver-prodigy",
+    cardIdentifier: "dorinthea-quicksilver-prodigy",
     functionalText: `The first time Dawnblade, Resplendent gains **go again** each turn, you may attack an additional time with it this turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/DVR001.width-450.png",
     images: [{
@@ -56628,7 +56628,7 @@
     young: true
   },{
     class: Class.Illusionist,
-    identifier: "dromai-ash-artist",
+    cardIdentifier: "dromai-ash-artist",
     functionalText: `Whenever you pitch a red card, create an Ash Token. *(A red card is a card with a red color strip.)*  If you’ve played a red card this turn, dragons you control have **go again** while attacking. *(If an attacking dragon dies before chain link resolution, you don’t go again.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR001.png",
     images: [{
@@ -56652,7 +56652,7 @@
     young: null
   },{
     class: Class.Illusionist,
-    identifier: "dromai",
+    cardIdentifier: "dromai",
     functionalText: `Whenever you pitch a red card, create an Ash Token. *(A red card is a card with a red color strip.)*  If you’ve played a red card this turn, dragons you control have **go again** while attacking. *(If an attacking dragon dies before chain link resolution, you don’t go again.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR002.png",
     images: [{
@@ -56676,7 +56676,7 @@
     young: true
   },{
     class: Class.Ninja,
-    identifier: "fai-rising-rebellion",
+    cardIdentifier: "fai-rising-rebellion",
     functionalText: `You may start the game with a Phoenix Flame in your graveyard.  **Once per Turn Instant** - {r}{r}{r}: Return a Phoenix Flame from your graveyard to your hand. This ability costs {r} less for each Draconic chain link you control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR044.png",
     images: [{
@@ -56700,7 +56700,7 @@
     young: null
   },{
     class: Class.Ninja,
-    identifier: "fai",
+    cardIdentifier: "fai",
     functionalText: `You may start the game with a Phoenix Flame in your graveyard.  **Once per Turn Instant** - {r}{r}{r}: Return a Phoenix Flame from your graveyard to your hand. This ability costs {r} less for each Draconic chain link you control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR045.png",
     images: [{
@@ -56724,7 +56724,7 @@
     young: true
   },{
     class: Class.Wizard,
-    identifier: "iyslander-stormbind",
+    cardIdentifier: "iyslander-stormbind",
     functionalText: `**Essence of Ice** *(You may have Ice cards in your deck.)*  If it's not your turn, you may play blue 'non-attack' action cards from your arsenal as though they were an instant.  Whenever you play an Ice card during an opponents turn, create a Frostbite token under their control.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR102.png",
     images: [{
@@ -56749,7 +56749,7 @@
   }];
   const placeholders: PlaceholderCard[] = [{
     class: Class.Generic,
-    identifier: "dragons-of-legend",
+    cardIdentifier: "dragons-of-legend",
     functionalText: `Dracona Optimai – 1 pitch, 6 cost, 3 block  Tomeltai – 1 pitch, 5 cost, 3 block  Dominia – 1 pitch, 4 cost, 3 block  Azvolai – 1 pitch, 0 cost, 3 block  Cromai – 1 pitch, 0 cost, 3 block  Kyloria – 1 pitch, 1 cost, 3 block  Miragai – 1 pitch, 1 cost, 3 block  Nekria – 1 pitch, 3 cost, 3 block  Ouvia – 1 pitch, 2 cost, 3 block  Themai – 1 pitch, 2 cost, 3 block  Vynserakai – 1 pitch, 3 cost, 3 block  Yendurai – 1 pitch, 1 cost, 3 block  You may put this in your deck in place of an invocation you own. Mark the box next to the dragon’s name this invokes. When this card is played or put into your graveyard, swap it for the invocation card.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR225.png",
     images: [{
@@ -56770,7 +56770,7 @@
   }];
   const resources: ResourceCard[] = [{
     class: Class.Generic,
-    identifier: "heart-of-fyendal-blue",
+    cardIdentifier: "heart-of-fyendal-blue",
     functionalText: `When you pitch Heart of Fyendal, if you have less {h} than your opponent, gain 1{h}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR000.png",
     images: [{
@@ -56797,7 +56797,7 @@
     talents: [],
   },{
     class: Class.Generic,
-    identifier: "cracked-bauble-yellow",
+    cardIdentifier: "cracked-bauble-yellow",
     functionalText: `*(Cracked Bauble exists to support Booster Draft and sealed Deck formats. A player may add any number of Cracked Baubles to their deck. Typically, a player would only do this if they did not have enough legally playable cards to make a 30 card minimum deck.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ARC218.width-450.png",
     images: [{
@@ -56874,7 +56874,7 @@
     talents: [],
   },{
     class: Class.Generic,
-    identifier: "eye-of-ophidia-blue",
+    cardIdentifier: "eye-of-ophidia-blue",
     functionalText: `**Legendary** *(You may only have 1 Eye of Ophidia in your deck.)*  When you pitch Eye of Ophidia, **opt 2.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC000.png",
     images: [{
@@ -56901,7 +56901,7 @@
     talents: [],
   },{
     class: Class.Runeblade,
-    identifier: "arknight-shard-blue",
+    cardIdentifier: "arknight-shard-blue",
     functionalText: `**Legendary Viserai Specialization** *(You may only have 1 Arknight Shard in your deck, and only if your hero is Viserai.)*  When you pitch Arknight Shard, create a Runechant token.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU000.png",
     images: [{
@@ -56928,7 +56928,7 @@
     talents: [],
   },{
     class: Class.Guardian,
-    identifier: "grandeur-of-valahai-blue",
+    cardIdentifier: "grandeur-of-valahai-blue",
     functionalText: `**Legendary** (You may only have 1 Grandeur of Valahai in your deck.)  When you pitch Grandeur of Valahai, create a Seismic Surge token.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR000.width-450.png",
     images: [{
@@ -56950,7 +56950,7 @@
     talents: [],
   },{
     class: Class.Generic,
-    identifier: "titanium-bauble-blue",
+    cardIdentifier: "titanium-bauble-blue",
     functionalText: `null`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/DVR027.width-450.png",
     images: [{
@@ -56977,7 +56977,7 @@
     talents: [],
   },{
     class: Class.NotClassed,
-    identifier: "blood-of-the-dracai-red",
+    cardIdentifier: "blood-of-the-dracai-red",
     functionalText: `**Legendary** *(You may only have 1 Blood of the Dracai in your deck.)*  When you pitch Blood of the Dracai, the next 3 Draconic cards you play this turn cost {r} less.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR000.png",
     images: [{
@@ -57000,7 +57000,7 @@
   }];
   const tokens: TokenCard[] = [{
     class: Class.Guardian,
-    identifier: "seismic-surge",
+    cardIdentifier: "seismic-surge",
     functionalText: `At the beginning of your action phase, destroy Seismic Surge then the next Guardian attack action card you play this turn costs {r} less to play.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU044.png",
     images: [{
@@ -57061,7 +57061,7 @@
     subType: TokenSubType.Aura
   },{
     class: Class.Generic,
-    identifier: "quicken",
+    cardIdentifier: "quicken",
     functionalText: `*(Auras stay in the arena until they are destroyed.)*  When you play an attack card or attack with a weapon, destroy Quicken then the attack gains **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU196.png",
     images: [{
@@ -57127,7 +57127,7 @@
     subType: TokenSubType.Aura
   },{
     class: Class.Runeblade,
-    identifier: "runechant",
+    cardIdentifier: "runechant",
     functionalText: `*(Auras stay in the arena until they are destroyed.)*  When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC112.png",
     images: [{
@@ -57178,7 +57178,7 @@
     subType: TokenSubType.Aura
   },{
     class: Class.Ninja,
-    identifier: "zen-state",
+    cardIdentifier: "zen-state",
     functionalText: `Zen State enters the arena with 1 balance counter on it. At the beginning of your action phase, destroy Zen State unless you remove a balance counter from it.  Whenever your hero would be dealt damage, prevent 1 damage that source would deal.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU075.png",
     images: [{
@@ -57209,7 +57209,7 @@
     subType: TokenSubType.Aura
   },{
     class: Class.Generic,
-    identifier: "copper",
+    cardIdentifier: "copper",
     functionalText: `**Action** - {r}{r}{r}{r}, destroy Copper: Draw a card. **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU197.png",
     images: [{
@@ -57250,7 +57250,7 @@
     subType: TokenSubType.Item
   },{
     class: Class.Illusionist,
-    identifier: "spectral-shield",
+    cardIdentifier: "spectral-shield",
     functionalText: `*(Auras stay in the arena until they are destroyed.)*  If your hero would be dealt damage, instead destroy Spectral Shield and prevent 1 damage that source would deal.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON104.width-450.png",
     images: [{
@@ -57286,7 +57286,7 @@
     subType: TokenSubType.Aura
   },{
     class: Class.Runeblade,
-    identifier: "soul-shackle",
+    cardIdentifier: "soul-shackle",
     functionalText: `*(Auras stay in the arena.)*  At the beginning of your action phase, banish the top card of your deck.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON186.width-450.png",
     images: [{
@@ -57317,7 +57317,7 @@
     subType: TokenSubType.Aura
   },{
     class: Class.NotClassed,
-    identifier: "blasmophet-the-soul-harvester",
+    cardIdentifier: "blasmophet-the-soul-harvester",
     functionalText: `*(Allies can be attacked, can't be defended with {d}, and are destroyed when they have taken damage equal to their {h}. At end of turn, heal all damage dealt to Blasmophet.)*  **Once per Turn Action** - 0: **Attack**  Whenever Blasmophet attacks, you may banish a Shadow card from your hand. If you do, the defending hero banishes a card from their soul.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON219.width-450.png",
     images: [{
@@ -57353,7 +57353,7 @@
     subType: TokenSubType.Ally
   },{
     class: Class.NotClassed,
-    identifier: "ursur-the-soul-reaper",
+    cardIdentifier: "ursur-the-soul-reaper",
     functionalText: `*(Allies can be attacked, can't be defended with {d}, and are destroyed when they have taken damage equal to their {h}. At end of turn, heal all damage dealt to Ursur.)*  **Once per Turn Action** - 0: **Attack**  While Ursur is attacking a hero with 1 or more cards in their soul, the attack has **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON220.width-450.png",
     images: [{
@@ -57389,7 +57389,7 @@
     subType: TokenSubType.Ally
   },{
     class: Class.NotClassed,
-    identifier: "embodiment-of-earth",
+    cardIdentifier: "embodiment-of-earth",
     functionalText: `‘Non-attack' action cards you control have +1{d} while defending.  At the beginning of your action phase, destroy Embodiment of Earth.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE109.width-450.png",
     images: [{
@@ -57420,7 +57420,7 @@
     subType: TokenSubType.Aura
   },{
     class: Class.NotClassed,
-    identifier: "embodiment-of-lightning",
+    cardIdentifier: "embodiment-of-lightning",
     functionalText: `When you play an attack action card, destroy Embodiment of Lightning and the attack gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE110.width-450.png",
     images: [{
@@ -57451,7 +57451,7 @@
     subType: TokenSubType.Aura
   },{
     class: Class.NotClassed,
-    identifier: "frostbite",
+    cardIdentifier: "frostbite",
     functionalText: `Cards and activated abilities you control cost an additional {r}.  At the beginning of your end phase or when you play a card or activate an ability, destroy Frostbite.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE111.width-450.png",
     images: [{
@@ -57497,7 +57497,7 @@
     subType: TokenSubType.Aura
   },{
     class: Class.Generic,
-    identifier: "silver",
+    cardIdentifier: "silver",
     functionalText: `**Action** - {r}{r}{r}, destroy Silver: Draw a card. **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR195.width-450.png",
     images: [{
@@ -57518,7 +57518,7 @@
     subType: TokenSubType.Item
   },{
     class: Class.Illusionist,
-    identifier: "aether-ashwing",
+    cardIdentifier: "aether-ashwing",
     functionalText: `**Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} to prevent 1 of that damage.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR042.png",
     images: [{
@@ -57549,7 +57549,7 @@
     subType: TokenSubType.Ally
   },{
     class: Class.Illusionist,
-    identifier: "ash",
+    cardIdentifier: "ash",
     functionalText: `**Material** - While Ash is under an object, that object has **phantasm**. *(When this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this and close the combat chain.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR043.png",
     images: [{
@@ -57581,7 +57581,7 @@
   }];
   const weapons: WeaponCard[] = [{
     class: Class.Brute,
-    identifier: "romping-club",
+    cardIdentifier: "romping-club",
     functionalText: `**Once per Turn Action** - {r}{r}: **Attack**  **Once per Turn Effect** – When you discard a card with 6 or more {p}, Romping Club gains +1{p} until end of turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU003.png",
     images: [{
@@ -57640,7 +57640,7 @@
     subType: WeaponSubType.Club
   },{
     class: Class.Guardian,
-    identifier: "anothos",
+    cardIdentifier: "anothos",
     functionalText: `**Once per turn Action** - {r}{r}{r}:**Attack**  While there are 2 or more cards with cost 3 or greater in your pitch zone, Anothos has +2{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU023.png",
     images: [{
@@ -57704,7 +57704,7 @@
     subType: WeaponSubType.Hammer
   },{
     class: Class.Ninja,
-    identifier: "harmonized-kodachi",
+    cardIdentifier: "harmonized-kodachi",
     functionalText: `**Once per Turn Action** - {r}: **Attack**  If you have a card with cost 0 in your pitch zone, Harmonized Kodachi has **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/CRU48.width-450.png",
     images: [{
@@ -57783,7 +57783,7 @@
     subType: WeaponSubType.Dagger
   },{
     class: Class.Warrior,
-    identifier: "dawnblade",
+    cardIdentifier: "dawnblade",
     functionalText: `**Once per Turn Action** - {r}: **Attack**  If Dawnblade hits, and it’s the second time it has hit this turn, put a +1{p} counter on Dawnblade.  At the beginning of your end phase, if Dawnblade has not hit this turn, remove all +1{p} counters from Dawnblade.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU078.png",
     images: [{
@@ -57847,7 +57847,7 @@
     subType: WeaponSubType.Sword
   },{
     class: Class.Mechanologist,
-    identifier: "teklo-plasma-pistol",
+    cardIdentifier: "teklo-plasma-pistol",
     functionalText: `**Action** - Remove a steam counter from Teklo Plasma Pistol: **Attack**  **Action** - {r}: If there are no steam counters on Teklo Plasma Pistol, put a steam counter on it. **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC003.png",
     images: [{
@@ -57896,7 +57896,7 @@
     subType: WeaponSubType.Pistol
   },{
     class: Class.Ranger,
-    identifier: "death-dealer",
+    cardIdentifier: "death-dealer",
     functionalText: `**Once per Turn Action** - {r}: If you have no cards in your arsenal, you may put an arrow card from your hand face up into your arsenal. If you do, draw a card. **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC040.png",
     images: [{
@@ -57945,7 +57945,7 @@
     subType: WeaponSubType.Bow
   },{
     class: Class.Runeblade,
-    identifier: "nebula-blade",
+    cardIdentifier: "nebula-blade",
     functionalText: `Once per Turn Action - {r}{r}: **Attack**  If Nebula Blade hits, create a Runechant token.  If you have played a 'non-attack' action card this turn, Nebula Blade gains +3{p} until end of turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC077.png",
     images: [{
@@ -57994,7 +57994,7 @@
     subType: WeaponSubType.Sword
   },{
     class: Class.Wizard,
-    identifier: "crucible-of-aetherweave",
+    cardIdentifier: "crucible-of-aetherweave",
     functionalText: `**Once per Turn Instant** - {r}: The next card you play this turn with an effect that deals arcane damage, instead deals that much arcane damage plus 1.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC115.png",
     images: [{
@@ -58043,7 +58043,7 @@
     subType: WeaponSubType.Staff
   },{
     class: Class.Brute,
-    identifier: "mandible-claw",
+    cardIdentifier: "mandible-claw",
     functionalText: `**Once per Turn Action** - {r}{r}: **Attack**  If you have discarded a card with 6 or more {p} this turn, Mandible Claw gains **go again.**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU004.png",
     images: [{
@@ -58092,7 +58092,7 @@
     subType: WeaponSubType.Claw
   },{
     class: Class.Guardian,
-    identifier: "sledge-of-anvilheim",
+    cardIdentifier: "sledge-of-anvilheim",
     functionalText: `**Action** - {r}{r}{r}{r}: **Attack**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU024.png",
     images: [{
@@ -58126,7 +58126,7 @@
     subType: WeaponSubType.Hammer
   },{
     class: Class.Ninja,
-    identifier: "edge-of-autumn",
+    cardIdentifier: "edge-of-autumn",
     functionalText: `**Once per Turn Action** - {r}: **Attack**. **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU050.png",
     images: [{
@@ -58165,7 +58165,7 @@
     subType: WeaponSubType.Sword
   },{
     class: Class.Ninja,
-    identifier: "zephyr-needle",
+    cardIdentifier: "zephyr-needle",
     functionalText: `**Once per Turn Attack** - {r}: **Attack**. **Go again**  If Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {p}, destroy Zephyr Needle when the combat chain closes.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/CRU51.width-450.png",
     images: [{
@@ -58214,7 +58214,7 @@
     subType: WeaponSubType.Dagger
   },{
     class: Class.Warrior,
-    identifier: "cintari-saber",
+    cardIdentifier: "cintari-saber",
     functionalText: `**Once per Turn Action** - {r}: **Attack**  Whenever Cintari Saber is defended by 1 or more attack action cards, it gains +1{p} until end of turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU079.png",
     images: [{
@@ -58263,7 +58263,7 @@
     subType: WeaponSubType.Sword
   },{
     class: Class.Mechanologist,
-    identifier: "plasma-barrel-shot",
+    cardIdentifier: "plasma-barrel-shot",
     functionalText: `**Once per Turn Action** - Remove a steam counter from Plasma Barrel Shot: **Attack**  **Action** - {r}{r}: If there are no steam counters on Plasma Barrel Shot, put a steam counter on it. **Go again**  X is equal to 1 plus the number of times you have **boosted** this combat chain.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU101.png",
     images: [{
@@ -58297,7 +58297,7 @@
     subType: WeaponSubType.Gun
   },{
     class: Class.Ranger,
-    identifier: "red-liner",
+    cardIdentifier: "red-liner",
     functionalText: `**Once per Turn Action** - 0: If you have no cards in your arsenal, put an arrow card from your hand face up into your arsenal. **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU121.png",
     images: [{
@@ -58331,7 +58331,7 @@
     subType: WeaponSubType.Bow
   },{
     class: Class.Runeblade,
-    identifier: "reaping-blade",
+    cardIdentifier: "reaping-blade",
     functionalText: `**Once per Turn Action** - {r}: **Attack**  If a hero has more {h} than any other hero, they can't gain {h}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU140.png",
     images: [{
@@ -58365,7 +58365,7 @@
     subType: WeaponSubType.Sword
   },{
     class: Class.Wizard,
-    identifier: "aether-conduit",
+    cardIdentifier: "aether-conduit",
     functionalText: `**Once per Turn Action** - {r}{r}: Deal 2 arcane damage to target hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU160.png",
     images: [{
@@ -58399,7 +58399,7 @@
     subType: WeaponSubType.Staff
   },{
     class: Class.Generic,
-    identifier: "talishar-the-lost-prince",
+    cardIdentifier: "talishar-the-lost-prince",
     functionalText: `**Once per Turn Action** - {r}{r}, put a rust counter on Talishar, the Lost Prince: **Attack**  At the beginning of your end phase, if Talishar, the Lost Prince has 3 or more rust counters on it, destroy it.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU177.png",
     images: [{
@@ -58433,7 +58433,7 @@
     subType: WeaponSubType.Sword
   },{
     class: Class.Illusionist,
-    identifier: "luminaris",
+    cardIdentifier: "luminaris",
     functionalText: `During your action phase, Illusionist auras you control are weapons with 1{p} and "**Once per Turn Action** - 0: **Attack**"  While there is a card with a yellow color strip in your pitch zone, Illusionist attacks you control have **go again.**"`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON003.width-450.png",
     images: [{
@@ -58462,7 +58462,7 @@
     subType: WeaponSubType.Scepter
   },{
     class: Class.Warrior,
-    identifier: "raydn-duskbane",
+    cardIdentifier: "raydn-duskbane",
     functionalText: `**Once per Turn Action** - 0: **Attack**  If you've **charged** this turn, Raydn gains +3{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON031.width-450.png",
     images: [{
@@ -58491,7 +58491,7 @@
     subType: WeaponSubType.Sword
   },{
     class: Class.Illusionist,
-    identifier: "iris-of-reality",
+    cardIdentifier: "iris-of-reality",
     functionalText: `Illusionist Weapon - Orb (2H)  During your action phase, Illusionist auras you control are weapons with 4{p} and **Once per Turn Action** - {r}{r}{r}: **Attack. Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON088.width-450.png",
     images: [{
@@ -58530,7 +58530,7 @@
     subType: WeaponSubType.Orb
   },{
     class: Class.Warrior,
-    identifier: "hatchet-of-body",
+    cardIdentifier: "hatchet-of-body",
     functionalText: `**Once per Turn Action** - {r}: **Attack**  Whenever you attack with Hatchet of Body, if Hatchet of Mind was the last attack this turn, Hatchet of Body gains +1{p} until end of turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON105.width-450.png",
     images: [{
@@ -58569,7 +58569,7 @@
     subType: WeaponSubType.Axe
   },{
     class: Class.Warrior,
-    identifier: "hatchet-of-mind",
+    cardIdentifier: "hatchet-of-mind",
     functionalText: `**Once per Turn Action** - {r}: **Attack**  Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack this turn, Hatchet of Mind gains +1{p} until end of turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON106.width-450.png",
     images: [{
@@ -58608,7 +58608,7 @@
     subType: WeaponSubType.Axe
   },{
     class: Class.Brute,
-    identifier: "hexagore-the-death-hydra",
+    cardIdentifier: "hexagore-the-death-hydra",
     functionalText: `**Once per Turn Action** - {r}{r}: **Attack**  Whenever you attack with Hexagore, the Death Hydra, it deals damage to you equal to 6 minus the number of cards with **blood debt** in your banished zone.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON121.width-450.png",
     images: [{
@@ -58637,7 +58637,7 @@
     subType: WeaponSubType.Flail
   },{
     class: Class.Runeblade,
-    identifier: "galaxxi-black",
+    cardIdentifier: "galaxxi-black",
     functionalText: `**Once per Turn Action** - {r}: **Attack**  If you have played a card from your banished zone this turn, Galaxxi Black gains +2{p} until end of turn.  If Galaxxi Black hits a hero, deal 1 arcane damage to that hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON155.width-450.png",
     images: [{
@@ -58681,7 +58681,7 @@
     subType: WeaponSubType.Sword
   },{
     class: Class.Brute,
-    identifier: "ravenous-meataxe",
+    cardIdentifier: "ravenous-meataxe",
     functionalText: `**Once per Turn Action** - {r}{r}: **Attack**  Whenever you attack with Ravenous Meataxe, draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, Ravenous Meataxe gains +2{p} until end of turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON221.width-450.png",
     images: [{
@@ -58720,7 +58720,7 @@
     subType: WeaponSubType.Axe
   },{
     class: Class.Runeblade,
-    identifier: "dread-scythe",
+    cardIdentifier: "dread-scythe",
     functionalText: `**Once per Turn Action** - {r}{r}{r}: **Attack**  Whenever you attack with Dread Scythe, deal 1 arcane damage to the defending hero.  A hero dealt damage by Dread Scythe can't gain {h} during their next action phase.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON229.width-450.png",
     images: [{
@@ -58749,7 +58749,7 @@
     subType: WeaponSubType.Scythe
   },{
     class: Class.Guardian,
-    identifier: "winters-wail",
+    cardIdentifier: "winters-wail",
     functionalText: `**Once per Turn Action** - {r}{r}{r}: **Attack**  If an Ice card is pitched this way, Winter’s Wail gains "If this hits a hero, create a Frostbite token under their control."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE003.width-450.png",
     images: [{
@@ -58778,7 +58778,7 @@
     subType: WeaponSubType.Hammer
   },{
     class: Class.Ranger,
-    identifier: "shiver",
+    cardIdentifier: "shiver",
     functionalText: `**Once per Turn Instant** - {r}: You may put an arrow card from your hand face up into an empty arsenal zone you control. If you do, choose 1;  - It gains +1{p} until end of turn.  - It gains **dominate** until end of turn. *(The defending hero can't defend the attack with more than 1 card from their hand.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE033.width-450.png",
     images: [{
@@ -58817,7 +58817,7 @@
     subType: WeaponSubType.Bow
   },{
     class: Class.Ranger,
-    identifier: "voltaire-strike-twice",
+    cardIdentifier: "voltaire-strike-twice",
     functionalText: `**Twice per Turn Instant** - {r}: You may put an arrow card from your hand face up into an empty arsenal zone you control. If you do, choose 1;  - It gains +1{p} until end of turn. - It gains **go again** until end of turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE034.width-450.png",
     images: [{
@@ -58851,7 +58851,7 @@
     subType: WeaponSubType.Bow
   },{
     class: Class.Guardian,
-    identifier: "titans-fist",
+    cardIdentifier: "titans-fist",
     functionalText: `**Once per Turn Action** - {r}{r}{r}: **Attack**  If there is a card with cost 3 or greater in your pitch zone, Titan’s Fist has +1{p}.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE202.width-450.png",
     images: [{
@@ -58890,7 +58890,7 @@
     subType: WeaponSubType.Hammer
   },{
     class: Class.Runeblade,
-    identifier: "rosetta-thorn",
+    cardIdentifier: "rosetta-thorn",
     functionalText: `**Once per Turn Action** - {r}: **Attack**  Whenever you attack with Rosetta Thorn, if you've played an attack action card and a 'non-attack' action card this turn, deal 2 arcane damage to target hero.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE222.width-450.png",
     images: [{
@@ -58929,7 +58929,7 @@
     subType: WeaponSubType.Sword
   },{
     class: Class.Runeblade,
-    identifier: "duskblade",
+    cardIdentifier: "duskblade",
     functionalText: `**Once per Turn Action** - {r}: **Attack**  Whenever you attack with Duskblade, if you've played an attack action card and a 'non-attack' action card this turn, put a +1{p} counter on Duskblade.  At the beginning of your end phase, if you haven't played an attack action card and a 'non-attack' action card this turn, remove all +1{p} counters from Duskblade.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE223.width-450.png",
     images: [{
@@ -58958,7 +58958,7 @@
     subType: WeaponSubType.Sword
   },{
     class: Class.Ranger,
-    identifier: "dreadbore",
+    cardIdentifier: "dreadbore",
     functionalText: `**Once per Turn Action** - {r}: You may put an arrow card from your hand face up into an empty arsenal zone you control. If you do, it gains +1{p} until end of turn. **Go again**  Arrows you control have "Defense reactions can't be played from hand this chain link."`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR087.width-450.png",
     images: [{
@@ -58982,7 +58982,7 @@
     subType: WeaponSubType.Bow
   },{
     class: Class.Wizard,
-    identifier: "krakens-aethervein",
+    cardIdentifier: "krakens-aethervein",
     functionalText: `**Once per Turn Instant** - {r}{r}{r}: Deal 1 arcane damage to target opposing hero. Draw a card for each arcane damage dealt this way.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR121.width-450.png",
     images: [{
@@ -59006,7 +59006,7 @@
     subType: WeaponSubType.Staff
   },{
     class: Class.Warrior,
-    identifier: "dawnblade-resplendent",
+    cardIdentifier: "dawnblade-resplendent",
     functionalText: `**Once per Turn Action** - {r}: **Attack**  The second time you attack with Dawnblade each turn, it gains +1{p} until end of turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/DVR002.width-450.png",
     images: [{
@@ -59030,7 +59030,7 @@
     subType: WeaponSubType.Sword
   },{
     class: Class.Brute,
-    identifier: "bone-basher",
+    cardIdentifier: "bone-basher",
     functionalText: `**Once per Turn Action** - {r}{r}: **Attack**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/RVD002.width-450.png",
     images: [{
@@ -59054,7 +59054,7 @@
     subType: WeaponSubType.Club
   },{
     class: Class.Illusionist,
-    identifier: "storm-of-sandikai",
+    cardIdentifier: "storm-of-sandikai",
     functionalText: `Dragon allies you control have “**Once per Turn Action** - 0: **Attack**”.  *(Allies can be attacked and can’t be defended by the controlling hero. They die when they have 0{h}. At end of turn, allies life totals are reset.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR003.png",
     images: [{
@@ -59078,7 +59078,7 @@
     subType: WeaponSubType.Scepter
   },{
     class: Class.Ninja,
-    identifier: "searing-emberblade",
+    cardIdentifier: "searing-emberblade",
     functionalText: `**Once per Turn Action** - {r}{r}: **Attack**  If you control 2 or more Draconic chain links, Searing Emberblade has **go again**.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR046.png",
     images: [{
@@ -59102,7 +59102,7 @@
     subType: WeaponSubType.Sword
   },{
     class: Class.Wizard,
-    identifier: "waning-moon",
+    cardIdentifier: "waning-moon",
     functionalText: `**Once per Turn Instant** - {r}{r}: Deal 2 arcane damage to target hero. If it’s not your turn, instead deal 3 arcane damage to them. Activate this ability only if you’ve played a ‘non-attack’ action card this turn.`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR165.png",
     images: [{
