@@ -452,7 +452,7 @@ const getTypeAndSubType = (
     "Yendurai",
   ];
   if (dragons.includes(card.name)) {
-    type = Type.Action;
+    type = Type.Token;
   }
 
   if (type === Type.Action && !subType) {
@@ -561,6 +561,8 @@ const getTokenCardData = (card: ParsedCard): TokenCard => {
   const { subType } = getTypeAndSubType(card);
   return {
     ...getCommonCardData(card),
+    life: card.life,
+    power: getPower(card) as number,
     talents: getTalents(card),
     // @ts-ignore
     subType,

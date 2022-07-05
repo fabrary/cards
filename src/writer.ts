@@ -187,6 +187,8 @@ const generateResourceTS = (card: ResourceCard): String => {
 const generateTokenTS = (card: TokenCard): String => {
   return `{
     ${getCardInfo(card)}
+    ${card.life ? `life: ${card.life},` : ``}
+    ${card.power ? `power: ${card.power},` : ``}
     talents: [${getEnumValues(card.talents, "Talent", Talent)}],
     ${
       card.subType

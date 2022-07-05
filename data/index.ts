@@ -23969,7 +23969,8 @@
     
     specializations: [],
     subType: ActionSubType.Attack,
-  },{
+  }];
+  const basicActions2: ActionCard[] = [{
     class: Class.NotClassed,
     cardIdentifier: "ghostly-visit-blue",
     functionalText: `You may play Ghostly Visit from your banished zone.  **Blood Debt** *(At the beginning of your end phase, if Ghostly Visit is in your banished zone, lose 1{h}.)*`,
@@ -24189,8 +24190,7 @@
     
     specializations: [],
     subType: ActionSubType.Attack,
-  }];
-  const basicActions2: ActionCard[] = [{
+  },{
     class: Class.NotClassed,
     cardIdentifier: "void-wraith-blue",
     functionalText: `You may play Void Wraith from your banished zone.  **Blood Debt** *(At the beginning of your end phase, if Void Wraith is in your banished zone, lose 1{h}.)*`,
@@ -38897,41 +38897,6 @@
     subType: ActionSubType.Invocation,
   },{
     class: Class.Illusionist,
-    cardIdentifier: "dracona-optimai",
-    functionalText: `Whenever Dracona Optimai attacks a hero, reveal the top 3 cards of your deck. He deals arcane damage equal to twice the number of red cards revealed this way to them or an ally they control.`,
-    defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR006_A_Back.png",
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "UPR006",
-      set: Release.Uprising,
-      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR006_A_Back.png",
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "UPR006",
-      set: Release.Uprising,
-      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR006_B_Back.png",
-    },],
-    keywords: [],
-    name: "Dracona Optimai",
-    rarity: Rarity.Majestic,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["UPR006"],
-    sets: [Release.Uprising],
-    type: Type.Action,
-    typeText: "Draconic Illusionist – Dragon Ally",
-    
-    
-    fusions: [],
-    
-    power: 6,
-    talents: [Talent.Draconic],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Ally,
-  },{
-    class: Class.Illusionist,
     cardIdentifier: "invoke-tomeltai-red",
     functionalText: `**Legendary** *(You may only have 1 Invoke Tomeltai in your deck.)*  **Transform** target ash you control into Tomeltai. **Go again** *(Put the ash under him.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR007.png",
@@ -38965,41 +38930,6 @@
     
     specializations: [],
     subType: ActionSubType.Invocation,
-  },{
-    class: Class.Illusionist,
-    cardIdentifier: "tomeltai",
-    functionalText: `Whenever Tomeltai attacks a hero, reveal the top 2 cards of your deck. If 1 or more red cards are revealed this way, put that many -1{d} counters on an equipment they control, then if it has 0{d}, destroy it.`,
-    defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR007_A_Back.png",
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "UPR007",
-      set: Release.Uprising,
-      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR007_A_Back.png",
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "UPR007",
-      set: Release.Uprising,
-      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR007_B_Back.png",
-    },],
-    keywords: [],
-    name: "Tomeltai",
-    rarity: Rarity.Majestic,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["UPR007"],
-    sets: [Release.Uprising],
-    type: Type.Action,
-    typeText: "Draconic Illusionist – Dragon Ally",
-    
-    
-    fusions: [],
-    
-    power: 5,
-    talents: [Talent.Draconic],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Ally,
   },{
     class: Class.Illusionist,
     cardIdentifier: "invoke-dominia-red",
@@ -39037,41 +38967,6 @@
     subType: ActionSubType.Invocation,
   },{
     class: Class.Illusionist,
-    cardIdentifier: "dominia",
-    functionalText: `Whenever Dominia attacks a hero, reveal the top card of your deck. If it’s a red card, look at their hand and banish a card from it.`,
-    defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR008_A_Back.png",
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "UPR008",
-      set: Release.Uprising,
-      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR008_A_Back.png",
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "UPR008",
-      set: Release.Uprising,
-      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR008_B_Back.png",
-    },],
-    keywords: [],
-    name: "Dominia",
-    rarity: Rarity.Majestic,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["UPR008"],
-    sets: [Release.Uprising],
-    type: Type.Action,
-    typeText: "Draconic Illusionist – Dragon Ally",
-    
-    
-    fusions: [],
-    
-    power: 4,
-    talents: [Talent.Draconic],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Ally,
-  },{
-    class: Class.Illusionist,
     cardIdentifier: "invoke-azvolai-red",
     functionalText: `*(Invocations resolve flipped as an ally in the arena.*)  **Transform** target ash you control into Azvolai. **Go again** *(Put the ash under him.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR009.png",
@@ -39105,41 +39000,6 @@
     
     specializations: [],
     subType: ActionSubType.Invocation,
-  },{
-    class: Class.Illusionist,
-    cardIdentifier: "azvolai",
-    functionalText: `Whenever Azvolai attacks, you may have him deal 1 arcane damage to up to any 2 targets.`,
-    defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR009_A_Back.png",
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "UPR009",
-      set: Release.Uprising,
-      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR009_A_Back.png",
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "UPR009",
-      set: Release.Uprising,
-      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR009_B_Back.png",
-    },],
-    keywords: [],
-    name: "Azvolai",
-    rarity: Rarity.Rare,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["UPR009"],
-    sets: [Release.Uprising],
-    type: Type.Action,
-    typeText: "Draconic Illusionist – Dragon Ally",
-    
-    
-    fusions: [],
-    
-    power: 2,
-    talents: [Talent.Draconic],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Ally,
   },{
     class: Class.Illusionist,
     cardIdentifier: "invoke-cromai-red",
@@ -39177,41 +39037,6 @@
     subType: ActionSubType.Invocation,
   },{
     class: Class.Illusionist,
-    cardIdentifier: "cromai",
-    functionalText: `Once per turn, when Cromai attacks or leaves the arena, gain 1 action point.`,
-    defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR010_A_Back.png",
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "UPR010",
-      set: Release.Uprising,
-      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR010_A_Back.png",
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "UPR010",
-      set: Release.Uprising,
-      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR010_B_Back.png",
-    },],
-    keywords: [],
-    name: "Cromai",
-    rarity: Rarity.Rare,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["UPR010"],
-    sets: [Release.Uprising],
-    type: Type.Action,
-    typeText: "Draconic Illusionist – Dragon Ally",
-    
-    
-    fusions: [],
-    
-    power: 3,
-    talents: [Talent.Draconic],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Ally,
-  },{
-    class: Class.Illusionist,
     cardIdentifier: "invoke-kyloria-red",
     functionalText: `*(Invocations resolve flipped as an ally in the arena.*)  **Transform** target ash you control into Kyloria. **Go again** *(Put the ash under her.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR011.png",
@@ -39245,41 +39070,6 @@
     
     specializations: [],
     subType: ActionSubType.Invocation,
-  },{
-    class: Class.Illusionist,
-    cardIdentifier: "kyloria",
-    functionalText: `Whenever Kyloria hits a hero, gain control of an item they control. If you don’t gain control of an item this way, draw a card.`,
-    defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR011_A_Back.png",
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "UPR011",
-      set: Release.Uprising,
-      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR011_A_Back.png",
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "UPR011",
-      set: Release.Uprising,
-      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR011_B_Back.png",
-    },],
-    keywords: [],
-    name: "Kyloria",
-    rarity: Rarity.Rare,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["UPR011"],
-    sets: [Release.Uprising],
-    type: Type.Action,
-    typeText: "Draconic Illusionist – Dragon Ally",
-    
-    
-    fusions: [],
-    
-    power: 4,
-    talents: [Talent.Draconic],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Ally,
   },{
     class: Class.Illusionist,
     cardIdentifier: "invoke-miragai-red",
@@ -39317,41 +39107,6 @@
     subType: ActionSubType.Invocation,
   },{
     class: Class.Illusionist,
-    cardIdentifier: "miragai",
-    functionalText: `Your first dragon attack each turn loses and can’t gain **phantasm**.`,
-    defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR012_A_Back.png",
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "UPR012",
-      set: Release.Uprising,
-      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR012_A_Back.png",
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "UPR012",
-      set: Release.Uprising,
-      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR012_B_Back.png",
-    },],
-    keywords: [],
-    name: "Miragai",
-    rarity: Rarity.Rare,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["UPR012"],
-    sets: [Release.Uprising],
-    type: Type.Action,
-    typeText: "Draconic Illusionist – Dragon Ally",
-    
-    
-    fusions: [],
-    
-    power: 2,
-    talents: [Talent.Draconic],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Ally,
-  },{
-    class: Class.Illusionist,
     cardIdentifier: "invoke-nekria-red",
     functionalText: `**Transform** target ash you control into Nekria. **Go again**`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR013.png",
@@ -39385,41 +39140,6 @@
     
     specializations: [],
     subType: ActionSubType.Invocation,
-  },{
-    class: Class.Illusionist,
-    cardIdentifier: "nekria",
-    functionalText: `Whenever Nekria deals or is dealt damage, put a -1{h} counter on her and create an Ash token.`,
-    defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR013_A_Back.png",
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "UPR013",
-      set: Release.Uprising,
-      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR013_A_Back.png",
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "UPR013",
-      set: Release.Uprising,
-      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR013_B_Back.png",
-    },],
-    keywords: [],
-    name: "Nekria",
-    rarity: Rarity.Rare,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["UPR013"],
-    sets: [Release.Uprising],
-    type: Type.Action,
-    typeText: "Draconic Illusionist – Dragon Ally",
-    
-    
-    fusions: [],
-    
-    power: 4,
-    talents: [Talent.Draconic],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Ally,
   },{
     class: Class.Illusionist,
     cardIdentifier: "invoke-ouvia-red",
@@ -39457,41 +39177,6 @@
     subType: ActionSubType.Invocation,
   },{
     class: Class.Illusionist,
-    cardIdentifier: "ouvia",
-    functionalText: `At the start of your turn or when Ouvia enters the arena, **transform** up to 1 ash you control into an Aether Ashwing. *(Create an Aether Ashwing token and put the ash under it.)*`,
-    defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR014_A_Back.png",
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "UPR014",
-      set: Release.Uprising,
-      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR014_A_Back.png",
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "UPR014",
-      set: Release.Uprising,
-      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR014_B_Back.png",
-    },],
-    keywords: [Keyword.Transform],
-    name: "Ouvia",
-    rarity: Rarity.Rare,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["UPR014"],
-    sets: [Release.Uprising],
-    type: Type.Action,
-    typeText: "Draconic Illusionist – Dragon Ally",
-    
-    
-    fusions: [],
-    
-    power: 1,
-    talents: [Talent.Draconic],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Ally,
-  },{
-    class: Class.Illusionist,
     cardIdentifier: "invoke-themai-red",
     functionalText: `*(Invocations resolve flipped as an ally in the arena.*)  **Transform** target ash you control into Themai. **Go again** *(Put the ash under him.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR015.png",
@@ -39525,41 +39210,6 @@
     
     specializations: [],
     subType: ActionSubType.Invocation,
-  },{
-    class: Class.Illusionist,
-    cardIdentifier: "themai",
-    functionalText: `Opponents can’t play cards or activate abilities during your turn.`,
-    defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR015_A_Back.png",
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "UPR015",
-      set: Release.Uprising,
-      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR015_A_Back.png",
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "UPR015",
-      set: Release.Uprising,
-      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR015_B_Back.png",
-    },],
-    keywords: [],
-    name: "Themai",
-    rarity: Rarity.Rare,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["UPR015"],
-    sets: [Release.Uprising],
-    type: Type.Action,
-    typeText: "Draconic Illusionist – Dragon Ally",
-    
-    
-    fusions: [],
-    
-    power: 3,
-    talents: [Talent.Draconic],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Ally,
   },{
     class: Class.Illusionist,
     cardIdentifier: "invoke-vynserakai-red",
@@ -39597,41 +39247,6 @@
     subType: ActionSubType.Invocation,
   },{
     class: Class.Illusionist,
-    cardIdentifier: "vynserakai",
-    functionalText: `Whenever Vynserakai hits a hero, he deals 3 arcane damage to them.`,
-    defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR016_A_Back.png",
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "UPR016",
-      set: Release.Uprising,
-      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR016_A_Back.png",
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "UPR016",
-      set: Release.Uprising,
-      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR016_B_Back.png",
-    },],
-    keywords: [],
-    name: "Vynserakai",
-    rarity: Rarity.Rare,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["UPR016"],
-    sets: [Release.Uprising],
-    type: Type.Action,
-    typeText: "Draconic Illusionist – Dragon Ally",
-    
-    
-    fusions: [],
-    
-    power: 6,
-    talents: [Talent.Draconic],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Ally,
-  },{
-    class: Class.Illusionist,
     cardIdentifier: "invoke-yendurai-red",
     functionalText: `*(Invocations resolve flipped as an ally in the arena.*)  **Transform** target ash you control into Yendurai. **Go again** *(Put the ash under him.)*`,
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR017.png",
@@ -39665,41 +39280,6 @@
     
     specializations: [],
     subType: ActionSubType.Invocation,
-  },{
-    class: Class.Illusionist,
-    cardIdentifier: "yendurai",
-    functionalText: `Yendurai enters the arena with an endurance counter on him.  If Yendurai would be dealt damage, remove an endurance counter from him to prevent 3 of that damage.`,
-    defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR017_A_Back.png",
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "UPR017",
-      set: Release.Uprising,
-      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR017_A_Back.png",
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "UPR017",
-      set: Release.Uprising,
-      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR017_B_Back.png",
-    },],
-    keywords: [],
-    name: "Yendurai",
-    rarity: Rarity.Rare,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["UPR017"],
-    sets: [Release.Uprising],
-    type: Type.Action,
-    typeText: "Draconic Illusionist – Dragon Ally",
-    
-    
-    fusions: [],
-    
-    power: 3,
-    talents: [Talent.Draconic],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Ally,
   },{
     class: Class.Illusionist,
     cardIdentifier: "billowing-mirage-red",
@@ -57057,6 +56637,8 @@
     sets: [Release.OldhimBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar,Release.TalesOfAria,Release.Everfest],
     type: Type.Token,
     typeText: "Guardian Token – Aura",
+    
+    
     talents: [],
     subType: TokenSubType.Aura
   },{
@@ -57123,6 +56705,8 @@
     sets: [Release.Promos,Release.RhinarHeroDeck,Release.DorintheaHeroDeck,Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar,Release.Everfest],
     type: Type.Token,
     typeText: "Generic Token – Aura",
+    
+    
     talents: [],
     subType: TokenSubType.Aura
   },{
@@ -57174,6 +56758,8 @@
     sets: [Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar,Release.Everfest],
     type: Type.Token,
     typeText: "Runeblade Token – Aura",
+    
+    
     talents: [],
     subType: TokenSubType.Aura
   },{
@@ -57205,6 +56791,8 @@
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
     type: Type.Token,
     typeText: "Ninja Token – Aura",
+    
+    
     talents: [],
     subType: TokenSubType.Aura
   },{
@@ -57246,6 +56834,8 @@
     sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar,Release.Everfest],
     type: Type.Token,
     typeText: "Generic Token – Item",
+    
+    
     talents: [],
     subType: TokenSubType.Item
   },{
@@ -57282,6 +56872,8 @@
     sets: [Release.PrismBlitzDeck,Release.Monarch,Release.Everfest],
     type: Type.Token,
     typeText: "Illusionist Token – Aura",
+    
+    
     talents: [],
     subType: TokenSubType.Aura
   },{
@@ -57313,6 +56905,8 @@
     sets: [Release.ChaneBlitzDeck,Release.Monarch],
     type: Type.Token,
     typeText: "Shadow Runeblade Token – Aura",
+    
+    
     talents: [Talent.Shadow],
     subType: TokenSubType.Aura
   },{
@@ -57349,6 +56943,8 @@
     sets: [Release.Promos,Release.Monarch],
     type: Type.Token,
     typeText: "Shadow Token – Demon Ally",
+    life: 6,
+    power: 6,
     talents: [Talent.Shadow],
     subType: TokenSubType.Ally
   },{
@@ -57385,6 +56981,8 @@
     sets: [Release.Promos,Release.Monarch],
     type: Type.Token,
     typeText: "Shadow Token – Demon Ally",
+    life: 6,
+    power: 6,
     talents: [Talent.Shadow],
     subType: TokenSubType.Ally
   },{
@@ -57416,6 +57014,8 @@
     sets: [Release.BriarBlitzDeck,Release.TalesOfAria],
     type: Type.Token,
     typeText: "Elemental Token – Aura",
+    
+    
     talents: [Talent.Elemental],
     subType: TokenSubType.Aura
   },{
@@ -57447,6 +57047,8 @@
     sets: [Release.BriarBlitzDeck,Release.TalesOfAria],
     type: Type.Token,
     typeText: "Elemental Token – Aura",
+    
+    
     talents: [Talent.Elemental],
     subType: TokenSubType.Aura
   },{
@@ -57493,6 +57095,8 @@
     sets: [Release.LexiBlitzDeck,Release.OldhimBlitzDeck,Release.TalesOfAria,Release.Everfest,Release.Uprising],
     type: Type.Token,
     typeText: "Elemental Token – Aura",
+    
+    
     talents: [Talent.Elemental],
     subType: TokenSubType.Aura
   },{
@@ -57514,8 +57118,346 @@
     sets: [Release.Everfest],
     type: Type.Token,
     typeText: "Generic Token – Item",
+    
+    
     talents: [],
     subType: TokenSubType.Item
+  },{
+    class: Class.Illusionist,
+    cardIdentifier: "dracona-optimai",
+    functionalText: `Whenever Dracona Optimai attacks a hero, reveal the top 3 cards of your deck. He deals arcane damage equal to twice the number of red cards revealed this way to them or an ally they control.`,
+    defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR006_A_Back.png",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "UPR006",
+      set: Release.Uprising,
+      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR006_A_Back.png",
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "UPR006",
+      set: Release.Uprising,
+      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR006_B_Back.png",
+    },],
+    keywords: [],
+    name: "Dracona Optimai",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["UPR006"],
+    sets: [Release.Uprising],
+    type: Type.Token,
+    typeText: "Draconic Illusionist – Dragon Ally",
+    life: 6,
+    power: 6,
+    talents: [Talent.Draconic],
+    subType: TokenSubType.Ally
+  },{
+    class: Class.Illusionist,
+    cardIdentifier: "tomeltai",
+    functionalText: `Whenever Tomeltai attacks a hero, reveal the top 2 cards of your deck. If 1 or more red cards are revealed this way, put that many -1{d} counters on an equipment they control, then if it has 0{d}, destroy it.`,
+    defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR007_A_Back.png",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "UPR007",
+      set: Release.Uprising,
+      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR007_A_Back.png",
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "UPR007",
+      set: Release.Uprising,
+      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR007_B_Back.png",
+    },],
+    keywords: [],
+    name: "Tomeltai",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["UPR007"],
+    sets: [Release.Uprising],
+    type: Type.Token,
+    typeText: "Draconic Illusionist – Dragon Ally",
+    life: 5,
+    power: 5,
+    talents: [Talent.Draconic],
+    subType: TokenSubType.Ally
+  },{
+    class: Class.Illusionist,
+    cardIdentifier: "dominia",
+    functionalText: `Whenever Dominia attacks a hero, reveal the top card of your deck. If it’s a red card, look at their hand and banish a card from it.`,
+    defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR008_A_Back.png",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "UPR008",
+      set: Release.Uprising,
+      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR008_A_Back.png",
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "UPR008",
+      set: Release.Uprising,
+      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR008_B_Back.png",
+    },],
+    keywords: [],
+    name: "Dominia",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["UPR008"],
+    sets: [Release.Uprising],
+    type: Type.Token,
+    typeText: "Draconic Illusionist – Dragon Ally",
+    life: 4,
+    power: 4,
+    talents: [Talent.Draconic],
+    subType: TokenSubType.Ally
+  },{
+    class: Class.Illusionist,
+    cardIdentifier: "azvolai",
+    functionalText: `Whenever Azvolai attacks, you may have him deal 1 arcane damage to up to any 2 targets.`,
+    defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR009_A_Back.png",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "UPR009",
+      set: Release.Uprising,
+      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR009_A_Back.png",
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "UPR009",
+      set: Release.Uprising,
+      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR009_B_Back.png",
+    },],
+    keywords: [],
+    name: "Azvolai",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["UPR009"],
+    sets: [Release.Uprising],
+    type: Type.Token,
+    typeText: "Draconic Illusionist – Dragon Ally",
+    life: 3,
+    power: 2,
+    talents: [Talent.Draconic],
+    subType: TokenSubType.Ally
+  },{
+    class: Class.Illusionist,
+    cardIdentifier: "cromai",
+    functionalText: `Once per turn, when Cromai attacks or leaves the arena, gain 1 action point.`,
+    defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR010_A_Back.png",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "UPR010",
+      set: Release.Uprising,
+      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR010_A_Back.png",
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "UPR010",
+      set: Release.Uprising,
+      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR010_B_Back.png",
+    },],
+    keywords: [],
+    name: "Cromai",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["UPR010"],
+    sets: [Release.Uprising],
+    type: Type.Token,
+    typeText: "Draconic Illusionist – Dragon Ally",
+    life: 2,
+    power: 3,
+    talents: [Talent.Draconic],
+    subType: TokenSubType.Ally
+  },{
+    class: Class.Illusionist,
+    cardIdentifier: "kyloria",
+    functionalText: `Whenever Kyloria hits a hero, gain control of an item they control. If you don’t gain control of an item this way, draw a card.`,
+    defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR011_A_Back.png",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "UPR011",
+      set: Release.Uprising,
+      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR011_A_Back.png",
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "UPR011",
+      set: Release.Uprising,
+      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR011_B_Back.png",
+    },],
+    keywords: [],
+    name: "Kyloria",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["UPR011"],
+    sets: [Release.Uprising],
+    type: Type.Token,
+    typeText: "Draconic Illusionist – Dragon Ally",
+    life: 2,
+    power: 4,
+    talents: [Talent.Draconic],
+    subType: TokenSubType.Ally
+  },{
+    class: Class.Illusionist,
+    cardIdentifier: "miragai",
+    functionalText: `Your first dragon attack each turn loses and can’t gain **phantasm**.`,
+    defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR012_A_Back.png",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "UPR012",
+      set: Release.Uprising,
+      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR012_A_Back.png",
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "UPR012",
+      set: Release.Uprising,
+      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR012_B_Back.png",
+    },],
+    keywords: [],
+    name: "Miragai",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["UPR012"],
+    sets: [Release.Uprising],
+    type: Type.Token,
+    typeText: "Draconic Illusionist – Dragon Ally",
+    life: 4,
+    power: 2,
+    talents: [Talent.Draconic],
+    subType: TokenSubType.Ally
+  },{
+    class: Class.Illusionist,
+    cardIdentifier: "nekria",
+    functionalText: `Whenever Nekria deals or is dealt damage, put a -1{h} counter on her and create an Ash token.`,
+    defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR013_A_Back.png",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "UPR013",
+      set: Release.Uprising,
+      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR013_A_Back.png",
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "UPR013",
+      set: Release.Uprising,
+      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR013_B_Back.png",
+    },],
+    keywords: [],
+    name: "Nekria",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["UPR013"],
+    sets: [Release.Uprising],
+    type: Type.Token,
+    typeText: "Draconic Illusionist – Dragon Ally",
+    life: 7,
+    power: 4,
+    talents: [Talent.Draconic],
+    subType: TokenSubType.Ally
+  },{
+    class: Class.Illusionist,
+    cardIdentifier: "ouvia",
+    functionalText: `At the start of your turn or when Ouvia enters the arena, **transform** up to 1 ash you control into an Aether Ashwing. *(Create an Aether Ashwing token and put the ash under it.)*`,
+    defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR014_A_Back.png",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "UPR014",
+      set: Release.Uprising,
+      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR014_A_Back.png",
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "UPR014",
+      set: Release.Uprising,
+      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR014_B_Back.png",
+    },],
+    keywords: [Keyword.Transform],
+    name: "Ouvia",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["UPR014"],
+    sets: [Release.Uprising],
+    type: Type.Token,
+    typeText: "Draconic Illusionist – Dragon Ally",
+    life: 6,
+    power: 1,
+    talents: [Talent.Draconic],
+    subType: TokenSubType.Ally
+  },{
+    class: Class.Illusionist,
+    cardIdentifier: "themai",
+    functionalText: `Opponents can’t play cards or activate abilities during your turn.`,
+    defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR015_A_Back.png",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "UPR015",
+      set: Release.Uprising,
+      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR015_A_Back.png",
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "UPR015",
+      set: Release.Uprising,
+      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR015_B_Back.png",
+    },],
+    keywords: [],
+    name: "Themai",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["UPR015"],
+    sets: [Release.Uprising],
+    type: Type.Token,
+    typeText: "Draconic Illusionist – Dragon Ally",
+    life: 4,
+    power: 3,
+    talents: [Talent.Draconic],
+    subType: TokenSubType.Ally
+  },{
+    class: Class.Illusionist,
+    cardIdentifier: "vynserakai",
+    functionalText: `Whenever Vynserakai hits a hero, he deals 3 arcane damage to them.`,
+    defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR016_A_Back.png",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "UPR016",
+      set: Release.Uprising,
+      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR016_A_Back.png",
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "UPR016",
+      set: Release.Uprising,
+      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR016_B_Back.png",
+    },],
+    keywords: [],
+    name: "Vynserakai",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["UPR016"],
+    sets: [Release.Uprising],
+    type: Type.Token,
+    typeText: "Draconic Illusionist – Dragon Ally",
+    life: 1,
+    power: 6,
+    talents: [Talent.Draconic],
+    subType: TokenSubType.Ally
+  },{
+    class: Class.Illusionist,
+    cardIdentifier: "yendurai",
+    functionalText: `Yendurai enters the arena with an endurance counter on him.  If Yendurai would be dealt damage, remove an endurance counter from him to prevent 3 of that damage.`,
+    defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR017_A_Back.png",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "UPR017",
+      set: Release.Uprising,
+      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR017_A_Back.png",
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "UPR017",
+      set: Release.Uprising,
+      url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR017_B_Back.png",
+    },],
+    keywords: [],
+    name: "Yendurai",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["UPR017"],
+    sets: [Release.Uprising],
+    type: Type.Token,
+    typeText: "Draconic Illusionist – Dragon Ally",
+    life: 3,
+    power: 3,
+    talents: [Talent.Draconic],
+    subType: TokenSubType.Ally
   },{
     class: Class.Illusionist,
     cardIdentifier: "aether-ashwing",
@@ -57545,6 +57487,8 @@
     sets: [Release.Uprising],
     type: Type.Token,
     typeText: "Draconic Illusionist Token – Dragon Ally",
+    life: 1,
+    power: 1,
     talents: [Talent.Draconic],
     subType: TokenSubType.Ally
   },{
@@ -57576,6 +57520,8 @@
     sets: [Release.Uprising],
     type: Type.Token,
     typeText: "Draconic Illusionist Token – Ash",
+    
+    
     talents: [Talent.Draconic],
     subType: TokenSubType.Ash
   }];

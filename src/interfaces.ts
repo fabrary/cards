@@ -66,6 +66,8 @@ export interface ResourceCard extends Card {
 }
 
 export interface TokenCard extends Card {
+  life?: number;
+  power?: number;
   talents?: Talent[];
   subType: TokenSubType;
 }
