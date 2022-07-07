@@ -1,5 +1,5 @@
 export interface Card {
-  artists?: string[];
+  artists: string[];
   cardIdentifier: string;
   class: Class;
   defaultImageUrl: string;
