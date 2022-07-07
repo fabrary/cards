@@ -470,6 +470,7 @@ const getYoung = (card: ParsedCard): boolean | null => {
 const getCommonCardData = (card: ParsedCard): Card => {
   const { type } = getTypeAndSubType(card);
   return {
+    artists: card.artists,
     class: getClass(card),
     cardIdentifier: getIdentifier(card),
     functionalText: card.functionalText,

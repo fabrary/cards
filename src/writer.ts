@@ -73,9 +73,14 @@ const getImages = (images: Image[]) => {
 
 const getCardInfo = (card: Card): String => {
   return `class: ${getEnumValue(card.class, "Class", Class)},
+    ${
+      card.artists
+        ? `artists: [${card.artists.map((artist) => `"${artist}"`)}]`
+        : []
+    },
     cardIdentifier: "${card.cardIdentifier}",
-    functionalText: \`${card.functionalText}\`,
     defaultImageUrl: "${card.defaultImageUrl}",
+    functionalText: \`${card.functionalText}\`,
     images: [${getImages(card.images)}],
     keywords: [${getEnumValues(card.keywords, "Keyword", Keyword)}],
     name: "${card.name}",

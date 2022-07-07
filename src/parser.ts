@@ -4,7 +4,7 @@ import { parse } from "papaparse";
 export interface ParsedCard {
   abilitiesAndEffects: string[];
   abilityAndEffectKeywords: string[];
-  artists: string;
+  artists: string[];
   cardKeywords: string[];
   cardPlayedHorizontally: boolean;
   cost: number | string;
@@ -43,16 +43,17 @@ export interface ParsedCard {
 
 // Make fields that should be lists actually lists instead of a string (which is how CSVs store it)
 const fieldsWithListValues = [
-  "identifiers",
-  "setIdentifiers",
-  "rarity",
-  "types",
-  "cardKeywords",
   "abilitiesAndEffects",
   "abilitiesAndEffectKeywords",
+  "artists",
+  "cardKeywords",
   "grantedKeywords",
-  "variations",
+  "identifiers",
   "images",
+  "rarity",
+  "setIdentifiers",
+  "types",
+  "variations",
 ];
 const transform = (value: any, field: string) => {
   if (fieldsWithListValues.includes(field)) {

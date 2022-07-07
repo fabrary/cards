@@ -27,8 +27,9 @@ cards.forEach((card) => {
 
 | Field             | Data type            | Examples                                    |
 | ----------------- | -------------------- | ------------------------------------------- |
-| class             | `Class` enum         | `"Generic"`, `"Wizard"`                     |
+| artists           | `string` array       | `[ "Riordan Delmiro" ]`                     |
 | cardIdentifier    | `string`             | `"snatch-red"`, `"aether-wildfire-red"`     |
+| class             | `Class` enum         | `"Generic"`, `"Wizard"`                     |
 | functionalText    | `string`             | `"If Snatch hits, draw a card."`            |
 | imageUrl          | `string`             | `"https://.../images/1HP371.width-450.png"` |
 | keywords          | `Keyword` enum array | `[ "Boost" ]`                               |
