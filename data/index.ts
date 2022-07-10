@@ -51334,7 +51334,7 @@
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "blizzard-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE147.width-450.png",
-    functionalText: `Target attack loses and can't gain **go again** unless the attacking hero pays {r}{r}.`,
+    functionalText: `Target attack loses and can't gain **go again** unless its controller pays {r}{r}.`,
     images: [{
       edition: ReleaseEdition.First,
       identifier: "ELE147",
@@ -53860,7 +53860,7 @@
     artists: ["Mihail Spil-Haufter"],
     cardIdentifier: "vestige-of-sol",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON060.width-450.png",
-    functionalText: `Whenever you pitch a Light card, if a card has been put into your hero’s soul this turn, gain {r}.  **Blade Break** *(If you defend with Vestige of Sol, destroy it when the combat chain closes.)*`,
+    functionalText: `If a card has been put into your hero's soul this turn, whenever you pitch a Light card, instead gain that many {r} plus 1.  **Blade Break** *(If you defend with Vestige of Sol, destroy it when the combat chain closes.)*`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB017",
