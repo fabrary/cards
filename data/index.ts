@@ -7901,7 +7901,7 @@
     
     
     specializations: [Hero.Azalea],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Daniel Jiménez"],
@@ -7983,7 +7983,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Alexander Mokhov"],
@@ -8342,7 +8342,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Igor Heras"],
@@ -8383,7 +8383,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Igor Heras"],
@@ -8424,7 +8424,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Anastasiya Grintsova"],
@@ -8460,7 +8460,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Anastasiya Grintsova"],
@@ -8496,7 +8496,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Anastasiya Grintsova"],
@@ -8532,7 +8532,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Anastasiya Grintsova"],
@@ -8578,7 +8578,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Anastasiya Grintsova"],
@@ -8624,7 +8624,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Anastasiya Grintsova"],
@@ -8670,7 +8670,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Rachel Alderson"],
@@ -8711,7 +8711,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Rachel Alderson"],
@@ -8752,7 +8752,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Rachel Alderson"],
@@ -8793,7 +8793,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Vadim Kalabukh"],
@@ -8834,7 +8834,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Vadim Kalabukh"],
@@ -8875,7 +8875,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Vadim Kalabukh"],
@@ -8916,7 +8916,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Alexandra Malygina"],
@@ -8967,7 +8967,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Alexandra Malygina"],
@@ -9013,7 +9013,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Alexandra Malygina"],
@@ -9059,7 +9059,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Runeblade,
     artists: ["Alexander Mokhov"],
@@ -16676,7 +16676,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Marco Wulfr"],
@@ -16748,7 +16748,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Trung Tin Shinji"],
@@ -16784,7 +16784,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Trung Tin Shinji"],
@@ -16820,7 +16820,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Marco González"],
@@ -16866,7 +16866,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Marco González"],
@@ -16912,7 +16912,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Marco González"],
@@ -16958,7 +16958,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Faizal Fikri"],
@@ -28345,7 +28345,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Alexander Mokhov"],
@@ -28381,7 +28381,7 @@
     
     
     specializations: [Hero.Lexi],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Narendra B Adi"],
@@ -28453,7 +28453,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Daria Khlebnikova"],
@@ -28489,7 +28489,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Daria Khlebnikova"],
@@ -28525,7 +28525,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Federico Musetti"],
@@ -28566,7 +28566,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Federico Musetti"],
@@ -28602,7 +28602,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Federico Musetti"],
@@ -28638,7 +28638,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Narendra B Adi"],
@@ -28679,7 +28679,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Narendra B Adi"],
@@ -28715,7 +28715,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Narendra B Adi"],
@@ -28751,7 +28751,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Kyxarie Peralta"],
@@ -28792,7 +28792,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Kyxarie Peralta"],
@@ -28833,7 +28833,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Kyxarie Peralta"],
@@ -28869,7 +28869,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Tanapon Wachirakul"],
@@ -28905,7 +28905,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Tanapon Wachirakul"],
@@ -28946,7 +28946,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Tanapon Wachirakul"],
@@ -28982,7 +28982,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Sam Yang"],
@@ -29023,7 +29023,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Sam Yang"],
@@ -29059,7 +29059,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Sam Yang"],
@@ -29095,7 +29095,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Faizal Fikri"],
@@ -29131,7 +29131,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Faizal Fikri"],
@@ -29167,7 +29167,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Faizal Fikri"],
@@ -29203,7 +29203,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Marco Wulfr"],
@@ -29244,7 +29244,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Marco Wulfr"],
@@ -29285,7 +29285,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Marco Wulfr"],
@@ -29321,7 +29321,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Runeblade,
     artists: ["Hoàng Lập"],
@@ -31923,7 +31923,7 @@
   },{
     class: Class.NotClassed,
     artists: ["Mateusz Wisniewski"],
-    cardIdentifier: "amulet-of-earth",
+    cardIdentifier: "amulet-of-earth-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE143.width-450.png",
     functionalText: `**Go again**  **Instant** - Destroy Amulet of Earth: Attack action cards you control gain +1{p} and +1{d} this turn. Activate this ability only if you have Earth **fused** this turn.`,
     images: [{
@@ -31958,7 +31958,7 @@
     cost: 0,
     
     fusions: [],
-    
+    pitch: 3,
     
     talents: [Talent.Earth],
     
@@ -34213,7 +34213,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Cristián Huerta"],
@@ -34249,7 +34249,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Cristián Huerta"],
@@ -34285,7 +34285,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Isuardi Therianto"],
@@ -36611,7 +36611,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["bimawithpencil"],
@@ -36781,7 +36781,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Marco González"],
@@ -36812,7 +36812,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Marco González"],
@@ -36843,7 +36843,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Mateusz Wisniewski"],
@@ -36874,7 +36874,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Mateusz Wisniewski"],
@@ -36905,7 +36905,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Mateusz Wisniewski"],
@@ -36936,7 +36936,7 @@
     
     
     specializations: [],
-    subType: ActionSubType.Attack,
+    subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
     artists: ["Patchanee Treedet"],

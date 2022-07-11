@@ -428,7 +428,7 @@ const getTypeAndSubType = (
     } else {
       for (const [subTypeEnumKey, subTypeEnumValue] of Object.entries(
         subTypeEnum
-      )) {
+      ).reverse()) {
         if (types.includes(subTypeEnumValue)) {
           subType = subTypeEnum[subTypeEnumKey];
           break;
