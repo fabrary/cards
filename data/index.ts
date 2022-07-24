@@ -24,6 +24,7 @@
     Talent,
     TokenCard,
     TokenSubType,
+    Treatment,
     Type,
     WeaponCard,
     WeaponSubType
@@ -39,21 +40,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "RVD008",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RVD008.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP010",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP010.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR006",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR006.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR006",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR006.png",
     },],
     keywords: [Keyword.Specialization,Keyword.Intimidate],
@@ -85,16 +90,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP014",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP014.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR007",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR007.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR007",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR007.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -126,16 +134,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP015",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP015.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR009",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR009.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR009",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR009.png",
     },],
     keywords: [Keyword.Specialization],
@@ -167,21 +178,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP016",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP016.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "RNR008",
       set: Release.RhinarHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RNR8.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR011",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR011.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR011",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR011.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -213,16 +228,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP017",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP017.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR012",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR012.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR012",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR012.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -254,16 +272,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP018",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP018.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR013",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR013.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR013",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR013.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -295,21 +316,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "RNR010",
       set: Release.RhinarHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RNR10.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP019",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP019.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR014",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR014.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR014",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR014.png",
     },],
     keywords: [],
@@ -341,16 +366,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP020",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP020.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR015",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR015.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR015",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR015.png",
     },],
     keywords: [],
@@ -382,16 +410,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP021",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP021.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR016",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR016.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR016",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR016.png",
     },],
     keywords: [],
@@ -423,16 +454,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP022",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP022.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR017",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR017.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR017",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR017.png",
     },],
     keywords: [Keyword.Intimidate,Keyword.GoAgain],
@@ -464,26 +498,31 @@
       edition: ReleaseEdition.Promo,
       identifier: "RNR018",
       set: Release.RhinarHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RNR18.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "RVD021",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RVD021.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP023",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP023.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR018",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR018.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR018",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR018.png",
     },],
     keywords: [Keyword.Intimidate,Keyword.GoAgain],
@@ -515,21 +554,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "RNR025",
       set: Release.RhinarHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RNR25.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP024",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP024.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR019",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR019.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR019",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR019.png",
     },],
     keywords: [Keyword.Intimidate,Keyword.GoAgain],
@@ -561,21 +604,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "RNR011",
       set: Release.RhinarHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RNR11.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP031",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP031.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR020",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR020.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR020",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR020.png",
     },],
     keywords: [],
@@ -607,21 +654,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "RNR016",
       set: Release.RhinarHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RNR16.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP032",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP032.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR021",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR021.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR021",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR021.png",
     },],
     keywords: [],
@@ -653,16 +704,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP033",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP033.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR022",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR022.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR022",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR022.png",
     },],
     keywords: [],
@@ -694,26 +748,31 @@
       edition: ReleaseEdition.Promo,
       identifier: "RNR009",
       set: Release.RhinarHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RNR9.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "RVD010",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RVD010.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP025",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP025.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR023",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR023.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR023",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR023.png",
     },],
     keywords: [Keyword.Intimidate],
@@ -745,16 +804,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP026",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP026.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR024",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR024.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR024",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR024.png",
     },],
     keywords: [Keyword.Intimidate],
@@ -786,16 +848,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP027",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP027.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR025",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR025.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR025",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR025.png",
     },],
     keywords: [Keyword.Intimidate],
@@ -827,21 +892,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "RNR012",
       set: Release.RhinarHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RNR12.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP034",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP034.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR026",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR026.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR026",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR026.png",
     },],
     keywords: [Keyword.Intimidate],
@@ -873,26 +942,31 @@
       edition: ReleaseEdition.Promo,
       identifier: "RNR017",
       set: Release.RhinarHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RNR17.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "RVD016",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RVD016.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP035",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP035.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR027",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR027.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR027",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR027.png",
     },],
     keywords: [Keyword.Intimidate],
@@ -924,16 +998,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP036",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP036.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR028",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR028.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR028",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR028.png",
     },],
     keywords: [Keyword.Intimidate],
@@ -965,26 +1042,31 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS020",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS020.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "RNR013",
       set: Release.RhinarHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RNR13.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP037",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP037.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR029",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR029.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR029",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR029.png",
     },],
     keywords: [],
@@ -1016,21 +1098,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS021",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS021.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP038",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP038.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR030",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR030.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR030",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR030.png",
     },],
     keywords: [],
@@ -1062,36 +1148,43 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS005",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS005-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LGS022",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS022.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "RNR023",
       set: Release.RhinarHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RNR23.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "RVD023",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RVD023.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP039",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP039.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR031",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR031.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR031",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR031.png",
     },],
     keywords: [],
@@ -1123,21 +1216,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "RNR014",
       set: Release.RhinarHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RNR14.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "RVD014",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RVD014.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR032",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR032.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR032",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR032.png",
     },],
     keywords: [Keyword.Intimidate,Keyword.GoAgain],
@@ -1169,11 +1266,13 @@
       edition: ReleaseEdition.Alpha,
       identifier: "WTR033",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR033.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR033",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR033.png",
     },],
     keywords: [Keyword.Intimidate,Keyword.GoAgain],
@@ -1205,16 +1304,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "RNR024",
       set: Release.RhinarHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RNR24.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR034",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR034.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR034",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR034.png",
     },],
     keywords: [Keyword.Intimidate,Keyword.GoAgain],
@@ -1246,16 +1348,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP040",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP040.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR035",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR035.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR035",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR035.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -1287,16 +1392,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP041",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP041.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR036",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR036.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR036",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR036.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -1328,21 +1436,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "RNR026",
       set: Release.RhinarHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RNR26.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP042",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP042.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR037",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR037.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR037",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR037.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -1374,16 +1486,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP050",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP050.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR043",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR043.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR043",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR043.png",
     },],
     keywords: [Keyword.Specialization,Keyword.Crush],
@@ -1415,16 +1530,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP053",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP053.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR044",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR044.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR044",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR044.png",
     },],
     keywords: [Keyword.Crush],
@@ -1456,11 +1574,13 @@
       edition: ReleaseEdition.Alpha,
       identifier: "WTR045",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR045.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR045",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR045.png",
     },],
     keywords: [Keyword.Crush],
@@ -1492,11 +1612,13 @@
       edition: ReleaseEdition.Alpha,
       identifier: "WTR046",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR046.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR046",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR046.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -1528,16 +1650,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP054",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP054.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR047",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR047.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR047",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR047.png",
     },],
     keywords: [Keyword.Specialization],
@@ -1569,21 +1694,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "BVO011",
       set: Release.BravoBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BVO11.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP055",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP055.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR048",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR048.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR048",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR048.png",
     },],
     keywords: [Keyword.Crush],
@@ -1615,16 +1744,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP056",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP056.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR049",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR049.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR049",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR049.png",
     },],
     keywords: [Keyword.Crush],
@@ -1656,21 +1788,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "BVO019",
       set: Release.BravoBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BVO19.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP057",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP057.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR050",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR050.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR050",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR050.png",
     },],
     keywords: [Keyword.Crush],
@@ -1702,26 +1838,31 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS006",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS006-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LGS023",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS023.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP061",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP061.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR054",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR054.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR054",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR054.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -1753,21 +1894,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS024",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS024.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP062",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP062.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR055",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR055.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR055",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR055.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -1799,26 +1944,31 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS025",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS025.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "BVO021",
       set: Release.BravoBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BVO21.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP063",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP063.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR056",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR056.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR056",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR056.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -1850,16 +2000,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BVO008",
       set: Release.BravoBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BVO8.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR057",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR057.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR057",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR057.png",
     },],
     keywords: [Keyword.Crush],
@@ -1891,11 +2044,13 @@
       edition: ReleaseEdition.Alpha,
       identifier: "WTR058",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR058.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR058",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR058.png",
     },],
     keywords: [Keyword.Crush],
@@ -1927,16 +2082,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BVO016",
       set: Release.BravoBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BVO16.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR059",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR059.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR059",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR059.png",
     },],
     keywords: [Keyword.Crush],
@@ -1968,21 +2126,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "BVO009",
       set: Release.BravoBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BVO9.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP067",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP067.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR060",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR060.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR060",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR060.png",
     },],
     keywords: [Keyword.Crush],
@@ -2014,16 +2176,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP068",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP068.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR061",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR061.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR061",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR061.png",
     },],
     keywords: [Keyword.Crush],
@@ -2055,21 +2220,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "BVO017",
       set: Release.BravoBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BVO17.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP069",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP069.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR062",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR062.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR062",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR062.png",
     },],
     keywords: [Keyword.Crush],
@@ -2101,16 +2270,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP073",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP073.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR063",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR063.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR063",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR063.png",
     },],
     keywords: [Keyword.Crush],
@@ -2142,16 +2314,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP074",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP074.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR064",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR064.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR064",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR064.png",
     },],
     keywords: [Keyword.Crush],
@@ -2183,21 +2358,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "BVO018",
       set: Release.BravoBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BVO18.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP075",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP075.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR065",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR065.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR065",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR065.png",
     },],
     keywords: [Keyword.Crush],
@@ -2229,21 +2408,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "BVO010",
       set: Release.BravoBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BVO10.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP076",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP076.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR066",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR066.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR066",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR066.png",
     },],
     keywords: [Keyword.Crush],
@@ -2275,21 +2458,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "BVO013",
       set: Release.BravoBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BVO13.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP077",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP077.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR067",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR067.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR067",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR067.png",
     },],
     keywords: [Keyword.Crush],
@@ -2321,16 +2508,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP078",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP078.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR068",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR068.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR068",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR068.png",
     },],
     keywords: [Keyword.Crush],
@@ -2362,16 +2552,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BVO012",
       set: Release.BravoBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BVO12.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR069",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR069.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR069",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR069.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -2403,16 +2596,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BVO014",
       set: Release.BravoBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BVO14.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR070",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR070.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR070",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR070.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -2444,11 +2640,13 @@
       edition: ReleaseEdition.Alpha,
       identifier: "WTR071",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR071.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR071",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR071.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -2480,16 +2678,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP082",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP082.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR072",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR072.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR072",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR072.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -2521,16 +2722,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP083",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP083.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR073",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR073.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR073",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR073.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -2562,21 +2766,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP084",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP084.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "BVO022",
       set: Release.BravoBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BVO22.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR074",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR074.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR074",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR074.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -2608,16 +2816,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP101",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP101.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR081",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR081.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR081",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR081.png",
     },],
     keywords: [Keyword.Specialization,Keyword.Combo],
@@ -2649,16 +2860,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP102",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP102.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR083",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR083.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR083",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR083.png",
     },],
     keywords: [Keyword.Specialization,Keyword.Combo,Keyword.GoAgain],
@@ -2690,11 +2904,13 @@
       edition: ReleaseEdition.Alpha,
       identifier: "WTR084",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR084.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR084",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR084.png",
     },],
     keywords: [Keyword.Combo,Keyword.GoAgain],
@@ -2726,11 +2942,13 @@
       edition: ReleaseEdition.Alpha,
       identifier: "WTR085",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR085.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR085",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR085.png",
     },],
     keywords: [Keyword.Combo],
@@ -2762,16 +2980,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "KSU010",
       set: Release.KatsuHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/KSU10.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR086",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR086.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR086",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR086.png",
     },],
     keywords: [Keyword.Combo],
@@ -2803,11 +3024,13 @@
       edition: ReleaseEdition.Alpha,
       identifier: "WTR087",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR087.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR087",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR087.png",
     },],
     keywords: [Keyword.Combo],
@@ -2839,16 +3062,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "KSU022",
       set: Release.KatsuHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/KSU22.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR088",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR088.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR088",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR088.png",
     },],
     keywords: [Keyword.Combo],
@@ -2880,21 +3106,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "KSU009",
       set: Release.KatsuHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/KSU9.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP104",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP104.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR089",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR089.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR089",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR089.png",
     },],
     keywords: [Keyword.Combo],
@@ -2926,16 +3156,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP105",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP105.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR090",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR090.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR090",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR090.png",
     },],
     keywords: [Keyword.Combo],
@@ -2967,16 +3200,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP106",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP106.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR091",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR091.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR091",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR091.png",
     },],
     keywords: [Keyword.Combo],
@@ -3008,16 +3244,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "KSU013",
       set: Release.KatsuHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/KSU13.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR095",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR095.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR095",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR095.png",
     },],
     keywords: [Keyword.Combo,Keyword.GoAgain,Keyword.Dominate],
@@ -3049,11 +3288,13 @@
       edition: ReleaseEdition.Alpha,
       identifier: "WTR096",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR096.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR096",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR096.png",
     },],
     keywords: [Keyword.Combo,Keyword.GoAgain,Keyword.Dominate],
@@ -3085,11 +3326,13 @@
       edition: ReleaseEdition.Alpha,
       identifier: "WTR097",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR097.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR097",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR097.png",
     },],
     keywords: [Keyword.Combo,Keyword.GoAgain,Keyword.Dominate],
@@ -3121,21 +3364,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS017",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS017.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "KSU011",
       set: Release.KatsuHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/KSU11.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR098",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR098.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR098",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR098.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -3167,16 +3414,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS018",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS018.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR099",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR099.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR099",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR099.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -3208,26 +3458,31 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS019",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS019.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "IRA008",
       set: Release.IraWelcomeDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/IRA008-P_EIEWAn1.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "KSU023",
       set: Release.KatsuHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/KSU23.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR100",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR100.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR100",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR100.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -3259,21 +3514,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "KSU012",
       set: Release.KatsuHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/KSU12.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP116",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP116.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR101",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR101.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR101",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR101.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -3305,21 +3564,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "KSU018",
       set: Release.KatsuHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/KSU18.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP117",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP117.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR102",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR102.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR102",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR102.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -3351,16 +3614,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP118",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP118.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR103",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR103.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR103",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR103.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -3392,21 +3658,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "KSU014",
       set: Release.KatsuHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/KSU14.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP119",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP119.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR104",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR104.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR104",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR104.png",
     },],
     keywords: [Keyword.Combo,Keyword.GoAgain],
@@ -3438,21 +3708,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "KSU019",
       set: Release.KatsuHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/KSU19.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP120",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP120.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR105",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR105.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR105",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR105.png",
     },],
     keywords: [Keyword.Combo,Keyword.GoAgain],
@@ -3484,16 +3758,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP121",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP121.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR106",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR106.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR106",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR106.png",
     },],
     keywords: [Keyword.Combo,Keyword.GoAgain],
@@ -3525,21 +3802,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "KSU015",
       set: Release.KatsuHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/KSU15.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP125",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP125.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR107",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR107.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR107",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR107.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -3571,21 +3852,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "KSU020",
       set: Release.KatsuHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/KSU20.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP126",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP126.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR108",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR108.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR108",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR108.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -3617,16 +3902,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP127",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP127.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR109",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR109.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR109",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR109.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -3658,31 +3946,37 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS007",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS007-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LGS026",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS026.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "KSU016",
       set: Release.KatsuHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/KSU16.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP131",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP131.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR110",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR110.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR110",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR110.png",
     },],
     keywords: [Keyword.Combo,Keyword.GoAgain],
@@ -3714,21 +4008,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS027",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS027.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP132",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP132.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR111",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR111.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR111",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR111.png",
     },],
     keywords: [Keyword.Combo,Keyword.GoAgain],
@@ -3760,26 +4058,31 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS028",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS028.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "KSU024",
       set: Release.KatsuHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/KSU24.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP133",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP133.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR112",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR112.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR112",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR112.png",
     },],
     keywords: [Keyword.Combo,Keyword.GoAgain],
@@ -3811,16 +4114,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP152",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP152.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR119",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR119.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR119",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR119.png",
     },],
     keywords: [Keyword.Specialization,Keyword.GoAgain],
@@ -3852,11 +4158,13 @@
       edition: ReleaseEdition.Alpha,
       identifier: "WTR122",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR122.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR122",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR122.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.Dominate],
@@ -3888,21 +4196,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "DVR011",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/DVR011.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP159",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP159.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR129",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR129.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR129",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR129.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.GoAgain],
@@ -3934,21 +4246,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "TEA018",
       set: Release.DorintheaHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/TEA18.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP160",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP160.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR130",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR130.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR130",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR130.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.GoAgain],
@@ -3980,21 +4296,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "TEA025",
       set: Release.DorintheaHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/TEA25.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP161",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP161.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR131",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR131.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR131",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR131.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.GoAgain],
@@ -4026,21 +4346,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "TEA014",
       set: Release.DorintheaHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/TEA14.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "DVR012",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/DVR012.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR141",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR141.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR141",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR141.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -4072,11 +4396,13 @@
       edition: ReleaseEdition.Alpha,
       identifier: "WTR142",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR142.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR142",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR142.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -4108,16 +4434,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "TEA024",
       set: Release.DorintheaHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/TEA24.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR143",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR143.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR143",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR143.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -4149,21 +4478,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "TEA012",
       set: Release.DorintheaHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/TEA12.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP171",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP171.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR144",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR144.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR144",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR144.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.GoAgain],
@@ -4195,21 +4528,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "DVR017",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/DVR017.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP172",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP172.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR145",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR145.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR145",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR145.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.GoAgain],
@@ -4241,21 +4578,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "TEA022",
       set: Release.DorintheaHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/TEA22.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP173",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP173.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR146",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR146.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR146",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR146.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.GoAgain],
@@ -4287,21 +4628,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "TEA013",
       set: Release.DorintheaHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/TEA13.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP177",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP177.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR147",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR147.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR147",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR147.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -4333,16 +4678,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP178",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP178.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR148",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR148.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR148",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR148.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -4374,21 +4722,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "TEA023",
       set: Release.DorintheaHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/TEA23.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP179",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP179.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR149",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR149.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR149",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR149.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -4420,16 +4772,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP361",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP361.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR159",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR159.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR159",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR159.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -4461,16 +4816,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP365",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP365.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR160",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR160.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR160",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR160.png",
     },],
     keywords: [],
@@ -4502,16 +4860,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP362",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP362.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR161",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR161.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR161",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR161.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -4543,21 +4904,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB016",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB016.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP363",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP363.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR162",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR162.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR162",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR162.png",
     },],
     keywords: [],
@@ -4589,16 +4954,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "RNR015",
       set: Release.RhinarHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RNR15.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR164",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR164.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR164",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR164.png",
     },],
     keywords: [],
@@ -4630,11 +4998,13 @@
       edition: ReleaseEdition.Alpha,
       identifier: "WTR165",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR165.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR165",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR165.png",
     },],
     keywords: [],
@@ -4666,16 +5036,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BVO025",
       set: Release.BravoBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BVO25.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR166",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR166.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR166",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR166.png",
     },],
     keywords: [],
@@ -4707,16 +5080,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP371",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP371.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR167",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR167.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR167",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR167.png",
     },],
     keywords: [],
@@ -4748,16 +5124,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP372",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP372.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR168",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR168.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR168",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR168.png",
     },],
     keywords: [],
@@ -4789,16 +5168,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP373",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP373.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR169",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR169.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR169",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR169.png",
     },],
     keywords: [],
@@ -4830,31 +5212,37 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB012",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB012-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "KSU029",
       set: Release.KatsuHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/KSU29.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "TEA028",
       set: Release.DorintheaHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/TEA28.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP381",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP381.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR170",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR170.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR170",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR170.png",
     },],
     keywords: [],
@@ -4886,26 +5274,31 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB013",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB013-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "BVO028",
       set: Release.BravoBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BVO28.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP382",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP382.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR171",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR171.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR171",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR171.png",
     },],
     keywords: [],
@@ -4937,26 +5330,31 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB014",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB014-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "RNR029",
       set: Release.RhinarHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RNR29.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP383",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP383.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR172",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR172.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR172",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR172.png",
     },],
     keywords: [],
@@ -4988,11 +5386,13 @@
       edition: ReleaseEdition.Alpha,
       identifier: "WTR176",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR176.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR176",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR176.png",
     },],
     keywords: [],
@@ -5024,16 +5424,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "RNR019",
       set: Release.RhinarHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RNR19.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR177",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR177.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR177",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR177.png",
     },],
     keywords: [],
@@ -5065,16 +5468,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BVO023",
       set: Release.BravoBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BVO23.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR178",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR178.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR178",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR178.png",
     },],
     keywords: [],
@@ -5106,11 +5512,13 @@
       edition: ReleaseEdition.Alpha,
       identifier: "WTR179",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR179.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR179",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR179.png",
     },],
     keywords: [Keyword.Dominate],
@@ -5142,11 +5550,13 @@
       edition: ReleaseEdition.Alpha,
       identifier: "WTR180",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR180.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR180",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR180.png",
     },],
     keywords: [Keyword.Dominate],
@@ -5178,11 +5588,13 @@
       edition: ReleaseEdition.Alpha,
       identifier: "WTR181",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR181.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR181",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR181.png",
     },],
     keywords: [Keyword.Dominate],
@@ -5214,21 +5626,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "DVR026",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/DVR026.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP390",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP390.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR182",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR182.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR182",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR182.png",
     },],
     keywords: [],
@@ -5260,16 +5676,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP391",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP391.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR183",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR183.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR183",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR183.png",
     },],
     keywords: [],
@@ -5301,26 +5720,31 @@
       edition: ReleaseEdition.Promo,
       identifier: "RNR027",
       set: Release.RhinarHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RNR27.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "TEA026",
       set: Release.DorintheaHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/TEA26.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP392",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP392.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR184",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR184.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR184",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR184.png",
     },],
     keywords: [],
@@ -5352,11 +5776,13 @@
       edition: ReleaseEdition.Alpha,
       identifier: "WTR185",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR185.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR185",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR185.png",
     },],
     keywords: [],
@@ -5388,11 +5814,13 @@
       edition: ReleaseEdition.Alpha,
       identifier: "WTR186",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR186.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR186",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR186.png",
     },],
     keywords: [],
@@ -5424,11 +5852,13 @@
       edition: ReleaseEdition.Alpha,
       identifier: "WTR187",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR187.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR187",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR187.png",
     },],
     keywords: [],
@@ -5460,11 +5890,13 @@
       edition: ReleaseEdition.Alpha,
       identifier: "WTR188",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR188.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR188",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR188.png",
     },],
     keywords: [],
@@ -5496,21 +5928,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "RNR020",
       set: Release.RhinarHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RNR20.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "RVD019",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RVD019.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR189",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR189.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR189",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR189.png",
     },],
     keywords: [],
@@ -5542,16 +5978,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BVO024",
       set: Release.BravoBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BVO24.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR190",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR190.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR190",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR190.png",
     },],
     keywords: [],
@@ -5583,36 +6022,43 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB015",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB015-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "IRA009",
       set: Release.IraWelcomeDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/IRA009-P_lmnCh8s.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "KSU017",
       set: Release.KatsuHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/KSU17.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP396",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP396.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR191",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR191.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR191",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR191.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR209",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR209.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -5644,21 +6090,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP397",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP397.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR192",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR192.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR192",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR192.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR210",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR210.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -5690,21 +6140,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP398",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP398.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR193",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR193.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR193",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR193.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR211",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR211.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -5736,11 +6190,13 @@
       edition: ReleaseEdition.Alpha,
       identifier: "WTR194",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR194.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR194",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR194.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -5772,11 +6228,13 @@
       edition: ReleaseEdition.Alpha,
       identifier: "WTR195",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR195.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR195",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR195.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -5808,26 +6266,31 @@
       edition: ReleaseEdition.Promo,
       identifier: "KSU026",
       set: Release.KatsuHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/KSU26.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "RNR028",
       set: Release.RhinarHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RNR28.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "TEA027",
       set: Release.DorintheaHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/TEA27.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR196",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR196.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR196",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR196.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -5859,11 +6322,13 @@
       edition: ReleaseEdition.Alpha,
       identifier: "WTR197",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR197.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR197",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR197.png",
     },],
     keywords: [Keyword.Dominate],
@@ -5895,11 +6360,13 @@
       edition: ReleaseEdition.Alpha,
       identifier: "WTR198",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR198.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR198",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR198.png",
     },],
     keywords: [Keyword.Dominate],
@@ -5931,11 +6398,13 @@
       edition: ReleaseEdition.Alpha,
       identifier: "WTR199",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR199.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR199",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR199.png",
     },],
     keywords: [Keyword.Dominate],
@@ -5967,11 +6436,13 @@
       edition: ReleaseEdition.Alpha,
       identifier: "WTR200",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR200.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR200",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR200.png",
     },],
     keywords: [],
@@ -6003,21 +6474,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "RNR021",
       set: Release.RhinarHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RNR21.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "RVD020",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RVD020.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR201",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR201.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR201",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR201.png",
     },],
     keywords: [],
@@ -6049,16 +6524,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BVO026",
       set: Release.BravoBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BVO26.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR202",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR202.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR202",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR202.png",
     },],
     keywords: [],
@@ -6090,16 +6568,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "TEA015",
       set: Release.DorintheaHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/TEA15.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR203",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR203.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR203",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR203.png",
     },],
     keywords: [],
@@ -6131,11 +6612,13 @@
       edition: ReleaseEdition.Alpha,
       identifier: "WTR204",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR204.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR204",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR204.png",
     },],
     keywords: [],
@@ -6167,16 +6650,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "KSU027",
       set: Release.KatsuHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/KSU27.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR205",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR205.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR205",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR205.png",
     },],
     keywords: [],
@@ -6208,16 +6694,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP417",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP417.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR218",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR218.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR218",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR218.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -6249,16 +6738,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP418",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP418.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR219",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR219.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR219",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR219.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -6290,16 +6782,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP419",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP419.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR220",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR220.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR220",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR220.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -6331,16 +6826,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP420",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP420.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR221",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR221.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR221",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR221.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -6372,16 +6870,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP421",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP421.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR222",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR222.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR222",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR222.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -6413,21 +6914,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "BVO029",
       set: Release.BravoBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BVO29.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP422",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP422.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR223",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR223.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR223",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR223.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -6459,16 +6964,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP188",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP188.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC006",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC006.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC006",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC006.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -6500,21 +7008,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP192",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP192.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC007",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC007.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC007",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC007-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC007",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC007.png",
     },],
     keywords: [Keyword.Specialization],
@@ -6546,11 +7058,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC008",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC008.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC008",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC008.png",
     },],
     keywords: [],
@@ -6582,21 +7096,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP191",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP191.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC009",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC009.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC009",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC009-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC009",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC009.png",
     },],
     keywords: [Keyword.Specialization],
@@ -6628,16 +7146,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP189",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP189.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC010",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC010.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC010",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC010.png",
     },],
     keywords: [],
@@ -6669,21 +7190,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP196",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP196.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC011",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC011.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC011",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC011-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC011",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC011.png",
     },],
     keywords: [Keyword.Boost,Keyword.Dominate],
@@ -6715,21 +7240,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP197",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP197.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC012",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC012.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC012",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC012-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC012",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC012.png",
     },],
     keywords: [Keyword.Boost,Keyword.Dominate],
@@ -6761,21 +7290,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP198",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP198.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC013",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC013.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC013",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC013-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC013",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC013.png",
     },],
     keywords: [Keyword.Boost,Keyword.Dominate],
@@ -6807,11 +7340,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC014",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC014.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC014",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC014.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -6843,11 +7378,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC015",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC015.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC015",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC015.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -6879,11 +7416,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC016",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC016.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC016",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC016.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -6915,16 +7454,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP199",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP199.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC017",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC017.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC017",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC017.png",
     },],
     keywords: [],
@@ -6956,16 +7498,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP200",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP200.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC018",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC018.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC018",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC018.png",
     },],
     keywords: [],
@@ -6997,21 +7542,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP201",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP201.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC019",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC019.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC019",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC019-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC019",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC019.png",
     },],
     keywords: [Keyword.Dominate],
@@ -7043,31 +7592,37 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS013",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS013-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LGS032",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS032.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP205",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP205.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC020",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC020.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC020",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC020-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC020",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC020.png",
     },],
     keywords: [Keyword.Boost],
@@ -7099,26 +7654,31 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS033",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS033.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP206",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP206.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC021",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC021.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC021",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC021-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC021",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC021.png",
     },],
     keywords: [Keyword.Boost],
@@ -7150,26 +7710,31 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS034",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS034.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP207",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP207.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC022",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC022.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC022",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC022-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC022",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC022.png",
     },],
     keywords: [Keyword.Boost],
@@ -7201,21 +7766,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP208",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP208.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC023",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC023.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC023",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC023-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC023",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC023.png",
     },],
     keywords: [Keyword.Boost],
@@ -7247,21 +7816,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP209",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP209.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC024",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC024.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC024",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC024-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC024",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC024.png",
     },],
     keywords: [Keyword.Boost],
@@ -7293,21 +7866,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP210",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP210.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC025",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC025.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC025",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC025-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC025",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC025.png",
     },],
     keywords: [Keyword.Boost],
@@ -7339,21 +7916,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP211",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP211.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC026",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC026.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC026",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC026-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC026",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC026.png",
     },],
     keywords: [Keyword.Boost],
@@ -7385,21 +7966,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP212",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP212.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC027",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC027.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC027",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC027-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC027",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC027.png",
     },],
     keywords: [Keyword.Boost],
@@ -7431,21 +8016,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP213",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP213.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC028",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC028.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC028",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC028-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC028",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC028.png",
     },],
     keywords: [Keyword.Boost],
@@ -7477,21 +8066,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP214",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP214.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC029",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC029.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC029",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC029-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC029",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC029.png",
     },],
     keywords: [Keyword.Boost],
@@ -7523,21 +8116,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP215",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP215.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC030",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC030.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC030",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC030-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC030",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC030.png",
     },],
     keywords: [Keyword.Boost],
@@ -7569,21 +8166,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP216",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP216.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC031",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC031.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC031",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC031-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC031",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC031.png",
     },],
     keywords: [Keyword.Boost],
@@ -7615,16 +8216,19 @@
       edition: ReleaseEdition.First,
       identifier: "ARC032",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC032.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC032",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC032-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC032",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC032.png",
     },],
     keywords: [Keyword.Opt,Keyword.GoAgain],
@@ -7656,16 +8260,19 @@
       edition: ReleaseEdition.First,
       identifier: "ARC033",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC033.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC033",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC033-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC033",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC033.png",
     },],
     keywords: [Keyword.Opt,Keyword.GoAgain],
@@ -7697,16 +8304,19 @@
       edition: ReleaseEdition.First,
       identifier: "ARC034",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC034.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC034",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC034-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC034",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC034.png",
     },],
     keywords: [Keyword.Opt,Keyword.GoAgain],
@@ -7738,16 +8348,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP217",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP217.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC035",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC035.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC035",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC035.png",
     },],
     keywords: [],
@@ -7779,16 +8392,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP218",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP218.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC036",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC036.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC036",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC036.png",
     },],
     keywords: [],
@@ -7820,21 +8436,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP219",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP219.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC037",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC037.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC037",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC037-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC037",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC037.png",
     },],
     keywords: [],
@@ -7866,21 +8486,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP229",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP229.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC043",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC043.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC043",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC043-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC043",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC043.png",
     },],
     keywords: [Keyword.Specialization],
@@ -7912,16 +8536,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP232",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP232.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC044",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC044.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC044",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC044.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -7953,16 +8580,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP228",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP228.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC045",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC045.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC045",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC045.png",
     },],
     keywords: [],
@@ -7994,21 +8624,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP231",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP231.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC046",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC046.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC046",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC046-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC046",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC046.png",
     },],
     keywords: [Keyword.Specialization,Keyword.Reload,Keyword.GoAgain],
@@ -8040,11 +8674,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC047",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC047.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC047",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC047.png",
     },],
     keywords: [Keyword.Reload,Keyword.GoAgain],
@@ -8076,11 +8712,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC051",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC051.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC051",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC051.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -8112,11 +8750,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC052",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC052.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC052",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC052.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -8148,11 +8788,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC053",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC053.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC053",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC053.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -8184,21 +8826,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "LXI028",
       set: Release.LexiBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LXI028.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP237",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP237.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC054",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC054.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC054",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC054.png",
     },],
     keywords: [Keyword.Reload,Keyword.GoAgain],
@@ -8230,16 +8876,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP238",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP238.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC055",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC055.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC055",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC055.png",
     },],
     keywords: [Keyword.Reload,Keyword.GoAgain],
@@ -8271,16 +8920,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP239",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP239.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC056",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC056.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC056",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC056.png",
     },],
     keywords: [Keyword.Reload,Keyword.GoAgain],
@@ -8312,16 +8964,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP240",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP240.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC057",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC057.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC057",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC057.png",
     },],
     keywords: [],
@@ -8353,16 +9008,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP241",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP241.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC058",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC058.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC058",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC058.png",
     },],
     keywords: [],
@@ -8394,16 +9052,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP242",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP242.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC059",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC059.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC059",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC059.png",
     },],
     keywords: [],
@@ -8435,11 +9096,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC060",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC060.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC060",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC060.png",
     },],
     keywords: [],
@@ -8471,11 +9134,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC061",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC061.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC061",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC061.png",
     },],
     keywords: [],
@@ -8507,11 +9172,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC062",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC062.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC062",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC062.png",
     },],
     keywords: [],
@@ -8543,21 +9210,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP243",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP243.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC063",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC063.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC063",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC063-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC063",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC063.png",
     },],
     keywords: [Keyword.Opt],
@@ -8589,21 +9260,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP244",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP244.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC064",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC064.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC064",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC064-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC064",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC064.png",
     },],
     keywords: [Keyword.Opt],
@@ -8635,21 +9310,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP245",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP245.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC065",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC065.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC065",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC065-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC065",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC065.png",
     },],
     keywords: [Keyword.Opt],
@@ -8681,16 +9360,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP246",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP246.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC066",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC066.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC066",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC066.png",
     },],
     keywords: [],
@@ -8722,16 +9404,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP247",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP247.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC067",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC067.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC067",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC067.png",
     },],
     keywords: [],
@@ -8763,16 +9448,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP248",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP248.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC068",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC068.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC068",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC068.png",
     },],
     keywords: [],
@@ -8804,16 +9492,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP249",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP249.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC069",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC069.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC069",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC069.png",
     },],
     keywords: [],
@@ -8845,16 +9536,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP250",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP250.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC070",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC070.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC070",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC070.png",
     },],
     keywords: [],
@@ -8886,16 +9580,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP251",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP251.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC071",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC071.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC071",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC071.png",
     },],
     keywords: [],
@@ -8927,26 +9624,31 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS014",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS014-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LGS035",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS035.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP252",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP252.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC072",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC072.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC072",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC072.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -8978,21 +9680,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS036",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS036.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP253",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP253.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC073",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC073.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC073",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC073.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -9024,21 +9730,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS037",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS037.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP254",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP254.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC074",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC074.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC074",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC074.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -9070,21 +9780,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP265",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP265.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC080",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC080.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC080",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC080-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC080",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC080.png",
     },],
     keywords: [Keyword.Specialization,Keyword.Dominate],
@@ -9116,16 +9830,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP268",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP268.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC081",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC081.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC081",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC081.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -9157,11 +9874,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC082",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC082.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC082",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC082.png",
     },],
     keywords: [],
@@ -9193,21 +9912,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP267",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP267.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC083",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC083.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC083",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC083-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC083",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC083.png",
     },],
     keywords: [Keyword.Specialization,Keyword.GoAgain],
@@ -9239,11 +9962,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC084",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC084.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC084",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC084.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -9275,21 +10000,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP270",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP270.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC085",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC085.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC085",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC085-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC085",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC085.png",
     },],
     keywords: [],
@@ -9321,21 +10050,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP271",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP271.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC086",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC086.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC086",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC086-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC086",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC086.png",
     },],
     keywords: [],
@@ -9367,21 +10100,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP272",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP272.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC087",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC087.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC087",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC087-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC087",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC087.png",
     },],
     keywords: [],
@@ -9413,21 +10150,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP279",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP279.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC091",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC091.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC091",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC091-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC091",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC091.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -9459,21 +10200,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP280",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP280.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC092",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC092.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC092",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC092-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC092",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC092.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -9505,21 +10250,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP281",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP281.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC093",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC093.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC093",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC093-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC093",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC093.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -9551,16 +10300,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP282",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP282.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC094",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC094.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC094",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC094.png",
     },],
     keywords: [],
@@ -9592,16 +10344,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP283",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP283.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC095",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC095.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC095",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC095.png",
     },],
     keywords: [],
@@ -9633,16 +10388,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP284",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP284.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC096",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC096.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC096",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC096.png",
     },],
     keywords: [],
@@ -9674,11 +10432,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC097",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC097.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC097",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC097.png",
     },],
     keywords: [],
@@ -9710,11 +10470,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC098",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC098.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC098",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC098.png",
     },],
     keywords: [],
@@ -9746,11 +10508,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC099",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC099.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC099",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC099.png",
     },],
     keywords: [],
@@ -9782,16 +10546,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP288",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP288.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC100",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC100.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC100",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC100.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -9823,16 +10590,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP289",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP289.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC101",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC101.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC101",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC101.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -9864,16 +10634,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP290",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP290.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC102",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC102.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC102",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC102.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -9905,16 +10678,19 @@
       edition: ReleaseEdition.First,
       identifier: "ARC103",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC103.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC103",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC103-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC103",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC103.png",
     },],
     keywords: [],
@@ -9946,16 +10722,19 @@
       edition: ReleaseEdition.First,
       identifier: "ARC104",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC104.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC104",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC104-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC104",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC104.png",
     },],
     keywords: [],
@@ -9987,16 +10766,19 @@
       edition: ReleaseEdition.First,
       identifier: "ARC105",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC105.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC105",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC105-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC105",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC105.png",
     },],
     keywords: [],
@@ -10028,21 +10810,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP291",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP291.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC106",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC106.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC106",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC106-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC106",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC106.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -10074,21 +10860,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP292",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP292.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC107",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC107.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC107",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC107-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC107",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC107.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -10120,21 +10910,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP293",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP293.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC108",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC108.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC108",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC108-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC108",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC108.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -10166,21 +10960,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP294",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP294.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC109",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC109.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC109",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC109-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC109",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC109.png",
     },],
     keywords: [],
@@ -10212,21 +11010,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP295",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP295.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC110",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC110.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC110",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC110-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC110",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC110.png",
     },],
     keywords: [],
@@ -10258,21 +11060,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP296",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP296.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC111",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC111.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC111",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC111-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC111",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC111.png",
     },],
     keywords: [],
@@ -10304,21 +11110,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP308",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP308.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC118",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC118.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC118",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC118-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC118",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC118.png",
     },],
     keywords: [Keyword.Specialization],
@@ -10350,16 +11160,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP312",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP312.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC119",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC119.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC119",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC119.png",
     },],
     keywords: [],
@@ -10391,21 +11204,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP310",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP310.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC120",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC120.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC120",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC120-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC120",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC120.png",
     },],
     keywords: [],
@@ -10437,21 +11254,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP311",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP311.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC121",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC121.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC121",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC121-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC121",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC121.png",
     },],
     keywords: [Keyword.Specialization],
@@ -10483,16 +11304,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP313",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP313.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC122",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC122.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC122",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC122.png",
     },],
     keywords: [],
@@ -10524,21 +11348,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP314",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP314.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC126",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC126.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC126",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC126-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC126",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC126.png",
     },],
     keywords: [Keyword.Opt],
@@ -10570,21 +11398,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP315",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP315.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC127",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC127.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC127",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC127-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC127",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC127.png",
     },],
     keywords: [Keyword.Opt],
@@ -10616,21 +11448,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP316",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP316.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC128",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC128.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC128",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC128-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC128",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC128.png",
     },],
     keywords: [Keyword.Opt],
@@ -10662,16 +11498,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP320",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP320.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC129",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC129.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC129",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC129.png",
     },],
     keywords: [],
@@ -10703,16 +11542,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP321",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP321.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC130",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC130.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC130",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC130.png",
     },],
     keywords: [],
@@ -10744,16 +11586,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP322",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP322.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC131",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC131.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC131",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC131.png",
     },],
     keywords: [],
@@ -10785,16 +11630,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP323",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP323.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC132",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC132.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC132",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC132.png",
     },],
     keywords: [],
@@ -10826,16 +11674,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP324",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP324.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC133",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC133.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC133",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC133.png",
     },],
     keywords: [],
@@ -10867,16 +11718,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP325",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP325.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC134",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC134.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC134",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC134.png",
     },],
     keywords: [],
@@ -10908,11 +11762,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC135",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC135.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC135",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC135.png",
     },],
     keywords: [],
@@ -10944,11 +11800,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC136",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC136.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC136",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC136.png",
     },],
     keywords: [],
@@ -10980,11 +11838,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC137",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC137.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC137",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC137.png",
     },],
     keywords: [],
@@ -11016,16 +11876,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP326",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP326.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC138",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC138.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC138",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC138.png",
     },],
     keywords: [],
@@ -11057,16 +11920,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP327",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP327.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC139",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC139.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC139",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC139.png",
     },],
     keywords: [],
@@ -11098,16 +11964,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP328",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP328.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC140",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC140.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC140",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC140.png",
     },],
     keywords: [],
@@ -11139,16 +12008,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP329",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP329.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC141",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC141.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC141",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC141.png",
     },],
     keywords: [],
@@ -11180,16 +12052,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP330",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP330.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC142",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC142.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC142",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC142.png",
     },],
     keywords: [],
@@ -11221,16 +12096,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP331",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP331.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC143",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC143.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC143",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC143.png",
     },],
     keywords: [],
@@ -11262,16 +12140,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP338",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP338.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC144",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC144.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC144",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC144.png",
     },],
     keywords: [],
@@ -11303,16 +12184,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP339",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP339.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC145",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC145.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC145",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC145.png",
     },],
     keywords: [],
@@ -11344,16 +12228,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP340",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP340.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC146",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC146.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC146",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC146.png",
     },],
     keywords: [],
@@ -11385,26 +12272,31 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS016",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS016-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LGS041",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS041.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP335",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP335.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC147",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC147.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC147",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC147.png",
     },],
     keywords: [],
@@ -11436,16 +12328,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS042",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS042.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC148",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC148.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC148",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC148.png",
     },],
     keywords: [],
@@ -11477,21 +12372,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS043",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS043.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP337",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP337.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC149",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC149.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC149",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC149.png",
     },],
     keywords: [],
@@ -11523,16 +12422,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP360",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP360.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC159",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC159.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC159",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC159.png",
     },],
     keywords: [],
@@ -11564,11 +12466,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC161",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC161.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC161",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC161.png",
     },],
     keywords: [],
@@ -11600,11 +12504,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC162",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC162.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC162",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC162.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -11636,11 +12542,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC163",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC163.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC163",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC163.png",
     },],
     keywords: [Keyword.ArcaneBarrier],
@@ -11672,16 +12580,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP368",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP368.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC164",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC164.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC164",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC164.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -11713,16 +12624,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP369",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP369.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC165",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC165.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC165",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC165.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -11754,16 +12668,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP370",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP370.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC166",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC166.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC166",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC166.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -11795,16 +12712,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP375",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP375.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC167",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC167.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC167",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC167.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -11836,16 +12756,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP376",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP376.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC168",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC168.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC168",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC168.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -11877,16 +12800,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP377",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP377.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC169",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC169.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC169",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC169.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -11918,16 +12844,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP378",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP378.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC170",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC170.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC170",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC170.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -11959,16 +12888,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP379",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP379.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC171",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC171.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC171",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC171.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -12000,16 +12932,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP380",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP380.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC172",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC172.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC172",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC172.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -12041,11 +12976,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC176",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC176.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC176",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC176.png",
     },],
     keywords: [],
@@ -12077,11 +13014,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC177",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC177.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC177",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC177.png",
     },],
     keywords: [],
@@ -12113,11 +13052,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC178",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC178.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC178",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC178.png",
     },],
     keywords: [],
@@ -12149,11 +13090,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC179",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC179.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC179",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC179.png",
     },],
     keywords: [],
@@ -12185,11 +13128,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC180",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC180.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC180",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC180.png",
     },],
     keywords: [],
@@ -12221,11 +13166,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC181",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC181.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC181",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC181.png",
     },],
     keywords: [],
@@ -12257,16 +13204,19 @@
       edition: ReleaseEdition.First,
       identifier: "ARC182",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC182.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC182",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC182-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC182",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC182.png",
     },],
     keywords: [Keyword.Opt,Keyword.GoAgain],
@@ -12298,16 +13248,19 @@
       edition: ReleaseEdition.First,
       identifier: "ARC183",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC183.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC183",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC183-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC183",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC183.png",
     },],
     keywords: [Keyword.Opt,Keyword.GoAgain],
@@ -12339,16 +13292,19 @@
       edition: ReleaseEdition.First,
       identifier: "ARC184",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC184.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC184",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC184-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC184",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC184.png",
     },],
     keywords: [Keyword.Opt,Keyword.GoAgain],
@@ -12380,11 +13336,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC185",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC185.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC185",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC185.png",
     },],
     keywords: [],
@@ -12416,11 +13374,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC186",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC186.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC186",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC186.png",
     },],
     keywords: [],
@@ -12452,11 +13412,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC187",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC187.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC187",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC187.png",
     },],
     keywords: [],
@@ -12488,11 +13450,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC188",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC188.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC188",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC188.png",
     },],
     keywords: [],
@@ -12524,11 +13488,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC189",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC189.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC189",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC189.png",
     },],
     keywords: [],
@@ -12560,11 +13526,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC190",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC190.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC190",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC190.png",
     },],
     keywords: [],
@@ -12596,21 +13564,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP393",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP393.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC191",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC191.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC191",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC191-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC191",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC191.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -12642,21 +13614,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP394",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP394.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC192",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC192.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC192",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC192-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC192",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC192.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -12688,21 +13664,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP395",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP395.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC193",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC193.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC193",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC193-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC193",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC193.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -12734,11 +13714,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC194",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC194.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC194",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC194.png",
     },],
     keywords: [],
@@ -12770,11 +13752,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC195",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC195.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC195",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC195.png",
     },],
     keywords: [],
@@ -12806,11 +13790,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC196",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC196.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC196",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC196.png",
     },],
     keywords: [],
@@ -12842,11 +13828,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC197",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC197.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC197",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC197.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -12878,11 +13866,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC198",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC198.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC198",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC198.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -12914,11 +13904,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC199",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC199.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC199",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC199.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -12950,21 +13942,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP414",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP414.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC203",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC203.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC203",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC203-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC203",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC203.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -12996,21 +13992,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP415",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP415.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC204",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC204.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC204",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC204-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC204",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC204.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -13042,26 +14042,31 @@
       edition: ReleaseEdition.Promo,
       identifier: "RVD024",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RVD024.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP416",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP416.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC205",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC205.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC205",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC205-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC205",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC205.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -13093,16 +14098,19 @@
       edition: ReleaseEdition.First,
       identifier: "ARC206",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC206.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC206",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC206-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC206",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC206.png",
     },],
     keywords: [Keyword.Opt,Keyword.GoAgain],
@@ -13134,16 +14142,19 @@
       edition: ReleaseEdition.First,
       identifier: "ARC207",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC207.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC207",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC207-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC207",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC207.png",
     },],
     keywords: [Keyword.Opt,Keyword.GoAgain],
@@ -13175,16 +14186,19 @@
       edition: ReleaseEdition.First,
       identifier: "ARC208",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC208.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC208",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC208-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC208",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC208.png",
     },],
     keywords: [Keyword.Opt,Keyword.GoAgain],
@@ -13216,11 +14230,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC209",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC209.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC209",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC209.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -13252,11 +14268,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC210",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC210.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC210",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC210.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -13288,11 +14306,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC211",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC211.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC211",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC211.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -13324,11 +14344,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC212",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC212.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC212",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC212.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -13360,11 +14382,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC213",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC213.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC213",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC213.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -13396,11 +14420,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC214",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC214.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC214",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC214.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -13432,16 +14458,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP423",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP423.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC215",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC215.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC215",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC215.png",
     },],
     keywords: [Keyword.Opt,Keyword.GoAgain],
@@ -13473,16 +14502,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP424",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP424.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC216",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC216.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC216",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC216.png",
     },],
     keywords: [Keyword.Opt,Keyword.GoAgain],
@@ -13514,16 +14546,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP425",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP425.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC217",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC217.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC217",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC217.png",
     },],
     keywords: [Keyword.Opt,Keyword.GoAgain],
@@ -13555,16 +14590,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP011",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP011.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU007",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU007.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU007",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU007.png",
     },],
     keywords: [],
@@ -13596,16 +14634,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP012",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP012.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU008",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU008.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU008",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU008.png",
     },],
     keywords: [Keyword.Intimidate,Keyword.Intimidate],
@@ -13637,11 +14678,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU009",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU009.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU009",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU009.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -13673,11 +14716,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU010",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU010.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU010",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU010.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -13709,11 +14754,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU011",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU011.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU011",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU011.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -13745,11 +14792,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU012",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU012.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU012",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU012.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -13781,16 +14830,19 @@
       edition: ReleaseEdition.First,
       identifier: "CRU013",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU013.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU013",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU013-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU013",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU013.png",
     },],
     keywords: [Keyword.Dominate],
@@ -13822,16 +14874,19 @@
       edition: ReleaseEdition.First,
       identifier: "CRU014",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU014.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU014",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU014-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU014",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU014.png",
     },],
     keywords: [Keyword.Dominate],
@@ -13863,16 +14918,19 @@
       edition: ReleaseEdition.First,
       identifier: "CRU015",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU015.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU015",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU015-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU015",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU015.png",
     },],
     keywords: [Keyword.Dominate],
@@ -13904,16 +14962,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP028",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP028.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU016",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU016.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU016",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU016.png",
     },],
     keywords: [],
@@ -13945,16 +15006,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP029",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP029.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU017",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU017.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU017",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU017.png",
     },],
     keywords: [],
@@ -13986,16 +15050,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP030",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP030.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU018",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU018.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU018",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU018.png",
     },],
     keywords: [],
@@ -14027,11 +15094,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU019",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU019.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU019",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU019.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -14063,11 +15132,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU020",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU020.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU020",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU020.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -14099,11 +15170,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU021",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU021.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU021",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU021.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -14135,16 +15208,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP051",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP051.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU026",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU026.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU026",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU026.png",
     },],
     keywords: [Keyword.Crush],
@@ -14176,16 +15252,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP052",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP052.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU027",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU027.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU027",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU027.png",
     },],
     keywords: [Keyword.Crush],
@@ -14217,11 +15296,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU028",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU028.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU028",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU028.png",
     },],
     keywords: [],
@@ -14253,16 +15334,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP064",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP064.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU029",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU029.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU029",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU029.png",
     },],
     keywords: [],
@@ -14294,16 +15378,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP065",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP065.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU030",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU030.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU030",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU030.png",
     },],
     keywords: [],
@@ -14335,16 +15422,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP066",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP066.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU031",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU031.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU031",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU031.png",
     },],
     keywords: [],
@@ -14376,11 +15466,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU032",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU032.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU032",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU032.png",
     },],
     keywords: [Keyword.Crush],
@@ -14412,11 +15504,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU033",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU033.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU033",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU033.png",
     },],
     keywords: [Keyword.Crush],
@@ -14448,11 +15542,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU034",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU034.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU034",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU034.png",
     },],
     keywords: [Keyword.Crush],
@@ -14484,16 +15580,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP070",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP070.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU035",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU035.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU035",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU035.png",
     },],
     keywords: [Keyword.Crush],
@@ -14525,16 +15624,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP071",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP071.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU036",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU036.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU036",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU036.png",
     },],
     keywords: [Keyword.Crush],
@@ -14566,16 +15668,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP072",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP072.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU037",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU037.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU037",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU037.png",
     },],
     keywords: [Keyword.Crush],
@@ -14607,21 +15712,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP079",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP079.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU038",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU038-RF.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU038",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU038.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU038",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU038.png",
     },],
     keywords: [Keyword.Dominate],
@@ -14653,21 +15762,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP080",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP080.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU039",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU039-RF.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU039",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU039.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU039",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU039.png",
     },],
     keywords: [Keyword.Dominate],
@@ -14699,21 +15812,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP081",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP081.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU040",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU040-RF.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU040",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU040.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU040",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU040.png",
     },],
     keywords: [Keyword.Dominate],
@@ -14745,16 +15862,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP098",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP098.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU054",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU054.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU054",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU054.png",
     },],
     keywords: [Keyword.Combo],
@@ -14786,16 +15906,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP099",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP099.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU055",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU055.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU055",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU055.png",
     },],
     keywords: [Keyword.Combo,Keyword.GoAgain],
@@ -14827,16 +15950,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP100",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP100.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU056",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU056.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU056",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU056.png",
     },],
     keywords: [Keyword.Combo],
@@ -14868,16 +15994,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP107",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP107.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU057",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU057.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU057",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU057.png",
     },],
     keywords: [Keyword.Combo],
@@ -14909,16 +16038,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP108",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP108.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU058",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU058.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU058",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU058.png",
     },],
     keywords: [Keyword.Combo],
@@ -14950,16 +16082,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP109",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP109.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU059",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU059.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU059",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU059.png",
     },],
     keywords: [Keyword.Combo],
@@ -14991,16 +16126,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP110",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP110.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU060",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/CRU60.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU060",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-CRU060.width-450.png",
     },],
     keywords: [Keyword.Combo,Keyword.GoAgain],
@@ -15032,16 +16170,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP111",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP111.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU061",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU061.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU061",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU061.png",
     },],
     keywords: [Keyword.Combo,Keyword.GoAgain],
@@ -15073,16 +16214,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP112",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP112.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU062",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU062.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU062",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU062.png",
     },],
     keywords: [Keyword.Combo,Keyword.GoAgain],
@@ -15114,16 +16258,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "IRA007",
       set: Release.IraWelcomeDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/IRA007-P_9qjDnLM.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU063",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU063.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU063",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU063.png",
     },],
     keywords: [],
@@ -15155,11 +16302,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU064",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU064.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU064",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU064.png",
     },],
     keywords: [],
@@ -15191,11 +16340,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU065",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU065.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU065",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU065.png",
     },],
     keywords: [],
@@ -15227,16 +16378,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP122",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP122.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU066",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU066.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU066",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU066.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -15268,16 +16422,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP123",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP123.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU067",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU067.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU067",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU067.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -15309,16 +16466,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP124",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP124.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU068",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU068.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU068",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU068.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -15350,21 +16510,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "IRA006",
       set: Release.IraWelcomeDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/IRA006-P_Qj0R6lE.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP128",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP128.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU069",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU069.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU069",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU069.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -15396,16 +16560,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP129",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP129.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU070",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU070.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU070",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU070.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -15437,16 +16604,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP130",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP130.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU071",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU071.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU071",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU071.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -15478,21 +16648,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "IRA005",
       set: Release.IraWelcomeDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/IRA005-P_YAgf1In.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP134",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP134.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU072",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU072.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU072",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU072.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -15524,21 +16698,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "IRA004",
       set: Release.IraWelcomeDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/IRA004-P_c88KAnK.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP135",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP135.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU073",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU073.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU073",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU073.png",
     },],
     keywords: [],
@@ -15570,26 +16748,31 @@
       edition: ReleaseEdition.Promo,
       identifier: "IRA003",
       set: Release.IraWelcomeDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/IRA003-P_BrjByqK.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP136",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP136.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU074",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU074.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU074",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU074-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU074",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU074.png",
     },],
     keywords: [Keyword.Specialization,Keyword.GoAgain],
@@ -15621,16 +16804,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP151",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP151.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU084",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU084.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU084",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU084.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.GoAgain],
@@ -15662,11 +16848,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU085",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU085.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU085",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU085.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -15698,11 +16886,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU086",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU086.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU086",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU086.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -15734,11 +16924,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU087",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU087.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU087",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU087.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -15770,16 +16962,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP174",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP174.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU091",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU091.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU091",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU091.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.GoAgain],
@@ -15811,16 +17006,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP175",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP175.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU092",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU092.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU092",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU092.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.GoAgain],
@@ -15852,21 +17050,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "DVR021",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/DVR021.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP176",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP176.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU093",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU093.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU093",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU093.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.GoAgain],
@@ -15898,21 +17100,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "BOL030",
       set: Release.BoltynBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BOL030.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU094",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU094.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU094",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU094-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU094",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU094.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.Dominate],
@@ -15944,16 +17150,19 @@
       edition: ReleaseEdition.First,
       identifier: "CRU095",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU095.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU095",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU095-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU095",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU095.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.Dominate],
@@ -15985,16 +17194,19 @@
       edition: ReleaseEdition.First,
       identifier: "CRU096",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU096.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU096",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU096-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU096",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU096.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.Dominate],
@@ -16026,11 +17238,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU103",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU103.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU103",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU103.png",
     },],
     keywords: [],
@@ -16062,11 +17276,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU104",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU104.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU104",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU104.png",
     },],
     keywords: [],
@@ -16098,16 +17314,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP190",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP190.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU105",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU105.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU105",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU105.png",
     },],
     keywords: [],
@@ -16139,21 +17358,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP193",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP193.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU106",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU106.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU106",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU106-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU106",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU106.png",
     },],
     keywords: [Keyword.Boost,Keyword.Dominate],
@@ -16185,21 +17408,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP194",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP194.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU107",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU107.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU107",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU107-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU107",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU107.png",
     },],
     keywords: [Keyword.Boost,Keyword.Dominate],
@@ -16231,21 +17458,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP195",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP195.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU108",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU108.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU108",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU108-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU108",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU108.png",
     },],
     keywords: [Keyword.Boost,Keyword.Dominate],
@@ -16277,21 +17508,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP202",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP202.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU109",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU109.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU109",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU109-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU109",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU109.png",
     },],
     keywords: [Keyword.Boost],
@@ -16323,21 +17558,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP203",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP203.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU110",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU110.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU110",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU110-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU110",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU110.png",
     },],
     keywords: [Keyword.Boost],
@@ -16369,21 +17608,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP204",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP204.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU111",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU111.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU111",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU111-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU111",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU111.png",
     },],
     keywords: [Keyword.Boost],
@@ -16415,11 +17658,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU112",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU112.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU112",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU112.png",
     },],
     keywords: [],
@@ -16451,11 +17696,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU113",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU113.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU113",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU113.png",
     },],
     keywords: [],
@@ -16487,11 +17734,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU114",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU114.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU114",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU114.png",
     },],
     keywords: [],
@@ -16523,16 +17772,19 @@
       edition: ReleaseEdition.First,
       identifier: "CRU115",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU115.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU115",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU115-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU115",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU115.png",
     },],
     keywords: [Keyword.Opt],
@@ -16564,16 +17816,19 @@
       edition: ReleaseEdition.First,
       identifier: "CRU116",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU116.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU116",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU116-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU116",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU116.png",
     },],
     keywords: [Keyword.Opt],
@@ -16605,16 +17860,19 @@
       edition: ReleaseEdition.First,
       identifier: "CRU117",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU117.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU117",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU117-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU117",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU117.png",
     },],
     keywords: [Keyword.Opt],
@@ -16646,16 +17904,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP230",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP230.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU123",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU123.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU123",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU123.png",
     },],
     keywords: [],
@@ -16687,11 +17948,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU124",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU124.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU124",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU124.png",
     },],
     keywords: [Keyword.Reload,Keyword.GoAgain],
@@ -16723,11 +17986,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU129",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU129.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU129",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU129.png",
     },],
     keywords: [],
@@ -16759,11 +18024,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU130",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU130.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU130",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU130.png",
     },],
     keywords: [],
@@ -16795,11 +18062,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU131",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU131.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU131",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU131.png",
     },],
     keywords: [],
@@ -16831,21 +18100,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP255",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP255.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU132",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU132.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU132",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU132-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU132",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU132.png",
     },],
     keywords: [],
@@ -16877,21 +18150,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP256",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP256.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU133",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU133.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU133",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU133-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU133",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU133.png",
     },],
     keywords: [],
@@ -16923,21 +18200,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP257",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP257.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU134",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU134.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU134",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU134-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU134",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU134.png",
     },],
     keywords: [],
@@ -16969,11 +18250,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU135",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU135.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU135",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU135.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -17005,11 +18288,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU136",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU136.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU136",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU136.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -17041,11 +18326,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU137",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU137.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU137",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU137.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -17077,16 +18364,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP266",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP266.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU142",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU142.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU142",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU142.png",
     },],
     keywords: [],
@@ -17118,11 +18408,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU143",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU143.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU143",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU143.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -17154,16 +18446,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP269",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP269.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU144",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU144.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU144",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU144.png",
     },],
     keywords: [],
@@ -17195,21 +18490,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP276",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP276.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU145",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU145.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU145",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU145-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU145",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU145.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.GoAgain],
@@ -17241,21 +18540,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP277",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP277.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU146",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU146.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU146",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU146-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU146",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU146.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.GoAgain],
@@ -17287,21 +18590,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP278",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP278.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU147",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU147.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU147",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU147-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU147",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU147.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.GoAgain],
@@ -17333,16 +18640,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "CHN025",
       set: Release.ChaneBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/CHN025.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU148",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU148.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU148",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU148.png",
     },],
     keywords: [],
@@ -17374,11 +18684,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU149",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU149.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU149",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU149.png",
     },],
     keywords: [],
@@ -17410,11 +18722,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU150",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU150.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU150",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU150.png",
     },],
     keywords: [],
@@ -17446,21 +18760,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP285",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP285.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU151",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU151.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU151",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU151-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU151",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU151.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -17492,21 +18810,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP286",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP286.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU152",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU152.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU152",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU152-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU152",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU152.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -17538,21 +18860,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP287",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP287.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU153",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU153.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU153",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU153-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU153",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU153.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -17584,21 +18910,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP297",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP297.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU154",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU154.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU154",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU154-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU154",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU154.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -17630,21 +18960,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP298",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP298.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU155",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU155.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU155",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU155-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU155",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU155.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -17676,21 +19010,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP299",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP299.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU156",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU156.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU156",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU156-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU156",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU156.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -17722,16 +19060,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP309",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP309.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU162",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU162.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU162",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU162.png",
     },],
     keywords: [],
@@ -17763,11 +19104,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU163",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU163.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU163",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU163.png",
     },],
     keywords: [Keyword.Opt],
@@ -17799,16 +19142,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP317",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP317.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU165",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU165.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU165",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU165.png",
     },],
     keywords: [Keyword.Opt],
@@ -17840,16 +19186,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP318",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP318.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU166",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU166.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU166",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU166.png",
     },],
     keywords: [Keyword.Opt],
@@ -17881,16 +19230,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP319",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP319.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU167",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU167.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU167",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU167.png",
     },],
     keywords: [Keyword.Opt],
@@ -17922,11 +19274,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU168",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU168.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU168",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU168.png",
     },],
     keywords: [Keyword.Opt],
@@ -17958,11 +19312,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU169",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU169.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU169",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU169.png",
     },],
     keywords: [Keyword.Opt],
@@ -17994,11 +19350,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU170",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU170.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU170",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU170.png",
     },],
     keywords: [Keyword.Opt],
@@ -18030,11 +19388,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU171",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU171.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU171",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU171.png",
     },],
     keywords: [],
@@ -18066,11 +19426,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU172",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU172.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU172",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU172.png",
     },],
     keywords: [],
@@ -18102,11 +19464,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU173",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU173.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU173",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU173.png",
     },],
     keywords: [],
@@ -18138,16 +19502,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP332",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP332.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU174",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU174.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU174",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU174.png",
     },],
     keywords: [],
@@ -18179,16 +19546,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP333",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP333.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU175",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU175.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU175",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU175.png",
     },],
     keywords: [],
@@ -18220,16 +19590,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP334",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP334.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU176",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU176.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU176",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU176.png",
     },],
     keywords: [],
@@ -18261,16 +19634,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP359",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP359.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU180",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU180.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU180",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU180.png",
     },],
     keywords: [],
@@ -18302,16 +19678,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP364",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP364.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU181",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU181.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU181",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU181.png",
     },],
     keywords: [Keyword.Legendary,Keyword.GoAgain],
@@ -18343,11 +19722,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU183",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU183.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU183",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU183.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -18379,11 +19760,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU184",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU184.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU184",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU184.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -18415,11 +19798,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU185",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU185.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU185",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU185.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -18451,11 +19836,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU188",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU188.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU188",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU188.png",
     },],
     keywords: [],
@@ -18487,11 +19874,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU192",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU192.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU192",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU192.png",
     },],
     keywords: [],
@@ -18523,11 +19912,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU193",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU193.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU193",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU193.png",
     },],
     keywords: [],
@@ -18559,16 +19950,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "IRA010",
       set: Release.IraWelcomeDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/IRA010-P_CGHBP7m.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU194",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU194.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU194",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU194.png",
     },],
     keywords: [],
@@ -18600,11 +19994,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON000",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON000.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON000",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON000.width-450.png",
     },],
     keywords: [Keyword.Legendary],
@@ -18636,16 +20032,19 @@
       edition: ReleaseEdition.First,
       identifier: "MON004",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON004.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON004",
       set: Release.Monarch,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-MON/MON004-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON004",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON004.width-450.png",
     },],
     keywords: [Keyword.Dominate,Keyword.Phantasm],
@@ -18677,21 +20076,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB028",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB028.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "PSM008",
       set: Release.PrismBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/PSM008.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON007",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON007.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON007",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON007.width-450.png",
     },],
     keywords: [Keyword.Specialization,Keyword.Phantasm],
@@ -18723,11 +20126,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON008",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON008.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON008",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON008.width-450.png",
     },],
     keywords: [Keyword.Phantasm],
@@ -18759,11 +20164,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON009",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON009.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON009",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON009.width-450.png",
     },],
     keywords: [Keyword.Phantasm],
@@ -18795,11 +20202,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON010",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON010.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON010",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON010.width-450.png",
     },],
     keywords: [Keyword.Phantasm],
@@ -18831,21 +20240,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB029",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB029.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "PSM009",
       set: Release.PrismBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/PSM009.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON014",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON014.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON014",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON014.width-450.png",
     },],
     keywords: [Keyword.Phantasm],
@@ -18877,16 +20290,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB030",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB030.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON015",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON015.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON015",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON015.width-450.png",
     },],
     keywords: [Keyword.Phantasm],
@@ -18918,21 +20334,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB031",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB031.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "PSM016",
       set: Release.PrismBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/PSM016.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON016",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON016.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON016",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON016.width-450.png",
     },],
     keywords: [Keyword.Phantasm],
@@ -18964,16 +20384,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "PSM010",
       set: Release.PrismBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/PSM010.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON017",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/9986165132..223435430.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON017",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON017.width-450.png",
     },],
     keywords: [Keyword.Phantasm],
@@ -19005,11 +20428,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON018",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/23fgw5465b464.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON018",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON018.width-450.png",
     },],
     keywords: [Keyword.Phantasm],
@@ -19041,16 +20466,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "PSM017",
       set: Release.PrismBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/PSM017.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON019",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/456b443654yteb65764.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON019",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON019.width-450.png",
     },],
     keywords: [Keyword.Phantasm],
@@ -19082,16 +20510,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "PSM011",
       set: Release.PrismBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/PSM011.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON020",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON020.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON020",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U_MON020.width-450.png",
     },],
     keywords: [Keyword.Phantasm],
@@ -19123,11 +20554,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON021",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON021.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON021",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON021.width-450.png",
     },],
     keywords: [Keyword.Phantasm],
@@ -19159,16 +20592,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "PSM018",
       set: Release.PrismBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/PSM018.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON022",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON022.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON022",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON022.width-450.png",
     },],
     keywords: [Keyword.Phantasm],
@@ -19200,16 +20636,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "PSM012",
       set: Release.PrismBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/PSM012.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON023",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON023.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON023",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON023.width-450.png",
     },],
     keywords: [Keyword.Dominate,Keyword.Phantasm],
@@ -19241,11 +20680,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON024",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON024.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON024",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON024.width-450.png",
     },],
     keywords: [Keyword.Dominate,Keyword.Phantasm],
@@ -19277,16 +20718,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "PSM019",
       set: Release.PrismBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/PSM019.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON025",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON025.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON025",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON025.width-450.png",
     },],
     keywords: [Keyword.Dominate,Keyword.Phantasm],
@@ -19318,21 +20762,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB035",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB035.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "PSM013",
       set: Release.PrismBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/PSM013.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON026",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON026.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON026",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON026.width-450.png",
     },],
     keywords: [Keyword.Phantasm],
@@ -19364,16 +20812,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB036",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB036.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON027",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON027.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON027",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON027.width-450.png",
     },],
     keywords: [Keyword.Phantasm],
@@ -19405,21 +20856,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB037",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB037.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "PSM020",
       set: Release.PrismBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/PSM020.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON028",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON028.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON028",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON028.width-450.png",
     },],
     keywords: [Keyword.Phantasm],
@@ -19451,11 +20906,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON032",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON032.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON032",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON032.width-450.png",
     },],
     keywords: [],
@@ -19487,16 +20944,19 @@
       edition: ReleaseEdition.First,
       identifier: "MON034",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON034.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON034",
       set: Release.Monarch,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-MON/MON034-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON034",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON034.width-450.png",
     },],
     keywords: [Keyword.Specialization,Keyword.GoAgain],
@@ -19528,16 +20988,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BOL009",
       set: Release.BoltynBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BOL009.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON035",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON035.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON035",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON035.width-450.png",
     },],
     keywords: [Keyword.Specialization,Keyword.Charge],
@@ -19569,16 +21032,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BOL010",
       set: Release.BoltynBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BOL010.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON036",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON036.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON036",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/UMON036.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -19610,11 +21076,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON037",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON037.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON037",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON037.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -19646,11 +21114,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON038",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON038.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON038",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON038.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -19682,16 +21152,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BOL017",
       set: Release.BoltynBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BOL017.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON039",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON039.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON039",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON039.width-450.png",
     },],
     keywords: [],
@@ -19723,11 +21196,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON040",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON040.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON040",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON040.width-450.png",
     },],
     keywords: [],
@@ -19759,11 +21234,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON041",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON041.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON041",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON041.width-450.png",
     },],
     keywords: [],
@@ -19795,16 +21272,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BOL011",
       set: Release.BoltynBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BOL011.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON042",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON042.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON042",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON042.width-450.png",
     },],
     keywords: [Keyword.Charge],
@@ -19836,11 +21316,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON043",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON043.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON043",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON043.width-450.png",
     },],
     keywords: [Keyword.Charge],
@@ -19872,16 +21354,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BOL022",
       set: Release.BoltynBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BOL022.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON044",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON044.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON044",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON044.width-450.png",
     },],
     keywords: [Keyword.Charge],
@@ -19913,16 +21398,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BOL013",
       set: Release.BoltynBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BOL013.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON045",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON045.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON045",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON045.width-450.png",
     },],
     keywords: [Keyword.Charge],
@@ -19954,16 +21442,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BOL019",
       set: Release.BoltynBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BOL019.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON046",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON046.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON046",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON046.width-450.png",
     },],
     keywords: [Keyword.Charge],
@@ -19995,11 +21486,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON047",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON047.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON047",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON047.width-450.png",
     },],
     keywords: [Keyword.Charge],
@@ -20031,16 +21524,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BOL014",
       set: Release.BoltynBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BOL014.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON048",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON048.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON048",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON048.width-450.png",
     },],
     keywords: [Keyword.Charge],
@@ -20072,11 +21568,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON049",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON049.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON049",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON049.width-450.png",
     },],
     keywords: [Keyword.Charge],
@@ -20108,16 +21606,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BOL023",
       set: Release.BoltynBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BOL023.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON050",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON050.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON050",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON050.width-450.png",
     },],
     keywords: [Keyword.Charge],
@@ -20149,16 +21650,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BOL015",
       set: Release.BoltynBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BOL015.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON051",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON051.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON051",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON051.width-450.png",
     },],
     keywords: [Keyword.Charge],
@@ -20190,16 +21694,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BOL020",
       set: Release.BoltynBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BOL020.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON052",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON052.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON052",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON052.width-450.png",
     },],
     keywords: [Keyword.Charge],
@@ -20231,11 +21738,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON053",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON053.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON053",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON053.width-450.png",
     },],
     keywords: [Keyword.Charge],
@@ -20267,16 +21776,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BOL016",
       set: Release.BoltynBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BOL016.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON054",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON054.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON054",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON054.width-450.png",
     },],
     keywords: [Keyword.Charge],
@@ -20308,16 +21820,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BOL021",
       set: Release.BoltynBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BOL021.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON055",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON055.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON055",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON055.width-450.png",
     },],
     keywords: [Keyword.Charge],
@@ -20349,11 +21864,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON056",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON056.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON056",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON056.width-450.png",
     },],
     keywords: [Keyword.Charge],
@@ -20385,11 +21902,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON062",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON062.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON062",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON062.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -20421,11 +21940,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON064",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON064.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON064",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON064.width-450.png",
     },],
     keywords: [],
@@ -20457,16 +21978,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BOL024",
       set: Release.BoltynBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BOL024.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON066",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON066.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON066",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON066.width-450.png",
     },],
     keywords: [],
@@ -20498,11 +22022,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON067",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON067.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON067",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON067.width-450.png",
     },],
     keywords: [],
@@ -20534,11 +22060,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON068",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON068.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON068",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON068.width-450.png",
     },],
     keywords: [],
@@ -20570,16 +22098,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "PSM021",
       set: Release.PrismBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/PSM021.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON072",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON072.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON072",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON072.width-450.png",
     },],
     keywords: [],
@@ -20611,11 +22142,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON073",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON073.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON073",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON073.width-450.png",
     },],
     keywords: [],
@@ -20647,21 +22180,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "BOL027",
       set: Release.BoltynBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BOL027.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "PSM024",
       set: Release.PrismBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/PSM024.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON074",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON074.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON074",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON074.width-450.png",
     },],
     keywords: [],
@@ -20693,11 +22230,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON075",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON075.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON075",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON075.width-450.png",
     },],
     keywords: [],
@@ -20729,11 +22268,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON076",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON076.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON076",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON076.width-450.png",
     },],
     keywords: [],
@@ -20765,11 +22306,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON077",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON077.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON077",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON077.width-450.png",
     },],
     keywords: [],
@@ -20801,16 +22344,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BOL025",
       set: Release.BoltynBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BOL025.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON078",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON078.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON078",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON078.width-450.png",
     },],
     keywords: [],
@@ -20842,21 +22388,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "BOL026",
       set: Release.BoltynBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BOL026.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "PSM023",
       set: Release.PrismBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/PSM023.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON079",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON079.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON079",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON079.width-450.png",
     },],
     keywords: [],
@@ -20888,11 +22438,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON080",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON080.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON080",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON080.width-450.png",
     },],
     keywords: [],
@@ -20924,16 +22476,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "PSM022",
       set: Release.PrismBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/PSM022.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON081",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON081.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON081",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON081.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -20965,11 +22520,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON082",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON082.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON082",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON082.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -21001,16 +22558,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BOL028",
       set: Release.BoltynBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BOL028.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON083",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON083.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON083",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON083.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -21042,11 +22602,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON091",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/fy8w7r78545yit3787efygs8def.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON091",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON091.width-450.png",
     },],
     keywords: [Keyword.Phantasm],
@@ -21078,21 +22640,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS054",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS054.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "PSM025",
       set: Release.PrismBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/PSM025.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON095",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON095.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON095",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON095.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.Phantasm],
@@ -21124,16 +22690,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS055",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS055.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON096",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON096.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON096",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON096.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.Phantasm],
@@ -21165,16 +22734,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS056",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS056.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON097",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON097.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON097",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON097.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.Phantasm],
@@ -21206,11 +22778,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON098",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON098.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON098",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON098.width-450.png",
     },],
     keywords: [Keyword.Phantasm],
@@ -21242,16 +22816,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "PSM027",
       set: Release.PrismBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/PSM027.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON099",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON099.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON099",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON099.width-450.png",
     },],
     keywords: [Keyword.Phantasm],
@@ -21283,16 +22860,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "PSM028",
       set: Release.PrismBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/PSM028.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON100",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON100.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON100",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON100.width-450.png",
     },],
     keywords: [Keyword.Phantasm],
@@ -21324,11 +22904,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON101",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON101.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON101",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON101.width-450.png",
     },],
     keywords: [Keyword.Phantasm,Keyword.GoAgain],
@@ -21360,11 +22942,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON102",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON102.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON102",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON102.width-450.png",
     },],
     keywords: [Keyword.Phantasm,Keyword.GoAgain],
@@ -21396,16 +22980,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "PSM029",
       set: Release.PrismBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/PSM029.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON103",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON103.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON103",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON103.width-450.png",
     },],
     keywords: [Keyword.Phantasm,Keyword.GoAgain],
@@ -21437,11 +23024,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON109",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON109.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON109",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON109.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.Dominate],
@@ -21473,21 +23062,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS060",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS060.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "BOL029",
       set: Release.BoltynBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BOL029.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON110",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON110.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON110",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON110.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -21519,16 +23112,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS061",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS061.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON111",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON111.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON111",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON111.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -21560,16 +23156,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS062",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS062.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON112",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON112.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON112",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON112.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -21601,11 +23200,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON113",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON113.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON113",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON113.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -21637,11 +23238,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON114",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON114.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON114",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON114.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -21673,11 +23276,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON115",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON115.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON115",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON115.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -21709,16 +23314,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "DVR010",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/DVR010.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON116",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON116.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON116",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON116.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -21750,11 +23358,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON117",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON117.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON117",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON117.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -21786,11 +23396,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON118",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON118.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON118",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON118.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -21822,11 +23434,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON123",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON123.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON123",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON123.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -21858,16 +23472,19 @@
       edition: ReleaseEdition.First,
       identifier: "MON124",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON124.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON124",
       set: Release.Monarch,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-MON/MON124-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON124",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON124.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -21899,11 +23516,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON125",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/KLUiCIJEFKdt8QM545A4g.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON125",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON125.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -21935,16 +23554,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LEV012",
       set: Release.LeviaBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LEV012.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON126",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/8Hvi6X0i746eD8UVlBjt.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON126",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/UMON126.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -21976,11 +23598,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON127",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/3HnONyYapgg32MEXbFXUB.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON127",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON127.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -22012,11 +23636,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON128",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/SAy5p6Yoa21bM89UuG8l4.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON128",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON128.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -22048,16 +23674,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LEV016",
       set: Release.LeviaBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LEV016.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON129",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON129.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON129",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON129.width-450.png",
     },],
     keywords: [Keyword.Dominate,Keyword.BloodDebt],
@@ -22089,11 +23718,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON130",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON130.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON130",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON130.width-450.png",
     },],
     keywords: [Keyword.Dominate,Keyword.BloodDebt],
@@ -22125,11 +23756,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON131",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON131.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON131",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON131.width-450.png",
     },],
     keywords: [Keyword.Dominate,Keyword.BloodDebt],
@@ -22161,11 +23794,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON132",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON132.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON132",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON132.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.Dominate],
@@ -22197,11 +23832,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON133",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON133.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON133",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON133.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.Dominate],
@@ -22233,16 +23870,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LEV019",
       set: Release.LeviaBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LEV019.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON134",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON134.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON134",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON134.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.Dominate],
@@ -22274,21 +23914,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB023",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB023.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LEV009",
       set: Release.LeviaBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LEV009.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON135",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON135.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON135",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON135.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -22320,11 +23964,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON136",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON136.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON136",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/UMON136.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -22356,16 +24002,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LEV018",
       set: Release.LeviaBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LEV018.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON137",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON137.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON137",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON137.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -22397,16 +24046,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LEV010",
       set: Release.LeviaBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LEV010.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON138",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON138.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON138",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON138.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -22438,11 +24090,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON139",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON139.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON139",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON139.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -22474,16 +24128,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LEV020",
       set: Release.LeviaBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LEV020.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON140",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON140.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON140",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON140.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -22515,16 +24172,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LEV011",
       set: Release.LeviaBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LEV011.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON141",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON141.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON141",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON141.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.BloodDebt],
@@ -22556,11 +24216,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON142",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON142.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON142",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON142.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.BloodDebt],
@@ -22592,16 +24254,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LEV021",
       set: Release.LeviaBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LEV021.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON143",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON143.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON143",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON143.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.BloodDebt],
@@ -22633,16 +24298,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LEV013",
       set: Release.LeviaBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LEV013.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON144",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON144.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON144",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON144.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -22674,11 +24342,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON145",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON145.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON145",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON145.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -22710,11 +24380,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON146",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON146.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON146",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON146.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -22746,16 +24418,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LEV014",
       set: Release.LeviaBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LEV014.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON147",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON147.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON147",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON147.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -22787,16 +24462,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LEV017",
       set: Release.LeviaBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LEV017.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON148",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON148.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON148",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON148.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -22828,11 +24506,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON149",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON149.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON149",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON149.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -22864,16 +24544,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LEV015",
       set: Release.LeviaBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LEV015.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON150",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON150.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON150",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON150.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -22905,11 +24588,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON151",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON151.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON151",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON151.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -22941,16 +24626,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LEV022",
       set: Release.LeviaBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LEV022.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON152",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON152.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON152",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON152.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -22982,11 +24670,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON156",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON156.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON156",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON156.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.BloodDebt],
@@ -23018,11 +24708,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON157",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON157.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON157",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON157.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -23054,16 +24746,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "CHN015",
       set: Release.ChaneBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/CHN015.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON159",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON159.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON159",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON159.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -23095,11 +24790,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON160",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON160.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON160",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON160.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -23131,11 +24828,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON161",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON161.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON161",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON161.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -23167,11 +24866,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON162",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON162.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON162",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON162.width-450.png",
     },],
     keywords: [Keyword.Opt,Keyword.GoAgain],
@@ -23203,11 +24904,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON163",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON163.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON163",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON163.width-450.png",
     },],
     keywords: [Keyword.Opt,Keyword.GoAgain],
@@ -23239,11 +24942,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON164",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON164.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON164",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON164.width-450.png",
     },],
     keywords: [Keyword.Opt,Keyword.GoAgain],
@@ -23275,11 +24980,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON165",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON165.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON165",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON165.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.BloodDebt,Keyword.GoAgain],
@@ -23311,16 +25018,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "CHN017",
       set: Release.ChaneBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/CHN017.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON166",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON166.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON166",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON166.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.BloodDebt,Keyword.GoAgain],
@@ -23352,11 +25062,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON167",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON167.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON167",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON167.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.BloodDebt,Keyword.GoAgain],
@@ -23388,16 +25100,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "CHN009",
       set: Release.ChaneBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/CHN009.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON168",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON168.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON168",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON168.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -23429,11 +25144,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON169",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON169.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON169",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON169.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -23465,11 +25182,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON170",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON170.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON170",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON170.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -23501,16 +25220,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "CHN010",
       set: Release.ChaneBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/CHN010.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON171",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON171.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON171",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON171.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -23542,11 +25264,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON172",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON172.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON172",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON172.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -23578,16 +25302,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "CHN018",
       set: Release.ChaneBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/CHN018.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON173",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON173.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON173",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON173.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -23619,16 +25346,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "CHN011",
       set: Release.ChaneBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/CHN011.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON174",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON174.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON174",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON174.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -23660,11 +25390,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON175",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON175.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON175",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON175.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -23696,16 +25428,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "CHN019",
       set: Release.ChaneBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/CHN019.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON176",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON176.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON176",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON176.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -23737,16 +25472,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "CHN012",
       set: Release.ChaneBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/CHN012.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON177",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON177.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON177",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON177.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -23778,11 +25516,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON178",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON178.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON178",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON178.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -23814,16 +25554,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "CHN020",
       set: Release.ChaneBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-MON-CHN/CHN020.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON179",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON179.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON179",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON179.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -23855,16 +25598,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "CHN013",
       set: Release.ChaneBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/CHN013.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON180",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON180.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON180",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON180.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.BloodDebt],
@@ -23896,11 +25642,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON181",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON181.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON181",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON181.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.BloodDebt],
@@ -23932,11 +25680,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON182",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON182.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON182",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON182.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.BloodDebt],
@@ -23968,16 +25718,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "CHN014",
       set: Release.ChaneBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/CHN014.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON183",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON183_up.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON183",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/seeds.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.BloodDebt],
@@ -24009,16 +25762,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "CHN016",
       set: Release.ChaneBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/CHN016.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON184",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON184.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON184",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/seeds2.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.BloodDebt],
@@ -24050,11 +25806,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON185",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON185.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON185",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/seeds3.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.BloodDebt],
@@ -24086,11 +25844,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON191",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON191.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON191",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON191.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -24122,11 +25882,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON193",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON193.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON193",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON193.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.GoAgain],
@@ -24158,11 +25920,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON194",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON194.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON194",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON194.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -24194,16 +25958,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LEV023",
       set: Release.LeviaBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LEV023.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON195",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON195.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON195",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON195.width-450.png",
     },],
     keywords: [Keyword.Dominate],
@@ -24235,11 +26002,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON196",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON196.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON196",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON196.width-450.png",
     },],
     keywords: [Keyword.Dominate],
@@ -24271,11 +26040,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON197",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON197.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON197",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON197.width-450.png",
     },],
     keywords: [Keyword.Dominate],
@@ -24307,16 +26078,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LEV008",
       set: Release.LeviaBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LEV008.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON198",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON198.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON198",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON198.width-450.png",
     },],
     keywords: [Keyword.Legendary,Keyword.Specialization],
@@ -24348,16 +26122,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "CHN008",
       set: Release.ChaneBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/CHN008.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON199",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON199.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON199",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON199.width-450.png",
     },],
     keywords: [Keyword.Legendary,Keyword.Specialization,Keyword.GoAgain],
@@ -24389,16 +26166,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "CHN022",
       set: Release.ChaneBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/CHN022.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON200",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON200.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON200",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON200.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.BloodDebt],
@@ -24430,11 +26210,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON201",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON201.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON201",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON201.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.BloodDebt],
@@ -24466,11 +26248,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON202",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON202.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON202",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON202.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.BloodDebt],
@@ -24502,16 +26286,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "CHN021",
       set: Release.ChaneBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/CHN021.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON203",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON203.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON203",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON203.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -24543,11 +26330,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON204",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON204.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON204",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON204.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -24580,11 +26369,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON205",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON205.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON205",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON205.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -24616,11 +26407,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON206",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON206.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON206",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON206.width-450.png",
     },],
     keywords: [],
@@ -24652,21 +26445,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "CHN023",
       set: Release.ChaneBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/CHN023.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LEV024",
       set: Release.LeviaBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LEV024.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON207",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON207.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON207",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON207.width-450.png",
     },],
     keywords: [],
@@ -24698,11 +26495,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON208",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON208.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON208",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON208.width-450.png",
     },],
     keywords: [],
@@ -24734,11 +26533,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON209",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON209.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON209",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON209.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -24770,11 +26571,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON210",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON210.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON210",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON210.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -24806,11 +26609,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON211",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON211.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON211",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON211.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -24842,11 +26647,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON212",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON212.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON212",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON212.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -24878,16 +26685,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "CHN024",
       set: Release.ChaneBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/CHN024.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON213",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON213.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON213",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON213.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -24919,11 +26729,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON214",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON214.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON214",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON214.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -24955,11 +26767,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON222",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON222.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON222",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON222.width-450.png",
     },],
     keywords: [],
@@ -24991,16 +26805,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS051",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS051.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON223",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/83qQVRV7av7WVwN6jhg0d.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON223",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON223.width-450.png",
     },],
     keywords: [Keyword.Dominate,Keyword.GoAgain],
@@ -25032,16 +26849,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS052",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS052.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON224",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/322d1Gx66IHv4QNM3gOjV7.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON224",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON224.width-450.png",
     },],
     keywords: [Keyword.Dominate,Keyword.GoAgain],
@@ -25073,16 +26893,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS053",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS053.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON225",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/h3ntlAv43eGM6Nq3R046zh.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON225",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON225.width-450.png",
     },],
     keywords: [Keyword.Dominate,Keyword.GoAgain],
@@ -25114,16 +26937,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LEV026",
       set: Release.LeviaBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LEV026.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON226",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON226.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON226",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON226.width-450.png",
     },],
     keywords: [],
@@ -25155,21 +26981,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "LEV027",
       set: Release.LeviaBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LEV027.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "RVD017",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RVD017.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON227",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON227.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON227",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON227.width-450.png",
     },],
     keywords: [],
@@ -25201,11 +27031,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON228",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON228.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON228",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON228.width-450.png",
     },],
     keywords: [],
@@ -25237,11 +27069,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON231",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON231.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON231",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON231.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -25273,21 +27107,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS057",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS057.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "CHN026",
       set: Release.ChaneBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/CHN026.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON232",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON232.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON232",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON232.width-450.png",
     },],
     keywords: [],
@@ -25319,16 +27157,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS058",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS058.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON233",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON233.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON233",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON233.width-450.png",
     },],
     keywords: [],
@@ -25360,16 +27201,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS059",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS059.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON234",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON234.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON234",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON234.width-450.png",
     },],
     keywords: [],
@@ -25401,11 +27245,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON235",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON235.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON235",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON235.width-450.png",
     },],
     keywords: [],
@@ -25437,11 +27283,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON236",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON236.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON236",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON236.width-450.png",
     },],
     keywords: [],
@@ -25473,16 +27321,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "CHN027",
       set: Release.ChaneBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/CHN027.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON237",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON237.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON237",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON237.width-450.png",
     },],
     keywords: [],
@@ -25514,11 +27365,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON245",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON245.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON245",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON245.width-450.png",
     },],
     keywords: [],
@@ -25550,11 +27403,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON246",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON246.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON246",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON246.width-450.png",
     },],
     keywords: [Keyword.Dominate],
@@ -25586,11 +27441,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON247",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON247.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON247",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON247.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -25622,11 +27479,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON248",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON248.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON248",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON248.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -25658,11 +27517,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON249",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON249.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON249",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON249.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -25694,11 +27555,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON250",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON250.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON250",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON250.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -25730,11 +27593,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON251",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON251.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON251",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON251.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -25766,11 +27631,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON252",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON252.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON252",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON252.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -25802,11 +27669,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON253",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON253.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON253",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON253.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -25838,11 +27707,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON254",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON254.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON254",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON254.width-450.png",
     },],
     keywords: [],
@@ -25874,11 +27745,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON255",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON255.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON255",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON255.width-450.png",
     },],
     keywords: [],
@@ -25910,11 +27783,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON256",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON256.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON256",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON256.width-450.png",
     },],
     keywords: [],
@@ -25946,11 +27821,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON260",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON260.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON260",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON260.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.GoAgain],
@@ -25982,11 +27859,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON261",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON261.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON261",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON261.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.GoAgain],
@@ -26018,11 +27897,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON262",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON262.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON262",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON262.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.GoAgain],
@@ -26054,11 +27935,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON263",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON263.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON263",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON263.width-450.png",
     },],
     keywords: [],
@@ -26090,11 +27973,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON264",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON264.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON264",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON264.width-450.png",
     },],
     keywords: [],
@@ -26126,11 +28011,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON265",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON265.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON265",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON265.width-450.png",
     },],
     keywords: [],
@@ -26162,11 +28049,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON266",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON266.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON266",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON266.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -26198,11 +28087,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON267",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON267.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON267",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON267.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -26234,11 +28125,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON268",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON268.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON268",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON268.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -26270,11 +28163,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON269",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON269.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON269",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON269.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -26306,11 +28201,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON270",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON270.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON270",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON270.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -26342,11 +28239,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON271",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON271.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON271",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON271.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -26378,11 +28277,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON272",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON272.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON272",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON272.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -26414,11 +28315,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON273",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON273.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON273",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON273.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -26450,11 +28353,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON274",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON274.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON274",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON274.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -26486,11 +28391,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON275",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON275.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON275",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON275.width-450.png",
     },],
     keywords: [Keyword.Dominate,Keyword.GoAgain],
@@ -26522,11 +28429,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON276",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON276.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON276",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON276.width-450.png",
     },],
     keywords: [Keyword.Dominate,Keyword.GoAgain],
@@ -26558,11 +28467,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON277",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON277.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON277",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON277.width-450.png",
     },],
     keywords: [Keyword.Dominate,Keyword.GoAgain],
@@ -26594,11 +28505,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON278",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON278.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON278",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON278.width-450.png",
     },],
     keywords: [Keyword.Dominate],
@@ -26630,11 +28543,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON279",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON279.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON279",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON279.width-450.png",
     },],
     keywords: [Keyword.Dominate],
@@ -26666,11 +28581,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON280",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON280.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON280",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON280.width-450.png",
     },],
     keywords: [Keyword.Dominate],
@@ -26702,16 +28619,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LEV028",
       set: Release.LeviaBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LEV028.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON281",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON281.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON281",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON281.width-450.png",
     },],
     keywords: [],
@@ -26743,11 +28663,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON282",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON282.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON282",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON282.width-450.png",
     },],
     keywords: [],
@@ -26779,21 +28701,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "LEV029",
       set: Release.LeviaBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LEV029.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "RVD022",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RVD022.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON283",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON283.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON283",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON283.width-450.png",
     },],
     keywords: [],
@@ -26825,11 +28751,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON284",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON284.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON284",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON284.width-450.png",
     },],
     keywords: [],
@@ -26861,11 +28789,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON285",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON285.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON285",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON285.width-450.png",
     },],
     keywords: [],
@@ -26897,11 +28827,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON286",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON286.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON286",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON286.width-450.png",
     },],
     keywords: [],
@@ -26933,11 +28865,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON287",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON287.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON287",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON287.width-450.png",
     },],
     keywords: [],
@@ -26969,11 +28903,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON288",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON288.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON288",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON288.width-450.png",
     },],
     keywords: [],
@@ -27005,11 +28941,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON289",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON289.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON289",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON289.width-450.png",
     },],
     keywords: [],
@@ -27041,11 +28979,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON290",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON290.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON290",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON290.width-450.png",
     },],
     keywords: [],
@@ -27077,11 +29017,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON291",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON291.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON291",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON291.width-450.png",
     },],
     keywords: [],
@@ -27113,11 +29055,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON292",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON292.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON292",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON292.width-450.png",
     },],
     keywords: [],
@@ -27149,11 +29093,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON293",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON293.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON293",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON293.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -27185,11 +29131,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON294",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON294.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON294",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON294.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -27221,11 +29169,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON295",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON295.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON295",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON295.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -27257,11 +29207,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON296",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON296.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON296",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON296.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -27293,11 +29245,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON297",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON297.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON297",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON297.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -27329,11 +29283,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON298",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON298.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON298",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON298.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -27365,16 +29321,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "CHN028",
       set: Release.ChaneBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/CHN028.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON299",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON299.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON299",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON299.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -27406,16 +29365,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "CHN029",
       set: Release.ChaneBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/CHN029.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON300",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON300.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON300",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON300.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -27447,11 +29409,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON301",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON301.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON301",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON301.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -27483,11 +29447,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON302",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON302.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON302",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON302.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.Spellvoid],
@@ -27519,11 +29485,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE000",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE000_vertical.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE000",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE000.width-450.png",
     },],
     keywords: [Keyword.Legendary,Keyword.GoAgain],
@@ -27555,11 +29523,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE004",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE004.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE004",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/UELE004.width-450.png",
     },],
     keywords: [Keyword.Specialization,Keyword.Fusion],
@@ -27591,11 +29561,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE005",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE005.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE005",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE005.width-450.png",
     },],
     keywords: [Keyword.Fusion,Keyword.Dominate],
@@ -27627,11 +29599,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE013",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE013.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE013",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE013.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -27663,11 +29637,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE014",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE014.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE014",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE014.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -27699,16 +29675,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "OLD021",
       set: Release.OldhimBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/OLD021.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE015",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE015.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE015",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE015.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -27740,16 +29719,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "OLD008",
       set: Release.OldhimBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/OLD008.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE016",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE016.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE016",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE016.width-450.png",
     },],
     keywords: [Keyword.Fusion,Keyword.Dominate],
@@ -27781,11 +29763,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE017",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE017.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE017",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE017.width-450.png",
     },],
     keywords: [Keyword.Fusion,Keyword.Dominate],
@@ -27817,16 +29801,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "OLD010",
       set: Release.OldhimBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/OLD010.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE018",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE018.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE018",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE018.width-450.png",
     },],
     keywords: [Keyword.Fusion,Keyword.Dominate],
@@ -27858,11 +29845,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE019",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE019.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE019",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE019.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -27894,11 +29883,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE020",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE020.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE020",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE020.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -27930,16 +29921,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "OLD022",
       set: Release.OldhimBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/OLD022.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE021",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE021.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE021",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE021.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -27971,16 +29965,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "OLD009",
       set: Release.OldhimBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/OLD009.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE022",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE022.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE022",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE022.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -28012,11 +30009,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE023",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE023.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE023",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE023.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -28048,16 +30047,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "OLD011",
       set: Release.OldhimBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/OLD011.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE024",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE024.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE024",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE024.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -28089,11 +30091,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE025",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE025.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE025",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE025.width-450.png",
     },],
     keywords: [Keyword.Fusion,Keyword.GoAgain],
@@ -28125,11 +30129,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE026",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE026.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE026",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE026.width-450.png",
     },],
     keywords: [Keyword.Fusion,Keyword.GoAgain],
@@ -28161,11 +30167,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE027",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE027.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE027",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE027.width-450.png",
     },],
     keywords: [Keyword.Fusion,Keyword.GoAgain],
@@ -28197,21 +30205,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS078",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS078.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "OLD020",
       set: Release.OldhimBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/OLD020.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE028",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE028.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE028",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE028.width-450.png",
     },],
     keywords: [Keyword.Fusion,Keyword.GoAgain],
@@ -28243,11 +30255,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE029",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE029.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE029",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE029.width-450.png",
     },],
     keywords: [Keyword.Fusion,Keyword.GoAgain],
@@ -28279,16 +30293,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "OLD023",
       set: Release.OldhimBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/OLD023.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE030",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE030.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE030",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE030.width-450.png",
     },],
     keywords: [Keyword.Fusion,Keyword.GoAgain],
@@ -28320,11 +30337,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE035",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE035.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE035",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE035.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -28356,11 +30375,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE036",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE036.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE036",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE036.width-450.png",
     },],
     keywords: [Keyword.Specialization,Keyword.Fusion],
@@ -28392,11 +30413,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE037",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE037.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE037",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE037.width-450.png",
     },],
     keywords: [Keyword.Fusion,Keyword.GoAgain],
@@ -28428,11 +30451,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE038",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE038.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE038",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE038.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -28464,11 +30489,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE039",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE039.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE039",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE039.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -28500,11 +30527,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE040",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE040.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE040",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE040.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -28536,16 +30565,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LXI010",
       set: Release.LexiBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LXI010.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE041",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE041.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE041",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE041.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -28577,11 +30609,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE042",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE042.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE042",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE042.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -28613,11 +30647,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE043",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE043.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE043",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE043.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -28649,16 +30685,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LXI022",
       set: Release.LexiBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LXI022.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE044",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE044.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE044",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE044.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -28690,11 +30729,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE045",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE045.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE045",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE045.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -28726,11 +30767,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE046",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE046.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE046",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE046.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -28762,16 +30805,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LXI007",
       set: Release.LexiBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LXI007.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE047",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE047.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE047",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE047.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -28803,16 +30849,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LXI011",
       set: Release.LexiBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LXI011.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE048",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE048.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE048",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE048.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -28844,11 +30893,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE049",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE049.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE049",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE049.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -28880,11 +30931,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE050",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE050.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE050",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE050.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -28916,16 +30969,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LXI023",
       set: Release.LexiBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LXI023.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE051",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE051.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE051",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE051.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -28957,11 +31013,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE052",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE052.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE052",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE052.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -28993,16 +31051,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LXI008",
       set: Release.LexiBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LXI008.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE053",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE053.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE053",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE053.width-450.png",
     },],
     keywords: [Keyword.Fusion,Keyword.GoAgain],
@@ -29034,11 +31095,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE054",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE054.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE054",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE054.width-450.png",
     },],
     keywords: [Keyword.Fusion,Keyword.GoAgain],
@@ -29070,11 +31133,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE055",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE055.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE055",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE055.width-450.png",
     },],
     keywords: [Keyword.Fusion,Keyword.GoAgain],
@@ -29106,11 +31171,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE056",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE056.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE056",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE056.width-450.png",
     },],
     keywords: [Keyword.Fusion,Keyword.Dominate],
@@ -29142,11 +31209,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE057",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE057.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE057",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE057.width-450.png",
     },],
     keywords: [Keyword.Fusion,Keyword.Dominate],
@@ -29178,11 +31247,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE058",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE058.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE058",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE058.width-450.png",
     },],
     keywords: [Keyword.Fusion,Keyword.Dominate],
@@ -29214,16 +31285,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LXI009",
       set: Release.LexiBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LXI009.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE059",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE059.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE059",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE059.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -29255,16 +31329,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LXI012",
       set: Release.LexiBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LXI012.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE060",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE060.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE060",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE060.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -29296,11 +31373,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE061",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE061.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE061",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE061.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -29332,11 +31411,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE064",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE064.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE064",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE064.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -29368,11 +31449,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE065",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE065.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE065",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE065.width-450.png",
     },],
     keywords: [Keyword.Fusion,Keyword.GoAgain],
@@ -29404,11 +31487,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE066",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE066.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE066",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE066.width-450.png",
     },],
     keywords: [Keyword.Specialization,Keyword.Fusion,Keyword.GoAgain],
@@ -29440,16 +31525,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BRI009",
       set: Release.BriarBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BRI009.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE067",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE067.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE067",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE067.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -29481,11 +31569,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE068",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE068.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE068",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE068.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -29517,11 +31607,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE069",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE069.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE069",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE069.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -29553,16 +31645,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BRI027",
       set: Release.BriarBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-ELE-BRI/BRI027.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE070",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE070.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE070",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE070.width-450.png",
     },],
     keywords: [Keyword.Fusion,Keyword.GoAgain],
@@ -29594,11 +31689,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE071",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE071.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE071",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE071.width-450.png",
     },],
     keywords: [Keyword.Fusion,Keyword.GoAgain],
@@ -29630,11 +31727,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE072",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE072.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE072",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE072.width-450.png",
     },],
     keywords: [Keyword.Fusion,Keyword.GoAgain],
@@ -29666,11 +31765,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE073",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE073.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE073",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE073.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -29702,11 +31803,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE074",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE074.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE074",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE074.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -29738,11 +31841,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE075",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE075.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE075",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE075.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -29774,11 +31879,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE076",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE076.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE076",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE076.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -29810,11 +31917,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE077",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE077.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE077",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE077.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -29846,11 +31955,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE078",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE078.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE078",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE078.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -29882,16 +31993,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BRI010",
       set: Release.BriarBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BRI010.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE079",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE079.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE079",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE079.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -29923,11 +32037,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE080",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE080.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE080",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE080.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -29959,16 +32075,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BRI014",
       set: Release.BriarBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BRI014.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE081",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE081.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE081",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE081.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -30000,21 +32119,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB047",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB047.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "BRI011",
       set: Release.BriarBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BRi0111.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE082",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE082.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE082",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE082.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -30046,16 +32169,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BRI013",
       set: Release.BriarBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BRI013.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE083",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE083.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE083",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE083.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -30087,11 +32213,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE084",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE084.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE084",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE084.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -30123,16 +32251,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BRI012",
       set: Release.BriarBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BRI012.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE085",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE085.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE085",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE085.width-450.png",
     },],
     keywords: [Keyword.Fusion,Keyword.GoAgain],
@@ -30164,11 +32295,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE086",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE086.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE086",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE086.width-450.png",
     },],
     keywords: [Keyword.Fusion,Keyword.GoAgain],
@@ -30200,16 +32333,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BRI015",
       set: Release.BriarBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BRI015.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE087",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE087.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE087",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE087.width-450.png",
     },],
     keywords: [Keyword.Fusion,Keyword.GoAgain],
@@ -30241,11 +32377,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE088",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE088.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE088",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE088.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -30277,11 +32415,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE089",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE089.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE089",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE089.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -30313,11 +32453,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE090",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE090.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE090",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE090.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -30349,11 +32491,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE091",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE091.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE091",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE091.width-450.png",
     },],
     keywords: [Keyword.Fusion,Keyword.GoAgain,Keyword.GoAgain],
@@ -30385,11 +32529,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE092",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE092.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE092",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE092.width-450.png",
     },],
     keywords: [Keyword.Fusion,Keyword.GoAgain,Keyword.Dominate],
@@ -30421,16 +32567,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BRI016",
       set: Release.BriarBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BRI016.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE094",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE094.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE094",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE094.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -30462,11 +32611,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE095",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE095.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE095",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE095.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -30498,11 +32649,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE096",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE096.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE096",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE096.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -30534,11 +32687,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE097",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE097.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE097",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE097.width-450.png",
     },],
     keywords: [Keyword.Fusion,Keyword.Dominate],
@@ -30570,11 +32725,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE098",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE098.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE098",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE098.width-450.png",
     },],
     keywords: [Keyword.Fusion,Keyword.Dominate],
@@ -30606,11 +32763,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE099",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE099.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE099",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE099.width-450.png",
     },],
     keywords: [Keyword.Fusion,Keyword.Dominate],
@@ -30642,21 +32801,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "BRI028",
       set: Release.BriarBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BRI028.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LXI013",
       set: Release.LexiBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LXI013.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE100",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE100.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE100",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE100.width-450.png",
     },],
     keywords: [Keyword.Fusion,Keyword.GoAgain],
@@ -30688,11 +32851,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE101",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE101.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE101",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE101.width-450.png",
     },],
     keywords: [Keyword.Fusion,Keyword.GoAgain],
@@ -30724,11 +32889,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE102",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE102.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE102",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE102.width-450.png",
     },],
     keywords: [Keyword.Fusion,Keyword.GoAgain],
@@ -30760,16 +32927,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS080",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS080.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE103",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE103.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE103",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE103.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -30801,16 +32971,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS081",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS081.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE104",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE104.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE104",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE104.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -30842,16 +33015,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS082",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS082.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE105",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE105.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE105",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE105.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -30883,11 +33059,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE106",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE106.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE106",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE106.width-450.png",
     },],
     keywords: [],
@@ -30919,11 +33097,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE107",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE107.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE107",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE107.width-450.png",
     },],
     keywords: [],
@@ -30955,11 +33135,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE108",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE108.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE108",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE108.width-450.png",
     },],
     keywords: [],
@@ -30991,11 +33173,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE113",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE113.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE113",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE113.width-450.png",
     },],
     keywords: [Keyword.Legendary,Keyword.GoAgain],
@@ -31027,11 +33211,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE117",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE117.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE117",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE117.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.Channel],
@@ -31063,11 +33249,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE118",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE118.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE118",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE118.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -31099,16 +33287,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BRI018",
       set: Release.BriarBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BRI018.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE119",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE119.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE119",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE119.width-450.png",
     },],
     keywords: [],
@@ -31140,11 +33331,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE120",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE120.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE120",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE120.width-450.png",
     },],
     keywords: [],
@@ -31176,16 +33369,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "OLD026",
       set: Release.OldhimBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/OLD026.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE121",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE121.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE121",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE121.width-450.png",
     },],
     keywords: [],
@@ -31217,16 +33413,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BRI021",
       set: Release.BriarBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BRI021.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE122",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE122.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE122",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE122.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -31258,11 +33457,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE123",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE123.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE123",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE123.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -31294,11 +33495,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE124",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE124.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE124",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE124.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -31330,11 +33533,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE128",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE128.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE128",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE128.width-450.png",
     },],
     keywords: [],
@@ -31366,16 +33571,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BRI022",
       set: Release.BriarBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BRI022.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE129",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE129.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE129",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE129.width-450.png",
     },],
     keywords: [],
@@ -31407,16 +33615,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "OLD024",
       set: Release.OldhimBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/OLD024.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE130",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE130.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE130",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE130.width-450.png",
     },],
     keywords: [],
@@ -31448,11 +33659,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE131",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE131.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE131",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE131.width-450.png",
     },],
     keywords: [],
@@ -31484,11 +33697,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE132",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE132.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE132",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U.ELE132.width-450.png",
     },],
     keywords: [],
@@ -31520,16 +33735,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "OLD025",
       set: Release.OldhimBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/OLD025.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE133",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE133.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE133",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE133.width-450.png",
     },],
     keywords: [],
@@ -31561,21 +33779,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS069",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS069.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "BRI017",
       set: Release.BriarBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BRI017.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE134",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE134.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE134",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE134.width-450.png",
     },],
     keywords: [],
@@ -31607,16 +33829,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS070",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS070.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE135",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE135.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE135",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE135.width-450.png",
     },],
     keywords: [],
@@ -31648,16 +33873,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS071",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS071.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE136",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE136.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE136",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE136.width-450.png",
     },],
     keywords: [],
@@ -31689,16 +33917,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BRI019",
       set: Release.BriarBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BRI019.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE137",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE137.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE137",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE137.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -31730,11 +33961,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE138",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE138.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE138",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE138.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -31766,21 +33999,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "BRI024",
       set: Release.BriarBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BRI024.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "OLD027",
       set: Release.OldhimBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/OLD027.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE139",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE139.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE139",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE139.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -31812,16 +34049,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BRI020",
       set: Release.BriarBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BRI020.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE140",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE140.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE140",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE140.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -31853,11 +34093,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE141",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE141.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE141",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE141.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -31889,16 +34131,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BRI025",
       set: Release.BriarBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BRI025.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE142",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE142.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE142",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE142.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -31930,21 +34175,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS063",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS063.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "BRI026",
       set: Release.BriarBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BRI026.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE143",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE143.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE143",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE143.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -31976,16 +34225,19 @@
       edition: ReleaseEdition.First,
       identifier: "ELE146",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE146.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE146",
       set: Release.TalesOfAria,
+      treatment: Treatment.AA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-ELE/ELE146-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE146",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE146.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.Channel],
@@ -32017,16 +34269,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "OLD013",
       set: Release.OldhimBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/OLD013.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE148",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE148.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE148",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE148.width-450.png",
     },],
     keywords: [],
@@ -32058,11 +34313,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE149",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE149.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE149",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE149.width-450.png",
     },],
     keywords: [],
@@ -32094,11 +34351,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE150",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE150.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE150",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE150.width-450.png",
     },],
     keywords: [],
@@ -32130,11 +34389,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE151",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE151.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE151",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE151.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -32166,11 +34427,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE152",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE152.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE152",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE152.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -32202,11 +34465,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE153",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE153.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE153",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE153.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -32238,16 +34503,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "OLD014",
       set: Release.OldhimBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/OLD014.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE154",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE154.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE154",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE154.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.Dominate],
@@ -32279,11 +34547,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE155",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE155.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE155",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE155.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.Dominate],
@@ -32315,11 +34585,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE156",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE156.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE156",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE156.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.Dominate],
@@ -32351,11 +34623,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE157",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE157.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE157",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE157.width-450.png",
     },],
     keywords: [],
@@ -32387,11 +34661,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE158",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE158.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE158",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE158.width-450.png",
     },],
     keywords: [],
@@ -32423,11 +34699,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE159",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE159.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE159",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE159.width-450.png",
     },],
     keywords: [],
@@ -32459,11 +34737,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE160",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE160.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE160",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE160.width-450.png",
     },],
     keywords: [],
@@ -32495,11 +34775,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE161",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE161.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE161",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE161.width-450.png",
     },],
     keywords: [],
@@ -32531,16 +34813,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "OLD017",
       set: Release.OldhimBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/OLD017.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE162",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE162.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE162",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE162.width-450.png",
     },],
     keywords: [],
@@ -32572,11 +34857,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE163",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE163.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE163",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE163.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -32608,16 +34895,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LXI024",
       set: Release.LexiBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LXI024.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE164",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE164.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE164",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE164.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -32649,11 +34939,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE165",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE165.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE165",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE165.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -32685,16 +34977,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS072",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS072.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE166",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE166.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE166",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE166.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.Dominate],
@@ -32726,21 +35021,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS073",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS073.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "OLD015",
       set: Release.OldhimBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/OLD015.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE167",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE167.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE167",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE167.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.Dominate],
@@ -32772,16 +35071,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS074",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS074.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE168",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE168.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE168",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE168.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.Dominate],
@@ -32813,11 +35115,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE169",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE169.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE169",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE169.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -32849,16 +35153,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "OLD016",
       set: Release.OldhimBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/OLD016.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE170",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE170.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE170",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE170.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -32890,16 +35197,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LXI025",
       set: Release.LexiBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LXI025.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE171",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE171.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE171",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE171.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -32931,21 +35241,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS064",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS064.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "OLD018",
       set: Release.OldhimBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/OLD018.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE172",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE172.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE172",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE172.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -32977,11 +35291,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE175",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE175.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE175",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE175.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.Channel,Keyword.GoAgain],
@@ -33013,11 +35329,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE177",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE177.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE177",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE177.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.GoAgain],
@@ -33049,16 +35367,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BRI031",
       set: Release.BriarBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BRI031.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE178",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE178.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE178",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE178.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.GoAgain],
@@ -33090,11 +35411,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE179",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE179.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE179",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE179.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.GoAgain],
@@ -33126,21 +35449,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS075",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS075.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LXI017",
       set: Release.LexiBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LXI017.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE180",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE180.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE180",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE180.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.GoAgain],
@@ -33172,16 +35499,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS076",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS076.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE181",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE181.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE181",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE181.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.GoAgain],
@@ -33213,16 +35543,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS077",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS077.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE182",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE182.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE182",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE182.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.GoAgain],
@@ -33254,11 +35587,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE186",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE186.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE186",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE186.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -33290,11 +35625,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE187",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE187.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE187",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE187.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -33326,11 +35663,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE188",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE188.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE188",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE188.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -33362,11 +35701,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE189",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE189.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE189",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE189.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -33398,16 +35739,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BRI029",
       set: Release.BriarBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BRI029.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE190",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE190.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE190",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE190.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -33439,11 +35783,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE191",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE191.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE191",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE191.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -33475,16 +35821,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LXI014",
       set: Release.LexiBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LXI014.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE192",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE192.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE192",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE192.width-450.png",
     },],
     keywords: [],
@@ -33516,16 +35865,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LXI019",
       set: Release.LexiBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LXI019.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE193",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE193.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE193",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE193.width-450.png",
     },],
     keywords: [],
@@ -33557,11 +35909,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE194",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE194.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE194",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE194.width-450.png",
     },],
     keywords: [],
@@ -33593,16 +35947,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LXI015",
       set: Release.LexiBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LXI015.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE195",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE195.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE195",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE195.width-450.png",
     },],
     keywords: [],
@@ -33634,11 +35991,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE196",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE196.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE196",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE196.width-450.png",
     },],
     keywords: [],
@@ -33670,11 +36029,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE197",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE197.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE197",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE197.width-450.png",
     },],
     keywords: [],
@@ -33706,16 +36067,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LXI016",
       set: Release.LexiBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LXI016.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE198",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE198.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE198",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE198.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -33747,16 +36111,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BRI030",
       set: Release.BriarBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BRI030.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE199",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE199.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE199",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE199.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -33788,21 +36155,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB048",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB048.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LXI020",
       set: Release.LexiBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LXI020.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE200",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE200.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE200",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE200.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -33834,21 +36205,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS065",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS065.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LXI021",
       set: Release.LexiBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LXI021.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE201",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE201.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE201",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE201.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.GoAgain],
@@ -33880,11 +36255,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE205",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE205.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE205",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE205.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.Dominate],
@@ -33916,16 +36293,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "OLD030",
       set: Release.OldhimBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/OLD030.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE206",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE206.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE206",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE206.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -33957,11 +36337,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE207",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE207.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE207",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE207.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -33993,11 +36375,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE208",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE208.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE208",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE208.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -34029,16 +36413,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "OLD028",
       set: Release.OldhimBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/OLD028.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE209",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE209.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE209",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE209.width-450.png",
     },],
     keywords: [Keyword.Dominate],
@@ -34070,11 +36457,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE210",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE210.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE210",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE210.width-450.png",
     },],
     keywords: [Keyword.Dominate],
@@ -34106,16 +36495,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "OLD029",
       set: Release.OldhimBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/OLD029.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE211",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE211.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE211",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE211.width-450.png",
     },],
     keywords: [Keyword.Dominate],
@@ -34147,11 +36539,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE215",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE215.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE215",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE215.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -34183,16 +36577,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LXI026",
       set: Release.LexiBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LXI026.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE216",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE216.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE216",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE216.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.Reload],
@@ -34224,11 +36621,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE217",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE217.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE217",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE217.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.Reload],
@@ -34260,11 +36659,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE218",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE218.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE218",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE218.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.Reload],
@@ -34296,16 +36697,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LXI027",
       set: Release.LexiBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LXI027.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE219",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE219.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE219",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE219.width-450.png",
     },],
     keywords: [Keyword.Reload,Keyword.GoAgain],
@@ -34337,11 +36741,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE220",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE220.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE220",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE220.width-450.png",
     },],
     keywords: [Keyword.Reload,Keyword.GoAgain],
@@ -34373,11 +36779,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE221",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE221.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE221",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE221.width-450.png",
     },],
     keywords: [Keyword.Reload,Keyword.GoAgain],
@@ -34409,11 +36817,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE226",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE226.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE226",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE226.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -34445,11 +36855,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE230",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE230.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE230",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE230.width-450.png",
     },],
     keywords: [],
@@ -34481,11 +36893,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE231",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE231.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE231",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE231.width-450.png",
     },],
     keywords: [],
@@ -34517,11 +36931,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE232",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE232.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE232",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE232.width-450.png",
     },],
     keywords: [],
@@ -34553,6 +36969,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR002",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR002.width-450.png",
     },],
     keywords: [],
@@ -34584,6 +37001,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR003",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR003.width-450.png",
     },],
     keywords: [Keyword.Specialization,Keyword.GoAgain],
@@ -34615,6 +37033,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR004",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR004.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -34646,6 +37065,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR005",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR005.width-450.png",
     },],
     keywords: [Keyword.Intimidate,Keyword.GoAgain],
@@ -34677,6 +37097,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR006",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR006.width-450.png",
     },],
     keywords: [Keyword.Intimidate,Keyword.GoAgain],
@@ -34708,6 +37129,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR007",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR007.width-450.png",
     },],
     keywords: [Keyword.Intimidate,Keyword.GoAgain],
@@ -34739,11 +37161,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "RVD011",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RVD011.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR008",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR008.width-450.png",
     },],
     keywords: [],
@@ -34775,6 +37199,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR009",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR009.width-450.png",
     },],
     keywords: [],
@@ -34806,6 +37231,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR010",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR010.width-450.png",
     },],
     keywords: [],
@@ -34837,11 +37263,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "RVD012",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RVD012.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR011",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR011.width-450.png",
     },],
     keywords: [],
@@ -34873,6 +37301,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR012",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR012.width-450.png",
     },],
     keywords: [],
@@ -34904,6 +37333,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR013",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR013.width-450.png",
     },],
     keywords: [],
@@ -34935,6 +37365,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR014",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR014.width-450.png",
     },],
     keywords: [],
@@ -34966,6 +37397,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR015",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR015.width-450.png",
     },],
     keywords: [],
@@ -34997,6 +37429,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR016",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR016.width-450.png",
     },],
     keywords: [],
@@ -35028,11 +37461,13 @@
       edition: ReleaseEdition.First,
       identifier: "EVR021",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR021.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR021",
       set: Release.Everfest,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR021-RF.png",
     },],
     keywords: [Keyword.Heave],
@@ -35064,6 +37499,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR022",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR022.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -35095,6 +37531,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR023",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR023.width-450.png",
     },],
     keywords: [Keyword.Battleworn,Keyword.Temper],
@@ -35126,11 +37563,13 @@
       edition: ReleaseEdition.First,
       identifier: "EVR024",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR024.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR024",
       set: Release.Everfest,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR024-RF.png",
     },],
     keywords: [Keyword.Heave],
@@ -35162,11 +37601,13 @@
       edition: ReleaseEdition.First,
       identifier: "EVR025",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR025.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR025",
       set: Release.Everfest,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR025-RF.png",
     },],
     keywords: [Keyword.Heave],
@@ -35198,11 +37639,13 @@
       edition: ReleaseEdition.First,
       identifier: "EVR026",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR026.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR026",
       set: Release.Everfest,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR026-RF.png",
     },],
     keywords: [Keyword.Heave],
@@ -35234,11 +37677,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS087",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS087.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR027",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR027.width-450.png",
     },],
     keywords: [Keyword.Dominate],
@@ -35270,11 +37715,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS088",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS088.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR028",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR028.width-450.png",
     },],
     keywords: [Keyword.Dominate],
@@ -35306,11 +37753,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS089",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS089.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR029",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR029.width-450.png",
     },],
     keywords: [Keyword.Dominate],
@@ -35342,6 +37791,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR030",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR030.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -35373,6 +37823,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR031",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR031.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -35404,6 +37855,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR032",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR032.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -35435,6 +37887,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR038",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR038.width-450.png",
     },],
     keywords: [Keyword.Combo,Keyword.Dominate],
@@ -35466,6 +37919,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR039",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR039.width-450.png",
     },],
     keywords: [Keyword.Specialization,Keyword.GoAgain],
@@ -35497,11 +37951,13 @@
       edition: ReleaseEdition.First,
       identifier: "EVR040",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR040.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR040",
       set: Release.Everfest,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR040-RF.png",
     },],
     keywords: [Keyword.Combo],
@@ -35533,11 +37989,13 @@
       edition: ReleaseEdition.First,
       identifier: "EVR041",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR041.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR041",
       set: Release.Everfest,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR041-RF.png",
     },],
     keywords: [Keyword.Combo,Keyword.GoAgain],
@@ -35569,11 +38027,13 @@
       edition: ReleaseEdition.First,
       identifier: "EVR042",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR042.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR042",
       set: Release.Everfest,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR042-RF.png",
     },],
     keywords: [Keyword.Combo,Keyword.GoAgain],
@@ -35605,11 +38065,13 @@
       edition: ReleaseEdition.First,
       identifier: "EVR043",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR043.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR043",
       set: Release.Everfest,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR043-RF.png",
     },],
     keywords: [Keyword.Combo,Keyword.GoAgain],
@@ -35641,6 +38103,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR044",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR044.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.GoAgain],
@@ -35672,6 +38135,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR045",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR045.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.GoAgain],
@@ -35703,6 +38167,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR046",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR046.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.GoAgain],
@@ -35734,6 +38199,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR047",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR047.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -35765,6 +38231,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR048",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR048.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -35796,6 +38263,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR049",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR049.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -35827,6 +38295,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR055",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR055.width-450.png",
     },],
     keywords: [Keyword.Specialization,Keyword.GoAgain],
@@ -35858,6 +38327,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR056",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR056.width-450.png",
     },],
     keywords: [],
@@ -35889,11 +38359,13 @@
       edition: ReleaseEdition.First,
       identifier: "EVR057",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR057.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR057",
       set: Release.Everfest,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR057-RF.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -35925,16 +38397,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "DVR018",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/DVR018.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR058",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR058.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR058",
       set: Release.Everfest,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR058-RF.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -35966,11 +38441,13 @@
       edition: ReleaseEdition.First,
       identifier: "EVR059",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR059.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR059",
       set: Release.Everfest,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR059-RF.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -36002,6 +38479,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR066",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR066.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -36033,6 +38511,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR067",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR067.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -36064,6 +38543,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR068",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR068.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -36095,6 +38575,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR069",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR069.width-450.png",
     },],
     keywords: [],
@@ -36126,6 +38607,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR070",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR070.width-450.png",
     },],
     keywords: [Keyword.Specialization],
@@ -36157,6 +38639,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR071",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR071.width-450.png",
     },],
     keywords: [],
@@ -36188,6 +38671,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR072",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR072.width-450.png",
     },],
     keywords: [],
@@ -36219,6 +38703,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR073",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR073.width-450.png",
     },],
     keywords: [Keyword.Boost],
@@ -36250,6 +38735,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR074",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR074.width-450.png",
     },],
     keywords: [Keyword.Boost],
@@ -36281,6 +38767,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR075",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR075.width-450.png",
     },],
     keywords: [Keyword.Boost],
@@ -36312,6 +38799,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR076",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR076.width-450.png",
     },],
     keywords: [Keyword.Dominate],
@@ -36343,6 +38831,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR077",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR077.width-450.png",
     },],
     keywords: [Keyword.Dominate],
@@ -36374,6 +38863,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR078",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR078.width-450.png",
     },],
     keywords: [Keyword.Dominate],
@@ -36405,6 +38895,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR079",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR079.width-450.png",
     },],
     keywords: [Keyword.Opt,Keyword.Boost],
@@ -36436,6 +38927,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR080",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR080.width-450.png",
     },],
     keywords: [Keyword.Opt,Keyword.Boost],
@@ -36467,6 +38959,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR081",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR081.width-450.png",
     },],
     keywords: [Keyword.Opt,Keyword.Boost],
@@ -36498,6 +38991,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR082",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR082.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -36529,6 +39023,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR083",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR083.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -36560,6 +39055,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR084",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR084.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -36591,6 +39087,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR088",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR088.width-450.png",
     },],
     keywords: [],
@@ -36622,6 +39119,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR089",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR089.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -36653,11 +39151,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS096",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS096.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR091",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR091.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -36689,11 +39189,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS097",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS097.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR092",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR092.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -36725,11 +39227,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS098",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS098.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR093",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR093.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -36761,6 +39265,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR094",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR094.width-450.png",
     },],
     keywords: [],
@@ -36792,6 +39297,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR095",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR095.width-450.png",
     },],
     keywords: [],
@@ -36823,6 +39329,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR096",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR096.width-450.png",
     },],
     keywords: [],
@@ -36854,6 +39361,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR097",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR097.width-450.png",
     },],
     keywords: [],
@@ -36885,6 +39393,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR098",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR098.width-450.png",
     },],
     keywords: [],
@@ -36916,6 +39425,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR099",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR099.width-450.png",
     },],
     keywords: [],
@@ -36947,6 +39457,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR100",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR100.width-450.png",
     },],
     keywords: [Keyword.Opt,Keyword.GoAgain],
@@ -36978,6 +39489,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR101",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR101.width-450.png",
     },],
     keywords: [Keyword.Opt,Keyword.GoAgain],
@@ -37009,6 +39521,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR102",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR102.width-450.png",
     },],
     keywords: [Keyword.Opt,Keyword.GoAgain],
@@ -37040,6 +39553,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR104",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR104.width-450.png",
     },],
     keywords: [],
@@ -37071,6 +39585,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR105",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR105.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -37102,6 +39617,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR106",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR106.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -37133,11 +39649,13 @@
       edition: ReleaseEdition.First,
       identifier: "EVR107",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR107.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR107",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR107-RF.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -37169,11 +39687,13 @@
       edition: ReleaseEdition.First,
       identifier: "EVR108",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR108.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR108",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR108-RF.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -37205,11 +39725,13 @@
       edition: ReleaseEdition.First,
       identifier: "EVR109",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR109.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR109",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR109-RF.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -37241,6 +39763,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR110",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR110.width-450.png",
     },],
     keywords: [Keyword.Dominate],
@@ -37272,6 +39795,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR111",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR111.width-450.png",
     },],
     keywords: [Keyword.Dominate],
@@ -37303,6 +39827,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR112",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR112.width-450.png",
     },],
     keywords: [Keyword.Dominate],
@@ -37334,6 +39859,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR113",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR113.width-450.png",
     },],
     keywords: [],
@@ -37365,6 +39891,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR114",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR114.width-450.png",
     },],
     keywords: [],
@@ -37396,6 +39923,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR115",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR115.width-450.png",
     },],
     keywords: [],
@@ -37427,6 +39955,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR116",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR116.width-450.png",
     },],
     keywords: [],
@@ -37458,6 +39987,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR117",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR117.width-450.png",
     },],
     keywords: [],
@@ -37489,6 +40019,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR118",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR118.width-450.png",
     },],
     keywords: [],
@@ -37520,11 +40051,13 @@
       edition: ReleaseEdition.First,
       identifier: "EVR123",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR123.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR123",
       set: Release.Everfest,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR123-RF.png",
     },],
     keywords: [],
@@ -37556,6 +40089,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR124",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR124.width-450.png",
     },],
     keywords: [],
@@ -37587,11 +40121,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS090",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS090.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR125",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR125.width-450.png",
     },],
     keywords: [],
@@ -37623,11 +40159,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS091",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS091.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR126",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR126.width-450.png",
     },],
     keywords: [],
@@ -37659,11 +40197,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS092",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS092.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR127",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR127.width-450.png",
     },],
     keywords: [],
@@ -37695,6 +40235,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR128",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR128.width-450.png",
     },],
     keywords: [],
@@ -37726,6 +40267,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR129",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR129.width-450.png",
     },],
     keywords: [],
@@ -37757,6 +40299,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR130",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR130.width-450.png",
     },],
     keywords: [],
@@ -37788,6 +40331,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR131",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR131.width-450.png",
     },],
     keywords: [],
@@ -37819,6 +40363,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR132",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR132.width-450.png",
     },],
     keywords: [],
@@ -37850,6 +40395,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR133",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR133.width-450.png",
     },],
     keywords: [],
@@ -37881,6 +40427,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR134",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR134.width-450.png",
     },],
     keywords: [],
@@ -37912,6 +40459,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR135",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR135.width-450.png",
     },],
     keywords: [],
@@ -37943,6 +40491,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR136",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR136.width-450.png",
     },],
     keywords: [],
@@ -37974,6 +40523,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR138",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR138.width-450.png",
     },],
     keywords: [],
@@ -38005,6 +40555,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR139",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR139.width-450.png",
     },],
     keywords: [Keyword.Phantasm],
@@ -38036,6 +40587,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR140",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR140.width-450.png",
     },],
     keywords: [Keyword.Spectra],
@@ -38067,11 +40619,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS093",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS093.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR141",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR141.width-450.png",
     },],
     keywords: [Keyword.Spectra],
@@ -38103,11 +40657,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS094",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS094.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR142",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR142.width-450.png",
     },],
     keywords: [Keyword.Spectra],
@@ -38139,11 +40695,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS095",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS095.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR143",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR143.width-450.png",
     },],
     keywords: [Keyword.Spectra],
@@ -38175,6 +40733,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR144",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR144.width-450.png",
     },],
     keywords: [Keyword.Phantasm],
@@ -38206,6 +40765,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR145",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR145.width-450.png",
     },],
     keywords: [Keyword.Phantasm],
@@ -38237,6 +40797,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR146",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR146.width-450.png",
     },],
     keywords: [Keyword.Phantasm],
@@ -38268,6 +40829,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR147",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR147.width-450.png",
     },],
     keywords: [Keyword.Phantasm],
@@ -38299,6 +40861,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR148",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR148.width-450.png",
     },],
     keywords: [Keyword.Phantasm],
@@ -38330,6 +40893,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR149",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR149.width-450.png",
     },],
     keywords: [Keyword.Phantasm],
@@ -38361,6 +40925,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR150",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR150.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -38392,6 +40957,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR151",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR151.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -38423,6 +40989,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR152",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR152.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -38454,6 +41021,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR156",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR156.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -38485,6 +41053,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR157",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR157.width-450.png",
     },],
     keywords: [],
@@ -38516,6 +41085,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR158",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR158.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -38547,11 +41117,13 @@
       edition: ReleaseEdition.First,
       identifier: "EVR159",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR159.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR159",
       set: Release.Everfest,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR159-RF.png",
     },],
     keywords: [],
@@ -38583,6 +41155,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR160",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR160.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -38614,11 +41187,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS084",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS084.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR161",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR161.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -38650,11 +41225,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS085",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS085.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR162",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR162.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -38686,11 +41263,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS086",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS086.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR163",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR163.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -38722,11 +41301,13 @@
       edition: ReleaseEdition.First,
       identifier: "EVR164",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR164.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR164",
       set: Release.Everfest,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR164-RF.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -38758,11 +41339,13 @@
       edition: ReleaseEdition.First,
       identifier: "EVR165",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR165.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR165",
       set: Release.Everfest,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR165-RF.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -38794,11 +41377,13 @@
       edition: ReleaseEdition.First,
       identifier: "EVR166",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR166.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR166",
       set: Release.Everfest,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR166-RF.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -38830,11 +41415,13 @@
       edition: ReleaseEdition.First,
       identifier: "EVR167",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR167.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR167",
       set: Release.Everfest,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR167-RF.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -38866,11 +41453,13 @@
       edition: ReleaseEdition.First,
       identifier: "EVR168",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR168.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR168",
       set: Release.Everfest,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR168-RF.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -38902,11 +41491,13 @@
       edition: ReleaseEdition.First,
       identifier: "EVR169",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR169.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR169",
       set: Release.Everfest,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-EVR/EVR169-RF.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -38938,6 +41529,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR170",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR170.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -38969,6 +41561,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR171",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR171.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -39000,6 +41593,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR172",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR172.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -39031,6 +41625,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR176",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR176.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -39062,6 +41657,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR177",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR177.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -39093,6 +41689,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR178",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR178.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -39124,6 +41721,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR179",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR179.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -39155,6 +41753,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR180",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR180.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -39186,6 +41785,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR181",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR181.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -39217,6 +41817,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR182",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR182.width-450.png",
     },],
     keywords: [],
@@ -39248,6 +41849,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR183",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR183.width-450.png",
     },],
     keywords: [],
@@ -39279,6 +41881,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR184",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR184.width-450.png",
     },],
     keywords: [],
@@ -39310,6 +41913,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR185",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR185.width-450.png",
     },],
     keywords: [],
@@ -39341,6 +41945,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR186",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR186.width-450.png",
     },],
     keywords: [],
@@ -39372,6 +41977,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR187",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR187.width-450.png",
     },],
     keywords: [],
@@ -39403,6 +42009,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR188",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR188.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -39434,6 +42041,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR189",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR189.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -39465,6 +42073,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR190",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR190.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.GoAgain],
@@ -39496,6 +42105,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR191",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR191.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -39527,6 +42137,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR192",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR192.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -39558,6 +42169,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR193",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR193.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -39589,6 +42201,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "DVR008",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/DVR008.width-450.png",
     },],
     keywords: [Keyword.Specialization,Keyword.GoAgain,Keyword.GoAgain],
@@ -39620,6 +42233,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "DVR009",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/DVR009.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -39651,6 +42265,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "DVR019",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/DVR019.width-450.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.GoAgain],
@@ -39682,6 +42297,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "DVR022",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/DVR022.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -39713,6 +42329,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "RVD009",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RVD009.width-450.png",
     },],
     keywords: [],
@@ -39744,6 +42361,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "RVD013",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RVD013.width-450.png",
     },],
     keywords: [Keyword.Intimidate],
@@ -39775,6 +42393,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "RVD015",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RVD015.width-450.png",
     },],
     keywords: [],
@@ -39806,6 +42425,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "RVD018",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RVD018.width-450.png",
     },],
     keywords: [],
@@ -39837,6 +42457,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "RVD025",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RVD025.width-450.png",
     },],
     keywords: [Keyword.Intimidate,Keyword.GoAgain],
@@ -39868,6 +42489,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR005",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR005.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -39899,11 +42521,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR006",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR006.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR006",
       set: Release.Uprising,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR006_B_Front.png",
     },],
     keywords: [Keyword.Legendary,Keyword.Transform,Keyword.GoAgain],
@@ -39935,11 +42559,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR007",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR007.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR007",
       set: Release.Uprising,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR007_B_Front.png",
     },],
     keywords: [Keyword.Legendary,Keyword.Transform,Keyword.GoAgain],
@@ -39971,11 +42597,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR008",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR008.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR008",
       set: Release.Uprising,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR008_B_Front.png",
     },],
     keywords: [Keyword.Legendary,Keyword.Transform,Keyword.GoAgain],
@@ -40007,11 +42635,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR009",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR009.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR009",
       set: Release.Uprising,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR009_B_Front.png",
     },],
     keywords: [Keyword.Transform,Keyword.GoAgain],
@@ -40043,11 +42673,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR010",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR010.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR010",
       set: Release.Uprising,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR010_B_Front.png",
     },],
     keywords: [Keyword.Transform,Keyword.GoAgain],
@@ -40079,11 +42711,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR011",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR011.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR011",
       set: Release.Uprising,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR011_B_Front.png",
     },],
     keywords: [Keyword.Transform,Keyword.GoAgain],
@@ -40115,11 +42749,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR012",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR012.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR012",
       set: Release.Uprising,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR012_B_Front.png",
     },],
     keywords: [Keyword.Transform,Keyword.GoAgain],
@@ -40151,11 +42787,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR013",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR013.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR013",
       set: Release.Uprising,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR013_B_Front.png",
     },],
     keywords: [Keyword.Transform,Keyword.GoAgain],
@@ -40187,11 +42825,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR014",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR014.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR014",
       set: Release.Uprising,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR014_B_Front.png",
     },],
     keywords: [Keyword.Transform,Keyword.GoAgain],
@@ -40223,11 +42863,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR015",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR015.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR015",
       set: Release.Uprising,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR015_B_Front.png",
     },],
     keywords: [Keyword.Transform,Keyword.GoAgain],
@@ -40259,11 +42901,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR016",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR016.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR016",
       set: Release.Uprising,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR016_B_Front.png",
     },],
     keywords: [Keyword.Transform,Keyword.GoAgain],
@@ -40295,11 +42939,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR017",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR017.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR017",
       set: Release.Uprising,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR017_B_Front.png",
     },],
     keywords: [Keyword.Transform,Keyword.GoAgain],
@@ -40331,6 +42977,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR018",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR018.png",
     },],
     keywords: [Keyword.Transform,Keyword.GoAgain],
@@ -40362,6 +43009,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR019",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR019.png",
     },],
     keywords: [Keyword.Transform,Keyword.GoAgain],
@@ -40393,6 +43041,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR020",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR020.png",
     },],
     keywords: [Keyword.Transform,Keyword.GoAgain],
@@ -40424,6 +43073,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR021",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR021.png",
     },],
     keywords: [Keyword.Phantasm,Keyword.GoAgain],
@@ -40455,6 +43105,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR022",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR022.png",
     },],
     keywords: [Keyword.Phantasm,Keyword.GoAgain],
@@ -40486,6 +43137,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR023",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR023.png",
     },],
     keywords: [Keyword.Phantasm,Keyword.GoAgain],
@@ -40517,6 +43169,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR024",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR024.png",
     },],
     keywords: [Keyword.Transform],
@@ -40548,6 +43201,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR025",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR025.png",
     },],
     keywords: [Keyword.Transform],
@@ -40579,6 +43233,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR026",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR026.png",
     },],
     keywords: [Keyword.Transform],
@@ -40610,6 +43265,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR027",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR027.png",
     },],
     keywords: [Keyword.Phantasm],
@@ -40641,6 +43297,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR028",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR028.png",
     },],
     keywords: [Keyword.Phantasm],
@@ -40672,6 +43329,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR029",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR029.png",
     },],
     keywords: [Keyword.Phantasm],
@@ -40703,6 +43361,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR030",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR030.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -40734,6 +43393,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR031",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR031.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -40765,6 +43425,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR032",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR032.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -40796,6 +43457,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR033",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR033.png",
     },],
     keywords: [Keyword.Transform,Keyword.GoAgain],
@@ -40827,6 +43489,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR034",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR034.png",
     },],
     keywords: [Keyword.Transform,Keyword.GoAgain],
@@ -40858,6 +43521,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR035",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR035.png",
     },],
     keywords: [Keyword.Transform,Keyword.GoAgain],
@@ -40889,6 +43553,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR036",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR036.png",
     },],
     keywords: [Keyword.Transform,Keyword.GoAgain],
@@ -40920,6 +43585,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR037",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR037.png",
     },],
     keywords: [Keyword.Transform,Keyword.GoAgain],
@@ -40951,6 +43617,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR038",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR038.png",
     },],
     keywords: [Keyword.Transform,Keyword.GoAgain],
@@ -40982,11 +43649,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR048",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR048.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR048",
       set: Release.Uprising,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR048_EA.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -41018,6 +43687,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR049",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR049.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -41049,6 +43719,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR051",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR051.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -41080,6 +43751,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR052",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR052.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -41111,6 +43783,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR053",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR053.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -41142,6 +43815,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR054",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR054.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -41173,6 +43847,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR055",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR055.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -41204,6 +43879,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR056",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR056.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -41235,6 +43911,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR057",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR057.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -41266,6 +43943,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR058",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR058.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -41297,6 +43975,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR059",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR059.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -41328,6 +44007,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR060",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR060.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -41359,6 +44039,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR061",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR061.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -41390,6 +44071,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR062",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR062.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -41421,6 +44103,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR063",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR063.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -41452,6 +44135,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR064",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR064.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -41483,6 +44167,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR065",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR065.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -41514,6 +44199,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR066",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR066.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -41545,6 +44231,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR067",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR067.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -41576,6 +44263,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR068",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR068.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -41607,6 +44295,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR069",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR069.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -41638,6 +44327,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR070",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR070.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -41669,6 +44359,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR071",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR071.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -41700,6 +44391,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR072",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR072.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -41731,6 +44423,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR073",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR073.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -41762,6 +44455,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR074",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR074.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -41793,6 +44487,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR075",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR075.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -41824,6 +44519,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR076",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR076.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -41855,6 +44551,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR077",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR077.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -41886,6 +44583,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR078",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR078.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -41917,6 +44615,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR079",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR079.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -41948,6 +44647,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR080",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR080.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -41979,6 +44679,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR081",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR081.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.GoAgain],
@@ -42010,6 +44711,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR082",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR082.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.GoAgain],
@@ -42041,6 +44743,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR083",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR083.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.GoAgain],
@@ -42072,6 +44775,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR086",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR086.png",
     },],
     keywords: [Keyword.Unfreeze],
@@ -42103,6 +44807,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR088",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR088.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -42134,6 +44839,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR090",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR090.png",
     },],
     keywords: [Keyword.Specialization,Keyword.Rupture],
@@ -42165,6 +44871,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR091",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR091.png",
     },],
     keywords: [Keyword.Specialization,Keyword.Rupture,Keyword.Dominate],
@@ -42196,6 +44903,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR092",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR092.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -42227,6 +44935,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR093",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR093.png",
     },],
     keywords: [Keyword.Rupture],
@@ -42258,6 +44967,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR094",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR094.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -42289,6 +44999,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR095",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR095.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -42320,11 +45031,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR096",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR096.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR096",
       set: Release.Uprising,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR096_EA.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -42356,11 +45069,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR097",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR097.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR097",
       set: Release.Uprising,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR097_EA.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -42392,6 +45107,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR098",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR098.png",
     },],
     keywords: [Keyword.Rupture],
@@ -42423,6 +45139,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR099",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR099.png",
     },],
     keywords: [Keyword.Rupture],
@@ -42454,11 +45171,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR100",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR100.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR100",
       set: Release.Uprising,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR100_EA.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -42490,11 +45209,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR101",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR101.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR101",
       set: Release.Uprising,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR101_CF.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -42526,6 +45247,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR104",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR104.png",
     },],
     keywords: [Keyword.Fusion,Keyword.Freeze],
@@ -42557,6 +45279,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR105",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR105.png",
     },],
     keywords: [Keyword.Fusion],
@@ -42588,6 +45311,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR109",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR109.png",
     },],
     keywords: [Keyword.Specialization,Keyword.Fusion],
@@ -42619,6 +45343,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR110",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR110.png",
     },],
     keywords: [Keyword.Fusion],
@@ -42650,6 +45375,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR111",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR111.png",
     },],
     keywords: [Keyword.Fusion],
@@ -42681,6 +45407,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR112",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR112.png",
     },],
     keywords: [Keyword.Fusion],
@@ -42712,6 +45439,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR113",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR113.png",
     },],
     keywords: [Keyword.Fusion],
@@ -42743,6 +45471,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR114",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR114.png",
     },],
     keywords: [Keyword.Fusion],
@@ -42774,6 +45503,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR115",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR115.png",
     },],
     keywords: [Keyword.Fusion],
@@ -42805,6 +45535,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR116",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR116.png",
     },],
     keywords: [Keyword.Fusion],
@@ -42836,6 +45567,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR117",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR117.png",
     },],
     keywords: [Keyword.Fusion],
@@ -42867,6 +45599,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR118",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR118.png",
     },],
     keywords: [Keyword.Fusion],
@@ -42898,6 +45631,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR119",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR119.png",
     },],
     keywords: [Keyword.Fusion,Keyword.Freeze],
@@ -42929,6 +45663,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR120",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR120.png",
     },],
     keywords: [Keyword.Fusion,Keyword.Freeze],
@@ -42960,6 +45695,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR121",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR121.png",
     },],
     keywords: [Keyword.Fusion,Keyword.Freeze],
@@ -42991,6 +45727,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR122",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR122.png",
     },],
     keywords: [Keyword.Fusion],
@@ -43022,6 +45759,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR123",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR123.png",
     },],
     keywords: [Keyword.Fusion],
@@ -43053,6 +45791,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR124",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR124.png",
     },],
     keywords: [Keyword.Fusion],
@@ -43084,11 +45823,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR126",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR126.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR126",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR126_CF.png",
     },],
     keywords: [Keyword.Specialization],
@@ -43120,6 +45861,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR127",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR127.png",
     },],
     keywords: [],
@@ -43151,6 +45893,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR128",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR128.png",
     },],
     keywords: [],
@@ -43182,6 +45925,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR129",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR129.png",
     },],
     keywords: [],
@@ -43213,6 +45957,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR130",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR130.png",
     },],
     keywords: [],
@@ -43244,6 +45989,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR131",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR131.png",
     },],
     keywords: [],
@@ -43275,6 +46021,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR132",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR132.png",
     },],
     keywords: [],
@@ -43306,6 +46053,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR133",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR133.png",
     },],
     keywords: [],
@@ -43337,6 +46085,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR134",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR134.png",
     },],
     keywords: [],
@@ -43368,6 +46117,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR135",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR135.png",
     },],
     keywords: [],
@@ -43399,6 +46149,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR138",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR138.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.Channel],
@@ -43430,6 +46181,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR139",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR139.png",
     },],
     keywords: [],
@@ -43461,6 +46213,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR140",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR140.png",
     },],
     keywords: [],
@@ -43492,6 +46245,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR141",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR141.png",
     },],
     keywords: [],
@@ -43523,6 +46277,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR142",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR142.png",
     },],
     keywords: [],
@@ -43554,6 +46309,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR143",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR143.png",
     },],
     keywords: [],
@@ -43585,6 +46341,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR144",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR144.png",
     },],
     keywords: [],
@@ -43616,6 +46373,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR145",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR145.png",
     },],
     keywords: [],
@@ -43647,6 +46405,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR146",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR146.png",
     },],
     keywords: [],
@@ -43678,6 +46437,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR147",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR147.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.Freeze],
@@ -43709,6 +46469,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR148",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR148.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.Freeze],
@@ -43740,6 +46501,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR149",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR149.png",
     },],
     keywords: [Keyword.GoAgain,Keyword.Freeze],
@@ -43771,6 +46533,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR153",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR153.png",
     },],
     keywords: [Keyword.Phantasm],
@@ -43802,6 +46565,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR155",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR155.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -43833,6 +46597,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR156",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR156.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -43864,6 +46629,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR157",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR157.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -43895,6 +46661,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR160",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR160.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -43926,6 +46693,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR161",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR161.png",
     },],
     keywords: [],
@@ -43957,6 +46725,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR168",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR168.png",
     },],
     keywords: [],
@@ -43988,6 +46757,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR170",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR170.png",
     },],
     keywords: [],
@@ -44019,6 +46789,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR171",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR171.png",
     },],
     keywords: [],
@@ -44050,6 +46821,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR172",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR172.png",
     },],
     keywords: [],
@@ -44081,6 +46853,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR173",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR173.png",
     },],
     keywords: [],
@@ -44112,6 +46885,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR174",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR174.png",
     },],
     keywords: [],
@@ -44143,6 +46917,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR175",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR175.png",
     },],
     keywords: [],
@@ -44174,6 +46949,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR176",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR176.png",
     },],
     keywords: [Keyword.Opt],
@@ -44205,6 +46981,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR177",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR177.png",
     },],
     keywords: [Keyword.Opt],
@@ -44236,6 +47013,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR178",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR178.png",
     },],
     keywords: [Keyword.Opt],
@@ -44267,6 +47045,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR179",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR179.png",
     },],
     keywords: [],
@@ -44298,6 +47077,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR180",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR180.png",
     },],
     keywords: [],
@@ -44329,6 +47109,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR181",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR181.png",
     },],
     keywords: [],
@@ -44360,6 +47141,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR187",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR187.png",
     },],
     keywords: [],
@@ -44391,6 +47173,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR188",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR188.png",
     },],
     keywords: [],
@@ -44422,6 +47205,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR190",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR190.png",
     },],
     keywords: [],
@@ -44453,6 +47237,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR191",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR191.png",
     },],
     keywords: [],
@@ -44484,6 +47269,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR192",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR192.png",
     },],
     keywords: [],
@@ -44515,6 +47301,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR193",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR193.png",
     },],
     keywords: [],
@@ -44546,6 +47333,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR194",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR194.png",
     },],
     keywords: [],
@@ -44577,6 +47365,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR195",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR195.png",
     },],
     keywords: [],
@@ -44608,6 +47397,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR196",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR196.png",
     },],
     keywords: [],
@@ -44639,6 +47429,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR197",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR197.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -44670,6 +47461,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR198",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR198.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -44701,6 +47493,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR199",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR199.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -44732,6 +47525,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR200",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR200.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -44763,6 +47557,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR201",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR201.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -44794,6 +47589,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR202",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR202.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -44825,6 +47621,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR203",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR203.png",
     },],
     keywords: [],
@@ -44856,6 +47653,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR204",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR204.png",
     },],
     keywords: [],
@@ -44887,6 +47685,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR205",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR205.png",
     },],
     keywords: [],
@@ -44918,6 +47717,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR206",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR206.png",
     },],
     keywords: [],
@@ -44949,6 +47749,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR207",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR207.png",
     },],
     keywords: [],
@@ -44980,6 +47781,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR208",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR208.png",
     },],
     keywords: [],
@@ -45011,6 +47813,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR212",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR212.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -45042,6 +47845,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR213",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR213.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -45073,6 +47877,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR214",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR214.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -45104,6 +47909,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR215",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR215.png",
     },],
     keywords: [],
@@ -45135,6 +47941,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR216",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR216.png",
     },],
     keywords: [],
@@ -45166,6 +47973,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR217",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR217.png",
     },],
     keywords: [],
@@ -45197,6 +48005,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR218",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR218.png",
     },],
     keywords: [],
@@ -45228,6 +48037,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR219",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR219.png",
     },],
     keywords: [],
@@ -45259,6 +48069,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR220",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR220.png",
     },],
     keywords: [],
@@ -45292,16 +48103,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP103",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP103.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR082",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR082.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR082",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR082.png",
     },],
     keywords: [],
@@ -45333,16 +48147,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP147",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP147.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR118",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR118.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR118",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR118.png",
     },],
     keywords: [Keyword.Reprise,Keyword.GoAgain],
@@ -45374,16 +48191,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP148",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP148.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR120",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR120.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR120",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR120.png",
     },],
     keywords: [Keyword.Reprise],
@@ -45415,16 +48235,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP149",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP149.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR121",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR121.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR121",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR121.png",
     },],
     keywords: [Keyword.Specialization,Keyword.Reprise],
@@ -45456,21 +48279,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "TEA010",
       set: Release.DorintheaHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/TEA10.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP153",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP153.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR123",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR123.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR123",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR123.png",
     },],
     keywords: [Keyword.Reprise],
@@ -45502,16 +48329,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP154",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP154.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR124",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR124.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR124",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR124.png",
     },],
     keywords: [Keyword.Reprise],
@@ -45543,16 +48373,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP155",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP155.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR125",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR125.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR125",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR125.png",
     },],
     keywords: [Keyword.Reprise],
@@ -45584,31 +48417,37 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS008",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS008-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LGS029",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS029.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "DVR016",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/DVR016.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP162",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP162.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR132",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR132.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR132",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR132.png",
     },],
     keywords: [Keyword.Reprise],
@@ -45640,21 +48479,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS030",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS030.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP163",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP163.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR133",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR133.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR133",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR133.png",
     },],
     keywords: [Keyword.Reprise],
@@ -45686,26 +48529,31 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS031",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS031.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "TEA021",
       set: Release.DorintheaHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/TEA21.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP164",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP164.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR134",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR134.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR134",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR134.png",
     },],
     keywords: [Keyword.Reprise],
@@ -45737,16 +48585,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "TEA008",
       set: Release.DorintheaHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/TEA8.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR135",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR135.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR135",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR135.png",
     },],
     keywords: [Keyword.Reprise],
@@ -45778,11 +48629,13 @@
       edition: ReleaseEdition.Alpha,
       identifier: "WTR136",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR136.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR136",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR136.png",
     },],
     keywords: [Keyword.Reprise],
@@ -45814,16 +48667,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "TEA020",
       set: Release.DorintheaHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/TEA20.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR137",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR137.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR137",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR137.png",
     },],
     keywords: [Keyword.Reprise],
@@ -45855,21 +48711,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "TEA009",
       set: Release.DorintheaHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/TEA9.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP168",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP168.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR138",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR138.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR138",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR138.png",
     },],
     keywords: [Keyword.Reprise],
@@ -45901,21 +48761,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "TEA017",
       set: Release.DorintheaHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/TEA17.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP169",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP169.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR139",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR139.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR139",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR139.png",
     },],
     keywords: [Keyword.Reprise],
@@ -45947,16 +48811,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP170",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP170.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR140",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR140.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR140",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR140.png",
     },],
     keywords: [Keyword.Reprise],
@@ -45988,16 +48855,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP399",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP399.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR206",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR206.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR206",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR206.png",
     },],
     keywords: [],
@@ -46029,16 +48899,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP400",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP400.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR207",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR207.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR207",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR207.png",
     },],
     keywords: [],
@@ -46070,21 +48943,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "BVO027",
       set: Release.BravoBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BVO27.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP401",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP401.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR208",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR208.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR208",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR208.png",
     },],
     keywords: [],
@@ -46116,21 +48993,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "TEA016",
       set: Release.DorintheaHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/TEA16.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP402",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP402.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR209",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR209.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR209",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR209.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -46162,16 +49043,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP403",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP403.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR210",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR210.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR210",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR210.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -46203,16 +49087,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP404",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP404.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR211",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR211.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR211",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR211.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -46244,26 +49131,31 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP150",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP150.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU082",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU082.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU082",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU082-RF.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU082",
       set: Release.CrucibleOfWar,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU082-EA.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU082",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU082.png",
     },],
     keywords: [],
@@ -46295,11 +49187,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU083",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU083.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU083",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU083.png",
     },],
     keywords: [Keyword.Reprise],
@@ -46331,16 +49225,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP165",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP165.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU088",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU088.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU088",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU088.png",
     },],
     keywords: [Keyword.Reprise],
@@ -46372,21 +49269,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "DVR020",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/DVR020.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP166",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP166.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU089",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU089.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU089",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU089.png",
     },],
     keywords: [Keyword.Reprise],
@@ -46418,16 +49319,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP167",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP167.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU090",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU090.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU090",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU090.png",
     },],
     keywords: [Keyword.Reprise],
@@ -46459,21 +49363,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "IRA011",
       set: Release.IraWelcomeDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/IRA011-P_6omATzN.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "KSU028",
       set: Release.KatsuHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/KSU28.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU186",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU186.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU186",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU186.png",
     },],
     keywords: [],
@@ -46505,11 +49413,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON033",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON033.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON033",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON033.width-450.png",
     },],
     keywords: [],
@@ -46541,16 +49451,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BOL012",
       set: Release.BoltynBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BOL012.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON057",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON057.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON057",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON057.width-450.png",
     },],
     keywords: [],
@@ -46582,16 +49495,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BOL018",
       set: Release.BoltynBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BOL018.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON058",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON058.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON058",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON058.width-450.png",
     },],
     keywords: [],
@@ -46623,11 +49539,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON059",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON059.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON059",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON059.width-450.png",
     },],
     keywords: [],
@@ -46659,6 +49577,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR054",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR054.width-450.png",
     },],
     keywords: [],
@@ -46690,6 +49609,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR060",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR060.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -46721,6 +49641,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR061",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR061.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -46752,6 +49673,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR062",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR062.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -46783,16 +49705,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB057",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB057.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "DVR015",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/DVR015.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR063",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR063.width-450.png",
     },],
     keywords: [],
@@ -46824,6 +49749,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR064",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR064.width-450.png",
     },],
     keywords: [],
@@ -46855,6 +49781,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR065",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR065.width-450.png",
     },],
     keywords: [],
@@ -46886,6 +49813,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "DVR013",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/DVR013.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -46917,6 +49845,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "DVR014",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/DVR014.width-450.png",
     },],
     keywords: [],
@@ -46948,6 +49877,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "DVR023",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/DVR023.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -46979,6 +49909,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR050",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR050.png",
     },],
     keywords: [],
@@ -47010,6 +49941,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR087",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR087.png",
     },],
     keywords: [Keyword.Rupture],
@@ -47041,6 +49973,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR162",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR162.png",
     },],
     keywords: [],
@@ -47072,6 +50005,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR163",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR163.png",
     },],
     keywords: [],
@@ -47103,6 +50037,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR164",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR164.png",
     },],
     keywords: [],
@@ -47135,16 +50070,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP013",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP013.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR008",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR008.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR008",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR008.png",
     },],
     keywords: [],
@@ -47176,16 +50114,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP058",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP058.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR051",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR051.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR051",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR051.png",
     },],
     keywords: [],
@@ -47217,16 +50158,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP059",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP059.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR052",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR052.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR052",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR052.png",
     },],
     keywords: [],
@@ -47258,21 +50202,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "BVO020",
       set: Release.BravoBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BVO20.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP060",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP060.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR053",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR053.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR053",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR053.png",
     },],
     keywords: [],
@@ -47304,16 +50252,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP113",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP113.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR092",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR092.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR092",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR092.png",
     },],
     keywords: [],
@@ -47345,16 +50296,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP114",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP114.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR093",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR093.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR093",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR093.png",
     },],
     keywords: [],
@@ -47386,21 +50340,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "KSU025",
       set: Release.KatsuHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/KSU25.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP115",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP115.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR094",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR094.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR094",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR094.png",
     },],
     keywords: [],
@@ -47432,21 +50390,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "TEA011",
       set: Release.DorintheaHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/TEA11.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP156",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP156.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR126",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR126.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR126",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR126.png",
     },],
     keywords: [],
@@ -47478,16 +50440,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP157",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP157.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR127",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR127.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR127",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR127.png",
     },],
     keywords: [],
@@ -47519,16 +50484,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP158",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP158.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR128",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR128.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR128",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR128.png",
     },],
     keywords: [],
@@ -47560,16 +50528,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP411",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP411.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR212",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR212.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR212",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR212.png",
     },],
     keywords: [],
@@ -47601,16 +50572,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP412",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP412.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR213",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR213.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR213",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR213.png",
     },],
     keywords: [],
@@ -47642,16 +50616,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP413",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP413.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR214",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR214.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR214",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR214.png",
     },],
     keywords: [],
@@ -47683,16 +50660,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP408",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP408.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR215",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR215.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR215",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR215.png",
     },],
     keywords: [],
@@ -47724,16 +50704,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP409",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP409.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR216",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR216.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR216",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR216.png",
     },],
     keywords: [],
@@ -47765,16 +50748,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP410",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP410.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR217",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR217.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR217",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR217.png",
     },],
     keywords: [],
@@ -47806,16 +50792,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP234",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP234.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC048",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC048.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC048",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC048.png",
     },],
     keywords: [Keyword.Reload],
@@ -47847,16 +50836,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP235",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP235.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC049",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC049.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC049",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC049.png",
     },],
     keywords: [Keyword.Reload],
@@ -47888,16 +50880,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP236",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP236.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC050",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC050.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC050",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC050.png",
     },],
     keywords: [Keyword.Reload],
@@ -47929,31 +50924,37 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS015",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS015-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LGS038",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS038.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP273",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP273.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC088",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC088.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC088",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC088-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC088",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC088.png",
     },],
     keywords: [],
@@ -47985,26 +50986,31 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS039",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS039.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP274",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP274.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC089",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC089.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC089",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC089-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC089",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC089.png",
     },],
     keywords: [],
@@ -48036,26 +51042,31 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS040",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS040.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP275",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP275.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC090",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC090.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC090",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC090-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC090",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC090.png",
     },],
     keywords: [],
@@ -48087,11 +51098,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC123",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC123.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC123",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC123.png",
     },],
     keywords: [],
@@ -48123,11 +51136,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC124",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC124.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC124",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC124.png",
     },],
     keywords: [],
@@ -48159,11 +51174,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC125",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC125.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC125",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC125.png",
     },],
     keywords: [],
@@ -48195,21 +51212,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB024",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB024.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP405",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP405.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC200",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC200.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC200",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC200.png",
     },],
     keywords: [Keyword.Opt],
@@ -48241,16 +51262,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP406",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP406.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC201",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC201.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC201",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC201.png",
     },],
     keywords: [Keyword.Opt],
@@ -48282,16 +51306,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP407",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP407.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC202",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC202.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC202",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC202.png",
     },],
     keywords: [Keyword.Opt],
@@ -48323,16 +51350,19 @@
       edition: ReleaseEdition.First,
       identifier: "CRU126",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU126.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU126",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU126-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU126",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU126.png",
     },],
     keywords: [],
@@ -48364,16 +51394,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LXI029",
       set: Release.LexiBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LXI029.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU127",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU127.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU127",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU127.png",
     },],
     keywords: [],
@@ -48405,16 +51438,19 @@
       edition: ReleaseEdition.First,
       identifier: "CRU128",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU128.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU128",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU128-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU128",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU128.png",
     },],
     keywords: [],
@@ -48446,41 +51482,49 @@
       edition: ReleaseEdition.Promo,
       identifier: "BVO015",
       set: Release.BravoBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BVO15.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "IRA012",
       set: Release.IraWelcomeDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/IRA012-P_kmiIZwp.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "KSU021",
       set: Release.KatsuHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/KSU21.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "RNR022",
       set: Release.RhinarHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RNR22.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "TEA019",
       set: Release.DorintheaHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/TEA19.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP374",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP374.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU187",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU187.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU187",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU187.png",
     },],
     keywords: [],
@@ -48512,11 +51556,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON063",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON063.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON063",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON063.width-450.png",
     },],
     keywords: [],
@@ -48548,11 +51594,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON192",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON192.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON192",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON192.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -48584,11 +51632,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON257",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON257.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON257",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON257.width-450.png",
     },],
     keywords: [],
@@ -48620,11 +51670,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON258",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON258.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON258",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON258.width-450.png",
     },],
     keywords: [],
@@ -48656,11 +51708,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON259",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON259.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON259",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON259.width-450.png",
     },],
     keywords: [],
@@ -48692,11 +51746,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE007",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE007.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE007",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE007.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -48728,16 +51784,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "OLD012",
       set: Release.OldhimBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/OLD012.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE008",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE008.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE008",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE008.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -48769,11 +51828,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE009",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE009.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE009",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE009.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -48805,16 +51866,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "OLD019",
       set: Release.OldhimBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/OLD019.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE010",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE010.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE010",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE010.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -48846,11 +51910,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE011",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE011.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE011",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE011.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -48882,11 +51948,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE012",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE012.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE012",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE012.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -48918,11 +51986,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE114",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE114.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE114",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE114.width-450.png",
     },],
     keywords: [Keyword.Legendary],
@@ -48954,11 +52024,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE227",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE227.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE227",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE227.width-450.png",
     },],
     keywords: [],
@@ -48990,11 +52062,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE228",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE228.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE228",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE228.width-450.png",
     },],
     keywords: [],
@@ -49026,11 +52100,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE229",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE229.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE229",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE229.width-450.png",
     },],
     keywords: [],
@@ -49062,6 +52138,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR050",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR050.width-450.png",
     },],
     keywords: [],
@@ -49093,6 +52170,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR051",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR051.width-450.png",
     },],
     keywords: [],
@@ -49124,6 +52202,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR052",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR052.width-450.png",
     },],
     keywords: [],
@@ -49155,6 +52234,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR122",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR122.width-450.png",
     },],
     keywords: [],
@@ -49186,6 +52266,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "DVR024",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/DVR024.width-450.png",
     },],
     keywords: [],
@@ -49217,6 +52298,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "RVD026",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RVD026.width-450.png",
     },],
     keywords: [],
@@ -49248,6 +52330,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR106",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR106.png",
     },],
     keywords: [Keyword.Fusion],
@@ -49279,6 +52362,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR107",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR107.png",
     },],
     keywords: [Keyword.Fusion],
@@ -49310,6 +52394,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR108",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR108.png",
     },],
     keywords: [Keyword.Fusion],
@@ -49341,6 +52426,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR189",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR189.png",
     },],
     keywords: [],
@@ -49373,6 +52459,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "LSS002",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LSS002-P.width-450.png",
     },],
     keywords: [],
@@ -49404,11 +52491,13 @@
       edition: ReleaseEdition.Alpha,
       identifier: "WTR010",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR010.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR010",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR010.png",
     },],
     keywords: [],
@@ -49440,11 +52529,13 @@
       edition: ReleaseEdition.Alpha,
       identifier: "WTR163",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR163.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR163",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR163.png",
     },],
     keywords: [],
@@ -49476,16 +52567,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP387",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP387.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR173",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR173.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR173",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR173.png",
     },],
     keywords: [],
@@ -49517,16 +52611,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP388",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP388.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR174",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR174.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR174",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR174.png",
     },],
     keywords: [],
@@ -49558,36 +52655,43 @@
       edition: ReleaseEdition.Promo,
       identifier: "KSU030",
       set: Release.KatsuHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/KSU30.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "TEA029",
       set: Release.DorintheaHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/TEA29.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "RNR030",
       set: Release.RhinarHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RNR30.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "DVR025",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/DVR025.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP389",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP389.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR175",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR175.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR175",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR175.png",
     },],
     keywords: [],
@@ -49619,16 +52723,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP366",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP366.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC160",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC160.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC160",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC160.png",
     },],
     keywords: [],
@@ -49660,21 +52767,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP384",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP384.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC173",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC173.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC173",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC173-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC173",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC173.png",
     },],
     keywords: [],
@@ -49706,21 +52817,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP385",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP385.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC174",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC174.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC174",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC174-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC174",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC174.png",
     },],
     keywords: [],
@@ -49752,21 +52867,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP386",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP386.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC175",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC175.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC175",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC175-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC175",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC175.png",
     },],
     keywords: [],
@@ -49798,11 +52917,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU041",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU041.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU041",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU041.png",
     },],
     keywords: [],
@@ -49834,11 +52955,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU042",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU042.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU042",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU042.png",
     },],
     keywords: [],
@@ -49870,11 +52993,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU043",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU043.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU043",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU043.png",
     },],
     keywords: [],
@@ -49906,16 +53031,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP233",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP233.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU125",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU125.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU125",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU125.png",
     },],
     keywords: [],
@@ -49947,16 +53075,19 @@
       edition: ReleaseEdition.First,
       identifier: "CRU164",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU164.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU164",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU164-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU164",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU164.png",
     },],
     keywords: [Keyword.Negate],
@@ -49988,16 +53119,19 @@
       edition: ReleaseEdition.First,
       identifier: "CRU182",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU182.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU182",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU182-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU182",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU182.png",
     },],
     keywords: [],
@@ -50029,11 +53163,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU189",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU189.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU189",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU189.png",
     },],
     keywords: [],
@@ -50065,11 +53201,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU190",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU190.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU190",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU190.png",
     },],
     keywords: [],
@@ -50101,11 +53239,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU191",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU191.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU191",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU191.png",
     },],
     keywords: [],
@@ -50137,11 +53277,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON005",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON005.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON005",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON005.width-450.png",
     },],
     keywords: [Keyword.Specialization,Keyword.Spectra],
@@ -50173,11 +53315,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON006",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON006.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON006",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON006.width-450.png",
     },],
     keywords: [Keyword.Spectra],
@@ -50209,16 +53353,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB025",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB025.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON011",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/16984263482378r4623792.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON011",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON011.width-450.png",
     },],
     keywords: [Keyword.Spectra],
@@ -50250,21 +53397,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB026",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB026.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "PSM014",
       set: Release.PrismBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/PSM014.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON012",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON012.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON012",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON012.width-450.png",
     },],
     keywords: [Keyword.Spectra],
@@ -50296,21 +53447,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB027",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB027.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "PSM015",
       set: Release.PrismBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/PSM015.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON013",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON013.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON013",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON013.width-450.png",
     },],
     keywords: [Keyword.Spectra,Keyword.GoAgain],
@@ -50342,11 +53497,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON065",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON065.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON065",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON065.width-450.png",
     },],
     keywords: [],
@@ -50378,11 +53535,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON069",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON069.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON069",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON069.width-450.png",
     },],
     keywords: [],
@@ -50414,11 +53573,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON070",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON070.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON070",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON070.width-450.png",
     },],
     keywords: [],
@@ -50450,11 +53611,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON071",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON071.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON071",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON071.width-450.png",
     },],
     keywords: [],
@@ -50486,11 +53649,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON084",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON084.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON084",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON084.width-450.png",
     },],
     keywords: [],
@@ -50522,11 +53687,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON085",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON085.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON085",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON085.width-450.png",
     },],
     keywords: [],
@@ -50558,11 +53725,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON086",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON086.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON086",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON086.width-450.png",
     },],
     keywords: [],
@@ -50594,16 +53763,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS044",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS044.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON087",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON087.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON087",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON087.width-450.png",
     },],
     keywords: [],
@@ -50635,16 +53807,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "PSM026",
       set: Release.PrismBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/PSM026.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON092",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON092.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON092",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON092.width-450.png",
     },],
     keywords: [],
@@ -50676,11 +53851,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON093",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON093.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON093",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON093.width-450.png",
     },],
     keywords: [],
@@ -50712,11 +53889,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON094",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON094.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON094",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON094.width-450.png",
     },],
     keywords: [],
@@ -50748,11 +53927,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON158",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON158.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON158",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON158.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -50784,11 +53965,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON189",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON189.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON189",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON189.width-450.png",
     },],
     keywords: [Keyword.Legendary,Keyword.Specialization],
@@ -50820,11 +54003,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON190",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON190.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON190",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON190.width-450.png",
     },],
     keywords: [Keyword.Legendary,Keyword.Specialization],
@@ -50856,11 +54041,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON215",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON215.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON215",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON215.width-450.png",
     },],
     keywords: [Keyword.Opt],
@@ -50892,11 +54079,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON216",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON216.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON216",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON216.width-450.png",
     },],
     keywords: [Keyword.Opt],
@@ -50928,16 +54117,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LEV025",
       set: Release.LeviaBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LEV025.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON217",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON217.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON217",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON217.width-450.png",
     },],
     keywords: [Keyword.Opt],
@@ -50969,16 +54161,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS045",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS045.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON218",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON218.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON218",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON218.width-450.png",
     },],
     keywords: [],
@@ -51010,11 +54205,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON303",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON303.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON303",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON303.width-450.png",
     },],
     keywords: [],
@@ -51046,11 +54243,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON304",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON304.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON304",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON304.width-450.png",
     },],
     keywords: [],
@@ -51082,11 +54281,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON305",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON305.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON305",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON305.width-450.png",
     },],
     keywords: [],
@@ -51118,11 +54319,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE006",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE006.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE006",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE006.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -51154,11 +54357,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE093",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE093.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE093",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE093.width-450.png",
     },],
     keywords: [Keyword.Fusion],
@@ -51190,11 +54395,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE112",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE112.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE112",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE112.width-450.png",
     },],
     keywords: [Keyword.Legendary],
@@ -51226,11 +54433,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE125",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE125.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE125",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE125.width-450.png",
     },],
     keywords: [],
@@ -51262,16 +54471,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BRI023",
       set: Release.BriarBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BRI023.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE126",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE126.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE126",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE126.width-450.png",
     },],
     keywords: [],
@@ -51303,11 +54515,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE127",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE127.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE127",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE127.width-450.png",
     },],
     keywords: [],
@@ -51339,11 +54553,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE147",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE147.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE147",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE147.width-450.png",
     },],
     keywords: [],
@@ -51375,11 +54591,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE176",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE176.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE176",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE176.width-450.png",
     },],
     keywords: [],
@@ -51411,16 +54629,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LXI018",
       set: Release.LexiBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LXI018.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE183",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE183.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE183",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE183.width-450.png",
     },],
     keywords: [],
@@ -51452,11 +54673,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE184",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE184.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE184",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE184.width-450.png",
     },],
     keywords: [],
@@ -51488,11 +54711,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE185",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE185.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE185",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE185.width-450.png",
     },],
     keywords: [],
@@ -51524,6 +54749,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR033",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR033.width-450.png",
     },],
     keywords: [],
@@ -51555,6 +54781,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR034",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR034.width-450.png",
     },],
     keywords: [],
@@ -51586,6 +54813,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR035",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR035.width-450.png",
     },],
     keywords: [],
@@ -51617,6 +54845,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR090",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR090.width-450.png",
     },],
     keywords: [],
@@ -51648,11 +54877,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB058",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB058.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR173",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR173.width-450.png",
     },],
     keywords: [Keyword.Opt],
@@ -51684,11 +54915,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB059",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB059.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR174",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR174.width-450.png",
     },],
     keywords: [Keyword.Opt],
@@ -51720,11 +54953,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB060",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB060.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR175",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR175.width-450.png",
     },],
     keywords: [Keyword.Opt],
@@ -51756,6 +54991,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR039",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR039.png",
     },],
     keywords: [Keyword.Ward],
@@ -51787,6 +55023,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR040",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR040.png",
     },],
     keywords: [Keyword.Ward],
@@ -51818,6 +55055,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR041",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR041.png",
     },],
     keywords: [Keyword.Ward],
@@ -51849,6 +55087,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR089",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR089.png",
     },],
     keywords: [],
@@ -51880,6 +55119,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR154",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR154.png",
     },],
     keywords: [],
@@ -51911,11 +55151,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR169",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR169.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR169",
       set: Release.Uprising,
+      treatment: Treatment.AA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR169_ALT.png",
     },],
     keywords: [Keyword.Negate],
@@ -51947,6 +55189,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR221",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR221.png",
     },],
     keywords: [],
@@ -51978,6 +55221,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR222",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR222.png",
     },],
     keywords: [],
@@ -52009,6 +55253,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR223",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR223.png",
     },],
     keywords: [],
@@ -52041,11 +55286,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "BOL006",
       set: Release.BoltynBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BOL006.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LEV005",
       set: Release.LeviaBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LEV005.width-450.png",
     },],
     keywords: [Keyword.Spellvoid],
@@ -52070,6 +55317,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "CHN006",
       set: Release.ChaneBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/CHN006.width-450.png",
     },],
     keywords: [Keyword.Spellvoid],
@@ -52094,6 +55342,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "PSM007",
       set: Release.PrismBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/PSM007.width-450.png",
     },],
     keywords: [Keyword.Spellvoid],
@@ -52118,21 +55367,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB003",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB003-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP007",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP007.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR004",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR004.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR004",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR004.png",
     },],
     keywords: [Keyword.Battleworn],
@@ -52157,21 +55410,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "RNR005",
       set: Release.RhinarHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RNR5.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP008",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP008.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR005",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR005.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR005",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR005.png",
     },],
     keywords: [Keyword.Battleworn],
@@ -52196,21 +55453,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB004",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB004-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP047",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP047.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR041",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR041.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR041",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR041.png",
     },],
     keywords: [Keyword.Battleworn],
@@ -52235,26 +55496,31 @@
       edition: ReleaseEdition.Promo,
       identifier: "BVO004",
       set: Release.BravoBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BVO4.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "OLD004",
       set: Release.OldhimBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/OLD004.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP048",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP048.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR042",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR042.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR042",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR042.png",
     },],
     keywords: [Keyword.Battleworn],
@@ -52279,21 +55545,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB005",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB005-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP095",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP095.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR079",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR079.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR079",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR079.png",
     },],
     keywords: [Keyword.BladeBreak],
@@ -52318,21 +55588,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "KSU007",
       set: Release.KatsuHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/KSU7.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP096",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP096.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR080",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR080.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR080",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR080.png",
     },],
     keywords: [Keyword.Battleworn],
@@ -52357,21 +55631,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB006",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB006-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP144",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP144.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR116",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR116.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR116",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR116.png",
     },],
     keywords: [Keyword.Battleworn],
@@ -52396,21 +55674,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "TEA007",
       set: Release.DorintheaHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/TEA7.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP145",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP145.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR117",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR117.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR117",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR117.png",
     },],
     keywords: [Keyword.Battleworn,Keyword.GoAgain],
@@ -52435,36 +55717,43 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB001",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB001-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "FAB002",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB002.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP341",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP341.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR150",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR150.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR150",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR150.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU178",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU178.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU178",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU178.png",
     },],
     keywords: [Keyword.BladeBreak],
@@ -52489,21 +55778,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "TEA004",
       set: Release.DorintheaHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/TEA4.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP350",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP350.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR151",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR151.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR151",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR151.png",
     },],
     keywords: [],
@@ -52528,36 +55821,43 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB063",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB063.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "BRI006",
       set: Release.BriarBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BRI006.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "KSU006",
       set: Release.KatsuHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/KSU6.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "PSM005",
       set: Release.PrismBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/PSM005.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP351",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP351.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR152",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR152.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR152",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR152.png",
     },],
     keywords: [],
@@ -52582,36 +55882,43 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB064",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB064.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "BVO006",
       set: Release.BravoBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BVO6.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LEV006",
       set: Release.LeviaBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LEV006.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "OLD006",
       set: Release.OldhimBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/OLD006.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP352",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP352.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR153",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR153.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR153",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR153.png",
     },],
     keywords: [],
@@ -52636,36 +55943,43 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB065",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB065.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "BOL008",
       set: Release.BoltynBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BOL008.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "CHN007",
       set: Release.ChaneBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/CHN007.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "RNR007",
       set: Release.RhinarHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RNR7.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP353",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP353.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR154",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR154.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR154",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR154.png",
     },],
     keywords: [],
@@ -52690,36 +56004,43 @@
       edition: ReleaseEdition.Promo,
       identifier: "OXO001",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/IRONROT01.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "KSU005",
       set: Release.KatsuHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/KSU5.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "RNR004",
       set: Release.RhinarHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RNR4.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "DVR003",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/DVR003.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP342",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP342.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR155",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR155.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR155",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR155.png",
     },],
     keywords: [Keyword.BladeBreak],
@@ -52744,31 +56065,37 @@
       edition: ReleaseEdition.Promo,
       identifier: "OXO002",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/IRONROT02.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "BVO005",
       set: Release.BravoBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BVO5.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "TEA005",
       set: Release.DorintheaHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/TEA5.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP343",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP343.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR156",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR156.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR156",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR156.png",
     },],
     keywords: [Keyword.BladeBreak],
@@ -52793,36 +56120,43 @@
       edition: ReleaseEdition.Promo,
       identifier: "OXO003",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/IRONROT03.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "BRI007",
       set: Release.BriarBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BRI007.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "RNR006",
       set: Release.RhinarHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RNR6.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "TEA006",
       set: Release.DorintheaHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/TEA6.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP344",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP344.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR157",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR157.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR157",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR157.png",
     },],
     keywords: [Keyword.BladeBreak],
@@ -52847,41 +56181,49 @@
       edition: ReleaseEdition.Promo,
       identifier: "OXO004",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/IRONROT04.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "BVO007",
       set: Release.BravoBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BVO7.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "KSU008",
       set: Release.KatsuHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/KSU8.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LXI006",
       set: Release.LexiBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LXI006.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "DVR006",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/DVR006.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP345",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP345.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR158",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR158.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR158",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR158.png",
     },],
     keywords: [Keyword.BladeBreak],
@@ -52906,21 +56248,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB008",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB008-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP185",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP185.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC004",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC004.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC004",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC004.png",
     },],
     keywords: [Keyword.Battleworn],
@@ -52945,16 +56291,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP186",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP186.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC005",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC005.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC005",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC005.png",
     },],
     keywords: [Keyword.ArcaneBarrier],
@@ -52979,21 +56328,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB009",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB009-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP225",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP225.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC041",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC041.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC041",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC041.png",
     },],
     keywords: [Keyword.ArcaneBarrier,Keyword.BladeBreak],
@@ -53018,16 +56371,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP226",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP226.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC042",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC042.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC042",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC042.png",
     },],
     keywords: [Keyword.ArcaneBarrier],
@@ -53052,21 +56408,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB010",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB010-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP262",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP262.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC078",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC078.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC078",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC078.png",
     },],
     keywords: [Keyword.Battleworn],
@@ -53091,16 +56451,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP263",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP263.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC079",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC079.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC079",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC079.png",
     },],
     keywords: [Keyword.ArcaneBarrier],
@@ -53125,21 +56488,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB011",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB011-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP305",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP305.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC116",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC116.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC116",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC116.png",
     },],
     keywords: [Keyword.ArcaneBarrier],
@@ -53164,16 +56531,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP306",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP306.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC117",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC117.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC117",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC117.png",
     },],
     keywords: [Keyword.ArcaneBarrier],
@@ -53198,21 +56568,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB007",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB007-P.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC150",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC150.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC150",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC150.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR154",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR154.width-450.png",
     },],
     keywords: [Keyword.ArcaneBarrier,Keyword.Battleworn],
@@ -53237,26 +56611,31 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB066",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB066.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP354",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP354.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC151",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC151.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC151",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC151-CF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC151",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC151.png",
     },],
     keywords: [],
@@ -53281,16 +56660,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP356",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP356.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC152",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC152.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC152",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC152.png",
     },],
     keywords: [],
@@ -53315,21 +56697,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP355",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP355.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC153",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC153.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC153",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC153-CF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC153",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC153.png",
     },],
     keywords: [],
@@ -53354,21 +56740,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB067",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB067.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP357",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP357.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC154",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC154.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC154",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC154.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -53393,21 +56783,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB068",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB068.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP346",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP346.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC155",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC155.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC155",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC155.png",
     },],
     keywords: [Keyword.ArcaneBarrier],
@@ -53432,21 +56826,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB069",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB069.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP347",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP347.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC156",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC156.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC156",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC156.png",
     },],
     keywords: [Keyword.ArcaneBarrier],
@@ -53471,21 +56869,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB070",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB070.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP348",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP348.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC157",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC157.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC157",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC157.png",
     },],
     keywords: [Keyword.ArcaneBarrier],
@@ -53510,21 +56912,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB071",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB071.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP349",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP349.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC158",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC158.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC158",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC158.png",
     },],
     keywords: [Keyword.ArcaneBarrier],
@@ -53549,16 +56955,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP009",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP009.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU006",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU006.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU006",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU006.png",
     },],
     keywords: [Keyword.ArcaneBarrier],
@@ -53583,16 +56992,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP049",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP049.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU025",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU025.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU025",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU025.png",
     },],
     keywords: [Keyword.Temper],
@@ -53617,16 +57029,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP097",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP097.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU053",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU053.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU053",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU053.png",
     },],
     keywords: [Keyword.Battleworn,Keyword.GoAgain],
@@ -53651,21 +57066,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB073",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB073.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP146",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP146.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU081",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU081.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU081",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU081.png",
     },],
     keywords: [Keyword.Temper],
@@ -53690,16 +57109,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP187",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP187.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU102",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU102.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU102",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU102.png",
     },],
     keywords: [Keyword.ArcaneBarrier],
@@ -53724,16 +57146,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP227",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP227.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU122",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU122.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU122",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU122.png",
     },],
     keywords: [Keyword.BladeBreak,Keyword.GoAgain],
@@ -53758,16 +57183,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP264",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP264.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU141",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU141.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU141",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU141.png",
     },],
     keywords: [Keyword.Temper],
@@ -53792,16 +57220,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP307",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP307.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU161",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU161.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU161",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU161.png",
     },],
     keywords: [Keyword.ArcaneBarrier],
@@ -53826,21 +57257,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB074",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB074.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP358",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP358.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU179",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU179.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU179",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU179.png",
     },],
     keywords: [],
@@ -53865,16 +57300,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB017",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB017.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON060",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON060.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON060",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON060.width-450.png",
     },],
     keywords: [Keyword.BladeBreak],
@@ -53899,21 +57337,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "BOL005",
       set: Release.BoltynBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BOL005.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "PSM004",
       set: Release.PrismBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/PSM004.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON061",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON061.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON061",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON061.width-450.png",
     },],
     keywords: [Keyword.Spellvoid],
@@ -53938,16 +57380,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB019",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB019.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON089",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON089.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON089",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON089.width-450.png",
     },],
     keywords: [],
@@ -53972,16 +57417,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "PSM006",
       set: Release.PrismBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/PSM006.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON090",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON090.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON090",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON090.width-450.png",
     },],
     keywords: [Keyword.Spellvoid],
@@ -54006,16 +57454,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB020",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB020.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON107",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON107.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON107",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON107.width-450.png",
     },],
     keywords: [Keyword.Battleworn],
@@ -54040,21 +57491,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "BOL007",
       set: Release.BoltynBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BOL007.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "DVR005",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/DVR005.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON108",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON108.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON108",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON108.width-450.png",
     },],
     keywords: [Keyword.Battleworn],
@@ -54079,16 +57534,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LEV007",
       set: Release.LeviaBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LEV007.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON122",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON122.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON122",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON122.width-450.png",
     },],
     keywords: [Keyword.Battleworn],
@@ -54113,16 +57571,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB018",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB018.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON187",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON187.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON187",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON187.width-450.png",
     },],
     keywords: [Keyword.BloodDebt],
@@ -54147,26 +57608,31 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB072",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB072.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "CHN004",
       set: Release.ChaneBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/CHN004.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LEV004",
       set: Release.LeviaBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LEV004.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON188",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON188.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON188",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON188.width-450.png",
     },],
     keywords: [Keyword.Spellvoid],
@@ -54191,16 +57657,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "CHN005",
       set: Release.ChaneBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/CHN005.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON230",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON230.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON230",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON230.width-450.png",
     },],
     keywords: [Keyword.Battleworn],
@@ -54225,11 +57694,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON238",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON238.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON238",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON238.width-450.png",
     },],
     keywords: [],
@@ -54254,11 +57725,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON239",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON239.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON239",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON239.width-450.png",
     },],
     keywords: [],
@@ -54283,11 +57756,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON240",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON240.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON240",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON240.width-450.png",
     },],
     keywords: [],
@@ -54312,11 +57787,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON241",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON241.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON241",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON241.width-450.png",
     },],
     keywords: [],
@@ -54341,11 +57818,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON242",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON242.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON242",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON242.width-450.png",
     },],
     keywords: [],
@@ -54370,16 +57849,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "RVD005",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RVD005.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON243",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON243.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON243",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON243.width-450.png",
     },],
     keywords: [],
@@ -54404,21 +57886,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "OLD007",
       set: Release.OldhimBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/OLD007.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "RVD006",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RVD006.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON244",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON244.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON244",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON244.width-450.png",
     },],
     keywords: [],
@@ -54443,16 +57929,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB052",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB052.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE115",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE115.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE115",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE115.width-450.png",
     },],
     keywords: [],
@@ -54477,16 +57966,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BRI005",
       set: Release.BriarBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BRI005.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE116",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE116.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE116",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE116.width-450.png",
     },],
     keywords: [],
@@ -54511,16 +58003,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB053",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB053.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE144",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE144.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE144",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE144.width-450.png",
     },],
     keywords: [Keyword.ArcaneBarrier,Keyword.BladeBreak],
@@ -54545,16 +58040,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "OLD005",
       set: Release.OldhimBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/OLD005.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE145",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE145.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE145",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE145.width-450.png",
     },],
     keywords: [],
@@ -54579,16 +58077,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB054",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB054.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE173",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE173.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE173",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE173.width-450.png",
     },],
     keywords: [Keyword.Spellvoid],
@@ -54613,16 +58114,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LXI005",
       set: Release.LexiBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LXI005.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE174",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE174.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE174",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE174.width-450.png",
     },],
     keywords: [],
@@ -54647,16 +58151,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB049",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB049.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE203",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE203.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE203",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE203.width-450.png",
     },],
     keywords: [],
@@ -54681,16 +58188,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "OLD003",
       set: Release.OldhimBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/OLD003.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE204",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE204.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE204",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE204.width-450.png",
     },],
     keywords: [Keyword.BladeBreak],
@@ -54715,16 +58225,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB050",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB050.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE213",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE213.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE213",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE213.width-450.png",
     },],
     keywords: [Keyword.BladeBreak],
@@ -54749,16 +58262,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LXI003",
       set: Release.LexiBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LXI003.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE214",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE214.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE214",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE214.width-450.png",
     },],
     keywords: [],
@@ -54783,16 +58299,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB051",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB051.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE224",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE224.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE224",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE224.width-450.png",
     },],
     keywords: [Keyword.BladeBreak],
@@ -54817,16 +58336,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BRI008",
       set: Release.BriarBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BRI008.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE225",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE225.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE225",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE225.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -54851,11 +58373,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE233",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE233.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE233",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE233.width-450.png",
     },],
     keywords: [],
@@ -54880,16 +58404,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "LXI004",
       set: Release.LexiBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LXI004.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE234",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE234.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE234",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE234.width-450.png",
     },],
     keywords: [],
@@ -54914,11 +58441,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE235",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE235.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE235",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE235.width-450.png",
     },],
     keywords: [],
@@ -54943,11 +58472,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE236",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE236.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE236",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE236.width-450.png",
     },],
     keywords: [],
@@ -54972,6 +58503,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR001",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR001.width-450.png",
     },],
     keywords: [Keyword.Battleworn],
@@ -54996,11 +58528,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB078",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB078.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR018",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR018.width-450.png",
     },],
     keywords: [Keyword.Temper],
@@ -55025,11 +58559,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB076",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB076.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR020",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR020.width-450.png",
     },],
     keywords: [Keyword.Temper],
@@ -55054,6 +58590,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR037",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR037.width-450.png",
     },],
     keywords: [Keyword.BladeBreak],
@@ -55078,6 +58615,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR053",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR053.width-450.png",
     },],
     keywords: [Keyword.Battleworn],
@@ -55102,6 +58640,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR086",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR086.width-450.png",
     },],
     keywords: [Keyword.BladeBreak],
@@ -55126,6 +58665,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR103",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR103.width-450.png",
     },],
     keywords: [Keyword.ArcaneBarrier],
@@ -55150,6 +58690,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR137",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR137.width-450.png",
     },],
     keywords: [Keyword.ArcaneBarrier],
@@ -55174,6 +58715,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR155",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR155.width-450.png",
     },],
     keywords: [Keyword.ArcaneBarrier],
@@ -55198,11 +58740,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "DVR004",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/DVR004.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "RVD004",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RVD004.width-450.png",
     },],
     keywords: [],
@@ -55227,6 +58771,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "RVD003",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RVD003.width-450.png",
     },],
     keywords: [Keyword.BladeBreak],
@@ -55251,11 +58796,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR004",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR004.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR004",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR004_CF.png",
     },],
     keywords: [Keyword.Quell],
@@ -55280,6 +58827,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR047",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR047.png",
     },],
     keywords: [Keyword.Quell],
@@ -55304,6 +58852,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR084",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR084.png",
     },],
     keywords: [Keyword.Temper],
@@ -55328,6 +58877,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR085",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR085.png",
     },],
     keywords: [],
@@ -55352,6 +58902,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR125",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR125.png",
     },],
     keywords: [Keyword.Quell],
@@ -55376,6 +58927,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR136",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR136.png",
     },],
     keywords: [Keyword.BladeBreak],
@@ -55400,6 +58952,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR137",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR137.png",
     },],
     keywords: [],
@@ -55424,6 +58977,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR151",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR151.png",
     },],
     keywords: [],
@@ -55448,6 +59002,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR152",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR152.png",
     },],
     keywords: [],
@@ -55472,6 +59027,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR158",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR158.png",
     },],
     keywords: [Keyword.BladeBreak],
@@ -55496,6 +59052,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR159",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR159.png",
     },],
     keywords: [Keyword.ArcaneBarrier,Keyword.GoAgain],
@@ -55520,6 +59077,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR166",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR166.png",
     },],
     keywords: [Keyword.ArcaneBarrier],
@@ -55544,6 +59102,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR167",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR167.png",
     },],
     keywords: [Keyword.ArcaneBarrier],
@@ -55568,6 +59127,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR182",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR182.png",
     },],
     keywords: [Keyword.BladeBreak],
@@ -55592,11 +59152,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR183",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR183.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR183",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR183_CF.png",
     },],
     keywords: [],
@@ -55621,6 +59183,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR184",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR184.png",
     },],
     keywords: [Keyword.Quell],
@@ -55645,6 +59208,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR185",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR185.png",
     },],
     keywords: [Keyword.Quell],
@@ -55669,6 +59233,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR186",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR186.png",
     },],
     keywords: [Keyword.Quell],
@@ -55694,11 +59259,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB044",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB044.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "BOL002",
       set: Release.BoltynBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BOL002.width-450.png",
     },],
     keywords: [Keyword.Mentor],
@@ -55720,11 +59287,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB046",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB046.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "CHN002",
       set: Release.ChaneBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/CHN002.width-450.png",
     },],
     keywords: [Keyword.Mentor],
@@ -55746,11 +59315,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB045",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB045.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LEV002",
       set: Release.LeviaBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LEV002.width-450.png",
     },],
     keywords: [Keyword.Mentor,Keyword.Dominate],
@@ -55772,11 +59343,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB043",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB043.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "PSM002",
       set: Release.PrismBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/PSM002.width-450.png",
     },],
     keywords: [Keyword.Mentor],
@@ -55798,6 +59371,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "DVR007",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/DVR007.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -55819,6 +59393,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "RVD007",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RVD007.width-450.png",
     },],
     keywords: [Keyword.Intimidate],
@@ -55841,6 +59416,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "LSS001",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LSS001.width-450.png",
     },],
     keywords: [],
@@ -55866,6 +59442,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "LSS003",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LSS003_A.width-450.png",
     },],
     keywords: [],
@@ -55891,6 +59468,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "LSS004",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LSS004_A.width-450.png",
     },],
     keywords: [],
@@ -55916,41 +59494,49 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER001",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER001-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER021",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER021-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "RNR001",
       set: Release.RhinarHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RNR.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP001",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP001.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR001",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR001.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR001",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR001.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU001",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU001.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU001",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU001.png",
     },],
     keywords: [Keyword.Intimidate],
@@ -55976,36 +59562,43 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER005",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER005-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "XXX003",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/promos/XXX003.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "RNR002",
       set: Release.RhinarHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RNR2.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "RVD001",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RVD001.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP002",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP002.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR002",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR002.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR002",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR002.png",
     },],
     keywords: [Keyword.Intimidate],
@@ -56031,41 +59624,49 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER002",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER002-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER022",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER022-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "BVO001",
       set: Release.BravoBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BVO.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP043",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP043.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR038",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR038.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR038",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR038.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU022",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU022.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU022",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU022.png",
     },],
     keywords: [Keyword.Dominate],
@@ -56091,31 +59692,37 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER006",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER006-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "XXX002",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/promos/XXX002.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "BVO002",
       set: Release.BravoBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BVO2.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP044",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP044.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR039",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR039.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR039",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR039.png",
     },],
     keywords: [Keyword.Dominate],
@@ -56141,41 +59748,49 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER003",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER003-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER023",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER023-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "KSU001",
       set: Release.KatsuHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/KSU.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP086",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP086.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR076",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR076.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR076",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR076.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU045",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU045.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU045",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU045.png",
     },],
     keywords: [],
@@ -56201,31 +59816,37 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER007",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER007-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "XXX004",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/promos/XXX004.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "KSU002",
       set: Release.KatsuHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/KSU2.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP087",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP087.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR077",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR077.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR077",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR077.png",
     },],
     keywords: [],
@@ -56251,41 +59872,49 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER004",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER004-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER024",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER024-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "TEA001",
       set: Release.DorintheaHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/TEA.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP138",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP138.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR113",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR113.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR113",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR113.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU076",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU076.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU076",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU076.png",
     },],
     keywords: [],
@@ -56311,31 +59940,37 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER008",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER008-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "XXX001",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/promos/XXX001.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "TEA002",
       set: Release.DorintheaHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/TEA2.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP139",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP139.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR114",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR114.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR114",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR114.png",
     },],
     keywords: [],
@@ -56361,36 +59996,43 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER009",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER009-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER017",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER017-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP180",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP180.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC001",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC001.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC001",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC001.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU098",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU098.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU098",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU098.png",
     },],
     keywords: [],
@@ -56416,21 +60058,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER013",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER013-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP181",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP181.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC002",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC002.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC002",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC002.png",
     },],
     keywords: [],
@@ -56456,36 +60102,43 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER010",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER010-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER018",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER018-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP221",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP221.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC038",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC038.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC038",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC038.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU119",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU119.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU119",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU119.png",
     },],
     keywords: [Keyword.Dominate],
@@ -56511,21 +60164,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER014",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER014-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP222",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP222.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC039",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC039.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC039",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC039.png",
     },],
     keywords: [Keyword.Dominate],
@@ -56551,36 +60208,43 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER011",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER011-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER019",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER019-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP258",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP258.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC075",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC075.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC075",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC075.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU138",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU138.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU138",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU138.png",
     },],
     keywords: [],
@@ -56606,21 +60270,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER015",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER015-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP259",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP259.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC076",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC076.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC076",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC076.png",
     },],
     keywords: [],
@@ -56646,36 +60314,43 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER012",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER012-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER020",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER020-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP301",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP301.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC113",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC113.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC113",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC113.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU158",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU158.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU158",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU158.png",
     },],
     keywords: [],
@@ -56701,21 +60376,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER016",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER016-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP302",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP302.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC114",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC114.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC114",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC114.png",
     },],
     keywords: [],
@@ -56741,21 +60420,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER025",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER025.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP003",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP003.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU002",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU002.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU002",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU002.png",
     },],
     keywords: [],
@@ -56781,26 +60464,31 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER000",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER000-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "IRA001",
       set: Release.IraWelcomeDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/IRA001-P_EUmBrk0.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP089",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP089.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU046",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU046.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU046",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU046.png",
     },],
     keywords: [],
@@ -56826,26 +60514,31 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER026",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER026.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP088",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP088.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU047",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU047.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU047",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU047-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU047",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU047.png",
     },],
     keywords: [],
@@ -56871,26 +60564,31 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER029",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER029.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP140",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP140.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU077",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU077.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU077",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU077-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU077",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU077.png",
     },],
     keywords: [],
@@ -56916,11 +60614,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU097",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU097.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU097",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU097.png",
     },],
     keywords: [],
@@ -56946,21 +60646,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER027",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER027.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP182",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP182.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU099",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU099.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU099",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU099.png",
     },],
     keywords: [],
@@ -56986,26 +60690,31 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER028",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER028.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP220",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP220.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU118",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU118.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU118",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU118-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU118",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU118.png",
     },],
     keywords: [],
@@ -57031,21 +60740,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER030",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER030.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER038",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER038.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON001",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON001.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON001",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON001.width-450.png",
     },],
     keywords: [],
@@ -57071,21 +60784,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER034",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER034.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "PSM001",
       set: Release.PrismBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/PSM001.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON002",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON002.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON002",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON002.width-450.png",
     },],
     keywords: [],
@@ -57111,21 +60828,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER031",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER031.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER039",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER039.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON029",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON029.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON029",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON029.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -57151,21 +60872,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER035",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER035.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "BOL001",
       set: Release.BoltynBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BOL001.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON030",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON030.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON030",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON030.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -57191,21 +60916,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER032",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER032.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER040",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER040.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON119",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/Mty2ZQtPLgqDHz9EjdOMHZOUJhISA3s8RIgr3lus4KTmVq.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON119",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON119.width-450.png",
     },],
     keywords: [],
@@ -57231,21 +60960,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER036",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER036.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LEV001",
       set: Release.LeviaBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LEV001.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON120",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/QB393QB0F93d2Hhhs5Cf_iMdCfa8qpl1J91FOlwlsYvSnv.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON120",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON120.width-450.png",
     },],
     keywords: [],
@@ -57271,21 +61004,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER033",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER033.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER041",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER041.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON153",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON153.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON153",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON153.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -57311,21 +61048,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER037",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER037.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "CHN001",
       set: Release.ChaneBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/CHN001.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON154",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON154.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON154",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON154.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -57351,21 +61092,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER042",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER042.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER048",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER048.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE001",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE001.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE001",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE001.width-450.png",
     },],
     keywords: [Keyword.Essence],
@@ -57391,21 +61136,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER045",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER045.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "OLD001",
       set: Release.OldhimBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/OLD001.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE002",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE002.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE002",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE002.width-450.png",
     },],
     keywords: [Keyword.Essence],
@@ -57431,21 +61180,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER043",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER043.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER049",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER049.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE031",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE031.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE031",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE031.width-450.png",
     },],
     keywords: [Keyword.Essence,Keyword.GoAgain],
@@ -57471,21 +61224,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER046",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER046.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LXI001",
       set: Release.LexiBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LXI001.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE032",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE032.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE032",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE032.width-450.png",
     },],
     keywords: [Keyword.Essence,Keyword.GoAgain],
@@ -57511,21 +61268,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER044",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER044.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER050",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER050.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE062",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE062.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE062",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE062.width-450.png",
     },],
     keywords: [Keyword.Essence],
@@ -57551,21 +61312,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER047",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER047.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "BRI001",
       set: Release.BriarBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BRI001.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE063",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE063.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE063",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE063.width-450.png",
     },],
     keywords: [Keyword.Essence],
@@ -57591,11 +61356,13 @@
       edition: ReleaseEdition.First,
       identifier: "EVR017",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR017.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR017",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR017.width-450.png",
     },],
     keywords: [Keyword.Essence,Keyword.Dominate,Keyword.GoAgain],
@@ -57621,11 +61388,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER051",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER051.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR019",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR019.width-450.png",
     },],
     keywords: [Keyword.Dominate],
@@ -57651,11 +61420,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER053",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER053.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR085",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR085.width-450.png",
     },],
     keywords: [],
@@ -57681,26 +61452,31 @@
       edition: ReleaseEdition.Promo,
       identifier: "HER052",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/HER052.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR120",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR120.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR103",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR103.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR103",
       set: Release.Uprising,
+      treatment: Treatment.AA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR103_B_Front.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR103",
       set: Release.Uprising,
+      treatment: Treatment.FA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR103_B_Back.png",
     },],
     keywords: [Keyword.Essence],
@@ -57726,6 +61502,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "DVR001",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/DVR001.width-450.png",
     },],
     keywords: [],
@@ -57751,6 +61528,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR001",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR001.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -57776,6 +61554,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR002",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR002.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -57801,6 +61580,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR044",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR044.png",
     },],
     keywords: [],
@@ -57826,6 +61606,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR045",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR045.png",
     },],
     keywords: [],
@@ -57851,6 +61632,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR102",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR102.png",
     },],
     keywords: [Keyword.Essence],
@@ -57877,6 +61659,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR225",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR225.png",
     },],
     keywords: [],
@@ -57899,11 +61682,13 @@
       edition: ReleaseEdition.Alpha,
       identifier: "WTR000",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR000.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR000",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR000.png",
     },],
     keywords: [Keyword.Legendary],
@@ -57927,61 +61712,73 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS083",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS083.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR224",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR224.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR224",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR224.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC218",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ARC218.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC218",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ARC218.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU195",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU195.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU195",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU195.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON306",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON306.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON306",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON306.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE237",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE237.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE237",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE237.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR224",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR224.png",
     },],
     keywords: [],
@@ -58005,11 +61802,13 @@
       edition: ReleaseEdition.First,
       identifier: "ARC000",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC000.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC000",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC000.png",
     },],
     keywords: [Keyword.Legendary,Keyword.Opt],
@@ -58033,11 +61832,13 @@
       edition: ReleaseEdition.First,
       identifier: "CRU000",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU000.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU000",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU000.png",
     },],
     keywords: [Keyword.Legendary,Keyword.Specialization],
@@ -58061,6 +61862,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR000",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR000.width-450.png",
     },],
     keywords: [Keyword.Legendary],
@@ -58084,11 +61886,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "DVR027",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/DVR027.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "RVD027",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RVD027.width-450.png",
     },],
     keywords: [],
@@ -58112,6 +61916,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR000",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR000.png",
     },],
     keywords: [Keyword.Legendary],
@@ -58136,46 +61941,55 @@
       edition: ReleaseEdition.Promo,
       identifier: "OLD032",
       set: Release.OldhimBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/OLD032.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP085",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP085.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR075",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR075.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR075",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR075.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU044",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU044.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU044",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU044.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE212",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE212.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE212",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE212.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR036",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR036.width-450.png",
     },],
     keywords: [],
@@ -58200,51 +62014,61 @@
       edition: ReleaseEdition.Promo,
       identifier: "XXX009",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/promos/XXX009.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "RNR031",
       set: Release.RhinarHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RNR31.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "TEA030",
       set: Release.DorintheaHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/TEA30.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "DVR028",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/DVR028.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP427",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP427.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR225",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR225.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR225",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR225.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU196",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU196.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU196",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU196.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR196",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR196.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -58269,36 +62093,43 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP300",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP300.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC112",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC112.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC112",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC112.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU157",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU157.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU157",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU157-RF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU157",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU157.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR119",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR119.width-450.png",
     },],
     keywords: [],
@@ -58323,16 +62154,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP137",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP137.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU075",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU075.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU075",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU075.png",
     },],
     keywords: [],
@@ -58357,26 +62191,31 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB055",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB055.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP426",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP426.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU197",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU197.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU197",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU197.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR194",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR194.width-450.png",
     },],
     keywords: [],
@@ -58401,21 +62240,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "PSM030",
       set: Release.PrismBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/PSM030.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON104",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON104.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON104",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON104.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR153",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR153.width-450.png",
     },],
     keywords: [],
@@ -58440,16 +62283,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "CHN030",
       set: Release.ChaneBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/CHN030.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON186",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON186.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON186",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON186.width-450.png",
     },],
     keywords: [],
@@ -58474,21 +62320,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB021",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB021.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "FAB041",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB041.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON219",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON219.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON219",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON219.width-450.png",
     },],
     keywords: [],
@@ -58513,21 +62363,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB022",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB022.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "FAB042",
       set: Release.Promos,
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB042.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON220",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON220.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON220",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON220.width-450.png",
     },],
     keywords: [],
@@ -58552,16 +62406,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BRI003",
       set: Release.BriarBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BRI003.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE109",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE109.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE109",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE109.width-450.png",
     },],
     keywords: [],
@@ -58586,16 +62443,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "BRI002",
       set: Release.BriarBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BRI002.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE110",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE110.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE110",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE110.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -58620,31 +62480,37 @@
       edition: ReleaseEdition.Promo,
       identifier: "LXI030",
       set: Release.LexiBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LXI030.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "OLD031",
       set: Release.OldhimBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/OLD031.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE111",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE111.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE111",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE111.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "EVR197",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR197.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR150",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR150.png",
     },],
     keywords: [],
@@ -58669,6 +62535,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR195",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR195.width-450.png",
     },],
     keywords: [],
@@ -58693,11 +62560,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR006",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR006_A_Back.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR006",
       set: Release.Uprising,
+      treatment: Treatment.FA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR006_B_Back.png",
     },],
     keywords: [],
@@ -58722,11 +62591,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR007",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR007_A_Back.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR007",
       set: Release.Uprising,
+      treatment: Treatment.FA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR007_B_Back.png",
     },],
     keywords: [],
@@ -58751,11 +62622,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR008",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR008_A_Back.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR008",
       set: Release.Uprising,
+      treatment: Treatment.FA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR008_B_Back.png",
     },],
     keywords: [],
@@ -58780,11 +62653,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR009",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR009_A_Back.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR009",
       set: Release.Uprising,
+      treatment: Treatment.FA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR009_B_Back.png",
     },],
     keywords: [],
@@ -58809,11 +62684,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR010",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR010_A_Back.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR010",
       set: Release.Uprising,
+      treatment: Treatment.FA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR010_B_Back.png",
     },],
     keywords: [],
@@ -58838,11 +62715,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR011",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR011_A_Back.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR011",
       set: Release.Uprising,
+      treatment: Treatment.FA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR011_B_Back.png",
     },],
     keywords: [],
@@ -58867,11 +62746,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR012",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR012_A_Back.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR012",
       set: Release.Uprising,
+      treatment: Treatment.FA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR012_B_Back.png",
     },],
     keywords: [],
@@ -58896,11 +62777,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR013",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR013_A_Back.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR013",
       set: Release.Uprising,
+      treatment: Treatment.FA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR013_B_Back.png",
     },],
     keywords: [],
@@ -58925,11 +62808,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR014",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR014_A_Back.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR014",
       set: Release.Uprising,
+      treatment: Treatment.FA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR014_B_Back.png",
     },],
     keywords: [Keyword.Transform],
@@ -58954,11 +62839,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR015",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR015_A_Back.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR015",
       set: Release.Uprising,
+      treatment: Treatment.FA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR015_B_Back.png",
     },],
     keywords: [],
@@ -58983,11 +62870,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR016",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR016_A_Back.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR016",
       set: Release.Uprising,
+      treatment: Treatment.FA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR016_B_Back.png",
     },],
     keywords: [],
@@ -59012,11 +62901,13 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR017",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR017_A_Back.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR017",
       set: Release.Uprising,
+      treatment: Treatment.FA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR017_B_Back.png",
     },],
     keywords: [],
@@ -59041,16 +62932,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR042",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR042.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR042",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR042_B.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR042",
       set: Release.Uprising,
+      treatment: Treatment.AA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR042_CF.png",
     },],
     keywords: [Keyword.ArcaneBarrier],
@@ -59075,16 +62969,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR043",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR043.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR043",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR043_B.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "UPR043",
       set: Release.Uprising,
+      treatment: Treatment.AA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR043_CF.png",
     },],
     keywords: [Keyword.Material,Keyword.Phantasm],
@@ -59110,41 +63007,49 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS001",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS001-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "XXX005",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/promos/XXX005.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "RNR003",
       set: Release.RhinarHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RNR3.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP006",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP006.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR003",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR003.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR003",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR003.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU003",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU003.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU003",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU003.png",
     },],
     keywords: [],
@@ -59170,46 +63075,55 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB061",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB061.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LGS002",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS002-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "XXX006",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/promos/XXX006.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "BVO003",
       set: Release.BravoBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BVO3.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP045",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP045.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR040",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR040.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR040",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR040.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU023",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU023.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU023",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU023.png",
     },],
     keywords: [],
@@ -59235,61 +63149,73 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS003",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS003-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "XXX008",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/promos/XXX008.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "KSU003",
       set: Release.KatsuHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/KSU3.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "KSU004",
       set: Release.KatsuHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/KSU4.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP091",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP091.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP092",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP092.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR078",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR078.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR078",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR078.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU048",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/CRU48.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU048",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-CRU048.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU049",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU049.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU049",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU049.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -59315,46 +63241,55 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB062",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB062.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LGS004",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS004-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "XXX007",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/promos/XXX007.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "TEA003",
       set: Release.DorintheaHeroDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/TEA3.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP143",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP143.width-450.png",
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR115",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR115.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "WTR115",
       set: Release.WelcomeToRathe,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR115.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU078",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU078.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU078",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU078.png",
     },],
     keywords: [],
@@ -59380,31 +63315,37 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS009",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS009-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP184",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP184.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC003",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC003.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC003",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC003.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU100",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU100.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU100",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU100.png",
     },],
     keywords: [],
@@ -59430,31 +63371,37 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS010",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS010-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP223",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP223.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC040",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC040.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC040",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC040.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU120",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU120.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU120",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU120.png",
     },],
     keywords: [],
@@ -59480,31 +63427,37 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS011",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS011-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP260",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP260.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC077",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC077.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC077",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC077.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU139",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU139.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU139",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU139.png",
     },],
     keywords: [],
@@ -59530,31 +63483,37 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS012",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS012-P.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP303",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP303.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ARC115",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC115.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC115",
       set: Release.ArcaneRising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC115.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU159",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU159.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU159",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU159.png",
     },],
     keywords: [],
@@ -59580,31 +63539,37 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP004",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP004.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP005",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP005.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU004",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU004.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU004",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU004.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU005",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU005.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU005",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU005.png",
     },],
     keywords: [],
@@ -59630,16 +63595,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP046",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP046.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU024",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU024.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU024",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU024.png",
     },],
     keywords: [],
@@ -59665,21 +63633,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "IRA002",
       set: Release.IraWelcomeDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/IRA002-P_03Jc6pa.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP090",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP090.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU050",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU050.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU050",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU050.png",
     },],
     keywords: [],
@@ -59705,31 +63677,37 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP093",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP093.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP094",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP094.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU051",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/CRU51.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU051",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-CRU051.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU052",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU052.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU052",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU052.png",
     },],
     keywords: [],
@@ -59755,31 +63733,37 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP141",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP141.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP142",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP142.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU079",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU079.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU079",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU079.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU080",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU080.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU080",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU080.png",
     },],
     keywords: [],
@@ -59805,16 +63789,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP183",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP183.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU101",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU101.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU101",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU101.png",
     },],
     keywords: [],
@@ -59840,16 +63827,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP224",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP224.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU121",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU121.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU121",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU121.png",
     },],
     keywords: [],
@@ -59875,16 +63865,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP261",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP261.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU140",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU140.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU140",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU140.png",
     },],
     keywords: [],
@@ -59910,16 +63903,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP304",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP304.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU160",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU160.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU160",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU160.png",
     },],
     keywords: [],
@@ -59945,16 +63941,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "1HP367",
       set: Release.HistoryPack1,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/1HP367.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "CRU177",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU177.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU177",
       set: Release.CrucibleOfWar,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU177.png",
     },],
     keywords: [],
@@ -59980,11 +63979,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON003",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON003.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON003",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON003.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -60010,11 +64011,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON031",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON031.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON031",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON031.width-450.png",
     },],
     keywords: [],
@@ -60040,21 +64043,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS048",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS048.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "PSM003",
       set: Release.PrismBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/PSM003.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON088",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON088.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON088",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON088.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -60080,21 +64087,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS049",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS049.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "BOL003",
       set: Release.BoltynBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BOL003.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON105",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON105.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON105",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON105.width-450.png",
     },],
     keywords: [],
@@ -60120,21 +64131,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS050",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS050.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "BOL004",
       set: Release.BoltynBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BOL004.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON106",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON106.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON106",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON106.width-450.png",
     },],
     keywords: [],
@@ -60160,11 +64175,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON121",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON121.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON121",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON121.width-450.png",
     },],
     keywords: [],
@@ -60190,26 +64207,31 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS046",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS046.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "CHN003",
       set: Release.ChaneBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/CHN003.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON155",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON155.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON155",
       set: Release.Monarch,
+      treatment: Treatment.AA,
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2021-MON/MON155-CF.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON155",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON155.width-450.png",
     },],
     keywords: [],
@@ -60235,21 +64257,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS047",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS047.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LEV003",
       set: Release.LeviaBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LEV003.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "MON221",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON221.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON221",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON221.width-450.png",
     },],
     keywords: [],
@@ -60275,11 +64301,13 @@
       edition: ReleaseEdition.First,
       identifier: "MON229",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/MON229.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON229",
       set: Release.Monarch,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON229.width-450.png",
     },],
     keywords: [],
@@ -60305,11 +64333,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE003",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE003.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE003",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE003.width-450.png",
     },],
     keywords: [],
@@ -60335,21 +64365,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS067",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS067.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LXI002",
       set: Release.LexiBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LXI002.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE033",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE033.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE033",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE033.width-450.png",
     },],
     keywords: [Keyword.Dominate],
@@ -60375,16 +64409,19 @@
       edition: ReleaseEdition.Promo,
       identifier: "FAB075",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/FAB075.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE034",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE034.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE034",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE034.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
@@ -60410,21 +64447,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS066",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS066.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "OLD002",
       set: Release.OldhimBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/OLD002.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE202",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE202.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE202",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE202.width-450.png",
     },],
     keywords: [],
@@ -60450,21 +64491,25 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS068",
       set: Release.Promos,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS068.width-450.png",
     },{
       edition: ReleaseEdition.Promo,
       identifier: "BRI004",
       set: Release.BriarBlitzDeck,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/BRI004.width-450.png",
     },{
       edition: ReleaseEdition.First,
       identifier: "ELE222",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE222.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE222",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE222.width-450.png",
     },],
     keywords: [],
@@ -60490,11 +64535,13 @@
       edition: ReleaseEdition.First,
       identifier: "ELE223",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/ELE223.width-450.png",
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE223",
       set: Release.TalesOfAria,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/U-ELE223.width-450.png",
     },],
     keywords: [],
@@ -60520,6 +64567,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR087",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR087.width-450.png",
     },],
     keywords: [],
@@ -60545,6 +64593,7 @@
       edition: ReleaseEdition.First,
       identifier: "EVR121",
       set: Release.Everfest,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR121.width-450.png",
     },],
     keywords: [],
@@ -60570,6 +64619,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "DVR002",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/DVR002.width-450.png",
     },],
     keywords: [],
@@ -60595,6 +64645,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "RVD002",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
       url: "https://storage.googleapis.com/fabmaster/media/images/RVD002.width-450.png",
     },],
     keywords: [],
@@ -60620,6 +64671,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR003",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR003.png",
     },],
     keywords: [],
@@ -60645,6 +64697,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR046",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR046.png",
     },],
     keywords: [],
@@ -60670,6 +64723,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "UPR165",
       set: Release.Uprising,
+      
       url: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR165.png",
     },],
     keywords: [],

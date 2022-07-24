@@ -23,6 +23,7 @@ import {
   Talent,
   TokenCard,
   TokenSubType,
+  Treatment,
   Type,
   WeaponCard,
   WeaponSubType,
@@ -153,10 +154,15 @@ const getImages = (card: ParsedCard): Image[] => {
   const images: Image[] = [];
   const { images: unparsedImages } = card;
   for (const image of unparsedImages) {
-    const [url, identifier, rawEdition] = image.split(" - ");
+    const [url, identifier, rawEdition, rawTreatment] = image.split(" - ");
     const setAbbreviation = identifier.slice(0, 3);
     const set = setIdentifierToSetMappings[setAbbreviation];
     const edition = setEditionMapping[rawEdition];
+    const treatment = Treatment[rawTreatment];
+    if (card.name === "Tomeltai") {
+      console.log({ rawTreatment, treatment });
+    }
+
     if (!set) {
       console.log({
         image,
@@ -172,6 +178,7 @@ const getImages = (card: ParsedCard): Image[] => {
       edition,
       identifier,
       set,
+      ...(treatment ? { treatment } : {}),
       url,
     });
   }

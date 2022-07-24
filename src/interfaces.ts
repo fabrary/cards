@@ -20,7 +20,14 @@ export interface Image {
   edition: ReleaseEdition;
   identifier: string;
   set: Release;
+  treatment?: Treatment;
   url: string;
+}
+
+export enum Treatment {
+  AA = "Alernate Art",
+  EA = "Extended Art",
+  FA = "Full Art",
 }
 
 export interface ActionCard extends Card {

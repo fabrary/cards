@@ -30,8 +30,8 @@ cards.forEach((card) => {
 | artists           | `string` array       | `[ "Riordan Delmiro" ]`                     |
 | cardIdentifier    | `string`             | `"snatch-red"`, `"aether-wildfire-red"`     |
 | class             | `Class` enum         | `"Generic"`, `"Wizard"`                     |
+| defaultImageUrl   | `string`             | `"https://.../images/1HP371.width-450.png"` |
 | functionalText    | `string`             | `"If Snatch hits, draw a card."`            |
-| imageUrl          | `string`             | `"https://.../images/1HP371.width-450.png"` |
 | keywords          | `Keyword` enum array | `[ "Boost" ]`                               |
 | name              | `string`             | `"Rain Razors"`, `"Pummel"`                 |
 | rarity            | `Rarity` enum        | `"Super Rare"`, `"Token"`                   |

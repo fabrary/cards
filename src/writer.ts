@@ -25,6 +25,7 @@ import {
   Talent,
   TokenCard,
   TokenSubType,
+  Treatment,
   Type,
   WeaponCard,
   WeaponSubType,
@@ -60,12 +61,17 @@ const getEnumValue = (value: any, enumName: string, enm: any) => {
 
 const getImages = (images: Image[]) => {
   return images.reduce(
-    (images, image) =>
+    (images, { edition, identifier, set, treatment, url }) =>
       (images += `{
-      edition: ${getEnumValue(image.edition, "ReleaseEdition", ReleaseEdition)},
-      identifier: "${image.identifier}",
-      set: ${getEnumValue(image.set, "Release", Release)},
-      url: "${image.url}",
+      edition: ${getEnumValue(edition, "ReleaseEdition", ReleaseEdition)},
+      identifier: "${identifier}",
+      set: ${getEnumValue(set, "Release", Release)},
+      ${
+        treatment
+          ? `treatment: ${getEnumValue(treatment, "Treatment", Treatment)},`
+          : ``
+      }
+      url: "${url}",
     },`),
     ``
   );
@@ -349,6 +355,7 @@ const generateTS = (cards: AllCards): string => {
     Talent,
     TokenCard,
     TokenSubType,
+    Treatment,
     Type,
     WeaponCard,
     WeaponSubType
