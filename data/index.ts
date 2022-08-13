@@ -61670,7 +61670,7 @@
     keywords: [Keyword.GoAgain],
     name: "Dromai",
     rarity: Rarity.Token,
-    restrictedFormats: [Format.Blitz,Format.Commoner],
+    restrictedFormats: [],
     setIdentifiers: ["HER062","UPR002"],
     sets: [Release.Promos,Release.Uprising],
     type: Type.Hero,
