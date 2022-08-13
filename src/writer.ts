@@ -12,6 +12,7 @@ import {
   HandsRequired,
   Hero,
   HeroCard,
+  HeroSubType,
   Image,
   Keyword,
   MentorCard,
@@ -108,7 +109,7 @@ const generateActionTS = (card: ActionCard): String => {
     ${card.cost || card.cost === 0 ? `cost: ${card.cost},` : ``}
     ${card.defense || card.defense === 0 ? `defense: ${card.defense},` : ``}
     fusions: [${getEnumValues(card.fusions, "Fusion", Fusion)}],
-    ${card.pitch ? `pitch: ${card.pitch},` : ``}
+    ${card.pitch || card.pitch === 0 ? `pitch: ${card.pitch},` : ``}
     ${card.power ? `power: ${card.power},` : ``}
     talents: [${getEnumValues(card.talents, "Talent", Talent)}],
     ${card.specialCost ? `specialCost: "${card.specialCost}",` : ``}
@@ -151,6 +152,11 @@ const generateHeroTS = (card: HeroCard): String => {
     intellect: ${card.intellect},
     hero: ${getEnumValue(card.hero, "Hero", Hero)},
     life: ${card.life},
+    ${
+      card.subType
+        ? `subType: ${getEnumValue(card.subType, "HeroSubType", HeroSubType)},`
+        : ``
+    }
     talents: [${getEnumValues(card.talents, "Talent", Talent)}],
     young: ${card.young}
   }`;
@@ -343,6 +349,7 @@ const generateTS = (cards: AllCards): string => {
     HandsRequired,
     Hero,
     HeroCard,
+    HeroSubType,
     Keyword,
     MentorCard,
     PlaceholderCard,

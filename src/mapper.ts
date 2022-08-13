@@ -10,6 +10,7 @@ import {
   HandsRequired,
   Hero,
   HeroCard,
+  HeroSubType,
   Image,
   Keyword,
   MentorCard,
@@ -250,7 +251,7 @@ const getRestrictedFormats = (card: ParsedCard): Format[] => {
     blitzLivingLegend ||
     todayIsAfterDate(blitzBanned) ||
     todayIsWithinDateRanges(blitzSuspendedStart, blitzSuspendedEnd) ||
-    (type !== Type.Hero && blitzLegal === ILLEGAL_IN_FORMAT_FLAG)
+    blitzLegal === ILLEGAL_IN_FORMAT_FLAG
   ) {
     restrictedFormats.push(Format.Blitz);
   }
@@ -261,14 +262,11 @@ const getRestrictedFormats = (card: ParsedCard): Format[] => {
       classicConstructedSuspendedStart,
       classicConstructedSuspendedEnd
     ) ||
-    (type !== Type.Hero && classicConstructedLegal === ILLEGAL_IN_FORMAT_FLAG)
+    classicConstructedLegal === ILLEGAL_IN_FORMAT_FLAG
   ) {
     restrictedFormats.push(Format.ClassicConstructed);
   }
-  if (
-    commonerBanned ||
-    (type !== Type.Hero && commonerLegal === ILLEGAL_IN_FORMAT_FLAG)
-  ) {
+  if (commonerBanned || commonerLegal === ILLEGAL_IN_FORMAT_FLAG) {
     restrictedFormats.push(Format.Commoner);
   }
   return restrictedFormats;
@@ -329,6 +327,7 @@ const setIdentifierToSetMappings = {
   // Promos
   FAB: Release.Promos,
   HER: Release.Promos,
+  JDG: Release.Promos,
   LGS: Release.Promos,
   LSS: Release.Promos,
   OXO: Release.Promos,
@@ -399,6 +398,7 @@ const getTypeAndSubType = (
   subType:
     | ActionSubType
     | EquipmentSubType
+    | HeroSubType
     | PlaceholderSubType
     | ResourceSubType
     | TokenSubType
@@ -417,6 +417,7 @@ const getTypeAndSubType = (
   let subType:
     | ActionSubType
     | EquipmentSubType
+    | HeroSubType
     | ResourceSubType
     | PlaceholderSubType
     | TokenSubType
@@ -425,6 +426,7 @@ const getTypeAndSubType = (
   for (const subTypeEnum of [
     ActionSubType,
     EquipmentSubType,
+    HeroSubType,
     ResourceSubType,
     PlaceholderSubType,
     TokenSubType,
@@ -501,7 +503,7 @@ const getActionCardData = (card: ParsedCard): ActionCard => {
     cost: getCost(card) as number,
     defense: getDefense(card) as number,
     fusions: getFusions(card),
-    pitch: card.pitch,
+    pitch: card.pitch || 0,
     power: getPower(card) as number,
     talents: getTalents(card),
     specialCost: getSpecialCost(card) as string,
@@ -526,11 +528,14 @@ const getEquipmentCardData = (card: ParsedCard): EquipmentCard => {
 };
 
 const getHeroCardData = (card: ParsedCard): HeroCard => {
+  const { subType } = getTypeAndSubType(card);
   return {
     ...getCommonCardData(card),
     intellect: card.intellect,
     hero: getHero(card) as Hero,
     life: card.life,
+    // @ts-ignore
+    subType,
     talents: getTalents(card),
     young: getYoung(card) as boolean,
   };

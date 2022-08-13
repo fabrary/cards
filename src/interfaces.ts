@@ -55,6 +55,7 @@ export interface HeroCard extends Card {
   intellect: number;
   hero: Hero;
   life: number;
+  subType?: HeroSubType;
   talents?: Talent[];
   young: boolean;
 }
@@ -214,6 +215,10 @@ export enum EquipmentSubType {
   OffHand = "Off-Hand",
 }
 
+export enum HeroSubType {
+  Young = "Young",
+}
+
 export enum PlaceholderSubType {
   Invocation = "Invocation",
 }
@@ -238,6 +243,7 @@ export enum WeaponSubType {
   Flail = "Flail",
   Gun = "Gun",
   Hammer = "Hammer",
+  Lute = "Lute",
   Orb = "Orb",
   Pistol = "Pistol",
   Scepter = "Scepter",
@@ -278,6 +284,7 @@ export enum Hero {
   Rhinar = "Rhinar",
   Ruudi = "Ruu’di",
   Shiyana = "Shiyana",
+  Taipanis = "Taipanis",
   Taylor = "Taylor",
   Valda = "Valda",
   Viserai = "Viserai",

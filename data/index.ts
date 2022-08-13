@@ -12,6 +12,7 @@
     HandsRequired,
     Hero,
     HeroCard,
+    HeroSubType,
     Keyword,
     MentorCard,
     PlaceholderCard,
@@ -4153,7 +4154,7 @@
     artists: ["Olga Khariton"],
     cardIdentifier: "ironsong-determination-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR122.png",
-    functionalText: `Your next weapon attack this gains +1{p} and **dominate** until end of turn.  **Go again**`,
+    functionalText: `Target weapon gains +1{p} and **dominate** until end of turn.  **Go again**`,
     images: [{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR122",
@@ -12328,7 +12329,7 @@
       edition: ReleaseEdition.Promo,
       identifier: "LGS042",
       set: Release.Promos,
-      
+      treatment: Treatment.EA,
       url: "https://storage.googleapis.com/fabmaster/media/images/LGS042.width-450.png",
     },{
       edition: ReleaseEdition.First,
@@ -19704,7 +19705,7 @@
     cost: 0,
     
     fusions: [],
-    
+    pitch: 0,
     
     talents: [],
     
@@ -20014,7 +20015,7 @@
     cost: 2,
     
     fusions: [],
-    
+    pitch: 0,
     
     talents: [Talent.Light],
     
@@ -20508,6 +20509,12 @@
     functionalText: `If Herald of Rebirth hits, put it into your hero's soul and put up to 1 card with phantasm from your graveyard on top of your deck. *(Put this card face up under your hero card.)*  **Phantasm** *(If Herald of Rebirth is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Rebirth and close the combat chain.)*`,
     images: [{
       edition: ReleaseEdition.Promo,
+      identifier: "FAB032",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+      url: "https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB032.png",
+    },{
+      edition: ReleaseEdition.Promo,
       identifier: "PSM011",
       set: Release.PrismBlitzDeck,
       
@@ -20529,8 +20536,8 @@
     name: "Herald of Rebirth",
     rarity: Rarity.Common,
     restrictedFormats: [],
-    setIdentifiers: ["PSM011","MON020"],
-    sets: [Release.PrismBlitzDeck,Release.Monarch],
+    setIdentifiers: ["FAB032","PSM011","MON020"],
+    sets: [Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
     type: Type.Action,
     typeText: "Light Illusionist Action – Attack",
     cost: 2,
@@ -20551,6 +20558,12 @@
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON021.width-450.png",
     functionalText: `If Herald of Rebirth hits, put it into your hero's soul and put up to 1 card with phantasm from your graveyard on top of your deck. *(Put this card face up under your hero card.)*  **Phantasm** *(If Herald of Rebirth is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Rebirth and close the combat chain.)*`,
     images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "FAB033",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+      url: "https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB033.png",
+    },{
       edition: ReleaseEdition.First,
       identifier: "MON021",
       set: Release.Monarch,
@@ -20567,8 +20580,8 @@
     name: "Herald of Rebirth",
     rarity: Rarity.Common,
     restrictedFormats: [],
-    setIdentifiers: ["MON021"],
-    sets: [Release.Monarch],
+    setIdentifiers: ["FAB033","MON021"],
+    sets: [Release.Promos,Release.Monarch],
     type: Type.Action,
     typeText: "Light Illusionist Action – Attack",
     cost: 2,
@@ -20589,6 +20602,12 @@
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON022.width-450.png",
     functionalText: `If Herald of Rebirth hits, put it into your hero's soul and put up to 1 card with phantasm from your graveyard on top of your deck. *(Put this card face up under your hero card.)*  **Phantasm** *(If Herald of Rebirth is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Rebirth and close the combat chain.)*`,
     images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "FAB034",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+      url: "https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB034.png",
+    },{
       edition: ReleaseEdition.Promo,
       identifier: "PSM018",
       set: Release.PrismBlitzDeck,
@@ -20611,8 +20630,8 @@
     name: "Herald of Rebirth",
     rarity: Rarity.Common,
     restrictedFormats: [],
-    setIdentifiers: ["PSM018","MON022"],
-    sets: [Release.PrismBlitzDeck,Release.Monarch],
+    setIdentifiers: ["FAB034","PSM018","MON022"],
+    sets: [Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
     type: Type.Action,
     typeText: "Light Illusionist Action – Attack",
     cost: 2,
@@ -26284,6 +26303,12 @@
     functionalText: `You may play Ghostly Visit from your banished zone.  **Blood Debt** *(At the beginning of your end phase, if Ghostly Visit is in your banished zone, lose 1{h}.)*`,
     images: [{
       edition: ReleaseEdition.Promo,
+      identifier: "FAB038",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+      url: "https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB038.png",
+    },{
+      edition: ReleaseEdition.Promo,
       identifier: "CHN021",
       set: Release.ChaneBlitzDeck,
       
@@ -26305,8 +26330,8 @@
     name: "Ghostly Visit",
     rarity: Rarity.Common,
     restrictedFormats: [],
-    setIdentifiers: ["CHN021","MON203"],
-    sets: [Release.ChaneBlitzDeck,Release.Monarch],
+    setIdentifiers: ["FAB038","CHN021","MON203"],
+    sets: [Release.Promos,Release.ChaneBlitzDeck,Release.Monarch],
     type: Type.Action,
     typeText: "Shadow Action – Attack",
     cost: 1,
@@ -26327,6 +26352,12 @@
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON204.width-450.png",
     functionalText: `You may play Ghostly Visit from your banished zone.  **Blood Debt** *(At the beginning of your end phase, if Ghostly Visit is in your banished zone, lose 1{h}.)*`,
     images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "FAB039",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+      url: "https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB039.png",
+    },{
       edition: ReleaseEdition.First,
       identifier: "MON204",
       set: Release.Monarch,
@@ -26343,8 +26374,8 @@
     name: "Ghostly Visit",
     rarity: Rarity.Common,
     restrictedFormats: [],
-    setIdentifiers: ["MON204"],
-    sets: [Release.Monarch],
+    setIdentifiers: ["FAB039","MON204"],
+    sets: [Release.Promos,Release.Monarch],
     type: Type.Action,
     typeText: "Shadow Action – Attack",
     cost: 1,
@@ -26366,6 +26397,12 @@
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON205.width-450.png",
     functionalText: `You may play Ghostly Visit from your banished zone.  **Blood Debt** *(At the beginning of your end phase, if Ghostly Visit is in your banished zone, lose 1{h}.)*`,
     images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "FAB040",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+      url: "https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB040.png",
+    },{
       edition: ReleaseEdition.First,
       identifier: "MON205",
       set: Release.Monarch,
@@ -26382,8 +26419,8 @@
     name: "Ghostly Visit",
     rarity: Rarity.Common,
     restrictedFormats: [],
-    setIdentifiers: ["MON205"],
-    sets: [Release.Monarch],
+    setIdentifiers: ["FAB040","MON205"],
+    sets: [Release.Promos,Release.Monarch],
     type: Type.Action,
     typeText: "Shadow Action – Attack",
     cost: 1,
@@ -29505,7 +29542,7 @@
     cost: 1,
     
     fusions: [],
-    
+    pitch: 0,
     
     talents: [Talent.Elemental],
     
@@ -33554,7 +33591,7 @@
     defense: 3,
     fusions: [],
     pitch: 1,
-    power: 6,
+    power: 7,
     talents: [Talent.Earth],
     
     
@@ -33598,7 +33635,7 @@
     defense: 3,
     fusions: [],
     pitch: 2,
-    power: 5,
+    power: 6,
     talents: [Talent.Earth],
     
     
@@ -33642,7 +33679,7 @@
     defense: 3,
     fusions: [],
     pitch: 3,
-    power: 4,
+    power: 5,
     talents: [Talent.Earth],
     
     
@@ -38611,7 +38648,7 @@
       url: "https://storage.googleapis.com/fabmaster/media/images/EVR070.width-450.png",
     },],
     keywords: [Keyword.Specialization],
-    name: "Micro-Processor",
+    name: "Micro-processor",
     rarity: Rarity.Majestic,
     restrictedFormats: [Format.Commoner],
     setIdentifiers: ["EVR070"],
@@ -42368,8 +42405,8 @@
     name: "Wrecking Ball",
     rarity: Rarity.Rare,
     restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["RVD013"],
-    sets: [Release.ClassicBattlesRhinarDorinthea],
+    setIdentifiers: ["LGS101","RVD013"],
+    sets: [Release.Promos,Release.ClassicBattlesRhinarDorinthea],
     type: Type.Action,
     typeText: "Brute Action – Attack",
     cost: 3,
@@ -44878,8 +44915,8 @@
     name: "Rise Up",
     rarity: Rarity.Rare,
     restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["UPR091"],
-    sets: [Release.Uprising],
+    setIdentifiers: ["LGS106","UPR091"],
+    sets: [Release.Promos,Release.Uprising],
     type: Type.Action,
     typeText: "Draconic Action – Attack",
     cost: 1,
@@ -44910,8 +44947,8 @@
     name: "Blaze Headlong",
     rarity: Rarity.Common,
     restrictedFormats: [],
-    setIdentifiers: ["UPR092"],
-    sets: [Release.Uprising],
+    setIdentifiers: ["FAB089","UPR092"],
+    sets: [Release.Promos,Release.Uprising],
     type: Type.Action,
     typeText: "Draconic Action – Attack",
     cost: 0,
@@ -45222,8 +45259,8 @@
     name: "Phoenix Flame",
     rarity: Rarity.Token,
     restrictedFormats: [],
-    setIdentifiers: ["UPR101"],
-    sets: [Release.Uprising],
+    setIdentifiers: ["LGS104","UPR101"],
+    sets: [Release.Promos,Release.Uprising],
     type: Type.Action,
     typeText: "Draconic Action – Attack",
     cost: 0,
@@ -47020,8 +47057,8 @@
     name: "Read the Ripples",
     rarity: Rarity.Common,
     restrictedFormats: [],
-    setIdentifiers: ["UPR178"],
-    sets: [Release.Uprising],
+    setIdentifiers: ["FAB092","UPR178"],
+    sets: [Release.Promos,Release.Uprising],
     type: Type.Action,
     typeText: "Wizard Action – Aura",
     cost: 0,
@@ -47692,8 +47729,8 @@
     name: "Brothers in Arms",
     rarity: Rarity.Common,
     restrictedFormats: [],
-    setIdentifiers: ["UPR205"],
-    sets: [Release.Uprising],
+    setIdentifiers: ["FAB093","UPR205"],
+    sets: [Release.Promos,Release.Uprising],
     type: Type.Action,
     typeText: "Generic Action – Attack",
     cost: 2,
@@ -49820,8 +49857,8 @@
     name: "Run Through",
     rarity: Rarity.Rare,
     restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["DVR013"],
-    sets: [Release.ClassicBattlesRhinarDorinthea],
+    setIdentifiers: ["LGS102","DVR013"],
+    sets: [Release.Promos,Release.ClassicBattlesRhinarDorinthea],
     type: Type.AttackReaction,
     typeText: "Warrior Attack Reaction",
     cost: 1,
@@ -57737,7 +57774,7 @@
     keywords: [],
     name: "Stubby Hammerers",
     rarity: Rarity.Common,
-    restrictedFormats: [Format.Blitz],
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed],
     setIdentifiers: ["MON239"],
     sets: [Release.Monarch],
     type: Type.Equipment,
@@ -58753,8 +58790,8 @@
     name: "Blossom of Spring",
     rarity: Rarity.Common,
     restrictedFormats: [],
-    setIdentifiers: ["DVR004","RVD004"],
-    sets: [Release.ClassicBattlesRhinarDorinthea,Release.ClassicBattlesRhinarDorinthea],
+    setIdentifiers: ["LGS100","DVR004","RVD004"],
+    sets: [Release.Promos,Release.ClassicBattlesRhinarDorinthea,Release.ClassicBattlesRhinarDorinthea],
     type: Type.Equipment,
     typeText: "Generic Equipment – Chest",
     
@@ -58859,8 +58896,8 @@
     name: "Flamescale Furnace",
     rarity: Rarity.Legendary,
     restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["UPR084"],
-    sets: [Release.Uprising],
+    setIdentifiers: ["FAB087","UPR084"],
+    sets: [Release.Promos,Release.Uprising],
     type: Type.Equipment,
     typeText: "Draconic Equipment – Chest",
     defense: 2,
@@ -58934,8 +58971,8 @@
     name: "Coronet Peak",
     rarity: Rarity.Legendary,
     restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["UPR136"],
-    sets: [Release.Uprising],
+    setIdentifiers: ["FAB086","UPR136"],
+    sets: [Release.Promos,Release.Uprising],
     type: Type.Equipment,
     typeText: "Ice Equipment – Head",
     defense: 2,
@@ -58984,8 +59021,8 @@
     name: "Ghostly Touch",
     rarity: Rarity.Legendary,
     restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["UPR151"],
-    sets: [Release.Uprising],
+    setIdentifiers: ["FAB085","UPR151"],
+    sets: [Release.Promos,Release.Uprising],
     type: Type.Equipment,
     typeText: "Illusionist Equipment – Arms",
     defense: 0,
@@ -59034,8 +59071,8 @@
     name: "Tiger Stripe Shuko",
     rarity: Rarity.Legendary,
     restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["UPR158"],
-    sets: [Release.Uprising],
+    setIdentifiers: ["FAB083","UPR158"],
+    sets: [Release.Promos,Release.Uprising],
     type: Type.Equipment,
     typeText: "Ninja Equipment – Arms",
     defense: 2,
@@ -59084,8 +59121,8 @@
     name: "Alluvion Constellas",
     rarity: Rarity.Legendary,
     restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["UPR166"],
-    sets: [Release.Uprising],
+    setIdentifiers: ["FAB084","UPR166"],
+    sets: [Release.Promos,Release.Uprising],
     type: Type.Equipment,
     typeText: "Wizard Equipment – Chest",
     defense: 0,
@@ -59134,8 +59171,8 @@
     name: "Crown of Providence",
     rarity: Rarity.Legendary,
     restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["UPR182"],
-    sets: [Release.Uprising],
+    setIdentifiers: ["FAB088","UPR182"],
+    sets: [Release.Promos,Release.Uprising],
     type: Type.Equipment,
     typeText: "Generic Equipment – Head",
     defense: 2,
@@ -59165,8 +59202,8 @@
     name: "Helio’s Mitre",
     rarity: Rarity.Token,
     restrictedFormats: [],
-    setIdentifiers: ["UPR183"],
-    sets: [Release.Uprising],
+    setIdentifiers: ["LGS103","UPR183"],
+    sets: [Release.Promos,Release.Uprising],
     type: Type.Equipment,
     typeText: "Generic Equipment – Head",
     defense: 0,
@@ -59422,7 +59459,7 @@
     keywords: [],
     name: "Ruu’di, Gem Keeper",
     rarity: Rarity.Promo,
-    restrictedFormats: [],
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
     setIdentifiers: ["LSS001"],
     sets: [Release.Promos],
     type: Type.Hero,
@@ -59430,6 +59467,7 @@
     intellect: 4,
     hero: Hero.Ruudi,
     life: 40,
+    
     talents: [],
     young: null
   },{
@@ -59448,7 +59486,7 @@
     keywords: [],
     name: "Taylor",
     rarity: Rarity.Promo,
-    restrictedFormats: [],
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
     setIdentifiers: ["LSS003"],
     sets: [Release.Promos],
     type: Type.Hero,
@@ -59456,6 +59494,7 @@
     intellect: 4,
     hero: Hero.Taylor,
     life: 18,
+    subType: HeroSubType.Young,
     talents: [],
     young: true
   },{
@@ -59474,7 +59513,7 @@
     keywords: [],
     name: "Yorick, Weaver of Tales",
     rarity: Rarity.Promo,
-    restrictedFormats: [],
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
     setIdentifiers: ["LSS004"],
     sets: [Release.Promos],
     type: Type.Hero,
@@ -59482,8 +59521,36 @@
     intellect: 4,
     hero: Hero.Yorick,
     life: 20,
+    subType: HeroSubType.Young,
     talents: [],
     young: true
+  },{
+    class: Class.NotClassed,
+    artists: ["Federico Musetti"],
+    cardIdentifier: "taipanis-dracai-of-judgement",
+    defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/image4.width-992.png",
+    functionalText: `The first time each turn another hero becomes the target of a source that would deal lethal damage, you may discard a red card. If you do, choose new targets for that source.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "JDG002",
+      set: Release.Promos,
+      
+      url: "https://storage.googleapis.com/fabmaster/media/images/image4.width-992.png",
+    },],
+    keywords: [],
+    name: "Taipanis, Dracai of Judgement",
+    rarity: Rarity.Promo,
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    setIdentifiers: ["JDG001","JDG002"],
+    sets: [Release.Promos],
+    type: Type.Hero,
+    typeText: "Draconic Adjudicator Hero",
+    intellect: null,
+    hero: Hero.Taipanis,
+    life: null,
+    
+    talents: [Talent.Draconic],
+    young: null
   },{
     class: Class.Brute,
     artists: ["Wisnu Tan"],
@@ -59542,14 +59609,15 @@
     keywords: [Keyword.Intimidate],
     name: "Rhinar, Reckless Rampage",
     rarity: Rarity.Token,
-    restrictedFormats: [],
-    setIdentifiers: ["HER001","HER021","RNR001","1HP001","WTR001","CRU001"],
+    restrictedFormats: [Format.Blitz,Format.Commoner],
+    setIdentifiers: ["HER001","HER021","WIN001","RNR001","1HP001","WTR001","CRU001"],
     sets: [Release.Promos,Release.RhinarHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar],
     type: Type.Hero,
     typeText: "Brute Hero",
     intellect: 4,
     hero: Hero.Rhinar,
     life: 40,
+    
     talents: [],
     young: null
   },{
@@ -59612,6 +59680,7 @@
     intellect: 4,
     hero: Hero.Rhinar,
     life: 20,
+    subType: HeroSubType.Young,
     talents: [],
     young: true
   },{
@@ -59672,14 +59741,15 @@
     keywords: [Keyword.Dominate],
     name: "Bravo, Showstopper",
     rarity: Rarity.Token,
-    restrictedFormats: [],
-    setIdentifiers: ["HER002","HER022","BVO001","1HP043","WTR038","CRU022"],
+    restrictedFormats: [Format.Blitz,Format.Commoner],
+    setIdentifiers: ["HER002","HER022","WIN002","BVO001","1HP043","WTR038","CRU022"],
     sets: [Release.Promos,Release.BravoBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar],
     type: Type.Hero,
     typeText: "Guardian Hero",
     intellect: 4,
     hero: Hero.Bravo,
     life: 40,
+    
     talents: [],
     young: null
   },{
@@ -59736,6 +59806,7 @@
     intellect: 4,
     hero: Hero.Bravo,
     life: 20,
+    subType: HeroSubType.Young,
     talents: [],
     young: true
   },{
@@ -59796,14 +59867,15 @@
     keywords: [],
     name: "Katsu, the Wanderer",
     rarity: Rarity.Token,
-    restrictedFormats: [],
-    setIdentifiers: ["HER003","HER023","KSU001","1HP086","WTR076","CRU045"],
+    restrictedFormats: [Format.Blitz,Format.Commoner],
+    setIdentifiers: ["HER003","HER023","WIN003","KSU001","1HP086","WTR076","CRU045"],
     sets: [Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar],
     type: Type.Hero,
     typeText: "Ninja Hero",
     intellect: 4,
     hero: Hero.Katsu,
     life: 40,
+    
     talents: [],
     young: null
   },{
@@ -59860,6 +59932,7 @@
     intellect: 4,
     hero: Hero.Katsu,
     life: 20,
+    subType: HeroSubType.Young,
     talents: [],
     young: true
   },{
@@ -59920,14 +59993,15 @@
     keywords: [],
     name: "Dorinthea Ironsong",
     rarity: Rarity.Token,
-    restrictedFormats: [],
-    setIdentifiers: ["HER004","HER024","TEA001","1HP138","WTR113","CRU076"],
+    restrictedFormats: [Format.Blitz,Format.Commoner],
+    setIdentifiers: ["HER004","HER024","WIN004","TEA001","1HP138","WTR113","CRU076"],
     sets: [Release.Promos,Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar],
     type: Type.Hero,
     typeText: "Warrior Hero",
     intellect: 4,
     hero: Hero.Dorinthea,
     life: 40,
+    
     talents: [],
     young: null
   },{
@@ -59984,6 +60058,7 @@
     intellect: 4,
     hero: Hero.Dorinthea,
     life: 20,
+    subType: HeroSubType.Young,
     talents: [],
     young: true
   },{
@@ -60038,14 +60113,15 @@
     keywords: [],
     name: "Dash, Inventor Extraordinaire",
     rarity: Rarity.Token,
-    restrictedFormats: [],
-    setIdentifiers: ["HER009","HER017","1HP180","ARC001","CRU098"],
+    restrictedFormats: [Format.Blitz,Format.Commoner],
+    setIdentifiers: ["HER009","HER017","WIN005","1HP180","ARC001","CRU098"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar],
     type: Type.Hero,
     typeText: "Mechanologist Hero",
     intellect: 4,
     hero: Hero.Dash,
     life: 40,
+    
     talents: [],
     young: null
   },{
@@ -60090,6 +60166,7 @@
     intellect: 4,
     hero: Hero.Dash,
     life: 20,
+    subType: HeroSubType.Young,
     talents: [],
     young: true
   },{
@@ -60144,14 +60221,15 @@
     keywords: [Keyword.Dominate],
     name: "Azalea, Ace in the Hole",
     rarity: Rarity.Token,
-    restrictedFormats: [],
-    setIdentifiers: ["HER010","HER018","1HP221","ARC038","CRU119"],
+    restrictedFormats: [Format.Blitz,Format.Commoner],
+    setIdentifiers: ["HER010","HER018","WIN006","1HP221","ARC038","CRU119"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar],
     type: Type.Hero,
     typeText: "Ranger Hero",
     intellect: 4,
     hero: Hero.Azalea,
     life: 40,
+    
     talents: [],
     young: null
   },{
@@ -60196,6 +60274,7 @@
     intellect: 4,
     hero: Hero.Azalea,
     life: 20,
+    subType: HeroSubType.Young,
     talents: [],
     young: true
   },{
@@ -60250,14 +60329,15 @@
     keywords: [],
     name: "Viserai, Rune Blood",
     rarity: Rarity.Token,
-    restrictedFormats: [],
-    setIdentifiers: ["HER011","HER019","1HP258","ARC075","CRU138"],
+    restrictedFormats: [Format.Blitz,Format.Commoner],
+    setIdentifiers: ["HER011","HER019","WIN007","1HP258","ARC075","CRU138"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar],
     type: Type.Hero,
     typeText: "Runeblade Hero",
     intellect: 4,
     hero: Hero.Viserai,
     life: 40,
+    
     talents: [],
     young: null
   },{
@@ -60302,6 +60382,7 @@
     intellect: 4,
     hero: Hero.Viserai,
     life: 20,
+    subType: HeroSubType.Young,
     talents: [],
     young: true
   },{
@@ -60356,14 +60437,15 @@
     keywords: [],
     name: "Kano, Dracai of Aether",
     rarity: Rarity.Token,
-    restrictedFormats: [],
-    setIdentifiers: ["HER012","HER020","1HP301","ARC113","CRU158"],
+    restrictedFormats: [Format.Blitz,Format.Commoner],
+    setIdentifiers: ["HER012","HER020","WIN008","1HP301","ARC113","CRU158"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar],
     type: Type.Hero,
     typeText: "Wizard Hero",
     intellect: 4,
     hero: Hero.Kano,
     life: 30,
+    
     talents: [],
     young: null
   },{
@@ -60408,6 +60490,7 @@
     intellect: 4,
     hero: Hero.Kano,
     life: 15,
+    subType: HeroSubType.Young,
     talents: [],
     young: true
   },{
@@ -60452,6 +60535,7 @@
     intellect: 4,
     hero: Hero.Kayo,
     life: 19,
+    subType: HeroSubType.Young,
     talents: [],
     young: true
   },{
@@ -60502,6 +60586,7 @@
     intellect: 4,
     hero: Hero.Ira,
     life: 20,
+    subType: HeroSubType.Young,
     talents: [],
     young: true
   },{
@@ -60552,6 +60637,7 @@
     intellect: 4,
     hero: Hero.Benji,
     life: 17,
+    subType: HeroSubType.Young,
     talents: [],
     young: true
   },{
@@ -60602,6 +60688,7 @@
     intellect: 4,
     hero: Hero.Kassai,
     life: 20,
+    subType: HeroSubType.Young,
     talents: [],
     young: true
   },{
@@ -60626,7 +60713,7 @@
     keywords: [],
     name: "Shiyana, Diamond Gemini",
     rarity: Rarity.Legendary,
-    restrictedFormats: [],
+    restrictedFormats: [Format.Commoner],
     setIdentifiers: ["CRU097"],
     sets: [Release.CrucibleOfWar],
     type: Type.Hero,
@@ -60634,6 +60721,7 @@
     intellect: 4,
     hero: Hero.Shiyana,
     life: 20,
+    subType: HeroSubType.Young,
     talents: [],
     young: true
   },{
@@ -60678,6 +60766,7 @@
     intellect: 3,
     hero: Hero.DataDoll,
     life: 20,
+    subType: HeroSubType.Young,
     talents: [],
     young: true
   },{
@@ -60728,6 +60817,7 @@
     intellect: 4,
     hero: Hero.Kavdaen,
     life: 20,
+    subType: HeroSubType.Young,
     talents: [],
     young: true
   },{
@@ -60764,14 +60854,15 @@
     keywords: [],
     name: "Prism, Sculptor of Arc Light",
     rarity: Rarity.Token,
-    restrictedFormats: [],
-    setIdentifiers: ["HER030","HER038","MON001"],
+    restrictedFormats: [Format.Blitz,Format.Commoner],
+    setIdentifiers: ["HER030","HER038","WIN009","MON001"],
     sets: [Release.Promos,Release.Monarch],
     type: Type.Hero,
     typeText: "Light Illusionist Hero",
     intellect: 4,
     hero: Hero.Prism,
     life: 40,
+    
     talents: [Talent.Light],
     young: null
   },{
@@ -60816,6 +60907,7 @@
     intellect: 4,
     hero: Hero.Prism,
     life: 20,
+    subType: HeroSubType.Young,
     talents: [Talent.Light],
     young: true
   },{
@@ -60852,14 +60944,15 @@
     keywords: [Keyword.GoAgain],
     name: "Ser Boltyn, Breaker of Dawn",
     rarity: Rarity.Token,
-    restrictedFormats: [],
-    setIdentifiers: ["HER031","HER039","MON029"],
+    restrictedFormats: [Format.Blitz,Format.Commoner],
+    setIdentifiers: ["HER031","HER039","WIN010","MON029"],
     sets: [Release.Promos,Release.Monarch],
     type: Type.Hero,
     typeText: "Light Warrior Hero",
     intellect: 4,
     hero: Hero.Boltyn,
     life: 40,
+    
     talents: [Talent.Light],
     young: null
   },{
@@ -60904,6 +60997,7 @@
     intellect: 4,
     hero: Hero.Boltyn,
     life: 20,
+    subType: HeroSubType.Young,
     talents: [Talent.Light],
     young: true
   },{
@@ -60940,14 +61034,15 @@
     keywords: [],
     name: "Levia, Shadowborn Abomination",
     rarity: Rarity.Token,
-    restrictedFormats: [],
-    setIdentifiers: ["HER032","HER040","MON119"],
+    restrictedFormats: [Format.Blitz,Format.Commoner],
+    setIdentifiers: ["HER032","HER040","WIN011","MON119"],
     sets: [Release.Promos,Release.Monarch],
     type: Type.Hero,
     typeText: "Shadow Brute Hero",
     intellect: 4,
     hero: Hero.Levia,
     life: 40,
+    
     talents: [Talent.Shadow],
     young: null
   },{
@@ -60992,6 +61087,7 @@
     intellect: 4,
     hero: Hero.Levia,
     life: 20,
+    subType: HeroSubType.Young,
     talents: [Talent.Shadow],
     young: true
   },{
@@ -61028,14 +61124,15 @@
     keywords: [Keyword.GoAgain],
     name: "Chane, Bound by Shadow",
     rarity: Rarity.Token,
-    restrictedFormats: [Format.ClassicConstructed],
-    setIdentifiers: ["HER033","HER041","MON153"],
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    setIdentifiers: ["HER033","HER041","WIN012","MON153"],
     sets: [Release.Promos,Release.Monarch],
     type: Type.Hero,
     typeText: "Shadow Runeblade Hero",
     intellect: 4,
     hero: Hero.Chane,
     life: 40,
+    
     talents: [Talent.Shadow],
     young: null
   },{
@@ -61080,6 +61177,7 @@
     intellect: 4,
     hero: Hero.Chane,
     life: 20,
+    subType: HeroSubType.Young,
     talents: [Talent.Shadow],
     young: true
   },{
@@ -61116,14 +61214,15 @@
     keywords: [Keyword.Essence],
     name: "Oldhim, Grandfather of Eternity",
     rarity: Rarity.Token,
-    restrictedFormats: [],
-    setIdentifiers: ["HER042","HER048","ELE001"],
+    restrictedFormats: [Format.Blitz,Format.Commoner],
+    setIdentifiers: ["HER042","HER048","WIN013","ELE001"],
     sets: [Release.Promos,Release.TalesOfAria],
     type: Type.Hero,
     typeText: "Elemental Guardian Hero",
     intellect: 4,
     hero: Hero.Oldhim,
     life: 40,
+    
     talents: [Talent.Earth,Talent.Elemental,Talent.Ice],
     young: null
   },{
@@ -61168,6 +61267,7 @@
     intellect: 4,
     hero: Hero.Oldhim,
     life: 20,
+    subType: HeroSubType.Young,
     talents: [Talent.Earth,Talent.Elemental,Talent.Ice],
     young: true
   },{
@@ -61204,14 +61304,15 @@
     keywords: [Keyword.Essence,Keyword.GoAgain],
     name: "Lexi, Livewire",
     rarity: Rarity.Token,
-    restrictedFormats: [],
-    setIdentifiers: ["HER043","HER049","ELE031"],
+    restrictedFormats: [Format.Blitz,Format.Commoner],
+    setIdentifiers: ["HER043","HER049","WIN014","ELE031"],
     sets: [Release.Promos,Release.TalesOfAria],
     type: Type.Hero,
     typeText: "Elemental Ranger Hero",
     intellect: 4,
     hero: Hero.Lexi,
     life: 40,
+    
     talents: [Talent.Elemental,Talent.Ice,Talent.Lightning],
     young: null
   },{
@@ -61256,6 +61357,7 @@
     intellect: 4,
     hero: Hero.Lexi,
     life: 20,
+    subType: HeroSubType.Young,
     talents: [Talent.Elemental,Talent.Ice,Talent.Lightning],
     young: true
   },{
@@ -61292,14 +61394,15 @@
     keywords: [Keyword.Essence],
     name: "Briar, Warden of Thorns",
     rarity: Rarity.Token,
-    restrictedFormats: [],
-    setIdentifiers: ["XXX012","HER044","HER050","ELE062"],
+    restrictedFormats: [Format.Blitz,Format.Commoner],
+    setIdentifiers: ["HER044","HER050","HER063","WIN015","XXX012","ELE062"],
     sets: [Release.Promos,Release.Promos,Release.TalesOfAria],
     type: Type.Hero,
     typeText: "Elemental Runeblade Hero",
     intellect: 4,
     hero: Hero.Briar,
     life: 40,
+    
     talents: [Talent.Earth,Talent.Elemental,Talent.Lightning],
     young: null
   },{
@@ -61337,13 +61440,14 @@
     name: "Briar",
     rarity: Rarity.Token,
     restrictedFormats: [],
-    setIdentifiers: ["XXX011","HER047","BRI001","ELE063"],
+    setIdentifiers: ["HER047","HER064","XXX011","BRI001","ELE063"],
     sets: [Release.Promos,Release.Promos,Release.BriarBlitzDeck,Release.TalesOfAria],
     type: Type.Hero,
     typeText: "Elemental Runeblade Hero – Young",
     intellect: 4,
     hero: Hero.Briar,
     life: 20,
+    subType: HeroSubType.Young,
     talents: [Talent.Earth,Talent.Elemental,Talent.Lightning],
     young: true
   },{
@@ -61368,14 +61472,15 @@
     keywords: [Keyword.Essence,Keyword.Dominate,Keyword.GoAgain],
     name: "Bravo, Star of the Show",
     rarity: Rarity.Majestic,
-    restrictedFormats: [Format.ClassicConstructed],
-    setIdentifiers: ["EVR017"],
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    setIdentifiers: ["WIN016","EVR017"],
     sets: [Release.Everfest],
     type: Type.Hero,
     typeText: "Elemental Guardian Hero",
     intellect: 4,
     hero: Hero.Bravo,
     life: 40,
+    
     talents: [Talent.Earth,Talent.Elemental,Talent.Ice,Talent.Lightning],
     young: null
   },{
@@ -61400,7 +61505,7 @@
     keywords: [Keyword.Dominate],
     name: "Valda Brightaxe",
     rarity: Rarity.Majestic,
-    restrictedFormats: [],
+    restrictedFormats: [Format.Commoner],
     setIdentifiers: ["HER051","EVR019"],
     sets: [Release.Promos,Release.Everfest],
     type: Type.Hero,
@@ -61408,6 +61513,7 @@
     intellect: 4,
     hero: Hero.Valda,
     life: 21,
+    subType: HeroSubType.Young,
     talents: [],
     young: true
   },{
@@ -61432,7 +61538,7 @@
     keywords: [],
     name: "Genis Wotchuneed",
     rarity: Rarity.Majestic,
-    restrictedFormats: [],
+    restrictedFormats: [Format.Commoner],
     setIdentifiers: ["HER053","EVR085"],
     sets: [Release.Promos,Release.Everfest],
     type: Type.Hero,
@@ -61440,6 +61546,7 @@
     intellect: 4,
     hero: Hero.GenisWotchuneed,
     life: 20,
+    subType: HeroSubType.Young,
     talents: [],
     young: true
   },{
@@ -61482,7 +61589,7 @@
     keywords: [Keyword.Essence],
     name: "Iyslander",
     rarity: Rarity.Token,
-    restrictedFormats: [],
+    restrictedFormats: [Format.Commoner],
     setIdentifiers: ["HER052","EVR120","UPR103"],
     sets: [Release.Promos,Release.Everfest,Release.Uprising],
     type: Type.Hero,
@@ -61490,6 +61597,7 @@
     intellect: 4,
     hero: Hero.Iyslander,
     life: 18,
+    subType: HeroSubType.Young,
     talents: [Talent.Elemental,Talent.Ice],
     young: true
   },{
@@ -61508,7 +61616,7 @@
     keywords: [],
     name: "Dorinthea, Quicksilver Prodigy",
     rarity: Rarity.Majestic,
-    restrictedFormats: [],
+    restrictedFormats: [Format.Commoner],
     setIdentifiers: ["DVR001"],
     sets: [Release.ClassicBattlesRhinarDorinthea],
     type: Type.Hero,
@@ -61516,6 +61624,7 @@
     intellect: 4,
     hero: Hero.Dorinthea,
     life: 20,
+    subType: HeroSubType.Young,
     talents: [],
     young: true
   },{
@@ -61534,14 +61643,15 @@
     keywords: [Keyword.GoAgain],
     name: "Dromai, Ash Artist",
     rarity: Rarity.Token,
-    restrictedFormats: [],
-    setIdentifiers: ["UPR001"],
-    sets: [Release.Uprising],
+    restrictedFormats: [Format.Blitz,Format.Commoner],
+    setIdentifiers: ["HER059","HER066","WIN018","UPR001"],
+    sets: [Release.Promos,Release.Uprising],
     type: Type.Hero,
     typeText: "Draconic Illusionist Hero",
     intellect: 4,
     hero: Hero.Dromai,
     life: 40,
+    
     talents: [Talent.Draconic],
     young: null
   },{
@@ -61560,14 +61670,15 @@
     keywords: [Keyword.GoAgain],
     name: "Dromai",
     rarity: Rarity.Token,
-    restrictedFormats: [],
-    setIdentifiers: ["UPR002"],
-    sets: [Release.Uprising],
+    restrictedFormats: [Format.Blitz,Format.Commoner],
+    setIdentifiers: ["HER062","UPR002"],
+    sets: [Release.Promos,Release.Uprising],
     type: Type.Hero,
     typeText: "Draconic Illusionist Hero – Young",
     intellect: 4,
     hero: Hero.Dromai,
     life: 20,
+    subType: HeroSubType.Young,
     talents: [Talent.Draconic],
     young: true
   },{
@@ -61586,14 +61697,15 @@
     keywords: [],
     name: "Fai, Rising Rebellion",
     rarity: Rarity.Token,
-    restrictedFormats: [],
-    setIdentifiers: ["UPR044"],
-    sets: [Release.Uprising],
+    restrictedFormats: [Format.Blitz,Format.Commoner],
+    setIdentifiers: ["HER058","HER065","WIN017","UPR044"],
+    sets: [Release.Promos,Release.Uprising],
     type: Type.Hero,
     typeText: "Draconic Ninja Hero",
     intellect: 4,
     hero: Hero.Fai,
     life: 40,
+    
     talents: [Talent.Draconic],
     young: null
   },{
@@ -61613,13 +61725,14 @@
     name: "Fai",
     rarity: Rarity.Token,
     restrictedFormats: [],
-    setIdentifiers: ["UPR045"],
-    sets: [Release.Uprising],
+    setIdentifiers: ["HER061","UPR045"],
+    sets: [Release.Promos,Release.Uprising],
     type: Type.Hero,
     typeText: "Draconic Ninja Hero – Young",
     intellect: 4,
     hero: Hero.Fai,
     life: 20,
+    subType: HeroSubType.Young,
     talents: [Talent.Draconic],
     young: true
   },{
@@ -61638,14 +61751,15 @@
     keywords: [Keyword.Essence],
     name: "Iyslander, Stormbind",
     rarity: Rarity.Token,
-    restrictedFormats: [],
-    setIdentifiers: ["UPR102"],
-    sets: [Release.Uprising],
+    restrictedFormats: [Format.Blitz,Format.Commoner],
+    setIdentifiers: ["HER060","HER067","WIN019","UPR102"],
+    sets: [Release.Promos,Release.Uprising],
     type: Type.Hero,
     typeText: "Elemental Wizard Hero",
     intellect: 4,
     hero: Hero.Iyslander,
     life: 36,
+    
     talents: [Talent.Elemental,Talent.Ice],
     young: null
   }];
@@ -62265,8 +62379,8 @@
     name: "Spectral Shield",
     rarity: Rarity.Token,
     restrictedFormats: [],
-    setIdentifiers: ["PSM030","MON104","EVR153"],
-    sets: [Release.PrismBlitzDeck,Release.Monarch,Release.Everfest],
+    setIdentifiers: ["FAB082","PSM030","MON104","EVR153"],
+    sets: [Release.Promos,Release.PrismBlitzDeck,Release.Monarch,Release.Everfest],
     type: Type.Token,
     typeText: "Illusionist Token – Aura",
     
@@ -62517,8 +62631,8 @@
     name: "Frostbite",
     rarity: Rarity.Token,
     restrictedFormats: [],
-    setIdentifiers: ["LXI030","OLD031","ELE111","EVR197","UPR150"],
-    sets: [Release.LexiBlitzDeck,Release.OldhimBlitzDeck,Release.TalesOfAria,Release.Everfest,Release.Uprising],
+    setIdentifiers: ["FAB081","LXI030","OLD031","ELE111","EVR197","UPR150"],
+    sets: [Release.Promos,Release.LexiBlitzDeck,Release.OldhimBlitzDeck,Release.TalesOfAria,Release.Everfest,Release.Uprising],
     type: Type.Token,
     typeText: "Elemental Token – Aura",
     
@@ -62998,6 +63112,26 @@
     subType: TokenSubType.Ash
   }];
   const weapons: WeaponCard[] = [{
+    class: Class.Bard,
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "hummingbird-adventurers-call",
+    defaultImageUrl: "",
+    functionalText: `When cometh thou turn, pick a tale; Quick’n be bold; or Drawn and quartered; or Health be good ye’all.`,
+    images: [],
+    keywords: [],
+    name: "Hummingbird, Adventurer’s Call",
+    rarity: Rarity.Promo,
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    setIdentifiers: ["FAB094"],
+    sets: [Release.Promos],
+    type: Type.Weapon,
+    typeText: "Bard Weapon – Lute (2H)",
+    handsRequired: HandsRequired.TwoHanded,
+    
+    
+    talents: [],
+    subType: WeaponSubType.Lute
+  },{
     class: Class.Brute,
     artists: ["Wisnu Tan"],
     cardIdentifier: "romping-club",
@@ -63965,7 +64099,7 @@
     type: Type.Weapon,
     typeText: "Generic Weapon – Sword (2H)",
     handsRequired: HandsRequired.TwoHanded,
-    
+    power: 4,
     
     talents: [],
     subType: WeaponSubType.Sword
@@ -64704,8 +64838,8 @@
     name: "Searing Emberblade",
     rarity: Rarity.Token,
     restrictedFormats: [],
-    setIdentifiers: ["UPR046"],
-    sets: [Release.Uprising],
+    setIdentifiers: ["LGS105","UPR046"],
+    sets: [Release.Promos,Release.Uprising],
     type: Type.Weapon,
     typeText: "Draconic Ninja Weapon – Sword (2H)",
     handsRequired: HandsRequired.TwoHanded,
