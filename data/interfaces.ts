@@ -70,6 +70,7 @@ export interface PlaceholderCard extends Card {
 
 export interface ResourceCard extends Card {
   pitch?: number;
+  specializations?: Hero[];
   subType?: ResourceSubType;
   talents?: Talent[];
 }

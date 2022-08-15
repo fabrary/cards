@@ -188,6 +188,7 @@ const generateResourceTS = (card: ResourceCard): String => {
   return `{
     ${getCardInfo(card)}
     ${card.pitch ? `pitch: ${card.pitch},` : ``}
+    specializations: [${getEnumValues(card.specializations, "Hero", Hero)}],
     ${
       card.subType
         ? `subType: ${getEnumValue(

@@ -562,6 +562,7 @@ const getResourceCardData = (card: ParsedCard): ResourceCard => {
     defense: getDefense(card),
     pitch: card.pitch,
     talents: getTalents(card),
+    specializations: getSpecializations(card),
     // @ts-ignore
     subType,
   };

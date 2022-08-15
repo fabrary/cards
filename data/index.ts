@@ -61814,6 +61814,7 @@
     type: Type.Resource,
     typeText: "Generic Resource – Gem",
     pitch: 3,
+    specializations: [],
     subType: ResourceSubType.Gem,
     talents: [],
   },{
@@ -61904,6 +61905,7 @@
     type: Type.Resource,
     typeText: "Generic Resource",
     pitch: 2,
+    specializations: [],
     
     talents: [],
   },{
@@ -61934,6 +61936,7 @@
     type: Type.Resource,
     typeText: "Generic Resource – Gem",
     pitch: 3,
+    specializations: [],
     subType: ResourceSubType.Gem,
     talents: [],
   },{
@@ -61964,6 +61967,7 @@
     type: Type.Resource,
     typeText: "Runeblade Resource – Gem",
     pitch: 3,
+    specializations: [Hero.Viserai],
     subType: ResourceSubType.Gem,
     talents: [],
   },{
@@ -61988,6 +61992,7 @@
     type: Type.Resource,
     typeText: "Guardian Resource – Gem",
     pitch: 3,
+    specializations: [],
     subType: ResourceSubType.Gem,
     talents: [],
   },{
@@ -62018,6 +62023,7 @@
     type: Type.Resource,
     typeText: "Generic Resource",
     pitch: 3,
+    specializations: [],
     
     talents: [],
   },{
@@ -62042,6 +62048,7 @@
     type: Type.Resource,
     typeText: "Draconic Resource – Gem",
     pitch: 1,
+    specializations: [],
     subType: ResourceSubType.Gem,
     talents: [Talent.Draconic],
   }];
