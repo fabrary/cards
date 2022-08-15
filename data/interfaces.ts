@@ -25,7 +25,7 @@ export interface Image {
 }
 
 export enum Treatment {
-  AA = "Alernate Art",
+  AA = "Alternate Art",
   EA = "Extended Art",
   FA = "Full Art",
 }

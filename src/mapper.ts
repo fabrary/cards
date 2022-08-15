@@ -160,9 +160,6 @@ const getImages = (card: ParsedCard): Image[] => {
     const set = setIdentifierToSetMappings[setAbbreviation];
     const edition = setEditionMapping[rawEdition];
     const treatment = Treatment[rawTreatment];
-    if (card.name === "Tomeltai") {
-      console.log({ rawTreatment, treatment });
-    }
 
     if (!set) {
       console.log({
