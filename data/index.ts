@@ -61589,7 +61589,7 @@
     keywords: [Keyword.Essence],
     name: "Iyslander",
     rarity: Rarity.Token,
-    restrictedFormats: [Format.Commoner],
+    restrictedFormats: [],
     setIdentifiers: ["HER052","EVR120","UPR103"],
     sets: [Release.Promos,Release.Everfest,Release.Uprising],
     type: Type.Hero,
