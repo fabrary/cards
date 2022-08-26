@@ -60938,9 +60938,15 @@
     classes: [Class.Warrior,Class.Wizard],
     artists: ["Frederico Musetti"],
     cardIdentifier: "emperor-dracai-of-aesir",
-    defaultImageUrl: "",
+    defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/FAB030.png",
     functionalText: `You may only have red cards in your deck.  **Action** - {r}{r}: Search your deck for Command and Conquer, **attack** with it, then shuffle.`,
-    images: [],
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "FAB030",
+      set: Release.Promos,
+      
+      url: "https://storage.googleapis.com/fabmaster/media/images/FAB030.png",
+    },],
     keywords: [],
     name: "Emperor, Dracai of Aesir",
     rarity: Rarity.Promo,
