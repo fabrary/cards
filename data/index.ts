@@ -33,6 +33,7 @@
   
   const basicActions1: ActionCard[] = [{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "alpha-rampage-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR006.png",
@@ -83,6 +84,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Wisnu Tan"],
     cardIdentifier: "bloodrush-bellow-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR007.png",
@@ -127,6 +129,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Ksenia Belova"],
     cardIdentifier: "sand-sketched-plan-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR009.png",
@@ -171,6 +174,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "breakneck-battery-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR011.png",
@@ -221,6 +225,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "breakneck-battery-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR012.png",
@@ -265,6 +270,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "breakneck-battery-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR013.png",
@@ -309,6 +315,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Vladimir Shatunov"],
     cardIdentifier: "savage-feast-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR014.png",
@@ -359,6 +366,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Vladimir Shatunov"],
     cardIdentifier: "savage-feast-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR015.png",
@@ -403,6 +411,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Vladimir Shatunov"],
     cardIdentifier: "savage-feast-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR016.png",
@@ -447,6 +456,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Olga Khariton"],
     cardIdentifier: "barraging-beatdown-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR017.png",
@@ -491,6 +501,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Olga Khariton"],
     cardIdentifier: "barraging-beatdown-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR018.png",
@@ -547,6 +558,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Olga Khariton"],
     cardIdentifier: "barraging-beatdown-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR019.png",
@@ -597,6 +609,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Yulia Litvinova"],
     cardIdentifier: "savage-swing-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR020.png",
@@ -647,6 +660,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Yulia Litvinova"],
     cardIdentifier: "savage-swing-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR021.png",
@@ -697,6 +711,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Yulia Litvinova"],
     cardIdentifier: "savage-swing-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR022.png",
@@ -741,6 +756,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Olga Khariton"],
     cardIdentifier: "pack-hunt-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR023.png",
@@ -797,6 +813,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Olga Khariton"],
     cardIdentifier: "pack-hunt-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR024.png",
@@ -841,6 +858,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Olga Khariton"],
     cardIdentifier: "pack-hunt-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR025.png",
@@ -885,6 +903,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Olga Khariton"],
     cardIdentifier: "smash-instinct-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR026.png",
@@ -935,6 +954,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Olga Khariton"],
     cardIdentifier: "smash-instinct-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR027.png",
@@ -991,6 +1011,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Olga Khariton"],
     cardIdentifier: "smash-instinct-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR028.png",
@@ -1035,6 +1056,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Arif Wijaya"],
     cardIdentifier: "wrecker-romp-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR029.png",
@@ -1091,6 +1113,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Arif Wijaya"],
     cardIdentifier: "wrecker-romp-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR030.png",
@@ -1141,6 +1164,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Arif Wijaya"],
     cardIdentifier: "wrecker-romp-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR031.png",
@@ -1209,6 +1233,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Raphael Masalimov"],
     cardIdentifier: "awakening-bellow-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR032.png",
@@ -1259,6 +1284,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Raphael Masalimov"],
     cardIdentifier: "awakening-bellow-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR033.png",
@@ -1297,6 +1323,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Raphael Masalimov"],
     cardIdentifier: "awakening-bellow-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR034.png",
@@ -1341,6 +1368,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Raphael Masalimov"],
     cardIdentifier: "primeval-bellow-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR035.png",
@@ -1385,6 +1413,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Raphael Masalimov"],
     cardIdentifier: "primeval-bellow-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR036.png",
@@ -1429,6 +1458,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Raphael Masalimov"],
     cardIdentifier: "primeval-bellow-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR037.png",
@@ -1479,6 +1509,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Wisnu Tan"],
     cardIdentifier: "crippling-crush-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR043.png",
@@ -1523,6 +1554,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Sergey Gurskiy"],
     cardIdentifier: "spinal-crush-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR044.png",
@@ -1567,6 +1599,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Ksenia Belova"],
     cardIdentifier: "cranial-crush-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR045.png",
@@ -1605,6 +1638,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "forged-for-war-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR046.png",
@@ -1643,6 +1677,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "show-time!-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR047.png",
@@ -1687,6 +1722,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "disable-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR048.png",
@@ -1737,6 +1773,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "disable-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR049.png",
@@ -1781,6 +1818,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "disable-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR050.png",
@@ -1831,6 +1869,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Asep Ariyanto"],
     cardIdentifier: "blessing-of-deliverance-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR054.png",
@@ -1887,6 +1926,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Asep Ariyanto"],
     cardIdentifier: "blessing-of-deliverance-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR055.png",
@@ -1937,6 +1977,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Asep Ariyanto"],
     cardIdentifier: "blessing-of-deliverance-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR056.png",
@@ -1993,6 +2034,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "buckling-blow-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR057.png",
@@ -2037,6 +2079,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "buckling-blow-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR058.png",
@@ -2075,6 +2118,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "buckling-blow-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR059.png",
@@ -2119,6 +2163,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Mike Dalzell"],
     cardIdentifier: "cartilage-crush-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR060.png",
@@ -2169,6 +2214,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Mike Dalzell"],
     cardIdentifier: "cartilage-crush-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR061.png",
@@ -2213,6 +2259,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Mike Dalzell"],
     cardIdentifier: "cartilage-crush-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR062.png",
@@ -2263,6 +2310,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Daniel Jiménez"],
     cardIdentifier: "crush-confidence-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR063.png",
@@ -2307,6 +2355,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Daniel Jiménez"],
     cardIdentifier: "crush-confidence-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR064.png",
@@ -2351,6 +2400,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Daniel Jiménez"],
     cardIdentifier: "crush-confidence-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR065.png",
@@ -2401,6 +2451,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Yulia Litvinova"],
     cardIdentifier: "debilitate-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR066.png",
@@ -2451,6 +2502,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Yulia Litvinova"],
     cardIdentifier: "debilitate-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR067.png",
@@ -2501,6 +2553,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Yulia Litvinova"],
     cardIdentifier: "debilitate-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR068.png",
@@ -2545,6 +2598,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Fedor Barkhatov"],
     cardIdentifier: "emerging-power-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR069.png",
@@ -2589,6 +2643,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Fedor Barkhatov"],
     cardIdentifier: "emerging-power-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR070.png",
@@ -2633,6 +2688,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Fedor Barkhatov"],
     cardIdentifier: "emerging-power-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR071.png",
@@ -2671,6 +2727,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "stonewall-confidence-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR072.png",
@@ -2715,6 +2772,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "stonewall-confidence-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR073.png",
@@ -2759,6 +2817,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "stonewall-confidence-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR074.png",
@@ -2809,6 +2868,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Andrey Savchuk"],
     cardIdentifier: "lord-of-wind-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR081.png",
@@ -2853,6 +2913,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Sergey Gurskiy"],
     cardIdentifier: "mugenshi:-release-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR083.png",
@@ -2897,6 +2958,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Le Vuong"],
     cardIdentifier: "hurricane-technique-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR084.png",
@@ -2935,6 +2997,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Sonia Sandoval"],
     cardIdentifier: "pounding-gale-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR085.png",
@@ -2973,6 +3036,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Anna Kharitonova"],
     cardIdentifier: "fluster-fist-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR086.png",
@@ -3017,6 +3081,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Anna Kharitonova"],
     cardIdentifier: "fluster-fist-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR087.png",
@@ -3055,6 +3120,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Anna Kharitonova"],
     cardIdentifier: "fluster-fist-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR088.png",
@@ -3099,6 +3165,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Carlos Jose Camus"],
     cardIdentifier: "blackout-kick-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR089.png",
@@ -3149,6 +3216,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Carlos Jose Camus"],
     cardIdentifier: "blackout-kick-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR090.png",
@@ -3193,6 +3261,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Carlos Jose Camus"],
     cardIdentifier: "blackout-kick-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR091.png",
@@ -3237,6 +3306,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Leo Avero"],
     cardIdentifier: "open-the-center-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR095.png",
@@ -3281,6 +3351,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Leo Avero"],
     cardIdentifier: "open-the-center-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR096.png",
@@ -3319,6 +3390,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Leo Avero"],
     cardIdentifier: "open-the-center-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR097.png",
@@ -3357,6 +3429,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Sam Yang","Maxim Kostin"],
     cardIdentifier: "head-jab-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR098.png",
@@ -3407,6 +3480,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Sam Yang","Maxim Kostin"],
     cardIdentifier: "head-jab-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR099.png",
@@ -3451,6 +3525,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Sam Yang","Maxim Kostin"],
     cardIdentifier: "head-jab-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR100.png",
@@ -3507,6 +3582,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Le Vuong"],
     cardIdentifier: "leg-tap-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR101.png",
@@ -3557,6 +3633,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Le Vuong"],
     cardIdentifier: "leg-tap-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR102.png",
@@ -3607,6 +3684,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Le Vuong"],
     cardIdentifier: "leg-tap-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR103.png",
@@ -3651,6 +3729,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Alexander Pachin"],
     cardIdentifier: "rising-knee-thrust-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR104.png",
@@ -3701,6 +3780,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Alexander Pachin"],
     cardIdentifier: "rising-knee-thrust-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR105.png",
@@ -3751,6 +3831,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Alexander Pachin"],
     cardIdentifier: "rising-knee-thrust-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR106.png",
@@ -3795,6 +3876,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Vadim Kalabukh"],
     cardIdentifier: "surging-strike-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR107.png",
@@ -3845,6 +3927,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Vadim Kalabukh"],
     cardIdentifier: "surging-strike-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR108.png",
@@ -3895,6 +3978,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Vadim Kalabukh"],
     cardIdentifier: "surging-strike-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR109.png",
@@ -3939,6 +4023,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Sonia Sandoval"],
     cardIdentifier: "whelming-gustwave-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR110.png",
@@ -4001,6 +4086,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Sonia Sandoval"],
     cardIdentifier: "whelming-gustwave-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR111.png",
@@ -4051,6 +4137,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Sonia Sandoval"],
     cardIdentifier: "whelming-gustwave-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR112.png",
@@ -4107,6 +4194,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Lius Lasahido"],
     cardIdentifier: "steelblade-supremacy-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR119.png",
@@ -4151,6 +4239,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Olga Khariton"],
     cardIdentifier: "ironsong-determination-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR122.png",
@@ -4189,6 +4278,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "warriors-valor-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR129.png",
@@ -4239,6 +4329,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "warriors-valor-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR130.png",
@@ -4289,6 +4380,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "warriors-valor-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR131.png",
@@ -4339,6 +4431,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "sharpen-steel-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR141.png",
@@ -4389,6 +4482,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "sharpen-steel-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR142.png",
@@ -4427,6 +4521,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "sharpen-steel-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR143.png",
@@ -4471,6 +4566,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "driving-blade-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR144.png",
@@ -4521,6 +4617,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "driving-blade-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR145.png",
@@ -4571,6 +4668,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "driving-blade-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR146.png",
@@ -4621,6 +4719,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Reza Afshar"],
     cardIdentifier: "natures-path-pilgrimage-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR147.png",
@@ -4671,6 +4770,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Reza Afshar"],
     cardIdentifier: "natures-path-pilgrimage-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR148.png",
@@ -4715,6 +4815,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Reza Afshar"],
     cardIdentifier: "natures-path-pilgrimage-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR149.png",
@@ -4765,6 +4866,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "enlightened-strike-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR159.png",
@@ -4809,6 +4911,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Daniel Jiménez"],
     cardIdentifier: "tome-of-fyendal-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR160.png",
@@ -4853,6 +4956,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Richard Elrassi"],
     cardIdentifier: "last-ditch-effort-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR161.png",
@@ -4897,6 +5001,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Daniel Jiménez"],
     cardIdentifier: "crazy-brew-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR162.png",
@@ -4947,6 +5052,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Leo Avero"],
     cardIdentifier: "drone-of-brutality-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR164.png",
@@ -4991,6 +5097,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Leo Avero"],
     cardIdentifier: "drone-of-brutality-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR165.png",
@@ -5029,6 +5136,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Leo Avero"],
     cardIdentifier: "drone-of-brutality-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR166.png",
@@ -5073,6 +5181,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Yulia Litvinova"],
     cardIdentifier: "snatch-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR167.png",
@@ -5117,6 +5226,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Yulia Litvinova"],
     cardIdentifier: "snatch-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR168.png",
@@ -5161,6 +5271,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Yulia Litvinova"],
     cardIdentifier: "snatch-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR169.png",
@@ -5205,6 +5316,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Daniel Jiménez"],
     cardIdentifier: "energy-potion-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR170.png",
@@ -5267,6 +5379,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Panji Bagus P"],
     cardIdentifier: "potion-of-strength-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR171.png",
@@ -5323,6 +5436,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Daniel Jiménez"],
     cardIdentifier: "timesnap-potion-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR172.png",
@@ -5379,6 +5493,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "barraging-brawnhide-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR176.png",
@@ -5417,6 +5532,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "barraging-brawnhide-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR177.png",
@@ -5461,6 +5577,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "barraging-brawnhide-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR178.png",
@@ -5505,6 +5622,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Carlos Jose Camus"],
     cardIdentifier: "demolition-crew-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR179.png",
@@ -5543,6 +5661,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Carlos Jose Camus"],
     cardIdentifier: "demolition-crew-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR180.png",
@@ -5581,6 +5700,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Carlos Jose Camus"],
     cardIdentifier: "demolition-crew-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR181.png",
@@ -5619,6 +5739,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "flock-of-the-feather-walkers-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR182.png",
@@ -5669,6 +5790,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "flock-of-the-feather-walkers-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR183.png",
@@ -5713,6 +5835,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "flock-of-the-feather-walkers-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR184.png",
@@ -5769,6 +5892,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "nimble-strike-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR185.png",
@@ -5807,6 +5931,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "nimble-strike-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR186.png",
@@ -5845,6 +5970,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "nimble-strike-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR187.png",
@@ -5883,6 +6009,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "raging-onslaught-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR188.png",
@@ -5921,6 +6048,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "raging-onslaught-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR189.png",
@@ -5971,6 +6099,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "raging-onslaught-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR190.png",
@@ -6015,6 +6144,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Agri Karuniawan","Arif Wijaya"],
     cardIdentifier: "scar-for-a-scar-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR191.png",
@@ -6083,6 +6213,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Arif Wijaya"],
     cardIdentifier: "scar-for-a-scar-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR192.png",
@@ -6133,6 +6264,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Arif Wijaya"],
     cardIdentifier: "scar-for-a-scar-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR193.png",
@@ -6183,6 +6315,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "scour-the-battlescape-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR194.png",
@@ -6221,6 +6354,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "scour-the-battlescape-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR195.png",
@@ -6259,6 +6393,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "scour-the-battlescape-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR196.png",
@@ -6315,6 +6450,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["CGlas"],
     cardIdentifier: "regurgitating-slog-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR197.png",
@@ -6353,6 +6489,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["CGlas"],
     cardIdentifier: "regurgitating-slog-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR198.png",
@@ -6391,6 +6528,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["CGlas"],
     cardIdentifier: "regurgitating-slog-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR199.png",
@@ -6429,6 +6567,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "wounded-bull-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR200.png",
@@ -6467,6 +6606,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "wounded-bull-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR201.png",
@@ -6517,6 +6657,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "wounded-bull-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR202.png",
@@ -6561,6 +6702,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Sonia Sandoval"],
     cardIdentifier: "wounding-blow-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR203.png",
@@ -6605,6 +6747,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Sonia Sandoval"],
     cardIdentifier: "wounding-blow-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR204.png",
@@ -6643,6 +6786,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Sonia Sandoval"],
     cardIdentifier: "wounding-blow-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR205.png",
@@ -6687,6 +6831,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Fedor Barkhatov"],
     cardIdentifier: "nimblism-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR218.png",
@@ -6731,6 +6876,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Fedor Barkhatov"],
     cardIdentifier: "nimblism-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR219.png",
@@ -6775,6 +6921,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Fedor Barkhatov"],
     cardIdentifier: "nimblism-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR220.png",
@@ -6819,6 +6966,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Fedor Barkhatov"],
     cardIdentifier: "sloggism-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR221.png",
@@ -6863,6 +7011,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Fedor Barkhatov"],
     cardIdentifier: "sloggism-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR222.png",
@@ -6907,6 +7056,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Fedor Barkhatov"],
     cardIdentifier: "sloggism-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR223.png",
@@ -6957,6 +7107,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Kevin Sidharta"],
     cardIdentifier: "high-octane-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC006.png",
@@ -7001,6 +7152,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "teklo-core-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC007.png",
@@ -7051,6 +7203,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Nikolai Maslakov"],
     cardIdentifier: "maximum-velocity-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC008.png",
@@ -7089,6 +7242,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "spark-of-genius-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC009.png",
@@ -7139,6 +7293,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Rachel Alderson"],
     cardIdentifier: "induction-chamber-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC010.png",
@@ -7183,6 +7338,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Sam Yang"],
     cardIdentifier: "pedal-to-the-medal-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC011.png",
@@ -7233,6 +7389,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Sam Yang"],
     cardIdentifier: "pedal-to-the-medal-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC012.png",
@@ -7283,6 +7440,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Sam Yang"],
     cardIdentifier: "pedal-to-the-medal-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC013.png",
@@ -7333,6 +7491,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Reza Afshar"],
     cardIdentifier: "pour-the-mold-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC014.png",
@@ -7371,6 +7530,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Reza Afshar"],
     cardIdentifier: "pour-the-mold-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC015.png",
@@ -7409,6 +7569,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Reza Afshar"],
     cardIdentifier: "pour-the-mold-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC016.png",
@@ -7447,6 +7608,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Rachel Alderson"],
     cardIdentifier: "aether-sink-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC017.png",
@@ -7491,6 +7653,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Asep Ariyanto"],
     cardIdentifier: "cognition-nodes-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC018.png",
@@ -7535,6 +7698,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Cristián Huerta"],
     cardIdentifier: "convection-amplifier-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC019.png",
@@ -7585,6 +7749,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Mikhail Babkin"],
     cardIdentifier: "over-loop-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC020.png",
@@ -7647,6 +7812,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Mikhail Babkin"],
     cardIdentifier: "over-loop-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC021.png",
@@ -7703,6 +7869,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Mikhail Babkin"],
     cardIdentifier: "over-loop-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC022.png",
@@ -7759,6 +7926,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Kevin Sidharta"],
     cardIdentifier: "throttle-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC023.png",
@@ -7809,6 +7977,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Kevin Sidharta"],
     cardIdentifier: "throttle-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC024.png",
@@ -7859,6 +8028,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Kevin Sidharta"],
     cardIdentifier: "throttle-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC025.png",
@@ -7909,6 +8079,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Fedor Barkhatov"],
     cardIdentifier: "zero-to-sixty-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC026.png",
@@ -7959,6 +8130,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Fedor Barkhatov"],
     cardIdentifier: "zero-to-sixty-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC027.png",
@@ -8009,6 +8181,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Fedor Barkhatov"],
     cardIdentifier: "zero-to-sixty-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC028.png",
@@ -8059,6 +8232,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Sergey Gurskiy"],
     cardIdentifier: "zipper-hit-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC029.png",
@@ -8109,6 +8283,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Sergey Gurskiy"],
     cardIdentifier: "zipper-hit-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC030.png",
@@ -8159,6 +8334,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Sergey Gurskiy"],
     cardIdentifier: "zipper-hit-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC031.png",
@@ -8209,6 +8385,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Leony Tobing"],
     cardIdentifier: "locked-and-loaded-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC032.png",
@@ -8253,6 +8430,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Leony Tobing"],
     cardIdentifier: "locked-and-loaded-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC033.png",
@@ -8297,6 +8475,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Leony Tobing"],
     cardIdentifier: "locked-and-loaded-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC034.png",
@@ -8341,6 +8520,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "dissipation-shield-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC035.png",
@@ -8385,6 +8565,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "hyper-driver-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC036.png",
@@ -8429,6 +8610,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Sergey Gursky"],
     cardIdentifier: "optekal-monocle-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC037.png",
@@ -8479,6 +8661,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Yolanda Felicia"],
     cardIdentifier: "red-in-the-ledger-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC043.png",
@@ -8529,6 +8712,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Daniel Jiménez"],
     cardIdentifier: "three-of-a-kind-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC044.png",
@@ -8573,6 +8757,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Igor Heras"],
     cardIdentifier: "endless-arrow-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC045.png",
@@ -8617,6 +8802,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "nock-the-deathwhistle-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC046.png",
@@ -8667,6 +8853,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Irina Kononenko"],
     cardIdentifier: "rapid-fire-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC047.png",
@@ -8705,6 +8892,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Sonia Sandoval"],
     cardIdentifier: "silver-the-tip-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC051.png",
@@ -8743,6 +8931,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Sonia Sandoval"],
     cardIdentifier: "silver-the-tip-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC052.png",
@@ -8781,6 +8970,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Sonia Sandoval"],
     cardIdentifier: "silver-the-tip-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC053.png",
@@ -8819,6 +9009,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Maxim Kostin"],
     cardIdentifier: "take-aim-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC054.png",
@@ -8869,6 +9060,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Maxim Kostin"],
     cardIdentifier: "take-aim-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC055.png",
@@ -8913,6 +9105,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Maxim Kostin"],
     cardIdentifier: "take-aim-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC056.png",
@@ -8957,6 +9150,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Igor Heras"],
     cardIdentifier: "head-shot-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC057.png",
@@ -9001,6 +9195,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Igor Heras"],
     cardIdentifier: "head-shot-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC058.png",
@@ -9045,6 +9240,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Igor Heras"],
     cardIdentifier: "head-shot-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC059.png",
@@ -9089,6 +9285,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "hamstring-shot-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC060.png",
@@ -9127,6 +9324,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "hamstring-shot-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC061.png",
@@ -9165,6 +9363,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "hamstring-shot-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC062.png",
@@ -9203,6 +9402,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "ridge-rider-shot-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC063.png",
@@ -9253,6 +9453,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "ridge-rider-shot-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC064.png",
@@ -9303,6 +9504,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "ridge-rider-shot-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC065.png",
@@ -9353,6 +9555,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Rachel Alderson"],
     cardIdentifier: "salvage-shot-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC066.png",
@@ -9397,6 +9600,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Rachel Alderson"],
     cardIdentifier: "salvage-shot-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC067.png",
@@ -9441,6 +9645,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Rachel Alderson"],
     cardIdentifier: "salvage-shot-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC068.png",
@@ -9485,6 +9690,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Vadim Kalabukh"],
     cardIdentifier: "searing-shot-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC069.png",
@@ -9529,6 +9735,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Vadim Kalabukh"],
     cardIdentifier: "searing-shot-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC070.png",
@@ -9573,6 +9780,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Vadim Kalabukh"],
     cardIdentifier: "searing-shot-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC071.png",
@@ -9617,6 +9825,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Alexandra Malygina"],
     cardIdentifier: "sic-‘em-shot-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC072.png",
@@ -9673,6 +9882,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Alexandra Malygina"],
     cardIdentifier: "sic-‘em-shot-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC073.png",
@@ -9723,6 +9933,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Alexandra Malygina"],
     cardIdentifier: "sic-‘em-shot-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC074.png",
@@ -9773,6 +9984,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "arknight-ascendancy-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC080.png",
@@ -9823,6 +10035,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "mordred-tide-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC081.png",
@@ -9867,6 +10080,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Leo Avero"],
     cardIdentifier: "ninth-blade-of-the-blood-oath-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC082.png",
@@ -9905,6 +10119,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "become-the-arknight-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC083.png",
@@ -9955,6 +10170,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Daniel Jiménez"],
     cardIdentifier: "tome-of-the-arknight-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC084.png",
@@ -9993,6 +10209,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Wírawan Pranoto"],
     cardIdentifier: "spellblade-assault-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC085.png",
@@ -10043,6 +10260,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Wírawan Pranoto"],
     cardIdentifier: "spellblade-assault-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC086.png",
@@ -10093,6 +10311,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Wírawan Pranoto"],
     cardIdentifier: "spellblade-assault-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC087.png",
@@ -10143,6 +10362,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Yen Lee"],
     cardIdentifier: "oath-of-the-arknight-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC091.png",
@@ -10193,6 +10413,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Yen Lee"],
     cardIdentifier: "oath-of-the-arknight-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC092.png",
@@ -10243,6 +10464,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Yen Lee"],
     cardIdentifier: "oath-of-the-arknight-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC093.png",
@@ -10293,6 +10515,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Daniel Jiménez"],
     cardIdentifier: "amplify-the-arknight-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC094.png",
@@ -10337,6 +10560,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Daniel Jiménez"],
     cardIdentifier: "amplify-the-arknight-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC095.png",
@@ -10381,6 +10605,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Daniel Jiménez"],
     cardIdentifier: "amplify-the-arknight-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC096.png",
@@ -10425,6 +10650,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "drawn-to-the-dark-dimension-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC097.png",
@@ -10463,6 +10689,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "drawn-to-the-dark-dimension-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC098.png",
@@ -10501,6 +10728,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "drawn-to-the-dark-dimension-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC099.png",
@@ -10539,6 +10767,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Dmitry Solodovnikov"],
     cardIdentifier: "rune-flash-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC100.png",
@@ -10583,6 +10812,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Dmitry Solodovnikov"],
     cardIdentifier: "rune-flash-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC101.png",
@@ -10627,6 +10857,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Dmitry Solodovnikov"],
     cardIdentifier: "rune-flash-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC102.png",
@@ -10671,6 +10902,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Andrey Savchuk"],
     cardIdentifier: "spellblade-strike-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC103.png",
@@ -10715,6 +10947,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Andrey Savchuk"],
     cardIdentifier: "spellblade-strike-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC104.png",
@@ -10759,6 +10992,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Andrey Savchuk"],
     cardIdentifier: "spellblade-strike-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC105.png",
@@ -10803,6 +11037,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Wírawan Pranoto"],
     cardIdentifier: "bloodspill-invocation-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC106.png",
@@ -10853,6 +11088,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Wírawan Pranoto"],
     cardIdentifier: "bloodspill-invocation-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC107.png",
@@ -10903,6 +11139,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Wírawan Pranoto"],
     cardIdentifier: "bloodspill-invocation-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC108.png",
@@ -10953,6 +11190,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Maxim Kostin"],
     cardIdentifier: "read-the-runes-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC109.png",
@@ -11003,6 +11241,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Maxim Kostin"],
     cardIdentifier: "read-the-runes-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC110.png",
@@ -11053,6 +11292,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Maxim Kostin"],
     cardIdentifier: "read-the-runes-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC111.png",
@@ -11103,6 +11343,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Wírawan Pranoto"],
     cardIdentifier: "blazing-aether-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC118.png",
@@ -11153,6 +11394,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "sonic-boom-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC119.png",
@@ -11197,6 +11439,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Igor Heras"],
     cardIdentifier: "forked-lightning-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC120.png",
@@ -11247,6 +11490,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "lesson-in-lava-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC121.png",
@@ -11297,6 +11541,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Yolanda Felicia"],
     cardIdentifier: "tome-of-aetherwind-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC122.png",
@@ -11341,6 +11586,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "aether-spindle-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC126.png",
@@ -11391,6 +11637,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "aether-spindle-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC127.png",
@@ -11441,6 +11688,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "aether-spindle-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC128.png",
@@ -11491,6 +11739,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Igor Heras"],
     cardIdentifier: "stir-the-aetherwinds-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC129.png",
@@ -11535,6 +11784,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Igor Heras"],
     cardIdentifier: "stir-the-aetherwinds-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC130.png",
@@ -11579,6 +11829,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Igor Heras"],
     cardIdentifier: "stir-the-aetherwinds-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC131.png",
@@ -11623,6 +11874,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Cindy Handoyo"],
     cardIdentifier: "aether-flare-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC132.png",
@@ -11667,6 +11919,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Cindy Handoyo"],
     cardIdentifier: "aether-flare-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC133.png",
@@ -11711,6 +11964,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Cindy Handoyo"],
     cardIdentifier: "aether-flare-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC134.png",
@@ -11755,6 +12009,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Wírawan Pranoto"],
     cardIdentifier: "index-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC135.png",
@@ -11793,6 +12048,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Wírawan Pranoto"],
     cardIdentifier: "index-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC136.png",
@@ -11831,6 +12087,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Wírawan Pranoto"],
     cardIdentifier: "index-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC137.png",
@@ -11869,6 +12126,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Cristián Huerta"],
     cardIdentifier: "reverberate-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC138.png",
@@ -11913,6 +12171,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Cristián Huerta"],
     cardIdentifier: "reverberate-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC139.png",
@@ -11957,6 +12216,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Cristián Huerta"],
     cardIdentifier: "reverberate-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC140.png",
@@ -12001,6 +12261,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Igor Heras"],
     cardIdentifier: "scalding-rain-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC141.png",
@@ -12045,6 +12306,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Igor Heras"],
     cardIdentifier: "scalding-rain-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC142.png",
@@ -12089,6 +12351,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Igor Heras"],
     cardIdentifier: "scalding-rain-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC143.png",
@@ -12133,6 +12396,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "zap-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC144.png",
@@ -12177,6 +12441,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "zap-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC145.png",
@@ -12221,6 +12486,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "zap-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC146.png",
@@ -12265,6 +12531,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "voltic-bolt-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC147.png",
@@ -12321,6 +12588,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "voltic-bolt-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC148.png",
@@ -12365,6 +12633,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "voltic-bolt-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC149.png",
@@ -12415,6 +12684,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Fajareka Setiawan"],
     cardIdentifier: "command-and-conquer-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC159.png",
@@ -12459,6 +12729,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Sooraj Babu"],
     cardIdentifier: "pursuit-of-knowledge-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC161.png",
@@ -12497,6 +12768,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "chains-of-eminence-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC162.png",
@@ -12535,6 +12807,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Cristián Huerta"],
     cardIdentifier: "rusted-relic-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC163.png",
@@ -12573,6 +12846,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Regina Krivolapova"],
     cardIdentifier: "life-for-a-life-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC164.png",
@@ -12617,6 +12891,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Regina Krivolapova"],
     cardIdentifier: "life-for-a-life-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC165.png",
@@ -12661,6 +12936,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Regina Krivolapova"],
     cardIdentifier: "life-for-a-life-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC166.png",
@@ -12705,6 +12981,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Cristián Huerta"],
     cardIdentifier: "enchanting-melody-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC167.png",
@@ -12749,6 +13026,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Cristián Huerta"],
     cardIdentifier: "enchanting-melody-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC168.png",
@@ -12793,6 +13071,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Cristián Huerta"],
     cardIdentifier: "enchanting-melody-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC169.png",
@@ -12837,6 +13116,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Immanuela Crovius"],
     cardIdentifier: "plunder-run-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC170.png",
@@ -12881,6 +13161,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Immanuela Crovius"],
     cardIdentifier: "plunder-run-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC171.png",
@@ -12925,6 +13206,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Immanuela Crovius"],
     cardIdentifier: "plunder-run-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC172.png",
@@ -12969,6 +13251,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Pavel Chuvin"],
     cardIdentifier: "back-alley-breakline-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC176.png",
@@ -13007,6 +13290,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Pavel Chuvin"],
     cardIdentifier: "back-alley-breakline-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC177.png",
@@ -13045,6 +13329,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Pavel Chuvin"],
     cardIdentifier: "back-alley-breakline-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC178.png",
@@ -13083,6 +13368,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Alexey Peregrudov"],
     cardIdentifier: "cadaverous-contraband-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC179.png",
@@ -13121,6 +13407,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Alexey Peregrudov"],
     cardIdentifier: "cadaverous-contraband-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC180.png",
@@ -13159,6 +13446,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Alexey Peregrudov"],
     cardIdentifier: "cadaverous-contraband-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC181.png",
@@ -13197,6 +13485,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Fedor Barkhatov"],
     cardIdentifier: "fervent-forerunner-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC182.png",
@@ -13241,6 +13530,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Fedor Barkhatov"],
     cardIdentifier: "fervent-forerunner-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC183.png",
@@ -13285,6 +13575,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Fedor Barkhatov"],
     cardIdentifier: "fervent-forerunner-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC184.png",
@@ -13329,6 +13620,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "moon-wish-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC185.png",
@@ -13367,6 +13659,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "moon-wish-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC186.png",
@@ -13405,6 +13698,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "moon-wish-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC187.png",
@@ -13443,6 +13737,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "push-the-point-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC188.png",
@@ -13481,6 +13776,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "push-the-point-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC189.png",
@@ -13519,6 +13815,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "push-the-point-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC190.png",
@@ -13557,6 +13854,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Maxim Kostin"],
     cardIdentifier: "ravenous-rabble-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC191.png",
@@ -13607,6 +13905,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Maxim Kostin"],
     cardIdentifier: "ravenous-rabble-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC192.png",
@@ -13657,6 +13956,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Maxim Kostin"],
     cardIdentifier: "ravenous-rabble-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC193.png",
@@ -13707,6 +14007,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Oxana Turlay"],
     cardIdentifier: "rifting-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC194.png",
@@ -13745,6 +14046,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Oxana Turlay"],
     cardIdentifier: "rifting-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC195.png",
@@ -13783,6 +14085,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Oxana Turlay"],
     cardIdentifier: "rifting-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC196.png",
@@ -13821,6 +14124,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "vigor-rush-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC197.png",
@@ -13859,6 +14163,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "vigor-rush-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC198.png",
@@ -13897,6 +14202,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "vigor-rush-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC199.png",
@@ -13935,6 +14241,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Andrey Savchuk"],
     cardIdentifier: "come-to-fight-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC203.png",
@@ -13985,6 +14292,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Andrey Savchuk"],
     cardIdentifier: "come-to-fight-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC204.png",
@@ -14035,6 +14343,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Andrey Savchuk"],
     cardIdentifier: "come-to-fight-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC205.png",
@@ -14091,6 +14400,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Le Vuong"],
     cardIdentifier: "force-sight-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC206.png",
@@ -14135,6 +14445,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Le Vuong"],
     cardIdentifier: "force-sight-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC207.png",
@@ -14179,6 +14490,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Le Vuong"],
     cardIdentifier: "force-sight-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC208.png",
@@ -14223,6 +14535,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["David Ogilvie"],
     cardIdentifier: "lead-the-charge-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC209.png",
@@ -14261,6 +14574,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["David Ogilvie"],
     cardIdentifier: "lead-the-charge-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC210.png",
@@ -14299,6 +14613,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["David Ogilvie"],
     cardIdentifier: "lead-the-charge-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC211.png",
@@ -14337,6 +14652,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "sun-kiss-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC212.png",
@@ -14375,6 +14691,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "sun-kiss-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC213.png",
@@ -14413,6 +14730,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "sun-kiss-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC214.png",
@@ -14451,6 +14769,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Masha Mishina"],
     cardIdentifier: "whisper-of-the-oracle-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC215.png",
@@ -14495,6 +14814,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Masha Mishina"],
     cardIdentifier: "whisper-of-the-oracle-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC216.png",
@@ -14539,6 +14859,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Masha Mishina"],
     cardIdentifier: "whisper-of-the-oracle-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC217.png",
@@ -14583,6 +14904,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "beast-within-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU007.png",
@@ -14627,6 +14949,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Phu Thieu"],
     cardIdentifier: "massacre-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU008.png",
@@ -14671,6 +14994,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "argh…-smash!-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU009.png",
@@ -14709,6 +15033,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Rio Sabda"],
     cardIdentifier: "barraging-big-horn-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU010.png",
@@ -14747,6 +15072,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Rio Sabda"],
     cardIdentifier: "barraging-big-horn-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU011.png",
@@ -14785,6 +15111,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Rio Sabda"],
     cardIdentifier: "barraging-big-horn-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU012.png",
@@ -14823,6 +15150,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Ksenia Belova"],
     cardIdentifier: "predatory-assault-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU013.png",
@@ -14867,6 +15195,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Ksenia Belova"],
     cardIdentifier: "predatory-assault-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU014.png",
@@ -14911,6 +15240,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Ksenia Belova"],
     cardIdentifier: "predatory-assault-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU015.png",
@@ -14955,6 +15285,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Sergey Averkin"],
     cardIdentifier: "riled-up-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU016.png",
@@ -14999,6 +15330,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Sergey Averkin"],
     cardIdentifier: "riled-up-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU017.png",
@@ -15043,6 +15375,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Sergey Averkin"],
     cardIdentifier: "riled-up-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU018.png",
@@ -15087,6 +15420,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Sergey Averkin"],
     cardIdentifier: "swing-fist-think-later-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU019.png",
@@ -15125,6 +15459,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Sergey Averkin"],
     cardIdentifier: "swing-fist-think-later-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU020.png",
@@ -15163,6 +15498,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Sergey Averkin"],
     cardIdentifier: "swing-fist-think-later-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU021.png",
@@ -15201,6 +15537,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Federico Musetti"],
     cardIdentifier: "mangle-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU026.png",
@@ -15245,6 +15582,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "righteous-cleansing-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU027.png",
@@ -15289,6 +15627,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Daniel Jiménez"],
     cardIdentifier: "stamp-authority-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU028.png",
@@ -15327,6 +15666,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["bimawithpencil"],
     cardIdentifier: "towering-titan-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU029.png",
@@ -15371,6 +15711,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["bimawithpencil"],
     cardIdentifier: "towering-titan-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU030.png",
@@ -15415,6 +15756,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["bimawithpencil"],
     cardIdentifier: "towering-titan-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU031.png",
@@ -15459,6 +15801,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Mihail Spil-Haufter"],
     cardIdentifier: "crush-the-weak-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU032.png",
@@ -15497,6 +15840,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Mihail Spil-Haufter"],
     cardIdentifier: "crush-the-weak-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU033.png",
@@ -15535,6 +15879,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Mihail Spil-Haufter"],
     cardIdentifier: "crush-the-weak-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU034.png",
@@ -15573,6 +15918,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Emilis Emka"],
     cardIdentifier: "chokeslam-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU035.png",
@@ -15617,6 +15963,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Emilis Emka"],
     cardIdentifier: "chokeslam-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU036.png",
@@ -15661,6 +16008,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Emilis Emka"],
     cardIdentifier: "chokeslam-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU037.png",
@@ -15705,6 +16053,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["bimawithpencil"],
     cardIdentifier: "emerging-dominance-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU038-RF.png",
@@ -15755,6 +16104,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["bimawithpencil"],
     cardIdentifier: "emerging-dominance-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU039-RF.png",
@@ -15805,6 +16155,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["bimawithpencil"],
     cardIdentifier: "emerging-dominance-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU040-RF.png",
@@ -15855,6 +16206,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "find-center-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU054.png",
@@ -15899,6 +16251,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Silvia Meiliani"],
     cardIdentifier: "flood-of-force-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU055.png",
@@ -15943,6 +16296,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["bimawithpencil"],
     cardIdentifier: "herons-flight-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU056.png",
@@ -15987,6 +16341,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Asep Ariyanto"],
     cardIdentifier: "crane-dance-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU057.png",
@@ -16031,6 +16386,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Asep Ariyanto"],
     cardIdentifier: "crane-dance-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU058.png",
@@ -16075,6 +16431,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Asep Ariyanto"],
     cardIdentifier: "crane-dance-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU059.png",
@@ -16119,6 +16476,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Arif Wijaya"],
     cardIdentifier: "rushing-river-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/CRU60.width-450.png",
@@ -16163,6 +16521,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Arif Wijaya"],
     cardIdentifier: "rushing-river-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU061.png",
@@ -16207,6 +16566,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Arif Wijaya"],
     cardIdentifier: "rushing-river-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU062.png",
@@ -16251,6 +16611,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Kevin Sidharta"],
     cardIdentifier: "flying-kick-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU063.png",
@@ -16295,6 +16656,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Kevin Sidharta"],
     cardIdentifier: "flying-kick-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU064.png",
@@ -16333,6 +16695,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Kevin Sidharta"],
     cardIdentifier: "flying-kick-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU065.png",
@@ -16371,6 +16734,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Cristián Huerta"],
     cardIdentifier: "soulbead-strike-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU066.png",
@@ -16415,6 +16779,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Cristián Huerta"],
     cardIdentifier: "soulbead-strike-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU067.png",
@@ -16459,6 +16824,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Cristián Huerta"],
     cardIdentifier: "soulbead-strike-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU068.png",
@@ -16503,6 +16869,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Asep Ariyanto"],
     cardIdentifier: "torrent-of-tempo-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU069.png",
@@ -16553,6 +16920,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Asep Ariyanto"],
     cardIdentifier: "torrent-of-tempo-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU070.png",
@@ -16597,6 +16965,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Asep Ariyanto"],
     cardIdentifier: "torrent-of-tempo-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU071.png",
@@ -16641,6 +17010,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Maerel Hibadita"],
     cardIdentifier: "bittering-thorns-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU072.png",
@@ -16691,6 +17061,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Yulia Litvinova"],
     cardIdentifier: "salt-the-wound-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU073.png",
@@ -16741,6 +17112,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Agri Karuniawan"],
     cardIdentifier: "whirling-mist-blossom-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU074.png",
@@ -16797,6 +17169,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Grant Griffin"],
     cardIdentifier: "spoils-of-war-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU084.png",
@@ -16841,6 +17214,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Narendra B Adi"],
     cardIdentifier: "dauntless-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU085.png",
@@ -16879,6 +17253,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Narendra B Adi"],
     cardIdentifier: "dauntless-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU086.png",
@@ -16917,6 +17292,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Narendra B Adi"],
     cardIdentifier: "dauntless-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU087.png",
@@ -16955,6 +17331,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "hit-and-run-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU091.png",
@@ -16999,6 +17376,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "hit-and-run-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU092.png",
@@ -17043,6 +17421,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "hit-and-run-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU093.png",
@@ -17093,6 +17472,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Camille Alquier"],
     cardIdentifier: "push-forward-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU094.png",
@@ -17143,6 +17523,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Camille Alquier"],
     cardIdentifier: "push-forward-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU095.png",
@@ -17187,6 +17568,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Camille Alquier"],
     cardIdentifier: "push-forward-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU096.png",
@@ -17231,6 +17613,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Sam Yang"],
     cardIdentifier: "meganetic-shockwave-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU103.png",
@@ -17269,6 +17652,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Tommy Suhartono"],
     cardIdentifier: "absorption-dome-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU104.png",
@@ -17307,6 +17691,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Rachel Alderson"],
     cardIdentifier: "plasma-purifier-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU105.png",
@@ -17351,6 +17736,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "high-speed-impact-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU106.png",
@@ -17401,6 +17787,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "high-speed-impact-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU107.png",
@@ -17451,6 +17838,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "high-speed-impact-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU108.png",
@@ -17501,6 +17889,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Hendry Iwanaga"],
     cardIdentifier: "combustible-courier-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU109.png",
@@ -17551,6 +17940,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Hendry Iwanaga"],
     cardIdentifier: "combustible-courier-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU110.png",
@@ -17601,6 +17991,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Hendry Iwanaga"],
     cardIdentifier: "combustible-courier-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU111.png",
@@ -17651,6 +18042,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Henry Leung"],
     cardIdentifier: "overblast-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU112.png",
@@ -17689,6 +18081,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Henry Leung"],
     cardIdentifier: "overblast-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU113.png",
@@ -17727,6 +18120,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Henry Leung"],
     cardIdentifier: "overblast-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU114.png",
@@ -17765,6 +18159,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Kevin Sidharta"],
     cardIdentifier: "teklovossens-workshop-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU115.png",
@@ -17809,6 +18204,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Kevin Sidharta"],
     cardIdentifier: "teklovossens-workshop-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU116.png",
@@ -17853,6 +18249,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Kevin Sidharta"],
     cardIdentifier: "teklovossens-workshop-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU117.png",
@@ -17897,6 +18294,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Sam Yang"],
     cardIdentifier: "remorseless-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU123.png",
@@ -17941,6 +18339,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Marco Wulfr"],
     cardIdentifier: "poison-the-tips-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU124.png",
@@ -17979,6 +18378,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Trung Tin Shinji"],
     cardIdentifier: "pathing-helix-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU129.png",
@@ -18017,6 +18417,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Trung Tin Shinji"],
     cardIdentifier: "pathing-helix-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU130.png",
@@ -18055,6 +18456,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Trung Tin Shinji"],
     cardIdentifier: "pathing-helix-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU131.png",
@@ -18093,6 +18495,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Marco González"],
     cardIdentifier: "sleep-dart-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU132.png",
@@ -18143,6 +18546,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Marco González"],
     cardIdentifier: "sleep-dart-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU133.png",
@@ -18193,6 +18597,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Marco González"],
     cardIdentifier: "sleep-dart-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU134.png",
@@ -18243,6 +18648,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Faizal Fikri"],
     cardIdentifier: "increase-the-tension-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU135.png",
@@ -18281,6 +18687,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Faizal Fikri"],
     cardIdentifier: "increase-the-tension-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU136.png",
@@ -18319,6 +18726,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Faizal Fikri"],
     cardIdentifier: "increase-the-tension-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU137.png",
@@ -18357,6 +18765,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Narendra B Adi"],
     cardIdentifier: "dread-triptych-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU142.png",
@@ -18401,6 +18810,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Maxim Kostin"],
     cardIdentifier: "rattle-bones-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU143.png",
@@ -18439,6 +18849,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Stanislav Sherbakov"],
     cardIdentifier: "runeblood-barrier-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU144.png",
@@ -18483,6 +18894,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "mauvrion-skies-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU145.png",
@@ -18533,6 +18945,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "mauvrion-skies-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU146.png",
@@ -18583,6 +18996,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "mauvrion-skies-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU147.png",
@@ -18633,6 +19047,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Stanislav Sherbakov"],
     cardIdentifier: "consuming-volition-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU148.png",
@@ -18677,6 +19092,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Stanislav Sherbakov"],
     cardIdentifier: "consuming-volition-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU149.png",
@@ -18715,6 +19131,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Stanislav Sherbakov"],
     cardIdentifier: "consuming-volition-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU150.png",
@@ -18753,6 +19170,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Immanuela Crovius"],
     cardIdentifier: "meat-and-greet-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU151.png",
@@ -18803,6 +19221,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Immanuela Crovius"],
     cardIdentifier: "meat-and-greet-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU152.png",
@@ -18853,6 +19272,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Immanuela Crovius"],
     cardIdentifier: "meat-and-greet-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU153.png",
@@ -18903,6 +19323,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Marco Wulfr"],
     cardIdentifier: "sutcliffes-research-notes-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU154.png",
@@ -18953,6 +19374,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Marco Wulfr"],
     cardIdentifier: "sutcliffes-research-notes-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU155.png",
@@ -19003,6 +19425,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Marco Wulfr"],
     cardIdentifier: "sutcliffes-research-notes-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU156.png",
@@ -19053,6 +19476,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Faizal Fikri"],
     cardIdentifier: "chain-lightning-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU162.png",
@@ -19097,6 +19521,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Alexander Gering"],
     cardIdentifier: "gaze-the-ages-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU163.png",
@@ -19135,6 +19560,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Faizal Fikri"],
     cardIdentifier: "cindering-foresight-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU165.png",
@@ -19179,6 +19605,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Faizal Fikri"],
     cardIdentifier: "cindering-foresight-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU166.png",
@@ -19223,6 +19650,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Faizal Fikri"],
     cardIdentifier: "cindering-foresight-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU167.png",
@@ -19267,6 +19695,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Jsraphael"],
     cardIdentifier: "foreboding-bolt-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU168.png",
@@ -19305,6 +19734,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Jsraphael"],
     cardIdentifier: "foreboding-bolt-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU169.png",
@@ -19343,6 +19773,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Jsraphael"],
     cardIdentifier: "foreboding-bolt-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU170.png",
@@ -19381,6 +19812,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Jsraphael"],
     cardIdentifier: "rousing-aether-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU171.png",
@@ -19419,6 +19851,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Jsraphael"],
     cardIdentifier: "rousing-aether-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU172.png",
@@ -19457,6 +19890,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Jsraphael"],
     cardIdentifier: "rousing-aether-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU173.png",
@@ -19495,6 +19929,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Alexandra Malygina"],
     cardIdentifier: "snapback-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU174.png",
@@ -19539,6 +19974,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Alexandra Malygina"],
     cardIdentifier: "snapback-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU175.png",
@@ -19583,6 +20019,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Alexandra Malygina"],
     cardIdentifier: "snapback-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU176.png",
@@ -19627,6 +20064,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "coax-a-commotion-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU180.png",
@@ -19671,6 +20109,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "gorganian-tome",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU181.png",
@@ -19715,6 +20154,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Alexander Gering"],
     cardIdentifier: "promise-of-plenty-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU183.png",
@@ -19753,6 +20193,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Alexander Gering"],
     cardIdentifier: "promise-of-plenty-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU184.png",
@@ -19791,6 +20232,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Alexander Gering"],
     cardIdentifier: "promise-of-plenty-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU185.png",
@@ -19829,6 +20271,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "cash-in-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU188.png",
@@ -19867,6 +20310,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Wisnu Tan"],
     cardIdentifier: "brutal-assault-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU192.png",
@@ -19905,6 +20349,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Wisnu Tan"],
     cardIdentifier: "brutal-assault-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU193.png",
@@ -19943,6 +20388,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Wisnu Tan"],
     cardIdentifier: "brutal-assault-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU194.png",
@@ -19987,6 +20433,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Federico Musetti"],
     cardIdentifier: "great-library-of-solana",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON000.width-450.png",
@@ -20025,6 +20472,7 @@
     subType: ActionSubType.Landmark,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "herald-of-erudition-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON004.width-450.png",
@@ -20069,6 +20517,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "herald-of-judgment-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON007.width-450.png",
@@ -20119,6 +20568,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Sam Yang"],
     cardIdentifier: "herald-of-triumph-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON008.width-450.png",
@@ -20157,6 +20607,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Sam Yang"],
     cardIdentifier: "herald-of-triumph-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON009.width-450.png",
@@ -20195,6 +20646,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Sam Yang"],
     cardIdentifier: "herald-of-triumph-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON010.width-450.png",
@@ -20233,6 +20685,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Simon Wong"],
     cardIdentifier: "herald-of-protection-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON014.width-450.png",
@@ -20283,6 +20736,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Simon Wong"],
     cardIdentifier: "herald-of-protection-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON015.width-450.png",
@@ -20327,6 +20781,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Simon Wong"],
     cardIdentifier: "herald-of-protection-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON016.width-450.png",
@@ -20377,6 +20832,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "herald-of-ravages-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/9986165132..223435430.width-450.png",
@@ -20421,6 +20877,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "herald-of-ravages-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/23fgw5465b464.width-450.png",
@@ -20459,6 +20916,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "herald-of-ravages-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/456b443654yteb65764.width-450.png",
@@ -20503,6 +20961,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "herald-of-rebirth-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON020.width-450.png",
@@ -20553,6 +21012,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "herald-of-rebirth-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON021.width-450.png",
@@ -20597,6 +21057,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "herald-of-rebirth-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON022.width-450.png",
@@ -20647,6 +21108,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "herald-of-tenacity-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON023.width-450.png",
@@ -20691,6 +21153,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "herald-of-tenacity-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON024.width-450.png",
@@ -20729,6 +21192,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "herald-of-tenacity-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON025.width-450.png",
@@ -20773,6 +21237,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Narendra B Adi"],
     cardIdentifier: "wartune-herald-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON026.width-450.png",
@@ -20823,6 +21288,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Narendra B Adi"],
     cardIdentifier: "wartune-herald-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON027.width-450.png",
@@ -20867,6 +21333,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Narendra B Adi"],
     cardIdentifier: "wartune-herald-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON028.width-450.png",
@@ -20917,6 +21384,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Faizal Fikri"],
     cardIdentifier: "bolting-blade-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON032.width-450.png",
@@ -20955,6 +21423,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "lumina-ascension-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON034.width-450.png",
@@ -20999,6 +21468,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Narendra B Adi"],
     cardIdentifier: "v-of-the-vanguard-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON035.width-450.png",
@@ -21043,6 +21513,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Narendra B Adi"],
     cardIdentifier: "battlefield-blitz-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON036.width-450.png",
@@ -21087,6 +21558,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Narendra B Adi"],
     cardIdentifier: "battlefield-blitz-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON037.width-450.png",
@@ -21125,6 +21597,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Narendra B Adi"],
     cardIdentifier: "battlefield-blitz-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON038.width-450.png",
@@ -21163,6 +21636,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Silvia Meiliani"],
     cardIdentifier: "valiant-thrust-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON039.width-450.png",
@@ -21207,6 +21681,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Silvia Meiliani"],
     cardIdentifier: "valiant-thrust-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON040.width-450.png",
@@ -21245,6 +21720,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Silvia Meilani"],
     cardIdentifier: "valiant-thrust-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON041.width-450.png",
@@ -21283,6 +21759,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Phu Thieu"],
     cardIdentifier: "bolt-of-courage-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON042.width-450.png",
@@ -21327,6 +21804,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Phu Thieu"],
     cardIdentifier: "bolt-of-courage-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON043.width-450.png",
@@ -21365,6 +21843,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Phu Thieu"],
     cardIdentifier: "bolt-of-courage-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON044.width-450.png",
@@ -21409,6 +21888,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Iain Miki"],
     cardIdentifier: "cross-the-line-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON045.width-450.png",
@@ -21453,6 +21933,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Iain Miki"],
     cardIdentifier: "cross-the-line-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON046.width-450.png",
@@ -21497,6 +21978,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Iain Miki"],
     cardIdentifier: "cross-the-line-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON047.width-450.png",
@@ -21535,6 +22017,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "engulfing-light-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON048.width-450.png",
@@ -21579,6 +22062,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "engulfing-light-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON049.width-450.png",
@@ -21617,6 +22101,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "engulfing-light-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON050.width-450.png",
@@ -21661,6 +22146,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "express-lightning-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON051.width-450.png",
@@ -21705,6 +22191,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "express-lightning-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON052.width-450.png",
@@ -21749,6 +22236,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "express-lightning-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON053.width-450.png",
@@ -21787,6 +22275,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["bimawithpencil"],
     cardIdentifier: "take-flight-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON054.width-450.png",
@@ -21831,6 +22320,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["bimawithpencil"],
     cardIdentifier: "take-flight-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON055.width-450.png",
@@ -21875,6 +22365,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["bimawithpencil"],
     cardIdentifier: "take-flight-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON056.width-450.png",
@@ -21913,6 +22404,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "celestial-cataclysm-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON062.width-450.png",
@@ -21951,6 +22443,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "soul-food-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON064.width-450.png",
@@ -21989,6 +22482,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["MJ Fetesio"],
     cardIdentifier: "invigorating-light-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON066.width-450.png",
@@ -22033,6 +22527,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["MJ Fetesio"],
     cardIdentifier: "invigorating-light-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON067.width-450.png",
@@ -22071,6 +22566,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["MJ Fetesio"],
     cardIdentifier: "invigorating-light-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON068.width-450.png",
@@ -22109,6 +22605,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "illuminate-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON072.width-450.png",
@@ -22153,6 +22650,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "illuminate-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON073.width-450.png",
@@ -22191,6 +22689,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "illuminate-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON074.width-450.png",
@@ -22241,6 +22740,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["bimawithpencil"],
     cardIdentifier: "impenetrable-belief-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON075.width-450.png",
@@ -22279,6 +22779,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["bimawithpencil"],
     cardIdentifier: "impenetrable-belief-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON076.width-450.png",
@@ -22317,6 +22818,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["bimawithpencil"],
     cardIdentifier: "impenetrable-belief-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON077.width-450.png",
@@ -22355,6 +22857,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Phu Thieu"],
     cardIdentifier: "rising-solartide-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON078.width-450.png",
@@ -22399,6 +22902,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Phu Thieu"],
     cardIdentifier: "rising-solartide-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON079.width-450.png",
@@ -22449,6 +22953,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Phu Thieu"],
     cardIdentifier: "rising-solartide-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON080.width-450.png",
@@ -22487,6 +22992,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Reza Afshar"],
     cardIdentifier: "seek-enlightenment-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON081.width-450.png",
@@ -22531,6 +23037,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Reza Afshar"],
     cardIdentifier: "seek-enlightenment-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON082.width-450.png",
@@ -22569,6 +23076,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Reza Afshar"],
     cardIdentifier: "seek-enlightenment-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON083.width-450.png",
@@ -22613,6 +23121,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Marco González"],
     cardIdentifier: "phantasmaclasm-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/fy8w7r78545yit3787efygs8def.width-450.png",
@@ -22651,6 +23160,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["bimawithpencil"],
     cardIdentifier: "phantasmify-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON095.width-450.png",
@@ -22701,6 +23211,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["bimawithpencil"],
     cardIdentifier: "phantasmify-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON096.width-450.png",
@@ -22745,6 +23256,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["bimawithpencil"],
     cardIdentifier: "phantasmify-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON097.width-450.png",
@@ -22789,6 +23301,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Narendra B Adi"],
     cardIdentifier: "enigma-chimera-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON098.width-450.png",
@@ -22827,6 +23340,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Narendra B Adi"],
     cardIdentifier: "enigma-chimera-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON099.width-450.png",
@@ -22871,6 +23385,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Narendra B Adi"],
     cardIdentifier: "enigma-chimera-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON100.width-450.png",
@@ -22915,6 +23430,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Immanuela Crovius"],
     cardIdentifier: "spears-of-surreality-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON101.width-450.png",
@@ -22953,6 +23469,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Immanuela Crovius"],
     cardIdentifier: "spears-of-surreality-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON102.width-450.png",
@@ -22991,6 +23508,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Immanuela Crovius"],
     cardIdentifier: "spears-of-surreality-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON103.width-450.png",
@@ -23035,6 +23553,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Phu Thieu"],
     cardIdentifier: "spill-blood-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON109.width-450.png",
@@ -23073,6 +23592,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Reza Afshar"],
     cardIdentifier: "dusk-path-pilgrimage-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON110.width-450.png",
@@ -23123,6 +23643,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Reza Afshar"],
     cardIdentifier: "dusk-path-pilgrimage-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON111.width-450.png",
@@ -23167,6 +23688,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Reza Afshar"],
     cardIdentifier: "dusk-path-pilgrimage-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON112.width-450.png",
@@ -23211,6 +23733,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["bimawithpencil"],
     cardIdentifier: "plow-through-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON113.width-450.png",
@@ -23249,6 +23772,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["bimawithpencil"],
     cardIdentifier: "plow-through-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON114.width-450.png",
@@ -23287,6 +23811,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["bimawithpencil"],
     cardIdentifier: "plow-through-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON115.width-450.png",
@@ -23325,6 +23850,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Inkognit"],
     cardIdentifier: "second-swing-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON116.width-450.png",
@@ -23369,6 +23895,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Inkognit"],
     cardIdentifier: "second-swing-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON117.width-450.png",
@@ -23407,6 +23934,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Inkognit"],
     cardIdentifier: "second-swing-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON118.width-450.png",
@@ -23445,6 +23973,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Marcus Reyno"],
     cardIdentifier: "deep-rooted-evil-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON123.width-450.png",
@@ -23483,6 +24012,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "mark-of-the-beast-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON124.width-450.png",
@@ -23527,6 +24057,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "shadow-of-blasphomet-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/KLUiCIJEFKdt8QM545A4g.width-450.png",
@@ -23565,6 +24096,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Narendra B Adi"],
     cardIdentifier: "endless-maw-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/8Hvi6X0i746eD8UVlBjt.width-450.png",
@@ -23609,6 +24141,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Narendra B Adi"],
     cardIdentifier: "endless-maw-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/3HnONyYapgg32MEXbFXUB.width-450.png",
@@ -23647,6 +24180,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Narendra B Adi"],
     cardIdentifier: "endless-maw-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/SAy5p6Yoa21bM89UuG8l4.width-450.png",
@@ -23685,6 +24219,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["bimawithpencil"],
     cardIdentifier: "writhing-beast-hulk-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON129.width-450.png",
@@ -23729,6 +24264,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["bimawithpencil"],
     cardIdentifier: "writhing-beast-hulk-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON130.width-450.png",
@@ -23767,6 +24303,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["bimawithpencil"],
     cardIdentifier: "writhing-beast-hulk-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON131.width-450.png",
@@ -23805,6 +24342,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "convulsions-from-the-bellows-of-hell-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON132.width-450.png",
@@ -23843,6 +24381,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "convulsions-from-the-bellows-of-hell-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON133.width-450.png",
@@ -23881,6 +24420,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "convulsions-from-the-bellows-of-hell-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON134.width-450.png",
@@ -23925,6 +24465,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Isuardi Therianto","Kevin Sidharta"],
     cardIdentifier: "boneyard-marauder-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON135.width-450.png",
@@ -23975,6 +24516,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Kevin Sidharta"],
     cardIdentifier: "boneyard-marauder-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON136.width-450.png",
@@ -24013,6 +24555,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Kevin Sidharta"],
     cardIdentifier: "boneyard-marauder-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON137.width-450.png",
@@ -24057,6 +24600,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Daniel Jiménez"],
     cardIdentifier: "deadwood-rumbler-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON138.width-450.png",
@@ -24101,6 +24645,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Daniel Jiménez"],
     cardIdentifier: "deadwood-rumbler-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON139.width-450.png",
@@ -24139,6 +24684,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Daniel Jiménez"],
     cardIdentifier: "deadwood-rumbler-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON140.width-450.png",
@@ -24183,6 +24729,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Mihail Spil-Haufter"],
     cardIdentifier: "dread-screamer-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON141.width-450.png",
@@ -24227,6 +24774,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Mihail Spil-Haufter"],
     cardIdentifier: "dread-screamer-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON142.width-450.png",
@@ -24265,6 +24813,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Mihail Spil-Haufter"],
     cardIdentifier: "dread-screamer-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON143.width-450.png",
@@ -24309,6 +24858,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Marco Wulfr"],
     cardIdentifier: "graveling-growl-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON144.width-450.png",
@@ -24353,6 +24903,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Marco Wulfr"],
     cardIdentifier: "graveling-growl-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON145.width-450.png",
@@ -24391,6 +24942,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Marco Wulfr"],
     cardIdentifier: "graveling-growl-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON146.width-450.png",
@@ -24429,6 +24981,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Daniel Jiménez"],
     cardIdentifier: "hungering-slaughterbeast-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON147.width-450.png",
@@ -24473,6 +25026,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Daniel Jiménez"],
     cardIdentifier: "hungering-slaughterbeast-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON148.width-450.png",
@@ -24517,6 +25071,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Daniel Jiménez"],
     cardIdentifier: "hungering-slaughterbeast-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON149.width-450.png",
@@ -24555,8 +25110,9 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Jessada Sutthi"],
-    cardIdentifier: "unwordly-bellow-red",
+    cardIdentifier: "unworldly-bellow-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON150.width-450.png",
     functionalText: `As an additional cost to play Unworldly Bellow, banish 3 random cards from your graveyard.  The next Brute or Shadow attack action card you play this turn gains +4{p}.  **Go again**`,
     images: [{
@@ -24579,7 +25135,7 @@
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON150.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
-    name: "Unwordly Bellow",
+    name: "Unworldly Bellow",
     rarity: Rarity.Common,
     restrictedFormats: [],
     setIdentifiers: ["LEV015","MON150"],
@@ -24599,8 +25155,9 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Jessada Sutthi"],
-    cardIdentifier: "unwordly-bellow-yellow",
+    cardIdentifier: "unworldly-bellow-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON151.width-450.png",
     functionalText: `As an additional cost to play Unworldly Bellow, banish 3 random cards from your graveyard.  The next Brute or Shadow attack action card you play this turn gains +3{p}.  **Go again**`,
     images: [{
@@ -24617,7 +25174,7 @@
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON151.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
-    name: "Unwordly Bellow",
+    name: "Unworldly Bellow",
     rarity: Rarity.Common,
     restrictedFormats: [],
     setIdentifiers: ["MON151"],
@@ -24637,8 +25194,9 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Jessada Sutthi"],
-    cardIdentifier: "unwordly-bellow-blue",
+    cardIdentifier: "unworldly-bellow-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON152.width-450.png",
     functionalText: `As an additional cost to play Unworldly Bellow, banish 3 random cards from your graveyard.  The next Brute or Shadow attack action card you play this turn gains +2{p}.  **Go again**`,
     images: [{
@@ -24661,7 +25219,7 @@
       url: "https://storage.googleapis.com/fabmaster/media/images/U-MON152.width-450.png",
     },],
     keywords: [Keyword.GoAgain],
-    name: "Unwordly Bellow",
+    name: "Unworldly Bellow",
     rarity: Rarity.Common,
     restrictedFormats: [],
     setIdentifiers: ["LEV022","MON152"],
@@ -24681,6 +25239,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Grégory Nunkovics"],
     cardIdentifier: "shadow-of-ursur-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON156.width-450.png",
@@ -24719,6 +25278,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Sergey Averkin"],
     cardIdentifier: "dimenxxional-crossroads-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON157.width-450.png",
@@ -24757,6 +25317,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "unhallowed-rites-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON159.width-450.png",
@@ -24801,6 +25362,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "unhallowed-rites-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON160.width-450.png",
@@ -24839,6 +25401,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "unhallowed-rites-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON161.width-450.png",
@@ -24877,6 +25440,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Reza Afshar"],
     cardIdentifier: "dimenxxional-gateway-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON162.width-450.png",
@@ -24915,6 +25479,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Reza Afshar"],
     cardIdentifier: "dimenxxional-gateway-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON163.width-450.png",
@@ -24953,6 +25518,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Reza Afshar"],
     cardIdentifier: "dimenxxional-gateway-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON164.width-450.png",
@@ -24991,6 +25557,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Marco González"],
     cardIdentifier: "seeping-shadows-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON165.width-450.png",
@@ -25029,6 +25596,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Marco González"],
     cardIdentifier: "seeping-shadows-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON166.width-450.png",
@@ -25073,6 +25641,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Marco González"],
     cardIdentifier: "seeping-shadows-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON167.width-450.png",
@@ -25111,6 +25680,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["soyameii"],
     cardIdentifier: "bounding-demigon-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON168.width-450.png",
@@ -25155,6 +25725,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["soyameii"],
     cardIdentifier: "bounding-demigon-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON169.width-450.png",
@@ -25193,6 +25764,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["soyameii"],
     cardIdentifier: "bounding-demigon-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON170.width-450.png",
@@ -25231,6 +25803,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "piercing-shadow-vise-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON171.width-450.png",
@@ -25275,6 +25848,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "piercing-shadow-vise-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON172.width-450.png",
@@ -25313,6 +25887,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "piercing-shadow-vise-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON173.width-450.png",
@@ -25357,6 +25932,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "rift-bind-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON174.width-450.png",
@@ -25401,6 +25977,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "rift-bind-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON175.width-450.png",
@@ -25439,6 +26016,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "rift-bind-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON176.width-450.png",
@@ -25483,6 +26061,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Marco González"],
     cardIdentifier: "rifted-torment-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON177.width-450.png",
@@ -25527,6 +26106,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Marco González"],
     cardIdentifier: "rifted-torment-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON178.width-450.png",
@@ -25565,6 +26145,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Marco González"],
     cardIdentifier: "rifted-torment-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON179.width-450.png",
@@ -25609,6 +26190,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Yolanda Felicia"],
     cardIdentifier: "rip-through-reality-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON180.width-450.png",
@@ -25653,6 +26235,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Yolanda Felicia"],
     cardIdentifier: "rip-through-reality-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON181.width-450.png",
@@ -25691,6 +26274,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Yolanda Felicia"],
     cardIdentifier: "rip-through-reality-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON182.width-450.png",
@@ -25729,6 +26313,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["bimawithpencil"],
     cardIdentifier: "seeds-of-agony-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON183_up.width-450.png",
@@ -25773,6 +26358,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["bimawithpencil"],
     cardIdentifier: "seeds-of-agony-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON184.width-450.png",
@@ -25817,6 +26403,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["bimawithpencil"],
     cardIdentifier: "seeds-of-agony-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON185.width-450.png",
@@ -25855,6 +26442,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Pavel Chuvin"],
     cardIdentifier: "mutated-mass-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON191.width-450.png",
@@ -25893,6 +26481,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Marco González"],
     cardIdentifier: "shadow-puppetry-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON193.width-450.png",
@@ -25931,6 +26520,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "tome-of-torment-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON194.width-450.png",
@@ -25969,6 +26559,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Vito Vivodka"],
     cardIdentifier: "consuming-aftermath-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON195.width-450.png",
@@ -26013,6 +26604,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Vito Vivodka"],
     cardIdentifier: "consuming-aftermath-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON196.width-450.png",
@@ -26051,6 +26643,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Vito Vivodka"],
     cardIdentifier: "consuming-aftermath-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON197.width-450.png",
@@ -26089,6 +26682,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["soyameii"],
     cardIdentifier: "soul-harvest-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON198.width-450.png",
@@ -26133,6 +26727,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["bimawithpencil"],
     cardIdentifier: "soul-reaping-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON199.width-450.png",
@@ -26177,6 +26772,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Tian Thongjomroon"],
     cardIdentifier: "howl-from-beyond-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON200.width-450.png",
@@ -26221,6 +26817,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Tian Thongjomroon"],
     cardIdentifier: "howl-from-beyond-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON201.width-450.png",
@@ -26259,6 +26856,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Tian Thongjomroon"],
     cardIdentifier: "howl-from-beyond-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON202.width-450.png",
@@ -26297,6 +26895,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Alexandra Malygina"],
     cardIdentifier: "ghostly-visit-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON203.width-450.png",
@@ -26347,6 +26946,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Alexandra Malygina"],
     cardIdentifier: "ghostly-visit-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON204.width-450.png",
@@ -26392,6 +26992,7 @@
   }];
   const basicActions2: ActionCard[] = [{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Alexandra Malygina"],
     cardIdentifier: "ghostly-visit-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON205.width-450.png",
@@ -26436,6 +27037,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Immanuela Crovius"],
     cardIdentifier: "lunartide-plunderer-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON206.width-450.png",
@@ -26474,6 +27076,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Immanuela Crovius"],
     cardIdentifier: "lunartide-plunderer-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON207.width-450.png",
@@ -26524,6 +27127,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Immanuela Crovius"],
     cardIdentifier: "lunartide-plunderer-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON208.width-450.png",
@@ -26562,6 +27166,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Peyeyo"],
     cardIdentifier: "void-wraith-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON209.width-450.png",
@@ -26600,6 +27205,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Peyeyo"],
     cardIdentifier: "void-wraith-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON210.width-450.png",
@@ -26638,6 +27244,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Peyeyo"],
     cardIdentifier: "void-wraith-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON211.width-450.png",
@@ -26676,6 +27283,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Marco González"],
     cardIdentifier: "spew-shadow-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON212.width-450.png",
@@ -26714,6 +27322,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Marco González"],
     cardIdentifier: "spew-shadow-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON213.width-450.png",
@@ -26758,6 +27367,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Marco González"],
     cardIdentifier: "spew-shadow-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON214.width-450.png",
@@ -26796,6 +27406,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Muhammad Fajri"],
     cardIdentifier: "tear-limb-from-limb-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON222.width-450.png",
@@ -26834,6 +27445,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Kevin Sidharta"],
     cardIdentifier: "pulping-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/83qQVRV7av7WVwN6jhg0d.width-450.png",
@@ -26878,6 +27490,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Kevin Sidharta"],
     cardIdentifier: "pulping-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/322d1Gx66IHv4QNM3gOjV7.width-450.png",
@@ -26922,6 +27535,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Kevin Sidharta"],
     cardIdentifier: "pulping-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/h3ntlAv43eGM6Nq3R046zh.width-450.png",
@@ -26966,6 +27580,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Muhammad Fajri"],
     cardIdentifier: "smash-with-big-tree-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON226.width-450.png",
@@ -27010,6 +27625,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Muhammad Fajri"],
     cardIdentifier: "smash-with-big-tree-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON227.width-450.png",
@@ -27060,6 +27676,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Muhammad Fajri"],
     cardIdentifier: "smash-with-big-tree-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON228.width-450.png",
@@ -27098,6 +27715,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Saad Irfan"],
     cardIdentifier: "sonata-arcanix-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON231.width-450.png",
@@ -27136,6 +27754,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Henrique Lindner"],
     cardIdentifier: "vexing-malice-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON232.width-450.png",
@@ -27186,6 +27805,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Henrique Lindner"],
     cardIdentifier: "vexing-malice-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON233.width-450.png",
@@ -27230,6 +27850,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Henrique Lindner"],
     cardIdentifier: "vexing-malice-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON234.width-450.png",
@@ -27274,6 +27895,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Joshua Raphael"],
     cardIdentifier: "arcanic-crackle-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON235.width-450.png",
@@ -27312,6 +27934,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Joshua Raphael"],
     cardIdentifier: "arcanic-crackle-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON236.width-450.png",
@@ -27350,6 +27973,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Joshua Raphael"],
     cardIdentifier: "arcanic-crackle-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON237.width-450.png",
@@ -27394,6 +28018,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Phu Thieu"],
     cardIdentifier: "exude-confidence-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON245.width-450.png",
@@ -27432,6 +28057,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Henrique Lindner"],
     cardIdentifier: "nourishing-emptiness-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON246.width-450.png",
@@ -27470,6 +28096,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Narendra B Adi"],
     cardIdentifier: "rouse-the-ancients-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON247.width-450.png",
@@ -27508,6 +28135,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Marco González"],
     cardIdentifier: "out-muscle-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON248.width-450.png",
@@ -27546,6 +28174,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Marco González"],
     cardIdentifier: "out-muscle-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON249.width-450.png",
@@ -27584,6 +28213,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Marco González"],
     cardIdentifier: "out-muscle-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON250.width-450.png",
@@ -27622,6 +28252,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Tian Thongjomroon"],
     cardIdentifier: "seek-horizon-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON251.width-450.png",
@@ -27660,6 +28291,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Tian Thongjomroon"],
     cardIdentifier: "seek-horizon-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON252.width-450.png",
@@ -27698,6 +28330,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Tian Thongjomroon"],
     cardIdentifier: "seek-horizon-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON253.width-450.png",
@@ -27736,6 +28369,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Alexis Susani"],
     cardIdentifier: "tremor-of-íarathael-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON254.width-450.png",
@@ -27774,6 +28408,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Alexis Susani"],
     cardIdentifier: "tremor-of-íarathael-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON255.width-450.png",
@@ -27812,6 +28447,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Alexis Susani"],
     cardIdentifier: "tremor-of-íarathael-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON256.width-450.png",
@@ -27850,6 +28486,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Joshua Raphael"],
     cardIdentifier: "captains-call-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON260.width-450.png",
@@ -27888,6 +28525,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Joshua Raphael"],
     cardIdentifier: "captains-call-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON261.width-450.png",
@@ -27926,6 +28564,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Joshua Raphael"],
     cardIdentifier: "captains-call-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON262.width-450.png",
@@ -27964,6 +28603,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Silvia Meiliani"],
     cardIdentifier: "adrenaline-rush-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON263.width-450.png",
@@ -28002,6 +28642,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Silvia Meiliani"],
     cardIdentifier: "adrenaline-rush-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON264.width-450.png",
@@ -28040,6 +28681,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Silvia Meiliani"],
     cardIdentifier: "adrenaline-rush-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON265.width-450.png",
@@ -28078,6 +28720,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "belittle-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON266.width-450.png",
@@ -28116,6 +28759,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "belittle-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON267.width-450.png",
@@ -28154,6 +28798,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "belittle-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON268.width-450.png",
@@ -28192,6 +28837,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Phu Thieu"],
     cardIdentifier: "brandish-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON269.width-450.png",
@@ -28230,6 +28876,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Phu Thieu"],
     cardIdentifier: "brandish-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON270.width-450.png",
@@ -28268,6 +28915,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Phu Thieu"],
     cardIdentifier: "brandish-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON271.width-450.png",
@@ -28306,6 +28954,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Agus Setiawan"],
     cardIdentifier: "frontline-scout-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON272.width-450.png",
@@ -28344,6 +28993,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Agus Setiawan"],
     cardIdentifier: "frontline-scout-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON273.width-450.png",
@@ -28382,6 +29032,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Agus Setiawan"],
     cardIdentifier: "frontline-scout-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON274.width-450.png",
@@ -28420,6 +29071,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Kevin Sidharta"],
     cardIdentifier: "overload-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON275.width-450.png",
@@ -28458,6 +29110,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Kevin Sidharta"],
     cardIdentifier: "overload-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON276.width-450.png",
@@ -28496,6 +29149,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Kevin Sidharta"],
     cardIdentifier: "overload-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON277.width-450.png",
@@ -28534,6 +29188,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Septimius Ferdian"],
     cardIdentifier: "pound-for-pound-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON278.width-450.png",
@@ -28572,6 +29227,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Septimius Ferdian"],
     cardIdentifier: "pound-for-pound-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON279.width-450.png",
@@ -28610,6 +29266,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Septimius Ferdian"],
     cardIdentifier: "pound-for-pound-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON280.width-450.png",
@@ -28648,6 +29305,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Peyeyo"],
     cardIdentifier: "rally-the-rearguard-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON281.width-450.png",
@@ -28692,6 +29350,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Peyeyo"],
     cardIdentifier: "rally-the-rearguard-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON282.width-450.png",
@@ -28730,6 +29389,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Peyeyo"],
     cardIdentifier: "rally-the-rearguard-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON283.width-450.png",
@@ -28780,6 +29440,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "stony-wootonhog-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON284.width-450.png",
@@ -28818,6 +29479,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "stony-wootonhog-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON285.width-450.png",
@@ -28856,6 +29518,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "stony-wootonhog-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON286.width-450.png",
@@ -28894,6 +29557,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Kyxarie Peralta"],
     cardIdentifier: "surging-militia-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON287.width-450.png",
@@ -28932,6 +29596,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Kyxarie Peralta"],
     cardIdentifier: "surging-militia-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON288.width-450.png",
@@ -28970,6 +29635,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Kyxarie Peralta"],
     cardIdentifier: "surging-militia-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON289.width-450.png",
@@ -29008,6 +29674,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Faizal Fikri"],
     cardIdentifier: "yinti-yanti-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON290.width-450.png",
@@ -29046,6 +29713,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Faizal Fikri"],
     cardIdentifier: "yinti-yanti-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON291.width-450.png",
@@ -29084,6 +29752,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Faizal Fikri"],
     cardIdentifier: "yinti-yanti-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON292.width-450.png",
@@ -29122,6 +29791,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Brian Adriel"],
     cardIdentifier: "zealous-belting-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON293.width-450.png",
@@ -29160,6 +29830,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Brian Adriel"],
     cardIdentifier: "zealous-belting-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON294.width-450.png",
@@ -29198,6 +29869,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Brian Adriel"],
     cardIdentifier: "zealous-belting-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON295.width-450.png",
@@ -29236,6 +29908,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "minnowism-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON296.width-450.png",
@@ -29274,6 +29947,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "minnowism-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON297.width-450.png",
@@ -29312,6 +29986,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "minnowism-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON298.width-450.png",
@@ -29350,6 +30025,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Oliver Morit"],
     cardIdentifier: "warmongers-recital-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON299.width-450.png",
@@ -29394,6 +30070,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Oliver Morit"],
     cardIdentifier: "warmongers-recital-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON300.width-450.png",
@@ -29438,6 +30115,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Oliver Morit"],
     cardIdentifier: "warmongers-recital-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON301.width-450.png",
@@ -29476,6 +30154,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Dmitry Isakevitch"],
     cardIdentifier: "talisman-of-dousing-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON302.width-450.png",
@@ -29514,6 +30193,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "korshem-crossroad-of-elements",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE000_vertical.width-450.png",
@@ -29552,6 +30232,7 @@
     subType: ActionSubType.Landmark,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Marco González"],
     cardIdentifier: "endless-winter-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE004.width-450.png",
@@ -29590,6 +30271,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Federico Musetti"],
     cardIdentifier: "oaken-old-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE005.width-450.png",
@@ -29628,6 +30310,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Vito Vivodka"],
     cardIdentifier: "entangle-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE013.width-450.png",
@@ -29666,6 +30349,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Vito Vivodka"],
     cardIdentifier: "entangle-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE014.width-450.png",
@@ -29704,6 +30388,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Vito Vivodka"],
     cardIdentifier: "entangle-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE015.width-450.png",
@@ -29748,6 +30433,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Reza Afshar"],
     cardIdentifier: "glacial-footsteps-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE016.width-450.png",
@@ -29792,6 +30478,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Reza Afshar"],
     cardIdentifier: "glacial-footsteps-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE017.width-450.png",
@@ -29830,6 +30517,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Reza Afshar"],
     cardIdentifier: "glacial-footsteps-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE018.width-450.png",
@@ -29874,6 +30562,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Sam Yang"],
     cardIdentifier: "mulch-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE019.width-450.png",
@@ -29912,6 +30601,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Sam Yang"],
     cardIdentifier: "mulch-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE020.width-450.png",
@@ -29950,6 +30640,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Sam Yang"],
     cardIdentifier: "mulch-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE021.width-450.png",
@@ -29994,6 +30685,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Arif Wijaya"],
     cardIdentifier: "snow-under-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE022.width-450.png",
@@ -30038,6 +30730,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Arif Wijaya"],
     cardIdentifier: "snow-under-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE023.width-450.png",
@@ -30076,6 +30769,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Arif Wijaya"],
     cardIdentifier: "snow-under-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE024.width-450.png",
@@ -30120,6 +30814,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Reza Afshar"],
     cardIdentifier: "emerging-avalanche-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE025.width-450.png",
@@ -30158,6 +30853,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Reza Afshar"],
     cardIdentifier: "emerging-avalanche-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE026.width-450.png",
@@ -30196,6 +30892,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Reza Afshar"],
     cardIdentifier: "emerging-avalanche-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE027.width-450.png",
@@ -30234,6 +30931,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "strength-of-sequoia-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE028.width-450.png",
@@ -30284,6 +30982,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "strength-of-sequoia-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE029.width-450.png",
@@ -30322,6 +31021,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "strength-of-sequoia-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE030.width-450.png",
@@ -30366,6 +31066,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "frost-lock-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE035.width-450.png",
@@ -30404,6 +31105,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "light-it-up-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE036.width-450.png",
@@ -30442,6 +31144,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Narendra B Adi"],
     cardIdentifier: "ice-storm-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE037.width-450.png",
@@ -30480,6 +31183,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "cold-wave-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE038.width-450.png",
@@ -30518,6 +31222,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "cold-wave-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE039.width-450.png",
@@ -30556,6 +31261,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "cold-wave-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE040.width-450.png",
@@ -30594,6 +31300,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Federico Musetti"],
     cardIdentifier: "snap-shot-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE041.width-450.png",
@@ -30638,6 +31345,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Federico Musetti"],
     cardIdentifier: "snap-shot-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE042.width-450.png",
@@ -30676,6 +31384,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Federico Musetti"],
     cardIdentifier: "snap-shot-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE043.width-450.png",
@@ -30714,6 +31423,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Narendra B Adi"],
     cardIdentifier: "blizzard-bolt-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE044.width-450.png",
@@ -30758,6 +31468,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Narendra B Adi"],
     cardIdentifier: "blizzard-bolt-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE045.width-450.png",
@@ -30796,6 +31507,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Narendra B Adi"],
     cardIdentifier: "blizzard-bolt-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE046.width-450.png",
@@ -30834,6 +31546,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Kyxarie Peralta"],
     cardIdentifier: "buzz-bolt-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE047.width-450.png",
@@ -30878,6 +31591,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Kyxarie Peralta"],
     cardIdentifier: "buzz-bolt-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE048.width-450.png",
@@ -30922,6 +31636,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Kyxarie Peralta"],
     cardIdentifier: "buzz-bolt-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE049.width-450.png",
@@ -30960,6 +31675,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Tanapon Wachirakul"],
     cardIdentifier: "chilling-icevein-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE050.width-450.png",
@@ -30998,6 +31714,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Tanapon Wachirakul"],
     cardIdentifier: "chilling-icevein-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE051.width-450.png",
@@ -31042,6 +31759,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Tanapon Wachirakul"],
     cardIdentifier: "chilling-icevein-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE052.width-450.png",
@@ -31080,6 +31798,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Sam Yang"],
     cardIdentifier: "dazzling-crescendo-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE053.width-450.png",
@@ -31124,6 +31843,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Sam Yang"],
     cardIdentifier: "dazzling-crescendo-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE054.width-450.png",
@@ -31162,6 +31882,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Sam Yang"],
     cardIdentifier: "dazzling-crescendo-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE055.width-450.png",
@@ -31200,6 +31921,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Faizal Fikri"],
     cardIdentifier: "flake-out-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE056.width-450.png",
@@ -31238,6 +31960,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Faizal Fikri"],
     cardIdentifier: "flake-out-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE057.width-450.png",
@@ -31276,6 +31999,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Faizal Fikri"],
     cardIdentifier: "flake-out-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE058.width-450.png",
@@ -31314,6 +32038,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Marco Wulfr"],
     cardIdentifier: "frazzle-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE059.width-450.png",
@@ -31358,6 +32083,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Marco Wulfr"],
     cardIdentifier: "frazzle-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE060.width-450.png",
@@ -31402,6 +32128,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Marco Wulfr"],
     cardIdentifier: "frazzle-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE061.width-450.png",
@@ -31440,6 +32167,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Hoàng Lập"],
     cardIdentifier: "blossoming-spellblade-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE064.width-450.png",
@@ -31478,6 +32206,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Marco González"],
     cardIdentifier: "flicker-wisp-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE065.width-450.png",
@@ -31516,6 +32245,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "force-of-nature-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE066.width-450.png",
@@ -31554,6 +32284,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Phu Thieu"],
     cardIdentifier: "explosive-growth-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE067.width-450.png",
@@ -31598,6 +32329,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Phu Thieu"],
     cardIdentifier: "explosive-growth-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE068.width-450.png",
@@ -31636,6 +32368,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Phu Thieu"],
     cardIdentifier: "explosive-growth-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE069.width-450.png",
@@ -31674,6 +32407,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Alexander Gering"],
     cardIdentifier: "rites-of-lightning-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE070.width-450.png",
@@ -31718,6 +32452,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Alexander Gering"],
     cardIdentifier: "rites-of-lightning-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE071.width-450.png",
@@ -31756,6 +32491,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Alexander Gering"],
     cardIdentifier: "rites-of-lightning-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE072.width-450.png",
@@ -31794,6 +32530,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Vathan Suwannaworn"],
     cardIdentifier: "arcanic-shockwave-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE073.width-450.png",
@@ -31832,6 +32569,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Vathan Suwannaworn"],
     cardIdentifier: "arcanic-shockwave-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE074.width-450.png",
@@ -31870,6 +32608,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Vathan Suwannaworn"],
     cardIdentifier: "arcanic-shockwave-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE075.width-450.png",
@@ -31908,6 +32647,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "vela-flash-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE076.width-450.png",
@@ -31946,6 +32686,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "vela-flash-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE077.width-450.png",
@@ -31984,6 +32725,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "vela-flash-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE078.width-450.png",
@@ -32022,6 +32764,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Rio Sabda"],
     cardIdentifier: "rites-of-replenishment-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE079.width-450.png",
@@ -32066,6 +32809,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Rio Sabda"],
     cardIdentifier: "rites-of-replenishment-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE080.width-450.png",
@@ -32104,6 +32848,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Rio Sabda"],
     cardIdentifier: "rites-of-replenishment-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE081.width-450.png",
@@ -32148,6 +32893,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Narendra B Adi","Marco González"],
     cardIdentifier: "stir-the-wildwood-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE082.width-450.png",
@@ -32198,6 +32944,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Marco González"],
     cardIdentifier: "stir-the-wildwood-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE083.width-450.png",
@@ -32242,6 +32989,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Marco González"],
     cardIdentifier: "stir-the-wildwood-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE084.width-450.png",
@@ -32280,6 +33028,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "bramble-spark-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE085.width-450.png",
@@ -32324,6 +33073,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "bramble-spark-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE086.width-450.png",
@@ -32362,6 +33112,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "bramble-spark-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE087.width-450.png",
@@ -32406,6 +33157,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Jen Santos"],
     cardIdentifier: "inspire-lightning-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE088.width-450.png",
@@ -32444,6 +33196,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Jen Santos"],
     cardIdentifier: "inspire-lightning-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE089.width-450.png",
@@ -32482,6 +33235,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Jen Santos"],
     cardIdentifier: "inspire-lightning-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE090.width-450.png",
@@ -32520,6 +33274,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "fulminate-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE091.width-450.png",
@@ -32558,6 +33313,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Mark Poole"],
     cardIdentifier: "flashfreeze-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE092.width-450.png",
@@ -32596,6 +33352,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Muhammad Fajri"],
     cardIdentifier: "entwine-earth-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE094.width-450.png",
@@ -32640,6 +33397,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Muhammad Fajri"],
     cardIdentifier: "entwine-earth-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE095.width-450.png",
@@ -32678,6 +33436,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Muhammad Fajri"],
     cardIdentifier: "entwine-earth-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE096.width-450.png",
@@ -32716,6 +33475,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Narendra B Adi"],
     cardIdentifier: "entwine-ice-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE097.width-450.png",
@@ -32754,6 +33514,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Narendra B Adi"],
     cardIdentifier: "entwine-ice-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE098.width-450.png",
@@ -32792,6 +33553,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Narendra B Adi"],
     cardIdentifier: "entwine-ice-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE099.width-450.png",
@@ -32830,6 +33592,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Immanuela Crovius"],
     cardIdentifier: "entwine-lightning-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE100.width-450.png",
@@ -32880,6 +33643,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Immanuela Crovius"],
     cardIdentifier: "entwine-lightning-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE101.width-450.png",
@@ -32918,6 +33682,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Immanuela Crovius"],
     cardIdentifier: "entwine-lightning-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE102.width-450.png",
@@ -32956,6 +33721,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Faizal Fikri"],
     cardIdentifier: "invigorate-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE103.width-450.png",
@@ -33000,6 +33766,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Faizal Fikri"],
     cardIdentifier: "invigorate-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE104.width-450.png",
@@ -33044,6 +33811,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Faizal Fikri"],
     cardIdentifier: "invigorate-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE105.width-450.png",
@@ -33088,6 +33856,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Simon Wong"],
     cardIdentifier: "rejuvenate-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE106.width-450.png",
@@ -33126,6 +33895,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Simon Wong"],
     cardIdentifier: "rejuvenate-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE107.width-450.png",
@@ -33164,6 +33934,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Simon Wong"],
     cardIdentifier: "rejuvenate-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE108.width-450.png",
@@ -33202,6 +33973,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Pavel Kondrashov"],
     cardIdentifier: "pulse-of-candlehold-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE113.width-450.png",
@@ -33240,6 +34012,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Mihail Spil-Haufter"],
     cardIdentifier: "channel-mount-heroic-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE117.width-450.png",
@@ -33278,6 +34051,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Mark Poole"],
     cardIdentifier: "tome-of-harvests-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE118.width-450.png",
@@ -33316,6 +34090,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Rio Sabda"],
     cardIdentifier: "evergreen-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE119.width-450.png",
@@ -33360,6 +34135,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Rio Sabda"],
     cardIdentifier: "evergreen-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE120.width-450.png",
@@ -33398,6 +34174,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Rio Sabda"],
     cardIdentifier: "evergreen-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE121.width-450.png",
@@ -33442,6 +34219,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Stanislav Sherbakov"],
     cardIdentifier: "weave-earth-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE122.width-450.png",
@@ -33486,6 +34264,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Stanislav Sherbakov"],
     cardIdentifier: "weave-earth-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE123.width-450.png",
@@ -33524,6 +34303,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Stanislav Sherbakov"],
     cardIdentifier: "weave-earth-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE124.width-450.png",
@@ -33562,6 +34342,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "autumns-touch-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE128.width-450.png",
@@ -33600,6 +34381,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "autumns-touch-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE129.width-450.png",
@@ -33644,6 +34426,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "autumns-touch-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE130.width-450.png",
@@ -33688,6 +34471,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Iain Miki"],
     cardIdentifier: "break-ground-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE131.width-450.png",
@@ -33726,6 +34510,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Iain Miki"],
     cardIdentifier: "break-ground-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE132.width-450.png",
@@ -33764,6 +34549,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Iain Miki"],
     cardIdentifier: "break-ground-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE133.width-450.png",
@@ -33808,6 +34594,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Muhammad Fajri"],
     cardIdentifier: "burgeoning-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE134.width-450.png",
@@ -33858,6 +34645,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Muhammad Fajri"],
     cardIdentifier: "burgeoning-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE135.width-450.png",
@@ -33902,6 +34690,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Muhammad Fajri"],
     cardIdentifier: "burgeoning-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE136.width-450.png",
@@ -33946,6 +34735,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Hilary Purnamasari"],
     cardIdentifier: "earthlore-surge-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE137.width-450.png",
@@ -33990,6 +34780,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Hilary Purnamasari"],
     cardIdentifier: "earthlore-surge-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE138.width-450.png",
@@ -34028,6 +34819,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Hilary Purnamasari"],
     cardIdentifier: "earthlore-surge-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE139.width-450.png",
@@ -34078,6 +34870,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "sow-tomorrow-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE140.width-450.png",
@@ -34122,6 +34915,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "sow-tomorrow-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE141.width-450.png",
@@ -34160,6 +34954,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "sow-tomorrow-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE142.width-450.png",
@@ -34204,6 +34999,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "amulet-of-earth-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE143.width-450.png",
@@ -34254,6 +35050,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "channel-lake-frigid-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE146.width-450.png",
@@ -34298,6 +35095,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Narendra B Adi"],
     cardIdentifier: "frost-fang-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE148.width-450.png",
@@ -34342,6 +35140,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Narendra B Adi"],
     cardIdentifier: "frost-fang-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE149.width-450.png",
@@ -34380,6 +35179,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Narendra B Adi"],
     cardIdentifier: "frost-fang-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE150.width-450.png",
@@ -34418,6 +35218,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Simon Wong"],
     cardIdentifier: "ice-quake-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE151.width-450.png",
@@ -34456,6 +35257,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Simon Wong"],
     cardIdentifier: "ice-quake-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE152.width-450.png",
@@ -34494,6 +35296,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Simon Wong"],
     cardIdentifier: "ice-quake-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE153.width-450.png",
@@ -34532,6 +35335,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "weave-ice-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE154.width-450.png",
@@ -34576,6 +35380,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "weave-ice-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE155.width-450.png",
@@ -34614,6 +35419,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "weave-ice-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE156.width-450.png",
@@ -34652,6 +35458,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Marco Wulfr"],
     cardIdentifier: "icy-encounter-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE157.width-450.png",
@@ -34690,6 +35497,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Marco Wulfr"],
     cardIdentifier: "icy-encounter-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE158.width-450.png",
@@ -34728,6 +35536,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Marco Wulfr"],
     cardIdentifier: "icy-encounter-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE159.width-450.png",
@@ -34766,6 +35575,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "winters-grasp-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE160.width-450.png",
@@ -34804,6 +35614,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "winters-grasp-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE161.width-450.png",
@@ -34842,6 +35653,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "winters-grasp-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE162.width-450.png",
@@ -34886,6 +35698,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "chill-to-the-bone-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE163.width-450.png",
@@ -34924,6 +35737,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "chill-to-the-bone-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE164.width-450.png",
@@ -34968,6 +35782,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "chill-to-the-bone-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE165.width-450.png",
@@ -35006,6 +35821,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Simon Wong"],
     cardIdentifier: "polar-blast-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE166.width-450.png",
@@ -35050,6 +35866,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Simon Wong"],
     cardIdentifier: "polar-blast-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE167.width-450.png",
@@ -35100,6 +35917,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Simon Wong"],
     cardIdentifier: "polar-blast-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE168.width-450.png",
@@ -35144,6 +35962,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Marco González"],
     cardIdentifier: "winters-bite-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE169.width-450.png",
@@ -35182,6 +36001,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Marco González"],
     cardIdentifier: "winters-bite-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE170.width-450.png",
@@ -35226,6 +36046,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Marco González"],
     cardIdentifier: "winters-bite-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE171.width-450.png",
@@ -35270,6 +36091,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "amulet-of-ice-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE172.width-450.png",
@@ -35320,6 +36142,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Mark Poole"],
     cardIdentifier: "channel-thunder-steppe-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE175.width-450.png",
@@ -35358,6 +36181,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Patchanee Treedet"],
     cardIdentifier: "flash-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE177.width-450.png",
@@ -35396,6 +36220,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Patchanee Treedet"],
     cardIdentifier: "flash-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE178.width-450.png",
@@ -35440,6 +36265,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Patchanee Treedet"],
     cardIdentifier: "flash-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE179.width-450.png",
@@ -35478,6 +36304,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Faizal Fikri"],
     cardIdentifier: "weave-lightning-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE180.width-450.png",
@@ -35528,6 +36355,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Faizal Fikri"],
     cardIdentifier: "weave-lightning-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE181.width-450.png",
@@ -35572,6 +36400,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Faizal Fikri"],
     cardIdentifier: "weave-lightning-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE182.width-450.png",
@@ -35616,6 +36445,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Alexander Gering"],
     cardIdentifier: "ball-lightning-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE186.width-450.png",
@@ -35654,6 +36484,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Alexander Gering"],
     cardIdentifier: "ball-lightning-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE187.width-450.png",
@@ -35692,6 +36523,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Alexander Gering"],
     cardIdentifier: "ball-lightning-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE188.width-450.png",
@@ -35730,6 +36562,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Phu Thieu"],
     cardIdentifier: "lightning-surge-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE189.width-450.png",
@@ -35768,6 +36601,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Phu Thieu"],
     cardIdentifier: "lightning-surge-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE190.width-450.png",
@@ -35812,6 +36646,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Phu Thieu"],
     cardIdentifier: "lightning-surge-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE191.width-450.png",
@@ -35850,6 +36685,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "heavens-claws-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE192.width-450.png",
@@ -35894,6 +36730,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "heavens-claws-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE193.width-450.png",
@@ -35938,6 +36775,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "heavens-claws-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE194.width-450.png",
@@ -35976,6 +36814,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Sergey Averkin"],
     cardIdentifier: "shock-striker-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE195.width-450.png",
@@ -36020,6 +36859,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Sergey Averkin"],
     cardIdentifier: "shock-striker-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE196.width-450.png",
@@ -36058,6 +36898,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Sergey Averkin"],
     cardIdentifier: "shock-striker-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE197.width-450.png",
@@ -36096,6 +36937,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Faizal Fikri"],
     cardIdentifier: "electrify-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE198.width-450.png",
@@ -36140,6 +36982,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Faizal Fikri"],
     cardIdentifier: "electrify-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE199.width-450.png",
@@ -36184,6 +37027,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Henrique Lindner","Faizal Fikri"],
     cardIdentifier: "electrify-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE200.width-450.png",
@@ -36234,6 +37078,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "amulet-of-lightning-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE201.width-450.png",
@@ -36284,6 +37129,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Todor Hristov"],
     cardIdentifier: "tear-asunder-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE205.width-450.png",
@@ -36322,6 +37168,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Irene Francisco"],
     cardIdentifier: "embolden-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE206.width-450.png",
@@ -36366,6 +37213,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Irene Francisco"],
     cardIdentifier: "embolden-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE207.width-450.png",
@@ -36404,6 +37252,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Irene Francisco"],
     cardIdentifier: "embolden-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE208.width-450.png",
@@ -36442,6 +37291,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Arif Wijaya"],
     cardIdentifier: "thump-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE209.width-450.png",
@@ -36486,6 +37336,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Arif Wijaya"],
     cardIdentifier: "thump-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE210.width-450.png",
@@ -36524,6 +37375,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Arif Wijaya"],
     cardIdentifier: "thump-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE211.width-450.png",
@@ -36568,6 +37420,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Kevin Sidharta"],
     cardIdentifier: "seek-and-destroy-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE215.width-450.png",
@@ -36606,6 +37459,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Cristián Huerta"],
     cardIdentifier: "boltn-shot-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE216.width-450.png",
@@ -36650,6 +37504,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Cristián Huerta"],
     cardIdentifier: "boltn-shot-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE217.width-450.png",
@@ -36688,6 +37543,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Cristián Huerta"],
     cardIdentifier: "boltn-shot-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE218.width-450.png",
@@ -36726,6 +37582,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "over-flex-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE219.width-450.png",
@@ -36770,6 +37627,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "over-flex-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE220.width-450.png",
@@ -36808,6 +37666,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "over-flex-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE221.width-450.png",
@@ -36846,6 +37705,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Stanislav Sherbakov"],
     cardIdentifier: "sting-of-sorcery-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE226.width-450.png",
@@ -36884,6 +37744,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "singeing-steelblade-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE230.width-450.png",
@@ -36922,6 +37783,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "singeing-steelblade-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE231.width-450.png",
@@ -36960,6 +37822,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "singeing-steelblade-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE232.width-450.png",
@@ -36998,6 +37861,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Phu Thieu"],
     cardIdentifier: "swing-big-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR002.width-450.png",
@@ -37030,6 +37894,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Yugin Maffioli"],
     cardIdentifier: "ready-to-roll-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR003.width-450.png",
@@ -37062,6 +37927,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Stanislav Sherbakov"],
     cardIdentifier: "rolling-thunder-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR004.width-450.png",
@@ -37094,6 +37960,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "high-roller-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR005.width-450.png",
@@ -37126,6 +37993,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "high-roller-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR006.width-450.png",
@@ -37158,6 +38026,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "high-roller-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR007.width-450.png",
@@ -37190,6 +38059,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Yugin Maffioli"],
     cardIdentifier: "bare-fangs-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR008.width-450.png",
@@ -37228,6 +38098,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Yugin Maffioli"],
     cardIdentifier: "bare-fangs-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR009.width-450.png",
@@ -37260,6 +38131,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Yugin Maffioli"],
     cardIdentifier: "bare-fangs-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR010.width-450.png",
@@ -37292,6 +38164,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Federico Musetti"],
     cardIdentifier: "wild-ride-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR011.width-450.png",
@@ -37330,6 +38203,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Federico Musetti"],
     cardIdentifier: "wild-ride-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR012.width-450.png",
@@ -37362,6 +38236,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Federico Musetti"],
     cardIdentifier: "wild-ride-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR013.width-450.png",
@@ -37394,6 +38269,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["bimawithpencil"],
     cardIdentifier: "bad-beats-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR014.width-450.png",
@@ -37426,6 +38302,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["bimawithpencil"],
     cardIdentifier: "bad-beats-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR015.width-450.png",
@@ -37458,6 +38335,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["bimawithpencil"],
     cardIdentifier: "bad-beats-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR016.width-450.png",
@@ -37490,6 +38368,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Federico Musetti"],
     cardIdentifier: "pulverize-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR021.width-450.png",
@@ -37528,6 +38407,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Simon Wong"],
     cardIdentifier: "imposing-visage-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR022.width-450.png",
@@ -37560,6 +38440,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "nerves-of-steel-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR023.width-450.png",
@@ -37592,6 +38473,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "thunder-quake-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR024.width-450.png",
@@ -37630,6 +38512,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "thunder-quake-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR025.width-450.png",
@@ -37668,6 +38551,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "thunder-quake-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR026.width-450.png",
@@ -37706,6 +38590,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Andy Aslamov"],
     cardIdentifier: "macho-grande-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR027.width-450.png",
@@ -37744,6 +38629,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Andy Aslamov"],
     cardIdentifier: "macho-grande-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR028.width-450.png",
@@ -37782,6 +38668,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Andy Aslamov"],
     cardIdentifier: "macho-grande-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR029.width-450.png",
@@ -37820,6 +38707,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Kyxarie Peralta"],
     cardIdentifier: "seismic-stir-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR030.width-450.png",
@@ -37852,6 +38740,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Kyxarie Peralta"],
     cardIdentifier: "seismic-stir-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR031.width-450.png",
@@ -37884,6 +38773,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Kyxarie Peralta"],
     cardIdentifier: "seismic-stir-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR032.width-450.png",
@@ -37916,6 +38806,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Faizal Fikri"],
     cardIdentifier: "break-tide-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR038.width-450.png",
@@ -37948,6 +38839,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Rio Sabda"],
     cardIdentifier: "spring-tidings-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR039.width-450.png",
@@ -37980,6 +38872,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "winds-of-eternity-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR040.width-450.png",
@@ -38018,6 +38911,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "hundred-winds-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR041.width-450.png",
@@ -38056,6 +38950,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "hundred-winds-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR042.width-450.png",
@@ -38094,6 +38989,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "hundred-winds-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR043.width-450.png",
@@ -38132,6 +39028,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Rio Sabda"],
     cardIdentifier: "ride-the-tailwind-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR044.width-450.png",
@@ -38164,6 +39061,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Rio Sabda"],
     cardIdentifier: "ride-the-tailwind-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR045.width-450.png",
@@ -38196,6 +39094,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Rio Sabda"],
     cardIdentifier: "ride-the-tailwind-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR046.width-450.png",
@@ -38228,6 +39127,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Faizal Fikri"],
     cardIdentifier: "twin-twisters-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR047.width-450.png",
@@ -38260,6 +39160,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Faizal Fikri"],
     cardIdentifier: "twin-twisters-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR048.width-450.png",
@@ -38292,6 +39193,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Faizal Fikri"],
     cardIdentifier: "twin-twisters-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR049.width-450.png",
@@ -38324,6 +39226,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "blood-on-her-hands-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR055.width-450.png",
@@ -38356,6 +39259,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Hoàng Lập"],
     cardIdentifier: "oath-of-steel-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR056.width-450.png",
@@ -38388,6 +39292,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Federico Musetti"],
     cardIdentifier: "slice-and-dice-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR057.width-450.png",
@@ -38426,6 +39331,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Federico Musetti"],
     cardIdentifier: "slice-and-dice-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR058.width-450.png",
@@ -38470,6 +39376,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Federico Musetti"],
     cardIdentifier: "slice-and-dice-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR059.width-450.png",
@@ -38508,6 +39415,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Rio Sabda"],
     cardIdentifier: "outland-skirmish-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR066.width-450.png",
@@ -38540,6 +39448,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Rio Sabda"],
     cardIdentifier: "outland-skirmish-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR067.width-450.png",
@@ -38572,6 +39481,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Rio Sabda"],
     cardIdentifier: "outland-skirmish-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR068.width-450.png",
@@ -38604,6 +39514,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Athiwut B."],
     cardIdentifier: "dissolution-sphere-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR069.width-450.png",
@@ -38636,6 +39547,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "micro-processor-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR070.width-450.png",
@@ -38668,6 +39580,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "signal-jammer-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR071.width-450.png",
@@ -38700,6 +39613,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Athiwut B."],
     cardIdentifier: "teklo-pounder-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR072.width-450.png",
@@ -38732,6 +39646,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "t-bone-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR073.width-450.png",
@@ -38764,6 +39679,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "t-bone-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR074.width-450.png",
@@ -38796,6 +39712,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "t-bone-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR075.width-450.png",
@@ -38828,6 +39745,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "payload-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR076.width-450.png",
@@ -38860,6 +39778,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "payload-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR077.width-450.png",
@@ -38892,6 +39811,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "payload-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR078.width-450.png",
@@ -38924,6 +39844,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "zoom-in-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR079.width-450.png",
@@ -38956,6 +39877,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "zoom-in-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR080.width-450.png",
@@ -38988,6 +39910,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "zoom-in-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR081.width-450.png",
@@ -39020,6 +39943,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "rotary-ram-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR082.width-450.png",
@@ -39052,6 +39976,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "rotary-ram-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR083.width-450.png",
@@ -39084,6 +40009,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "rotary-ram-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR084.width-450.png",
@@ -39116,6 +40042,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "battering-bolt-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR088.width-450.png",
@@ -39148,6 +40075,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["bimawithpencil"],
     cardIdentifier: "tri-shot-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR089.width-450.png",
@@ -39180,6 +40108,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "release-the-tension-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR091.width-450.png",
@@ -39218,6 +40147,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "release-the-tension-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR092.width-450.png",
@@ -39256,6 +40186,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "release-the-tension-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR093.width-450.png",
@@ -39294,6 +40225,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Marco González"],
     cardIdentifier: "fatigue-shot-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR094.width-450.png",
@@ -39326,6 +40258,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Marco González"],
     cardIdentifier: "fatigue-shot-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR095.width-450.png",
@@ -39358,6 +40291,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Marco González"],
     cardIdentifier: "fatigue-shot-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR096.width-450.png",
@@ -39390,6 +40324,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "timidity-point-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR097.width-450.png",
@@ -39422,6 +40357,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "timidity-point-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR098.width-450.png",
@@ -39454,6 +40390,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "timidity-point-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR099.width-450.png",
@@ -39486,6 +40423,7 @@
     subType: ActionSubType.Arrow,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Patchanee Treedet"],
     cardIdentifier: "read-the-glide-path-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR100.width-450.png",
@@ -39518,6 +40456,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Patchanee Treedet"],
     cardIdentifier: "read-the-glide-path-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR101.width-450.png",
@@ -39550,6 +40489,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Patchanee Treedet"],
     cardIdentifier: "read-the-glide-path-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR102.width-450.png",
@@ -39582,6 +40522,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "runic-reclamation-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR104.width-450.png",
@@ -39614,6 +40555,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Phu Thieu"],
     cardIdentifier: "swarming-gloomveil-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR105.width-450.png",
@@ -39646,6 +40588,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "revel-in-runeblood-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR106.width-450.png",
@@ -39678,6 +40621,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Henrique Lindner"],
     cardIdentifier: "runeblood-incantation-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR107.width-450.png",
@@ -39716,6 +40660,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Henrique Lindner"],
     cardIdentifier: "runeblood-incantation-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR108.width-450.png",
@@ -39754,6 +40699,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Henrique Lindner"],
     cardIdentifier: "runeblood-incantation-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR109.width-450.png",
@@ -39792,6 +40738,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Stanislov Sherbakov"],
     cardIdentifier: "drowning-dire-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR110.width-450.png",
@@ -39824,6 +40771,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Stanislov Sherbakov"],
     cardIdentifier: "drowning-dire-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR111.width-450.png",
@@ -39856,6 +40804,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Stanislov Sherbakov"],
     cardIdentifier: "drowning-dire-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR112.width-450.png",
@@ -39888,6 +40837,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Jen Santos"],
     cardIdentifier: "reek-of-corruption-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR113.width-450.png",
@@ -39920,6 +40870,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Jen Santos"],
     cardIdentifier: "reek-of-corruption-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR114.width-450.png",
@@ -39952,6 +40903,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Jen Santos"],
     cardIdentifier: "reek-of-corruption-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR115.width-450.png",
@@ -39984,6 +40936,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Mihail Spil-Haufter"],
     cardIdentifier: "shrill-of-skullform-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR116.width-450.png",
@@ -40016,6 +40969,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Mihail Spil-Haufter"],
     cardIdentifier: "shrill-of-skullform-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR117.width-450.png",
@@ -40048,6 +41002,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Mihail Spil-Haufter"],
     cardIdentifier: "shrill-of-skullform-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR118.width-450.png",
@@ -40080,6 +41035,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Mark Poole"],
     cardIdentifier: "aether-wildfire-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR123.width-450.png",
@@ -40118,6 +41074,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Faizal Fikri"],
     cardIdentifier: "scour-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR124.width-450.png",
@@ -40150,6 +41107,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "emeritus-scolding-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR125.width-450.png",
@@ -40188,6 +41146,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "emeritus-scolding-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR126.width-450.png",
@@ -40226,6 +41185,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "emeritus-scolding-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR127.width-450.png",
@@ -40264,6 +41224,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Alexis Susani"],
     cardIdentifier: "pry-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR128.width-450.png",
@@ -40296,6 +41257,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Alexis Susani"],
     cardIdentifier: "pry-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR129.width-450.png",
@@ -40328,6 +41290,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Alexis Susani"],
     cardIdentifier: "pry-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR130.width-450.png",
@@ -40360,6 +41323,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Marco González"],
     cardIdentifier: "pyroglyphic-protection-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR131.width-450.png",
@@ -40392,6 +41356,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Marco González"],
     cardIdentifier: "pyroglyphic-protection-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR132.width-450.png",
@@ -40424,6 +41389,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Marco González"],
     cardIdentifier: "pyroglyphic-protection-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR133.width-450.png",
@@ -40456,6 +41422,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Riordan Delmiro"],
     cardIdentifier: "timekeepers-whim-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR134.width-450.png",
@@ -40488,6 +41455,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Riordan Delmiro"],
     cardIdentifier: "timekeepers-whim-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR135.width-450.png",
@@ -40520,6 +41488,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Riordan Delmiro"],
     cardIdentifier: "timekeepers-whim-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR136.width-450.png",
@@ -40552,6 +41521,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Hoàng Lập"],
     cardIdentifier: "fractal-replication-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR138.width-450.png",
@@ -40584,6 +41554,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Asur Misoa"],
     cardIdentifier: "miraging-metamorph-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR139.width-450.png",
@@ -40616,6 +41587,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Hoàng Lập"],
     cardIdentifier: "shimmers-of-silver-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR140.width-450.png",
@@ -40648,6 +41620,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Saad Irfan"],
     cardIdentifier: "haze-bending-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR141.width-450.png",
@@ -40686,6 +41659,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Saad Irfan"],
     cardIdentifier: "passing-mirage-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR142.width-450.png",
@@ -40724,6 +41698,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Saad Irfan"],
     cardIdentifier: "pierce-reality-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR143.width-450.png",
@@ -40762,6 +41737,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "coalescence-mirage-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR144.width-450.png",
@@ -40794,6 +41770,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "coalescence-mirage-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR145.width-450.png",
@@ -40826,6 +41803,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "coalescence-mirage-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR146.width-450.png",
@@ -40858,6 +41836,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Marco González"],
     cardIdentifier: "phantasmal-haze-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR147.width-450.png",
@@ -40890,6 +41869,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Marco González"],
     cardIdentifier: "phantasmal-haze-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR148.width-450.png",
@@ -40922,6 +41902,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Marco González"],
     cardIdentifier: "phantasmal-haze-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR149.width-450.png",
@@ -40954,6 +41935,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "veiled-intentions-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR150.width-450.png",
@@ -40986,6 +41968,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "veiled-intentions-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR151.width-450.png",
@@ -41018,6 +42001,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "veiled-intentions-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR152.width-450.png",
@@ -41050,6 +42034,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "bingo-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR156.width-450.png",
@@ -41082,6 +42067,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Marco Wulfr"],
     cardIdentifier: "firebreathing-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR157.width-450.png",
@@ -41114,6 +42100,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "cash-out-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR158.width-450.png",
@@ -41146,6 +42133,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "knick-knack-bric-a-brac-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR159.width-450.png",
@@ -41184,6 +42172,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "this-rounds-on-me-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR160.width-450.png",
@@ -41216,6 +42205,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Sam Yang"],
     cardIdentifier: "life-of-the-party-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR161.width-450.png",
@@ -41254,6 +42244,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Sam Yang"],
     cardIdentifier: "life-of-the-party-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR162.width-450.png",
@@ -41292,6 +42283,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Sam Yang"],
     cardIdentifier: "life-of-the-party-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR163.width-450.png",
@@ -41330,6 +42322,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Marco Wulfr"],
     cardIdentifier: "high-striker-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR164.width-450.png",
@@ -41368,6 +42361,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Marco Wulfr"],
     cardIdentifier: "high-striker-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR165.width-450.png",
@@ -41406,6 +42400,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Marco Wulfr"],
     cardIdentifier: "high-striker-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR166.width-450.png",
@@ -41444,6 +42439,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "pick-a-card-any-card-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR167.width-450.png",
@@ -41482,6 +42478,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "pick-a-card-any-card-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR168.width-450.png",
@@ -41520,6 +42517,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "pick-a-card-any-card-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR169.width-450.png",
@@ -41558,6 +42556,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "smashing-good-time-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR170.width-450.png",
@@ -41590,6 +42589,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "smashing-good-time-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR171.width-450.png",
@@ -41622,6 +42622,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "smashing-good-time-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR172.width-450.png",
@@ -41654,6 +42655,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["bimawithpencil"],
     cardIdentifier: "amulet-of-assertiveness-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR176.width-450.png",
@@ -41686,6 +42688,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Maxim Kostin"],
     cardIdentifier: "amulet-of-echoes-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR177.width-450.png",
@@ -41718,6 +42721,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "amulet-of-havencall-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR178.width-450.png",
@@ -41750,6 +42754,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Dmitry Isakevitch"],
     cardIdentifier: "amulet-of-ignition-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR179.width-450.png",
@@ -41782,6 +42787,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Henrique Lindner"],
     cardIdentifier: "amulet-of-intervention-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR180.width-450.png",
@@ -41814,6 +42820,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Alexis Susani"],
     cardIdentifier: "amulet-of-oblation-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR181.width-450.png",
@@ -41846,6 +42853,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Immanuela Crovius"],
     cardIdentifier: "clarity-potion-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR182.width-450.png",
@@ -41878,6 +42886,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Simon Wong"],
     cardIdentifier: "healing-potion-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR183.width-450.png",
@@ -41910,6 +42919,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Alexandra Malygina"],
     cardIdentifier: "potion-of-seeing-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR184.width-450.png",
@@ -41942,6 +42952,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Saad Irfan"],
     cardIdentifier: "potion-of-deja-vu-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR185.width-450.png",
@@ -41974,6 +42985,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Marco Wulfr"],
     cardIdentifier: "potion-of-ironhide-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR186.width-450.png",
@@ -42006,6 +43018,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Enmoire"],
     cardIdentifier: "potion-of-luck-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR187.width-450.png",
@@ -42038,6 +43051,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Brian Adriel"],
     cardIdentifier: "talisman-of-balance-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR188.width-450.png",
@@ -42070,6 +43084,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Henrique Lindner"],
     cardIdentifier: "talisman-of-cremation-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR189.width-450.png",
@@ -42102,6 +43117,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Lizhe Liang"],
     cardIdentifier: "talisman-of-featherfoot-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR190.width-450.png",
@@ -42134,6 +43150,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Alexandra Malygina"],
     cardIdentifier: "talisman-of-recompense-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR191.width-450.png",
@@ -42166,6 +43183,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Kanadekana"],
     cardIdentifier: "talisman-of-tithes-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR192.width-450.png",
@@ -42198,6 +43216,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Dmitry Isakevitch"],
     cardIdentifier: "talisman-of-warfare-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR193.width-450.png",
@@ -42230,6 +43249,7 @@
     subType: ActionSubType.Item,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "glistening-steelblade-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/DVR008.width-450.png",
@@ -42262,6 +43282,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Henrique Lindner"],
     cardIdentifier: "en-garde-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/DVR009.width-450.png",
@@ -42294,6 +43315,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "on-a-knife-edge-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/DVR019.width-450.png",
@@ -42326,6 +43348,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "visit-the-blacksmith-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/DVR022.width-450.png",
@@ -42358,6 +43381,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "beast-mode-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/RVD009.width-450.png",
@@ -42390,6 +43414,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Henrique Lindner"],
     cardIdentifier: "wrecking-ball-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/RVD013.width-450.png",
@@ -42422,6 +43447,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Kevin Sidharta"],
     cardIdentifier: "pack-call-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/RVD015.width-450.png",
@@ -42454,6 +43480,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Yugin Maffioli"],
     cardIdentifier: "muscle-mutt-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/RVD018.width-450.png",
@@ -42486,6 +43513,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Stanislav Sherbakov"],
     cardIdentifier: "clearing-bellow-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/RVD025.width-450.png",
@@ -42518,6 +43546,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Riordan Delmiro"],
     cardIdentifier: "burn-them-all-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR005.png",
@@ -42550,6 +43579,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "invoke-dracona-optimai-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR006.png",
@@ -42588,6 +43618,7 @@
     subType: ActionSubType.Invocation,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Federico Musetti"],
     cardIdentifier: "invoke-tomeltai-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR007.png",
@@ -42626,6 +43657,7 @@
     subType: ActionSubType.Invocation,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Steve Argyle"],
     cardIdentifier: "invoke-dominia-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR008.png",
@@ -42664,6 +43696,7 @@
     subType: ActionSubType.Invocation,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Federico Musetti"],
     cardIdentifier: "invoke-azvolai-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR009.png",
@@ -42702,6 +43735,7 @@
     subType: ActionSubType.Invocation,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Asur Misoa"],
     cardIdentifier: "invoke-cromai-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR010.png",
@@ -42740,6 +43774,7 @@
     subType: ActionSubType.Invocation,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Steve Argyle"],
     cardIdentifier: "invoke-kyloria-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR011.png",
@@ -42778,6 +43813,7 @@
     subType: ActionSubType.Invocation,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "invoke-miragai-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR012.png",
@@ -42816,6 +43852,7 @@
     subType: ActionSubType.Invocation,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "invoke-nekria-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR013.png",
@@ -42854,6 +43891,7 @@
     subType: ActionSubType.Invocation,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Mihail Spil-Haufter"],
     cardIdentifier: "invoke-ouvia-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR014.png",
@@ -42892,6 +43930,7 @@
     subType: ActionSubType.Invocation,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "invoke-themai-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR015.png",
@@ -42930,6 +43969,7 @@
     subType: ActionSubType.Invocation,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "invoke-vynserakai-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR016.png",
@@ -42968,6 +44008,7 @@
     subType: ActionSubType.Invocation,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "invoke-yendurai-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR017.png",
@@ -43006,6 +44047,7 @@
     subType: ActionSubType.Invocation,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Hoàng Lập"],
     cardIdentifier: "billowing-mirage-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR018.png",
@@ -43038,6 +44080,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Hoàng Lập"],
     cardIdentifier: "billowing-mirage-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR019.png",
@@ -43070,6 +44113,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Hoàng Lập"],
     cardIdentifier: "billowing-mirage-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR020.png",
@@ -43102,6 +44146,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Rio Sabda"],
     cardIdentifier: "dunebreaker-cenipai-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR021.png",
@@ -43134,6 +44179,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Rio Sabda"],
     cardIdentifier: "dunebreaker-cenipai-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR022.png",
@@ -43166,6 +44212,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Rio Sabda"],
     cardIdentifier: "dunebreaker-cenipai-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR023.png",
@@ -43198,6 +44245,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Marco González"],
     cardIdentifier: "dustup-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR024.png",
@@ -43230,6 +44278,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Marco González"],
     cardIdentifier: "dustup-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR025.png",
@@ -43262,6 +44311,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Marco González"],
     cardIdentifier: "dustup-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR026.png",
@@ -43294,6 +44344,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Narendra B Adi"],
     cardIdentifier: "embermaw-cenipai-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR027.png",
@@ -43326,6 +44377,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Narendra B Adi"],
     cardIdentifier: "embermaw-cenipai-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR028.png",
@@ -43358,6 +44410,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Narendra B Adi"],
     cardIdentifier: "embermaw-cenipai-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR029.png",
@@ -43390,6 +44443,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "sweeping-blow-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR030.png",
@@ -43422,6 +44476,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "sweeping-blow-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR031.png",
@@ -43454,6 +44509,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "sweeping-blow-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR032.png",
@@ -43486,6 +44542,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Henrique Lindner"],
     cardIdentifier: "rake-the-embers-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR033.png",
@@ -43518,6 +44575,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Henrique Lindner"],
     cardIdentifier: "rake-the-embers-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR034.png",
@@ -43550,6 +44608,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Henrique Lindner"],
     cardIdentifier: "rake-the-embers-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR035.png",
@@ -43582,6 +44641,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Marco González"],
     cardIdentifier: "skittering-sands-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR036.png",
@@ -43614,6 +44674,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Marco González"],
     cardIdentifier: "skittering-sands-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR037.png",
@@ -43646,6 +44707,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Marco González"],
     cardIdentifier: "skittering-sands-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR038.png",
@@ -43678,6 +44740,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "phoenix-form-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR048.png",
@@ -43716,6 +44779,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Faizal Fikri"],
     cardIdentifier: "spreading-flames-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR049.png",
@@ -43748,6 +44812,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["bimawithpencil"],
     cardIdentifier: "engulfing-flamewave-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR051.png",
@@ -43780,6 +44845,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["bimawithpencil"],
     cardIdentifier: "engulfing-flamewave-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR052.png",
@@ -43812,6 +44878,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["bimawithpencil"],
     cardIdentifier: "engulfing-flamewave-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR053.png",
@@ -43844,6 +44911,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "mounting-anger-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR054.png",
@@ -43876,6 +44944,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "mounting-anger-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR055.png",
@@ -43908,6 +44977,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "mounting-anger-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR056.png",
@@ -43940,6 +45010,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "rise-from-the-ashes-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR057.png",
@@ -43972,6 +45043,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "rise-from-the-ashes-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR058.png",
@@ -44004,6 +45076,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "rise-from-the-ashes-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR059.png",
@@ -44036,6 +45109,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["BWusagi"],
     cardIdentifier: "brand-with-cinderclaw-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR060.png",
@@ -44068,6 +45142,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["BWusagi"],
     cardIdentifier: "brand-with-cinderclaw-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR061.png",
@@ -44100,6 +45175,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["BWusagi"],
     cardIdentifier: "brand-with-cinderclaw-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR062.png",
@@ -44132,6 +45208,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Athiwut B."],
     cardIdentifier: "cinderskin-devotion-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR063.png",
@@ -44164,6 +45241,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Athiwut B."],
     cardIdentifier: "cinderskin-devotion-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR064.png",
@@ -44196,6 +45274,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Athiwut B."],
     cardIdentifier: "cinderskin-devotion-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR065.png",
@@ -44228,6 +45307,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "dust-runner-outlaw-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR066.png",
@@ -44260,6 +45340,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "dust-runner-outlaw-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR067.png",
@@ -44292,6 +45373,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "dust-runner-outlaw-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR068.png",
@@ -44324,6 +45406,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Maerel Hibadita"],
     cardIdentifier: "lava-vein-loyalty-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR069.png",
@@ -44356,6 +45439,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Maerel Hibadita"],
     cardIdentifier: "lava-vein-loyalty-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR070.png",
@@ -44388,6 +45472,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Maerel Hibadita"],
     cardIdentifier: "lava-vein-loyalty-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR071.png",
@@ -44420,6 +45505,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Rio Sabda"],
     cardIdentifier: "rebellious-rush-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR072.png",
@@ -44452,6 +45538,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Rio Sabda"],
     cardIdentifier: "rebellious-rush-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR073.png",
@@ -44484,6 +45571,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Rio Sabda"],
     cardIdentifier: "rebellious-rush-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR074.png",
@@ -44516,6 +45604,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "rising-resentment-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR075.png",
@@ -44548,6 +45637,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "rising-resentment-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR076.png",
@@ -44580,6 +45670,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "rising-resentment-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR077.png",
@@ -44612,6 +45703,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Phu Thieu"],
     cardIdentifier: "ronin-renegade-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR078.png",
@@ -44644,6 +45736,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Phu Thieu"],
     cardIdentifier: "ronin-renegade-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR079.png",
@@ -44676,6 +45769,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Phu Thieu"],
     cardIdentifier: "ronin-renegade-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR080.png",
@@ -44708,6 +45802,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Simon Wong"],
     cardIdentifier: "soaring-strike-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR081.png",
@@ -44740,6 +45835,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Simon Wong"],
     cardIdentifier: "soaring-strike-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR082.png",
@@ -44772,6 +45868,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Simon Wong"],
     cardIdentifier: "soaring-strike-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR083.png",
@@ -44804,6 +45901,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Hoàng Lập"],
     cardIdentifier: "thaw-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR086.png",
@@ -44836,6 +45934,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Pavel Kondrashov"],
     cardIdentifier: "uprising-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR088.png",
@@ -44868,6 +45967,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Federico Musetti"],
     cardIdentifier: "red-hot-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR090.png",
@@ -44900,6 +46000,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "rise-up-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR091.png",
@@ -44932,6 +46033,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "blaze-headlong-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR092.png",
@@ -44964,6 +46066,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Henrique Lindner"],
     cardIdentifier: "breaking-point-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR093.png",
@@ -44996,6 +46099,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Federico Musetti"],
     cardIdentifier: "burn-away-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR094.png",
@@ -45028,6 +46132,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "flameborn-retribution-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR095.png",
@@ -45060,6 +46165,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "flamecall-awakening-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR096.png",
@@ -45098,6 +46204,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Henrique Lindner"],
     cardIdentifier: "inflame-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR097.png",
@@ -45136,6 +46243,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Faizal Fikri"],
     cardIdentifier: "lava-burst-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR098.png",
@@ -45168,6 +46276,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Narendra B Adi"],
     cardIdentifier: "searing-touch-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR099.png",
@@ -45200,6 +46309,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Shen Fei"],
     cardIdentifier: "stoke-the-flames-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR100.png",
@@ -45238,6 +46348,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "phoenix-flame-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR101.png",
@@ -45276,6 +46387,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "encase-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR104.png",
@@ -45308,6 +46420,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "freezing-point-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR105.png",
@@ -45340,6 +46453,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Federico Musetti"],
     cardIdentifier: "ice-eternal-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR109.png",
@@ -45372,6 +46486,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "succumb-to-winter-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR110.png",
@@ -45404,6 +46519,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "succumb-to-winter-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR111.png",
@@ -45436,6 +46552,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "succumb-to-winter-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR112.png",
@@ -45468,6 +46585,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Rio Sabda"],
     cardIdentifier: "aether-icevein-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR113.png",
@@ -45500,6 +46618,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Rio Sabda"],
     cardIdentifier: "aether-icevein-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR114.png",
@@ -45532,6 +46651,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Rio Sabda"],
     cardIdentifier: "aether-icevein-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR115.png",
@@ -45564,6 +46684,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Riordan Delmiro"],
     cardIdentifier: "brain-freeze-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR116.png",
@@ -45596,6 +46717,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Riordan Delmiro"],
     cardIdentifier: "brain-freeze-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR117.png",
@@ -45628,6 +46750,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Riordan Delmiro"],
     cardIdentifier: "brain-freeze-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR118.png",
@@ -45660,6 +46783,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "icebind-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR119.png",
@@ -45692,6 +46816,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "icebind-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR120.png",
@@ -45724,6 +46849,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "icebind-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR121.png",
@@ -45756,6 +46882,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Septimius Ferdian"],
     cardIdentifier: "polar-cap-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR122.png",
@@ -45788,6 +46915,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Septimius Ferdian"],
     cardIdentifier: "polar-cap-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR123.png",
@@ -45820,6 +46948,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Septimius Ferdian"],
     cardIdentifier: "polar-cap-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR124.png",
@@ -45852,6 +46981,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "frost-hex-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR126.png",
@@ -45890,6 +47020,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Junaidi Lim"],
     cardIdentifier: "aether-hail-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR127.png",
@@ -45922,6 +47053,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Junaidi Lim"],
     cardIdentifier: "aether-hail-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR128.png",
@@ -45954,6 +47086,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Junaidi Lim"],
     cardIdentifier: "aether-hail-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR129.png",
@@ -45986,6 +47119,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Immanuela Crovius"],
     cardIdentifier: "frosting-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR130.png",
@@ -46018,6 +47152,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Immanuela Crovius"],
     cardIdentifier: "frosting-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR131.png",
@@ -46050,6 +47185,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Immanuela Crovius"],
     cardIdentifier: "frosting-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR132.png",
@@ -46082,6 +47218,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Sam Yang"],
     cardIdentifier: "ice-bolt-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR133.png",
@@ -46114,6 +47251,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Sam Yang"],
     cardIdentifier: "ice-bolt-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR134.png",
@@ -46146,6 +47284,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Sam Yang"],
     cardIdentifier: "ice-bolt-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR135.png",
@@ -46178,6 +47317,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Mihail Spil-Haufter"],
     cardIdentifier: "channel-the-bleak-expanse-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR138.png",
@@ -46210,6 +47350,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Alexis Susani"],
     cardIdentifier: "hypothermia-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR139.png",
@@ -46242,6 +47383,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Mark Poole"],
     cardIdentifier: "insidious-chill-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR140.png",
@@ -46274,6 +47416,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Lizhe Liang"],
     cardIdentifier: "isenhowl-weathervane-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR141.png",
@@ -46306,6 +47449,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Lizhe Liang"],
     cardIdentifier: "isenhowl-weathervane-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR142.png",
@@ -46338,6 +47482,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Lizhe Liang"],
     cardIdentifier: "isenhowl-weathervane-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR143.png",
@@ -46370,6 +47515,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Narendra B Adi"],
     cardIdentifier: "arctic-incarceration-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR144.png",
@@ -46402,6 +47548,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Narendra B Adi"],
     cardIdentifier: "arctic-incarceration-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR145.png",
@@ -46434,6 +47581,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Narendra B Adi"],
     cardIdentifier: "arctic-incarceration-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR146.png",
@@ -46466,6 +47614,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "cold-snap-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR147.png",
@@ -46498,6 +47647,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "cold-snap-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR148.png",
@@ -46530,6 +47680,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "cold-snap-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR149.png",
@@ -46562,6 +47713,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["BWusagi"],
     cardIdentifier: "frightmare-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR153.png",
@@ -46594,6 +47746,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "transmogrify-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR155.png",
@@ -46626,6 +47779,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "transmogrify-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR156.png",
@@ -46658,6 +47812,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "transmogrify-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR157.png",
@@ -46690,6 +47845,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Faizal Fikri"],
     cardIdentifier: "double-strike-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR160.png",
@@ -46722,6 +47878,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "take-the-tempo-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR161.png",
@@ -46754,6 +47911,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Henrique Lindner"],
     cardIdentifier: "tome-of-duplicity-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR168.png",
@@ -46786,6 +47944,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Marco González"],
     cardIdentifier: "dampen-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR170.png",
@@ -46818,6 +47977,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Marco González"],
     cardIdentifier: "dampen-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR171.png",
@@ -46850,6 +48010,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Marco González"],
     cardIdentifier: "dampen-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR172.png",
@@ -46882,6 +48043,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "aether-dart-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR173.png",
@@ -46914,6 +48076,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "aether-dart-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR174.png",
@@ -46946,6 +48109,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "aether-dart-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR175.png",
@@ -46978,6 +48142,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Joseph Qiu"],
     cardIdentifier: "read-the-ripples-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR176.png",
@@ -47010,6 +48175,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Joseph Qiu"],
     cardIdentifier: "read-the-ripples-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR177.png",
@@ -47042,6 +48208,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Joseph Qiu"],
     cardIdentifier: "read-the-ripples-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR178.png",
@@ -47074,6 +48241,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Marco González"],
     cardIdentifier: "singe-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR179.png",
@@ -47106,6 +48274,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Marco González"],
     cardIdentifier: "singe-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR180.png",
@@ -47138,6 +48307,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Marco González"],
     cardIdentifier: "singe-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR181.png",
@@ -47170,6 +48340,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Riordan Delmiro"],
     cardIdentifier: "erase-face-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR187.png",
@@ -47202,6 +48373,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "vipox-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR188.png",
@@ -47234,6 +48406,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "fog-down-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR190.png",
@@ -47266,6 +48439,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Todor Hristov"],
     cardIdentifier: "flex-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR191.png",
@@ -47298,6 +48472,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Todor Hristov"],
     cardIdentifier: "flex-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR192.png",
@@ -47330,6 +48505,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Todor Hristov"],
     cardIdentifier: "flex-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR193.png",
@@ -47362,6 +48538,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Joseph Qiu"],
     cardIdentifier: "fyendals-fighting-spirit-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR194.png",
@@ -47394,6 +48571,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Joseph Qiu"],
     cardIdentifier: "fyendals-fighting-spirit-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR195.png",
@@ -47426,6 +48604,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Joseph Qiu"],
     cardIdentifier: "fyendals-fighting-spirit-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR196.png",
@@ -47458,6 +48637,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "sift-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR197.png",
@@ -47490,6 +48670,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "sift-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR198.png",
@@ -47522,6 +48703,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "sift-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR199.png",
@@ -47554,6 +48736,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Peyeyo"],
     cardIdentifier: "strategic-planning-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR200.png",
@@ -47586,6 +48769,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Peyeyo"],
     cardIdentifier: "strategic-planning-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR201.png",
@@ -47618,6 +48802,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Peyeyo"],
     cardIdentifier: "strategic-planning-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR202.png",
@@ -47650,6 +48835,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Peyeyo"],
     cardIdentifier: "brothers-in-arms-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR203.png",
@@ -47682,6 +48868,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Peyeyo"],
     cardIdentifier: "brothers-in-arms-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR204.png",
@@ -47714,6 +48901,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Peyeyo"],
     cardIdentifier: "brothers-in-arms-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR205.png",
@@ -47746,6 +48934,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Phu Thieu"],
     cardIdentifier: "critical-strike-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR206.png",
@@ -47778,6 +48967,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Phu Thieu"],
     cardIdentifier: "critical-strike-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR207.png",
@@ -47810,6 +49000,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Phu Thieu"],
     cardIdentifier: "critical-strike-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR208.png",
@@ -47842,6 +49033,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Tanapon Wachirakul"],
     cardIdentifier: "trade-in-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR212.png",
@@ -47874,6 +49066,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Tanapon Wachirakul"],
     cardIdentifier: "trade-in-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR213.png",
@@ -47906,6 +49099,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Tanapon Wachirakul"],
     cardIdentifier: "trade-in-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR214.png",
@@ -47938,6 +49132,7 @@
     subType: ActionSubType.Attack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Dmitry Isakevitch"],
     cardIdentifier: "healing-balm-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR215.png",
@@ -47970,6 +49165,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Dmitry Isakevitch"],
     cardIdentifier: "healing-balm-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR216.png",
@@ -48002,6 +49198,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Dmitry Isakevitch"],
     cardIdentifier: "healing-balm-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR217.png",
@@ -48034,6 +49231,7 @@
     subType: ActionSubType.NonAttack,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Alexandra Malygina"],
     cardIdentifier: "sigil-of-protection-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR218.png",
@@ -48066,6 +49264,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Alexandra Malygina"],
     cardIdentifier: "sigil-of-protection-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR219.png",
@@ -48098,6 +49297,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Alexandra Malygina"],
     cardIdentifier: "sigil-of-protection-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR220.png",
@@ -48132,6 +49332,7 @@
 
   const attackReactions: ActionCard[] = [{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "ancestral-empowerment-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR082.png",
@@ -48176,6 +49377,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "glint-the-quicksilver-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR118.png",
@@ -48220,6 +49422,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "rout-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR120.png",
@@ -48264,6 +49467,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "singing-steelblade-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR121.png",
@@ -48308,6 +49512,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Nikolai Maslakov"],
     cardIdentifier: "overpower-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR123.png",
@@ -48358,6 +49563,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Nikolai Maslakov"],
     cardIdentifier: "overpower-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR124.png",
@@ -48402,6 +49608,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Nikolai Maslakov"],
     cardIdentifier: "overpower-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR125.png",
@@ -48446,6 +49653,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "ironsong-response-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR132.png",
@@ -48508,6 +49716,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "ironsong-response-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR133.png",
@@ -48558,6 +49767,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "ironsong-response-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR134.png",
@@ -48614,6 +49824,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Wírawan Pranoto"],
     cardIdentifier: "biting-blade-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR135.png",
@@ -48658,6 +49869,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Wírawan Pranoto"],
     cardIdentifier: "biting-blade-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR136.png",
@@ -48696,6 +49908,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Wírawan Pranoto"],
     cardIdentifier: "biting-blade-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR137.png",
@@ -48740,6 +49953,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Sonia Sandoval"],
     cardIdentifier: "stroke-of-foresight-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR138.png",
@@ -48790,6 +50004,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Sonia Sandoval"],
     cardIdentifier: "stroke-of-foresight-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR139.png",
@@ -48840,6 +50055,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Sonia Sandoval"],
     cardIdentifier: "stroke-of-foresight-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR140.png",
@@ -48884,6 +50100,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Ksenia Belova"],
     cardIdentifier: "pummel-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR206.png",
@@ -48928,6 +50145,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Ksenia Belova"],
     cardIdentifier: "pummel-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR207.png",
@@ -48972,6 +50190,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Ksenia Belova"],
     cardIdentifier: "pummel-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR208.png",
@@ -49022,6 +50241,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "razor-reflex-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR209.png",
@@ -49072,6 +50292,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "razor-reflex-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR210.png",
@@ -49116,6 +50337,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "razor-reflex-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR211.png",
@@ -49160,6 +50382,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Marco Wulfr"],
     cardIdentifier: "twinning-blade-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU082.png",
@@ -49216,6 +50439,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "unified-decree-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU083.png",
@@ -49254,6 +50478,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Narendra B Adi"],
     cardIdentifier: "out-for-blood-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU088.png",
@@ -49298,6 +50523,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Narendra B Adi"],
     cardIdentifier: "out-for-blood-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU089.png",
@@ -49348,6 +50574,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Narendra B Adi"],
     cardIdentifier: "out-for-blood-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU090.png",
@@ -49392,6 +50619,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Sergey Gurskiy"],
     cardIdentifier: "lunging-press-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU186.png",
@@ -49442,6 +50670,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "beacon-of-victory-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON033.width-450.png",
@@ -49480,6 +50709,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Sam Yang"],
     cardIdentifier: "courageous-steelhand-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON057.width-450.png",
@@ -49524,6 +50754,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Sam Yang"],
     cardIdentifier: "courageous-steelhand-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON058.width-450.png",
@@ -49568,6 +50799,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Sam Yang"],
     cardIdentifier: "courageous-steelhand-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON059.width-450.png",
@@ -49606,6 +50838,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Yugin Maffioli"],
     cardIdentifier: "shatter-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR054.width-450.png",
@@ -49638,6 +50871,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Federico Musetti"],
     cardIdentifier: "blade-runner-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR060.width-450.png",
@@ -49670,6 +50904,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Federico Musetti"],
     cardIdentifier: "blade-runner-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR061.width-450.png",
@@ -49702,6 +50937,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Federico Musetti"],
     cardIdentifier: "blade-runner-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR062.width-450.png",
@@ -49734,6 +50970,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Phu Thieu","Bramasta Aji"],
     cardIdentifier: "in-the-swing-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR063.width-450.png",
@@ -49778,6 +51015,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Bramasta Aji"],
     cardIdentifier: "in-the-swing-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR064.width-450.png",
@@ -49810,6 +51048,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Bramasta Aji"],
     cardIdentifier: "in-the-swing-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR065.width-450.png",
@@ -49842,6 +51081,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Andy Aslamov"],
     cardIdentifier: "run-through-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/DVR013.width-450.png",
@@ -49874,6 +51114,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "thrust-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/DVR014.width-450.png",
@@ -49906,6 +51147,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Faizal Fikri"],
     cardIdentifier: "blade-flash-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/DVR023.width-450.png",
@@ -49938,6 +51180,7 @@
     
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Federico Musetti"],
     cardIdentifier: "combustion-point-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR050.png",
@@ -49970,6 +51213,7 @@
     
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Mark Poole"],
     cardIdentifier: "liquefy-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR087.png",
@@ -50002,6 +51246,7 @@
     
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Tommy Suhartono"],
     cardIdentifier: "rapid-reflex-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR162.png",
@@ -50034,6 +51279,7 @@
     
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Tommy Suhartono"],
     cardIdentifier: "rapid-reflex-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR163.png",
@@ -50066,6 +51312,7 @@
     
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Tommy Suhartono"],
     cardIdentifier: "rapid-reflex-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR164.png",
@@ -50099,6 +51346,7 @@
   }];
   const defenseReactions: ActionCard[] = [{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Arif Wijaya"],
     cardIdentifier: "reckless-swing-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR008.png",
@@ -50143,6 +51391,7 @@
     
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Nikolai Maslakov"],
     cardIdentifier: "staunch-response-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR051.png",
@@ -50187,6 +51436,7 @@
     
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Nikolai Maslakov"],
     cardIdentifier: "staunch-response-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR052.png",
@@ -50231,6 +51481,7 @@
     
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Nikolai Maslakov"],
     cardIdentifier: "staunch-response-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR053.png",
@@ -50281,6 +51532,7 @@
     
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Daniel Jiménez"],
     cardIdentifier: "flic-flak-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR092.png",
@@ -50325,6 +51577,7 @@
     
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Daniel Jiménez"],
     cardIdentifier: "flic-flak-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR093.png",
@@ -50369,6 +51622,7 @@
     
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Daniel Jiménez"],
     cardIdentifier: "flic-flak-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR094.png",
@@ -50419,6 +51673,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Cindy Handoyo"],
     cardIdentifier: "steelblade-shunt-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR126.png",
@@ -50469,6 +51724,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Cindy Handoyo"],
     cardIdentifier: "steelblade-shunt-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR127.png",
@@ -50513,6 +51769,7 @@
     
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Cindy Handoyo"],
     cardIdentifier: "steelblade-shunt-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR128.png",
@@ -50557,6 +51814,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Daniel Jiménez"],
     cardIdentifier: "unmovable-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR212.png",
@@ -50601,6 +51859,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Daniel Jiménez"],
     cardIdentifier: "unmovable-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR213.png",
@@ -50645,6 +51904,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Daniel Jiménez"],
     cardIdentifier: "unmovable-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR214.png",
@@ -50689,6 +51949,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Vlad Varlamov"],
     cardIdentifier: "sink-below-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR215.png",
@@ -50733,6 +51994,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Vlad Varlamov"],
     cardIdentifier: "sink-below-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR216.png",
@@ -50777,6 +52039,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Vlad Varlamov"],
     cardIdentifier: "sink-below-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR217.png",
@@ -50821,6 +52084,7 @@
     
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "take-cover-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC048.png",
@@ -50865,6 +52129,7 @@
     
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "take-cover-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC049.png",
@@ -50909,6 +52174,7 @@
     
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "take-cover-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC050.png",
@@ -50953,6 +52219,7 @@
     
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Yen Lee"],
     cardIdentifier: "reduce-to-runechant-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC088.png",
@@ -51015,6 +52282,7 @@
     
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Yen Lee"],
     cardIdentifier: "reduce-to-runechant-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC089.png",
@@ -51071,6 +52339,7 @@
     
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Yen Lee"],
     cardIdentifier: "reduce-to-runechant-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC090.png",
@@ -51127,6 +52396,7 @@
     
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Daria Cherkashina"],
     cardIdentifier: "absorb-in-aether-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC123.png",
@@ -51165,6 +52435,7 @@
     
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Daria Cherkashina"],
     cardIdentifier: "absorb-in-aether-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC124.png",
@@ -51203,6 +52474,7 @@
     
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Daria Cherkashina"],
     cardIdentifier: "absorb-in-aether-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC125.png",
@@ -51241,6 +52513,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Alexandra Malygina","Anastasia Alexandrova"],
     cardIdentifier: "fate-foreseen-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC200.png",
@@ -51291,6 +52564,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Anastasia Alexandrova"],
     cardIdentifier: "fate-foreseen-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC201.png",
@@ -51335,6 +52609,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Anastasia Alexandrova"],
     cardIdentifier: "fate-foreseen-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC202.png",
@@ -51379,6 +52654,7 @@
     
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Faizal Fikri"],
     cardIdentifier: "tripwire-trap-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU126.png",
@@ -51423,6 +52699,7 @@
     subType: ActionSubType.Trap,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Rio Sabda"],
     cardIdentifier: "pitfall-trap-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU127.png",
@@ -51467,6 +52744,7 @@
     subType: ActionSubType.Trap,
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Tatiana Trubnikova"],
     cardIdentifier: "rockslide-trap-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU128.png",
@@ -51511,6 +52789,7 @@
     subType: ActionSubType.Trap,
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "springboard-somersault-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU187.png",
@@ -51585,6 +52864,7 @@
     
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Marco Wulfr"],
     cardIdentifier: "soul-shield-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON063.width-450.png",
@@ -51623,6 +52903,7 @@
     
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "guardian-of-the-shadowrealm-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON192.width-450.png",
@@ -51661,6 +52942,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Saad Irfan"],
     cardIdentifier: "rise-above-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON257.width-450.png",
@@ -51699,6 +52981,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Saad Irfan"],
     cardIdentifier: "rise-above-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON258.width-450.png",
@@ -51737,6 +53020,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Saad Irfan"],
     cardIdentifier: "rise-above-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON259.width-450.png",
@@ -51775,6 +53059,7 @@
     
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Rio Sabda"],
     cardIdentifier: "biting-gale-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE007.width-450.png",
@@ -51813,6 +53098,7 @@
     
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Rio Sabda"],
     cardIdentifier: "biting-gale-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE008.width-450.png",
@@ -51857,6 +53143,7 @@
     
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Rio Sabda"],
     cardIdentifier: "biting-gale-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE009.width-450.png",
@@ -51895,6 +53182,7 @@
     
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "turn-timber-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE010.width-450.png",
@@ -51939,6 +53227,7 @@
     
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "turn-timber-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE011.width-450.png",
@@ -51977,6 +53266,7 @@
     
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "turn-timber-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE012.width-450.png",
@@ -52015,6 +53305,7 @@
     
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Milena Vasyukova"],
     cardIdentifier: "pulse-of-isenloft-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE114.width-450.png",
@@ -52053,6 +53344,7 @@
     
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Brian Adriel"],
     cardIdentifier: "sigil-of-suffering-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE227.width-450.png",
@@ -52091,6 +53383,7 @@
     
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Brian Adriel"],
     cardIdentifier: "sigil-of-suffering-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE228.width-450.png",
@@ -52129,6 +53422,7 @@
     
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Brian Adriel"],
     cardIdentifier: "sigil-of-suffering-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE229.width-450.png",
@@ -52167,6 +53461,7 @@
     
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Jason Kiantoro"],
     cardIdentifier: "wax-on-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR050.width-450.png",
@@ -52199,6 +53494,7 @@
     
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Jason Kiantoro"],
     cardIdentifier: "wax-on-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR051.width-450.png",
@@ -52231,6 +53527,7 @@
     
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Jason Kiantoro"],
     cardIdentifier: "wax-on-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR052.width-450.png",
@@ -52263,6 +53560,7 @@
     
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "sigil-of-parapets-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR122.width-450.png",
@@ -52295,6 +53593,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Federico Musetti"],
     cardIdentifier: "toughen-up-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/DVR024.width-450.png",
@@ -52327,6 +53626,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Faizal Fikri"],
     cardIdentifier: "dodge-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/RVD026.width-450.png",
@@ -52359,6 +53659,7 @@
     
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Hoàng Lập"],
     cardIdentifier: "sigil-of-permafrost-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR106.png",
@@ -52391,6 +53692,7 @@
     
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Hoàng Lập"],
     cardIdentifier: "sigil-of-permafrost-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR107.png",
@@ -52423,6 +53725,7 @@
     
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Hoàng Lập"],
     cardIdentifier: "sigil-of-permafrost-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR108.png",
@@ -52455,6 +53758,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "that-all-you-got-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR189.png",
@@ -52488,6 +53792,7 @@
   }];
   const instants: ActionCard[] = [{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Rachel Alderson"],
     cardIdentifier: "go-bananas-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/LSS002-P.width-450.png",
@@ -52520,6 +53825,7 @@
     
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Ksenia Belova"],
     cardIdentifier: "bone-head-barrier-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR010.png",
@@ -52558,6 +53864,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Vlad Varlamov"],
     cardIdentifier: "remembrance-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR163.png",
@@ -52596,6 +53903,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "sigil-of-solace-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR173.png",
@@ -52640,6 +53948,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "sigil-of-solace-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR174.png",
@@ -52684,6 +53993,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "sigil-of-solace-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR175.png",
@@ -52752,6 +54062,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Igor Heras"],
     cardIdentifier: "art-of-war-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC160.png",
@@ -52796,6 +54107,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Reza Afshar"],
     cardIdentifier: "eirinas-prayer-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC173.png",
@@ -52846,6 +54158,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Reza Afshar"],
     cardIdentifier: "eirinas-prayer-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC174.png",
@@ -52896,6 +54209,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Reza Afshar"],
     cardIdentifier: "eirinas-prayer-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC175.png",
@@ -52946,6 +54260,7 @@
     
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "blessing-of-serenity-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU041.png",
@@ -52984,6 +54299,7 @@
     
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "blessing-of-serenity-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU042.png",
@@ -53022,6 +54338,7 @@
     
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "blessing-of-serenity-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU043.png",
@@ -53060,6 +54377,7 @@
     
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Maxim Kostin"],
     cardIdentifier: "feign-death-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU125.png",
@@ -53104,6 +54422,7 @@
     
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Alexandra Malygina"],
     cardIdentifier: "aetherize-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU164.png",
@@ -53148,6 +54467,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "snag-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU182.png",
@@ -53192,6 +54512,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Shen Fei"],
     cardIdentifier: "reinforce-the-line-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU189.png",
@@ -53230,6 +54551,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Shen Fei"],
     cardIdentifier: "reinforce-the-line-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU190.png",
@@ -53268,6 +54590,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Shen Fei"],
     cardIdentifier: "reinforce-the-line-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU191.png",
@@ -53306,6 +54629,7 @@
     
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Sam Yang"],
     cardIdentifier: "arc-light-sentinel-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON005.width-450.png",
@@ -53344,6 +54668,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Alexander Gering"],
     cardIdentifier: "genesis-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON006.width-450.png",
@@ -53382,6 +54707,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Eleonor Piteira"],
     cardIdentifier: "parable-of-humility-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/16984263482378r4623792.width-450.png",
@@ -53426,6 +54752,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Eleonor Piteira"],
     cardIdentifier: "merciful-retribution-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON012.width-450.png",
@@ -53476,6 +54803,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Eleonor Piteira"],
     cardIdentifier: "ode-to-wrath-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON013.width-450.png",
@@ -53526,6 +54854,7 @@
     subType: ActionSubType.Aura,
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Alexander Gering"],
     cardIdentifier: "tome-of-divinity-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON065.width-450.png",
@@ -53564,6 +54893,7 @@
     
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Marco González"],
     cardIdentifier: "glisten-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON069.width-450.png",
@@ -53602,6 +54932,7 @@
     
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Marco González"],
     cardIdentifier: "glisten-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON070.width-450.png",
@@ -53640,6 +54971,7 @@
     
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Marco González"],
     cardIdentifier: "glisten-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON071.width-450.png",
@@ -53678,6 +55010,7 @@
     
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "blinding-beam-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON084.width-450.png",
@@ -53716,6 +55049,7 @@
     
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "blinding-beam-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON085.width-450.png",
@@ -53754,6 +55088,7 @@
     
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "blinding-beam-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON086.width-450.png",
@@ -53792,6 +55127,7 @@
     
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "ray-of-hope-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON087.width-450.png",
@@ -53836,6 +55172,7 @@
     
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "prismatic-shield-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON092.width-450.png",
@@ -53880,6 +55217,7 @@
     
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "prismatic-shield-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON093.width-450.png",
@@ -53918,6 +55256,7 @@
     
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "prismatic-shield-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON094.width-450.png",
@@ -53956,6 +55295,7 @@
     
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Federico Musetti"],
     cardIdentifier: "invert-existence-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON158.width-450.png",
@@ -53994,6 +55334,7 @@
     
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["soyameii"],
     cardIdentifier: "doomsday-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON189.width-450.png",
@@ -54032,6 +55373,7 @@
     
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "eclipse-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON190.width-450.png",
@@ -54070,6 +55412,7 @@
     
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "blood-tribute-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON215.width-450.png",
@@ -54108,6 +55451,7 @@
     
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "blood-tribute-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON216.width-450.png",
@@ -54146,6 +55490,7 @@
     
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "blood-tribute-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON217.width-450.png",
@@ -54190,6 +55535,7 @@
     
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "eclipse-existence-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON218.width-450.png",
@@ -54234,6 +55580,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Dmitry Isakevitch"],
     cardIdentifier: "memorial-ground-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON303.width-450.png",
@@ -54272,6 +55619,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Dmitry Isakevitch"],
     cardIdentifier: "memorial-ground-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON304.width-450.png",
@@ -54310,6 +55658,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Dmitry Isakevitch"],
     cardIdentifier: "memorial-ground-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON305.width-450.png",
@@ -54348,6 +55697,7 @@
     
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "awakening-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE006.width-450.png",
@@ -54386,6 +55736,7 @@
     
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Irina Plotnikova"],
     cardIdentifier: "exposed-to-the-elements-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE093.width-450.png",
@@ -54424,6 +55775,7 @@
     
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Milena Vasyukova"],
     cardIdentifier: "pulse-of-volthaven-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE112.width-450.png",
@@ -54462,6 +55814,7 @@
     
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "summerwood-shelter-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE125.width-450.png",
@@ -54500,6 +55853,7 @@
     
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "summerwood-shelter-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE126.width-450.png",
@@ -54544,6 +55898,7 @@
     
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "summerwood-shelter-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE127.width-450.png",
@@ -54582,6 +55937,7 @@
     
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "blizzard-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE147.width-450.png",
@@ -54620,6 +55976,7 @@
     
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Faizal Fikri"],
     cardIdentifier: "blink-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE176.width-450.png",
@@ -54658,6 +56015,7 @@
     
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Ekaterina Revazashvili"],
     cardIdentifier: "lightning-press-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE183.width-450.png",
@@ -54702,6 +56060,7 @@
     
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Ekaterina Revazashvili"],
     cardIdentifier: "lightning-press-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE184.width-450.png",
@@ -54740,6 +56099,7 @@
     
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Ekaterina Revazashvili"],
     cardIdentifier: "lightning-press-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE185.width-450.png",
@@ -54778,6 +56138,7 @@
     
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Maerel Hibadita"],
     cardIdentifier: "steadfast-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR033.width-450.png",
@@ -54810,6 +56171,7 @@
     
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Maerel Hibadita"],
     cardIdentifier: "steadfast-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR034.width-450.png",
@@ -54842,6 +56204,7 @@
     
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Maerel Hibadita"],
     cardIdentifier: "steadfast-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR035.width-450.png",
@@ -54874,6 +56237,7 @@
     
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Lizhe Liang"],
     cardIdentifier: "rain-razors-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR090.width-450.png",
@@ -54906,6 +56270,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "even-bigger-than-that!-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR173.width-450.png",
@@ -54944,6 +56309,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "even-bigger-than-that!-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR174.width-450.png",
@@ -54982,6 +56348,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "even-bigger-than-that!-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR175.width-450.png",
@@ -55020,6 +56387,7 @@
     
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Federico Musetti","Henrique Lindner"],
     cardIdentifier: "sand-cover-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR039.png",
@@ -55052,6 +56420,7 @@
     
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Henrique Lindner"],
     cardIdentifier: "sand-cover-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR040.png",
@@ -55084,6 +56453,7 @@
     
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Henrique Lindner"],
     cardIdentifier: "sand-cover-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR041.png",
@@ -55116,6 +56486,7 @@
     
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "tome-of-firebrand-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR089.png",
@@ -55148,6 +56519,7 @@
     
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Asur Misoa"],
     cardIdentifier: "semblance-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR154.png",
@@ -55180,6 +56552,7 @@
     
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Riordan Delmiro"],
     cardIdentifier: "rewind-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR169.png",
@@ -55218,6 +56591,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "oasis-respite-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR221.png",
@@ -55250,6 +56624,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "oasis-respite-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR222.png",
@@ -55282,6 +56657,7 @@
     
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "oasis-respite-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR223.png",
@@ -55315,6 +56691,7 @@
   }];
   const equipment: EquipmentCard[] = [{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Saad Irfan"],
     cardIdentifier: "spell-fray-cloak",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/BOL006.width-450.png",
@@ -55346,6 +56723,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Tian Thongjomroon"],
     cardIdentifier: "spell-fray-gloves",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/CHN006.width-450.png",
@@ -55371,6 +56749,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Tian Thongjomroon"],
     cardIdentifier: "spell-fray-leggings",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/PSM007.width-450.png",
@@ -55396,6 +56775,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Ksenia Belova"],
     cardIdentifier: "scabskin-leathers",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR004.png",
@@ -55439,6 +56819,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Ksenia Belova"],
     cardIdentifier: "barkbone-strapping",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR005.png",
@@ -55482,6 +56863,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "tectonic-plating",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR041.png",
@@ -55525,6 +56907,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Ksenia Belova"],
     cardIdentifier: "helm-of-isens-peak",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR042.png",
@@ -55574,6 +56957,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Kate Fox"],
     cardIdentifier: "mask-of-momentum",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR079.png",
@@ -55617,6 +57001,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Wírawan Pranoto"],
     cardIdentifier: "breaking-scales",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR080.png",
@@ -55660,6 +57045,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "braveforge-bracers",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR116.png",
@@ -55703,6 +57089,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Anna Tanygina"],
     cardIdentifier: "refraction-bolters",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR117.png",
@@ -55746,6 +57133,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Sergey Gurskiy"],
     cardIdentifier: "fyendals-spring-tunic",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU178.png",
@@ -55807,6 +57195,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Anna Tanygina"],
     cardIdentifier: "hope-merchants-hood",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR151.png",
@@ -55850,6 +57239,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Nikolai Maslakov"],
     cardIdentifier: "heartened-cross-strap",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR152.png",
@@ -55911,6 +57301,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Yulia Litvinova"],
     cardIdentifier: "goliath-gauntlet",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR153.png",
@@ -55972,6 +57363,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "snapdragon-scalers",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR154.png",
@@ -56033,6 +57425,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Yulia Litvinova"],
     cardIdentifier: "ironrot-helm",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR155.png",
@@ -56094,6 +57487,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Gorshkov Stanislav"],
     cardIdentifier: "ironrot-plate",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR156.png",
@@ -56149,6 +57543,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Gorshkov Stanislav"],
     cardIdentifier: "ironrot-gauntlet",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR157.png",
@@ -56210,6 +57605,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Yulia Litvinova"],
     cardIdentifier: "ironrot-legs",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR158.png",
@@ -56277,6 +57673,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Pavel Chuvin"],
     cardIdentifier: "teklo-foundry-heart",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC004.png",
@@ -56320,6 +57717,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Pavel Chuvin"],
     cardIdentifier: "achilles-accelerator",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC005.png",
@@ -56357,6 +57755,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Regina Krivolapova"],
     cardIdentifier: "skullbone-crosswrap",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC041.png",
@@ -56400,6 +57799,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Wírawan Pranoto"],
     cardIdentifier: "bulls-eye-bracers",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC042.png",
@@ -56437,6 +57837,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Igor Heras"],
     cardIdentifier: "grasp-of-the-arknight",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC078.png",
@@ -56480,6 +57881,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Alexander Nikolaev"],
     cardIdentifier: "crown-of-dichotomy",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC079.png",
@@ -56517,6 +57919,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Anna Kharitonova"],
     cardIdentifier: "storm-striders",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC116.png",
@@ -56560,6 +57963,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Wírawan Pranoto"],
     cardIdentifier: "robe-of-rapture",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC117.png",
@@ -56597,6 +58001,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Anna Kharitonova"],
     cardIdentifier: "arcanite-skullcap",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC150.png",
@@ -56640,6 +58045,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["J. Sebastián S.C."],
     cardIdentifier: "talismanic-lens",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC151.png",
@@ -56689,6 +58095,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Ironical Ghosty"],
     cardIdentifier: "vest-of-the-first-fist",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC152.png",
@@ -56726,6 +58133,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Pavel Chuvin"],
     cardIdentifier: "bracers-of-belief",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC153.png",
@@ -56769,6 +58177,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Alexandra Malygina"],
     cardIdentifier: "mage-master-boots",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC154.png",
@@ -56812,6 +58221,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Alena Marchenko"],
     cardIdentifier: "nullrune-hood",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC155.png",
@@ -56855,6 +58265,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Alena Marchenko"],
     cardIdentifier: "nullrune-robe",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC156.png",
@@ -56898,6 +58309,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Pavel Chuvin"],
     cardIdentifier: "nullrune-gloves",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC157.png",
@@ -56941,6 +58353,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Tatiana Trubnikova"],
     cardIdentifier: "nullrune-boots",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC158.png",
@@ -56984,6 +58397,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Yolanda Felicia"],
     cardIdentifier: "skullhorn",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU006.png",
@@ -57021,6 +58435,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Shen Fei"],
     cardIdentifier: "crater-fist",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU025.png",
@@ -57058,6 +58473,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Leony Tobing"],
     cardIdentifier: "breeze-rider-boots",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU053.png",
@@ -57095,6 +58511,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Bramasta Aji"],
     cardIdentifier: "courage-of-bladehold",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU081.png",
@@ -57138,6 +58555,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "viziertronic-model-i",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU102.png",
@@ -57175,6 +58593,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Andrew Chou"],
     cardIdentifier: "perch-grapplers",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU122.png",
@@ -57212,6 +58631,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Trung Tin Shinji"],
     cardIdentifier: "bloodsheath-skeleta",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU141.png",
@@ -57249,6 +58669,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Narendra B Adi"],
     cardIdentifier: "metacarpus-node",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU161.png",
@@ -57286,6 +58707,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Surya P"],
     cardIdentifier: "gamblers-gloves",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU179.png",
@@ -57329,6 +58751,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Mihail Spil-Haufter"],
     cardIdentifier: "vestige-of-sol",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON060.width-450.png",
@@ -57366,6 +58789,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Sam Yang"],
     cardIdentifier: "halo-of-illumination",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON061.width-450.png",
@@ -57409,6 +58833,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Elena Danilova"],
     cardIdentifier: "phantasmal-footsteps",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON089.width-450.png",
@@ -57446,6 +58871,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Pavel Chuvin"],
     cardIdentifier: "dream-weavers",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON090.width-450.png",
@@ -57483,6 +58909,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Pavel Chuvin"],
     cardIdentifier: "valiant-dynamo",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON107.width-450.png",
@@ -57520,6 +58947,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Marina Lunina"],
     cardIdentifier: "gallantry-gold",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON108.width-450.png",
@@ -57563,6 +58991,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "hooves-of-the-shadowbeast",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON122.width-450.png",
@@ -57600,6 +59029,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Sergey Gursky"],
     cardIdentifier: "carrion-husk",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON187.width-450.png",
@@ -57637,6 +59067,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Elena Danilova"],
     cardIdentifier: "ebon-fold",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON188.width-450.png",
@@ -57686,6 +59117,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["soyameii"],
     cardIdentifier: "aether-ironweave",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON230.width-450.png",
@@ -57723,6 +59155,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Immanuela Crovius"],
     cardIdentifier: "blood-drop-brocade",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON238.width-450.png",
@@ -57754,6 +59187,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Alsu Nurieva"],
     cardIdentifier: "stubby-hammerers",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON239.width-450.png",
@@ -57785,6 +59219,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "time-skippers",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON240.width-450.png",
@@ -57816,6 +59251,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Alsu Nurieva"],
     cardIdentifier: "ironhide-helm",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON241.width-450.png",
@@ -57847,6 +59283,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Regina Krivolapova"],
     cardIdentifier: "ironhide-plate",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON242.width-450.png",
@@ -57878,6 +59315,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Daniil Goncharov"],
     cardIdentifier: "ironhide-gauntlet",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON243.width-450.png",
@@ -57915,6 +59353,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Daniil Goncharov"],
     cardIdentifier: "ironhide-legs",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON244.width-450.png",
@@ -57958,6 +59397,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "crown-of-seeds",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE115.width-450.png",
@@ -57995,6 +59435,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Kyxarie Peralta"],
     cardIdentifier: "plume-of-evergrowth",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE116.width-450.png",
@@ -58032,6 +59473,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Pavel Chuvin"],
     cardIdentifier: "heart-of-ice",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE144.width-450.png",
@@ -58069,6 +59511,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Irene Francisco"],
     cardIdentifier: "coat-of-frost",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE145.width-450.png",
@@ -58106,6 +59549,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "shock-charmers",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE173.width-450.png",
@@ -58143,6 +59587,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Elena Bakulina"],
     cardIdentifier: "mark-of-lightning",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE174.width-450.png",
@@ -58180,6 +59625,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Daniil Goncharov"],
     cardIdentifier: "rampart-of-the-rams-head",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE203.width-450.png",
@@ -58217,6 +59663,7 @@
     subType: EquipmentSubType.OffHand
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Kyxarie Peralta"],
     cardIdentifier: "rotten-old-buckler",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE204.width-450.png",
@@ -58254,6 +59701,7 @@
     subType: EquipmentSubType.OffHand
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Mihail Spil-Haufter"],
     cardIdentifier: "new-horizon",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE213.width-450.png",
@@ -58291,6 +59739,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Henrique Lindner"],
     cardIdentifier: "honing-hood",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE214.width-450.png",
@@ -58328,6 +59777,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["bimawithpencil"],
     cardIdentifier: "spellbound-creepers",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE224.width-450.png",
@@ -58365,6 +59815,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Kanadekana"],
     cardIdentifier: "sutcliffes-suede-hides",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE225.width-450.png",
@@ -58402,6 +59853,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Joseph Qiu"],
     cardIdentifier: "ragamuffins-hat",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE233.width-450.png",
@@ -58433,6 +59885,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Olga Krivolapova"],
     cardIdentifier: "deep-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE234.width-450.png",
@@ -58470,6 +59923,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Pavel Chuvin"],
     cardIdentifier: "cracker-jax",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE235.width-450.png",
@@ -58501,6 +59955,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Kyxarie Peralta"],
     cardIdentifier: "runaways",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE236.width-450.png",
@@ -58532,6 +59987,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Jason Kiantoro"],
     cardIdentifier: "skull-crushers",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR001.width-450.png",
@@ -58557,6 +60013,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Lizhe Liang"],
     cardIdentifier: "stalagmite-bastion-of-isenloft",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR018.width-450.png",
@@ -58588,6 +60045,7 @@
     subType: EquipmentSubType.OffHand
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "earthlore-bounty",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR020.width-450.png",
@@ -58619,6 +60077,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Sam Yang"],
     cardIdentifier: "mask-of-the-pouncing-lynx",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR037.width-450.png",
@@ -58644,6 +60103,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Federico Musetti"],
     cardIdentifier: "helm-of-sharp-eye",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR053.width-450.png",
@@ -58669,6 +60129,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Merchant,
+    classes: [Class.Merchant],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "silver-palms",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR086.width-450.png",
@@ -58694,6 +60155,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "vexing-quillhand",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR103.width-450.png",
@@ -58719,6 +60181,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Henrique Lindner"],
     cardIdentifier: "crown-of-reflection",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR137.width-450.png",
@@ -58744,6 +60207,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Faizal Fikri"],
     cardIdentifier: "arcane-lantern",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR155.width-450.png",
@@ -58769,6 +60233,7 @@
     subType: EquipmentSubType.OffHand
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Andy Aslamov"],
     cardIdentifier: "blossom-of-spring",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/DVR004.width-450.png",
@@ -58800,6 +60265,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "bone-vizier",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/RVD003.width-450.png",
@@ -58825,6 +60291,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Felicia Liang"],
     cardIdentifier: "silken-form",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR004.png",
@@ -58856,6 +60323,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["soyameii"],
     cardIdentifier: "heat-wave",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR047.png",
@@ -58881,6 +60349,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Victoria Belyaeva"],
     cardIdentifier: "flamescale-furnace",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR084.png",
@@ -58906,6 +60375,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Lizhe Liang"],
     cardIdentifier: "sash-of-sandikai",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR085.png",
@@ -58931,6 +60401,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Athiwut B."],
     cardIdentifier: "conduit-of-frostburn",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR125.png",
@@ -58956,6 +60427,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["soyameii"],
     cardIdentifier: "coronet-peak",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR136.png",
@@ -58981,6 +60453,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Yulia Tarushko"],
     cardIdentifier: "glacial-horns",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR137.png",
@@ -59006,6 +60479,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "ghostly-touch",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR151.png",
@@ -59031,6 +60505,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Andrey Savchuk"],
     cardIdentifier: "silent-stilettos",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR152.png",
@@ -59056,6 +60531,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Athiwut B."],
     cardIdentifier: "tiger-stripe-shuko",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR158.png",
@@ -59081,6 +60557,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Enmoire"],
     cardIdentifier: "tide-flippers",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR159.png",
@@ -59106,6 +60583,7 @@
     subType: EquipmentSubType.Legs
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "alluvion-constellas",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR166.png",
@@ -59131,6 +60609,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Akifa Shahgeldleva"],
     cardIdentifier: "spellfire-cloak",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR167.png",
@@ -59156,6 +60635,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Andy Aslamov"],
     cardIdentifier: "crown-of-providence",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR182.png",
@@ -59181,6 +60661,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Angelina Tyshchik"],
     cardIdentifier: "helios-mitre",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR183.png",
@@ -59212,6 +60693,7 @@
     subType: EquipmentSubType.Head
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Alexander Staronosov"],
     cardIdentifier: "quelling-robe",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR184.png",
@@ -59237,6 +60719,7 @@
     subType: EquipmentSubType.Chest
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Elena Perelygina"],
     cardIdentifier: "quelling-sleeves",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR185.png",
@@ -59262,6 +60745,7 @@
     subType: EquipmentSubType.Arms
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Pavel Chuvin"],
     cardIdentifier: "quelling-slippers",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR186.png",
@@ -59288,6 +60772,7 @@
   }];
   const mentors: MentorCard[] = [{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Mihail Spil-Haufter"],
     cardIdentifier: "minerva-themis",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB044.png",
@@ -59316,6 +60801,7 @@
     defense: 3,
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["bimawithpencil"],
     cardIdentifier: "lord-sutcliffe",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB046.png",
@@ -59344,6 +60830,7 @@
     defense: 3,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "lady-barthimont",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB045.png",
@@ -59372,6 +60859,7 @@
     defense: 3,
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Federico Musetti"],
     cardIdentifier: "the-librarian",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB043.png",
@@ -59400,6 +60888,7 @@
     defense: 3,
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Federico Musetti"],
     cardIdentifier: "hala-goldenheim",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/DVR007.width-450.png",
@@ -59422,6 +60911,7 @@
     defense: 3,
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "chief-rukutan",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/RVD007.width-450.png",
@@ -59444,7 +60934,30 @@
     defense: 3,
   }];
   const heroes: HeroCard[] = [{
+    class: Class.Warrior,
+    classes: [Class.Warrior,Class.Wizard],
+    artists: ["Frederico Musetti"],
+    cardIdentifier: "emperor-dracai-of-aesir",
+    defaultImageUrl: "",
+    functionalText: `You may only have red cards in your deck.  **Action** - {r}{r}: Search your deck for Command and Conquer, **attack** with it, then shuffle.`,
+    images: [],
+    keywords: [],
+    name: "Emperor, Dracai of Aesir",
+    rarity: Rarity.Promo,
+    restrictedFormats: [],
+    setIdentifiers: ["FAB030"],
+    sets: [Release.Promos],
+    type: Type.Hero,
+    typeText: "Royal Draconic Warrior Wizard Hero – Young",
+    intellect: 4,
+    hero: Hero.Emperor,
+    life: 15,
+    subType: HeroSubType.Young,
+    talents: [Talent.Royal,Talent.Draconic],
+    young: true
+  },{
     class: Class.Merchant,
+    classes: [Class.Merchant],
     artists: ["Lius Lasahido"],
     cardIdentifier: "ruudi-gem-keeper",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/LSS001.width-450.png",
@@ -59472,6 +60985,7 @@
     young: null
   },{
     class: Class.Shapeshifter,
+    classes: [Class.Shapeshifter],
     artists: ["Andy Aslamov"],
     cardIdentifier: "taylor",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/LSS003_A.width-450.png",
@@ -59499,6 +61013,7 @@
     young: true
   },{
     class: Class.Bard,
+    classes: [Class.Bard],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "yorick-weaver-of-tales",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/LSS004_A.width-450.png",
@@ -59526,6 +61041,7 @@
     young: true
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Federico Musetti"],
     cardIdentifier: "taipanis-dracai-of-judgement",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/image4.width-992.png",
@@ -59553,6 +61069,7 @@
     young: null
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Wisnu Tan"],
     cardIdentifier: "rhinar-reckless-rampage",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU001.png",
@@ -59622,6 +61139,7 @@
     young: null
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Wisnu Tan"],
     cardIdentifier: "rhinar",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR002.png",
@@ -59685,6 +61203,7 @@
     young: true
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "bravo-showstopper",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU022.png",
@@ -59754,6 +61273,7 @@
     young: null
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "bravo",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR039.png",
@@ -59811,6 +61331,7 @@
     young: true
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "katsu-the-wanderer",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU045.png",
@@ -59880,6 +61401,7 @@
     young: null
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "katsu",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR077.png",
@@ -59937,6 +61459,7 @@
     young: true
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Lius Lasahido"],
     cardIdentifier: "dorinthea-ironsong",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU076.png",
@@ -60006,6 +61529,7 @@
     young: null
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Lius Lasahido"],
     cardIdentifier: "dorinthea",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR114.png",
@@ -60063,6 +61587,7 @@
     young: true
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Sam Yang"],
     cardIdentifier: "dash-inventor-extraordinaire",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC001.png",
@@ -60126,6 +61651,7 @@
     young: null
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Sam Yang"],
     cardIdentifier: "dash",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC002.png",
@@ -60171,6 +61697,7 @@
     young: true
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Maxim Kostin"],
     cardIdentifier: "azalea-ace-in-the-hole",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC038.png",
@@ -60234,6 +61761,7 @@
     young: null
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Maxim Kostin"],
     cardIdentifier: "azalea",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC039.png",
@@ -60279,6 +61807,7 @@
     young: true
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Steve Argyle"],
     cardIdentifier: "viserai-rune-blood",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC075.png",
@@ -60342,6 +61871,7 @@
     young: null
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Wisnu Tan"],
     cardIdentifier: "viserai",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC076.png",
@@ -60387,6 +61917,7 @@
     young: true
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "kano-dracai-of-aether",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC113.png",
@@ -60450,6 +61981,7 @@
     young: null
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "kano",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC114.png",
@@ -60495,6 +62027,7 @@
     young: true
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "kayo-berserker-runt",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU002.png",
@@ -60540,6 +62073,7 @@
     young: true
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Le Vuong"],
     cardIdentifier: "ira-crimson-haze",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU046.png",
@@ -60591,6 +62125,7 @@
     young: true
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Sam Yang"],
     cardIdentifier: "benji-the-piercing-wind",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU047.png",
@@ -60642,6 +62177,7 @@
     young: true
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "kassai-cintari-sellsword",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU077.png",
@@ -60693,6 +62229,7 @@
     young: true
   },{
     class: Class.Shapeshifter,
+    classes: [Class.Shapeshifter],
     artists: ["Mihail Spil-Haufter"],
     cardIdentifier: "shiyana-diamond-gemini",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU097.png",
@@ -60726,6 +62263,7 @@
     young: true
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Tatiana Trubnikova"],
     cardIdentifier: "data-doll-mkii",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU099.png",
@@ -60771,6 +62309,7 @@
     young: true
   },{
     class: Class.Merchant,
+    classes: [Class.Merchant],
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "kavdaen-trader-of-skins",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU118.png",
@@ -60822,6 +62361,7 @@
     young: true
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Livia Prima"],
     cardIdentifier: "prism-sculptor-of-arc-light",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON001.width-450.png",
@@ -60867,6 +62407,7 @@
     young: null
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Livia Prima"],
     cardIdentifier: "prism",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON002.width-450.png",
@@ -60912,6 +62453,7 @@
     young: true
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "ser-boltyn-breaker-of-dawn",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON029.width-450.png",
@@ -60957,6 +62499,7 @@
     young: null
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "boltyn",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON030.width-450.png",
@@ -61002,6 +62545,7 @@
     young: true
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Wisnu Tan"],
     cardIdentifier: "levia-shadowborn-abomination",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/Mty2ZQtPLgqDHz9EjdOMHZOUJhISA3s8RIgr3lus4KTmVq.width-450.png",
@@ -61047,6 +62591,7 @@
     young: null
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Wisnu Tan"],
     cardIdentifier: "levia",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/QB393QB0F93d2Hhhs5Cf_iMdCfa8qpl1J91FOlwlsYvSnv.width-450.png",
@@ -61092,6 +62637,7 @@
     young: true
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Federico Musetti"],
     cardIdentifier: "chane-bound-by-shadow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON153.width-450.png",
@@ -61137,6 +62683,7 @@
     young: null
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Federico Musetti"],
     cardIdentifier: "chane",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON154.width-450.png",
@@ -61182,6 +62729,7 @@
     young: true
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "oldhim-grandfather-of-eternity",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE001.width-450.png",
@@ -61227,6 +62775,7 @@
     young: null
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "oldhim",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE002.width-450.png",
@@ -61272,6 +62821,7 @@
     young: true
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Federico Musetti"],
     cardIdentifier: "lexi-livewire",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE031.width-450.png",
@@ -61317,6 +62867,7 @@
     young: null
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Federico Musetti"],
     cardIdentifier: "lexi",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE032.width-450.png",
@@ -61362,6 +62913,7 @@
     young: true
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "briar-warden-of-thorns",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE062.width-450.png",
@@ -61407,6 +62959,7 @@
     young: null
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "briar",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE063.width-450.png",
@@ -61452,6 +63005,7 @@
     young: true
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Marco Wulfr"],
     cardIdentifier: "bravo-star-of-the-show",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR017.width-450.png",
@@ -61485,6 +63039,7 @@
     young: null
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Wisnu Tan"],
     cardIdentifier: "valda-brightaxe",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR019.width-450.png",
@@ -61518,6 +63073,7 @@
     young: true
   },{
     class: Class.Merchant,
+    classes: [Class.Merchant],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "genis-wotchuneed",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR085.width-450.png",
@@ -61551,6 +63107,7 @@
     young: true
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Steve Argyle","Alexander Mokhov"],
     cardIdentifier: "iyslander",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR120.width-450.png",
@@ -61602,6 +63159,7 @@
     young: true
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Lius Lasahido"],
     cardIdentifier: "dorinthea-quicksilver-prodigy",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/DVR001.width-450.png",
@@ -61629,6 +63187,7 @@
     young: true
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Katie Fox"],
     cardIdentifier: "dromai-ash-artist",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR001.png",
@@ -61656,6 +63215,7 @@
     young: null
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Katie Fox"],
     cardIdentifier: "dromai",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR002.png",
@@ -61683,6 +63243,7 @@
     young: true
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Sam Yang"],
     cardIdentifier: "fai-rising-rebellion",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR044.png",
@@ -61710,6 +63271,7 @@
     young: null
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Sam Yang"],
     cardIdentifier: "fai",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR045.png",
@@ -61737,6 +63299,7 @@
     young: true
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "iyslander-stormbind",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR102.png",
@@ -61765,6 +63328,7 @@
   }];
   const placeholders: PlaceholderCard[] = [{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["MJ Fetesio"],
     cardIdentifier: "dragons-of-legend",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR225.png",
@@ -61788,6 +63352,7 @@
   }];
   const resources: ResourceCard[] = [{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "heart-of-fyendal-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR000.png",
@@ -61819,6 +63384,7 @@
     talents: [],
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Alexandra Malygina","Sam Yang"],
     cardIdentifier: "cracked-bauble-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ARC218.width-450.png",
@@ -61910,6 +63476,7 @@
     talents: [],
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Alexandra Malygina"],
     cardIdentifier: "eye-of-ophidia-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC000.png",
@@ -61941,6 +63508,7 @@
     talents: [],
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Maxim Kostin"],
     cardIdentifier: "arknight-shard-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU000.png",
@@ -61972,6 +63540,7 @@
     talents: [],
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Henrique Lindner"],
     cardIdentifier: "grandeur-of-valahai-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR000.width-450.png",
@@ -61997,6 +63566,7 @@
     talents: [],
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "titanium-bauble-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/DVR027.width-450.png",
@@ -62028,6 +63598,7 @@
     talents: [],
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Steve Argyle"],
     cardIdentifier: "blood-of-the-dracai-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR000.png",
@@ -62054,6 +63625,7 @@
   }];
   const tokens: TokenCard[] = [{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "seismic-surge",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU044.png",
@@ -62127,6 +63699,7 @@
     subType: TokenSubType.Aura
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["King Fung Ng"],
     cardIdentifier: "quicken",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU196.png",
@@ -62206,6 +63779,7 @@
     subType: TokenSubType.Aura
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Daniel Jiménez"],
     cardIdentifier: "runechant",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC112.png",
@@ -62267,6 +63841,7 @@
     subType: TokenSubType.Aura
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "zen-state",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU075.png",
@@ -62304,6 +63879,7 @@
     subType: TokenSubType.Aura
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "copper",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU197.png",
@@ -62353,6 +63929,7 @@
     subType: TokenSubType.Item
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Alexandra Malygina"],
     cardIdentifier: "spectral-shield",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON104.width-450.png",
@@ -62396,6 +63973,7 @@
     subType: TokenSubType.Aura
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Isuardi Therianto"],
     cardIdentifier: "soul-shackle",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON186.width-450.png",
@@ -62433,6 +64011,7 @@
     subType: TokenSubType.Aura
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Wisnu Tan"],
     cardIdentifier: "blasmophet-the-soul-harvester",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON219.width-450.png",
@@ -62476,6 +64055,7 @@
     subType: TokenSubType.Ally
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Federico Musetti"],
     cardIdentifier: "ursur-the-soul-reaper",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON220.width-450.png",
@@ -62519,6 +64099,7 @@
     subType: TokenSubType.Ally
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "embodiment-of-earth",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE109.width-450.png",
@@ -62556,6 +64137,7 @@
     subType: TokenSubType.Aura
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "embodiment-of-lightning",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE110.width-450.png",
@@ -62593,6 +64175,7 @@
     subType: TokenSubType.Aura
   },{
     class: Class.NotClassed,
+    classes: [Class.NotClassed],
     artists: ["Tian Thongjonroon"],
     cardIdentifier: "frostbite",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE111.width-450.png",
@@ -62648,6 +64231,7 @@
     subType: TokenSubType.Aura
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "silver",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR195.width-450.png",
@@ -62673,6 +64257,7 @@
     subType: TokenSubType.Item
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "dracona-optimai",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR006_A_Back.png",
@@ -62704,6 +64289,7 @@
     subType: TokenSubType.Ally
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Federico Musetti"],
     cardIdentifier: "tomeltai",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR007_A_Back.png",
@@ -62735,6 +64321,7 @@
     subType: TokenSubType.Ally
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Steve Argyle"],
     cardIdentifier: "dominia",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR008_A_Back.png",
@@ -62766,6 +64353,7 @@
     subType: TokenSubType.Ally
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Federico Musetti"],
     cardIdentifier: "azvolai",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR009_A_Back.png",
@@ -62797,6 +64385,7 @@
     subType: TokenSubType.Ally
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Asur Misoa"],
     cardIdentifier: "cromai",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR010_A_Back.png",
@@ -62828,6 +64417,7 @@
     subType: TokenSubType.Ally
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Steve Argyle"],
     cardIdentifier: "kyloria",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR011_A_Back.png",
@@ -62859,6 +64449,7 @@
     subType: TokenSubType.Ally
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "miragai",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR012_A_Back.png",
@@ -62890,6 +64481,7 @@
     subType: TokenSubType.Ally
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "nekria",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR013_A_Back.png",
@@ -62921,6 +64513,7 @@
     subType: TokenSubType.Ally
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Mihail Spil-Haufter"],
     cardIdentifier: "ouvia",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR014_A_Back.png",
@@ -62952,6 +64545,7 @@
     subType: TokenSubType.Ally
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "themai",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR015_A_Back.png",
@@ -62983,6 +64577,7 @@
     subType: TokenSubType.Ally
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "vynserakai",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR016_A_Back.png",
@@ -63014,6 +64609,7 @@
     subType: TokenSubType.Ally
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "yendurai",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR017_A_Back.png",
@@ -63045,6 +64641,7 @@
     subType: TokenSubType.Ally
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Athiwut B."],
     cardIdentifier: "aether-ashwing",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR042.png",
@@ -63082,6 +64679,7 @@
     subType: TokenSubType.Ally
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Surya Prasteya"],
     cardIdentifier: "ash",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR043.png",
@@ -63120,6 +64718,7 @@
   }];
   const weapons: WeaponCard[] = [{
     class: Class.Bard,
+    classes: [Class.Bard],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "hummingbird-adventurers-call",
     defaultImageUrl: "",
@@ -63140,6 +64739,7 @@
     subType: WeaponSubType.Lute
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Wisnu Tan"],
     cardIdentifier: "romping-club",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU003.png",
@@ -63208,6 +64808,7 @@
     subType: WeaponSubType.Club
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "anothos",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU023.png",
@@ -63282,6 +64883,7 @@
     subType: WeaponSubType.Hammer
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Leo Avero"],
     cardIdentifier: "harmonized-kodachi",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/CRU48.width-450.png",
@@ -63374,6 +64976,7 @@
     subType: WeaponSubType.Dagger
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Adolfo Navarro"],
     cardIdentifier: "dawnblade",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU078.png",
@@ -63448,6 +65051,7 @@
     subType: WeaponSubType.Sword
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Regina Krivolapova"],
     cardIdentifier: "teklo-plasma-pistol",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC003.png",
@@ -63504,6 +65108,7 @@
     subType: WeaponSubType.Pistol
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Maxim Kostin"],
     cardIdentifier: "death-dealer",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC040.png",
@@ -63560,6 +65165,7 @@
     subType: WeaponSubType.Bow
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Steve Argyle"],
     cardIdentifier: "nebula-blade",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC077.png",
@@ -63616,6 +65222,7 @@
     subType: WeaponSubType.Sword
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Kate Fox"],
     cardIdentifier: "crucible-of-aetherweave",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC115.png",
@@ -63672,6 +65279,7 @@
     subType: WeaponSubType.Staff
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "mandible-claw",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU004.png",
@@ -63728,6 +65336,7 @@
     subType: WeaponSubType.Claw
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["bimawithpencil"],
     cardIdentifier: "sledge-of-anvilheim",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU024.png",
@@ -63766,6 +65375,7 @@
     subType: WeaponSubType.Hammer
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Fajareka Setiawan"],
     cardIdentifier: "edge-of-autumn",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU050.png",
@@ -63810,6 +65420,7 @@
     subType: WeaponSubType.Sword
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Cristián Huerta"],
     cardIdentifier: "zephyr-needle",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/CRU51.width-450.png",
@@ -63866,6 +65477,7 @@
     subType: WeaponSubType.Dagger
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Reza Afshar"],
     cardIdentifier: "cintari-saber",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU079.png",
@@ -63922,6 +65534,7 @@
     subType: WeaponSubType.Sword
   },{
     class: Class.Mechanologist,
+    classes: [Class.Mechanologist],
     artists: ["Hendry Iwanaga"],
     cardIdentifier: "plasma-barrel-shot",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU101.png",
@@ -63960,6 +65573,7 @@
     subType: WeaponSubType.Gun
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "red-liner",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU121.png",
@@ -63998,6 +65612,7 @@
     subType: WeaponSubType.Bow
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Alexandra Malygina"],
     cardIdentifier: "reaping-blade",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU140.png",
@@ -64036,6 +65651,7 @@
     subType: WeaponSubType.Sword
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Alexandra Malygina"],
     cardIdentifier: "aether-conduit",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU160.png",
@@ -64074,6 +65690,7 @@
     subType: WeaponSubType.Staff
   },{
     class: Class.Generic,
+    classes: [Class.Generic],
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "talishar-the-lost-prince",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU177.png",
@@ -64112,6 +65729,7 @@
     subType: WeaponSubType.Sword
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Livia Prima"],
     cardIdentifier: "luminaris",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON003.width-450.png",
@@ -64144,6 +65762,7 @@
     subType: WeaponSubType.Scepter
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "raydn-duskbane",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON031.width-450.png",
@@ -64176,6 +65795,7 @@
     subType: WeaponSubType.Sword
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "iris-of-reality",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON088.width-450.png",
@@ -64220,6 +65840,7 @@
     subType: WeaponSubType.Orb
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Iain Miki"],
     cardIdentifier: "hatchet-of-body",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON105.width-450.png",
@@ -64264,6 +65885,7 @@
     subType: WeaponSubType.Axe
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Iain Miki"],
     cardIdentifier: "hatchet-of-mind",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON106.width-450.png",
@@ -64308,6 +65930,7 @@
     subType: WeaponSubType.Axe
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Yolanda Felicia"],
     cardIdentifier: "hexagore-the-death-hydra",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON121.width-450.png",
@@ -64340,6 +65963,7 @@
     subType: WeaponSubType.Flail
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Federico Musetti"],
     cardIdentifier: "galaxxi-black",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON155.width-450.png",
@@ -64390,6 +66014,7 @@
     subType: WeaponSubType.Sword
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Pavel Chuvin"],
     cardIdentifier: "ravenous-meataxe",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON221.width-450.png",
@@ -64434,6 +66059,7 @@
     subType: WeaponSubType.Axe
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Marcus Reyno"],
     cardIdentifier: "dread-scythe",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON229.width-450.png",
@@ -64466,6 +66092,7 @@
     subType: WeaponSubType.Scythe
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Elizaveta Zaichikova"],
     cardIdentifier: "winters-wail",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE003.width-450.png",
@@ -64498,6 +66125,7 @@
     subType: WeaponSubType.Hammer
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Elina Akhiamova"],
     cardIdentifier: "shiver",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE033.width-450.png",
@@ -64542,6 +66170,7 @@
     subType: WeaponSubType.Bow
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Alexander Mokhov"],
     cardIdentifier: "voltaire-strike-twice",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE034.width-450.png",
@@ -64580,6 +66209,7 @@
     subType: WeaponSubType.Bow
   },{
     class: Class.Guardian,
+    classes: [Class.Guardian],
     artists: ["Kanadekana"],
     cardIdentifier: "titans-fist",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE202.width-450.png",
@@ -64624,6 +66254,7 @@
     subType: WeaponSubType.Hammer
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Stanislav Sherbakov"],
     cardIdentifier: "rosetta-thorn",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE222.width-450.png",
@@ -64668,6 +66299,7 @@
     subType: WeaponSubType.Sword
   },{
     class: Class.Runeblade,
+    classes: [Class.Runeblade],
     artists: ["Jessada Sutthi"],
     cardIdentifier: "duskblade",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/ELE223.width-450.png",
@@ -64700,6 +66332,7 @@
     subType: WeaponSubType.Sword
   },{
     class: Class.Ranger,
+    classes: [Class.Ranger],
     artists: ["Junaidi Lim"],
     cardIdentifier: "dreadbore",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR087.width-450.png",
@@ -64726,6 +66359,7 @@
     subType: WeaponSubType.Bow
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Steve Argyle"],
     cardIdentifier: "krakens-aethervein",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR121.width-450.png",
@@ -64752,6 +66386,7 @@
     subType: WeaponSubType.Staff
   },{
     class: Class.Warrior,
+    classes: [Class.Warrior],
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "dawnblade-resplendent",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/DVR002.width-450.png",
@@ -64778,6 +66413,7 @@
     subType: WeaponSubType.Sword
   },{
     class: Class.Brute,
+    classes: [Class.Brute],
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "bone-basher",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/RVD002.width-450.png",
@@ -64804,6 +66440,7 @@
     subType: WeaponSubType.Club
   },{
     class: Class.Illusionist,
+    classes: [Class.Illusionist],
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "storm-of-sandikai",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR003.png",
@@ -64830,6 +66467,7 @@
     subType: WeaponSubType.Scepter
   },{
     class: Class.Ninja,
+    classes: [Class.Ninja],
     artists: ["Enmoire"],
     cardIdentifier: "searing-emberblade",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR046.png",
@@ -64856,6 +66494,7 @@
     subType: WeaponSubType.Sword
   },{
     class: Class.Wizard,
+    classes: [Class.Wizard],
     artists: ["Mark Poole"],
     cardIdentifier: "waning-moon",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR165.png",

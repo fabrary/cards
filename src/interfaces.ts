@@ -2,6 +2,7 @@ export interface Card {
   artists: string[];
   cardIdentifier: string;
   class: Class;
+  classes: Class[];
   defaultImageUrl: string;
   functionalText: string;
   images: Image[];
@@ -171,6 +172,7 @@ export enum ReleaseEdition {
 
 export enum Talent {
   NotTalented = "Not talented",
+  Royal = "Royal",
   Draconic = "Draconic",
   Earth = "Earth",
   Elemental = "Elemental",
@@ -269,6 +271,7 @@ export enum Hero {
   DataDoll = "Data Doll",
   Dorinthea = "Dorinthea",
   Dromai = "Dromai",
+  Emperor = "Emperor",
   Fai = "Fai",
   GenisWotchuneed = "Genis Wotchuneed",
   Ira = "Ira",

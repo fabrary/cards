@@ -44,6 +44,23 @@ const getClass = (card: ParsedCard): Class => {
   return Class.Generic;
 };
 
+const getClasses = (card: ParsedCard): Class[] => {
+  const classes: Class[] = [];
+  const { types } = card;
+  for (const [klass, value] of Object.entries(Class)) {
+    if (types.includes(value)) {
+      classes.push(Class[klass]);
+    }
+  }
+  if (classes.length === 0 && getTalents(card)?.length) {
+    classes.push(Class.NotClassed);
+  }
+  if (classes.length === 0) {
+    classes.push(Class.Generic);
+  }
+  return classes;
+};
+
 const getCost = (card: ParsedCard): number | null => {
   const { cost } = card;
   return typeof cost === "string" ? null : cost;
@@ -478,6 +495,7 @@ const getCommonCardData = (card: ParsedCard): Card => {
   return {
     artists: card.artists,
     class: getClass(card),
+    classes: getClasses(card),
     cardIdentifier: getIdentifier(card),
     functionalText: card.functionalText,
     defaultImageUrl: getDefaultImageUrl(card),

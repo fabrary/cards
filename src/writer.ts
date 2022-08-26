@@ -80,6 +80,7 @@ const getImages = (images: Image[]) => {
 
 const getCardInfo = (card: Card): String => {
   return `class: ${getEnumValue(card.class, "Class", Class)},
+    classes: [${getEnumValues(card.classes, "Class", Class)}],
     ${
       card.artists
         ? `artists: [${card.artists.map((artist) => `"${artist}"`)}]`
