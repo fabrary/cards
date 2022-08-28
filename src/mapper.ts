@@ -139,10 +139,13 @@ const getIdentifier = (card: ParsedCard): string => {
   const { types, name: unformattedName, pitch } = card;
   const name = unformattedName
     .toLowerCase()
-    .replace("[^A-Za-z ]+", "")
+    .replace(/ /g, "-")
+    .replace("í", "i")
+    .replace(/[^a-z-]/g, "")
+    .replace("!", "")
+    .replace(".", "")
     .replace("?", "")
     .replace("'", "")
-    .replace(/ /g, "-")
     .replace(/,/g, "")
     .replace(/’/g, "");
   let color;

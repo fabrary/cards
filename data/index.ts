@@ -1679,7 +1679,7 @@
     class: Class.Guardian,
     classes: [Class.Guardian],
     artists: ["Alexander Mokhov"],
-    cardIdentifier: "show-time!-blue",
+    cardIdentifier: "show-time-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR047.png",
     functionalText: `**Bravo Specialization** *(You may only have Show Time! In your deck if your hero is Bravo.)*  When Show Time! enters the arena, search your deck for a Guardian attack action card, reveal it and put it into your hand, then shuffle your deck.  At the beginning of your action phase, destroy Show Time! then draw a card.`,
     images: [{
@@ -2915,7 +2915,7 @@
     class: Class.Ninja,
     classes: [Class.Ninja],
     artists: ["Sergey Gurskiy"],
-    cardIdentifier: "mugenshi:-release-yellow",
+    cardIdentifier: "mugenshi-release-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR083.png",
     functionalText: `**Katsu Specialization** *(You may only have Mugenshi: RELEASE in your deck if your hero is Katsu.)*  **Combo** - If Whelming Gustwave was the last attack this combat chain, Mugenshi: RELEASE gains +1{p}, **go again**, and “If this hits, search your deck for any number of cards named Lord of Wind, reveal them, put them into your hand, then shuffle your deck.”`,
     images: [{
@@ -9827,7 +9827,7 @@
     class: Class.Ranger,
     classes: [Class.Ranger],
     artists: ["Alexandra Malygina"],
-    cardIdentifier: "sic-‘em-shot-red",
+    cardIdentifier: "sic-em-shot-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC072.png",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  **Go again**`,
     images: [{
@@ -9884,7 +9884,7 @@
     class: Class.Ranger,
     classes: [Class.Ranger],
     artists: ["Alexandra Malygina"],
-    cardIdentifier: "sic-‘em-shot-yellow",
+    cardIdentifier: "sic-em-shot-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC073.png",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  **Go again**`,
     images: [{
@@ -9935,7 +9935,7 @@
     class: Class.Ranger,
     classes: [Class.Ranger],
     artists: ["Alexandra Malygina"],
-    cardIdentifier: "sic-‘em-shot-blue",
+    cardIdentifier: "sic-em-shot-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC074.png",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*  **Go again**`,
     images: [{
@@ -14996,7 +14996,7 @@
     class: Class.Brute,
     classes: [Class.Brute],
     artists: ["Jessada Sutthi"],
-    cardIdentifier: "argh…-smash!-yellow",
+    cardIdentifier: "argh-smash-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU009.png",
     functionalText: `Roll a 6 sided die. Destroy up to X items, where X is half the number rolled, rounded down.  **Go again**`,
     images: [{
@@ -28371,7 +28371,7 @@
     class: Class.Generic,
     classes: [Class.Generic],
     artists: ["Alexis Susani"],
-    cardIdentifier: "tremor-of-íarathael-red",
+    cardIdentifier: "tremor-of-iarathael-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON254.width-450.png",
     functionalText: `If a card has been put into your banished zone this turn, Tremor of íArathael gains +2{p}.`,
     images: [{
@@ -28410,7 +28410,7 @@
     class: Class.Generic,
     classes: [Class.Generic],
     artists: ["Alexis Susani"],
-    cardIdentifier: "tremor-of-íarathael-yellow",
+    cardIdentifier: "tremor-of-iarathael-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON255.width-450.png",
     functionalText: `If a card has been put into your banished zone this turn, Tremor of íArathael gains +2{p}.`,
     images: [{
@@ -28449,7 +28449,7 @@
     class: Class.Generic,
     classes: [Class.Generic],
     artists: ["Alexis Susani"],
-    cardIdentifier: "tremor-of-íarathael-blue",
+    cardIdentifier: "tremor-of-iarathael-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/MON256.width-450.png",
     functionalText: `If a card has been put into your banished zone this turn, Tremor of íArathael gains +2{p}.`,
     images: [{
@@ -56272,7 +56272,7 @@
     class: Class.Generic,
     classes: [Class.Generic],
     artists: ["Ramza Ardyputra"],
-    cardIdentifier: "even-bigger-than-that!-red",
+    cardIdentifier: "even-bigger-than-that-red",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR173.width-450.png",
     functionalText: `Play Even Bigger Than That! only if you've dealt {p} this turn.  **Opt 3**, then reveal the top card of your deck. If it has {p} greater than the amount of damage you've dealt this turn, create a Quicken token and draw a card. *(Look at the top 3 cards of your deck. You may put them on the top and/or bottom in any order.)*`,
     images: [{
@@ -56311,7 +56311,7 @@
     class: Class.Generic,
     classes: [Class.Generic],
     artists: ["Ramza Ardyputra"],
-    cardIdentifier: "even-bigger-than-that!-yellow",
+    cardIdentifier: "even-bigger-than-that-yellow",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR174.width-450.png",
     functionalText: `Play Even Bigger Than That! only if you've dealt {p} this turn.  **Opt 2**, then reveal the top card of your deck. If it has {p} greater than the amount of damage you've dealt this turn, create a Quicken token and draw a card. *(Look at the top 2 cards of your deck. You may put them on the top and/or bottom in any order.)*`,
     images: [{
@@ -56350,7 +56350,7 @@
     class: Class.Generic,
     classes: [Class.Generic],
     artists: ["Ramza Ardyputra"],
-    cardIdentifier: "even-bigger-than-that!-blue",
+    cardIdentifier: "even-bigger-than-that-blue",
     defaultImageUrl: "https://storage.googleapis.com/fabmaster/media/images/EVR175.width-450.png",
     functionalText: `Play Even Bigger Than That! only if you've dealt {p} this turn.  **Opt 1**, then reveal the top card of your deck. If it has {p} greater than the amount of damage you've dealt this turn, create a Quicken token and draw a card. *(Look at the top card of your deck. You may put it on the bottom.)*`,
     images: [{
