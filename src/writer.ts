@@ -62,11 +62,12 @@ const getEnumValue = (value: any, enumName: string, enm: any) => {
 
 const getImages = (images: Image[]) => {
   return images.reduce(
-    (images, { edition, identifier, set, treatment, name }) =>
+    (images, { edition, identifier, set, treatment, url, name }) =>
       (images += `{
       edition: ${getEnumValue(edition, "ReleaseEdition", ReleaseEdition)},
       identifier: "${identifier}",
       name: "${name}",
+      url: "${url}",
       set: ${getEnumValue(set, "Release", Release)},
       ${
         treatment
@@ -87,6 +88,7 @@ const getCardInfo = (card: Card): String => {
         : []
     },
     cardIdentifier: "${card.cardIdentifier}",
+    defaultImageUrl: "${card.defaultImageUrl}",
     defaultImageName: "${card.defaultImageName}",
     functionalText: \`${card.functionalText}\`,
     images: [${getImages(card.images)}],

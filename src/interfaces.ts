@@ -3,6 +3,7 @@ export interface Card {
   cardIdentifier: string;
   class?: Class;
   classes: Class[];
+  defaultImageUrl: string;
   defaultImageName: string;
   functionalText: string;
   images: Image[];
@@ -22,6 +23,7 @@ export interface Image {
   edition: ReleaseEdition;
   identifier: string;
   name: string;
+  url: string;
   set: Release;
   treatment?: Treatment;
 }
