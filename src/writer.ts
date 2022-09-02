@@ -62,32 +62,32 @@ const getEnumValue = (value: any, enumName: string, enm: any) => {
 
 const getImages = (images: Image[]) => {
   return images.reduce(
-    (images, { edition, identifier, set, treatment, url }) =>
+    (images, { edition, identifier, set, treatment, name }) =>
       (images += `{
       edition: ${getEnumValue(edition, "ReleaseEdition", ReleaseEdition)},
       identifier: "${identifier}",
+      name: "${name}",
       set: ${getEnumValue(set, "Release", Release)},
       ${
         treatment
           ? `treatment: ${getEnumValue(treatment, "Treatment", Treatment)},`
           : ``
       }
-      url: "${url}",
     },`),
     ``
   );
 };
 
 const getCardInfo = (card: Card): String => {
-  return `class: ${getEnumValue(card.class, "Class", Class)},
-    classes: [${getEnumValues(card.classes, "Class", Class)}],
+  return `classes: [${getEnumValues(card.classes, "Class", Class)}],
+    class: ${getEnumValue(card.classes[0], "Class", Class)},
     ${
       card.artists
         ? `artists: [${card.artists.map((artist) => `"${artist}"`)}]`
         : []
     },
     cardIdentifier: "${card.cardIdentifier}",
-    defaultImageUrl: "${card.defaultImageUrl}",
+    defaultImageName: "${card.defaultImageName}",
     functionalText: \`${card.functionalText}\`,
     images: [${getImages(card.images)}],
     keywords: [${getEnumValues(card.keywords, "Keyword", Keyword)}],
@@ -100,6 +100,7 @@ const getCardInfo = (card: Card): String => {
     )}],
     setIdentifiers: [${card.setIdentifiers.map((id) => `"${id}"`)}],
     sets: [${getEnumValues(card.sets, "Release", Release)}],
+    specialImageName: "${card.specialImageName}",
     type: ${getEnumValue(card.type, "Type", Type)},
     typeText: "${card.typeText}",`;
 };

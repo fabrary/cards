@@ -31,19 +31,6 @@ import {
 } from "./interfaces";
 import { ParsedCard } from "./parser";
 
-const getClass = (card: ParsedCard): Class => {
-  const { types } = card;
-  for (const [klass, value] of Object.entries(Class)) {
-    if (types.includes(value)) {
-      return Class[klass];
-    }
-  }
-  if (getTalents(card)?.length) {
-    return Class.NotClassed;
-  }
-  return Class.Generic;
-};
-
 const getClasses = (card: ParsedCard): Class[] => {
   const classes: Class[] = [];
   const { types } = card;
@@ -66,7 +53,7 @@ const getCost = (card: ParsedCard): number | null => {
   return typeof cost === "string" ? null : cost;
 };
 
-const getDefaultImageUrl = (card: ParsedCard): string => {
+const getDefaultImageName = (card: ParsedCard): string => {
   const images = getImages(card);
   const firstEdition = images.find(
     (image) => image.edition === ReleaseEdition.First
@@ -77,17 +64,51 @@ const getDefaultImageUrl = (card: ParsedCard): string => {
   const unlimitedEdition = images.find(
     (image) => image.edition === ReleaseEdition.Unlimited
   );
-  const url =
+
+  const name =
     images.length > 0
-      ? firstEdition?.url ||
-        alphaEdition?.url ||
-        unlimitedEdition?.url ||
-        images[0].url
+      ? firstEdition?.name ||
+        alphaEdition?.name ||
+        unlimitedEdition?.name ||
+        images[0].name
       : "";
-  if (!url) {
+  if (!name) {
     console.log(`Missing images for ${card.name}`);
   }
-  return url;
+  return name;
+};
+
+const getSpecialImageName = (card: ParsedCard): string => {
+  const images = getImages(card);
+  const alternativeArt = images.find(
+    (image) => image.treatment === Treatment.AA
+  );
+  const fullArt = images.find((image) => image.treatment === Treatment.FA);
+  const extendedArt = images.find((image) => image.treatment === Treatment.EA);
+  const firstEdition = images.find(
+    (image) => image.edition === ReleaseEdition.First
+  );
+  const alphaEdition = images.find(
+    (image) => image.edition === ReleaseEdition.Alpha
+  );
+  const unlimitedEdition = images.find(
+    (image) => image.edition === ReleaseEdition.Unlimited
+  );
+
+  const name =
+    images.length > 0
+      ? fullArt?.name ||
+        extendedArt?.name ||
+        alternativeArt?.name ||
+        firstEdition?.name ||
+        alphaEdition?.name ||
+        unlimitedEdition?.name ||
+        images[0].name
+      : "";
+  if (!name) {
+    console.log(`Missing images for ${card.name}`);
+  }
+  return name;
 };
 
 const getDefense = (card: ParsedCard): number | null => {
@@ -180,11 +201,12 @@ const getImages = (card: ParsedCard): Image[] => {
     const set = setIdentifierToSetMappings[setAbbreviation];
     const edition = setEditionMapping[rawEdition];
     const treatment = Treatment[rawTreatment];
+    const name = url.substring(url.lastIndexOf("/") + 1, url.lastIndexOf("."));
 
     if (!set) {
       console.log({
         image,
-        url,
+        name,
         identifier,
         rawEdition,
         edition,
@@ -195,9 +217,9 @@ const getImages = (card: ParsedCard): Image[] => {
     images.push({
       edition,
       identifier,
+      name,
       set,
       ...(treatment ? { treatment } : {}),
-      url,
     });
   }
   return images;
@@ -316,14 +338,15 @@ const todayIsAfterDate = (date: string): boolean => {
 
 const setIdentifierToSetMappings = {
   // Full sets
-  WTR: Release.WelcomeToRathe,
+  "1HP": Release.HistoryPack1,
   ARC: Release.ArcaneRising,
   CRU: Release.CrucibleOfWar,
-  "1HP": Release.HistoryPack1,
-  MON: Release.Monarch,
+  DYN: Release.Dynasty,
   ELE: Release.TalesOfAria,
   EVR: Release.Everfest,
+  MON: Release.Monarch,
   UPR: Release.Uprising,
+  WTR: Release.WelcomeToRathe,
 
   // Starter/blitz decks
   BOL: Release.BoltynBlitzDeck,
@@ -497,11 +520,11 @@ const getCommonCardData = (card: ParsedCard): Card => {
   const { type } = getTypeAndSubType(card);
   return {
     artists: card.artists,
-    class: getClass(card),
+    class: getClasses(card)[0],
     classes: getClasses(card),
     cardIdentifier: getIdentifier(card),
     functionalText: card.functionalText,
-    defaultImageUrl: getDefaultImageUrl(card),
+    defaultImageName: getDefaultImageName(card),
     images: getImages(card),
     keywords: getKeywords(card),
     name: card.name,
@@ -509,6 +532,7 @@ const getCommonCardData = (card: ParsedCard): Card => {
     restrictedFormats: getRestrictedFormats(card),
     setIdentifiers: card.identifiers,
     sets: getSets(card),
+    specialImageName: getSpecialImageName(card),
     type: type as Type,
     typeText: card.typeText,
   };

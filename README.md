@@ -5,6 +5,13 @@
 - [Enums](#enums)
 - [Working with this project](#working-with-this-project)
 
+# 5.0 breaking changes
+
+- `card.class` has been deprecated in favor of `card.classes` in order to support multi-class cards (such as `Emperor, Dracai of Aesir`)
+- Images now reference file names instead of complete URLs. This significantly reduces the bundle size of the library and adds flexibility for projects to setup their own image hosting. See [fabrary/images](https://github.com/fabrary/images) for an example of how to generate webp files of all cards.
+  - `card.defaultImageUrl` is deprecated in favor of `card.defaultImageName` and `card.specialImageName`
+  - `card.images.url` is deprecated in favor of `card.images.name`
+
 ## Overview and installation
 
 A library of all Flesh and Blood cards, available as a bundled TypeScript file with matching interfaces.
@@ -25,22 +32,23 @@ cards.forEach((card) => {
 
 **`Card`** contains all of the fields that are common across all card types - every card object will have data for these fields.
 
-| Field             | Data type            | Examples                                    |
-| ----------------- | -------------------- | ------------------------------------------- |
-| artists           | `string` array       | `[ "Riordan Delmiro" ]`                     |
-| cardIdentifier    | `string`             | `"snatch-red"`, `"aether-wildfire-red"`     |
-| class             | `Class` enum         | `"Generic"`, `"Wizard"`                     |
-| classes           | `Class` enum array   | `["Generic"]`, `["Warrior","Wizard"]`       |
-| defaultImageUrl   | `string`             | `"https://.../images/1HP371.width-450.png"` |
-| functionalText    | `string`             | `"If Snatch hits, draw a card."`            |
-| keywords          | `Keyword` enum array | `[ "Boost" ]`                               |
-| name              | `string`             | `"Rain Razors"`, `"Pummel"`                 |
-| rarity            | `Rarity` enum        | `"Super Rare"`, `"Token"`                   |
-| restrictedFormats | `Format` enum array  | `[ "Blitz" ]`                               |
-| setIdentifiers    | `string` array       | `[ "1HP009", "CRU006" ]`                    |
-| sets              | `Release` enum array | `[ "History Pack 1", "Crucible of War" ]`   |
-| type              | `Type` enum array    | `"Action"`, `"Hero"`                        |
-| typeText          | `string`             | `"Elemental Ranger Action – Arrow Attack"`  |
+| Field             | Data type            | Examples                                   |
+| ----------------- | -------------------- | ------------------------------------------ |
+| artists           | `string` array       | `[ "Riordan Delmiro" ]`                    |
+| cardIdentifier    | `string`             | `"snatch-red"`, `"aether-wildfire-red"`    |
+| classes           | `Class` enum array   | `["Generic"]`, `["Warrior","Wizard"]`      |
+| defaultImageName  | `string`             | `"1HP001.width-450"`                       |
+| functionalText    | `string`             | `"If Snatch hits, draw a card."`           |
+| images            | `Image` array        | see **`Image`**                            |
+| keywords          | `Keyword` enum array | `[ "Boost" ]`                              |
+| name              | `string`             | `"Rain Razors"`, `"Pummel"`                |
+| rarity            | `Rarity` enum        | `"Super Rare"`, `"Token"`                  |
+| restrictedFormats | `Format` enum array  | `[ "Blitz" ]`                              |
+| setIdentifiers    | `string` array       | `[ "1HP009", "CRU006" ]`                   |
+| sets              | `Release` enum array | `[ "History Pack 1", "Crucible of War" ]`  |
+| specialImageName  | `string`             | `"1HP001.width-450"`                       |
+| type              | `Type` enum array    | `"Action"`, `"Hero"`                       |
+| typeText          | `string`             | `"Elemental Ranger Action – Arrow Attack"` |
 
 <br/>
 
@@ -120,6 +128,19 @@ cards.forEach((card) => {
 | talents       | `array` of `Talent` enum         | `[ "Light", "Elemental" ]` |
 | subType       | `string` of `WeaponSubType` enum | `"Axe"`, `"Staff"`         |
 
+<br/>
+
+**`Image`** contains information needed to correctly display card images
+
+| Field      | Data type                         | Examples                            |
+| ---------- | --------------------------------- | ----------------------------------- |
+| art        | `string` of `Art` enum            | `"Cold Foil"`, `"Standard"`         |
+| edition    | `string` of `ReleaseEdition` enum | `"Alpha"`, `"Unlimited"`            |
+| identifier | `string`                          | `"1HP001"`                          |
+| name       | `string`                          | `"1HP001.width-450"`                |
+| set        | `string` of `Release` enum        | `"Dynasty"`, `"Uprising"`           |
+| treatment  | `string` of `Treatment` enum      | `"Alternate Art"`, `"Extended Art"` |
+
 ## Enums
 
 **`Class`**
@@ -158,7 +179,7 @@ cards.forEach((card) => {
 
 ```ts
 // Full sets
-"Arcane Rising", "Crucible of War", "Everfest", "History Pack 1", "Monarch", "Tales of Aria", "Uprising", "Welcome to Rathe",
+"Arcane Rising", "Crucible of War", "Dynasty", "Everfest", "History Pack 1", "Monarch", "Tales of Aria", "Uprising", "Welcome to Rathe",
 
 // Hero/blitz decks
 "Boltyn Blitz Deck", "Briar Blitz Deck", "Bravo Blitz Deck", "Chane Blitz Deck", "Classic Battles: Rhinar vs Dorinthea", "Dorinthea Hero Deck", "Ira Welcome Deck", "Katsu Hero Deck", "LeviaBlitzDeck", "Lexi Blitz Deck", "Oldhim Blitz Deck", "Prism Blitz Deck", "Rhinar Hero Deck",
@@ -172,7 +193,7 @@ cards.forEach((card) => {
 **`Talent`**
 
 ```ts
-"Not talented", "Draconic", "Earth", "Elemental", "Ice", "Light", "Lightning", "Shadow",
+"Not talented", "Draconic", "Earth", "Elemental", "Ice", "Light", "Lightning", "Royal", "Shadow",
 ```
 
 <br/>
@@ -217,7 +238,7 @@ cards.forEach((card) => {
 **`Hero`**
 
 ```ts
-"Azalea", "Benji", "Boltyn", "Bravo", "Briar", "Chane", "Dash", "Data Doll", "Dorinthea", "Genis Wotchuneed", "Ira", "Iyslander", "Kano", "Kassai", "Katsu", "Kavdaen", "Kayo", "Levia", "Lexi", "Oldhim", "Prism", "Rhinar", "Ruu’di", "Shiyana", "Taylor", "Valda", "Viserai", "Yorick",
+"Azalea", "Benji", "Boltyn", "Bravo", "Briar", "Chane", "Dash", "Data Doll", "Dorinthea", "Emperor", "Genis Wotchuneed", "Ira", "Iyslander", "Kano", "Kassai", "Katsu", "Kavdaen", "Kayo", "Levia", "Lexi", "Oldhim", "Prism", "Rhinar", "Ruu’di", "Shiyana", "Taylor", "Valda", "Viserai", "Yorick",
 ```
 
 <br/>

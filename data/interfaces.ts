@@ -1,9 +1,9 @@
 export interface Card {
   artists: string[];
   cardIdentifier: string;
-  class: Class;
+  class?: Class;
   classes: Class[];
-  defaultImageUrl: string;
+  defaultImageName: string;
   functionalText: string;
   images: Image[];
   keywords: Keyword[];
@@ -12,6 +12,7 @@ export interface Card {
   restrictedFormats: Format[];
   setIdentifiers: string[];
   sets: Release[];
+  specialImageName: string;
   type: Type;
   typeText: string;
 }
@@ -20,9 +21,9 @@ export interface Image {
   art?: Art;
   edition: ReleaseEdition;
   identifier: string;
+  name: string;
   set: Release;
   treatment?: Treatment;
-  url: string;
 }
 
 export enum Treatment {
@@ -136,6 +137,7 @@ export enum Release {
   // Full sets
   ArcaneRising = "Arcane Rising",
   CrucibleOfWar = "Crucible of War",
+  Dynasty = "Dynasty",
   Everfest = "Everfest",
   HeroDeck = "Hero Deck",
   HistoryPack1 = "History Pack 1",
