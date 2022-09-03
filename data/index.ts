@@ -25466,7 +25466,7 @@ If you've **charged** this turn, Take Flight gains **go again.**`,
     classes: [Class.Brute],
     class: Class.Brute,
     artists: ["Carlos Cruchaga"],
-    cardIdentifier: "shadow-of-blasphomet-red",
+    cardIdentifier: "shadow-of-blasmophet-red",
     defaultImageName: "KLUiCIJEFKdt8QM545A4g.width-450",
     functionalText: `Draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, search your deck for a card with **blood debt**, banish it, then shuffle your deck.
 
@@ -25485,7 +25485,7 @@ If you've **charged** this turn, Take Flight gains **go again.**`,
       
     },],
     keywords: [Keyword.BloodDebt],
-    name: "Shadow of Blasphomet",
+    name: "Shadow of Blasmophet",
     rarity: Rarity.Majestic,
     restrictedFormats: [Format.Commoner],
     setIdentifiers: ["MON125"],
