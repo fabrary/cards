@@ -53,30 +53,6 @@ const getCost = (card: ParsedCard): number | null => {
   return typeof cost === "string" ? null : cost;
 };
 
-const getDefaultImageUrl = (card: ParsedCard): string => {
-  const images = getImages(card);
-  const firstEdition = images.find(
-    (image) => image.edition === ReleaseEdition.First
-  );
-  const alphaEdition = images.find(
-    (image) => image.edition === ReleaseEdition.Alpha
-  );
-  const unlimitedEdition = images.find(
-    (image) => image.edition === ReleaseEdition.Unlimited
-  );
-  const url =
-    images.length > 0
-      ? firstEdition?.name ||
-        alphaEdition?.name ||
-        unlimitedEdition?.name ||
-        images[0].name
-      : "";
-  if (!url) {
-    console.log(`Missing images for ${card.name}`);
-  }
-  return `/${url}.webp`;
-};
-
 const getDefaultImageName = (card: ParsedCard): string => {
   const images = getImages(card);
   const firstEdition = images.find(
@@ -186,13 +162,13 @@ const getIdentifier = (card: ParsedCard): string => {
     .toLowerCase()
     .replace(/ /g, "-")
     .replace("í", "i")
-    .replace(/[^a-z-]/g, "")
-    .replace("!", "")
-    .replace(".", "")
-    .replace("?", "")
-    .replace("'", "")
-    .replace(/,/g, "")
-    .replace(/’/g, "");
+    .replace(/[^a-z-]/g, "");
+  // .replace("!", "")
+  // .replace(".", "")
+  // .replace("?", "")
+  // .replace("'", "")
+  // .replace(/,/g, "")
+  // .replace(/’/g, "");
   let color;
   switch (pitch) {
     case 1:
@@ -231,7 +207,6 @@ const getImages = (card: ParsedCard): Image[] => {
       edition,
       identifier,
       name,
-      url,
       set,
       ...(treatment ? { treatment } : {}),
     });
@@ -538,7 +513,6 @@ const getCommonCardData = (card: ParsedCard): Card => {
     classes: getClasses(card),
     cardIdentifier: getIdentifier(card),
     functionalText: card.functionalText,
-    defaultImageUrl: getDefaultImageUrl(card),
     defaultImageName: getDefaultImageName(card),
     images: getImages(card),
     keywords: getKeywords(card),

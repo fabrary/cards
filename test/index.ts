@@ -1,6 +1,7 @@
 import { readFileSync } from "fs";
 import { parse } from "papaparse";
 import { cards as libraryCards } from "../dist/index";
+import { cards as publishedCards } from "fab-cards";
 
 const csv = readFileSync("src/cards.tsv", "utf8");
 const parsed = parse(csv, {
@@ -10,6 +11,7 @@ const parsed = parse(csv, {
 });
 const parsedCards = parsed.data;
 
+// Missing cards
 const libraryCardNames = libraryCards
   .map((card) => card.name)
   .filter((name) => name !== undefined && name !== null && name !== "");
@@ -22,10 +24,59 @@ const cardsMissingFromLibrary = parsedCardNames.filter(
   (name) => !libraryCardNames.includes(name)
 );
 
+// Cards with special characters in identifier
+const libraryCardIdentifiers = libraryCards.map((card) => card.cardIdentifier);
+
+const cardIdentifiersWithNonAlphanumeric = libraryCardIdentifiers.filter(
+  (cardIdentifier) =>
+    cardIdentifier.replace(/-/g, "").match(/^[a-z]+$/) === null
+);
+
+// Cards added/removed from library
+// @ts-ignore
+Array.prototype.diff = function (arr2) {
+  return this.filter((x) => !arr2.includes(x));
+};
+const publishedCardIdentifiers = publishedCards.map(
+  (card) => card.cardIdentifier
+);
+//@ts-ignore
+const differentIdentifiers = publishedCardIdentifiers.diff(
+  libraryCardIdentifiers
+);
+
 console.log(`
+There are ${publishedCardIdentifiers.length} published cards
+There are ${libraryCards.length} cards to be published
+
+There are ${differentIdentifiers.length} cards with different identifiers
+${
+  differentIdentifiers.length > 0
+    ? `
+Cards with different identifiers: ${differentIdentifiers}
+`
+    : ``
+}
+
+There are ${
+  cardIdentifiersWithNonAlphanumeric.length
+} cards with special characters in dist/
+${
+  cardIdentifiersWithNonAlphanumeric.length > 0
+    ? `
+Cards with special characters: ${cardIdentifiersWithNonAlphanumeric}
+`
+    : ``
+}
+
 There are ${libraryCards.length} cards in dist/
 There are ${parsedCards.length} cards in the source .tsv
 There are ${parsedCards.length - libraryCards.length} missing in dist/
-
+${
+  cardsMissingFromLibrary.length > 0
+    ? `
 Cards missing from the library: ${cardsMissingFromLibrary}
+`
+    : ``
+}
 `);
