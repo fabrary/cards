@@ -63,6 +63,7 @@ export interface HeroCard extends Card {
 }
 
 export interface MentorCard extends Card {
+  pitch: number;
   defense?: number;
 }
 

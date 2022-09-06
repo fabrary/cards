@@ -575,6 +575,7 @@ const getHeroCardData = (card: ParsedCard): HeroCard => {
 const getMentorCardData = (card: ParsedCard): MentorCard => {
   return {
     ...getCommonCardData(card),
+    pitch: card.pitch || 0,
     defense: getDefense(card) as number,
   };
 };

@@ -167,6 +167,7 @@ const generateHeroTS = (card: HeroCard): String => {
 const generateMentorTS = (card: MentorCard): String => {
   return `{
     ${getCardInfo(card)}
+    ${card.pitch || card.pitch === 0 ? `pitch: ${card.pitch},` : ``}
     ${card.defense || card.defense === 0 ? `defense: ${card.defense},` : ``}
   }`;
 };
