@@ -14,7 +14,7 @@
 
 ## Overview and installation
 
-A library of all Flesh and Blood cards, available as a bundled TypeScript file with matching interfaces. Source data comes from the amazing [flesh-and-blood-cards](https://github.com/the-fab-cube/flesh-and-blood-cards) repository maintained by [Tyler Luce](https://github.com/luceleaftea) - all credit goes to him, and all errors are probably added by me in this project 😅.
+A library of all Flesh and Blood cards, available as a bundled TypeScript file with matching interfaces. Source data comes from the amazing [the-fab-cube/flesh-and-blood-cards](https://github.com/the-fab-cube/flesh-and-blood-cards) repository maintained by [Tyler Luce](https://github.com/luceleaftea) - all credit goes to him, and all errors are probably added by me in this project 😅.
 
 To install run `npm i --save fab-cards`.
 
@@ -253,7 +253,7 @@ cards.forEach((card) => {
 
 ### Card data
 
-- [src/cards.tsv](src/cards.tsv) is the source of truth for all generated data. The data is managed in Google Sheets and sourced from [flesh-cube/flesh-and-blood-cards](https://github.com/the-fab-cube/flesh-and-blood-cards).
+- [src/cards.tsv](src/cards.tsv) is the source of truth for all generated data. The data is managed in Google Sheets and sourced from [the-fab-cube/flesh-and-blood-cards](https://github.com/the-fab-cube/flesh-and-blood-cards).
 
 ### Data transformations
 
