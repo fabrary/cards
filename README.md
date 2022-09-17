@@ -8,7 +8,7 @@
 # 5.0 breaking changes
 
 - `card.class` has been deprecated in favor of `card.classes` in order to support multi-class cards (such as `Emperor, Dracai of Aesir`)
-- Images now reference file names instead of complete URLs. This significantly reduces the bundle size of the library and adds flexibility for projects to setup their own image hosting. See [fabrary/images](https://github.com/fabrary/images) for an example of how to generate webp files of all cards.
+- Images now reference file names instead of complete URLs. This significantly reduces the bundle size of the library and adds flexibility for projects to use their own image hosting. See [fabrary/images](https://github.com/fabrary/images) for an example of how to generate webp files of all cards.
   - `card.defaultImageUrl` is deprecated in favor of `card.defaultImageName` and `card.specialImageName`
   - `card.images.url` is deprecated in favor of `card.images.name`
 
@@ -154,7 +154,7 @@ cards.forEach((card) => {
 **`Format`**
 
 ```ts
-"Blitz", "Classic Constructed", "Commoner",
+"Blitz", "Clash", "Classic Constructed", "Commoner",
 ```
 
 <br/>

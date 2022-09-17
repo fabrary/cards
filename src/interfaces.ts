@@ -112,6 +112,7 @@ export enum Class {
 
 export enum Format {
   Blitz = "Blitz",
+  Clash = "Clash",
   ClassicConstructed = "Classic Constructed",
   Commoner = "Commoner",
 }

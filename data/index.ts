@@ -68,6 +68,38 @@
     specializations: [],
     subType: ActionSubType.Item,
   },{
+    classes: [Class.Bard],
+    class: Class.Bard,
+    artists: ["Andy Aslamov"],
+    cardIdentifier: "tales-of-adventure-blue",
+    defaultImageName: "",
+    functionalText: `**Yorick Specialization** *(You may only have Tales of Adventure in  your deck if your hero is Yorick.)*
+
+Each other hero chooses and creates a token that hasn’t been chosen; Aether Ashwing, Embodiment of Earth, Embodiment of Lightning, Ponder, Quicken, Runechant, Seismic Surge, Soul Shackle, Spectral Shield, Zen State.
+
+You create a Copper, Silver, and Gold.`,
+    images: [],
+    keywords: [Keyword.Specialization],
+    name: "Tales of Adventure",
+    rarity: Rarity.Promo,
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    setIdentifiers: ["LSS005"],
+    sets: [Release.Promos],
+    specialImageName: "",
+    type: Type.Action,
+    typeText: "Bard Action",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [Hero.Yorick],
+    subType: ActionSubType.NonAttack,
+  },{
     classes: [Class.Brute],
     class: Class.Brute,
     artists: ["Adolfo Navarro"],
@@ -7726,7 +7758,7 @@ If you have **boosted** this turn, draw a card.`,
     classes: [Class.Mechanologist],
     class: Class.Mechanologist,
     artists: ["Sam Yang"],
-    cardIdentifier: "pedal-to-the-medal-red",
+    cardIdentifier: "pedal-to-the-metal-red",
     defaultImageName: "ARC011",
     functionalText: `If Pedal to the Metal hits, your next attack this turn gains **dominate**. *(The defending hero can't defend the attack with more than 1 card from their hand.)*
 
@@ -7757,7 +7789,7 @@ If you have **boosted** this turn, draw a card.`,
       
     },],
     keywords: [Keyword.Boost,Keyword.Dominate],
-    name: "Pedal to the Medal",
+    name: "Pedal to the Metal",
     rarity: Rarity.Rare,
     restrictedFormats: [Format.Commoner],
     setIdentifiers: ["1HP196","ARC011"],
@@ -7780,7 +7812,7 @@ If you have **boosted** this turn, draw a card.`,
     classes: [Class.Mechanologist],
     class: Class.Mechanologist,
     artists: ["Sam Yang"],
-    cardIdentifier: "pedal-to-the-medal-yellow",
+    cardIdentifier: "pedal-to-the-metal-yellow",
     defaultImageName: "ARC012",
     functionalText: `If Pedal to the Metal hits, your next attack this turn gains **dominate**. *(The defending hero can't defend the attack with more than 1 card from their hand.)*
 
@@ -7811,7 +7843,7 @@ If you have **boosted** this turn, draw a card.`,
       
     },],
     keywords: [Keyword.Boost,Keyword.Dominate],
-    name: "Pedal to the Medal",
+    name: "Pedal to the Metal",
     rarity: Rarity.Rare,
     restrictedFormats: [Format.Commoner],
     setIdentifiers: ["1HP197","ARC012"],
@@ -7834,7 +7866,7 @@ If you have **boosted** this turn, draw a card.`,
     classes: [Class.Mechanologist],
     class: Class.Mechanologist,
     artists: ["Sam Yang"],
-    cardIdentifier: "pedal-to-the-medal-blue",
+    cardIdentifier: "pedal-to-the-metal-blue",
     defaultImageName: "ARC013",
     functionalText: `If Pedal to the Metal hits, your next attack this turn gains **dominate**. *(The defending hero can't defend the attack with more than 1 card from their hand.)*
 
@@ -7865,7 +7897,7 @@ If you have **boosted** this turn, draw a card.`,
       
     },],
     keywords: [Keyword.Boost,Keyword.Dominate],
-    name: "Pedal to the Medal",
+    name: "Pedal to the Metal",
     rarity: Rarity.Rare,
     restrictedFormats: [Format.Commoner],
     setIdentifiers: ["1HP198","ARC013"],
@@ -27291,7 +27323,7 @@ The next attack action card with cost 0 you play this turns gains +1{p} and **go
     keywords: [Keyword.BloodDebt],
     name: "Bounding Demigon",
     rarity: Rarity.Common,
-    restrictedFormats: [Format.Commoner],
+    restrictedFormats: [],
     setIdentifiers: ["CHN009","MON168"],
     sets: [Release.ChaneBlitzDeck,Release.Monarch],
     specialImageName: "MON168.width-450",
@@ -27333,7 +27365,7 @@ The next attack action card with cost 0 you play this turns gains +1{p} and **go
     keywords: [Keyword.BloodDebt],
     name: "Bounding Demigon",
     rarity: Rarity.Common,
-    restrictedFormats: [Format.Commoner],
+    restrictedFormats: [],
     setIdentifiers: ["MON169"],
     sets: [Release.Monarch],
     specialImageName: "MON169.width-450",
@@ -27375,7 +27407,7 @@ The next attack action card with cost 0 you play this turns gains +1{p} and **go
     keywords: [Keyword.BloodDebt],
     name: "Bounding Demigon",
     rarity: Rarity.Common,
-    restrictedFormats: [Format.Commoner],
+    restrictedFormats: [],
     setIdentifiers: ["MON170"],
     sets: [Release.Monarch],
     specialImageName: "MON170.width-450",
@@ -28654,7 +28686,8 @@ The next attack action card you play this turn gains +1{p}.
     
     specializations: [],
     subType: ActionSubType.Attack,
-  },{
+  }];
+  const basicActions2: ActionCard[] = [{
     classes: [Class.NotClassed],
     class: Class.NotClassed,
     artists: ["Alexandra Malygina"],
@@ -28702,8 +28735,7 @@ The next attack action card you play this turn gains +1{p}.
     
     specializations: [],
     subType: ActionSubType.Attack,
-  }];
-  const basicActions2: ActionCard[] = [{
+  },{
     classes: [Class.NotClassed],
     class: Class.NotClassed,
     artists: ["Alexandra Malygina"],
@@ -44420,7 +44452,7 @@ If Timekeeper's Whim is played during an opponents turn, put it on the bottom of
     artists: ["Hoàng Lập"],
     cardIdentifier: "fractal-replication-red",
     defaultImageName: "EVR138.width-450",
-    functionalText: `When you play or defend with Fractal Replication, it gains the abilities and effects of all Illusionist attack action cards on the combat chain.
+    functionalText: `When you play or defend with Fractal Replication, it gains the base abilities of all Illusionist attack action cards on the combat chain.
 
 Fractal Replication's {p} is equal to the greatest base {p} among Illusionist attack action cards on the combat chain.
 
@@ -54219,7 +54251,7 @@ Target weapon attack gains +1{p}.
     keywords: [],
     name: "Lunging Press",
     rarity: Rarity.Rare,
-    restrictedFormats: [Format.Commoner],
+    restrictedFormats: [],
     setIdentifiers: ["IRA011","KSU028","CRU186"],
     sets: [Release.IraWelcomeDeck,Release.KatsuHeroDeck,Release.CrucibleOfWar],
     specialImageName: "CRU186",
@@ -60552,9 +60584,7 @@ Draw 2 cards.`,
     artists: ["Andy Aslamov"],
     cardIdentifier: "crown-of-dominion",
     defaultImageName: "DYN234",
-    functionalText: `Your hero is Royal.
-
-When you equip Crown of Dominion, create a gold token`,
+    functionalText: `Your hero is Royal. When you equip Crown of Dominion, create a gold token`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "DYN234",
@@ -68567,7 +68597,7 @@ At the beginning of your action phase, destroy Embodiment of Earth.`,
     artists: ["Tian Thongjonroon"],
     cardIdentifier: "frostbite",
     defaultImageName: "ELE111.width-450",
-    functionalText: `Cards and activated abilities you control cost an additional {r}.
+    functionalText: `Cards and abilities cost you an additional {r} to play or activate.
 
 At the beginning of your end phase or when you play a card or activate an ability, destroy Frostbite.`,
     images: [{
@@ -69144,7 +69174,7 @@ If Yendurai would be dealt damage, remove an endurance counter from him to preve
     keywords: [],
     name: "Hummingbird, Adventurer’s Call",
     rarity: Rarity.Promo,
-    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    restrictedFormats: [],
     setIdentifiers: ["FAB094"],
     sets: [Release.Promos],
     specialImageName: "FAB094",
