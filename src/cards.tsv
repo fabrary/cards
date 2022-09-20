@@ -20,7 +20,9 @@ LSS005	LSS	Tales of Adventure	3	0		3			P	Bard, Action	Yorick Specialization				"
 
 Each other hero chooses and creates a token that hasn’t been chosen; Aether Ashwing, Embodiment of Earth, Embodiment of Lightning, Ponder, Quicken, Runechant, Seismic Surge, Soul Shackle, Spectral Shield, Zen State.
 
-You create a Copper, Silver, and Gold."		Bard Action	Andy Aslamov		No	No	No												R – LSS005 – N – EA				
+You create a Copper, Silver, and Gold."		Bard Action	Andy Aslamov		No	No	No												R – LSS005 – N – EA	/LSS005.png – LSS005 – N			
+LGS116	LSS	Blessing of Aether	1	1		2			P	Wizard, Action, Aura					At the start of your turn, destroy Blessing of Aether then if the next card you play this turn has an arcane damage effect, instead it deals that much arcane damage plus 3.		Wizard Action – Aura	soyameii																R – LGS116 – N – EA	/LGS116.png – LGS116 – N			
+HER075	HER	Yoji, Royal Protector					22	4	P	Guardian, Hero, Young		Once per Turn Instant			**Once per Turn Instant** - {r}{r}{r}: The next time another target hero would be dealt damage this turn, instead that damage is dealt to Yonji and prevent 1 of that damage.		Guardian Hero – Young	Othon Nikolaidis																R – HER075 – N – EA	/HER075.png – HER075 – N			
 FAB094	FAB	Hummingbird, Adventurer’s Call							P	Bard, Weapon, Lute, 2H					"At the start of your turn, choose 1;
 - Each hero creates a Quicken token.
 - Each hero draws a card.
@@ -1812,9 +1814,7 @@ MON102	MON	Spears of Surreality	2	1	4	3			C	Illusionist, Action, Attack	Phantasm
 PSM029, MON103	PSM, MON	Spears of Surreality	3	1	3	3			C, C	Illusionist, Action, Attack	Phantasm, Go again				"**Phantasm** *(If Spears of Surreality is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Spears of Surreality and close the combat chain.)*
 
 **Go again** *(If Spears of Surreality is destroyed, go again does not resolve.)*"		Illusionist Action – Attack	Immanuela Crovius																S – PSM029 – N, S R – MON103 – F, S R – MON103 – U	https://storage.googleapis.com/fabmaster/media/images/PSM029.width-450.png – PSM029 – N, https://storage.googleapis.com/fabmaster/media/images/MON103.width-450.png - MON103 - F, https://storage.googleapis.com/fabmaster/media/images/U-MON103.width-450.png - MON103 – U			
-FAB082, PSM030, MON104, EVR153	FAB, PSM, MON, EVR	Spectral Shield							P, T, T, C	Illusionist, Token, Aura					"*(Auras stay in the arena until they are destroyed.)*
-
-If your hero would be dealt damage, instead destroy Spectral Shield and prevent 1 damage that source would deal."		Illusionist Token – Aura	Alexandra Malygina																C – FAB082 – N, S – PSM030 – N, S – MON104 – F, S – MON104 – U, S R – EVR153 – F	https://storage.googleapis.com/fabmaster/media/images/PSM030.width-450.png – PSM030 – N, https://storage.googleapis.com/fabmaster/media/images/MON104.width-450.png - MON104 - F, https://storage.googleapis.com/fabmaster/media/images/U-MON104.width-450.png - MON104 – U, https://storage.googleapis.com/fabmaster/media/images/EVR153.width-450.png - EVR153 – F			
+FAB082, PSM030, MON104, EVR153	FAB, PSM, MON, EVR	Spectral Shield							P, T, T, C	Illusionist, Token, Aura	Ward 1				**Ward 1** *(If your hero would be dealt damage, prevent 1 of that damage and destroy Spectral Shield.)*		Illusionist Token – Aura	Alexandra Malygina																C – FAB082 – N, S – PSM030 – N, S – MON104 – F, S – MON104 – U, S R – EVR153 – F	https://storage.googleapis.com/fabmaster/media/images/PSM030.width-450.png – PSM030 – N, https://storage.googleapis.com/fabmaster/media/images/MON104.width-450.png - MON104 - F, https://storage.googleapis.com/fabmaster/media/images/U-MON104.width-450.png - MON104 – U, https://storage.googleapis.com/fabmaster/media/images/EVR153.width-450.png - EVR153 – F			
 LGS049, BOL003, MON105	LGS, BOL, MON	Hatchet of Body			2				P, C, T	Warrior, Weapon, Axe, 1H		Once per Turn Action	Attack		"**Once per Turn Action** - {r}: **Attack**
 
 Whenever you attack with Hatchet of Body, if Hatchet of Mind was the last attack this turn, Hatchet of Body gains +1{p} until end of turn."		Warrior Weapon – Axe (1H)	Iain Miki																C – LGS049 – N, S – BOL003 – N, S – MON105 – F, S – MON105 – U	https://storage.googleapis.com/fabmaster/media/images/LGS049.width-450.png – LGS049 – N, https://storage.googleapis.com/fabmaster/media/images/BOL003.width-450.png – BOL003 – N, https://storage.googleapis.com/fabmaster/media/images/MON105.width-450.png - MON105 - F, https://storage.googleapis.com/fabmaster/media/images/U-MON105.width-450.png - MON105 – U			
@@ -2316,19 +2316,25 @@ MON256	MON	Tremor of íArathael	3	1	2	2			R	Generic, Action, Attack					If a car
 MON257	MON	Rise Above	1	2		4			R	Generic, Defense Reaction					You may put a card from your hand on top of your deck rather than pay Rise Above's {r} cost.	“Our gifts allow us to see into the beyond, but even we cannot shape the visions we see on the other side.” - Vidya Willowmere	Generic Defense Reaction	Saad Irfan				No												S R – MON257 – F, S R – MON257 – U	https://storage.googleapis.com/fabmaster/media/images/MON257.width-450.png - MON257 - F, https://storage.googleapis.com/fabmaster/media/images/U-MON257.width-450.png - MON257 – U			
 MON258	MON	Rise Above	2	2		3			R	Generic, Defense Reaction					You may put a card from your hand on top of your deck rather than pay Rise Above's {r} cost.	“Our gifts allow us to see into the beyond, but even we cannot shape the visions we see on the other side.” - Vidya Willowmere	Generic Defense Reaction	Saad Irfan				No												S R – MON258 – F, S R – MON258 – U	https://storage.googleapis.com/fabmaster/media/images/MON258.width-450.png - MON258 - F, https://storage.googleapis.com/fabmaster/media/images/U-MON258.width-450.png - MON258 – U			
 MON259	MON	Rise Above	3	2		2			R	Generic, Defense Reaction					You may put a card from your hand on top of your deck rather than pay Rise Above's {r} cost.	“Our gifts allow us to see into the beyond, but even we cannot shape the visions we see on the other side.” - Vidya Willowmere	Generic Defense Reaction	Saad Irfan				No												S R – MON259 – F, S R – MON259 – U	https://storage.googleapis.com/fabmaster/media/images/MON259.width-450.png - MON259 - F, https://storage.googleapis.com/fabmaster/media/images/U-MON259.width-450.png - MON259 – U			
-MON260	MON	Captain’s Call	1	0		2			R	Generic, Action	Go again			Go again	"The next attack action card with cost 2 or less you play this turn gains +2{p}.
+MON260	MON	Captain’s Call	1	0		2			R	Generic, Action	Go again			Go again	"Choose 1;
+
+The next attack action card with cost 2 or less you play this turn gains +2{p}.
 
 The next attack action card with cost 2 or less you play this turn gains **go again.**
 
 **Go again**"		Generic Action	Joshua Raphael				No												S R – MON260 – F, S R – MON260 – U	https://storage.googleapis.com/fabmaster/media/images/MON260.width-450.png - MON260 - F, https://storage.googleapis.com/fabmaster/media/images/U-MON260.width-450.png - MON260 – U			
-MON261	MON	Captain’s Call	2	0		2			R	Generic, Action	Go again			Go again	"The next attack action card with cost 1 or less you play this turn gains +2{p}.
+MON261	MON	Captain’s Call	2	0		2			R	Generic, Action	Go again			Go again	"Choose 1;
+
+The next attack action card with cost 1 or less you play this turn gains +2{p}.
 
 The next attack action card with cost 1 or less you play this turn gains **go again.**
 
 **Go again**"		Generic Action	Joshua Raphael				No												S R – MON261 – F, S R – MON261 – U	https://storage.googleapis.com/fabmaster/media/images/MON261.width-450.png - MON261 - F, https://storage.googleapis.com/fabmaster/media/images/U-MON261.width-450.png - MON261 – U			
-MON262	MON	Captain’s Call	3	0		2			R	Generic, Action	Go again			Go again	"The next attack action card with cost 0 or less you play this turn gains +2{p}.
+MON262	MON	Captain’s Call	3	0		2			R	Generic, Action	Go again			Go again	"Choose 1;
 
-The next attack action card with cost 0 or less you play this turn gains **go again.**
+The next attack action card with cost 0 you play this turn gains +2{p}.
+
+The next attack action card with cost 0 you play this turn gains **go again.**
 
 **Go again**"		Generic Action	Joshua Raphael				No												S R – MON262 – F, S R – MON262 – U	https://storage.googleapis.com/fabmaster/media/images/MON262.width-450.png - MON262 - F, https://storage.googleapis.com/fabmaster/media/images/U-MON262.width-450.png - MON262 – U			
 MON263	MON	Adrenaline Rush	1	2	4	2			C	Generic, Action, Attack					When you play Adrenaline Rush, if you have less {h} than an opposing hero, it gains +3{p}.	“Cut off the skera’s head, and it shall still find the strength to bite.” - Sanni	Generic Action – Attack	Silvia Meiliani																S R – MON263 – F, S R – MON263 – U	https://storage.googleapis.com/fabmaster/media/images/MON263.width-450.png - MON263 - F, https://storage.googleapis.com/fabmaster/media/images/U-MON263.width-450.png - MON263 – U			
@@ -3493,7 +3499,7 @@ EVR074	EVR	T-Bone	2	0	2	3			R	Mechanologist, Action, Attack	Boost				"If you con
 **Boost** *(As an additional cost to play T-Bone, you may banish the top card of your deck. If it's a Mechanologist card, T-Bone gains ***go again.***)*"		Mechanologist Action – Attack	Jessada Sutthi				No												S R – EVR074 – F	https://storage.googleapis.com/fabmaster/media/images/EVR074.width-450.png - EVR074 - F			
 EVR075	EVR	T-Bone	3	0	1	3			C	Mechanologist, Action, Attack	Boost				"If you control a card on the combat chain that was boosted, the defending hero must defend T-Bone with an equipment they control if able.
 
-**Boost** *(As an additional cost to play T-Bone, you may banish the top card of your deck. If it's a Mechanologist card, T-Bone gains ***go again.***)*"		Mechanologist Action – Attack	Jessada Sutthi																S R – EVR075 – F	https://storage.googleapis.com/fabmaster/media/images/EVR075.width-450.png - EVR075 - F			
+**Boost** *(As an additional cost to play T-Bone, you may banish the top card of your deck. If it's a Mechanologist card, T-Bone gains ***go again.***)*"		Mechanologist Action – Attack	Jessada Sutthi				No												S R – EVR075 – F	https://storage.googleapis.com/fabmaster/media/images/EVR075.width-450.png - EVR075 - F			
 EVR076	EVR	Payload	1	2	6	3			C	Mechanologist, Action, Attack	Dominate				If you have **boosted** this combat chain, Payload gains **dominate.** *(The defending hero can't defend Payload with more than 1 card from their hand.)*	The latest in Teklo Industries armament. Guaranteed to leave a dent in your enemies… and your wallet!	Mechanologist Action – Attack	Isuardi Therianto																S R – EVR076 – F	https://storage.googleapis.com/fabmaster/media/images/EVR076.width-450.png - EVR076 - F			
 EVR077	EVR	Payload	2	2	5	3			C	Mechanologist, Action, Attack	Dominate				If you have **boosted** this combat chain, Payload gains **dominate.** *(The defending hero can't defend Payload with more than 1 card from their hand.)*	The latest in Teklo Industries armament. Guaranteed to leave a dent in your enemies… and your wallet!	Mechanologist Action – Attack	Isuardi Therianto																S R – EVR077 – F	https://storage.googleapis.com/fabmaster/media/images/EVR077.width-450.png - EVR077 - F			
 EVR078	EVR	Payload	3	2	4	3			C	Mechanologist, Action, Attack	Dominate				If you have **boosted** this combat chain, Payload gains **dominate.** *(The defending hero can't defend Payload with more than 1 card from their hand.)*	The latest in Teklo Industries armament. Guaranteed to leave a dent in your enemies… and your wallet!	Mechanologist Action – Attack	Isuardi Therianto																S R – EVR078 – F	https://storage.googleapis.com/fabmaster/media/images/EVR078.width-450.png - EVR078 - F			

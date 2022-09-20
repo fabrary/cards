@@ -1,7 +1,7 @@
 {
   "name": "fab-cards",
   "description": "JavaScript/TypeScript representations of Flesh and Blood cards",
-  "version": "5.2.0",
+  "version": "5.2.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -15,7 +15,7 @@
   "devDependencies": {
     "@types/node": "^18.7.18",
     "@types/papaparse": "^5.3.5",
-    "esbuild": "^0.15.7",
+    "esbuild": "^0.15.8",
     "fab-cards": "^5.2.0",
     "papaparse": "^5.3.2",
     "ts-node": "^10.9.1",

@@ -297,6 +297,7 @@ export enum Hero {
   Valda = "Valda",
   Viserai = "Viserai",
   Yorick = "Yorick",
+  Yoji = "Yoji",
 }
 
 export enum Keyword {

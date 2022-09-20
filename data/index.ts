@@ -72,20 +72,26 @@
     class: Class.Bard,
     artists: ["Andy Aslamov"],
     cardIdentifier: "tales-of-adventure-blue",
-    defaultImageName: "",
+    defaultImageName: "LSS005",
     functionalText: `**Yorick Specialization** *(You may only have Tales of Adventure in  your deck if your hero is Yorick.)*
 
 Each other hero chooses and creates a token that hasn’t been chosen; Aether Ashwing, Embodiment of Earth, Embodiment of Lightning, Ponder, Quicken, Runechant, Seismic Surge, Soul Shackle, Spectral Shield, Zen State.
 
 You create a Copper, Silver, and Gold.`,
-    images: [],
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "LSS005",
+      name: "LSS005",
+      set: Release.Promos,
+      
+    },],
     keywords: [Keyword.Specialization],
     name: "Tales of Adventure",
     rarity: Rarity.Promo,
     restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
     setIdentifiers: ["LSS005"],
     sets: [Release.Promos],
-    specialImageName: "",
+    specialImageName: "LSS005",
     type: Type.Action,
     typeText: "Bard Action",
     cost: 0,
@@ -99,6 +105,40 @@ You create a Copper, Silver, and Gold.`,
     
     specializations: [Hero.Yorick],
     subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Wizard],
+    class: Class.Wizard,
+    artists: ["soyameii"],
+    cardIdentifier: "blessing-of-aether-red",
+    defaultImageName: "LGS116",
+    functionalText: `At the start of your turn, destroy Blessing of Aether then if the next card you play this turn has an arcane damage effect, instead it deals that much arcane damage plus 3.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "LGS116",
+      name: "LGS116",
+      set: Release.Promos,
+      
+    },],
+    keywords: [],
+    name: "Blessing of Aether",
+    rarity: Rarity.Promo,
+    restrictedFormats: [],
+    setIdentifiers: ["LGS116"],
+    sets: [Release.Promos],
+    specialImageName: "LGS116",
+    type: Type.Action,
+    typeText: "Wizard Action – Aura",
+    cost: 1,
+    defense: 2,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Aura,
   },{
     classes: [Class.Brute],
     class: Class.Brute,
@@ -30301,7 +30341,9 @@ Shuffle your deck. Banish Sonata Arcanix.
     artists: ["Joshua Raphael"],
     cardIdentifier: "captains-call-red",
     defaultImageName: "MON260.width-450",
-    functionalText: `The next attack action card with cost 2 or less you play this turn gains +2{p}.
+    functionalText: `Choose 1;
+
+The next attack action card with cost 2 or less you play this turn gains +2{p}.
 
 The next attack action card with cost 2 or less you play this turn gains **go again.**
 
@@ -30345,7 +30387,9 @@ The next attack action card with cost 2 or less you play this turn gains **go ag
     artists: ["Joshua Raphael"],
     cardIdentifier: "captains-call-yellow",
     defaultImageName: "MON261.width-450",
-    functionalText: `The next attack action card with cost 1 or less you play this turn gains +2{p}.
+    functionalText: `Choose 1;
+
+The next attack action card with cost 1 or less you play this turn gains +2{p}.
 
 The next attack action card with cost 1 or less you play this turn gains **go again.**
 
@@ -30389,9 +30433,11 @@ The next attack action card with cost 1 or less you play this turn gains **go ag
     artists: ["Joshua Raphael"],
     cardIdentifier: "captains-call-blue",
     defaultImageName: "MON262.width-450",
-    functionalText: `The next attack action card with cost 0 or less you play this turn gains +2{p}.
+    functionalText: `Choose 1;
 
-The next attack action card with cost 0 or less you play this turn gains **go again.**
+The next attack action card with cost 0 you play this turn gains +2{p}.
+
+The next attack action card with cost 0 you play this turn gains **go again.**
 
 **Go again**`,
     images: [{
@@ -42507,7 +42553,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     keywords: [Keyword.Boost],
     name: "T-Bone",
     rarity: Rarity.Common,
-    restrictedFormats: [],
+    restrictedFormats: [Format.Commoner],
     setIdentifiers: ["EVR075"],
     sets: [Release.Everfest],
     specialImageName: "EVR075.width-450",
@@ -65262,6 +65308,35 @@ At the start of your turn, you may banish an equipment you control. If you do, e
     talents: [],
     young: true
   },{
+    classes: [Class.Guardian],
+    class: Class.Guardian,
+    artists: ["Othon Nikolaidis"],
+    cardIdentifier: "yoji-royal-protector",
+    defaultImageName: "HER075",
+    functionalText: `**Once per Turn Instant** - {r}{r}{r}: The next time another target hero would be dealt damage this turn, instead that damage is dealt to Yonji and prevent 1 of that damage.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "HER075",
+      name: "HER075",
+      set: Release.Promos,
+      
+    },],
+    keywords: [],
+    name: "Yoji, Royal Protector",
+    rarity: Rarity.Promo,
+    restrictedFormats: [],
+    setIdentifiers: ["HER075"],
+    sets: [Release.Promos],
+    specialImageName: "HER075",
+    type: Type.Hero,
+    typeText: "Guardian Hero – Young",
+    intellect: 4,
+    hero: Hero.Yoji,
+    life: 22,
+    subType: HeroSubType.Young,
+    talents: [],
+    young: true
+  },{
     classes: [Class.NotClassed],
     class: Class.NotClassed,
     artists: ["Federico Musetti"],
@@ -68331,9 +68406,7 @@ Whenever your hero would be dealt damage, prevent 1 damage that source would dea
     artists: ["Alexandra Malygina"],
     cardIdentifier: "spectral-shield",
     defaultImageName: "MON104.width-450",
-    functionalText: `*(Auras stay in the arena until they are destroyed.)*
-
-If your hero would be dealt damage, instead destroy Spectral Shield and prevent 1 damage that source would deal.`,
+    functionalText: `**Ward 1** *(If your hero would be dealt damage, prevent 1 of that damage and destroy Spectral Shield.)*`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "PSM030",
@@ -68359,7 +68432,7 @@ If your hero would be dealt damage, instead destroy Spectral Shield and prevent 
       set: Release.Everfest,
       
     },],
-    keywords: [],
+    keywords: [Keyword.Ward],
     name: "Spectral Shield",
     rarity: Rarity.Token,
     restrictedFormats: [],
