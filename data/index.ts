@@ -68,6 +68,40 @@
     specializations: [],
     subType: ActionSubType.Item,
   },{
+    classes: [Class.Wizard],
+    class: Class.Wizard,
+    artists: ["soyameii"],
+    cardIdentifier: "blessing-of-aether-red",
+    defaultImageName: "LGS116",
+    functionalText: `At the start of your turn, destroy Blessing of Aether then if the next card you play this turn has an arcane damage effect, instead it deals that much arcane damage plus 3.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "LGS116",
+      name: "LGS116",
+      set: Release.Promos,
+      
+    },],
+    keywords: [],
+    name: "Blessing of Aether",
+    rarity: Rarity.Promo,
+    restrictedFormats: [],
+    setIdentifiers: ["LGS116"],
+    sets: [Release.Promos],
+    specialImageName: "LGS116",
+    type: Type.Action,
+    typeText: "Wizard Action – Aura",
+    cost: 1,
+    defense: 2,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Aura,
+  },{
     classes: [Class.Bard],
     class: Class.Bard,
     artists: ["Andy Aslamov"],
@@ -105,40 +139,6 @@ You create a Copper, Silver, and Gold.`,
     
     specializations: [Hero.Yorick],
     subType: ActionSubType.NonAttack,
-  },{
-    classes: [Class.Wizard],
-    class: Class.Wizard,
-    artists: ["soyameii"],
-    cardIdentifier: "blessing-of-aether-red",
-    defaultImageName: "LGS116",
-    functionalText: `At the start of your turn, destroy Blessing of Aether then if the next card you play this turn has an arcane damage effect, instead it deals that much arcane damage plus 3.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "LGS116",
-      name: "LGS116",
-      set: Release.Promos,
-      
-    },],
-    keywords: [],
-    name: "Blessing of Aether",
-    rarity: Rarity.Promo,
-    restrictedFormats: [],
-    setIdentifiers: ["LGS116"],
-    sets: [Release.Promos],
-    specialImageName: "LGS116",
-    type: Type.Action,
-    typeText: "Wizard Action – Aura",
-    cost: 1,
-    defense: 2,
-    fusions: [],
-    pitch: 1,
-    
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Aura,
   },{
     classes: [Class.Brute],
     class: Class.Brute,
@@ -64709,7 +64709,7 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
       set: Release.Uprising,
       
     },],
-    keywords: [],
+    keywords: [Keyword.ArcaneBarrier],
     name: "Silent Stilettos",
     rarity: Rarity.Common,
     restrictedFormats: [],
@@ -65217,6 +65217,35 @@ While Ruk’utan is face up in arsenal, whenever you play a card with 6 or more 
     talents: [Talent.Royal,Talent.Draconic],
     young: true
   },{
+    classes: [Class.Guardian],
+    class: Class.Guardian,
+    artists: ["Othon Nikolaidis"],
+    cardIdentifier: "yoji-royal-protector",
+    defaultImageName: "HER075",
+    functionalText: `**Once per Turn Instant** - {r}{r}{r}: The next time another target hero would be dealt damage this turn, instead that damage is dealt to Yonji and prevent 1 of that damage.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "HER075",
+      name: "HER075",
+      set: Release.Promos,
+      
+    },],
+    keywords: [],
+    name: "Yoji, Royal Protector",
+    rarity: Rarity.Promo,
+    restrictedFormats: [],
+    setIdentifiers: ["HER075"],
+    sets: [Release.Promos],
+    specialImageName: "HER075",
+    type: Type.Hero,
+    typeText: "Guardian Hero – Young",
+    intellect: 4,
+    hero: Hero.Yoji,
+    life: 22,
+    subType: HeroSubType.Young,
+    talents: [],
+    young: true
+  },{
     classes: [Class.Merchant],
     class: Class.Merchant,
     artists: ["Lius Lasahido"],
@@ -65304,35 +65333,6 @@ At the start of your turn, you may banish an equipment you control. If you do, e
     intellect: 4,
     hero: Hero.Yorick,
     life: 20,
-    subType: HeroSubType.Young,
-    talents: [],
-    young: true
-  },{
-    classes: [Class.Guardian],
-    class: Class.Guardian,
-    artists: ["Othon Nikolaidis"],
-    cardIdentifier: "yoji-royal-protector",
-    defaultImageName: "HER075",
-    functionalText: `**Once per Turn Instant** - {r}{r}{r}: The next time another target hero would be dealt damage this turn, instead that damage is dealt to Yonji and prevent 1 of that damage.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "HER075",
-      name: "HER075",
-      set: Release.Promos,
-      
-    },],
-    keywords: [],
-    name: "Yoji, Royal Protector",
-    rarity: Rarity.Promo,
-    restrictedFormats: [],
-    setIdentifiers: ["HER075"],
-    sets: [Release.Promos],
-    specialImageName: "HER075",
-    type: Type.Hero,
-    typeText: "Guardian Hero – Young",
-    intellect: 4,
-    hero: Hero.Yoji,
-    life: 22,
     subType: HeroSubType.Young,
     talents: [],
     young: true

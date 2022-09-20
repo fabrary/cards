@@ -8,6 +8,8 @@ DYN242	DYN	Imperial Warhorn	1	2					M	Generic, Action, Item	Legendary				"Legend
 
 **Action** - {r}, destroy Imperial Warhorn: Choose any number of heroes. Each of them chooses an ally, aura, item, or landmark permanent they control. Destroy each permanent chosen this way. If you are Royal, instead you choose the permanents."		Generic Action - Item	Othon Nikolaidis				No												S – DYN242 – N	/DYN242.png – DYN242 – N			
 DYN243	DYN	Gold							C	Generic, Token, Item	Go again				Action destroy gold: draw a card. Go again.		Generic Token - Item	Nikolay Moskvin																S – DYN243 – N	/DYN243.png – DYN243 – N			
+LGS116	LSS	Blessing of Aether	1	1		2			P	Wizard, Action, Aura					At the start of your turn, destroy Blessing of Aether then if the next card you play this turn has an arcane damage effect, instead it deals that much arcane damage plus 3.		Wizard Action – Aura	soyameii																R – LGS116 – N – EA	/LGS116.png – LGS116 – N			
+HER075	HER	Yoji, Royal Protector					22	4	P	Guardian, Hero, Young		Once per Turn Instant			**Once per Turn Instant** - {r}{r}{r}: The next time another target hero would be dealt damage this turn, instead that damage is dealt to Yonji and prevent 1 of that damage.		Guardian Hero – Young	Othon Nikolaidis																R – HER075 – N – EA	/HER075.png – HER075 – N			
 LSS001	LSS	Ruu’di, Gem Keeper					40	4	P	Hero, Merchant		Once per Turn Action	Go again		"You may only have PSA graded cards in your deck.
 
 **Once per Turn Action** - {r}: Reveal the top card of your deck. If it’s graded Gem Min 10, put it into your hand, otherwise each opponent may draw a card. **Go again**"		Hero – Merchant	Lius Lasahido		No	No	No												S – LSS001 – N	https://storage.googleapis.com/fabmaster/media/images/LSS001.width-450.png - LSS001 – N			
@@ -21,8 +23,6 @@ LSS005	LSS	Tales of Adventure	3	0		3			P	Bard, Action	Yorick Specialization				"
 Each other hero chooses and creates a token that hasn’t been chosen; Aether Ashwing, Embodiment of Earth, Embodiment of Lightning, Ponder, Quicken, Runechant, Seismic Surge, Soul Shackle, Spectral Shield, Zen State.
 
 You create a Copper, Silver, and Gold."		Bard Action	Andy Aslamov		No	No	No												R – LSS005 – N – EA	/LSS005.png – LSS005 – N			
-LGS116	LSS	Blessing of Aether	1	1		2			P	Wizard, Action, Aura					At the start of your turn, destroy Blessing of Aether then if the next card you play this turn has an arcane damage effect, instead it deals that much arcane damage plus 3.		Wizard Action – Aura	soyameii																R – LGS116 – N – EA	/LGS116.png – LGS116 – N			
-HER075	HER	Yoji, Royal Protector					22	4	P	Guardian, Hero, Young		Once per Turn Instant			**Once per Turn Instant** - {r}{r}{r}: The next time another target hero would be dealt damage this turn, instead that damage is dealt to Yonji and prevent 1 of that damage.		Guardian Hero – Young	Othon Nikolaidis																R – HER075 – N – EA	/HER075.png – HER075 – N			
 FAB094	FAB	Hummingbird, Adventurer’s Call							P	Bard, Weapon, Lute, 2H					"At the start of your turn, choose 1;
 - Each hero creates a Quicken token.
 - Each hero draws a card.
@@ -4292,7 +4292,7 @@ If Cold Snap is played from arsenal, draw a card.
 FAB085, UPR151	FAB, UPR	Ghostly Touch				0			P, L	Illusionist, Equipment, Arms		Once per Turn Action	Go again		"Whenever an Illusionist attack you control is destroyed by **phantasm**, put a haunt counter on Ghostly Touch.
 
 **Once per Turn Action** - Remove a haunt counter from Ghostly Touch: Until end of turn, this becomes an Illusionist ally with **phantasm**, base {p} and {h} equal to the number of haunt counters on it, and “**Once per Turn Action** - {r}{r}{r}: **Attack**”. **Go again**"		Illusionist Equipment – Arms	Daria Khlebnikova				No												G – FAB085 – N, R C – UPR151 – N	https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR151.png – UPR151 – N			
-UPR152	UPR	Silent Stilettos				0			C	Illusionist, Equipment, Legs		Arcane Barrier 1			"Whenever an attacking ally you control dies or an attack action card you control is destroyed by **phantasm**, you may pay {r}{r}{r}. If you do, destroy Silent Stilettos and gain 1 action point.
+UPR152	UPR	Silent Stilettos				0			C	Illusionist, Equipment, Legs	Arcane Barrier 1				"Whenever an attacking ally you control dies or an attack action card you control is destroyed by **phantasm**, you may pay {r}{r}{r}. If you do, destroy Silent Stilettos and gain 1 action point.
 
 **Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} to prevent 1 of that damage.)*"		Illusionist Equipment – Legs	Andrey Savchuk																S R C – UPR152 – N	https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR152.png – UPR152 – N			
 UPR153	UPR	Frightmare	1	3	13				M	Illusionist, Action, Attack	Phantasm				"Play Frightmare only if an Illusionist attack action card you control has been destroyed by **phantasm** this turn.
