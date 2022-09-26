@@ -115,6 +115,7 @@ export enum Format {
   Clash = "Clash",
   ClassicConstructed = "Classic Constructed",
   Commoner = "Commoner",
+  UltimatePitFight = "Ultimate Pit Fight",
 }
 
 export enum Fusion {
