@@ -81,14 +81,10 @@ const getImages = (images: Image[]) => {
 const getCardInfo = (card: Card): String => {
   return `classes: [${getEnumValues(card.classes, "Class", Class)}],
     class: ${getEnumValue(card.classes[0], "Class", Class)},
-    ${
-      card.artists
-        ? `artists: [${card.artists.map((artist) => `"${artist}"`)}]`
-        : []
-    },
+    artists: [${card.artists.map((artist) => `"${artist}"`)}],
     cardIdentifier: "${card.cardIdentifier}",
     defaultImageName: "${card.defaultImageName}",
-    functionalText: \`${card.functionalText}\`,
+    ${card.functionalText ? `functionalText: \`${card.functionalText}\`,` : ``}
     images: [${getImages(card.images)}],
     keywords: [${getEnumValues(card.keywords, "Keyword", Keyword)}],
     name: "${card.name}",

@@ -6410,7 +6410,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken aura token. 
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "raging-onslaught-red",
     defaultImageName: "WTR188",
-    functionalText: `null`,
+    
     images: [{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR188",
@@ -6450,7 +6450,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken aura token. 
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "raging-onslaught-yellow",
     defaultImageName: "WTR189",
-    functionalText: `null`,
+    
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "RNR020",
@@ -6502,7 +6502,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken aura token. 
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "raging-onslaught-blue",
     defaultImageName: "WTR190",
-    functionalText: `null`,
+    
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "BVO024",
@@ -7124,7 +7124,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
     artists: ["Sonia Sandoval"],
     cardIdentifier: "wounding-blow-red",
     defaultImageName: "WTR203",
-    functionalText: `null`,
+    
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "TEA015",
@@ -7170,7 +7170,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
     artists: ["Sonia Sandoval"],
     cardIdentifier: "wounding-blow-yellow",
     defaultImageName: "WTR204",
-    functionalText: `null`,
+    
     images: [{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR204",
@@ -7210,7 +7210,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
     artists: ["Sonia Sandoval"],
     cardIdentifier: "wounding-blow-blue",
     defaultImageName: "WTR205",
-    functionalText: `null`,
+    
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "KSU027",
@@ -21572,7 +21572,7 @@ Draw 2 cards.`,
     artists: ["Wisnu Tan"],
     cardIdentifier: "brutal-assault-red",
     defaultImageName: "CRU192",
-    functionalText: `null`,
+    
     images: [{
       edition: ReleaseEdition.First,
       identifier: "CRU192",
@@ -21612,7 +21612,7 @@ Draw 2 cards.`,
     artists: ["Wisnu Tan"],
     cardIdentifier: "brutal-assault-yellow",
     defaultImageName: "CRU193",
-    functionalText: `null`,
+    
     images: [{
       edition: ReleaseEdition.First,
       identifier: "CRU193",
@@ -21652,7 +21652,7 @@ Draw 2 cards.`,
     artists: ["Wisnu Tan"],
     cardIdentifier: "brutal-assault-blue",
     defaultImageName: "CRU194",
-    functionalText: `null`,
+    
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "IRA010",
@@ -29405,7 +29405,7 @@ While Pulping is defended by less than 2 non-equipment cards, it has **go again.
     artists: ["Muhammad Fajri"],
     cardIdentifier: "smash-with-big-tree-red",
     defaultImageName: "MON226.width-450",
-    functionalText: `null`,
+    
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LEV026",
@@ -29451,7 +29451,7 @@ While Pulping is defended by less than 2 non-equipment cards, it has **go again.
     artists: ["Muhammad Fajri"],
     cardIdentifier: "smash-with-big-tree-yellow",
     defaultImageName: "MON227.width-450",
-    functionalText: `null`,
+    
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LEV027",
@@ -29503,7 +29503,7 @@ While Pulping is defended by less than 2 non-equipment cards, it has **go again.
     artists: ["Muhammad Fajri"],
     cardIdentifier: "smash-with-big-tree-blue",
     defaultImageName: "MON228.width-450",
-    functionalText: `null`,
+    
     images: [{
       edition: ReleaseEdition.First,
       identifier: "MON228",
@@ -36758,7 +36758,7 @@ If it's **fused**, instead it gains +2{p}.
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "autumns-touch-red",
     defaultImageName: "ELE128.width-450",
-    functionalText: `null`,
+    
     images: [{
       edition: ReleaseEdition.First,
       identifier: "ELE128",
@@ -36798,7 +36798,7 @@ If it's **fused**, instead it gains +2{p}.
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "autumns-touch-yellow",
     defaultImageName: "ELE129.width-450",
-    functionalText: `null`,
+    
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "BRI022",
@@ -36844,7 +36844,7 @@ If it's **fused**, instead it gains +2{p}.
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "autumns-touch-blue",
     defaultImageName: "ELE130.width-450",
-    functionalText: `null`,
+    
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "OLD024",
@@ -38068,7 +38068,7 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "winters-grasp-red",
     defaultImageName: "ELE160.width-450",
-    functionalText: `null`,
+    
     images: [{
       edition: ReleaseEdition.First,
       identifier: "ELE160",
@@ -38108,7 +38108,7 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "winters-grasp-yellow",
     defaultImageName: "ELE161.width-450",
-    functionalText: `null`,
+    
     images: [{
       edition: ReleaseEdition.First,
       identifier: "ELE161",
@@ -38148,7 +38148,7 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "winters-grasp-blue",
     defaultImageName: "ELE162.width-450",
-    functionalText: `null`,
+    
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "OLD017",
@@ -39252,7 +39252,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     artists: ["Isuardi Therianto"],
     cardIdentifier: "heavens-claws-red",
     defaultImageName: "ELE192.width-450",
-    functionalText: `null`,
+    
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LXI014",
@@ -39298,7 +39298,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     artists: ["Isuardi Therianto"],
     cardIdentifier: "heavens-claws-yellow",
     defaultImageName: "ELE193.width-450",
-    functionalText: `null`,
+    
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LXI019",
@@ -39344,7 +39344,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     artists: ["Isuardi Therianto"],
     cardIdentifier: "heavens-claws-blue",
     defaultImageName: "ELE194.width-450",
-    functionalText: `null`,
+    
     images: [{
       edition: ReleaseEdition.First,
       identifier: "ELE194",
@@ -46634,7 +46634,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
     artists: ["Yugin Maffioli"],
     cardIdentifier: "muscle-mutt-yellow",
     defaultImageName: "RVD018.width-450",
-    functionalText: `null`,
+    
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "RVD018",
@@ -52484,7 +52484,7 @@ At the beginning of your action phase, destroy Fog Down.`,
     artists: ["Phu Thieu"],
     cardIdentifier: "critical-strike-red",
     defaultImageName: "UPR206",
-    functionalText: `null`,
+    
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "UPR206",
@@ -52518,7 +52518,7 @@ At the beginning of your action phase, destroy Fog Down.`,
     artists: ["Phu Thieu"],
     cardIdentifier: "critical-strike-yellow",
     defaultImageName: "UPR207",
-    functionalText: `null`,
+    
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "UPR207",
@@ -52552,7 +52552,7 @@ At the beginning of your action phase, destroy Fog Down.`,
     artists: ["Phu Thieu"],
     cardIdentifier: "critical-strike-blue",
     defaultImageName: "UPR208",
-    functionalText: `null`,
+    
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "UPR208",
@@ -68001,7 +68001,7 @@ When you pitch Grandeur of Valahai, create a Seismic Surge token.`,
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "titanium-bauble-blue",
     defaultImageName: "DVR027.width-450",
-    functionalText: `null`,
+    
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "DVR027",

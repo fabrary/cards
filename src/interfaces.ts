@@ -4,7 +4,7 @@ export interface Card {
   class?: Class;
   classes: Class[];
   defaultImageName: string;
-  functionalText: string;
+  functionalText?: string;
   images: Image[];
   keywords: Keyword[];
   name: string;
