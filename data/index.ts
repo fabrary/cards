@@ -58515,7 +58515,7 @@ If Arc Light Sentinel is in the arena when an opponent announces an attack, they
     },],
     keywords: [Keyword.Spectra],
     name: "Genesis",
-    rarity: Rarity.Rare,
+    rarity: Rarity.Majestic,
     restrictedFormats: [Format.Commoner],
     setIdentifiers: ["MON006"],
     sets: [Release.Monarch],
