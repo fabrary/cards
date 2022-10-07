@@ -324,6 +324,7 @@ export enum Keyword {
   Mentor = "Mentor",
   Negate = "Negate",
   Opt = "Opt",
+  Overpower = "Overpower",
   Phantasm = "Phantasm",
   Quell = "Quell",
   Reload = "Reload",

@@ -68,40 +68,6 @@
     specializations: [],
     subType: ActionSubType.Item,
   },{
-    classes: [Class.Wizard],
-    class: Class.Wizard,
-    artists: ["soyameii"],
-    cardIdentifier: "blessing-of-aether-red",
-    defaultImageName: "LGS116",
-    functionalText: `At the start of your turn, destroy Blessing of Aether then if the next card you play this turn has an arcane damage effect, instead it deals that much arcane damage plus 3.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "LGS116",
-      name: "LGS116",
-      set: Release.Promos,
-      
-    },],
-    keywords: [],
-    name: "Blessing of Aether",
-    rarity: Rarity.Promo,
-    restrictedFormats: [],
-    setIdentifiers: ["LGS116"],
-    sets: [Release.Promos],
-    specialImageName: "LGS116",
-    type: Type.Action,
-    typeText: "Wizard Action – Aura",
-    cost: 1,
-    defense: 2,
-    fusions: [],
-    pitch: 1,
-    
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Aura,
-  },{
     classes: [Class.Bard],
     class: Class.Bard,
     artists: ["Andy Aslamov"],
@@ -8146,7 +8112,7 @@ If you have **boosted** this turn, put a steam counter on it.
     defaultImageName: "ARC018",
     functionalText: `**Action** - {r}: If there are no steam counters on Cognition Nodes, put a steam counter on it. **Go again**
 
-**Once per Turn Attack Reaction** - Remove a steam counter from Cognition Nodes: Target attack action card gains “If this hits, put it on the bottom of your deck.”`,
+**Once per Turn Attack Reaction** - Remove a steam counter from Cognition Nodes: Target attack action card gains "When this hits, put it on the bottom of its owner’s deck."`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "1HP200",
@@ -8162,7 +8128,7 @@ If you have **boosted** this turn, put a steam counter on it.
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC018",
-      name: "U-ARC018",
+      name: "ARC018_Cognition_Nodes.width-10000",
       set: Release.ArcaneRising,
       
     },],
@@ -8246,7 +8212,7 @@ If you have **boosted** this turn, put a steam counter on it.
     artists: ["Mikhail Babkin"],
     cardIdentifier: "over-loop-red",
     defaultImageName: "ARC020",
-    functionalText: `If Over Loop hits, put it on the bottom of your deck.
+    functionalText: `When this hits, put it on the bottom of its owner’s deck.
 
 **Boost** *(As an additional cost to play Over Loop, you may banish the top card of your deck. If it's a Mechanologist card, Over Loop gains **go again**.)*`,
     images: [{
@@ -8282,7 +8248,7 @@ If you have **boosted** this turn, put a steam counter on it.
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC020",
-      name: "U-ARC020",
+      name: "ARC020_Over_Loop.width-10000",
       set: Release.ArcaneRising,
       
     },],
@@ -8312,7 +8278,7 @@ If you have **boosted** this turn, put a steam counter on it.
     artists: ["Mikhail Babkin"],
     cardIdentifier: "over-loop-yellow",
     defaultImageName: "ARC021",
-    functionalText: `If Over Loop hits, put it on the bottom of your deck.
+    functionalText: `When this hits, put it on the bottom of its owner’s deck.
 
 **Boost** *(As an additional cost to play Over Loop, you may banish the top card of your deck. If it's a Mechanologist card, Over Loop gains **go again**.)*`,
     images: [{
@@ -8342,7 +8308,7 @@ If you have **boosted** this turn, put a steam counter on it.
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC021",
-      name: "U-ARC021",
+      name: "ARC021_Over_Loop.width-10000",
       set: Release.ArcaneRising,
       
     },],
@@ -8372,7 +8338,7 @@ If you have **boosted** this turn, put a steam counter on it.
     artists: ["Mikhail Babkin"],
     cardIdentifier: "over-loop-blue",
     defaultImageName: "ARC022",
-    functionalText: `If Over Loop hits, put it on the bottom of your deck.
+    functionalText: `When this hits, put it on the bottom of its owner’s deck.
 
 **Boost** *(As an additional cost to play Over Loop, you may banish the top card of your deck. If it's a Mechanologist card, Over Loop gains **go again**.)*`,
     images: [{
@@ -8402,7 +8368,7 @@ If you have **boosted** this turn, put a steam counter on it.
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC022",
-      name: "U-ARC022",
+      name: "ARC022_Over_Loop.width-10000",
       set: Release.ArcaneRising,
       
     },],
@@ -9145,7 +9111,7 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
   },{
     classes: [Class.Mechanologist],
     class: Class.Mechanologist,
-    artists: ["Sergey Gursky"],
+    artists: ["Sergey Gurskiy"],
     cardIdentifier: "optekal-monocle-blue",
     defaultImageName: "ARC037",
     functionalText: `Optekal Monocle enters the arena with 5 steam counters on it. When Optekal Monocle has no steam counters on it, destroy it.
@@ -10170,7 +10136,7 @@ If Ridge Rider Shot is put into your arsenal face up, **opt 1**. *(Look at the t
     defaultImageName: "ARC066",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
 
-If Salvage Shot hits, put it on the bottom of your deck.`,
+When this hits, put it on the bottom of its owner’s deck.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "1HP246",
@@ -10186,7 +10152,7 @@ If Salvage Shot hits, put it on the bottom of your deck.`,
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC066",
-      name: "U-ARC066",
+      name: "ARC066_Salvage_Shot.width-10000",
       set: Release.ArcaneRising,
       
     },],
@@ -10218,7 +10184,7 @@ If Salvage Shot hits, put it on the bottom of your deck.`,
     defaultImageName: "ARC067",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
 
-If Salvage Shot hits, put it on the bottom of your deck.`,
+When this hits, put it on the bottom of its owner’s deck.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "1HP247",
@@ -10234,7 +10200,7 @@ If Salvage Shot hits, put it on the bottom of your deck.`,
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC067",
-      name: "U-ARC067",
+      name: "ARC067_Salvage_Shot.width-10000",
       set: Release.ArcaneRising,
       
     },],
@@ -10266,7 +10232,7 @@ If Salvage Shot hits, put it on the bottom of your deck.`,
     defaultImageName: "ARC068",
     functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
 
-If Salvage Shot hits, put it on the bottom of your deck.`,
+When this hits, put it on the bottom of its owner’s deck.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "1HP248",
@@ -10282,7 +10248,7 @@ If Salvage Shot hits, put it on the bottom of your deck.`,
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC068",
-      name: "U-ARC068",
+      name: "ARC068_Salvage_Shot.width-10000",
       set: Release.ArcaneRising,
       
     },],
@@ -10682,7 +10648,7 @@ If Arknight Ascendency hits, create X Runechant tokens, where X is the damage de
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "mordred-tide-red",
     defaultImageName: "ARC081",
-    functionalText: `Until end of turn, if you would create a Runechant token, instead create that many plus 1.
+    functionalText: `Until end of turn, if you would create one or more Runechant tokens, instead create that many plus 1.
 
 **Go again**`,
     images: [{
@@ -10700,7 +10666,7 @@ If Arknight Ascendency hits, create X Runechant tokens, where X is the damage de
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC081",
-      name: "U-ARC081",
+      name: "ARC081_Mordred_Tide.width-10000",
       set: Release.ArcaneRising,
       
     },],
@@ -12170,9 +12136,7 @@ If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 
     artists: ["Igor Heras"],
     cardIdentifier: "forked-lightning-red",
     defaultImageName: "ARC120",
-    functionalText: `Deal 2 arcane damage to target hero.
-
-Deal 2 arcane damage to target hero.
+    functionalText: `Deal 2 arcane damage to two target heroes. You may target the same hero twice.
 
 *(Effects that modify damage modify both damage effects of Forked Lightning. Forked Lightning is considered a single source of damage.)*`,
     images: [{
@@ -12196,7 +12160,7 @@ Deal 2 arcane damage to target hero.
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC120",
-      name: "U-ARC120",
+      name: "ARC120_Forked_Lightning.width-10000",
       set: Release.ArcaneRising,
       
     },],
@@ -23081,7 +23045,7 @@ Attacks on this combat chain gain +1{p} for each Light card charged this way.`,
   },{
     classes: [Class.Warrior],
     class: Class.Warrior,
-    artists: ["Silvia Meilani"],
+    artists: ["Silvia Meiliani"],
     cardIdentifier: "valiant-thrust-blue",
     defaultImageName: "MON041.width-450",
     functionalText: `If you’ve **charged** this turn, Valiant Thrust gains +3{p}`,
@@ -28726,8 +28690,7 @@ The next attack action card you play this turn gains +1{p}.
     
     specializations: [],
     subType: ActionSubType.Attack,
-  }];
-  const basicActions2: ActionCard[] = [{
+  },{
     classes: [Class.NotClassed],
     class: Class.NotClassed,
     artists: ["Alexandra Malygina"],
@@ -28823,7 +28786,8 @@ The next attack action card you play this turn gains +1{p}.
     
     specializations: [],
     subType: ActionSubType.Attack,
-  },{
+  }];
+  const basicActions2: ActionCard[] = [{
     classes: [Class.NotClassed],
     class: Class.NotClassed,
     artists: ["Immanuela Crovius"],
@@ -29566,7 +29530,7 @@ Shuffle your deck. Banish Sonata Arcanix.
     keywords: [Keyword.GoAgain],
     name: "Sonata Arcanix",
     rarity: Rarity.Majestic,
-    restrictedFormats: [Format.Blitz,Format.Commoner],
+    restrictedFormats: [Format.Commoner],
     setIdentifiers: ["MON231"],
     sets: [Release.Monarch],
     specialImageName: "MON231.width-450",
@@ -31973,7 +31937,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     artists: ["Oliver Morit"],
     cardIdentifier: "warmongers-recital-red",
     defaultImageName: "MON299.width-450",
-    functionalText: `The next attack action card you play this turn gains +3{p} and "If this hits, put it on the bottom of your deck."
+    functionalText: `The next attack action card you play this turn gains +3{p} and "When this hits, put it on the bottom of its owner’s deck."
 
 **Go again**`,
     images: [{
@@ -31991,7 +31955,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON299",
-      name: "U-MON299.width-450",
+      name: "MON299_Warmongers_Recital.width-10000",
       set: Release.Monarch,
       
     },],
@@ -32021,7 +31985,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     artists: ["Oliver Morit"],
     cardIdentifier: "warmongers-recital-yellow",
     defaultImageName: "MON300.width-450",
-    functionalText: `The next attack action card you play this turn gains +2{p} and "If this hits, put it on the bottom of your deck."
+    functionalText: `The next attack action card you play this turn gains +2{p} and "When this hits, put it on the bottom of its owner’s deck."
 
 **Go again**`,
     images: [{
@@ -32039,7 +32003,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON300",
-      name: "U-MON300.width-450",
+      name: "MON300_Warmongers_Recital.width-10000",
       set: Release.Monarch,
       
     },],
@@ -32069,7 +32033,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     artists: ["Oliver Morit"],
     cardIdentifier: "warmongers-recital-blue",
     defaultImageName: "MON301.width-450",
-    functionalText: `The next attack action card you play this turn gains +1{p} and "If this hits, put it on the bottom of your deck."
+    functionalText: `The next attack action card you play this turn gains +1{p} and "When this hits, put it on the bottom of its owner’s deck."
 
 **Go again**`,
     images: [{
@@ -32081,7 +32045,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON301",
-      name: "U-MON301.width-450",
+      name: "MON301_Warmongers_Recital.width-10000",
       set: Release.Monarch,
       
     },],
@@ -34367,7 +34331,7 @@ If Frazzle was **fused**, whenever an attack would deal damage this turn, instea
     defaultImageName: "ELE064.width-450",
     functionalText: `**Earth and Lightning Fusion** *(As an additional cost to play Blossoming Spellblade, you may reveal an Earth and a Lightning card from your hand.)*
 
-If Blossoming Spellblade was **fused**, it gains "Whenever this deals damage to an opposing hero, you may banish a 'non-attack' action card from your graveyard. If you do, you may play it this turn as though it were an instant and if it would be put into your graveyard, instead banish it."
+If Blossoming Spellblade was fused, it gains "Whenever this deals damage to an opposing hero, you may banish a 'non-attack' action card from your graveyard. If you do, you may play it this turn as though it were an instant and if it would be put into your graveyard this turn, instead banish it."
 
 When you attack with Blossoming Spellblade, if it was **fused**, deal 1 arcane damage to target hero.`,
     images: [{
@@ -34379,7 +34343,7 @@ When you attack with Blossoming Spellblade, if it was **fused**, deal 1 arcane d
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE064",
-      name: "U-ELE064.width-450",
+      name: "ELE064_Blossoming_Spellblade.width-10000",
       set: Release.TalesOfAria,
       
     },],
@@ -36488,7 +36452,7 @@ Draw 3 cards.
     artists: ["Rio Sabda"],
     cardIdentifier: "evergreen-red",
     defaultImageName: "ELE119.width-450",
-    functionalText: `If Evergreen is played from arsenal, put it on the bottom of your deck when the combat chain closes.`,
+    functionalText: `If Evergreen is played from arsenal, put it on the bottom of its owner’s deck when the combat chain closes.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "BRI018",
@@ -36504,7 +36468,7 @@ Draw 3 cards.
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE119",
-      name: "U-ELE119.width-450",
+      name: "ELE119_Evergreen.width-10000",
       set: Release.TalesOfAria,
       
     },],
@@ -36534,7 +36498,7 @@ Draw 3 cards.
     artists: ["Rio Sabda"],
     cardIdentifier: "evergreen-yellow",
     defaultImageName: "ELE120.width-450",
-    functionalText: `If Evergreen is played from arsenal, put it on the bottom of your deck when the combat chain closes.`,
+    functionalText: `If Evergreen is played from arsenal, put it on the bottom of its owner’s deck when the combat chain closes.`,
     images: [{
       edition: ReleaseEdition.First,
       identifier: "ELE120",
@@ -36544,7 +36508,7 @@ Draw 3 cards.
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE120",
-      name: "U-ELE120.width-450",
+      name: "ELE120_Evergreen.width-10000",
       set: Release.TalesOfAria,
       
     },],
@@ -36574,7 +36538,7 @@ Draw 3 cards.
     artists: ["Rio Sabda"],
     cardIdentifier: "evergreen-blue",
     defaultImageName: "ELE121.width-450",
-    functionalText: `If Evergreen is played from arsenal, put it on the bottom of your deck when the combat chain closes.`,
+    functionalText: `If Evergreen is played from arsenal, put it on the bottom of its owner’s deck when the combat chain closes.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "OLD026",
@@ -36590,7 +36554,7 @@ Draw 3 cards.
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ELE121",
-      name: "U-ELE121.width-450",
+      name: "ELE121_Evergreen.width-10000",
       set: Release.TalesOfAria,
       
     },],
@@ -43663,7 +43627,7 @@ At the beginning of your action phase, remove a verse counter from Runeblood Inc
   },{
     classes: [Class.Runeblade],
     class: Class.Runeblade,
-    artists: ["Stanislov Sherbakov"],
+    artists: ["Stanislav Sherbakov"],
     cardIdentifier: "drowning-dire-red",
     defaultImageName: "EVR110.width-450",
     functionalText: `If you have played or created an aura this turn, Drowning Dire gains **dominate.** *(The defending hero can't defend Drowning Dire with more than 1 card from their hand.)*
@@ -43699,7 +43663,7 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
   },{
     classes: [Class.Runeblade],
     class: Class.Runeblade,
-    artists: ["Stanislov Sherbakov"],
+    artists: ["Stanislav Sherbakov"],
     cardIdentifier: "drowning-dire-yellow",
     defaultImageName: "EVR111.width-450",
     functionalText: `If you have played or created an aura this turn, Drowning Dire gains **dominate.** *(The defending hero can't defend Drowning Dire with more than 1 card from their hand.)*
@@ -43735,7 +43699,7 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
   },{
     classes: [Class.Runeblade],
     class: Class.Runeblade,
-    artists: ["Stanislov Sherbakov"],
+    artists: ["Stanislav Sherbakov"],
     cardIdentifier: "drowning-dire-blue",
     defaultImageName: "EVR112.width-450",
     functionalText: `If you have played or created an aura this turn, Drowning Dire gains **dominate.** *(The defending hero can't defend Drowning Dire with more than 1 card from their hand.)*
@@ -44389,14 +44353,14 @@ At the beginning of your action phase, destroy Pyroglyphic Protection.`,
     class: Class.Wizard,
     artists: ["Riordan Delmiro"],
     cardIdentifier: "timekeepers-whim-red",
-    defaultImageName: "EVR134.width-450",
+    defaultImageName: "MON134_Timekeepers_Whim.width-10000",
     functionalText: `Deal 5 arcane damage to target hero.
 
-If Timekeeper's Whim is played during an opponents turn, put it on the bottom of your deck.`,
+If Timekeeper's Whim is played during an opponent's turn, put it on the bottom of its owner’s deck.`,
     images: [{
       edition: ReleaseEdition.First,
       identifier: "EVR134",
-      name: "EVR134.width-450",
+      name: "MON134_Timekeepers_Whim.width-10000",
       set: Release.Everfest,
       
     },],
@@ -44406,7 +44370,7 @@ If Timekeeper's Whim is played during an opponents turn, put it on the bottom of
     restrictedFormats: [],
     setIdentifiers: ["EVR134"],
     sets: [Release.Everfest],
-    specialImageName: "EVR134.width-450",
+    specialImageName: "MON134_Timekeepers_Whim.width-10000",
     type: Type.Action,
     typeText: "Wizard Action",
     cost: 3,
@@ -44425,14 +44389,14 @@ If Timekeeper's Whim is played during an opponents turn, put it on the bottom of
     class: Class.Wizard,
     artists: ["Riordan Delmiro"],
     cardIdentifier: "timekeepers-whim-yellow",
-    defaultImageName: "EVR135.width-450",
+    defaultImageName: "MON135_Timekeepers_Whim.width-10000",
     functionalText: `Deal 4 arcane damage to target hero.
 
-If Timekeeper's Whim is played during an opponents turn, put it on the bottom of your deck.`,
+If Timekeeper's Whim is played during an opponent's turn, put it on the bottom of its owner’s deck.`,
     images: [{
       edition: ReleaseEdition.First,
       identifier: "EVR135",
-      name: "EVR135.width-450",
+      name: "MON135_Timekeepers_Whim.width-10000",
       set: Release.Everfest,
       
     },],
@@ -44442,7 +44406,7 @@ If Timekeeper's Whim is played during an opponents turn, put it on the bottom of
     restrictedFormats: [],
     setIdentifiers: ["EVR135"],
     sets: [Release.Everfest],
-    specialImageName: "EVR135.width-450",
+    specialImageName: "MON135_Timekeepers_Whim.width-10000",
     type: Type.Action,
     typeText: "Wizard Action",
     cost: 3,
@@ -44461,14 +44425,14 @@ If Timekeeper's Whim is played during an opponents turn, put it on the bottom of
     class: Class.Wizard,
     artists: ["Riordan Delmiro"],
     cardIdentifier: "timekeepers-whim-blue",
-    defaultImageName: "EVR136.width-450",
+    defaultImageName: "MON136_Timekeepers_Whim.width-10000",
     functionalText: `Deal 3 arcane damage to target hero.
 
-If Timekeeper's Whim is played during an opponents turn, put it on the bottom of your deck.`,
+If Timekeeper's Whim is played during an opponent's turn, put it on the bottom of its owner’s deck.`,
     images: [{
       edition: ReleaseEdition.First,
       identifier: "EVR136",
-      name: "EVR136.width-450",
+      name: "MON136_Timekeepers_Whim.width-10000",
       set: Release.Everfest,
       
     },],
@@ -44478,7 +44442,7 @@ If Timekeeper's Whim is played during an opponents turn, put it on the bottom of
     restrictedFormats: [],
     setIdentifiers: ["EVR136"],
     sets: [Release.Everfest],
-    specialImageName: "EVR136.width-450",
+    specialImageName: "MON136_Timekeepers_Whim.width-10000",
     type: Type.Action,
     typeText: "Wizard Action",
     cost: 3,
@@ -44497,7 +44461,7 @@ If Timekeeper's Whim is played during an opponents turn, put it on the bottom of
     class: Class.Illusionist,
     artists: ["Hoàng Lập"],
     cardIdentifier: "fractal-replication-red",
-    defaultImageName: "EVR138.width-450",
+    defaultImageName: "EVR138_Fractal_Replication.width-10000",
     functionalText: `When you play or defend with Fractal Replication, it gains the base abilities of all Illusionist attack action cards on the combat chain.
 
 Fractal Replication's {p} is equal to the greatest base {p} among Illusionist attack action cards on the combat chain.
@@ -44506,7 +44470,7 @@ Fractal Replication's {d} is equal to the greatest base {d} among Illusionist at
     images: [{
       edition: ReleaseEdition.First,
       identifier: "EVR138",
-      name: "EVR138.width-450",
+      name: "EVR138_Fractal_Replication.width-10000",
       set: Release.Everfest,
       
     },],
@@ -44516,7 +44480,7 @@ Fractal Replication's {d} is equal to the greatest base {d} among Illusionist at
     restrictedFormats: [Format.Commoner],
     setIdentifiers: ["EVR138"],
     sets: [Release.Everfest],
-    specialImageName: "EVR138.width-450",
+    specialImageName: "EVR138_Fractal_Replication.width-10000",
     type: Type.Action,
     typeText: "Illusionist Action – Attack",
     cost: 0,
@@ -52887,6 +52851,108 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
     specialImageName: "UPR220",
     type: Type.Action,
     typeText: "Generic Action – Aura",
+    cost: 1,
+    defense: 2,
+    fusions: [],
+    pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Aura,
+  },{
+    classes: [Class.Wizard],
+    class: Class.Wizard,
+    artists: ["soyameii"],
+    cardIdentifier: "blessing-of-aether-red",
+    defaultImageName: "dyn_card_Blessing_of_Aether_p1.width-10000",
+    functionalText: `At the start of your turn, destroy Blessing of Aether then if the next card you play this turn has an arcane damage effect, instead it deals that much arcane damage plus 3.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "LGS116",
+      name: "dyn_card_Blessing_of_Aether_p1.width-10000",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    keywords: [],
+    name: "Blessing of Aether",
+    rarity: Rarity.Promo,
+    restrictedFormats: [],
+    setIdentifiers: ["LGS116"],
+    sets: [Release.Promos],
+    specialImageName: "dyn_card_Blessing_of_Aether_p1.width-10000",
+    type: Type.Action,
+    typeText: "Wizard Action – Aura",
+    cost: 1,
+    defense: 2,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Aura,
+  },{
+    classes: [Class.Wizard],
+    class: Class.Wizard,
+    artists: ["soyameii"],
+    cardIdentifier: "blessing-of-aether-yellow",
+    defaultImageName: "LGS117",
+    functionalText: `At the start of your turn, destroy Blessing of Aether then if the next card you play this turn has an arcane damage effect, instead it deals that much arcane damage plus 2.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "LGS118",
+      name: "LGS117",
+      set: Release.Promos,
+      
+    },],
+    keywords: [],
+    name: "Blessing of Aether",
+    rarity: Rarity.Promo,
+    restrictedFormats: [],
+    setIdentifiers: ["LGS117"],
+    sets: [Release.Promos],
+    specialImageName: "LGS117",
+    type: Type.Action,
+    typeText: "Wizard Action – Aura",
+    cost: 1,
+    defense: 2,
+    fusions: [],
+    pitch: 2,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Aura,
+  },{
+    classes: [Class.Wizard],
+    class: Class.Wizard,
+    artists: ["soyameii"],
+    cardIdentifier: "blessing-of-aether-blue",
+    defaultImageName: "LGS117",
+    functionalText: `At the start of your turn, destroy Blessing of Aether then if the next card you play this turn has an arcane damage effect, instead it deals that much arcane damage plus 1.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "LGS118",
+      name: "LGS117",
+      set: Release.Promos,
+      
+    },],
+    keywords: [],
+    name: "Blessing of Aether",
+    rarity: Rarity.Promo,
+    restrictedFormats: [],
+    setIdentifiers: ["LGS118"],
+    sets: [Release.Promos],
+    specialImageName: "LGS117",
+    type: Type.Action,
+    typeText: "Wizard Action – Aura",
     cost: 1,
     defense: 2,
     fusions: [],
@@ -62739,7 +62805,7 @@ Draw 2 cards.`,
     artists: ["Narendra B Adi"],
     cardIdentifier: "metacarpus-node",
     defaultImageName: "CRU161",
-    functionalText: `Whenever you play a card with an effect that deals arcane damage, you may pay {r}. If you do, that effect deals that much arcane damage plus 1 and at the beginning of the end phase, destroy Metacarpus Node.
+    functionalText: `Whenever you play a card with an effect that deals arcane damage, you may pay {r}. If you do, instead it deals that much arcane damage plus 1, and destroy Metacarpus Node at the beginning of the end phase.
 
 **Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} instead. If you do, prevent 1 arcane damage that source would deal.)*`,
     images: [{
@@ -62757,7 +62823,7 @@ Draw 2 cards.`,
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU161",
-      name: "U-CRU161",
+      name: "CRU161_Metacarpus_Node.width-10000",
       set: Release.CrucibleOfWar,
       
     },],
@@ -62780,7 +62846,7 @@ Draw 2 cards.`,
     artists: ["Surya P"],
     cardIdentifier: "gamblers-gloves",
     defaultImageName: "CRU179",
-    functionalText: `If an effect would resolve that includes rolling a 6 sided die, instead you may destroy Gambler’s Gloves. If you do, the controller of the effect rerolls all 6 sided dice rolled this way. *(You decide whether to use Gambler’s Glove after seeing the result of the die roll.)*`,
+    functionalText: `If a hero would roll one or more 6 sided dice, instead after the roll you may destroy Gambler's Gloves. If you do, that hero rerolls all 6 sided dice rolled this way.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB074",
@@ -62802,7 +62868,7 @@ Draw 2 cards.`,
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU179",
-      name: "U-CRU179",
+      name: "CRU179_Gamblers_Gloves.width-10000",
       set: Release.CrucibleOfWar,
       
     },],
@@ -62913,11 +62979,11 @@ Draw 2 cards.`,
     artists: ["Elena Danilova"],
     cardIdentifier: "phantasmal-footsteps",
     defaultImageName: "MON089.width-450",
-    functionalText: `The first time an Illusionist attack action card you control is destroyed each turn, you may pay {r}. If you do, gain 1 action point.
+    functionalText: `Once per turn, when an Illusionist attack action card you control is destroyed, you may pay {r}. If you do, gain 1 action point.
 
-Whenever you defend with Phantasmal Footsteps, you may pay {r}. If you do, its {d} becomes 1 until end of turn.
+Whenever this defends, you may pay {r}. If you do, its {d} becomes 1 until end of turn.
 
-If Phantasmal Footsteps defends a non-Illusionist attack with 6 or more {p}, destroy it when the combat chain closes.`,
+When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {p}, destroy it when the combat chain closes.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB019",
@@ -62933,7 +62999,7 @@ If Phantasmal Footsteps defends a non-Illusionist attack with 6 or more {p}, des
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "MON089",
-      name: "U-MON089.width-450",
+      name: "MON089_Phantasmal_Footsteps.width-10000",
       set: Release.Monarch,
       
     },],
@@ -63123,7 +63189,7 @@ If Phantasmal Footsteps defends a non-Illusionist attack with 6 or more {p}, des
   },{
     classes: [Class.NotClassed],
     class: Class.NotClassed,
-    artists: ["Sergey Gursky"],
+    artists: ["Sergey Gurskiy"],
     cardIdentifier: "carrion-husk",
     defaultImageName: "MON187.width-450",
     functionalText: `If you defend with Carrion Husk, banish it when the combat chain closes.
@@ -64992,11 +65058,11 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     artists: ["Mihail Spil-Haufter"],
     cardIdentifier: "minerva-themis",
     defaultImageName: "FAB044",
-    functionalText: `**Mentor** *(You may only have Minerva in your deck if your hero is young.)*
+    functionalText: `*(You may only have Minerva in your deck if your hero is young.)*
 
-At the start of your turn, if Minerva is face down in your arsenal, you may turn her face up.
+While Minerva is face down in arsenal, at the start of your turn, you may turn her face up.
 
-1H weapons you control have +1{p}. Whenever a weapon you control hits, put a lesson counter on Minerva. Then if there are 3 or more lesson counters on Minerva, banish her, search your deck for a **specialization** card, put it face up into your arsenal, and shuffle your deck.`,
+While Minerva is face up in arsenal, 1H weapons you control have +1{p}. Whenever a weapon you control hits, put a lesson counter on Minerva. Then if there are 3 or more lesson counters on her, banish her, search your deck for a **specialization** card, put it face up into arsenal, and shuffle.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB044",
@@ -65006,11 +65072,11 @@ At the start of your turn, if Minerva is face down in your arsenal, you may turn
     },{
       edition: ReleaseEdition.Promo,
       identifier: "BOL002",
-      name: "BOL002.width-450",
+      name: "BOL002_Minerva_Themis.width-10000",
       set: Release.BoltynBlitzDeck,
       
     },],
-    keywords: [Keyword.Mentor],
+    keywords: [],
     name: "Minerva Themis",
     rarity: Rarity.Majestic,
     restrictedFormats: [Format.Commoner],
@@ -65027,11 +65093,11 @@ At the start of your turn, if Minerva is face down in your arsenal, you may turn
     artists: ["bimawithpencil"],
     cardIdentifier: "lord-sutcliffe",
     defaultImageName: "FAB046",
-    functionalText: `**Mentor** *(You may only have Sutcliffe in your deck if your hero is young.)*
+    functionalText: `*(You may only have Sutcliffe in your deck if your hero is young.)*
 
-At the start of your turn, if Sutcliffe is face down in your arsenal, you may turn him face up.
+While Sutcliffe is face down in arsenal, at the start of your turn, you may turn him face up.
 
-Whenever you play a ‘non-attack’ action card, deal 1 arcane damage to each hero and put a lesson counter on Sutcliffe for each damage dealt this way. Then if there are 3 or more lesson counters on Sutcliffe, banish him, search your deck for a **specialization** card, put it face up into your arsenal, and shuffle your deck.`,
+While Sutcliffe is face up in arsenal, whenever you play a 'non-attack' action card, deal 1 arcane damage to each hero and put a lesson counter on Sutcliffe for each damage dealt this way. Then if there are 3 or more lesson counters on him, banish him, search your deck for a **specialization** card, put it face up into arsenal, and shuffle.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB046",
@@ -65041,11 +65107,11 @@ Whenever you play a ‘non-attack’ action card, deal 1 arcane damage to each h
     },{
       edition: ReleaseEdition.Promo,
       identifier: "CHN002",
-      name: "CHN002.width-450",
+      name: "CHN002_Lord_Sutcliffe.width-10000",
       set: Release.ChaneBlitzDeck,
       
     },],
-    keywords: [Keyword.Mentor],
+    keywords: [],
     name: "Lord Sutcliffe",
     rarity: Rarity.Majestic,
     restrictedFormats: [Format.Commoner],
@@ -65062,11 +65128,11 @@ Whenever you play a ‘non-attack’ action card, deal 1 arcane damage to each h
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "lady-barthimont",
     defaultImageName: "FAB045",
-    functionalText: `**Mentor** *(You may only have Barthimont in your deck if your hero is young.)*
+    functionalText: `*(You may only have Barthimont in your deck if your hero is young.)*
 
-At the start of your turn, if Barthimont is face down in your arsenal, you may turn her face up.
+While Barthimont is face down in arsenal, at the start of your turn, you may turn her face up.
 
-Whenever you play an attack action card, banish the top card of your deck. If the banished card has 6 or more {p}, the attack gains **dominate** and put a lesson counter on Barthimont. Then if there are 2 or more lesson counters on Barthimont, banish her, search your deck for a **specialization** card, put it face up into your arsenal, and shuffle your deck.`,
+While Barthimont is face up in arsenal, whenever you play an attack action card, banish the top card of your deck. If the banished card has 6 or more {p}, the attack gains **dominate** and put a lesson counter on Barthimont. Then if there are 2 or more lesson counters on her, banish her, search your deck for a **specialization** card, put it face up into arsenal, and shuffle.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB045",
@@ -65076,11 +65142,11 @@ Whenever you play an attack action card, banish the top card of your deck. If th
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LEV002",
-      name: "LEV002.width-450",
+      name: "LEV002_Lady_Barthimont.width-10000",
       set: Release.LeviaBlitzDeck,
       
     },],
-    keywords: [Keyword.Mentor,Keyword.Dominate],
+    keywords: [Keyword.Dominate],
     name: "Lady Barthimont",
     rarity: Rarity.Majestic,
     restrictedFormats: [Format.Commoner],
@@ -65097,11 +65163,11 @@ Whenever you play an attack action card, banish the top card of your deck. If th
     artists: ["Federico Musetti"],
     cardIdentifier: "the-librarian",
     defaultImageName: "FAB043",
-    functionalText: `**Mentor** *(You may only have The Librarian in your deck if your hero is young.)*
+    functionalText: `*(You may only have The Librarian in your deck if your hero is young.)*
 
-At the start of your turn, if The Librarian is face down in your arsenal, you may turn him face up.
+While The Librarian is face down in arsenal, at the start of your turn, you may turn him face up.
 
-Whenever you create a Spectral Shield token, draw a card and put a lesson counter on The Librarian. Then if there are 3 or more lesson counters on The Librarian, banish him, search your deck for a **specialization** card, put it face up into your arsenal, and shuffle your deck.`,
+While The Librarian is face up in arsenal, once per turn when you create a Spectral Shield token, draw a card and put a lesson counter on The Librarian. Then if there are 3 or more lesson counters on him, banish him, search your deck for a **specialization** card, put it face up into arsenal, and shuffle.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB043",
@@ -65111,11 +65177,11 @@ Whenever you create a Spectral Shield token, draw a card and put a lesson counte
     },{
       edition: ReleaseEdition.Promo,
       identifier: "PSM002",
-      name: "PSM002.width-450",
+      name: "PSM002_The_Librarian.width-10000",
       set: Release.PrismBlitzDeck,
       
     },],
-    keywords: [Keyword.Mentor],
+    keywords: [],
     name: "The Librarian",
     rarity: Rarity.Majestic,
     restrictedFormats: [Format.Commoner],
@@ -65215,35 +65281,6 @@ While Ruk’utan is face up in arsenal, whenever you play a card with 6 or more 
     life: 15,
     subType: HeroSubType.Young,
     talents: [Talent.Royal,Talent.Draconic],
-    young: true
-  },{
-    classes: [Class.Guardian],
-    class: Class.Guardian,
-    artists: ["Othon Nikolaidis"],
-    cardIdentifier: "yoji-royal-protector",
-    defaultImageName: "HER075",
-    functionalText: `**Once per Turn Instant** - {r}{r}{r}: The next time another target hero would be dealt damage this turn, instead that damage is dealt to Yonji and prevent 1 of that damage.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "HER075",
-      name: "HER075",
-      set: Release.Promos,
-      
-    },],
-    keywords: [],
-    name: "Yoji, Royal Protector",
-    rarity: Rarity.Promo,
-    restrictedFormats: [],
-    setIdentifiers: ["HER075"],
-    sets: [Release.Promos],
-    specialImageName: "HER075",
-    type: Type.Hero,
-    typeText: "Guardian Hero – Young",
-    intellect: 4,
-    hero: Hero.Yoji,
-    life: 22,
-    subType: HeroSubType.Young,
-    talents: [],
     young: true
   },{
     classes: [Class.Merchant],
@@ -65489,7 +65526,7 @@ At the start of your turn, you may banish an equipment you control. If you do, e
     keywords: [Keyword.Intimidate],
     name: "Rhinar",
     rarity: Rarity.Token,
-    restrictedFormats: [],
+    restrictedFormats: [Format.ClassicConstructed],
     setIdentifiers: ["HER005","HER054","XXX003","RNR002","RVD001","1HP002","WTR002"],
     sets: [Release.Promos,Release.Promos,Release.RhinarHeroDeck,Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR002",
@@ -65619,7 +65656,7 @@ At the start of your turn, you may banish an equipment you control. If you do, e
     keywords: [Keyword.Dominate],
     name: "Bravo",
     rarity: Rarity.Token,
-    restrictedFormats: [],
+    restrictedFormats: [Format.ClassicConstructed],
     setIdentifiers: ["HER006","HER055","XXX002","BVO002","1HP044","WTR039"],
     sets: [Release.Promos,Release.Promos,Release.BravoBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR039",
@@ -65749,7 +65786,7 @@ At the start of your turn, you may banish an equipment you control. If you do, e
     keywords: [],
     name: "Katsu",
     rarity: Rarity.Token,
-    restrictedFormats: [],
+    restrictedFormats: [Format.ClassicConstructed],
     setIdentifiers: ["HER007","HER056","XXX004","KSU002","1HP087","WTR077"],
     sets: [Release.Promos,Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR077",
@@ -65879,7 +65916,7 @@ At the start of your turn, you may banish an equipment you control. If you do, e
     keywords: [],
     name: "Dorinthea",
     rarity: Rarity.Token,
-    restrictedFormats: [],
+    restrictedFormats: [Format.ClassicConstructed],
     setIdentifiers: ["HER008","HER057","XXX001","TEA002","1HP139","WTR114"],
     sets: [Release.Promos,Release.Promos,Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR114",
@@ -65991,7 +66028,7 @@ At the start of your turn, you may banish an equipment you control. If you do, e
     keywords: [],
     name: "Dash",
     rarity: Rarity.Token,
-    restrictedFormats: [],
+    restrictedFormats: [Format.ClassicConstructed],
     setIdentifiers: ["HER013","1HP181","ARC002"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC002",
@@ -66103,7 +66140,7 @@ At the start of your turn, you may banish an equipment you control. If you do, e
     keywords: [Keyword.Dominate],
     name: "Azalea",
     rarity: Rarity.Token,
-    restrictedFormats: [],
+    restrictedFormats: [Format.ClassicConstructed],
     setIdentifiers: ["HER014","1HP222","ARC039"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC039",
@@ -66215,7 +66252,7 @@ At the start of your turn, you may banish an equipment you control. If you do, e
     keywords: [],
     name: "Viserai",
     rarity: Rarity.Token,
-    restrictedFormats: [Format.Blitz],
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed],
     setIdentifiers: ["HER015","1HP259","ARC076"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC076",
@@ -66327,7 +66364,7 @@ At the start of your turn, you may banish an equipment you control. If you do, e
     keywords: [],
     name: "Kano",
     rarity: Rarity.Token,
-    restrictedFormats: [],
+    restrictedFormats: [Format.ClassicConstructed],
     setIdentifiers: ["HER016","1HP302","ARC114"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC114",
@@ -66378,7 +66415,7 @@ At the start of your turn, you may banish an equipment you control. If you do, e
     keywords: [],
     name: "Kayo, Berserker Runt",
     rarity: Rarity.Rare,
-    restrictedFormats: [],
+    restrictedFormats: [Format.ClassicConstructed],
     setIdentifiers: ["HER025","1HP003","CRU002"],
     sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU002",
@@ -66431,7 +66468,7 @@ At the start of your turn, you may banish an equipment you control. If you do, e
     keywords: [],
     name: "Ira, Crimson Haze",
     rarity: Rarity.Common,
-    restrictedFormats: [],
+    restrictedFormats: [Format.ClassicConstructed],
     setIdentifiers: ["HER000","IRA001","1HP089","CRU046"],
     sets: [Release.Promos,Release.IraWelcomeDeck,Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU046",
@@ -66486,7 +66523,7 @@ At the start of your turn, you may banish an equipment you control. If you do, e
     keywords: [],
     name: "Benji, the Piercing Wind",
     rarity: Rarity.Rare,
-    restrictedFormats: [],
+    restrictedFormats: [Format.ClassicConstructed],
     setIdentifiers: ["HER026","1HP088","CRU047"],
     sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU047",
@@ -66541,7 +66578,7 @@ At the beginning of your end phase, if you have attacked 2 or more times with we
     keywords: [],
     name: "Kassai, Cintari Sellsword",
     rarity: Rarity.Rare,
-    restrictedFormats: [],
+    restrictedFormats: [Format.ClassicConstructed],
     setIdentifiers: ["HER029","1HP140","CRU077"],
     sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU077",
@@ -66578,7 +66615,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
     keywords: [],
     name: "Shiyana, Diamond Gemini",
     rarity: Rarity.Legendary,
-    restrictedFormats: [Format.Commoner],
+    restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
     setIdentifiers: ["CRU097"],
     sets: [Release.CrucibleOfWar],
     specialImageName: "CRU097",
@@ -66625,7 +66662,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
     keywords: [],
     name: "Data Doll MKII",
     rarity: Rarity.Rare,
-    restrictedFormats: [],
+    restrictedFormats: [Format.ClassicConstructed],
     setIdentifiers: ["HER027","1HP182","CRU099"],
     sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU099",
@@ -66678,7 +66715,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
     keywords: [],
     name: "Kavdaen, Trader of Skins",
     rarity: Rarity.Rare,
-    restrictedFormats: [],
+    restrictedFormats: [Format.ClassicConstructed],
     setIdentifiers: ["HER028","1HP220","CRU118"],
     sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU118",
@@ -66772,7 +66809,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
     keywords: [],
     name: "Prism",
     rarity: Rarity.Token,
-    restrictedFormats: [],
+    restrictedFormats: [Format.ClassicConstructed],
     setIdentifiers: ["HER034","PSM001","MON002"],
     sets: [Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
     specialImageName: "MON002.width-450",
@@ -66870,7 +66907,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
     keywords: [Keyword.GoAgain],
     name: "Boltyn",
     rarity: Rarity.Token,
-    restrictedFormats: [],
+    restrictedFormats: [Format.ClassicConstructed],
     setIdentifiers: ["HER035","BOL001","MON030"],
     sets: [Release.Promos,Release.BoltynBlitzDeck,Release.Monarch],
     specialImageName: "MON030.width-450",
@@ -66964,7 +67001,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
     keywords: [],
     name: "Levia",
     rarity: Rarity.Token,
-    restrictedFormats: [],
+    restrictedFormats: [Format.ClassicConstructed],
     setIdentifiers: ["HER036","LEV001","MON120"],
     sets: [Release.Promos,Release.LeviaBlitzDeck,Release.Monarch],
     specialImageName: "QB393QB0F93d2Hhhs5Cf_iMdCfa8qpl1J91FOlwlsYvSnv.width-450",
@@ -67058,7 +67095,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
     keywords: [Keyword.GoAgain],
     name: "Chane",
     rarity: Rarity.Token,
-    restrictedFormats: [],
+    restrictedFormats: [Format.ClassicConstructed],
     setIdentifiers: ["HER037","CHN001","MON154"],
     sets: [Release.Promos,Release.ChaneBlitzDeck,Release.Monarch],
     specialImageName: "MON154.width-450",
@@ -67156,7 +67193,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
     keywords: [Keyword.Essence],
     name: "Oldhim",
     rarity: Rarity.Token,
-    restrictedFormats: [],
+    restrictedFormats: [Format.ClassicConstructed],
     setIdentifiers: ["HER045","OLD001","ELE002"],
     sets: [Release.Promos,Release.OldhimBlitzDeck,Release.TalesOfAria],
     specialImageName: "ELE002.width-450",
@@ -67254,7 +67291,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
     keywords: [Keyword.Essence,Keyword.GoAgain],
     name: "Lexi",
     rarity: Rarity.Token,
-    restrictedFormats: [],
+    restrictedFormats: [Format.ClassicConstructed],
     setIdentifiers: ["HER046","LXI001","ELE032"],
     sets: [Release.Promos,Release.LexiBlitzDeck,Release.TalesOfAria],
     specialImageName: "ELE032.width-450",
@@ -67356,7 +67393,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
     keywords: [Keyword.Essence],
     name: "Briar",
     rarity: Rarity.Token,
-    restrictedFormats: [],
+    restrictedFormats: [Format.ClassicConstructed],
     setIdentifiers: ["HER047","HER064","XXX011","BRI001","ELE063"],
     sets: [Release.Promos,Release.Promos,Release.BriarBlitzDeck,Release.TalesOfAria],
     specialImageName: "ELE063_Briar_errata.width-450",
@@ -67430,7 +67467,7 @@ At the start of your turn, if you control 3 or more Seismic Surge tokens, cards 
     keywords: [Keyword.Dominate],
     name: "Valda Brightaxe",
     rarity: Rarity.Majestic,
-    restrictedFormats: [Format.Commoner],
+    restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
     setIdentifiers: ["HER051","EVR019"],
     sets: [Release.Promos,Release.Everfest],
     specialImageName: "EVR019.width-450",
@@ -67465,7 +67502,7 @@ At the start of your turn, if you control 3 or more Seismic Surge tokens, cards 
     keywords: [],
     name: "Genis Wotchuneed",
     rarity: Rarity.Majestic,
-    restrictedFormats: [Format.Commoner],
+    restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
     setIdentifiers: ["HER053","EVR085"],
     sets: [Release.Promos,Release.Everfest],
     specialImageName: "EVR085.width-450",
@@ -67522,7 +67559,7 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
     keywords: [Keyword.Essence],
     name: "Iyslander",
     rarity: Rarity.Token,
-    restrictedFormats: [],
+    restrictedFormats: [Format.ClassicConstructed],
     setIdentifiers: ["HER052","EVR120","UPR103"],
     sets: [Release.Promos,Release.Everfest,Release.Uprising],
     specialImageName: "UPR103_B_Back",
@@ -67551,7 +67588,7 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
     keywords: [],
     name: "Dorinthea, Quicksilver Prodigy",
     rarity: Rarity.Majestic,
-    restrictedFormats: [Format.Commoner],
+    restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
     setIdentifiers: ["DVR001"],
     sets: [Release.ClassicBattlesRhinarDorinthea],
     specialImageName: "DVR001.width-450",
@@ -67566,7 +67603,7 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
   },{
     classes: [Class.Illusionist],
     class: Class.Illusionist,
-    artists: ["Katie Fox"],
+    artists: ["Kate Fox"],
     cardIdentifier: "dromai-ash-artist",
     defaultImageName: "UPR001",
     functionalText: `Whenever you pitch a red card, create an Ash Token. *(A red card is a card with a red color strip.)*
@@ -67597,7 +67634,7 @@ If you’ve played a red card this turn, dragons you control have **go again** w
   },{
     classes: [Class.Illusionist],
     class: Class.Illusionist,
-    artists: ["Katie Fox"],
+    artists: ["Kate Fox"],
     cardIdentifier: "dromai",
     defaultImageName: "UPR002",
     functionalText: `Whenever you pitch a red card, create an Ash Token. *(A red card is a card with a red color strip.)*
@@ -67613,7 +67650,7 @@ If you’ve played a red card this turn, dragons you control have **go again** w
     keywords: [Keyword.GoAgain],
     name: "Dromai",
     rarity: Rarity.Token,
-    restrictedFormats: [],
+    restrictedFormats: [Format.ClassicConstructed],
     setIdentifiers: ["HER062","UPR002"],
     sets: [Release.Promos,Release.Uprising],
     specialImageName: "UPR002",
@@ -67675,7 +67712,7 @@ If you’ve played a red card this turn, dragons you control have **go again** w
     keywords: [],
     name: "Fai",
     rarity: Rarity.Token,
-    restrictedFormats: [],
+    restrictedFormats: [Format.ClassicConstructed],
     setIdentifiers: ["HER061","UPR045"],
     sets: [Release.Promos,Release.Uprising],
     specialImageName: "UPR045",
@@ -67720,6 +67757,35 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
     
     talents: [Talent.Elemental,Talent.Ice],
     young: null
+  },{
+    classes: [Class.Guardian],
+    class: Class.Guardian,
+    artists: ["Othon Nikolaidis"],
+    cardIdentifier: "yoji-royal-protector",
+    defaultImageName: "dyn_card_Yoji_Royal_Protector.width-10000",
+    functionalText: `**Once per Turn Instant** - {r}{r}{r}: The next time another target hero would be dealt damage this turn, instead that damage is dealt to Yoji and prevent 1 of that damage.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "HER075",
+      name: "dyn_card_Yoji_Royal_Protector.width-10000",
+      set: Release.Promos,
+      
+    },],
+    keywords: [],
+    name: "Yoji, Royal Protector",
+    rarity: Rarity.Promo,
+    restrictedFormats: [Format.ClassicConstructed],
+    setIdentifiers: ["HER075"],
+    sets: [Release.Promos],
+    specialImageName: "dyn_card_Yoji_Royal_Protector.width-10000",
+    type: Type.Hero,
+    typeText: "Guardian Hero – Young",
+    intellect: 4,
+    hero: Hero.Yoji,
+    life: 22,
+    subType: HeroSubType.Young,
+    talents: [],
+    young: true
   }];
   const placeholders: PlaceholderCard[] = [{
     classes: [Class.Generic],
@@ -68168,7 +68234,7 @@ When you pitch Blood of the Dracai, the next 3 Draconic cards you play this turn
     defaultImageName: "CRU196",
     functionalText: `*(Auras stay in the arena until they are destroyed.)*
 
-When you play an attack card or attack with a weapon, destroy Quicken then the attack gains **go again**.`,
+When you play an attack action card or activate a weapon attack, destroy Quicken and the attack gains **go again**.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "XXX009",
@@ -68196,7 +68262,7 @@ When you play an attack card or attack with a weapon, destroy Quicken then the a
     },{
       edition: ReleaseEdition.Promo,
       identifier: "1HP427",
-      name: "1HP427.width-450",
+      name: "1HP427_Quicken.width-10000",
       set: Release.HistoryPack1,
       
     },{
@@ -68251,7 +68317,7 @@ When you play an attack card or attack with a weapon, destroy Quicken then the a
     defaultImageName: "ARC112",
     functionalText: `*(Auras stay in the arena until they are destroyed.)*
 
-When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero`,
+When you play an attack action card or activate a weapon attack, destroy Runechant and deal 1 arcane damage to target opposing hero.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "1HP300",
@@ -68267,7 +68333,7 @@ When you play an attack action card or attack with a weapon, destroy Runechant a
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "ARC112",
-      name: "U-ARC112",
+      name: "ARC112_Runechant.width-10000",
       set: Release.ArcaneRising,
       
     },{
@@ -68667,7 +68733,7 @@ At the beginning of your action phase, destroy Embodiment of Earth.`,
   },{
     classes: [Class.NotClassed],
     class: Class.NotClassed,
-    artists: ["Tian Thongjonroon"],
+    artists: ["Tian Thongjomroon"],
     cardIdentifier: "frostbite",
     defaultImageName: "ELE111.width-450",
     functionalText: `Cards and abilities cost you an additional {r} to play or activate.
@@ -69228,6 +69294,42 @@ If Yendurai would be dealt damage, remove an endurance counter from him to preve
     subType: TokenSubType.Ash
   }];
   const weapons: WeaponCard[] = [{
+    classes: [Class.Warrior],
+    class: Class.Warrior,
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "merciless-battleaxe",
+    defaultImageName: "DYN068",
+    functionalText: `**Once per Turn Action** - {r}{r}{r}: **Attack**
+
+Whenever Merciless Battleaxe attacks, if its {p} is greater than twice its base {p}, the attack gains **overpower**. *(This can’t be defended by more than 1 action card.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN068",
+      name: "DYN068",
+      set: Release.Dynasty,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN068_Marvel",
+      name: "DYN068_Marvel",
+      set: Release.Dynasty,
+      treatment: Treatment.EA,
+    },],
+    keywords: [Keyword.Overpower],
+    name: "Merciless Battleaxe",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN068"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN068_Marvel",
+    type: Type.Weapon,
+    typeText: "Warrior Weapon – Axe (2H)",
+    handsRequired: HandsRequired.TwoHanded,
+    power: 3,
+    
+    talents: [],
+    subType: WeaponSubType.Axe
+  },{
     classes: [Class.Bard],
     class: Class.Bard,
     artists: ["Carlos Cruchaga"],
@@ -69976,7 +70078,7 @@ If you have discarded a card with 6 or more {p} this turn, Mandible Claw gains *
     defaultImageName: "CRU51.width-450",
     functionalText: `**Once per Turn Attack** - {r}: **Attack**. **Go again**
 
-If Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {p}, destroy Zephyr Needle when the combat chain closes.`,
+When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {p}, destroy it when the combat chain closes.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "1HP093",
@@ -69998,7 +70100,7 @@ If Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {p}
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU051",
-      name: "U-CRU051.width-450",
+      name: "CRU051_Zephyr_Needle.width-10000",
       set: Release.CrucibleOfWar,
       
     },{
@@ -70010,7 +70112,7 @@ If Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {p}
     },{
       edition: ReleaseEdition.Unlimited,
       identifier: "CRU052",
-      name: "U-CRU052",
+      name: "CRU052_Zephyr_Needle.width-10000",
       set: Release.CrucibleOfWar,
       
     },],
