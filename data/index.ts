@@ -32,6 +32,40 @@
   } from './interfaces';
   
   const basicActions1: ActionCard[] = [{
+    classes: [Class.Mechanologist],
+    class: Class.Mechanologist,
+    artists: ["Victoria Belyaeva"],
+    cardIdentifier: "powder-keg-blue",
+    defaultImageName: "DYN094",
+    functionalText: `Whenever a Mechanologist gun you control hits, you may destroy Powder Keg and a defending equipment.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN094",
+      name: "DYN094",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Powder Keg",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN094"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN094",
+    type: Type.Action,
+    typeText: "Mechanologist Action – Item",
+    cost: 0,
+    
+    fusions: [],
+    pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Item,
+  },{
     classes: [Class.Generic],
     class: Class.Generic,
     artists: ["Othon Nikolaidis"],
@@ -28738,7 +28772,8 @@ The next attack action card you play this turn gains +1{p}.
     
     specializations: [],
     subType: ActionSubType.Attack,
-  },{
+  }];
+  const basicActions2: ActionCard[] = [{
     classes: [Class.NotClassed],
     class: Class.NotClassed,
     artists: ["Alexandra Malygina"],
@@ -28786,8 +28821,7 @@ The next attack action card you play this turn gains +1{p}.
     
     specializations: [],
     subType: ActionSubType.Attack,
-  }];
-  const basicActions2: ActionCard[] = [{
+  },{
     classes: [Class.NotClassed],
     class: Class.NotClassed,
     artists: ["Immanuela Crovius"],
@@ -52905,7 +52939,7 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
     functionalText: `At the start of your turn, destroy Blessing of Aether then if the next card you play this turn has an arcane damage effect, instead it deals that much arcane damage plus 2.`,
     images: [{
       edition: ReleaseEdition.Promo,
-      identifier: "LGS118",
+      identifier: "LGS116",
       name: "LGS117",
       set: Release.Promos,
       
@@ -52935,12 +52969,12 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
     class: Class.Wizard,
     artists: ["soyameii"],
     cardIdentifier: "blessing-of-aether-blue",
-    defaultImageName: "LGS117",
+    defaultImageName: "LGS118",
     functionalText: `At the start of your turn, destroy Blessing of Aether then if the next card you play this turn has an arcane damage effect, instead it deals that much arcane damage plus 1.`,
     images: [{
       edition: ReleaseEdition.Promo,
-      identifier: "LGS118",
-      name: "LGS117",
+      identifier: "LGS116",
+      name: "LGS118",
       set: Release.Promos,
       
     },],
@@ -52950,7 +52984,7 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
     restrictedFormats: [],
     setIdentifiers: ["LGS118"],
     sets: [Release.Promos],
-    specialImageName: "LGS117",
+    specialImageName: "LGS118",
     type: Type.Action,
     typeText: "Wizard Action – Aura",
     cost: 1,
@@ -57156,7 +57190,7 @@ Earth, Ice, and Elemental action cards have +1{d} while defending this turn.`,
     keywords: [Keyword.Legendary],
     name: "Pulse of Isenloft",
     rarity: Rarity.Majestic,
-    restrictedFormats: [Format.Commoner],
+    restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
     setIdentifiers: ["ELE114"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE114.width-450",
@@ -59059,7 +59093,7 @@ Target attacking or defending attack action card gets -1{p}.`,
     defaultImageName: "MON087.width-450",
     functionalText: `Attacks you control have +1{p} while attacking a Shadow hero this turn.
 
-If you have less {h} than an opposing Shadow hero, put {name} into your hero's soul. *(Put this card face up under your hero card.)*`,
+If you have less {h} than an opposing Shadow hero, put Ray of Hope into your hero's soul. *(Put this card face up under your hero card.)*`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS044",
@@ -62048,7 +62082,7 @@ Draw 2 cards.`,
     keywords: [Keyword.ArcaneBarrier],
     name: "Storm Striders",
     rarity: Rarity.Legendary,
-    restrictedFormats: [Format.Commoner],
+    restrictedFormats: [Format.Blitz,Format.Commoner],
     setIdentifiers: ["FAB011","1HP305","ARC116"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC116",
@@ -62789,7 +62823,7 @@ Draw 2 cards.`,
     keywords: [Keyword.Temper],
     name: "Bloodsheath Skeleta",
     rarity: Rarity.Majestic,
-    restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
     setIdentifiers: ["1HP264","CRU141"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU141",
@@ -64310,7 +64344,7 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     keywords: [Keyword.BladeBreak],
     name: "Mask of the Pouncing Lynx",
     rarity: Rarity.Majestic,
-    restrictedFormats: [Format.Commoner],
+    restrictedFormats: [Format.Blitz,Format.Commoner],
     setIdentifiers: ["EVR037"],
     sets: [Release.Everfest],
     specialImageName: "EVR037.width-450",
@@ -69329,6 +69363,38 @@ Whenever Merciless Battleaxe attacks, if its {p} is greater than twice its base 
     
     talents: [],
     subType: WeaponSubType.Axe
+  },{
+    classes: [Class.Mechanologist],
+    class: Class.Mechanologist,
+    artists: ["Joseph Qiu"],
+    cardIdentifier: "hanabi-blaster",
+    defaultImageName: "DYN088_Marvel",
+    functionalText: `**Once per Turn Action** - Remove 2 steam counters from Hanabi Blaster: **Attack**
+
+**Overpower** *(This can’t be defended by more than 1 action card.)*
+
+The third time you play a card with **boost** each turn, put a steam counter on Hanabi Blaster`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN088_Marvel",
+      name: "DYN088_Marvel",
+      set: Release.Dynasty,
+      treatment: Treatment.EA,
+    },],
+    keywords: [Keyword.Overpower],
+    name: "Hanabi Blaster",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN080"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN088_Marvel",
+    type: Type.Weapon,
+    typeText: "Mechanologist Weapon – Gun (2H)",
+    handsRequired: HandsRequired.TwoHanded,
+    power: 5,
+    
+    talents: [],
+    subType: WeaponSubType.Gun
   },{
     classes: [Class.Bard],
     class: Class.Bard,
