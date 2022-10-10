@@ -69385,7 +69385,7 @@ The third time you play a card with **boost** each turn, put a steam counter on 
     name: "Hanabi Blaster",
     rarity: Rarity.Majestic,
     restrictedFormats: [],
-    setIdentifiers: ["DYN080"],
+    setIdentifiers: ["DYN088"],
     sets: [Release.Dynasty],
     specialImageName: "DYN088_Marvel",
     type: Type.Weapon,
