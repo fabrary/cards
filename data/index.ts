@@ -60725,6 +60725,35 @@ Draw 2 cards.`,
     
   }];
   const equipment: EquipmentCard[] = [{
+    classes: [Class.Runeblade],
+    class: Class.Runeblade,
+    artists: ["Joseph Qiu"],
+    cardIdentifier: "amethyst-tiara",
+    defaultImageName: "DYN171_Marvel",
+    functionalText: `**Instant** - Destroy Amethyst Tiara: Runechants you control have **spellvoid 1** this turn.
+
+**Blade Break** *(When the combat chain closes, if this defended, destroy it.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN171_Marvel",
+      name: "DYN171_Marvel",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.BladeBreak],
+    name: "Amethyst Tiara",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN171"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN171_Marvel",
+    type: Type.Equipment,
+    typeText: "Runeblade Equipment – Head",
+    defense: 1,
+    
+    talents: [],
+    subType: EquipmentSubType.Head
+  },{
     classes: [Class.Generic],
     class: Class.Generic,
     artists: ["Andy Aslamov"],
