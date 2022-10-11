@@ -2,6 +2,8 @@ Identifiers	Set Identifiers	Name	Pitch	Cost	Power	Defense	Health	Intelligence	Ra
 DYN001	DYN	Emperor, Dracai of Aesir					15	4	L	Royal, Draconic, Warrior, Wizard, Hero, Young					"You may only have red cards in your deck.
 
 **Action** - {r}{r}: Search your deck for Command and Conquer, **attack** with it, then shuffle."		Royal Draconic Warrior Wizard Hero – Young	Federico Musetti				No													S – DYN001 – N	/DYN001.png - DYN001 – N			
+DYN026	DYN	Seasoned Saviour				3			M	Guardian, Equipment, Off-Hand	Battleworn				When you equip Seasoned Saviour, put two -1{d} counters on it. **Battleworn**		Guardian Equipment – Off-Hand	Sofia Akimova				No													C – DYN026 – N – EA	/DYN026_Marvel.png – DYN026_Marvel – N – EA			
+DYN039	DYN	Reinforce Steel	1	2		3			C	Guardian, Action					Remove a -1{d} counter from a Guardian off-hand you control with 3 or less base {d}.	*It is said that the imperial Forge of Volcor produces the sturdiest armor in all of Rathe.*	Guardian Action	Nathaniel Himawan																	S – DYN039 – N	/DYN039.png – DYN039 – N			
 DYN068	DYN	Merciless Battleaxe			3				M	Warrior, Weapon, Axe, 2H	Overpower				"**Once per Turn Action** - {r}{r}{r}: **Attack**
 
 Whenever Merciless Battleaxe attacks, if its {p} is greater than twice its base {p}, the attack gains **overpower**. *(This can’t be defended by more than 1 action card.)*"		Warrior Weapon – Axe (2H)	Carlos Cruchaga				No													S – DYN068 – N, C – DYN068 – N – EA	"/DYN068.png – DYN068 – N,
@@ -24,6 +26,15 @@ DYN242	DYN	Imperial Warhorn	1	2					M	Generic, Action, Item	Legendary				"Legend
 
 **Action** - {r}, destroy Imperial Warhorn: Choose any number of heroes. Each of them chooses an ally, aura, item, or landmark permanent they control. Destroy each permanent chosen this way. If you are Royal, instead you choose the permanents."		Generic Action - Item	Othon Nikolaidis				No													S – DYN242 – N	/DYN242.png – DYN242 – N			
 DYN243	DYN	Gold							C	Generic, Token, Item	Go again				Action destroy gold: draw a card. Go again.		Generic Token - Item	Nikolay Moskvin																	S – DYN243 – N	/DYN243.png – DYN243 – N			
+FAB115	DYN	Sap	1	0		3			P	Wizard, Action	Surge				"Deal 3 arcane damage to target hero
+
+**Surge** - If this deals more than 3 damage to a hero, you may remove an energy counter from a permanent they control.."		Wizard Action	Riordan Delmiro																	S – FAB115 – N	/FAB115.png – FAB115 – N			
+FAB116	DYN	Sap	2	0		3			P	Wizard, Action	Surge				"Deal 3 arcane damage to target hero
+
+**Surge** - If this deals more than 3 damage to a hero, you may remove an energy counter from a permanent they control.."		Wizard Action	Riordan Delmiro																	S – FAB116 – N	/FAB116.png – FAB116 – N			
+FAB117	DYN	Sap	3	0		3			P	Wizard, Action	Surge				"Deal 1 arcane damage to target hero
+
+**Surge** - If this deals more than 1 damage to a hero, you may remove an energy counter from a permanent they control.."		Wizard Action	Riordan Delmiro																	S – FAB117 – N	/FAB117.png – FAB117 – N			
 LSS001	LSS	Ruu’di, Gem Keeper					40	4	P	Hero, Merchant		Once per Turn Action	Go again		"You may only have PSA graded cards in your deck.
 
 **Once per Turn Action** - {r}: Reveal the top card of your deck. If it’s graded Gem Min 10, put it into your hand, otherwise each opponent may draw a card. **Go again**"		Hero – Merchant	Lius Lasahido		No	No	No													S – LSS001 – N	https://storage.googleapis.com/fabmaster/media/images/LSS001.width-450.png - LSS001 – N			

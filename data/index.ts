@@ -32,6 +32,40 @@
   } from './interfaces';
   
   const basicActions1: ActionCard[] = [{
+    classes: [Class.Guardian],
+    class: Class.Guardian,
+    artists: ["Nathaniel Himawan"],
+    cardIdentifier: "reinforce-steel-red",
+    defaultImageName: "DYN039",
+    functionalText: `Remove a -1{d} counter from a Guardian off-hand you control with 3 or less base {d}.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN039",
+      name: "DYN039",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Reinforce Steel",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN039"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN039",
+    type: Type.Action,
+    typeText: "Guardian Action",
+    cost: 2,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
     classes: [Class.Mechanologist],
     class: Class.Mechanologist,
     artists: ["Victoria Belyaeva"],
@@ -101,6 +135,114 @@
     
     specializations: [],
     subType: ActionSubType.Item,
+  },{
+    classes: [Class.Wizard],
+    class: Class.Wizard,
+    artists: ["Riordan Delmiro"],
+    cardIdentifier: "sap-red",
+    defaultImageName: "FAB115",
+    functionalText: `Deal 3 arcane damage to target hero
+
+**Surge** - If this deals more than 3 damage to a hero, you may remove an energy counter from a permanent they control..`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "FAB115",
+      name: "FAB115",
+      set: Release.Promos,
+      
+    },],
+    keywords: [],
+    name: "Sap",
+    rarity: Rarity.Promo,
+    restrictedFormats: [],
+    setIdentifiers: ["FAB115"],
+    sets: [Release.Dynasty],
+    specialImageName: "FAB115",
+    type: Type.Action,
+    typeText: "Wizard Action",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Wizard],
+    class: Class.Wizard,
+    artists: ["Riordan Delmiro"],
+    cardIdentifier: "sap-yellow",
+    defaultImageName: "FAB116",
+    functionalText: `Deal 3 arcane damage to target hero
+
+**Surge** - If this deals more than 3 damage to a hero, you may remove an energy counter from a permanent they control..`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "FAB116",
+      name: "FAB116",
+      set: Release.Promos,
+      
+    },],
+    keywords: [],
+    name: "Sap",
+    rarity: Rarity.Promo,
+    restrictedFormats: [],
+    setIdentifiers: ["FAB116"],
+    sets: [Release.Dynasty],
+    specialImageName: "FAB116",
+    type: Type.Action,
+    typeText: "Wizard Action",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Wizard],
+    class: Class.Wizard,
+    artists: ["Riordan Delmiro"],
+    cardIdentifier: "sap-blue",
+    defaultImageName: "FAB117",
+    functionalText: `Deal 1 arcane damage to target hero
+
+**Surge** - If this deals more than 1 damage to a hero, you may remove an energy counter from a permanent they control..`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "FAB117",
+      name: "FAB117",
+      set: Release.Promos,
+      
+    },],
+    keywords: [],
+    name: "Sap",
+    rarity: Rarity.Promo,
+    restrictedFormats: [],
+    setIdentifiers: ["FAB117"],
+    sets: [Release.Dynasty],
+    specialImageName: "FAB117",
+    type: Type.Action,
+    typeText: "Wizard Action",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
   },{
     classes: [Class.Bard],
     class: Class.Bard,
@@ -28670,7 +28812,8 @@ The next attack action card you play this turn gains +1{p}.
     
     specializations: [],
     subType: ActionSubType.NonAttack,
-  },{
+  }];
+  const basicActions2: ActionCard[] = [{
     classes: [Class.NotClassed],
     class: Class.NotClassed,
     artists: ["Alexandra Malygina"],
@@ -28772,8 +28915,7 @@ The next attack action card you play this turn gains +1{p}.
     
     specializations: [],
     subType: ActionSubType.Attack,
-  }];
-  const basicActions2: ActionCard[] = [{
+  },{
     classes: [Class.NotClassed],
     class: Class.NotClassed,
     artists: ["Alexandra Malygina"],
@@ -60725,6 +60867,33 @@ Draw 2 cards.`,
     
   }];
   const equipment: EquipmentCard[] = [{
+    classes: [Class.Guardian],
+    class: Class.Guardian,
+    artists: ["Sofia Akimova"],
+    cardIdentifier: "seasoned-saviour",
+    defaultImageName: "DYN026_Marvel",
+    functionalText: `When you equip Seasoned Saviour, put two -1{d} counters on it. **Battleworn**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN026_Marvel",
+      name: "DYN026_Marvel",
+      set: Release.Dynasty,
+      treatment: Treatment.EA,
+    },],
+    keywords: [Keyword.Battleworn],
+    name: "Seasoned Saviour",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN026"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN026_Marvel",
+    type: Type.Equipment,
+    typeText: "Guardian Equipment – Off-Hand",
+    defense: 3,
+    
+    talents: [],
+    subType: EquipmentSubType.OffHand
+  },{
     classes: [Class.Runeblade],
     class: Class.Runeblade,
     artists: ["Joseph Qiu"],
