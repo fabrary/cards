@@ -26,15 +26,15 @@ DYN242	DYN	Imperial Warhorn	1	2					M	Generic, Action, Item	Legendary				"Legend
 
 **Action** - {r}, destroy Imperial Warhorn: Choose any number of heroes. Each of them chooses an ally, aura, item, or landmark permanent they control. Destroy each permanent chosen this way. If you are Royal, instead you choose the permanents."		Generic Action - Item	Othon Nikolaidis				No													S – DYN242 – N	/DYN242.png – DYN242 – N			
 DYN243	DYN	Gold							C	Generic, Token, Item	Go again				Action destroy gold: draw a card. Go again.		Generic Token - Item	Nikolay Moskvin																	S – DYN243 – N	/DYN243.png – DYN243 – N			
-FAB115	DYN	Sap	1	0		3			P	Wizard, Action	Surge				"Deal 3 arcane damage to target hero
+FAB115, DYN206	FAB, DYN	Sap	1	0		3			P	Wizard, Action	Surge				"Deal 3 arcane damage to target hero
 
 **Surge** - If this deals more than 3 damage to a hero, you may remove an energy counter from a permanent they control.."		Wizard Action	Riordan Delmiro																	S – FAB115 – N	/FAB115.png – FAB115 – N			
-FAB116	DYN	Sap	2	0		3			P	Wizard, Action	Surge				"Deal 3 arcane damage to target hero
+FAB116, DYN207	FAB, DYN	Sap	2	0		3			P	Wizard, Action	Surge				"Deal 3 arcane damage to target hero
 
 **Surge** - If this deals more than 3 damage to a hero, you may remove an energy counter from a permanent they control.."		Wizard Action	Riordan Delmiro																	S – FAB116 – N	/FAB116.png – FAB116 – N			
-FAB117	DYN	Sap	3	0		3			P	Wizard, Action	Surge				"Deal 1 arcane damage to target hero
+FAB117, DYN208	FAB, DYN	Sap	3	0		3			P	Wizard, Action	Surge				"Deal 1 arcane damage to target hero
 
-**Surge** - If this deals more than 1 damage to a hero, you may remove an energy counter from a permanent they control.."		Wizard Action	Riordan Delmiro																	S – FAB117 – N	/FAB117.png – FAB117 – N			
+**Surge** - If this deals more than 1 damage to a hero, you may remove an energy counter from a permanent they control.."		Wizard Action	Riordan Delmiro																	S – FAB116 – N	/FAB117.png – FAB117 – N			
 LSS001	LSS	Ruu’di, Gem Keeper					40	4	P	Hero, Merchant		Once per Turn Action	Go again		"You may only have PSA graded cards in your deck.
 
 **Once per Turn Action** - {r}: Reveal the top card of your deck. If it’s graded Gem Min 10, put it into your hand, otherwise each opponent may draw a card. **Go again**"		Hero – Merchant	Lius Lasahido		No	No	No													S – LSS001 – N	https://storage.googleapis.com/fabmaster/media/images/LSS001.width-450.png - LSS001 – N			
@@ -4467,7 +4467,7 @@ Vynserakai – 1 pitch, 3 cost, 3 block
 Yendurai – 1 pitch, 1 cost, 3 block
 
 You may put this in your deck in place of an invocation you own. Mark the box next to the dragon’s name this invokes. When this card is played or put into your graveyard, swap it for the invocation card."		Invocation Placeholder Card	MJ Fetesio																	S – UPR225 – N	https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR225.png – UPR225 – N			
-HER075	HER	Yoji, Royal Protector					22	4	P	Guardian, Hero, Young		Once per Turn Instant			**Once per Turn Instant** - {r}{r}{r}: The next time another target hero would be dealt damage this turn, instead that damage is dealt to Yoji and prevent 1 of that damage.		Guardian Hero – Young	Othon Nikolaidis			No														C – HER075 – N	https://storage.googleapis.com/fabmaster/media/images/dyn_card_Yoji_Royal_Protector.width-10000.png – HER075 – N			
-LGS116	LGS	Blessing of Aether	1	1		2			P	Wizard, Action, Aura					At the start of your turn, destroy Blessing of Aether then if the next card you play this turn has an arcane damage effect, instead it deals that much arcane damage plus 3.		Wizard Action – Aura	soyameii																	R – LGS116 – N – EA	https://storage.googleapis.com/fabmaster/media/images/dyn_card_Blessing_of_Aether_p1.width-10000.png – LGS116 – N – EA			
-LGS117	LSS	Blessing of Aether	2	1		2			P	Wizard, Action, Aura					At the start of your turn, destroy Blessing of Aether then if the next card you play this turn has an arcane damage effect, instead it deals that much arcane damage plus 2.		Wizard Action – Aura	soyameii																	R – LGS117 – N – EA	/LGS117.png – LGS116 – N			
-LGS118	LSS	Blessing of Aether	3	1		2			P	Wizard, Action, Aura					At the start of your turn, destroy Blessing of Aether then if the next card you play this turn has an arcane damage effect, instead it deals that much arcane damage plus 1.		Wizard Action – Aura	soyameii																	R – LGS118 – N – EA	/LGS118.png – LGS116 – N			
+HER075	HER, DYN	Yoji, Royal Protector					22	4	P	Guardian, Hero, Young		Once per Turn Instant			**Once per Turn Instant** - {r}{r}{r}: The next time another target hero would be dealt damage this turn, instead that damage is dealt to Yoji and prevent 1 of that damage.		Guardian Hero – Young	Othon Nikolaidis			No														C – HER075 – N	https://storage.googleapis.com/fabmaster/media/images/dyn_card_Yoji_Royal_Protector.width-10000.png – HER075 – N			
+LGS116	LGS, DYN	Blessing of Aether	1	1		2			P	Wizard, Action, Aura					At the start of your turn, destroy Blessing of Aether then if the next card you play this turn has an arcane damage effect, instead it deals that much arcane damage plus 3.		Wizard Action – Aura	soyameii																	R – LGS116 – N – EA	https://storage.googleapis.com/fabmaster/media/images/dyn_card_Blessing_of_Aether_p1.width-10000.png – LGS116 – N – EA			
+LGS117	LSS, DYN	Blessing of Aether	2	1		2			P	Wizard, Action, Aura					At the start of your turn, destroy Blessing of Aether then if the next card you play this turn has an arcane damage effect, instead it deals that much arcane damage plus 2.		Wizard Action – Aura	soyameii																	R – LGS117 – N – EA	/LGS117.png – LGS116 – N			
+LGS118	LSS, DYN	Blessing of Aether	3	1		2			P	Wizard, Action, Aura					At the start of your turn, destroy Blessing of Aether then if the next card you play this turn has an arcane damage effect, instead it deals that much arcane damage plus 1.		Wizard Action – Aura	soyameii																	R – LGS118 – N – EA	/LGS118.png – LGS116 – N			
