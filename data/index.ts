@@ -69425,6 +69425,36 @@ The third time you play a card with **boost** each turn, put a steam counter on 
     talents: [],
     subType: WeaponSubType.Gun
   },{
+    classes: [Class.Ranger],
+    class: Class.Ranger,
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "sandscour-greatbow",
+    defaultImageName: "DYN151_Marvel",
+    functionalText: `**Once per Turn Action** - {r}: Look at the top card of your deck. You may put an arrow from your hand or the top of your deck face up into your arsenal. **Go again**
+
+Whenever an arrow is put face up in arsenal from your deck, put an aim counter on it.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN151_Marvel",
+      name: "DYN151_Marvel",
+      set: Release.Dynasty,
+      treatment: Treatment.EA,
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Sandscour Greatbow",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN151"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN151_Marvel",
+    type: Type.Weapon,
+    typeText: "Ranger Weapon – Bow (2H)",
+    handsRequired: HandsRequired.TwoHanded,
+    
+    
+    talents: [],
+    subType: WeaponSubType.Bow
+  },{
     classes: [Class.Bard],
     class: Class.Bard,
     artists: ["Carlos Cruchaga"],
