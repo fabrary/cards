@@ -66,6 +66,74 @@
     specializations: [],
     subType: ActionSubType.NonAttack,
   },{
+    classes: [Class.Guardian],
+    class: Class.Guardian,
+    artists: ["Nathaniel Himawan"],
+    cardIdentifier: "reinforce-steel-yellow",
+    defaultImageName: "DYN040",
+    functionalText: `Remove a -1{d} counter from a Guardian off-hand you control with 2 or less base {d}.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN040",
+      name: "DYN040",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Reinforce Steel",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN040"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN040",
+    type: Type.Action,
+    typeText: "Guardian Action",
+    cost: 2,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Guardian],
+    class: Class.Guardian,
+    artists: ["Nathaniel Himawan"],
+    cardIdentifier: "reinforce-steel-blue",
+    defaultImageName: "DYN041",
+    functionalText: `Remove a -1{d} counter from a Guardian off-hand you control with 1 or less base {d}.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN041",
+      name: "DYN041",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Reinforce Steel",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN041"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN041",
+    type: Type.Action,
+    typeText: "Guardian Action",
+    cost: 2,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
     classes: [Class.Mechanologist],
     class: Class.Mechanologist,
     artists: ["Victoria Belyaeva"],
@@ -28766,7 +28834,8 @@ The next attack action card you play this turn gains +2{p}.
     
     specializations: [],
     subType: ActionSubType.NonAttack,
-  },{
+  }];
+  const basicActions2: ActionCard[] = [{
     classes: [Class.NotClassed],
     class: Class.NotClassed,
     artists: ["Tian Thongjomroon"],
@@ -28812,8 +28881,7 @@ The next attack action card you play this turn gains +1{p}.
     
     specializations: [],
     subType: ActionSubType.NonAttack,
-  }];
-  const basicActions2: ActionCard[] = [{
+  },{
     classes: [Class.NotClassed],
     class: Class.NotClassed,
     artists: ["Alexandra Malygina"],
@@ -69526,6 +69594,44 @@ If Yendurai would be dealt damage, remove an endurance counter from him to preve
     subType: TokenSubType.Ash
   }];
   const weapons: WeaponCard[] = [{
+    classes: [Class.Brute],
+    class: Class.Brute,
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "rok",
+    defaultImageName: "DYN005",
+    functionalText: `**Once per Turn Action** - {p}{p}{p}: **Attack**
+
+Activate Rok only if you have no cards in hand.
+
+Damage that would be dealt by Rok can’t be prevented.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN005",
+      name: "DYN005",
+      set: Release.Dynasty,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN005_Marvel",
+      name: "DYN005_Marvel",
+      set: Release.Dynasty,
+      treatment: Treatment.EA,
+    },],
+    keywords: [],
+    name: "Rok",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN005"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN005_Marvel",
+    type: Type.Weapon,
+    typeText: "Brute Weapon – Rock (2H)",
+    handsRequired: HandsRequired.TwoHanded,
+    power: 7,
+    
+    talents: [],
+    subType: WeaponSubType.Rock
+  },{
     classes: [Class.Warrior],
     class: Class.Warrior,
     artists: ["Carlos Cruchaga"],

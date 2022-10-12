@@ -254,6 +254,7 @@ export enum WeaponSubType {
   Lute = "Lute",
   Orb = "Orb",
   Pistol = "Pistol",
+  Rock = "Rock",
   Scepter = "Scepter",
   Scythe = "Scythe",
   Staff = "Staff",

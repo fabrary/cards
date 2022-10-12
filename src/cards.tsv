@@ -2,8 +2,16 @@ Identifiers	Set Identifiers	Name	Pitch	Cost	Power	Defense	Health	Intelligence	Ra
 DYN001	DYN	Emperor, Dracai of Aesir					15	4	L	Royal, Draconic, Warrior, Wizard, Hero, Young					"You may only have red cards in your deck.
 
 **Action** - {r}{r}: Search your deck for Command and Conquer, **attack** with it, then shuffle."		Royal Draconic Warrior Wizard Hero – Young	Federico Musetti				No													S – DYN001 – N	/DYN001.png - DYN001 – N			
+DYN005	DYN	Rok			7				M	Brute, Weapon, Rock, 2H					"**Once per Turn Action** - {p}{p}{p}: **Attack**
+
+Activate Rok only if you have no cards in hand.
+
+Damage that would be dealt by Rok can’t be prevented."		Brute Weapon – Rock (2H)	Henrique Lindner				No													S – DYN005 – N, C – DYN005 – N – EA	"/DYN005.png – DYN005 – N,
+/DYN005_Marvel.png – DYN005_Marvel – N – EA"			
 DYN026	DYN	Seasoned Saviour				3			M	Guardian, Equipment, Off-Hand	Battleworn				When you equip Seasoned Saviour, put two -1{d} counters on it. **Battleworn**		Guardian Equipment – Off-Hand	Sofia Akimova				No													C – DYN026 – N – EA	/DYN026_Marvel.png – DYN026_Marvel – N – EA			
 DYN039	DYN	Reinforce Steel	1	2		3			C	Guardian, Action					Remove a -1{d} counter from a Guardian off-hand you control with 3 or less base {d}.	*It is said that the imperial Forge of Volcor produces the sturdiest armor in all of Rathe.*	Guardian Action	Nathaniel Himawan																	S – DYN039 – N	/DYN039.png – DYN039 – N			
+DYN040	DYN	Reinforce Steel	2	2		3			C	Guardian, Action					Remove a -1{d} counter from a Guardian off-hand you control with 2 or less base {d}.	*It is said that the imperial Forge of Volcor produces the sturdiest armor in all of Rathe.*	Guardian Action	Nathaniel Himawan																	S – DYN040 – N	/DYN040.png – DYN040 – N			
+DYN041	DYN	Reinforce Steel	3	2		3			C	Guardian, Action					Remove a -1{d} counter from a Guardian off-hand you control with 1 or less base {d}.	*It is said that the imperial Forge of Volcor produces the sturdiest armor in all of Rathe.*	Guardian Action	Nathaniel Himawan																	S – DYN041 – N	/DYN041.png – DYN041 – N			
 DYN068	DYN	Merciless Battleaxe			3				M	Warrior, Weapon, Axe, 2H	Overpower				"**Once per Turn Action** - {r}{r}{r}: **Attack**
 
 Whenever Merciless Battleaxe attacks, if its {p} is greater than twice its base {p}, the attack gains **overpower**. *(This can’t be defended by more than 1 action card.)*"		Warrior Weapon – Axe (2H)	Carlos Cruchaga				No													S – DYN068 – N, C – DYN068 – N – EA	"/DYN068.png – DYN068 – N,
