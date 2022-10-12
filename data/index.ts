@@ -60962,6 +60962,35 @@ Draw 2 cards.`,
     talents: [],
     subType: EquipmentSubType.OffHand
   },{
+    classes: [Class.Ninja],
+    class: Class.Ninja,
+    artists: ["Shen Fei"],
+    cardIdentifier: "blazen-yoroi",
+    defaultImageName: "DYN045_Marvel",
+    functionalText: `While Blazen Yoroi is defending on chain link 4 or higher, it has +4{d}.
+
+**Blade Break** *(When the combat chain closes, if this defended, destroy it.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN045_Marvel",
+      name: "DYN045_Marvel",
+      set: Release.Dynasty,
+      treatment: Treatment.EA,
+    },],
+    keywords: [Keyword.BladeBreak],
+    name: "Blazen Yoroi",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN045"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN045_Marvel",
+    type: Type.Equipment,
+    typeText: "Ninja Equipment – Chest",
+    defense: 1,
+    
+    talents: [],
+    subType: EquipmentSubType.Chest
+  },{
     classes: [Class.Runeblade],
     class: Class.Runeblade,
     artists: ["Joseph Qiu"],

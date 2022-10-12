@@ -12,6 +12,9 @@ DYN026	DYN	Seasoned Saviour				3			M	Guardian, Equipment, Off-Hand	Battleworn			
 DYN039	DYN	Reinforce Steel	1	2		3			C	Guardian, Action					Remove a -1{d} counter from a Guardian off-hand you control with 3 or less base {d}.	*It is said that the imperial Forge of Volcor produces the sturdiest armor in all of Rathe.*	Guardian Action	Nathaniel Himawan																	S – DYN039 – N	/DYN039.png – DYN039 – N			
 DYN040	DYN	Reinforce Steel	2	2		3			C	Guardian, Action					Remove a -1{d} counter from a Guardian off-hand you control with 2 or less base {d}.	*It is said that the imperial Forge of Volcor produces the sturdiest armor in all of Rathe.*	Guardian Action	Nathaniel Himawan																	S – DYN040 – N	/DYN040.png – DYN040 – N			
 DYN041	DYN	Reinforce Steel	3	2		3			C	Guardian, Action					Remove a -1{d} counter from a Guardian off-hand you control with 1 or less base {d}.	*It is said that the imperial Forge of Volcor produces the sturdiest armor in all of Rathe.*	Guardian Action	Nathaniel Himawan																	S – DYN041 – N	/DYN041.png – DYN041 – N			
+DYN045	DYN	Blazen Yoroi				1			M	Ninja, Equipment, Chest	Blade Break				"While Blazen Yoroi is defending on chain link 4 or higher, it has +4{d}.
+
+**Blade Break** *(When the combat chain closes, if this defended, destroy it.)*"		Ninja Equipment – Chest	Shen Fei				No													C – DYN045 – N – EA	/DYN045_Marvel.png – DYN045_Marvel – N – EA			
 DYN068	DYN	Merciless Battleaxe			3				M	Warrior, Weapon, Axe, 2H	Overpower				"**Once per Turn Action** - {r}{r}{r}: **Attack**
 
 Whenever Merciless Battleaxe attacks, if its {p} is greater than twice its base {p}, the attack gains **overpower**. *(This can’t be defended by more than 1 action card.)*"		Warrior Weapon – Axe (2H)	Carlos Cruchaga				No													S – DYN068 – N, C – DYN068 – N – EA	"/DYN068.png – DYN068 – N,
