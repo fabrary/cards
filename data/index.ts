@@ -168,6 +168,114 @@
     specializations: [],
     subType: ActionSubType.Item,
   },{
+    classes: [Class.Illusionist],
+    class: Class.Illusionist,
+    artists: ["Mateusz Wisniewski"],
+    cardIdentifier: "water-glow-lanterns-red",
+    defaultImageName: "DYN230",
+    functionalText: `Reveal the top card of your deck. If it’s red, create a Spectral Shield token.
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN230",
+      name: "DYN230",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Water Glow Lanterns",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN230"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN230",
+    type: Type.Action,
+    typeText: "Illusionist Action",
+    cost: 0,
+    defense: 2,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Illusionist],
+    class: Class.Illusionist,
+    artists: ["Mateusz Wisniewski"],
+    cardIdentifier: "water-glow-lanterns-yellow",
+    defaultImageName: "DYN231",
+    functionalText: `Reveal the top card of your deck. If it’s yellow, create a Spectral Shield token.
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN231",
+      name: "DYN231",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Water Glow Lanterns",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN231"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN231",
+    type: Type.Action,
+    typeText: "Illusionist Action",
+    cost: 0,
+    defense: 2,
+    fusions: [],
+    pitch: 2,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Illusionist],
+    class: Class.Illusionist,
+    artists: ["Mateusz Wisniewski"],
+    cardIdentifier: "water-glow-lanterns-blue",
+    defaultImageName: "DYN232",
+    functionalText: `Reveal the top card of your deck. If it’s blue, create a Spectral Shield token.
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN232",
+      name: "DYN232",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Water Glow Lanterns",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN232"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN232",
+    type: Type.Action,
+    typeText: "Illusionist Action",
+    cost: 0,
+    defense: 2,
+    fusions: [],
+    pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
     classes: [Class.Generic],
     class: Class.Generic,
     artists: ["Othon Nikolaidis"],
@@ -302,6 +410,114 @@
     typeText: "Wizard Action",
     cost: 0,
     defense: 3,
+    fusions: [],
+    pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Ninja],
+    class: Class.Ninja,
+    artists: ["Immanuela Crovius"],
+    cardIdentifier: "predatory-streak-red",
+    defaultImageName: "LGS122",
+    functionalText: `Create 3 Crouching Tigers in your banished zone. You may play them this turn.
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "LGS122",
+      name: "LGS122",
+      set: Release.Promos,
+      
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Predatory Streak",
+    rarity: Rarity.Promo,
+    restrictedFormats: [],
+    setIdentifiers: ["LGS122"],
+    sets: [Release.Promos,Release.Dynasty],
+    specialImageName: "LGS122",
+    type: Type.Action,
+    typeText: "Ninja Action",
+    cost: 0,
+    defense: 2,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Ninja],
+    class: Class.Ninja,
+    artists: ["Immanuela Crovius"],
+    cardIdentifier: "predatory-streak-yellow",
+    defaultImageName: "LGS123",
+    functionalText: `Create 2 Crouching Tigers in your banished zone. You may play them this turn.
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "LGS123",
+      name: "LGS123",
+      set: Release.Promos,
+      
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Predatory Streak",
+    rarity: Rarity.Promo,
+    restrictedFormats: [],
+    setIdentifiers: ["LGS123"],
+    sets: [Release.Promos,Release.Dynasty],
+    specialImageName: "LGS123",
+    type: Type.Action,
+    typeText: "Ninja Action",
+    cost: 0,
+    defense: 2,
+    fusions: [],
+    pitch: 2,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Ninja],
+    class: Class.Ninja,
+    artists: ["Immanuela Crovius"],
+    cardIdentifier: "predatory-streak-blue",
+    defaultImageName: "LGS124",
+    functionalText: `Create 1 Crouching Tiger in your banished zone. You may play it this turn.
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "LGS124",
+      name: "LGS124",
+      set: Release.Promos,
+      
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Predatory Streak",
+    rarity: Rarity.Promo,
+    restrictedFormats: [],
+    setIdentifiers: ["LGS124"],
+    sets: [Release.Promos,Release.Dynasty],
+    specialImageName: "LGS124",
+    type: Type.Action,
+    typeText: "Ninja Action",
+    cost: 0,
+    defense: 2,
     fusions: [],
     pitch: 3,
     
@@ -28686,7 +28902,8 @@ If Soul Harvest hits a hero, they banish all cards in their soul and lose {h} eq
     
     specializations: [Hero.Levia],
     subType: ActionSubType.Attack,
-  },{
+  }];
+  const basicActions2: ActionCard[] = [{
     classes: [Class.NotClassed],
     class: Class.NotClassed,
     artists: ["bimawithpencil"],
@@ -28834,8 +29051,7 @@ The next attack action card you play this turn gains +2{p}.
     
     specializations: [],
     subType: ActionSubType.NonAttack,
-  }];
-  const basicActions2: ActionCard[] = [{
+  },{
     classes: [Class.NotClassed],
     class: Class.NotClassed,
     artists: ["Tian Thongjomroon"],
@@ -69758,6 +69974,72 @@ Whenever an arrow is put face up in arsenal from your deck, put an aim counter o
     
     talents: [],
     subType: WeaponSubType.Bow
+  },{
+    classes: [Class.Wizard],
+    class: Class.Wizard,
+    artists: ["Alexis Susani"],
+    cardIdentifier: "surgent-aethertide",
+    defaultImageName: "DYN192",
+    functionalText: `**Once per Turn Action** - {r}{r}: Deal 1 arcane damage to an opposing hero. **Go again**
+
+The first card you play each turn with an arcane damage effect, instead deals that much arcane damage plus X, where X is the damage dealt by Surgent Aethertide this turn.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN192",
+      name: "DYN192",
+      set: Release.Dynasty,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN192_Marvel",
+      name: "DYN192_Marvel",
+      set: Release.Dynasty,
+      treatment: Treatment.EA,
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Surgent Aethertide",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN192"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN192_Marvel",
+    type: Type.Weapon,
+    typeText: "Wizard Weapon – Staff (2H)",
+    handsRequired: HandsRequired.TwoHanded,
+    
+    
+    talents: [],
+    subType: WeaponSubType.Staff
+  },{
+    classes: [Class.Warrior],
+    class: Class.Warrior,
+    artists: ["Alexis Susani"],
+    cardIdentifier: "quicksilver-dagger",
+    defaultImageName: "LGS112",
+    functionalText: `**Once per Turn Action** - {r}: **Attack**
+
+If another weapon you control has gained **go again** this turn, Quicksilver Dagger has **go again**.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "LGS112",
+      name: "LGS112",
+      set: Release.Promos,
+      
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Quicksilver Dagger",
+    rarity: Rarity.Promo,
+    restrictedFormats: [],
+    setIdentifiers: ["LGS112"],
+    sets: [Release.Promos,Release.Dynasty],
+    specialImageName: "LGS112",
+    type: Type.Weapon,
+    typeText: "Warrior Weapon – Dagger (1H)",
+    handsRequired: HandsRequired.OneHanded,
+    power: 1,
+    
+    talents: [],
+    subType: WeaponSubType.Dagger
   },{
     classes: [Class.Bard],
     class: Class.Bard,
