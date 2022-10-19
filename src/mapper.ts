@@ -342,6 +342,8 @@ const setIdentifierToSetMappings = {
   BRI: Release.BriarBlitzDeck,
   BVO: Release.BravoBlitzDeck,
   CHN: Release.ChaneBlitzDeck,
+  DRO: Release.DromaiBlitzDeck,
+  FAI: Release.FaiBlitzDeck,
   IRA: Release.IraWelcomeDeck,
   KSU: Release.KatsuHeroDeck,
   LEV: Release.LeviaBlitzDeck,
