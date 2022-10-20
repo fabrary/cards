@@ -64,12 +64,14 @@ const getDefaultImageName = (card: ParsedCard): string => {
   const unlimitedEdition = images.find(
     (image) => image.edition === ReleaseEdition.Unlimited
   );
+  const standardEdition = images.find((image) => !image.treatment);
 
   const name =
     images.length > 0
       ? firstEdition?.name ||
         alphaEdition?.name ||
         unlimitedEdition?.name ||
+        standardEdition?.name ||
         images[0].name
       : "";
   if (!name) {

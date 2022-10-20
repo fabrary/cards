@@ -49811,7 +49811,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     class: Class.NotClassed,
     artists: ["Federico Musetti"],
     cardIdentifier: "red-hot-red",
-    defaultImageName: "LGS108.width-450",
+    defaultImageName: "DRO009.width-450",
     functionalText: `**Dromai or Fai Specialization** *(You may only have Red Hot in your deck if your hero is Dromai or Fai.)*
 
 **Rupture** - If Red Hot is played as chain link 4 or higher, it has “When you attack with this, reveal the top X cards of your deck, where X is the number of Draconic chain links you control. Deal damage equal to the number of red cards revealed this way to any target, then shuffle.”`,
@@ -49859,7 +49859,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     class: Class.NotClassed,
     artists: ["Jessada Sutthi"],
     cardIdentifier: "rise-up-red",
-    defaultImageName: "LGS106.width-450",
+    defaultImageName: "UPR091",
     functionalText: `**Dromai or Fai Specialization** *(You may only have Rise Up in your deck if your hero is Dromai or Fai.)*
 
 **Rupture** - If Rise Up is played as chain link 4 or higher, it has **dominate** and +X{p}, where X is twice the number of Phoenix Flames you control. *(The defending hero can’t defend with or play more than 1 defending card or defense reaction from their hand this chain link.)*`,
@@ -49901,7 +49901,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     class: Class.NotClassed,
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "blaze-headlong-red",
-    defaultImageName: "FAB089.width-450",
+    defaultImageName: "UPR092",
     functionalText: `If you’ve played another red card this turn, Blaze Headlong has **go again**.`,
     images: [{
       edition: ReleaseEdition.Promo,
@@ -49941,7 +49941,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     class: Class.NotClassed,
     artists: ["Henrique Lindner"],
     cardIdentifier: "breaking-point-red",
-    defaultImageName: "FAB091.width-450",
+    defaultImageName: "UPR093",
     functionalText: `**Rupture** - If Breaking Point is played as chain link 4 or higher, it has “When this hits a hero, destroy all cards in their arsenal.”`,
     images: [{
       edition: ReleaseEdition.Promo,
@@ -50249,7 +50249,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     class: Class.NotClassed,
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "phoenix-flame-red",
-    defaultImageName: "LGS104.width-450",
+    defaultImageName: "UPR101",
     functionalText: `*(A player may add up to 3 Phoenix Flame to their deck in an Uprising limited format.)*
 
 If you control 2 or more Draconic chain links, Phoenix Flame has +1{p}.
@@ -50371,7 +50371,7 @@ Deal 5 arcane damage to a target hero. If Freezing Point was fused, instead deal
     class: Class.Wizard,
     artists: ["Federico Musetti"],
     cardIdentifier: "ice-eternal-blue",
-    defaultImageName: "LGS110.width-450",
+    defaultImageName: "UPR109",
     functionalText: `**Iyslander Specialization** *(You may only have Ice Eternal in your deck if your hero is Iyslander.)*
 
 **Ice Fusion** *(As an additional cost to play Ice Eternal, you may reveal an Ice card from your hand.)*
@@ -52267,7 +52267,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     class: Class.Wizard,
     artists: ["Joseph Qiu"],
     cardIdentifier: "read-the-ripples-blue",
-    defaultImageName: "FAB092.width-450",
+    defaultImageName: "UPR178",
     functionalText: `At the beginning of your end phase, destroy Read the Ripples then **opt 1** and draw a card. *(Look at the top card of your deck. You may put it on the bottom.)*`,
     images: [{
       edition: ReleaseEdition.Promo,
@@ -53001,7 +53001,7 @@ At the beginning of your action phase, destroy Fog Down.`,
     class: Class.Generic,
     artists: ["Peyeyo"],
     cardIdentifier: "brothers-in-arms-blue",
-    defaultImageName: "FAB093.width-450",
+    defaultImageName: "UPR205",
     functionalText: `When you defend with Brothers in Arms, you may pay {r}. If you do, it gains +2{d}.`,
     images: [{
       edition: ReleaseEdition.Promo,
@@ -60998,7 +60998,7 @@ Your next Ice, Lightning, or Elemental attack this turn gains +4{p}.`,
     class: Class.Illusionist,
     artists: ["Federico Musetti","Henrique Lindner"],
     cardIdentifier: "sand-cover-red",
-    defaultImageName: "FAB090.width-450",
+    defaultImageName: "UPR039",
     functionalText: `Target ash you control gains **Ward 4** until end of turn. *(If your hero would be dealt damage, prevent 4 of that damage and destroy this.)*`,
     images: [{
       edition: ReleaseEdition.Promo,
