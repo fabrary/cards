@@ -47693,7 +47693,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     class: Class.Illusionist,
     artists: ["Hoàng Lập"],
     cardIdentifier: "billowing-mirage-red",
-    defaultImageName: "DRO012.width-450",
+    defaultImageName: "UPR018",
     functionalText: `When you attack with Billowing Mirage, **transform** up to 1 ash you control into an Aether Ashwing. *(Create an Aether Ashwing token and put the ash under it.)*
 
 **Go again**`,
@@ -47807,7 +47807,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     class: Class.Illusionist,
     artists: ["Rio Sabda"],
     cardIdentifier: "dunebreaker-cenipai-red",
-    defaultImageName: "DRO015.width-450",
+    defaultImageName: "UPR021",
     functionalText: `**Phantasm** *(When this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this and close the combat chain.)*
 
 When Dunebreaker Cenipai is destroyed, create an Ash token.
@@ -47927,7 +47927,7 @@ When Dunebreaker Cenipai is destroyed, create an Ash token.
     class: Class.Illusionist,
     artists: ["Marco González"],
     cardIdentifier: "dustup-red",
-    defaultImageName: "DRO014.width-450",
+    defaultImageName: "UPR024",
     functionalText: `When Dustup hits, create an Ash token, then **transform** up to 1 ash you control into an Aether Ashwing. *(Create an Aether Ashwing token and put the ash under it.)*`,
     images: [{
       edition: ReleaseEdition.Promo,
@@ -48035,7 +48035,7 @@ When Dunebreaker Cenipai is destroyed, create an Ash token.
     class: Class.Illusionist,
     artists: ["Narendra B Adi"],
     cardIdentifier: "embermaw-cenipai-red",
-    defaultImageName: "DRO016.width-450",
+    defaultImageName: "UPR027",
     functionalText: `**Phantasm** *(When this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this and close the combat chain.)*
 
 When Embermaw Cenipai is destroyed, create an Ash token.`,
@@ -48149,7 +48149,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
     class: Class.Illusionist,
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "sweeping-blow-red",
-    defaultImageName: "DRO017.width-450",
+    defaultImageName: "UPR030",
     functionalText: `When you attack with Sweeping Blow, create an Ash token.
 
 **Go again**`,
@@ -48227,7 +48227,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
     class: Class.Illusionist,
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "sweeping-blow-blue",
-    defaultImageName: "DRO018.width-450",
+    defaultImageName: "UPR032",
     functionalText: `When you attack with Sweeping Blow, create an Ash token.
 
 **Go again**`,
@@ -48269,7 +48269,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
     class: Class.Illusionist,
     artists: ["Henrique Lindner"],
     cardIdentifier: "rake-the-embers-red",
-    defaultImageName: "DRO011.width-450",
+    defaultImageName: "UPR033",
     functionalText: `Create an Ash token, then **transform** up to 3 ash you control into Aether Ashwings. *(Create Aether Ashwing tokens and put the ash under them.)*
 
 **Go again**`,
@@ -48383,7 +48383,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
     class: Class.Illusionist,
     artists: ["Marco González"],
     cardIdentifier: "skittering-sands-red",
-    defaultImageName: "DRO013.width-450",
+    defaultImageName: "UPR036",
     functionalText: `**Transform** target ash you control into an Aether Ashwing. It gains +3{p} until end of turn. *(Create an Aether Ashwing token and put the ash under it.)*
 
 **Go again**`,
@@ -49811,7 +49811,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     class: Class.NotClassed,
     artists: ["Federico Musetti"],
     cardIdentifier: "red-hot-red",
-    defaultImageName: "DRO009.width-450",
+    defaultImageName: "UPR090",
     functionalText: `**Dromai or Fai Specialization** *(You may only have Red Hot in your deck if your hero is Dromai or Fai.)*
 
 **Rupture** - If Red Hot is played as chain link 4 or higher, it has “When you attack with this, reveal the top X cards of your deck, where X is the number of Draconic chain links you control. Deal damage equal to the number of red cards revealed this way to any target, then shuffle.”`,
@@ -50135,7 +50135,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     class: Class.NotClassed,
     artists: ["Faizal Fikri"],
     cardIdentifier: "lava-burst-red",
-    defaultImageName: "DRO010.width-450",
+    defaultImageName: "UPR098",
     functionalText: `**Rupture** - If Lava Burst is played as chain link 4 or higher, it has +3{p}.`,
     images: [{
       edition: ReleaseEdition.Promo,
@@ -53041,7 +53041,7 @@ At the beginning of your action phase, destroy Fog Down.`,
     class: Class.Generic,
     artists: ["Phu Thieu"],
     cardIdentifier: "critical-strike-red",
-    defaultImageName: "DRO023.width-450",
+    defaultImageName: "UPR206",
     
     images: [{
       edition: ReleaseEdition.Promo,
@@ -53257,7 +53257,7 @@ If Trade In is played from arsenal, it gains **go again**.`,
     class: Class.Generic,
     artists: ["Dmitry Isakevitch"],
     cardIdentifier: "healing-balm-red",
-    defaultImageName: "DRO025.width-450",
+    defaultImageName: "UPR215",
     functionalText: `Gain 3{h}`,
     images: [{
       edition: ReleaseEdition.Promo,
@@ -61216,7 +61216,7 @@ Draw 2 cards.`,
     class: Class.Generic,
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "oasis-respite-red",
-    defaultImageName: "DRO027.width-450",
+    defaultImageName: "UPR221",
     functionalText: `Prevent the next 4 damage that would be dealt to target hero this turn by a source of your choice. If they have less life than each other hero, they may gain 1{h}.`,
     images: [{
       edition: ReleaseEdition.Promo,
@@ -65269,7 +65269,7 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     class: Class.Illusionist,
     artists: ["Felicia Liang"],
     cardIdentifier: "silken-form",
-    defaultImageName: "DRO007.width-450",
+    defaultImageName: "UPR004",
     functionalText: `**Instant** - Destroy Silken Form: **Transform** target ash you control into an Aether Ashwing. *(Create an Aether Ashwing token and put the ash under it.)*
 
 **Quell 1** *(If your hero would be dealt damage, you may pay {r} to prevent 1 of that damage. If you do, destroy Silken Form at the beginning of the end phase.)*`,
@@ -65339,7 +65339,7 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     class: Class.NotClassed,
     artists: ["Victoria Belyaeva"],
     cardIdentifier: "flamescale-furnace",
-    defaultImageName: "FAB087.width-450",
+    defaultImageName: "UPR084",
     functionalText: `**Once per Turn Instant** - {r}: Gain {r} for each red card in your pitch zone. Activate this ability only if you’ve played a red card this turn.
 
 **Temper** *(When the combat chain closes, if this defended, put a -1{d} counter on it, then if it has 0{d}, destroy it.)*`,
@@ -65430,7 +65430,7 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     class: Class.NotClassed,
     artists: ["soyameii"],
     cardIdentifier: "coronet-peak",
-    defaultImageName: "FAB086.width-450",
+    defaultImageName: "UPR136",
     functionalText: `**Action** - {r}{r}{r}: Target hero discards a card unless they pay {r}.
 
 **Blade Break** *(When the combat chain closes, if this defended, destroy it.)*`,
@@ -65492,7 +65492,7 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     class: Class.Illusionist,
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "ghostly-touch",
-    defaultImageName: "FAB085.width-450",
+    defaultImageName: "UPR151",
     functionalText: `Whenever an Illusionist attack you control is destroyed by **phantasm**, put a haunt counter on Ghostly Touch.
 
 **Once per Turn Action** - Remove a haunt counter from Ghostly Touch: Until end of turn, this becomes an Illusionist ally with **phantasm**, base {p} and {h} equal to the number of haunt counters on it, and “**Once per Turn Action** - {r}{r}{r}: **Attack**”. **Go again**`,
@@ -65556,7 +65556,7 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     class: Class.Ninja,
     artists: ["Athiwut B."],
     cardIdentifier: "tiger-stripe-shuko",
-    defaultImageName: "FAB083.width-450",
+    defaultImageName: "UPR158",
     functionalText: `The second attack action card with 2 or less base {p} you play each turn has +1{p} and "Damage that would be dealt by this can't be prevented."
 
 **Blade Break** *(When the combat chain closes, if this defended, destroy it.)*`,
@@ -65620,7 +65620,7 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     class: Class.Wizard,
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "alluvion-constellas",
-    defaultImageName: "FAB084.width-450",
+    defaultImageName: "UPR166",
     functionalText: `The first time Alluvion Constellas prevents arcane damage each turn, if it has less than 4 energy counters, you may put an energy counter on it.
 
 **Instant** - Remove 2 energy counters from Alluvion Constellas: The next staff ability you activate this turn costs {r}{r}{r} less.
@@ -65686,7 +65686,7 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     class: Class.Generic,
     artists: ["Andy Aslamov"],
     cardIdentifier: "crown-of-providence",
-    defaultImageName: "FAB088.width-450",
+    defaultImageName: "UPR182",
     functionalText: `When you defend with Crown of Providence, you may put a card from your hand or arsenal on the bottom of your deck. If you do, draw a card.
 
 **Blade Break** *(When the combat chain closes, if this defended, destroy it.)*`,
@@ -65721,7 +65721,7 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     class: Class.Generic,
     artists: ["Angelina Tyshchik"],
     cardIdentifier: "helios-mitre",
-    defaultImageName: "LGS103.width-450",
+    defaultImageName: "UPR183",
     functionalText: `*(A player may add a Helio’s Mitre to their card pool in an Uprising limited format.)*
 
 **Instant** - {r}{r}: Prevent the next 1 damage that would be dealt to your hero this turn by a source of your choice. Destroy Helio’s Mitre at the beginning of the end phase.`,
@@ -68452,7 +68452,7 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
     class: Class.Illusionist,
     artists: ["Kate Fox"],
     cardIdentifier: "dromai-ash-artist",
-    defaultImageName: "HER059.width-450",
+    defaultImageName: "UPR001",
     functionalText: `Whenever you pitch a red card, create an Ash Token. *(A red card is a card with a red color strip.)*
 
 If you’ve played a red card this turn, dragons you control have **go again** while attacking. *(If an attacking dragon dies before chain link resolution, you don’t go again.)*`,
@@ -68495,7 +68495,7 @@ If you’ve played a red card this turn, dragons you control have **go again** w
     class: Class.Illusionist,
     artists: ["Kate Fox"],
     cardIdentifier: "dromai",
-    defaultImageName: "HER062.width-450",
+    defaultImageName: "UPR002",
     functionalText: `Whenever you pitch a red card, create an Ash Token. *(A red card is a card with a red color strip.)*
 
 If you’ve played a red card this turn, dragons you control have **go again** while attacking. *(If an attacking dragon dies before chain link resolution, you don’t go again.)*`,
@@ -68538,7 +68538,7 @@ If you’ve played a red card this turn, dragons you control have **go again** w
     class: Class.Ninja,
     artists: ["Sam Yang"],
     cardIdentifier: "fai-rising-rebellion",
-    defaultImageName: "HER058.width-450",
+    defaultImageName: "UPR044",
     functionalText: `You may start the game with a Phoenix Flame in your graveyard.
 
 **Once per Turn Instant** - {r}{r}{r}: Return a Phoenix Flame from your graveyard to your hand. This ability costs {r} less for each Draconic chain link you control.`,
@@ -68581,7 +68581,7 @@ If you’ve played a red card this turn, dragons you control have **go again** w
     class: Class.Ninja,
     artists: ["Sam Yang"],
     cardIdentifier: "fai",
-    defaultImageName: "HER061.width-450",
+    defaultImageName: "UPR045",
     functionalText: `You may start the game with a Phoenix Flame in your graveyard.
 
 **Once per Turn Instant** - {r}{r}{r}: Return a Phoenix Flame from your graveyard to your hand. This ability costs {r} less for each Draconic chain link you control.`,
@@ -68618,7 +68618,7 @@ If you’ve played a red card this turn, dragons you control have **go again** w
     class: Class.Wizard,
     artists: ["Alexander Mokhov"],
     cardIdentifier: "iyslander-stormbind",
-    defaultImageName: "HER060.width-450",
+    defaultImageName: "UPR102",
     functionalText: `**Essence of Ice** *(You may have Ice cards in your deck.)*
 
 If it's not your turn, you may play blue 'non-attack' action cards from your arsenal as though they were an instant.
@@ -70132,7 +70132,7 @@ If Yendurai would be dealt damage, remove an endurance counter from him to preve
     class: Class.Illusionist,
     artists: ["Athiwut B."],
     cardIdentifier: "aether-ashwing",
-    defaultImageName: "DRO003.width-450",
+    defaultImageName: "UPR042",
     functionalText: `**Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} to prevent 1 of that damage.)*`,
     images: [{
       edition: ReleaseEdition.Promo,
@@ -70177,7 +70177,7 @@ If Yendurai would be dealt damage, remove an endurance counter from him to preve
     class: Class.Illusionist,
     artists: ["Surya Prasteya"],
     cardIdentifier: "ash",
-    defaultImageName: "DRO002.width-450",
+    defaultImageName: "UPR043",
     functionalText: `**Material** - While Ash is under an object, that object has **phantasm**. *(When this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this and close the combat chain.)*`,
     images: [{
       edition: ReleaseEdition.Promo,
@@ -72273,7 +72273,7 @@ The second time you attack with Dawnblade each turn, it gains +1{p} until end of
     class: Class.Illusionist,
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "storm-of-sandikai",
-    defaultImageName: "LGS107.width-450",
+    defaultImageName: "UPR003",
     functionalText: `Dragon allies you control have “**Once per Turn Action** - 0: **Attack**”.
 
 *(Allies can be attacked and can’t be defended by the controlling hero. They die when they have 0{h}. At end of turn, allies life totals are reset.)*`,
@@ -72315,7 +72315,7 @@ The second time you attack with Dawnblade each turn, it gains +1{p} until end of
     class: Class.Ninja,
     artists: ["Enmoire"],
     cardIdentifier: "searing-emberblade",
-    defaultImageName: "LGS105.width-450",
+    defaultImageName: "UPR046",
     functionalText: `**Once per Turn Action** - {r}{r}: **Attack**
 
 If you control 2 or more Draconic chain links, Searing Emberblade has **go again**.`,
@@ -72351,7 +72351,7 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
     class: Class.Wizard,
     artists: ["Mark Poole"],
     cardIdentifier: "waning-moon",
-    defaultImageName: "LGS109.width-450",
+    defaultImageName: "UPR165",
     functionalText: `**Once per Turn Instant** - {r}{r}: Deal 2 arcane damage to target hero. If it’s not your turn, instead deal 3 arcane damage to them. Activate this ability only if you’ve played a ‘non-attack’ action card this turn.`,
     images: [{
       edition: ReleaseEdition.Promo,

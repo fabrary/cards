@@ -64,6 +64,10 @@ const getDefaultImageName = (card: ParsedCard): string => {
   const unlimitedEdition = images.find(
     (image) => image.edition === ReleaseEdition.Unlimited
   );
+  const nonPromoEdition = images.find((image) => {
+    const isFullSet = fullSetIdentifiers[image.name.substring(0, 3)];
+    return !!isFullSet;
+  });
   const standardEdition = images.find((image) => !image.treatment);
 
   const name =
@@ -71,6 +75,7 @@ const getDefaultImageName = (card: ParsedCard): string => {
       ? firstEdition?.name ||
         alphaEdition?.name ||
         unlimitedEdition?.name ||
+        nonPromoEdition?.name ||
         standardEdition?.name ||
         images[0].name
       : "";
@@ -96,7 +101,6 @@ const getSpecialImageName = (card: ParsedCard): string => {
   const unlimitedEdition = images.find(
     (image) => image.edition === ReleaseEdition.Unlimited
   );
-
   const name =
     images.length > 0
       ? fullArt?.name ||
@@ -151,6 +155,7 @@ const getHero = (card: ParsedCard): Hero | null => {
   if (types.includes("Hero")) {
     for (const [hero, value] of Object.entries(Hero)) {
       if (name.includes(value)) {
+        console.log({ hero, name, value });
         return Hero[hero];
       }
     }
@@ -327,8 +332,7 @@ const todayIsAfterDate = (date: string): boolean => {
   }
 };
 
-const setIdentifierToSetMappings = {
-  // Full sets
+const fullSetIdentifiers = {
   "1HP": Release.HistoryPack1,
   ARC: Release.ArcaneRising,
   CRU: Release.CrucibleOfWar,
@@ -338,6 +342,10 @@ const setIdentifierToSetMappings = {
   MON: Release.Monarch,
   UPR: Release.Uprising,
   WTR: Release.WelcomeToRathe,
+};
+
+const setIdentifierToSetMappings = {
+  ...fullSetIdentifiers,
 
   // Starter/blitz decks
   BOL: Release.BoltynBlitzDeck,
