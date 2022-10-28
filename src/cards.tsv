@@ -31,6 +31,15 @@ Whenever an arrow is put face up in arsenal from your deck, put an aim counter o
 DYN171	DYN	Amethyst Tiara				1			M	Runeblade, Equipment, Head	Blade Break				"**Instant** - Destroy Amethyst Tiara: Runechants you control have **spellvoid 1** this turn.
 
 **Blade Break** *(When the combat chain closes, if this defended, destroy it.)*"		Runeblade Equipment – Head	Joseph Qiu				No													S – DYN171 – N	/DYN171_Marvel.png – DYN171_Marvel – N			
+DYN188	DYN	Sky Fire Lanterns	1	0		2			C	Runeblade, Action	Go again				"Reveal the top card of your deck. If it’s red, create a Runechant token.
+
+**Go again**"		Runeblade Action	Shen Fei																	S – DYN188 – N	/DYN188.png – DYN188 – N			
+DYN189	DYN	Sky Fire Lanterns	2	0		2			C	Runeblade, Action	Go again				"Reveal the top card of your deck. If it’s yellow, create a Runechant token.
+
+**Go again**"		Runeblade Action	Shen Fei																	S – DYN189 – N	/DYN189.png – DYN189 – N			
+DYN190	DYN	Sky Fire Lanterns	3	0		2			C	Runeblade, Action	Go again				"Reveal the top card of your deck. If it’s blue, create a Runechant token.
+
+**Go again**"		Runeblade Action	Shen Fei																	S – DYN190 – N	/DYN190.png – DYN190 – N			
 DYN192	DYN	Surgent Aethertide							M	Wizard, Weapon, Staff, 2H	Go again				"**Once per Turn Action** - {r}{r}: Deal 1 arcane damage to an opposing hero. **Go again**
 
 The first card you play each turn with an arcane damage effect, instead deals that much arcane damage plus X, where X is the damage dealt by Surgent Aethertide this turn."		Wizard Weapon – Staff (2H)	Alexis Susani				No													S – DYN192 – N, C – DYN192 – N – EA	"/DYN192.png – DYN192 – N,
@@ -59,6 +68,13 @@ FAB116, DYN207	FAB, DYN	Sap	2	0		3			P	Wizard, Action	Surge				"Deal 3 arcane da
 FAB117, DYN208	FAB, DYN	Sap	3	0		3			P	Wizard, Action	Surge				"Deal 1 arcane damage to target hero
 
 **Surge** - If this deals more than 1 damage to a hero, you may remove an energy counter from a permanent they control.."		Wizard Action	Riordan Delmiro																	S – FAB116 – N	/FAB117.png – FAB117 – N			
+FAB122	FAB, DYN	Regicide	3	0	3	3			P	Assassin, Action, Attack	Legendary, Arakni Specialization				"**Legendary Arakni Specialization** *(You may only have 1 Regicide in your deck and only if your hero is Arakni.)*
+
+When this hits a Royal hero, they lose the game.
+
+When the combat chain closes, you lose the game.
+
+Regicide can’t be defended by cards with the same name as cards in the defending hero’s banished zone."		Assassin Action – Attack	Sam Yang																	S – FAB122 – N	/FAB122.png – FAB122 – N			
 LGS122	LGS, DYN	Predatory Streak	1	0		2			P	Ninja, Action	Go again						Ninja Action	Immanuela Crovius																	R – LGS122 – N – EA	/LGS122.png – LGS122 – N			
 LGS123	LGS, DYN	Predatory Streak	2	0		2			P	Ninja, Action	Go again				**Go again**		Ninja Action	Immanuela Crovius																	R – LGS123 – N – EA	/LGS123.png – LGS123 – N			
 LGS124	LGS, DYN	Predatory Streak	3	0		2			P	Ninja, Action	Go again				"Create 1 Crouching Tiger in your banished zone. You may play it this turn.

@@ -168,6 +168,114 @@
     specializations: [],
     subType: ActionSubType.Item,
   },{
+    classes: [Class.Runeblade],
+    class: Class.Runeblade,
+    artists: ["Shen Fei"],
+    cardIdentifier: "sky-fire-lanterns-red",
+    defaultImageName: "DYN188",
+    functionalText: `Reveal the top card of your deck. If it’s red, create a Runechant token.
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN188",
+      name: "DYN188",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Sky Fire Lanterns",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN188"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN188",
+    type: Type.Action,
+    typeText: "Runeblade Action",
+    cost: 0,
+    defense: 2,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Runeblade],
+    class: Class.Runeblade,
+    artists: ["Shen Fei"],
+    cardIdentifier: "sky-fire-lanterns-yellow",
+    defaultImageName: "DYN189",
+    functionalText: `Reveal the top card of your deck. If it’s yellow, create a Runechant token.
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN189",
+      name: "DYN189",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Sky Fire Lanterns",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN189"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN189",
+    type: Type.Action,
+    typeText: "Runeblade Action",
+    cost: 0,
+    defense: 2,
+    fusions: [],
+    pitch: 2,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Runeblade],
+    class: Class.Runeblade,
+    artists: ["Shen Fei"],
+    cardIdentifier: "sky-fire-lanterns-blue",
+    defaultImageName: "DYN190",
+    functionalText: `Reveal the top card of your deck. If it’s blue, create a Runechant token.
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN190",
+      name: "DYN190",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Sky Fire Lanterns",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN190"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN190",
+    type: Type.Action,
+    typeText: "Runeblade Action",
+    cost: 0,
+    defense: 2,
+    fusions: [],
+    pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
     classes: [Class.Illusionist],
     class: Class.Illusionist,
     artists: ["Mateusz Wisniewski"],
@@ -419,6 +527,46 @@
     
     specializations: [],
     subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Sam Yang"],
+    cardIdentifier: "regicide-blue",
+    defaultImageName: "FAB122",
+    functionalText: `**Legendary Arakni Specialization** *(You may only have 1 Regicide in your deck and only if your hero is Arakni.)*
+
+When this hits a Royal hero, they lose the game.
+
+When the combat chain closes, you lose the game.
+
+Regicide can’t be defended by cards with the same name as cards in the defending hero’s banished zone.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "FAB122",
+      name: "FAB122",
+      set: Release.Promos,
+      
+    },],
+    keywords: [Keyword.Legendary,Keyword.Specialization],
+    name: "Regicide",
+    rarity: Rarity.Promo,
+    restrictedFormats: [],
+    setIdentifiers: ["FAB122"],
+    sets: [Release.Promos,Release.Dynasty],
+    specialImageName: "FAB122",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    power: 3,
+    talents: [],
+    
+    
+    
+    specializations: [Hero.Arakni],
+    subType: ActionSubType.Attack,
   },{
     classes: [Class.Ninja],
     class: Class.Ninja,
@@ -28838,7 +28986,8 @@ Draw a card.
     
     specializations: [],
     subType: ActionSubType.Attack,
-  },{
+  }];
+  const basicActions2: ActionCard[] = [{
     classes: [Class.NotClassed],
     class: Class.NotClassed,
     artists: ["Vito Vivodka"],
@@ -28928,8 +29077,7 @@ If Soul Harvest hits a hero, they banish all cards in their soul and lose {h} eq
     
     specializations: [Hero.Levia],
     subType: ActionSubType.Attack,
-  }];
-  const basicActions2: ActionCard[] = [{
+  },{
     classes: [Class.NotClassed],
     class: Class.NotClassed,
     artists: ["bimawithpencil"],

@@ -96,6 +96,7 @@ export interface WeaponCard extends Card {
 export enum Class {
   NotClassed = "NotClassed",
   Generic = "Generic",
+  Assassin = "Assassin",
   Bard = "Bard",
   Brute = "Brute",
   Guardian = "Guardian",
@@ -269,6 +270,7 @@ export enum HandsRequired {
 }
 
 export enum Hero {
+  Arakni = "Arakni",
   Azalea = "Azalea",
   Benji = "Benji",
   Boltyn = "Boltyn",
