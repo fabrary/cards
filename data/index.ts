@@ -532,7 +532,7 @@
     class: Class.Assassin,
     artists: ["Sam Yang"],
     cardIdentifier: "regicide-blue",
-    defaultImageName: "FAB122",
+    defaultImageName: "DYN121",
     functionalText: `**Legendary Arakni Specialization** *(You may only have 1 Regicide in your deck and only if your hero is Arakni.)*
 
 When this hits a Royal hero, they lose the game.
@@ -546,12 +546,18 @@ Regicide can’t be defended by cards with the same name as cards in the defendi
       name: "FAB122",
       set: Release.Promos,
       
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN121",
+      name: "DYN121",
+      set: Release.Dynasty,
+      
     },],
     keywords: [Keyword.Legendary,Keyword.Specialization],
     name: "Regicide",
-    rarity: Rarity.Promo,
-    restrictedFormats: [],
-    setIdentifiers: ["FAB122"],
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["FAB122","DYN121"],
     sets: [Release.Promos,Release.Dynasty],
     specialImageName: "FAB122",
     type: Type.Action,

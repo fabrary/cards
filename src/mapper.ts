@@ -155,7 +155,6 @@ const getHero = (card: ParsedCard): Hero | null => {
   if (types.includes("Hero")) {
     for (const [hero, value] of Object.entries(Hero)) {
       if (name.includes(value)) {
-        console.log({ hero, name, value });
         return Hero[hero];
       }
     }

@@ -68,13 +68,14 @@ FAB116, DYN207	FAB, DYN	Sap	2	0		3			P	Wizard, Action	Surge				"Deal 3 arcane da
 FAB117, DYN208	FAB, DYN	Sap	3	0		3			P	Wizard, Action	Surge				"Deal 1 arcane damage to target hero
 
 **Surge** - If this deals more than 1 damage to a hero, you may remove an energy counter from a permanent they control.."		Wizard Action	Riordan Delmiro																	S – FAB116 – N	/FAB117.png – FAB117 – N			
-FAB122	FAB, DYN	Regicide	3	0	3	3			P	Assassin, Action, Attack	Legendary, Arakni Specialization				"**Legendary Arakni Specialization** *(You may only have 1 Regicide in your deck and only if your hero is Arakni.)*
+FAB122, DYN121	FAB, DYN	Regicide	3	0	3	3			P, M	Assassin, Action, Attack	Legendary, Arakni Specialization				"**Legendary Arakni Specialization** *(You may only have 1 Regicide in your deck and only if your hero is Arakni.)*
 
 When this hits a Royal hero, they lose the game.
 
 When the combat chain closes, you lose the game.
 
-Regicide can’t be defended by cards with the same name as cards in the defending hero’s banished zone."		Assassin Action – Attack	Sam Yang																	S – FAB122 – N	/FAB122.png – FAB122 – N			
+Regicide can’t be defended by cards with the same name as cards in the defending hero’s banished zone."		Assassin Action – Attack	Sam Yang				No													S – FAB122 – N, S – DYN121 – N	"/FAB122.png – FAB122 – N,
+/DYN121.png – DYN121 – N"			
 LGS122	LGS, DYN	Predatory Streak	1	0		2			P	Ninja, Action	Go again						Ninja Action	Immanuela Crovius																	R – LGS122 – N – EA	/LGS122.png – LGS122 – N			
 LGS123	LGS, DYN	Predatory Streak	2	0		2			P	Ninja, Action	Go again				**Go again**		Ninja Action	Immanuela Crovius																	R – LGS123 – N – EA	/LGS123.png – LGS123 – N			
 LGS124	LGS, DYN	Predatory Streak	3	0		2			P	Ninja, Action	Go again				"Create 1 Crouching Tiger in your banished zone. You may play it this turn.
