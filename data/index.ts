@@ -168,6 +168,40 @@
     specializations: [],
     subType: ActionSubType.Item,
   },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Athiwut B."],
+    cardIdentifier: "pay-day-blue",
+    defaultImageName: "DYN123",
+    functionalText: `If you've completed a contract this turn, create 4 Silver tokens.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN123",
+      name: "DYN123",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Pay Day",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN123"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN123",
+    type: Type.Action,
+    typeText: "Assassin Action",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
     classes: [Class.Runeblade],
     class: Class.Runeblade,
     artists: ["Shen Fei"],
