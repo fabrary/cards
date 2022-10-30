@@ -170,6 +170,42 @@
   },{
     classes: [Class.Assassin],
     class: Class.Assassin,
+    artists: ["Wisnu Tan"],
+    cardIdentifier: "surgical-extraction-blue",
+    defaultImageName: "DYN122",
+    functionalText: `**Contract** - You are contracted to banish opponents’ blue cards. Whenever you complete this contract, create a Silver token.
+
+When this hits a hero, banish the top card of their deck, then look at their hand and banish a card.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN122",
+      name: "DYN122",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Surgical Extraction",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN122"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN122",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 2,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    power: 4,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
     artists: ["Athiwut B."],
     cardIdentifier: "pay-day-blue",
     defaultImageName: "DYN123",
@@ -28986,7 +29022,8 @@ Draw a card.
     
     specializations: [],
     subType: ActionSubType.Attack,
-  },{
+  }];
+  const basicActions2: ActionCard[] = [{
     classes: [Class.NotClassed],
     class: Class.NotClassed,
     artists: ["Vito Vivodka"],
@@ -29026,8 +29063,7 @@ Draw a card.
     
     specializations: [],
     subType: ActionSubType.Attack,
-  }];
-  const basicActions2: ActionCard[] = [{
+  },{
     classes: [Class.NotClassed],
     class: Class.NotClassed,
     artists: ["Vito Vivodka"],
@@ -61565,6 +61601,37 @@ Draw 2 cards.`,
     talents: [],
     subType: EquipmentSubType.Chest
   },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "mask-of-perdition",
+    defaultImageName: "DYN118",
+    functionalText: `While Mask of Perdition is in your graveyard, at the start of your turn, you may destroy 2 Silvers you control. If you do, equip Mask of Perdition.
+
+**Attack Reaction** - Destroy Mask of Perdition: Target Assassin attack action card gains “When this hits a hero banish the top card of their deck.”
+
+**Battleworn** *(When the combat chain closes, if this defended, put a -1 {d} counter on it.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN118",
+      name: "DYN118",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Battleworn],
+    name: "Mask of Perdition",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN118"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN118",
+    type: Type.Equipment,
+    typeText: "Assassin Equipment – Head",
+    defense: 1,
+    
+    talents: [],
+    subType: EquipmentSubType.Head
+  },{
     classes: [Class.Runeblade],
     class: Class.Runeblade,
     artists: ["Joseph Qiu"],
@@ -66257,6 +66324,35 @@ While Ruk’utan is face up in arsenal, whenever you play a card with 6 or more 
     subType: HeroSubType.Young,
     talents: [Talent.Royal,Talent.Draconic],
     young: true
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "arakni-huntsman",
+    defaultImageName: "DYN113",
+    functionalText: `Whenever you play a card with **contract**, you may look at the top card of target opponent’s deck. You may put it on the bottom.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN113",
+      name: "DYN113",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Arakni, Huntsman",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN113"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN113",
+    type: Type.Hero,
+    typeText: "Assassin Hero",
+    intellect: 4,
+    hero: Hero.Arakni,
+    life: 40,
+    
+    talents: [],
+    young: null
   },{
     classes: [Class.Merchant],
     class: Class.Merchant,
