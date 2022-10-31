@@ -708,6 +708,114 @@ When this hits a hero, banish the top card of their deck.`,
   },{
     classes: [Class.Assassin],
     class: Class.Assassin,
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "nix-the-nimble-red",
+    defaultImageName: "DYN139",
+    functionalText: `**Contract** – You are contracted to banish opponents' reaction cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN139",
+      name: "DYN139",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Nix the Nimble",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN139"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN139",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 5,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "nix-the-nimble-yellow",
+    defaultImageName: "DYN140",
+    functionalText: `**Contract** – You are contracted to banish opponents' reaction cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN140",
+      name: "DYN140",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Nix the Nimble",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN140"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN140",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    power: 4,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "nix-the-nimble-blue",
+    defaultImageName: "DYN141",
+    functionalText: `**Contract** – You are contracted to banish opponents' reaction cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN141",
+      name: "DYN141",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Nix the Nimble",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN141"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN141",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    power: 3,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
     artists: ["Shen Fei"],
     cardIdentifier: "sack-the-shifty-red",
     defaultImageName: "DYN142",
@@ -29194,7 +29302,8 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
     
     specializations: [],
     subType: ActionSubType.Attack,
-  },{
+  }];
+  const basicActions2: ActionCard[] = [{
     classes: [Class.Runeblade],
     class: Class.Runeblade,
     artists: ["Marco González"],
@@ -29292,8 +29401,7 @@ If you have dealt arcane damage to an opposing hero this turn, Rip Through Reali
     
     specializations: [],
     subType: ActionSubType.Attack,
-  }];
-  const basicActions2: ActionCard[] = [{
+  },{
     classes: [Class.Runeblade],
     class: Class.Runeblade,
     artists: ["Yolanda Felicia"],

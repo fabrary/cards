@@ -88,6 +88,15 @@ When this hits a hero, banish the top card of their deck."		Assassin Action – 
 DYN138	DYN	Fleece the Frail	3	0	2	3			C	Assassin, Action, Attack	Contract				"**Contract** – You are contracted to banish opponents' cards with 2 or less {d}. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
 
 When this hits a hero, banish the top card of their deck."		Assassin Action – Attack	Marco Gonzalez																	S – DYN138 – N	/DYN138.png – DYN138 – N			
+DYN139	DYN	Nix the Nimble	1	1	5	3			C	Assassin, Action, Attack	Contract				"**Contract** – You are contracted to banish opponents' reaction cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+
+When this hits a hero, banish the top card of their deck."		Assassin Action – Attack	Narendra B Adi																	S – DYN139 – N	/DYN139.png – DYN139 – N			
+DYN140	DYN	Nix the Nimble	2	1	4	3			C	Assassin, Action, Attack	Contract				"**Contract** – You are contracted to banish opponents' reaction cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+
+When this hits a hero, banish the top card of their deck."		Assassin Action – Attack	Narendra B Adi																	S – DYN140 – N	/DYN140.png – DYN140 – N			
+DYN141	DYN	Nix the Nimble	3	1	3	3			C	Assassin, Action, Attack	Contract				"**Contract** – You are contracted to banish opponents' reaction cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+
+When this hits a hero, banish the top card of their deck."		Assassin Action – Attack	Narendra B Adi																	S – DYN141 – N	/DYN141.png – DYN141 – N			
 DYN142	DYN	Sack the Shifty	1	0	4	3			C	Assassin, Action, Attack	Contract				"**Contract** – You are contracted to banish opponents' cards with base **go again**. Whenever you complete this contract, create a Silver token. *(Base go again does not include go again gained by effects.)*
 
 When this hits a hero, banish the top card of their deck."		Assassin Action – Attack	Shen Fei																	S – DYN142 – N	/DYN142.png – DYN142 – N			
