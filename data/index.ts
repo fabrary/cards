@@ -276,6 +276,78 @@ When this hits a hero, banish the top card of their deck.`,
   },{
     classes: [Class.Assassin],
     class: Class.Assassin,
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "plunder-the-poor-yellow",
+    defaultImageName: "DYN125",
+    functionalText: `**Contract** – You are contracted to banish opponents' cards with cost 1 or less. Whenever you complete this contract, create a Silver token.
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN125",
+      name: "DYN125",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Plunder the Poor",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN125"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN125",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 0,
+    defense: 0,
+    fusions: [],
+    pitch: 2,
+    power: 3,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "plunder-the-poor-blue",
+    defaultImageName: "DYN126",
+    functionalText: `**Contract** – You are contracted to banish opponents' cards with cost 1 or less. Whenever you complete this contract, create a Silver token.
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN126",
+      name: "DYN126",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Plunder the Poor",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN126"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN126",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 0,
+    defense: 0,
+    fusions: [],
+    pitch: 3,
+    power: 2,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
     artists: ["Shen Fei"],
     cardIdentifier: "annihilate-the-armed-red",
     defaultImageName: "DYN133",
@@ -303,6 +375,78 @@ When this hits a hero, banish the top card of their deck.`,
     fusions: [],
     pitch: 1,
     power: 5,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Shen Fei"],
+    cardIdentifier: "annihilate-the-armed-yellow",
+    defaultImageName: "DYN134",
+    functionalText: `**Contract** – You are contracted to banish opponents' attack action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN134",
+      name: "DYN134",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Annihilate the Armed",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN134"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN134",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    power: 4,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Shen Fei"],
+    cardIdentifier: "annihilate-the-armed-blue",
+    defaultImageName: "DYN135",
+    functionalText: `**Contract** – You are contracted to banish opponents' attack action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN135",
+      name: "DYN135",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Annihilate the Armed",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN135"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN135",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    power: 3,
     talents: [],
     
     
@@ -348,6 +492,78 @@ When this hits a hero, banish the top card of their deck.`,
   },{
     classes: [Class.Assassin],
     class: Class.Assassin,
+    artists: ["Shen Fei"],
+    cardIdentifier: "sack-the-shifty-yellow",
+    defaultImageName: "DYN143",
+    functionalText: `**Contract** – You are contracted to banish opponents' cards with base **go again**. Whenever you complete this contract, create a Silver token. *(Base go again does not include go again gained by effects.)*
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN143",
+      name: "DYN143",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Sack the Shifty",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN143"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN143",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    power: 3,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Shen Fei"],
+    cardIdentifier: "sack-the-shifty-blue",
+    defaultImageName: "DYN144",
+    functionalText: `**Contract** – You are contracted to banish opponents' cards with base **go again**. Whenever you complete this contract, create a Silver token. *(Base go again does not include go again gained by effects.)*
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN144",
+      name: "DYN144",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Sack the Shifty",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN144"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN144",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    power: 2,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "slay-the-scholars-red",
     defaultImageName: "DYN145",
@@ -375,6 +591,78 @@ When this hits a hero, banish the top card of their deck.`,
     fusions: [],
     pitch: 1,
     power: 4,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "slay-the-scholars-yellow",
+    defaultImageName: "DYN146",
+    functionalText: `**Contract** - You are contracted to banish opponents' 'non-attack' action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN146",
+      name: "DYN146",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Slay the Scholars",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN146"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN146",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    power: 3,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "slay-the-scholars-blue",
+    defaultImageName: "DYN147",
+    functionalText: `**Contract** - You are contracted to banish opponents' 'non-attack' action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN147",
+      name: "DYN147",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Slay the Scholars",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN147"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN147",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    power: 2,
     talents: [],
     
     
@@ -28892,7 +29180,8 @@ The next attack action card with cost 2 or less you play this turn gains "When y
     
     specializations: [],
     subType: ActionSubType.NonAttack,
-  },{
+  }];
+  const basicActions2: ActionCard[] = [{
     classes: [Class.Runeblade],
     class: Class.Runeblade,
     artists: ["bimawithpencil"],
@@ -29076,8 +29365,7 @@ Mutated Mass's {p} and {d} is equal to twice the number of cards in your pitch z
     
     specializations: [],
     subType: ActionSubType.NonAttack,
-  }];
-  const basicActions2: ActionCard[] = [{
+  },{
     classes: [Class.NotClassed],
     class: Class.NotClassed,
     artists: ["Carlos Cruchaga"],
@@ -61744,6 +62032,37 @@ Draw 2 cards.`,
     
     talents: [],
     subType: EquipmentSubType.Chest
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Sarlya Asavametha"],
+    cardIdentifier: "blacktek-whisperers",
+    defaultImageName: "DYN117",
+    functionalText: `While Blacktek Whisperers is in your graveyard, at the start of your turn, you may destroy 2 Silvers you control. If you do, equip Blacktek Whisperers.
+
+**Attack Reaction** - Destroy Blacktek Whisperers: Target Assassin attack action card gains “When this hits a hero, it gains **go again**.”
+
+**Battleworn** *(When the combat chain closes, if this defended, put a -1 {d} counter on it.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN117",
+      name: "DYN117",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Battleworn,Keyword.GoAgain],
+    name: "Blacktek Whisperers",
+    rarity: Rarity.Legendary,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN117"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN117",
+    type: Type.Equipment,
+    typeText: "Assassin Equipment – Leg",
+    defense: 1,
+    
+    talents: [],
+    subType: EquipmentSubType.Legs
   },{
     classes: [Class.Assassin],
     class: Class.Assassin,

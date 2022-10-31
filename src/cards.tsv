@@ -32,6 +32,11 @@ DYN115, DYN116	DYN	Spider’s Bite			1				R	Assassin, Weapon, Dagger, 1H	Piercin
 
 When this hits a hero, the next time they defend with 1 or more attack action cards this turn, those cards have -1{d} while defending.
 "		Assassin Weapon – Dagger (1H)	Marcus Reyno																	S – DYN115 – N, S – DYN116 – N	/DYN115.png – DYN115 – N, /DYN116.png – DYN116 – N			
+DYN117	DYN	Blacktek Whisperers				1			L	Assassin, Equipment, Legs	Attack Reaction, Battleworn, Go again				"While Blacktek Whisperers is in your graveyard, at the start of your turn, you may destroy 2 Silvers you control. If you do, equip Blacktek Whisperers.
+
+**Attack Reaction** - Destroy Blacktek Whisperers: Target Assassin attack action card gains “When this hits a hero, it gains **go again**.”
+
+**Battleworn** *(When the combat chain closes, if this defended, put a -1 {d} counter on it.)*"		Assassin Equipment – Leg	Sarlya Asavametha				No													S – DYN117 – N	/DYN117.png – DYN117 – N			
 DYN118	DYN	Mask of Perdition				1			M	Assassin, Equipment, Head	Attack Reaction, Battleworn				"While Mask of Perdition is in your graveyard, at the start of your turn, you may destroy 2 Silvers you control. If you do, equip Mask of Perdition.
 
 **Attack Reaction** - Destroy Mask of Perdition: Target Assassin attack action card gains “When this hits a hero banish the top card of their deck.”
@@ -44,15 +49,39 @@ DYN123	DYN	Pay Day	3	0		3			M	Assassin, Action					If you've completed a contrac
 DYN124	DYN	Plunder the Poor	1	0	4	0			R	Assassin, Action, Attack	Contract				"**Contract** – You are contracted to banish opponents' cards with cost 1 or less. Whenever you complete this contract, create a Silver token.
 
 When this hits a hero, banish the top card of their deck."		Assassin Action – Attack	Carlos Cruchaga				No													S – DYN124 – N	/DYN124.png – DYN124 – N			
+DYN125	DYN	Plunder the Poor	2	0	3	0			R	Assassin, Action, Attack	Contract				"**Contract** – You are contracted to banish opponents' cards with cost 1 or less. Whenever you complete this contract, create a Silver token.
+
+When this hits a hero, banish the top card of their deck."		Assassin Action – Attack	Carlos Cruchaga				No													S – DYN125 – N	/DYN125.png – DYN125 – N			
+DYN126	DYN	Plunder the Poor	3	0	2	0			R	Assassin, Action, Attack	Contract				"**Contract** – You are contracted to banish opponents' cards with cost 1 or less. Whenever you complete this contract, create a Silver token.
+
+When this hits a hero, banish the top card of their deck."		Assassin Action – Attack	Carlos Cruchaga				No													S – DYN126 – N	/DYN126.png – DYN126 – N			
 DYN133	DYN	Annihilate the Armed	1	1	5	3			C	Assassin, Action, Attack	Contract				"**Contract** – You are contracted to banish opponents' attack action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
 
 When this hits a hero, banish the top card of their deck."		Assassin Action – Attack	Shen Fei																	S – DYN133 – N	/DYN133.png – DYN133 – N			
+DYN134	DYN	Annihilate the Armed	2	1	4	3			C	Assassin, Action, Attack	Contract				"**Contract** – You are contracted to banish opponents' attack action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+
+When this hits a hero, banish the top card of their deck."		Assassin Action – Attack	Shen Fei																	S – DYN134 – N	/DYN134.png – DYN134 – N			
+DYN135	DYN	Annihilate the Armed	3	1	3	3			C	Assassin, Action, Attack	Contract				"**Contract** – You are contracted to banish opponents' attack action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+
+When this hits a hero, banish the top card of their deck."		Assassin Action – Attack	Shen Fei																	S – DYN135 – N	/DYN135.png – DYN135 – N			
 DYN142	DYN	Sack the Shifty	1	0	4	3			C	Assassin, Action, Attack	Contract				"**Contract** – You are contracted to banish opponents' cards with base **go again**. Whenever you complete this contract, create a Silver token. *(Base go again does not include go again gained by effects.)*
 
 When this hits a hero, banish the top card of their deck."		Assassin Action – Attack	Shen Fei																	S – DYN142 – N	/DYN142.png – DYN142 – N			
+DYN143	DYN	Sack the Shifty	2	0	3	3			C	Assassin, Action, Attack	Contract				"**Contract** – You are contracted to banish opponents' cards with base **go again**. Whenever you complete this contract, create a Silver token. *(Base go again does not include go again gained by effects.)*
+
+When this hits a hero, banish the top card of their deck."		Assassin Action – Attack	Shen Fei																	S – DYN143 – N	/DYN143.png – DYN143 – N			
+DYN144	DYN	Sack the Shifty	3	0	2	3			C	Assassin, Action, Attack	Contract				"**Contract** – You are contracted to banish opponents' cards with base **go again**. Whenever you complete this contract, create a Silver token. *(Base go again does not include go again gained by effects.)*
+
+When this hits a hero, banish the top card of their deck."		Assassin Action – Attack	Shen Fei																	S – DYN144 – N	/DYN144.png – DYN144 – N			
 DYN145	DYN	Slay the Scholars	1	0	4	3			C	Assassin, Action, Attack	Contract				"**Contract** - You are contracted to banish opponents' 'non-attack' action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
 
 When this hits a hero, banish the top card of their deck."		Assassin Action – Attack	Nikolay Moskvin																	S – DYN145 – N	/DYN145.png – DYN145 – N			
+DYN146	DYN	Slay the Scholars	2	0	3	3			C	Assassin, Action, Attack	Contract				"**Contract** - You are contracted to banish opponents' 'non-attack' action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+
+When this hits a hero, banish the top card of their deck."		Assassin Action – Attack	Nikolay Moskvin																	S – DYN146 – N	/DYN146.png – DYN146 – N			
+DYN147	DYN	Slay the Scholars	3	0	2	3			C	Assassin, Action, Attack	Contract				"**Contract** - You are contracted to banish opponents' 'non-attack' action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+
+When this hits a hero, banish the top card of their deck."		Assassin Action – Attack	Nikolay Moskvin																	S – DYN147 – N	/DYN147.png – DYN147 – N			
 DYN151	DYN	Sandscour Greatbow							M	Ranger, Weapon, Bow, 2H	Go again				"**Once per Turn Action** - {r}: Look at the top card of your deck. You may put an arrow from your hand or the top of your deck face up into your arsenal. **Go again**
 
 Whenever an arrow is put face up in arsenal from your deck, put an aim counter on it."		Ranger Weapon – Bow (2H)	Carlos Cruchaga				No													C – DYN151 – N – EA	/DYN151_Marvel.png – DYN151_Marvel – N – EA			
