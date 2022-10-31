@@ -238,6 +238,150 @@ When this hits a hero, banish the top card of their deck, then look at their han
     specializations: [],
     subType: ActionSubType.NonAttack,
   },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "plunder-the-poor-red",
+    defaultImageName: "DYN124",
+    functionalText: `**Contract** – You are contracted to banish opponents' cards with cost 1 or less. Whenever you complete this contract, create a Silver token.
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN124",
+      name: "DYN124",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Plunder the Poor",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN124"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN124",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 0,
+    defense: 0,
+    fusions: [],
+    pitch: 1,
+    power: 4,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Shen Fei"],
+    cardIdentifier: "annihilate-the-armed-red",
+    defaultImageName: "DYN133",
+    functionalText: `**Contract** – You are contracted to banish opponents' attack action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN133",
+      name: "DYN133",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Annihilate the Armed",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN133"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN133",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 5,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Shen Fei"],
+    cardIdentifier: "sack-the-shifty-red",
+    defaultImageName: "DYN142",
+    functionalText: `**Contract** – You are contracted to banish opponents' cards with base **go again**. Whenever you complete this contract, create a Silver token. *(Base go again does not include go again gained by effects.)*
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN142",
+      name: "DYN142",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Sack the Shifty",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN142"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN142",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 4,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "slay-the-scholars-red",
+    defaultImageName: "DYN145",
+    functionalText: `**Contract** - You are contracted to banish opponents' 'non-attack' action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN145",
+      name: "DYN145",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Slay the Scholars",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN145"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN145",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 4,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
     classes: [Class.Runeblade],
     class: Class.Runeblade,
     artists: ["Shen Fei"],
@@ -28932,7 +29076,8 @@ Mutated Mass's {p} and {d} is equal to twice the number of cards in your pitch z
     
     specializations: [],
     subType: ActionSubType.NonAttack,
-  },{
+  }];
+  const basicActions2: ActionCard[] = [{
     classes: [Class.NotClassed],
     class: Class.NotClassed,
     artists: ["Carlos Cruchaga"],
@@ -29022,8 +29167,7 @@ Draw a card.
     
     specializations: [],
     subType: ActionSubType.Attack,
-  }];
-  const basicActions2: ActionCard[] = [{
+  },{
     classes: [Class.NotClassed],
     class: Class.NotClassed,
     artists: ["Vito Vivodka"],
@@ -70608,6 +70752,45 @@ The third time you play a card with **boost** each turn, put a steam counter on 
     
     talents: [],
     subType: WeaponSubType.Gun
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Marcus Reyno"],
+    cardIdentifier: "spiders-bite",
+    defaultImageName: "DYN115",
+    functionalText: `**Once per Turn Action** – {r}{r}: **Attack**. **Go again**
+
+**Piercing 1** *(If this is defended by an equipment, it has +1{p}.)*
+
+When this hits a hero, the next time they defend with 1 or more attack action cards this turn, those cards have -1{d} while defending.
+`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN115",
+      name: "DYN115",
+      set: Release.Dynasty,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN116",
+      name: "DYN116",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Piercing],
+    name: "Spider’s Bite",
+    rarity: Rarity.Rare,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN115","DYN116"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN115",
+    type: Type.Weapon,
+    typeText: "Assassin Weapon – Dagger (1H)",
+    handsRequired: HandsRequired.OneHanded,
+    power: 1,
+    
+    talents: [],
+    subType: WeaponSubType.Dagger
   },{
     classes: [Class.Ranger],
     class: Class.Ranger,
