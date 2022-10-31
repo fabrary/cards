@@ -691,7 +691,7 @@ export const mapCardData = (
         weapons.push(getWeaponCardData(card));
         break;
       default:
-        console.log(`No card type for ${card.name}`);
+        console.log(`No card type for ${card.name}`, card, type, subType);
         break;
     }
   });

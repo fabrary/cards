@@ -170,6 +170,42 @@
   },{
     classes: [Class.Assassin],
     class: Class.Assassin,
+    artists: ["soyameii"],
+    cardIdentifier: "leave-no-witnesses-red",
+    defaultImageName: "DYN120",
+    functionalText: `**Contract**  - You are contracted to banish opponent’s red cards. Whenever you complete this contract, create a Silver token.
+
+When this hits a hero, banish the top card of their deck and up to 1 card in their arsenal.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN120",
+      name: "DYN120",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Leave no Witnesses",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN120"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN120",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 4,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
     artists: ["Wisnu Tan"],
     cardIdentifier: "surgical-extraction-blue",
     defaultImageName: "DYN122",
@@ -348,6 +384,114 @@ When this hits a hero, banish the top card of their deck.`,
   },{
     classes: [Class.Assassin],
     class: Class.Assassin,
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "rob-the-rich-red",
+    defaultImageName: "DYN127",
+    functionalText: `**Contract** – You are contracted to banish opponents' cards with cost 2 or greater. Whenever you complete this contract, create a Silver token.
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN127",
+      name: "DYN127",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Rob the Rich",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN127"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN127",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 5,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "rob-the-rich-yellow",
+    defaultImageName: "DYN128",
+    functionalText: `**Contract** – You are contracted to banish opponents' cards with cost 2 or greater. Whenever you complete this contract, create a Silver token.
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN128",
+      name: "DYN128",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Rob the Rich",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN128"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN128",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    power: 4,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "rob-the-rich-blue",
+    defaultImageName: "DYN129",
+    functionalText: `**Contract** – You are contracted to banish opponents' cards with cost 2 or greater. Whenever you complete this contract, create a Silver token.
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN129",
+      name: "DYN129",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Rob the Rich",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN129"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN129",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    power: 3,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
     artists: ["Shen Fei"],
     cardIdentifier: "annihilate-the-armed-red",
     defaultImageName: "DYN133",
@@ -447,6 +591,114 @@ When this hits a hero, banish the top card of their deck.`,
     fusions: [],
     pitch: 3,
     power: 3,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Marco Gonzalez"],
+    cardIdentifier: "fleece-the-frail-red",
+    defaultImageName: "DYN136",
+    functionalText: `**Contract** – You are contracted to banish opponents' cards with 2 or less {d}. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN136",
+      name: "DYN136",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Fleece the Frail",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN136"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN136",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 4,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Marco Gonzalez"],
+    cardIdentifier: "fleece-the-frail-yellow",
+    defaultImageName: "DYN137",
+    functionalText: `**Contract** – You are contracted to banish opponents' cards with 2 or less {d}. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN137",
+      name: "DYN137",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Fleece the Frail",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN137"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN137",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    power: 3,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Marco Gonzalez"],
+    cardIdentifier: "fleece-the-frail-blue",
+    defaultImageName: "DYN138",
+    functionalText: `**Contract** – You are contracted to banish opponents' cards with 2 or less {d}. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN138",
+      name: "DYN138",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Fleece the Frail",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN138"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN138",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    power: 2,
     talents: [],
     
     
@@ -29040,7 +29292,8 @@ If you have dealt arcane damage to an opposing hero this turn, Rip Through Reali
     
     specializations: [],
     subType: ActionSubType.Attack,
-  },{
+  }];
+  const basicActions2: ActionCard[] = [{
     classes: [Class.Runeblade],
     class: Class.Runeblade,
     artists: ["Yolanda Felicia"],
@@ -29180,8 +29433,7 @@ The next attack action card with cost 2 or less you play this turn gains "When y
     
     specializations: [],
     subType: ActionSubType.NonAttack,
-  }];
-  const basicActions2: ActionCard[] = [{
+  },{
     classes: [Class.Runeblade],
     class: Class.Runeblade,
     artists: ["bimawithpencil"],
@@ -54229,6 +54481,108 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
   }];
 
   const attackReactions: ActionCard[] = [{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "shred-red",
+    defaultImageName: "DYN130",
+    functionalText: `Target card defending an Assassin attack gets -4{d} this combat chain.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN130",
+      name: "DYN130",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Shred",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN130"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN130",
+    type: Type.AttackReaction,
+    typeText: "Assassin Attack Reaction",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "shred-yellow",
+    defaultImageName: "DYN131",
+    functionalText: `Target card defending an Assassin attack gets -3{d} this combat chain.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN131",
+      name: "DYN131",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Shred",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN131"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN131",
+    type: Type.AttackReaction,
+    typeText: "Assassin Attack Reaction",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "shred-blue",
+    defaultImageName: "DYN132",
+    functionalText: `Target card defending an Assassin attack gets -2{d} this combat chain.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN132",
+      name: "DYN132",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Shred",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN132"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN132",
+    type: Type.AttackReaction,
+    typeText: "Assassin Attack Reaction",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    
+  },{
     classes: [Class.Ninja],
     class: Class.Ninja,
     artists: ["Alexander Mokhov"],
