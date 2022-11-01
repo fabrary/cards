@@ -4441,6 +4441,9 @@ Activate Rok only if you have no cards in hand.
 
 Damage that would be dealt by Rok can’t be prevented."		Brute Weapon – Rock (2H)	Henrique Lindner				No													S – DYN005 – N, C – DYN005 – N – EA	"/DYN005.png – DYN005 – N,
 /DYN005_Marvel.png – DYN005_Marvel – N – EA"			
+DYN009	DYN	Berserk	2	1		3			M	Brute, Action	Go again				"Until end of turn, whenever you discard a random card with 6 or more {p}, banish it. If you do, reveal the top card of your deck. If it has 6 or more {p}, draw a card.
+
+**Go again**"		Brute Action	Othon Nikolaidis				No													S – DYN009 - N	/DYN009.png – DYN009 – N			
 HER075, DYN025	HER, DYN	Yoji, Royal Protector					22	4	P	Guardian, Hero, Young		Once per Turn Instant			**Once per Turn Instant** - {r}{r}{r}: The next time another target hero would be dealt damage this turn, instead that damage is dealt to Yoji and prevent 1 of that damage.		Guardian Hero – Young	Othon Nikolaidis			No														C – HER075 – N, S – DYN025 – N	https://storage.googleapis.com/fabmaster/media/images/dyn_card_Yoji_Royal_Protector.width-10000.png – HER075 – N, /DYN025.png – DYN025 – N			
 DYN026	DYN	Seasoned Saviour				3			M	Guardian, Equipment, Off-Hand	Battleworn				When you equip Seasoned Saviour, put two -1{d} counters on it. **Battleworn**		Guardian Equipment – Off-Hand	Sofia Akimova				No													C – DYN026 – N – EA, S – DYN026 – N	/DYN026_Marvel.png – DYN026_Marvel – N – EA, /DYN026.png – DYN026 – N			
 DYN039	DYN	Reinforce Steel	1	2		3			C	Guardian, Action					Remove a -1{d} counter from a Guardian off-hand you control with 3 or less base {d}.	*It is said that the imperial Forge of Volcor produces the sturdiest armor in all of Rathe.*	Guardian Action	Nathaniel Himawan																	S – DYN039 – N	/DYN039.png – DYN039 – N			
@@ -4462,6 +4465,9 @@ Whenever Merciless Battleaxe attacks, if its {p} is greater than twice its base 
 LGS112, DYN069, DYN070	LGS, DYN	Quicksilver Dagger			1				P	Warrior, Weapon, Dagger, 1H	Go again	Once per Turn Action	Attack		"**Once per Turn Action** - {r}: **Attack**
 
 If another weapon you control has gained **go again** this turn, Quicksilver Dagger has **go again**."		Warrior Weapon – Dagger (1H)	Alexis Susani																	C – LGS112 – N, S – DYN069 – N, S – DYN070 – N	/LGS112.png – LGS112 – N, /DYN069.png – DYN069 – N, /DYN070.png – DYN070 – N			
+DYN071	DYN	Cleave	1	1		3			M	Warrior, Action	Go again				"Your next axe attack this turn gains +4{p} and “When this hits a hero or ally, you may deal that much damage to another ally controlled by the same hero.”
+
+**Go again**"		Warrior Action	Narendra B Adi				No													S – DYN071 – N	/DYN071.png – DYN071 – N			
 DYN072	DYN	Ironsong Pride	1	1					M	Warrior, Instant, Aura					"Put a +1{p} counter on target sword you control.
 
 When Ironsong Pride leaves the arena, remove all +1{p} counters from swords you control.
@@ -4472,10 +4478,24 @@ DYN088	DYN	Hanabi Blaster			5				M	Mechanologist, Weapon, Gun, 2H	Overpower				"
 **Overpower** *(This can’t be defended by more than 1 action card.)*
 
 The third time you play a card with **boost** each turn, put a steam counter on Hanabi Blaster"		Mechanologist Weapon – Gun (2H)	Joseph Qiu																	C – DYN088 – N – EA, S – DYN088 – N	/DYN088_Marvel.png – DYN088_Marvel – N – EA, /DYN088.png – DYN088 – N			
+DYN089	DYN	Galvanic Bender				1			R	Mechanologist, Equipment, Arms	Material, Battleworn				"**Material** - While this is under a permanent, that permanent has +1{p}.
+
+**Battleworn** *(When the combat chain closes, if this defended, put a -1{d} counter on it.)*"		Mechanologist Equipment – Arms	Angelina Tyschik				No													S – DYN089 – N	/DYN089.png – DYN089 – N			
+DYN092	DYN	Construct Nitro Mechanoid	2	4		3			M	Mechanologist, Action, Construct	Transform, Negate, Go again				"*(Constructs resolve flipped as an item in the arena.)*
+
+**Transform** target Mechanologist head, chest, arms, legs, weapon, and 3 Hyper Drivers you control into Nitro Mechanoid. If you don’t, **negate** this. *(Put them under Nitro Mechanoid. If you don’t, put this in the graveyard.)
+
+**Go again**"		Mechanologist Action – Construct	Sam Yang				No													S – DYN092 – N	/DYN092.png – DYN092 – N			
+DYN092	DYN	Nitro Mechanoid			5	5			M	Mechanologist, Weapon, Equipment, Item	Overpower, Temper				"**Action** - Banish a card from under Nitro Mechanoid: **Attack**
+
+**Overpower** *(The defending hero can’t defend Nitro Mechanoid with more than 1 action card.)*
+
+**Tempter** *(When the combat chain closes, if this defended, put a -1{d} counter on it, then if it has 0{d}, destroy it.)*"		Mechanologist Weapon Equipment – Item	Sam Yang				No													C – DYN092 – N – EA	/DYN092_Marvel.png – DYN092_Marvel – N – EA			
 DYN093	DYN	Plasma Mainline	1	2					M	Mechanologist, Action, Item					"Plasma Mainline enters the arena with 5 steam counters on it. When it has no steam counters, destroy it.
 
 When a Mechanologist item with cost 2 or less enters the arena under your control, you may move a steam counter from Plasma Mainline to that item."		Mechanologist Action – Item	Askapoj T				No													S – DYN093 – N	/DYN093.png – DYN093 – N			
 DYN094	DYN	Powder Keg	3	0					M	Mechanologist, Action, Item					Whenever a Mechanologist gun you control hits, you may destroy Powder Keg and a defending equipment.		Mechanologist Action – Item	Victoria Belyaeva																	S – DYN094 – N	/DYN094.png – DYN094 – N			
+DYN098	DYN	Blessing of Ingenuity	1	1		3			R	Mechanologist, Action, Aura					At the start of your turn, destroy Blessing of Ingenuity then put up to 3 Hyper Drivers from your graveyard and/or banished zone into the arena.		Mechanologist Action – Aura	Kevin Sidharta				No													S – DYN098 – N	/DYN098.png – DYN098 – N			
 DYN113	DYN	Arakni, Huntsman					40	4	M	Assassin, Hero	Contract				Whenever you play a card with **contract**, you may look at the top card of target opponent’s deck. You may put it on the bottom.		Assassin Hero	Isuardi Therianto				No													S – DYN113 – N	/DYN113.png – DYN113 – N			
 DYN114	DYN	Arakni					20	4	R	Assassin, Hero, Young	Contract				Whenever you play a card with **contract**, you may look at the top card of target opponent’s deck. You may put it on the bottom.		Assassin Hero – Young	Isuardi Therianto				No													S – DYN114 – N	/DYN114.png – DYN114 – N			
 DYN115, DYN116	DYN	Spider’s Bite			1				R	Assassin, Weapon, Dagger, 1H	Piercing 1	Once per Turn Action	Attack, Go again		"**Once per Turn Action** – {r}{r}: **Attack**. **Go again**
@@ -4593,6 +4613,18 @@ Whenever an arrow is put face up in arsenal from your deck, put an aim counter o
 DYN152	DYN	Hornet’s Sting				1			R	Ranger, Equipment, Arms	Blade Break				"Whenever Hornet’s Sting defends, reveal the top card of your deck. If it’s an arrow, deal 1 damage to the attacking hero or ally. Otherwise, put it on the bottom of your deck.
 
 **Blade Break** *(When the combat chain closes, if this defended, destroy it.)*"		Ranger Equipment – Arms	Grigoriy Parshakov				No													S – DYN152 – N	/DYN152.png – DYN152 – N			
+DYN153	DYN	Heat Seeker	1	1	5	3			M	Ranger, Action, Arrow, Attack					"*(Arrows can only be played from arsenal and only if you control a bow.)*
+
+When this hits, at the beginning of your end phase, put the top card of your deck face up into your arsenal."		Ranger Action – Arrow Attack	Irina Si				No													S – DYN153 – N	/DYN153.png – DYN153 – N			
+DYN162	DYN	Hemorrhage Bore	1	1	5	3			C	Ranger, Action, Arrow, Attack					"*(Arrows can only be played from arsenal and only if you control a bow.)*
+
+If Hemorrhage Bore has an aim counter, it has “When this hits a hero, destroy a card in their arsenal.”"		Ranger Action – Arrow Attack	Shen Fei																	S – DYN162 – N	/DYN162.png – DYN162 – N			
+DYN163	DYN	Hemorrhage Bore	2	1	4	3			C	Ranger, Action, Arrow, Attack					"*(Arrows can only be played from arsenal and only if you control a bow.)*
+
+If Hemorrhage Bore has an aim counter, it has “When this hits a hero, destroy a card in their arsenal.”"		Ranger Action – Arrow Attack	Shen Fei																	S – DYN163 – N	/DYN163.png – DYN163 – N			
+DYN164	DYN	Hemorrhage Bore	3	1	3	3			C	Ranger, Action, Arrow, Attack					"*(Arrows can only be played from arsenal and only if you control a bow.)*
+
+If Hemorrhage Bore has an aim counter, it has “When this hits a hero, destroy a card in their arsenal.”"		Ranger Action – Arrow Attack	Shen Fei																	S – DYN164 – N	/DYN164.png – DYN164 – N			
 DYN171	DYN	Amethyst Tiara				1			M	Runeblade, Equipment, Head	Blade Break				"**Instant** - Destroy Amethyst Tiara: Runechants you control have **spellvoid 1** this turn.
 
 **Blade Break** *(When the combat chain closes, if this defended, destroy it.)*"		Runeblade Equipment – Head	Joseph Qiu				No													C – DYN171 – N – EA, S – DYN171 – N	/DYN171_Marvel.png – DYN171_Marvel – N – EA, /DYN171.png – DYN171 – N			

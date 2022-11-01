@@ -29810,8 +29810,7 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     specializations: [],
     subType: ActionSubType.Attack,
-  }];
-  const basicActions2: ActionCard[] = [{
+  },{
     classes: [Class.Generic],
     class: Class.Generic,
     artists: ["Phu Thieu"],
@@ -29973,7 +29972,8 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     specializations: [],
     subType: ActionSubType.Attack,
-  },{
+  }];
+  const basicActions2: ActionCard[] = [{
     classes: [Class.Generic],
     class: Class.Generic,
     artists: ["Marco González"],
@@ -53011,6 +53011,42 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
     specializations: [],
     subType: ActionSubType.Ash,
   },{
+    classes: [Class.Brute],
+    class: Class.Brute,
+    artists: ["Othon Nikolaidis"],
+    cardIdentifier: "berserk-yellow",
+    defaultImageName: "DYN009",
+    functionalText: `Until end of turn, whenever you discard a random card with 6 or more {p}, banish it. If you do, reveal the top card of your deck. If it has 6 or more {p}, draw a card.
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN009",
+      name: "DYN009",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Berserk",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN009"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN009",
+    type: Type.Action,
+    typeText: "Brute Action",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
     classes: [Class.Guardian],
     class: Class.Guardian,
     artists: ["Nathaniel Himawan"],
@@ -53223,6 +53259,80 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
     specializations: [],
     subType: ActionSubType.NonAttack,
   },{
+    classes: [Class.Warrior],
+    class: Class.Warrior,
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "cleave-red",
+    defaultImageName: "DYN071",
+    functionalText: `Your next axe attack this turn gains +4{p} and “When this hits a hero or ally, you may deal that much damage to another ally controlled by the same hero.”
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN071",
+      name: "DYN071",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Cleave",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN071"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN071",
+    type: Type.Action,
+    typeText: "Warrior Action",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Mechanologist],
+    class: Class.Mechanologist,
+    artists: ["Sam Yang"],
+    cardIdentifier: "construct-nitro-mechanoid-yellow",
+    defaultImageName: "DYN092",
+    functionalText: `*(Constructs resolve flipped as an item in the arena.)*
+
+**Transform** target Mechanologist head, chest, arms, legs, weapon, and 3 Hyper Drivers you control into Nitro Mechanoid. If you don’t, **negate** this. *(Put them under Nitro Mechanoid. If you don’t, put this in the graveyard.)
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN092",
+      name: "DYN092",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Transform,Keyword.Negate,Keyword.GoAgain],
+    name: "Construct Nitro Mechanoid",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN092"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN092",
+    type: Type.Action,
+    typeText: "Mechanologist Action – Construct",
+    cost: 4,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Construct,
+  },{
     classes: [Class.Mechanologist],
     class: Class.Mechanologist,
     artists: ["Askapoj T"],
@@ -53292,6 +53402,40 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     
     specializations: [],
     subType: ActionSubType.Item,
+  },{
+    classes: [Class.Mechanologist],
+    class: Class.Mechanologist,
+    artists: ["Kevin Sidharta"],
+    cardIdentifier: "blessing-of-ingenuity-red",
+    defaultImageName: "DYN098",
+    functionalText: `At the start of your turn, destroy Blessing of Ingenuity then put up to 3 Hyper Drivers from your graveyard and/or banished zone into the arena.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN098",
+      name: "DYN098",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Blessing of Ingenuity",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN098"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN098",
+    type: Type.Action,
+    typeText: "Mechanologist Action – Aura",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Aura,
   },{
     classes: [Class.Assassin],
     class: Class.Assassin,
@@ -54236,6 +54380,150 @@ When this hits a hero, banish the top card of their deck.`,
     
     specializations: [],
     subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Ranger],
+    class: Class.Ranger,
+    artists: ["Irina Si"],
+    cardIdentifier: "heat-seeker-red",
+    defaultImageName: "DYN153",
+    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
+
+When this hits, at the beginning of your end phase, put the top card of your deck face up into your arsenal.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN153",
+      name: "DYN153",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Heat Seeker",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN153"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN153",
+    type: Type.Action,
+    typeText: "Ranger Action – Arrow Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 5,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Arrow,
+  },{
+    classes: [Class.Ranger],
+    class: Class.Ranger,
+    artists: ["Shen Fei"],
+    cardIdentifier: "hemorrhage-bore-red",
+    defaultImageName: "DYN162",
+    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
+
+If Hemorrhage Bore has an aim counter, it has “When this hits a hero, destroy a card in their arsenal.”`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN162",
+      name: "DYN162",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Hemorrhage Bore",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN162"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN162",
+    type: Type.Action,
+    typeText: "Ranger Action – Arrow Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 5,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Arrow,
+  },{
+    classes: [Class.Ranger],
+    class: Class.Ranger,
+    artists: ["Shen Fei"],
+    cardIdentifier: "hemorrhage-bore-yellow",
+    defaultImageName: "DYN163",
+    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
+
+If Hemorrhage Bore has an aim counter, it has “When this hits a hero, destroy a card in their arsenal.”`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN163",
+      name: "DYN163",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Hemorrhage Bore",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN163"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN163",
+    type: Type.Action,
+    typeText: "Ranger Action – Arrow Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    power: 4,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Arrow,
+  },{
+    classes: [Class.Ranger],
+    class: Class.Ranger,
+    artists: ["Shen Fei"],
+    cardIdentifier: "hemorrhage-bore-blue",
+    defaultImageName: "DYN164",
+    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
+
+If Hemorrhage Bore has an aim counter, it has “When this hits a hero, destroy a card in their arsenal.”`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN164",
+      name: "DYN164",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Hemorrhage Bore",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN164"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN164",
+    type: Type.Action,
+    typeText: "Ranger Action – Arrow Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    power: 3,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Arrow,
   },{
     classes: [Class.Runeblade],
     class: Class.Runeblade,
@@ -67218,6 +67506,66 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     
     talents: [],
     subType: EquipmentSubType.Chest
+  },{
+    classes: [Class.Mechanologist],
+    class: Class.Mechanologist,
+    artists: ["Angelina Tyschik"],
+    cardIdentifier: "galvanic-bender",
+    defaultImageName: "DYN089",
+    functionalText: `**Material** - While this is under a permanent, that permanent has +1{p}.
+
+**Battleworn** *(When the combat chain closes, if this defended, put a -1{d} counter on it.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN089",
+      name: "DYN089",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Material,Keyword.Battleworn],
+    name: "Galvanic Bender",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN089"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN089",
+    type: Type.Equipment,
+    typeText: "Mechanologist Equipment – Arms",
+    defense: 1,
+    
+    talents: [],
+    subType: EquipmentSubType.Arms
+  },{
+    classes: [Class.Mechanologist],
+    class: Class.Mechanologist,
+    artists: ["Sam Yang"],
+    cardIdentifier: "nitro-mechanoid",
+    defaultImageName: "DYN092_Marvel",
+    functionalText: `**Action** - Banish a card from under Nitro Mechanoid: **Attack**
+
+**Overpower** *(The defending hero can’t defend Nitro Mechanoid with more than 1 action card.)*
+
+**Tempter** *(When the combat chain closes, if this defended, put a -1{d} counter on it, then if it has 0{d}, destroy it.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN092_Marvel",
+      name: "DYN092_Marvel",
+      set: Release.Dynasty,
+      treatment: Treatment.EA,
+    },],
+    keywords: [Keyword.Overpower,Keyword.Temper],
+    name: "Nitro Mechanoid",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN092"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN092_Marvel",
+    type: Type.Equipment,
+    typeText: "Mechanologist Weapon Equipment – Item",
+    defense: 5,
+    
+    talents: [],
+    subType: EquipmentSubType.Item
   },{
     classes: [Class.Assassin],
     class: Class.Assassin,

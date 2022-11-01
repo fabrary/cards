@@ -211,6 +211,7 @@ export enum ActionSubType {
   Attack = "Attack",
   Arrow = "Arrow",
   Aura = "Aura",
+  Construct = "Construct",
   Invocation = "Invocation",
   Item = "Item",
   Landmark = "Landmark",
@@ -222,6 +223,7 @@ export enum EquipmentSubType {
   Arms = "Arms",
   Chest = "Chest",
   Head = "Head",
+  Item = "Item",
   Legs = "Legs",
   OffHand = "Off-Hand",
 }
