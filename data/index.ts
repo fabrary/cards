@@ -62605,6 +62605,44 @@ Draw 2 cards.`,
     
     specializations: [],
     
+  },{
+    classes: [Class.Warrior],
+    class: Class.Warrior,
+    artists: ["soyameii"],
+    cardIdentifier: "ironsong-pride-red",
+    defaultImageName: "DYN072",
+    functionalText: `Put a +1{p} counter on target sword you control.
+
+When Ironsong Pride leaves the arena, remove all +1{p} counters from swords you control.
+
+At the beginning of your end phase, if a sword has not hit this turn, destroy Ironsong Pride.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN072",
+      name: "DYN072",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Ironsong Pride",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN072"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN072",
+    type: Type.Instant,
+    typeText: "Warrior Instant – Aura",
+    cost: 1,
+    
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Aura,
   }];
   const equipment: EquipmentCard[] = [{
     classes: [Class.Generic],
