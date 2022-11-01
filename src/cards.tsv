@@ -4447,6 +4447,7 @@ DYN007	DYN	Savage Beatdown	1	3	6	3			M	Brute, Action, Attack					"Play Savage Be
 As an additional cost to play Savage Beatdown, discard a random card.
 
 If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}."		Brute Action – Attack	Yugin Maffioli				No													S – DYN007 - N	/DYN007.png – DYN007 – N			
+DYN008	DYN	Skull Crack	1	2	6	3			M	Brute, Action, Attack					When Skull Crack is discarded at random, gain {p}.		Brute Action – Attack	Phu Thieu				No													S – DYN08 - N	/DYN008.png – DYN008 – N			
 DYN009	DYN	Berserk	2	1		3			M	Brute, Action	Go again				"Until end of turn, whenever you discard a random card with 6 or more {p}, banish it. If you do, reveal the top card of your deck. If it has 6 or more {p}, draw a card.
 
 **Go again**"		Brute Action	Othon Nikolaidis				No													S – DYN009 - N	/DYN009.png – DYN009 – N			
@@ -4495,6 +4496,9 @@ The third time you play a card with **boost** each turn, put a steam counter on 
 DYN089	DYN	Galvanic Bender				1			R	Mechanologist, Equipment, Arms	Material, Battleworn				"**Material** - While this is under a permanent, that permanent has +1{p}.
 
 **Battleworn** *(When the combat chain closes, if this defended, put a -1{d} counter on it.)*"		Mechanologist Equipment – Arms	Angelina Tyschik				No													S – DYN089 – N	/DYN089.png – DYN089 – N			
+DYN090	DYN	Pulsewave Harpoon	1	1	4	3			M	Mechanologist, Action, Attack	Boost				"When this attacks a hero, they reveal X cards from their hand, where X is the number of times you’ve **boosted** this combat chain. Choose an action card with {d} less than or equal to X, then add it to this chain link as a defending card.
+
+**Boost**"		Mechanologist Action – Attack	Tanapon Wachirakui				No													S – DYN090 – N	/DYN090.png – DYN090 – N			
 DYN091	DYN	Bios Update	1	0		3			M	Mechanologist, Action, 	Boost, Go again				"The next attack action card you **boost** this turn gains +3{p}.
 
 The next time a Mechanologist item with cost 2 or less is banished to pay a **boost** cost this turn, put it into the arena.

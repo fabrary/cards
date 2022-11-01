@@ -30212,8 +30212,7 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     specializations: [],
     subType: ActionSubType.Attack,
-  }];
-  const basicActions2: ActionCard[] = [{
+  },{
     classes: [Class.Generic],
     class: Class.Generic,
     artists: ["Alexis Susani"],
@@ -30253,7 +30252,8 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     specializations: [],
     subType: ActionSubType.Attack,
-  },{
+  }];
+  const basicActions2: ActionCard[] = [{
     classes: [Class.Generic],
     class: Class.Generic,
     artists: ["Alexis Susani"],
@@ -53085,6 +53085,40 @@ If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
   },{
     classes: [Class.Brute],
     class: Class.Brute,
+    artists: ["Phu Thieu"],
+    cardIdentifier: "skull-crack-red",
+    defaultImageName: "DYN008",
+    functionalText: `When Skull Crack is discarded at random, gain {p}.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN008",
+      name: "DYN008",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Skull Crack",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN008"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN008",
+    type: Type.Action,
+    typeText: "Brute Action – Attack",
+    cost: 2,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 6,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Brute],
+    class: Class.Brute,
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "berserk-yellow",
     defaultImageName: "DYN009",
@@ -53440,6 +53474,42 @@ You may play Lumina Ascension as though it were an instant.`,
     
     specializations: [],
     subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Mechanologist],
+    class: Class.Mechanologist,
+    artists: ["Tanapon Wachirakui"],
+    cardIdentifier: "pulsewave-harpoon-red",
+    defaultImageName: "DYN090",
+    functionalText: `When this attacks a hero, they reveal X cards from their hand, where X is the number of times you’ve **boosted** this combat chain. Choose an action card with {d} less than or equal to X, then add it to this chain link as a defending card.
+
+**Boost**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN090",
+      name: "DYN090",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Boost],
+    name: "Pulsewave Harpoon",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN090"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN090",
+    type: Type.Action,
+    typeText: "Mechanologist Action – Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 4,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
   },{
     classes: [Class.Mechanologist],
     class: Class.Mechanologist,
