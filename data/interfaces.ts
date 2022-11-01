@@ -247,6 +247,7 @@ export enum TokenSubType {
 
 export enum WeaponSubType {
   Axe = "Axe",
+  Book = "Book",
   Bow = "Bow",
   Claw = "Claw",
   Club = "Club",

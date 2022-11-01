@@ -54169,6 +54169,42 @@ When this hits a hero, banish the top card of their deck.`,
   },{
     classes: [Class.Runeblade],
     class: Class.Runeblade,
+    artists: ["Federico Musetti"],
+    cardIdentifier: "diabolic-ultimatum-red",
+    defaultImageName: "DYN174",
+    functionalText: `If an attack action card was pitched to play Diabolic Ultimatum, each hero chooses and destroys an ally they control.
+
+If a ‘non-attack’ action card was pitched to play Diabolic Ultimatum, each hero chooses and destroys an aura they control.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN174",
+      name: "DYN174",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Diabolic Ultimatum",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN174"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN174",
+    type: Type.Action,
+    typeText: "Runeblade Action",
+    cost: 3,
+    defense: 2,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Runeblade],
+    class: Class.Runeblade,
     artists: ["Shen Fei"],
     cardIdentifier: "sky-fire-lanterns-red",
     defaultImageName: "DYN188",
@@ -73840,6 +73876,34 @@ Whenever an arrow is put face up in arsenal from your deck, put an aim counter o
     
     talents: [],
     subType: WeaponSubType.Bow
+  },{
+    classes: [Class.Runeblade],
+    class: Class.Runeblade,
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "annals-of-sutcliffe",
+    defaultImageName: "DYN172",
+    functionalText: `**Once per Turn Action**  - {r}{r}{r}: Draw a card. If an attack action card and a ‘non-attack’ action card were pitched this way, create a Runechant token.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN172",
+      name: "DYN172",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Annals of Sutcliffe",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN172"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN172",
+    type: Type.Weapon,
+    typeText: "Runeblade Weapon – Book",
+    handsRequired: HandsRequired.TwoHanded,
+    
+    
+    talents: [],
+    subType: WeaponSubType.Book
   },{
     classes: [Class.Wizard],
     class: Class.Wizard,

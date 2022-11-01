@@ -4588,6 +4588,10 @@ Whenever an arrow is put face up in arsenal from your deck, put an aim counter o
 DYN171	DYN	Amethyst Tiara				1			M	Runeblade, Equipment, Head	Blade Break				"**Instant** - Destroy Amethyst Tiara: Runechants you control have **spellvoid 1** this turn.
 
 **Blade Break** *(When the combat chain closes, if this defended, destroy it.)*"		Runeblade Equipment – Head	Joseph Qiu				No													C – DYN171 – N – EA, S – DYN171 – N	/DYN171_Marvel.png – DYN171_Marvel – N – EA, /DYN171.png – DYN171 – N			
+DYN172	DYN	Annals of Sutcliffe							R	Runeblade, Weapon, Book, 2H					**Once per Turn Action**  - {r}{r}{r}: Draw a card. If an attack action card and a ‘non-attack’ action card were pitched this way, create a Runechant token.		Runeblade Weapon – Book	Nikolay Moskvin				No													S – DYN172 – N	/DYN172.png – DYN172 – N			
+DYN174	DYN	Diabolic Ultimatum	1	3		2			M	Runeblade, Action					"If an attack action card was pitched to play Diabolic Ultimatum, each hero chooses and destroys an ally they control.
+
+If a ‘non-attack’ action card was pitched to play Diabolic Ultimatum, each hero chooses and destroys an aura they control."		Runeblade Action	Federico Musetti				No													S – DYN174 – N	/DYN174.png – DYN174 – N			
 DYN188	DYN	Sky Fire Lanterns	1	0		2			C	Runeblade, Action	Go again				"Reveal the top card of your deck. If it’s red, create a Runechant token.
 
 **Go again**"		Runeblade Action	Shen Fei																	S – DYN188 – N	/DYN188.png – DYN188 – N			
