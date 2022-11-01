@@ -70259,7 +70259,7 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
     classes: [Class.Assassin],
     class: Class.Assassin,
     artists: ["Isuardi Therianto"],
-    cardIdentifier: "arakni-huntsman",
+    cardIdentifier: "arakni",
     defaultImageName: "DYN114",
     functionalText: `Whenever you play a card with **contract**, you may look at the top card of target opponent’s deck. You may put it on the bottom.`,
     images: [{
@@ -70270,7 +70270,7 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
       
     },],
     keywords: [Keyword.Contract],
-    name: "Arakni, Huntsman",
+    name: "Arakni",
     rarity: Rarity.Rare,
     restrictedFormats: [Format.Commoner],
     setIdentifiers: ["DYN114"],

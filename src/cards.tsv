@@ -4477,7 +4477,7 @@ DYN093	DYN	Plasma Mainline	1	2					M	Mechanologist, Action, Item					"Plasma Mai
 When a Mechanologist item with cost 2 or less enters the arena under your control, you may move a steam counter from Plasma Mainline to that item."		Mechanologist Action – Item	Askapoj T				No													S – DYN093 – N	/DYN093.png – DYN093 – N			
 DYN094	DYN	Powder Keg	3	0					M	Mechanologist, Action, Item					Whenever a Mechanologist gun you control hits, you may destroy Powder Keg and a defending equipment.		Mechanologist Action – Item	Victoria Belyaeva																	S – DYN094 – N	/DYN094.png – DYN094 – N			
 DYN113	DYN	Arakni, Huntsman					40	4	M	Assassin, Hero	Contract				Whenever you play a card with **contract**, you may look at the top card of target opponent’s deck. You may put it on the bottom.		Assassin Hero	Isuardi Therianto				No													S – DYN113 – N	/DYN113.png – DYN113 – N			
-DYN114	DYN	Arakni, Huntsman					20	4	R	Assassin, Hero, Young	Contract				Whenever you play a card with **contract**, you may look at the top card of target opponent’s deck. You may put it on the bottom.		Assassin Hero – Young	Isuardi Therianto				No													S – DYN114 – N	/DYN114.png – DYN114 – N			
+DYN114	DYN	Arakni					20	4	R	Assassin, Hero, Young	Contract				Whenever you play a card with **contract**, you may look at the top card of target opponent’s deck. You may put it on the bottom.		Assassin Hero – Young	Isuardi Therianto				No													S – DYN114 – N	/DYN114.png – DYN114 – N			
 DYN115, DYN116	DYN	Spider’s Bite			1				R	Assassin, Weapon, Dagger, 1H	Piercing 1	Once per Turn Action	Attack, Go again		"**Once per Turn Action** – {r}{r}: **Attack**. **Go again**
 
 **Piercing 1** *(If this is defended by an equipment, it has +1{p}.)*
