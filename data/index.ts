@@ -9083,33 +9083,33 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
     class: Class.Mechanologist,
     artists: ["Sergey Gurskiy"],
     cardIdentifier: "optekal-monocle-blue",
-    defaultImageName: "ARC037",
+    defaultImageName: "ARC036",
     functionalText: `Optekal Monocle enters the arena with 5 steam counters on it. When Optekal Monocle has no steam counters on it, destroy it.
 
 **Action** - Remove a steam counter from Optekal Monocle: **Opt 1**. **Go again** *(Look at the top card of your deck. You may put it on the bottom.)*`,
     images: [{
       edition: ReleaseEdition.Promo,
-      identifier: "1HP219",
-      name: "1HP219.width-450",
+      identifier: "1HP218",
+      name: "1HP218.width-450",
       set: Release.HistoryPack1,
       
     },{
       edition: ReleaseEdition.First,
-      identifier: "ARC037",
-      name: "ARC037",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC037",
-      name: "ARC037-RF",
+      identifier: "ARC036",
+      name: "ARC036",
       set: Release.ArcaneRising,
       
     },{
       edition: ReleaseEdition.Unlimited,
-      identifier: "ARC037",
-      name: "U-ARC037",
+      identifier: "ARC036",
+      name: "U-ARC036",
       set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN110",
+      name: "DYN110",
+      set: Release.Dynasty,
       
     },],
     keywords: [],
@@ -9118,7 +9118,7 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
     restrictedFormats: [],
     setIdentifiers: ["1HP219","ARC037"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
-    specialImageName: "ARC037",
+    specialImageName: "ARC036",
     type: Type.Action,
     typeText: "Mechanologist Action – Item",
     cost: 0,
@@ -53475,18 +53475,24 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     class: Class.Mechanologist,
     artists: ["Alexander Mokhov"],
     cardIdentifier: "hyper-driver-yellow",
-    defaultImageName: "",
+    defaultImageName: "DYN111",
     functionalText: `Hyper Driver enters the arena with 2 steam counters on it. When Hyper Driver has no steam counters on it, destroy it.
 
 **Once per Turn Effect** - When you **boost** a card, remove a steam counter from Hyper Driver and gain {r}.`,
-    images: [],
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN111",
+      name: "DYN111",
+      set: Release.Dynasty,
+      
+    },],
     keywords: [],
     name: "Hyper Driver",
     rarity: Rarity.Common,
     restrictedFormats: [],
     setIdentifiers: ["DYN111"],
     sets: [Release.Dynasty],
-    specialImageName: "",
+    specialImageName: "DYN111",
     type: Type.Action,
     typeText: "Mechanologist Action – Item",
     cost: 1,
@@ -53505,18 +53511,24 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     class: Class.Mechanologist,
     artists: ["Alexander Mokhov"],
     cardIdentifier: "hyper-driver-blue",
-    defaultImageName: "",
+    defaultImageName: "DYN112",
     functionalText: `Hyper Driver enters the arena with a steam counter on it. When Hyper Driver has no steam counters on it, destroy it.
 
 **Once per Turn Effect** - When you **boost** a card, remove a steam counter from Hyper Driver and gain {r}.`,
-    images: [],
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN112",
+      name: "DYN112",
+      set: Release.Dynasty,
+      
+    },],
     keywords: [],
     name: "Hyper Driver",
     rarity: Rarity.Common,
     restrictedFormats: [],
     setIdentifiers: ["DYN112"],
     sets: [Release.Dynasty],
-    specialImageName: "",
+    specialImageName: "DYN112",
     type: Type.Action,
     typeText: "Mechanologist Action – Item",
     cost: 1,
