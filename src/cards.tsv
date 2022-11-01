@@ -615,7 +615,7 @@ If you have **boosted** this turn, **opt 1**. *(Look at the top card of your dec
 At the beginning of your action phase, destroy Dissipation Shield unless you remove a steam counter from it.
 
 **Instant** - Destroy Dissipation Shield: The next time your hero would be dealt damage this turn, prevent X damage, where X is the number of steam counters on Dissipation Shield."		Mechanologist Action – Item	Alexander Mokhov																	S – 1HP217 – N, S R – ARC035 – F, S R – ARC035 – U	https://storage.googleapis.com/fabmaster/media/images/1HP217.width-450.png – 1HP217 – N, https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC035.png - ARC035 – F, https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC035.png – ARC035 – U			
-1HP218, ARC036	1HP, ARC	Hyper Driver	1	1					C, C	Mechanologist, Action, Item		Once per Turn Effect			"Hyper Driver enters the arena with 3 steam counters on it. When Hyper Driver has no steam counters on it, destroy it.
+1HP218, ARC036, DYN110	1HP, ARC, DYN	Hyper Driver	1	1					C, C	Mechanologist, Action, Item		Once per Turn Effect			"Hyper Driver enters the arena with 3 steam counters on it. When Hyper Driver has no steam counters on it, destroy it.
 
 **Once per Turn Effect** - When you **boost** a card, remove a steam counter from Hyper Driver and gain {r}."		Mechanologist Action – Item	Alexander Mokhov																	S – 1HP218 – N, S R – ARC036 – F, S R – ARC036 – U	https://storage.googleapis.com/fabmaster/media/images/1HP218.width-450.png – 1HP218 – N, https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC036.png - ARC036 – F, https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC036.png – ARC036 – U			
 1HP219, ARC037	1HP, ARC	Optekal Monocle	3	0					C, C	Mechanologist, Action, Item		Action	Opt 1, Go again		"Optekal Monocle enters the arena with 5 steam counters on it. When Optekal Monocle has no steam counters on it, destroy it.
@@ -4435,6 +4435,7 @@ DYN001	DYN	Emperor, Dracai of Aesir					15	4	L	Royal, Draconic, Warrior, Wizard,
 
 **Action** - {r}{r}{r}: Search your deck for Command and Conquer, **attack** with it, then shuffle."		Royal Draconic Warrior Wizard Hero – Young	Federico Musetti				No													S – DYN001 - N	/DYN001.png – DYN001 – N			
 DYN003	DYN	Dust from the Red Desert	1	0		3			M	Draconic, Illusionist, Action, Ash	Material, Phantasm				**Material** - While this is under a permanent other than Vynserakai, that permanent has **phantasm**.	*The Red Desert of Volcor, where the burning sands prowl.*	Draconic Illusionist Action – Ash	Carlos Cruchaga				No													S – DYN003 - N	/DYN003.png – DYN003 – N			
+DYN004	DYN	Dust from the Shadow Crypts	1	0		3			M	Draconic, Illusionist, Action, Ash	Material, Phantasm				**Material** - While this is under a permanent other than Nekria, that permanent has **phantasm**.	*The Red Desert of Volcor, where the burning sands prowl.*	Draconic Illusionist Action – Ash	Nikita Bondarev				No													S – DYN004 - N	/DYN004.png – DYN004 – N			
 DYN005	DYN	Rok			7				M	Brute, Weapon, Rock, 2H					"**Once per Turn Action** - {p}{p}{p}: **Attack**
 
 Activate Rok only if you have no cards in hand.
@@ -4496,6 +4497,12 @@ DYN093	DYN	Plasma Mainline	1	2					M	Mechanologist, Action, Item					"Plasma Mai
 When a Mechanologist item with cost 2 or less enters the arena under your control, you may move a steam counter from Plasma Mainline to that item."		Mechanologist Action – Item	Askapoj T				No													S – DYN093 – N	/DYN093.png – DYN093 – N			
 DYN094	DYN	Powder Keg	3	0					M	Mechanologist, Action, Item					Whenever a Mechanologist gun you control hits, you may destroy Powder Keg and a defending equipment.		Mechanologist Action – Item	Victoria Belyaeva																	S – DYN094 – N	/DYN094.png – DYN094 – N			
 DYN098	DYN	Blessing of Ingenuity	1	1		3			R	Mechanologist, Action, Aura					At the start of your turn, destroy Blessing of Ingenuity then put up to 3 Hyper Drivers from your graveyard and/or banished zone into the arena.		Mechanologist Action – Aura	Kevin Sidharta				No													S – DYN098 – N	/DYN098.png – DYN098 – N			
+DYN111	DYN	Hyper Driver	2	1					C	Mechanologist, Action, Item		Once per Turn Effect			"Hyper Driver enters the arena with 2 steam counters on it. When Hyper Driver has no steam counters on it, destroy it.
+
+**Once per Turn Effect** - When you **boost** a card, remove a steam counter from Hyper Driver and gain {r}."		Mechanologist Action – Item	Alexander Mokhov																					
+DYN112	DYN	Hyper Driver	3	1					C	Mechanologist, Action, Item		Once per Turn Effect			"Hyper Driver enters the arena with a steam counter on it. When Hyper Driver has no steam counters on it, destroy it.
+
+**Once per Turn Effect** - When you **boost** a card, remove a steam counter from Hyper Driver and gain {r}."		Mechanologist Action – Item	Alexander Mokhov																					
 DYN113	DYN	Arakni, Huntsman					40	4	M	Assassin, Hero	Contract				Whenever you play a card with **contract**, you may look at the top card of target opponent’s deck. You may put it on the bottom.		Assassin Hero	Isuardi Therianto				No													S – DYN113 – N	/DYN113.png – DYN113 – N			
 DYN114	DYN	Arakni					20	4	R	Assassin, Hero, Young	Contract				Whenever you play a card with **contract**, you may look at the top card of target opponent’s deck. You may put it on the bottom.		Assassin Hero – Young	Isuardi Therianto				No													S – DYN114 – N	/DYN114.png – DYN114 – N			
 DYN115, DYN116	DYN	Spider’s Bite			1				R	Assassin, Weapon, Dagger, 1H	Piercing 1	Once per Turn Action	Attack, Go again		"**Once per Turn Action** – {r}{r}: **Attack**. **Go again**
@@ -4629,6 +4636,7 @@ DYN171	DYN	Amethyst Tiara				1			M	Runeblade, Equipment, Head	Blade Break				"**
 
 **Blade Break** *(When the combat chain closes, if this defended, destroy it.)*"		Runeblade Equipment – Head	Joseph Qiu				No													C – DYN171 – N – EA, S – DYN171 – N	/DYN171_Marvel.png – DYN171_Marvel – N – EA, /DYN171.png – DYN171 – N			
 DYN172	DYN	Annals of Sutcliffe							R	Runeblade, Weapon, Book, 2H					**Once per Turn Action**  - {r}{r}{r}: Draw a card. If an attack action card and a ‘non-attack’ action card were pitched this way, create a Runechant token.		Runeblade Weapon – Book	Nikolay Moskvin				No													S – DYN172 – N	/DYN172.png – DYN172 – N			
+DYN173	DYN	Cryptic Crossing	2	3	6	3			M	Runeblade, Action, Attack					If an attack action card and a ‘non-attack’ action card were pitched to play Cryptic Crossing, it has “The first time this deals damage to the defending hero, they discard a card and you draw a card.”		Runeblade Action – Attack	Ramza Ardyputra				No													S – DYN173 – N	/DYN173.png – DYN173 – N			
 DYN174	DYN	Diabolic Ultimatum	1	3		2			M	Runeblade, Action					"If an attack action card was pitched to play Diabolic Ultimatum, each hero chooses and destroys an ally they control.
 
 If a ‘non-attack’ action card was pitched to play Diabolic Ultimatum, each hero chooses and destroys an aura they control."		Runeblade Action	Federico Musetti				No													S – DYN174 – N	/DYN174.png – DYN174 – N			

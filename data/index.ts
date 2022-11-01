@@ -9062,8 +9062,8 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
     name: "Hyper Driver",
     rarity: Rarity.Common,
     restrictedFormats: [],
-    setIdentifiers: ["1HP218","ARC036"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    setIdentifiers: ["1HP218","ARC036","DYN110"],
+    sets: [Release.HistoryPack1,Release.ArcaneRising,Release.Dynasty],
     specialImageName: "ARC036",
     type: Type.Action,
     typeText: "Mechanologist Action – Item",
@@ -29972,8 +29972,7 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     specializations: [],
     subType: ActionSubType.Attack,
-  }];
-  const basicActions2: ActionCard[] = [{
+  },{
     classes: [Class.Generic],
     class: Class.Generic,
     artists: ["Marco González"],
@@ -30053,7 +30052,8 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     specializations: [],
     subType: ActionSubType.Attack,
-  },{
+  }];
+  const basicActions2: ActionCard[] = [{
     classes: [Class.Generic],
     class: Class.Generic,
     artists: ["Tian Thongjomroon"],
@@ -53011,6 +53011,40 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
     specializations: [],
     subType: ActionSubType.Ash,
   },{
+    classes: [Class.Illusionist],
+    class: Class.Illusionist,
+    artists: ["Nikita Bondarev"],
+    cardIdentifier: "dust-from-the-shadow-crypts-red",
+    defaultImageName: "DYN004",
+    functionalText: `**Material** - While this is under a permanent other than Nekria, that permanent has **phantasm**.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN004",
+      name: "DYN004",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Material,Keyword.Phantasm],
+    name: "Dust from the Shadow Crypts",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN004"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN004",
+    type: Type.Action,
+    typeText: "Draconic Illusionist Action – Ash",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Ash,
+  },{
     classes: [Class.Brute],
     class: Class.Brute,
     artists: ["Othon Nikolaidis"],
@@ -53436,6 +53470,66 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     
     specializations: [],
     subType: ActionSubType.Aura,
+  },{
+    classes: [Class.Mechanologist],
+    class: Class.Mechanologist,
+    artists: ["Alexander Mokhov"],
+    cardIdentifier: "hyper-driver-yellow",
+    defaultImageName: "",
+    functionalText: `Hyper Driver enters the arena with 2 steam counters on it. When Hyper Driver has no steam counters on it, destroy it.
+
+**Once per Turn Effect** - When you **boost** a card, remove a steam counter from Hyper Driver and gain {r}.`,
+    images: [],
+    keywords: [],
+    name: "Hyper Driver",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN111"],
+    sets: [Release.Dynasty],
+    specialImageName: "",
+    type: Type.Action,
+    typeText: "Mechanologist Action – Item",
+    cost: 1,
+    
+    fusions: [],
+    pitch: 2,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Item,
+  },{
+    classes: [Class.Mechanologist],
+    class: Class.Mechanologist,
+    artists: ["Alexander Mokhov"],
+    cardIdentifier: "hyper-driver-blue",
+    defaultImageName: "",
+    functionalText: `Hyper Driver enters the arena with a steam counter on it. When Hyper Driver has no steam counters on it, destroy it.
+
+**Once per Turn Effect** - When you **boost** a card, remove a steam counter from Hyper Driver and gain {r}.`,
+    images: [],
+    keywords: [],
+    name: "Hyper Driver",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN112"],
+    sets: [Release.Dynasty],
+    specialImageName: "",
+    type: Type.Action,
+    typeText: "Mechanologist Action – Item",
+    cost: 1,
+    
+    fusions: [],
+    pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Item,
   },{
     classes: [Class.Assassin],
     class: Class.Assassin,
@@ -54524,6 +54618,40 @@ If Hemorrhage Bore has an aim counter, it has “When this hits a hero, destroy 
     
     specializations: [],
     subType: ActionSubType.Arrow,
+  },{
+    classes: [Class.Runeblade],
+    class: Class.Runeblade,
+    artists: ["Ramza Ardyputra"],
+    cardIdentifier: "cryptic-crossing-yellow",
+    defaultImageName: "DYN173",
+    functionalText: `If an attack action card and a ‘non-attack’ action card were pitched to play Cryptic Crossing, it has “The first time this deals damage to the defending hero, they discard a card and you draw a card.”`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN173",
+      name: "DYN173",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Cryptic Crossing",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN173"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN173",
+    type: Type.Action,
+    typeText: "Runeblade Action – Attack",
+    cost: 3,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    power: 6,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
   },{
     classes: [Class.Runeblade],
     class: Class.Runeblade,
