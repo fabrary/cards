@@ -29764,8 +29764,7 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     specializations: [],
     subType: ActionSubType.Attack,
-  }];
-  const basicActions2: ActionCard[] = [{
+  },{
     classes: [Class.Runeblade],
     class: Class.Runeblade,
     artists: ["Joshua Raphael"],
@@ -29811,7 +29810,8 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     specializations: [],
     subType: ActionSubType.Attack,
-  },{
+  }];
+  const basicActions2: ActionCard[] = [{
     classes: [Class.Generic],
     class: Class.Generic,
     artists: ["Phu Thieu"],
@@ -52977,6 +52977,40 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
     specializations: [],
     subType: ActionSubType.Aura,
   },{
+    classes: [Class.Illusionist],
+    class: Class.Illusionist,
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "dust-from-the-red-desert-red",
+    defaultImageName: "DYN003",
+    functionalText: `**Material** - While this is under a permanent other than Vynserakai, that permanent has **phantasm**.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN003",
+      name: "DYN003",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Material,Keyword.Phantasm],
+    name: "Dust from the Red Desert",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN003"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN003",
+    type: Type.Action,
+    typeText: "Draconic Illusionist Action – Ash",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Ash,
+  },{
     classes: [Class.Guardian],
     class: Class.Guardian,
     artists: ["Nathaniel Himawan"],
@@ -53188,6 +53222,42 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
     
     specializations: [],
     subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Mechanologist],
+    class: Class.Mechanologist,
+    artists: ["Askapoj T"],
+    cardIdentifier: "plasma-mainline-red",
+    defaultImageName: "DYN093",
+    functionalText: `Plasma Mainline enters the arena with 5 steam counters on it. When it has no steam counters, destroy it.
+
+When a Mechanologist item with cost 2 or less enters the arena under your control, you may move a steam counter from Plasma Mainline to that item.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN093",
+      name: "DYN093",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Plasma Mainline",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN093"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN093",
+    type: Type.Action,
+    typeText: "Mechanologist Action – Item",
+    cost: 2,
+    
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Item,
   },{
     classes: [Class.Mechanologist],
     class: Class.Mechanologist,
@@ -70185,6 +70255,35 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
     
     talents: [],
     young: null
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "arakni-huntsman",
+    defaultImageName: "DYN114",
+    functionalText: `Whenever you play a card with **contract**, you may look at the top card of target opponent’s deck. You may put it on the bottom.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN114",
+      name: "DYN114",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Arakni, Huntsman",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN114"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN114",
+    type: Type.Hero,
+    typeText: "Assassin Hero – Young",
+    intellect: 4,
+    hero: Hero.Arakni,
+    life: 20,
+    subType: HeroSubType.Young,
+    talents: [],
+    young: true
   }];
   const placeholders: PlaceholderCard[] = [{
     classes: [Class.Generic],

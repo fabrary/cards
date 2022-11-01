@@ -4434,6 +4434,7 @@ You may put this in your deck in place of an invocation you own. Mark the box ne
 DYN001	DYN	Emperor, Dracai of Aesir					15	4	L	Royal, Draconic, Warrior, Wizard, Hero, Young		Action	Attack		"You may only have red cards in your deck.
 
 **Action** - {r}{r}{r}: Search your deck for Command and Conquer, **attack** with it, then shuffle."		Royal Draconic Warrior Wizard Hero – Young	Federico Musetti				No													S – DYN001 - N	/DYN001.png – DYN001 – N			
+DYN003	DYN	Dust from the Red Desert	1	0		3			M	Draconic, Illusionist, Action, Ash	Material, Phantasm				**Material** - While this is under a permanent other than Vynserakai, that permanent has **phantasm**.	*The Red Desert of Volcor, where the burning sands prowl.*	Draconic Illusionist Action – Ash	Carlos Cruchaga				No													S – DYN003 - N	/DYN003.png – DYN003 – N			
 DYN005	DYN	Rok			7				M	Brute, Weapon, Rock, 2H					"**Once per Turn Action** - {p}{p}{p}: **Attack**
 
 Activate Rok only if you have no cards in hand.
@@ -4471,8 +4472,12 @@ DYN088	DYN	Hanabi Blaster			5				M	Mechanologist, Weapon, Gun, 2H	Overpower				"
 **Overpower** *(This can’t be defended by more than 1 action card.)*
 
 The third time you play a card with **boost** each turn, put a steam counter on Hanabi Blaster"		Mechanologist Weapon – Gun (2H)	Joseph Qiu																	C – DYN088 – N – EA, S – DYN088 – N	/DYN088_Marvel.png – DYN088_Marvel – N – EA, /DYN088.png – DYN088 – N			
+DYN093	DYN	Plasma Mainline	1	2					M	Mechanologist, Action, Item					"Plasma Mainline enters the arena with 5 steam counters on it. When it has no steam counters, destroy it.
+
+When a Mechanologist item with cost 2 or less enters the arena under your control, you may move a steam counter from Plasma Mainline to that item."		Mechanologist Action – Item	Askapoj T				No													S – DYN093 – N	/DYN093.png – DYN093 – N			
 DYN094	DYN	Powder Keg	3	0					M	Mechanologist, Action, Item					Whenever a Mechanologist gun you control hits, you may destroy Powder Keg and a defending equipment.		Mechanologist Action – Item	Victoria Belyaeva																	S – DYN094 – N	/DYN094.png – DYN094 – N			
 DYN113	DYN	Arakni, Huntsman					40	4	M	Assassin, Hero	Contract				Whenever you play a card with **contract**, you may look at the top card of target opponent’s deck. You may put it on the bottom.		Assassin Hero	Isuardi Therianto				No													S – DYN113 – N	/DYN113.png – DYN113 – N			
+DYN114	DYN	Arakni, Huntsman					20	4	R	Assassin, Hero, Young	Contract				Whenever you play a card with **contract**, you may look at the top card of target opponent’s deck. You may put it on the bottom.		Assassin Hero – Young	Isuardi Therianto				No													S – DYN114 – N	/DYN114.png – DYN114 – N			
 DYN115, DYN116	DYN	Spider’s Bite			1				R	Assassin, Weapon, Dagger, 1H	Piercing 1	Once per Turn Action	Attack, Go again		"**Once per Turn Action** – {r}{r}: **Attack**. **Go again**
 
 **Piercing 1** *(If this is defended by an equipment, it has +1{p}.)*
