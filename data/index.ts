@@ -67211,6 +67211,35 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     talents: [],
     subType: EquipmentSubType.Head
   },{
+    classes: [Class.Ranger],
+    class: Class.Ranger,
+    artists: ["Grigoriy Parshakov"],
+    cardIdentifier: "hornets-sting",
+    defaultImageName: "DYN152",
+    functionalText: `Whenever Hornet’s Sting defends, reveal the top card of your deck. If it’s an arrow, deal 1 damage to the attacking hero or ally. Otherwise, put it on the bottom of your deck.
+
+**Blade Break** *(When the combat chain closes, if this defended, destroy it.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN152",
+      name: "DYN152",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.BladeBreak],
+    name: "Hornet’s Sting",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN152"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN152",
+    type: Type.Equipment,
+    typeText: "Ranger Equipment – Arms",
+    defense: 1,
+    
+    talents: [],
+    subType: EquipmentSubType.Arms
+  },{
     classes: [Class.Runeblade],
     class: Class.Runeblade,
     artists: ["Joseph Qiu"],

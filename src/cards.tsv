@@ -4585,6 +4585,9 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
 DYN151	DYN	Sandscour Greatbow							M	Ranger, Weapon, Bow, 2H	Go again				"**Once per Turn Action** - {r}: Look at the top card of your deck. You may put an arrow from your hand or the top of your deck face up into your arsenal. **Go again**
 
 Whenever an arrow is put face up in arsenal from your deck, put an aim counter on it."		Ranger Weapon – Bow (2H)	Carlos Cruchaga				No													C – DYN151 – N – EA, S – DYN151 – N	/DYN151_Marvel.png – DYN151_Marvel – N – EA, /DYN151.png – DYN151 – N			
+DYN152	DYN	Hornet’s Sting				1			R	Ranger, Equipment, Arms	Blade Break				"Whenever Hornet’s Sting defends, reveal the top card of your deck. If it’s an arrow, deal 1 damage to the attacking hero or ally. Otherwise, put it on the bottom of your deck.
+
+**Blade Break** *(When the combat chain closes, if this defended, destroy it.)*"		Ranger Equipment – Arms	Grigoriy Parshakov				No													S – DYN152 – N	/DYN152.png – DYN152 – N			
 DYN171	DYN	Amethyst Tiara				1			M	Runeblade, Equipment, Head	Blade Break				"**Instant** - Destroy Amethyst Tiara: Runechants you control have **spellvoid 1** this turn.
 
 **Blade Break** *(When the combat chain closes, if this defended, destroy it.)*"		Runeblade Equipment – Head	Joseph Qiu				No													C – DYN171 – N – EA, S – DYN171 – N	/DYN171_Marvel.png – DYN171_Marvel – N – EA, /DYN171.png – DYN171 – N			
