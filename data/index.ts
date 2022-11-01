@@ -30052,8 +30052,7 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     specializations: [],
     subType: ActionSubType.Attack,
-  }];
-  const basicActions2: ActionCard[] = [{
+  },{
     classes: [Class.Generic],
     class: Class.Generic,
     artists: ["Tian Thongjomroon"],
@@ -30093,7 +30092,8 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     specializations: [],
     subType: ActionSubType.Attack,
-  },{
+  }];
+  const basicActions2: ActionCard[] = [{
     classes: [Class.Generic],
     class: Class.Generic,
     artists: ["Tian Thongjomroon"],
@@ -53292,6 +53292,44 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
     
     specializations: [],
     subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Warrior],
+    class: Class.Warrior,
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "spirit-of-eirina-yellow",
+    defaultImageName: "DYN066",
+    functionalText: `**Legendary** *(You may only have 1 Spirit of Eirina in your deck.)*
+
+If Spirit of Eirina would be put into your soul, instead put it into the arena.
+
+You may play Lumina Ascension as though it were an instant.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN066",
+      name: "DYN066",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Legendary],
+    name: "Spirit of Eirina",
+    rarity: Rarity.Legendary,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN066"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN066",
+    type: Type.Action,
+    typeText: "Light Warrior Action – Item",
+    cost: 0,
+    
+    fusions: [],
+    pitch: 2,
+    
+    talents: [Talent.Light],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Item,
   },{
     classes: [Class.Warrior],
     class: Class.Warrior,

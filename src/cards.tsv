@@ -4459,6 +4459,11 @@ LGS123, DYN063	LGS, DYN	Predatory Streak	2	0		2			P	Ninja, Action	Go again				**
 LGS124, DYN064	LGS, DYN	Predatory Streak	3	0		2			P	Ninja, Action	Go again				"Create 1 Crouching Tiger in your banished zone. You may play it this turn.
 
 **Go again**"		Ninja Action	Immanuela Crovius																	R – LGS124 – N – EA	/LGS124.png – LGS124 – N			
+DYN066	DYN	Spirit of Eirina	2	0					L	Light, Warrior, Action, Item	Legendary				"**Legendary** *(You may only have 1 Spirit of Eirina in your deck.)*
+
+If Spirit of Eirina would be put into your soul, instead put it into the arena.
+
+You may play Lumina Ascension as though it were an instant."		Light Warrior Action – Item	Henrique Lindner				No													S – DYN066 – N	/DYN066.png – DYN066 – N			
 DYN068	DYN	Merciless Battleaxe			3				M	Warrior, Weapon, Axe, 2H	Overpower				"**Once per Turn Action** - {r}{r}{r}: **Attack**
 
 Whenever Merciless Battleaxe attacks, if its {p} is greater than twice its base {p}, the attack gains **overpower**. *(This can’t be defended by more than 1 action card.)*"		Warrior Weapon – Axe (2H)	Carlos Cruchaga				No													S – DYN068 – N, C – DYN068 – N – EA	"/DYN068.png – DYN068 – N,
