@@ -32,1514 +32,6 @@
   } from './interfaces';
   
   const basicActions1: ActionCard[] = [{
-    classes: [Class.Guardian],
-    class: Class.Guardian,
-    artists: ["Nathaniel Himawan"],
-    cardIdentifier: "reinforce-steel-red",
-    defaultImageName: "DYN039",
-    functionalText: `Remove a -1{d} counter from a Guardian off-hand you control with 3 or less base {d}.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN039",
-      name: "DYN039",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [],
-    name: "Reinforce Steel",
-    rarity: Rarity.Common,
-    restrictedFormats: [],
-    setIdentifiers: ["DYN039"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN039",
-    type: Type.Action,
-    typeText: "Guardian Action",
-    cost: 2,
-    defense: 3,
-    fusions: [],
-    pitch: 1,
-    
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.NonAttack,
-  },{
-    classes: [Class.Guardian],
-    class: Class.Guardian,
-    artists: ["Nathaniel Himawan"],
-    cardIdentifier: "reinforce-steel-yellow",
-    defaultImageName: "DYN040",
-    functionalText: `Remove a -1{d} counter from a Guardian off-hand you control with 2 or less base {d}.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN040",
-      name: "DYN040",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [],
-    name: "Reinforce Steel",
-    rarity: Rarity.Common,
-    restrictedFormats: [],
-    setIdentifiers: ["DYN040"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN040",
-    type: Type.Action,
-    typeText: "Guardian Action",
-    cost: 2,
-    defense: 3,
-    fusions: [],
-    pitch: 2,
-    
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.NonAttack,
-  },{
-    classes: [Class.Guardian],
-    class: Class.Guardian,
-    artists: ["Nathaniel Himawan"],
-    cardIdentifier: "reinforce-steel-blue",
-    defaultImageName: "DYN041",
-    functionalText: `Remove a -1{d} counter from a Guardian off-hand you control with 1 or less base {d}.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN041",
-      name: "DYN041",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [],
-    name: "Reinforce Steel",
-    rarity: Rarity.Common,
-    restrictedFormats: [],
-    setIdentifiers: ["DYN041"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN041",
-    type: Type.Action,
-    typeText: "Guardian Action",
-    cost: 2,
-    defense: 3,
-    fusions: [],
-    pitch: 3,
-    
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.NonAttack,
-  },{
-    classes: [Class.Mechanologist],
-    class: Class.Mechanologist,
-    artists: ["Victoria Belyaeva"],
-    cardIdentifier: "powder-keg-blue",
-    defaultImageName: "DYN094",
-    functionalText: `Whenever a Mechanologist gun you control hits, you may destroy Powder Keg and a defending equipment.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN094",
-      name: "DYN094",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [],
-    name: "Powder Keg",
-    rarity: Rarity.Majestic,
-    restrictedFormats: [],
-    setIdentifiers: ["DYN094"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN094",
-    type: Type.Action,
-    typeText: "Mechanologist Action – Item",
-    cost: 0,
-    
-    fusions: [],
-    pitch: 3,
-    
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Item,
-  },{
-    classes: [Class.Assassin],
-    class: Class.Assassin,
-    artists: ["soyameii"],
-    cardIdentifier: "leave-no-witnesses-red",
-    defaultImageName: "DYN120",
-    functionalText: `**Contract**  - You are contracted to banish opponent’s red cards. Whenever you complete this contract, create a Silver token.
-
-When this hits a hero, banish the top card of their deck and up to 1 card in their arsenal.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN120",
-      name: "DYN120",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.Contract],
-    name: "Leave no Witnesses",
-    rarity: Rarity.Majestic,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["DYN120"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN120",
-    type: Type.Action,
-    typeText: "Assassin Action – Attack",
-    cost: 0,
-    defense: 3,
-    fusions: [],
-    pitch: 1,
-    power: 4,
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Attack,
-  },{
-    classes: [Class.Assassin],
-    class: Class.Assassin,
-    artists: ["Wisnu Tan"],
-    cardIdentifier: "surgical-extraction-blue",
-    defaultImageName: "DYN122",
-    functionalText: `**Contract** - You are contracted to banish opponents’ blue cards. Whenever you complete this contract, create a Silver token.
-
-When this hits a hero, banish the top card of their deck, then look at their hand and banish a card.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN122",
-      name: "DYN122",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.Contract],
-    name: "Surgical Extraction",
-    rarity: Rarity.Majestic,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["DYN122"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN122",
-    type: Type.Action,
-    typeText: "Assassin Action – Attack",
-    cost: 2,
-    defense: 3,
-    fusions: [],
-    pitch: 3,
-    power: 4,
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Attack,
-  },{
-    classes: [Class.Assassin],
-    class: Class.Assassin,
-    artists: ["Athiwut B."],
-    cardIdentifier: "pay-day-blue",
-    defaultImageName: "DYN123",
-    functionalText: `If you've completed a contract this turn, create 4 Silver tokens.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN123",
-      name: "DYN123",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [],
-    name: "Pay Day",
-    rarity: Rarity.Majestic,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["DYN123"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN123",
-    type: Type.Action,
-    typeText: "Assassin Action",
-    cost: 0,
-    defense: 3,
-    fusions: [],
-    pitch: 3,
-    
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.NonAttack,
-  },{
-    classes: [Class.Assassin],
-    class: Class.Assassin,
-    artists: ["Carlos Cruchaga"],
-    cardIdentifier: "plunder-the-poor-red",
-    defaultImageName: "DYN124",
-    functionalText: `**Contract** – You are contracted to banish opponents' cards with cost 1 or less. Whenever you complete this contract, create a Silver token.
-
-When this hits a hero, banish the top card of their deck.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN124",
-      name: "DYN124",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.Contract],
-    name: "Plunder the Poor",
-    rarity: Rarity.Rare,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["DYN124"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN124",
-    type: Type.Action,
-    typeText: "Assassin Action – Attack",
-    cost: 0,
-    defense: 0,
-    fusions: [],
-    pitch: 1,
-    power: 4,
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Attack,
-  },{
-    classes: [Class.Assassin],
-    class: Class.Assassin,
-    artists: ["Carlos Cruchaga"],
-    cardIdentifier: "plunder-the-poor-yellow",
-    defaultImageName: "DYN125",
-    functionalText: `**Contract** – You are contracted to banish opponents' cards with cost 1 or less. Whenever you complete this contract, create a Silver token.
-
-When this hits a hero, banish the top card of their deck.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN125",
-      name: "DYN125",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.Contract],
-    name: "Plunder the Poor",
-    rarity: Rarity.Rare,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["DYN125"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN125",
-    type: Type.Action,
-    typeText: "Assassin Action – Attack",
-    cost: 0,
-    defense: 0,
-    fusions: [],
-    pitch: 2,
-    power: 3,
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Attack,
-  },{
-    classes: [Class.Assassin],
-    class: Class.Assassin,
-    artists: ["Carlos Cruchaga"],
-    cardIdentifier: "plunder-the-poor-blue",
-    defaultImageName: "DYN126",
-    functionalText: `**Contract** – You are contracted to banish opponents' cards with cost 1 or less. Whenever you complete this contract, create a Silver token.
-
-When this hits a hero, banish the top card of their deck.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN126",
-      name: "DYN126",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.Contract],
-    name: "Plunder the Poor",
-    rarity: Rarity.Rare,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["DYN126"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN126",
-    type: Type.Action,
-    typeText: "Assassin Action – Attack",
-    cost: 0,
-    defense: 0,
-    fusions: [],
-    pitch: 3,
-    power: 2,
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Attack,
-  },{
-    classes: [Class.Assassin],
-    class: Class.Assassin,
-    artists: ["Narendra B Adi"],
-    cardIdentifier: "rob-the-rich-red",
-    defaultImageName: "DYN127",
-    functionalText: `**Contract** – You are contracted to banish opponents' cards with cost 2 or greater. Whenever you complete this contract, create a Silver token.
-
-When this hits a hero, banish the top card of their deck.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN127",
-      name: "DYN127",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.Contract],
-    name: "Rob the Rich",
-    rarity: Rarity.Rare,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["DYN127"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN127",
-    type: Type.Action,
-    typeText: "Assassin Action – Attack",
-    cost: 1,
-    defense: 3,
-    fusions: [],
-    pitch: 1,
-    power: 5,
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Attack,
-  },{
-    classes: [Class.Assassin],
-    class: Class.Assassin,
-    artists: ["Narendra B Adi"],
-    cardIdentifier: "rob-the-rich-yellow",
-    defaultImageName: "DYN128",
-    functionalText: `**Contract** – You are contracted to banish opponents' cards with cost 2 or greater. Whenever you complete this contract, create a Silver token.
-
-When this hits a hero, banish the top card of their deck.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN128",
-      name: "DYN128",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.Contract],
-    name: "Rob the Rich",
-    rarity: Rarity.Rare,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["DYN128"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN128",
-    type: Type.Action,
-    typeText: "Assassin Action – Attack",
-    cost: 1,
-    defense: 3,
-    fusions: [],
-    pitch: 2,
-    power: 4,
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Attack,
-  },{
-    classes: [Class.Assassin],
-    class: Class.Assassin,
-    artists: ["Narendra B Adi"],
-    cardIdentifier: "rob-the-rich-blue",
-    defaultImageName: "DYN129",
-    functionalText: `**Contract** – You are contracted to banish opponents' cards with cost 2 or greater. Whenever you complete this contract, create a Silver token.
-
-When this hits a hero, banish the top card of their deck.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN129",
-      name: "DYN129",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.Contract],
-    name: "Rob the Rich",
-    rarity: Rarity.Rare,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["DYN129"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN129",
-    type: Type.Action,
-    typeText: "Assassin Action – Attack",
-    cost: 1,
-    defense: 3,
-    fusions: [],
-    pitch: 3,
-    power: 3,
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Attack,
-  },{
-    classes: [Class.Assassin],
-    class: Class.Assassin,
-    artists: ["Shen Fei"],
-    cardIdentifier: "annihilate-the-armed-red",
-    defaultImageName: "DYN133",
-    functionalText: `**Contract** – You are contracted to banish opponents' attack action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
-
-When this hits a hero, banish the top card of their deck.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN133",
-      name: "DYN133",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.Contract],
-    name: "Annihilate the Armed",
-    rarity: Rarity.Common,
-    restrictedFormats: [],
-    setIdentifiers: ["DYN133"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN133",
-    type: Type.Action,
-    typeText: "Assassin Action – Attack",
-    cost: 1,
-    defense: 3,
-    fusions: [],
-    pitch: 1,
-    power: 5,
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Attack,
-  },{
-    classes: [Class.Assassin],
-    class: Class.Assassin,
-    artists: ["Shen Fei"],
-    cardIdentifier: "annihilate-the-armed-yellow",
-    defaultImageName: "DYN134",
-    functionalText: `**Contract** – You are contracted to banish opponents' attack action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
-
-When this hits a hero, banish the top card of their deck.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN134",
-      name: "DYN134",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.Contract],
-    name: "Annihilate the Armed",
-    rarity: Rarity.Common,
-    restrictedFormats: [],
-    setIdentifiers: ["DYN134"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN134",
-    type: Type.Action,
-    typeText: "Assassin Action – Attack",
-    cost: 1,
-    defense: 3,
-    fusions: [],
-    pitch: 2,
-    power: 4,
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Attack,
-  },{
-    classes: [Class.Assassin],
-    class: Class.Assassin,
-    artists: ["Shen Fei"],
-    cardIdentifier: "annihilate-the-armed-blue",
-    defaultImageName: "DYN135",
-    functionalText: `**Contract** – You are contracted to banish opponents' attack action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
-
-When this hits a hero, banish the top card of their deck.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN135",
-      name: "DYN135",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.Contract],
-    name: "Annihilate the Armed",
-    rarity: Rarity.Common,
-    restrictedFormats: [],
-    setIdentifiers: ["DYN135"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN135",
-    type: Type.Action,
-    typeText: "Assassin Action – Attack",
-    cost: 1,
-    defense: 3,
-    fusions: [],
-    pitch: 3,
-    power: 3,
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Attack,
-  },{
-    classes: [Class.Assassin],
-    class: Class.Assassin,
-    artists: ["Marco Gonzalez"],
-    cardIdentifier: "fleece-the-frail-red",
-    defaultImageName: "DYN136",
-    functionalText: `**Contract** – You are contracted to banish opponents' cards with 2 or less {d}. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
-
-When this hits a hero, banish the top card of their deck.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN136",
-      name: "DYN136",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.Contract],
-    name: "Fleece the Frail",
-    rarity: Rarity.Common,
-    restrictedFormats: [],
-    setIdentifiers: ["DYN136"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN136",
-    type: Type.Action,
-    typeText: "Assassin Action – Attack",
-    cost: 0,
-    defense: 3,
-    fusions: [],
-    pitch: 1,
-    power: 4,
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Attack,
-  },{
-    classes: [Class.Assassin],
-    class: Class.Assassin,
-    artists: ["Marco Gonzalez"],
-    cardIdentifier: "fleece-the-frail-yellow",
-    defaultImageName: "DYN137",
-    functionalText: `**Contract** – You are contracted to banish opponents' cards with 2 or less {d}. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
-
-When this hits a hero, banish the top card of their deck.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN137",
-      name: "DYN137",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.Contract],
-    name: "Fleece the Frail",
-    rarity: Rarity.Common,
-    restrictedFormats: [],
-    setIdentifiers: ["DYN137"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN137",
-    type: Type.Action,
-    typeText: "Assassin Action – Attack",
-    cost: 0,
-    defense: 3,
-    fusions: [],
-    pitch: 2,
-    power: 3,
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Attack,
-  },{
-    classes: [Class.Assassin],
-    class: Class.Assassin,
-    artists: ["Marco Gonzalez"],
-    cardIdentifier: "fleece-the-frail-blue",
-    defaultImageName: "DYN138",
-    functionalText: `**Contract** – You are contracted to banish opponents' cards with 2 or less {d}. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
-
-When this hits a hero, banish the top card of their deck.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN138",
-      name: "DYN138",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.Contract],
-    name: "Fleece the Frail",
-    rarity: Rarity.Common,
-    restrictedFormats: [],
-    setIdentifiers: ["DYN138"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN138",
-    type: Type.Action,
-    typeText: "Assassin Action – Attack",
-    cost: 0,
-    defense: 3,
-    fusions: [],
-    pitch: 3,
-    power: 2,
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Attack,
-  },{
-    classes: [Class.Assassin],
-    class: Class.Assassin,
-    artists: ["Narendra B Adi"],
-    cardIdentifier: "nix-the-nimble-red",
-    defaultImageName: "DYN139",
-    functionalText: `**Contract** – You are contracted to banish opponents' reaction cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
-
-When this hits a hero, banish the top card of their deck.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN139",
-      name: "DYN139",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.Contract],
-    name: "Nix the Nimble",
-    rarity: Rarity.Common,
-    restrictedFormats: [],
-    setIdentifiers: ["DYN139"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN139",
-    type: Type.Action,
-    typeText: "Assassin Action – Attack",
-    cost: 1,
-    defense: 3,
-    fusions: [],
-    pitch: 1,
-    power: 5,
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Attack,
-  },{
-    classes: [Class.Assassin],
-    class: Class.Assassin,
-    artists: ["Narendra B Adi"],
-    cardIdentifier: "nix-the-nimble-yellow",
-    defaultImageName: "DYN140",
-    functionalText: `**Contract** – You are contracted to banish opponents' reaction cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
-
-When this hits a hero, banish the top card of their deck.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN140",
-      name: "DYN140",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.Contract],
-    name: "Nix the Nimble",
-    rarity: Rarity.Common,
-    restrictedFormats: [],
-    setIdentifiers: ["DYN140"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN140",
-    type: Type.Action,
-    typeText: "Assassin Action – Attack",
-    cost: 1,
-    defense: 3,
-    fusions: [],
-    pitch: 2,
-    power: 4,
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Attack,
-  },{
-    classes: [Class.Assassin],
-    class: Class.Assassin,
-    artists: ["Narendra B Adi"],
-    cardIdentifier: "nix-the-nimble-blue",
-    defaultImageName: "DYN141",
-    functionalText: `**Contract** – You are contracted to banish opponents' reaction cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
-
-When this hits a hero, banish the top card of their deck.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN141",
-      name: "DYN141",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.Contract],
-    name: "Nix the Nimble",
-    rarity: Rarity.Common,
-    restrictedFormats: [],
-    setIdentifiers: ["DYN141"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN141",
-    type: Type.Action,
-    typeText: "Assassin Action – Attack",
-    cost: 1,
-    defense: 3,
-    fusions: [],
-    pitch: 3,
-    power: 3,
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Attack,
-  },{
-    classes: [Class.Assassin],
-    class: Class.Assassin,
-    artists: ["Shen Fei"],
-    cardIdentifier: "sack-the-shifty-red",
-    defaultImageName: "DYN142",
-    functionalText: `**Contract** – You are contracted to banish opponents' cards with base **go again**. Whenever you complete this contract, create a Silver token. *(Base go again does not include go again gained by effects.)*
-
-When this hits a hero, banish the top card of their deck.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN142",
-      name: "DYN142",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.Contract],
-    name: "Sack the Shifty",
-    rarity: Rarity.Common,
-    restrictedFormats: [],
-    setIdentifiers: ["DYN142"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN142",
-    type: Type.Action,
-    typeText: "Assassin Action – Attack",
-    cost: 0,
-    defense: 3,
-    fusions: [],
-    pitch: 1,
-    power: 4,
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Attack,
-  },{
-    classes: [Class.Assassin],
-    class: Class.Assassin,
-    artists: ["Shen Fei"],
-    cardIdentifier: "sack-the-shifty-yellow",
-    defaultImageName: "DYN143",
-    functionalText: `**Contract** – You are contracted to banish opponents' cards with base **go again**. Whenever you complete this contract, create a Silver token. *(Base go again does not include go again gained by effects.)*
-
-When this hits a hero, banish the top card of their deck.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN143",
-      name: "DYN143",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.Contract],
-    name: "Sack the Shifty",
-    rarity: Rarity.Common,
-    restrictedFormats: [],
-    setIdentifiers: ["DYN143"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN143",
-    type: Type.Action,
-    typeText: "Assassin Action – Attack",
-    cost: 0,
-    defense: 3,
-    fusions: [],
-    pitch: 2,
-    power: 3,
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Attack,
-  },{
-    classes: [Class.Assassin],
-    class: Class.Assassin,
-    artists: ["Shen Fei"],
-    cardIdentifier: "sack-the-shifty-blue",
-    defaultImageName: "DYN144",
-    functionalText: `**Contract** – You are contracted to banish opponents' cards with base **go again**. Whenever you complete this contract, create a Silver token. *(Base go again does not include go again gained by effects.)*
-
-When this hits a hero, banish the top card of their deck.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN144",
-      name: "DYN144",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.Contract],
-    name: "Sack the Shifty",
-    rarity: Rarity.Common,
-    restrictedFormats: [],
-    setIdentifiers: ["DYN144"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN144",
-    type: Type.Action,
-    typeText: "Assassin Action – Attack",
-    cost: 0,
-    defense: 3,
-    fusions: [],
-    pitch: 3,
-    power: 2,
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Attack,
-  },{
-    classes: [Class.Assassin],
-    class: Class.Assassin,
-    artists: ["Nikolay Moskvin"],
-    cardIdentifier: "slay-the-scholars-red",
-    defaultImageName: "DYN145",
-    functionalText: `**Contract** - You are contracted to banish opponents' 'non-attack' action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
-
-When this hits a hero, banish the top card of their deck.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN145",
-      name: "DYN145",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.Contract],
-    name: "Slay the Scholars",
-    rarity: Rarity.Common,
-    restrictedFormats: [],
-    setIdentifiers: ["DYN145"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN145",
-    type: Type.Action,
-    typeText: "Assassin Action – Attack",
-    cost: 0,
-    defense: 3,
-    fusions: [],
-    pitch: 1,
-    power: 4,
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Attack,
-  },{
-    classes: [Class.Assassin],
-    class: Class.Assassin,
-    artists: ["Nikolay Moskvin"],
-    cardIdentifier: "slay-the-scholars-yellow",
-    defaultImageName: "DYN146",
-    functionalText: `**Contract** - You are contracted to banish opponents' 'non-attack' action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
-
-When this hits a hero, banish the top card of their deck.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN146",
-      name: "DYN146",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.Contract],
-    name: "Slay the Scholars",
-    rarity: Rarity.Common,
-    restrictedFormats: [],
-    setIdentifiers: ["DYN146"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN146",
-    type: Type.Action,
-    typeText: "Assassin Action – Attack",
-    cost: 0,
-    defense: 3,
-    fusions: [],
-    pitch: 2,
-    power: 3,
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Attack,
-  },{
-    classes: [Class.Assassin],
-    class: Class.Assassin,
-    artists: ["Nikolay Moskvin"],
-    cardIdentifier: "slay-the-scholars-blue",
-    defaultImageName: "DYN147",
-    functionalText: `**Contract** - You are contracted to banish opponents' 'non-attack' action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
-
-When this hits a hero, banish the top card of their deck.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN147",
-      name: "DYN147",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.Contract],
-    name: "Slay the Scholars",
-    rarity: Rarity.Common,
-    restrictedFormats: [],
-    setIdentifiers: ["DYN147"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN147",
-    type: Type.Action,
-    typeText: "Assassin Action – Attack",
-    cost: 0,
-    defense: 3,
-    fusions: [],
-    pitch: 3,
-    power: 2,
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Attack,
-  },{
-    classes: [Class.Runeblade],
-    class: Class.Runeblade,
-    artists: ["Shen Fei"],
-    cardIdentifier: "sky-fire-lanterns-red",
-    defaultImageName: "DYN188",
-    functionalText: `Reveal the top card of your deck. If it’s red, create a Runechant token.
-
-**Go again**`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN188",
-      name: "DYN188",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.GoAgain],
-    name: "Sky Fire Lanterns",
-    rarity: Rarity.Common,
-    restrictedFormats: [],
-    setIdentifiers: ["DYN188"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN188",
-    type: Type.Action,
-    typeText: "Runeblade Action",
-    cost: 0,
-    defense: 2,
-    fusions: [],
-    pitch: 1,
-    
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.NonAttack,
-  },{
-    classes: [Class.Runeblade],
-    class: Class.Runeblade,
-    artists: ["Shen Fei"],
-    cardIdentifier: "sky-fire-lanterns-yellow",
-    defaultImageName: "DYN189",
-    functionalText: `Reveal the top card of your deck. If it’s yellow, create a Runechant token.
-
-**Go again**`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN189",
-      name: "DYN189",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.GoAgain],
-    name: "Sky Fire Lanterns",
-    rarity: Rarity.Common,
-    restrictedFormats: [],
-    setIdentifiers: ["DYN189"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN189",
-    type: Type.Action,
-    typeText: "Runeblade Action",
-    cost: 0,
-    defense: 2,
-    fusions: [],
-    pitch: 2,
-    
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.NonAttack,
-  },{
-    classes: [Class.Runeblade],
-    class: Class.Runeblade,
-    artists: ["Shen Fei"],
-    cardIdentifier: "sky-fire-lanterns-blue",
-    defaultImageName: "DYN190",
-    functionalText: `Reveal the top card of your deck. If it’s blue, create a Runechant token.
-
-**Go again**`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN190",
-      name: "DYN190",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.GoAgain],
-    name: "Sky Fire Lanterns",
-    rarity: Rarity.Common,
-    restrictedFormats: [],
-    setIdentifiers: ["DYN190"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN190",
-    type: Type.Action,
-    typeText: "Runeblade Action",
-    cost: 0,
-    defense: 2,
-    fusions: [],
-    pitch: 3,
-    
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.NonAttack,
-  },{
-    classes: [Class.Illusionist],
-    class: Class.Illusionist,
-    artists: ["Mateusz Wisniewski"],
-    cardIdentifier: "water-glow-lanterns-red",
-    defaultImageName: "DYN230",
-    functionalText: `Reveal the top card of your deck. If it’s red, create a Spectral Shield token.
-
-**Go again**`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN230",
-      name: "DYN230",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.GoAgain],
-    name: "Water Glow Lanterns",
-    rarity: Rarity.Common,
-    restrictedFormats: [],
-    setIdentifiers: ["DYN230"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN230",
-    type: Type.Action,
-    typeText: "Illusionist Action",
-    cost: 0,
-    defense: 2,
-    fusions: [],
-    pitch: 1,
-    
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.NonAttack,
-  },{
-    classes: [Class.Illusionist],
-    class: Class.Illusionist,
-    artists: ["Mateusz Wisniewski"],
-    cardIdentifier: "water-glow-lanterns-yellow",
-    defaultImageName: "DYN231",
-    functionalText: `Reveal the top card of your deck. If it’s yellow, create a Spectral Shield token.
-
-**Go again**`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN231",
-      name: "DYN231",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.GoAgain],
-    name: "Water Glow Lanterns",
-    rarity: Rarity.Common,
-    restrictedFormats: [],
-    setIdentifiers: ["DYN231"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN231",
-    type: Type.Action,
-    typeText: "Illusionist Action",
-    cost: 0,
-    defense: 2,
-    fusions: [],
-    pitch: 2,
-    
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.NonAttack,
-  },{
-    classes: [Class.Illusionist],
-    class: Class.Illusionist,
-    artists: ["Mateusz Wisniewski"],
-    cardIdentifier: "water-glow-lanterns-blue",
-    defaultImageName: "DYN232",
-    functionalText: `Reveal the top card of your deck. If it’s blue, create a Spectral Shield token.
-
-**Go again**`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN232",
-      name: "DYN232",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.GoAgain],
-    name: "Water Glow Lanterns",
-    rarity: Rarity.Common,
-    restrictedFormats: [],
-    setIdentifiers: ["DYN232"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN232",
-    type: Type.Action,
-    typeText: "Illusionist Action",
-    cost: 0,
-    defense: 2,
-    fusions: [],
-    pitch: 3,
-    
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.NonAttack,
-  },{
-    classes: [Class.Generic],
-    class: Class.Generic,
-    artists: ["Othon Nikolaidis"],
-    cardIdentifier: "imperial-warhorn-red",
-    defaultImageName: "DYN242",
-    functionalText: `Legendary *(You may only have 1 Imperial Warhorn in your deck.)*
-
-**Action** - {r}, destroy Imperial Warhorn: Choose any number of heroes. Each of them chooses an ally, aura, item, or landmark permanent they control. Destroy each permanent chosen this way. If you are Royal, instead you choose the permanents.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN242",
-      name: "DYN242",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.Legendary],
-    name: "Imperial Warhorn",
-    rarity: Rarity.Majestic,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["DYN242"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN242",
-    type: Type.Action,
-    typeText: "Generic Action - Item",
-    cost: 2,
-    
-    fusions: [],
-    pitch: 1,
-    
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.Item,
-  },{
-    classes: [Class.Wizard],
-    class: Class.Wizard,
-    artists: ["Riordan Delmiro"],
-    cardIdentifier: "sap-red",
-    defaultImageName: "FAB115",
-    functionalText: `Deal 3 arcane damage to target hero
-
-**Surge** - If this deals more than 3 damage to a hero, you may remove an energy counter from a permanent they control..`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "FAB115",
-      name: "FAB115",
-      set: Release.Promos,
-      
-    },],
-    keywords: [],
-    name: "Sap",
-    rarity: Rarity.Promo,
-    restrictedFormats: [],
-    setIdentifiers: ["FAB115","DYN206"],
-    sets: [Release.Promos,Release.Dynasty],
-    specialImageName: "FAB115",
-    type: Type.Action,
-    typeText: "Wizard Action",
-    cost: 0,
-    defense: 3,
-    fusions: [],
-    pitch: 1,
-    
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.NonAttack,
-  },{
-    classes: [Class.Wizard],
-    class: Class.Wizard,
-    artists: ["Riordan Delmiro"],
-    cardIdentifier: "sap-yellow",
-    defaultImageName: "FAB116",
-    functionalText: `Deal 3 arcane damage to target hero
-
-**Surge** - If this deals more than 3 damage to a hero, you may remove an energy counter from a permanent they control..`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "FAB116",
-      name: "FAB116",
-      set: Release.Promos,
-      
-    },],
-    keywords: [],
-    name: "Sap",
-    rarity: Rarity.Promo,
-    restrictedFormats: [],
-    setIdentifiers: ["FAB116","DYN207"],
-    sets: [Release.Promos,Release.Dynasty],
-    specialImageName: "FAB116",
-    type: Type.Action,
-    typeText: "Wizard Action",
-    cost: 0,
-    defense: 3,
-    fusions: [],
-    pitch: 2,
-    
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.NonAttack,
-  },{
-    classes: [Class.Wizard],
-    class: Class.Wizard,
-    artists: ["Riordan Delmiro"],
-    cardIdentifier: "sap-blue",
-    defaultImageName: "FAB117",
-    functionalText: `Deal 1 arcane damage to target hero
-
-**Surge** - If this deals more than 1 damage to a hero, you may remove an energy counter from a permanent they control..`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "FAB117",
-      name: "FAB117",
-      set: Release.Promos,
-      
-    },],
-    keywords: [],
-    name: "Sap",
-    rarity: Rarity.Promo,
-    restrictedFormats: [],
-    setIdentifiers: ["FAB117","DYN208"],
-    sets: [Release.Promos,Release.Dynasty],
-    specialImageName: "FAB117",
-    type: Type.Action,
-    typeText: "Wizard Action",
-    cost: 0,
-    defense: 3,
-    fusions: [],
-    pitch: 3,
-    
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.NonAttack,
-  },{
-    classes: [Class.Assassin],
-    class: Class.Assassin,
-    artists: ["Sam Yang"],
-    cardIdentifier: "regicide-blue",
-    defaultImageName: "DYN121",
-    functionalText: `**Legendary Arakni Specialization** *(You may only have 1 Regicide in your deck and only if your hero is Arakni.)*
-
-When this hits a Royal hero, they lose the game.
-
-When the combat chain closes, you lose the game.
-
-Regicide can’t be defended by cards with the same name as cards in the defending hero’s banished zone.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "FAB122",
-      name: "FAB122",
-      set: Release.Promos,
-      
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN121",
-      name: "DYN121",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.Legendary,Keyword.Specialization],
-    name: "Regicide",
-    rarity: Rarity.Majestic,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["FAB122","DYN121"],
-    sets: [Release.Promos,Release.Dynasty],
-    specialImageName: "FAB122",
-    type: Type.Action,
-    typeText: "Assassin Action – Attack",
-    cost: 0,
-    defense: 3,
-    fusions: [],
-    pitch: 3,
-    power: 3,
-    talents: [],
-    
-    
-    
-    specializations: [Hero.Arakni],
-    subType: ActionSubType.Attack,
-  },{
-    classes: [Class.Ninja],
-    class: Class.Ninja,
-    artists: ["Immanuela Crovius"],
-    cardIdentifier: "predatory-streak-red",
-    defaultImageName: "LGS122",
-    
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "LGS122",
-      name: "LGS122",
-      set: Release.Promos,
-      
-    },],
-    keywords: [Keyword.GoAgain],
-    name: "Predatory Streak",
-    rarity: Rarity.Promo,
-    restrictedFormats: [],
-    setIdentifiers: ["LGS122"],
-    sets: [Release.Promos,Release.Dynasty],
-    specialImageName: "LGS122",
-    type: Type.Action,
-    typeText: "Ninja Action",
-    cost: 0,
-    defense: 2,
-    fusions: [],
-    pitch: 1,
-    
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.NonAttack,
-  },{
-    classes: [Class.Ninja],
-    class: Class.Ninja,
-    artists: ["Immanuela Crovius"],
-    cardIdentifier: "predatory-streak-yellow",
-    defaultImageName: "LGS123",
-    functionalText: `**Go again**`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "LGS123",
-      name: "LGS123",
-      set: Release.Promos,
-      
-    },],
-    keywords: [Keyword.GoAgain],
-    name: "Predatory Streak",
-    rarity: Rarity.Promo,
-    restrictedFormats: [],
-    setIdentifiers: ["LGS123"],
-    sets: [Release.Promos,Release.Dynasty],
-    specialImageName: "LGS123",
-    type: Type.Action,
-    typeText: "Ninja Action",
-    cost: 0,
-    defense: 2,
-    fusions: [],
-    pitch: 2,
-    
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.NonAttack,
-  },{
-    classes: [Class.Ninja],
-    class: Class.Ninja,
-    artists: ["Immanuela Crovius"],
-    cardIdentifier: "predatory-streak-blue",
-    defaultImageName: "LGS124",
-    functionalText: `Create 1 Crouching Tiger in your banished zone. You may play it this turn.
-
-**Go again**`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "LGS124",
-      name: "LGS124",
-      set: Release.Promos,
-      
-    },],
-    keywords: [Keyword.GoAgain],
-    name: "Predatory Streak",
-    rarity: Rarity.Promo,
-    restrictedFormats: [],
-    setIdentifiers: ["LGS124"],
-    sets: [Release.Promos,Release.Dynasty],
-    specialImageName: "LGS124",
-    type: Type.Action,
-    typeText: "Ninja Action",
-    cost: 0,
-    defense: 2,
-    fusions: [],
-    pitch: 3,
-    
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.NonAttack,
-  },{
     classes: [Class.Bard],
     class: Class.Bard,
     artists: ["Andy Aslamov"],
@@ -29302,8 +27794,7 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
     
     specializations: [],
     subType: ActionSubType.Attack,
-  }];
-  const basicActions2: ActionCard[] = [{
+  },{
     classes: [Class.Runeblade],
     class: Class.Runeblade,
     artists: ["Marco González"],
@@ -31273,7 +29764,8 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     specializations: [],
     subType: ActionSubType.Attack,
-  },{
+  }];
+  const basicActions2: ActionCard[] = [{
     classes: [Class.Runeblade],
     class: Class.Runeblade,
     artists: ["Joshua Raphael"],
@@ -54485,11 +52977,1309 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
     specializations: [],
     subType: ActionSubType.Aura,
   },{
+    classes: [Class.Guardian],
+    class: Class.Guardian,
+    artists: ["Nathaniel Himawan"],
+    cardIdentifier: "reinforce-steel-red",
+    defaultImageName: "DYN039",
+    functionalText: `Remove a -1{d} counter from a Guardian off-hand you control with 3 or less base {d}.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN039",
+      name: "DYN039",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Reinforce Steel",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN039"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN039",
+    type: Type.Action,
+    typeText: "Guardian Action",
+    cost: 2,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Guardian],
+    class: Class.Guardian,
+    artists: ["Nathaniel Himawan"],
+    cardIdentifier: "reinforce-steel-yellow",
+    defaultImageName: "DYN040",
+    functionalText: `Remove a -1{d} counter from a Guardian off-hand you control with 2 or less base {d}.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN040",
+      name: "DYN040",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Reinforce Steel",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN040"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN040",
+    type: Type.Action,
+    typeText: "Guardian Action",
+    cost: 2,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Guardian],
+    class: Class.Guardian,
+    artists: ["Nathaniel Himawan"],
+    cardIdentifier: "reinforce-steel-blue",
+    defaultImageName: "DYN041",
+    functionalText: `Remove a -1{d} counter from a Guardian off-hand you control with 1 or less base {d}.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN041",
+      name: "DYN041",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Reinforce Steel",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN041"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN041",
+    type: Type.Action,
+    typeText: "Guardian Action",
+    cost: 2,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Ninja],
+    class: Class.Ninja,
+    artists: ["Immanuela Crovius"],
+    cardIdentifier: "predatory-streak-red",
+    defaultImageName: "DYN062",
+    
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "LGS122",
+      name: "LGS122",
+      set: Release.Promos,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN062",
+      name: "DYN062",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Predatory Streak",
+    rarity: Rarity.Promo,
+    restrictedFormats: [],
+    setIdentifiers: ["LGS122","DYN062"],
+    sets: [Release.Promos,Release.Dynasty],
+    specialImageName: "LGS122",
+    type: Type.Action,
+    typeText: "Ninja Action",
+    cost: 0,
+    defense: 2,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Ninja],
+    class: Class.Ninja,
+    artists: ["Immanuela Crovius"],
+    cardIdentifier: "predatory-streak-yellow",
+    defaultImageName: "LGS123",
+    functionalText: `**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "LGS123",
+      name: "LGS123",
+      set: Release.Promos,
+      
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Predatory Streak",
+    rarity: Rarity.Promo,
+    restrictedFormats: [],
+    setIdentifiers: ["LGS123","DYN063"],
+    sets: [Release.Promos,Release.Dynasty],
+    specialImageName: "LGS123",
+    type: Type.Action,
+    typeText: "Ninja Action",
+    cost: 0,
+    defense: 2,
+    fusions: [],
+    pitch: 2,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Ninja],
+    class: Class.Ninja,
+    artists: ["Immanuela Crovius"],
+    cardIdentifier: "predatory-streak-blue",
+    defaultImageName: "LGS124",
+    functionalText: `Create 1 Crouching Tiger in your banished zone. You may play it this turn.
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "LGS124",
+      name: "LGS124",
+      set: Release.Promos,
+      
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Predatory Streak",
+    rarity: Rarity.Promo,
+    restrictedFormats: [],
+    setIdentifiers: ["LGS124","DYN064"],
+    sets: [Release.Promos,Release.Dynasty],
+    specialImageName: "LGS124",
+    type: Type.Action,
+    typeText: "Ninja Action",
+    cost: 0,
+    defense: 2,
+    fusions: [],
+    pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Mechanologist],
+    class: Class.Mechanologist,
+    artists: ["Victoria Belyaeva"],
+    cardIdentifier: "powder-keg-blue",
+    defaultImageName: "DYN094",
+    functionalText: `Whenever a Mechanologist gun you control hits, you may destroy Powder Keg and a defending equipment.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN094",
+      name: "DYN094",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Powder Keg",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN094"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN094",
+    type: Type.Action,
+    typeText: "Mechanologist Action – Item",
+    cost: 0,
+    
+    fusions: [],
+    pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Item,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Alexander Mokhov"],
+    cardIdentifier: "eradicate-yellow",
+    defaultImageName: "DYN119",
+    functionalText: `**Contract** – You are contracted to banish opponents' yellow cards. Whenever you complete this contract, create a Silver token.
+
+When this hits a hero, banish the top X cards of their deck, where X is the damage dealt by Eradicate.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN119",
+      name: "DYN119",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Eradicate",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN119"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN119",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    power: 4,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["soyameii"],
+    cardIdentifier: "leave-no-witnesses-red",
+    defaultImageName: "DYN120",
+    functionalText: `**Contract**  - You are contracted to banish opponent’s red cards. Whenever you complete this contract, create a Silver token.
+
+When this hits a hero, banish the top card of their deck and up to 1 card in their arsenal.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN120",
+      name: "DYN120",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Leave no Witnesses",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN120"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN120",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 4,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Sam Yang"],
+    cardIdentifier: "regicide-blue",
+    defaultImageName: "DYN121",
+    functionalText: `**Legendary Arakni Specialization** *(You may only have 1 Regicide in your deck and only if your hero is Arakni.)*
+
+When this hits a Royal hero, they lose the game.
+
+When the combat chain closes, you lose the game.
+
+Regicide can’t be defended by cards with the same name as cards in the defending hero’s banished zone.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "FAB122",
+      name: "FAB122",
+      set: Release.Promos,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN121",
+      name: "DYN121",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Legendary,Keyword.Specialization],
+    name: "Regicide",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["FAB122","DYN121"],
+    sets: [Release.Promos,Release.Dynasty],
+    specialImageName: "FAB122",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    power: 3,
+    talents: [],
+    
+    
+    
+    specializations: [Hero.Arakni],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Wisnu Tan"],
+    cardIdentifier: "surgical-extraction-blue",
+    defaultImageName: "DYN122",
+    functionalText: `**Contract** - You are contracted to banish opponents’ blue cards. Whenever you complete this contract, create a Silver token.
+
+When this hits a hero, banish the top card of their deck, then look at their hand and banish a card.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN122",
+      name: "DYN122",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Surgical Extraction",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN122"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN122",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 2,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    power: 4,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Athiwut B."],
+    cardIdentifier: "pay-day-blue",
+    defaultImageName: "DYN123",
+    functionalText: `If you've completed a contract this turn, create 4 Silver tokens.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN123",
+      name: "DYN123",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Pay Day",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN123"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN123",
+    type: Type.Action,
+    typeText: "Assassin Action",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "plunder-the-poor-red",
+    defaultImageName: "DYN124",
+    functionalText: `**Contract** – You are contracted to banish opponents' cards with cost 1 or less. Whenever you complete this contract, create a Silver token.
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN124",
+      name: "DYN124",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Plunder the Poor",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN124"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN124",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 4,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "plunder-the-poor-yellow",
+    defaultImageName: "DYN125",
+    functionalText: `**Contract** – You are contracted to banish opponents' cards with cost 1 or less. Whenever you complete this contract, create a Silver token.
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN125",
+      name: "DYN125",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Plunder the Poor",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN125"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN125",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    power: 3,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "plunder-the-poor-blue",
+    defaultImageName: "DYN126",
+    functionalText: `**Contract** – You are contracted to banish opponents' cards with cost 1 or less. Whenever you complete this contract, create a Silver token.
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN126",
+      name: "DYN126",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Plunder the Poor",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN126"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN126",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    power: 2,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "rob-the-rich-red",
+    defaultImageName: "DYN127",
+    functionalText: `**Contract** – You are contracted to banish opponents' cards with cost 2 or greater. Whenever you complete this contract, create a Silver token.
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN127",
+      name: "DYN127",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Rob the Rich",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN127"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN127",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 5,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "rob-the-rich-yellow",
+    defaultImageName: "DYN128",
+    functionalText: `**Contract** – You are contracted to banish opponents' cards with cost 2 or greater. Whenever you complete this contract, create a Silver token.
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN128",
+      name: "DYN128",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Rob the Rich",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN128"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN128",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    power: 4,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "rob-the-rich-blue",
+    defaultImageName: "DYN129",
+    functionalText: `**Contract** – You are contracted to banish opponents' cards with cost 2 or greater. Whenever you complete this contract, create a Silver token.
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN129",
+      name: "DYN129",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Rob the Rich",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN129"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN129",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    power: 3,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Shen Fei"],
+    cardIdentifier: "annihilate-the-armed-red",
+    defaultImageName: "DYN133",
+    functionalText: `**Contract** – You are contracted to banish opponents' attack action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN133",
+      name: "DYN133",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Annihilate the Armed",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN133"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN133",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 5,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Shen Fei"],
+    cardIdentifier: "annihilate-the-armed-yellow",
+    defaultImageName: "DYN134",
+    functionalText: `**Contract** – You are contracted to banish opponents' attack action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN134",
+      name: "DYN134",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Annihilate the Armed",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN134"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN134",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    power: 4,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Shen Fei"],
+    cardIdentifier: "annihilate-the-armed-blue",
+    defaultImageName: "DYN135",
+    functionalText: `**Contract** – You are contracted to banish opponents' attack action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN135",
+      name: "DYN135",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Annihilate the Armed",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN135"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN135",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    power: 3,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Marco Gonzalez"],
+    cardIdentifier: "fleece-the-frail-red",
+    defaultImageName: "DYN136",
+    functionalText: `**Contract** – You are contracted to banish opponents' cards with 2 or less {d}. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN136",
+      name: "DYN136",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Fleece the Frail",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN136"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN136",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 4,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Marco Gonzalez"],
+    cardIdentifier: "fleece-the-frail-yellow",
+    defaultImageName: "DYN137",
+    functionalText: `**Contract** – You are contracted to banish opponents' cards with 2 or less {d}. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN137",
+      name: "DYN137",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Fleece the Frail",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN137"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN137",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    power: 3,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Marco Gonzalez"],
+    cardIdentifier: "fleece-the-frail-blue",
+    defaultImageName: "DYN138",
+    functionalText: `**Contract** – You are contracted to banish opponents' cards with 2 or less {d}. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN138",
+      name: "DYN138",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Fleece the Frail",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN138"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN138",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    power: 2,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "nix-the-nimble-red",
+    defaultImageName: "DYN139",
+    functionalText: `**Contract** – You are contracted to banish opponents' reaction cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN139",
+      name: "DYN139",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Nix the Nimble",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN139"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN139",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 5,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "nix-the-nimble-yellow",
+    defaultImageName: "DYN140",
+    functionalText: `**Contract** – You are contracted to banish opponents' reaction cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN140",
+      name: "DYN140",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Nix the Nimble",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN140"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN140",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    power: 4,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "nix-the-nimble-blue",
+    defaultImageName: "DYN141",
+    functionalText: `**Contract** – You are contracted to banish opponents' reaction cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN141",
+      name: "DYN141",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Nix the Nimble",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN141"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN141",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    power: 3,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Shen Fei"],
+    cardIdentifier: "sack-the-shifty-red",
+    defaultImageName: "DYN142",
+    functionalText: `**Contract** – You are contracted to banish opponents' cards with base **go again**. Whenever you complete this contract, create a Silver token. *(Base go again does not include go again gained by effects.)*
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN142",
+      name: "DYN142",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Sack the Shifty",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN142"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN142",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 4,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Shen Fei"],
+    cardIdentifier: "sack-the-shifty-yellow",
+    defaultImageName: "DYN143",
+    functionalText: `**Contract** – You are contracted to banish opponents' cards with base **go again**. Whenever you complete this contract, create a Silver token. *(Base go again does not include go again gained by effects.)*
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN143",
+      name: "DYN143",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Sack the Shifty",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN143"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN143",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    power: 3,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Shen Fei"],
+    cardIdentifier: "sack-the-shifty-blue",
+    defaultImageName: "DYN144",
+    functionalText: `**Contract** – You are contracted to banish opponents' cards with base **go again**. Whenever you complete this contract, create a Silver token. *(Base go again does not include go again gained by effects.)*
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN144",
+      name: "DYN144",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Sack the Shifty",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN144"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN144",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    power: 2,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "slay-the-scholars-red",
+    defaultImageName: "DYN145",
+    functionalText: `**Contract** - You are contracted to banish opponents' 'non-attack' action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN145",
+      name: "DYN145",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Slay the Scholars",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN145"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN145",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 4,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "slay-the-scholars-yellow",
+    defaultImageName: "DYN146",
+    functionalText: `**Contract** - You are contracted to banish opponents' 'non-attack' action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN146",
+      name: "DYN146",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Slay the Scholars",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN146"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN146",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    power: 3,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "slay-the-scholars-blue",
+    defaultImageName: "DYN147",
+    functionalText: `**Contract** - You are contracted to banish opponents' 'non-attack' action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+
+When this hits a hero, banish the top card of their deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN147",
+      name: "DYN147",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Slay the Scholars",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN147"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN147",
+    type: Type.Action,
+    typeText: "Assassin Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    power: 2,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Runeblade],
+    class: Class.Runeblade,
+    artists: ["Shen Fei"],
+    cardIdentifier: "sky-fire-lanterns-red",
+    defaultImageName: "DYN188",
+    functionalText: `Reveal the top card of your deck. If it’s red, create a Runechant token.
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN188",
+      name: "DYN188",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Sky Fire Lanterns",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN188"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN188",
+    type: Type.Action,
+    typeText: "Runeblade Action",
+    cost: 0,
+    defense: 2,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Runeblade],
+    class: Class.Runeblade,
+    artists: ["Shen Fei"],
+    cardIdentifier: "sky-fire-lanterns-yellow",
+    defaultImageName: "DYN189",
+    functionalText: `Reveal the top card of your deck. If it’s yellow, create a Runechant token.
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN189",
+      name: "DYN189",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Sky Fire Lanterns",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN189"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN189",
+    type: Type.Action,
+    typeText: "Runeblade Action",
+    cost: 0,
+    defense: 2,
+    fusions: [],
+    pitch: 2,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Runeblade],
+    class: Class.Runeblade,
+    artists: ["Shen Fei"],
+    cardIdentifier: "sky-fire-lanterns-blue",
+    defaultImageName: "DYN190",
+    functionalText: `Reveal the top card of your deck. If it’s blue, create a Runechant token.
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN190",
+      name: "DYN190",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Sky Fire Lanterns",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN190"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN190",
+    type: Type.Action,
+    typeText: "Runeblade Action",
+    cost: 0,
+    defense: 2,
+    fusions: [],
+    pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
     classes: [Class.Wizard],
     class: Class.Wizard,
     artists: ["soyameii"],
     cardIdentifier: "blessing-of-aether-red",
-    defaultImageName: "dyn_card_Blessing_of_Aether_p1.width-10000",
+    defaultImageName: "DYN200",
     functionalText: `At the start of your turn, destroy Blessing of Aether then if the next card you play this turn has an arcane damage effect, instead it deals that much arcane damage plus 3.`,
     images: [{
       edition: ReleaseEdition.Promo,
@@ -54497,13 +54287,19 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
       name: "dyn_card_Blessing_of_Aether_p1.width-10000",
       set: Release.Promos,
       treatment: Treatment.EA,
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN200",
+      name: "DYN200",
+      set: Release.Dynasty,
+      
     },],
     keywords: [],
     name: "Blessing of Aether",
     rarity: Rarity.Promo,
     restrictedFormats: [],
-    setIdentifiers: ["LGS116"],
-    sets: [Release.Promos,Release.Dynasty],
+    setIdentifiers: ["LGS116","DYN200"],
+    sets: [Release.Promos],
     specialImageName: "dyn_card_Blessing_of_Aether_p1.width-10000",
     type: Type.Action,
     typeText: "Wizard Action – Aura",
@@ -54523,7 +54319,7 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
     class: Class.Wizard,
     artists: ["soyameii"],
     cardIdentifier: "blessing-of-aether-yellow",
-    defaultImageName: "LGS117",
+    defaultImageName: "DYN201",
     functionalText: `At the start of your turn, destroy Blessing of Aether then if the next card you play this turn has an arcane damage effect, instead it deals that much arcane damage plus 2.`,
     images: [{
       edition: ReleaseEdition.Promo,
@@ -54531,13 +54327,19 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
       name: "LGS117",
       set: Release.Promos,
       
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN201",
+      name: "DYN201",
+      set: Release.Dynasty,
+      
     },],
     keywords: [],
     name: "Blessing of Aether",
     rarity: Rarity.Promo,
     restrictedFormats: [],
-    setIdentifiers: ["LGS117"],
-    sets: [Release.Promos,Release.Dynasty],
+    setIdentifiers: ["LGS117","DYN201"],
+    sets: [Release.Promos],
     specialImageName: "LGS117",
     type: Type.Action,
     typeText: "Wizard Action – Aura",
@@ -54557,7 +54359,7 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
     class: Class.Wizard,
     artists: ["soyameii"],
     cardIdentifier: "blessing-of-aether-blue",
-    defaultImageName: "LGS118",
+    defaultImageName: "DYN202",
     functionalText: `At the start of your turn, destroy Blessing of Aether then if the next card you play this turn has an arcane damage effect, instead it deals that much arcane damage plus 1.`,
     images: [{
       edition: ReleaseEdition.Promo,
@@ -54565,13 +54367,19 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
       name: "LGS118",
       set: Release.Promos,
       
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN202",
+      name: "DYN202",
+      set: Release.Dynasty,
+      
     },],
     keywords: [],
     name: "Blessing of Aether",
     rarity: Rarity.Promo,
     restrictedFormats: [],
-    setIdentifiers: ["LGS118"],
-    sets: [Release.Promos,Release.Dynasty],
+    setIdentifiers: ["LGS118","DYN202"],
+    sets: [Release.Promos],
     specialImageName: "LGS118",
     type: Type.Action,
     typeText: "Wizard Action – Aura",
@@ -54586,31 +54394,175 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
     
     specializations: [],
     subType: ActionSubType.Aura,
-  }];
+  },{
+    classes: [Class.Illusionist],
+    class: Class.Illusionist,
+    artists: ["Mateusz Wisniewski"],
+    cardIdentifier: "water-glow-lanterns-red",
+    defaultImageName: "DYN230",
+    functionalText: `Reveal the top card of your deck. If it’s red, create a Spectral Shield token.
 
-  const attackReactions: ActionCard[] = [{
-    classes: [Class.Assassin],
-    class: Class.Assassin,
-    artists: ["Henrique Lindner"],
-    cardIdentifier: "shred-red",
-    defaultImageName: "DYN130",
-    functionalText: `Target card defending an Assassin attack gets -4{d} this combat chain.`,
+**Go again**`,
     images: [{
       edition: ReleaseEdition.Promo,
-      identifier: "DYN130",
-      name: "DYN130",
+      identifier: "DYN230",
+      name: "DYN230",
       set: Release.Dynasty,
       
     },],
-    keywords: [],
-    name: "Shred",
-    rarity: Rarity.Rare,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["DYN130"],
+    keywords: [Keyword.GoAgain],
+    name: "Water Glow Lanterns",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN230"],
     sets: [Release.Dynasty],
-    specialImageName: "DYN130",
-    type: Type.AttackReaction,
-    typeText: "Assassin Attack Reaction",
+    specialImageName: "DYN230",
+    type: Type.Action,
+    typeText: "Illusionist Action",
+    cost: 0,
+    defense: 2,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Illusionist],
+    class: Class.Illusionist,
+    artists: ["Mateusz Wisniewski"],
+    cardIdentifier: "water-glow-lanterns-yellow",
+    defaultImageName: "DYN231",
+    functionalText: `Reveal the top card of your deck. If it’s yellow, create a Spectral Shield token.
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN231",
+      name: "DYN231",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Water Glow Lanterns",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN231"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN231",
+    type: Type.Action,
+    typeText: "Illusionist Action",
+    cost: 0,
+    defense: 2,
+    fusions: [],
+    pitch: 2,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Illusionist],
+    class: Class.Illusionist,
+    artists: ["Mateusz Wisniewski"],
+    cardIdentifier: "water-glow-lanterns-blue",
+    defaultImageName: "DYN232",
+    functionalText: `Reveal the top card of your deck. If it’s blue, create a Spectral Shield token.
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN232",
+      name: "DYN232",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Water Glow Lanterns",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN232"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN232",
+    type: Type.Action,
+    typeText: "Illusionist Action",
+    cost: 0,
+    defense: 2,
+    fusions: [],
+    pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Generic],
+    class: Class.Generic,
+    artists: ["Othon Nikolaidis"],
+    cardIdentifier: "imperial-warhorn-red",
+    defaultImageName: "DYN242",
+    functionalText: `**Legendary** *(You may only have 1 Imperial Warhorn in your deck.)*
+
+**Action** – {r}, destroy Imperial Warhorn: Choose any number of heroes. Each of them chooses an ally, aura, item, or landmark permanent they control. Destroy each permanent chosen this way. If you are Royal, instead you choose the permanents.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN242",
+      name: "DYN242",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Legendary],
+    name: "Imperial Warhorn",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN242"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN242",
+    type: Type.Action,
+    typeText: "Generic Action – Item",
+    cost: 2,
+    
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Item,
+  },{
+    classes: [Class.Wizard],
+    class: Class.Wizard,
+    artists: ["Riordan Delmiro"],
+    cardIdentifier: "sap-red",
+    defaultImageName: "FAB115",
+    functionalText: `Deal 3 arcane damage to target hero
+
+**Surge** - If this deals more than 3 damage to a hero, you may remove an energy counter from a permanent they control..`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "FAB115",
+      name: "FAB115",
+      set: Release.Promos,
+      
+    },],
+    keywords: [],
+    name: "Sap",
+    rarity: Rarity.Promo,
+    restrictedFormats: [],
+    setIdentifiers: ["FAB115","DYN206"],
+    sets: [Release.Promos,Release.Dynasty],
+    specialImageName: "FAB115",
+    type: Type.Action,
+    typeText: "Wizard Action",
     cost: 0,
     defense: 3,
     fusions: [],
@@ -54621,30 +54573,32 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
     
     
     specializations: [],
-    
+    subType: ActionSubType.NonAttack,
   },{
-    classes: [Class.Assassin],
-    class: Class.Assassin,
-    artists: ["Henrique Lindner"],
-    cardIdentifier: "shred-yellow",
-    defaultImageName: "DYN131",
-    functionalText: `Target card defending an Assassin attack gets -3{d} this combat chain.`,
+    classes: [Class.Wizard],
+    class: Class.Wizard,
+    artists: ["Riordan Delmiro"],
+    cardIdentifier: "sap-yellow",
+    defaultImageName: "FAB116",
+    functionalText: `Deal 3 arcane damage to target hero
+
+**Surge** - If this deals more than 3 damage to a hero, you may remove an energy counter from a permanent they control..`,
     images: [{
       edition: ReleaseEdition.Promo,
-      identifier: "DYN131",
-      name: "DYN131",
-      set: Release.Dynasty,
+      identifier: "FAB116",
+      name: "FAB116",
+      set: Release.Promos,
       
     },],
     keywords: [],
-    name: "Shred",
-    rarity: Rarity.Rare,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["DYN131"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN131",
-    type: Type.AttackReaction,
-    typeText: "Assassin Attack Reaction",
+    name: "Sap",
+    rarity: Rarity.Promo,
+    restrictedFormats: [],
+    setIdentifiers: ["FAB116","DYN207"],
+    sets: [Release.Promos,Release.Dynasty],
+    specialImageName: "FAB116",
+    type: Type.Action,
+    typeText: "Wizard Action",
     cost: 0,
     defense: 3,
     fusions: [],
@@ -54655,30 +54609,32 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
     
     
     specializations: [],
-    
+    subType: ActionSubType.NonAttack,
   },{
-    classes: [Class.Assassin],
-    class: Class.Assassin,
-    artists: ["Henrique Lindner"],
-    cardIdentifier: "shred-blue",
-    defaultImageName: "DYN132",
-    functionalText: `Target card defending an Assassin attack gets -2{d} this combat chain.`,
+    classes: [Class.Wizard],
+    class: Class.Wizard,
+    artists: ["Riordan Delmiro"],
+    cardIdentifier: "sap-blue",
+    defaultImageName: "FAB117",
+    functionalText: `Deal 1 arcane damage to target hero
+
+**Surge** - If this deals more than 1 damage to a hero, you may remove an energy counter from a permanent they control..`,
     images: [{
       edition: ReleaseEdition.Promo,
-      identifier: "DYN132",
-      name: "DYN132",
-      set: Release.Dynasty,
+      identifier: "FAB117",
+      name: "FAB117",
+      set: Release.Promos,
       
     },],
     keywords: [],
-    name: "Shred",
-    rarity: Rarity.Rare,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["DYN132"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN132",
-    type: Type.AttackReaction,
-    typeText: "Assassin Attack Reaction",
+    name: "Sap",
+    rarity: Rarity.Promo,
+    restrictedFormats: [],
+    setIdentifiers: ["FAB117","DYN208"],
+    sets: [Release.Promos,Release.Dynasty],
+    specialImageName: "FAB117",
+    type: Type.Action,
+    typeText: "Wizard Action",
     cost: 0,
     defense: 3,
     fusions: [],
@@ -54689,8 +54645,10 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
     
     
     specializations: [],
-    
-  },{
+    subType: ActionSubType.NonAttack,
+  }];
+
+  const attackReactions: ActionCard[] = [{
     classes: [Class.Ninja],
     class: Class.Ninja,
     artists: ["Alexander Mokhov"],
@@ -56808,6 +56766,216 @@ You may banish a non-equipment defending card with {d} less than the number of D
     type: Type.AttackReaction,
     typeText: "Ninja Attack Reaction",
     cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "shred-red",
+    defaultImageName: "DYN130",
+    functionalText: `Target card defending an Assassin attack gets -4{d} this combat chain.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN130",
+      name: "DYN130",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Shred",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN130"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN130",
+    type: Type.AttackReaction,
+    typeText: "Assassin Attack Reaction",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "shred-yellow",
+    defaultImageName: "DYN131",
+    functionalText: `Target card defending an Assassin attack gets -3{d} this combat chain.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN131",
+      name: "DYN131",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Shred",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN131"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN131",
+    type: Type.AttackReaction,
+    typeText: "Assassin Attack Reaction",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "shred-blue",
+    defaultImageName: "DYN132",
+    functionalText: `Target card defending an Assassin attack gets -2{d} this combat chain.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN132",
+      name: "DYN132",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Shred",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN132"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN132",
+    type: Type.AttackReaction,
+    typeText: "Assassin Attack Reaction",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "cut-to-the-chase-red",
+    defaultImageName: "DYN148",
+    functionalText: `Target Assassin attack action card with **contract** gains +3{p}.
+
+Look at the top card of the defending hero's deck. You may put it on the bottom.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN148",
+      name: "DYN148",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Cut to the Chase",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN148"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN148",
+    type: Type.AttackReaction,
+    typeText: "Assassin Attack Reaction",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "cut-to-the-chase-yellow",
+    defaultImageName: "DYN149",
+    functionalText: `Target Assassin attack action card with **contract** gains +2{p}.
+
+Look at the top card of the defending hero's deck. You may put it on the bottom.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN149",
+      name: "DYN149",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Cut to the Chase",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN149"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN149",
+    type: Type.AttackReaction,
+    typeText: "Assassin Attack Reaction",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "cut-to-the-chase-blue",
+    defaultImageName: "DYN150",
+    functionalText: `Target Assassin attack action card with **contract** gains +1{p}.
+
+Look at the top card of the defending hero's deck. You may put it on the bottom.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN150",
+      name: "DYN150",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Cut to the Chase",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN150"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN150",
+    type: Type.AttackReaction,
+    typeText: "Assassin Attack Reaction",
+    cost: 0,
     defense: 3,
     fusions: [],
     pitch: 3,
@@ -62439,186 +62607,6 @@ Draw 2 cards.`,
     
   }];
   const equipment: EquipmentCard[] = [{
-    classes: [Class.Guardian],
-    class: Class.Guardian,
-    artists: ["Sofia Akimova"],
-    cardIdentifier: "seasoned-saviour",
-    defaultImageName: "DYN026_Marvel",
-    functionalText: `When you equip Seasoned Saviour, put two -1{d} counters on it. **Battleworn**`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN026_Marvel",
-      name: "DYN026_Marvel",
-      set: Release.Dynasty,
-      treatment: Treatment.EA,
-    },],
-    keywords: [Keyword.Battleworn],
-    name: "Seasoned Saviour",
-    rarity: Rarity.Majestic,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["DYN026"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN026_Marvel",
-    type: Type.Equipment,
-    typeText: "Guardian Equipment – Off-Hand",
-    defense: 3,
-    
-    talents: [],
-    subType: EquipmentSubType.OffHand
-  },{
-    classes: [Class.Ninja],
-    class: Class.Ninja,
-    artists: ["Shen Fei"],
-    cardIdentifier: "blazen-yoroi",
-    defaultImageName: "DYN045_Marvel",
-    functionalText: `While Blazen Yoroi is defending on chain link 4 or higher, it has +4{d}.
-
-**Blade Break** *(When the combat chain closes, if this defended, destroy it.)*`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN045_Marvel",
-      name: "DYN045_Marvel",
-      set: Release.Dynasty,
-      treatment: Treatment.EA,
-    },],
-    keywords: [Keyword.BladeBreak],
-    name: "Blazen Yoroi",
-    rarity: Rarity.Majestic,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["DYN045"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN045_Marvel",
-    type: Type.Equipment,
-    typeText: "Ninja Equipment – Chest",
-    defense: 1,
-    
-    talents: [],
-    subType: EquipmentSubType.Chest
-  },{
-    classes: [Class.Assassin],
-    class: Class.Assassin,
-    artists: ["Sarlya Asavametha"],
-    cardIdentifier: "blacktek-whisperers",
-    defaultImageName: "DYN117",
-    functionalText: `While Blacktek Whisperers is in your graveyard, at the start of your turn, you may destroy 2 Silvers you control. If you do, equip Blacktek Whisperers.
-
-**Attack Reaction** - Destroy Blacktek Whisperers: Target Assassin attack action card gains “When this hits a hero, it gains **go again**.”
-
-**Battleworn** *(When the combat chain closes, if this defended, put a -1 {d} counter on it.)*`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN117",
-      name: "DYN117",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.Battleworn,Keyword.GoAgain],
-    name: "Blacktek Whisperers",
-    rarity: Rarity.Legendary,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["DYN117"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN117",
-    type: Type.Equipment,
-    typeText: "Assassin Equipment – Leg",
-    defense: 1,
-    
-    talents: [],
-    subType: EquipmentSubType.Legs
-  },{
-    classes: [Class.Assassin],
-    class: Class.Assassin,
-    artists: ["Carlos Cruchaga"],
-    cardIdentifier: "mask-of-perdition",
-    defaultImageName: "DYN118",
-    functionalText: `While Mask of Perdition is in your graveyard, at the start of your turn, you may destroy 2 Silvers you control. If you do, equip Mask of Perdition.
-
-**Attack Reaction** - Destroy Mask of Perdition: Target Assassin attack action card gains “When this hits a hero banish the top card of their deck.”
-
-**Battleworn** *(When the combat chain closes, if this defended, put a -1 {d} counter on it.)*`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN118",
-      name: "DYN118",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.Battleworn],
-    name: "Mask of Perdition",
-    rarity: Rarity.Majestic,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["DYN118"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN118",
-    type: Type.Equipment,
-    typeText: "Assassin Equipment – Head",
-    defense: 1,
-    
-    talents: [],
-    subType: EquipmentSubType.Head
-  },{
-    classes: [Class.Runeblade],
-    class: Class.Runeblade,
-    artists: ["Joseph Qiu"],
-    cardIdentifier: "amethyst-tiara",
-    defaultImageName: "DYN171_Marvel",
-    functionalText: `**Instant** - Destroy Amethyst Tiara: Runechants you control have **spellvoid 1** this turn.
-
-**Blade Break** *(When the combat chain closes, if this defended, destroy it.)*`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN171_Marvel",
-      name: "DYN171_Marvel",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.BladeBreak],
-    name: "Amethyst Tiara",
-    rarity: Rarity.Majestic,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["DYN171"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN171_Marvel",
-    type: Type.Equipment,
-    typeText: "Runeblade Equipment – Head",
-    defense: 1,
-    
-    talents: [],
-    subType: EquipmentSubType.Head
-  },{
-    classes: [Class.Generic],
-    class: Class.Generic,
-    artists: ["Andy Aslamov"],
-    cardIdentifier: "crown-of-dominion",
-    defaultImageName: "DYN234",
-    functionalText: `Your hero is Royal. When you equip Crown of Dominion, create a gold token`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN234",
-      name: "DYN234",
-      set: Release.Dynasty,
-      
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN234_Marvel",
-      name: "DYN234_Marvel",
-      set: Release.Dynasty,
-      treatment: Treatment.EA,
-    },],
-    keywords: [],
-    name: "Crown of Dominion",
-    rarity: Rarity.Legendary,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["DYN234"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN234_Marvel",
-    type: Type.Equipment,
-    typeText: "Generic Equipment - Head",
-    
-    
-    talents: [],
-    subType: EquipmentSubType.Head
-  },{
     classes: [Class.Generic],
     class: Class.Generic,
     artists: ["Saad Irfan"],
@@ -67018,6 +67006,198 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     
     talents: [],
     subType: EquipmentSubType.Legs
+  },{
+    classes: [Class.Guardian],
+    class: Class.Guardian,
+    artists: ["Sofia Akimova"],
+    cardIdentifier: "seasoned-saviour",
+    defaultImageName: "DYN026_Marvel",
+    functionalText: `When you equip Seasoned Saviour, put two -1{d} counters on it. **Battleworn**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN026_Marvel",
+      name: "DYN026_Marvel",
+      set: Release.Dynasty,
+      treatment: Treatment.EA,
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN026",
+      name: "DYN026",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Battleworn],
+    name: "Seasoned Saviour",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN026"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN026_Marvel",
+    type: Type.Equipment,
+    typeText: "Guardian Equipment – Off-Hand",
+    defense: 3,
+    
+    talents: [],
+    subType: EquipmentSubType.OffHand
+  },{
+    classes: [Class.Ninja],
+    class: Class.Ninja,
+    artists: ["Shen Fei"],
+    cardIdentifier: "blazen-yoroi",
+    defaultImageName: "DYN045_Marvel",
+    functionalText: `While Blazen Yoroi is defending on chain link 4 or higher, it has +4{d}.
+
+**Blade Break** *(When the combat chain closes, if this defended, destroy it.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN045_Marvel",
+      name: "DYN045_Marvel",
+      set: Release.Dynasty,
+      treatment: Treatment.EA,
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN045",
+      name: "DYN045",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.BladeBreak],
+    name: "Blazen Yoroi",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN045"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN045_Marvel",
+    type: Type.Equipment,
+    typeText: "Ninja Equipment – Chest",
+    defense: 1,
+    
+    talents: [],
+    subType: EquipmentSubType.Chest
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Sarlya Asavametha"],
+    cardIdentifier: "blacktek-whisperers",
+    defaultImageName: "DYN117",
+    functionalText: `While Blacktek Whisperers is in your graveyard, at the start of your turn, you may destroy 2 Silvers you control. If you do, equip Blacktek Whisperers.
+
+**Attack Reaction** - Destroy Blacktek Whisperers: Target Assassin attack action card gains “When this hits a hero, it gains **go again**.”
+
+**Battleworn** *(When the combat chain closes, if this defended, put a -1 {d} counter on it.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN117",
+      name: "DYN117",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Battleworn,Keyword.GoAgain],
+    name: "Blacktek Whisperers",
+    rarity: Rarity.Legendary,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN117"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN117",
+    type: Type.Equipment,
+    typeText: "Assassin Equipment – Leg",
+    defense: 1,
+    
+    talents: [],
+    subType: EquipmentSubType.Legs
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "mask-of-perdition",
+    defaultImageName: "DYN118",
+    functionalText: `While Mask of Perdition is in your graveyard, at the start of your turn, you may destroy 2 Silvers you control. If you do, equip Mask of Perdition.
+
+**Attack Reaction** - Destroy Mask of Perdition: Target Assassin attack action card gains “When this hits a hero banish the top card of their deck.”
+
+**Battleworn** *(When the combat chain closes, if this defended, put a -1 {d} counter on it.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN118",
+      name: "DYN118",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Battleworn],
+    name: "Mask of Perdition",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN118"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN118",
+    type: Type.Equipment,
+    typeText: "Assassin Equipment – Head",
+    defense: 1,
+    
+    talents: [],
+    subType: EquipmentSubType.Head
+  },{
+    classes: [Class.Runeblade],
+    class: Class.Runeblade,
+    artists: ["Joseph Qiu"],
+    cardIdentifier: "amethyst-tiara",
+    defaultImageName: "DYN171_Marvel",
+    functionalText: `**Instant** - Destroy Amethyst Tiara: Runechants you control have **spellvoid 1** this turn.
+
+**Blade Break** *(When the combat chain closes, if this defended, destroy it.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN171_Marvel",
+      name: "DYN171_Marvel",
+      set: Release.Dynasty,
+      treatment: Treatment.EA,
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN171",
+      name: "DYN171",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.BladeBreak],
+    name: "Amethyst Tiara",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN171"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN171_Marvel",
+    type: Type.Equipment,
+    typeText: "Runeblade Equipment – Head",
+    defense: 1,
+    
+    talents: [],
+    subType: EquipmentSubType.Head
+  },{
+    classes: [Class.Generic],
+    class: Class.Generic,
+    artists: ["Andy Aslamov"],
+    cardIdentifier: "crown-of-dominion",
+    defaultImageName: "DYN234_Marvel",
+    functionalText: `Your hero is Royal. When you equip Crown of Dominion, create a Gold token.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN234",
+      name: "DYN234_Marvel",
+      set: Release.Dynasty,
+      treatment: Treatment.FA,
+    },],
+    keywords: [],
+    name: "Crown of Dominion",
+    rarity: Rarity.Legendary,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN234"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN234_Marvel",
+    type: Type.Equipment,
+    typeText: "Generic Equipment – Head",
+    
+    
+    talents: [],
+    subType: EquipmentSubType.Head
   }];
   const mentors: MentorCard[] = [{
     classes: [Class.Warrior],
@@ -67219,66 +67399,6 @@ While Ruk’utan is face up in arsenal, whenever you play a card with 6 or more 
     defense: 3,
   }];
   const heroes: HeroCard[] = [{
-    classes: [Class.Warrior,Class.Wizard],
-    class: Class.Warrior,
-    artists: ["Federico Musetti"],
-    cardIdentifier: "emperor-dracai-of-aesir",
-    defaultImageName: "DYN001",
-    functionalText: `You may only have red cards in your deck.
-
-**Action** - {r}{r}: Search your deck for Command and Conquer, **attack** with it, then shuffle.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN001",
-      name: "DYN001",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [],
-    name: "Emperor, Dracai of Aesir",
-    rarity: Rarity.Legendary,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["DYN001"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN001",
-    type: Type.Hero,
-    typeText: "Royal Draconic Warrior Wizard Hero – Young",
-    intellect: 4,
-    hero: Hero.Emperor,
-    life: 15,
-    subType: HeroSubType.Young,
-    talents: [Talent.Royal,Talent.Draconic],
-    young: true
-  },{
-    classes: [Class.Assassin],
-    class: Class.Assassin,
-    artists: ["Isuardi Therianto"],
-    cardIdentifier: "arakni-huntsman",
-    defaultImageName: "DYN113",
-    functionalText: `Whenever you play a card with **contract**, you may look at the top card of target opponent’s deck. You may put it on the bottom.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN113",
-      name: "DYN113",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.Contract],
-    name: "Arakni, Huntsman",
-    rarity: Rarity.Majestic,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["DYN113"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN113",
-    type: Type.Hero,
-    typeText: "Assassin Hero",
-    intellect: 4,
-    hero: Hero.Arakni,
-    life: 40,
-    
-    talents: [],
-    young: null
-  },{
     classes: [Class.Merchant],
     class: Class.Merchant,
     artists: ["Lius Lasahido"],
@@ -69868,11 +69988,42 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
     talents: [Talent.Elemental,Talent.Ice],
     young: null
   },{
+    classes: [Class.Warrior,Class.Wizard],
+    class: Class.Warrior,
+    artists: ["Federico Musetti"],
+    cardIdentifier: "emperor-dracai-of-aesir",
+    defaultImageName: "DYN001",
+    functionalText: `You may only have red cards in your deck.
+
+**Action** - {r}{r}{r}: Search your deck for Command and Conquer, **attack** with it, then shuffle.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN001",
+      name: "DYN001",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Emperor, Dracai of Aesir",
+    rarity: Rarity.Legendary,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN001"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN001",
+    type: Type.Hero,
+    typeText: "Royal Draconic Warrior Wizard Hero – Young",
+    intellect: 4,
+    hero: Hero.Emperor,
+    life: 15,
+    subType: HeroSubType.Young,
+    talents: [Talent.Royal,Talent.Draconic],
+    young: true
+  },{
     classes: [Class.Guardian],
     class: Class.Guardian,
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "yoji-royal-protector",
-    defaultImageName: "dyn_card_Yoji_Royal_Protector.width-10000",
+    defaultImageName: "DYN025",
     functionalText: `**Once per Turn Instant** - {r}{r}{r}: The next time another target hero would be dealt damage this turn, instead that damage is dealt to Yoji and prevent 1 of that damage.`,
     images: [{
       edition: ReleaseEdition.Promo,
@@ -69880,12 +70031,18 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
       name: "dyn_card_Yoji_Royal_Protector.width-10000",
       set: Release.Promos,
       
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN025",
+      name: "DYN025",
+      set: Release.Dynasty,
+      
     },],
     keywords: [],
     name: "Yoji, Royal Protector",
     rarity: Rarity.Promo,
     restrictedFormats: [Format.ClassicConstructed],
-    setIdentifiers: ["HER075"],
+    setIdentifiers: ["HER075","DYN025"],
     sets: [Release.Promos,Release.Dynasty],
     specialImageName: "dyn_card_Yoji_Royal_Protector.width-10000",
     type: Type.Hero,
@@ -69896,6 +70053,35 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
     subType: HeroSubType.Young,
     talents: [],
     young: true
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "arakni-huntsman",
+    defaultImageName: "DYN113",
+    functionalText: `Whenever you play a card with **contract**, you may look at the top card of target opponent’s deck. You may put it on the bottom.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN113",
+      name: "DYN113",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Contract],
+    name: "Arakni, Huntsman",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN113"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN113",
+    type: Type.Hero,
+    typeText: "Assassin Hero",
+    intellect: 4,
+    hero: Hero.Arakni,
+    life: 40,
+    
+    talents: [],
+    young: null
   }];
   const placeholders: PlaceholderCard[] = [{
     classes: [Class.Generic],
@@ -70235,33 +70421,6 @@ When you pitch Blood of the Dracai, the next 3 Draconic cards you play this turn
     talents: [Talent.Draconic],
   }];
   const tokens: TokenCard[] = [{
-    classes: [Class.Generic],
-    class: Class.Generic,
-    artists: ["Nikolay Moskvin"],
-    cardIdentifier: "gold",
-    defaultImageName: "DYN243",
-    functionalText: `Action destroy gold: draw a card. Go again.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN243",
-      name: "DYN243",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.GoAgain],
-    name: "Gold",
-    rarity: Rarity.Common,
-    restrictedFormats: [],
-    setIdentifiers: ["DYN243"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN243",
-    type: Type.Token,
-    typeText: "Generic Token - Item",
-    
-    
-    talents: [],
-    subType: TokenSubType.Item
-  },{
     classes: [Class.Guardian],
     class: Class.Guardian,
     artists: ["Anastasiya Grintsova"],
@@ -71426,249 +71585,35 @@ If Yendurai would be dealt damage, remove an endurance counter from him to preve
     
     talents: [Talent.Draconic],
     subType: TokenSubType.Ash
-  }];
-  const weapons: WeaponCard[] = [{
-    classes: [Class.Brute],
-    class: Class.Brute,
-    artists: ["Henrique Lindner"],
-    cardIdentifier: "rok",
-    defaultImageName: "DYN005",
-    functionalText: `**Once per Turn Action** - {p}{p}{p}: **Attack**
-
-Activate Rok only if you have no cards in hand.
-
-Damage that would be dealt by Rok can’t be prevented.`,
+  },{
+    classes: [Class.Generic],
+    class: Class.Generic,
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "gold",
+    defaultImageName: "DYN243",
+    functionalText: `**Action** – {r}{r}, destroy Gold: Draw a card. **Go again**`,
     images: [{
       edition: ReleaseEdition.Promo,
-      identifier: "DYN005",
-      name: "DYN005",
+      identifier: "DYN243",
+      name: "DYN243",
       set: Release.Dynasty,
       
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN005_Marvel",
-      name: "DYN005_Marvel",
-      set: Release.Dynasty,
-      treatment: Treatment.EA,
     },],
     keywords: [],
-    name: "Rok",
-    rarity: Rarity.Majestic,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["DYN005"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN005_Marvel",
-    type: Type.Weapon,
-    typeText: "Brute Weapon – Rock (2H)",
-    handsRequired: HandsRequired.TwoHanded,
-    power: 7,
-    
-    talents: [],
-    subType: WeaponSubType.Rock
-  },{
-    classes: [Class.Warrior],
-    class: Class.Warrior,
-    artists: ["Carlos Cruchaga"],
-    cardIdentifier: "merciless-battleaxe",
-    defaultImageName: "DYN068",
-    functionalText: `**Once per Turn Action** - {r}{r}{r}: **Attack**
-
-Whenever Merciless Battleaxe attacks, if its {p} is greater than twice its base {p}, the attack gains **overpower**. *(This can’t be defended by more than 1 action card.)*`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN068",
-      name: "DYN068",
-      set: Release.Dynasty,
-      
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN068_Marvel",
-      name: "DYN068_Marvel",
-      set: Release.Dynasty,
-      treatment: Treatment.EA,
-    },],
-    keywords: [Keyword.Overpower],
-    name: "Merciless Battleaxe",
-    rarity: Rarity.Majestic,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["DYN068"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN068_Marvel",
-    type: Type.Weapon,
-    typeText: "Warrior Weapon – Axe (2H)",
-    handsRequired: HandsRequired.TwoHanded,
-    power: 3,
-    
-    talents: [],
-    subType: WeaponSubType.Axe
-  },{
-    classes: [Class.Mechanologist],
-    class: Class.Mechanologist,
-    artists: ["Joseph Qiu"],
-    cardIdentifier: "hanabi-blaster",
-    defaultImageName: "DYN088_Marvel",
-    functionalText: `**Once per Turn Action** - Remove 2 steam counters from Hanabi Blaster: **Attack**
-
-**Overpower** *(This can’t be defended by more than 1 action card.)*
-
-The third time you play a card with **boost** each turn, put a steam counter on Hanabi Blaster`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN088_Marvel",
-      name: "DYN088_Marvel",
-      set: Release.Dynasty,
-      treatment: Treatment.EA,
-    },],
-    keywords: [Keyword.Overpower],
-    name: "Hanabi Blaster",
-    rarity: Rarity.Majestic,
+    name: "Gold",
+    rarity: Rarity.Common,
     restrictedFormats: [],
-    setIdentifiers: ["DYN088"],
+    setIdentifiers: ["DYN243"],
     sets: [Release.Dynasty],
-    specialImageName: "DYN088_Marvel",
-    type: Type.Weapon,
-    typeText: "Mechanologist Weapon – Gun (2H)",
-    handsRequired: HandsRequired.TwoHanded,
-    power: 5,
-    
-    talents: [],
-    subType: WeaponSubType.Gun
-  },{
-    classes: [Class.Assassin],
-    class: Class.Assassin,
-    artists: ["Marcus Reyno"],
-    cardIdentifier: "spiders-bite",
-    defaultImageName: "DYN115",
-    functionalText: `**Once per Turn Action** – {r}{r}: **Attack**. **Go again**
-
-**Piercing 1** *(If this is defended by an equipment, it has +1{p}.)*
-
-When this hits a hero, the next time they defend with 1 or more attack action cards this turn, those cards have -1{d} while defending.
-`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN115",
-      name: "DYN115",
-      set: Release.Dynasty,
-      
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN116",
-      name: "DYN116",
-      set: Release.Dynasty,
-      
-    },],
-    keywords: [Keyword.Piercing],
-    name: "Spider’s Bite",
-    rarity: Rarity.Rare,
-    restrictedFormats: [],
-    setIdentifiers: ["DYN115","DYN116"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN115",
-    type: Type.Weapon,
-    typeText: "Assassin Weapon – Dagger (1H)",
-    handsRequired: HandsRequired.OneHanded,
-    power: 1,
-    
-    talents: [],
-    subType: WeaponSubType.Dagger
-  },{
-    classes: [Class.Ranger],
-    class: Class.Ranger,
-    artists: ["Carlos Cruchaga"],
-    cardIdentifier: "sandscour-greatbow",
-    defaultImageName: "DYN151_Marvel",
-    functionalText: `**Once per Turn Action** - {r}: Look at the top card of your deck. You may put an arrow from your hand or the top of your deck face up into your arsenal. **Go again**
-
-Whenever an arrow is put face up in arsenal from your deck, put an aim counter on it.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN151_Marvel",
-      name: "DYN151_Marvel",
-      set: Release.Dynasty,
-      treatment: Treatment.EA,
-    },],
-    keywords: [Keyword.GoAgain],
-    name: "Sandscour Greatbow",
-    rarity: Rarity.Majestic,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["DYN151"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN151_Marvel",
-    type: Type.Weapon,
-    typeText: "Ranger Weapon – Bow (2H)",
-    handsRequired: HandsRequired.TwoHanded,
+    specialImageName: "DYN243",
+    type: Type.Token,
+    typeText: "Generic Token – Item",
     
     
     talents: [],
-    subType: WeaponSubType.Bow
-  },{
-    classes: [Class.Wizard],
-    class: Class.Wizard,
-    artists: ["Alexis Susani"],
-    cardIdentifier: "surgent-aethertide",
-    defaultImageName: "DYN192",
-    functionalText: `**Once per Turn Action** - {r}{r}: Deal 1 arcane damage to an opposing hero. **Go again**
-
-The first card you play each turn with an arcane damage effect, instead deals that much arcane damage plus X, where X is the damage dealt by Surgent Aethertide this turn.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN192",
-      name: "DYN192",
-      set: Release.Dynasty,
-      
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN192_Marvel",
-      name: "DYN192_Marvel",
-      set: Release.Dynasty,
-      treatment: Treatment.EA,
-    },],
-    keywords: [Keyword.GoAgain],
-    name: "Surgent Aethertide",
-    rarity: Rarity.Majestic,
-    restrictedFormats: [Format.Commoner],
-    setIdentifiers: ["DYN192"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN192_Marvel",
-    type: Type.Weapon,
-    typeText: "Wizard Weapon – Staff (2H)",
-    handsRequired: HandsRequired.TwoHanded,
-    
-    
-    talents: [],
-    subType: WeaponSubType.Staff
-  },{
-    classes: [Class.Warrior],
-    class: Class.Warrior,
-    artists: ["Alexis Susani"],
-    cardIdentifier: "quicksilver-dagger",
-    defaultImageName: "LGS112",
-    functionalText: `**Once per Turn Action** - {r}: **Attack**
-
-If another weapon you control has gained **go again** this turn, Quicksilver Dagger has **go again**.`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "LGS112",
-      name: "LGS112",
-      set: Release.Promos,
-      
-    },],
-    keywords: [Keyword.GoAgain],
-    name: "Quicksilver Dagger",
-    rarity: Rarity.Promo,
-    restrictedFormats: [],
-    setIdentifiers: ["LGS112"],
-    sets: [Release.Promos,Release.Dynasty],
-    specialImageName: "LGS112",
-    type: Type.Weapon,
-    typeText: "Warrior Weapon – Dagger (1H)",
-    handsRequired: HandsRequired.OneHanded,
-    power: 1,
-    
-    talents: [],
-    subType: WeaponSubType.Dagger
-  },{
+    subType: TokenSubType.Item
+  }];
+  const weapons: WeaponCard[] = [{
     classes: [Class.Bard],
     class: Class.Bard,
     artists: ["Carlos Cruchaga"],
@@ -73621,6 +73566,271 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
     setIdentifiers: ["LGS109","UPR165"],
     sets: [Release.Promos,Release.Uprising],
     specialImageName: "LGS109.width-450",
+    type: Type.Weapon,
+    typeText: "Wizard Weapon – Staff (2H)",
+    handsRequired: HandsRequired.TwoHanded,
+    
+    
+    talents: [],
+    subType: WeaponSubType.Staff
+  },{
+    classes: [Class.Brute],
+    class: Class.Brute,
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "rok",
+    defaultImageName: "DYN005",
+    functionalText: `**Once per Turn Action** - {p}{p}{p}: **Attack**
+
+Activate Rok only if you have no cards in hand.
+
+Damage that would be dealt by Rok can’t be prevented.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN005",
+      name: "DYN005",
+      set: Release.Dynasty,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN005_Marvel",
+      name: "DYN005_Marvel",
+      set: Release.Dynasty,
+      treatment: Treatment.EA,
+    },],
+    keywords: [],
+    name: "Rok",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN005"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN005_Marvel",
+    type: Type.Weapon,
+    typeText: "Brute Weapon – Rock (2H)",
+    handsRequired: HandsRequired.TwoHanded,
+    power: 7,
+    
+    talents: [],
+    subType: WeaponSubType.Rock
+  },{
+    classes: [Class.Warrior],
+    class: Class.Warrior,
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "merciless-battleaxe",
+    defaultImageName: "DYN068",
+    functionalText: `**Once per Turn Action** - {r}{r}{r}: **Attack**
+
+Whenever Merciless Battleaxe attacks, if its {p} is greater than twice its base {p}, the attack gains **overpower**. *(This can’t be defended by more than 1 action card.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN068",
+      name: "DYN068",
+      set: Release.Dynasty,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN068_Marvel",
+      name: "DYN068_Marvel",
+      set: Release.Dynasty,
+      treatment: Treatment.EA,
+    },],
+    keywords: [Keyword.Overpower],
+    name: "Merciless Battleaxe",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN068"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN068_Marvel",
+    type: Type.Weapon,
+    typeText: "Warrior Weapon – Axe (2H)",
+    handsRequired: HandsRequired.TwoHanded,
+    power: 3,
+    
+    talents: [],
+    subType: WeaponSubType.Axe
+  },{
+    classes: [Class.Warrior],
+    class: Class.Warrior,
+    artists: ["Alexis Susani"],
+    cardIdentifier: "quicksilver-dagger",
+    defaultImageName: "DYN069",
+    functionalText: `**Once per Turn Action** - {r}: **Attack**
+
+If another weapon you control has gained **go again** this turn, Quicksilver Dagger has **go again**.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "LGS112",
+      name: "LGS112",
+      set: Release.Promos,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN069",
+      name: "DYN069",
+      set: Release.Dynasty,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN070",
+      name: "DYN070",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Quicksilver Dagger",
+    rarity: Rarity.Promo,
+    restrictedFormats: [],
+    setIdentifiers: ["LGS112","DYN069","DYN070"],
+    sets: [Release.Promos,Release.Dynasty],
+    specialImageName: "LGS112",
+    type: Type.Weapon,
+    typeText: "Warrior Weapon – Dagger (1H)",
+    handsRequired: HandsRequired.OneHanded,
+    power: 1,
+    
+    talents: [],
+    subType: WeaponSubType.Dagger
+  },{
+    classes: [Class.Mechanologist],
+    class: Class.Mechanologist,
+    artists: ["Joseph Qiu"],
+    cardIdentifier: "hanabi-blaster",
+    defaultImageName: "DYN088_Marvel",
+    functionalText: `**Once per Turn Action** - Remove 2 steam counters from Hanabi Blaster: **Attack**
+
+**Overpower** *(This can’t be defended by more than 1 action card.)*
+
+The third time you play a card with **boost** each turn, put a steam counter on Hanabi Blaster`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN088_Marvel",
+      name: "DYN088_Marvel",
+      set: Release.Dynasty,
+      treatment: Treatment.EA,
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN088",
+      name: "DYN088",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Overpower],
+    name: "Hanabi Blaster",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN088"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN088_Marvel",
+    type: Type.Weapon,
+    typeText: "Mechanologist Weapon – Gun (2H)",
+    handsRequired: HandsRequired.TwoHanded,
+    power: 5,
+    
+    talents: [],
+    subType: WeaponSubType.Gun
+  },{
+    classes: [Class.Assassin],
+    class: Class.Assassin,
+    artists: ["Marcus Reyno"],
+    cardIdentifier: "spiders-bite",
+    defaultImageName: "DYN115",
+    functionalText: `**Once per Turn Action** – {r}{r}: **Attack**. **Go again**
+
+**Piercing 1** *(If this is defended by an equipment, it has +1{p}.)*
+
+When this hits a hero, the next time they defend with 1 or more attack action cards this turn, those cards have -1{d} while defending.
+`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN115",
+      name: "DYN115",
+      set: Release.Dynasty,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN116",
+      name: "DYN116",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Piercing],
+    name: "Spider’s Bite",
+    rarity: Rarity.Rare,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN115","DYN116"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN115",
+    type: Type.Weapon,
+    typeText: "Assassin Weapon – Dagger (1H)",
+    handsRequired: HandsRequired.OneHanded,
+    power: 1,
+    
+    talents: [],
+    subType: WeaponSubType.Dagger
+  },{
+    classes: [Class.Ranger],
+    class: Class.Ranger,
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "sandscour-greatbow",
+    defaultImageName: "DYN151_Marvel",
+    functionalText: `**Once per Turn Action** - {r}: Look at the top card of your deck. You may put an arrow from your hand or the top of your deck face up into your arsenal. **Go again**
+
+Whenever an arrow is put face up in arsenal from your deck, put an aim counter on it.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN151_Marvel",
+      name: "DYN151_Marvel",
+      set: Release.Dynasty,
+      treatment: Treatment.EA,
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN151",
+      name: "DYN151",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Sandscour Greatbow",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN151"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN151_Marvel",
+    type: Type.Weapon,
+    typeText: "Ranger Weapon – Bow (2H)",
+    handsRequired: HandsRequired.TwoHanded,
+    
+    
+    talents: [],
+    subType: WeaponSubType.Bow
+  },{
+    classes: [Class.Wizard],
+    class: Class.Wizard,
+    artists: ["Alexis Susani"],
+    cardIdentifier: "surgent-aethertide",
+    defaultImageName: "DYN192",
+    functionalText: `**Once per Turn Action** - {r}{r}: Deal 1 arcane damage to an opposing hero. **Go again**
+
+The first card you play each turn with an arcane damage effect, instead deals that much arcane damage plus X, where X is the damage dealt by Surgent Aethertide this turn.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN192",
+      name: "DYN192",
+      set: Release.Dynasty,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN192_Marvel",
+      name: "DYN192_Marvel",
+      set: Release.Dynasty,
+      treatment: Treatment.EA,
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Surgent Aethertide",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN192"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN192_Marvel",
     type: Type.Weapon,
     typeText: "Wizard Weapon – Staff (2H)",
     handsRequired: HandsRequired.TwoHanded,
