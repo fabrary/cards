@@ -30092,8 +30092,7 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     specializations: [],
     subType: ActionSubType.Attack,
-  }];
-  const basicActions2: ActionCard[] = [{
+  },{
     classes: [Class.Generic],
     class: Class.Generic,
     artists: ["Tian Thongjomroon"],
@@ -30213,7 +30212,8 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     specializations: [],
     subType: ActionSubType.Attack,
-  },{
+  }];
+  const basicActions2: ActionCard[] = [{
     classes: [Class.Generic],
     class: Class.Generic,
     artists: ["Alexis Susani"],
@@ -53047,6 +53047,44 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
   },{
     classes: [Class.Brute],
     class: Class.Brute,
+    artists: ["Yugin Maffioli"],
+    cardIdentifier: "savage-beatdown-red",
+    defaultImageName: "DYN007",
+    functionalText: `Play Savage Beatdown only if you’ve discarded a card with 6 or more {p} this turn.
+
+As an additional cost to play Savage Beatdown, discard a random card.
+
+If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN007",
+      name: "DYN007",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Savage Beatdown",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN007"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN007",
+    type: Type.Action,
+    typeText: "Brute Action – Attack",
+    cost: 3,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 6,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Brute],
+    class: Class.Brute,
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "berserk-yellow",
     defaultImageName: "DYN009",
@@ -53073,6 +53111,42 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
     defense: 3,
     fusions: [],
     pitch: 2,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Guardian],
+    class: Class.Guardian,
+    artists: ["Federico Musetti"],
+    cardIdentifier: "buckle-blue",
+    defaultImageName: "DYN028",
+    functionalText: `Your next Guardian attack this turn gains +1{p}, **dominate**, and "When this hits a hero, destroy an equipment they control with a -1{d} counter on it."
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN028",
+      name: "DYN028",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Dominate,Keyword.GoAgain],
+    name: "Buckle",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN028"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN028",
+    type: Type.Action,
+    typeText: "Guardian Action",
+    cost: 3,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
     
     talents: [],
     
@@ -53356,6 +53430,44 @@ You may play Lumina Ascension as though it were an instant.`,
     type: Type.Action,
     typeText: "Warrior Action",
     cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Mechanologist],
+    class: Class.Mechanologist,
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "bios-update-red",
+    defaultImageName: "DYN091",
+    functionalText: `The next attack action card you **boost** this turn gains +3{p}.
+
+The next time a Mechanologist item with cost 2 or less is banished to pay a **boost** cost this turn, put it into the arena.
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN091",
+      name: "DYN091",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Boost,Keyword.GoAgain],
+    name: "Bios Update",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN091"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN091",
+    type: Type.Action,
+    typeText: "Mechanologist Action",
+    cost: 0,
     defense: 3,
     fusions: [],
     pitch: 1,
@@ -54563,6 +54675,44 @@ When this hits, at the beginning of your end phase, put the top card of your dec
   },{
     classes: [Class.Ranger],
     class: Class.Ranger,
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "dead-eye-yellow",
+    defaultImageName: "DYN155",
+    functionalText: `Your next arrow attack this turn gains +3{p}.
+
+If it has an aim counter, it gains “When this hits a hero, look at their hand and choose a card. They discard it.”
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN155",
+      name: "DYN155",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Dead Eye",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN155"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN155",
+    type: Type.Action,
+    typeText: "Ranger Action",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Ranger],
+    class: Class.Ranger,
     artists: ["Shen Fei"],
     cardIdentifier: "hemorrhage-bore-red",
     defaultImageName: "DYN162",
@@ -54731,6 +54881,42 @@ If a ‘non-attack’ action card was pitched to play Diabolic Ultimatum, each h
     defense: 2,
     fusions: [],
     pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Runeblade],
+    class: Class.Runeblade,
+    artists: ["Marco Gonzalez"],
+    cardIdentifier: "looming-doom-blue",
+    defaultImageName: "DYN175",
+    functionalText: `When Looming Doom enters the arena, destroy all Runechants you control and put that many doom counters on Looming Doom.
+
+At the beginning of your end phase, remove a doom counter from Looming Doom. If you do, deal 2 arcane damage to any target. Otherwise, destroy Looming Doom.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN175",
+      name: "DYN175",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Looming Doom",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN175"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN175",
+    type: Type.Action,
+    typeText: "Runeblade Action – Aura",
+    cost: 3,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
     
     talents: [],
     
@@ -55074,6 +55260,80 @@ If a ‘non-attack’ action card was pitched to play Diabolic Ultimatum, each h
     
     specializations: [],
     subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Generic],
+    class: Class.Generic,
+    artists: ["Federico Musetti"],
+    cardIdentifier: "imperial-edict-red",
+    defaultImageName: "DYN240",
+    functionalText: `**Legendary** *(You may only have 1 Imperial Edict in your deck.)*
+
+**Action** - Destroy Imperial Edict: Name a card. The named card can’t be played until the start of your next turn. If you are Royal, instead each opponent reveals their hand, then name a card.
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN240",
+      name: "DYN240",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Legendary,Keyword.GoAgain],
+    name: "Imperial Edict",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN240"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN240",
+    type: Type.Action,
+    typeText: "Generic Action – Item",
+    cost: 1,
+    
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Item,
+  },{
+    classes: [Class.Generic],
+    class: Class.Generic,
+    artists: ["Aleksey Peregudov"],
+    cardIdentifier: "imperial-ledger-red",
+    defaultImageName: "DYN241",
+    functionalText: `**Legendary** *(You may only have 1 Imperial Ledger in your deck.)*
+
+**Action** - Shuffle Imperial Ledger into its owner’s deck: Create a Copper token. If you are Royal, instead create a Gold token.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN241",
+      name: "DYN241",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Legendary],
+    name: "Imperial Ledger",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN241"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN241",
+    type: Type.Action,
+    typeText: "Generic Action – Item",
+    cost: 0,
+    
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Item,
   },{
     classes: [Class.Generic],
     class: Class.Generic,
