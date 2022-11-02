@@ -253,7 +253,7 @@ cards.forEach((card) => {
 
 ### Card data
 
-- [src/cards.tsv](src/cards.tsv) is the source of truth for all generated data. The data is managed in Google Sheets and sourced from [the-fab-cube/flesh-and-blood-cards](https://github.com/the-fab-cube/flesh-and-blood-cards).
+- [src/cards.csv](src/cards.csv) is the source of truth for all generated data. The data is managed in Google Sheets and sourced from [the-fab-cube/flesh-and-blood-cards](https://github.com/the-fab-cube/flesh-and-blood-cards).
 
 ### Data transformations
 

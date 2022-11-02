@@ -3,7 +3,7 @@ import { parse } from "papaparse";
 import { cards as libraryCards } from "../dist/index";
 import { cards as publishedCards } from "fab-cards";
 
-const csv = readFileSync("src/cards.tsv", "utf8");
+const csv = readFileSync("src/cards.csv", "utf8");
 const parsed = parse(csv, {
   header: true,
   dynamicTyping: true,
@@ -70,7 +70,7 @@ Cards with special characters: ${cardIdentifiersWithNonAlphanumeric}
 }
 
 There are ${libraryCards.length} cards in dist/
-There are ${parsedCards.length} cards in the source .tsv
+There are ${parsedCards.length} cards in the source .csv
 There are ${parsedCards.length - libraryCards.length} missing in dist/
 ${
   cardsMissingFromLibrary.length > 0

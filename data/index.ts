@@ -30436,8 +30436,7 @@ The next attack action card with cost 0 you play this turn gains **go again.**
     
     specializations: [],
     subType: ActionSubType.NonAttack,
-  }];
-  const basicActions2: ActionCard[] = [{
+  },{
     classes: [Class.Generic],
     class: Class.Generic,
     artists: ["Silvia Meiliani"],
@@ -30641,7 +30640,8 @@ The next attack action card with cost 0 you play this turn gains **go again.**
     
     specializations: [],
     subType: ActionSubType.Attack,
-  },{
+  }];
+  const basicActions2: ActionCard[] = [{
     classes: [Class.Generic],
     class: Class.Generic,
     artists: ["Alief Rusdiatama"],
@@ -53193,6 +53193,40 @@ If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
     specializations: [],
     subType: ActionSubType.NonAttack,
   },{
+    classes: [Class.Brute],
+    class: Class.Brute,
+    artists: ["Mateusz Wisniewski"],
+    cardIdentifier: "reincarnate-yellow",
+    defaultImageName: "DYN011",
+    functionalText: `When Reincarnate is discarded at random, put it on the bottom of your deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN011",
+      name: "DYN011",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Reincarnate",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN011"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN011",
+    type: Type.Action,
+    typeText: "Brute Action – Attack",
+    cost: 3,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    power: 6,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
     classes: [Class.Guardian],
     class: Class.Guardian,
     artists: ["Federico Musetti"],
@@ -53401,6 +53435,44 @@ If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
   },{
     classes: [Class.Ninja],
     class: Class.Ninja,
+    artists: ["Sarlya Asavametha"],
+    cardIdentifier: "roar-of-the-tiger-yellow",
+    defaultImageName: "DYN049",
+    functionalText: `Create a Crouching Tiger in your hand.
+
+Crouching Tigers you control gain +1{p} this turn.
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN049",
+      name: "DYN049",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Roar of the Tiger",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN049"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN049",
+    type: Type.Action,
+    typeText: "Ninja Action",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Ninja],
+    class: Class.Ninja,
     artists: [],
     cardIdentifier: "flex-claws-red",
     defaultImageName: "DYN050",
@@ -53437,10 +53509,186 @@ If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
   },{
     classes: [Class.Ninja],
     class: Class.Ninja,
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "flex-claws-yellow",
+    defaultImageName: "DYN051",
+    functionalText: `When this hits, create a Crouching Tiger in your banished zone. You may play it this turn.
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN051",
+      name: "DYN051",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Flex Claws",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN051"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN051",
+    type: Type.Action,
+    typeText: "Ninja Action – Attack",
+    cost: 1,
+    defense: 2,
+    fusions: [],
+    pitch: 2,
+    power: 3,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Ninja],
+    class: Class.Ninja,
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "flex-claws-blue",
+    defaultImageName: "DYN052",
+    functionalText: `When this hits, create a Crouching Tiger in your banished zone. You may play it this turn.
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN052",
+      name: "DYN052",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Flex Claws",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN052"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN052",
+    type: Type.Action,
+    typeText: "Ninja Action – Attack",
+    cost: 1,
+    defense: 2,
+    fusions: [],
+    pitch: 3,
+    power: 2,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Ninja],
+    class: Class.Ninja,
+    artists: ["Rio Sabda"],
+    cardIdentifier: "pouncing-qi-red",
+    defaultImageName: "DYN056",
+    functionalText: `**Combo** - If Crouching Tiger was the last attack this combat chain, Pouncing Qi has +1{p} and **go again**.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN056",
+      name: "DYN056",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Combo,Keyword.GoAgain],
+    name: "Pouncing Qi",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN056"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN056",
+    type: Type.Action,
+    typeText: "Ninja Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 3,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Ninja],
+    class: Class.Ninja,
+    artists: ["Rio Sabda"],
+    cardIdentifier: "pouncing-qi-yellow",
+    defaultImageName: "DYN057",
+    functionalText: `**Combo** - If Crouching Tiger was the last attack this combat chain, Pouncing Qi has +1{p} and **go again**.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN057",
+      name: "DYN057",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Combo,Keyword.GoAgain],
+    name: "Pouncing Qi",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN057"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN057",
+    type: Type.Action,
+    typeText: "Ninja Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    power: 2,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Ninja],
+    class: Class.Ninja,
+    artists: ["Rio Sabda"],
+    cardIdentifier: "pouncing-qi-blue",
+    defaultImageName: "DYN058",
+    functionalText: `**Combo** - If Crouching Tiger was the last attack this combat chain, Pouncing Qi has +1{p} and **go again**.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN058",
+      name: "DYN058",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Combo,Keyword.GoAgain],
+    name: "Pouncing Qi",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN058"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN058",
+    type: Type.Action,
+    typeText: "Ninja Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    power: 1,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Ninja],
+    class: Class.Ninja,
     artists: ["Immanuela Crovius"],
     cardIdentifier: "predatory-streak-red",
     defaultImageName: "DYN062",
-    
+    functionalText: `Create 3 Crouching Tigers in your banished zone. You may play them this turn.
+
+**Go again**`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS122",
@@ -53456,7 +53704,7 @@ If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
     },],
     keywords: [Keyword.GoAgain],
     name: "Predatory Streak",
-    rarity: Rarity.Promo,
+    rarity: Rarity.Common,
     restrictedFormats: [],
     setIdentifiers: ["LGS122","DYN062"],
     sets: [Release.Promos,Release.Dynasty],
@@ -53480,7 +53728,9 @@ If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
     artists: ["Immanuela Crovius"],
     cardIdentifier: "predatory-streak-yellow",
     defaultImageName: "LGS123",
-    functionalText: `**Go again**`,
+    functionalText: `Create 2 Crouching Tigers in your banished zone. You may play them this turn.
+
+**Go again**`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS123",
@@ -53490,7 +53740,7 @@ If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
     },],
     keywords: [Keyword.GoAgain],
     name: "Predatory Streak",
-    rarity: Rarity.Promo,
+    rarity: Rarity.Common,
     restrictedFormats: [],
     setIdentifiers: ["LGS123","DYN063"],
     sets: [Release.Promos,Release.Dynasty],
@@ -53526,7 +53776,7 @@ If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
     },],
     keywords: [Keyword.GoAgain],
     name: "Predatory Streak",
-    rarity: Rarity.Promo,
+    rarity: Rarity.Common,
     restrictedFormats: [],
     setIdentifiers: ["LGS124","DYN064"],
     sets: [Release.Promos,Release.Dynasty],
@@ -53647,6 +53897,78 @@ You may play Lumina Ascension as though it were an instant.`,
     defense: 3,
     fusions: [],
     pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Warrior],
+    class: Class.Warrior,
+    artists: ["Federico Musetti"],
+    cardIdentifier: "precision-press-red",
+    defaultImageName: "DYN076",
+    functionalText: `Your next sword or dagger attack this turn has **go again** and **piercing 3**. *(If it’s defended by an equipment, it has +3{p}.)*
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN076",
+      name: "DYN076",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.GoAgain,Keyword.Piercing],
+    name: "Precision Press",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN076"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN076",
+    type: Type.Action,
+    typeText: "Warrior Action",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Warrior],
+    class: Class.Warrior,
+    artists: ["Federico Musetti"],
+    cardIdentifier: "precision-press-yellow",
+    defaultImageName: "DYN077",
+    functionalText: `Your next sword or dagger attack this turn has **go again** and **piercing 2**. *(If it’s defended by an equipment, it has +2{p}.)*
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN077",
+      name: "DYN077",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.GoAgain,Keyword.Piercing],
+    name: "Precision Press",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN077"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN077",
+    type: Type.Action,
+    typeText: "Warrior Action",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
     
     talents: [],
     
@@ -53906,6 +54228,40 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     
     specializations: [],
     subType: ActionSubType.Aura,
+  },{
+    classes: [Class.Mechanologist],
+    class: Class.Mechanologist,
+    artists: ["Rio Sabda"],
+    cardIdentifier: "urgent-delivery-red",
+    defaultImageName: "DYN107",
+    functionalText: `When this hits, you may put a Mechanologist item from your hand into the arena with cost less than or equal to the number of times you’ve **boosted** this combat chain.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN107",
+      name: "DYN107",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Boost],
+    name: "Urgent Delivery",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN107"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN107",
+    type: Type.Action,
+    typeText: "Mechanologist Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 4,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
   },{
     classes: [Class.Mechanologist],
     class: Class.Mechanologist,
@@ -57955,6 +58311,108 @@ You may banish a non-equipment defending card with {d} less than the number of D
     specialImageName: "UPR164",
     type: Type.AttackReaction,
     typeText: "Ninja Attack Reaction",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    
+  },{
+    classes: [Class.Warrior],
+    class: Class.Warrior,
+    artists: ["Tommy Shuartono"],
+    cardIdentifier: "puncture-red",
+    defaultImageName: "DYN079",
+    functionalText: `Target sword or dagger attack gains +3{p} and **piercing 1**. *(If it’s defended by an equipment, it has +1{p}.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN079",
+      name: "DYN079",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Piercing],
+    name: "Puncture",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN079"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN079",
+    type: Type.AttackReaction,
+    typeText: "Warrior Attack Reaction",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    
+  },{
+    classes: [Class.Warrior],
+    class: Class.Warrior,
+    artists: ["Tommy Shuartono"],
+    cardIdentifier: "puncture-yellow",
+    defaultImageName: "DYN080",
+    functionalText: `Target sword or dagger attack gains +2{p} and **piercing 1**. *(If it’s defended by an equipment, it has +1{p}.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN080",
+      name: "DYN080",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Piercing],
+    name: "Puncture",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN080"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN080",
+    type: Type.AttackReaction,
+    typeText: "Warrior Attack Reaction",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    
+  },{
+    classes: [Class.Warrior],
+    class: Class.Warrior,
+    artists: ["Tommy Shuartono"],
+    cardIdentifier: "puncture-blue",
+    defaultImageName: "DYN081",
+    functionalText: `Target sword or dagger attack gains +2{p} and **piercing 1**. *(If it’s defended by an equipment, it has +1{p}.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN081",
+      name: "DYN081",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Piercing],
+    name: "Puncture",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN081"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN081",
+    type: Type.AttackReaction,
+    typeText: "Warrior Attack Reaction",
     cost: 1,
     defense: 3,
     fusions: [],
@@ -74991,6 +75449,36 @@ Damage that would be dealt by Rok can’t be prevented.`,
     
     talents: [],
     subType: WeaponSubType.Rock
+  },{
+    classes: [Class.Warrior],
+    class: Class.Warrior,
+    artists: ["Andy Aslamov"],
+    cardIdentifier: "jubeel-spellbane",
+    defaultImageName: "DYN067",
+    functionalText: `**Once per Turn Action** - {p} **Attack**
+
+Whenever this hits a hero and you don’t control a Spellbane Aegis, create a Spellbane Aegis token. *(It’s an aura with “If your hero would be dealt arcane damage, you may destroy this to prevent 1 of that damage.”)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN067",
+      name: "DYN067",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Jubeel, Spellbane",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN067"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN067",
+    type: Type.Weapon,
+    typeText: "Warrior Weapon – Sword (2H)",
+    handsRequired: HandsRequired.TwoHanded,
+    power: 3,
+    
+    talents: [],
+    subType: WeaponSubType.Sword
   },{
     classes: [Class.Warrior],
     class: Class.Warrior,
