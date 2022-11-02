@@ -322,6 +322,7 @@ export enum Keyword {
   Contract = "Contract",
   Crush = "Crush",
   Dominate = "Dominate",
+  Ephemeral = "Ephemeral",
   Essence = "Essence",
   Freeze = "Freeze",
   Fusion = "Fusion",

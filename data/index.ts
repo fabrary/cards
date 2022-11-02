@@ -9057,6 +9057,12 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
       name: "U-ARC036",
       set: Release.ArcaneRising,
       
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN110",
+      name: "DYN110",
+      set: Release.Dynasty,
+      
     },],
     keywords: [],
     name: "Hyper Driver",
@@ -9083,33 +9089,33 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
     class: Class.Mechanologist,
     artists: ["Sergey Gurskiy"],
     cardIdentifier: "optekal-monocle-blue",
-    defaultImageName: "ARC036",
+    defaultImageName: "ARC037",
     functionalText: `Optekal Monocle enters the arena with 5 steam counters on it. When Optekal Monocle has no steam counters on it, destroy it.
 
 **Action** - Remove a steam counter from Optekal Monocle: **Opt 1**. **Go again** *(Look at the top card of your deck. You may put it on the bottom.)*`,
     images: [{
       edition: ReleaseEdition.Promo,
-      identifier: "1HP218",
-      name: "1HP218.width-450",
+      identifier: "1HP219",
+      name: "1HP219.width-450",
       set: Release.HistoryPack1,
       
     },{
       edition: ReleaseEdition.First,
-      identifier: "ARC036",
-      name: "ARC036",
+      identifier: "ARC037",
+      name: "ARC037",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "ARC037",
+      name: "ARC037-RF",
       set: Release.ArcaneRising,
       
     },{
       edition: ReleaseEdition.Unlimited,
-      identifier: "ARC036",
-      name: "U-ARC036",
+      identifier: "ARC037",
+      name: "U-ARC037",
       set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN110",
-      name: "DYN110",
-      set: Release.Dynasty,
       
     },],
     keywords: [],
@@ -9118,7 +9124,7 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
     restrictedFormats: [],
     setIdentifiers: ["1HP219","ARC037"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
-    specialImageName: "ARC036",
+    specialImageName: "ARC037",
     type: Type.Action,
     typeText: "Mechanologist Action – Item",
     cost: 0,
@@ -30252,8 +30258,7 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     specializations: [],
     subType: ActionSubType.Attack,
-  }];
-  const basicActions2: ActionCard[] = [{
+  },{
     classes: [Class.Generic],
     class: Class.Generic,
     artists: ["Alexis Susani"],
@@ -30431,7 +30436,8 @@ The next attack action card with cost 0 you play this turn gains **go again.**
     
     specializations: [],
     subType: ActionSubType.NonAttack,
-  },{
+  }];
+  const basicActions2: ActionCard[] = [{
     classes: [Class.Generic],
     class: Class.Generic,
     artists: ["Silvia Meiliani"],
@@ -52979,6 +52985,40 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
   },{
     classes: [Class.Illusionist],
     class: Class.Illusionist,
+    artists: ["Asur Misoa"],
+    cardIdentifier: "dust-from-the-golden-plains-red",
+    defaultImageName: "DYN002",
+    functionalText: `**Material** - While this is under a permanent other than Themai, that permanent has **phantasm**.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN002",
+      name: "DYN002",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Material,Keyword.Phantasm],
+    name: "Dust from the Golden Plains",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN002"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN002",
+    type: Type.Action,
+    typeText: "Draconic Illusionist Action – Ash",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [Talent.Draconic],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Ash,
+  },{
+    classes: [Class.Illusionist],
+    class: Class.Illusionist,
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "dust-from-the-red-desert-red",
     defaultImageName: "DYN003",
@@ -53293,6 +53333,110 @@ If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
   },{
     classes: [Class.Ninja],
     class: Class.Ninja,
+    artists: ["Alexander Mokhov"],
+    cardIdentifier: "tiger-swipe-red",
+    defaultImageName: "DYN047",
+    functionalText: `**Combo** - If Crouching Tiger was the last attack this combat chain, this has +2{p}, **go again**, and “When this hits, create X Crouching Tigers in your banished zone, where X is the number of Crouching Tigers you control. You may play them this turn.”`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN047",
+      name: "DYN047",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Combo,Keyword.GoAgain],
+    name: "Tiger Swipe",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN047"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN047",
+    type: Type.Action,
+    typeText: "Ninja Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 2,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Ninja],
+    class: Class.Ninja,
+    artists: ["Shen Fei"],
+    cardIdentifier: "mindstate-of-tiger-blue",
+    defaultImageName: "DYN048",
+    functionalText: `At the start of your turn, destroy Mindstate of Tiger then create a Crouching Tiger in your hand.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN048",
+      name: "DYN048",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Mindstate of Tiger",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN048"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN048",
+    type: Type.Action,
+    typeText: "Ninja Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Aura,
+  },{
+    classes: [Class.Ninja],
+    class: Class.Ninja,
+    artists: [],
+    cardIdentifier: "flex-claws-red",
+    defaultImageName: "DYN050",
+    functionalText: `When this hits, create a Crouching Tiger in your banished zone. You may play it this turn.
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN050",
+      name: "DYN050",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Flex Claws",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN050"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN050",
+    type: Type.Action,
+    typeText: "Ninja Action – Attack",
+    cost: 1,
+    defense: 2,
+    fusions: [],
+    pitch: 1,
+    power: 4,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Ninja],
+    class: Class.Ninja,
     artists: ["Immanuela Crovius"],
     cardIdentifier: "predatory-streak-red",
     defaultImageName: "DYN062",
@@ -53401,6 +53545,42 @@ If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
     specializations: [],
     subType: ActionSubType.NonAttack,
   },{
+    classes: [Class.Ninja],
+    class: Class.Ninja,
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "crouching-tiger",
+    defaultImageName: "DYN065",
+    functionalText: `**Ephemeral** *(If Crouching Tiger would be put into a graveyard from anywhere, instead it ceases to exist)*
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN065",
+      name: "DYN065",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Ephemeral,Keyword.GoAgain],
+    name: "Crouching Tiger",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN065"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN065",
+    type: Type.Action,
+    typeText: "Ninja Action – Attack",
+    cost: 0,
+    
+    fusions: [],
+    pitch: 0,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
     classes: [Class.Warrior],
     class: Class.Warrior,
     artists: ["Henrique Lindner"],
@@ -53467,6 +53647,42 @@ You may play Lumina Ascension as though it were an instant.`,
     defense: 3,
     fusions: [],
     pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Warrior],
+    class: Class.Warrior,
+    artists: ["Federico Musetti"],
+    cardIdentifier: "precision-press-blue",
+    defaultImageName: "DYN078",
+    functionalText: `Your next sword or dagger attack this turn has **go again** and **piercing 1**. *(If it’s defended by an equipment, it has +1{p}.)*
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN078",
+      name: "DYN078",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.GoAgain,Keyword.Piercing],
+    name: "Precision Press",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN078"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN078",
+    type: Type.Action,
+    typeText: "Warrior Action",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
     
     talents: [],
     
@@ -55127,7 +55343,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
     rarity: Rarity.Promo,
     restrictedFormats: [],
     setIdentifiers: ["LGS116","DYN200"],
-    sets: [Release.Promos],
+    sets: [Release.Promos,Release.Dynasty],
     specialImageName: "dyn_card_Blessing_of_Aether_p1.width-10000",
     type: Type.Action,
     typeText: "Wizard Action – Aura",
@@ -55167,7 +55383,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
     rarity: Rarity.Promo,
     restrictedFormats: [],
     setIdentifiers: ["LGS117","DYN201"],
-    sets: [Release.Promos],
+    sets: [Release.Promos,Release.Dynasty],
     specialImageName: "LGS117",
     type: Type.Action,
     typeText: "Wizard Action – Aura",
@@ -55207,10 +55423,82 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
     rarity: Rarity.Promo,
     restrictedFormats: [],
     setIdentifiers: ["LGS118","DYN202"],
-    sets: [Release.Promos],
+    sets: [Release.Promos,Release.Dynasty],
     specialImageName: "LGS118",
     type: Type.Action,
     typeText: "Wizard Action – Aura",
+    cost: 1,
+    defense: 2,
+    fusions: [],
+    pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Aura,
+  },{
+    classes: [Class.Illusionist],
+    class: Class.Illusionist,
+    artists: ["Othon Nikolaidis"],
+    cardIdentifier: "phantasmal-symbiosis-yellow",
+    defaultImageName: "DYN215",
+    functionalText: `When this attacks, name a card.  Cards with that name are Illusionist until end of turn.
+
+**Phantasm** *(When this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this and close the combat chain.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN215",
+      name: "DYN215",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Phantasm],
+    name: "Phantasmal Symbiosis",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN215"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN215",
+    type: Type.Action,
+    typeText: "Illusionist Action – Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    power: 6,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Illusionist],
+    class: Class.Illusionist,
+    artists: ["Mark Poole"],
+    cardIdentifier: "tome-of-aeo-blue",
+    defaultImageName: "DYN217",
+    functionalText: `At the beginning of your action phase, destroy Tome of Aeo then draw a card.
+
+**Ward 1** *(If your hero would be dealt damage, prevent 1 of that damage and destroy Tome of Aeo.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN217",
+      name: "DYN217",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Ward],
+    name: "Tome of Aeo",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN217"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN217",
+    type: Type.Action,
+    typeText: "Illusionist Action – Aura",
     cost: 1,
     defense: 2,
     fusions: [],
@@ -63545,6 +63833,40 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     
     specializations: [],
     subType: ActionSubType.Aura,
+  },{
+    classes: [Class.Wizard],
+    class: Class.Wizard,
+    artists: ["Mark Poole"],
+    cardIdentifier: "brainstorm-blue",
+    defaultImageName: "DYN198",
+    functionalText: `Until end of turn, your hero gains “Whenever you draw a card this action phase, deal 1 arcane damage to any target”. *(Brainstorm itself does not have an arcane damage effect. It is not modified by arcane damage modifiers.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN198",
+      name: "DYN198",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Brainstorm",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN198"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN198",
+    type: Type.Instant,
+    typeText: "Wizard Instant",
+    cost: 3,
+    
+    fusions: [],
+    pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    
   }];
   const equipment: EquipmentCard[] = [{
     classes: [Class.Generic],
