@@ -30640,8 +30640,7 @@ The next attack action card with cost 0 you play this turn gains **go again.**
     
     specializations: [],
     subType: ActionSubType.Attack,
-  }];
-  const basicActions2: ActionCard[] = [{
+  },{
     classes: [Class.Generic],
     class: Class.Generic,
     artists: ["Alief Rusdiatama"],
@@ -30725,7 +30724,8 @@ The next attack action card with cost 0 you play this turn gains **go again.**
     
     specializations: [],
     subType: ActionSubType.Attack,
-  },{
+  }];
+  const basicActions2: ActionCard[] = [{
     classes: [Class.Generic],
     class: Class.Generic,
     artists: ["Phu Thieu"],
@@ -53196,6 +53196,40 @@ If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
     classes: [Class.Brute],
     class: Class.Brute,
     artists: ["Mateusz Wisniewski"],
+    cardIdentifier: "reincarnate-red",
+    defaultImageName: "DYN010",
+    functionalText: `When Reincarnate is discarded at random, put it on the bottom of your deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN010",
+      name: "DYN010",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Reincarnate",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN010"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN010",
+    type: Type.Action,
+    typeText: "Brute Action – Attack",
+    cost: 3,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 7,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Brute],
+    class: Class.Brute,
+    artists: ["Mateusz Wisniewski"],
     cardIdentifier: "reincarnate-yellow",
     defaultImageName: "DYN011",
     functionalText: `When Reincarnate is discarded at random, put it on the bottom of your deck.`,
@@ -53220,6 +53254,40 @@ If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
     fusions: [],
     pitch: 2,
     power: 6,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Brute],
+    class: Class.Brute,
+    artists: ["Mateusz Wisniewski"],
+    cardIdentifier: "reincarnate-blue",
+    defaultImageName: "DYN012",
+    functionalText: `When Reincarnate is discarded at random, put it on the bottom of your deck.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN012",
+      name: "DYN012",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Reincarnate",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN012"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN012",
+    type: Type.Action,
+    typeText: "Brute Action – Attack",
+    cost: 3,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    power: 5,
     talents: [],
     
     
@@ -54256,6 +54324,74 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     fusions: [],
     pitch: 1,
     power: 4,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Mechanologist],
+    class: Class.Mechanologist,
+    artists: ["Rio Sabda"],
+    cardIdentifier: "urgent-delivery-yellow",
+    defaultImageName: "DYN108",
+    functionalText: `When this hits, you may put a Mechanologist item from your hand into the arena with cost less than or equal to the number of times you’ve **boosted** this combat chain.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN108",
+      name: "DYN108",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Boost],
+    name: "Urgent Delivery",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN108"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN108",
+    type: Type.Action,
+    typeText: "Mechanologist Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    power: 3,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Mechanologist],
+    class: Class.Mechanologist,
+    artists: ["Rio Sabda"],
+    cardIdentifier: "urgent-delivery-blue",
+    defaultImageName: "DYN109",
+    functionalText: `When this hits, you may put a Mechanologist item from your hand into the arena with cost less than or equal to the number of times you’ve **boosted** this combat chain.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN109",
+      name: "DYN109",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Boost],
+    name: "Urgent Delivery",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN109"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN109",
+    type: Type.Action,
+    typeText: "Mechanologist Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    power: 2,
     talents: [],
     
     
