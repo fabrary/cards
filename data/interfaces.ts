@@ -344,6 +344,7 @@ export enum Keyword {
   Specialization = "Specialization",
   Spectra = "Spectra",
   Spellvoid = "Spellvoid",
+  Surge = "Surge",
   Temper = "Temper",
   Transform = "Transform",
   Thaw = "Thaw",

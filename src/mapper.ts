@@ -504,6 +504,11 @@ const getTypeAndSubType = (
     type = Type.Token;
   }
 
+  const angels = ["Suraya, Archangel of Knowledge"];
+  if (angels.includes(card.name)) {
+    type = Type.Token;
+  }
+
   if (type === Type.Action && !subType) {
     subType = ActionSubType.NonAttack;
   }

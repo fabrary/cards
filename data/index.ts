@@ -30724,8 +30724,7 @@ The next attack action card with cost 0 you play this turn gains **go again.**
     
     specializations: [],
     subType: ActionSubType.Attack,
-  }];
-  const basicActions2: ActionCard[] = [{
+  },{
     classes: [Class.Generic],
     class: Class.Generic,
     artists: ["Phu Thieu"],
@@ -30809,7 +30808,8 @@ The next attack action card with cost 0 you play this turn gains **go again.**
     
     specializations: [],
     subType: ActionSubType.Attack,
-  },{
+  }];
+  const basicActions2: ActionCard[] = [{
     classes: [Class.Generic],
     class: Class.Generic,
     artists: ["Agus Setiawan"],
@@ -55813,6 +55813,42 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
   },{
     classes: [Class.Wizard],
     class: Class.Wizard,
+    artists: ["Federico Musetti"],
+    cardIdentifier: "swell-tidings-red",
+    defaultImageName: "DYN195",
+    functionalText: `Deal 5 arcane damage to target hero.
+
+**Surge** - If this deals more than 5 damage, create a Ponder token. *(It’s an aura with “At the beginning of your end phase, destroy Ponder and draw a card.”)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN195",
+      name: "DYN195",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Surge],
+    name: "Swell Tidings",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN195"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN195",
+    type: Type.Action,
+    typeText: "Wizard Action",
+    cost: 2,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Wizard],
+    class: Class.Wizard,
     artists: ["soyameii"],
     cardIdentifier: "blessing-of-aether-red",
     defaultImageName: "DYN200",
@@ -55933,6 +55969,44 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
   },{
     classes: [Class.Illusionist],
     class: Class.Illusionist,
+    artists: ["Alexander Mokhov"],
+    cardIdentifier: "invoke-suraya-yellow",
+    defaultImageName: "DYN212",
+    functionalText: `**Legendary** *(You may only have 1 Invoke Suraya in your deck.)*
+
+**Transform** target Spectral Shield you control into Suraya, Arcane Herald.
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN212",
+      name: "DYN212",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Legendary,Keyword.Transform,Keyword.GoAgain],
+    name: "Invoke Suraya",
+    rarity: Rarity.Legendary,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN212"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN212",
+    type: Type.Action,
+    typeText: "Light Illusionist Action – Invocation",
+    cost: 2,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    
+    talents: [Talent.Light],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Invocation,
+  },{
+    classes: [Class.Illusionist],
+    class: Class.Illusionist,
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "phantasmal-symbiosis-yellow",
     defaultImageName: "DYN215",
@@ -55995,6 +56069,42 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
     defense: 2,
     fusions: [],
     pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Aura,
+  },{
+    classes: [Class.Illusionist],
+    class: Class.Illusionist,
+    artists: ["Ramza Ardyputra"],
+    cardIdentifier: "blessing-of-spirits-red",
+    defaultImageName: "DYN218",
+    functionalText: `At the start of your turn, destroy Blessing of Spirits then create 3 Spectral Shield tokens.
+
+**Ward 1** *(If your hero would be dealt damage, prevent 1 of that damage and destroy Blessing of Spirits.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN218",
+      name: "DYN218",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Ward],
+    name: "Blessing of Spirits",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN218"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN218",
+    type: Type.Action,
+    typeText: "Illusionist Action – Aura",
+    cost: 1,
+    defense: 2,
+    fusions: [],
+    pitch: 1,
     
     talents: [],
     
@@ -56236,7 +56346,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
       set: Release.Promos,
       
     },],
-    keywords: [],
+    keywords: [Keyword.Surge],
     name: "Sap",
     rarity: Rarity.Promo,
     restrictedFormats: [],
@@ -56272,7 +56382,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
       set: Release.Promos,
       
     },],
-    keywords: [],
+    keywords: [Keyword.Surge],
     name: "Sap",
     rarity: Rarity.Promo,
     restrictedFormats: [],
@@ -56308,7 +56418,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
       set: Release.Promos,
       
     },],
-    keywords: [],
+    keywords: [Keyword.Surge],
     name: "Sap",
     rarity: Rarity.Promo,
     restrictedFormats: [],
@@ -73560,6 +73670,37 @@ If Yendurai would be dealt damage, remove an endurance counter from him to preve
     talents: [Talent.Draconic],
     subType: TokenSubType.Ash
   },{
+    classes: [Class.Illusionist],
+    class: Class.Illusionist,
+    artists: ["Alexander Mokhov"],
+    cardIdentifier: "suraya-archangel-of-knowledge",
+    defaultImageName: "DYN212_Marvel",
+    functionalText: `**Once per Turn Action** - {p}{p}: **Attack**. Whenever Suraya attacks, you may banish a Light card from your hero’s soul. If you do, Suraya deals 1 arcane damage to any target.
+
+Whenever Suraya deals damage, you gain that much {l}.
+
+**Ward 4** *(If your hero would be dealt damage, prevent 4 of that damage and destroy Suraya.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN212_Marvel",
+      name: "DYN212_Marvel",
+      set: Release.Dynasty,
+      treatment: Treatment.EA,
+    },],
+    keywords: [Keyword.Ward],
+    name: "Suraya, Archangel of Knowledge",
+    rarity: Rarity.Legendary,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN212"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN212_Marvel",
+    type: Type.Token,
+    typeText: "Light Illusionist – Angel Ally",
+    life: 4,
+    power: 4,
+    talents: [Talent.Light],
+    subType: TokenSubType.Ally
+  },{
     classes: [Class.Generic],
     class: Class.Generic,
     artists: ["Nikolay Moskvin"],
@@ -73586,6 +73727,33 @@ If Yendurai would be dealt damage, remove an endurance counter from him to preve
     
     talents: [],
     subType: TokenSubType.Item
+  },{
+    classes: [Class.Generic],
+    class: Class.Generic,
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "ponder",
+    defaultImageName: "DYN244",
+    functionalText: `At the beginning of your end phase, destroy Ponder and draw a card.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN244",
+      name: "DYN244",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Ponder",
+    rarity: Rarity.Token,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN244"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN244",
+    type: Type.Token,
+    typeText: "Generic Token – Item",
+    
+    
+    talents: [],
+    subType: TokenSubType.Aura
   }];
   const weapons: WeaponCard[] = [{
     classes: [Class.Bard],
