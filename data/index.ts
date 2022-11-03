@@ -30808,8 +30808,7 @@ The next attack action card with cost 0 you play this turn gains **go again.**
     
     specializations: [],
     subType: ActionSubType.Attack,
-  }];
-  const basicActions2: ActionCard[] = [{
+  },{
     classes: [Class.Generic],
     class: Class.Generic,
     artists: ["Agus Setiawan"],
@@ -30893,7 +30892,8 @@ If Frontline Scout is played from arsenal, it gains **go again.**`,
     
     specializations: [],
     subType: ActionSubType.Attack,
-  },{
+  }];
+  const basicActions2: ActionCard[] = [{
     classes: [Class.Generic],
     class: Class.Generic,
     artists: ["Agus Setiawan"],
@@ -53333,6 +53333,40 @@ If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
   },{
     classes: [Class.Guardian],
     class: Class.Guardian,
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "blessing-of-patience-red",
+    defaultImageName: "DYN033",
+    functionalText: `At the start of your turn, destroy Blessing of Patience then target hero gains 3{h}.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN033",
+      name: "DYN033",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Blessing of Patience",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN033"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN033",
+    type: Type.Action,
+    typeText: "Guardian Action – Aura",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Aura,
+  },{
+    classes: [Class.Guardian],
+    class: Class.Guardian,
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "reinforce-steel-red",
     defaultImageName: "DYN039",
@@ -53646,6 +53680,40 @@ Crouching Tigers you control gain +1{p} this turn.
     
     specializations: [],
     subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Ninja],
+    class: Class.Ninja,
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "blessing-of-qi-red",
+    defaultImageName: "DYN053",
+    functionalText: `At the start of your turn, destroy Blessing of Qi then create a Crouching Tiger in your banished zone. It gains +3{p} and you may play it this turn.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN053",
+      name: "DYN053",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Blessing of Qi",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN053"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN053",
+    type: Type.Action,
+    typeText: "Ninja Action – Aura",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Aura,
   },{
     classes: [Class.Ninja],
     class: Class.Ninja,
@@ -55705,6 +55773,40 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
   },{
     classes: [Class.Runeblade],
     class: Class.Runeblade,
+    artists: ["Federico Musetti"],
+    cardIdentifier: "blessing-of-occult-red",
+    defaultImageName: "DYN179",
+    functionalText: `At the start of your turn, destroy Blessing of Occult then create 3 Runechant tokens.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN179",
+      name: "DYN179",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Blessing of Occult",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN179"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN179",
+    type: Type.Action,
+    typeText: "Runeblade Action – Aura",
+    cost: 1,
+    defense: 2,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Aura,
+  },{
+    classes: [Class.Runeblade],
+    class: Class.Runeblade,
     artists: ["Shen Fei"],
     cardIdentifier: "sky-fire-lanterns-red",
     defaultImageName: "DYN188",
@@ -55836,6 +55938,42 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
     type: Type.Action,
     typeText: "Wizard Action",
     cost: 2,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Wizard],
+    class: Class.Wizard,
+    artists: ["Mateusz Wisniewski"],
+    cardIdentifier: "aether-quickening-red",
+    defaultImageName: "DYN197",
+    functionalText: `Deal 4 arcane damage to target hero.
+
+**Surge** - If this deals more than 4 damage, it gains **go again**.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN197",
+      name: "DYN197",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Surge,Keyword.GoAgain],
+    name: "Aether Quickening",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN197"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN197",
+    type: Type.Action,
+    typeText: "Wizard Action",
+    cost: 1,
     defense: 3,
     fusions: [],
     pitch: 1,

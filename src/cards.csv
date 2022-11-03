@@ -4460,6 +4460,7 @@ DYN026	DYN	Seasoned Saviour				3			M	Guardian, Equipment, Off-Hand	Battleworn			
 DYN028	DYN	Buckle	3	3		3			M	Guardian, Action	Dominate, Go again				"Your next Guardian attack this turn gains +1{p}, **dominate**, and ""When this hits a hero, destroy an equipment they control with a -1{d} counter on it.""
 
 **Go again**"		Guardian Action	Federico Musetti				No													S – DYN028 - N	/DYN028.png – DYN028 – N			
+DYN033	DYN	Blessing of Patience	1	1		3			R	Guardian, Action, Aura					At the start of your turn, destroy Blessing of Patience then target hero gains 3{h}.		Guardian Action – Aura	Narendra B Adi				No													S – DYN033 - N	/DYN033.png – DYN033 – N			
 DYN039	DYN	Reinforce Steel	1	2		3			C	Guardian, Action					Remove a -1{d} counter from a Guardian off-hand you control with 3 or less base {d}.	*It is said that the imperial Forge of Volcor produces the sturdiest armor in all of Rathe.*	Guardian Action	Nathaniel Himawan																	S – DYN039 – N	/DYN039.png – DYN039 – N			
 DYN040	DYN	Reinforce Steel	2	2		3			C	Guardian, Action					Remove a -1{d} counter from a Guardian off-hand you control with 2 or less base {d}.	*It is said that the imperial Forge of Volcor produces the sturdiest armor in all of Rathe.*	Guardian Action	Nathaniel Himawan																	S – DYN040 – N	/DYN040.png – DYN040 – N			
 DYN041	DYN	Reinforce Steel	3	2		3			C	Guardian, Action					Remove a -1{d} counter from a Guardian off-hand you control with 1 or less base {d}.	*It is said that the imperial Forge of Volcor produces the sturdiest armor in all of Rathe.*	Guardian Action	Nathaniel Himawan																	S – DYN041 – N	/DYN041.png – DYN041 – N			
@@ -4482,6 +4483,7 @@ DYN051	DYN	Flex Claws	2	1	3	2			R	Ninja, Action, Attack	Go again				"When this h
 DYN052	DYN	Flex Claws	3	1	2	2			R	Ninja, Action, Attack	Go again				"When this hits, create a Crouching Tiger in your banished zone. You may play it this turn.
 
 **Go again**"		Ninja Action – Attack	Isuardi Therianto				No													S – DYN052 – N	/DYN052.png – DYN052 – N			
+DYN053	DYN	Blessing of Qi	1	1		3			R	Ninja, Action, Aura					At the start of your turn, destroy Blessing of Qi then create a Crouching Tiger in your banished zone. It gains +3{p} and you may play it this turn.		Ninja Action – Aura	Faizal Fikri				No													S – DYN053 – N	/DYN053.png – DYN053 – N			
 DYN056	DYN	Pouncing Qi	1	0	3	3			C	Ninja, Action, Attack	Combo, Go again				**Combo** - If Crouching Tiger was the last attack this combat chain, Pouncing Qi has +1{p} and **go again**.		Ninja Action – Attack	Rio Sabda																	S – DYN056 – N	/DYN056.png – DYN056 – N			
 DYN057	DYN	Pouncing Qi	2	0	2	3			C	Ninja, Action, Attack	Combo, Go again				**Combo** - If Crouching Tiger was the last attack this combat chain, Pouncing Qi has +1{p} and **go again**.		Ninja Action – Attack	Rio Sabda																	S – DYN057 – N	/DYN057.png – DYN057 – N			
 DYN058	DYN	Pouncing Qi	3	0	1	3			C	Ninja, Action, Attack	Combo, Go again				**Combo** - If Crouching Tiger was the last attack this combat chain, Pouncing Qi has +1{p} and **go again**.		Ninja Action – Attack	Rio Sabda																	S – DYN058 – N	/DYN058.png – DYN058 – N			
@@ -4718,6 +4720,7 @@ If a ‘non-attack’ action card was pitched to play Diabolic Ultimatum, each h
 DYN175	DYN	Looming Doom	3	3		3			M	Runeblade, Action					"When Looming Doom enters the arena, destroy all Runechants you control and put that many doom counters on Looming Doom.
 
 At the beginning of your end phase, remove a doom counter from Looming Doom. If you do, deal 2 arcane damage to any target. Otherwise, destroy Looming Doom."		Runeblade Action – Aura	Marco Gonzalez				No													S – DYN175 – N	/DYN175.png – DYN175 – N			
+DYN179	DYN	Blessing of Occult	1	1		2			R	Runeblade, Action, Aura					At the start of your turn, destroy Blessing of Occult then create 3 Runechant tokens.	Borrowed power comes with debt unpaid. One day the Shadows will come to play.	Runeblade Action – Aura	Federico Musetti				No													S – DYN179 – N	/DYN179.png – DYN179 – N			
 DYN188	DYN	Sky Fire Lanterns	1	0		2			C	Runeblade, Action	Go again				"Reveal the top card of your deck. If it’s red, create a Runechant token.
 
 **Go again**"		Runeblade Action	Shen Fei																	S – DYN188 – N	/DYN188.png – DYN188 – N			
@@ -4735,6 +4738,9 @@ DYN195	DYN	Swell Tidings	1	2		3			M	Wizard, Action	Surge				"Deal 5 arcane damag
 
 **Surge** - If this deals more than 5 damage, create a Ponder token. *(It’s an aura with “At the beginning of your end phase, destroy Ponder and draw a card.”)*"		Wizard Action	Federico Musetti				No													S – DYN195 – N	/DYN195.png – DYN195 – N			
 DYN196	DYN	Brainstorm	3	3					M	Wizard, Instant					Until end of turn, your hero gains “Whenever you draw a card this action phase, deal 1 arcane damage to any target”. *(Brainstorm itself does not have an arcane damage effect. It is not modified by arcane damage modifiers.)*		Wizard Instant	Mark Poole				No													S – DYN196 – N	/DYN196.png – DYN196 – N			
+DYN197	DYN	Aether Quickening	1	1		3			R	Wizard, Action	Surge, Go again				"Deal 4 arcane damage to target hero.
+
+**Surge** - If this deals more than 4 damage, it gains **go again**."		Wizard Action	Mateusz Wisniewski				No													S – DYN197 – N	/DYN197.png – DYN197 – N			
 LGS116, DYN200	LGS, DYN	Blessing of Aether	1	1		2			P	Wizard, Action, Aura					At the start of your turn, destroy Blessing of Aether then if the next card you play this turn has an arcane damage effect, instead it deals that much arcane damage plus 3.		Wizard Action – Aura	soyameii																	R – LGS116 – N – EA, S – DYN200 – N	https://storage.googleapis.com/fabmaster/media/images/dyn_card_Blessing_of_Aether_p1.width-10000.png – LGS116 – N – EA, /DYN200.png – DYN200 – N			
 LGS117, DYN201	LGS, DYN	Blessing of Aether	2	1		2			P	Wizard, Action, Aura					At the start of your turn, destroy Blessing of Aether then if the next card you play this turn has an arcane damage effect, instead it deals that much arcane damage plus 2.		Wizard Action – Aura	soyameii																	R – LGS117 – N – EA, S – DYN201 – N	/LGS117.png – LGS116 – N, /DYN201.png – DYN201 – N			
 LGS118, DYN202	LGS, DYN	Blessing of Aether	3	1		2			P	Wizard, Action, Aura					At the start of your turn, destroy Blessing of Aether then if the next card you play this turn has an arcane damage effect, instead it deals that much arcane damage plus 1.		Wizard Action – Aura	soyameii																	R – LGS118 – N – EA, S – DYN202 – N	/LGS118.png – LGS116 – N, /DYN202.png – DYN202 – N			
