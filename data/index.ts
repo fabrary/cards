@@ -30892,8 +30892,7 @@ If Frontline Scout is played from arsenal, it gains **go again.**`,
     
     specializations: [],
     subType: ActionSubType.Attack,
-  }];
-  const basicActions2: ActionCard[] = [{
+  },{
     classes: [Class.Generic],
     class: Class.Generic,
     artists: ["Agus Setiawan"],
@@ -31559,7 +31558,8 @@ If Overload hits, it gains **go again.**`,
     
     specializations: [],
     subType: ActionSubType.Attack,
-  },{
+  }];
+  const basicActions2: ActionCard[] = [{
     classes: [Class.Generic],
     class: Class.Generic,
     artists: ["Faizal Fikri"],
@@ -53295,6 +53295,150 @@ If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
     specializations: [],
     subType: ActionSubType.Attack,
   },{
+    classes: [Class.Brute],
+    class: Class.Brute,
+    artists: ["Nathaniel Himawan"],
+    cardIdentifier: "blessing-of-savagery-blue",
+    defaultImageName: "DYN015",
+    functionalText: `At the start of your turn, destroy Blessing of Savagery then your next attack with 6 or more base {p} this turn gains +1{p}.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN015",
+      name: "DYN015",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Blessing of Savagery",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN015"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN015",
+    type: Type.Action,
+    typeText: "Brute Action – Aura",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Aura,
+  },{
+    classes: [Class.Brute],
+    class: Class.Brute,
+    artists: ["Septimius Ferdian"],
+    cardIdentifier: "madcap-charger-blue",
+    defaultImageName: "DYN018",
+    functionalText: `As an additional cost to play Madcap Charger, discard a random card.
+
+If the discarded card has 6 or more {p}, Madcap Charger has **go again**.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN018",
+      name: "DYN018",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Madcap Charger",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN018"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN018",
+    type: Type.Action,
+    typeText: "Brute Action – Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    power: 1,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Brute],
+    class: Class.Brute,
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "madcap-muscle-red",
+    defaultImageName: "DYN019",
+    functionalText: `As an additional cost to play Madcap Muscle, discard a random card.
+
+If the discarded card has 6 or more {p}, Madcap Muscle has +3{p}.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN019",
+      name: "DYN019",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Madcap Muscle",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN019"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN019",
+    type: Type.Action,
+    typeText: "Brute Action – Attack",
+    cost: 3,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 8,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Brute],
+    class: Class.Brute,
+    artists: ["Yugin Maffioli"],
+    cardIdentifier: "rumble-grunting-red",
+    defaultImageName: "DYN022",
+    functionalText: `Play Rumble Grunting only if you’ve discarded a card with 6 or more {p} this turn.
+
+Your next Brute attack this turn gains +4{p}.
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN022",
+      name: "DYN022",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Rumble Grunting",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN022"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN022",
+    type: Type.Action,
+    typeText: "Brute Action",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
     classes: [Class.Guardian],
     class: Class.Guardian,
     artists: ["Federico Musetti"],
@@ -53357,6 +53501,74 @@ If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
     defense: 3,
     fusions: [],
     pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Aura,
+  },{
+    classes: [Class.Guardian],
+    class: Class.Guardian,
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "blessing-of-patience-yellow",
+    defaultImageName: "DYN034",
+    functionalText: `At the start of your turn, destroy Blessing of Patience then target hero gains 2{h}.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN034",
+      name: "DYN034",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Blessing of Patience",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN034"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN034",
+    type: Type.Action,
+    typeText: "Guardian Action – Aura",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Aura,
+  },{
+    classes: [Class.Guardian],
+    class: Class.Guardian,
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "blessing-of-patience-blue",
+    defaultImageName: "DYN035",
+    functionalText: `At the start of your turn, destroy Blessing of Patience then target hero gains 1{h}.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN035",
+      name: "DYN035",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Blessing of Patience",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN035"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN035",
+    type: Type.Action,
+    typeText: "Guardian Action – Aura",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
     
     talents: [],
     
@@ -53717,6 +53929,74 @@ Crouching Tigers you control gain +1{p} this turn.
   },{
     classes: [Class.Ninja],
     class: Class.Ninja,
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "blessing-of-qi-yellow",
+    defaultImageName: "DYN054",
+    functionalText: `At the start of your turn, destroy Blessing of Qi then create a Crouching Tiger in your banished zone. It gains +2{p} and you may play it this turn.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN054",
+      name: "DYN054",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Blessing of Qi",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN054"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN054",
+    type: Type.Action,
+    typeText: "Ninja Action – Aura",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Aura,
+  },{
+    classes: [Class.Ninja],
+    class: Class.Ninja,
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "blessing-of-qi-blue",
+    defaultImageName: "DYN055",
+    functionalText: `At the start of your turn, destroy Blessing of Qi then create a Crouching Tiger in your banished zone. It gains +1{p} and you may play it this turn.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN055",
+      name: "DYN055",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Blessing of Qi",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN055"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN055",
+    type: Type.Action,
+    typeText: "Ninja Action – Aura",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Aura,
+  },{
+    classes: [Class.Ninja],
+    class: Class.Ninja,
     artists: ["Rio Sabda"],
     cardIdentifier: "pouncing-qi-red",
     defaultImageName: "DYN056",
@@ -53806,6 +54086,40 @@ Crouching Tigers you control gain +1{p} this turn.
     type: Type.Action,
     typeText: "Ninja Action – Attack",
     cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    power: 1,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Ninja],
+    class: Class.Ninja,
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "qi-unleashed-blue",
+    defaultImageName: "DYN061",
+    functionalText: `**Combo** - If Crouching Tiger was the last attack this combat chain, Qi Unleashed has +4{p}.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN061",
+      name: "DYN061",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Combo],
+    name: "Qi Unleashed",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN061"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN061",
+    type: Type.Action,
+    typeText: "Ninja Action – Attack",
+    cost: 2,
     defense: 3,
     fusions: [],
     pitch: 3,
@@ -54043,6 +54357,40 @@ You may play Lumina Ascension as though it were an instant.`,
   },{
     classes: [Class.Warrior],
     class: Class.Warrior,
+    artists: ["Rio Sabda"],
+    cardIdentifier: "blessing-of-steel-blue",
+    defaultImageName: "DYN075",
+    functionalText: `At the start of your turn, destroy Blessing of Steel then your next weapon attack this turn gains +1{p}.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN075",
+      name: "DYN075",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Blessing of Steel",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN075"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN075",
+    type: Type.Action,
+    typeText: "Warrior Action – Aura",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Aura,
+  },{
+    classes: [Class.Warrior],
+    class: Class.Warrior,
     artists: ["Federico Musetti"],
     cardIdentifier: "precision-press-red",
     defaultImageName: "DYN076",
@@ -54138,6 +54486,78 @@ You may play Lumina Ascension as though it were an instant.`,
     type: Type.Action,
     typeText: "Warrior Action",
     cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Warrior],
+    class: Class.Warrior,
+    artists: ["Angelina Tyshchik"],
+    cardIdentifier: "felling-swing-blue",
+    defaultImageName: "DYN084",
+    functionalText: `Your next axe attack this turn gains +4{p}.
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN084",
+      name: "DYN084",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Felling Swing",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN084"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN084",
+    type: Type.Action,
+    typeText: "Warrior Action",
+    cost: 3,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Warrior],
+    class: Class.Warrior,
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "visit-the-imperial-forge-blue",
+    defaultImageName: "DYN087",
+    functionalText: `Sword and dagger attacks have **piercing 1** this turn. *(If it’s defended by an equipment, it has +1{p}.)*
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN087",
+      name: "DYN087",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.GoAgain,Keyword.Piercing],
+    name: "Visit the Imperial Forge",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN087"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN087",
+    type: Type.Action,
+    typeText: "Warrior Action",
+    cost: 0,
     defense: 3,
     fusions: [],
     pitch: 3,
@@ -54333,6 +54753,42 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
   },{
     classes: [Class.Mechanologist],
     class: Class.Mechanologist,
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "scramble-pulse-red",
+    defaultImageName: "DYN095",
+    functionalText: `Equipment have -1{d} while defending this combat chain.
+
+**Boost** *(As an additional cost to play this, you may banish the top card of your deck. If it’s Mechanologist, this gains go again.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN095",
+      name: "DYN095",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Boost],
+    name: "Scramble Pulse",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN095"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN095",
+    type: Type.Action,
+    typeText: "Mechanologist Action – Attack",
+    cost: 2,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 7,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Mechanologist],
+    class: Class.Mechanologist,
     artists: ["Kevin Sidharta"],
     cardIdentifier: "blessing-of-ingenuity-red",
     defaultImageName: "DYN098",
@@ -54364,6 +54820,78 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     
     specializations: [],
     subType: ActionSubType.Aura,
+  },{
+    classes: [Class.Mechanologist],
+    class: Class.Mechanologist,
+    artists: ["Mateusz Wisniewski"],
+    cardIdentifier: "crankshaft-yellow",
+    defaultImageName: "DYN102",
+    functionalText: `When Crankshaft is banished to pay for a **boost** cost, put a steam counter on a Hyper Driver you control.
+
+**Boost** *(As an additional cost to play this, you may banish the top card of your deck. If it’s Mechanologist, this gains go again.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN102",
+      name: "DYN102",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Boost],
+    name: "Crankshaft",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN102"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN102",
+    type: Type.Action,
+    typeText: "Mechanologist Action – Attack",
+    cost: 2,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    power: 4,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Mechanologist],
+    class: Class.Mechanologist,
+    artists: ["Amelia Tan"],
+    cardIdentifier: "jump-start-red",
+    defaultImageName: "DYN104",
+    functionalText: `If you control a Hyper Driver, Jump Start costs {r} less to play.
+
+**Boost** *(As an additional cost to play this, you may banish the top card of your deck. If it’s Mechanologist, this gains go again.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN104",
+      name: "DYN104",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Boost],
+    name: "Jump Start",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN104"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN104",
+    type: Type.Action,
+    typeText: "Mechanologist Action – Attack",
+    cost: 2,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 5,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
   },{
     classes: [Class.Mechanologist],
     class: Class.Mechanologist,
@@ -55559,6 +56087,78 @@ If it has an aim counter, it gains “When this hits a hero, look at their hand 
   },{
     classes: [Class.Ranger],
     class: Class.Ranger,
+    artists: ["Maria Mishina"],
+    cardIdentifier: "drill-shot-blue",
+    defaultImageName: "DYN158",
+    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
+
+If Drill Shot has an aim counter, it has **piercing 1**. *(If this is defended by an equipment, it has +1{p}.)*
+
+When this hits a hero, put a -1{d} counter on an equipment they control.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN158",
+      name: "DYN158",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Piercing],
+    name: "Drill Shot",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN158"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN158",
+    type: Type.Action,
+    typeText: "Ranger Action – Arrow Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    power: 2,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Arrow,
+  },{
+    classes: [Class.Ranger],
+    class: Class.Ranger,
+    artists: ["Asur Misoa"],
+    cardIdentifier: "blessing-of-focus-yellow",
+    defaultImageName: "DYN160",
+    functionalText: `At the start of your turn, destroy Blessing of Focus then **opt 2** and reveal the top card of your deck. If it’s an arrow, put it face up into your arsenal with an aim counter. *(Look at the top 2 cards of your deck. You may put them on the top and/or bottom in any order.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN160",
+      name: "DYN160",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Opt],
+    name: "Blessing of Focus",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN160"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN160",
+    type: Type.Action,
+    typeText: "Ranger Action – Aura",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Aura,
+  },{
+    classes: [Class.Ranger],
+    class: Class.Ranger,
     artists: ["Shen Fei"],
     cardIdentifier: "hemorrhage-bore-red",
     defaultImageName: "DYN162",
@@ -55664,6 +56264,78 @@ If Hemorrhage Bore has an aim counter, it has “When this hits a hero, destroy 
     
     specializations: [],
     subType: ActionSubType.Arrow,
+  },{
+    classes: [Class.Ranger],
+    class: Class.Ranger,
+    artists: ["Junaidi Lim"],
+    cardIdentifier: "long-shot-yellow",
+    defaultImageName: "DYN166",
+    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
+
+If Long Shot has an aim counter, it has +2{p}.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN166",
+      name: "DYN166",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Long Shot",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN166"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN166",
+    type: Type.Action,
+    typeText: "Ranger Action – Arrow Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    power: 2,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Arrow,
+  },{
+    classes: [Class.Ranger],
+    class: Class.Ranger,
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "point-the-tip-red",
+    defaultImageName: "DYN168",
+    functionalText: `Target face up arrow in your arsenal gains +3{p} until end of turn. Put an aim counter on it.
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN168",
+      name: "DYN168",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Point the Tip",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN168"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN168",
+    type: Type.Action,
+    typeText: "Ranger Action",
+    cost: 0,
+    defense: 2,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
   },{
     classes: [Class.Runeblade],
     class: Class.Runeblade,
@@ -55773,6 +56445,40 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
   },{
     classes: [Class.Runeblade],
     class: Class.Runeblade,
+    artists: ["Maxim Kostin"],
+    cardIdentifier: "deathly-duet-blue",
+    defaultImageName: "DYN178",
+    functionalText: `When Deathly Duet attacks, if an attack action card was pitched to play it, it gains +2{p}. If a ‘non-attack’ action card was pitched to play it, create 2 Runechant tokens.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN178",
+      name: "DYN178",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Deathly Duet",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN178"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN178",
+    type: Type.Action,
+    typeText: "Runeblade Action – Attack",
+    cost: 2,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    power: 2,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Runeblade],
+    class: Class.Runeblade,
     artists: ["Federico Musetti"],
     cardIdentifier: "blessing-of-occult-red",
     defaultImageName: "DYN179",
@@ -55804,6 +56510,146 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
     
     specializations: [],
     subType: ActionSubType.Aura,
+  },{
+    classes: [Class.Runeblade],
+    class: Class.Runeblade,
+    artists: ["Federico Musetti"],
+    cardIdentifier: "blessing-of-occult-yellow",
+    defaultImageName: "DYN180",
+    functionalText: `At the start of your turn, destroy Blessing of Occult then create 2 Runechant tokens.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN180",
+      name: "DYN180",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Blessing of Occult",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN180"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN180",
+    type: Type.Action,
+    typeText: "Runeblade Action – Aura",
+    cost: 1,
+    defense: 2,
+    fusions: [],
+    pitch: 2,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Aura,
+  },{
+    classes: [Class.Runeblade],
+    class: Class.Runeblade,
+    artists: ["Federico Musetti"],
+    cardIdentifier: "blessing-of-occult-blue",
+    defaultImageName: "DYN181",
+    functionalText: `At the start of your turn, destroy Blessing of Occult then create a Runechant token.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN181",
+      name: "DYN181",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Blessing of Occult",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN181"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN181",
+    type: Type.Action,
+    typeText: "Runeblade Action – Aura",
+    cost: 1,
+    defense: 2,
+    fusions: [],
+    pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Aura,
+  },{
+    classes: [Class.Runeblade],
+    class: Class.Runeblade,
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "aether-slash-red",
+    defaultImageName: "DYN182",
+    functionalText: `When Aether Slash attacks, if a ‘non-attack’ action card was pitched to play it, deal 1 arcane damage to any target.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN182",
+      name: "DYN182",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Aether Slash",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN182"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN182",
+    type: Type.Action,
+    typeText: "Runeblade Action – Attack",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 6,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Runeblade],
+    class: Class.Runeblade,
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "runic-reaping-yellow",
+    defaultImageName: "DYN186",
+    functionalText: `The next Runeblade attack action card you play this turn gains “When this hits, create 2 Runechant tokens”.
+
+If an attack card was pitch to play Runic Reaping, the next Runeblade attack action card you play this turn gains +1{p}.
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN186",
+      name: "DYN186",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Runic Reaping",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN186"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN186",
+    type: Type.Action,
+    typeText: "Runeblade Action",
+    cost: 1,
+    defense: 2,
+    fusions: [],
+    pitch: 2,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
   },{
     classes: [Class.Runeblade],
     class: Class.Runeblade,
@@ -55915,6 +56761,42 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
   },{
     classes: [Class.Wizard],
     class: Class.Wizard,
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "mind-warp-yellow",
+    defaultImageName: "DYN194",
+    functionalText: `Deal 2 arcane damage to target hero.
+
+**Surge** - If this deals more than 2 damage to a hero, they shuffle their hand into their deck, then they draw that many cards minus 1.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN194",
+      name: "DYN194",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Surge],
+    name: "Mind Warp",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN194"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN194",
+    type: Type.Action,
+    typeText: "Wizard Action",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Wizard],
+    class: Class.Wizard,
     artists: ["Federico Musetti"],
     cardIdentifier: "swell-tidings-red",
     defaultImageName: "DYN195",
@@ -55977,6 +56859,78 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
     defense: 3,
     fusions: [],
     pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Wizard],
+    class: Class.Wizard,
+    artists: ["Mateusz Wisniewski"],
+    cardIdentifier: "aether-quickening-yellow",
+    defaultImageName: "DYN198",
+    functionalText: `Deal 3 arcane damage to target hero.
+
+**Surge** - If this deals more than 3 damage, it gains **go again**.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN198",
+      name: "DYN198",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Surge,Keyword.GoAgain],
+    name: "Aether Quickening",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN198"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN198",
+    type: Type.Action,
+    typeText: "Wizard Action",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Wizard],
+    class: Class.Wizard,
+    artists: ["Mateusz Wisniewski"],
+    cardIdentifier: "aether-quickening-blue",
+    defaultImageName: "DYN199",
+    functionalText: `Deal 2 arcane damage to target hero.
+
+**Surge** - If this deals more than 2 damage, it gains **go again**.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN199",
+      name: "DYN199",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Surge,Keyword.GoAgain],
+    name: "Aether Quickening",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN199"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN199",
+    type: Type.Action,
+    typeText: "Wizard Action",
+    cost: 1,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
     
     talents: [],
     
@@ -56104,6 +57058,186 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
     
     specializations: [],
     subType: ActionSubType.Aura,
+  },{
+    classes: [Class.Wizard],
+    class: Class.Wizard,
+    artists: ["Riordan Delmiro"],
+    cardIdentifier: "prognosticate-yellow",
+    defaultImageName: "DYN204",
+    functionalText: `Deal 2 arcane damage to target hero.
+
+**Surge** - If this deals more than 2 damage, **opt 1**. *(Look at the top card of your deck. You may put it on the bottom.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN204",
+      name: "DYN204",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Surge,Keyword.Opt],
+    name: "Prognosticate",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN204"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN204",
+    type: Type.Action,
+    typeText: "Wizard Action",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Wizard],
+    class: Class.Wizard,
+    artists: ["Riordan Delmiro"],
+    cardIdentifier: "sap-red",
+    defaultImageName: "FAB115",
+    functionalText: `Deal 3 arcane damage to target hero
+
+**Surge** - If this deals more than 3 damage to a hero, you may remove an energy counter from a permanent they control..`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "FAB115",
+      name: "FAB115",
+      set: Release.Promos,
+      
+    },],
+    keywords: [Keyword.Surge],
+    name: "Sap",
+    rarity: Rarity.Promo,
+    restrictedFormats: [],
+    setIdentifiers: ["FAB115","DYN206"],
+    sets: [Release.Promos,Release.Dynasty],
+    specialImageName: "FAB115",
+    type: Type.Action,
+    typeText: "Wizard Action",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Wizard],
+    class: Class.Wizard,
+    artists: ["Riordan Delmiro"],
+    cardIdentifier: "sap-yellow",
+    defaultImageName: "FAB116",
+    functionalText: `Deal 3 arcane damage to target hero
+
+**Surge** - If this deals more than 3 damage to a hero, you may remove an energy counter from a permanent they control..`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "FAB116",
+      name: "FAB116",
+      set: Release.Promos,
+      
+    },],
+    keywords: [Keyword.Surge],
+    name: "Sap",
+    rarity: Rarity.Promo,
+    restrictedFormats: [],
+    setIdentifiers: ["FAB116","DYN207"],
+    sets: [Release.Promos,Release.Dynasty],
+    specialImageName: "FAB116",
+    type: Type.Action,
+    typeText: "Wizard Action",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Wizard],
+    class: Class.Wizard,
+    artists: ["Riordan Delmiro"],
+    cardIdentifier: "sap-blue",
+    defaultImageName: "FAB117",
+    functionalText: `Deal 1 arcane damage to target hero
+
+**Surge** - If this deals more than 1 damage to a hero, you may remove an energy counter from a permanent they control..`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "FAB117",
+      name: "FAB117",
+      set: Release.Promos,
+      
+    },],
+    keywords: [Keyword.Surge],
+    name: "Sap",
+    rarity: Rarity.Promo,
+    restrictedFormats: [],
+    setIdentifiers: ["FAB117","DYN208"],
+    sets: [Release.Promos,Release.Dynasty],
+    specialImageName: "FAB117",
+    type: Type.Action,
+    typeText: "Wizard Action",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
+  },{
+    classes: [Class.Wizard],
+    class: Class.Wizard,
+    artists: ["Shen Fei"],
+    cardIdentifier: "tempest-aurora-red",
+    defaultImageName: "DYN209",
+    functionalText: `The next card you play this turn with cost 2 or less and an arcane damage effect, instead deals that much arcane damage plus 1.
+
+**Go again**`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN209",
+      name: "DYN209",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.GoAgain],
+    name: "Tempest Aurora",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN209"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN209",
+    type: Type.Action,
+    typeText: "Wizard Action",
+    cost: 0,
+    defense: 2,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.NonAttack,
   },{
     classes: [Class.Illusionist],
     class: Class.Illusionist,
@@ -56250,6 +57384,114 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
     
     specializations: [],
     subType: ActionSubType.Aura,
+  },{
+    classes: [Class.Illusionist],
+    class: Class.Illusionist,
+    artists: ["Alexandra Malygina"],
+    cardIdentifier: "tranquil-passing-blue",
+    defaultImageName: "DYN223",
+    functionalText: `When Tranquil Passing enters the arena, you may banish target aura token or aura permanent with cost 1 or less controlled by an opponent until Tranquil Passing leaves the arena.
+
+**Ward 1** *(If your hero would be dealt damage, prevent 1 of that damage and destroy Tranquil Passing.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN223",
+      name: "DYN223",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Ward],
+    name: "Tranquil Passing",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN223"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN223",
+    type: Type.Action,
+    typeText: "Illusionist Action – Aura",
+    cost: 1,
+    defense: 2,
+    fusions: [],
+    pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Aura,
+  },{
+    classes: [Class.Illusionist],
+    class: Class.Illusionist,
+    artists: ["Rio Sabda"],
+    cardIdentifier: "spectral-prowler-red",
+    defaultImageName: "DYN224",
+    functionalText: `When you play Spectral Prowler, if you control a Spectral Shield, this gains **go again**.
+
+**Phantasm** *(When this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this and close the combat chain.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN224",
+      name: "DYN224",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.GoAgain,Keyword.Phantasm],
+    name: "Spectral Prowler",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN224"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN224",
+    type: Type.Action,
+    typeText: "Illusionist Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 4,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Illusionist],
+    class: Class.Illusionist,
+    artists: ["BWusagi"],
+    cardIdentifier: "spectral-rider-yellow",
+    defaultImageName: "DYN228",
+    functionalText: `When you play Spectral Rider, if you control a Spectral Shield, this gains **overpower**. *(This can’t be defended by more than 1 action card.)*
+
+**Phantasm** *(When this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this and close the combat chain.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN228",
+      name: "DYN228",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Overpower,Keyword.Phantasm],
+    name: "Spectral Rider",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN228"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN228",
+    type: Type.Action,
+    typeText: "Illusionist Action – Attack",
+    cost: 3,
+    defense: 3,
+    fusions: [],
+    pitch: 2,
+    power: 7,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Attack,
   },{
     classes: [Class.Illusionist],
     class: Class.Illusionist,
@@ -56468,114 +57710,6 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
     
     specializations: [],
     subType: ActionSubType.Item,
-  },{
-    classes: [Class.Wizard],
-    class: Class.Wizard,
-    artists: ["Riordan Delmiro"],
-    cardIdentifier: "sap-red",
-    defaultImageName: "FAB115",
-    functionalText: `Deal 3 arcane damage to target hero
-
-**Surge** - If this deals more than 3 damage to a hero, you may remove an energy counter from a permanent they control..`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "FAB115",
-      name: "FAB115",
-      set: Release.Promos,
-      
-    },],
-    keywords: [Keyword.Surge],
-    name: "Sap",
-    rarity: Rarity.Promo,
-    restrictedFormats: [],
-    setIdentifiers: ["FAB115","DYN206"],
-    sets: [Release.Promos,Release.Dynasty],
-    specialImageName: "FAB115",
-    type: Type.Action,
-    typeText: "Wizard Action",
-    cost: 0,
-    defense: 3,
-    fusions: [],
-    pitch: 1,
-    
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.NonAttack,
-  },{
-    classes: [Class.Wizard],
-    class: Class.Wizard,
-    artists: ["Riordan Delmiro"],
-    cardIdentifier: "sap-yellow",
-    defaultImageName: "FAB116",
-    functionalText: `Deal 3 arcane damage to target hero
-
-**Surge** - If this deals more than 3 damage to a hero, you may remove an energy counter from a permanent they control..`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "FAB116",
-      name: "FAB116",
-      set: Release.Promos,
-      
-    },],
-    keywords: [Keyword.Surge],
-    name: "Sap",
-    rarity: Rarity.Promo,
-    restrictedFormats: [],
-    setIdentifiers: ["FAB116","DYN207"],
-    sets: [Release.Promos,Release.Dynasty],
-    specialImageName: "FAB116",
-    type: Type.Action,
-    typeText: "Wizard Action",
-    cost: 0,
-    defense: 3,
-    fusions: [],
-    pitch: 2,
-    
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.NonAttack,
-  },{
-    classes: [Class.Wizard],
-    class: Class.Wizard,
-    artists: ["Riordan Delmiro"],
-    cardIdentifier: "sap-blue",
-    defaultImageName: "FAB117",
-    functionalText: `Deal 1 arcane damage to target hero
-
-**Surge** - If this deals more than 1 damage to a hero, you may remove an energy counter from a permanent they control..`,
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "FAB117",
-      name: "FAB117",
-      set: Release.Promos,
-      
-    },],
-    keywords: [Keyword.Surge],
-    name: "Sap",
-    rarity: Rarity.Promo,
-    restrictedFormats: [],
-    setIdentifiers: ["FAB117","DYN208"],
-    sets: [Release.Promos,Release.Dynasty],
-    specialImageName: "FAB117",
-    type: Type.Action,
-    typeText: "Wizard Action",
-    cost: 0,
-    defense: 3,
-    fusions: [],
-    pitch: 3,
-    
-    talents: [],
-    
-    
-    
-    specializations: [],
-    subType: ActionSubType.NonAttack,
   }];
 
   const attackReactions: ActionCard[] = [{
@@ -61575,6 +62709,74 @@ If Sigil of Permafrost was **fused**, the next time you deal arcane damage to a 
     
     specializations: [],
     
+  },{
+    classes: [Class.Guardian],
+    class: Class.Guardian,
+    artists: ["Federico Musetti"],
+    cardIdentifier: "shield-bash-yellow",
+    defaultImageName: "DYN031",
+    functionalText: `If a Guardian off-hand with 1 or more {d} is defending this chain link, deal 1 damage to the attacking hero unless they discard a card.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN031",
+      name: "DYN031",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Shield Bash",
+    rarity: Rarity.Rare,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN031"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN031",
+    type: Type.DefenseReaction,
+    typeText: "Guardian Defense Reaction",
+    cost: 3,
+    defense: 5,
+    fusions: [],
+    pitch: 2,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    
+  },{
+    classes: [Class.Guardian],
+    class: Class.Guardian,
+    artists: ["Arif Wijaya"],
+    cardIdentifier: "shield-wall-yellow",
+    defaultImageName: "DYN037",
+    functionalText: `If you control a Guardian off-hand, Shield Wall has +4{d}.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN037",
+      name: "DYN037",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Shield Wall",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN037"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN037",
+    type: Type.DefenseReaction,
+    typeText: "Guardian Defense Reaction",
+    cost: 6,
+    defense: 6,
+    fusions: [],
+    pitch: 2,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    
   }];
   const instants: ActionCard[] = [{
     classes: [Class.Generic],
@@ -64628,6 +65830,40 @@ Draw 2 cards.`,
     typeText: "Generic Instant",
     cost: 1,
     
+    fusions: [],
+    pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    
+  },{
+    classes: [Class.Guardian],
+    class: Class.Guardian,
+    artists: ["Shen Fei"],
+    cardIdentifier: "withstand-blue",
+    defaultImageName: "DYN044",
+    functionalText: `The next time target Guardian off-hand defends this turn, it gains +4{d} until the combat chain closes.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN044",
+      name: "DYN044",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Withstand",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN044"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN044",
+    type: Type.Instant,
+    typeText: "Guardian Instant",
+    
+    defense: 3,
     fusions: [],
     pitch: 3,
     
@@ -69144,6 +70380,33 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     talents: [],
     subType: EquipmentSubType.OffHand
   },{
+    classes: [Class.Guardian],
+    class: Class.Guardian,
+    artists: ["Peyoyo"],
+    cardIdentifier: "steelbraid-buckler",
+    defaultImageName: "DYN027",
+    functionalText: `**Temper** *(When the combat chain closes, if this defended, put a -1{d} counter on it, then if it has 0{d}, destroy it.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN027",
+      name: "DYN027",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Temper],
+    name: "Steelbraid Buckler",
+    rarity: Rarity.Rare,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN027"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN027",
+    type: Type.Equipment,
+    typeText: "Guardian Equipment – Off-Hand",
+    defense: 2,
+    
+    talents: [],
+    subType: EquipmentSubType.OffHand
+  },{
     classes: [Class.Ninja],
     class: Class.Ninja,
     artists: ["Shen Fei"],
@@ -69178,6 +70441,35 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     
     talents: [],
     subType: EquipmentSubType.Chest
+  },{
+    classes: [Class.Ninja],
+    class: Class.Ninja,
+    artists: ["Enmoire"],
+    cardIdentifier: "tearing-shuko",
+    defaultImageName: "DYN046",
+    functionalText: `**Instant** - Destroy Tearing Shuko: The next Crouching Tiger you play this turn gains +2{p}.
+
+**Battleworn** *(When the combat chain closes, if this defended, put a -1{d} counter on it.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN046",
+      name: "DYN046",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Battleworn],
+    name: "Tearing Shuko",
+    rarity: Rarity.Rare,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN046"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN046",
+    type: Type.Equipment,
+    typeText: "Ninja Equipment – Arms",
+    defense: 1,
+    
+    talents: [],
+    subType: EquipmentSubType.Arms
   },{
     classes: [Class.Mechanologist],
     class: Class.Mechanologist,
@@ -69365,6 +70657,35 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     talents: [],
     subType: EquipmentSubType.Head
   },{
+    classes: [Class.Illusionist],
+    class: Class.Illusionist,
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "wave-of-reality",
+    defaultImageName: "DYN214",
+    functionalText: `When Wave of Reality is destroyed, create a Spectral Shield token.
+
+**Ward 1** *(If your hero would be dealt damage, prevent 1 of that damage and destroy Wave of Reality.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN214",
+      name: "DYN214",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Ward],
+    name: "Wave of Reality",
+    rarity: Rarity.Rare,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN214"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN214",
+    type: Type.Equipment,
+    typeText: "Illusionist Equipment – Arms",
+    
+    
+    talents: [],
+    subType: EquipmentSubType.Arms
+  },{
     classes: [Class.Generic],
     class: Class.Generic,
     artists: ["Andy Aslamov"],
@@ -69391,6 +70712,33 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     
     talents: [],
     subType: EquipmentSubType.Head
+  },{
+    classes: [Class.Generic],
+    class: Class.Generic,
+    artists: ["Othon Nikolaidis"],
+    cardIdentifier: "ornate-tessen",
+    defaultImageName: "DYN235",
+    functionalText: `**Instant** – {r}, destroy Ornate Tessen: Put a card from your hand on the bottom of your deck. If you do, draw a card.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN235",
+      name: "DYN235",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Ornate Tessen",
+    rarity: Rarity.Rare,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN235"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN235",
+    type: Type.Equipment,
+    typeText: "Generic Equipment – Off-Hand",
+    
+    
+    talents: [],
+    subType: EquipmentSubType.OffHand
   }];
   const mentors: MentorCard[] = [{
     classes: [Class.Warrior],
@@ -73892,6 +75240,33 @@ Whenever Suraya deals damage, you gain that much {l}.
     
     talents: [],
     subType: TokenSubType.Aura
+  },{
+    classes: [Class.Generic],
+    class: Class.Generic,
+    artists: ["Federico Musetti"],
+    cardIdentifier: "spellbane-aegis",
+    defaultImageName: "DYN246",
+    functionalText: `**Spellvoid 1** *(If your hero would be dealt arcane damage, you may prevent 1 of that damage and destroy Spellbane Aegis.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN246",
+      name: "DYN246",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Spellbane Aegis",
+    rarity: Rarity.Common,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN246"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN246",
+    type: Type.Token,
+    typeText: "Generic Token – Aura",
+    
+    
+    talents: [],
+    subType: TokenSubType.Aura
   }];
   const weapons: WeaponCard[] = [{
     classes: [Class.Bard],
@@ -76176,6 +77551,34 @@ The first card you play each turn with an arcane damage effect, instead deals th
     
     talents: [],
     subType: WeaponSubType.Staff
+  },{
+    classes: [Class.Wizard],
+    class: Class.Wizard,
+    artists: ["Alief Rusdiatama"],
+    cardIdentifier: "seerstone",
+    defaultImageName: "DYN193",
+    functionalText: `**Action** - {r}{r}{r}: Look at the top card of your deck. You may put it on the bottom. Create a Ponder token. *(It’s an aura with “At the beginning of your end phase, destroy Ponder and draw a card.”)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN193",
+      name: "DYN193",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Seerstone",
+    rarity: Rarity.Rare,
+    restrictedFormats: [],
+    setIdentifiers: ["DYN193"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN193",
+    type: Type.Weapon,
+    typeText: "Wizard Weapon – Orb (2H)",
+    handsRequired: HandsRequired.TwoHanded,
+    
+    
+    talents: [],
+    subType: WeaponSubType.Orb
   }];
 
   export const cards: ( Card | ActionCard | EquipmentCard | HeroCard | PlaceholderCard | ResourceCard | TokenCard | WeaponCard )[] = [
