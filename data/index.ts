@@ -32648,8 +32648,7 @@ If Mulch was **fused**, it gains "If this hits a hero, put a card from their ars
     
     specializations: [],
     subType: ActionSubType.Attack,
-  }];
-  const basicActions2: ActionCard[] = [{
+  },{
     classes: [Class.Guardian],
     class: Class.Guardian,
     artists: ["Arif Wijaya"],
@@ -32697,7 +32696,8 @@ If Snow Under was **fused**, it gains "If Snow Under hits a hero, create a Frost
     
     specializations: [],
     subType: ActionSubType.Attack,
-  },{
+  }];
+  const basicActions2: ActionCard[] = [{
     classes: [Class.Guardian],
     class: Class.Guardian,
     artists: ["Arif Wijaya"],
@@ -53765,6 +53765,40 @@ Your next Brute attack this turn gains +2{p}.
   },{
     classes: [Class.Guardian],
     class: Class.Guardian,
+    artists: ["Joseph Qiu"],
+    cardIdentifier: "never-yield-blue",
+    defaultImageName: "DYN029",
+    functionalText: `At the start of your turn, destroy Never Yield then if you have no cards in hand, draw a card. If you have less {l} than all other heroes, gain 2{l}. If you control less equipment than all other heroes, remove a -1{d} counter from an equipment you control.`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN029",
+      name: "DYN029",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Never Yield",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN029"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN029",
+    type: Type.Action,
+    typeText: "Guardian Action – Aura",
+    cost: 3,
+    defense: 3,
+    fusions: [],
+    pitch: 3,
+    
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Aura,
+  },{
+    classes: [Class.Guardian],
+    class: Class.Guardian,
     artists: ["Narendra B Adi"],
     cardIdentifier: "blessing-of-patience-red",
     defaultImageName: "DYN033",
@@ -55215,13 +55249,19 @@ The next time a Mechanologist item with cost 2 or less is banished to pay a **bo
     class: Class.Mechanologist,
     artists: ["Sam Yang"],
     cardIdentifier: "construct-nitro-mechanoid-yellow",
-    defaultImageName: "DYN092",
+    defaultImageName: "DYN092_Marvel",
     functionalText: `*(Constructs resolve flipped as an item in the arena.)*
 
 **Transform** target Mechanologist head, chest, arms, legs, weapon, and 3 Hyper Drivers you control into Nitro Mechanoid. If you don’t, **negate** this. *(Put them under Nitro Mechanoid. If you don’t, put this in the graveyard.)
 
 **Go again**`,
     images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN092_Marvel",
+      name: "DYN092_Marvel",
+      set: Release.Dynasty,
+      treatment: Treatment.EA,
+    },{
       edition: ReleaseEdition.Promo,
       identifier: "DYN092",
       name: "DYN092",
@@ -55234,7 +55274,7 @@ The next time a Mechanologist item with cost 2 or less is banished to pay a **bo
     restrictedFormats: [Format.Commoner],
     setIdentifiers: ["DYN092"],
     sets: [Release.Dynasty],
-    specialImageName: "DYN092",
+    specialImageName: "DYN092_Marvel",
     type: Type.Action,
     typeText: "Mechanologist Action – Construct",
     cost: 4,
@@ -56892,6 +56932,40 @@ When this hits, at the beginning of your end phase, put the top card of your dec
     fusions: [],
     pitch: 1,
     power: 5,
+    talents: [],
+    
+    
+    
+    specializations: [],
+    subType: ActionSubType.Arrow,
+  },{
+    classes: [Class.Ranger],
+    class: Class.Ranger,
+    artists: [],
+    cardIdentifier: "immobilizing-shot-red",
+    defaultImageName: "DYN154",
+    functionalText: `If Immobilizing Shot has an aim counter, it has “When this hits a hero, they can’t play more than 1 attack action card and 1 ‘non-attack’ action card during their next action phase.”`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN154",
+      name: "DYN154",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [],
+    name: "Immobilizing Shot",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN154"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN154",
+    type: Type.Action,
+    typeText: "Ranger Action – Arrow Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    power: 4,
     talents: [],
     
     
@@ -72521,7 +72595,7 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     class: Class.Mechanologist,
     artists: ["Sam Yang"],
     cardIdentifier: "nitro-mechanoid",
-    defaultImageName: "DYN092_Marvel",
+    defaultImageName: "DYN092_Marvel_Back",
     functionalText: `**Action** - Banish a card from under Nitro Mechanoid: **Attack**
 
 **Overpower** *(The defending hero can’t defend Nitro Mechanoid with more than 1 action card.)*
@@ -72529,8 +72603,8 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
 **Tempter** *(When the combat chain closes, if this defended, put a -1{d} counter on it, then if it has 0{d}, destroy it.)*`,
     images: [{
       edition: ReleaseEdition.Promo,
-      identifier: "DYN092_Marvel",
-      name: "DYN092_Marvel",
+      identifier: "DYN092_Marvel_Back",
+      name: "DYN092_Marvel_Back",
       set: Release.Dynasty,
       treatment: Treatment.EA,
     },],
@@ -72540,7 +72614,7 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     restrictedFormats: [Format.Commoner],
     setIdentifiers: ["DYN092"],
     sets: [Release.Dynasty],
-    specialImageName: "DYN092_Marvel",
+    specialImageName: "DYN092_Marvel_Back",
     type: Type.Equipment,
     typeText: "Mechanologist Weapon Equipment – Item",
     defense: 5,
@@ -72673,6 +72747,41 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     
     talents: [],
     subType: EquipmentSubType.Head
+  },{
+    classes: [Class.Illusionist],
+    class: Class.Illusionist,
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "celestial-kimono",
+    defaultImageName: "DYN213_Marvel",
+    functionalText: `Once per turn, when Celestial Kimono or a non-token permanent you control with **ward** is destroyed, gain {p}.
+
+**Ward 1** *(If your hero would be dealt damage, prevent 1 of that damage and destroy Celestial Kimono.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN213_Marvel",
+      name: "DYN213_Marvel",
+      set: Release.Dynasty,
+      treatment: Treatment.EA,
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN213",
+      name: "DYN213",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Ward],
+    name: "Celestial Kimono",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN213"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN213_Marvel",
+    type: Type.Equipment,
+    typeText: "Illusionist Equipment – Chest",
+    
+    
+    talents: [],
+    subType: EquipmentSubType.Chest
   },{
     classes: [Class.Illusionist],
     class: Class.Illusionist,
