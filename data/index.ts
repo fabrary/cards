@@ -53539,7 +53539,7 @@ If the discarded card has 6 or more {p}, Madcap Muscle has +3{p}.`,
     defense: 3,
     fusions: [],
     pitch: 1,
-    power: 8,
+    power: 6,
     talents: [],
     
     
@@ -53575,7 +53575,7 @@ If the discarded card has 6 or more {p}, Madcap Muscle has +3{p}.`,
     defense: 3,
     fusions: [],
     pitch: 2,
-    power: 7,
+    power: 5,
     talents: [],
     
     
@@ -53611,7 +53611,7 @@ If the discarded card has 6 or more {p}, Madcap Muscle has +3{p}.`,
     defense: 3,
     fusions: [],
     pitch: 3,
-    power: 6,
+    power: 4,
     talents: [],
     
     

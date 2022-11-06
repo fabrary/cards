@@ -4470,13 +4470,13 @@ If the discarded card has 6 or more {p}, Madcap Charger has **go again**."		Brut
 DYN018	DYN	Madcap Charger	3	1	1	3			C	Brute, Action, Attack	Go again				"As an additional cost to play Madcap Charger, discard a random card.
 
 If the discarded card has 6 or more {p}, Madcap Charger has **go again**."		Brute Action – Attack	Septimius Ferdian																	S – DYN018 – N	/DYN018.png – DYN018 – N			
-DYN019	DYN	Madcap Muscle	1	3	8	3			C	Brute, Action, Attack					"As an additional cost to play Madcap Muscle, discard a random card.
+DYN019	DYN	Madcap Muscle	1	3	6	3			C	Brute, Action, Attack					"As an additional cost to play Madcap Muscle, discard a random card.
 
 If the discarded card has 6 or more {p}, Madcap Muscle has +3{p}."		Brute Action – Attack	Henrique Lindner																	S – DYN019 – N	/DYN019.png – DYN019 – N			
-DYN020	DYN	Madcap Muscle	2	3	7	3			C	Brute, Action, Attack					"As an additional cost to play Madcap Muscle, discard a random card.
+DYN020	DYN	Madcap Muscle	2	3	5	3			C	Brute, Action, Attack					"As an additional cost to play Madcap Muscle, discard a random card.
 
 If the discarded card has 6 or more {p}, Madcap Muscle has +3{p}."		Brute Action – Attack	Henrique Lindner																	S – DYN020 – N	/DYN020.png – DYN020 – N			
-DYN021	DYN	Madcap Muscle	3	3	6	3			C	Brute, Action, Attack					"As an additional cost to play Madcap Muscle, discard a random card.
+DYN021	DYN	Madcap Muscle	3	3	4	3			C	Brute, Action, Attack					"As an additional cost to play Madcap Muscle, discard a random card.
 
 If the discarded card has 6 or more {p}, Madcap Muscle has +3{p}."		Brute Action – Attack	Henrique Lindner																	S – DYN021 – N	/DYN021.png – DYN021 – N			
 DYN022	DYN	Rumble Grunting	1	0		3			C	Brute, Action	Go again				"Play Rumble Grunting only if you’ve discarded a card with 6 or more {p} this turn.
