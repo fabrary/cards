@@ -58891,6 +58891,42 @@ If an attack card was pitch to play Runic Reaping, the next Runeblade attack act
   },{
     classes: [Class.Illusionist],
     class: Class.Illusionist,
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "spectral-procession-red",
+    defaultImageName: "DYN216",
+    functionalText: `Spectral Procession’s {p} is equal to the number of Spectral Shields you control.
+
+**Phantasm** *(When this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this and close the combat chain.)*`,
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN216",
+      name: "DYN216",
+      set: Release.Dynasty,
+      
+    },],
+    keywords: [Keyword.Phantasm],
+    name: "Spectral Procession",
+    rarity: Rarity.Majestic,
+    restrictedFormats: [Format.Commoner],
+    setIdentifiers: ["DYN216"],
+    sets: [Release.Dynasty],
+    specialImageName: "DYN216",
+    type: Type.Action,
+    typeText: "Illusionist Action – Attack",
+    cost: 0,
+    defense: 3,
+    fusions: [],
+    pitch: 1,
+    
+    talents: [],
+    
+    
+    specialPower: "*",
+    specializations: [],
+    subType: ActionSubType.Attack,
+  },{
+    classes: [Class.Illusionist],
+    class: Class.Illusionist,
     artists: ["Mark Poole"],
     cardIdentifier: "tome-of-aeo-blue",
     defaultImageName: "DYN217",
