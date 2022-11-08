@@ -4620,7 +4620,7 @@ DYN088	DYN	Hanabi Blaster			5				M	Mechanologist, Weapon, Gun, 2H	Overpower				"
 
 **Overpower** *(This can’t be defended by more than 1 action card.)*
 
-The third time you play a card with **boost** each turn, put a steam counter on Hanabi Blaster"		Mechanologist Weapon – Gun (2H)	Joseph Qiu																	C – DYN088 – N – EA, S – DYN088 – N	/DYN088_Marvel.png – DYN088_Marvel – N – EA, /DYN088.png – DYN088 – N			
+The third time you play a card with **boost** each turn, put a steam counter on Hanabi Blaster"		Mechanologist Weapon – Gun (2H)	Joseph Qiu				No													C – DYN088 – N – EA, S – DYN088 – N	/DYN088_Marvel.png – DYN088_Marvel – N – EA, /DYN088.png – DYN088 – N			
 DYN089	DYN	Galvanic Bender				1			R	Mechanologist, Equipment, Arms	Material, Battleworn				"**Material** - While this is under a permanent, that permanent has +1{p}.
 
 **Battleworn** *(When the combat chain closes, if this defended, put a -1{d} counter on it.)*"		Mechanologist Equipment – Arms	Angelina Tyschik																	S – DYN089 – N	/DYN089.png – DYN089 – N			
@@ -4645,7 +4645,7 @@ DYN092	DYN	Nitro Mechanoid			5	5			M	Mechanologist, Weapon, Equipment, Item	Over
 DYN093	DYN	Plasma Mainline	1	2					M	Mechanologist, Action, Item					"Plasma Mainline enters the arena with 5 steam counters on it. When it has no steam counters, destroy it.
 
 When a Mechanologist item with cost 2 or less enters the arena under your control, you may move a steam counter from Plasma Mainline to that item."		Mechanologist Action – Item	Askapoj T				No													S – DYN093 – N	/DYN093.png – DYN093 – N			
-DYN094	DYN	Powder Keg	3	0					M	Mechanologist, Action, Item					Whenever a Mechanologist gun you control hits, you may destroy Powder Keg and a defending equipment.		Mechanologist Action – Item	Victoria Belyaeva																	S – DYN094 – N	/DYN094.png – DYN094 – N			
+DYN094	DYN	Powder Keg	3	0					M	Mechanologist, Action, Item					Whenever a Mechanologist gun you control hits, you may destroy Powder Keg and a defending equipment.		Mechanologist Action – Item	Victoria Belyaeva				No													S – DYN094 – N	/DYN094.png – DYN094 – N			
 DYN095	DYN	Scramble Pulse	1	2	7	3			R	Mechanologist, Action, Attack	Boost				"Equipment have -1{d} while defending this combat chain.
 
 **Boost** *(As an additional cost to play this, you may banish the top card of your deck. If it’s Mechanologist, this gains go again.)*"		Mechanologist Action – Attack	Faizal Fikri				No													S – DYN095 – N	/DYN095.png – DYN095 – N			
