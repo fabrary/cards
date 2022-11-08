@@ -4686,7 +4686,7 @@ DYN112	DYN	Hyper Driver	3	1					C	Mechanologist, Action, Item		Once per Turn Eff
 
 **Once per Turn Effect** - When you **boost** a card, remove a steam counter from Hyper Driver and gain {r}."		Mechanologist Action – Item	Alexander Mokhov																	S – DYN112 – N	/DYN112.png – DYN112 – N			
 DYN113	DYN	Arakni, Huntsman					40	4	M	Assassin, Hero	Contract				Whenever you play a card with **contract**, you may look at the top card of target opponent’s deck. You may put it on the bottom.		Assassin Hero	Isuardi Therianto				No													S – DYN113 – N	/DYN113.png – DYN113 – N			
-DYN114	DYN	Arakni					20	4	R	Assassin, Hero, Young	Contract				Whenever you play a card with **contract**, you may look at the top card of target opponent’s deck. You may put it on the bottom.		Assassin Hero – Young	Isuardi Therianto				No													S – DYN114 – N	/DYN114.png – DYN114 – N			
+DYN114	DYN	Arakni					20	4	R	Assassin, Hero, Young	Contract				Whenever you play a card with **contract**, you may look at the top card of target opponent’s deck. You may put it on the bottom.		Assassin Hero – Young	Isuardi Therianto																	S – DYN114 – N	/DYN114.png – DYN114 – N			
 DYN115, DYN116	DYN	Spider’s Bite			1				R	Assassin, Weapon, Dagger, 1H	Piercing 1	Once per Turn Action	Attack, Go again		"**Once per Turn Action** – {r}{r}: **Attack**. **Go again**
 
 **Piercing 1** *(If this is defended by an equipment, it has +1{p}.)*

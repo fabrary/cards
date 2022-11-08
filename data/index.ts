@@ -75841,7 +75841,7 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
     keywords: [Keyword.Contract],
     name: "Arakni",
     rarity: Rarity.Rare,
-    restrictedFormats: [Format.Commoner],
+    restrictedFormats: [],
     setIdentifiers: ["DYN114"],
     sets: [Release.Dynasty],
     specialImageName: "DYN114",
