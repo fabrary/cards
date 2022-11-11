@@ -1,33 +1,26 @@
 import {
-  ActionCard,
-  ActionSubType,
+  // ActionSubType,
   Card,
   Class,
-  EquipmentCard,
-  EquipmentSubType,
+  // EquipmentSubType,
   Format,
   Fusion,
-  HandsRequired,
+  // HandsRequired,
   Hero,
-  HeroCard,
-  HeroSubType,
+  // HeroSubType,
   Image,
   Keyword,
-  MentorCard,
-  PlaceholderCard,
-  PlaceholderSubType,
+  // PlaceholderSubType,
   Rarity,
   Release,
   ReleaseEdition,
-  ResourceCard,
-  ResourceSubType,
+  Subtype,
+  // ResourceSubType,
   Talent,
-  TokenCard,
-  TokenSubType,
+  // TokenSubType,
   Treatment,
   Type,
-  WeaponCard,
-  WeaponSubType,
+  // WeaponSubType,
 } from "./interfaces";
 import { ParsedCard } from "./parser";
 
@@ -137,18 +130,18 @@ const getFusions = (card: ParsedCard): Fusion[] => {
   return [...fusions];
 };
 
-const getHands = (card: ParsedCard): HandsRequired => {
-  const { types } = card;
-  let hands;
-  if (types.some((type) => type.includes("1H"))) {
-    hands = HandsRequired.OneHanded;
-  } else if (types.some((type) => type.includes("2H"))) {
-    hands = HandsRequired.TwoHanded;
-  } else {
-    hands = null;
-  }
-  return hands;
-};
+// const getHands = (card: ParsedCard): HandsRequired => {
+//   const { types } = card;
+//   let hands;
+//   if (types.some((type) => type.includes("1H"))) {
+//     hands = HandsRequired.OneHanded;
+//   } else if (types.some((type) => type.includes("2H"))) {
+//     hands = HandsRequired.TwoHanded;
+//   } else {
+//     hands = null;
+//   }
+//   return hands;
+// };
 
 const getHero = (card: ParsedCard): Hero | null => {
   const { types, name } = card;
@@ -276,7 +269,6 @@ const getRestrictedFormats = (card: ParsedCard): Format[] => {
     commonerLegal,
     commonerBanned,
   } = card;
-  const { type } = getTypeAndSubType(card);
 
   const restrictedFormats: Format[] = [];
 
@@ -434,86 +426,56 @@ const getTalents = (card: ParsedCard): Talent[] => {
 const getTypeAndSubType = (
   card: ParsedCard
 ): {
-  type: Type | null;
-  subType:
-    | ActionSubType
-    | EquipmentSubType
-    | HeroSubType
-    | PlaceholderSubType
-    | ResourceSubType
-    | TokenSubType
-    | WeaponSubType
-    | null;
+  types: Type[];
+  subtypes: Subtype[];
 } => {
-  const { types } = card;
-  let type: Type | null = null;
+  const { types: rawTypes } = card;
+  const types: Type[] = [];
   for (const [typeKey, typeValue] of Object.entries(Type)) {
-    if (types.includes(typeValue)) {
-      type = Type[typeKey];
-      break;
+    if (rawTypes.includes(typeValue)) {
+      types.push(Type[typeKey]);
     }
   }
 
-  let subType:
-    | ActionSubType
-    | EquipmentSubType
-    | HeroSubType
-    | ResourceSubType
-    | PlaceholderSubType
-    | TokenSubType
-    | WeaponSubType
-    | null = null;
-  for (const subTypeEnum of [
-    ActionSubType,
-    EquipmentSubType,
-    HeroSubType,
-    ResourceSubType,
-    PlaceholderSubType,
-    TokenSubType,
-    WeaponSubType,
-  ]) {
-    if (subType) {
-      break;
-    } else {
-      for (const [subTypeEnumKey, subTypeEnumValue] of Object.entries(
-        subTypeEnum
-      ).reverse()) {
-        if (types.includes(subTypeEnumValue)) {
-          subType = subTypeEnum[subTypeEnumKey];
-          break;
-        }
+  const subtypes: Subtype[] = [];
+  for (const subtypeEnum of [Subtype]) {
+    for (const [subtypeEnumKey, subTypeEnumValue] of Object.entries(
+      subtypeEnum
+    ).reverse()) {
+      if (rawTypes.includes(subTypeEnumValue)) {
+        subtypes.push(subtypeEnum[subtypeEnumKey]);
       }
     }
   }
 
-  const dragons = [
-    "Azvolai",
-    "Cromai",
-    "Dominia",
-    "Dracona Optimai",
-    "Kyloria",
-    "Miragai",
-    "Nekria",
-    "Ouvia",
-    "Themai",
-    "Tomeltai",
-    "Vynserakai",
-    "Yendurai",
-  ];
-  if (dragons.includes(card.name)) {
-    type = Type.Token;
-  }
+  // const dragons = [
+  //   "Azvolai",
+  //   "Cromai",
+  //   "Dominia",
+  //   "Dracona Optimai",
+  //   "Kyloria",
+  //   "Miragai",
+  //   "Nekria",
+  //   "Ouvia",
+  //   "Themai",
+  //   "Tomeltai",
+  //   "Vynserakai",
+  //   "Yendurai",
+  // ];
+  // if (dragons.includes(card.name)) {
+  //   type = Type.Token;
+  // }
 
-  const angels = ["Suraya, Archangel of Knowledge"];
-  if (angels.includes(card.name)) {
-    type = Type.Token;
-  }
+  // const angels = ["Suraya, Archangel of Knowledge"];
+  // if (angels.includes(card.name)) {
+  //   type = Type.Token;
+  // }
 
-  if (type === Type.Action && !subType) {
-    subType = ActionSubType.NonAttack;
-  }
+  // if (type === Type.Action && !subType) {
+  //   subType = ActionSubType.NonAttack;
+  // }
 
-  return { type, subType };
+  return { types, subtypes };
 };
 
 const getYoung = (card: ParsedCard): boolean | null => {
@@ -521,194 +483,65 @@ const getYoung = (card: ParsedCard): boolean | null => {
   return types.includes("Hero") && types.includes("Young") ? true : null;
 };
 
-const getCommonCardData = (card: ParsedCard): Card => {
-  const { type } = getTypeAndSubType(card);
+const getCardData = (card: ParsedCard): Card => {
+  const { types, subtypes } = getTypeAndSubType(card);
   return {
     artists: card.artists,
-    class: getClasses(card)[0],
-    classes: getClasses(card),
     cardIdentifier: getIdentifier(card),
-    functionalText: card.functionalText,
+    classes: getClasses(card),
     defaultImageName: getDefaultImageName(card),
     images: getImages(card),
-    keywords: getKeywords(card),
     name: card.name,
     rarity: getRarity(card) as Rarity,
-    restrictedFormats: getRestrictedFormats(card),
     setIdentifiers: card.identifiers,
     sets: getSets(card),
     specialImageName: getSpecialImageName(card),
-    type: type as Type,
+    subtypes,
+    types,
     typeText: card.typeText,
-  };
-};
 
-const getActionCardData = (card: ParsedCard): ActionCard => {
-  const { subType } = getTypeAndSubType(card);
-  return {
-    ...getCommonCardData(card),
     cost: getCost(card) as number,
     defense: getDefense(card) as number,
+    functionalText: card.functionalText,
     fusions: getFusions(card),
+    hero: getHero(card) as Hero,
+    intellect: card.intellect,
+    keywords: getKeywords(card),
+    life: card.life,
     pitch: card.pitch || 0,
     power: getPower(card) as number,
-    talents: getTalents(card),
+    restrictedFormats: getRestrictedFormats(card),
     specialCost: getSpecialCost(card) as string,
     specialDefense: getSpecialDefense(card) as string,
     specialPower: getSpecialPower(card) as string,
     specializations: getSpecializations(card),
-    // @ts-ignore
-    subType,
-  };
-};
-
-const getEquipmentCardData = (card: ParsedCard): EquipmentCard => {
-  const { subType } = getTypeAndSubType(card);
-  return {
-    ...getCommonCardData(card),
-    defense: getDefense(card) as number,
-    handsRequired: getHands(card),
-    talents: getTalents(card),
-    // @ts-ignore
-    subType,
-  };
-};
-
-const getHeroCardData = (card: ParsedCard): HeroCard => {
-  const { subType } = getTypeAndSubType(card);
-  return {
-    ...getCommonCardData(card),
-    intellect: card.intellect,
-    hero: getHero(card) as Hero,
-    life: card.life,
-    // @ts-ignore
-    subType,
     talents: getTalents(card),
     young: getYoung(card) as boolean,
   };
 };
 
-const getMentorCardData = (card: ParsedCard): MentorCard => {
-  return {
-    ...getCommonCardData(card),
-    pitch: card.pitch || 0,
-    defense: getDefense(card) as number,
-  };
-};
-
-const getPlaceholderCardData = (card: ParsedCard): PlaceholderCard => {
-  const { subType } = getTypeAndSubType(card);
-  return {
-    ...getCommonCardData(card),
-    // @ts-ignore
-    subType,
-  };
-};
-
-const getResourceCardData = (card: ParsedCard): ResourceCard => {
-  const { subType } = getTypeAndSubType(card);
-  return {
-    ...getCommonCardData(card),
-    cost: getCost(card),
-    defense: getDefense(card),
-    pitch: card.pitch,
-    talents: getTalents(card),
-    specializations: getSpecializations(card),
-    // @ts-ignore
-    subType,
-  };
-};
-
-const getTokenCardData = (card: ParsedCard): TokenCard => {
-  const { subType } = getTypeAndSubType(card);
-  return {
-    ...getCommonCardData(card),
-    life: card.life,
-    power: getPower(card) as number,
-    talents: getTalents(card),
-    // @ts-ignore
-    subType,
-  };
-};
-
-const getWeaponCardData = (card: ParsedCard): WeaponCard => {
-  const { subType } = getTypeAndSubType(card);
-  return {
-    ...getCommonCardData(card),
-    power: getPower(card) as number,
-    specialPower: getSpecialPower(card) as string,
-    handsRequired: getHands(card),
-    talents: getTalents(card),
-    // @ts-ignore
-    subType,
-  };
-};
-
-export const mapCardData = (
-  cards: ParsedCard[]
-): {
-  actions: ActionCard[];
-  equipment: EquipmentCard[];
-  heroes: HeroCard[];
-  mentors: MentorCard[];
-  placeholders: PlaceholderCard[];
-  resources: ResourceCard[];
-  tokens: TokenCard[];
-  weapons: WeaponCard[];
-} => {
-  const actions: ActionCard[] = [];
-  const equipment: EquipmentCard[] = [];
-  const heroes: HeroCard[] = [];
-  const mentors: MentorCard[] = [];
-  const placeholders: PlaceholderCard[] = [];
-  const resources: ResourceCard[] = [];
-  const tokens: TokenCard[] = [];
-  const weapons: WeaponCard[] = [];
-  cards.forEach((card) => {
-    const { type, subType } = getTypeAndSubType(card);
-    switch (type) {
-      case Type.Action:
-      case Type.AttackAction:
-      case Type.AttackReaction:
-      case Type.DefenseReaction:
-      case Type.Instant:
-        actions.push(getActionCardData(card));
-        break;
-      case Type.Equipment:
-        equipment.push(getEquipmentCardData(card));
-        break;
-      case Type.Hero:
-        heroes.push(getHeroCardData(card));
-        break;
-      case Type.Mentor:
-        mentors.push(getMentorCardData(card));
-        break;
-      case Type.PlaceholderCard:
-        placeholders.push(getPlaceholderCardData(card));
-        break;
-      case Type.Resource:
-        resources.push(getResourceCardData(card));
-        break;
-      case Type.Token:
-        tokens.push(getTokenCardData(card));
-        break;
-      case Type.Weapon:
-        weapons.push(getWeaponCardData(card));
-        break;
-      default:
-        console.log(`No card type for ${card.name}`, card, type, subType);
-        break;
-    }
+const addOppositeSideCardIdentifiers = (cards: Card[]) => {
+  return cards.map((card) => {
+    const oppositeSide = cards.find((otherCard) => {
+      return (
+        otherCard.name !== card.name &&
+        otherCard.setIdentifiers.every((otherIdentifier) =>
+          card.setIdentifiers.includes(otherIdentifier)
+        )
+      );
+    });
+    return {
+      ...card,
+      ...(oppositeSide
+        ? { oppositeSideCardIdentifier: oppositeSide.cardIdentifier }
+        : {}),
+    };
   });
-  // console.log(actions.find((card) => card.name === "Frost Hex"));
-  return {
-    actions,
-    equipment,
-    heroes,
-    mentors,
-    placeholders,
-    resources,
-    tokens,
-    weapons,
-  };
+};
+
+export const mapCardData = (parsedCards: ParsedCard[]): Card[] => {
+  const cards = parsedCards.map((parsedCard) => {
+    return getCardData(parsedCard);
+  });
+  return addOppositeSideCardIdentifiers(cards);
 };

@@ -1,20 +1,36 @@
 export interface Card {
   artists: string[];
   cardIdentifier: string;
-  class?: Class;
   classes: Class[];
   defaultImageName: string;
-  functionalText?: string;
   images: Image[];
-  keywords: Keyword[];
   name: string;
   rarity: Rarity;
-  restrictedFormats: Format[];
   setIdentifiers: string[];
   sets: Release[];
   specialImageName: string;
-  type: Type;
+  subtypes: Subtype[];
+  types: Type[];
   typeText: string;
+
+  cost?: number;
+  defense?: number;
+  functionalText?: string;
+  fusions?: Fusion[];
+  hero?: Hero;
+  intellect?: number;
+  keywords?: Keyword[];
+  life?: number;
+  oppositeSideCardIdentifier?: string;
+  pitch?: number;
+  power?: number;
+  restrictedFormats?: Format[];
+  specialCost?: string;
+  specialDefense?: string;
+  specialPower?: string;
+  specializations?: Hero[];
+  talents?: Talent[];
+  young?: boolean;
 }
 
 export interface Image {
@@ -32,70 +48,10 @@ export enum Treatment {
   FA = "Full Art",
 }
 
-export interface ActionCard extends Card {
-  cost?: number;
-  defense?: number;
-  fusions?: Fusion[];
-  pitch?: number;
-  power?: number;
-  talents?: Talent[];
-  specialCost?: string;
-  specialDefense?: string;
-  specialPower?: string;
-  specializations?: Hero[];
-  subType?: ActionSubType;
-}
-
-export interface EquipmentCard extends Card {
-  defense?: number;
-  handsRequired?: HandsRequired;
-  talents?: Talent[];
-  subType: EquipmentSubType;
-}
-
-export interface HeroCard extends Card {
-  intellect: number;
-  hero: Hero;
-  life: number;
-  subType?: HeroSubType;
-  talents?: Talent[];
-  young: boolean;
-}
-
-export interface MentorCard extends Card {
-  pitch: number;
-  defense?: number;
-}
-
-export interface PlaceholderCard extends Card {
-  subType: PlaceholderSubType;
-}
-
-export interface ResourceCard extends Card {
-  pitch?: number;
-  specializations?: Hero[];
-  subType?: ResourceSubType;
-  talents?: Talent[];
-}
-
-export interface TokenCard extends Card {
-  life?: number;
-  power?: number;
-  talents?: Talent[];
-  subType: TokenSubType;
-}
-
-export interface WeaponCard extends Card {
-  handsRequired: HandsRequired;
-  power?: number;
-  specialPower?: string;
-  talents?: Talent[];
-  subType: WeaponSubType;
-}
-
 export enum Class {
   NotClassed = "NotClassed",
   Generic = "Generic",
+  Adjudicator = "Adjudicator",
   Assassin = "Assassin",
   Bard = "Bard",
   Brute = "Brute",
@@ -192,7 +148,6 @@ export enum Talent {
 
 export enum Type {
   Action = "Action",
-  AttackAction = "Attack Action",
   AttackReaction = "Attack Reaction",
   DefenseReaction = "Defense Reaction",
   Equipment = "Equipment",
@@ -205,59 +160,36 @@ export enum Type {
   Weapon = "Weapon",
 }
 
-export enum ActionSubType {
+export enum Subtype {
+  OneHanded = "1H",
+  TwoHanded = "2H",
+  Affliction = "Affliction",
   Ally = "Ally",
+  Arms = "Arms",
+  Arrow = "Arrow",
   Ash = "Ash",
   Attack = "Attack",
-  Arrow = "Arrow",
   Aura = "Aura",
-  Construct = "Construct",
-  Invocation = "Invocation",
-  Item = "Item",
-  Landmark = "Landmark",
-  NonAttack = "Non-Attack",
-  Trap = "Trap",
-}
-
-export enum EquipmentSubType {
-  Arms = "Arms",
-  Chest = "Chest",
-  Head = "Head",
-  Item = "Item",
-  Legs = "Legs",
-  OffHand = "Off-Hand",
-}
-
-export enum HeroSubType {
-  Young = "Young",
-}
-
-export enum PlaceholderSubType {
-  Invocation = "Invocation",
-}
-
-export enum ResourceSubType {
-  Gem = "Gem",
-}
-
-export enum TokenSubType {
-  Ally = "Ally",
-  Ash = "Ash",
-  Aura = "Aura",
-  Item = "Item",
-}
-
-export enum WeaponSubType {
   Axe = "Axe",
   Book = "Book",
   Bow = "Bow",
+  Chest = "Chest",
   Claw = "Claw",
   Club = "Club",
+  Construct = "Construct",
   Dagger = "Dagger",
   Flail = "Flail",
+  Gem = "Gem",
   Gun = "Gun",
   Hammer = "Hammer",
+  Head = "Head",
+  Invocation = "Invocation",
+  Item = "Item",
+  Landmark = "Landmark",
   Lute = "Lute",
+  Legs = "Legs",
+  NonAttack = "Non-Attack",
+  OffHand = "Off-Hand",
   Orb = "Orb",
   Pistol = "Pistol",
   Rock = "Rock",
@@ -265,12 +197,68 @@ export enum WeaponSubType {
   Scythe = "Scythe",
   Staff = "Staff",
   Sword = "Sword",
+  Trap = "Trap",
+  Young = "Young",
 }
 
-export enum HandsRequired {
-  OneHanded = "1H",
-  TwoHanded = "2H",
-}
+// export enum ActionSubType {}
+// Ally = "Ally",
+// Ash = "Ash",
+// Attack = "Attack",
+// Arrow = "Arrow",
+// Aura = "Aura",
+// Construct = "Construct",
+// Invocation = "Invocation",
+// Item = "Item",
+// Landmark = "Landmark",
+// NonAttack = "Non-Attack",
+// Trap = "Trap",
+
+// export enum EquipmentSubType {}
+// Arms = "Arms",
+// Chest = "Chest",
+// Head = "Head",
+// Item = "Item",
+// Legs = "Legs",
+// OffHand = "Off-Hand",
+
+// export enum HeroSubType {}
+// Young = "Young",
+
+// export enum PlaceholderSubType {}
+// Invocation = "Invocation",
+
+// export enum ResourceSubType {}
+// Gem = "Gem",
+
+// export enum TokenSubType {}
+// Ally = "Ally",
+// Ash = "Ash",
+// Aura = "Aura",
+// Item = "Item",
+
+// export enum WeaponSubType {}
+// Axe = "Axe",
+// Book = "Book",
+// Bow = "Bow",
+// Claw = "Claw",
+// Club = "Club",
+// Dagger = "Dagger",
+// Flail = "Flail",
+// Gun = "Gun",
+// Hammer = "Hammer",
+// Lute = "Lute",
+// Orb = "Orb",
+// Pistol = "Pistol",
+// Rock = "Rock",
+// Scepter = "Scepter",
+// Scythe = "Scythe",
+// Staff = "Staff",
+// Sword = "Sword",
+
+// export enum HandsRequired {}
+// OneHanded = "1H",
+// TwoHanded = "2H",
 
 export enum Hero {
   Arakni = "Arakni",
@@ -310,7 +298,6 @@ export enum Hero {
 }
 
 export enum Keyword {
-  Affliction = "Affliction",
   ArcaneBarrier = "Arcane Barrier",
   Battleworn = "Battleworn",
   BladeBreak = "Blade Break",
