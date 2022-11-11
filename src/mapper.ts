@@ -448,33 +448,6 @@ const getTypeAndSubType = (
     }
   }
 
-  // const dragons = [
-  //   "Azvolai",
-  //   "Cromai",
-  //   "Dominia",
-  //   "Dracona Optimai",
-  //   "Kyloria",
-  //   "Miragai",
-  //   "Nekria",
-  //   "Ouvia",
-  //   "Themai",
-  //   "Tomeltai",
-  //   "Vynserakai",
-  //   "Yendurai",
-  // ];
-  // if (dragons.includes(card.name)) {
-  //   type = Type.Token;
-  // }
-
-  // const angels = ["Suraya, Archangel of Knowledge"];
-  // if (angels.includes(card.name)) {
-  //   type = Type.Token;
-  // }
-
-  // if (type === Type.Action && !subType) {
-  //   subType = ActionSubType.NonAttack;
-  // }
-
   return { types, subtypes };
 };
 
@@ -530,11 +503,16 @@ const addOppositeSideCardIdentifiers = (cards: Card[]) => {
         )
       );
     });
+    const isCardBack =
+      oppositeSide &&
+      (oppositeSide.subtypes.includes(Subtype.Invocation) ||
+        oppositeSide.subtypes.includes(Subtype.Construct));
     return {
       ...card,
       ...(oppositeSide
         ? { oppositeSideCardIdentifier: oppositeSide.cardIdentifier }
         : {}),
+      ...(isCardBack ? { isCardBack } : {}),
     };
   });
 };

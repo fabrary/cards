@@ -19,6 +19,7 @@ export interface Card {
   fusions?: Fusion[];
   hero?: Hero;
   intellect?: number;
+  isCardBack?: boolean;
   keywords?: Keyword[];
   life?: number;
   oppositeSideCardIdentifier?: string;
@@ -178,6 +179,8 @@ export enum Subtype {
   Club = "Club",
   Construct = "Construct",
   Dagger = "Dagger",
+  Demon = "Demon",
+  Dragon = "Dragon",
   Flail = "Flail",
   Gem = "Gem",
   Gun = "Gun",

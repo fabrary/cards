@@ -105,6 +105,7 @@ const generateCardTypeScript = (card: Card): String => {
     }
     ${card.hero ? `hero: ${getEnumValue(card.hero, "Hero", Hero)},` : ``}
     ${card.intellect ? `intellect: ${card.intellect},` : ``}
+    ${card.isCardBack ? `isCardBack: ${card.isCardBack},` : ``}
     ${
       card.keywords && card.keywords.length > 0
         ? `keywords: [${getEnumValues(card.keywords, "Keyword", Keyword)}],`
