@@ -209,7 +209,7 @@ At the start of your turn, you may banish an equipment you control. If you do, e
     setIdentifiers: ["LSS005"],
     sets: [Release.Promos],
     specialImageName: "LSS005",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Bard Action",
 
@@ -968,7 +968,7 @@ When you attack with Alpha Rampage, **intimidate**.`,
     setIdentifiers: ["1HP014","WTR007"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR007",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Brute Action",
 
@@ -1078,7 +1078,7 @@ If the discarded card has 6 or more {p}, deal 2 damage to the attacking hero.`,
     setIdentifiers: ["1HP015","WTR009"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR009",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Brute Action",
 
@@ -1516,7 +1516,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     setIdentifiers: ["1HP022","WTR017"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR017",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Brute Action",
 
@@ -1584,7 +1584,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     setIdentifiers: ["RNR018","RVD021","1HP023","WTR018"],
     sets: [Release.RhinarHeroDeck,Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR018",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Brute Action",
 
@@ -1646,7 +1646,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     setIdentifiers: ["RNR025","1HP024","WTR019"],
     sets: [Release.RhinarHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR019",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Brute Action",
 
@@ -2416,7 +2416,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     setIdentifiers: ["RNR014","RVD014","WTR032"],
     sets: [Release.RhinarHeroDeck,Release.ClassicBattlesRhinarDorinthea,Release.WelcomeToRathe],
     specialImageName: "WTR032",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Brute Action",
 
@@ -2466,7 +2466,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     setIdentifiers: ["WTR033"],
     sets: [Release.WelcomeToRathe],
     specialImageName: "WTR033",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Brute Action",
 
@@ -2522,7 +2522,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     setIdentifiers: ["RNR024","WTR034"],
     sets: [Release.RhinarHeroDeck,Release.WelcomeToRathe],
     specialImageName: "WTR034",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Brute Action",
 
@@ -2578,7 +2578,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     setIdentifiers: ["1HP040","WTR035"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR035",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Brute Action",
 
@@ -2634,7 +2634,7 @@ Your next Brute attack this turn gains +5{p}.
     setIdentifiers: ["1HP041","WTR036"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR036",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Brute Action",
 
@@ -2696,7 +2696,7 @@ Your next Brute attack this turn gains +4{p}.
     setIdentifiers: ["RNR026","1HP042","WTR037"],
     sets: [Release.RhinarHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR037",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Brute Action",
 
@@ -3272,7 +3272,7 @@ While there are 2 or more cards with cost 3 or greater in your pitch zone, Anoth
     setIdentifiers: ["WTR046"],
     sets: [Release.WelcomeToRathe],
     specialImageName: "WTR046",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action – Aura",
 
@@ -3328,7 +3328,7 @@ At the beginning of your action phase, destroy Forged for War.`,
     setIdentifiers: ["1HP054","WTR047"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR047",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action – Aura",
 
@@ -3726,7 +3726,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     setIdentifiers: ["LGS006","LGS023","1HP061","WTR054"],
     sets: [Release.Promos,Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "LGS006-P.width-450",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action – Aura",
 
@@ -3788,7 +3788,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
     setIdentifiers: ["LGS024","1HP062","WTR055"],
     sets: [Release.Promos,Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "LGS024.width-450",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action – Aura",
 
@@ -3856,7 +3856,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
     setIdentifiers: ["LGS025","BVO021","1HP063","WTR056"],
     sets: [Release.Promos,Release.BravoBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "LGS025.width-450",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action – Aura",
 
@@ -4560,7 +4560,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
     setIdentifiers: ["BVO012","WTR069"],
     sets: [Release.BravoBlitzDeck,Release.WelcomeToRathe],
     specialImageName: "WTR069",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action – Aura",
 
@@ -4614,7 +4614,7 @@ At the beginning of your action phase, destroy Emerging Power then the next Guar
     setIdentifiers: ["BVO014","WTR070"],
     sets: [Release.BravoBlitzDeck,Release.WelcomeToRathe],
     specialImageName: "WTR070",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action – Aura",
 
@@ -4662,7 +4662,7 @@ At the beginning of your action phase, destroy Emerging Power then the next Guar
     setIdentifiers: ["WTR071"],
     sets: [Release.WelcomeToRathe],
     specialImageName: "WTR071",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action – Aura",
 
@@ -4716,7 +4716,7 @@ At the beginning of your action phase, destroy Emerging Power then the next Guar
     setIdentifiers: ["1HP082","WTR072"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR072",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action – Aura",
 
@@ -4774,7 +4774,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     setIdentifiers: ["1HP083","WTR073"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR073",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action – Aura",
 
@@ -4838,7 +4838,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     setIdentifiers: ["BVO022","1HP084","WTR074"],
     sets: [Release.BravoBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR074",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action – Aura",
 
@@ -7536,7 +7536,7 @@ At the beginning of your end phase, if Dawnblade has not hit this turn, remove a
     setIdentifiers: ["1HP152","WTR119"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR119",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -7696,7 +7696,7 @@ Target weapon attack gains +1{p}.
     setIdentifiers: ["WTR122"],
     sets: [Release.WelcomeToRathe],
     specialImageName: "WTR122",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -8086,7 +8086,7 @@ Target weapon attack gains +1{p}.
     setIdentifiers: ["DVR011","1HP159","WTR129"],
     sets: [Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR129",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -8146,7 +8146,7 @@ Target weapon attack gains +1{p}.
     setIdentifiers: ["TEA018","1HP160","WTR130"],
     sets: [Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR130",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -8206,7 +8206,7 @@ Target weapon attack gains +1{p}.
     setIdentifiers: ["TEA025","1HP161","WTR131"],
     sets: [Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR131",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -8788,7 +8788,7 @@ Target weapon attack gains +1{p}.
     setIdentifiers: ["TEA014","DVR012","WTR141"],
     sets: [Release.DorintheaHeroDeck,Release.ClassicBattlesRhinarDorinthea,Release.WelcomeToRathe],
     specialImageName: "WTR141",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -8836,7 +8836,7 @@ Target weapon attack gains +1{p}.
     setIdentifiers: ["WTR142"],
     sets: [Release.WelcomeToRathe],
     specialImageName: "WTR142",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -8890,7 +8890,7 @@ Target weapon attack gains +1{p}.
     setIdentifiers: ["TEA024","WTR143"],
     sets: [Release.DorintheaHeroDeck,Release.WelcomeToRathe],
     specialImageName: "WTR143",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -8950,7 +8950,7 @@ Target weapon attack gains +1{p}.
     setIdentifiers: ["TEA012","1HP171","WTR144"],
     sets: [Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR144",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -9010,7 +9010,7 @@ Target weapon attack gains +1{p}.
     setIdentifiers: ["1HP172","DVR017","WTR145"],
     sets: [Release.HistoryPack1,Release.ClassicBattlesRhinarDorinthea,Release.WelcomeToRathe],
     specialImageName: "WTR145",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -9070,7 +9070,7 @@ Target weapon attack gains +1{p}.
     setIdentifiers: ["TEA022","1HP173","WTR146"],
     sets: [Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR146",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -9130,7 +9130,7 @@ Target weapon attack gains +1{p}.
     setIdentifiers: ["TEA013","1HP177","WTR147"],
     sets: [Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR147",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -9184,7 +9184,7 @@ Target weapon attack gains +1{p}.
     setIdentifiers: ["1HP178","WTR148"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR148",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -9244,7 +9244,7 @@ Target weapon attack gains +1{p}.
     setIdentifiers: ["TEA023","1HP179","WTR149"],
     sets: [Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR149",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -10025,7 +10025,7 @@ Choose 1;
     setIdentifiers: ["1HP365","WTR160"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR160",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -10137,7 +10137,7 @@ If Tome of Fyendal is played from arsenal, gain 1{h} for each card in your hand.
     setIdentifiers: ["FAB016","1HP363","WTR162"],
     sets: [Release.Promos,Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR162",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Item",
 
@@ -10565,7 +10565,7 @@ Banish Remembrance.`,
     setIdentifiers: ["FAB012","KSU029","TEA028","1HP381","WTR170"],
     sets: [Release.Promos,Release.KatsuHeroDeck,Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR170",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Item",
 
@@ -10629,7 +10629,7 @@ Banish Remembrance.`,
     setIdentifiers: ["FAB013","BVO028","1HP382","WTR171"],
     sets: [Release.Promos,Release.BravoBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR171",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Item",
 
@@ -10693,7 +10693,7 @@ Banish Remembrance.`,
     setIdentifiers: ["FAB014","RNR029","1HP383","WTR172"],
     sets: [Release.Promos,Release.RhinarHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR172",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Item",
 
@@ -13163,7 +13163,7 @@ If Unmovable is played from arsenal, it gains +1{d}.`,
     setIdentifiers: ["1HP417","WTR218"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR218",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -13217,7 +13217,7 @@ If Unmovable is played from arsenal, it gains +1{d}.`,
     setIdentifiers: ["1HP418","WTR219"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR219",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -13271,7 +13271,7 @@ If Unmovable is played from arsenal, it gains +1{d}.`,
     setIdentifiers: ["1HP419","WTR220"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR220",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -13325,7 +13325,7 @@ If Unmovable is played from arsenal, it gains +1{d}.`,
     setIdentifiers: ["1HP420","WTR221"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR221",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -13379,7 +13379,7 @@ If Unmovable is played from arsenal, it gains +1{d}.`,
     setIdentifiers: ["1HP421","WTR222"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR222",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -13439,7 +13439,7 @@ If Unmovable is played from arsenal, it gains +1{d}.`,
     setIdentifiers: ["BVO029","1HP422","WTR223"],
     sets: [Release.BravoBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR223",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -14063,7 +14063,7 @@ When you pitch Eye of Ophidia, **opt 2.**`,
     setIdentifiers: ["1HP188","ARC006"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC006",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action",
 
@@ -14125,7 +14125,7 @@ Draw a card.
     setIdentifiers: ["1HP192","ARC007"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC007",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action – Item",
 
@@ -14233,7 +14233,7 @@ At the beginning of your action phase, remove a steam counter from Teklo Core an
     setIdentifiers: ["1HP191","ARC009"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC009",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action",
 
@@ -14289,7 +14289,7 @@ If you have **boosted** this turn, draw a card.`,
     setIdentifiers: ["1HP189","ARC010"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC010",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action – Item",
 
@@ -14517,7 +14517,7 @@ If you have **boosted** this turn, draw a card.`,
     setIdentifiers: ["ARC014"],
     sets: [Release.ArcaneRising],
     specialImageName: "ARC014",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action",
 
@@ -14567,7 +14567,7 @@ If you have **boosted** this turn, put a steam counter on it.
     setIdentifiers: ["ARC015"],
     sets: [Release.ArcaneRising],
     specialImageName: "ARC015",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action",
 
@@ -14617,7 +14617,7 @@ If you have **boosted** this turn, put a steam counter on it.
     setIdentifiers: ["ARC016"],
     sets: [Release.ArcaneRising],
     specialImageName: "ARC016",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action",
 
@@ -14673,7 +14673,7 @@ If you have **boosted** this turn, put a steam counter on it.
     setIdentifiers: ["1HP199","ARC017"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC017",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action – Item",
 
@@ -14729,7 +14729,7 @@ If you have **boosted** this turn, put a steam counter on it.
     setIdentifiers: ["1HP200","ARC018"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC018",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action – Item",
 
@@ -14789,7 +14789,7 @@ If you have **boosted** this turn, put a steam counter on it.
     setIdentifiers: ["1HP201","ARC019"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC019",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action – Item",
 
@@ -15569,7 +15569,7 @@ If you have **boosted** this turn, put a steam counter on it.
     setIdentifiers: ["ARC032"],
     sets: [Release.ArcaneRising],
     specialImageName: "ARC032",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action",
 
@@ -15625,7 +15625,7 @@ If you have **boosted** this turn, **opt 1**. *(Look at the top card of your dec
     setIdentifiers: ["ARC033"],
     sets: [Release.ArcaneRising],
     specialImageName: "ARC033",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action",
 
@@ -15681,7 +15681,7 @@ If you have **boosted** this turn, **opt 1**. *(Look at the top card of your dec
     setIdentifiers: ["ARC034"],
     sets: [Release.ArcaneRising],
     specialImageName: "ARC034",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action",
 
@@ -15737,7 +15737,7 @@ If you have **boosted** this turn, **opt 1**. *(Look at the top card of your dec
     setIdentifiers: ["1HP217","ARC035"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC035",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action – Item",
 
@@ -15799,7 +15799,7 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
     setIdentifiers: ["1HP218","ARC036","DYN110"],
     sets: [Release.HistoryPack1,Release.ArcaneRising,Release.Dynasty],
     specialImageName: "ARC036",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action – Item",
 
@@ -15859,7 +15859,7 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
     setIdentifiers: ["1HP219","ARC037"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC037",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action – Item",
 
@@ -16295,7 +16295,7 @@ If Red in the Ledger hits a hero, they can't play or activate more than 1 action
     setIdentifiers: ["1HP232","ARC044"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC044",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action",
 
@@ -16409,7 +16409,7 @@ If Endless Arrow hits, put it into your hand.`,
     setIdentifiers: ["1HP231","ARC046"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC046",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action",
 
@@ -16461,7 +16461,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     setIdentifiers: ["ARC047"],
     sets: [Release.ArcaneRising],
     specialImageName: "ARC047",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action",
 
@@ -16665,7 +16665,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     setIdentifiers: ["ARC051"],
     sets: [Release.ArcaneRising],
     specialImageName: "ARC051",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action",
 
@@ -16713,7 +16713,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     setIdentifiers: ["ARC052"],
     sets: [Release.ArcaneRising],
     specialImageName: "ARC052",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action",
 
@@ -16761,7 +16761,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     setIdentifiers: ["ARC053"],
     sets: [Release.ArcaneRising],
     specialImageName: "ARC053",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action",
 
@@ -16821,7 +16821,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     setIdentifiers: ["LXI028","1HP237","ARC054"],
     sets: [Release.LexiBlitzDeck,Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC054",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action",
 
@@ -16877,7 +16877,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     setIdentifiers: ["1HP238","ARC055"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC055",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action",
 
@@ -16933,7 +16933,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     setIdentifiers: ["1HP239","ARC056"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC056",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action",
 
@@ -18371,7 +18371,7 @@ If Arknight Ascendency hits, create X Runechant tokens, where X is the damage de
     setIdentifiers: ["1HP268","ARC081"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC081",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action",
 
@@ -18477,7 +18477,7 @@ If Arknight Ascendency hits, create X Runechant tokens, where X is the damage de
     setIdentifiers: ["1HP267","ARC083"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC083",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action",
 
@@ -18527,7 +18527,7 @@ You may discard an action card. If you discard an attack action card this way, s
     setIdentifiers: ["ARC084"],
     sets: [Release.ArcaneRising],
     specialImageName: "ARC084",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action",
 
@@ -18965,7 +18965,7 @@ Create a Runechant token. *(It's an aura with “When you play an attack action 
     setIdentifiers: ["1HP279","ARC091"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC091",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action",
 
@@ -19027,7 +19027,7 @@ Create a Runechant token. *(It's an aura with "When you play an attack action ca
     setIdentifiers: ["1HP280","ARC092"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC092",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action",
 
@@ -19089,7 +19089,7 @@ Create a Runechant token. *(It's an aura with "When you play an attack action ca
     setIdentifiers: ["1HP281","ARC093"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC093",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action",
 
@@ -19769,7 +19769,7 @@ Draw a card.`,
     setIdentifiers: ["1HP291","ARC106"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC106",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action – Aura",
 
@@ -19833,7 +19833,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     setIdentifiers: ["1HP292","ARC107"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC107",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action – Aura",
 
@@ -19897,7 +19897,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     setIdentifiers: ["1HP293","ARC108"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC108",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action – Aura",
 
@@ -19961,7 +19961,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     setIdentifiers: ["1HP294","ARC109"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC109",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action",
 
@@ -20019,7 +20019,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     setIdentifiers: ["1HP295","ARC110"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC110",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action",
 
@@ -20077,7 +20077,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     setIdentifiers: ["1HP296","ARC111"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC111",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action",
 
@@ -20531,7 +20531,7 @@ When you play an attack action card or activate a weapon attack, destroy Runecha
     setIdentifiers: ["1HP308","ARC118"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC118",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -20585,7 +20585,7 @@ Deal X arcane damage to target hero, where X is the amount of arcane damage you 
     setIdentifiers: ["1HP312","ARC119"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC119",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -20645,7 +20645,7 @@ If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 
     setIdentifiers: ["1HP310","ARC120"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC120",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -20705,7 +20705,7 @@ If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 
     setIdentifiers: ["1HP311","ARC121"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC121",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -20761,7 +20761,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     setIdentifiers: ["1HP313","ARC122"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC122",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -20960,7 +20960,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     setIdentifiers: ["1HP314","ARC126"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC126",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -21020,7 +21020,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     setIdentifiers: ["1HP315","ARC127"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC127",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -21080,7 +21080,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     setIdentifiers: ["1HP316","ARC128"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC128",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -21134,7 +21134,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     setIdentifiers: ["1HP320","ARC129"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC129",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -21186,7 +21186,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     setIdentifiers: ["1HP321","ARC130"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC130",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -21238,7 +21238,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     setIdentifiers: ["1HP322","ARC131"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC131",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -21290,7 +21290,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     setIdentifiers: ["1HP323","ARC132"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC132",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -21344,7 +21344,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     setIdentifiers: ["1HP324","ARC133"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC133",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -21398,7 +21398,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     setIdentifiers: ["1HP325","ARC134"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC134",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -21446,7 +21446,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     setIdentifiers: ["ARC135"],
     sets: [Release.ArcaneRising],
     specialImageName: "ARC135",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -21492,7 +21492,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     setIdentifiers: ["ARC136"],
     sets: [Release.ArcaneRising],
     specialImageName: "ARC136",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -21538,7 +21538,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     setIdentifiers: ["ARC137"],
     sets: [Release.ArcaneRising],
     specialImageName: "ARC137",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -21590,7 +21590,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     setIdentifiers: ["1HP326","ARC138"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC138",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -21644,7 +21644,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     setIdentifiers: ["1HP327","ARC139"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC139",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -21698,7 +21698,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     setIdentifiers: ["1HP328","ARC140"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC140",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -21752,7 +21752,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     setIdentifiers: ["1HP329","ARC141"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC141",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -21804,7 +21804,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     setIdentifiers: ["1HP330","ARC142"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC142",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -21856,7 +21856,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     setIdentifiers: ["1HP331","ARC143"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC143",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -21908,7 +21908,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     setIdentifiers: ["1HP338","ARC144"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC144",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -21960,7 +21960,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     setIdentifiers: ["1HP339","ARC145"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC145",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -22012,7 +22012,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     setIdentifiers: ["1HP340","ARC146"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC146",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -22076,7 +22076,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     setIdentifiers: ["LGS016","LGS041","1HP335","ARC147"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "LGS016-P.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -22128,7 +22128,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     setIdentifiers: ["LGS042","1HP336","ARC148"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "LGS042.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -22186,7 +22186,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     setIdentifiers: ["LGS043","1HP337","ARC149"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "LGS043.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -22734,7 +22734,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     
   },{
-    artists: ["Fajareka Setiawan"],
+    artists: ["Fajareka Setiawan","Othon Nikolaidis"],
     cardIdentifier: "command-and-conquer-red",
     classes: [Class.Generic],
     defaultImageName: "ARC159",
@@ -22919,7 +22919,7 @@ If Command and Conquer hits a hero, destroy all cards in their arsenal.`,
     setIdentifiers: ["ARC162"],
     sets: [Release.ArcaneRising],
     specialImageName: "ARC162",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Aura",
 
@@ -22969,7 +22969,7 @@ At the beginning of your action phase, destroy Chains of Eminence`,
     setIdentifiers: ["ARC163"],
     sets: [Release.ArcaneRising],
     specialImageName: "ARC163",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Item",
 
@@ -23183,7 +23183,7 @@ When you play Life for a Life, if you have less {h} than an opposing hero, it ga
     setIdentifiers: ["1HP375","ARC167"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC167",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Aura",
 
@@ -23239,7 +23239,7 @@ At the beginning of your end phase, destroy Enchanting Melody unless you have pl
     setIdentifiers: ["1HP376","ARC168"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC168",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Aura",
 
@@ -23295,7 +23295,7 @@ At the beginning of your end phase, destroy Enchanting Melody unless you have pl
     setIdentifiers: ["1HP377","ARC169"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC169",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Aura",
 
@@ -23351,7 +23351,7 @@ At the beginning of your end phase, destroy Enchanting Melody unless you have pl
     setIdentifiers: ["1HP378","ARC170"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC170",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -23407,7 +23407,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     setIdentifiers: ["1HP379","ARC171"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC171",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -23463,7 +23463,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     setIdentifiers: ["1HP380","ARC172"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC172",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -25043,7 +25043,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     setIdentifiers: ["1HP414","ARC203"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC203",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -25103,7 +25103,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     setIdentifiers: ["1HP415","ARC204"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC204",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -25169,7 +25169,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     setIdentifiers: ["RVD024","1HP416","ARC205"],
     sets: [Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC205",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -25223,7 +25223,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     setIdentifiers: ["ARC206"],
     sets: [Release.ArcaneRising],
     specialImageName: "ARC206",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -25279,7 +25279,7 @@ If Force Sight is played from arsenal, **opt 2.** *(Look at the top 2 cards of y
     setIdentifiers: ["ARC207"],
     sets: [Release.ArcaneRising],
     specialImageName: "ARC207",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -25335,7 +25335,7 @@ If Force Sight is played from arsenal, **opt 2.** *(Look at the top 2 cards of y
     setIdentifiers: ["ARC208"],
     sets: [Release.ArcaneRising],
     specialImageName: "ARC208",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -25385,7 +25385,7 @@ If Force Sight is played from arsenal, **opt 2.** *(Look at the top 2 cards of y
     setIdentifiers: ["ARC209"],
     sets: [Release.ArcaneRising],
     specialImageName: "ARC209",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -25433,7 +25433,7 @@ If Force Sight is played from arsenal, **opt 2.** *(Look at the top 2 cards of y
     setIdentifiers: ["ARC210"],
     sets: [Release.ArcaneRising],
     specialImageName: "ARC210",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -25481,7 +25481,7 @@ If Force Sight is played from arsenal, **opt 2.** *(Look at the top 2 cards of y
     setIdentifiers: ["ARC211"],
     sets: [Release.ArcaneRising],
     specialImageName: "ARC211",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -25529,7 +25529,7 @@ If Force Sight is played from arsenal, **opt 2.** *(Look at the top 2 cards of y
     setIdentifiers: ["ARC212"],
     sets: [Release.ArcaneRising],
     specialImageName: "ARC212",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -25577,7 +25577,7 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
     setIdentifiers: ["ARC213"],
     sets: [Release.ArcaneRising],
     specialImageName: "ARC213",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -25625,7 +25625,7 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
     setIdentifiers: ["ARC214"],
     sets: [Release.ArcaneRising],
     specialImageName: "ARC214",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -25679,7 +25679,7 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
     setIdentifiers: ["1HP423","ARC215"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC215",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -25733,7 +25733,7 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
     setIdentifiers: ["1HP424","ARC216"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC216",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -25787,7 +25787,7 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
     setIdentifiers: ["1HP425","ARC217"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC217",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -27036,7 +27036,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     setIdentifiers: ["CRU028"],
     sets: [Release.CrucibleOfWar],
     specialImageName: "CRU028",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action – Aura",
 
@@ -27092,7 +27092,7 @@ At the beginning of your action phase, destroy Stamp Authority.`,
     setIdentifiers: ["1HP064","CRU029"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU029",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action – Aura",
 
@@ -27146,7 +27146,7 @@ At the beginning of your action phase, destroy Towering Titan then the next Guar
     setIdentifiers: ["1HP065","CRU030"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU030",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action – Aura",
 
@@ -27200,7 +27200,7 @@ At the beginning of your action phase, destroy Towering Titan then the next Guar
     setIdentifiers: ["1HP066","CRU031"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU031",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action – Aura",
 
@@ -27554,7 +27554,7 @@ At the beginning of your action phase, destroy Towering Titan then the next Guar
     setIdentifiers: ["1HP079","CRU038"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU038-RF",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action – Aura",
 
@@ -27614,7 +27614,7 @@ At the beginning of your action phase, destroy Emerging Dominance then the next 
     setIdentifiers: ["1HP080","CRU039"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU039-RF",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action – Aura",
 
@@ -27674,7 +27674,7 @@ At the beginning of your action phase, destroy Emerging Dominance then the next 
     setIdentifiers: ["1HP081","CRU040"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU040-RF",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action – Aura",
 
@@ -29663,7 +29663,7 @@ Whenever Cintari Saber is defended by 1 or more attack action cards, it gains +1
     setIdentifiers: ["1HP151","CRU084"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU084",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -29713,7 +29713,7 @@ Whenever a weapon you control hits this turn, create 2 Copper tokens.
     setIdentifiers: ["CRU085"],
     sets: [Release.CrucibleOfWar],
     specialImageName: "CRU085",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -29763,7 +29763,7 @@ The next defense reaction card the defending hero plays this turn costs an addit
     setIdentifiers: ["CRU086"],
     sets: [Release.CrucibleOfWar],
     specialImageName: "CRU086",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -29813,7 +29813,7 @@ The next defense reaction card the defending hero plays this turn costs an addit
     setIdentifiers: ["CRU087"],
     sets: [Release.CrucibleOfWar],
     specialImageName: "CRU087",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -30037,7 +30037,7 @@ The next defense reaction card the defending hero plays this turn costs an addit
     setIdentifiers: ["1HP174","CRU091"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU091",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -30093,7 +30093,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
     setIdentifiers: ["1HP175","CRU092"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU092",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -30155,7 +30155,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
     setIdentifiers: ["DVR021","1HP176","CRU093"],
     sets: [Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU093",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -30217,7 +30217,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
     setIdentifiers: ["BOL030","CRU094"],
     sets: [Release.BoltynBlitzDeck,Release.CrucibleOfWar],
     specialImageName: "CRU094",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -30273,7 +30273,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains *
     setIdentifiers: ["CRU095"],
     sets: [Release.CrucibleOfWar],
     specialImageName: "CRU095",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -30329,7 +30329,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains *
     setIdentifiers: ["CRU096"],
     sets: [Release.CrucibleOfWar],
     specialImageName: "CRU096",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -30641,7 +30641,7 @@ X is equal to 1 plus the number of times you have **boosted** this combat chain.
     setIdentifiers: ["CRU104"],
     sets: [Release.CrucibleOfWar],
     specialImageName: "CRU104",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action – Item",
 
@@ -30697,7 +30697,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
     setIdentifiers: ["1HP190","CRU105"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU105",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action – Item",
 
@@ -31249,7 +31249,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
     setIdentifiers: ["CRU115"],
     sets: [Release.CrucibleOfWar],
     specialImageName: "CRU115",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action",
 
@@ -31303,7 +31303,7 @@ Reveal the top card of your deck. If it’s a Mechanologist item card with cost 
     setIdentifiers: ["CRU116"],
     sets: [Release.CrucibleOfWar],
     specialImageName: "CRU116",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action",
 
@@ -31357,7 +31357,7 @@ Reveal the top card of your deck. If it’s a Mechanologist item card with cost 
     setIdentifiers: ["CRU117"],
     sets: [Release.CrucibleOfWar],
     specialImageName: "CRU117",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action",
 
@@ -31631,7 +31631,7 @@ If Remorseless hits a hero, until the end of their next turn, whenever they play
     setIdentifiers: ["CRU124"],
     sets: [Release.CrucibleOfWar],
     specialImageName: "CRU124",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action",
 
@@ -32221,7 +32221,7 @@ If Sleep Dart hits a hero, they lose all hero card effects and activated abiliti
     setIdentifiers: ["CRU135"],
     sets: [Release.CrucibleOfWar],
     specialImageName: "CRU135",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action",
 
@@ -32269,7 +32269,7 @@ If Sleep Dart hits a hero, they lose all hero card effects and activated abiliti
     setIdentifiers: ["CRU136"],
     sets: [Release.CrucibleOfWar],
     specialImageName: "CRU136",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action",
 
@@ -32317,7 +32317,7 @@ If Sleep Dart hits a hero, they lose all hero card effects and activated abiliti
     setIdentifiers: ["CRU137"],
     sets: [Release.CrucibleOfWar],
     specialImageName: "CRU137",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action",
 
@@ -32529,7 +32529,7 @@ If Dread Triptych hits, create a Runechant token.`,
     setIdentifiers: ["CRU143"],
     sets: [Release.CrucibleOfWar],
     specialImageName: "CRU143",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action",
 
@@ -32585,7 +32585,7 @@ If you have dealt arcane damage to an opposing hero this turn, you may play Ratt
     setIdentifiers: ["1HP269","CRU144"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU144",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action – Aura",
 
@@ -32647,7 +32647,7 @@ At the beginning of your action phase, destroy Runeblood Barrier.`,
     setIdentifiers: ["1HP276","CRU145"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU145",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action",
 
@@ -32707,7 +32707,7 @@ At the beginning of your action phase, destroy Runeblood Barrier.`,
     setIdentifiers: ["1HP277","CRU146"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU146",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action",
 
@@ -32767,7 +32767,7 @@ At the beginning of your action phase, destroy Runeblood Barrier.`,
     setIdentifiers: ["1HP278","CRU147"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU147",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action",
 
@@ -33151,7 +33151,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
     setIdentifiers: ["1HP297","CRU154"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU154",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action",
 
@@ -33211,7 +33211,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
     setIdentifiers: ["1HP298","CRU155"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU155",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action",
 
@@ -33271,7 +33271,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
     setIdentifiers: ["1HP299","CRU156"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU156",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action",
 
@@ -33431,7 +33431,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
     setIdentifiers: ["1HP309","CRU162"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU162",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -33479,7 +33479,7 @@ If you have played another Wizard 'non-attack' action card this turn, deal 3 arc
     setIdentifiers: ["CRU163"],
     sets: [Release.CrucibleOfWar],
     specialImageName: "CRU163",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -33585,7 +33585,7 @@ If you have played another Wizard 'non-attack' action card this turn, put Gaze t
     setIdentifiers: ["1HP317","CRU165"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU165",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -33641,7 +33641,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     setIdentifiers: ["1HP318","CRU166"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU166",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -33697,7 +33697,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     setIdentifiers: ["1HP319","CRU167"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU167",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -33747,7 +33747,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     setIdentifiers: ["CRU168"],
     sets: [Release.CrucibleOfWar],
     specialImageName: "CRU168",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -33795,7 +33795,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     setIdentifiers: ["CRU169"],
     sets: [Release.CrucibleOfWar],
     specialImageName: "CRU169",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -33843,7 +33843,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     setIdentifiers: ["CRU170"],
     sets: [Release.CrucibleOfWar],
     specialImageName: "CRU170",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -33891,7 +33891,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     setIdentifiers: ["CRU171"],
     sets: [Release.CrucibleOfWar],
     specialImageName: "CRU171",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -33939,7 +33939,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     setIdentifiers: ["CRU172"],
     sets: [Release.CrucibleOfWar],
     specialImageName: "CRU172",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -33987,7 +33987,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     setIdentifiers: ["CRU173"],
     sets: [Release.CrucibleOfWar],
     specialImageName: "CRU173",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -34041,7 +34041,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     setIdentifiers: ["1HP332","CRU174"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU174",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -34095,7 +34095,7 @@ If you have played another Wizard 'non-attack' action card this turn, you may pl
     setIdentifiers: ["1HP333","CRU175"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU175",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -34149,7 +34149,7 @@ If you have played another Wizard 'non-attack' action card this turn, you may pl
     setIdentifiers: ["1HP334","CRU176"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU176",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -34371,7 +34371,7 @@ At the beginning of your end phase, if Talishar, the Lost Prince has 3 or more r
     setIdentifiers: ["1HP364","CRU181"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU181",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -34757,7 +34757,7 @@ If Promise of Plenty is played from arsenal, it gains **go again.**`,
     setIdentifiers: ["CRU188"],
     sets: [Release.CrucibleOfWar],
     specialImageName: "CRU188",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -35157,7 +35157,7 @@ Draw 2 cards.`,
     setIdentifiers: ["MON000"],
     sets: [Release.Monarch],
     specialImageName: "MON000.width-450",
-    subtypes: [Subtype.Landmark],
+    subtypes: [Subtype.Landmark,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Light Action – Landmark",
 
@@ -37025,7 +37025,7 @@ If you've **charged** this turn, search your deck for an action card with cost X
     setIdentifiers: ["MON034"],
     sets: [Release.Monarch],
     specialImageName: "MON034-RF",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Light Warrior Action",
 
@@ -38547,7 +38547,7 @@ If you've **charged** this turn, Take Flight gains **go again.**`,
     setIdentifiers: ["MON064"],
     sets: [Release.Monarch],
     specialImageName: "MON064.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Light Action",
 
@@ -39385,7 +39385,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
     setIdentifiers: ["PSM022","MON081"],
     sets: [Release.PrismBlitzDeck,Release.Monarch],
     specialImageName: "MON081.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Light Action",
 
@@ -39433,7 +39433,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
     setIdentifiers: ["MON082"],
     sets: [Release.Monarch],
     specialImageName: "MON082.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Light Action",
 
@@ -39487,7 +39487,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
     setIdentifiers: ["BOL028","MON083"],
     sets: [Release.BoltynBlitzDeck,Release.Monarch],
     specialImageName: "MON083.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Light Action",
 
@@ -40107,7 +40107,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
     setIdentifiers: ["LGS054","PSM025","MON095"],
     sets: [Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
     specialImageName: "LGS054.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Illusionist, Instant",
 
@@ -40161,7 +40161,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
     setIdentifiers: ["LGS055","MON096"],
     sets: [Release.Promos,Release.Monarch],
     specialImageName: "LGS055.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Illusionist, Instant",
 
@@ -40215,7 +40215,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
     setIdentifiers: ["LGS056","MON097"],
     sets: [Release.Promos,Release.Monarch],
     specialImageName: "LGS056.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Illusionist, Instant",
 
@@ -40873,7 +40873,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     setIdentifiers: ["MON109"],
     sets: [Release.Monarch],
     specialImageName: "MON109.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -40933,7 +40933,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     setIdentifiers: ["LGS060","BOL029","MON110"],
     sets: [Release.Promos,Release.BoltynBlitzDeck,Release.Monarch],
     specialImageName: "LGS060.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -40987,7 +40987,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     setIdentifiers: ["LGS061","MON111"],
     sets: [Release.Promos,Release.Monarch],
     specialImageName: "LGS061.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -41041,7 +41041,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     setIdentifiers: ["LGS062","MON112"],
     sets: [Release.Promos,Release.Monarch],
     specialImageName: "LGS062.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -41089,7 +41089,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     setIdentifiers: ["MON113"],
     sets: [Release.Monarch],
     specialImageName: "MON113.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -41137,7 +41137,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     setIdentifiers: ["MON114"],
     sets: [Release.Monarch],
     specialImageName: "MON114.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -41185,7 +41185,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     setIdentifiers: ["MON115"],
     sets: [Release.Monarch],
     specialImageName: "MON115.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -41239,7 +41239,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     setIdentifiers: ["DVR010","MON116"],
     sets: [Release.ClassicBattlesRhinarDorinthea,Release.Monarch],
     specialImageName: "MON116.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -41287,7 +41287,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     setIdentifiers: ["MON117"],
     sets: [Release.Monarch],
     specialImageName: "MON117.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -41335,7 +41335,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     setIdentifiers: ["MON118"],
     sets: [Release.Monarch],
     specialImageName: "MON118.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -42063,7 +42063,7 @@ If a card with 6 or more {p} is banished this way, Writhing Beast Hulk gains **d
     setIdentifiers: ["MON132"],
     sets: [Release.Monarch],
     specialImageName: "MON132.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Shadow Brute Action",
 
@@ -42113,7 +42113,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     setIdentifiers: ["MON133"],
     sets: [Release.Monarch],
     specialImageName: "MON133.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Shadow Brute Action",
 
@@ -42169,7 +42169,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     setIdentifiers: ["LEV019","MON134"],
     sets: [Release.LeviaBlitzDeck,Release.Monarch],
     specialImageName: "MON134.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Shadow Brute Action",
 
@@ -43011,7 +43011,7 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
     setIdentifiers: ["LEV015","MON150"],
     sets: [Release.LeviaBlitzDeck,Release.Monarch],
     specialImageName: "MON150.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Shadow Brute Action",
 
@@ -43061,7 +43061,7 @@ The next Brute or Shadow attack action card you play this turn gains +4{p}.
     setIdentifiers: ["MON151"],
     sets: [Release.Monarch],
     specialImageName: "MON151.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Shadow Brute Action",
 
@@ -43117,7 +43117,7 @@ The next Brute or Shadow attack action card you play this turn gains +3{p}.
     setIdentifiers: ["LEV022","MON152"],
     sets: [Release.LeviaBlitzDeck,Release.Monarch],
     specialImageName: "MON152.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Shadow Brute Action",
 
@@ -43401,7 +43401,7 @@ As an additional cost to play Shadow of Ursur, you may banish a card with blood 
     setIdentifiers: ["MON157"],
     sets: [Release.Monarch],
     specialImageName: "MON157.width-450",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Shadow Runeblade Action – Aura",
 
@@ -43657,7 +43657,7 @@ You may put a 'non-attack' action card with blood debt from your graveyard on th
     setIdentifiers: ["MON162"],
     sets: [Release.Monarch],
     specialImageName: "MON162.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Shadow Runeblade Action",
 
@@ -43707,7 +43707,7 @@ Reveal the top card of your deck. If it's a Runeblade card, deal 1 arcane damage
     setIdentifiers: ["MON163"],
     sets: [Release.Monarch],
     specialImageName: "MON163.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Shadow Runeblade Action",
 
@@ -43757,7 +43757,7 @@ Reveal the top card of your deck. If it's a Runeblade card, deal 1 arcane damage
     setIdentifiers: ["MON164"],
     sets: [Release.Monarch],
     specialImageName: "MON164.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Shadow Runeblade Action",
 
@@ -43807,7 +43807,7 @@ Reveal the top card of your deck. If it's a Runeblade card, deal 1 arcane damage
     setIdentifiers: ["MON165"],
     sets: [Release.Monarch],
     specialImageName: "MON165.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Shadow Runeblade Action",
 
@@ -43865,7 +43865,7 @@ The next attack action card with cost 2 or less you play this turns gains +1{p} 
     setIdentifiers: ["CHN017","MON166"],
     sets: [Release.ChaneBlitzDeck,Release.Monarch],
     specialImageName: "MON166.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Shadow Runeblade Action",
 
@@ -43917,7 +43917,7 @@ The next attack action card with cost 1 or less you play this turns gains +1{p} 
     setIdentifiers: ["MON167"],
     sets: [Release.Monarch],
     specialImageName: "MON167.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Shadow Runeblade Action",
 
@@ -44755,7 +44755,7 @@ If you have dealt arcane damage to an opposing hero this turn, Rip Through Reali
     setIdentifiers: ["CHN014","MON183"],
     sets: [Release.ChaneBlitzDeck,Release.Monarch],
     specialImageName: "MON183_up.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Shadow Runeblade Action",
 
@@ -44813,7 +44813,7 @@ The next attack action card with cost 2 or less you play this turn gains "When y
     setIdentifiers: ["CHN016","MON184"],
     sets: [Release.ChaneBlitzDeck,Release.Monarch],
     specialImageName: "MON184.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Shadow Runeblade Action",
 
@@ -44865,7 +44865,7 @@ The next attack action card with cost 1 or less you play this turn gains "When y
     setIdentifiers: ["MON185"],
     sets: [Release.Monarch],
     specialImageName: "MON185.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Shadow Runeblade Action",
 
@@ -45291,7 +45291,7 @@ Mutated Mass's {p} and {d} is equal to twice the number of cards in your pitch z
     setIdentifiers: ["MON193"],
     sets: [Release.Monarch],
     specialImageName: "MON193.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Shadow Action",
 
@@ -45339,7 +45339,7 @@ Mutated Mass's {p} and {d} is equal to twice the number of cards in your pitch z
     setIdentifiers: ["MON194"],
     sets: [Release.Monarch],
     specialImageName: "MON194.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Shadow Action",
 
@@ -45651,7 +45651,7 @@ While Soul Reaping is attacking a hero with 1 or more cards in their soul, it ha
     setIdentifiers: ["CHN022","MON200"],
     sets: [Release.ChaneBlitzDeck,Release.Monarch],
     specialImageName: "MON200.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Shadow Action",
 
@@ -45703,7 +45703,7 @@ The next attack action card you play this turn gains +3{p}.
     setIdentifiers: ["MON201"],
     sets: [Release.Monarch],
     specialImageName: "MON201.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Shadow Action",
 
@@ -45755,7 +45755,7 @@ The next attack action card you play this turn gains +2{p}.
     setIdentifiers: ["MON202"],
     sets: [Release.Monarch],
     specialImageName: "MON202.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Shadow Action",
 
@@ -46269,7 +46269,7 @@ The next attack action card you play this turn gains +1{p}.
     setIdentifiers: ["MON212"],
     sets: [Release.Monarch],
     specialImageName: "MON212.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Shadow Action",
 
@@ -46323,7 +46323,7 @@ The next attack action card you play this turn gains +1{p}.
     setIdentifiers: ["CHN024","MON213"],
     sets: [Release.ChaneBlitzDeck,Release.Monarch],
     specialImageName: "MON213.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Shadow Action",
 
@@ -46371,7 +46371,7 @@ The next attack action card you play this turn gains +1{p}.
     setIdentifiers: ["MON214"],
     sets: [Release.Monarch],
     specialImageName: "MON214.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Shadow Action",
 
@@ -46801,7 +46801,7 @@ Whenever you attack with Ravenous Meataxe, draw a card then discard a random car
     setIdentifiers: ["MON222"],
     sets: [Release.Monarch],
     specialImageName: "MON222.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Brute Action",
 
@@ -47271,7 +47271,7 @@ A hero dealt damage by Dread Scythe can't gain {h} during their next action phas
     setIdentifiers: ["MON231"],
     sets: [Release.Monarch],
     specialImageName: "MON231.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action",
 
@@ -48673,7 +48673,7 @@ Shuffle your deck. Banish Sonata Arcanix.
     setIdentifiers: ["MON260"],
     sets: [Release.Monarch],
     specialImageName: "MON260.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -48725,7 +48725,7 @@ The next attack action card with cost 2 or less you play this turn gains **go ag
     setIdentifiers: ["MON261"],
     sets: [Release.Monarch],
     specialImageName: "MON261.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -48777,7 +48777,7 @@ The next attack action card with cost 1 or less you play this turn gains **go ag
     setIdentifiers: ["MON262"],
     sets: [Release.Monarch],
     specialImageName: "MON262.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -50395,7 +50395,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     setIdentifiers: ["MON296"],
     sets: [Release.Monarch],
     specialImageName: "MON296.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -50443,7 +50443,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     setIdentifiers: ["MON297"],
     sets: [Release.Monarch],
     specialImageName: "MON297.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -50491,7 +50491,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     setIdentifiers: ["MON298"],
     sets: [Release.Monarch],
     specialImageName: "MON298.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -50545,7 +50545,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     setIdentifiers: ["CHN028","MON299"],
     sets: [Release.ChaneBlitzDeck,Release.Monarch],
     specialImageName: "MON299.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -50599,7 +50599,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     setIdentifiers: ["CHN029","MON300"],
     sets: [Release.ChaneBlitzDeck,Release.Monarch],
     specialImageName: "MON300.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -50647,7 +50647,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     setIdentifiers: ["MON301"],
     sets: [Release.Monarch],
     specialImageName: "MON301.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -50696,7 +50696,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     setIdentifiers: ["MON302"],
     sets: [Release.Monarch],
     specialImageName: "MON302.width-450",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Item",
 
@@ -51084,7 +51084,7 @@ While The Librarian is face up in arsenal, once per turn when you create a Spect
     setIdentifiers: ["ELE000"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE000_vertical.width-450",
-    subtypes: [Subtype.Landmark],
+    subtypes: [Subtype.Landmark,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Action – Landmark",
 
@@ -52366,7 +52366,7 @@ If Snow Under was **fused**, it gains "If Snow Under hits a hero, create a Frost
     setIdentifiers: ["ELE025"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE025.width-450",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Guardian Action – Aura",
 
@@ -52418,7 +52418,7 @@ At the beginning of your action phase, destroy Emerging Avalanche then the next 
     setIdentifiers: ["ELE026"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE026.width-450",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Guardian Action – Aura",
 
@@ -52470,7 +52470,7 @@ At the beginning of your action phase, destroy Emerging Avalanche then the next 
     setIdentifiers: ["ELE027"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE027.width-450",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Guardian Action – Aura",
 
@@ -52534,7 +52534,7 @@ At the beginning of your action phase, destroy Emerging Avalanche then the next 
     setIdentifiers: ["LGS078","OLD020","ELE028"],
     sets: [Release.Promos,Release.OldhimBlitzDeck,Release.TalesOfAria],
     specialImageName: "LGS078.width-450",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Guardian Action – Aura",
 
@@ -52586,7 +52586,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
     setIdentifiers: ["ELE029"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE029.width-450",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Guardian Action – Aura",
 
@@ -52644,7 +52644,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
     setIdentifiers: ["OLD023","ELE030"],
     sets: [Release.OldhimBlitzDeck,Release.TalesOfAria],
     specialImageName: "ELE030.width-450",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Guardian Action – Aura",
 
@@ -53037,7 +53037,7 @@ If Light it Up deals damage to a hero equal to or greater than the number of equ
     setIdentifiers: ["ELE037"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE037.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Ranger Action",
 
@@ -54523,7 +54523,7 @@ When you attack with Blossoming Spellblade, if it was **fused**, deal 1 arcane d
     setIdentifiers: ["ELE065"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE065.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Runeblade Action",
 
@@ -54575,7 +54575,7 @@ Deal 1 arcane damage to target hero.
     setIdentifiers: ["ELE066"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE066.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Runeblade Action",
 
@@ -55562,7 +55562,7 @@ If Stir the Wildwood was **fused**, it gains +2{p}.`,
     setIdentifiers: ["BRI012","ELE085"],
     sets: [Release.BriarBlitzDeck,Release.TalesOfAria],
     specialImageName: "ELE085.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Runeblade Action",
 
@@ -55614,7 +55614,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     setIdentifiers: ["ELE086"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE086.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Runeblade Action",
 
@@ -55672,7 +55672,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     setIdentifiers: ["BRI015","ELE087"],
     sets: [Release.BriarBlitzDeck,Release.TalesOfAria],
     specialImageName: "ELE087.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Runeblade Action",
 
@@ -55724,7 +55724,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     setIdentifiers: ["ELE088"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE088.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Runeblade Action",
 
@@ -55772,7 +55772,7 @@ If Inspire Lightning was **fused**, deal 3 arcane damage to target hero.`,
     setIdentifiers: ["ELE089"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE089.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Runeblade Action",
 
@@ -55820,7 +55820,7 @@ If Inspire Lightning was **fused**, deal 2 arcane damage to target hero.`,
     setIdentifiers: ["ELE090"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE090.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Runeblade Action",
 
@@ -55868,7 +55868,7 @@ If Inspire Lightning was **fused**, deal 1 arcane damage to target hero.`,
     setIdentifiers: ["ELE091"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE091.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Action",
 
@@ -55920,7 +55920,7 @@ If Fulminate was **fused** with a Lightning card, attack action cards you contro
     setIdentifiers: ["ELE092"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE092.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Action",
 
@@ -56478,7 +56478,7 @@ If Entwine Lightning was **fused**, it gains **go again.**`,
     setIdentifiers: ["LGS080","ELE103"],
     sets: [Release.Promos,Release.TalesOfAria],
     specialImageName: "LGS080.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Action",
 
@@ -56532,7 +56532,7 @@ If Entwine Lightning was **fused**, it gains **go again.**`,
     setIdentifiers: ["LGS081","ELE104"],
     sets: [Release.Promos,Release.TalesOfAria],
     specialImageName: "LGS081.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Action",
 
@@ -56586,7 +56586,7 @@ If Entwine Lightning was **fused**, it gains **go again.**`,
     setIdentifiers: ["LGS082","ELE105"],
     sets: [Release.Promos,Release.TalesOfAria],
     specialImageName: "LGS082.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Action",
 
@@ -56634,7 +56634,7 @@ If Entwine Lightning was **fused**, it gains **go again.**`,
     setIdentifiers: ["ELE106"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE106.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Action",
 
@@ -56682,7 +56682,7 @@ If you've **fused** this turn, you may play Rejuvenate as though it were an inst
     setIdentifiers: ["ELE107"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE107.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Action",
 
@@ -56730,7 +56730,7 @@ If you've **fused** this turn, you may play Rejuvenate as though it were an inst
     setIdentifiers: ["ELE108"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE108.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Action",
 
@@ -57004,7 +57004,7 @@ Your next Ice, Lightning, or Elemental attack this turn gains +4{p}.`,
     setIdentifiers: ["ELE113"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE113.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Earth Lightning Action",
 
@@ -57206,7 +57206,7 @@ Earth, Ice, and Elemental action cards have +1{d} while defending this turn.`,
     setIdentifiers: ["ELE117"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE117.width-450",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Earth Action – Aura",
 
@@ -57256,7 +57256,7 @@ Attack action cards you control have +3{p}.
     setIdentifiers: ["ELE118"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE118.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Earth Action",
 
@@ -57462,7 +57462,7 @@ Draw 3 cards.
     setIdentifiers: ["BRI021","ELE122"],
     sets: [Release.BriarBlitzDeck,Release.TalesOfAria],
     specialImageName: "ELE122.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Earth Action",
 
@@ -57512,7 +57512,7 @@ If it's **fused**, instead it gains +4{p}.
     setIdentifiers: ["ELE123"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE123.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Earth Action",
 
@@ -57562,7 +57562,7 @@ If it's **fused**, instead it gains +3{p}.
     setIdentifiers: ["ELE124"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE124.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Earth Action",
 
@@ -58218,7 +58218,7 @@ If it's **fused**, instead it gains +2{p}.
     setIdentifiers: ["BRI019","ELE137"],
     sets: [Release.BriarBlitzDeck,Release.TalesOfAria],
     specialImageName: "ELE137.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Earth Action",
 
@@ -58266,7 +58266,7 @@ If it's **fused**, instead it gains +2{p}.
     setIdentifiers: ["ELE138"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE138.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Earth Action",
 
@@ -58326,7 +58326,7 @@ If it's **fused**, instead it gains +2{p}.
     setIdentifiers: ["BRI024","OLD027","ELE139"],
     sets: [Release.BriarBlitzDeck,Release.OldhimBlitzDeck,Release.TalesOfAria],
     specialImageName: "ELE139.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Earth Action",
 
@@ -58380,7 +58380,7 @@ If it's **fused**, instead it gains +2{p}.
     setIdentifiers: ["BRI020","ELE140"],
     sets: [Release.BriarBlitzDeck,Release.TalesOfAria],
     specialImageName: "ELE140.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Earth Action",
 
@@ -58430,7 +58430,7 @@ If Sow Tomorrow is played from arsenal, draw a card.
     setIdentifiers: ["ELE141"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE141.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Earth Action",
 
@@ -58486,7 +58486,7 @@ If Sow Tomorrow is played from arsenal, draw a card.
     setIdentifiers: ["BRI025","ELE142"],
     sets: [Release.BriarBlitzDeck,Release.TalesOfAria],
     specialImageName: "ELE142.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Earth Action",
 
@@ -58548,7 +58548,7 @@ If Sow Tomorrow is played from arsenal, draw a card.
     setIdentifiers: ["LGS063","BRI026","ELE143"],
     sets: [Release.Promos,Release.BriarBlitzDeck,Release.TalesOfAria],
     specialImageName: "ELE143.width-450",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Earth Action – Item",
 
@@ -58710,7 +58710,7 @@ If Sow Tomorrow is played from arsenal, draw a card.
     setIdentifiers: ["ELE146"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE146-RF",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Action – Aura",
 
@@ -58950,7 +58950,7 @@ Cards and activated abilities cost opposing heroes an additional {r}.
     setIdentifiers: ["ELE151"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE151.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Action",
 
@@ -59000,7 +59000,7 @@ Whenever an attack hits a hero this turn, create a Frostbite token under their c
     setIdentifiers: ["ELE152"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE152.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Action",
 
@@ -59050,7 +59050,7 @@ Whenever an attack hits a hero this turn, create a Frostbite token under their c
     setIdentifiers: ["ELE153"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE153.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Action",
 
@@ -59106,7 +59106,7 @@ Whenever an attack hits a hero this turn, create a Frostbite token under their c
     setIdentifiers: ["OLD014","ELE154"],
     sets: [Release.OldhimBlitzDeck,Release.TalesOfAria],
     specialImageName: "ELE154.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Action",
 
@@ -59156,7 +59156,7 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
     setIdentifiers: ["ELE155"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE155.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Action",
 
@@ -59206,7 +59206,7 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
     setIdentifiers: ["ELE156"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE156.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Action",
 
@@ -59538,7 +59538,7 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
     setIdentifiers: ["ELE163"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE163.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Action",
 
@@ -59592,7 +59592,7 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
     setIdentifiers: ["LXI024","ELE164"],
     sets: [Release.LexiBlitzDeck,Release.TalesOfAria],
     specialImageName: "ELE164.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Action",
 
@@ -59640,7 +59640,7 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
     setIdentifiers: ["ELE165"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE165.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Action",
 
@@ -59694,7 +59694,7 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
     setIdentifiers: ["LGS072","ELE166"],
     sets: [Release.Promos,Release.TalesOfAria],
     specialImageName: "LGS072.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Action",
 
@@ -59756,7 +59756,7 @@ If Polar Blast is played from arsenal, draw a card.
     setIdentifiers: ["LGS073","OLD015","ELE167"],
     sets: [Release.Promos,Release.OldhimBlitzDeck,Release.TalesOfAria],
     specialImageName: "LGS073.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Action",
 
@@ -59812,7 +59812,7 @@ If Polar Blast is played from arsenal, draw a card.
     setIdentifiers: ["LGS074","ELE168"],
     sets: [Release.Promos,Release.TalesOfAria],
     specialImageName: "LGS074.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Action",
 
@@ -59862,7 +59862,7 @@ If Polar Blast is played from arsenal, draw a card.
     setIdentifiers: ["ELE169"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE169.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Action",
 
@@ -59916,7 +59916,7 @@ If Polar Blast is played from arsenal, draw a card.
     setIdentifiers: ["OLD016","ELE170"],
     sets: [Release.OldhimBlitzDeck,Release.TalesOfAria],
     specialImageName: "ELE170.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Action",
 
@@ -59970,7 +59970,7 @@ If Polar Blast is played from arsenal, draw a card.
     setIdentifiers: ["LXI025","ELE171"],
     sets: [Release.LexiBlitzDeck,Release.TalesOfAria],
     specialImageName: "ELE171.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Action",
 
@@ -60030,7 +60030,7 @@ If Polar Blast is played from arsenal, draw a card.
     setIdentifiers: ["LGS064","OLD018","ELE172"],
     sets: [Release.Promos,Release.OldhimBlitzDeck,Release.TalesOfAria],
     specialImageName: "ELE172.width-450",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Action – Item",
 
@@ -60184,7 +60184,7 @@ If Polar Blast is played from arsenal, draw a card.
     setIdentifiers: ["ELE175"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE175.width-450",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Lightning Action – Aura",
 
@@ -60280,7 +60280,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     setIdentifiers: ["ELE177"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE177.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Lightning Action",
 
@@ -60334,7 +60334,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     setIdentifiers: ["BRI031","ELE178"],
     sets: [Release.BriarBlitzDeck,Release.TalesOfAria],
     specialImageName: "ELE178.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Lightning Action",
 
@@ -60382,7 +60382,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     setIdentifiers: ["ELE179"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE179.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Lightning Action",
 
@@ -60442,7 +60442,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     setIdentifiers: ["LGS075","LXI017","ELE180"],
     sets: [Release.Promos,Release.LexiBlitzDeck,Release.TalesOfAria],
     specialImageName: "LGS075.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Lightning Action",
 
@@ -60496,7 +60496,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     setIdentifiers: ["LGS076","ELE181"],
     sets: [Release.Promos,Release.TalesOfAria],
     specialImageName: "LGS076.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Lightning Action",
 
@@ -60550,7 +60550,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     setIdentifiers: ["LGS077","ELE182"],
     sets: [Release.Promos,Release.TalesOfAria],
     specialImageName: "LGS077.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Lightning Action",
 
@@ -61330,7 +61330,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     setIdentifiers: ["LXI016","ELE198"],
     sets: [Release.LexiBlitzDeck,Release.TalesOfAria],
     specialImageName: "ELE198.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Lightning Action",
 
@@ -61386,7 +61386,7 @@ If Electrify is played from arsenal, draw a card.
     setIdentifiers: ["BRI030","ELE199"],
     sets: [Release.BriarBlitzDeck,Release.TalesOfAria],
     specialImageName: "ELE199.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Lightning Action",
 
@@ -61448,7 +61448,7 @@ If Electrify is played from arsenal, draw a card.
     setIdentifiers: ["FAB048","LXI020","ELE200"],
     sets: [Release.Promos,Release.LexiBlitzDeck,Release.TalesOfAria],
     specialImageName: "ELE200.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Lightning Action",
 
@@ -61510,7 +61510,7 @@ If Electrify is played from arsenal, draw a card.
     setIdentifiers: ["LGS065","LXI021","ELE201"],
     sets: [Release.Promos,Release.LexiBlitzDeck,Release.TalesOfAria],
     specialImageName: "ELE201.width-450",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Lightning Action – Item",
 
@@ -61722,7 +61722,7 @@ If there is a card with cost 3 or greater in your pitch zone, Titan’s Fist has
     setIdentifiers: ["ELE205"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE205.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action",
 
@@ -61776,7 +61776,7 @@ If there is a card with cost 3 or greater in your pitch zone, Titan’s Fist has
     setIdentifiers: ["OLD030","ELE206"],
     sets: [Release.OldhimBlitzDeck,Release.TalesOfAria],
     specialImageName: "ELE206.width-450",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action – Aura",
 
@@ -61826,7 +61826,7 @@ At the beginning of your action phase, destroy Embolden then the next Guardian a
     setIdentifiers: ["ELE207"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE207.width-450",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action – Aura",
 
@@ -61876,7 +61876,7 @@ At the beginning of your action phase, destroy Embolden then the next Guardian a
     setIdentifiers: ["ELE208"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE208.width-450",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action – Aura",
 
@@ -62184,7 +62184,7 @@ If New Horizon is destroyed, destroy all cards in your arsenal.
     setIdentifiers: ["ELE215"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE215.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action",
 
@@ -62388,7 +62388,7 @@ If Bolt’n’ Shot's {p} is greater than its base {p}, it has **go again** and 
     setIdentifiers: ["LXI027","ELE219"],
     sets: [Release.LexiBlitzDeck,Release.TalesOfAria],
     specialImageName: "ELE219.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action",
 
@@ -62438,7 +62438,7 @@ If Bolt’n’ Shot's {p} is greater than its base {p}, it has **go again** and 
     setIdentifiers: ["ELE220"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE220.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action",
 
@@ -62488,7 +62488,7 @@ If Bolt’n’ Shot's {p} is greater than its base {p}, it has **go again** and 
     setIdentifiers: ["ELE221"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE221.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action",
 
@@ -62756,7 +62756,7 @@ At the beginning of your end phase, destroy Spellbound Creepers unless you have 
     setIdentifiers: ["ELE226"],
     sets: [Release.TalesOfAria],
     specialImageName: "ELE226.width-450",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action – Aura",
 
@@ -63404,7 +63404,7 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     setIdentifiers: ["EVR003"],
     sets: [Release.Everfest],
     specialImageName: "EVR003.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Brute Action",
 
@@ -63448,7 +63448,7 @@ If you would roll 1 or more dice this turn, instead roll that many dice plus 1 a
     setIdentifiers: ["EVR004"],
     sets: [Release.Everfest],
     specialImageName: "EVR004.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Brute Action",
 
@@ -63490,7 +63490,7 @@ If you would roll 1 or more dice this turn, instead roll that many dice plus 1 a
     setIdentifiers: ["EVR005"],
     sets: [Release.Everfest],
     specialImageName: "EVR005.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Brute Action",
 
@@ -63534,7 +63534,7 @@ If you have rolled a 4, 5, or 6 on a die this turn, instead **intimidate** twice
     setIdentifiers: ["EVR006"],
     sets: [Release.Everfest],
     specialImageName: "EVR006.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Brute Action",
 
@@ -63578,7 +63578,7 @@ If you have rolled a 5 or 6 on a die this turn, instead **intimidate** twice.
     setIdentifiers: ["EVR007"],
     sets: [Release.Everfest],
     specialImageName: "EVR007.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Brute Action",
 
@@ -63874,7 +63874,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
     setIdentifiers: ["EVR014"],
     sets: [Release.Everfest],
     specialImageName: "EVR014.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Brute Action",
 
@@ -63916,7 +63916,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
     setIdentifiers: ["EVR015"],
     sets: [Release.Everfest],
     specialImageName: "EVR015.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Brute Action",
 
@@ -63958,7 +63958,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
     setIdentifiers: ["EVR016"],
     sets: [Release.Everfest],
     specialImageName: "EVR016.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Brute Action",
 
@@ -64238,7 +64238,7 @@ If Pulverize hits a hero, their first attack during their next turn has -4{p}.`,
     setIdentifiers: ["EVR022"],
     sets: [Release.Everfest],
     specialImageName: "EVR022.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action",
 
@@ -64280,7 +64280,7 @@ If Pulverize hits a hero, their first attack during their next turn has -4{p}.`,
     setIdentifiers: ["EVR023"],
     sets: [Release.Everfest],
     specialImageName: "EVR023.width-450",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action – Aura",
 
@@ -64600,7 +64600,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
     setIdentifiers: ["EVR030"],
     sets: [Release.Everfest],
     specialImageName: "EVR030.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action",
 
@@ -64642,7 +64642,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
     setIdentifiers: ["EVR031"],
     sets: [Release.Everfest],
     specialImageName: "EVR031.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action",
 
@@ -64684,7 +64684,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
     setIdentifiers: ["EVR032"],
     sets: [Release.Everfest],
     specialImageName: "EVR032.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action",
 
@@ -65625,7 +65625,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
     setIdentifiers: ["EVR055"],
     sets: [Release.Everfest],
     specialImageName: "EVR055.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -65671,7 +65671,7 @@ As an additional cost to play Blood on Her Hands, destroy any number of Copper y
     setIdentifiers: ["EVR056"],
     sets: [Release.Everfest],
     specialImageName: "EVR056.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -65721,7 +65721,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
     setIdentifiers: ["EVR057"],
     sets: [Release.Everfest],
     specialImageName: "EVR057-RF",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -65778,7 +65778,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
     setIdentifiers: ["DVR018","EVR058"],
     sets: [Release.ClassicBattlesRhinarDorinthea,Release.Everfest],
     specialImageName: "EVR058-RF",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -65829,7 +65829,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
     setIdentifiers: ["EVR059"],
     sets: [Release.Everfest],
     specialImageName: "EVR059-RF",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -66138,7 +66138,7 @@ Target weapon attack gains +1{p}.`,
     setIdentifiers: ["EVR066"],
     sets: [Release.Everfest],
     specialImageName: "EVR066.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -66182,7 +66182,7 @@ The next time a weapon hits this turn, create a Copper token.
     setIdentifiers: ["EVR067"],
     sets: [Release.Everfest],
     specialImageName: "EVR067.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -66226,7 +66226,7 @@ The next time a weapon hits this turn, create a Copper token.
     setIdentifiers: ["EVR068"],
     sets: [Release.Everfest],
     specialImageName: "EVR068.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -66270,7 +66270,7 @@ The next time a weapon hits this turn, create a Copper token.
     setIdentifiers: ["EVR069"],
     sets: [Release.Everfest],
     specialImageName: "EVR069.width-450",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action – Item",
 
@@ -66314,7 +66314,7 @@ Whenever your hero would be dealt exactly 1 damage, prevent it.`,
     setIdentifiers: ["EVR070"],
     sets: [Release.Everfest],
     specialImageName: "EVR070.width-450",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action – Item",
 
@@ -66362,7 +66362,7 @@ The first time you activate Micro-processor each turn, gain 1 action point.`,
     setIdentifiers: ["EVR071"],
     sets: [Release.Everfest],
     specialImageName: "EVR071.width-450",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action – Item",
 
@@ -66406,7 +66406,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     setIdentifiers: ["EVR072"],
     sets: [Release.Everfest],
     specialImageName: "EVR072.width-450",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action – Item",
 
@@ -66820,7 +66820,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     setIdentifiers: ["EVR082"],
     sets: [Release.Everfest],
     specialImageName: "EVR082.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action",
 
@@ -66864,7 +66864,7 @@ If you have **boosted** this turn, put Rotary Ram on the bottom of your deck.
     setIdentifiers: ["EVR083"],
     sets: [Release.Everfest],
     specialImageName: "EVR083.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action",
 
@@ -66908,7 +66908,7 @@ If you have **boosted** this turn, put Rotary Ram on the bottom of your deck.
     setIdentifiers: ["EVR084"],
     sets: [Release.Everfest],
     specialImageName: "EVR084.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action",
 
@@ -67130,7 +67130,7 @@ If Battering Bolt hits a hero, they reveal their hand and discard all cards othe
     setIdentifiers: ["EVR089"],
     sets: [Release.Everfest],
     specialImageName: "EVR089.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action",
 
@@ -67218,7 +67218,7 @@ If Battering Bolt hits a hero, they reveal their hand and discard all cards othe
     setIdentifiers: ["LGS096","EVR091"],
     sets: [Release.Promos,Release.Everfest],
     specialImageName: "LGS096.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action",
 
@@ -67266,7 +67266,7 @@ If Battering Bolt hits a hero, they reveal their hand and discard all cards othe
     setIdentifiers: ["LGS097","EVR092"],
     sets: [Release.Promos,Release.Everfest],
     specialImageName: "LGS097.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action",
 
@@ -67314,7 +67314,7 @@ If Battering Bolt hits a hero, they reveal their hand and discard all cards othe
     setIdentifiers: ["LGS098","EVR093"],
     sets: [Release.Promos,Release.Everfest],
     specialImageName: "LGS098.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action",
 
@@ -67608,7 +67608,7 @@ When Timidity Point hits a hero, attacks they control lose and can't gain **domi
     setIdentifiers: ["EVR100"],
     sets: [Release.Everfest],
     specialImageName: "EVR100.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action",
 
@@ -67652,7 +67652,7 @@ When Timidity Point hits a hero, attacks they control lose and can't gain **domi
     setIdentifiers: ["EVR101"],
     sets: [Release.Everfest],
     specialImageName: "EVR101.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action",
 
@@ -67696,7 +67696,7 @@ When Timidity Point hits a hero, attacks they control lose and can't gain **domi
     setIdentifiers: ["EVR102"],
     sets: [Release.Everfest],
     specialImageName: "EVR102.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action",
 
@@ -67862,7 +67862,7 @@ When Timidity Point hits a hero, attacks they control lose and can't gain **domi
     setIdentifiers: ["EVR106"],
     sets: [Release.Everfest],
     specialImageName: "EVR106.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action",
 
@@ -67912,7 +67912,7 @@ At the beginning of your end phase, destroy all Runechants you control.
     setIdentifiers: ["EVR107"],
     sets: [Release.Everfest],
     specialImageName: "EVR107.width-450",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action – Aura",
 
@@ -67962,7 +67962,7 @@ At the beginning of your action phase, remove a verse counter from Runeblood Inc
     setIdentifiers: ["EVR108"],
     sets: [Release.Everfest],
     specialImageName: "EVR108.width-450",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action – Aura",
 
@@ -68012,7 +68012,7 @@ At the beginning of your action phase, remove a verse counter from Runeblood Inc
     setIdentifiers: ["EVR109"],
     sets: [Release.Everfest],
     specialImageName: "EVR109.width-450",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action – Aura",
 
@@ -68576,7 +68576,7 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
     setIdentifiers: ["EVR123"],
     sets: [Release.Everfest],
     specialImageName: "EVR123-RF",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -68618,7 +68618,7 @@ If Aether Wildfire is played during an opponents turn, until end of turn, action
     setIdentifiers: ["EVR124"],
     sets: [Release.Everfest],
     specialImageName: "EVR124.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -68664,7 +68664,7 @@ If Aether Wildfire is played during an opponents turn, until end of turn, action
     setIdentifiers: ["LGS090","EVR125"],
     sets: [Release.Promos,Release.Everfest],
     specialImageName: "LGS090.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -68710,7 +68710,7 @@ If Aether Wildfire is played during an opponents turn, until end of turn, action
     setIdentifiers: ["LGS091","EVR126"],
     sets: [Release.Promos,Release.Everfest],
     specialImageName: "LGS091.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -68756,7 +68756,7 @@ If Aether Wildfire is played during an opponents turn, until end of turn, action
     setIdentifiers: ["LGS092","EVR127"],
     sets: [Release.Promos,Release.Everfest],
     specialImageName: "LGS092.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -68796,7 +68796,7 @@ If Aether Wildfire is played during an opponents turn, until end of turn, action
     setIdentifiers: ["EVR128"],
     sets: [Release.Everfest],
     specialImageName: "EVR128.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -68838,7 +68838,7 @@ You may choose a card revealed this way. If you do, that hero puts it on the bot
     setIdentifiers: ["EVR129"],
     sets: [Release.Everfest],
     specialImageName: "EVR129.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -68880,7 +68880,7 @@ You may choose a card revealed this way. If you do, that hero puts it on the bot
     setIdentifiers: ["EVR130"],
     sets: [Release.Everfest],
     specialImageName: "EVR130.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -68922,7 +68922,7 @@ You may choose a card revealed this way. If you do, that hero puts it on the bot
     setIdentifiers: ["EVR131"],
     sets: [Release.Everfest],
     specialImageName: "EVR131.width-450",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action – Aura",
 
@@ -68964,7 +68964,7 @@ At the beginning of your action phase, destroy Pyroglyphic Protection.`,
     setIdentifiers: ["EVR132"],
     sets: [Release.Everfest],
     specialImageName: "EVR132.width-450",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action – Aura",
 
@@ -69006,7 +69006,7 @@ At the beginning of your action phase, destroy Pyroglyphic Protection.`,
     setIdentifiers: ["EVR133"],
     sets: [Release.Everfest],
     specialImageName: "EVR133.width-450",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action – Aura",
 
@@ -69048,7 +69048,7 @@ At the beginning of your action phase, destroy Pyroglyphic Protection.`,
     setIdentifiers: ["EVR134"],
     sets: [Release.Everfest],
     specialImageName: "MON134_Timekeepers_Whim.width-10000",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -69090,7 +69090,7 @@ If Timekeeper's Whim is played during an opponent's turn, put it on the bottom o
     setIdentifiers: ["EVR135"],
     sets: [Release.Everfest],
     specialImageName: "MON135_Timekeepers_Whim.width-10000",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -69132,7 +69132,7 @@ If Timekeeper's Whim is played during an opponent's turn, put it on the bottom o
     setIdentifiers: ["EVR136"],
     sets: [Release.Everfest],
     specialImageName: "MON136_Timekeepers_Whim.width-10000",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -69302,7 +69302,7 @@ When Miraging Metamorph is destroyed, create a token that's a copy of an aura yo
     setIdentifiers: ["EVR140"],
     sets: [Release.Everfest],
     specialImageName: "EVR140.width-450",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Illusionist Action – Aura",
 
@@ -69350,7 +69350,7 @@ When Miraging Metamorph is destroyed, create a token that's a copy of an aura yo
     setIdentifiers: ["LGS093","EVR141"],
     sets: [Release.Promos,Release.Everfest],
     specialImageName: "EVR141.width-450",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Illusionist Action – Aura",
 
@@ -69398,7 +69398,7 @@ When Miraging Metamorph is destroyed, create a token that's a copy of an aura yo
     setIdentifiers: ["LGS094","EVR142"],
     sets: [Release.Promos,Release.Everfest],
     specialImageName: "EVR142.width-450",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Illusionist Action – Aura",
 
@@ -69446,7 +69446,7 @@ When Miraging Metamorph is destroyed, create a token that's a copy of an aura yo
     setIdentifiers: ["LGS095","EVR143"],
     sets: [Release.Promos,Release.Everfest],
     specialImageName: "EVR143.width-450",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Illusionist Action – Aura",
 
@@ -69740,7 +69740,7 @@ When Phantasmal Haze is destroyed, create a Spectral Shield token.`,
     setIdentifiers: ["EVR150"],
     sets: [Release.Everfest],
     specialImageName: "EVR150.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Illusionist Action",
 
@@ -69782,7 +69782,7 @@ The next attack action card you play this turn is Illusionist in addition to its
     setIdentifiers: ["EVR151"],
     sets: [Release.Everfest],
     specialImageName: "EVR151.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Illusionist Action",
 
@@ -69824,7 +69824,7 @@ The next attack action card you play this turn is Illusionist in addition to its
     setIdentifiers: ["EVR152"],
     sets: [Release.Everfest],
     specialImageName: "EVR152.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Illusionist Action",
 
@@ -69986,7 +69986,7 @@ The next attack action card you play this turn is Illusionist in addition to its
     setIdentifiers: ["EVR158"],
     sets: [Release.Everfest],
     specialImageName: "EVR158.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -70036,7 +70036,7 @@ Create a Silver token for each permanent destroyed this way.
     setIdentifiers: ["EVR159"],
     sets: [Release.Everfest],
     specialImageName: "EVR159-RF",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -70078,7 +70078,7 @@ Search your deck for a card with Amulet, Potion, or Talisman in its name, put it
     setIdentifiers: ["EVR160"],
     sets: [Release.Everfest],
     specialImageName: "EVR160.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -70278,7 +70278,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
     setIdentifiers: ["EVR164"],
     sets: [Release.Everfest],
     specialImageName: "EVR164-RF",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -70326,7 +70326,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
     setIdentifiers: ["EVR165"],
     sets: [Release.Everfest],
     specialImageName: "EVR165-RF",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -70374,7 +70374,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
     setIdentifiers: ["EVR166"],
     sets: [Release.Everfest],
     specialImageName: "EVR166-RF",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -70422,7 +70422,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
     setIdentifiers: ["EVR167"],
     sets: [Release.Everfest],
     specialImageName: "EVR167-RF",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -70472,7 +70472,7 @@ Choose a random card from their hand and reveal it. If it's the named card, crea
     setIdentifiers: ["EVR168"],
     sets: [Release.Everfest],
     specialImageName: "EVR168-RF",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -70522,7 +70522,7 @@ Choose a random card from their hand and reveal it. If it's the named card, crea
     setIdentifiers: ["EVR169"],
     sets: [Release.Everfest],
     specialImageName: "EVR169-RF",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -70566,7 +70566,7 @@ Choose a random card from their hand and reveal it. If it's the named card, crea
     setIdentifiers: ["EVR170"],
     sets: [Release.Everfest],
     specialImageName: "EVR170.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -70610,7 +70610,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     setIdentifiers: ["EVR171"],
     sets: [Release.Everfest],
     specialImageName: "EVR171.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -70654,7 +70654,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     setIdentifiers: ["EVR172"],
     sets: [Release.Everfest],
     specialImageName: "EVR172.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -70842,7 +70842,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     setIdentifiers: ["EVR176"],
     sets: [Release.Everfest],
     specialImageName: "EVR176.width-450",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Item",
 
@@ -70884,7 +70884,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     setIdentifiers: ["EVR177"],
     sets: [Release.Everfest],
     specialImageName: "EVR177.width-450",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Item",
 
@@ -70926,7 +70926,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     setIdentifiers: ["EVR178"],
     sets: [Release.Everfest],
     specialImageName: "EVR178.width-450",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Item",
 
@@ -70968,7 +70968,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     setIdentifiers: ["EVR179"],
     sets: [Release.Everfest],
     specialImageName: "EVR179.width-450",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Item",
 
@@ -71010,7 +71010,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     setIdentifiers: ["EVR180"],
     sets: [Release.Everfest],
     specialImageName: "EVR180.width-450",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Item",
 
@@ -71052,7 +71052,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     setIdentifiers: ["EVR181"],
     sets: [Release.Everfest],
     specialImageName: "EVR181.width-450",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Item",
 
@@ -71094,7 +71094,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     setIdentifiers: ["EVR182"],
     sets: [Release.Everfest],
     specialImageName: "EVR182.width-450",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Item",
 
@@ -71134,7 +71134,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     setIdentifiers: ["EVR183"],
     sets: [Release.Everfest],
     specialImageName: "EVR183.width-450",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Item",
 
@@ -71174,7 +71174,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     setIdentifiers: ["EVR184"],
     sets: [Release.Everfest],
     specialImageName: "EVR184.width-450",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Item",
 
@@ -71214,7 +71214,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     setIdentifiers: ["EVR185"],
     sets: [Release.Everfest],
     specialImageName: "EVR185.width-450",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Item",
 
@@ -71254,7 +71254,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     setIdentifiers: ["EVR186"],
     sets: [Release.Everfest],
     specialImageName: "EVR186.width-450",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Item",
 
@@ -71294,7 +71294,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     setIdentifiers: ["EVR187"],
     sets: [Release.Everfest],
     specialImageName: "EVR187.width-450",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Item",
 
@@ -71334,7 +71334,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     setIdentifiers: ["EVR188"],
     sets: [Release.Everfest],
     specialImageName: "EVR188.width-450",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Item",
 
@@ -71376,7 +71376,7 @@ At the beginning of your end phase, if you have less cards in arsenal than an op
     setIdentifiers: ["EVR189"],
     sets: [Release.Everfest],
     specialImageName: "EVR189.width-450",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Item",
 
@@ -71418,7 +71418,7 @@ When you play a card from your banished zone, destroy Talisman of Cremation and 
     setIdentifiers: ["EVR190"],
     sets: [Release.Everfest],
     specialImageName: "EVR190.width-450",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Item",
 
@@ -71460,7 +71460,7 @@ When an attack you control gains exactly +1{p} from an effect during the reactio
     setIdentifiers: ["EVR191"],
     sets: [Release.Everfest],
     specialImageName: "EVR191.width-450",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Item",
 
@@ -71502,7 +71502,7 @@ Whenever you pitch a card, if you would gain exactly one {r}, instead destroy Ta
     setIdentifiers: ["EVR192"],
     sets: [Release.Everfest],
     specialImageName: "EVR192.width-450",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Item",
 
@@ -71544,7 +71544,7 @@ If an opponent would draw 1 or more cards during your action phase, instead dest
     setIdentifiers: ["EVR193"],
     sets: [Release.Everfest],
     specialImageName: "EVR193.width-450",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Item",
 
@@ -71804,7 +71804,7 @@ While Hala is face up in arsenal, whenever a sword attack you control hits, it g
     setIdentifiers: ["DVR008"],
     sets: [Release.ClassicBattlesRhinarDorinthea],
     specialImageName: "DVR008.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -71850,7 +71850,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
     setIdentifiers: ["DVR009"],
     sets: [Release.ClassicBattlesRhinarDorinthea],
     specialImageName: "DVR009.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -71974,7 +71974,7 @@ Your next sword attack this turn gains +2{p}.`,
     setIdentifiers: ["DVR019"],
     sets: [Release.ClassicBattlesRhinarDorinthea],
     specialImageName: "DVR019.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -72016,7 +72016,7 @@ Your next sword attack this turn gains +2{p}.`,
     setIdentifiers: ["DVR022"],
     sets: [Release.ClassicBattlesRhinarDorinthea],
     specialImageName: "DVR022.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -72470,7 +72470,7 @@ While Ruk’utan is face up in arsenal, whenever you play a card with 6 or more 
     setIdentifiers: ["RVD025"],
     sets: [Release.ClassicBattlesRhinarDorinthea],
     specialImageName: "RVD025.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Brute Action",
 
@@ -72810,7 +72810,7 @@ If you’ve played a red card this turn, dragons you control have **go again** w
     setIdentifiers: ["UPR005"],
     sets: [Release.Uprising],
     specialImageName: "UPR005",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Draconic Illusionist Action – Aura",
 
@@ -72860,7 +72860,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     setIdentifiers: ["UPR006"],
     sets: [Release.Uprising],
     specialImageName: "UPR006_B_Front",
-    subtypes: [Subtype.Invocation],
+    subtypes: [Subtype.Invocation,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Draconic Illusionist Action – Invocation",
 
@@ -72955,7 +72955,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     setIdentifiers: ["UPR007"],
     sets: [Release.Uprising],
     specialImageName: "UPR007_B_Front",
-    subtypes: [Subtype.Invocation],
+    subtypes: [Subtype.Invocation,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Draconic Illusionist Action – Invocation",
 
@@ -73049,7 +73049,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     setIdentifiers: ["UPR008"],
     sets: [Release.Uprising],
     specialImageName: "UPR008_B_Front",
-    subtypes: [Subtype.Invocation],
+    subtypes: [Subtype.Invocation,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Draconic Illusionist Action – Invocation",
 
@@ -73143,7 +73143,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     setIdentifiers: ["UPR009"],
     sets: [Release.Uprising],
     specialImageName: "UPR009_B_Front",
-    subtypes: [Subtype.Invocation],
+    subtypes: [Subtype.Invocation,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Draconic Illusionist Action – Invocation",
 
@@ -73237,7 +73237,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     setIdentifiers: ["UPR010"],
     sets: [Release.Uprising],
     specialImageName: "UPR010_B_Front",
-    subtypes: [Subtype.Invocation],
+    subtypes: [Subtype.Invocation,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Draconic Illusionist Action – Invocation",
 
@@ -73331,7 +73331,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     setIdentifiers: ["UPR011"],
     sets: [Release.Uprising],
     specialImageName: "UPR011_B_Front",
-    subtypes: [Subtype.Invocation],
+    subtypes: [Subtype.Invocation,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Draconic Illusionist Action – Invocation",
 
@@ -73425,7 +73425,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     setIdentifiers: ["UPR012"],
     sets: [Release.Uprising],
     specialImageName: "UPR012_B_Front",
-    subtypes: [Subtype.Invocation],
+    subtypes: [Subtype.Invocation,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Draconic Illusionist Action – Invocation",
 
@@ -73519,7 +73519,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     setIdentifiers: ["UPR013"],
     sets: [Release.Uprising],
     specialImageName: "UPR013_B_Front",
-    subtypes: [Subtype.Invocation],
+    subtypes: [Subtype.Invocation,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Draconic Illusionist Action – Invocation",
 
@@ -73611,7 +73611,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     setIdentifiers: ["UPR014"],
     sets: [Release.Uprising],
     specialImageName: "UPR014_B_Front",
-    subtypes: [Subtype.Invocation],
+    subtypes: [Subtype.Invocation,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Draconic Illusionist Action – Invocation",
 
@@ -73705,7 +73705,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     setIdentifiers: ["UPR015"],
     sets: [Release.Uprising],
     specialImageName: "UPR015_B_Front",
-    subtypes: [Subtype.Invocation],
+    subtypes: [Subtype.Invocation,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Draconic Illusionist Action – Invocation",
 
@@ -73799,7 +73799,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     setIdentifiers: ["UPR016"],
     sets: [Release.Uprising],
     specialImageName: "UPR016_B_Front",
-    subtypes: [Subtype.Invocation],
+    subtypes: [Subtype.Invocation,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Draconic Illusionist Action – Invocation",
 
@@ -73893,7 +73893,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     setIdentifiers: ["UPR017"],
     sets: [Release.Uprising],
     specialImageName: "UPR017_B_Front",
-    subtypes: [Subtype.Invocation],
+    subtypes: [Subtype.Invocation,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Draconic Illusionist Action – Invocation",
 
@@ -74655,7 +74655,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
     setIdentifiers: ["DRO011","UPR033"],
     sets: [Release.DromaiBlitzDeck,Release.Uprising],
     specialImageName: "DRO011.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Draconic Illusionist Action",
 
@@ -74697,7 +74697,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
     setIdentifiers: ["UPR034"],
     sets: [Release.Uprising],
     specialImageName: "UPR034",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Draconic Illusionist Action",
 
@@ -74739,7 +74739,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
     setIdentifiers: ["UPR035"],
     sets: [Release.Uprising],
     specialImageName: "UPR035",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Draconic Illusionist Action",
 
@@ -74787,7 +74787,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
     setIdentifiers: ["DRO013","UPR036"],
     sets: [Release.DromaiBlitzDeck,Release.Uprising],
     specialImageName: "DRO013.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Draconic Illusionist Action",
 
@@ -74829,7 +74829,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
     setIdentifiers: ["UPR037"],
     sets: [Release.Uprising],
     specialImageName: "UPR037",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Draconic Illusionist Action",
 
@@ -74871,7 +74871,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
     setIdentifiers: ["UPR038"],
     sets: [Release.Uprising],
     specialImageName: "UPR038",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Draconic Illusionist Action",
 
@@ -75729,7 +75729,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
     setIdentifiers: ["FAI009","UPR057"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
     specialImageName: "UPR057",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Draconic Ninja Action",
 
@@ -75773,7 +75773,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     setIdentifiers: ["UPR058"],
     sets: [Release.Uprising],
     specialImageName: "UPR058",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Draconic Ninja Action",
 
@@ -75817,7 +75817,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     setIdentifiers: ["UPR059"],
     sets: [Release.Uprising],
     specialImageName: "UPR059",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Draconic Ninja Action",
 
@@ -77011,7 +77011,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     setIdentifiers: ["UPR088"],
     sets: [Release.Uprising],
     specialImageName: "UPR088",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Draconic Action",
 
@@ -77711,7 +77711,7 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
     setIdentifiers: ["UPR104"],
     sets: [Release.Uprising],
     specialImageName: "UPR104",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Wizard Action",
 
@@ -77753,7 +77753,7 @@ Deal 3 arcane damage to any target. If Encase was **fused** and deals damage to 
     setIdentifiers: ["UPR105"],
     sets: [Release.Uprising],
     specialImageName: "UPR105",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Wizard Action",
 
@@ -77927,7 +77927,7 @@ If Sigil of Permafrost was **fused**, the next time you deal arcane damage to a 
     setIdentifiers: ["LGS110","UPR109"],
     sets: [Release.Promos,Release.Uprising],
     specialImageName: "LGS110.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Wizard Action",
 
@@ -77971,7 +77971,7 @@ Create X Frostbite tokens under target hero’s control. Then, if Ice Eternal wa
     setIdentifiers: ["UPR110"],
     sets: [Release.Uprising],
     specialImageName: "UPR110",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Wizard Action",
 
@@ -78013,7 +78013,7 @@ Deal 5 arcane damage to any target. If Succumb to Winter was **fused** and targe
     setIdentifiers: ["UPR111"],
     sets: [Release.Uprising],
     specialImageName: "UPR111",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Wizard Action",
 
@@ -78055,7 +78055,7 @@ Deal 4 arcane damage to any target. If Succumb to Winter was **fused** and targe
     setIdentifiers: ["UPR112"],
     sets: [Release.Uprising],
     specialImageName: "UPR112",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Wizard Action",
 
@@ -78097,7 +78097,7 @@ Deal 3 arcane damage to any target. If Succumb to Winter was **fused** and targe
     setIdentifiers: ["UPR113"],
     sets: [Release.Uprising],
     specialImageName: "UPR113",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Wizard Action",
 
@@ -78139,7 +78139,7 @@ Deal 5 arcane damage to any target. If Aether Icevein was **fused** and deals da
     setIdentifiers: ["UPR114"],
     sets: [Release.Uprising],
     specialImageName: "UPR114",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Wizard Action",
 
@@ -78181,7 +78181,7 @@ Deal 4 arcane damage to any target. If Aether Icevein was **fused** and deals da
     setIdentifiers: ["UPR115"],
     sets: [Release.Uprising],
     specialImageName: "UPR115",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Wizard Action",
 
@@ -78223,7 +78223,7 @@ Deal 3 arcane damage to any target. If Aether Icevein was **fused** and deals da
     setIdentifiers: ["UPR116"],
     sets: [Release.Uprising],
     specialImageName: "UPR116",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Wizard Action",
 
@@ -78265,7 +78265,7 @@ Target opponent reveals their hand. If Brain Freeze was **fused**, put an action
     setIdentifiers: ["UPR117"],
     sets: [Release.Uprising],
     specialImageName: "UPR117",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Wizard Action",
 
@@ -78307,7 +78307,7 @@ Target opponent reveals their hand. If Brain Freeze was **fused**, put an action
     setIdentifiers: ["UPR118"],
     sets: [Release.Uprising],
     specialImageName: "UPR118",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Wizard Action",
 
@@ -78349,7 +78349,7 @@ Target opponent reveals their hand. If Brain Freeze was **fused**, put an action
     setIdentifiers: ["UPR119"],
     sets: [Release.Uprising],
     specialImageName: "UPR119",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Wizard Action",
 
@@ -78391,7 +78391,7 @@ Deal 3 arcane damage to any target. If Icebind was **fused** and deals damage to
     setIdentifiers: ["UPR120"],
     sets: [Release.Uprising],
     specialImageName: "UPR120",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Wizard Action",
 
@@ -78433,7 +78433,7 @@ Deal 2 arcane damage to any target. If Icebind was **fused** and deals damage to
     setIdentifiers: ["UPR121"],
     sets: [Release.Uprising],
     specialImageName: "UPR121",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Wizard Action",
 
@@ -78475,7 +78475,7 @@ Deal 1 arcane damage to any target. If Icebind was **fused** and deals damage to
     setIdentifiers: ["UPR122"],
     sets: [Release.Uprising],
     specialImageName: "UPR122",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Wizard Action",
 
@@ -78517,7 +78517,7 @@ Deal 4 arcane damage to any target. If Polar Cap was **fused** and deals damage 
     setIdentifiers: ["UPR123"],
     sets: [Release.Uprising],
     specialImageName: "UPR123",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Wizard Action",
 
@@ -78559,7 +78559,7 @@ Deal 3 arcane damage to any target. If Polar Cap was **fused** and deals damage 
     setIdentifiers: ["UPR124"],
     sets: [Release.Uprising],
     specialImageName: "UPR124",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Wizard Action",
 
@@ -78649,7 +78649,7 @@ Deal 2 arcane damage to any target. If Polar Cap was **fused** and deals damage 
     setIdentifiers: ["UPR126"],
     sets: [Release.Uprising],
     specialImageName: "UPR126",
-    subtypes: [Subtype.Aura,Subtype.Affliction],
+    subtypes: [Subtype.Aura,Subtype.Affliction,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Wizard Action – Affliction Aura",
 
@@ -78693,7 +78693,7 @@ Frostbites you control have “At the beginning of your end phase, this deals 1 
     setIdentifiers: ["UPR127"],
     sets: [Release.Uprising],
     specialImageName: "UPR127",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Wizard Action",
 
@@ -78733,7 +78733,7 @@ Frostbites you control have “At the beginning of your end phase, this deals 1 
     setIdentifiers: ["UPR128"],
     sets: [Release.Uprising],
     specialImageName: "UPR128",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Wizard Action",
 
@@ -78773,7 +78773,7 @@ Frostbites you control have “At the beginning of your end phase, this deals 1 
     setIdentifiers: ["UPR129"],
     sets: [Release.Uprising],
     specialImageName: "UPR129",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Wizard Action",
 
@@ -78813,7 +78813,7 @@ Frostbites you control have “At the beginning of your end phase, this deals 1 
     setIdentifiers: ["UPR130"],
     sets: [Release.Uprising],
     specialImageName: "UPR130",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Wizard Action",
 
@@ -78853,7 +78853,7 @@ Frostbites you control have “At the beginning of your end phase, this deals 1 
     setIdentifiers: ["UPR131"],
     sets: [Release.Uprising],
     specialImageName: "UPR131",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Wizard Action",
 
@@ -78893,7 +78893,7 @@ Frostbites you control have “At the beginning of your end phase, this deals 1 
     setIdentifiers: ["UPR132"],
     sets: [Release.Uprising],
     specialImageName: "UPR132",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Wizard Action",
 
@@ -78933,7 +78933,7 @@ Frostbites you control have “At the beginning of your end phase, this deals 1 
     setIdentifiers: ["UPR133"],
     sets: [Release.Uprising],
     specialImageName: "UPR133",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Wizard Action",
 
@@ -78973,7 +78973,7 @@ Frostbites you control have “At the beginning of your end phase, this deals 1 
     setIdentifiers: ["UPR134"],
     sets: [Release.Uprising],
     specialImageName: "UPR134",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Wizard Action",
 
@@ -79013,7 +79013,7 @@ Frostbites you control have “At the beginning of your end phase, this deals 1 
     setIdentifiers: ["UPR135"],
     sets: [Release.Uprising],
     specialImageName: "UPR135",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Wizard Action",
 
@@ -79141,7 +79141,7 @@ Frostbites you control have “At the beginning of your end phase, this deals 1 
     setIdentifiers: ["UPR138"],
     sets: [Release.Uprising],
     specialImageName: "UPR138",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Action – Aura",
 
@@ -79185,7 +79185,7 @@ Heroes can’t reveal cards, search decks, or draw cards from effects.
     setIdentifiers: ["UPR139"],
     sets: [Release.Uprising],
     specialImageName: "UPR139",
-    subtypes: [Subtype.Aura,Subtype.Affliction],
+    subtypes: [Subtype.Aura,Subtype.Affliction,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Action – Affliction Aura",
 
@@ -79229,7 +79229,7 @@ At the beginning of your end phase, destroy Hypothermia.`,
     setIdentifiers: ["UPR140"],
     sets: [Release.Uprising],
     specialImageName: "UPR140",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Action – Aura",
 
@@ -79271,7 +79271,7 @@ Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you d
     setIdentifiers: ["UPR141"],
     sets: [Release.Uprising],
     specialImageName: "UPR141",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Action",
 
@@ -79313,7 +79313,7 @@ Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you d
     setIdentifiers: ["UPR142"],
     sets: [Release.Uprising],
     specialImageName: "UPR142",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Action",
 
@@ -79355,7 +79355,7 @@ Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you d
     setIdentifiers: ["UPR143"],
     sets: [Release.Uprising],
     specialImageName: "UPR143",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Action",
 
@@ -79397,7 +79397,7 @@ Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you d
     setIdentifiers: ["UPR144"],
     sets: [Release.Uprising],
     specialImageName: "UPR144",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Action",
 
@@ -79437,7 +79437,7 @@ Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you d
     setIdentifiers: ["UPR145"],
     sets: [Release.Uprising],
     specialImageName: "UPR145",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Action",
 
@@ -79477,7 +79477,7 @@ Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you d
     setIdentifiers: ["UPR146"],
     sets: [Release.Uprising],
     specialImageName: "UPR146",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Action",
 
@@ -79517,7 +79517,7 @@ Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you d
     setIdentifiers: ["UPR147"],
     sets: [Release.Uprising],
     specialImageName: "UPR147",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Action",
 
@@ -79561,7 +79561,7 @@ If Cold Snap is played from arsenal, draw a card.
     setIdentifiers: ["UPR148"],
     sets: [Release.Uprising],
     specialImageName: "UPR148",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Action",
 
@@ -79605,7 +79605,7 @@ If Cold Snap is played from arsenal, draw a card.
     setIdentifiers: ["UPR149"],
     sets: [Release.Uprising],
     specialImageName: "UPR149",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Action",
 
@@ -79821,7 +79821,7 @@ If Cold Snap is played from arsenal, draw a card.
     setIdentifiers: ["UPR155"],
     sets: [Release.Uprising],
     specialImageName: "UPR155",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Illusionist Action",
 
@@ -79863,7 +79863,7 @@ If Cold Snap is played from arsenal, draw a card.
     setIdentifiers: ["UPR156"],
     sets: [Release.Uprising],
     specialImageName: "UPR156",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Illusionist Action",
 
@@ -79905,7 +79905,7 @@ If Cold Snap is played from arsenal, draw a card.
     setIdentifiers: ["UPR157"],
     sets: [Release.Uprising],
     specialImageName: "UPR157",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Illusionist Action",
 
@@ -80377,7 +80377,7 @@ If Cold Snap is played from arsenal, draw a card.
     setIdentifiers: ["UPR168"],
     sets: [Release.Uprising],
     specialImageName: "UPR168",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -80463,7 +80463,7 @@ If Cold Snap is played from arsenal, draw a card.
     setIdentifiers: ["UPR170"],
     sets: [Release.Uprising],
     specialImageName: "UPR170",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -80505,7 +80505,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     setIdentifiers: ["UPR171"],
     sets: [Release.Uprising],
     specialImageName: "UPR171",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -80547,7 +80547,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     setIdentifiers: ["UPR172"],
     sets: [Release.Uprising],
     specialImageName: "UPR172",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -80589,7 +80589,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     setIdentifiers: ["UPR173"],
     sets: [Release.Uprising],
     specialImageName: "UPR173",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -80629,7 +80629,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     setIdentifiers: ["UPR174"],
     sets: [Release.Uprising],
     specialImageName: "UPR174",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -80669,7 +80669,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     setIdentifiers: ["UPR175"],
     sets: [Release.Uprising],
     specialImageName: "UPR175",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -80709,7 +80709,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     setIdentifiers: ["UPR176"],
     sets: [Release.Uprising],
     specialImageName: "UPR176",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action – Aura",
 
@@ -80749,7 +80749,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     setIdentifiers: ["UPR177"],
     sets: [Release.Uprising],
     specialImageName: "UPR177",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action – Aura",
 
@@ -80795,7 +80795,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     setIdentifiers: ["FAB092","UPR178"],
     sets: [Release.Promos,Release.Uprising],
     specialImageName: "FAB092.width-450",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action – Aura",
 
@@ -80835,7 +80835,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     setIdentifiers: ["UPR179"],
     sets: [Release.Uprising],
     specialImageName: "UPR179",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -80875,7 +80875,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     setIdentifiers: ["UPR180"],
     sets: [Release.Uprising],
     specialImageName: "UPR180",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -80915,7 +80915,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     setIdentifiers: ["UPR181"],
     sets: [Release.Uprising],
     specialImageName: "UPR181",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -81297,7 +81297,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     setIdentifiers: ["UPR190"],
     sets: [Release.Uprising],
     specialImageName: "UPR190",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Aura",
 
@@ -81579,7 +81579,7 @@ At the beginning of your action phase, destroy Fog Down.`,
     setIdentifiers: ["UPR197"],
     sets: [Release.Uprising],
     specialImageName: "UPR197",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -81621,7 +81621,7 @@ At the beginning of your action phase, destroy Fog Down.`,
     setIdentifiers: ["UPR198"],
     sets: [Release.Uprising],
     specialImageName: "UPR198",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -81663,7 +81663,7 @@ At the beginning of your action phase, destroy Fog Down.`,
     setIdentifiers: ["UPR199"],
     sets: [Release.Uprising],
     specialImageName: "UPR199",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -81705,7 +81705,7 @@ At the beginning of your action phase, destroy Fog Down.`,
     setIdentifiers: ["UPR200"],
     sets: [Release.Uprising],
     specialImageName: "UPR200",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -81747,7 +81747,7 @@ At the beginning of your action phase, destroy Fog Down.`,
     setIdentifiers: ["UPR201"],
     sets: [Release.Uprising],
     specialImageName: "UPR201",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -81789,7 +81789,7 @@ At the beginning of your action phase, destroy Fog Down.`,
     setIdentifiers: ["UPR202"],
     sets: [Release.Uprising],
     specialImageName: "UPR202",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -82215,7 +82215,7 @@ If Trade In is played from arsenal, it gains **go again**.`,
     setIdentifiers: ["DRO025","UPR215"],
     sets: [Release.DromaiBlitzDeck,Release.Uprising],
     specialImageName: "DRO025.width-450",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -82255,7 +82255,7 @@ If Trade In is played from arsenal, it gains **go again**.`,
     setIdentifiers: ["UPR216"],
     sets: [Release.Uprising],
     specialImageName: "UPR216",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -82295,7 +82295,7 @@ If Trade In is played from arsenal, it gains **go again**.`,
     setIdentifiers: ["UPR217"],
     sets: [Release.Uprising],
     specialImageName: "UPR217",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
 
@@ -82335,7 +82335,7 @@ If Trade In is played from arsenal, it gains **go again**.`,
     setIdentifiers: ["UPR218"],
     sets: [Release.Uprising],
     specialImageName: "UPR218",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Aura",
 
@@ -82377,7 +82377,7 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
     setIdentifiers: ["UPR219"],
     sets: [Release.Uprising],
     specialImageName: "UPR219",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Aura",
 
@@ -82419,7 +82419,7 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
     setIdentifiers: ["UPR220"],
     sets: [Release.Uprising],
     specialImageName: "UPR220",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Aura",
 
@@ -82693,7 +82693,7 @@ You may put this in your deck in place of an invocation you own. Mark the box ne
     setIdentifiers: ["DYN002"],
     sets: [Release.Dynasty],
     specialImageName: "DYN002",
-    subtypes: [Subtype.Ash],
+    subtypes: [Subtype.Ash,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Draconic Illusionist Action – Ash",
 
@@ -82733,7 +82733,7 @@ You may put this in your deck in place of an invocation you own. Mark the box ne
     setIdentifiers: ["DYN003"],
     sets: [Release.Dynasty],
     specialImageName: "DYN003",
-    subtypes: [Subtype.Ash],
+    subtypes: [Subtype.Ash,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Draconic Illusionist Action – Ash",
 
@@ -82773,7 +82773,7 @@ You may put this in your deck in place of an invocation you own. Mark the box ne
     setIdentifiers: ["DYN004"],
     sets: [Release.Dynasty],
     specialImageName: "DYN004",
-    subtypes: [Subtype.Ash],
+    subtypes: [Subtype.Ash,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Draconic Illusionist Action – Ash",
 
@@ -82989,7 +82989,7 @@ If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
     setIdentifiers: ["DYN009"],
     sets: [Release.Dynasty],
     specialImageName: "DYN009",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Brute Action",
 
@@ -83151,7 +83151,7 @@ If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
     setIdentifiers: ["DYN013"],
     sets: [Release.Dynasty],
     specialImageName: "DYN013",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Brute Action – Aura",
 
@@ -83191,7 +83191,7 @@ If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
     setIdentifiers: ["DYN014"],
     sets: [Release.Dynasty],
     specialImageName: "DYN014",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Brute Action – Aura",
 
@@ -83231,7 +83231,7 @@ If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
     setIdentifiers: ["DYN015"],
     sets: [Release.Dynasty],
     specialImageName: "DYN015",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Brute Action – Aura",
 
@@ -83523,7 +83523,7 @@ If the discarded card has 6 or more {p}, Madcap Muscle has +3{p}.`,
     setIdentifiers: ["DYN022"],
     sets: [Release.Dynasty],
     specialImageName: "DYN022",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Brute Action",
 
@@ -83567,7 +83567,7 @@ Your next Brute attack this turn gains +4{p}.
     setIdentifiers: ["DYN023"],
     sets: [Release.Dynasty],
     specialImageName: "DYN023",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Brute Action",
 
@@ -83611,7 +83611,7 @@ Your next Brute attack this turn gains +3{p}.
     setIdentifiers: ["DYN024"],
     sets: [Release.Dynasty],
     specialImageName: "DYN024",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Brute Action",
 
@@ -83657,7 +83657,7 @@ Your next Brute attack this turn gains +2{p}.
       
     },],
     name: "Yoji, Royal Protector",
-    rarity: Rarity.Promo,
+    rarity: Rarity.Majestic,
     setIdentifiers: ["HER075","DYN025"],
     sets: [Release.Promos,Release.Dynasty],
     specialImageName: "dyn_card_Yoji_Royal_Protector.width-10000",
@@ -83787,7 +83787,7 @@ Your next Brute attack this turn gains +2{p}.
     setIdentifiers: ["DYN028"],
     sets: [Release.Dynasty],
     specialImageName: "DYN028",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action",
 
@@ -83829,7 +83829,7 @@ Your next Brute attack this turn gains +2{p}.
     setIdentifiers: ["DYN029"],
     sets: [Release.Dynasty],
     specialImageName: "DYN029",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action – Aura",
 
@@ -83989,7 +83989,7 @@ Your next Brute attack this turn gains +2{p}.
     setIdentifiers: ["DYN033"],
     sets: [Release.Dynasty],
     specialImageName: "DYN033",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action – Aura",
 
@@ -84029,7 +84029,7 @@ Your next Brute attack this turn gains +2{p}.
     setIdentifiers: ["DYN034"],
     sets: [Release.Dynasty],
     specialImageName: "DYN034",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action – Aura",
 
@@ -84069,7 +84069,7 @@ Your next Brute attack this turn gains +2{p}.
     setIdentifiers: ["DYN035"],
     sets: [Release.Dynasty],
     specialImageName: "DYN035",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action – Aura",
 
@@ -84229,7 +84229,7 @@ Your next Brute attack this turn gains +2{p}.
     setIdentifiers: ["DYN039"],
     sets: [Release.Dynasty],
     specialImageName: "DYN039",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action",
 
@@ -84269,7 +84269,7 @@ Your next Brute attack this turn gains +2{p}.
     setIdentifiers: ["DYN040"],
     sets: [Release.Dynasty],
     specialImageName: "DYN040",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action",
 
@@ -84309,7 +84309,7 @@ Your next Brute attack this turn gains +2{p}.
     setIdentifiers: ["DYN041"],
     sets: [Release.Dynasty],
     specialImageName: "DYN041",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action",
 
@@ -84599,7 +84599,7 @@ Your next Brute attack this turn gains +2{p}.
     setIdentifiers: ["DYN048"],
     sets: [Release.Dynasty],
     specialImageName: "DYN048",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ninja Action – Attack",
 
@@ -84639,7 +84639,7 @@ Your next Brute attack this turn gains +2{p}.
     setIdentifiers: ["DYN049"],
     sets: [Release.Dynasty],
     specialImageName: "DYN049",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ninja Action",
 
@@ -84809,7 +84809,7 @@ Crouching Tigers you control gain +1{p} this turn.
     setIdentifiers: ["DYN053"],
     sets: [Release.Dynasty],
     specialImageName: "DYN053",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ninja Action – Aura",
 
@@ -84849,7 +84849,7 @@ Crouching Tigers you control gain +1{p} this turn.
     setIdentifiers: ["DYN054"],
     sets: [Release.Dynasty],
     specialImageName: "DYN054",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ninja Action – Aura",
 
@@ -84889,7 +84889,7 @@ Crouching Tigers you control gain +1{p} this turn.
     setIdentifiers: ["DYN055"],
     sets: [Release.Dynasty],
     specialImageName: "DYN055",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ninja Action – Aura",
 
@@ -85175,7 +85175,7 @@ Crouching Tigers you control gain +1{p} this turn.
     setIdentifiers: ["LGS122","DYN062"],
     sets: [Release.Promos,Release.Dynasty],
     specialImageName: "LGS122",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ninja Action",
 
@@ -85217,7 +85217,7 @@ Crouching Tigers you control gain +1{p} this turn.
     setIdentifiers: ["LGS123","DYN063"],
     sets: [Release.Promos,Release.Dynasty],
     specialImageName: "LGS123",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ninja Action",
 
@@ -85259,7 +85259,7 @@ Crouching Tigers you control gain +1{p} this turn.
     setIdentifiers: ["LGS124","DYN064"],
     sets: [Release.Promos,Release.Dynasty],
     specialImageName: "LGS124",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ninja Action",
 
@@ -85343,7 +85343,7 @@ Crouching Tigers you control gain +1{p} this turn.
     setIdentifiers: ["DYN066"],
     sets: [Release.Dynasty],
     specialImageName: "DYN066",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Light Warrior Action – Item",
 
@@ -85531,7 +85531,7 @@ If another weapon you control has gained **go again** this turn, Quicksilver Dag
     setIdentifiers: ["DYN071"],
     sets: [Release.Dynasty],
     specialImageName: "DYN071",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -85617,7 +85617,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     setIdentifiers: ["DYN073"],
     sets: [Release.Dynasty],
     specialImageName: "DYN073",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action – Aura",
 
@@ -85657,7 +85657,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     setIdentifiers: ["DYN074"],
     sets: [Release.Dynasty],
     specialImageName: "DYN074",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action – Aura",
 
@@ -85697,7 +85697,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     setIdentifiers: ["DYN075"],
     sets: [Release.Dynasty],
     specialImageName: "DYN075",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action – Aura",
 
@@ -85737,7 +85737,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     setIdentifiers: ["DYN076"],
     sets: [Release.Dynasty],
     specialImageName: "DYN076",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -85779,7 +85779,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     setIdentifiers: ["DYN077"],
     sets: [Release.Dynasty],
     specialImageName: "DYN077",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -85821,7 +85821,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     setIdentifiers: ["DYN078"],
     sets: [Release.Dynasty],
     specialImageName: "DYN078",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -85983,7 +85983,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     setIdentifiers: ["DYN082"],
     sets: [Release.Dynasty],
     specialImageName: "DYN082",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -86025,7 +86025,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     setIdentifiers: ["DYN083"],
     sets: [Release.Dynasty],
     specialImageName: "DYN083",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -86067,7 +86067,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     setIdentifiers: ["DYN084"],
     sets: [Release.Dynasty],
     specialImageName: "DYN084",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -86109,7 +86109,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     setIdentifiers: ["DYN085"],
     sets: [Release.Dynasty],
     specialImageName: "DYN085",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -86151,7 +86151,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     setIdentifiers: ["DYN086"],
     sets: [Release.Dynasty],
     specialImageName: "DYN086",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -86193,7 +86193,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     setIdentifiers: ["DYN087"],
     sets: [Release.Dynasty],
     specialImageName: "DYN087",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
 
@@ -86369,7 +86369,7 @@ The third time you play a card with **boost** each turn, put a steam counter on 
     setIdentifiers: ["DYN091"],
     sets: [Release.Dynasty],
     specialImageName: "DYN091",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action",
 
@@ -86419,7 +86419,7 @@ The next time a Mechanologist item with cost 2 or less is banished to pay a **bo
     setIdentifiers: ["DYN092"],
     sets: [Release.Dynasty],
     specialImageName: "DYN092_Marvel",
-    subtypes: [Subtype.Construct],
+    subtypes: [Subtype.Construct,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action – Construct",
 
@@ -86507,7 +86507,7 @@ The next time a Mechanologist item with cost 2 or less is banished to pay a **bo
     setIdentifiers: ["DYN093"],
     sets: [Release.Dynasty],
     specialImageName: "DYN093",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action – Item",
 
@@ -86549,7 +86549,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     setIdentifiers: ["DYN094"],
     sets: [Release.Dynasty],
     specialImageName: "DYN094",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action – Item",
 
@@ -86715,7 +86715,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     setIdentifiers: ["DYN098"],
     sets: [Release.Dynasty],
     specialImageName: "DYN098",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action – Aura",
 
@@ -86755,7 +86755,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     setIdentifiers: ["DYN099"],
     sets: [Release.Dynasty],
     specialImageName: "DYN099",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action – Aura",
 
@@ -86795,7 +86795,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     setIdentifiers: ["DYN100"],
     sets: [Release.Dynasty],
     specialImageName: "DYN100",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action – Aura",
 
@@ -87207,7 +87207,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     setIdentifiers: ["DYN111"],
     sets: [Release.Dynasty],
     specialImageName: "DYN111",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action – Item",
 
@@ -87249,7 +87249,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     setIdentifiers: ["DYN112"],
     sets: [Release.Dynasty],
     specialImageName: "DYN112",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action – Item",
 
@@ -87688,7 +87688,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     setIdentifiers: ["DYN123"],
     sets: [Release.Dynasty],
     specialImageName: "DYN123",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Assassin Action",
 
@@ -89028,7 +89028,7 @@ When this hits, at the beginning of your end phase, put the top card of your dec
     setIdentifiers: ["DYN155"],
     sets: [Release.Dynasty],
     specialImageName: "DYN155",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action",
 
@@ -89204,7 +89204,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
     setIdentifiers: ["DYN159"],
     sets: [Release.Dynasty],
     specialImageName: "DYN159",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action – Aura",
 
@@ -89244,7 +89244,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
     setIdentifiers: ["DYN160"],
     sets: [Release.Dynasty],
     specialImageName: "DYN160",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action – Aura",
 
@@ -89284,7 +89284,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
     setIdentifiers: ["DYN161"],
     sets: [Release.Dynasty],
     specialImageName: "DYN161",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action – Aura",
 
@@ -89576,7 +89576,7 @@ If Long Shot has an aim counter, it has +2{p}.`,
     setIdentifiers: ["DYN168"],
     sets: [Release.Dynasty],
     specialImageName: "DYN168",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action",
 
@@ -89618,7 +89618,7 @@ If Long Shot has an aim counter, it has +2{p}.`,
     setIdentifiers: ["DYN169"],
     sets: [Release.Dynasty],
     specialImageName: "DYN169",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action",
 
@@ -89660,7 +89660,7 @@ If Long Shot has an aim counter, it has +2{p}.`,
     setIdentifiers: ["DYN170"],
     sets: [Release.Dynasty],
     specialImageName: "DYN170",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action",
 
@@ -89830,7 +89830,7 @@ If Long Shot has an aim counter, it has +2{p}.`,
     setIdentifiers: ["DYN174"],
     sets: [Release.Dynasty],
     specialImageName: "DYN174",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action",
 
@@ -89872,7 +89872,7 @@ If a ‘non-attack’ action card was pitched to play Diabolic Ultimatum, each h
     setIdentifiers: ["DYN175"],
     sets: [Release.Dynasty],
     specialImageName: "DYN175",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action – Aura",
 
@@ -90034,7 +90034,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
     setIdentifiers: ["DYN179"],
     sets: [Release.Dynasty],
     specialImageName: "DYN179",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action – Aura",
 
@@ -90074,7 +90074,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
     setIdentifiers: ["DYN180"],
     sets: [Release.Dynasty],
     specialImageName: "DYN180",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action – Aura",
 
@@ -90114,7 +90114,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
     setIdentifiers: ["DYN181"],
     sets: [Release.Dynasty],
     specialImageName: "DYN181",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action – Aura",
 
@@ -90274,7 +90274,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
     setIdentifiers: ["DYN185"],
     sets: [Release.Dynasty],
     specialImageName: "DYN185",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action",
 
@@ -90318,7 +90318,7 @@ If an attack card was pitch to play Runic Reaping, the next Runeblade attack act
     setIdentifiers: ["DYN186"],
     sets: [Release.Dynasty],
     specialImageName: "DYN186",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action",
 
@@ -90362,7 +90362,7 @@ If an attack card was pitch to play Runic Reaping, the next Runeblade attack act
     setIdentifiers: ["DYN187"],
     sets: [Release.Dynasty],
     specialImageName: "DYN187",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action",
 
@@ -90406,7 +90406,7 @@ If an attack card was pitch to play Runic Reaping, the next Runeblade attack act
     setIdentifiers: ["DYN188"],
     sets: [Release.Dynasty],
     specialImageName: "DYN188",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action",
 
@@ -90448,7 +90448,7 @@ If an attack card was pitch to play Runic Reaping, the next Runeblade attack act
     setIdentifiers: ["DYN189"],
     sets: [Release.Dynasty],
     specialImageName: "DYN189",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action",
 
@@ -90490,7 +90490,7 @@ If an attack card was pitch to play Runic Reaping, the next Runeblade attack act
     setIdentifiers: ["DYN190"],
     sets: [Release.Dynasty],
     specialImageName: "DYN190",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action",
 
@@ -90620,7 +90620,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     setIdentifiers: ["DYN194"],
     sets: [Release.Dynasty],
     specialImageName: "DYN194",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -90662,7 +90662,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     setIdentifiers: ["DYN195"],
     sets: [Release.Dynasty],
     specialImageName: "DYN195",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -90744,7 +90744,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     setIdentifiers: ["DYN197"],
     sets: [Release.Dynasty],
     specialImageName: "DYN197",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -90786,7 +90786,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     setIdentifiers: ["DYN198"],
     sets: [Release.Dynasty],
     specialImageName: "DYN198",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -90828,7 +90828,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     setIdentifiers: ["DYN199"],
     sets: [Release.Dynasty],
     specialImageName: "DYN199",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -90876,7 +90876,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     setIdentifiers: ["LGS116","DYN200"],
     sets: [Release.Promos,Release.Dynasty],
     specialImageName: "dyn_card_Blessing_of_Aether_p1.width-10000",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action – Aura",
 
@@ -90922,7 +90922,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     setIdentifiers: ["LGS117","DYN201"],
     sets: [Release.Promos,Release.Dynasty],
     specialImageName: "LGS117",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action – Aura",
 
@@ -90968,7 +90968,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     setIdentifiers: ["LGS118","DYN202"],
     sets: [Release.Promos,Release.Dynasty],
     specialImageName: "LGS118",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action – Aura",
 
@@ -91008,7 +91008,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     setIdentifiers: ["DYN203"],
     sets: [Release.Dynasty],
     specialImageName: "DYN203",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -91050,7 +91050,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     setIdentifiers: ["DYN204"],
     sets: [Release.Dynasty],
     specialImageName: "DYN204",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -91092,7 +91092,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     setIdentifiers: ["DYN205"],
     sets: [Release.Dynasty],
     specialImageName: "DYN205",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -91134,7 +91134,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     setIdentifiers: ["FAB115","DYN206"],
     sets: [Release.Promos,Release.Dynasty],
     specialImageName: "FAB115",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -91176,7 +91176,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     setIdentifiers: ["FAB116","DYN207"],
     sets: [Release.Promos,Release.Dynasty],
     specialImageName: "FAB116",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -91218,7 +91218,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     setIdentifiers: ["FAB117","DYN208"],
     sets: [Release.Promos,Release.Dynasty],
     specialImageName: "FAB117",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -91260,7 +91260,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     setIdentifiers: ["DYN209"],
     sets: [Release.Dynasty],
     specialImageName: "DYN209",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -91302,7 +91302,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     setIdentifiers: ["DYN210"],
     sets: [Release.Dynasty],
     specialImageName: "DYN210",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -91344,7 +91344,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     setIdentifiers: ["DYN211"],
     sets: [Release.Dynasty],
     specialImageName: "DYN211",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
 
@@ -91392,7 +91392,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     setIdentifiers: ["DYN212"],
     sets: [Release.Dynasty],
     specialImageName: "DYN212_Marvel",
-    subtypes: [Subtype.Invocation],
+    subtypes: [Subtype.Invocation,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Light Illusionist Action – Invocation",
 
@@ -91654,7 +91654,7 @@ Whenever Suraya deals damage, you gain that much {l}.
     setIdentifiers: ["DYN217"],
     sets: [Release.Dynasty],
     specialImageName: "DYN217",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Illusionist Action – Aura",
 
@@ -91696,7 +91696,7 @@ Whenever Suraya deals damage, you gain that much {l}.
     setIdentifiers: ["DYN218"],
     sets: [Release.Dynasty],
     specialImageName: "DYN218",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Illusionist Action – Aura",
 
@@ -91738,7 +91738,7 @@ Whenever Suraya deals damage, you gain that much {l}.
     setIdentifiers: ["DYN219"],
     sets: [Release.Dynasty],
     specialImageName: "DYN219",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Illusionist Action – Aura",
 
@@ -91780,7 +91780,7 @@ Whenever Suraya deals damage, you gain that much {l}.
     setIdentifiers: ["DYN220"],
     sets: [Release.Dynasty],
     specialImageName: "DYN220",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Illusionist Action – Aura",
 
@@ -91822,7 +91822,7 @@ Whenever Suraya deals damage, you gain that much {l}.
     setIdentifiers: ["DYN221"],
     sets: [Release.Dynasty],
     specialImageName: "DYN221",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Illusionist Action – Aura",
 
@@ -91864,7 +91864,7 @@ Whenever Suraya deals damage, you gain that much {l}.
     setIdentifiers: ["DYN222"],
     sets: [Release.Dynasty],
     specialImageName: "DYN222",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Illusionist Action – Aura",
 
@@ -91906,7 +91906,7 @@ Whenever Suraya deals damage, you gain that much {l}.
     setIdentifiers: ["DYN223"],
     sets: [Release.Dynasty],
     specialImageName: "DYN223",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Illusionist Action – Aura",
 
@@ -92200,7 +92200,7 @@ Whenever Suraya deals damage, you gain that much {l}.
     setIdentifiers: ["DYN230"],
     sets: [Release.Dynasty],
     specialImageName: "DYN230",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Illusionist Action",
 
@@ -92242,7 +92242,7 @@ Whenever Suraya deals damage, you gain that much {l}.
     setIdentifiers: ["DYN231"],
     sets: [Release.Dynasty],
     specialImageName: "DYN231",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Illusionist Action",
 
@@ -92284,7 +92284,7 @@ Whenever Suraya deals damage, you gain that much {l}.
     setIdentifiers: ["DYN232"],
     sets: [Release.Dynasty],
     specialImageName: "DYN232",
-    subtypes: [],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Illusionist Action",
 
@@ -92446,7 +92446,7 @@ Whenever Suraya deals damage, you gain that much {l}.
     setIdentifiers: ["DYN240"],
     sets: [Release.Dynasty],
     specialImageName: "DYN240",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Item",
 
@@ -92490,7 +92490,7 @@ Whenever Suraya deals damage, you gain that much {l}.
     setIdentifiers: ["DYN241"],
     sets: [Release.Dynasty],
     specialImageName: "DYN241",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Item",
 
@@ -92532,7 +92532,7 @@ Whenever Suraya deals damage, you gain that much {l}.
     setIdentifiers: ["DYN242"],
     sets: [Release.Dynasty],
     specialImageName: "DYN242",
-    subtypes: [Subtype.Item],
+    subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Item",
 

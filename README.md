@@ -66,6 +66,7 @@ cards.forEach((card) => {
 | fusions                    | `Fusion` enum array  | `[ "Earth", "Ice" ]`                 |
 | hero                       | `Hero` enum          | `"Rhinar"`, `"Dori"`                 |
 | intellect                  | `number`             | `3`, `4`                             |
+| isCardBack                 | `boolean`            | `true`                               |
 | keywords                   | `Keyword` enum array | `[ "Boost" ]`                        |
 | life                       | `number`             | `18`, `40`                           |
 | oppositeSideCardIdentifier | `string`             | `"invoke-kyloria-red"`, `"tomeltai"` |

@@ -32,6 +32,11 @@ const cardIdentifiersWithNonAlphanumeric = libraryCardIdentifiers.filter(
     cardIdentifier.replace(/-/g, "").match(/^[a-z]+$/) === null
 );
 
+// Cards with null types
+const cardsWithoutTypes = libraryCards
+  .filter(({ types }) => !types)
+  .map(({ cardIdentifier }) => cardIdentifier);
+
 // Cards added/removed from library
 // @ts-ignore
 Array.prototype.diff = function (arr2) {
@@ -65,6 +70,15 @@ ${
   cardIdentifiersWithNonAlphanumeric.length > 0
     ? `
 Cards with special characters: ${cardIdentifiersWithNonAlphanumeric}
+`
+    : ``
+}
+
+There are ${cardsWithoutTypes.length} cards without types in dist/
+${
+  cardsWithoutTypes.length > 0
+    ? `
+Cards without types: ${cardsWithoutTypes}
 `
     : ``
 }

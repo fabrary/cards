@@ -447,6 +447,9 @@ const getTypeAndSubType = (
       }
     }
   }
+  if (types.includes(Type.Action) && !subtypes.includes(Subtype.Attack)) {
+    subtypes.push(Subtype.NonAttack);
+  }
 
   return { types, subtypes };
 };
