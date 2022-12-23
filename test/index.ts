@@ -1,9 +1,9 @@
 import { readFileSync } from "fs";
 import { parse } from "papaparse";
 import { cards as libraryCards } from "../dist/index";
-import { cards as publishedCards } from "fab-cards";
+import { Card, cards as publishedCards } from "fab-cards";
 
-const csv = readFileSync("src/cards.csv", "utf8");
+const csv = readFileSync("src/card.csv", "utf8");
 const parsed = parse(csv, {
   header: true,
   dynamicTyping: true,
@@ -49,10 +49,96 @@ const publishedCardIdentifiers = publishedCards.map(
 const differentIdentifiers = publishedCardIdentifiers.diff(
   libraryCardIdentifiers
 );
+// @ts-ignore
+const addedIdentifiers = libraryCardIdentifiers.diff(publishedCardIdentifiers);
+
+// Cards with different properties
+interface CardDifference {
+  property: string;
+  library: any;
+  published: any;
+}
+interface CardWithDifference {
+  differences: CardDifference[];
+  library: Card;
+  published: Card;
+}
+const cardsWithDifferences: CardWithDifference[] = [];
+const isPropertySame = (
+  library: Card,
+  published: Card,
+  property: string,
+  differences: CardDifference[]
+) => {
+  const libraryProperty = library[property];
+  const publishedProperty = published[property];
+  const isSame =
+    (!libraryProperty && !publishedProperty) ||
+    libraryProperty === publishedProperty;
+  if (!isSame) {
+    differences.push({
+      property,
+      library: libraryProperty,
+      published: publishedProperty,
+    });
+  }
+  return isSame;
+};
+const isArrayPropertySame = (
+  library: Card,
+  published: Card,
+  property: string,
+  differences: CardDifference[]
+) => {
+  const libraryProperty = library[property];
+  const publishedProperty = published[property];
+  const isSame =
+    (!libraryProperty && !publishedProperty) ||
+    ((libraryProperty?.length || 0) === (publishedProperty?.length || 0) &&
+      libraryProperty.sort().join() === publishedProperty.sort().join());
+  if (!isSame) {
+    differences.push({
+      property,
+      library: libraryProperty,
+      published: publishedProperty,
+    });
+  }
+  return isSame;
+};
+for (const published of publishedCards) {
+  const library = libraryCards.find(
+    (library) => library.cardIdentifier === published.cardIdentifier
+  );
+  if (library) {
+    const differences: CardDifference[] = [];
+    const same =
+      isArrayPropertySame(library, published, "classes", differences) &&
+      isPropertySame(library, published, "cost", differences) &&
+      isPropertySame(library, published, "defense", differences) &&
+      isPropertySame(library, published, "defaultImageName", differences) &&
+      isPropertySame(library, published, "functionalText", differences) &&
+      isArrayPropertySame(library, published, "keywords", differences) &&
+      isPropertySame(library, published, "name", differences) &&
+      isPropertySame(library, published, "pitch", differences) &&
+      isPropertySame(library, published, "power", differences) &&
+      isArrayPropertySame(library, published, "rarities", differences) &&
+      isPropertySame(library, published, "specialImageName", differences) &&
+      isArrayPropertySame(library, published, "types", differences);
+    if (!same) {
+      cardsWithDifferences.push({ differences, library, published });
+    }
+  }
+}
 
 console.log(`
 There are ${publishedCardIdentifiers.length} published cards
 There are ${libraryCards.length} cards to be published
+${
+  addedIdentifiers.length > 0
+    ? `
+New cards: \n${addedIdentifiers.join("\n")}`
+    : ``
+}
 
 There are ${differentIdentifiers.length} cards with different identifiers
 ${
@@ -91,6 +177,24 @@ ${
     ? `
 Cards missing from the library: ${cardsMissingFromLibrary}
 `
+    : ``
+}
+
+There are ${cardsWithDifferences.length} cards with differences in dist/
+${
+  cardsWithDifferences.length > 0
+    ? `
+Cards with differences:
+${cardsWithDifferences
+  .map(
+    ({ differences, library, published }) =>
+      `${differences.map(
+        (difference) => `${JSON.stringify(difference)}\n`
+      )}${JSON.stringify({
+        published,
+      })}\n${JSON.stringify({ library })}`
+  )
+  .join("\n\n\n")}`
     : ``
 }
 `);

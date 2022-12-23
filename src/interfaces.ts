@@ -5,6 +5,7 @@ export interface Card {
   defaultImageName: string;
   images: Image[];
   name: string;
+  rarities: Rarity[];
   rarity: Rarity;
   setIdentifiers: string[];
   sets: Release[];
@@ -73,6 +74,8 @@ export enum Format {
   Clash = "Clash",
   ClassicConstructed = "Classic Constructed",
   Commoner = "Commoner",
+  Draft = "Draft",
+  Sealed = "Sealed",
   UltimatePitFight = "Ultimate Pit Fight",
 }
 
@@ -118,7 +121,7 @@ export enum Release {
   FaiBlitzDeck = "Fai Blitz Deck",
   IraWelcomeDeck = "Ira Welcome Deck",
   KatsuHeroDeck = "Katsu Hero Deck",
-  LeviaBlitzDeck = "LeviaBlitzDeck",
+  LeviaBlitzDeck = "Levia Blitz Deck",
   LexiBlitzDeck = "Lexi Blitz Deck",
   OldhimBlitzDeck = "Oldhim Blitz Deck",
   PrismBlitzDeck = "Prism Blitz Deck",
@@ -203,65 +206,6 @@ export enum Subtype {
   Trap = "Trap",
   Young = "Young",
 }
-
-// export enum ActionSubType {}
-// Ally = "Ally",
-// Ash = "Ash",
-// Attack = "Attack",
-// Arrow = "Arrow",
-// Aura = "Aura",
-// Construct = "Construct",
-// Invocation = "Invocation",
-// Item = "Item",
-// Landmark = "Landmark",
-// NonAttack = "Non-Attack",
-// Trap = "Trap",
-
-// export enum EquipmentSubType {}
-// Arms = "Arms",
-// Chest = "Chest",
-// Head = "Head",
-// Item = "Item",
-// Legs = "Legs",
-// OffHand = "Off-Hand",
-
-// export enum HeroSubType {}
-// Young = "Young",
-
-// export enum PlaceholderSubType {}
-// Invocation = "Invocation",
-
-// export enum ResourceSubType {}
-// Gem = "Gem",
-
-// export enum TokenSubType {}
-// Ally = "Ally",
-// Ash = "Ash",
-// Aura = "Aura",
-// Item = "Item",
-
-// export enum WeaponSubType {}
-// Axe = "Axe",
-// Book = "Book",
-// Bow = "Bow",
-// Claw = "Claw",
-// Club = "Club",
-// Dagger = "Dagger",
-// Flail = "Flail",
-// Gun = "Gun",
-// Hammer = "Hammer",
-// Lute = "Lute",
-// Orb = "Orb",
-// Pistol = "Pistol",
-// Rock = "Rock",
-// Scepter = "Scepter",
-// Scythe = "Scythe",
-// Staff = "Staff",
-// Sword = "Sword",
-
-// export enum HandsRequired {}
-// OneHanded = "1H",
-// TwoHanded = "2H",
 
 export enum Hero {
   Arakni = "Arakni",

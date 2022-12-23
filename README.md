@@ -5,6 +5,10 @@
 - [Enums](#enums)
 - [Working with this project](#working-with-this-project)
 
+# 7.0 breaking changes
+
+- `card.rarity` has been deprecated in favor of `card.rarities` and will be removed in a future release
+
 # 6.0 breaking changes
 
 - Eliminated card types (like ActionCard) because the 1:1 type:subtype mapping doesn't follow anymore (see Nitro Mechanoid)
@@ -48,7 +52,7 @@ cards.forEach((card) => {
 | defaultImageName | `string`             | `"1HP001.width-450"`                       |
 | images           | `Image` array        | see **`Image`**                            |
 | name             | `string`             | `"Rain Razors"`, `"Pummel"`                |
-| rarity           | `Rarity` enum        | `"Super Rare"`, `"Token"`                  |
+| rarities         | `Rarity` enum array  | `["Super Rare"]`, `["Token", "Majestic"]`  |
 | setIdentifiers   | `string` array       | `[ "1HP009", "CRU006" ]`                   |
 | sets             | `Release` enum array | `[ "History Pack 1", "Crucible of War" ]`  |
 | specialImageName | `string`             | `"1HP001.width-450"`                       |

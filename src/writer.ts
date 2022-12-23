@@ -87,6 +87,7 @@ const generateCardTypeScript = (card: Card): String => {
     defaultImageName: "${card.defaultImageName}",
     images: [${getImages(card.images)}],
     name: "${card.name}",
+    rarities: [${getEnumValues(card.rarities, "Rarity", Rarity)}],
     rarity: ${getEnumValue(card.rarity, "Rarity", Rarity)},
     setIdentifiers: [${card.setIdentifiers.map((id) => `"${id}"`)}],
     sets: [${getEnumValues(card.sets, "Release", Release)}],

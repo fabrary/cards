@@ -44,7 +44,7 @@ export interface ParsedCard {
 // Make fields that should be lists actually lists instead of a string (which is how CSVs store it)
 const fieldsWithListValues = [
   "abilitiesAndEffects",
-  "abilitiesAndEffectKeywords",
+  "abilityAndEffectKeywords",
   "artists",
   "cardKeywords",
   "grantedKeywords",

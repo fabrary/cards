@@ -214,16 +214,21 @@ const getImages = (card: ParsedCard): Image[] => {
 };
 
 const getKeywords = (card: ParsedCard): Keyword[] => {
-  const { cardKeywords, grantedKeywords, name } = card;
-  const keywords = [];
-  [...cardKeywords, ...grantedKeywords].forEach((keyword) => {
-    for (const [key, value] of Object.entries(Keyword)) {
-      if (keyword.includes(value)) {
-        // @ts-ignore
-        keywords.push(Keyword[key]);
+  const { abilityAndEffectKeywords, cardKeywords, grantedKeywords, name } =
+    card;
+  const keywords: Keyword[] = [];
+  [...cardKeywords, ...grantedKeywords, ...abilityAndEffectKeywords].forEach(
+    (keyword) => {
+      for (const [key, value] of Object.entries(Keyword)) {
+        if (keyword.includes(value)) {
+          const keyword = Keyword[key];
+          if (!keywords.includes(keyword)) {
+            keywords.push(keyword);
+          }
+        }
       }
     }
-  });
+  );
 
   return keywords;
 };
@@ -252,6 +257,34 @@ const getRarity = (card: ParsedCard): Rarity | undefined => {
   } else if (rarities.some((rarity) => rarity.startsWith("P"))) {
     return Rarity.Promo;
   }
+};
+
+const rarityStringMapping: { [key: string]: Rarity } = {
+  T: Rarity.Token,
+  F: Rarity.Fabled,
+  L: Rarity.Legendary,
+  M: Rarity.Majestic,
+  V: Rarity.Marvel,
+  S: Rarity.SuperRare,
+  R: Rarity.Rare,
+  C: Rarity.Common,
+  P: Rarity.Promo,
+};
+
+const getRarities = (card: ParsedCard): Rarity[] => {
+  const { rarity } = card;
+  const rarities: Rarity[] = [];
+  rarity.forEach((rawRarity) => {
+    const rarityString = rawRarity.split(" - ")[0];
+    const rarity = rarityStringMapping[rarityString];
+    if (!rarity) {
+      console.error(`No rarity found for ${rarityString} (${rawRarity})`);
+    }
+    if (!rarities.includes(rarity)) {
+      rarities.push(rarity);
+    }
+  });
+  return rarities;
 };
 
 const getRestrictedFormats = (card: ParsedCard): Format[] => {
@@ -468,6 +501,7 @@ const getCardData = (card: ParsedCard): Card => {
     defaultImageName: getDefaultImageName(card),
     images: getImages(card),
     name: card.name,
+    rarities: getRarities(card),
     rarity: getRarity(card) as Rarity,
     setIdentifiers: card.identifiers,
     sets: getSets(card),
@@ -484,7 +518,7 @@ const getCardData = (card: ParsedCard): Card => {
     intellect: card.intellect,
     keywords: getKeywords(card),
     life: card.life,
-    pitch: card.pitch || 0,
+    pitch: card.pitch,
     power: getPower(card) as number,
     restrictedFormats: getRestrictedFormats(card),
     specialCost: getSpecialCost(card) as string,

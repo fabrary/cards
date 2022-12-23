@@ -17,22 +17,58 @@
   } from './interfaces';
 
   const cards1: Card[] = [{
+    artists: ["Sam Yang"],
+    cardIdentifier: "shitty-xmas-present-yellow",
+    classes: [Class.Generic],
+    defaultImageName: "",
+    images: [],
+    name: "Shitty Xmas Present",
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS099"],
+    sets: [Release.Promos],
+    specialImageName: "",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `Put a Cracked Bauble from outside the game on top of target hero’s deck.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Lius Lasahido"],
     cardIdentifier: "ruudi-gem-keeper",
     classes: [Class.Merchant],
-    defaultImageName: "LSS001.width-450",
+    defaultImageName: "LSS001",
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LSS001",
-      name: "LSS001.width-450",
+      name: "LSS001",
       set: Release.Promos,
       
     },],
     name: "Ruu’di, Gem Keeper",
+    rarities: [Rarity.Promo],
     rarity: Rarity.Promo,
     setIdentifiers: ["LSS001"],
     sets: [Release.Promos],
-    specialImageName: "LSS001.width-450",
+    specialImageName: "LSS001",
     subtypes: [],
     types: [Type.Hero],
     typeText: "Hero – Merchant",
@@ -46,10 +82,10 @@
     hero: Hero.Ruudi,
     intellect: 4,
     
-    
+    keywords: [Keyword.GoAgain],
     life: 40,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
     
@@ -62,19 +98,20 @@
     artists: ["Rachel Alderson"],
     cardIdentifier: "go-bananas-yellow",
     classes: [Class.Generic],
-    defaultImageName: "LSS002-P.width-450",
+    defaultImageName: "LSS002",
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LSS002",
-      name: "LSS002-P.width-450",
+      name: "LSS002",
       set: Release.Promos,
       
     },],
     name: "Go Bananas",
+    rarities: [Rarity.Promo],
     rarity: Rarity.Promo,
     setIdentifiers: ["LSS002"],
     sets: [Release.Promos],
-    specialImageName: "LSS002-P.width-450",
+    specialImageName: "LSS002",
     subtypes: [],
     types: [Type.Instant],
     typeText: "Generic Instant",
@@ -102,25 +139,26 @@
     artists: ["Andy Aslamov"],
     cardIdentifier: "taylor",
     classes: [Class.Shapeshifter],
-    defaultImageName: "LSS003_A.width-450",
+    defaultImageName: "LSS003_A",
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LSS003",
-      name: "LSS003_A.width-450",
+      name: "LSS003_A",
       set: Release.Promos,
       
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LSS003",
-      name: "LSS003_B.width-450",
+      name: "LSS003_B",
       set: Release.Promos,
       treatment: Treatment.FA,
     },],
     name: "Taylor",
+    rarities: [Rarity.Promo],
     rarity: Rarity.Promo,
     setIdentifiers: ["LSS003"],
     sets: [Release.Promos],
-    specialImageName: "LSS003_B.width-450",
+    specialImageName: "LSS003_B",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Shapeshifter Hero – Young",
@@ -137,7 +175,7 @@ At the start of your turn, you may banish an equipment you control. If you do, e
     
     life: 18,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
     
@@ -150,25 +188,26 @@ At the start of your turn, you may banish an equipment you control. If you do, e
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "yorick-weaver-of-tales",
     classes: [Class.Bard],
-    defaultImageName: "LSS004_A.width-450",
+    defaultImageName: "LSS004_A",
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LSS004",
-      name: "LSS004_A.width-450",
+      name: "LSS004_A",
       set: Release.Promos,
       
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LSS004",
-      name: "LSS004_B.width-450",
+      name: "LSS004_B",
       set: Release.Promos,
       treatment: Treatment.FA,
     },],
     name: "Yorick, Weaver of Tales",
+    rarities: [Rarity.Promo],
     rarity: Rarity.Promo,
     setIdentifiers: ["LSS004"],
     sets: [Release.Promos],
-    specialImageName: "LSS004_B.width-450",
+    specialImageName: "LSS004_B",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Bard Hero – Young",
@@ -183,7 +222,7 @@ At the start of your turn, you may banish an equipment you control. If you do, e
     
     life: 20,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
     
@@ -202,9 +241,10 @@ At the start of your turn, you may banish an equipment you control. If you do, e
       identifier: "LSS005",
       name: "LSS005",
       set: Release.Promos,
-      
+      treatment: Treatment.EA,
     },],
     name: "Tales of Adventure",
+    rarities: [Rarity.Promo],
     rarity: Rarity.Promo,
     setIdentifiers: ["LSS005"],
     sets: [Release.Promos],
@@ -240,25 +280,26 @@ You create a Copper, Silver, and Gold.`,
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "hummingbird-adventurers-call",
     classes: [Class.Bard],
-    defaultImageName: "FAB094_A.width-450",
+    defaultImageName: "FAB094_A",
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB094",
-      name: "FAB094_A.width-450",
+      name: "FAB094_A",
       set: Release.Promos,
       
     },{
       edition: ReleaseEdition.Promo,
       identifier: "FAB094",
-      name: "FAB094_B.width-450",
+      name: "FAB094_B",
       set: Release.Promos,
-      treatment: Treatment.FA,
+      
     },],
     name: "Hummingbird, Adventurer’s Call",
+    rarities: [Rarity.Promo],
     rarity: Rarity.Promo,
     setIdentifiers: ["FAB094"],
     sets: [Release.Promos],
-    specialImageName: "FAB094_B.width-450",
+    specialImageName: "FAB094_A",
     subtypes: [Subtype.Lute,Subtype.TwoHanded],
     types: [Type.Weapon],
     typeText: "Bard Weapon – Lute (2H)",
@@ -276,7 +317,7 @@ You create a Copper, Silver, and Gold.`,
     
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
     
@@ -289,31 +330,32 @@ You create a Copper, Silver, and Gold.`,
     artists: ["Federico Musetti"],
     cardIdentifier: "taipanis-dracai-of-judgement",
     classes: [Class.Adjudicator],
-    defaultImageName: "JDG001.width-450",
+    defaultImageName: "JDG001",
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "JDG001",
-      name: "JDG001.width-450",
+      name: "JDG001",
       set: Release.Promos,
       
     },{
       edition: ReleaseEdition.Promo,
       identifier: "JDG001",
-      name: "JDG001_Back.width-450",
+      name: "JDG001_Back",
       set: Release.Promos,
       treatment: Treatment.FA,
     },{
       edition: ReleaseEdition.Promo,
       identifier: "JDG002",
-      name: "JDG002.width-450",
+      name: "JDG002",
       set: Release.Promos,
       
     },],
     name: "Taipanis, Dracai of Judgement",
+    rarities: [Rarity.Promo],
     rarity: Rarity.Promo,
     setIdentifiers: ["JDG001","JDG002"],
     sets: [Release.Promos],
-    specialImageName: "JDG001_Back.width-450",
+    specialImageName: "JDG001_Back",
     subtypes: [],
     types: [Type.Hero],
     typeText: "Draconic Adjudicator Hero",
@@ -328,7 +370,7 @@ You create a Copper, Silver, and Gold.`,
     
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
     
@@ -338,10 +380,57 @@ You create a Copper, Silver, and Gold.`,
     talents: [Talent.Draconic],
     
   },{
+    artists: ["Jessada Sutthi"],
+    cardIdentifier: "proclamation-of-requisition",
+    classes: [Class.Adjudicator],
+    defaultImageName: "JDG003",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "JDG003",
+      name: "JDG003",
+      set: Release.Promos,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "JDG004",
+      name: "JDG004",
+      set: Release.Promos,
+      
+    },],
+    name: "Proclamation of Requisition",
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["JDG003","JDG004"],
+    sets: [Release.Promos],
+    specialImageName: "JDG003",
+    subtypes: [Subtype.OffHand],
+    types: [Type.Equipment],
+    typeText: "Adjudicator Equipment – Off-Hand",
+
+    
+    
+    functionalText: `**Action** - Discard a red card, destroy Proclamation of Requisition: Each opponent chooses an item or landmark they control. Gain control of the chosen permanents.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Saad Irfan"],
     cardIdentifier: "spell-fray-cloak",
     classes: [Class.Generic],
-    defaultImageName: "BOL006.width-450",
+    defaultImageName: "DYN237",
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "BOL006",
@@ -354,8 +443,15 @@ You create a Copper, Silver, and Gold.`,
       name: "LEV005.width-450",
       set: Release.LeviaBlitzDeck,
       
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN237",
+      name: "DYN237",
+      set: Release.Dynasty,
+      
     },],
     name: "Spell Fray Cloak",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["BOL006","LEV005","DYN237"],
     sets: [Release.BoltynBlitzDeck,Release.LeviaBlitzDeck,Release.Dynasty],
@@ -366,7 +462,7 @@ You create a Copper, Silver, and Gold.`,
 
     
     defense: 0,
-    functionalText: `**Spellvoid 1** *(If your hero would be dealt arcane damage, you may destroy Spell Fray Chest instead. If you do, prevent 1 arcane damage that source would deal.)*`,
+    functionalText: `**Spellvoid 1** *(If your hero would be dealt arcane damage, you may destroy Spell Fray Cloak to prevent 1 of that damage.)*`,
     
     
     
@@ -374,7 +470,7 @@ You create a Copper, Silver, and Gold.`,
     keywords: [Keyword.Spellvoid],
     
     
-    pitch: 0,
+    
     
     
     
@@ -387,15 +483,22 @@ You create a Copper, Silver, and Gold.`,
     artists: ["Tian Thongjomroon"],
     cardIdentifier: "spell-fray-gloves",
     classes: [Class.Generic],
-    defaultImageName: "CHN006.width-450",
+    defaultImageName: "DYN238",
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "CHN006",
       name: "CHN006.width-450",
       set: Release.ChaneBlitzDeck,
       
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN238",
+      name: "DYN238",
+      set: Release.Dynasty,
+      
     },],
     name: "Spell Fray Gloves",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["CHN006","DYN238"],
     sets: [Release.ChaneBlitzDeck,Release.Dynasty],
@@ -406,7 +509,7 @@ You create a Copper, Silver, and Gold.`,
 
     
     defense: 0,
-    functionalText: `**Spellvoid 1** *(If your hero would be dealt arcane damage, you may destroy Spell Fray Gloves instead. If you do, prevent 1 arcane damage that source would deal.)*`,
+    functionalText: `**Spellvoid 1** *(If your hero would be dealt arcane damage, you may destroy Spell Fray Gloves to prevent 1 of that damage.)*`,
     
     
     
@@ -414,7 +517,7 @@ You create a Copper, Silver, and Gold.`,
     keywords: [Keyword.Spellvoid],
     
     
-    pitch: 0,
+    
     
     
     
@@ -427,15 +530,22 @@ You create a Copper, Silver, and Gold.`,
     artists: ["Tian Thongjomroon"],
     cardIdentifier: "spell-fray-leggings",
     classes: [Class.Generic],
-    defaultImageName: "PSM007.width-450",
+    defaultImageName: "DYN239",
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "PSM007",
       name: "PSM007.width-450",
       set: Release.PrismBlitzDeck,
       
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN239",
+      name: "DYN239",
+      set: Release.Dynasty,
+      
     },],
     name: "Spell Fray Leggings",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["PSM007","DYN239"],
     sets: [Release.PrismBlitzDeck,Release.Dynasty],
@@ -446,7 +556,7 @@ You create a Copper, Silver, and Gold.`,
 
     
     defense: 0,
-    functionalText: `**Spellvoid 1** *(If your hero would be dealt arcane damage, you may destroy Spell Fray Leggings instead. If you do, prevent 1 arcane damage that source would deal.)*`,
+    functionalText: `**Spellvoid 1** *(If your hero would be dealt arcane damage, you may destroy Spell Fray Leggings to prevent 1 of that damage.)*`,
     
     
     
@@ -454,7 +564,7 @@ You create a Copper, Silver, and Gold.`,
     keywords: [Keyword.Spellvoid],
     
     
-    pitch: 0,
+    
     
     
     
@@ -482,6 +592,7 @@ You create a Copper, Silver, and Gold.`,
       
     },],
     name: "Heart of Fyendal",
+    rarities: [Rarity.Fabled],
     rarity: Rarity.Fabled,
     setIdentifiers: ["WTR000"],
     sets: [Release.WelcomeToRathe],
@@ -517,13 +628,13 @@ You create a Copper, Silver, and Gold.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER001",
-      name: "HER001-P.width-450",
+      name: "HER001",
       set: Release.Promos,
       
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER021",
-      name: "HER021-P.width-450",
+      name: "HER021",
       set: Release.Promos,
       
     },{
@@ -564,6 +675,7 @@ You create a Copper, Silver, and Gold.`,
       
     },],
     name: "Rhinar, Reckless Rampage",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER001","HER021","WIN001","RNR001","1HP001","WTR001","CRU001"],
     sets: [Release.Promos,Release.RhinarHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar],
@@ -582,7 +694,7 @@ You create a Copper, Silver, and Gold.`,
     keywords: [Keyword.Intimidate],
     life: 40,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Blitz,Format.Commoner],
     
@@ -599,7 +711,7 @@ You create a Copper, Silver, and Gold.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER005",
-      name: "HER005-P.width-450",
+      name: "HER005",
       set: Release.Promos,
       
     },{
@@ -646,6 +758,7 @@ You create a Copper, Silver, and Gold.`,
       
     },],
     name: "Rhinar",
+    rarities: [Rarity.Promo,Rarity.Token,Rarity.Majestic,Rarity.Common],
     rarity: Rarity.Token,
     setIdentifiers: ["HER005","HER054","XXX003","RNR002","RVD001","1HP002","WTR002"],
     sets: [Release.Promos,Release.Promos,Release.RhinarHeroDeck,Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -664,7 +777,7 @@ You create a Copper, Silver, and Gold.`,
     keywords: [Keyword.Intimidate],
     life: 20,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.ClassicConstructed],
     
@@ -681,7 +794,7 @@ You create a Copper, Silver, and Gold.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS001",
-      name: "LGS001-P.width-450",
+      name: "LGS001",
       set: Release.Promos,
       
     },{
@@ -728,6 +841,7 @@ You create a Copper, Silver, and Gold.`,
       
     },],
     name: "Romping Club",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS001","XXX005","RNR003","1HP006","WTR003","CRU003"],
     sets: [Release.Promos,Release.Promos,Release.RhinarHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar],
@@ -748,7 +862,7 @@ You create a Copper, Silver, and Gold.`,
     
     
     
-    pitch: 0,
+    
     power: 4,
     
     
@@ -765,7 +879,7 @@ You create a Copper, Silver, and Gold.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB003",
-      name: "FAB003-P.width-450",
+      name: "FAB003",
       set: Release.Promos,
       
     },{
@@ -788,6 +902,7 @@ You create a Copper, Silver, and Gold.`,
       
     },],
     name: "Scabskin Leathers",
+    rarities: [Rarity.Promo,Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB003","1HP007","WTR004"],
     sets: [Release.Promos,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -808,7 +923,7 @@ You create a Copper, Silver, and Gold.`,
     keywords: [Keyword.Battleworn],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -848,6 +963,7 @@ You create a Copper, Silver, and Gold.`,
       
     },],
     name: "Barkbone Strapping",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["RNR005","1HP008","WTR005"],
     sets: [Release.RhinarHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -868,7 +984,7 @@ You create a Copper, Silver, and Gold.`,
     keywords: [Keyword.Battleworn],
     
     
-    pitch: 0,
+    
     
     
     
@@ -908,6 +1024,7 @@ You create a Copper, Silver, and Gold.`,
       
     },],
     name: "Alpha Rampage",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["RVD008","1HP010","WTR006"],
     sets: [Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -964,6 +1081,7 @@ When you attack with Alpha Rampage, **intimidate**.`,
       
     },],
     name: "Bloodrush Bellow",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP014","WTR007"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -1020,6 +1138,7 @@ If the discarded card has 6 or more {p}, draw 2 cards and Bloodrush Bellow gains
       
     },],
     name: "Reckless Swing",
+    rarities: [Rarity.Majestic,Rarity.SuperRare],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP013","WTR008"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -1074,6 +1193,7 @@ If the discarded card has 6 or more {p}, deal 2 damage to the attacking hero.`,
       
     },],
     name: "Sand Sketched Plan",
+    rarities: [Rarity.Majestic,Rarity.SuperRare],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP015","WTR009"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -1124,6 +1244,7 @@ If the discarded card has 6 or more {p}, gain 2 action points.`,
       
     },],
     name: "Bone Head Barrier",
+    rarities: [Rarity.SuperRare],
     rarity: Rarity.SuperRare,
     setIdentifiers: ["WTR010"],
     sets: [Release.WelcomeToRathe],
@@ -1182,6 +1303,7 @@ If the discarded card has 6 or more {p}, gain 2 action points.`,
       
     },],
     name: "Breakneck Battery",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["RNR008","1HP016","WTR011"],
     sets: [Release.RhinarHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -1236,6 +1358,7 @@ If the discarded card has 6 or more {p}, Breakneck Battery gains **go again**.`,
       
     },],
     name: "Breakneck Battery",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP017","WTR012"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -1290,6 +1413,7 @@ If the discarded card has 6 or more {p}, Breakneck Battery gains **go again**.`,
       
     },],
     name: "Breakneck Battery",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP018","WTR013"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -1350,6 +1474,7 @@ If the discarded card has 6 or more {p}, Breakneck Battery gains **go again**.`,
       
     },],
     name: "Savage Feast",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["RNR010","1HP019","WTR014"],
     sets: [Release.RhinarHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -1404,6 +1529,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
       
     },],
     name: "Savage Feast",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP020","WTR015"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -1458,6 +1584,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
       
     },],
     name: "Savage Feast",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP021","WTR016"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -1512,6 +1639,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
       
     },],
     name: "Barraging Beatdown",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP022","WTR017"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -1580,6 +1708,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
       
     },],
     name: "Barraging Beatdown",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["RNR018","RVD021","1HP023","WTR018"],
     sets: [Release.RhinarHeroDeck,Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -1642,6 +1771,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
       
     },],
     name: "Barraging Beatdown",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["RNR025","1HP024","WTR019"],
     sets: [Release.RhinarHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -1704,6 +1834,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
       
     },],
     name: "Savage Swing",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["RNR011","1HP031","WTR020"],
     sets: [Release.RhinarHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -1762,6 +1893,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
       
     },],
     name: "Savage Swing",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["RNR016","1HP032","WTR021"],
     sets: [Release.RhinarHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -1814,6 +1946,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
       
     },],
     name: "Savage Swing",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP033","WTR022"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -1878,6 +2011,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
       
     },],
     name: "Pack Hunt",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["RNR009","RVD010","1HP025","WTR023"],
     sets: [Release.RhinarHeroDeck,Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -1930,6 +2064,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
       
     },],
     name: "Pack Hunt",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP026","WTR024"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -1982,6 +2117,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
       
     },],
     name: "Pack Hunt",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP027","WTR025"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -2040,6 +2176,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
       
     },],
     name: "Smash Instinct",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["RNR012","1HP034","WTR026"],
     sets: [Release.RhinarHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -2104,6 +2241,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
       
     },],
     name: "Smash Instinct",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["RNR017","RVD016","1HP035","WTR027"],
     sets: [Release.RhinarHeroDeck,Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -2156,6 +2294,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
       
     },],
     name: "Smash Instinct",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP036","WTR028"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -2191,7 +2330,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS020",
-      name: "LGS020.width-450",
+      name: "LGS020",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -2220,10 +2359,11 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
       
     },],
     name: "Wrecker Romp",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS020","RNR013","1HP037","WTR029"],
     sets: [Release.Promos,Release.RhinarHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
-    specialImageName: "LGS020.width-450",
+    specialImageName: "LGS020",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Brute Action – Attack",
@@ -2255,7 +2395,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS021",
-      name: "LGS021.width-450",
+      name: "LGS021",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -2278,10 +2418,11 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
       
     },],
     name: "Wrecker Romp",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS021","1HP038","WTR030"],
     sets: [Release.Promos,Release.HistoryPack1,Release.WelcomeToRathe],
-    specialImageName: "LGS021.width-450",
+    specialImageName: "LGS021",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Brute Action – Attack",
@@ -2319,7 +2460,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LGS022",
-      name: "LGS022.width-450",
+      name: "LGS022",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -2354,6 +2495,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
       
     },],
     name: "Wrecker Romp",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS005","LGS022","RNR023","RVD023","1HP039","WTR031"],
     sets: [Release.Promos,Release.RhinarHeroDeck,Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -2412,6 +2554,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
       
     },],
     name: "Awakening Bellow",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["RNR014","RVD014","WTR032"],
     sets: [Release.RhinarHeroDeck,Release.ClassicBattlesRhinarDorinthea,Release.WelcomeToRathe],
@@ -2462,6 +2605,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
       
     },],
     name: "Awakening Bellow",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["WTR033"],
     sets: [Release.WelcomeToRathe],
@@ -2518,6 +2662,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
       
     },],
     name: "Awakening Bellow",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["RNR024","WTR034"],
     sets: [Release.RhinarHeroDeck,Release.WelcomeToRathe],
@@ -2574,6 +2719,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
       
     },],
     name: "Primeval Bellow",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP040","WTR035"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -2630,6 +2776,7 @@ Your next Brute attack this turn gains +5{p}.
       
     },],
     name: "Primeval Bellow",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP041","WTR036"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -2692,6 +2839,7 @@ Your next Brute attack this turn gains +4{p}.
       
     },],
     name: "Primeval Bellow",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["RNR026","1HP042","WTR037"],
     sets: [Release.RhinarHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -2731,13 +2879,13 @@ Your next Brute attack this turn gains +3{p}.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER002",
-      name: "HER002-P.width-450",
+      name: "HER002",
       set: Release.Promos,
       
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER022",
-      name: "HER022-P.width-450",
+      name: "HER022",
       set: Release.Promos,
       
     },{
@@ -2778,6 +2926,7 @@ Your next Brute attack this turn gains +3{p}.
       
     },],
     name: "Bravo, Showstopper",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER002","HER022","WIN002","BVO001","1HP043","WTR038","CRU022"],
     sets: [Release.Promos,Release.BravoBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar],
@@ -2793,10 +2942,10 @@ Your next Brute attack this turn gains +3{p}.
     hero: Hero.Bravo,
     intellect: 4,
     
-    keywords: [Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.GoAgain],
     life: 40,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Blitz,Format.Commoner],
     
@@ -2813,7 +2962,7 @@ Your next Brute attack this turn gains +3{p}.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER006",
-      name: "HER006-P.width-450",
+      name: "HER006",
       set: Release.Promos,
       
     },{
@@ -2854,6 +3003,7 @@ Your next Brute attack this turn gains +3{p}.
       
     },],
     name: "Bravo",
+    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
     rarity: Rarity.Token,
     setIdentifiers: ["HER006","HER055","XXX002","BVO002","1HP044","WTR039"],
     sets: [Release.Promos,Release.Promos,Release.BravoBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -2869,10 +3019,10 @@ Your next Brute attack this turn gains +3{p}.
     hero: Hero.Bravo,
     intellect: 4,
     
-    keywords: [Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.GoAgain],
     life: 20,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.ClassicConstructed],
     
@@ -2889,13 +3039,13 @@ Your next Brute attack this turn gains +3{p}.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB061",
-      name: "FAB061.width-450",
+      name: "FAB061",
       set: Release.Promos,
       
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LGS002",
-      name: "LGS002-P.width-450",
+      name: "LGS002",
       set: Release.Promos,
       
     },{
@@ -2942,6 +3092,7 @@ Your next Brute attack this turn gains +3{p}.
       
     },],
     name: "Anothos",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["FAB061","LGS002","XXX006","BVO003","1HP045","WTR040","CRU023"],
     sets: [Release.Promos,Release.Promos,Release.Promos,Release.BravoBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar],
@@ -2962,7 +3113,7 @@ While there are 2 or more cards with cost 3 or greater in your pitch zone, Anoth
     
     
     
-    pitch: 0,
+    
     power: 4,
     
     
@@ -2979,7 +3130,7 @@ While there are 2 or more cards with cost 3 or greater in your pitch zone, Anoth
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB004",
-      name: "FAB004-P.width-450",
+      name: "FAB004",
       set: Release.Promos,
       
     },{
@@ -3002,6 +3153,7 @@ While there are 2 or more cards with cost 3 or greater in your pitch zone, Anoth
       
     },],
     name: "Tectonic Plating",
+    rarities: [Rarity.Promo,Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB004","1HP047","WTR041"],
     sets: [Release.Promos,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -3022,7 +3174,7 @@ While there are 2 or more cards with cost 3 or greater in your pitch zone, Anoth
     keywords: [Keyword.Battleworn],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -3068,6 +3220,7 @@ While there are 2 or more cards with cost 3 or greater in your pitch zone, Anoth
       
     },],
     name: "Helm of Isen’s Peak",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BVO004","OLD004","1HP048","WTR042"],
     sets: [Release.BravoBlitzDeck,Release.OldhimBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -3088,7 +3241,7 @@ While there are 2 or more cards with cost 3 or greater in your pitch zone, Anoth
     keywords: [Keyword.Battleworn],
     
     
-    pitch: 0,
+    
     
     
     
@@ -3122,6 +3275,7 @@ While there are 2 or more cards with cost 3 or greater in your pitch zone, Anoth
       
     },],
     name: "Crippling Crush",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP050","WTR043"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -3176,6 +3330,7 @@ While there are 2 or more cards with cost 3 or greater in your pitch zone, Anoth
       
     },],
     name: "Spinal Crush",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP053","WTR044"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -3222,6 +3377,7 @@ While there are 2 or more cards with cost 3 or greater in your pitch zone, Anoth
       
     },],
     name: "Cranial Crush",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["WTR045"],
     sets: [Release.WelcomeToRathe],
@@ -3268,6 +3424,7 @@ While there are 2 or more cards with cost 3 or greater in your pitch zone, Anoth
       
     },],
     name: "Forged for War",
+    rarities: [Rarity.SuperRare],
     rarity: Rarity.SuperRare,
     setIdentifiers: ["WTR046"],
     sets: [Release.WelcomeToRathe],
@@ -3324,6 +3481,7 @@ At the beginning of your action phase, destroy Forged for War.`,
       
     },],
     name: "Show Time!",
+    rarities: [Rarity.Majestic,Rarity.SuperRare],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP054","WTR047"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -3386,6 +3544,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
       
     },],
     name: "Disable",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["BVO011","1HP055","WTR048"],
     sets: [Release.BravoBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -3438,6 +3597,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
       
     },],
     name: "Disable",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP056","WTR049"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -3496,6 +3656,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
       
     },],
     name: "Disable",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["BVO019","1HP057","WTR050"],
     sets: [Release.BravoBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -3548,6 +3709,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
       
     },],
     name: "Staunch Response",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP058","WTR051"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -3600,6 +3762,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
       
     },],
     name: "Staunch Response",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP059","WTR052"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -3658,6 +3821,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
       
     },],
     name: "Staunch Response",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["BVO020","1HP060","WTR053"],
     sets: [Release.BravoBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -3693,13 +3857,13 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS006",
-      name: "LGS006-P.width-450",
+      name: "LGS006",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LGS023",
-      name: "LGS023.width-450",
+      name: "LGS023",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -3722,10 +3886,11 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
       
     },],
     name: "Blessing of Deliverance",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS006","LGS023","1HP061","WTR054"],
     sets: [Release.Promos,Release.HistoryPack1,Release.WelcomeToRathe],
-    specialImageName: "LGS006-P.width-450",
+    specialImageName: "LGS006",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action – Aura",
@@ -3761,7 +3926,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS024",
-      name: "LGS024.width-450",
+      name: "LGS024",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -3784,10 +3949,11 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
       
     },],
     name: "Blessing of Deliverance",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS024","1HP062","WTR055"],
     sets: [Release.Promos,Release.HistoryPack1,Release.WelcomeToRathe],
-    specialImageName: "LGS024.width-450",
+    specialImageName: "LGS024",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action – Aura",
@@ -3823,7 +3989,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS025",
-      name: "LGS025.width-450",
+      name: "LGS025",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -3852,10 +4018,11 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
       
     },],
     name: "Blessing of Deliverance",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS025","BVO021","1HP063","WTR056"],
     sets: [Release.Promos,Release.BravoBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
-    specialImageName: "LGS025.width-450",
+    specialImageName: "LGS025",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Guardian Action – Aura",
@@ -3908,6 +4075,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
       
     },],
     name: "Buckling Blow",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BVO008","WTR057"],
     sets: [Release.BravoBlitzDeck,Release.WelcomeToRathe],
@@ -3954,6 +4122,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
       
     },],
     name: "Buckling Blow",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["WTR058"],
     sets: [Release.WelcomeToRathe],
@@ -4006,6 +4175,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
       
     },],
     name: "Buckling Blow",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BVO016","WTR059"],
     sets: [Release.BravoBlitzDeck,Release.WelcomeToRathe],
@@ -4064,6 +4234,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
       
     },],
     name: "Cartilage Crush",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BVO009","1HP067","WTR060"],
     sets: [Release.BravoBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -4116,6 +4287,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
       
     },],
     name: "Cartilage Crush",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP068","WTR061"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -4174,6 +4346,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
       
     },],
     name: "Cartilage Crush",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BVO017","1HP069","WTR062"],
     sets: [Release.BravoBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -4226,6 +4399,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
       
     },],
     name: "Crush Confidence",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP073","WTR063"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -4278,6 +4452,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
       
     },],
     name: "Crush Confidence",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP074","WTR064"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -4336,6 +4511,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
       
     },],
     name: "Crush Confidence",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BVO018","1HP075","WTR065"],
     sets: [Release.BravoBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -4394,6 +4570,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
       
     },],
     name: "Debilitate",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BVO010","1HP076","WTR066"],
     sets: [Release.BravoBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -4452,6 +4629,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
       
     },],
     name: "Debilitate",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BVO013","1HP077","WTR067"],
     sets: [Release.BravoBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -4504,6 +4682,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
       
     },],
     name: "Debilitate",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP078","WTR068"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -4556,6 +4735,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
       
     },],
     name: "Emerging Power",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BVO012","WTR069"],
     sets: [Release.BravoBlitzDeck,Release.WelcomeToRathe],
@@ -4610,6 +4790,7 @@ At the beginning of your action phase, destroy Emerging Power then the next Guar
       
     },],
     name: "Emerging Power",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BVO014","WTR070"],
     sets: [Release.BravoBlitzDeck,Release.WelcomeToRathe],
@@ -4658,6 +4839,7 @@ At the beginning of your action phase, destroy Emerging Power then the next Guar
       
     },],
     name: "Emerging Power",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["WTR071"],
     sets: [Release.WelcomeToRathe],
@@ -4712,6 +4894,7 @@ At the beginning of your action phase, destroy Emerging Power then the next Guar
       
     },],
     name: "Stonewall Confidence",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP082","WTR072"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -4770,6 +4953,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
       
     },],
     name: "Stonewall Confidence",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP083","WTR073"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -4834,6 +5018,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
       
     },],
     name: "Stonewall Confidence",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BVO022","1HP084","WTR074"],
     sets: [Release.BravoBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -4928,6 +5113,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
       
     },],
     name: "Seismic Surge",
+    rarities: [Rarity.Token,Rarity.Common],
     rarity: Rarity.Token,
     setIdentifiers: ["OLD032","1HP085","WTR075","CRU044","ELE212","EVR036"],
     sets: [Release.OldhimBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar,Release.TalesOfAria,Release.Everfest],
@@ -4946,7 +5132,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     
     
     
-    pitch: 0,
+    
     
     
     
@@ -4963,13 +5149,13 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER003",
-      name: "HER003-P.width-450",
+      name: "HER003",
       set: Release.Promos,
       
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER023",
-      name: "HER023-P.width-450",
+      name: "HER023",
       set: Release.Promos,
       
     },{
@@ -5010,6 +5196,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
       
     },],
     name: "Katsu, the Wanderer",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER003","HER023","WIN003","KSU001","1HP086","WTR076","CRU045"],
     sets: [Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar],
@@ -5028,7 +5215,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     
     life: 40,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Blitz,Format.Commoner],
     
@@ -5045,7 +5232,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER007",
-      name: "HER007-P.width-450",
+      name: "HER007",
       set: Release.Promos,
       
     },{
@@ -5086,6 +5273,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
       
     },],
     name: "Katsu",
+    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
     rarity: Rarity.Token,
     setIdentifiers: ["HER007","HER056","XXX004","KSU002","1HP087","WTR077"],
     sets: [Release.Promos,Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -5104,7 +5292,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     
     life: 20,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.ClassicConstructed],
     
@@ -5121,7 +5309,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS003",
-      name: "LGS003-P.width-450",
+      name: "LGS003",
       set: Release.Promos,
       
     },{
@@ -5192,6 +5380,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
       
     },],
     name: "Harmonized Kodachi",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token,Rarity.Rare],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS003","XXX008","KSU003","KSU004","1HP091","1HP092","WTR078","CRU048","CRU049"],
     sets: [Release.Promos,Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar],
@@ -5212,7 +5401,7 @@ If you have a card with cost 0 in your pitch zone, Harmonized Kodachi has **go a
     keywords: [Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     power: 1,
     
     
@@ -5229,7 +5418,7 @@ If you have a card with cost 0 in your pitch zone, Harmonized Kodachi has **go a
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB005",
-      name: "FAB005-P.width-450",
+      name: "FAB005",
       set: Release.Promos,
       
     },{
@@ -5252,6 +5441,7 @@ If you have a card with cost 0 in your pitch zone, Harmonized Kodachi has **go a
       
     },],
     name: "Mask of Momentum",
+    rarities: [Rarity.Promo,Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB005","1HP095","WTR079"],
     sets: [Release.Promos,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -5272,7 +5462,7 @@ If you have a card with cost 0 in your pitch zone, Harmonized Kodachi has **go a
     keywords: [Keyword.BladeBreak],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -5312,6 +5502,7 @@ If you have a card with cost 0 in your pitch zone, Harmonized Kodachi has **go a
       
     },],
     name: "Breaking Scales",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["KSU007","1HP096","WTR080"],
     sets: [Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -5332,7 +5523,7 @@ If you have a card with cost 0 in your pitch zone, Harmonized Kodachi has **go a
     keywords: [Keyword.Battleworn],
     
     
-    pitch: 0,
+    
     
     
     
@@ -5366,6 +5557,7 @@ If you have a card with cost 0 in your pitch zone, Harmonized Kodachi has **go a
       
     },],
     name: "Lord of Wind",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP101","WTR081"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -5420,6 +5612,7 @@ If you have a card with cost 0 in your pitch zone, Harmonized Kodachi has **go a
       
     },],
     name: "Ancestral Empowerment",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP103","WTR082"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -5474,6 +5667,7 @@ Draw a card.`,
       
     },],
     name: "Mugenshi: RELEASE",
+    rarities: [Rarity.Majestic,Rarity.SuperRare],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP102","WTR083"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -5522,6 +5716,7 @@ Draw a card.`,
       
     },],
     name: "Hurricane Technique",
+    rarities: [Rarity.SuperRare],
     rarity: Rarity.SuperRare,
     setIdentifiers: ["WTR084"],
     sets: [Release.WelcomeToRathe],
@@ -5568,6 +5763,7 @@ Draw a card.`,
       
     },],
     name: "Pounding Gale",
+    rarities: [Rarity.SuperRare],
     rarity: Rarity.SuperRare,
     setIdentifiers: ["WTR085"],
     sets: [Release.WelcomeToRathe],
@@ -5620,6 +5816,7 @@ Draw a card.`,
       
     },],
     name: "Fluster Fist",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["KSU010","WTR086"],
     sets: [Release.KatsuHeroDeck,Release.WelcomeToRathe],
@@ -5666,6 +5863,7 @@ Draw a card.`,
       
     },],
     name: "Fluster Fist",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["WTR087"],
     sets: [Release.WelcomeToRathe],
@@ -5718,6 +5916,7 @@ Draw a card.`,
       
     },],
     name: "Fluster Fist",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["KSU022","WTR088"],
     sets: [Release.KatsuHeroDeck,Release.WelcomeToRathe],
@@ -5776,6 +5975,7 @@ Draw a card.`,
       
     },],
     name: "Blackout Kick",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["KSU009","1HP104","WTR089"],
     sets: [Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -5828,6 +6028,7 @@ Draw a card.`,
       
     },],
     name: "Blackout Kick",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP105","WTR090"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -5880,6 +6081,7 @@ Draw a card.`,
       
     },],
     name: "Blackout Kick",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP106","WTR091"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -5932,6 +6134,7 @@ Draw a card.`,
       
     },],
     name: "Flic Flak",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP113","WTR092"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -5984,6 +6187,7 @@ Draw a card.`,
       
     },],
     name: "Flic Flak",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP114","WTR093"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -6042,6 +6246,7 @@ Draw a card.`,
       
     },],
     name: "Flic Flak",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["KSU025","1HP115","WTR094"],
     sets: [Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -6094,6 +6299,7 @@ Draw a card.`,
       
     },],
     name: "Open the Center",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["KSU013","WTR095"],
     sets: [Release.KatsuHeroDeck,Release.WelcomeToRathe],
@@ -6140,6 +6346,7 @@ Draw a card.`,
       
     },],
     name: "Open the Center",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["WTR096"],
     sets: [Release.WelcomeToRathe],
@@ -6186,6 +6393,7 @@ Draw a card.`,
       
     },],
     name: "Open the Center",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["WTR097"],
     sets: [Release.WelcomeToRathe],
@@ -6221,7 +6429,7 @@ Draw a card.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS017",
-      name: "LGS017.width-450",
+      name: "LGS017",
       set: Release.Promos,
       treatment: Treatment.AA,
     },{
@@ -6244,10 +6452,11 @@ Draw a card.`,
       
     },],
     name: "Head Jab",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS017","KSU011","WTR098"],
     sets: [Release.Promos,Release.KatsuHeroDeck,Release.WelcomeToRathe],
-    specialImageName: "LGS017.width-450",
+    specialImageName: "LGS017",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Ninja Action – Attack",
@@ -6279,7 +6488,7 @@ Draw a card.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS018",
-      name: "LGS018.width-450",
+      name: "LGS018",
       set: Release.Promos,
       treatment: Treatment.AA,
     },{
@@ -6296,10 +6505,11 @@ Draw a card.`,
       
     },],
     name: "Head Jab",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS018","WTR099"],
     sets: [Release.Promos,Release.WelcomeToRathe],
-    specialImageName: "LGS018.width-450",
+    specialImageName: "LGS018",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Ninja Action – Attack",
@@ -6331,7 +6541,7 @@ Draw a card.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS019",
-      name: "LGS019.width-450",
+      name: "LGS019",
       set: Release.Promos,
       treatment: Treatment.AA,
     },{
@@ -6360,10 +6570,11 @@ Draw a card.`,
       
     },],
     name: "Head Jab",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS019","IRA008","KSU023","WTR100"],
     sets: [Release.Promos,Release.IraWelcomeDeck,Release.KatsuHeroDeck,Release.WelcomeToRathe],
-    specialImageName: "LGS019.width-450",
+    specialImageName: "LGS019",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Ninja Action – Attack",
@@ -6418,6 +6629,7 @@ Draw a card.`,
       
     },],
     name: "Leg Tap",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["KSU012","1HP116","WTR101"],
     sets: [Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -6476,6 +6688,7 @@ Draw a card.`,
       
     },],
     name: "Leg Tap",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["KSU018","1HP117","WTR102"],
     sets: [Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -6528,6 +6741,7 @@ Draw a card.`,
       
     },],
     name: "Leg Tap",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP118","WTR103"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -6586,6 +6800,7 @@ Draw a card.`,
       
     },],
     name: "Rising Knee Thrust",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["KSU014","1HP119","WTR104"],
     sets: [Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -6644,6 +6859,7 @@ Draw a card.`,
       
     },],
     name: "Rising Knee Thrust",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["KSU019","1HP120","WTR105"],
     sets: [Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -6696,6 +6912,7 @@ Draw a card.`,
       
     },],
     name: "Rising Knee Thrust",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP121","WTR106"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -6754,6 +6971,7 @@ Draw a card.`,
       
     },],
     name: "Surging Strike",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["KSU015","1HP125","WTR107"],
     sets: [Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -6812,6 +7030,7 @@ Draw a card.`,
       
     },],
     name: "Surging Strike",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["KSU020","1HP126","WTR108"],
     sets: [Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -6864,6 +7083,7 @@ Draw a card.`,
       
     },],
     name: "Surging Strike",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP127","WTR109"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -6899,13 +7119,13 @@ Draw a card.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS007",
-      name: "LGS007-P.width-450",
+      name: "LGS007",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LGS026",
-      name: "LGS026.width-450",
+      name: "LGS026",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -6934,10 +7154,11 @@ Draw a card.`,
       
     },],
     name: "Whelming Gustwave",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS007","LGS026","KSU016","1HP131","WTR110"],
     sets: [Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
-    specialImageName: "LGS007-P.width-450",
+    specialImageName: "LGS007",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Ninja Action – Attack",
@@ -6969,7 +7190,7 @@ Draw a card.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS027",
-      name: "LGS027.width-450",
+      name: "LGS027",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -6992,10 +7213,11 @@ Draw a card.`,
       
     },],
     name: "Whelming Gustwave",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS027","1HP132","WTR111"],
     sets: [Release.Promos,Release.HistoryPack1,Release.WelcomeToRathe],
-    specialImageName: "LGS027.width-450",
+    specialImageName: "LGS027",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Ninja Action – Attack",
@@ -7027,7 +7249,7 @@ Draw a card.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS028",
-      name: "LGS028.width-450",
+      name: "LGS028",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -7056,10 +7278,11 @@ Draw a card.`,
       
     },],
     name: "Whelming Gustwave",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS028","KSU024","1HP133","WTR112"],
     sets: [Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
-    specialImageName: "LGS028.width-450",
+    specialImageName: "LGS028",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Ninja Action – Attack",
@@ -7091,13 +7314,13 @@ Draw a card.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER004",
-      name: "HER004-P.width-450",
+      name: "HER004",
       set: Release.Promos,
       
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER024",
-      name: "HER024-P.width-450",
+      name: "HER024",
       set: Release.Promos,
       
     },{
@@ -7138,6 +7361,7 @@ Draw a card.`,
       
     },],
     name: "Dorinthea Ironsong",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER004","HER024","WIN004","TEA001","1HP138","WTR113","CRU076"],
     sets: [Release.Promos,Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar],
@@ -7156,7 +7380,7 @@ Draw a card.`,
     
     life: 40,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Blitz,Format.Commoner],
     
@@ -7173,7 +7397,7 @@ Draw a card.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER008",
-      name: "HER008-P.width-450",
+      name: "HER008",
       set: Release.Promos,
       
     },{
@@ -7214,6 +7438,7 @@ Draw a card.`,
       
     },],
     name: "Dorinthea",
+    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
     rarity: Rarity.Token,
     setIdentifiers: ["HER008","HER057","XXX001","TEA002","1HP139","WTR114"],
     sets: [Release.Promos,Release.Promos,Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -7232,7 +7457,7 @@ Draw a card.`,
     
     life: 20,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.ClassicConstructed],
     
@@ -7249,13 +7474,13 @@ Draw a card.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB062",
-      name: "FAB062.width-450",
+      name: "FAB062",
       set: Release.Promos,
       
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LGS004",
-      name: "LGS004-P.width-450",
+      name: "LGS004",
       set: Release.Promos,
       
     },{
@@ -7302,6 +7527,7 @@ Draw a card.`,
       
     },],
     name: "Dawnblade",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["FAB062","LGS004","XXX007","TEA003","1HP143","WTR115","CRU078"],
     sets: [Release.Promos,Release.Promos,Release.Promos,Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar],
@@ -7324,7 +7550,7 @@ At the beginning of your end phase, if Dawnblade has not hit this turn, remove a
     
     
     
-    pitch: 0,
+    
     power: 3,
     
     
@@ -7341,7 +7567,7 @@ At the beginning of your end phase, if Dawnblade has not hit this turn, remove a
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB006",
-      name: "FAB006-P.width-450",
+      name: "FAB006",
       set: Release.Promos,
       
     },{
@@ -7364,6 +7590,7 @@ At the beginning of your end phase, if Dawnblade has not hit this turn, remove a
       
     },],
     name: "Braveforge Bracers",
+    rarities: [Rarity.Promo,Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB006","1HP144","WTR116"],
     sets: [Release.Promos,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -7384,7 +7611,7 @@ At the beginning of your end phase, if Dawnblade has not hit this turn, remove a
     keywords: [Keyword.Battleworn],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -7424,6 +7651,7 @@ At the beginning of your end phase, if Dawnblade has not hit this turn, remove a
       
     },],
     name: "Refraction Bolters",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["TEA007","1HP145","WTR117"],
     sets: [Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -7444,7 +7672,7 @@ At the beginning of your end phase, if Dawnblade has not hit this turn, remove a
     keywords: [Keyword.Battleworn,Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     
     
     
@@ -7478,6 +7706,7 @@ At the beginning of your end phase, if Dawnblade has not hit this turn, remove a
       
     },],
     name: "Glint the Quicksilver",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP147","WTR118"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -7532,6 +7761,7 @@ At the beginning of your end phase, if Dawnblade has not hit this turn, remove a
       
     },],
     name: "Steelblade Supremacy",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP152","WTR119"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -7588,6 +7818,7 @@ Until end of turn, target weapon gains +2{p} and “Whenever this weapon hits, d
       
     },],
     name: "Rout",
+    rarities: [Rarity.Majestic,Rarity.SuperRare],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP148","WTR120"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -7642,6 +7873,7 @@ Until end of turn, target weapon gains +2{p} and “Whenever this weapon hits, d
       
     },],
     name: "Singing Steelblade",
+    rarities: [Rarity.Majestic,Rarity.SuperRare],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP149","WTR121"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -7692,6 +7924,7 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Ironsong Determination",
+    rarities: [Rarity.SuperRare],
     rarity: Rarity.SuperRare,
     setIdentifiers: ["WTR122"],
     sets: [Release.WelcomeToRathe],
@@ -7752,6 +7985,7 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Overpower",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["TEA010","1HP153","WTR123"],
     sets: [Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -7806,6 +8040,7 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Overpower",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP154","WTR124"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -7860,6 +8095,7 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Overpower",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP155","WTR125"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -7920,6 +8156,7 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Steelblade Shunt",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["TEA011","1HP156","WTR126"],
     sets: [Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -7972,6 +8209,7 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Steelblade Shunt",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP157","WTR127"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -8024,6 +8262,7 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Steelblade Shunt",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP158","WTR128"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -8082,6 +8321,7 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Warrior’s Valor",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DVR011","1HP159","WTR129"],
     sets: [Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -8099,7 +8339,7 @@ Target weapon attack gains +1{p}.
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 1,
@@ -8142,6 +8382,7 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Warrior’s Valor",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["TEA018","1HP160","WTR130"],
     sets: [Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -8159,7 +8400,7 @@ Target weapon attack gains +1{p}.
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 2,
@@ -8202,6 +8443,7 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Warrior’s Valor",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["TEA025","1HP161","WTR131"],
     sets: [Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -8219,7 +8461,7 @@ Target weapon attack gains +1{p}.
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 3,
@@ -8239,13 +8481,13 @@ Target weapon attack gains +1{p}.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS008",
-      name: "LGS008-P.width-450",
+      name: "LGS008",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LGS029",
-      name: "LGS029.width-450",
+      name: "LGS029",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -8274,10 +8516,11 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Ironsong Response",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS008","LGS029","DVR016","1HP162","WTR132"],
     sets: [Release.Promos,Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.WelcomeToRathe],
-    specialImageName: "LGS008-P.width-450",
+    specialImageName: "LGS008",
     subtypes: [],
     types: [Type.AttackReaction],
     typeText: "Warrior Attack Reaction",
@@ -8309,7 +8552,7 @@ Target weapon attack gains +1{p}.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS030",
-      name: "LGS030.width-450",
+      name: "LGS030",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -8332,10 +8575,11 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Ironsong Response",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS030","1HP163","WTR133"],
     sets: [Release.Promos,Release.HistoryPack1,Release.WelcomeToRathe],
-    specialImageName: "LGS030.width-450",
+    specialImageName: "LGS030",
     subtypes: [],
     types: [Type.AttackReaction],
     typeText: "Warrior Attack Reaction",
@@ -8367,7 +8611,7 @@ Target weapon attack gains +1{p}.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS031",
-      name: "LGS031.width-450",
+      name: "LGS031",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -8396,10 +8640,11 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Ironsong Response",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS031","TEA021","1HP164","WTR134"],
     sets: [Release.Promos,Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
-    specialImageName: "LGS031.width-450",
+    specialImageName: "LGS031",
     subtypes: [],
     types: [Type.AttackReaction],
     typeText: "Warrior Attack Reaction",
@@ -8448,6 +8693,7 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Biting Blade",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["TEA008","WTR135"],
     sets: [Release.DorintheaHeroDeck,Release.WelcomeToRathe],
@@ -8496,6 +8742,7 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Biting Blade",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["WTR136"],
     sets: [Release.WelcomeToRathe],
@@ -8550,6 +8797,7 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Biting Blade",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["TEA020","WTR137"],
     sets: [Release.DorintheaHeroDeck,Release.WelcomeToRathe],
@@ -8610,6 +8858,7 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Stroke of Foresight",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["TEA009","1HP168","WTR138"],
     sets: [Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -8670,6 +8919,7 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Stroke of Foresight",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["TEA017","1HP169","WTR139"],
     sets: [Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -8724,6 +8974,7 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Stroke of Foresight",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP170","WTR140"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -8784,6 +9035,7 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Sharpen Steel",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["TEA014","DVR012","WTR141"],
     sets: [Release.DorintheaHeroDeck,Release.ClassicBattlesRhinarDorinthea,Release.WelcomeToRathe],
@@ -8832,6 +9084,7 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Sharpen Steel",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["WTR142"],
     sets: [Release.WelcomeToRathe],
@@ -8886,6 +9139,7 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Sharpen Steel",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["TEA024","WTR143"],
     sets: [Release.DorintheaHeroDeck,Release.WelcomeToRathe],
@@ -8946,6 +9200,7 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Driving Blade",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["TEA012","1HP171","WTR144"],
     sets: [Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -8963,7 +9218,7 @@ Target weapon attack gains +1{p}.
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 1,
@@ -9006,6 +9261,7 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Driving Blade",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP172","DVR017","WTR145"],
     sets: [Release.HistoryPack1,Release.ClassicBattlesRhinarDorinthea,Release.WelcomeToRathe],
@@ -9023,7 +9279,7 @@ Target weapon attack gains +1{p}.
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 2,
@@ -9066,6 +9322,7 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Driving Blade",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["TEA022","1HP173","WTR146"],
     sets: [Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -9083,7 +9340,7 @@ Target weapon attack gains +1{p}.
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 3,
@@ -9126,6 +9383,7 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Nature’s Path Pilgrimage",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["TEA013","1HP177","WTR147"],
     sets: [Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -9180,6 +9438,7 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Nature’s Path Pilgrimage",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP178","WTR148"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -9240,6 +9499,7 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Nature’s Path Pilgrimage",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["TEA023","1HP179","WTR149"],
     sets: [Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -9277,7 +9537,7 @@ Target weapon attack gains +1{p}.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB001",
-      name: "FAB001-P.width-450",
+      name: "FAB001",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -9318,10 +9578,11 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Fyendal’s Spring Tunic",
+    rarities: [Rarity.Promo,Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB001","FAB002","1HP341","WTR150","CRU178"],
     sets: [Release.Promos,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar],
-    specialImageName: "FAB001-P.width-450",
+    specialImageName: "FAB001",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
     typeText: "Generic Equipment – Chest",
@@ -9340,7 +9601,7 @@ Target weapon attack gains +1{p}.
     keywords: [Keyword.BladeBreak],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -9380,6 +9641,7 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Hope Merchant’s Hood",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAI003","TEA004","1HP350","WTR151"],
     sets: [Release.FaiBlitzDeck,Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -9398,7 +9660,7 @@ Target weapon attack gains +1{p}.
     
     
     
-    pitch: 0,
+    
     
     
     
@@ -9415,7 +9677,7 @@ Target weapon attack gains +1{p}.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB063",
-      name: "FAB063.width-450",
+      name: "FAB063",
       set: Release.Promos,
       
     },{
@@ -9456,6 +9718,7 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Heartened Cross Strap",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB063","BRI006","KSU006","PSM005","1HP351","WTR152"],
     sets: [Release.Promos,Release.BriarBlitzDeck,Release.KatsuHeroDeck,Release.PrismBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -9471,10 +9734,10 @@ Target weapon attack gains +1{p}.
     
     
     
+    keywords: [Keyword.GoAgain],
     
     
     
-    pitch: 0,
     
     restrictedFormats: [Format.Blitz],
     
@@ -9491,7 +9754,7 @@ Target weapon attack gains +1{p}.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB064",
-      name: "FAB064.width-450",
+      name: "FAB064",
       set: Release.Promos,
       
     },{
@@ -9532,6 +9795,7 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Goliath Gauntlet",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB064","BVO006","LEV006","OLD006","1HP352","WTR153"],
     sets: [Release.Promos,Release.BravoBlitzDeck,Release.LeviaBlitzDeck,Release.OldhimBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -9547,10 +9811,10 @@ Target weapon attack gains +1{p}.
     
     
     
+    keywords: [Keyword.GoAgain],
     
     
     
-    pitch: 0,
     
     
     
@@ -9567,7 +9831,7 @@ Target weapon attack gains +1{p}.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB065",
-      name: "FAB065.width-450",
+      name: "FAB065",
       set: Release.Promos,
       
     },{
@@ -9608,6 +9872,7 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Snapdragon Scalers",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB065","BOL008","CHN007","RNR007","1HP353","WTR154"],
     sets: [Release.Promos,Release.BoltynBlitzDeck,Release.ChaneBlitzDeck,Release.RhinarHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -9623,10 +9888,10 @@ Target weapon attack gains +1{p}.
     
     
     
+    keywords: [Keyword.GoAgain],
     
     
     
-    pitch: 0,
     
     
     
@@ -9684,6 +9949,7 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Ironrot Helm",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OXO001","KSU005","RNR004","DVR003","1HP342","WTR155"],
     sets: [Release.Promos,Release.KatsuHeroDeck,Release.RhinarHeroDeck,Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -9702,7 +9968,7 @@ Target weapon attack gains +1{p}.
     keywords: [Keyword.BladeBreak],
     
     
-    pitch: 0,
+    
     
     
     
@@ -9754,6 +10020,7 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Ironrot Plate",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OXO002","BVO005","TEA005","1HP343","WTR156"],
     sets: [Release.Promos,Release.BravoBlitzDeck,Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -9772,7 +10039,7 @@ Target weapon attack gains +1{p}.
     keywords: [Keyword.BladeBreak],
     
     
-    pitch: 0,
+    
     
     
     
@@ -9830,6 +10097,7 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Ironrot Gauntlet",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OXO003","BRI007","RNR006","TEA006","1HP344","WTR157"],
     sets: [Release.Promos,Release.BriarBlitzDeck,Release.RhinarHeroDeck,Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -9848,7 +10116,7 @@ Target weapon attack gains +1{p}.
     keywords: [Keyword.BladeBreak],
     
     
-    pitch: 0,
+    
     
     
     
@@ -9912,6 +10180,7 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Ironrot Legs",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OXO004","BVO007","KSU008","LXI006","DVR006","1HP345","WTR158"],
     sets: [Release.Promos,Release.BravoBlitzDeck,Release.KatsuHeroDeck,Release.LexiBlitzDeck,Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -9930,7 +10199,7 @@ Target weapon attack gains +1{p}.
     keywords: [Keyword.BladeBreak],
     
     
-    pitch: 0,
+    
     
     
     
@@ -9964,6 +10233,7 @@ Target weapon attack gains +1{p}.
       
     },],
     name: "Enlightened Strike",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP361","WTR159"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -10021,6 +10291,7 @@ Choose 1;
       
     },],
     name: "Tome of Fyendal",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP365","WTR160"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -10075,6 +10346,7 @@ If Tome of Fyendal is played from arsenal, gain 1{h} for each card in your hand.
       
     },],
     name: "Last Ditch Effort",
+    rarities: [Rarity.Majestic,Rarity.SuperRare],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP362","WTR161"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -10110,7 +10382,7 @@ If Tome of Fyendal is played from arsenal, gain 1{h} for each card in your hand.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB016",
-      name: "FAB016.width-450",
+      name: "FAB016",
       set: Release.Promos,
       
     },{
@@ -10133,6 +10405,7 @@ If Tome of Fyendal is played from arsenal, gain 1{h} for each card in your hand.
       
     },],
     name: "Crazy Brew",
+    rarities: [Rarity.Promo,Rarity.Majestic,Rarity.SuperRare],
     rarity: Rarity.Majestic,
     setIdentifiers: ["FAB016","1HP363","WTR162"],
     sets: [Release.Promos,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -10152,7 +10425,7 @@ If Tome of Fyendal is played from arsenal, gain 1{h} for each card in your hand.
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 3,
@@ -10183,6 +10456,7 @@ If Tome of Fyendal is played from arsenal, gain 1{h} for each card in your hand.
       
     },],
     name: "Remembrance",
+    rarities: [Rarity.SuperRare],
     rarity: Rarity.SuperRare,
     setIdentifiers: ["WTR163"],
     sets: [Release.WelcomeToRathe],
@@ -10237,6 +10511,7 @@ Banish Remembrance.`,
       
     },],
     name: "Drone of Brutality",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["RNR015","WTR164"],
     sets: [Release.RhinarHeroDeck,Release.WelcomeToRathe],
@@ -10283,6 +10558,7 @@ Banish Remembrance.`,
       
     },],
     name: "Drone of Brutality",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["WTR165"],
     sets: [Release.WelcomeToRathe],
@@ -10335,6 +10611,7 @@ Banish Remembrance.`,
       
     },],
     name: "Drone of Brutality",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["BVO025","WTR166"],
     sets: [Release.BravoBlitzDeck,Release.WelcomeToRathe],
@@ -10387,6 +10664,7 @@ Banish Remembrance.`,
       
     },],
     name: "Snatch",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP371","WTR167"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -10439,6 +10717,7 @@ Banish Remembrance.`,
       
     },],
     name: "Snatch",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP372","WTR168"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -10491,6 +10770,7 @@ Banish Remembrance.`,
       
     },],
     name: "Snatch",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP373","WTR169"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -10526,7 +10806,7 @@ Banish Remembrance.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB012",
-      name: "FAB012-P.width-450",
+      name: "FAB012",
       set: Release.Promos,
       
     },{
@@ -10561,6 +10841,7 @@ Banish Remembrance.`,
       
     },],
     name: "Energy Potion",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["FAB012","KSU029","TEA028","1HP381","WTR170"],
     sets: [Release.Promos,Release.KatsuHeroDeck,Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -10596,7 +10877,7 @@ Banish Remembrance.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB013",
-      name: "FAB013-P.width-450",
+      name: "FAB013",
       set: Release.Promos,
       
     },{
@@ -10625,6 +10906,7 @@ Banish Remembrance.`,
       
     },],
     name: "Potion of Strength",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["FAB013","BVO028","1HP382","WTR171"],
     sets: [Release.Promos,Release.BravoBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -10640,7 +10922,7 @@ Banish Remembrance.`,
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 3,
@@ -10660,7 +10942,7 @@ Banish Remembrance.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB014",
-      name: "FAB014-P.width-450",
+      name: "FAB014",
       set: Release.Promos,
       
     },{
@@ -10689,6 +10971,7 @@ Banish Remembrance.`,
       
     },],
     name: "Timesnap Potion",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["FAB014","RNR029","1HP383","WTR172"],
     sets: [Release.Promos,Release.RhinarHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -10747,6 +11030,7 @@ Banish Remembrance.`,
       
     },],
     name: "Sigil of Solace",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DRO026","1HP387","WTR173"],
     sets: [Release.DromaiBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -10799,6 +11083,7 @@ Banish Remembrance.`,
       
     },],
     name: "Sigil of Solace",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP388","WTR174"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -10875,6 +11160,7 @@ Banish Remembrance.`,
       
     },],
     name: "Sigil of Solace",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["KSU030","RNR030","TEA029","DVR025","1HP389","WTR175"],
     sets: [Release.KatsuHeroDeck,Release.RhinarHeroDeck,Release.DorintheaHeroDeck,Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -10921,6 +11207,7 @@ Banish Remembrance.`,
       
     },],
     name: "Barraging Brawnhide",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["WTR176"],
     sets: [Release.WelcomeToRathe],
@@ -10973,6 +11260,7 @@ Banish Remembrance.`,
       
     },],
     name: "Barraging Brawnhide",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["RNR019","WTR177"],
     sets: [Release.RhinarHeroDeck,Release.WelcomeToRathe],
@@ -11025,6 +11313,7 @@ Banish Remembrance.`,
       
     },],
     name: "Barraging Brawnhide",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BVO023","WTR178"],
     sets: [Release.BravoBlitzDeck,Release.WelcomeToRathe],
@@ -11071,6 +11360,7 @@ Banish Remembrance.`,
       
     },],
     name: "Demolition Crew",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["WTR179"],
     sets: [Release.WelcomeToRathe],
@@ -11119,6 +11409,7 @@ Banish Remembrance.`,
       
     },],
     name: "Demolition Crew",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["WTR180"],
     sets: [Release.WelcomeToRathe],
@@ -11167,6 +11458,7 @@ Banish Remembrance.`,
       
     },],
     name: "Demolition Crew",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["WTR181"],
     sets: [Release.WelcomeToRathe],
@@ -11227,6 +11519,7 @@ Banish Remembrance.`,
       
     },],
     name: "Flock of the Feather Walkers",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DVR026","1HP390","WTR182"],
     sets: [Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -11281,6 +11574,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken aura token. 
       
     },],
     name: "Flock of the Feather Walkers",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP391","WTR183"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -11347,6 +11641,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken aura token. 
       
     },],
     name: "Flock of the Feather Walkers",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["RNR027","TEA026","1HP392","WTR184"],
     sets: [Release.RhinarHeroDeck,Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -11395,6 +11690,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken aura token. 
       
     },],
     name: "Nimble Strike",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["WTR185"],
     sets: [Release.WelcomeToRathe],
@@ -11441,6 +11737,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken aura token. 
       
     },],
     name: "Nimble Strike",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["WTR186"],
     sets: [Release.WelcomeToRathe],
@@ -11487,6 +11784,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken aura token. 
       
     },],
     name: "Nimble Strike",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["WTR187"],
     sets: [Release.WelcomeToRathe],
@@ -11533,6 +11831,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken aura token. 
       
     },],
     name: "Raging Onslaught",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["WTR188"],
     sets: [Release.WelcomeToRathe],
@@ -11591,6 +11890,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken aura token. 
       
     },],
     name: "Raging Onslaught",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["RNR020","RVD019","WTR189"],
     sets: [Release.RhinarHeroDeck,Release.ClassicBattlesRhinarDorinthea,Release.WelcomeToRathe],
@@ -11643,6 +11943,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken aura token. 
       
     },],
     name: "Raging Onslaught",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BVO024","WTR190"],
     sets: [Release.BravoBlitzDeck,Release.WelcomeToRathe],
@@ -11678,7 +11979,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken aura token. 
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB015",
-      name: "FAB015-P.width-450",
+      name: "FAB015",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -11719,10 +12020,11 @@ When you attack with Flock of the Feather Walkers, create a Quicken aura token. 
       
     },],
     name: "Scar for a Scar",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB015","IRA009","KSU017","1HP396","WTR191","UPR209"],
     sets: [Release.Promos,Release.IraWelcomeDeck,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.Uprising],
-    specialImageName: "FAB015-P.width-450",
+    specialImageName: "FAB015",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Generic Action – Attack",
@@ -11777,6 +12079,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken aura token. 
       
     },],
     name: "Scar for a Scar",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP397","WTR192","UPR210"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe,Release.Uprising],
@@ -11835,6 +12138,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken aura token. 
       
     },],
     name: "Scar for a Scar",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP398","WTR193","UPR211"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe,Release.Uprising],
@@ -11881,6 +12185,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken aura token. 
       
     },],
     name: "Scour the Battlescape",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["WTR194"],
     sets: [Release.WelcomeToRathe],
@@ -11929,6 +12234,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
       
     },],
     name: "Scour the Battlescape",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["WTR195"],
     sets: [Release.WelcomeToRathe],
@@ -11995,6 +12301,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
       
     },],
     name: "Scour the Battlescape",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["KSU026","RNR028","TEA027","WTR196"],
     sets: [Release.KatsuHeroDeck,Release.RhinarHeroDeck,Release.DorintheaHeroDeck,Release.WelcomeToRathe],
@@ -12043,6 +12350,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
       
     },],
     name: "Regurgitating Slog",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["WTR197"],
     sets: [Release.WelcomeToRathe],
@@ -12089,6 +12397,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
       
     },],
     name: "Regurgitating Slog",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["WTR198"],
     sets: [Release.WelcomeToRathe],
@@ -12135,6 +12444,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
       
     },],
     name: "Regurgitating Slog",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["WTR199"],
     sets: [Release.WelcomeToRathe],
@@ -12181,6 +12491,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
       
     },],
     name: "Wounded Bull",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["WTR200"],
     sets: [Release.WelcomeToRathe],
@@ -12239,6 +12550,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
       
     },],
     name: "Wounded Bull",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["RNR021","RVD020","WTR201"],
     sets: [Release.RhinarHeroDeck,Release.ClassicBattlesRhinarDorinthea,Release.WelcomeToRathe],
@@ -12291,6 +12603,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
       
     },],
     name: "Wounded Bull",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BVO026","WTR202"],
     sets: [Release.BravoBlitzDeck,Release.WelcomeToRathe],
@@ -12349,6 +12662,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
       
     },],
     name: "Wounding Blow",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DRO022","TEA015","WTR203"],
     sets: [Release.DromaiBlitzDeck,Release.DorintheaHeroDeck,Release.WelcomeToRathe],
@@ -12395,6 +12709,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
       
     },],
     name: "Wounding Blow",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["WTR204"],
     sets: [Release.WelcomeToRathe],
@@ -12447,6 +12762,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
       
     },],
     name: "Wounding Blow",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAI027","KSU027","WTR205"],
     sets: [Release.FaiBlitzDeck,Release.KatsuHeroDeck,Release.WelcomeToRathe],
@@ -12499,6 +12815,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
       
     },],
     name: "Pummel",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP399","WTR206"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -12553,6 +12870,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
       
     },],
     name: "Pummel",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP400","WTR207"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -12613,6 +12931,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
       
     },],
     name: "Pummel",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BVO027","1HP401","WTR208"],
     sets: [Release.BravoBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -12673,6 +12992,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
       
     },],
     name: "Razor Reflex",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["TEA016","1HP402","WTR209"],
     sets: [Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -12727,6 +13047,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
       
     },],
     name: "Razor Reflex",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP403","WTR210"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -12781,6 +13102,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
       
     },],
     name: "Razor Reflex",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP404","WTR211"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -12835,6 +13157,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
       
     },],
     name: "Unmovable",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP411","WTR212"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -12889,6 +13212,7 @@ If Unmovable is played from arsenal, it gains +1{d}.`,
       
     },],
     name: "Unmovable",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP412","WTR213"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -12943,6 +13267,7 @@ If Unmovable is played from arsenal, it gains +1{d}.`,
       
     },],
     name: "Unmovable",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP413","WTR214"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -13003,6 +13328,7 @@ If Unmovable is played from arsenal, it gains +1{d}.`,
       
     },],
     name: "Sink Below",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DRO028","1HP408","WTR215"],
     sets: [Release.DromaiBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -13055,6 +13381,7 @@ If Unmovable is played from arsenal, it gains +1{d}.`,
       
     },],
     name: "Sink Below",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP409","WTR216"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -13107,6 +13434,7 @@ If Unmovable is played from arsenal, it gains +1{d}.`,
       
     },],
     name: "Sink Below",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP410","WTR217"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -13159,6 +13487,7 @@ If Unmovable is played from arsenal, it gains +1{d}.`,
       
     },],
     name: "Nimblism",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP417","WTR218"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -13213,6 +13542,7 @@ If Unmovable is played from arsenal, it gains +1{d}.`,
       
     },],
     name: "Nimblism",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP418","WTR219"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -13267,6 +13597,7 @@ If Unmovable is played from arsenal, it gains +1{d}.`,
       
     },],
     name: "Nimblism",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP419","WTR220"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -13321,6 +13652,7 @@ If Unmovable is played from arsenal, it gains +1{d}.`,
       
     },],
     name: "Sloggism",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP420","WTR221"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -13375,6 +13707,7 @@ If Unmovable is played from arsenal, it gains +1{d}.`,
       
     },],
     name: "Sloggism",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP421","WTR222"],
     sets: [Release.HistoryPack1,Release.WelcomeToRathe],
@@ -13435,6 +13768,7 @@ If Unmovable is played from arsenal, it gains +1{d}.`,
       
     },],
     name: "Sloggism",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BVO029","1HP422","WTR223"],
     sets: [Release.BravoBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
@@ -13472,7 +13806,7 @@ If Unmovable is played from arsenal, it gains +1{d}.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS083",
-      name: "LGS083.width-450",
+      name: "LGS083",
       set: Release.Promos,
       
     },{
@@ -13543,6 +13877,7 @@ If Unmovable is played from arsenal, it gains +1{d}.`,
       
     },],
     name: "Cracked Bauble",
+    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS083","WTR224","ARC218","CRU195","MON306","ELE237","UPR224"],
     sets: [Release.Promos,Release.WelcomeToRathe,Release.ArcaneRising,Release.CrucibleOfWar,Release.Monarch,Release.TalesOfAria,Release.Uprising],
@@ -13637,6 +13972,7 @@ If Unmovable is played from arsenal, it gains +1{d}.`,
       
     },],
     name: "Quicken",
+    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
     rarity: Rarity.Token,
     setIdentifiers: ["XXX009","RNR031","TEA030","DVR028","1HP427","WTR225","CRU196","EVR196"],
     sets: [Release.Promos,Release.RhinarHeroDeck,Release.DorintheaHeroDeck,Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar,Release.Everfest],
@@ -13657,7 +13993,7 @@ When you play an attack action card or activate a weapon attack, destroy Quicken
     keywords: [Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     
     
     
@@ -13685,6 +14021,7 @@ When you play an attack action card or activate a weapon attack, destroy Quicken
       
     },],
     name: "Eye of Ophidia",
+    rarities: [Rarity.Fabled],
     rarity: Rarity.Fabled,
     setIdentifiers: ["ARC000"],
     sets: [Release.ArcaneRising],
@@ -13722,13 +14059,13 @@ When you pitch Eye of Ophidia, **opt 2.**`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER009",
-      name: "HER009-P.width-450",
+      name: "HER009",
       set: Release.Promos,
       
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER017",
-      name: "HER017-P.width-450",
+      name: "HER017",
       set: Release.Promos,
       
     },{
@@ -13763,6 +14100,7 @@ When you pitch Eye of Ophidia, **opt 2.**`,
       
     },],
     name: "Dash, Inventor Extraordinaire",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER009","HER017","WIN005","1HP180","ARC001","CRU098"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar],
@@ -13781,7 +14119,7 @@ When you pitch Eye of Ophidia, **opt 2.**`,
     
     life: 40,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Blitz,Format.Commoner],
     
@@ -13798,7 +14136,7 @@ When you pitch Eye of Ophidia, **opt 2.**`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER013",
-      name: "HER013-P.width-450",
+      name: "HER013",
       set: Release.Promos,
       
     },{
@@ -13821,6 +14159,7 @@ When you pitch Eye of Ophidia, **opt 2.**`,
       
     },],
     name: "Dash",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER013","1HP181","ARC002"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
@@ -13839,7 +14178,7 @@ When you pitch Eye of Ophidia, **opt 2.**`,
     
     life: 20,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.ClassicConstructed],
     
@@ -13856,7 +14195,7 @@ When you pitch Eye of Ophidia, **opt 2.**`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS009",
-      name: "LGS009-P.width-450",
+      name: "LGS009",
       set: Release.Promos,
       
     },{
@@ -13891,6 +14230,7 @@ When you pitch Eye of Ophidia, **opt 2.**`,
       
     },],
     name: "Teklo Plasma Pistol",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS009","1HP184","ARC003","CRU100"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar],
@@ -13908,10 +14248,10 @@ When you pitch Eye of Ophidia, **opt 2.**`,
     
     
     
+    keywords: [Keyword.GoAgain],
     
     
     
-    pitch: 0,
     power: 2,
     
     
@@ -13928,7 +14268,7 @@ When you pitch Eye of Ophidia, **opt 2.**`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB008",
-      name: "FAB008-P.width-450",
+      name: "FAB008",
       set: Release.Promos,
       
     },{
@@ -13951,6 +14291,7 @@ When you pitch Eye of Ophidia, **opt 2.**`,
       
     },],
     name: "Teklo Foundry Heart",
+    rarities: [Rarity.Promo,Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB008","1HP185","ARC004"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
@@ -13968,10 +14309,10 @@ When you pitch Eye of Ophidia, **opt 2.**`,
     
     
     
-    keywords: [Keyword.Battleworn],
+    keywords: [Keyword.Battleworn,Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -14005,6 +14346,7 @@ When you pitch Eye of Ophidia, **opt 2.**`,
       
     },],
     name: "Achilles Accelerator",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP186","ARC005"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -14025,7 +14367,7 @@ When you pitch Eye of Ophidia, **opt 2.**`,
     keywords: [Keyword.ArcaneBarrier],
     
     
-    pitch: 0,
+    
     
     
     
@@ -14059,6 +14401,7 @@ When you pitch Eye of Ophidia, **opt 2.**`,
       
     },],
     name: "High Octane",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP188","ARC006"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -14121,6 +14464,7 @@ Draw a card.
       
     },],
     name: "Teklo Core",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP192","ARC007"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -14171,6 +14515,7 @@ At the beginning of your action phase, remove a steam counter from Teklo Core an
       
     },],
     name: "Maximum Velocity",
+    rarities: [Rarity.SuperRare],
     rarity: Rarity.SuperRare,
     setIdentifiers: ["ARC008"],
     sets: [Release.ArcaneRising],
@@ -14229,6 +14574,7 @@ At the beginning of your action phase, remove a steam counter from Teklo Core an
       
     },],
     name: "Spark of Genius",
+    rarities: [Rarity.Majestic,Rarity.SuperRare],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP191","ARC009"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -14285,6 +14631,7 @@ If you have **boosted** this turn, draw a card.`,
       
     },],
     name: "Induction Chamber",
+    rarities: [Rarity.Majestic,Rarity.SuperRare],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP189","ARC010"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -14302,7 +14649,7 @@ If you have **boosted** this turn, draw a card.`,
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 1,
@@ -14345,6 +14692,7 @@ If you have **boosted** this turn, draw a card.`,
       
     },],
     name: "Pedal to the Metal",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP196","ARC011"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -14405,6 +14753,7 @@ If you have **boosted** this turn, draw a card.`,
       
     },],
     name: "Pedal to the Metal",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP197","ARC012"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -14465,6 +14814,7 @@ If you have **boosted** this turn, draw a card.`,
       
     },],
     name: "Pedal to the Metal",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP198","ARC013"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -14513,6 +14863,7 @@ If you have **boosted** this turn, draw a card.`,
       
     },],
     name: "Pour the Mold",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ARC014"],
     sets: [Release.ArcaneRising],
@@ -14563,6 +14914,7 @@ If you have **boosted** this turn, put a steam counter on it.
       
     },],
     name: "Pour the Mold",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ARC015"],
     sets: [Release.ArcaneRising],
@@ -14613,6 +14965,7 @@ If you have **boosted** this turn, put a steam counter on it.
       
     },],
     name: "Pour the Mold",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ARC016"],
     sets: [Release.ArcaneRising],
@@ -14669,6 +15022,7 @@ If you have **boosted** this turn, put a steam counter on it.
       
     },],
     name: "Aether Sink",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP199","ARC017"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -14688,7 +15042,7 @@ If you have **boosted** this turn, put a steam counter on it.
     
     
     
-    
+    keywords: [Keyword.GoAgain,Keyword.ArcaneBarrier],
     
     
     pitch: 2,
@@ -14725,6 +15079,7 @@ If you have **boosted** this turn, put a steam counter on it.
       
     },],
     name: "Cognition Nodes",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP200","ARC018"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -14742,7 +15097,7 @@ If you have **boosted** this turn, put a steam counter on it.
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 3,
@@ -14785,6 +15140,7 @@ If you have **boosted** this turn, put a steam counter on it.
       
     },],
     name: "Convection Amplifier",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP201","ARC019"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -14802,7 +15158,7 @@ If you have **boosted** this turn, put a steam counter on it.
     
     
     
-    keywords: [Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.GoAgain],
     
     
     pitch: 1,
@@ -14822,13 +15178,13 @@ If you have **boosted** this turn, put a steam counter on it.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS013",
-      name: "LGS013-P.width-450",
+      name: "LGS013",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LGS032",
-      name: "LGS032.width-450",
+      name: "LGS032",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -14857,10 +15213,11 @@ If you have **boosted** this turn, put a steam counter on it.
       
     },],
     name: "Over Loop",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS013","LGS032","1HP205","ARC020"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
-    specialImageName: "LGS013-P.width-450",
+    specialImageName: "LGS013",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Mechanologist Action – Attack",
@@ -14894,7 +15251,7 @@ If you have **boosted** this turn, put a steam counter on it.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS033",
-      name: "LGS033.width-450",
+      name: "LGS033",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -14923,10 +15280,11 @@ If you have **boosted** this turn, put a steam counter on it.
       
     },],
     name: "Over Loop",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS033","1HP206","ARC021"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
-    specialImageName: "LGS033.width-450",
+    specialImageName: "LGS033",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Mechanologist Action – Attack",
@@ -14960,7 +15318,7 @@ If you have **boosted** this turn, put a steam counter on it.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS034",
-      name: "LGS034.width-450",
+      name: "LGS034",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -14989,10 +15347,11 @@ If you have **boosted** this turn, put a steam counter on it.
       
     },],
     name: "Over Loop",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS034","1HP207","ARC022"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
-    specialImageName: "LGS034.width-450",
+    specialImageName: "LGS034",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Mechanologist Action – Attack",
@@ -15049,6 +15408,7 @@ If you have **boosted** this turn, put a steam counter on it.
       
     },],
     name: "Throttle",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP208","ARC023"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -15107,6 +15467,7 @@ If you have **boosted** this turn, put a steam counter on it.
       
     },],
     name: "Throttle",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP209","ARC024"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -15165,6 +15526,7 @@ If you have **boosted** this turn, put a steam counter on it.
       
     },],
     name: "Throttle",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP210","ARC025"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -15223,6 +15585,7 @@ If you have **boosted** this turn, put a steam counter on it.
       
     },],
     name: "Zero to Sixty",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP211","ARC026"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -15281,6 +15644,7 @@ If you have **boosted** this turn, put a steam counter on it.
       
     },],
     name: "Zero to Sixty",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP212","ARC027"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -15339,6 +15703,7 @@ If you have **boosted** this turn, put a steam counter on it.
       
     },],
     name: "Zero to Sixty",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP213","ARC028"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -15397,6 +15762,7 @@ If you have **boosted** this turn, put a steam counter on it.
       
     },],
     name: "Zipper Hit",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP214","ARC029"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -15455,6 +15821,7 @@ If you have **boosted** this turn, put a steam counter on it.
       
     },],
     name: "Zipper Hit",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP215","ARC030"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -15513,6 +15880,7 @@ If you have **boosted** this turn, put a steam counter on it.
       
     },],
     name: "Zipper Hit",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP216","ARC031"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -15565,6 +15933,7 @@ If you have **boosted** this turn, put a steam counter on it.
       
     },],
     name: "Locked and Loaded",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC032"],
     sets: [Release.ArcaneRising],
@@ -15621,6 +15990,7 @@ If you have **boosted** this turn, **opt 1**. *(Look at the top card of your dec
       
     },],
     name: "Locked and Loaded",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC033"],
     sets: [Release.ArcaneRising],
@@ -15677,6 +16047,7 @@ If you have **boosted** this turn, **opt 1**. *(Look at the top card of your dec
       
     },],
     name: "Locked and Loaded",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC034"],
     sets: [Release.ArcaneRising],
@@ -15733,6 +16104,7 @@ If you have **boosted** this turn, **opt 1**. *(Look at the top card of your dec
       
     },],
     name: "Dissipation Shield",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP217","ARC035"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -15795,6 +16167,7 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
       
     },],
     name: "Hyper Driver",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP218","ARC036","DYN110"],
     sets: [Release.HistoryPack1,Release.ArcaneRising,Release.Dynasty],
@@ -15807,7 +16180,7 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
     
     functionalText: `Hyper Driver enters the arena with 3 steam counters on it. When Hyper Driver has no steam counters on it, destroy it.
 
-**Once per Turn Effect** - When you **boost** a card, remove a steam counter from Hyper Driver and gain {r}.`,
+Once per turn, when you **boost** a card, remove a steam counter from Hyper Driver and gain {r}.`,
     
     
     
@@ -15855,6 +16228,7 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
       
     },],
     name: "Optekal Monocle",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP219","ARC037"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -15872,7 +16246,7 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
     
     
     
-    
+    keywords: [Keyword.Opt,Keyword.GoAgain],
     
     
     pitch: 3,
@@ -15892,13 +16266,13 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER010",
-      name: "HER010-P.width-450",
+      name: "HER010",
       set: Release.Promos,
       
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER018",
-      name: "HER018-P.width-450",
+      name: "HER018",
       set: Release.Promos,
       
     },{
@@ -15933,6 +16307,7 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
       
     },],
     name: "Azalea, Ace in the Hole",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER010","HER018","WIN006","1HP221","ARC038","CRU119"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar],
@@ -15948,10 +16323,10 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
     hero: Hero.Azalea,
     intellect: 4,
     
-    keywords: [Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.GoAgain],
     life: 40,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Blitz,Format.Commoner],
     
@@ -15968,7 +16343,7 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER014",
-      name: "HER014-P.width-450",
+      name: "HER014",
       set: Release.Promos,
       
     },{
@@ -15991,6 +16366,7 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
       
     },],
     name: "Azalea",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER014","1HP222","ARC039"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
@@ -16006,10 +16382,10 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
     hero: Hero.Azalea,
     intellect: 4,
     
-    keywords: [Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.GoAgain],
     life: 20,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.ClassicConstructed],
     
@@ -16026,7 +16402,7 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS010",
-      name: "LGS010-P.width-450",
+      name: "LGS010",
       set: Release.Promos,
       
     },{
@@ -16061,6 +16437,7 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
       
     },],
     name: "Death Dealer",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS010","1HP223","ARC040","CRU120"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar],
@@ -16076,10 +16453,10 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
     
     
     
+    keywords: [Keyword.GoAgain],
     
     
     
-    pitch: 0,
     
     
     
@@ -16096,7 +16473,7 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB009",
-      name: "FAB009-P.width-450",
+      name: "FAB009",
       set: Release.Promos,
       
     },{
@@ -16119,6 +16496,7 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
       
     },],
     name: "Skullbone Crosswrap",
+    rarities: [Rarity.Promo,Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB009","1HP225","ARC041"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
@@ -16138,10 +16516,10 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
     
     
     
-    keywords: [Keyword.ArcaneBarrier,Keyword.BladeBreak],
+    keywords: [Keyword.ArcaneBarrier,Keyword.BladeBreak,Keyword.Opt,Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -16175,6 +16553,7 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
       
     },],
     name: "Bull’s Eye Bracers",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP226","ARC042"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -16192,10 +16571,10 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
     
     
     
-    keywords: [Keyword.ArcaneBarrier],
+    keywords: [Keyword.ArcaneBarrier,Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     
     
     
@@ -16235,6 +16614,7 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
       
     },],
     name: "Red in the Ledger",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP229","ARC043"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -16291,6 +16671,7 @@ If Red in the Ledger hits a hero, they can't play or activate more than 1 action
       
     },],
     name: "Three of a Kind",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP232","ARC044"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -16345,6 +16726,7 @@ If Red in the Ledger hits a hero, they can't play or activate more than 1 action
       
     },],
     name: "Endless Arrow",
+    rarities: [Rarity.Majestic,Rarity.SuperRare],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP228","ARC045"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -16405,6 +16787,7 @@ If Endless Arrow hits, put it into your hand.`,
       
     },],
     name: "Nock the Deathwhistle",
+    rarities: [Rarity.Majestic,Rarity.SuperRare],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP231","ARC046"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -16457,6 +16840,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
       
     },],
     name: "Rapid Fire",
+    rarities: [Rarity.SuperRare],
     rarity: Rarity.SuperRare,
     setIdentifiers: ["ARC047"],
     sets: [Release.ArcaneRising],
@@ -16511,6 +16895,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
       
     },],
     name: "Take Cover",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP234","ARC048"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -16563,6 +16948,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
       
     },],
     name: "Take Cover",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP235","ARC049"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -16615,6 +17001,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
       
     },],
     name: "Take Cover",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP236","ARC050"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -16661,6 +17048,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
       
     },],
     name: "Silver the Tip",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ARC051"],
     sets: [Release.ArcaneRising],
@@ -16709,6 +17097,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
       
     },],
     name: "Silver the Tip",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ARC052"],
     sets: [Release.ArcaneRising],
@@ -16757,6 +17146,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
       
     },],
     name: "Silver the Tip",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ARC053"],
     sets: [Release.ArcaneRising],
@@ -16817,6 +17207,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
       
     },],
     name: "Take Aim",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LXI028","1HP237","ARC054"],
     sets: [Release.LexiBlitzDeck,Release.HistoryPack1,Release.ArcaneRising],
@@ -16873,6 +17264,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
       
     },],
     name: "Take Aim",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP238","ARC055"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -16929,6 +17321,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
       
     },],
     name: "Take Aim",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP239","ARC056"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -16985,6 +17378,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
       
     },],
     name: "Head Shot",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP240","ARC057"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -17039,6 +17433,7 @@ If Head Shot is put into your arsenal face up, it gains +2{p} until end of turn.
       
     },],
     name: "Head Shot",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP241","ARC058"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -17093,6 +17488,7 @@ If Head Shot is put into your arsenal face up, it gains +2{p} until end of turn.
       
     },],
     name: "Head Shot",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP242","ARC059"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -17141,6 +17537,7 @@ If Head Shot is put into your arsenal face up, it gains +2{p} until end of turn.
       
     },],
     name: "Hamstring Shot",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC060"],
     sets: [Release.ArcaneRising],
@@ -17189,6 +17586,7 @@ If Hamstring Shot hits a hero, their first attack during their next turn costs a
       
     },],
     name: "Hamstring Shot",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC061"],
     sets: [Release.ArcaneRising],
@@ -17237,6 +17635,7 @@ If Hamstring Shot hits a hero, their first attack during their next turn costs a
       
     },],
     name: "Hamstring Shot",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC062"],
     sets: [Release.ArcaneRising],
@@ -17297,6 +17696,7 @@ If Hamstring Shot hits a hero, their first attack during their next turn costs a
       
     },],
     name: "Ridge Rider Shot",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP243","ARC063"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -17357,6 +17757,7 @@ If Ridge Rider Shot is put into your arsenal face up, **opt 1**. *(Look at the t
       
     },],
     name: "Ridge Rider Shot",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP244","ARC064"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -17417,6 +17818,7 @@ If Ridge Rider Shot is put into your arsenal face up, **opt 1**. *(Look at the t
       
     },],
     name: "Ridge Rider Shot",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP245","ARC065"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -17471,6 +17873,7 @@ If Ridge Rider Shot is put into your arsenal face up, **opt 1**. *(Look at the t
       
     },],
     name: "Salvage Shot",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP246","ARC066"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -17525,6 +17928,7 @@ When this hits, put it on the bottom of its owner’s deck.`,
       
     },],
     name: "Salvage Shot",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP247","ARC067"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -17579,6 +17983,7 @@ When this hits, put it on the bottom of its owner’s deck.`,
       
     },],
     name: "Salvage Shot",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP248","ARC068"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -17633,6 +18038,7 @@ When this hits, put it on the bottom of its owner’s deck.`,
       
     },],
     name: "Searing Shot",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP249","ARC069"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -17687,6 +18093,7 @@ If Searing Shot hits a hero, they lose 1{h}.`,
       
     },],
     name: "Searing Shot",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP250","ARC070"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -17741,6 +18148,7 @@ If Searing Shot hits a hero, they lose 1{h}.`,
       
     },],
     name: "Searing Shot",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP251","ARC071"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -17778,13 +18186,13 @@ If Searing Shot hits a hero, they lose 1{h}.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS014",
-      name: "LGS014-P.width-450",
+      name: "LGS014",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LGS035",
-      name: "LGS035.width-450",
+      name: "LGS035",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -17807,10 +18215,11 @@ If Searing Shot hits a hero, they lose 1{h}.`,
       
     },],
     name: "Sic ‘Em Shot",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS014","LGS035","1HP252","ARC072"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
-    specialImageName: "LGS014-P.width-450",
+    specialImageName: "LGS014",
     subtypes: [Subtype.Attack,Subtype.Arrow],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
@@ -17844,7 +18253,7 @@ If Searing Shot hits a hero, they lose 1{h}.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS036",
-      name: "LGS036.width-450",
+      name: "LGS036",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -17867,10 +18276,11 @@ If Searing Shot hits a hero, they lose 1{h}.`,
       
     },],
     name: "Sic ‘Em Shot",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS036","1HP253","ARC073"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
-    specialImageName: "LGS036.width-450",
+    specialImageName: "LGS036",
     subtypes: [Subtype.Attack,Subtype.Arrow],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
@@ -17904,7 +18314,7 @@ If Searing Shot hits a hero, they lose 1{h}.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS037",
-      name: "LGS037.width-450",
+      name: "LGS037",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -17927,10 +18337,11 @@ If Searing Shot hits a hero, they lose 1{h}.`,
       
     },],
     name: "Sic ‘Em Shot",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS037","1HP254","ARC074"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
-    specialImageName: "LGS037.width-450",
+    specialImageName: "LGS037",
     subtypes: [Subtype.Attack,Subtype.Arrow],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
@@ -17964,13 +18375,13 @@ If Searing Shot hits a hero, they lose 1{h}.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER011",
-      name: "HER011-P.width-450",
+      name: "HER011",
       set: Release.Promos,
       
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER019",
-      name: "HER019-P.width-450",
+      name: "HER019",
       set: Release.Promos,
       
     },{
@@ -18005,6 +18416,7 @@ If Searing Shot hits a hero, they lose 1{h}.`,
       
     },],
     name: "Viserai, Rune Blood",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER011","HER019","WIN007","1HP258","ARC075","CRU138"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar],
@@ -18023,7 +18435,7 @@ If Searing Shot hits a hero, they lose 1{h}.`,
     
     life: 40,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Blitz,Format.Commoner],
     
@@ -18040,7 +18452,7 @@ If Searing Shot hits a hero, they lose 1{h}.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER015",
-      name: "HER015-P.width-450",
+      name: "HER015",
       set: Release.Promos,
       
     },{
@@ -18063,6 +18475,7 @@ If Searing Shot hits a hero, they lose 1{h}.`,
       
     },],
     name: "Viserai",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER015","1HP259","ARC076"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
@@ -18081,7 +18494,7 @@ If Searing Shot hits a hero, they lose 1{h}.`,
     
     life: 20,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Blitz,Format.ClassicConstructed],
     
@@ -18098,7 +18511,7 @@ If Searing Shot hits a hero, they lose 1{h}.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS011",
-      name: "LGS011-P.width-450",
+      name: "LGS011",
       set: Release.Promos,
       
     },{
@@ -18133,6 +18546,7 @@ If Searing Shot hits a hero, they lose 1{h}.`,
       
     },],
     name: "Nebula Blade",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS011","1HP260","ARC077","CRU139"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar],
@@ -18155,7 +18569,7 @@ If you have played a 'non-attack' action card this turn, Nebula Blade gains +3{p
     
     
     
-    pitch: 0,
+    
     power: 1,
     restrictedFormats: [Format.Blitz],
     
@@ -18172,7 +18586,7 @@ If you have played a 'non-attack' action card this turn, Nebula Blade gains +3{p
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB010",
-      name: "FAB010-P.width-450",
+      name: "FAB010",
       set: Release.Promos,
       
     },{
@@ -18195,6 +18609,7 @@ If you have played a 'non-attack' action card this turn, Nebula Blade gains +3{p
       
     },],
     name: "Grasp of the Arknight",
+    rarities: [Rarity.Promo,Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB010","1HP262","ARC078"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
@@ -18212,10 +18627,10 @@ If you have played a 'non-attack' action card this turn, Nebula Blade gains +3{p
     
     
     
-    keywords: [Keyword.Battleworn],
+    keywords: [Keyword.Battleworn,Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -18249,6 +18664,7 @@ If you have played a 'non-attack' action card this turn, Nebula Blade gains +3{p
       
     },],
     name: "Crown of Dichotomy",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP263","ARC079"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -18269,7 +18685,7 @@ If you have played a 'non-attack' action card this turn, Nebula Blade gains +3{p
     keywords: [Keyword.ArcaneBarrier],
     
     
-    pitch: 0,
+    
     
     
     
@@ -18309,6 +18725,7 @@ If you have played a 'non-attack' action card this turn, Nebula Blade gains +3{p
       
     },],
     name: "Arknight Ascendancy",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP265","ARC080"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -18367,6 +18784,7 @@ If Arknight Ascendency hits, create X Runechant tokens, where X is the damage de
       
     },],
     name: "Mordred Tide",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP268","ARC081"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -18415,6 +18833,7 @@ If Arknight Ascendency hits, create X Runechant tokens, where X is the damage de
       
     },],
     name: "Ninth Blade of the Blood Oath",
+    rarities: [Rarity.SuperRare],
     rarity: Rarity.SuperRare,
     setIdentifiers: ["ARC082"],
     sets: [Release.ArcaneRising],
@@ -18473,6 +18892,7 @@ If Arknight Ascendency hits, create X Runechant tokens, where X is the damage de
       
     },],
     name: "Become the Arknight",
+    rarities: [Rarity.Majestic,Rarity.SuperRare],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP267","ARC083"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -18523,6 +18943,7 @@ You may discard an action card. If you discard an attack action card this way, s
       
     },],
     name: "Tome of the Arknight",
+    rarities: [Rarity.SuperRare],
     rarity: Rarity.SuperRare,
     setIdentifiers: ["ARC084"],
     sets: [Release.ArcaneRising],
@@ -18583,6 +19004,7 @@ You may discard an action card. If you discard an attack action card this way, s
       
     },],
     name: "Spellblade Assault",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP270","ARC085"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -18641,6 +19063,7 @@ You may discard an action card. If you discard an attack action card this way, s
       
     },],
     name: "Spellblade Assault",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP271","ARC086"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -18699,6 +19122,7 @@ You may discard an action card. If you discard an attack action card this way, s
       
     },],
     name: "Spellblade Assault",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP272","ARC087"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -18734,13 +19158,13 @@ You may discard an action card. If you discard an attack action card this way, s
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS015",
-      name: "LGS015-P.width-450",
+      name: "LGS015",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LGS038",
-      name: "LGS038.width-450",
+      name: "LGS038",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -18769,10 +19193,11 @@ You may discard an action card. If you discard an attack action card this way, s
       
     },],
     name: "Reduce to Runechant",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS015","LGS038","1HP273","ARC088"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
-    specialImageName: "LGS015-P.width-450",
+    specialImageName: "LGS015",
     subtypes: [],
     types: [Type.DefenseReaction],
     typeText: "Runeblade Defense Reaction",
@@ -18806,7 +19231,7 @@ Create a Runechant token. *(It's an aura with “When you play an attack action 
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS039",
-      name: "LGS039.width-450",
+      name: "LGS039",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -18835,10 +19260,11 @@ Create a Runechant token. *(It's an aura with “When you play an attack action 
       
     },],
     name: "Reduce to Runechant",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS039","1HP274","ARC089"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
-    specialImageName: "LGS039.width-450",
+    specialImageName: "LGS039",
     subtypes: [],
     types: [Type.DefenseReaction],
     typeText: "Runeblade Defense Reaction",
@@ -18872,7 +19298,7 @@ Create a Runechant token. *(It's an aura with “When you play an attack action 
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS040",
-      name: "LGS040.width-450",
+      name: "LGS040",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -18901,10 +19327,11 @@ Create a Runechant token. *(It's an aura with “When you play an attack action 
       
     },],
     name: "Reduce to Runechant",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS040","1HP275","ARC090"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
-    specialImageName: "LGS040.width-450",
+    specialImageName: "LGS040",
     subtypes: [],
     types: [Type.DefenseReaction],
     typeText: "Runeblade Defense Reaction",
@@ -18961,6 +19388,7 @@ Create a Runechant token. *(It's an aura with “When you play an attack action 
       
     },],
     name: "Oath of the Arknight",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP279","ARC091"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -19023,6 +19451,7 @@ Create a Runechant token. *(It's an aura with "When you play an attack action ca
       
     },],
     name: "Oath of the Arknight",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP280","ARC092"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -19085,6 +19514,7 @@ Create a Runechant token. *(It's an aura with "When you play an attack action ca
       
     },],
     name: "Oath of the Arknight",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP281","ARC093"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -19141,6 +19571,7 @@ Create a Runechant token. *(It's an aura with "When you play an attack action ca
       
     },],
     name: "Amplify the Arknight",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP282","ARC094"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -19193,6 +19624,7 @@ Create a Runechant token. *(It's an aura with "When you play an attack action ca
       
     },],
     name: "Amplify the Arknight",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP283","ARC095"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -19245,6 +19677,7 @@ Create a Runechant token. *(It's an aura with "When you play an attack action ca
       
     },],
     name: "Amplify the Arknight",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP284","ARC096"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -19291,6 +19724,7 @@ Create a Runechant token. *(It's an aura with "When you play an attack action ca
       
     },],
     name: "Drawn to the Dark Dimension",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC097"],
     sets: [Release.ArcaneRising],
@@ -19339,6 +19773,7 @@ Draw a card.`,
       
     },],
     name: "Drawn to the Dark Dimension",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC098"],
     sets: [Release.ArcaneRising],
@@ -19387,6 +19822,7 @@ Draw a card.`,
       
     },],
     name: "Drawn to the Dark Dimension",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC099"],
     sets: [Release.ArcaneRising],
@@ -19441,6 +19877,7 @@ Draw a card.`,
       
     },],
     name: "Rune Flash",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP288","ARC100"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -19495,6 +19932,7 @@ Draw a card.`,
       
     },],
     name: "Rune Flash",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP289","ARC101"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -19549,6 +19987,7 @@ Draw a card.`,
       
     },],
     name: "Rune Flash",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP290","ARC102"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -19603,6 +20042,7 @@ Draw a card.`,
       
     },],
     name: "Spellblade Strike",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC103"],
     sets: [Release.ArcaneRising],
@@ -19655,6 +20095,7 @@ Draw a card.`,
       
     },],
     name: "Spellblade Strike",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC104"],
     sets: [Release.ArcaneRising],
@@ -19707,6 +20148,7 @@ Draw a card.`,
       
     },],
     name: "Spellblade Strike",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC105"],
     sets: [Release.ArcaneRising],
@@ -19765,6 +20207,7 @@ Draw a card.`,
       
     },],
     name: "Bloodspill Invocation",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP291","ARC106"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -19829,6 +20272,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
       
     },],
     name: "Bloodspill Invocation",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP292","ARC107"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -19893,6 +20337,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
       
     },],
     name: "Bloodspill Invocation",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP293","ARC108"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -19957,6 +20402,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
       
     },],
     name: "Read the Runes",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP294","ARC109"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -20015,6 +20461,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
       
     },],
     name: "Read the Runes",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP295","ARC110"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -20073,6 +20520,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
       
     },],
     name: "Read the Runes",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP296","ARC111"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -20147,8 +20595,15 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
       name: "EVR119.width-450",
       set: Release.Everfest,
       
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN191",
+      name: "DYN191",
+      set: Release.Dynasty,
+      
     },],
     name: "Runechant",
+    rarities: [Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["1HP300","ARC112","CRU157","EVR119","DYN191"],
     sets: [Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar,Release.Everfest,Release.Dynasty],
@@ -20169,7 +20624,7 @@ When you play an attack action card or activate a weapon attack, destroy Runecha
     
     
     
-    pitch: 0,
+    
     
     
     
@@ -20186,13 +20641,13 @@ When you play an attack action card or activate a weapon attack, destroy Runecha
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER012",
-      name: "HER012-P.width-450",
+      name: "HER012",
       set: Release.Promos,
       
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER020",
-      name: "HER020-P.width-450",
+      name: "HER020",
       set: Release.Promos,
       
     },{
@@ -20227,6 +20682,7 @@ When you play an attack action card or activate a weapon attack, destroy Runecha
       
     },],
     name: "Kano, Dracai of Aether",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER012","HER020","WIN008","1HP301","ARC113","CRU158"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar],
@@ -20245,7 +20701,7 @@ When you play an attack action card or activate a weapon attack, destroy Runecha
     
     life: 30,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Blitz,Format.Commoner],
     
@@ -20262,7 +20718,13 @@ When you play an attack action card or activate a weapon attack, destroy Runecha
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER016",
-      name: "HER016-P.width-450",
+      name: "HER016",
+      set: Release.Promos,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "HER072",
+      name: "HER072",
       set: Release.Promos,
       
     },{
@@ -20285,6 +20747,7 @@ When you play an attack action card or activate a weapon attack, destroy Runecha
       
     },],
     name: "Kano",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER016","HER072","1HP302","ARC114"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
@@ -20303,7 +20766,7 @@ When you play an attack action card or activate a weapon attack, destroy Runecha
     
     life: 15,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.ClassicConstructed],
     
@@ -20320,7 +20783,7 @@ When you play an attack action card or activate a weapon attack, destroy Runecha
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS012",
-      name: "LGS012-P.width-450",
+      name: "LGS012",
       set: Release.Promos,
       
     },{
@@ -20355,6 +20818,7 @@ When you play an attack action card or activate a weapon attack, destroy Runecha
       
     },],
     name: "Crucible of Aetherweave",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS012","1HP303","ARC115","CRU159"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar],
@@ -20373,7 +20837,7 @@ When you play an attack action card or activate a weapon attack, destroy Runecha
     
     
     
-    pitch: 0,
+    
     
     
     
@@ -20390,7 +20854,7 @@ When you play an attack action card or activate a weapon attack, destroy Runecha
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB011",
-      name: "FAB011-P.width-450",
+      name: "FAB011",
       set: Release.Promos,
       
     },{
@@ -20413,6 +20877,7 @@ When you play an attack action card or activate a weapon attack, destroy Runecha
       
     },],
     name: "Storm Striders",
+    rarities: [Rarity.Promo,Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB011","1HP305","ARC116"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
@@ -20433,7 +20898,7 @@ When you play an attack action card or activate a weapon attack, destroy Runecha
     keywords: [Keyword.ArcaneBarrier],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -20467,6 +20932,7 @@ When you play an attack action card or activate a weapon attack, destroy Runecha
       
     },],
     name: "Robe of Rapture",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP306","ARC117"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -20487,7 +20953,7 @@ When you play an attack action card or activate a weapon attack, destroy Runecha
     keywords: [Keyword.ArcaneBarrier],
     
     
-    pitch: 0,
+    
     
     
     
@@ -20527,6 +20993,7 @@ When you play an attack action card or activate a weapon attack, destroy Runecha
       
     },],
     name: "Blazing Aether",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP308","ARC118"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -20581,6 +21048,7 @@ Deal X arcane damage to target hero, where X is the amount of arcane damage you 
       
     },],
     name: "Sonic Boom",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP312","ARC119"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -20641,6 +21109,7 @@ If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 
       
     },],
     name: "Forked Lightning",
+    rarities: [Rarity.Majestic,Rarity.SuperRare],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP310","ARC120"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -20701,6 +21170,7 @@ If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 
       
     },],
     name: "Lesson in Lava",
+    rarities: [Rarity.Majestic,Rarity.SuperRare],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP311","ARC121"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -20757,6 +21227,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
       
     },],
     name: "Tome of Aetherwind",
+    rarities: [Rarity.Majestic,Rarity.SuperRare],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP313","ARC122"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -20806,6 +21277,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
       
     },],
     name: "Absorb in Aether",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ARC123"],
     sets: [Release.ArcaneRising],
@@ -20852,6 +21324,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
       
     },],
     name: "Absorb in Aether",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ARC124"],
     sets: [Release.ArcaneRising],
@@ -20898,6 +21371,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
       
     },],
     name: "Absorb in Aether",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ARC125"],
     sets: [Release.ArcaneRising],
@@ -20956,6 +21430,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
       
     },],
     name: "Aether Spindle",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP314","ARC126"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -21016,6 +21491,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
       
     },],
     name: "Aether Spindle",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP315","ARC127"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -21076,6 +21552,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
       
     },],
     name: "Aether Spindle",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP316","ARC128"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -21130,6 +21607,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
       
     },],
     name: "Stir the Aetherwinds",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP320","ARC129"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -21182,6 +21660,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
       
     },],
     name: "Stir the Aetherwinds",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP321","ARC130"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -21234,6 +21713,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
       
     },],
     name: "Stir the Aetherwinds",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP322","ARC131"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -21286,6 +21766,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
       
     },],
     name: "Aether Flare",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP323","ARC132"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -21340,6 +21821,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
       
     },],
     name: "Aether Flare",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP324","ARC133"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -21394,6 +21876,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
       
     },],
     name: "Aether Flare",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP325","ARC134"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -21442,6 +21925,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
       
     },],
     name: "Index",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC135"],
     sets: [Release.ArcaneRising],
@@ -21488,6 +21972,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
       
     },],
     name: "Index",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC136"],
     sets: [Release.ArcaneRising],
@@ -21534,6 +22019,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
       
     },],
     name: "Index",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC137"],
     sets: [Release.ArcaneRising],
@@ -21586,6 +22072,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
       
     },],
     name: "Reverberate",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP326","ARC138"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -21640,6 +22127,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       
     },],
     name: "Reverberate",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP327","ARC139"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -21694,6 +22182,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       
     },],
     name: "Reverberate",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP328","ARC140"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -21748,6 +22237,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       
     },],
     name: "Scalding Rain",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP329","ARC141"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -21800,6 +22290,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       
     },],
     name: "Scalding Rain",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP330","ARC142"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -21852,6 +22343,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       
     },],
     name: "Scalding Rain",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP331","ARC143"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -21904,6 +22396,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       
     },],
     name: "Zap",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP338","ARC144"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -21956,6 +22449,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       
     },],
     name: "Zap",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP339","ARC145"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -22008,6 +22502,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       
     },],
     name: "Zap",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP340","ARC146"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -22043,13 +22538,13 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS016",
-      name: "LGS016-P.width-450",
+      name: "LGS016",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
       edition: ReleaseEdition.Promo,
       identifier: "LGS041",
-      name: "LGS041.width-450",
+      name: "LGS041",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -22072,10 +22567,11 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       
     },],
     name: "Voltic Bolt",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS016","LGS041","1HP335","ARC147"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
-    specialImageName: "LGS016-P.width-450",
+    specialImageName: "LGS016",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
@@ -22107,7 +22603,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS042",
-      name: "LGS042.width-450",
+      name: "LGS042",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -22124,10 +22620,11 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       
     },],
     name: "Voltic Bolt",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS042","1HP336","ARC148"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
-    specialImageName: "LGS042.width-450",
+    specialImageName: "LGS042",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
@@ -22159,7 +22656,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS043",
-      name: "LGS043.width-450",
+      name: "LGS043",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -22182,10 +22679,11 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       
     },],
     name: "Voltic Bolt",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS043","1HP337","ARC149"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
-    specialImageName: "LGS043.width-450",
+    specialImageName: "LGS043",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
@@ -22217,7 +22715,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB007",
-      name: "FAB007-P.width-450",
+      name: "FAB007",
       set: Release.Promos,
       
     },{
@@ -22240,6 +22738,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       
     },],
     name: "Arcanite Skullcap",
+    rarities: [Rarity.Promo,Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB007","ARC150","EVR154"],
     sets: [Release.Promos,Release.ArcaneRising,Release.Everfest],
@@ -22260,7 +22759,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     keywords: [Keyword.ArcaneBarrier,Keyword.Battleworn],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -22277,7 +22776,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB066",
-      name: "FAB066.width-450",
+      name: "FAB066",
       set: Release.Promos,
       
     },{
@@ -22306,6 +22805,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       
     },],
     name: "Talismanic Lens",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB066","1HP354","ARC151"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
@@ -22321,10 +22821,10 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     
     
+    keywords: [Keyword.Opt],
     
     
     
-    pitch: 0,
     
     
     
@@ -22358,6 +22858,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       
     },],
     name: "Vest of the First Fist",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP356","ARC152"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -22376,7 +22877,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     
     
-    pitch: 0,
+    
     
     
     
@@ -22416,6 +22917,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       
     },],
     name: "Bracers of Belief",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP355","ARC153"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -22431,10 +22933,10 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     
     
+    keywords: [Keyword.GoAgain],
     
     
     
-    pitch: 0,
     
     
     
@@ -22451,7 +22953,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB067",
-      name: "FAB067.width-450",
+      name: "FAB067",
       set: Release.Promos,
       
     },{
@@ -22474,6 +22976,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       
     },],
     name: "Mage Master Boots",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB067","1HP357","ARC154"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
@@ -22492,7 +22995,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     keywords: [Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     
     
     
@@ -22509,7 +23012,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB068",
-      name: "FAB068.width-450",
+      name: "FAB068",
       set: Release.Promos,
       
     },{
@@ -22532,6 +23035,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       
     },],
     name: "Nullrune Hood",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB068","1HP346","ARC155"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
@@ -22550,7 +23054,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     keywords: [Keyword.ArcaneBarrier],
     
     
-    pitch: 0,
+    
     
     
     
@@ -22567,7 +23071,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB069",
-      name: "FAB069.width-450",
+      name: "FAB069",
       set: Release.Promos,
       
     },{
@@ -22590,6 +23094,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       
     },],
     name: "Nullrune Robe",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB069","1HP347","ARC156"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
@@ -22608,7 +23113,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     keywords: [Keyword.ArcaneBarrier],
     
     
-    pitch: 0,
+    
     
     
     
@@ -22625,7 +23130,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB070",
-      name: "FAB070.width-450",
+      name: "FAB070",
       set: Release.Promos,
       
     },{
@@ -22648,6 +23153,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       
     },],
     name: "Nullrune Gloves",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB070","1HP348","ARC157"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
@@ -22666,7 +23172,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     keywords: [Keyword.ArcaneBarrier],
     
     
-    pitch: 0,
+    
     
     
     
@@ -22683,7 +23189,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB071",
-      name: "FAB071.width-450",
+      name: "FAB071",
       set: Release.Promos,
       
     },{
@@ -22706,6 +23212,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       
     },],
     name: "Nullrune Boots",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB071","1HP349","ARC158"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
@@ -22724,7 +23231,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     keywords: [Keyword.ArcaneBarrier],
     
     
-    pitch: 0,
+    
     
     
     
@@ -22761,13 +23268,14 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       identifier: "DYN000",
       name: "DYN000",
       set: Release.Dynasty,
-      treatment: Treatment.EA,
+      
     },],
     name: "Command and Conquer",
+    rarities: [Rarity.Majestic,Rarity.Fabled],
     rarity: Rarity.Fabled,
     setIdentifiers: ["1HP360","ARC159","DYN000"],
     sets: [Release.HistoryPack1,Release.ArcaneRising,Release.Dynasty],
-    specialImageName: "DYN000",
+    specialImageName: "ARC159",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Generic Action – Attack",
@@ -22818,6 +23326,7 @@ If Command and Conquer hits a hero, destroy all cards in their arsenal.`,
       
     },],
     name: "Art of War",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP366","ARC160"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -22869,6 +23378,7 @@ If Command and Conquer hits a hero, destroy all cards in their arsenal.`,
       
     },],
     name: "Pursuit of Knowledge",
+    rarities: [Rarity.SuperRare],
     rarity: Rarity.SuperRare,
     setIdentifiers: ["ARC161"],
     sets: [Release.ArcaneRising],
@@ -22915,6 +23425,7 @@ If Command and Conquer hits a hero, destroy all cards in their arsenal.`,
       
     },],
     name: "Chains of Eminence",
+    rarities: [Rarity.SuperRare],
     rarity: Rarity.SuperRare,
     setIdentifiers: ["ARC162"],
     sets: [Release.ArcaneRising],
@@ -22965,6 +23476,7 @@ At the beginning of your action phase, destroy Chains of Eminence`,
       
     },],
     name: "Rusted Relic",
+    rarities: [Rarity.SuperRare],
     rarity: Rarity.SuperRare,
     setIdentifiers: ["ARC163"],
     sets: [Release.ArcaneRising],
@@ -23017,6 +23529,7 @@ At the beginning of your action phase, destroy Chains of Eminence`,
       
     },],
     name: "Life for a Life",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP368","ARC164"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -23071,6 +23584,7 @@ When you play Life for a Life, if you have less {h} than an opposing hero, it ga
       
     },],
     name: "Life for a Life",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP369","ARC165"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -23125,6 +23639,7 @@ When you play Life for a Life, if you have less {h} than an opposing hero, it ga
       
     },],
     name: "Life for a Life",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP370","ARC166"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -23179,6 +23694,7 @@ When you play Life for a Life, if you have less {h} than an opposing hero, it ga
       
     },],
     name: "Enchanting Melody",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP375","ARC167"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -23235,6 +23751,7 @@ At the beginning of your end phase, destroy Enchanting Melody unless you have pl
       
     },],
     name: "Enchanting Melody",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP376","ARC168"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -23291,6 +23808,7 @@ At the beginning of your end phase, destroy Enchanting Melody unless you have pl
       
     },],
     name: "Enchanting Melody",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP377","ARC169"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -23347,6 +23865,7 @@ At the beginning of your end phase, destroy Enchanting Melody unless you have pl
       
     },],
     name: "Plunder Run",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP378","ARC170"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -23403,6 +23922,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
       
     },],
     name: "Plunder Run",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP379","ARC171"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -23459,6 +23979,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
       
     },],
     name: "Plunder Run",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP380","ARC172"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -23521,6 +24042,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
       
     },],
     name: "Eirina’s Prayer",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP384","ARC173"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -23579,6 +24101,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
       
     },],
     name: "Eirina’s Prayer",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP385","ARC174"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -23637,6 +24160,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
       
     },],
     name: "Eirina’s Prayer",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP386","ARC175"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -23683,6 +24207,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
       
     },],
     name: "Back Alley Breakline",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC176"],
     sets: [Release.ArcaneRising],
@@ -23729,6 +24254,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
       
     },],
     name: "Back Alley Breakline",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC177"],
     sets: [Release.ArcaneRising],
@@ -23775,6 +24301,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
       
     },],
     name: "Back Alley Breakline",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC178"],
     sets: [Release.ArcaneRising],
@@ -23821,6 +24348,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
       
     },],
     name: "Cadaverous Contraband",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC179"],
     sets: [Release.ArcaneRising],
@@ -23867,6 +24395,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
       
     },],
     name: "Cadaverous Contraband",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC180"],
     sets: [Release.ArcaneRising],
@@ -23913,6 +24442,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
       
     },],
     name: "Cadaverous Contraband",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC181"],
     sets: [Release.ArcaneRising],
@@ -23965,6 +24495,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
       
     },],
     name: "Fervent Forerunner",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC182"],
     sets: [Release.ArcaneRising],
@@ -24019,6 +24550,7 @@ If Fervent Forerunner is played from arsenal, it gains **go again.**`,
       
     },],
     name: "Fervent Forerunner",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC183"],
     sets: [Release.ArcaneRising],
@@ -24073,6 +24605,7 @@ If Fervent Forerunner is played from arsenal, it gains **go again.**`,
       
     },],
     name: "Fervent Forerunner",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC184"],
     sets: [Release.ArcaneRising],
@@ -24121,6 +24654,7 @@ If Fervent Forerunner is played from arsenal, it gains **go again.**`,
       
     },],
     name: "Moon Wish",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC185"],
     sets: [Release.ArcaneRising],
@@ -24169,6 +24703,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
       
     },],
     name: "Moon Wish",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC186"],
     sets: [Release.ArcaneRising],
@@ -24217,6 +24752,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
       
     },],
     name: "Moon Wish",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC187"],
     sets: [Release.ArcaneRising],
@@ -24265,6 +24801,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
       
     },],
     name: "Push the Point",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC188"],
     sets: [Release.ArcaneRising],
@@ -24311,6 +24848,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
       
     },],
     name: "Push the Point",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC189"],
     sets: [Release.ArcaneRising],
@@ -24357,6 +24895,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
       
     },],
     name: "Push the Point",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC190"],
     sets: [Release.ArcaneRising],
@@ -24421,6 +24960,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
       
     },],
     name: "Ravenous Rabble",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DRO021","1HP393","ARC191"],
     sets: [Release.DromaiBlitzDeck,Release.HistoryPack1,Release.ArcaneRising],
@@ -24481,6 +25021,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
       
     },],
     name: "Ravenous Rabble",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP394","ARC192"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -24541,6 +25082,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
       
     },],
     name: "Ravenous Rabble",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP395","ARC193"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -24589,6 +25131,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
       
     },],
     name: "Rifting",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC194"],
     sets: [Release.ArcaneRising],
@@ -24635,6 +25178,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
       
     },],
     name: "Rifting",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC195"],
     sets: [Release.ArcaneRising],
@@ -24681,6 +25225,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
       
     },],
     name: "Rifting",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC196"],
     sets: [Release.ArcaneRising],
@@ -24727,6 +25272,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
       
     },],
     name: "Vigor Rush",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC197"],
     sets: [Release.ArcaneRising],
@@ -24773,6 +25319,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
       
     },],
     name: "Vigor Rush",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC198"],
     sets: [Release.ArcaneRising],
@@ -24819,6 +25366,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
       
     },],
     name: "Vigor Rush",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC199"],
     sets: [Release.ArcaneRising],
@@ -24854,7 +25402,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB024",
-      name: "FAB024.width-450",
+      name: "FAB024",
       set: Release.Promos,
       
     },{
@@ -24877,6 +25425,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
       
     },],
     name: "Fate Foreseen",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB024","1HP405","ARC200"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
@@ -24929,6 +25478,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
       
     },],
     name: "Fate Foreseen",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP406","ARC201"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -24981,6 +25531,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
       
     },],
     name: "Fate Foreseen",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP407","ARC202"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -25039,6 +25590,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
       
     },],
     name: "Come to Fight",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP414","ARC203"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -25099,6 +25651,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
       
     },],
     name: "Come to Fight",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP415","ARC204"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -25165,6 +25718,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
       
     },],
     name: "Come to Fight",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["RVD024","1HP416","ARC205"],
     sets: [Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.ArcaneRising],
@@ -25219,6 +25773,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
       
     },],
     name: "Force Sight",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC206"],
     sets: [Release.ArcaneRising],
@@ -25275,6 +25830,7 @@ If Force Sight is played from arsenal, **opt 2.** *(Look at the top 2 cards of y
       
     },],
     name: "Force Sight",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC207"],
     sets: [Release.ArcaneRising],
@@ -25331,6 +25887,7 @@ If Force Sight is played from arsenal, **opt 2.** *(Look at the top 2 cards of y
       
     },],
     name: "Force Sight",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC208"],
     sets: [Release.ArcaneRising],
@@ -25381,6 +25938,7 @@ If Force Sight is played from arsenal, **opt 2.** *(Look at the top 2 cards of y
       
     },],
     name: "Lead the Charge",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC209"],
     sets: [Release.ArcaneRising],
@@ -25429,6 +25987,7 @@ If Force Sight is played from arsenal, **opt 2.** *(Look at the top 2 cards of y
       
     },],
     name: "Lead the Charge",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC210"],
     sets: [Release.ArcaneRising],
@@ -25477,6 +26036,7 @@ If Force Sight is played from arsenal, **opt 2.** *(Look at the top 2 cards of y
       
     },],
     name: "Lead the Charge",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC211"],
     sets: [Release.ArcaneRising],
@@ -25525,6 +26085,7 @@ If Force Sight is played from arsenal, **opt 2.** *(Look at the top 2 cards of y
       
     },],
     name: "Sun Kiss",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC212"],
     sets: [Release.ArcaneRising],
@@ -25573,6 +26134,7 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
       
     },],
     name: "Sun Kiss",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC213"],
     sets: [Release.ArcaneRising],
@@ -25621,6 +26183,7 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
       
     },],
     name: "Sun Kiss",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ARC214"],
     sets: [Release.ArcaneRising],
@@ -25675,6 +26238,7 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
       
     },],
     name: "Whisper of the Oracle",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP423","ARC215"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -25729,6 +26293,7 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
       
     },],
     name: "Whisper of the Oracle",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP424","ARC216"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -25783,6 +26348,7 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
       
     },],
     name: "Whisper of the Oracle",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP425","ARC217"],
     sets: [Release.HistoryPack1,Release.ArcaneRising],
@@ -25831,6 +26397,7 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
       
     },],
     name: "Arknight Shard",
+    rarities: [Rarity.Fabled],
     rarity: Rarity.Fabled,
     setIdentifiers: ["CRU000"],
     sets: [Release.CrucibleOfWar],
@@ -25868,7 +26435,7 @@ When you pitch Arknight Shard, create a Runechant token.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER025",
-      name: "HER025.width-450",
+      name: "HER025",
       set: Release.Promos,
       
     },{
@@ -25891,6 +26458,7 @@ When you pitch Arknight Shard, create a Runechant token.`,
       
     },],
     name: "Kayo, Berserker Runt",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["HER025","1HP003","CRU002"],
     sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar],
@@ -25913,7 +26481,7 @@ When you pitch Arknight Shard, create a Runechant token.`,
     
     life: 19,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.ClassicConstructed],
     
@@ -25965,6 +26533,7 @@ When you pitch Arknight Shard, create a Runechant token.`,
       
     },],
     name: "Mandible Claw",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP004","1HP005","CRU004","CRU005"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -25982,10 +26551,10 @@ If you have discarded a card with 6 or more {p} this turn, Mandible Claw gains *
     
     
     
+    keywords: [Keyword.GoAgain],
     
     
     
-    pitch: 0,
     power: 3,
     
     
@@ -26019,6 +26588,7 @@ If you have discarded a card with 6 or more {p} this turn, Mandible Claw gains *
       
     },],
     name: "Skullhorn",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP009","CRU006"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -26036,10 +26606,10 @@ If you have discarded a card with 6 or more {p} this turn, Mandible Claw gains *
     
     
     
-    keywords: [Keyword.ArcaneBarrier],
+    keywords: [Keyword.ArcaneBarrier,Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -26073,6 +26643,7 @@ If you have discarded a card with 6 or more {p} this turn, Mandible Claw gains *
       
     },],
     name: "Beast Within",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP011","CRU007"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -26125,6 +26696,7 @@ If you have discarded a card with 6 or more {p} this turn, Mandible Claw gains *
       
     },],
     name: "Massacre",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP012","CRU008"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -26142,7 +26714,7 @@ If Massacre is discarded to pay the cost of a Brute attack action card, **intimi
     
     
     
-    keywords: [Keyword.Intimidate,Keyword.Intimidate],
+    keywords: [Keyword.Intimidate],
     
     
     pitch: 1,
@@ -26173,13 +26745,14 @@ If Massacre is discarded to pay the cost of a Brute attack action card, **intimi
       
     },],
     name: "Argh… Smash!",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["CRU009"],
     sets: [Release.CrucibleOfWar],
     specialImageName: "CRU009",
-    subtypes: [Subtype.Attack],
+    subtypes: [Subtype.NonAttack],
     types: [Type.Action],
-    typeText: "Brute Action – Attack",
+    typeText: "Brute Action",
 
     cost: 3,
     defense: 3,
@@ -26221,6 +26794,7 @@ If Massacre is discarded to pay the cost of a Brute attack action card, **intimi
       
     },],
     name: "Barraging Big Horn",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["CRU010"],
     sets: [Release.CrucibleOfWar],
@@ -26269,6 +26843,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
       
     },],
     name: "Barraging Big Horn",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["CRU011"],
     sets: [Release.CrucibleOfWar],
@@ -26298,7 +26873,8 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Rio Sabda"],
     cardIdentifier: "barraging-big-horn-blue",
     classes: [Class.Brute],
@@ -26317,6 +26893,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
       
     },],
     name: "Barraging Big Horn",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["CRU012"],
     sets: [Release.CrucibleOfWar],
@@ -26371,6 +26948,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
       
     },],
     name: "Predatory Assault",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU013"],
     sets: [Release.CrucibleOfWar],
@@ -26398,8 +26976,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Ksenia Belova"],
     cardIdentifier: "predatory-assault-yellow",
     classes: [Class.Brute],
@@ -26424,6 +27001,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
       
     },],
     name: "Predatory Assault",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU014"],
     sets: [Release.CrucibleOfWar],
@@ -26476,6 +27054,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
       
     },],
     name: "Predatory Assault",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU015"],
     sets: [Release.CrucibleOfWar],
@@ -26528,6 +27107,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
       
     },],
     name: "Riled Up",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP028","CRU016"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -26580,6 +27160,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
       
     },],
     name: "Riled Up",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP029","CRU017"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -26632,6 +27213,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
       
     },],
     name: "Riled Up",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP030","CRU018"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -26678,6 +27260,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
       
     },],
     name: "Swing Fist, Think Later",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU019"],
     sets: [Release.CrucibleOfWar],
@@ -26726,6 +27309,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
       
     },],
     name: "Swing Fist, Think Later",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU020"],
     sets: [Release.CrucibleOfWar],
@@ -26774,6 +27358,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
       
     },],
     name: "Swing Fist, Think Later",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU021"],
     sets: [Release.CrucibleOfWar],
@@ -26828,6 +27413,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
       
     },],
     name: "Sledge of Anvilheim",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP046","CRU024"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -26846,7 +27432,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     
     
     
-    pitch: 0,
+    
     power: 6,
     
     
@@ -26880,6 +27466,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
       
     },],
     name: "Crater Fist",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP049","CRU025"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -26897,10 +27484,10 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     
     
     
-    keywords: [Keyword.Temper],
+    keywords: [Keyword.Temper,Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -26934,6 +27521,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
       
     },],
     name: "Mangle",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP051","CRU026"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -26986,6 +27574,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
       
     },],
     name: "Righteous Cleansing",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP052","CRU027"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -27032,6 +27621,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
       
     },],
     name: "Stamp Authority",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["CRU028"],
     sets: [Release.CrucibleOfWar],
@@ -27088,6 +27678,7 @@ At the beginning of your action phase, destroy Stamp Authority.`,
       
     },],
     name: "Towering Titan",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP064","CRU029"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -27142,6 +27733,7 @@ At the beginning of your action phase, destroy Towering Titan then the next Guar
       
     },],
     name: "Towering Titan",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP065","CRU030"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -27196,6 +27788,7 @@ At the beginning of your action phase, destroy Towering Titan then the next Guar
       
     },],
     name: "Towering Titan",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP066","CRU031"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -27244,6 +27837,7 @@ At the beginning of your action phase, destroy Towering Titan then the next Guar
       
     },],
     name: "Crush the Weak",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU032"],
     sets: [Release.CrucibleOfWar],
@@ -27290,6 +27884,7 @@ At the beginning of your action phase, destroy Towering Titan then the next Guar
       
     },],
     name: "Crush the Weak",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU033"],
     sets: [Release.CrucibleOfWar],
@@ -27336,6 +27931,7 @@ At the beginning of your action phase, destroy Towering Titan then the next Guar
       
     },],
     name: "Crush the Weak",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU034"],
     sets: [Release.CrucibleOfWar],
@@ -27388,6 +27984,7 @@ At the beginning of your action phase, destroy Towering Titan then the next Guar
       
     },],
     name: "Chokeslam",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP070","CRU035"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -27440,6 +28037,7 @@ At the beginning of your action phase, destroy Towering Titan then the next Guar
       
     },],
     name: "Chokeslam",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP071","CRU036"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -27492,6 +28090,7 @@ At the beginning of your action phase, destroy Towering Titan then the next Guar
       
     },],
     name: "Chokeslam",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP072","CRU037"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -27550,6 +28149,7 @@ At the beginning of your action phase, destroy Towering Titan then the next Guar
       
     },],
     name: "Emerging Dominance",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP079","CRU038"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -27610,6 +28210,7 @@ At the beginning of your action phase, destroy Emerging Dominance then the next 
       
     },],
     name: "Emerging Dominance",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP080","CRU039"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -27670,6 +28271,7 @@ At the beginning of your action phase, destroy Emerging Dominance then the next 
       
     },],
     name: "Emerging Dominance",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP081","CRU040"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -27718,6 +28320,7 @@ At the beginning of your action phase, destroy Emerging Dominance then the next 
       
     },],
     name: "Blessing of Serenity",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU041"],
     sets: [Release.CrucibleOfWar],
@@ -27764,6 +28367,7 @@ At the beginning of your action phase, destroy Emerging Dominance then the next 
       
     },],
     name: "Blessing of Serenity",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU042"],
     sets: [Release.CrucibleOfWar],
@@ -27810,6 +28414,7 @@ At the beginning of your action phase, destroy Emerging Dominance then the next 
       
     },],
     name: "Blessing of Serenity",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU043"],
     sets: [Release.CrucibleOfWar],
@@ -27845,7 +28450,7 @@ At the beginning of your action phase, destroy Emerging Dominance then the next 
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER000",
-      name: "HER000-P.width-450",
+      name: "HER000",
       set: Release.Promos,
       
     },{
@@ -27874,6 +28479,7 @@ At the beginning of your action phase, destroy Emerging Dominance then the next 
       
     },],
     name: "Ira, Crimson Haze",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["HER000","IRA001","1HP089","CRU046"],
     sets: [Release.Promos,Release.IraWelcomeDeck,Release.HistoryPack1,Release.CrucibleOfWar],
@@ -27892,7 +28498,7 @@ At the beginning of your action phase, destroy Emerging Dominance then the next 
     
     life: 20,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.ClassicConstructed],
     
@@ -27909,7 +28515,7 @@ At the beginning of your action phase, destroy Emerging Dominance then the next 
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER026",
-      name: "HER026.width-450",
+      name: "HER026",
       set: Release.Promos,
       
     },{
@@ -27938,6 +28544,7 @@ At the beginning of your action phase, destroy Emerging Dominance then the next 
       
     },],
     name: "Benji, the Piercing Wind",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["HER026","1HP088","CRU047"],
     sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar],
@@ -27958,7 +28565,7 @@ At the beginning of your action phase, destroy Emerging Dominance then the next 
     
     life: 17,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.ClassicConstructed],
     
@@ -27998,6 +28605,7 @@ At the beginning of your action phase, destroy Emerging Dominance then the next 
       
     },],
     name: "Edge of Autumn",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["IRA002","1HP090","CRU050"],
     sets: [Release.IraWelcomeDeck,Release.HistoryPack1,Release.CrucibleOfWar],
@@ -28013,10 +28621,10 @@ At the beginning of your action phase, destroy Emerging Dominance then the next 
     
     
     
+    keywords: [Keyword.GoAgain],
     
     
     
-    pitch: 0,
     power: 1,
     
     
@@ -28068,6 +28676,7 @@ At the beginning of your action phase, destroy Emerging Dominance then the next 
       
     },],
     name: "Zephyr Needle",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP093","1HP094","CRU051","CRU052"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -28085,10 +28694,10 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     
     
     
+    keywords: [Keyword.GoAgain],
     
     
     
-    pitch: 0,
     power: 2,
     
     
@@ -28122,6 +28731,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
       
     },],
     name: "Breeze Rider Boots",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP097","CRU053"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -28142,7 +28752,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     keywords: [Keyword.Battleworn,Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -28176,6 +28786,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
       
     },],
     name: "Find Center",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP098","CRU054"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -28228,6 +28839,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
       
     },],
     name: "Flood of Force",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP099","CRU055"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -28280,6 +28892,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
       
     },],
     name: "Heron’s Flight",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP100","CRU056"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -28335,6 +28948,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
       
     },],
     name: "Crane Dance",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP107","CRU057"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -28387,6 +29001,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
       
     },],
     name: "Crane Dance",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP108","CRU058"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -28439,6 +29054,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
       
     },],
     name: "Crane Dance",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP109","CRU059"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -28491,6 +29107,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
       
     },],
     name: "Rushing River",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP110","CRU060"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -28543,6 +29160,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
       
     },],
     name: "Rushing River",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP111","CRU061"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -28595,6 +29213,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
       
     },],
     name: "Rushing River",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP112","CRU062"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -28647,6 +29266,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
       
     },],
     name: "Flying Kick",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["IRA007","CRU063"],
     sets: [Release.IraWelcomeDeck,Release.CrucibleOfWar],
@@ -28693,6 +29313,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
       
     },],
     name: "Flying Kick",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU064"],
     sets: [Release.CrucibleOfWar],
@@ -28739,6 +29360,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
       
     },],
     name: "Flying Kick",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU065"],
     sets: [Release.CrucibleOfWar],
@@ -28791,6 +29413,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
       
     },],
     name: "Soulbead Strike",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP122","CRU066"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -28843,6 +29466,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
       
     },],
     name: "Soulbead Strike",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP123","CRU067"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -28895,6 +29519,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
       
     },],
     name: "Soulbead Strike",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP124","CRU068"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -28953,6 +29578,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
       
     },],
     name: "Torrent of Tempo",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["IRA006","1HP128","CRU069"],
     sets: [Release.IraWelcomeDeck,Release.HistoryPack1,Release.CrucibleOfWar],
@@ -29005,6 +29631,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
       
     },],
     name: "Torrent of Tempo",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP129","CRU070"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -29057,6 +29684,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
       
     },],
     name: "Torrent of Tempo",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP130","CRU071"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -29115,6 +29743,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
       
     },],
     name: "Bittering Thorns",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["IRA005","1HP134","CRU072"],
     sets: [Release.IraWelcomeDeck,Release.HistoryPack1,Release.CrucibleOfWar],
@@ -29175,6 +29804,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
       
     },],
     name: "Salt the Wound",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["IRA004","1HP135","CRU073"],
     sets: [Release.IraWelcomeDeck,Release.HistoryPack1,Release.CrucibleOfWar],
@@ -29239,6 +29869,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
       
     },],
     name: "Whirling Mist Blossom",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["IRA003","1HP136","CRU074"],
     sets: [Release.IraWelcomeDeck,Release.HistoryPack1,Release.CrucibleOfWar],
@@ -29295,6 +29926,7 @@ If Whirling Mist Blossom hits, and it's the second or higher chain link in a row
       
     },],
     name: "Zen State",
+    rarities: [Rarity.Common,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP137","CRU075"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -29315,7 +29947,7 @@ Whenever your hero would be dealt damage, prevent 1 damage that source would dea
     
     
     
-    pitch: 0,
+    
     
     
     
@@ -29332,7 +29964,7 @@ Whenever your hero would be dealt damage, prevent 1 damage that source would dea
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER029",
-      name: "HER029.width-450",
+      name: "HER029",
       set: Release.Promos,
       
     },{
@@ -29361,6 +29993,7 @@ Whenever your hero would be dealt damage, prevent 1 damage that source would dea
       
     },],
     name: "Kassai, Cintari Sellsword",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["HER029","1HP140","CRU077"],
     sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar],
@@ -29381,7 +30014,7 @@ At the beginning of your end phase, if you have attacked 2 or more times with we
     
     life: 20,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.ClassicConstructed],
     
@@ -29433,6 +30066,7 @@ At the beginning of your end phase, if you have attacked 2 or more times with we
       
     },],
     name: "Cintari Saber",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP141","1HP142","CRU079","CRU080"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -29453,7 +30087,7 @@ Whenever Cintari Saber is defended by 1 or more attack action cards, it gains +1
     
     
     
-    pitch: 0,
+    
     power: 2,
     
     
@@ -29470,7 +30104,7 @@ Whenever Cintari Saber is defended by 1 or more attack action cards, it gains +1
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB073",
-      name: "FAB073.width-450",
+      name: "FAB073",
       set: Release.Promos,
       
     },{
@@ -29493,6 +30127,7 @@ Whenever Cintari Saber is defended by 1 or more attack action cards, it gains +1
       
     },],
     name: "Courage of Bladehold",
+    rarities: [Rarity.Promo,Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["FAB073","1HP146","CRU081"],
     sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar],
@@ -29510,10 +30145,10 @@ Whenever Cintari Saber is defended by 1 or more attack action cards, it gains +1
     
     
     
-    keywords: [Keyword.Temper],
+    keywords: [Keyword.Temper,Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -29559,6 +30194,7 @@ Whenever Cintari Saber is defended by 1 or more attack action cards, it gains +1
       
     },],
     name: "Twinning Blade",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP150","CRU082"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -29605,6 +30241,7 @@ Whenever Cintari Saber is defended by 1 or more attack action cards, it gains +1
       
     },],
     name: "Unified Decree",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["CRU083"],
     sets: [Release.CrucibleOfWar],
@@ -29659,6 +30296,7 @@ Whenever Cintari Saber is defended by 1 or more attack action cards, it gains +1
       
     },],
     name: "Spoils of War",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP151","CRU084"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -29678,7 +30316,7 @@ Whenever a weapon you control hits this turn, create 2 Copper tokens.
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 1,
@@ -29709,6 +30347,7 @@ Whenever a weapon you control hits this turn, create 2 Copper tokens.
       
     },],
     name: "Dauntless",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["CRU085"],
     sets: [Release.CrucibleOfWar],
@@ -29759,6 +30398,7 @@ The next defense reaction card the defending hero plays this turn costs an addit
       
     },],
     name: "Dauntless",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["CRU086"],
     sets: [Release.CrucibleOfWar],
@@ -29809,6 +30449,7 @@ The next defense reaction card the defending hero plays this turn costs an addit
       
     },],
     name: "Dauntless",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["CRU087"],
     sets: [Release.CrucibleOfWar],
@@ -29865,6 +30506,7 @@ The next defense reaction card the defending hero plays this turn costs an addit
       
     },],
     name: "Out for Blood",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP165","CRU088"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -29925,6 +30567,7 @@ The next defense reaction card the defending hero plays this turn costs an addit
       
     },],
     name: "Out for Blood",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DVR020","1HP166","CRU089"],
     sets: [Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.CrucibleOfWar],
@@ -29979,6 +30622,7 @@ The next defense reaction card the defending hero plays this turn costs an addit
       
     },],
     name: "Out for Blood",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP167","CRU090"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -30033,6 +30677,7 @@ The next defense reaction card the defending hero plays this turn costs an addit
       
     },],
     name: "Hit and Run",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP174","CRU091"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -30052,7 +30697,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 1,
@@ -30089,6 +30734,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
       
     },],
     name: "Hit and Run",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP175","CRU092"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -30108,7 +30754,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 2,
@@ -30151,6 +30797,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
       
     },],
     name: "Hit and Run",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DVR021","1HP176","CRU093"],
     sets: [Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.CrucibleOfWar],
@@ -30170,7 +30817,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 3,
@@ -30213,6 +30860,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
       
     },],
     name: "Push Forward",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BOL030","CRU094"],
     sets: [Release.BoltynBlitzDeck,Release.CrucibleOfWar],
@@ -30269,6 +30917,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains *
       
     },],
     name: "Push Forward",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU095"],
     sets: [Release.CrucibleOfWar],
@@ -30325,6 +30974,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains *
       
     },],
     name: "Push Forward",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU096"],
     sets: [Release.CrucibleOfWar],
@@ -30375,6 +31025,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains *
       
     },],
     name: "Shiyana, Diamond Gemini",
+    rarities: [Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["CRU097"],
     sets: [Release.CrucibleOfWar],
@@ -30395,7 +31046,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
     
     life: 20,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
     
@@ -30412,7 +31063,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER027",
-      name: "HER027.width-450",
+      name: "HER027",
       set: Release.Promos,
       
     },{
@@ -30435,6 +31086,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
       
     },],
     name: "Data Doll MKII",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["HER027","1HP182","CRU099"],
     sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar],
@@ -30453,7 +31105,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
     
     life: 20,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.ClassicConstructed],
     
@@ -30487,6 +31139,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
       
     },],
     name: "Plasma Barrel Shot",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP183","CRU101"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -30506,10 +31159,10 @@ X is equal to 1 plus the number of times you have **boosted** this combat chain.
     
     
     
+    keywords: [Keyword.GoAgain],
     
     
     
-    pitch: 0,
     
     
     
@@ -30543,6 +31196,7 @@ X is equal to 1 plus the number of times you have **boosted** this combat chain.
       
     },],
     name: "Viziertronic Model i",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP187","CRU102"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -30560,10 +31214,10 @@ X is equal to 1 plus the number of times you have **boosted** this combat chain.
     
     
     
-    keywords: [Keyword.ArcaneBarrier],
+    keywords: [Keyword.ArcaneBarrier,Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -30591,6 +31245,7 @@ X is equal to 1 plus the number of times you have **boosted** this combat chain.
       
     },],
     name: "Meganetic Shockwave",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["CRU103"],
     sets: [Release.CrucibleOfWar],
@@ -30637,6 +31292,7 @@ X is equal to 1 plus the number of times you have **boosted** this combat chain.
       
     },],
     name: "Absorption Dome",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["CRU104"],
     sets: [Release.CrucibleOfWar],
@@ -30693,6 +31349,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
       
     },],
     name: "Plasma Purifier",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP190","CRU105"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -30710,7 +31367,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 1,
@@ -30753,6 +31410,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
       
     },],
     name: "High Speed Impact",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP193","CRU106"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -30813,6 +31471,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
       
     },],
     name: "High Speed Impact",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP194","CRU107"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -30873,6 +31532,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
       
     },],
     name: "High Speed Impact",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP195","CRU108"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -30933,6 +31593,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
       
     },],
     name: "Combustible Courier",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP202","CRU109"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -30993,6 +31654,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
       
     },],
     name: "Combustible Courier",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP203","CRU110"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -31053,6 +31715,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
       
     },],
     name: "Combustible Courier",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP204","CRU111"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -31101,6 +31764,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
       
     },],
     name: "Overblast",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU112"],
     sets: [Release.CrucibleOfWar],
@@ -31147,6 +31811,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
       
     },],
     name: "Overblast",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU113"],
     sets: [Release.CrucibleOfWar],
@@ -31193,6 +31858,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
       
     },],
     name: "Overblast",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU114"],
     sets: [Release.CrucibleOfWar],
@@ -31245,6 +31911,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
       
     },],
     name: "Teklovossen’s Workshop",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU115"],
     sets: [Release.CrucibleOfWar],
@@ -31299,6 +31966,7 @@ Reveal the top card of your deck. If it’s a Mechanologist item card with cost 
       
     },],
     name: "Teklovossen’s Workshop",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU116"],
     sets: [Release.CrucibleOfWar],
@@ -31353,6 +32021,7 @@ Reveal the top card of your deck. If it’s a Mechanologist item card with cost 
       
     },],
     name: "Teklovossen’s Workshop",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU117"],
     sets: [Release.CrucibleOfWar],
@@ -31390,7 +32059,7 @@ Reveal the top card of your deck. If it’s a Mechanologist item card with cost 
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER028",
-      name: "HER028.width-450",
+      name: "HER028",
       set: Release.Promos,
       
     },{
@@ -31419,6 +32088,7 @@ Reveal the top card of your deck. If it’s a Mechanologist item card with cost 
       
     },],
     name: "Kavdaen, Trader of Skins",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["HER028","1HP220","CRU118"],
     sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar],
@@ -31434,10 +32104,10 @@ Reveal the top card of your deck. If it’s a Mechanologist item card with cost 
     hero: Hero.Kavdaen,
     intellect: 4,
     
-    
+    keywords: [Keyword.GoAgain],
     life: 20,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.ClassicConstructed],
     
@@ -31471,6 +32141,7 @@ Reveal the top card of your deck. If it’s a Mechanologist item card with cost 
       
     },],
     name: "Red Liner",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP224","CRU121"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -31486,10 +32157,10 @@ Reveal the top card of your deck. If it’s a Mechanologist item card with cost 
     
     
     
+    keywords: [Keyword.GoAgain],
     
     
     
-    pitch: 0,
     
     
     
@@ -31523,6 +32194,7 @@ Reveal the top card of your deck. If it’s a Mechanologist item card with cost 
       
     },],
     name: "Perch Grapplers",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP227","CRU122"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -31543,7 +32215,7 @@ Reveal the top card of your deck. If it’s a Mechanologist item card with cost 
     keywords: [Keyword.BladeBreak,Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -31577,6 +32249,7 @@ Reveal the top card of your deck. If it’s a Mechanologist item card with cost 
       
     },],
     name: "Remorseless",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP230","CRU123"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -31627,6 +32300,7 @@ If Remorseless hits a hero, until the end of their next turn, whenever they play
       
     },],
     name: "Poison the Tips",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["CRU124"],
     sets: [Release.CrucibleOfWar],
@@ -31683,6 +32357,7 @@ If Remorseless hits a hero, until the end of their next turn, whenever they play
       
     },],
     name: "Feign Death",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP233","CRU125"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -31737,6 +32412,7 @@ The next time your hero would be dealt damage this turn, prevent it.`,
       
     },],
     name: "Tripwire Trap",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["CRU126"],
     sets: [Release.CrucibleOfWar],
@@ -31791,6 +32467,7 @@ Hit effects don't trigger this chain link unless the attacking hero pays {r}. *(
       
     },],
     name: "Pitfall Trap",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LXI029","CRU127"],
     sets: [Release.LexiBlitzDeck,Release.CrucibleOfWar],
@@ -31845,6 +32522,7 @@ Deal 2 damage to the attacking hero unless they pay {r}.`,
       
     },],
     name: "Rockslide Trap",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["CRU128"],
     sets: [Release.CrucibleOfWar],
@@ -31893,6 +32571,7 @@ Target attack gets -2{p} unless the attacking hero pays {r}. *(The attacking her
       
     },],
     name: "Pathing Helix",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU129"],
     sets: [Release.CrucibleOfWar],
@@ -31941,6 +32620,7 @@ If Pathing Helix hits and you have no cards in your arsenal, you may put a card 
       
     },],
     name: "Pathing Helix",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU130"],
     sets: [Release.CrucibleOfWar],
@@ -31989,6 +32669,7 @@ If Pathing Helix hits and you have no cards in your arsenal, you may put a card 
       
     },],
     name: "Pathing Helix",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU131"],
     sets: [Release.CrucibleOfWar],
@@ -32049,6 +32730,7 @@ If Pathing Helix hits and you have no cards in your arsenal, you may put a card 
       
     },],
     name: "Sleep Dart",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP255","CRU132"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -32109,6 +32791,7 @@ If Sleep Dart hits a hero, they lose all hero card effects and activated abiliti
       
     },],
     name: "Sleep Dart",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP256","CRU133"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -32169,6 +32852,7 @@ If Sleep Dart hits a hero, they lose all hero card effects and activated abiliti
       
     },],
     name: "Sleep Dart",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP257","CRU134"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -32217,6 +32901,7 @@ If Sleep Dart hits a hero, they lose all hero card effects and activated abiliti
       
     },],
     name: "Increase the Tension",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU135"],
     sets: [Release.CrucibleOfWar],
@@ -32265,6 +32950,7 @@ If Sleep Dart hits a hero, they lose all hero card effects and activated abiliti
       
     },],
     name: "Increase the Tension",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU136"],
     sets: [Release.CrucibleOfWar],
@@ -32313,6 +32999,7 @@ If Sleep Dart hits a hero, they lose all hero card effects and activated abiliti
       
     },],
     name: "Increase the Tension",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU137"],
     sets: [Release.CrucibleOfWar],
@@ -32367,6 +33054,7 @@ If Sleep Dart hits a hero, they lose all hero card effects and activated abiliti
       
     },],
     name: "Reaping Blade",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP261","CRU140"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -32387,7 +33075,7 @@ If a hero has more {h} than any other hero, they can't gain {h}.`,
     
     
     
-    pitch: 0,
+    
     power: 3,
     
     
@@ -32421,6 +33109,7 @@ If a hero has more {h} than any other hero, they can't gain {h}.`,
       
     },],
     name: "Bloodsheath Skeleta",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP264","CRU141"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -32441,7 +33130,7 @@ If a hero has more {h} than any other hero, they can't gain {h}.`,
     keywords: [Keyword.Temper],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
     
@@ -32475,6 +33164,7 @@ If a hero has more {h} than any other hero, they can't gain {h}.`,
       
     },],
     name: "Dread Triptych",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP266","CRU142"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -32525,6 +33215,7 @@ If Dread Triptych hits, create a Runechant token.`,
       
     },],
     name: "Rattle Bones",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["CRU143"],
     sets: [Release.CrucibleOfWar],
@@ -32581,6 +33272,7 @@ If you have dealt arcane damage to an opposing hero this turn, you may play Ratt
       
     },],
     name: "Runeblood Barrier",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP269","CRU144"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -32643,6 +33335,7 @@ At the beginning of your action phase, destroy Runeblood Barrier.`,
       
     },],
     name: "Mauvrion Skies",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP276","CRU145"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -32660,7 +33353,7 @@ At the beginning of your action phase, destroy Runeblood Barrier.`,
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 1,
@@ -32703,6 +33396,7 @@ At the beginning of your action phase, destroy Runeblood Barrier.`,
       
     },],
     name: "Mauvrion Skies",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP277","CRU146"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -32720,7 +33414,7 @@ At the beginning of your action phase, destroy Runeblood Barrier.`,
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 2,
@@ -32763,6 +33457,7 @@ At the beginning of your action phase, destroy Runeblood Barrier.`,
       
     },],
     name: "Mauvrion Skies",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP278","CRU147"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -32780,7 +33475,7 @@ At the beginning of your action phase, destroy Runeblood Barrier.`,
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 3,
@@ -32817,6 +33512,7 @@ At the beginning of your action phase, destroy Runeblood Barrier.`,
       
     },],
     name: "Consuming Volition",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CHN025","CRU148"],
     sets: [Release.ChaneBlitzDeck,Release.CrucibleOfWar],
@@ -32863,6 +33559,7 @@ At the beginning of your action phase, destroy Runeblood Barrier.`,
       
     },],
     name: "Consuming Volition",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU149"],
     sets: [Release.CrucibleOfWar],
@@ -32909,6 +33606,7 @@ At the beginning of your action phase, destroy Runeblood Barrier.`,
       
     },],
     name: "Consuming Volition",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU150"],
     sets: [Release.CrucibleOfWar],
@@ -32967,6 +33665,7 @@ At the beginning of your action phase, destroy Runeblood Barrier.`,
       
     },],
     name: "Meat and Greet",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP285","CRU151"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -33027,6 +33726,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
       
     },],
     name: "Meat and Greet",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP286","CRU152"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -33087,6 +33787,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
       
     },],
     name: "Meat and Greet",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP287","CRU153"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -33147,6 +33848,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
       
     },],
     name: "Sutcliffe’s Research Notes",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP297","CRU154"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -33207,6 +33909,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
       
     },],
     name: "Sutcliffe’s Research Notes",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP298","CRU155"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -33267,6 +33970,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
       
     },],
     name: "Sutcliffe’s Research Notes",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP299","CRU156"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -33321,6 +34025,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
       
     },],
     name: "Aether Conduit",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP304","CRU160"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -33339,7 +34044,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
     
     
     
-    pitch: 0,
+    
     
     
     
@@ -33373,6 +34078,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
       
     },],
     name: "Metacarpus Node",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP307","CRU161"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -33393,7 +34099,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
     keywords: [Keyword.ArcaneBarrier],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -33427,6 +34133,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
       
     },],
     name: "Chain Lightning",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP309","CRU162"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -33475,6 +34182,7 @@ If you have played another Wizard 'non-attack' action card this turn, deal 3 arc
       
     },],
     name: "Gaze the Ages",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["CRU163"],
     sets: [Release.CrucibleOfWar],
@@ -33529,6 +34237,7 @@ If you have played another Wizard 'non-attack' action card this turn, put Gaze t
       
     },],
     name: "Aetherize",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["CRU164"],
     sets: [Release.CrucibleOfWar],
@@ -33581,6 +34290,7 @@ If you have played another Wizard 'non-attack' action card this turn, put Gaze t
       
     },],
     name: "Cindering Foresight",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP317","CRU165"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -33637,6 +34347,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
       
     },],
     name: "Cindering Foresight",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP318","CRU166"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -33693,6 +34404,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
       
     },],
     name: "Cindering Foresight",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP319","CRU167"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -33743,6 +34455,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
       
     },],
     name: "Foreboding Bolt",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU168"],
     sets: [Release.CrucibleOfWar],
@@ -33791,6 +34504,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
       
     },],
     name: "Foreboding Bolt",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU169"],
     sets: [Release.CrucibleOfWar],
@@ -33839,6 +34553,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
       
     },],
     name: "Foreboding Bolt",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU170"],
     sets: [Release.CrucibleOfWar],
@@ -33887,6 +34602,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
       
     },],
     name: "Rousing Aether",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU171"],
     sets: [Release.CrucibleOfWar],
@@ -33935,6 +34651,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
       
     },],
     name: "Rousing Aether",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU172"],
     sets: [Release.CrucibleOfWar],
@@ -33983,6 +34700,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
       
     },],
     name: "Rousing Aether",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU173"],
     sets: [Release.CrucibleOfWar],
@@ -34037,6 +34755,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
       
     },],
     name: "Snapback",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP332","CRU174"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -34091,6 +34810,7 @@ If you have played another Wizard 'non-attack' action card this turn, you may pl
       
     },],
     name: "Snapback",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP333","CRU175"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -34145,6 +34865,7 @@ If you have played another Wizard 'non-attack' action card this turn, you may pl
       
     },],
     name: "Snapback",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP334","CRU176"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -34199,6 +34920,7 @@ If you have played another Wizard 'non-attack' action card this turn, you may pl
       
     },],
     name: "Talishar, the Lost Prince",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP367","CRU177"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -34219,7 +34941,7 @@ At the beginning of your end phase, if Talishar, the Lost Prince has 3 or more r
     
     
     
-    pitch: 0,
+    
     power: 4,
     
     
@@ -34236,7 +34958,7 @@ At the beginning of your end phase, if Talishar, the Lost Prince has 3 or more r
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB074",
-      name: "FAB074.width-450",
+      name: "FAB074",
       set: Release.Promos,
       
     },{
@@ -34259,6 +34981,7 @@ At the beginning of your end phase, if Talishar, the Lost Prince has 3 or more r
       
     },],
     name: "Gambler’s Gloves",
+    rarities: [Rarity.Promo,Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["FAB074","1HP358","CRU179"],
     sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar],
@@ -34277,7 +35000,7 @@ At the beginning of your end phase, if Talishar, the Lost Prince has 3 or more r
     
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -34311,6 +35034,7 @@ At the beginning of your end phase, if Talishar, the Lost Prince has 3 or more r
       
     },],
     name: "Coax a Commotion",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP359","CRU180"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -34319,7 +35043,7 @@ At the beginning of your end phase, if Talishar, the Lost Prince has 3 or more r
     types: [Type.Action],
     typeText: "Generic Action – Attack",
 
-    cost: 1,
+    cost: 0,
     defense: 2,
     functionalText: `If Coax a Commotion hits, choose any number:
 
@@ -34367,6 +35091,7 @@ At the beginning of your end phase, if Talishar, the Lost Prince has 3 or more r
       
     },],
     name: "Gorganian Tome",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP364","CRU181"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
@@ -34389,7 +35114,7 @@ Draw X cards, where X is 1 plus the number of Gorganian Tomes in all graveyards.
     keywords: [Keyword.Legendary,Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -34423,6 +35148,7 @@ Draw X cards, where X is 1 plus the number of Gorganian Tomes in all graveyards.
       
     },],
     name: "Snag",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["CRU182"],
     sets: [Release.CrucibleOfWar],
@@ -34469,6 +35195,7 @@ Draw X cards, where X is 1 plus the number of Gorganian Tomes in all graveyards.
       
     },],
     name: "Promise of Plenty",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["CRU183"],
     sets: [Release.CrucibleOfWar],
@@ -34517,6 +35244,7 @@ If Promise of Plenty is played from arsenal, it gains **go again.**`,
       
     },],
     name: "Promise of Plenty",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["CRU184"],
     sets: [Release.CrucibleOfWar],
@@ -34565,6 +35293,7 @@ If Promise of Plenty is played from arsenal, it gains **go again.**`,
       
     },],
     name: "Promise of Plenty",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["CRU185"],
     sets: [Release.CrucibleOfWar],
@@ -34625,6 +35354,7 @@ If Promise of Plenty is played from arsenal, it gains **go again.**`,
       
     },],
     name: "Lunging Press",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["IRA011","KSU028","CRU186"],
     sets: [Release.IraWelcomeDeck,Release.KatsuHeroDeck,Release.CrucibleOfWar],
@@ -34707,6 +35437,7 @@ If Promise of Plenty is played from arsenal, it gains **go again.**`,
       
     },],
     name: "Springboard Somersault",
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["BVO015","IRA012","KSU021","RNR022","TEA019","1HP374","CRU187"],
     sets: [Release.BravoBlitzDeck,Release.IraWelcomeDeck,Release.KatsuHeroDeck,Release.RhinarHeroDeck,Release.DorintheaHeroDeck,Release.HistoryPack1,Release.CrucibleOfWar],
@@ -34753,6 +35484,7 @@ If Promise of Plenty is played from arsenal, it gains **go again.**`,
       
     },],
     name: "Cash In",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["CRU188"],
     sets: [Release.CrucibleOfWar],
@@ -34765,12 +35497,14 @@ If Promise of Plenty is played from arsenal, it gains **go again.**`,
     defense: 2,
     functionalText: `You may destroy 4 Coppers, 2 Silvers, or 1 Gold you control rather than pay Cash In's {r} cost.
 
-Draw 2 cards.`,
+Draw 2 cards.
+
+**Go again**`,
     
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 2,
@@ -34801,6 +35535,7 @@ Draw 2 cards.`,
       
     },],
     name: "Reinforce the Line",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["CRU189"],
     sets: [Release.CrucibleOfWar],
@@ -34847,6 +35582,7 @@ Draw 2 cards.`,
       
     },],
     name: "Reinforce the Line",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["CRU190"],
     sets: [Release.CrucibleOfWar],
@@ -34893,6 +35629,7 @@ Draw 2 cards.`,
       
     },],
     name: "Reinforce the Line",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["CRU191"],
     sets: [Release.CrucibleOfWar],
@@ -34945,6 +35682,7 @@ Draw 2 cards.`,
       
     },],
     name: "Brutal Assault",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DRO024","CRU192"],
     sets: [Release.DromaiBlitzDeck,Release.CrucibleOfWar],
@@ -34991,6 +35729,7 @@ Draw 2 cards.`,
       
     },],
     name: "Brutal Assault",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU193"],
     sets: [Release.CrucibleOfWar],
@@ -35043,6 +35782,7 @@ Draw 2 cards.`,
       
     },],
     name: "Brutal Assault",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["IRA010","CRU194"],
     sets: [Release.IraWelcomeDeck,Release.CrucibleOfWar],
@@ -35078,7 +35818,7 @@ Draw 2 cards.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB055",
-      name: "FAB055.width-450",
+      name: "FAB055",
       set: Release.Promos,
       
     },{
@@ -35107,6 +35847,7 @@ Draw 2 cards.`,
       
     },],
     name: "Copper",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB055","1HP426","CRU197","EVR194"],
     sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar,Release.Everfest],
@@ -35122,10 +35863,10 @@ Draw 2 cards.`,
     
     
     
+    keywords: [Keyword.GoAgain],
     
     
     
-    pitch: 0,
     
     
     
@@ -35153,6 +35894,7 @@ Draw 2 cards.`,
       
     },],
     name: "Great Library of Solana",
+    rarities: [Rarity.Fabled],
     rarity: Rarity.Fabled,
     setIdentifiers: ["MON000"],
     sets: [Release.Monarch],
@@ -35172,10 +35914,10 @@ At the beginning of each end phase, if a hero has 2 or more cards with yellow co
     
     
     
-    keywords: [Keyword.Legendary],
+    keywords: [Keyword.Legendary,Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -35192,13 +35934,13 @@ At the beginning of each end phase, if a hero has 2 or more cards with yellow co
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER030",
-      name: "HER030.width-450",
+      name: "HER030",
       set: Release.Promos,
       
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER038",
-      name: "HER038.width-450",
+      name: "HER038",
       set: Release.Promos,
       
     },{
@@ -35215,6 +35957,7 @@ At the beginning of each end phase, if a hero has 2 or more cards with yellow co
       
     },],
     name: "Prism, Sculptor of Arc Light",
+    rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER030","HER038","WIN009","MON001"],
     sets: [Release.Promos,Release.Monarch],
@@ -35233,7 +35976,7 @@ At the beginning of each end phase, if a hero has 2 or more cards with yellow co
     
     life: 40,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
     
@@ -35250,7 +35993,7 @@ At the beginning of each end phase, if a hero has 2 or more cards with yellow co
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER034",
-      name: "HER034.width-450",
+      name: "HER034",
       set: Release.Promos,
       
     },{
@@ -35273,6 +36016,7 @@ At the beginning of each end phase, if a hero has 2 or more cards with yellow co
       
     },],
     name: "Prism",
+    rarities: [Rarity.Promo,Rarity.Rare,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER034","PSM001","MON002"],
     sets: [Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
@@ -35291,7 +36035,7 @@ At the beginning of each end phase, if a hero has 2 or more cards with yellow co
     
     life: 20,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.ClassicConstructed],
     
@@ -35319,6 +36063,7 @@ At the beginning of each end phase, if a hero has 2 or more cards with yellow co
       
     },],
     name: "Luminaris",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["MON003"],
     sets: [Release.Monarch],
@@ -35339,7 +36084,7 @@ While there is a card with a yellow color strip in your pitch zone, Illusionist 
     keywords: [Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
     
@@ -35373,6 +36118,7 @@ While there is a card with a yellow color strip in your pitch zone, Illusionist 
       
     },],
     name: "Herald of Erudition",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["MON004"],
     sets: [Release.Monarch],
@@ -35423,6 +36169,7 @@ If Herald of Erudition hits, put it into your hero's soul and draw 2 cards.
       
     },],
     name: "Arc Light Sentinel",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["MON005"],
     sets: [Release.Monarch],
@@ -35475,6 +36222,7 @@ If Arc Light Sentinel is in the arena when an opponent announces an attack, they
       
     },],
     name: "Genesis",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["MON006"],
     sets: [Release.Monarch],
@@ -35512,7 +36260,7 @@ If Arc Light Sentinel is in the arena when an opponent announces an attack, they
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB028",
-      name: "FAB028.width-450",
+      name: "FAB028",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -35535,10 +36283,11 @@ If Arc Light Sentinel is in the arena when an opponent announces an attack, they
       
     },],
     name: "Herald of Judgment",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["FAB028","PSM008","MON007"],
     sets: [Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
-    specialImageName: "FAB028.width-450",
+    specialImageName: "FAB028",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Light Illusionist Instant – Aura",
@@ -35585,6 +36334,7 @@ If Herald of Judgment hits, put it into your hero's soul and the defending hero 
       
     },],
     name: "Herald of Triumph",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON008"],
     sets: [Release.Monarch],
@@ -35635,6 +36385,7 @@ If Herald of Triumph hits, put it into your hero's soul. *(Put this card face up
       
     },],
     name: "Herald of Triumph",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON009"],
     sets: [Release.Monarch],
@@ -35685,6 +36436,7 @@ If Herald of Triumph hits, put it into your hero's soul. *(Put this card face up
       
     },],
     name: "Herald of Triumph",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON010"],
     sets: [Release.Monarch],
@@ -35724,7 +36476,7 @@ If Herald of Triumph hits, put it into your hero's soul. *(Put this card face up
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB025",
-      name: "FAB025.width-450",
+      name: "FAB025",
       set: Release.Promos,
       
     },{
@@ -35741,6 +36493,7 @@ If Herald of Triumph hits, put it into your hero's soul. *(Put this card face up
       
     },],
     name: "Parable of Humility",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["FAB025","MON011"],
     sets: [Release.Promos,Release.Monarch],
@@ -35778,7 +36531,7 @@ If Herald of Triumph hits, put it into your hero's soul. *(Put this card face up
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB026",
-      name: "FAB026.width-450",
+      name: "FAB026",
       set: Release.Promos,
       
     },{
@@ -35801,6 +36554,7 @@ If Herald of Triumph hits, put it into your hero's soul. *(Put this card face up
       
     },],
     name: "Merciful Retribution",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["FAB026","PSM014","MON012"],
     sets: [Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
@@ -35838,7 +36592,7 @@ If Herald of Triumph hits, put it into your hero's soul. *(Put this card face up
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB027",
-      name: "FAB027.width-450",
+      name: "FAB027",
       set: Release.Promos,
       
     },{
@@ -35861,6 +36615,7 @@ If Herald of Triumph hits, put it into your hero's soul. *(Put this card face up
       
     },],
     name: "Ode to Wrath",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["FAB027","PSM015","MON013"],
     sets: [Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
@@ -35900,7 +36655,7 @@ Illusionist attack action cards you control have **go again.** *(If an attack is
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB029",
-      name: "FAB029.width-450",
+      name: "FAB029",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -35923,10 +36678,11 @@ Illusionist attack action cards you control have **go again.** *(If an attack is
       
     },],
     name: "Herald of Protection",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB029","PSM009","MON014"],
     sets: [Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
-    specialImageName: "FAB029.width-450",
+    specialImageName: "FAB029",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Light Illusionist Action – Attack",
@@ -35960,7 +36716,7 @@ Illusionist attack action cards you control have **go again.** *(If an attack is
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB030",
-      name: "FAB030.width-450",
+      name: "FAB030",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -35977,10 +36733,11 @@ Illusionist attack action cards you control have **go again.** *(If an attack is
       
     },],
     name: "Herald of Protection",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB030","MON015"],
     sets: [Release.Promos,Release.Monarch],
-    specialImageName: "FAB030.width-450",
+    specialImageName: "FAB030",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Light Illusionist Action – Attack",
@@ -36014,7 +36771,7 @@ Illusionist attack action cards you control have **go again.** *(If an attack is
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB031",
-      name: "FAB031.width-450",
+      name: "FAB031",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -36037,10 +36794,11 @@ Illusionist attack action cards you control have **go again.** *(If an attack is
       
     },],
     name: "Herald of Protection",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB031","PSM016","MON016"],
     sets: [Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
-    specialImageName: "FAB031.width-450",
+    specialImageName: "FAB031",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Light Illusionist Action – Attack",
@@ -36091,6 +36849,7 @@ Illusionist attack action cards you control have **go again.** *(If an attack is
       
     },],
     name: "Herald of Ravages",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["PSM010","MON017"],
     sets: [Release.PrismBlitzDeck,Release.Monarch],
@@ -36139,6 +36898,7 @@ Illusionist attack action cards you control have **go again.** *(If an attack is
       
     },],
     name: "Herald of Ravages",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON018"],
     sets: [Release.Monarch],
@@ -36193,6 +36953,7 @@ Illusionist attack action cards you control have **go again.** *(If an attack is
       
     },],
     name: "Herald of Ravages",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["PSM017","MON019"],
     sets: [Release.PrismBlitzDeck,Release.Monarch],
@@ -36253,6 +37014,7 @@ Illusionist attack action cards you control have **go again.** *(If an attack is
       
     },],
     name: "Herald of Rebirth",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB032","PSM011","MON020"],
     sets: [Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
@@ -36307,6 +37069,7 @@ Illusionist attack action cards you control have **go again.** *(If an attack is
       
     },],
     name: "Herald of Rebirth",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB033","MON021"],
     sets: [Release.Promos,Release.Monarch],
@@ -36367,6 +37130,7 @@ Illusionist attack action cards you control have **go again.** *(If an attack is
       
     },],
     name: "Herald of Rebirth",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB034","PSM018","MON022"],
     sets: [Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
@@ -36421,6 +37185,7 @@ Illusionist attack action cards you control have **go again.** *(If an attack is
       
     },],
     name: "Herald of Tenacity",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["PSM012","MON023"],
     sets: [Release.PrismBlitzDeck,Release.Monarch],
@@ -36471,6 +37236,7 @@ If Herald of Tenacity hits, put it into your hero's soul. *(Put this card face u
       
     },],
     name: "Herald of Tenacity",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON024"],
     sets: [Release.Monarch],
@@ -36527,6 +37293,7 @@ If Herald of Tenacity hits, put it into your hero's soul. *(Put this card face u
       
     },],
     name: "Herald of Tenacity",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["PSM019","MON025"],
     sets: [Release.PrismBlitzDeck,Release.Monarch],
@@ -36566,7 +37333,7 @@ If Herald of Tenacity hits, put it into your hero's soul. *(Put this card face u
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB035",
-      name: "FAB035.width-450",
+      name: "FAB035",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -36589,10 +37356,11 @@ If Herald of Tenacity hits, put it into your hero's soul. *(Put this card face u
       
     },],
     name: "Wartune Herald",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB035","PSM013","MON026"],
     sets: [Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
-    specialImageName: "FAB035.width-450",
+    specialImageName: "FAB035",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Light Illusionist Action – Attack",
@@ -36626,7 +37394,7 @@ If Herald of Tenacity hits, put it into your hero's soul. *(Put this card face u
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB036",
-      name: "FAB036.width-450",
+      name: "FAB036",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -36643,10 +37411,11 @@ If Herald of Tenacity hits, put it into your hero's soul. *(Put this card face u
       
     },],
     name: "Wartune Herald",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB036","MON027"],
     sets: [Release.Promos,Release.Monarch],
-    specialImageName: "FAB036.width-450",
+    specialImageName: "FAB036",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Light Illusionist Action – Attack",
@@ -36680,7 +37449,7 @@ If Herald of Tenacity hits, put it into your hero's soul. *(Put this card face u
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB037",
-      name: "FAB037.width-450",
+      name: "FAB037",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -36703,10 +37472,11 @@ If Herald of Tenacity hits, put it into your hero's soul. *(Put this card face u
       
     },],
     name: "Wartune Herald",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB037","PSM020","MON028"],
     sets: [Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
-    specialImageName: "FAB037.width-450",
+    specialImageName: "FAB037",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Light Illusionist Action – Attack",
@@ -36740,13 +37510,13 @@ If Herald of Tenacity hits, put it into your hero's soul. *(Put this card face u
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER031",
-      name: "HER031.width-450",
+      name: "HER031",
       set: Release.Promos,
       
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER039",
-      name: "HER039.width-450",
+      name: "HER039",
       set: Release.Promos,
       
     },{
@@ -36763,6 +37533,7 @@ If Herald of Tenacity hits, put it into your hero's soul. *(Put this card face u
       
     },],
     name: "Ser Boltyn, Breaker of Dawn",
+    rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER031","HER039","WIN010","MON029"],
     sets: [Release.Promos,Release.Monarch],
@@ -36783,7 +37554,7 @@ If Herald of Tenacity hits, put it into your hero's soul. *(Put this card face u
     keywords: [Keyword.GoAgain],
     life: 40,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Blitz,Format.Commoner],
     
@@ -36800,7 +37571,7 @@ If Herald of Tenacity hits, put it into your hero's soul. *(Put this card face u
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER035",
-      name: "HER035.width-450",
+      name: "HER035",
       set: Release.Promos,
       
     },{
@@ -36823,6 +37594,7 @@ If Herald of Tenacity hits, put it into your hero's soul. *(Put this card face u
       
     },],
     name: "Boltyn",
+    rarities: [Rarity.Promo,Rarity.Rare,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER035","BOL001","MON030"],
     sets: [Release.Promos,Release.BoltynBlitzDeck,Release.Monarch],
@@ -36843,7 +37615,7 @@ If Herald of Tenacity hits, put it into your hero's soul. *(Put this card face u
     keywords: [Keyword.GoAgain],
     life: 20,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.ClassicConstructed],
     
@@ -36871,6 +37643,7 @@ If Herald of Tenacity hits, put it into your hero's soul. *(Put this card face u
       
     },],
     name: "Raydn, Duskbane",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["MON031"],
     sets: [Release.Monarch],
@@ -36891,7 +37664,7 @@ If you've **charged** this turn, Raydn gains +3{p}.`,
     
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -36919,6 +37692,7 @@ If you've **charged** this turn, Raydn gains +3{p}.`,
       
     },],
     name: "Bolting Blade",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["MON032"],
     sets: [Release.Monarch],
@@ -36965,6 +37739,7 @@ If you've **charged** this turn, Raydn gains +3{p}.`,
       
     },],
     name: "Beacon of Victory",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["MON033"],
     sets: [Release.Monarch],
@@ -37021,6 +37796,7 @@ If you've **charged** this turn, search your deck for an action card with cost X
       
     },],
     name: "Lumina Ascension",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["MON034"],
     sets: [Release.Monarch],
@@ -37079,6 +37855,7 @@ If you've **charged** this turn, you may attack an additional time with each wea
       
     },],
     name: "V of the Vanguard",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["BOL009","MON035"],
     sets: [Release.BoltynBlitzDeck,Release.Monarch],
@@ -37135,6 +37912,7 @@ Attacks on this combat chain gain +1{p} for each Light card charged this way.`,
       
     },],
     name: "Battlefield Blitz",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["BOL010","MON036"],
     sets: [Release.BoltynBlitzDeck,Release.Monarch],
@@ -37181,6 +37959,7 @@ Attacks on this combat chain gain +1{p} for each Light card charged this way.`,
       
     },],
     name: "Battlefield Blitz",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON037"],
     sets: [Release.Monarch],
@@ -37227,6 +38006,7 @@ Attacks on this combat chain gain +1{p} for each Light card charged this way.`,
       
     },],
     name: "Battlefield Blitz",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON038"],
     sets: [Release.Monarch],
@@ -37279,6 +38059,7 @@ Attacks on this combat chain gain +1{p} for each Light card charged this way.`,
       
     },],
     name: "Valiant Thrust",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["BOL017","MON039"],
     sets: [Release.BoltynBlitzDeck,Release.Monarch],
@@ -37325,6 +38106,7 @@ Attacks on this combat chain gain +1{p} for each Light card charged this way.`,
       
     },],
     name: "Valiant Thrust",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON040"],
     sets: [Release.Monarch],
@@ -37371,6 +38153,7 @@ Attacks on this combat chain gain +1{p} for each Light card charged this way.`,
       
     },],
     name: "Valiant Thrust",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON041"],
     sets: [Release.Monarch],
@@ -37423,6 +38206,7 @@ Attacks on this combat chain gain +1{p} for each Light card charged this way.`,
       
     },],
     name: "Bolt of Courage",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BOL011","MON042"],
     sets: [Release.BoltynBlitzDeck,Release.Monarch],
@@ -37471,6 +38255,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
       
     },],
     name: "Bolt of Courage",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON043"],
     sets: [Release.Monarch],
@@ -37525,6 +38310,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
       
     },],
     name: "Bolt of Courage",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BOL022","MON044"],
     sets: [Release.BoltynBlitzDeck,Release.Monarch],
@@ -37579,6 +38365,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
       
     },],
     name: "Cross the Line",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BOL013","MON045"],
     sets: [Release.BoltynBlitzDeck,Release.Monarch],
@@ -37631,6 +38418,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
       
     },],
     name: "Cross the Line",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BOL019","MON046"],
     sets: [Release.BoltynBlitzDeck,Release.Monarch],
@@ -37677,6 +38465,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
       
     },],
     name: "Cross the Line",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON047"],
     sets: [Release.Monarch],
@@ -37729,6 +38518,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
       
     },],
     name: "Engulfing Light",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BOL014","MON048"],
     sets: [Release.BoltynBlitzDeck,Release.Monarch],
@@ -37777,6 +38567,7 @@ If you've **charged** this turn, Engulfing Light gains "If this hits, put it int
       
     },],
     name: "Engulfing Light",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON049"],
     sets: [Release.Monarch],
@@ -37831,6 +38622,7 @@ If you've **charged** this turn, Engulfing Light gains "If this hits, put it int
       
     },],
     name: "Engulfing Light",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BOL023","MON050"],
     sets: [Release.BoltynBlitzDeck,Release.Monarch],
@@ -37885,6 +38677,7 @@ If you've **charged** this turn, Engulfing Light gains "If this hits, put it int
       
     },],
     name: "Express Lightning",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BOL015","MON051"],
     sets: [Release.BoltynBlitzDeck,Release.Monarch],
@@ -37937,6 +38730,7 @@ If you've **charged** this turn, Engulfing Light gains "If this hits, put it int
       
     },],
     name: "Express Lightning",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BOL020","MON052"],
     sets: [Release.BoltynBlitzDeck,Release.Monarch],
@@ -37983,6 +38777,7 @@ If you've **charged** this turn, Engulfing Light gains "If this hits, put it int
       
     },],
     name: "Express Lightning",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON053"],
     sets: [Release.Monarch],
@@ -38035,6 +38830,7 @@ If you've **charged** this turn, Engulfing Light gains "If this hits, put it int
       
     },],
     name: "Take Flight",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BOL016","MON054"],
     sets: [Release.BoltynBlitzDeck,Release.Monarch],
@@ -38089,6 +38885,7 @@ If you've **charged** this turn, Take Flight gains **go again.**`,
       
     },],
     name: "Take Flight",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BOL021","MON055"],
     sets: [Release.BoltynBlitzDeck,Release.Monarch],
@@ -38137,6 +38934,7 @@ If you've **charged** this turn, Take Flight gains **go again.**`,
       
     },],
     name: "Take Flight",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON056"],
     sets: [Release.Monarch],
@@ -38191,6 +38989,7 @@ If you've **charged** this turn, Take Flight gains **go again.**`,
       
     },],
     name: "Courageous Steelhand",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BOL012","MON057"],
     sets: [Release.BoltynBlitzDeck,Release.Monarch],
@@ -38243,6 +39042,7 @@ If you've **charged** this turn, Take Flight gains **go again.**`,
       
     },],
     name: "Courageous Steelhand",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BOL018","MON058"],
     sets: [Release.BoltynBlitzDeck,Release.Monarch],
@@ -38289,6 +39089,7 @@ If you've **charged** this turn, Take Flight gains **go again.**`,
       
     },],
     name: "Courageous Steelhand",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON059"],
     sets: [Release.Monarch],
@@ -38324,7 +39125,7 @@ If you've **charged** this turn, Take Flight gains **go again.**`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB017",
-      name: "FAB017.width-450",
+      name: "FAB017",
       set: Release.Promos,
       
     },{
@@ -38341,6 +39142,7 @@ If you've **charged** this turn, Take Flight gains **go again.**`,
       
     },],
     name: "Vestige of Sol",
+    rarities: [Rarity.Promo,Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB017","MON060"],
     sets: [Release.Promos,Release.Monarch],
@@ -38361,7 +39163,7 @@ If you've **charged** this turn, Take Flight gains **go again.**`,
     keywords: [Keyword.BladeBreak],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -38401,6 +39203,7 @@ If you've **charged** this turn, Take Flight gains **go again.**`,
       
     },],
     name: "Halo of Illumination",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BOL005","PSM004","MON061"],
     sets: [Release.BoltynBlitzDeck,Release.PrismBlitzDeck,Release.Monarch],
@@ -38421,7 +39224,7 @@ If you've **charged** this turn, Take Flight gains **go again.**`,
     keywords: [Keyword.Spellvoid],
     
     
-    pitch: 0,
+    
     
     
     
@@ -38449,6 +39252,7 @@ If you've **charged** this turn, Take Flight gains **go again.**`,
       
     },],
     name: "Celestial Cataclysm",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["MON062"],
     sets: [Release.Monarch],
@@ -38497,6 +39301,7 @@ If you've **charged** this turn, Take Flight gains **go again.**`,
       
     },],
     name: "Soul Shield",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["MON063"],
     sets: [Release.Monarch],
@@ -38543,6 +39348,7 @@ If you've **charged** this turn, Take Flight gains **go again.**`,
       
     },],
     name: "Soul Food",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["MON064"],
     sets: [Release.Monarch],
@@ -38589,6 +39395,7 @@ If you've **charged** this turn, Take Flight gains **go again.**`,
       
     },],
     name: "Tome of Divinity",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["MON065"],
     sets: [Release.Monarch],
@@ -38643,6 +39450,7 @@ If a card has been put into your hero's soul this turn, instead draw 3 cards.`,
       
     },],
     name: "Invigorating Light",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["BOL024","MON066"],
     sets: [Release.BoltynBlitzDeck,Release.Monarch],
@@ -38689,6 +39497,7 @@ If a card has been put into your hero's soul this turn, instead draw 3 cards.`,
       
     },],
     name: "Invigorating Light",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON067"],
     sets: [Release.Monarch],
@@ -38735,6 +39544,7 @@ If a card has been put into your hero's soul this turn, instead draw 3 cards.`,
       
     },],
     name: "Invigorating Light",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON068"],
     sets: [Release.Monarch],
@@ -38781,6 +39591,7 @@ If a card has been put into your hero's soul this turn, instead draw 3 cards.`,
       
     },],
     name: "Glisten",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON069"],
     sets: [Release.Monarch],
@@ -38829,6 +39640,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
       
     },],
     name: "Glisten",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON070"],
     sets: [Release.Monarch],
@@ -38877,6 +39689,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
       
     },],
     name: "Glisten",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON071"],
     sets: [Release.Monarch],
@@ -38931,6 +39744,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
       
     },],
     name: "Illuminate",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["PSM021","MON072"],
     sets: [Release.PrismBlitzDeck,Release.Monarch],
@@ -38977,6 +39791,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
       
     },],
     name: "Illuminate",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON073"],
     sets: [Release.Monarch],
@@ -39035,6 +39850,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
       
     },],
     name: "Illuminate",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BOL027","PSM024","MON074"],
     sets: [Release.BoltynBlitzDeck,Release.PrismBlitzDeck,Release.Monarch],
@@ -39081,6 +39897,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
       
     },],
     name: "Impenetrable Belief",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON075"],
     sets: [Release.Monarch],
@@ -39127,6 +39944,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
       
     },],
     name: "Impenetrable Belief",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON076"],
     sets: [Release.Monarch],
@@ -39173,6 +39991,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
       
     },],
     name: "Impenetrable Belief",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON077"],
     sets: [Release.Monarch],
@@ -39225,6 +40044,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
       
     },],
     name: "Rising Solartide",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BOL025","MON078"],
     sets: [Release.BoltynBlitzDeck,Release.Monarch],
@@ -39283,6 +40103,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
       
     },],
     name: "Rising Solartide",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BOL026","PSM023","MON079"],
     sets: [Release.BoltynBlitzDeck,Release.PrismBlitzDeck,Release.Monarch],
@@ -39329,6 +40150,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
       
     },],
     name: "Rising Solartide",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON080"],
     sets: [Release.Monarch],
@@ -39381,6 +40203,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
       
     },],
     name: "Seek Enlightenment",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["PSM022","MON081"],
     sets: [Release.PrismBlitzDeck,Release.Monarch],
@@ -39429,6 +40252,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
       
     },],
     name: "Seek Enlightenment",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON082"],
     sets: [Release.Monarch],
@@ -39483,6 +40307,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
       
     },],
     name: "Seek Enlightenment",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BOL028","MON083"],
     sets: [Release.BoltynBlitzDeck,Release.Monarch],
@@ -39531,6 +40356,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
       
     },],
     name: "Blinding Beam",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON084"],
     sets: [Release.Monarch],
@@ -39579,6 +40405,7 @@ Target attacking or defending attack action card gets -3{p}.`,
       
     },],
     name: "Blinding Beam",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON085"],
     sets: [Release.Monarch],
@@ -39627,6 +40454,7 @@ Target attacking or defending attack action card gets -2{p}.`,
       
     },],
     name: "Blinding Beam",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON086"],
     sets: [Release.Monarch],
@@ -39664,7 +40492,7 @@ Target attacking or defending attack action card gets -1{p}.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS044",
-      name: "LGS044.width-450",
+      name: "LGS044",
       set: Release.Promos,
       
     },{
@@ -39681,6 +40509,7 @@ Target attacking or defending attack action card gets -1{p}.`,
       
     },],
     name: "Ray of Hope",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS044","MON087"],
     sets: [Release.Promos,Release.Monarch],
@@ -39718,7 +40547,7 @@ If you have less {h} than an opposing Shadow hero, put Ray of Hope into your her
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS048",
-      name: "LGS048.width-450",
+      name: "LGS048",
       set: Release.Promos,
       
     },{
@@ -39741,6 +40570,7 @@ If you have less {h} than an opposing Shadow hero, put Ray of Hope into your her
       
     },],
     name: "Iris of Reality",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS048","PSM003","MON088"],
     sets: [Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
@@ -39761,7 +40591,7 @@ During your action phase, Illusionist auras you control are weapons with 4{p} an
     keywords: [Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     
     
     
@@ -39778,7 +40608,7 @@ During your action phase, Illusionist auras you control are weapons with 4{p} an
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB019",
-      name: "FAB019.width-450",
+      name: "FAB019",
       set: Release.Promos,
       
     },{
@@ -39795,6 +40625,7 @@ During your action phase, Illusionist auras you control are weapons with 4{p} an
       
     },],
     name: "Phantasmal Footsteps",
+    rarities: [Rarity.Promo,Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB019","MON089"],
     sets: [Release.Promos,Release.Monarch],
@@ -39817,7 +40648,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
     
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -39851,6 +40682,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
       
     },],
     name: "Dream Weavers",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["PSM006","MON090"],
     sets: [Release.PrismBlitzDeck,Release.Monarch],
@@ -39868,10 +40700,10 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
     
     
     
-    keywords: [Keyword.Spellvoid],
+    keywords: [Keyword.Spellvoid,Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     
     
     
@@ -39899,6 +40731,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
       
     },],
     name: "Phantasmaclasm",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["MON091"],
     sets: [Release.Monarch],
@@ -39953,6 +40786,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
       
     },],
     name: "Prismatic Shield",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["PSM026","MON092"],
     sets: [Release.PrismBlitzDeck,Release.Monarch],
@@ -39999,6 +40833,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
       
     },],
     name: "Prismatic Shield",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON093"],
     sets: [Release.Monarch],
@@ -40045,6 +40880,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
       
     },],
     name: "Prismatic Shield",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON094"],
     sets: [Release.Monarch],
@@ -40080,7 +40916,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS054",
-      name: "LGS054.width-450",
+      name: "LGS054",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -40103,10 +40939,11 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
       
     },],
     name: "Phantasmify",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS054","PSM025","MON095"],
     sets: [Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
-    specialImageName: "LGS054.width-450",
+    specialImageName: "LGS054",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Illusionist, Instant",
@@ -40140,7 +40977,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS055",
-      name: "LGS055.width-450",
+      name: "LGS055",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -40157,10 +40994,11 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
       
     },],
     name: "Phantasmify",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS055","MON096"],
     sets: [Release.Promos,Release.Monarch],
-    specialImageName: "LGS055.width-450",
+    specialImageName: "LGS055",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Illusionist, Instant",
@@ -40194,7 +41032,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS056",
-      name: "LGS056.width-450",
+      name: "LGS056",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -40211,10 +41049,11 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
       
     },],
     name: "Phantasmify",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS056","MON097"],
     sets: [Release.Promos,Release.Monarch],
-    specialImageName: "LGS056.width-450",
+    specialImageName: "LGS056",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Illusionist, Instant",
@@ -40265,6 +41104,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
       
     },],
     name: "Enigma Chimera",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DRO020","MON098"],
     sets: [Release.DromaiBlitzDeck,Release.Monarch],
@@ -40317,6 +41157,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
       
     },],
     name: "Enigma Chimera",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["PSM027","MON099"],
     sets: [Release.PrismBlitzDeck,Release.Monarch],
@@ -40369,6 +41210,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
       
     },],
     name: "Enigma Chimera",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["PSM028","MON100"],
     sets: [Release.PrismBlitzDeck,Release.Monarch],
@@ -40421,6 +41263,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
       
     },],
     name: "Spears of Surreality",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DRO019","MON101"],
     sets: [Release.DromaiBlitzDeck,Release.Monarch],
@@ -40469,6 +41312,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
       
     },],
     name: "Spears of Surreality",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON102"],
     sets: [Release.Monarch],
@@ -40523,6 +41367,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
       
     },],
     name: "Spears of Surreality",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["PSM029","MON103"],
     sets: [Release.PrismBlitzDeck,Release.Monarch],
@@ -40560,7 +41405,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB082",
-      name: "FAB082.width-450",
+      name: "FAB082",
       set: Release.Promos,
       
     },{
@@ -40587,8 +41432,15 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
       name: "EVR153.width-450",
       set: Release.Everfest,
       
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN233",
+      name: "DYN233",
+      set: Release.Dynasty,
+      
     },],
     name: "Spectral Shield",
+    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
     rarity: Rarity.Token,
     setIdentifiers: ["FAB082","PSM030","MON104","EVR153","DYN233"],
     sets: [Release.Promos,Release.PrismBlitzDeck,Release.Monarch,Release.Everfest,Release.Dynasty],
@@ -40599,7 +41451,9 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
 
     
     
-    functionalText: `**Ward 1** *(If your hero would be dealt damage, prevent 1 of that damage and destroy Spectral Shield.)*`,
+    functionalText: `*(Auras stay in the arena until they are destroyed.)*
+
+**Ward 1** *(If your hero would be dealt damage, prevent 1 of that damage and destroy Spectral Shield.)*`,
     
     
     
@@ -40607,7 +41461,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
     keywords: [Keyword.Ward],
     
     
-    pitch: 0,
+    
     
     
     
@@ -40624,7 +41478,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS049",
-      name: "LGS049.width-450",
+      name: "LGS049",
       set: Release.Promos,
       
     },{
@@ -40647,6 +41501,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
       
     },],
     name: "Hatchet of Body",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS049","BOL003","MON105"],
     sets: [Release.Promos,Release.BoltynBlitzDeck,Release.Monarch],
@@ -40667,7 +41522,7 @@ Whenever you attack with Hatchet of Body, if Hatchet of Mind was the last attack
     
     
     
-    pitch: 0,
+    
     power: 2,
     
     
@@ -40684,7 +41539,7 @@ Whenever you attack with Hatchet of Body, if Hatchet of Mind was the last attack
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS050",
-      name: "LGS050.width-450",
+      name: "LGS050",
       set: Release.Promos,
       
     },{
@@ -40707,6 +41562,7 @@ Whenever you attack with Hatchet of Body, if Hatchet of Mind was the last attack
       
     },],
     name: "Hatchet of Mind",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS050","BOL004","MON106"],
     sets: [Release.Promos,Release.BoltynBlitzDeck,Release.Monarch],
@@ -40727,7 +41583,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     
     
     
-    pitch: 0,
+    
     power: 2,
     
     
@@ -40744,7 +41600,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB020",
-      name: "FAB020.width-450",
+      name: "FAB020",
       set: Release.Promos,
       
     },{
@@ -40761,6 +41617,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
       
     },],
     name: "Valiant Dynamo",
+    rarities: [Rarity.Promo,Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB020","MON107"],
     sets: [Release.Promos,Release.Monarch],
@@ -40781,7 +41638,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     keywords: [Keyword.Battleworn],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -40821,6 +41678,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
       
     },],
     name: "Gallantry Gold",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BOL007","DVR005","MON108"],
     sets: [Release.BoltynBlitzDeck,Release.ClassicBattlesRhinarDorinthea,Release.Monarch],
@@ -40838,10 +41696,10 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     
     
     
-    keywords: [Keyword.Battleworn],
+    keywords: [Keyword.Battleworn,Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     
     
     
@@ -40869,6 +41727,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
       
     },],
     name: "Spill Blood",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["MON109"],
     sets: [Release.Monarch],
@@ -40906,7 +41765,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS060",
-      name: "LGS060.width-450",
+      name: "LGS060",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -40929,10 +41788,11 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
       
     },],
     name: "Dusk Path Pilgrimage",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS060","BOL029","MON110"],
     sets: [Release.Promos,Release.BoltynBlitzDeck,Release.Monarch],
-    specialImageName: "LGS060.width-450",
+    specialImageName: "LGS060",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
@@ -40966,7 +41826,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS061",
-      name: "LGS061.width-450",
+      name: "LGS061",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -40983,10 +41843,11 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
       
     },],
     name: "Dusk Path Pilgrimage",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS061","MON111"],
     sets: [Release.Promos,Release.Monarch],
-    specialImageName: "LGS061.width-450",
+    specialImageName: "LGS061",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
@@ -41020,7 +41881,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS062",
-      name: "LGS062.width-450",
+      name: "LGS062",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -41037,10 +41898,11 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
       
     },],
     name: "Dusk Path Pilgrimage",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS062","MON112"],
     sets: [Release.Promos,Release.Monarch],
-    specialImageName: "LGS062.width-450",
+    specialImageName: "LGS062",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
@@ -41085,6 +41947,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
       
     },],
     name: "Plow Through",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON113"],
     sets: [Release.Monarch],
@@ -41133,6 +41996,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
       
     },],
     name: "Plow Through",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON114"],
     sets: [Release.Monarch],
@@ -41181,6 +42045,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
       
     },],
     name: "Plow Through",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON115"],
     sets: [Release.Monarch],
@@ -41235,6 +42100,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
       
     },],
     name: "Second Swing",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DVR010","MON116"],
     sets: [Release.ClassicBattlesRhinarDorinthea,Release.Monarch],
@@ -41283,6 +42149,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
       
     },],
     name: "Second Swing",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON117"],
     sets: [Release.Monarch],
@@ -41331,6 +42198,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
       
     },],
     name: "Second Swing",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON118"],
     sets: [Release.Monarch],
@@ -41368,13 +42236,13 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER032",
-      name: "HER032.width-450",
+      name: "HER032",
       set: Release.Promos,
       
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER040",
-      name: "HER040.width-450",
+      name: "HER040",
       set: Release.Promos,
       
     },{
@@ -41391,6 +42259,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
       
     },],
     name: "Levia, Shadowborn Abomination",
+    rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER032","HER040","WIN011","MON119"],
     sets: [Release.Promos,Release.Monarch],
@@ -41409,7 +42278,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     
     life: 40,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Blitz,Format.Commoner],
     
@@ -41426,7 +42295,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER036",
-      name: "HER036.width-450",
+      name: "HER036",
       set: Release.Promos,
       
     },{
@@ -41449,6 +42318,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
       
     },],
     name: "Levia",
+    rarities: [Rarity.Promo,Rarity.Rare,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER036","LEV001","MON120"],
     sets: [Release.Promos,Release.LeviaBlitzDeck,Release.Monarch],
@@ -41467,7 +42337,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     
     life: 20,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.ClassicConstructed],
     
@@ -41495,6 +42365,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
       
     },],
     name: "Hexagore, the Death Hydra",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["MON121"],
     sets: [Release.Monarch],
@@ -41515,7 +42386,7 @@ Whenever you attack with Hexagore, the Death Hydra, it deals damage to you equal
     
     
     
-    pitch: 0,
+    
     power: 6,
     restrictedFormats: [Format.Commoner],
     
@@ -41549,6 +42420,7 @@ Whenever you attack with Hexagore, the Death Hydra, it deals damage to you equal
       
     },],
     name: "Hooves of the Shadowbeast",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LEV007","MON122"],
     sets: [Release.LeviaBlitzDeck,Release.Monarch],
@@ -41569,7 +42441,7 @@ Whenever you attack with Hexagore, the Death Hydra, it deals damage to you equal
     keywords: [Keyword.Battleworn],
     
     
-    pitch: 0,
+    
     
     
     
@@ -41597,6 +42469,7 @@ Whenever you attack with Hexagore, the Death Hydra, it deals damage to you equal
       
     },],
     name: "Deep Rooted Evil",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["MON123"],
     sets: [Release.Monarch],
@@ -41651,6 +42524,7 @@ Whenever you attack with Hexagore, the Death Hydra, it deals damage to you equal
       
     },],
     name: "Mark of the Beast",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["MON124"],
     sets: [Release.Monarch],
@@ -41699,6 +42573,7 @@ Whenever you attack with Hexagore, the Death Hydra, it deals damage to you equal
       
     },],
     name: "Shadow of Blasmophet",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["MON125"],
     sets: [Release.Monarch],
@@ -41753,6 +42628,7 @@ Whenever you attack with Hexagore, the Death Hydra, it deals damage to you equal
       
     },],
     name: "Endless Maw",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LEV012","MON126"],
     sets: [Release.LeviaBlitzDeck,Release.Monarch],
@@ -41803,6 +42679,7 @@ If a card with 6 or more {p} is banished this way, Endless maw gains +3{p}.
       
     },],
     name: "Endless Maw",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON127"],
     sets: [Release.Monarch],
@@ -41853,6 +42730,7 @@ If a card with 6 or more {p} is banished this way, Endless maw gains +3{p}.
       
     },],
     name: "Endless Maw",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON128"],
     sets: [Release.Monarch],
@@ -41909,6 +42787,7 @@ If a card with 6 or more {p} is banished this way, Endless maw gains +3{p}.
       
     },],
     name: "Writhing Beast Hulk",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LEV016","MON129"],
     sets: [Release.LeviaBlitzDeck,Release.Monarch],
@@ -41959,6 +42838,7 @@ If a card with 6 or more {p} is banished this way, Writhing Beast Hulk gains **d
       
     },],
     name: "Writhing Beast Hulk",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON130"],
     sets: [Release.Monarch],
@@ -42009,6 +42889,7 @@ If a card with 6 or more {p} is banished this way, Writhing Beast Hulk gains **d
       
     },],
     name: "Writhing Beast Hulk",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON131"],
     sets: [Release.Monarch],
@@ -42059,6 +42940,7 @@ If a card with 6 or more {p} is banished this way, Writhing Beast Hulk gains **d
       
     },],
     name: "Convulsions from the Bellows of Hell",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON132"],
     sets: [Release.Monarch],
@@ -42109,6 +42991,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
       
     },],
     name: "Convulsions from the Bellows of Hell",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON133"],
     sets: [Release.Monarch],
@@ -42165,6 +43048,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
       
     },],
     name: "Convulsions from the Bellows of Hell",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LEV019","MON134"],
     sets: [Release.LeviaBlitzDeck,Release.Monarch],
@@ -42204,7 +43088,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB023",
-      name: "FAB023.width-450",
+      name: "FAB023",
       set: Release.Promos,
       
     },{
@@ -42227,6 +43111,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
       
     },],
     name: "Boneyard Marauder",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB023","LEV009","MON135"],
     sets: [Release.Promos,Release.LeviaBlitzDeck,Release.Monarch],
@@ -42275,6 +43160,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
       
     },],
     name: "Boneyard Marauder",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON136"],
     sets: [Release.Monarch],
@@ -42329,6 +43215,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
       
     },],
     name: "Boneyard Marauder",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LEV018","MON137"],
     sets: [Release.LeviaBlitzDeck,Release.Monarch],
@@ -42383,6 +43270,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
       
     },],
     name: "Deadwood Rumbler",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LEV010","MON138"],
     sets: [Release.LeviaBlitzDeck,Release.Monarch],
@@ -42431,6 +43319,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
       
     },],
     name: "Deadwood Rumbler",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON139"],
     sets: [Release.Monarch],
@@ -42485,6 +43374,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
       
     },],
     name: "Deadwood Rumbler",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LEV020","MON140"],
     sets: [Release.LeviaBlitzDeck,Release.Monarch],
@@ -42539,6 +43429,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
       
     },],
     name: "Dread Screamer",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LEV011","MON141"],
     sets: [Release.LeviaBlitzDeck,Release.Monarch],
@@ -42589,6 +43480,7 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
       
     },],
     name: "Dread Screamer",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON142"],
     sets: [Release.Monarch],
@@ -42645,6 +43537,7 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
       
     },],
     name: "Dread Screamer",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LEV021","MON143"],
     sets: [Release.LeviaBlitzDeck,Release.Monarch],
@@ -42701,6 +43594,7 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
       
     },],
     name: "Graveling Growl",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LEV013","MON144"],
     sets: [Release.LeviaBlitzDeck,Release.Monarch],
@@ -42749,6 +43643,7 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
       
     },],
     name: "Graveling Growl",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON145"],
     sets: [Release.Monarch],
@@ -42797,6 +43692,7 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
       
     },],
     name: "Graveling Growl",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON146"],
     sets: [Release.Monarch],
@@ -42851,6 +43747,7 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
       
     },],
     name: "Hungering Slaughterbeast",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LEV014","MON147"],
     sets: [Release.LeviaBlitzDeck,Release.Monarch],
@@ -42905,6 +43802,7 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
       
     },],
     name: "Hungering Slaughterbeast",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LEV017","MON148"],
     sets: [Release.LeviaBlitzDeck,Release.Monarch],
@@ -42953,6 +43851,7 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
       
     },],
     name: "Hungering Slaughterbeast",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON149"],
     sets: [Release.Monarch],
@@ -43007,6 +43906,7 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
       
     },],
     name: "Unworldly Bellow",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LEV015","MON150"],
     sets: [Release.LeviaBlitzDeck,Release.Monarch],
@@ -43057,6 +43957,7 @@ The next Brute or Shadow attack action card you play this turn gains +4{p}.
       
     },],
     name: "Unworldly Bellow",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON151"],
     sets: [Release.Monarch],
@@ -43113,6 +44014,7 @@ The next Brute or Shadow attack action card you play this turn gains +3{p}.
       
     },],
     name: "Unworldly Bellow",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LEV022","MON152"],
     sets: [Release.LeviaBlitzDeck,Release.Monarch],
@@ -43152,13 +44054,13 @@ The next Brute or Shadow attack action card you play this turn gains +2{p}.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER033",
-      name: "HER033.width-450",
+      name: "HER033",
       set: Release.Promos,
       
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER041",
-      name: "HER041.width-450",
+      name: "HER041",
       set: Release.Promos,
       
     },{
@@ -43175,6 +44077,7 @@ The next Brute or Shadow attack action card you play this turn gains +2{p}.
       
     },],
     name: "Chane, Bound by Shadow",
+    rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER033","HER041","WIN012","MON153"],
     sets: [Release.Promos,Release.Monarch],
@@ -43193,7 +44096,7 @@ The next Brute or Shadow attack action card you play this turn gains +2{p}.
     keywords: [Keyword.GoAgain],
     life: 40,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
     
@@ -43210,7 +44113,7 @@ The next Brute or Shadow attack action card you play this turn gains +2{p}.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER037",
-      name: "HER037.width-450",
+      name: "HER037",
       set: Release.Promos,
       
     },{
@@ -43233,6 +44136,7 @@ The next Brute or Shadow attack action card you play this turn gains +2{p}.
       
     },],
     name: "Chane",
+    rarities: [Rarity.Promo,Rarity.Rare,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER037","CHN001","MON154"],
     sets: [Release.Promos,Release.ChaneBlitzDeck,Release.Monarch],
@@ -43251,7 +44155,7 @@ The next Brute or Shadow attack action card you play this turn gains +2{p}.
     keywords: [Keyword.GoAgain],
     life: 20,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.ClassicConstructed],
     
@@ -43268,7 +44172,7 @@ The next Brute or Shadow attack action card you play this turn gains +2{p}.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS046",
-      name: "LGS046.width-450",
+      name: "LGS046",
       set: Release.Promos,
       
     },{
@@ -43297,6 +44201,7 @@ The next Brute or Shadow attack action card you play this turn gains +2{p}.
       
     },],
     name: "Galaxxi Black",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS046","CHN003","MON155"],
     sets: [Release.Promos,Release.ChaneBlitzDeck,Release.Monarch],
@@ -43319,7 +44224,7 @@ If Galaxxi Black hits a hero, deal 1 arcane damage to that hero.`,
     
     
     
-    pitch: 0,
+    
     power: 1,
     restrictedFormats: [Format.ClassicConstructed],
     
@@ -43347,6 +44252,7 @@ If Galaxxi Black hits a hero, deal 1 arcane damage to that hero.`,
       
     },],
     name: "Shadow of Ursur",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["MON156"],
     sets: [Release.Monarch],
@@ -43397,6 +44303,7 @@ As an additional cost to play Shadow of Ursur, you may banish a card with blood 
       
     },],
     name: "Dimenxxional Crossroads",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["MON157"],
     sets: [Release.Monarch],
@@ -43447,6 +44354,7 @@ If you lose {h} during your turn, destroy Dimenxxional Crossroads. *(Damage caus
       
     },],
     name: "Invert Existence",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["MON158"],
     sets: [Release.Monarch],
@@ -43503,6 +44411,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
       
     },],
     name: "Unhallowed Rites",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["CHN015","MON159"],
     sets: [Release.ChaneBlitzDeck,Release.Monarch],
@@ -43553,6 +44462,7 @@ You may put a 'non-attack' action card with blood debt from your graveyard on th
       
     },],
     name: "Unhallowed Rites",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON160"],
     sets: [Release.Monarch],
@@ -43603,6 +44513,7 @@ You may put a 'non-attack' action card with blood debt from your graveyard on th
       
     },],
     name: "Unhallowed Rites",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON161"],
     sets: [Release.Monarch],
@@ -43653,6 +44564,7 @@ You may put a 'non-attack' action card with blood debt from your graveyard on th
       
     },],
     name: "Dimenxxional Gateway",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON162"],
     sets: [Release.Monarch],
@@ -43703,6 +44615,7 @@ Reveal the top card of your deck. If it's a Runeblade card, deal 1 arcane damage
       
     },],
     name: "Dimenxxional Gateway",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON163"],
     sets: [Release.Monarch],
@@ -43753,6 +44666,7 @@ Reveal the top card of your deck. If it's a Runeblade card, deal 1 arcane damage
       
     },],
     name: "Dimenxxional Gateway",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON164"],
     sets: [Release.Monarch],
@@ -43803,6 +44717,7 @@ Reveal the top card of your deck. If it's a Runeblade card, deal 1 arcane damage
       
     },],
     name: "Seeping Shadows",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON165"],
     sets: [Release.Monarch],
@@ -43824,7 +44739,7 @@ The next attack action card with cost 2 or less you play this turns gains +1{p} 
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.BloodDebt,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.BloodDebt],
     
     
     pitch: 1,
@@ -43861,6 +44776,7 @@ The next attack action card with cost 2 or less you play this turns gains +1{p} 
       
     },],
     name: "Seeping Shadows",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["CHN017","MON166"],
     sets: [Release.ChaneBlitzDeck,Release.Monarch],
@@ -43882,7 +44798,7 @@ The next attack action card with cost 1 or less you play this turns gains +1{p} 
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.BloodDebt,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.BloodDebt],
     
     
     pitch: 2,
@@ -43913,6 +44829,7 @@ The next attack action card with cost 1 or less you play this turns gains +1{p} 
       
     },],
     name: "Seeping Shadows",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON167"],
     sets: [Release.Monarch],
@@ -43934,7 +44851,7 @@ The next attack action card with cost 0 you play this turns gains +1{p} and **go
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.BloodDebt,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.BloodDebt],
     
     
     pitch: 3,
@@ -43971,6 +44888,7 @@ The next attack action card with cost 0 you play this turns gains +1{p} and **go
       
     },],
     name: "Bounding Demigon",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CHN009","MON168"],
     sets: [Release.ChaneBlitzDeck,Release.Monarch],
@@ -44019,6 +44937,7 @@ The next attack action card with cost 0 you play this turns gains +1{p} and **go
       
     },],
     name: "Bounding Demigon",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON169"],
     sets: [Release.Monarch],
@@ -44067,6 +44986,7 @@ The next attack action card with cost 0 you play this turns gains +1{p} and **go
       
     },],
     name: "Bounding Demigon",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON170"],
     sets: [Release.Monarch],
@@ -44121,6 +45041,7 @@ The next attack action card with cost 0 you play this turns gains +1{p} and **go
       
     },],
     name: "Piercing Shadow Vise",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CHN010","MON171"],
     sets: [Release.ChaneBlitzDeck,Release.Monarch],
@@ -44171,6 +45092,7 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
       
     },],
     name: "Piercing Shadow Vise",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON172"],
     sets: [Release.Monarch],
@@ -44227,6 +45149,7 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
       
     },],
     name: "Piercing Shadow Vise",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CHN018","MON173"],
     sets: [Release.ChaneBlitzDeck,Release.Monarch],
@@ -44283,6 +45206,7 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
       
     },],
     name: "Rift Bind",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CHN011","MON174"],
     sets: [Release.ChaneBlitzDeck,Release.Monarch],
@@ -44331,6 +45255,7 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
       
     },],
     name: "Rift Bind",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON175"],
     sets: [Release.Monarch],
@@ -44385,6 +45310,7 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
       
     },],
     name: "Rift Bind",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CHN019","MON176"],
     sets: [Release.ChaneBlitzDeck,Release.Monarch],
@@ -44439,6 +45365,7 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
       
     },],
     name: "Rifted Torment",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CHN012","MON177"],
     sets: [Release.ChaneBlitzDeck,Release.Monarch],
@@ -44487,6 +45414,7 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
       
     },],
     name: "Rifted Torment",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON178"],
     sets: [Release.Monarch],
@@ -44541,6 +45469,7 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
       
     },],
     name: "Rifted Torment",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CHN020","MON179"],
     sets: [Release.ChaneBlitzDeck,Release.Monarch],
@@ -44595,6 +45524,7 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
       
     },],
     name: "Rip Through Reality",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CHN013","MON180"],
     sets: [Release.ChaneBlitzDeck,Release.Monarch],
@@ -44645,6 +45575,7 @@ If you have dealt arcane damage to an opposing hero this turn, Rip Through Reali
       
     },],
     name: "Rip Through Reality",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON181"],
     sets: [Release.Monarch],
@@ -44695,6 +45626,7 @@ If you have dealt arcane damage to an opposing hero this turn, Rip Through Reali
       
     },],
     name: "Rip Through Reality",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON182"],
     sets: [Release.Monarch],
@@ -44751,6 +45683,7 @@ If you have dealt arcane damage to an opposing hero this turn, Rip Through Reali
       
     },],
     name: "Seeds of Agony",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CHN014","MON183"],
     sets: [Release.ChaneBlitzDeck,Release.Monarch],
@@ -44809,6 +45742,7 @@ The next attack action card with cost 2 or less you play this turn gains "When y
       
     },],
     name: "Seeds of Agony",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CHN016","MON184"],
     sets: [Release.ChaneBlitzDeck,Release.Monarch],
@@ -44861,6 +45795,7 @@ The next attack action card with cost 1 or less you play this turn gains "When y
       
     },],
     name: "Seeds of Agony",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON185"],
     sets: [Release.Monarch],
@@ -44901,6 +45836,12 @@ The next attack action card with cost 0 or less you play this turn gains "When y
     defaultImageName: "MON186.width-450",
     images: [{
       edition: ReleaseEdition.Promo,
+      identifier: "FAB120",
+      name: "FAB120",
+      set: Release.Promos,
+      
+    },{
+      edition: ReleaseEdition.Promo,
       identifier: "CHN030",
       name: "CHN030.width-450",
       set: Release.ChaneBlitzDeck,
@@ -44919,9 +45860,10 @@ The next attack action card with cost 0 or less you play this turn gains "When y
       
     },],
     name: "Soul Shackle",
+    rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["CHN030","MON186"],
-    sets: [Release.ChaneBlitzDeck,Release.Monarch],
+    setIdentifiers: ["FAB120","CHN030","MON186"],
+    sets: [Release.Promos,Release.ChaneBlitzDeck,Release.Monarch],
     specialImageName: "MON186.width-450",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
@@ -44939,7 +45881,7 @@ At the beginning of your action phase, banish the top card of your deck.`,
     
     
     
-    pitch: 0,
+    
     
     
     
@@ -44956,7 +45898,7 @@ At the beginning of your action phase, banish the top card of your deck.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB018",
-      name: "FAB018.width-450",
+      name: "FAB018",
       set: Release.Promos,
       
     },{
@@ -44973,6 +45915,7 @@ At the beginning of your action phase, banish the top card of your deck.`,
       
     },],
     name: "Carrion Husk",
+    rarities: [Rarity.Promo,Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB018","MON187"],
     sets: [Release.Promos,Release.Monarch],
@@ -44995,7 +45938,7 @@ At the start of your turn, if you have 13 or less {h}, banish Carrion Husk.
     keywords: [Keyword.BloodDebt],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -45012,7 +45955,7 @@ At the start of your turn, if you have 13 or less {h}, banish Carrion Husk.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB072",
-      name: "FAB072.width-450",
+      name: "FAB072",
       set: Release.Promos,
       
     },{
@@ -45041,6 +45984,7 @@ At the start of your turn, if you have 13 or less {h}, banish Carrion Husk.
       
     },],
     name: "Ebon Fold",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB072","CHN004","LEV004","MON188"],
     sets: [Release.Promos,Release.ChaneBlitzDeck,Release.LeviaBlitzDeck,Release.Monarch],
@@ -45061,7 +46005,7 @@ At the start of your turn, if you have 13 or less {h}, banish Carrion Husk.
     keywords: [Keyword.Spellvoid],
     
     
-    pitch: 0,
+    
     
     
     
@@ -45089,6 +46033,7 @@ At the start of your turn, if you have 13 or less {h}, banish Carrion Husk.
       
     },],
     name: "Doomsday",
+    rarities: [Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["MON189"],
     sets: [Release.Monarch],
@@ -45139,6 +46084,7 @@ Create a Blasmophet, the Soul Harvester token.`,
       
     },],
     name: "Eclipse",
+    rarities: [Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["MON190"],
     sets: [Release.Monarch],
@@ -45189,6 +46135,7 @@ Create an Ursur, the Soul Reaper token.`,
       
     },],
     name: "Mutated Mass",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["MON191"],
     sets: [Release.Monarch],
@@ -45239,6 +46186,7 @@ Mutated Mass's {p} and {d} is equal to twice the number of cards in your pitch z
       
     },],
     name: "Guardian of the Shadowrealm",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["MON192"],
     sets: [Release.Monarch],
@@ -45287,6 +46235,7 @@ Mutated Mass's {p} and {d} is equal to twice the number of cards in your pitch z
       
     },],
     name: "Shadow Puppetry",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["MON193"],
     sets: [Release.Monarch],
@@ -45304,7 +46253,7 @@ Mutated Mass's {p} and {d} is equal to twice the number of cards in your pitch z
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 1,
@@ -45335,6 +46284,7 @@ Mutated Mass's {p} and {d} is equal to twice the number of cards in your pitch z
       
     },],
     name: "Tome of Torment",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["MON194"],
     sets: [Release.Monarch],
@@ -45391,6 +46341,7 @@ Draw a card.
       
     },],
     name: "Consuming Aftermath",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LEV023","MON195"],
     sets: [Release.LeviaBlitzDeck,Release.Monarch],
@@ -45437,6 +46388,7 @@ Draw a card.
       
     },],
     name: "Consuming Aftermath",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON196"],
     sets: [Release.Monarch],
@@ -45483,6 +46435,7 @@ Draw a card.
       
     },],
     name: "Consuming Aftermath",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON197"],
     sets: [Release.Monarch],
@@ -45535,6 +46488,7 @@ Draw a card.
       
     },],
     name: "Soul Harvest",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LEV008","MON198"],
     sets: [Release.LeviaBlitzDeck,Release.Monarch],
@@ -45591,6 +46545,7 @@ If Soul Harvest hits a hero, they banish all cards in their soul and lose {h} eq
       
     },],
     name: "Soul Reaping",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["CHN008","MON199"],
     sets: [Release.ChaneBlitzDeck,Release.Monarch],
@@ -45647,6 +46602,7 @@ While Soul Reaping is attacking a hero with 1 or more cards in their soul, it ha
       
     },],
     name: "Howl from Beyond",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["CHN022","MON200"],
     sets: [Release.ChaneBlitzDeck,Release.Monarch],
@@ -45699,6 +46655,7 @@ The next attack action card you play this turn gains +3{p}.
       
     },],
     name: "Howl from Beyond",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON201"],
     sets: [Release.Monarch],
@@ -45751,6 +46708,7 @@ The next attack action card you play this turn gains +2{p}.
       
     },],
     name: "Howl from Beyond",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON202"],
     sets: [Release.Monarch],
@@ -45815,6 +46773,7 @@ The next attack action card you play this turn gains +1{p}.
       
     },],
     name: "Ghostly Visit",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB038","CHN021","MON203"],
     sets: [Release.Promos,Release.ChaneBlitzDeck,Release.Monarch],
@@ -45869,6 +46828,7 @@ The next attack action card you play this turn gains +1{p}.
       
     },],
     name: "Ghostly Visit",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB039","MON204"],
     sets: [Release.Promos,Release.Monarch],
@@ -45923,6 +46883,7 @@ The next attack action card you play this turn gains +1{p}.
       
     },],
     name: "Ghostly Visit",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB040","MON205"],
     sets: [Release.Promos,Release.Monarch],
@@ -45971,6 +46932,7 @@ The next attack action card you play this turn gains +1{p}.
       
     },],
     name: "Lunartide Plunderer",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON206"],
     sets: [Release.Monarch],
@@ -46029,6 +46991,7 @@ The next attack action card you play this turn gains +1{p}.
       
     },],
     name: "Lunartide Plunderer",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CHN023","LEV024","MON207"],
     sets: [Release.ChaneBlitzDeck,Release.LeviaBlitzDeck,Release.Monarch],
@@ -46075,6 +47038,7 @@ The next attack action card you play this turn gains +1{p}.
       
     },],
     name: "Lunartide Plunderer",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON208"],
     sets: [Release.Monarch],
@@ -46121,6 +47085,7 @@ The next attack action card you play this turn gains +1{p}.
       
     },],
     name: "Void Wraith",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON209"],
     sets: [Release.Monarch],
@@ -46169,6 +47134,7 @@ The next attack action card you play this turn gains +1{p}.
       
     },],
     name: "Void Wraith",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON210"],
     sets: [Release.Monarch],
@@ -46217,6 +47183,7 @@ The next attack action card you play this turn gains +1{p}.
       
     },],
     name: "Void Wraith",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON211"],
     sets: [Release.Monarch],
@@ -46265,6 +47232,7 @@ The next attack action card you play this turn gains +1{p}.
       
     },],
     name: "Spew Shadow",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON212"],
     sets: [Release.Monarch],
@@ -46319,6 +47287,7 @@ The next attack action card you play this turn gains +1{p}.
       
     },],
     name: "Spew Shadow",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CHN024","MON213"],
     sets: [Release.ChaneBlitzDeck,Release.Monarch],
@@ -46367,6 +47336,7 @@ The next attack action card you play this turn gains +1{p}.
       
     },],
     name: "Spew Shadow",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON214"],
     sets: [Release.Monarch],
@@ -46415,6 +47385,7 @@ The next attack action card you play this turn gains +1{p}.
       
     },],
     name: "Blood Tribute",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON215"],
     sets: [Release.Monarch],
@@ -46461,6 +47432,7 @@ The next attack action card you play this turn gains +1{p}.
       
     },],
     name: "Blood Tribute",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON216"],
     sets: [Release.Monarch],
@@ -46513,6 +47485,7 @@ The next attack action card you play this turn gains +1{p}.
       
     },],
     name: "Blood Tribute",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LEV025","MON217"],
     sets: [Release.LeviaBlitzDeck,Release.Monarch],
@@ -46548,7 +47521,7 @@ The next attack action card you play this turn gains +1{p}.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS045",
-      name: "LGS045.width-450",
+      name: "LGS045",
       set: Release.Promos,
       
     },{
@@ -46565,6 +47538,7 @@ The next attack action card you play this turn gains +1{p}.
       
     },],
     name: "Eclipse Existence",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS045","MON218"],
     sets: [Release.Promos,Release.Monarch],
@@ -46602,13 +47576,13 @@ If you have more {h} than an opposing Light hero, you may banish an action card 
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB021",
-      name: "FAB021.width-450",
+      name: "FAB021",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
       edition: ReleaseEdition.Promo,
       identifier: "FAB041",
-      name: "FAB041.width-450",
+      name: "FAB041",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -46625,10 +47599,11 @@ If you have more {h} than an opposing Light hero, you may banish an action card 
       
     },],
     name: "Blasmophet, the Soul Harvester",
+    rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["FAB021","FAB041","MON219"],
     sets: [Release.Promos,Release.Monarch],
-    specialImageName: "FAB021.width-450",
+    specialImageName: "FAB021",
     subtypes: [Subtype.Demon,Subtype.Ally],
     types: [Type.Token],
     typeText: "Shadow Token – Demon Ally",
@@ -46647,7 +47622,7 @@ Whenever Blasmophet attacks, you may banish a Shadow card from your hand. If you
     
     life: 6,
     
-    pitch: 0,
+    
     power: 6,
     
     
@@ -46664,13 +47639,13 @@ Whenever Blasmophet attacks, you may banish a Shadow card from your hand. If you
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB022",
-      name: "FAB022.width-450",
+      name: "FAB022",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
       edition: ReleaseEdition.Promo,
       identifier: "FAB042",
-      name: "FAB042.width-450",
+      name: "FAB042",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -46687,10 +47662,11 @@ Whenever Blasmophet attacks, you may banish a Shadow card from your hand. If you
       
     },],
     name: "Ursur, the Soul Reaper",
+    rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["FAB022","FAB042","MON220"],
     sets: [Release.Promos,Release.Monarch],
-    specialImageName: "FAB022.width-450",
+    specialImageName: "FAB022",
     subtypes: [Subtype.Demon,Subtype.Ally],
     types: [Type.Token],
     typeText: "Shadow Token – Demon Ally",
@@ -46706,10 +47682,10 @@ While Ursur is attacking a hero with 1 or more cards in their soul, the attack h
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     life: 6,
     
-    pitch: 0,
+    
     power: 6,
     
     
@@ -46726,7 +47702,7 @@ While Ursur is attacking a hero with 1 or more cards in their soul, the attack h
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS047",
-      name: "LGS047.width-450",
+      name: "LGS047",
       set: Release.Promos,
       
     },{
@@ -46749,6 +47725,7 @@ While Ursur is attacking a hero with 1 or more cards in their soul, the attack h
       
     },],
     name: "Ravenous Meataxe",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS047","LEV003","MON221"],
     sets: [Release.Promos,Release.LeviaBlitzDeck,Release.Monarch],
@@ -46769,7 +47746,7 @@ Whenever you attack with Ravenous Meataxe, draw a card then discard a random car
     
     
     
-    pitch: 0,
+    
     power: 3,
     
     
@@ -46797,6 +47774,7 @@ Whenever you attack with Ravenous Meataxe, draw a card then discard a random car
       
     },],
     name: "Tear Limb from Limb",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["MON222"],
     sets: [Release.Monarch],
@@ -46834,7 +47812,7 @@ Whenever you attack with Ravenous Meataxe, draw a card then discard a random car
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS051",
-      name: "LGS051.width-450",
+      name: "LGS051",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -46851,10 +47829,11 @@ Whenever you attack with Ravenous Meataxe, draw a card then discard a random car
       
     },],
     name: "Pulping",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS051","MON223"],
     sets: [Release.Promos,Release.Monarch],
-    specialImageName: "LGS051.width-450",
+    specialImageName: "LGS051",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Brute Action – Attack",
@@ -46888,7 +47867,7 @@ While Pulping is defended by less than 2 non-equipment cards, it has **go again.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS052",
-      name: "LGS052.width-450",
+      name: "LGS052",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -46905,10 +47884,11 @@ While Pulping is defended by less than 2 non-equipment cards, it has **go again.
       
     },],
     name: "Pulping",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS052","MON224"],
     sets: [Release.Promos,Release.Monarch],
-    specialImageName: "LGS052.width-450",
+    specialImageName: "LGS052",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Brute Action – Attack",
@@ -46942,7 +47922,7 @@ While Pulping is defended by less than 2 non-equipment cards, it has **go again.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS053",
-      name: "LGS053.width-450",
+      name: "LGS053",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -46959,10 +47939,11 @@ While Pulping is defended by less than 2 non-equipment cards, it has **go again.
       
     },],
     name: "Pulping",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS053","MON225"],
     sets: [Release.Promos,Release.Monarch],
-    specialImageName: "LGS053.width-450",
+    specialImageName: "LGS053",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Brute Action – Attack",
@@ -47013,6 +47994,7 @@ While Pulping is defended by less than 2 non-equipment cards, it has **go again.
       
     },],
     name: "Smash with Big Tree",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LEV026","MON226"],
     sets: [Release.LeviaBlitzDeck,Release.Monarch],
@@ -47071,6 +48053,7 @@ While Pulping is defended by less than 2 non-equipment cards, it has **go again.
       
     },],
     name: "Smash with Big Tree",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LEV027","RVD017","MON227"],
     sets: [Release.LeviaBlitzDeck,Release.ClassicBattlesRhinarDorinthea,Release.Monarch],
@@ -47117,6 +48100,7 @@ While Pulping is defended by less than 2 non-equipment cards, it has **go again.
       
     },],
     name: "Smash with Big Tree",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON228"],
     sets: [Release.Monarch],
@@ -47163,6 +48147,7 @@ While Pulping is defended by less than 2 non-equipment cards, it has **go again.
       
     },],
     name: "Dread Scythe",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["MON229"],
     sets: [Release.Monarch],
@@ -47185,7 +48170,7 @@ A hero dealt damage by Dread Scythe can't gain {h} during their next action phas
     
     
     
-    pitch: 0,
+    
     power: 3,
     restrictedFormats: [Format.Commoner],
     
@@ -47219,6 +48204,7 @@ A hero dealt damage by Dread Scythe can't gain {h} during their next action phas
       
     },],
     name: "Aether Ironweave",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CHN005","MON230"],
     sets: [Release.ChaneBlitzDeck,Release.Monarch],
@@ -47236,10 +48222,10 @@ A hero dealt damage by Dread Scythe can't gain {h} during their next action phas
     
     
     
-    keywords: [Keyword.Battleworn],
+    keywords: [Keyword.Battleworn,Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     
     
     
@@ -47267,6 +48253,7 @@ A hero dealt damage by Dread Scythe can't gain {h} during their next action phas
       
     },],
     name: "Sonata Arcanix",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["MON231"],
     sets: [Release.Monarch],
@@ -47308,7 +48295,7 @@ Shuffle your deck. Banish Sonata Arcanix.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS057",
-      name: "LGS057.width-450",
+      name: "LGS057",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -47331,10 +48318,11 @@ Shuffle your deck. Banish Sonata Arcanix.
       
     },],
     name: "Vexing Malice",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS057","CHN026","MON232"],
     sets: [Release.Promos,Release.ChaneBlitzDeck,Release.Monarch],
-    specialImageName: "LGS057.width-450",
+    specialImageName: "LGS057",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Runeblade Action – Attack",
@@ -47366,7 +48354,7 @@ Shuffle your deck. Banish Sonata Arcanix.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS058",
-      name: "LGS058.width-450",
+      name: "LGS058",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -47383,10 +48371,11 @@ Shuffle your deck. Banish Sonata Arcanix.
       
     },],
     name: "Vexing Malice",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS058","MON233"],
     sets: [Release.Promos,Release.Monarch],
-    specialImageName: "LGS058.width-450",
+    specialImageName: "LGS058",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Runeblade Action – Attack",
@@ -47418,7 +48407,7 @@ Shuffle your deck. Banish Sonata Arcanix.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS059",
-      name: "LGS059.width-450",
+      name: "LGS059",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -47435,10 +48424,11 @@ Shuffle your deck. Banish Sonata Arcanix.
       
     },],
     name: "Vexing Malice",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS059","MON234"],
     sets: [Release.Promos,Release.Monarch],
-    specialImageName: "LGS059.width-450",
+    specialImageName: "LGS059",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Runeblade Action – Attack",
@@ -47481,6 +48471,7 @@ Shuffle your deck. Banish Sonata Arcanix.
       
     },],
     name: "Arcanic Crackle",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON235"],
     sets: [Release.Monarch],
@@ -47527,6 +48518,7 @@ Shuffle your deck. Banish Sonata Arcanix.
       
     },],
     name: "Arcanic Crackle",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON236"],
     sets: [Release.Monarch],
@@ -47579,6 +48571,7 @@ Shuffle your deck. Banish Sonata Arcanix.
       
     },],
     name: "Arcanic Crackle",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CHN027","MON237"],
     sets: [Release.ChaneBlitzDeck,Release.Monarch],
@@ -47625,6 +48618,7 @@ Shuffle your deck. Banish Sonata Arcanix.
       
     },],
     name: "Blood Drop Brocade",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON238"],
     sets: [Release.Monarch],
@@ -47643,7 +48637,7 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     
     
-    pitch: 0,
+    
     
     
     
@@ -47671,6 +48665,7 @@ Shuffle your deck. Banish Sonata Arcanix.
       
     },],
     name: "Stubby Hammerers",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON239"],
     sets: [Release.Monarch],
@@ -47686,10 +48681,10 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     
     
+    keywords: [Keyword.GoAgain],
     
     
     
-    pitch: 0,
     
     restrictedFormats: [Format.Blitz,Format.ClassicConstructed],
     
@@ -47717,6 +48712,7 @@ Shuffle your deck. Banish Sonata Arcanix.
       
     },],
     name: "Time Skippers",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON240"],
     sets: [Release.Monarch],
@@ -47735,7 +48731,7 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     
     
-    pitch: 0,
+    
     
     
     
@@ -47769,6 +48765,7 @@ Shuffle your deck. Banish Sonata Arcanix.
       
     },],
     name: "Ironhide Helm",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DRO005","MON241"],
     sets: [Release.DromaiBlitzDeck,Release.Monarch],
@@ -47787,7 +48784,7 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     
     
-    pitch: 0,
+    
     
     
     
@@ -47815,6 +48812,7 @@ Shuffle your deck. Banish Sonata Arcanix.
       
     },],
     name: "Ironhide Plate",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON242"],
     sets: [Release.Monarch],
@@ -47833,7 +48831,7 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     
     
-    pitch: 0,
+    
     
     
     
@@ -47867,6 +48865,7 @@ Shuffle your deck. Banish Sonata Arcanix.
       
     },],
     name: "Ironhide Gauntlet",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["RVD005","MON243"],
     sets: [Release.ClassicBattlesRhinarDorinthea,Release.Monarch],
@@ -47885,7 +48884,7 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     
     
-    pitch: 0,
+    
     
     
     
@@ -47931,6 +48930,7 @@ Shuffle your deck. Banish Sonata Arcanix.
       
     },],
     name: "Ironhide Legs",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DRO008","OLD007","RVD006","MON244"],
     sets: [Release.DromaiBlitzDeck,Release.OldhimBlitzDeck,Release.ClassicBattlesRhinarDorinthea,Release.Monarch],
@@ -47949,7 +48949,7 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     
     
-    pitch: 0,
+    
     
     
     
@@ -47977,6 +48977,7 @@ Shuffle your deck. Banish Sonata Arcanix.
       
     },],
     name: "Exude Confidence",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["MON245"],
     sets: [Release.Monarch],
@@ -48025,6 +49026,7 @@ Shuffle your deck. Banish Sonata Arcanix.
       
     },],
     name: "Nourishing Emptiness",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["MON246"],
     sets: [Release.Monarch],
@@ -48071,6 +49073,7 @@ Shuffle your deck. Banish Sonata Arcanix.
       
     },],
     name: "Rouse the Ancients",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["MON247"],
     sets: [Release.Monarch],
@@ -48117,6 +49120,7 @@ Shuffle your deck. Banish Sonata Arcanix.
       
     },],
     name: "Out Muscle",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON248"],
     sets: [Release.Monarch],
@@ -48163,6 +49167,7 @@ Shuffle your deck. Banish Sonata Arcanix.
       
     },],
     name: "Out Muscle",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON249"],
     sets: [Release.Monarch],
@@ -48209,6 +49214,7 @@ Shuffle your deck. Banish Sonata Arcanix.
       
     },],
     name: "Out Muscle",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON250"],
     sets: [Release.Monarch],
@@ -48255,6 +49261,7 @@ Shuffle your deck. Banish Sonata Arcanix.
       
     },],
     name: "Seek Horizon",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON251"],
     sets: [Release.Monarch],
@@ -48301,6 +49308,7 @@ Shuffle your deck. Banish Sonata Arcanix.
       
     },],
     name: "Seek Horizon",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON252"],
     sets: [Release.Monarch],
@@ -48347,6 +49355,7 @@ Shuffle your deck. Banish Sonata Arcanix.
       
     },],
     name: "Seek Horizon",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON253"],
     sets: [Release.Monarch],
@@ -48393,6 +49402,7 @@ Shuffle your deck. Banish Sonata Arcanix.
       
     },],
     name: "Tremor of íArathael",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON254"],
     sets: [Release.Monarch],
@@ -48439,6 +49449,7 @@ Shuffle your deck. Banish Sonata Arcanix.
       
     },],
     name: "Tremor of íArathael",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON255"],
     sets: [Release.Monarch],
@@ -48485,6 +49496,7 @@ Shuffle your deck. Banish Sonata Arcanix.
       
     },],
     name: "Tremor of íArathael",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON256"],
     sets: [Release.Monarch],
@@ -48531,6 +49543,7 @@ Shuffle your deck. Banish Sonata Arcanix.
       
     },],
     name: "Rise Above",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON257"],
     sets: [Release.Monarch],
@@ -48577,6 +49590,7 @@ Shuffle your deck. Banish Sonata Arcanix.
       
     },],
     name: "Rise Above",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON258"],
     sets: [Release.Monarch],
@@ -48623,6 +49637,7 @@ Shuffle your deck. Banish Sonata Arcanix.
       
     },],
     name: "Rise Above",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON259"],
     sets: [Release.Monarch],
@@ -48669,6 +49684,7 @@ Shuffle your deck. Banish Sonata Arcanix.
       
     },],
     name: "Captain’s Call",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON260"],
     sets: [Release.Monarch],
@@ -48690,7 +49706,7 @@ The next attack action card with cost 2 or less you play this turn gains **go ag
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 1,
@@ -48721,6 +49737,7 @@ The next attack action card with cost 2 or less you play this turn gains **go ag
       
     },],
     name: "Captain’s Call",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON261"],
     sets: [Release.Monarch],
@@ -48742,7 +49759,7 @@ The next attack action card with cost 1 or less you play this turn gains **go ag
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 2,
@@ -48773,6 +49790,7 @@ The next attack action card with cost 1 or less you play this turn gains **go ag
       
     },],
     name: "Captain’s Call",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON262"],
     sets: [Release.Monarch],
@@ -48785,8 +49803,6 @@ The next attack action card with cost 1 or less you play this turn gains **go ag
     defense: 2,
     functionalText: `Choose 1;
 
-The next attack action card with cost 0 you play this turn gains +2{p}.
-
 The next attack action card with cost 0 you play this turn gains **go again.**
 
 **Go again**`,
@@ -48794,7 +49810,7 @@ The next attack action card with cost 0 you play this turn gains **go again.**
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 3,
@@ -48825,6 +49841,7 @@ The next attack action card with cost 0 you play this turn gains **go again.**
       
     },],
     name: "Adrenaline Rush",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON263"],
     sets: [Release.Monarch],
@@ -48871,6 +49888,7 @@ The next attack action card with cost 0 you play this turn gains **go again.**
       
     },],
     name: "Adrenaline Rush",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON264"],
     sets: [Release.Monarch],
@@ -48917,6 +49935,7 @@ The next attack action card with cost 0 you play this turn gains **go again.**
       
     },],
     name: "Adrenaline Rush",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON265"],
     sets: [Release.Monarch],
@@ -48963,6 +49982,7 @@ The next attack action card with cost 0 you play this turn gains **go again.**
       
     },],
     name: "Belittle",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON266"],
     sets: [Release.Monarch],
@@ -49011,6 +50031,7 @@ The next attack action card with cost 0 you play this turn gains **go again.**
       
     },],
     name: "Belittle",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON267"],
     sets: [Release.Monarch],
@@ -49059,6 +50080,7 @@ The next attack action card with cost 0 you play this turn gains **go again.**
       
     },],
     name: "Belittle",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON268"],
     sets: [Release.Monarch],
@@ -49107,6 +50129,7 @@ The next attack action card with cost 0 you play this turn gains **go again.**
       
     },],
     name: "Brandish",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON269"],
     sets: [Release.Monarch],
@@ -49155,6 +50178,7 @@ The next attack action card with cost 0 you play this turn gains **go again.**
       
     },],
     name: "Brandish",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON270"],
     sets: [Release.Monarch],
@@ -49203,6 +50227,7 @@ The next attack action card with cost 0 you play this turn gains **go again.**
       
     },],
     name: "Brandish",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON271"],
     sets: [Release.Monarch],
@@ -49251,6 +50276,7 @@ The next attack action card with cost 0 you play this turn gains **go again.**
       
     },],
     name: "Frontline Scout",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON272"],
     sets: [Release.Monarch],
@@ -49299,6 +50325,7 @@ If Frontline Scout is played from arsenal, it gains **go again.**`,
       
     },],
     name: "Frontline Scout",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON273"],
     sets: [Release.Monarch],
@@ -49347,6 +50374,7 @@ If Frontline Scout is played from arsenal, it gains **go again.**`,
       
     },],
     name: "Frontline Scout",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON274"],
     sets: [Release.Monarch],
@@ -49395,6 +50423,7 @@ If Frontline Scout is played from arsenal, it gains **go again.**`,
       
     },],
     name: "Overload",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON275"],
     sets: [Release.Monarch],
@@ -49443,6 +50472,7 @@ If Overload hits, it gains **go again.**`,
       
     },],
     name: "Overload",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON276"],
     sets: [Release.Monarch],
@@ -49491,6 +50521,7 @@ If Overload hits, it gains **go again.**`,
       
     },],
     name: "Overload",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON277"],
     sets: [Release.Monarch],
@@ -49539,6 +50570,7 @@ If Overload hits, it gains **go again.**`,
       
     },],
     name: "Pound for Pound",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON278"],
     sets: [Release.Monarch],
@@ -49585,6 +50617,7 @@ If Overload hits, it gains **go again.**`,
       
     },],
     name: "Pound for Pound",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON279"],
     sets: [Release.Monarch],
@@ -49631,6 +50664,7 @@ If Overload hits, it gains **go again.**`,
       
     },],
     name: "Pound for Pound",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON280"],
     sets: [Release.Monarch],
@@ -49683,6 +50717,7 @@ If Overload hits, it gains **go again.**`,
       
     },],
     name: "Rally the Rearguard",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LEV028","MON281"],
     sets: [Release.LeviaBlitzDeck,Release.Monarch],
@@ -49729,6 +50764,7 @@ If Overload hits, it gains **go again.**`,
       
     },],
     name: "Rally the Rearguard",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON282"],
     sets: [Release.Monarch],
@@ -49787,6 +50823,7 @@ If Overload hits, it gains **go again.**`,
       
     },],
     name: "Rally the Rearguard",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LEV029","RVD022","MON283"],
     sets: [Release.LeviaBlitzDeck,Release.ClassicBattlesRhinarDorinthea,Release.Monarch],
@@ -49816,7 +50853,7 @@ If Overload hits, it gains **go again.**`,
     
   },{
     artists: ["Jessada Sutthi"],
-    cardIdentifier: "stony-wootonhog-red",
+    cardIdentifier: "stony-woottonhog-red",
     classes: [Class.Generic],
     defaultImageName: "MON284.width-450",
     images: [{
@@ -49832,7 +50869,8 @@ If Overload hits, it gains **go again.**`,
       set: Release.Monarch,
       
     },],
-    name: "Stony Wootonhog",
+    name: "Stony Woottonhog",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON284"],
     sets: [Release.Monarch],
@@ -49862,7 +50900,7 @@ If Overload hits, it gains **go again.**`,
     
   },{
     artists: ["Jessada Sutthi"],
-    cardIdentifier: "stony-wootonhog-yellow",
+    cardIdentifier: "stony-woottonhog-yellow",
     classes: [Class.Generic],
     defaultImageName: "MON285.width-450",
     images: [{
@@ -49878,7 +50916,8 @@ If Overload hits, it gains **go again.**`,
       set: Release.Monarch,
       
     },],
-    name: "Stony Wootonhog",
+    name: "Stony Woottonhog",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON285"],
     sets: [Release.Monarch],
@@ -49908,7 +50947,7 @@ If Overload hits, it gains **go again.**`,
     
   },{
     artists: ["Jessada Sutthi"],
-    cardIdentifier: "stony-wootonhog-blue",
+    cardIdentifier: "stony-woottonhog-blue",
     classes: [Class.Generic],
     defaultImageName: "MON286.width-450",
     images: [{
@@ -49924,7 +50963,8 @@ If Overload hits, it gains **go again.**`,
       set: Release.Monarch,
       
     },],
-    name: "Stony Wootonhog",
+    name: "Stony Woottonhog",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON286"],
     sets: [Release.Monarch],
@@ -49971,6 +51011,7 @@ If Overload hits, it gains **go again.**`,
       
     },],
     name: "Surging Militia",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON287"],
     sets: [Release.Monarch],
@@ -50017,6 +51058,7 @@ If Overload hits, it gains **go again.**`,
       
     },],
     name: "Surging Militia",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON288"],
     sets: [Release.Monarch],
@@ -50063,6 +51105,7 @@ If Overload hits, it gains **go again.**`,
       
     },],
     name: "Surging Militia",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON289"],
     sets: [Release.Monarch],
@@ -50109,6 +51152,7 @@ If Overload hits, it gains **go again.**`,
       
     },],
     name: "Yinti Yanti",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON290"],
     sets: [Release.Monarch],
@@ -50157,6 +51201,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
       
     },],
     name: "Yinti Yanti",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON291"],
     sets: [Release.Monarch],
@@ -50205,6 +51250,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
       
     },],
     name: "Yinti Yanti",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON292"],
     sets: [Release.Monarch],
@@ -50253,6 +51299,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
       
     },],
     name: "Zealous Belting",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON293"],
     sets: [Release.Monarch],
@@ -50299,6 +51346,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
       
     },],
     name: "Zealous Belting",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON294"],
     sets: [Release.Monarch],
@@ -50345,6 +51393,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
       
     },],
     name: "Zealous Belting",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON295"],
     sets: [Release.Monarch],
@@ -50391,6 +51440,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
       
     },],
     name: "Minnowism",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON296"],
     sets: [Release.Monarch],
@@ -50439,6 +51489,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
       
     },],
     name: "Minnowism",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON297"],
     sets: [Release.Monarch],
@@ -50487,6 +51538,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
       
     },],
     name: "Minnowism",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON298"],
     sets: [Release.Monarch],
@@ -50541,6 +51593,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
       
     },],
     name: "Warmonger’s Recital",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CHN028","MON299"],
     sets: [Release.ChaneBlitzDeck,Release.Monarch],
@@ -50595,6 +51648,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
       
     },],
     name: "Warmonger’s Recital",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CHN029","MON300"],
     sets: [Release.ChaneBlitzDeck,Release.Monarch],
@@ -50624,7 +51678,8 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     
     
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Oliver Morit"],
     cardIdentifier: "warmongers-recital-blue",
     classes: [Class.Generic],
@@ -50643,6 +51698,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
       
     },],
     name: "Warmonger’s Recital",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON301"],
     sets: [Release.Monarch],
@@ -50672,8 +51728,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     
     
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Dmitry Isakevitch"],
     cardIdentifier: "talisman-of-dousing-yellow",
     classes: [Class.Generic],
@@ -50692,6 +51747,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
       
     },],
     name: "Talisman of Dousing",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON302"],
     sets: [Release.Monarch],
@@ -50742,6 +51798,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
       
     },],
     name: "Memorial Ground",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON303"],
     sets: [Release.Monarch],
@@ -50788,6 +51845,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
       
     },],
     name: "Memorial Ground",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON304"],
     sets: [Release.Monarch],
@@ -50834,6 +51892,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
       
     },],
     name: "Memorial Ground",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON305"],
     sets: [Release.Monarch],
@@ -50880,6 +51939,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
       
     },],
     name: "Minerva Themis",
+    rarities: [Rarity.Promo,Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["FAB044","BOL002"],
     sets: [Release.Promos,Release.BoltynBlitzDeck],
@@ -50902,7 +51962,7 @@ While Minerva is face up in arsenal, 1H weapons you control have +1{p}. Whenever
     
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
     
@@ -50930,6 +51990,7 @@ While Minerva is face up in arsenal, 1H weapons you control have +1{p}. Whenever
       
     },],
     name: "Lord Sutcliffe",
+    rarities: [Rarity.Promo,Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["FAB046","CHN002"],
     sets: [Release.Promos,Release.ChaneBlitzDeck],
@@ -50952,7 +52013,7 @@ While Sutcliffe is face up in arsenal, whenever you play a 'non-attack' action c
     
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
     
@@ -50980,6 +52041,7 @@ While Sutcliffe is face up in arsenal, whenever you play a 'non-attack' action c
       
     },],
     name: "Lady Barthimont",
+    rarities: [Rarity.Promo,Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["FAB045","LEV002"],
     sets: [Release.Promos,Release.LeviaBlitzDeck],
@@ -51002,7 +52064,7 @@ While Barthimont is face up in arsenal, whenever you play an attack action card,
     keywords: [Keyword.Dominate],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
     
@@ -51030,6 +52092,7 @@ While Barthimont is face up in arsenal, whenever you play an attack action card,
       
     },],
     name: "The Librarian",
+    rarities: [Rarity.Promo,Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["FAB043","PSM002"],
     sets: [Release.Promos,Release.PrismBlitzDeck],
@@ -51052,7 +52115,7 @@ While The Librarian is face up in arsenal, once per turn when you create a Spect
     
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
     
@@ -51080,6 +52143,7 @@ While The Librarian is face up in arsenal, once per turn when you create a Spect
       
     },],
     name: "Korshem, Crossroad of Elements",
+    rarities: [Rarity.Fabled],
     rarity: Rarity.Fabled,
     setIdentifiers: ["ELE000"],
     sets: [Release.TalesOfAria],
@@ -51104,7 +52168,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
     keywords: [Keyword.Legendary,Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -51121,13 +52185,13 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER042",
-      name: "HER042.width-450",
+      name: "HER042",
       set: Release.Promos,
       
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER048",
-      name: "HER048.width-450",
+      name: "HER048",
       set: Release.Promos,
       
     },{
@@ -51144,6 +52208,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
       
     },],
     name: "Oldhim, Grandfather of Eternity",
+    rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER042","HER048","WIN013","ELE001"],
     sets: [Release.Promos,Release.TalesOfAria],
@@ -51164,7 +52229,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
     keywords: [Keyword.Essence],
     life: 40,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Blitz,Format.Commoner],
     
@@ -51181,7 +52246,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER045",
-      name: "HER045.width-450",
+      name: "HER045",
       set: Release.Promos,
       
     },{
@@ -51204,6 +52269,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
       
     },],
     name: "Oldhim",
+    rarities: [Rarity.Promo,Rarity.Rare,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER045","OLD001","ELE002"],
     sets: [Release.Promos,Release.OldhimBlitzDeck,Release.TalesOfAria],
@@ -51224,7 +52290,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
     keywords: [Keyword.Essence],
     life: 20,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.ClassicConstructed],
     
@@ -51252,6 +52318,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
       
     },],
     name: "Winter’s Wail",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["ELE003"],
     sets: [Release.TalesOfAria],
@@ -51272,7 +52339,7 @@ If an Ice card is pitched this way, Winter’s Wail gains "If this hits a hero, 
     
     
     
-    pitch: 0,
+    
     power: 4,
     restrictedFormats: [Format.Commoner],
     
@@ -51300,6 +52367,7 @@ If an Ice card is pitched this way, Winter’s Wail gains "If this hits a hero, 
       
     },],
     name: "Endless Winter",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["ELE004"],
     sets: [Release.TalesOfAria],
@@ -51352,6 +52420,7 @@ If Endless Winter hits a hero, until the end of their next turn, whenever they a
       
     },],
     name: "Oaken Old",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["ELE005"],
     sets: [Release.TalesOfAria],
@@ -51400,6 +52469,7 @@ If Oaken Old was **fused**, it gains +2{p}, **dominate**, and “If this hits a 
       
     },],
     name: "Awakening",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["ELE006"],
     sets: [Release.TalesOfAria],
@@ -51450,6 +52520,7 @@ Search your deck for a Guardian attack action card with cost less than or equal 
       
     },],
     name: "Biting Gale",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE007"],
     sets: [Release.TalesOfAria],
@@ -51504,6 +52575,7 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
       
     },],
     name: "Biting Gale",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["OLD012","ELE008"],
     sets: [Release.OldhimBlitzDeck,Release.TalesOfAria],
@@ -51552,6 +52624,7 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
       
     },],
     name: "Biting Gale",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE009"],
     sets: [Release.TalesOfAria],
@@ -51606,6 +52679,7 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
       
     },],
     name: "Turn Timber",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["OLD019","ELE010"],
     sets: [Release.OldhimBlitzDeck,Release.TalesOfAria],
@@ -51654,6 +52728,7 @@ If Turn Timber was **fused**, it gains +2{d}.`,
       
     },],
     name: "Turn Timber",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE011"],
     sets: [Release.TalesOfAria],
@@ -51702,6 +52777,7 @@ If Turn Timber was **fused**, it gains +2{d}.`,
       
     },],
     name: "Turn Timber",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE012"],
     sets: [Release.TalesOfAria],
@@ -51750,6 +52826,7 @@ If Turn Timber was **fused**, it gains +2{d}.`,
       
     },],
     name: "Entangle",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE013"],
     sets: [Release.TalesOfAria],
@@ -51798,6 +52875,7 @@ If Entangle was **fused**, it gains "If this hits a hero, their first attack dur
       
     },],
     name: "Entangle",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE014"],
     sets: [Release.TalesOfAria],
@@ -51852,6 +52930,7 @@ If Entangle was **fused**, it gains "If this hits a hero, their first attack dur
       
     },],
     name: "Entangle",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OLD021","ELE015"],
     sets: [Release.OldhimBlitzDeck,Release.TalesOfAria],
@@ -51906,6 +52985,7 @@ If Entangle was **fused**, it gains "If this hits a hero, their first attack dur
       
     },],
     name: "Glacial Footsteps",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OLD008","ELE016"],
     sets: [Release.OldhimBlitzDeck,Release.TalesOfAria],
@@ -51954,6 +53034,7 @@ If Glacial Footsteps was **fused**, it gains **dominate.** *(The defending hero 
       
     },],
     name: "Glacial Footsteps",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE017"],
     sets: [Release.TalesOfAria],
@@ -52008,6 +53089,7 @@ If Glacial Footsteps was **fused**, it gains **dominate.** *(The defending hero 
       
     },],
     name: "Glacial Footsteps",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OLD010","ELE018"],
     sets: [Release.OldhimBlitzDeck,Release.TalesOfAria],
@@ -52056,6 +53138,7 @@ If Glacial Footsteps was **fused**, it gains **dominate.** *(The defending hero 
       
     },],
     name: "Mulch",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE019"],
     sets: [Release.TalesOfAria],
@@ -52104,6 +53187,7 @@ If Mulch was **fused**, it gains "If this hits a hero, put a card from their ars
       
     },],
     name: "Mulch",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE020"],
     sets: [Release.TalesOfAria],
@@ -52158,6 +53242,7 @@ If Mulch was **fused**, it gains "If this hits a hero, put a card from their ars
       
     },],
     name: "Mulch",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OLD022","ELE021"],
     sets: [Release.OldhimBlitzDeck,Release.TalesOfAria],
@@ -52212,6 +53297,7 @@ If Mulch was **fused**, it gains "If this hits a hero, put a card from their ars
       
     },],
     name: "Snow Under",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OLD009","ELE022"],
     sets: [Release.OldhimBlitzDeck,Release.TalesOfAria],
@@ -52260,6 +53346,7 @@ If Snow Under was **fused**, it gains "If Snow Under hits a hero, create a Frost
       
     },],
     name: "Snow Under",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE023"],
     sets: [Release.TalesOfAria],
@@ -52314,6 +53401,7 @@ If Snow Under was **fused**, it gains "If Snow Under hits a hero, create a Frost
       
     },],
     name: "Snow Under",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OLD011","ELE024"],
     sets: [Release.OldhimBlitzDeck,Release.TalesOfAria],
@@ -52362,6 +53450,7 @@ If Snow Under was **fused**, it gains "If Snow Under hits a hero, create a Frost
       
     },],
     name: "Emerging Avalanche",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE025"],
     sets: [Release.TalesOfAria],
@@ -52414,6 +53503,7 @@ At the beginning of your action phase, destroy Emerging Avalanche then the next 
       
     },],
     name: "Emerging Avalanche",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE026"],
     sets: [Release.TalesOfAria],
@@ -52466,6 +53556,7 @@ At the beginning of your action phase, destroy Emerging Avalanche then the next 
       
     },],
     name: "Emerging Avalanche",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE027"],
     sets: [Release.TalesOfAria],
@@ -52507,7 +53598,7 @@ At the beginning of your action phase, destroy Emerging Avalanche then the next 
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS078",
-      name: "LGS078.width-450",
+      name: "LGS078",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -52530,10 +53621,11 @@ At the beginning of your action phase, destroy Emerging Avalanche then the next 
       
     },],
     name: "Strength of Sequoia",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS078","OLD020","ELE028"],
     sets: [Release.Promos,Release.OldhimBlitzDeck,Release.TalesOfAria],
-    specialImageName: "LGS078.width-450",
+    specialImageName: "LGS078",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Guardian Action – Aura",
@@ -52582,6 +53674,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
       
     },],
     name: "Strength of Sequoia",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE029"],
     sets: [Release.TalesOfAria],
@@ -52640,6 +53733,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
       
     },],
     name: "Strength of Sequoia",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OLD023","ELE030"],
     sets: [Release.OldhimBlitzDeck,Release.TalesOfAria],
@@ -52681,13 +53775,13 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER043",
-      name: "HER043.width-450",
+      name: "HER043",
       set: Release.Promos,
       
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER049",
-      name: "HER049.width-450",
+      name: "HER049",
       set: Release.Promos,
       
     },{
@@ -52704,6 +53798,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
       
     },],
     name: "Lexi, Livewire",
+    rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER043","HER049","WIN014","ELE031"],
     sets: [Release.Promos,Release.TalesOfAria],
@@ -52724,7 +53819,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
     keywords: [Keyword.Essence,Keyword.GoAgain],
     life: 40,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Blitz,Format.Commoner],
     
@@ -52741,7 +53836,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER046",
-      name: "HER046.width-450",
+      name: "HER046",
       set: Release.Promos,
       
     },{
@@ -52764,6 +53859,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
       
     },],
     name: "Lexi",
+    rarities: [Rarity.Promo,Rarity.Rare,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER046","LXI001","ELE032"],
     sets: [Release.Promos,Release.LexiBlitzDeck,Release.TalesOfAria],
@@ -52784,7 +53880,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
     keywords: [Keyword.Essence,Keyword.GoAgain],
     life: 20,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.ClassicConstructed],
     
@@ -52801,7 +53897,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS067",
-      name: "LGS067.width-450",
+      name: "LGS067",
       set: Release.Promos,
       
     },{
@@ -52824,6 +53920,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
       
     },],
     name: "Shiver",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS067","LXI002","ELE033"],
     sets: [Release.Promos,Release.LexiBlitzDeck,Release.TalesOfAria],
@@ -52846,7 +53943,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
     keywords: [Keyword.Dominate],
     
     
-    pitch: 0,
+    
     
     
     
@@ -52863,7 +53960,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB075",
-      name: "FAB075.width-450",
+      name: "FAB075",
       set: Release.Promos,
       
     },{
@@ -52880,6 +53977,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
       
     },],
     name: "Voltaire, Strike Twice",
+    rarities: [Rarity.Promo,Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["FAB075","ELE034"],
     sets: [Release.Promos,Release.TalesOfAria],
@@ -52901,7 +53999,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
     keywords: [Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -52929,6 +54027,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
       
     },],
     name: "Frost Lock",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["ELE035"],
     sets: [Release.TalesOfAria],
@@ -52981,6 +54080,7 @@ If Frost Lock was **fused**, it gains +1{p} and "If this hits a hero, until the 
       
     },],
     name: "Light It Up",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["ELE036"],
     sets: [Release.TalesOfAria],
@@ -53033,6 +54133,7 @@ If Light it Up deals damage to a hero equal to or greater than the number of equ
       
     },],
     name: "Ice Storm",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["ELE037"],
     sets: [Release.TalesOfAria],
@@ -53085,6 +54186,7 @@ If Ice Storm was **fused**, your next arrow attack this turn gains "If this hits
       
     },],
     name: "Cold Wave",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE038"],
     sets: [Release.TalesOfAria],
@@ -53135,6 +54237,7 @@ If Cold Wave was **fused**, cards and activated abilities cost opposing heroes a
       
     },],
     name: "Cold Wave",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE039"],
     sets: [Release.TalesOfAria],
@@ -53185,6 +54288,7 @@ If Cold Wave was **fused**, cards and activated abilities cost opposing heroes a
       
     },],
     name: "Cold Wave",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE040"],
     sets: [Release.TalesOfAria],
@@ -53241,6 +54345,7 @@ If Cold Wave was **fused**, cards and activated abilities cost opposing heroes a
       
     },],
     name: "Snap Shot",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LXI010","ELE041"],
     sets: [Release.LexiBlitzDeck,Release.TalesOfAria],
@@ -53291,6 +54396,7 @@ If Snap Shot was **fused**, you may activate abilities of bows you control an ad
       
     },],
     name: "Snap Shot",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE042"],
     sets: [Release.TalesOfAria],
@@ -53341,6 +54447,7 @@ If Snap Shot was **fused**, you may activate abilities of bows you control an ad
       
     },],
     name: "Snap Shot",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE043"],
     sets: [Release.TalesOfAria],
@@ -53397,6 +54504,7 @@ If Snap Shot was **fused**, you may activate abilities of bows you control an ad
       
     },],
     name: "Blizzard Bolt",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LXI022","ELE044"],
     sets: [Release.LexiBlitzDeck,Release.TalesOfAria],
@@ -53447,6 +54555,7 @@ If Blizzard Bolt was **fused**, whenever an attack deals damage to a hero this t
       
     },],
     name: "Blizzard Bolt",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE045"],
     sets: [Release.TalesOfAria],
@@ -53497,6 +54606,7 @@ If Blizzard Bolt was **fused**, whenever an attack deals damage to a hero this t
       
     },],
     name: "Blizzard Bolt",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE046"],
     sets: [Release.TalesOfAria],
@@ -53553,6 +54663,7 @@ If Blizzard Bolt was **fused**, whenever an attack deals damage to a hero this t
       
     },],
     name: "Buzz Bolt",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LXI007","ELE047"],
     sets: [Release.LexiBlitzDeck,Release.TalesOfAria],
@@ -53609,6 +54720,7 @@ If Buzz Bolt was **fused**, whenever an attack hits a hero this turn, it deals 1
       
     },],
     name: "Buzz Bolt",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LXI011","ELE048"],
     sets: [Release.LexiBlitzDeck,Release.TalesOfAria],
@@ -53659,6 +54771,7 @@ If Buzz Bolt was **fused**, whenever an attack hits a hero this turn, it deals 1
       
     },],
     name: "Buzz Bolt",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE049"],
     sets: [Release.TalesOfAria],
@@ -53709,6 +54822,7 @@ If Buzz Bolt was **fused**, whenever an attack hits a hero this turn, it deals 1
       
     },],
     name: "Chilling Icevein",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE050"],
     sets: [Release.TalesOfAria],
@@ -53765,6 +54879,7 @@ If Chilling Icevein was **fused**, whenever an attack deals damage to a hero thi
       
     },],
     name: "Chilling Icevein",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LXI023","ELE051"],
     sets: [Release.LexiBlitzDeck,Release.TalesOfAria],
@@ -53815,6 +54930,7 @@ If Chilling Icevein was **fused**, whenever an attack deals damage to a hero thi
       
     },],
     name: "Chilling Icevein",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE052"],
     sets: [Release.TalesOfAria],
@@ -53871,6 +54987,7 @@ If Chilling Icevein was **fused**, whenever an attack deals damage to a hero thi
       
     },],
     name: "Dazzling Crescendo",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LXI008","ELE053"],
     sets: [Release.LexiBlitzDeck,Release.TalesOfAria],
@@ -53921,6 +55038,7 @@ If Dazzling Crescendo was **fused**, it gains **go again.**`,
       
     },],
     name: "Dazzling Crescendo",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE054"],
     sets: [Release.TalesOfAria],
@@ -53971,6 +55089,7 @@ If Dazzling Crescendo was **fused**, it gains **go again.**`,
       
     },],
     name: "Dazzling Crescendo",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE055"],
     sets: [Release.TalesOfAria],
@@ -54021,6 +55140,7 @@ If Dazzling Crescendo was **fused**, it gains **go again.**`,
       
     },],
     name: "Flake Out",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE056"],
     sets: [Release.TalesOfAria],
@@ -54071,6 +55191,7 @@ If Flake Out was **fused**, it gains **dominate.** *(The defending hero can't de
       
     },],
     name: "Flake Out",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE057"],
     sets: [Release.TalesOfAria],
@@ -54121,6 +55242,7 @@ If Flake Out was **fused**, it gains **dominate.** *(The defending hero can't de
       
     },],
     name: "Flake Out",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE058"],
     sets: [Release.TalesOfAria],
@@ -54177,6 +55299,7 @@ If Flake Out was **fused**, it gains **dominate.** *(The defending hero can't de
       
     },],
     name: "Frazzle",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LXI009","ELE059"],
     sets: [Release.LexiBlitzDeck,Release.TalesOfAria],
@@ -54233,6 +55356,7 @@ If Frazzle was **fused**, whenever an attack would deal damage this turn, instea
       
     },],
     name: "Frazzle",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LXI012","ELE060"],
     sets: [Release.LexiBlitzDeck,Release.TalesOfAria],
@@ -54283,6 +55407,7 @@ If Frazzle was **fused**, whenever an attack would deal damage this turn, instea
       
     },],
     name: "Frazzle",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE061"],
     sets: [Release.TalesOfAria],
@@ -54322,13 +55447,13 @@ If Frazzle was **fused**, whenever an attack would deal damage this turn, instea
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER044",
-      name: "HER044.width-450",
+      name: "HER044",
       set: Release.Promos,
       
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER050",
-      name: "HER050.width-450",
+      name: "HER050",
       set: Release.Promos,
       
     },{
@@ -54351,6 +55476,7 @@ If Frazzle was **fused**, whenever an attack would deal damage this turn, instea
       
     },],
     name: "Briar, Warden of Thorns",
+    rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER044","HER050","HER063","WIN015","XXX012","ELE062"],
     sets: [Release.Promos,Release.Promos,Release.TalesOfAria],
@@ -54373,7 +55499,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
     keywords: [Keyword.Essence],
     life: 40,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Blitz,Format.Commoner],
     
@@ -54390,13 +55516,13 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER047",
-      name: "HER047.width-450",
+      name: "HER047",
       set: Release.Promos,
       
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER064",
-      name: "HER064.width-450",
+      name: "HER064",
       set: Release.Promos,
       
     },{
@@ -54419,6 +55545,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
       
     },],
     name: "Briar",
+    rarities: [Rarity.Promo,Rarity.Rare,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER047","HER064","XXX011","BRI001","ELE063"],
     sets: [Release.Promos,Release.Promos,Release.BriarBlitzDeck,Release.TalesOfAria],
@@ -54441,7 +55568,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
     keywords: [Keyword.Essence],
     life: 20,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.ClassicConstructed],
     
@@ -54469,6 +55596,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
       
     },],
     name: "Blossoming Spellblade",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["ELE064"],
     sets: [Release.TalesOfAria],
@@ -54519,6 +55647,7 @@ When you attack with Blossoming Spellblade, if it was **fused**, deal 1 arcane d
       
     },],
     name: "Flicker Wisp",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["ELE065"],
     sets: [Release.TalesOfAria],
@@ -54571,6 +55700,7 @@ Deal 1 arcane damage to target hero.
       
     },],
     name: "Force of Nature",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["ELE066"],
     sets: [Release.TalesOfAria],
@@ -54631,6 +55761,7 @@ If Force of Nature was fused, your next attack this turn gains +1{p}.
       
     },],
     name: "Explosive Growth",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["BRI009","ELE067"],
     sets: [Release.BriarBlitzDeck,Release.TalesOfAria],
@@ -54680,6 +55811,7 @@ When you attack with Explosive Growth, deal 1 arcane damage to target hero.`,
       
     },],
     name: "Explosive Growth",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE068"],
     sets: [Release.TalesOfAria],
@@ -54729,6 +55861,7 @@ When you attack with Explosive Growth, deal 1 arcane damage to target hero.`,
       
     },],
     name: "Explosive Growth",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE069"],
     sets: [Release.TalesOfAria],
@@ -54784,6 +55917,7 @@ When you attack with Explosive Growth, deal 1 arcane damage to target hero.`,
       
     },],
     name: "Rites of Lightning",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["BRI027","ELE070"],
     sets: [Release.BriarBlitzDeck,Release.TalesOfAria],
@@ -54834,6 +55968,7 @@ If you have dealt arcane damage this turn, Rites of Lightning gains **go again.*
       
     },],
     name: "Rites of Lightning",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE071"],
     sets: [Release.TalesOfAria],
@@ -54884,6 +56019,7 @@ If you have dealt arcane damage this turn, Rites of Lightning gains **go again.*
       
     },],
     name: "Rites of Lightning",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE072"],
     sets: [Release.TalesOfAria],
@@ -54921,6 +56057,12 @@ If you have dealt arcane damage this turn, Rites of Lightning gains **go again.*
     classes: [Class.Runeblade],
     defaultImageName: "ELE073.width-450",
     images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "LGS079",
+      name: "LGS079",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
       edition: ReleaseEdition.First,
       identifier: "ELE073",
       name: "ELE073.width-450",
@@ -54934,10 +56076,11 @@ If you have dealt arcane damage this turn, Rites of Lightning gains **go again.*
       
     },],
     name: "Arcanic Shockwave",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS079","ELE073"],
     sets: [Release.Promos,Release.TalesOfAria],
-    specialImageName: "ELE073.width-450",
+    specialImageName: "LGS079",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Elemental Runeblade Action – Attack",
@@ -54982,6 +56125,7 @@ When you attack with Arcanic Shockwave, if it was **fused**, deal 1 arcane damag
       
     },],
     name: "Arcanic Shockwave",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE074"],
     sets: [Release.TalesOfAria],
@@ -55030,6 +56174,7 @@ When you attack with Arcanic Shockwave, if it was **fused**, deal 1 arcane damag
       
     },],
     name: "Arcanic Shockwave",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE075"],
     sets: [Release.TalesOfAria],
@@ -55078,6 +56223,7 @@ When you attack with Arcanic Shockwave, if it was **fused**, deal 1 arcane damag
       
     },],
     name: "Vela Flash",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE076"],
     sets: [Release.TalesOfAria],
@@ -55126,6 +56272,7 @@ If Vela Flash was **fused**, you may play your next 'non-attack' action card thi
       
     },],
     name: "Vela Flash",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE077"],
     sets: [Release.TalesOfAria],
@@ -55174,6 +56321,7 @@ If Vela Flash was **fused**, you may play your next 'non-attack' action card thi
       
     },],
     name: "Vela Flash",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE078"],
     sets: [Release.TalesOfAria],
@@ -55228,6 +56376,7 @@ If Vela Flash was **fused**, you may play your next 'non-attack' action card thi
       
     },],
     name: "Rites of Replenishment",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BRI010","ELE079"],
     sets: [Release.BriarBlitzDeck,Release.TalesOfAria],
@@ -55278,6 +56427,7 @@ When you attack with Rites of Replenishment, if it was **fused**, you may put an
       
     },],
     name: "Rites of Replenishment",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE080"],
     sets: [Release.TalesOfAria],
@@ -55334,6 +56484,7 @@ When you attack with Rites of Replenishment, if it was **fused**, you may put an
       
     },],
     name: "Rites of Replenishment",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BRI014","ELE081"],
     sets: [Release.BriarBlitzDeck,Release.TalesOfAria],
@@ -55373,7 +56524,7 @@ When you attack with Rites of Replenishment, if it was **fused**, you may put an
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB047",
-      name: "FAB047.width-450",
+      name: "FAB047",
       set: Release.Promos,
       
     },{
@@ -55396,6 +56547,7 @@ When you attack with Rites of Replenishment, if it was **fused**, you may put an
       
     },],
     name: "Stir the Wildwood",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB047","BRI011","ELE082"],
     sets: [Release.Promos,Release.BriarBlitzDeck,Release.TalesOfAria],
@@ -55452,6 +56604,7 @@ If Stir the Wildwood was **fused**, it gains +2{p}.`,
       
     },],
     name: "Stir the Wildwood",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BRI013","ELE083"],
     sets: [Release.BriarBlitzDeck,Release.TalesOfAria],
@@ -55502,6 +56655,7 @@ If Stir the Wildwood was **fused**, it gains +2{p}.`,
       
     },],
     name: "Stir the Wildwood",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE084"],
     sets: [Release.TalesOfAria],
@@ -55558,6 +56712,7 @@ If Stir the Wildwood was **fused**, it gains +2{p}.`,
       
     },],
     name: "Bramble Spark",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BRI012","ELE085"],
     sets: [Release.BriarBlitzDeck,Release.TalesOfAria],
@@ -55610,6 +56765,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
       
     },],
     name: "Bramble Spark",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE086"],
     sets: [Release.TalesOfAria],
@@ -55668,6 +56824,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
       
     },],
     name: "Bramble Spark",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BRI015","ELE087"],
     sets: [Release.BriarBlitzDeck,Release.TalesOfAria],
@@ -55720,6 +56877,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
       
     },],
     name: "Inspire Lightning",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE088"],
     sets: [Release.TalesOfAria],
@@ -55768,6 +56926,7 @@ If Inspire Lightning was **fused**, deal 3 arcane damage to target hero.`,
       
     },],
     name: "Inspire Lightning",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE089"],
     sets: [Release.TalesOfAria],
@@ -55816,6 +56975,7 @@ If Inspire Lightning was **fused**, deal 2 arcane damage to target hero.`,
       
     },],
     name: "Inspire Lightning",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE090"],
     sets: [Release.TalesOfAria],
@@ -55864,6 +57024,7 @@ If Inspire Lightning was **fused**, deal 1 arcane damage to target hero.`,
       
     },],
     name: "Fulminate",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["ELE091"],
     sets: [Release.TalesOfAria],
@@ -55885,7 +57046,7 @@ If Fulminate was **fused** with a Lightning card, attack action cards you contro
     
     
     
-    keywords: [Keyword.Fusion,Keyword.GoAgain,Keyword.GoAgain],
+    keywords: [Keyword.Fusion,Keyword.GoAgain],
     
     
     pitch: 2,
@@ -55916,6 +57077,7 @@ If Fulminate was **fused** with a Lightning card, attack action cards you contro
       
     },],
     name: "Flashfreeze",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["ELE092"],
     sets: [Release.TalesOfAria],
@@ -55968,6 +57130,7 @@ If Flashfreeze was **fused** with a Lightning card, attacks you control this tur
       
     },],
     name: "Exposed to the Elements",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["ELE093"],
     sets: [Release.TalesOfAria],
@@ -56024,6 +57187,7 @@ If Exposed to the Elements was **fused** with an Ice card, destroy an equipment 
       
     },],
     name: "Entwine Earth",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BRI016","ELE094"],
     sets: [Release.BriarBlitzDeck,Release.TalesOfAria],
@@ -56072,6 +57236,7 @@ If Entwine Earth was **fused**, it gains +2{p}.`,
       
     },],
     name: "Entwine Earth",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE095"],
     sets: [Release.TalesOfAria],
@@ -56120,6 +57285,7 @@ If Entwine Earth was **fused**, it gains +2{p}.`,
       
     },],
     name: "Entwine Earth",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE096"],
     sets: [Release.TalesOfAria],
@@ -56168,6 +57334,7 @@ If Entwine Earth was **fused**, it gains +2{p}.`,
       
     },],
     name: "Entwine Ice",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE097"],
     sets: [Release.TalesOfAria],
@@ -56216,6 +57383,7 @@ If Entwine Ice was **fused**, it gains **dominate.** *(The defending hero can't 
       
     },],
     name: "Entwine Ice",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE098"],
     sets: [Release.TalesOfAria],
@@ -56264,6 +57432,7 @@ If Entwine Ice was **fused**, it gains **dominate.** *(The defending hero can't 
       
     },],
     name: "Entwine Ice",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE099"],
     sets: [Release.TalesOfAria],
@@ -56324,6 +57493,7 @@ If Entwine Ice was **fused**, it gains **dominate.** *(The defending hero can't 
       
     },],
     name: "Entwine Lightning",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BRI028","LXI013","ELE100"],
     sets: [Release.BriarBlitzDeck,Release.LexiBlitzDeck,Release.TalesOfAria],
@@ -56372,6 +57542,7 @@ If Entwine Lightning was **fused**, it gains **go again.**`,
       
     },],
     name: "Entwine Lightning",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE101"],
     sets: [Release.TalesOfAria],
@@ -56420,6 +57591,7 @@ If Entwine Lightning was **fused**, it gains **go again.**`,
       
     },],
     name: "Entwine Lightning",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE102"],
     sets: [Release.TalesOfAria],
@@ -56457,7 +57629,7 @@ If Entwine Lightning was **fused**, it gains **go again.**`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS080",
-      name: "LGS080.width-450",
+      name: "LGS080",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -56474,10 +57646,11 @@ If Entwine Lightning was **fused**, it gains **go again.**`,
       
     },],
     name: "Invigorate",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS080","ELE103"],
     sets: [Release.Promos,Release.TalesOfAria],
-    specialImageName: "LGS080.width-450",
+    specialImageName: "LGS080",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Action",
@@ -56511,7 +57684,7 @@ If Entwine Lightning was **fused**, it gains **go again.**`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS081",
-      name: "LGS081.width-450",
+      name: "LGS081",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -56528,10 +57701,11 @@ If Entwine Lightning was **fused**, it gains **go again.**`,
       
     },],
     name: "Invigorate",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS081","ELE104"],
     sets: [Release.Promos,Release.TalesOfAria],
-    specialImageName: "LGS081.width-450",
+    specialImageName: "LGS081",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Action",
@@ -56565,7 +57739,7 @@ If Entwine Lightning was **fused**, it gains **go again.**`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS082",
-      name: "LGS082.width-450",
+      name: "LGS082",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -56582,10 +57756,11 @@ If Entwine Lightning was **fused**, it gains **go again.**`,
       
     },],
     name: "Invigorate",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS082","ELE105"],
     sets: [Release.Promos,Release.TalesOfAria],
-    specialImageName: "LGS082.width-450",
+    specialImageName: "LGS082",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Action",
@@ -56630,6 +57805,7 @@ If Entwine Lightning was **fused**, it gains **go again.**`,
       
     },],
     name: "Rejuvenate",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE106"],
     sets: [Release.TalesOfAria],
@@ -56678,6 +57854,7 @@ If you've **fused** this turn, you may play Rejuvenate as though it were an inst
       
     },],
     name: "Rejuvenate",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE107"],
     sets: [Release.TalesOfAria],
@@ -56726,6 +57903,7 @@ If you've **fused** this turn, you may play Rejuvenate as though it were an inst
       
     },],
     name: "Rejuvenate",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE108"],
     sets: [Release.TalesOfAria],
@@ -56762,6 +57940,12 @@ If you've **fused** this turn, you may play Rejuvenate as though it were an inst
     defaultImageName: "ELE109.width-450",
     images: [{
       edition: ReleaseEdition.Promo,
+      identifier: "FAB118",
+      name: "FAB118",
+      set: Release.Promos,
+      
+    },{
+      edition: ReleaseEdition.Promo,
       identifier: "BRI003",
       name: "BRI003.width-450",
       set: Release.BriarBlitzDeck,
@@ -56780,9 +57964,10 @@ If you've **fused** this turn, you may play Rejuvenate as though it were an inst
       
     },],
     name: "Embodiment of Earth",
+    rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["BRI003","ELE109"],
-    sets: [Release.BriarBlitzDeck,Release.TalesOfAria],
+    setIdentifiers: ["FAB118","BRI003","ELE109"],
+    sets: [Release.Promos,Release.BriarBlitzDeck,Release.TalesOfAria],
     specialImageName: "ELE109.width-450",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
@@ -56800,7 +57985,7 @@ At the beginning of your action phase, destroy Embodiment of Earth.`,
     
     
     
-    pitch: 0,
+    
     
     
     
@@ -56815,6 +58000,12 @@ At the beginning of your action phase, destroy Embodiment of Earth.`,
     classes: [Class.NotClassed],
     defaultImageName: "ELE110.width-450",
     images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "FAB119",
+      name: "FAB119",
+      set: Release.Promos,
+      
+    },{
       edition: ReleaseEdition.Promo,
       identifier: "BRI002",
       name: "BRI002.width-450",
@@ -56834,9 +58025,10 @@ At the beginning of your action phase, destroy Embodiment of Earth.`,
       
     },],
     name: "Embodiment of Lightning",
+    rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["BRI002","ELE110"],
-    sets: [Release.BriarBlitzDeck,Release.TalesOfAria],
+    setIdentifiers: ["FAB119","BRI002","ELE110"],
+    sets: [Release.Promos,Release.BriarBlitzDeck,Release.TalesOfAria],
     specialImageName: "ELE110.width-450",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
@@ -56852,7 +58044,7 @@ At the beginning of your action phase, destroy Embodiment of Earth.`,
     keywords: [Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     
     
     
@@ -56904,6 +58096,7 @@ At the beginning of your action phase, destroy Embodiment of Earth.`,
       
     },],
     name: "Frostbite",
+    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
     rarity: Rarity.Token,
     setIdentifiers: ["FAB081","LXI030","OLD031","ELE111","EVR197","UPR150"],
     sets: [Release.Promos,Release.LexiBlitzDeck,Release.OldhimBlitzDeck,Release.TalesOfAria,Release.Everfest,Release.Uprising],
@@ -56924,7 +58117,7 @@ At the beginning of your end phase or when you play a card or activate an abilit
     
     
     
-    pitch: 0,
+    
     
     
     
@@ -56952,6 +58145,7 @@ At the beginning of your end phase or when you play a card or activate an abilit
       
     },],
     name: "Pulse of Volthaven",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["ELE112"],
     sets: [Release.TalesOfAria],
@@ -57000,6 +58194,7 @@ Your next Ice, Lightning, or Elemental attack this turn gains +4{p}.`,
       
     },],
     name: "Pulse of Candlehold",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["ELE113"],
     sets: [Release.TalesOfAria],
@@ -57050,6 +58245,7 @@ Put up to 2 target Earth, Lightning and/or Elemental action cards from your grav
       
     },],
     name: "Pulse of Isenloft",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["ELE114"],
     sets: [Release.TalesOfAria],
@@ -57087,7 +58283,7 @@ Earth, Ice, and Elemental action cards have +1{d} while defending this turn.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB052",
-      name: "FAB052.width-450",
+      name: "FAB052",
       set: Release.Promos,
       
     },{
@@ -57104,6 +58300,7 @@ Earth, Ice, and Elemental action cards have +1{d} while defending this turn.`,
       
     },],
     name: "Crown of Seeds",
+    rarities: [Rarity.Promo,Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB052","ELE115"],
     sets: [Release.Promos,Release.TalesOfAria],
@@ -57122,7 +58319,7 @@ Earth, Ice, and Elemental action cards have +1{d} while defending this turn.`,
     
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Blitz,Format.Commoner],
     
@@ -57156,6 +58353,7 @@ Earth, Ice, and Elemental action cards have +1{d} while defending this turn.`,
       
     },],
     name: "Plume of Evergrowth",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BRI005","ELE116"],
     sets: [Release.BriarBlitzDeck,Release.TalesOfAria],
@@ -57174,7 +58372,7 @@ Earth, Ice, and Elemental action cards have +1{d} while defending this turn.`,
     
     
     
-    pitch: 0,
+    
     
     
     
@@ -57202,6 +58400,7 @@ Earth, Ice, and Elemental action cards have +1{d} while defending this turn.`,
       
     },],
     name: "Channel Mount Heroic",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["ELE117"],
     sets: [Release.TalesOfAria],
@@ -57252,6 +58451,7 @@ Attack action cards you control have +3{p}.
       
     },],
     name: "Tome of Harvests",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["ELE118"],
     sets: [Release.TalesOfAria],
@@ -57308,6 +58508,7 @@ Draw 3 cards.
       
     },],
     name: "Evergreen",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["BRI018","ELE119"],
     sets: [Release.BriarBlitzDeck,Release.TalesOfAria],
@@ -57354,6 +58555,7 @@ Draw 3 cards.
       
     },],
     name: "Evergreen",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE120"],
     sets: [Release.TalesOfAria],
@@ -57406,6 +58608,7 @@ Draw 3 cards.
       
     },],
     name: "Evergreen",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["OLD026","ELE121"],
     sets: [Release.OldhimBlitzDeck,Release.TalesOfAria],
@@ -57458,6 +58661,7 @@ Draw 3 cards.
       
     },],
     name: "Weave Earth",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["BRI021","ELE122"],
     sets: [Release.BriarBlitzDeck,Release.TalesOfAria],
@@ -57508,6 +58712,7 @@ If it's **fused**, instead it gains +4{p}.
       
     },],
     name: "Weave Earth",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE123"],
     sets: [Release.TalesOfAria],
@@ -57558,6 +58763,7 @@ If it's **fused**, instead it gains +3{p}.
       
     },],
     name: "Weave Earth",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE124"],
     sets: [Release.TalesOfAria],
@@ -57608,6 +58814,7 @@ If it's **fused**, instead it gains +2{p}.
       
     },],
     name: "Summerwood Shelter",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE125"],
     sets: [Release.TalesOfAria],
@@ -57660,6 +58867,7 @@ If it's **fused**, instead it gains +2{p}.
       
     },],
     name: "Summerwood Shelter",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["BRI023","ELE126"],
     sets: [Release.BriarBlitzDeck,Release.TalesOfAria],
@@ -57706,6 +58914,7 @@ If it's **fused**, instead it gains +2{p}.
       
     },],
     name: "Summerwood Shelter",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE127"],
     sets: [Release.TalesOfAria],
@@ -57752,6 +58961,7 @@ If it's **fused**, instead it gains +2{p}.
       
     },],
     name: "Autumn’s Touch",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE128"],
     sets: [Release.TalesOfAria],
@@ -57804,6 +59014,7 @@ If it's **fused**, instead it gains +2{p}.
       
     },],
     name: "Autumn’s Touch",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BRI022","ELE129"],
     sets: [Release.BriarBlitzDeck,Release.TalesOfAria],
@@ -57856,6 +59067,7 @@ If it's **fused**, instead it gains +2{p}.
       
     },],
     name: "Autumn’s Touch",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OLD024","ELE130"],
     sets: [Release.OldhimBlitzDeck,Release.TalesOfAria],
@@ -57902,6 +59114,7 @@ If it's **fused**, instead it gains +2{p}.
       
     },],
     name: "Break Ground",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE131"],
     sets: [Release.TalesOfAria],
@@ -57948,6 +59161,7 @@ If it's **fused**, instead it gains +2{p}.
       
     },],
     name: "Break Ground",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE132"],
     sets: [Release.TalesOfAria],
@@ -58000,6 +59214,7 @@ If it's **fused**, instead it gains +2{p}.
       
     },],
     name: "Break Ground",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OLD025","ELE133"],
     sets: [Release.OldhimBlitzDeck,Release.TalesOfAria],
@@ -58035,7 +59250,7 @@ If it's **fused**, instead it gains +2{p}.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS069",
-      name: "LGS069.width-450",
+      name: "LGS069",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -58058,10 +59273,11 @@ If it's **fused**, instead it gains +2{p}.
       
     },],
     name: "Burgeoning",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS069","BRI017","ELE134"],
     sets: [Release.Promos,Release.BriarBlitzDeck,Release.TalesOfAria],
-    specialImageName: "LGS069.width-450",
+    specialImageName: "LGS069",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Earth Action – Attack",
@@ -58093,7 +59309,7 @@ If it's **fused**, instead it gains +2{p}.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS070",
-      name: "LGS070.width-450",
+      name: "LGS070",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -58110,10 +59326,11 @@ If it's **fused**, instead it gains +2{p}.
       
     },],
     name: "Burgeoning",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS070","ELE135"],
     sets: [Release.Promos,Release.TalesOfAria],
-    specialImageName: "LGS070.width-450",
+    specialImageName: "LGS070",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Earth Action – Attack",
@@ -58145,7 +59362,7 @@ If it's **fused**, instead it gains +2{p}.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS071",
-      name: "LGS071.width-450",
+      name: "LGS071",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -58162,10 +59379,11 @@ If it's **fused**, instead it gains +2{p}.
       
     },],
     name: "Burgeoning",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS071","ELE136"],
     sets: [Release.Promos,Release.TalesOfAria],
-    specialImageName: "LGS071.width-450",
+    specialImageName: "LGS071",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Earth Action – Attack",
@@ -58214,6 +59432,7 @@ If it's **fused**, instead it gains +2{p}.
       
     },],
     name: "Earthlore Surge",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BRI019","ELE137"],
     sets: [Release.BriarBlitzDeck,Release.TalesOfAria],
@@ -58262,6 +59481,7 @@ If it's **fused**, instead it gains +2{p}.
       
     },],
     name: "Earthlore Surge",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE138"],
     sets: [Release.TalesOfAria],
@@ -58322,6 +59542,7 @@ If it's **fused**, instead it gains +2{p}.
       
     },],
     name: "Earthlore Surge",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BRI024","OLD027","ELE139"],
     sets: [Release.BriarBlitzDeck,Release.OldhimBlitzDeck,Release.TalesOfAria],
@@ -58376,6 +59597,7 @@ If it's **fused**, instead it gains +2{p}.
       
     },],
     name: "Sow Tomorrow",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BRI020","ELE140"],
     sets: [Release.BriarBlitzDeck,Release.TalesOfAria],
@@ -58426,6 +59648,7 @@ If Sow Tomorrow is played from arsenal, draw a card.
       
     },],
     name: "Sow Tomorrow",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE141"],
     sets: [Release.TalesOfAria],
@@ -58482,6 +59705,7 @@ If Sow Tomorrow is played from arsenal, draw a card.
       
     },],
     name: "Sow Tomorrow",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BRI025","ELE142"],
     sets: [Release.BriarBlitzDeck,Release.TalesOfAria],
@@ -58521,7 +59745,7 @@ If Sow Tomorrow is played from arsenal, draw a card.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS063",
-      name: "LGS063.width-450",
+      name: "LGS063",
       set: Release.Promos,
       
     },{
@@ -58544,6 +59768,7 @@ If Sow Tomorrow is played from arsenal, draw a card.
       
     },],
     name: "Amulet of Earth",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS063","BRI026","ELE143"],
     sets: [Release.Promos,Release.BriarBlitzDeck,Release.TalesOfAria],
@@ -58581,7 +59806,7 @@ If Sow Tomorrow is played from arsenal, draw a card.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB053",
-      name: "FAB053.width-450",
+      name: "FAB053",
       set: Release.Promos,
       
     },{
@@ -58598,6 +59823,7 @@ If Sow Tomorrow is played from arsenal, draw a card.
       
     },],
     name: "Heart of Ice",
+    rarities: [Rarity.Promo,Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB053","ELE144"],
     sets: [Release.Promos,Release.TalesOfAria],
@@ -58617,10 +59843,10 @@ If Sow Tomorrow is played from arsenal, draw a card.
     
     
     
-    keywords: [Keyword.ArcaneBarrier,Keyword.BladeBreak],
+    keywords: [Keyword.ArcaneBarrier,Keyword.BladeBreak,Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -58654,6 +59880,7 @@ If Sow Tomorrow is played from arsenal, draw a card.
       
     },],
     name: "Coat of Frost",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OLD005","ELE145"],
     sets: [Release.OldhimBlitzDeck,Release.TalesOfAria],
@@ -58669,10 +59896,10 @@ If Sow Tomorrow is played from arsenal, draw a card.
     
     
     
+    keywords: [Keyword.GoAgain],
     
     
     
-    pitch: 0,
     
     
     
@@ -58706,6 +59933,7 @@ If Sow Tomorrow is played from arsenal, draw a card.
       
     },],
     name: "Channel Lake Frigid",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["ELE146"],
     sets: [Release.TalesOfAria],
@@ -58756,6 +59984,7 @@ Cards and activated abilities cost opposing heroes an additional {r}.
       
     },],
     name: "Blizzard",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["ELE147"],
     sets: [Release.TalesOfAria],
@@ -58808,6 +60037,7 @@ Cards and activated abilities cost opposing heroes an additional {r}.
       
     },],
     name: "Frost Fang",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["OLD013","ELE148"],
     sets: [Release.OldhimBlitzDeck,Release.TalesOfAria],
@@ -58854,6 +60084,7 @@ Cards and activated abilities cost opposing heroes an additional {r}.
       
     },],
     name: "Frost Fang",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE149"],
     sets: [Release.TalesOfAria],
@@ -58900,6 +60131,7 @@ Cards and activated abilities cost opposing heroes an additional {r}.
       
     },],
     name: "Frost Fang",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE150"],
     sets: [Release.TalesOfAria],
@@ -58946,6 +60178,7 @@ Cards and activated abilities cost opposing heroes an additional {r}.
       
     },],
     name: "Ice Quake",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE151"],
     sets: [Release.TalesOfAria],
@@ -58996,6 +60229,7 @@ Whenever an attack hits a hero this turn, create a Frostbite token under their c
       
     },],
     name: "Ice Quake",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE152"],
     sets: [Release.TalesOfAria],
@@ -59046,6 +60280,7 @@ Whenever an attack hits a hero this turn, create a Frostbite token under their c
       
     },],
     name: "Ice Quake",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE153"],
     sets: [Release.TalesOfAria],
@@ -59102,6 +60337,7 @@ Whenever an attack hits a hero this turn, create a Frostbite token under their c
       
     },],
     name: "Weave Ice",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["OLD014","ELE154"],
     sets: [Release.OldhimBlitzDeck,Release.TalesOfAria],
@@ -59152,6 +60388,7 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
       
     },],
     name: "Weave Ice",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE155"],
     sets: [Release.TalesOfAria],
@@ -59202,6 +60439,7 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
       
     },],
     name: "Weave Ice",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE156"],
     sets: [Release.TalesOfAria],
@@ -59252,6 +60490,7 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
       
     },],
     name: "Icy Encounter",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE157"],
     sets: [Release.TalesOfAria],
@@ -59298,6 +60537,7 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
       
     },],
     name: "Icy Encounter",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE158"],
     sets: [Release.TalesOfAria],
@@ -59344,6 +60584,7 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
       
     },],
     name: "Icy Encounter",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE159"],
     sets: [Release.TalesOfAria],
@@ -59390,6 +60631,7 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
       
     },],
     name: "Winter’s Grasp",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE160"],
     sets: [Release.TalesOfAria],
@@ -59436,6 +60678,7 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
       
     },],
     name: "Winter’s Grasp",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE161"],
     sets: [Release.TalesOfAria],
@@ -59488,6 +60731,7 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
       
     },],
     name: "Winter’s Grasp",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OLD017","ELE162"],
     sets: [Release.OldhimBlitzDeck,Release.TalesOfAria],
@@ -59534,6 +60778,7 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
       
     },],
     name: "Chill to the Bone",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE163"],
     sets: [Release.TalesOfAria],
@@ -59588,6 +60833,7 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
       
     },],
     name: "Chill to the Bone",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LXI024","ELE164"],
     sets: [Release.LexiBlitzDeck,Release.TalesOfAria],
@@ -59636,6 +60882,7 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
       
     },],
     name: "Chill to the Bone",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE165"],
     sets: [Release.TalesOfAria],
@@ -59673,7 +60920,7 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS072",
-      name: "LGS072.width-450",
+      name: "LGS072",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -59690,10 +60937,11 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
       
     },],
     name: "Polar Blast",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS072","ELE166"],
     sets: [Release.Promos,Release.TalesOfAria],
-    specialImageName: "LGS072.width-450",
+    specialImageName: "LGS072",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Action",
@@ -59729,7 +60977,7 @@ If Polar Blast is played from arsenal, draw a card.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS073",
-      name: "LGS073.width-450",
+      name: "LGS073",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -59752,10 +61000,11 @@ If Polar Blast is played from arsenal, draw a card.
       
     },],
     name: "Polar Blast",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS073","OLD015","ELE167"],
     sets: [Release.Promos,Release.OldhimBlitzDeck,Release.TalesOfAria],
-    specialImageName: "LGS073.width-450",
+    specialImageName: "LGS073",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Action",
@@ -59791,7 +61040,7 @@ If Polar Blast is played from arsenal, draw a card.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS074",
-      name: "LGS074.width-450",
+      name: "LGS074",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -59808,10 +61057,11 @@ If Polar Blast is played from arsenal, draw a card.
       
     },],
     name: "Polar Blast",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS074","ELE168"],
     sets: [Release.Promos,Release.TalesOfAria],
-    specialImageName: "LGS074.width-450",
+    specialImageName: "LGS074",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Action",
@@ -59858,6 +61108,7 @@ If Polar Blast is played from arsenal, draw a card.
       
     },],
     name: "Winter’s Bite",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE169"],
     sets: [Release.TalesOfAria],
@@ -59912,6 +61163,7 @@ If Polar Blast is played from arsenal, draw a card.
       
     },],
     name: "Winter’s Bite",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OLD016","ELE170"],
     sets: [Release.OldhimBlitzDeck,Release.TalesOfAria],
@@ -59966,6 +61218,7 @@ If Polar Blast is played from arsenal, draw a card.
       
     },],
     name: "Winter’s Bite",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LXI025","ELE171"],
     sets: [Release.LexiBlitzDeck,Release.TalesOfAria],
@@ -60003,7 +61256,7 @@ If Polar Blast is played from arsenal, draw a card.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS064",
-      name: "LGS064.width-450",
+      name: "LGS064",
       set: Release.Promos,
       
     },{
@@ -60026,6 +61279,7 @@ If Polar Blast is played from arsenal, draw a card.
       
     },],
     name: "Amulet of Ice",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS064","OLD018","ELE172"],
     sets: [Release.Promos,Release.OldhimBlitzDeck,Release.TalesOfAria],
@@ -60063,7 +61317,7 @@ If Polar Blast is played from arsenal, draw a card.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB054",
-      name: "FAB054.width-450",
+      name: "FAB054",
       set: Release.Promos,
       
     },{
@@ -60080,6 +61334,7 @@ If Polar Blast is played from arsenal, draw a card.
       
     },],
     name: "Shock Charmers",
+    rarities: [Rarity.Promo,Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB054","ELE173"],
     sets: [Release.Promos,Release.TalesOfAria],
@@ -60100,7 +61355,7 @@ If Polar Blast is played from arsenal, draw a card.
     keywords: [Keyword.Spellvoid],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -60134,6 +61389,7 @@ If Polar Blast is played from arsenal, draw a card.
       
     },],
     name: "Mark of Lightning",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LXI005","ELE174"],
     sets: [Release.LexiBlitzDeck,Release.TalesOfAria],
@@ -60152,7 +61408,7 @@ If Polar Blast is played from arsenal, draw a card.
     
     
     
-    pitch: 0,
+    
     
     
     
@@ -60180,6 +61436,7 @@ If Polar Blast is played from arsenal, draw a card.
       
     },],
     name: "Channel Thunder Steppe",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["ELE175"],
     sets: [Release.TalesOfAria],
@@ -60199,7 +61456,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.Channel,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Channel],
     
     
     pitch: 2,
@@ -60230,6 +61487,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
       
     },],
     name: "Blink",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["ELE176"],
     sets: [Release.TalesOfAria],
@@ -60276,6 +61534,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
       
     },],
     name: "Flash",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE177"],
     sets: [Release.TalesOfAria],
@@ -60293,7 +61552,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 1,
@@ -60330,6 +61589,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
       
     },],
     name: "Flash",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["BRI031","ELE178"],
     sets: [Release.BriarBlitzDeck,Release.TalesOfAria],
@@ -60347,7 +61607,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 2,
@@ -60378,6 +61638,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
       
     },],
     name: "Flash",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE179"],
     sets: [Release.TalesOfAria],
@@ -60395,7 +61656,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 3,
@@ -60415,7 +61676,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS075",
-      name: "LGS075.width-450",
+      name: "LGS075",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -60438,10 +61699,11 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
       
     },],
     name: "Weave Lightning",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS075","LXI017","ELE180"],
     sets: [Release.Promos,Release.LexiBlitzDeck,Release.TalesOfAria],
-    specialImageName: "LGS075.width-450",
+    specialImageName: "LGS075",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Lightning Action",
@@ -60455,7 +61717,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 1,
@@ -60475,7 +61737,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS076",
-      name: "LGS076.width-450",
+      name: "LGS076",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -60492,10 +61754,11 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
       
     },],
     name: "Weave Lightning",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS076","ELE181"],
     sets: [Release.Promos,Release.TalesOfAria],
-    specialImageName: "LGS076.width-450",
+    specialImageName: "LGS076",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Lightning Action",
@@ -60509,7 +61772,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 2,
@@ -60529,7 +61792,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS077",
-      name: "LGS077.width-450",
+      name: "LGS077",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -60546,10 +61809,11 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
       
     },],
     name: "Weave Lightning",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS077","ELE182"],
     sets: [Release.Promos,Release.TalesOfAria],
-    specialImageName: "LGS077.width-450",
+    specialImageName: "LGS077",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Lightning Action",
@@ -60563,7 +61827,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 3,
@@ -60600,6 +61864,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
       
     },],
     name: "Lightning Press",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LXI018","ELE183"],
     sets: [Release.LexiBlitzDeck,Release.TalesOfAria],
@@ -60646,6 +61911,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
       
     },],
     name: "Lightning Press",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE184"],
     sets: [Release.TalesOfAria],
@@ -60692,6 +61958,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
       
     },],
     name: "Lightning Press",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE185"],
     sets: [Release.TalesOfAria],
@@ -60738,6 +62005,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
       
     },],
     name: "Ball Lightning",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE186"],
     sets: [Release.TalesOfAria],
@@ -60786,6 +62054,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
       
     },],
     name: "Ball Lightning",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE187"],
     sets: [Release.TalesOfAria],
@@ -60834,6 +62103,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
       
     },],
     name: "Ball Lightning",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE188"],
     sets: [Release.TalesOfAria],
@@ -60882,6 +62152,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
       
     },],
     name: "Lightning Surge",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE189"],
     sets: [Release.TalesOfAria],
@@ -60934,6 +62205,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
       
     },],
     name: "Lightning Surge",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BRI029","ELE190"],
     sets: [Release.BriarBlitzDeck,Release.TalesOfAria],
@@ -60980,6 +62252,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
       
     },],
     name: "Lightning Surge",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE191"],
     sets: [Release.TalesOfAria],
@@ -61032,6 +62305,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
       
     },],
     name: "Heaven’s Claws",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LXI014","ELE192"],
     sets: [Release.LexiBlitzDeck,Release.TalesOfAria],
@@ -61084,6 +62358,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
       
     },],
     name: "Heaven’s Claws",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LXI019","ELE193"],
     sets: [Release.LexiBlitzDeck,Release.TalesOfAria],
@@ -61130,6 +62405,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
       
     },],
     name: "Heaven’s Claws",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE194"],
     sets: [Release.TalesOfAria],
@@ -61182,6 +62458,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
       
     },],
     name: "Shock Striker",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LXI015","ELE195"],
     sets: [Release.LexiBlitzDeck,Release.TalesOfAria],
@@ -61228,6 +62505,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
       
     },],
     name: "Shock Striker",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE196"],
     sets: [Release.TalesOfAria],
@@ -61274,6 +62552,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
       
     },],
     name: "Shock Striker",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE197"],
     sets: [Release.TalesOfAria],
@@ -61326,6 +62605,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
       
     },],
     name: "Electrify",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LXI016","ELE198"],
     sets: [Release.LexiBlitzDeck,Release.TalesOfAria],
@@ -61382,6 +62662,7 @@ If Electrify is played from arsenal, draw a card.
       
     },],
     name: "Electrify",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BRI030","ELE199"],
     sets: [Release.BriarBlitzDeck,Release.TalesOfAria],
@@ -61421,7 +62702,7 @@ If Electrify is played from arsenal, draw a card.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB048",
-      name: "FAB048.width-450",
+      name: "FAB048",
       set: Release.Promos,
       
     },{
@@ -61444,6 +62725,7 @@ If Electrify is played from arsenal, draw a card.
       
     },],
     name: "Electrify",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB048","LXI020","ELE200"],
     sets: [Release.Promos,Release.LexiBlitzDeck,Release.TalesOfAria],
@@ -61483,7 +62765,7 @@ If Electrify is played from arsenal, draw a card.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS065",
-      name: "LGS065.width-450",
+      name: "LGS065",
       set: Release.Promos,
       
     },{
@@ -61506,6 +62788,7 @@ If Electrify is played from arsenal, draw a card.
       
     },],
     name: "Amulet of Lightning",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS065","LXI021","ELE201"],
     sets: [Release.Promos,Release.LexiBlitzDeck,Release.TalesOfAria],
@@ -61523,7 +62806,7 @@ If Electrify is played from arsenal, draw a card.
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 3,
@@ -61543,7 +62826,7 @@ If Electrify is played from arsenal, draw a card.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS066",
-      name: "LGS066.width-450",
+      name: "LGS066",
       set: Release.Promos,
       
     },{
@@ -61566,6 +62849,7 @@ If Electrify is played from arsenal, draw a card.
       
     },],
     name: "Titan’s Fist",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS066","OLD002","ELE202"],
     sets: [Release.Promos,Release.OldhimBlitzDeck,Release.TalesOfAria],
@@ -61586,7 +62870,7 @@ If there is a card with cost 3 or greater in your pitch zone, Titan’s Fist has
     
     
     
-    pitch: 0,
+    
     power: 3,
     
     
@@ -61603,7 +62887,7 @@ If there is a card with cost 3 or greater in your pitch zone, Titan’s Fist has
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB049",
-      name: "FAB049.width-450",
+      name: "FAB049",
       set: Release.Promos,
       
     },{
@@ -61620,6 +62904,7 @@ If there is a card with cost 3 or greater in your pitch zone, Titan’s Fist has
       
     },],
     name: "Rampart of the Ram’s Head",
+    rarities: [Rarity.Promo,Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB049","ELE203"],
     sets: [Release.Promos,Release.TalesOfAria],
@@ -61638,7 +62923,7 @@ If there is a card with cost 3 or greater in your pitch zone, Titan’s Fist has
     
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -61672,6 +62957,7 @@ If there is a card with cost 3 or greater in your pitch zone, Titan’s Fist has
       
     },],
     name: "Rotten Old Buckler",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OLD003","ELE204"],
     sets: [Release.OldhimBlitzDeck,Release.TalesOfAria],
@@ -61690,7 +62976,7 @@ If there is a card with cost 3 or greater in your pitch zone, Titan’s Fist has
     keywords: [Keyword.BladeBreak],
     
     
-    pitch: 0,
+    
     
     
     
@@ -61718,6 +63004,7 @@ If there is a card with cost 3 or greater in your pitch zone, Titan’s Fist has
       
     },],
     name: "Tear Asunder",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["ELE205"],
     sets: [Release.TalesOfAria],
@@ -61772,6 +63059,7 @@ If there is a card with cost 3 or greater in your pitch zone, Titan’s Fist has
       
     },],
     name: "Embolden",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["OLD030","ELE206"],
     sets: [Release.OldhimBlitzDeck,Release.TalesOfAria],
@@ -61822,6 +63110,7 @@ At the beginning of your action phase, destroy Embolden then the next Guardian a
       
     },],
     name: "Embolden",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE207"],
     sets: [Release.TalesOfAria],
@@ -61872,6 +63161,7 @@ At the beginning of your action phase, destroy Embolden then the next Guardian a
       
     },],
     name: "Embolden",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE208"],
     sets: [Release.TalesOfAria],
@@ -61928,6 +63218,7 @@ At the beginning of your action phase, destroy Embolden then the next Guardian a
       
     },],
     name: "Thump",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OLD028","ELE209"],
     sets: [Release.OldhimBlitzDeck,Release.TalesOfAria],
@@ -61974,6 +63265,7 @@ At the beginning of your action phase, destroy Embolden then the next Guardian a
       
     },],
     name: "Thump",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE210"],
     sets: [Release.TalesOfAria],
@@ -62026,6 +63318,7 @@ At the beginning of your action phase, destroy Embolden then the next Guardian a
       
     },],
     name: "Thump",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OLD029","ELE211"],
     sets: [Release.OldhimBlitzDeck,Release.TalesOfAria],
@@ -62061,7 +63354,7 @@ At the beginning of your action phase, destroy Embolden then the next Guardian a
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB050",
-      name: "FAB050.width-450",
+      name: "FAB050",
       set: Release.Promos,
       
     },{
@@ -62078,6 +63371,7 @@ At the beginning of your action phase, destroy Embolden then the next Guardian a
       
     },],
     name: "New Horizon",
+    rarities: [Rarity.Promo,Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB050","ELE213"],
     sets: [Release.Promos,Release.TalesOfAria],
@@ -62100,7 +63394,7 @@ If New Horizon is destroyed, destroy all cards in your arsenal.
     keywords: [Keyword.BladeBreak],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -62134,6 +63428,7 @@ If New Horizon is destroyed, destroy all cards in your arsenal.
       
     },],
     name: "Honing Hood",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LXI003","ELE214"],
     sets: [Release.LexiBlitzDeck,Release.TalesOfAria],
@@ -62152,7 +63447,7 @@ If New Horizon is destroyed, destroy all cards in your arsenal.
     
     
     
-    pitch: 0,
+    
     
     
     
@@ -62180,6 +63475,7 @@ If New Horizon is destroyed, destroy all cards in your arsenal.
       
     },],
     name: "Seek and Destroy",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["ELE215"],
     sets: [Release.TalesOfAria],
@@ -62234,6 +63530,7 @@ If New Horizon is destroyed, destroy all cards in your arsenal.
       
     },],
     name: "Bolt’n’ Shot",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LXI026","ELE216"],
     sets: [Release.LexiBlitzDeck,Release.TalesOfAria],
@@ -62282,6 +63579,7 @@ If Bolt’n’ Shot's {p} is greater than its base {p}, it has **go again** and 
       
     },],
     name: "Bolt’n’ Shot",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE217"],
     sets: [Release.TalesOfAria],
@@ -62330,6 +63628,7 @@ If Bolt’n’ Shot's {p} is greater than its base {p}, it has **go again** and 
       
     },],
     name: "Bolt’n’ Shot",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE218"],
     sets: [Release.TalesOfAria],
@@ -62384,6 +63683,7 @@ If Bolt’n’ Shot's {p} is greater than its base {p}, it has **go again** and 
       
     },],
     name: "Over Flex",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LXI027","ELE219"],
     sets: [Release.LexiBlitzDeck,Release.TalesOfAria],
@@ -62434,6 +63734,7 @@ If Bolt’n’ Shot's {p} is greater than its base {p}, it has **go again** and 
       
     },],
     name: "Over Flex",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE220"],
     sets: [Release.TalesOfAria],
@@ -62484,6 +63785,7 @@ If Bolt’n’ Shot's {p} is greater than its base {p}, it has **go again** and 
       
     },],
     name: "Over Flex",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE221"],
     sets: [Release.TalesOfAria],
@@ -62523,7 +63825,7 @@ If Bolt’n’ Shot's {p} is greater than its base {p}, it has **go again** and 
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS068",
-      name: "LGS068.width-450",
+      name: "LGS068",
       set: Release.Promos,
       
     },{
@@ -62546,6 +63848,7 @@ If Bolt’n’ Shot's {p} is greater than its base {p}, it has **go again** and 
       
     },],
     name: "Rosetta Thorn",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS068","BRI004","ELE222"],
     sets: [Release.Promos,Release.BriarBlitzDeck,Release.TalesOfAria],
@@ -62566,7 +63869,7 @@ Whenever you attack with Rosetta Thorn, if you've played an attack action card a
     
     
     
-    pitch: 0,
+    
     power: 2,
     
     
@@ -62594,6 +63897,7 @@ Whenever you attack with Rosetta Thorn, if you've played an attack action card a
       
     },],
     name: "Duskblade",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["ELE223"],
     sets: [Release.TalesOfAria],
@@ -62616,7 +63920,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
     
     
     
-    pitch: 0,
+    
     power: 2,
     restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
     
@@ -62633,7 +63937,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB051",
-      name: "FAB051.width-450",
+      name: "FAB051",
       set: Release.Promos,
       
     },{
@@ -62650,6 +63954,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
       
     },],
     name: "Spellbound Creepers",
+    rarities: [Rarity.Promo,Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB051","ELE224"],
     sets: [Release.Promos,Release.TalesOfAria],
@@ -62672,7 +63977,7 @@ At the beginning of your end phase, destroy Spellbound Creepers unless you have 
     keywords: [Keyword.BladeBreak],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -62706,6 +64011,7 @@ At the beginning of your end phase, destroy Spellbound Creepers unless you have 
       
     },],
     name: "Sutcliffe’s Suede Hides",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BRI008","ELE225"],
     sets: [Release.BriarBlitzDeck,Release.TalesOfAria],
@@ -62724,7 +64030,7 @@ At the beginning of your end phase, destroy Spellbound Creepers unless you have 
     keywords: [Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     
     
     
@@ -62752,6 +64058,7 @@ At the beginning of your end phase, destroy Spellbound Creepers unless you have 
       
     },],
     name: "Sting of Sorcery",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["ELE226"],
     sets: [Release.TalesOfAria],
@@ -62802,6 +64109,7 @@ At the beginning of your end phase, destroy Sting of Sorcery.`,
       
     },],
     name: "Sigil of Suffering",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE227"],
     sets: [Release.TalesOfAria],
@@ -62850,6 +64158,7 @@ If you have dealt arcane damage this turn, Sigil of Suffering gains +1{d}.`,
       
     },],
     name: "Sigil of Suffering",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE228"],
     sets: [Release.TalesOfAria],
@@ -62898,6 +64207,7 @@ If you have dealt arcane damage this turn, Sigil of Suffering gains +1{d}.`,
       
     },],
     name: "Sigil of Suffering",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE229"],
     sets: [Release.TalesOfAria],
@@ -62946,6 +64256,7 @@ If you have dealt arcane damage this turn, Sigil of Suffering gains +1{d}.`,
       
     },],
     name: "Singeing Steelblade",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE230"],
     sets: [Release.TalesOfAria],
@@ -62992,6 +64303,7 @@ If you have dealt arcane damage this turn, Sigil of Suffering gains +1{d}.`,
       
     },],
     name: "Singeing Steelblade",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE231"],
     sets: [Release.TalesOfAria],
@@ -63038,6 +64350,7 @@ If you have dealt arcane damage this turn, Sigil of Suffering gains +1{d}.`,
       
     },],
     name: "Singeing Steelblade",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE232"],
     sets: [Release.TalesOfAria],
@@ -63084,6 +64397,7 @@ If you have dealt arcane damage this turn, Sigil of Suffering gains +1{d}.`,
       
     },],
     name: "Ragamuffin’s Hat",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE233"],
     sets: [Release.TalesOfAria],
@@ -63102,7 +64416,7 @@ If you have dealt arcane damage this turn, Sigil of Suffering gains +1{d}.`,
     
     
     
-    pitch: 0,
+    
     
     
     
@@ -63142,6 +64456,7 @@ If you have dealt arcane damage this turn, Sigil of Suffering gains +1{d}.`,
       
     },],
     name: "Deep Blue",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DRO006","LXI004","ELE234"],
     sets: [Release.DromaiBlitzDeck,Release.LexiBlitzDeck,Release.TalesOfAria],
@@ -63157,10 +64472,10 @@ If you have dealt arcane damage this turn, Sigil of Suffering gains +1{d}.`,
     
     
     
+    keywords: [Keyword.GoAgain],
     
     
     
-    pitch: 0,
     
     
     
@@ -63188,6 +64503,7 @@ If you have dealt arcane damage this turn, Sigil of Suffering gains +1{d}.`,
       
     },],
     name: "Cracker Jax",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE235"],
     sets: [Release.TalesOfAria],
@@ -63203,10 +64519,10 @@ If you have dealt arcane damage this turn, Sigil of Suffering gains +1{d}.`,
     
     
     
+    keywords: [Keyword.GoAgain],
     
     
     
-    pitch: 0,
     
     
     
@@ -63234,6 +64550,7 @@ If you have dealt arcane damage this turn, Sigil of Suffering gains +1{d}.`,
       
     },],
     name: "Runaways",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE236"],
     sets: [Release.TalesOfAria],
@@ -63252,7 +64569,7 @@ If you have dealt arcane damage this turn, Sigil of Suffering gains +1{d}.`,
     
     
     
-    pitch: 0,
+    
     
     
     
@@ -63274,6 +64591,7 @@ If you have dealt arcane damage this turn, Sigil of Suffering gains +1{d}.`,
       
     },],
     name: "Grandeur of Valahai",
+    rarities: [Rarity.Fabled],
     rarity: Rarity.Fabled,
     setIdentifiers: ["EVR000"],
     sets: [Release.Everfest],
@@ -63316,6 +64634,7 @@ When you pitch Grandeur of Valahai, create a Seismic Surge token.`,
       
     },],
     name: "Skull Crushers",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR001"],
     sets: [Release.Everfest],
@@ -63338,7 +64657,7 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     keywords: [Keyword.Battleworn],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -63360,6 +64679,7 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
       
     },],
     name: "Swing Big",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR002"],
     sets: [Release.Everfest],
@@ -63400,6 +64720,7 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
       
     },],
     name: "Ready to Roll",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR003"],
     sets: [Release.Everfest],
@@ -63444,6 +64765,7 @@ If you would roll 1 or more dice this turn, instead roll that many dice plus 1 a
       
     },],
     name: "Rolling Thunder",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR004"],
     sets: [Release.Everfest],
@@ -63486,6 +64808,7 @@ If you would roll 1 or more dice this turn, instead roll that many dice plus 1 a
       
     },],
     name: "High Roller",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR005"],
     sets: [Release.Everfest],
@@ -63530,6 +64853,7 @@ If you have rolled a 4, 5, or 6 on a die this turn, instead **intimidate** twice
       
     },],
     name: "High Roller",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR006"],
     sets: [Release.Everfest],
@@ -63574,6 +64898,7 @@ If you have rolled a 5 or 6 on a die this turn, instead **intimidate** twice.
       
     },],
     name: "High Roller",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR007"],
     sets: [Release.Everfest],
@@ -63624,6 +64949,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
       
     },],
     name: "Bare Fangs",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["RVD011","EVR008"],
     sets: [Release.ClassicBattlesRhinarDorinthea,Release.Everfest],
@@ -63664,6 +64990,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
       
     },],
     name: "Bare Fangs",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR009"],
     sets: [Release.Everfest],
@@ -63704,6 +65031,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
       
     },],
     name: "Bare Fangs",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR010"],
     sets: [Release.Everfest],
@@ -63750,6 +65078,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
       
     },],
     name: "Wild Ride",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["RVD012","EVR011"],
     sets: [Release.ClassicBattlesRhinarDorinthea,Release.Everfest],
@@ -63790,6 +65119,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
       
     },],
     name: "Wild Ride",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR012"],
     sets: [Release.Everfest],
@@ -63830,6 +65160,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
       
     },],
     name: "Wild Ride",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR013"],
     sets: [Release.Everfest],
@@ -63870,6 +65201,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
       
     },],
     name: "Bad Beats",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR014"],
     sets: [Release.Everfest],
@@ -63912,6 +65244,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
       
     },],
     name: "Bad Beats",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR015"],
     sets: [Release.Everfest],
@@ -63954,6 +65287,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
       
     },],
     name: "Bad Beats",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR016"],
     sets: [Release.Everfest],
@@ -64002,6 +65336,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
       
     },],
     name: "Bravo, Star of the Show",
+    rarities: [Rarity.Promo,Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["WIN016","EVR017"],
     sets: [Release.Everfest],
@@ -64022,7 +65357,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
     keywords: [Keyword.Essence,Keyword.Dominate,Keyword.GoAgain],
     life: 40,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
     
@@ -64039,7 +65374,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB078",
-      name: "FAB078.width-450",
+      name: "FAB078",
       set: Release.Promos,
       
     },{
@@ -64050,6 +65385,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
       
     },],
     name: "Stalagmite, Bastion of Isenloft",
+    rarities: [Rarity.Promo,Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB078","EVR018"],
     sets: [Release.Promos,Release.Everfest],
@@ -64068,7 +65404,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
     keywords: [Keyword.Temper],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -64085,7 +65421,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER051",
-      name: "HER051.width-450",
+      name: "HER051",
       set: Release.Promos,
       
     },{
@@ -64096,6 +65432,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
       
     },],
     name: "Valda Brightaxe",
+    rarities: [Rarity.Promo,Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["HER051","EVR019"],
     sets: [Release.Promos,Release.Everfest],
@@ -64116,7 +65453,7 @@ At the start of your turn, if you control 3 or more Seismic Surge tokens, cards 
     keywords: [Keyword.Dominate],
     life: 21,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
     
@@ -64133,7 +65470,7 @@ At the start of your turn, if you control 3 or more Seismic Surge tokens, cards 
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB076",
-      name: "FAB076.width-450",
+      name: "FAB076",
       set: Release.Promos,
       
     },{
@@ -64144,6 +65481,7 @@ At the start of your turn, if you control 3 or more Seismic Surge tokens, cards 
       
     },],
     name: "Earthlore Bounty",
+    rarities: [Rarity.Promo,Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["FAB076","EVR020"],
     sets: [Release.Promos,Release.Everfest],
@@ -64164,7 +65502,7 @@ At the start of your turn, if you control 3 or more Seismic Surge tokens, cards 
     keywords: [Keyword.Temper],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -64192,6 +65530,7 @@ At the start of your turn, if you control 3 or more Seismic Surge tokens, cards 
       treatment: Treatment.EA,
     },],
     name: "Pulverize",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR021"],
     sets: [Release.Everfest],
@@ -64234,6 +65573,7 @@ If Pulverize hits a hero, their first attack during their next turn has -4{p}.`,
       
     },],
     name: "Imposing Visage",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR022"],
     sets: [Release.Everfest],
@@ -64276,6 +65616,7 @@ If Pulverize hits a hero, their first attack during their next turn has -4{p}.`,
       
     },],
     name: "Nerves of Steel",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR023"],
     sets: [Release.Everfest],
@@ -64326,6 +65667,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
       treatment: Treatment.EA,
     },],
     name: "Thunder Quake",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR024"],
     sets: [Release.Everfest],
@@ -64372,6 +65714,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
       treatment: Treatment.EA,
     },],
     name: "Thunder Quake",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR025"],
     sets: [Release.Everfest],
@@ -64418,6 +65761,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
       treatment: Treatment.EA,
     },],
     name: "Thunder Quake",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR026"],
     sets: [Release.Everfest],
@@ -64453,7 +65797,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS087",
-      name: "LGS087.width-450",
+      name: "LGS087",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -64464,10 +65808,11 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
       
     },],
     name: "Macho Grande",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS087","EVR027"],
     sets: [Release.Promos,Release.Everfest],
-    specialImageName: "LGS087.width-450",
+    specialImageName: "LGS087",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Guardian Action – Attack",
@@ -64499,7 +65844,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS088",
-      name: "LGS088.width-450",
+      name: "LGS088",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -64510,10 +65855,11 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
       
     },],
     name: "Macho Grande",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS088","EVR028"],
     sets: [Release.Promos,Release.Everfest],
-    specialImageName: "LGS088.width-450",
+    specialImageName: "LGS088",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Guardian Action – Attack",
@@ -64545,7 +65891,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS089",
-      name: "LGS089.width-450",
+      name: "LGS089",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -64556,10 +65902,11 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
       
     },],
     name: "Macho Grande",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS089","EVR029"],
     sets: [Release.Promos,Release.Everfest],
-    specialImageName: "LGS089.width-450",
+    specialImageName: "LGS089",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Guardian Action – Attack",
@@ -64596,6 +65943,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
       
     },],
     name: "Seismic Stir",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR030"],
     sets: [Release.Everfest],
@@ -64638,6 +65986,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
       
     },],
     name: "Seismic Stir",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR031"],
     sets: [Release.Everfest],
@@ -64680,6 +66029,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
       
     },],
     name: "Seismic Stir",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR032"],
     sets: [Release.Everfest],
@@ -64722,6 +66072,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
       
     },],
     name: "Steadfast",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR033"],
     sets: [Release.Everfest],
@@ -64762,6 +66113,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
       
     },],
     name: "Steadfast",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR034"],
     sets: [Release.Everfest],
@@ -64802,6 +66154,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
       
     },],
     name: "Steadfast",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR035"],
     sets: [Release.Everfest],
@@ -64842,6 +66195,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
       
     },],
     name: "Mask of the Pouncing Lynx",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR037"],
     sets: [Release.Everfest],
@@ -64862,7 +66216,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
     keywords: [Keyword.BladeBreak],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Blitz,Format.Commoner],
     
@@ -64884,6 +66238,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
       
     },],
     name: "Break Tide",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR038"],
     sets: [Release.Everfest],
@@ -64924,6 +66279,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
       
     },],
     name: "Spring Tidings",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR039"],
     sets: [Release.Everfest],
@@ -64974,6 +66330,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
       treatment: Treatment.EA,
     },],
     name: "Winds of Eternity",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR040"],
     sets: [Release.Everfest],
@@ -65020,6 +66377,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
       treatment: Treatment.EA,
     },],
     name: "Hundred Winds",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR041"],
     sets: [Release.Everfest],
@@ -65068,6 +66426,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
       treatment: Treatment.EA,
     },],
     name: "Hundred Winds",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR042"],
     sets: [Release.Everfest],
@@ -65116,6 +66475,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
       treatment: Treatment.EA,
     },],
     name: "Hundred Winds",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR043"],
     sets: [Release.Everfest],
@@ -65158,6 +66518,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
       
     },],
     name: "Ride the Tailwind",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR044"],
     sets: [Release.Everfest],
@@ -65175,7 +66536,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 1,
@@ -65200,6 +66561,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
       
     },],
     name: "Ride the Tailwind",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR045"],
     sets: [Release.Everfest],
@@ -65217,7 +66579,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 2,
@@ -65242,6 +66604,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
       
     },],
     name: "Ride the Tailwind",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR046"],
     sets: [Release.Everfest],
@@ -65259,7 +66622,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 3,
@@ -65284,6 +66647,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
       
     },],
     name: "Twin Twisters",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR047"],
     sets: [Release.Everfest],
@@ -65329,6 +66693,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
       
     },],
     name: "Twin Twisters",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR048"],
     sets: [Release.Everfest],
@@ -65374,6 +66739,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
       
     },],
     name: "Twin Twisters",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR049"],
     sets: [Release.Everfest],
@@ -65419,6 +66785,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
       
     },],
     name: "Wax On",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR050"],
     sets: [Release.Everfest],
@@ -65459,6 +66826,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
       
     },],
     name: "Wax On",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR051"],
     sets: [Release.Everfest],
@@ -65499,6 +66867,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
       
     },],
     name: "Wax On",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR052"],
     sets: [Release.Everfest],
@@ -65539,6 +66908,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
       
     },],
     name: "Helm of Sharp Eye",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR053"],
     sets: [Release.Everfest],
@@ -65559,7 +66929,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
     keywords: [Keyword.Battleworn],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -65581,6 +66951,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
       
     },],
     name: "Shatter",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR054"],
     sets: [Release.Everfest],
@@ -65621,6 +66992,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
       
     },],
     name: "Blood on Her Hands",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR055"],
     sets: [Release.Everfest],
@@ -65667,6 +67039,7 @@ As an additional cost to play Blood on Her Hands, destroy any number of Copper y
       
     },],
     name: "Oath of Steel",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR056"],
     sets: [Release.Everfest],
@@ -65717,6 +67090,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
       treatment: Treatment.EA,
     },],
     name: "Slice and Dice",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR057"],
     sets: [Release.Everfest],
@@ -65774,6 +67148,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
       treatment: Treatment.EA,
     },],
     name: "Slice and Dice",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DVR018","EVR058"],
     sets: [Release.ClassicBattlesRhinarDorinthea,Release.Everfest],
@@ -65825,6 +67200,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
       treatment: Treatment.EA,
     },],
     name: "Slice and Dice",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR059"],
     sets: [Release.Everfest],
@@ -65870,6 +67246,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
       
     },],
     name: "Blade Runner",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR060"],
     sets: [Release.Everfest],
@@ -65912,6 +67289,7 @@ Your next weapon attack this turn gains +3{p}.`,
       
     },],
     name: "Blade Runner",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR061"],
     sets: [Release.Everfest],
@@ -65954,6 +67332,7 @@ Your next weapon attack this turn gains +2{p}.`,
       
     },],
     name: "Blade Runner",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR062"],
     sets: [Release.Everfest],
@@ -65991,7 +67370,7 @@ Your next weapon attack this turn gains +1{p}.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB057",
-      name: "FAB057.width-450",
+      name: "FAB057",
       set: Release.Promos,
       
     },{
@@ -66008,6 +67387,7 @@ Your next weapon attack this turn gains +1{p}.`,
       
     },],
     name: "In the Swing",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB057","DVR015","EVR063"],
     sets: [Release.Promos,Release.ClassicBattlesRhinarDorinthea,Release.Everfest],
@@ -66050,6 +67430,7 @@ Target weapon attack gains +3{p}.`,
       
     },],
     name: "In the Swing",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR064"],
     sets: [Release.Everfest],
@@ -66092,6 +67473,7 @@ Target weapon attack gains +2{p}.`,
       
     },],
     name: "In the Swing",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR065"],
     sets: [Release.Everfest],
@@ -66134,6 +67516,7 @@ Target weapon attack gains +1{p}.`,
       
     },],
     name: "Outland Skirmish",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR066"],
     sets: [Release.Everfest],
@@ -66178,6 +67561,7 @@ The next time a weapon hits this turn, create a Copper token.
       
     },],
     name: "Outland Skirmish",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR067"],
     sets: [Release.Everfest],
@@ -66222,6 +67606,7 @@ The next time a weapon hits this turn, create a Copper token.
       
     },],
     name: "Outland Skirmish",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR068"],
     sets: [Release.Everfest],
@@ -66266,6 +67651,7 @@ The next time a weapon hits this turn, create a Copper token.
       
     },],
     name: "Dissolution Sphere",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR069"],
     sets: [Release.Everfest],
@@ -66310,6 +67696,7 @@ Whenever your hero would be dealt exactly 1 damage, prevent it.`,
       
     },],
     name: "Micro-processor",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR070"],
     sets: [Release.Everfest],
@@ -66333,7 +67720,7 @@ The first time you activate Micro-processor each turn, gain 1 action point.`,
     
     
     
-    keywords: [Keyword.Specialization],
+    keywords: [Keyword.Specialization,Keyword.Opt],
     
     
     pitch: 3,
@@ -66358,6 +67745,7 @@ The first time you activate Micro-processor each turn, gain 1 action point.`,
       
     },],
     name: "Signal Jammer",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR071"],
     sets: [Release.Everfest],
@@ -66402,6 +67790,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
       
     },],
     name: "Teklo Pounder",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR072"],
     sets: [Release.Everfest],
@@ -66444,6 +67833,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
       
     },],
     name: "T-Bone",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR073"],
     sets: [Release.Everfest],
@@ -66486,6 +67876,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
       
     },],
     name: "T-Bone",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR074"],
     sets: [Release.Everfest],
@@ -66528,6 +67919,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
       
     },],
     name: "T-Bone",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR075"],
     sets: [Release.Everfest],
@@ -66570,6 +67962,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
       
     },],
     name: "Payload",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR076"],
     sets: [Release.Everfest],
@@ -66610,6 +68003,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
       
     },],
     name: "Payload",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR077"],
     sets: [Release.Everfest],
@@ -66650,6 +68044,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
       
     },],
     name: "Payload",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR078"],
     sets: [Release.Everfest],
@@ -66690,6 +68085,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
       
     },],
     name: "Zoom In",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR079"],
     sets: [Release.Everfest],
@@ -66732,6 +68128,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
       
     },],
     name: "Zoom In",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR080"],
     sets: [Release.Everfest],
@@ -66774,6 +68171,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
       
     },],
     name: "Zoom In",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR081"],
     sets: [Release.Everfest],
@@ -66816,6 +68214,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
       
     },],
     name: "Rotary Ram",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR082"],
     sets: [Release.Everfest],
@@ -66860,6 +68259,7 @@ If you have **boosted** this turn, put Rotary Ram on the bottom of your deck.
       
     },],
     name: "Rotary Ram",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR083"],
     sets: [Release.Everfest],
@@ -66904,6 +68304,7 @@ If you have **boosted** this turn, put Rotary Ram on the bottom of your deck.
       
     },],
     name: "Rotary Ram",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR084"],
     sets: [Release.Everfest],
@@ -66943,7 +68344,7 @@ If you have **boosted** this turn, put Rotary Ram on the bottom of your deck.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER053",
-      name: "HER053.width-450",
+      name: "HER053",
       set: Release.Promos,
       
     },{
@@ -66954,6 +68355,7 @@ If you have **boosted** this turn, put Rotary Ram on the bottom of your deck.
       
     },],
     name: "Genis Wotchuneed",
+    rarities: [Rarity.Promo,Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["HER053","EVR085"],
     sets: [Release.Promos,Release.Everfest],
@@ -66969,10 +68371,10 @@ If you have **boosted** this turn, put Rotary Ram on the bottom of your deck.
     hero: Hero.GenisWotchuneed,
     intellect: 4,
     
-    
+    keywords: [Keyword.GoAgain],
     life: 20,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
     
@@ -66989,7 +68391,7 @@ If you have **boosted** this turn, put Rotary Ram on the bottom of your deck.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB077",
-      name: "FAB077.width-450",
+      name: "FAB077",
       set: Release.Promos,
       
     },{
@@ -67000,6 +68402,7 @@ If you have **boosted** this turn, put Rotary Ram on the bottom of your deck.
       
     },],
     name: "Silver Palms",
+    rarities: [Rarity.Promo,Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB077","EVR086"],
     sets: [Release.Promos,Release.Everfest],
@@ -67020,7 +68423,7 @@ If you have **boosted** this turn, put Rotary Ram on the bottom of your deck.
     keywords: [Keyword.BladeBreak],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -67042,6 +68445,7 @@ If you have **boosted** this turn, put Rotary Ram on the bottom of your deck.
       
     },],
     name: "Dreadbore",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR087"],
     sets: [Release.Everfest],
@@ -67059,10 +68463,10 @@ Arrows you control have "Defense reactions can't be played from hand this chain 
     
     
     
+    keywords: [Keyword.GoAgain],
     
     
     
-    pitch: 0,
     
     restrictedFormats: [Format.Commoner],
     
@@ -67084,6 +68488,7 @@ Arrows you control have "Defense reactions can't be played from hand this chain 
       
     },],
     name: "Battering Bolt",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR088"],
     sets: [Release.Everfest],
@@ -67126,6 +68531,7 @@ If Battering Bolt hits a hero, they reveal their hand and discard all cards othe
       
     },],
     name: "Tri-shot",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR089"],
     sets: [Release.Everfest],
@@ -67168,6 +68574,7 @@ If Battering Bolt hits a hero, they reveal their hand and discard all cards othe
       
     },],
     name: "Rain Razors",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR090"],
     sets: [Release.Everfest],
@@ -67203,7 +68610,7 @@ If Battering Bolt hits a hero, they reveal their hand and discard all cards othe
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS096",
-      name: "LGS096.width-450",
+      name: "LGS096",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -67214,10 +68621,11 @@ If Battering Bolt hits a hero, they reveal their hand and discard all cards othe
       
     },],
     name: "Release the Tension",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS096","EVR091"],
     sets: [Release.Promos,Release.Everfest],
-    specialImageName: "LGS096.width-450",
+    specialImageName: "LGS096",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action",
@@ -67251,7 +68659,7 @@ If Battering Bolt hits a hero, they reveal their hand and discard all cards othe
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS097",
-      name: "LGS097.width-450",
+      name: "LGS097",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -67262,10 +68670,11 @@ If Battering Bolt hits a hero, they reveal their hand and discard all cards othe
       
     },],
     name: "Release the Tension",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS097","EVR092"],
     sets: [Release.Promos,Release.Everfest],
-    specialImageName: "LGS097.width-450",
+    specialImageName: "LGS097",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action",
@@ -67299,7 +68708,7 @@ If Battering Bolt hits a hero, they reveal their hand and discard all cards othe
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS098",
-      name: "LGS098.width-450",
+      name: "LGS098",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -67310,10 +68719,11 @@ If Battering Bolt hits a hero, they reveal their hand and discard all cards othe
       
     },],
     name: "Release the Tension",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS098","EVR093"],
     sets: [Release.Promos,Release.Everfest],
-    specialImageName: "LGS098.width-450",
+    specialImageName: "LGS098",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action",
@@ -67352,6 +68762,7 @@ If Battering Bolt hits a hero, they reveal their hand and discard all cards othe
       
     },],
     name: "Fatigue Shot",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR094"],
     sets: [Release.Everfest],
@@ -67394,6 +68805,7 @@ When Fatigue Shot hits a hero, the base {p} of the first attack action card they
       
     },],
     name: "Fatigue Shot",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR095"],
     sets: [Release.Everfest],
@@ -67436,6 +68848,7 @@ When Fatigue Shot hits a hero, the base {p} of the first attack action card they
       
     },],
     name: "Fatigue Shot",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR096"],
     sets: [Release.Everfest],
@@ -67478,6 +68891,7 @@ When Fatigue Shot hits a hero, the base {p} of the first attack action card they
       
     },],
     name: "Timidity Point",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR097"],
     sets: [Release.Everfest],
@@ -67520,6 +68934,7 @@ When Timidity Point hits a hero, attacks they control lose and can't gain **domi
       
     },],
     name: "Timidity Point",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR098"],
     sets: [Release.Everfest],
@@ -67562,6 +68977,7 @@ When Timidity Point hits a hero, attacks they control lose and can't gain **domi
       
     },],
     name: "Timidity Point",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR099"],
     sets: [Release.Everfest],
@@ -67604,6 +69020,7 @@ When Timidity Point hits a hero, attacks they control lose and can't gain **domi
       
     },],
     name: "Read the Glide Path",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR100"],
     sets: [Release.Everfest],
@@ -67648,6 +69065,7 @@ When Timidity Point hits a hero, attacks they control lose and can't gain **domi
       
     },],
     name: "Read the Glide Path",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR101"],
     sets: [Release.Everfest],
@@ -67692,6 +69110,7 @@ When Timidity Point hits a hero, attacks they control lose and can't gain **domi
       
     },],
     name: "Read the Glide Path",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR102"],
     sets: [Release.Everfest],
@@ -67736,6 +69155,7 @@ When Timidity Point hits a hero, attacks they control lose and can't gain **domi
       
     },],
     name: "Vexing Quillhand",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR103"],
     sets: [Release.Everfest],
@@ -67753,10 +69173,10 @@ When Timidity Point hits a hero, attacks they control lose and can't gain **domi
     
     
     
-    keywords: [Keyword.ArcaneBarrier],
+    keywords: [Keyword.ArcaneBarrier,Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -67778,6 +69198,7 @@ When Timidity Point hits a hero, attacks they control lose and can't gain **domi
       
     },],
     name: "Runic Reclamation",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR104"],
     sets: [Release.Everfest],
@@ -67818,6 +69239,7 @@ When Timidity Point hits a hero, attacks they control lose and can't gain **domi
       
     },],
     name: "Swarming Gloomveil",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR105"],
     sets: [Release.Everfest],
@@ -67858,6 +69280,7 @@ When Timidity Point hits a hero, attacks they control lose and can't gain **domi
       
     },],
     name: "Revel in Runeblood",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR106"],
     sets: [Release.Everfest],
@@ -67908,6 +69331,7 @@ At the beginning of your end phase, destroy all Runechants you control.
       
     },],
     name: "Runeblood Incantation",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR107"],
     sets: [Release.Everfest],
@@ -67958,6 +69382,7 @@ At the beginning of your action phase, remove a verse counter from Runeblood Inc
       
     },],
     name: "Runeblood Incantation",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR108"],
     sets: [Release.Everfest],
@@ -68008,6 +69433,7 @@ At the beginning of your action phase, remove a verse counter from Runeblood Inc
       
     },],
     name: "Runeblood Incantation",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR109"],
     sets: [Release.Everfest],
@@ -68052,6 +69478,7 @@ At the beginning of your action phase, remove a verse counter from Runeblood Inc
       
     },],
     name: "Drowning Dire",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR110"],
     sets: [Release.Everfest],
@@ -68094,6 +69521,7 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
       
     },],
     name: "Drowning Dire",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR111"],
     sets: [Release.Everfest],
@@ -68136,6 +69564,7 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
       
     },],
     name: "Drowning Dire",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR112"],
     sets: [Release.Everfest],
@@ -68178,6 +69607,7 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
       
     },],
     name: "Reek of Corruption",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR113"],
     sets: [Release.Everfest],
@@ -68218,6 +69648,7 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
       
     },],
     name: "Reek of Corruption",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR114"],
     sets: [Release.Everfest],
@@ -68258,6 +69689,7 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
       
     },],
     name: "Reek of Corruption",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR115"],
     sets: [Release.Everfest],
@@ -68298,6 +69730,7 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
       
     },],
     name: "Shrill of Skullform",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR116"],
     sets: [Release.Everfest],
@@ -68338,6 +69771,7 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
       
     },],
     name: "Shrill of Skullform",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR117"],
     sets: [Release.Everfest],
@@ -68378,6 +69812,7 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
       
     },],
     name: "Shrill of Skullform",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR118"],
     sets: [Release.Everfest],
@@ -68413,7 +69848,7 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER052",
-      name: "HER052.width-450",
+      name: "HER052",
       set: Release.Promos,
       
     },{
@@ -68442,6 +69877,7 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
       treatment: Treatment.FA,
     },],
     name: "Iyslander",
+    rarities: [Rarity.Promo,Rarity.Majestic,Rarity.Token,Rarity.Marvel],
     rarity: Rarity.Token,
     setIdentifiers: ["HER052","EVR120","UPR103"],
     sets: [Release.Promos,Release.Everfest,Release.Uprising],
@@ -68464,7 +69900,7 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
     keywords: [Keyword.Essence],
     life: 18,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.ClassicConstructed],
     
@@ -68486,6 +69922,7 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
       
     },],
     name: "Kraken’s Aethervein",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR121"],
     sets: [Release.Everfest],
@@ -68504,7 +69941,7 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
     
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -68526,6 +69963,7 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
       
     },],
     name: "Sigil of Parapets",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR122"],
     sets: [Release.Everfest],
@@ -68572,6 +70010,7 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
       treatment: Treatment.EA,
     },],
     name: "Aether Wildfire",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR123"],
     sets: [Release.Everfest],
@@ -68614,6 +70053,7 @@ If Aether Wildfire is played during an opponents turn, until end of turn, action
       
     },],
     name: "Scour",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR124"],
     sets: [Release.Everfest],
@@ -68649,7 +70089,7 @@ If Aether Wildfire is played during an opponents turn, until end of turn, action
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS090",
-      name: "LGS090.width-450",
+      name: "LGS090",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -68660,10 +70100,11 @@ If Aether Wildfire is played during an opponents turn, until end of turn, action
       
     },],
     name: "Emeritus Scolding",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS090","EVR125"],
     sets: [Release.Promos,Release.Everfest],
-    specialImageName: "LGS090.width-450",
+    specialImageName: "LGS090",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
@@ -68695,7 +70136,7 @@ If Aether Wildfire is played during an opponents turn, until end of turn, action
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS091",
-      name: "LGS091.width-450",
+      name: "LGS091",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -68706,10 +70147,11 @@ If Aether Wildfire is played during an opponents turn, until end of turn, action
       
     },],
     name: "Emeritus Scolding",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS091","EVR126"],
     sets: [Release.Promos,Release.Everfest],
-    specialImageName: "LGS091.width-450",
+    specialImageName: "LGS091",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
@@ -68741,7 +70183,7 @@ If Aether Wildfire is played during an opponents turn, until end of turn, action
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS092",
-      name: "LGS092.width-450",
+      name: "LGS092",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -68752,10 +70194,11 @@ If Aether Wildfire is played during an opponents turn, until end of turn, action
       
     },],
     name: "Emeritus Scolding",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS092","EVR127"],
     sets: [Release.Promos,Release.Everfest],
-    specialImageName: "LGS092.width-450",
+    specialImageName: "LGS092",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
@@ -68792,6 +70235,7 @@ If Aether Wildfire is played during an opponents turn, until end of turn, action
       
     },],
     name: "Pry",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR128"],
     sets: [Release.Everfest],
@@ -68834,6 +70278,7 @@ You may choose a card revealed this way. If you do, that hero puts it on the bot
       
     },],
     name: "Pry",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR129"],
     sets: [Release.Everfest],
@@ -68876,6 +70321,7 @@ You may choose a card revealed this way. If you do, that hero puts it on the bot
       
     },],
     name: "Pry",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR130"],
     sets: [Release.Everfest],
@@ -68918,6 +70364,7 @@ You may choose a card revealed this way. If you do, that hero puts it on the bot
       
     },],
     name: "Pyroglyphic Protection",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR131"],
     sets: [Release.Everfest],
@@ -68960,6 +70407,7 @@ At the beginning of your action phase, destroy Pyroglyphic Protection.`,
       
     },],
     name: "Pyroglyphic Protection",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR132"],
     sets: [Release.Everfest],
@@ -69002,6 +70450,7 @@ At the beginning of your action phase, destroy Pyroglyphic Protection.`,
       
     },],
     name: "Pyroglyphic Protection",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR133"],
     sets: [Release.Everfest],
@@ -69044,6 +70493,7 @@ At the beginning of your action phase, destroy Pyroglyphic Protection.`,
       
     },],
     name: "Timekeeper’s Whim",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR134"],
     sets: [Release.Everfest],
@@ -69086,6 +70536,7 @@ If Timekeeper's Whim is played during an opponent's turn, put it on the bottom o
       
     },],
     name: "Timekeeper’s Whim",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR135"],
     sets: [Release.Everfest],
@@ -69128,6 +70579,7 @@ If Timekeeper's Whim is played during an opponent's turn, put it on the bottom o
       
     },],
     name: "Timekeeper’s Whim",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR136"],
     sets: [Release.Everfest],
@@ -69170,6 +70622,7 @@ If Timekeeper's Whim is played during an opponent's turn, put it on the bottom o
       
     },],
     name: "Crown of Reflection",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR137"],
     sets: [Release.Everfest],
@@ -69190,7 +70643,7 @@ If Timekeeper's Whim is played during an opponent's turn, put it on the bottom o
     keywords: [Keyword.ArcaneBarrier],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -69212,6 +70665,7 @@ If Timekeeper's Whim is played during an opponent's turn, put it on the bottom o
       
     },],
     name: "Fractal Replication",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR138"],
     sets: [Release.Everfest],
@@ -69256,6 +70710,7 @@ Fractal Replication's {d} is equal to the greatest base {d} among Illusionist at
       
     },],
     name: "Miraging Metamorph",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR139"],
     sets: [Release.Everfest],
@@ -69298,6 +70753,7 @@ When Miraging Metamorph is destroyed, create a token that's a copy of an aura yo
       
     },],
     name: "Shimmers of Silver",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR140"],
     sets: [Release.Everfest],
@@ -69335,7 +70791,7 @@ When Miraging Metamorph is destroyed, create a token that's a copy of an aura yo
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS093",
-      name: "LGS093.width-450",
+      name: "LGS093",
       set: Release.Promos,
       
     },{
@@ -69346,6 +70802,7 @@ When Miraging Metamorph is destroyed, create a token that's a copy of an aura yo
       
     },],
     name: "Haze Bending",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS093","EVR141"],
     sets: [Release.Promos,Release.Everfest],
@@ -69383,7 +70840,7 @@ When Miraging Metamorph is destroyed, create a token that's a copy of an aura yo
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS094",
-      name: "LGS094.width-450",
+      name: "LGS094",
       set: Release.Promos,
       
     },{
@@ -69394,6 +70851,7 @@ When Miraging Metamorph is destroyed, create a token that's a copy of an aura yo
       
     },],
     name: "Passing Mirage",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS094","EVR142"],
     sets: [Release.Promos,Release.Everfest],
@@ -69431,7 +70889,7 @@ When Miraging Metamorph is destroyed, create a token that's a copy of an aura yo
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS095",
-      name: "LGS095.width-450",
+      name: "LGS095",
       set: Release.Promos,
       
     },{
@@ -69442,6 +70900,7 @@ When Miraging Metamorph is destroyed, create a token that's a copy of an aura yo
       
     },],
     name: "Pierce Reality",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS095","EVR143"],
     sets: [Release.Promos,Release.Everfest],
@@ -69484,6 +70943,7 @@ When Miraging Metamorph is destroyed, create a token that's a copy of an aura yo
       
     },],
     name: "Coalescence Mirage",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR144"],
     sets: [Release.Everfest],
@@ -69526,6 +70986,7 @@ When Coalescence Mirage is destroyed, you may put an Illusionist aura card with 
       
     },],
     name: "Coalescence Mirage",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR145"],
     sets: [Release.Everfest],
@@ -69568,6 +71029,7 @@ When Coalescence Mirage is destroyed, you may put an Illusionist aura card with 
       
     },],
     name: "Coalescence Mirage",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR146"],
     sets: [Release.Everfest],
@@ -69610,6 +71072,7 @@ When Coalescence Mirage is destroyed, you may put an Illusionist aura card with 
       
     },],
     name: "Phantasmal Haze",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR147"],
     sets: [Release.Everfest],
@@ -69652,6 +71115,7 @@ When Phantasmal Haze is destroyed, create a Spectral Shield token.`,
       
     },],
     name: "Phantasmal Haze",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR148"],
     sets: [Release.Everfest],
@@ -69694,6 +71158,7 @@ When Phantasmal Haze is destroyed, create a Spectral Shield token.`,
       
     },],
     name: "Phantasmal Haze",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR149"],
     sets: [Release.Everfest],
@@ -69736,6 +71201,7 @@ When Phantasmal Haze is destroyed, create a Spectral Shield token.`,
       
     },],
     name: "Veiled Intentions",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR150"],
     sets: [Release.Everfest],
@@ -69778,6 +71244,7 @@ The next attack action card you play this turn is Illusionist in addition to its
       
     },],
     name: "Veiled Intentions",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR151"],
     sets: [Release.Everfest],
@@ -69820,6 +71287,7 @@ The next attack action card you play this turn is Illusionist in addition to its
       
     },],
     name: "Veiled Intentions",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR152"],
     sets: [Release.Everfest],
@@ -69862,6 +71330,7 @@ The next attack action card you play this turn is Illusionist in addition to its
       
     },],
     name: "Arcane Lantern",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR155"],
     sets: [Release.Everfest],
@@ -69880,7 +71349,7 @@ The next attack action card you play this turn is Illusionist in addition to its
     keywords: [Keyword.ArcaneBarrier],
     
     
-    pitch: 0,
+    
     
     
     
@@ -69902,6 +71371,7 @@ The next attack action card you play this turn is Illusionist in addition to its
       
     },],
     name: "Bingo",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR156"],
     sets: [Release.Everfest],
@@ -69942,6 +71412,7 @@ The next attack action card you play this turn is Illusionist in addition to its
       
     },],
     name: "Firebreathing",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR157"],
     sets: [Release.Everfest],
@@ -69982,6 +71453,7 @@ The next attack action card you play this turn is Illusionist in addition to its
       
     },],
     name: "Cash Out",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR158"],
     sets: [Release.Everfest],
@@ -70032,6 +71504,7 @@ Create a Silver token for each permanent destroyed this way.
       treatment: Treatment.EA,
     },],
     name: "Knick Knack Bric-a-brac",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR159"],
     sets: [Release.Everfest],
@@ -70074,6 +71547,7 @@ Search your deck for a card with Amulet, Potion, or Talisman in its name, put it
       
     },],
     name: "This Round’s on Me",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR160"],
     sets: [Release.Everfest],
@@ -70113,7 +71587,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS084",
-      name: "LGS084.width-450",
+      name: "LGS084",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -70124,10 +71598,11 @@ Until the start of your next turn, attacks that target you have -1{p}.
       
     },],
     name: "Life of the Party",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS084","EVR161"],
     sets: [Release.Promos,Release.Everfest],
-    specialImageName: "LGS084.width-450",
+    specialImageName: "LGS084",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Generic Action – Attack",
@@ -70163,7 +71638,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS085",
-      name: "LGS085.width-450",
+      name: "LGS085",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -70174,10 +71649,11 @@ Until the start of your next turn, attacks that target you have -1{p}.
       
     },],
     name: "Life of the Party",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS085","EVR162"],
     sets: [Release.Promos,Release.Everfest],
-    specialImageName: "LGS085.width-450",
+    specialImageName: "LGS085",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Generic Action – Attack",
@@ -70213,7 +71689,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS086",
-      name: "LGS086.width-450",
+      name: "LGS086",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -70224,10 +71700,11 @@ Until the start of your next turn, attacks that target you have -1{p}.
       
     },],
     name: "Life of the Party",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS086","EVR163"],
     sets: [Release.Promos,Release.Everfest],
-    specialImageName: "LGS086.width-450",
+    specialImageName: "LGS086",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Generic Action – Attack",
@@ -70274,6 +71751,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
       treatment: Treatment.EA,
     },],
     name: "High Striker",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR164"],
     sets: [Release.Everfest],
@@ -70322,6 +71800,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
       treatment: Treatment.EA,
     },],
     name: "High Striker",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR165"],
     sets: [Release.Everfest],
@@ -70370,6 +71849,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
       treatment: Treatment.EA,
     },],
     name: "High Striker",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR166"],
     sets: [Release.Everfest],
@@ -70418,6 +71898,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
       treatment: Treatment.EA,
     },],
     name: "Pick a Card, Any Card",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR167"],
     sets: [Release.Everfest],
@@ -70468,6 +71949,7 @@ Choose a random card from their hand and reveal it. If it's the named card, crea
       treatment: Treatment.EA,
     },],
     name: "Pick a Card, Any Card",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR168"],
     sets: [Release.Everfest],
@@ -70518,6 +72000,7 @@ Choose a random card from their hand and reveal it. If it's the named card, crea
       treatment: Treatment.EA,
     },],
     name: "Pick a Card, Any Card",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR169"],
     sets: [Release.Everfest],
@@ -70562,6 +72045,7 @@ Choose a random card from their hand and reveal it. If it's the named card, crea
       
     },],
     name: "Smashing Good Time",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR170"],
     sets: [Release.Everfest],
@@ -70606,6 +72090,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
       
     },],
     name: "Smashing Good Time",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR171"],
     sets: [Release.Everfest],
@@ -70650,6 +72135,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
       
     },],
     name: "Smashing Good Time",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR172"],
     sets: [Release.Everfest],
@@ -70689,7 +72175,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB058",
-      name: "FAB058.width-450",
+      name: "FAB058",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -70700,10 +72186,11 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
       
     },],
     name: "Even Bigger Than That!",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["FAB058","EVR173"],
     sets: [Release.Promos,Release.Everfest],
-    specialImageName: "FAB058.width-450",
+    specialImageName: "FAB058",
     subtypes: [],
     types: [Type.Instant],
     typeText: "Generic Instant",
@@ -70737,7 +72224,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB059",
-      name: "FAB059.width-450",
+      name: "FAB059",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -70748,10 +72235,11 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
       
     },],
     name: "Even Bigger Than That!",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["FAB059","EVR174"],
     sets: [Release.Promos,Release.Everfest],
-    specialImageName: "FAB059.width-450",
+    specialImageName: "FAB059",
     subtypes: [],
     types: [Type.Instant],
     typeText: "Generic Instant",
@@ -70785,7 +72273,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB060",
-      name: "FAB060.width-450",
+      name: "FAB060",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -70796,10 +72284,11 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
       
     },],
     name: "Even Bigger Than That!",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["FAB060","EVR175"],
     sets: [Release.Promos,Release.Everfest],
-    specialImageName: "FAB060.width-450",
+    specialImageName: "FAB060",
     subtypes: [],
     types: [Type.Instant],
     typeText: "Generic Instant",
@@ -70838,6 +72327,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
       
     },],
     name: "Amulet of Assertiveness",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR176"],
     sets: [Release.Everfest],
@@ -70880,6 +72370,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
       
     },],
     name: "Amulet of Echoes",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR177"],
     sets: [Release.Everfest],
@@ -70922,6 +72413,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
       
     },],
     name: "Amulet of Havencall",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR178"],
     sets: [Release.Everfest],
@@ -70964,6 +72456,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
       
     },],
     name: "Amulet of Ignition",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR179"],
     sets: [Release.Everfest],
@@ -71006,6 +72499,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
       
     },],
     name: "Amulet of Intervention",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR180"],
     sets: [Release.Everfest],
@@ -71048,6 +72542,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
       
     },],
     name: "Amulet of Oblation",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR181"],
     sets: [Release.Everfest],
@@ -71090,6 +72585,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
       
     },],
     name: "Clarity Potion",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR182"],
     sets: [Release.Everfest],
@@ -71105,7 +72601,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     
     
     
-    
+    keywords: [Keyword.Opt],
     
     
     pitch: 3,
@@ -71130,6 +72626,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
       
     },],
     name: "Healing Potion",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR183"],
     sets: [Release.Everfest],
@@ -71145,7 +72642,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 3,
@@ -71170,6 +72667,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
       
     },],
     name: "Potion of Seeing",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR184"],
     sets: [Release.Everfest],
@@ -71210,6 +72708,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
       
     },],
     name: "Potion of Deja Vu",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR185"],
     sets: [Release.Everfest],
@@ -71250,6 +72749,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
       
     },],
     name: "Potion of Ironhide",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR186"],
     sets: [Release.Everfest],
@@ -71290,6 +72790,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
       
     },],
     name: "Potion of Luck",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR187"],
     sets: [Release.Everfest],
@@ -71330,6 +72831,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
       
     },],
     name: "Talisman of Balance",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR188"],
     sets: [Release.Everfest],
@@ -71372,6 +72874,7 @@ At the beginning of your end phase, if you have less cards in arsenal than an op
       
     },],
     name: "Talisman of Cremation",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR189"],
     sets: [Release.Everfest],
@@ -71414,6 +72917,7 @@ When you play a card from your banished zone, destroy Talisman of Cremation and 
       
     },],
     name: "Talisman of Featherfoot",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR190"],
     sets: [Release.Everfest],
@@ -71431,7 +72935,7 @@ When an attack you control gains exactly +1{p} from an effect during the reactio
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 2,
@@ -71456,6 +72960,7 @@ When an attack you control gains exactly +1{p} from an effect during the reactio
       
     },],
     name: "Talisman of Recompense",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR191"],
     sets: [Release.Everfest],
@@ -71498,6 +73003,7 @@ Whenever you pitch a card, if you would gain exactly one {r}, instead destroy Ta
       
     },],
     name: "Talisman of Tithes",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR192"],
     sets: [Release.Everfest],
@@ -71540,6 +73046,7 @@ If an opponent would draw 1 or more cards during your action phase, instead dest
       
     },],
     name: "Talisman of Warfare",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR193"],
     sets: [Release.Everfest],
@@ -71577,7 +73084,7 @@ When a source you control deals exactly 2 damage to an opposing hero, destroy Ta
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB056",
-      name: "FAB056.width-450",
+      name: "FAB056",
       set: Release.Promos,
       
     },{
@@ -71586,8 +73093,15 @@ When a source you control deals exactly 2 damage to an opposing hero, destroy Ta
       name: "EVR195.width-450",
       set: Release.Everfest,
       
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN245",
+      name: "DYN245",
+      set: Release.Dynasty,
+      
     },],
     name: "Silver",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB056","EVR195","DYN245"],
     sets: [Release.Promos,Release.Everfest,Release.Dynasty],
@@ -71603,10 +73117,10 @@ When a source you control deals exactly 2 damage to an opposing hero, destroy Ta
     
     
     
+    keywords: [Keyword.GoAgain],
     
     
     
-    pitch: 0,
     
     
     
@@ -71628,6 +73142,7 @@ When a source you control deals exactly 2 damage to an opposing hero, destroy Ta
       
     },],
     name: "Dorinthea, Quicksilver Prodigy",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DVR001"],
     sets: [Release.ClassicBattlesRhinarDorinthea],
@@ -71646,7 +73161,7 @@ When a source you control deals exactly 2 damage to an opposing hero, destroy Ta
     
     life: 20,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
     
@@ -71668,6 +73183,7 @@ When a source you control deals exactly 2 damage to an opposing hero, destroy Ta
       
     },],
     name: "Dawnblade, Resplendent",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DVR002"],
     sets: [Release.ClassicBattlesRhinarDorinthea],
@@ -71688,7 +73204,7 @@ The second time you attack with Dawnblade each turn, it gains +1{p} until end of
     
     
     
-    pitch: 0,
+    
     power: 2,
     restrictedFormats: [Format.Commoner],
     
@@ -71716,6 +73232,7 @@ The second time you attack with Dawnblade each turn, it gains +1{p} until end of
       
     },],
     name: "Blossom of Spring",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS100","DVR004","RVD004"],
     sets: [Release.Promos,Release.ClassicBattlesRhinarDorinthea,Release.ClassicBattlesRhinarDorinthea],
@@ -71731,10 +73248,10 @@ The second time you attack with Dawnblade each turn, it gains +1{p} until end of
     
     
     
+    keywords: [Keyword.GoAgain],
     
     
     
-    pitch: 0,
     
     
     
@@ -71745,7 +73262,7 @@ The second time you attack with Dawnblade each turn, it gains +1{p} until end of
     
   },{
     artists: ["Federico Musetti"],
-    cardIdentifier: "hala-goldenheim",
+    cardIdentifier: "hala-goldenhelm",
     classes: [Class.Warrior],
     defaultImageName: "DVR007.width-450",
     images: [{
@@ -71755,7 +73272,8 @@ The second time you attack with Dawnblade each turn, it gains +1{p} until end of
       set: Release.ClassicBattlesRhinarDorinthea,
       
     },],
-    name: "Hala Goldenheim",
+    name: "Hala Goldenhelm",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DVR007"],
     sets: [Release.ClassicBattlesRhinarDorinthea],
@@ -71778,7 +73296,7 @@ While Hala is face up in arsenal, whenever a sword attack you control hits, it g
     keywords: [Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
     
@@ -71800,6 +73318,7 @@ While Hala is face up in arsenal, whenever a sword attack you control hits, it g
       
     },],
     name: "Glistening Steelblade",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DVR008"],
     sets: [Release.ClassicBattlesRhinarDorinthea],
@@ -71821,7 +73340,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
     
     
     
-    keywords: [Keyword.Specialization,Keyword.GoAgain,Keyword.GoAgain],
+    keywords: [Keyword.Specialization,Keyword.GoAgain],
     
     
     pitch: 2,
@@ -71846,6 +73365,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
       
     },],
     name: "En Garde",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DVR009"],
     sets: [Release.ClassicBattlesRhinarDorinthea],
@@ -71888,6 +73408,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
       
     },],
     name: "Run Through",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS102","DVR013"],
     sets: [Release.Promos,Release.ClassicBattlesRhinarDorinthea],
@@ -71930,6 +73451,7 @@ Your next sword attack this turn gains +2{p}.`,
       
     },],
     name: "Thrust",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DVR014"],
     sets: [Release.ClassicBattlesRhinarDorinthea],
@@ -71970,6 +73492,7 @@ Your next sword attack this turn gains +2{p}.`,
       
     },],
     name: "On a Knife Edge",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DVR019"],
     sets: [Release.ClassicBattlesRhinarDorinthea],
@@ -71987,7 +73510,7 @@ Your next sword attack this turn gains +2{p}.`,
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 2,
@@ -72012,6 +73535,7 @@ Your next sword attack this turn gains +2{p}.`,
       
     },],
     name: "Visit the Blacksmith",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DVR022"],
     sets: [Release.ClassicBattlesRhinarDorinthea],
@@ -72054,6 +73578,7 @@ Your next sword attack this turn gains +2{p}.`,
       
     },],
     name: "Blade Flash",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DVR023"],
     sets: [Release.ClassicBattlesRhinarDorinthea],
@@ -72094,6 +73619,7 @@ Your next sword attack this turn gains +2{p}.`,
       
     },],
     name: "Toughen Up",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DVR024"],
     sets: [Release.ClassicBattlesRhinarDorinthea],
@@ -72140,6 +73666,7 @@ Your next sword attack this turn gains +2{p}.`,
       
     },],
     name: "Titanium Bauble",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DVR027","RVD027"],
     sets: [Release.ClassicBattlesRhinarDorinthea,Release.ClassicBattlesRhinarDorinthea],
@@ -72180,6 +73707,7 @@ Your next sword attack this turn gains +2{p}.`,
       
     },],
     name: "Bone Basher",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["RVD002"],
     sets: [Release.ClassicBattlesRhinarDorinthea],
@@ -72198,7 +73726,7 @@ Your next sword attack this turn gains +2{p}.`,
     
     
     
-    pitch: 0,
+    
     power: 4,
     
     
@@ -72220,6 +73748,7 @@ Your next sword attack this turn gains +2{p}.`,
       
     },],
     name: "Bone Vizier",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["RVD003"],
     sets: [Release.ClassicBattlesRhinarDorinthea],
@@ -72240,7 +73769,7 @@ Your next sword attack this turn gains +2{p}.`,
     keywords: [Keyword.BladeBreak],
     
     
-    pitch: 0,
+    
     
     
     
@@ -72262,6 +73791,7 @@ Your next sword attack this turn gains +2{p}.`,
       
     },],
     name: "Chief Ruk’utan",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["RVD007"],
     sets: [Release.ClassicBattlesRhinarDorinthea],
@@ -72284,7 +73814,7 @@ While Ruk’utan is face up in arsenal, whenever you play a card with 6 or more 
     keywords: [Keyword.Intimidate],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
     
@@ -72306,6 +73836,7 @@ While Ruk’utan is face up in arsenal, whenever you play a card with 6 or more 
       
     },],
     name: "Beast Mode",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["RVD009"],
     sets: [Release.ClassicBattlesRhinarDorinthea],
@@ -72346,6 +73877,7 @@ While Ruk’utan is face up in arsenal, whenever you play a card with 6 or more 
       
     },],
     name: "Wrecking Ball",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS101","RVD013"],
     sets: [Release.Promos,Release.ClassicBattlesRhinarDorinthea],
@@ -72386,6 +73918,7 @@ While Ruk’utan is face up in arsenal, whenever you play a card with 6 or more 
       
     },],
     name: "Pack Call",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["RVD015"],
     sets: [Release.ClassicBattlesRhinarDorinthea],
@@ -72426,6 +73959,7 @@ While Ruk’utan is face up in arsenal, whenever you play a card with 6 or more 
       
     },],
     name: "Muscle Mutt",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["RVD018"],
     sets: [Release.ClassicBattlesRhinarDorinthea],
@@ -72466,6 +74000,7 @@ While Ruk’utan is face up in arsenal, whenever you play a card with 6 or more 
       
     },],
     name: "Clearing Bellow",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["RVD025"],
     sets: [Release.ClassicBattlesRhinarDorinthea],
@@ -72508,6 +74043,7 @@ While Ruk’utan is face up in arsenal, whenever you play a card with 6 or more 
       
     },],
     name: "Dodge",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["RVD026"],
     sets: [Release.ClassicBattlesRhinarDorinthea],
@@ -72548,6 +74084,7 @@ While Ruk’utan is face up in arsenal, whenever you play a card with 6 or more 
       
     },],
     name: "Blood of the Dracai",
+    rarities: [Rarity.Fabled],
     rarity: Rarity.Fabled,
     setIdentifiers: ["UPR000"],
     sets: [Release.Uprising],
@@ -72585,13 +74122,13 @@ When you pitch Blood of the Dracai, the next 3 Draconic cards you play this turn
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER059",
-      name: "HER059.width-450",
+      name: "HER059",
       set: Release.Promos,
       
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER066",
-      name: "HER066.width-450",
+      name: "HER066",
       set: Release.Promos,
       
     },{
@@ -72602,10 +74139,11 @@ When you pitch Blood of the Dracai, the next 3 Draconic cards you play this turn
       
     },],
     name: "Dromai, Ash Artist",
+    rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER059","HER066","WIN018","UPR001"],
     sets: [Release.Promos,Release.Uprising],
-    specialImageName: "HER059.width-450",
+    specialImageName: "HER059",
     subtypes: [],
     types: [Type.Hero],
     typeText: "Draconic Illusionist Hero",
@@ -72622,7 +74160,7 @@ If you’ve played a red card this turn, dragons you control have **go again** w
     keywords: [Keyword.GoAgain],
     life: 40,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Blitz,Format.Commoner],
     
@@ -72639,7 +74177,7 @@ If you’ve played a red card this turn, dragons you control have **go again** w
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER062",
-      name: "HER062.width-450",
+      name: "HER062",
       set: Release.Promos,
       
     },{
@@ -72656,10 +74194,11 @@ If you’ve played a red card this turn, dragons you control have **go again** w
       
     },],
     name: "Dromai",
+    rarities: [Rarity.Promo,Rarity.Rare,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER062","DRO001","UPR002"],
     sets: [Release.Promos,Release.DromaiBlitzDeck,Release.Uprising],
-    specialImageName: "HER062.width-450",
+    specialImageName: "HER062",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Draconic Illusionist Hero – Young",
@@ -72676,7 +74215,7 @@ If you’ve played a red card this turn, dragons you control have **go again** w
     keywords: [Keyword.GoAgain],
     life: 20,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.ClassicConstructed],
     
@@ -72693,7 +74232,7 @@ If you’ve played a red card this turn, dragons you control have **go again** w
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS107",
-      name: "LGS107.width-450",
+      name: "LGS107",
       set: Release.Promos,
       
     },{
@@ -72710,10 +74249,11 @@ If you’ve played a red card this turn, dragons you control have **go again** w
       
     },],
     name: "Storm of Sandikai",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS107","DRO004","UPR003"],
     sets: [Release.Promos,Release.DromaiBlitzDeck,Release.Uprising],
-    specialImageName: "LGS107.width-450",
+    specialImageName: "LGS107",
     subtypes: [Subtype.Scepter,Subtype.TwoHanded],
     types: [Type.Weapon],
     typeText: "Draconic Illusionist Weapon – Scepter (2H)",
@@ -72730,7 +74270,7 @@ If you’ve played a red card this turn, dragons you control have **go again** w
     
     
     
-    pitch: 0,
+    
     
     
     
@@ -72764,6 +74304,7 @@ If you’ve played a red card this turn, dragons you control have **go again** w
       
     },],
     name: "Silken Form",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DRO007","UPR004"],
     sets: [Release.DromaiBlitzDeck,Release.Uprising],
@@ -72781,10 +74322,10 @@ If you’ve played a red card this turn, dragons you control have **go again** w
     
     
     
-    keywords: [Keyword.Quell],
+    keywords: [Keyword.Quell,Keyword.Transform],
     
     
-    pitch: 0,
+    
     
     
     
@@ -72806,6 +74347,7 @@ If you’ve played a red card this turn, dragons you control have **go again** w
       
     },],
     name: "Burn Them All",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["UPR005"],
     sets: [Release.Uprising],
@@ -72856,6 +74398,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       treatment: Treatment.EA,
     },],
     name: "Invoke Dracona Optimai",
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["UPR006"],
     sets: [Release.Uprising],
@@ -72905,6 +74448,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       treatment: Treatment.FA,
     },],
     name: "Dracona Optimai",
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["UPR006"],
     sets: [Release.Uprising],
@@ -72923,7 +74467,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     
     life: 6,
     oppositeSideCardIdentifier: `invoke-dracona-optimai-red`,
-    pitch: 0,
+    
     power: 6,
     restrictedFormats: [Format.Commoner],
     
@@ -72951,6 +74495,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       treatment: Treatment.EA,
     },],
     name: "Invoke Tomeltai",
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["UPR007"],
     sets: [Release.Uprising],
@@ -72999,6 +74544,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       treatment: Treatment.FA,
     },],
     name: "Tomeltai",
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["UPR007"],
     sets: [Release.Uprising],
@@ -73017,7 +74563,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     
     life: 5,
     oppositeSideCardIdentifier: `invoke-tomeltai-red`,
-    pitch: 0,
+    
     power: 5,
     restrictedFormats: [Format.Commoner],
     
@@ -73045,6 +74591,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       treatment: Treatment.EA,
     },],
     name: "Invoke Dominia",
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["UPR008"],
     sets: [Release.Uprising],
@@ -73093,6 +74640,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       treatment: Treatment.FA,
     },],
     name: "Dominia",
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["UPR008"],
     sets: [Release.Uprising],
@@ -73111,7 +74659,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     
     life: 4,
     oppositeSideCardIdentifier: `invoke-dominia-red`,
-    pitch: 0,
+    
     power: 4,
     restrictedFormats: [Format.Commoner],
     
@@ -73139,6 +74687,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       treatment: Treatment.EA,
     },],
     name: "Invoke Azvolai",
+    rarities: [Rarity.Rare,Rarity.Marvel],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR009"],
     sets: [Release.Uprising],
@@ -73187,6 +74736,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       treatment: Treatment.FA,
     },],
     name: "Azvolai",
+    rarities: [Rarity.Rare,Rarity.Marvel],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR009"],
     sets: [Release.Uprising],
@@ -73205,7 +74755,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     
     life: 3,
     oppositeSideCardIdentifier: `invoke-azvolai-red`,
-    pitch: 0,
+    
     power: 2,
     restrictedFormats: [Format.Commoner],
     
@@ -73233,6 +74783,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       treatment: Treatment.EA,
     },],
     name: "Invoke Cromai",
+    rarities: [Rarity.Rare,Rarity.Marvel],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR010"],
     sets: [Release.Uprising],
@@ -73281,6 +74832,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       treatment: Treatment.FA,
     },],
     name: "Cromai",
+    rarities: [Rarity.Rare,Rarity.Marvel],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR010"],
     sets: [Release.Uprising],
@@ -73299,7 +74851,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     
     life: 2,
     oppositeSideCardIdentifier: `invoke-cromai-red`,
-    pitch: 0,
+    
     power: 3,
     restrictedFormats: [Format.Commoner],
     
@@ -73327,6 +74879,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       treatment: Treatment.EA,
     },],
     name: "Invoke Kyloria",
+    rarities: [Rarity.Rare,Rarity.Marvel],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR011"],
     sets: [Release.Uprising],
@@ -73375,6 +74928,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       treatment: Treatment.FA,
     },],
     name: "Kyloria",
+    rarities: [Rarity.Rare,Rarity.Marvel],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR011"],
     sets: [Release.Uprising],
@@ -73393,7 +74947,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     
     life: 2,
     oppositeSideCardIdentifier: `invoke-kyloria-red`,
-    pitch: 0,
+    
     power: 4,
     restrictedFormats: [Format.Commoner],
     
@@ -73421,6 +74975,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       treatment: Treatment.EA,
     },],
     name: "Invoke Miragai",
+    rarities: [Rarity.Rare,Rarity.Marvel],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR012"],
     sets: [Release.Uprising],
@@ -73469,6 +75024,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       treatment: Treatment.FA,
     },],
     name: "Miragai",
+    rarities: [Rarity.Rare,Rarity.Marvel],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR012"],
     sets: [Release.Uprising],
@@ -73487,7 +75043,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     
     life: 4,
     oppositeSideCardIdentifier: `invoke-miragai-red`,
-    pitch: 0,
+    
     power: 2,
     restrictedFormats: [Format.Commoner],
     
@@ -73515,6 +75071,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       treatment: Treatment.EA,
     },],
     name: "Invoke Nekria",
+    rarities: [Rarity.Rare,Rarity.Marvel],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR013"],
     sets: [Release.Uprising],
@@ -73561,6 +75118,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       treatment: Treatment.FA,
     },],
     name: "Nekria",
+    rarities: [Rarity.Rare,Rarity.Marvel],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR013"],
     sets: [Release.Uprising],
@@ -73579,7 +75137,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     
     life: 7,
     oppositeSideCardIdentifier: `invoke-nekria-red`,
-    pitch: 0,
+    
     power: 4,
     restrictedFormats: [Format.Commoner],
     
@@ -73607,6 +75165,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       treatment: Treatment.EA,
     },],
     name: "Invoke Ouvia",
+    rarities: [Rarity.Rare,Rarity.Marvel],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR014"],
     sets: [Release.Uprising],
@@ -73655,6 +75214,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       treatment: Treatment.FA,
     },],
     name: "Ouvia",
+    rarities: [Rarity.Rare,Rarity.Marvel],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR014"],
     sets: [Release.Uprising],
@@ -73673,7 +75233,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     keywords: [Keyword.Transform],
     life: 6,
     oppositeSideCardIdentifier: `invoke-ouvia-red`,
-    pitch: 0,
+    
     power: 1,
     restrictedFormats: [Format.Commoner],
     
@@ -73701,6 +75261,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       treatment: Treatment.EA,
     },],
     name: "Invoke Themai",
+    rarities: [Rarity.Rare,Rarity.Marvel],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR015"],
     sets: [Release.Uprising],
@@ -73749,6 +75310,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       treatment: Treatment.FA,
     },],
     name: "Themai",
+    rarities: [Rarity.Rare,Rarity.Marvel],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR015"],
     sets: [Release.Uprising],
@@ -73767,7 +75329,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     
     life: 4,
     oppositeSideCardIdentifier: `invoke-themai-red`,
-    pitch: 0,
+    
     power: 3,
     restrictedFormats: [Format.Commoner],
     
@@ -73795,6 +75357,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       treatment: Treatment.EA,
     },],
     name: "Invoke Vynserakai",
+    rarities: [Rarity.Rare,Rarity.Marvel],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR016"],
     sets: [Release.Uprising],
@@ -73843,6 +75406,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       treatment: Treatment.FA,
     },],
     name: "Vynserakai",
+    rarities: [Rarity.Rare,Rarity.Marvel],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR016"],
     sets: [Release.Uprising],
@@ -73861,7 +75425,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     
     life: 1,
     oppositeSideCardIdentifier: `invoke-vynserakai-red`,
-    pitch: 0,
+    
     power: 6,
     restrictedFormats: [Format.Commoner],
     
@@ -73889,6 +75453,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       treatment: Treatment.EA,
     },],
     name: "Invoke Yendurai",
+    rarities: [Rarity.Rare,Rarity.Marvel],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR017"],
     sets: [Release.Uprising],
@@ -73937,6 +75502,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       treatment: Treatment.FA,
     },],
     name: "Yendurai",
+    rarities: [Rarity.Rare,Rarity.Marvel],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR017"],
     sets: [Release.Uprising],
@@ -73957,7 +75523,7 @@ If Yendurai would be dealt damage, remove an endurance counter from him to preve
     
     life: 3,
     oppositeSideCardIdentifier: `invoke-yendurai-red`,
-    pitch: 0,
+    
     power: 3,
     restrictedFormats: [Format.Commoner],
     
@@ -73985,6 +75551,7 @@ If Yendurai would be dealt damage, remove an endurance counter from him to preve
       
     },],
     name: "Billowing Mirage",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DRO012","UPR018"],
     sets: [Release.DromaiBlitzDeck,Release.Uprising],
@@ -74027,6 +75594,7 @@ If Yendurai would be dealt damage, remove an endurance counter from him to preve
       
     },],
     name: "Billowing Mirage",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR019"],
     sets: [Release.Uprising],
@@ -74069,6 +75637,7 @@ If Yendurai would be dealt damage, remove an endurance counter from him to preve
       
     },],
     name: "Billowing Mirage",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR020"],
     sets: [Release.Uprising],
@@ -74117,6 +75686,7 @@ If Yendurai would be dealt damage, remove an endurance counter from him to preve
       
     },],
     name: "Dunebreaker Cenipai",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DRO015","UPR021"],
     sets: [Release.DromaiBlitzDeck,Release.Uprising],
@@ -74161,6 +75731,7 @@ When Dunebreaker Cenipai is destroyed, create an Ash token.
       
     },],
     name: "Dunebreaker Cenipai",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR022"],
     sets: [Release.Uprising],
@@ -74205,6 +75776,7 @@ When Dunebreaker Cenipai is destroyed, create an Ash token.
       
     },],
     name: "Dunebreaker Cenipai",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR023"],
     sets: [Release.Uprising],
@@ -74255,6 +75827,7 @@ When Dunebreaker Cenipai is destroyed, create an Ash token.
       
     },],
     name: "Dustup",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DRO014","UPR024"],
     sets: [Release.DromaiBlitzDeck,Release.Uprising],
@@ -74295,6 +75868,7 @@ When Dunebreaker Cenipai is destroyed, create an Ash token.
       
     },],
     name: "Dustup",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR025"],
     sets: [Release.Uprising],
@@ -74335,6 +75909,7 @@ When Dunebreaker Cenipai is destroyed, create an Ash token.
       
     },],
     name: "Dustup",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR026"],
     sets: [Release.Uprising],
@@ -74381,6 +75956,7 @@ When Dunebreaker Cenipai is destroyed, create an Ash token.
       
     },],
     name: "Embermaw Cenipai",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DRO016","UPR027"],
     sets: [Release.DromaiBlitzDeck,Release.Uprising],
@@ -74423,6 +75999,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
       
     },],
     name: "Embermaw Cenipai",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR028"],
     sets: [Release.Uprising],
@@ -74465,6 +76042,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
       
     },],
     name: "Embermaw Cenipai",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR029"],
     sets: [Release.Uprising],
@@ -74513,6 +76091,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
       
     },],
     name: "Sweeping Blow",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DRO017","UPR030"],
     sets: [Release.DromaiBlitzDeck,Release.Uprising],
@@ -74555,6 +76134,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
       
     },],
     name: "Sweeping Blow",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR031"],
     sets: [Release.Uprising],
@@ -74603,6 +76183,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
       
     },],
     name: "Sweeping Blow",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DRO018","UPR032"],
     sets: [Release.DromaiBlitzDeck,Release.Uprising],
@@ -74651,6 +76232,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
       
     },],
     name: "Rake the Embers",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DRO011","UPR033"],
     sets: [Release.DromaiBlitzDeck,Release.Uprising],
@@ -74693,6 +76275,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
       
     },],
     name: "Rake the Embers",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR034"],
     sets: [Release.Uprising],
@@ -74735,6 +76318,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
       
     },],
     name: "Rake the Embers",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR035"],
     sets: [Release.Uprising],
@@ -74783,6 +76367,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
       
     },],
     name: "Skittering Sands",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DRO013","UPR036"],
     sets: [Release.DromaiBlitzDeck,Release.Uprising],
@@ -74825,6 +76410,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
       
     },],
     name: "Skittering Sands",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR037"],
     sets: [Release.Uprising],
@@ -74867,6 +76453,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
       
     },],
     name: "Skittering Sands",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR038"],
     sets: [Release.Uprising],
@@ -74904,7 +76491,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB090",
-      name: "FAB090.width-450",
+      name: "FAB090",
       set: Release.Promos,
       treatment: Treatment.AA,
     },{
@@ -74915,10 +76502,11 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
       
     },],
     name: "Sand Cover",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB090","UPR039"],
     sets: [Release.Promos,Release.Uprising],
-    specialImageName: "FAB090.width-450",
+    specialImageName: "FAB090",
     subtypes: [],
     types: [Type.Instant],
     typeText: "Draconic Illusionist Instant",
@@ -74955,6 +76543,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
       
     },],
     name: "Sand Cover",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR040"],
     sets: [Release.Uprising],
@@ -74995,6 +76584,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
       
     },],
     name: "Sand Cover",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR041"],
     sets: [Release.Uprising],
@@ -75053,6 +76643,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
       treatment: Treatment.AA,
     },],
     name: "Aether Ashwing",
+    rarities: [Rarity.Token,Rarity.Common,Rarity.Marvel],
     rarity: Rarity.Token,
     setIdentifiers: ["DRO003","UPR042"],
     sets: [Release.DromaiBlitzDeck,Release.Uprising],
@@ -75071,7 +76662,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
     keywords: [Keyword.ArcaneBarrier],
     life: 1,
     
-    pitch: 0,
+    
     power: 1,
     
     
@@ -75111,6 +76702,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
       treatment: Treatment.AA,
     },],
     name: "Ash",
+    rarities: [Rarity.Token,Rarity.Common,Rarity.Marvel],
     rarity: Rarity.Token,
     setIdentifiers: ["DRO002","UPR043"],
     sets: [Release.DromaiBlitzDeck,Release.Uprising],
@@ -75129,7 +76721,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
     keywords: [Keyword.Material,Keyword.Phantasm],
     
     
-    pitch: 0,
+    
     
     
     
@@ -75146,13 +76738,13 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER058",
-      name: "HER058.width-450",
+      name: "HER058",
       set: Release.Promos,
       
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER065",
-      name: "HER065.width-450",
+      name: "HER065",
       set: Release.Promos,
       
     },{
@@ -75163,10 +76755,11 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
       
     },],
     name: "Fai, Rising Rebellion",
+    rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER058","HER065","WIN017","UPR044"],
     sets: [Release.Promos,Release.Uprising],
-    specialImageName: "HER058.width-450",
+    specialImageName: "HER058",
     subtypes: [],
     types: [Type.Hero],
     typeText: "Draconic Ninja Hero",
@@ -75183,7 +76776,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
     
     life: 40,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Blitz,Format.Commoner],
     
@@ -75200,7 +76793,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER061",
-      name: "HER061.width-450",
+      name: "HER061",
       set: Release.Promos,
       
     },{
@@ -75211,10 +76804,11 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
       
     },],
     name: "Fai",
+    rarities: [Rarity.Promo,Rarity.Rare,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER061","FAI001","UPR045"],
     sets: [Release.Promos,Release.FaiBlitzDeck,Release.Uprising],
-    specialImageName: "HER061.width-450",
+    specialImageName: "HER061",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Draconic Ninja Hero – Young",
@@ -75231,7 +76825,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
     
     life: 20,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.ClassicConstructed],
     
@@ -75248,7 +76842,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS105",
-      name: "LGS105.width-450",
+      name: "LGS105",
       set: Release.Promos,
       
     },{
@@ -75259,10 +76853,11 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
       
     },],
     name: "Searing Emberblade",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS105","FAI002","UPR046"],
     sets: [Release.Promos,Release.FaiBlitzDeck,Release.Uprising],
-    specialImageName: "LGS105.width-450",
+    specialImageName: "LGS105",
     subtypes: [Subtype.Sword,Subtype.TwoHanded],
     types: [Type.Weapon],
     typeText: "Draconic Ninja Weapon – Sword (2H)",
@@ -75276,10 +76871,10 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
     
     
     
+    keywords: [Keyword.GoAgain],
     
     
     
-    pitch: 0,
     power: 3,
     
     
@@ -75301,6 +76896,7 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
       
     },],
     name: "Heat Wave",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAI005","UPR047"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
@@ -75321,7 +76917,7 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
     keywords: [Keyword.Quell],
     
     
-    pitch: 0,
+    
     
     
     
@@ -75349,6 +76945,7 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
       treatment: Treatment.EA,
     },],
     name: "Phoenix Form",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["UPR048"],
     sets: [Release.Uprising],
@@ -75389,6 +76986,7 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
       
     },],
     name: "Spreading Flames",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["UPR049"],
     sets: [Release.Uprising],
@@ -75431,6 +77029,7 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
       
     },],
     name: "Combustion Point",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["UPR050"],
     sets: [Release.Uprising],
@@ -75473,6 +77072,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
       
     },],
     name: "Engulfing Flamewave",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR051"],
     sets: [Release.Uprising],
@@ -75515,6 +77115,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
       
     },],
     name: "Engulfing Flamewave",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR052"],
     sets: [Release.Uprising],
@@ -75557,6 +77158,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
       
     },],
     name: "Engulfing Flamewave",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR053"],
     sets: [Release.Uprising],
@@ -75599,6 +77201,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
       
     },],
     name: "Mounting Anger",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR054"],
     sets: [Release.Uprising],
@@ -75641,6 +77244,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
       
     },],
     name: "Mounting Anger",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR055"],
     sets: [Release.Uprising],
@@ -75683,6 +77287,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
       
     },],
     name: "Mounting Anger",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR056"],
     sets: [Release.Uprising],
@@ -75725,6 +77330,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
       
     },],
     name: "Rise from the Ashes",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["FAI009","UPR057"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
@@ -75769,6 +77375,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
       
     },],
     name: "Rise from the Ashes",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR058"],
     sets: [Release.Uprising],
@@ -75813,6 +77420,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
       
     },],
     name: "Rise from the Ashes",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR059"],
     sets: [Release.Uprising],
@@ -75857,6 +77465,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
       
     },],
     name: "Brand with Cinderclaw",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAI020","UPR060"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
@@ -75899,6 +77508,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
       
     },],
     name: "Brand with Cinderclaw",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR061"],
     sets: [Release.Uprising],
@@ -75941,6 +77551,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
       
     },],
     name: "Brand with Cinderclaw",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR062"],
     sets: [Release.Uprising],
@@ -75983,6 +77594,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
       
     },],
     name: "Cinderskin Devotion",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAI016","UPR063"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
@@ -76023,6 +77635,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
       
     },],
     name: "Cinderskin Devotion",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR064"],
     sets: [Release.Uprising],
@@ -76063,6 +77676,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
       
     },],
     name: "Cinderskin Devotion",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAI026","UPR065"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
@@ -76103,6 +77717,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
       
     },],
     name: "Dust Runner Outlaw",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAI018","UPR066"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
@@ -76143,6 +77758,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
       
     },],
     name: "Dust Runner Outlaw",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR067"],
     sets: [Release.Uprising],
@@ -76183,6 +77799,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
       
     },],
     name: "Dust Runner Outlaw",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAI024","UPR068"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
@@ -76223,6 +77840,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
       
     },],
     name: "Lava Vein Loyalty",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAI015","UPR069"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
@@ -76263,6 +77881,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
       
     },],
     name: "Lava Vein Loyalty",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR070"],
     sets: [Release.Uprising],
@@ -76303,6 +77922,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
       
     },],
     name: "Lava Vein Loyalty",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAI025","UPR071"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
@@ -76343,6 +77963,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
       
     },],
     name: "Rebellious Rush",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAI017","UPR072"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
@@ -76383,6 +78004,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
       
     },],
     name: "Rebellious Rush",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR073"],
     sets: [Release.Uprising],
@@ -76423,6 +78045,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
       
     },],
     name: "Rebellious Rush",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR074"],
     sets: [Release.Uprising],
@@ -76463,6 +78086,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
       
     },],
     name: "Rising Resentment",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR075"],
     sets: [Release.Uprising],
@@ -76505,6 +78129,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
       
     },],
     name: "Rising Resentment",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR076"],
     sets: [Release.Uprising],
@@ -76547,6 +78172,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
       
     },],
     name: "Rising Resentment",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR077"],
     sets: [Release.Uprising],
@@ -76589,6 +78215,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
       
     },],
     name: "Ronin Renegade",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAI019","UPR078"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
@@ -76629,6 +78256,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
       
     },],
     name: "Ronin Renegade",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR079"],
     sets: [Release.Uprising],
@@ -76669,6 +78297,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
       
     },],
     name: "Ronin Renegade",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAI023","UPR080"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
@@ -76709,6 +78338,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
       
     },],
     name: "Soaring Strike",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR081"],
     sets: [Release.Uprising],
@@ -76726,7 +78356,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 1,
@@ -76751,6 +78381,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
       
     },],
     name: "Soaring Strike",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR082"],
     sets: [Release.Uprising],
@@ -76768,7 +78399,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 2,
@@ -76793,6 +78424,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
       
     },],
     name: "Soaring Strike",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR083"],
     sets: [Release.Uprising],
@@ -76810,7 +78442,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 3,
@@ -76830,7 +78462,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB087",
-      name: "FAB087.width-450",
+      name: "FAB087",
       set: Release.Promos,
       
     },{
@@ -76841,10 +78473,11 @@ You may return a Phoenix Flame from your graveyard to your hand.
       
     },],
     name: "Flamescale Furnace",
+    rarities: [Rarity.Promo,Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB087","UPR084"],
     sets: [Release.Promos,Release.Uprising],
-    specialImageName: "FAB087.width-450",
+    specialImageName: "FAB087",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
     typeText: "Draconic Equipment – Chest",
@@ -76861,7 +78494,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     keywords: [Keyword.Temper],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -76883,6 +78516,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
       
     },],
     name: "Sash of Sandikai",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAI004","UPR085"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
@@ -76901,7 +78535,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     
     
     
-    pitch: 0,
+    
     
     
     
@@ -76923,6 +78557,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
       
     },],
     name: "Thaw",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["UPR086"],
     sets: [Release.Uprising],
@@ -76967,6 +78602,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
       
     },],
     name: "Liquefy",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["UPR087"],
     sets: [Release.Uprising],
@@ -77007,6 +78643,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
       
     },],
     name: "Uprising",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["UPR088"],
     sets: [Release.Uprising],
@@ -77049,6 +78686,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
       
     },],
     name: "Tome of Firebrand",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["UPR089"],
     sets: [Release.Uprising],
@@ -77086,7 +78724,7 @@ Draw 2 cards.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS108",
-      name: "LGS108.width-450",
+      name: "LGS108",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -77103,10 +78741,11 @@ Draw 2 cards.`,
       
     },],
     name: "Red Hot",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS108","DRO009","UPR090"],
     sets: [Release.Promos,Release.DromaiBlitzDeck,Release.Uprising],
-    specialImageName: "LGS108.width-450",
+    specialImageName: "LGS108",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Draconic Action – Attack",
@@ -77140,7 +78779,7 @@ Draw 2 cards.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS106",
-      name: "LGS106.width-450",
+      name: "LGS106",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -77151,10 +78790,11 @@ Draw 2 cards.`,
       
     },],
     name: "Rise Up",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS106","FAI007","UPR091"],
     sets: [Release.Promos,Release.FaiBlitzDeck,Release.Uprising],
-    specialImageName: "LGS106.width-450",
+    specialImageName: "LGS106",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Draconic Action – Attack",
@@ -77188,7 +78828,7 @@ Draw 2 cards.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB089",
-      name: "FAB089.width-450",
+      name: "FAB089",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -77199,10 +78839,11 @@ Draw 2 cards.`,
       
     },],
     name: "Blaze Headlong",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB089","FAI010","UPR092"],
     sets: [Release.Promos,Release.FaiBlitzDeck,Release.Uprising],
-    specialImageName: "FAB089.width-450",
+    specialImageName: "FAB089",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Draconic Action – Attack",
@@ -77234,7 +78875,7 @@ Draw 2 cards.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB091",
-      name: "FAB091.width-450",
+      name: "FAB091",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -77245,10 +78886,11 @@ Draw 2 cards.`,
       
     },],
     name: "Breaking Point",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB091","UPR093"],
     sets: [Release.Promos,Release.Uprising],
-    specialImageName: "FAB091.width-450",
+    specialImageName: "FAB091",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Draconic Action – Attack",
@@ -77285,6 +78927,7 @@ Draw 2 cards.`,
       
     },],
     name: "Burn Away",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR094"],
     sets: [Release.Uprising],
@@ -77325,6 +78968,7 @@ Draw 2 cards.`,
       
     },],
     name: "Flameborn Retribution",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAI013","UPR095"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
@@ -77373,6 +79017,7 @@ Draw 2 cards.`,
       treatment: Treatment.EA,
     },],
     name: "Flamecall Awakening",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAI012","UPR096"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
@@ -77421,6 +79066,7 @@ Draw 2 cards.`,
       treatment: Treatment.EA,
     },],
     name: "Inflame",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAI011","UPR097"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
@@ -77469,6 +79115,7 @@ Draw 2 cards.`,
       
     },],
     name: "Lava Burst",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DRO010","UPR098"],
     sets: [Release.DromaiBlitzDeck,Release.Uprising],
@@ -77509,6 +79156,7 @@ Draw 2 cards.`,
       
     },],
     name: "Searing Touch",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR099"],
     sets: [Release.Uprising],
@@ -77555,6 +79203,7 @@ Draw 2 cards.`,
       treatment: Treatment.EA,
     },],
     name: "Stoke the Flames",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAI014","UPR100"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
@@ -77590,7 +79239,7 @@ Draw 2 cards.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS104",
-      name: "LGS104.width-450",
+      name: "LGS104",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -77607,10 +79256,11 @@ Draw 2 cards.`,
       treatment: Treatment.EA,
     },],
     name: "Phoenix Flame",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token,Rarity.Marvel],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS104","FAI008","UPR101"],
     sets: [Release.Promos,Release.FaiBlitzDeck,Release.Uprising],
-    specialImageName: "LGS104.width-450",
+    specialImageName: "LGS104",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Draconic Action – Attack",
@@ -77646,13 +79296,13 @@ If you control 2 or more Draconic chain links, Phoenix Flame has +1{p}.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER060",
-      name: "HER060.width-450",
+      name: "HER060",
       set: Release.Promos,
       
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER067",
-      name: "HER067.width-450",
+      name: "HER067",
       set: Release.Promos,
       
     },{
@@ -77663,10 +79313,11 @@ If you control 2 or more Draconic chain links, Phoenix Flame has +1{p}.
       
     },],
     name: "Iyslander, Stormbind",
+    rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER060","HER067","WIN019","UPR102"],
     sets: [Release.Promos,Release.Uprising],
-    specialImageName: "HER060.width-450",
+    specialImageName: "HER060",
     subtypes: [],
     types: [Type.Hero],
     typeText: "Elemental Wizard Hero",
@@ -77685,7 +79336,7 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
     keywords: [Keyword.Essence],
     life: 36,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Blitz,Format.Commoner],
     
@@ -77707,6 +79358,7 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
       
     },],
     name: "Encase",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["UPR104"],
     sets: [Release.Uprising],
@@ -77749,6 +79401,7 @@ Deal 3 arcane damage to any target. If Encase was **fused** and deals damage to 
       
     },],
     name: "Freezing Point",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["UPR105"],
     sets: [Release.Uprising],
@@ -77791,6 +79444,7 @@ Deal 5 arcane damage to a target hero. If Freezing Point was fused, instead deal
       
     },],
     name: "Sigil of Permafrost",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR106"],
     sets: [Release.Uprising],
@@ -77833,6 +79487,7 @@ If Sigil of Permafrost was **fused**, the next time you deal arcane damage to a 
       
     },],
     name: "Sigil of Permafrost",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR107"],
     sets: [Release.Uprising],
@@ -77875,6 +79530,7 @@ If Sigil of Permafrost was **fused**, the next time you deal arcane damage to a 
       
     },],
     name: "Sigil of Permafrost",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR108"],
     sets: [Release.Uprising],
@@ -77912,7 +79568,7 @@ If Sigil of Permafrost was **fused**, the next time you deal arcane damage to a 
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS110",
-      name: "LGS110.width-450",
+      name: "LGS110",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -77923,10 +79579,11 @@ If Sigil of Permafrost was **fused**, the next time you deal arcane damage to a 
       
     },],
     name: "Ice Eternal",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS110","UPR109"],
     sets: [Release.Promos,Release.Uprising],
-    specialImageName: "LGS110.width-450",
+    specialImageName: "LGS110",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Elemental Wizard Action",
@@ -77967,6 +79624,7 @@ Create X Frostbite tokens under target hero’s control. Then, if Ice Eternal wa
       
     },],
     name: "Succumb to Winter",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR110"],
     sets: [Release.Uprising],
@@ -78009,6 +79667,7 @@ Deal 5 arcane damage to any target. If Succumb to Winter was **fused** and targe
       
     },],
     name: "Succumb to Winter",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR111"],
     sets: [Release.Uprising],
@@ -78051,6 +79710,7 @@ Deal 4 arcane damage to any target. If Succumb to Winter was **fused** and targe
       
     },],
     name: "Succumb to Winter",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR112"],
     sets: [Release.Uprising],
@@ -78093,6 +79753,7 @@ Deal 3 arcane damage to any target. If Succumb to Winter was **fused** and targe
       
     },],
     name: "Aether Icevein",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR113"],
     sets: [Release.Uprising],
@@ -78135,6 +79796,7 @@ Deal 5 arcane damage to any target. If Aether Icevein was **fused** and deals da
       
     },],
     name: "Aether Icevein",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR114"],
     sets: [Release.Uprising],
@@ -78177,6 +79839,7 @@ Deal 4 arcane damage to any target. If Aether Icevein was **fused** and deals da
       
     },],
     name: "Aether Icevein",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR115"],
     sets: [Release.Uprising],
@@ -78219,6 +79882,7 @@ Deal 3 arcane damage to any target. If Aether Icevein was **fused** and deals da
       
     },],
     name: "Brain Freeze",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR116"],
     sets: [Release.Uprising],
@@ -78261,6 +79925,7 @@ Target opponent reveals their hand. If Brain Freeze was **fused**, put an action
       
     },],
     name: "Brain Freeze",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR117"],
     sets: [Release.Uprising],
@@ -78303,6 +79968,7 @@ Target opponent reveals their hand. If Brain Freeze was **fused**, put an action
       
     },],
     name: "Brain Freeze",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR118"],
     sets: [Release.Uprising],
@@ -78345,6 +80011,7 @@ Target opponent reveals their hand. If Brain Freeze was **fused**, put an action
       
     },],
     name: "Icebind",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR119"],
     sets: [Release.Uprising],
@@ -78387,6 +80054,7 @@ Deal 3 arcane damage to any target. If Icebind was **fused** and deals damage to
       
     },],
     name: "Icebind",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR120"],
     sets: [Release.Uprising],
@@ -78429,6 +80097,7 @@ Deal 2 arcane damage to any target. If Icebind was **fused** and deals damage to
       
     },],
     name: "Icebind",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR121"],
     sets: [Release.Uprising],
@@ -78471,6 +80140,7 @@ Deal 1 arcane damage to any target. If Icebind was **fused** and deals damage to
       
     },],
     name: "Polar Cap",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR122"],
     sets: [Release.Uprising],
@@ -78513,6 +80183,7 @@ Deal 4 arcane damage to any target. If Polar Cap was **fused** and deals damage 
       
     },],
     name: "Polar Cap",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR123"],
     sets: [Release.Uprising],
@@ -78555,6 +80226,7 @@ Deal 3 arcane damage to any target. If Polar Cap was **fused** and deals damage 
       
     },],
     name: "Polar Cap",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR124"],
     sets: [Release.Uprising],
@@ -78597,6 +80269,7 @@ Deal 2 arcane damage to any target. If Polar Cap was **fused** and deals damage 
       
     },],
     name: "Conduit of Frostburn",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR125"],
     sets: [Release.Uprising],
@@ -78617,7 +80290,7 @@ Deal 2 arcane damage to any target. If Polar Cap was **fused** and deals damage 
     keywords: [Keyword.Quell],
     
     
-    pitch: 0,
+    
     
     
     
@@ -78645,6 +80318,7 @@ Deal 2 arcane damage to any target. If Polar Cap was **fused** and deals damage 
       
     },],
     name: "Frost Hex",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["UPR126"],
     sets: [Release.Uprising],
@@ -78689,6 +80363,7 @@ Frostbites you control have “At the beginning of your end phase, this deals 1 
       
     },],
     name: "Aether Hail",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR127"],
     sets: [Release.Uprising],
@@ -78729,6 +80404,7 @@ Frostbites you control have “At the beginning of your end phase, this deals 1 
       
     },],
     name: "Aether Hail",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR128"],
     sets: [Release.Uprising],
@@ -78769,6 +80445,7 @@ Frostbites you control have “At the beginning of your end phase, this deals 1 
       
     },],
     name: "Aether Hail",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR129"],
     sets: [Release.Uprising],
@@ -78809,6 +80486,7 @@ Frostbites you control have “At the beginning of your end phase, this deals 1 
       
     },],
     name: "Frosting",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR130"],
     sets: [Release.Uprising],
@@ -78849,6 +80527,7 @@ Frostbites you control have “At the beginning of your end phase, this deals 1 
       
     },],
     name: "Frosting",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR131"],
     sets: [Release.Uprising],
@@ -78889,6 +80568,7 @@ Frostbites you control have “At the beginning of your end phase, this deals 1 
       
     },],
     name: "Frosting",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR132"],
     sets: [Release.Uprising],
@@ -78929,6 +80609,7 @@ Frostbites you control have “At the beginning of your end phase, this deals 1 
       
     },],
     name: "Ice Bolt",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR133"],
     sets: [Release.Uprising],
@@ -78969,6 +80650,7 @@ Frostbites you control have “At the beginning of your end phase, this deals 1 
       
     },],
     name: "Ice Bolt",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR134"],
     sets: [Release.Uprising],
@@ -79009,6 +80691,7 @@ Frostbites you control have “At the beginning of your end phase, this deals 1 
       
     },],
     name: "Ice Bolt",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR135"],
     sets: [Release.Uprising],
@@ -79044,7 +80727,7 @@ Frostbites you control have “At the beginning of your end phase, this deals 1 
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB086",
-      name: "FAB086.width-450",
+      name: "FAB086",
       set: Release.Promos,
       
     },{
@@ -79055,10 +80738,11 @@ Frostbites you control have “At the beginning of your end phase, this deals 1 
       
     },],
     name: "Coronet Peak",
+    rarities: [Rarity.Promo,Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB086","UPR136"],
     sets: [Release.Promos,Release.Uprising],
-    specialImageName: "FAB086.width-450",
+    specialImageName: "FAB086",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
     typeText: "Ice Equipment – Head",
@@ -79075,7 +80759,7 @@ Frostbites you control have “At the beginning of your end phase, this deals 1 
     keywords: [Keyword.BladeBreak],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -79097,6 +80781,7 @@ Frostbites you control have “At the beginning of your end phase, this deals 1 
       
     },],
     name: "Glacial Horns",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR137"],
     sets: [Release.Uprising],
@@ -79112,10 +80797,10 @@ Frostbites you control have “At the beginning of your end phase, this deals 1 
     
     
     
+    keywords: [Keyword.Freeze,Keyword.GoAgain],
     
     
     
-    pitch: 0,
     
     
     
@@ -79137,6 +80822,7 @@ Frostbites you control have “At the beginning of your end phase, this deals 1 
       
     },],
     name: "Channel the Bleak Expanse",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["UPR138"],
     sets: [Release.Uprising],
@@ -79181,6 +80867,7 @@ Heroes can’t reveal cards, search decks, or draw cards from effects.
       
     },],
     name: "Hypothermia",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["UPR139"],
     sets: [Release.Uprising],
@@ -79225,6 +80912,7 @@ At the beginning of your end phase, destroy Hypothermia.`,
       
     },],
     name: "Insidious Chill",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["UPR140"],
     sets: [Release.Uprising],
@@ -79267,6 +80955,7 @@ Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you d
       
     },],
     name: "Isenhowl Weathervane",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR141"],
     sets: [Release.Uprising],
@@ -79309,6 +80998,7 @@ Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you d
       
     },],
     name: "Isenhowl Weathervane",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR142"],
     sets: [Release.Uprising],
@@ -79351,6 +81041,7 @@ Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you d
       
     },],
     name: "Isenhowl Weathervane",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR143"],
     sets: [Release.Uprising],
@@ -79393,6 +81084,7 @@ Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you d
       
     },],
     name: "Arctic Incarceration",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR144"],
     sets: [Release.Uprising],
@@ -79433,6 +81125,7 @@ Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you d
       
     },],
     name: "Arctic Incarceration",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR145"],
     sets: [Release.Uprising],
@@ -79473,6 +81166,7 @@ Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you d
       
     },],
     name: "Arctic Incarceration",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR146"],
     sets: [Release.Uprising],
@@ -79513,6 +81207,7 @@ Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you d
       
     },],
     name: "Cold Snap",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR147"],
     sets: [Release.Uprising],
@@ -79557,6 +81252,7 @@ If Cold Snap is played from arsenal, draw a card.
       
     },],
     name: "Cold Snap",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR148"],
     sets: [Release.Uprising],
@@ -79601,6 +81297,7 @@ If Cold Snap is played from arsenal, draw a card.
       
     },],
     name: "Cold Snap",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR149"],
     sets: [Release.Uprising],
@@ -79640,7 +81337,7 @@ If Cold Snap is played from arsenal, draw a card.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB085",
-      name: "FAB085.width-450",
+      name: "FAB085",
       set: Release.Promos,
       
     },{
@@ -79651,10 +81348,11 @@ If Cold Snap is played from arsenal, draw a card.
       
     },],
     name: "Ghostly Touch",
+    rarities: [Rarity.Promo,Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB085","UPR151"],
     sets: [Release.Promos,Release.Uprising],
-    specialImageName: "FAB085.width-450",
+    specialImageName: "FAB085",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
     typeText: "Illusionist Equipment – Arms",
@@ -79668,10 +81366,10 @@ If Cold Snap is played from arsenal, draw a card.
     
     
     
+    keywords: [Keyword.GoAgain],
     
     
     
-    pitch: 0,
     
     restrictedFormats: [Format.Commoner],
     
@@ -79693,6 +81391,7 @@ If Cold Snap is played from arsenal, draw a card.
       
     },],
     name: "Silent Stilettos",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR152"],
     sets: [Release.Uprising],
@@ -79713,7 +81412,7 @@ If Cold Snap is played from arsenal, draw a card.
     keywords: [Keyword.ArcaneBarrier],
     
     
-    pitch: 0,
+    
     
     
     
@@ -79735,6 +81434,7 @@ If Cold Snap is played from arsenal, draw a card.
       
     },],
     name: "Frightmare",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["UPR153"],
     sets: [Release.Uprising],
@@ -79777,6 +81477,7 @@ If Cold Snap is played from arsenal, draw a card.
       
     },],
     name: "Semblance",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["UPR154"],
     sets: [Release.Uprising],
@@ -79817,6 +81518,7 @@ If Cold Snap is played from arsenal, draw a card.
       
     },],
     name: "Transmogrify",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR155"],
     sets: [Release.Uprising],
@@ -79859,6 +81561,7 @@ If Cold Snap is played from arsenal, draw a card.
       
     },],
     name: "Transmogrify",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR156"],
     sets: [Release.Uprising],
@@ -79901,6 +81604,7 @@ If Cold Snap is played from arsenal, draw a card.
       
     },],
     name: "Transmogrify",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR157"],
     sets: [Release.Uprising],
@@ -79938,7 +81642,7 @@ If Cold Snap is played from arsenal, draw a card.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB083",
-      name: "FAB083.width-450",
+      name: "FAB083",
       set: Release.Promos,
       
     },{
@@ -79949,10 +81653,11 @@ If Cold Snap is played from arsenal, draw a card.
       
     },],
     name: "Tiger Stripe Shuko",
+    rarities: [Rarity.Promo,Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB083","UPR158"],
     sets: [Release.Promos,Release.Uprising],
-    specialImageName: "FAB083.width-450",
+    specialImageName: "FAB083",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
     typeText: "Ninja Equipment – Arms",
@@ -79969,7 +81674,7 @@ If Cold Snap is played from arsenal, draw a card.
     keywords: [Keyword.BladeBreak],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -79991,6 +81696,7 @@ If Cold Snap is played from arsenal, draw a card.
       
     },],
     name: "Tide Flippers",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR159"],
     sets: [Release.Uprising],
@@ -80011,7 +81717,7 @@ If Cold Snap is played from arsenal, draw a card.
     keywords: [Keyword.ArcaneBarrier,Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     
     
     
@@ -80033,6 +81739,7 @@ If Cold Snap is played from arsenal, draw a card.
       
     },],
     name: "Double Strike",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["UPR160"],
     sets: [Release.Uprising],
@@ -80075,6 +81782,7 @@ If Cold Snap is played from arsenal, draw a card.
       
     },],
     name: "Take the Tempo",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["UPR161"],
     sets: [Release.Uprising],
@@ -80115,6 +81823,7 @@ If Cold Snap is played from arsenal, draw a card.
       
     },],
     name: "Rapid Reflex",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR162"],
     sets: [Release.Uprising],
@@ -80155,6 +81864,7 @@ If Cold Snap is played from arsenal, draw a card.
       
     },],
     name: "Rapid Reflex",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR163"],
     sets: [Release.Uprising],
@@ -80195,6 +81905,7 @@ If Cold Snap is played from arsenal, draw a card.
       
     },],
     name: "Rapid Reflex",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR164"],
     sets: [Release.Uprising],
@@ -80230,7 +81941,7 @@ If Cold Snap is played from arsenal, draw a card.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS109",
-      name: "LGS109.width-450",
+      name: "LGS109",
       set: Release.Promos,
       
     },{
@@ -80241,10 +81952,11 @@ If Cold Snap is played from arsenal, draw a card.
       
     },],
     name: "Waning Moon",
+    rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS109","UPR165"],
     sets: [Release.Promos,Release.Uprising],
-    specialImageName: "LGS109.width-450",
+    specialImageName: "LGS109",
     subtypes: [Subtype.Staff,Subtype.TwoHanded],
     types: [Type.Weapon],
     typeText: "Wizard Weapon – Staff (2H)",
@@ -80259,7 +81971,7 @@ If Cold Snap is played from arsenal, draw a card.
     
     
     
-    pitch: 0,
+    
     
     
     
@@ -80276,7 +81988,7 @@ If Cold Snap is played from arsenal, draw a card.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB084",
-      name: "FAB084.width-450",
+      name: "FAB084",
       set: Release.Promos,
       
     },{
@@ -80287,10 +81999,11 @@ If Cold Snap is played from arsenal, draw a card.
       
     },],
     name: "Alluvion Constellas",
+    rarities: [Rarity.Promo,Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB084","UPR166"],
     sets: [Release.Promos,Release.Uprising],
-    specialImageName: "FAB084.width-450",
+    specialImageName: "FAB084",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
     typeText: "Wizard Equipment – Chest",
@@ -80309,7 +82022,7 @@ If Cold Snap is played from arsenal, draw a card.
     keywords: [Keyword.ArcaneBarrier],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -80331,6 +82044,7 @@ If Cold Snap is played from arsenal, draw a card.
       
     },],
     name: "Spellfire Cloak",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR167"],
     sets: [Release.Uprising],
@@ -80351,7 +82065,7 @@ If Cold Snap is played from arsenal, draw a card.
     keywords: [Keyword.ArcaneBarrier],
     
     
-    pitch: 0,
+    
     
     
     
@@ -80373,6 +82087,7 @@ If Cold Snap is played from arsenal, draw a card.
       
     },],
     name: "Tome of Duplicity",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["UPR168"],
     sets: [Release.Uprising],
@@ -80419,6 +82134,7 @@ If Cold Snap is played from arsenal, draw a card.
       treatment: Treatment.AA,
     },],
     name: "Rewind",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["UPR169"],
     sets: [Release.Uprising],
@@ -80459,6 +82175,7 @@ If Cold Snap is played from arsenal, draw a card.
       
     },],
     name: "Dampen",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR170"],
     sets: [Release.Uprising],
@@ -80501,6 +82218,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
       
     },],
     name: "Dampen",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR171"],
     sets: [Release.Uprising],
@@ -80543,6 +82261,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
       
     },],
     name: "Dampen",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR172"],
     sets: [Release.Uprising],
@@ -80585,6 +82304,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
       
     },],
     name: "Aether Dart",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR173"],
     sets: [Release.Uprising],
@@ -80625,6 +82345,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
       
     },],
     name: "Aether Dart",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR174"],
     sets: [Release.Uprising],
@@ -80665,6 +82386,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
       
     },],
     name: "Aether Dart",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR175"],
     sets: [Release.Uprising],
@@ -80705,6 +82427,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
       
     },],
     name: "Read the Ripples",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR176"],
     sets: [Release.Uprising],
@@ -80745,6 +82468,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
       
     },],
     name: "Read the Ripples",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR177"],
     sets: [Release.Uprising],
@@ -80780,7 +82504,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB092",
-      name: "FAB092.width-450",
+      name: "FAB092",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -80791,10 +82515,11 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
       
     },],
     name: "Read the Ripples",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB092","UPR178"],
     sets: [Release.Promos,Release.Uprising],
-    specialImageName: "FAB092.width-450",
+    specialImageName: "FAB092",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action – Aura",
@@ -80831,6 +82556,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
       
     },],
     name: "Singe",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR179"],
     sets: [Release.Uprising],
@@ -80871,6 +82597,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
       
     },],
     name: "Singe",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR180"],
     sets: [Release.Uprising],
@@ -80911,6 +82638,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
       
     },],
     name: "Singe",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR181"],
     sets: [Release.Uprising],
@@ -80946,7 +82674,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB088",
-      name: "FAB088.width-450",
+      name: "FAB088",
       set: Release.Promos,
       
     },{
@@ -80957,10 +82685,11 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
       
     },],
     name: "Crown of Providence",
+    rarities: [Rarity.Promo,Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB088","UPR182"],
     sets: [Release.Promos,Release.Uprising],
-    specialImageName: "FAB088.width-450",
+    specialImageName: "FAB088",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
     typeText: "Generic Equipment – Head",
@@ -80977,7 +82706,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     keywords: [Keyword.BladeBreak],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -80994,7 +82723,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS103",
-      name: "LGS103.width-450",
+      name: "LGS103",
       set: Release.Promos,
       
     },{
@@ -81011,10 +82740,11 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
       
     },],
     name: "Helio’s Mitre",
+    rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS103","UPR183"],
     sets: [Release.Promos,Release.Uprising],
-    specialImageName: "LGS103.width-450",
+    specialImageName: "LGS103",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
     typeText: "Generic Equipment – Head",
@@ -81031,7 +82761,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     
     
     
-    pitch: 0,
+    
     
     
     
@@ -81053,6 +82783,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
       
     },],
     name: "Quelling Robe",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR184"],
     sets: [Release.Uprising],
@@ -81071,7 +82802,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     keywords: [Keyword.Quell],
     
     
-    pitch: 0,
+    
     
     
     
@@ -81093,6 +82824,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
       
     },],
     name: "Quelling Sleeves",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR185"],
     sets: [Release.Uprising],
@@ -81111,7 +82843,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     keywords: [Keyword.Quell],
     
     
-    pitch: 0,
+    
     
     
     
@@ -81133,6 +82865,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
       
     },],
     name: "Quelling Slippers",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAI006","UPR186"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
@@ -81151,7 +82884,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     keywords: [Keyword.Quell],
     
     
-    pitch: 0,
+    
     
     
     
@@ -81173,6 +82906,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
       
     },],
     name: "Erase Face",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["UPR187"],
     sets: [Release.Uprising],
@@ -81213,6 +82947,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
       
     },],
     name: "Vipox",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["UPR188"],
     sets: [Release.Uprising],
@@ -81253,6 +82988,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
       
     },],
     name: "That All You Got?",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["UPR189"],
     sets: [Release.Uprising],
@@ -81293,6 +83029,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
       
     },],
     name: "Fog Down",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["UPR190"],
     sets: [Release.Uprising],
@@ -81335,6 +83072,7 @@ At the beginning of your action phase, destroy Fog Down.`,
       
     },],
     name: "Flex",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["FAI022","UPR191"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
@@ -81375,6 +83113,7 @@ At the beginning of your action phase, destroy Fog Down.`,
       
     },],
     name: "Flex",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR192"],
     sets: [Release.Uprising],
@@ -81415,6 +83154,7 @@ At the beginning of your action phase, destroy Fog Down.`,
       
     },],
     name: "Flex",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR193"],
     sets: [Release.Uprising],
@@ -81455,6 +83195,7 @@ At the beginning of your action phase, destroy Fog Down.`,
       
     },],
     name: "Fyendal’s Fighting Spirit",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR194"],
     sets: [Release.Uprising],
@@ -81495,6 +83236,7 @@ At the beginning of your action phase, destroy Fog Down.`,
       
     },],
     name: "Fyendal’s Fighting Spirit",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR195"],
     sets: [Release.Uprising],
@@ -81535,6 +83277,7 @@ At the beginning of your action phase, destroy Fog Down.`,
       
     },],
     name: "Fyendal’s Fighting Spirit",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR196"],
     sets: [Release.Uprising],
@@ -81575,6 +83318,7 @@ At the beginning of your action phase, destroy Fog Down.`,
       
     },],
     name: "Sift",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR197"],
     sets: [Release.Uprising],
@@ -81617,6 +83361,7 @@ At the beginning of your action phase, destroy Fog Down.`,
       
     },],
     name: "Sift",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR198"],
     sets: [Release.Uprising],
@@ -81659,6 +83404,7 @@ At the beginning of your action phase, destroy Fog Down.`,
       
     },],
     name: "Sift",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR199"],
     sets: [Release.Uprising],
@@ -81701,6 +83447,7 @@ At the beginning of your action phase, destroy Fog Down.`,
       
     },],
     name: "Strategic Planning",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR200"],
     sets: [Release.Uprising],
@@ -81743,6 +83490,7 @@ At the beginning of your action phase, destroy Fog Down.`,
       
     },],
     name: "Strategic Planning",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR201"],
     sets: [Release.Uprising],
@@ -81785,6 +83533,7 @@ At the beginning of your action phase, destroy Fog Down.`,
       
     },],
     name: "Strategic Planning",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR202"],
     sets: [Release.Uprising],
@@ -81827,6 +83576,7 @@ At the beginning of your action phase, destroy Fog Down.`,
       
     },],
     name: "Brothers in Arms",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR203"],
     sets: [Release.Uprising],
@@ -81867,6 +83617,7 @@ At the beginning of your action phase, destroy Fog Down.`,
       
     },],
     name: "Brothers in Arms",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR204"],
     sets: [Release.Uprising],
@@ -81902,7 +83653,7 @@ At the beginning of your action phase, destroy Fog Down.`,
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB093",
-      name: "FAB093.width-450",
+      name: "FAB093",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -81913,10 +83664,11 @@ At the beginning of your action phase, destroy Fog Down.`,
       
     },],
     name: "Brothers in Arms",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB093","UPR205"],
     sets: [Release.Promos,Release.Uprising],
-    specialImageName: "FAB093.width-450",
+    specialImageName: "FAB093",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Generic Action – Attack",
@@ -81959,6 +83711,7 @@ At the beginning of your action phase, destroy Fog Down.`,
       
     },],
     name: "Critical Strike",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DRO023","UPR206"],
     sets: [Release.DromaiBlitzDeck,Release.Uprising],
@@ -81999,6 +83752,7 @@ At the beginning of your action phase, destroy Fog Down.`,
       
     },],
     name: "Critical Strike",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR207"],
     sets: [Release.Uprising],
@@ -82039,6 +83793,7 @@ At the beginning of your action phase, destroy Fog Down.`,
       
     },],
     name: "Critical Strike",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR208"],
     sets: [Release.Uprising],
@@ -82079,6 +83834,7 @@ At the beginning of your action phase, destroy Fog Down.`,
       
     },],
     name: "Trade In",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAI021","UPR212"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
@@ -82121,6 +83877,7 @@ If Trade In is played from arsenal, it gains **go again**.`,
       
     },],
     name: "Trade In",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR213"],
     sets: [Release.Uprising],
@@ -82163,6 +83920,7 @@ If Trade In is played from arsenal, it gains **go again**.`,
       
     },],
     name: "Trade In",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR214"],
     sets: [Release.Uprising],
@@ -82211,6 +83969,7 @@ If Trade In is played from arsenal, it gains **go again**.`,
       
     },],
     name: "Healing Balm",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DRO025","UPR215"],
     sets: [Release.DromaiBlitzDeck,Release.Uprising],
@@ -82251,6 +84010,7 @@ If Trade In is played from arsenal, it gains **go again**.`,
       
     },],
     name: "Healing Balm",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR216"],
     sets: [Release.Uprising],
@@ -82291,6 +84051,7 @@ If Trade In is played from arsenal, it gains **go again**.`,
       
     },],
     name: "Healing Balm",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR217"],
     sets: [Release.Uprising],
@@ -82331,6 +84092,7 @@ If Trade In is played from arsenal, it gains **go again**.`,
       
     },],
     name: "Sigil of Protection",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR218"],
     sets: [Release.Uprising],
@@ -82373,6 +84135,7 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
       
     },],
     name: "Sigil of Protection",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR219"],
     sets: [Release.Uprising],
@@ -82415,6 +84178,7 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
       
     },],
     name: "Sigil of Protection",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR220"],
     sets: [Release.Uprising],
@@ -82463,6 +84227,7 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
       
     },],
     name: "Oasis Respite",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DRO027","UPR221"],
     sets: [Release.DromaiBlitzDeck,Release.Uprising],
@@ -82503,6 +84268,7 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
       
     },],
     name: "Oasis Respite",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR222"],
     sets: [Release.Uprising],
@@ -82543,6 +84309,7 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
       
     },],
     name: "Oasis Respite",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["UPR223"],
     sets: [Release.Uprising],
@@ -82583,6 +84350,7 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
       
     },],
     name: "Dragons of Legend",
+    rarities: [Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["UPR225"],
     sets: [Release.Uprising],
@@ -82625,7 +84393,7 @@ You may put this in your deck in place of an invocation you own. Mark the box ne
     
     
     
-    pitch: 0,
+    
     
     
     
@@ -82645,12 +84413,25 @@ You may put this in your deck in place of an invocation you own. Mark the box ne
       name: "DYN001",
       set: Release.Dynasty,
       
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN001",
+      name: "DYN001_Marvel",
+      set: Release.Dynasty,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN001",
+      name: "DYN001_Marvel_Back",
+      set: Release.Dynasty,
+      treatment: Treatment.FA,
     },],
     name: "Emperor, Dracai of Aesir",
+    rarities: [Rarity.Legendary,Rarity.Marvel],
     rarity: Rarity.Legendary,
     setIdentifiers: ["DYN001"],
     sets: [Release.Dynasty],
-    specialImageName: "DYN001",
+    specialImageName: "DYN001_Marvel_Back",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Royal Draconic Warrior Wizard Hero – Young",
@@ -82667,7 +84448,7 @@ You may put this in your deck in place of an invocation you own. Mark the box ne
     
     life: 15,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -82689,6 +84470,7 @@ You may put this in your deck in place of an invocation you own. Mark the box ne
       
     },],
     name: "Dust from the Golden Plains",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN002"],
     sets: [Release.Dynasty],
@@ -82729,6 +84511,7 @@ You may put this in your deck in place of an invocation you own. Mark the box ne
       
     },],
     name: "Dust from the Red Desert",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN003"],
     sets: [Release.Dynasty],
@@ -82769,6 +84552,7 @@ You may put this in your deck in place of an invocation you own. Mark the box ne
       
     },],
     name: "Dust from the Shadow Crypts",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN004"],
     sets: [Release.Dynasty],
@@ -82809,23 +84593,24 @@ You may put this in your deck in place of an invocation you own. Mark the box ne
       
     },{
       edition: ReleaseEdition.Promo,
-      identifier: "DYN005_Marvel",
+      identifier: "DYN005",
       name: "DYN005_Marvel",
       set: Release.Dynasty,
-      treatment: Treatment.EA,
+      
     },],
     name: "Rok",
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN005"],
     sets: [Release.Dynasty],
-    specialImageName: "DYN005_Marvel",
+    specialImageName: "DYN005",
     subtypes: [Subtype.Rock,Subtype.TwoHanded],
     types: [Type.Weapon],
     typeText: "Brute Weapon – Rock (2H)",
 
     
     
-    functionalText: `**Once per Turn Action** - {p}{p}{p}: **Attack**
+    functionalText: `**Once per Turn Action** - {r}{r}{r}: **Attack**
 
 Activate Rok only if you have no cards in hand.
 
@@ -82837,7 +84622,7 @@ Damage that would be dealt by Rok can’t be prevented.`,
     
     
     
-    pitch: 0,
+    
     power: 7,
     restrictedFormats: [Format.Commoner],
     
@@ -82859,6 +84644,7 @@ Damage that would be dealt by Rok can’t be prevented.`,
       
     },],
     name: "Beaten Trackers",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN006"],
     sets: [Release.Dynasty],
@@ -82879,7 +84665,7 @@ Damage that would be dealt by Rok can’t be prevented.`,
     keywords: [Keyword.Battleworn],
     
     
-    pitch: 0,
+    
     
     
     
@@ -82901,6 +84687,7 @@ Damage that would be dealt by Rok can’t be prevented.`,
       
     },],
     name: "Savage Beatdown",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN007"],
     sets: [Release.Dynasty],
@@ -82945,6 +84732,7 @@ If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
       
     },],
     name: "Skull Crack",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN008"],
     sets: [Release.Dynasty],
@@ -82955,7 +84743,7 @@ If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
 
     cost: 2,
     defense: 3,
-    functionalText: `When Skull Crack is discarded at random, gain {p}.`,
+    functionalText: `When Skull Crack is discarded at random, gain {r}.`,
     
     
     
@@ -82985,6 +84773,7 @@ If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
       
     },],
     name: "Berserk",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN009"],
     sets: [Release.Dynasty],
@@ -83027,6 +84816,7 @@ If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
       
     },],
     name: "Reincarnate",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN010"],
     sets: [Release.Dynasty],
@@ -83067,6 +84857,7 @@ If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
       
     },],
     name: "Reincarnate",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN011"],
     sets: [Release.Dynasty],
@@ -83107,6 +84898,7 @@ If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
       
     },],
     name: "Reincarnate",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN012"],
     sets: [Release.Dynasty],
@@ -83147,6 +84939,7 @@ If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
       
     },],
     name: "Blessing of Savagery",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN013"],
     sets: [Release.Dynasty],
@@ -83187,6 +84980,7 @@ If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
       
     },],
     name: "Blessing of Savagery",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN014"],
     sets: [Release.Dynasty],
@@ -83227,6 +85021,7 @@ If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
       
     },],
     name: "Blessing of Savagery",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN015"],
     sets: [Release.Dynasty],
@@ -83267,6 +85062,7 @@ If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
       
     },],
     name: "Madcap Charger",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN016"],
     sets: [Release.Dynasty],
@@ -83288,7 +85084,7 @@ If the discarded card has 6 or more {p}, Madcap Charger has **go again**.`,
     
     
     pitch: 1,
-    power: 3,
+    power: 5,
     
     
     
@@ -83309,6 +85105,7 @@ If the discarded card has 6 or more {p}, Madcap Charger has **go again**.`,
       
     },],
     name: "Madcap Charger",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN017"],
     sets: [Release.Dynasty],
@@ -83330,7 +85127,7 @@ If the discarded card has 6 or more {p}, Madcap Charger has **go again**.`,
     
     
     pitch: 2,
-    power: 2,
+    power: 4,
     
     
     
@@ -83351,6 +85148,7 @@ If the discarded card has 6 or more {p}, Madcap Charger has **go again**.`,
       
     },],
     name: "Madcap Charger",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN018"],
     sets: [Release.Dynasty],
@@ -83372,7 +85170,7 @@ If the discarded card has 6 or more {p}, Madcap Charger has **go again**.`,
     
     
     pitch: 3,
-    power: 1,
+    power: 3,
     
     
     
@@ -83393,6 +85191,7 @@ If the discarded card has 6 or more {p}, Madcap Charger has **go again**.`,
       
     },],
     name: "Madcap Muscle",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN019"],
     sets: [Release.Dynasty],
@@ -83435,6 +85234,7 @@ If the discarded card has 6 or more {p}, Madcap Muscle has +3{p}.`,
       
     },],
     name: "Madcap Muscle",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN020"],
     sets: [Release.Dynasty],
@@ -83477,6 +85277,7 @@ If the discarded card has 6 or more {p}, Madcap Muscle has +3{p}.`,
       
     },],
     name: "Madcap Muscle",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN021"],
     sets: [Release.Dynasty],
@@ -83519,6 +85320,7 @@ If the discarded card has 6 or more {p}, Madcap Muscle has +3{p}.`,
       
     },],
     name: "Rumble Grunting",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN022"],
     sets: [Release.Dynasty],
@@ -83563,6 +85365,7 @@ Your next Brute attack this turn gains +4{p}.
       
     },],
     name: "Rumble Grunting",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN023"],
     sets: [Release.Dynasty],
@@ -83607,6 +85410,7 @@ Your next Brute attack this turn gains +3{p}.
       
     },],
     name: "Rumble Grunting",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN024"],
     sets: [Release.Dynasty],
@@ -83646,7 +85450,7 @@ Your next Brute attack this turn gains +2{p}.
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "HER075",
-      name: "dyn_card_Yoji_Royal_Protector.width-10000",
+      name: "HER075",
       set: Release.Promos,
       
     },{
@@ -83657,10 +85461,11 @@ Your next Brute attack this turn gains +2{p}.
       
     },],
     name: "Yoji, Royal Protector",
+    rarities: [Rarity.Promo,Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["HER075","DYN025"],
     sets: [Release.Promos,Release.Dynasty],
-    specialImageName: "dyn_card_Yoji_Royal_Protector.width-10000",
+    specialImageName: "HER075",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Guardian Hero – Young",
@@ -83675,9 +85480,9 @@ Your next Brute attack this turn gains +2{p}.
     
     life: 22,
     
-    pitch: 0,
     
-    restrictedFormats: [Format.ClassicConstructed],
+    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -83688,25 +85493,26 @@ Your next Brute attack this turn gains +2{p}.
     artists: ["Sofia Akimova"],
     cardIdentifier: "seasoned-saviour",
     classes: [Class.Guardian],
-    defaultImageName: "DYN026_Marvel",
+    defaultImageName: "DYN026",
     images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN026_Marvel",
-      name: "DYN026_Marvel",
-      set: Release.Dynasty,
-      treatment: Treatment.EA,
-    },{
       edition: ReleaseEdition.Promo,
       identifier: "DYN026",
       name: "DYN026",
       set: Release.Dynasty,
       
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN026",
+      name: "DYN026_Marvel",
+      set: Release.Dynasty,
+      
     },],
     name: "Seasoned Saviour",
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN026"],
     sets: [Release.Dynasty],
-    specialImageName: "DYN026_Marvel",
+    specialImageName: "DYN026",
     subtypes: [Subtype.OffHand],
     types: [Type.Equipment],
     typeText: "Guardian Equipment – Off-Hand",
@@ -83721,7 +85527,7 @@ Your next Brute attack this turn gains +2{p}.
     keywords: [Keyword.Battleworn],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -83731,7 +85537,7 @@ Your next Brute attack this turn gains +2{p}.
     
     
   },{
-    artists: ["Peyoyo"],
+    artists: ["Peyeyo"],
     cardIdentifier: "steelbraid-buckler",
     classes: [Class.Guardian],
     defaultImageName: "DYN027",
@@ -83743,6 +85549,7 @@ Your next Brute attack this turn gains +2{p}.
       
     },],
     name: "Steelbraid Buckler",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN027"],
     sets: [Release.Dynasty],
@@ -83761,7 +85568,7 @@ Your next Brute attack this turn gains +2{p}.
     keywords: [Keyword.Temper],
     
     
-    pitch: 0,
+    
     
     
     
@@ -83783,6 +85590,7 @@ Your next Brute attack this turn gains +2{p}.
       
     },],
     name: "Buckle",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN028"],
     sets: [Release.Dynasty],
@@ -83793,14 +85601,14 @@ Your next Brute attack this turn gains +2{p}.
 
     cost: 3,
     defense: 3,
-    functionalText: `Your next Guardian attack this turn gains +1{p}, **dominate**, and "When this hits a hero, destroy an equipment they control with a -1{d} counter on it."
+    functionalText: `Your next Guardian attack this turn gains +1{p}, **dominate**, and “When this hits a hero, destroy an equipment they control with a -1{d} counter on it.”
 
 **Go again**`,
     
     
     
     
-    keywords: [Keyword.Dominate,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Dominate],
     
     
     pitch: 3,
@@ -83825,17 +85633,18 @@ Your next Brute attack this turn gains +2{p}.
       
     },],
     name: "Never Yield",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN029"],
     sets: [Release.Dynasty],
     specialImageName: "DYN029",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
-    typeText: "Guardian Action – Aura",
+    typeText: "Guardian Action – Aura",
 
     cost: 3,
     defense: 3,
-    functionalText: `At the start of your turn, destroy Never Yield then if you have no cards in hand, draw a card. If you have less {l} than all other heroes, gain 2{l}. If you control less equipment than all other heroes, remove a -1{d} counter from an equipment you control.`,
+    functionalText: `At the start of your turn, destroy Never Yield then if you have no cards in hand, draw a card. If you have less {h} than all other heroes, gain 2{h}. If you control less equipment than all other heroes, remove a -1{d} counter from an equipment you control.`,
     
     
     
@@ -83865,6 +85674,7 @@ Your next Brute attack this turn gains +2{p}.
       
     },],
     name: "Shield Bash",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN030"],
     sets: [Release.Dynasty],
@@ -83905,6 +85715,7 @@ Your next Brute attack this turn gains +2{p}.
       
     },],
     name: "Shield Bash",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN031"],
     sets: [Release.Dynasty],
@@ -83945,6 +85756,7 @@ Your next Brute attack this turn gains +2{p}.
       
     },],
     name: "Shield Bash",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN032"],
     sets: [Release.Dynasty],
@@ -83985,6 +85797,7 @@ Your next Brute attack this turn gains +2{p}.
       
     },],
     name: "Blessing of Patience",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN033"],
     sets: [Release.Dynasty],
@@ -84025,6 +85838,7 @@ Your next Brute attack this turn gains +2{p}.
       
     },],
     name: "Blessing of Patience",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN034"],
     sets: [Release.Dynasty],
@@ -84065,6 +85879,7 @@ Your next Brute attack this turn gains +2{p}.
       
     },],
     name: "Blessing of Patience",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN035"],
     sets: [Release.Dynasty],
@@ -84105,6 +85920,7 @@ Your next Brute attack this turn gains +2{p}.
       
     },],
     name: "Shield Wall",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN036"],
     sets: [Release.Dynasty],
@@ -84145,6 +85961,7 @@ Your next Brute attack this turn gains +2{p}.
       
     },],
     name: "Shield Wall",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN037"],
     sets: [Release.Dynasty],
@@ -84185,6 +86002,7 @@ Your next Brute attack this turn gains +2{p}.
       
     },],
     name: "Shield Wall",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN038"],
     sets: [Release.Dynasty],
@@ -84225,6 +86043,7 @@ Your next Brute attack this turn gains +2{p}.
       
     },],
     name: "Reinforce Steel",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN039"],
     sets: [Release.Dynasty],
@@ -84265,6 +86084,7 @@ Your next Brute attack this turn gains +2{p}.
       
     },],
     name: "Reinforce Steel",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN040"],
     sets: [Release.Dynasty],
@@ -84305,6 +86125,7 @@ Your next Brute attack this turn gains +2{p}.
       
     },],
     name: "Reinforce Steel",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN041"],
     sets: [Release.Dynasty],
@@ -84345,6 +86166,7 @@ Your next Brute attack this turn gains +2{p}.
       
     },],
     name: "Withstand",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN042"],
     sets: [Release.Dynasty],
@@ -84353,7 +86175,7 @@ Your next Brute attack this turn gains +2{p}.
     types: [Type.Instant],
     typeText: "Guardian Instant",
 
-    
+    cost: 2,
     defense: 3,
     functionalText: `The next time target Guardian off-hand defends this turn, it gains +6{d} until the combat chain closes.`,
     
@@ -84385,6 +86207,7 @@ Your next Brute attack this turn gains +2{p}.
       
     },],
     name: "Withstand",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN043"],
     sets: [Release.Dynasty],
@@ -84393,7 +86216,7 @@ Your next Brute attack this turn gains +2{p}.
     types: [Type.Instant],
     typeText: "Guardian Instant",
 
-    
+    cost: 2,
     defense: 3,
     functionalText: `The next time target Guardian off-hand defends this turn, it gains +5{d} until the combat chain closes.`,
     
@@ -84425,6 +86248,7 @@ Your next Brute attack this turn gains +2{p}.
       
     },],
     name: "Withstand",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN044"],
     sets: [Release.Dynasty],
@@ -84433,7 +86257,7 @@ Your next Brute attack this turn gains +2{p}.
     types: [Type.Instant],
     typeText: "Guardian Instant",
 
-    
+    cost: 2,
     defense: 3,
     functionalText: `The next time target Guardian off-hand defends this turn, it gains +4{d} until the combat chain closes.`,
     
@@ -84456,25 +86280,26 @@ Your next Brute attack this turn gains +2{p}.
     artists: ["Shen Fei"],
     cardIdentifier: "blazen-yoroi",
     classes: [Class.Ninja],
-    defaultImageName: "DYN045_Marvel",
+    defaultImageName: "DYN045",
     images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN045_Marvel",
-      name: "DYN045_Marvel",
-      set: Release.Dynasty,
-      treatment: Treatment.EA,
-    },{
       edition: ReleaseEdition.Promo,
       identifier: "DYN045",
       name: "DYN045",
       set: Release.Dynasty,
       
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN045",
+      name: "DYN045_Marvel",
+      set: Release.Dynasty,
+      
     },],
     name: "Blazen Yoroi",
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN045"],
     sets: [Release.Dynasty],
-    specialImageName: "DYN045_Marvel",
+    specialImageName: "DYN045",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
     typeText: "Ninja Equipment – Chest",
@@ -84491,7 +86316,7 @@ Your next Brute attack this turn gains +2{p}.
     keywords: [Keyword.BladeBreak],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -84513,6 +86338,7 @@ Your next Brute attack this turn gains +2{p}.
       
     },],
     name: "Tearing Shuko",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN046"],
     sets: [Release.Dynasty],
@@ -84533,7 +86359,7 @@ Your next Brute attack this turn gains +2{p}.
     keywords: [Keyword.Battleworn],
     
     
-    pitch: 0,
+    
     
     
     
@@ -84555,6 +86381,7 @@ Your next Brute attack this turn gains +2{p}.
       
     },],
     name: "Tiger Swipe",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN047"],
     sets: [Release.Dynasty],
@@ -84565,7 +86392,7 @@ Your next Brute attack this turn gains +2{p}.
 
     cost: 0,
     defense: 3,
-    functionalText: `**Combo** - If Crouching Tiger was the last attack this combat chain, this has +2{p}, **go again**, and “When this hits, create X Crouching Tigers in your banished zone, where X is the number of Crouching Tigers you control. You may play them this turn.”`,
+    functionalText: `**Combo** - If Crouching Tiger was the last attack this combat chain, this has +2{p}, **go again** and “When this hits, create X Crouching Tigers in your banished zone, where X is the number of Crouching Tigers you control. You may play them this turn.”`,
     
     
     
@@ -84595,13 +86422,14 @@ Your next Brute attack this turn gains +2{p}.
       
     },],
     name: "Mindstate of Tiger",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN048"],
     sets: [Release.Dynasty],
     specialImageName: "DYN048",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
-    typeText: "Ninja Action – Attack",
+    typeText: "Ninja Action – Aura",
 
     cost: 0,
     defense: 3,
@@ -84623,7 +86451,7 @@ Your next Brute attack this turn gains +2{p}.
     
     
   },{
-    artists: ["Sarlya Asavametha"],
+    artists: ["Sariya Asavametha"],
     cardIdentifier: "roar-of-the-tiger-yellow",
     classes: [Class.Ninja],
     defaultImageName: "DYN049",
@@ -84635,6 +86463,7 @@ Your next Brute attack this turn gains +2{p}.
       
     },],
     name: "Roar of the Tiger",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN049"],
     sets: [Release.Dynasty],
@@ -84667,7 +86496,7 @@ Crouching Tigers you control gain +1{p} this turn.
     
     
   },{
-    artists: [],
+    artists: ["Isuardi Therianto"],
     cardIdentifier: "flex-claws-red",
     classes: [Class.Ninja],
     defaultImageName: "DYN050",
@@ -84679,6 +86508,7 @@ Crouching Tigers you control gain +1{p} this turn.
       
     },],
     name: "Flex Claws",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN050"],
     sets: [Release.Dynasty],
@@ -84721,6 +86551,7 @@ Crouching Tigers you control gain +1{p} this turn.
       
     },],
     name: "Flex Claws",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN051"],
     sets: [Release.Dynasty],
@@ -84763,6 +86594,7 @@ Crouching Tigers you control gain +1{p} this turn.
       
     },],
     name: "Flex Claws",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN052"],
     sets: [Release.Dynasty],
@@ -84805,6 +86637,7 @@ Crouching Tigers you control gain +1{p} this turn.
       
     },],
     name: "Blessing of Qi",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN053"],
     sets: [Release.Dynasty],
@@ -84845,6 +86678,7 @@ Crouching Tigers you control gain +1{p} this turn.
       
     },],
     name: "Blessing of Qi",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN054"],
     sets: [Release.Dynasty],
@@ -84885,6 +86719,7 @@ Crouching Tigers you control gain +1{p} this turn.
       
     },],
     name: "Blessing of Qi",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN055"],
     sets: [Release.Dynasty],
@@ -84925,6 +86760,7 @@ Crouching Tigers you control gain +1{p} this turn.
       
     },],
     name: "Pouncing Qi",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN056"],
     sets: [Release.Dynasty],
@@ -84965,6 +86801,7 @@ Crouching Tigers you control gain +1{p} this turn.
       
     },],
     name: "Pouncing Qi",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN057"],
     sets: [Release.Dynasty],
@@ -85005,6 +86842,7 @@ Crouching Tigers you control gain +1{p} this turn.
       
     },],
     name: "Pouncing Qi",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN058"],
     sets: [Release.Dynasty],
@@ -85045,6 +86883,7 @@ Crouching Tigers you control gain +1{p} this turn.
       
     },],
     name: "Qi Unleashed",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN059"],
     sets: [Release.Dynasty],
@@ -85085,6 +86924,7 @@ Crouching Tigers you control gain +1{p} this turn.
       
     },],
     name: "Qi Unleashed",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN060"],
     sets: [Release.Dynasty],
@@ -85125,6 +86965,7 @@ Crouching Tigers you control gain +1{p} this turn.
       
     },],
     name: "Qi Unleashed",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN061"],
     sets: [Release.Dynasty],
@@ -85162,7 +87003,7 @@ Crouching Tigers you control gain +1{p} this turn.
       identifier: "LGS122",
       name: "LGS122",
       set: Release.Promos,
-      
+      treatment: Treatment.EA,
     },{
       edition: ReleaseEdition.Promo,
       identifier: "DYN062",
@@ -85171,6 +87012,7 @@ Crouching Tigers you control gain +1{p} this turn.
       
     },],
     name: "Predatory Streak",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS122","DYN062"],
     sets: [Release.Promos,Release.Dynasty],
@@ -85204,15 +87046,22 @@ Crouching Tigers you control gain +1{p} this turn.
     artists: ["Immanuela Crovius"],
     cardIdentifier: "predatory-streak-yellow",
     classes: [Class.Ninja],
-    defaultImageName: "LGS123",
+    defaultImageName: "DYN063",
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS123",
       name: "LGS123",
       set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN063",
+      name: "DYN063",
+      set: Release.Dynasty,
       
     },],
     name: "Predatory Streak",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS123","DYN063"],
     sets: [Release.Promos,Release.Dynasty],
@@ -85246,15 +87095,22 @@ Crouching Tigers you control gain +1{p} this turn.
     artists: ["Immanuela Crovius"],
     cardIdentifier: "predatory-streak-blue",
     classes: [Class.Ninja],
-    defaultImageName: "LGS124",
+    defaultImageName: "DYN064",
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS124",
       name: "LGS124",
       set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN064",
+      name: "DYN064",
+      set: Release.Dynasty,
       
     },],
     name: "Predatory Streak",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS124","DYN064"],
     sets: [Release.Promos,Release.Dynasty],
@@ -85265,7 +87121,7 @@ Crouching Tigers you control gain +1{p} this turn.
 
     cost: 0,
     defense: 2,
-    functionalText: `Create 1 Crouching Tiger in your banished zone. You may play it this turn.
+    functionalText: `Create a Crouching Tiger in your banished zone. You may play it this turn.
 
 **Go again**`,
     
@@ -85295,19 +87151,26 @@ Crouching Tigers you control gain +1{p} this turn.
       name: "DYN065",
       set: Release.Dynasty,
       
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN065",
+      name: "DYN065_Marvel",
+      set: Release.Dynasty,
+      treatment: Treatment.AA,
     },],
     name: "Crouching Tiger",
+    rarities: [Rarity.Common,Rarity.Marvel],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN065"],
     sets: [Release.Dynasty],
-    specialImageName: "DYN065",
+    specialImageName: "DYN065_Marvel",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Ninja Action – Attack",
 
     cost: 0,
     
-    functionalText: `**Ephemeral** *(If Crouching Tiger would be put into a graveyard from anywhere, instead it ceases to exist)*
+    functionalText: `**Ephemeral** *(If Crouching Tiger would be put into a graveyard from anywhere, instead it ceases to exist.)*
 
 **Go again**`,
     
@@ -85317,7 +87180,7 @@ Crouching Tigers you control gain +1{p} this turn.
     keywords: [Keyword.Ephemeral,Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     
     
     
@@ -85339,6 +87202,7 @@ Crouching Tigers you control gain +1{p} this turn.
       
     },],
     name: "Spirit of Eirina",
+    rarities: [Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["DYN066"],
     sets: [Release.Dynasty],
@@ -85383,6 +87247,7 @@ You may play Lumina Ascension as though it were an instant.`,
       
     },],
     name: "Jubeel, Spellbane",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN067"],
     sets: [Release.Dynasty],
@@ -85393,7 +87258,7 @@ You may play Lumina Ascension as though it were an instant.`,
 
     
     
-    functionalText: `**Once per Turn Action** - {p} **Attack**
+    functionalText: `**Once per Turn Action** – {r}: **Attack**
 
 Whenever this hits a hero and you don’t control a Spellbane Aegis, create a Spellbane Aegis token. *(It’s an aura with “If your hero would be dealt arcane damage, you may destroy this to prevent 1 of that damage.”)*`,
     
@@ -85403,7 +87268,7 @@ Whenever this hits a hero and you don’t control a Spellbane Aegis, create a Sp
     
     
     
-    pitch: 0,
+    
     power: 3,
     restrictedFormats: [Format.Commoner],
     
@@ -85425,23 +87290,24 @@ Whenever this hits a hero and you don’t control a Spellbane Aegis, create a Sp
       
     },{
       edition: ReleaseEdition.Promo,
-      identifier: "DYN068_Marvel",
+      identifier: "DYN068",
       name: "DYN068_Marvel",
       set: Release.Dynasty,
-      treatment: Treatment.EA,
+      
     },],
     name: "Merciless Battleaxe",
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN068"],
     sets: [Release.Dynasty],
-    specialImageName: "DYN068_Marvel",
+    specialImageName: "DYN068",
     subtypes: [Subtype.Axe,Subtype.TwoHanded],
     types: [Type.Weapon],
     typeText: "Warrior Weapon – Axe (2H)",
 
     
     
-    functionalText: `**Once per Turn Action** - {r}{r}{r}: **Attack**
+    functionalText: `**Once per Turn Action** – {r}{r}{r}: **Atttack**
 
 Whenever Merciless Battleaxe attacks, if its {p} is greater than twice its base {p}, the attack gains **overpower**. *(This can’t be defended by more than 1 action card.)*`,
     
@@ -85451,7 +87317,7 @@ Whenever Merciless Battleaxe attacks, if its {p} is greater than twice its base 
     keywords: [Keyword.Overpower],
     
     
-    pitch: 0,
+    
     power: 3,
     restrictedFormats: [Format.Commoner],
     
@@ -85485,7 +87351,8 @@ Whenever Merciless Battleaxe attacks, if its {p} is greater than twice its base 
       
     },],
     name: "Quicksilver Dagger",
-    rarity: Rarity.Promo,
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
     setIdentifiers: ["LGS112","DYN069","DYN070"],
     sets: [Release.Promos,Release.Dynasty],
     specialImageName: "LGS112",
@@ -85495,7 +87362,7 @@ Whenever Merciless Battleaxe attacks, if its {p} is greater than twice its base 
 
     
     
-    functionalText: `**Once per Turn Action** - {r}: **Attack**
+    functionalText: `**Once per Turn Action** – {r}: **Attack**
 
 If another weapon you control has gained **go again** this turn, Quicksilver Dagger has **go again**.`,
     
@@ -85505,7 +87372,7 @@ If another weapon you control has gained **go again** this turn, Quicksilver Dag
     keywords: [Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     power: 1,
     
     
@@ -85527,6 +87394,7 @@ If another weapon you control has gained **go again** this turn, Quicksilver Dag
       
     },],
     name: "Cleave",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN071"],
     sets: [Release.Dynasty],
@@ -85567,12 +87435,19 @@ If another weapon you control has gained **go again** this turn, Quicksilver Dag
       name: "DYN072",
       set: Release.Dynasty,
       
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN072",
+      name: "DYN072_Special",
+      set: Release.Dynasty,
+      treatment: Treatment.EA,
     },],
     name: "Ironsong Pride",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN072"],
     sets: [Release.Dynasty],
-    specialImageName: "DYN072",
+    specialImageName: "DYN072_Special",
     subtypes: [Subtype.Aura],
     types: [Type.Instant],
     typeText: "Warrior Instant – Aura",
@@ -85613,6 +87488,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
       
     },],
     name: "Blessing of Steel",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN073"],
     sets: [Release.Dynasty],
@@ -85653,6 +87529,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
       
     },],
     name: "Blessing of Steel",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN074"],
     sets: [Release.Dynasty],
@@ -85693,6 +87570,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
       
     },],
     name: "Blessing of Steel",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN075"],
     sets: [Release.Dynasty],
@@ -85733,6 +87611,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
       
     },],
     name: "Precision Press",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN076"],
     sets: [Release.Dynasty],
@@ -85775,6 +87654,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
       
     },],
     name: "Precision Press",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN077"],
     sets: [Release.Dynasty],
@@ -85817,6 +87697,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
       
     },],
     name: "Precision Press",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN078"],
     sets: [Release.Dynasty],
@@ -85847,7 +87728,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     
     
   },{
-    artists: ["Tommy Shuartono"],
+    artists: ["Tommy Suhartono"],
     cardIdentifier: "puncture-red",
     classes: [Class.Warrior],
     defaultImageName: "DYN079",
@@ -85859,6 +87740,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
       
     },],
     name: "Puncture",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN079"],
     sets: [Release.Dynasty],
@@ -85887,7 +87769,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     
     
   },{
-    artists: ["Tommy Shuartono"],
+    artists: ["Tommy Suhartono"],
     cardIdentifier: "puncture-yellow",
     classes: [Class.Warrior],
     defaultImageName: "DYN080",
@@ -85899,6 +87781,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
       
     },],
     name: "Puncture",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN080"],
     sets: [Release.Dynasty],
@@ -85927,7 +87810,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     
     
   },{
-    artists: ["Tommy Shuartono"],
+    artists: ["Tommy Suhartono"],
     cardIdentifier: "puncture-blue",
     classes: [Class.Warrior],
     defaultImageName: "DYN081",
@@ -85939,6 +87822,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
       
     },],
     name: "Puncture",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN081"],
     sets: [Release.Dynasty],
@@ -85949,7 +87833,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
 
     cost: 1,
     defense: 3,
-    functionalText: `Target sword or dagger attack gains +2{p} and **piercing 1**. *(If it’s defended by an equipment, it has +1{p}.)*`,
+    functionalText: `Target sword or dagger attack gains +1{p} and **piercing 1**. *(If it’s defended by an equipment, it has +1{p}.)*`,
     
     
     
@@ -85979,6 +87863,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
       
     },],
     name: "Felling Swing",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN082"],
     sets: [Release.Dynasty],
@@ -86021,6 +87906,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
       
     },],
     name: "Felling Swing",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN083"],
     sets: [Release.Dynasty],
@@ -86063,6 +87949,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
       
     },],
     name: "Felling Swing",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN084"],
     sets: [Release.Dynasty],
@@ -86105,6 +87992,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
       
     },],
     name: "Visit the Imperial Forge",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN085"],
     sets: [Release.Dynasty],
@@ -86115,7 +88003,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
 
     cost: 0,
     defense: 3,
-    functionalText: `Sword and dagger attacks have **piercing 3** this turn. *(If it’s defended by an equipment, it has +1{p}.)*
+    functionalText: `Sword and dagger attacks have **piercing 3** this turn. *(If it’s defended by an equipment, it has +3{p}.)*
 
 **Go again**`,
     
@@ -86147,6 +88035,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
       
     },],
     name: "Visit the Imperial Forge",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN086"],
     sets: [Release.Dynasty],
@@ -86157,7 +88046,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
 
     cost: 0,
     defense: 3,
-    functionalText: `Sword and dagger attacks have **piercing 2** this turn. *(If it’s defended by an equipment, it has +1{p}.)*
+    functionalText: `Sword and dagger attacks have **piercing 2** this turn. *(If it’s defended by an equipment, it has +2{p}.)*
 
 **Go again**`,
     
@@ -86189,6 +88078,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
       
     },],
     name: "Visit the Imperial Forge",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN087"],
     sets: [Release.Dynasty],
@@ -86222,36 +88112,37 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     artists: ["Joseph Qiu"],
     cardIdentifier: "hanabi-blaster",
     classes: [Class.Mechanologist],
-    defaultImageName: "DYN088_Marvel",
+    defaultImageName: "DYN088",
     images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN088_Marvel",
-      name: "DYN088_Marvel",
-      set: Release.Dynasty,
-      treatment: Treatment.EA,
-    },{
       edition: ReleaseEdition.Promo,
       identifier: "DYN088",
       name: "DYN088",
       set: Release.Dynasty,
       
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN088",
+      name: "DYN088_Marvel",
+      set: Release.Dynasty,
+      
     },],
     name: "Hanabi Blaster",
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN088"],
     sets: [Release.Dynasty],
-    specialImageName: "DYN088_Marvel",
+    specialImageName: "DYN088",
     subtypes: [Subtype.Gun,Subtype.TwoHanded],
     types: [Type.Weapon],
     typeText: "Mechanologist Weapon – Gun (2H)",
 
     
     
-    functionalText: `**Once per Turn Action** - Remove 2 steam counters from Hanabi Blaster: **Attack**
+    functionalText: `**Once per Turn Action** – Remove 2 steam counters from Hanabi Blaster: **Atttack**
 
 **Overpower** *(This can’t be defended by more than 1 action card.)*
 
-The third time you play a card with **boost** each turn, put a steam counter on Hanabi Blaster`,
+The third time you play a card with **boost** each turn, put a steam counter on Hanabi Blaster.`,
     
     
     
@@ -86259,7 +88150,7 @@ The third time you play a card with **boost** each turn, put a steam counter on 
     keywords: [Keyword.Overpower],
     
     
-    pitch: 0,
+    
     power: 5,
     restrictedFormats: [Format.Commoner],
     
@@ -86269,7 +88160,7 @@ The third time you play a card with **boost** each turn, put a steam counter on 
     
     
   },{
-    artists: ["Angelina Tyschik"],
+    artists: ["Angelina Tyshchik"],
     cardIdentifier: "galvanic-bender",
     classes: [Class.Mechanologist],
     defaultImageName: "DYN089",
@@ -86281,6 +88172,7 @@ The third time you play a card with **boost** each turn, put a steam counter on 
       
     },],
     name: "Galvanic Bender",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN089"],
     sets: [Release.Dynasty],
@@ -86301,7 +88193,7 @@ The third time you play a card with **boost** each turn, put a steam counter on 
     keywords: [Keyword.Material,Keyword.Battleworn],
     
     
-    pitch: 0,
+    
     
     
     
@@ -86311,7 +88203,7 @@ The third time you play a card with **boost** each turn, put a steam counter on 
     
     
   },{
-    artists: ["Tanapon Wachirakui"],
+    artists: ["Tanapon Wachirakul"],
     cardIdentifier: "pulsewave-harpoon-red",
     classes: [Class.Mechanologist],
     defaultImageName: "DYN090",
@@ -86323,6 +88215,7 @@ The third time you play a card with **boost** each turn, put a steam counter on 
       
     },],
     name: "Pulsewave Harpoon",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN090"],
     sets: [Release.Dynasty],
@@ -86365,6 +88258,7 @@ The third time you play a card with **boost** each turn, put a steam counter on 
       
     },],
     name: "Bios Update",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN091"],
     sets: [Release.Dynasty],
@@ -86384,7 +88278,7 @@ The next time a Mechanologist item with cost 2 or less is banished to pay a **bo
     
     
     
-    keywords: [Keyword.Boost,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 1,
@@ -86400,21 +88294,22 @@ The next time a Mechanologist item with cost 2 or less is banished to pay a **bo
     artists: ["Sam Yang"],
     cardIdentifier: "construct-nitro-mechanoid-yellow",
     classes: [Class.Mechanologist],
-    defaultImageName: "DYN092_Marvel",
+    defaultImageName: "DYN092",
     images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN092_Marvel",
-      name: "DYN092_Marvel",
-      set: Release.Dynasty,
-      treatment: Treatment.EA,
-    },{
       edition: ReleaseEdition.Promo,
       identifier: "DYN092",
       name: "DYN092",
       set: Release.Dynasty,
       
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN092",
+      name: "DYN092_Marvel",
+      set: Release.Dynasty,
+      treatment: Treatment.EA,
     },],
     name: "Construct Nitro Mechanoid",
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN092"],
     sets: [Release.Dynasty],
@@ -86427,7 +88322,7 @@ The next time a Mechanologist item with cost 2 or less is banished to pay a **bo
     defense: 3,
     functionalText: `*(Constructs resolve flipped as an item in the arena.)*
 
-**Transform** target Mechanologist head, chest, arms, legs, weapon, and 3 Hyper Drivers you control into Nitro Mechanoid. If you don’t, **negate** this. *(Put them under Nitro Mechanoid. If you don’t, put this in the graveyard.)
+**Transform** target Mechanologist head, chest, arms, legs, weapon and 3 Hyper Drivers you control into Nitro Mechanoid. If you don’t, **negate** this. *(Put them under Nitro Mechanoid. If you don’t, put this in the graveyard.)*
 
 **Go again**`,
     
@@ -86450,15 +88345,22 @@ The next time a Mechanologist item with cost 2 or less is banished to pay a **bo
     artists: ["Sam Yang"],
     cardIdentifier: "nitro-mechanoid",
     classes: [Class.Mechanologist],
-    defaultImageName: "DYN092_Marvel_Back",
+    defaultImageName: "DYN092_Special.width-450",
     images: [{
       edition: ReleaseEdition.Promo,
-      identifier: "DYN092_Marvel_Back",
+      identifier: "DYN092",
+      name: "DYN092_Special.width-450",
+      set: Release.Dynasty,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN092",
       name: "DYN092_Marvel_Back",
       set: Release.Dynasty,
-      treatment: Treatment.EA,
+      treatment: Treatment.FA,
     },],
     name: "Nitro Mechanoid",
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN092"],
     sets: [Release.Dynasty],
@@ -86469,11 +88371,11 @@ The next time a Mechanologist item with cost 2 or less is banished to pay a **bo
 
     
     defense: 5,
-    functionalText: `**Action** - Banish a card from under Nitro Mechanoid: **Attack**
+    functionalText: `**Action** – Banish a card from under Nitro Mechanoid: **Attack**
 
 **Overpower** *(The defending hero can’t defend Nitro Mechanoid with more than 1 action card.)*
 
-**Tempter** *(When the combat chain closes, if this defended, put a -1{d} counter on it, then if it has 0{d}, destroy it.)*`,
+**Temper** *(When the combat chain closes, if this defended, put a -1{d} counter on it, then if it has 0{d}, destroy it.)*`,
     
     
     
@@ -86481,7 +88383,7 @@ The next time a Mechanologist item with cost 2 or less is banished to pay a **bo
     keywords: [Keyword.Overpower,Keyword.Temper],
     
     oppositeSideCardIdentifier: `construct-nitro-mechanoid-yellow`,
-    pitch: 0,
+    
     power: 5,
     restrictedFormats: [Format.Commoner],
     
@@ -86503,6 +88405,7 @@ The next time a Mechanologist item with cost 2 or less is banished to pay a **bo
       
     },],
     name: "Plasma Mainline",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN093"],
     sets: [Release.Dynasty],
@@ -86545,6 +88448,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
       
     },],
     name: "Powder Keg",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN094"],
     sets: [Release.Dynasty],
@@ -86585,6 +88489,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
       
     },],
     name: "Scramble Pulse",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN095"],
     sets: [Release.Dynasty],
@@ -86606,7 +88511,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     
     
     pitch: 1,
-    power: 7,
+    power: 5,
     restrictedFormats: [Format.Commoner],
     
     
@@ -86627,6 +88532,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
       
     },],
     name: "Scramble Pulse",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN096"],
     sets: [Release.Dynasty],
@@ -86648,7 +88554,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     
     
     pitch: 2,
-    power: 6,
+    power: 4,
     restrictedFormats: [Format.Commoner],
     
     
@@ -86669,6 +88575,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
       
     },],
     name: "Scramble Pulse",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN097"],
     sets: [Release.Dynasty],
@@ -86690,7 +88597,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     
     
     pitch: 3,
-    power: 5,
+    power: 3,
     restrictedFormats: [Format.Commoner],
     
     
@@ -86711,6 +88618,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
       
     },],
     name: "Blessing of Ingenuity",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN098"],
     sets: [Release.Dynasty],
@@ -86751,6 +88659,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
       
     },],
     name: "Blessing of Ingenuity",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN099"],
     sets: [Release.Dynasty],
@@ -86791,6 +88700,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
       
     },],
     name: "Blessing of Ingenuity",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN100"],
     sets: [Release.Dynasty],
@@ -86801,7 +88711,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
 
     cost: 1,
     defense: 3,
-    functionalText: `At the start of your turn, destroy Blessing of Ingenuity then put up to 1 Hyper Driver from your graveyard and/or banished zone into the arena.`,
+    functionalText: `At the start of your turn, destroy Blessing of Ingenuity then put up to 1 Hyper Driver from your graveyard or banished zone into the arena.`,
     
     
     
@@ -86831,6 +88741,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
       
     },],
     name: "Crankshaft",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN101"],
     sets: [Release.Dynasty],
@@ -86873,6 +88784,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
       
     },],
     name: "Crankshaft",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN102"],
     sets: [Release.Dynasty],
@@ -86915,6 +88827,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
       
     },],
     name: "Crankshaft",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN103"],
     sets: [Release.Dynasty],
@@ -86957,6 +88870,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
       
     },],
     name: "Jump Start",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN104"],
     sets: [Release.Dynasty],
@@ -86999,6 +88913,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
       
     },],
     name: "Jump Start",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN105"],
     sets: [Release.Dynasty],
@@ -87041,6 +88956,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
       
     },],
     name: "Jump Start",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN106"],
     sets: [Release.Dynasty],
@@ -87083,6 +88999,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
       
     },],
     name: "Urgent Delivery",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN107"],
     sets: [Release.Dynasty],
@@ -87093,12 +89010,12 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
 
     cost: 0,
     defense: 3,
-    functionalText: `When this hits, you may put a Mechanologist item from your hand into the arena with cost less than or equal to the number of times you’ve **boosted** this combat chain.`,
+    functionalText: `When this hits, you may put a Mechanologist item from your hand into the arena with cost less than or equal to the number of times you've **boosted** this combat chain.`,
     
     
     
     
-    keywords: [Keyword.Boost],
+    
     
     
     pitch: 1,
@@ -87123,6 +89040,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
       
     },],
     name: "Urgent Delivery",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN108"],
     sets: [Release.Dynasty],
@@ -87133,12 +89051,12 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
 
     cost: 0,
     defense: 3,
-    functionalText: `When this hits, you may put a Mechanologist item from your hand into the arena with cost less than or equal to the number of times you’ve **boosted** this combat chain.`,
+    functionalText: `When this hits, you may put a Mechanologist item from your hand into the arena with cost less than or equal to the number of times you've **boosted** this combat chain.`,
     
     
     
     
-    keywords: [Keyword.Boost],
+    
     
     
     pitch: 2,
@@ -87163,6 +89081,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
       
     },],
     name: "Urgent Delivery",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN109"],
     sets: [Release.Dynasty],
@@ -87173,12 +89092,12 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
 
     cost: 0,
     defense: 3,
-    functionalText: `When this hits, you may put a Mechanologist item from your hand into the arena with cost less than or equal to the number of times you’ve **boosted** this combat chain.`,
+    functionalText: `When this hits, you may put a Mechanologist item from your hand into the arena with cost less than or equal to the number of times you've **boosted** this combat chain.`,
     
     
     
     
-    keywords: [Keyword.Boost],
+    
     
     
     pitch: 3,
@@ -87203,6 +89122,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
       
     },],
     name: "Hyper Driver",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN111"],
     sets: [Release.Dynasty],
@@ -87215,7 +89135,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     
     functionalText: `Hyper Driver enters the arena with 2 steam counters on it. When Hyper Driver has no steam counters on it, destroy it.
 
-**Once per Turn Effect** - When you **boost** a card, remove a steam counter from Hyper Driver and gain {r}.`,
+Once per turn, when you **boost** a card, remove a steam counter from Hyper Driver and gain {r}.`,
     
     
     
@@ -87245,6 +89165,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
       
     },],
     name: "Hyper Driver",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN112"],
     sets: [Release.Dynasty],
@@ -87255,9 +89176,9 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
 
     cost: 1,
     
-    functionalText: `Hyper Driver enters the arena with a steam counter on it. When Hyper Driver has no steam counters on it, destroy it.
+    functionalText: `Hyper Driver enters the arena with a steam counters on it. When Hyper Driver has no steam counters on it, destroy it.
 
-**Once per Turn Effect** - When you **boost** a card, remove a steam counter from Hyper Driver and gain {r}.`,
+Once per turn, when you **boost** a card, remove a steam counter from Hyper Driver and gain {r}.`,
     
     
     
@@ -87287,6 +89208,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
       
     },],
     name: "Arakni, Huntsman",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN113"],
     sets: [Release.Dynasty],
@@ -87302,10 +89224,10 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     hero: Hero.Arakni,
     intellect: 4,
     
-    keywords: [Keyword.Contract],
+    
     life: 40,
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -87327,6 +89249,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
       
     },],
     name: "Arakni",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN114"],
     sets: [Release.Dynasty],
@@ -87342,10 +89265,10 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     hero: Hero.Arakni,
     intellect: 4,
     
-    keywords: [Keyword.Contract],
+    
     life: 20,
     
-    pitch: 0,
+    
     
     
     
@@ -87373,6 +89296,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
       
     },],
     name: "Spider’s Bite",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN115","DYN116"],
     sets: [Release.Dynasty],
@@ -87387,16 +89311,15 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
 
 **Piercing 1** *(If this is defended by an equipment, it has +1{p}.)*
 
-When this hits a hero, the next time they defend with 1 or more attack action cards this turn, those cards have -1{d} while defending.
-`,
+When this hits a hero, the next time they defend with 1 or more attack action cards this turn, those cards have -1{d} while defending.`,
     
     
     
     
-    keywords: [Keyword.Piercing],
+    keywords: [Keyword.Piercing,Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     power: 1,
     
     
@@ -87406,11 +89329,17 @@ When this hits a hero, the next time they defend with 1 or more attack action ca
     
     
   },{
-    artists: ["Sarlya Asavametha"],
+    artists: ["Sariya Asavametha"],
     cardIdentifier: "blacktek-whisperers",
     classes: [Class.Assassin],
     defaultImageName: "DYN117",
     images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "FAB110",
+      name: "FAB110",
+      set: Release.Promos,
+      
+    },{
       edition: ReleaseEdition.Promo,
       identifier: "DYN117",
       name: "DYN117",
@@ -87418,10 +89347,11 @@ When this hits a hero, the next time they defend with 1 or more attack action ca
       
     },],
     name: "Blacktek Whisperers",
+    rarities: [Rarity.Promo,Rarity.Legendary],
     rarity: Rarity.Legendary,
-    setIdentifiers: ["DYN117"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN117",
+    setIdentifiers: ["FAB110","DYN117"],
+    sets: [Release.Promos,Release.Dynasty],
+    specialImageName: "FAB110",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
     typeText: "Assassin Equipment – Leg",
@@ -87430,9 +89360,9 @@ When this hits a hero, the next time they defend with 1 or more attack action ca
     defense: 1,
     functionalText: `While Blacktek Whisperers is in your graveyard, at the start of your turn, you may destroy 2 Silvers you control. If you do, equip Blacktek Whisperers.
 
-**Attack Reaction** - Destroy Blacktek Whisperers: Target Assassin attack action card gains “When this hits a hero, it gains **go again**.”
+**Attack Reaction** – Destroy Blacktek Whisperers: Target Assassin attack action card gains “When this hits a hero, it gains **go again**.”
 
-**Battleworn** *(When the combat chain closes, if this defended, put a -1 {d} counter on it.)*`,
+**Battleworn** *(When the combat chain closes, if this defended, put a -1{d} counter on it.)*`,
     
     
     
@@ -87440,7 +89370,7 @@ When this hits a hero, the next time they defend with 1 or more attack action ca
     keywords: [Keyword.Battleworn,Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -87462,21 +89392,22 @@ When this hits a hero, the next time they defend with 1 or more attack action ca
       
     },],
     name: "Mask of Perdition",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN118"],
     sets: [Release.Dynasty],
     specialImageName: "DYN118",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
-    typeText: "Assassin Equipment – Head",
+    typeText: "Assasin Equipment – Head",
 
     
     defense: 1,
     functionalText: `While Mask of Perdition is in your graveyard, at the start of your turn, you may destroy 2 Silvers you control. If you do, equip Mask of Perdition.
 
-**Attack Reaction** - Destroy Mask of Perdition: Target Assassin attack action card gains “When this hits a hero banish the top card of their deck.”
+**Attack Reaction** – Destroy Mask of Perdition: Target Assassin attack action card gains "When this hits a hero, banish the top card of their deck."
 
-**Battleworn** *(When the combat chain closes, if this defended, put a -1 {d} counter on it.)*`,
+**Battleworn** *(When the combat chain closes, if this defended, put a -1{d} counter on it.)*`,
     
     
     
@@ -87484,7 +89415,7 @@ When this hits a hero, the next time they defend with 1 or more attack action ca
     keywords: [Keyword.Battleworn],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -87506,6 +89437,7 @@ When this hits a hero, the next time they defend with 1 or more attack action ca
       
     },],
     name: "Eradicate",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN119"],
     sets: [Release.Dynasty],
@@ -87547,7 +89479,8 @@ When this hits a hero, banish the top X cards of their deck, where X is the dama
       set: Release.Dynasty,
       
     },],
-    name: "Leave no Witnesses",
+    name: "Leave No Witnesses",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN120"],
     sets: [Release.Dynasty],
@@ -87558,7 +89491,7 @@ When this hits a hero, banish the top X cards of their deck, where X is the dama
 
     cost: 0,
     defense: 3,
-    functionalText: `**Contract**  - You are contracted to banish opponent’s red cards. Whenever you complete this contract, create a Silver token.
+    functionalText: `**Contract** – You are contracted to banish opponents' red cards. Whenever you complete this contract, create a Silver token.
 
 When this hits a hero, banish the top card of their deck and up to 1 card in their arsenal.`,
     
@@ -87587,7 +89520,7 @@ When this hits a hero, banish the top card of their deck and up to 1 card in the
       identifier: "FAB122",
       name: "FAB122",
       set: Release.Promos,
-      
+      treatment: Treatment.AA,
     },{
       edition: ReleaseEdition.Promo,
       identifier: "DYN121",
@@ -87596,6 +89529,7 @@ When this hits a hero, banish the top card of their deck and up to 1 card in the
       
     },],
     name: "Regicide",
+    rarities: [Rarity.Promo,Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["FAB122","DYN121"],
     sets: [Release.Promos,Release.Dynasty],
@@ -87642,6 +89576,7 @@ Regicide can’t be defended by cards with the same name as cards in the defendi
       
     },],
     name: "Surgical Extraction",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN122"],
     sets: [Release.Dynasty],
@@ -87652,7 +89587,7 @@ Regicide can’t be defended by cards with the same name as cards in the defendi
 
     cost: 2,
     defense: 3,
-    functionalText: `**Contract** - You are contracted to banish opponents’ blue cards. Whenever you complete this contract, create a Silver token.
+    functionalText: `**Contract**  – You are contracted to banish opponents' blue cards. Whenever you complete this contract, create a Silver token.
 
 When this hits a hero, banish the top card of their deck, then look at their hand and banish a card.`,
     
@@ -87684,6 +89619,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
       
     },],
     name: "Pay Day",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN123"],
     sets: [Release.Dynasty],
@@ -87724,6 +89660,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
       
     },],
     name: "Plunder the Poor",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN124"],
     sets: [Release.Dynasty],
@@ -87766,6 +89703,7 @@ When this hits a hero, banish the top card of their deck.`,
       
     },],
     name: "Plunder the Poor",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN125"],
     sets: [Release.Dynasty],
@@ -87808,6 +89746,7 @@ When this hits a hero, banish the top card of their deck.`,
       
     },],
     name: "Plunder the Poor",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN126"],
     sets: [Release.Dynasty],
@@ -87850,6 +89789,7 @@ When this hits a hero, banish the top card of their deck.`,
       
     },],
     name: "Rob the Rich",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN127"],
     sets: [Release.Dynasty],
@@ -87892,6 +89832,7 @@ When this hits a hero, banish the top card of their deck.`,
       
     },],
     name: "Rob the Rich",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN128"],
     sets: [Release.Dynasty],
@@ -87934,6 +89875,7 @@ When this hits a hero, banish the top card of their deck.`,
       
     },],
     name: "Rob the Rich",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN129"],
     sets: [Release.Dynasty],
@@ -87976,6 +89918,7 @@ When this hits a hero, banish the top card of their deck.`,
       
     },],
     name: "Shred",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN130"],
     sets: [Release.Dynasty],
@@ -88016,6 +89959,7 @@ When this hits a hero, banish the top card of their deck.`,
       
     },],
     name: "Shred",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN131"],
     sets: [Release.Dynasty],
@@ -88056,6 +90000,7 @@ When this hits a hero, banish the top card of their deck.`,
       
     },],
     name: "Shred",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN132"],
     sets: [Release.Dynasty],
@@ -88096,6 +90041,7 @@ When this hits a hero, banish the top card of their deck.`,
       
     },],
     name: "Annihilate the Armed",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN133"],
     sets: [Release.Dynasty],
@@ -88138,6 +90084,7 @@ When this hits a hero, banish the top card of their deck.`,
       
     },],
     name: "Annihilate the Armed",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN134"],
     sets: [Release.Dynasty],
@@ -88180,6 +90127,7 @@ When this hits a hero, banish the top card of their deck.`,
       
     },],
     name: "Annihilate the Armed",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN135"],
     sets: [Release.Dynasty],
@@ -88210,7 +90158,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
   },{
-    artists: ["Marco Gonzalez"],
+    artists: ["Marco González"],
     cardIdentifier: "fleece-the-frail-red",
     classes: [Class.Assassin],
     defaultImageName: "DYN136",
@@ -88222,6 +90170,7 @@ When this hits a hero, banish the top card of their deck.`,
       
     },],
     name: "Fleece the Frail",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN136"],
     sets: [Release.Dynasty],
@@ -88252,7 +90201,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
   },{
-    artists: ["Marco Gonzalez"],
+    artists: ["Marco González"],
     cardIdentifier: "fleece-the-frail-yellow",
     classes: [Class.Assassin],
     defaultImageName: "DYN137",
@@ -88264,6 +90213,7 @@ When this hits a hero, banish the top card of their deck.`,
       
     },],
     name: "Fleece the Frail",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN137"],
     sets: [Release.Dynasty],
@@ -88294,7 +90244,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
   },{
-    artists: ["Marco Gonzalez"],
+    artists: ["Marco González"],
     cardIdentifier: "fleece-the-frail-blue",
     classes: [Class.Assassin],
     defaultImageName: "DYN138",
@@ -88306,6 +90256,7 @@ When this hits a hero, banish the top card of their deck.`,
       
     },],
     name: "Fleece the Frail",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN138"],
     sets: [Release.Dynasty],
@@ -88348,6 +90299,7 @@ When this hits a hero, banish the top card of their deck.`,
       
     },],
     name: "Nix the Nimble",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN139"],
     sets: [Release.Dynasty],
@@ -88390,6 +90342,7 @@ When this hits a hero, banish the top card of their deck.`,
       
     },],
     name: "Nix the Nimble",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN140"],
     sets: [Release.Dynasty],
@@ -88432,6 +90385,7 @@ When this hits a hero, banish the top card of their deck.`,
       
     },],
     name: "Nix the Nimble",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN141"],
     sets: [Release.Dynasty],
@@ -88474,6 +90428,7 @@ When this hits a hero, banish the top card of their deck.`,
       
     },],
     name: "Sack the Shifty",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN142"],
     sets: [Release.Dynasty],
@@ -88516,6 +90471,7 @@ When this hits a hero, banish the top card of their deck.`,
       
     },],
     name: "Sack the Shifty",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN143"],
     sets: [Release.Dynasty],
@@ -88558,6 +90514,7 @@ When this hits a hero, banish the top card of their deck.`,
       
     },],
     name: "Sack the Shifty",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN144"],
     sets: [Release.Dynasty],
@@ -88600,6 +90557,7 @@ When this hits a hero, banish the top card of their deck.`,
       
     },],
     name: "Slay the Scholars",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN145"],
     sets: [Release.Dynasty],
@@ -88610,7 +90568,7 @@ When this hits a hero, banish the top card of their deck.`,
 
     cost: 0,
     defense: 3,
-    functionalText: `**Contract** - You are contracted to banish opponents' 'non-attack' action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+    functionalText: `**Contract** – You are contracted to banish opponents' 'non-attack' action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
 
 When this hits a hero, banish the top card of their deck.`,
     
@@ -88642,6 +90600,7 @@ When this hits a hero, banish the top card of their deck.`,
       
     },],
     name: "Slay the Scholars",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN146"],
     sets: [Release.Dynasty],
@@ -88652,7 +90611,7 @@ When this hits a hero, banish the top card of their deck.`,
 
     cost: 0,
     defense: 3,
-    functionalText: `**Contract** - You are contracted to banish opponents' 'non-attack' action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+    functionalText: `**Contract** – You are contracted to banish opponents' 'non-attack' action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
 
 When this hits a hero, banish the top card of their deck.`,
     
@@ -88684,6 +90643,7 @@ When this hits a hero, banish the top card of their deck.`,
       
     },],
     name: "Slay the Scholars",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN147"],
     sets: [Release.Dynasty],
@@ -88694,7 +90654,7 @@ When this hits a hero, banish the top card of their deck.`,
 
     cost: 0,
     defense: 3,
-    functionalText: `**Contract** - You are contracted to banish opponents' 'non-attack' action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+    functionalText: `**Contract** – You are contracted to banish opponents' 'non-attack' action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
 
 When this hits a hero, banish the top card of their deck.`,
     
@@ -88726,6 +90686,7 @@ When this hits a hero, banish the top card of their deck.`,
       
     },],
     name: "Cut to the Chase",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN148"],
     sets: [Release.Dynasty],
@@ -88768,6 +90729,7 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
       
     },],
     name: "Cut to the Chase",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN149"],
     sets: [Release.Dynasty],
@@ -88810,6 +90772,7 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
       
     },],
     name: "Cut to the Chase",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN150"],
     sets: [Release.Dynasty],
@@ -88843,32 +90806,33 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "sandscour-greatbow",
     classes: [Class.Ranger],
-    defaultImageName: "DYN151_Marvel",
+    defaultImageName: "DYN151",
     images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN151_Marvel",
-      name: "DYN151_Marvel",
-      set: Release.Dynasty,
-      treatment: Treatment.EA,
-    },{
       edition: ReleaseEdition.Promo,
       identifier: "DYN151",
       name: "DYN151",
       set: Release.Dynasty,
       
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN151",
+      name: "DYN151_Marvel",
+      set: Release.Dynasty,
+      
     },],
     name: "Sandscour Greatbow",
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN151"],
     sets: [Release.Dynasty],
-    specialImageName: "DYN151_Marvel",
+    specialImageName: "DYN151",
     subtypes: [Subtype.Bow,Subtype.TwoHanded],
     types: [Type.Weapon],
     typeText: "Ranger Weapon – Bow (2H)",
 
     
     
-    functionalText: `**Once per Turn Action** - {r}: Look at the top card of your deck. You may put an arrow from your hand or the top of your deck face up into your arsenal. **Go again**
+    functionalText: `**Once per Turn Action** – {r}: Look at the top card of your deck. You may put an arrow from your hand or the top of your deck face up into your arsenal. **Go again**
 
 Whenever an arrow is put face up in arsenal from your deck, put an aim counter on it.`,
     
@@ -88878,7 +90842,7 @@ Whenever an arrow is put face up in arsenal from your deck, put an aim counter o
     keywords: [Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -88900,6 +90864,7 @@ Whenever an arrow is put face up in arsenal from your deck, put an aim counter o
       
     },],
     name: "Hornet’s Sting",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN152"],
     sets: [Release.Dynasty],
@@ -88920,7 +90885,7 @@ Whenever an arrow is put face up in arsenal from your deck, put an aim counter o
     keywords: [Keyword.BladeBreak],
     
     
-    pitch: 0,
+    
     
     
     
@@ -88942,6 +90907,7 @@ Whenever an arrow is put face up in arsenal from your deck, put an aim counter o
       
     },],
     name: "Heat Seeker",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN153"],
     sets: [Release.Dynasty],
@@ -88972,7 +90938,7 @@ When this hits, at the beginning of your end phase, put the top card of your dec
     
     
   },{
-    artists: [],
+    artists: ["Narendra B Adi"],
     cardIdentifier: "immobilizing-shot-red",
     classes: [Class.Ranger],
     defaultImageName: "DYN154",
@@ -88984,6 +90950,7 @@ When this hits, at the beginning of your end phase, put the top card of your dec
       
     },],
     name: "Immobilizing Shot",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN154"],
     sets: [Release.Dynasty],
@@ -89024,6 +90991,7 @@ When this hits, at the beginning of your end phase, put the top card of your dec
       
     },],
     name: "Dead Eye",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN155"],
     sets: [Release.Dynasty],
@@ -89068,6 +91036,7 @@ If it has an aim counter, it gains “When this hits a hero, look at their hand 
       
     },],
     name: "Drill Shot",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN156"],
     sets: [Release.Dynasty],
@@ -89112,6 +91081,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
       
     },],
     name: "Drill Shot",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN157"],
     sets: [Release.Dynasty],
@@ -89156,6 +91126,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
       
     },],
     name: "Drill Shot",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN158"],
     sets: [Release.Dynasty],
@@ -89200,6 +91171,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
       
     },],
     name: "Blessing of Focus",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN159"],
     sets: [Release.Dynasty],
@@ -89210,7 +91182,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `At the start of your turn, destroy Blessing of Focus then **opt 3** and reveal the top card of your deck. If it’s an arrow, put it face up into your arsenal with an aim counter. *(Look at the top 2 cards of your deck. You may put them on the top and/or bottom in any order.)*`,
+    functionalText: `At the start of your turn, destroy Blessing of Focus then **opt 3** and reveal the top card of your deck. If it’s an arrow, put it face up into your arsenal with an aim counter. *(Look at the top 3 cards of your deck. You may put them on the top and/or bottom in any order.)*`,
     
     
     
@@ -89240,6 +91212,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
       
     },],
     name: "Blessing of Focus",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN160"],
     sets: [Release.Dynasty],
@@ -89280,6 +91253,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
       
     },],
     name: "Blessing of Focus",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN161"],
     sets: [Release.Dynasty],
@@ -89320,6 +91294,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
       
     },],
     name: "Hemorrhage Bore",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN162"],
     sets: [Release.Dynasty],
@@ -89362,6 +91337,7 @@ If Hemorrhage Bore has an aim counter, it has “When this hits a hero, destroy 
       
     },],
     name: "Hemorrhage Bore",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN163"],
     sets: [Release.Dynasty],
@@ -89404,6 +91380,7 @@ If Hemorrhage Bore has an aim counter, it has “When this hits a hero, destroy 
       
     },],
     name: "Hemorrhage Bore",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN164"],
     sets: [Release.Dynasty],
@@ -89446,6 +91423,7 @@ If Hemorrhage Bore has an aim counter, it has “When this hits a hero, destroy 
       
     },],
     name: "Long Shot",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN165"],
     sets: [Release.Dynasty],
@@ -89488,6 +91466,7 @@ If Long Shot has an aim counter, it has +2{p}.`,
       
     },],
     name: "Long Shot",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN166"],
     sets: [Release.Dynasty],
@@ -89530,6 +91509,7 @@ If Long Shot has an aim counter, it has +2{p}.`,
       
     },],
     name: "Long Shot",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN167"],
     sets: [Release.Dynasty],
@@ -89572,6 +91552,7 @@ If Long Shot has an aim counter, it has +2{p}.`,
       
     },],
     name: "Point the Tip",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN168"],
     sets: [Release.Dynasty],
@@ -89614,6 +91595,7 @@ If Long Shot has an aim counter, it has +2{p}.`,
       
     },],
     name: "Point the Tip",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN169"],
     sets: [Release.Dynasty],
@@ -89656,6 +91638,7 @@ If Long Shot has an aim counter, it has +2{p}.`,
       
     },],
     name: "Point the Tip",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN170"],
     sets: [Release.Dynasty],
@@ -89689,42 +91672,43 @@ If Long Shot has an aim counter, it has +2{p}.`,
     artists: ["Joseph Qiu"],
     cardIdentifier: "amethyst-tiara",
     classes: [Class.Runeblade],
-    defaultImageName: "DYN171_Marvel",
+    defaultImageName: "DYN171",
     images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN171_Marvel",
-      name: "DYN171_Marvel",
-      set: Release.Dynasty,
-      treatment: Treatment.EA,
-    },{
       edition: ReleaseEdition.Promo,
       identifier: "DYN171",
       name: "DYN171",
       set: Release.Dynasty,
       
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN171",
+      name: "DYN171_Marvel",
+      set: Release.Dynasty,
+      
     },],
     name: "Amethyst Tiara",
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN171"],
     sets: [Release.Dynasty],
-    specialImageName: "DYN171_Marvel",
+    specialImageName: "DYN171",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
     typeText: "Runeblade Equipment – Head",
 
     
     defense: 1,
-    functionalText: `**Instant** - Destroy Amethyst Tiara: Runechants you control have **spellvoid 1** this turn.
+    functionalText: `**Instant** – Destroy Amethyst Tiara: Runechants you control have **spellvoid 1** this turn. *(If your hero would be dealt arcane damage, you may destroy this to prevent 1 of that damage.)*
 
 **Blade Break** *(When the combat chain closes, if this defended, destroy it.)*`,
     
     
     
     
-    keywords: [Keyword.BladeBreak],
+    keywords: [Keyword.BladeBreak,Keyword.Spellvoid],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -89746,17 +91730,18 @@ If Long Shot has an aim counter, it has +2{p}.`,
       
     },],
     name: "Annals of Sutcliffe",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN172"],
     sets: [Release.Dynasty],
     specialImageName: "DYN172",
     subtypes: [Subtype.Book,Subtype.TwoHanded],
     types: [Type.Weapon],
-    typeText: "Runeblade Weapon – Book",
+    typeText: "Runeblade Weapon – Book (2H)",
 
     
     
-    functionalText: `**Once per Turn Action**  - {r}{r}{r}: Draw a card. If an attack action card and a ‘non-attack’ action card were pitched this way, create a Runechant token.`,
+    functionalText: `**Once per Turn Action** – {r}{r}{r}: Draw a card. If an attack action card and a ‘non-attack’ action card were pitched this way, create a Runechant token.`,
     
     
     
@@ -89764,7 +91749,7 @@ If Long Shot has an aim counter, it has +2{p}.`,
     
     
     
-    pitch: 0,
+    
     
     
     
@@ -89786,6 +91771,7 @@ If Long Shot has an aim counter, it has +2{p}.`,
       
     },],
     name: "Cryptic Crossing",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN173"],
     sets: [Release.Dynasty],
@@ -89826,6 +91812,7 @@ If Long Shot has an aim counter, it has +2{p}.`,
       
     },],
     name: "Diabolic Ultimatum",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN174"],
     sets: [Release.Dynasty],
@@ -89856,7 +91843,7 @@ If a ‘non-attack’ action card was pitched to play Diabolic Ultimatum, each h
     
     
   },{
-    artists: ["Marco Gonzalez"],
+    artists: ["Marco González"],
     cardIdentifier: "looming-doom-blue",
     classes: [Class.Runeblade],
     defaultImageName: "DYN175",
@@ -89868,11 +91855,12 @@ If a ‘non-attack’ action card was pitched to play Diabolic Ultimatum, each h
       
     },],
     name: "Looming Doom",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN175"],
     sets: [Release.Dynasty],
     specialImageName: "DYN175",
-    subtypes: [Subtype.NonAttack],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action – Aura",
 
@@ -89910,6 +91898,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
       
     },],
     name: "Deathly Duet",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN176"],
     sets: [Release.Dynasty],
@@ -89950,6 +91939,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
       
     },],
     name: "Deathly Duet",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN177"],
     sets: [Release.Dynasty],
@@ -89990,6 +91980,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
       
     },],
     name: "Deathly Duet",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN178"],
     sets: [Release.Dynasty],
@@ -90030,6 +92021,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
       
     },],
     name: "Blessing of Occult",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN179"],
     sets: [Release.Dynasty],
@@ -90070,6 +92062,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
       
     },],
     name: "Blessing of Occult",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN180"],
     sets: [Release.Dynasty],
@@ -90110,6 +92103,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
       
     },],
     name: "Blessing of Occult",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN181"],
     sets: [Release.Dynasty],
@@ -90150,6 +92144,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
       
     },],
     name: "Aether Slash",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN182"],
     sets: [Release.Dynasty],
@@ -90169,7 +92164,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
     
     
     pitch: 1,
-    power: 6,
+    power: 4,
     
     
     
@@ -90190,6 +92185,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
       
     },],
     name: "Aether Slash",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN183"],
     sets: [Release.Dynasty],
@@ -90209,7 +92205,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
     
     
     pitch: 2,
-    power: 5,
+    power: 3,
     
     
     
@@ -90230,6 +92226,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
       
     },],
     name: "Aether Slash",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN184"],
     sets: [Release.Dynasty],
@@ -90249,7 +92246,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
     
     
     pitch: 3,
-    power: 4,
+    power: 2,
     
     
     
@@ -90270,6 +92267,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
       
     },],
     name: "Runic Reaping",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN185"],
     sets: [Release.Dynasty],
@@ -90282,7 +92280,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
     defense: 2,
     functionalText: `The next Runeblade attack action card you play this turn gains “When this hits, create 3 Runechant tokens”.
 
-If an attack card was pitch to play Runic Reaping, the next Runeblade attack action card you play this turn gains +1{p}.
+If an attack card was pitched to play Runic Reaping, the next Runeblade attack action card you play this turn gains +1{p}.
 
 **Go again**`,
     
@@ -90314,6 +92312,7 @@ If an attack card was pitch to play Runic Reaping, the next Runeblade attack act
       
     },],
     name: "Runic Reaping",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN186"],
     sets: [Release.Dynasty],
@@ -90326,7 +92325,7 @@ If an attack card was pitch to play Runic Reaping, the next Runeblade attack act
     defense: 2,
     functionalText: `The next Runeblade attack action card you play this turn gains “When this hits, create 2 Runechant tokens”.
 
-If an attack card was pitch to play Runic Reaping, the next Runeblade attack action card you play this turn gains +1{p}.
+If an attack card was pitched to play Runic Reaping, the next Runeblade attack action card you play this turn gains +1{p}.
 
 **Go again**`,
     
@@ -90358,6 +92357,7 @@ If an attack card was pitch to play Runic Reaping, the next Runeblade attack act
       
     },],
     name: "Runic Reaping",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN187"],
     sets: [Release.Dynasty],
@@ -90370,7 +92370,7 @@ If an attack card was pitch to play Runic Reaping, the next Runeblade attack act
     defense: 2,
     functionalText: `The next Runeblade attack action card you play this turn gains “When this hits, create a Runechant token”.
 
-If an attack card was pitch to play Runic Reaping, the next Runeblade attack action card you play this turn gains +1{p}.
+If an attack card was pitched to play Runic Reaping, the next Runeblade attack action card you play this turn gains +1{p}.
 
 **Go again**`,
     
@@ -90402,6 +92402,7 @@ If an attack card was pitch to play Runic Reaping, the next Runeblade attack act
       
     },],
     name: "Sky Fire Lanterns",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN188"],
     sets: [Release.Dynasty],
@@ -90444,6 +92445,7 @@ If an attack card was pitch to play Runic Reaping, the next Runeblade attack act
       
     },],
     name: "Sky Fire Lanterns",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN189"],
     sets: [Release.Dynasty],
@@ -90486,6 +92488,7 @@ If an attack card was pitch to play Runic Reaping, the next Runeblade attack act
       
     },],
     name: "Sky Fire Lanterns",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN190"],
     sets: [Release.Dynasty],
@@ -90528,12 +92531,13 @@ If an attack card was pitch to play Runic Reaping, the next Runeblade attack act
       
     },{
       edition: ReleaseEdition.Promo,
-      identifier: "DYN192_Marvel",
+      identifier: "DYN192",
       name: "DYN192_Marvel",
       set: Release.Dynasty,
       treatment: Treatment.EA,
     },],
     name: "Surgent Aethertide",
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN192"],
     sets: [Release.Dynasty],
@@ -90544,7 +92548,7 @@ If an attack card was pitch to play Runic Reaping, the next Runeblade attack act
 
     
     
-    functionalText: `**Once per Turn Action** - {r}{r}: Deal 1 arcane damage to an opposing hero. **Go again**
+    functionalText: `**Once per Turn Action** – {r}{r}: Deal 1 arcane damage to an opposing hero. **Go again**
 
 The first card you play each turn with an arcane damage effect, instead deals that much arcane damage plus X, where X is the damage dealt by Surgent Aethertide this turn.`,
     
@@ -90554,7 +92558,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     keywords: [Keyword.GoAgain],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -90576,6 +92580,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
       
     },],
     name: "Seerstone",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN193"],
     sets: [Release.Dynasty],
@@ -90586,7 +92591,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
 
     
     
-    functionalText: `**Action** - {r}{r}{r}: Look at the top card of your deck. You may put it on the bottom. Create a Ponder token. *(It’s an aura with “At the beginning of your end phase, destroy Ponder and draw a card.”)*`,
+    functionalText: `**Action** – {r}{r}{r}: Look at the top card of your deck. You may put it on the bottom. Create a Ponder token. *(It’s an aura with “At the beginning of your end phase, destroy Ponder and draw a card.”)*`,
     
     
     
@@ -90594,7 +92599,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     
     
     
-    pitch: 0,
+    
     
     
     
@@ -90616,6 +92621,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
       
     },],
     name: "Mind Warp",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN194"],
     sets: [Release.Dynasty],
@@ -90658,6 +92664,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
       
     },],
     name: "Swell Tidings",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN195"],
     sets: [Release.Dynasty],
@@ -90700,6 +92707,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
       
     },],
     name: "Brainstorm",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN196"],
     sets: [Release.Dynasty],
@@ -90734,16 +92742,23 @@ The first card you play each turn with an arcane damage effect, instead deals th
     defaultImageName: "DYN197",
     images: [{
       edition: ReleaseEdition.Promo,
+      identifier: "FAB112",
+      name: "FAB112",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      edition: ReleaseEdition.Promo,
       identifier: "DYN197",
       name: "DYN197",
       set: Release.Dynasty,
       
     },],
     name: "Aether Quickening",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["DYN197"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN197",
+    setIdentifiers: ["FAB112","DYN197"],
+    sets: [Release.Promos,Release.Dynasty],
+    specialImageName: "FAB112",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
@@ -90776,16 +92791,23 @@ The first card you play each turn with an arcane damage effect, instead deals th
     defaultImageName: "DYN198",
     images: [{
       edition: ReleaseEdition.Promo,
+      identifier: "FAB113",
+      name: "FAB113",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      edition: ReleaseEdition.Promo,
       identifier: "DYN198",
       name: "DYN198",
       set: Release.Dynasty,
       
     },],
     name: "Aether Quickening",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["DYN198"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN198",
+    setIdentifiers: ["FAB113","DYN198"],
+    sets: [Release.Promos,Release.Dynasty],
+    specialImageName: "FAB113",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
@@ -90818,16 +92840,23 @@ The first card you play each turn with an arcane damage effect, instead deals th
     defaultImageName: "DYN199",
     images: [{
       edition: ReleaseEdition.Promo,
+      identifier: "FAB114",
+      name: "FAB114",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      edition: ReleaseEdition.Promo,
       identifier: "DYN199",
       name: "DYN199",
       set: Release.Dynasty,
       
     },],
     name: "Aether Quickening",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["DYN199"],
-    sets: [Release.Dynasty],
-    specialImageName: "DYN199",
+    setIdentifiers: ["FAB114","DYN199"],
+    sets: [Release.Promos,Release.Dynasty],
+    specialImageName: "FAB114",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
@@ -90861,7 +92890,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS116",
-      name: "dyn_card_Blessing_of_Aether_p1.width-10000",
+      name: "LGS116",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -90872,10 +92901,11 @@ The first card you play each turn with an arcane damage effect, instead deals th
       
     },],
     name: "Blessing of Aether",
-    rarity: Rarity.Promo,
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
     setIdentifiers: ["LGS116","DYN200"],
     sets: [Release.Promos,Release.Dynasty],
-    specialImageName: "dyn_card_Blessing_of_Aether_p1.width-10000",
+    specialImageName: "LGS116",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action – Aura",
@@ -90892,7 +92922,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     
     pitch: 1,
     
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -90906,10 +92936,10 @@ The first card you play each turn with an arcane damage effect, instead deals th
     defaultImageName: "DYN201",
     images: [{
       edition: ReleaseEdition.Promo,
-      identifier: "LGS116",
+      identifier: "LGS117",
       name: "LGS117",
       set: Release.Promos,
-      
+      treatment: Treatment.EA,
     },{
       edition: ReleaseEdition.Promo,
       identifier: "DYN201",
@@ -90918,7 +92948,8 @@ The first card you play each turn with an arcane damage effect, instead deals th
       
     },],
     name: "Blessing of Aether",
-    rarity: Rarity.Promo,
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
     setIdentifiers: ["LGS117","DYN201"],
     sets: [Release.Promos,Release.Dynasty],
     specialImageName: "LGS117",
@@ -90938,7 +92969,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     
     pitch: 2,
     
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -90952,10 +92983,10 @@ The first card you play each turn with an arcane damage effect, instead deals th
     defaultImageName: "DYN202",
     images: [{
       edition: ReleaseEdition.Promo,
-      identifier: "LGS116",
+      identifier: "LGS118",
       name: "LGS118",
       set: Release.Promos,
-      
+      treatment: Treatment.EA,
     },{
       edition: ReleaseEdition.Promo,
       identifier: "DYN202",
@@ -90964,7 +92995,8 @@ The first card you play each turn with an arcane damage effect, instead deals th
       
     },],
     name: "Blessing of Aether",
-    rarity: Rarity.Promo,
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
     setIdentifiers: ["LGS118","DYN202"],
     sets: [Release.Promos,Release.Dynasty],
     specialImageName: "LGS118",
@@ -90984,7 +93016,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     
     pitch: 3,
     
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -91004,6 +93036,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
       
     },],
     name: "Prognosticate",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN203"],
     sets: [Release.Dynasty],
@@ -91046,6 +93079,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
       
     },],
     name: "Prognosticate",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN204"],
     sets: [Release.Dynasty],
@@ -91088,6 +93122,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
       
     },],
     name: "Prognosticate",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN205"],
     sets: [Release.Dynasty],
@@ -91118,19 +93153,26 @@ The first card you play each turn with an arcane damage effect, instead deals th
     
     
   },{
-    artists: ["Riordan Delmiro"],
+    artists: ["Riordan Delmiro","Asep Ariyanto"],
     cardIdentifier: "sap-red",
     classes: [Class.Wizard],
-    defaultImageName: "FAB115",
+    defaultImageName: "DYN206",
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB115",
       name: "FAB115",
       set: Release.Promos,
       
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN206",
+      name: "DYN206",
+      set: Release.Dynasty,
+      
     },],
     name: "Sap",
-    rarity: Rarity.Promo,
+    rarities: [Rarity.Promo,Rarity.Common],
+    rarity: Rarity.Common,
     setIdentifiers: ["FAB115","DYN206"],
     sets: [Release.Promos,Release.Dynasty],
     specialImageName: "FAB115",
@@ -91140,9 +93182,9 @@ The first card you play each turn with an arcane damage effect, instead deals th
 
     cost: 0,
     defense: 3,
-    functionalText: `Deal 3 arcane damage to target hero
+    functionalText: `Deal 3 arcane damage to target hero.
 
-**Surge** - If this deals more than 3 damage to a hero, you may remove an energy counter from a permanent they control..`,
+**Surge** - If this deals more than 3 damage to a hero, you may remove an energy counter from a permanent they control.`,
     
     
     
@@ -91160,19 +93202,26 @@ The first card you play each turn with an arcane damage effect, instead deals th
     
     
   },{
-    artists: ["Riordan Delmiro"],
+    artists: ["Riordan Delmiro","Asep Ariyanto"],
     cardIdentifier: "sap-yellow",
     classes: [Class.Wizard],
-    defaultImageName: "FAB116",
+    defaultImageName: "DYN207",
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB116",
       name: "FAB116",
       set: Release.Promos,
       
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN207",
+      name: "DYN207",
+      set: Release.Dynasty,
+      
     },],
     name: "Sap",
-    rarity: Rarity.Promo,
+    rarities: [Rarity.Promo,Rarity.Common],
+    rarity: Rarity.Common,
     setIdentifiers: ["FAB116","DYN207"],
     sets: [Release.Promos,Release.Dynasty],
     specialImageName: "FAB116",
@@ -91182,9 +93231,9 @@ The first card you play each turn with an arcane damage effect, instead deals th
 
     cost: 0,
     defense: 3,
-    functionalText: `Deal 3 arcane damage to target hero
+    functionalText: `Deal 2 arcane damage to target hero.
 
-**Surge** - If this deals more than 3 damage to a hero, you may remove an energy counter from a permanent they control..`,
+**Surge** – If this deals more than 2 damage to a hero, you may remove an energy counter from a permanent they control.`,
     
     
     
@@ -91202,19 +93251,26 @@ The first card you play each turn with an arcane damage effect, instead deals th
     
     
   },{
-    artists: ["Riordan Delmiro"],
+    artists: ["Riordan Delmiro","Asep Ariyanto"],
     cardIdentifier: "sap-blue",
     classes: [Class.Wizard],
-    defaultImageName: "FAB117",
+    defaultImageName: "DYN208",
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "FAB117",
       name: "FAB117",
       set: Release.Promos,
       
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN208",
+      name: "DYN208",
+      set: Release.Dynasty,
+      
     },],
     name: "Sap",
-    rarity: Rarity.Promo,
+    rarities: [Rarity.Promo,Rarity.Common],
+    rarity: Rarity.Common,
     setIdentifiers: ["FAB117","DYN208"],
     sets: [Release.Promos,Release.Dynasty],
     specialImageName: "FAB117",
@@ -91224,9 +93280,9 @@ The first card you play each turn with an arcane damage effect, instead deals th
 
     cost: 0,
     defense: 3,
-    functionalText: `Deal 1 arcane damage to target hero
+    functionalText: `Deal 1 arcane damage to target hero.
 
-**Surge** - If this deals more than 1 damage to a hero, you may remove an energy counter from a permanent they control..`,
+**Surge** – If this deals more than 1 damage to a hero, you may remove an energy counter from a permanent they control.`,
     
     
     
@@ -91256,6 +93312,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
       
     },],
     name: "Tempest Aurora",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN209"],
     sets: [Release.Dynasty],
@@ -91298,6 +93355,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
       
     },],
     name: "Tempest Aurora",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN210"],
     sets: [Release.Dynasty],
@@ -91340,6 +93398,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
       
     },],
     name: "Tempest Aurora",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN211"],
     sets: [Release.Dynasty],
@@ -91382,12 +93441,13 @@ The first card you play each turn with an arcane damage effect, instead deals th
       
     },{
       edition: ReleaseEdition.Promo,
-      identifier: "DYN212_Marvel",
+      identifier: "DYN212",
       name: "DYN212_Marvel",
       set: Release.Dynasty,
       treatment: Treatment.EA,
     },],
     name: "Invoke Suraya",
+    rarities: [Rarity.Legendary,Rarity.Marvel],
     rarity: Rarity.Legendary,
     setIdentifiers: ["DYN212"],
     sets: [Release.Dynasty],
@@ -91423,15 +93483,22 @@ The first card you play each turn with an arcane damage effect, instead deals th
     artists: ["Alexander Mokhov"],
     cardIdentifier: "suraya-archangel-of-knowledge",
     classes: [Class.Illusionist],
-    defaultImageName: "DYN212_Marvel_Back",
+    defaultImageName: "DYN212_BACK",
     images: [{
       edition: ReleaseEdition.Promo,
-      identifier: "DYN212_Marvel",
+      identifier: "DYN212",
+      name: "DYN212_BACK",
+      set: Release.Dynasty,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN212",
       name: "DYN212_Marvel_Back",
       set: Release.Dynasty,
-      treatment: Treatment.EA,
+      treatment: Treatment.FA,
     },],
     name: "Suraya, Archangel of Knowledge",
+    rarities: [Rarity.Legendary,Rarity.Marvel],
     rarity: Rarity.Legendary,
     setIdentifiers: ["DYN212"],
     sets: [Release.Dynasty],
@@ -91442,9 +93509,9 @@ The first card you play each turn with an arcane damage effect, instead deals th
 
     
     
-    functionalText: `**Once per Turn Action** - {p}{p}: **Attack**. Whenever Suraya attacks, you may banish a Light card from your hero’s soul. If you do, Suraya deals 1 arcane damage to any target.
+    functionalText: `**Once per Turn Action** – {p}{p}: **Attack**. Whenever Suraya attacks, you may banish a Light card from your hero’s soul. If you do, Suraya deals 1 arcane damage to any target.
 
-Whenever Suraya deals damage, you gain that much {l}.
+Whenever Suraya deals damage, you gain that much {h}.
 
 **Ward 4** *(If your hero would be dealt damage, prevent 4 of that damage and destroy Suraya.)*`,
     
@@ -91454,7 +93521,7 @@ Whenever Suraya deals damage, you gain that much {l}.
     keywords: [Keyword.Ward],
     life: 4,
     oppositeSideCardIdentifier: `invoke-suraya-yellow`,
-    pitch: 0,
+    
     power: 4,
     restrictedFormats: [Format.Commoner],
     
@@ -91467,21 +93534,22 @@ Whenever Suraya deals damage, you gain that much {l}.
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "celestial-kimono",
     classes: [Class.Illusionist],
-    defaultImageName: "DYN213_Marvel",
+    defaultImageName: "DYN213",
     images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN213_Marvel",
-      name: "DYN213_Marvel",
-      set: Release.Dynasty,
-      treatment: Treatment.EA,
-    },{
       edition: ReleaseEdition.Promo,
       identifier: "DYN213",
       name: "DYN213",
       set: Release.Dynasty,
       
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN213",
+      name: "DYN213_Marvel",
+      set: Release.Dynasty,
+      treatment: Treatment.EA,
     },],
     name: "Celestial Kimono",
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN213"],
     sets: [Release.Dynasty],
@@ -91502,7 +93570,7 @@ Whenever Suraya deals damage, you gain that much {l}.
     keywords: [Keyword.Ward],
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -91524,6 +93592,7 @@ Whenever Suraya deals damage, you gain that much {l}.
       
     },],
     name: "Wave of Reality",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN214"],
     sets: [Release.Dynasty],
@@ -91544,7 +93613,7 @@ Whenever Suraya deals damage, you gain that much {l}.
     keywords: [Keyword.Ward],
     
     
-    pitch: 0,
+    
     
     
     
@@ -91566,6 +93635,7 @@ Whenever Suraya deals damage, you gain that much {l}.
       
     },],
     name: "Phantasmal Symbiosis",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN215"],
     sets: [Release.Dynasty],
@@ -91608,6 +93678,7 @@ Whenever Suraya deals damage, you gain that much {l}.
       
     },],
     name: "Spectral Procession",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN216"],
     sets: [Release.Dynasty],
@@ -91650,6 +93721,7 @@ Whenever Suraya deals damage, you gain that much {l}.
       
     },],
     name: "Tome of Aeo",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN217"],
     sets: [Release.Dynasty],
@@ -91692,6 +93764,7 @@ Whenever Suraya deals damage, you gain that much {l}.
       
     },],
     name: "Blessing of Spirits",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN218"],
     sets: [Release.Dynasty],
@@ -91734,6 +93807,7 @@ Whenever Suraya deals damage, you gain that much {l}.
       
     },],
     name: "Blessing of Spirits",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN219"],
     sets: [Release.Dynasty],
@@ -91776,6 +93850,7 @@ Whenever Suraya deals damage, you gain that much {l}.
       
     },],
     name: "Blessing of Spirits",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN220"],
     sets: [Release.Dynasty],
@@ -91818,6 +93893,7 @@ Whenever Suraya deals damage, you gain that much {l}.
       
     },],
     name: "Tranquil Passing",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN221"],
     sets: [Release.Dynasty],
@@ -91860,6 +93936,7 @@ Whenever Suraya deals damage, you gain that much {l}.
       
     },],
     name: "Tranquil Passing",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN222"],
     sets: [Release.Dynasty],
@@ -91902,6 +93979,7 @@ Whenever Suraya deals damage, you gain that much {l}.
       
     },],
     name: "Tranquil Passing",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN223"],
     sets: [Release.Dynasty],
@@ -91944,6 +94022,7 @@ Whenever Suraya deals damage, you gain that much {l}.
       
     },],
     name: "Spectral Prowler",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN224"],
     sets: [Release.Dynasty],
@@ -91986,6 +94065,7 @@ Whenever Suraya deals damage, you gain that much {l}.
       
     },],
     name: "Spectral Prowler",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN225"],
     sets: [Release.Dynasty],
@@ -92028,6 +94108,7 @@ Whenever Suraya deals damage, you gain that much {l}.
       
     },],
     name: "Spectral Prowler",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN226"],
     sets: [Release.Dynasty],
@@ -92070,6 +94151,7 @@ Whenever Suraya deals damage, you gain that much {l}.
       
     },],
     name: "Spectral Rider",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN227"],
     sets: [Release.Dynasty],
@@ -92112,6 +94194,7 @@ Whenever Suraya deals damage, you gain that much {l}.
       
     },],
     name: "Spectral Rider",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN228"],
     sets: [Release.Dynasty],
@@ -92154,6 +94237,7 @@ Whenever Suraya deals damage, you gain that much {l}.
       
     },],
     name: "Spectral Rider",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN229"],
     sets: [Release.Dynasty],
@@ -92196,6 +94280,7 @@ Whenever Suraya deals damage, you gain that much {l}.
       
     },],
     name: "Water Glow Lanterns",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN230"],
     sets: [Release.Dynasty],
@@ -92238,6 +94323,7 @@ Whenever Suraya deals damage, you gain that much {l}.
       
     },],
     name: "Water Glow Lanterns",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN231"],
     sets: [Release.Dynasty],
@@ -92280,6 +94366,7 @@ Whenever Suraya deals damage, you gain that much {l}.
       
     },],
     name: "Water Glow Lanterns",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN232"],
     sets: [Release.Dynasty],
@@ -92313,8 +94400,20 @@ Whenever Suraya deals damage, you gain that much {l}.
     artists: ["Andy Aslamov"],
     cardIdentifier: "crown-of-dominion",
     classes: [Class.Generic],
-    defaultImageName: "DYN234_Marvel",
+    defaultImageName: "DYN234",
     images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "FAB111",
+      name: "FAB111",
+      set: Release.Promos,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN234",
+      name: "DYN234",
+      set: Release.Dynasty,
+      
+    },{
       edition: ReleaseEdition.Promo,
       identifier: "DYN234",
       name: "DYN234_Marvel",
@@ -92322,9 +94421,10 @@ Whenever Suraya deals damage, you gain that much {l}.
       treatment: Treatment.FA,
     },],
     name: "Crown of Dominion",
+    rarities: [Rarity.Promo,Rarity.Legendary,Rarity.Marvel],
     rarity: Rarity.Legendary,
-    setIdentifiers: ["DYN234"],
-    sets: [Release.Dynasty],
+    setIdentifiers: ["FAB111","DYN234"],
+    sets: [Release.Promos,Release.Dynasty],
     specialImageName: "DYN234_Marvel",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -92332,7 +94432,9 @@ Whenever Suraya deals damage, you gain that much {l}.
 
     
     
-    functionalText: `Your hero is Royal. When you equip Crown of Dominion, create a Gold token.`,
+    functionalText: `Your hero is Royal.
+
+When you equip Crown of Dominion, create a Gold token.`,
     
     
     
@@ -92340,7 +94442,7 @@ Whenever Suraya deals damage, you gain that much {l}.
     
     
     
-    pitch: 0,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -92362,6 +94464,7 @@ Whenever Suraya deals damage, you gain that much {l}.
       
     },],
     name: "Ornate Tessen",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN235"],
     sets: [Release.Dynasty],
@@ -92380,7 +94483,7 @@ Whenever Suraya deals damage, you gain that much {l}.
     
     
     
-    pitch: 0,
+    
     
     
     
@@ -92402,6 +94505,7 @@ Whenever Suraya deals damage, you gain that much {l}.
       
     },],
     name: "Spell Fray Tiara",
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN236"],
     sets: [Release.Dynasty],
@@ -92411,7 +94515,7 @@ Whenever Suraya deals damage, you gain that much {l}.
     typeText: "Generic Equipment – Head",
 
     
-    
+    defense: 0,
     functionalText: `**Spellvoid 1** *(If your hero would be dealt arcane damage, you may destroy Spell Fray Tiara to prevent 1 of that damage.)*`,
     
     
@@ -92420,7 +94524,7 @@ Whenever Suraya deals damage, you gain that much {l}.
     keywords: [Keyword.Spellvoid],
     
     
-    pitch: 0,
+    
     
     
     
@@ -92442,6 +94546,7 @@ Whenever Suraya deals damage, you gain that much {l}.
       
     },],
     name: "Imperial Edict",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN240"],
     sets: [Release.Dynasty],
@@ -92454,9 +94559,7 @@ Whenever Suraya deals damage, you gain that much {l}.
     
     functionalText: `**Legendary** *(You may only have 1 Imperial Edict in your deck.)*
 
-**Action** - Destroy Imperial Edict: Name a card. The named card can’t be played until the start of your next turn. If you are Royal, instead each opponent reveals their hand, then name a card.
-
-**Go again**`,
+**Action** – Destroy Imperial Edict: Name a card. The named card can’t be played until the start of your next turn. If you are Royal, instead each opponent reveals their hand, then name a card. **Go again**`,
     
     
     
@@ -92486,6 +94589,7 @@ Whenever Suraya deals damage, you gain that much {l}.
       
     },],
     name: "Imperial Ledger",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN241"],
     sets: [Release.Dynasty],
@@ -92498,7 +94602,7 @@ Whenever Suraya deals damage, you gain that much {l}.
     
     functionalText: `**Legendary** *(You may only have 1 Imperial Ledger in your deck.)*
 
-**Action** - Shuffle Imperial Ledger into its owner’s deck: Create a Copper token. If you are Royal, instead create a Gold token.`,
+**Action** – Shuffle Imperial Ledger into its owner’s deck: Create a Copper token. If you are Royal, instead create a Gold token.`,
     
     
     
@@ -92528,6 +94632,7 @@ Whenever Suraya deals damage, you gain that much {l}.
       
     },],
     name: "Imperial Warhorn",
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN242"],
     sets: [Release.Dynasty],
@@ -92570,6 +94675,7 @@ Whenever Suraya deals damage, you gain that much {l}.
       
     },],
     name: "Gold",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN243"],
     sets: [Release.Dynasty],
@@ -92585,10 +94691,10 @@ Whenever Suraya deals damage, you gain that much {l}.
     
     
     
+    keywords: [Keyword.GoAgain],
     
     
     
-    pitch: 0,
     
     
     
@@ -92610,13 +94716,14 @@ Whenever Suraya deals damage, you gain that much {l}.
       
     },],
     name: "Ponder",
-    rarity: Rarity.Token,
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
     setIdentifiers: ["DYN244"],
     sets: [Release.Dynasty],
     specialImageName: "DYN244",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
-    typeText: "Generic Token – Item",
+    typeText: "Generic Token – Aura",
 
     
     
@@ -92628,7 +94735,7 @@ Whenever Suraya deals damage, you gain that much {l}.
     
     
     
-    pitch: 0,
+    
     
     
     
@@ -92650,6 +94757,7 @@ Whenever Suraya deals damage, you gain that much {l}.
       
     },],
     name: "Spellbane Aegis",
+    rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN246"],
     sets: [Release.Dynasty],
@@ -92660,15 +94768,15 @@ Whenever Suraya deals damage, you gain that much {l}.
 
     
     
-    functionalText: `**Spellvoid 1** *(If your hero would be dealt arcane damage, you may prevent 1 of that damage and destroy Spellbane Aegis.)*`,
+    functionalText: `**Spellvoid 1** *(If your hero would be dealt arcane damage, you may destroy Spellbane Aegis to prevent 1 of that damage.)*`,
     
     
     
     
+    keywords: [Keyword.Spellvoid],
     
     
     
-    pitch: 0,
     
     
     
