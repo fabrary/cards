@@ -1,6 +1,7 @@
 import { readFileSync } from "fs";
 import { parse } from "papaparse";
 import { cards as libraryCards } from "../dist/index";
+import { Card as LibraryCard } from "../src/interfaces";
 import { Card, cards as publishedCards } from "fab-cards";
 
 const csv = readFileSync("src/card.csv", "utf8");
@@ -60,12 +61,12 @@ interface CardDifference {
 }
 interface CardWithDifference {
   differences: CardDifference[];
-  library: Card;
+  library: LibraryCard;
   published: Card;
 }
 const cardsWithDifferences: CardWithDifference[] = [];
 const isPropertySame = (
-  library: Card,
+  library: LibraryCard,
   published: Card,
   property: string,
   differences: CardDifference[]
@@ -85,7 +86,7 @@ const isPropertySame = (
   return isSame;
 };
 const isArrayPropertySame = (
-  library: Card,
+  library: LibraryCard,
   published: Card,
   property: string,
   differences: CardDifference[]

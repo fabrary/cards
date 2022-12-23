@@ -85,6 +85,13 @@ const getSpecialImageName = (card: ParsedCard): string => {
   );
   const fullArt = images.find((image) => image.treatment === Treatment.FA);
   const extendedArt = images.find((image) => image.treatment === Treatment.EA);
+  const alternateBorder = images.find(
+    (image) => image.treatment === Treatment.AB
+  );
+  const alternateText = images.find(
+    (image) => image.treatment === Treatment.AT
+  );
+  const doubleSided = images.find((image) => image.treatment === Treatment.DS);
   const firstEdition = images.find(
     (image) => image.edition === ReleaseEdition.First
   );
@@ -98,7 +105,10 @@ const getSpecialImageName = (card: ParsedCard): string => {
     images.length > 0
       ? fullArt?.name ||
         extendedArt?.name ||
+        alternateBorder?.name ||
+        doubleSided?.name ||
         alternativeArt?.name ||
+        alternateText?.name ||
         firstEdition?.name ||
         alphaEdition?.name ||
         unlimitedEdition?.name ||
