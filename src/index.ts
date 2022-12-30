@@ -5,7 +5,9 @@ import { writeFiles } from "./writer";
 const file = `${__dirname}/card.csv`;
 const outputDirectory = "data";
 
-const parsedCards = parseCardData(file);
+const spoilers = `${__dirname}/spoilers.csv`;
+
+const parsedCards = [...parseCardData(file), ...parseCardData(spoilers)];
 const cards = mapCardData(parsedCards);
 
 writeFiles(cards, outputDirectory);

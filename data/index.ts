@@ -94791,6 +94791,47 @@ When you equip Crown of Dominion, create a Gold token.`,
     
     
     
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "razors-edge-red",
+    classes: [Class.Assassin],
+    defaultImageName: "OUT042.original",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT042",
+      name: "OUT042.original",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Razor’s Edge",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT042"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT042.original",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin Attack Reaction",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `Target attack action card with **stealth** gains +3{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
   }];
 
   export const cards: Card[] = [

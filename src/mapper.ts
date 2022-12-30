@@ -374,6 +374,7 @@ const fullSetIdentifiers = {
   ELE: Release.TalesOfAria,
   EVR: Release.Everfest,
   MON: Release.Monarch,
+  OUT: Release.Outsiders,
   UPR: Release.Uprising,
   WTR: Release.WelcomeToRathe,
 };

@@ -109,6 +109,7 @@ export enum Release {
   HeroDeck = "Hero Deck",
   HistoryPack1 = "History Pack 1",
   Monarch = "Monarch",
+  Outsiders = "Outsiders",
   TalesOfAria = "Tales of Aria",
   Uprising = "Uprising",
   WelcomeToRathe = "Welcome to Rathe",
