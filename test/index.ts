@@ -12,13 +12,22 @@ const parsed = parse(csv, {
 });
 const parsedCards = parsed.data;
 
+const csvSpoilers = readFileSync("src/spoilers.csv", "utf8");
+const parsedSpoilers = parse(csvSpoilers, {
+  header: true,
+  dynamicTyping: true,
+  skipEmptyLines: true,
+});
+const parsedCardsSpoilers = parsedSpoilers.data;
+const totalCards = [...parsedCards, parsedCardsSpoilers];
+
 // Missing cards
 const libraryCardNames = libraryCards
   .map((card) => card.name)
   .filter((name) => name !== undefined && name !== null && name !== "");
 
 // @ts-ignore
-const parsedCardNames = parsedCards.map(
+const parsedCardNames = totalCards.map(
   (card) => (card as { Name: string }).Name
 );
 const cardsMissingFromLibrary = parsedCardNames.filter(
@@ -131,6 +140,10 @@ for (const published of publishedCards) {
   }
 }
 
+const difference = totalCards.length - libraryCards.length;
+const missing = difference < 0;
+const added = difference > 0;
+
 console.log(`
 There are ${publishedCardIdentifiers.length} published cards
 There are ${libraryCards.length} cards to be published
@@ -171,12 +184,13 @@ Cards without types: ${cardsWithoutTypes}
 }
 
 There are ${libraryCards.length} cards in dist/
-There are ${parsedCards.length} cards in the source .csv
-There are ${parsedCards.length - libraryCards.length} missing in dist/
+There are ${totalCards.length} cards in the source csvs
+${missing ? `There are ${missing} missing in dist/` : ``}
+${added ? `There are ${added} new cards in dist/` : ``}
 ${
   cardsMissingFromLibrary.length > 0
     ? `
-Cards missing from the library: ${cardsMissingFromLibrary}
+Cards missing from the library: ${cardsMissingFromLibrary.join(", ")}
 `
     : ``
 }

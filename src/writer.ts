@@ -1,48 +1,20 @@
 import { copyFileSync, existsSync, mkdirSync, writeFileSync } from "fs";
 import {
-  // ActionCard,
-  // ActionSubType,
-  Art,
   Card,
   Class,
-  // EquipmentCard,
-  // EquipmentSubType,
   Format,
   Fusion,
-  // HandsRequired,
   Hero,
-  // HeroCard,
-  // HeroSubType,
   Image,
   Keyword,
-  // MentorCard,
-  // PlaceholderCard,
-  // PlaceholderSubType,
   Rarity,
   Release,
   ReleaseEdition,
   Subtype,
-  // ResourceCard,
-  // ResourceSubType,
   Talent,
-  // TokenCard,
-  // TokenSubType,
   Treatment,
   Type,
-  // WeaponCard,
-  // WeaponSubType,
 } from "./interfaces";
-
-// interface AllCards {
-//   actions: ActionCard[];
-//   equipment: EquipmentCard[];
-//   heroes: HeroCard[];
-//   mentors: MentorCard[];
-//   placeholders: PlaceholderCard[];
-//   resources: ResourceCard[];
-//   tokens: TokenCard[];
-//   weapons: WeaponCard[];
-// }
 
 const getEnumValues = (values: any, enumName: string, enm: any) => {
   if (!values || (values.length === 1 && !values[0])) {
@@ -150,22 +122,7 @@ const generateCardTypeScript = (card: Card): String => {
   }`;
 };
 
-const makeSureDirectoryExists = (outputDirectory: string) => {
-  if (!existsSync(outputDirectory)) {
-    mkdirSync(outputDirectory);
-  }
-};
-
-const writeTS = (cards: Card[], outputDirectory: string) => {
-  const ts = generateTS(cards);
-  writeFileSync(`${outputDirectory}/index.ts`, ts);
-  copyFileSync(
-    `${__dirname}/interfaces.ts`,
-    `${outputDirectory}/interfaces.ts`
-  );
-};
-
-const generateTS = (cards: Card[]): string => {
+const generateTS = (artists: string[], cards: Card[]): string => {
   const cards1 = cards.slice(0, Math.ceil(cards.length / 4));
   const cards2 = cards.slice(
     Math.ceil(cards.length / 4),
@@ -204,16 +161,32 @@ const generateTS = (cards: Card[]): string => {
     ...cards2,
     ...cards3,
     ...cards4,
-  ]
+  ];
+
+  export const artists: string[] = [${artists
+    .map((artist) => `"${artist}"`)
+    .join(",")}];
 
   export * from "./interfaces";
   `;
   return ts;
 };
 
-export const writeFiles = (cards: Card[], outputDirectory: string) => {
-  makeSureDirectoryExists(outputDirectory);
-  // writeJson(cards);
-  // writeCSV();
-  writeTS(cards, outputDirectory);
+export const writeFiles = (
+  artists: string[],
+  cards: Card[],
+  outputDirectory: string
+) => {
+  // make sure directory exists
+  if (!existsSync(outputDirectory)) {
+    mkdirSync(outputDirectory);
+  }
+
+  // write typescript
+  const ts = generateTS(artists, cards);
+  writeFileSync(`${outputDirectory}/index.ts`, ts);
+  copyFileSync(
+    `${__dirname}/interfaces.ts`,
+    `${outputDirectory}/interfaces.ts`
+  );
 };
