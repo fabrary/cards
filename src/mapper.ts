@@ -1,26 +1,18 @@
 import {
-  // ActionSubType,
   Card,
   Class,
-  // EquipmentSubType,
   Format,
   Fusion,
-  // HandsRequired,
   Hero,
-  // HeroSubType,
   Image,
   Keyword,
-  // PlaceholderSubType,
   Rarity,
   Release,
   ReleaseEdition,
   Subtype,
-  // ResourceSubType,
   Talent,
-  // TokenSubType,
   Treatment,
   Type,
-  // WeaponSubType,
 } from "./interfaces";
 import { ParsedCard } from "./parser";
 

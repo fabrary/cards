@@ -162,7 +162,6 @@ export enum Type {
   Hero = "Hero",
   Instant = "Instant",
   Mentor = "Mentor",
-  PlaceholderCard = "Placeholder Card",
   Resource = "Resource",
   Token = "Token",
   Weapon = "Weapon",
