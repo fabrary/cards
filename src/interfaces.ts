@@ -284,7 +284,6 @@ export enum Keyword {
   Surge = "Surge",
   Temper = "Temper",
   Transform = "Transform",
-  Thaw = "Thaw",
   Unfreeze = "Unfreeze",
   Ward = "Ward",
 }
