@@ -5200,12 +5200,18 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
       name: "U-CRU045",
       set: Release.CrucibleOfWar,
       
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT045",
+      name: "OUT045.width-450",
+      set: Release.Outsiders,
+      
     },],
     name: "Katsu, the Wanderer",
     rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["HER003","HER023","WIN003","KSU001","1HP086","WTR076","CRU045"],
-    sets: [Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar],
+    setIdentifiers: ["HER003","HER023","WIN003","KSU001","1HP086","WTR076","CRU045","OUT045"],
+    sets: [Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar,Release.Outsiders],
     specialImageName: "CRU045",
     subtypes: [],
     types: [Type.Hero],
@@ -5277,12 +5283,18 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
       name: "U-WTR077",
       set: Release.WelcomeToRathe,
       
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT046",
+      name: "OUT046.width-450",
+      set: Release.Outsiders,
+      
     },],
     name: "Katsu",
     rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
     rarity: Rarity.Token,
-    setIdentifiers: ["HER007","HER056","XXX004","KSU002","1HP087","WTR077"],
-    sets: [Release.Promos,Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    setIdentifiers: ["HER007","HER056","XXX004","KSU002","1HP087","WTR077","OUT046"],
+    sets: [Release.Promos,Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.Outsiders],
     specialImageName: "WTR077",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -16311,12 +16323,18 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
       name: "U-CRU119",
       set: Release.CrucibleOfWar,
       
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT089",
+      name: "OUT089",
+      set: Release.Outsiders,
+      
     },],
     name: "Azalea, Ace in the Hole",
     rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["HER010","HER018","WIN006","1HP221","ARC038","CRU119"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar],
+    setIdentifiers: ["HER010","HER018","WIN006","1HP221","ARC038","CRU119","OUT089"],
+    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar,Release.Outsiders],
     specialImageName: "ARC038",
     subtypes: [],
     types: [Type.Hero],
@@ -16370,12 +16388,18 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
       name: "U-ARC039",
       set: Release.ArcaneRising,
       
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT090",
+      name: "OUT090",
+      set: Release.Outsiders,
+      
     },],
     name: "Azalea",
     rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["HER014","1HP222","ARC039"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
+    setIdentifiers: ["HER014","1HP222","ARC039","OUT090"],
+    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.Outsiders],
     specialImageName: "ARC039",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -26879,8 +26903,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Rio Sabda"],
     cardIdentifier: "barraging-big-horn-blue",
     classes: [Class.Brute],
@@ -26982,7 +27005,8 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Ksenia Belova"],
     cardIdentifier: "predatory-assault-yellow",
     classes: [Class.Brute],
@@ -28548,12 +28572,18 @@ At the beginning of your action phase, destroy Emerging Dominance then the next 
       name: "U-CRU047",
       set: Release.CrucibleOfWar,
       
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT047",
+      name: "OUT047.width-450",
+      set: Release.Outsiders,
+      
     },],
     name: "Benji, the Piercing Wind",
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["HER026","1HP088","CRU047"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar],
+    setIdentifiers: ["HER026","1HP088","CRU047","OUT047"],
+    sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar,Release.Outsiders],
     specialImageName: "CRU047-RF",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -51684,8 +51714,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     
     
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Oliver Morit"],
     cardIdentifier: "warmongers-recital-blue",
     classes: [Class.Generic],
@@ -51832,7 +51861,8 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     
     
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Dmitry Isakevitch"],
     cardIdentifier: "memorial-ground-yellow",
     classes: [Class.Generic],
@@ -74434,8 +74464,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     
     talents: [Talent.Draconic],
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "dracona-optimai",
     classes: [Class.Illusionist],
@@ -74627,7 +74656,8 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     
     talents: [Talent.Draconic],
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Steve Argyle"],
     cardIdentifier: "dominia",
     classes: [Class.Illusionist],
@@ -94727,6 +94757,129 @@ When you equip Crown of Dominion, create a Gold token.`,
     
     
   },{
+    artists: [],
+    cardIdentifier: "uzuri-switchblade",
+    classes: [Class.Assassin],
+    defaultImageName: "OUT001.width-450",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT001",
+      name: "OUT001.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Uzuri, Switchblade",
+    rarities: [Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["OUT001"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT001.width-450",
+    subtypes: [],
+    types: [Type.Hero],
+    typeText: "Assassin Hero",
+
+    
+    
+    
+    
+    hero: Hero.Uzuri,
+    intellect: 4,
+    
+    
+    life: 40,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: [],
+    cardIdentifier: "uzuri",
+    classes: [Class.Generic],
+    defaultImageName: "OUT002.width-450",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT002",
+      name: "OUT002.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Uzuri",
+    rarities: [Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["OUT002"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT002.width-450",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Assassin Hero – Young",
+
+    
+    
+    
+    
+    hero: Hero.Uzuri,
+    intellect: 4,
+    
+    
+    life: 20,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    young: true
+  },{
+    artists: [],
+    cardIdentifier: "arakni-solitary-confinement",
+    classes: [Class.Generic],
+    defaultImageName: "OUT003.width-450",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT003",
+      name: "OUT003.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Arakni, Solitary Confinement",
+    rarities: [Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["OUT003"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT003.width-450",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Assassin Hero – Young",
+
+    
+    
+    
+    
+    hero: Hero.Arakni,
+    intellect: 4,
+    
+    
+    life: 19,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    young: true
+  },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "razors-edge-red",
     classes: [Class.Assassin],
@@ -94759,6 +94912,139 @@ When you equip Crown of Dominion, create a Gold token.`,
     
     
     pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: [],
+    cardIdentifier: "riptide-lurker-of-the-deep",
+    classes: [Class.Ranger],
+    defaultImageName: "OUT091.width-450",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT091",
+      name: "OUT091.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Riptide, Lurker of the Deep",
+    rarities: [Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["OUT091"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT091.width-450",
+    subtypes: [],
+    types: [Type.Hero],
+    typeText: "Ranger Hero",
+
+    
+    
+    
+    
+    hero: Hero.Riptide,
+    intellect: 4,
+    
+    
+    life: 38,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: [],
+    cardIdentifier: "riptide",
+    classes: [Class.Ranger],
+    defaultImageName: "OUT092.width-450",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT092",
+      name: "OUT092.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Riptide",
+    rarities: [Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["OUT092"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT092.width-450",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Ranger Hero – Young",
+
+    
+    
+    
+    
+    hero: Hero.Riptide,
+    intellect: 4,
+    
+    
+    life: 19,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    young: true
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "codex-of-frailty-yellow",
+    classes: [Class.Assassin,Class.Ranger],
+    defaultImageName: "OUT160",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT160",
+      name: "OUT160",
+      set: Release.Outsiders,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT160_Marvel",
+      name: "OUT160_Marvel",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Codex of Frailty",
+    rarities: [Rarity.Majestic,Rarity.Marvel],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT160"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT160",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Assassin / Ranger Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `Each hero puts an attack action card from their graveyard face down into their arsenal. Each hero that does, discards a card.
+
+Create a Ponder token under your control and a Frailty token under each opponent's control.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
     
     
     
