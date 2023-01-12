@@ -94800,7 +94800,7 @@ When you equip Crown of Dominion, create a Gold token.`,
   },{
     artists: [],
     cardIdentifier: "uzuri",
-    classes: [Class.Generic],
+    classes: [Class.Assassin],
     defaultImageName: "OUT002.width-450",
     images: [{
       edition: ReleaseEdition.Promo,
@@ -94841,7 +94841,7 @@ When you equip Crown of Dominion, create a Gold token.`,
   },{
     artists: [],
     cardIdentifier: "arakni-solitary-confinement",
-    classes: [Class.Generic],
+    classes: [Class.Assassin],
     defaultImageName: "OUT003.width-450",
     images: [{
       edition: ReleaseEdition.Promo,
