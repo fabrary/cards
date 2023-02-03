@@ -1,6 +1,6 @@
 import { readFileSync } from "fs";
 import { parse } from "papaparse";
-import { cards as libraryCards } from "../dist/index";
+import { cards as cardsToPublish } from "../dist/index";
 import { Card as LibraryCard } from "../src/interfaces";
 import { Card, cards as publishedCards } from "fab-cards";
 
@@ -22,7 +22,7 @@ const parsedCardsSpoilers = parsedSpoilers.data;
 const totalCards = [...parsedCards, parsedCardsSpoilers];
 
 // Missing cards
-const libraryCardNames = libraryCards
+const libraryCardNames = cardsToPublish
   .map((card) => card.name)
   .filter((name) => name !== undefined && name !== null && name !== "");
 
@@ -35,7 +35,9 @@ const cardsMissingFromLibrary = parsedCardNames.filter(
 );
 
 // Cards with special characters in identifier
-const libraryCardIdentifiers = libraryCards.map((card) => card.cardIdentifier);
+const libraryCardIdentifiers = cardsToPublish.map(
+  (card) => card.cardIdentifier
+);
 
 const cardIdentifiersWithNonAlphanumeric = libraryCardIdentifiers.filter(
   (cardIdentifier) =>
@@ -43,7 +45,7 @@ const cardIdentifiersWithNonAlphanumeric = libraryCardIdentifiers.filter(
 );
 
 // Cards with null types
-const cardsWithoutTypes = libraryCards
+const cardsWithoutTypes = cardsToPublish
   .filter(({ types }) => !types)
   .map(({ cardIdentifier }) => cardIdentifier);
 
@@ -65,30 +67,30 @@ const addedIdentifiers = libraryCardIdentifiers.diff(publishedCardIdentifiers);
 // Cards with different properties
 interface CardDifference {
   property: string;
-  library: any;
+  toPublish: any;
   published: any;
 }
 interface CardWithDifference {
   differences: CardDifference[];
-  library: LibraryCard;
+  toPublish: LibraryCard;
   published: Card;
 }
 const cardsWithDifferences: CardWithDifference[] = [];
 const isPropertySame = (
-  library: LibraryCard,
+  readyToPublish: LibraryCard,
   published: Card,
   property: string,
   differences: CardDifference[]
 ) => {
-  const libraryProperty = library[property];
+  const toPublishProperty = readyToPublish[property];
   const publishedProperty = published[property];
   const isSame =
-    (!libraryProperty && !publishedProperty) ||
-    libraryProperty === publishedProperty;
+    (!toPublishProperty && !publishedProperty) ||
+    toPublishProperty === publishedProperty;
   if (!isSame) {
     differences.push({
       property,
-      library: libraryProperty,
+      toPublish: toPublishProperty,
       published: publishedProperty,
     });
   }
@@ -109,44 +111,50 @@ const isArrayPropertySame = (
   if (!isSame) {
     differences.push({
       property,
-      library: libraryProperty,
+      toPublish: libraryProperty,
       published: publishedProperty,
     });
   }
   return isSame;
 };
 for (const published of publishedCards) {
-  const library = libraryCards.find(
+  const toPublish = cardsToPublish.find(
     (library) => library.cardIdentifier === published.cardIdentifier
   );
-  if (library) {
+  if (toPublish) {
     const differences: CardDifference[] = [];
     const same =
-      isArrayPropertySame(library, published, "classes", differences) &&
-      isPropertySame(library, published, "cost", differences) &&
-      isPropertySame(library, published, "defense", differences) &&
-      isPropertySame(library, published, "defaultImageName", differences) &&
-      isPropertySame(library, published, "functionalText", differences) &&
-      isArrayPropertySame(library, published, "keywords", differences) &&
-      isPropertySame(library, published, "name", differences) &&
-      isPropertySame(library, published, "pitch", differences) &&
-      isPropertySame(library, published, "power", differences) &&
-      isArrayPropertySame(library, published, "rarities", differences) &&
-      isPropertySame(library, published, "specialImageName", differences) &&
-      isArrayPropertySame(library, published, "types", differences);
+      isArrayPropertySame(toPublish, published, "classes", differences) &&
+      isPropertySame(toPublish, published, "cost", differences) &&
+      isPropertySame(toPublish, published, "defense", differences) &&
+      isPropertySame(toPublish, published, "defaultImageName", differences) &&
+      isPropertySame(toPublish, published, "functionalText", differences) &&
+      isArrayPropertySame(toPublish, published, "keywords", differences) &&
+      isPropertySame(toPublish, published, "name", differences) &&
+      isPropertySame(toPublish, published, "pitch", differences) &&
+      isPropertySame(toPublish, published, "power", differences) &&
+      isArrayPropertySame(toPublish, published, "rarities", differences) &&
+      isArrayPropertySame(
+        toPublish,
+        published,
+        "restrictedFormats",
+        differences
+      ) &&
+      isPropertySame(toPublish, published, "specialImageName", differences) &&
+      isArrayPropertySame(toPublish, published, "types", differences);
     if (!same) {
-      cardsWithDifferences.push({ differences, library, published });
+      cardsWithDifferences.push({ differences, toPublish, published });
     }
   }
 }
 
-const difference = totalCards.length - libraryCards.length;
+const difference = totalCards.length - cardsToPublish.length;
 const missing = difference < 0;
 const added = difference > 0;
 
 console.log(`
 There are ${publishedCardIdentifiers.length} published cards
-There are ${libraryCards.length} cards to be published
+There are ${cardsToPublish.length} cards to be published
 ${
   addedIdentifiers.length > 0
     ? `
@@ -183,7 +191,7 @@ Cards without types: ${cardsWithoutTypes}
     : ``
 }
 
-There are ${libraryCards.length} cards in dist/
+There are ${cardsToPublish.length} cards in dist/
 There are ${totalCards.length} cards in the source csvs
 ${missing ? `There are ${missing} missing in dist/` : ``}
 ${added ? `There are new cards in dist/` : ``}
@@ -202,12 +210,12 @@ ${
 Cards with differences:
 ${cardsWithDifferences
   .map(
-    ({ differences, library, published }) =>
+    ({ differences, toPublish, published }) =>
       `${differences.map(
         (difference) => `${JSON.stringify(difference)}\n`
       )}${JSON.stringify({
         published,
-      })}\n${JSON.stringify({ library })}`
+      })}\n${JSON.stringify({ toPublish })}`
   )
   .join("\n\n\n")}`
     : ``

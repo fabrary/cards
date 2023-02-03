@@ -723,7 +723,7 @@ You create a Copper, Silver, and Gold.`,
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER054",
-      name: "HER054.width-450",
+      name: "HER054",
       set: Release.Promos,
       
     },{
@@ -2460,7 +2460,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS005",
-      name: "LGS005-P.width-450",
+      name: "LGS005",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -2505,7 +2505,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     rarity: Rarity.Common,
     setIdentifiers: ["LGS005","LGS022","RNR023","RVD023","1HP039","WTR031"],
     sets: [Release.Promos,Release.RhinarHeroDeck,Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.WelcomeToRathe],
-    specialImageName: "LGS005-P.width-450",
+    specialImageName: "LGS005",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Brute Action – Attack",
@@ -2974,7 +2974,7 @@ Your next Brute attack this turn gains +3{p}.
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER055",
-      name: "HER055.width-450",
+      name: "HER055",
       set: Release.Promos,
       
     },{
@@ -5200,18 +5200,12 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
       name: "U-CRU045",
       set: Release.CrucibleOfWar,
       
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "OUT045",
-      name: "OUT045.width-450",
-      set: Release.Outsiders,
-      
     },],
     name: "Katsu, the Wanderer",
     rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["HER003","HER023","WIN003","KSU001","1HP086","WTR076","CRU045","OUT045"],
-    sets: [Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar,Release.Outsiders],
+    setIdentifiers: ["HER003","HER023","WIN003","KSU001","1HP086","WTR076","CRU045"],
+    sets: [Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar],
     specialImageName: "CRU045",
     subtypes: [],
     types: [Type.Hero],
@@ -5250,7 +5244,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER056",
-      name: "HER056.width-450",
+      name: "HER056",
       set: Release.Promos,
       
     },{
@@ -5283,18 +5277,12 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
       name: "U-WTR077",
       set: Release.WelcomeToRathe,
       
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "OUT046",
-      name: "OUT046.width-450",
-      set: Release.Outsiders,
-      
     },],
     name: "Katsu",
     rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
     rarity: Rarity.Token,
-    setIdentifiers: ["HER007","HER056","XXX004","KSU002","1HP087","WTR077","OUT046"],
-    sets: [Release.Promos,Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.Outsiders],
+    setIdentifiers: ["HER007","HER056","XXX004","KSU002","1HP087","WTR077"],
+    sets: [Release.Promos,Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
     specialImageName: "WTR077",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -7421,7 +7409,7 @@ Draw a card.`,
     },{
       edition: ReleaseEdition.Promo,
       identifier: "HER057",
-      name: "HER057.width-450",
+      name: "HER057",
       set: Release.Promos,
       
     },{
@@ -16323,18 +16311,12 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
       name: "U-CRU119",
       set: Release.CrucibleOfWar,
       
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "OUT089",
-      name: "OUT089",
-      set: Release.Outsiders,
-      
     },],
     name: "Azalea, Ace in the Hole",
     rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["HER010","HER018","WIN006","1HP221","ARC038","CRU119","OUT089"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar,Release.Outsiders],
+    setIdentifiers: ["HER010","HER018","WIN006","1HP221","ARC038","CRU119"],
+    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar],
     specialImageName: "ARC038",
     subtypes: [],
     types: [Type.Hero],
@@ -16388,18 +16370,12 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
       name: "U-ARC039",
       set: Release.ArcaneRising,
       
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "OUT090",
-      name: "OUT090",
-      set: Release.Outsiders,
-      
     },],
     name: "Azalea",
     rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["HER014","1HP222","ARC039","OUT090"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.Outsiders],
+    setIdentifiers: ["HER014","1HP222","ARC039"],
+    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC039",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -28572,18 +28548,12 @@ At the beginning of your action phase, destroy Emerging Dominance then the next 
       name: "U-CRU047",
       set: Release.CrucibleOfWar,
       
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "OUT047",
-      name: "OUT047.width-450",
-      set: Release.Outsiders,
-      
     },],
     name: "Benji, the Piercing Wind",
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["HER026","1HP088","CRU047","OUT047"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar,Release.Outsiders],
+    setIdentifiers: ["HER026","1HP088","CRU047"],
+    sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU047-RF",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -50041,7 +50011,7 @@ The next attack action card with cost 0 you play this turn gains **go again.**
     
     pitch: 1,
     power: 3,
-    restrictedFormats: [Format.Commoner],
+    restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
     
     
     
@@ -50090,7 +50060,7 @@ The next attack action card with cost 0 you play this turn gains **go again.**
     
     pitch: 2,
     power: 2,
-    restrictedFormats: [Format.Commoner],
+    restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
     
     
     
@@ -50139,7 +50109,7 @@ The next attack action card with cost 0 you play this turn gains **go again.**
     
     pitch: 3,
     power: 1,
-    restrictedFormats: [Format.Commoner],
+    restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
     
     
     
@@ -52377,7 +52347,7 @@ If an Ice card is pitched this way, Winter’s Wail gains "If this hits a hero, 
     
     
     power: 4,
-    restrictedFormats: [Format.Commoner],
+    restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
     
     
     
@@ -61338,7 +61308,7 @@ If Polar Blast is played from arsenal, draw a card.
     
     pitch: 3,
     
-    
+    restrictedFormats: [Format.ClassicConstructed],
     
     
     
@@ -73278,7 +73248,7 @@ The second time you attack with Dawnblade each turn, it gains +1{p} until end of
     typeText: "Generic Equipment – Chest",
 
     
-    
+    defense: 0,
     functionalText: `**Action** - Destroy Blossom of Spring: Gain {r}. **Go again**`,
     
     
@@ -74656,8 +74626,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     
     talents: [Talent.Draconic],
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Steve Argyle"],
     cardIdentifier: "dominia",
     classes: [Class.Illusionist],
@@ -74704,7 +74673,8 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     
     talents: [Talent.Draconic],
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Federico Musetti"],
     cardIdentifier: "invoke-azvolai-red",
     classes: [Class.Illusionist],
@@ -80928,7 +80898,7 @@ At the beginning of your end phase, destroy Hypothermia.`,
     
     pitch: 3,
     
-    restrictedFormats: [Format.Blitz,Format.Commoner],
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
     
     
     
@@ -88316,11 +88286,11 @@ The next time a Mechanologist item with cost 2 or less is banished to pay a **bo
     artists: ["Sam Yang"],
     cardIdentifier: "nitro-mechanoid",
     classes: [Class.Mechanologist],
-    defaultImageName: "DYN092_Special.width-450",
+    defaultImageName: "DYN092_Back",
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "DYN092",
-      name: "DYN092_Special.width-450",
+      name: "DYN092_Back",
       set: Release.Dynasty,
       
     },{
@@ -89179,10 +89149,10 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
       
     },],
     name: "Arakni, Huntsman",
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Promo,Rarity.Majestic],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["DYN113"],
-    sets: [Release.Dynasty],
+    setIdentifiers: ["HER074","WIN020","DYN113"],
+    sets: [Release.Promos,Release.Dynasty],
     specialImageName: "DYN113",
     subtypes: [],
     types: [Type.Hero],
@@ -89498,13 +89468,19 @@ When this hits a hero, banish the top card of their deck and up to 1 card in the
       name: "DYN121",
       set: Release.Dynasty,
       
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN121",
+      name: "DYN121_Special",
+      set: Release.Dynasty,
+      treatment: Treatment.EA,
     },],
     name: "Regicide",
     rarities: [Rarity.Promo,Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["FAB122","DYN121"],
     sets: [Release.Promos,Release.Dynasty],
-    specialImageName: "FAB122",
+    specialImageName: "DYN121_Special",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Assassin Action – Attack",
@@ -90657,10 +90633,10 @@ When this hits a hero, banish the top card of their deck.`,
       
     },],
     name: "Cut to the Chase",
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["DYN148"],
-    sets: [Release.Dynasty],
+    setIdentifiers: ["LGS113","DYN148"],
+    sets: [Release.Promos,Release.Dynasty],
     specialImageName: "DYN148",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -90700,10 +90676,10 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
       
     },],
     name: "Cut to the Chase",
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["DYN149"],
-    sets: [Release.Dynasty],
+    setIdentifiers: ["LGS114","DYN149"],
+    sets: [Release.Promos,Release.Dynasty],
     specialImageName: "DYN149",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -90743,10 +90719,10 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
       
     },],
     name: "Cut to the Chase",
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["DYN150"],
-    sets: [Release.Dynasty],
+    setIdentifiers: ["LGS115","DYN150"],
+    sets: [Release.Promos,Release.Dynasty],
     specialImageName: "DYN150",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -91824,13 +91800,19 @@ If a ‘non-attack’ action card was pitched to play Diabolic Ultimatum, each h
       name: "DYN175",
       set: Release.Dynasty,
       
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "DYN175",
+      name: "DYN175_Special",
+      set: Release.Dynasty,
+      treatment: Treatment.EA,
     },],
     name: "Looming Doom",
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN175"],
     sets: [Release.Dynasty],
-    specialImageName: "DYN175",
+    specialImageName: "DYN175_Special",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action – Aura",
@@ -95046,6 +95028,49 @@ Create a Ponder token under your control and a Frailty token under each opponent
     
     pitch: 2,
     
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "death-touch-red",
+    classes: [Class.Assassin,Class.Ranger],
+    defaultImageName: "FAB132",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "FAB132",
+      name: "FAB132",
+      set: Release.Promos,
+      
+    },],
+    name: "Death Touch",
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["FAB132"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImageName: "FAB132",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ranger Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Death Touch can't be played from hand.
+
+When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 6,
     
     
     
