@@ -19,7 +19,7 @@ const parsedSpoilers = parse(csvSpoilers, {
   skipEmptyLines: true,
 });
 const parsedCardsSpoilers = parsedSpoilers.data;
-const totalCards = [...parsedCards, parsedCardsSpoilers];
+const totalCards = [...parsedCards, ...parsedCardsSpoilers];
 
 // Missing cards
 const libraryCardNames = cardsToPublish
@@ -138,6 +138,12 @@ for (const published of publishedCards) {
         toPublish,
         published,
         "restrictedFormats",
+        differences
+      ) &&
+      isArrayPropertySame(
+        toPublish,
+        published,
+        "setIdentifiers",
         differences
       ) &&
       isPropertySame(toPublish, published, "specialImageName", differences) &&

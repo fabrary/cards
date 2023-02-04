@@ -17,6 +17,1192 @@
   } from './interfaces';
 
   const cards1: Card[] = [{
+    artists: [],
+    cardIdentifier: "uzuri-switchblade",
+    classes: [Class.Assassin],
+    defaultImageName: "OUT001.width-450",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT001",
+      name: "OUT001.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Uzuri, Switchblade",
+    rarities: [Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["OUT001"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT001.width-450",
+    subtypes: [],
+    types: [Type.Hero],
+    typeText: "Assassin Hero",
+
+    
+    
+    
+    
+    hero: Hero.Uzuri,
+    intellect: 4,
+    
+    
+    life: 40,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: [],
+    cardIdentifier: "uzuri",
+    classes: [Class.Assassin],
+    defaultImageName: "OUT002.width-450",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT002",
+      name: "OUT002.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Uzuri",
+    rarities: [Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["OUT002"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT002.width-450",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Assassin Hero – Young",
+
+    
+    
+    
+    
+    hero: Hero.Uzuri,
+    intellect: 4,
+    
+    
+    life: 20,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    young: true
+  },{
+    artists: [],
+    cardIdentifier: "arakni-solitary-confinement",
+    classes: [Class.Assassin],
+    defaultImageName: "OUT003.width-450",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT003",
+      name: "OUT003.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Arakni, Solitary Confinement",
+    rarities: [Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["OUT003"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT003.width-450",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Assassin Hero – Young",
+
+    
+    
+    
+    
+    hero: Hero.Arakni,
+    intellect: 4,
+    
+    
+    life: 19,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    young: true
+  },{
+    artists: ["Mateusa Wisniewski"],
+    cardIdentifier: "spike-with-bloodrot-red",
+    classes: [Class.Assassin],
+    defaultImageName: "OUT021",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT021",
+      name: "OUT021",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Spike with Bloodrot",
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT021"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT021",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin Attack Reaction",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `Target attack action card with **stealth** gains +3{p} and "When this hits a hero, create a Bloodrot Pox token under their control."`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "spike-with-frailty-red",
+    classes: [Class.Assassin],
+    defaultImageName: "OUT022",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT022",
+      name: "OUT022",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Spike with Frailty",
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT022"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT022",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin Attack Reaction",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `Target attack action card with **stealth** gains +3{p} and "When this hits a hero, create a Frailty token under their control."`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "spike-with-inertia-red",
+    classes: [Class.Assassin],
+    defaultImageName: "OUT023",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT023",
+      name: "OUT023",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Spike with Inertia",
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT023"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT023",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin Attack Reaction",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `Target attack action card with **stealth** gains +3{p} and "When this hits a hero, create an Inertia token under their control."`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "infect-red",
+    classes: [Class.Assassin],
+    defaultImageName: "OUT024",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT024",
+      name: "OUT024",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Infect",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT024"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT024",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth** - When this hits a hero, create a Bloodrot Pox token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "sedate-red",
+    classes: [Class.Assassin],
+    defaultImageName: "OUT036",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT036",
+      name: "OUT036",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Sedate",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT036"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT036",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth** - When this hits a hero, create an Inertia token under their control`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Daria Khlebrikova"],
+    cardIdentifier: "wither-red",
+    classes: [Class.Assassin],
+    defaultImageName: "OUT039",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT039",
+      name: "OUT039",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Wither",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT039"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT039",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth** - When this hits a hero, create a Frailty token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "razors-edge-red",
+    classes: [Class.Assassin],
+    defaultImageName: "OUT042.original",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT042",
+      name: "OUT042.original",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Razor’s Edge",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT042"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT042.original",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin Attack Reaction",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `Target attack action card with **stealth** gains +3{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Adolfo Navarro"],
+    cardIdentifier: "katsu-the-wanderer",
+    classes: [Class.Ninja],
+    defaultImageName: "CRU045",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "HER003",
+      name: "HER003",
+      set: Release.Promos,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "HER023",
+      name: "HER023",
+      set: Release.Promos,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "KSU001",
+      name: "KSU.width-450",
+      set: Release.KatsuHeroDeck,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "1HP086",
+      name: "1HP086.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR076",
+      name: "WTR076",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR076",
+      name: "U-WTR076",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "CRU045",
+      name: "CRU045",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "CRU045",
+      name: "U-CRU045",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT045",
+      name: "OUT045.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Katsu, the Wanderer",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["HER003","HER023","WIN003","KSU001","1HP086","WTR076","CRU045","OUT045"],
+    sets: [Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar,Release.Outsiders],
+    specialImageName: "CRU045",
+    subtypes: [],
+    types: [Type.Hero],
+    typeText: "Ninja Hero",
+
+    
+    
+    functionalText: `The first time an attack action card you control hits, you may discard a card with cost 0. If you do, search your deck for a card with **combo**, banish it face up, then shuffle your deck. You may play it this turn.`,
+    
+    hero: Hero.Katsu,
+    intellect: 4,
+    
+    
+    life: 40,
+    
+    
+    
+    restrictedFormats: [Format.Blitz,Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Adolfo Navarro"],
+    cardIdentifier: "katsu",
+    classes: [Class.Ninja],
+    defaultImageName: "WTR077",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "HER007",
+      name: "HER007",
+      set: Release.Promos,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "HER056",
+      name: "HER056.width-450",
+      set: Release.Promos,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "XXX004",
+      name: "XXX004",
+      set: Release.Promos,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "KSU002",
+      name: "KSU2.width-450",
+      set: Release.KatsuHeroDeck,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "1HP087",
+      name: "1HP087.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR077",
+      name: "WTR077",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR077",
+      name: "U-WTR077",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT046",
+      name: "OUT046.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Katsu",
+    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
+    rarity: Rarity.Token,
+    setIdentifiers: ["HER007","HER056","XXX004","KSU002","1HP087","WTR077","OUT046"],
+    sets: [Release.Promos,Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.Outsiders],
+    specialImageName: "WTR077",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Ninja Hero – Young",
+
+    
+    
+    functionalText: `The first time an attack action card you control hits, you may discard a card with cost 0. If you do, search your deck for a card with **combo**, banish it face up, then shuffle your deck. You may play it this turn.`,
+    
+    hero: Hero.Katsu,
+    intellect: 4,
+    
+    
+    life: 20,
+    
+    
+    
+    restrictedFormats: [Format.ClassicConstructed],
+    
+    
+    
+    
+    
+    young: true
+  },{
+    artists: ["Sam Yang"],
+    cardIdentifier: "benji-the-piercing-wind",
+    classes: [Class.Ninja],
+    defaultImageName: "CRU047",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "HER026",
+      name: "HER026",
+      set: Release.Promos,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "1HP088",
+      name: "1HP088.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "CRU047",
+      name: "CRU047",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "CRU047",
+      name: "CRU047-RF",
+      set: Release.CrucibleOfWar,
+      treatment: Treatment.AT,
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "CRU047",
+      name: "U-CRU047",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT047",
+      name: "OUT047.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Benji, the Piercing Wind",
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HER026","1HP088","CRU047","OUT047"],
+    sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar,Release.Outsiders],
+    specialImageName: "CRU047-RF",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Ninja Hero – Young",
+
+    
+    
+    functionalText: `Attack action cards you control with 2 or less {p} can't be defended by cards from hand. *(This includes defense reaction cards.)*
+
+**Once per Turn Effect** - When an attack action card you control hits, your next attack this turn gains +1{p}.`,
+    
+    hero: Hero.Benji,
+    intellect: 4,
+    
+    
+    life: 17,
+    
+    
+    
+    restrictedFormats: [Format.ClassicConstructed],
+    
+    
+    
+    
+    
+    young: true
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "bonds-of-ancestry-red",
+    classes: [Class.Ninja],
+    defaultImageName: "OUT056",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT056",
+      name: "OUT056",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Bonds of Ancestry",
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT056"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT056",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Combo** - If a card with Gustwave in its name was the last attack this combat chain, this costs {r}{r} less to play, and has **go again** and When this attacks, you may banish a card wioth **combo** from your graveyard.  If you do, search your deck for a card with the same name, banish it, then shuffle.  You may play it this combat chain.`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo],
+    
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Maxim Kostin"],
+    cardIdentifier: "azalea-ace-in-the-hole",
+    classes: [Class.Ranger],
+    defaultImageName: "ARC038",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "HER010",
+      name: "HER010",
+      set: Release.Promos,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "HER018",
+      name: "HER018",
+      set: Release.Promos,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "1HP221",
+      name: "1HP221.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "ARC038",
+      name: "ARC038",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ARC038",
+      name: "U-ARC038",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "CRU119",
+      name: "CRU119",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "CRU119",
+      name: "U-CRU119",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT089",
+      name: "OUT089",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Azalea, Ace in the Hole",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["HER010","HER018","WIN006","1HP221","ARC038","CRU119","OUT089"],
+    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar,Release.Outsiders],
+    specialImageName: "ARC038",
+    subtypes: [],
+    types: [Type.Hero],
+    typeText: "Ranger Hero",
+
+    
+    
+    functionalText: `**Once per Turn Action** - 0: Put a card from your arsenal on the bottom of your deck. If you do, put the top card of your deck face up into your arsenal. If it’s an arrow card, it gains **dominate** until end of turn. **Go again** *(The defending hero can’t defend the attack with more than 1 card from their hand.)*`,
+    
+    hero: Hero.Azalea,
+    intellect: 4,
+    
+    keywords: [Keyword.Dominate,Keyword.GoAgain],
+    life: 40,
+    
+    
+    
+    restrictedFormats: [Format.Blitz,Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Maxim Kostin"],
+    cardIdentifier: "azalea",
+    classes: [Class.Ranger],
+    defaultImageName: "ARC039",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "HER014",
+      name: "HER014",
+      set: Release.Promos,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "1HP222",
+      name: "1HP222.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "ARC039",
+      name: "ARC039",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ARC039",
+      name: "U-ARC039",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT090",
+      name: "OUT090",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Azalea",
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["HER014","1HP222","ARC039","OUT090"],
+    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.Outsiders],
+    specialImageName: "ARC039",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Ranger Hero – Young",
+
+    
+    
+    functionalText: `**Once per Turn Action** - 0: Put a card from your arsenal on the bottom of your deck. If you do, put the top card of your deck face up into your arsenal. If it’s an arrow card, it gains **dominate** until end of turn. **Go again** *(The defending hero can’t defend the attack with more than 1 card from their hand.)*`,
+    
+    hero: Hero.Azalea,
+    intellect: 4,
+    
+    keywords: [Keyword.Dominate,Keyword.GoAgain],
+    life: 20,
+    
+    
+    
+    restrictedFormats: [Format.ClassicConstructed],
+    
+    
+    
+    
+    
+    young: true
+  },{
+    artists: [],
+    cardIdentifier: "riptide-lurker-of-the-deep",
+    classes: [Class.Ranger],
+    defaultImageName: "OUT091.width-450",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT091",
+      name: "OUT091.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Riptide, Lurker of the Deep",
+    rarities: [Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["OUT091"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT091.width-450",
+    subtypes: [],
+    types: [Type.Hero],
+    typeText: "Ranger Hero",
+
+    
+    
+    
+    
+    hero: Hero.Riptide,
+    intellect: 4,
+    
+    
+    life: 38,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: [],
+    cardIdentifier: "riptide",
+    classes: [Class.Ranger],
+    defaultImageName: "OUT092.width-450",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT092",
+      name: "OUT092.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Riptide",
+    rarities: [Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["OUT092"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT092.width-450",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Ranger Hero – Young",
+
+    
+    
+    
+    
+    hero: Hero.Riptide,
+    intellect: 4,
+    
+    
+    life: 19,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    young: true
+  },{
+    artists: ["Mark Poole"],
+    cardIdentifier: "quiver-of-rustling-leaves",
+    classes: [Class.Ranger],
+    defaultImageName: "OUT096",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT096",
+      name: "OUT096",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Quiver of Rustling Leaves",
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT096"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT096",
+    subtypes: [],
+    types: [Type.Equipment],
+    typeText: "Ranger Equipment - Quiver",
+
+    
+    
+    functionalText: ` *(A quiver can be equipped in a weapon zone in addition to a bow.)*
+
+**Instant** - {r}{r}{r}: Reveal the top card of your deck. If it's an arrow, put it face up into your arsenal and destroy Quiver of Rustling Leaves.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "codex-of-frailty-yellow",
+    classes: [Class.Assassin,Class.Ranger],
+    defaultImageName: "OUT160",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT160",
+      name: "OUT160",
+      set: Release.Outsiders,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT160_Marvel",
+      name: "OUT160_Marvel",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Codex of Frailty",
+    rarities: [Rarity.Majestic,Rarity.Marvel],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT160"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT160",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Assassin / Ranger Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `Each hero puts an attack action card from their graveyard face down into their arsenal. Each hero that does, discards a card.
+
+Create a Ponder token under your control and a Frailty token under each opponent's control.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "death-touch-red",
+    classes: [Class.Assassin,Class.Ranger],
+    defaultImageName: "FAB132",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "FAB132",
+      name: "FAB132",
+      set: Release.Promos,
+      
+    },],
+    name: "Death Touch",
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["FAB132"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImageName: "FAB132",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ranger Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Death Touch can't be played from hand.
+
+When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "bloodrot-pox",
+    classes: [Class.Generic],
+    defaultImageName: "LGS125",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "LGS125",
+      name: "LGS125",
+      set: Release.Promos,
+      
+    },],
+    name: "Bloodrot Pox",
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS125"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImageName: "LGS125",
+    subtypes: [Subtype.Aura],
+    types: [Type.Token],
+    typeText: "Generic Token - Aura",
+
+    
+    
+    functionalText: `At the beginning of your end phase, destroy Bloodrot Pox, then it deals 2 damage to you unless you pay {r}{r}{r}`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: [],
+    cardIdentifier: "frailty",
+    classes: [Class.Generic],
+    defaultImageName: "LGS126",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "LGS126",
+      name: "LGS126",
+      set: Release.Promos,
+      
+    },],
+    name: "Frailty",
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS126"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImageName: "LGS126",
+    subtypes: [Subtype.Aura],
+    types: [Type.Token],
+    typeText: "Generic Token - Aura",
+
+    
+    
+    functionalText: `Your attack action cards played from arsenal and weapon attacks have -1{p} - At the beginning of your end phase destro Frailty`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Othon Nikolaidis"],
+    cardIdentifier: "inertia",
+    classes: [Class.Generic],
+    defaultImageName: "LGS127",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "LGS127",
+      name: "LGS127",
+      set: Release.Promos,
+      
+    },],
+    name: "Inertia",
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS127"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImageName: "LGS127",
+    subtypes: [Subtype.Aura],
+    types: [Type.Token],
+    typeText: "Generic Token - Aura",
+
+    
+    
+    functionalText: `At the beginning of your end phase, destroy Inertia, then put all cards from your hand and arsenal on the bottom of your deck.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Sam Yang"],
     cardIdentifier: "shitty-xmas-present-yellow",
     classes: [Class.Generic],
@@ -5147,166 +6333,6 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     
     
     
-  },{
-    artists: ["Adolfo Navarro"],
-    cardIdentifier: "katsu-the-wanderer",
-    classes: [Class.Ninja],
-    defaultImageName: "CRU045",
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "HER003",
-      name: "HER003",
-      set: Release.Promos,
-      
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "HER023",
-      name: "HER023",
-      set: Release.Promos,
-      
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "KSU001",
-      name: "KSU.width-450",
-      set: Release.KatsuHeroDeck,
-      
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "1HP086",
-      name: "1HP086.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR076",
-      name: "WTR076",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR076",
-      name: "U-WTR076",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "CRU045",
-      name: "CRU045",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "CRU045",
-      name: "U-CRU045",
-      set: Release.CrucibleOfWar,
-      
-    },],
-    name: "Katsu, the Wanderer",
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["HER003","HER023","WIN003","KSU001","1HP086","WTR076","CRU045"],
-    sets: [Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar],
-    specialImageName: "CRU045",
-    subtypes: [],
-    types: [Type.Hero],
-    typeText: "Ninja Hero",
-
-    
-    
-    functionalText: `The first time an attack action card you control hits, you may discard a card with cost 0. If you do, search your deck for a card with **combo**, banish it face up, then shuffle your deck. You may play it this turn.`,
-    
-    hero: Hero.Katsu,
-    intellect: 4,
-    
-    
-    life: 40,
-    
-    
-    
-    restrictedFormats: [Format.Blitz,Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Adolfo Navarro"],
-    cardIdentifier: "katsu",
-    classes: [Class.Ninja],
-    defaultImageName: "WTR077",
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "HER007",
-      name: "HER007",
-      set: Release.Promos,
-      
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "HER056",
-      name: "HER056",
-      set: Release.Promos,
-      
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "XXX004",
-      name: "XXX004",
-      set: Release.Promos,
-      
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "KSU002",
-      name: "KSU2.width-450",
-      set: Release.KatsuHeroDeck,
-      
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "1HP087",
-      name: "1HP087.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR077",
-      name: "WTR077",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR077",
-      name: "U-WTR077",
-      set: Release.WelcomeToRathe,
-      
-    },],
-    name: "Katsu",
-    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
-    rarity: Rarity.Token,
-    setIdentifiers: ["HER007","HER056","XXX004","KSU002","1HP087","WTR077"],
-    sets: [Release.Promos,Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
-    specialImageName: "WTR077",
-    subtypes: [Subtype.Young],
-    types: [Type.Hero],
-    typeText: "Ninja Hero – Young",
-
-    
-    
-    functionalText: `The first time an attack action card you control hits, you may discard a card with cost 0. If you do, search your deck for a card with **combo**, banish it face up, then shuffle your deck. You may play it this turn.`,
-    
-    hero: Hero.Katsu,
-    intellect: 4,
-    
-    
-    life: 20,
-    
-    
-    
-    restrictedFormats: [Format.ClassicConstructed],
-    
-    
-    
-    
-    
-    young: true
   },{
     artists: ["Leo Avero"],
     cardIdentifier: "harmonized-kodachi",
@@ -16266,142 +17292,6 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     
   },{
     artists: ["Maxim Kostin"],
-    cardIdentifier: "azalea-ace-in-the-hole",
-    classes: [Class.Ranger],
-    defaultImageName: "ARC038",
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "HER010",
-      name: "HER010",
-      set: Release.Promos,
-      
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "HER018",
-      name: "HER018",
-      set: Release.Promos,
-      
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "1HP221",
-      name: "1HP221.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC038",
-      name: "ARC038",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ARC038",
-      name: "U-ARC038",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "CRU119",
-      name: "CRU119",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "CRU119",
-      name: "U-CRU119",
-      set: Release.CrucibleOfWar,
-      
-    },],
-    name: "Azalea, Ace in the Hole",
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["HER010","HER018","WIN006","1HP221","ARC038","CRU119"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar],
-    specialImageName: "ARC038",
-    subtypes: [],
-    types: [Type.Hero],
-    typeText: "Ranger Hero",
-
-    
-    
-    functionalText: `**Once per Turn Action** - 0: Put a card from your arsenal on the bottom of your deck. If you do, put the top card of your deck face up into your arsenal. If it’s an arrow card, it gains **dominate** until end of turn. **Go again** *(The defending hero can’t defend the attack with more than 1 card from their hand.)*`,
-    
-    hero: Hero.Azalea,
-    intellect: 4,
-    
-    keywords: [Keyword.Dominate,Keyword.GoAgain],
-    life: 40,
-    
-    
-    
-    restrictedFormats: [Format.Blitz,Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Maxim Kostin"],
-    cardIdentifier: "azalea",
-    classes: [Class.Ranger],
-    defaultImageName: "ARC039",
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "HER014",
-      name: "HER014",
-      set: Release.Promos,
-      
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "1HP222",
-      name: "1HP222.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC039",
-      name: "ARC039",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ARC039",
-      name: "U-ARC039",
-      set: Release.ArcaneRising,
-      
-    },],
-    name: "Azalea",
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["HER014","1HP222","ARC039"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
-    specialImageName: "ARC039",
-    subtypes: [Subtype.Young],
-    types: [Type.Hero],
-    typeText: "Ranger Hero – Young",
-
-    
-    
-    functionalText: `**Once per Turn Action** - 0: Put a card from your arsenal on the bottom of your deck. If you do, put the top card of your deck face up into your arsenal. If it’s an arrow card, it gains **dominate** until end of turn. **Go again** *(The defending hero can’t defend the attack with more than 1 card from their hand.)*`,
-    
-    hero: Hero.Azalea,
-    intellect: 4,
-    
-    keywords: [Keyword.Dominate,Keyword.GoAgain],
-    life: 20,
-    
-    
-    
-    restrictedFormats: [Format.ClassicConstructed],
-    
-    
-    
-    
-    
-    young: true
-  },{
-    artists: ["Maxim Kostin"],
     cardIdentifier: "death-dealer",
     classes: [Class.Ranger],
     defaultImageName: "ARC040",
@@ -26072,7 +26962,8 @@ If Force Sight is played from arsenal, **opt 2.** *(Look at the top 2 cards of y
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "sun-kiss-red",
     classes: [Class.Generic],
@@ -26981,8 +27872,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Ksenia Belova"],
     cardIdentifier: "predatory-assault-yellow",
     classes: [Class.Brute],
@@ -28503,73 +29393,6 @@ At the beginning of your action phase, destroy Emerging Dominance then the next 
     
     
     life: 20,
-    
-    
-    
-    restrictedFormats: [Format.ClassicConstructed],
-    
-    
-    
-    
-    
-    young: true
-  },{
-    artists: ["Sam Yang"],
-    cardIdentifier: "benji-the-piercing-wind",
-    classes: [Class.Ninja],
-    defaultImageName: "CRU047",
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "HER026",
-      name: "HER026",
-      set: Release.Promos,
-      
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "1HP088",
-      name: "1HP088.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "CRU047",
-      name: "CRU047",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "CRU047",
-      name: "CRU047-RF",
-      set: Release.CrucibleOfWar,
-      treatment: Treatment.AT,
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "CRU047",
-      name: "U-CRU047",
-      set: Release.CrucibleOfWar,
-      
-    },],
-    name: "Benji, the Piercing Wind",
-    rarities: [Rarity.Promo,Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["HER026","1HP088","CRU047"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar],
-    specialImageName: "CRU047-RF",
-    subtypes: [Subtype.Young],
-    types: [Type.Hero],
-    typeText: "Ninja Hero – Young",
-
-    
-    
-    functionalText: `Attack action cards you control with 2 or less {p} can't be defended by cards from hand. *(This includes defense reaction cards.)*
-
-**Once per Turn Effect** - When an attack action card you control hits, your next attack this turn gains +1{p}.`,
-    
-    hero: Hero.Benji,
-    intellect: 4,
-    
-    
-    life: 17,
     
     
     
@@ -51188,7 +52011,8 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     
     
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Faizal Fikri"],
     cardIdentifier: "yinti-yanti-yellow",
     classes: [Class.Generic],
@@ -51831,8 +52655,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     
     
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Dmitry Isakevitch"],
     cardIdentifier: "memorial-ground-yellow",
     classes: [Class.Generic],
@@ -74120,7 +74943,8 @@ When you pitch Blood of the Dracai, the next 3 Draconic cards you play this turn
     
     talents: [Talent.Draconic],
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Kate Fox"],
     cardIdentifier: "dromai-ash-artist",
     classes: [Class.Illusionist],
@@ -74673,8 +75497,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     
     talents: [Talent.Draconic],
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Federico Musetti"],
     cardIdentifier: "invoke-azvolai-red",
     classes: [Class.Illusionist],
@@ -94738,346 +95561,6 @@ When you equip Crown of Dominion, create a Gold token.`,
     
     
     
-  },{
-    artists: [],
-    cardIdentifier: "uzuri-switchblade",
-    classes: [Class.Assassin],
-    defaultImageName: "OUT001.width-450",
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "OUT001",
-      name: "OUT001.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    name: "Uzuri, Switchblade",
-    rarities: [Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["OUT001"],
-    sets: [Release.Outsiders],
-    specialImageName: "OUT001.width-450",
-    subtypes: [],
-    types: [Type.Hero],
-    typeText: "Assassin Hero",
-
-    
-    
-    
-    
-    hero: Hero.Uzuri,
-    intellect: 4,
-    
-    
-    life: 40,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: [],
-    cardIdentifier: "uzuri",
-    classes: [Class.Assassin],
-    defaultImageName: "OUT002.width-450",
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "OUT002",
-      name: "OUT002.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    name: "Uzuri",
-    rarities: [Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["OUT002"],
-    sets: [Release.Outsiders],
-    specialImageName: "OUT002.width-450",
-    subtypes: [Subtype.Young],
-    types: [Type.Hero],
-    typeText: "Assassin Hero – Young",
-
-    
-    
-    
-    
-    hero: Hero.Uzuri,
-    intellect: 4,
-    
-    
-    life: 20,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    young: true
-  },{
-    artists: [],
-    cardIdentifier: "arakni-solitary-confinement",
-    classes: [Class.Assassin],
-    defaultImageName: "OUT003.width-450",
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "OUT003",
-      name: "OUT003.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    name: "Arakni, Solitary Confinement",
-    rarities: [Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["OUT003"],
-    sets: [Release.Outsiders],
-    specialImageName: "OUT003.width-450",
-    subtypes: [Subtype.Young],
-    types: [Type.Hero],
-    typeText: "Assassin Hero – Young",
-
-    
-    
-    
-    
-    hero: Hero.Arakni,
-    intellect: 4,
-    
-    
-    life: 19,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    young: true
-  },{
-    artists: ["Isuardi Therianto"],
-    cardIdentifier: "razors-edge-red",
-    classes: [Class.Assassin],
-    defaultImageName: "OUT042.original",
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "OUT042",
-      name: "OUT042.original",
-      set: Release.Outsiders,
-      
-    },],
-    name: "Razor’s Edge",
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT042"],
-    sets: [Release.Outsiders],
-    specialImageName: "OUT042.original",
-    subtypes: [],
-    types: [Type.AttackReaction],
-    typeText: "Assassin Attack Reaction",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `Target attack action card with **stealth** gains +3{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: [],
-    cardIdentifier: "riptide-lurker-of-the-deep",
-    classes: [Class.Ranger],
-    defaultImageName: "OUT091.width-450",
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "OUT091",
-      name: "OUT091.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    name: "Riptide, Lurker of the Deep",
-    rarities: [Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["OUT091"],
-    sets: [Release.Outsiders],
-    specialImageName: "OUT091.width-450",
-    subtypes: [],
-    types: [Type.Hero],
-    typeText: "Ranger Hero",
-
-    
-    
-    
-    
-    hero: Hero.Riptide,
-    intellect: 4,
-    
-    
-    life: 38,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: [],
-    cardIdentifier: "riptide",
-    classes: [Class.Ranger],
-    defaultImageName: "OUT092.width-450",
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "OUT092",
-      name: "OUT092.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    name: "Riptide",
-    rarities: [Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["OUT092"],
-    sets: [Release.Outsiders],
-    specialImageName: "OUT092.width-450",
-    subtypes: [Subtype.Young],
-    types: [Type.Hero],
-    typeText: "Ranger Hero – Young",
-
-    
-    
-    
-    
-    hero: Hero.Riptide,
-    intellect: 4,
-    
-    
-    life: 19,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    young: true
-  },{
-    artists: ["Carlos Cruchaga"],
-    cardIdentifier: "codex-of-frailty-yellow",
-    classes: [Class.Assassin,Class.Ranger],
-    defaultImageName: "OUT160",
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "OUT160",
-      name: "OUT160",
-      set: Release.Outsiders,
-      
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "OUT160_Marvel",
-      name: "OUT160_Marvel",
-      set: Release.Outsiders,
-      
-    },],
-    name: "Codex of Frailty",
-    rarities: [Rarity.Majestic,Rarity.Marvel],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["OUT160"],
-    sets: [Release.Outsiders],
-    specialImageName: "OUT160",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Assassin / Ranger Action",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `Each hero puts an attack action card from their graveyard face down into their arsenal. Each hero that does, discards a card.
-
-Create a Ponder token under your control and a Frailty token under each opponent's control.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Saad Irfan"],
-    cardIdentifier: "death-touch-red",
-    classes: [Class.Assassin,Class.Ranger],
-    defaultImageName: "FAB132",
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "FAB132",
-      name: "FAB132",
-      set: Release.Promos,
-      
-    },],
-    name: "Death Touch",
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["FAB132"],
-    sets: [Release.Promos,Release.Outsiders],
-    specialImageName: "FAB132",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin / Ranger Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `Death Touch can't be played from hand.
-
-When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under their control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 6,
-    
-    
-    
-    
-    
-    
-    
   }];
 
   export const cards: Card[] = [
@@ -95087,7 +95570,7 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     ...cards4,
   ];
 
-  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Maerel Hibadita","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wisniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Regina Krivolapova","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sariya Asavametha","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
+  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","Daria Khlebrikova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Maerel Hibadita","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusa Wisniewski","Mateusz Wisniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Regina Krivolapova","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sariya Asavametha","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
 
   export * from "./interfaces";
   
