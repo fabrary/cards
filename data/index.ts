@@ -50,7 +50,7 @@
     
     
     
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -140,7 +140,7 @@
     
     young: true
   },{
-    artists: ["Mateusa Wisniewski"],
+    artists: ["Mateusz Wisniewski"],
     cardIdentifier: "spike-with-bloodrot-red",
     classes: [Class.Assassin],
     defaultImageName: "OUT021",
@@ -173,7 +173,7 @@
     
     pitch: 1,
     
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -214,7 +214,7 @@
     
     pitch: 1,
     
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -255,7 +255,7 @@
     
     pitch: 1,
     
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -263,7 +263,7 @@
     
     
   },{
-    artists: ["Carlos Cruchaga"],
+    artists: ["Muhammad Fajri"],
     cardIdentifier: "infect-red",
     classes: [Class.Assassin],
     defaultImageName: "OUT024",
@@ -286,7 +286,9 @@
 
     cost: 0,
     defense: 3,
-    functionalText: `**Stealth** - When this hits a hero, create a Bloodrot Pox token under their control.`,
+    functionalText: `**Stealth**
+
+When this hits a hero, create a Bloodrot Pox token under their control.`,
     
     
     
@@ -327,7 +329,9 @@
 
     cost: 0,
     defense: 3,
-    functionalText: `**Stealth** - When this hits a hero, create an Inertia token under their control`,
+    functionalText: `**Stealth**
+
+When this hits a hero, create an Inertia token under their control.`,
     
     
     
@@ -345,7 +349,7 @@
     
     
   },{
-    artists: ["Daria Khlebrikova"],
+    artists: ["Daria Khlebnikova"],
     cardIdentifier: "wither-red",
     classes: [Class.Assassin],
     defaultImageName: "OUT039",
@@ -368,7 +372,9 @@
 
     cost: 0,
     defense: 3,
-    functionalText: `**Stealth** - When this hits a hero, create a Frailty token under their control.`,
+    functionalText: `**Stealth**
+
+When this hits a hero, create a Frailty token under their control.`,
     
     
     
@@ -695,17 +701,17 @@
 
     cost: 2,
     defense: 3,
-    functionalText: `**Combo** - If a card with Gustwave in its name was the last attack this combat chain, this costs {r}{r} less to play, and has **go again** and When this attacks, you may banish a card wioth **combo** from your graveyard.  If you do, search your deck for a card with the same name, banish it, then shuffle.  You may play it this combat chain.`,
+    functionalText: `**Combo** - If a card with Gustwave in its name was the last attack this combat chain, this costs {r}{r} less to play, and has **go again** and When this attacks, you may banish a card with **combo** from your graveyard. If you do, search your deck for a card with the same name, banish it, then shuffle. You may play it this combat chain.`,
     
     
     
     
-    keywords: [Keyword.Combo],
+    keywords: [Keyword.Combo,Keyword.GoAgain],
     
     
     pitch: 1,
     power: 4,
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -966,9 +972,7 @@
 
     
     
-    functionalText: ` *(A quiver can be equipped in a weapon zone in addition to a bow.)*
-
-**Instant** - {r}{r}{r}: Reveal the top card of your deck. If it's an arrow, put it face up into your arsenal and destroy Quiver of Rustling Leaves.`,
+    functionalText: `**Instant** - {r}{r}{r}: Reveal the top card of your deck. If it's an arrow, put it face up into your arsenal and destroy Quiver of Rustling Leaves.`,
     
     
     
@@ -978,7 +982,7 @@
     
     
     
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -1029,7 +1033,7 @@ Create a Ponder token under your control and a Frailty token under each opponent
     
     pitch: 2,
     
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -1103,7 +1107,7 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
 
     
     
-    functionalText: `At the beginning of your end phase, destroy Bloodrot Pox, then it deals 2 damage to you unless you pay {r}{r}{r}`,
+    functionalText: `At the beginning of your end phase, destroy Bloodrot Pox, then it deals 2 damage to you unless you pay {r}{r}{r}.`,
     
     
     
@@ -1121,7 +1125,7 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     
     
   },{
-    artists: [],
+    artists: ["Daria Khlebnikova"],
     cardIdentifier: "frailty",
     classes: [Class.Generic],
     defaultImageName: "LGS126",
@@ -1144,7 +1148,9 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
 
     
     
-    functionalText: `Your attack action cards played from arsenal and weapon attacks have -1{p} - At the beginning of your end phase destro Frailty`,
+    functionalText: `Your attack action cards played from arsenal and weapon attacks have -1{p}.
+
+At the beginning of your end phase destroy Frailty.`,
     
     
     
@@ -17749,7 +17755,9 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     defense: 2,
     functionalText: `Until end of turn, arrows you control gain **go again.**
 
-**Reload** *(If you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.)*`,
+**Reload** *(If you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.)*
+
+**Go again**`,
     
     
     
@@ -21183,7 +21191,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
 
 **Go again**
 
-When an attack action card you control hits, destroy Bloodspill Invocation then create 3 Runechant tokens. *(They're auras with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*
+When an attack action card you control hits, destroy Bloodspill Invocation then create 2 Runechant tokens. *(They're auras with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*
 
 When your hero is dealt damage, destroy Bloodspill Invocation.`,
     
@@ -21248,7 +21256,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
 
 **Go again**
 
-When an attack action card you control hits, destroy Bloodspill Invocation then create 3 Runechant tokens. *(They're auras with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*
+When an attack action card you control hits, destroy Bloodspill Invocation then create a Runechant token. *(It's an aura with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*
 
 When your hero is dealt damage, destroy Bloodspill Invocation.`,
     
@@ -29516,7 +29524,7 @@ At the beginning of your action phase, destroy Emerging Dominance then the next 
 
     
     
-    functionalText: `**Once per Turn Attack** - {r}: **Attack**. **Go again**
+    functionalText: `**Once per Turn Action** - {r}: **Attack**. **Go again**
 
 When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {p}, destroy it when the combat chain closes.`,
     
@@ -67838,7 +67846,9 @@ As an additional cost to play Blood on Her Hands, destroy any number of Copper y
 
 - Target 1H weapon gains +1{p} this turn while attacking this turn.
 - Target 1H weapon gains **go again** this turn while attacking this turn.
-- Target 1H weapon may attack twice this turn.`,
+- Target 1H weapon may attack twice this turn.
+
+**Go again**`,
     
     
     
@@ -70157,14 +70167,14 @@ At the beginning of your end phase, destroy all Runechants you control.
       identifier: "EVR107",
       name: "EVR107-RF",
       set: Release.Everfest,
-      
+      treatment: Treatment.EA,
     },],
     name: "Runeblood Incantation",
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR107"],
     sets: [Release.Everfest],
-    specialImageName: "EVR107.width-450",
+    specialImageName: "EVR107-RF",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action – Aura",
@@ -70208,14 +70218,14 @@ At the beginning of your action phase, remove a verse counter from Runeblood Inc
       identifier: "EVR108",
       name: "EVR108-RF",
       set: Release.Everfest,
-      
+      treatment: Treatment.EA,
     },],
     name: "Runeblood Incantation",
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR108"],
     sets: [Release.Everfest],
-    specialImageName: "EVR108.width-450",
+    specialImageName: "EVR108-RF",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action – Aura",
@@ -70259,14 +70269,14 @@ At the beginning of your action phase, remove a verse counter from Runeblood Inc
       identifier: "EVR109",
       name: "EVR109-RF",
       set: Release.Everfest,
-      
+      treatment: Treatment.EA,
     },],
     name: "Runeblood Incantation",
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["EVR109"],
     sets: [Release.Everfest],
-    specialImageName: "EVR109.width-450",
+    specialImageName: "EVR109-RF",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action – Aura",
@@ -89972,10 +89982,10 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
       
     },],
     name: "Arakni, Huntsman",
-    rarities: [Rarity.Promo,Rarity.Majestic],
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["HER074","WIN020","DYN113"],
-    sets: [Release.Promos,Release.Dynasty],
+    setIdentifiers: ["DYN113"],
+    sets: [Release.Dynasty],
     specialImageName: "DYN113",
     subtypes: [],
     types: [Type.Hero],
@@ -90291,19 +90301,13 @@ When this hits a hero, banish the top card of their deck and up to 1 card in the
       name: "DYN121",
       set: Release.Dynasty,
       
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN121",
-      name: "DYN121_Special",
-      set: Release.Dynasty,
-      treatment: Treatment.EA,
     },],
     name: "Regicide",
     rarities: [Rarity.Promo,Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["FAB122","DYN121"],
     sets: [Release.Promos,Release.Dynasty],
-    specialImageName: "DYN121_Special",
+    specialImageName: "FAB122",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Assassin Action – Attack",
@@ -92623,19 +92627,13 @@ If a ‘non-attack’ action card was pitched to play Diabolic Ultimatum, each h
       name: "DYN175",
       set: Release.Dynasty,
       
-    },{
-      edition: ReleaseEdition.Promo,
-      identifier: "DYN175",
-      name: "DYN175_Special",
-      set: Release.Dynasty,
-      treatment: Treatment.EA,
     },],
     name: "Looming Doom",
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN175"],
     sets: [Release.Dynasty],
-    specialImageName: "DYN175_Special",
+    specialImageName: "DYN175",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action – Aura",
@@ -95570,7 +95568,7 @@ When you equip Crown of Dominion, create a Gold token.`,
     ...cards4,
   ];
 
-  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","Daria Khlebrikova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Maerel Hibadita","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusa Wisniewski","Mateusz Wisniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Regina Krivolapova","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sariya Asavametha","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
+  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Maerel Hibadita","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wisniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Regina Krivolapova","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sariya Asavametha","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
 
   export * from "./interfaces";
   
