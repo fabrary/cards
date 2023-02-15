@@ -11,9 +11,9 @@ const outputDirectory = "data";
 const spoilers = `${__dirname}/spoilers.csv`;
 
 const parsedReleasedCards = parseCardData(file).filter(filterOutUnwantedCards);
-const parsedSpoilerCards = parseCardData(spoilers).filter(
-  filterOutUnwantedCards
-);
+const parsedSpoilerCards = parseCardData(spoilers)
+  .filter((card) => !!card.name)
+  .filter(filterOutUnwantedCards);
 
 const releaseCards = mapCardData(parsedReleasedCards);
 const spoilerCards = mapCardData(parsedSpoilerCards);

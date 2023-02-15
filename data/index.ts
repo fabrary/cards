@@ -1041,6 +1041,141 @@ Create a Ponder token under your control and a Frailty token under each opponent
     
     
   },{
+    artists: ["Nikolay Moskvin","Hendrique Lindner"],
+    cardIdentifier: "peace-of-mind-red",
+    classes: [Class.Generic],
+    defaultImageName: "OUT231",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "FAB131",
+      name: "FAB131",
+      set: Release.Promos,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT231",
+      name: "OUT231",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Peace of Mind",
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT231","FAB131"],
+    sets: [Release.Outsiders,Release.Promos],
+    specialImageName: "FAB131",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Generic Instant",
+
+    cost: 2,
+    
+    functionalText: `The next time you would be dealt {p} damage, prevent 4 of that damage.
+
+Create a Ponder token.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "peace-of-mind-yellow",
+    classes: [Class.Generic],
+    defaultImageName: "OUT232",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT232",
+      name: "OUT232",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Peace of Mind",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT232"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT232",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Generic Instant",
+
+    cost: 2,
+    
+    functionalText: `The next time you would be dealt {p} damage, prevent 3 of that damage.
+
+Create a Ponder token.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "peace-of-mind-blue",
+    classes: [Class.Generic],
+    defaultImageName: "OUT233",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT233",
+      name: "OUT233",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Peace of Mind",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT233"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT233",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Generic Instant",
+
+    cost: 2,
+    
+    functionalText: `The next time you would be dealt {p} damage, prevent 2 of that damage.
+
+Create a Ponder token.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Saad Irfan"],
     cardIdentifier: "death-touch-red",
     classes: [Class.Assassin,Class.Ranger],
@@ -1232,7 +1367,7 @@ At the beginning of your end phase destroy Frailty.`,
 
     cost: 0,
     defense: 2,
-    functionalText: `Put a Cracked Bauble from outside the game on top of target hero’s deck.`,
+    functionalText: `Put a Cracked Bauble from outside the game on top of target hero's deck.`,
     
     
     
@@ -1261,7 +1396,7 @@ At the beginning of your end phase destroy Frailty.`,
       set: Release.Promos,
       
     },],
-    name: "Ruu’di, Gem Keeper",
+    name: "Ruu'di, Gem Keeper",
     rarities: [Rarity.Promo],
     rarity: Rarity.Promo,
     setIdentifiers: ["LSS001"],
@@ -1275,9 +1410,9 @@ At the beginning of your end phase destroy Frailty.`,
     
     functionalText: `You may only have PSA graded cards in your deck.
 
-**Once per Turn Action** - {r}: Reveal the top card of your deck. If it’s graded Gem Min 10, put it into your hand, otherwise each opponent may draw a card. **Go again**`,
+**Once per Turn Action** - {r}: Reveal the top card of your deck. If it's graded Gem Min 10, put it into your hand, otherwise each opponent may draw a card. **Go again**`,
     
-    hero: Hero.Ruudi,
+    
     intellect: 4,
     
     keywords: [Keyword.GoAgain],
@@ -1453,9 +1588,9 @@ At the start of your turn, you may banish an equipment you control. If you do, e
 
     cost: 0,
     defense: 3,
-    functionalText: `**Yorick Specialization** *(You may only have Tales of Adventure in  your deck if your hero is Yorick.)*
+    functionalText: `**Yorick Specialization**
 
-Each other hero chooses and creates a token that hasn’t been chosen; Aether Ashwing, Embodiment of Earth, Embodiment of Lightning, Ponder, Quicken, Runechant, Seismic Surge, Soul Shackle, Spectral Shield, Zen State.
+Each other hero chooses and creates a token that hasn't been chosen; Aether Ashwing, Embodiment of Earth, Embodiment of Lightning, Ponder, Quicken, Runechant, Seismic Surge, Soul Shackle, Spectral Shield, Zen State.
 
 You create a Copper, Silver, and Gold.`,
     
@@ -1492,7 +1627,7 @@ You create a Copper, Silver, and Gold.`,
       set: Release.Promos,
       treatment: Treatment.AT,
     },],
-    name: "Hummingbird, Adventurer’s Call",
+    name: "Hummingbird, Adventurer's Call",
     rarities: [Rarity.Promo],
     rarity: Rarity.Promo,
     setIdentifiers: ["FAB094"],
@@ -1660,7 +1795,7 @@ You create a Copper, Silver, and Gold.`,
 
     
     defense: 0,
-    functionalText: `**Spellvoid 1** *(If your hero would be dealt arcane damage, you may destroy Spell Fray Cloak to prevent 1 of that damage.)*`,
+    functionalText: `**Spellvoid 1**`,
     
     
     
@@ -1707,7 +1842,7 @@ You create a Copper, Silver, and Gold.`,
 
     
     defense: 0,
-    functionalText: `**Spellvoid 1** *(If your hero would be dealt arcane damage, you may destroy Spell Fray Gloves to prevent 1 of that damage.)*`,
+    functionalText: `**Spellvoid 1**`,
     
     
     
@@ -1754,7 +1889,7 @@ You create a Copper, Silver, and Gold.`,
 
     
     defense: 0,
-    functionalText: `**Spellvoid 1** *(If your hero would be dealt arcane damage, you may destroy Spell Fray Leggings to prevent 1 of that damage.)*`,
+    functionalText: `**Spellvoid 1**`,
     
     
     
@@ -1801,7 +1936,9 @@ You create a Copper, Silver, and Gold.`,
 
     
     
-    functionalText: `When you pitch Heart of Fyendal, if you have less {h} than your opponent, gain 1{h}.`,
+    functionalText: `**Legendary**
+
+When you pitch Heart of Fyendal, if you have less {h} than your opponent, gain 1{h}.`,
     
     
     
@@ -1884,7 +2021,7 @@ You create a Copper, Silver, and Gold.`,
 
     
     
-    functionalText: `Whenever you discard a card with 6 or more {p} during your action phase, **intimidate**. *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owners hand.)*`,
+    functionalText: `Whenever you discard a card with 6 or more {p} during your action phase, **intimidate**.`,
     
     hero: Hero.Rhinar,
     intellect: 4,
@@ -1967,7 +2104,7 @@ You create a Copper, Silver, and Gold.`,
 
     
     
-    functionalText: `When you discard a card with 6 or more {p} during your action phase, **intimidate**. *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owners hand.)*`,
+    functionalText: `Whenever you discard a card with 6 or more {p} during your action phase, **intimidate**.`,
     
     hero: Hero.Rhinar,
     intellect: 4,
@@ -2041,8 +2178,8 @@ You create a Copper, Silver, and Gold.`,
     name: "Romping Club",
     rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["LGS001","XXX005","RNR003","1HP006","WTR003","CRU003"],
-    sets: [Release.Promos,Release.Promos,Release.RhinarHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar],
+    setIdentifiers: ["FAB095","LGS001","XXX005","RNR003","1HP006","WTR003","CRU003"],
+    sets: [Release.Promos,Release.Promos,Release.Promos,Release.RhinarHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar],
     specialImageName: "CRU003",
     subtypes: [Subtype.Club,Subtype.TwoHanded],
     types: [Type.Weapon],
@@ -2113,7 +2250,7 @@ You create a Copper, Silver, and Gold.`,
     defense: 2,
     functionalText: `**Once per turn Action** - 0: Roll a 6 sided die. Gain action points equal to half the number rolled, rounded down.
 
-**Battleworn** *(If you defend with Scabskin Leathers, put a -1{d} counter on it when the combat chain closes.)*`,
+**Battleworn**`,
     
     
     
@@ -2174,7 +2311,7 @@ You create a Copper, Silver, and Gold.`,
     defense: 1,
     functionalText: `**Instant** - Destroy Barkbone Strapping: Roll a 6 die. Gain {r} equal to half the number rolled, rounded down.
 
-**Battleworn** *(If you defend with Barkbone Strapping, put a -1{d} counter on it when the combat chain closes.)*`,
+**Battleworn**`,
     
     
     
@@ -2233,7 +2370,7 @@ You create a Copper, Silver, and Gold.`,
 
     cost: 3,
     defense: 3,
-    functionalText: `**Rhinar Specialization** *(You may only have Alpha Rampage in your deck if your hero is Rhinar)*
+    functionalText: `**Rhinar Specialization**
 
 As an additional cost to play Alpha Rampage, discard a random card.
 
@@ -2402,7 +2539,7 @@ If the discarded card has 6 or more {p}, deal 2 damage to the attacking hero.`,
 
     cost: 0,
     defense: 3,
-    functionalText: `**Rhinar Specialization** *(You may only have Sand Sketched Plan your deck if your hero is Rhinar)*
+    functionalText: `**Rhinar Specialization**
 
 Search your deck for a card, put it into your hand, discard a random card, then shuffle your deck.
 
@@ -2848,9 +2985,9 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
 
     cost: 0,
     defense: 3,
-    functionalText: `Your next Brute attack this turn gains “While this attack is defended by less than 2 non-equipment cards, it has +4{p}
+    functionalText: `Your next Brute attack this turn gains "While this attack is defended by less than 2 non-equipment cards, it has +4{p}."
 
-**Intimidate** *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owners hand.)*
+**Intimidate**
 
 **Go again**`,
     
@@ -2917,9 +3054,9 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
 
     cost: 0,
     defense: 3,
-    functionalText: `Your next Brute attack this turn gains “While this attack is defended by less than 2 non-equipment cards, it has +3{p}
+    functionalText: `Your next Brute attack this turn gains "While this attack is defended by less than 2 non-equipment cards, it has +3{p}."
 
-**Intimidate** *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owners hand.)*
+**Intimidate**
 
 **Go again**`,
     
@@ -2980,9 +3117,9 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
 
     cost: 0,
     defense: 3,
-    functionalText: `Your next Brute attack this turn gains “While this attack is defended by less than 2 non-equipment cards, it has +2{p}
+    functionalText: `Your next Brute attack this turn gains "While this attack is defended by less than 2 non-equipment cards, it has +2{p}."
 
-**Intimidate** *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owners hand.)*
+**Intimidate**
 
 **Go again**`,
     
@@ -3220,7 +3357,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
 
     cost: 2,
     defense: 3,
-    functionalText: `When you attack with Pack Hunt, **intimidate**. *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owners hand.)*`,
+    functionalText: `When you attack with Pack Hunt, **intimidate**.`,
     
     
     
@@ -3273,7 +3410,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
 
     cost: 2,
     defense: 3,
-    functionalText: `When you attack with Pack Hunt, **intimidate**. *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owners hand.)*`,
+    functionalText: `When you attack with Pack Hunt, **intimidate**.`,
     
     
     
@@ -3326,7 +3463,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
 
     cost: 2,
     defense: 3,
-    functionalText: `When you attack with Pack Hunt, **intimidate**. *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owners hand.)*`,
+    functionalText: `When you attack with Pack Hunt, **intimidate**.`,
     
     
     
@@ -3385,7 +3522,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
 
     cost: 3,
     defense: 3,
-    functionalText: `When you attack with Smash Instinct, **intimidate**. *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owners hand.)*`,
+    functionalText: `When you attack with Smash Instinct, **intimidate**.`,
     
     
     
@@ -3450,7 +3587,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
 
     cost: 3,
     defense: 3,
-    functionalText: `When you attack with Smash Instinct, **intimidate**. *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owners hand.)*`,
+    functionalText: `When you attack with Smash Instinct, **intimidate**.`,
     
     
     
@@ -3503,7 +3640,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
 
     cost: 3,
     defense: 3,
-    functionalText: `When you attack with Smash Instinct, **intimidate**. *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owners hand.)*`,
+    functionalText: `When you attack with Smash Instinct, **intimidate**.`,
     
     
     
@@ -3763,9 +3900,9 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
 
     cost: 1,
     defense: 3,
-    functionalText: `The next Brute attack action card you play this turn gains +3{p}
+    functionalText: `The next Brute attack action card you play this turn gains +3{p}.
 
-**Intimidate** *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owners hand.)*
+**Intimidate**
 
 **Go again**`,
     
@@ -3814,9 +3951,9 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
 
     cost: 1,
     defense: 3,
-    functionalText: `The next Brute attack action card you play this turn gains +2{p}
+    functionalText: `The next Brute attack action card you play this turn gains +2{p}.
 
-**Intimidate** *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owners hand.)*
+**Intimidate**
 
 **Go again**`,
     
@@ -3871,9 +4008,9 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
 
     cost: 1,
     defense: 3,
-    functionalText: `The next Brute attack action card you play this turn gains +1{p}
+    functionalText: `The next Brute attack action card you play this turn gains +1{p}.
 
-**Intimidate** *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owners hand.)*
+**Intimidate**
 
 **Go again**`,
     
@@ -4135,7 +4272,7 @@ Your next Brute attack this turn gains +3{p}.
 
     
     
-    functionalText: `**Action** - {r}{r}: Until end of turn, your attack action cards with cost 3 or greater gains **dominate**. **Go again** *(The defending hero can’t defend with more than 1 card from their hand)*`,
+    functionalText: `**Action** - {r}{r}: Until end of turn, your attack action cards with cost 3 or greater gains **dominate**. **Go again**`,
     
     hero: Hero.Bravo,
     intellect: 4,
@@ -4212,7 +4349,7 @@ Your next Brute attack this turn gains +3{p}.
 
     
     
-    functionalText: `**Action** - {r}{r}: Until end of turn, your attack action cards with cost 3 or greater gains **dominate**. **Go again** *(The defending hero can’t defend with more than 1 card from their hand)*`,
+    functionalText: `**Action** - {r}{r}: Until end of turn, your attack action cards with cost 3 or greater gains **dominate**. **Go again**`,
     
     hero: Hero.Bravo,
     intellect: 4,
@@ -4301,7 +4438,7 @@ Your next Brute attack this turn gains +3{p}.
 
     
     
-    functionalText: `**Once per turn Action** - {r}{r}{r}:**Attack**
+    functionalText: `**Once per turn Action** - {r}{r}{r}: **Attack**
 
 While there are 2 or more cards with cost 3 or greater in your pitch zone, Anothos has +2{p}.`,
     
@@ -4364,7 +4501,7 @@ While there are 2 or more cards with cost 3 or greater in your pitch zone, Anoth
     defense: 2,
     functionalText: `**Once per turn Action** - {r}: Create a Seismic Surge aura token. **Go again**
 
-**Battleworn** *(If you defend with Tectonic Plating, put a -1{d} counter on it when the combat chain closes.)*`,
+**Battleworn**`,
     
     
     
@@ -4417,7 +4554,7 @@ While there are 2 or more cards with cost 3 or greater in your pitch zone, Anoth
       set: Release.WelcomeToRathe,
       
     },],
-    name: "Helm of Isen’s Peak",
+    name: "Helm of Isen's Peak",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BVO004","OLD004","1HP048","WTR042"],
@@ -4431,7 +4568,7 @@ While there are 2 or more cards with cost 3 or greater in your pitch zone, Anoth
     defense: 1,
     functionalText: `**Action** - {r}, destroy Helm of Isen Peak: Your hero gains +1{i} until end of turn.
 
-**Battleworn** *(If you defend with Helm of Isen’s Peak, put a -1{d} counter on it when the combat chain closes.)*`,
+**Battleworn**`,
     
     
     
@@ -4484,7 +4621,7 @@ While there are 2 or more cards with cost 3 or greater in your pitch zone, Anoth
 
     cost: 7,
     defense: 3,
-    functionalText: `**Bravo Specialization** *(You may only have Crippling Crush in your deck if your hero is Bravo.)*
+    functionalText: `**Bravo Specialization**
 
 **Crush** - If Crippling Crush deals 4 or more damage to a hero, they discard 2 random cards.`,
     
@@ -4539,7 +4676,7 @@ While there are 2 or more cards with cost 3 or greater in your pitch zone, Anoth
 
     cost: 5,
     defense: 3,
-    functionalText: `**Crush** - If Spinal Crush deals 4 or more damage to a hero, action cards, activated abilities, and attacks they control lose and can’t gain **go again** during their next action phase.`,
+    functionalText: `**Crush** - If Spinal Crush deals 4 or more damage to a hero, action cards, activated abilities, and attacks they control lose and can't gain **go again** during their next action phase.`,
     
     
     
@@ -4586,7 +4723,7 @@ While there are 2 or more cards with cost 3 or greater in your pitch zone, Anoth
 
     cost: 6,
     defense: 3,
-    functionalText: `**Crush** - If Cranial Crush deals 4 or more damage to a hero, they can’t draw cards during their next action phase`,
+    functionalText: `**Crush** - If Cranial Crush deals 4 or more damage to a hero, they can't draw cards during their next action phase`,
     
     
     
@@ -4690,7 +4827,7 @@ At the beginning of your action phase, destroy Forged for War.`,
 
     cost: 3,
     defense: 3,
-    functionalText: `**Bravo Specialization** *(You may only have Show Time! In your deck if your hero is Bravo.)*
+    functionalText: `**Bravo Specialization**
 
 When Show Time! enters the arena, search your deck for a Guardian attack action card, reveal it and put it into your hand, then shuffle your deck.
 
@@ -5099,7 +5236,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
 
 When Blessing of Deliverance enters the arena, if you have a card with cost 3 or greater in your pitch zone, draw a card.
 
-At the beginning of the action phase, destroy Blessing of Deliverance then reveal the top 3 cards of your deck. Gain 1{h} for each card with cost 3 or greater revealed this way.`,
+At the beginning of your action phase, destroy Blessing of Deliverance then reveal the top 3 cards of your deck. Gain 1{h} for each card with cost 3 or greater revealed this way.`,
     
     
     
@@ -5162,7 +5299,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
 
 When Blessing of Deliverance enters the arena, if you have a card with cost 3 or greater in your pitch zone, draw a card.
 
-At the beginning of the action phase, destroy Blessing of Deliverance then reveal the top 2 cards of your deck. Gain 1{h} for each card with cost 3 or greater revealed this way.`,
+At the beginning of your action phase, destroy Blessing of Deliverance then reveal the top 2 cards of your deck. Gain 1{h} for each card with cost 3 or greater revealed this way.`,
     
     
     
@@ -5231,7 +5368,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
 
 When Blessing of Deliverance enters the arena, if you have a card with cost 3 or greater in your pitch zone, draw a card.
 
-At the beginning of the action phase, destroy Blessing of Deliverance then reveal the top card of your deck. Gain 1{h} for each card with cost 3 or greater revealed this way.`,
+At the beginning of your action phase, destroy Blessing of Deliverance then reveal the top card of your deck. Gain 1{h} for each card with cost 3 or greater revealed this way.`,
     
     
     
@@ -5608,7 +5745,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
 
     cost: 3,
     defense: 3,
-    functionalText: `**Crush** - If Crush Confidence deals 4 or more damage to a hero, they lose all hero card effects and activated abilities until the end of their next turn. *(Treat the hero card as if the text box is empty)*`,
+    functionalText: `**Crush** - If Crush Confidence deals 4 or more damage to a hero, they lose all hero card effects and activated abilities until the end of their next turn.`,
     
     
     
@@ -5661,7 +5798,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
 
     cost: 3,
     defense: 3,
-    functionalText: `**Crush** - If Crush Confidence deals 4 or more damage to a hero, they lose all hero card effects and activated abilities until the end of their next turn. *(Treat the hero card as if the text box is empty)*`,
+    functionalText: `**Crush** - If Crush Confidence deals 4 or more damage to a hero, they lose all hero card effects and activated abilities until the end of their next turn.`,
     
     
     
@@ -5720,7 +5857,7 @@ At the beginning of the action phase, destroy Blessing of Deliverance then revea
 
     cost: 3,
     defense: 3,
-    functionalText: `**Crush** - If Crush Confidence deals 4 or more damage to a hero, they lose all hero card effects and activated abilities until the end of their next turn. *(Treat the hero card as if the text box is empty)*`,
+    functionalText: `**Crush** - If Crush Confidence deals 4 or more damage to a hero, they lose all hero card effects and activated abilities until the end of their next turn.`,
     
     
     
@@ -6103,9 +6240,7 @@ At the beginning of your action phase, destroy Emerging Power then the next Guar
 
     cost: 2,
     defense: 3,
-    functionalText: `*(Auras stay in the arena until they are destroyed.)*
-
-**Go again**
+    functionalText: `**Go again**
 
 Cards you control with cost 3 or greater gain +4{d} while defending.
 
@@ -6162,9 +6297,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
 
     cost: 2,
     defense: 3,
-    functionalText: `*(Auras stay in the arena until they are destroyed.)*
-
-**Go again**
+    functionalText: `**Go again**
 
 Cards you control with cost 3 or greater gain +3{d} while defending.
 
@@ -6227,9 +6360,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
 
     cost: 2,
     defense: 3,
-    functionalText: `*(Auras stay in the arena until they are destroyed.)*
-
-**Go again**
+    functionalText: `**Go again**
 
 Cards you control with cost 3 or greater gain +2{d} while defending.
 
@@ -6492,7 +6623,7 @@ If you have a card with cost 0 in your pitch zone, Harmonized Kodachi has **go a
     defense: 2,
     functionalText: `**Once per Turn Effect** - When an attack action card you control is the third or higher chain link in a row to hit, draw a card.
 
-**Blade Break** *(If you defend with Mask of Momentum, destroy it when the combat chain closes.)*`,
+**Blade Break**`,
     
     
     
@@ -6553,7 +6684,7 @@ If you have a card with cost 0 in your pitch zone, Harmonized Kodachi has **go a
     defense: 1,
     functionalText: `**Attack Reaction** - Destroy Breaking Scales: Target attack action card with **combo** gains +1{p}.
 
-**Battleworn** *(If you defend with Breaking Scales, put a -1{d} counter on it when the combat chain closes.)*`,
+**Battleworn**`,
     
     
     
@@ -6606,7 +6737,7 @@ If you have a card with cost 0 in your pitch zone, Harmonized Kodachi has **go a
 
     cost: 0,
     defense: 3,
-    functionalText: `**Katsu Specialization** *(You may only have Lord of Wind in your deck if your hero is Katsu.)*
+    functionalText: `**Katsu Specialization**
 
 **Combo** - If Mugenshi: RELEASE was the last attack this combat chain, as an additional cost to play Lord of Wind, you may pay any amount of {r}. If you do, shuffle that many target cards named Surging Strike, Whelming Gustwave and/or Mugenshi: RELEASE from your graveyard into your deck, then Lord of Wind gains that much {p}.`,
     
@@ -6716,9 +6847,9 @@ Draw a card.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `**Katsu Specialization** *(You may only have Mugenshi: RELEASE in your deck if your hero is Katsu.)*
+    functionalText: `**Katsu Specialization**
 
-**Combo** - If Whelming Gustwave was the last attack this combat chain, Mugenshi: RELEASE gains +1{p}, **go again**, and “If this hits, search your deck for any number of cards named Lord of Wind, reveal them, put them into your hand, then shuffle your deck.”`,
+**Combo** - If Whelming Gustwave was the last attack this combat chain, Mugenshi: RELEASE gains +1{p}, **go again**, and "If this hits, search your deck for any number of cards named Lord of Wind, reveal them, put them into your hand, then shuffle your deck."`,
     
     
     
@@ -6765,7 +6896,7 @@ Draw a card.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `**Combo** - If Rising Knee Thrust was the last attack this combat chain, Hurricane Technique gains +1{p}, **go again**, and “If Hurricane Technique hits, put it into your hand.”`,
+    functionalText: `**Combo** - If Rising Knee Thrust was the last attack this combat chain, Hurricane Technique gains +1{p}, **go again**, and "If Hurricane Technique hits, put it into your hand."`,
     
     
     
@@ -6812,7 +6943,7 @@ Draw a card.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `**Combo** - If Open the Center was the last attack this combat chain, Pounding Gale gains “If Pounding Gale would deal damage to a hero, instead it deals double that much damage”`,
+    functionalText: `**Combo** - If Open the Center was the last attack this combat chain, Pounding Gale gains "If Pounding Gale would deal damage to a hero, instead it deals double that much damage"`,
     
     
     
@@ -7348,7 +7479,7 @@ Draw a card.`,
 
     cost: 2,
     defense: 3,
-    functionalText: `**Combo** - If Head Jab was the last attack this combat chain, Open the Center gains +1{p}, **go again**, and **dominate**. *(The defending hero can’t defend Open the Center with more than 1 card from their hand.)*`,
+    functionalText: `**Combo** - If Head Jab was the last attack this combat chain, Open the Center gains +1{p}, **go again**, and **dominate**.`,
     
     
     
@@ -7395,7 +7526,7 @@ Draw a card.`,
 
     cost: 2,
     defense: 3,
-    functionalText: `**Combo** - If Head Jab was the last attack this combat chain, Open the Center gains +1{p}, **go again**, and **dominate**. *(The defending hero can’t defend Open the Center with more than 1 card from their hand.)*`,
+    functionalText: `**Combo** - If Head Jab was the last attack this combat chain, Open the Center gains +1{p}, **go again**, and **dominate**.`,
     
     
     
@@ -7442,7 +7573,7 @@ Draw a card.`,
 
     cost: 2,
     defense: 3,
-    functionalText: `**Combo** - If Head Jab was the last attack this combat chain, Open the Center gains +1{p}, **go again**, and **dominate**. *(The defending hero can’t defend Open the Center with more than 1 card from their hand.)*`,
+    functionalText: `**Combo** - If Head Jab was the last attack this combat chain, Open the Center gains +1{p}, **go again**, and **dominate**.`,
     
     
     
@@ -8203,7 +8334,7 @@ Draw a card.`,
 
     cost: 0,
     defense: 3,
-    functionalText: `**Combo** - If Surging Strike was the last attack this combat chain, Whelming Gustwave gains +1{p}, **go again**, and “If this hits, draw a card.”`,
+    functionalText: `**Combo** - If Surging Strike was the last attack this combat chain, Whelming Gustwave gains +1{p}, **go again**, and "If this hits, draw a card."`,
     
     
     
@@ -8262,7 +8393,7 @@ Draw a card.`,
 
     cost: 0,
     defense: 3,
-    functionalText: `**Combo** - If Surging Strike was the last attack this combat chain, Whelming Gustwave gains +1{p}, **go again**, and “If this hits, draw a card.”`,
+    functionalText: `**Combo** - If Surging Strike was the last attack this combat chain, Whelming Gustwave gains +1{p}, **go again**, and "If this hits, draw a card."`,
     
     
     
@@ -8327,7 +8458,7 @@ Draw a card.`,
 
     cost: 0,
     defense: 3,
-    functionalText: `**Combo** - If Surging Strike was the last attack this combat chain, Whelming Gustwave gains +1{p}, **go again**, and “If this hits, draw a card.”`,
+    functionalText: `**Combo** - If Surging Strike was the last attack this combat chain, Whelming Gustwave gains +1{p}, **go again**, and "If this hits, draw a card."`,
     
     
     
@@ -8410,7 +8541,7 @@ Draw a card.`,
 
     
     
-    functionalText: `**Once per turn Effect** - When a weapon you control hits, you may attack an additional time with that weapon this turn. *(You must have an action point to attack an additional time.)*`,
+    functionalText: `**Once per turn Effect** - When a weapon you control hits, you may attack an additional time with that weapon this turn.`,
     
     hero: Hero.Dorinthea,
     intellect: 4,
@@ -8487,7 +8618,7 @@ Draw a card.`,
 
     
     
-    functionalText: `**Once per turn Effect** - When a weapon you control hits, you may attack an additional time with that weapon this turn. *(You must have an action point to attack an additional time.)*`,
+    functionalText: `**Once per turn Effect** - When a weapon you control hits, you may attack an additional time with that weapon this turn.`,
     
     hero: Hero.Dorinthea,
     intellect: 4,
@@ -8578,7 +8709,7 @@ Draw a card.`,
     
     functionalText: `**Once per Turn Action** - {r}: **Attack**
 
-If Dawnblade hits, and it’s the second time it has hit this turn, put a +1{p} counter on Dawnblade.
+If Dawnblade hits, and it's the second time it has hit this turn, put a +1{p} counter on Dawnblade.
 
 At the beginning of your end phase, if Dawnblade has not hit this turn, remove all +1{p} counters from Dawnblade.`,
     
@@ -8641,7 +8772,7 @@ At the beginning of your end phase, if Dawnblade has not hit this turn, remove a
     defense: 2,
     functionalText: `**Once per turn Action** - {r}: Your next weapon attack this turn gains +1{p}. Activate this ability only if a weapon you control has hit this turn. **Go again**
 
-**Battleworn** *(If you defend with Braveforge Bracers, put a -1{d} counter on it when the combat chain closes.)*`,
+**Battleworn**`,
     
     
     
@@ -8702,7 +8833,7 @@ At the beginning of your end phase, if Dawnblade has not hit this turn, remove a
     defense: 1,
     functionalText: `When a weapon you control hits, you may destroy Refraction Bolters. If you do, the attack gains **go again**.
 
-**Battleworn** (If you defend with Refraction Bolters, put a -1{d} counter on it when the combat chain closes.)`,
+**Battleworn**`,
     
     
     
@@ -8810,9 +8941,9 @@ At the beginning of your end phase, if Dawnblade has not hit this turn, remove a
 
     cost: 1,
     defense: 3,
-    functionalText: `**Dorinthea Specialization** *(You may only have Steelblade Supremacy in your deck if your hero is Dorinthea.)*
+    functionalText: `**Dorinthea Specialization**
 
-Until end of turn, target weapon gains +2{p} and “Whenever this weapon hits, draw a card.”
+Until end of turn, target weapon gains +2{p} and "Whenever this weapon hits, draw a card."
 
 **Go again**`,
     
@@ -8922,7 +9053,7 @@ Until end of turn, target weapon gains +2{p} and “Whenever this weapon hits, d
 
     cost: 1,
     defense: 3,
-    functionalText: `**Dorinthea Specialization** *(You may only have Singing Steelblade in your deck if your hero is Dorinthea.)*
+    functionalText: `**Dorinthea Specialization**
 
 Target weapon attack gains +1{p}.
 
@@ -9358,7 +9489,7 @@ Target weapon attack gains +1{p}.
       set: Release.WelcomeToRathe,
       
     },],
-    name: "Warrior’s Valor",
+    name: "Warrior's Valor",
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DVR011","1HP159","WTR129"],
@@ -9370,7 +9501,7 @@ Target weapon attack gains +1{p}.
 
     cost: 1,
     defense: 3,
-    functionalText: `Your next weapon attack this turn gains +3{p} and “If this hits, the attack gains **go again**.”
+    functionalText: `Your next weapon attack this turn gains +3{p} and "If this hits, the attack gains **go again**."
 
 **Go again**`,
     
@@ -9419,7 +9550,7 @@ Target weapon attack gains +1{p}.
       set: Release.WelcomeToRathe,
       
     },],
-    name: "Warrior’s Valor",
+    name: "Warrior's Valor",
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["TEA018","1HP160","WTR130"],
@@ -9431,7 +9562,7 @@ Target weapon attack gains +1{p}.
 
     cost: 1,
     defense: 3,
-    functionalText: `Your next weapon attack this turn gains +2{p} and “If this hits, the attack gains **go again**.”
+    functionalText: `Your next weapon attack this turn gains +2{p} and "If this hits, the attack gains **go again**."
 
 **Go again**`,
     
@@ -9480,7 +9611,7 @@ Target weapon attack gains +1{p}.
       set: Release.WelcomeToRathe,
       
     },],
-    name: "Warrior’s Valor",
+    name: "Warrior's Valor",
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["TEA025","1HP161","WTR131"],
@@ -9492,7 +9623,7 @@ Target weapon attack gains +1{p}.
 
     cost: 1,
     defense: 3,
-    functionalText: `Your next weapon attack this turn gains +1{p} and “If this hits, the attack gains **go again**.”
+    functionalText: `Your next weapon attack this turn gains +1{p} and "If this hits, the attack gains **go again**."
 
 **Go again**`,
     
@@ -10420,7 +10551,7 @@ Target weapon attack gains +1{p}.
       set: Release.WelcomeToRathe,
       
     },],
-    name: "Nature’s Path Pilgrimage",
+    name: "Nature's Path Pilgrimage",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["TEA013","1HP177","WTR147"],
@@ -10432,7 +10563,7 @@ Target weapon attack gains +1{p}.
 
     cost: 1,
     defense: 3,
-    functionalText: `Your next weapon attack this turn gains +3{p} and “If this hits and you have no cards in your arsenal, reveal the top card of your deck. If it’s an action card, put it face down into your arsenal.”
+    functionalText: `Your next weapon attack this turn gains +3{p} and "If this hits and you have no cards in your arsenal, reveal the top card of your deck. If it's an action card, put it face down into your arsenal."
 
 **Go again**`,
     
@@ -10475,7 +10606,7 @@ Target weapon attack gains +1{p}.
       set: Release.WelcomeToRathe,
       
     },],
-    name: "Nature’s Path Pilgrimage",
+    name: "Nature's Path Pilgrimage",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP178","WTR148"],
@@ -10487,7 +10618,7 @@ Target weapon attack gains +1{p}.
 
     cost: 1,
     defense: 3,
-    functionalText: `Your next weapon attack this turn gains +2{p} and “If this hits and you have no cards in your arsenal, reveal the top card of your deck. If it’s an action card, put it face down into your arsenal.”
+    functionalText: `Your next weapon attack this turn gains +2{p} and "If this hits and you have no cards in your arsenal, reveal the top card of your deck. If it's an action card, put it face down into your arsenal."
 
 **Go again**`,
     
@@ -10536,7 +10667,7 @@ Target weapon attack gains +1{p}.
       set: Release.WelcomeToRathe,
       
     },],
-    name: "Nature’s Path Pilgrimage",
+    name: "Nature's Path Pilgrimage",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["TEA023","1HP179","WTR149"],
@@ -10548,7 +10679,7 @@ Target weapon attack gains +1{p}.
 
     cost: 1,
     defense: 3,
-    functionalText: `Your next weapon attack this turn gains +1{p} and “If this hits and you have no cards in your arsenal, reveal the top card of your deck. If it’s an action card, put it face down into your arsenal.”
+    functionalText: `Your next weapon attack this turn gains +1{p} and "If this hits and you have no cards in your arsenal, reveal the top card of your deck. If it's an action card, put it face down into your arsenal."
 
 **Go again**`,
     
@@ -10615,7 +10746,7 @@ Target weapon attack gains +1{p}.
       set: Release.CrucibleOfWar,
       
     },],
-    name: "Fyendal’s Spring Tunic",
+    name: "Fyendal's Spring Tunic",
     rarities: [Rarity.Promo,Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB001","FAB002","1HP341","WTR150","CRU178"],
@@ -10627,11 +10758,11 @@ Target weapon attack gains +1{p}.
 
     
     defense: 1,
-    functionalText: `At the start of your turn, if Fyendal’s Spring Tunic has less than 3 energy counters, you may put an energy counter on it.
+    functionalText: `At the start of your turn, if Fyendal's Spring Tunic has less than 3 energy counters, you may put an energy counter on it.
 
-**Instant** - Remove 3 energy counters from Fyendal’s Spring Tunic: Gain {r}
+**Instant** - Remove 3 energy counters from Fyendal's Spring Tunic: Gain {r}
 
-**Blade Break** *(If your defend with Fyendal’s Spring Tunic, destroy it when the combat chain closes.)*`,
+**Blade Break**`,
     
     
     
@@ -10678,7 +10809,7 @@ Target weapon attack gains +1{p}.
       set: Release.WelcomeToRathe,
       
     },],
-    name: "Hope Merchant’s Hood",
+    name: "Hope Merchant's Hood",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAI003","TEA004","1HP350","WTR151"],
@@ -10690,7 +10821,7 @@ Target weapon attack gains +1{p}.
 
     
     defense: 0,
-    functionalText: `**Instant** - Destroy Hope Merchant’s Hood: Shuffle any number of cards from your hand into your deck, then draw that many cards.`,
+    functionalText: `**Instant** - Destroy Hope Merchant's Hood: Shuffle any number of cards from your hand into your deck, then draw that many cards.`,
     
     
     
@@ -10921,7 +11052,7 @@ Target weapon attack gains +1{p}.
 
     
     defense: 0,
-    functionalText: `**Attack Reaction** - Destroy Snapdragon Scalers: Target attack action card with cost 1 or less gains **go again.**`,
+    functionalText: `**Attack Reaction** - Destroy Snapdragon Scalers: Target attack action card with cost 1 or less gains **go again**.`,
     
     
     
@@ -10998,7 +11129,7 @@ Target weapon attack gains +1{p}.
 
     
     defense: 1,
-    functionalText: `**Blade Break** *(If your defend with Ironrot Helm, destroy it when the combat chain closes.)*`,
+    functionalText: `**Blade Break**`,
     
     
     
@@ -11069,7 +11200,7 @@ Target weapon attack gains +1{p}.
 
     
     defense: 1,
-    functionalText: `**Blade Break** *(If your defend with Ironrot Plate, destroy it when the combat chain closes.)*`,
+    functionalText: `**Blade Break**`,
     
     
     
@@ -11146,7 +11277,7 @@ Target weapon attack gains +1{p}.
 
     
     defense: 1,
-    functionalText: `**Blade Break** *(If your defend with Ironrot Gauntlet, destroy it when the combat chain closes.)*`,
+    functionalText: `**Blade Break**`,
     
     
     
@@ -11229,7 +11360,7 @@ Target weapon attack gains +1{p}.
 
     
     defense: 1,
-    functionalText: `**Blade Break** *(If your defend with Ironrot Legs, destroy it when the combat chain closes.)*`,
+    functionalText: `**Blade Break**`,
     
     
     
@@ -12256,7 +12387,7 @@ Banish Remembrance.`,
 
     cost: 3,
     defense: 2,
-    functionalText: `While Barraging Brawnhide is defended by less than 2 non-equipment cards, it has +1{p}`,
+    functionalText: `While Barraging Brawnhide is defended by less than 2 non-equipment cards, it has +1{p}.`,
     
     
     
@@ -12309,7 +12440,7 @@ Banish Remembrance.`,
 
     cost: 3,
     defense: 2,
-    functionalText: `While Barraging Brawnhide is defended by less than 2 non-equipment cards, it has +1{p}`,
+    functionalText: `While Barraging Brawnhide is defended by less than 2 non-equipment cards, it has +1{p}.`,
     
     
     
@@ -12362,7 +12493,7 @@ Banish Remembrance.`,
 
     cost: 3,
     defense: 2,
-    functionalText: `While Barraging Brawnhide is defended by less than 2 non-equipment cards, it has +1{p}`,
+    functionalText: `While Barraging Brawnhide is defended by less than 2 non-equipment cards, it has +1{p}.`,
     
     
     
@@ -12411,7 +12542,7 @@ Banish Remembrance.`,
     defense: 2,
     functionalText: `As an additional cost to play Demolition Crew, reveal a card in your hand with cost 2 or greater.
 
-**Dominate** *(The defending hero can’t defend Demolition Crew with more than 1 card from their hand.)*`,
+**Dominate**`,
     
     
     
@@ -12460,7 +12591,7 @@ Banish Remembrance.`,
     defense: 2,
     functionalText: `As an additional cost to play Demolition Crew, reveal a card in your hand with cost 2 or greater.
 
-**Dominate** *(The defending hero can’t defend Demolition Crew with more than 1 card from their hand.)*`,
+**Dominate**`,
     
     
     
@@ -12509,7 +12640,7 @@ Banish Remembrance.`,
     defense: 2,
     functionalText: `As an additional cost to play Demolition Crew, reveal a card in your hand with cost 2 or greater.
 
-**Dominate** *(The defending hero can’t defend Demolition Crew with more than 1 card from their hand.)*`,
+**Dominate**`,
     
     
     
@@ -12570,7 +12701,7 @@ Banish Remembrance.`,
     defense: 2,
     functionalText: `As an additional cost to play Flock of the Feather Walkers, reveal a card in your hand with cost 1 or less.
 
-When you attack with Flock of the Feather Walkers, create a Quicken aura token. *(It’s an aura with “When you play an attack action card or attack with a weapon, destroy Quicken then the attack gains **go again**.”)*`,
+When you attack with Flock of the Feather Walkers, create a Quicken token.`,
     
     
     
@@ -12625,7 +12756,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken aura token. 
     defense: 2,
     functionalText: `As an additional cost to play Flock of the Feather Walkers, reveal a card in your hand with cost 1 or less.
 
-When you attack with Flock of the Feather Walkers, create a Quicken aura token. *(It’s an aura with “When you play an attack action card or attack with a weapon, destroy Quicken then the attack gains **go again**.”)*`,
+When you attack with Flock of the Feather Walkers, create a Quicken token.`,
     
     
     
@@ -12692,7 +12823,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken aura token. 
     defense: 2,
     functionalText: `As an additional cost to play Flock of the Feather Walkers, reveal a card in your hand with cost 1 or less.
 
-When you attack with Flock of the Feather Walkers, create a Quicken aura token. *(It’s an aura with “When you play an attack action card or attack with a weapon, destroy Quicken then the attack gains **go again**.”)*`,
+When you attack with Flock of the Feather Walkers, create a Quicken token.`,
     
     
     
@@ -12739,7 +12870,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken aura token. 
 
     cost: 1,
     defense: 2,
-    functionalText: `As an additional cost to play Nimble Strike, you may banish a card named Nimblism from your graveyard. If you do, Nimble Strike gain +1{p} and **go again.**`,
+    functionalText: `As an additional cost to play Nimble Strike, you may banish a card named Nimblism from your graveyard. If you do, Nimble Strike gain +1{p} and **go again**.`,
     
     
     
@@ -12786,7 +12917,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken aura token. 
 
     cost: 1,
     defense: 2,
-    functionalText: `As an additional cost to play Nimble Strike, you may banish a card named Nimblism from your graveyard. If you do, Nimble Strike gain +1{p} and **go again.**`,
+    functionalText: `As an additional cost to play Nimble Strike, you may banish a card named Nimblism from your graveyard. If you do, Nimble Strike gain +1{p} and **go again**.`,
     
     
     
@@ -12833,7 +12964,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken aura token. 
 
     cost: 1,
     defense: 2,
-    functionalText: `As an additional cost to play Nimble Strike, you may banish a card named Nimblism from your graveyard. If you do, Nimble Strike gain +1{p} and **go again.**`,
+    functionalText: `As an additional cost to play Nimble Strike, you may banish a card named Nimblism from your graveyard. If you do, Nimble Strike gain +1{p} and **go again**.`,
     
     
     
@@ -13236,7 +13367,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken aura token. 
     defense: 2,
     functionalText: `You may put a card from your hand on the bottom of your deck. If you do, draw a card.
 
-If Scour the Battlescape is played from arsenal, it gains **go again.**`,
+If Scour the Battlescape is played from arsenal, it gains **go again**.`,
     
     
     
@@ -13285,7 +13416,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
     defense: 2,
     functionalText: `You may put a card from your hand on the bottom of your deck. If you do, draw a card.
 
-If Scour the Battlescape is played from arsenal, it gains **go again.**`,
+If Scour the Battlescape is played from arsenal, it gains **go again**.`,
     
     
     
@@ -13352,7 +13483,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
     defense: 2,
     functionalText: `You may put a card from your hand on the bottom of your deck. If you do, draw a card.
 
-If Scour the Battlescape is played from arsenal, it gains **go again.**`,
+If Scour the Battlescape is played from arsenal, it gains **go again**.`,
     
     
     
@@ -13399,7 +13530,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
 
     cost: 2,
     defense: 2,
-    functionalText: `As an additional cost to play Regurgitating Slog, you may banish a card named Sloggism from your graveyard. If you do, Regurgitating Slog gains **dominate.** *(The defending hero can’t defend Regurgitating Slog with more than 1 card from their hand.)*`,
+    functionalText: `As an additional cost to play Regurgitating Slog, you may banish a card named Sloggism from your graveyard. If you do, Regurgitating Slog gains **dominate**.`,
     
     
     
@@ -13446,7 +13577,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
 
     cost: 2,
     defense: 2,
-    functionalText: `As an additional cost to play Regurgitating Slog, you may banish a card named Sloggism from your graveyard. If you do, Regurgitating Slog gains **dominate.** *(The defending hero can’t defend Regurgitating Slog with more than 1 card from their hand.)*`,
+    functionalText: `As an additional cost to play Regurgitating Slog, you may banish a card named Sloggism from your graveyard. If you do, Regurgitating Slog gains **dominate**.`,
     
     
     
@@ -13493,7 +13624,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
 
     cost: 2,
     defense: 2,
-    functionalText: `As an additional cost to play Regurgitating Slog, you may banish a card named Sloggism from your graveyard. If you do, Regurgitating Slog gains **dominate.** *(The defending hero can’t defend Regurgitating Slog with more than 1 card from their hand.)*`,
+    functionalText: `As an additional cost to play Regurgitating Slog, you may banish a card named Sloggism from your graveyard. If you do, Regurgitating Slog gains **dominate**.`,
     
     
     
@@ -13866,7 +13997,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
     defense: 2,
     functionalText: `Choose 1;
 - Target club or hammer weapon attack gains +4{p}.
-- Target attack action with cost 2 or greater gains +4{p} and “If this hits a hero, they discard a card.”`,
+- Target attack action with cost 2 or greater gains +4{p} and "If this hits a hero, they discard a card."`,
     
     
     
@@ -13921,7 +14052,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
     defense: 2,
     functionalText: `Choose 1;
 - Target club or hammer weapon attack gains +3{p}.
-- Target attack action with cost 2 or greater gains +3{p} and “If this hits a hero, they discard a card.”`,
+- Target attack action with cost 2 or greater gains +3{p} and "If this hits a hero, they discard a card."`,
     
     
     
@@ -13982,7 +14113,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
     defense: 2,
     functionalText: `Choose 1;
 - Target club or hammer weapon attack gains +2{p}.
-- Target attack action with cost 2 or greater gains +2{p} and “If this hits a hero, they discard a card.”`,
+- Target attack action with cost 2 or greater gains +2{p} and "If this hits a hero, they discard a card."`,
     
     
     
@@ -14043,7 +14174,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
     defense: 2,
     functionalText: `Choose 1;
 - Target sword or dagger weapon attack gains +3{p}.
-- Target attack action card with cost 1 or less gains +3{p} and “If this hits, this attack gains **go again**.”`,
+- Target attack action card with cost 1 or less gains +3{p} and "If this hits, this attack gains **go again**."`,
     
     
     
@@ -14098,7 +14229,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
     defense: 2,
     functionalText: `Choose 1;
 - Target sword or dagger weapon attack gains +2{p}.
-- Target attack action card with cost 1 or less gains +2{p} and “If this hits, this attack gains **go again**.”`,
+- Target attack action card with cost 1 or less gains +2{p} and "If this hits, this attack gains **go again**."`,
     
     
     
@@ -14153,7 +14284,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
     defense: 2,
     functionalText: `Choose 1;
 - Target sword or dagger weapon attack gains +1{p}.
-- Target attack action card with cost 1 or less gains +1{p} and “If this hits, this attack gains **go again**.”`,
+- Target attack action card with cost 1 or less gains +1{p} and "If this hits, this attack gains **go again**."`,
     
     
     
@@ -14206,9 +14337,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again.**`,
 
     cost: 3,
     defense: 7,
-    functionalText: `*(Defense reactions can be played from hand or arsenal to defend. It costs 3 to defend with Unmovable.)*
-
-If Unmovable is played from arsenal, it gains +1{d}.`,
+    functionalText: `If Unmovable is played from arsenal, it gains +1{d}.`,
     
     
     
@@ -14261,9 +14390,7 @@ If Unmovable is played from arsenal, it gains +1{d}.`,
 
     cost: 3,
     defense: 6,
-    functionalText: `*(Defense reactions can be played from hand or arsenal to defend. It costs 3 to defend with Unmovable.)*
-
-If Unmovable is played from arsenal, it gains +1{d}.`,
+    functionalText: `If Unmovable is played from arsenal, it gains +1{d}.`,
     
     
     
@@ -14316,9 +14443,7 @@ If Unmovable is played from arsenal, it gains +1{d}.`,
 
     cost: 3,
     defense: 5,
-    functionalText: `*(Defense reactions can be played from hand or arsenal to defend. It costs 3 to defend with Unmovable.)*
-
-If Unmovable is played from arsenal, it gains +1{d}.`,
+    functionalText: `If Unmovable is played from arsenal, it gains +1{d}.`,
     
     
     
@@ -15021,9 +15146,7 @@ If Unmovable is played from arsenal, it gains +1{d}.`,
 
     
     
-    functionalText: `*(Auras stay in the arena until they are destroyed.)*
-
-When you play an attack action card or activate a weapon attack, destroy Quicken and the attack gains **go again**.`,
+    functionalText: `When you play an attack action card or activate a weapon attack, destroy Quicken and the attack gains **go again**.`,
     
     
     
@@ -15070,9 +15193,9 @@ When you play an attack action card or activate a weapon attack, destroy Quicken
 
     
     
-    functionalText: `**Legendary** *(You may only have 1 Eye of Ophidia in your deck.)*
+    functionalText: `**Legendary**
 
-When you pitch Eye of Ophidia, **opt 2.**`,
+When you pitch Eye of Ophidia, **opt 2**.`,
     
     
     
@@ -15149,7 +15272,7 @@ When you pitch Eye of Ophidia, **opt 2.**`,
 
     
     
-    functionalText: `You may start the game with a Mechanologist item with cost 2 or less in the arena. *(It’s considered to have entered the arena.)*`,
+    functionalText: `You may start the game with a Mechanologist item with cost 2 or less in the arena.`,
     
     hero: Hero.Dash,
     intellect: 4,
@@ -15199,7 +15322,7 @@ When you pitch Eye of Ophidia, **opt 2.**`,
     name: "Dash",
     rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["HER013","1HP181","ARC002"],
+    setIdentifiers: ["HER013","HER070","1HP181","ARC002"],
     sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC002",
     subtypes: [Subtype.Young],
@@ -15208,7 +15331,7 @@ When you pitch Eye of Ophidia, **opt 2.**`,
 
     
     
-    functionalText: `You may start the game with a Mechanologist item with cost 2 or less in the arena. *(It’s considered to have entered the arena.)*`,
+    functionalText: `You may start the game with a Mechanologist item with cost 2 or less in the arena.`,
     
     hero: Hero.Dash,
     intellect: 4,
@@ -15342,7 +15465,7 @@ When you pitch Eye of Ophidia, **opt 2.**`,
     defense: 2,
     functionalText: `**Once per Turn Action** - {r}: Banish the top 2 cards of your deck. Gain {r} for each Mechanologist card banished this way. Activate this ability only if you have **boosted** this turn. **Go again**
 
-**Battleworn** *(If you defend with Teklo Foundry Heart, put a -1 {d} counter on it when the combat chain closes.)*`,
+**Battleworn**`,
     
     
     
@@ -15384,10 +15507,10 @@ When you pitch Eye of Ophidia, **opt 2.**`,
       
     },],
     name: "Achilles Accelerator",
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["1HP186","ARC005"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    setIdentifiers: ["FAB101","1HP186","ARC005"],
+    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC005",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -15397,7 +15520,7 @@ When you pitch Eye of Ophidia, **opt 2.**`,
     defense: 0,
     functionalText: `**Instant** - Destroy Achilles Accelerator: Gain 1 action point. Activate this ability only if you have **boosted** this turn.
 
-**Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} instead. If you do, prevent 1 arcane damage that source would deal.)*`,
+**Arcane Barrier 1**`,
     
     
     
@@ -15513,7 +15636,7 @@ Draw a card.
 
     cost: 0,
     
-    functionalText: `**Dash Specialization** *(You may only have Teklo Core in your deck if your hero is Dash.)*
+    functionalText: `**Dash Specialization**
 
 Teklo Core enters the arena with 2 steam counters on it. When Teklo Core has no steam counters on it, destroy it.
 
@@ -15623,7 +15746,7 @@ At the beginning of your action phase, remove a steam counter from Teklo Core an
 
     
     defense: 3,
-    functionalText: `**Dash Specialization** *(You may only have Spark of Genius in your deck if your hero is Dash.)*
+    functionalText: `**Dash Specialization**
 
 Search your deck for a Mechanologist item card with cost X, put it into the arena, then shuffle your deck.
 
@@ -15741,9 +15864,9 @@ If you have **boosted** this turn, draw a card.`,
 
     cost: 2,
     defense: 3,
-    functionalText: `If Pedal to the Metal hits, your next attack this turn gains **dominate**. *(The defending hero can't defend the attack with more than 1 card from their hand.)*
+    functionalText: `If Pedal to the Metal hits, your next attack this turn gains **dominate**.
 
-**Boost** *(As an additional cost to play Pedal to the Metal, you may banish the top card of your deck. If it's a Mechanologist card, Pedal to the Metal gains **go again**.)*`,
+**Boost**`,
     
     
     
@@ -15802,9 +15925,9 @@ If you have **boosted** this turn, draw a card.`,
 
     cost: 2,
     defense: 3,
-    functionalText: `If Pedal to the Metal hits, your next attack this turn gains **dominate**. *(The defending hero can't defend the attack with more than 1 card from their hand.)*
+    functionalText: `If Pedal to the Metal hits, your next attack this turn gains **dominate**.
 
-**Boost** *(As an additional cost to play Pedal to the Metal, you may banish the top card of your deck. If it's a Mechanologist card, Pedal to the Metal gains **go again**.)*`,
+**Boost**`,
     
     
     
@@ -15863,9 +15986,9 @@ If you have **boosted** this turn, draw a card.`,
 
     cost: 2,
     defense: 3,
-    functionalText: `If Pedal to the Metal hits, your next attack this turn gains **dominate**. *(The defending hero can't defend the attack with more than 1 card from their hand.)*
+    functionalText: `If Pedal to the Metal hits, your next attack this turn gains **dominate**.
 
-**Boost** *(As an additional cost to play Pedal to the Metal, you may banish the top card of your deck. If it's a Mechanologist card, Pedal to the Metal gains **go again**.)*`,
+**Boost**`,
     
     
     
@@ -16014,7 +16137,7 @@ If you have **boosted** this turn, put a steam counter on it.
 
     cost: 0,
     defense: 3,
-    functionalText: `Put a Mechanologist item with cost 0 or less from your hand into the arena.
+    functionalText: `Put a Mechanologist item with cost 0 from your hand into the arena.
 
 If you have **boosted** this turn, put a steam counter on it.
 
@@ -16075,7 +16198,7 @@ If you have **boosted** this turn, put a steam counter on it.
 
 **Action** - {r}: If there are no steam counters on Aether Sink, put a steam counter on it. **Go again**
 
-**Instant** - Remove a steam counter from Aether Sink: Aether Sink gains **Arcane Barrier 2** until end of turn. *(If your hero would be dealt arcane damage, you may pay {r}{r} instead. If you do, prevent 2 arcane damage that source would deal.)*`,
+**Instant** - Remove a steam counter from Aether Sink: Aether Sink gains **Arcane Barrier 2** until end of turn.`,
     
     
     
@@ -16130,7 +16253,7 @@ If you have **boosted** this turn, put a steam counter on it.
     
     functionalText: `**Action** - {r}: If there are no steam counters on Cognition Nodes, put a steam counter on it. **Go again**
 
-**Once per Turn Attack Reaction** - Remove a steam counter from Cognition Nodes: Target attack action card gains "When this hits, put it on the bottom of its owner’s deck."`,
+**Once per Turn Attack Reaction** - Remove a steam counter from Cognition Nodes: Target attack action card gains "When this hits, put it on the bottom of its owner's deck."`,
     
     
     
@@ -16191,7 +16314,7 @@ If you have **boosted** this turn, put a steam counter on it.
     
     functionalText: `Convection Amplifier enters the arena with 2 steam counters on it. When Convection Amplifier has no steam counters on it, destroy it.
 
-**Action** - Remove a steam counter from Convection Amplifier: The next attack action card you play this turn gains **dominate**. **Go again** *(The defending hero can't defend the attack with more than 1 card from their hand.)*`,
+**Action** - Remove a steam counter from Convection Amplifier: The next attack action card you play this turn gains **dominate**. **Go again**`,
     
     
     
@@ -16262,9 +16385,9 @@ If you have **boosted** this turn, put a steam counter on it.
 
     cost: 2,
     defense: 3,
-    functionalText: `When this hits, put it on the bottom of its owner’s deck.
+    functionalText: `When this hits, put it on the bottom of its owner's deck.
 
-**Boost** *(As an additional cost to play Over Loop, you may banish the top card of your deck. If it's a Mechanologist card, Over Loop gains **go again**.)*`,
+**Boost**`,
     
     
     
@@ -16329,9 +16452,9 @@ If you have **boosted** this turn, put a steam counter on it.
 
     cost: 2,
     defense: 3,
-    functionalText: `When this hits, put it on the bottom of its owner’s deck.
+    functionalText: `When this hits, put it on the bottom of its owner's deck.
 
-**Boost** *(As an additional cost to play Over Loop, you may banish the top card of your deck. If it's a Mechanologist card, Over Loop gains **go again**.)*`,
+**Boost**`,
     
     
     
@@ -16396,9 +16519,9 @@ If you have **boosted** this turn, put a steam counter on it.
 
     cost: 2,
     defense: 3,
-    functionalText: `When this hits, put it on the bottom of its owner’s deck.
+    functionalText: `When this hits, put it on the bottom of its owner's deck.
 
-**Boost** *(As an additional cost to play Over Loop, you may banish the top card of your deck. If it's a Mechanologist card, Over Loop gains **go again**.)*`,
+**Boost**`,
     
     
     
@@ -16457,7 +16580,7 @@ If you have **boosted** this turn, put a steam counter on it.
 
     cost: 2,
     defense: 3,
-    functionalText: `**Boost** *(As an additional cost to play Throttle, you may banish the top card of your deck. If it's a Mechanologist card, Throttle gains **go again**.)*`,
+    functionalText: `**Boost**`,
     
     
     
@@ -16516,7 +16639,7 @@ If you have **boosted** this turn, put a steam counter on it.
 
     cost: 2,
     defense: 3,
-    functionalText: `**Boost** *(As an additional cost to play Throttle, you may banish the top card of your deck. If it's a Mechanologist card, Throttle gains **go again**.)*`,
+    functionalText: `**Boost**`,
     
     
     
@@ -16575,7 +16698,7 @@ If you have **boosted** this turn, put a steam counter on it.
 
     cost: 2,
     defense: 3,
-    functionalText: `**Boost** *(As an additional cost to play Throttle, you may banish the top card of your deck. If it's a Mechanologist card, Throttle gains **go again**.)*`,
+    functionalText: `**Boost**`,
     
     
     
@@ -16634,7 +16757,7 @@ If you have **boosted** this turn, put a steam counter on it.
 
     cost: 0,
     defense: 3,
-    functionalText: `**Boost** *(As an additional cost to play Zero to Sixty, you may banish the top card of your deck. If it's a Mechanologist card, Zero to Sixty gains **go again**.)*`,
+    functionalText: `**Boost**`,
     
     
     
@@ -16693,7 +16816,7 @@ If you have **boosted** this turn, put a steam counter on it.
 
     cost: 0,
     defense: 3,
-    functionalText: `**Boost** *(As an additional cost to play Zero to Sixty, you may banish the top card of your deck. If it's a Mechanologist card, Zero to Sixty gains **go again**.)*`,
+    functionalText: `**Boost**`,
     
     
     
@@ -16752,7 +16875,7 @@ If you have **boosted** this turn, put a steam counter on it.
 
     cost: 0,
     defense: 3,
-    functionalText: `**Boost** *(As an additional cost to play Zero to Sixty, you may banish the top card of your deck. If it's a Mechanologist card, Zero to Sixty gains **go again**.)*`,
+    functionalText: `**Boost**`,
     
     
     
@@ -16811,7 +16934,7 @@ If you have **boosted** this turn, put a steam counter on it.
 
     cost: 1,
     defense: 3,
-    functionalText: `**Boost** *(As an additional cost to play Zipper Hit, you may banish the top card of your deck. If it's a Mechanologist card, Zipper Hit gains **go again**.)*`,
+    functionalText: `**Boost**`,
     
     
     
@@ -16870,7 +16993,7 @@ If you have **boosted** this turn, put a steam counter on it.
 
     cost: 1,
     defense: 3,
-    functionalText: `**Boost** *(As an additional cost to play Zipper Hit, you may banish the top card of your deck. If it's a Mechanologist card, Zipper Hit gains **go again**.)*`,
+    functionalText: `**Boost**`,
     
     
     
@@ -16929,7 +17052,7 @@ If you have **boosted** this turn, put a steam counter on it.
 
     cost: 1,
     defense: 3,
-    functionalText: `**Boost** *(As an additional cost to play Zipper Hit, you may banish the top card of your deck. If it's a Mechanologist card, Zipper Hit gains **go again**.)*`,
+    functionalText: `**Boost**`,
     
     
     
@@ -16984,7 +17107,7 @@ If you have **boosted** this turn, put a steam counter on it.
     defense: 3,
     functionalText: `The next Mechanologist attack action card you play this turn gains +3{p}.
 
-If you have **boosted** this turn, **opt 1**. *(Look at the top card of your deck. You may put it on the bottom.)*
+If you have **boosted** this turn, **opt 1**.
 
 **Go again**`,
     
@@ -17041,7 +17164,7 @@ If you have **boosted** this turn, **opt 1**. *(Look at the top card of your dec
     defense: 3,
     functionalText: `The next Mechanologist attack action card you play this turn gains +2{p}.
 
-If you have **boosted** this turn, **opt 1**. *(Look at the top card of your deck. You may put it on the bottom.)*
+If you have **boosted** this turn, **opt 1**.
 
 **Go again**`,
     
@@ -17098,7 +17221,7 @@ If you have **boosted** this turn, **opt 1**. *(Look at the top card of your dec
     defense: 3,
     functionalText: `The next Mechanologist attack action card you play this turn gains +1{p}.
 
-If you have **boosted** this turn, **opt 1**. *(Look at the top card of your deck. You may put it on the bottom.)*
+If you have **boosted** this turn, **opt 1**.
 
 **Go again**`,
     
@@ -17279,7 +17402,7 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     
     functionalText: `Optekal Monocle enters the arena with 5 steam counters on it. When Optekal Monocle has no steam counters on it, destroy it.
 
-**Action** - Remove a steam counter from Optekal Monocle: **Opt 1**. **Go again** *(Look at the top card of your deck. You may put it on the bottom.)*`,
+**Action** - Remove a steam counter from Optekal Monocle: **Opt 1**. **Go again**`,
     
     
     
@@ -17341,8 +17464,8 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     name: "Death Dealer",
     rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["LGS010","1HP223","ARC040","CRU120"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar],
+    setIdentifiers: ["FAB096","LGS010","1HP223","ARC040","CRU120"],
+    sets: [Release.Promos,Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar],
     specialImageName: "ARC040",
     subtypes: [Subtype.Bow,Subtype.TwoHanded],
     types: [Type.Weapon],
@@ -17411,9 +17534,9 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     defense: 1,
     functionalText: `**Once per Turn Action** - Turn a face down card in your arsenal face up: **Opt 1**. **Go again**
 
-**Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} instead. If you do, prevent 1 arcane damage that source would deal.)*
+**Arcane Barrier 1**
 
-**Blade Break** *(If you defend with Skullbone Crosswrap, destroy it when the combat chain closes.)*`,
+**Blade Break**`,
     
     
     
@@ -17454,11 +17577,11 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
       set: Release.ArcaneRising,
       
     },],
-    name: "Bull’s Eye Bracers",
-    rarities: [Rarity.Common],
+    name: "Bull's Eye Bracers",
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["1HP226","ARC042"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    setIdentifiers: ["FAB102","1HP226","ARC042"],
+    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC042",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
@@ -17468,7 +17591,7 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     defense: 0,
     functionalText: `**Action** - Destroy Bull's Eye Bracers: If you have no cards in your arsenal, you may put an arrow card from your hand face up into your arsenal. It gains +1{p} until end of turn. **Go again**
 
-**Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} instead. If you do, prevent 1 arcane damage that source would deal.)*`,
+**Arcane Barrier 1**`,
     
     
     
@@ -17527,9 +17650,7 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
 
     cost: 1,
     defense: 3,
-    functionalText: `**Azalea Specialization** *(You may only have Red in the Ledger in your deck if your hero is Azalea.)*
-
-*(Arrows can only be played from arsenal and only if you control a bow.)*
+    functionalText: `**Azalea Specialization**
 
 If Red in the Ledger hits a hero, they can't play or activate more than 1 action during their next turn.`,
     
@@ -17639,9 +17760,7 @@ If Red in the Ledger hits a hero, they can't play or activate more than 1 action
 
     cost: 0,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-If Endless Arrow hits, put it into your hand.`,
+    functionalText: `If Endless Arrow hits, put it into your hand.`,
     
     
     
@@ -17700,11 +17819,11 @@ If Endless Arrow hits, put it into your hand.`,
 
     cost: 0,
     defense: 3,
-    functionalText: `**Azalea Specialization** *(You may only have Nock the Deathwhistle in your deck if your hero is Azalea.)*
+    functionalText: `**Azalea Specialization**
 
 Search your deck for an arrow card, reveal it, then shuffle your deck and put it on top of your deck.
 
-**Reload** *(If you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.)*
+**Reload**
 
 **Go again**`,
     
@@ -17753,9 +17872,9 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
 
     cost: 0,
     defense: 2,
-    functionalText: `Until end of turn, arrows you control gain **go again.**
+    functionalText: `Until end of turn, arrows you control gain **go again**.
 
-**Reload** *(If you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.)*
+**Reload**
 
 **Go again**`,
     
@@ -17810,7 +17929,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
 
     cost: 0,
     defense: 4,
-    functionalText: `**Reload** *(If you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.)*`,
+    functionalText: `**Reload**`,
     
     
     
@@ -17863,7 +17982,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
 
     cost: 0,
     defense: 3,
-    functionalText: `**Reload** *(If you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.)*`,
+    functionalText: `**Reload**`,
     
     
     
@@ -17916,7 +18035,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
 
     cost: 0,
     defense: 2,
-    functionalText: `**Reload** *(If you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.)*`,
+    functionalText: `**Reload**`,
     
     
     
@@ -18124,7 +18243,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     defense: 2,
     functionalText: `The next Ranger attack action card you play this turn, gains +3{p}.
 
-**Reload** *(If you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.)*
+**Reload**
 
 **Go again**`,
     
@@ -18181,7 +18300,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     defense: 2,
     functionalText: `The next Ranger attack action card you play this turn, gains +2{p}.
 
-**Reload** *(If you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.)*
+**Reload**
 
 **Go again**`,
     
@@ -18238,7 +18357,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     defense: 2,
     functionalText: `The next Ranger attack action card you play this turn, gains +1{p}.
 
-**Reload** *(If you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.)*
+**Reload**
 
 **Go again**`,
     
@@ -18293,9 +18412,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-If Head Shot is put into your arsenal face up, it gains +2{p} until end of turn.`,
+    functionalText: `If Head Shot is put into your arsenal face up, it gains +2{p} until end of turn.`,
     
     
     
@@ -18348,9 +18465,7 @@ If Head Shot is put into your arsenal face up, it gains +2{p} until end of turn.
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-If Head Shot is put into your arsenal face up, it gains +2{p} until end of turn.`,
+    functionalText: `If Head Shot is put into your arsenal face up, it gains +2{p} until end of turn.`,
     
     
     
@@ -18403,9 +18518,7 @@ If Head Shot is put into your arsenal face up, it gains +2{p} until end of turn.
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-If Head Shot is put into your arsenal face up, it gains +2{p} until end of turn.`,
+    functionalText: `If Head Shot is put into your arsenal face up, it gains +2{p} until end of turn.`,
     
     
     
@@ -18452,9 +18565,7 @@ If Head Shot is put into your arsenal face up, it gains +2{p} until end of turn.
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-If Hamstring Shot hits a hero, their first attack during their next turn costs an additional {r}.`,
+    functionalText: `If Hamstring Shot hits a hero, their first attack during their next turn costs an additional {r}.`,
     
     
     
@@ -18501,9 +18612,7 @@ If Hamstring Shot hits a hero, their first attack during their next turn costs a
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-If Hamstring Shot hits a hero, their first attack during their next turn costs an additional {r}.`,
+    functionalText: `If Hamstring Shot hits a hero, their first attack during their next turn costs an additional {r}.`,
     
     
     
@@ -18550,9 +18659,7 @@ If Hamstring Shot hits a hero, their first attack during their next turn costs a
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-If Hamstring Shot hits a hero, their first attack during their next turn costs an additional {r}.`,
+    functionalText: `If Hamstring Shot hits a hero, their first attack during their next turn costs an additional {r}.`,
     
     
     
@@ -18611,9 +18718,7 @@ If Hamstring Shot hits a hero, their first attack during their next turn costs a
 
     cost: 0,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-If Ridge Rider Shot is put into your arsenal face up, **opt 1**. *(Look at the top card of your deck. You may put it on the bottom.)*`,
+    functionalText: `If Ridge Rider Shot is put into your arsenal face up, **opt 1**.`,
     
     
     
@@ -18672,9 +18777,7 @@ If Ridge Rider Shot is put into your arsenal face up, **opt 1**. *(Look at the t
 
     cost: 0,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-If Ridge Rider Shot is put into your arsenal face up, **opt 1**. *(Look at the top card of your deck. You may put it on the bottom.)*`,
+    functionalText: `If Ridge Rider Shot is put into your arsenal face up, **opt 1**.`,
     
     
     
@@ -18733,9 +18836,7 @@ If Ridge Rider Shot is put into your arsenal face up, **opt 1**. *(Look at the t
 
     cost: 0,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-If Ridge Rider Shot is put into your arsenal face up, **opt 1**. *(Look at the top card of your deck. You may put it on the bottom.)*`,
+    functionalText: `If Ridge Rider Shot is put into your arsenal face up, **opt 1**.`,
     
     
     
@@ -18788,9 +18889,7 @@ If Ridge Rider Shot is put into your arsenal face up, **opt 1**. *(Look at the t
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-When this hits, put it on the bottom of its owner’s deck.`,
+    functionalText: `When this hits, put it on the bottom of its owner's deck.`,
     
     
     
@@ -18843,9 +18942,7 @@ When this hits, put it on the bottom of its owner’s deck.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-When this hits, put it on the bottom of its owner’s deck.`,
+    functionalText: `When this hits, put it on the bottom of its owner's deck.`,
     
     
     
@@ -18898,9 +18995,7 @@ When this hits, put it on the bottom of its owner’s deck.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-When this hits, put it on the bottom of its owner’s deck.`,
+    functionalText: `When this hits, put it on the bottom of its owner's deck.`,
     
     
     
@@ -18953,9 +19048,7 @@ When this hits, put it on the bottom of its owner’s deck.`,
 
     cost: 0,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-If Searing Shot hits a hero, they lose 1{h}.`,
+    functionalText: `If Searing Shot hits a hero, they lose 1{h}.`,
     
     
     
@@ -19008,9 +19101,7 @@ If Searing Shot hits a hero, they lose 1{h}.`,
 
     cost: 0,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-If Searing Shot hits a hero, they lose 1{h}.`,
+    functionalText: `If Searing Shot hits a hero, they lose 1{h}.`,
     
     
     
@@ -19063,9 +19154,7 @@ If Searing Shot hits a hero, they lose 1{h}.`,
 
     cost: 0,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-If Searing Shot hits a hero, they lose 1{h}.`,
+    functionalText: `If Searing Shot hits a hero, they lose 1{h}.`,
     
     
     
@@ -19118,7 +19207,7 @@ If Searing Shot hits a hero, they lose 1{h}.`,
       set: Release.ArcaneRising,
       
     },],
-    name: "Sic ‘Em Shot",
+    name: "Sic 'Em Shot",
     rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS014","LGS035","1HP252","ARC072"],
@@ -19130,9 +19219,7 @@ If Searing Shot hits a hero, they lose 1{h}.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-**Go again**`,
+    functionalText: `**Go again**`,
     
     
     
@@ -19179,7 +19266,7 @@ If Searing Shot hits a hero, they lose 1{h}.`,
       set: Release.ArcaneRising,
       
     },],
-    name: "Sic ‘Em Shot",
+    name: "Sic 'Em Shot",
     rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS036","1HP253","ARC073"],
@@ -19191,9 +19278,7 @@ If Searing Shot hits a hero, they lose 1{h}.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-**Go again**`,
+    functionalText: `**Go again**`,
     
     
     
@@ -19240,7 +19325,7 @@ If Searing Shot hits a hero, they lose 1{h}.`,
       set: Release.ArcaneRising,
       
     },],
-    name: "Sic ‘Em Shot",
+    name: "Sic 'Em Shot",
     rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS037","1HP254","ARC074"],
@@ -19252,9 +19337,7 @@ If Searing Shot hits a hero, they lose 1{h}.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-**Go again**`,
+    functionalText: `**Go again**`,
     
     
     
@@ -19331,7 +19414,7 @@ If Searing Shot hits a hero, they lose 1{h}.`,
 
     
     
-    functionalText: `Whenever you play a Runeblade card, if you have played another 'non-attack' action card this turn, create a Runechant token. *(It's an aura with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.”)*`,
+    functionalText: `Whenever you play a Runeblade card, if you have played another 'non-attack' action card this turn, create a Runechant token.`,
     
     hero: Hero.Viserai,
     intellect: 4,
@@ -19390,7 +19473,7 @@ If Searing Shot hits a hero, they lose 1{h}.`,
 
     
     
-    functionalText: `Whenever you play a Runeblade card, if you have played another 'non-attack' action card this turn, create a Runechant token. *(It's an aura with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.”)*`,
+    functionalText: `Whenever you play a Runeblade card, if you have played another 'non-attack' action card this turn, create a Runechant token.`,
     
     hero: Hero.Viserai,
     intellect: 4,
@@ -19526,7 +19609,7 @@ If you have played a 'non-attack' action card this turn, Nebula Blade gains +3{p
     defense: 2,
     functionalText: `**Once per Turn Action** - {r}{r}: Create a Runechant token. This ability costs an additional {r} to activate for each Runechant you control. **Go again**
 
-**Battleworn** *(If you defend with Grasp of the Arknight, put a -1 {d} counter on it when the combat chain closes.)*`,
+**Battleworn**`,
     
     
     
@@ -19581,7 +19664,7 @@ If you have played a 'non-attack' action card this turn, Nebula Blade gains +3{p
     defense: 0,
     functionalText: `**Action** - {r}, destroy Crown of Dichotomy: Put target Runeblade attack action card and target Runeblade 'non-attack' action card from your graveyard on top of your deck in any order.
 
-**Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} instead. If you do, prevent 1 arcane damage that source would deal.)*`,
+**Arcane Barrier 1**`,
     
     
     
@@ -19640,7 +19723,7 @@ If you have played a 'non-attack' action card this turn, Nebula Blade gains +3{p
 
     cost: 6,
     defense: 3,
-    functionalText: `**Viserai Specialization** *(You may only have Arknight Ascendency in your deck if your hero is Viserai.)*
+    functionalText: `**Viserai Specialization**
 
 Arknight Ascendency costs {r} less to play for each Runechant you control.
 
@@ -19807,9 +19890,9 @@ If Arknight Ascendency hits, create X Runechant tokens, where X is the damage de
 
     cost: 0,
     defense: 3,
-    functionalText: `**Viserai Specialization** *(You may only have Become the Arknight in your deck if your hero is Viserai.)*
+    functionalText: `**Viserai Specialization**
 
-You may discard an action card. If you discard an attack action card this way, search your deck for a Runeblade ‘non-attack’ action card, reveal it, and put it into your hand. If you discard a ‘non-attack’ action card this way, search your deck for a Runeblade attack action card, reveal it, and put it into your hand. Shuffle your deck.
+You may discard an action card. If you discard an attack action card this way, search your deck for a Runeblade 'non-attack' action card, reveal it, and put it into your hand. If you discard a 'non-attack' action card this way, search your deck for a Runeblade attack action card, reveal it, and put it into your hand. Shuffle your deck.
 
 **Go again**`,
     
@@ -19919,7 +20002,7 @@ You may discard an action card. If you discard an attack action card this way, s
 
     cost: 2,
     defense: 3,
-    functionalText: `When you attack with Spellblade Assault, create 2 Runechant tokens. *(They're auras with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*`,
+    functionalText: `When you attack with Spellblade Assault, create 2 Runechant tokens.`,
     
     
     
@@ -19978,7 +20061,7 @@ You may discard an action card. If you discard an attack action card this way, s
 
     cost: 2,
     defense: 3,
-    functionalText: `When you attack with Spellblade Assault, create 2 Runechant tokens. *(They're auras with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*`,
+    functionalText: `When you attack with Spellblade Assault, create 2 Runechant tokens.`,
     
     
     
@@ -20037,7 +20120,7 @@ You may discard an action card. If you discard an attack action card this way, s
 
     cost: 2,
     defense: 3,
-    functionalText: `When you attack with Spellblade Assault, create 2 Runechant tokens. *(They're auras with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*`,
+    functionalText: `When you attack with Spellblade Assault, create 2 Runechant tokens.`,
     
     
     
@@ -20110,7 +20193,7 @@ You may discard an action card. If you discard an attack action card this way, s
     defense: 4,
     functionalText: `Reduce to Runechant costs {r} less to play for each Runechant you control.
 
-Create a Runechant token. *(It's an aura with “When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.”)*`,
+Create a Runechant token.`,
     
     
     
@@ -20177,7 +20260,7 @@ Create a Runechant token. *(It's an aura with “When you play an attack action 
     defense: 3,
     functionalText: `Reduce to Runechant costs {r} less to play for each Runechant you control.
 
-Create a Runechant token. *(It's an aura with “When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.”)*`,
+Create a Runechant token.`,
     
     
     
@@ -20244,7 +20327,7 @@ Create a Runechant token. *(It's an aura with “When you play an attack action 
     defense: 2,
     functionalText: `Reduce to Runechant costs {r} less to play for each Runechant you control.
 
-Create a Runechant token. *(It's an aura with “When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.”)*`,
+Create a Runechant token.`,
     
     
     
@@ -20305,7 +20388,7 @@ Create a Runechant token. *(It's an aura with “When you play an attack action 
     defense: 3,
     functionalText: `Your next Runeblade attack this turn gains +3{p}.
 
-Create a Runechant token. *(It's an aura with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*
+Create a Runechant token.
 
 **Go again**`,
     
@@ -20368,7 +20451,7 @@ Create a Runechant token. *(It's an aura with "When you play an attack action ca
     defense: 3,
     functionalText: `Your next Runeblade attack this turn gains +2{p}.
 
-Create a Runechant token. *(It's an aura with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*
+Create a Runechant token.
 
 **Go again**`,
     
@@ -20431,7 +20514,7 @@ Create a Runechant token. *(It's an aura with "When you play an attack action ca
     defense: 3,
     functionalText: `Your next Runeblade attack this turn gains +1{p}.
 
-Create a Runechant token. *(It's an aura with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*
+Create a Runechant token.
 
 **Go again**`,
     
@@ -20957,7 +21040,7 @@ Draw a card.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `Create a Runechant token. *(It's an aura with “When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.”)*`,
+    functionalText: `Create a Runechant token.`,
     
     
     
@@ -21010,7 +21093,7 @@ Draw a card.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `Create a Runechant token. *(It's an aura with “When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.”)*`,
+    functionalText: `Create a Runechant token.`,
     
     
     
@@ -21063,7 +21146,7 @@ Draw a card.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `Create a Runechant token. *(It's an aura with “When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.”)*`,
+    functionalText: `Create a Runechant token.`,
     
     
     
@@ -21122,11 +21205,9 @@ Draw a card.`,
 
     cost: 1,
     defense: 2,
-    functionalText: `*(Aura's stay in the arena until they are destroyed.)*
+    functionalText: `**Go again**
 
-**Go again**
-
-When an attack action card you control hits, destroy Bloodspill Invocation then create 3 Runechant tokens. *(They're auras with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*
+When an attack action card you control hits, destroy Bloodspill Invocation then create 3 Runechant tokens.
 
 When your hero is dealt damage, destroy Bloodspill Invocation.`,
     
@@ -21187,11 +21268,9 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
 
     cost: 1,
     defense: 2,
-    functionalText: `*(Aura's stay in the arena until they are destroyed.)*
+    functionalText: `**Go again**
 
-**Go again**
-
-When an attack action card you control hits, destroy Bloodspill Invocation then create 2 Runechant tokens. *(They're auras with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*
+When an attack action card you control hits, destroy Bloodspill Invocation then create 2 Runechant tokens.
 
 When your hero is dealt damage, destroy Bloodspill Invocation.`,
     
@@ -21252,11 +21331,9 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
 
     cost: 1,
     defense: 2,
-    functionalText: `*(Aura's stay in the arena until they are destroyed.)*
+    functionalText: `**Go again**
 
-**Go again**
-
-When an attack action card you control hits, destroy Bloodspill Invocation then create a Runechant token. *(It's an aura with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*
+When an attack action card you control hits, destroy Bloodspill Invocation then create a Runechant token.
 
 When your hero is dealt damage, destroy Bloodspill Invocation.`,
     
@@ -21317,7 +21394,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
 
     cost: 0,
     defense: 2,
-    functionalText: `Create 3 Runechant tokens. *(They're auras with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*`,
+    functionalText: `Create 3 Runechant tokens.`,
     
     
     
@@ -21376,7 +21453,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
 
     cost: 0,
     defense: 2,
-    functionalText: `Create 2 Runechant tokens. *(They're auras with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*`,
+    functionalText: `Create 2 Runechant tokens.`,
     
     
     
@@ -21435,7 +21512,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
 
     cost: 0,
     defense: 2,
-    functionalText: `Create a Runechant token. *(It's an aura with “When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.”)*`,
+    functionalText: `Create a Runechant token.`,
     
     
     
@@ -21518,9 +21595,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
 
     
     
-    functionalText: `*(Auras stay in the arena until they are destroyed.)*
-
-When you play an attack action card or activate a weapon attack, destroy Runechant and deal 1 arcane damage to target opposing hero.`,
+    functionalText: `When you play an attack action card or activate a weapon attack, destroy Runechant and deal 1 arcane damage to target opposing hero.`,
     
     
     
@@ -21724,8 +21799,8 @@ When you play an attack action card or activate a weapon attack, destroy Runecha
     name: "Crucible of Aetherweave",
     rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["LGS012","1HP303","ARC115","CRU159"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar],
+    setIdentifiers: ["FAB097","LGS012","1HP303","ARC115","CRU159"],
+    sets: [Release.Promos,Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar],
     specialImageName: "ARC115",
     subtypes: [Subtype.Staff,Subtype.TwoHanded],
     types: [Type.Weapon],
@@ -21794,7 +21869,7 @@ When you play an attack action card or activate a weapon attack, destroy Runecha
     defense: 0,
     functionalText: `**Instant** - {r}, destroy Storm Striders: You may play your next Wizard 'non-attack' action card this turn as though it were an instant.
 
-**Arcane Barrier 2** *(If your hero would be dealt arcane damage, you may pay {r}{r} instead. If you do, prevent 2 arcane damage that source would deal.)*`,
+**Arcane Barrier 2**`,
     
     
     
@@ -21849,7 +21924,7 @@ When you play an attack action card or activate a weapon attack, destroy Runecha
     defense: 0,
     functionalText: `**Action** - Destroy Robe of Rapture: Gain {r}{r}{r}.
 
-**Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} instead. If you do, prevent 1 arcane damage that source would deal.)*`,
+**Arcane Barrier 1**`,
     
     
     
@@ -21908,7 +21983,7 @@ When you play an attack action card or activate a weapon attack, destroy Runecha
 
     cost: 0,
     defense: 3,
-    functionalText: `**Kano Specialization** *(You may only have Blazing Aether in your deck if your hero is Kano.)*
+    functionalText: `**Kano Specialization**
 
 Deal X arcane damage to target hero, where X is the amount of arcane damage you have dealt to that hero this turn.`,
     
@@ -22024,9 +22099,7 @@ If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 
 
     cost: 3,
     defense: 3,
-    functionalText: `Deal 2 arcane damage to two target heroes. You may target the same hero twice.
-
-*(Effects that modify damage modify both damage effects of Forked Lightning. Forked Lightning is considered a single source of damage.)*`,
+    functionalText: `Deal 2 arcane damage to two target heroes. You may target the same hero twice.`,
     
     
     
@@ -22085,7 +22158,7 @@ If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 
 
     cost: 1,
     defense: 3,
-    functionalText: `**Kano Specialization** *(You may only have Lesson in Lava in your deck if your hero is Kano.)*
+    functionalText: `**Kano Specialization**
 
 Deal 3 arcane damage to target opposing hero.
 
@@ -22347,7 +22420,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     defense: 3,
     functionalText: `Deal 4 arcane damage to target opposing hero.
 
-**Opt X**, where X is the damage dealt by Aether Spindle. *(Look at the top X cards of your deck. You may put them on the top and/or bottom in any order.)*`,
+**Opt X**, where X is the damage dealt by Aether Spindle.`,
     
     
     
@@ -22408,7 +22481,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     defense: 3,
     functionalText: `Deal 3 arcane damage to target opposing hero.
 
-**Opt X**, where X is the damage dealt by Aether Spindle. *(Look at the top X cards of your deck. You may put them on the top and/or bottom in any order.)*`,
+**Opt X**, where X is the damage dealt by Aether Spindle.`,
     
     
     
@@ -22469,7 +22542,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     defense: 3,
     functionalText: `Deal 2 arcane damage to target opposing hero.
 
-**Opt X**, where X is the damage dealt by Aether Spindle. *(Look at the top X cards of your deck. You may put them on the top and/or bottom in any order.)*`,
+**Opt X**, where X is the damage dealt by Aether Spindle.`,
     
     
     
@@ -23653,9 +23726,9 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
 
     
     defense: 1,
-    functionalText: `If you have less {h} than your opponent, Arcanite Skullcap gains +1{d} and **Arcane Barrier 3**. *(If your hero would be dealt arcane damage, you may pay {r}{r}{r} instead. If you do, prevent 3 arcane damage that source would deal.)*
+    functionalText: `If you have less {h} than your opponent, Arcanite Skullcap gains +1{d} and **Arcane Barrier 3**.
 
-**Battleworn** *(If you defend with Arcanite Skullcap, put a -1{d} counter on it when the combat chain closes.)*`,
+**Battleworn**`,
     
     
     
@@ -23720,7 +23793,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
 
     
     defense: 0,
-    functionalText: `**Instant** - Destroy Talismanic Lens: **Opt 2** *(Look at the top 2 cards of your deck. You may put them on the top and/or bottom in any order.)*`,
+    functionalText: `**Instant** - Destroy Talismanic Lens: **Opt 2**`,
     
     
     
@@ -23762,10 +23835,10 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       
     },],
     name: "Vest of the First Fist",
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["1HP356","ARC152"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    setIdentifiers: ["FAB100","1HP356","ARC152"],
+    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
     specialImageName: "ARC152",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -23832,7 +23905,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
 
     
     defense: 0,
-    functionalText: `**Action** - Destroy Bracers of Belief: Reveal the top card of your deck. If you do, the next attack action card you play this turn, gains +X{p}, where X is 3 minus the pitch value of the card revealed this way. **Go again** *(The pitch value is located in the top left corner of the card.)*`,
+    functionalText: `**Action** - Destroy Bracers of Belief: Reveal the top card of your deck. If you do, the next attack action card you play this turn, gains +X{p}, where X is 3 minus the pitch value of the card revealed this way. **Go again**`,
     
     
     
@@ -23950,7 +24023,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
 
     
     defense: 0,
-    functionalText: `**Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} instead. If you do, prevent 1 arcane damage that source would deal.)*`,
+    functionalText: `**Arcane Barrier 1**`,
     
     
     
@@ -24009,7 +24082,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
 
     
     defense: 0,
-    functionalText: `**Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} instead. If you do, prevent 1 arcane damage that source would deal.)*`,
+    functionalText: `**Arcane Barrier 1**`,
     
     
     
@@ -24068,7 +24141,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
 
     
     defense: 0,
-    functionalText: `**Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} instead. If you do, prevent 1 arcane damage that source would deal.)*`,
+    functionalText: `**Arcane Barrier 1**`,
     
     
     
@@ -24127,7 +24200,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
 
     
     defense: 0,
-    functionalText: `**Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} instead. If you do, prevent 1 arcane damage that source would deal.)*`,
+    functionalText: `**Arcane Barrier 1**`,
     
     
     
@@ -24186,7 +24259,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
 
     cost: 2,
     defense: 3,
-    functionalText: `Defense reaction cards can’t be played to Command and Conquer’s chain link.
+    functionalText: `Defense reaction cards can't be played to Command and Conquer's chain link.
 
 If Command and Conquer hits a hero, destroy all cards in their arsenal.`,
     
@@ -24391,7 +24464,7 @@ At the beginning of your action phase, destroy Chains of Eminence`,
 
     cost: 0,
     
-    functionalText: `**Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} instead. If you do, prevent 1 arcane damage that source would deal.)*`,
+    functionalText: `**Arcane Barrier 1**`,
     
     
     
@@ -24945,7 +25018,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
       set: Release.ArcaneRising,
       
     },],
-    name: "Eirina’s Prayer",
+    name: "Eirina's Prayer",
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP384","ARC173"],
@@ -24957,7 +25030,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
 
     cost: 1,
     
-    functionalText: `Reveal the top card of your deck. Prevent the next X arcane damage that would be dealt to your hero this turn, where X is 6 minus the pitch value of the card revealed this way. *(The pitch value is located in the top left corner of the card.)*`,
+    functionalText: `Reveal the top card of your deck. Prevent the next X arcane damage that would be dealt to your hero this turn, where X is 6 minus the pitch value of the card revealed this way.`,
     
     
     
@@ -25004,7 +25077,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
       set: Release.ArcaneRising,
       
     },],
-    name: "Eirina’s Prayer",
+    name: "Eirina's Prayer",
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP385","ARC174"],
@@ -25016,7 +25089,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
 
     cost: 1,
     
-    functionalText: `Reveal the top card of your deck. Prevent the next X arcane damage that would be dealt to your hero this turn, where X is 5 minus the pitch value of the card revealed this way. *(The pitch value is located in the top left corner of the card.)*`,
+    functionalText: `Reveal the top card of your deck. Prevent the next X arcane damage that would be dealt to your hero this turn, where X is 5 minus the pitch value of the card revealed this way.`,
     
     
     
@@ -25063,7 +25136,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
       set: Release.ArcaneRising,
       
     },],
-    name: "Eirina’s Prayer",
+    name: "Eirina's Prayer",
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP386","ARC175"],
@@ -25075,7 +25148,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
 
     cost: 1,
     
-    functionalText: `Reveal the top card of your deck. Prevent the next X arcane damage that would be dealt to your hero this turn, where X is 4 minus the pitch value of the card revealed this way. *(The pitch value is located in the top left corner of the card.)*`,
+    functionalText: `Reveal the top card of your deck. Prevent the next X arcane damage that would be dealt to your hero this turn, where X is 4 minus the pitch value of the card revealed this way.`,
     
     
     
@@ -25263,7 +25336,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
 
     cost: 2,
     defense: 2,
-    functionalText: `If Cadaverous Contraband hits, you may put a ‘non-attack’ action card from your graveyard on top of your deck.`,
+    functionalText: `If Cadaverous Contraband hits, you may put a 'non-attack' action card from your graveyard on top of your deck.`,
     
     
     
@@ -25310,7 +25383,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
 
     cost: 2,
     defense: 2,
-    functionalText: `If Cadaverous Contraband hits, you may put a ‘non-attack’ action card from your graveyard on top of your deck.`,
+    functionalText: `If Cadaverous Contraband hits, you may put a 'non-attack' action card from your graveyard on top of your deck.`,
     
     
     
@@ -25357,7 +25430,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
 
     cost: 2,
     defense: 2,
-    functionalText: `If Cadaverous Contraband hits, you may put a ‘non-attack’ action card from your graveyard on top of your deck.`,
+    functionalText: `If Cadaverous Contraband hits, you may put a 'non-attack' action card from your graveyard on top of your deck.`,
     
     
     
@@ -25410,9 +25483,9 @@ If Plunder Run is played from arsenal, the next attack action card you play this
 
     cost: 0,
     defense: 2,
-    functionalText: `If Fervent Forerunner hits, **opt 2.** *(Look at the top 2 cards of your deck. You may put them on the top and/or bottom in any order.)*
+    functionalText: `If Fervent Forerunner hits, **opt 2**.
 
-If Fervent Forerunner is played from arsenal, it gains **go again.**`,
+If Fervent Forerunner is played from arsenal, it gains **go again**.`,
     
     
     
@@ -25465,9 +25538,9 @@ If Fervent Forerunner is played from arsenal, it gains **go again.**`,
 
     cost: 0,
     defense: 2,
-    functionalText: `If Fervent Forerunner hits, **opt 2.** *(Look at the top 2 cards of your deck. You may put them on the top and/or bottom in any order.)*
+    functionalText: `If Fervent Forerunner hits, **opt 2**.
 
-If Fervent Forerunner is played from arsenal, it gains **go again.**`,
+If Fervent Forerunner is played from arsenal, it gains **go again**.`,
     
     
     
@@ -25520,9 +25593,9 @@ If Fervent Forerunner is played from arsenal, it gains **go again.**`,
 
     cost: 0,
     defense: 2,
-    functionalText: `If Fervent Forerunner hits, **opt 2.** *(Look at the top 2 cards of your deck. You may put them on the top and/or bottom in any order.)*
+    functionalText: `If Fervent Forerunner hits, **opt 2**.
 
-If Fervent Forerunner is played from arsenal, it gains **go again.**`,
+If Fervent Forerunner is played from arsenal, it gains **go again**.`,
     
     
     
@@ -25875,7 +25948,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
 
     cost: 0,
     defense: 2,
-    functionalText: `When you attack with Ravenous Rabble, reveal the top card of your deck. Ravenous Rabble gets -X{p}, where X is the pitch value of the card revealed this way. *(The pitch value is located in the top left corner of the card.)*
+    functionalText: `When you attack with Ravenous Rabble, reveal the top card of your deck. Ravenous Rabble gets -X{p}, where X is the pitch value of the card revealed this way.
 
 **Go again**`,
     
@@ -25936,7 +26009,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
 
     cost: 0,
     defense: 2,
-    functionalText: `When you attack with Ravenous Rabble, reveal the top card of your deck. Ravenous Rabble gets -X{p}, where X is the pitch value of the card revealed this way. *(The pitch value is located in the top left corner of the card.)*
+    functionalText: `When you attack with Ravenous Rabble, reveal the top card of your deck. Ravenous Rabble gets -X{p}, where X is the pitch value of the card revealed this way.
 
 **Go again**`,
     
@@ -25997,7 +26070,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
 
     cost: 0,
     defense: 2,
-    functionalText: `When you attack with Ravenous Rabble, reveal the top card of your deck. Ravenous Rabble gets -X{p}, where X is the pitch value of the card revealed this way. *(The pitch value is located in the top left corner of the card.)*
+    functionalText: `When you attack with Ravenous Rabble, reveal the top card of your deck. Ravenous Rabble gets -X{p}, where X is the pitch value of the card revealed this way.
 
 **Go again**`,
     
@@ -26187,7 +26260,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
 
     cost: 1,
     defense: 2,
-    functionalText: `If you have played a 'non-attack' action card this turn, Vigor Rush gains **go again.**`,
+    functionalText: `If you have played a 'non-attack' action card this turn, Vigor Rush gains **go again**.`,
     
     
     
@@ -26234,7 +26307,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
 
     cost: 1,
     defense: 2,
-    functionalText: `If you have played a 'non-attack' action card this turn, Vigor Rush gains **go again.**`,
+    functionalText: `If you have played a 'non-attack' action card this turn, Vigor Rush gains **go again**.`,
     
     
     
@@ -26281,7 +26354,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
 
     cost: 1,
     defense: 2,
-    functionalText: `If you have played a 'non-attack' action card this turn, Vigor Rush gains **go again.**`,
+    functionalText: `If you have played a 'non-attack' action card this turn, Vigor Rush gains **go again**.`,
     
     
     
@@ -26340,7 +26413,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
 
     cost: 0,
     defense: 4,
-    functionalText: `**Opt 1** *(Look at the top card of your deck. You may put it on the bottom.)*`,
+    functionalText: `**Opt 1**`,
     
     
     
@@ -26393,7 +26466,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
 
     cost: 0,
     defense: 3,
-    functionalText: `**Opt 1** *(Look at the top card of your deck. You may put it on the bottom.)*`,
+    functionalText: `**Opt 1**`,
     
     
     
@@ -26446,7 +26519,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
 
     cost: 0,
     defense: 2,
-    functionalText: `**Opt 1** *(Look at the top card of your deck. You may put it on the bottom.)*`,
+    functionalText: `**Opt 1**`,
     
     
     
@@ -26690,7 +26763,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     defense: 2,
     functionalText: `The next attack action card you play this turn gains +3{p}.
 
-If Force Sight is played from arsenal, **opt 2.** *(Look at the top 2 cards of your deck. You may put them on the top and/or bottom in any order.)*
+If Force Sight is played from arsenal, **opt 2**.
 
 **Go again**`,
     
@@ -26747,7 +26820,7 @@ If Force Sight is played from arsenal, **opt 2.** *(Look at the top 2 cards of y
     defense: 2,
     functionalText: `The next attack action card you play this turn gains +2{p}.
 
-If Force Sight is played from arsenal, **opt 2.** *(Look at the top 2 cards of your deck. You may put them on the top and/or bottom in any order.)*
+If Force Sight is played from arsenal, **opt 2**.
 
 **Go again**`,
     
@@ -26804,7 +26877,7 @@ If Force Sight is played from arsenal, **opt 2.** *(Look at the top 2 cards of y
     defense: 2,
     functionalText: `The next attack action card you play this turn gains +1{p}.
 
-If Force Sight is played from arsenal, **opt 2.** *(Look at the top 2 cards of your deck. You may put them on the top and/or bottom in any order.)*
+If Force Sight is played from arsenal, **opt 2**.
 
 **Go again**`,
     
@@ -26823,7 +26896,8 @@ If Force Sight is played from arsenal, **opt 2.** *(Look at the top 2 cards of y
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["David Ogilvie"],
     cardIdentifier: "lead-the-charge-red",
     classes: [Class.Generic],
@@ -26970,8 +27044,7 @@ If Force Sight is played from arsenal, **opt 2.** *(Look at the top 2 cards of y
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "sun-kiss-red",
     classes: [Class.Generic],
@@ -27003,7 +27076,7 @@ If Force Sight is played from arsenal, **opt 2.** *(Look at the top 2 cards of y
     defense: 2,
     functionalText: `Gain 3{h}.
 
-If you have played a card named Moon Wish this turn, draw a card and Sun Kiss gains **go again.**`,
+If you have played a card named Moon Wish this turn, draw a card and Sun Kiss gains **go again**.`,
     
     
     
@@ -27052,7 +27125,7 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
     defense: 2,
     functionalText: `Gain 2{h}.
 
-If you have played a card named Moon Wish this turn, draw a card and Sun Kiss gains **go again.**`,
+If you have played a card named Moon Wish this turn, draw a card and Sun Kiss gains **go again**.`,
     
     
     
@@ -27101,7 +27174,7 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
     defense: 2,
     functionalText: `Gain 1{h}.
 
-If you have played a card named Moon Wish this turn, draw a card and Sun Kiss gains **go again.**`,
+If you have played a card named Moon Wish this turn, draw a card and Sun Kiss gains **go again**.`,
     
     
     
@@ -27154,7 +27227,7 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
 
     cost: 0,
     defense: 3,
-    functionalText: `**Opt 4** *(Look at the top 4 cards of your deck. You may put them on the top and/or bottom in any order.)*
+    functionalText: `**Opt 4**
 
 **Go again**`,
     
@@ -27209,7 +27282,7 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
 
     cost: 0,
     defense: 3,
-    functionalText: `**Opt 3** *(Look at the top 3 cards of your deck. You may put them on the top and/or bottom in any order.)*
+    functionalText: `**Opt 3**
 
 **Go again**`,
     
@@ -27264,7 +27337,7 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
 
     cost: 0,
     defense: 3,
-    functionalText: `**Opt 2** *(Look at the top 2 cards of your deck. You may put them on the top and/or bottom in any order.)*
+    functionalText: `**Opt 2**
 
 **Go again**`,
     
@@ -27313,7 +27386,7 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
 
     
     
-    functionalText: `**Legendary Viserai Specialization** *(You may only have 1 Arknight Shard in your deck, and only if your hero is Viserai.)*
+    functionalText: `**Legendary Viserai Specialization**
 
 When you pitch Arknight Shard, create a Runechant token.`,
     
@@ -27451,7 +27524,7 @@ When you pitch Arknight Shard, create a Runechant token.`,
     
     functionalText: `**Once per Turn Action** - {r}{r}: **Attack**
 
-If you have discarded a card with 6 or more {p} this turn, Mandible Claw gains **go again.**`,
+If you have discarded a card with 6 or more {p} this turn, Mandible Claw gains **go again**.`,
     
     
     
@@ -27506,7 +27579,7 @@ If you have discarded a card with 6 or more {p} this turn, Mandible Claw gains *
     defense: 0,
     functionalText: `**Action** - Destroy Skullhorn: Draw a card then discard a random card. **Go again**
 
-**Arcane Barrier 2** *(If your hero would be dealt arcane damage, you may pay {r}{r} instead. If you do, prevent 2 arcane damage that source would deal.)*`,
+**Arcane Barrier 2**`,
     
     
     
@@ -27612,9 +27685,9 @@ If you have discarded a card with 6 or more {p} this turn, Mandible Claw gains *
 
     cost: 3,
     defense: 3,
-    functionalText: `When you attack with Massacre, if you have discarded a card with 6 or more {p} this turn, Massacre gains +2{p} and **intimidate.**
+    functionalText: `When you attack with Massacre, if you have discarded a card with 6 or more {p} this turn, Massacre gains +2{p} and **intimidate**.
 
-If Massacre is discarded to pay the cost of a Brute attack action card, **intimidate.**`,
+If Massacre is discarded to pay the cost of a Brute attack action card, **intimidate**.`,
     
     
     
@@ -27712,7 +27785,7 @@ If Massacre is discarded to pay the cost of a Brute attack action card, **intimi
     defense: 3,
     functionalText: `As an additional cost to play Barraging Big Horn, discard a random card.
 
-While Barraging Big Horn is defended by less than 2 non-equipment cards, it has **go again.**`,
+While Barraging Big Horn is defended by less than 2 non-equipment cards, it has **go again**.`,
     
     
     
@@ -27761,7 +27834,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     defense: 3,
     functionalText: `As an additional cost to play Barraging Big Horn, discard a random card.
 
-While Barraging Big Horn is defended by less than 2 non-equipment cards, it has **go again.**`,
+While Barraging Big Horn is defended by less than 2 non-equipment cards, it has **go again**.`,
     
     
     
@@ -27810,7 +27883,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     defense: 3,
     functionalText: `As an additional cost to play Barraging Big Horn, discard a random card.
 
-While Barraging Big Horn is defended by less than 2 non-equipment cards, it has **go again.**`,
+While Barraging Big Horn is defended by less than 2 non-equipment cards, it has **go again**.`,
     
     
     
@@ -27863,7 +27936,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
 
     cost: 2,
     defense: 3,
-    functionalText: `If you have discarded a card with 6 or more {p} this turn, Predatory Assault gains **dominate.** *(The defending hero can’t defend Predatory Assault with more than 1 card from their hand.)*`,
+    functionalText: `If you have discarded a card with 6 or more {p} this turn, Predatory Assault gains **dominate**.`,
     
     
     
@@ -27916,7 +27989,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
 
     cost: 2,
     defense: 3,
-    functionalText: `If you have discarded a card with 6 or more {p} this turn, Predatory Assault gains **dominate.** *(The defending hero can’t defend Predatory Assault with more than 1 card from their hand.)*`,
+    functionalText: `If you have discarded a card with 6 or more {p} this turn, Predatory Assault gains **dominate**.`,
     
     
     
@@ -27969,7 +28042,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
 
     cost: 2,
     defense: 3,
-    functionalText: `If you have discarded a card with 6 or more {p} this turn, Predatory Assault gains **dominate.** *(The defending hero can’t defend Predatory Assault with more than 1 card from their hand.)*`,
+    functionalText: `If you have discarded a card with 6 or more {p} this turn, Predatory Assault gains **dominate**.`,
     
     
     
@@ -28370,10 +28443,10 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
       
     },],
     name: "Crater Fist",
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Promo,Rarity.Majestic],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["1HP049","CRU025"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    setIdentifiers: ["FAB107","1HP049","CRU025"],
+    sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU025",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
@@ -28383,7 +28456,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     defense: 2,
     functionalText: `**Action** - {r}{r}{r}, destroy Crater Fist: Your attacks with **crush** gain +2{p} this turn. **Go again**
 
-**Temper** *(If you defend with Crater Fist, put a -1{d} counter on it when the combat chain closes then destroy it if it has 0{d}.)*`,
+**Temper**`,
     
     
     
@@ -28593,9 +28666,7 @@ At the beginning of your action phase, destroy Stamp Authority.`,
 
     cost: 9,
     defense: 3,
-    functionalText: `*(Auras stay in the arena until they are destroyed.)*
-
-At the beginning of your action phase, destroy Towering Titan then the next Guardian attack action card you play this turn gains +10{p}.`,
+    functionalText: `At the beginning of your action phase, destroy Towering Titan then the next Guardian attack action card you play this turn gains +10{p}.`,
     
     
     
@@ -28648,9 +28719,7 @@ At the beginning of your action phase, destroy Towering Titan then the next Guar
 
     cost: 9,
     defense: 3,
-    functionalText: `*(Auras stay in the arena until they are destroyed.)*
-
-At the beginning of your action phase, destroy Towering Titan then the next Guardian attack action card you play this turn gains +9{p}.`,
+    functionalText: `At the beginning of your action phase, destroy Towering Titan then the next Guardian attack action card you play this turn gains +9{p}.`,
     
     
     
@@ -28703,9 +28772,7 @@ At the beginning of your action phase, destroy Towering Titan then the next Guar
 
     cost: 9,
     defense: 3,
-    functionalText: `*(Auras stay in the arena until they are destroyed.)*
-
-At the beginning of your action phase, destroy Towering Titan then the next Guardian attack action card you play this turn gains +8{p}.`,
+    functionalText: `At the beginning of your action phase, destroy Towering Titan then the next Guardian attack action card you play this turn gains +8{p}.`,
     
     
     
@@ -29064,9 +29131,7 @@ At the beginning of your action phase, destroy Towering Titan then the next Guar
 
     cost: 2,
     defense: 3,
-    functionalText: `*(Auras stay in the arena until they are destroyed.)*
-
-At the beginning of your action phase, destroy Emerging Dominance then the next Guardian attack action card you play this turn gains +3{p} and **dominate**. *(The defending hero can't defend the attack with more than 1 card from their hand.)*`,
+    functionalText: `At the beginning of your action phase, destroy Emerging Dominance then the next Guardian attack action card you play this turn gains +3{p} and **dominate**.`,
     
     
     
@@ -29125,9 +29190,7 @@ At the beginning of your action phase, destroy Emerging Dominance then the next 
 
     cost: 2,
     defense: 3,
-    functionalText: `*(Auras stay in the arena until they are destroyed.)*
-
-At the beginning of your action phase, destroy Emerging Dominance then the next Guardian attack action card you play this turn gains +2{p} and **dominate**. *(The defending hero can't defend the attack with more than 1 card from their hand.)*`,
+    functionalText: `At the beginning of your action phase, destroy Emerging Dominance then the next Guardian attack action card you play this turn gains +2{p} and **dominate**.`,
     
     
     
@@ -29186,9 +29249,7 @@ At the beginning of your action phase, destroy Emerging Dominance then the next 
 
     cost: 2,
     defense: 3,
-    functionalText: `*(Auras stay in the arena until they are destroyed.)*
-
-At the beginning of your action phase, destroy Emerging Dominance then the next Guardian attack action card you play this turn gains +1{p} and **dominate**. *(The defending hero can't defend the attack with more than 1 card from their hand.)*`,
+    functionalText: `At the beginning of your action phase, destroy Emerging Dominance then the next Guardian attack action card you play this turn gains +1{p} and **dominate**.`,
     
     
     
@@ -29581,7 +29642,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     defense: 1,
     functionalText: `When a Ninja attack action card you control hits, you may destroy Breeze Rider Boots. If you do, attack action cards with **combo** gain **go again** this turn.
 
-**Battleworn** *(If you defend with Breeze Rider Boots, put a -1{d} counter on it when the combat chain closes.)*`,
+**Battleworn**`,
     
     
     
@@ -29728,7 +29789,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
       set: Release.CrucibleOfWar,
       
     },],
-    name: "Heron’s Flight",
+    name: "Heron's Flight",
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP100","CRU056"],
@@ -29742,8 +29803,8 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     defense: 3,
     functionalText: `**Combo** - If Crane Dance was the last attack this combat chain, when you attack with Heron's Flight, it gains +2{p} and you choose 1;
 
-- Heron’s flight can only be defended by attack action cards.
-- Heron’s flight can only be defended by ‘non-attack’ action cards.`,
+- Heron's flight can only be defended by attack action cards.
+- Heron's flight can only be defended by 'non-attack' action cards.`,
     
     
     
@@ -29955,7 +30016,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
 
     cost: 0,
     defense: 3,
-    functionalText: `**Combo** - If Torrent of Tempo was the last attack this combat chain, Rushing River gains +1{p}, **go again**, and "If Rushing River hits, draw X cards then put X cards from your hand on top of your deck in any order, where X is the number of attacks that have hit this combat chain.”`,
+    functionalText: `**Combo** - If Torrent of Tempo was the last attack this combat chain, Rushing River gains +1{p}, **go again**, and "If Rushing River hits, draw X cards then put X cards from your hand on top of your deck in any order, where X is the number of attacks that have hit this combat chain."`,
     
     
     
@@ -30008,7 +30069,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
 
     cost: 0,
     defense: 3,
-    functionalText: `**Combo** - If Torrent of Tempo was the last attack this combat chain, Rushing River gains +1{p}, **go again**, and "If Rushing River hits, draw X cards then put X cards from your hand on top of your deck in any order, where X is the number of attacks that have hit this combat chain.”`,
+    functionalText: `**Combo** - If Torrent of Tempo was the last attack this combat chain, Rushing River gains +1{p}, **go again**, and "If Rushing River hits, draw X cards then put X cards from your hand on top of your deck in any order, where X is the number of attacks that have hit this combat chain."`,
     
     
     
@@ -30061,7 +30122,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
 
     cost: 0,
     defense: 3,
-    functionalText: `**Combo** - If Torrent of Tempo was the last attack this combat chain, Rushing River gains +1{p}, **go again**, and "If Rushing River hits, draw X cards then put X cards from your hand on top of your deck in any order, where X is the number of attacks that have hit this combat chain.”`,
+    functionalText: `**Combo** - If Torrent of Tempo was the last attack this combat chain, Rushing River gains +1{p}, **go again**, and "If Rushing River hits, draw X cards then put X cards from your hand on top of your deck in any order, where X is the number of attacks that have hit this combat chain."`,
     
     
     
@@ -30114,7 +30175,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
 
     cost: 2,
     defense: 3,
-    functionalText: `If Flying Kick is played as chain link 3 or higher, it gains +2{r}`,
+    functionalText: `If Flying Kick is played as chain link 3 or higher, it gains +2{p}.`,
     
     
     
@@ -30161,7 +30222,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
 
     cost: 2,
     defense: 3,
-    functionalText: `If Flying Kick is played as chain link 3 or higher, it gains +2{r}`,
+    functionalText: `If Flying Kick is played as chain link 3 or higher, it gains +2{p}.`,
     
     
     
@@ -30208,7 +30269,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
 
     cost: 2,
     defense: 3,
-    functionalText: `If Flying Kick is played as chain link 3 or higher, it gains +2{r}`,
+    functionalText: `If Flying Kick is played as chain link 3 or higher, it gains +2{p}.`,
     
     
     
@@ -30717,7 +30778,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
 
     cost: 1,
     defense: 2,
-    functionalText: `**Ira Specialization** *(You may only have Whirling Mist Blossom in your deck if your hero is Ira.)*
+    functionalText: `**Ira Specialization**
 
 If Whirling Mist Blossom hits, and it's the second or higher chain link in a row to hit, draw 2 cards.
 
@@ -30843,7 +30904,7 @@ Whenever your hero would be dealt damage, prevent 1 damage that source would dea
     
     functionalText: `Your second sword attack each turn costs {r} less.
 
-At the beginning of your end phase, if you have attacked 2 or more times with weapons this turn, create a Copper token for each weapon attack that hit. *(It's an item with "**Action**- {r}{r}{r}{r}, destroy Copper: Draw a card. **Go again**")*`,
+At the beginning of your end phase, if you have attacked 2 or more times with weapons this turn, create a Copper token for each weapon attack that hit.`,
     
     hero: Hero.Kassai,
     intellect: 4,
@@ -30977,7 +31038,7 @@ Whenever Cintari Saber is defended by 1 or more attack action cards, it gains +1
     defense: 2,
     functionalText: `**Action** - Destroy Courage of Bladehold: Your sword attacks cost {r} less this turn. **Go again**
 
-**Temper** *(If you defend with Courage of Bladehold, put a -1{d} counter on it when the combat chain closes then destroy it if it has 0{d}.)*`,
+**Temper**`,
     
     
     
@@ -31042,7 +31103,7 @@ Whenever Cintari Saber is defended by 1 or more attack action cards, it gains +1
 
     cost: 0,
     defense: 3,
-    functionalText: `You may attack an additional time with target sword this turn. *(You must have an action point to attack an additional time.)*`,
+    functionalText: `You may attack an additional time with target sword this turn.`,
     
     
     
@@ -31710,7 +31771,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
     defense: 3,
     functionalText: `Your next weapon attack this turn gains +3{p}.
 
-If you have attacked with a weapon this turn, your next attack this turn gains **dominate.** *(The defending hero can’t defend the attack with more than 1 card from their hand.)*
+If you have attacked with a weapon this turn, your next attack this turn gains **dominate**.
 
 **Go again**`,
     
@@ -31767,7 +31828,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains *
     defense: 3,
     functionalText: `Your next weapon attack this turn gains +2{p}.
 
-If you have attacked with a weapon this turn, your next attack this turn gains **dominate.** *(The defending hero can’t defend the attack with more than 1 card from their hand.)*
+If you have attacked with a weapon this turn, your next attack this turn gains **dominate**.
 
 **Go again**`,
     
@@ -31824,7 +31885,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains *
     defense: 3,
     functionalText: `Your next weapon attack this turn gains +1{p}.
 
-If you have attacked with a weapon this turn, your next attack this turn gains **dominate.** *(The defending hero can’t defend the attack with more than 1 card from their hand.)*
+If you have attacked with a weapon this turn, your next attack this turn gains **dominate**.
 
 **Go again**`,
     
@@ -32046,7 +32107,7 @@ X is equal to 1 plus the number of times you have **boosted** this combat chain.
     defense: 0,
     functionalText: `**Action** - destroy Vizertronic Model i: Whenever you **boost** this turn, draw a card then put a card from your hand on top of your deck. **Go again**
 
-**Arcane Barrier 2** *(If your hero would be dealt arcane damage, you may pay {r}{r} instead. If you do, prevent 2 arcane damage that source would deal.)*`,
+**Arcane Barrier 2**`,
     
     
     
@@ -32258,9 +32319,9 @@ When Absorption Dome has no steam counters on it, destroy it.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `If High Speed Impact hits, the next attack you boost this combat chain gains **dominate**. *(The defending hero can't defend the attack with more than 1 card from their hand.)*
+    functionalText: `If High Speed Impact hits, the next attack you boost this combat chain gains **dominate**.
 
-**Boost** *(As an additional cost to play High Speed Impact, you may banish the top card of your deck. If it's a Mechanologist card, High Speed Impact gains* ***go again***.*)*`,
+**Boost**`,
     
     
     
@@ -32319,9 +32380,9 @@ When Absorption Dome has no steam counters on it, destroy it.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `If High Speed Impact hits, the next attack you boost this combat chain gains **dominate**. *(The defending hero can't defend the attack with more than 1 card from their hand.)*
+    functionalText: `If High Speed Impact hits, the next attack you boost this combat chain gains **dominate**.
 
-**Boost** *(As an additional cost to play High Speed Impact, you may banish the top card of your deck. If it's a Mechanologist card, High Speed Impact gains* ***go again***.*)*`,
+**Boost**`,
     
     
     
@@ -32380,9 +32441,9 @@ When Absorption Dome has no steam counters on it, destroy it.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `If High Speed Impact hits, the next attack you boost this combat chain gains **dominate**. *(The defending hero can't defend the attack with more than 1 card from their hand.)*
+    functionalText: `If High Speed Impact hits, the next attack you boost this combat chain gains **dominate**.
 
-**Boost** *(As an additional cost to play High Speed Impact, you may banish the top card of your deck. If it's a Mechanologist card, High Speed Impact gains* ***go again***.*)*`,
+**Boost**`,
     
     
     
@@ -32443,7 +32504,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
     defense: 3,
     functionalText: `If Combustible Courier hits, the next attack you **boost** this combat chain gains +3{p}.
 
-**Boost** *(As an additional cost to play Combustible Courier, you may banish the top card of your deck. If it's a Mechanologist card, Combustible Courier gains* **go again**.*)*`,
+**Boost**`,
     
     
     
@@ -32504,7 +32565,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
     defense: 3,
     functionalText: `If Combustible Courier hits, the next attack you **boost** this combat chain gains +3{p}.
 
-**Boost** *(As an additional cost to play Combustible Courier, you may banish the top card of your deck. If it's a Mechanologist card, Combustible Courier gains* **go again**.*)*`,
+**Boost**`,
     
     
     
@@ -32565,7 +32626,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
     defense: 3,
     functionalText: `If Combustible Courier hits, the next attack you **boost** this combat chain gains +3{p}.
 
-**Boost** *(As an additional cost to play Combustible Courier, you may banish the top card of your deck. If it's a Mechanologist card, Combustible Courier gains* **go again**.*)*`,
+**Boost**`,
     
     
     
@@ -32747,7 +32808,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
       set: Release.CrucibleOfWar,
       
     },],
-    name: "Teklovossen’s Workshop",
+    name: "Teklovossen's Workshop",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU115"],
@@ -32759,9 +32820,9 @@ When Absorption Dome has no steam counters on it, destroy it.`,
 
     cost: 0,
     defense: 3,
-    functionalText: `**Opt X**, where X is the number of times you have **boosted** this turn. *(Look at the top X cards of your deck. You may put them on the top and/or bottom in any order.)*
+    functionalText: `**Opt X**, where X is the number of times you have **boosted** this turn.
 
-Reveal the top card of your deck. If it’s a Mechanologist item card with cost 2 or less, put it into the arena.`,
+Reveal the top card of your deck. If it's a Mechanologist item card with cost 2 or less, put it into the arena.`,
     
     
     
@@ -32802,7 +32863,7 @@ Reveal the top card of your deck. If it’s a Mechanologist item card with cost 
       set: Release.CrucibleOfWar,
       
     },],
-    name: "Teklovossen’s Workshop",
+    name: "Teklovossen's Workshop",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU116"],
@@ -32814,9 +32875,9 @@ Reveal the top card of your deck. If it’s a Mechanologist item card with cost 
 
     cost: 0,
     defense: 3,
-    functionalText: `**Opt X**, where X is the number of times you have **boosted** this turn. *(Look at the top X cards of your deck. You may put them on the top and/or bottom in any order.)*
+    functionalText: `**Opt X**, where X is the number of times you have **boosted** this turn.
 
-Reveal the top card of your deck. If it’s a Mechanologist item card with cost 1 or less, put it into the arena.`,
+Reveal the top card of your deck. If it's a Mechanologist item card with cost 1 or less, put it into the arena.`,
     
     
     
@@ -32857,7 +32918,7 @@ Reveal the top card of your deck. If it’s a Mechanologist item card with cost 
       set: Release.CrucibleOfWar,
       
     },],
-    name: "Teklovossen’s Workshop",
+    name: "Teklovossen's Workshop",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CRU117"],
@@ -32869,9 +32930,9 @@ Reveal the top card of your deck. If it’s a Mechanologist item card with cost 
 
     cost: 0,
     defense: 3,
-    functionalText: `**Opt X**, where X is the number of times you have **boosted** this turn. *(Look at the top X cards of your deck. You may put them on the top and/or bottom in any order.)*
+    functionalText: `**Opt X**, where X is the number of times you have **boosted** this turn.
 
-Reveal the top card of your deck. If it’s a Mechanologist item card with cost 0 or less, put it into the arena.`,
+Reveal the top card of your deck. If it's a Mechanologist item card with cost 0, put it into the arena.`,
     
     
     
@@ -32936,7 +32997,7 @@ Reveal the top card of your deck. If it’s a Mechanologist item card with cost 
 
     
     
-    functionalText: `**Once per Turn Action** - {r}{r}{r}: If a hero has more {h} than all other hero’s, they lose 1{h} and create a Copper token. Then if a hero has less {h} than all other hero’s, they gain 1{h}. **Go again** *(It's an item with "***Action*** - {r}{r}{r}{r}, destroy Copper: Draw a card. ***Go again***")*`,
+    functionalText: `**Once per Turn Action** - {r}{r}{r}: If a hero has more {h} than all other hero's, they lose 1{h} and create a Copper token. Then if a hero has less {h} than all other hero's, they gain 1{h}. **Go again**`,
     
     hero: Hero.Kavdaen,
     intellect: 4,
@@ -33044,7 +33105,7 @@ Reveal the top card of your deck. If it’s a Mechanologist item card with cost 
     defense: 2,
     functionalText: `**Action** - {r}{r}, destroy Perch Grapplers: Until end of turn, face up arrow cards played from arsenal gain **go again**. **Go again**
 
-**Blade Break** *(If you defend with Perch Grapplers, destroy it when the combat chain closes.)*`,
+**Blade Break**`,
     
     
     
@@ -33097,9 +33158,7 @@ Reveal the top card of your deck. If it’s a Mechanologist item card with cost 
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-If Remorseless is put into your arsenal face up, until end of turn it gains "Defense reaction cards can't be played from arsenal to Remoreseless's chain link."
+    functionalText: `If Remorseless is put into your arsenal face up, until end of turn it gains "Defense reaction cards can't be played from arsenal to Remoreseless's chain link."
 
 If Remorseless hits a hero, until the end of their next turn, whenever they play an action card, they lose 1{h}.`,
     
@@ -33150,7 +33209,7 @@ If Remorseless hits a hero, until the end of their next turn, whenever they play
     defense: 2,
     functionalText: `Until end of turn, arrows you control gain "If this hits a hero, they discard a card."
 
-**Reload** *(If you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.)*
+**Reload**
 
 **Go again**`,
     
@@ -33260,9 +33319,7 @@ The next time your hero would be dealt damage this turn, prevent it.`,
 
     cost: 0,
     defense: 4,
-    functionalText: `*(Traps can only be played from arsenal.)*
-
-Hit effects don't trigger this chain link unless the attacking hero pays {r}. *(The attacking hero chooses whether to pay {r} as Tripwire Trap resolves.)*`,
+    functionalText: `Hit effects don't trigger this chain link unless the attacking hero pays {r}.`,
     
     
     
@@ -33315,9 +33372,7 @@ Hit effects don't trigger this chain link unless the attacking hero pays {r}. *(
 
     cost: 0,
     defense: 3,
-    functionalText: `*(Traps can only be played from arsenal.)*
-
-Deal 2 damage to the attacking hero unless they pay {r}.`,
+    functionalText: `Deal 2 damage to the attacking hero unless they pay {r}.`,
     
     
     
@@ -33370,9 +33425,7 @@ Deal 2 damage to the attacking hero unless they pay {r}.`,
 
     cost: 0,
     defense: 2,
-    functionalText: `*(Traps can only be played from arsenal.)*
-
-Target attack gets -2{p} unless the attacking hero pays {r}. *(The attacking hero chooses whether to pay {r} as Rock Slide Trap resolves.)*`,
+    functionalText: `Target attack gets -2{p} unless the attacking hero pays {r}.`,
     
     
     
@@ -33419,9 +33472,7 @@ Target attack gets -2{p} unless the attacking hero pays {r}. *(The attacking her
 
     cost: 0,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-If Pathing Helix hits and you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.`,
+    functionalText: `If Pathing Helix hits and you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.`,
     
     
     
@@ -33468,9 +33519,7 @@ If Pathing Helix hits and you have no cards in your arsenal, you may put a card 
 
     cost: 0,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-If Pathing Helix hits and you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.`,
+    functionalText: `If Pathing Helix hits and you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.`,
     
     
     
@@ -33517,9 +33566,7 @@ If Pathing Helix hits and you have no cards in your arsenal, you may put a card 
 
     cost: 0,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-If Pathing Helix hits and you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.`,
+    functionalText: `If Pathing Helix hits and you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.`,
     
     
     
@@ -33578,9 +33625,7 @@ If Pathing Helix hits and you have no cards in your arsenal, you may put a card 
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-If Sleep Dart hits a hero, they lose all hero card effects and activated abilities until the end of their next turn. *(Treat the hero card as if the text box is empty.)*`,
+    functionalText: `If Sleep Dart hits a hero, they lose all hero card effects and activated abilities until the end of their next turn.`,
     
     
     
@@ -33639,9 +33684,7 @@ If Sleep Dart hits a hero, they lose all hero card effects and activated abiliti
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-If Sleep Dart hits a hero, they lose all hero card effects and activated abilities until the end of their next turn. *(Treat the hero card as if the text box is empty.)*`,
+    functionalText: `If Sleep Dart hits a hero, they lose all hero card effects and activated abilities until the end of their next turn.`,
     
     
     
@@ -33700,9 +33743,7 @@ If Sleep Dart hits a hero, they lose all hero card effects and activated abiliti
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-If Sleep Dart hits a hero, they lose all hero card effects and activated abilities until the end of their next turn. *(Treat the hero card as if the text box is empty.)*`,
+    functionalText: `If Sleep Dart hits a hero, they lose all hero card effects and activated abilities until the end of their next turn.`,
     
     
     
@@ -33959,7 +34000,7 @@ If a hero has more {h} than any other hero, they can't gain {h}.`,
     defense: 2,
     functionalText: `**Instant** - Destroy Bloodsheath Skeleta: The next attack action card and 'non-attack' action card you play this turn gain "This card costs {r} less to play for each Runechant you control."
 
-**Temper** *(If you defend with Bloodsheath Skeleta, put a -1{d} counter on it when the combat chain closes then destroy it if it has 0{d}.)*`,
+**Temper**`,
     
     
     
@@ -34183,7 +34224,7 @@ At the beginning of your action phase, destroy Runeblood Barrier.`,
 
     cost: 0,
     defense: 2,
-    functionalText: `The next runeblade attack action card you play this turn gains **go again** and “If this hits, create 3 Runechant tokens.” *(They're auras with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*
+    functionalText: `The next runeblade attack action card you play this turn gains **go again** and "If this hits, create 3 Runechant tokens."
 
 **Go again**`,
     
@@ -34244,7 +34285,7 @@ At the beginning of your action phase, destroy Runeblood Barrier.`,
 
     cost: 0,
     defense: 2,
-    functionalText: `The next runeblade attack action card you play this turn gains **go again** and “If this hits, create 2 Runechant tokens.” *(They're auras with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*
+    functionalText: `The next runeblade attack action card you play this turn gains **go again** and "If this hits, create 2 Runechant tokens."
 
 **Go again**`,
     
@@ -34305,7 +34346,7 @@ At the beginning of your action phase, destroy Runeblood Barrier.`,
 
     cost: 0,
     defense: 2,
-    functionalText: `The next runeblade attack action card you play this turn gains **go again** and “If this hits, create a Runechant token.” *(It’s an aura with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*
+    functionalText: `The next runeblade attack action card you play this turn gains **go again** and "If this hits, create a Runechant token."
 
 **Go again**`,
     
@@ -34513,9 +34554,9 @@ At the beginning of your action phase, destroy Runeblood Barrier.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `If Meat and Greet hits, create a Runechant token. *(It's an aura with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*
+    functionalText: `If Meat and Greet hits, create a Runechant token.
 
-If you have dealt arcane damage to an opposing hero this turn, Meat and Greet gains **go again.**`,
+If you have dealt arcane damage to an opposing hero this turn, Meat and Greet gains **go again**.`,
     
     
     
@@ -34574,9 +34615,9 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
 
     cost: 1,
     defense: 3,
-    functionalText: `If Meat and Greet hits, create a Runechant token. *(It's an aura with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*
+    functionalText: `If Meat and Greet hits, create a Runechant token.
 
-If you have dealt arcane damage to an opposing hero this turn, Meat and Greet gains **go again.**`,
+If you have dealt arcane damage to an opposing hero this turn, Meat and Greet gains **go again**.`,
     
     
     
@@ -34635,9 +34676,9 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
 
     cost: 1,
     defense: 3,
-    functionalText: `If Meat and Greet hits, create a Runechant token. *(It's an aura with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*
+    functionalText: `If Meat and Greet hits, create a Runechant token.
 
-If you have dealt arcane damage to an opposing hero this turn, Meat and Greet gains **go again.**`,
+If you have dealt arcane damage to an opposing hero this turn, Meat and Greet gains **go again**.`,
     
     
     
@@ -34684,7 +34725,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
       set: Release.CrucibleOfWar,
       
     },],
-    name: "Sutcliffe’s Research Notes",
+    name: "Sutcliffe's Research Notes",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP297","CRU154"],
@@ -34696,7 +34737,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
 
     cost: 1,
     defense: 2,
-    functionalText: `Reveal the top 3 cards of your deck. Create a Runechant token for each Runeblade attack action card revealed this way, then put the cards on top of your deck in any order. *(They're auras with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*
+    functionalText: `Reveal the top 3 cards of your deck. Create a Runechant token for each Runeblade attack action card revealed this way, then put the cards on top of your deck in any order.
 
 **Go again**`,
     
@@ -34745,7 +34786,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
       set: Release.CrucibleOfWar,
       
     },],
-    name: "Sutcliffe’s Research Notes",
+    name: "Sutcliffe's Research Notes",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP298","CRU155"],
@@ -34757,7 +34798,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
 
     cost: 1,
     defense: 2,
-    functionalText: `Reveal the top 2 cards of your deck. Create a Runechant token for each Runeblade attack action card revealed this way, then put the cards on top of your deck in any order. *(They're auras with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*
+    functionalText: `Reveal the top 2 cards of your deck. Create a Runechant token for each Runeblade attack action card revealed this way, then put the cards on top of your deck in any order.
 
 **Go again**`,
     
@@ -34806,7 +34847,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
       set: Release.CrucibleOfWar,
       
     },],
-    name: "Sutcliffe’s Research Notes",
+    name: "Sutcliffe's Research Notes",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP299","CRU156"],
@@ -34818,7 +34859,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
 
     cost: 1,
     defense: 2,
-    functionalText: `Reveal the top card of your deck. Create a Runechant token for each Runeblade attack action card revealed this way, then put the cards on top of your deck in any order. *(It’s an aura with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")*
+    functionalText: `Reveal the top card of your deck. Create a Runechant token for each Runeblade attack action card revealed this way, then put the cards on top of your deck in any order.
 
 **Go again**`,
     
@@ -34915,10 +34956,10 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
       
     },],
     name: "Metacarpus Node",
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Promo,Rarity.Majestic],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["1HP307","CRU161"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    setIdentifiers: ["FAB108","1HP307","CRU161"],
+    sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar],
     specialImageName: "CRU161",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
@@ -34928,7 +34969,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
     defense: 0,
     functionalText: `Whenever you play a card with an effect that deals arcane damage, you may pay {r}. If you do, instead it deals that much arcane damage plus 1, and destroy Metacarpus Node at the beginning of the end phase.
 
-**Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} instead. If you do, prevent 1 arcane damage that source would deal.)*`,
+**Arcane Barrier 1**`,
     
     
     
@@ -35030,7 +35071,7 @@ If you have played another Wizard 'non-attack' action card this turn, deal 3 arc
 
     cost: 0,
     defense: 3,
-    functionalText: `**Opt 2** *(Look at the top 2 cards of your deck. You may put them on the top and/or bottom in any order.)*
+    functionalText: `**Opt 2**
 
 If you have played another Wizard 'non-attack' action card this turn, put Gaze the Ages into your hand as it resolves.`,
     
@@ -35085,7 +35126,7 @@ If you have played another Wizard 'non-attack' action card this turn, put Gaze t
 
     cost: 1,
     
-    functionalText: `**Negate** target instant card with cost {r} or less. *(The card does not resolve. Put it into its owner's graveyard.)*`,
+    functionalText: `**Negate** target instant card with cost {r} or less.`,
     
     
     
@@ -35142,7 +35183,7 @@ If you have played another Wizard 'non-attack' action card this turn, put Gaze t
 
 The next card you play this turn with an effect that deals arcane damage, instead deals that much arcane damage plus 1.
 
-**Opt 3** *(Look at the top 3 cards of your deck. You may put them on the top and/or bottom in any order.)*`,
+**Opt 3**`,
     
     
     
@@ -35199,7 +35240,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
 
 The next card you play this turn with an effect that deals arcane damage, instead deals that much arcane damage plus 1.
 
-**Opt 2** *(Look at the top 2 cards of your deck. You may put them on the top and/or bottom in any order.)*`,
+**Opt 2**`,
     
     
     
@@ -35256,7 +35297,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
 
 The next card you play this turn with an effect that deals arcane damage, instead deals that much arcane damage plus 1.
 
-**Opt 1** *(Look at the top card of your deck. You may put it on the bottom.)*`,
+**Opt 1**`,
     
     
     
@@ -35305,7 +35346,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     defense: 3,
     functionalText: `Deal 3 damage to target hero.
 
-**Opt 1** *(Look at the top card of your deck. You may put it on the bottom.)*`,
+**Opt 1**`,
     
     
     
@@ -35354,7 +35395,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     defense: 3,
     functionalText: `Deal 2 damage to target hero.
 
-**Opt 1** *(Look at the top card of your deck. You may put it on the bottom.)*`,
+**Opt 1**`,
     
     
     
@@ -35403,7 +35444,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     defense: 3,
     functionalText: `Deal 1 damage to target hero.
 
-**Opt 1** *(Look at the top card of your deck. You may put it on the bottom.)*`,
+**Opt 1**`,
     
     
     
@@ -35817,7 +35858,7 @@ At the beginning of your end phase, if Talishar, the Lost Prince has 3 or more r
       set: Release.CrucibleOfWar,
       
     },],
-    name: "Gambler’s Gloves",
+    name: "Gambler's Gloves",
     rarities: [Rarity.Promo,Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["FAB074","1HP358","CRU179"],
@@ -35939,7 +35980,7 @@ At the beginning of your end phase, if Talishar, the Lost Prince has 3 or more r
 
     cost: 0,
     
-    functionalText: `**Legendary** *(You may only have 1 Gorganian Tome in your deck.)*
+    functionalText: `**Legendary**
 
 Draw X cards, where X is 1 plus the number of Gorganian Tomes in all graveyards.
 
@@ -35996,7 +36037,7 @@ Draw X cards, where X is 1 plus the number of Gorganian Tomes in all graveyards.
 
     cost: 0,
     
-    functionalText: `Attack action cards can't gain {p} from their own effects, or the effects of attack reaction cards this turn. *(This only affects {p} that would be gained after Snag has resolved.)*`,
+    functionalText: `Attack action cards can't gain {p} from their own effects, or the effects of attack reaction cards this turn.`,
     
     
     
@@ -36043,9 +36084,9 @@ Draw X cards, where X is 1 plus the number of Gorganian Tomes in all graveyards.
 
     cost: 0,
     defense: 2,
-    functionalText: `If Promise of Plenty hits, each hero who doesn’t have a card in their arsenal puts the top card of their deck face down into their arsenal.
+    functionalText: `If Promise of Plenty hits, each hero who doesn't have a card in their arsenal puts the top card of their deck face down into their arsenal.
 
-If Promise of Plenty is played from arsenal, it gains **go again.**`,
+If Promise of Plenty is played from arsenal, it gains **go again**.`,
     
     
     
@@ -36092,9 +36133,9 @@ If Promise of Plenty is played from arsenal, it gains **go again.**`,
 
     cost: 0,
     defense: 2,
-    functionalText: `If Promise of Plenty hits, each hero who doesn’t have a card in their arsenal puts the top card of their deck face down into their arsenal.
+    functionalText: `If Promise of Plenty hits, each hero who doesn't have a card in their arsenal puts the top card of their deck face down into their arsenal.
 
-If Promise of Plenty is played from arsenal, it gains **go again.**`,
+If Promise of Plenty is played from arsenal, it gains **go again**.`,
     
     
     
@@ -36141,9 +36182,9 @@ If Promise of Plenty is played from arsenal, it gains **go again.**`,
 
     cost: 0,
     defense: 2,
-    functionalText: `If Promise of Plenty hits, each hero who doesn’t have a card in their arsenal puts the top card of their deck face down into their arsenal.
+    functionalText: `If Promise of Plenty hits, each hero who doesn't have a card in their arsenal puts the top card of their deck face down into their arsenal.
 
-If Promise of Plenty is played from arsenal, it gains **go again.**`,
+If Promise of Plenty is played from arsenal, it gains **go again**.`,
     
     
     
@@ -36202,7 +36243,7 @@ If Promise of Plenty is played from arsenal, it gains **go again.**`,
 
     cost: 0,
     defense: 2,
-    functionalText: `Target attack action card gains +1{p}`,
+    functionalText: `Target attack action card gains +1{p}.`,
     
     
     
@@ -36383,7 +36424,7 @@ Draw 2 cards.
 
     cost: 0,
     
-    functionalText: `Target defending attack action card gains +4{d}`,
+    functionalText: `Target defending attack action card gains +4{d}.`,
     
     
     
@@ -36430,7 +36471,7 @@ Draw 2 cards.
 
     cost: 0,
     
-    functionalText: `Target defending attack action card gains +3{d}`,
+    functionalText: `Target defending attack action card gains +3{d}.`,
     
     
     
@@ -36477,7 +36518,7 @@ Draw 2 cards.
 
     cost: 0,
     
-    functionalText: `Target defending attack action card gains +2{d}`,
+    functionalText: `Target defending attack action card gains +2{d}.`,
     
     
     
@@ -36742,7 +36783,7 @@ Draw 2 cards.
 
     cost: 2,
     
-    functionalText: `**Legendary** *(You may only have 1 Great Library of Solana in your deck.)*
+    functionalText: `**Legendary**
 
 At the beginning of each end phase, if a hero has 2 or more cards with yellow color strips in their pitch zone, they gain +1{i} until end of turn.
 
@@ -36805,7 +36846,7 @@ At the beginning of each end phase, if a hero has 2 or more cards with yellow co
 
     
     
-    functionalText: `**Once per Turn Instant** - {r}{r}, banish a card from Prism's soul: Create a Spectral Shield token. *(It's an Illusionist aura with "If your hero would be dealt damage, instead destroy Spectral Shield and prevent 1 damage that source would deal.")*`,
+    functionalText: `**Once per Turn Instant** - {r}{r}, banish a card from Prism's soul: Create a Spectral Shield token.`,
     
     hero: Hero.Prism,
     intellect: 4,
@@ -36864,7 +36905,7 @@ At the beginning of each end phase, if a hero has 2 or more cards with yellow co
 
     
     
-    functionalText: `**Once per Turn Instant** - {r}{r}, banish a card from Prism's soul: Create a Spectral Shield token. *(It's an Illusionist aura with "If your hero would be dealt damage, instead destroy Spectral Shield and prevent 1 damage that source would deal.")*`,
+    functionalText: `**Once per Turn Instant** - {r}{r}, banish a card from Prism's soul: Create a Spectral Shield token.`,
     
     hero: Hero.Prism,
     intellect: 4,
@@ -36900,10 +36941,10 @@ At the beginning of each end phase, if a hero has 2 or more cards with yellow co
       
     },],
     name: "Luminaris",
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Promo,Rarity.Majestic],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["MON003"],
-    sets: [Release.Monarch],
+    setIdentifiers: ["FAB109","MON003"],
+    sets: [Release.Promos,Release.Monarch],
     specialImageName: "MON003.width-450",
     subtypes: [Subtype.Scepter,Subtype.TwoHanded],
     types: [Type.Weapon],
@@ -36913,7 +36954,7 @@ At the beginning of each end phase, if a hero has 2 or more cards with yellow co
     
     functionalText: `During your action phase, Illusionist auras you control are weapons with 1{p} and "**Once per Turn Action** - 0: **Attack**"
 
-While there is a card with a yellow color strip in your pitch zone, Illusionist attacks you control have **go again.**"`,
+While there is a card with a yellow color strip in your pitch zone, Illusionist attacks you control have **go again**."`,
     
     
     
@@ -36966,11 +37007,11 @@ While there is a card with a yellow color strip in your pitch zone, Illusionist 
 
     cost: 2,
     defense: 3,
-    functionalText: `**Dominate** *(The defending hero can't defend Herald of Erudition with more than 1 card from their hand.)*
+    functionalText: `**Dominate**
 
 If Herald of Erudition hits, put it into your hero's soul and draw 2 cards.
 
-**Phantasm** *(If Herald of Erudition is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Erudition and close the combat chain.)*`,
+**Phantasm**`,
     
     
     
@@ -37017,11 +37058,11 @@ If Herald of Erudition hits, put it into your hero's soul and draw 2 cards.
 
     cost: 6,
     
-    functionalText: `**Prism Specialization** *(You may only have Arc Light Sentinel in your deck if your hero is Prism.)*
+    functionalText: `**Prism Specialization**
 
 If Arc Light Sentinel is in the arena when an opponent announces an attack, they must choose Arc Light Sentinel as the target of the attack.
 
-**Spectra** *(Arc Light Sentinel can be attacked. When Arc Light Sentinel becomes the target of an attack, destroy it and close the combat chain. The attack does not resolve.)*
+**Spectra**
 
 `,
     
@@ -37072,7 +37113,7 @@ If Arc Light Sentinel is in the arena when an opponent announces an attack, they
     
     functionalText: `At the start of your turn, you may put a card from your hand into your hero's soul. If it's an Illusionist card, create a Spectral Shield token. If it's a Light card, draw a card.
 
-**Spectra** *(Genesis can be attacked. When Genesis becomes the target of an attack, destroy it and close the combat chain. The attack does not resolve.)*`,
+**Spectra**`,
     
     
     
@@ -37131,11 +37172,11 @@ If Arc Light Sentinel is in the arena when an opponent announces an attack, they
 
     cost: 2,
     defense: 3,
-    functionalText: `**Prism Specialization** *(You may only have Herald of Judgment in your deck if your hero is Prism.)*
+    functionalText: `**Prism Specialization**
 
-If Herald of Judgment hits, put it into your hero's soul and the defending hero can't play cards from their banished zone during their next action phase. *(Put this card face up under your hero card.)*
+If Herald of Judgment hits, put it into your hero's soul and the defending hero can't play cards from their banished zone during their next action phase.
 
-**Phantasm** *(If Herald of Judgment is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Judgment and close the combat chain.)*`,
+**Phantasm**`,
     
     
     
@@ -37184,9 +37225,9 @@ If Herald of Judgment hits, put it into your hero's soul and the defending hero 
     defense: 3,
     functionalText: `Attack action cards have -1{p} while defending Herald of Triumph.
 
-If Herald of Triumph hits, put it into your hero's soul. *(Put this card face up under your hero card.)*
+If Herald of Triumph hits, put it into your hero's soul.
 
-**Phantasm** *(If Herald of Triumph is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Triumph and close the combat chain.)*`,
+**Phantasm**`,
     
     
     
@@ -37235,9 +37276,9 @@ If Herald of Triumph hits, put it into your hero's soul. *(Put this card face up
     defense: 3,
     functionalText: `Attack action cards have -1{p} while defending Herald of Triumph.
 
-If Herald of Triumph hits, put it into your hero's soul. *(Put this card face up under your hero card.)*
+If Herald of Triumph hits, put it into your hero's soul.
 
-**Phantasm** *(If Herald of Triumph is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Triumph and close the combat chain.)*`,
+**Phantasm**`,
     
     
     
@@ -37286,9 +37327,9 @@ If Herald of Triumph hits, put it into your hero's soul. *(Put this card face up
     defense: 3,
     functionalText: `Attack action cards have -1{p} while defending Herald of Triumph.
 
-If Herald of Triumph hits, put it into your hero's soul. *(Put this card face up under your hero card.)*
+If Herald of Triumph hits, put it into your hero's soul.
 
-**Phantasm** *(If Herald of Triumph is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Triumph and close the combat chain.)*`,
+**Phantasm**`,
     
     
     
@@ -37343,7 +37384,7 @@ If Herald of Triumph hits, put it into your hero's soul. *(Put this card face up
     
     functionalText: `Attack action cards controlled by an opposing hero have -1{p} while attacking and defending.
 
-**Spectra** *(Parable of Humility can be attacked. When Parable of Humility becomes the target of an attack, destroy it and close the combat chain. The attack does not resolve.)*`,
+**Spectra**`,
     
     
     
@@ -37402,9 +37443,9 @@ If Herald of Triumph hits, put it into your hero's soul. *(Put this card face up
 
     cost: 4,
     
-    functionalText: `Whenever an aura or attack action card you control is destroyed, deal 1 arcane damage to target hero. If it's a non-token Light card, put it into your hero's soul. *(Put it face up under your hero card.)*
+    functionalText: `Whenever an aura or attack action card you control is destroyed, deal 1 arcane damage to target hero. If it's a non-token Light card, put it into your hero's soul.
 
-**Spectra** *(Merciful Retribution can be attacked. When Merciful Retribution becomes the target of an attack, destroy it and close the combat chain. The attack does not resolve.)*`,
+**Spectra**`,
     
     
     
@@ -37465,9 +37506,9 @@ If Herald of Triumph hits, put it into your hero's soul. *(Put this card face up
     
     functionalText: `Whenever a source you control deals damage to an opposing hero, they lose 1{h}.
 
-Illusionist attack action cards you control have **go again.** *(If an attack is destroyed, **go again** does not resolve.)*
+Illusionist attack action cards you control have **go again**.
 
-**Spectra** *(Ode to Wrath can be attacked. When Ode to Wrath becomes the target of an attack, destroy it and close the combat chain. The attack does not resolve.)*`,
+**Spectra**`,
     
     
     
@@ -37526,9 +37567,9 @@ Illusionist attack action cards you control have **go again.** *(If an attack is
 
     cost: 2,
     defense: 3,
-    functionalText: `If Herald of Protection hits, put it into your hero's soul and create a Spectral Shield token. *(It's an Illusionist aura with "If your hero would be dealt damage, instead destroy Spectral Shield and prevent 1 damage that source would deal.")*
+    functionalText: `If Herald of Protection hits, put it into your hero's soul and create a Spectral Shield token.
 
-**Phantasm** *(If Herald of Protection is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Protection and close the combat chain.)*`,
+**Phantasm**`,
     
     
     
@@ -37581,9 +37622,9 @@ Illusionist attack action cards you control have **go again.** *(If an attack is
 
     cost: 2,
     defense: 3,
-    functionalText: `If Herald of Protection hits, put it into your hero's soul and create a Spectral Shield token. *(It's an Illusionist aura with "If your hero would be dealt damage, instead destroy Spectral Shield and prevent 1 damage that source would deal.")*
+    functionalText: `If Herald of Protection hits, put it into your hero's soul and create a Spectral Shield token.
 
-**Phantasm** *(If Herald of Protection is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Protection and close the combat chain.)*`,
+**Phantasm**`,
     
     
     
@@ -37642,9 +37683,9 @@ Illusionist attack action cards you control have **go again.** *(If an attack is
 
     cost: 2,
     defense: 3,
-    functionalText: `If Herald of Protection hits, put it into your hero's soul and create a Spectral Shield token. *(It's an Illusionist aura with "If your hero would be dealt damage, instead destroy Spectral Shield and prevent 1 damage that source would deal.")*
+    functionalText: `If Herald of Protection hits, put it into your hero's soul and create a Spectral Shield token.
 
-**Phantasm** *(If Herald of Protection is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Protection and close the combat chain.)*`,
+**Phantasm**`,
     
     
     
@@ -37697,9 +37738,9 @@ Illusionist attack action cards you control have **go again.** *(If an attack is
 
     cost: 2,
     defense: 3,
-    functionalText: `If Herald of Ravages hits, put it into your hero's soul and deal 1 arcane damage to target hero. *(Put this card face up under your hero card.)*
+    functionalText: `If Herald of Ravages hits, put it into your hero's soul and deal 1 arcane damage to target hero.
 
-**Phantasm** *(If Herald of Ravages is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Ravages and close the combat chain.)*`,
+**Phantasm**`,
     
     
     
@@ -37746,9 +37787,9 @@ Illusionist attack action cards you control have **go again.** *(If an attack is
 
     cost: 2,
     defense: 3,
-    functionalText: `If Herald of Ravages hits, put it into your hero's soul and deal 1 arcane damage to target hero. *(Put this card face up under your hero card.)*
+    functionalText: `If Herald of Ravages hits, put it into your hero's soul and deal 1 arcane damage to target hero.
 
-**Phantasm** *(If Herald of Ravages is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Ravages and close the combat chain.)*`,
+**Phantasm**`,
     
     
     
@@ -37801,9 +37842,9 @@ Illusionist attack action cards you control have **go again.** *(If an attack is
 
     cost: 2,
     defense: 3,
-    functionalText: `If Herald of Ravages hits, put it into your hero's soul and deal 1 arcane damage to target hero. *(Put this card face up under your hero card.)*
+    functionalText: `If Herald of Ravages hits, put it into your hero's soul and deal 1 arcane damage to target hero.
 
-**Phantasm** *(If Herald of Ravages is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Ravages and close the combat chain.)*`,
+**Phantasm**`,
     
     
     
@@ -37862,9 +37903,9 @@ Illusionist attack action cards you control have **go again.** *(If an attack is
 
     cost: 2,
     defense: 3,
-    functionalText: `If Herald of Rebirth hits, put it into your hero's soul and put up to 1 card with phantasm from your graveyard on top of your deck. *(Put this card face up under your hero card.)*
+    functionalText: `If Herald of Rebirth hits, put it into your hero's soul and put up to 1 card with phantasm from your graveyard on top of your deck.
 
-**Phantasm** *(If Herald of Rebirth is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Rebirth and close the combat chain.)*`,
+**Phantasm**`,
     
     
     
@@ -37917,9 +37958,9 @@ Illusionist attack action cards you control have **go again.** *(If an attack is
 
     cost: 2,
     defense: 3,
-    functionalText: `If Herald of Rebirth hits, put it into your hero's soul and put up to 1 card with phantasm from your graveyard on top of your deck. *(Put this card face up under your hero card.)*
+    functionalText: `If Herald of Rebirth hits, put it into your hero's soul and put up to 1 card with phantasm from your graveyard on top of your deck.
 
-**Phantasm** *(If Herald of Rebirth is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Rebirth and close the combat chain.)*`,
+**Phantasm**`,
     
     
     
@@ -37978,9 +38019,9 @@ Illusionist attack action cards you control have **go again.** *(If an attack is
 
     cost: 2,
     defense: 3,
-    functionalText: `If Herald of Rebirth hits, put it into your hero's soul and put up to 1 card with phantasm from your graveyard on top of your deck. *(Put this card face up under your hero card.)*
+    functionalText: `If Herald of Rebirth hits, put it into your hero's soul and put up to 1 card with phantasm from your graveyard on top of your deck.
 
-**Phantasm** *(If Herald of Rebirth is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Rebirth and close the combat chain.)*`,
+**Phantasm**`,
     
     
     
@@ -38033,11 +38074,11 @@ Illusionist attack action cards you control have **go again.** *(If an attack is
 
     cost: 2,
     defense: 3,
-    functionalText: `**Dominate** *(The defending hero can't defend Herald of Tenacity with more than 1 card from their hand.)*
+    functionalText: `**Dominate**
 
-If Herald of Tenacity hits, put it into your hero's soul. *(Put this card face up under your hero card.)*
+If Herald of Tenacity hits, put it into your hero's soul.
 
-**Phantasm** *(If Herald of Tenacity is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Tenacity and close the combat chain.)*`,
+**Phantasm**`,
     
     
     
@@ -38084,11 +38125,11 @@ If Herald of Tenacity hits, put it into your hero's soul. *(Put this card face u
 
     cost: 2,
     defense: 3,
-    functionalText: `**Dominate** *(The defending hero can't defend Herald of Tenacity with more than 1 card from their hand.)*
+    functionalText: `**Dominate**
 
-If Herald of Tenacity hits, put it into your hero's soul. *(Put this card face up under your hero card.)*
+If Herald of Tenacity hits, put it into your hero's soul.
 
-**Phantasm** *(If Herald of Tenacity is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Tenacity and close the combat chain.)*`,
+**Phantasm**`,
     
     
     
@@ -38141,11 +38182,11 @@ If Herald of Tenacity hits, put it into your hero's soul. *(Put this card face u
 
     cost: 2,
     defense: 3,
-    functionalText: `**Dominate** *(The defending hero can't defend Herald of Tenacity with more than 1 card from their hand.)*
+    functionalText: `**Dominate**
 
-If Herald of Tenacity hits, put it into your hero's soul. *(Put this card face up under your hero card.)*
+If Herald of Tenacity hits, put it into your hero's soul.
 
-**Phantasm** *(If Herald of Tenacity is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Herald of Tenacity and close the combat chain.)*`,
+**Phantasm**`,
     
     
     
@@ -38204,9 +38245,9 @@ If Herald of Tenacity hits, put it into your hero's soul. *(Put this card face u
 
     cost: 1,
     defense: 3,
-    functionalText: `If Wartune Herald hits, put it into your hero's soul. *(Put this card face up under your hero card.)*
+    functionalText: `If Wartune Herald hits, put it into your hero's soul.
 
-**Phantasm** *(If Wartune Herald is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Wartune Herald and close the combat chain.)*`,
+**Phantasm**`,
     
     
     
@@ -38259,9 +38300,9 @@ If Herald of Tenacity hits, put it into your hero's soul. *(Put this card face u
 
     cost: 1,
     defense: 3,
-    functionalText: `If Wartune Herald hits, put it into your hero's soul. *(Put this card face up under your hero card.)*
+    functionalText: `If Wartune Herald hits, put it into your hero's soul.
 
-**Phantasm** *(If Wartune Herald is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Wartune Herald and close the combat chain.)*`,
+**Phantasm**`,
     
     
     
@@ -38320,9 +38361,9 @@ If Herald of Tenacity hits, put it into your hero's soul. *(Put this card face u
 
     cost: 1,
     defense: 3,
-    functionalText: `If Wartune Herald hits, put it into your hero's soul. *(Put this card face up under your hero card.)*
+    functionalText: `If Wartune Herald hits, put it into your hero's soul.
 
-**Phantasm** *(If Wartune Herald is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Wartune Herald and close the combat chain.)*`,
+**Phantasm**`,
     
     
     
@@ -38383,7 +38424,7 @@ If Herald of Tenacity hits, put it into your hero's soul. *(Put this card face u
     
     functionalText: `If you've **charged** this turn, attacks you control have +1{p} while defended by an attack action card.
 
-**Attack Reaction** - Banish a card from Boltyn's soul: Target attack with {p} greater than its base {p} gains **go again.**`,
+**Attack Reaction** - Banish a card from Boltyn's soul: Target attack with {p} greater than its base {p} gains **go again**.`,
     
     hero: Hero.Boltyn,
     intellect: 4,
@@ -38444,7 +38485,7 @@ If Herald of Tenacity hits, put it into your hero's soul. *(Put this card face u
     
     functionalText: `If you've **charged** this turn, attacks you control have +1{p} while defended by an attack action card.
 
-**Attack Reaction** - Banish a card from Boltyn's soul: Target attack with {p} greater than its base {p} gains **go again.**`,
+**Attack Reaction** - Banish a card from Boltyn's soul: Target attack with {p} greater than its base {p} gains **go again**.`,
     
     hero: Hero.Boltyn,
     intellect: 4,
@@ -38644,7 +38685,7 @@ If you've **charged** this turn, search your deck for an action card with cost X
 
     cost: 0,
     defense: 3,
-    functionalText: `**Boltyn Specialization** *(You may only have Lumina Ascension in your deck if your hero is Boltyn.)*
+    functionalText: `**Boltyn Specialization**
 
 Until end of turn, weapons you control gain +1{p} and "If this hits, reveal the top card of your deck. If it's a Light card, put it into your hero's soul and gain 1{h}, otherwise put it on the bottom of your deck."
 
@@ -38703,9 +38744,9 @@ If you've **charged** this turn, you may attack an additional time with each wea
 
     cost: 1,
     defense: 3,
-    functionalText: `**Boltyn Specialization** *(You may only have V of the Vanguard in your deck if your hero is Boltyn.)*
+    functionalText: `**Boltyn Specialization**
 
-As an additional cost to play V of the Vanguard, you may **charge** your hero's soul any number of times. *(Put 1 or more cards from your hand face up under your hero card.)*
+As an additional cost to play V of the Vanguard, you may **charge** your hero's soul any number of times.
 
 Attacks on this combat chain gain +1{p} for each Light card charged this way.`,
     
@@ -38760,7 +38801,7 @@ Attacks on this combat chain gain +1{p} for each Light card charged this way.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `If you’ve **charged** this turn, Battlefield Blitz gains **go again.**`,
+    functionalText: `If you've **charged** this turn, Battlefield Blitz gains **go again**.`,
     
     
     
@@ -38807,7 +38848,7 @@ Attacks on this combat chain gain +1{p} for each Light card charged this way.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `If you’ve **charged** this turn, Battlefield Blitz gains **go again.**`,
+    functionalText: `If you've **charged** this turn, Battlefield Blitz gains **go again**.`,
     
     
     
@@ -38854,7 +38895,7 @@ Attacks on this combat chain gain +1{p} for each Light card charged this way.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `If you’ve **charged** this turn, Battlefield Blitz gains **go again.**`,
+    functionalText: `If you've **charged** this turn, Battlefield Blitz gains **go again**.`,
     
     
     
@@ -38907,7 +38948,7 @@ Attacks on this combat chain gain +1{p} for each Light card charged this way.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `If you’ve **charged** this turn, Valiant Thrust gains +3{p}`,
+    functionalText: `If you've **charged** this turn, Valiant Thrust gains +3{p}.`,
     
     
     
@@ -38954,7 +38995,7 @@ Attacks on this combat chain gain +1{p} for each Light card charged this way.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `If you’ve **charged** this turn, Valiant Thrust gains +3{p}`,
+    functionalText: `If you've **charged** this turn, Valiant Thrust gains +3{p}.`,
     
     
     
@@ -39001,7 +39042,7 @@ Attacks on this combat chain gain +1{p} for each Light card charged this way.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `If you’ve **charged** this turn, Valiant Thrust gains +3{p}`,
+    functionalText: `If you've **charged** this turn, Valiant Thrust gains +3{p}.`,
     
     
     
@@ -39054,7 +39095,7 @@ Attacks on this combat chain gain +1{p} for each Light card charged this way.`,
 
     cost: 0,
     defense: 3,
-    functionalText: `As an additional cost to play Bolt of Courage, you may **charge** your hero's soul. *(Put a card from your hand face up under your hero card.)*
+    functionalText: `As an additional cost to play Bolt of Courage, you may **charge** your hero's soul.
 
 If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a card."`,
     
@@ -39103,7 +39144,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
 
     cost: 0,
     defense: 3,
-    functionalText: `As an additional cost to play Bolt of Courage, you may **charge** your hero's soul. *(Put a card from your hand face up under your hero card.)*
+    functionalText: `As an additional cost to play Bolt of Courage, you may **charge** your hero's soul.
 
 If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a card."`,
     
@@ -39158,7 +39199,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
 
     cost: 0,
     defense: 3,
-    functionalText: `As an additional cost to play Bolt of Courage, you may **charge** your hero's soul. *(Put a card from your hand face up under your hero card.)*
+    functionalText: `As an additional cost to play Bolt of Courage, you may **charge** your hero's soul.
 
 If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a card."`,
     
@@ -39213,7 +39254,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
 
     cost: 1,
     defense: 3,
-    functionalText: `As an additional cost to play Cross the Line, you may **charge** your hero’s soul. *(Put a card from your hand face up under your hero card.)*`,
+    functionalText: `As an additional cost to play Cross the Line, you may **charge** your hero's soul.`,
     
     
     
@@ -39266,7 +39307,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
 
     cost: 1,
     defense: 3,
-    functionalText: `As an additional cost to play Cross the Line, you may **charge** your hero’s soul. *(Put a card from your hand face up under your hero card.)*`,
+    functionalText: `As an additional cost to play Cross the Line, you may **charge** your hero's soul.`,
     
     
     
@@ -39313,7 +39354,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
 
     cost: 1,
     defense: 3,
-    functionalText: `As an additional cost to play Cross the Line, you may **charge** your hero’s soul. *(Put a card from your hand face up under your hero card.)*`,
+    functionalText: `As an additional cost to play Cross the Line, you may **charge** your hero's soul.`,
     
     
     
@@ -39366,7 +39407,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
 
     cost: 0,
     defense: 3,
-    functionalText: `As an additional cost to play Engulfing Light, you may **charge** your hero's soul. *(Put a card from your hand face up under your hero card.)*
+    functionalText: `As an additional cost to play Engulfing Light, you may **charge** your hero's soul.
 
 If you've **charged** this turn, Engulfing Light gains "If this hits, put it into your hero's soul."`,
     
@@ -39415,7 +39456,7 @@ If you've **charged** this turn, Engulfing Light gains "If this hits, put it int
 
     cost: 0,
     defense: 3,
-    functionalText: `As an additional cost to play Engulfing Light, you may **charge** your hero's soul. *(Put a card from your hand face up under your hero card.)*
+    functionalText: `As an additional cost to play Engulfing Light, you may **charge** your hero's soul.
 
 If you've **charged** this turn, Engulfing Light gains "If this hits, put it into your hero's soul."`,
     
@@ -39470,7 +39511,7 @@ If you've **charged** this turn, Engulfing Light gains "If this hits, put it int
 
     cost: 0,
     defense: 3,
-    functionalText: `As an additional cost to play Engulfing Light, you may **charge** your hero's soul. *(Put a card from your hand face up under your hero card.)*
+    functionalText: `As an additional cost to play Engulfing Light, you may **charge** your hero's soul.
 
 If you've **charged** this turn, Engulfing Light gains "If this hits, put it into your hero's soul."`,
     
@@ -39525,7 +39566,7 @@ If you've **charged** this turn, Engulfing Light gains "If this hits, put it int
 
     cost: 0,
     defense: 3,
-    functionalText: `As an additional cost to play Express Lightning, you may **charge** your hero's soul. *(Put a card from your hand face up under your hero card.)*`,
+    functionalText: `As an additional cost to play Express Lightning, you may **charge** your hero's soul.`,
     
     
     
@@ -39578,7 +39619,7 @@ If you've **charged** this turn, Engulfing Light gains "If this hits, put it int
 
     cost: 0,
     defense: 3,
-    functionalText: `As an additional cost to play Express Lightning, you may **charge** your hero's soul. *(Put a card from your hand face up under your hero card.)*`,
+    functionalText: `As an additional cost to play Express Lightning, you may **charge** your hero's soul.`,
     
     
     
@@ -39625,7 +39666,7 @@ If you've **charged** this turn, Engulfing Light gains "If this hits, put it int
 
     cost: 0,
     defense: 3,
-    functionalText: `As an additional cost to play Express Lightning, you may **charge** your hero's soul. *(Put a card from your hand face up under your hero card.)*`,
+    functionalText: `As an additional cost to play Express Lightning, you may **charge** your hero's soul.`,
     
     
     
@@ -39678,9 +39719,9 @@ If you've **charged** this turn, Engulfing Light gains "If this hits, put it int
 
     cost: 1,
     defense: 3,
-    functionalText: `As an additional cost to play Take Flight, you may **charge** your hero's soul. *(Put a card from your hand face up under your hero card.)*
+    functionalText: `As an additional cost to play Take Flight, you may **charge** your hero's soul.
 
-If you've **charged** this turn, Take Flight gains **go again.**`,
+If you've **charged** this turn, Take Flight gains **go again**.`,
     
     
     
@@ -39733,9 +39774,9 @@ If you've **charged** this turn, Take Flight gains **go again.**`,
 
     cost: 1,
     defense: 3,
-    functionalText: `As an additional cost to play Take Flight, you may **charge** your hero's soul. *(Put a card from your hand face up under your hero card.)*
+    functionalText: `As an additional cost to play Take Flight, you may **charge** your hero's soul.
 
-If you've **charged** this turn, Take Flight gains **go again.**`,
+If you've **charged** this turn, Take Flight gains **go again**.`,
     
     
     
@@ -39782,9 +39823,9 @@ If you've **charged** this turn, Take Flight gains **go again.**`,
 
     cost: 1,
     defense: 3,
-    functionalText: `As an additional cost to play Take Flight, you may **charge** your hero's soul. *(Put a card from your hand face up under your hero card.)*
+    functionalText: `As an additional cost to play Take Flight, you may **charge** your hero's soul.
 
-If you've **charged** this turn, Take Flight gains **go again.**`,
+If you've **charged** this turn, Take Flight gains **go again**.`,
     
     
     
@@ -39992,7 +40033,7 @@ If you've **charged** this turn, Take Flight gains **go again.**`,
     defense: 1,
     functionalText: `If a card has been put into your hero's soul this turn, whenever you pitch a Light card, instead gain that many {r} plus 1.
 
-**Blade Break** *(If you defend with Vestige of Sol, destroy it when the combat chain closes.)*`,
+**Blade Break**`,
     
     
     
@@ -40040,10 +40081,10 @@ If you've **charged** this turn, Take Flight gains **go again.**`,
       
     },],
     name: "Halo of Illumination",
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["BOL005","PSM004","MON061"],
-    sets: [Release.BoltynBlitzDeck,Release.PrismBlitzDeck,Release.Monarch],
+    setIdentifiers: ["FAB103","BOL005","PSM004","MON061"],
+    sets: [Release.Promos,Release.BoltynBlitzDeck,Release.PrismBlitzDeck,Release.Monarch],
     specialImageName: "MON061.width-450",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -40051,9 +40092,9 @@ If you've **charged** this turn, Take Flight gains **go again.**`,
 
     
     defense: 0,
-    functionalText: `**Instant** - {r}, destroy Halo of Illumination: Put a card from your hand into your hero's soul. If it's a Light card, draw a card. *(Put the card face up under your hero card.)*
+    functionalText: `**Instant** - {r}, destroy Halo of Illumination: Put a card from your hand into your hero's soul. If it's a Light card, draw a card.
 
-**Spellvoid 2** *(If your hero would be dealt arcane damage, you may destroy Halo of Illumination instead. If you do, prevent 2 arcane damage that source would deal.)*`,
+**Spellvoid 2**`,
     
     
     
@@ -40149,7 +40190,7 @@ If you've **charged** this turn, Take Flight gains **go again.**`,
 
     cost: 2,
     defense: 6,
-    functionalText: `Put Soul Shield into your hero's soul when the combat chain closes. *(Put this card face up under your hero card.)*`,
+    functionalText: `Put Soul Shield into your hero's soul when the combat chain closes.`,
     
     
     
@@ -40196,7 +40237,7 @@ If you've **charged** this turn, Take Flight gains **go again.**`,
 
     cost: 0,
     defense: 2,
-    functionalText: `Put Soul Food and all cards in your hand into your hero's soul. *(Put the cards face up under your hero card.)*`,
+    functionalText: `Put Soul Food and all cards in your hand into your hero's soul.`,
     
     
     
@@ -40298,7 +40339,7 @@ If a card has been put into your hero's soul this turn, instead draw 3 cards.`,
 
     cost: 3,
     defense: 2,
-    functionalText: `When you play Invigorating Light, if there are no cards in your hero's soul, put it into your hero's soul when the combat chain closes. *(Put the card face up under your hero card.)*`,
+    functionalText: `When you play Invigorating Light, if there are no cards in your hero's soul, put it into your hero's soul when the combat chain closes.`,
     
     
     
@@ -40345,7 +40386,7 @@ If a card has been put into your hero's soul this turn, instead draw 3 cards.`,
 
     cost: 3,
     defense: 2,
-    functionalText: `When you play Invigorating Light, if there are no cards in your hero's soul, put it into your hero's soul when the combat chain closes. *(Put the card face up under your hero card.)*`,
+    functionalText: `When you play Invigorating Light, if there are no cards in your hero's soul, put it into your hero's soul when the combat chain closes.`,
     
     
     
@@ -40392,7 +40433,7 @@ If a card has been put into your hero's soul this turn, instead draw 3 cards.`,
 
     cost: 3,
     defense: 2,
-    functionalText: `When you play Invigorating Light, if there are no cards in your hero's soul, put it into your hero's soul when the combat chain closes. *(Put the card face up under your hero card.)*`,
+    functionalText: `When you play Invigorating Light, if there are no cards in your hero's soul, put it into your hero's soul when the combat chain closes.`,
     
     
     
@@ -40441,7 +40482,7 @@ If a card has been put into your hero's soul this turn, instead draw 3 cards.`,
     
     functionalText: `Distribute up to four +1{p} counters among any number of weapons you control.
 
-At the beginning of your end phase, remove all +1{p} counters from weapons you control. *(If a permanent is no longer a weapon during your end phase, +1{p} counters on it are not removed.)*`,
+At the beginning of your end phase, remove all +1{p} counters from weapons you control.`,
     
     
     
@@ -40490,7 +40531,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
     
     functionalText: `Distribute up to three +1{p} counters among any number of weapons you control.
 
-At the beginning of your end phase, remove all +1{p} counters from weapons you control. *(If a permanent is no longer a weapon during your end phase, +1{p} counters on it are not removed.)*`,
+At the beginning of your end phase, remove all +1{p} counters from weapons you control.`,
     
     
     
@@ -40539,7 +40580,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
     
     functionalText: `Distribute up to two +1{p} counters among any number of weapons you control.
 
-At the beginning of your end phase, remove all +1{p} counters from weapons you control. *(If a permanent is no longer a weapon during your end phase, +1{p} counters on it are not removed.)*`,
+At the beginning of your end phase, remove all +1{p} counters from weapons you control.`,
     
     
     
@@ -40592,7 +40633,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
 
     cost: 0,
     defense: 3,
-    functionalText: `If Illuminate hits, put it into your hero’s soul. *(Put this card face up under your hero card.)*`,
+    functionalText: `If Illuminate hits, put it into your hero's soul.`,
     
     
     
@@ -40639,7 +40680,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
 
     cost: 0,
     defense: 3,
-    functionalText: `If Illuminate hits, put it into your hero’s soul. *(Put this card face up under your hero card.)*`,
+    functionalText: `If Illuminate hits, put it into your hero's soul.`,
     
     
     
@@ -40698,7 +40739,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
 
     cost: 0,
     defense: 3,
-    functionalText: `If Illuminate hits, put it into your hero’s soul. *(Put this card face up under your hero card.)*`,
+    functionalText: `If Illuminate hits, put it into your hero's soul.`,
     
     
     
@@ -40892,7 +40933,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
 
     cost: 1,
     defense: 3,
-    functionalText: `If Rising Solartide hits, put it into your hero’s soul. *(Put this card face up under your hero card.)*`,
+    functionalText: `If Rising Solartide hits, put it into your hero's soul.`,
     
     
     
@@ -40951,7 +40992,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
 
     cost: 1,
     defense: 3,
-    functionalText: `If Rising Solartide hits, put it into your hero’s soul. *(Put this card face up under your hero card.)*`,
+    functionalText: `If Rising Solartide hits, put it into your hero's soul.`,
     
     
     
@@ -40998,7 +41039,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
 
     cost: 1,
     defense: 3,
-    functionalText: `If Rising Solartide hits, put it into your hero’s soul. *(Put this card face up under your hero card.)*`,
+    functionalText: `If Rising Solartide hits, put it into your hero's soul.`,
     
     
     
@@ -41051,7 +41092,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
 
     cost: 1,
     defense: 2,
-    functionalText: `The next attack action card you play this turn gains +3{p} and "If this hits, put it into your hero's soul." *(Put the card face up under your hero card.)*
+    functionalText: `The next attack action card you play this turn gains +3{p} and "If this hits, put it into your hero's soul."
 
 **Go again**`,
     
@@ -41100,7 +41141,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
 
     cost: 1,
     defense: 2,
-    functionalText: `The next attack action card you play this turn gains +2{p} and "If this hits, put it into your hero's soul." *(Put the card face up under your hero card.)*
+    functionalText: `The next attack action card you play this turn gains +2{p} and "If this hits, put it into your hero's soul."
 
 **Go again**`,
     
@@ -41155,7 +41196,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
 
     cost: 1,
     defense: 2,
-    functionalText: `The next attack action card you play this turn gains +1{p} and "If this hits, put it into your hero's soul." *(Put the card face up under your hero card.)*
+    functionalText: `The next attack action card you play this turn gains +1{p} and "If this hits, put it into your hero's soul." 
 
 **Go again**`,
     
@@ -41359,7 +41400,7 @@ Target attacking or defending attack action card gets -1{p}.`,
     
     functionalText: `Attacks you control have +1{p} while attacking a Shadow hero this turn.
 
-If you have less {h} than an opposing Shadow hero, put Ray of Hope into your hero's soul. *(Put this card face up under your hero card.)*`,
+If you have less {h} than an opposing Shadow hero, put Ray of Hope into your hero's soul.`,
     
     
     
@@ -41409,8 +41450,8 @@ If you have less {h} than an opposing Shadow hero, put Ray of Hope into your her
     name: "Iris of Reality",
     rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["LGS048","PSM003","MON088"],
-    sets: [Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
+    setIdentifiers: ["FAB098","LGS048","PSM003","MON088"],
+    sets: [Release.Promos,Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
     specialImageName: "MON088.width-450",
     subtypes: [Subtype.Orb,Subtype.TwoHanded],
     types: [Type.Weapon],
@@ -41532,7 +41573,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
     defense: 0,
     functionalText: `**Action** - Destroy Dream Weavers: The next Illusionist attack action card you play this turn loses and can't gain **phantasm**. **Go again**
 
-**Spellvoid 1** *(If your hero would be dealt arcane damage, you may destroy Dream Weaver instead. If you do, prevent 1 arcane damage that source would deal.)*`,
+**Spellvoid 1**`,
     
     
     
@@ -41581,7 +41622,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
     defense: 3,
     functionalText: `Look at the defending hero's hand and choose a card. They put it on the bottom of their deck then draw a card.
 
-**Phantasm** *(If Phantasmaclasm is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Phantasmaclasm and close the combat chain.)*`,
+**Phantasm**`,
     
     
     
@@ -41634,7 +41675,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
 
     cost: 3,
     
-    functionalText: `Create 3 Spectral Shield tokens. *(They’re Illusionist auras with "If your hero would be dealt damage, instead destroy Spectral Shield and prevent 1 damage that source would deal.")*`,
+    functionalText: `Create 3 Spectral Shield tokens.`,
     
     
     
@@ -41681,7 +41722,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
 
     cost: 3,
     
-    functionalText: `Create 2 Spectral Shield tokens. *(They’re Illusionist auras with "If your hero would be dealt damage, instead destroy Spectral Shield and prevent 1 damage that source would deal.")*`,
+    functionalText: `Create 2 Spectral Shield tokens.`,
     
     
     
@@ -41728,7 +41769,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
 
     cost: 3,
     
-    functionalText: `Create 1 Spectral Shield tokens. *(It’s an Illusionist aura with "If your hero would be dealt damage, instead destroy Spectral Shield and prevent 1 damage that source would deal.")*`,
+    functionalText: `Create a Spectral Shield token.`,
     
     
     
@@ -41787,7 +41828,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
 
     cost: 1,
     defense: 2,
-    functionalText: `The next attack action card you play this turn is Illusionist in addition to its other class types, and gains +3/4/5{p} and **phantasm.** *(If the attack is defended by a non-Illusionist attack action card with 6 or more {p}, destroy it and close the combat chain.)*
+    functionalText: `The next attack action card you play this turn is Illusionist in addition to its other class types, and gains +5{p} and **phantasm**.
 
 **Go again**`,
     
@@ -41842,7 +41883,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
 
     cost: 1,
     defense: 2,
-    functionalText: `The next attack action card you play this turn is Illusionist in addition to its other class types, and gains +3/4/5{p} and **phantasm.** *(If the attack is defended by a non-Illusionist attack action card with 6 or more {p}, destroy it and close the combat chain.)*
+    functionalText: `The next attack action card you play this turn is Illusionist in addition to its other class types, and gains +4{p} and **phantasm**.
 
 **Go again**`,
     
@@ -41897,7 +41938,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
 
     cost: 1,
     defense: 2,
-    functionalText: `The next attack action card you play this turn is Illusionist in addition to its other class types, and gains +3/4/5{p} and **phantasm.** *(If the attack is defended by a non-Illusionist attack action card with 6 or more {p}, destroy it and close the combat chain.)*
+    functionalText: `The next attack action card you play this turn is Illusionist in addition to its other class types, and gains +3{p} and **phantasm**.
 
 **Go again**`,
     
@@ -41952,7 +41993,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
 
     cost: 2,
     defense: 3,
-    functionalText: `**Phantasm** *(If Enigma Chimera is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Enigma Chimera and close the combat chain.)*`,
+    functionalText: `**Phantasm**`,
     
     
     
@@ -42005,7 +42046,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
 
     cost: 2,
     defense: 3,
-    functionalText: `**Phantasm** *(If Enigma Chimera is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Enigma Chimera and close the combat chain.)*`,
+    functionalText: `**Phantasm**`,
     
     
     
@@ -42058,7 +42099,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
 
     cost: 2,
     defense: 3,
-    functionalText: `**Phantasm** *(If Enigma Chimera is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Enigma Chimera and close the combat chain.)*`,
+    functionalText: `**Phantasm**`,
     
     
     
@@ -42111,9 +42152,9 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
 
     cost: 1,
     defense: 3,
-    functionalText: `**Phantasm** *(If Spears of Surreality is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Spears of Surreality and close the combat chain.)*
+    functionalText: `**Phantasm**
 
-**Go again** *(If Spears of Surreality is destroyed, go again does not resolve.)*`,
+**Go again**`,
     
     
     
@@ -42160,9 +42201,9 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
 
     cost: 1,
     defense: 3,
-    functionalText: `**Phantasm** *(If Spears of Surreality is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Spears of Surreality and close the combat chain.)*
+    functionalText: `**Phantasm**
 
-**Go again** *(If Spears of Surreality is destroyed, go again does not resolve.)*`,
+**Go again**`,
     
     
     
@@ -42215,9 +42256,9 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
 
     cost: 1,
     defense: 3,
-    functionalText: `**Phantasm** *(If Spears of Surreality is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Spears of Surreality and close the combat chain.)*
+    functionalText: `**Phantasm**
 
-**Go again** *(If Spears of Surreality is destroyed, go again does not resolve.)*`,
+**Go again**`,
     
     
     
@@ -42288,9 +42329,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
 
     
     
-    functionalText: `*(Auras stay in the arena until they are destroyed.)*
-
-**Ward 1** *(If your hero would be dealt damage, prevent 1 of that damage and destroy Spectral Shield.)*`,
+    functionalText: `**Ward 1**`,
     
     
     
@@ -42467,7 +42506,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     defense: 1,
     functionalText: `At the beginning of your end phase, if you have attacked 2 or more times with weapons this turn, you may remove a -1{d} counter from Valiant Dynamo.
 
-**Battleworn** *(If you defend with Valiant Dynamo, put a -1{d} counter on it when the combat chain closes.)*`,
+**Battleworn**`,
     
     
     
@@ -42528,7 +42567,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     defense: 1,
     functionalText: `**Action** - {r}, destroy Gallantry Gold: Your weapon attacks gain +1{p} this turn. **Go again**
 
-**Battleworn** *(If you defend with Gallantry Gold, put a -1{d} counter on it when the combat chain closes.)*`,
+**Battleworn**`,
     
     
     
@@ -42636,7 +42675,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
 
     cost: 1,
     defense: 3,
-    functionalText: `Your next weapon attack this turn gains +3{p} and "If this hits, you may attack an additional time with this weapon this turn." *(You must have an action point to attack an additional time.)*
+    functionalText: `Your next weapon attack this turn gains +3{p} and "If this hits, you may attack an additional time with this weapon this turn."
 
 **Go again**`,
     
@@ -42691,7 +42730,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
 
     cost: 1,
     defense: 3,
-    functionalText: `Your next weapon attack this turn gains +2{p} and "If this hits, you may attack an additional time with this weapon this turn." *(You must have an action point to attack an additional time.)*
+    functionalText: `Your next weapon attack this turn gains +2{p} and "If this hits, you may attack an additional time with this weapon this turn."
 
 **Go again**`,
     
@@ -42746,7 +42785,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
 
     cost: 1,
     defense: 3,
-    functionalText: `Your next weapon attack this turn gains +1{p} and "If this hits, you may attack an additional time with this weapon this turn." *(You must have an action point to attack an additional time.)*
+    functionalText: `Your next weapon attack this turn gains +1{p} and "If this hits, you may attack an additional time with this weapon this turn."
 
 **Go again**`,
     
@@ -42795,7 +42834,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
 
     cost: 1,
     defense: 3,
-    functionalText: `Your next weapon attack this turn gains +3{p} and "If this weapon is defended by an attack action card, it gains +1{p} until end of turn".
+    functionalText: `Your next weapon attack this turn gains +3{p} and "If this weapon is defended by an attack action card, it gains +1{p} until end of turn."
 
 **Go again**`,
     
@@ -42844,7 +42883,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
 
     cost: 1,
     defense: 3,
-    functionalText: `Your next weapon attack this turn gains +2{p} and "If this weapon is defended by an attack action card, it gains +1{p} until end of turn".
+    functionalText: `Your next weapon attack this turn gains +2{p} and "If this weapon is defended by an attack action card, it gains +1{p} until end of turn."
 
 **Go again**`,
     
@@ -42893,7 +42932,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
 
     cost: 1,
     defense: 3,
-    functionalText: `Your next weapon attack this turn gains +1{p} and "If this weapon is defended by an attack action card, it gains +1{p} until end of turn".
+    functionalText: `Your next weapon attack this turn gains +1{p} and "If this weapon is defended by an attack action card, it gains +1{p} until end of turn."
 
 **Go again**`,
     
@@ -43268,9 +43307,9 @@ Whenever you attack with Hexagore, the Death Hydra, it deals damage to you equal
 
     
     defense: 1,
-    functionalText: `Whenever a card with 6 or more {p} is put into your banished zone, you may destroy Hooves of the Shadowbeast. If you do, gain 1 action point. *(When an equipment is destroyed, it's put into the graveyard.)*
+    functionalText: `Whenever a card with 6 or more {p} is put into your banished zone, you may destroy Hooves of the Shadowbeast. If you do, gain 1 action point.
 
-**Battleworn** *(If you defend with Hooves of the Shadowbeast, put a -1{d} counter on it when the combat chain closes.)*`,
+**Battleworn**`,
     
     
     
@@ -43319,7 +43358,7 @@ Whenever you attack with Hexagore, the Death Hydra, it deals damage to you equal
     
     functionalText: `If a card with 6 or more {p} has been put into your banished zone this turn, you may play Deep Rooted Evil from your banished zone.
 
-**Blood Debt** *(At the beginning of your end phase, if Deep Rooted Evil is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -43374,7 +43413,7 @@ Whenever you attack with Hexagore, the Death Hydra, it deals damage to you equal
     defense: 3,
     functionalText: `If Mark of the Beast would be put into your graveyard from anywhere, instead banish it.
 
-**Blood Debt** *(At the beginning of your end phase, if Mark of the Beast is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -43423,7 +43462,7 @@ Whenever you attack with Hexagore, the Death Hydra, it deals damage to you equal
     
     functionalText: `Draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, search your deck for a card with **blood debt**, banish it, then shuffle your deck.
 
-**Blood Debt** *(At the beginning of your end phase, if Shadow of Blasmophet is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -43480,7 +43519,7 @@ Whenever you attack with Hexagore, the Death Hydra, it deals damage to you equal
 
 If a card with 6 or more {p} is banished this way, Endless maw gains +3{p}.
 
-**Blood Debt** *(At the beginning of your end phase, if Endless Maw is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -43531,7 +43570,7 @@ If a card with 6 or more {p} is banished this way, Endless maw gains +3{p}.
 
 If a card with 6 or more {p} is banished this way, Endless maw gains +3{p}.
 
-**Blood Debt** *(At the beginning of your end phase, if Endless Maw is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -43582,7 +43621,7 @@ If a card with 6 or more {p} is banished this way, Endless maw gains +3{p}.
 
 If a card with 6 or more {p} is banished this way, Endless maw gains +3{p}.
 
-**Blood Debt** *(At the beginning of your end phase, if Endless Maw is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -43637,9 +43676,9 @@ If a card with 6 or more {p} is banished this way, Endless maw gains +3{p}.
     defense: 3,
     functionalText: `As an additional cost to play Writhing Beast Hulk, banish 3 random cards from your graveyard.
 
-If a card with 6 or more {p} is banished this way, Writhing Beast Hulk gains **dominate.** *(The defending hero can’t defend Writhing Beast Hulk with more than 1 card from their hand.)*
+If a card with 6 or more {p} is banished this way, Writhing Beast Hulk gains **dominate**.
 
-**Blood Debt** *(At the beginning of your end phase, if Writhing Beast Hulk is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -43688,9 +43727,9 @@ If a card with 6 or more {p} is banished this way, Writhing Beast Hulk gains **d
     defense: 3,
     functionalText: `As an additional cost to play Writhing Beast Hulk, banish 3 random cards from your graveyard.
 
-If a card with 6 or more {p} is banished this way, Writhing Beast Hulk gains **dominate.** *(The defending hero can’t defend Writhing Beast Hulk with more than 1 card from their hand.)*
+If a card with 6 or more {p} is banished this way, Writhing Beast Hulk gains **dominate**.
 
-**Blood Debt** *(At the beginning of your end phase, if Writhing Beast Hulk is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -43739,9 +43778,9 @@ If a card with 6 or more {p} is banished this way, Writhing Beast Hulk gains **d
     defense: 3,
     functionalText: `As an additional cost to play Writhing Beast Hulk, banish 3 random cards from your graveyard.
 
-If a card with 6 or more {p} is banished this way, Writhing Beast Hulk gains **dominate.** *(The defending hero can’t defend Writhing Beast Hulk with more than 1 card from their hand.)*
+If a card with 6 or more {p} is banished this way, Writhing Beast Hulk gains **dominate**.
 
-**Blood Debt** *(At the beginning of your end phase, if Writhing Beast Hulk is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -43790,7 +43829,7 @@ If a card with 6 or more {p} is banished this way, Writhing Beast Hulk gains **d
     defense: 3,
     functionalText: `As an additional cost to play Convulsions from the Bellows of Hell, banish 3 random cards from your graveyard.
 
-If a card with 6 or more {p} is banished this way, the next attack action card you play this turn gains +3{p} and **dominate.** *(The defending hero can't defend the attack with more than 1 card from their hand.)*
+If a card with 6 or more {p} is banished this way, the next attack action card you play this turn gains +3{p} and **dominate**.
 
 **Go again**`,
     
@@ -43841,7 +43880,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     defense: 3,
     functionalText: `As an additional cost to play Convulsions from the Bellows of Hell, banish 3 random cards from your graveyard.
 
-If a card with 6 or more {p} is banished this way, the next attack action card you play this turn gains +2{p} and **dominate.** *(The defending hero can't defend the attack with more than 1 card from their hand.)*
+If a card with 6 or more {p} is banished this way, the next attack action card you play this turn gains +2{p} and **dominate**.
 
 **Go again**`,
     
@@ -43898,7 +43937,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     defense: 3,
     functionalText: `As an additional cost to play Convulsions from the Bellows of Hell, banish 3 random cards from your graveyard.
 
-If a card with 6 or more {p} is banished this way, the next attack action card you play this turn gains +1{p} and **dominate.** *(The defending hero can't defend the attack with more than 1 card from their hand.)*
+If a card with 6 or more {p} is banished this way, the next attack action card you play this turn gains +1{p} and **dominate**.
 
 **Go again**`,
     
@@ -43961,7 +44000,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     defense: 3,
     functionalText: `As an additional cost to play Boneyard Marauder, banish 3 random cards from your graveyard.
 
-**Blood Debt** *(At the beginning of your end phase, if Boneyard Marauder is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -44010,7 +44049,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     defense: 3,
     functionalText: `As an additional cost to play Boneyard Marauder, banish 3 random cards from your graveyard.
 
-**Blood Debt** *(At the beginning of your end phase, if Boneyard Marauder is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -44065,7 +44104,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     defense: 3,
     functionalText: `As an additional cost to play Boneyard Marauder, banish 3 random cards from your graveyard.
 
-**Blood Debt** *(At the beginning of your end phase, if Boneyard Marauder is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -44120,7 +44159,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     functionalText: `Draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, banish a card from a graveyard.
 
-**Blood Debt** *(At the beginning of your end phase, if Deadwood Rumbler is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -44169,7 +44208,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     functionalText: `Draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, banish a card from a graveyard.
 
-**Blood Debt** *(At the beginning of your end phase, if Deadwood Rumbler is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -44224,7 +44263,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     functionalText: `Draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, banish a card from a graveyard.
 
-**Blood Debt** *(At the beginning of your end phase, if Deadwood Rumbler is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -44279,9 +44318,9 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     defense: 3,
     functionalText: `As an additional cost to play Dread Screamer, banish 3 random cards from your graveyard
 
-If a card with 6 or more {p} is banished this way, Dread Screamer gains **go again.**.
+If a card with 6 or more {p} is banished this way, Dread Screamer gains **go again**.
 
-**Blood Debt** *(At the beginning of your end phase, if Dread Screamer is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -44330,9 +44369,9 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
     defense: 3,
     functionalText: `As an additional cost to play Dread Screamer, banish 3 random cards from your graveyard
 
-If a card with 6 or more {p} is banished this way, Dread Screamer gains **go again.**.
+If a card with 6 or more {p} is banished this way, Dread Screamer gains **go again**.
 
-**Blood Debt** *(At the beginning of your end phase, if Dread Screamer is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -44387,9 +44426,9 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
     defense: 3,
     functionalText: `As an additional cost to play Dread Screamer, banish 3 random cards from your graveyard
 
-If a card with 6 or more {p} is banished this way, Dread Screamer gains **go again.**.
+If a card with 6 or more {p} is banished this way, Dread Screamer gains **go again**.
 
-**Blood Debt** *(At the beginning of your end phase, if Dread Screamer is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -44444,7 +44483,7 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
     defense: 3,
     functionalText: `Play Graveling Growl only if a card with 6 or more {p} has been put into your banished zone this turn.
 
-**Blood Debt** *(At the beginning of your end phase, if Graveling Growl is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -44493,7 +44532,7 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
     defense: 3,
     functionalText: `Play Graveling Growl only if a card with 6 or more {p} has been put into your banished zone this turn.
 
-**Blood Debt** *(At the beginning of your end phase, if Graveling Growl is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -44542,7 +44581,7 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
     defense: 3,
     functionalText: `Play Graveling Growl only if a card with 6 or more {p} has been put into your banished zone this turn.
 
-**Blood Debt** *(At the beginning of your end phase, if Graveling Growl is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -44597,7 +44636,7 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
     defense: 3,
     functionalText: `As an additional cost to play Hungering Slaughterbeast, banish 3 random cards from your graveyard.
 
-**Blood Debt** *(At the beginning of your end phase, if Hungering Slaughterbeast is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -44652,7 +44691,7 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
     defense: 3,
     functionalText: `As an additional cost to play Hungering Slaughterbeast, banish 3 random cards from your graveyard.
 
-**Blood Debt** *(At the beginning of your end phase, if Hungering Slaughterbeast is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -44701,7 +44740,7 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
     defense: 3,
     functionalText: `As an additional cost to play Hungering Slaughterbeast, banish 3 random cards from your graveyard.
 
-**Blood Debt** *(At the beginning of your end phase, if Hungering Slaughterbeast is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -44925,7 +44964,7 @@ The next Brute or Shadow attack action card you play this turn gains +2{p}.
 
     
     
-    functionalText: `**Once per Turn Action** - Create a Soul Shackle token: Your next Runeblade or Shadow action this turn gains **go again. Go again** *(It's a Shadow Runeblade aura with "At the beginning of your action phase, banish the top card of your deck.")*`,
+    functionalText: `**Once per Turn Action** - Create a Soul Shackle token: Your next Runeblade or Shadow action this turn gains **go again. Go again**`,
     
     hero: Hero.Chane,
     intellect: 4,
@@ -44984,7 +45023,7 @@ The next Brute or Shadow attack action card you play this turn gains +2{p}.
 
     
     
-    functionalText: `**Once per Turn Action** - Create a Soul Shackle token: Your next Runeblade or Shadow action this turn gains **go again. Go again** *(It's a Shadow Runeblade aura with "At the beginning of your action phase, banish the top card of your deck.")*`,
+    functionalText: `**Once per Turn Action** - Create a Soul Shackle token: Your next Runeblade or Shadow action this turn gains **go again. Go again**`,
     
     hero: Hero.Chane,
     intellect: 4,
@@ -45102,9 +45141,9 @@ If Galaxxi Black hits a hero, deal 1 arcane damage to that hero.`,
     defense: 3,
     functionalText: `You may play Shadow of Ursur from your banished zone.
 
-As an additional cost to play Shadow of Ursur, you may banish a card with blood debt from your hand. If you do, Shadow of Ursur gains **go again.**
+As an additional cost to play Shadow of Ursur, you may banish a card with blood debt from your hand. If you do, Shadow of Ursur gains **go again**.
 
-**Blood Debt** *(At the beginning of your end phase, if Shadow of Ursur is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -45155,7 +45194,7 @@ As an additional cost to play Shadow of Ursur, you may banish a card with blood 
 
 Whenever you play an attack action card or a 'non-attack' action card from the banished zone, if you haven't played another card of that type this turn, deal 1 arcane damage to target hero.
 
-If you lose {h} during your turn, destroy Dimenxxional Crossroads. *(Damage causes loss of {h}.)*`,
+If you lose {h} during your turn, destroy Dimenxxional Crossroads.`,
     
     
     
@@ -45206,7 +45245,7 @@ If you lose {h} during your turn, destroy Dimenxxional Crossroads. *(Damage caus
 
 Banish up to 2 cards in an opposing hero's graveyard. If an attack action card and a 'non-attack' action card are banished this way, deal 2 arcane damage to that hero.
 
-**Blood Debt** *(At the beginning of your end phase, if Invert Existence is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -45263,7 +45302,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
 
 You may put a 'non-attack' action card with blood debt from your graveyard on the bottom of your deck.
 
-**Blood Debt** *(At the beginning of your end phase, if Unhallowed Rites is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -45314,7 +45353,7 @@ You may put a 'non-attack' action card with blood debt from your graveyard on th
 
 You may put a 'non-attack' action card with blood debt from your graveyard on the bottom of your deck.
 
-**Blood Debt** *(At the beginning of your end phase, if Unhallowed Rites is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -45365,7 +45404,7 @@ You may put a 'non-attack' action card with blood debt from your graveyard on th
 
 You may put a 'non-attack' action card with blood debt from your graveyard on the bottom of your deck.
 
-**Blood Debt** *(At the beginning of your end phase, if Unhallowed Rites is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -45412,7 +45451,7 @@ You may put a 'non-attack' action card with blood debt from your graveyard on th
 
     cost: 1,
     defense: 2,
-    functionalText: `Opt 3 *(Look at the top 3 cards of your deck. You may put them on the top and/or bottom in any order.)*
+    functionalText: `**Opt 3**
 
 Reveal the top card of your deck. If it's a Runeblade card, deal 1 arcane damage to each opposing hero. If it's a Shadow card, you may banish it.
 
@@ -45463,7 +45502,7 @@ Reveal the top card of your deck. If it's a Runeblade card, deal 1 arcane damage
 
     cost: 1,
     defense: 2,
-    functionalText: `Opt 2 *(Look at the top 2 cards of your deck. You may put them on the top and/or bottom in any order.)*
+    functionalText: `**Opt 2**
 
 Reveal the top card of your deck. If it's a Runeblade card, deal 1 arcane damage to each opposing hero. If it's a Shadow card, you may banish it.
 
@@ -45514,7 +45553,7 @@ Reveal the top card of your deck. If it's a Runeblade card, deal 1 arcane damage
 
     cost: 1,
     defense: 2,
-    functionalText: `Opt 1 *(Look at the top card of your deck. You may it on the bottom.)*
+    functionalText: `**Opt 1**
 
 Reveal the top card of your deck. If it's a Runeblade card, deal 1 arcane damage to each opposing hero. If it's a Shadow card, you may banish it.
 
@@ -45567,11 +45606,11 @@ Reveal the top card of your deck. If it's a Runeblade card, deal 1 arcane damage
     defense: 2,
     functionalText: `You may play Seeping Shadows from your banished zone.
 
-The next attack action card with cost 2 or less you play this turns gains +1{p} and **go again.**
+The next attack action card with cost 2 or less you play this turns gains +1{p} and **go again**.
 
 **Go again**
 
-**Blood Debt** *(At the beginning of your end phase, if Seeping Shadows is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -45626,11 +45665,11 @@ The next attack action card with cost 2 or less you play this turns gains +1{p} 
     defense: 2,
     functionalText: `You may play Seeping Shadows from your banished zone.
 
-The next attack action card with cost 1 or less you play this turns gains +1{p} and **go again.**
+The next attack action card with cost 1 or less you play this turns gains +1{p} and **go again**.
 
 **Go again**
 
-**Blood Debt** *(At the beginning of your end phase, if Seeping Shadows is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -45679,11 +45718,11 @@ The next attack action card with cost 1 or less you play this turns gains +1{p} 
     defense: 2,
     functionalText: `You may play Seeping Shadows from your banished zone.
 
-The next attack action card with cost 0 you play this turns gains +1{p} and **go again.**
+The next attack action card with cost 0 you play this turns gains +1{p} and **go again**.
 
 **Go again**
 
-**Blood Debt** *(At the beginning of your end phase, if Seeping Shadows is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -45738,7 +45777,7 @@ The next attack action card with cost 0 you play this turns gains +1{p} and **go
     defense: 3,
     functionalText: `If you have played a 'non-attack' action card this turn, you may play Bounding Demigon from your banished zone. If you do, it gains +1{p}.
 
-**Blood Debt** *(At the beginning of your end phase, if Bounding Demigon is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -45787,7 +45826,7 @@ The next attack action card with cost 0 you play this turns gains +1{p} and **go
     defense: 3,
     functionalText: `If you have played a 'non-attack' action card this turn, you may play Bounding Demigon from your banished zone. If you do, it gains +1{p}.
 
-**Blood Debt** *(At the beginning of your end phase, if Bounding Demigon is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -45836,7 +45875,7 @@ The next attack action card with cost 0 you play this turns gains +1{p} and **go
     defense: 3,
     functionalText: `If you have played a 'non-attack' action card this turn, you may play Bounding Demigon from your banished zone. If you do, it gains +1{p}.
 
-**Blood Debt** *(At the beginning of your end phase, if Bounding Demigon is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -45891,9 +45930,9 @@ The next attack action card with cost 0 you play this turns gains +1{p} and **go
     defense: 3,
     functionalText: `You may play Piercing Shadow Vise from your banished zone.
 
-If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow Vise gains +2 {p}.
+If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow Vise gains +2{p}.
 
-**Blood Debt** *(At the beginning of your end phase, if Piercing Shadow Vise is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -45942,9 +45981,9 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
     defense: 3,
     functionalText: `You may play Piercing Shadow Vise from your banished zone.
 
-If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow Vise gains +2 {p}.
+If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow Vise gains +2{p}.
 
-**Blood Debt** *(At the beginning of your end phase, if Piercing Shadow Vise is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -45999,9 +46038,9 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
     defense: 3,
     functionalText: `You may play Piercing Shadow Vise from your banished zone.
 
-If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow Vise gains +2 {p}.
+If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow Vise gains +2{p}.
 
-**Blood Debt** *(At the beginning of your end phase, if Piercing Shadow Vise is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -46056,7 +46095,7 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
     defense: 3,
     functionalText: `You may play Rift Bind from your banished zone. If you do, it gains +X{p}, where X is the number of 'non-attack' action cards you have played this turn.
 
-**Blood Debt** *(At the beginning of your end phase, if Rift Bind is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -46105,7 +46144,7 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
     defense: 3,
     functionalText: `You may play Rift Bind from your banished zone. If you do, it gains +X{p}, where X is the number of 'non-attack' action cards you have played this turn.
 
-**Blood Debt** *(At the beginning of your end phase, if Rift Bind is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -46160,7 +46199,7 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
     defense: 3,
     functionalText: `You may play Rift Bind from your banished zone. If you do, it gains +X{p}, where X is the number of 'non-attack' action cards you have played this turn.
 
-**Blood Debt** *(At the beginning of your end phase, if Rift Bind is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -46215,7 +46254,7 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
     defense: 3,
     functionalText: `You may play Rifted Torment from your banished zone. If you do, deal 1 arcane damage to target hero.
 
-**Blood Debt** *(At the beginning of your end phase, if Rifted Torment is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -46264,7 +46303,7 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
     defense: 3,
     functionalText: `You may play Rifted Torment from your banished zone. If you do, deal 1 arcane damage to target hero.
 
-**Blood Debt** *(At the beginning of your end phase, if Rifted Torment is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -46319,7 +46358,7 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
     defense: 3,
     functionalText: `You may play Rifted Torment from your banished zone. If you do, deal 1 arcane damage to target hero.
 
-**Blood Debt** *(At the beginning of your end phase, if Rifted Torment is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -46374,9 +46413,9 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
     defense: 3,
     functionalText: `You may play Rip Through Reality from your banished zone.
 
-If you have dealt arcane damage to an opposing hero this turn, Rip Through Reality gains ((go again.**
+If you have dealt arcane damage to an opposing hero this turn, Rip Through Reality gains **go again**.
 
-**Blood Debt** *(At the beginning of your end phase, if Rip Through Reality is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -46425,9 +46464,9 @@ If you have dealt arcane damage to an opposing hero this turn, Rip Through Reali
     defense: 3,
     functionalText: `You may play Rip Through Reality from your banished zone.
 
-If you have dealt arcane damage to an opposing hero this turn, Rip Through Reality gains ((go again.**
+If you have dealt arcane damage to an opposing hero this turn, Rip Through Reality gains **go again**.
 
-**Blood Debt** *(At the beginning of your end phase, if Rip Through Reality is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -46476,9 +46515,9 @@ If you have dealt arcane damage to an opposing hero this turn, Rip Through Reali
     defense: 3,
     functionalText: `You may play Rip Through Reality from your banished zone.
 
-If you have dealt arcane damage to an opposing hero this turn, Rip Through Reality gains ((go again.**
+If you have dealt arcane damage to an opposing hero this turn, Rip Through Reality gains **go again**.
 
-**Blood Debt** *(At the beginning of your end phase, if Rip Through Reality is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -46533,11 +46572,11 @@ If you have dealt arcane damage to an opposing hero this turn, Rip Through Reali
     defense: 2,
     functionalText: `You may play Seeds of Agony from your banished zone.
 
-The next attack action card with cost 2 or less you play this turn gains "When you attack with this, deal 1 arcane damage to target hero.”
+The next attack action card with cost 2 or less you play this turn gains "When you attack with this, deal 1 arcane damage to target hero."
 
 **Go again**
 
-**Blood Debt** *(At the beginning of your end phase, if Seeds of Agony is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -46592,11 +46631,11 @@ The next attack action card with cost 2 or less you play this turn gains "When y
     defense: 2,
     functionalText: `You may play Seeds of Agony from your banished zone.
 
-The next attack action card with cost 1 or less you play this turn gains "When you attack with this, deal 1 arcane damage to target hero.”
+The next attack action card with cost 1 or less you play this turn gains "When you attack with this, deal 1 arcane damage to target hero."
 
 **Go again**
 
-**Blood Debt** *(At the beginning of your end phase, if Seeds of Agony is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -46645,11 +46684,11 @@ The next attack action card with cost 1 or less you play this turn gains "When y
     defense: 2,
     functionalText: `You may play Seeds of Agony from your banished zone.
 
-The next attack action card with cost 0 or less you play this turn gains "When you attack with this, deal 1 arcane damage to target hero.”
+The next attack action card with cost 0 or less you play this turn gains "When you attack with this, deal 1 arcane damage to target hero."
 
 **Go again**
 
-**Blood Debt** *(At the beginning of your end phase, if Seeds of Agony is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -46708,9 +46747,7 @@ The next attack action card with cost 0 or less you play this turn gains "When y
 
     
     
-    functionalText: `*(Auras stay in the arena.)*
-
-At the beginning of your action phase, banish the top card of your deck.`,
+    functionalText: `At the beginning of your action phase, banish the top card of your deck.`,
     
     
     
@@ -46767,7 +46804,7 @@ At the beginning of your action phase, banish the top card of your deck.`,
 
 At the start of your turn, if you have 13 or less {h}, banish Carrion Husk.
 
-**Blood Debt** *(At the beginning of your end phase, if Carrion Husk is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -46834,7 +46871,7 @@ At the start of your turn, if you have 13 or less {h}, banish Carrion Husk.
     defense: 0,
     functionalText: `**Instant** - {r}, destroy Ebon Fold: Banish a card from your hand. If it's a Shadow card, draw a card.
 
-**Spellvoid 2** *(If your hero would be dealt arcane damage, you may destroy Ebon Fold instead. If you do, prevent 2 arcane damage that source would deal.)*`,
+**Spellvoid 2**`,
     
     
     
@@ -46881,7 +46918,7 @@ At the start of your turn, if you have 13 or less {h}, banish Carrion Husk.
 
     cost: 0,
     
-    functionalText: `**Legendary Levia Specialization** *(You may only have 1 Doomsday in your deck and only if your hero is Levia.)*
+    functionalText: `**Legendary Levia Specialization**
 
 Play Doomsday only if there are 6 or more cards with blood debt in your banished zone.
 
@@ -46932,7 +46969,7 @@ Create a Blasmophet, the Soul Harvester token.`,
 
     cost: 0,
     
-    functionalText: `**Legendary Chane Specialization** *(You may only have 1 Eclipse in your deck and only if your hero is Chane.)*
+    functionalText: `**Legendary Chane Specialization**
 
 Play Eclipse only if you have played 6 or more cards with **blood debt** this turn. If you have, you may play Eclipse from your banished zone.
 
@@ -46987,7 +47024,7 @@ Create an Ursur, the Soul Reaper token.`,
 
 Mutated Mass's {p} and {d} is equal to twice the number of cards in your pitch zone with different costs.
 
-**Blood Debt** *(At the beginning of your end phase, if Mutated Mass is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -47036,7 +47073,7 @@ Mutated Mass's {p} and {d} is equal to twice the number of cards in your pitch z
     defense: 6,
     functionalText: `**Action** - {r}{r}: Return Guardian of the Shadowrealm from your banished zone into your hand. Activate this ability only while Guardian of the Shadowrealm is in your banished zone.
 
-**Blood Debt** *(At the beginning of your end phase, if Guardian of the Shadowrealm is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -47083,7 +47120,7 @@ Mutated Mass's {p} and {d} is equal to twice the number of cards in your pitch z
 
     cost: 0,
     defense: 2,
-    functionalText: `The next attack action card you play this turn gains +1 {p}, **go again** and "If this attack hits, look at the top card of your deck. You may banish it.”
+    functionalText: `The next attack action card you play this turn gains +1 {p}, **go again** and "If this attack hits, look at the top card of your deck. You may banish it."
 
 **Go again**`,
     
@@ -47136,7 +47173,7 @@ Mutated Mass's {p} and {d} is equal to twice the number of cards in your pitch z
 
 Draw a card.
 
-**Blood Debt**  *(At the beginning of your end phase, if Tome of Torment is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -47189,7 +47226,7 @@ Draw a card.
 
     cost: 3,
     defense: 2,
-    functionalText: `As an additional cost to play Consuming Aftermath, you may banish a card from your hand. If a Shadow card is banished this way, Consuming Aftermath gains **dominate.** *(The defending hero can't defend Consuming Aftermath with more than 1 card from their hand.)*`,
+    functionalText: `As an additional cost to play Consuming Aftermath, you may banish a card from your hand. If a Shadow card is banished this way, Consuming Aftermath gains **dominate**.`,
     
     
     
@@ -47236,7 +47273,7 @@ Draw a card.
 
     cost: 3,
     defense: 2,
-    functionalText: `As an additional cost to play Consuming Aftermath, you may banish a card from your hand. If a Shadow card is banished this way, Consuming Aftermath gains **dominate.** *(The defending hero can't defend Consuming Aftermath with more than 1 card from their hand.)*`,
+    functionalText: `As an additional cost to play Consuming Aftermath, you may banish a card from your hand. If a Shadow card is banished this way, Consuming Aftermath gains **dominate**.`,
     
     
     
@@ -47283,7 +47320,7 @@ Draw a card.
 
     cost: 3,
     defense: 2,
-    functionalText: `As an additional cost to play Consuming Aftermath, you may banish a card from your hand. If a Shadow card is banished this way, Consuming Aftermath gains **dominate.** *(The defending hero can't defend Consuming Aftermath with more than 1 card from their hand.)*`,
+    functionalText: `As an additional cost to play Consuming Aftermath, you may banish a card from your hand. If a Shadow card is banished this way, Consuming Aftermath gains **dominate**.`,
     
     
     
@@ -47336,7 +47373,7 @@ Draw a card.
 
     cost: 6,
     defense: 3,
-    functionalText: `**Legendary Levia Specialization** *(You may only have 1 Soul Harvest in your deck and only if your hero is Levia.)*
+    functionalText: `**Legendary Levia Specialization**
 
 As an additional cost to play Soul Harvest, banish 6 cards from your graveyard. It gains +1{p} for each card with **blood debt** banished this way.
 
@@ -47393,7 +47430,7 @@ If Soul Harvest hits a hero, they banish all cards in their soul and lose {h} eq
 
     cost: 6,
     defense: 3,
-    functionalText: `**Legendary Chane Specialization** *(You may only have 1 Soul Reaping in your deck and only if your hero is Chane.)*
+    functionalText: `**Legendary Chane Specialization**
 
 You may banish 1 or more cards from your hand rather than pay Soul Reaping's {r} cost. If you do, gain {r} for each card with **blood debt** banished this way.
 
@@ -47456,7 +47493,7 @@ The next attack action card you play this turn gains +3{p}.
 
 **Go again**
 
-**Blood Debt** *(At the beginning of your end phase, if Howl from Beyond is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -47509,7 +47546,7 @@ The next attack action card you play this turn gains +2{p}.
 
 **Go again**
 
-**Blood Debt** *(At the beginning of your end phase, if Howl from Beyond is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -47562,7 +47599,7 @@ The next attack action card you play this turn gains +1{p}.
 
 **Go again**
 
-**Blood Debt** *(At the beginning of your end phase, if Howl from Beyond is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -47623,7 +47660,7 @@ The next attack action card you play this turn gains +1{p}.
     defense: 3,
     functionalText: `You may play Ghostly Visit from your banished zone.
 
-**Blood Debt** *(At the beginning of your end phase, if Ghostly Visit is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -47678,7 +47715,7 @@ The next attack action card you play this turn gains +1{p}.
     defense: 3,
     functionalText: `You may play Ghostly Visit from your banished zone.
 
-**Blood Debt** *(At the beginning of your end phase, if Ghostly Visit is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -47733,7 +47770,7 @@ The next attack action card you play this turn gains +1{p}.
     defense: 3,
     functionalText: `You may play Ghostly Visit from your banished zone.
 
-**Blood Debt** *(At the beginning of your end phase, if Ghostly Visit is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -47935,7 +47972,7 @@ The next attack action card you play this turn gains +1{p}.
     defense: 3,
     functionalText: `You may play Void Wraith from your banished zone.
 
-**Blood Debt** *(At the beginning of your end phase, if Void Wraith is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -47984,7 +48021,7 @@ The next attack action card you play this turn gains +1{p}.
     defense: 3,
     functionalText: `You may play Void Wraith from your banished zone.
 
-**Blood Debt** *(At the beginning of your end phase, if Void Wraith is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -48033,7 +48070,7 @@ The next attack action card you play this turn gains +1{p}.
     defense: 3,
     functionalText: `You may play Void Wraith from your banished zone.
 
-**Blood Debt** *(At the beginning of your end phase, if Void Wraith is in your banished zone, lose 1{h}.)*`,
+**Blood Debt**`,
     
     
     
@@ -48233,7 +48270,7 @@ The next attack action card you play this turn gains +1{p}.
 
     cost: 0,
     
-    functionalText: `**Opt 3**, then banish the top card of your deck. (Look at the top 3 cards of your deck. You may put them on the top and/or bottom in any order.)`,
+    functionalText: `**Opt 3**, then banish the top card of your deck.`,
     
     
     
@@ -48280,7 +48317,7 @@ The next attack action card you play this turn gains +1{p}.
 
     cost: 0,
     
-    functionalText: `**Opt 2**, then banish the top card of your deck. (Look at the top 2 cards of your deck. You may put them on the top and/or bottom in any order.)`,
+    functionalText: `**Opt 2**, then banish the top card of your deck.`,
     
     
     
@@ -48333,7 +48370,7 @@ The next attack action card you play this turn gains +1{p}.
 
     cost: 0,
     
-    functionalText: `**Opt 1**, then banish the top card of your deck. (Look at the top card of your deck. You may put it on the bottom.)`,
+    functionalText: `**Opt 1**, then banish the top card of your deck.`,
     
     
     
@@ -48447,11 +48484,9 @@ If you have more {h} than an opposing Light hero, you may banish an action card 
 
     
     
-    functionalText: `*(Allies can be attacked, can't be defended with {d}, and are destroyed when they have taken damage equal to their {h}. At end of turn, heal all damage dealt to Blasmophet.)*
+    functionalText: `**Once per Turn Action** - 0: **Attack**
 
-**Once per Turn Action** - 0: **Attack**
-
-Whenever Blasmophet attacks, you may banish a Shadow card from your hand. If you do, the defending hero banishes a card from their soul.`,
+Whenever Blasmophet attacks, you may banish a Shadow card from your hand. If you do, you may banish a card from the defending hero's soul.`,
     
     
     
@@ -48510,11 +48545,9 @@ Whenever Blasmophet attacks, you may banish a Shadow card from your hand. If you
 
     
     
-    functionalText: `*(Allies can be attacked, can't be defended with {d}, and are destroyed when they have taken damage equal to their {h}. At end of turn, heal all damage dealt to Ursur.)*
+    functionalText: `**Once per Turn Action** - 0: **Attack**
 
-**Once per Turn Action** - 0: **Attack**
-
-While Ursur is attacking a hero with 1 or more cards in their soul, the attack has **go again.**`,
+While Ursur is attacking a hero with 1 or more cards in their soul, the attack has **go again**.`,
     
     
     
@@ -48677,9 +48710,9 @@ Whenever you attack with Ravenous Meataxe, draw a card then discard a random car
 
     cost: 2,
     
-    functionalText: `Draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, Pulping gains **dominate.** *(The defending hero can't defend Pulping with more than 1 card from their hand.)*
+    functionalText: `Draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, Pulping gains **dominate**.
 
-While Pulping is defended by less than 2 non-equipment cards, it has **go again.**`,
+While Pulping is defended by less than 2 non-equipment cards, it has **go again**.`,
     
     
     
@@ -48732,9 +48765,9 @@ While Pulping is defended by less than 2 non-equipment cards, it has **go again.
 
     cost: 2,
     
-    functionalText: `Draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, Pulping gains **dominate.** *(The defending hero can't defend Pulping with more than 1 card from their hand.)*
+    functionalText: `Draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, Pulping gains **dominate**.
 
-While Pulping is defended by less than 2 non-equipment cards, it has **go again.**`,
+While Pulping is defended by less than 2 non-equipment cards, it has **go again**.`,
     
     
     
@@ -48787,9 +48820,9 @@ While Pulping is defended by less than 2 non-equipment cards, it has **go again.
 
     cost: 2,
     
-    functionalText: `Draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, Pulping gains **dominate.** *(The defending hero can't defend Pulping with more than 1 card from their hand.)*
+    functionalText: `Draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, Pulping gains **dominate**.
 
-While Pulping is defended by less than 2 non-equipment cards, it has **go again.**`,
+While Pulping is defended by less than 2 non-equipment cards, it has **go again**.`,
     
     
     
@@ -49054,7 +49087,7 @@ A hero dealt damage by Dread Scythe can't gain {h} during their next action phas
     defense: 1,
     functionalText: `**Action** - Destroy Aether Ironweave: Gain {r}{r}. Activate this ability only if you have played an attack action card and a 'non-attack' action card this turn. **Go again**
 
-**Battleworn** *(If you defend with Aether Ironweave, put a -1{d} counter on it when the combat chain closes.)*`,
+**Battleworn**`,
     
     
     
@@ -49466,7 +49499,7 @@ Shuffle your deck. Banish Sonata Arcanix.
 
     
     defense: 0,
-    functionalText: `**Instant** - Destroy Blood Drop Brocade: Gain {r}. Activate this ability only if you have dealt or been dealt {p} damage this turn. *(When an equipment is destroyed, it's put into the graveyard.)*`,
+    functionalText: `**Instant** - Destroy Blood Drop Brocade: Gain {r}. Activate this ability only if you have dealt or been dealt {p} damage this turn.`,
     
     
     
@@ -49513,7 +49546,7 @@ Shuffle your deck. Banish Sonata Arcanix.
 
     
     defense: 0,
-    functionalText: `**Action** - Destroy Stubby Hammerers: Attack action cards with 3 or less base power gain +1{p} while attacking this turn. **Go again** *(When an equipment is destroyed, it's put into the graveyard.)*`,
+    functionalText: `**Action** - Destroy Stubby Hammerers: Attack action cards with 3 or less base power gain +1{p} while attacking this turn. **Go again**`,
     
     
     
@@ -49560,7 +49593,7 @@ Shuffle your deck. Banish Sonata Arcanix.
 
     
     defense: 0,
-    functionalText: `**Action** - {r}{r}{r}, destroy Time Skippers: Gain 2 action points. *(When an equipment is destroyed, it's put into the graveyard.)*`,
+    functionalText: `**Action** - {r}{r}{r}, destroy Time Skippers: Gain 2 action points.`,
     
     
     
@@ -49613,7 +49646,7 @@ Shuffle your deck. Banish Sonata Arcanix.
 
     
     defense: 0,
-    functionalText: `When you defend with Ironhide Helm, you may pay {r}. If you do, it gains +2{d} and “When the combat chain closes, destroy Ironhide Helm.”`,
+    functionalText: `When you defend with Ironhide Helm, you may pay {r}. If you do, it gains +2{d} and "When the combat chain closes, destroy Ironhide Helm."`,
     
     
     
@@ -49660,7 +49693,7 @@ Shuffle your deck. Banish Sonata Arcanix.
 
     
     defense: 0,
-    functionalText: `When you defend with Ironhide Plate, you may pay {r}. If you do, it gains +2{d} and destroy it when the combat chain closes. *(When an equipment is destroyed, it's put into the graveyard.)*`,
+    functionalText: `When you defend with Ironhide Plate, you may pay {r}. If you do, it gains +2{d} and destroy it when the combat chain closes.`,
     
     
     
@@ -49713,7 +49746,7 @@ Shuffle your deck. Banish Sonata Arcanix.
 
     
     defense: 0,
-    functionalText: `When you defend with Ironhide Gauntlet, you may pay {r}. If you do, it gains +2{d} and “When the combat chain closes, destroy Ironhide Gauntlet.”`,
+    functionalText: `When you defend with Ironhide Gauntlet, you may pay {r}. If you do, it gains +2{d} and "When the combat chain closes, destroy Ironhide Gauntlet."`,
     
     
     
@@ -49778,7 +49811,7 @@ Shuffle your deck. Banish Sonata Arcanix.
 
     
     defense: 0,
-    functionalText: `When you defend with Ironhide Legs, you may pay {r}. If you do, it gains +2{d} and “When the combat chain closes, destroy Ironhide Legs.”`,
+    functionalText: `When you defend with Ironhide Legs, you may pay {r}. If you do, it gains +2{d} and "When the combat chain closes, destroy Ironhide Legs."`,
     
     
     
@@ -49921,7 +49954,7 @@ Shuffle your deck. Banish Sonata Arcanix.
 
     cost: 3,
     defense: 2,
-    functionalText: `As an additional cost to play Rouse the Ancients, you may reveal any number of attack action cards from your hand with 13 or more total {p}. If you do, Rouse the Ancients gains +7{p} and **go again.**`,
+    functionalText: `As an additional cost to play Rouse the Ancients, you may reveal any number of attack action cards from your hand with 13 or more total {p}. If you do, Rouse the Ancients gains +7{p} and **go again**.`,
     
     
     
@@ -49968,7 +50001,7 @@ Shuffle your deck. Banish Sonata Arcanix.
 
     cost: 3,
     defense: 2,
-    functionalText: `While Out Muscle isn't defended by a card with equal or greater {p}, it has **go again.**`,
+    functionalText: `While Out Muscle isn't defended by a card with equal or greater {p}, it has **go again**.`,
     
     
     
@@ -50015,7 +50048,7 @@ Shuffle your deck. Banish Sonata Arcanix.
 
     cost: 3,
     defense: 2,
-    functionalText: `While Out Muscle isn't defended by a card with equal or greater {p}, it has **go again.**`,
+    functionalText: `While Out Muscle isn't defended by a card with equal or greater {p}, it has **go again**.`,
     
     
     
@@ -50062,7 +50095,7 @@ Shuffle your deck. Banish Sonata Arcanix.
 
     cost: 3,
     defense: 2,
-    functionalText: `While Out Muscle isn't defended by a card with equal or greater {p}, it has **go again.**`,
+    functionalText: `While Out Muscle isn't defended by a card with equal or greater {p}, it has **go again**.`,
     
     
     
@@ -50109,7 +50142,7 @@ Shuffle your deck. Banish Sonata Arcanix.
 
     cost: 0,
     defense: 2,
-    functionalText: `As an additional cost to play Seek Horizon, you may put a card from your hand on top of your deck. If you do, Seek Horizon gains **go again.**`,
+    functionalText: `As an additional cost to play Seek Horizon, you may put a card from your hand on top of your deck. If you do, Seek Horizon gains **go again**.`,
     
     
     
@@ -50156,7 +50189,7 @@ Shuffle your deck. Banish Sonata Arcanix.
 
     cost: 0,
     defense: 2,
-    functionalText: `As an additional cost to play Seek Horizon, you may put a card from your hand on top of your deck. If you do, Seek Horizon gains **go again.**`,
+    functionalText: `As an additional cost to play Seek Horizon, you may put a card from your hand on top of your deck. If you do, Seek Horizon gains **go again**.`,
     
     
     
@@ -50203,7 +50236,7 @@ Shuffle your deck. Banish Sonata Arcanix.
 
     cost: 0,
     defense: 2,
-    functionalText: `As an additional cost to play Seek Horizon, you may put a card from your hand on top of your deck. If you do, Seek Horizon gains **go again.**`,
+    functionalText: `As an additional cost to play Seek Horizon, you may put a card from your hand on top of your deck. If you do, Seek Horizon gains **go again**.`,
     
     
     
@@ -50520,7 +50553,7 @@ Shuffle your deck. Banish Sonata Arcanix.
       set: Release.Monarch,
       
     },],
-    name: "Captain’s Call",
+    name: "Captain's Call",
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON260"],
@@ -50536,7 +50569,7 @@ Shuffle your deck. Banish Sonata Arcanix.
 
 The next attack action card with cost 2 or less you play this turn gains +2{p}.
 
-The next attack action card with cost 2 or less you play this turn gains **go again.**
+The next attack action card with cost 2 or less you play this turn gains **go again**.
 
 **Go again**`,
     
@@ -50573,7 +50606,7 @@ The next attack action card with cost 2 or less you play this turn gains **go ag
       set: Release.Monarch,
       
     },],
-    name: "Captain’s Call",
+    name: "Captain's Call",
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON261"],
@@ -50589,7 +50622,7 @@ The next attack action card with cost 2 or less you play this turn gains **go ag
 
 The next attack action card with cost 1 or less you play this turn gains +2{p}.
 
-The next attack action card with cost 1 or less you play this turn gains **go again.**
+The next attack action card with cost 1 or less you play this turn gains **go again**.
 
 **Go again**`,
     
@@ -50626,7 +50659,7 @@ The next attack action card with cost 1 or less you play this turn gains **go ag
       set: Release.Monarch,
       
     },],
-    name: "Captain’s Call",
+    name: "Captain's Call",
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["MON262"],
@@ -50640,7 +50673,7 @@ The next attack action card with cost 1 or less you play this turn gains **go ag
     defense: 2,
     functionalText: `Choose 1;
 
-The next attack action card with cost 0 you play this turn gains **go again.**
+The next attack action card with cost 0 you play this turn gains **go again**.
 
 **Go again**`,
     
@@ -51126,7 +51159,7 @@ The next attack action card with cost 0 you play this turn gains **go again.**
     defense: 2,
     functionalText: `You may look at the defending hero's hand.
 
-If Frontline Scout is played from arsenal, it gains **go again.**`,
+If Frontline Scout is played from arsenal, it gains **go again**.`,
     
     
     
@@ -51175,7 +51208,7 @@ If Frontline Scout is played from arsenal, it gains **go again.**`,
     defense: 2,
     functionalText: `You may look at the defending hero's hand.
 
-If Frontline Scout is played from arsenal, it gains **go again.**`,
+If Frontline Scout is played from arsenal, it gains **go again**.`,
     
     
     
@@ -51224,7 +51257,7 @@ If Frontline Scout is played from arsenal, it gains **go again.**`,
     defense: 2,
     functionalText: `You may look at the defending hero's hand.
 
-If Frontline Scout is played from arsenal, it gains **go again.**`,
+If Frontline Scout is played from arsenal, it gains **go again**.`,
     
     
     
@@ -51271,9 +51304,9 @@ If Frontline Scout is played from arsenal, it gains **go again.**`,
 
     cost: 0,
     defense: 2,
-    functionalText: `**Dominate** *(The defending hero can’t defend Overload with more than 1 card from their hand.)*
+    functionalText: `**Dominate**
 
-If Overload hits, it gains **go again.**`,
+If Overload hits, it gains **go again**.`,
     
     
     
@@ -51320,9 +51353,9 @@ If Overload hits, it gains **go again.**`,
 
     cost: 0,
     defense: 2,
-    functionalText: `**Dominate** *(The defending hero can’t defend Overload with more than 1 card from their hand.)*
+    functionalText: `**Dominate**
 
-If Overload hits, it gains **go again.**`,
+If Overload hits, it gains **go again**.`,
     
     
     
@@ -51369,9 +51402,9 @@ If Overload hits, it gains **go again.**`,
 
     cost: 0,
     defense: 2,
-    functionalText: `**Dominate** *(The defending hero can’t defend Overload with more than 1 card from their hand.)*
+    functionalText: `**Dominate**
 
-If Overload hits, it gains **go again.**`,
+If Overload hits, it gains **go again**.`,
     
     
     
@@ -51418,7 +51451,7 @@ If Overload hits, it gains **go again.**`,
 
     cost: 3,
     defense: 2,
-    functionalText: `When you play Pound for Pound, if you have less {h} than an opposing hero, it gains **dominate.** *(The defending hero can't defend Pound for Pound with more than 1 card from their hand.)*`,
+    functionalText: `When you play Pound for Pound, if you have less {h} than an opposing hero, it gains **dominate**.`,
     
     
     
@@ -51465,7 +51498,7 @@ If Overload hits, it gains **go again.**`,
 
     cost: 3,
     defense: 2,
-    functionalText: `When you play Pound for Pound, if you have less {h} than an opposing hero, it gains **dominate.** *(The defending hero can't defend Pound for Pound with more than 1 card from their hand.)*`,
+    functionalText: `When you play Pound for Pound, if you have less {h} than an opposing hero, it gains **dominate**.`,
     
     
     
@@ -51512,7 +51545,7 @@ If Overload hits, it gains **go again.**`,
 
     cost: 3,
     defense: 2,
-    functionalText: `When you play Pound for Pound, if you have less {h} than an opposing hero, it gains **dominate.** *(The defending hero can't defend Pound for Pound with more than 1 card from their hand.)*`,
+    functionalText: `When you play Pound for Pound, if you have less {h} than an opposing hero, it gains **dominate**.`,
     
     
     
@@ -51923,7 +51956,8 @@ If Overload hits, it gains **go again.**`,
     
     
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Kyxarie Peralta"],
     cardIdentifier: "surging-militia-blue",
     classes: [Class.Generic],
@@ -52019,8 +52053,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
     
     
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "yinti-yanti-yellow",
     classes: [Class.Generic],
@@ -52148,7 +52181,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
 
     cost: 2,
     defense: 2,
-    functionalText: `While there is a card in your pitch zone with {p} greater than Zealous Belting's base {p}, Zealous Belting has **go again.**`,
+    functionalText: `While there is a card in your pitch zone with {p} greater than Zealous Belting's base {p}, Zealous Belting has **go again**.`,
     
     
     
@@ -52195,7 +52228,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
 
     cost: 2,
     defense: 2,
-    functionalText: `While there is a card in your pitch zone with {p} greater than Zealous Belting's base {p}, Zealous Belting has **go again.**`,
+    functionalText: `While there is a card in your pitch zone with {p} greater than Zealous Belting's base {p}, Zealous Belting has **go again**.`,
     
     
     
@@ -52242,7 +52275,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
 
     cost: 2,
     defense: 2,
-    functionalText: `While there is a card in your pitch zone with {p} greater than Zealous Belting's base {p}, Zealous Belting has **go again.**`,
+    functionalText: `While there is a card in your pitch zone with {p} greater than Zealous Belting's base {p}, Zealous Belting has **go again**.`,
     
     
     
@@ -52430,7 +52463,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
       set: Release.Monarch,
       
     },],
-    name: "Warmonger’s Recital",
+    name: "Warmonger's Recital",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CHN028","MON299"],
@@ -52442,7 +52475,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
 
     cost: 1,
     defense: 2,
-    functionalText: `The next attack action card you play this turn gains +3{p} and "When this hits, put it on the bottom of its owner’s deck."
+    functionalText: `The next attack action card you play this turn gains +3{p} and "When this hits, put it on the bottom of its owner's deck."
 
 **Go again**`,
     
@@ -52485,7 +52518,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
       set: Release.Monarch,
       
     },],
-    name: "Warmonger’s Recital",
+    name: "Warmonger's Recital",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["CHN029","MON300"],
@@ -52497,7 +52530,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
 
     cost: 1,
     defense: 2,
-    functionalText: `The next attack action card you play this turn gains +2{p} and "When this hits, put it on the bottom of its owner’s deck."
+    functionalText: `The next attack action card you play this turn gains +2{p} and "When this hits, put it on the bottom of its owner's deck."
 
 **Go again**`,
     
@@ -52534,7 +52567,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
       set: Release.Monarch,
       
     },],
-    name: "Warmonger’s Recital",
+    name: "Warmonger's Recital",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["MON301"],
@@ -52546,7 +52579,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
 
     cost: 1,
     defense: 2,
-    functionalText: `The next attack action card you play this turn gains +1{p} and "When this hits, put it on the bottom of its owner’s deck."
+    functionalText: `The next attack action card you play this turn gains +1{p} and "When this hits, put it on the bottom of its owner's deck."
 
 **Go again**`,
     
@@ -52595,11 +52628,9 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
 
     cost: 0,
     
-    functionalText: `*(Items stay in the arena until they are destroyed.)*
+    functionalText: `**Go again**
 
-**Go again**
-
-**Spellvoid 1** *(If your hero would be dealt arcane damage, you may destroy Talisman of Dousing instead. If you do, prevent 1 arcane damage that source would deal.)*`,
+**Spellvoid 1**`,
     
     
     
@@ -52740,7 +52771,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
 
     cost: 0,
     
-    functionalText: `Put target attack action card with cost 0 or less from your graveyard on top of your deck.`,
+    functionalText: `Put target attack action card with cost 0 from your graveyard on top of your deck.`,
     
     
     
@@ -52787,9 +52818,7 @@ While Yinto Yanti is defending and you control an aura, it has +1{d}.`,
 
     
     defense: 3,
-    functionalText: `*(You may only have Minerva in your deck if your hero is young.)*
-
-While Minerva is face down in arsenal, at the start of your turn, you may turn her face up.
+    functionalText: `While Minerva is face down in arsenal, at the start of your turn, you may turn her face up.
 
 While Minerva is face up in arsenal, 1H weapons you control have +1{p}. Whenever a weapon you control hits, put a lesson counter on Minerva. Then if there are 3 or more lesson counters on her, banish her, search your deck for a **specialization** card, put it face up into arsenal, and shuffle.`,
     
@@ -52838,9 +52867,7 @@ While Minerva is face up in arsenal, 1H weapons you control have +1{p}. Whenever
 
     
     defense: 3,
-    functionalText: `*(You may only have Sutcliffe in your deck if your hero is young.)*
-
-While Sutcliffe is face down in arsenal, at the start of your turn, you may turn him face up.
+    functionalText: `While Sutcliffe is face down in arsenal, at the start of your turn, you may turn him face up.
 
 While Sutcliffe is face up in arsenal, whenever you play a 'non-attack' action card, deal 1 arcane damage to each hero and put a lesson counter on Sutcliffe for each damage dealt this way. Then if there are 3 or more lesson counters on him, banish him, search your deck for a **specialization** card, put it face up into arsenal, and shuffle.`,
     
@@ -52889,9 +52916,7 @@ While Sutcliffe is face up in arsenal, whenever you play a 'non-attack' action c
 
     
     defense: 3,
-    functionalText: `*(You may only have Barthimont in your deck if your hero is young.)*
-
-While Barthimont is face down in arsenal, at the start of your turn, you may turn her face up.
+    functionalText: `While Barthimont is face down in arsenal, at the start of your turn, you may turn her face up.
 
 While Barthimont is face up in arsenal, whenever you play an attack action card, banish the top card of your deck. If the banished card has 6 or more {p}, the attack gains **dominate** and put a lesson counter on Barthimont. Then if there are 2 or more lesson counters on her, banish her, search your deck for a **specialization** card, put it face up into arsenal, and shuffle.`,
     
@@ -52940,9 +52965,7 @@ While Barthimont is face up in arsenal, whenever you play an attack action card,
 
     
     defense: 3,
-    functionalText: `*(You may only have The Librarian in your deck if your hero is young.)*
-
-While The Librarian is face down in arsenal, at the start of your turn, you may turn him face up.
+    functionalText: `While The Librarian is face down in arsenal, at the start of your turn, you may turn him face up.
 
 While The Librarian is face up in arsenal, once per turn when you create a Spectral Shield token, draw a card and put a lesson counter on The Librarian. Then if there are 3 or more lesson counters on him, banish him, search your deck for a **specialization** card, put it face up into arsenal, and shuffle.`,
     
@@ -52991,7 +53014,7 @@ While The Librarian is face up in arsenal, once per turn when you create a Spect
 
     cost: 1,
     
-    functionalText: `**Legendary** *(You may only have 1 Korshem, Crossroads of the Elements in your deck.)*
+    functionalText: `**Legendary**
 
 **Go again**
 
@@ -53056,7 +53079,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
 
     
     
-    functionalText: `**Essence of Earth and Ice** *(You may have Earth and Ice cards in your deck.)*
+    functionalText: `**Essence of Earth and Ice**
 
 **Once per Turn Defense Reaction** - {r}{r}{r}: If an Earth card is pitched this way, prevent the next 2 damage that would be dealt to Oldhim this turn. If an Ice card is pitched this way, the attacking hero puts a card from their hand on top of their deck.`,
     
@@ -53117,7 +53140,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
 
     
     
-    functionalText: `**Essence of Earth and Ice** *(You may have Earth and Ice cards in your deck.)*
+    functionalText: `**Essence of Earth and Ice**
 
 **Once per Turn Defense Reaction** - {r}{r}{r}: If an Earth card is pitched this way, prevent the next 2 damage that would be dealt to Oldhim this turn. If an Ice card is pitched this way, the attacking hero puts a card from their hand on top of their deck.`,
     
@@ -53154,7 +53177,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
       set: Release.TalesOfAria,
       
     },],
-    name: "Winter’s Wail",
+    name: "Winter's Wail",
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["ELE003"],
@@ -53168,7 +53191,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
     
     functionalText: `**Once per Turn Action** - {r}{r}{r}: **Attack**
 
-If an Ice card is pitched this way, Winter’s Wail gains "If this hits a hero, create a Frostbite token under their control."`,
+If an Ice card is pitched this way, Winter's Wail gains "If this hits a hero, create a Frostbite token under their control."`,
     
     
     
@@ -53215,9 +53238,9 @@ If an Ice card is pitched this way, Winter’s Wail gains "If this hits a hero, 
 
     cost: 4,
     defense: 3,
-    functionalText: `**Oldhim Specialization** *(You may only have Endless Winter in your deck if your hero is Oldhim.)*
+    functionalText: `**Oldhim Specialization**
 
-**Ice Fusion** *(As an additional cost to play Endless Winter, you may reveal an Ice card from your hand.)*
+**Ice Fusion**
 
 If Endless Winter was **fused**, whenever the defending hero adds a defending card to this chain link, create a Frostbite token under their control.
 
@@ -53268,9 +53291,9 @@ If Endless Winter hits a hero, until the end of their next turn, whenever they a
 
     cost: 3,
     defense: 3,
-    functionalText: `**Earth and Ice Fusion** *(As an additional cost to play Oaken Old, you may reveal an Earth and an Ice card from your hand.)*
+    functionalText: `**Earth and Ice Fusion**
 
-If Oaken Old was **fused**, it gains +2{p}, **dominate**, and “If this hits a hero, they put 2 random cards from their hand on the bottom of their deck in any order.”`,
+If Oaken Old was **fused**, it gains +2{p}, **dominate**, and "If this hits a hero, they put 2 random cards from their hand on the bottom of their deck in any order."`,
     fusions: [Fusion.Earth,Fusion.Ice],
     
     
@@ -53317,7 +53340,7 @@ If Oaken Old was **fused**, it gains +2{p}, **dominate**, and “If this hits a 
 
     cost: 2,
     
-    functionalText: `**Earth Fusion** *(As an additional cost to play Awakening, you may reveal an Earth card from your hand.)*
+    functionalText: `**Earth Fusion**
 
 If you have less {h} than an opposing hero, create Seismic Surge tokens equal to the difference. If Awakening was **fused**, instead create twice that many Seismic Surge tokens.
 
@@ -53368,7 +53391,7 @@ Search your deck for a Guardian attack action card with cost less than or equal 
 
     cost: 2,
     defense: 4,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Biting Gale, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
 If Biting Gale was **fused**, the attacking hero discards a card unless they pay {r}{r}.`,
     fusions: [Fusion.Ice],
@@ -53423,7 +53446,7 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
 
     cost: 2,
     defense: 3,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Biting Gale, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
 If Biting Gale was **fused**, the attacking hero discards a card unless they pay {r}{r}.`,
     fusions: [Fusion.Ice],
@@ -53472,7 +53495,7 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
 
     cost: 2,
     defense: 2,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Biting Gale, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
 If Biting Gale was **fused**, the attacking hero discards a card unless they pay {r}{r}.`,
     fusions: [Fusion.Ice],
@@ -53527,7 +53550,7 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
 
     cost: 2,
     defense: 6,
-    functionalText: `**Earth Fusion** *(As an additional cost to play Turn Timber, you may reveal an Earth card from your hand.)*
+    functionalText: `**Earth Fusion**
 
 If Turn Timber was **fused**, it gains +2{d}.`,
     fusions: [Fusion.Earth],
@@ -53576,7 +53599,7 @@ If Turn Timber was **fused**, it gains +2{d}.`,
 
     cost: 2,
     defense: 5,
-    functionalText: `**Earth Fusion** *(As an additional cost to play Turn Timber, you may reveal an Earth card from your hand.)*
+    functionalText: `**Earth Fusion**
 
 If Turn Timber was **fused**, it gains +2{d}.`,
     fusions: [Fusion.Earth],
@@ -53625,7 +53648,7 @@ If Turn Timber was **fused**, it gains +2{d}.`,
 
     cost: 2,
     defense: 4,
-    functionalText: `**Earth Fusion** *(As an additional cost to play Turn Timber, you may reveal an Earth card from your hand.)*
+    functionalText: `**Earth Fusion**
 
 If Turn Timber was **fused**, it gains +2{d}.`,
     fusions: [Fusion.Earth],
@@ -53674,7 +53697,7 @@ If Turn Timber was **fused**, it gains +2{d}.`,
 
     cost: 3,
     defense: 3,
-    functionalText: `**Earth Fusion** *(As an additional cost to play Entangle, you may reveal an Earth card from your hand.)*
+    functionalText: `**Earth Fusion**
 
 If Entangle was **fused**, it gains "If this hits a hero, their first attack during their next turn has -2{p}."`,
     fusions: [Fusion.Earth],
@@ -53723,7 +53746,7 @@ If Entangle was **fused**, it gains "If this hits a hero, their first attack dur
 
     cost: 3,
     defense: 3,
-    functionalText: `**Earth Fusion** *(As an additional cost to play Entangle, you may reveal an Earth card from your hand.)*
+    functionalText: `**Earth Fusion**
 
 If Entangle was **fused**, it gains "If this hits a hero, their first attack during their next turn has -2{p}."`,
     fusions: [Fusion.Earth],
@@ -53778,7 +53801,7 @@ If Entangle was **fused**, it gains "If this hits a hero, their first attack dur
 
     cost: 3,
     defense: 3,
-    functionalText: `**Earth Fusion** *(As an additional cost to play Entangle, you may reveal an Earth card from your hand.)*
+    functionalText: `**Earth Fusion**
 
 If Entangle was **fused**, it gains "If this hits a hero, their first attack during their next turn has -2{p}."`,
     fusions: [Fusion.Earth],
@@ -53833,9 +53856,9 @@ If Entangle was **fused**, it gains "If this hits a hero, their first attack dur
 
     cost: 6,
     defense: 3,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Glacial Footsteps, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
-If Glacial Footsteps was **fused**, it gains **dominate.** *(The defending hero can't defend Glacial Footsteps with more than 1 card from their hand.)*`,
+If Glacial Footsteps was **fused**, it gains **dominate**.`,
     fusions: [Fusion.Ice],
     
     
@@ -53882,9 +53905,9 @@ If Glacial Footsteps was **fused**, it gains **dominate.** *(The defending hero 
 
     cost: 6,
     defense: 3,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Glacial Footsteps, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
-If Glacial Footsteps was **fused**, it gains **dominate.** *(The defending hero can't defend Glacial Footsteps with more than 1 card from their hand.)*`,
+If Glacial Footsteps was **fused**, it gains **dominate**.`,
     fusions: [Fusion.Ice],
     
     
@@ -53937,9 +53960,9 @@ If Glacial Footsteps was **fused**, it gains **dominate.** *(The defending hero 
 
     cost: 6,
     defense: 3,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Glacial Footsteps, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
-If Glacial Footsteps was **fused**, it gains **dominate.** *(The defending hero can't defend Glacial Footsteps with more than 1 card from their hand.)*`,
+If Glacial Footsteps was **fused**, it gains **dominate**.`,
     fusions: [Fusion.Ice],
     
     
@@ -53986,7 +54009,7 @@ If Glacial Footsteps was **fused**, it gains **dominate.** *(The defending hero 
 
     cost: 4,
     defense: 3,
-    functionalText: `**Earth Fusion** *(As an additional cost to play Mulch, you may reveal an Earth card from your hand.)*
+    functionalText: `**Earth Fusion**
 
 If Mulch was **fused**, it gains "If this hits a hero, put a card from their arsenal on the bottom of their deck."`,
     fusions: [Fusion.Earth],
@@ -54035,7 +54058,7 @@ If Mulch was **fused**, it gains "If this hits a hero, put a card from their ars
 
     cost: 4,
     defense: 3,
-    functionalText: `**Earth Fusion** *(As an additional cost to play Mulch, you may reveal an Earth card from your hand.)*
+    functionalText: `**Earth Fusion**
 
 If Mulch was **fused**, it gains "If this hits a hero, put a card from their arsenal on the bottom of their deck."`,
     fusions: [Fusion.Earth],
@@ -54090,7 +54113,7 @@ If Mulch was **fused**, it gains "If this hits a hero, put a card from their ars
 
     cost: 4,
     defense: 3,
-    functionalText: `**Earth Fusion** *(As an additional cost to play Mulch, you may reveal an Earth card from your hand.)*
+    functionalText: `**Earth Fusion**
 
 If Mulch was **fused**, it gains "If this hits a hero, put a card from their arsenal on the bottom of their deck."`,
     fusions: [Fusion.Earth],
@@ -54145,7 +54168,7 @@ If Mulch was **fused**, it gains "If this hits a hero, put a card from their ars
 
     cost: 3,
     defense: 3,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Snow Under, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
 If Snow Under was **fused**, it gains "If Snow Under hits a hero, create a Frostbite token under their control."`,
     fusions: [Fusion.Ice],
@@ -54194,7 +54217,7 @@ If Snow Under was **fused**, it gains "If Snow Under hits a hero, create a Frost
 
     cost: 3,
     defense: 3,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Snow Under, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
 If Snow Under was **fused**, it gains "If Snow Under hits a hero, create a Frostbite token under their control."`,
     fusions: [Fusion.Ice],
@@ -54249,7 +54272,7 @@ If Snow Under was **fused**, it gains "If Snow Under hits a hero, create a Frost
 
     cost: 3,
     defense: 3,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Snow Under, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
 If Snow Under was **fused**, it gains "If Snow Under hits a hero, create a Frostbite token under their control."`,
     fusions: [Fusion.Ice],
@@ -54298,7 +54321,7 @@ If Snow Under was **fused**, it gains "If Snow Under hits a hero, create a Frost
 
     cost: 2,
     defense: 3,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Emerging Avalanche, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
 **Go again**
 
@@ -54351,13 +54374,13 @@ At the beginning of your action phase, destroy Emerging Avalanche then the next 
 
     cost: 2,
     defense: 3,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Emerging Avalanche, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
 **Go again**
 
 When Emerging Avalanche enters the arena, if it was **fused**, create a Frostbite token under target hero control.
 
-At the beginning of your action phase, destroy Emerging Avalanche then the next attack action card you play this turn gains +3{p}.`,
+At the beginning of your action phase, destroy Emerging Avalanche then the next attack action card you play this turn gains +2{p}.`,
     fusions: [Fusion.Ice],
     
     
@@ -54404,13 +54427,13 @@ At the beginning of your action phase, destroy Emerging Avalanche then the next 
 
     cost: 2,
     defense: 3,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Emerging Avalanche, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
 **Go again**
 
 When Emerging Avalanche enters the arena, if it was **fused**, create a Frostbite token under target hero control.
 
-At the beginning of your action phase, destroy Emerging Avalanche then the next attack action card you play this turn gains +3{p}.`,
+At the beginning of your action phase, destroy Emerging Avalanche then the next attack action card you play this turn gains +1{p}.`,
     fusions: [Fusion.Ice],
     
     
@@ -54469,7 +54492,7 @@ At the beginning of your action phase, destroy Emerging Avalanche then the next 
 
     cost: 2,
     defense: 3,
-    functionalText: `**Earth Fusion** *(As an additional cost to play Strength of Sequoia, you may reveal an Earth card from your hand.)*
+    functionalText: `**Earth Fusion**
 
 **Go again**
 
@@ -54522,7 +54545,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
 
     cost: 2,
     defense: 3,
-    functionalText: `**Earth Fusion** *(As an additional cost to play Strength of Sequoia, you may reveal an Earth card from your hand.)*
+    functionalText: `**Earth Fusion**
 
 **Go again**
 
@@ -54581,7 +54604,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
 
     cost: 2,
     defense: 3,
-    functionalText: `**Earth Fusion** *(As an additional cost to play Strength of Sequoia, you may reveal an Earth card from your hand.)*
+    functionalText: `**Earth Fusion**
 
 **Go again**
 
@@ -54646,9 +54669,9 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
 
     
     
-    functionalText: `**Essence of Ice and Lightning** *(You may have Ice and Lightning cards in your deck.)*
+    functionalText: `**Essence of Ice and Lightning**
 
-**Once per Turn Action** - Turn a face down card in your arsenal face up: If it's a Lightning card, your next attack this turn gains **go again.** If it's an Ice card, create a Frostbite token under target hero's control. **Go again**`,
+**Once per Turn Action** - Turn a face down card in your arsenal face up: If it's a Lightning card, your next attack this turn gains **go again**. If it's an Ice card, create a Frostbite token under target hero's control. **Go again**`,
     
     hero: Hero.Lexi,
     intellect: 4,
@@ -54707,9 +54730,9 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
 
     
     
-    functionalText: `**Essence of Ice and Lightning** *(You may have Ice and Lightning cards in your deck.)*
+    functionalText: `**Essence of Ice and Lightning**
 
-**Once per Turn Action** - Turn a face down card in your arsenal face up: If it's a Lightning card, your next attack this turn gains **go again.** If it's an Ice card, create a Frostbite token under target hero's control. **Go again**`,
+**Once per Turn Action** - Turn a face down card in your arsenal face up: If it's a Lightning card, your next attack this turn gains **go again**. If it's an Ice card, create a Frostbite token under target hero's control. **Go again**`,
     
     hero: Hero.Lexi,
     intellect: 4,
@@ -54772,7 +54795,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
 
 - It gains +1{p} until end of turn.
 
-- It gains **dominate** until end of turn. *(The defending hero can't defend the attack with more than 1 card from their hand.)*`,
+- It gains **dominate** until end of turn.`,
     
     
     
@@ -54875,11 +54898,9 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
+    functionalText: `**Ice Fusion**
 
-**Ice Fusion** *(As an additional cost to play Frost Lock, you may reveal an Ice card from your hand.)*
-
-Cards and activated abilities cost opposing heros an additional {r} this turn.
+Cards and activated abilities cost opposing heroes an additional {r} this turn.
 
 If Frost Lock was **fused**, it gains +1{p} and "If this hits a hero, until the end of their next turn they can't pitch or play cards with base cost 0."`,
     fusions: [Fusion.Ice],
@@ -54928,9 +54949,9 @@ If Frost Lock was **fused**, it gains +1{p} and "If this hits a hero, until the 
 
     cost: 1,
     defense: 3,
-    functionalText: `**Lexi Specialization** *(You may only have Light it Up in your deck if your hero is Lexi.)*
+    functionalText: `**Lexi Specialization**
 
-**Lightning Fusion** *(As an additional cost to play Light it Up, you may reveal a Lightning card from your hand.)*
+**Lightning Fusion**
 
 If Light it Up was **fused**, it gains "If this hits a hero, deal 1 damage to them for each equipment they control."
 
@@ -54981,7 +55002,7 @@ If Light it Up deals damage to a hero equal to or greater than the number of equ
 
     cost: 0,
     defense: 2,
-    functionalText: `**Ice and Lightning Fusion** *(As an additional cost to play Ice Storm, you may reveal an Ice and a Lightning card from your hand.)*
+    functionalText: `**Ice and Lightning Fusion**
 
 Your next arrow attack this turn gains +3{p}.
 
@@ -55034,9 +55055,7 @@ If Ice Storm was **fused**, your next arrow attack this turn gains "If this hits
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-**Ice Fusion** *(As an additional cost to play Cold Wave, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
 If Cold Wave was **fused**, cards and activated abilities cost opposing heroes an additional {r} this turn.`,
     fusions: [Fusion.Ice],
@@ -55085,9 +55104,7 @@ If Cold Wave was **fused**, cards and activated abilities cost opposing heroes a
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-**Ice Fusion** *(As an additional cost to play Cold Wave, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
 If Cold Wave was **fused**, cards and activated abilities cost opposing heroes an additional {r} this turn.`,
     fusions: [Fusion.Ice],
@@ -55136,9 +55153,7 @@ If Cold Wave was **fused**, cards and activated abilities cost opposing heroes a
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-**Ice Fusion** *(As an additional cost to play Cold Wave, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
 If Cold Wave was **fused**, cards and activated abilities cost opposing heroes an additional {r} this turn.`,
     fusions: [Fusion.Ice],
@@ -55193,9 +55208,7 @@ If Cold Wave was **fused**, cards and activated abilities cost opposing heroes a
 
     cost: 0,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-**Lightning Fusion** *(As an additional cost to play Snap Shot, you may reveal a Lightning card from your hand.)*
+    functionalText: `**Lightning Fusion**
 
 If Snap Shot was **fused**, you may activate abilities of bows you control an additional time this turn and as though they were an instant.`,
     fusions: [Fusion.Lightning],
@@ -55244,9 +55257,7 @@ If Snap Shot was **fused**, you may activate abilities of bows you control an ad
 
     cost: 0,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-**Lightning Fusion** *(As an additional cost to play Snap Shot, you may reveal a Lightning card from your hand.)*
+    functionalText: `**Lightning Fusion**
 
 If Snap Shot was **fused**, you may activate abilities of bows you control an additional time this turn and as though they were an instant.`,
     fusions: [Fusion.Lightning],
@@ -55295,9 +55306,7 @@ If Snap Shot was **fused**, you may activate abilities of bows you control an ad
 
     cost: 0,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-**Lightning Fusion** *(As an additional cost to play Snap Shot, you may reveal a Lightning card from your hand.)*
+    functionalText: `**Lightning Fusion**
 
 If Snap Shot was **fused**, you may activate abilities of bows you control an additional time this turn and as though they were an instant.`,
     fusions: [Fusion.Lightning],
@@ -55352,9 +55361,7 @@ If Snap Shot was **fused**, you may activate abilities of bows you control an ad
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-**Ice Fusion** *(As an additional cost to play Blizzard Bolt, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
 If Blizzard Bolt was **fused**, whenever an attack deals damage to a hero this turn, create a Frostbite token under their control.`,
     fusions: [Fusion.Ice],
@@ -55403,9 +55410,7 @@ If Blizzard Bolt was **fused**, whenever an attack deals damage to a hero this t
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-**Ice Fusion** *(As an additional cost to play Blizzard Bolt, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
 If Blizzard Bolt was **fused**, whenever an attack deals damage to a hero this turn, create a Frostbite token under their control.`,
     fusions: [Fusion.Ice],
@@ -55454,9 +55459,7 @@ If Blizzard Bolt was **fused**, whenever an attack deals damage to a hero this t
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-**Ice Fusion** *(As an additional cost to play Blizzard Bolt, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
 If Blizzard Bolt was **fused**, whenever an attack deals damage to a hero this turn, create a Frostbite token under their control.`,
     fusions: [Fusion.Ice],
@@ -55511,9 +55514,7 @@ If Blizzard Bolt was **fused**, whenever an attack deals damage to a hero this t
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-**Lightning Fusion** *(As an additional cost to play Buzz Bolt, you may reveal a Lightning card from your hand.)*
+    functionalText: `**Lightning Fusion**
 
 If Buzz Bolt was **fused**, whenever an attack hits a hero this turn, it deals 1 damage to them.`,
     fusions: [Fusion.Lightning],
@@ -55568,9 +55569,7 @@ If Buzz Bolt was **fused**, whenever an attack hits a hero this turn, it deals 1
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-**Lightning Fusion** *(As an additional cost to play Buzz Bolt, you may reveal a Lightning card from your hand.)*
+    functionalText: `**Lightning Fusion**
 
 If Buzz Bolt was **fused**, whenever an attack hits a hero this turn, it deals 1 damage to them.`,
     fusions: [Fusion.Lightning],
@@ -55619,9 +55618,7 @@ If Buzz Bolt was **fused**, whenever an attack hits a hero this turn, it deals 1
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-**Lightning Fusion** *(As an additional cost to play Buzz Bolt, you may reveal a Lightning card from your hand.)*
+    functionalText: `**Lightning Fusion**
 
 If Buzz Bolt was **fused**, whenever an attack hits a hero this turn, it deals 1 damage to them.`,
     fusions: [Fusion.Lightning],
@@ -55670,9 +55667,7 @@ If Buzz Bolt was **fused**, whenever an attack hits a hero this turn, it deals 1
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-**Ice Fusion** *(As an additional cost to play Chilling Icevein, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
 If Chilling Icevein was **fused**, whenever an attack deals damage to a hero this turn, they discard a card unless they pay {r}.`,
     fusions: [Fusion.Ice],
@@ -55727,9 +55722,7 @@ If Chilling Icevein was **fused**, whenever an attack deals damage to a hero thi
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-**Ice Fusion** *(As an additional cost to play Chilling Icevein, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
 If Chilling Icevein was **fused**, whenever an attack deals damage to a hero this turn, they discard a card unless they pay {r}.`,
     fusions: [Fusion.Ice],
@@ -55778,9 +55771,7 @@ If Chilling Icevein was **fused**, whenever an attack deals damage to a hero thi
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-**Ice Fusion** *(As an additional cost to play Chilling Icevein, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
 If Chilling Icevein was **fused**, whenever an attack deals damage to a hero this turn, they discard a card unless they pay {r}.`,
     fusions: [Fusion.Ice],
@@ -55835,11 +55826,9 @@ If Chilling Icevein was **fused**, whenever an attack deals damage to a hero thi
 
     cost: 0,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
+    functionalText: `**Lightning Fusion**
 
-**Lightning Fusion** *(As an additional cost to play Dazzling Crescendo, you may reveal an Lightning card from your hand.)*
-
-If Dazzling Crescendo was **fused**, it gains **go again.**`,
+If Dazzling Crescendo was **fused**, it gains **go again**.`,
     fusions: [Fusion.Lightning],
     
     
@@ -55886,11 +55875,9 @@ If Dazzling Crescendo was **fused**, it gains **go again.**`,
 
     cost: 0,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
+    functionalText: `**Lightning Fusion**
 
-**Lightning Fusion** *(As an additional cost to play Dazzling Crescendo, you may reveal an Lightning card from your hand.)*
-
-If Dazzling Crescendo was **fused**, it gains **go again.**`,
+If Dazzling Crescendo was **fused**, it gains **go again**.`,
     fusions: [Fusion.Lightning],
     
     
@@ -55937,11 +55924,9 @@ If Dazzling Crescendo was **fused**, it gains **go again.**`,
 
     cost: 0,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
+    functionalText: `**Lightning Fusion**
 
-**Lightning Fusion** *(As an additional cost to play Dazzling Crescendo, you may reveal an Lightning card from your hand.)*
-
-If Dazzling Crescendo was **fused**, it gains **go again.**`,
+If Dazzling Crescendo was **fused**, it gains **go again**.`,
     fusions: [Fusion.Lightning],
     
     
@@ -55988,11 +55973,9 @@ If Dazzling Crescendo was **fused**, it gains **go again.**`,
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
+    functionalText: `**Ice Fusion** 
 
-**Ice Fusion** *(As an additional cost to play Flake Out, you may reveal an Ice card from your hand.)*
-
-If Flake Out was **fused**, it gains **dominate.** *(The defending hero can't defend Flake Out with more than 1 card from their hand.)*`,
+If Flake Out was **fused**, it gains **dominate**.`,
     fusions: [Fusion.Ice],
     
     
@@ -56039,11 +56022,9 @@ If Flake Out was **fused**, it gains **dominate.** *(The defending hero can't de
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
+    functionalText: `**Ice Fusion** 
 
-**Ice Fusion** *(As an additional cost to play Flake Out, you may reveal an Ice card from your hand.)*
-
-If Flake Out was **fused**, it gains **dominate.** *(The defending hero can't defend Flake Out with more than 1 card from their hand.)*`,
+If Flake Out was **fused**, it gains **dominate**.`,
     fusions: [Fusion.Ice],
     
     
@@ -56090,11 +56071,9 @@ If Flake Out was **fused**, it gains **dominate.** *(The defending hero can't de
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
+    functionalText: `**Ice Fusion** 
 
-**Ice Fusion** *(As an additional cost to play Flake Out, you may reveal an Ice card from your hand.)*
-
-If Flake Out was **fused**, it gains **dominate.** *(The defending hero can't defend Flake Out with more than 1 card from their hand.)*`,
+If Flake Out was **fused**, it gains **dominate**.`,
     fusions: [Fusion.Ice],
     
     
@@ -56147,9 +56126,7 @@ If Flake Out was **fused**, it gains **dominate.** *(The defending hero can't de
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-**Lightning Fusion** *(As an additional cost to play Frazzle, you may reveal a Lightning card from your hand.)*
+    functionalText: `**Lightning Fusion**
 
 If Frazzle was **fused**, whenever an attack would deal damage this turn, instead it deals that much damage plus 1.`,
     fusions: [Fusion.Lightning],
@@ -56204,9 +56181,7 @@ If Frazzle was **fused**, whenever an attack would deal damage this turn, instea
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-**Lightning Fusion** *(As an additional cost to play Frazzle, you may reveal a Lightning card from your hand.)*
+    functionalText: `**Lightning Fusion**
 
 If Frazzle was **fused**, whenever an attack would deal damage this turn, instead it deals that much damage plus 1.`,
     fusions: [Fusion.Lightning],
@@ -56255,9 +56230,7 @@ If Frazzle was **fused**, whenever an attack would deal damage this turn, instea
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-**Lightning Fusion** *(As an additional cost to play Frazzle, you may reveal a Lightning card from your hand.)*
+    functionalText: `**Lightning Fusion**
 
 If Frazzle was **fused**, whenever an attack would deal damage this turn, instead it deals that much damage plus 1.`,
     fusions: [Fusion.Lightning],
@@ -56324,7 +56297,7 @@ If Frazzle was **fused**, whenever an attack would deal damage this turn, instea
 
     
     
-    functionalText: `**Essence of Earth and Lightning** *(You may have Earth and Lightning cards in your deck.)*
+    functionalText: `**Essence of Earth and Lightning**
 
 The first time an attack action card you control deals damage to an opposing hero, create an Embodiment of Earth token.
 
@@ -56393,7 +56366,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
 
     
     
-    functionalText: `**Essence of Earth and Lightning** *(You may have Earth and Lightning cards in your deck.)*
+    functionalText: `**Essence of Earth and Lightning**
 
 The first time an attack action card you control deals damage to an opposing hero, create an Embodiment of Earth token.
 
@@ -56444,7 +56417,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
 
     cost: 2,
     defense: 3,
-    functionalText: `**Earth and Lightning Fusion** *(As an additional cost to play Blossoming Spellblade, you may reveal an Earth and a Lightning card from your hand.)*
+    functionalText: `**Earth and Lightning Fusion**
 
 If Blossoming Spellblade was fused, it gains "Whenever this deals damage to an opposing hero, you may banish a 'non-attack' action card from your graveyard. If you do, you may play it this turn as though it were an instant and if it would be put into your graveyard this turn, instead banish it."
 
@@ -56495,7 +56468,7 @@ When you attack with Blossoming Spellblade, if it was **fused**, deal 1 arcane d
 
     cost: 0,
     defense: 2,
-    functionalText: `**Lightning Fusion** *(As an additional cost to play Flicker Wisp, you may reveal a Lightning card from your hand.)*
+    functionalText: `**Lightning Fusion**
 
 If Flicker Wisp was **fused**, until end of turn, action card effects you control that deal arcane damage, instead deal that much arcane damage plus 1.
 
@@ -56548,9 +56521,9 @@ Deal 1 arcane damage to target hero.
 
     cost: 0,
     defense: 3,
-    functionalText: `**Briar Specialization** *(You may only have Force of Nature in your deck if your hero is Briar.)*
+    functionalText: `**Briar Specialization**
 
-**Earth Fusion** *(As an additional cost to play Force of Nature, you may reveal an Earth card from your hand.)*
+**Earth Fusion**
 
 Whenever an attack action card you control hits this turn, if its {p} is greater than its base {p}, draw a card.
 
@@ -56609,7 +56582,7 @@ If Force of Nature was fused, your next attack this turn gains +1{p}.
 
     cost: 1,
     defense: 3,
-    functionalText: `**Earth Fusion** *(As an additional cost to play Explosive Growth, you may reveal an Earth card from your hand.)*
+    functionalText: `**Earth Fusion**
 
 If Explosive Growth was **fused**, whenever it deals damage, attacks gain +1{p} this combat chain.
 When you attack with Explosive Growth, deal 1 arcane damage to target hero.`,
@@ -56659,7 +56632,7 @@ When you attack with Explosive Growth, deal 1 arcane damage to target hero.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `**Earth Fusion** *(As an additional cost to play Explosive Growth, you may reveal an Earth card from your hand.)*
+    functionalText: `**Earth Fusion**
 
 If Explosive Growth was **fused**, whenever it deals damage, attacks gain +1{p} this combat chain.
 When you attack with Explosive Growth, deal 1 arcane damage to target hero.`,
@@ -56709,7 +56682,7 @@ When you attack with Explosive Growth, deal 1 arcane damage to target hero.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `**Earth Fusion** *(As an additional cost to play Explosive Growth, you may reveal an Earth card from your hand.)*
+    functionalText: `**Earth Fusion**
 
 If Explosive Growth was **fused**, whenever it deals damage, attacks gain +1{p} this combat chain.
 When you attack with Explosive Growth, deal 1 arcane damage to target hero.`,
@@ -56765,11 +56738,11 @@ When you attack with Explosive Growth, deal 1 arcane damage to target hero.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `**Lightning Fusion** *(As an additional cost to play Rites of Lightning, you may reveal a Lightning card from your hand.)*
+    functionalText: `**Lightning Fusion**
 
 When you attack with Rites of Lightning, if it was **fused**, deal 1 arcane damage to target hero.
 
-If you have dealt arcane damage this turn, Rites of Lightning gains **go again.**`,
+If you have dealt arcane damage this turn, Rites of Lightning gains **go again**.`,
     fusions: [Fusion.Lightning],
     
     
@@ -56816,11 +56789,11 @@ If you have dealt arcane damage this turn, Rites of Lightning gains **go again.*
 
     cost: 1,
     defense: 3,
-    functionalText: `**Lightning Fusion** *(As an additional cost to play Rites of Lightning, you may reveal a Lightning card from your hand.)*
+    functionalText: `**Lightning Fusion**
 
 When you attack with Rites of Lightning, if it was **fused**, deal 1 arcane damage to target hero.
 
-If you have dealt arcane damage this turn, Rites of Lightning gains **go again.**`,
+If you have dealt arcane damage this turn, Rites of Lightning gains **go again**.`,
     fusions: [Fusion.Lightning],
     
     
@@ -56867,11 +56840,11 @@ If you have dealt arcane damage this turn, Rites of Lightning gains **go again.*
 
     cost: 1,
     defense: 3,
-    functionalText: `**Lightning Fusion** *(As an additional cost to play Rites of Lightning, you may reveal a Lightning card from your hand.)*
+    functionalText: `**Lightning Fusion**
 
 When you attack with Rites of Lightning, if it was **fused**, deal 1 arcane damage to target hero.
 
-If you have dealt arcane damage this turn, Rites of Lightning gains **go again.**`,
+If you have dealt arcane damage this turn, Rites of Lightning gains **go again**.`,
     fusions: [Fusion.Lightning],
     
     
@@ -56924,7 +56897,7 @@ If you have dealt arcane damage this turn, Rites of Lightning gains **go again.*
 
     cost: 0,
     defense: 3,
-    functionalText: `**Lightning Fusion** *(As an additional cost to play Arcanic Shockwave, you may reveal a Lightning card from your hand.)*
+    functionalText: `**Lightning Fusion**
 
 When you attack with Arcanic Shockwave, if it was **fused**, deal 1 arcane damage to target hero.`,
     fusions: [Fusion.Lightning],
@@ -56973,7 +56946,7 @@ When you attack with Arcanic Shockwave, if it was **fused**, deal 1 arcane damag
 
     cost: 0,
     defense: 3,
-    functionalText: `**Lightning Fusion** *(As an additional cost to play Arcanic Shockwave, you may reveal a Lightning card from your hand.)*
+    functionalText: `**Lightning Fusion**
 
 When you attack with Arcanic Shockwave, if it was **fused**, deal 1 arcane damage to target hero.`,
     fusions: [Fusion.Lightning],
@@ -57022,7 +56995,7 @@ When you attack with Arcanic Shockwave, if it was **fused**, deal 1 arcane damag
 
     cost: 0,
     defense: 3,
-    functionalText: `**Lightning Fusion** *(As an additional cost to play Arcanic Shockwave, you may reveal a Lightning card from your hand.)*
+    functionalText: `**Lightning Fusion**
 
 When you attack with Arcanic Shockwave, if it was **fused**, deal 1 arcane damage to target hero.`,
     fusions: [Fusion.Lightning],
@@ -57071,7 +57044,7 @@ When you attack with Arcanic Shockwave, if it was **fused**, deal 1 arcane damag
 
     cost: 1,
     defense: 3,
-    functionalText: `**Lightning Fusion** *(As an additional cost to play Vela Flash, you may reveal a Lightning card from your hand.)*
+    functionalText: `**Lightning Fusion**
 
 If Vela Flash was **fused**, you may play your next 'non-attack' action card this turn as though it were an instant.`,
     fusions: [Fusion.Lightning],
@@ -57120,7 +57093,7 @@ If Vela Flash was **fused**, you may play your next 'non-attack' action card thi
 
     cost: 1,
     defense: 3,
-    functionalText: `**Lightning Fusion** *(As an additional cost to play Vela Flash, you may reveal a Lightning card from your hand.)*
+    functionalText: `**Lightning Fusion**
 
 If Vela Flash was **fused**, you may play your next 'non-attack' action card this turn as though it were an instant.`,
     fusions: [Fusion.Lightning],
@@ -57169,7 +57142,7 @@ If Vela Flash was **fused**, you may play your next 'non-attack' action card thi
 
     cost: 1,
     defense: 3,
-    functionalText: `**Lightning Fusion** *(As an additional cost to play Vela Flash, you may reveal a Lightning card from your hand.)*
+    functionalText: `**Lightning Fusion**
 
 If Vela Flash was **fused**, you may play your next 'non-attack' action card this turn as though it were an instant.`,
     fusions: [Fusion.Lightning],
@@ -57224,7 +57197,7 @@ If Vela Flash was **fused**, you may play your next 'non-attack' action card thi
 
     cost: 2,
     defense: 3,
-    functionalText: `**Earth Fusion** *(As an additional cost to play Rites of Replenishment, you may reveal an Earth card from your hand.)*
+    functionalText: `**Earth Fusion**
 
 When you attack with Rites of Replenishment, if you have dealt arcane damage this turn, you may put a 'non-attack' action card from your graveyard on the bottom of your deck.
 
@@ -57275,7 +57248,7 @@ When you attack with Rites of Replenishment, if it was **fused**, you may put an
 
     cost: 2,
     defense: 3,
-    functionalText: `**Earth Fusion** *(As an additional cost to play Rites of Replenishment, you may reveal an Earth card from your hand.)*
+    functionalText: `**Earth Fusion**
 
 When you attack with Rites of Replenishment, if you have dealt arcane damage this turn, you may put a 'non-attack' action card from your graveyard on the bottom of your deck.
 
@@ -57332,7 +57305,7 @@ When you attack with Rites of Replenishment, if it was **fused**, you may put an
 
     cost: 2,
     defense: 3,
-    functionalText: `**Earth Fusion** *(As an additional cost to play Rites of Replenishment, you may reveal an Earth card from your hand.)*
+    functionalText: `**Earth Fusion**
 
 When you attack with Rites of Replenishment, if you have dealt arcane damage this turn, you may put a 'non-attack' action card from your graveyard on the bottom of your deck.
 
@@ -57395,7 +57368,7 @@ When you attack with Rites of Replenishment, if it was **fused**, you may put an
 
     cost: 2,
     defense: 3,
-    functionalText: `**Earth Fusion** *(As an additional cost to play Stir the Wildwood, you may reveal an Earth card from your hand.)*
+    functionalText: `**Earth Fusion**
 
 If you have dealt arcane damage to an opposing hero this turn, Stir the Wildwood gains +2{p}.
 
@@ -57452,7 +57425,7 @@ If Stir the Wildwood was **fused**, it gains +2{p}.`,
 
     cost: 2,
     defense: 3,
-    functionalText: `**Earth Fusion** *(As an additional cost to play Stir the Wildwood, you may reveal an Earth card from your hand.)*
+    functionalText: `**Earth Fusion**
 
 If you have dealt arcane damage to an opposing hero this turn, Stir the Wildwood gains +2{p}.
 
@@ -57503,7 +57476,7 @@ If Stir the Wildwood was **fused**, it gains +2{p}.`,
 
     cost: 2,
     defense: 3,
-    functionalText: `**Earth Fusion** *(As an additional cost to play Stir the Wildwood, you may reveal an Earth card from your hand.)*
+    functionalText: `**Earth Fusion**
 
 If you have dealt arcane damage to an opposing hero this turn, Stir the Wildwood gains +2{p}.
 
@@ -57560,7 +57533,7 @@ If Stir the Wildwood was **fused**, it gains +2{p}.`,
 
     cost: 0,
     defense: 2,
-    functionalText: `**Earth Fusion** *(As an additional cost to play Bramble Spark, you may reveal an Earth card from your hand.)*
+    functionalText: `**Earth Fusion**
 
 The next attack action card you play this turn gains "When you attack with this, deal 1 arcane damage to target hero."
 
@@ -57613,7 +57586,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
 
     cost: 0,
     defense: 2,
-    functionalText: `**Earth Fusion** *(As an additional cost to play Bramble Spark, you may reveal an Earth card from your hand.)*
+    functionalText: `**Earth Fusion**
 
 The next attack action card you play this turn gains "When you attack with this, deal 1 arcane damage to target hero."
 
@@ -57672,7 +57645,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
 
     cost: 0,
     defense: 2,
-    functionalText: `**Earth Fusion** *(As an additional cost to play Bramble Spark, you may reveal an Earth card from your hand.)*
+    functionalText: `**Earth Fusion**
 
 The next attack action card you play this turn gains "When you attack with this, deal 1 arcane damage to target hero."
 
@@ -57725,7 +57698,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
 
     cost: 1,
     defense: 2,
-    functionalText: `**Lightning Fusion** *(As an additional cost to play Inspire Lightning, you may reveal a Lightning card from your hand.)*
+    functionalText: `**Lightning Fusion**
 
 If Inspire Lightning was **fused**, deal 3 arcane damage to target hero.`,
     fusions: [Fusion.Lightning],
@@ -57774,7 +57747,7 @@ If Inspire Lightning was **fused**, deal 3 arcane damage to target hero.`,
 
     cost: 1,
     defense: 2,
-    functionalText: `**Lightning Fusion** *(As an additional cost to play Inspire Lightning, you may reveal a Lightning card from your hand.)*
+    functionalText: `**Lightning Fusion**
 
 If Inspire Lightning was **fused**, deal 2 arcane damage to target hero.`,
     fusions: [Fusion.Lightning],
@@ -57823,7 +57796,7 @@ If Inspire Lightning was **fused**, deal 2 arcane damage to target hero.`,
 
     cost: 1,
     defense: 2,
-    functionalText: `**Lightning Fusion** *(As an additional cost to play Inspire Lightning, you may reveal a Lightning card from your hand.)*
+    functionalText: `**Lightning Fusion**
 
 If Inspire Lightning was **fused**, deal 1 arcane damage to target hero.`,
     fusions: [Fusion.Lightning],
@@ -57872,7 +57845,7 @@ If Inspire Lightning was **fused**, deal 1 arcane damage to target hero.`,
 
     cost: 2,
     defense: 2,
-    functionalText: `**Earth and/or Lightning Fusion** *(As an additional cost to play Fulminate, you may reveal an Earth and/or Lightning card from your hand.)*
+    functionalText: `**Earth and/or Lightning Fusion**
 
 If Fulminate was **fused** with an Earth card, attack action cards you control gain +3{p} this turn.
 
@@ -57925,7 +57898,7 @@ If Fulminate was **fused** with a Lightning card, attack action cards you contro
 
     cost: 1,
     defense: 2,
-    functionalText: `**Ice and/or Lightning Fusion** *(As an additional cost to play Flashfreeze, you may reveal an Ice and/or Lightning card from your hand.)*
+    functionalText: `**Ice and/or Lightning Fusion**
 
 If Flashfreeze was **fused** with an Ice card, attacks you control this turn gain "When you attack with this, it gains **dominate**, unless the defending hero pays {r}{r}."
 
@@ -57978,7 +57951,7 @@ If Flashfreeze was **fused** with a Lightning card, attacks you control this tur
 
     cost: 2,
     
-    functionalText: `**Earth and/or Ice Fusion** *(As an additional cost to play Exposed to the Elements, you may reveal an Earth and/or Ice card from your hand.)*
+    functionalText: `**Earth and/or Ice Fusion**
 
 If Exposed to the Elements was **fused** with an Earth card, put a -1{d} counter on target equipment.
 
@@ -58035,7 +58008,7 @@ If Exposed to the Elements was **fused** with an Ice card, destroy an equipment 
 
     cost: 2,
     defense: 2,
-    functionalText: `**Earth Fusion** *(As an additional cost to play Entwine Earth, you may reveal an Earth card from your hand.)*
+    functionalText: `**Earth Fusion**
 
 If Entwine Earth was **fused**, it gains +2{p}.`,
     fusions: [Fusion.Earth],
@@ -58084,7 +58057,7 @@ If Entwine Earth was **fused**, it gains +2{p}.`,
 
     cost: 2,
     defense: 2,
-    functionalText: `**Earth Fusion** *(As an additional cost to play Entwine Earth, you may reveal an Earth card from your hand.)*
+    functionalText: `**Earth Fusion**
 
 If Entwine Earth was **fused**, it gains +2{p}.`,
     fusions: [Fusion.Earth],
@@ -58133,7 +58106,7 @@ If Entwine Earth was **fused**, it gains +2{p}.`,
 
     cost: 2,
     defense: 2,
-    functionalText: `**Earth Fusion** *(As an additional cost to play Entwine Earth, you may reveal an Earth card from your hand.)*
+    functionalText: `**Earth Fusion**
 
 If Entwine Earth was **fused**, it gains +2{p}.`,
     fusions: [Fusion.Earth],
@@ -58182,9 +58155,9 @@ If Entwine Earth was **fused**, it gains +2{p}.`,
 
     cost: 1,
     defense: 2,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Entwine Ice, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
-If Entwine Ice was **fused**, it gains **dominate.** *(The defending hero can't defend Entwine Ice with more than 1 card from their hand.)*`,
+If Entwine Ice was **fused**, it gains **dominate**.`,
     fusions: [Fusion.Ice],
     
     
@@ -58231,9 +58204,9 @@ If Entwine Ice was **fused**, it gains **dominate.** *(The defending hero can't 
 
     cost: 1,
     defense: 2,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Entwine Ice, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
-If Entwine Ice was **fused**, it gains **dominate.** *(The defending hero can't defend Entwine Ice with more than 1 card from their hand.)*`,
+If Entwine Ice was **fused**, it gains **dominate**.`,
     fusions: [Fusion.Ice],
     
     
@@ -58280,9 +58253,9 @@ If Entwine Ice was **fused**, it gains **dominate.** *(The defending hero can't 
 
     cost: 1,
     defense: 2,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Entwine Ice, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
-If Entwine Ice was **fused**, it gains **dominate.** *(The defending hero can't defend Entwine Ice with more than 1 card from their hand.)*`,
+If Entwine Ice was **fused**, it gains **dominate**.`,
     fusions: [Fusion.Ice],
     
     
@@ -58341,9 +58314,9 @@ If Entwine Ice was **fused**, it gains **dominate.** *(The defending hero can't 
 
     cost: 0,
     defense: 2,
-    functionalText: `**Lightning Fusion** *(As an additional cost to play Entwine Lightning, you may reveal a Lightning card from your hand.)*
+    functionalText: `**Lightning Fusion**
 
-If Entwine Lightning was **fused**, it gains **go again.**`,
+If Entwine Lightning was **fused**, it gains **go again**.`,
     fusions: [Fusion.Lightning],
     
     
@@ -58390,9 +58363,9 @@ If Entwine Lightning was **fused**, it gains **go again.**`,
 
     cost: 0,
     defense: 2,
-    functionalText: `**Lightning Fusion** *(As an additional cost to play Entwine Lightning, you may reveal a Lightning card from your hand.)*
+    functionalText: `**Lightning Fusion**
 
-If Entwine Lightning was **fused**, it gains **go again.**`,
+If Entwine Lightning was **fused**, it gains **go again**.`,
     fusions: [Fusion.Lightning],
     
     
@@ -58439,9 +58412,9 @@ If Entwine Lightning was **fused**, it gains **go again.**`,
 
     cost: 0,
     defense: 2,
-    functionalText: `**Lightning Fusion** *(As an additional cost to play Entwine Lightning, you may reveal a Lightning card from your hand.)*
+    functionalText: `**Lightning Fusion**
 
-If Entwine Lightning was **fused**, it gains **go again.**`,
+If Entwine Lightning was **fused**, it gains **go again**.`,
     fusions: [Fusion.Lightning],
     
     
@@ -58812,7 +58785,7 @@ If you've **fused** this turn, you may play Rejuvenate as though it were an inst
 
     
     
-    functionalText: `‘Non-attack' action cards you control have +1{d} while defending.
+    functionalText: `'Non-attack' action cards you control have +1{d} while defending.
 
 At the beginning of your action phase, destroy Embodiment of Earth.`,
     
@@ -58873,7 +58846,7 @@ At the beginning of your action phase, destroy Embodiment of Earth.`,
 
     
     
-    functionalText: `When you play an attack action card, destroy Embodiment of Lightning and the attack gains **go again.**`,
+    functionalText: `When you play an attack action card, destroy Embodiment of Lightning and the attack gains **go again**.`,
     
     
     
@@ -58993,7 +58966,7 @@ At the beginning of your end phase or when you play a card or activate an abilit
 
     cost: 0,
     
-    functionalText: `**Legendary** *(You may only have 1 Pulse of Volthaven in your deck.)*
+    functionalText: `**Legendary**
 
 Your next Ice, Lightning, or Elemental attack this turn gains +4{p}.`,
     
@@ -59042,7 +59015,7 @@ Your next Ice, Lightning, or Elemental attack this turn gains +4{p}.`,
 
     cost: 0,
     defense: 3,
-    functionalText: `**Legendary** *(You may only have 1 Pulse of Candlehold in your deck.)*
+    functionalText: `**Legendary**
 
 Put up to 2 target Earth, Lightning and/or Elemental action cards from your graveyard on top of your deck. Banish Pulse of Candlehold.
 
@@ -59093,7 +59066,7 @@ Put up to 2 target Earth, Lightning and/or Elemental action cards from your grav
 
     cost: 2,
     defense: 6,
-    functionalText: `**Legendary** *(You may only have 1 Pulse of Isenloft in your deck.)*
+    functionalText: `**Legendary**
 
 Earth, Ice, and Elemental action cards have +1{d} while defending this turn.`,
     
@@ -59356,7 +59329,7 @@ Draw 3 cards.
 
     cost: 3,
     defense: 2,
-    functionalText: `If Evergreen is played from arsenal, put it on the bottom of its owner’s deck when the combat chain closes.`,
+    functionalText: `If Evergreen is played from arsenal, put it on the bottom of its owner's deck when the combat chain closes.`,
     
     
     
@@ -59403,7 +59376,7 @@ Draw 3 cards.
 
     cost: 3,
     defense: 2,
-    functionalText: `If Evergreen is played from arsenal, put it on the bottom of its owner’s deck when the combat chain closes.`,
+    functionalText: `If Evergreen is played from arsenal, put it on the bottom of its owner's deck when the combat chain closes.`,
     
     
     
@@ -59456,7 +59429,7 @@ Draw 3 cards.
 
     cost: 3,
     defense: 2,
-    functionalText: `If Evergreen is played from arsenal, put it on the bottom of its owner’s deck when the combat chain closes.`,
+    functionalText: `If Evergreen is played from arsenal, put it on the bottom of its owner's deck when the combat chain closes.`,
     
     
     
@@ -59797,7 +59770,7 @@ If it's **fused**, instead it gains +2{p}.
       set: Release.TalesOfAria,
       
     },],
-    name: "Autumn’s Touch",
+    name: "Autumn's Touch",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE128"],
@@ -59850,7 +59823,7 @@ If it's **fused**, instead it gains +2{p}.
       set: Release.TalesOfAria,
       
     },],
-    name: "Autumn’s Touch",
+    name: "Autumn's Touch",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BRI022","ELE129"],
@@ -59903,7 +59876,7 @@ If it's **fused**, instead it gains +2{p}.
       set: Release.TalesOfAria,
       
     },],
-    name: "Autumn’s Touch",
+    name: "Autumn's Touch",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OLD024","ELE130"],
@@ -60673,9 +60646,9 @@ If Sow Tomorrow is played from arsenal, draw a card.
     defense: 1,
     functionalText: `**Once per Turn Action** - {r}: Cards and activated abilities cost opposing heroes additional {r} this turn. **Go again**
 
-**Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} instead. If you do, prevent 1 arcane damage that source would deal.)*
+**Arcane Barrier 1**
 
-**Blade Break** *(If you defend with Heart of Ice, destroy it when the combat chain closes.)*`,
+**Blade Break**`,
     
     
     
@@ -60717,10 +60690,10 @@ If Sow Tomorrow is played from arsenal, draw a card.
       
     },],
     name: "Coat of Frost",
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OLD005","ELE145"],
-    sets: [Release.OldhimBlitzDeck,Release.TalesOfAria],
+    setIdentifiers: ["FAB105","OLD005","ELE145"],
+    sets: [Release.Promos,Release.OldhimBlitzDeck,Release.TalesOfAria],
     specialImageName: "ELE145.width-450",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -61187,7 +61160,7 @@ Whenever an attack hits a hero this turn, create a Frostbite token under their c
     defense: 2,
     functionalText: `The next Ice or Elemental attack action card you play this turn gains +3{p}.
 
-If it's **fused**, it gains **dominate.** *(The defending hero can't defend the attack with more than 1 card from their hand.)*
+If it's **fused**, it gains **dominate**.
 
 **Go again**`,
     
@@ -61238,7 +61211,7 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
     defense: 2,
     functionalText: `The next Ice or Elemental attack action card you play this turn gains +2{p}.
 
-If it's **fused**, it gains **dominate.** *(The defending hero can't defend the attack with more than 1 card from their hand.)*
+If it's **fused**, it gains **dominate**.
 
 **Go again**`,
     
@@ -61289,7 +61262,7 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
     defense: 2,
     functionalText: `The next Ice or Elemental attack action card you play this turn gains +1{p}.
 
-If it's **fused**, it gains **dominate.** *(The defending hero can't defend the attack with more than 1 card from their hand.)*
+If it's **fused**, it gains **dominate**.
 
 **Go again**`,
     
@@ -61467,7 +61440,7 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
       set: Release.TalesOfAria,
       
     },],
-    name: "Winter’s Grasp",
+    name: "Winter's Grasp",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE160"],
@@ -61514,7 +61487,7 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
       set: Release.TalesOfAria,
       
     },],
-    name: "Winter’s Grasp",
+    name: "Winter's Grasp",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE161"],
@@ -61567,7 +61540,7 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
       set: Release.TalesOfAria,
       
     },],
-    name: "Winter’s Grasp",
+    name: "Winter's Grasp",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OLD017","ELE162"],
@@ -61785,7 +61758,7 @@ If it's **fused**, it gains **dominate.** *(The defending hero can't defend the 
 
     cost: 1,
     defense: 2,
-    functionalText: `Target opposing hero may pay {r}{r}{r}. If they don’t your next attack this turn gains **dominate.** *(The defending hero can't defend the attack with more than 1 card from their hand.)*
+    functionalText: `Target opposing hero may pay {r}{r}{r}. If they don't your next attack this turn gains **dominate**.
 
 If Polar Blast is played from arsenal, draw a card.
 
@@ -61848,7 +61821,7 @@ If Polar Blast is played from arsenal, draw a card.
 
     cost: 1,
     defense: 2,
-    functionalText: `Target opposing hero may pay {r}{r}. If they don’t your next attack this turn gains **dominate.** *(The defending hero can't defend the attack with more than 1 card from their hand.)*
+    functionalText: `Target opposing hero may pay {r}{r}. If they don't your next attack this turn gains **dominate**.
 
 If Polar Blast is played from arsenal, draw a card.
 
@@ -61905,7 +61878,7 @@ If Polar Blast is played from arsenal, draw a card.
 
     cost: 1,
     defense: 2,
-    functionalText: `Target opposing hero may pay {r}. If they don’t your next attack this turn gains **dominate.** *(The defending hero can't defend the attack with more than 1 card from their hand.)*
+    functionalText: `Target opposing hero may pay {r}. If they don't your next attack this turn gains **dominate**.
 
 If Polar Blast is played from arsenal, draw a card.
 
@@ -61944,7 +61917,7 @@ If Polar Blast is played from arsenal, draw a card.
       set: Release.TalesOfAria,
       
     },],
-    name: "Winter’s Bite",
+    name: "Winter's Bite",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE169"],
@@ -61999,7 +61972,7 @@ If Polar Blast is played from arsenal, draw a card.
       set: Release.TalesOfAria,
       
     },],
-    name: "Winter’s Bite",
+    name: "Winter's Bite",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OLD016","ELE170"],
@@ -62054,7 +62027,7 @@ If Polar Blast is played from arsenal, draw a card.
       set: Release.TalesOfAria,
       
     },],
-    name: "Winter’s Bite",
+    name: "Winter's Bite",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LXI025","ELE171"],
@@ -62129,7 +62102,7 @@ If Polar Blast is played from arsenal, draw a card.
     
     functionalText: `**Go again**
 
-**Instant** - Destroy Amulet of Ice: Target hero discards a card unless they pay {r}{r}. Activate this ability only if you have Ice **fused** this turn.`,
+**Instant** - Destroy Amulet of Ice: Target hero discards a card unless they pay {r}{r}. Activate this ability only if you have **Ice fused** this turn.`,
     
     
     
@@ -62184,7 +62157,7 @@ If Polar Blast is played from arsenal, draw a card.
     defense: 0,
     functionalText: `**Instant** - {r}{r}: The next time an attack action card you control hits a hero this turn, it deals 1 damage to them.
 
-**Spellvoid 2** *(If your hero would be dealt arcane damage, you may destroy Shock Charmers instead. If you do, prevent 2 arcane damage that source would deal.)*`,
+**Spellvoid 2**`,
     
     
     
@@ -62286,7 +62259,7 @@ If Polar Blast is played from arsenal, draw a card.
     defense: 3,
     functionalText: `**Go again**
 
-Whenever you play an action card, you may pay {r}. If you do, it gains **go again.**
+Whenever you play an action card, you may pay {r}. If you do, it gains **go again**.
 
 **Channel Lightning** - At the beginning of your end phase, put a flow counter on Channel Thunder Steppe then destroy it unless you put a Lightning card from your pitch zone on the bottom of your deck for each flow counter on it.`,
     
@@ -62335,7 +62308,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
 
     cost: 0,
     
-    functionalText: `Gain 1 action point. *(You can only gain action points during your action phase.)*`,
+    functionalText: `Gain 1 action point.`,
     
     
     
@@ -62382,7 +62355,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
 
     cost: 0,
     defense: 2,
-    functionalText: `The next action card you play this turn with cost 0 or greater gains **go again.**
+    functionalText: `The next action card you play this turn with cost 0 or greater gains **go again**.
 
 **Go again**`,
     
@@ -62437,7 +62410,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
 
     cost: 0,
     defense: 2,
-    functionalText: `The next action card you play this turn with cost 1 or greater gains **go again.**
+    functionalText: `The next action card you play this turn with cost 1 or greater gains **go again**.
 
 **Go again**`,
     
@@ -62486,7 +62459,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
 
     cost: 0,
     defense: 2,
-    functionalText: `The next action card you play this turn with cost 2 or greater gains **go again.**
+    functionalText: `The next action card you play this turn with cost 2 or greater gains **go again**.
 
 **Go again**`,
     
@@ -62547,7 +62520,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
 
     cost: 0,
     defense: 2,
-    functionalText: `The next Lightning or Elemental attack action card you play this turn gains +3{p}. If it's **fused**, it gains **go again.**
+    functionalText: `The next Lightning or Elemental attack action card you play this turn gains +3{p}. If it's **fused**, it gains **go again**.
 
 **Go again**`,
     
@@ -62602,7 +62575,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
 
     cost: 0,
     defense: 2,
-    functionalText: `The next Lightning or Elemental attack action card you play this turn gains +2{p}. If it's **fused**, it gains **go again.**
+    functionalText: `The next Lightning or Elemental attack action card you play this turn gains +2{p}. If it's **fused**, it gains **go again**.
 
 **Go again**`,
     
@@ -62657,7 +62630,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
 
     cost: 0,
     defense: 2,
-    functionalText: `The next Lightning or Elemental attack action card you play this turn gains +1{p}. If it's **fused**, it gains **go again.**
+    functionalText: `The next Lightning or Elemental attack action card you play this turn gains +1{p}. If it's **fused**, it gains **go again**.
 
 **Go again**`,
     
@@ -62712,7 +62685,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
 
     cost: 0,
     
-    functionalText: `Target attack action card with cost 1 or less gains +3{p}`,
+    functionalText: `Target attack action card with cost 1 or less gains +3{p}.`,
     
     
     
@@ -62759,7 +62732,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
 
     cost: 0,
     
-    functionalText: `Target attack action card with cost 1 or less gains +2{p}`,
+    functionalText: `Target attack action card with cost 1 or less gains +2{p}.`,
     
     
     
@@ -62806,7 +62779,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
 
     cost: 0,
     
-    functionalText: `Target attack action card with cost 1 or less gains +1{p}`,
+    functionalText: `Target attack action card with cost 1 or less gains +1{p}.`,
     
     
     
@@ -63000,7 +62973,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
 
     cost: 0,
     defense: 2,
-    functionalText: `If Lightning Surge is played from arsenal, it gains **go again.**`,
+    functionalText: `If Lightning Surge is played from arsenal, it gains **go again**.`,
     
     
     
@@ -63053,7 +63026,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
 
     cost: 0,
     defense: 2,
-    functionalText: `If Lightning Surge is played from arsenal, it gains **go again.**`,
+    functionalText: `If Lightning Surge is played from arsenal, it gains **go again**.`,
     
     
     
@@ -63100,7 +63073,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
 
     cost: 0,
     defense: 2,
-    functionalText: `If Lightning Surge is played from arsenal, it gains **go again.**`,
+    functionalText: `If Lightning Surge is played from arsenal, it gains **go again**.`,
     
     
     
@@ -63141,7 +63114,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
       set: Release.TalesOfAria,
       
     },],
-    name: "Heaven’s Claws",
+    name: "Heaven's Claws",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LXI014","ELE192"],
@@ -63194,7 +63167,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
       set: Release.TalesOfAria,
       
     },],
-    name: "Heaven’s Claws",
+    name: "Heaven's Claws",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LXI019","ELE193"],
@@ -63241,7 +63214,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
       set: Release.TalesOfAria,
       
     },],
-    name: "Heaven’s Claws",
+    name: "Heaven's Claws",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE194"],
@@ -63638,7 +63611,7 @@ If Electrify is played from arsenal, draw a card.
     
     functionalText: `**Go again**
 
-**Instant** - Destroy Amulet of Lightning: Target action card gains **go again.** Activate this ability only if you have Lightning **fused** this turn.`,
+**Instant** - Destroy Amulet of Lightning: Target action card gains **go again**. Activate this ability only if you have Lightning **fused** this turn.`,
     
     
     
@@ -63685,7 +63658,7 @@ If Electrify is played from arsenal, draw a card.
       set: Release.TalesOfAria,
       
     },],
-    name: "Titan’s Fist",
+    name: "Titan's Fist",
     rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS066","OLD002","ELE202"],
@@ -63699,7 +63672,7 @@ If Electrify is played from arsenal, draw a card.
     
     functionalText: `**Once per Turn Action** - {r}{r}{r}: **Attack**
 
-If there is a card with cost 3 or greater in your pitch zone, Titan’s Fist has +1{p}.`,
+If there is a card with cost 3 or greater in your pitch zone, Titan's Fist has +1{p}.`,
     
     
     
@@ -63740,7 +63713,7 @@ If there is a card with cost 3 or greater in your pitch zone, Titan’s Fist has
       set: Release.TalesOfAria,
       
     },],
-    name: "Rampart of the Ram’s Head",
+    name: "Rampart of the Ram's Head",
     rarities: [Rarity.Promo,Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB049","ELE203"],
@@ -63752,7 +63725,7 @@ If there is a card with cost 3 or greater in your pitch zone, Titan’s Fist has
 
     
     defense: 0,
-    functionalText: `Whenever you defend with Rampart of the Ram’s Head, you may pay {r}. If you do, it gains +1{d} until end of turn.`,
+    functionalText: `Whenever you defend with Rampart of the Ram's Head, you may pay {r}. If you do, it gains +1{d} until end of turn.`,
     
     
     
@@ -63805,7 +63778,7 @@ If there is a card with cost 3 or greater in your pitch zone, Titan’s Fist has
 
     
     defense: 1,
-    functionalText: `**Blade Break** *(If you defend with Rotten Old Buckler, destroy it when the combat chain closes.)*`,
+    functionalText: `**Blade Break**`,
     
     
     
@@ -64066,7 +64039,7 @@ At the beginning of your action phase, destroy Embolden then the next Guardian a
 
     cost: 4,
     defense: 3,
-    functionalText: `While Thump’s {p} is greater than its base {p}, it gains **dominate** and "If this hits a hero, they discard a card." *(The defending hero can't defend Thump with more than 1 card from their hand.)*`,
+    functionalText: `While Thump's {p} is greater than its base {p}, it gains **dominate** and "If this hits a hero, they discard a card."`,
     
     
     
@@ -64113,7 +64086,7 @@ At the beginning of your action phase, destroy Embolden then the next Guardian a
 
     cost: 4,
     defense: 3,
-    functionalText: `While Thump’s {p} is greater than its base {p}, it gains **dominate** and "If this hits a hero, they discard a card." *(The defending hero can't defend Thump with more than 1 card from their hand.)*`,
+    functionalText: `While Thump's {p} is greater than its base {p}, it gains **dominate** and "If this hits a hero, they discard a card."`,
     
     
     
@@ -64166,7 +64139,7 @@ At the beginning of your action phase, destroy Embolden then the next Guardian a
 
     cost: 4,
     defense: 3,
-    functionalText: `While Thump’s {p} is greater than its base {p}, it gains **dominate** and "If this hits a hero, they discard a card." *(The defending hero can't defend Thump with more than 1 card from their hand.)*`,
+    functionalText: `While Thump's {p} is greater than its base {p}, it gains **dominate** and "If this hits a hero, they discard a card."`,
     
     
     
@@ -64223,7 +64196,7 @@ At the beginning of your action phase, destroy Embolden then the next Guardian a
 
 If New Horizon is destroyed, destroy all cards in your arsenal.
 
-**Blade Break** *(If you defend with New Horizon, destroy it when the combat chain closes.)*`,
+**Blade Break**`,
     
     
     
@@ -64366,7 +64339,7 @@ If New Horizon is destroyed, destroy all cards in your arsenal.
       set: Release.TalesOfAria,
       
     },],
-    name: "Bolt’n’ Shot",
+    name: "Bolt'n' Shot",
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LXI026","ELE216"],
@@ -64378,9 +64351,7 @@ If New Horizon is destroyed, destroy all cards in your arsenal.
 
     cost: 0,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-If Bolt’n’ Shot's {p} is greater than its base {p}, it has **go again** and "If this hits, **reload.**" *(If you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.)*`,
+    functionalText: `If Bolt'n' Shot's {p} is greater than its base {p}, it has **go again** and "If this hits, **reload.**"`,
     
     
     
@@ -64415,7 +64386,7 @@ If Bolt’n’ Shot's {p} is greater than its base {p}, it has **go again** and 
       set: Release.TalesOfAria,
       
     },],
-    name: "Bolt’n’ Shot",
+    name: "Bolt'n' Shot",
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE217"],
@@ -64427,9 +64398,7 @@ If Bolt’n’ Shot's {p} is greater than its base {p}, it has **go again** and 
 
     cost: 0,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-If Bolt’n’ Shot's {p} is greater than its base {p}, it has **go again** and "If this hits, **reload.**" *(If you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.)*`,
+    functionalText: `If Bolt'n' Shot's {p} is greater than its base {p}, it has **go again** and "If this hits, **reload.**"`,
     
     
     
@@ -64464,7 +64433,7 @@ If Bolt’n’ Shot's {p} is greater than its base {p}, it has **go again** and 
       set: Release.TalesOfAria,
       
     },],
-    name: "Bolt’n’ Shot",
+    name: "Bolt'n' Shot",
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["ELE218"],
@@ -64476,9 +64445,7 @@ If Bolt’n’ Shot's {p} is greater than its base {p}, it has **go again** and 
 
     cost: 0,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-If Bolt’n’ Shot's {p} is greater than its base {p}, it has **go again** and "If this hits, **reload.**" *(If you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.)*`,
+    functionalText: `If Bolt'n' Shot's {p} is greater than its base {p}, it has **go again** and "If this hits, **reload.**"`,
     
     
     
@@ -64533,7 +64500,7 @@ If Bolt’n’ Shot's {p} is greater than its base {p}, it has **go again** and 
     defense: 2,
     functionalText: `Your next arrow attack this turn gains +4{p}.
 
-**Reload** *(If you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.)*
+**Reload**
 
 **Go again**`,
     
@@ -64584,7 +64551,7 @@ If Bolt’n’ Shot's {p} is greater than its base {p}, it has **go again** and 
     defense: 2,
     functionalText: `Your next arrow attack this turn gains +3{p}.
 
-**Reload** *(If you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.)*
+**Reload**
 
 **Go again**`,
     
@@ -64635,7 +64602,7 @@ If Bolt’n’ Shot's {p} is greater than its base {p}, it has **go again** and 
     defense: 2,
     functionalText: `Your next arrow attack this turn gains +2{p}.
 
-**Reload** *(If you have no cards in your arsenal, you may put a card from your hand face down into your arsenal.)*
+**Reload**
 
 **Go again**`,
     
@@ -64687,8 +64654,8 @@ If Bolt’n’ Shot's {p} is greater than its base {p}, it has **go again** and 
     name: "Rosetta Thorn",
     rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["LGS068","BRI004","ELE222"],
-    sets: [Release.Promos,Release.BriarBlitzDeck,Release.TalesOfAria],
+    setIdentifiers: ["FAB099","LGS068","BRI004","ELE222"],
+    sets: [Release.Promos,Release.Promos,Release.BriarBlitzDeck,Release.TalesOfAria],
     specialImageName: "ELE222.width-450",
     subtypes: [Subtype.Sword,Subtype.TwoHanded],
     types: [Type.Weapon],
@@ -64806,7 +64773,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
 
 At the beginning of your end phase, destroy Spellbound Creepers unless you have dealt arcane damage equal to or greater than the number of bind counters on Spellbound Creepers.
 
-**Blade Break** *(If you defend with Spellbound Creepers, destroy it when the combat chain closes.)*`,
+**Blade Break**`,
     
     
     
@@ -64847,7 +64814,7 @@ At the beginning of your end phase, destroy Spellbound Creepers unless you have 
       set: Release.TalesOfAria,
       
     },],
-    name: "Sutcliffe’s Suede Hides",
+    name: "Sutcliffe's Suede Hides",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BRI008","ELE225"],
@@ -64859,7 +64826,7 @@ At the beginning of your end phase, destroy Spellbound Creepers unless you have 
 
     
     defense: 0,
-    functionalText: `**Attack Reaction** - {r}, destroy Sutcliffe's Suede Hides: Target attack action card gains **go again.** Activate this ability only if you have played a 'non-attack' action card this turn.`,
+    functionalText: `**Attack Reaction** - {r}, destroy Sutcliffe's Suede Hides: Target attack action card gains **go again**. Activate this ability only if you have played a 'non-attack' action card this turn.`,
     
     
     
@@ -64908,7 +64875,7 @@ At the beginning of your end phase, destroy Spellbound Creepers unless you have 
     defense: 2,
     functionalText: `**Go again**
 
-Attack action cards you control gain “When you attack with this, deal 1 arcane damage to target hero.”
+Attack action cards you control gain "When you attack with this, deal 1 arcane damage to target hero."
 
 At the beginning of your end phase, destroy Sting of Sorcery.`,
     
@@ -65233,7 +65200,7 @@ If you have dealt arcane damage this turn, Sigil of Suffering gains +1{d}.`,
       set: Release.TalesOfAria,
       
     },],
-    name: "Ragamuffin’s Hat",
+    name: "Ragamuffin's Hat",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["ELE233"],
@@ -65245,7 +65212,7 @@ If you have dealt arcane damage this turn, Sigil of Suffering gains +1{d}.`,
 
     
     defense: 0,
-    functionalText: `**Instant** - Destroy Ragamuffin’s Hat: Draw a card then put a card from your hand on the top or bottom of your deck. Activate this ability only if you have 1 card in hand.`,
+    functionalText: `**Instant** - Destroy Ragamuffin's Hat: Draw a card then put a card from your hand on the top or bottom of your deck. Activate this ability only if you have 1 card in hand.`,
     
     
     
@@ -65439,7 +65406,7 @@ If you have dealt arcane damage this turn, Sigil of Suffering gains +1{d}.`,
 
     
     
-    functionalText: `**Legendary** (You may only have 1 Grandeur of Valahai in your deck.)
+    functionalText: `**Legendary**
 
 When you pitch Grandeur of Valahai, create a Seismic Surge token.`,
     
@@ -65486,7 +65453,7 @@ When you pitch Grandeur of Valahai, create a Seismic Surge token.`,
 
 Whenever you roll a 1 on a die, destroy Skull Crushers.
 
-**Battleworn** *(If you defend with Skull Crushers, put a -1{d} counter on it when the combat chain closes.)*`,
+**Battleworn**`,
     
     
     
@@ -65568,7 +65535,7 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
 
     cost: 0,
     defense: 3,
-    functionalText: `**Kayo Specialization** *(You may only have Ready to Roll in your deck if your hero is Kayo.)*
+    functionalText: `**Kayo Specialization**
 
 If you would roll 1 or more dice this turn, instead roll that many dice plus 1 and ignore the lowest roll.
 
@@ -65656,7 +65623,7 @@ If you would roll 1 or more dice this turn, instead roll that many dice plus 1 a
 
     cost: 0,
     defense: 3,
-    functionalText: `**Intimidate** *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owners hand.)*
+    functionalText: `**Intimidate**
 
 If you have rolled a 4, 5, or 6 on a die this turn, instead **intimidate** twice.
 
@@ -65701,7 +65668,7 @@ If you have rolled a 4, 5, or 6 on a die this turn, instead **intimidate** twice
 
     cost: 0,
     defense: 3,
-    functionalText: `**Intimidate** *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owners hand.)*
+    functionalText: `**Intimidate**
 
 If you have rolled a 5 or 6 on a die this turn, instead **intimidate** twice.
 
@@ -65746,7 +65713,7 @@ If you have rolled a 5 or 6 on a die this turn, instead **intimidate** twice.
 
     cost: 0,
     defense: 3,
-    functionalText: `**Intimidate** *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owners hand.)*
+    functionalText: `**Intimidate**
 
 If you have rolled a 6 on a die this turn, instead **intimidate** twice.
 
@@ -66184,9 +66151,9 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
 
     
     
-    functionalText: `**Essence of Earth, Ice, and Lightning** *(You may have Earth, Ice, and Lightning cards in your deck.)*
+    functionalText: `**Essence of Earth, Ice, and Lightning**
 
-At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card from your hand. If you do, the next attack action card with cost 3 or greater you play this turn gains +2{p}, **dominate**, and **go again.**`,
+At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card from your hand. If you do, the next attack action card with cost 3 or greater you play this turn gains +2{p}, **dominate**, and **go again**.`,
     
     hero: Hero.Bravo,
     intellect: 4,
@@ -66331,7 +66298,7 @@ At the start of your turn, if you control 3 or more Seismic Surge tokens, cards 
     defense: 2,
     functionalText: `Whenever you draw a card from the effect of an action card, create a Seismic Surge token for each card drawn this way.
 
-**Temper** *(If you defend with Earthlore Bounty, put a -1{d} counter on it when the combat chain closes then destroy it if it has 0{d}.)*`,
+**Temper**`,
     
     
     
@@ -66378,7 +66345,7 @@ At the start of your turn, if you control 3 or more Seismic Surge tokens, cards 
 
     cost: 10,
     defense: 3,
-    functionalText: `**Heave 3** *(At the beginning of your end phase, if Pulverize is in your hand and you have an empty arsenal zone, you may pay {r}{r}{r} and put Pulverize face up into your arsenal. If you do, create 3 Seismic Surge tokens.)*
+    functionalText: `**Heave 3**
 
 If Pulverize hits a hero, their first attack during their next turn has -4{p}.`,
     
@@ -66466,7 +66433,7 @@ If Pulverize hits a hero, their first attack during their next turn has -4{p}.`,
     defense: 3,
     functionalText: `When Nerves of Steel enters the arena, remove a -1{d} counter from a chest equipment you control.
 
-**Battleworn** and **temper** on equipment you control doesn’t trigger if it defends an attack with 2 or less {p}. *(***Battleworn*** and ***temper*** trigger when the combat chain closes.)*
+**Battleworn** and **temper** on equipment you control doesn't trigger if it defends an attack with 2 or less {p}.
 
 When your hero is dealt damage, destroy Nerves of Steel.`,
     
@@ -66515,7 +66482,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
 
     cost: 6,
     defense: 3,
-    functionalText: `**Heave 3** *(At the beginning of your end phase, if Thunder Quake is in your hand and you have an empty arsenal zone, you may pay {r}{r}{r} and put Thunder Quake face up into your arsenal. If you do, create 3 Seismic Surge tokens.)*`,
+    functionalText: `**Heave 3**`,
     
     
     
@@ -66562,7 +66529,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
 
     cost: 6,
     defense: 3,
-    functionalText: `**Heave 3** *(At the beginning of your end phase, if Thunder Quake is in your hand and you have an empty arsenal zone, you may pay {r}{r}{r} and put Thunder Quake face up into your arsenal. If you do, create 3 Seismic Surge tokens.)*`,
+    functionalText: `**Heave 3**`,
     
     
     
@@ -66609,7 +66576,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
 
     cost: 6,
     defense: 3,
-    functionalText: `**Heave 3** *(At the beginning of your end phase, if Thunder Quake is in your hand and you have an empty arsenal zone, you may pay {r}{r}{r} and put Thunder Quake face up into your arsenal. If you do, create 3 Seismic Surge tokens.)*`,
+    functionalText: `**Heave 3**`,
     
     
     
@@ -66656,7 +66623,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
 
     cost: 7,
     defense: 3,
-    functionalText: `**Dominate** *(The defending hero can't defend Macho Grande with more than 1 card from their hand.)*`,
+    functionalText: `**Dominate**`,
     
     
     
@@ -66703,7 +66670,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
 
     cost: 7,
     defense: 3,
-    functionalText: `**Dominate** *(The defending hero can't defend Macho Grande with more than 1 card from their hand.)*`,
+    functionalText: `**Dominate**`,
     
     
     
@@ -66750,7 +66717,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
 
     cost: 7,
     defense: 3,
-    functionalText: `**Dominate** *(The defending hero can't defend Macho Grande with more than 1 card from their hand.)*`,
+    functionalText: `**Dominate**`,
     
     
     
@@ -67045,7 +67012,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
     defense: 2,
     functionalText: `When an attack action card you control hits, you may destroy Mask of the Pouncing Lynx. If you do, search your deck for an attack action card with 2 or less {p}, banish it, then shuffle. You may play it this turn.
 
-**Blade Break** *(If you defend with Mask of the Pouncing Lynx, destroy it when the combat chain closes.)*`,
+**Blade Break**`,
     
     
     
@@ -67127,7 +67094,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
 
     cost: 0,
     defense: 3,
-    functionalText: `**Benji Specialization** *(You may only have Spring Tidings in your deck if your hero is Benji.)*
+    functionalText: `**Benji Specialization**
 
 When Spring Tidings hits, draw a card for each other attack action card with 2 or less base{p} you control on the combat chain.
 
@@ -67366,7 +67333,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
 
     cost: 0,
     defense: 2,
-    functionalText: `When Ride the Tailwind hits, the next attack action card with 2 or less base {p} you play this combat chain gains **go again.**
+    functionalText: `When Ride the Tailwind hits, the next attack action card with 2 or less base {p} you play this combat chain gains **go again**.
 
 **Go again**`,
     
@@ -67409,7 +67376,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
 
     cost: 0,
     defense: 2,
-    functionalText: `When Ride the Tailwind hits, the next attack action card with 2 or less base {p} you play this combat chain gains **go again.**
+    functionalText: `When Ride the Tailwind hits, the next attack action card with 2 or less base {p} you play this combat chain gains **go again**.
 
 **Go again**`,
     
@@ -67452,7 +67419,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
 
     cost: 0,
     defense: 2,
-    functionalText: `When Ride the Tailwind hits, the next attack action card with 2 or less base {p} you play this combat chain gains **go again.**
+    functionalText: `When Ride the Tailwind hits, the next attack action card with 2 or less base {p} you play this combat chain gains **go again**.
 
 **Go again**`,
     
@@ -67497,7 +67464,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
     defense: 2,
     functionalText: `Choose 1:
 
-- Twin Twisters gains "When this hits, your next attack this combat chain gains +1{p}.”
+- Twin Twisters gains "When this hits, your next attack this combat chain gains +1{p}."
 - Twin Twisters gains +1{p}.
 
 **Go again**`,
@@ -67543,7 +67510,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
     defense: 2,
     functionalText: `Choose 1:
 
-- Twin Twisters gains "When this hits, your next attack this combat chain gains +1{p}.”
+- Twin Twisters gains "When this hits, your next attack this combat chain gains +1{p}."
 - Twin Twisters gains +1{p}.
 
 **Go again**`,
@@ -67589,7 +67556,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
     defense: 2,
     functionalText: `Choose 1:
 
-- Twin Twisters gains "When this hits, your next attack this combat chain gains +1{p}.”
+- Twin Twisters gains "When this hits, your next attack this combat chain gains +1{p}."
 - Twin Twisters gains +1{p}.
 
 **Go again**`,
@@ -67758,7 +67725,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
     defense: 1,
     functionalText: `**Attack Reaction** - {r}, destroy Helm of Sharp Eye: Banish the top card of your deck. You may play it this combat chain. Activate this ability only if you control a weapon with {p} greater than twice it's base {p}.
 
-**Battleworn** *(If you defend with Helm of Sharp Eye, put a -1{d} counter on it when the combat chain closes.)*`,
+**Battleworn**`,
     
     
     
@@ -67842,10 +67809,10 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
     defense: 3,
     functionalText: `**Kassai Specialization**
 
-As an additional cost to play Blood on Her Hands, destroy any number of Copper you control. For each Copper destroyed this way choose a mode. You may choose each mode twice.
+As an additional cost to play Blood on Her Hands, destroy any number of Copper you control. For each Copper destroyed this way choose a mode. You may choose each mode twice;
 
-- Target 1H weapon gains +1{p} this turn while attacking this turn.
-- Target 1H weapon gains **go again** this turn while attacking this turn.
+- Target 1H weapon has +1{p}  while attacking this turn.
+- Target 1H weapon has **go again** while attacking this turn.
 - Target 1H weapon may attack twice this turn.
 
 **Go again**`,
@@ -68096,7 +68063,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
 
     cost: 1,
     defense: 3,
-    functionalText: `Target 1H weapon attack gains **go again.**
+    functionalText: `Target 1H weapon attack gains **go again**.
 
 Your next weapon attack this turn gains +3{p}.`,
     
@@ -68139,7 +68106,7 @@ Your next weapon attack this turn gains +3{p}.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `Target 1H weapon attack gains **go again.**
+    functionalText: `Target 1H weapon attack gains **go again**.
 
 Your next weapon attack this turn gains +2{p}.`,
     
@@ -68182,7 +68149,7 @@ Your next weapon attack this turn gains +2{p}.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `Target 1H weapon attack gains **go again.**
+    functionalText: `Target 1H weapon attack gains **go again**.
 
 Your next weapon attack this turn gains +1{p}.`,
     
@@ -68546,7 +68513,7 @@ Whenever your hero would be dealt exactly 1 damage, prevent it.`,
 
     cost: 2,
     
-    functionalText: `**Data Doll Specialization** *(You may only have Micro-processor in your deck if your hero is Data Doll.)*
+    functionalText: `**Data Doll Specialization**
 
 **Once Per Turn Action** - 0: **Opt 1**
 
@@ -68685,7 +68652,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     defense: 3,
     functionalText: `If you control a card on the combat chain that was boosted, the defending hero must defend T-Bone with an equipment they control if able.
 
-**Boost** *(As an additional cost to play T-Bone, you may banish the top card of your deck. If it's a Mechanologist card, T-Bone gains ***go again.***)*`,
+**Boost**`,
     
     
     
@@ -68728,7 +68695,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     defense: 3,
     functionalText: `If you control a card on the combat chain that was boosted, the defending hero must defend T-Bone with an equipment they control if able.
 
-**Boost** *(As an additional cost to play T-Bone, you may banish the top card of your deck. If it's a Mechanologist card, T-Bone gains ***go again.***)*`,
+**Boost**`,
     
     
     
@@ -68771,7 +68738,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     defense: 3,
     functionalText: `If you control a card on the combat chain that was boosted, the defending hero must defend T-Bone with an equipment they control if able.
 
-**Boost** *(As an additional cost to play T-Bone, you may banish the top card of your deck. If it's a Mechanologist card, T-Bone gains ***go again.***)*`,
+**Boost**`,
     
     
     
@@ -68812,7 +68779,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
 
     cost: 2,
     defense: 3,
-    functionalText: `If you have **boosted** this combat chain, Payload gains **dominate.** *(The defending hero can't defend Payload with more than 1 card from their hand.)*`,
+    functionalText: `If you have **boosted** this combat chain, Payload gains **dominate**.`,
     
     
     
@@ -68853,7 +68820,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
 
     cost: 2,
     defense: 3,
-    functionalText: `If you have **boosted** this combat chain, Payload gains **dominate.** *(The defending hero can't defend Payload with more than 1 card from their hand.)*`,
+    functionalText: `If you have **boosted** this combat chain, Payload gains **dominate**.`,
     
     
     
@@ -68894,7 +68861,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
 
     cost: 2,
     defense: 3,
-    functionalText: `If you have **boosted** this combat chain, Payload gains **dominate.** *(The defending hero can't defend Payload with more than 1 card from their hand.)*`,
+    functionalText: `If you have **boosted** this combat chain, Payload gains **dominate**.`,
     
     
     
@@ -68935,9 +68902,9 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
 
     cost: 2,
     defense: 3,
-    functionalText: `When you attack with Zoom in, **opt X**, where X is the number of times you have **boosted** this combat chain. *(Look at the top X cards of your deck. You may put them on the top and/or bottom in any order.)*
+    functionalText: `When you attack with Zoom in, **opt X**, where X is the number of times you have **boosted** this combat chain.
 
-**Boost** *(As an additional cost to play Zoom In, you may banish the top card of your deck. If it's a Mechanologist card, Zoom In gains ***go again.***)*`,
+**Boost**`,
     
     
     
@@ -68978,9 +68945,9 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
 
     cost: 2,
     defense: 3,
-    functionalText: `When you attack with Zoom in, **opt X**, where X is the number of times you have **boosted** this combat chain. *(Look at the top X cards of your deck. You may put them on the top and/or bottom in any order.)*
+    functionalText: `When you attack with Zoom in, **opt X**, where X is the number of times you have **boosted** this combat chain.
 
-**Boost** *(As an additional cost to play Zoom In, you may banish the top card of your deck. If it's a Mechanologist card, Zoom In gains ***go again.***)*`,
+**Boost**`,
     
     
     
@@ -69021,9 +68988,9 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
 
     cost: 2,
     defense: 3,
-    functionalText: `When you attack with Zoom in, **opt X**, where X is the number of times you have **boosted** this combat chain. *(Look at the top X cards of your deck. You may put them on the top and/or bottom in any order.)*
+    functionalText: `When you attack with Zoom in, **opt X**, where X is the number of times you have **boosted** this combat chain.
 
-**Boost** *(As an additional cost to play Zoom In, you may banish the top card of your deck. If it's a Mechanologist card, Zoom In gains ***go again.***)*`,
+**Boost**`,
     
     
     
@@ -69254,7 +69221,7 @@ If you have **boosted** this turn, put Rotary Ram on the bottom of your deck.
     defense: 2,
     functionalText: `At the start of each other hero's turn, if they have less {h} than you, they may draw a card. If they do, you create a Silver token.
 
-**Blade Break** *(If you defend with Silver Paws, destroy it when the combat chain closes.)*`,
+**Blade Break**`,
     
     
     
@@ -69338,9 +69305,7 @@ Arrows you control have "Defense reactions can't be played from hand this chain 
 
     cost: 2,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-If Battering Bolt hits a hero, they reveal their hand and discard all cards other than action cards. Then they lose 1{h} for each card discarded this way.`,
+    functionalText: `If Battering Bolt hits a hero, they reveal their hand and discard all cards other than action cards. Then they lose 1{h} for each card discarded this way.`,
     
     
     
@@ -69612,9 +69577,7 @@ If Battering Bolt hits a hero, they reveal their hand and discard all cards othe
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-When Fatigue Shot hits a hero, the base {p} of the first attack action card they play during their next turn is halved, rounded up. *(An attack with 5 base {p} becomes 3{p}.)*`,
+    functionalText: `When Fatigue Shot hits a hero, the base {p} of the first attack action card they play during their next turn is halved, rounded up.`,
     
     
     
@@ -69655,9 +69618,7 @@ When Fatigue Shot hits a hero, the base {p} of the first attack action card they
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-When Fatigue Shot hits a hero, the base {p} of the first attack action card they play during their next turn is halved, rounded up. *(An attack with 5 base {p} becomes 3{p}.)*`,
+    functionalText: `When Fatigue Shot hits a hero, the base {p} of the first attack action card they play during their next turn is halved, rounded up.`,
     
     
     
@@ -69698,9 +69659,7 @@ When Fatigue Shot hits a hero, the base {p} of the first attack action card they
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-When Fatigue Shot hits a hero, the base {p} of the first attack action card they play during their next turn is halved, rounded up. *(An attack with 5 base {p} becomes 3{p}.)*`,
+    functionalText: `When Fatigue Shot hits a hero, the base {p} of the first attack action card they play during their next turn is halved, rounded up.`,
     
     
     
@@ -69741,9 +69700,7 @@ When Fatigue Shot hits a hero, the base {p} of the first attack action card they
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-When Timidity Point hits a hero, attacks they control lose and can't gain **dominate** during their next turn.`,
+    functionalText: `When Timidity Point hits a hero, attacks they control lose and can't gain **dominate** during their next turn.`,
     
     
     
@@ -69784,9 +69741,7 @@ When Timidity Point hits a hero, attacks they control lose and can't gain **domi
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-When Timidity Point hits a hero, attacks they control lose and can't gain **dominate** during their next turn.`,
+    functionalText: `When Timidity Point hits a hero, attacks they control lose and can't gain **dominate** during their next turn.`,
     
     
     
@@ -69827,9 +69782,7 @@ When Timidity Point hits a hero, attacks they control lose and can't gain **domi
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-When Timidity Point hits a hero, attacks they control lose and can't gain **dominate** during their next turn.`,
+    functionalText: `When Timidity Point hits a hero, attacks they control lose and can't gain **dominate** during their next turn.`,
     
     
     
@@ -69872,7 +69825,7 @@ When Timidity Point hits a hero, attacks they control lose and can't gain **domi
     defense: 2,
     functionalText: `Your next arrow attack this turn gains +3{p}.
 
-**Opt 1** *(Look at the top card of your deck. You may put it on the bottom.)*
+**Opt 1**
 
 **Go again**`,
     
@@ -69917,7 +69870,7 @@ When Timidity Point hits a hero, attacks they control lose and can't gain **domi
     defense: 2,
     functionalText: `Your next arrow attack this turn gains +2{p}.
 
-**Opt 1** *(Look at the top card of your deck. You may put it on the bottom.)*
+**Opt 1**
 
 **Go again**`,
     
@@ -69962,7 +69915,7 @@ When Timidity Point hits a hero, attacks they control lose and can't gain **domi
     defense: 2,
     functionalText: `Your next arrow attack this turn gains +1{p}.
 
-**Opt 1** *(Look at the top card of your deck. You may put it on the bottom.)*
+**Opt 1**
 
 **Go again**`,
     
@@ -70007,7 +69960,7 @@ When Timidity Point hits a hero, attacks they control lose and can't gain **domi
     defense: 0,
     functionalText: `**Action** - Destroy Vexing Quillhand: Create 2 Runechant tokens. **Go again**
 
-**Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} instead. If you do, prevent 1 arcane damage that source would deal.)*`,
+**Arcane Barrier 1**`,
     
     
     
@@ -70089,7 +70042,7 @@ When Timidity Point hits a hero, attacks they control lose and can't gain **domi
 
     cost: 0,
     defense: 3,
-    functionalText: `If you have played or created 1 or more auras this turn, Swarming Gloomveil gains **go again.** If you have played and/or created 2 or more, it gains +1{p}. If you have played and/or created 3 or more, it gains "When this hits a hero, they can't prevent arcane damage from sources you control this turn."`,
+    functionalText: `If you have played or created 1 or more auras this turn, Swarming Gloomveil gains **go again**. If you have played and/or created 2 or more, it gains +1{p}. If you have played and/or created 3 or more, it gains "When this hits a hero, they can't prevent arcane damage from sources you control this turn."`,
     
     
     
@@ -70328,7 +70281,7 @@ At the beginning of your action phase, remove a verse counter from Runeblood Inc
 
     cost: 2,
     defense: 3,
-    functionalText: `If you have played or created an aura this turn, Drowning Dire gains **dominate.** *(The defending hero can't defend Drowning Dire with more than 1 card from their hand.)*
+    functionalText: `If you have played or created an aura this turn, Drowning Dire gains **dominate**.
 
 When Drowning Dire hits, you may put a 'non-attack' action card from your graveyard on the bottom of your deck.`,
     
@@ -70371,7 +70324,7 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
 
     cost: 2,
     defense: 3,
-    functionalText: `If you have played or created an aura this turn, Drowning Dire gains **dominate.** *(The defending hero can't defend Drowning Dire with more than 1 card from their hand.)*
+    functionalText: `If you have played or created an aura this turn, Drowning Dire gains **dominate**.
 
 When Drowning Dire hits, you may put a 'non-attack' action card from your graveyard on the bottom of your deck.`,
     
@@ -70414,7 +70367,7 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
 
     cost: 2,
     defense: 3,
-    functionalText: `If you have played or created an aura this turn, Drowning Dire gains **dominate.** *(The defending hero can't defend Drowning Dire with more than 1 card from their hand.)*
+    functionalText: `If you have played or created an aura this turn, Drowning Dire gains **dominate**.
 
 When Drowning Dire hits, you may put a 'non-attack' action card from your graveyard on the bottom of your deck.`,
     
@@ -70727,7 +70680,7 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
 
     
     
-    functionalText: `**Essence of Ice** *(You may have Ice cards in your deck.)*
+    functionalText: `**Essence of Ice**
 
 If it's not your turn, you may play blue 'non-attack' action cards from your arsenal as though they were an instant.
 
@@ -70760,7 +70713,7 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
       set: Release.Everfest,
       
     },],
-    name: "Kraken’s Aethervein",
+    name: "Kraken's Aethervein",
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR121"],
@@ -70950,7 +70903,7 @@ If Aether Wildfire is played during an opponents turn, until end of turn, action
 
     cost: 2,
     defense: 3,
-    functionalText: `Deal 4 arcane damage to target hero. If Emeritus Scolding is played during an opponents turn, instead deal 6 arcane damage to target hero.`,
+    functionalText: `Deal 4 arcane damage to target hero. If Emeritus Scolding is played during an opponents turn, instead deal 6 arcane damage to them.`,
     
     
     
@@ -70997,7 +70950,7 @@ If Aether Wildfire is played during an opponents turn, until end of turn, action
 
     cost: 2,
     defense: 3,
-    functionalText: `Deal 3 arcane damage to target hero. If Emeritus Scolding is played during an opponents turn, instead deal 5 arcane damage to target hero.`,
+    functionalText: `Deal 3 arcane damage to target hero. If Emeritus Scolding is played during an opponents turn, instead deal 5 arcane damage to them.`,
     
     
     
@@ -71044,7 +70997,7 @@ If Aether Wildfire is played during an opponents turn, until end of turn, action
 
     cost: 2,
     defense: 3,
-    functionalText: `Deal 2 arcane damage to target hero. If Emeritus Scolding is played during an opponents turn, instead deal 4 arcane damage to target hero.`,
+    functionalText: `Deal 2 arcane damage to target hero. If Emeritus Scolding is played during an opponents turn, instead deal 4 arcane damage to them.`,
     
     
     
@@ -71331,7 +71284,7 @@ At the beginning of your action phase, destroy Pyroglyphic Protection.`,
       set: Release.Everfest,
       
     },],
-    name: "Timekeeper’s Whim",
+    name: "Timekeeper's Whim",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR134"],
@@ -71345,7 +71298,7 @@ At the beginning of your action phase, destroy Pyroglyphic Protection.`,
     defense: 3,
     functionalText: `Deal 5 arcane damage to target hero.
 
-If Timekeeper's Whim is played during an opponent's turn, put it on the bottom of its owner’s deck.`,
+If Timekeeper's Whim is played during an opponent's turn, put it on the bottom of its owner's deck.`,
     
     
     
@@ -71374,7 +71327,7 @@ If Timekeeper's Whim is played during an opponent's turn, put it on the bottom o
       set: Release.Everfest,
       
     },],
-    name: "Timekeeper’s Whim",
+    name: "Timekeeper's Whim",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR135"],
@@ -71388,7 +71341,7 @@ If Timekeeper's Whim is played during an opponent's turn, put it on the bottom o
     defense: 3,
     functionalText: `Deal 4 arcane damage to target hero.
 
-If Timekeeper's Whim is played during an opponent's turn, put it on the bottom of its owner’s deck.`,
+If Timekeeper's Whim is played during an opponent's turn, put it on the bottom of its owner's deck.`,
     
     
     
@@ -71417,7 +71370,7 @@ If Timekeeper's Whim is played during an opponent's turn, put it on the bottom o
       set: Release.Everfest,
       
     },],
-    name: "Timekeeper’s Whim",
+    name: "Timekeeper's Whim",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR136"],
@@ -71431,7 +71384,7 @@ If Timekeeper's Whim is played during an opponent's turn, put it on the bottom o
     defense: 3,
     functionalText: `Deal 3 arcane damage to target hero.
 
-If Timekeeper's Whim is played during an opponent's turn, put it on the bottom of its owner’s deck.`,
+If Timekeeper's Whim is played during an opponent's turn, put it on the bottom of its owner's deck.`,
     
     
     
@@ -71474,7 +71427,7 @@ If Timekeeper's Whim is played during an opponent's turn, put it on the bottom o
     defense: 0,
     functionalText: `**Instant** - Destroy Crown of Reflection: Destroy target Illusionist aura you control. If you do, you may put an Illusionist aura card from your hand into the arena with cost less than or equal the aura destroyed this way. Activate Crown of Reflection only during your action phase.
 
-**Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} instead. If you do, prevent 1 arcane damage that source would deal.)*`,
+**Arcane Barrier 1**`,
     
     
     
@@ -71560,7 +71513,7 @@ Fractal Replication's {d} is equal to the greatest base {d} among Illusionist at
 
     cost: 1,
     defense: 3,
-    functionalText: `**Phantasm** *(When Miraging Metamorph is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Mirror Image and close the combat chain.)*
+    functionalText: `**Phantasm**
 
 When Miraging Metamorph is destroyed, create a token that's a copy of an aura you control.`,
     
@@ -71605,7 +71558,7 @@ When Miraging Metamorph is destroyed, create a token that's a copy of an aura yo
     defense: 2,
     functionalText: `**Once per Turn Effect** - Whenever you attack with an Illusionist aura weapon, put a +1{p} counter on it.
 
-**Spectra** *(Shimmers of Silver can be attacked. When Shimmers of Silver becomes the target of an attack, destroy it and close the combat chain. The attack does not resolve.)*`,
+**Spectra**`,
     
     
     
@@ -71654,7 +71607,7 @@ When Miraging Metamorph is destroyed, create a token that's a copy of an aura yo
     defense: 2,
     functionalText: `**Once per Turn Effect** - Whenever Haze Bending or another Illusionist non-token aura you control is destroyed, create a Spectral Shield token.
 
-**Spectra** *(Dispersion Haze can be attacked. When Dispersion Haze becomes the target of an attack, destroy it and close the combat chain. The attack does not resolve.)*`,
+**Spectra**`,
     
     
     
@@ -71701,9 +71654,9 @@ When Miraging Metamorph is destroyed, create a token that's a copy of an aura yo
 
     cost: 0,
     defense: 2,
-    functionalText: `Your first Illusionist attack each turn loses and can't gain **phantasm.**
+    functionalText: `Your first Illusionist attack each turn loses and can't gain **phantasm**.
 
-**Spectra** *(Passing Mirage can be attacked. When Passing Mirage becomes the target of an attack, destroy it and close the combat chain. The attack does not resolve.)*`,
+**Spectra**`,
     
     
     
@@ -71752,7 +71705,7 @@ When Miraging Metamorph is destroyed, create a token that's a copy of an aura yo
     defense: 2,
     functionalText: `The first Illusionist attack action card you play each turn has +2{p}.
 
-**Spectra** *(Piercing Reality can be attacked. When Piercing Reality becomes the target of an attack, destroy it and close the combat chain. The attack does not resolve.)*`,
+**Spectra**`,
     
     
     
@@ -71793,9 +71746,9 @@ When Miraging Metamorph is destroyed, create a token that's a copy of an aura yo
 
     cost: 2,
     defense: 3,
-    functionalText: `**Phantasm** *(If Coalescence Mirage is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Coalescence Mirage and close the combat chain.)*
+    functionalText: `**Phantasm**
 
-When Coalescence Mirage is destroyed, you may put an Illusionist aura card with 0 from your hand into the arena.`,
+When Coalescence Mirage is destroyed, you may put an Illusionist aura card with cost 0 from your hand into the arena.`,
     
     
     
@@ -71836,9 +71789,9 @@ When Coalescence Mirage is destroyed, you may put an Illusionist aura card with 
 
     cost: 2,
     defense: 3,
-    functionalText: `**Phantasm** *(If Coalescence Mirage is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Coalescence Mirage and close the combat chain.)*
+    functionalText: `**Phantasm**
 
-When Coalescence Mirage is destroyed, you may put an Illusionist aura card with 0 from your hand into the arena.`,
+When Coalescence Mirage is destroyed, you may put an Illusionist aura card with cost 0 from your hand into the arena.`,
     
     
     
@@ -71879,9 +71832,9 @@ When Coalescence Mirage is destroyed, you may put an Illusionist aura card with 
 
     cost: 2,
     defense: 3,
-    functionalText: `**Phantasm** *(If Coalescence Mirage is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Coalescence Mirage and close the combat chain.)*
+    functionalText: `**Phantasm**
 
-When Coalescence Mirage is destroyed, you may put an Illusionist aura card with 0 from your hand into the arena.`,
+When Coalescence Mirage is destroyed, you may put an Illusionist aura card with cost 0 from your hand into the arena.`,
     
     
     
@@ -71922,7 +71875,7 @@ When Coalescence Mirage is destroyed, you may put an Illusionist aura card with 
 
     cost: 3,
     defense: 3,
-    functionalText: `**Phantasm** *(If Phantasmal Haze is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Phantasmal Haze and close the combat chain.)*
+    functionalText: `**Phantasm**
 
 When Phantasmal Haze is destroyed, create a Spectral Shield token.`,
     
@@ -71965,7 +71918,7 @@ When Phantasmal Haze is destroyed, create a Spectral Shield token.`,
 
     cost: 3,
     defense: 3,
-    functionalText: `**Phantasm** *(If Phantasmal Haze is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Phantasmal Haze and close the combat chain.)*
+    functionalText: `**Phantasm**
 
 When Phantasmal Haze is destroyed, create a Spectral Shield token.`,
     
@@ -72008,7 +71961,7 @@ When Phantasmal Haze is destroyed, create a Spectral Shield token.`,
 
     cost: 3,
     defense: 3,
-    functionalText: `**Phantasm** *(If Phantasmal Haze is defended by a non-Illusionist attack action card with 6 or more {p}, destroy Phantasmal Haze and close the combat chain.)*
+    functionalText: `**Phantasm**
 
 When Phantasmal Haze is destroyed, create a Spectral Shield token.`,
     
@@ -72180,7 +72133,7 @@ The next attack action card you play this turn is Illusionist in addition to its
 
     
     
-    functionalText: `**Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} instead. If you do, prevent 1 arcane damage that source would deal.)*`,
+    functionalText: `**Arcane Barrier 1**`,
     
     
     
@@ -72221,7 +72174,7 @@ The next attack action card you play this turn is Illusionist in addition to its
 
     cost: 1,
     defense: 3,
-    functionalText: `When Bingo hits a hero, they reveal a card from their hand. If an attack action card is revealed this way, Bingo gains **go again.** If a 'non-attack' action card is revealed this way, draw a card.`,
+    functionalText: `When Bingo hits a hero, they reveal a card from their hand. If an attack action card is revealed this way, Bingo gains **go again**. If a 'non-attack' action card is revealed this way, draw a card.`,
     
     
     
@@ -72385,7 +72338,7 @@ Search your deck for a card with Amulet, Potion, or Talisman in its name, put it
       set: Release.Everfest,
       
     },],
-    name: "This Round’s on Me",
+    name: "This Round's on Me",
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR160"],
@@ -72452,7 +72405,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
 
 - Life of the Party gains "When this hits, gain life 2{h}."
 - Life of the Party gains +2{p}.
-- Life of the Party gains **go again.**`,
+- Life of the Party gains **go again**.`,
     
     
     
@@ -72503,7 +72456,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
 
 - Life of the Party gains "When this hits, gain life 2{h}."
 - Life of the Party gains +2{p}.
-- Life of the Party gains **go again.**`,
+- Life of the Party gains **go again**.`,
     
     
     
@@ -72554,7 +72507,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
 
 - Life of the Party gains "When this hits, gain life 2{h}."
 - Life of the Party gains +2{p}.
-- Life of the Party gains **go again.**`,
+- Life of the Party gains **go again**.`,
     
     
     
@@ -72895,9 +72848,9 @@ Choose a random card from their hand and reveal it. If it's the named card, crea
 
     cost: 0,
     defense: 2,
-    functionalText: `The next time an attack action card hits a hero this turn, you may destroy an item they control with 2 or less{r}
+    functionalText: `The next time an attack action card hits a hero this turn, you may destroy an item they control with cost 2 or less.
 
-If Smashing Good Time is played from arsenal, the next attack action card you play this turn gains +3{p}
+If Smashing Good Time is played from arsenal, the next attack action card you play this turn gains +3{p}.
 
 **Go again**`,
     
@@ -72940,9 +72893,9 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
 
     cost: 0,
     defense: 2,
-    functionalText: `The next time an attack action card hits a hero this turn, you may destroy an item they control with 2 or less{r}
+    functionalText: `The next time an attack action card hits a hero this turn, you may destroy an item they control with cost 2 or less.
 
-If Smashing Good Time is played from arsenal, the next attack action card you play this turn gains +2{p}
+If Smashing Good Time is played from arsenal, the next attack action card you play this turn gains +2{p}.
 
 **Go again**`,
     
@@ -72985,9 +72938,9 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
 
     cost: 0,
     defense: 2,
-    functionalText: `The next time an attack action card hits a hero this turn, you may destroy an item they control with 2 or less{r}
+    functionalText: `The next time an attack action card hits a hero this turn, you may destroy an item they control with cost 2 or less.
 
-If Smashing Good Time is played from arsenal, the next attack action card you play this turn gains +1{p}
+If Smashing Good Time is played from arsenal, the next attack action card you play this turn gains +1{p}.
 
 **Go again**`,
     
@@ -73038,7 +72991,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     
     functionalText: `Play Even Bigger Than That! only if you've dealt {p} this turn.
 
-**Opt 3**, then reveal the top card of your deck. If it has {p} greater than the amount of damage you've dealt this turn, create a Quicken token and draw a card. *(Look at the top 3 cards of your deck. You may put them on the top and/or bottom in any order.)*`,
+**Opt 3**, then reveal the top card of your deck. If it has {p} greater than the amount of damage you've dealt this turn, create a Quicken token and draw a card.`,
     
     
     
@@ -73087,7 +73040,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     
     functionalText: `Play Even Bigger Than That! only if you've dealt {p} this turn.
 
-**Opt 2**, then reveal the top card of your deck. If it has {p} greater than the amount of damage you've dealt this turn, create a Quicken token and draw a card. *(Look at the top 2 cards of your deck. You may put them on the top and/or bottom in any order.)*`,
+**Opt 2**, then reveal the top card of your deck. If it has {p} greater than the amount of damage you've dealt this turn, create a Quicken token and draw a card.`,
     
     
     
@@ -73136,7 +73089,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     
     functionalText: `Play Even Bigger Than That! only if you've dealt {p} this turn.
 
-**Opt 1**, then reveal the top card of your deck. If it has {p} greater than the amount of damage you've dealt this turn, create a Quicken token and draw a card. *(Look at the top card of your deck. You may put it on the bottom.)*`,
+**Opt 1**, then reveal the top card of your deck. If it has {p} greater than the amount of damage you've dealt this turn, create a Quicken token and draw a card.`,
     
     
     
@@ -73435,7 +73388,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
 
     cost: 0,
     
-    functionalText: `**Instant** - Destroy Clarity Potion: **Opt 2.** *(Look at the top 2 cards of your deck. You may put them on the top and/or bottom in any order.)*`,
+    functionalText: `**Instant** - Destroy Clarity Potion: **Opt 2**`,
     
     
     
@@ -73558,7 +73511,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
 
     cost: 0,
     
-    functionalText: `**Instant** - Destroy Potion of Déjà Vu: Put all cards from your pitch zone on top of your deck in any order. *(Opponents don't get to see the order of the cards.)*`,
+    functionalText: `**Instant** - Destroy Potion of Déjà Vu: Put all cards from your pitch zone on top of your deck in any order.`,
     
     
     
@@ -73769,7 +73722,7 @@ When you play a card from your banished zone, destroy Talisman of Cremation and 
     
     functionalText: `**Go again**
 
-When an attack you control gains exactly +1{p} from an effect during the reaction step, destroy Talisman of Featherfoot and the attack gains **go again.**`,
+When an attack you control gains exactly +1{p} from an effect during the reaction step, destroy Talisman of Featherfoot and the attack gains **go again**.`,
     
     
     
@@ -74123,9 +74076,7 @@ The second time you attack with Dawnblade each turn, it gains +1{p} until end of
 
     
     defense: 3,
-    functionalText: `*(You may only have Hala in your deck if your hero is young.)*
-
-While Hala is face down in arsenal, at the start of your turn, you may turn her face up.
+    functionalText: `While Hala is face down in arsenal, at the start of your turn, you may turn her face up.
 
 While Hala is face up in arsenal, whenever a sword attack you control hits, it gains **go again** and put a lesson counter on Hala. Then if there are 2 or more lesson counters on Hala, banish her, search your deck for Glistening Steelblade, put it face up in arsenal, and shuffle.`,
     
@@ -74168,7 +74119,7 @@ While Hala is face up in arsenal, whenever a sword attack you control hits, it g
 
     cost: 1,
     defense: 3,
-    functionalText: `**Dorinthea Specialization** *(You may only have Glistening Steelblade in your deck if your hero is Dorinthea.)*
+    functionalText: `**Dorinthea Specialization**
 
 Your next Dawnblade attack this turn has **go again**.
 
@@ -74587,10 +74538,10 @@ Your next sword attack this turn gains +2{p}.`,
       
     },],
     name: "Bone Vizier",
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["RVD003"],
-    sets: [Release.ClassicBattlesRhinarDorinthea],
+    setIdentifiers: ["FAB106","RVD003"],
+    sets: [Release.Promos,Release.ClassicBattlesRhinarDorinthea],
     specialImageName: "RVD003.width-450",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -74600,7 +74551,7 @@ Your next sword attack this turn gains +2{p}.`,
     defense: 1,
     functionalText: `When Bone Vizier is destroyed, reveal the top card of your deck. If it has 6 or more {p}, put it on top of your deck. Otherwise, put it on the bottom.
 
-**Blade Break** *(When the combat chain closes, if this defended, destroy it.)*`,
+**Blade Break**`,
     
     
     
@@ -74629,7 +74580,7 @@ Your next sword attack this turn gains +2{p}.`,
       set: Release.ClassicBattlesRhinarDorinthea,
       
     },],
-    name: "Chief Ruk’utan",
+    name: "Chief Ruk'utan",
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["RVD007"],
@@ -74641,11 +74592,9 @@ Your next sword attack this turn gains +2{p}.`,
 
     
     defense: 3,
-    functionalText: `*(You may only have Ruk’utan in your deck if your hero is young.)*
+    functionalText: `While Ruk'utan is face down in arsenal, at the start of your turn, you may turn him face up.
 
-While Ruk’utan is face down in arsenal, at the start of your turn, you may turn him face up.
-
-While Ruk’utan is face up in arsenal, whenever you play a card with 6 or more {p}, **intimidate**, and put a lesson counter on him. Then if there are 2 or more lesson counters on Ruk’utan, banish him, search your deck for Alpha Rampage, put it face up in arsenal, and shuffle.`,
+While Ruk'utan is face up in arsenal, whenever you play a card with 6 or more {p}, **intimidate**, and put a lesson counter on him. Then if there are 2 or more lesson counters on Ruk'utan, banish him, search your deck for Alpha Rampage, put it face up in arsenal, and shuffle.`,
     
     
     
@@ -74850,7 +74799,7 @@ While Ruk’utan is face up in arsenal, whenever you play a card with 6 or more 
 
     cost: 0,
     defense: 3,
-    functionalText: `**Intimidate** *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return it to its owner’s hand.)*
+    functionalText: `**Intimidate**
 
 **Go again**`,
     
@@ -74893,7 +74842,7 @@ While Ruk’utan is face up in arsenal, whenever you play a card with 6 or more 
 
     cost: 0,
     defense: 2,
-    functionalText: `*(Defense reactions can be played from hand or arsenal to defend.)*`,
+    
     
     
     
@@ -74910,7 +74859,8 @@ While Ruk’utan is face up in arsenal, whenever you play a card with 6 or more 
     
     
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Steve Argyle"],
     cardIdentifier: "blood-of-the-dracai-red",
     classes: [Class.NotClassed],
@@ -74934,7 +74884,7 @@ While Ruk’utan is face up in arsenal, whenever you play a card with 6 or more 
 
     
     
-    functionalText: `**Legendary** *(You may only have 1 Blood of the Dracai in your deck.)*
+    functionalText: `**Legendary**
 
 When you pitch Blood of the Dracai, the next 3 Draconic cards you play this turn cost {r} less.`,
     
@@ -74953,8 +74903,7 @@ When you pitch Blood of the Dracai, the next 3 Draconic cards you play this turn
     
     talents: [Talent.Draconic],
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Kate Fox"],
     cardIdentifier: "dromai-ash-artist",
     classes: [Class.Illusionist],
@@ -74990,9 +74939,9 @@ When you pitch Blood of the Dracai, the next 3 Draconic cards you play this turn
 
     
     
-    functionalText: `Whenever you pitch a red card, create an Ash Token. *(A red card is a card with a red color strip.)*
+    functionalText: `Whenever you pitch a red card, create an Ash Token.
 
-If you’ve played a red card this turn, dragons you control have **go again** while attacking. *(If an attacking dragon dies before chain link resolution, you don’t go again.)*`,
+If you've played a red card this turn, dragons you control have **go again** while attacking.`,
     
     hero: Hero.Dromai,
     intellect: 4,
@@ -75045,9 +74994,9 @@ If you’ve played a red card this turn, dragons you control have **go again** w
 
     
     
-    functionalText: `Whenever you pitch a red card, create an Ash Token. *(A red card is a card with a red color strip.)*
+    functionalText: `Whenever you pitch a red card, create an Ash Token.
 
-If you’ve played a red card this turn, dragons you control have **go again** while attacking. *(If an attacking dragon dies before chain link resolution, you don’t go again.)*`,
+If you've played a red card this turn, dragons you control have **go again** while attacking.`,
     
     hero: Hero.Dromai,
     intellect: 4,
@@ -75100,9 +75049,7 @@ If you’ve played a red card this turn, dragons you control have **go again** w
 
     
     
-    functionalText: `Dragon allies you control have “**Once per Turn Action** - 0: **Attack**”.
-
-*(Allies can be attacked and can’t be defended by the controlling hero. They die when they have 0{h}. At end of turn, allies life totals are reset.)*`,
+    functionalText: `Dragon allies you control have "**Once per Turn Action** - 0: **Attack**".`,
     
     
     
@@ -75155,9 +75102,9 @@ If you’ve played a red card this turn, dragons you control have **go again** w
 
     
     defense: 0,
-    functionalText: `**Instant** - Destroy Silken Form: **Transform** target ash you control into an Aether Ashwing. *(Create an Aether Ashwing token and put the ash under it.)*
+    functionalText: `**Instant** - Destroy Silken Form: **Transform** target ash you control into an Aether Ashwing.
 
-**Quell 1** *(If your hero would be dealt damage, you may pay {r} to prevent 1 of that damage. If you do, destroy Silken Form at the beginning of the end phase.)*`,
+**Quell 1**`,
     
     
     
@@ -75249,9 +75196,9 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
 
     cost: 6,
     defense: 3,
-    functionalText: `**Legendary** *(You may only have 1 Invoke Dracona Optimai in your deck.)*
+    functionalText: `**Legendary**
 
-**Transform** target ash you control into Dracona Optimai. **Go again** *(Put the ash under him.)*`,
+**Transform** target ash you control into Dracona Optimai. **Go again**`,
     
     
     
@@ -75345,9 +75292,9 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
 
     cost: 5,
     defense: 3,
-    functionalText: `**Legendary** *(You may only have 1 Invoke Tomeltai in your deck.)*
+    functionalText: `**Legendary**
 
-**Transform** target ash you control into Tomeltai. **Go again** *(Put the ash under him.)*`,
+**Transform** target ash you control into Tomeltai. **Go again**`,
     
     
     
@@ -75441,9 +75388,9 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
 
     cost: 4,
     defense: 3,
-    functionalText: `**Legendary** *(You may only have 1 Invoke Dominia in your deck.)*
+    functionalText: `**Legendary**
 
-**Transform** target ash you control into Dominia. **Go again** *(Put the ash under her.)*`,
+**Transform** target ash you control into Dominia. **Go again**`,
     
     
     
@@ -75490,7 +75437,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
 
     
     
-    functionalText: `Whenever Dominia attacks a hero, reveal the top card of your deck. If it’s a red card, look at their hand and banish a card from it.`,
+    functionalText: `Whenever Dominia attacks a hero, reveal the top card of your deck. If it's a red card, look at their hand and banish a card from it.`,
     
     
     
@@ -75537,9 +75484,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
 
     cost: 0,
     defense: 3,
-    functionalText: `*(Invocations resolve flipped as an ally in the arena.*)
-
-**Transform** target ash you control into Azvolai. **Go again** *(Put the ash under him.)*`,
+    functionalText: `**Transform** target ash you control into Azvolai. **Go again**`,
     
     
     
@@ -75633,9 +75578,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
 
     cost: 0,
     defense: 3,
-    functionalText: `*(Invocations resolve flipped as an ally in the arena.*)
-
-**Transform** target ash you control into Cromai. **Go again** *(Put the ash under him.)*`,
+    functionalText: `**Transform** target ash you control into Cromai. **Go again**`,
     
     
     
@@ -75729,9 +75672,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Invocations resolve flipped as an ally in the arena.*)
-
-**Transform** target ash you control into Kyloria. **Go again** *(Put the ash under her.)*`,
+    functionalText: `**Transform** target ash you control into Kyloria. **Go again**`,
     
     
     
@@ -75778,7 +75719,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
 
     
     
-    functionalText: `Whenever Kyloria hits a hero, gain control of an item they control. If you don’t gain control of an item this way, draw a card.`,
+    functionalText: `Whenever Kyloria hits a hero, gain control of an item they control. If you don't gain control of an item this way, draw a card.`,
     
     
     
@@ -75825,9 +75766,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Invocations resolve flipped as an ally in the arena.*)
-
-**Transform** target ash you control into Miragai. **Go again** *(Put the ash under him.)*`,
+    functionalText: `**Transform** target ash you control into Miragai. **Go again**`,
     
     
     
@@ -75874,7 +75813,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
 
     
     
-    functionalText: `Your first dragon attack each turn loses and can’t gain **phantasm**.`,
+    functionalText: `Your first dragon attack each turn loses and can't gain **phantasm**.`,
     
     
     
@@ -76015,9 +75954,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
 
     cost: 2,
     defense: 3,
-    functionalText: `*(Invocations resolve flipped as an ally in the arena.*)
-
-**Transform** target ash you control into Ouvia. **Go again** *(Put the ash under her.)*`,
+    functionalText: `**Transform** target ash you control into Ouvia. **Go again**`,
     
     
     
@@ -76064,7 +76001,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
 
     
     
-    functionalText: `At the start of your turn or when Ouvia enters the arena, **transform** up to 1 ash you control into an Aether Ashwing. *(Create an Aether Ashwing token and put the ash under it.)*`,
+    functionalText: `At the start of your turn or when Ouvia enters the arena, **transform** up to 1 ash you control into an Aether Ashwing.`,
     
     
     
@@ -76111,9 +76048,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
 
     cost: 2,
     defense: 3,
-    functionalText: `*(Invocations resolve flipped as an ally in the arena.*)
-
-**Transform** target ash you control into Themai. **Go again** *(Put the ash under him.)*`,
+    functionalText: `**Transform** target ash you control into Themai. **Go again**`,
     
     
     
@@ -76160,7 +76095,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
 
     
     
-    functionalText: `Opponents can’t play cards or activate abilities during your turn.`,
+    functionalText: `Opponents can't play cards or activate abilities during your turn.`,
     
     
     
@@ -76207,9 +76142,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
 
     cost: 3,
     defense: 3,
-    functionalText: `*(Invocations resolve flipped as an ally in the arena.*)
-
-**Transform** target ash you control into Vynserakai. **Go again** *(Put the ash under him.)*`,
+    functionalText: `**Transform** target ash you control into Vynserakai. **Go again**`,
     
     
     
@@ -76303,9 +76236,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Invocations resolve flipped as an ally in the arena.*)
-
-**Transform** target ash you control into Yendurai. **Go again** *(Put the ash under him.)*`,
+    functionalText: `**Transform** target ash you control into Yendurai. **Go again**`,
     
     
     
@@ -76401,7 +76332,7 @@ If Yendurai would be dealt damage, remove an endurance counter from him to preve
 
     cost: 1,
     defense: 3,
-    functionalText: `When you attack with Billowing Mirage, **transform** up to 1 ash you control into an Aether Ashwing. *(Create an Aether Ashwing token and put the ash under it.)*
+    functionalText: `When you attack with Billowing Mirage, **transform** up to 1 ash you control into an Aether Ashwing.
 
 **Go again**`,
     
@@ -76444,7 +76375,7 @@ If Yendurai would be dealt damage, remove an endurance counter from him to preve
 
     cost: 1,
     defense: 3,
-    functionalText: `When you attack with Billowing Mirage, **transform** up to 1 ash you control into an Aether Ashwing. *(Create an Aether Ashwing token and put the ash under it.)*
+    functionalText: `When you attack with Billowing Mirage, **transform** up to 1 ash you control into an Aether Ashwing.
 
 **Go again**`,
     
@@ -76487,7 +76418,7 @@ If Yendurai would be dealt damage, remove an endurance counter from him to preve
 
     cost: 1,
     defense: 3,
-    functionalText: `When you attack with Billowing Mirage, **transform** up to 1 ash you control into an Aether Ashwing. *(Create an Aether Ashwing token and put the ash under it.)*
+    functionalText: `When you attack with Billowing Mirage, **transform** up to 1 ash you control into an Aether Ashwing.
 
 **Go again**`,
     
@@ -76536,7 +76467,7 @@ If Yendurai would be dealt damage, remove an endurance counter from him to preve
 
     cost: 1,
     defense: 3,
-    functionalText: `**Phantasm** *(When this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this and close the combat chain.)*
+    functionalText: `**Phantasm**
 
 When Dunebreaker Cenipai is destroyed, create an Ash token.
 
@@ -76581,7 +76512,7 @@ When Dunebreaker Cenipai is destroyed, create an Ash token.
 
     cost: 1,
     defense: 3,
-    functionalText: `**Phantasm** *(When this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this and close the combat chain.)*
+    functionalText: `**Phantasm**
 
 When Dunebreaker Cenipai is destroyed, create an Ash token.
 
@@ -76626,7 +76557,7 @@ When Dunebreaker Cenipai is destroyed, create an Ash token.
 
     cost: 1,
     defense: 3,
-    functionalText: `**Phantasm** *(When this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this and close the combat chain.)*
+    functionalText: `**Phantasm**
 
 When Dunebreaker Cenipai is destroyed, create an Ash token.
 
@@ -76677,7 +76608,7 @@ When Dunebreaker Cenipai is destroyed, create an Ash token.
 
     cost: 0,
     defense: 3,
-    functionalText: `When Dustup hits, create an Ash token, then **transform** up to 1 ash you control into an Aether Ashwing. *(Create an Aether Ashwing token and put the ash under it.)*`,
+    functionalText: `When Dustup hits, create an Ash token, then **transform** up to 1 ash you control into an Aether Ashwing.`,
     
     
     
@@ -76718,7 +76649,7 @@ When Dunebreaker Cenipai is destroyed, create an Ash token.
 
     cost: 0,
     defense: 3,
-    functionalText: `When Dustup hits, create an Ash token, then **transform** up to 1 ash you control into an Aether Ashwing. *(Create an Aether Ashwing token and put the ash under it.)*`,
+    functionalText: `When Dustup hits, create an Ash token, then **transform** up to 1 ash you control into an Aether Ashwing.`,
     
     
     
@@ -76759,7 +76690,7 @@ When Dunebreaker Cenipai is destroyed, create an Ash token.
 
     cost: 0,
     defense: 3,
-    functionalText: `When Dustup hits, create an Ash token, then **transform** up to 1 ash you control into an Aether Ashwing. *(Create an Aether Ashwing token and put the ash under it.)*`,
+    functionalText: `When Dustup hits, create an Ash token, then **transform** up to 1 ash you control into an Aether Ashwing.`,
     
     
     
@@ -76806,7 +76737,7 @@ When Dunebreaker Cenipai is destroyed, create an Ash token.
 
     cost: 2,
     defense: 3,
-    functionalText: `**Phantasm** *(When this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this and close the combat chain.)*
+    functionalText: `**Phantasm**
 
 When Embermaw Cenipai is destroyed, create an Ash token.`,
     
@@ -76849,7 +76780,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
 
     cost: 2,
     defense: 3,
-    functionalText: `**Phantasm** *(When this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this and close the combat chain.)*
+    functionalText: `**Phantasm**
 
 When Embermaw Cenipai is destroyed, create an Ash token.`,
     
@@ -76892,7 +76823,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
 
     cost: 2,
     defense: 3,
-    functionalText: `**Phantasm** *(When this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this and close the combat chain.)*
+    functionalText: `**Phantasm**
 
 When Embermaw Cenipai is destroyed, create an Ash token.`,
     
@@ -77082,7 +77013,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
 
     cost: 1,
     defense: 2,
-    functionalText: `Create an Ash token, then **transform** up to 3 ash you control into Aether Ashwings. *(Create Aether Ashwing tokens and put the ash under them.)*
+    functionalText: `Create an Ash token, then **transform** up to 3 ash you control into Aether Ashwings.
 
 **Go again**`,
     
@@ -77125,7 +77056,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
 
     cost: 1,
     defense: 2,
-    functionalText: `Create an Ash token, then **transform** up to 2 ash you control into Aether Ashwings. *(Create Aether Ashwing tokens and put the ash under them.)*
+    functionalText: `Create an Ash token, then **transform** up to 2 ash you control into Aether Ashwings.
 
 **Go again**`,
     
@@ -77168,7 +77099,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
 
     cost: 1,
     defense: 2,
-    functionalText: `Create an Ash token, then **transform** up to 1 ash you control into Aether Ashwings. *(Create an Aether Ashwing token and put the ash under it.)*
+    functionalText: `Create an Ash token, then **transform** up to 1 ash you control into an Aether Ashwing.
 
 **Go again**`,
     
@@ -77217,7 +77148,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
 
     cost: 0,
     defense: 2,
-    functionalText: `**Transform** target ash you control into an Aether Ashwing. It gains +3{p} until end of turn. *(Create an Aether Ashwing token and put the ash under it.)*
+    functionalText: `**Transform** target ash you control into an Aether Ashwing. It gains +3{p} until end of turn.
 
 **Go again**`,
     
@@ -77260,7 +77191,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
 
     cost: 0,
     defense: 2,
-    functionalText: `**Transform** target ash you control into an Aether Ashwing. It gains +2{p} until end of turn. *(Create an Aether Ashwing token and put the ash under it.)*
+    functionalText: `**Transform** target ash you control into an Aether Ashwing. It gains +2{p} until end of turn.
 
 **Go again**`,
     
@@ -77303,7 +77234,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
 
     cost: 0,
     defense: 2,
-    functionalText: `**Transform** target ash you control into an Aether Ashwing. It gains +1{p} until end of turn. *(Create an Aether Ashwing token and put the ash under it.)*
+    functionalText: `**Transform** target ash you control into an Aether Ashwing. It gains +1{p} until end of turn.
 
 **Go again**`,
     
@@ -77352,7 +77283,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
 
     cost: 0,
     
-    functionalText: `Target ash you control gains **Ward 4** until end of turn. *(If your hero would be dealt damage, prevent 4 of that damage and destroy this.)*`,
+    functionalText: `Target ash you control gains **ward 4** until end of turn.`,
     
     
     
@@ -77393,7 +77324,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
 
     cost: 0,
     
-    functionalText: `Target ash you control gains **Ward 3** until end of turn. *(If your hero would be dealt damage, prevent 4 of that damage and destroy this.)*`,
+    functionalText: `Target ash you control gains **ward 3** until end of turn.`,
     
     
     
@@ -77434,7 +77365,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
 
     cost: 0,
     
-    functionalText: `Target ash you control gains **Ward 2** until end of turn. *(If your hero would be dealt damage, prevent 4 of that damage and destroy this.)*`,
+    functionalText: `Target ash you control gains **ward 2** until end of turn.`,
     
     
     
@@ -77493,7 +77424,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
 
     
     
-    functionalText: `**Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} to prevent 1 of that damage.)*`,
+    functionalText: `**Arcane Barrier 1**`,
     
     
     
@@ -77552,7 +77483,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
 
     
     
-    functionalText: `**Material** - While Ash is under an object, that object has **phantasm**. *(When this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this and close the combat chain.)*`,
+    functionalText: `**Material** - While Ash is under an object, that object has **phantasm**.`,
     
     
     
@@ -77748,7 +77679,7 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
     defense: 0,
     functionalText: `**Instant** - Destroy Heat Wave: Phoenix Flames you control gain +1{p} until end of turn.
 
-**Quell 1** *(If your hero would be dealt damage, you may pay {r} to prevent 1 of that damage. If you do, destroy Heat Wave at the beginning of the end phase.)*`,
+**Quell 1**`,
     
     
     
@@ -77795,7 +77726,7 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
 
     cost: 0,
     defense: 3,
-    functionalText: `If you control 1 or more Phoenix Flames, Phoenix Form has **go again**. If you control 2 or more, it has +2{p}. If you control 3 or more, it has “When this hits a hero, draw 3 cards.”`,
+    functionalText: `If you control 1 or more Phoenix Flames, Phoenix Form has **go again**. If you control 2 or more, it has +2{p}. If you control 3 or more, it has "When this hits a hero, draw 3 cards."`,
     
     
     
@@ -77922,7 +77853,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
 
     cost: 2,
     defense: 2,
-    functionalText: `When Engulfing Flamewave hits, reveal the top card of your deck. If it’s an attack action card with cost less than number of Draconic chain links you control, banish it. You may play it this turn.
+    functionalText: `When Engulfing Flamewave hits, reveal the top card of your deck. If it's an attack action card with cost less than number of Draconic chain links you control, banish it. You may play it this turn.
 
 **Go again**`,
     
@@ -77965,7 +77896,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
 
     cost: 2,
     defense: 2,
-    functionalText: `When Engulfing Flamewave hits, reveal the top card of your deck. If it’s an attack action card with cost less than number of Draconic chain links you control, banish it. You may play it this turn.
+    functionalText: `When Engulfing Flamewave hits, reveal the top card of your deck. If it's an attack action card with cost less than number of Draconic chain links you control, banish it. You may play it this turn.
 
 **Go again**`,
     
@@ -78008,7 +77939,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
 
     cost: 2,
     defense: 2,
-    functionalText: `When Engulfing Flamewave hits, reveal the top card of your deck. If it’s an attack action card with cost less than number of Draconic chain links you control, banish it. You may play it this turn.
+    functionalText: `When Engulfing Flamewave hits, reveal the top card of your deck. If it's an attack action card with cost less than number of Draconic chain links you control, banish it. You may play it this turn.
 
 **Go again**`,
     
@@ -79323,9 +79254,9 @@ You may return a Phoenix Flame from your graveyard to your hand.
 
     
     defense: 2,
-    functionalText: `**Once per Turn Instant** - {r}: Gain {r} for each red card in your pitch zone. Activate this ability only if you’ve played a red card this turn.
+    functionalText: `**Once per Turn Instant** - {r}: Gain {r} for each red card in your pitch zone. Activate this ability only if you've played a red card this turn.
 
-**Temper** *(When the combat chain closes, if this defended, put a -1{d} counter on it, then if it has 0{d}, destroy it.)*`,
+**Temper**`,
     
     
     
@@ -79366,7 +79297,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
 
     
     defense: 0,
-    functionalText: `**Instant** - Destroy Sash of Sandikai: Gain {r}. Activate this ability only if you’ve played a red card this turn.`,
+    functionalText: `**Instant** - Destroy Sash of Sandikai: Gain {r}. Activate this ability only if you've played a red card this turn.`,
     
     
     
@@ -79452,7 +79383,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
 
     cost: 1,
     defense: 2,
-    functionalText: `**Rupture** - If Liquefy is played at chain link 4 or higher, target attack action card gains “When this hits a hero, put a -1{d} counter on an equipment they control. Then if it has 0{d}, destroy it.”`,
+    functionalText: `**Rupture** - If Liquefy is played at chain link 4 or higher, target attack action card gains "When this hits a hero, put a -1{d} counter on an equipment they control. Then if it has 0{d}, destroy it."`,
     
     
     
@@ -79591,9 +79522,9 @@ Draw 2 cards.`,
 
     cost: 2,
     defense: 3,
-    functionalText: `**Dromai or Fai Specialization** *(You may only have Red Hot in your deck if your hero is Dromai or Fai.)*
+    functionalText: `**Dromai or Fai Specialization**
 
-**Rupture** - If Red Hot is played as chain link 4 or higher, it has “When you attack with this, reveal the top X cards of your deck, where X is the number of Draconic chain links you control. Deal damage equal to the number of red cards revealed this way to any target, then shuffle.”`,
+**Rupture** - If Red Hot is played as chain link 4 or higher, it has "When you attack with this, reveal the top X cards of your deck, where X is the number of Draconic chain links you control. Deal damage equal to the number of red cards revealed this way to any target, then shuffle."`,
     
     
     
@@ -79640,9 +79571,9 @@ Draw 2 cards.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `**Dromai or Fai Specialization** *(You may only have Rise Up in your deck if your hero is Dromai or Fai.)*
+    functionalText: `**Dromai or Fai Specialization**
 
-**Rupture** - If Rise Up is played as chain link 4 or higher, it has **dominate** and +X{p}, where X is twice the number of Phoenix Flames you control. *(The defending hero can’t defend with or play more than 1 defending card or defense reaction from their hand this chain link.)*`,
+**Rupture** - If Rise Up is played as chain link 4 or higher, it has **dominate** and +X{p}, where X is twice the number of Phoenix Flames you control.`,
     
     
     
@@ -79689,7 +79620,7 @@ Draw 2 cards.`,
 
     cost: 0,
     defense: 2,
-    functionalText: `If you’ve played another red card this turn, Blaze Headlong has **go again**.`,
+    functionalText: `If you've played another red card this turn, Blaze Headlong has **go again**.`,
     
     
     
@@ -79736,7 +79667,7 @@ Draw 2 cards.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `**Rupture** - If Breaking Point is played as chain link 4 or higher, it has “When this hits a hero, destroy all cards in their arsenal.”`,
+    functionalText: `**Rupture** - If Breaking Point is played as chain link 4 or higher, it has "When this hits a hero, destroy all cards in their arsenal."`,
     
     
     
@@ -79818,7 +79749,7 @@ Draw 2 cards.`,
 
     cost: 1,
     defense: 2,
-    functionalText: `When you defend with Flameborn Retribution, if you’ve been dealt damage this turn, you may return a Phoenix Flame from your graveyard to your hand.
+    functionalText: `When you defend with Flameborn Retribution, if you've been dealt damage this turn, you may return a Phoenix Flame from your graveyard to your hand.
 
 **Go again**`,
     
@@ -79867,7 +79798,7 @@ Draw 2 cards.`,
 
     cost: 1,
     defense: 2,
-    functionalText: `When you attack with Flamecall Awakening, if you’ve played another red card this turn, you may search your deck for a Phoenix Flame, reveal it, put it into your hand, then shuffle.
+    functionalText: `When you attack with Flamecall Awakening, if you've played another red card this turn, you may search your deck for a Phoenix Flame, reveal it, put it into your hand, then shuffle.
 
 **Go again**`,
     
@@ -79916,7 +79847,7 @@ Draw 2 cards.`,
 
     cost: 0,
     defense: 2,
-    functionalText: `When you attack with Inflame, if you’ve played another red card this turn, you may return a Phoenix Flame from your graveyard to your hand.
+    functionalText: `When you attack with Inflame, if you've played another red card this turn, you may return a Phoenix Flame from your graveyard to your hand.
 
 **Go again**`,
     
@@ -80006,7 +79937,7 @@ Draw 2 cards.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `**Rupture** - If Searing Touch is played as chain link 4 or higher, it has “When you attack with this, deal 2 damage to any target.”`,
+    functionalText: `**Rupture** - If Searing Touch is played as chain link 4 or higher, it has "When you attack with this, deal 2 damage to any target."`,
     
     
     
@@ -80163,7 +80094,7 @@ If you control 2 or more Draconic chain links, Phoenix Flame has +1{p}.
 
     
     
-    functionalText: `**Essence of Ice** *(You may have Ice cards in your deck.)*
+    functionalText: `**Essence of Ice**
 
 If it's not your turn, you may play blue 'non-attack' action cards from your arsenal as though they were an instant.
 
@@ -80208,9 +80139,9 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
 
     cost: 0,
     defense: 3,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Encase, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
-Deal 3 arcane damage to any target. If Encase was **fused** and deals damage to a hero, **freeze** that hero and all equipment they control until the start of your next turn. *(A frozen object can’t be played or activated.)*`,
+Deal 3 arcane damage to any target. If Encase was **fused** and deals damage to a hero, **freeze** that hero and all equipment they control until the start of your next turn.`,
     fusions: [Fusion.Ice],
     
     
@@ -80251,7 +80182,7 @@ Deal 3 arcane damage to any target. If Encase was **fused** and deals damage to 
 
     cost: 3,
     defense: 3,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Freezing Point, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
 Deal 5 arcane damage to a target hero. If Freezing Point was fused, instead deal X arcane damage, where X is 5 plus the number of Frostbites, Ice afflictions, and frozen cards they control.`,
     fusions: [Fusion.Ice],
@@ -80294,7 +80225,7 @@ Deal 5 arcane damage to a target hero. If Freezing Point was fused, instead deal
 
     cost: 1,
     defense: 4,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Sigil of Permafrost, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
 If Sigil of Permafrost was **fused**, the next time you deal arcane damage to a hero this turn, create that many Frostbite tokens under their control.`,
     fusions: [Fusion.Ice],
@@ -80337,7 +80268,7 @@ If Sigil of Permafrost was **fused**, the next time you deal arcane damage to a 
 
     cost: 1,
     defense: 3,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Sigil of Permafrost, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
 If Sigil of Permafrost was **fused**, the next time you deal arcane damage to a hero this turn, create that many Frostbite tokens under their control.`,
     fusions: [Fusion.Ice],
@@ -80380,7 +80311,7 @@ If Sigil of Permafrost was **fused**, the next time you deal arcane damage to a 
 
     cost: 1,
     defense: 2,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Sigil of Permafrost, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
 If Sigil of Permafrost was **fused**, the next time you deal arcane damage to a hero this turn, create that many Frostbite tokens under their control.`,
     fusions: [Fusion.Ice],
@@ -80429,11 +80360,11 @@ If Sigil of Permafrost was **fused**, the next time you deal arcane damage to a 
 
     
     defense: 3,
-    functionalText: `**Iyslander Specialization** *(You may only have Ice Eternal in your deck if your hero is Iyslander.)*
+    functionalText: `**Iyslander Specialization**
 
-**Ice Fusion** *(As an additional cost to play Ice Eternal, you may reveal an Ice card from your hand.)*
+**Ice Fusion**
 
-Create X Frostbite tokens under target hero’s control. Then, if Ice Eternal was **fused**, deal arcane damage to that hero equal to the number of Frostbites they control.`,
+Create X Frostbite tokens under target hero's control. Then, if Ice Eternal was **fused**, deal arcane damage to that hero equal to the number of Frostbites they control.`,
     fusions: [Fusion.Ice],
     
     
@@ -80474,7 +80405,7 @@ Create X Frostbite tokens under target hero’s control. Then, if Ice Eternal wa
 
     cost: 3,
     defense: 3,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Succumb to Winter, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
 Deal 5 arcane damage to any target. If Succumb to Winter was **fused** and targets a hero, destroy a **frozen** card in their arsenal. If it was **fused** and targets a **frozen** ally, destroy that ally.`,
     fusions: [Fusion.Ice],
@@ -80517,7 +80448,7 @@ Deal 5 arcane damage to any target. If Succumb to Winter was **fused** and targe
 
     cost: 3,
     defense: 3,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Succumb to Winter, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
 Deal 4 arcane damage to any target. If Succumb to Winter was **fused** and targets a hero, destroy a **frozen** card in their arsenal. If it was **fused** and targets a **frozen** ally, destroy that ally.`,
     fusions: [Fusion.Ice],
@@ -80560,7 +80491,7 @@ Deal 4 arcane damage to any target. If Succumb to Winter was **fused** and targe
 
     cost: 3,
     defense: 3,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Succumb to Winter, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
 Deal 3 arcane damage to any target. If Succumb to Winter was **fused** and targets a hero, destroy a **frozen** card in their arsenal. If it was **fused** and targets a **frozen** ally, destroy that ally.`,
     fusions: [Fusion.Ice],
@@ -80603,7 +80534,7 @@ Deal 3 arcane damage to any target. If Succumb to Winter was **fused** and targe
 
     cost: 3,
     defense: 3,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Aether Icevein, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
 Deal 5 arcane damage to any target. If Aether Icevein was **fused** and deals damage to a hero, they discard a card unless they pay {r}{r}.`,
     fusions: [Fusion.Ice],
@@ -80646,7 +80577,7 @@ Deal 5 arcane damage to any target. If Aether Icevein was **fused** and deals da
 
     cost: 3,
     defense: 3,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Aether Icevein, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
 Deal 4 arcane damage to any target. If Aether Icevein was **fused** and deals damage to a hero, they discard a card unless they pay {r}{r}.`,
     fusions: [Fusion.Ice],
@@ -80689,7 +80620,7 @@ Deal 4 arcane damage to any target. If Aether Icevein was **fused** and deals da
 
     cost: 3,
     defense: 3,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Aether Icevein, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
 Deal 3 arcane damage to any target. If Aether Icevein was **fused** and deals damage to a hero, they discard a card unless they pay {r}{r}.`,
     fusions: [Fusion.Ice],
@@ -80732,7 +80663,7 @@ Deal 3 arcane damage to any target. If Aether Icevein was **fused** and deals da
 
     cost: 0,
     defense: 3,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Brain Freeze, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
 Target opponent reveals their hand. If Brain Freeze was **fused**, put an action card with cost 2 or less from their hand on top of their deck.`,
     fusions: [Fusion.Ice],
@@ -80775,7 +80706,7 @@ Target opponent reveals their hand. If Brain Freeze was **fused**, put an action
 
     cost: 0,
     defense: 3,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Brain Freeze, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
 Target opponent reveals their hand. If Brain Freeze was **fused**, put an action card with cost 1 or less from their hand on top of their deck.`,
     fusions: [Fusion.Ice],
@@ -80818,7 +80749,7 @@ Target opponent reveals their hand. If Brain Freeze was **fused**, put an action
 
     cost: 0,
     defense: 3,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Brain Freeze, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
 Target opponent reveals their hand. If Brain Freeze was **fused**, put an action card with cost 0 from their hand on top of their deck.`,
     fusions: [Fusion.Ice],
@@ -80861,9 +80792,9 @@ Target opponent reveals their hand. If Brain Freeze was **fused**, put an action
 
     cost: 0,
     defense: 3,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Ice Eternal, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
-Deal 3 arcane damage to any target. If Icebind was **fused** and deals damage to a hero, **freeze** a card in their arsenal until the start of your next turn. *(A frozen object can’t be played or activated.)*`,
+Deal 3 arcane damage to any target. If Icebind was **fused** and deals damage to a hero, **freeze** a card in their arsenal until the start of your next turn.`,
     fusions: [Fusion.Ice],
     
     
@@ -80904,9 +80835,9 @@ Deal 3 arcane damage to any target. If Icebind was **fused** and deals damage to
 
     cost: 0,
     defense: 3,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Ice Eternal, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
-Deal 2 arcane damage to any target. If Icebind was **fused** and deals damage to a hero, **freeze** a card in their arsenal until the start of your next turn. *(A frozen object can’t be played or activated.)*`,
+Deal 2 arcane damage to any target. If Icebind was **fused** and deals damage to a hero, **freeze** a card in their arsenal until the start of your next turn.`,
     fusions: [Fusion.Ice],
     
     
@@ -80947,9 +80878,9 @@ Deal 2 arcane damage to any target. If Icebind was **fused** and deals damage to
 
     cost: 0,
     defense: 3,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Ice Eternal, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
-Deal 1 arcane damage to any target. If Icebind was **fused** and deals damage to a hero, **freeze** a card in their arsenal until the start of your next turn. *(A frozen object can’t be played or activated.)*`,
+Deal 1 arcane damage to any target. If Icebind was **fused** and deals damage to a hero, **freeze** a card in their arsenal until the start of your next turn.`,
     fusions: [Fusion.Ice],
     
     
@@ -80990,7 +80921,7 @@ Deal 1 arcane damage to any target. If Icebind was **fused** and deals damage to
 
     cost: 2,
     defense: 3,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Polar Cap, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
 Deal 4 arcane damage to any target. If Polar Cap was **fused** and deals damage to a hero, create a Frostbite token under their control.`,
     fusions: [Fusion.Ice],
@@ -81033,7 +80964,7 @@ Deal 4 arcane damage to any target. If Polar Cap was **fused** and deals damage 
 
     cost: 2,
     defense: 3,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Polar Cap, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
 Deal 3 arcane damage to any target. If Polar Cap was **fused** and deals damage to a hero, create a Frostbite token under their control.`,
     fusions: [Fusion.Ice],
@@ -81076,7 +81007,7 @@ Deal 3 arcane damage to any target. If Polar Cap was **fused** and deals damage 
 
     cost: 2,
     defense: 3,
-    functionalText: `**Ice Fusion** *(As an additional cost to play Polar Cap, you may reveal an Ice card from your hand.)*
+    functionalText: `**Ice Fusion**
 
 Deal 2 arcane damage to any target. If Polar Cap was **fused** and deals damage to a hero, create a Frostbite token under their control.`,
     fusions: [Fusion.Ice],
@@ -81119,9 +81050,9 @@ Deal 2 arcane damage to any target. If Polar Cap was **fused** and deals damage 
 
     
     defense: 0,
-    functionalText: `**Instant** - Destroy Conduit of Frostburn: The next card you play this turn with an effect that deals arcane damage gains “When this deals arcane damage to a hero, destroy a **frozen** card in their arsenal.”
+    functionalText: `**Instant** - Destroy Conduit of Frostburn: The next card you play this turn with an effect that deals arcane damage gains "When this deals arcane damage to a hero, destroy a **frozen** card in their arsenal."
 
-**Quell 1** *(If your hero would be dealt damage, you may pay {r} to prevent 1 of that damage. If you do, destroy Conduit of Frostburn at the beginning of the end phase.)*`,
+**Quell 1**`,
     
     
     
@@ -81168,11 +81099,9 @@ Deal 2 arcane damage to any target. If Polar Cap was **fused** and deals damage 
 
     cost: 3,
     defense: 3,
-    functionalText: `**Iyslander Specialization** *(You may only have Frost Hex in your deck if your hero is Iyslander.)*
+    functionalText: `**Iyslander Specialization**
 
-*(An affliction enters the arena under an opposing hero’s control.)*
-
-Frostbites you control have “At the beginning of your end phase, this deals 1 arcane damage to you.”`,
+Frostbites you control have "At the beginning of your end phase, this deals 1 arcane damage to you."`,
     
     
     
@@ -81590,7 +81519,7 @@ Frostbites you control have “At the beginning of your end phase, this deals 1 
     defense: 2,
     functionalText: `**Action** - {r}{r}{r}: Target hero discards a card unless they pay {r}.
 
-**Blade Break** *(When the combat chain closes, if this defended, destroy it.)*`,
+**Blade Break**`,
     
     
     
@@ -81631,7 +81560,7 @@ Frostbites you control have “At the beginning of your end phase, this deals 1 
 
     
     defense: 0,
-    functionalText: `**Action** - Destroy Glacial Horns: Choose a hero. **Freeze** up to 1 card in their arsenal and 1 ally they control until the start of your next turn. **Go again** *(A frozen object can’t be played or activated.)*`,
+    functionalText: `**Action** - Destroy Glacial Horns: Choose a hero. **Freeze** up to 1 card in their arsenal and 1 ally they control until the start of your next turn. **Go again**`,
     
     
     
@@ -81674,7 +81603,7 @@ Frostbites you control have “At the beginning of your end phase, this deals 1 
     defense: 2,
     functionalText: `**Go again**
 
-Heroes can’t reveal cards, search decks, or draw cards from effects.
+Heroes can't reveal cards, search decks, or draw cards from effects.
 
 **Channel Ice** - At the beginning of your end phase, put a flow counter on Channel the Bleak Expanse then destroy it unless you put an Ice card from your pitch zone on the bottom of your deck for each flow counter on it.`,
     
@@ -81717,9 +81646,7 @@ Heroes can’t reveal cards, search decks, or draw cards from effects.
 
     cost: 0,
     defense: 2,
-    functionalText: `*(An affliction enters the arena under an opposing hero’s control.)*
-
-Attacks you control can’t gain **go again**. *(This does not affect attacks that naturally have go again.)*
+    functionalText: `Attacks you control can't gain **go again**.
 
 At the beginning of your end phase, destroy Hypothermia.`,
     
@@ -81805,7 +81732,7 @@ Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you d
 
     cost: 1,
     defense: 2,
-    functionalText: `The next time you **Ice fuse** this turn, create 4 Frostbite tokens under target hero’s control.
+    functionalText: `The next time you **Ice fuse** this turn, create 4 Frostbite tokens under target hero's control.
 
 **Go again**`,
     
@@ -81848,7 +81775,7 @@ Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you d
 
     cost: 1,
     defense: 2,
-    functionalText: `The next time you **Ice fuse** this turn, create 3 Frostbite tokens under target hero’s control.
+    functionalText: `The next time you **Ice fuse** this turn, create 3 Frostbite tokens under target hero's control.
 
 **Go again**`,
     
@@ -81891,7 +81818,7 @@ Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you d
 
     cost: 1,
     defense: 2,
-    functionalText: `The next time you **Ice fuse** this turn, create 2 Frostbite tokens under target hero’s control.
+    functionalText: `The next time you **Ice fuse** this turn, create 2 Frostbite tokens under target hero's control.
 
 **Go again**`,
     
@@ -81934,7 +81861,7 @@ Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you d
 
     cost: 0,
     defense: 2,
-    functionalText: `Create 3 Frostbite tokens under target hero’s control.`,
+    functionalText: `Create 3 Frostbite tokens under target hero's control.`,
     
     
     
@@ -81975,7 +81902,7 @@ Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you d
 
     cost: 0,
     defense: 2,
-    functionalText: `Create 2 Frostbite tokens under target hero’s control.`,
+    functionalText: `Create 2 Frostbite tokens under target hero's control.`,
     
     
     
@@ -82016,7 +81943,7 @@ Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you d
 
     cost: 0,
     defense: 2,
-    functionalText: `Create a Frostbite token under target hero’s control.`,
+    functionalText: `Create a Frostbite token under target hero's control.`,
     
     
     
@@ -82057,7 +81984,7 @@ Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you d
 
     cost: 1,
     defense: 2,
-    functionalText: `Target hero may pay {r}{r}{r}. If they don’t, **freeze** a card in their arsenal or an ally they control until the start of your next turn. *(A frozen object can’t be played or activated.)*
+    functionalText: `Target hero may pay {r}{r}{r}. If they don't, **freeze** a card in their arsenal or an ally they control until the start of your next turn.
 
 If Cold Snap is played from arsenal, draw a card.
 
@@ -82102,7 +82029,7 @@ If Cold Snap is played from arsenal, draw a card.
 
     cost: 1,
     defense: 2,
-    functionalText: `Target hero may pay {r}{r}. If they don’t, **freeze** a card in their arsenal or an ally they control until the start of your next turn. *(A frozen object can’t be played or activated.)*
+    functionalText: `Target hero may pay {r}{r}. If they don't, **freeze** a card in their arsenal or an ally they control until the start of your next turn.
 
 If Cold Snap is played from arsenal, draw a card.
 
@@ -82147,7 +82074,7 @@ If Cold Snap is played from arsenal, draw a card.
 
     cost: 1,
     defense: 2,
-    functionalText: `Target hero may pay {r}. If they don’t, **freeze** a card in their arsenal or an ally they control until the start of your next turn. *(A frozen object can’t be played or activated.)*
+    functionalText: `Target hero may pay {r}. If they don't, **freeze** a card in their arsenal or an ally they control until the start of your next turn.
 
 If Cold Snap is played from arsenal, draw a card.
 
@@ -82200,7 +82127,7 @@ If Cold Snap is played from arsenal, draw a card.
     defense: 0,
     functionalText: `Whenever an Illusionist attack you control is destroyed by **phantasm**, put a haunt counter on Ghostly Touch.
 
-**Once per Turn Action** - Remove a haunt counter from Ghostly Touch: Until end of turn, this becomes an Illusionist ally with **phantasm**, base {p} and {h} equal to the number of haunt counters on it, and “**Once per Turn Action** - {r}{r}{r}: **Attack**”. **Go again**`,
+**Once per Turn Action** - Remove a haunt counter from Ghostly Touch: Until end of turn, this becomes an Illusionist ally with **phantasm**, base {p} and {h} equal to the number of haunt counters on it, and "**Once per Turn Action** - {r}{r}{r}: **Attack**". **Go again**`,
     
     
     
@@ -82243,7 +82170,7 @@ If Cold Snap is played from arsenal, draw a card.
     defense: 0,
     functionalText: `Whenever an attacking ally you control dies or an attack action card you control is destroyed by **phantasm**, you may pay {r}{r}{r}. If you do, destroy Silent Stilettos and gain 1 action point.
 
-**Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} to prevent 1 of that damage.)*`,
+**Arcane Barrier 1**`,
     
     
     
@@ -82286,7 +82213,7 @@ If Cold Snap is played from arsenal, draw a card.
     
     functionalText: `Play Frightmare only if an Illusionist attack action card you control has been destroyed by **phantasm** this turn.
 
-**Phantasm** *(When this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this and close the combat chain.)*`,
+**Phantasm**`,
     
     
     
@@ -82327,7 +82254,7 @@ If Cold Snap is played from arsenal, draw a card.
 
     cost: 3,
     
-    functionalText: `Negate all **phantasm** triggered effects of target Illusionist attack you control. The attack loses and can’t gain **phantasm**.`,
+    functionalText: `Negate all **phantasm** triggered effects of target Illusionist attack you control. The attack loses and can't gain **phantasm**.`,
     
     
     
@@ -82368,7 +82295,7 @@ If Cold Snap is played from arsenal, draw a card.
 
     cost: 1,
     defense: 2,
-    functionalText: `The next attack action card you play this turn is Illusionist, has 8 base {p}, and gains **phantasm**. *(It keeps its other card types.)*
+    functionalText: `The next attack action card you play this turn is Illusionist, has 8 base {p}, and gains **phantasm**.
 
 **Go again**`,
     
@@ -82411,7 +82338,7 @@ If Cold Snap is played from arsenal, draw a card.
 
     cost: 1,
     defense: 2,
-    functionalText: `The next attack action card you play this turn is Illusionist, has 7 base {p}, and gains **phantasm**. *(It keeps its other card types.)*
+    functionalText: `The next attack action card you play this turn is Illusionist, has 7 base {p}, and gains **phantasm**.
 
 **Go again**`,
     
@@ -82454,7 +82381,7 @@ If Cold Snap is played from arsenal, draw a card.
 
     cost: 1,
     defense: 2,
-    functionalText: `The next attack action card you play this turn is Illusionist, has 6 base {p}, and gains **phantasm**. *(It keeps its other card types.)*
+    functionalText: `The next attack action card you play this turn is Illusionist, has 6 base {p}, and gains **phantasm**.
 
 **Go again**`,
     
@@ -82505,7 +82432,7 @@ If Cold Snap is played from arsenal, draw a card.
     defense: 2,
     functionalText: `The second attack action card with 2 or less base {p} you play each turn has +1{p} and "Damage that would be dealt by this can't be prevented."
 
-**Blade Break** *(When the combat chain closes, if this defended, destroy it.)*`,
+**Blade Break**`,
     
     
     
@@ -82548,7 +82475,7 @@ If Cold Snap is played from arsenal, draw a card.
     defense: 0,
     functionalText: `**Attack Reaction** - Destroy Tide Flippers: Target attack action card with 2 or less base {p} gains **go again**.
 
-**Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} to prevent 1 of that damage.)*`,
+**Arcane Barrier 1**`,
     
     
     
@@ -82589,7 +82516,7 @@ If Cold Snap is played from arsenal, draw a card.
 
     cost: 0,
     defense: 2,
-    functionalText: `When Double Strike’s chain link resolves, banish it. You may play it this combat chain. If you do, it loses this ability.
+    functionalText: `When Double Strike's chain link resolves, banish it. You may play it this combat chain. If you do, it loses this ability.
 
 **Go again**`,
     
@@ -82632,7 +82559,7 @@ If Cold Snap is played from arsenal, draw a card.
 
     cost: 1,
     defense: 3,
-    functionalText: `When Take the Tempo hits, if you’ve hit 3 or more times this combat chain, banish the top card of your deck. If it’s an attack action card, you may play it until the end of your next turn.`,
+    functionalText: `When Take the Tempo hits, if you've hit 3 or more times this combat chain, banish the top card of your deck. If it's an attack action card, you may play it until the end of your next turn.`,
     
     
     
@@ -82802,7 +82729,7 @@ If Cold Snap is played from arsenal, draw a card.
 
     
     
-    functionalText: `**Once per Turn Instant** - {r}{r}: Deal 2 arcane damage to target hero. If it’s not your turn, instead deal 3 arcane damage to them. Activate this ability only if you’ve played a ‘non-attack’ action card this turn.`,
+    functionalText: `**Once per Turn Instant** - {r}{r}: Deal 2 arcane damage to target hero. If it's not your turn, instead deal 3 arcane damage to them. Activate this ability only if you've played a 'non-attack' action card this turn.`,
     
     
     
@@ -82853,7 +82780,7 @@ If Cold Snap is played from arsenal, draw a card.
 
 **Instant** - Remove 2 energy counters from Alluvion Constellas: The next staff ability you activate this turn costs {r}{r}{r} less.
 
-**Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} to prevent 1 of that damage.)*`,
+**Arcane Barrier 1**`,
     
     
     
@@ -82894,9 +82821,9 @@ If Cold Snap is played from arsenal, draw a card.
 
     
     defense: 0,
-    functionalText: `**Instant** - Destroy Spellfire Cloak: Gain {r}. Activate this ability only during an opponent’s turn.
+    functionalText: `**Instant** - Destroy Spellfire Cloak: Gain {r}. Activate this ability only during an opponent's turn.
 
-**Arcane Barrier 1** *(If your hero would be dealt arcane damage, you may pay {r} to prevent 1 of that damage.)*`,
+**Arcane Barrier 1**`,
     
     
     
@@ -82937,7 +82864,7 @@ If Cold Snap is played from arsenal, draw a card.
 
     cost: 3,
     defense: 2,
-    functionalText: `Look at the top 2 cards of your deck, then banish one. If it’s a ‘non-attack’ action card, you may play it this turn as though it were an instant.`,
+    functionalText: `Look at the top 2 cards of your deck, then banish one. If it's a 'non-attack' action card, you may play it this turn as though it were an instant.`,
     
     
     
@@ -82984,7 +82911,7 @@ If Cold Snap is played from arsenal, draw a card.
 
     cost: 1,
     
-    functionalText: `**Negate** target ‘non-attack’ action card and return it to its owner’s hand. Then that hero gains 1 action point. *(A hero can only gain action points during their action phase.)*`,
+    functionalText: `**Negate** target 'non-attack' action card and return it to its owner's hand. Then that hero gains 1 action point.`,
     
     
     
@@ -83277,7 +83204,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
 
     cost: 0,
     defense: 2,
-    functionalText: `At the beginning of your end phase, destroy Read the Ripples then **opt 1**, **opt 1**, **opt 1**, and draw a card. *(Look at the top card of your deck. You may put it on the bottom.)*`,
+    functionalText: `At the beginning of your end phase, destroy Read the Ripples then **opt 1**, **opt 1**, **opt 1**, and draw a card.`,
     
     
     
@@ -83318,7 +83245,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
 
     cost: 0,
     defense: 2,
-    functionalText: `At the beginning of your end phase, destroy Read the Ripples then **opt 1**, **opt 1**, and draw a card. *(Look at the top card of your deck. You may put it on the bottom.)*`,
+    functionalText: `At the beginning of your end phase, destroy Read the Ripples then **opt 1**, **opt 1**, and draw a card.`,
     
     
     
@@ -83365,7 +83292,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
 
     cost: 0,
     defense: 2,
-    functionalText: `At the beginning of your end phase, destroy Read the Ripples then **opt 1** and draw a card. *(Look at the top card of your deck. You may put it on the bottom.)*`,
+    functionalText: `At the beginning of your end phase, destroy Read the Ripples then **opt 1** and draw a card.`,
     
     
     
@@ -83537,7 +83464,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     defense: 2,
     functionalText: `When you defend with Crown of Providence, you may put a card from your hand or arsenal on the bottom of your deck. If you do, draw a card.
 
-**Blade Break** *(When the combat chain closes, if this defended, destroy it.)*`,
+**Blade Break**`,
     
     
     
@@ -83578,7 +83505,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
       set: Release.Uprising,
       treatment: Treatment.AT,
     },],
-    name: "Helio’s Mitre",
+    name: "Helio's Mitre",
     rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS103","UPR183"],
@@ -83590,9 +83517,9 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
 
     
     defense: 0,
-    functionalText: `*(A player may add a Helio’s Mitre to their card pool in an Uprising limited format.)*
+    functionalText: `*(A player may add a Helio's Mitre to their card pool in an Uprising limited format.)*
 
-**Instant** - {r}{r}: Prevent the next 1 damage that would be dealt to your hero this turn by a source of your choice. Destroy Helio’s Mitre at the beginning of the end phase.`,
+**Instant** - {r}{r}: Prevent the next 1 damage that would be dealt to your hero this turn by a source of your choice. Destroy Helio's Mitre at the beginning of the end phase.`,
     
     
     
@@ -83633,7 +83560,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
 
     
     defense: 0,
-    functionalText: `**Quell 1** *(If your hero would be dealt damage, you may pay {r} to prevent 1 of that damage. If you do, destroy Quelling Robe at the beginning of the end phase.)*`,
+    functionalText: `**Quell 1**`,
     
     
     
@@ -83674,7 +83601,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
 
     
     defense: 0,
-    functionalText: `**Quell 1** *(If your hero would be dealt damage, you may pay {r} to prevent 1 of that damage. If you do, destroy Quelling Sleeves at the beginning of the end phase.)*`,
+    functionalText: `**Quell 1**`,
     
     
     
@@ -83715,7 +83642,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
 
     
     defense: 0,
-    functionalText: `**Quell 1** *(If your hero would be dealt damage, you may pay {r} to prevent 1 of that damage. If you do, destroy Quelling Slippers at the beginning of the end phase.)*`,
+    functionalText: `**Quell 1**`,
     
     
     
@@ -83879,7 +83806,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
 
     cost: 3,
     defense: 3,
-    functionalText: `'Non-attack’ action cards lose and can’t gain **go again**.
+    functionalText: `'Non-attack' action cards lose and can't gain **go again**.
 
 At the beginning of your action phase, destroy Fog Down.`,
     
@@ -84033,7 +83960,7 @@ At the beginning of your action phase, destroy Fog Down.`,
       set: Release.Uprising,
       
     },],
-    name: "Fyendal’s Fighting Spirit",
+    name: "Fyendal's Fighting Spirit",
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR194"],
@@ -84045,7 +83972,7 @@ At the beginning of your action phase, destroy Fog Down.`,
 
     cost: 3,
     defense: 2,
-    functionalText: `When you attack or defend with Fyendal’s Fighting Spirit, if you have less {h} than an opposing hero, gain 1{h}.`,
+    functionalText: `When you attack or defend with Fyendal's Fighting Spirit, if you have less {h} than an opposing hero, gain 1{h}.`,
     
     
     
@@ -84074,7 +84001,7 @@ At the beginning of your action phase, destroy Fog Down.`,
       set: Release.Uprising,
       
     },],
-    name: "Fyendal’s Fighting Spirit",
+    name: "Fyendal's Fighting Spirit",
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR195"],
@@ -84086,7 +84013,7 @@ At the beginning of your action phase, destroy Fog Down.`,
 
     cost: 3,
     defense: 2,
-    functionalText: `When you attack or defend with Fyendal’s Fighting Spirit, if you have less {h} than an opposing hero, gain 1{h}.`,
+    functionalText: `When you attack or defend with Fyendal's Fighting Spirit, if you have less {h} than an opposing hero, gain 1{h}.`,
     
     
     
@@ -84115,7 +84042,7 @@ At the beginning of your action phase, destroy Fog Down.`,
       set: Release.Uprising,
       
     },],
-    name: "Fyendal’s Fighting Spirit",
+    name: "Fyendal's Fighting Spirit",
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR196"],
@@ -84127,7 +84054,7 @@ At the beginning of your action phase, destroy Fog Down.`,
 
     cost: 3,
     defense: 2,
-    functionalText: `When you attack or defend with Fyendal’s Fighting Spirit, if you have less {h} than an opposing hero, gain 1{h}.`,
+    functionalText: `When you attack or defend with Fyendal's Fighting Spirit, if you have less {h} than an opposing hero, gain 1{h}.`,
     
     
     
@@ -84297,7 +84224,7 @@ At the beginning of your action phase, destroy Fog Down.`,
 
     cost: 1,
     defense: 2,
-    functionalText: `Put an action card with cost 2 or less from a graveyard on the bottom of its owner’s deck. At the beginning of the end phase, draw a card.
+    functionalText: `Put an action card with cost 2 or less from a graveyard on the bottom of its owner's deck. At the beginning of the end phase, draw a card.
 
 **Go again**`,
     
@@ -84340,7 +84267,7 @@ At the beginning of your action phase, destroy Fog Down.`,
 
     cost: 1,
     defense: 2,
-    functionalText: `Put an action card with cost 1 or less from a graveyard on the bottom of its owner’s deck. At the beginning of the end phase, draw a card.
+    functionalText: `Put an action card with cost 1 or less from a graveyard on the bottom of its owner's deck. At the beginning of the end phase, draw a card.
 
 **Go again**`,
     
@@ -84383,7 +84310,7 @@ At the beginning of your action phase, destroy Fog Down.`,
 
     cost: 1,
     defense: 2,
-    functionalText: `Put an action card with cost 0 from a graveyard on the bottom of its owner’s deck. At the beginning of the end phase, draw a card.
+    functionalText: `Put an action card with cost 0 from a graveyard on the bottom of its owner's deck. At the beginning of the end phase, draw a card.
 
 **Go again**`,
     
@@ -84942,7 +84869,7 @@ If Trade In is played from arsenal, it gains **go again**.`,
 
     cost: 1,
     defense: 2,
-    functionalText: `**Ward 4** *(If your hero would be dealt damage, prevent 4 of that damage and destroy Sigil of Protection.)*
+    functionalText: `**Ward 4**
 
 At the beginning of your action phase, destroy Sigil of Protection.`,
     
@@ -84985,7 +84912,7 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
 
     cost: 1,
     defense: 2,
-    functionalText: `**Ward 3** *(If your hero would be dealt damage, prevent 3 of that damage and destroy Sigil of Protection.)*
+    functionalText: `**Ward 3**
 
 At the beginning of your action phase, destroy Sigil of Protection.`,
     
@@ -85028,7 +84955,7 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
 
     cost: 1,
     defense: 2,
-    functionalText: `**Ward 2** *(If your hero would be dealt damage, prevent 2 of that damage and destroy Sigil of Protection.)*
+    functionalText: `**Ward 2**
 
 At the beginning of your action phase, destroy Sigil of Protection.`,
     
@@ -85388,7 +85315,7 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
 
 Activate Rok only if you have no cards in hand.
 
-Damage that would be dealt by Rok can’t be prevented.`,
+Damage that would be dealt by Rok can't be prevented.`,
     
     
     
@@ -85431,7 +85358,7 @@ Damage that would be dealt by Rok can’t be prevented.`,
     defense: 1,
     functionalText: `Whenever you discard a random card with 6 or more {p}, you may destroy Beaten Trackers. If you do, gain 1 action point.
 
-**Battleworn** *(When the combat chain closes, if this defended, put a -1{d} counter on it.)*`,
+**Battleworn**`,
     
     
     
@@ -85472,7 +85399,7 @@ Damage that would be dealt by Rok can’t be prevented.`,
 
     cost: 3,
     defense: 3,
-    functionalText: `Play Savage Beatdown only if you’ve discarded a card with 6 or more {p} this turn.
+    functionalText: `Play Savage Beatdown only if you've discarded a card with 6 or more {p} this turn.
 
 As an additional cost to play Savage Beatdown, discard a random card.
 
@@ -86105,7 +86032,7 @@ If the discarded card has 6 or more {p}, Madcap Muscle has +3{p}.`,
 
     cost: 0,
     defense: 3,
-    functionalText: `Play Rumble Grunting only if you’ve discarded a card with 6 or more {p} this turn.
+    functionalText: `Play Rumble Grunting only if you've discarded a card with 6 or more {p} this turn.
 
 Your next Brute attack this turn gains +4{p}.
 
@@ -86150,7 +86077,7 @@ Your next Brute attack this turn gains +4{p}.
 
     cost: 0,
     defense: 3,
-    functionalText: `Play Rumble Grunting only if you’ve discarded a card with 6 or more {p} this turn.
+    functionalText: `Play Rumble Grunting only if you've discarded a card with 6 or more {p} this turn.
 
 Your next Brute attack this turn gains +3{p}.
 
@@ -86195,7 +86122,7 @@ Your next Brute attack this turn gains +3{p}.
 
     cost: 0,
     defense: 3,
-    functionalText: `Play Rumble Grunting only if you’ve discarded a card with 6 or more {p} this turn.
+    functionalText: `Play Rumble Grunting only if you've discarded a card with 6 or more {p} this turn.
 
 Your next Brute attack this turn gains +2{p}.
 
@@ -86334,7 +86261,7 @@ Your next Brute attack this turn gains +2{p}.
 
     
     defense: 2,
-    functionalText: `**Temper** *(When the combat chain closes, if this defended, put a -1{d} counter on it, then if it has 0{d}, destroy it.)*`,
+    functionalText: `**Temper**`,
     
     
     
@@ -86375,7 +86302,7 @@ Your next Brute attack this turn gains +2{p}.
 
     cost: 3,
     defense: 3,
-    functionalText: `Your next Guardian attack this turn gains +1{p}, **dominate**, and “When this hits a hero, destroy an equipment they control with a -1{d} counter on it.”
+    functionalText: `Your next Guardian attack this turn gains +1{p}, **dominate**, and "When this hits a hero, destroy an equipment they control with a -1{d} counter on it."
 
 **Go again**`,
     
@@ -87082,7 +87009,7 @@ Your next Brute attack this turn gains +2{p}.
     defense: 1,
     functionalText: `While Blazen Yoroi is defending on chain link 4 or higher, it has +4{d}.
 
-**Blade Break** *(When the combat chain closes, if this defended, destroy it.)*`,
+**Blade Break**`,
     
     
     
@@ -87125,7 +87052,7 @@ Your next Brute attack this turn gains +2{p}.
     defense: 1,
     functionalText: `**Instant** - Destroy Tearing Shuko: The next Crouching Tiger you play this turn gains +2{p}.
 
-**Battleworn** *(When the combat chain closes, if this defended, put a -1{d} counter on it.)*`,
+**Battleworn**`,
     
     
     
@@ -87166,7 +87093,7 @@ Your next Brute attack this turn gains +2{p}.
 
     cost: 0,
     defense: 3,
-    functionalText: `**Combo** - If Crouching Tiger was the last attack this combat chain, this has +2{p}, **go again** and “When this hits, create X Crouching Tigers in your banished zone, where X is the number of Crouching Tigers you control. You may play them this turn.”`,
+    functionalText: `**Combo** - If Crouching Tiger was the last attack this combat chain, this has +2{p}, **go again** and "When this hits, create X Crouching Tigers in your banished zone, where X is the number of Crouching Tigers you control. You may play them this turn."`,
     
     
     
@@ -87944,7 +87871,7 @@ Crouching Tigers you control gain +1{p} this turn.
 
     cost: 0,
     
-    functionalText: `**Ephemeral** *(If Crouching Tiger would be put into a graveyard from anywhere, instead it ceases to exist.)*
+    functionalText: `**Ephemeral**
 
 **Go again**`,
     
@@ -87987,7 +87914,7 @@ Crouching Tigers you control gain +1{p} this turn.
 
     cost: 0,
     
-    functionalText: `**Legendary** *(You may only have 1 Spirit of Eirina in your deck.)*
+    functionalText: `**Legendary**
 
 If Spirit of Eirina would be put into your soul, instead put it into the arena.
 
@@ -88034,7 +87961,7 @@ You may play Lumina Ascension as though it were an instant.`,
     
     functionalText: `**Once per Turn Action** – {r}: **Attack**
 
-Whenever this hits a hero and you don’t control a Spellbane Aegis, create a Spellbane Aegis token. *(It’s an aura with “If your hero would be dealt arcane damage, you may destroy this to prevent 1 of that damage.”)*`,
+Whenever this hits a hero and you don't control a Spellbane Aegis, create a Spellbane Aegis token.`,
     
     
     
@@ -88083,7 +88010,7 @@ Whenever this hits a hero and you don’t control a Spellbane Aegis, create a Sp
     
     functionalText: `**Once per Turn Action** – {r}{r}{r}: **Atttack**
 
-Whenever Merciless Battleaxe attacks, if its {p} is greater than twice its base {p}, the attack gains **overpower**. *(This can’t be defended by more than 1 action card.)*`,
+Whenever Merciless Battleaxe attacks, if its {p} is greater than twice its base {p}, the attack gains **overpower**.`,
     
     
     
@@ -88179,7 +88106,7 @@ If another weapon you control has gained **go again** this turn, Quicksilver Dag
 
     cost: 1,
     defense: 3,
-    functionalText: `Your next axe attack this turn gains +4{p} and “When this hits a hero or ally, you may deal that much damage to another ally controlled by the same hero.”
+    functionalText: `Your next axe attack this turn gains +4{p} and "When this hits a hero or ally, you may deal that much damage to another ally controlled by the same hero."
 
 **Go again**`,
     
@@ -88396,7 +88323,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
 
     cost: 1,
     defense: 3,
-    functionalText: `Your next sword or dagger attack this turn has **go again** and **piercing 3**. *(If it’s defended by an equipment, it has +3{p}.)*
+    functionalText: `Your next sword or dagger attack this turn has **go again** and **piercing 3**.
 
 **Go again**`,
     
@@ -88439,7 +88366,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
 
     cost: 1,
     defense: 3,
-    functionalText: `Your next sword or dagger attack this turn has **go again** and **piercing 2**. *(If it’s defended by an equipment, it has +2{p}.)*
+    functionalText: `Your next sword or dagger attack this turn has **go again** and **piercing 2**.
 
 **Go again**`,
     
@@ -88482,7 +88409,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
 
     cost: 1,
     defense: 3,
-    functionalText: `Your next sword or dagger attack this turn has **go again** and **piercing 1**. *(If it’s defended by an equipment, it has +1{p}.)*
+    functionalText: `Your next sword or dagger attack this turn has **go again** and **piercing 1**.
 
 **Go again**`,
     
@@ -88525,7 +88452,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
 
     cost: 1,
     defense: 3,
-    functionalText: `Target sword or dagger attack gains +3{p} and **piercing 1**. *(If it’s defended by an equipment, it has +1{p}.)*`,
+    functionalText: `Target sword or dagger attack gains +3{p} and **piercing 1**.`,
     
     
     
@@ -88566,7 +88493,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
 
     cost: 1,
     defense: 3,
-    functionalText: `Target sword or dagger attack gains +2{p} and **piercing 1**. *(If it’s defended by an equipment, it has +1{p}.)*`,
+    functionalText: `Target sword or dagger attack gains +2{p} and **piercing 1**.`,
     
     
     
@@ -88607,7 +88534,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
 
     cost: 1,
     defense: 3,
-    functionalText: `Target sword or dagger attack gains +1{p} and **piercing 1**. *(If it’s defended by an equipment, it has +1{p}.)*`,
+    functionalText: `Target sword or dagger attack gains +1{p} and **piercing 1**.`,
     
     
     
@@ -88777,7 +88704,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
 
     cost: 0,
     defense: 3,
-    functionalText: `Sword and dagger attacks have **piercing 3** this turn. *(If it’s defended by an equipment, it has +3{p}.)*
+    functionalText: `Sword and dagger attacks have **piercing 3** this turn.
 
 **Go again**`,
     
@@ -88820,7 +88747,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
 
     cost: 0,
     defense: 3,
-    functionalText: `Sword and dagger attacks have **piercing 2** this turn. *(If it’s defended by an equipment, it has +2{p}.)*
+    functionalText: `Sword and dagger attacks have **piercing 2** this turn.
 
 **Go again**`,
     
@@ -88863,7 +88790,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
 
     cost: 0,
     defense: 3,
-    functionalText: `Sword and dagger attacks have **piercing 1** this turn. *(If it’s defended by an equipment, it has +1{p}.)*
+    functionalText: `Sword and dagger attacks have **piercing 1** this turn.
 
 **Go again**`,
     
@@ -88914,7 +88841,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     
     functionalText: `**Once per Turn Action** – Remove 2 steam counters from Hanabi Blaster: **Atttack**
 
-**Overpower** *(This can’t be defended by more than 1 action card.)*
+**Overpower**
 
 The third time you play a card with **boost** each turn, put a steam counter on Hanabi Blaster.`,
     
@@ -88959,7 +88886,7 @@ The third time you play a card with **boost** each turn, put a steam counter on 
     defense: 1,
     functionalText: `**Material** - While this is under a permanent, that permanent has +1{p}.
 
-**Battleworn** *(When the combat chain closes, if this defended, put a -1{d} counter on it.)*`,
+**Battleworn**`,
     
     
     
@@ -89000,7 +88927,7 @@ The third time you play a card with **boost** each turn, put a steam counter on 
 
     cost: 1,
     defense: 3,
-    functionalText: `When this attacks a hero, they reveal X cards from their hand, where X is the number of times you’ve **boosted** this combat chain. Choose an action card with {d} less than or equal to X, then add it to this chain link as a defending card.
+    functionalText: `When this attacks a hero, they reveal X cards from their hand, where X is the number of times you've **boosted** this combat chain. Choose an action card with {d} less than or equal to X, then add it to this chain link as a defending card.
 
 **Boost**`,
     
@@ -89094,9 +89021,7 @@ The next time a Mechanologist item with cost 2 or less is banished to pay a **bo
 
     cost: 4,
     defense: 3,
-    functionalText: `*(Constructs resolve flipped as an item in the arena.)*
-
-**Transform** target Mechanologist head, chest, arms, legs, weapon and 3 Hyper Drivers you control into Nitro Mechanoid. If you don’t, **negate** this. *(Put them under Nitro Mechanoid. If you don’t, put this in the graveyard.)*
+    functionalText: `**Transform** target Mechanologist head, chest, arms, legs, weapon and 3 Hyper Drivers you control into Nitro Mechanoid. If you don't, **negate** this.
 
 **Go again**`,
     
@@ -89147,9 +89072,9 @@ The next time a Mechanologist item with cost 2 or less is banished to pay a **bo
     defense: 5,
     functionalText: `**Action** – Banish a card from under Nitro Mechanoid: **Attack**
 
-**Overpower** *(The defending hero can’t defend Nitro Mechanoid with more than 1 action card.)*
+**Overpower**
 
-**Temper** *(When the combat chain closes, if this defended, put a -1{d} counter on it, then if it has 0{d}, destroy it.)*`,
+**Temper**`,
     
     
     
@@ -89276,7 +89201,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     defense: 3,
     functionalText: `Equipment have -1{d} while defending this combat chain.
 
-**Boost** *(As an additional cost to play this, you may banish the top card of your deck. If it’s Mechanologist, this gains go again.)*`,
+**Boost**`,
     
     
     
@@ -89319,7 +89244,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     defense: 3,
     functionalText: `Equipment have -1{d} while defending this combat chain.
 
-**Boost** *(As an additional cost to play this, you may banish the top card of your deck. If it’s Mechanologist, this gains go again.)*`,
+**Boost**`,
     
     
     
@@ -89362,7 +89287,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     defense: 3,
     functionalText: `Equipment have -1{d} while defending this combat chain.
 
-**Boost** *(As an additional cost to play this, you may banish the top card of your deck. If it’s Mechanologist, this gains go again.)*`,
+**Boost**`,
     
     
     
@@ -89528,7 +89453,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     defense: 3,
     functionalText: `When Crankshaft is banished to pay for a **boost** cost, put a steam counter on a Hyper Driver you control.
 
-**Boost** *(As an additional cost to play this, you may banish the top card of your deck. If it’s Mechanologist, this gains go again.)*`,
+**Boost**`,
     
     
     
@@ -89571,7 +89496,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     defense: 3,
     functionalText: `When Crankshaft is banished to pay for a **boost** cost, put a steam counter on a Hyper Driver you control.
 
-**Boost** *(As an additional cost to play this, you may banish the top card of your deck. If it’s Mechanologist, this gains go again.)*`,
+**Boost**`,
     
     
     
@@ -89614,7 +89539,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     defense: 3,
     functionalText: `When Crankshaft is banished to pay for a **boost** cost, put a steam counter on a Hyper Driver you control.
 
-**Boost** *(As an additional cost to play this, you may banish the top card of your deck. If it’s Mechanologist, this gains go again.)*`,
+**Boost**`,
     
     
     
@@ -89657,7 +89582,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     defense: 3,
     functionalText: `If you control a Hyper Driver, Jump Start costs {r} less to play.
 
-**Boost** *(As an additional cost to play this, you may banish the top card of your deck. If it’s Mechanologist, this gains go again.)*`,
+**Boost**`,
     
     
     
@@ -89700,7 +89625,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     defense: 3,
     functionalText: `If you control a Hyper Driver, Jump Start costs {r} less to play.
 
-**Boost** *(As an additional cost to play this, you may banish the top card of your deck. If it’s Mechanologist, this gains go again.)*`,
+**Boost**`,
     
     
     
@@ -89743,7 +89668,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     defense: 3,
     functionalText: `If you control a Hyper Driver, Jump Start costs {r} less to play.
 
-**Boost** *(As an additional cost to play this, you may banish the top card of your deck. If it’s Mechanologist, this gains go again.)*`,
+**Boost**`,
     
     
     
@@ -89993,7 +89918,7 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
 
     
     
-    functionalText: `Whenever you play a card with **contract**, you may look at the top card of target opponent’s deck. You may put it on the bottom.`,
+    functionalText: `Whenever you play a card with **contract**, you may look at the top card of target opponent's deck. You may put it on the bottom.`,
     
     hero: Hero.Arakni,
     intellect: 4,
@@ -90034,7 +89959,7 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
 
     
     
-    functionalText: `Whenever you play a card with **contract**, you may look at the top card of target opponent’s deck. You may put it on the bottom.`,
+    functionalText: `Whenever you play a card with **contract**, you may look at the top card of target opponent's deck. You may put it on the bottom.`,
     
     hero: Hero.Arakni,
     intellect: 4,
@@ -90069,11 +89994,11 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
       set: Release.Dynasty,
       
     },],
-    name: "Spider’s Bite",
-    rarities: [Rarity.Rare],
+    name: "Spider's Bite",
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["DYN115","DYN116"],
-    sets: [Release.Dynasty],
+    setIdentifiers: ["LGS111","DYN115","DYN116"],
+    sets: [Release.Promos,Release.Dynasty],
     specialImageName: "DYN115",
     subtypes: [Subtype.Dagger,Subtype.OneHanded],
     types: [Type.Weapon],
@@ -90083,7 +90008,7 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     
     functionalText: `**Once per Turn Action** – {r}{r}: **Attack**. **Go again**
 
-**Piercing 1** *(If this is defended by an equipment, it has +1{p}.)*
+**Piercing 1**
 
 When this hits a hero, the next time they defend with 1 or more attack action cards this turn, those cards have -1{d} while defending.`,
     
@@ -90134,9 +90059,9 @@ When this hits a hero, the next time they defend with 1 or more attack action ca
     defense: 1,
     functionalText: `While Blacktek Whisperers is in your graveyard, at the start of your turn, you may destroy 2 Silvers you control. If you do, equip Blacktek Whisperers.
 
-**Attack Reaction** – Destroy Blacktek Whisperers: Target Assassin attack action card gains “When this hits a hero, it gains **go again**.”
+**Attack Reaction** – Destroy Blacktek Whisperers: Target Assassin attack action card gains "When this hits a hero, it gains **go again**."
 
-**Battleworn** *(When the combat chain closes, if this defended, put a -1{d} counter on it.)*`,
+**Battleworn**`,
     
     
     
@@ -90181,7 +90106,7 @@ When this hits a hero, the next time they defend with 1 or more attack action ca
 
 **Attack Reaction** – Destroy Mask of Perdition: Target Assassin attack action card gains "When this hits a hero, banish the top card of their deck."
 
-**Battleworn** *(When the combat chain closes, if this defended, put a -1{d} counter on it.)*`,
+**Battleworn**`,
     
     
     
@@ -90314,13 +90239,13 @@ When this hits a hero, banish the top card of their deck and up to 1 card in the
 
     cost: 0,
     defense: 3,
-    functionalText: `**Legendary Arakni Specialization** *(You may only have 1 Regicide in your deck and only if your hero is Arakni.)*
+    functionalText: `**Legendary Arakni Specialization**
 
 When this hits a Royal hero, they lose the game.
 
 When the combat chain closes, you lose the game.
 
-Regicide can’t be defended by cards with the same name as cards in the defending hero’s banished zone.`,
+Regicide can't be defended by cards with the same name as cards in the defending hero's banished zone.`,
     
     
     
@@ -90826,7 +90751,7 @@ When this hits a hero, banish the top card of their deck.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `**Contract** – You are contracted to banish opponents' attack action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+    functionalText: `**Contract** – You are contracted to banish opponents' attack action cards. Whenever you complete this contract, create a Silver token.
 
 When this hits a hero, banish the top card of their deck.`,
     
@@ -90869,7 +90794,7 @@ When this hits a hero, banish the top card of their deck.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `**Contract** – You are contracted to banish opponents' attack action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+    functionalText: `**Contract** – You are contracted to banish opponents' attack action cards. Whenever you complete this contract, create a Silver token.
 
 When this hits a hero, banish the top card of their deck.`,
     
@@ -90912,7 +90837,7 @@ When this hits a hero, banish the top card of their deck.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `**Contract** – You are contracted to banish opponents' attack action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+    functionalText: `**Contract** – You are contracted to banish opponents' attack action cards. Whenever you complete this contract, create a Silver token.
 
 When this hits a hero, banish the top card of their deck.`,
     
@@ -90955,7 +90880,7 @@ When this hits a hero, banish the top card of their deck.`,
 
     cost: 0,
     defense: 3,
-    functionalText: `**Contract** – You are contracted to banish opponents' cards with 2 or less {d}. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+    functionalText: `**Contract** – You are contracted to banish opponents' cards with 2 or less {d}. Whenever you complete this contract, create a Silver token.
 
 When this hits a hero, banish the top card of their deck.`,
     
@@ -90998,7 +90923,7 @@ When this hits a hero, banish the top card of their deck.`,
 
     cost: 0,
     defense: 3,
-    functionalText: `**Contract** – You are contracted to banish opponents' cards with 2 or less {d}. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+    functionalText: `**Contract** – You are contracted to banish opponents' cards with 2 or less {d}. Whenever you complete this contract, create a Silver token.
 
 When this hits a hero, banish the top card of their deck.`,
     
@@ -91041,7 +90966,7 @@ When this hits a hero, banish the top card of their deck.`,
 
     cost: 0,
     defense: 3,
-    functionalText: `**Contract** – You are contracted to banish opponents' cards with 2 or less {d}. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+    functionalText: `**Contract** – You are contracted to banish opponents' cards with 2 or less {d}. Whenever you complete this contract, create a Silver token.
 
 When this hits a hero, banish the top card of their deck.`,
     
@@ -91084,7 +91009,7 @@ When this hits a hero, banish the top card of their deck.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `**Contract** – You are contracted to banish opponents' reaction cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+    functionalText: `**Contract** – You are contracted to banish opponents' reaction cards. Whenever you complete this contract, create a Silver token.
 
 When this hits a hero, banish the top card of their deck.`,
     
@@ -91127,7 +91052,7 @@ When this hits a hero, banish the top card of their deck.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `**Contract** – You are contracted to banish opponents' reaction cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+    functionalText: `**Contract** – You are contracted to banish opponents' reaction cards. Whenever you complete this contract, create a Silver token.
 
 When this hits a hero, banish the top card of their deck.`,
     
@@ -91170,7 +91095,7 @@ When this hits a hero, banish the top card of their deck.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `**Contract** – You are contracted to banish opponents' reaction cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+    functionalText: `**Contract** – You are contracted to banish opponents' reaction cards. Whenever you complete this contract, create a Silver token.
 
 When this hits a hero, banish the top card of their deck.`,
     
@@ -91213,7 +91138,7 @@ When this hits a hero, banish the top card of their deck.`,
 
     cost: 0,
     defense: 3,
-    functionalText: `**Contract** – You are contracted to banish opponents' cards with base **go again**. Whenever you complete this contract, create a Silver token. *(Base go again does not include go again gained by effects.)*
+    functionalText: `**Contract** – You are contracted to banish opponents' cards with base **go again**. Whenever you complete this contract, create a Silver token.
 
 When this hits a hero, banish the top card of their deck.`,
     
@@ -91256,7 +91181,7 @@ When this hits a hero, banish the top card of their deck.`,
 
     cost: 0,
     defense: 3,
-    functionalText: `**Contract** – You are contracted to banish opponents' cards with base **go again**. Whenever you complete this contract, create a Silver token. *(Base go again does not include go again gained by effects.)*
+    functionalText: `**Contract** – You are contracted to banish opponents' cards with base **go again**. Whenever you complete this contract, create a Silver token.
 
 When this hits a hero, banish the top card of their deck.`,
     
@@ -91299,7 +91224,7 @@ When this hits a hero, banish the top card of their deck.`,
 
     cost: 0,
     defense: 3,
-    functionalText: `**Contract** – You are contracted to banish opponents' cards with base **go again**. Whenever you complete this contract, create a Silver token. *(Base go again does not include go again gained by effects.)*
+    functionalText: `**Contract** – You are contracted to banish opponents' cards with base **go again**. Whenever you complete this contract, create a Silver token.
 
 When this hits a hero, banish the top card of their deck.`,
     
@@ -91342,7 +91267,7 @@ When this hits a hero, banish the top card of their deck.`,
 
     cost: 0,
     defense: 3,
-    functionalText: `**Contract** – You are contracted to banish opponents' 'non-attack' action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+    functionalText: `**Contract** – You are contracted to banish opponents' 'non-attack' action cards. Whenever you complete this contract, create a Silver token.
 
 When this hits a hero, banish the top card of their deck.`,
     
@@ -91385,7 +91310,7 @@ When this hits a hero, banish the top card of their deck.`,
 
     cost: 0,
     defense: 3,
-    functionalText: `**Contract** – You are contracted to banish opponents' 'non-attack' action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+    functionalText: `**Contract** – You are contracted to banish opponents' 'non-attack' action cards. Whenever you complete this contract, create a Silver token.
 
 When this hits a hero, banish the top card of their deck.`,
     
@@ -91428,7 +91353,7 @@ When this hits a hero, banish the top card of their deck.`,
 
     cost: 0,
     defense: 3,
-    functionalText: `**Contract** – You are contracted to banish opponents' 'non-attack' action cards. Whenever you complete this contract, create a Silver token. *(A contract is active while it's face up in the arena.)*
+    functionalText: `**Contract** – You are contracted to banish opponents' 'non-attack' action cards. Whenever you complete this contract, create a Silver token.
 
 When this hits a hero, banish the top card of their deck.`,
     
@@ -91637,7 +91562,7 @@ Whenever an arrow is put face up in arsenal from your deck, put an aim counter o
       set: Release.Dynasty,
       
     },],
-    name: "Hornet’s Sting",
+    name: "Hornet's Sting",
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DYN152"],
@@ -91649,9 +91574,9 @@ Whenever an arrow is put face up in arsenal from your deck, put an aim counter o
 
     
     defense: 1,
-    functionalText: `Whenever Hornet’s Sting defends, reveal the top card of your deck. If it’s an arrow, deal 1 damage to the attacking hero or ally. Otherwise, put it on the bottom of your deck.
+    functionalText: `Whenever Hornet's Sting defends, reveal the top card of your deck. If it's an arrow, deal 1 damage to the attacking hero or ally. Otherwise, put it on the bottom of your deck.
 
-**Blade Break** *(When the combat chain closes, if this defended, destroy it.)*`,
+**Blade Break**`,
     
     
     
@@ -91692,9 +91617,7 @@ Whenever an arrow is put face up in arsenal from your deck, put an aim counter o
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-When this hits, at the beginning of your end phase, put the top card of your deck face up into your arsenal.`,
+    functionalText: `When this hits, at the beginning of your end phase, put the top card of your deck face up into your arsenal.`,
     
     
     
@@ -91735,7 +91658,7 @@ When this hits, at the beginning of your end phase, put the top card of your dec
 
     cost: 0,
     defense: 3,
-    functionalText: `If Immobilizing Shot has an aim counter, it has “When this hits a hero, they can’t play more than 1 attack action card and 1 ‘non-attack’ action card during their next action phase.”`,
+    functionalText: `If Immobilizing Shot has an aim counter, it has "When this hits a hero, they can't play more than 1 attack action card and 1 'non-attack' action card during their next action phase."`,
     
     
     
@@ -91778,7 +91701,7 @@ When this hits, at the beginning of your end phase, put the top card of your dec
     defense: 3,
     functionalText: `Your next arrow attack this turn gains +3{p}.
 
-If it has an aim counter, it gains “When this hits a hero, look at their hand and choose a card. They discard it.”
+If it has an aim counter, it gains "When this hits a hero, look at their hand and choose a card. They discard it."
 
 **Go again**`,
     
@@ -91821,9 +91744,7 @@ If it has an aim counter, it gains “When this hits a hero, look at their hand 
 
     cost: 0,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-If Drill Shot has an aim counter, it has **piercing 1**. *(If this is defended by an equipment, it has +1{p}.)*
+    functionalText: `If Drill Shot has an aim counter, it has **piercing 1**.
 
 When this hits a hero, put a -1{d} counter on an equipment they control.`,
     
@@ -91866,9 +91787,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
 
     cost: 0,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-If Drill Shot has an aim counter, it has **piercing 1**. *(If this is defended by an equipment, it has +1{p}.)*
+    functionalText: `If Drill Shot has an aim counter, it has **piercing 1**.
 
 When this hits a hero, put a -1{d} counter on an equipment they control.`,
     
@@ -91911,9 +91830,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
 
     cost: 0,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-If Drill Shot has an aim counter, it has **piercing 1**. *(If this is defended by an equipment, it has +1{p}.)*
+    functionalText: `If Drill Shot has an aim counter, it has **piercing 1**.
 
 When this hits a hero, put a -1{d} counter on an equipment they control.`,
     
@@ -91956,7 +91873,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `At the start of your turn, destroy Blessing of Focus then **opt 3** and reveal the top card of your deck. If it’s an arrow, put it face up into your arsenal with an aim counter. *(Look at the top 3 cards of your deck. You may put them on the top and/or bottom in any order.)*`,
+    functionalText: `At the start of your turn, destroy Blessing of Focus then **opt 3** and reveal the top card of your deck. If it's an arrow, put it face up into your arsenal with an aim counter.`,
     
     
     
@@ -91997,7 +91914,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `At the start of your turn, destroy Blessing of Focus then **opt 2** and reveal the top card of your deck. If it’s an arrow, put it face up into your arsenal with an aim counter. *(Look at the top 2 cards of your deck. You may put them on the top and/or bottom in any order.)*`,
+    functionalText: `At the start of your turn, destroy Blessing of Focus then **opt 2** and reveal the top card of your deck. If it's an arrow, put it face up into your arsenal with an aim counter.`,
     
     
     
@@ -92038,7 +91955,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `At the start of your turn, destroy Blessing of Focus then **opt 1** and reveal the top card of your deck. If it’s an arrow, put it face up into your arsenal with an aim counter. *(Look at the top card of your deck. You may put it on the bottom.)*`,
+    functionalText: `At the start of your turn, destroy Blessing of Focus then **opt 1** and reveal the top card of your deck. If it's an arrow, put it face up into your arsenal with an aim counter.`,
     
     
     
@@ -92068,10 +91985,10 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
       
     },],
     name: "Hemorrhage Bore",
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["DYN162"],
-    sets: [Release.Dynasty],
+    setIdentifiers: ["LGS119","DYN162"],
+    sets: [Release.Promos,Release.Dynasty],
     specialImageName: "DYN162",
     subtypes: [Subtype.Attack,Subtype.Arrow],
     types: [Type.Action],
@@ -92079,9 +91996,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-If Hemorrhage Bore has an aim counter, it has “When this hits a hero, destroy a card in their arsenal.”`,
+    functionalText: `If Hemorrhage Bore has an aim counter, it has "When this hits a hero, destroy a card in their arsenal."`,
     
     
     
@@ -92111,10 +92026,10 @@ If Hemorrhage Bore has an aim counter, it has “When this hits a hero, destroy 
       
     },],
     name: "Hemorrhage Bore",
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["DYN163"],
-    sets: [Release.Dynasty],
+    setIdentifiers: ["LGS120","DYN163"],
+    sets: [Release.Promos,Release.Dynasty],
     specialImageName: "DYN163",
     subtypes: [Subtype.Attack,Subtype.Arrow],
     types: [Type.Action],
@@ -92122,9 +92037,7 @@ If Hemorrhage Bore has an aim counter, it has “When this hits a hero, destroy 
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-If Hemorrhage Bore has an aim counter, it has “When this hits a hero, destroy a card in their arsenal.”`,
+    functionalText: `If Hemorrhage Bore has an aim counter, it has "When this hits a hero, destroy a card in their arsenal."`,
     
     
     
@@ -92154,10 +92067,10 @@ If Hemorrhage Bore has an aim counter, it has “When this hits a hero, destroy 
       
     },],
     name: "Hemorrhage Bore",
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["DYN164"],
-    sets: [Release.Dynasty],
+    setIdentifiers: ["LGS121","DYN164"],
+    sets: [Release.Promos,Release.Dynasty],
     specialImageName: "DYN164",
     subtypes: [Subtype.Attack,Subtype.Arrow],
     types: [Type.Action],
@@ -92165,9 +92078,7 @@ If Hemorrhage Bore has an aim counter, it has “When this hits a hero, destroy 
 
     cost: 1,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-If Hemorrhage Bore has an aim counter, it has “When this hits a hero, destroy a card in their arsenal.”`,
+    functionalText: `If Hemorrhage Bore has an aim counter, it has "When this hits a hero, destroy a card in their arsenal."`,
     
     
     
@@ -92208,9 +92119,7 @@ If Hemorrhage Bore has an aim counter, it has “When this hits a hero, destroy 
 
     cost: 0,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-If Long Shot has an aim counter, it has +2{p}.`,
+    functionalText: `If Long Shot has an aim counter, it has +2{p}.`,
     
     
     
@@ -92251,9 +92160,7 @@ If Long Shot has an aim counter, it has +2{p}.`,
 
     cost: 0,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-If Long Shot has an aim counter, it has +2{p}.`,
+    functionalText: `If Long Shot has an aim counter, it has +2{p}.`,
     
     
     
@@ -92294,9 +92201,7 @@ If Long Shot has an aim counter, it has +2{p}.`,
 
     cost: 0,
     defense: 3,
-    functionalText: `*(Arrows can only be played from arsenal and only if you control a bow.)*
-
-If Long Shot has an aim counter, it has +2{p}.`,
+    functionalText: `If Long Shot has an aim counter, it has +2{p}.`,
     
     
     
@@ -92472,9 +92377,9 @@ If Long Shot has an aim counter, it has +2{p}.`,
 
     
     defense: 1,
-    functionalText: `**Instant** – Destroy Amethyst Tiara: Runechants you control have **spellvoid 1** this turn. *(If your hero would be dealt arcane damage, you may destroy this to prevent 1 of that damage.)*
+    functionalText: `**Instant** – Destroy Amethyst Tiara: Runechants you control have **spellvoid 1** this turn.
 
-**Blade Break** *(When the combat chain closes, if this defended, destroy it.)*`,
+**Blade Break**`,
     
     
     
@@ -92515,7 +92420,7 @@ If Long Shot has an aim counter, it has +2{p}.`,
 
     
     
-    functionalText: `**Once per Turn Action** – {r}{r}{r}: Draw a card. If an attack action card and a ‘non-attack’ action card were pitched this way, create a Runechant token.`,
+    functionalText: `**Once per Turn Action** – {r}{r}{r}: Draw a card. If an attack action card and a 'non-attack' action card were pitched this way, create a Runechant token.`,
     
     
     
@@ -92556,7 +92461,7 @@ If Long Shot has an aim counter, it has +2{p}.`,
 
     cost: 3,
     defense: 3,
-    functionalText: `If an attack action card and a ‘non-attack’ action card were pitched to play Cryptic Crossing, it has “The first time this deals damage to the defending hero, they discard a card and you draw a card.”`,
+    functionalText: `If an attack action card and a 'non-attack' action card were pitched to play Cryptic Crossing, it has "The first time this deals damage to the defending hero, they discard a card and you draw a card."`,
     
     
     
@@ -92599,7 +92504,7 @@ If Long Shot has an aim counter, it has +2{p}.`,
     defense: 2,
     functionalText: `If an attack action card was pitched to play Diabolic Ultimatum, each hero chooses and destroys an ally they control.
 
-If a ‘non-attack’ action card was pitched to play Diabolic Ultimatum, each hero chooses and destroys an aura they control.`,
+If a 'non-attack' action card was pitched to play Diabolic Ultimatum, each hero chooses and destroys an aura they control.`,
     
     
     
@@ -92683,7 +92588,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
 
     cost: 2,
     defense: 3,
-    functionalText: `When Deathly Duet attacks, if an attack action card was pitched to play it, it gains +2{p}. If a ‘non-attack’ action card was pitched to play it, create 2 Runechant tokens.`,
+    functionalText: `When Deathly Duet attacks, if an attack action card was pitched to play it, it gains +2{p}. If a 'non-attack' action card was pitched to play it, create 2 Runechant tokens.`,
     
     
     
@@ -92724,7 +92629,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
 
     cost: 2,
     defense: 3,
-    functionalText: `When Deathly Duet attacks, if an attack action card was pitched to play it, it gains +2{p}. If a ‘non-attack’ action card was pitched to play it, create 2 Runechant tokens.`,
+    functionalText: `When Deathly Duet attacks, if an attack action card was pitched to play it, it gains +2{p}. If a 'non-attack' action card was pitched to play it, create 2 Runechant tokens.`,
     
     
     
@@ -92765,7 +92670,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
 
     cost: 2,
     defense: 3,
-    functionalText: `When Deathly Duet attacks, if an attack action card was pitched to play it, it gains +2{p}. If a ‘non-attack’ action card was pitched to play it, create 2 Runechant tokens.`,
+    functionalText: `When Deathly Duet attacks, if an attack action card was pitched to play it, it gains +2{p}. If a 'non-attack' action card was pitched to play it, create 2 Runechant tokens.`,
     
     
     
@@ -92929,7 +92834,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
 
     cost: 1,
     defense: 3,
-    functionalText: `When Aether Slash attacks, if a ‘non-attack’ action card was pitched to play it, deal 1 arcane damage to any target.`,
+    functionalText: `When Aether Slash attacks, if a 'non-attack' action card was pitched to play it, deal 1 arcane damage to any target.`,
     
     
     
@@ -92970,7 +92875,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
 
     cost: 1,
     defense: 3,
-    functionalText: `When Aether Slash attacks, if a ‘non-attack’ action card was pitched to play it, deal 1 arcane damage to any target.`,
+    functionalText: `When Aether Slash attacks, if a 'non-attack' action card was pitched to play it, deal 1 arcane damage to any target.`,
     
     
     
@@ -93011,7 +92916,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
 
     cost: 1,
     defense: 3,
-    functionalText: `When Aether Slash attacks, if a ‘non-attack’ action card was pitched to play it, deal 1 arcane damage to any target.`,
+    functionalText: `When Aether Slash attacks, if a 'non-attack' action card was pitched to play it, deal 1 arcane damage to any target.`,
     
     
     
@@ -93052,7 +92957,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
 
     cost: 1,
     defense: 2,
-    functionalText: `The next Runeblade attack action card you play this turn gains “When this hits, create 3 Runechant tokens”.
+    functionalText: `The next Runeblade attack action card you play this turn gains "When this hits, create 3 Runechant tokens".
 
 If an attack card was pitched to play Runic Reaping, the next Runeblade attack action card you play this turn gains +1{p}.
 
@@ -93097,7 +93002,7 @@ If an attack card was pitched to play Runic Reaping, the next Runeblade attack a
 
     cost: 1,
     defense: 2,
-    functionalText: `The next Runeblade attack action card you play this turn gains “When this hits, create 2 Runechant tokens”.
+    functionalText: `The next Runeblade attack action card you play this turn gains "When this hits, create 2 Runechant tokens".
 
 If an attack card was pitched to play Runic Reaping, the next Runeblade attack action card you play this turn gains +1{p}.
 
@@ -93142,7 +93047,7 @@ If an attack card was pitched to play Runic Reaping, the next Runeblade attack a
 
     cost: 1,
     defense: 2,
-    functionalText: `The next Runeblade attack action card you play this turn gains “When this hits, create a Runechant token”.
+    functionalText: `The next Runeblade attack action card you play this turn gains "When this hits, create a Runechant token".
 
 If an attack card was pitched to play Runic Reaping, the next Runeblade attack action card you play this turn gains +1{p}.
 
@@ -93187,7 +93092,7 @@ If an attack card was pitched to play Runic Reaping, the next Runeblade attack a
 
     cost: 0,
     defense: 2,
-    functionalText: `Reveal the top card of your deck. If it’s red, create a Runechant token.
+    functionalText: `Reveal the top card of your deck. If it's red, create a Runechant token.
 
 **Go again**`,
     
@@ -93230,7 +93135,7 @@ If an attack card was pitched to play Runic Reaping, the next Runeblade attack a
 
     cost: 0,
     defense: 2,
-    functionalText: `Reveal the top card of your deck. If it’s yellow, create a Runechant token.
+    functionalText: `Reveal the top card of your deck. If it's yellow, create a Runechant token.
 
 **Go again**`,
     
@@ -93273,7 +93178,7 @@ If an attack card was pitched to play Runic Reaping, the next Runeblade attack a
 
     cost: 0,
     defense: 2,
-    functionalText: `Reveal the top card of your deck. If it’s blue, create a Runechant token.
+    functionalText: `Reveal the top card of your deck. If it's blue, create a Runechant token.
 
 **Go again**`,
     
@@ -93308,7 +93213,7 @@ If an attack card was pitched to play Runic Reaping, the next Runeblade attack a
       identifier: "DYN192",
       name: "DYN192_Marvel",
       set: Release.Dynasty,
-      treatment: Treatment.EA,
+      treatment: Treatment.AB,
     },],
     name: "Surgent Aethertide",
     rarities: [Rarity.Majestic,Rarity.Marvel],
@@ -93365,7 +93270,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
 
     
     
-    functionalText: `**Action** – {r}{r}{r}: Look at the top card of your deck. You may put it on the bottom. Create a Ponder token. *(It’s an aura with “At the beginning of your end phase, destroy Ponder and draw a card.”)*`,
+    functionalText: `**Action** – {r}{r}{r}: Look at the top card of your deck. You may put it on the bottom. Create a Ponder token.`,
     
     
     
@@ -93451,7 +93356,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     defense: 3,
     functionalText: `Deal 5 arcane damage to target hero.
 
-**Surge** - If this deals more than 5 damage, create a Ponder token. *(It’s an aura with “At the beginning of your end phase, destroy Ponder and draw a card.”)*`,
+**Surge** - If this deals more than 5 damage, create a Ponder token.`,
     
     
     
@@ -93492,7 +93397,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
 
     cost: 3,
     
-    functionalText: `Until end of turn, your hero gains “Whenever you draw a card this action phase, deal 1 arcane damage to any target”. *(Brainstorm itself does not have an arcane damage effect. It is not modified by arcane damage modifiers.)*`,
+    functionalText: `Until end of turn, your hero gains "Whenever you draw a card this action phase, deal 1 arcane damage to any target".`,
     
     
     
@@ -93823,7 +93728,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     defense: 3,
     functionalText: `Deal 3 arcane damage to target hero.
 
-**Surge** - If this deals more than 3 damage, **opt 1**. *(Look at the top card of your deck. You may put it on the bottom.)*`,
+**Surge** - If this deals more than 3 damage, **opt 1**.`,
     
     
     
@@ -93866,7 +93771,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     defense: 3,
     functionalText: `Deal 2 arcane damage to target hero.
 
-**Surge** - If this deals more than 2 damage, **opt 1**. *(Look at the top card of your deck. You may put it on the bottom.)*`,
+**Surge** - If this deals more than 2 damage, **opt 1**.`,
     
     
     
@@ -93909,7 +93814,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     defense: 3,
     functionalText: `Deal 1 arcane damage to target hero.
 
-**Surge** - If this deals more than 1 damage, **opt 1**. *(Look at the top card of your deck. You may put it on the bottom.)*`,
+**Surge** - If this deals more than 1 damage, **opt 1**.`,
     
     
     
@@ -94232,7 +94137,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
 
     cost: 2,
     defense: 3,
-    functionalText: `**Legendary** *(You may only have 1 Invoke Suraya in your deck.)*
+    functionalText: `**Legendary**
 
 **Transform** target Spectral Shield you control into Suraya, Arcane Herald.
 
@@ -94283,11 +94188,11 @@ The first card you play each turn with an arcane damage effect, instead deals th
 
     
     
-    functionalText: `**Once per Turn Action** – {p}{p}: **Attack**. Whenever Suraya attacks, you may banish a Light card from your hero’s soul. If you do, Suraya deals 1 arcane damage to any target.
+    functionalText: `**Once per Turn Action** – {p}{p}: **Attack**. Whenever Suraya attacks, you may banish a Light card from your hero's soul. If you do, Suraya deals 1 arcane damage to any target.
 
 Whenever Suraya deals damage, you gain that much {h}.
 
-**Ward 4** *(If your hero would be dealt damage, prevent 4 of that damage and destroy Suraya.)*`,
+**Ward 4**`,
     
     
     
@@ -94320,7 +94225,7 @@ Whenever Suraya deals damage, you gain that much {h}.
       identifier: "DYN213",
       name: "DYN213_Marvel",
       set: Release.Dynasty,
-      treatment: Treatment.EA,
+      treatment: Treatment.AB,
     },],
     name: "Celestial Kimono",
     rarities: [Rarity.Majestic,Rarity.Marvel],
@@ -94334,9 +94239,9 @@ Whenever Suraya deals damage, you gain that much {h}.
 
     
     
-    functionalText: `Once per turn, when Celestial Kimono or a non-token permanent you control with **ward** is destroyed, gain {p}.
+    functionalText: `Once per turn, when Celestial Kimono or a non-token permanent you control with **ward** is destroyed, gain {r}.
 
-**Ward 1** *(If your hero would be dealt damage, prevent 1 of that damage and destroy Celestial Kimono.)*`,
+**Ward 1**`,
     
     
     
@@ -94379,7 +94284,7 @@ Whenever Suraya deals damage, you gain that much {h}.
     
     functionalText: `When Wave of Reality is destroyed, create a Spectral Shield token.
 
-**Ward 1** *(If your hero would be dealt damage, prevent 1 of that damage and destroy Wave of Reality.)*`,
+**Ward 1**`,
     
     
     
@@ -94422,7 +94327,7 @@ Whenever Suraya deals damage, you gain that much {h}.
     defense: 3,
     functionalText: `When this attacks, name a card.  Cards with that name are Illusionist until end of turn.
 
-**Phantasm** *(When this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this and close the combat chain.)*`,
+**Phantasm**`,
     
     
     
@@ -94463,9 +94368,9 @@ Whenever Suraya deals damage, you gain that much {h}.
 
     cost: 0,
     defense: 3,
-    functionalText: `Spectral Procession’s {p} is equal to the number of Spectral Shields you control.
+    functionalText: `Spectral Procession's {p} is equal to the number of Spectral Shields you control.
 
-**Phantasm** *(When this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this and close the combat chain.)*`,
+**Phantasm**`,
     
     
     
@@ -94508,7 +94413,7 @@ Whenever Suraya deals damage, you gain that much {h}.
     defense: 2,
     functionalText: `At the beginning of your action phase, destroy Tome of Aeo then draw a card.
 
-**Ward 1** *(If your hero would be dealt damage, prevent 1 of that damage and destroy Tome of Aeo.)*`,
+**Ward 1**`,
     
     
     
@@ -94551,7 +94456,7 @@ Whenever Suraya deals damage, you gain that much {h}.
     defense: 2,
     functionalText: `At the start of your turn, destroy Blessing of Spirits then create 3 Spectral Shield tokens.
 
-**Ward 1** *(If your hero would be dealt damage, prevent 1 of that damage and destroy Blessing of Spirits.)*`,
+**Ward 1**`,
     
     
     
@@ -94594,7 +94499,7 @@ Whenever Suraya deals damage, you gain that much {h}.
     defense: 2,
     functionalText: `At the start of your turn, destroy Blessing of Spirits then create 2 Spectral Shield tokens.
 
-**Ward 1** *(If your hero would be dealt damage, prevent 1 of that damage and destroy Blessing of Spirits.)*`,
+**Ward 1**`,
     
     
     
@@ -94637,7 +94542,7 @@ Whenever Suraya deals damage, you gain that much {h}.
     defense: 2,
     functionalText: `At the start of your turn, destroy Blessing of Spirits then create a Spectral Shield token.
 
-**Ward 1** *(If your hero would be dealt damage, prevent 1 of that damage and destroy Blessing of Spirits.)*`,
+**Ward 1**`,
     
     
     
@@ -94680,7 +94585,7 @@ Whenever Suraya deals damage, you gain that much {h}.
     defense: 2,
     functionalText: `When Tranquil Passing enters the arena, you may banish target aura token or aura permanent with cost 3 or less controlled by an opponent until Tranquil Passing leaves the arena.
 
-**Ward 1** *(If your hero would be dealt damage, prevent 1 of that damage and destroy Tranquil Passing.)*`,
+**Ward 1**`,
     
     
     
@@ -94723,7 +94628,7 @@ Whenever Suraya deals damage, you gain that much {h}.
     defense: 2,
     functionalText: `When Tranquil Passing enters the arena, you may banish target aura token or aura permanent with cost 2 or less controlled by an opponent until Tranquil Passing leaves the arena.
 
-**Ward 1** *(If your hero would be dealt damage, prevent 1 of that damage and destroy Tranquil Passing.)*`,
+**Ward 1**`,
     
     
     
@@ -94766,7 +94671,7 @@ Whenever Suraya deals damage, you gain that much {h}.
     defense: 2,
     functionalText: `When Tranquil Passing enters the arena, you may banish target aura token or aura permanent with cost 1 or less controlled by an opponent until Tranquil Passing leaves the arena.
 
-**Ward 1** *(If your hero would be dealt damage, prevent 1 of that damage and destroy Tranquil Passing.)*`,
+**Ward 1**`,
     
     
     
@@ -94809,7 +94714,7 @@ Whenever Suraya deals damage, you gain that much {h}.
     defense: 3,
     functionalText: `When you play Spectral Prowler, if you control a Spectral Shield, this gains **go again**.
 
-**Phantasm** *(When this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this and close the combat chain.)*`,
+**Phantasm**`,
     
     
     
@@ -94852,7 +94757,7 @@ Whenever Suraya deals damage, you gain that much {h}.
     defense: 3,
     functionalText: `When you play Spectral Prowler, if you control a Spectral Shield, this gains **go again**.
 
-**Phantasm** *(When this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this and close the combat chain.)*`,
+**Phantasm**`,
     
     
     
@@ -94895,7 +94800,7 @@ Whenever Suraya deals damage, you gain that much {h}.
     defense: 3,
     functionalText: `When you play Spectral Prowler, if you control a Spectral Shield, this gains **go again**.
 
-**Phantasm** *(When this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this and close the combat chain.)*`,
+**Phantasm**`,
     
     
     
@@ -94936,9 +94841,9 @@ Whenever Suraya deals damage, you gain that much {h}.
 
     cost: 3,
     defense: 3,
-    functionalText: `When you play Spectral Rider, if you control a Spectral Shield, this gains **overpower**. *(This can’t be defended by more than 1 action card.)*
+    functionalText: `When you play Spectral Rider, if you control a Spectral Shield, this gains **overpower**.
 
-**Phantasm** *(When this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this and close the combat chain.)*`,
+**Phantasm**`,
     
     
     
@@ -94979,9 +94884,9 @@ Whenever Suraya deals damage, you gain that much {h}.
 
     cost: 3,
     defense: 3,
-    functionalText: `When you play Spectral Rider, if you control a Spectral Shield, this gains **overpower**. *(This can’t be defended by more than 1 action card.)*
+    functionalText: `When you play Spectral Rider, if you control a Spectral Shield, this gains **overpower**.
 
-**Phantasm** *(When this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this and close the combat chain.)*`,
+**Phantasm**`,
     
     
     
@@ -95022,9 +94927,9 @@ Whenever Suraya deals damage, you gain that much {h}.
 
     cost: 3,
     defense: 3,
-    functionalText: `When you play Spectral Rider, if you control a Spectral Shield, this gains **overpower**. *(This can’t be defended by more than 1 action card.)*
+    functionalText: `When you play Spectral Rider, if you control a Spectral Shield, this gains **overpower**.
 
-**Phantasm** *(When this is defended by a non-Illusionist attack action card with 6 or more {p}, destroy this and close the combat chain.)*`,
+**Phantasm**`,
     
     
     
@@ -95065,7 +94970,7 @@ Whenever Suraya deals damage, you gain that much {h}.
 
     cost: 0,
     defense: 2,
-    functionalText: `Reveal the top card of your deck. If it’s red, create a Spectral Shield token.
+    functionalText: `Reveal the top card of your deck. If it's red, create a Spectral Shield token.
 
 **Go again**`,
     
@@ -95108,7 +95013,7 @@ Whenever Suraya deals damage, you gain that much {h}.
 
     cost: 0,
     defense: 2,
-    functionalText: `Reveal the top card of your deck. If it’s yellow, create a Spectral Shield token.
+    functionalText: `Reveal the top card of your deck. If it's yellow, create a Spectral Shield token.
 
 **Go again**`,
     
@@ -95151,7 +95056,7 @@ Whenever Suraya deals damage, you gain that much {h}.
 
     cost: 0,
     defense: 2,
-    functionalText: `Reveal the top card of your deck. If it’s blue, create a Spectral Shield token.
+    functionalText: `Reveal the top card of your deck. If it's blue, create a Spectral Shield token.
 
 **Go again**`,
     
@@ -95192,7 +95097,7 @@ Whenever Suraya deals damage, you gain that much {h}.
       identifier: "DYN234",
       name: "DYN234_Marvel",
       set: Release.Dynasty,
-      treatment: Treatment.FA,
+      treatment: Treatment.EA,
     },],
     name: "Crown of Dominion",
     rarities: [Rarity.Promo,Rarity.Legendary,Rarity.Marvel],
@@ -95290,7 +95195,7 @@ When you equip Crown of Dominion, create a Gold token.`,
 
     
     defense: 0,
-    functionalText: `**Spellvoid 1** *(If your hero would be dealt arcane damage, you may destroy Spell Fray Tiara to prevent 1 of that damage.)*`,
+    functionalText: `**Spellvoid 1**`,
     
     
     
@@ -95331,9 +95236,9 @@ When you equip Crown of Dominion, create a Gold token.`,
 
     cost: 1,
     
-    functionalText: `**Legendary** *(You may only have 1 Imperial Edict in your deck.)*
+    functionalText: `**Legendary**
 
-**Action** – Destroy Imperial Edict: Name a card. The named card can’t be played until the start of your next turn. If you are Royal, instead each opponent reveals their hand, then name a card. **Go again**`,
+**Action** – Destroy Imperial Edict: Name a card. The named card can't be played until the start of your next turn. If you are Royal, instead each opponent reveals their hand, then name a card. **Go again**`,
     
     
     
@@ -95374,9 +95279,9 @@ When you equip Crown of Dominion, create a Gold token.`,
 
     cost: 0,
     
-    functionalText: `**Legendary** *(You may only have 1 Imperial Ledger in your deck.)*
+    functionalText: `**Legendary**
 
-**Action** – Shuffle Imperial Ledger into its owner’s deck: Create a Copper token. If you are Royal, instead create a Gold token.`,
+**Action** – Shuffle Imperial Ledger into its owner's deck: Create a Copper token. If you are Royal, instead create a Gold token.`,
     
     
     
@@ -95417,7 +95322,7 @@ When you equip Crown of Dominion, create a Gold token.`,
 
     cost: 2,
     
-    functionalText: `**Legendary** *(You may only have 1 Imperial Warhorn in your deck.)*
+    functionalText: `**Legendary**
 
 **Action** – {r}, destroy Imperial Warhorn: Choose any number of heroes. Each of them chooses an ally, aura, item, or landmark permanent they control. Destroy each permanent chosen this way. If you are Royal, instead you choose the permanents.`,
     
@@ -95542,7 +95447,7 @@ When you equip Crown of Dominion, create a Gold token.`,
 
     
     
-    functionalText: `**Spellvoid 1** *(If your hero would be dealt arcane damage, you may destroy Spellbane Aegis to prevent 1 of that damage.)*`,
+    functionalText: `**Spellvoid 1**`,
     
     
     
@@ -95568,7 +95473,7 @@ When you equip Crown of Dominion, create a Gold token.`,
     ...cards4,
   ];
 
-  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Maerel Hibadita","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wisniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Regina Krivolapova","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sariya Asavametha","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
+  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendrique Lindner","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Maerel Hibadita","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wisniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Regina Krivolapova","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sariya Asavametha","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
 
   export * from "./interfaces";
   
