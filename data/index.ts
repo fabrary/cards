@@ -658,9 +658,7 @@ When this hits a hero, create a Frailty token under their control.`,
 
     
     
-    functionalText: `Attack action cards you control with 2 or less {p} can't be defended by cards from hand. *(This includes defense reaction cards.)*
-
-**Once per Turn Effect** - When an attack action card you control hits, your next attack this turn gains +1{p}.`,
+    functionalText: `Attack action cards you control with 2 or less {p} can't be defended by cards from hand.  **Once per Turn Effect** - When an attack action card you control hits, your next attack this turn gains +1{p}.`,
     
     hero: Hero.Benji,
     intellect: 4,
@@ -701,7 +699,7 @@ When this hits a hero, create a Frailty token under their control.`,
 
     cost: 2,
     defense: 3,
-    functionalText: `**Combo** - If a card with Gustwave in its name was the last attack this combat chain, this costs {r}{r} less to play, and has **go again** and When this attacks, you may banish a card with **combo** from your graveyard. If you do, search your deck for a card with the same name, banish it, then shuffle. You may play it this combat chain.`,
+    functionalText: `**Combo** - If a card with Gustwave in its name was the last attack this combat chain, this costs {r}{r} less to play, and has **go again** and "When this attacks, you may banish a card with **combo** from your graveyard. If you do, search your deck for a card with the same name, banish it, then shuffle. You may play it this combat chain."`,
     
     
     
@@ -784,7 +782,7 @@ When this hits a hero, create a Frailty token under their control.`,
 
     
     
-    functionalText: `**Once per Turn Action** - 0: Put a card from your arsenal on the bottom of your deck. If you do, put the top card of your deck face up into your arsenal. If it’s an arrow card, it gains **dominate** until end of turn. **Go again** *(The defending hero can’t defend the attack with more than 1 card from their hand.)*`,
+    functionalText: `**Once per Turn Action** - 0: Put a card from your arsenal on the bottom of your deck. If you do, put the top card of your deck face up into your arsenal. If it’s an arrow card, it gains **dominate** until end of turn. **Go again**`,
     
     hero: Hero.Azalea,
     intellect: 4,
@@ -849,7 +847,7 @@ When this hits a hero, create a Frailty token under their control.`,
 
     
     
-    functionalText: `**Once per Turn Action** - 0: Put a card from your arsenal on the bottom of your deck. If you do, put the top card of your deck face up into your arsenal. If it’s an arrow card, it gains **dominate** until end of turn. **Go again** *(The defending hero can’t defend the attack with more than 1 card from their hand.)*`,
+    functionalText: `**Once per Turn Action** - 0: Put a card from your arsenal on the bottom of your deck. If you do, put the top card of your deck face up into your arsenal. If it’s an arrow card, it gains **dominate** until end of turn. **Go again**`,
     
     hero: Hero.Azalea,
     intellect: 4,
@@ -987,6 +985,49 @@ When this hits a hero, create a Frailty token under their control.`,
     
     
     
+    
+    
+  },{
+    artists: ["Raphael Pinna"],
+    cardIdentifier: "collapsing-trap-blue",
+    classes: [Class.Ranger],
+    defaultImageName: "OUT103",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT103",
+      name: "OUT103",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Collapsing Trap",
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT103"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT103",
+    subtypes: [Subtype.Trap],
+    types: [Type.DefenseReaction],
+    typeText: "Ranger Defense Reaction - Trap",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Legendary Riptide Specialization**
+
+When this defends an attack with **go again**, the attacking hero discards their hand then draws that many cards minus 1.`,
+    
+    
+    
+    
+    keywords: [Keyword.Legendary,Keyword.Specialization],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    specializations: [Hero.Riptide],
     
     
   },{
@@ -1327,6 +1368,49 @@ At the beginning of your end phase destroy Frailty.`,
     
     
     functionalText: `At the beginning of your end phase, destroy Inertia, then put all cards from your hand and arsenal on the bottom of your deck.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tanapon Wachirakul"],
+    cardIdentifier: "barbed-castaway",
+    classes: [Class.Ranger],
+    defaultImageName: "LGS129",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "LGS129",
+      name: "LGS129",
+      set: Release.Promos,
+      
+    },],
+    name: "Barbed Castaway",
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS129"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImageName: "LGS129",
+    subtypes: [Subtype.Bow,Subtype.TwoHanded],
+    types: [Type.Weapon],
+    typeText: "Ranger Weapon - Bow (2H)",
+
+    
+    
+    functionalText: `**Once per Turn Instant** - {r}: You may put an arrow card from your hand face up into your arsenal.
+
+**Once per Turn Instant** - {r}: You may turn a face down arrow in your arsenal face up. If you do, put an aim counter on it.`,
     
     
     
@@ -26839,7 +26923,8 @@ If Force Sight is played from arsenal, **opt 2**.
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Le Vuong"],
     cardIdentifier: "force-sight-blue",
     classes: [Class.Generic],
@@ -26896,8 +26981,7 @@ If Force Sight is played from arsenal, **opt 2**.
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["David Ogilvie"],
     cardIdentifier: "lead-the-charge-red",
     classes: [Class.Generic],
@@ -51909,7 +51993,8 @@ If Overload hits, it gains **go again**.`,
     
     
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Kyxarie Peralta"],
     cardIdentifier: "surging-militia-yellow",
     classes: [Class.Generic],
@@ -51956,8 +52041,7 @@ If Overload hits, it gains **go again**.`,
     
     
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Kyxarie Peralta"],
     cardIdentifier: "surging-militia-blue",
     classes: [Class.Generic],
@@ -95473,7 +95557,7 @@ When you equip Crown of Dominion, create a Gold token.`,
     ...cards4,
   ];
 
-  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendrique Lindner","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Maerel Hibadita","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wisniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Regina Krivolapova","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sariya Asavametha","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
+  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendrique Lindner","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Maerel Hibadita","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wisniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sariya Asavametha","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
 
   export * from "./interfaces";
   
