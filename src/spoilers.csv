@@ -20,9 +20,9 @@ OUT017	OUT
 OUT018	OUT																																			
 OUT019	OUT																																			
 OUT020	OUT																																			
-OUT021	OUT	Spike with Bloodrot	1	1		3			R	Assassin, Attack Reaction					"Target attack action card with **stealth** gains +3{p} and ""When this hits a hero, create a Bloodrot Pox token under their control."""		Assassin Attack Reaction	Mateusz Wisniewski				No													S – OUT021 – N	/OUT021.png – OUT021 – N
-OUT022	OUT	Spike with Frailty	1	1		3			R	Assassin, Attack Reaction					"Target attack action card with **stealth** gains +3{p} and ""When this hits a hero, create a Frailty token under their control."""		Assassin Attack Reaction	Carlos Cruchaga				No													S – OUT022 – N	/OUT022.png – OUT022 – N
-OUT023	OUT	Spike with Inertia	1	1		3			R	Assassin, Attack Reaction					"Target attack action card with **stealth** gains +3{p} and ""When this hits a hero, create an Inertia token under their control."""		Assassin Attack Reaction	Federico Musetti				No													S – OUT023 – N	/OUT023.png – OUT023 – N
+OUT021, LGS130	OUT, LGS	Spike with Bloodrot	1	1		3			R, P	Assassin, Attack Reaction					"Target attack action card with **stealth** gains +3{p} and ""When this hits a hero, create a Bloodrot Pox token under their control."""		Assassin Attack Reaction	Mateusz Wisniewski				No													R – LGS130 – N, S – OUT021 – N	/LGS130.png – LGS130 – N, /OUT021.png – OUT021 – N
+OUT022, LGS131	OUT, LGS	Spike with Frailty	1	1		3			R, P	Assassin, Attack Reaction					"Target attack action card with **stealth** gains +3{p} and ""When this hits a hero, create a Frailty token under their control."""		Assassin Attack Reaction	Carlos Cruchaga				No													R – LGS131 – N, S – OUT022 – N	/LGS131.png – LGS131 – N, /OUT022.png – OUT022 – N
+OUT023, LGS132	OUT, LGS	Spike with Inertia	1	1		3			R, P	Assassin, Attack Reaction					"Target attack action card with **stealth** gains +3{p} and ""When this hits a hero, create an Inertia token under their control."""		Assassin Attack Reaction	Federico Musetti				No													R – LGS132 – N, S – OUT023 – N	/LGS132.png – LGS132 – N, /OUT023.png – OUT023 – N
 OUT024	OUT	Infect	1	0	3	3			C	Assassin, Action, Attack	Stealth				"**Stealth**
 
 When this hits a hero, create a Bloodrot Pox token under their control."		Assassin Action - Attack	Muhammad Fajri																	S – OUT024 – N	/OUT024.png – OUT024 – N
