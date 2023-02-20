@@ -18,7 +18,9 @@ const parsedSpoilers = parse(csvSpoilers, {
   dynamicTyping: true,
   skipEmptyLines: true,
 });
-const parsedCardsSpoilers = parsedSpoilers.data;
+const parsedCardsSpoilers = parsedSpoilers.data.filter(
+  (card) => !!(card as { Name: string }).Name
+);
 const totalCards = [...parsedCards, ...parsedCardsSpoilers];
 
 // Missing cards

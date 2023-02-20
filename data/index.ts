@@ -982,7 +982,7 @@ When this hits a hero, create a Frailty token under their control.`,
     setIdentifiers: ["OUT096"],
     sets: [Release.Outsiders],
     specialImageName: "OUT096",
-    subtypes: [],
+    subtypes: [Subtype.Quiver],
     types: [Type.Equipment],
     typeText: "Ranger Equipment - Quiver",
 
