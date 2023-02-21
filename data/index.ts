@@ -695,6 +695,49 @@ When this hits a hero, create a Frailty token under their control.`,
     young: true
   },{
     artists: ["Faizal Fikri"],
+    cardIdentifier: "dishonor-blue",
+    classes: [Class.Ninja],
+    defaultImageName: "OUT051",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT051",
+      name: "OUT051",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Dishonor",
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT051"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT051",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Combo** - If Bonds of Ancestry was the last attack this combat chain, this has +2 {p}.
+
+When this hits a hero, if you control Surging Strike, Descendent Gustwave, and Bonds of Ancestry, that hero loses all abilities for the rest of the game.`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo],
+    
+    
+    pitch: 3,
+    power: 2,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Faizal Fikri"],
     cardIdentifier: "bonds-of-ancestry-red",
     classes: [Class.Ninja],
     defaultImageName: "OUT056",
@@ -26884,7 +26927,8 @@ If Force Sight is played from arsenal, **opt 2**.
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Le Vuong"],
     cardIdentifier: "force-sight-yellow",
     classes: [Class.Generic],
@@ -26941,8 +26985,7 @@ If Force Sight is played from arsenal, **opt 2**.
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Le Vuong"],
     cardIdentifier: "force-sight-blue",
     classes: [Class.Generic],
