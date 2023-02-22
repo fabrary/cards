@@ -78,6 +78,7 @@ export enum Format {
   ClassicConstructed = "Classic Constructed",
   Commoner = "Commoner",
   Draft = "Draft",
+  Open = "Open",
   Sealed = "Sealed",
   UltimatePitFight = "Ultimate Pit Fight",
 }
