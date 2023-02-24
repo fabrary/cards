@@ -694,6 +694,49 @@ When this hits a hero, create a Frailty token under their control.`,
     
     young: true
   },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "mask-of-many-faces",
+    classes: [Class.Ninja],
+    defaultImageName: "OUT049",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT049",
+      name: "OUT049",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Mask of Many Faces",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT049"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT049",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Ninja Equipment - Head",
+
+    
+    defense: 1,
+    functionalText: `**Instant** - {r}, destroy Mask of Many Faces: Name a card. The next attack action card you play this turn gains that name.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "dishonor-blue",
     classes: [Class.Ninja],
@@ -729,6 +772,49 @@ When this hits a hero, if you control Surging Strike, Descendent Gustwave, and B
     
     pitch: 3,
     power: 2,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "head-leads-the-tail-red",
+    classes: [Class.Ninja],
+    defaultImageName: "OUT052",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT052",
+      name: "OUT052",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Head Leads the Tail",
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT052"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT052",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `When this attacks, name another card. Attack action cards with that name have +1 {p} this combat chain.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 3,
     restrictedFormats: [Format.Commoner],
     
     
@@ -26870,7 +26956,8 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Le Vuong"],
     cardIdentifier: "force-sight-red",
     classes: [Class.Generic],
@@ -26927,8 +27014,7 @@ If Force Sight is played from arsenal, **opt 2**.
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Le Vuong"],
     cardIdentifier: "force-sight-yellow",
     classes: [Class.Generic],
@@ -52007,7 +52093,8 @@ If Overload hits, it gains **go again**.`,
     
     
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Kyxarie Peralta"],
     cardIdentifier: "surging-militia-red",
     classes: [Class.Generic],
@@ -52054,8 +52141,7 @@ If Overload hits, it gains **go again**.`,
     
     
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Kyxarie Peralta"],
     cardIdentifier: "surging-militia-yellow",
     classes: [Class.Generic],
@@ -74963,7 +75049,8 @@ While Ruk'utan is face up in arsenal, whenever you play a card with 6 or more {p
     
     
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Faizal Fikri"],
     cardIdentifier: "dodge-blue",
     classes: [Class.Generic],
@@ -75004,8 +75091,7 @@ While Ruk'utan is face up in arsenal, whenever you play a card with 6 or more {p
     
     
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Steve Argyle"],
     cardIdentifier: "blood-of-the-dracai-red",
     classes: [Class.NotClassed],
