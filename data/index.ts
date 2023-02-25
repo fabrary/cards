@@ -864,6 +864,49 @@ When this hits a hero, if you control Surging Strike, Descendent Gustwave, and B
     
     
   },{
+    artists: ["Enmoire"],
+    cardIdentifier: "be-like-water-red",
+    classes: [Class.Ninja],
+    defaultImageName: "OUT068",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT068",
+      name: "OUT068",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Be Like Water",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT068"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT068",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `When this hits, you may pay {r}. If you do, choose Head Jab, Surging Strike, or Twin Twisters. This gains the chosen name.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Maxim Kostin"],
     cardIdentifier: "azalea-ace-in-the-hole",
     classes: [Class.Ranger],
@@ -26889,7 +26932,8 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Andrey Savchuk"],
     cardIdentifier: "come-to-fight-blue",
     classes: [Class.Generic],
@@ -26956,8 +27000,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Le Vuong"],
     cardIdentifier: "force-sight-red",
     classes: [Class.Generic],
@@ -52046,7 +52089,8 @@ If Overload hits, it gains **go again**.`,
     
     
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "stony-woottonhog-blue",
     classes: [Class.Generic],
@@ -52093,8 +52137,7 @@ If Overload hits, it gains **go again**.`,
     
     
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Kyxarie Peralta"],
     cardIdentifier: "surging-militia-red",
     classes: [Class.Generic],
