@@ -20,11 +20,11 @@
     artists: [],
     cardIdentifier: "uzuri-switchblade",
     classes: [Class.Assassin],
-    defaultImageName: "OUT001.width-450",
+    defaultImageName: "OUT001",
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "OUT001",
-      name: "OUT001.width-450",
+      name: "OUT001",
       set: Release.Outsiders,
       
     },],
@@ -33,14 +33,14 @@
     rarity: Rarity.Token,
     setIdentifiers: ["OUT001"],
     sets: [Release.Outsiders],
-    specialImageName: "OUT001.width-450",
+    specialImageName: "OUT001",
     subtypes: [],
     types: [Type.Hero],
     typeText: "Assassin Hero",
 
     
     
-    
+    functionalText: `**Once per Turn Attack Reaction** - Banish a card from your hand face down: Turn the card banished this way face up. If it's an attack action card with cost 2 or less, put target attacking card with **stealth** from the active chain link on the bottom of it's owner's deck, then put the banished card onto the active chain link as the attacking card.`,
     
     hero: Hero.Uzuri,
     intellect: 4,
@@ -61,11 +61,11 @@
     artists: [],
     cardIdentifier: "uzuri",
     classes: [Class.Assassin],
-    defaultImageName: "OUT002.width-450",
+    defaultImageName: "OUT002",
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "OUT002",
-      name: "OUT002.width-450",
+      name: "OUT002",
       set: Release.Outsiders,
       
     },],
@@ -74,14 +74,14 @@
     rarity: Rarity.Token,
     setIdentifiers: ["OUT002"],
     sets: [Release.Outsiders],
-    specialImageName: "OUT002.width-450",
+    specialImageName: "OUT002",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Assassin Hero – Young",
 
     
     
-    
+    functionalText: `**Once per Turn Attack Reaction** - Banish a card from your hand face down: Turn the card banished this way face up. If it's an attack action card with cost 2 or less, put target attacking card with **stealth** from the active chain link on the bottom of it's owner's deck, then put the banished card onto the active chain link as the attacking card.`,
     
     hero: Hero.Uzuri,
     intellect: 4,
@@ -139,6 +139,92 @@
     
     
     young: true
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "shake-down-red",
+    classes: [Class.Assassin],
+    defaultImageName: "OUT013",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT013",
+      name: "OUT013",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Shake Down",
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT013"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT013",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Uzuri Specialization**
+
+If you've played or activated an attack reaction this chain link, Shake Down has "When this hits a hero, choose red, yellow, or blue. They reveal their hand. Banish a card of the chosen color."`,
+    
+    
+    
+    
+    keywords: [Keyword.Specialization],
+    
+    
+    pitch: 1,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    specializations: [Hero.Uzuri],
+    
+    
+  },{
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "back-stab-red",
+    classes: [Class.Assassin],
+    defaultImageName: "OUT015",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT015",
+      name: "OUT015",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Back Stab",
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT015"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT015",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+Defense reactions can't be played to Back Stab's chain link.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
   },{
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "spike-with-bloodrot-red",
@@ -312,6 +398,49 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     
     
     
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "isolate-red",
+    classes: [Class.Assassin],
+    defaultImageName: "OUT027",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT027",
+      name: "OUT027",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Isolate",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT027"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT027",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+**Dominate**`,
+    
+    
+    
+    
+    keywords: [Keyword.Dominate],
     
     
     pitch: 1,
@@ -760,7 +889,7 @@ When this hits a hero, create a Frailty token under their control.`,
 
     cost: 0,
     defense: 3,
-    functionalText: `**Combo** - If Bonds of Ancestry was the last attack this combat chain, this has +2 {p}.
+    functionalText: `**Combo** - If Bonds of Ancestry was the last attack this combat chain, this has +2{p}.
 
 When this hits a hero, if you control Surging Strike, Descendent Gustwave, and Bonds of Ancestry, that hero loses all abilities for the rest of the game.`,
     
@@ -803,7 +932,7 @@ When this hits a hero, if you control Surging Strike, Descendent Gustwave, and B
 
     cost: 1,
     defense: 2,
-    functionalText: `When this attacks, name another card. Attack action cards with that name have +1 {p} this combat chain.
+    functionalText: `When this attacks, name another card. Attack action cards with that name have +1{p} this combat chain.
 
 **Go again**`,
     
@@ -26810,7 +26939,8 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Andrey Savchuk"],
     cardIdentifier: "come-to-fight-red",
     classes: [Class.Generic],
@@ -26932,8 +27062,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Andrey Savchuk"],
     cardIdentifier: "come-to-fight-blue",
     classes: [Class.Generic],
@@ -52042,7 +52171,8 @@ If Overload hits, it gains **go again**.`,
     
     
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "stony-woottonhog-yellow",
     classes: [Class.Generic],
@@ -52089,8 +52219,7 @@ If Overload hits, it gains **go again**.`,
     
     
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "stony-woottonhog-blue",
     classes: [Class.Generic],
@@ -75049,7 +75178,8 @@ While Ruk'utan is face up in arsenal, whenever you play a card with 6 or more {p
     
     
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Stanislav Sherbakov"],
     cardIdentifier: "clearing-bellow-blue",
     classes: [Class.Brute],
@@ -75092,8 +75222,7 @@ While Ruk'utan is face up in arsenal, whenever you play a card with 6 or more {p
     
     
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "dodge-blue",
     classes: [Class.Generic],
@@ -90372,7 +90501,7 @@ When this hits a hero, the next time they defend with 1 or more attack action ca
     specialImageName: "DYN118",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
-    typeText: "Assasin Equipment – Head",
+    typeText: "Assassin Equipment – Head",
 
     
     defense: 1,
@@ -95747,7 +95876,7 @@ When you equip Crown of Dominion, create a Gold token.`,
     ...cards4,
   ];
 
-  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendrique Lindner","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Maerel Hibadita","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wisniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sariya Asavametha","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
+  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendrique Lindner","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Maerel Hibadita","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wisniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sariya Asavametha","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tomasz Jedruszek","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
 
   export * from "./interfaces";
   

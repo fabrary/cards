@@ -1,7 +1,7 @@
 Identifiers	Set Identifiers	Name	Pitch	Cost	Power	Defense	Health	Intelligence	Rarity	Types	Card Keywords	Abilities and Effects	Ability and Effect Keywords	Granted Keywords	Functional Text	Flavor Text	Type Text	Artists	Card Played Horizontally	Blitz Legal	CC Legal	Commoner Legal	Blitz Living Legend	CC Living Legend	Blitz Banned	CC Banned	Commoner Banned	UPF Banned	Blitz Suspended Start	Blitz Suspended End	CC Suspended Start	CC Suspended End	Commoner Suspended Start	Commoner Suspended End	Variations	Image URLs
 OUT000	OUT																																			
-OUT001	OUT	Uzuri, Switchblade					40	4	T	Assassin, Hero							Assassin Hero					No													S – OUT001 – N	/OUT001.width-450.png – OUT001 – N
-OUT002	OUT	Uzuri					20	4	T	Assassin, Hero, Young							Assassin Hero – Young																		S – OUT002 – N	/OUT002.width-450.png – OUT002 – N
+OUT001	OUT	Uzuri, Switchblade					40	4	T	Assassin, Hero		Once per Turn Attack Reaction			**Once per Turn Attack Reaction** - Banish a card from your hand face down: Turn the card banished this way face up. If it's an attack action card with cost 2 or less, put target attacking card with **stealth** from the active chain link on the bottom of it's owner's deck, then put the banished card onto the active chain link as the attacking card.		Assassin Hero					No													S – OUT001 – N	/OUT001.png – OUT001 – N
+OUT002	OUT	Uzuri					20	4	T	Assassin, Hero, Young		Once per Turn Attack Reaction			**Once per Turn Attack Reaction** - Banish a card from your hand face down: Turn the card banished this way face up. If it's an attack action card with cost 2 or less, put target attacking card with **stealth** from the active chain link on the bottom of it's owner's deck, then put the banished card onto the active chain link as the attacking card.		Assassin Hero – Young																		S – OUT002 – N	/OUT002.png – OUT002 – N
 OUT003	OUT	Arakni, Solitary Confinement					19	4	T	Assassin, Hero, Young							Assassin Hero – Young																		S – OUT003 – N	/OUT003.width-450.png – OUT003 – N
 OUT004	OUT																																			
 OUT005	OUT																																			
@@ -12,9 +12,13 @@ OUT009	OUT
 OUT010	OUT																																			
 OUT011	OUT																																			
 OUT012	OUT																																			
-OUT013	OUT																																			
+OUT013	OUT	Shake Down	1	2	6	3			M	Assassin, Action, Attack	Uzuri Specialization				"**Uzuri Specialization**
+
+If you've played or activated an attack reaction this chain link, Shake Down has ""When this hits a hero, choose red, yellow, or blue. They reveal their hand. Banish a card of the chosen color."""		Assassin Action - Attack	Tomasz Jedruszek				No													S – OUT013 – N	/OUT013.png – OUT013 – N
 OUT014	OUT																																			
-OUT015	OUT																																			
+OUT015	OUT	Back Stab	1	0	3	3			R	Assassin, Action, Attack	Stealth				"**Stealth**
+
+Defense reactions can't be played to Back Stab's chain link."		Assassin Action - Attack	Henrique Lindner				No													S – OUT015 – N	/OUT015.png – OUT015 – N
 OUT016	OUT																																			
 OUT017	OUT																																			
 OUT018	OUT																																			
@@ -28,7 +32,9 @@ OUT024	OUT	Infect	1	0	3	3			C	Assassin, Action, Attack	Stealth				"**Stealth**
 When this hits a hero, create a Bloodrot Pox token under their control."		Assassin Action - Attack	Muhammad Fajri																	S – OUT024 – N	/OUT024.png – OUT024 – N
 OUT025	OUT																																			
 OUT026	OUT																																			
-OUT027	OUT																																			
+OUT027	OUT	Isolate	1	0	3	3			C	Assassin, Action, Attack	Stealth, Dominate				"**Stealth**
+
+**Dominate**"		Assassin Action - Attack	Shen Fei																	S – OUT027 – N	/OUT027.png – OUT027 – N
 OUT028	OUT																																			
 OUT029	OUT																																			
 OUT030	OUT																																			
@@ -56,14 +62,14 @@ HER007, HER056, XXX004, KSU002, 1HP087, WTR077, OUT046	HER, HER, XXX, KSU, 1HP, 
 /OUT046.width-450.png – OUT046 – N"
 HER026, 1HP088, CRU047, OUT047	HER, 1HP, CRU, OUT	Benji, the Piercing Wind					17	4	P, R, R	Ninja, Hero, Young		Once per Turn Effect			Attack action cards you control with 2 or less {p} can't be defended by cards from hand.  **Once per Turn Effect** - When an attack action card you control hits, your next attack this turn gains +1{p}.		Ninja Hero – Young	Sam Yang			No														C – HER026 – N, S – 1HP088 – N, S – CRU047 – F, R – CRU047 – F – AT, S R – CRU047 – U, S – OUT047 – N	https://storage.googleapis.com/fabmaster/cardfaces/promos/HER026.png – HER026 – N, https://storage.googleapis.com/fabmaster/media/images/1HP088.width-450.png – 1HP088 – N, https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU047.png – CRU047 – F, https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU047-RF.png – CRU047 – F – AT, https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU047.png – CRU047 – U, /OUT047.width-450.png – OUT047 – N
 OUT048	OUT																																			
-OUT049	OUT	Mask of Many Faces				1			C	Ninja, Equipment, Head	Instant, Blade Break				"**Instant** - {r}, destroy Mask of Many Faces: Name a card. The next attack action card you play this turn gains that name.
+OUT049	OUT	Mask of Many Faces				1			C	Ninja, Equipment, Head	Blade Break	Instant			"**Instant** - {r}, destroy Mask of Many Faces: Name a card. The next attack action card you play this turn gains that name.
 
 **Blade Break**"		Ninja Equipment - Head	Carlos Cruchaga																	S – OUT049 – N	/OUT049.png – OUT049 – N
 OUT050	OUT																																			
-OUT051	OUT	Dishonor	3	0	2	3			M	Ninja, Action, Attack	Combo				"**Combo** - If Bonds of Ancestry was the last attack this combat chain, this has +2 {p}.
+OUT051	OUT	Dishonor	3	0	2	3			M	Ninja, Action, Attack	Combo				"**Combo** - If Bonds of Ancestry was the last attack this combat chain, this has +2{p}.
 
 When this hits a hero, if you control Surging Strike, Descendent Gustwave, and Bonds of Ancestry, that hero loses all abilities for the rest of the game."		Ninja Action - Attack	Faizal Fikri				No													S – OUT051 – N	/OUT051.png – OUT051 – N
-OUT052	OUT	Head Leads the Tail	1	1	3	2			M	Ninja, Action, Attack	Go again				"When this attacks, name another card. Attack action cards with that name have +1 {p} this combat chain.
+OUT052	OUT	Head Leads the Tail	1	1	3	2			M	Ninja, Action, Attack	Go again				"When this attacks, name another card. Attack action cards with that name have +1{p} this combat chain.
 
 **Go again**"		Ninja Action - Attack	Faizal Fikri				No													S – OUT052 – N	/OUT052.png – OUT052 – N
 OUT053	OUT																																			
