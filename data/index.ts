@@ -20,11 +20,11 @@
     artists: [],
     cardIdentifier: "uzuri-switchblade",
     classes: [Class.Assassin],
-    defaultImageName: "OUT001",
+    defaultImageName: "OUT001.width-450",
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "OUT001",
-      name: "OUT001",
+      name: "OUT001.width-450",
       set: Release.Outsiders,
       
     },],
@@ -33,7 +33,7 @@
     rarity: Rarity.Token,
     setIdentifiers: ["OUT001"],
     sets: [Release.Outsiders],
-    specialImageName: "OUT001",
+    specialImageName: "OUT001.width-450",
     subtypes: [],
     types: [Type.Hero],
     typeText: "Assassin Hero",
@@ -61,11 +61,11 @@
     artists: [],
     cardIdentifier: "uzuri",
     classes: [Class.Assassin],
-    defaultImageName: "OUT002",
+    defaultImageName: "OUT002.width-450",
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "OUT002",
-      name: "OUT002",
+      name: "OUT002.width-450",
       set: Release.Outsiders,
       
     },],
@@ -74,7 +74,7 @@
     rarity: Rarity.Token,
     setIdentifiers: ["OUT002"],
     sets: [Release.Outsiders],
-    specialImageName: "OUT002",
+    specialImageName: "OUT002.width-450",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Assassin Hero – Young",
@@ -143,11 +143,11 @@
     artists: ["Tomasz Jedruszek"],
     cardIdentifier: "shake-down-red",
     classes: [Class.Assassin],
-    defaultImageName: "OUT013",
+    defaultImageName: "OUT013.width-450",
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "OUT013",
-      name: "OUT013",
+      name: "OUT013.width-450",
       set: Release.Outsiders,
       
     },],
@@ -156,7 +156,7 @@
     rarity: Rarity.Majestic,
     setIdentifiers: ["OUT013"],
     sets: [Release.Outsiders],
-    specialImageName: "OUT013",
+    specialImageName: "OUT013.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Assassin Action - Attack",
@@ -186,11 +186,11 @@ If you've played or activated an attack reaction this chain link, Shake Down has
     artists: ["Henrique Lindner"],
     cardIdentifier: "back-stab-red",
     classes: [Class.Assassin],
-    defaultImageName: "OUT015",
+    defaultImageName: "OUT015.width-450",
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "OUT015",
-      name: "OUT015",
+      name: "OUT015.width-450",
       set: Release.Outsiders,
       
     },],
@@ -199,7 +199,7 @@ If you've played or activated an attack reaction this chain link, Shake Down has
     rarity: Rarity.Rare,
     setIdentifiers: ["OUT015"],
     sets: [Release.Outsiders],
-    specialImageName: "OUT015",
+    specialImageName: "OUT015.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Assassin Action - Attack",
@@ -218,6 +218,92 @@ Defense reactions can't be played to Back Stab's chain link.`,
     
     pitch: 1,
     power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "back-stab-yellow",
+    classes: [Class.Assassin],
+    defaultImageName: "OUT016.width-450",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT016",
+      name: "OUT016.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Back Stab",
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT016"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT016.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+Defense reactions can't be played to Back Stab's chain link.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 2,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "back-stab-blue",
+    classes: [Class.Assassin],
+    defaultImageName: "OUT017.width-450",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT017",
+      name: "OUT017.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Back Stab",
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT017"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT017.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+Defense reactions can't be played to Back Stab's chain link.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 1,
     restrictedFormats: [Format.Commoner],
     
     
@@ -370,11 +456,11 @@ Defense reactions can't be played to Back Stab's chain link.`,
     artists: ["Muhammad Fajri"],
     cardIdentifier: "infect-red",
     classes: [Class.Assassin],
-    defaultImageName: "OUT024",
+    defaultImageName: "OUT024.width-450",
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "OUT024",
-      name: "OUT024",
+      name: "OUT024.width-450",
       set: Release.Outsiders,
       
     },],
@@ -383,7 +469,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     rarity: Rarity.Common,
     setIdentifiers: ["OUT024"],
     sets: [Release.Outsiders],
-    specialImageName: "OUT024",
+    specialImageName: "OUT024.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Assassin Action - Attack",
@@ -410,14 +496,100 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     
     
   },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "infect-yellow",
+    classes: [Class.Assassin],
+    defaultImageName: "OUT025.width-450",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT025",
+      name: "OUT025.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Infect",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT025"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT025.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 1,
+    defense: 4,
+    functionalText: `**Stealth**
+
+When this hits a hero, create a Bloodrot Pox token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "infect-blue",
+    classes: [Class.Assassin],
+    defaultImageName: "OUT026.width-450",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT026",
+      name: "OUT026.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Infect",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT026"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT026.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 2,
+    defense: 5,
+    functionalText: `**Stealth**
+
+When this hits a hero, create a Bloodrot Pox token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Shen Fei"],
     cardIdentifier: "isolate-red",
     classes: [Class.Assassin],
-    defaultImageName: "OUT027",
+    defaultImageName: "OUT027.width-450",
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "OUT027",
-      name: "OUT027",
+      name: "OUT027.width-450",
       set: Release.Outsiders,
       
     },],
@@ -426,7 +598,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     rarity: Rarity.Common,
     setIdentifiers: ["OUT027"],
     sets: [Release.Outsiders],
-    specialImageName: "OUT027",
+    specialImageName: "OUT027.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Assassin Action - Attack",
@@ -453,14 +625,100 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     
     
   },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "isolate-yellow",
+    classes: [Class.Assassin],
+    defaultImageName: "OUT028.width-450",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT028",
+      name: "OUT028.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Isolate",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT028"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT028.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+**Dominate**`,
+    
+    
+    
+    
+    keywords: [Keyword.Dominate],
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "isolate-blue",
+    classes: [Class.Assassin],
+    defaultImageName: "OUT029.width-450",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT029",
+      name: "OUT029.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Isolate",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT029"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT029.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+**Dominate**`,
+    
+    
+    
+    
+    keywords: [Keyword.Dominate],
+    
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Saad Irfan"],
     cardIdentifier: "sedate-red",
     classes: [Class.Assassin],
-    defaultImageName: "OUT036",
+    defaultImageName: "OUT036.width-450",
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "OUT036",
-      name: "OUT036",
+      name: "OUT036.width-450",
       set: Release.Outsiders,
       
     },],
@@ -469,7 +727,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     rarity: Rarity.Common,
     setIdentifiers: ["OUT036"],
     sets: [Release.Outsiders],
-    specialImageName: "OUT036",
+    specialImageName: "OUT036.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Assassin Action - Attack",
@@ -496,14 +754,100 @@ When this hits a hero, create an Inertia token under their control.`,
     
     
   },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "sedate-yellow",
+    classes: [Class.Assassin],
+    defaultImageName: "OUT037.width-450",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT037",
+      name: "OUT037.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Sedate",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT037"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT037.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+When this hits a hero, create an Inertia token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "sedate-blue",
+    classes: [Class.Assassin],
+    defaultImageName: "OUT038.width-450",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT038",
+      name: "OUT038.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Sedate",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT038"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT038.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+When this hits a hero, create an Inertia token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "wither-red",
     classes: [Class.Assassin],
-    defaultImageName: "OUT039",
+    defaultImageName: "OUT039.width-450",
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "OUT039",
-      name: "OUT039",
+      name: "OUT039.width-450",
       set: Release.Outsiders,
       
     },],
@@ -512,7 +856,7 @@ When this hits a hero, create an Inertia token under their control.`,
     rarity: Rarity.Common,
     setIdentifiers: ["OUT039"],
     sets: [Release.Outsiders],
-    specialImageName: "OUT039",
+    specialImageName: "OUT039.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Assassin Action - Attack",
@@ -531,6 +875,92 @@ When this hits a hero, create a Frailty token under their control.`,
     
     pitch: 1,
     power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Daria Khlebnikova"],
+    cardIdentifier: "wither-yellow",
+    classes: [Class.Assassin],
+    defaultImageName: "OUT040.width-450",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT040",
+      name: "OUT040.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Wither",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT040"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT040.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+When this hits a hero, create a Frailty token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Daria Khlebnikova"],
+    cardIdentifier: "wither-blue",
+    classes: [Class.Assassin],
+    defaultImageName: "OUT041.width-450",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT041",
+      name: "OUT041.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Wither",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT041"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT041.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+When this hits a hero, create a Frailty token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 1,
     
     
     
@@ -826,11 +1256,11 @@ When this hits a hero, create a Frailty token under their control.`,
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "mask-of-many-faces",
     classes: [Class.Ninja],
-    defaultImageName: "OUT049",
+    defaultImageName: "OUT049.width-450",
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "OUT049",
-      name: "OUT049",
+      name: "OUT049.width-450",
       set: Release.Outsiders,
       
     },],
@@ -839,7 +1269,7 @@ When this hits a hero, create a Frailty token under their control.`,
     rarity: Rarity.Common,
     setIdentifiers: ["OUT049"],
     sets: [Release.Outsiders],
-    specialImageName: "OUT049",
+    specialImageName: "OUT049.width-450",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
     typeText: "Ninja Equipment - Head",
@@ -869,11 +1299,11 @@ When this hits a hero, create a Frailty token under their control.`,
     artists: ["Faizal Fikri"],
     cardIdentifier: "dishonor-blue",
     classes: [Class.Ninja],
-    defaultImageName: "OUT051",
+    defaultImageName: "OUT051_tyYCr6g.width-450",
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "OUT051",
-      name: "OUT051",
+      name: "OUT051_tyYCr6g.width-450",
       set: Release.Outsiders,
       
     },],
@@ -882,7 +1312,7 @@ When this hits a hero, create a Frailty token under their control.`,
     rarity: Rarity.Majestic,
     setIdentifiers: ["OUT051"],
     sets: [Release.Outsiders],
-    specialImageName: "OUT051",
+    specialImageName: "OUT051_tyYCr6g.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Ninja Action - Attack",
@@ -912,11 +1342,11 @@ When this hits a hero, if you control Surging Strike, Descendent Gustwave, and B
     artists: ["Faizal Fikri"],
     cardIdentifier: "head-leads-the-tail-red",
     classes: [Class.Ninja],
-    defaultImageName: "OUT052",
+    defaultImageName: "OUT052.width-450",
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "OUT052",
-      name: "OUT052",
+      name: "OUT052.width-450",
       set: Release.Outsiders,
       
     },],
@@ -925,7 +1355,7 @@ When this hits a hero, if you control Surging Strike, Descendent Gustwave, and B
     rarity: Rarity.Majestic,
     setIdentifiers: ["OUT052"],
     sets: [Release.Outsiders],
-    specialImageName: "OUT052",
+    specialImageName: "OUT052.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Ninja Action - Attack",
@@ -955,11 +1385,11 @@ When this hits a hero, if you control Surging Strike, Descendent Gustwave, and B
     artists: ["Faizal Fikri"],
     cardIdentifier: "bonds-of-ancestry-red",
     classes: [Class.Ninja],
-    defaultImageName: "OUT056",
+    defaultImageName: "OUT056.width-450",
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "OUT056",
-      name: "OUT056",
+      name: "OUT056.width-450",
       set: Release.Outsiders,
       
     },],
@@ -968,7 +1398,7 @@ When this hits a hero, if you control Surging Strike, Descendent Gustwave, and B
     rarity: Rarity.Rare,
     setIdentifiers: ["OUT056"],
     sets: [Release.Outsiders],
-    specialImageName: "OUT056",
+    specialImageName: "OUT056.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Ninja Action - Attack",
@@ -996,11 +1426,11 @@ When this hits a hero, if you control Surging Strike, Descendent Gustwave, and B
     artists: ["Enmoire"],
     cardIdentifier: "be-like-water-red",
     classes: [Class.Ninja],
-    defaultImageName: "OUT068",
+    defaultImageName: "OUT068.width-450",
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "OUT068",
-      name: "OUT068",
+      name: "OUT068.width-450",
       set: Release.Outsiders,
       
     },],
@@ -1009,7 +1439,7 @@ When this hits a hero, if you control Surging Strike, Descendent Gustwave, and B
     rarity: Rarity.Common,
     setIdentifiers: ["OUT068"],
     sets: [Release.Outsiders],
-    specialImageName: "OUT068",
+    specialImageName: "OUT068.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Ninja Action - Attack",
@@ -1266,6 +1696,55 @@ When this hits a hero, if you control Surging Strike, Descendent Gustwave, and B
     
     young: true
   },{
+    artists: ["Tanapon Wachirakul"],
+    cardIdentifier: "barbed-castaway",
+    classes: [Class.Ranger],
+    defaultImageName: "OUT093.width-450",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "LGS129",
+      name: "LGS129",
+      set: Release.Promos,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT093",
+      name: "OUT093.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Barbed Castaway",
+    rarities: [Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["LGS129","OUT093"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImageName: "LGS129",
+    subtypes: [Subtype.Bow,Subtype.TwoHanded],
+    types: [Type.Weapon],
+    typeText: "Ranger Weapon - Bow (2H)",
+
+    
+    
+    functionalText: `**Once per Turn Instant** - {r}: You may put an arrow card from your hand face up into your arsenal.
+
+**Once per Turn Instant** - {r}: You may turn a face down arrow in your arsenal face up. If you do, put an aim counter on it.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Mark Poole"],
     cardIdentifier: "quiver-of-rustling-leaves",
     classes: [Class.Ranger],
@@ -1394,6 +1873,141 @@ Create a Ponder token under your control and a Frailty token under each opponent
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "death-touch-red",
+    classes: [Class.Assassin,Class.Ranger],
+    defaultImageName: "OUT162.width-450",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "FAB132",
+      name: "FAB132",
+      set: Release.Promos,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT162",
+      name: "OUT162.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Death Touch",
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["FAB132","OUT162"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImageName: "FAB132",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ranger Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Death Touch can't be played from hand.
+
+When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "death-touch-yellow",
+    classes: [Class.Assassin,Class.Ranger],
+    defaultImageName: "OUT163.width-450",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT163",
+      name: "OUT163.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Death Touch",
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT163"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT163.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ranger Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Death Touch can't be played from hand.
+
+When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "death-touch-blue",
+    classes: [Class.Assassin,Class.Ranger],
+    defaultImageName: "OUT164.width-450",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT164",
+      name: "OUT164.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Death Touch",
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT164"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT164.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ranger Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Death Touch can't be played from hand.
+
+When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 4,
+    
     
     
     
@@ -1536,49 +2150,6 @@ Create a Ponder token.`,
     
     
   },{
-    artists: ["Saad Irfan"],
-    cardIdentifier: "death-touch-red",
-    classes: [Class.Assassin,Class.Ranger],
-    defaultImageName: "FAB132",
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "FAB132",
-      name: "FAB132",
-      set: Release.Promos,
-      
-    },],
-    name: "Death Touch",
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["FAB132"],
-    sets: [Release.Promos,Release.Outsiders],
-    specialImageName: "FAB132",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin / Ranger Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `Death Touch can't be played from hand.
-
-When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under their control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 6,
-    
-    
-    
-    
-    
-    
-    
-  },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "bloodrot-pox",
     classes: [Class.Generic],
@@ -1591,9 +2162,9 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
       
     },],
     name: "Bloodrot Pox",
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS125"],
+    rarities: [Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["LGS125","OUT234"],
     sets: [Release.Promos,Release.Outsiders],
     specialImageName: "LGS125",
     subtypes: [Subtype.Aura],
@@ -1632,9 +2203,9 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
       
     },],
     name: "Frailty",
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS126"],
+    rarities: [Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["LGS126","OUT235"],
     sets: [Release.Promos,Release.Outsiders],
     specialImageName: "LGS126",
     subtypes: [Subtype.Aura],
@@ -1675,9 +2246,9 @@ At the beginning of your end phase destroy Frailty.`,
       
     },],
     name: "Inertia",
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS127"],
+    rarities: [Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["LGS127","OUT236"],
     sets: [Release.Promos,Release.Outsiders],
     specialImageName: "LGS127",
     subtypes: [Subtype.Aura],
@@ -1687,49 +2258,6 @@ At the beginning of your end phase destroy Frailty.`,
     
     
     functionalText: `At the beginning of your end phase, destroy Inertia, then put all cards from your hand and arsenal on the bottom of your deck.`,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tanapon Wachirakul"],
-    cardIdentifier: "barbed-castaway",
-    classes: [Class.Ranger],
-    defaultImageName: "LGS129",
-    images: [{
-      edition: ReleaseEdition.Promo,
-      identifier: "LGS129",
-      name: "LGS129",
-      set: Release.Promos,
-      
-    },],
-    name: "Barbed Castaway",
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS129"],
-    sets: [Release.Promos,Release.Outsiders],
-    specialImageName: "LGS129",
-    subtypes: [Subtype.Bow,Subtype.TwoHanded],
-    types: [Type.Weapon],
-    typeText: "Ranger Weapon - Bow (2H)",
-
-    
-    
-    functionalText: `**Once per Turn Instant** - {r}: You may put an arrow card from your hand face up into your arsenal.
-
-**Once per Turn Instant** - {r}: You may turn a face down arrow in your arsenal face up. If you do, put an aim counter on it.`,
     
     
     
@@ -26492,7 +27020,8 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Oxana Turlay"],
     cardIdentifier: "rifting-red",
     classes: [Class.Generic],
@@ -26939,8 +27468,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Andrey Savchuk"],
     cardIdentifier: "come-to-fight-red",
     classes: [Class.Generic],
@@ -51871,7 +52399,8 @@ If Overload hits, it gains **go again**.`,
     
     
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Septimius Ferdian"],
     cardIdentifier: "pound-for-pound-yellow",
     classes: [Class.Generic],
@@ -52171,8 +52700,7 @@ If Overload hits, it gains **go again**.`,
     
     
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "stony-woottonhog-yellow",
     classes: [Class.Generic],
@@ -75055,7 +75583,8 @@ While Ruk'utan is face up in arsenal, whenever you play a card with 6 or more {p
     
     
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Henrique Lindner"],
     cardIdentifier: "wrecking-ball-red",
     classes: [Class.Brute],
@@ -75178,8 +75707,7 @@ While Ruk'utan is face up in arsenal, whenever you play a card with 6 or more {p
     
     
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Stanislav Sherbakov"],
     cardIdentifier: "clearing-bellow-blue",
     classes: [Class.Brute],
