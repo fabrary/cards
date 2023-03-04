@@ -5,6 +5,7 @@
     "declaration": true,
     "isolatedModules": true,
     "outDir": "dist",
+    "skipLibCheck": true,
     "target": "ES6"
   },
   "include": ["data"]
