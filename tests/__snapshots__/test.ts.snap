@@ -3355,6 +3355,12 @@ exports[`Check for unintentional updates Arakni, Solitary Confinement (arakni-so
   "images": [
     {
       "edition": "Promo",
+      "identifier": "HER079",
+      "name": "HER079",
+      "set": "Promos",
+    },
+    {
+      "edition": "Promo",
       "identifier": "OUT003",
       "name": "OUT003.width-450",
       "set": "Outsiders",
@@ -3373,7 +3379,7 @@ exports[`Check for unintentional updates Arakni, Solitary Confinement (arakni-so
   "sets": [
     "Outsiders",
   ],
-  "specialImageName": "OUT003.width-450",
+  "specialImageName": "HER079",
   "subtypes": [
     "Young",
   ],
@@ -49055,6 +49061,56 @@ When this hits a hero, create a Bloodrot Pox token under their control.",
     "Outsiders",
   ],
   "specialImageName": "OUT025.width-450",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Assassin Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Infiltrate (infiltrate-red) 1`] = `
+{
+  "artists": [
+    "Isuardi Therianto",
+  ],
+  "cardIdentifier": "infiltrate-red",
+  "classes": [
+    "Assassin",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT012",
+  "defense": 3,
+  "functionalText": "**Stealth**
+
+When this hits a hero, banish the top card of their deck. You may play it until the end of your next turn.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT012",
+      "name": "OUT012",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Infiltrate",
+  "pitch": 1,
+  "power": 3,
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT012",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT012",
   "subtypes": [
     "Attack",
   ],

@@ -105,6 +105,12 @@
     defaultImageName: "OUT003.width-450",
     images: [{
       edition: ReleaseEdition.Promo,
+      identifier: "HER079",
+      name: "HER079",
+      set: Release.Promos,
+      
+    },{
+      edition: ReleaseEdition.Promo,
       identifier: "OUT003",
       name: "OUT003.width-450",
       set: Release.Outsiders,
@@ -115,7 +121,7 @@
     rarity: Rarity.Token,
     setIdentifiers: ["OUT003"],
     sets: [Release.Outsiders],
-    specialImageName: "OUT003.width-450",
+    specialImageName: "HER079",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Assassin Hero – Young",
@@ -223,6 +229,47 @@ If you've played or activated an attack reaction this chain link, Shake Down has
     
     
     specializations: [Hero.Uzuri],
+    
+    
+  },{
+    artists: ["Othon Nikolaidis"],
+    cardIdentifier: "spreading-plague-yellow",
+    classes: [Class.Assassin],
+    defaultImageName: "OUT014",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT014",
+      name: "OUT014",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Spreading Plague",
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT014"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT014",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin Attack Reaction",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `Create X Bloodrot Pox tokens under the defending hero's control, where X is the number of defending cards this chain link.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
     
     
   },{
@@ -746,6 +793,49 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     
     pitch: 3,
     power: 1,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "prowl-red",
+    classes: [Class.Assassin],
+    defaultImageName: "OUT033",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT033",
+      name: "OUT033",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Prowl",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT033"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT033",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+The next attack with **stealth** you play this combat chain gains +1{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 3,
     
     
     
@@ -1910,6 +2000,92 @@ When this defends an attack with **go again**, the attacking hero discards their
     
     
     specializations: [Hero.Riptide],
+    
+    
+  },{
+    artists: ["Tanapon Wachirakul"],
+    cardIdentifier: "hurl-red",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImageName: "OUT148",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT148",
+      name: "OUT148",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Hurl",
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT148"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT148",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ninja Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `As an additional cost to play Hurl, you may pay {R}. When you do, it gains "When this attack, target dagger you control deals 1 damage to target hero. If damage is dealth this way, the dagger has hit. Destroy the dagger."
+
+**Go again**`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 3,
+    restrictedFormats: [Format.Blitz,Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tommy Suhartono"],
+    cardIdentifier: "short-and-sharp-red",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImageName: "OUT154",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT154",
+      name: "OUT154",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Short and Sharp",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT154"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT154",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin / Ninja Attack Reaction",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Choose 1;
+- Target dagger attack gains +3{p}.
+- Target attack action card with 2 or less base {p} gains +3{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
     
     
   },{
@@ -26854,7 +27030,8 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "moon-wish-blue",
     classes: [Class.Generic],
@@ -26997,8 +27174,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "push-the-point-blue",
     classes: [Class.Generic],
@@ -52369,7 +52545,8 @@ If Frontline Scout is played from arsenal, it gains **go again**.`,
     
     
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Agus Setiawan"],
     cardIdentifier: "frontline-scout-blue",
     classes: [Class.Generic],
@@ -52467,8 +52644,7 @@ If Overload hits, it gains **go again**.`,
     
     
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Kevin Sidharta"],
     cardIdentifier: "overload-yellow",
     classes: [Class.Generic],
@@ -75712,7 +75888,8 @@ Your next sword attack this turn gains +2{p}.`,
     
     
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "chief-rukutan",
     classes: [Class.Brute],
@@ -75755,8 +75932,7 @@ While Ruk'utan is face up in arsenal, whenever you play a card with 6 or more {p
     
     
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "beast-mode-red",
     classes: [Class.Brute],
