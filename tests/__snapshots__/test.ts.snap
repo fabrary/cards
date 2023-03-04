@@ -19015,6 +19015,61 @@ exports[`Check for unintentional updates Coax a Commotion (coax-a-commotion-red)
 }
 `;
 
+exports[`Check for unintentional updates Codex of Bloodrot (codex-of-bloodrot-yellow) 1`] = `
+{
+  "artists": [
+    "Mateusz Wiśniewski",
+  ],
+  "cardIdentifier": "codex-of-bloodrot-yellow",
+  "classes": [
+    "Assassin",
+    "Ranger",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT159",
+  "defense": 2,
+  "functionalText": "Each hero puts an attack action card from their hand face down into their arsenal.
+
+Create a Ponder token under your control and a Bloodrot Pox token under each opponent's control.
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT159",
+      "name": "OUT159",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Codex of Bloodrot",
+  "pitch": 2,
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT159",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT159",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Assassin / Ranger Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Codex of Frailty (codex-of-frailty-yellow) 1`] = `
 {
   "artists": [
@@ -55504,6 +55559,57 @@ exports[`Check for unintentional updates Long Shot (long-shot-yellow) 1`] = `
     "Arrow",
   ],
   "typeText": "Ranger Action – Arrow Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Looking for a Scrap (looking-for-a-scrap-red) 1`] = `
+{
+  "artists": [
+    "Shen Fei",
+  ],
+  "cardIdentifier": "looking-for-a-scrap-red",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT195",
+  "defense": 2,
+  "functionalText": "As an additional cost to play Looking for a Scrap, you may banish a card with 1{p} from your graveyard. When you do, this gains +1{p} and **go again**.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT195",
+      "name": "OUT195",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Looking for a Scrap",
+  "pitch": 1,
+  "power": 4,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT195",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT195",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
   "types": [
     "Action",
   ],

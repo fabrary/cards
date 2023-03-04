@@ -1786,6 +1786,47 @@ When this hits a hero, if you control Surging Strike, Descendent Gustwave, and B
     
     
   },{
+    artists: ["Junaidi Lim"],
+    cardIdentifier: "barbed-undertow-red",
+    classes: [Class.Ranger],
+    defaultImageName: "OUT101",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT101",
+      name: "OUT101",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Barbed Undertow",
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT101"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT101",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `If Barbed Undertow has an aim counter, it gains When this hits a hero, choose red, yellow, or blue.  Until the start of your next turn, they can't pitch cards of the chosen color.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Raphael Pinna"],
     cardIdentifier: "collapsing-trap-blue",
     classes: [Class.Ranger],
