@@ -140,6 +140,49 @@
     
     young: true
   },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "infiltrate-red",
+    classes: [Class.Assassin],
+    defaultImageName: "OUT012",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT012",
+      name: "OUT012",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Infiltrate",
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT012"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT012",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+When this hits a hero, banish the top card of their deck. You may play it until the end of your next turn.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Tomasz Jedruszek"],
     cardIdentifier: "shake-down-red",
     classes: [Class.Assassin],
@@ -26954,7 +26997,8 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "push-the-point-blue",
     classes: [Class.Generic],
@@ -27001,8 +27045,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Maxim Kostin"],
     cardIdentifier: "ravenous-rabble-red",
     classes: [Class.Generic],
@@ -52424,7 +52467,8 @@ If Overload hits, it gains **go again**.`,
     
     
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Kevin Sidharta"],
     cardIdentifier: "overload-yellow",
     classes: [Class.Generic],
@@ -52473,8 +52517,7 @@ If Overload hits, it gains **go again**.`,
     
     
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Kevin Sidharta"],
     cardIdentifier: "overload-blue",
     classes: [Class.Generic],

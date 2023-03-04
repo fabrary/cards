@@ -11,7 +11,9 @@ OUT008	OUT
 OUT009	OUT																																			
 OUT010	OUT																																			
 OUT011	OUT																																			
-OUT012	OUT																																			
+OUT012	OUT	Infiltrate	1	0	3	3			M	Assassin, Action, Attack	Stealth				"**Stealth**
+
+When this hits a hero, banish the top card of their deck. You may play it until the end of your next turn."		Assassin Action - Attack	Isuardi Therianto				No													S - OUT012 - N	/OUT012.png – OUT012 – N
 OUT013	OUT	Shake Down	1	2	6	3			M	Assassin, Action, Attack	Uzuri Specialization				"**Uzuri Specialization**
 
 If you've played or activated an attack reaction this chain link, Shake Down has ""When this hits a hero, choose red, yellow, or blue. They reveal their hand. Banish a card of the chosen color."""		Assassin Action - Attack	Tomasz Jedruszek				No													S – OUT013 – N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT013.width-450.png – OUT013 - N

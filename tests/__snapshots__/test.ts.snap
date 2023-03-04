@@ -5774,6 +5774,54 @@ exports[`Check for unintentional updates Barbed Castaway (barbed-castaway) 1`] =
 }
 `;
 
+exports[`Check for unintentional updates Barbed Undertow (barbed-undertow-red) 1`] = `
+{
+  "artists": [
+    "Junaidi Lim",
+  ],
+  "cardIdentifier": "barbed-undertow-red",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT101",
+  "defense": 3,
+  "functionalText": "If Barbed Undertow has an aim counter, it gains When this hits a hero, choose red, yellow, or blue.  Until the start of your next turn, they can't pitch cards of the chosen color.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT101",
+      "name": "OUT101",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Barbed Undertow",
+  "pitch": 1,
+  "power": 5,
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT101",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT101",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Ranger Action - Arrow Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Bare Fangs (bare-fangs-blue) 1`] = `
 {
   "artists": [
