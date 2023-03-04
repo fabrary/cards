@@ -146,6 +146,51 @@
     
     young: true
   },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "nerve-scalpel",
+    classes: [Class.Assassin],
+    defaultImageName: "OUT005",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT005",
+      name: "OUT005",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Nerve Scalpel",
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT005","OUT006"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT005",
+    subtypes: [Subtype.Dagger,Subtype.OneHanded],
+    types: [Type.Weapon],
+    typeText: "Assassin Weapon - Dagger (1H)",
+
+    
+    
+    functionalText: `**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
+
+**Piercing 1**
+
+When this hits a hero, the next time they defend with 1 or more reaction cards this turn, those cards have -1{d} while defending.`,
+    
+    
+    
+    
+    keywords: [Keyword.Piercing,Keyword.GoAgain],
+    
+    
+    
+    power: 1,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Alexis Susani"],
     cardIdentifier: "orbitoclast",
     classes: [Class.Assassin],
@@ -160,7 +205,7 @@
     name: "Orbitoclast",
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["OUT007"],
+    setIdentifiers: ["OUT007","OUT008"],
     sets: [Release.Outsiders],
     specialImageName: "OUT007",
     subtypes: [Subtype.Dagger,Subtype.OneHanded],
@@ -183,7 +228,7 @@ When this hits a hero, the next time they defend with 1 or more 'non-attack' act
     
     
     power: 1,
-    restrictedFormats: [Format.Blitz,Format.Commoner],
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -2267,6 +2312,49 @@ When this hits a hero, create an Inertia token under their control.`,
     
     
   },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "blade-cuff",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImageName: "OUT141",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT141",
+      name: "OUT141",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Blade Cuff",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT141"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT141",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Assassin / Ninja Equipment - Arms",
+
+    
+    defense: 1,
+    functionalText: `**Action** - {r}{r}, destroy Blade Cuff: Your daggers gain +1{p} this turn. **Go again**
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak,Keyword.GoAgain],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "stab-wound-blue",
     classes: [Class.Assassin,Class.Ninja],
@@ -2300,6 +2388,49 @@ When this hits a hero, create an Inertia token under their control.`,
     
     pitch: 3,
     power: 2,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Marco Gonzalez"],
+    cardIdentifier: "bleed-out-red",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImageName: "OUT145",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT145",
+      name: "OUT145",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Bleed Out",
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT145"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT145",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ninja Action - Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `Bleed Out costs X resource points less to play, where X is the total damage you've dealt with daggers this combat chain.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 4,
     restrictedFormats: [Format.Commoner],
     
     
@@ -2661,6 +2792,90 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     pitch: 3,
     power: 4,
     
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mark Poole"],
+    cardIdentifier: "virulent-touch-red",
+    classes: [Class.Assassin,Class.Ranger],
+    defaultImageName: "OUT168",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT168",
+      name: "OUT168",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Virulent Touch",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT168"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT168",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ranger Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `Viruluent Touch can’t be played from hand.
+
+When this chain link resolves, if Virulent Touch is defended by a card from hand, create a Bloodrot Pox token under the defending hero’s control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Riordan Delmiro"],
+    cardIdentifier: "amnesia-red",
+    classes: [Class.Generic],
+    defaultImageName: "OUT183",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT183",
+      name: "OUT183",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Amnesia",
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT183"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT183",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `When this hits a hero, cards and tokens they own l ose and can't gain names until the start of your next turn.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -26874,7 +27089,8 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Pavel Chuvin"],
     cardIdentifier: "back-alley-breakline-red",
     classes: [Class.Generic],
@@ -27062,8 +27278,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Alexey Peregrudov"],
     cardIdentifier: "cadaverous-contraband-yellow",
     classes: [Class.Generic],
@@ -52591,7 +52806,8 @@ The next attack action card with cost 0 you play this turn gains **go again**.
     
     
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "belittle-yellow",
     classes: [Class.Generic],
@@ -52738,8 +52954,7 @@ The next attack action card with cost 0 you play this turn gains **go again**.
     
     
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Phu Thieu"],
     cardIdentifier: "brandish-yellow",
     classes: [Class.Generic],
@@ -76105,7 +76320,8 @@ Your next sword attack this turn gains +2{p}.`,
     
     
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Federico Musetti"],
     cardIdentifier: "toughen-up-blue",
     classes: [Class.Generic],
@@ -76193,8 +76409,7 @@ Your next sword attack this turn gains +2{p}.`,
     
     
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "bone-basher",
     classes: [Class.Brute],
@@ -97182,7 +97397,7 @@ When you equip Crown of Dominion, create a Gold token.`,
     ...cards4,
   ];
 
-  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendrique Lindner","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Maerel Hibadita","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wisniewski","Mateusz Wiśniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sariya Asavametha","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tomasz Jedruszek","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
+  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendrique Lindner","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Maerel Hibadita","Marco Gonzalez","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wisniewski","Mateusz Wiśniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sariya Asavametha","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tomasz Jedruszek","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
 
   export * from "./interfaces";
   

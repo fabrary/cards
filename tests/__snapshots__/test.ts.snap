@@ -25544,6 +25544,51 @@ exports[`Check for unintentional updates Demolition Crew (demolition-crew-yellow
 }
 `;
 
+exports[`Check for unintentional updates Destructive Deliberation (destructive-deliberation-red) 1`] = `
+{
+  "artists": [
+    "Saad Irfan",
+  ],
+  "cardIdentifier": "destructive-deliberation-red",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 2,
+  "defaultImageName": "OUT204",
+  "defense": 2,
+  "functionalText": "When this hits a hero, create a Ponder token.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT204",
+      "name": "OUT204",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Destructive Deliberation",
+  "pitch": 1,
+  "power": 5,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT204",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT204",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Diabolic Ultimatum (diabolic-ultimatum-red) 1`] = `
 {
   "artists": [
@@ -62261,11 +62306,11 @@ When this hits a hero, the next time they defend with 1 or more 'non-attack' act
   ],
   "rarity": "Majestic",
   "restrictedFormats": [
-    "Blitz",
     "Commoner",
   ],
   "setIdentifiers": [
     "OUT007",
+    "OUT008",
   ],
   "sets": [
     "Outsiders",
@@ -108847,6 +108892,54 @@ exports[`Check for unintentional updates Vipox (vipox-red) 1`] = `
 }
 `;
 
+exports[`Check for unintentional updates Virulent Touch (virulent-touch-red) 1`] = `
+{
+  "artists": [
+    "Mark Poole",
+  ],
+  "cardIdentifier": "virulent-touch-red",
+  "classes": [
+    "Assassin",
+    "Ranger",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT168",
+  "defense": 2,
+  "functionalText": "Viruluent Touch can’t be played from hand.
+
+When this chain link resolves, if Virulent Touch is defended by a card from hand, create a Bloodrot Pox token under the defending hero’s control.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT168",
+      "name": "OUT168",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Virulent Touch",
+  "pitch": 1,
+  "power": 4,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT168",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT168",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Assassin / Ranger Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Viserai (viserai) 1`] = `
 {
   "artists": [
@@ -113148,6 +113241,56 @@ exports[`Check for unintentional updates Wounding Blow (wounding-blow-yellow) 1`
     "Attack",
   ],
   "typeText": "Generic Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Wreck Havoc (wreck-havoc-red) 1`] = `
+{
+  "artists": [
+    "Saad Irfan",
+  ],
+  "cardIdentifier": "wreck-havoc-red",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 2,
+  "defaultImageName": "OUT198",
+  "defense": 2,
+  "functionalText": "Defense reactions can't be played to Wreck Havoc's chain link.
+
+When this hits a hero, you may turn a card in their arsenal face up, then destroy a defense reaction in their arsenal.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT198",
+      "name": "OUT198",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Wreck Havoc",
+  "pitch": 1,
+  "power": 6,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT198",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT198",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
   "types": [
     "Action",
   ],

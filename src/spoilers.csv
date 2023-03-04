@@ -1,337 +1,345 @@
-Identifiers	Set Identifiers	Name	Pitch	Cost	Power	Defense	Health	Intelligence	Rarity	Types	Card Keywords	Abilities and Effects	Ability and Effect Keywords	Granted Keywords	Functional Text	Flavor Text	Type Text	Artists	Card Played Horizontally	Blitz Legal	CC Legal	Commoner Legal	Blitz Living Legend	CC Living Legend	Blitz Banned	CC Banned	Commoner Banned	UPF Banned	Blitz Suspended Start	Blitz Suspended End	CC Suspended Start	CC Suspended End	Commoner Suspended Start	Commoner Suspended End	Variations	Image URLs
-OUT000	OUT																																			
-OUT001	OUT	Uzuri, Switchblade					40	4	T	Assassin, Hero		Once per Turn Attack Reaction			**Once per Turn Attack Reaction** - Banish a card from your hand face down: Turn the card banished this way face up. If it's an attack action card with cost 2 or less, put target attacking card with **stealth** from the active chain link on the bottom of it's owner's deck, then put the banished card onto the active chain link as the attacking card.		Assassin Hero					No													S – OUT001 – N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT001.width-450.png - OUT001 - N
-OUT002	OUT	Uzuri					20	4	T	Assassin, Hero, Young		Once per Turn Attack Reaction			**Once per Turn Attack Reaction** - Banish a card from your hand face down: Turn the card banished this way face up. If it's an attack action card with cost 2 or less, put target attacking card with **stealth** from the active chain link on the bottom of it's owner's deck, then put the banished card onto the active chain link as the attacking card.		Assassin Hero – Young																		S – OUT002 – N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT002.width-450.png - OUT002 - N
-OUT003	OUT	Arakni, Solitary Confinement					19	4	T	Assassin, Hero, Young							Assassin Hero – Young																		C - HER079 - N, S – OUT003 – N	/HER079.png – HER079 – N, /OUT003.width-450.png – OUT003 – N
-OUT004	OUT																																			
-OUT005	OUT																																			
-OUT006	OUT																																			
-OUT007	OUT	Orbitoclast			1				M	Assassin, Weapon, Dagger, 1H	Piercing 1	Once per Turn Action	Attack, Go again		"**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
+Identifiers	Set Identifiers	Name	Pitch	Cost	Power	Defense	Health	Intelligence	Rarity	Types	Card Keywords	Abilities and Effects	Ability and Effect Keywords	Granted Keywords	Functional Text	Flavor Text	Type Text	Artists	Card Played Horizontally	Blitz Legal	CC Legal	Commoner Legal	Variations	Image URLs
+OUT000	OUT																							
+OUT001	OUT	Uzuri, Switchblade					40	4	T	Assassin, Hero		Once per Turn Attack Reaction			**Once per Turn Attack Reaction** - Banish a card from your hand face down: Turn the card banished this way face up. If it's an attack action card with cost 2 or less, put target attacking card with **stealth** from the active chain link on the bottom of it's owner's deck, then put the banished card onto the active chain link as the attacking card.		Assassin Hero					No	S – OUT001 – N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT001.width-450.png - OUT001 - N
+OUT002	OUT	Uzuri					20	4	T	Assassin, Hero, Young		Once per Turn Attack Reaction			**Once per Turn Attack Reaction** - Banish a card from your hand face down: Turn the card banished this way face up. If it's an attack action card with cost 2 or less, put target attacking card with **stealth** from the active chain link on the bottom of it's owner's deck, then put the banished card onto the active chain link as the attacking card.		Assassin Hero – Young						S – OUT002 – N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT002.width-450.png - OUT002 - N
+OUT003	OUT	Arakni, Solitary Confinement					19	4	T	Assassin, Hero, Young							Assassin Hero – Young						C - HER079 - N, S – OUT003 – N	/HER079.png – HER079 – N, /OUT003.width-450.png – OUT003 – N
+OUT004	OUT																							
+OUT005, OUT006	OUT, OUT	Nerve Scalpel			1				M, M	Assassin, Weapon, Dagger, 1H	Piercing 1	Once per Turn Action	Attack, Go again		"**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
 
 **Piercing 1**
 
-When this hits a hero, the next time they defend with 1 or more 'non-attack' action cards this turn, those cards have -1{d} while defending."		Assassin Weapon - Dagger (1H)	Alexis Susani				No	S - OUT007 - N												S – OUT007 - N	/OUT007.png – OUT007 – N
-OUT008	OUT																																			
+When this hits a hero, the next time they defend with 1 or more reaction cards this turn, those cards have -1{d} while defending."		Assassin Weapon - Dagger (1H)	Tomasz Jedruszek				No	S - OUT005 - N, S - OUT006 - N	/OUT005.png – OUT005 – N
+OUT007, OUT008	OUT, OUT	Orbitoclast			1				M	Assassin, Weapon, Dagger, 1H	Piercing 1	Once per Turn Action	Attack, Go again		"**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
+
+**Piercing 1**
+
+When this hits a hero, the next time they defend with 1 or more 'non-attack' action cards this turn, those cards have -1{d} while defending."		Assassin Weapon - Dagger (1H)	Alexis Susani				No	S - OUT007 - N, S - OUT008 - N	/OUT007.png – OUT007 – N
 OUT009, OUT010	OUT, OUT	Scale Peeler			1				M	Assassin, Weapon, Dagger, 1H	Piercing 1	Once per Turn Action	Attack, Go again		"**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
 
 **Piercing 1**
 
-When this hits a hero, the next time they defend with 1 or more equipment this turn, those equipment have -1{d} while defending."		Assassin Weapon - Dagger (1H)	Federico Musetti				No													S - OUT009 - N	/OUT009.png – OUT009 – N
+When this hits a hero, the next time they defend with 1 or more equipment this turn, those equipment have -1{d} while defending."		Assassin Weapon - Dagger (1H)	Federico Musetti				No	S - OUT009 - N	/OUT009.png – OUT009 – N
 OUT011	OUT	Redback Shroud				1			L	Assassin, Equipment, Chest	Battleworn	Attack Reaction			"While Redback Shroud is in your graveyard, at the start of your turn, you may destroy 2 Silver you control. If you do, equip Redback Shroud.
 
 **Attack Reaction** - Destroy Redback Shroud: The next attack reaction card you play this turn costs {r} less to play.
 
-**Battleworn**"		Assassin Equipment - Chest	soyameii				No													C - OUT011 - N - EA	/OUT011.png – OUT011 – N – EA
+**Battleworn**"		Assassin Equipment - Chest	soyameii				No	C - OUT011 - N - EA	/OUT011.png – OUT011 – N – EA
 OUT012	OUT	Infiltrate	1	0	3	3			M	Assassin, Action, Attack	Stealth				"**Stealth**
 
-When this hits a hero, banish the top card of their deck. You may play it until the end of your next turn."		Assassin Action - Attack	Isuardi Therianto				No													 S – OUT160 – N, C – OUT160 – N – FA	/OUT012.png – OUT012 – N
+When this hits a hero, banish the top card of their deck. You may play it until the end of your next turn."		Assassin Action - Attack	Isuardi Therianto				No	 S – OUT160 – N, C – OUT160 – N – FA	/OUT012.png – OUT012 – N
 OUT013	OUT	Shake Down	1	2	6	3			M	Assassin, Action, Attack	Uzuri Specialization				"**Uzuri Specialization**
 
-If you've played or activated an attack reaction this chain link, Shake Down has ""When this hits a hero, choose red, yellow, or blue. They reveal their hand. Banish a card of the chosen color."""		Assassin Action - Attack	Tomasz Jedruszek				No													S – OUT013 – N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT013.width-450.png – OUT013 - N
-OUT014	OUT	Spreading Plague	2	1		3			M	Assassin, Attack Reaction					Create X Bloodrot Pox tokens under the defending hero's control, where X is the number of defending cards this chain link.		Assassin Attack Reaction	Othon Nikolaidis				No													S - OUT014 - N	/OUT014.png – OUT014 – N
+If you've played or activated an attack reaction this chain link, Shake Down has ""When this hits a hero, choose red, yellow, or blue. They reveal their hand. Banish a card of the chosen color."""		Assassin Action - Attack	Tomasz Jedruszek				No	S – OUT013 – N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT013.width-450.png – OUT013 - N
+OUT014	OUT	Spreading Plague	2	1		3			M	Assassin, Attack Reaction					Create X Bloodrot Pox tokens under the defending hero's control, where X is the number of defending cards this chain link.		Assassin Attack Reaction	Othon Nikolaidis				No	S - OUT014 - N	/OUT014.png – OUT014 – N
 OUT015	OUT	Back Stab	1	0	3	3			R	Assassin, Action, Attack	Stealth				"**Stealth**
 
-Defense reactions can't be played to Back Stab's chain link."		Assassin Action - Attack	Henrique Lindner				No													S – OUT015 – N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT015.width-450.png - OUT015 - N
+Defense reactions can't be played to Back Stab's chain link."		Assassin Action - Attack	Henrique Lindner				No	S – OUT015 – N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT015.width-450.png - OUT015 - N
 OUT016	OUT	Back Stab	2	0	2	3			R	Assassin, Action, Attack	Stealth				"**Stealth**
 
-Defense reactions can't be played to Back Stab's chain link."		Assassin Action - Attack	Henrique Lindner				No													S - OUT016 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT016.width-450.png - OUT016 - N
+Defense reactions can't be played to Back Stab's chain link."		Assassin Action - Attack	Henrique Lindner				No	S - OUT016 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT016.width-450.png - OUT016 - N
 OUT017	OUT	Back Stab	3	0	1	3			R	Assassin, Action, Attack	Stealth				"**Stealth**
 
-Defense reactions can't be played to Back Stab's chain link."		Assassin Action - Attack	Henrique Lindner				No													S - OUT017 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT017.width-450.png - OUT017 - N
-OUT018	OUT																																			
-OUT019	OUT																																			
-OUT020	OUT																																			
-OUT021, LGS130	OUT, LGS	Spike with Bloodrot	1	1		3			R, P	Assassin, Attack Reaction					"Target attack action card with **stealth** gains +3{p} and ""When this hits a hero, create a Bloodrot Pox token under their control."""		Assassin Attack Reaction	Mateusz Wisniewski				No													R – LGS130 – N, S – OUT021 – N	/LGS130.png – LGS130 – N, /OUT021.png – OUT021 – N
-OUT022, LGS131	OUT, LGS	Spike with Frailty	1	1		3			R, P	Assassin, Attack Reaction					"Target attack action card with **stealth** gains +3{p} and ""When this hits a hero, create a Frailty token under their control."""		Assassin Attack Reaction	Carlos Cruchaga				No													R – LGS131 – N, S – OUT022 – N	/LGS131.png – LGS131 – N, /OUT022.png – OUT022 – N
-OUT023, LGS132	OUT, LGS	Spike with Inertia	1	1		3			R, P	Assassin, Attack Reaction					"Target attack action card with **stealth** gains +3{p} and ""When this hits a hero, create an Inertia token under their control."""		Assassin Attack Reaction	Federico Musetti				No													R – LGS132 – N, S – OUT023 – N	/LGS132.png – LGS132 – N, /OUT023.png – OUT023 – N
+Defense reactions can't be played to Back Stab's chain link."		Assassin Action - Attack	Henrique Lindner				No	S - OUT017 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT017.width-450.png - OUT017 - N
+OUT018	OUT																							
+OUT019	OUT																							
+OUT020	OUT																							
+OUT021, LGS130	OUT, LGS	Spike with Bloodrot	1	1		3			R, P	Assassin, Attack Reaction					"Target attack action card with **stealth** gains +3{p} and ""When this hits a hero, create a Bloodrot Pox token under their control."""		Assassin Attack Reaction	Mateusz Wisniewski				No	R – LGS130 – N, S – OUT021 – N	/LGS130.png – LGS130 – N, /OUT021.png – OUT021 – N
+OUT022, LGS131	OUT, LGS	Spike with Frailty	1	1		3			R, P	Assassin, Attack Reaction					"Target attack action card with **stealth** gains +3{p} and ""When this hits a hero, create a Frailty token under their control."""		Assassin Attack Reaction	Carlos Cruchaga				No	R – LGS131 – N, S – OUT022 – N	/LGS131.png – LGS131 – N, /OUT022.png – OUT022 – N
+OUT023, LGS132	OUT, LGS	Spike with Inertia	1	1		3			R, P	Assassin, Attack Reaction					"Target attack action card with **stealth** gains +3{p} and ""When this hits a hero, create an Inertia token under their control."""		Assassin Attack Reaction	Federico Musetti				No	R – LGS132 – N, S – OUT023 – N	/LGS132.png – LGS132 – N, /OUT023.png – OUT023 – N
 OUT024	OUT	Infect	1	0	3	3			C	Assassin, Action, Attack	Stealth				"**Stealth**
 
-When this hits a hero, create a Bloodrot Pox token under their control."		Assassin Action - Attack	Muhammad Fajri																	S – OUT024 – N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT024.width-450.png – OUT024 - N
+When this hits a hero, create a Bloodrot Pox token under their control."		Assassin Action - Attack	Muhammad Fajri					S – OUT024 – N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT024.width-450.png – OUT024 - N
 OUT025	OUT	Infect	2	0	2	3			C	Assassin, Action, Attack	Stealth				"**Stealth**
 
-When this hits a hero, create a Bloodrot Pox token under their control."		Assassin Action - Attack	Muhammad Fajri																	S – OUT025 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT025.width-450.png – OUT025 - N
+When this hits a hero, create a Bloodrot Pox token under their control."		Assassin Action - Attack	Muhammad Fajri					S – OUT025 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT025.width-450.png – OUT025 - N
 OUT026	OUT	Infect	3	0	1	3			C	Assassin, Action, Attack	Stealth				"**Stealth**
 
-When this hits a hero, create a Bloodrot Pox token under their control."		Assassin Action - Attack	Muhammad Fajri																	S – OUT026 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT026.width-450.png – OUT026 - N
+When this hits a hero, create a Bloodrot Pox token under their control."		Assassin Action - Attack	Muhammad Fajri					S – OUT026 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT026.width-450.png – OUT026 - N
 OUT027	OUT	Isolate	1	0	3	3			C	Assassin, Action, Attack	Stealth, Dominate				"**Stealth**
 
-**Dominate**"		Assassin Action - Attack	Shen Fei																	S - OUT027 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT027.width-450.png - OUT027 - N
+**Dominate**"		Assassin Action - Attack	Shen Fei					S - OUT027 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT027.width-450.png - OUT027 - N
 OUT028	OUT	Isolate	2	0	2	3			C	Assassin, Action, Attack	Stealth, Dominate				"**Stealth**
 
-**Dominate**"		Assassin Action - Attack	Shen Fei																	S - OUT028 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT028.width-450.png - OUT028 - N
+**Dominate**"		Assassin Action - Attack	Shen Fei					S - OUT028 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT028.width-450.png - OUT028 - N
 OUT029	OUT	Isolate	3	0	1	3			C	Assassin, Action, Attack	Stealth, Dominate				"**Stealth**
 
-**Dominate**"		Assassin Action - Attack	Shen Fei																	S - OUT029 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT029.width-450.png - OUT029 - N
+**Dominate**"		Assassin Action - Attack	Shen Fei					S - OUT029 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT029.width-450.png - OUT029 - N
 OUT030	OUT	Malign	1	0	3	3			C	Assassin, Action, Attack	Stealth				"**Stealth**
 
-Damage that would be dealt by Malign can't be prevented."	"Don't worry, you won't feel a thing."" - Dr. MortimerAssassin Action - AttackOthon NikolaidisS - OUT030 - N"	Assassin Action - Attack	Othon Nikolaidis																	S – OUT030 - N	/OUT030.png – OUT030 – N
-OUT031	OUT																																			
-OUT032	OUT																																			
+Damage that would be dealt by Malign can't be prevented."	"Don't worry, you won't feel a thing."" - Dr. MortimerAssassin Action - AttackOthon NikolaidisS - OUT030 - N"	Assassin Action - Attack	Othon Nikolaidis					S – OUT030 - N	/OUT030.png – OUT030 – N
+OUT031	OUT																							
+OUT032	OUT																							
 OUT033	OUT	Prowl	1	0	3	3			C	Assassin, Action, Attack	Stealth				"**Stealth**
 
-The next attack with **stealth** you play this combat chain gains +1{p}."		Assassin Action - Attack	Tomasz Jedruszek																	S - OUT033 - N	/OUT033.png – OUT033 – N
-OUT034	OUT																																			
-OUT035	OUT																																			
+The next attack with **stealth** you play this combat chain gains +1{p}."		Assassin Action - Attack	Tomasz Jedruszek					S - OUT033 - N	/OUT033.png – OUT033 – N
+OUT034	OUT																							
+OUT035	OUT																							
 OUT036	OUT	Sedate	1	0	3	3			C	Assassin, Action, Attack	Stealth				"**Stealth**
 
-When this hits a hero, create an Inertia token under their control."		Assassin Action - Attack	Saad Irfan																	S – OUT036 – N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT036.width-450.png – OUT036 – N
+When this hits a hero, create an Inertia token under their control."		Assassin Action - Attack	Saad Irfan					S – OUT036 – N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT036.width-450.png – OUT036 – N
 OUT037	OUT	Sedate	2	0	2	3			C	Assassin, Action, Attack	Stealth				"**Stealth**
 
-When this hits a hero, create an Inertia token under their control."		Assassin Action - Attack	Saad Irfan																	S – OUT037 – N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT037.width-450.png – OUT037 – N
+When this hits a hero, create an Inertia token under their control."		Assassin Action - Attack	Saad Irfan					S – OUT037 – N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT037.width-450.png – OUT037 – N
 OUT038	OUT	Sedate	3	0	1	3			C	Assassin, Action, Attack	Stealth				"**Stealth**
 
-When this hits a hero, create an Inertia token under their control."		Assassin Action - Attack	Saad Irfan																	S – OUT038 – N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT038.width-450.png – OUT038 – N
+When this hits a hero, create an Inertia token under their control."		Assassin Action - Attack	Saad Irfan					S – OUT038 – N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT038.width-450.png – OUT038 – N
 OUT039	OUT	Wither	1	0	3	3			C	Assassin, Action, Attack	Stealth				"**Stealth**
 
-When this hits a hero, create a Frailty token under their control."		Assassin Action - Attack	Daria Khlebnikova																	S – OUT039 – N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT039.width-450.png – OUT039 – N
+When this hits a hero, create a Frailty token under their control."		Assassin Action - Attack	Daria Khlebnikova					S – OUT039 – N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT039.width-450.png – OUT039 – N
 OUT040	OUT	Wither	2	0	2	3			C	Assassin, Action, Attack	Stealth				"**Stealth**
 
-When this hits a hero, create a Frailty token under their control."		Assassin Action - Attack	Daria Khlebnikova																	S – OUT040 – N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT040.width-450.png – OUT040 – N
+When this hits a hero, create a Frailty token under their control."		Assassin Action - Attack	Daria Khlebnikova					S – OUT040 – N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT040.width-450.png – OUT040 – N
 OUT041	OUT	Wither	3	0	1	3			C	Assassin, Action, Attack	Stealth				"**Stealth**
 
-When this hits a hero, create a Frailty token under their control."		Assassin Action - Attack	Daria Khlebnikova																	S – OUT041 – N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT041.width-450.png – OUT041 – N
-OUT042	OUT	Razor’s Edge	1	0		3			C	Assassin, Attack Reaction					Target attack action card with **stealth** gains +3{p}.	There’s hit men. There’s big game hunters. Then there’s king slayers.	Assassin Attack Reaction	Isuardi Therianto																	S – OUT042 – N	https://storage.googleapis.com/fabmaster/media/images/OUT042.original.png – OUT042 – N
-OUT043	OUT																																			
-OUT044	OUT																																			
-HER003, HER023, WIN003, KSU001, 1HP086, WTR076, CRU045, OUT045	HER, HER, WIN, KSU, 1HP, WTR, CRU, OUT	Katsu, the Wanderer					40	4	P, P, P, C, C, T, C	Ninja, Hero		Once per turn Effect			The first time an attack action card you control hits, you may discard a card with cost 0. If you do, search your deck for a card with **combo**, banish it face up, then shuffle your deck. You may play it this turn.		Ninja Hero	Adolfo Navarro		No		No													C – HER003 – N, R – HER023 – N, G – WIN003 – N, S – WTR076 – A, S – KSU001 – N, S – 1HP086 – N, S – WTR076 – U, S – CRU045 – F, S – CRU045 – U, S – OUT045 – N, S – OUT045 – N	"https://storage.googleapis.com/fabmaster/cardfaces/promos/HER003.png – HER003 – N, https://storage.googleapis.com/fabmaster/cardfaces/promos/HER023.png – HER023 – N, https://storage.googleapis.com/fabmaster/media/images/KSU.width-450.png – KSU001 – N, https://storage.googleapis.com/fabmaster/media/images/1HP086.width-450.png – 1HP086 – N, https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR076.png – WTR076 – A, https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR076.png – WTR076 – U, https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU045.png – CRU045 – F, https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU045.png – CRU045 – U,
+When this hits a hero, create a Frailty token under their control."		Assassin Action - Attack	Daria Khlebnikova					S – OUT041 – N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT041.width-450.png – OUT041 – N
+OUT042	OUT	Razor’s Edge	1	0		3			C	Assassin, Attack Reaction					Target attack action card with **stealth** gains +3{p}.	There’s hit men. There’s big game hunters. Then there’s king slayers.	Assassin Attack Reaction	Isuardi Therianto					S – OUT042 – N	https://storage.googleapis.com/fabmaster/media/images/OUT042.original.png – OUT042 – N
+OUT043	OUT																							
+OUT044	OUT																							
+HER003, HER023, WIN003, KSU001, 1HP086, WTR076, CRU045, OUT045	HER, HER, WIN, KSU, 1HP, WTR, CRU, OUT	Katsu, the Wanderer					40	4	P, P, P, C, C, T, C	Ninja, Hero		Once per turn Effect			The first time an attack action card you control hits, you may discard a card with cost 0. If you do, search your deck for a card with **combo**, banish it face up, then shuffle your deck. You may play it this turn.		Ninja Hero	Adolfo Navarro		No		No	C – HER003 – N, R – HER023 – N, G – WIN003 – N, S – WTR076 – A, S – KSU001 – N, S – 1HP086 – N, S – WTR076 – U, S – CRU045 – F, S – CRU045 – U, S – OUT045 – N, S – OUT045 – N	"https://storage.googleapis.com/fabmaster/cardfaces/promos/HER003.png – HER003 – N, https://storage.googleapis.com/fabmaster/cardfaces/promos/HER023.png – HER023 – N, https://storage.googleapis.com/fabmaster/media/images/KSU.width-450.png – KSU001 – N, https://storage.googleapis.com/fabmaster/media/images/1HP086.width-450.png – 1HP086 – N, https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR076.png – WTR076 – A, https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR076.png – WTR076 – U, https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU045.png – CRU045 – F, https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU045.png – CRU045 – U,
 /OUT045.width-450.png – OUT045 – N"
-HER007, HER056, XXX004, KSU002, 1HP087, WTR077, OUT046	HER, HER, XXX, KSU, 1HP, WTR, OUT	Katsu					20	4	P, P, P, T, C, T	Ninja, Hero, Young		Once per turn Effect			The first time an attack action card you control hits, you may discard a card with cost 0. If you do, search your deck for a card with **combo**, banish it face up, then shuffle your deck. You may play it this turn.		Ninja Hero – Young	Adolfo Navarro			No														R – HER007 – N, C – HER056 – N, S – XXX004 – N, S – KSU002 – N, S – 1HP087 – N, S – WTR077 – A, S – WTR077 – U, S – OUT046 – N	"https://storage.googleapis.com/fabmaster/cardfaces/promos/HER007.png – HER007 – N, https://storage.googleapis.com/fabmaster/media/images/HER056.width-450.png – HER056 – N, https://storage.googleapis.com/fabmaster/cardfaces/promos/XXX004.png – XXX004 – N, https://storage.googleapis.com/fabmaster/media/images/KSU2.width-450.png – KSU002 – N, https://storage.googleapis.com/fabmaster/media/images/1HP087.width-450.png – 1HP087 – N, https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR077.png – WTR077 – A, https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR077.png – WTR077 – U,
+HER007, HER056, XXX004, KSU002, 1HP087, WTR077, OUT046	HER, HER, XXX, KSU, 1HP, WTR, OUT	Katsu					20	4	P, P, P, T, C, T	Ninja, Hero, Young		Once per turn Effect			The first time an attack action card you control hits, you may discard a card with cost 0. If you do, search your deck for a card with **combo**, banish it face up, then shuffle your deck. You may play it this turn.		Ninja Hero – Young	Adolfo Navarro			No		R – HER007 – N, C – HER056 – N, S – XXX004 – N, S – KSU002 – N, S – 1HP087 – N, S – WTR077 – A, S – WTR077 – U, S – OUT046 – N	"https://storage.googleapis.com/fabmaster/cardfaces/promos/HER007.png – HER007 – N, https://storage.googleapis.com/fabmaster/media/images/HER056.width-450.png – HER056 – N, https://storage.googleapis.com/fabmaster/cardfaces/promos/XXX004.png – XXX004 – N, https://storage.googleapis.com/fabmaster/media/images/KSU2.width-450.png – KSU002 – N, https://storage.googleapis.com/fabmaster/media/images/1HP087.width-450.png – 1HP087 – N, https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR077.png – WTR077 – A, https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR077.png – WTR077 – U,
 /OUT046.width-450.png – OUT046 – N"
-HER026, 1HP088, CRU047, OUT047	HER, 1HP, CRU, OUT	Benji, the Piercing Wind					17	4	P, R, R	Ninja, Hero, Young		Once per Turn Effect			Attack action cards you control with 2 or less {p} can't be defended by cards from hand.  **Once per Turn Effect** - When an attack action card you control hits, your next attack this turn gains +1{p}.		Ninja Hero – Young	Sam Yang			No														C – HER026 – N, S – 1HP088 – N, S – CRU047 – F, R – CRU047 – F – AT, S R – CRU047 – U, S – OUT047 – N	https://storage.googleapis.com/fabmaster/cardfaces/promos/HER026.png – HER026 – N, https://storage.googleapis.com/fabmaster/media/images/1HP088.width-450.png – 1HP088 – N, https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU047.png – CRU047 – F, https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU047-RF.png – CRU047 – F – AT, https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU047.png – CRU047 – U, /OUT047.width-450.png – OUT047 – N
-OUT048	OUT																																			
+HER026, 1HP088, CRU047, OUT047	HER, 1HP, CRU, OUT	Benji, the Piercing Wind					17	4	P, R, R	Ninja, Hero, Young		Once per Turn Effect			Attack action cards you control with 2 or less {p} can't be defended by cards from hand.  **Once per Turn Effect** - When an attack action card you control hits, your next attack this turn gains +1{p}.		Ninja Hero – Young	Sam Yang			No		C – HER026 – N, S – 1HP088 – N, S – CRU047 – F, R – CRU047 – F – AT, S R – CRU047 – U, S – OUT047 – N	https://storage.googleapis.com/fabmaster/cardfaces/promos/HER026.png – HER026 – N, https://storage.googleapis.com/fabmaster/media/images/1HP088.width-450.png – 1HP088 – N, https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU047.png – CRU047 – F, https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU047-RF.png – CRU047 – F – AT, https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU047.png – CRU047 – U, /OUT047.width-450.png – OUT047 – N
+OUT048	OUT																							
 OUT049	OUT	Mask of Many Faces				1			C	Ninja, Equipment, Head	Blade Break	Instant			"**Instant** - {r}, destroy Mask of Many Faces: Name a card. The next attack action card you play this turn gains that name.
 
-**Blade Break**"		Ninja Equipment - Head	Carlos Cruchaga																	S - OUT049 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT049.width-450.png - OUT049 - N
-OUT050	OUT																																			
+**Blade Break**"		Ninja Equipment - Head	Carlos Cruchaga					S - OUT049 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT049.width-450.png - OUT049 - N
+OUT050	OUT																							
 OUT051	OUT	Dishonor	3	0	2	3			M	Ninja, Action, Attack	Combo				"**Combo** - If Bonds of Ancestry was the last attack this combat chain, this has +2{p}.
 
-When this hits a hero, if you control Surging Strike, Descendent Gustwave, and Bonds of Ancestry, that hero loses all abilities for the rest of the game."		Ninja Action - Attack	Faizal Fikri				No													S - OUT051 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT051_tyYCr6g.width-450.png - OUT051 - N
+When this hits a hero, if you control Surging Strike, Descendent Gustwave, and Bonds of Ancestry, that hero loses all abilities for the rest of the game."		Ninja Action - Attack	Faizal Fikri				No	S - OUT051 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT051_tyYCr6g.width-450.png - OUT051 - N
 OUT052	OUT	Head Leads the Tail	1	1	3	2			M	Ninja, Action, Attack	Go again				"When this attacks, name another card. Attack action cards with that name have +1{p} this combat chain.
 
-**Go again**"		Ninja Action - Attack	Faizal Fikri				No													S - OUT052 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT052.width-450.png - OUT052 - N
-OUT053	OUT																																			
-OUT054	OUT																																			
-OUT055	OUT																																			
-OUT056	OUT	Bonds of Ancestry	1	2	4	3			R	Ninja, Action, Attack	Combo, Go again				"**Combo** - If a card with Gustwave in its name was the last attack this combat chain, this costs {r}{r} less to play, and has **go again** and ""When this attacks, you may banish a card with **combo** from your graveyard. If you do, search your deck for a card with the same name, banish it, then shuffle. You may play it this combat chain."""		Ninja Action - Attack	Faizal Fikri				No													S - OUT056 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT056.width-450.png - OUT056 - N
-OUT057	OUT																																		S - OUT057 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT057.width-450.png - OUT057 - N
-OUT058	OUT																																		S - OUT058 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT058.width-450.png - OUT058 - N
-OUT059	OUT																																			
-OUT060	OUT																																			
-OUT061	OUT																																			
-OUT062	OUT																																			
-OUT063	OUT																																			
-OUT064	OUT																																			
-OUT065	OUT																																			
-OUT066	OUT																																			
-OUT067	OUT																																			
+**Go again**"		Ninja Action - Attack	Faizal Fikri				No	S - OUT052 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT052.width-450.png - OUT052 - N
+OUT053	OUT																							
+OUT054	OUT																							
+OUT055	OUT																							
+OUT056	OUT	Bonds of Ancestry	1	2	4	3			R	Ninja, Action, Attack	Combo, Go again				"**Combo** - If a card with Gustwave in its name was the last attack this combat chain, this costs {r}{r} less to play, and has **go again** and ""When this attacks, you may banish a card with **combo** from your graveyard. If you do, search your deck for a card with the same name, banish it, then shuffle. You may play it this combat chain."""		Ninja Action - Attack	Faizal Fikri				No	S - OUT056 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT056.width-450.png - OUT056 - N
+OUT057	OUT																						S - OUT057 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT057.width-450.png - OUT057 - N
+OUT058	OUT																						S - OUT058 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT058.width-450.png - OUT058 - N
+OUT059	OUT																							
+OUT060	OUT																							
+OUT061	OUT																							
+OUT062	OUT																							
+OUT063	OUT																							
+OUT064	OUT																							
+OUT065	OUT																							
+OUT066	OUT																							
+OUT067	OUT																							
 OUT068	OUT	Be Like Water	1	0	3	2			C	Ninja, Action, Attack	Go again				"When this hits, you may pay {r}. If you do, choose Head Jab, Surging Strike, or Twin Twisters. This gains the chosen name.
 
-**Go again**"		Ninja Action - Attack	Enmoire																	S - OUT068 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT068.width-450.png - OUT068 - N
-OUT069	OUT																																		S - OUT069 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT069.width-450.png - OUT069 - N
-OUT070	OUT																																		S - OUT070 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT070.width-450.png - OUT070 - N
-OUT071	OUT																																			
-OUT072	OUT																																			
-OUT073	OUT																																			
-OUT074	OUT																																			
-OUT075	OUT																																			
-OUT076	OUT																																			
-OUT077	OUT																																			
-OUT078	OUT																																			
-OUT079	OUT																																			
-OUT080	OUT																																			
-OUT081	OUT																																			
-OUT082	OUT																																			
-OUT083	OUT																																			
-OUT084	OUT																																			
-OUT085	OUT																																			
-OUT086	OUT																																			
-OUT087	OUT																																			
-OUT088	OUT																																			
-HER010, HER018, WIN006, 1HP221, ARC038, CRU119, OUT089	HER, HER, WIN, 1HP, ARC, CRU, OUT	Azalea, Ace in the Hole					40	4	P, P, P, C, T, C	Ranger, Hero		Once per Turn Action	Go again	Dominate	**Once per Turn Action** - 0: Put a card from your arsenal on the bottom of your deck. If you do, put the top card of your deck face up into your arsenal. If it’s an arrow card, it gains **dominate** until end of turn. **Go again**		Ranger Hero	Maxim Kostin		No		No													C – HER010 – N, R – HER018 – N, G – WIN006 – N, S – 1HP221 – N, S – ARC038 – F, S – ARC038 – U, S – CRU119 – F, S – CRU119 – U, S – OUT089 – N	https://storage.googleapis.com/fabmaster/cardfaces/promos/HER010.png – HER010 – N, https://storage.googleapis.com/fabmaster/cardfaces/promos/HER018.png – HER018 – N, https://storage.googleapis.com/fabmaster/media/images/1HP221.width-450.png – 1HP221 – N, https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC038.png - ARC038 – F, https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC038.png – ARC038 – U, https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU119.png – CRU119 – F, https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU119.png – CRU119 – U, /OUT089.png – OUT089 – N
-HER014, 1HP222, ARC039, OUT090	HER, 1HP, ARC, OUT	Azalea					20	4	P, C, T	Ranger, Hero, Young		Once per Turn Action	Go again	Dominate	**Once per Turn Action** - 0: Put a card from your arsenal on the bottom of your deck. If you do, put the top card of your deck face up into your arsenal. If it’s an arrow card, it gains **dominate** until end of turn. **Go again**		Ranger Hero – Young	Maxim Kostin			No														R – HER014 – N, S – 1HP222 – N, S – ARC039 – F, S – ARC039 – U, S – OUT090 – N	https://storage.googleapis.com/fabmaster/cardfaces/promos/HER014.png – HER014 – N, https://storage.googleapis.com/fabmaster/media/images/1HP222.width-450.png – 1HP222 – N, https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC039.png - ARC039 – F, https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC039.png – ARC039 – U, /OUT090.png – OUT090 – N
-OUT091	OUT	Riptide, Lurker of the Deep					38	4	T	Ranger, Hero							Ranger Hero																		S – OUT091 – N	/OUT091.width-450.png – OUT091 – N
-OUT092	OUT	Riptide					19	4	T	Ranger, Hero, Young							Ranger Hero – Young																		S – OUT092 – N	/OUT092.width-450.png – OUT092 – N
+**Go again**"		Ninja Action - Attack	Enmoire					S - OUT068 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT068.width-450.png - OUT068 - N
+OUT069	OUT																						S - OUT069 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT069.width-450.png - OUT069 - N
+OUT070	OUT																						S - OUT070 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT070.width-450.png - OUT070 - N
+OUT071	OUT																							
+OUT072	OUT																							
+OUT073	OUT																							
+OUT074	OUT																							
+OUT075	OUT																							
+OUT076	OUT																							
+OUT077	OUT																							
+OUT078	OUT																							
+OUT079	OUT																							
+OUT080	OUT																							
+OUT081	OUT																							
+OUT082	OUT																							
+OUT083	OUT																							
+OUT084	OUT																							
+OUT085	OUT																							
+OUT086	OUT																							
+OUT087	OUT																							
+OUT088	OUT																							
+HER010, HER018, WIN006, 1HP221, ARC038, CRU119, OUT089	HER, HER, WIN, 1HP, ARC, CRU, OUT	Azalea, Ace in the Hole					40	4	P, P, P, C, T, C	Ranger, Hero		Once per Turn Action	Go again	Dominate	**Once per Turn Action** - 0: Put a card from your arsenal on the bottom of your deck. If you do, put the top card of your deck face up into your arsenal. If it’s an arrow card, it gains **dominate** until end of turn. **Go again**		Ranger Hero	Maxim Kostin		No		No	C – HER010 – N, R – HER018 – N, G – WIN006 – N, S – 1HP221 – N, S – ARC038 – F, S – ARC038 – U, S – CRU119 – F, S – CRU119 – U, S – OUT089 – N	https://storage.googleapis.com/fabmaster/cardfaces/promos/HER010.png – HER010 – N, https://storage.googleapis.com/fabmaster/cardfaces/promos/HER018.png – HER018 – N, https://storage.googleapis.com/fabmaster/media/images/1HP221.width-450.png – 1HP221 – N, https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC038.png - ARC038 – F, https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC038.png – ARC038 – U, https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU119.png – CRU119 – F, https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU119.png – CRU119 – U, /OUT089.png – OUT089 – N
+HER014, 1HP222, ARC039, OUT090	HER, 1HP, ARC, OUT	Azalea					20	4	P, C, T	Ranger, Hero, Young		Once per Turn Action	Go again	Dominate	**Once per Turn Action** - 0: Put a card from your arsenal on the bottom of your deck. If you do, put the top card of your deck face up into your arsenal. If it’s an arrow card, it gains **dominate** until end of turn. **Go again**		Ranger Hero – Young	Maxim Kostin			No		R – HER014 – N, S – 1HP222 – N, S – ARC039 – F, S – ARC039 – U, S – OUT090 – N	https://storage.googleapis.com/fabmaster/cardfaces/promos/HER014.png – HER014 – N, https://storage.googleapis.com/fabmaster/media/images/1HP222.width-450.png – 1HP222 – N, https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC039.png - ARC039 – F, https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC039.png – ARC039 – U, /OUT090.png – OUT090 – N
+OUT091	OUT	Riptide, Lurker of the Deep					38	4	T	Ranger, Hero							Ranger Hero						S – OUT091 – N	/OUT091.width-450.png – OUT091 – N
+OUT092	OUT	Riptide					19	4	T	Ranger, Hero, Young							Ranger Hero – Young						S – OUT092 – N	/OUT092.width-450.png – OUT092 – N
 LGS129, OUT093	LGS, OUT	Barbed Castaway							P, T	Ranger, Weapon, Bow, 2H	Once per Turn Instant				"**Once per Turn Instant** - {r}: You may put an arrow card from your hand face up into your arsenal.
 
-**Once per Turn Instant** - {r}: You may turn a face down arrow in your arsenal face up. If you do, put an aim counter on it."		Ranger Weapon - Bow (2H)	Tanapon Wachirakul																	S – LGS129 – N, S – OUT093 – N	/LGS129.png – LGS129 – N, /OUT093.width-450.png – OUT093 – N
-OUT094	OUT																																			
-OUT095	OUT																																			
-OUT096	OUT	Quiver of Rustling Leaves							M	Ranger, Equipment, Quiver		Instant			**Instant** - {r}{r}{r}: Reveal the top card of your deck. If it's an arrow, put it face up into your arsenal and destroy Quiver of Rustling Leaves.		Ranger Equipment - Quiver	Mark Poole				No													S – OUT096 – N	/OUT096.png – OUT096 – N
-OUT097	OUT																																			
-OUT098	OUT																																			
-OUT099	OUT																																			
-OUT100	OUT																																			
-OUT101	OUT	Barbed Undertow	1	1	5	3			M	Ranger, Action, Attack					If Barbed Undertow has an aim counter, it gains When this hits a hero, choose red, yellow, or blue.  Until the start of your next turn, they can't pitch cards of the chosen color.		Ranger Action - Arrow Attack	Junaidi Lim				No													S - OUT101 - N	/OUT101.png – OUT101 – N
-OUT102	OUT																																			
+**Once per Turn Instant** - {r}: You may turn a face down arrow in your arsenal face up. If you do, put an aim counter on it."		Ranger Weapon - Bow (2H)	Tanapon Wachirakul					S – LGS129 – N, S – OUT093 – N	/LGS129.png – LGS129 – N, /OUT093.width-450.png – OUT093 – N
+OUT094	OUT																							
+OUT095	OUT																							
+OUT096	OUT	Quiver of Rustling Leaves							M	Ranger, Equipment, Quiver		Instant			**Instant** - {r}{r}{r}: Reveal the top card of your deck. If it's an arrow, put it face up into your arsenal and destroy Quiver of Rustling Leaves.		Ranger Equipment - Quiver	Mark Poole				No	S – OUT096 – N	/OUT096.png – OUT096 – N
+OUT097	OUT																							
+OUT098	OUT																							
+OUT099	OUT																							
+OUT100	OUT																							
+OUT101	OUT	Barbed Undertow	1	1	5	3			M	Ranger, Action, Attack					If Barbed Undertow has an aim counter, it gains When this hits a hero, choose red, yellow, or blue.  Until the start of your next turn, they can't pitch cards of the chosen color.		Ranger Action - Arrow Attack	Junaidi Lim				No	S - OUT101 - N	/OUT101.png – OUT101 – N
+OUT102	OUT																							
 OUT103	OUT	Collapsing Trap	3	0		3			M	Ranger, Defense Reaction, Trap	Legendary, Riptide Specialization				"**Legendary Riptide Specialization**
 
-When this defends an attack with **go again**, the attacking hero discards their hand then draws that many cards minus 1."		Ranger Defense Reaction - Trap	Raphael Pinna				No													S – OUT103 – N	/OUT103.png – OUT103 – N
-OUT104	OUT																																			
-OUT105	OUT																																			
-OUT106	OUT																																			
-OUT107	OUT																																			
-OUT108	OUT																																			
-OUT109	OUT																																			
-OUT110	OUT																																			
-OUT111	OUT																																			
-OUT112	OUT																																			
-OUT113	OUT																																			
-OUT114	OUT																																			
-OUT115	OUT																																			
-OUT116	OUT																																			
-OUT117	OUT																																			
-OUT118	OUT																																			
-OUT119	OUT																																			
-OUT120	OUT																																			
-OUT121	OUT																																			
-OUT122	OUT																																			
-OUT123	OUT																																			
+When this defends an attack with **go again**, the attacking hero discards their hand then draws that many cards minus 1."		Ranger Defense Reaction - Trap	Raphael Pinna				No	S – OUT103 – N	/OUT103.png – OUT103 – N
+OUT104	OUT																							
+OUT105	OUT																							
+OUT106	OUT																							
+OUT107	OUT																							
+OUT108	OUT																							
+OUT109	OUT																							
+OUT110	OUT																							
+OUT111	OUT																							
+OUT112	OUT																							
+OUT113	OUT																							
+OUT114	OUT																							
+OUT115	OUT																							
+OUT116	OUT																							
+OUT117	OUT																							
+OUT118	OUT																							
+OUT119	OUT																							
+OUT120	OUT																							
+OUT121	OUT																							
+OUT122	OUT																							
+OUT123	OUT																							
 OUT124	OUT	Sedation Shot	1	1	5	3			C	Ranger, Action, Arrow, Attack					"If Sedation Shot has an aim counter, it has plus 1 {p}.
 
-When this hits a hero, create an Inertia token under their control."		Ranger Action - Arrow Attack	Elena Bakulina																	S – OUT124 – N	/OUT124.png – OUT124 – N
-OUT125	OUT																																			
-OUT126	OUT																																			
-OUT127	OUT																																			
-OUT128	OUT																																			
-OUT129	OUT																																			
-OUT130	OUT																																			
-OUT131	OUT																																			
-OUT132	OUT																																			
-OUT133	OUT																																			
-OUT134	OUT																																			
-OUT135	OUT																																			
-OUT136	OUT																																			
-OUT137	OUT																																			
-OUT138	OUT																																			
+When this hits a hero, create an Inertia token under their control."		Ranger Action - Arrow Attack	Elena Bakulina					S – OUT124 – N	/OUT124.png – OUT124 – N
+OUT125	OUT																							
+OUT126	OUT																							
+OUT127	OUT																							
+OUT128	OUT																							
+OUT129	OUT																							
+OUT130	OUT																							
+OUT131	OUT																							
+OUT132	OUT																							
+OUT133	OUT																							
+OUT134	OUT																							
+OUT135	OUT																							
+OUT136	OUT																							
+OUT137	OUT																							
+OUT138	OUT																							
 OUT139	OUT	Flick Knives				1			L	Assassin, Ninja, Equipment, Arms	Blade Break				"**Once per Turn Attack Reaction** - 0: Target dagger you control that isn't on the active chain link deals 1 damage to target hero. If damage is dealt this way, the dagger has hit. Destroy the dagger.
 
-**Blade Break**"		Assassin / Ninja Equipment - Arms	Nathaniel Himawan				No													S - OUT139 - N	/OUT139.png – OUT139 – N
-OUT140	OUT																																			
-OUT141	OUT																																			
-OUT142	OUT	Stab Wound	3	0	2	3			M	Assassin, Ninja, Action, Attack					When this hits a hero, they lose X{h}, where X is the number of times a dagger has hit this combat chain.		Assassin / Ninja Action - Attack	Narendra B Adi				No													S – OUT142 - N	/OUT142.png – OUT142 – N
-OUT143	OUT																																			
-OUT144	OUT																																			
-OUT145	OUT																																			
-OUT146	OUT																																			
-OUT147	OUT																																			
+**Blade Break**"		Assassin / Ninja Equipment - Arms	Nathaniel Himawan				No	S - OUT139 - N	/OUT139.png – OUT139 – N
+OUT140	OUT																							
+OUT141	OUT	Blade Cuff				1			C	Assassin, Ninja, Equipment, Arms	Blade Break	Action	Go again		"**Action** - {r}{r}, destroy Blade Cuff: Your daggers gain +1{p} this turn. **Go again**
+
+**Blade Break**"		Assassin / Ninja Equipment - Arms	Federico Musetti					S - OUT141 - N	/OUT141.png – OUT141 – N
+OUT142	OUT	Stab Wound	3	0	2	3			M	Assassin, Ninja, Action, Attack					When this hits a hero, they lose X{h}, where X is the number of times a dagger has hit this combat chain.		Assassin / Ninja Action - Attack	Narendra B Adi				No	S – OUT142 - N	/OUT142.png – OUT142 – N
+OUT143	OUT																							
+OUT144	OUT																							
+OUT145	OUT	Bleed Out	1	2	4	2			R	Assassin, Ninja, Action, Attack	Go again				"Bleed Out costs X resource points less to play, where X is the total damage you've dealt with daggers this combat chain.
+
+**Go again**"		Assassin / Ninja Action - Attack	Marco Gonzalez				No	S - OUT145 - N	/OUT145.png – OUT145 – N
+OUT146	OUT																							
+OUT147	OUT																							
 OUT148	OUT	Hurl	1	0	3	2			 R	Assassin, Ninja, Action, Attack	Go Again				"As an additional cost to play Hurl, you may pay {R}. When you do, it gains ""When this attack, target dagger you control deals 1 damage to target hero. If damage is dealth this way, the dagger has hit. Destroy the dagger.""
 
-**Go again**"		Assassin / Ninja Action - Attack	Tanapon Wachirakul				No													S – OUT148 - N	/OUT148.png – OUT148 – N
-OUT149	OUT																																			
-OUT150	OUT																																			
-OUT151	OUT																																			
-OUT152	OUT																																			
-OUT153	OUT																																			
+**Go again**"		Assassin / Ninja Action - Attack	Tanapon Wachirakul				No	S – OUT148 - N	/OUT148.png – OUT148 – N
+OUT149	OUT																							
+OUT150	OUT																							
+OUT151	OUT																							
+OUT152	OUT																							
+OUT153	OUT																							
 OUT154	OUT	Short and Sharp	1	1		2			C	Assassin, Ninja, Attack Reaction					"Choose 1;
 - Target dagger attack gains +3{p}.
-- Target attack action card with 2 or less base {p} gains +3{p}."		Assassin / Ninja Attack Reaction	Tommy Suhartono																	S - OUT154 - N	/OUT154.png – OUT154 – N
-OUT155	OUT																																			
-OUT156	OUT																																			
-OUT157	OUT																																			
+- Target attack action card with 2 or less base {p} gains +3{p}."		Assassin / Ninja Attack Reaction	Tommy Suhartono					S - OUT154 - N	/OUT154.png – OUT154 – N
+OUT155	OUT																							
+OUT156	OUT																							
+OUT157	OUT																							
 OUT158	OUT	Toxic Tips				1			C	Assassin, Ranger, Equipment, Arms	Go again, Blade Break				"**Action** - {r}, destroy Toxic Tips: The next attack action card you play this turn gains ""When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under their control."" **Go again**
 
-**Blade Break**"		Assassin / Ranger Equipment - Arms	Shen Fei																	S – OUT158 - N	/OUT158.png – OUT158 – N
+**Blade Break**"		Assassin / Ranger Equipment - Arms	Shen Fei					S – OUT158 - N	/OUT158.png – OUT158 – N
 OUT159	OUT	Codex of Bloodrot	2	0		2			M	Assassin, Ranger, Action	Go again				"Each hero puts an attack action card from their hand face down into their arsenal.
 
 Create a Ponder token under your control and a Bloodrot Pox token under each opponent's control.
 
-**Go again**"		Assassin / Ranger Action	Mateusz Wiśniewski				No													S - OUT159 - N	/OUT159.png – OUT159 – N
+**Go again**"		Assassin / Ranger Action	Mateusz Wiśniewski				No	S - OUT159 - N	/OUT159.png – OUT159 – N
 OUT160	OUT	Codex of Frailty	2	0		2			M – OUT160 – N, V – OUT160 – N – AA	Assassin, Ranger, Action	Go again				"Each hero puts an attack action card from their graveyard face down into their arsenal. Each hero that does, discards a card.
 
 Create a Ponder token under your control and a Frailty token under each opponent's control.
 
-**Go again**"		Assassin / Ranger Action	Carlos Cruchaga				No													 S – OUT160 – N, C – OUT160 – N – FA	/OUT160.png – OUT160 – N, /OUT160_Marvel.png – OUT160_Marvel – N – FA
-OUT161	OUT																																			
+**Go again**"		Assassin / Ranger Action	Carlos Cruchaga				No	 S – OUT160 – N, C – OUT160 – N – FA	/OUT160.png – OUT160 – N, /OUT160_Marvel.png – OUT160_Marvel – N – FA
+OUT161	OUT																							
 FAB132, OUT162	FAB, OUT	Death Touch	1	1	6	2			P, R	Assassin, Ranger, Action, Attack					"Death Touch can't be played from hand.
 
-When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under their control."		Assassin / Ranger Action - Attack	Saad Irfan																	R - FAB132 - N - EA, S - OUT162 - N	/FAB132.png – FAB132 – N, https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT162.width-450.png - OUT162 - N
+When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under their control."		Assassin / Ranger Action - Attack	Saad Irfan					R - FAB132 - N - EA, S - OUT162 - N	/FAB132.png – FAB132 – N, https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT162.width-450.png - OUT162 - N
 OUT163	OUT	Death Touch	2	1	5	2			R	Assassin, Ranger, Action, Attack					"Death Touch can't be played from hand.
 
-When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under their control."		Assassin / Ranger Action - Attack	Saad Irfan																	S - OUT163 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT163.width-450.png - OUT163 - N
+When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under their control."		Assassin / Ranger Action - Attack	Saad Irfan					S - OUT163 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT163.width-450.png - OUT163 - N
 OUT164	OUT	Death Touch	3	1	4	2			R	Assassin, Ranger, Action, Attack					"Death Touch can't be played from hand.
 
-When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under their control."		Assassin / Ranger Action - Attack	Saad Irfan																	S - OUT164 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT164.width-450.png - OUT164 - N
-OUT165	OUT																																			
-OUT166	OUT																																			
-OUT167	OUT																																			
-OUT168	OUT																																			
-OUT169	OUT																																			
-OUT170	OUT																																			
-OUT171	OUT																																			
-OUT172	OUT																																			
-OUT173	OUT																																			
-OUT174	OUT																																			
-OUT175	OUT																																			
-OUT176	OUT																																			
-OUT177	OUT																																			
-OUT178	OUT																																			
-OUT179	OUT																																			
-OUT180	OUT																																			
-OUT181	OUT																																			
-OUT182	OUT																																			
-OUT183	OUT																																			
-OUT184	OUT																																			
-OUT185	OUT																																			
-OUT186	OUT																																			
-OUT187	OUT																																			
-OUT188	OUT																																			
-OUT189	OUT																																			
-OUT190	OUT																																			
-OUT191	OUT																																			
-OUT192	OUT																																			
-OUT193	OUT																																			
-OUT194	OUT																																			
-OUT195	OUT	Looking for a Scrap	1	1	4	2			R	Generic, Action, Attack				Go again	As an additional cost to play Looking for a Scrap, you may banish a card with 1{p} from your graveyard. When you do, this gains +1{p} and **go again**.		Generic Action - Attack	Shen Fei				No													S - OUT195 - N	/OUT195.png – OUT195 – N
-OUT196	OUT																																			
-OUT197	OUT																																			
+When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under their control."		Assassin / Ranger Action - Attack	Saad Irfan					S - OUT164 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT164.width-450.png - OUT164 - N
+OUT165	OUT																							
+OUT166	OUT																							
+OUT167	OUT																							
+OUT168	OUT	Virulent Touch	1	0	4	2			C	Assassin, Ranger, Action, Attack					"Viruluent Touch can’t be played from hand.
+
+When this chain link resolves, if Virulent Touch is defended by a card from hand, create a Bloodrot Pox token under the defending hero’s control."		Assassin / Ranger Action - Attack	Mark Poole					S – OUT168 - N	/OUT168.png – OUT168 – N
+OUT169	OUT																							
+OUT170	OUT																							
+OUT171	OUT																							
+OUT172	OUT																							
+OUT173	OUT																							
+OUT174	OUT																							
+OUT175	OUT																							
+OUT176	OUT																							
+OUT177	OUT																							
+OUT178	OUT																							
+OUT179	OUT																							
+OUT180	OUT																							
+OUT181	OUT																							
+OUT182	OUT																							
+OUT183	OUT	Amnesia	1	2	6	3			M	Generic, Action, Attack					When this hits a hero, cards and tokens they own l ose and can't gain names until the start of your next turn.		Generic Action - Attack	Riordan Delmiro				No	S - OUT183 - N	/OUT183.png – OUT183 – N
+OUT184	OUT																							
+OUT185	OUT																							
+OUT186	OUT																							
+OUT187	OUT																							
+OUT188	OUT																							
+OUT189	OUT																							
+OUT190	OUT																							
+OUT191	OUT																							
+OUT192	OUT																							
+OUT193	OUT																							
+OUT194	OUT																							
+OUT195	OUT	Looking for a Scrap	1	1	4	2			R	Generic, Action, Attack				Go again	As an additional cost to play Looking for a Scrap, you may banish a card with 1{p} from your graveyard. When you do, this gains +1{p} and **go again**.		Generic Action - Attack	Shen Fei				No	S - OUT195 - N	/OUT195.png – OUT195 – N
+OUT196	OUT																							
+OUT197	OUT																							
 OUT198	OUT	Wreck Havoc	1	2	6	2			R	Generic, Action, Attack					"Defense reactions can't be played to Wreck Havoc's chain link.
 
-When this hits a hero, you may turn a card in their arsenal face up, then destroy a defense reaction in their arsenal."		Generic Action - Attack	Saad Irfan				No													S - OUT198 - N	/OUT198.png – OUT198 – N
-OUT199	OUT																																			
-OUT200	OUT																																			
-OUT201	OUT																																			
-OUT202	OUT																																			
-OUT203	OUT																																			
-OUT204	OUT	Destructive Deliberation	1	2	5	2			C	Generic, Action, Attack					When this hits a hero, create a Ponder token.	"Dis will blow. your MIND!"" - Suraj the Oracle"	Generic Action – Attack	Saad Irfan																	S – OUT204 - N	/OUT204.png – OUT204 – N
-OUT205	OUT																																			
-OUT206	OUT																																			
-OUT207	OUT																																			
-OUT208	OUT																																			
-OUT209	OUT																																			
-OUT210	OUT																																			
-OUT211	OUT																																			
-OUT212	OUT																																			
-OUT213	OUT																																			
-OUT214	OUT																																			
-OUT215	OUT																																			
-OUT216	OUT																																			
-OUT217	OUT																																			
-OUT218	OUT																																			
-OUT219	OUT																																			
-OUT220	OUT																																			
-OUT221	OUT																																			
-OUT222	OUT																																			
-OUT223	OUT																																			
-OUT224	OUT																																			
-OUT225	OUT																																			
-OUT226	OUT																																			
-OUT227	OUT																																			
-OUT228	OUT																																			
-OUT229	OUT																																			
-OUT230	OUT																																			
+When this hits a hero, you may turn a card in their arsenal face up, then destroy a defense reaction in their arsenal."		Generic Action - Attack	Saad Irfan				No	S - OUT198 - N	/OUT198.png – OUT198 – N
+OUT199	OUT																							
+OUT200	OUT																							
+OUT201	OUT																							
+OUT202	OUT																							
+OUT203	OUT																							
+OUT204	OUT	Destructive Deliberation	1	2	5	2			C	Generic, Action, Attack					When this hits a hero, create a Ponder token.	"Dis will blow. your MIND!"" - Suraj the Oracle"	Generic Action – Attack	Saad Irfan					S – OUT204 - N	/OUT204.png – OUT204 – N
+OUT205	OUT																							
+OUT206	OUT																							
+OUT207	OUT																							
+OUT208	OUT																							
+OUT209	OUT																							
+OUT210	OUT																							
+OUT211	OUT																							
+OUT212	OUT																							
+OUT213	OUT																							
+OUT214	OUT																							
+OUT215	OUT																							
+OUT216	OUT																							
+OUT217	OUT																							
+OUT218	OUT																							
+OUT219	OUT																							
+OUT220	OUT																							
+OUT221	OUT																							
+OUT222	OUT																							
+OUT223	OUT																							
+OUT224	OUT																							
+OUT225	OUT																							
+OUT226	OUT																							
+OUT227	OUT																							
+OUT228	OUT																							
+OUT229	OUT																							
+OUT230	OUT																							
 OUT231, FAB131	OUT, FAB	Peace of Mind	1	2					C, P	Generic, Instant					"The next time you would be dealt {p} damage, prevent 4 of that damage.
 
-Create a Ponder token."		Generic Instant	Nikolay Moskvin, Hendrique Lindner																	R - FAB131 – N, S – OUT231 – N	/FAB131.png – FAB131 – N, /OUT231.png – OUT231 – N
+Create a Ponder token."		Generic Instant	Nikolay Moskvin, Hendrique Lindner					R - FAB131 – N, S – OUT231 – N	/FAB131.png – FAB131 – N, /OUT231.png – OUT231 – N
 OUT232	OUT	Peace of Mind	2	2					C	Generic, Instant					"The next time you would be dealt {p} damage, prevent 3 of that damage.
 
-Create a Ponder token."		Generic Instant	Nikolay Moskvin																	S – OUT232 – N	/OUT232.png – OUT232 – N
+Create a Ponder token."		Generic Instant	Nikolay Moskvin					S – OUT232 – N	/OUT232.png – OUT232 – N
 OUT233	OUT	Peace of Mind	3	2					C	Generic, Instant					"The next time you would be dealt {p} damage, prevent 2 of that damage.
 
-Create a Ponder token."		Generic Instant	Nikolay Moskvin																	S – OUT233 – N	/OUT233.png – OUT233 – N
-LGS125, OUT234	LGS, OUT	Bloodrot Pox							P, T	Generic, Token, Aura					At the beginning of your end phase, destroy Bloodrot Pox, then it deals 2 damage to you unless you pay {r}{r}{r}.		Generic Token - Aura	Carlos Cruchaga																	S – LGS125 – N	/LGS125.png – LGS125 – N
+Create a Ponder token."		Generic Instant	Nikolay Moskvin					S – OUT233 – N	/OUT233.png – OUT233 – N
+LGS125, OUT234	LGS, OUT	Bloodrot Pox							P, T	Generic, Token, Aura					At the beginning of your end phase, destroy Bloodrot Pox, then it deals 2 damage to you unless you pay {r}{r}{r}.		Generic Token - Aura	Carlos Cruchaga					S – LGS125 – N	/LGS125.png – LGS125 – N
 LGS126, OUT235	LGS, OUT	Frailty							P, T	Generic, Token, Aura					"Your attack action cards played from arsenal and weapon attacks have -1{p}.
 
-At the beginning of your end phase destroy Frailty."		Generic Token - Aura	Daria Khlebnikova																	S – LGS126 – N	/LGS126.png – LGS126 – N
-LGS127, OUT236	LGS, OUT	Inertia							P, T	Generic, Token, Aura					At the beginning of your end phase, destroy Inertia, then put all cards from your hand and arsenal on the bottom of your deck.		Generic Token - Aura	Othon Nikolaidis																	S – LGS127 – N	/LGS127.png – LGS127 – N
-OUT237	OUT																																			
-OUT238	OUT																																			
+At the beginning of your end phase destroy Frailty."		Generic Token - Aura	Daria Khlebnikova					S – LGS126 – N	/LGS126.png – LGS126 – N
+LGS127, OUT236	LGS, OUT	Inertia							P, T	Generic, Token, Aura					At the beginning of your end phase, destroy Inertia, then put all cards from your hand and arsenal on the bottom of your deck.		Generic Token - Aura	Othon Nikolaidis					S – LGS127 – N	/LGS127.png – LGS127 – N
+OUT237	OUT																							
+OUT238	OUT																							
