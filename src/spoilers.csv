@@ -6,14 +6,25 @@ OUT003	OUT	Arakni, Solitary Confinement					19	4	T	Assassin, Hero, Young							A
 OUT004	OUT																																			
 OUT005	OUT																																			
 OUT006	OUT																																			
-OUT007	OUT																																			
+OUT007	OUT	Orbitoclast			1				M	Assassin, Weapon, Dagger, 1H	Piercing 1	Once per Turn Action	Attack, Go again		"**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
+
+**Piercing 1**
+
+When this hits a hero, the next time they defend with 1 or more 'non-attack' action cards this turn, those cards have -1{d} while defending."		Assassin Weapon - Dagger (1H)	Alexis Susani				No	S - OUT007 - N												S – OUT007 - N	/OUT007.png – OUT007 – N
 OUT008	OUT																																			
-OUT009	OUT																																			
-OUT010	OUT																																			
-OUT011	OUT																																			
+OUT009, OUT010	OUT, OUT	Scale Peeler			1				M	Assassin, Weapon, Dagger, 1H	Piercing 1	Once per Turn Action	Attack, Go again		"**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
+
+**Piercing 1**
+
+When this hits a hero, the next time they defend with 1 or more equipment this turn, those equipment have -1{d} while defending."		Assassin Weapon - Dagger (1H)	Federico Musetti				No													S - OUT009 - N	/OUT009.png – OUT009 – N
+OUT011	OUT	Redback Shroud				1			L	Assassin, Equipment, Chest	Battleworn	Attack Reaction			"While Redback Shroud is in your graveyard, at the start of your turn, you may destroy 2 Silver you control. If you do, equip Redback Shroud.
+
+**Attack Reaction** - Destroy Redback Shroud: The next attack reaction card you play this turn costs {r} less to play.
+
+**Battleworn**"		Assassin Equipment - Chest	soyameii				No													C - OUT011 - N - EA	/OUT011.png – OUT011 – N – EA
 OUT012	OUT	Infiltrate	1	0	3	3			M	Assassin, Action, Attack	Stealth				"**Stealth**
 
-When this hits a hero, banish the top card of their deck. You may play it until the end of your next turn."		Assassin Action - Attack	Isuardi Therianto				No													S - OUT012 - N	/OUT012.png – OUT012 – N
+When this hits a hero, banish the top card of their deck. You may play it until the end of your next turn."		Assassin Action - Attack	Isuardi Therianto				No													 S – OUT160 – N, C – OUT160 – N – FA	/OUT012.png – OUT012 – N
 OUT013	OUT	Shake Down	1	2	6	3			M	Assassin, Action, Attack	Uzuri Specialization				"**Uzuri Specialization**
 
 If you've played or activated an attack reaction this chain link, Shake Down has ""When this hits a hero, choose red, yellow, or blue. They reveal their hand. Banish a card of the chosen color."""		Assassin Action - Attack	Tomasz Jedruszek				No													S – OUT013 – N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT013.width-450.png – OUT013 - N
@@ -51,7 +62,10 @@ OUT028	OUT	Isolate	2	0	2	3			C	Assassin, Action, Attack	Stealth, Dominate				"**
 OUT029	OUT	Isolate	3	0	1	3			C	Assassin, Action, Attack	Stealth, Dominate				"**Stealth**
 
 **Dominate**"		Assassin Action - Attack	Shen Fei																	S - OUT029 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT029.width-450.png - OUT029 - N
-OUT030	OUT																																			
+OUT030	OUT	Malign	1	0	3	3			C	Assassin, Action, Attack	Stealth				"**Stealth**
+
+Damage that would be dealt by Malign can't be prevented."	"Don't worry, you won't feel a thing."" - Dr. MortimerAssassin Action - AttackOthon NikolaidisS - OUT030 - N
+"	Assassin Action - Attack	Othon Nikolaidis																	S – OUT030 - N	/OUT030.png – OUT030 – N
 OUT031	OUT																																			
 OUT032	OUT																																			
 OUT033	OUT	Prowl	1	0	3	3			C	Assassin, Action, Attack	Stealth				"**Stealth**

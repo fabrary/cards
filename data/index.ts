@@ -146,6 +146,141 @@
     
     young: true
   },{
+    artists: ["Alexis Susani"],
+    cardIdentifier: "orbitoclast",
+    classes: [Class.Assassin],
+    defaultImageName: "OUT007",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT007",
+      name: "OUT007",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Orbitoclast",
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT007"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT007",
+    subtypes: [Subtype.Dagger,Subtype.OneHanded],
+    types: [Type.Weapon],
+    typeText: "Assassin Weapon - Dagger (1H)",
+
+    
+    
+    functionalText: `**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
+
+**Piercing 1**
+
+When this hits a hero, the next time they defend with 1 or more 'non-attack' action cards this turn, those cards have -1{d} while defending.`,
+    
+    
+    
+    
+    keywords: [Keyword.Piercing,Keyword.GoAgain],
+    
+    
+    
+    power: 1,
+    restrictedFormats: [Format.Blitz,Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "scale-peeler",
+    classes: [Class.Assassin],
+    defaultImageName: "OUT009",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT009",
+      name: "OUT009",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Scale Peeler",
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT009","OUT010"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT009",
+    subtypes: [Subtype.Dagger,Subtype.OneHanded],
+    types: [Type.Weapon],
+    typeText: "Assassin Weapon - Dagger (1H)",
+
+    
+    
+    functionalText: `**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
+
+**Piercing 1**
+
+When this hits a hero, the next time they defend with 1 or more equipment this turn, those equipment have -1{d} while defending.`,
+    
+    
+    
+    
+    keywords: [Keyword.Piercing,Keyword.GoAgain],
+    
+    
+    
+    power: 1,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["soyameii"],
+    cardIdentifier: "redback-shroud",
+    classes: [Class.Assassin],
+    defaultImageName: "OUT011",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT011",
+      name: "OUT011",
+      set: Release.Outsiders,
+      treatment: Treatment.EA,
+    },],
+    name: "Redback Shroud",
+    rarities: [Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["OUT011"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT011",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Assassin Equipment - Chest",
+
+    
+    defense: 1,
+    functionalText: `While Redback Shroud is in your graveyard, at the start of your turn, you may destroy 2 Silver you control. If you do, equip Redback Shroud.
+
+**Attack Reaction** - Destroy Redback Shroud: The next attack reaction card you play this turn costs {r} less to play.
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn],
+    
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "infiltrate-red",
     classes: [Class.Assassin],
@@ -793,6 +928,49 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     
     pitch: 3,
     power: 1,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Othon Nikolaidis"],
+    cardIdentifier: "malign-red",
+    classes: [Class.Assassin],
+    defaultImageName: "OUT030",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT030",
+      name: "OUT030",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Malign",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT030"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT030",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+Damage that would be dealt by Malign can't be prevented.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 3,
     
     
     
@@ -26894,7 +27072,8 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Fedor Barkhatov"],
     cardIdentifier: "fervent-forerunner-red",
     classes: [Class.Generic],
@@ -27059,8 +27238,7 @@ If Fervent Forerunner is played from arsenal, it gains **go again**.`,
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "moon-wish-red",
     classes: [Class.Generic],
@@ -52525,7 +52703,8 @@ The next attack action card with cost 0 you play this turn gains **go again**.
     
     
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Phu Thieu"],
     cardIdentifier: "brandish-blue",
     classes: [Class.Generic],
@@ -52623,8 +52802,7 @@ If Frontline Scout is played from arsenal, it gains **go again**.`,
     
     
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Agus Setiawan"],
     cardIdentifier: "frontline-scout-yellow",
     classes: [Class.Generic],
@@ -75931,7 +76109,8 @@ Your next sword attack this turn gains +2{p}.`,
     
     
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "bone-basher",
     classes: [Class.Brute],
@@ -75972,8 +76151,7 @@ Your next sword attack this turn gains +2{p}.`,
     
     
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "bone-vizier",
     classes: [Class.Brute],

@@ -56914,6 +56914,53 @@ exports[`Check for unintentional updates Mage Master Boots (mage-master-boots) 1
 }
 `;
 
+exports[`Check for unintentional updates Malign (malign-red) 1`] = `
+{
+  "artists": [
+    "Othon Nikolaidis",
+  ],
+  "cardIdentifier": "malign-red",
+  "classes": [
+    "Assassin",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT030",
+  "defense": 3,
+  "functionalText": "**Stealth**
+
+Damage that would be dealt by Malign can't be prevented.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT030",
+      "name": "OUT030",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Malign",
+  "pitch": 1,
+  "power": 3,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT030",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT030",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Assassin Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Mandible Claw (mandible-claw) 1`] = `
 {
   "artists": [
@@ -62176,6 +62223,61 @@ exports[`Check for unintentional updates Optekal Monocle (optekal-monocle-blue) 
   "typeText": "Mechanologist Action – Item",
   "types": [
     "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Orbitoclast (orbitoclast) 1`] = `
+{
+  "artists": [
+    "Alexis Susani",
+  ],
+  "cardIdentifier": "orbitoclast",
+  "classes": [
+    "Assassin",
+  ],
+  "defaultImageName": "OUT007",
+  "functionalText": "**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
+
+**Piercing 1**
+
+When this hits a hero, the next time they defend with 1 or more 'non-attack' action cards this turn, those cards have -1{d} while defending.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT007",
+      "name": "OUT007",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Piercing",
+    "Go again",
+  ],
+  "name": "Orbitoclast",
+  "power": 1,
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Blitz",
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT007",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT007",
+  "subtypes": [
+    "Dagger",
+    "1H",
+  ],
+  "typeText": "Assassin Weapon - Dagger (1H)",
+  "types": [
+    "Weapon",
   ],
 }
 `;
@@ -74457,6 +74559,59 @@ If Red in the Ledger hits a hero, they can't play or activate more than 1 action
 }
 `;
 
+exports[`Check for unintentional updates Redback Shroud (redback-shroud) 1`] = `
+{
+  "artists": [
+    "soyameii",
+  ],
+  "cardIdentifier": "redback-shroud",
+  "classes": [
+    "Assassin",
+  ],
+  "defaultImageName": "OUT011",
+  "defense": 1,
+  "functionalText": "While Redback Shroud is in your graveyard, at the start of your turn, you may destroy 2 Silver you control. If you do, equip Redback Shroud.
+
+**Attack Reaction** - Destroy Redback Shroud: The next attack reaction card you play this turn costs {r} less to play.
+
+**Battleworn**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT011",
+      "name": "OUT011",
+      "set": "Outsiders",
+      "treatment": "Extended Art",
+    },
+  ],
+  "keywords": [
+    "Battleworn",
+  ],
+  "name": "Redback Shroud",
+  "rarities": [
+    "Legendary",
+  ],
+  "rarity": "Legendary",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT011",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT011",
+  "subtypes": [
+    "Chest",
+  ],
+  "typeText": "Assassin Equipment - Chest",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Reduce to Runechant (reduce-to-runechant-blue) 1`] = `
 {
   "artists": [
@@ -83470,6 +83625,61 @@ exports[`Check for unintentional updates Scalding Rain (scalding-rain-yellow) 1`
 }
 `;
 
+exports[`Check for unintentional updates Scale Peeler (scale-peeler) 1`] = `
+{
+  "artists": [
+    "Federico Musetti",
+  ],
+  "cardIdentifier": "scale-peeler",
+  "classes": [
+    "Assassin",
+  ],
+  "defaultImageName": "OUT009",
+  "functionalText": "**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
+
+**Piercing 1**
+
+When this hits a hero, the next time they defend with 1 or more equipment this turn, those equipment have -1{d} while defending.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT009",
+      "name": "OUT009",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Piercing",
+    "Go again",
+  ],
+  "name": "Scale Peeler",
+  "power": 1,
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT009",
+    "OUT010",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT009",
+  "subtypes": [
+    "Dagger",
+    "1H",
+  ],
+  "typeText": "Assassin Weapon - Dagger (1H)",
+  "types": [
+    "Weapon",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Scar for a Scar (scar-for-a-scar-blue) 1`] = `
 {
   "artists": [
@@ -84763,6 +84973,54 @@ When this hits a hero, create an Inertia token under their control.",
     "Attack",
   ],
   "typeText": "Assassin Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Sedation Shot (sedation-shot-red) 1`] = `
+{
+  "artists": [
+    "Elena Bakulina",
+  ],
+  "cardIdentifier": "sedation-shot-red",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT124",
+  "defense": 3,
+  "functionalText": "If Sedation Shot has an aim counter, it has plus 1 {p}.
+
+When this hits a hero, create an Inertia token under their control.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT124",
+      "name": "OUT124",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Sedation Shot",
+  "pitch": 1,
+  "power": 5,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT124",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT124",
+  "subtypes": [
+    "Attack",
+    "Arrow",
+  ],
+  "typeText": "Ranger Action - Arrow Attack",
   "types": [
     "Action",
   ],
@@ -95912,6 +96170,55 @@ exports[`Check for unintentional updates Springboard Somersault (springboard-som
   "typeText": "Generic Defense Reaction",
   "types": [
     "Defense Reaction",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Stab Wound (stab-wound-blue) 1`] = `
+{
+  "artists": [
+    "Narendra B Adi",
+  ],
+  "cardIdentifier": "stab-wound-blue",
+  "classes": [
+    "Assassin",
+    "Ninja",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT142",
+  "defense": 3,
+  "functionalText": "When this hits a hero, they lose X{h}, where X is the number of times a dagger has hit this combat chain.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT142",
+      "name": "OUT142",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Stab Wound",
+  "pitch": 3,
+  "power": 2,
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT142",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT142",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Assassin / Ninja Action - Attack",
+  "types": [
+    "Action",
   ],
 }
 `;
