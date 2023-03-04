@@ -2709,6 +2709,90 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     
     
   },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "wreck-havoc-red",
+    classes: [Class.Generic],
+    defaultImageName: "OUT198",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT198",
+      name: "OUT198",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Wreck Havoc",
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT198"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT198",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `Defense reactions can't be played to Wreck Havoc's chain link.
+
+When this hits a hero, you may turn a card in their arsenal face up, then destroy a defense reaction in their arsenal.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "destructive-deliberation-red",
+    classes: [Class.Generic],
+    defaultImageName: "OUT204",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT204",
+      name: "OUT204",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Destructive Deliberation",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT204"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT204",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action – Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `When this hits a hero, create a Ponder token.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Nikolay Moskvin","Hendrique Lindner"],
     cardIdentifier: "peace-of-mind-red",
     classes: [Class.Generic],
@@ -26978,7 +27062,8 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Alexey Peregrudov"],
     cardIdentifier: "cadaverous-contraband-yellow",
     classes: [Class.Generic],
@@ -27072,8 +27157,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Fedor Barkhatov"],
     cardIdentifier: "fervent-forerunner-red",
     classes: [Class.Generic],
@@ -52654,7 +52738,8 @@ The next attack action card with cost 0 you play this turn gains **go again**.
     
     
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Phu Thieu"],
     cardIdentifier: "brandish-yellow",
     classes: [Class.Generic],
@@ -52703,8 +52788,7 @@ The next attack action card with cost 0 you play this turn gains **go again**.
     
     
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Phu Thieu"],
     cardIdentifier: "brandish-blue",
     classes: [Class.Generic],
