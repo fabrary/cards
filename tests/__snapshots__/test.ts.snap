@@ -36808,6 +36808,57 @@ exports[`Check for unintentional updates Flic Flak (flic-flak-yellow) 1`] = `
 }
 `;
 
+exports[`Check for unintentional updates Flick Knives (flick-knives) 1`] = `
+{
+  "artists": [
+    "Nathaniel Himawan",
+  ],
+  "cardIdentifier": "flick-knives",
+  "classes": [
+    "Assassin",
+    "Ninja",
+  ],
+  "defaultImageName": "OUT139",
+  "defense": 1,
+  "functionalText": "**Once per Turn Attack Reaction** - 0: Target dagger you control that isn't on the active chain link deals 1 damage to target hero. If damage is dealt this way, the dagger has hit. Destroy the dagger.
+
+**Blade Break**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT139",
+      "name": "OUT139",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Blade Break",
+  ],
+  "name": "Flick Knives",
+  "rarities": [
+    "Legendary",
+  ],
+  "rarity": "Legendary",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT139",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT139",
+  "subtypes": [
+    "Arms",
+  ],
+  "typeText": "Assassin / Ninja Equipment - Arms",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Flicker Wisp (flicker-wisp-yellow) 1`] = `
 {
   "artists": [
@@ -46664,6 +46715,57 @@ exports[`Check for unintentional updates Hungering Slaughterbeast (hungering-sla
     "Shadow",
   ],
   "typeText": "Shadow Brute Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Hurl (hurl-red) 1`] = `
+{
+  "artists": [
+    "Tanapon Wachirakul",
+  ],
+  "cardIdentifier": "hurl-red",
+  "classes": [
+    "Assassin",
+    "Ninja",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT148",
+  "defense": 2,
+  "functionalText": "As an additional cost to play Hurl, you may pay {R}. When you do, it gains "When this attack, target dagger you control deals 1 damage to target hero. If damage is dealth this way, the dagger has hit. Destroy the dagger."
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT148",
+      "name": "OUT148",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Hurl",
+  "pitch": 1,
+  "power": 3,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT148",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT148",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Assassin / Ninja Action - Attack",
   "types": [
     "Action",
   ],
@@ -69673,6 +69775,53 @@ If Promise of Plenty is played from arsenal, it gains **go again**.",
 }
 `;
 
+exports[`Check for unintentional updates Prowl (prowl-red) 1`] = `
+{
+  "artists": [
+    "Tomasz Jedruszek",
+  ],
+  "cardIdentifier": "prowl-red",
+  "classes": [
+    "Assassin",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT033",
+  "defense": 3,
+  "functionalText": "**Stealth**
+
+The next attack with **stealth** you play this combat chain gains +1{p}.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT033",
+      "name": "OUT033",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Prowl",
+  "pitch": 1,
+  "power": 3,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT033",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT033",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Assassin Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Pry (pry-blue) 1`] = `
 {
   "artists": [
@@ -87080,6 +87229,51 @@ exports[`Check for unintentional updates Shock Striker (shock-striker-yellow) 1`
 }
 `;
 
+exports[`Check for unintentional updates Short and Sharp (short-and-sharp-red) 1`] = `
+{
+  "artists": [
+    "Tommy Suhartono",
+  ],
+  "cardIdentifier": "short-and-sharp-red",
+  "classes": [
+    "Assassin",
+    "Ninja",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT154",
+  "defense": 2,
+  "functionalText": "Choose 1;
+- Target dagger attack gains +3{p}.
+- Target attack action card with 2 or less base {p} gains +3{p}.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT154",
+      "name": "OUT154",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Short and Sharp",
+  "pitch": 1,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT154",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT154",
+  "subtypes": [],
+  "typeText": "Assassin / Ninja Attack Reaction",
+  "types": [
+    "Attack Reaction",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Show Time! (show-time-blue) 1`] = `
 {
   "artists": [
@@ -95516,6 +95710,51 @@ exports[`Check for unintentional updates Spreading Flames (spreading-flames-red)
   "typeText": "Draconic Ninja Action – Attack",
   "types": [
     "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Spreading Plague (spreading-plague-yellow) 1`] = `
+{
+  "artists": [
+    "Othon Nikolaidis",
+  ],
+  "cardIdentifier": "spreading-plague-yellow",
+  "classes": [
+    "Assassin",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT014",
+  "defense": 3,
+  "functionalText": "Create X Bloodrot Pox tokens under the defending hero's control, where X is the number of defending cards this chain link.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT014",
+      "name": "OUT014",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Spreading Plague",
+  "pitch": 2,
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT014",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT014",
+  "subtypes": [],
+  "typeText": "Assassin Attack Reaction",
+  "types": [
+    "Attack Reaction",
   ],
 }
 `;

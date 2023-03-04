@@ -2003,6 +2003,133 @@ When this defends an attack with **go again**, the attacking hero discards their
     
     
   },{
+    artists: ["Elena Bakulina"],
+    cardIdentifier: "sedation-shot-red",
+    classes: [Class.Ranger],
+    defaultImageName: "OUT124",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT124",
+      name: "OUT124",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Sedation Shot",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT124"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT124",
+    subtypes: [Subtype.Attack,Subtype.Arrow],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `If Sedation Shot has an aim counter, it has plus 1 {p}.
+
+When this hits a hero, create an Inertia token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Nathaniel Himawan"],
+    cardIdentifier: "flick-knives",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImageName: "OUT139",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT139",
+      name: "OUT139",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Flick Knives",
+    rarities: [Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["OUT139"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT139",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Assassin / Ninja Equipment - Arms",
+
+    
+    defense: 1,
+    functionalText: `**Once per Turn Attack Reaction** - 0: Target dagger you control that isn't on the active chain link deals 1 damage to target hero. If damage is dealt this way, the dagger has hit. Destroy the dagger.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "stab-wound-blue",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImageName: "OUT142",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT142",
+      name: "OUT142",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Stab Wound",
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT142"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT142",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ninja Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `When this hits a hero, they lose X{h}, where X is the number of times a dagger has hit this combat chain.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 2,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Tanapon Wachirakul"],
     cardIdentifier: "hurl-red",
     classes: [Class.Assassin,Class.Ninja],
@@ -2038,7 +2165,7 @@ When this defends an attack with **go again**, the attacking hero discards their
     
     pitch: 1,
     power: 3,
-    restrictedFormats: [Format.Blitz,Format.Commoner],
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -26932,7 +27059,8 @@ If Fervent Forerunner is played from arsenal, it gains **go again**.`,
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "moon-wish-red",
     classes: [Class.Generic],
@@ -27030,8 +27158,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "moon-wish-blue",
     classes: [Class.Generic],
@@ -52496,7 +52623,8 @@ If Frontline Scout is played from arsenal, it gains **go again**.`,
     
     
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Agus Setiawan"],
     cardIdentifier: "frontline-scout-yellow",
     classes: [Class.Generic],
@@ -52545,8 +52673,7 @@ If Frontline Scout is played from arsenal, it gains **go again**.`,
     
     
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Agus Setiawan"],
     cardIdentifier: "frontline-scout-blue",
     classes: [Class.Generic],
@@ -75845,7 +75972,8 @@ Your next sword attack this turn gains +2{p}.`,
     
     
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "bone-vizier",
     classes: [Class.Brute],
@@ -75888,8 +76016,7 @@ Your next sword attack this turn gains +2{p}.`,
     
     
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "chief-rukutan",
     classes: [Class.Brute],
