@@ -23511,6 +23511,51 @@ exports[`Check for unintentional updates Cryptic Crossing (cryptic-crossing-yell
 }
 `;
 
+exports[`Check for unintentional updates Cut Down to Size (cut-down-to-size-red) 1`] = `
+{
+  "artists": [
+    "Phu Theiu",
+  ],
+  "cardIdentifier": "cut-down-to-size-red",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 2,
+  "defaultImageName": "OUT201",
+  "defense": 2,
+  "functionalText": "When this hits a hero, if they have 4 or more cards in hand, they discard a card.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT201",
+      "name": "OUT201",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Cut Down to Size",
+  "pitch": 1,
+  "power": 6,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT201",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT201",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Cut to the Chase (cut-to-the-chase-blue) 1`] = `
 {
   "artists": [
@@ -41243,6 +41288,53 @@ exports[`Check for unintentional updates Goliath Gauntlet (goliath-gauntlet) 1`]
   "typeText": "Generic Equipment – Arms",
   "types": [
     "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Gore Belching (gore-belching-red) 1`] = `
+{
+  "artists": [
+    "Nikolay Moskvin",
+  ],
+  "cardIdentifier": "gore-belching-red",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT186",
+  "functionalText": "When this attacks, reveal cards from the top of your deck until you reveal an attack action card. If you do, banish it and this gets -X{p}, where X is the {p} of the card banished this way. Otherwise, this gets -7{p}. Shuffle.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT186",
+      "name": "OUT186",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Gore Belching",
+  "pitch": 1,
+  "power": 7,
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT186",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT186",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
   ],
 }
 `;
@@ -62505,6 +62597,12 @@ When this hits a hero, the next time they defend with 1 or more 'non-attack' act
       "edition": "Promo",
       "identifier": "OUT007",
       "name": "OUT007",
+      "set": "Outsiders",
+    },
+    {
+      "edition": "Promo",
+      "identifier": "OUT008",
+      "name": "OUT008",
       "set": "Outsiders",
     },
   ],
@@ -83908,6 +84006,12 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
       "name": "OUT009",
       "set": "Outsiders",
     },
+    {
+      "edition": "Promo",
+      "identifier": "OUT010",
+      "name": "OUT010",
+      "set": "Outsiders",
+    },
   ],
   "keywords": [
     "Piercing",
@@ -92859,6 +92963,54 @@ exports[`Check for unintentional updates Snatch (snatch-yellow) 1`] = `
     "Attack",
   ],
   "typeText": "Generic Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Sneak Attack (sneak-attack-red) 1`] = `
+{
+  "artists": [
+    "Raphael Pinna",
+  ],
+  "cardIdentifier": "sneak-attack-red",
+  "classes": [
+    "Assassin",
+  ],
+  "cost": 2,
+  "defaultImageName": "OUT018",
+  "defense": 2,
+  "functionalText": "If you've played or activated an attack reaction this chain link, Sneak ATtack has +4{p}.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT018",
+      "name": "OUT018",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Sneak Attack",
+  "pitch": 1,
+  "power": 3,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT018",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT018",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Assassin Action - Attack",
   "types": [
     "Action",
   ],
