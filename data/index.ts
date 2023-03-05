@@ -2723,6 +2723,51 @@ Create a Ponder token under your control and a Frailty token under each opponent
     
     
   },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "codex-of-inertia-yellow",
+    classes: [Class.Assassin,Class.Ranger],
+    defaultImageName: "OUT161",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT161",
+      name: "OUT161",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Codex of Inertia",
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT161"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT161",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Assassin / Ranger Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `Each hero puts the top card of their deck face down into their arsenal. Each hero that does, discards a card.
+
+Create a Ponder token under your control and an Inertia token under each opponent's control.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    power: 0,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Saad Irfan"],
     cardIdentifier: "death-touch-red",
     classes: [Class.Assassin,Class.Ranger],
@@ -2944,6 +2989,129 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
     
     
   },{
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "bloodrot-trap-red",
+    classes: [Class.Assassin,Class.Ranger],
+    defaultImageName: "OUT171",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT171",
+      name: "OUT171",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Bloodrot Trap",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT171"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT171",
+    subtypes: [Subtype.Trap],
+    types: [Type.DefenseReaction],
+    typeText: "Assassin / Ranger Defense Reaction - Trap",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `When this defends and the attacking hero has played or activated a reaction this chain link, create a Bloodrot Pox token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Vito Vivodka"],
+    cardIdentifier: "frailty-trap-red",
+    classes: [Class.Assassin,Class.Ranger],
+    defaultImageName: "OUT172",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT172",
+      name: "OUT172",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Frailty Trap",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT172"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT172",
+    subtypes: [Subtype.Trap],
+    types: [Type.DefenseReaction],
+    typeText: "Assassin / Ranger Defense Reaction - Trap",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `When this defends an attack with **go again**, create a Frailty token under the attacking hero's control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Erick Efata"],
+    cardIdentifier: "inertia-trap-red",
+    classes: [Class.Assassin,Class.Ranger],
+    defaultImageName: "OUT173",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT173",
+      name: "OUT173",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Inertia Trap",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT173"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT173",
+    subtypes: [Subtype.Trap],
+    types: [Type.DefenseReaction],
+    typeText: "Assassin / Ranger Defense Reaction - Trap",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `When this defends an attack with {p} greater than its base, create an Inertia token under the attacking hero's control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Riordan Delmiro"],
     cardIdentifier: "amnesia-red",
     classes: [Class.Generic],
@@ -2968,6 +3136,47 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
     cost: 2,
     defense: 3,
     functionalText: `When this hits a hero, cards and tokens they own l ose and can't gain names until the start of your next turn.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kevin Sidartha"],
+    cardIdentifier: "down-and-dirty-red",
+    classes: [Class.Generic],
+    defaultImageName: "OUT184",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT184",
+      name: "OUT184",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Down and Dirty",
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT184"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT184",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `While Down and Dirty is in your arsenal, you may defend with it.`,
     
     
     
@@ -3018,6 +3227,51 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
     
     pitch: 1,
     power: 7,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "premeditate-red",
+    classes: [Class.Generic],
+    defaultImageName: "OUT188",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT188",
+      name: "OUT188",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Premeditate",
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT188"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT188",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `The next time an attack action card hits a hero this turn, create a Ponder token.
+
+The next attack action card you play from arsenal this turn gains +3{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    
     restrictedFormats: [Format.Commoner],
     
     
@@ -26852,7 +27106,8 @@ At the beginning of your end phase, destroy Enchanting Melody unless you have pl
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Cristián Huerta"],
     cardIdentifier: "enchanting-melody-yellow",
     classes: [Class.Generic],
@@ -27137,8 +27392,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Reza Afshar"],
     cardIdentifier: "eirinas-prayer-red",
     classes: [Class.Generic],
@@ -52790,7 +53044,8 @@ The next attack action card with cost 1 or less you play this turn gains **go ag
     
     
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Joshua Raphael"],
     cardIdentifier: "captains-call-blue",
     classes: [Class.Generic],
@@ -52935,8 +53190,7 @@ The next attack action card with cost 0 you play this turn gains **go again**.
     
     
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Silvia Meiliani"],
     cardIdentifier: "adrenaline-rush-blue",
     classes: [Class.Generic],
@@ -76461,7 +76715,8 @@ Your next sword attack this turn gains +2{p}.`,
     
     
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "visit-the-blacksmith-blue",
     classes: [Class.Generic],
@@ -76504,8 +76759,7 @@ Your next sword attack this turn gains +2{p}.`,
     
     
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "blade-flash-blue",
     classes: [Class.Generic],
@@ -97622,7 +97876,7 @@ When you equip Crown of Dominion, create a Gold token.`,
     ...cards4,
   ];
 
-  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendrique Lindner","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Maerel Hibadita","Marco Gonzalez","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wisniewski","Mateusz Wiśniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Theiu","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sariya Asavametha","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tomasz Jedruszek","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
+  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Erick Efata","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendrique Lindner","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kanadekana","Kate Fox","Kevin Sidartha","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Maerel Hibadita","Marco Gonzalez","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wisniewski","Mateusz Wiśniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Theiu","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sariya Asavametha","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tomasz Jedruszek","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
 
   export * from "./interfaces";
   

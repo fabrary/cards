@@ -247,7 +247,11 @@ OUT160	OUT	Codex of Frailty	2	0		2			M – OUT160 – N, V – OUT160 – N – 
 Create a Ponder token under your control and a Frailty token under each opponent's control.
 
 **Go again**"		Assassin / Ranger Action	Carlos Cruchaga				No	 S – OUT160 – N, C – OUT160 – N – FA	/OUT160.png – OUT160 – N, /OUT160_Marvel.png – OUT160_Marvel – N – FA
-OUT161	OUT																							
+OUT161	OUT	Codex of Inertia	2	0	0	2			M	Assassin, Ranger, Action	Go again				"Each hero puts the top card of their deck face down into their arsenal. Each hero that does, discards a card.
+
+Create a Ponder token under your control and an Inertia token under each opponent's control.
+
+**Go again**"		Assassin / Ranger Action	Isuardi Therianto				No	S - OUT161 - N	/OUT161.png – OUT161 – N
 FAB132, OUT162	FAB, OUT	Death Touch	1	1	6	2			P, R	Assassin, Ranger, Action, Attack					"Death Touch can't be played from hand.
 
 When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under their control."		Assassin / Ranger Action - Attack	Saad Irfan					R - FAB132 - N - EA, S - OUT162 - N	/FAB132.png – FAB132 – N, https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT162.width-450.png - OUT162 - N
@@ -267,9 +271,9 @@ OUT168	OUT	Virulent Touch	1	0	4	2			C	Assassin, Ranger, Action, Attack					"Viru
 When this chain link resolves, if Virulent Touch is defended by a card from hand, create a Bloodrot Pox token under the defending hero’s control."		Assassin / Ranger Action - Attack	Mark Poole					S – OUT168 - N	/OUT168.png – OUT168 – N
 OUT169	OUT																							
 OUT170	OUT																							
-OUT171	OUT																							
-OUT172	OUT																							
-OUT173	OUT																							
+OUT171	OUT	Bloodrot Trap	1	0		3			C	Assassin, Ranger, Defense Reaction, Trap					When this defends and the attacking hero has played or activated a reaction this chain link, create a Bloodrot Pox token under their control.		Assassin / Ranger Defense Reaction - Trap	Henrique Lindner					S - OUT171 - N	/OUT171.png – OUT171 – N
+OUT172	OUT	Frailty Trap	1	0		3			C	Assassin, Ranger, Defense Reaction, Trap					When this defends an attack with **go again**, create a Frailty token under the attacking hero's control.		Assassin / Ranger Defense Reaction - Trap	Vito Vivodka					S - OUT172 - N	/OUT172.png – OUT172 – N
+OUT173	OUT	Inertia Trap	1	0		3			C	Assassin, Ranger, Defense Reaction, Trap					When this defends an attack with {p} greater than its base, create an Inertia token under the attacking hero's control.		Assassin / Ranger Defense Reaction - Trap	Erick Efata					S - OUT173 - N	/OUT173.png – OUT173 – N
 OUT174	OUT																							
 OUT175	OUT																							
 OUT176	OUT																							
@@ -280,11 +284,15 @@ OUT180	OUT
 OUT181	OUT																							
 OUT182	OUT																							
 OUT183	OUT	Amnesia	1	2	6	3			M	Generic, Action, Attack					When this hits a hero, cards and tokens they own l ose and can't gain names until the start of your next turn.		Generic Action - Attack	Riordan Delmiro				No	S - OUT183 - N	/OUT183.png – OUT183 – N
-OUT184	OUT																							
+OUT184	OUT	Down and Dirty	1	2	6	2			M	Generic, Action, Attack					While Down and Dirty is in your arsenal, you may defend with it.	Mobs scuttle through the undercity like pack rats, sniffing out havoc and any opportunity for a good mugging.	Generic Action - Attack	Kevin Sidartha				No	S - OUT184 - N	/OUT184.png – OUT184 – N
 OUT185	OUT																							
 OUT186	OUT	Gore Belching	1	0	7				M	Generic, Action, Attack					When this attacks, reveal cards from the top of your deck until you reveal an attack action card. If you do, banish it and this gets -X{p}, where X is the {p} of the card banished this way. Otherwise, this gets -7{p}. Shuffle.		Generic Action - Attack	Nikolay Moskvin				No	S - OUT186 - N	/OUT186.png – OUT186 – N
 OUT187	OUT																							
-OUT188	OUT																							
+OUT188	OUT	Premeditate	1	0		2			M	Generic, Action	Go again				"The next time an attack action card hits a hero this turn, create a Ponder token.
+
+The next attack action card you play from arsenal this turn gains +3{p}.
+
+**Go again**"		Generic Action	Isuardi Therianto				No	S - OUT188 - N	/OUT188.png – OUT188 – N
 OUT189	OUT	Humble	1	2	6	2			R	Generic, Action, Attack					When this hits a hero, that hero loses all abilities until the end of their next turn.		Generic Action - Attack	Henrique Lindner				No	S - OUT189 - N	/OUT189.png – OUT189 – N
 OUT190	OUT																							
 OUT191	OUT																							

@@ -46577,6 +46577,54 @@ The next attack action card you play this turn gains +2{p}.
 }
 `;
 
+exports[`Check for unintentional updates Humble (humble-red) 1`] = `
+{
+  "artists": [
+    "Henrique Lindner",
+  ],
+  "cardIdentifier": "humble-red",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 2,
+  "defaultImageName": "OUT189",
+  "defense": 2,
+  "functionalText": "When this hits a hero, that hero loses all abilities until the end of their next turn.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT189",
+      "name": "OUT189",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Humble",
+  "pitch": 1,
+  "power": 6,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT189",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT189",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Hummingbird, Adventurer's Call (hummingbird-adventurers-call) 1`] = `
 {
   "artists": [
