@@ -20527,6 +20527,52 @@ If Command and Conquer hits a hero, destroy all cards in their arsenal.",
 }
 `;
 
+exports[`Check for unintentional updates Concealed Blade (concealed-blade-blue) 1`] = `
+{
+  "artists": [
+    "Isuardi Therianto",
+  ],
+  "cardIdentifier": "concealed-blade-blue",
+  "classes": [
+    "Assassin",
+    "Ninja",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT143",
+  "defense": 3,
+  "functionalText": "Target Assassin or Ninja attack action card gains +1{p} and When this hits, equip a dagger from your inventory.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT143",
+      "name": "OUT143",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Concealed Blade",
+  "pitch": 3,
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT143",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT143",
+  "subtypes": [],
+  "typeText": "Assassin / Ninja Attack Reaction",
+  "types": [
+    "Attack Reaction",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Conduit of Frostburn (conduit-of-frostburn) 1`] = `
 {
   "artists": [
@@ -40859,6 +40905,59 @@ exports[`Check for unintentional updates Ghostly Visit (ghostly-visit-yellow) 1`
 }
 `;
 
+exports[`Check for unintentional updates Give and Take (give-and-take-red) 1`] = `
+{
+  "artists": [
+    "Federico Musetti",
+  ],
+  "cardIdentifier": "give-and-take-red",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT185",
+  "defense": 3,
+  "functionalText": "Whenever Give and Take is defended by an action card, you may put an action card with cost less than Give and Take's {p} from your graveyard on top of your deck.
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT185",
+      "name": "OUT185",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Give and Take",
+  "pitch": 1,
+  "power": 3,
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT185",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT185",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Glacial Footsteps (glacial-footsteps-blue) 1`] = `
 {
   "artists": [
@@ -58129,6 +58228,52 @@ exports[`Check for unintentional updates Mask of Perdition (mask-of-perdition) 1
     "Head",
   ],
   "typeText": "Assassin Equipment – Head",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Mask of Shifting Perspectives (mask-of-shifting-perspectives) 1`] = `
+{
+  "artists": [
+    "Isuardi Therianto",
+  ],
+  "cardIdentifier": "mask-of-shifting-perspectives",
+  "classes": [
+    "Assassin",
+    "Ninja",
+  ],
+  "defaultImageName": "OUT140",
+  "defense": 1,
+  "functionalText": "**Attack Reaction** - Destroy Mask of Shifting Perspectives: Whenever a dagger hits this turn, you may put a card from your hand on the bottom of your deck. If you do, draw a card.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT140",
+      "name": "OUT140",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Blade Break",
+  ],
+  "name": "Mask of Shifting Perspectives",
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT140",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT140",
+  "subtypes": [
+    "Head",
+  ],
+  "typeText": "Assassin / Ninja Equipment - Head",
   "types": [
     "Equipment",
   ],
@@ -86767,6 +86912,182 @@ exports[`Check for unintentional updates Seek and Destroy (seek-and-destroy-red)
 }
 `;
 
+exports[`Check for unintentional updates Seeker's Gilet (seekers-gilet) 1`] = `
+{
+  "artists": [
+    "Immanuela Crovus",
+  ],
+  "cardIdentifier": "seekers-gilet",
+  "classes": [
+    "Generic",
+  ],
+  "defaultImageName": "OUT176",
+  "functionalText": "**Instant** - {r}, destroy Seeker's Gilet: Prevent the next 1 damage that would be dealt to your hero this turn. **Opt 1**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT176",
+      "name": "OUT176",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Opt",
+  ],
+  "name": "Seeker's Gilet",
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT176",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT176",
+  "subtypes": [
+    "Chest",
+  ],
+  "typeText": "Generic Equipment - Chest",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Seeker's Hood (seekers-hood) 1`] = `
+{
+  "artists": [
+    "Lizhe Liang",
+  ],
+  "cardIdentifier": "seekers-hood",
+  "classes": [
+    "Generic",
+  ],
+  "defaultImageName": "OUT175",
+  "functionalText": "**Instant** - {r}, destroy Seeker's Hood: Prevent the next 1 damage that would be dealt to your hero this turn. **Opt 1**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT175",
+      "name": "OUT175",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Opt",
+  ],
+  "name": "Seeker's Hood",
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT175",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT175",
+  "subtypes": [
+    "Head",
+  ],
+  "typeText": "Generic Equipment - Head",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Seeker's Leggings (seekers-leggings) 1`] = `
+{
+  "artists": [
+    "Amelia Tan",
+  ],
+  "cardIdentifier": "seekers-leggings",
+  "classes": [
+    "Generic",
+  ],
+  "defaultImageName": "OUT178",
+  "functionalText": "**Instant** - {r}, destroy Seeker's Leggings: Prevent the next 1 damage that would be dealt to your hero this turn. **Opt 1**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT178",
+      "name": "OUT178",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Opt",
+  ],
+  "name": "Seeker's Leggings",
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT178",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT178",
+  "subtypes": [
+    "Legs",
+  ],
+  "typeText": "Generic Equipment - Legs",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Seeker's Mitts (seekers-mitts) 1`] = `
+{
+  "artists": [
+    "Felicia Liang",
+  ],
+  "cardIdentifier": "seekers-mitts",
+  "classes": [
+    "Generic",
+  ],
+  "defaultImageName": "OUT177",
+  "functionalText": "**Instant** - {r}, destroy Seeker's Mitts: Prevent the next 1 damage that would be dealt to your hero this turn. **Opt 1**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT177",
+      "name": "OUT177",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Opt",
+  ],
+  "name": "Seeker's Mitts",
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT177",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT177",
+  "subtypes": [
+    "Arms",
+  ],
+  "typeText": "Generic Equipment - Arms",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Seeping Shadows (seeping-shadows-blue) 1`] = `
 {
   "artists": [
@@ -107716,8 +108037,8 @@ exports[`Check for unintentional updates Twin Twisters (twin-twisters-red) 1`] =
     },
     {
       "edition": "Promo",
-      "identifier": "OUT089",
-      "name": "OUT089",
+      "identifier": "OUT086",
+      "name": "OUT086",
       "set": "Outsiders",
     },
   ],
@@ -109227,6 +109548,56 @@ exports[`Check for unintentional updates Valiant Thrust (valiant-thrust-yellow) 
   "typeText": "Light Warrior Action – Attack",
   "types": [
     "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Vambrace of Determination (vambrace-of-determination) 1`] = `
+{
+  "artists": [
+    "Alexander Mokhov",
+  ],
+  "cardIdentifier": "vambrace-of-determination",
+  "classes": [
+    "Generic",
+  ],
+  "defaultImageName": "OUT174",
+  "defense": 0,
+  "functionalText": "**Once per Turn Attack Reaction** - {r}: The next prevention effect that prevents {p} damage this turn, prevents 1 less of that damage.
+
+When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break**.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT174",
+      "name": "OUT174",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Blade Break",
+  ],
+  "name": "Vambrace of Determination",
+  "rarities": [
+    "Legendary",
+  ],
+  "rarity": "Legendary",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT174",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT174",
+  "subtypes": [
+    "Arms",
+  ],
+  "typeText": "Generic Equipment - Arms",
+  "types": [
+    "Equipment",
   ],
 }
 `;

@@ -2145,8 +2145,8 @@ When this hits, you may discard a card with cose 0. If you do, search your deck 
       
     },{
       edition: ReleaseEdition.Promo,
-      identifier: "OUT089",
-      name: "OUT089",
+      identifier: "OUT086",
+      name: "OUT086",
       set: Release.Outsiders,
       
     },],
