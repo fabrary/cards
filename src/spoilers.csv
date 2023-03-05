@@ -180,12 +180,24 @@ OUT105	OUT	Melting Point	1	1		3			M	Ranger, Action	Go again				"Your next arrow 
 If it has an aim counter, it gains ""When this hits a hero, destroy a 1H weapon they control with 1 base {p}.""
 
 **Go again**"		Ranger Action	Carlos Cruchaga				No	S - OUT105 - N	/OUT105.png – OUT105 – N
-OUT106	OUT																							
+OUT106	OUT	Boulder Trap	2	0		3			R	Ranger, Defense Reaction, Trap					When this defends an attack with {p} greater than its base, put a -1{d} counter on an equipment the attacking hero controls.		Ranger Defense Reaction - Trap	Mateusz Wiśniewski				No	S – OUT106 - N	/OUT106.png – OUT106 – N
 OUT107	OUT	Pendulum Trap	2	0		3			R	Ranger, Defense Reaction, Trap					When this defends and the attacking hero has played or activated a reaction this chain link, put the top 2 cards of their deck into their graveyard.		Ranger Defense Reaction - Trap	Rio Sabda				No	S - OUT107 - N	/OUT107.png – OUT107 – N
 OUT108	OUT																							
-OUT109	OUT																							
-OUT110	OUT																							
-OUT111	OUT																							
+OUT109	OUT	Fletch a Red Tail	1	1		2			R	Ranger, Action	Go again				"Your next arrow attack this turn gains +4{p}.
+
+If it has an aim counter, it gains ""Red cards have -1{d} while defending this.""
+
+**Go again**"		Ranger Action	Alexis Susani				No	S - OUT109 - N	/OUT109.png – OUT109 – N
+OUT110	OUT	Fletch a Yellow Tail	2	1		2			R	Ranger, Action	Go again				"Your next arrow attack this turn gains +3{p}.
+
+If it has an aim counter, it gains ""Yellow cards have -1{d} while defending this.""
+
+**Go again**"		Ranger Action	Alexis Susani				No	S - OUT110 - N	/OUT110.png – OUT110 – N
+OUT111	OUT	Fletch a Blue Tail	3	1		2			R	Ranger, Action	Go again				"Your next arrow attack this turn gains +2{p}.
+
+If it has an aim counter, it gains ""Blue cards have -1{d} while defending this.""
+
+**Go again**"		Ranger Action	Alexis Susani				No	S - OUT111 - N	/OUT111.png – OUT111 – N
 OUT112	OUT																							
 OUT113	OUT																							
 OUT114	OUT	Lace with Inertia	1	0		2			R	Ranger, Action	Go again				"Your next arrow attack this turn gains +3{p} and ""When this hits a hero, create an Inertia token under their control.""
@@ -194,7 +206,9 @@ OUT114	OUT	Lace with Inertia	1	0		2			R	Ranger, Action	Go again				"Your next ar
 OUT115	OUT																							
 OUT116	OUT																							
 OUT117	OUT																							
-OUT118	OUT																							
+OUT118	OUT	Infecting Shot	1	1	5	3			C	Ranger, Action, Arrow, Attack					"If Infecting Shot has an aim counter, it has +1{p}.
+
+When this hits a hero, create a Bloodrot Pox token under their control."		Ranger Action - Arrow Attack	Kalashnikova N.					S - OUT118 - N	/OUT118.png – OUT118 – N
 OUT119	OUT																							
 OUT120	OUT																							
 OUT121	OUT	Murkmire Grapnel	1	0	4	3			C	Ranger, Action, Arrow, Attack					"If Murkmire Grapnel has an aim counter, it has +1{p}.
@@ -235,7 +249,7 @@ OUT143	OUT	Concealed Blade	3	0		3			M	Assassin, Ninja, Attack Reaction					Targe
 OUT144	OUT																							
 OUT145	OUT	Bleed Out	1	2	4	2			R	Assassin, Ninja, Action, Attack	Go again				"Bleed Out costs X resource points less to play, where X is the total damage you've dealt with daggers this combat chain.
 
-**Go again**"		Assassin / Ninja Action - Attack	Marco Gonzalez				No	S - OUT145 - N	/OUT145.png – OUT145 – N
+**Go again**"		Assassin / Ninja Action - Attack	Marco González				No	S - OUT145 - N	/OUT145.png – OUT145 – N
 OUT146	OUT																							
 OUT147	OUT																							
 OUT148	OUT	Hurl	1	0	3	2			 R	Assassin, Ninja, Action, Attack	Go Again				"As an additional cost to play Hurl, you may pay {R}. When you do, it gains ""When this attack, target dagger you control deals 1 damage to target hero. If damage is dealth this way, the dagger has hit. Destroy the dagger.""
@@ -309,7 +323,11 @@ OUT185	OUT	Give and Take	1	1	3	3			M	Generic, Action, Attack	Go again				"Whenev
 
 **Go again**"		Generic Action - Attack	Federico Musetti				No	S - OUT185 - N	/OUT185.png – OUT185 – N
 OUT186	OUT	Gore Belching	1	0	7				M	Generic, Action, Attack					When this attacks, reveal cards from the top of your deck until you reveal an attack action card. If you do, banish it and this gets -X{p}, where X is the {p} of the card banished this way. Otherwise, this gets -7{p}. Shuffle.		Generic Action - Attack	Nikolay Moskvin				No	S - OUT186 - N	/OUT186.png – OUT186 – N
-OUT187	OUT																							
+OUT187	OUT	Burdens of the Past	3	0		3			M	Generic, Action	Go again				"Until end of turn, target hero can't play defense reaction cards with the same name as a card in their graveyard.
+
+If there are 10 or more defense reaction cards in their graveyard, draw a card.
+
+**Go again**"		Generic Action					No	S - OUT187 - N	/OUT187.png – OUT187 – N
 OUT188	OUT	Premeditate	1	0		2			M	Generic, Action	Go again				"The next time an attack action card hits a hero this turn, create a Ponder token.
 
 The next attack action card you play from arsenal this turn gains +3{p}.

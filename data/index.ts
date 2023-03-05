@@ -2629,6 +2629,47 @@ If it has an aim counter, it gains "When this hits a hero, destroy a 1H weapon t
     
     
   },{
+    artists: ["Mateusz Wiśniewski"],
+    cardIdentifier: "boulder-trap-yellow",
+    classes: [Class.Ranger],
+    defaultImageName: "OUT106",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT106",
+      name: "OUT106",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Boulder Trap",
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT106"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT106",
+    subtypes: [Subtype.Trap],
+    types: [Type.DefenseReaction],
+    typeText: "Ranger Defense Reaction - Trap",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `When this defends an attack with {p} greater than its base, put a -1{d} counter on an equipment the attacking hero controls.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Rio Sabda"],
     cardIdentifier: "pendulum-trap-yellow",
     classes: [Class.Ranger],
@@ -2661,6 +2702,141 @@ If it has an aim counter, it gains "When this hits a hero, destroy a 1H weapon t
     
     
     pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Alexis Susani"],
+    cardIdentifier: "fletch-a-red-tail-red",
+    classes: [Class.Ranger],
+    defaultImageName: "OUT109",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT109",
+      name: "OUT109",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Fletch a Red Tail",
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT109"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT109",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Ranger Action",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Your next arrow attack this turn gains +4{p}.
+
+If it has an aim counter, it gains "Red cards have -1{d} while defending this."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Alexis Susani"],
+    cardIdentifier: "fletch-a-yellow-tail-yellow",
+    classes: [Class.Ranger],
+    defaultImageName: "OUT110",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT110",
+      name: "OUT110",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Fletch a Yellow Tail",
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT110"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT110",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Ranger Action",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Your next arrow attack this turn gains +3{p}.
+
+If it has an aim counter, it gains "Yellow cards have -1{d} while defending this."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Alexis Susani"],
+    cardIdentifier: "fletch-a-blue-tail-blue",
+    classes: [Class.Ranger],
+    defaultImageName: "OUT111",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT111",
+      name: "OUT111",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Fletch a Blue Tail",
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT111"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT111",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Ranger Action",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Your next arrow attack this turn gains +2{p}.
+
+If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
     
     restrictedFormats: [Format.Commoner],
     
@@ -2706,6 +2882,49 @@ If it has an aim counter, it gains "When this hits a hero, destroy a 1H weapon t
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kalashnikova N."],
+    cardIdentifier: "infecting-shot-red",
+    classes: [Class.Ranger],
+    defaultImageName: "OUT118",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT118",
+      name: "OUT118",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Infecting Shot",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT118"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT118",
+    subtypes: [Subtype.Attack,Subtype.Arrow],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `If Infecting Shot has an aim counter, it has +1{p}.
+
+When this hits a hero, create a Bloodrot Pox token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 5,
+    
     
     
     
@@ -3135,7 +3354,7 @@ When this hits a hero, create a Frailty token under their control.`,
     
     
   },{
-    artists: ["Marco Gonzalez"],
+    artists: ["Marco González"],
     cardIdentifier: "bleed-out-red",
     classes: [Class.Assassin,Class.Ninja],
     defaultImageName: "OUT145",
@@ -4157,6 +4376,51 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
     
     pitch: 1,
     power: 7,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: [],
+    cardIdentifier: "burdens-of-the-past-blue",
+    classes: [Class.Generic],
+    defaultImageName: "OUT187",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT187",
+      name: "OUT187",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Burdens of the Past",
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT187"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT187",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `Until end of turn, target hero can't play defense reaction cards with the same name as a card in their graveyard.
+
+If there are 10 or more defense reaction cards in their graveyard, draw a card.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    
     restrictedFormats: [Format.Commoner],
     
     
@@ -26840,7 +27104,8 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "voltic-bolt-red",
     classes: [Class.Wizard],
@@ -27078,8 +27343,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["J. Sebastián S.C."],
     cardIdentifier: "talismanic-lens",
     classes: [Class.Generic],
@@ -53257,7 +53521,8 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Narendra B Adi"],
     cardIdentifier: "rouse-the-ancients-blue",
     classes: [Class.Generic],
@@ -53398,8 +53663,7 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Marco González"],
     cardIdentifier: "out-muscle-blue",
     classes: [Class.Generic],
@@ -77292,7 +77556,8 @@ The second time you attack with Dawnblade each turn, it gains +1{p} until end of
     
     
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Andy Aslamov"],
     cardIdentifier: "blossom-of-spring",
     classes: [Class.Generic],
@@ -77339,8 +77604,7 @@ The second time you attack with Dawnblade each turn, it gains +1{p} until end of
     
     
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Federico Musetti"],
     cardIdentifier: "hala-goldenhelm",
     classes: [Class.Warrior],
@@ -98760,7 +99024,7 @@ When you equip Crown of Dominion, create a Gold token.`,
     ...cards4,
   ];
 
-  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Erick Efata","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendrique Lindner","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Immanuela Crovus","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kanadekana","Kate Fox","Kevin Sidartha","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Maerel Hibadita","Marco Gonzalez","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wisniewski","Mateusz Wiśniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Theiu","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sariya Asavametha","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tomasz Jedruszek","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
+  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Erick Efata","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendrique Lindner","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Immanuela Crovus","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kalashnikova N.","Kanadekana","Kate Fox","Kevin Sidartha","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Maerel Hibadita","Marco Gonzalez","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wisniewski","Mateusz Wiśniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Theiu","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sariya Asavametha","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tomasz Jedruszek","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
 
   export * from "./interfaces";
   

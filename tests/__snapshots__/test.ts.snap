@@ -9100,7 +9100,7 @@ Deal X arcane damage to target hero, where X is the amount of arcane damage you 
 exports[`Check for unintentional updates Bleed Out (bleed-out-red) 1`] = `
 {
   "artists": [
-    "Marco Gonzalez",
+    "Marco González",
   ],
   "cardIdentifier": "bleed-out-red",
   "classes": [
