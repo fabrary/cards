@@ -104,7 +104,7 @@ OUT048	OUT
 OUT049	OUT	Mask of Many Faces				1			C	Ninja, Equipment, Head	Blade Break	Instant			"**Instant** - {r}, destroy Mask of Many Faces: Name a card. The next attack action card you play this turn gains that name.
 
 **Blade Break**"		Ninja Equipment - Head	Carlos Cruchaga					S - OUT049 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT049.width-450.png - OUT049 - N
-OUT050	OUT																							
+OUT050	OUT	Cyclone Roundhouse	2	2	5	3			M	Ninja, Action, Attack	Combo				**Combo** - If Spinning Wheel Kick was the last attack this combat chain, this has At the beginning of the reaction step, banish a random defending card from each chain link.		Ninja Action - Attack	Narendra B Adi				No	S - OUT050 - N	/OUT050.png – OUT050 – N
 OUT051	OUT	Dishonor	3	0	2	3			M	Ninja, Action, Attack	Combo				"**Combo** - If Bonds of Ancestry was the last attack this combat chain, this has +2{p}.
 
 When this hits a hero, if you control Surging Strike, Descendent Gustwave, and Bonds of Ancestry, that hero loses all abilities for the rest of the game."		Ninja Action - Attack	Faizal Fikri				No	S - OUT051 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT051_tyYCr6g.width-450.png - OUT051 - N
@@ -124,7 +124,9 @@ OUT058	OUT																						S - OUT058 - N	https://dhhim4ltzu1pj.cloudfront.
 OUT059	OUT	Recoil	1	0	3	3			R	Ninja, Action, Attack	Combo, Go again				**Combo** - If Head Jab was the last attack this combat chain, this has When this hits a hero, they put a card from their hand on top of their deck.		Ninja Action - Attack	Le Vuong				No	S - OUT059 - N	/OUT059.png – OUT059 – N
 OUT060	OUT																							
 OUT061	OUT																							
-OUT062	OUT																							
+OUT062	OUT	Spinning Wheel Kick	1	1	4	2			R	Ninja, Action, Attack	Combo, Go again				"**Combo** - If Twin Twisters or Spinning Wheel Kick was the last attack this combat chain, this has +1{p} and ""When this hits, put it on the bottom of its owner's deck.""
+
+**Go again**"		Ninja Action - Attack	Le Vuong				No	S - OUT062 - N	/OUT062.png – OUT062 – N
 OUT063	OUT																							
 OUT064	OUT																							
 OUT065	OUT	Back Heel Kick	1	0	3	3			C	Ninja, Action, Attack	Combo				**Combo** - If Twin Twisters was the last attack this combat chain, this has If Back Heel Kick would gain {p}, instead it gains that much plus 1.		Ninja Action - Attack	Phu Thieu					S - OUT065 - N	/OUT065.png – OUT065 – N
@@ -171,7 +173,7 @@ OUT094	OUT	Trench of Sunken Treasure				1			L	Ranger, Equipment, Chest	Instant, 
 **Arcane Barrier 1**
 
 **Blade Break**"		Ranger Equipment - Chest	Federico Musetti					S - OUT094 - N	/OUT094.png – OUT094 – N
-OUT095	OUT																							
+OUT095	OUT	Quiver of Abyssal Depths							L	Ranger, Equipment, Quiver	Instant				**Instant** - {r}{r}{r}, destroy Quiver of Abyssal Depths: Shuffle up to 3 arrows with different names from your graveyard into your deck.		Ranger Equipment - Quiver	Steve Argyle				No	S - OUT095 - N	/OUT095.png – OUT095 – N
 OUT096	OUT	Quiver of Rustling Leaves							M	Ranger, Equipment, Quiver		Instant			**Instant** - {r}{r}{r}: Reveal the top card of your deck. If it's an arrow, put it face up into your arsenal and destroy Quiver of Rustling Leaves.		Ranger Equipment - Quiver	Mark Poole				No	S – OUT096 – N	/OUT096.png – OUT096 – N
 OUT097	OUT	Crow's Nest							T	Ranger, Equipment, Quiver	Azalea Specialization				"**Azalea Specialization**
 
@@ -180,7 +182,7 @@ OUT098	OUT	Driftwood Quiver							T	Ranger, Equipment, Quiver	Riptide Specializa
 
 **Instant** - Destroy Driftwood Quiver: Put a card from your arsenal on the bottom of your deck."		Ranger Equipment - Quiver	Jessada Sutthi					S - OUT098 - N	/OUT098.png – OUT098 – N
 OUT099	OUT																							
-OUT100	OUT																							
+OUT100	OUT	Amplifying Arrow	2	0	2	3			M	Ranger, Action, Arrow, Attack					While Amplifying Arrow is face up in any zone, if it would gane {p}, instead it gains that much plus 1.		Ranger Action - Arrow Attack	Ramza Ardyputra				No	S - OUT100 - N	/OUT100.png – OUT100 – N
 OUT101	OUT	Barbed Undertow	1	1	5	3			M	Ranger, Action, Attack					If Barbed Undertow has an aim counter, it gains When this hits a hero, choose red, yellow, or blue.  Until the start of your next turn, they can't pitch cards of the chosen color.		Ranger Action - Arrow Attack	Junaidi Lim				No	S - OUT101 - N	/OUT101.png – OUT101 – N
 OUT102	OUT																							
 OUT103	OUT	Collapsing Trap	3	0		3			M	Ranger, Defense Reaction, Trap	Legendary, Riptide Specialization				"**Legendary Riptide Specialization**

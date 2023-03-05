@@ -28023,6 +28023,55 @@ exports[`Check for unintentional updates Dream Weavers (dream-weavers) 1`] = `
 }
 `;
 
+exports[`Check for unintentional updates Driftwood Quiver (driftwood-quiver) 1`] = `
+{
+  "artists": [
+    "Jessada Sutthi",
+  ],
+  "cardIdentifier": "driftwood-quiver",
+  "classes": [
+    "Ranger",
+  ],
+  "defaultImageName": "OUT098",
+  "functionalText": "**Riptide Specialization**
+
+**Instant** - Destroy Driftwood Quiver: Put a card from your arsenal on the bottom of your deck.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT098",
+      "name": "OUT098",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Specialization",
+  ],
+  "name": "Driftwood Quiver",
+  "rarities": [
+    "Token",
+  ],
+  "rarity": "Token",
+  "setIdentifiers": [
+    "OUT098",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT098",
+  "specializations": [
+    "Riptide",
+  ],
+  "subtypes": [
+    "Quiver",
+  ],
+  "typeText": "Ranger Equipment - Quiver",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Drill Shot (drill-shot-blue) 1`] = `
 {
   "artists": [
@@ -108223,6 +108272,56 @@ exports[`Check for unintentional updates Tremor of íArathael (tremor-of-iaratha
   "typeText": "Generic Action – Attack",
   "types": [
     "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Trench of Sunken Treasure (trench-of-sunken-treasure) 1`] = `
+{
+  "artists": [
+    "Federico Musetti",
+  ],
+  "cardIdentifier": "trench-of-sunken-treasure",
+  "classes": [
+    "Ranger",
+  ],
+  "defaultImageName": "OUT094",
+  "defense": 1,
+  "functionalText": "**Once per Turn Instant** - Put a face down card from your arsenal on the bottom of your deck: Gain {r}
+
+**Arcane Barrier 1**
+
+**Blade Break**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT094",
+      "name": "OUT094",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Arcane Barrier",
+    "Blade Break",
+  ],
+  "name": "Trench of Sunken Treasure",
+  "rarities": [
+    "Legendary",
+  ],
+  "rarity": "Legendary",
+  "setIdentifiers": [
+    "OUT094",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT094",
+  "subtypes": [
+    "Chest",
+  ],
+  "typeText": "Ranger Equipment - Chest",
+  "types": [
+    "Equipment",
   ],
 }
 `;

@@ -1711,6 +1711,47 @@ When this hits a hero, create a Frailty token under their control.`,
     
     
   },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "cyclone-roundhouse-yellow",
+    classes: [Class.Ninja],
+    defaultImageName: "OUT050",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT050",
+      name: "OUT050",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Cyclone Roundhouse",
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT050"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT050",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Combo** - If Spinning Wheel Kick was the last attack this combat chain, this has At the beginning of the reaction step, banish a random defending card from each chain link.`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo],
+    
+    
+    pitch: 2,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "dishonor-blue",
     classes: [Class.Ninja],
@@ -1957,6 +1998,49 @@ When this hits, you may discard a card with cose 0. If you do, search your deck 
     
     pitch: 1,
     power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Le Vuong"],
+    cardIdentifier: "spinning-wheel-kick-red",
+    classes: [Class.Ninja],
+    defaultImageName: "OUT062",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT062",
+      name: "OUT062",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Spinning Wheel Kick",
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT062"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT062",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `**Combo** - If Twin Twisters or Spinning Wheel Kick was the last attack this combat chain, this has +1{p} and "When this hits, put it on the bottom of its owner's deck."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo,Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 4,
     restrictedFormats: [Format.Commoner],
     
     
@@ -2508,6 +2592,47 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
     
     
   },{
+    artists: ["Steve Argyle"],
+    cardIdentifier: "quiver-of-abyssal-depths",
+    classes: [Class.Ranger],
+    defaultImageName: "OUT095",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT095",
+      name: "OUT095",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Quiver of Abyssal Depths",
+    rarities: [Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["OUT095"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT095",
+    subtypes: [Subtype.Quiver],
+    types: [Type.Equipment],
+    typeText: "Ranger Equipment - Quiver",
+
+    
+    
+    functionalText: `**Instant** - {r}{r}{r}, destroy Quiver of Abyssal Depths: Shuffle up to 3 arrows with different names from your graveyard into your deck.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Mark Poole"],
     cardIdentifier: "quiver-of-rustling-leaves",
     classes: [Class.Ranger],
@@ -2632,6 +2757,47 @@ Whenever an arrow is put face up into your arsenal from your deck, you may pay {
     
     
     specializations: [Hero.Riptide],
+    
+    
+  },{
+    artists: ["Ramza Ardyputra"],
+    cardIdentifier: "amplifying-arrow-yellow",
+    classes: [Class.Ranger],
+    defaultImageName: "OUT100",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT100",
+      name: "OUT100",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Amplifying Arrow",
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT100"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT100",
+    subtypes: [Subtype.Attack,Subtype.Arrow],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `While Amplifying Arrow is face up in any zone, if it would gane {p}, instead it gains that much plus 1.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 2,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
     
     
   },{
@@ -26981,7 +27147,8 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Cristián Huerta"],
     cardIdentifier: "reverberate-yellow",
     classes: [Class.Wizard],
@@ -27144,8 +27311,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Igor Heras"],
     cardIdentifier: "scalding-rain-yellow",
     classes: [Class.Wizard],
@@ -53565,7 +53731,8 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Regina Krivolapova"],
     cardIdentifier: "ironhide-plate",
     classes: [Class.Generic],
@@ -53665,8 +53832,7 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Daniil Goncharov"],
     cardIdentifier: "ironhide-legs",
     classes: [Class.Generic],
@@ -77724,7 +77890,8 @@ When a source you control deals exactly 2 damage to an opposing hero, destroy Ta
     
     
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "silver",
     classes: [Class.Generic],
@@ -77777,8 +77944,7 @@ When a source you control deals exactly 2 damage to an opposing hero, destroy Ta
     
     
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Lius Lasahido"],
     cardIdentifier: "dorinthea-quicksilver-prodigy",
     classes: [Class.Warrior],
