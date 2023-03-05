@@ -8,7 +8,7 @@ OUT005, OUT006	OUT, OUT	Nerve Scalpel			1				M, M	Assassin, Weapon, Dagger, 1H	P
 
 **Piercing 1**
 
-When this hits a hero, the next time they defend with 1 or more reaction cards this turn, those cards have -1{d} while defending."		Assassin Weapon - Dagger (1H)	Tomasz Jedruszek				No	S - OUT005 - N, S - OUT006 - N	/OUT005.png – OUT005 – N
+When this hits a hero, the next time they defend with 1 or more reaction cards this turn, those cards have -1{d} while defending."		Assassin Weapon - Dagger (1H)	Tomasz Jedruszek				No	S - OUT005 - N, S - OUT006 - N	/OUT005.png – OUT005 – N, /OUT006.png – OUT006 – N
 OUT007, OUT008	OUT, OUT	Orbitoclast			1				M	Assassin, Weapon, Dagger, 1H	Piercing 1	Once per Turn Action	Attack, Go again		"**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
 
 **Piercing 1**
@@ -257,7 +257,9 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
 OUT164	OUT	Death Touch	3	1	4	2			R	Assassin, Ranger, Action, Attack					"Death Touch can't be played from hand.
 
 When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under their control."		Assassin / Ranger Action - Attack	Saad Irfan					S - OUT164 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT164.width-450.png - OUT164 - N
-OUT165	OUT																							
+OUT165	OUT	Toxicity	1	0		2			R	Assassin, Ranger, Action	Go again				"The next Assassin or Ranger attack action card you play this turn gains ""When this hits a hero, they lose 5{h}.""
+
+**Go again**"		Assassin / Ranger Action	Federico Musetti				No	S - OUT165 - N	/OUT165.png – OUT165 – N
 OUT166	OUT																							
 OUT167	OUT																							
 OUT168	OUT	Virulent Touch	1	0	4	2			C	Assassin, Ranger, Action, Attack					"Viruluent Touch can’t be played from hand.
@@ -280,7 +282,7 @@ OUT182	OUT
 OUT183	OUT	Amnesia	1	2	6	3			M	Generic, Action, Attack					When this hits a hero, cards and tokens they own l ose and can't gain names until the start of your next turn.		Generic Action - Attack	Riordan Delmiro				No	S - OUT183 - N	/OUT183.png – OUT183 – N
 OUT184	OUT																							
 OUT185	OUT																							
-OUT186	OUT																							
+OUT186	OUT	Gore Belching	1	0	7				M	Generic, Action, Attack					When this attacks, reveal cards from the top of your deck until you reveal an attack action card. If you do, banish it and this gets -X{p}, where X is the {p} of the card banished this way. Otherwise, this gets -7{p}. Shuffle.		Generic Action - Attack	Nikolay Moskvin				No	S - OUT186 - N	/OUT186.png – OUT186 – N
 OUT187	OUT																							
 OUT188	OUT																							
 OUT189	OUT																							

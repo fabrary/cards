@@ -91,7 +91,7 @@ const generateCardTypeScript = (card: Card): String => {
         : ``
     }
     ${card.pitch || card.pitch === 0 ? `pitch: ${card.pitch},` : ``}
-    ${card.power ? `power: ${card.power},` : ``}
+    ${card.power || card.power === 0 ? `power: ${card.power},` : ``}
     ${
       card.restrictedFormats && card.restrictedFormats.length > 0
         ? `restrictedFormats: [${getEnumValues(

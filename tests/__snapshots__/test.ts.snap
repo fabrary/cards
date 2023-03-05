@@ -2176,6 +2176,54 @@ exports[`Check for unintentional updates Amethyst Tiara (amethyst-tiara) 1`] = `
 }
 `;
 
+exports[`Check for unintentional updates Amnesia (amnesia-red) 1`] = `
+{
+  "artists": [
+    "Riordan Delmiro",
+  ],
+  "cardIdentifier": "amnesia-red",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 2,
+  "defaultImageName": "OUT183",
+  "defense": 3,
+  "functionalText": "When this hits a hero, cards and tokens they own l ose and can't gain names until the start of your next turn.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT183",
+      "name": "OUT183",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Amnesia",
+  "pitch": 1,
+  "power": 6,
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT183",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT183",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Amplify the Arknight (amplify-the-arknight-blue) 1`] = `
 {
   "artists": [
@@ -8496,6 +8544,55 @@ exports[`Check for unintentional updates Blacktek Whisperers (blacktek-whisperer
 }
 `;
 
+exports[`Check for unintentional updates Blade Cuff (blade-cuff) 1`] = `
+{
+  "artists": [
+    "Federico Musetti",
+  ],
+  "cardIdentifier": "blade-cuff",
+  "classes": [
+    "Assassin",
+    "Ninja",
+  ],
+  "defaultImageName": "OUT141",
+  "defense": 1,
+  "functionalText": "**Action** - {r}{r}, destroy Blade Cuff: Your daggers gain +1{p} this turn. **Go again**
+
+**Blade Break**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT141",
+      "name": "OUT141",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Blade Break",
+    "Go again",
+  ],
+  "name": "Blade Cuff",
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT141",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT141",
+  "subtypes": [
+    "Arms",
+  ],
+  "typeText": "Assassin / Ninja Equipment - Arms",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Blade Flash (blade-flash-blue) 1`] = `
 {
   "artists": [
@@ -8946,6 +9043,60 @@ Deal X arcane damage to target hero, where X is the amount of arcane damage you 
     "Non-Attack",
   ],
   "typeText": "Wizard Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Bleed Out (bleed-out-red) 1`] = `
+{
+  "artists": [
+    "Marco Gonzalez",
+  ],
+  "cardIdentifier": "bleed-out-red",
+  "classes": [
+    "Assassin",
+    "Ninja",
+  ],
+  "cost": 2,
+  "defaultImageName": "OUT145",
+  "defense": 2,
+  "functionalText": "Bleed Out costs X resource points less to play, where X is the total damage you've dealt with daggers this combat chain.
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT145",
+      "name": "OUT145",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Bleed Out",
+  "pitch": 1,
+  "power": 4,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT145",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT145",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Assassin / Ninja Action - Attack",
   "types": [
     "Action",
   ],
@@ -22554,6 +22705,7 @@ exports[`Check for unintentional updates Crouching Tiger (crouching-tiger) 1`] =
     "Go again",
   ],
   "name": "Crouching Tiger",
+  "power": 0,
   "rarities": [
     "Common",
     "Marvel",
@@ -60067,6 +60219,67 @@ exports[`Check for unintentional updates Nekria (nekria) 1`] = `
 }
 `;
 
+exports[`Check for unintentional updates Nerve Scalpel (nerve-scalpel) 1`] = `
+{
+  "artists": [
+    "Tomasz Jedruszek",
+  ],
+  "cardIdentifier": "nerve-scalpel",
+  "classes": [
+    "Assassin",
+  ],
+  "defaultImageName": "OUT005",
+  "functionalText": "**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
+
+**Piercing 1**
+
+When this hits a hero, the next time they defend with 1 or more reaction cards this turn, those cards have -1{d} while defending.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT005",
+      "name": "OUT005",
+      "set": "Outsiders",
+    },
+    {
+      "edition": "Promo",
+      "identifier": "OUT006",
+      "name": "OUT006",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Piercing",
+    "Go again",
+  ],
+  "name": "Nerve Scalpel",
+  "power": 1,
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT005",
+    "OUT006",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT005",
+  "subtypes": [
+    "Dagger",
+    "1H",
+  ],
+  "typeText": "Assassin Weapon - Dagger (1H)",
+  "types": [
+    "Weapon",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Nerves of Steel (nerves-of-steel-blue) 1`] = `
 {
   "artists": [
@@ -65642,6 +65855,7 @@ If you control 2 or more Draconic chain links, Phoenix Flame has +1{p}.
   ],
   "name": "Phoenix Flame",
   "pitch": 1,
+  "power": 0,
   "rarities": [
     "Promo",
     "Common",
@@ -73288,6 +73502,7 @@ If you've **charged** this turn, Raydn gains +3{p}.",
     },
   ],
   "name": "Raydn, Duskbane",
+  "power": 0,
   "rarities": [
     "Majestic",
   ],
@@ -80532,6 +80747,7 @@ exports[`Check for unintentional updates Rouse the Ancients (rouse-the-ancients-
   ],
   "name": "Rouse the Ancients",
   "pitch": 3,
+  "power": 0,
   "rarities": [
     "Majestic",
   ],
@@ -105445,6 +105661,59 @@ exports[`Check for unintentional updates Toxic Tips (toxic-tips) 1`] = `
   "typeText": "Assassin / Ranger Equipment - Arms",
   "types": [
     "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Toxicity (toxicity-red) 1`] = `
+{
+  "artists": [
+    "Federico Musetti",
+  ],
+  "cardIdentifier": "toxicity-red",
+  "classes": [
+    "Assassin",
+    "Ranger",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT165",
+  "defense": 2,
+  "functionalText": "The next Assassin or Ranger attack action card you play this turn gains "When this hits a hero, they lose 5{h}."
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT165",
+      "name": "OUT165",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Toxicity",
+  "pitch": 1,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT165",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT165",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Assassin / Ranger Action",
+  "types": [
+    "Action",
   ],
 }
 `;

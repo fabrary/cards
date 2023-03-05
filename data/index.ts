@@ -156,6 +156,12 @@
       name: "OUT005",
       set: Release.Outsiders,
       
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT006",
+      name: "OUT006",
+      set: Release.Outsiders,
+      
     },],
     name: "Nerve Scalpel",
     rarities: [Rarity.Majestic],
@@ -2799,6 +2805,49 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     
     
   },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "toxicity-red",
+    classes: [Class.Assassin,Class.Ranger],
+    defaultImageName: "OUT165",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT165",
+      name: "OUT165",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Toxicity",
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT165"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT165",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Assassin / Ranger Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `The next Assassin or Ranger attack action card you play this turn gains "When this hits a hero, they lose 5{h}."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Mark Poole"],
     cardIdentifier: "virulent-touch-red",
     classes: [Class.Assassin,Class.Ranger],
@@ -2875,6 +2924,47 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
     
     pitch: 1,
     power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "gore-belching-red",
+    classes: [Class.Generic],
+    defaultImageName: "OUT186",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT186",
+      name: "OUT186",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Gore Belching",
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT186"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT186",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 0,
+    
+    functionalText: `When this attacks, reveal cards from the top of your deck until you reveal an attack action card. If you do, banish it and this gets -X{p}, where X is the {p} of the card banished this way. Otherwise, this gets -7{p}. Shuffle.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 7,
     restrictedFormats: [Format.Commoner],
     
     
@@ -27030,7 +27120,8 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Reza Afshar"],
     cardIdentifier: "eirinas-prayer-blue",
     classes: [Class.Generic],
@@ -27089,8 +27180,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Pavel Chuvin"],
     cardIdentifier: "back-alley-breakline-red",
     classes: [Class.Generic],
@@ -40467,7 +40557,7 @@ If you've **charged** this turn, Raydn gains +3{p}.`,
     
     
     
-    
+    power: 0,
     restrictedFormats: [Format.Commoner],
     
     
@@ -51887,7 +51977,7 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     
     pitch: 3,
-    
+    power: 0,
     restrictedFormats: [Format.Commoner],
     
     
@@ -52757,7 +52847,8 @@ The next attack action card with cost 0 you play this turn gains **go again**.
     
     
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "belittle-red",
     classes: [Class.Generic],
@@ -52806,8 +52897,7 @@ The next attack action card with cost 0 you play this turn gains **go again**.
     
     
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "belittle-yellow",
     classes: [Class.Generic],
@@ -81974,7 +82064,7 @@ If you control 2 or more Draconic chain links, Phoenix Flame has +1{p}.
     
     
     pitch: 1,
-    
+    power: 0,
     
     
     
@@ -89806,7 +89896,7 @@ Crouching Tigers you control gain +1{p} this turn.
     
     
     
-    
+    power: 0,
     
     
     
