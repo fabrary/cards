@@ -23022,6 +23022,55 @@ exports[`Check for unintentional updates Crouching Tiger (crouching-tiger) 1`] =
 }
 `;
 
+exports[`Check for unintentional updates Crow's Nest (crows-nest) 1`] = `
+{
+  "artists": [
+    "Carlos Cruchaga",
+  ],
+  "cardIdentifier": "crows-nest",
+  "classes": [
+    "Ranger",
+  ],
+  "defaultImageName": "OUT097",
+  "functionalText": "**Azalea Specialization**
+
+Whenever an arrow is put face up into your arsenal from your deck, you may pay {r}. If you do, put an aim counter on it.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT097",
+      "name": "OUT097",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Specialization",
+  ],
+  "name": "Crow's Nest",
+  "rarities": [
+    "Token",
+  ],
+  "rarity": "Token",
+  "setIdentifiers": [
+    "OUT097",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT097",
+  "specializations": [
+    "Azalea",
+  ],
+  "subtypes": [
+    "Quiver",
+  ],
+  "typeText": "Ranger Equipment - Quiver",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Crown of Dichotomy (crown-of-dichotomy) 1`] = `
 {
   "artists": [
@@ -54505,6 +54554,58 @@ exports[`Check for unintentional updates Kyloria (kyloria) 1`] = `
 }
 `;
 
+exports[`Check for unintentional updates Lace with Bloodrot (lace-with-bloodrot-red) 1`] = `
+{
+  "artists": [
+    "Phu Thieu",
+  ],
+  "cardIdentifier": "lace-with-bloodrot-red",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT112",
+  "defense": 2,
+  "functionalText": "Your next arrow attack this turn gains +3{p} and "When this hits a hero, create a Bloodrot Pox token under their control."
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT112",
+      "name": "OUT112",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Lace with Bloodrot",
+  "pitch": 1,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT112",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT112",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Ranger Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Lace with Inertia (lace-with-inertia-red) 1`] = `
 {
   "artists": [
@@ -58367,6 +58468,54 @@ exports[`Check for unintentional updates Mark of the Beast (mark-of-the-beast-ye
   "typeText": "Shadow Brute Action – Attack",
   "types": [
     "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Mask of Malicious Manifestations (mask-of-malicious-manifestations) 1`] = `
+{
+  "artists": [
+    "Isuardi Therianto",
+  ],
+  "cardIdentifier": "mask-of-malicious-manifestations",
+  "classes": [
+    "Assassin",
+    "Ranger",
+  ],
+  "defaultImageName": "OUT157",
+  "defense": 1,
+  "functionalText": "**Action** - {r}, put a card from your hand or arsenal on the bottom of your deck, destroy Mask of Malicious Manifestations: Reveal cards from the top of your deck until you reveal an attack action card. Put it into your hand, then shuffle. **Go again**
+
+**Blade break**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT157",
+      "name": "OUT157",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Mask of Malicious Manifestations",
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT157",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT157",
+  "subtypes": [
+    "Head",
+  ],
+  "typeText": "Assassin / Ranger Equipment - Head",
+  "types": [
+    "Equipment",
   ],
 }
 `;
@@ -79575,12 +79724,17 @@ If you have dealt arcane damage to an opposing hero this turn, Rip Through Reali
 
 exports[`Check for unintentional updates Riptide (riptide) 1`] = `
 {
-  "artists": [],
+  "artists": [
+    "Joseph Qiu",
+  ],
   "cardIdentifier": "riptide",
   "classes": [
     "Ranger",
   ],
   "defaultImageName": "OUT092.width-450",
+  "functionalText": "Whenever you play a card from hand, you may put a card from hand face down into your arsenal.
+
+Whenever a trap you control triggers, deal 1 damage to the attacking hero.",
   "hero": "Riptide",
   "images": [
     {
@@ -79617,12 +79771,17 @@ exports[`Check for unintentional updates Riptide (riptide) 1`] = `
 
 exports[`Check for unintentional updates Riptide, Lurker of the Deep (riptide-lurker-of-the-deep) 1`] = `
 {
-  "artists": [],
+  "artists": [
+    "Joseph Qiu",
+  ],
   "cardIdentifier": "riptide-lurker-of-the-deep",
   "classes": [
     "Ranger",
   ],
   "defaultImageName": "OUT091.width-450",
+  "functionalText": "Whenever you play a card from hand, you may put a card from hand face down into your arsenal.
+
+Whenever a trap you control triggers, deal 1 damage to the attacking hero.",
   "hero": "Riptide",
   "images": [
     {
@@ -97338,6 +97497,62 @@ When this hits a hero, the next time they defend with 1 or more attack action ca
 }
 `;
 
+exports[`Check for unintentional updates Spike Pit Trap (spike-pit-trap-blue) 1`] = `
+{
+  "artists": [
+    "Henrique Lindner",
+  ],
+  "cardIdentifier": "spike-pit-trap-blue",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT104",
+  "defense": 3,
+  "functionalText": "**Legendary Riptide Specialization**
+
+When this defends and the attacking hero has played or activated a reaction this chain link, put the top card of their deck into their graveyard, then they lose X{l}, where X is the number of cards in their graveyard with that name.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT104",
+      "name": "OUT104",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Legendary",
+    "Specialization",
+  ],
+  "name": "Spike Pit Trap",
+  "pitch": 3,
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT104",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT104",
+  "specializations": [
+    "Riptide",
+  ],
+  "subtypes": [
+    "Trap",
+  ],
+  "typeText": "Ranger Defense Reaction - Trap",
+  "types": [
+    "Defense Reaction",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Spike with Bloodrot (spike-with-bloodrot-red) 1`] = `
 {
   "artists": [
@@ -103707,6 +103922,53 @@ exports[`Check for unintentional updates Talismanic Lens (talismanic-lens) 1`] =
   "typeText": "Generic Equipment – Head",
   "types": [
     "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Tarpit Trap (tarpit-trap-yellow) 1`] = `
+{
+  "artists": [
+    "Rio Sabda",
+  ],
+  "cardIdentifier": "tarpit-trap-yellow",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT108",
+  "defense": 3,
+  "functionalText": "When this defends an attack with **go again**, the next time an attack action card hits this turn, effects don't trigger.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT108",
+      "name": "OUT108",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Tarpit Trap",
+  "pitch": 2,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT108",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT108",
+  "subtypes": [
+    "Trap",
+  ],
+  "typeText": "Ranger Defense Reaction - Trap",
+  "types": [
+    "Defense Reaction",
   ],
 }
 `;

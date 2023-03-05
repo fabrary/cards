@@ -157,18 +157,28 @@ OUT087	OUT
 OUT088	OUT																							
 HER010, HER018, WIN006, 1HP221, ARC038, CRU119, OUT089	HER, HER, WIN, 1HP, ARC, CRU, OUT	Azalea, Ace in the Hole					40	4	P, P, P, C, T, C	Ranger, Hero		Once per Turn Action	Go again	Dominate	**Once per Turn Action** - 0: Put a card from your arsenal on the bottom of your deck. If you do, put the top card of your deck face up into your arsenal. If it’s an arrow card, it gains **dominate** until end of turn. **Go again**		Ranger Hero	Maxim Kostin		No		No	C – HER010 – N, R – HER018 – N, G – WIN006 – N, S – 1HP221 – N, S – ARC038 – F, S – ARC038 – U, S – CRU119 – F, S – CRU119 – U, S – OUT089 – N	https://storage.googleapis.com/fabmaster/cardfaces/promos/HER010.png – HER010 – N, https://storage.googleapis.com/fabmaster/cardfaces/promos/HER018.png – HER018 – N, https://storage.googleapis.com/fabmaster/media/images/1HP221.width-450.png – 1HP221 – N, https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC038.png - ARC038 – F, https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC038.png – ARC038 – U, https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU119.png – CRU119 – F, https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU119.png – CRU119 – U, /OUT089.png – OUT089 – N
 HER014, 1HP222, ARC039, OUT090	HER, 1HP, ARC, OUT	Azalea					20	4	P, C, T	Ranger, Hero, Young		Once per Turn Action	Go again	Dominate	**Once per Turn Action** - 0: Put a card from your arsenal on the bottom of your deck. If you do, put the top card of your deck face up into your arsenal. If it’s an arrow card, it gains **dominate** until end of turn. **Go again**		Ranger Hero – Young	Maxim Kostin			No		R – HER014 – N, S – 1HP222 – N, S – ARC039 – F, S – ARC039 – U, S – OUT090 – N	https://storage.googleapis.com/fabmaster/cardfaces/promos/HER014.png – HER014 – N, https://storage.googleapis.com/fabmaster/media/images/1HP222.width-450.png – 1HP222 – N, https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC039.png - ARC039 – F, https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC039.png – ARC039 – U, /OUT090.png – OUT090 – N
-OUT091	OUT	Riptide, Lurker of the Deep					38	4	T	Ranger, Hero							Ranger Hero						S – OUT091 – N	/OUT091.width-450.png – OUT091 – N
-OUT092	OUT	Riptide					19	4	T	Ranger, Hero, Young							Ranger Hero – Young						S – OUT092 – N	/OUT092.width-450.png – OUT092 – N
+OUT091	OUT	Riptide, Lurker of the Deep					38	4	T	Ranger, Hero					"Whenever you play a card from hand, you may put a card from hand face down into your arsenal.
+
+Whenever a trap you control triggers, deal 1 damage to the attacking hero."		Ranger Hero	Joseph Qiu					S - OUT091 - N	/OUT091.width-450.png – OUT091 – N
+OUT092	OUT	Riptide					19	4	T	Ranger, Hero, Young					"Whenever you play a card from hand, you may put a card from hand face down into your arsenal.
+
+Whenever a trap you control triggers, deal 1 damage to the attacking hero."		Ranger Hero – Young	Joseph Qiu					S - OUT092 - N	/OUT092.width-450.png – OUT092 – N
 LGS129, OUT093	LGS, OUT	Barbed Castaway							P, T	Ranger, Weapon, Bow, 2H	Once per Turn Instant				"**Once per Turn Instant** - {r}: You may put an arrow card from your hand face up into your arsenal.
 
 **Once per Turn Instant** - {r}: You may turn a face down arrow in your arsenal face up. If you do, put an aim counter on it."		Ranger Weapon - Bow (2H)	Tanapon Wachirakul					S – LGS129 – N, S – OUT093 – N	/LGS129.png – LGS129 – N, /OUT093.width-450.png – OUT093 – N
-OUT094	OUT																							
+OUT094	OUT	Trench of Sunken Treasure				1			L	Ranger, Equipment, Chest	Instant, Arcane Barrier 1, Blade Break				"**Once per Turn Instant** - Put a face down card from your arsenal on the bottom of your deck: Gain {r}
+
+**Arcane Barrier 1**
+
+**Blade Break**"		Ranger Equipment - Chest	Federico Musetti					S - OUT094 - N	/OUT094.png – OUT094 – N
 OUT095	OUT																							
 OUT096	OUT	Quiver of Rustling Leaves							M	Ranger, Equipment, Quiver		Instant			**Instant** - {r}{r}{r}: Reveal the top card of your deck. If it's an arrow, put it face up into your arsenal and destroy Quiver of Rustling Leaves.		Ranger Equipment - Quiver	Mark Poole				No	S – OUT096 – N	/OUT096.png – OUT096 – N
 OUT097	OUT	Crow's Nest							T	Ranger, Equipment, Quiver	Azalea Specialization				"**Azalea Specialization**
 
 Whenever an arrow is put face up into your arsenal from your deck, you may pay {r}. If you do, put an aim counter on it."		Ranger Equipment - Quiver	Carlos Cruchaga					S - OUT097 - N	/OUT097.png – OUT097 – N
-OUT098	OUT																							
+OUT098	OUT	Driftwood Quiver							T	Ranger, Equipment, Quiver	Riptide Specialization, Instant				"**Riptide Specialization**
+
+**Instant** - Destroy Driftwood Quiver: Put a card from your arsenal on the bottom of your deck."		Ranger Equipment - Quiver	Jessada Sutthi					S - OUT098 - N	/OUT098.png – OUT098 – N
 OUT099	OUT																							
 OUT100	OUT																							
 OUT101	OUT	Barbed Undertow	1	1	5	3			M	Ranger, Action, Attack					If Barbed Undertow has an aim counter, it gains When this hits a hero, choose red, yellow, or blue.  Until the start of your next turn, they can't pitch cards of the chosen color.		Ranger Action - Arrow Attack	Junaidi Lim				No	S - OUT101 - N	/OUT101.png – OUT101 – N

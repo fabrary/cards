@@ -2328,7 +2328,7 @@ When this hits, you may discard a card with cose 0. If you do, search your deck 
     
     young: true
   },{
-    artists: [],
+    artists: ["Joseph Qiu"],
     cardIdentifier: "riptide-lurker-of-the-deep",
     classes: [Class.Ranger],
     defaultImageName: "OUT091.width-450",
@@ -2351,7 +2351,9 @@ When this hits, you may discard a card with cose 0. If you do, search your deck 
 
     
     
-    
+    functionalText: `Whenever you play a card from hand, you may put a card from hand face down into your arsenal.
+
+Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
     
     hero: Hero.Riptide,
     intellect: 4,
@@ -2369,7 +2371,7 @@ When this hits, you may discard a card with cose 0. If you do, search your deck 
     
     
   },{
-    artists: [],
+    artists: ["Joseph Qiu"],
     cardIdentifier: "riptide",
     classes: [Class.Ranger],
     defaultImageName: "OUT092.width-450",
@@ -2392,7 +2394,9 @@ When this hits, you may discard a card with cose 0. If you do, search your deck 
 
     
     
-    
+    functionalText: `Whenever you play a card from hand, you may put a card from hand face down into your arsenal.
+
+Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
     
     hero: Hero.Riptide,
     intellect: 4,
@@ -2447,6 +2451,51 @@ When this hits, you may discard a card with cose 0. If you do, search your deck 
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "trench-of-sunken-treasure",
+    classes: [Class.Ranger],
+    defaultImageName: "OUT094",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT094",
+      name: "OUT094",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Trench of Sunken Treasure",
+    rarities: [Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["OUT094"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT094",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Ranger Equipment - Chest",
+
+    
+    defense: 1,
+    functionalText: `**Once per Turn Instant** - Put a face down card from your arsenal on the bottom of your deck: Gain {r}
+
+**Arcane Barrier 1**
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.ArcaneBarrier,Keyword.BladeBreak],
     
     
     
@@ -2540,6 +2589,49 @@ Whenever an arrow is put face up into your arsenal from your deck, you may pay {
     
     
     specializations: [Hero.Azalea],
+    
+    
+  },{
+    artists: ["Jessada Sutthi"],
+    cardIdentifier: "driftwood-quiver",
+    classes: [Class.Ranger],
+    defaultImageName: "OUT098",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT098",
+      name: "OUT098",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Driftwood Quiver",
+    rarities: [Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["OUT098"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT098",
+    subtypes: [Subtype.Quiver],
+    types: [Type.Equipment],
+    typeText: "Ranger Equipment - Quiver",
+
+    
+    
+    functionalText: `**Riptide Specialization**
+
+**Instant** - Destroy Driftwood Quiver: Put a card from your arsenal on the bottom of your deck.`,
+    
+    
+    
+    
+    keywords: [Keyword.Specialization],
+    
+    
+    
+    
+    
+    
+    
+    
+    specializations: [Hero.Riptide],
     
     
   },{
@@ -27052,7 +27144,8 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Igor Heras"],
     cardIdentifier: "scalding-rain-yellow",
     classes: [Class.Wizard],
@@ -27105,8 +27198,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Igor Heras"],
     cardIdentifier: "scalding-rain-blue",
     classes: [Class.Wizard],
@@ -53573,7 +53665,8 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Daniil Goncharov"],
     cardIdentifier: "ironhide-legs",
     classes: [Class.Generic],
@@ -53638,8 +53731,7 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Phu Thieu"],
     cardIdentifier: "exude-confidence-red",
     classes: [Class.Generic],
@@ -77685,7 +77777,8 @@ When a source you control deals exactly 2 damage to an opposing hero, destroy Ta
     
     
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Lius Lasahido"],
     cardIdentifier: "dorinthea-quicksilver-prodigy",
     classes: [Class.Warrior],
@@ -77726,8 +77819,7 @@ When a source you control deals exactly 2 damage to an opposing hero, destroy Ta
     
     
     young: true
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "dawnblade-resplendent",
     classes: [Class.Warrior],
