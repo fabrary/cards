@@ -5295,6 +5295,54 @@ exports[`Check for unintentional updates Back Alley Breakline (back-alley-breakl
 }
 `;
 
+exports[`Check for unintentional updates Back Heel Kick (back-heel-kick-red) 1`] = `
+{
+  "artists": [
+    "Phu Thieu",
+  ],
+  "cardIdentifier": "back-heel-kick-red",
+  "classes": [
+    "Ninja",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT065",
+  "defense": 3,
+  "functionalText": "**Combo** - If Twin Twisters was the last attack this combat chain, this has If Back Heel Kick would gain {p}, instead it gains that much plus 1.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT065",
+      "name": "OUT065",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Combo",
+  ],
+  "name": "Back Heel Kick",
+  "pitch": 1,
+  "power": 3,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT065",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT065",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Ninja Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Back Stab (back-stab-blue) 1`] = `
 {
   "artists": [
@@ -25836,6 +25884,57 @@ exports[`Check for unintentional updates Demolition Crew (demolition-crew-yellow
     "Attack",
   ],
   "typeText": "Generic Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Descendent Gustwave (descendent-gustwave-red) 1`] = `
+{
+  "artists": [
+    "Faizal Fikri",
+  ],
+  "cardIdentifier": "descendent-gustwave-red",
+  "classes": [
+    "Ninja",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT074",
+  "defense": 2,
+  "functionalText": "**Combo** - If Surging Strike was the last attack this combat chain, this costs {r} less to play and has +2{p}.
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT074",
+      "name": "OUT074",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Combo",
+    "Go again",
+  ],
+  "name": "Descendent Gustwave",
+  "pitch": 1,
+  "power": 3,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT074",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT074",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Ninja Action - Attack",
   "types": [
     "Action",
   ],
@@ -53998,6 +54097,58 @@ exports[`Check for unintentional updates Kyloria (kyloria) 1`] = `
 }
 `;
 
+exports[`Check for unintentional updates Lace with Inertia (lace-with-inertia-red) 1`] = `
+{
+  "artists": [
+    "Shen Fei",
+  ],
+  "cardIdentifier": "lace-with-inertia-red",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT114",
+  "defense": 2,
+  "functionalText": "Your next arrow attack this turn gains +3{p} and "When this hits a hero, create an Inertia token under their control."
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT114",
+      "name": "OUT114",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Lace with Inertia",
+  "pitch": 1,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT114",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT114",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Ranger Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Lady Barthimont (lady-barthimont) 1`] = `
 {
   "artists": [
@@ -60193,6 +60344,54 @@ If Mulch was **fused**, it gains "If this hits a hero, put a card from their ars
 }
 `;
 
+exports[`Check for unintentional updates Murkmire Grapnel (murkmire-grapnel-red) 1`] = `
+{
+  "artists": [
+    "Marco Gonzalez",
+  ],
+  "cardIdentifier": "murkmire-grapnel-red",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT121",
+  "defense": 3,
+  "functionalText": "If Murkmire Grapnel has an aim counter, it has +1{p}.
+
+Damage that would be dealt by Murkmire Grapnel can't be prevented",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT121",
+      "name": "OUT121",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Murkmire Grapnel",
+  "pitch": 1,
+  "power": 4,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT121",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT121",
+  "subtypes": [
+    "Attack",
+    "Arrow",
+  ],
+  "typeText": "Ranger Action - Arrow Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Muscle Mutt (muscle-mutt-yellow) 1`] = `
 {
   "artists": [
@@ -62665,6 +62864,55 @@ exports[`Check for unintentional updates On a Knife Edge (on-a-knife-edge-yellow
     "Non-Attack",
   ],
   "typeText": "Generic Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates One-Two Punch (one-two-punch-red) 1`] = `
+{
+  "artists": [
+    "Tommy Suhartono",
+  ],
+  "cardIdentifier": "one-two-punch-red",
+  "classes": [
+    "Ninja",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT080",
+  "defense": 3,
+  "functionalText": "**Combo** - If Head Jab was the last attack this combat chain, this has When this hits a hero, deal 2 damage to them.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT080",
+      "name": "OUT080",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Combo",
+    "Go again",
+  ],
+  "name": "One-Two Punch",
+  "pitch": 1,
+  "power": 3,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT080",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT080",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Ninja Action - Attack",
   "types": [
     "Action",
   ],
@@ -65641,6 +65889,53 @@ exports[`Check for unintentional updates Pedal to the Metal (pedal-to-the-metal-
   "typeText": "Mechanologist Action – Attack",
   "types": [
     "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Pendulum Trap (pendulum-trap-yellow) 1`] = `
+{
+  "artists": [
+    "Rio Sabda",
+  ],
+  "cardIdentifier": "pendulum-trap-yellow",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT107",
+  "defense": 3,
+  "functionalText": "When this defends and the attacking hero has played or activated a reaction this chain link, put the top 2 cards of their deck into their graveyard.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT107",
+      "name": "OUT107",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Pendulum Trap",
+  "pitch": 2,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT107",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT107",
+  "subtypes": [
+    "Trap",
+  ],
+  "typeText": "Ranger Defense Reaction - Trap",
+  "types": [
+    "Defense Reaction",
   ],
 }
 `;
@@ -75092,6 +75387,58 @@ If the discarded card has 6 or more {p}, deal 2 damage to the attacking hero.",
   "typeText": "Brute Defense Reaction",
   "types": [
     "Defense Reaction",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Recoil (recoil-red) 1`] = `
+{
+  "artists": [
+    "Le Vuong",
+  ],
+  "cardIdentifier": "recoil-red",
+  "classes": [
+    "Ninja",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT059",
+  "defense": 3,
+  "functionalText": "**Combo** - If Head Jab was the last attack this combat chain, this has When this hits a hero, they put a card from their hand on top of their deck.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT059",
+      "name": "OUT059",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Combo",
+    "Go again",
+  ],
+  "name": "Recoil",
+  "pitch": 1,
+  "power": 3,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT059",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT059",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Ninja Action - Attack",
+  "types": [
+    "Action",
   ],
 }
 `;
@@ -90203,6 +90550,54 @@ exports[`Check for unintentional updates Silver the Tip (silver-the-tip-yellow) 
 }
 `;
 
+exports[`Check for unintentional updates Silverwind Shuriken (silverwind-shuriken-blue) 1`] = `
+{
+  "artists": [
+    "Sam Yang",
+  ],
+  "cardIdentifier": "silverwind-shuriken-blue",
+  "classes": [
+    "Ninja",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT054",
+  "functionalText": "**Attack Reaction** - Destroy Silverwind SHuriken: Target attack action card with **combo** gains +1{p}.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT054",
+      "name": "OUT054",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Silverwind Shuriken",
+  "pitch": 3,
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT054",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT054",
+  "subtypes": [
+    "Shuriken",
+    "Item",
+    "Non-Attack",
+  ],
+  "typeText": "Ninja Action - Shuriken Item",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Singe (singe-blue) 1`] = `
 {
   "artists": [
@@ -96593,6 +96988,52 @@ exports[`Check for unintentional updates Spinal Crush (spinal-crush-red) 1`] = `
     "Attack",
   ],
   "typeText": "Guardian Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Spire Sniping (spire-sniping-red) 1`] = `
+{
+  "artists": [
+    "Muhammad Fajri",
+  ],
+  "cardIdentifier": "spire-sniping-red",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT130",
+  "defense": 3,
+  "functionalText": "When Spire Sniping is put or turned face up in arsenal, look at the top 2 cards of your deck, then put them back in any order.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT130",
+      "name": "OUT130",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Spire Sniping",
+  "pitch": 1,
+  "power": 5,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT130",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT130",
+  "subtypes": [
+    "Attack",
+    "Arrow",
+  ],
+  "typeText": "Ranger Action - Arrow Attack",
   "types": [
     "Action",
   ],
@@ -107265,18 +107706,19 @@ exports[`Check for unintentional updates Twin Twisters (twin-twisters-red) 1`] =
   "cost": 1,
   "defaultImageName": "EVR047.width-450",
   "defense": 2,
-  "functionalText": "Choose 1:
-
-- Twin Twisters gains "When this hits, your next attack this combat chain gains +1{p}."
-- Twin Twisters gains +1{p}.
-
-**Go again**",
+  "functionalText": "Choose 1:  - Twin Twisters gains "When this hits, your next attack this combat chain gains +1{p}.” - Twin Twisters gains +1{p}.  **Go again**",
   "images": [
     {
       "edition": "First",
       "identifier": "EVR047",
       "name": "EVR047.width-450",
       "set": "Everfest",
+    },
+    {
+      "edition": "Promo",
+      "identifier": "OUT089",
+      "name": "OUT089",
+      "set": "Outsiders",
     },
   ],
   "keywords": [
@@ -107291,9 +107733,11 @@ exports[`Check for unintentional updates Twin Twisters (twin-twisters-red) 1`] =
   "rarity": "Common",
   "setIdentifiers": [
     "EVR047",
+    "OUT086",
   ],
   "sets": [
     "Everfest",
+    "Outsiders",
   ],
   "specialImageName": "EVR047.width-450",
   "subtypes": [
@@ -110695,6 +111139,65 @@ exports[`Check for unintentional updates Vynserakai (vynserakai) 1`] = `
 }
 `;
 
+exports[`Check for unintentional updates Wander With Purpose (wander-with-purpose-yellow) 1`] = `
+{
+  "artists": [
+    "Carlos Cruchaga",
+  ],
+  "cardIdentifier": "wander-with-purpose-yellow",
+  "classes": [
+    "Ninja",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT053",
+  "defense": 3,
+  "functionalText": "**Benji Specialization**
+
+When this hits, you may discard a card with cose 0. If you do, search your deck for a card with **combo**, banish it, then shuffle. You may play it this turn.
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT053",
+      "name": "OUT053",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Specialization",
+    "Go again",
+  ],
+  "name": "Wander With Purpose",
+  "pitch": 2,
+  "power": 2,
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT053",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT053",
+  "specializations": [
+    "Benji",
+  ],
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Ninja Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Waning Moon (waning-moon) 1`] = `
 {
   "artists": [
@@ -112830,6 +113333,54 @@ exports[`Check for unintentional updates Whisper of the Oracle (whisper-of-the-o
 }
 `;
 
+exports[`Check for unintentional updates Widowmaker (widowmaker-red) 1`] = `
+{
+  "artists": [
+    "Phu Thieu",
+  ],
+  "cardIdentifier": "widowmaker-red",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT133",
+  "defense": 3,
+  "functionalText": "Defense reactions can't be played to Widowmaker's chain link.
+
+If Widowmaker is defended by fewer than 2 cards, it has +3{p}.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT133",
+      "name": "OUT133",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Widowmaker",
+  "pitch": 1,
+  "power": 4,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT133",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT133",
+  "subtypes": [
+    "Attack",
+    "Arrow",
+  ],
+  "typeText": "Ranger Action - Arrow Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Wild Ride (wild-ride-blue) 1`] = `
 {
   "artists": [
@@ -113578,6 +114129,54 @@ When this hits a hero, create a Frailty token under their control.",
     "Attack",
   ],
   "typeText": "Assassin Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Withering Shot (withering-shot-red) 1`] = `
+{
+  "artists": [
+    "Nikita Bondarev",
+  ],
+  "cardIdentifier": "withering-shot-red",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT136",
+  "defense": 3,
+  "functionalText": "If Withering Shot has an aim counter, it has +1{p}.
+
+When this hits a hero, create a Frailty token under their control.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT136",
+      "name": "OUT136",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Withering Shot",
+  "pitch": 1,
+  "power": 5,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT136",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT136",
+  "subtypes": [
+    "Attack",
+    "Arrow",
+  ],
+  "typeText": "Ranger Action - Arrow Attack",
   "types": [
     "Action",
   ],

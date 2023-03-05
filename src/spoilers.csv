@@ -152,7 +152,7 @@ OUT082	OUT
 OUT083	OUT																							
 OUT084	OUT																							
 OUT085	OUT																							
-OUT086	OUT																							
+EVR047, OUT086	EVR, OUT	Twin Twisters	1	1	3	2			C	Ninja, Action, Attack	Go again				"Choose 1:  - Twin Twisters gains ""When this hits, your next attack this combat chain gains +1{p}.” - Twin Twisters gains +1{p}.  **Go again**"		Ninja Action – Attack	Faizal Fikri					S R – EVR047 – F, S - OUT080 - N	https://storage.googleapis.com/fabmaster/media/images/EVR047.width-450.png - EVR047 - F, /OUT089.png – OUT089 – N
 OUT087	OUT																							
 OUT088	OUT																							
 HER010, HER018, WIN006, 1HP221, ARC038, CRU119, OUT089	HER, HER, WIN, 1HP, ARC, CRU, OUT	Azalea, Ace in the Hole					40	4	P, P, P, C, T, C	Ranger, Hero		Once per Turn Action	Go again	Dominate	**Once per Turn Action** - 0: Put a card from your arsenal on the bottom of your deck. If you do, put the top card of your deck face up into your arsenal. If it’s an arrow card, it gains **dominate** until end of turn. **Go again**		Ranger Hero	Maxim Kostin		No		No	C – HER010 – N, R – HER018 – N, G – WIN006 – N, S – 1HP221 – N, S – ARC038 – F, S – ARC038 – U, S – CRU119 – F, S – CRU119 – U, S – OUT089 – N	https://storage.googleapis.com/fabmaster/cardfaces/promos/HER010.png – HER010 – N, https://storage.googleapis.com/fabmaster/cardfaces/promos/HER018.png – HER018 – N, https://storage.googleapis.com/fabmaster/media/images/1HP221.width-450.png – 1HP221 – N, https://storage.googleapis.com/fabmaster/cardfaces/2020-ARC/ARC038.png - ARC038 – F, https://storage.googleapis.com/fabmaster/cardfaces/2020-U-ARC/U-ARC038.png – ARC038 – U, https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU119.png – CRU119 – F, https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU119.png – CRU119 – U, /OUT089.png – OUT089 – N
@@ -226,12 +226,12 @@ OUT138	OUT
 OUT139	OUT	Flick Knives				1			L	Assassin, Ninja, Equipment, Arms	Blade Break				"**Once per Turn Attack Reaction** - 0: Target dagger you control that isn't on the active chain link deals 1 damage to target hero. If damage is dealt this way, the dagger has hit. Destroy the dagger.
 
 **Blade Break**"		Assassin / Ninja Equipment - Arms	Nathaniel Himawan				No	S - OUT139 - N	/OUT139.png – OUT139 – N
-OUT140	OUT																							
+OUT140	OUT	Mask of Shifting Perspectives				1			C	Assassin, Ninja, Equipment, Head	Blade Break	Attack Reaction			**Attack Reaction** - Destroy Mask of Shifting Perspectives: Whenever a dagger hits this turn, you may put a card from your hand on the bottom of your deck. If you do, draw a card.		Assassin / Ninja Equipment - Head	Isuardi Therianto					S - OUT140 - N	/OUT140.png – OUT140 – N
 OUT141	OUT	Blade Cuff				1			C	Assassin, Ninja, Equipment, Arms	Blade Break	Action	Go again		"**Action** - {r}{r}, destroy Blade Cuff: Your daggers gain +1{p} this turn. **Go again**
 
 **Blade Break**"		Assassin / Ninja Equipment - Arms	Federico Musetti					S - OUT141 - N	/OUT141.png – OUT141 – N
 OUT142	OUT	Stab Wound	3	0	2	3			M	Assassin, Ninja, Action, Attack					When this hits a hero, they lose X{h}, where X is the number of times a dagger has hit this combat chain.		Assassin / Ninja Action - Attack	Narendra B Adi				No	S – OUT142 - N	/OUT142.png – OUT142 – N
-OUT143	OUT																							
+OUT143	OUT	Concealed Blade	3	0		3			M	Assassin, Ninja, Attack Reaction					Target Assassin or Ninja attack action card gains +1{p} and When this hits, equip a dagger from your inventory.		Assassin / Ninja Attack Reaction	Isuardi Therianto				No	S - OUT143 - N	/OUT143.png – OUT143 – N
 OUT144	OUT																							
 OUT145	OUT	Bleed Out	1	2	4	2			R	Assassin, Ninja, Action, Attack	Go again				"Bleed Out costs X resource points less to play, where X is the total damage you've dealt with daggers this combat chain.
 
@@ -292,18 +292,22 @@ OUT170	OUT
 OUT171	OUT	Bloodrot Trap	1	0		3			C	Assassin, Ranger, Defense Reaction, Trap					When this defends and the attacking hero has played or activated a reaction this chain link, create a Bloodrot Pox token under their control.		Assassin / Ranger Defense Reaction - Trap	Henrique Lindner					S - OUT171 - N	/OUT171.png – OUT171 – N
 OUT172	OUT	Frailty Trap	1	0		3			C	Assassin, Ranger, Defense Reaction, Trap					When this defends an attack with **go again**, create a Frailty token under the attacking hero's control.		Assassin / Ranger Defense Reaction - Trap	Vito Vivodka					S - OUT172 - N	/OUT172.png – OUT172 – N
 OUT173	OUT	Inertia Trap	1	0		3			C	Assassin, Ranger, Defense Reaction, Trap					When this defends an attack with {p} greater than its base, create an Inertia token under the attacking hero's control.		Assassin / Ranger Defense Reaction - Trap	Erick Efata					S - OUT173 - N	/OUT173.png – OUT173 – N
-OUT174	OUT																							
-OUT175	OUT																							
-OUT176	OUT																							
-OUT177	OUT																							
-OUT178	OUT																							
+OUT174	OUT	Vambrace of Determination				0			L	Generic, Equipment, Arms	Blade Break	Once per Turn Attack Reaction			"**Once per Turn Attack Reaction** - {r}: The next prevention effect that prevents {p} damage this turn, prevents 1 less of that damage.
+
+When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break**."		Generic Equipment - Arms	Alexander Mokhov				No	S - OUT174 - N	/OUT174.png – OUT174 – N
+OUT175	OUT	Seeker's Hood							C	Generic, Equipment, Head		Instant	Opt 1		**Instant** - {r}, destroy Seeker's Hood: Prevent the next 1 damage that would be dealt to your hero this turn. **Opt 1**		Generic Equipment - Head	Lizhe Liang					S - OUT175 - N	/OUT175.png – OUT175 – N
+OUT176	OUT	Seeker's Gilet							C	Generic, Equipment, Chest		Instant	Opt 1		**Instant** - {r}, destroy Seeker's Gilet: Prevent the next 1 damage that would be dealt to your hero this turn. **Opt 1**		Generic Equipment - Chest	Immanuela Crovus					S - OUT176 - N	/OUT176.png – OUT176 – N
+OUT177	OUT	Seeker's Mitts							C	Generic, Equipment, Arms		Instant	Opt 1		**Instant** - {r}, destroy Seeker's Mitts: Prevent the next 1 damage that would be dealt to your hero this turn. **Opt 1**		Generic Equipment - Arms	Felicia Liang					S - OUT177 - N	/OUT177.png – OUT177 – N
+OUT178	OUT	Seeker's Leggings							C	Generic, Equipment, Legs		Instant	Opt 1		**Instant** - {r}, destroy Seeker's Leggings: Prevent the next 1 damage that would be dealt to your hero this turn. **Opt 1**		Generic Equipment - Legs	Amelia Tan					S - OUT178 - N	/OUT178.png – OUT178 – N
 OUT179	OUT																							
 OUT180	OUT																							
 OUT181	OUT																							
 OUT182	OUT																							
 OUT183	OUT	Amnesia	1	2	6	3			M	Generic, Action, Attack					When this hits a hero, cards and tokens they own l ose and can't gain names until the start of your next turn.		Generic Action - Attack	Riordan Delmiro				No	S - OUT183 - N	/OUT183.png – OUT183 – N
 OUT184	OUT	Down and Dirty	1	2	6	2			M	Generic, Action, Attack					While Down and Dirty is in your arsenal, you may defend with it.	Mobs scuttle through the undercity like pack rats, sniffing out havoc and any opportunity for a good mugging.	Generic Action - Attack	Kevin Sidartha				No	S - OUT184 - N	/OUT184.png – OUT184 – N
-OUT185	OUT																							
+OUT185	OUT	Give and Take	1	1	3	3			M	Generic, Action, Attack	Go again				"Whenever Give and Take is defended by an action card, you may put an action card with cost less than Give and Take's {p} from your graveyard on top of your deck.
+
+**Go again**"		Generic Action - Attack	Federico Musetti				No	S - OUT185 - N	/OUT185.png – OUT185 – N
 OUT186	OUT	Gore Belching	1	0	7				M	Generic, Action, Attack					When this attacks, reveal cards from the top of your deck until you reveal an attack action card. If you do, banish it and this gets -X{p}, where X is the {p} of the card banished this way. Otherwise, this gets -7{p}. Shuffle.		Generic Action - Attack	Nikolay Moskvin				No	S - OUT186 - N	/OUT186.png – OUT186 – N
 OUT187	OUT																							
 OUT188	OUT	Premeditate	1	0		2			M	Generic, Action	Go again				"The next time an attack action card hits a hero this turn, create a Ponder token.

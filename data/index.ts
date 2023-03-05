@@ -2133,6 +2133,53 @@ When this hits, you may discard a card with cose 0. If you do, search your deck 
     
     
   },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "twin-twisters-red",
+    classes: [Class.Ninja],
+    defaultImageName: "EVR047.width-450",
+    images: [{
+      edition: ReleaseEdition.First,
+      identifier: "EVR047",
+      name: "EVR047.width-450",
+      set: Release.Everfest,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT089",
+      name: "OUT089",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Twin Twisters",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVR047","OUT086"],
+    sets: [Release.Everfest,Release.Outsiders],
+    specialImageName: "EVR047.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action – Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Choose 1:  - Twin Twisters gains "When this hits, your next attack this combat chain gains +1{p}.” - Twin Twisters gains +1{p}.  **Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Maxim Kostin"],
     cardIdentifier: "azalea-ace-in-the-hole",
     classes: [Class.Ranger],
@@ -2922,6 +2969,47 @@ When this hits a hero, create a Frailty token under their control.`,
     
     
   },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "mask-of-shifting-perspectives",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImageName: "OUT140",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT140",
+      name: "OUT140",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Mask of Shifting Perspectives",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT140"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT140",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Assassin / Ninja Equipment - Head",
+
+    
+    defense: 1,
+    functionalText: `**Attack Reaction** - Destroy Mask of Shifting Perspectives: Whenever a dagger hits this turn, you may put a card from your hand on the bottom of your deck. If you do, draw a card.`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Federico Musetti"],
     cardIdentifier: "blade-cuff",
     classes: [Class.Assassin,Class.Ninja],
@@ -2998,6 +3086,47 @@ When this hits a hero, create a Frailty token under their control.`,
     
     pitch: 3,
     power: 2,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "concealed-blade-blue",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImageName: "OUT143",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT143",
+      name: "OUT143",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Concealed Blade",
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT143"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT143",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin / Ninja Attack Reaction",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `Target Assassin or Ninja attack action card gains +1{p} and When this hits, equip a dagger from your inventory.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
     restrictedFormats: [Format.Commoner],
     
     
@@ -3663,6 +3792,213 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
     
     
   },{
+    artists: ["Alexander Mokhov"],
+    cardIdentifier: "vambrace-of-determination",
+    classes: [Class.Generic],
+    defaultImageName: "OUT174",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT174",
+      name: "OUT174",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Vambrace of Determination",
+    rarities: [Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["OUT174"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT174",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Arms",
+
+    
+    defense: 0,
+    functionalText: `**Once per Turn Attack Reaction** - {r}: The next prevention effect that prevents {p} damage this turn, prevents 1 less of that damage.
+
+When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break**.`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Lizhe Liang"],
+    cardIdentifier: "seekers-hood",
+    classes: [Class.Generic],
+    defaultImageName: "OUT175",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT175",
+      name: "OUT175",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Seeker's Hood",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT175"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT175",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Head",
+
+    
+    
+    functionalText: `**Instant** - {r}, destroy Seeker's Hood: Prevent the next 1 damage that would be dealt to your hero this turn. **Opt 1**`,
+    
+    
+    
+    
+    keywords: [Keyword.Opt],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Immanuela Crovus"],
+    cardIdentifier: "seekers-gilet",
+    classes: [Class.Generic],
+    defaultImageName: "OUT176",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT176",
+      name: "OUT176",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Seeker's Gilet",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT176"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT176",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Chest",
+
+    
+    
+    functionalText: `**Instant** - {r}, destroy Seeker's Gilet: Prevent the next 1 damage that would be dealt to your hero this turn. **Opt 1**`,
+    
+    
+    
+    
+    keywords: [Keyword.Opt],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Felicia Liang"],
+    cardIdentifier: "seekers-mitts",
+    classes: [Class.Generic],
+    defaultImageName: "OUT177",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT177",
+      name: "OUT177",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Seeker's Mitts",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT177"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT177",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Arms",
+
+    
+    
+    functionalText: `**Instant** - {r}, destroy Seeker's Mitts: Prevent the next 1 damage that would be dealt to your hero this turn. **Opt 1**`,
+    
+    
+    
+    
+    keywords: [Keyword.Opt],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Amelia Tan"],
+    cardIdentifier: "seekers-leggings",
+    classes: [Class.Generic],
+    defaultImageName: "OUT178",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT178",
+      name: "OUT178",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Seeker's Leggings",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT178"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT178",
+    subtypes: [Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Legs",
+
+    
+    
+    functionalText: `**Instant** - {r}, destroy Seeker's Leggings: Prevent the next 1 damage that would be dealt to your hero this turn. **Opt 1**`,
+    
+    
+    
+    
+    keywords: [Keyword.Opt],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Riordan Delmiro"],
     cardIdentifier: "amnesia-red",
     classes: [Class.Generic],
@@ -3737,6 +4073,49 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
     
     pitch: 1,
     power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "give-and-take-red",
+    classes: [Class.Generic],
+    defaultImageName: "OUT185",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT185",
+      name: "OUT185",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Give and Take",
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT185"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT185",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `Whenever Give and Take is defended by an action card, you may put an action card with cost less than Give and Take's {p} from your graveyard on top of your deck.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 3,
     restrictedFormats: [Format.Commoner],
     
     
@@ -26699,7 +27078,8 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["J. Sebastián S.C."],
     cardIdentifier: "talismanic-lens",
     classes: [Class.Generic],
@@ -27112,8 +27492,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Tatiana Trubnikova"],
     cardIdentifier: "nullrune-boots",
     classes: [Class.Generic],
@@ -53019,7 +53398,8 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Marco González"],
     cardIdentifier: "out-muscle-blue",
     classes: [Class.Generic],
@@ -53254,8 +53634,7 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Alexis Susani"],
     cardIdentifier: "tremor-of-iarathael-yellow",
     classes: [Class.Generic],
@@ -70394,52 +70773,6 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
     
   },{
     artists: ["Faizal Fikri"],
-    cardIdentifier: "twin-twisters-red",
-    classes: [Class.Ninja],
-    defaultImageName: "EVR047.width-450",
-    images: [{
-      edition: ReleaseEdition.First,
-      identifier: "EVR047",
-      name: "EVR047.width-450",
-      set: Release.Everfest,
-      
-    },],
-    name: "Twin Twisters",
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVR047"],
-    sets: [Release.Everfest],
-    specialImageName: "EVR047.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action – Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `Choose 1:
-
-- Twin Twisters gains "When this hits, your next attack this combat chain gains +1{p}."
-- Twin Twisters gains +1{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Faizal Fikri"],
     cardIdentifier: "twin-twisters-yellow",
     classes: [Class.Ninja],
     defaultImageName: "EVR048.width-450",
@@ -77006,7 +77339,8 @@ The second time you attack with Dawnblade each turn, it gains +1{p} until end of
     
     
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Federico Musetti"],
     cardIdentifier: "hala-goldenhelm",
     classes: [Class.Warrior],
@@ -77096,8 +77430,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
     specializations: [Hero.Dorinthea],
     
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "en-garde-red",
     classes: [Class.Warrior],
@@ -98427,7 +98760,7 @@ When you equip Crown of Dominion, create a Gold token.`,
     ...cards4,
   ];
 
-  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Erick Efata","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendrique Lindner","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kanadekana","Kate Fox","Kevin Sidartha","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Maerel Hibadita","Marco Gonzalez","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wisniewski","Mateusz Wiśniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Theiu","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sariya Asavametha","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tomasz Jedruszek","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
+  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Erick Efata","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendrique Lindner","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Immanuela Crovus","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kanadekana","Kate Fox","Kevin Sidartha","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Maerel Hibadita","Marco Gonzalez","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wisniewski","Mateusz Wiśniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Theiu","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sariya Asavametha","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tomasz Jedruszek","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
 
   export * from "./interfaces";
   
