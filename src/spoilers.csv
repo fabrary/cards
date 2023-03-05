@@ -111,19 +111,23 @@ When this hits a hero, if you control Surging Strike, Descendent Gustwave, and B
 OUT052	OUT	Head Leads the Tail	1	1	3	2			M	Ninja, Action, Attack	Go again				"When this attacks, name another card. Attack action cards with that name have +1{p} this combat chain.
 
 **Go again**"		Ninja Action - Attack	Faizal Fikri				No	S - OUT052 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT052.width-450.png - OUT052 - N
-OUT053	OUT																							
-OUT054	OUT																							
+OUT053	OUT	Wander With Purpose	2	0	2	3			M	Ninja, Action, Attack	Benji Specialization, Go again				"**Benji Specialization**
+
+When this hits, you may discard a card with cose 0. If you do, search your deck for a card with **combo**, banish it, then shuffle. You may play it this turn.
+
+**Go again**"		Ninja Action - Attack	Carlos Cruchaga				No	S - OUT053 - N	/OUT053.png – OUT053 – N
+OUT054	OUT	Silverwind Shuriken	3	0					M	Ninja, Action, Shuriken, Item	Attack Reaction				**Attack Reaction** - Destroy Silverwind SHuriken: Target attack action card with **combo** gains +1{p}.		Ninja Action - Shuriken Item	Sam Yang				No	S - OUT054 - N	/OUT054.png – OUT054 – N
 OUT055	OUT																							
 OUT056	OUT	Bonds of Ancestry	1	2	4	3			R	Ninja, Action, Attack	Combo, Go again				"**Combo** - If a card with Gustwave in its name was the last attack this combat chain, this costs {r}{r} less to play, and has **go again** and ""When this attacks, you may banish a card with **combo** from your graveyard. If you do, search your deck for a card with the same name, banish it, then shuffle. You may play it this combat chain."""		Ninja Action - Attack	Faizal Fikri				No	S - OUT056 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT056.width-450.png - OUT056 - N
 OUT057	OUT																						S - OUT057 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT057.width-450.png - OUT057 - N
 OUT058	OUT																						S - OUT058 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT058.width-450.png - OUT058 - N
-OUT059	OUT																							
+OUT059	OUT	Recoil	1	0	3	3			R	Ninja, Action, Attack	Combo, Go again				**Combo** - If Head Jab was the last attack this combat chain, this has When this hits a hero, they put a card from their hand on top of their deck.		Ninja Action - Attack	Le Vuong				No	S - OUT059 - N	/OUT059.png – OUT059 – N
 OUT060	OUT																							
 OUT061	OUT																							
 OUT062	OUT																							
 OUT063	OUT																							
 OUT064	OUT																							
-OUT065	OUT																							
+OUT065	OUT	Back Heel Kick	1	0	3	3			C	Ninja, Action, Attack	Combo				**Combo** - If Twin Twisters was the last attack this combat chain, this has If Back Heel Kick would gain {p}, instead it gains that much plus 1.		Ninja Action - Attack	Phu Thieu					S - OUT065 - N	/OUT065.png – OUT065 – N
 OUT066	OUT																							
 OUT067	OUT																							
 OUT068	OUT	Be Like Water	1	0	3	2			C	Ninja, Action, Attack	Go again				"When this hits, you may pay {r}. If you do, choose Head Jab, Surging Strike, or Twin Twisters. This gains the chosen name.
@@ -134,13 +138,15 @@ OUT070	OUT																						S - OUT070 - N	https://dhhim4ltzu1pj.cloudfront.
 OUT071	OUT																							
 OUT072	OUT																							
 OUT073	OUT																							
-OUT074	OUT																							
+OUT074	OUT	Descendent Gustwave	1	1	3	2			C	Ninja, Action, Attack	Combo, Go again				"**Combo** - If Surging Strike was the last attack this combat chain, this costs {r} less to play and has +2{p}.
+
+**Go again**"		Ninja Action - Attack	Faizal Fikri					S - OUT074 - N	/OUT074.png – OUT074 – N
 OUT075	OUT																							
 OUT076	OUT																							
 OUT077	OUT																							
 OUT078	OUT																							
 OUT079	OUT																							
-OUT080	OUT																							
+OUT080	OUT	One-Two Punch	1	0	3	3			C	Ninja, Action, Attack	Combo, Go again				**Combo** - If Head Jab was the last attack this combat chain, this has When this hits a hero, deal 2 damage to them.		Ninja Action - Attack	Tommy Suhartono					S - OUT080 - N	/OUT080.png – OUT080 – N
 OUT081	OUT																							
 OUT082	OUT																							
 OUT083	OUT																							
@@ -175,21 +181,25 @@ If it has an aim counter, it gains ""When this hits a hero, destroy a 1H weapon 
 
 **Go again**"		Ranger Action	Carlos Cruchaga				No	S - OUT105 - N	/OUT105.png – OUT105 – N
 OUT106	OUT																							
-OUT107	OUT																							
+OUT107	OUT	Pendulum Trap	2	0		3			R	Ranger, Defense Reaction, Trap					When this defends and the attacking hero has played or activated a reaction this chain link, put the top 2 cards of their deck into their graveyard.		Ranger Defense Reaction - Trap	Rio Sabda				No	S - OUT107 - N	/OUT107.png – OUT107 – N
 OUT108	OUT																							
 OUT109	OUT																							
 OUT110	OUT																							
 OUT111	OUT																							
 OUT112	OUT																							
 OUT113	OUT																							
-OUT114	OUT																							
+OUT114	OUT	Lace with Inertia	1	0		2			R	Ranger, Action	Go again				"Your next arrow attack this turn gains +3{p} and ""When this hits a hero, create an Inertia token under their control.""
+
+**Go again**"		Ranger Action	Shen Fei				No	S - OUT114 - N	/OUT114.png – OUT114 – N
 OUT115	OUT																							
 OUT116	OUT																							
 OUT117	OUT																							
 OUT118	OUT																							
 OUT119	OUT																							
 OUT120	OUT																							
-OUT121	OUT																							
+OUT121	OUT	Murkmire Grapnel	1	0	4	3			C	Ranger, Action, Arrow, Attack					"If Murkmire Grapnel has an aim counter, it has +1{p}.
+
+Damage that would be dealt by Murkmire Grapnel can't be prevented"		Ranger Action - Arrow Attack	Marco Gonzalez					S - OUT121 - N	/OUT121.png – OUT121 – N
 OUT122	OUT																							
 OUT123	OUT																							
 OUT124	OUT	Sedation Shot	1	1	5	3			C	Ranger, Action, Arrow, Attack					"If Sedation Shot has an aim counter, it has plus 1 {p}.
@@ -200,13 +210,17 @@ OUT126	OUT
 OUT127	OUT																							
 OUT128	OUT																							
 OUT129	OUT																							
-OUT130	OUT																							
+OUT130	OUT	Spire Sniping	1	1	5	3			C	Ranger, Action, Arrow, Attack					When Spire Sniping is put or turned face up in arsenal, look at the top 2 cards of your deck, then put them back in any order.		Ranger Action - Arrow Attack	Muhammad Fajri					S - OUT130 - N	/OUT130.png – OUT130 – N
 OUT131	OUT																							
 OUT132	OUT																							
-OUT133	OUT																							
+OUT133	OUT	Widowmaker	1	1	4	3			C	Ranger, Action, Arrow, Attack					"Defense reactions can't be played to Widowmaker's chain link.
+
+If Widowmaker is defended by fewer than 2 cards, it has +3{p}."		Ranger Action - Arrow Attack	Phu Thieu					S - OUT133 - N	/OUT133.png – OUT133 – N
 OUT134	OUT																							
 OUT135	OUT																							
-OUT136	OUT																							
+OUT136	OUT	Withering Shot	1	1	5	3			C	Ranger, Action, Arrow, Attack					"If Withering Shot has an aim counter, it has +1{p}.
+
+When this hits a hero, create a Frailty token under their control."		Ranger Action - Arrow Attack	Nikita Bondarev					S - OUT136 - N	/OUT136.png – OUT136 – N
 OUT137	OUT																							
 OUT138	OUT																							
 OUT139	OUT	Flick Knives				1			L	Assassin, Ninja, Equipment, Arms	Blade Break				"**Once per Turn Attack Reaction** - 0: Target dagger you control that isn't on the active chain link deals 1 damage to target hero. If damage is dealt this way, the dagger has hit. Destroy the dagger.

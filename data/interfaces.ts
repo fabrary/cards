@@ -204,6 +204,7 @@ export enum Subtype {
   Pistol = "Pistol",
   Quiver = "Quiver",
   Rock = "Rock",
+  Shuriken = "Shuriken",
   Scepter = "Scepter",
   Scythe = "Scythe",
   Staff = "Staff",

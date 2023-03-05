@@ -1797,6 +1797,92 @@ When this hits a hero, if you control Surging Strike, Descendent Gustwave, and B
     
     
   },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "wander-with-purpose-yellow",
+    classes: [Class.Ninja],
+    defaultImageName: "OUT053",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT053",
+      name: "OUT053",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Wander With Purpose",
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT053"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT053",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Benji Specialization**
+
+When this hits, you may discard a card with cose 0. If you do, search your deck for a card with **combo**, banish it, then shuffle. You may play it this turn.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.Specialization,Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    power: 2,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    specializations: [Hero.Benji],
+    
+    
+  },{
+    artists: ["Sam Yang"],
+    cardIdentifier: "silverwind-shuriken-blue",
+    classes: [Class.Ninja],
+    defaultImageName: "OUT054",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT054",
+      name: "OUT054",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Silverwind Shuriken",
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT054"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT054",
+    subtypes: [Subtype.Shuriken,Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Shuriken Item",
+
+    cost: 0,
+    
+    functionalText: `**Attack Reaction** - Destroy Silverwind SHuriken: Target attack action card with **combo** gains +1{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "bonds-of-ancestry-red",
     classes: [Class.Ninja],
@@ -1838,6 +1924,88 @@ When this hits a hero, if you control Surging Strike, Descendent Gustwave, and B
     
     
   },{
+    artists: ["Le Vuong"],
+    cardIdentifier: "recoil-red",
+    classes: [Class.Ninja],
+    defaultImageName: "OUT059",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT059",
+      name: "OUT059",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Recoil",
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT059"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT059",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Combo** - If Head Jab was the last attack this combat chain, this has When this hits a hero, they put a card from their hand on top of their deck.`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo,Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Phu Thieu"],
+    cardIdentifier: "back-heel-kick-red",
+    classes: [Class.Ninja],
+    defaultImageName: "OUT065",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT065",
+      name: "OUT065",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Back Heel Kick",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT065"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT065",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Combo** - If Twin Twisters was the last attack this combat chain, this has If Back Heel Kick would gain {p}, instead it gains that much plus 1.`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo],
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Enmoire"],
     cardIdentifier: "be-like-water-red",
     classes: [Class.Ninja],
@@ -1869,6 +2037,90 @@ When this hits a hero, if you control Surging Strike, Descendent Gustwave, and B
     
     
     keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "descendent-gustwave-red",
+    classes: [Class.Ninja],
+    defaultImageName: "OUT074",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT074",
+      name: "OUT074",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Descendent Gustwave",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT074"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT074",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `**Combo** - If Surging Strike was the last attack this combat chain, this costs {r} less to play and has +2{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo,Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tommy Suhartono"],
+    cardIdentifier: "one-two-punch-red",
+    classes: [Class.Ninja],
+    defaultImageName: "OUT080",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT080",
+      name: "OUT080",
+      set: Release.Outsiders,
+      
+    },],
+    name: "One-Two Punch",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT080"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT080",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Combo** - If Head Jab was the last attack this combat chain, this has When this hits a hero, deal 2 damage to them.`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo,Keyword.GoAgain],
     
     
     pitch: 1,
@@ -2330,6 +2582,133 @@ If it has an aim counter, it gains "When this hits a hero, destroy a 1H weapon t
     
     
   },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "pendulum-trap-yellow",
+    classes: [Class.Ranger],
+    defaultImageName: "OUT107",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT107",
+      name: "OUT107",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Pendulum Trap",
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT107"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT107",
+    subtypes: [Subtype.Trap],
+    types: [Type.DefenseReaction],
+    typeText: "Ranger Defense Reaction - Trap",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `When this defends and the attacking hero has played or activated a reaction this chain link, put the top 2 cards of their deck into their graveyard.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "lace-with-inertia-red",
+    classes: [Class.Ranger],
+    defaultImageName: "OUT114",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT114",
+      name: "OUT114",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Lace with Inertia",
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT114"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT114",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Ranger Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `Your next arrow attack this turn gains +3{p} and "When this hits a hero, create an Inertia token under their control."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Marco Gonzalez"],
+    cardIdentifier: "murkmire-grapnel-red",
+    classes: [Class.Ranger],
+    defaultImageName: "OUT121",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT121",
+      name: "OUT121",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Murkmire Grapnel",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT121"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT121",
+    subtypes: [Subtype.Attack,Subtype.Arrow],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `If Murkmire Grapnel has an aim counter, it has +1{p}.
+
+Damage that would be dealt by Murkmire Grapnel can't be prevented`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Elena Bakulina"],
     cardIdentifier: "sedation-shot-red",
     classes: [Class.Ranger],
@@ -2356,6 +2735,133 @@ If it has an aim counter, it gains "When this hits a hero, destroy a 1H weapon t
     functionalText: `If Sedation Shot has an aim counter, it has plus 1 {p}.
 
 When this hits a hero, create an Inertia token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "spire-sniping-red",
+    classes: [Class.Ranger],
+    defaultImageName: "OUT130",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT130",
+      name: "OUT130",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Spire Sniping",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT130"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT130",
+    subtypes: [Subtype.Attack,Subtype.Arrow],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `When Spire Sniping is put or turned face up in arsenal, look at the top 2 cards of your deck, then put them back in any order.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Phu Thieu"],
+    cardIdentifier: "widowmaker-red",
+    classes: [Class.Ranger],
+    defaultImageName: "OUT133",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT133",
+      name: "OUT133",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Widowmaker",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT133"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT133",
+    subtypes: [Subtype.Attack,Subtype.Arrow],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `Defense reactions can't be played to Widowmaker's chain link.
+
+If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Nikita Bondarev"],
+    cardIdentifier: "withering-shot-red",
+    classes: [Class.Ranger],
+    defaultImageName: "OUT136",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT136",
+      name: "OUT136",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Withering Shot",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT136"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT136",
+    subtypes: [Subtype.Attack,Subtype.Arrow],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `If Withering Shot has an aim counter, it has +1{p}.
+
+When this hits a hero, create a Frailty token under their control.`,
     
     
     
@@ -26606,7 +27112,8 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Tatiana Trubnikova"],
     cardIdentifier: "nullrune-boots",
     classes: [Class.Generic],
@@ -27094,8 +27601,7 @@ When you play Life for a Life, if you have less {h} than an opposing hero, it ga
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Cristián Huerta"],
     cardIdentifier: "enchanting-melody-red",
     classes: [Class.Generic],
@@ -52748,7 +53254,8 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Alexis Susani"],
     cardIdentifier: "tremor-of-iarathael-yellow",
     classes: [Class.Generic],
@@ -53036,8 +53543,7 @@ The next attack action card with cost 2 or less you play this turn gains **go ag
     
     
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Joshua Raphael"],
     cardIdentifier: "captains-call-yellow",
     classes: [Class.Generic],
@@ -76590,7 +77096,8 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
     specializations: [Hero.Dorinthea],
     
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Henrique Lindner"],
     cardIdentifier: "en-garde-red",
     classes: [Class.Warrior],
@@ -76717,8 +77224,7 @@ Your next sword attack this turn gains +2{p}.`,
     
     
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "on-a-knife-edge-yellow",
     classes: [Class.Generic],

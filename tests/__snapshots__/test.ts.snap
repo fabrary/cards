@@ -58642,6 +58642,60 @@ exports[`Check for unintentional updates Meganetic Shockwave (meganetic-shockwav
 }
 `;
 
+exports[`Check for unintentional updates Melting Point (melting-point-red) 1`] = `
+{
+  "artists": [
+    "Carlos Cruchaga",
+  ],
+  "cardIdentifier": "melting-point-red",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT105",
+  "defense": 3,
+  "functionalText": "Your next arrow attack this turn gains +4{p}.
+
+If it has an aim counter, it gains "When this hits a hero, destroy a 1H weapon they control with 1 base {p}."
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT105",
+      "name": "OUT105",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Melting Point",
+  "pitch": 1,
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT105",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT105",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Ranger Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Memorial Ground (memorial-ground-blue) 1`] = `
 {
   "artists": [

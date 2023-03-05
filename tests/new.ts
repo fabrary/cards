@@ -8,7 +8,9 @@ for (const toPublish of cardsToPublish) {
     ({ cardIdentifier }) => toPublish.cardIdentifier === cardIdentifier
   );
   if (!match) {
-    added.push(`${toPublish.name} (${toPublish.cardIdentifier})`);
+    added.push(
+      `${toPublish.name} - ${toPublish.cardIdentifier} - ${toPublish.setIdentifiers}`
+    );
   }
 }
 
