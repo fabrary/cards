@@ -165,7 +165,9 @@ LGS129, OUT093	LGS, OUT	Barbed Castaway							P, T	Ranger, Weapon, Bow, 2H	Once 
 OUT094	OUT																							
 OUT095	OUT																							
 OUT096	OUT	Quiver of Rustling Leaves							M	Ranger, Equipment, Quiver		Instant			**Instant** - {r}{r}{r}: Reveal the top card of your deck. If it's an arrow, put it face up into your arsenal and destroy Quiver of Rustling Leaves.		Ranger Equipment - Quiver	Mark Poole				No	S – OUT096 – N	/OUT096.png – OUT096 – N
-OUT097	OUT																							
+OUT097	OUT	Crow's Nest							T	Ranger, Equipment, Quiver	Azalea Specialization				"**Azalea Specialization**
+
+Whenever an arrow is put face up into your arsenal from your deck, you may pay {r}. If you do, put an aim counter on it."		Ranger Equipment - Quiver	Carlos Cruchaga					S - OUT097 - N	/OUT097.png – OUT097 – N
 OUT098	OUT																							
 OUT099	OUT																							
 OUT100	OUT																							
@@ -174,7 +176,9 @@ OUT102	OUT
 OUT103	OUT	Collapsing Trap	3	0		3			M	Ranger, Defense Reaction, Trap	Legendary, Riptide Specialization				"**Legendary Riptide Specialization**
 
 When this defends an attack with **go again**, the attacking hero discards their hand then draws that many cards minus 1."		Ranger Defense Reaction - Trap	Raphael Pinna				No	S – OUT103 – N	/OUT103.png – OUT103 – N
-OUT104	OUT																							
+OUT104	OUT	Spike Pit Trap	3	0		3			M	Ranger, Defense Reaction, Trap	Legendary, Riptide Specialization				"**Legendary Riptide Specialization**
+
+When this defends and the attacking hero has played or activated a reaction this chain link, put the top card of their deck into their graveyard, then they lose X{l}, where X is the number of cards in their graveyard with that name."		Ranger Defense Reaction - Trap	Henrique Lindner				No	S - OUT104 - N	/OUT104.png – OUT104 – N
 OUT105	OUT	Melting Point	1	1		3			M	Ranger, Action	Go again				"Your next arrow attack this turn gains +4{p}.
 
 If it has an aim counter, it gains ""When this hits a hero, destroy a 1H weapon they control with 1 base {p}.""
@@ -182,7 +186,7 @@ If it has an aim counter, it gains ""When this hits a hero, destroy a 1H weapon 
 **Go again**"		Ranger Action	Carlos Cruchaga				No	S - OUT105 - N	/OUT105.png – OUT105 – N
 OUT106	OUT	Boulder Trap	2	0		3			R	Ranger, Defense Reaction, Trap					When this defends an attack with {p} greater than its base, put a -1{d} counter on an equipment the attacking hero controls.		Ranger Defense Reaction - Trap	Mateusz Wiśniewski				No	S – OUT106 - N	/OUT106.png – OUT106 – N
 OUT107	OUT	Pendulum Trap	2	0		3			R	Ranger, Defense Reaction, Trap					When this defends and the attacking hero has played or activated a reaction this chain link, put the top 2 cards of their deck into their graveyard.		Ranger Defense Reaction - Trap	Rio Sabda				No	S - OUT107 - N	/OUT107.png – OUT107 – N
-OUT108	OUT																							
+OUT108	OUT	Tarpit Trap	2	0		3			R	Ranger, Defense Reaction, Trap					When this defends an attack with **go again**, the next time an attack action card hits this turn, effects don't trigger.		Ranger Defense Reaction - Trap	Rio Sabda				No	S - OUT108 - N	/OUT108.png – OUT108 – N
 OUT109	OUT	Fletch a Red Tail	1	1		2			R	Ranger, Action	Go again				"Your next arrow attack this turn gains +4{p}.
 
 If it has an aim counter, it gains ""Red cards have -1{d} while defending this.""
@@ -198,7 +202,9 @@ OUT111	OUT	Fletch a Blue Tail	3	1		2			R	Ranger, Action	Go again				"Your next a
 If it has an aim counter, it gains ""Blue cards have -1{d} while defending this.""
 
 **Go again**"		Ranger Action	Alexis Susani				No	S - OUT111 - N	/OUT111.png – OUT111 – N
-OUT112	OUT																							
+OUT112	OUT	Lace with Bloodrot	1	0		2			R	Ranger, Action	Go again				"Your next arrow attack this turn gains +3{p} and ""When this hits a hero, create a Bloodrot Pox token under their control.""
+
+**Go again**"		Ranger Action	Phu Thieu				No	S - OUT112 - N	/OUT112.png – OUT112 – N
 OUT113	OUT																							
 OUT114	OUT	Lace with Inertia	1	0		2			R	Ranger, Action	Go again				"Your next arrow attack this turn gains +3{p} and ""When this hits a hero, create an Inertia token under their control.""
 
@@ -265,7 +271,9 @@ OUT154	OUT	Short and Sharp	1	1		2			C	Assassin, Ninja, Attack Reaction					"Choo
 - Target attack action card with 2 or less base {p} gains +3{p}."		Assassin / Ninja Attack Reaction	Tommy Suhartono					S - OUT154 - N	/OUT154.png – OUT154 – N
 OUT155	OUT																							
 OUT156	OUT																							
-OUT157	OUT																							
+OUT157	OUT	Mask of Malicious Manifestations				1			C	Assassin, Ranger, Equipment, Head	Blade break	Action	Go again		"**Action** - {r}, put a card from your hand or arsenal on the bottom of your deck, destroy Mask of Malicious Manifestations: Reveal cards from the top of your deck until you reveal an attack action card. Put it into your hand, then shuffle. **Go again**
+
+**Blade break**"		Assassin / Ranger Equipment - Head	Isuardi Therianto					S - OUT157 - N	/OUT157.png – OUT157 – N
 OUT158	OUT	Toxic Tips				1			C	Assassin, Ranger, Equipment, Arms	Go again, Blade Break				"**Action** - {r}, destroy Toxic Tips: The next attack action card you play this turn gains ""When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under their control."" **Go again**
 
 **Blade Break**"		Assassin / Ranger Equipment - Arms	Shen Fei					S – OUT158 - N	/OUT158.png – OUT158 – N

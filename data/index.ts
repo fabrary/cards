@@ -2500,6 +2500,49 @@ When this hits, you may discard a card with cose 0. If you do, search your deck 
     
     
   },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "crows-nest",
+    classes: [Class.Ranger],
+    defaultImageName: "OUT097",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT097",
+      name: "OUT097",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Crow's Nest",
+    rarities: [Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["OUT097"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT097",
+    subtypes: [Subtype.Quiver],
+    types: [Type.Equipment],
+    typeText: "Ranger Equipment - Quiver",
+
+    
+    
+    functionalText: `**Azalea Specialization**
+
+Whenever an arrow is put face up into your arsenal from your deck, you may pay {r}. If you do, put an aim counter on it.`,
+    
+    
+    
+    
+    keywords: [Keyword.Specialization],
+    
+    
+    
+    
+    
+    
+    
+    
+    specializations: [Hero.Azalea],
+    
+    
+  },{
     artists: ["Junaidi Lim"],
     cardIdentifier: "barbed-undertow-red",
     classes: [Class.Ranger],
@@ -2567,6 +2610,49 @@ When this hits, you may discard a card with cose 0. If you do, search your deck 
     functionalText: `**Legendary Riptide Specialization**
 
 When this defends an attack with **go again**, the attacking hero discards their hand then draws that many cards minus 1.`,
+    
+    
+    
+    
+    keywords: [Keyword.Legendary,Keyword.Specialization],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    specializations: [Hero.Riptide],
+    
+    
+  },{
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "spike-pit-trap-blue",
+    classes: [Class.Ranger],
+    defaultImageName: "OUT104",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT104",
+      name: "OUT104",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Spike Pit Trap",
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT104"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT104",
+    subtypes: [Subtype.Trap],
+    types: [Type.DefenseReaction],
+    typeText: "Ranger Defense Reaction - Trap",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Legendary Riptide Specialization**
+
+When this defends and the attacking hero has played or activated a reaction this chain link, put the top card of their deck into their graveyard, then they lose X{l}, where X is the number of cards in their graveyard with that name.`,
     
     
     
@@ -2711,6 +2797,47 @@ If it has an aim counter, it gains "When this hits a hero, destroy a 1H weapon t
     
     
   },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "tarpit-trap-yellow",
+    classes: [Class.Ranger],
+    defaultImageName: "OUT108",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT108",
+      name: "OUT108",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Tarpit Trap",
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT108"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT108",
+    subtypes: [Subtype.Trap],
+    types: [Type.DefenseReaction],
+    typeText: "Ranger Defense Reaction - Trap",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `When this defends an attack with **go again**, the next time an attack action card hits this turn, effects don't trigger.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Alexis Susani"],
     cardIdentifier: "fletch-a-red-tail-red",
     classes: [Class.Ranger],
@@ -2837,6 +2964,49 @@ If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
     
     
     pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Phu Thieu"],
+    cardIdentifier: "lace-with-bloodrot-red",
+    classes: [Class.Ranger],
+    defaultImageName: "OUT112",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT112",
+      name: "OUT112",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Lace with Bloodrot",
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT112"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT112",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Ranger Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `Your next arrow attack this turn gains +3{p} and "When this hits a hero, create a Bloodrot Pox token under their control."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
     
     restrictedFormats: [Format.Commoner],
     
@@ -3474,6 +3644,49 @@ When this hits a hero, create a Frailty token under their control.`,
     
     
     pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "mask-of-malicious-manifestations",
+    classes: [Class.Assassin,Class.Ranger],
+    defaultImageName: "OUT157",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT157",
+      name: "OUT157",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Mask of Malicious Manifestations",
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT157"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT157",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Assassin / Ranger Equipment - Head",
+
+    
+    defense: 1,
+    functionalText: `**Action** - {r}, put a card from your hand or arsenal on the bottom of your deck, destroy Mask of Malicious Manifestations: Reveal cards from the top of your deck until you reveal an attack action card. Put it into your hand, then shuffle. **Go again**
+
+**Blade break**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
     
     
     
@@ -26892,7 +27105,8 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Igor Heras"],
     cardIdentifier: "scalding-rain-blue",
     classes: [Class.Wizard],
@@ -27104,8 +27318,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "voltic-bolt-red",
     classes: [Class.Wizard],
@@ -53425,7 +53638,8 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Phu Thieu"],
     cardIdentifier: "exude-confidence-red",
     classes: [Class.Generic],
@@ -53521,8 +53735,7 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "rouse-the-ancients-blue",
     classes: [Class.Generic],
@@ -77513,7 +77726,8 @@ When a source you control deals exactly 2 damage to an opposing hero, destroy Ta
     
     
     young: true
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "dawnblade-resplendent",
     classes: [Class.Warrior],
@@ -77556,8 +77770,7 @@ The second time you attack with Dawnblade each turn, it gains +1{p} until end of
     
     
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Andy Aslamov"],
     cardIdentifier: "blossom-of-spring",
     classes: [Class.Generic],

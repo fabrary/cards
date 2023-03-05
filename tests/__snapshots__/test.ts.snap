@@ -13163,6 +13163,53 @@ exports[`Check for unintentional updates Boneyard Marauder (boneyard-marauder-ye
 }
 `;
 
+exports[`Check for unintentional updates Boulder Trap (boulder-trap-yellow) 1`] = `
+{
+  "artists": [
+    "Mateusz Wiśniewski",
+  ],
+  "cardIdentifier": "boulder-trap-yellow",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT106",
+  "defense": 3,
+  "functionalText": "When this defends an attack with {p} greater than its base, put a -1{d} counter on an equipment the attacking hero controls.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT106",
+      "name": "OUT106",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Boulder Trap",
+  "pitch": 2,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT106",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT106",
+  "subtypes": [
+    "Trap",
+  ],
+  "typeText": "Ranger Defense Reaction - Trap",
+  "types": [
+    "Defense Reaction",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Bounding Demigon (bounding-demigon-blue) 1`] = `
 {
   "artists": [
@@ -15924,6 +15971,58 @@ exports[`Check for unintentional updates Bull's Eye Bracers (bulls-eye-bracers) 
   "typeText": "Ranger Equipment – Arms",
   "types": [
     "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Burdens of the Past (burdens-of-the-past-blue) 1`] = `
+{
+  "artists": [],
+  "cardIdentifier": "burdens-of-the-past-blue",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT187",
+  "defense": 3,
+  "functionalText": "Until end of turn, target hero can't play defense reaction cards with the same name as a card in their graveyard.
+
+If there are 10 or more defense reaction cards in their graveyard, draw a card.
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT187",
+      "name": "OUT187",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Burdens of the Past",
+  "pitch": 3,
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT187",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT187",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Generic Action",
+  "types": [
+    "Action",
   ],
 }
 `;
@@ -36854,6 +36953,168 @@ When this hits a hero, banish the top card of their deck.",
 }
 `;
 
+exports[`Check for unintentional updates Fletch a Blue Tail (fletch-a-blue-tail-blue) 1`] = `
+{
+  "artists": [
+    "Alexis Susani",
+  ],
+  "cardIdentifier": "fletch-a-blue-tail-blue",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT111",
+  "defense": 2,
+  "functionalText": "Your next arrow attack this turn gains +2{p}.
+
+If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT111",
+      "name": "OUT111",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Fletch a Blue Tail",
+  "pitch": 3,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT111",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT111",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Ranger Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Fletch a Red Tail (fletch-a-red-tail-red) 1`] = `
+{
+  "artists": [
+    "Alexis Susani",
+  ],
+  "cardIdentifier": "fletch-a-red-tail-red",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT109",
+  "defense": 2,
+  "functionalText": "Your next arrow attack this turn gains +4{p}.
+
+If it has an aim counter, it gains "Red cards have -1{d} while defending this."
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT109",
+      "name": "OUT109",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Fletch a Red Tail",
+  "pitch": 1,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT109",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT109",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Ranger Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Fletch a Yellow Tail (fletch-a-yellow-tail-yellow) 1`] = `
+{
+  "artists": [
+    "Alexis Susani",
+  ],
+  "cardIdentifier": "fletch-a-yellow-tail-yellow",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT110",
+  "defense": 2,
+  "functionalText": "Your next arrow attack this turn gains +3{p}.
+
+If it has an aim counter, it gains "Yellow cards have -1{d} while defending this."
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT110",
+      "name": "OUT110",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Fletch a Yellow Tail",
+  "pitch": 2,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT110",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT110",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Ranger Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Flex (flex-blue) 1`] = `
 {
   "artists": [
@@ -49941,6 +50202,54 @@ When this hits a hero, create a Bloodrot Pox token under their control.",
     "Attack",
   ],
   "typeText": "Assassin Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Infecting Shot (infecting-shot-red) 1`] = `
+{
+  "artists": [
+    "Kalashnikova N.",
+  ],
+  "cardIdentifier": "infecting-shot-red",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT118",
+  "defense": 3,
+  "functionalText": "If Infecting Shot has an aim counter, it has +1{p}.
+
+When this hits a hero, create a Bloodrot Pox token under their control.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT118",
+      "name": "OUT118",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Infecting Shot",
+  "pitch": 1,
+  "power": 5,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT118",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT118",
+  "subtypes": [
+    "Attack",
+    "Arrow",
+  ],
+  "typeText": "Ranger Action - Arrow Attack",
   "types": [
     "Action",
   ],
