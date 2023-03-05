@@ -11680,6 +11680,51 @@ exports[`Check for unintentional updates Bloodrot Pox (bloodrot-pox) 1`] = `
 }
 `;
 
+exports[`Check for unintentional updates Bloodrot Trap (bloodrot-trap-red) 1`] = `
+{
+  "artists": [
+    "Henrique Lindner",
+  ],
+  "cardIdentifier": "bloodrot-trap-red",
+  "classes": [
+    "Assassin",
+    "Ranger",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT171",
+  "defense": 3,
+  "functionalText": "When this defends and the attacking hero has played or activated a reaction this chain link, create a Bloodrot Pox token under their control.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT171",
+      "name": "OUT171",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Bloodrot Trap",
+  "pitch": 1,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT171",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT171",
+  "subtypes": [
+    "Trap",
+  ],
+  "typeText": "Assassin / Ranger Defense Reaction - Trap",
+  "types": [
+    "Defense Reaction",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Bloodrush Bellow (bloodrush-bellow-yellow) 1`] = `
 {
   "artists": [
@@ -19338,6 +19383,62 @@ Create a Ponder token under your control and a Frailty token under each opponent
 }
 `;
 
+exports[`Check for unintentional updates Codex of Inertia (codex-of-inertia-yellow) 1`] = `
+{
+  "artists": [
+    "Isuardi Therianto",
+  ],
+  "cardIdentifier": "codex-of-inertia-yellow",
+  "classes": [
+    "Assassin",
+    "Ranger",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT161",
+  "defense": 2,
+  "functionalText": "Each hero puts the top card of their deck face down into their arsenal. Each hero that does, discards a card.
+
+Create a Ponder token under your control and an Inertia token under each opponent's control.
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT161",
+      "name": "OUT161",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Codex of Inertia",
+  "pitch": 2,
+  "power": 0,
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT161",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT161",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Assassin / Ranger Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Cognition Nodes (cognition-nodes-blue) 1`] = `
 {
   "artists": [
@@ -26922,6 +27023,54 @@ exports[`Check for unintentional updates Double Strike (double-strike-red) 1`] =
     "Attack",
   ],
   "typeText": "Nina Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Down and Dirty (down-and-dirty-red) 1`] = `
+{
+  "artists": [
+    "Kevin Sidartha",
+  ],
+  "cardIdentifier": "down-and-dirty-red",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 2,
+  "defaultImageName": "OUT184",
+  "defense": 2,
+  "functionalText": "While Down and Dirty is in your arsenal, you may defend with it.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT184",
+      "name": "OUT184",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Down and Dirty",
+  "pitch": 1,
+  "power": 6,
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT184",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT184",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
   "types": [
     "Action",
   ],
@@ -38505,6 +38654,51 @@ At the beginning of your end phase destroy Frailty.",
 }
 `;
 
+exports[`Check for unintentional updates Frailty Trap (frailty-trap-red) 1`] = `
+{
+  "artists": [
+    "Vito Vivodka",
+  ],
+  "cardIdentifier": "frailty-trap-red",
+  "classes": [
+    "Assassin",
+    "Ranger",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT172",
+  "defense": 3,
+  "functionalText": "When this defends an attack with **go again**, create a Frailty token under the attacking hero's control.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT172",
+      "name": "OUT172",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Frailty Trap",
+  "pitch": 1,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT172",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT172",
+  "subtypes": [
+    "Trap",
+  ],
+  "typeText": "Assassin / Ranger Defense Reaction - Trap",
+  "types": [
+    "Defense Reaction",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Frazzle (frazzle-blue) 1`] = `
 {
   "artists": [
@@ -49365,6 +49559,51 @@ exports[`Check for unintentional updates Inertia (inertia) 1`] = `
   "typeText": "Generic Token - Aura",
   "types": [
     "Token",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Inertia Trap (inertia-trap-red) 1`] = `
+{
+  "artists": [
+    "Erick Efata",
+  ],
+  "cardIdentifier": "inertia-trap-red",
+  "classes": [
+    "Assassin",
+    "Ranger",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT173",
+  "defense": 3,
+  "functionalText": "When this defends an attack with {p} greater than its base, create an Inertia token under the attacking hero's control.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT173",
+      "name": "OUT173",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Inertia Trap",
+  "pitch": 1,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT173",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT173",
+  "subtypes": [
+    "Trap",
+  ],
+  "typeText": "Assassin / Ranger Defense Reaction - Trap",
+  "types": [
+    "Defense Reaction",
   ],
 }
 `;
@@ -69387,6 +69626,60 @@ exports[`Check for unintentional updates Predatory Streak (predatory-streak-yell
     "Non-Attack",
   ],
   "typeText": "Ninja Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Premeditate (premeditate-red) 1`] = `
+{
+  "artists": [
+    "Isuardi Therianto",
+  ],
+  "cardIdentifier": "premeditate-red",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT188",
+  "defense": 2,
+  "functionalText": "The next time an attack action card hits a hero this turn, create a Ponder token.
+
+The next attack action card you play from arsenal this turn gains +3{p}.
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT188",
+      "name": "OUT188",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Premeditate",
+  "pitch": 1,
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT188",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT188",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Generic Action",
   "types": [
     "Action",
   ],

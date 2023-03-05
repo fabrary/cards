@@ -169,7 +169,11 @@ OUT103	OUT	Collapsing Trap	3	0		3			M	Ranger, Defense Reaction, Trap	Legendary, 
 
 When this defends an attack with **go again**, the attacking hero discards their hand then draws that many cards minus 1."		Ranger Defense Reaction - Trap	Raphael Pinna				No	S – OUT103 – N	/OUT103.png – OUT103 – N
 OUT104	OUT																							
-OUT105	OUT																							
+OUT105	OUT	Melting Point	1	1		3			M	Ranger, Action	Go again				"Your next arrow attack this turn gains +4{p}.
+
+If it has an aim counter, it gains ""When this hits a hero, destroy a 1H weapon they control with 1 base {p}.""
+
+**Go again**"		Ranger Action	Carlos Cruchaga				No	S - OUT105 - N	/OUT105.png – OUT105 – N
 OUT106	OUT																							
 OUT107	OUT																							
 OUT108	OUT																							

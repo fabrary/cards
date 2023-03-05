@@ -2285,6 +2285,51 @@ When this defends an attack with **go again**, the attacking hero discards their
     
     
   },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "melting-point-red",
+    classes: [Class.Ranger],
+    defaultImageName: "OUT105",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT105",
+      name: "OUT105",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Melting Point",
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT105"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT105",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Ranger Action",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `Your next arrow attack this turn gains +4{p}.
+
+If it has an aim counter, it gains "When this hits a hero, destroy a 1H weapon they control with 1 base {p}."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Elena Bakulina"],
     cardIdentifier: "sedation-shot-red",
     classes: [Class.Ranger],
@@ -27049,7 +27094,8 @@ When you play Life for a Life, if you have less {h} than an opposing hero, it ga
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Cristián Huerta"],
     cardIdentifier: "enchanting-melody-red",
     classes: [Class.Generic],
@@ -27106,8 +27152,7 @@ At the beginning of your end phase, destroy Enchanting Melody unless you have pl
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Cristián Huerta"],
     cardIdentifier: "enchanting-melody-yellow",
     classes: [Class.Generic],
@@ -52991,7 +53036,8 @@ The next attack action card with cost 2 or less you play this turn gains **go ag
     
     
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Joshua Raphael"],
     cardIdentifier: "captains-call-yellow",
     classes: [Class.Generic],
@@ -53044,8 +53090,7 @@ The next attack action card with cost 1 or less you play this turn gains **go ag
     
     
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Joshua Raphael"],
     cardIdentifier: "captains-call-blue",
     classes: [Class.Generic],
@@ -76672,7 +76717,8 @@ Your next sword attack this turn gains +2{p}.`,
     
     
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "on-a-knife-edge-yellow",
     classes: [Class.Generic],
@@ -76715,8 +76761,7 @@ Your next sword attack this turn gains +2{p}.`,
     
     
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "visit-the-blacksmith-blue",
     classes: [Class.Generic],
