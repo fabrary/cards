@@ -2401,6 +2401,55 @@ exports[`Check for unintentional updates Amplify the Arknight (amplify-the-arkni
 }
 `;
 
+exports[`Check for unintentional updates Amplifying Arrow (amplifying-arrow-yellow) 1`] = `
+{
+  "artists": [
+    "Ramza Ardyputra",
+  ],
+  "cardIdentifier": "amplifying-arrow-yellow",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT100",
+  "defense": 3,
+  "functionalText": "While Amplifying Arrow is face up in any zone, if it would gane {p}, instead it gains that much plus 1.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT100",
+      "name": "OUT100",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Amplifying Arrow",
+  "pitch": 2,
+  "power": 2,
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT100",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT100",
+  "subtypes": [
+    "Attack",
+    "Arrow",
+  ],
+  "typeText": "Ranger Action - Arrow Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Amulet of Assertiveness (amulet-of-assertiveness-yellow) 1`] = `
 {
   "artists": [
@@ -24036,6 +24085,57 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
   "typeText": "Assassin Attack Reaction",
   "types": [
     "Attack Reaction",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Cyclone Roundhouse (cyclone-roundhouse-yellow) 1`] = `
+{
+  "artists": [
+    "Narendra B Adi",
+  ],
+  "cardIdentifier": "cyclone-roundhouse-yellow",
+  "classes": [
+    "Ninja",
+  ],
+  "cost": 2,
+  "defaultImageName": "OUT050",
+  "defense": 3,
+  "functionalText": "**Combo** - If Spinning Wheel Kick was the last attack this combat chain, this has At the beginning of the reaction step, banish a random defending card from each chain link.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT050",
+      "name": "OUT050",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Combo",
+  ],
+  "name": "Cyclone Roundhouse",
+  "pitch": 2,
+  "power": 5,
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT050",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT050",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Ninja Action - Attack",
+  "types": [
+    "Action",
   ],
 }
 `;
@@ -73593,6 +73693,50 @@ If another weapon you control has gained **go again** this turn, Quicksilver Dag
 }
 `;
 
+exports[`Check for unintentional updates Quiver of Abyssal Depths (quiver-of-abyssal-depths) 1`] = `
+{
+  "artists": [
+    "Steve Argyle",
+  ],
+  "cardIdentifier": "quiver-of-abyssal-depths",
+  "classes": [
+    "Ranger",
+  ],
+  "defaultImageName": "OUT095",
+  "functionalText": "**Instant** - {r}{r}{r}, destroy Quiver of Abyssal Depths: Shuffle up to 3 arrows with different names from your graveyard into your deck.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT095",
+      "name": "OUT095",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Quiver of Abyssal Depths",
+  "rarities": [
+    "Legendary",
+  ],
+  "rarity": "Legendary",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT095",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT095",
+  "subtypes": [
+    "Quiver",
+  ],
+  "typeText": "Ranger Equipment - Quiver",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Quiver of Rustling Leaves (quiver-of-rustling-leaves) 1`] = `
 {
   "artists": [
@@ -97882,6 +98026,60 @@ exports[`Check for unintentional updates Spinal Crush (spinal-crush-red) 1`] = `
     "Attack",
   ],
   "typeText": "Guardian Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Spinning Wheel Kick (spinning-wheel-kick-red) 1`] = `
+{
+  "artists": [
+    "Le Vuong",
+  ],
+  "cardIdentifier": "spinning-wheel-kick-red",
+  "classes": [
+    "Ninja",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT062",
+  "defense": 2,
+  "functionalText": "**Combo** - If Twin Twisters or Spinning Wheel Kick was the last attack this combat chain, this has +1{p} and "When this hits, put it on the bottom of its owner's deck."
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT062",
+      "name": "OUT062",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Combo",
+    "Go again",
+  ],
+  "name": "Spinning Wheel Kick",
+  "pitch": 1,
+  "power": 4,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT062",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT062",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Ninja Action - Attack",
   "types": [
     "Action",
   ],

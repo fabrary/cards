@@ -117,7 +117,9 @@ When this hits, you may discard a card with cose 0. If you do, search your deck 
 
 **Go again**"		Ninja Action - Attack	Carlos Cruchaga				No	S - OUT053 - N	/OUT053.png – OUT053 – N
 OUT054	OUT	Silverwind Shuriken	3	0					M	Ninja, Action, Shuriken, Item	Attack Reaction				**Attack Reaction** - Destroy Silverwind SHuriken: Target attack action card with **combo** gains +1{p}.		Ninja Action - Shuriken Item	Sam Yang				No	S - OUT054 - N	/OUT054.png – OUT054 – N
-OUT055	OUT																							
+OUT055	OUT	Visit the Floating Dojo	3	0					M	Ninja, Instant	Katsu Specialization, Combo				"**Katsu Specialization**
+
+Put a Surging Strike and a card with **combo** from your graveyard on the top and/or bottom of your deck."	Grand masters of old reside atop Skylark peak. Amongst these Transcendents, he may find the answers he seeks.	Ninja Instant	Joseph Qiu				No	S - OUT055 - N	/OUT055.png – OUT055 – N
 OUT056	OUT	Bonds of Ancestry	1	2	4	3			R	Ninja, Action, Attack	Combo, Go again				"**Combo** - If a card with Gustwave in its name was the last attack this combat chain, this costs {r}{r} less to play, and has **go again** and ""When this attacks, you may banish a card with **combo** from your graveyard. If you do, search your deck for a card with the same name, banish it, then shuffle. You may play it this combat chain."""		Ninja Action - Attack	Faizal Fikri				No	S - OUT056 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT056.width-450.png - OUT056 - N
 OUT057	OUT																						S - OUT057 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT057.width-450.png - OUT057 - N
 OUT058	OUT																						S - OUT058 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT058.width-450.png - OUT058 - N
@@ -181,10 +183,14 @@ Whenever an arrow is put face up into your arsenal from your deck, you may pay {
 OUT098	OUT	Driftwood Quiver							T	Ranger, Equipment, Quiver	Riptide Specialization, Instant				"**Riptide Specialization**
 
 **Instant** - Destroy Driftwood Quiver: Put a card from your arsenal on the bottom of your deck."		Ranger Equipment - Quiver	Jessada Sutthi					S - OUT098 - N	/OUT098.png – OUT098 – N
-OUT099	OUT																							
+OUT099	OUT	Wayfinder's Crest				1			C	Ranger, Equipment, Head	Blade Break				"When you defend with Wayfinder's Crest, look at the top card of target hero's deck.
+
+**Blade Break**"		Ranger Equipment - Head	Asur Miosa				No	S - OUT099 - N	/OUT099.png – OUT099 – N
 OUT100	OUT	Amplifying Arrow	2	0	2	3			M	Ranger, Action, Arrow, Attack					While Amplifying Arrow is face up in any zone, if it would gane {p}, instead it gains that much plus 1.		Ranger Action - Arrow Attack	Ramza Ardyputra				No	S - OUT100 - N	/OUT100.png – OUT100 – N
 OUT101	OUT	Barbed Undertow	1	1	5	3			M	Ranger, Action, Attack					If Barbed Undertow has an aim counter, it gains When this hits a hero, choose red, yellow, or blue.  Until the start of your next turn, they can't pitch cards of the chosen color.		Ranger Action - Arrow Attack	Junaidi Lim				No	S - OUT101 - N	/OUT101.png – OUT101 – N
-OUT102	OUT																							
+OUT102	OUT	Buzzsaw Trap	3	0		3			M	Ranger, Defense Reaction, Trap	Legendary, Riptide Specialization				"**Legendary Riptide Specialization**
+
+When this defends an attack with {p} greater than its base, the attack can't gain {p} this turn."		Ranger Defense Reaction - Trap	Tanapon Wachirakul				No	S - OUT102 - N	/OUT102.png – OUT102 – N
 OUT103	OUT	Collapsing Trap	3	0		3			M	Ranger, Defense Reaction, Trap	Legendary, Riptide Specialization				"**Legendary Riptide Specialization**
 
 When this defends an attack with **go again**, the attacking hero discards their hand then draws that many cards minus 1."		Ranger Defense Reaction - Trap	Raphael Pinna				No	S – OUT103 – N	/OUT103.png – OUT103 – N
@@ -217,11 +223,15 @@ If it has an aim counter, it gains ""Blue cards have -1{d} while defending this.
 OUT112	OUT	Lace with Bloodrot	1	0		2			R	Ranger, Action	Go again				"Your next arrow attack this turn gains +3{p} and ""When this hits a hero, create a Bloodrot Pox token under their control.""
 
 **Go again**"		Ranger Action	Phu Thieu				No	S - OUT112 - N	/OUT112.png – OUT112 – N
-OUT113	OUT																							
+OUT113	OUT	Lace with Frailty	1	0		2			R	Ranger, Action	Go again				"Your next arrow attack this turn gains +3{p} and ""When this hits a hero, create a Frailty token under their control.""
+
+**Go again**"		Ranger Action	Marco González				No	S - OUT113 - N	/OUT113.png – OUT113 – N
 OUT114	OUT	Lace with Inertia	1	0		2			R	Ranger, Action	Go again				"Your next arrow attack this turn gains +3{p} and ""When this hits a hero, create an Inertia token under their control.""
 
 **Go again**"		Ranger Action	Shen Fei				No	S - OUT114 - N	/OUT114.png – OUT114 – N
-OUT115	OUT																							
+OUT115	OUT	Falcon Wing	1	0	3	3			C	Ranger, Action	Go again				"If Falcon Wing has an aim counter, it has +1 {p}.
+
+**Go again**"		Ranger Action	Alief Rusdiatama					S - OUT115 - N	/OUT115.png – OUT115 – N
 OUT116	OUT																							
 OUT117	OUT																							
 OUT118	OUT	Infecting Shot	1	1	5	3			C	Ranger, Action, Arrow, Attack					"If Infecting Shot has an aim counter, it has +1{p}.
@@ -391,7 +401,11 @@ OUT221	OUT
 OUT222	OUT																							
 OUT223	OUT																							
 OUT224	OUT																							
-OUT225	OUT																							
+OUT225	OUT	Scout the Periphery	1	0		2			C	Generic, Action	Go again				"Look at the top card of target hero's deck.
+
+The next attack action card you play from arsenal this turn gains +3{p}.
+
+**Go again**"		Generic Action	Raphael Pinna					S - OUT225 - N	/OUT225.png – OUT225 – N
 OUT226	OUT																							
 OUT227	OUT																							
 OUT228	OUT																							
