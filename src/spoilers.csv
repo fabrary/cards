@@ -274,7 +274,7 @@ OUT141	OUT	Blade Cuff				1			C	Assassin, Ninja, Equipment, Arms	Blade Break	Acti
 **Blade Break**"		Assassin / Ninja Equipment - Arms	Federico Musetti					S - OUT141 - N	/OUT141.png – OUT141 – N
 OUT142	OUT	Stab Wound	3	0	2	3			M	Assassin, Ninja, Action, Attack					When this hits a hero, they lose X{h}, where X is the number of times a dagger has hit this combat chain.		Assassin / Ninja Action - Attack	Narendra B Adi				No	S – OUT142 - N	/OUT142.png – OUT142 – N
 OUT143	OUT	Concealed Blade	3	0		3			M	Assassin, Ninja, Attack Reaction					Target Assassin or Ninja attack action card gains +1{p} and When this hits, equip a dagger from your inventory.		Assassin / Ninja Attack Reaction	Isuardi Therianto				No	S - OUT143 - N	/OUT143.png – OUT143 – N
-OUT144	OUT																							
+OUT144	OUT	Knives Out	3	0		3			M	Assassin, Ninja, Attack Reaction					Your daggers gain +1{p} this turn.		Assassin / Ninja Attack Reaction	Henrique Lindner				No	S - OUT144 - N	/OUT144.png – OUT144 – N
 OUT145	OUT	Bleed Out	1	2	4	2			R	Assassin, Ninja, Action, Attack	Go again				"Bleed Out costs X resource points less to play, where X is the total damage you've dealt with daggers this combat chain.
 
 **Go again**"		Assassin / Ninja Action - Attack	Marco González				No	S - OUT145 - N	/OUT145.png – OUT145 – N

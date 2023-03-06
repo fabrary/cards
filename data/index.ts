@@ -3997,6 +3997,47 @@ When this hits a hero, create a Frailty token under their control.`,
     
     
   },{
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "knives-out-blue",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImageName: "OUT144",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT144",
+      name: "OUT144",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Knives Out",
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT144"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT144",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin / Ninja Attack Reaction",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `Your daggers gain +1{p} this turn.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Marco González"],
     cardIdentifier: "bleed-out-red",
     classes: [Class.Assassin,Class.Ninja],
@@ -27101,7 +27142,8 @@ The next card you play this turn with an effect that deals arcane damage, instea
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Cindy Handoyo"],
     cardIdentifier: "aether-flare-yellow",
     classes: [Class.Wizard],
@@ -27156,8 +27198,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Cindy Handoyo"],
     cardIdentifier: "aether-flare-blue",
     classes: [Class.Wizard],
@@ -53797,7 +53838,8 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Immanuela Crovius"],
     cardIdentifier: "blood-drop-brocade",
     classes: [Class.Generic],
@@ -53844,8 +53886,7 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Alsu Nurieva"],
     cardIdentifier: "stubby-hammerers",
     classes: [Class.Generic],
@@ -78064,7 +78105,8 @@ Whenever you pitch a card, if you would gain exactly one {r}, instead destroy Ta
     
     
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Kanadekana"],
     cardIdentifier: "talisman-of-tithes-blue",
     classes: [Class.Generic],
@@ -78107,8 +78149,7 @@ If an opponent would draw 1 or more cards during your action phase, instead dest
     
     
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Dmitry Isakevitch"],
     cardIdentifier: "talisman-of-warfare-yellow",
     classes: [Class.Generic],

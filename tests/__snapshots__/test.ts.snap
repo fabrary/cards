@@ -16590,6 +16590,62 @@ If Buzz Bolt was **fused**, whenever an attack hits a hero this turn, it deals 1
 }
 `;
 
+exports[`Check for unintentional updates Buzzsaw Trap (buzzsaw-trap-blue) 1`] = `
+{
+  "artists": [
+    "Tanapon Wachirakul",
+  ],
+  "cardIdentifier": "buzzsaw-trap-blue",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT102",
+  "defense": 3,
+  "functionalText": "**Legendary Riptide Specialization**
+
+When this defends an attack with {p} greater than its base, the attack can't gain {p} this turn.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT102",
+      "name": "OUT102",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Legendary",
+    "Specialization",
+  ],
+  "name": "Buzzsaw Trap",
+  "pitch": 3,
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT102",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT102",
+  "specializations": [
+    "Riptide",
+  ],
+  "subtypes": [
+    "Trap",
+  ],
+  "typeText": "Ranger Defense Reaction - Trap",
+  "types": [
+    "Defense Reaction",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Cadaverous Contraband (cadaverous-contraband-blue) 1`] = `
 {
   "artists": [
@@ -35527,6 +35583,56 @@ exports[`Check for unintentional updates Fai, Rising Rebellion (fai-rising-rebel
   "typeText": "Draconic Ninja Hero",
   "types": [
     "Hero",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Falcon Wing (falcon-wing-red) 1`] = `
+{
+  "artists": [
+    "Alief Rusdiatama",
+  ],
+  "cardIdentifier": "falcon-wing-red",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT115",
+  "defense": 3,
+  "functionalText": "If Falcon Wing has an aim counter, it has +1 {p}.
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT115",
+      "name": "OUT115",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Falcon Wing",
+  "pitch": 1,
+  "power": 3,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT115",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT115",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Ranger Action",
+  "types": [
+    "Action",
   ],
 }
 `;
@@ -54745,6 +54851,58 @@ exports[`Check for unintentional updates Lace with Bloodrot (lace-with-bloodrot-
     "Outsiders",
   ],
   "specialImageName": "OUT112",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Ranger Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Lace with Frailty (lace-with-frailty-red) 1`] = `
+{
+  "artists": [
+    "Marco González",
+  ],
+  "cardIdentifier": "lace-with-frailty-red",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT113",
+  "defense": 2,
+  "functionalText": "Your next arrow attack this turn gains +3{p} and "When this hits a hero, create a Frailty token under their control."
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT113",
+      "name": "OUT113",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Lace with Frailty",
+  "pitch": 1,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT113",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT113",
   "subtypes": [
     "Non-Attack",
   ],
@@ -86069,6 +86227,57 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.",
 }
 `;
 
+exports[`Check for unintentional updates Scout the Periphery (scout-the-periphery-red) 1`] = `
+{
+  "artists": [
+    "Raphael Pinna",
+  ],
+  "cardIdentifier": "scout-the-periphery-red",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT225",
+  "defense": 2,
+  "functionalText": "Look at the top card of target hero's deck.
+
+The next attack action card you play from arsenal this turn gains +3{p}.
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT225",
+      "name": "OUT225",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Scout the Periphery",
+  "pitch": 1,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT225",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT225",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Generic Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Scramble Pulse (scramble-pulse-blue) 1`] = `
 {
   "artists": [
@@ -111653,6 +111862,59 @@ exports[`Check for unintentional updates Visit the Blacksmith (visit-the-blacksm
 }
 `;
 
+exports[`Check for unintentional updates Visit the Floating Dojo (visit-the-floating-dojo-blue) 1`] = `
+{
+  "artists": [
+    "Joseph Qiu",
+  ],
+  "cardIdentifier": "visit-the-floating-dojo-blue",
+  "classes": [
+    "Ninja",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT055",
+  "functionalText": "**Katsu Specialization**
+
+Put a Surging Strike and a card with **combo** from your graveyard on the top and/or bottom of your deck.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT055",
+      "name": "OUT055",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Specialization",
+    "Combo",
+  ],
+  "name": "Visit the Floating Dojo",
+  "pitch": 3,
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT055",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT055",
+  "specializations": [
+    "Katsu",
+  ],
+  "subtypes": [],
+  "typeText": "Ninja Instant",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Visit the Imperial Forge (visit-the-imperial-forge-blue) 1`] = `
 {
   "artists": [
@@ -113429,6 +113691,56 @@ exports[`Check for unintentional updates Wax On (wax-on-yellow) 1`] = `
   "typeText": "Ninja Defense Reaction",
   "types": [
     "Defense Reaction",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Wayfinder's Crest (wayfinders-crest) 1`] = `
+{
+  "artists": [
+    "Asur Miosa",
+  ],
+  "cardIdentifier": "wayfinders-crest",
+  "classes": [
+    "Ranger",
+  ],
+  "defaultImageName": "OUT099",
+  "defense": 1,
+  "functionalText": "When you defend with Wayfinder's Crest, look at the top card of target hero's deck.
+
+**Blade Break**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT099",
+      "name": "OUT099",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Blade Break",
+  ],
+  "name": "Wayfinder's Crest",
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT099",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT099",
+  "subtypes": [
+    "Head",
+  ],
+  "typeText": "Ranger Equipment - Head",
+  "types": [
+    "Equipment",
   ],
 }
 `;
