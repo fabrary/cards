@@ -5344,6 +5344,54 @@ exports[`Check for unintentional updates Back Alley Breakline (back-alley-breakl
 }
 `;
 
+exports[`Check for unintentional updates Back Heel Kick (back-heel-kick-blue) 1`] = `
+{
+  "artists": [
+    "Phu Thieu",
+  ],
+  "cardIdentifier": "back-heel-kick-blue",
+  "classes": [
+    "Ninja",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT067",
+  "defense": 3,
+  "functionalText": "**Combo** - If Twin Twisters was the last attack this combat chain, this has "If Back Heel Kick would gain {p}, instead it gains that much plus 1."",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT067",
+      "name": "OUT067",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Combo",
+  ],
+  "name": "Back Heel Kick",
+  "pitch": 3,
+  "power": 1,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT067",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT067",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Ninja Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Back Heel Kick (back-heel-kick-red) 1`] = `
 {
   "artists": [
@@ -5382,6 +5430,54 @@ exports[`Check for unintentional updates Back Heel Kick (back-heel-kick-red) 1`]
     "Outsiders",
   ],
   "specialImageName": "OUT065",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Ninja Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Back Heel Kick (back-heel-kick-yellow) 1`] = `
+{
+  "artists": [
+    "Phu Thieu",
+  ],
+  "cardIdentifier": "back-heel-kick-yellow",
+  "classes": [
+    "Ninja",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT066",
+  "defense": 3,
+  "functionalText": "**Combo** - If Twin Twisters was the last attack this combat chain, this has "If Back Heel Kick would gain {p}, instead it gains that much plus 1."",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT066",
+      "name": "OUT066",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Combo",
+  ],
+  "name": "Back Heel Kick",
+  "pitch": 2,
+  "power": 2,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT066",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT066",
   "subtypes": [
     "Attack",
   ],
@@ -5965,6 +6061,7 @@ exports[`Check for unintentional updates Barbed Undertow (barbed-undertow-red) 1
   "specialImageName": "OUT101",
   "subtypes": [
     "Attack",
+    "Arrow",
   ],
   "typeText": "Ranger Action - Arrow Attack",
   "types": [
@@ -6996,6 +7093,56 @@ exports[`Check for unintentional updates Battlefield Blitz (battlefield-blitz-ye
 }
 `;
 
+exports[`Check for unintentional updates Be Like Water (be-like-water-blue) 1`] = `
+{
+  "artists": [
+    "Enmoire",
+  ],
+  "cardIdentifier": "be-like-water-blue",
+  "classes": [
+    "Ninja",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT070.width-450",
+  "defense": 2,
+  "functionalText": "When this hits, you may pay {r}. If you do, choose Head Jab, Surging Strike, or Twin Twisters. This gains the chosen name.
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT070",
+      "name": "OUT070.width-450",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Be Like Water",
+  "pitch": 3,
+  "power": 1,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT070",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT070.width-450",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Ninja Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Be Like Water (be-like-water-red) 1`] = `
 {
   "artists": [
@@ -7036,6 +7183,56 @@ exports[`Check for unintentional updates Be Like Water (be-like-water-red) 1`] =
     "Outsiders",
   ],
   "specialImageName": "OUT068.width-450",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Ninja Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Be Like Water (be-like-water-yellow) 1`] = `
+{
+  "artists": [
+    "Enmoire",
+  ],
+  "cardIdentifier": "be-like-water-yellow",
+  "classes": [
+    "Ninja",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT069.width-450",
+  "defense": 2,
+  "functionalText": "When this hits, you may pay {r}. If you do, choose Head Jab, Surging Strike, or Twin Twisters. This gains the chosen name.
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT069",
+      "name": "OUT069.width-450",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Be Like Water",
+  "pitch": 2,
+  "power": 2,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT069",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT069.width-450",
   "subtypes": [
     "Attack",
   ],
@@ -9146,6 +9343,60 @@ Deal X arcane damage to target hero, where X is the amount of arcane damage you 
 }
 `;
 
+exports[`Check for unintentional updates Bleed Out (bleed-out-blue) 1`] = `
+{
+  "artists": [
+    "Marco González",
+  ],
+  "cardIdentifier": "bleed-out-blue",
+  "classes": [
+    "Assassin",
+    "Ninja",
+  ],
+  "cost": 2,
+  "defaultImageName": "OUT147",
+  "defense": 2,
+  "functionalText": "Bleed Out costs X resource points less to play, where X is the total damage you've dealt with daggers this combat chain.
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT147",
+      "name": "OUT147",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Bleed Out",
+  "pitch": 3,
+  "power": 2,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT147",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT147",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Assassin / Ninja Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Bleed Out (bleed-out-red) 1`] = `
 {
   "artists": [
@@ -9190,6 +9441,60 @@ exports[`Check for unintentional updates Bleed Out (bleed-out-red) 1`] = `
     "Outsiders",
   ],
   "specialImageName": "OUT145",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Assassin / Ninja Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Bleed Out (bleed-out-yellow) 1`] = `
+{
+  "artists": [
+    "Marco González",
+  ],
+  "cardIdentifier": "bleed-out-yellow",
+  "classes": [
+    "Assassin",
+    "Ninja",
+  ],
+  "cost": 2,
+  "defaultImageName": "OUT146",
+  "defense": 2,
+  "functionalText": "Bleed Out costs X resource points less to play, where X is the total damage you've dealt with daggers this combat chain.
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT146",
+      "name": "OUT146",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Bleed Out",
+  "pitch": 2,
+  "power": 3,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT146",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT146",
   "subtypes": [
     "Attack",
   ],
@@ -12814,6 +13119,58 @@ exports[`Check for unintentional updates Boltyn (boltyn) 1`] = `
 }
 `;
 
+exports[`Check for unintentional updates Bonds of Ancestry (bonds-of-ancestry-blue) 1`] = `
+{
+  "artists": [
+    "Faizal Fikri",
+  ],
+  "cardIdentifier": "bonds-of-ancestry-blue",
+  "classes": [
+    "Ninja",
+  ],
+  "cost": 2,
+  "defaultImageName": "OUT058.width-450",
+  "defense": 3,
+  "functionalText": "**Combo** - If a card with Gustwave in its name was the last attack this combat chain, this costs {r}{r} less to play, and has **go again** and "When this attacks, you may banish a card with **combo** from your graveyard. If you do, search your deck for a card with the same name, banish it, then shuffle. You may play it this combat chain."",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT058",
+      "name": "OUT058.width-450",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Combo",
+    "Go again",
+  ],
+  "name": "Bonds of Ancestry",
+  "pitch": 3,
+  "power": 2,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT058",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT058.width-450",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Ninja Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Bonds of Ancestry (bonds-of-ancestry-red) 1`] = `
 {
   "artists": [
@@ -12856,6 +13213,58 @@ exports[`Check for unintentional updates Bonds of Ancestry (bonds-of-ancestry-re
     "Outsiders",
   ],
   "specialImageName": "OUT056.width-450",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Ninja Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Bonds of Ancestry (bonds-of-ancestry-yellow) 1`] = `
+{
+  "artists": [
+    "Faizal Fikri",
+  ],
+  "cardIdentifier": "bonds-of-ancestry-yellow",
+  "classes": [
+    "Ninja",
+  ],
+  "cost": 2,
+  "defaultImageName": "OUT057.width-450",
+  "defense": 3,
+  "functionalText": "**Combo** - If a card with Gustwave in its name was the last attack this combat chain, this costs {r}{r} less to play, and has **go again** and "When this attacks, you may banish a card with **combo** from your graveyard. If you do, search your deck for a card with the same name, banish it, then shuffle. You may play it this combat chain."",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT057",
+      "name": "OUT057.width-450",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Combo",
+    "Go again",
+  ],
+  "name": "Bonds of Ancestry",
+  "pitch": 2,
+  "power": 3,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT057",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT057.width-450",
   "subtypes": [
     "Attack",
   ],
@@ -15557,6 +15966,129 @@ exports[`Check for unintentional updates Brothers in Arms (brothers-in-arms-yell
   "typeText": "Generic Action – Attack",
   "types": [
     "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Brush Off (brush-off-blue) 1`] = `
+{
+  "artists": [
+    "Narendra B Adi",
+  ],
+  "cardIdentifier": "brush-off-blue",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT230",
+  "functionalText": "The next time you would be dealt 1 damage this turn, prevent it.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT230",
+      "name": "OUT230",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Brush Off",
+  "pitch": 3,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT230",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT230",
+  "subtypes": [],
+  "typeText": "Generic Instant",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Brush Off (brush-off-red) 1`] = `
+{
+  "artists": [
+    "Narendra B Adi",
+  ],
+  "cardIdentifier": "brush-off-red",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT228",
+  "functionalText": "The next time you would be dealt 3 damage this turn, prevent it.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT228",
+      "name": "OUT228",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Brush Off",
+  "pitch": 1,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT228",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT228",
+  "subtypes": [],
+  "typeText": "Generic Instant",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Brush Off (brush-off-yellow) 1`] = `
+{
+  "artists": [
+    "Narendra B Adi",
+  ],
+  "cardIdentifier": "brush-off-yellow",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT229",
+  "functionalText": "The next time you would be dealt 2 damage this turn, prevent it.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT229",
+      "name": "OUT229",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Brush Off",
+  "pitch": 2,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT229",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT229",
+  "subtypes": [],
+  "typeText": "Generic Instant",
+  "types": [
+    "Instant",
   ],
 }
 `;
@@ -20486,6 +21018,12 @@ exports[`Check for unintentional updates Come to Fight (come-to-fight-blue) 1`] 
       "name": "U-ARC205",
       "set": "Arcane Rising",
     },
+    {
+      "edition": "Promo",
+      "identifier": "OUT224",
+      "name": "OUT224",
+      "set": "Outsiders",
+    },
   ],
   "keywords": [
     "Go again",
@@ -20500,11 +21038,13 @@ exports[`Check for unintentional updates Come to Fight (come-to-fight-blue) 1`] 
     "RVD024",
     "1HP416",
     "ARC205",
+    "OUT224",
   ],
   "sets": [
     "Classic Battles: Rhinar vs Dorinthea",
     "History Pack 1",
     "Arcane Rising",
+    "Outsiders",
   ],
   "specialImageName": "ARC205-RF",
   "subtypes": [
@@ -20558,6 +21098,12 @@ exports[`Check for unintentional updates Come to Fight (come-to-fight-red) 1`] =
       "name": "U-ARC203",
       "set": "Arcane Rising",
     },
+    {
+      "edition": "Promo",
+      "identifier": "OUT222",
+      "name": "OUT222",
+      "set": "Outsiders",
+    },
   ],
   "keywords": [
     "Go again",
@@ -20571,10 +21117,12 @@ exports[`Check for unintentional updates Come to Fight (come-to-fight-red) 1`] =
   "setIdentifiers": [
     "1HP414",
     "ARC203",
+    "OUT222",
   ],
   "sets": [
     "History Pack 1",
     "Arcane Rising",
+    "Outsiders",
   ],
   "specialImageName": "ARC203-RF",
   "subtypes": [
@@ -20628,6 +21176,12 @@ exports[`Check for unintentional updates Come to Fight (come-to-fight-yellow) 1`
       "name": "U-ARC204",
       "set": "Arcane Rising",
     },
+    {
+      "edition": "Promo",
+      "identifier": "OUT223",
+      "name": "OUT223",
+      "set": "Outsiders",
+    },
   ],
   "keywords": [
     "Go again",
@@ -20641,10 +21195,12 @@ exports[`Check for unintentional updates Come to Fight (come-to-fight-yellow) 1`
   "setIdentifiers": [
     "1HP415",
     "ARC204",
+    "OUT223",
   ],
   "sets": [
     "History Pack 1",
     "Arcane Rising",
+    "Outsiders",
   ],
   "specialImageName": "ARC204-RF",
   "subtypes": [
@@ -21979,6 +22535,12 @@ exports[`Check for unintentional updates Cracked Bauble (cracked-bauble-yellow) 
       "name": "UPR224",
       "set": "Uprising",
     },
+    {
+      "edition": "Promo",
+      "identifier": "OUT238",
+      "name": "OUT238",
+      "set": "Outsiders",
+    },
   ],
   "name": "Cracked Bauble",
   "pitch": 2,
@@ -21996,6 +22558,7 @@ exports[`Check for unintentional updates Cracked Bauble (cracked-bauble-yellow) 
     "MON306",
     "ELE237",
     "UPR224",
+    "OUT238",
   ],
   "sets": [
     "Promos",
@@ -22005,6 +22568,7 @@ exports[`Check for unintentional updates Cracked Bauble (cracked-bauble-yellow) 
     "Monarch",
     "Tales of Aria",
     "Uprising",
+    "Outsiders",
   ],
   "specialImageName": "ARC218.width-450",
   "subtypes": [],
@@ -23959,6 +24523,51 @@ exports[`Check for unintentional updates Cryptic Crossing (cryptic-crossing-yell
 }
 `;
 
+exports[`Check for unintentional updates Cut Down to Size (cut-down-to-size-blue) 1`] = `
+{
+  "artists": [
+    "Phu Thieu",
+  ],
+  "cardIdentifier": "cut-down-to-size-blue",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 2,
+  "defaultImageName": "OUT203",
+  "defense": 2,
+  "functionalText": "When this hits a hero, if they have 4 or more cards in hand, they discard a card.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT203",
+      "name": "OUT203",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Cut Down to Size",
+  "pitch": 3,
+  "power": 4,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT203",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT203",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Cut Down to Size (cut-down-to-size-red) 1`] = `
 {
   "artists": [
@@ -23994,6 +24603,51 @@ exports[`Check for unintentional updates Cut Down to Size (cut-down-to-size-red)
     "Outsiders",
   ],
   "specialImageName": "OUT201",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Cut Down to Size (cut-down-to-size-yellow) 1`] = `
+{
+  "artists": [
+    "Phu Thieu",
+  ],
+  "cardIdentifier": "cut-down-to-size-yellow",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 2,
+  "defaultImageName": "OUT202",
+  "defense": 2,
+  "functionalText": "When this hits a hero, if they have 4 or more cards in hand, they discard a card.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT202",
+      "name": "OUT202",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Cut Down to Size",
+  "pitch": 2,
+  "power": 5,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT202",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT202",
   "subtypes": [
     "Attack",
   ],
@@ -25170,6 +25824,156 @@ If it has an aim counter, it gains "When this hits a hero, look at their hand an
 }
 `;
 
+exports[`Check for unintentional updates Deadly Duo (deadly-duo-blue) 1`] = `
+{
+  "artists": [
+    "Erick Efata",
+  ],
+  "cardIdentifier": "deadly-duo-blue",
+  "classes": [
+    "Ninja",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT073",
+  "defense": 2,
+  "functionalText": "When this hits, the next attack action card with 2 or less base {p} you play this combat chain gains +2 {p}.
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT073",
+      "name": "OUT073",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Deadly Duo",
+  "pitch": 3,
+  "power": 1,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT073",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT073",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Ninja Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Deadly Duo (deadly-duo-red) 1`] = `
+{
+  "artists": [
+    "Erick Efata",
+  ],
+  "cardIdentifier": "deadly-duo-red",
+  "classes": [
+    "Ninja",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT071",
+  "defense": 2,
+  "functionalText": "When this hits, the next attack action card with 2 or less base {p} you play this combat chain gains +2 {p}.
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT071",
+      "name": "OUT071",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Deadly Duo",
+  "pitch": 1,
+  "power": 3,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT071",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT071",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Ninja Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Deadly Duo (deadly-duo-yellow) 1`] = `
+{
+  "artists": [
+    "Erick Efata",
+  ],
+  "cardIdentifier": "deadly-duo-yellow",
+  "classes": [
+    "Ninja",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT072",
+  "defense": 2,
+  "functionalText": "When this hits, the next attack action card with 2 or less base {p} you play this combat chain gains +2 {p}.
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT072",
+      "name": "OUT072",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Deadly Duo",
+  "pitch": 2,
+  "power": 2,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT072",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT072",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Ninja Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Deadwood Rumbler (deadwood-rumbler-blue) 1`] = `
 {
   "artists": [
@@ -26240,6 +27044,57 @@ exports[`Check for unintentional updates Demolition Crew (demolition-crew-yellow
 }
 `;
 
+exports[`Check for unintentional updates Descendent Gustwave (descendent-gustwave-blue) 1`] = `
+{
+  "artists": [
+    "Faizal Fikri",
+  ],
+  "cardIdentifier": "descendent-gustwave-blue",
+  "classes": [
+    "Ninja",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT076",
+  "defense": 2,
+  "functionalText": "**Combo** - If Surging Strike was the last attack this combat chain, this costs {r} less to play and has +2{p}.
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT076",
+      "name": "OUT076",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Combo",
+    "Go again",
+  ],
+  "name": "Descendent Gustwave",
+  "pitch": 3,
+  "power": 1,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT076",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT076",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Ninja Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Descendent Gustwave (descendent-gustwave-red) 1`] = `
 {
   "artists": [
@@ -26291,6 +27146,102 @@ exports[`Check for unintentional updates Descendent Gustwave (descendent-gustwav
 }
 `;
 
+exports[`Check for unintentional updates Descendent Gustwave (descendent-gustwave-yellow) 1`] = `
+{
+  "artists": [
+    "Faizal Fikri",
+  ],
+  "cardIdentifier": "descendent-gustwave-yellow",
+  "classes": [
+    "Ninja",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT075",
+  "defense": 2,
+  "functionalText": "**Combo** - If Surging Strike was the last attack this combat chain, this costs {r} less to play and has +2{p}.
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT075",
+      "name": "OUT075",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Combo",
+    "Go again",
+  ],
+  "name": "Descendent Gustwave",
+  "pitch": 2,
+  "power": 2,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT075",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT075",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Ninja Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Destructive Deliberation (destructive-deliberation-blue) 1`] = `
+{
+  "artists": [
+    "Saad Irfan",
+  ],
+  "cardIdentifier": "destructive-deliberation-blue",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 2,
+  "defaultImageName": "OUT206",
+  "defense": 2,
+  "functionalText": "When this hits a hero, create a Ponder token.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT206",
+      "name": "OUT206",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Destructive Deliberation",
+  "pitch": 3,
+  "power": 3,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT206",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT206",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Destructive Deliberation (destructive-deliberation-red) 1`] = `
 {
   "artists": [
@@ -26330,6 +27281,51 @@ exports[`Check for unintentional updates Destructive Deliberation (destructive-d
     "Attack",
   ],
   "typeText": "Generic Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Destructive Deliberation (destructive-deliberation-yellow) 1`] = `
+{
+  "artists": [
+    "Saad Irfan",
+  ],
+  "cardIdentifier": "destructive-deliberation-yellow",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 2,
+  "defaultImageName": "OUT205",
+  "defense": 2,
+  "functionalText": "When this hits a hero, create a Ponder token.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT205",
+      "name": "OUT205",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Destructive Deliberation",
+  "pitch": 2,
+  "power": 4,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT205",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT205",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
   "types": [
     "Action",
   ],
@@ -35587,6 +36583,57 @@ exports[`Check for unintentional updates Fai, Rising Rebellion (fai-rising-rebel
 }
 `;
 
+exports[`Check for unintentional updates Falcon Wing (falcon-wing-blue) 1`] = `
+{
+  "artists": [
+    "Alief Rusdiatama",
+  ],
+  "cardIdentifier": "falcon-wing-blue",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT117",
+  "defense": 3,
+  "functionalText": "If Falcon Wing has an aim counter, it has +1{p}.
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT117",
+      "name": "OUT117",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Falcon Wing",
+  "pitch": 3,
+  "power": 1,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT117",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT117",
+  "subtypes": [
+    "Attack",
+    "Arrow",
+  ],
+  "typeText": "Ranger Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Falcon Wing (falcon-wing-red) 1`] = `
 {
   "artists": [
@@ -35628,7 +36675,59 @@ exports[`Check for unintentional updates Falcon Wing (falcon-wing-red) 1`] = `
   ],
   "specialImageName": "OUT115",
   "subtypes": [
-    "Non-Attack",
+    "Attack",
+    "Arrow",
+  ],
+  "typeText": "Ranger Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Falcon Wing (falcon-wing-yellow) 1`] = `
+{
+  "artists": [
+    "Alief Rusdiatama",
+  ],
+  "cardIdentifier": "falcon-wing-yellow",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT116",
+  "defense": 3,
+  "functionalText": "If Falcon Wing has an aim counter, it has +1{p}.
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT116",
+      "name": "OUT116",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Falcon Wing",
+  "pitch": 2,
+  "power": 2,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT116",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT116",
+  "subtypes": [
+    "Attack",
+    "Arrow",
   ],
   "typeText": "Ranger Action",
   "types": [
@@ -36361,6 +37460,141 @@ If Fervent Forerunner is played from arsenal, it gains **go again**.",
 }
 `;
 
+exports[`Check for unintentional updates Fiesty Locals (fiesty-locals-blue) 1`] = `
+{
+  "artists": [
+    "Hilary Purnamasari",
+  ],
+  "cardIdentifier": "fiesty-locals-blue",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT209",
+  "defense": 2,
+  "functionalText": "If this is defended by an action card, this has +2{p}.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT209",
+      "name": "OUT209",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Fiesty Locals",
+  "pitch": 3,
+  "power": 1,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT209",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT209",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Fiesty Locals (fiesty-locals-red) 1`] = `
+{
+  "artists": [
+    "Hilary Purnamasari",
+  ],
+  "cardIdentifier": "fiesty-locals-red",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT207",
+  "defense": 2,
+  "functionalText": "If this is defended by an action card, this has +2{p}.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT207",
+      "name": "OUT207",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Fiesty Locals",
+  "pitch": 1,
+  "power": 3,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT207",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT207",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Fiesty Locals (fiesty-locals-yellow) 1`] = `
+{
+  "artists": [
+    "Hilary Purnamasari",
+  ],
+  "cardIdentifier": "fiesty-locals-yellow",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT208",
+  "defense": 2,
+  "functionalText": "If this is defended by an action card, this has +2{p}.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT208",
+      "name": "OUT208",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Fiesty Locals",
+  "pitch": 2,
+  "power": 2,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT208",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT208",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Find Center (find-center-blue) 1`] = `
 {
   "artists": [
@@ -36470,6 +37704,47 @@ exports[`Check for unintentional updates Firebreathing (firebreathing-red) 1`] =
   "typeText": "Generic Action – Attack",
   "types": [
     "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Fistcuffs (fistcuffs) 1`] = `
+{
+  "artists": [
+    "Maria Mishina",
+  ],
+  "cardIdentifier": "fistcuffs",
+  "classes": [
+    "Generic",
+  ],
+  "defaultImageName": "OUT181",
+  "functionalText": "**Attack Reaction** - {r}{r}, destroy Fistcuffs: Target attack action card gains +1{p}.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT181",
+      "name": "OUT181",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Fistcuffs",
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT181",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT181",
+  "subtypes": [
+    "Arms",
+  ],
+  "typeText": "Generic Equipment - Arms",
+  "types": [
+    "Equipment",
   ],
 }
 `;
@@ -37253,6 +38528,50 @@ When this hits a hero, banish the top card of their deck.",
   "typeText": "Assassin Action – Attack",
   "types": [
     "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Fleet Foot Sandles (fleet-foot-sandles) 1`] = `
+{
+  "artists": [
+    "Kalashnikova N.",
+  ],
+  "cardIdentifier": "fleet-foot-sandles",
+  "classes": [
+    "Generic",
+  ],
+  "defaultImageName": "OUT182",
+  "functionalText": "**Attack Reaction** - Destroy Fleet Foot Sandles: Target attack with 1 or less base {p} gains **go again**.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT182",
+      "name": "OUT182",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Fleet Foot Sandles",
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT182",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT182",
+  "subtypes": [
+    "Legs",
+  ],
+  "typeText": "Generic Equipment - Legs",
+  "types": [
+    "Equipment",
   ],
 }
 `;
@@ -39608,6 +40927,141 @@ If Frazzle was **fused**, whenever an attack would deal damage this turn, instea
     "Elemental",
   ],
   "typeText": "Elemental Ranger Action – Arrow Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Freewheeling Renegades (freewheeling-renegades-blue) 1`] = `
+{
+  "artists": [
+    "Nikolay Moskvin",
+  ],
+  "cardIdentifier": "freewheeling-renegades-blue",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT212",
+  "defense": 2,
+  "functionalText": "If this is defended by an action card, this has -2{p}.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT212",
+      "name": "OUT212",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Freewheeling Renegades",
+  "pitch": 3,
+  "power": 4,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT212",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT212",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Freewheeling Renegades (freewheeling-renegades-red) 1`] = `
+{
+  "artists": [
+    "Nikolay Moskvin",
+  ],
+  "cardIdentifier": "freewheeling-renegades-red",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT210",
+  "defense": 2,
+  "functionalText": "If this is defended by an action card, this has -2{p}.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT210",
+      "name": "OUT210",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Freewheeling Renegades",
+  "pitch": 1,
+  "power": 6,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT210",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT210",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Freewheeling Renegades (freewheeling-renegades-yellow) 1`] = `
+{
+  "artists": [
+    "Nikolay Moskvin",
+  ],
+  "cardIdentifier": "freewheeling-renegades-yellow",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT211",
+  "defense": 2,
+  "functionalText": "If this is defended by an action card, this has -2{p}.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT211",
+      "name": "OUT211",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Freewheeling Renegades",
+  "pitch": 2,
+  "power": 5,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT211",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT211",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
   "types": [
     "Action",
   ],
@@ -43221,6 +44675,12 @@ If you have a card with cost 0 in your pitch zone, Harmonized Kodachi has **go a
       "name": "U-CRU049",
       "set": "Crucible of War",
     },
+    {
+      "edition": "Promo",
+      "identifier": "OUT048",
+      "name": "OUT048",
+      "set": "Outsiders",
+    },
   ],
   "keywords": [
     "Go again",
@@ -43244,6 +44704,7 @@ If you have a card with cost 0 in your pitch zone, Harmonized Kodachi has **go a
     "WTR078",
     "CRU048",
     "CRU049",
+    "OUT048",
   ],
   "sets": [
     "Promos",
@@ -43252,6 +44713,7 @@ If you have a card with cost 0 in your pitch zone, Harmonized Kodachi has **go a
     "History Pack 1",
     "Welcome to Rathe",
     "Crucible of War",
+    "Outsiders",
   ],
   "specialImageName": "CRU48.width-450",
   "subtypes": [
@@ -43511,6 +44973,12 @@ exports[`Check for unintentional updates Head Jab (head-jab-blue) 1`] = `
       "name": "U-WTR100",
       "set": "Welcome to Rathe",
     },
+    {
+      "edition": "Promo",
+      "identifier": "OUT079",
+      "name": "OUT079",
+      "set": "Outsiders",
+    },
   ],
   "keywords": [
     "Go again",
@@ -43528,12 +44996,14 @@ exports[`Check for unintentional updates Head Jab (head-jab-blue) 1`] = `
     "IRA008",
     "KSU023",
     "WTR100",
+    "OUT079",
   ],
   "sets": [
     "Promos",
     "Ira Welcome Deck",
     "Katsu Hero Deck",
     "Welcome to Rathe",
+    "Outsiders",
   ],
   "specialImageName": "LGS019",
   "subtypes": [
@@ -43586,6 +45056,12 @@ exports[`Check for unintentional updates Head Jab (head-jab-red) 1`] = `
       "name": "U-WTR098",
       "set": "Welcome to Rathe",
     },
+    {
+      "edition": "Promo",
+      "identifier": "OUT077",
+      "name": "OUT077",
+      "set": "Outsiders",
+    },
   ],
   "keywords": [
     "Go again",
@@ -43602,11 +45078,13 @@ exports[`Check for unintentional updates Head Jab (head-jab-red) 1`] = `
     "LGS017",
     "KSU011",
     "WTR098",
+    "OUT077",
   ],
   "sets": [
     "Promos",
     "Katsu Hero Deck",
     "Welcome to Rathe",
+    "Outsiders",
   ],
   "specialImageName": "LGS017",
   "subtypes": [
@@ -43653,6 +45131,12 @@ exports[`Check for unintentional updates Head Jab (head-jab-yellow) 1`] = `
       "name": "U-WTR099",
       "set": "Welcome to Rathe",
     },
+    {
+      "edition": "Promo",
+      "identifier": "OUT078",
+      "name": "OUT078",
+      "set": "Outsiders",
+    },
   ],
   "keywords": [
     "Go again",
@@ -43668,10 +45152,12 @@ exports[`Check for unintentional updates Head Jab (head-jab-yellow) 1`] = `
   "setIdentifiers": [
     "LGS018",
     "WTR099",
+    "OUT078",
   ],
   "sets": [
     "Promos",
     "Welcome to Rathe",
+    "Outsiders",
   ],
   "specialImageName": "LGS018",
   "subtypes": [
@@ -47534,6 +49020,54 @@ The next attack action card you play this turn gains +2{p}.
 }
 `;
 
+exports[`Check for unintentional updates Humble (humble-blue) 1`] = `
+{
+  "artists": [
+    "Henrique Lindner",
+  ],
+  "cardIdentifier": "humble-blue",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 2,
+  "defaultImageName": "OUT191",
+  "defense": 2,
+  "functionalText": "When this hits a hero, that hero loses all abilities until the end of their next turn.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT191",
+      "name": "OUT191",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Humble",
+  "pitch": 3,
+  "power": 4,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT191",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT191",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Humble (humble-red) 1`] = `
 {
   "artists": [
@@ -47572,6 +49106,54 @@ exports[`Check for unintentional updates Humble (humble-red) 1`] = `
     "Outsiders",
   ],
   "specialImageName": "OUT189",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Humble (humble-yellow) 1`] = `
+{
+  "artists": [
+    "Henrique Lindner",
+  ],
+  "cardIdentifier": "humble-yellow",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 2,
+  "defaultImageName": "OUT190",
+  "defense": 2,
+  "functionalText": "When this hits a hero, that hero loses all abilities until the end of their next turn.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT190",
+      "name": "OUT190",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Humble",
+  "pitch": 2,
+  "power": 5,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT190",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT190",
   "subtypes": [
     "Attack",
   ],
@@ -48015,6 +49597,57 @@ exports[`Check for unintentional updates Hungering Slaughterbeast (hungering-sla
 }
 `;
 
+exports[`Check for unintentional updates Hurl (hurl-blue) 1`] = `
+{
+  "artists": [
+    "Tanapon Wachirakul",
+  ],
+  "cardIdentifier": "hurl-blue",
+  "classes": [
+    "Assassin",
+    "Ninja",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT150",
+  "defense": 2,
+  "functionalText": "As an additional cost to play Hurl, you may pay {r}. When you do, it gains "When this attack, target dagger you control deals 1 damage to target hero. If damage is dealth this way, the dagger has hit. Destroy the dagger."
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT150",
+      "name": "OUT150",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Hurl",
+  "pitch": 3,
+  "power": 1,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT150",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT150",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Assassin / Ninja Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Hurl (hurl-red) 1`] = `
 {
   "artists": [
@@ -48056,6 +49689,57 @@ exports[`Check for unintentional updates Hurl (hurl-red) 1`] = `
     "Outsiders",
   ],
   "specialImageName": "OUT148",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Assassin / Ninja Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Hurl (hurl-yellow) 1`] = `
+{
+  "artists": [
+    "Tanapon Wachirakul",
+  ],
+  "cardIdentifier": "hurl-yellow",
+  "classes": [
+    "Assassin",
+    "Ninja",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT149",
+  "defense": 2,
+  "functionalText": "As an additional cost to play Hurl, you may pay {r}. When you do, it gains "When this attack, target dagger you control deals 1 damage to target hero. If damage is dealth this way, the dagger has hit. Destroy the dagger."
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT149",
+      "name": "OUT149",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Hurl",
+  "pitch": 2,
+  "power": 2,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT149",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT149",
   "subtypes": [
     "Attack",
   ],
@@ -50512,6 +52196,54 @@ When this hits a hero, create a Bloodrot Pox token under their control.",
 }
 `;
 
+exports[`Check for unintentional updates Infecting Shot (infecting-shot-blue) 1`] = `
+{
+  "artists": [
+    "Kalashnikova N.",
+  ],
+  "cardIdentifier": "infecting-shot-blue",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT120",
+  "defense": 3,
+  "functionalText": "If Infecting Shot has an aim counter, it has +1{p}.
+
+When this hits a hero, create a Bloodrot Pox token under their control.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT120",
+      "name": "OUT120",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Infecting Shot",
+  "pitch": 3,
+  "power": 3,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT120",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT120",
+  "subtypes": [
+    "Attack",
+    "Arrow",
+  ],
+  "typeText": "Ranger Action - Arrow Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Infecting Shot (infecting-shot-red) 1`] = `
 {
   "artists": [
@@ -50554,6 +52286,198 @@ When this hits a hero, create a Bloodrot Pox token under their control.",
     "Arrow",
   ],
   "typeText": "Ranger Action - Arrow Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Infecting Shot (infecting-shot-yellow) 1`] = `
+{
+  "artists": [
+    "Kalashnikova N.",
+  ],
+  "cardIdentifier": "infecting-shot-yellow",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT119",
+  "defense": 3,
+  "functionalText": "If Infecting Shot has an aim counter, it has +1{p}.
+
+When this hits a hero, create a Bloodrot Pox token under their control.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT119",
+      "name": "OUT119",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Infecting Shot",
+  "pitch": 2,
+  "power": 4,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT119",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT119",
+  "subtypes": [
+    "Attack",
+    "Arrow",
+  ],
+  "typeText": "Ranger Action - Arrow Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Infectious Host (infectious-host-blue) 1`] = `
+{
+  "artists": [
+    "Joseph Qiu",
+  ],
+  "cardIdentifier": "infectious-host-blue",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT194",
+  "defense": 2,
+  "functionalText": "When this attacks a hero, if you control a Frailty token, create a Frailty token under their control, then repeat for Inertia and Bloodrot Pox.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT194",
+      "name": "OUT194",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Infectious Host",
+  "pitch": 3,
+  "power": 2,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT194",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT194",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Infectious Host (infectious-host-red) 1`] = `
+{
+  "artists": [
+    "Joseph Qiu",
+  ],
+  "cardIdentifier": "infectious-host-red",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT192",
+  "defense": 2,
+  "functionalText": "When this attacks a hero, if you control a Frailty token, create a Frailty token under their control, then repeat for Inertia and Bloodrot Pox.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT192",
+      "name": "OUT192",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Infectious Host",
+  "pitch": 1,
+  "power": 4,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT192",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT192",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Infectious Host (infectious-host-yellow) 1`] = `
+{
+  "artists": [
+    "Joseph Qiu",
+  ],
+  "cardIdentifier": "infectious-host-yellow",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT193",
+  "defense": 2,
+  "functionalText": "When this attacks a hero, if you control a Frailty token, create a Frailty token under their control, then repeat for Inertia and Bloodrot Pox.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT193",
+      "name": "OUT193",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Infectious Host",
+  "pitch": 2,
+  "power": 3,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT193",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT193",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
   "types": [
     "Action",
   ],
@@ -54641,6 +56565,52 @@ Search your deck for a card with Amulet, Potion, or Talisman in its name, put it
 }
 `;
 
+exports[`Check for unintentional updates Knives Out (knives-out-blue) 1`] = `
+{
+  "artists": [
+    "Henrique Lindner",
+  ],
+  "cardIdentifier": "knives-out-blue",
+  "classes": [
+    "Assassin",
+    "Ninja",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT144",
+  "defense": 3,
+  "functionalText": "Your daggers gain +1{p} this turn.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT144",
+      "name": "OUT144",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Knives Out",
+  "pitch": 3,
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT144",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT144",
+  "subtypes": [],
+  "typeText": "Assassin / Ninja Attack Reaction",
+  "types": [
+    "Attack Reaction",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Korshem, Crossroad of Elements (korshem-crossroad-of-elements) 1`] = `
 {
   "artists": [
@@ -57314,6 +59284,57 @@ exports[`Check for unintentional updates Long Shot (long-shot-yellow) 1`] = `
 }
 `;
 
+exports[`Check for unintentional updates Looking for a Scrap (looking-for-a-scrap-blue) 1`] = `
+{
+  "artists": [
+    "Shen Fei",
+  ],
+  "cardIdentifier": "looking-for-a-scrap-blue",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT197",
+  "defense": 2,
+  "functionalText": "As an additional cost to play Looking for a Scrap, you may banish a card with 1{p} from your graveyard. When you do, this gains +1{p} and **go again**.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT197",
+      "name": "OUT197",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Looking for a Scrap",
+  "pitch": 3,
+  "power": 2,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT197",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT197",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Looking for a Scrap (looking-for-a-scrap-red) 1`] = `
 {
   "artists": [
@@ -57355,6 +59376,57 @@ exports[`Check for unintentional updates Looking for a Scrap (looking-for-a-scra
     "Outsiders",
   ],
   "specialImageName": "OUT195",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Looking for a Scrap (looking-for-a-scrap-yellow) 1`] = `
+{
+  "artists": [
+    "Shen Fei",
+  ],
+  "cardIdentifier": "looking-for-a-scrap-yellow",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT196",
+  "defense": 2,
+  "functionalText": "As an additional cost to play Looking for a Scrap, you may banish a card with 1{p} from your graveyard. When you do, this gains +1{p} and **go again**.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT196",
+      "name": "OUT196",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Looking for a Scrap",
+  "pitch": 2,
+  "power": 3,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT196",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT196",
   "subtypes": [
     "Attack",
   ],
@@ -58457,6 +60529,53 @@ exports[`Check for unintentional updates Mage Master Boots (mage-master-boots) 1
 }
 `;
 
+exports[`Check for unintentional updates Malign (malign-blue) 1`] = `
+{
+  "artists": [
+    "Othon Nikolaidis",
+  ],
+  "cardIdentifier": "malign-blue",
+  "classes": [
+    "Assassin",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT032",
+  "defense": 3,
+  "functionalText": "**Stealth**
+
+Damage that would be dealt by Malign can't be prevented.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT032",
+      "name": "OUT032",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Malign",
+  "pitch": 3,
+  "power": 1,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT032",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT032",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Assassin Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Malign (malign-red) 1`] = `
 {
   "artists": [
@@ -58494,6 +60613,53 @@ Damage that would be dealt by Malign can't be prevented.",
     "Outsiders",
   ],
   "specialImageName": "OUT030",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Assassin Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Malign (malign-yellow) 1`] = `
+{
+  "artists": [
+    "Othon Nikolaidis",
+  ],
+  "cardIdentifier": "malign-yellow",
+  "classes": [
+    "Assassin",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT031",
+  "defense": 3,
+  "functionalText": "**Stealth**
+
+Damage that would be dealt by Malign can't be prevented.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT031",
+      "name": "OUT031",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Malign",
+  "pitch": 2,
+  "power": 2,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT031",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT031",
   "subtypes": [
     "Attack",
   ],
@@ -61254,6 +63420,54 @@ If Mulch was **fused**, it gains "If this hits a hero, put a card from their ars
 }
 `;
 
+exports[`Check for unintentional updates Murkmire Grapnel (murkmire-grapnel-blue) 1`] = `
+{
+  "artists": [
+    "Marco González",
+  ],
+  "cardIdentifier": "murkmire-grapnel-blue",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT123",
+  "defense": 3,
+  "functionalText": "If Murkmire Grapnel has an aim counter, it has +1{p}.
+
+Damage that would be dealt by Murkmire Grapnel can't be prevented",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT123",
+      "name": "OUT123",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Murkmire Grapnel",
+  "pitch": 3,
+  "power": 2,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT123",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT123",
+  "subtypes": [
+    "Attack",
+    "Arrow",
+  ],
+  "typeText": "Ranger Action - Arrow Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Murkmire Grapnel (murkmire-grapnel-red) 1`] = `
 {
   "artists": [
@@ -61291,6 +63505,54 @@ Damage that would be dealt by Murkmire Grapnel can't be prevented",
     "Outsiders",
   ],
   "specialImageName": "OUT121",
+  "subtypes": [
+    "Attack",
+    "Arrow",
+  ],
+  "typeText": "Ranger Action - Arrow Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Murkmire Grapnel (murkmire-grapnel-yellow) 1`] = `
+{
+  "artists": [
+    "Marco González",
+  ],
+  "cardIdentifier": "murkmire-grapnel-yellow",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT122",
+  "defense": 3,
+  "functionalText": "If Murkmire Grapnel has an aim counter, it has +1{p}.
+
+Damage that would be dealt by Murkmire Grapnel can't be prevented",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT122",
+      "name": "OUT122",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Murkmire Grapnel",
+  "pitch": 2,
+  "power": 3,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT122",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT122",
   "subtypes": [
     "Attack",
     "Arrow",
@@ -63780,6 +66042,54 @@ exports[`Check for unintentional updates On a Knife Edge (on-a-knife-edge-yellow
 }
 `;
 
+exports[`Check for unintentional updates One-Two Punch (one-two-punch-blue) 1`] = `
+{
+  "artists": [
+    "Tommy Suhartono",
+  ],
+  "cardIdentifier": "one-two-punch-blue",
+  "classes": [
+    "Ninja",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT082",
+  "defense": 3,
+  "functionalText": "**Combo** - If Head Jab was the last attack this combat chain, this has "When this hits a hero, deal 2 damage to them."",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT082",
+      "name": "OUT082",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Combo",
+  ],
+  "name": "One-Two Punch",
+  "pitch": 3,
+  "power": 1,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT082",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT082",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Ninja Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates One-Two Punch (one-two-punch-red) 1`] = `
 {
   "artists": [
@@ -63819,6 +66129,54 @@ exports[`Check for unintentional updates One-Two Punch (one-two-punch-red) 1`] =
     "Outsiders",
   ],
   "specialImageName": "OUT080",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Ninja Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates One-Two Punch (one-two-punch-yellow) 1`] = `
+{
+  "artists": [
+    "Tommy Suhartono",
+  ],
+  "cardIdentifier": "one-two-punch-yellow",
+  "classes": [
+    "Ninja",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT081",
+  "defense": 3,
+  "functionalText": "**Combo** - If Head Jab was the last attack this combat chain, this has "When this hits a hero, deal 2 damage to them."",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT081",
+      "name": "OUT081",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Combo",
+  ],
+  "name": "One-Two Punch",
+  "pitch": 2,
+  "power": 2,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT081",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT081",
   "subtypes": [
     "Attack",
   ],
@@ -68875,6 +71233,150 @@ When this hits a hero, banish the top card of their deck.",
 }
 `;
 
+exports[`Check for unintentional updates Plunge (plunge-blue) 1`] = `
+{
+  "artists": [
+    "Shen Fei",
+  ],
+  "cardIdentifier": "plunge-blue",
+  "classes": [
+    "Assassin",
+    "Ninja",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT153",
+  "defense": 2,
+  "functionalText": "When this hits, your next dagger attack this turn gains +1{p}.
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT153",
+      "name": "OUT153",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Plunge",
+  "pitch": 3,
+  "power": 1,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT153",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT153",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Assassin / Ninja Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Plunge (plunge-red) 1`] = `
+{
+  "artists": [
+    "Shen Fei",
+  ],
+  "cardIdentifier": "plunge-red",
+  "classes": [
+    "Assassin",
+    "Ninja",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT151",
+  "defense": 2,
+  "functionalText": "When this hits, your next dagger attack this turn gains +1{p}.
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT151",
+      "name": "OUT151",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Plunge",
+  "pitch": 1,
+  "power": 3,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT151",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT151",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Assassin / Ninja Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Plunge (plunge-yellow) 1`] = `
+{
+  "artists": [
+    "Shen Fei",
+  ],
+  "cardIdentifier": "plunge-yellow",
+  "classes": [
+    "Assassin",
+    "Ninja",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT152",
+  "defense": 2,
+  "functionalText": "When this hits, your next dagger attack this turn gains +1{p}.
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT152",
+      "name": "OUT152",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Plunge",
+  "pitch": 2,
+  "power": 2,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT152",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT152",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Assassin / Ninja Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Point the Tip (point-the-tip-blue) 1`] = `
 {
   "artists": [
@@ -69487,6 +71989,12 @@ exports[`Check for unintentional updates Ponder (ponder) 1`] = `
       "name": "DYN244",
       "set": "Dynasty",
     },
+    {
+      "edition": "Promo",
+      "identifier": "OUT237",
+      "name": "OUT237",
+      "set": "Outsiders",
+    },
   ],
   "name": "Ponder",
   "rarities": [
@@ -69495,9 +72003,11 @@ exports[`Check for unintentional updates Ponder (ponder) 1`] = `
   "rarity": "Common",
   "setIdentifiers": [
     "DYN244",
+    "OUT237",
   ],
   "sets": [
     "Dynasty",
+    "Outsiders",
   ],
   "specialImageName": "DYN244",
   "subtypes": [
@@ -71834,6 +74344,53 @@ If Promise of Plenty is played from arsenal, it gains **go again**.",
 }
 `;
 
+exports[`Check for unintentional updates Prowl (prowl-blue) 1`] = `
+{
+  "artists": [
+    "Tomasz Jedruszek",
+  ],
+  "cardIdentifier": "prowl-blue",
+  "classes": [
+    "Assassin",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT035",
+  "defense": 3,
+  "functionalText": "**Stealth**
+
+The next attack with **stealth** you play this combat chain gains +1{p}.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT035",
+      "name": "OUT035",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Prowl",
+  "pitch": 3,
+  "power": 1,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT035",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT035",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Assassin Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Prowl (prowl-red) 1`] = `
 {
   "artists": [
@@ -71871,6 +74428,53 @@ The next attack with **stealth** you play this combat chain gains +1{p}.",
     "Outsiders",
   ],
   "specialImageName": "OUT033",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Assassin Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Prowl (prowl-yellow) 1`] = `
+{
+  "artists": [
+    "Tomasz Jedruszek",
+  ],
+  "cardIdentifier": "prowl-yellow",
+  "classes": [
+    "Assassin",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT034",
+  "defense": 3,
+  "functionalText": "**Stealth**
+
+The next attack with **stealth** you play this combat chain gains +1{p}.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT034",
+      "name": "OUT034",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Prowl",
+  "pitch": 2,
+  "power": 2,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT034",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT034",
   "subtypes": [
     "Attack",
   ],
@@ -74975,6 +77579,12 @@ exports[`Check for unintentional updates Ravenous Rabble (ravenous-rabble-blue) 
       "name": "U-ARC193",
       "set": "Arcane Rising",
     },
+    {
+      "edition": "Promo",
+      "identifier": "OUT215",
+      "name": "OUT215",
+      "set": "Outsiders",
+    },
   ],
   "keywords": [
     "Go again",
@@ -74989,10 +77599,12 @@ exports[`Check for unintentional updates Ravenous Rabble (ravenous-rabble-blue) 
   "setIdentifiers": [
     "1HP395",
     "ARC193",
+    "OUT215",
   ],
   "sets": [
     "History Pack 1",
     "Arcane Rising",
+    "Outsiders",
   ],
   "specialImageName": "ARC193-RF",
   "subtypes": [
@@ -75052,6 +77664,12 @@ exports[`Check for unintentional updates Ravenous Rabble (ravenous-rabble-red) 1
       "name": "U-ARC191",
       "set": "Arcane Rising",
     },
+    {
+      "edition": "Promo",
+      "identifier": "OUT213",
+      "name": "OUT213",
+      "set": "Outsiders",
+    },
   ],
   "keywords": [
     "Go again",
@@ -75067,11 +77685,13 @@ exports[`Check for unintentional updates Ravenous Rabble (ravenous-rabble-red) 1
     "DRO021",
     "1HP393",
     "ARC191",
+    "OUT213",
   ],
   "sets": [
     "Dromai Hero Deck",
     "History Pack 1",
     "Arcane Rising",
+    "Outsiders",
   ],
   "specialImageName": "ARC191-RF",
   "subtypes": [
@@ -75125,6 +77745,12 @@ exports[`Check for unintentional updates Ravenous Rabble (ravenous-rabble-yellow
       "name": "U-ARC192",
       "set": "Arcane Rising",
     },
+    {
+      "edition": "Promo",
+      "identifier": "OUT214",
+      "name": "OUT214",
+      "set": "Outsiders",
+    },
   ],
   "keywords": [
     "Go again",
@@ -75139,10 +77765,12 @@ exports[`Check for unintentional updates Ravenous Rabble (ravenous-rabble-yellow
   "setIdentifiers": [
     "1HP394",
     "ARC192",
+    "OUT214",
   ],
   "sets": [
     "History Pack 1",
     "Arcane Rising",
+    "Outsiders",
   ],
   "specialImageName": "ARC192-RF",
   "subtypes": [
@@ -75464,6 +78092,48 @@ exports[`Check for unintentional updates Razor Reflex (razor-reflex-yellow) 1`] 
 }
 `;
 
+exports[`Check for unintentional updates Razor’s Edge (razors-edge-blue) 1`] = `
+{
+  "artists": [
+    "Isuardi Therianto",
+  ],
+  "cardIdentifier": "razors-edge-blue",
+  "classes": [
+    "Assassin",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT044",
+  "defense": 3,
+  "functionalText": "Target attack action card with **stealth** gains +1{p}.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT044",
+      "name": "OUT044",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Razor’s Edge",
+  "pitch": 3,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT044",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT044",
+  "subtypes": [],
+  "typeText": "Assassin Attack Reaction",
+  "types": [
+    "Attack Reaction",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Razor’s Edge (razors-edge-red) 1`] = `
 {
   "artists": [
@@ -75498,6 +78168,48 @@ exports[`Check for unintentional updates Razor’s Edge (razors-edge-red) 1`] = 
     "Outsiders",
   ],
   "specialImageName": "OUT042.original",
+  "subtypes": [],
+  "typeText": "Assassin Attack Reaction",
+  "types": [
+    "Attack Reaction",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Razor’s Edge (razors-edge-yellow) 1`] = `
+{
+  "artists": [
+    "Isuardi Therianto",
+  ],
+  "cardIdentifier": "razors-edge-yellow",
+  "classes": [
+    "Assassin",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT043",
+  "defense": 3,
+  "functionalText": "Target attack action card with **stealth** gains +2{p}.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT043",
+      "name": "OUT043",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Razor’s Edge",
+  "pitch": 2,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT043",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT043",
   "subtypes": [],
   "typeText": "Assassin Attack Reaction",
   "types": [
@@ -76345,6 +79057,57 @@ If the discarded card has 6 or more {p}, deal 2 damage to the attacking hero.",
 }
 `;
 
+exports[`Check for unintentional updates Recoil (recoil-blue) 1`] = `
+{
+  "artists": [
+    "Le Vuong",
+  ],
+  "cardIdentifier": "recoil-blue",
+  "classes": [
+    "Ninja",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT061",
+  "defense": 3,
+  "functionalText": "**Combo** - If Head Jab was the last attack this combat chain, this has "When this hits a hero, they put a card from their hand on top of their deck."",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT061",
+      "name": "OUT061",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Combo",
+  ],
+  "name": "Recoil",
+  "pitch": 3,
+  "power": 1,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT061",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT061",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Ninja Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Recoil (recoil-red) 1`] = `
 {
   "artists": [
@@ -76387,6 +79150,57 @@ exports[`Check for unintentional updates Recoil (recoil-red) 1`] = `
     "Outsiders",
   ],
   "specialImageName": "OUT059",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Ninja Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Recoil (recoil-yellow) 1`] = `
+{
+  "artists": [
+    "Le Vuong",
+  ],
+  "cardIdentifier": "recoil-yellow",
+  "classes": [
+    "Ninja",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT060",
+  "defense": 3,
+  "functionalText": "**Combo** - If Head Jab was the last attack this combat chain, this has "When this hits a hero, they put a card from their hand on top of their deck."",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT060",
+      "name": "OUT060",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Combo",
+  ],
+  "name": "Recoil",
+  "pitch": 2,
+  "power": 2,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT060",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT060",
   "subtypes": [
     "Attack",
   ],
@@ -86227,6 +89041,57 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.",
 }
 `;
 
+exports[`Check for unintentional updates Scout the Periphery (scout-the-periphery-blue) 1`] = `
+{
+  "artists": [
+    "Raphael Pinna",
+  ],
+  "cardIdentifier": "scout-the-periphery-blue",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT227",
+  "defense": 2,
+  "functionalText": "Look at the top card of target hero's deck.
+
+The next attack action card you play from arsenal this turn gains +1{p}.
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT227",
+      "name": "OUT227",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Scout the Periphery",
+  "pitch": 3,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT227",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT227",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Generic Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Scout the Periphery (scout-the-periphery-red) 1`] = `
 {
   "artists": [
@@ -86268,6 +89133,57 @@ The next attack action card you play from arsenal this turn gains +3{p}.
     "Outsiders",
   ],
   "specialImageName": "OUT225",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Generic Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Scout the Periphery (scout-the-periphery-yellow) 1`] = `
+{
+  "artists": [
+    "Raphael Pinna",
+  ],
+  "cardIdentifier": "scout-the-periphery-yellow",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT226",
+  "defense": 2,
+  "functionalText": "Look at the top card of target hero's deck.
+
+The next attack action card you play from arsenal this turn gains +2{p}.
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT226",
+      "name": "OUT226",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Scout the Periphery",
+  "pitch": 2,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT226",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT226",
   "subtypes": [
     "Non-Attack",
   ],
@@ -87101,6 +90017,54 @@ When this hits a hero, create an Inertia token under their control.",
 }
 `;
 
+exports[`Check for unintentional updates Sedation Shot (sedation-shot-blue) 1`] = `
+{
+  "artists": [
+    "Elena Bakulina",
+  ],
+  "cardIdentifier": "sedation-shot-blue",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT126",
+  "defense": 3,
+  "functionalText": "If Sedation Shot has an aim counter, it has +1{p}.
+
+When this hits a hero, create an Inertia token under their control.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT126",
+      "name": "OUT126",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Sedation Shot",
+  "pitch": 3,
+  "power": 3,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT126",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT126",
+  "subtypes": [
+    "Attack",
+    "Arrow",
+  ],
+  "typeText": "Ranger Action - Arrow Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Sedation Shot (sedation-shot-red) 1`] = `
 {
   "artists": [
@@ -87138,6 +90102,54 @@ When this hits a hero, create an Inertia token under their control.",
     "Outsiders",
   ],
   "specialImageName": "OUT124",
+  "subtypes": [
+    "Attack",
+    "Arrow",
+  ],
+  "typeText": "Ranger Action - Arrow Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Sedation Shot (sedation-shot-yellow) 1`] = `
+{
+  "artists": [
+    "Elena Bakulina",
+  ],
+  "cardIdentifier": "sedation-shot-yellow",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT125",
+  "defense": 3,
+  "functionalText": "If Sedation Shot has an aim counter, it has +1{p}.
+
+When this hits a hero, create an Inertia token under their control.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT125",
+      "name": "OUT125",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Sedation Shot",
+  "pitch": 2,
+  "power": 4,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT125",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT125",
   "subtypes": [
     "Attack",
     "Arrow",
@@ -87579,6 +90591,12 @@ exports[`Check for unintentional updates Seek Horizon (seek-horizon-blue) 1`] = 
       "name": "U-MON253.width-450",
       "set": "Monarch",
     },
+    {
+      "edition": "Promo",
+      "identifier": "OUT218",
+      "name": "OUT218",
+      "set": "Outsiders",
+    },
   ],
   "keywords": [
     "Go again",
@@ -87587,17 +90605,17 @@ exports[`Check for unintentional updates Seek Horizon (seek-horizon-blue) 1`] = 
   "pitch": 3,
   "power": 2,
   "rarities": [
+    "Common",
     "Rare",
   ],
   "rarity": "Rare",
-  "restrictedFormats": [
-    "Commoner",
-  ],
   "setIdentifiers": [
     "MON253",
+    "OUT218",
   ],
   "sets": [
     "Monarch",
+    "Outsiders",
   ],
   "specialImageName": "MON253.width-450",
   "subtypes": [
@@ -87636,6 +90654,12 @@ exports[`Check for unintentional updates Seek Horizon (seek-horizon-red) 1`] = `
       "name": "U-MON251.width-450",
       "set": "Monarch",
     },
+    {
+      "edition": "Promo",
+      "identifier": "OUT216",
+      "name": "OUT216",
+      "set": "Outsiders",
+    },
   ],
   "keywords": [
     "Go again",
@@ -87644,17 +90668,17 @@ exports[`Check for unintentional updates Seek Horizon (seek-horizon-red) 1`] = `
   "pitch": 1,
   "power": 4,
   "rarities": [
+    "Common",
     "Rare",
   ],
   "rarity": "Rare",
-  "restrictedFormats": [
-    "Commoner",
-  ],
   "setIdentifiers": [
     "MON251",
+    "OUT216",
   ],
   "sets": [
     "Monarch",
+    "Outsiders",
   ],
   "specialImageName": "MON251.width-450",
   "subtypes": [
@@ -87693,6 +90717,12 @@ exports[`Check for unintentional updates Seek Horizon (seek-horizon-yellow) 1`] 
       "name": "U-MON252.width-450",
       "set": "Monarch",
     },
+    {
+      "edition": "Promo",
+      "identifier": "OUT217",
+      "name": "OUT217",
+      "set": "Outsiders",
+    },
   ],
   "keywords": [
     "Go again",
@@ -87701,17 +90731,17 @@ exports[`Check for unintentional updates Seek Horizon (seek-horizon-yellow) 1`] 
   "pitch": 2,
   "power": 3,
   "rarities": [
+    "Common",
     "Rare",
   ],
   "rarity": "Rare",
-  "restrictedFormats": [
-    "Commoner",
-  ],
   "setIdentifiers": [
     "MON252",
+    "OUT217",
   ],
   "sets": [
     "Monarch",
+    "Outsiders",
   ],
   "specialImageName": "MON252.width-450",
   "subtypes": [
@@ -89785,6 +92815,51 @@ exports[`Check for unintentional updates Shock Striker (shock-striker-yellow) 1`
 }
 `;
 
+exports[`Check for unintentional updates Short and Sharp (short-and-sharp-blue) 1`] = `
+{
+  "artists": [
+    "Tommy Suhartono",
+  ],
+  "cardIdentifier": "short-and-sharp-blue",
+  "classes": [
+    "Assassin",
+    "Ninja",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT156",
+  "defense": 2,
+  "functionalText": "Choose 1;
+- Target dagger attack gains +1{p}.
+- Target attack action card with 2 or less base {p} gains +1{p}.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT156",
+      "name": "OUT156",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Short and Sharp",
+  "pitch": 3,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT156",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT156",
+  "subtypes": [],
+  "typeText": "Assassin / Ninja Attack Reaction",
+  "types": [
+    "Attack Reaction",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Short and Sharp (short-and-sharp-red) 1`] = `
 {
   "artists": [
@@ -89822,6 +92897,51 @@ exports[`Check for unintentional updates Short and Sharp (short-and-sharp-red) 1
     "Outsiders",
   ],
   "specialImageName": "OUT154",
+  "subtypes": [],
+  "typeText": "Assassin / Ninja Attack Reaction",
+  "types": [
+    "Attack Reaction",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Short and Sharp (short-and-sharp-yellow) 1`] = `
+{
+  "artists": [
+    "Tommy Suhartono",
+  ],
+  "cardIdentifier": "short-and-sharp-yellow",
+  "classes": [
+    "Assassin",
+    "Ninja",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT155",
+  "defense": 2,
+  "functionalText": "Choose 1;
+- Target dagger attack gains +2{p}.
+- Target attack action card with 2 or less base {p} gains +2{p}.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT155",
+      "name": "OUT155",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Short and Sharp",
+  "pitch": 2,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT155",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT155",
   "subtypes": [],
   "typeText": "Assassin / Ninja Attack Reaction",
   "types": [
@@ -91447,6 +94567,47 @@ exports[`Check for unintentional updates Silken Form (silken-form) 1`] = `
 }
 `;
 
+exports[`Check for unintentional updates Silken Gi (silken-gi) 1`] = `
+{
+  "artists": [
+    "Alief Rusdiatama",
+  ],
+  "cardIdentifier": "silken-gi",
+  "classes": [
+    "Generic",
+  ],
+  "defaultImageName": "OUT179",
+  "functionalText": "**Instant** - Destroy Silken Gi: The next attack action card you play this turn has -1{p} and costs {r} less to play.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT179",
+      "name": "OUT179",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Silken Gi",
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT179",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT179",
+  "subtypes": [
+    "Chest",
+  ],
+  "typeText": "Generic Equipment - Chest",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Silver (silver) 1`] = `
 {
   "artists": [
@@ -92872,6 +96033,144 @@ exports[`Check for unintentional updates Sky Fire Lanterns (sky-fire-lanterns-ye
     "Non-Attack",
   ],
   "typeText": "Runeblade Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Skybound Shot (skybound-shot-blue) 1`] = `
+{
+  "artists": [
+    "Eilene Cherie",
+  ],
+  "cardIdentifier": "skybound-shot-blue",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT129",
+  "defense": 3,
+  "functionalText": "If Skybound Shot has an aim counter, it has +1{p}.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT129",
+      "name": "OUT129",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Skybound Shot",
+  "pitch": 3,
+  "power": 3,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT129",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT129",
+  "subtypes": [
+    "Attack",
+    "Arrow",
+  ],
+  "typeText": "Ranger Action - Arrow Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Skybound Shot (skybound-shot-red) 1`] = `
+{
+  "artists": [
+    "Eilene Cherie",
+  ],
+  "cardIdentifier": "skybound-shot-red",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT127",
+  "defense": 3,
+  "functionalText": "If Skybound Shot has an aim counter, it has +1{p}.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT127",
+      "name": "OUT127",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Skybound Shot",
+  "pitch": 1,
+  "power": 5,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT127",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT127",
+  "subtypes": [
+    "Attack",
+    "Arrow",
+  ],
+  "typeText": "Ranger Action - Arrow Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Skybound Shot (skybound-shot-yellow) 1`] = `
+{
+  "artists": [
+    "Eilene Cherie",
+  ],
+  "cardIdentifier": "skybound-shot-yellow",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT128",
+  "defense": 3,
+  "functionalText": "If Skybound Shot has an aim counter, it has +1{p}.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT128",
+      "name": "OUT128",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Skybound Shot",
+  "pitch": 2,
+  "power": 4,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT128",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT128",
+  "subtypes": [
+    "Attack",
+    "Arrow",
+  ],
+  "typeText": "Ranger Action - Arrow Attack",
   "types": [
     "Action",
   ],
@@ -94950,6 +98249,54 @@ exports[`Check for unintentional updates Snatch (snatch-yellow) 1`] = `
 }
 `;
 
+exports[`Check for unintentional updates Sneak Attack (sneak-attack-blue) 1`] = `
+{
+  "artists": [
+    "Raphael Pinna",
+  ],
+  "cardIdentifier": "sneak-attack-blue",
+  "classes": [
+    "Assassin",
+  ],
+  "cost": 2,
+  "defaultImageName": "OUT020",
+  "defense": 2,
+  "functionalText": "If you've played or activated an attack reaction this chain link, Sneak Attack has +4{p}.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT020",
+      "name": "OUT020",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Sneak Attack",
+  "pitch": 3,
+  "power": 1,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT020",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT020",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Assassin Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Sneak Attack (sneak-attack-red) 1`] = `
 {
   "artists": [
@@ -94988,6 +98335,54 @@ exports[`Check for unintentional updates Sneak Attack (sneak-attack-red) 1`] = `
     "Outsiders",
   ],
   "specialImageName": "OUT018",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Assassin Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Sneak Attack (sneak-attack-yellow) 1`] = `
+{
+  "artists": [
+    "Raphael Pinna",
+  ],
+  "cardIdentifier": "sneak-attack-yellow",
+  "classes": [
+    "Assassin",
+  ],
+  "cost": 2,
+  "defaultImageName": "OUT019",
+  "defense": 2,
+  "functionalText": "If you've played or activated an attack reaction this chain link, Sneak Attack has +4{p}.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT019",
+      "name": "OUT019",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Sneak Attack",
+  "pitch": 2,
+  "power": 2,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT019",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT019",
   "subtypes": [
     "Attack",
   ],
@@ -97838,7 +101233,7 @@ exports[`Check for unintentional updates Spew Shadow (spew-shadow-yellow) 1`] = 
 }
 `;
 
-exports[`Check for unintentional updates Spider's Bite (spiders-bite) 1`] = `
+exports[`Check for unintentional updates Spider’s Bite (spiders-bite) 1`] = `
 {
   "artists": [
     "Marcus Reyno",
@@ -97866,26 +101261,31 @@ When this hits a hero, the next time they defend with 1 or more attack action ca
       "name": "DYN116",
       "set": "Dynasty",
     },
+    {
+      "edition": "Promo",
+      "identifier": "OUT004",
+      "name": "OUT004",
+      "set": "Outsiders",
+    },
   ],
   "keywords": [
     "Piercing",
     "Go again",
   ],
-  "name": "Spider's Bite",
+  "name": "Spider’s Bite",
   "power": 1,
   "rarities": [
-    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
-    "LGS111",
     "DYN115",
     "DYN116",
+    "OUT004",
   ],
   "sets": [
-    "Promos",
     "Dynasty",
+    "Outsiders",
   ],
   "specialImageName": "DYN115",
   "subtypes": [
@@ -97958,7 +101358,7 @@ When this defends and the attacking hero has played or activated a reaction this
 exports[`Check for unintentional updates Spike with Bloodrot (spike-with-bloodrot-red) 1`] = `
 {
   "artists": [
-    "Mateusz Wisniewski",
+    "Mateusz Wiśniewski",
   ],
   "cardIdentifier": "spike-with-bloodrot-red",
   "classes": [
@@ -98241,6 +101641,60 @@ exports[`Check for unintentional updates Spinal Crush (spinal-crush-red) 1`] = `
 }
 `;
 
+exports[`Check for unintentional updates Spinning Wheel Kick (spinning-wheel-kick-blue) 1`] = `
+{
+  "artists": [
+    "Le Vuong",
+  ],
+  "cardIdentifier": "spinning-wheel-kick-blue",
+  "classes": [
+    "Ninja",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT064",
+  "defense": 2,
+  "functionalText": "**Combo** - If Twin Twisters or Spinning Wheel Kick was the last attack this combat chain, this has +1{p} and "When this hits, put it on the bottom of its owner's deck."
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT064",
+      "name": "OUT064",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Combo",
+    "Go again",
+  ],
+  "name": "Spinning Wheel Kick",
+  "pitch": 3,
+  "power": 2,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT064",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT064",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Ninja Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Spinning Wheel Kick (spinning-wheel-kick-red) 1`] = `
 {
   "artists": [
@@ -98295,6 +101749,106 @@ exports[`Check for unintentional updates Spinning Wheel Kick (spinning-wheel-kic
 }
 `;
 
+exports[`Check for unintentional updates Spinning Wheel Kick (spinning-wheel-kick-yellow) 1`] = `
+{
+  "artists": [
+    "Le Vuong",
+  ],
+  "cardIdentifier": "spinning-wheel-kick-yellow",
+  "classes": [
+    "Ninja",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT063",
+  "defense": 2,
+  "functionalText": "**Combo** - If Twin Twisters or Spinning Wheel Kick was the last attack this combat chain, this has +1{p} and "When this hits, put it on the bottom of its owner's deck."
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT063",
+      "name": "OUT063",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Combo",
+    "Go again",
+  ],
+  "name": "Spinning Wheel Kick",
+  "pitch": 2,
+  "power": 3,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT063",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT063",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Ninja Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Spire Sniping (spire-sniping-blue) 1`] = `
+{
+  "artists": [
+    "Muhammad Fajri",
+  ],
+  "cardIdentifier": "spire-sniping-blue",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT132",
+  "defense": 3,
+  "functionalText": "When Spire Sniping is put or turned face up in arsenal, look at the top 2 cards of your deck, then put them back in any order.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT132",
+      "name": "OUT132",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Spire Sniping",
+  "pitch": 3,
+  "power": 3,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT132",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT132",
+  "subtypes": [
+    "Attack",
+    "Arrow",
+  ],
+  "typeText": "Ranger Action - Arrow Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Spire Sniping (spire-sniping-red) 1`] = `
 {
   "artists": [
@@ -98330,6 +101884,52 @@ exports[`Check for unintentional updates Spire Sniping (spire-sniping-red) 1`] =
     "Outsiders",
   ],
   "specialImageName": "OUT130",
+  "subtypes": [
+    "Attack",
+    "Arrow",
+  ],
+  "typeText": "Ranger Action - Arrow Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Spire Sniping (spire-sniping-yellow) 1`] = `
+{
+  "artists": [
+    "Muhammad Fajri",
+  ],
+  "cardIdentifier": "spire-sniping-yellow",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT131",
+  "defense": 3,
+  "functionalText": "When Spire Sniping is put or turned face up in arsenal, look at the top 2 cards of your deck, then put them back in any order.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT131",
+      "name": "OUT131",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Spire Sniping",
+  "pitch": 2,
+  "power": 4,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT131",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT131",
   "subtypes": [
     "Attack",
     "Arrow",
@@ -98563,6 +102163,141 @@ exports[`Check for unintentional updates Spreading Plague (spreading-plague-yell
   "typeText": "Assassin Attack Reaction",
   "types": [
     "Attack Reaction",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Spring Load (spring-load-blue) 1`] = `
+{
+  "artists": [
+    "Narendra B Adi",
+  ],
+  "cardIdentifier": "spring-load-blue",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT221",
+  "defense": 2,
+  "functionalText": "When this attacks, if you have no cards in hand, it gains +1{p}.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT221",
+      "name": "OUT221",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Spring Load",
+  "pitch": 3,
+  "power": 1,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT221",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT221",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Spring Load (spring-load-red) 1`] = `
+{
+  "artists": [
+    "Narendra B Adi",
+  ],
+  "cardIdentifier": "spring-load-red",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT219",
+  "defense": 2,
+  "functionalText": "When this attacks, if you have no cards in hand, it gains +1{p}.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT219",
+      "name": "OUT219",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Spring Load",
+  "pitch": 1,
+  "power": 3,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT219",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT219",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Spring Load (spring-load-yellow) 1`] = `
+{
+  "artists": [
+    "Narendra B Adi",
+  ],
+  "cardIdentifier": "spring-load-yellow",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT220",
+  "defense": 2,
+  "functionalText": "When this attacks, if you have no cards in hand, it gains +1{p}.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT220",
+      "name": "OUT220",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Spring Load",
+  "pitch": 2,
+  "power": 2,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT220",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT220",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
   ],
 }
 `;
@@ -102024,6 +105759,12 @@ exports[`Check for unintentional updates Surging Strike (surging-strike-blue) 1`
       "name": "U-WTR109",
       "set": "Welcome to Rathe",
     },
+    {
+      "edition": "Promo",
+      "identifier": "OUT085",
+      "name": "OUT085",
+      "set": "Outsiders",
+    },
   ],
   "keywords": [
     "Go again",
@@ -102038,10 +105779,12 @@ exports[`Check for unintentional updates Surging Strike (surging-strike-blue) 1`
   "setIdentifiers": [
     "1HP127",
     "WTR109",
+    "OUT085",
   ],
   "sets": [
     "History Pack 1",
     "Welcome to Rathe",
+    "Outsiders",
   ],
   "specialImageName": "WTR109",
   "subtypes": [
@@ -102092,6 +105835,12 @@ exports[`Check for unintentional updates Surging Strike (surging-strike-red) 1`]
       "name": "U-WTR107",
       "set": "Welcome to Rathe",
     },
+    {
+      "edition": "Promo",
+      "identifier": "OUT083",
+      "name": "OUT083",
+      "set": "Outsiders",
+    },
   ],
   "keywords": [
     "Go again",
@@ -102107,11 +105856,13 @@ exports[`Check for unintentional updates Surging Strike (surging-strike-red) 1`]
     "KSU015",
     "1HP125",
     "WTR107",
+    "OUT083",
   ],
   "sets": [
     "Katsu Hero Deck",
     "History Pack 1",
     "Welcome to Rathe",
+    "Outsiders",
   ],
   "specialImageName": "WTR107",
   "subtypes": [
@@ -102162,6 +105913,12 @@ exports[`Check for unintentional updates Surging Strike (surging-strike-yellow) 
       "name": "U-WTR108",
       "set": "Welcome to Rathe",
     },
+    {
+      "edition": "Promo",
+      "identifier": "OUT084",
+      "name": "OUT084",
+      "set": "Outsiders",
+    },
   ],
   "keywords": [
     "Go again",
@@ -102177,11 +105934,13 @@ exports[`Check for unintentional updates Surging Strike (surging-strike-yellow) 
     "KSU020",
     "1HP126",
     "WTR108",
+    "OUT084",
   ],
   "sets": [
     "Katsu Hero Deck",
     "History Pack 1",
     "Welcome to Rathe",
+    "Outsiders",
   ],
   "specialImageName": "WTR108",
   "subtypes": [
@@ -105611,6 +109370,47 @@ Until the start of your next turn, attacks that target you have -1{p}.
 }
 `;
 
+exports[`Check for unintentional updates Threadbare Tunic (threadbare-tunic) 1`] = `
+{
+  "artists": [
+    "Revazashvili E.",
+  ],
+  "cardIdentifier": "threadbare-tunic",
+  "classes": [
+    "Generic",
+  ],
+  "defaultImageName": "OUT180",
+  "functionalText": "**Instant** - Destroy Threadbare Tunic: Gain {r}. Activate this ability only if you have no cards in hand.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT180",
+      "name": "OUT180",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Threadbare Tunic",
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT180",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT180",
+  "subtypes": [
+    "Chest",
+  ],
+  "typeText": "Generic Equipment - Chest",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Three of a Kind (three-of-a-kind-red) 1`] = `
 {
   "artists": [
@@ -108001,6 +111801,59 @@ exports[`Check for unintentional updates Toxic Tips (toxic-tips) 1`] = `
 }
 `;
 
+exports[`Check for unintentional updates Toxicity (toxicity-blue) 1`] = `
+{
+  "artists": [
+    "Federico Musetti",
+  ],
+  "cardIdentifier": "toxicity-blue",
+  "classes": [
+    "Assassin",
+    "Ranger",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT167",
+  "defense": 2,
+  "functionalText": "The next Assassin or Ranger attack action card you play this turn gains "When this hits a hero, they lose 3{h}."
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT167",
+      "name": "OUT167",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Toxicity",
+  "pitch": 3,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT167",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT167",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Assassin / Ranger Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Toxicity (toxicity-red) 1`] = `
 {
   "artists": [
@@ -108044,6 +111897,59 @@ exports[`Check for unintentional updates Toxicity (toxicity-red) 1`] = `
     "Outsiders",
   ],
   "specialImageName": "OUT165",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Assassin / Ranger Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Toxicity (toxicity-yellow) 1`] = `
+{
+  "artists": [
+    "Federico Musetti",
+  ],
+  "cardIdentifier": "toxicity-yellow",
+  "classes": [
+    "Assassin",
+    "Ranger",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT166",
+  "defense": 2,
+  "functionalText": "The next Assassin or Ranger attack action card you play this turn gains "When this hits a hero, they lose 4{h}."
+
+**Go again**",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT166",
+      "name": "OUT166",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Toxicity",
+  "pitch": 2,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT166",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT166",
   "subtypes": [
     "Non-Attack",
   ],
@@ -109064,6 +112970,12 @@ exports[`Check for unintentional updates Twin Twisters (twin-twisters-blue) 1`] 
       "name": "EVR049.width-450",
       "set": "Everfest",
     },
+    {
+      "edition": "Promo",
+      "identifier": "OUT088",
+      "name": "OUT088",
+      "set": "Outsiders",
+    },
   ],
   "keywords": [
     "Go again",
@@ -109077,9 +112989,11 @@ exports[`Check for unintentional updates Twin Twisters (twin-twisters-blue) 1`] 
   "rarity": "Common",
   "setIdentifiers": [
     "EVR049",
+    "OUT088",
   ],
   "sets": [
     "Everfest",
+    "Outsiders",
   ],
   "specialImageName": "EVR049.width-450",
   "subtypes": [
@@ -109104,7 +113018,12 @@ exports[`Check for unintentional updates Twin Twisters (twin-twisters-red) 1`] =
   "cost": 1,
   "defaultImageName": "EVR047.width-450",
   "defense": 2,
-  "functionalText": "Choose 1:  - Twin Twisters gains "When this hits, your next attack this combat chain gains +1{p}.” - Twin Twisters gains +1{p}.  **Go again**",
+  "functionalText": "Choose 1:
+
+- Twin Twisters gains "When this hits, your next attack this combat chain gains +1{p}."
+- Twin Twisters gains +1{p}.
+
+**Go again**",
   "images": [
     {
       "edition": "First",
@@ -109173,6 +113092,12 @@ exports[`Check for unintentional updates Twin Twisters (twin-twisters-yellow) 1`
       "name": "EVR048.width-450",
       "set": "Everfest",
     },
+    {
+      "edition": "Promo",
+      "identifier": "OUT087",
+      "name": "OUT087",
+      "set": "Outsiders",
+    },
   ],
   "keywords": [
     "Go again",
@@ -109186,9 +113111,11 @@ exports[`Check for unintentional updates Twin Twisters (twin-twisters-yellow) 1`
   "rarity": "Common",
   "setIdentifiers": [
     "EVR048",
+    "OUT087",
   ],
   "sets": [
     "Everfest",
+    "Outsiders",
   ],
   "specialImageName": "EVR048.width-450",
   "subtypes": [
@@ -111600,6 +115527,54 @@ exports[`Check for unintentional updates Vipox (vipox-red) 1`] = `
 }
 `;
 
+exports[`Check for unintentional updates Virulent Touch (virulent-touch-blue) 1`] = `
+{
+  "artists": [
+    "Mark Poole",
+  ],
+  "cardIdentifier": "virulent-touch-blue",
+  "classes": [
+    "Assassin",
+    "Ranger",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT170",
+  "defense": 2,
+  "functionalText": "Virulent Touch can't be played from hand.
+
+When this chain link resolves, if Virulent Touch is defended by a card from hand, create a Bloodrot Pox token under the defending hero's control.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT170",
+      "name": "OUT170",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Virulent Touch",
+  "pitch": 3,
+  "power": 2,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT170",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT170",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Assassin / Ranger Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Virulent Touch (virulent-touch-red) 1`] = `
 {
   "artists": [
@@ -111638,6 +115613,54 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
     "Outsiders",
   ],
   "specialImageName": "OUT168",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Assassin / Ranger Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Virulent Touch (virulent-touch-yellow) 1`] = `
+{
+  "artists": [
+    "Mark Poole",
+  ],
+  "cardIdentifier": "virulent-touch-yellow",
+  "classes": [
+    "Assassin",
+    "Ranger",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT169",
+  "defense": 2,
+  "functionalText": "Virulent Touch can't be played from hand.
+
+When this chain link resolves, if Virulent Touch is defended by a card from hand, create a Bloodrot Pox token under the defending hero's control.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT169",
+      "name": "OUT169",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Virulent Touch",
+  "pitch": 2,
+  "power": 3,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT169",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT169",
   "subtypes": [
     "Attack",
   ],
@@ -114884,6 +118907,54 @@ exports[`Check for unintentional updates Whisper of the Oracle (whisper-of-the-o
 }
 `;
 
+exports[`Check for unintentional updates Widowmaker (widowmaker-blue) 1`] = `
+{
+  "artists": [
+    "Phu Thieu",
+  ],
+  "cardIdentifier": "widowmaker-blue",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT135",
+  "defense": 3,
+  "functionalText": "Defense reactions can't be played to Widowmaker's chain link.
+
+If Widowmaker is defended by fewer than 2 cards, it has +3{p}.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT135",
+      "name": "OUT135",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Widowmaker",
+  "pitch": 3,
+  "power": 2,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT135",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT135",
+  "subtypes": [
+    "Attack",
+    "Arrow",
+  ],
+  "typeText": "Ranger Action - Arrow Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Widowmaker (widowmaker-red) 1`] = `
 {
   "artists": [
@@ -114921,6 +118992,54 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.",
     "Outsiders",
   ],
   "specialImageName": "OUT133",
+  "subtypes": [
+    "Attack",
+    "Arrow",
+  ],
+  "typeText": "Ranger Action - Arrow Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Widowmaker (widowmaker-yellow) 1`] = `
+{
+  "artists": [
+    "Phu Thieu",
+  ],
+  "cardIdentifier": "widowmaker-yellow",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT134",
+  "defense": 3,
+  "functionalText": "Defense reactions can't be played to Widowmaker's chain link.
+
+If Widowmaker is defended by fewer than 2 cards, it has +3{p}.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT134",
+      "name": "OUT134",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Widowmaker",
+  "pitch": 2,
+  "power": 3,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT134",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT134",
   "subtypes": [
     "Attack",
     "Arrow",
@@ -115686,6 +119805,54 @@ When this hits a hero, create a Frailty token under their control.",
 }
 `;
 
+exports[`Check for unintentional updates Withering Shot (withering-shot-blue) 1`] = `
+{
+  "artists": [
+    "Nikita Bondarev",
+  ],
+  "cardIdentifier": "withering-shot-blue",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT138",
+  "defense": 3,
+  "functionalText": "If Withering Shot has an aim counter, it has +1{p}.
+
+When this hits a hero, create a Frailty token under their control.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT138",
+      "name": "OUT138",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Withering Shot",
+  "pitch": 3,
+  "power": 3,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT138",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT138",
+  "subtypes": [
+    "Attack",
+    "Arrow",
+  ],
+  "typeText": "Ranger Action - Arrow Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Withering Shot (withering-shot-red) 1`] = `
 {
   "artists": [
@@ -115723,6 +119890,54 @@ When this hits a hero, create a Frailty token under their control.",
     "Outsiders",
   ],
   "specialImageName": "OUT136",
+  "subtypes": [
+    "Attack",
+    "Arrow",
+  ],
+  "typeText": "Ranger Action - Arrow Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Withering Shot (withering-shot-yellow) 1`] = `
+{
+  "artists": [
+    "Nikita Bondarev",
+  ],
+  "cardIdentifier": "withering-shot-yellow",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 1,
+  "defaultImageName": "OUT137",
+  "defense": 3,
+  "functionalText": "If Withering Shot has an aim counter, it has +1{p}.
+
+When this hits a hero, create a Frailty token under their control.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT137",
+      "name": "OUT137",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Withering Shot",
+  "pitch": 2,
+  "power": 4,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT137",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT137",
   "subtypes": [
     "Attack",
     "Arrow",
@@ -116213,6 +120428,56 @@ exports[`Check for unintentional updates Wounding Blow (wounding-blow-yellow) 1`
 }
 `;
 
+exports[`Check for unintentional updates Wreck Havoc (wreck-havoc-blue) 1`] = `
+{
+  "artists": [
+    "Saad Irfan",
+  ],
+  "cardIdentifier": "wreck-havoc-blue",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 2,
+  "defaultImageName": "OUT200",
+  "defense": 2,
+  "functionalText": "Defense reactions can't be played to Wreck Havoc's chain link.
+
+When this hits a hero, you may turn a card in their arsenal face up, then destroy a defense reaction in their arsenal.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT200",
+      "name": "OUT200",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Wreck Havoc",
+  "pitch": 3,
+  "power": 4,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT200",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT200",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Wreck Havoc (wreck-havoc-red) 1`] = `
 {
   "artists": [
@@ -116253,6 +120518,56 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     "Outsiders",
   ],
   "specialImageName": "OUT198",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Wreck Havoc (wreck-havoc-yellow) 1`] = `
+{
+  "artists": [
+    "Saad Irfan",
+  ],
+  "cardIdentifier": "wreck-havoc-yellow",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 2,
+  "defaultImageName": "OUT199",
+  "defense": 2,
+  "functionalText": "Defense reactions can't be played to Wreck Havoc's chain link.
+
+When this hits a hero, you may turn a card in their arsenal face up, then destroy a defense reaction in their arsenal.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT199",
+      "name": "OUT199",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Wreck Havoc",
+  "pitch": 2,
+  "power": 5,
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT199",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT199",
   "subtypes": [
     "Attack",
   ],
