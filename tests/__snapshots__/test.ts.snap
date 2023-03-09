@@ -37460,141 +37460,6 @@ If Fervent Forerunner is played from arsenal, it gains **go again**.",
 }
 `;
 
-exports[`Check for unintentional updates Fiesty Locals (fiesty-locals-blue) 1`] = `
-{
-  "artists": [
-    "Hilary Purnamasari",
-  ],
-  "cardIdentifier": "fiesty-locals-blue",
-  "classes": [
-    "Generic",
-  ],
-  "cost": 0,
-  "defaultImageName": "OUT209",
-  "defense": 2,
-  "functionalText": "If this is defended by an action card, this has +2{p}.",
-  "images": [
-    {
-      "edition": "Promo",
-      "identifier": "OUT209",
-      "name": "OUT209",
-      "set": "Outsiders",
-    },
-  ],
-  "name": "Fiesty Locals",
-  "pitch": 3,
-  "power": 1,
-  "rarities": [
-    "Common",
-  ],
-  "rarity": "Common",
-  "setIdentifiers": [
-    "OUT209",
-  ],
-  "sets": [
-    "Outsiders",
-  ],
-  "specialImageName": "OUT209",
-  "subtypes": [
-    "Attack",
-  ],
-  "typeText": "Generic Action - Attack",
-  "types": [
-    "Action",
-  ],
-}
-`;
-
-exports[`Check for unintentional updates Fiesty Locals (fiesty-locals-red) 1`] = `
-{
-  "artists": [
-    "Hilary Purnamasari",
-  ],
-  "cardIdentifier": "fiesty-locals-red",
-  "classes": [
-    "Generic",
-  ],
-  "cost": 0,
-  "defaultImageName": "OUT207",
-  "defense": 2,
-  "functionalText": "If this is defended by an action card, this has +2{p}.",
-  "images": [
-    {
-      "edition": "Promo",
-      "identifier": "OUT207",
-      "name": "OUT207",
-      "set": "Outsiders",
-    },
-  ],
-  "name": "Fiesty Locals",
-  "pitch": 1,
-  "power": 3,
-  "rarities": [
-    "Common",
-  ],
-  "rarity": "Common",
-  "setIdentifiers": [
-    "OUT207",
-  ],
-  "sets": [
-    "Outsiders",
-  ],
-  "specialImageName": "OUT207",
-  "subtypes": [
-    "Attack",
-  ],
-  "typeText": "Generic Action - Attack",
-  "types": [
-    "Action",
-  ],
-}
-`;
-
-exports[`Check for unintentional updates Fiesty Locals (fiesty-locals-yellow) 1`] = `
-{
-  "artists": [
-    "Hilary Purnamasari",
-  ],
-  "cardIdentifier": "fiesty-locals-yellow",
-  "classes": [
-    "Generic",
-  ],
-  "cost": 0,
-  "defaultImageName": "OUT208",
-  "defense": 2,
-  "functionalText": "If this is defended by an action card, this has +2{p}.",
-  "images": [
-    {
-      "edition": "Promo",
-      "identifier": "OUT208",
-      "name": "OUT208",
-      "set": "Outsiders",
-    },
-  ],
-  "name": "Fiesty Locals",
-  "pitch": 2,
-  "power": 2,
-  "rarities": [
-    "Common",
-  ],
-  "rarity": "Common",
-  "setIdentifiers": [
-    "OUT208",
-  ],
-  "sets": [
-    "Outsiders",
-  ],
-  "specialImageName": "OUT208",
-  "subtypes": [
-    "Attack",
-  ],
-  "typeText": "Generic Action - Attack",
-  "types": [
-    "Action",
-  ],
-}
-`;
-
 exports[`Check for unintentional updates Find Center (find-center-blue) 1`] = `
 {
   "artists": [
@@ -37708,12 +37573,12 @@ exports[`Check for unintentional updates Firebreathing (firebreathing-red) 1`] =
 }
 `;
 
-exports[`Check for unintentional updates Fistcuffs (fistcuffs) 1`] = `
+exports[`Check for unintentional updates Fisticuffs (fisticuffs) 1`] = `
 {
   "artists": [
     "Maria Mishina",
   ],
-  "cardIdentifier": "fistcuffs",
+  "cardIdentifier": "fisticuffs",
   "classes": [
     "Generic",
   ],
@@ -37727,7 +37592,7 @@ exports[`Check for unintentional updates Fistcuffs (fistcuffs) 1`] = `
       "set": "Outsiders",
     },
   ],
-  "name": "Fistcuffs",
+  "name": "Fisticuffs",
   "rarities": [
     "Common",
   ],

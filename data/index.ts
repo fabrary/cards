@@ -8024,7 +8024,7 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
     
   },{
     artists: ["Maria Mishina"],
-    cardIdentifier: "fistcuffs",
+    cardIdentifier: "fisticuffs",
     classes: [Class.Generic],
     defaultImageName: "OUT181",
     images: [{
@@ -8034,7 +8034,7 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
       set: Release.Outsiders,
       
     },],
-    name: "Fistcuffs",
+    name: "Fisticuffs",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT181"],
@@ -9106,7 +9106,7 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     
   },{
     artists: ["Hilary Purnamasari"],
-    cardIdentifier: "fiesty-locals-red",
+    cardIdentifier: "feisty-locals-red",
     classes: [Class.Generic],
     defaultImageName: "OUT207",
     images: [{
@@ -9116,7 +9116,7 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
       set: Release.Outsiders,
       
     },],
-    name: "Fiesty Locals",
+    name: "Feisty Locals",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT207"],
@@ -9147,7 +9147,7 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     
   },{
     artists: ["Hilary Purnamasari"],
-    cardIdentifier: "fiesty-locals-yellow",
+    cardIdentifier: "feisty-locals-yellow",
     classes: [Class.Generic],
     defaultImageName: "OUT208",
     images: [{
@@ -9157,7 +9157,7 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
       set: Release.Outsiders,
       
     },],
-    name: "Fiesty Locals",
+    name: "Feisty Locals",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT208"],
@@ -9188,7 +9188,7 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     
   },{
     artists: ["Hilary Purnamasari"],
-    cardIdentifier: "fiesty-locals-blue",
+    cardIdentifier: "feisty-locals-blue",
     classes: [Class.Generic],
     defaultImageName: "OUT209",
     images: [{
@@ -9198,7 +9198,7 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
       set: Release.Outsiders,
       
     },],
-    name: "Fiesty Locals",
+    name: "Feisty Locals",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT209"],
