@@ -12047,7 +12047,7 @@ exports[`Check for unintentional updates Bloodrot Pox (bloodrot-pox) 1`] = `
   "classes": [
     "Generic",
   ],
-  "defaultImageName": "LGS125",
+  "defaultImageName": "OUT234",
   "functionalText": "At the beginning of your end phase, destroy Bloodrot Pox, then it deals 2 damage to you unless you pay {r}{r}{r}.",
   "images": [
     {
@@ -12055,6 +12055,12 @@ exports[`Check for unintentional updates Bloodrot Pox (bloodrot-pox) 1`] = `
       "identifier": "LGS125",
       "name": "LGS125",
       "set": "Promos",
+    },
+    {
+      "edition": "Promo",
+      "identifier": "OUT234",
+      "name": "OUT234",
+      "set": "Outsiders",
     },
   ],
   "name": "Bloodrot Pox",
@@ -26280,6 +26286,9 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     "Rare",
   ],
   "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
   "setIdentifiers": [
     "OUT164",
   ],
@@ -26335,6 +26344,9 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     "Rare",
   ],
   "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
   "setIdentifiers": [
     "FAB132",
     "OUT162",
@@ -26385,6 +26397,9 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     "Rare",
   ],
   "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
   "setIdentifiers": [
     "OUT163",
   ],
@@ -37121,6 +37136,141 @@ The next time your hero would be dealt damage this turn, prevent it.",
 }
 `;
 
+exports[`Check for unintentional updates Feisty Locals (feisty-locals-blue) 1`] = `
+{
+  "artists": [
+    "Hilary Purnamasari",
+  ],
+  "cardIdentifier": "feisty-locals-blue",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT209",
+  "defense": 2,
+  "functionalText": "If this is defended by an action card, this has +2{p}.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT209",
+      "name": "OUT209",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Feisty Locals",
+  "pitch": 3,
+  "power": 1,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT209",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT209",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Feisty Locals (feisty-locals-red) 1`] = `
+{
+  "artists": [
+    "Hilary Purnamasari",
+  ],
+  "cardIdentifier": "feisty-locals-red",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT207",
+  "defense": 2,
+  "functionalText": "If this is defended by an action card, this has +2{p}.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT207",
+      "name": "OUT207",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Feisty Locals",
+  "pitch": 1,
+  "power": 3,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT207",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT207",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Feisty Locals (feisty-locals-yellow) 1`] = `
+{
+  "artists": [
+    "Hilary Purnamasari",
+  ],
+  "cardIdentifier": "feisty-locals-yellow",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 0,
+  "defaultImageName": "OUT208",
+  "defense": 2,
+  "functionalText": "If this is defended by an action card, this has +2{p}.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT208",
+      "name": "OUT208",
+      "set": "Outsiders",
+    },
+  ],
+  "name": "Feisty Locals",
+  "pitch": 2,
+  "power": 2,
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT208",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT208",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Felling Swing (felling-swing-blue) 1`] = `
 {
   "artists": [
@@ -38393,50 +38543,6 @@ When this hits a hero, banish the top card of their deck.",
   "typeText": "Assassin Action – Attack",
   "types": [
     "Action",
-  ],
-}
-`;
-
-exports[`Check for unintentional updates Fleet Foot Sandles (fleet-foot-sandles) 1`] = `
-{
-  "artists": [
-    "Kalashnikova N.",
-  ],
-  "cardIdentifier": "fleet-foot-sandles",
-  "classes": [
-    "Generic",
-  ],
-  "defaultImageName": "OUT182",
-  "functionalText": "**Attack Reaction** - Destroy Fleet Foot Sandles: Target attack with 1 or less base {p} gains **go again**.",
-  "images": [
-    {
-      "edition": "Promo",
-      "identifier": "OUT182",
-      "name": "OUT182",
-      "set": "Outsiders",
-    },
-  ],
-  "keywords": [
-    "Go again",
-  ],
-  "name": "Fleet Foot Sandles",
-  "rarities": [
-    "Common",
-  ],
-  "rarity": "Common",
-  "setIdentifiers": [
-    "OUT182",
-  ],
-  "sets": [
-    "Outsiders",
-  ],
-  "specialImageName": "OUT182",
-  "subtypes": [
-    "Legs",
-  ],
-  "typeText": "Generic Equipment - Legs",
-  "types": [
-    "Equipment",
   ],
 }
 `;
@@ -40511,7 +40617,7 @@ exports[`Check for unintentional updates Frailty (frailty) 1`] = `
   "classes": [
     "Generic",
   ],
-  "defaultImageName": "LGS126",
+  "defaultImageName": "OUT235",
   "functionalText": "Your attack action cards played from arsenal and weapon attacks have -1{p}.
 
 At the beginning of your end phase destroy Frailty.",
@@ -40521,6 +40627,12 @@ At the beginning of your end phase destroy Frailty.",
       "identifier": "LGS126",
       "name": "LGS126",
       "set": "Promos",
+    },
+    {
+      "edition": "Promo",
+      "identifier": "OUT235",
+      "name": "OUT235",
+      "set": "Outsiders",
     },
   ],
   "name": "Frailty",
@@ -51840,7 +51952,7 @@ exports[`Check for unintentional updates Inertia (inertia) 1`] = `
   "classes": [
     "Generic",
   ],
-  "defaultImageName": "LGS127",
+  "defaultImageName": "OUT236",
   "functionalText": "At the beginning of your end phase, destroy Inertia, then put all cards from your hand and arsenal on the bottom of your deck.",
   "images": [
     {
@@ -51848,6 +51960,12 @@ exports[`Check for unintentional updates Inertia (inertia) 1`] = `
       "identifier": "LGS127",
       "name": "LGS127",
       "set": "Promos",
+    },
+    {
+      "edition": "Promo",
+      "identifier": "OUT236",
+      "name": "OUT236",
+      "set": "Outsiders",
     },
   ],
   "name": "Inertia",
@@ -101141,8 +101259,9 @@ When this hits a hero, the next time they defend with 1 or more attack action ca
   "power": 1,
   "rarities": [
     "Rare",
+    "Token",
   ],
-  "rarity": "Rare",
+  "rarity": "Token",
   "setIdentifiers": [
     "DYN115",
     "DYN116",
@@ -101178,7 +101297,7 @@ exports[`Check for unintentional updates Spike Pit Trap (spike-pit-trap-blue) 1`
   "defense": 3,
   "functionalText": "**Legendary Riptide Specialization**
 
-When this defends and the attacking hero has played or activated a reaction this chain link, put the top card of their deck into their graveyard, then they lose X{l}, where X is the number of cards in their graveyard with that name.",
+When this defends and the attacking hero has played or activated a reaction this chain link, put the top card of their deck into their graveyard, then they lose X{h}, where X is the number of cards in their graveyard with that name.",
   "images": [
     {
       "edition": "Promo",
@@ -112487,6 +112606,9 @@ exports[`Check for unintentional updates Trench of Sunken Treasure (trench-of-su
     "Legendary",
   ],
   "rarity": "Legendary",
+  "restrictedFormats": [
+    "Commoner",
+  ],
   "setIdentifiers": [
     "OUT094",
   ],

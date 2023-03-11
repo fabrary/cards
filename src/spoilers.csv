@@ -3,7 +3,7 @@ OUT000	OUT																						S – OUT000 – N	/OUT000.png – OUT000 – N
 OUT001	OUT	Uzuri, Switchblade					40	4	T	Assassin, Hero		Once per Turn Attack Reaction			**Once per Turn Attack Reaction** - Banish a card from your hand face down: Turn the card banished this way face up. If it's an attack action card with cost 2 or less, put target attacking card with **stealth** from the active chain link on the bottom of it's owner's deck, then put the banished card onto the active chain link as the attacking card.		Assassin Hero					No	S – OUT001 – N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT001.width-450.png - OUT001 - N
 OUT002	OUT	Uzuri					20	4	T	Assassin, Hero, Young		Once per Turn Attack Reaction			**Once per Turn Attack Reaction** - Banish a card from your hand face down: Turn the card banished this way face up. If it's an attack action card with cost 2 or less, put target attacking card with **stealth** from the active chain link on the bottom of it's owner's deck, then put the banished card onto the active chain link as the attacking card.		Assassin Hero – Young						S – OUT002 – N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT002.width-450.png - OUT002 - N
 OUT003	OUT	Arakni, Solitary Confinement					19	4	T	Assassin, Hero, Young							Assassin Hero – Young						C - HER079 - N, S – OUT003 – N	/HER079.png – HER079 – N, /OUT003.width-450.png – OUT003 – N
-DYN115, DYN116, OUT004	DYN, DYN, OUT	Spider’s Bite			1				R, R	Assassin, Weapon, Dagger, 1H	Piercing 1	Once per Turn Action	Attack, Go again		"**Once per Turn Action** – {r}{r}: **Attack**. **Go again**
+DYN115, DYN116, OUT004	DYN, DYN, OUT	Spider’s Bite			1				R, R, T	Assassin, Weapon, Dagger, 1H	Piercing 1	Once per Turn Action	Attack, Go again		"**Once per Turn Action** – {r}{r}: **Attack**. **Go again**
 
 **Piercing 1**
 
@@ -221,7 +221,7 @@ OUT094	OUT	Trench of Sunken Treasure				1			L	Ranger, Equipment, Chest	Instant, 
 
 **Arcane Barrier 1**
 
-**Blade Break**"		Ranger Equipment - Chest	Federico Musetti					S - OUT094 - N	/OUT094.png – OUT094 – N
+**Blade Break**"		Ranger Equipment - Chest	Federico Musetti				No	S - OUT094 - N	/OUT094.png – OUT094 – N
 OUT095	OUT	Quiver of Abyssal Depths							L	Ranger, Equipment, Quiver	Instant				**Instant** - {r}{r}{r}, destroy Quiver of Abyssal Depths: Shuffle up to 3 arrows with different names from your graveyard into your deck.		Ranger Equipment - Quiver	Steve Argyle				No	S - OUT095 - N	/OUT095.png – OUT095 – N
 OUT096	OUT	Quiver of Rustling Leaves							M	Ranger, Equipment, Quiver		Instant			**Instant** - {r}{r}{r}: Reveal the top card of your deck. If it's an arrow, put it face up into your arsenal and destroy Quiver of Rustling Leaves.		Ranger Equipment - Quiver	Mark Poole				No	S – OUT096 – N	/OUT096.png – OUT096 – N
 OUT097	OUT	Crow's Nest							T	Ranger, Equipment, Quiver	Azalea Specialization				"**Azalea Specialization**
@@ -243,7 +243,7 @@ OUT103	OUT	Collapsing Trap	3	0		3			M	Ranger, Defense Reaction, Trap	Legendary, 
 When this defends an attack with **go again**, the attacking hero discards their hand then draws that many cards minus 1."		Ranger Defense Reaction - Trap	Raphael Pinna				No	S – OUT103 – N	/OUT103.png – OUT103 – N
 OUT104	OUT	Spike Pit Trap	3	0		3			M	Ranger, Defense Reaction, Trap	Legendary, Riptide Specialization				"**Legendary Riptide Specialization**
 
-When this defends and the attacking hero has played or activated a reaction this chain link, put the top card of their deck into their graveyard, then they lose X{l}, where X is the number of cards in their graveyard with that name."		Ranger Defense Reaction - Trap	Henrique Lindner				No	S - OUT104 - N	/OUT104.png – OUT104 – N
+When this defends and the attacking hero has played or activated a reaction this chain link, put the top card of their deck into their graveyard, then they lose X{h}, where X is the number of cards in their graveyard with that name."		Ranger Defense Reaction - Trap	Henrique Lindner				No	S - OUT104 - N	/OUT104.png – OUT104 – N
 OUT105	OUT	Melting Point	1	1		3			M	Ranger, Action	Go again				"Your next arrow attack this turn gains +4{p}.
 
 If it has an aim counter, it gains ""When this hits a hero, destroy a 1H weapon they control with 1 base {p}.""
@@ -405,13 +405,13 @@ Create a Ponder token under your control and an Inertia token under each opponen
 **Go again**"		Assassin / Ranger Action	Isuardi Therianto				No	S - OUT161 - N	/OUT161.png – OUT161 – N
 FAB132, OUT162	FAB, OUT	Death Touch	1	1	6	2			P, R	Assassin, Ranger, Action, Attack					"Death Touch can't be played from hand.
 
-When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under their control."		Assassin / Ranger Action - Attack	Saad Irfan					R - FAB132 - N - EA, S - OUT162 - N	/FAB132.png – FAB132 – N, https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT162.width-450.png - OUT162 - N
+When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under their control."		Assassin / Ranger Action - Attack	Saad Irfan				No	R - FAB132 - N - EA, S - OUT162 - N	/FAB132.png – FAB132 – N, https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT162.width-450.png - OUT162 - N
 OUT163	OUT	Death Touch	2	1	5	2			R	Assassin, Ranger, Action, Attack					"Death Touch can't be played from hand.
 
-When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under their control."		Assassin / Ranger Action - Attack	Saad Irfan					S - OUT163 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT163.width-450.png - OUT163 - N
+When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under their control."		Assassin / Ranger Action - Attack	Saad Irfan				No	S - OUT163 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT163.width-450.png - OUT163 - N
 OUT164	OUT	Death Touch	3	1	4	2			R	Assassin, Ranger, Action, Attack					"Death Touch can't be played from hand.
 
-When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under their control."		Assassin / Ranger Action - Attack	Saad Irfan					S - OUT164 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT164.width-450.png - OUT164 - N
+When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under their control."		Assassin / Ranger Action - Attack	Saad Irfan				No	S - OUT164 - N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT164.width-450.png - OUT164 - N
 OUT165	OUT	Toxicity	1	0		2			R	Assassin, Ranger, Action	Go again				"The next Assassin or Ranger attack action card you play this turn gains ""When this hits a hero, they lose 5{h}.""
 
 **Go again**"		Assassin / Ranger Action	Federico Musetti				No	S - OUT165 - N	/OUT165.png – OUT165 – N
@@ -443,7 +443,7 @@ OUT178	OUT	Seeker's Leggings							C	Generic, Equipment, Legs		Instant	Opt 1		**
 OUT179	OUT	Silken Gi							C	Generic, Equipment, Chest		Instant			**Instant** - Destroy Silken Gi: The next attack action card you play this turn has -1{p} and costs {r} less to play.		Generic Equipment - Chest	Alief Rusdiatama					S - OUT179 - N	/OUT179.png – OUT179 – N
 OUT180	OUT	Threadbare Tunic							C	Generic, Equipment, Chest		Instant			**Instant** - Destroy Threadbare Tunic: Gain {r}. Activate this ability only if you have no cards in hand.		Generic Equipment - Chest	Revazashvili E.					S - OUT180 - N	/OUT180.png – OUT180 – N
 OUT181	OUT	Fisticuffs							C	Generic, Equipment, Arms		Attack Reaction			**Attack Reaction** - {r}{r}, destroy Fistcuffs: Target attack action card gains +1{p}.		Generic Equipment - Arms	Maria Mishina					S - OUT181 - N	/OUT181.png – OUT181 – N
-OUT182	OUT	Fleet Foot Sandles							C	Generic, Equipment, Legs				Go again	**Attack Reaction** - Destroy Fleet Foot Sandles: Target attack with 1 or less base {p} gains **go again**.		Generic Equipment - Legs	Kalashnikova N.					S - OUT182 - N	/OUT182.png – OUT182 – N
+OUT182	OUT	Fleet Foot Sandals							C	Generic, Equipment, Legs				Go again	**Attack Reaction** - Destroy Fleet Foot Sandles: Target attack with 1 or less base {p} gains **go again**.		Generic Equipment - Legs	Kalashnikova N.					S - OUT182 - N	/OUT182.png – OUT182 – N
 OUT183	OUT	Amnesia	1	2	6	3			M	Generic, Action, Attack					When this hits a hero, cards and tokens they own l ose and can't gain names until the start of your next turn.		Generic Action - Attack	Riordan Delmiro				No	S - OUT183 - N	/OUT183.png – OUT183 – N
 OUT184	OUT	Down and Dirty	1	2	6	2			M	Generic, Action, Attack					While Down and Dirty is in your arsenal, you may defend with it.	Mobs scuttle through the undercity like pack rats, sniffing out havoc and any opportunity for a good mugging.	Generic Action - Attack	Kevin Sidartha				No	S - OUT184 - N	/OUT184.png – OUT184 – N
 OUT185	OUT	Give and Take	1	1	3	3			M	Generic, Action, Attack	Go again				"Whenever Give and Take is defended by an action card, you may put an action card with cost less than Give and Take's {p} from your graveyard on top of your deck.
@@ -547,10 +547,10 @@ Create a Ponder token."		Generic Instant	Nikolay Moskvin					S – OUT232 – N	
 OUT233	OUT	Peace of Mind	3	2					C	Generic, Instant					"The next time you would be dealt {p} damage, prevent 2 of that damage.
 
 Create a Ponder token."		Generic Instant	Nikolay Moskvin					S – OUT233 – N	/OUT233.png – OUT233 – N
-LGS125, OUT234	LGS, OUT	Bloodrot Pox							P, T	Generic, Token, Aura					At the beginning of your end phase, destroy Bloodrot Pox, then it deals 2 damage to you unless you pay {r}{r}{r}.		Generic Token - Aura	Carlos Cruchaga					S – LGS125 – N	/LGS125.png – LGS125 – N
+LGS125, OUT234	LGS, OUT	Bloodrot Pox							P, T	Generic, Token, Aura					At the beginning of your end phase, destroy Bloodrot Pox, then it deals 2 damage to you unless you pay {r}{r}{r}.		Generic Token - Aura	Carlos Cruchaga					S – LGS125 – N, S – OUT234 – N	/LGS125.png – LGS125 – N, /OUT234.png – OUT234 – N
 LGS126, OUT235	LGS, OUT	Frailty							P, T	Generic, Token, Aura					"Your attack action cards played from arsenal and weapon attacks have -1{p}.
 
-At the beginning of your end phase destroy Frailty."		Generic Token - Aura	Daria Khlebnikova					S – LGS126 – N	/LGS126.png – LGS126 – N
-LGS127, OUT236	LGS, OUT	Inertia							P, T	Generic, Token, Aura					At the beginning of your end phase, destroy Inertia, then put all cards from your hand and arsenal on the bottom of your deck.		Generic Token - Aura	Othon Nikolaidis					S – LGS127 – N	/LGS127.png – LGS127 – N
+At the beginning of your end phase destroy Frailty."		Generic Token - Aura	Daria Khlebnikova					S – LGS126 – N, S – OUT235 – N	/LGS126.png – LGS126 – N, /OUT235.png – OUT235 – N
+LGS127, OUT236	LGS, OUT	Inertia							P, T	Generic, Token, Aura					At the beginning of your end phase, destroy Inertia, then put all cards from your hand and arsenal on the bottom of your deck.		Generic Token - Aura	Othon Nikolaidis					S – LGS127 – N, S – OUT236 – N	/LGS127.png – LGS127 – N, /OUT236.png – OUT236 – N
 DYN244, OUT237	DYN, OUT	Ponder							C	Generic, Token, Aura					At the beginning of your end phase, destroy Ponder and draw a card.		Generic Token – Aura	Henrique Lindner					S R – DYN244 – N, S – OUT237 – N	https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN244.png – DYN244 – N, /OUT237.png – OUT237 – N
 LGS083, WTR224, ARC218, CRU195, MON306, ELE237, UPR224, OUT238	LGS, WTR, ARC, CRU, MON, ELE, UPR, OUT	Cracked Bauble	2						P, T, T, C, T, T, T	Generic, Resource					*(Cracked Bauble exists to support Booster Draft and sealed Deck formats. A player may add any number of Cracked Baubles to their deck. Typically, a player would only do this if they did not have enough legally playable cards to make a 30 card minimum deck.)*		Generic Resource	Alexandra Malygina, Sam Yang, Sam Yang, Sam Yang, Sam Yang, Sam Yang, Sam Yang					C – LGS083 – N, S – WTR224 – A, S – WTR224 – U, S – ARC218 – F, S – ARC218 – U, R – CRU195 – F, R – CRU195 – U, S – MON306 – F, S – MON306 – U, S – ELE237 – F, S – ELE237 – U, S – UPR224 – N, S – OUT238 – N	https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS083.png – LGS083 – N, https://storage.googleapis.com/fabmaster/cardfaces/2019-WTR/WTR224.png – WTR224 – A, https://storage.googleapis.com/fabmaster/cardfaces/2020-U-WTR/U-WTR224.png – WTR224 – U, https://storage.googleapis.com/fabmaster/media/images/ARC218.width-450.png – ARC218 – F, https://storage.googleapis.com/fabmaster/media/images/U-ARC218.width-450.png - ARC218 – U, https://storage.googleapis.com/fabmaster/cardfaces/2020-CRU/CRU195.png – CRU195 – F, https://storage.googleapis.com/fabmaster/cardfaces/2021-U-CRU/U-CRU195.png – CRU195 – U, https://storage.googleapis.com/fabmaster/media/images/MON306.width-450.png - MON306 - F,  https://storage.googleapis.com/fabmaster/media/images/U-MON306.width-450.png - MON306 – U, https://storage.googleapis.com/fabmaster/media/images/ELE237.width-450.png – ELE237 - F, https://storage.googleapis.com/fabmaster/media/images/U-ELE237.width-450.png – ELE237 – U, https://storage.googleapis.com/fabmaster/cardfaces/2022-UPR/UPR224.png - UPR224 – N, /OUT238.png – OUT238 – N

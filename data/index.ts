@@ -170,8 +170,8 @@
       
     },],
     name: "Spider’s Bite",
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
+    rarities: [Rarity.Rare,Rarity.Token],
+    rarity: Rarity.Token,
     setIdentifiers: ["DYN115","DYN116","OUT004"],
     sets: [Release.Dynasty,Release.Outsiders],
     specialImageName: "DYN115",
@@ -4343,7 +4343,7 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
     
     
     
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -4755,7 +4755,7 @@ When this defends an attack with **go again**, the attacking hero discards their
     defense: 3,
     functionalText: `**Legendary Riptide Specialization**
 
-When this defends and the attacking hero has played or activated a reaction this chain link, put the top card of their deck into their graveyard, then they lose X{l}, where X is the number of cards in their graveyard with that name.`,
+When this defends and the attacking hero has played or activated a reaction this chain link, put the top card of their deck into their graveyard, then they lose X{h}, where X is the number of cards in their graveyard with that name.`,
     
     
     
@@ -7259,7 +7259,7 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     
     pitch: 1,
     power: 6,
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -7302,7 +7302,7 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     
     pitch: 2,
     power: 5,
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -7345,7 +7345,7 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     
     pitch: 3,
     power: 4,
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -8065,7 +8065,7 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
     
   },{
     artists: ["Kalashnikova N."],
-    cardIdentifier: "fleet-foot-sandles",
+    cardIdentifier: "fleet-foot-sandals",
     classes: [Class.Generic],
     defaultImageName: "OUT182",
     images: [{
@@ -8075,7 +8075,7 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
       set: Release.Outsiders,
       
     },],
-    name: "Fleet Foot Sandles",
+    name: "Fleet Foot Sandals",
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT182"],
@@ -10443,12 +10443,18 @@ Create a Ponder token.`,
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "bloodrot-pox",
     classes: [Class.Generic],
-    defaultImageName: "LGS125",
+    defaultImageName: "OUT234",
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS125",
       name: "LGS125",
       set: Release.Promos,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT234",
+      name: "OUT234",
+      set: Release.Outsiders,
       
     },],
     name: "Bloodrot Pox",
@@ -10484,12 +10490,18 @@ Create a Ponder token.`,
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "frailty",
     classes: [Class.Generic],
-    defaultImageName: "LGS126",
+    defaultImageName: "OUT235",
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS126",
       name: "LGS126",
       set: Release.Promos,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT235",
+      name: "OUT235",
+      set: Release.Outsiders,
       
     },],
     name: "Frailty",
@@ -10527,12 +10539,18 @@ At the beginning of your end phase destroy Frailty.`,
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "inertia",
     classes: [Class.Generic],
-    defaultImageName: "LGS127",
+    defaultImageName: "OUT236",
     images: [{
       edition: ReleaseEdition.Promo,
       identifier: "LGS127",
       name: "LGS127",
       set: Release.Promos,
+      
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT236",
+      name: "OUT236",
+      set: Release.Outsiders,
       
     },],
     name: "Inertia",

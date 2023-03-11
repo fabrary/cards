@@ -2603,7 +2603,7 @@
 ["OUT101"] = { name = "Barbed Undertow (1)", text = "'If Barbed Undertow has an aim counter, it gains When this hits a hero, choose red, yellow, or blue.  Until the start of your next turn, they can't pitch cards of the chosen color.'"}
 ["OUT102"] = { name = "Buzzsaw Trap (3)", text = "'**Legendary Riptide Specialization**\n\nWhen this defends an attack with {p} greater than its base, the attack can't gain {p} this turn.'"}
 ["OUT103"] = { name = "Collapsing Trap (3)", text = "'**Legendary Riptide Specialization**\n\nWhen this defends an attack with **go again**, the attacking hero discards their hand then draws that many cards minus 1.'"}
-["OUT104"] = { name = "Spike Pit Trap (3)", text = "'**Legendary Riptide Specialization**\n\nWhen this defends and the attacking hero has played or activated a reaction this chain link, put the top card of their deck into their graveyard, then they lose X{l}, where X is the number of cards in their graveyard with that name.'"}
+["OUT104"] = { name = "Spike Pit Trap (3)", text = "'**Legendary Riptide Specialization**\n\nWhen this defends and the attacking hero has played or activated a reaction this chain link, put the top card of their deck into their graveyard, then they lose X{h}, where X is the number of cards in their graveyard with that name.'"}
 ["OUT105"] = { name = "Melting Point (1)", text = "'Your next arrow attack this turn gains +4{p}.\n\nIf it has an aim counter, it gains "When this hits a hero, destroy a 1H weapon they control with 1 base {p}."\n\n**Go again**'"}
 ["OUT106"] = { name = "Boulder Trap (2)", text = "'When this defends an attack with {p} greater than its base, put a -1{d} counter on an equipment the attacking hero controls.'"}
 ["OUT107"] = { name = "Pendulum Trap (2)", text = "'When this defends and the attacking hero has played or activated a reaction this chain link, put the top 2 cards of their deck into their graveyard.'"}
@@ -2681,7 +2681,7 @@
 ["OUT179"] = { name = "Silken Gi", text = "'**Instant** - Destroy Silken Gi: The next attack action card you play this turn has -1{p} and costs {r} less to play.'"}
 ["OUT180"] = { name = "Threadbare Tunic", text = "'**Instant** - Destroy Threadbare Tunic: Gain {r}. Activate this ability only if you have no cards in hand.'"}
 ["OUT181"] = { name = "Fisticuffs", text = "'**Attack Reaction** - {r}{r}, destroy Fistcuffs: Target attack action card gains +1{p}.'"}
-["OUT182"] = { name = "Fleet Foot Sandles", text = "'**Attack Reaction** - Destroy Fleet Foot Sandles: Target attack with 1 or less base {p} gains **go again**.'"}
+["OUT182"] = { name = "Fleet Foot Sandals", text = "'**Attack Reaction** - Destroy Fleet Foot Sandles: Target attack with 1 or less base {p} gains **go again**.'"}
 ["OUT183"] = { name = "Amnesia (1)", text = "'When this hits a hero, cards and tokens they own l ose and can't gain names until the start of your next turn.'"}
 ["OUT184"] = { name = "Down and Dirty (1)", text = "'While Down and Dirty is in your arsenal, you may defend with it.'"}
 ["OUT185"] = { name = "Give and Take (1)", text = "'Whenever Give and Take is defended by an action card, you may put an action card with cost less than Give and Take's {p} from your graveyard on top of your deck.\n\n**Go again**'"}
