@@ -1,5 +1,7 @@
 Identifiers	Set Identifiers	Name	Pitch	Cost	Power	Defense	Health	Intelligence	Rarity	Types	Card Keywords	Abilities and Effects	Ability and Effect Keywords	Granted Keywords	Functional Text	Flavor Text	Type Text	Artists	Card Played Horizontally	Blitz Legal	CC Legal	Commoner Legal	Variations	Image URLs
-OUT000	OUT																						S – OUT000 – N	/OUT000.png – OUT000 – N
+OUT000	OUT	Plague Hive	2						F	Assassin, Ranger, Resource, Gem	Legendary				"**Legendary**
+
+When you pitch Plague Hive, for each opposing hero, choose Inertia, Frailty, or Bloodrot Pox at random and create that token under their control."		Assassin / Ranger Resource – Gem	Mark Poole				No	S – OUT000 – N	/OUT000.png – OUT000 – N
 OUT001	OUT	Uzuri, Switchblade					40	4	T	Assassin, Hero		Once per Turn Attack Reaction			**Once per Turn Attack Reaction** - Banish a card from your hand face down: Turn the card banished this way face up. If it's an attack action card with cost 2 or less, put target attacking card with **stealth** from the active chain link on the bottom of it's owner's deck, then put the banished card onto the active chain link as the attacking card.		Assassin Hero					No	S – OUT001 – N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT001.width-450.png - OUT001 - N
 OUT002	OUT	Uzuri					20	4	T	Assassin, Hero, Young		Once per Turn Attack Reaction			**Once per Turn Attack Reaction** - Banish a card from your hand face down: Turn the card banished this way face up. If it's an attack action card with cost 2 or less, put target attacking card with **stealth** from the active chain link on the bottom of it's owner's deck, then put the banished card onto the active chain link as the attacking card.		Assassin Hero – Young						S – OUT002 – N	https://dhhim4ltzu1pj.cloudfront.net/media/images/OUT002.width-450.png - OUT002 - N
 OUT003	OUT	Arakni, Solitary Confinement					19	4	T	Assassin, Hero, Young							Assassin Hero – Young						C - HER079 - N, S – OUT003 – N	/HER079.png – HER079 – N, /OUT003.width-450.png – OUT003 – N
@@ -392,7 +394,7 @@ OUT159	OUT	Codex of Bloodrot	2	0		2			M	Assassin, Ranger, Action	Go again				"Ea
 
 Create a Ponder token under your control and a Bloodrot Pox token under each opponent's control.
 
-**Go again**"		Assassin / Ranger Action	Mateusz Wiśniewski				No	S - OUT159 - N	/OUT159.png – OUT159 – N
+**Go again**"		Assassin / Ranger Action	Mateusz Wiśniewski				No	S - OUT159 - N, C – OUT159 – N – FA	/OUT159.png – OUT159 – N,  /OUT159_Marvel.png – OUT159_Marvel – N – FA
 OUT160	OUT	Codex of Frailty	2	0		2			M – OUT160 – N, V – OUT160 – N – AA	Assassin, Ranger, Action	Go again				"Each hero puts an attack action card from their graveyard face down into their arsenal. Each hero that does, discards a card.
 
 Create a Ponder token under your control and a Frailty token under each opponent's control.

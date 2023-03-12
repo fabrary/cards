@@ -17,6 +17,49 @@
   } from './interfaces';
 
   const cards1: Card[] = [{
+    artists: ["Mark Poole"],
+    cardIdentifier: "plague-hive-yellow",
+    classes: [Class.Assassin,Class.Ranger],
+    defaultImageName: "OUT000",
+    images: [{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT000",
+      name: "OUT000",
+      set: Release.Outsiders,
+      
+    },],
+    name: "Plague Hive",
+    rarities: [Rarity.Fabled],
+    rarity: Rarity.Fabled,
+    setIdentifiers: ["OUT000"],
+    sets: [Release.Outsiders],
+    specialImageName: "OUT000",
+    subtypes: [Subtype.Gem],
+    types: [Type.Resource],
+    typeText: "Assassin / Ranger Resource – Gem",
+
+    
+    
+    functionalText: `**Legendary**
+
+When you pitch Plague Hive, for each opposing hero, choose Inertia, Frailty, or Bloodrot Pox at random and create that token under their control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Legendary],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
     artists: [],
     cardIdentifier: "uzuri-switchblade",
     classes: [Class.Assassin],
@@ -7087,13 +7130,19 @@ When this hits a hero, create a Frailty token under their control.`,
       name: "OUT159",
       set: Release.Outsiders,
       
+    },{
+      edition: ReleaseEdition.Promo,
+      identifier: "OUT159_Marvel",
+      name: "OUT159_Marvel",
+      set: Release.Outsiders,
+      treatment: Treatment.FA,
     },],
     name: "Codex of Bloodrot",
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["OUT159"],
     sets: [Release.Outsiders],
-    specialImageName: "OUT159",
+    specialImageName: "OUT159_Marvel",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Assassin / Ranger Action",
@@ -27097,7 +27146,8 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Maxim Kostin"],
     cardIdentifier: "take-aim-yellow",
     classes: [Class.Ranger],
@@ -27154,8 +27204,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Maxim Kostin"],
     cardIdentifier: "take-aim-blue",
     classes: [Class.Ranger],

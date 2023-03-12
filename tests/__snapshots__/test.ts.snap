@@ -20080,6 +20080,13 @@ Create a Ponder token under your control and a Bloodrot Pox token under each opp
       "name": "OUT159",
       "set": "Outsiders",
     },
+    {
+      "edition": "Promo",
+      "identifier": "OUT159_Marvel",
+      "name": "OUT159_Marvel",
+      "set": "Outsiders",
+      "treatment": "Full Art",
+    },
   ],
   "keywords": [
     "Go again",
@@ -20099,7 +20106,7 @@ Create a Ponder token under your control and a Bloodrot Pox token under each opp
   "sets": [
     "Outsiders",
   ],
-  "specialImageName": "OUT159",
+  "specialImageName": "OUT159_Marvel",
   "subtypes": [
     "Non-Attack",
   ],
@@ -38543,6 +38550,50 @@ When this hits a hero, banish the top card of their deck.",
   "typeText": "Assassin Action – Attack",
   "types": [
     "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Fleet Foot Sandals (fleet-foot-sandals) 1`] = `
+{
+  "artists": [
+    "Kalashnikova N.",
+  ],
+  "cardIdentifier": "fleet-foot-sandals",
+  "classes": [
+    "Generic",
+  ],
+  "defaultImageName": "OUT182",
+  "functionalText": "**Attack Reaction** - Destroy Fleet Foot Sandles: Target attack with 1 or less base {p} gains **go again**.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT182",
+      "name": "OUT182",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Fleet Foot Sandals",
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "OUT182",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT182",
+  "subtypes": [
+    "Legs",
+  ],
+  "typeText": "Generic Equipment - Legs",
+  "types": [
+    "Equipment",
   ],
 }
 `;
