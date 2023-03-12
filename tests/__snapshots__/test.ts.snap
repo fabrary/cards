@@ -70489,6 +70489,57 @@ exports[`Check for unintentional updates Pitfall Trap (pitfall-trap-yellow) 1`] 
 }
 `;
 
+exports[`Check for unintentional updates Plague Hive (plague-hive-yellow) 1`] = `
+{
+  "artists": [
+    "Mark Poole",
+  ],
+  "cardIdentifier": "plague-hive-yellow",
+  "classes": [
+    "Assassin",
+    "Ranger",
+  ],
+  "defaultImageName": "OUT000",
+  "functionalText": "**Legendary**
+
+When you pitch Plague Hive, for each opposing hero, choose Inertia, Frailty, or Bloodrot Pox at random and create that token under their control.",
+  "images": [
+    {
+      "edition": "Promo",
+      "identifier": "OUT000",
+      "name": "OUT000",
+      "set": "Outsiders",
+    },
+  ],
+  "keywords": [
+    "Legendary",
+  ],
+  "name": "Plague Hive",
+  "pitch": 2,
+  "rarities": [
+    "Fabled",
+  ],
+  "rarity": "Fabled",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "OUT000",
+  ],
+  "sets": [
+    "Outsiders",
+  ],
+  "specialImageName": "OUT000",
+  "subtypes": [
+    "Gem",
+  ],
+  "typeText": "Assassin / Ranger Resource – Gem",
+  "types": [
+    "Resource",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Plasma Barrel Shot (plasma-barrel-shot) 1`] = `
 {
   "artists": [
