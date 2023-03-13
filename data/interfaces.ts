@@ -18,11 +18,11 @@ export interface Card {
   defense?: number;
   functionalText?: string;
   fusions?: Fusion[];
+  life?: number;
   hero?: Hero;
   intellect?: number;
   isCardBack?: boolean;
   keywords?: Keyword[];
-  life?: number;
   oppositeSideCardIdentifier?: string;
   pitch?: number;
   power?: number;

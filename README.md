@@ -15,13 +15,6 @@
 - `card.type` has been deprecated in favor of `card.types` to match the 2.0 rule set
 - `card.subType` has been deprecated in favor of `card.subtypes` to match the 2.0 rule set
 
-# 5.0 breaking changes
-
-- `card.class` has been deprecated in favor of `card.classes` to match the 2.0 rule set
-- Images now reference file names instead of complete URLs. This significantly reduces the bundle size of the library and adds flexibility for projects to use their own image hosting. See [fabrary/images](https://github.com/fabrary/images) for an example of how to generate webp files of all cards.
-  - `card.defaultImageUrl` is deprecated in favor of `card.defaultImageName` and `card.specialImageName`
-  - `card.images.url` is deprecated in favor of `card.images.name`
-
 ## Overview and installation
 
 A library of all Flesh and Blood cards, available as a bundled TypeScript file with matching interfaces. Source data comes from the amazing [the-fab-cube/flesh-and-blood-cards](https://github.com/the-fab-cube/flesh-and-blood-cards) repository maintained by [Tyler Luce](https://github.com/luceleaftea) - all credit goes to him, and all errors are probably added by me in this project 😅.

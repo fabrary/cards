@@ -14,7 +14,7 @@ import {
   Talent,
   Treatment,
   Type,
-} from "./interfaces";
+} from "./Shared";
 
 const getEnumValues = (values: any, enumName: string, enm: any) => {
   if (!values || (values.length === 1 && !values[0])) {
@@ -186,7 +186,7 @@ export const writeFiles = (
   const ts = generateTS(artists, cards);
   writeFileSync(`${outputDirectory}/index.ts`, ts);
   copyFileSync(
-    `${__dirname}/interfaces.ts`,
+    `${__dirname}/Shared/interfaces.ts`,
     `${outputDirectory}/interfaces.ts`
   );
 };
