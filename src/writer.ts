@@ -2,11 +2,12 @@ import { copyFileSync, existsSync, mkdirSync, writeFileSync } from "fs";
 import {
   Card,
   Class,
+  Foiling,
   Format,
   Fusion,
   Hero,
-  Image,
   Keyword,
+  Printing,
   Rarity,
   Release,
   ReleaseEdition,
@@ -14,7 +15,7 @@ import {
   Talent,
   Treatment,
   Type,
-} from "./interfaces";
+} from "./Shared";
 
 const getEnumValues = (values: any, enumName: string, enm: any) => {
   if (!values || (values.length === 1 && !values[0])) {
@@ -33,13 +34,23 @@ const getEnumValue = (value: any, enumName: string, enm: any) => {
   return `${enumName}.${enumValue}`;
 };
 
-const getImages = (images: Image[]) => {
-  return images.reduce(
-    (images, { edition, identifier, set, treatment, name }) =>
-      (images += `{
-      edition: ${getEnumValue(edition, "ReleaseEdition", ReleaseEdition)},
+const getPrintings = (printings: Printing[]) => {
+  return printings.reduce(
+    (printings, { edition, foiling, identifier, set, treatment, image }) =>
+      (printings += `{
+      ${
+        edition
+          ? `edition: ${getEnumValue(
+              edition,
+              "ReleaseEdition",
+              ReleaseEdition
+            )},`
+          : ``
+      }${
+        foiling ? `foiling: ${getEnumValue(foiling, "Foiling", Foiling)},` : ``
+      }
       identifier: "${identifier}",
-      name: "${name}",
+      image: "${image}",
       set: ${getEnumValue(set, "Release", Release)},
       ${
         treatment
@@ -56,14 +67,14 @@ const generateCardTypeScript = (card: Card): String => {
     artists: [${card.artists.map((artist) => `"${artist}"`)}],
     cardIdentifier: "${card.cardIdentifier}",
     classes: [${getEnumValues(card.classes, "Class", Class)}],
-    defaultImageName: "${card.defaultImageName}",
-    images: [${getImages(card.images)}],
+    defaultImage: "${card.defaultImage}",
     name: "${card.name}",
+    printings: [${getPrintings(card.printings)}],
     rarities: [${getEnumValues(card.rarities, "Rarity", Rarity)}],
     rarity: ${getEnumValue(card.rarity, "Rarity", Rarity)},
     setIdentifiers: [${card.setIdentifiers.map((id) => `"${id}"`)}],
     sets: [${getEnumValues(card.sets, "Release", Release)}],
-    specialImageName: "${card.specialImageName}",
+    specialImage: "${card.specialImage}",
     subtypes: [${getEnumValues(card.subtypes, "Subtype", Subtype)}],
     types: [${getEnumValues(card.types, "Type", Type)}],
     typeText: "${card.typeText}",
@@ -135,9 +146,9 @@ const generateTS = (artists: string[], cards: Card[]): string => {
   const cards4 = cards.slice(Math.ceil((3 * cards.length) / 4), cards.length);
   const ts = `
   import {
-    Art,
     Card,
     Class,
+    Foiling,
     Format,
     Fusion,
     Hero,
@@ -186,7 +197,7 @@ export const writeFiles = (
   const ts = generateTS(artists, cards);
   writeFileSync(`${outputDirectory}/index.ts`, ts);
   copyFileSync(
-    `${__dirname}/interfaces.ts`,
+    `${__dirname}/Shared/interfaces.ts`,
     `${outputDirectory}/interfaces.ts`
   );
 };

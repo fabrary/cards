@@ -1,4 +1,4 @@
-import { Card } from "./interfaces";
+import { Card } from "./Shared/interfaces";
 
 export const getArtists = (cards: Card[]): string[] => {
   const artistSet = new Set<string>();

@@ -5,22 +5,15 @@
 - [Enums](#enums)
 - [Working with this project](#working-with-this-project)
 
+# 8.0 breaking changes
+
+- `card.images` has been deprecated in favor of `card.printings` and will be removed in a future release
+- `defaultImageName` has been renamed `defaultImage` for brevity
+- `specialImageName` has been renamed `specialImage` for brevity
+
 # 7.0 breaking changes
 
 - `card.rarity` has been deprecated in favor of `card.rarities` and will be removed in a future release
-
-# 6.0 breaking changes
-
-- Eliminated card types (like ActionCard) because the 1:1 type:subtype mapping doesn't follow anymore (see Nitro Mechanoid)
-- `card.type` has been deprecated in favor of `card.types` to match the 2.0 rule set
-- `card.subType` has been deprecated in favor of `card.subtypes` to match the 2.0 rule set
-
-# 5.0 breaking changes
-
-- `card.class` has been deprecated in favor of `card.classes` to match the 2.0 rule set
-- Images now reference file names instead of complete URLs. This significantly reduces the bundle size of the library and adds flexibility for projects to use their own image hosting. See [fabrary/images](https://github.com/fabrary/images) for an example of how to generate webp files of all cards.
-  - `card.defaultImageUrl` is deprecated in favor of `card.defaultImageName` and `card.specialImageName`
-  - `card.images.url` is deprecated in favor of `card.images.name`
 
 ## Overview and installation
 
@@ -44,21 +37,21 @@ cards.forEach((card) => {
 
 ### Required
 
-| Field            | Data type            | Examples                                   |
-| ---------------- | -------------------- | ------------------------------------------ |
-| artists          | `string` array       | `[ "Riordan Delmiro" ]`                    |
-| cardIdentifier   | `string`             | `"snatch-red"`, `"aether-wildfire-red"`    |
-| classes          | `Class` enum array   | `["Generic"]`, `["Warrior","Wizard"]`      |
-| defaultImageName | `string`             | `"1HP001.width-450"`                       |
-| images           | `Image` array        | see **`Image`**                            |
-| name             | `string`             | `"Rain Razors"`, `"Pummel"`                |
-| rarities         | `Rarity` enum array  | `["Super Rare"]`, `["Token", "Majestic"]`  |
-| setIdentifiers   | `string` array       | `[ "1HP009", "CRU006" ]`                   |
-| sets             | `Release` enum array | `[ "History Pack 1", "Crucible of War" ]`  |
-| specialImageName | `string`             | `"1HP001.width-450"`                       |
-| subtypes         | `Subtype` enum array | `["OneHanded", "Dagger"]`, `["Aura"]`      |
-| types            | `Type` enum array    | `["Action"]`, `["Hero"]`                   |
-| typeText         | `string`             | `"Elemental Ranger Action – Arrow Attack"` |
+| Field          | Data type            | Examples                                   |
+| -------------- | -------------------- | ------------------------------------------ |
+| artists        | `string` array       | `[ "Riordan Delmiro" ]`                    |
+| cardIdentifier | `string`             | `"snatch-red"`, `"aether-wildfire-red"`    |
+| classes        | `Class` enum array   | `["Generic"]`, `["Warrior","Wizard"]`      |
+| defaultImage   | `string`             | `"1HP001.width-450"`                       |
+| printings      | `Printing` array     | see **`Printing`**                         |
+| name           | `string`             | `"Rain Razors"`, `"Pummel"`                |
+| rarities       | `Rarity` enum array  | `["Super Rare"]`, `["Token", "Majestic"]`  |
+| setIdentifiers | `string` array       | `[ "1HP009", "CRU006" ]`                   |
+| sets           | `Release` enum array | `[ "History Pack 1", "Crucible of War" ]`  |
+| specialImage   | `string`             | `"1HP001.width-450"`                       |
+| subtypes       | `Subtype` enum array | `["OneHanded", "Dagger"]`, `["Aura"]`      |
+| types          | `Type` enum array    | `["Action"]`, `["Hero"]`                   |
+| typeText       | `string`             | `"Elemental Ranger Action – Arrow Attack"` |
 
 ### Optional
 
@@ -84,14 +77,14 @@ cards.forEach((card) => {
 | talents                    | `Talent` enum array  | `[ "Draconic" ]`                     |
 | young                      | `boolean`            | `true`                               |
 
-**`Image`** contains information needed to correctly display card images
+**`Printing`** contains information about the different printings a card has had (e.g. different sets, foilings)
 
 | Field      | Data type                         | Examples                            |
 | ---------- | --------------------------------- | ----------------------------------- |
-| art        | `string` of `Art` enum            | `"Cold Foil"`, `"Standard"`         |
 | edition    | `string` of `ReleaseEdition` enum | `"Alpha"`, `"Unlimited"`            |
+| foiling    | `string` of `Foiling` enum        | `"Cold"`, `"Rainbow"`               |
 | identifier | `string`                          | `"1HP001"`                          |
-| name       | `string`                          | `"1HP001.width-450"`                |
+| image      | `string`                          | `"1HP001.width-450"`                |
 | set        | `string` of `Release` enum        | `"Dynasty"`, `"Uprising"`           |
 | treatment  | `string` of `Treatment` enum      | `"Alternate Art"`, `"Extended Art"` |
 

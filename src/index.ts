@@ -1,26 +1,14 @@
-import { parseCardData } from "./parser";
-import { mapCardData } from "./mapper";
 import { writeFiles } from "./writer";
 import { getArtists } from "./artists";
-import { filterOutUnwantedCards } from "./excludes";
-import { Card } from "./interfaces";
+import { Card } from "./Shared/interfaces";
+import { spoiledCards } from "./Spoiled";
+import { releasedCards } from "./Released";
 
-const file = `${__dirname}/card.csv`;
 const outputDirectory = "data";
 
-const spoilers = `${__dirname}/spoilers.csv`;
-
-const parsedReleasedCards = parseCardData(file).filter(filterOutUnwantedCards);
-const parsedSpoilerCards = parseCardData(spoilers)
-  .filter((card) => !!card.name)
-  .filter(filterOutUnwantedCards);
-
-const releaseCards = mapCardData(parsedReleasedCards);
-const spoilerCards = mapCardData(parsedSpoilerCards);
-
-const deduplicatedCards: Card[] = [...spoilerCards];
-releaseCards.forEach((card) => {
-  const isDuplicate = spoilerCards.find(
+const deduplicatedCards: Card[] = [...spoiledCards];
+releasedCards.forEach((card) => {
+  const isDuplicate = spoiledCards.find(
     ({ cardIdentifier }) => cardIdentifier === card.cardIdentifier
   );
   if (isDuplicate) {

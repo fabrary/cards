@@ -2,14 +2,14 @@ export interface Card {
   artists: string[];
   cardIdentifier: string;
   classes: Class[];
-  defaultImageName: string;
-  images: Image[];
+  defaultImage: string;
   name: string;
+  printings: Printing[];
   rarities: Rarity[];
   rarity: Rarity;
   setIdentifiers: string[];
   sets: Release[];
-  specialImageName: string;
+  specialImage: string;
   subtypes: Subtype[];
   types: Type[];
   typeText: string;
@@ -18,11 +18,11 @@ export interface Card {
   defense?: number;
   functionalText?: string;
   fusions?: Fusion[];
+  life?: number;
   hero?: Hero;
   intellect?: number;
   isCardBack?: boolean;
   keywords?: Keyword[];
-  life?: number;
   oppositeSideCardIdentifier?: string;
   pitch?: number;
   power?: number;
@@ -35,13 +35,19 @@ export interface Card {
   young?: boolean;
 }
 
-export interface Image {
-  art?: Art;
-  edition: ReleaseEdition;
+export interface Printing {
+  edition?: ReleaseEdition;
+  foiling?: Foiling;
   identifier: string;
-  name: string;
+  image: string;
   set: Release;
   treatment?: Treatment;
+}
+
+export enum Foiling {
+  C = "Cold",
+  G = "Gold",
+  R = "Rainbow",
 }
 
 export enum Treatment {
@@ -139,8 +145,8 @@ export enum Release {
 export enum ReleaseEdition {
   Alpha = "Alpha",
   First = "First",
-  Promo = "Promo",
   Unlimited = "Unlimited",
+  Promo = "Promo",
 }
 
 export enum Talent {
@@ -291,11 +297,4 @@ export enum Keyword {
   Transform = "Transform",
   Unfreeze = "Unfreeze",
   Ward = "Ward",
-}
-
-export enum Art {
-  ColdFoil = "Cold foil",
-  GoldColdFoil = "Gold cold foil",
-  RainbowFoil = "Rainbow foil",
-  Standard = "Standard",
 }
