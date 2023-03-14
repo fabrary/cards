@@ -1,6 +1,9 @@
 import {
   addOppositeSideCardIdentifiers,
+  fullSetIdentifiers,
+  getDefaultImage,
   getNumberOrUndefined,
+  getSpecialImage,
   getStringIfNotNumber,
 } from "../Shared";
 import {
@@ -10,8 +13,8 @@ import {
   Format,
   Fusion,
   Hero,
-  Image,
   Keyword,
+  Printing,
   Rarity,
   Release,
   ReleaseEdition,
@@ -37,83 +40,6 @@ const getClasses = (card: ParsedCard): Class[] => {
     classes.push(Class.Generic);
   }
   return classes;
-};
-
-const getDefaultImageName = (card: ParsedCard): string => {
-  const images = getImages(card);
-  const firstEdition = images.find(
-    (image) => image.edition === ReleaseEdition.First
-  );
-  const alphaEdition = images.find(
-    (image) => image.edition === ReleaseEdition.Alpha
-  );
-  const unlimitedEdition = images.find(
-    (image) => image.edition === ReleaseEdition.Unlimited
-  );
-  const nonPromoEdition = images.find((image) => {
-    const isFullSet = fullSetIdentifiers[image.name.substring(0, 3)];
-    return !!isFullSet;
-  });
-  const standardEdition = images.find((image) => !image.treatment);
-
-  const name =
-    images.length > 0
-      ? firstEdition?.name ||
-        alphaEdition?.name ||
-        unlimitedEdition?.name ||
-        nonPromoEdition?.name ||
-        standardEdition?.name ||
-        images.find(({ name }) => !!name)?.name ||
-        ""
-      : "";
-  if (!name) {
-    // console.log(`Missing images for ${card.name}`);
-  }
-  return name;
-};
-
-const getSpecialImageName = (card: ParsedCard): string => {
-  const images = getImages(card);
-  const alternativeArt = images.find(
-    (image) => image.treatment === Treatment.AA
-  );
-  const fullArt = images.find((image) => image.treatment === Treatment.FA);
-  const extendedArt = images.find((image) => image.treatment === Treatment.EA);
-  const alternateBorder = images.find(
-    (image) => image.treatment === Treatment.AB
-  );
-  const alternateText = images.find(
-    (image) => image.treatment === Treatment.AT
-  );
-  const doubleSided = images.find((image) => image.treatment === Treatment.DS);
-  const firstEdition = images.find(
-    (image) => image.edition === ReleaseEdition.First
-  );
-  const alphaEdition = images.find(
-    (image) => image.edition === ReleaseEdition.Alpha
-  );
-  const unlimitedEdition = images.find(
-    (image) => image.edition === ReleaseEdition.Unlimited
-  );
-  let name =
-    images.length > 0
-      ? fullArt?.name ||
-        extendedArt?.name ||
-        alternateBorder?.name ||
-        doubleSided?.name ||
-        alternativeArt?.name ||
-        alternateText?.name ||
-        firstEdition?.name ||
-        alphaEdition?.name ||
-        unlimitedEdition?.name ||
-        images.find(({ name }) => !!name)?.name ||
-        ""
-      : "";
-  if (!name) {
-    // console.log(`Missing images for ${card.name}`);
-    name = getDefaultImageName(card);
-  }
-  return name;
 };
 
 const getFusions = (card: ParsedCard): Fusion[] => {
@@ -178,8 +104,8 @@ const setEditionMapping = {
   F: ReleaseEdition.First,
   U: ReleaseEdition.Unlimited,
 };
-const getImages = (card: ParsedCard): Image[] => {
-  const images: Image[] = [];
+const getPrintings = (card: ParsedCard): Printing[] => {
+  const images: Printing[] = [];
   const { printings } = card;
   for (const {
     artVariation,
@@ -193,7 +119,7 @@ const getImages = (card: ParsedCard): Image[] => {
     let edition = setEditionMapping[rawEdition];
 
     const treatment = Treatment[artVariation];
-    const name = !!imageUrl
+    const image = !!imageUrl
       ? imageUrl.substring(
           imageUrl.lastIndexOf("/") + 1,
           imageUrl.lastIndexOf(".")
@@ -205,7 +131,7 @@ const getImages = (card: ParsedCard): Image[] => {
         ...(edition ? { edition } : {}),
         ...(foiling ? { foiling } : {}),
         identifier: setIdentifier,
-        name,
+        image,
         set,
         ...(treatment ? { treatment } : {}),
       });
@@ -317,19 +243,6 @@ const getRestrictedFormats = (card: ParsedCard): Format[] => {
   return restrictedFormats;
 };
 
-const fullSetIdentifiers = {
-  "1HP": Release.HistoryPack1,
-  ARC: Release.ArcaneRising,
-  CRU: Release.CrucibleOfWar,
-  DYN: Release.Dynasty,
-  ELE: Release.TalesOfAria,
-  EVR: Release.Everfest,
-  MON: Release.Monarch,
-  OUT: Release.Outsiders,
-  UPR: Release.Uprising,
-  WTR: Release.WelcomeToRathe,
-};
-
 const setIdentifierToSetMappings = {
   ...fullSetIdentifiers,
 
@@ -386,21 +299,6 @@ const getSpecializations = (card: ParsedCard): Hero[] => {
   });
 
   return specializations;
-};
-
-const getSpecialCost = (card: ParsedCard): string | null => {
-  const { cost } = card;
-  return typeof cost === "string" ? cost : null;
-};
-
-const getSpecialDefense = (card: ParsedCard): string | null => {
-  const { defense } = card;
-  return typeof defense === "string" ? defense : null;
-};
-
-const getSpecialPower = (card: ParsedCard): string | null => {
-  const { power } = card;
-  return typeof power === "string" ? power : null;
 };
 
 const getTalents = (card: ParsedCard): Talent[] => {
@@ -462,19 +360,20 @@ const getYoung = (card: ParsedCard): boolean | null => {
 
 const getCardData = (card: ParsedCard): Card => {
   const { subtypes, types } = getTypeAndSubType(card);
+  const printings = getPrintings(card);
 
   return {
     artists: card.artists,
     cardIdentifier: getIdentifier(card),
     classes: getClasses(card),
-    defaultImageName: getDefaultImageName(card),
-    images: getImages(card),
+    defaultImage: getDefaultImage(printings),
     name: card.name,
+    printings: getPrintings(card),
     rarities: getRarities(card),
     rarity: getRarity(card) as Rarity,
     setIdentifiers: card.setIdentifiers,
     sets: getSets(card),
-    specialImageName: getSpecialImageName(card),
+    specialImage: getSpecialImage(printings),
     subtypes,
     types,
     typeText: card.typeText,

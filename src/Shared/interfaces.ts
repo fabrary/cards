@@ -2,14 +2,14 @@ export interface Card {
   artists: string[];
   cardIdentifier: string;
   classes: Class[];
-  defaultImageName: string;
-  images: Image[];
+  defaultImage: string;
   name: string;
+  printings: Printing[];
   rarities: Rarity[];
   rarity: Rarity;
   setIdentifiers: string[];
   sets: Release[];
-  specialImageName: string;
+  specialImage: string;
   subtypes: Subtype[];
   types: Type[];
   typeText: string;
@@ -35,11 +35,11 @@ export interface Card {
   young?: boolean;
 }
 
-export interface Image {
+export interface Printing {
   edition?: ReleaseEdition;
   foiling?: Foiling;
   identifier: string;
-  name: string;
+  image: string;
   set: Release;
   treatment?: Treatment;
 }

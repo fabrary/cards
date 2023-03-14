@@ -1,4 +1,3 @@
-import { Art } from "fab-cards";
 import { readFileSync } from "fs";
 
 export interface Printing {

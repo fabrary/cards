@@ -6,8 +6,8 @@ import {
   Format,
   Fusion,
   Hero,
-  Image,
   Keyword,
+  Printing,
   Rarity,
   Release,
   ReleaseEdition,
@@ -34,10 +34,10 @@ const getEnumValue = (value: any, enumName: string, enm: any) => {
   return `${enumName}.${enumValue}`;
 };
 
-const getImages = (images: Image[]) => {
-  return images.reduce(
-    (images, { edition, foiling, identifier, set, treatment, name }) =>
-      (images += `{
+const getPrintings = (printings: Printing[]) => {
+  return printings.reduce(
+    (printings, { edition, foiling, identifier, set, treatment, image }) =>
+      (printings += `{
       ${
         edition
           ? `edition: ${getEnumValue(
@@ -50,7 +50,7 @@ const getImages = (images: Image[]) => {
         foiling ? `foiling: ${getEnumValue(foiling, "Foiling", Foiling)},` : ``
       }
       identifier: "${identifier}",
-      name: "${name}",
+      image: "${image}",
       set: ${getEnumValue(set, "Release", Release)},
       ${
         treatment
@@ -67,14 +67,14 @@ const generateCardTypeScript = (card: Card): String => {
     artists: [${card.artists.map((artist) => `"${artist}"`)}],
     cardIdentifier: "${card.cardIdentifier}",
     classes: [${getEnumValues(card.classes, "Class", Class)}],
-    defaultImageName: "${card.defaultImageName}",
-    images: [${getImages(card.images)}],
+    defaultImage: "${card.defaultImage}",
     name: "${card.name}",
+    printings: [${getPrintings(card.printings)}],
     rarities: [${getEnumValues(card.rarities, "Rarity", Rarity)}],
     rarity: ${getEnumValue(card.rarity, "Rarity", Rarity)},
     setIdentifiers: [${card.setIdentifiers.map((id) => `"${id}"`)}],
     sets: [${getEnumValues(card.sets, "Release", Release)}],
-    specialImageName: "${card.specialImageName}",
+    specialImage: "${card.specialImage}",
     subtypes: [${getEnumValues(card.subtypes, "Subtype", Subtype)}],
     types: [${getEnumValues(card.types, "Type", Type)}],
     typeText: "${card.typeText}",
