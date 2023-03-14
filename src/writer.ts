@@ -2,6 +2,7 @@ import { copyFileSync, existsSync, mkdirSync, writeFileSync } from "fs";
 import {
   Card,
   Class,
+  Foiling,
   Format,
   Fusion,
   Hero,
@@ -35,9 +36,19 @@ const getEnumValue = (value: any, enumName: string, enm: any) => {
 
 const getImages = (images: Image[]) => {
   return images.reduce(
-    (images, { edition, identifier, set, treatment, name }) =>
+    (images, { edition, foiling, identifier, set, treatment, name }) =>
       (images += `{
-      edition: ${getEnumValue(edition, "ReleaseEdition", ReleaseEdition)},
+      ${
+        edition
+          ? `edition: ${getEnumValue(
+              edition,
+              "ReleaseEdition",
+              ReleaseEdition
+            )},`
+          : ``
+      }${
+        foiling ? `foiling: ${getEnumValue(foiling, "Foiling", Foiling)},` : ``
+      }
       identifier: "${identifier}",
       name: "${name}",
       set: ${getEnumValue(set, "Release", Release)},
@@ -135,9 +146,9 @@ const generateTS = (artists: string[], cards: Card[]): string => {
   const cards4 = cards.slice(Math.ceil((3 * cards.length) / 4), cards.length);
   const ts = `
   import {
-    Art,
     Card,
     Class,
+    Foiling,
     Format,
     Fusion,
     Hero,

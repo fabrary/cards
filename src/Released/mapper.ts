@@ -6,6 +6,7 @@ import {
 import {
   Card,
   Class,
+  Foiling,
   Format,
   Fusion,
   Hero,
@@ -62,7 +63,8 @@ const getDefaultImageName = (card: ParsedCard): string => {
         unlimitedEdition?.name ||
         nonPromoEdition?.name ||
         standardEdition?.name ||
-        images[0].name
+        images.find(({ name }) => !!name)?.name ||
+        ""
       : "";
   if (!name) {
     // console.log(`Missing images for ${card.name}`);
@@ -104,7 +106,8 @@ const getSpecialImageName = (card: ParsedCard): string => {
         firstEdition?.name ||
         alphaEdition?.name ||
         unlimitedEdition?.name ||
-        images[0].name
+        images.find(({ name }) => !!name)?.name ||
+        ""
       : "";
   if (!name) {
     // console.log(`Missing images for ${card.name}`);
@@ -174,7 +177,6 @@ const setEditionMapping = {
   A: ReleaseEdition.Alpha,
   F: ReleaseEdition.First,
   U: ReleaseEdition.Unlimited,
-  N: ReleaseEdition.Promo,
 };
 const getImages = (card: ParsedCard): Image[] => {
   const images: Image[] = [];
@@ -187,10 +189,9 @@ const getImages = (card: ParsedCard): Image[] => {
     setIdentifier,
     set: rawSet,
   } of printings) {
-    // const [url, identifier, rawEdition, rawTreatment] = image.split(" - ");
-    // const setAbbreviation = identifier.slice(0, 3);
     const set = setIdentifierToSetMappings[rawSet];
-    const edition = setEditionMapping[rawEdition];
+    let edition = setEditionMapping[rawEdition];
+
     const treatment = Treatment[artVariation];
     const name = !!imageUrl
       ? imageUrl.substring(
@@ -198,14 +199,17 @@ const getImages = (card: ParsedCard): Image[] => {
           imageUrl.lastIndexOf(".")
         )
       : "";
-
-    images.push({
-      edition,
-      identifier: setIdentifier,
-      name,
-      set,
-      ...(treatment ? { treatment } : {}),
-    });
+    for (const rawFoiling of foilings) {
+      const foiling = Foiling[rawFoiling];
+      images.push({
+        ...(edition ? { edition } : {}),
+        ...(foiling ? { foiling } : {}),
+        identifier: setIdentifier,
+        name,
+        set,
+        ...(treatment ? { treatment } : {}),
+      });
+    }
   }
   return images;
 };

@@ -36,12 +36,18 @@ export interface Card {
 }
 
 export interface Image {
-  art?: Art;
-  edition: ReleaseEdition;
+  edition?: ReleaseEdition;
+  foiling?: Foiling;
   identifier: string;
   name: string;
   set: Release;
   treatment?: Treatment;
+}
+
+export enum Foiling {
+  C = "Cold",
+  G = "Gold",
+  R = "Rainbow",
 }
 
 export enum Treatment {
@@ -139,8 +145,8 @@ export enum Release {
 export enum ReleaseEdition {
   Alpha = "Alpha",
   First = "First",
-  Promo = "Promo",
   Unlimited = "Unlimited",
+  Promo = "Promo",
 }
 
 export enum Talent {
@@ -291,11 +297,4 @@ export enum Keyword {
   Transform = "Transform",
   Unfreeze = "Unfreeze",
   Ward = "Ward",
-}
-
-export enum Art {
-  ColdFoil = "Cold foil",
-  GoldColdFoil = "Gold cold foil",
-  RainbowFoil = "Rainbow foil",
-  Standard = "Standard",
 }

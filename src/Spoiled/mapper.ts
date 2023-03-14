@@ -173,7 +173,6 @@ const setEditionMapping = {
   A: ReleaseEdition.Alpha,
   F: ReleaseEdition.First,
   U: ReleaseEdition.Unlimited,
-  N: ReleaseEdition.Promo,
 };
 const getImages = (card: ParsedCard): Image[] => {
   const images: Image[] = [];
@@ -187,7 +186,7 @@ const getImages = (card: ParsedCard): Image[] => {
     const name = url.substring(url.lastIndexOf("/") + 1, url.lastIndexOf("."));
 
     images.push({
-      edition,
+      ...(!!edition ? { edition } : {}),
       identifier,
       name,
       set,
