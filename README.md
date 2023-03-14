@@ -7,13 +7,13 @@
 
 # 8.0 breaking changes
 
-- `card.images` has been deprecated in favor of `card.printings` and will be removed in a future release
+- `card.images` has been deprecated in favor of `card.printings`
 - `defaultImageName` has been renamed `defaultImage` for brevity
 - `specialImageName` has been renamed `specialImage` for brevity
 
 # 7.0 breaking changes
 
-- `card.rarity` has been deprecated in favor of `card.rarities` and will be removed in a future release
+- `card.rarity` has been deprecated in favor of `card.rarities`
 
 ## Overview and installation
 
