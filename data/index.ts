@@ -89,7 +89,7 @@ When you pitch Plague Hive, for each opposing hero, choose Inertia, Frailty, or 
     intellect: 4,
     
     
-    
+    life: 40,
     
     
     
@@ -130,7 +130,7 @@ When you pitch Plague Hive, for each opposing hero, choose Inertia, Frailty, or 
     intellect: 4,
     
     
-    
+    life: 20,
     
     
     
@@ -177,7 +177,7 @@ When you pitch Plague Hive, for each opposing hero, choose Inertia, Frailty, or 
     intellect: 4,
     
     
-    
+    life: 19,
     
     
     
@@ -1938,7 +1938,7 @@ When this hits a hero, create a Frailty token under their control.`,
     intellect: 4,
     
     
-    
+    life: 40,
     
     
     
@@ -2021,7 +2021,7 @@ When this hits a hero, create a Frailty token under their control.`,
     intellect: 4,
     
     
-    
+    life: 20,
     
     
     
@@ -2092,7 +2092,7 @@ When this hits a hero, create a Frailty token under their control.`,
     intellect: 4,
     
     
-    
+    life: 17,
     
     
     
@@ -4137,7 +4137,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     intellect: 4,
     
     keywords: [Keyword.Dominate,Keyword.GoAgain],
-    
+    life: 40,
     
     
     
@@ -4202,7 +4202,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     intellect: 4,
     
     keywords: [Keyword.Dominate,Keyword.GoAgain],
-    
+    life: 20,
     
     
     
@@ -4245,7 +4245,7 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
     intellect: 4,
     
     
-    
+    life: 38,
     
     
     
@@ -4288,7 +4288,7 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
     intellect: 4,
     
     
-    
+    life: 19,
     
     
     
@@ -82492,7 +82492,7 @@ The second time you attack with Dawnblade each turn, it gains +1{p} until end of
     rarity: Rarity.Common,
     setIdentifiers: ["LGS100","DVR004","RVD004"],
     sets: [Release.Promos,Release.ClassicBattlesRhinarDorinthea],
-    specialImageName: "",
+    specialImageName: "DVR004.width-450",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
     typeText: "Generic Equipment – Chest",
@@ -86181,7 +86181,7 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
     rarity: Rarity.Common,
     setIdentifiers: ["FAI005","UPR047"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
-    specialImageName: "",
+    specialImageName: "UPR047",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
     typeText: "Draconic Ninja Equipment – Arms",
@@ -86621,7 +86621,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
     rarity: Rarity.Rare,
     setIdentifiers: ["FAI009","UPR057"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
-    specialImageName: "",
+    specialImageName: "UPR057",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Draconic Ninja Action",
@@ -86762,7 +86762,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     rarity: Rarity.Common,
     setIdentifiers: ["FAI020","UPR060"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
-    specialImageName: "",
+    specialImageName: "UPR060",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Draconic Ninja Action – Attack",
@@ -86897,7 +86897,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     rarity: Rarity.Common,
     setIdentifiers: ["FAI016","UPR063"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
-    specialImageName: "",
+    specialImageName: "UPR063",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Draconic Ninja Action – Attack",
@@ -86985,7 +86985,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     rarity: Rarity.Common,
     setIdentifiers: ["FAI026","UPR065"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
-    specialImageName: "",
+    specialImageName: "UPR065",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Draconic Ninja Action – Attack",
@@ -87032,7 +87032,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     rarity: Rarity.Common,
     setIdentifiers: ["FAI018","UPR066"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
-    specialImageName: "",
+    specialImageName: "UPR066",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Draconic Ninja Action – Attack",
@@ -87120,7 +87120,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     rarity: Rarity.Common,
     setIdentifiers: ["FAI024","UPR068"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
-    specialImageName: "",
+    specialImageName: "UPR068",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Draconic Ninja Action – Attack",
@@ -87167,7 +87167,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     rarity: Rarity.Common,
     setIdentifiers: ["FAI015","UPR069"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
-    specialImageName: "",
+    specialImageName: "UPR069",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Draconic Ninja Action – Attack",
@@ -87255,7 +87255,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     rarity: Rarity.Common,
     setIdentifiers: ["FAI025","UPR071"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
-    specialImageName: "",
+    specialImageName: "UPR071",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Draconic Ninja Action – Attack",
@@ -87302,7 +87302,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     rarity: Rarity.Common,
     setIdentifiers: ["FAI017","UPR072"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
-    specialImageName: "",
+    specialImageName: "UPR072",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Draconic Ninja Action – Attack",
@@ -87560,7 +87560,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     rarity: Rarity.Common,
     setIdentifiers: ["FAI019","UPR078"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
-    specialImageName: "",
+    specialImageName: "UPR078",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Draconic Ninja Action – Attack",
@@ -87648,7 +87648,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     rarity: Rarity.Common,
     setIdentifiers: ["FAI023","UPR080"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
-    specialImageName: "",
+    specialImageName: "UPR080",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Draconic Ninja Action – Attack",
@@ -87873,7 +87873,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     rarity: Rarity.Common,
     setIdentifiers: ["FAI004","UPR085"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
-    specialImageName: "",
+    specialImageName: "UPR085",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
     typeText: "Draconic Equipment – Chest",
@@ -88343,7 +88343,7 @@ Draw 2 cards.`,
     rarity: Rarity.Common,
     setIdentifiers: ["FAI013","UPR095"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
-    specialImageName: "",
+    specialImageName: "UPR095",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Draconic Action – Attack",
@@ -92272,7 +92272,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     rarity: Rarity.Common,
     setIdentifiers: ["FAI006","UPR186"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
-    specialImageName: "",
+    specialImageName: "UPR186",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
     typeText: "Generic Equipment – Legs",
@@ -92485,7 +92485,7 @@ At the beginning of your action phase, destroy Fog Down.`,
     rarity: Rarity.Rare,
     setIdentifiers: ["FAI022","UPR191"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
-    specialImageName: "",
+    specialImageName: "UPR191",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Generic Action – Attack",
@@ -93253,7 +93253,7 @@ At the beginning of your action phase, destroy Fog Down.`,
     rarity: Rarity.Common,
     setIdentifiers: ["FAI021","UPR212"],
     sets: [Release.FaiBlitzDeck,Release.Uprising],
-    specialImageName: "",
+    specialImageName: "UPR212",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Generic Action – Attack",
@@ -99999,7 +99999,7 @@ When this hits a hero, banish the top card of their deck.`,
     rarity: Rarity.Common,
     setIdentifiers: ["LGS113","DYN148"],
     sets: [Release.Promos,Release.Dynasty],
-    specialImageName: "",
+    specialImageName: "DYN148",
     subtypes: [],
     types: [Type.AttackReaction],
     typeText: "Assassin Attack Reaction",
@@ -100048,7 +100048,7 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
     rarity: Rarity.Common,
     setIdentifiers: ["LGS114","DYN149"],
     sets: [Release.Promos,Release.Dynasty],
-    specialImageName: "",
+    specialImageName: "DYN149",
     subtypes: [],
     types: [Type.AttackReaction],
     typeText: "Assassin Attack Reaction",
@@ -100097,7 +100097,7 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
     rarity: Rarity.Common,
     setIdentifiers: ["LGS115","DYN150"],
     sets: [Release.Promos,Release.Dynasty],
-    specialImageName: "",
+    specialImageName: "DYN150",
     subtypes: [],
     types: [Type.AttackReaction],
     typeText: "Assassin Attack Reaction",
@@ -100617,7 +100617,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
     rarity: Rarity.Common,
     setIdentifiers: ["LGS119","DYN162"],
     sets: [Release.Promos,Release.Dynasty],
-    specialImageName: "",
+    specialImageName: "DYN162",
     subtypes: [Subtype.Attack,Subtype.Arrow],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
@@ -100664,7 +100664,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
     rarity: Rarity.Common,
     setIdentifiers: ["LGS120","DYN163"],
     sets: [Release.Promos,Release.Dynasty],
-    specialImageName: "",
+    specialImageName: "DYN163",
     subtypes: [Subtype.Attack,Subtype.Arrow],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
@@ -100711,7 +100711,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
     rarity: Rarity.Common,
     setIdentifiers: ["LGS121","DYN164"],
     sets: [Release.Promos,Release.Dynasty],
-    specialImageName: "",
+    specialImageName: "DYN164",
     subtypes: [Subtype.Attack,Subtype.Arrow],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",

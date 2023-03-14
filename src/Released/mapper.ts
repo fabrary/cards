@@ -93,7 +93,7 @@ const getSpecialImageName = (card: ParsedCard): string => {
   const unlimitedEdition = images.find(
     (image) => image.edition === ReleaseEdition.Unlimited
   );
-  const name =
+  let name =
     images.length > 0
       ? fullArt?.name ||
         extendedArt?.name ||
@@ -108,6 +108,7 @@ const getSpecialImageName = (card: ParsedCard): string => {
       : "";
   if (!name) {
     // console.log(`Missing images for ${card.name}`);
+    name = getDefaultImageName(card);
   }
   return name;
 };

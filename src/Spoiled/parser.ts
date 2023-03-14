@@ -78,7 +78,7 @@ const headerMappings = {
   Cost: "cost",
   Power: "power",
   Defense: "defense",
-  Health: "health",
+  Health: "life",
   Intelligence: "intellect",
   Rarity: "rarity",
   Types: "types",
