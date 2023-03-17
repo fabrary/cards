@@ -4559,7 +4559,7 @@ exports[`Check for unintentional updates Arcanite Skullcap (arcanite-skullcap) 1
   "classes": [
     "Generic",
   ],
-  "defaultImage": "ARC150",
+  "defaultImage": "EVR154.width-450",
   "defense": 1,
   "functionalText": "If you have less {h} than your opponent, Arcanite Skullcap gains +1{d} and **Arcane Barrier 3**.
 
@@ -5691,7 +5691,7 @@ exports[`Check for unintentional updates Azalea (azalea) 1`] = `
   "classes": [
     "Ranger",
   ],
-  "defaultImage": "ARC039",
+  "defaultImage": "OUT090",
   "functionalText": "**Once per Turn Action** - 0: Put a card from your arsenal on the bottom of your deck. If you do, put the top card of your deck face up into your arsenal. If it’s an arrow card, it gains **dominate** until end of turn. **Go again**",
   "hero": "Azalea",
   "intellect": 4,
@@ -5772,7 +5772,7 @@ exports[`Check for unintentional updates Azalea, Ace in the Hole (azalea-ace-in-
   "classes": [
     "Ranger",
   ],
-  "defaultImage": "ARC038",
+  "defaultImage": "OUT089",
   "functionalText": "**Once per Turn Action** - 0: Put a card from your arsenal on the bottom of your deck. If you do, put the top card of your deck face up into your arsenal. If it’s an arrow card, it gains **dominate** until end of turn. **Go again**",
   "hero": "Azalea",
   "intellect": 4,
@@ -8833,7 +8833,7 @@ exports[`Check for unintentional updates Benji, the Piercing Wind (benji-the-pie
   "classes": [
     "Ninja",
   ],
-  "defaultImage": "CRU047",
+  "defaultImage": "OUT047.width-450",
   "functionalText": "Attack action cards you control with 2 or less {p} can't be defended by cards from hand.  **Once per Turn Effect** - When an attack action card you control hits, your next attack this turn gains +1{p}.",
   "hero": "Benji",
   "intellect": 4,
@@ -24041,7 +24041,7 @@ exports[`Check for unintentional updates Come to Fight (come-to-fight-blue) 1`] 
     "Generic",
   ],
   "cost": 1,
-  "defaultImage": "ARC205",
+  "defaultImage": "OUT224",
   "defense": 3,
   "functionalText": "The next attack action card you play this turn gains +1{p}.
 
@@ -24124,7 +24124,7 @@ exports[`Check for unintentional updates Come to Fight (come-to-fight-red) 1`] =
     "Generic",
   ],
   "cost": 1,
-  "defaultImage": "ARC203",
+  "defaultImage": "OUT222",
   "defense": 3,
   "functionalText": "The next attack action card you play this turn gains +3{p}.
 
@@ -24200,7 +24200,7 @@ exports[`Check for unintentional updates Come to Fight (come-to-fight-yellow) 1`
     "Generic",
   ],
   "cost": 1,
-  "defaultImage": "ARC204",
+  "defaultImage": "OUT223",
   "defense": 3,
   "functionalText": "The next attack action card you play this turn gains +2{p}.
 
@@ -25291,7 +25291,7 @@ exports[`Check for unintentional updates Copper (copper) 1`] = `
   "classes": [
     "Generic",
   ],
-  "defaultImage": "CRU197",
+  "defaultImage": "EVR194.width-450",
   "functionalText": "**Action** - {r}{r}{r}{r}, destroy Copper: Draw a card. **Go again**",
   "keywords": [
     "Go again",
@@ -25744,7 +25744,7 @@ exports[`Check for unintentional updates Cracked Bauble (cracked-bauble-yellow) 
   "classes": [
     "Generic",
   ],
-  "defaultImage": "ARC218.width-450",
+  "defaultImage": "OUT238",
   "functionalText": "*(Cracked Bauble exists to support Booster Draft and sealed Deck formats. A player may add any number of Cracked Baubles to their deck. Typically, a player would only do this if they did not have enough legally playable cards to make a 30 card minimum deck.)*",
   "name": "Cracked Bauble",
   "pitch": 2,
@@ -27545,7 +27545,7 @@ exports[`Check for unintentional updates Crucible of Aetherweave (crucible-of-ae
   "classes": [
     "Wizard",
   ],
-  "defaultImage": "ARC115",
+  "defaultImage": "CRU159",
   "functionalText": "**Once per Turn Instant** - {r}: The next card you play this turn with an effect that deals arcane damage, instead deals that much arcane damage plus 1.",
   "name": "Crucible of Aetherweave",
   "printings": [
@@ -28720,7 +28720,7 @@ exports[`Check for unintentional updates Dash, Inventor Extraordinaire (dash-inv
   "classes": [
     "Mechanologist",
   ],
-  "defaultImage": "ARC001",
+  "defaultImage": "CRU098",
   "functionalText": "You may start the game with a Mechanologist item with cost 2 or less in the arena.",
   "hero": "Dash",
   "intellect": 4,
@@ -29953,7 +29953,7 @@ exports[`Check for unintentional updates Death Dealer (death-dealer) 1`] = `
   "classes": [
     "Ranger",
   ],
-  "defaultImage": "ARC040",
+  "defaultImage": "CRU120",
   "functionalText": "**Once per Turn Action** - {r}: If you have no cards in your arsenal, you may put an arrow card from your hand face up into your arsenal. If you do, draw a card. **Go again**",
   "keywords": [
     "Go again",
@@ -47717,7 +47717,7 @@ exports[`Check for unintentional updates Frostbite (frostbite) 1`] = `
   "classes": [
     "NotClassed",
   ],
-  "defaultImage": "ELE111.width-450",
+  "defaultImage": "UPR150",
   "functionalText": "Cards and abilities cost you an additional {r} to play or activate.
 
 At the beginning of your end phase or when you play a card or activate an ability, destroy Frostbite.",
@@ -51074,7 +51074,7 @@ exports[`Check for unintentional updates Harmonized Kodachi (harmonized-kodachi)
   "classes": [
     "Ninja",
   ],
-  "defaultImage": "CRU48.width-450",
+  "defaultImage": "OUT048",
   "functionalText": "**Once per Turn Action** - {r}: **Attack**
 
 If you have a card with cost 0 in your pitch zone, Harmonized Kodachi has **go again**.",
@@ -51412,7 +51412,7 @@ exports[`Check for unintentional updates Head Jab (head-jab-blue) 1`] = `
     "Ninja",
   ],
   "cost": 0,
-  "defaultImage": "WTR100",
+  "defaultImage": "OUT079",
   "defense": 2,
   "functionalText": "**Go again**",
   "keywords": [
@@ -51497,7 +51497,7 @@ exports[`Check for unintentional updates Head Jab (head-jab-red) 1`] = `
     "Ninja",
   ],
   "cost": 0,
-  "defaultImage": "WTR098",
+  "defaultImage": "OUT077",
   "defense": 2,
   "functionalText": "**Go again**",
   "keywords": [
@@ -51575,7 +51575,7 @@ exports[`Check for unintentional updates Head Jab (head-jab-yellow) 1`] = `
     "Ninja",
   ],
   "cost": 0,
-  "defaultImage": "WTR099",
+  "defaultImage": "OUT078",
   "defense": 2,
   "functionalText": "**Go again**",
   "keywords": [
@@ -56291,7 +56291,7 @@ exports[`Check for unintentional updates Hummingbird, Adventurer's Call (humming
   "classes": [
     "Bard",
   ],
-  "defaultImage": "FAB094_A",
+  "defaultImage": "FAB094_B",
   "functionalText": "At the start of your turn, choose 1;
 - Each hero creates a Quicken token.
 - Each hero draws a card.
@@ -57068,7 +57068,7 @@ exports[`Check for unintentional updates Hyper Driver (hyper-driver-red) 1`] = `
     "Mechanologist",
   ],
   "cost": 1,
-  "defaultImage": "ARC036",
+  "defaultImage": "DYN110",
   "functionalText": "Hyper Driver enters the arena with 3 steam counters on it. When Hyper Driver has no steam counters on it, destroy it.
 
 Once per turn, when you **boost** a card, remove a steam counter from Hyper Driver and gain {r}.",
@@ -63457,7 +63457,7 @@ exports[`Check for unintentional updates Iyslander (iyslander) 1`] = `
   "classes": [
     "Wizard",
   ],
-  "defaultImage": "EVR120.width-450",
+  "defaultImage": "UPR103",
   "functionalText": "**Essence of Ice**
 
 If it's not your turn, you may play blue 'non-attack' action cards from your arsenal as though they were an instant.
@@ -63930,7 +63930,7 @@ exports[`Check for unintentional updates Kano, Dracai of Aether (kano-dracai-of-
   "classes": [
     "Wizard",
   ],
-  "defaultImage": "ARC113",
+  "defaultImage": "CRU158",
   "functionalText": "**Instant** - {r}{r}{r}: Look at the top card of your deck. If it's a 'non-attack' action card, you may banish it. If you do, you may play it this turn as though it were an instant.",
   "hero": "Kano",
   "intellect": 4,
@@ -64114,7 +64114,7 @@ exports[`Check for unintentional updates Katsu (katsu) 1`] = `
   "classes": [
     "Ninja",
   ],
-  "defaultImage": "WTR077",
+  "defaultImage": "OUT046.width-450",
   "functionalText": "The first time an attack action card you control hits, you may discard a card with cost 0. If you do, search your deck for a card with **combo**, banish it face up, then shuffle your deck. You may play it this turn.",
   "hero": "Katsu",
   "intellect": 4,
@@ -64211,7 +64211,7 @@ exports[`Check for unintentional updates Katsu, the Wanderer (katsu-the-wanderer
   "classes": [
     "Ninja",
   ],
-  "defaultImage": "CRU045",
+  "defaultImage": "OUT045.width-450",
   "functionalText": "The first time an attack action card you control hits, you may discard a card with cost 0. If you do, search your deck for a card with **combo**, banish it face up, then shuffle your deck. You may play it this turn.",
   "hero": "Katsu",
   "intellect": 4,
@@ -64928,7 +64928,7 @@ exports[`Check for unintentional updates Lady Barthimont (lady-barthimont) 1`] =
   "classes": [
     "Brute",
   ],
-  "defaultImage": "FAB045",
+  "defaultImage": "LEV002_Lady_Barthimont.width-10000",
   "defense": 3,
   "functionalText": "While Barthimont is face down in arsenal, at the start of your turn, you may turn her face up.
 
@@ -67833,7 +67833,7 @@ exports[`Check for unintentional updates Lord Sutcliffe (lord-sutcliffe) 1`] = `
   "classes": [
     "Runeblade",
   ],
-  "defaultImage": "FAB046",
+  "defaultImage": "CHN002_Lord_Sutcliffe.width-10000",
   "defense": 3,
   "functionalText": "While Sutcliffe is face down in arsenal, at the start of your turn, you may turn him face up.
 
@@ -71196,7 +71196,7 @@ exports[`Check for unintentional updates Minerva Themis (minerva-themis) 1`] = `
   "classes": [
     "Warrior",
   ],
-  "defaultImage": "FAB044",
+  "defaultImage": "BOL002_Minerva_Themis.width-10000",
   "defense": 3,
   "functionalText": "While Minerva is face down in arsenal, at the start of your turn, you may turn her face up.
 
@@ -72862,7 +72862,7 @@ exports[`Check for unintentional updates Nebula Blade (nebula-blade) 1`] = `
   "classes": [
     "Runeblade",
   ],
-  "defaultImage": "ARC077",
+  "defaultImage": "CRU139",
   "functionalText": "Once per Turn Action - {r}{r}: **Attack**
 
 If Nebula Blade hits, create a Runechant token.
@@ -82186,7 +82186,7 @@ exports[`Check for unintentional updates Ponder (ponder) 1`] = `
   "classes": [
     "Generic",
   ],
-  "defaultImage": "DYN244",
+  "defaultImage": "OUT237",
   "functionalText": "At the beginning of your end phase, destroy Ponder and draw a card.",
   "name": "Ponder",
   "printings": [
@@ -84479,7 +84479,7 @@ exports[`Check for unintentional updates Proclamation of Requisition (proclamati
   "classes": [
     "Adjudicator",
   ],
-  "defaultImage": "JDG003",
+  "defaultImage": "JDG004",
   "functionalText": "**Action** - Discard a red card, destroy Proclamation of Requisition: Each opponent chooses an item or landmark they control. Gain control of the chosen permanents.",
   "name": "Proclamation of Requisition",
   "printings": [
@@ -87170,7 +87170,7 @@ exports[`Check for unintentional updates Quicken (quicken) 1`] = `
   "classes": [
     "Generic",
   ],
-  "defaultImage": "CRU196",
+  "defaultImage": "EVR196.width-450",
   "functionalText": "When you play an attack action card or activate a weapon attack, destroy Quicken and the attack gains **go again**.",
   "keywords": [
     "Go again",
@@ -88600,7 +88600,7 @@ exports[`Check for unintentional updates Ravenous Rabble (ravenous-rabble-blue) 
     "Generic",
   ],
   "cost": 0,
-  "defaultImage": "ARC193",
+  "defaultImage": "OUT215",
   "defense": 2,
   "functionalText": "When you attack with Ravenous Rabble, reveal the top card of your deck. Ravenous Rabble gets -X{p}, where X is the pitch value of the card revealed this way.
 
@@ -88677,7 +88677,7 @@ exports[`Check for unintentional updates Ravenous Rabble (ravenous-rabble-red) 1
     "Generic",
   ],
   "cost": 0,
-  "defaultImage": "ARC191",
+  "defaultImage": "OUT213",
   "defense": 2,
   "functionalText": "When you attack with Ravenous Rabble, reveal the top card of your deck. Ravenous Rabble gets -X{p}, where X is the pitch value of the card revealed this way.
 
@@ -88761,7 +88761,7 @@ exports[`Check for unintentional updates Ravenous Rabble (ravenous-rabble-yellow
     "Generic",
   ],
   "cost": 0,
-  "defaultImage": "ARC192",
+  "defaultImage": "OUT214",
   "defense": 2,
   "functionalText": "When you attack with Ravenous Rabble, reveal the top card of your deck. Ravenous Rabble gets -X{p}, where X is the pitch value of the card revealed this way.
 
@@ -98682,7 +98682,7 @@ exports[`Check for unintentional updates Runechant (runechant) 1`] = `
   "classes": [
     "Runeblade",
   ],
-  "defaultImage": "ARC112",
+  "defaultImage": "DYN191",
   "functionalText": "When you play an attack action card or activate a weapon attack, destroy Runechant and deal 1 arcane damage to target opposing hero.",
   "name": "Runechant",
   "printings": [
@@ -101261,7 +101261,7 @@ exports[`Check for unintentional updates Scar for a Scar (scar-for-a-scar-blue) 
     "Generic",
   ],
   "cost": 0,
-  "defaultImage": "WTR193",
+  "defaultImage": "UPR211",
   "defense": 2,
   "functionalText": "When you play Scar for a Scar, if you have less {h} than an opposing hero, it gains **go again**.",
   "keywords": [
@@ -101344,7 +101344,7 @@ exports[`Check for unintentional updates Scar for a Scar (scar-for-a-scar-red) 1
     "Generic",
   ],
   "cost": 0,
-  "defaultImage": "WTR191",
+  "defaultImage": "UPR209",
   "defense": 2,
   "functionalText": "When you play Scar for a Scar, if you have less {h} than an opposing hero, it gains **go again**.",
   "keywords": [
@@ -101450,7 +101450,7 @@ exports[`Check for unintentional updates Scar for a Scar (scar-for-a-scar-yellow
     "Generic",
   ],
   "cost": 0,
-  "defaultImage": "WTR192",
+  "defaultImage": "UPR210",
   "defense": 2,
   "functionalText": "When you play Scar for a Scar, if you have less {h} than an opposing hero, it gains **go again**.",
   "keywords": [
@@ -103521,7 +103521,7 @@ exports[`Check for unintentional updates Seek Horizon (seek-horizon-blue) 1`] = 
     "Generic",
   ],
   "cost": 0,
-  "defaultImage": "MON253.width-450",
+  "defaultImage": "OUT218",
   "defense": 2,
   "functionalText": "As an additional cost to play Seek Horizon, you may put a card from your hand on top of your deck. If you do, Seek Horizon gains **go again**.",
   "keywords": [
@@ -103583,7 +103583,7 @@ exports[`Check for unintentional updates Seek Horizon (seek-horizon-red) 1`] = `
     "Generic",
   ],
   "cost": 0,
-  "defaultImage": "MON251.width-450",
+  "defaultImage": "OUT216",
   "defense": 2,
   "functionalText": "As an additional cost to play Seek Horizon, you may put a card from your hand on top of your deck. If you do, Seek Horizon gains **go again**.",
   "keywords": [
@@ -103645,7 +103645,7 @@ exports[`Check for unintentional updates Seek Horizon (seek-horizon-yellow) 1`] 
     "Generic",
   ],
   "cost": 0,
-  "defaultImage": "MON252.width-450",
+  "defaultImage": "OUT217",
   "defense": 2,
   "functionalText": "As an additional cost to play Seek Horizon, you may put a card from your hand on top of your deck. If you do, Seek Horizon gains **go again**.",
   "keywords": [
@@ -104418,7 +104418,7 @@ exports[`Check for unintentional updates Seismic Surge (seismic-surge) 1`] = `
   "classes": [
     "Guardian",
   ],
-  "defaultImage": "CRU044",
+  "defaultImage": "EVR036.width-450",
   "functionalText": "At the beginning of your action phase, destroy Seismic Surge then the next Guardian attack action card you play this turn costs {r} less to play.",
   "name": "Seismic Surge",
   "printings": [
@@ -108054,7 +108054,7 @@ exports[`Check for unintentional updates Silver (silver) 1`] = `
   "classes": [
     "Generic",
   ],
-  "defaultImage": "EVR195.width-450",
+  "defaultImage": "DYN245",
   "functionalText": "**Action** - {r}{r}{r}, destroy Silver: Draw a card. **Go again**",
   "keywords": [
     "Go again",
@@ -114506,7 +114506,7 @@ exports[`Check for unintentional updates Spectral Shield (spectral-shield) 1`] =
   "classes": [
     "Illusionist",
   ],
-  "defaultImage": "MON104.width-450",
+  "defaultImage": "DYN233",
   "functionalText": "**Ward 1**",
   "keywords": [
     "Ward",
@@ -115672,7 +115672,7 @@ exports[`Check for unintentional updates Spider’s Bite (spiders-bite) 1`] = `
   "classes": [
     "Assassin",
   ],
-  "defaultImage": "DYN115",
+  "defaultImage": "OUT004",
   "functionalText": "**Once per Turn Action** – {r}{r}: **Attack**. **Go again**
 
 **Piercing 1**
@@ -120793,7 +120793,7 @@ exports[`Check for unintentional updates Surging Strike (surging-strike-blue) 1`
     "Ninja",
   ],
   "cost": 2,
-  "defaultImage": "WTR109",
+  "defaultImage": "OUT085",
   "defense": 2,
   "functionalText": "**Go again**",
   "keywords": [
@@ -120861,7 +120861,7 @@ exports[`Check for unintentional updates Surging Strike (surging-strike-red) 1`]
     "Ninja",
   ],
   "cost": 2,
-  "defaultImage": "WTR107",
+  "defaultImage": "OUT083",
   "defense": 2,
   "functionalText": "**Go again**",
   "keywords": [
@@ -120936,7 +120936,7 @@ exports[`Check for unintentional updates Surging Strike (surging-strike-yellow) 
     "Ninja",
   ],
   "cost": 2,
-  "defaultImage": "WTR108",
+  "defaultImage": "OUT084",
   "defense": 2,
   "functionalText": "**Go again**",
   "keywords": [
@@ -122061,7 +122061,7 @@ exports[`Check for unintentional updates Taipanis, Dracai of Judgement (taipanis
   "classes": [
     "Adjudicator",
   ],
-  "defaultImage": "JDG001",
+  "defaultImage": "JDG002",
   "functionalText": "The first time each turn another hero becomes the target of a source that would deal lethal damage, you may discard a red card. If you do, choose new targets for that source.",
   "hero": "Taipanis",
   "name": "Taipanis, Dracai of Judgement",
@@ -123571,7 +123571,7 @@ exports[`Check for unintentional updates Taylor (taylor) 1`] = `
   "classes": [
     "Shapeshifter",
   ],
-  "defaultImage": "LSS003_A",
+  "defaultImage": "LSS003_B",
   "functionalText": "You may have equipment of any class or talent in your inventory. Each equipment in your starting inventory must have a different name.
 
 At the start of your turn, you may banish an equipment you control. If you do, equip a card of the same subtype from your inventory.",
@@ -124063,7 +124063,7 @@ exports[`Check for unintentional updates Teklo Plasma Pistol (teklo-plasma-pisto
   "classes": [
     "Mechanologist",
   ],
-  "defaultImage": "ARC003",
+  "defaultImage": "CRU100",
   "functionalText": "**Action** - Remove a steam counter from Teklo Plasma Pistol: **Attack**
 
 **Action** - {r}: If there are no steam counters on Teklo Plasma Pistol, put a steam counter on it. **Go again**",
@@ -124690,7 +124690,7 @@ exports[`Check for unintentional updates The Librarian (the-librarian) 1`] = `
   "classes": [
     "Illusionist",
   ],
-  "defaultImage": "FAB043",
+  "defaultImage": "PSM002_The_Librarian.width-10000",
   "defense": 3,
   "functionalText": "While The Librarian is face down in arsenal, at the start of your turn, you may turn him face up.
 
@@ -128949,7 +128949,7 @@ exports[`Check for unintentional updates Twin Twisters (twin-twisters-blue) 1`] 
     "Ninja",
   ],
   "cost": 1,
-  "defaultImage": "EVR049.width-450",
+  "defaultImage": "OUT088",
   "defense": 2,
   "functionalText": "Choose 1:
 
@@ -129009,7 +129009,7 @@ exports[`Check for unintentional updates Twin Twisters (twin-twisters-red) 1`] =
     "Ninja",
   ],
   "cost": 1,
-  "defaultImage": "EVR047.width-450",
+  "defaultImage": "OUT086",
   "defense": 2,
   "functionalText": "Choose 1:
 
@@ -129069,7 +129069,7 @@ exports[`Check for unintentional updates Twin Twisters (twin-twisters-yellow) 1`
     "Ninja",
   ],
   "cost": 1,
-  "defaultImage": "EVR048.width-450",
+  "defaultImage": "OUT087",
   "defense": 2,
   "functionalText": "Choose 1:
 
@@ -132141,7 +132141,7 @@ exports[`Check for unintentional updates Viserai, Rune Blood (viserai-rune-blood
   "classes": [
     "Runeblade",
   ],
-  "defaultImage": "ARC075",
+  "defaultImage": "CRU138",
   "functionalText": "Whenever you play a Runeblade card, if you have played another 'non-attack' action card this turn, create a Runechant token.",
   "hero": "Viserai",
   "intellect": 4,
@@ -138577,7 +138577,7 @@ exports[`Check for unintentional updates Yorick, Weaver of Tales (yorick-weaver-
   "classes": [
     "Bard",
   ],
-  "defaultImage": "LSS004_A",
+  "defaultImage": "LSS004_B",
   "functionalText": "At the start of the game, all heroes shuffle their starting decks together. All heroes share the same deck and graveyard this game.",
   "hero": "Yorick",
   "intellect": 4,

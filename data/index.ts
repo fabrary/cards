@@ -192,7 +192,7 @@ When you pitch Plague Hive, for each opposing hero, choose Inertia, Frailty, or 
     artists: ["Marcus Reyno"],
     cardIdentifier: "spiders-bite",
     classes: [Class.Assassin],
-    defaultImage: "DYN115",
+    defaultImage: "OUT004",
     name: "Spider’s Bite",
     printings: [{
       
@@ -1864,7 +1864,7 @@ When this hits a hero, create a Frailty token under their control.`,
     artists: ["Adolfo Navarro"],
     cardIdentifier: "katsu-the-wanderer",
     classes: [Class.Ninja],
-    defaultImage: "CRU045",
+    defaultImage: "OUT045.width-450",
     name: "Katsu, the Wanderer",
     printings: [{
       
@@ -1953,7 +1953,7 @@ When this hits a hero, create a Frailty token under their control.`,
     artists: ["Adolfo Navarro"],
     cardIdentifier: "katsu",
     classes: [Class.Ninja],
-    defaultImage: "WTR077",
+    defaultImage: "OUT046.width-450",
     name: "Katsu",
     printings: [{
       
@@ -2036,7 +2036,7 @@ When this hits a hero, create a Frailty token under their control.`,
     artists: ["Sam Yang"],
     cardIdentifier: "benji-the-piercing-wind",
     classes: [Class.Ninja],
-    defaultImage: "CRU047",
+    defaultImage: "OUT047.width-450",
     name: "Benji, the Piercing Wind",
     printings: [{
       
@@ -2107,7 +2107,7 @@ When this hits a hero, create a Frailty token under their control.`,
     artists: ["Leo Avero"],
     cardIdentifier: "harmonized-kodachi",
     classes: [Class.Ninja],
-    defaultImage: "CRU48.width-450",
+    defaultImage: "OUT048",
     name: "Harmonized Kodachi",
     printings: [{
       
@@ -3406,7 +3406,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     artists: ["Sam Yang","Maxim Kostin"],
     cardIdentifier: "head-jab-red",
     classes: [Class.Ninja],
-    defaultImage: "WTR098",
+    defaultImage: "OUT077",
     name: "Head Jab",
     printings: [{
       
@@ -3471,7 +3471,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     artists: ["Sam Yang","Maxim Kostin"],
     cardIdentifier: "head-jab-yellow",
     classes: [Class.Ninja],
-    defaultImage: "WTR099",
+    defaultImage: "OUT078",
     name: "Head Jab",
     printings: [{
       
@@ -3530,7 +3530,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     artists: ["Sam Yang","Maxim Kostin"],
     cardIdentifier: "head-jab-blue",
     classes: [Class.Ninja],
-    defaultImage: "WTR100",
+    defaultImage: "OUT079",
     name: "Head Jab",
     printings: [{
       
@@ -3724,7 +3724,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     artists: ["Vadim Kalabukh"],
     cardIdentifier: "surging-strike-red",
     classes: [Class.Ninja],
-    defaultImage: "WTR107",
+    defaultImage: "OUT083",
     name: "Surging Strike",
     printings: [{
       
@@ -3789,7 +3789,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     artists: ["Vadim Kalabukh"],
     cardIdentifier: "surging-strike-yellow",
     classes: [Class.Ninja],
-    defaultImage: "WTR108",
+    defaultImage: "OUT084",
     name: "Surging Strike",
     printings: [{
       
@@ -3854,7 +3854,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     artists: ["Vadim Kalabukh"],
     cardIdentifier: "surging-strike-blue",
     classes: [Class.Ninja],
-    defaultImage: "WTR109",
+    defaultImage: "OUT085",
     name: "Surging Strike",
     printings: [{
       
@@ -3913,7 +3913,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     artists: ["Faizal Fikri"],
     cardIdentifier: "twin-twisters-red",
     classes: [Class.Ninja],
-    defaultImage: "EVR047.width-450",
+    defaultImage: "OUT086",
     name: "Twin Twisters",
     printings: [{
       edition: ReleaseEdition.First,
@@ -3965,7 +3965,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     artists: ["Faizal Fikri"],
     cardIdentifier: "twin-twisters-yellow",
     classes: [Class.Ninja],
-    defaultImage: "EVR048.width-450",
+    defaultImage: "OUT087",
     name: "Twin Twisters",
     printings: [{
       edition: ReleaseEdition.First,
@@ -4017,7 +4017,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     artists: ["Faizal Fikri"],
     cardIdentifier: "twin-twisters-blue",
     classes: [Class.Ninja],
-    defaultImage: "EVR049.width-450",
+    defaultImage: "OUT088",
     name: "Twin Twisters",
     printings: [{
       edition: ReleaseEdition.First,
@@ -4069,7 +4069,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     artists: ["Maxim Kostin"],
     cardIdentifier: "azalea-ace-in-the-hole",
     classes: [Class.Ranger],
-    defaultImage: "ARC038",
+    defaultImage: "OUT089",
     name: "Azalea, Ace in the Hole",
     printings: [{
       
@@ -4152,7 +4152,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     artists: ["Maxim Kostin"],
     cardIdentifier: "azalea",
     classes: [Class.Ranger],
-    defaultImage: "ARC039",
+    defaultImage: "OUT090",
     name: "Azalea",
     printings: [{
       
@@ -9403,7 +9403,7 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     artists: ["Maxim Kostin"],
     cardIdentifier: "ravenous-rabble-red",
     classes: [Class.Generic],
-    defaultImage: "ARC191",
+    defaultImage: "OUT213",
     name: "Ravenous Rabble",
     printings: [{
       
@@ -9476,7 +9476,7 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     artists: ["Maxim Kostin"],
     cardIdentifier: "ravenous-rabble-yellow",
     classes: [Class.Generic],
-    defaultImage: "ARC192",
+    defaultImage: "OUT214",
     name: "Ravenous Rabble",
     printings: [{
       
@@ -9543,7 +9543,7 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     artists: ["Maxim Kostin"],
     cardIdentifier: "ravenous-rabble-blue",
     classes: [Class.Generic],
-    defaultImage: "ARC193",
+    defaultImage: "OUT215",
     name: "Ravenous Rabble",
     printings: [{
       
@@ -9610,7 +9610,7 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     artists: ["Tian Thongjomroon"],
     cardIdentifier: "seek-horizon-red",
     classes: [Class.Generic],
-    defaultImage: "MON251.width-450",
+    defaultImage: "OUT216",
     name: "Seek Horizon",
     printings: [{
       edition: ReleaseEdition.First,
@@ -9663,7 +9663,7 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     artists: ["Tian Thongjomroon"],
     cardIdentifier: "seek-horizon-yellow",
     classes: [Class.Generic],
-    defaultImage: "MON252.width-450",
+    defaultImage: "OUT217",
     name: "Seek Horizon",
     printings: [{
       edition: ReleaseEdition.First,
@@ -9716,7 +9716,7 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     artists: ["Tian Thongjomroon"],
     cardIdentifier: "seek-horizon-blue",
     classes: [Class.Generic],
-    defaultImage: "MON253.width-450",
+    defaultImage: "OUT218",
     name: "Seek Horizon",
     printings: [{
       edition: ReleaseEdition.First,
@@ -9892,7 +9892,7 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     artists: ["Andrey Savchuk"],
     cardIdentifier: "come-to-fight-red",
     classes: [Class.Generic],
-    defaultImage: "ARC203",
+    defaultImage: "OUT222",
     name: "Come to Fight",
     printings: [{
       
@@ -9959,7 +9959,7 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     artists: ["Andrey Savchuk"],
     cardIdentifier: "come-to-fight-yellow",
     classes: [Class.Generic],
-    defaultImage: "ARC204",
+    defaultImage: "OUT223",
     name: "Come to Fight",
     printings: [{
       
@@ -10026,7 +10026,7 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     artists: ["Andrey Savchuk"],
     cardIdentifier: "come-to-fight-blue",
     classes: [Class.Generic],
-    defaultImage: "ARC205",
+    defaultImage: "OUT224",
     name: "Come to Fight",
     printings: [{
       
@@ -10635,7 +10635,7 @@ At the beginning of your end phase destroy Frailty.`,
     artists: ["Henrique Lindner"],
     cardIdentifier: "ponder",
     classes: [Class.Generic],
-    defaultImage: "DYN244",
+    defaultImage: "OUT237",
     name: "Ponder",
     printings: [{
       
@@ -10682,7 +10682,7 @@ At the beginning of your end phase destroy Frailty.`,
     artists: ["Alexandra Malygina","Sam Yang"],
     cardIdentifier: "cracked-bauble-yellow",
     classes: [Class.Generic],
-    defaultImage: "ARC218.width-450",
+    defaultImage: "OUT238",
     name: "Cracked Bauble",
     printings: [{
       
@@ -10920,7 +10920,7 @@ At the beginning of your end phase destroy Frailty.`,
     artists: ["Andy Aslamov"],
     cardIdentifier: "taylor",
     classes: [Class.Shapeshifter],
-    defaultImage: "LSS003_A",
+    defaultImage: "LSS003_B",
     name: "Taylor",
     printings: [{
       foiling: Foiling.C,
@@ -10969,7 +10969,7 @@ At the start of your turn, you may banish an equipment you control. If you do, e
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "yorick-weaver-of-tales",
     classes: [Class.Bard],
-    defaultImage: "LSS004_A",
+    defaultImage: "LSS004_B",
     name: "Yorick, Weaver of Tales",
     printings: [{
       foiling: Foiling.C,
@@ -11061,7 +11061,7 @@ You create a Copper, Silver, and Gold.`,
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "hummingbird-adventurers-call",
     classes: [Class.Bard],
-    defaultImage: "FAB094_A",
+    defaultImage: "FAB094_B",
     name: "Hummingbird, Adventurer's Call",
     printings: [{
       foiling: Foiling.C,
@@ -11111,7 +11111,7 @@ You create a Copper, Silver, and Gold.`,
     artists: ["Federico Musetti"],
     cardIdentifier: "taipanis-dracai-of-judgement",
     classes: [Class.Adjudicator],
-    defaultImage: "JDG001",
+    defaultImage: "JDG002",
     name: "Taipanis, Dracai of Judgement",
     printings: [{
       foiling: Foiling.C,
@@ -11164,7 +11164,7 @@ You create a Copper, Silver, and Gold.`,
     artists: ["Jessada Sutthi"],
     cardIdentifier: "proclamation-of-requisition",
     classes: [Class.Adjudicator],
-    defaultImage: "JDG003",
+    defaultImage: "JDG004",
     name: "Proclamation of Requisition",
     printings: [{
       foiling: Foiling.C,
@@ -16679,7 +16679,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "seismic-surge",
     classes: [Class.Guardian],
-    defaultImage: "CRU044",
+    defaultImage: "EVR036.width-450",
     name: "Seismic Surge",
     printings: [{
       
@@ -24193,7 +24193,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
     artists: ["Agri Karuniawan","Arif Wijaya"],
     cardIdentifier: "scar-for-a-scar-red",
     classes: [Class.Generic],
-    defaultImage: "WTR191",
+    defaultImage: "UPR209",
     name: "Scar for a Scar",
     printings: [{
       foiling: Foiling.R,
@@ -24282,7 +24282,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
     artists: ["Arif Wijaya"],
     cardIdentifier: "scar-for-a-scar-yellow",
     classes: [Class.Generic],
-    defaultImage: "WTR192",
+    defaultImage: "UPR210",
     name: "Scar for a Scar",
     printings: [{
       
@@ -24353,7 +24353,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
     artists: ["Arif Wijaya"],
     cardIdentifier: "scar-for-a-scar-blue",
     classes: [Class.Generic],
-    defaultImage: "WTR193",
+    defaultImage: "UPR211",
     name: "Scar for a Scar",
     printings: [{
       
@@ -26416,7 +26416,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.`,
     artists: ["King Fung Ng"],
     cardIdentifier: "quicken",
     classes: [Class.Generic],
-    defaultImage: "CRU196",
+    defaultImage: "EVR196.width-450",
     name: "Quicken",
     printings: [{
       
@@ -26560,7 +26560,7 @@ When you pitch Eye of Ophidia, **opt 2**.`,
     artists: ["Sam Yang"],
     cardIdentifier: "dash-inventor-extraordinaire",
     classes: [Class.Mechanologist],
-    defaultImage: "ARC001",
+    defaultImage: "CRU098",
     name: "Dash, Inventor Extraordinaire",
     printings: [{
       foiling: Foiling.C,
@@ -26708,7 +26708,7 @@ When you pitch Eye of Ophidia, **opt 2**.`,
     artists: ["Regina Krivolapova"],
     cardIdentifier: "teklo-plasma-pistol",
     classes: [Class.Mechanologist],
-    defaultImage: "ARC003",
+    defaultImage: "CRU100",
     name: "Teklo Plasma Pistol",
     printings: [{
       foiling: Foiling.C,
@@ -28909,7 +28909,7 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
     artists: ["Alexander Mokhov"],
     cardIdentifier: "hyper-driver-red",
     classes: [Class.Mechanologist],
-    defaultImage: "ARC036",
+    defaultImage: "DYN110",
     name: "Hyper Driver",
     printings: [{
       
@@ -29055,7 +29055,7 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     artists: ["Maxim Kostin"],
     cardIdentifier: "death-dealer",
     classes: [Class.Ranger],
-    defaultImage: "ARC040",
+    defaultImage: "CRU120",
     name: "Death Dealer",
     printings: [{
       foiling: Foiling.G,
@@ -31369,7 +31369,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     artists: ["Steve Argyle"],
     cardIdentifier: "viserai-rune-blood",
     classes: [Class.Runeblade],
-    defaultImage: "ARC075",
+    defaultImage: "CRU138",
     name: "Viserai, Rune Blood",
     printings: [{
       foiling: Foiling.C,
@@ -31511,7 +31511,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     artists: ["Steve Argyle"],
     cardIdentifier: "nebula-blade",
     classes: [Class.Runeblade],
-    defaultImage: "ARC077",
+    defaultImage: "CRU139",
     name: "Nebula Blade",
     printings: [{
       foiling: Foiling.C,
@@ -33826,7 +33826,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     artists: ["Daniel Jiménez"],
     cardIdentifier: "runechant",
     classes: [Class.Runeblade],
-    defaultImage: "ARC112",
+    defaultImage: "DYN191",
     name: "Runechant",
     printings: [{
       
@@ -33909,7 +33909,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     artists: ["Alexander Mokhov"],
     cardIdentifier: "kano-dracai-of-aether",
     classes: [Class.Wizard],
-    defaultImage: "ARC113",
+    defaultImage: "CRU158",
     name: "Kano, Dracai of Aether",
     printings: [{
       foiling: Foiling.C,
@@ -34057,7 +34057,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     artists: ["Kate Fox"],
     cardIdentifier: "crucible-of-aetherweave",
     classes: [Class.Wizard],
-    defaultImage: "ARC115",
+    defaultImage: "CRU159",
     name: "Crucible of Aetherweave",
     printings: [{
       foiling: Foiling.G,
@@ -36359,7 +36359,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     artists: ["Anna Kharitonova"],
     cardIdentifier: "arcanite-skullcap",
     classes: [Class.Generic],
-    defaultImage: "ARC150",
+    defaultImage: "EVR154.width-450",
     name: "Arcanite Skullcap",
     printings: [{
       foiling: Foiling.G,
@@ -51528,7 +51528,7 @@ Draw 2 cards.
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "copper",
     classes: [Class.Generic],
-    defaultImage: "CRU197",
+    defaultImage: "EVR194.width-450",
     name: "Copper",
     printings: [{
       foiling: Foiling.C,
@@ -58307,7 +58307,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
     artists: ["Alexandra Malygina"],
     cardIdentifier: "spectral-shield",
     classes: [Class.Illusionist],
-    defaultImage: "MON104.width-450",
+    defaultImage: "DYN233",
     name: "Spectral Shield",
     printings: [{
       foiling: Foiling.C,
@@ -70895,7 +70895,7 @@ While Yinti Yanti is defending and you control an aura, it has +1{d}.`,
     artists: ["Mihail Spil-Haufter"],
     cardIdentifier: "minerva-themis",
     classes: [Class.Warrior],
-    defaultImage: "FAB044",
+    defaultImage: "BOL002_Minerva_Themis.width-10000",
     name: "Minerva Themis",
     printings: [{
       foiling: Foiling.R,
@@ -70944,7 +70944,7 @@ While Minerva is face up in arsenal, 1H weapons you control have +1{p}. Whenever
     artists: ["bimawithpencil"],
     cardIdentifier: "lord-sutcliffe",
     classes: [Class.Runeblade],
-    defaultImage: "FAB046",
+    defaultImage: "CHN002_Lord_Sutcliffe.width-10000",
     name: "Lord Sutcliffe",
     printings: [{
       foiling: Foiling.R,
@@ -70993,7 +70993,7 @@ While Sutcliffe is face up in arsenal, whenever you play a 'non-attack' action c
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "lady-barthimont",
     classes: [Class.Brute],
-    defaultImage: "FAB045",
+    defaultImage: "LEV002_Lady_Barthimont.width-10000",
     name: "Lady Barthimont",
     printings: [{
       foiling: Foiling.R,
@@ -71042,7 +71042,7 @@ While Barthimont is face up in arsenal, whenever you play an attack action card,
     artists: ["Federico Musetti"],
     cardIdentifier: "the-librarian",
     classes: [Class.Illusionist],
-    defaultImage: "FAB043",
+    defaultImage: "PSM002_The_Librarian.width-10000",
     name: "The Librarian",
     printings: [{
       foiling: Foiling.R,
@@ -78214,7 +78214,7 @@ At the beginning of your action phase, destroy Embodiment of Earth.`,
     artists: ["Tian Thongjomroon"],
     cardIdentifier: "frostbite",
     classes: [Class.NotClassed],
-    defaultImage: "ELE111.width-450",
+    defaultImage: "UPR150",
     name: "Frostbite",
     printings: [{
       foiling: Foiling.C,
@@ -91933,7 +91933,7 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
     artists: ["Steve Argyle","Alexander Mokhov"],
     cardIdentifier: "iyslander",
     classes: [Class.Wizard],
-    defaultImage: "EVR120.width-450",
+    defaultImage: "UPR103",
     name: "Iyslander",
     printings: [{
       foiling: Foiling.C,
@@ -95602,7 +95602,7 @@ When a source you control deals exactly 2 damage to an opposing hero, destroy Ta
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "silver",
     classes: [Class.Generic],
-    defaultImage: "EVR195.width-450",
+    defaultImage: "DYN245",
     name: "Silver",
     printings: [{
       foiling: Foiling.C,

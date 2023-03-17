@@ -245,7 +245,7 @@ const todayIsWithinDateRanges = (start: string, end: string): boolean => {
     const startDate = new Date(start);
     const endDate = new Date(end);
     if (typeof endDate === "number") {
-      return startDate < today && today < endDate;
+      return startDate < today && today < (endDate as Date);
     } else {
       return startDate < today;
     }

@@ -46,42 +46,92 @@ export const addOppositeSideCardIdentifiers = (cards: Card[]) => {
 };
 
 export const fullSetIdentifiers = {
-  "1HP": Release.HistoryPack1,
+  WTR: Release.WelcomeToRathe,
   ARC: Release.ArcaneRising,
   CRU: Release.CrucibleOfWar,
-  DYN: Release.Dynasty,
+  MON: Release.Monarch,
   ELE: Release.TalesOfAria,
   EVR: Release.Everfest,
-  MON: Release.Monarch,
-  OUT: Release.Outsiders,
+  "1HP": Release.HistoryPack1,
   UPR: Release.Uprising,
-  WTR: Release.WelcomeToRathe,
+  DYN: Release.Dynasty,
+  OUT: Release.Outsiders,
 };
 
+const orderedFullSetBlackBorderIdentifiers = Object.keys(fullSetIdentifiers)
+  .filter((set) => set !== "1HP")
+  .reverse();
+
 export const getDefaultImage = (printings: Printing[]): string => {
-  const firstEdition = printings.find(
+  const reversedPrintings = [...printings];
+
+  let newestBlackBorderStandard;
+  let newestBlackBorder;
+  for (const set of orderedFullSetBlackBorderIdentifiers) {
+    const matchingPrinting = printings.find((printing) => {
+      const setIdentifier = printing.identifier.slice(0, 3);
+      return set === setIdentifier;
+    });
+    if (matchingPrinting) {
+      if (
+        !newestBlackBorderStandard &&
+        !matchingPrinting.foiling &&
+        !matchingPrinting.treatment &&
+        !!matchingPrinting.image
+      ) {
+        newestBlackBorderStandard = matchingPrinting;
+      }
+      if (!newestBlackBorder && !!matchingPrinting.image) {
+        newestBlackBorder = matchingPrinting;
+      }
+    }
+  }
+
+  const firstEdition = reversedPrintings.find(
     (printing) => printing.edition === ReleaseEdition.First
   );
-  const alphaEdition = printings.find(
+  const alphaEdition = reversedPrintings.find(
     (printing) => printing.edition === ReleaseEdition.Alpha
   );
-  const unlimitedEdition = printings.find(
+  const unlimitedEdition = reversedPrintings.find(
     (printing) => printing.edition === ReleaseEdition.Unlimited
   );
-  const nonPromoEdition = printings.find((printing) => {
-    const isFullSet = fullSetIdentifiers[printing.image.substring(0, 3)];
-    return !!isFullSet;
+  const nonPromoEdition = reversedPrintings.find(
+    (printing) => printing.set !== Release.Promos
+  );
+  const standardBlackBorder = reversedPrintings.find((printing) => {
+    const setIdentifier = printing.identifier.slice(0, 3);
+    const isFullSet = !!fullSetIdentifiers[setIdentifier];
+    const isBlackBorder = setIdentifier !== "1HP";
+    return (
+      !printing.foiling &&
+      !printing.treatment &&
+      !!printing.image &&
+      isFullSet &&
+      isBlackBorder
+    );
   });
-  const standardEdition = printings.find((image) => !image.treatment);
+
+  const blackBorder = reversedPrintings.find((printing) => {
+    const setIdentifier = printing.identifier.slice(0, 3);
+    const isFullSet = !!fullSetIdentifiers[setIdentifier];
+    const isBlackBorder = setIdentifier !== "1HP";
+    return (
+      !printing.treatment && !!printing.image && isFullSet && isBlackBorder
+    );
+  });
 
   const image =
-    printings.length > 0
-      ? firstEdition?.image ||
-        alphaEdition?.image ||
-        unlimitedEdition?.image ||
+    reversedPrintings.length > 0
+      ? newestBlackBorderStandard?.image ||
+        newestBlackBorder?.image ||
+        standardBlackBorder?.image ||
+        blackBorder?.image ||
         nonPromoEdition?.image ||
-        standardEdition?.image ||
-        printings.find(({ image }) => !!image)?.image ||
+        unlimitedEdition?.image ||
+        firstEdition?.image ||
+        alphaEdition?.image ||
+        reversedPrintings.reverse().find(({ image }) => !!image)?.image ||
         ""
       : "";
   if (!image) {
