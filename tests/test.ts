@@ -21,9 +21,13 @@ for (const published of publishedCards) {
 }
 
 describe("Check for unintentional updates", () => {
-  it.each(updated)("%s", (_, comparison) => {
+  it.each(updated)("%s vs published", (_, comparison) => {
     const { toPublish, published } = comparison as UpdatedComparison;
-    // expect(toPublish).toEqual(published);
+    expect(toPublish).toEqual(published);
+  });
+
+  it.each(updated)("%s vs snapshot", (_, comparison) => {
+    const { toPublish } = comparison as UpdatedComparison;
     expect(toPublish).toMatchSnapshot();
   });
 });
@@ -53,7 +57,7 @@ describe("All required fields present", () => {
 });
 
 describe("No cards should be removed", () => {
-  xit("Removed cards", () => {
+  it("Removed cards", () => {
     expect(removed).toHaveLength(0);
   });
 });

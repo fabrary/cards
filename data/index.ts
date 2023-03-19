@@ -23,7 +23,13 @@
     defaultImage: "OUT000",
     name: "Plague Hive",
     printings: [{
+      foiling: Foiling.C,
+      identifier: "OUT000",
+      image: "OUT000",
+      set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
       identifier: "OUT000",
       image: "OUT000",
       set: Release.Outsiders,
@@ -111409,8 +111415,8 @@ When you equip Crown of Dominion, create a Gold token.`,
       set: Release.Outsiders,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
-    rarity: Rarity.Common,
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
+    rarity: Rarity.Token,
     setIdentifiers: ["LGS128","DYN244","OUT237"],
     sets: [Release.Promos,Release.Dynasty,Release.Outsiders],
     specialImage: "DYN244",
@@ -111810,6 +111816,12 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
       
     },{
       foiling: Foiling.R,
+      identifier: "OUT011",
+      image: "OUT011.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.C,
       identifier: "OUT011",
       image: "OUT011.width-450",
       set: Release.Outsiders,
@@ -114761,17 +114773,29 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
     defaultImage: "OUT094.width-450",
     name: "Trench of Sunken Treasure",
     printings: [{
-      
+      foiling: Foiling.G,
       identifier: "FAB125",
       image: "",
       set: Release.Promos,
       
     },{
-      
+      foiling: Foiling.R,
       identifier: "OUT094",
       image: "OUT094.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "OUT094",
+      image: "OUT094.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "OUT094",
+      image: "",
+      set: Release.Outsiders,
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Promo,Rarity.Legendary],
     rarity: Rarity.Legendary,
@@ -114818,7 +114842,13 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
       set: Release.Promos,
       
     },{
+      foiling: Foiling.R,
+      identifier: "OUT095",
+      image: "OUT095.width-450",
+      set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.C,
       identifier: "OUT095",
       image: "OUT095.width-450",
       set: Release.Outsiders,
@@ -116716,7 +116746,13 @@ When this hits a hero, create a Frailty token under their control.`,
       set: Release.Promos,
       
     },{
+      foiling: Foiling.R,
+      identifier: "OUT139",
+      image: "OUT139.width-450",
+      set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.C,
       identifier: "OUT139",
       image: "OUT139.width-450",
       set: Release.Outsiders,
@@ -117562,7 +117598,7 @@ When this hits a hero, create a Frailty token under their control.`,
     
     
   },{
-    artists: ["Mateusz Wiśniewski"],
+    artists: ["Mateusz Wiśniewski","Carlos Cruchaga"],
     cardIdentifier: "codex-of-bloodrot-yellow",
     classes: [Class.Assassin,Class.Ranger],
     defaultImage: "OUT159.width-450",
@@ -117573,12 +117609,18 @@ When this hits a hero, create a Frailty token under their control.`,
       image: "OUT159.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "OUT159",
+      image: "OUT159_Marvel",
+      set: Release.Outsiders,
+      treatment: Treatment.AA,
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["OUT159"],
     sets: [Release.Outsiders],
-    specialImage: "OUT159.width-450",
+    specialImage: "OUT159_Marvel",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Assassin / Ranger Action",
@@ -117619,9 +117661,9 @@ Create a Ponder token under your control and a Bloodrot Pox token under each opp
       set: Release.Outsiders,
       
     },{
-      
+      foiling: Foiling.C,
       identifier: "OUT160",
-      image: "",
+      image: "OUT160_Marvel",
       set: Release.Outsiders,
       treatment: Treatment.AA,
     },],
@@ -117629,7 +117671,7 @@ Create a Ponder token under your control and a Bloodrot Pox token under each opp
     rarity: Rarity.Majestic,
     setIdentifiers: ["OUT160"],
     sets: [Release.Outsiders],
-    specialImage: "OUT160.width-450",
+    specialImage: "OUT160_Marvel",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Assassin / Ranger Action",
@@ -117658,7 +117700,7 @@ Create a Ponder token under your control and a Frailty token under each opponent
     
     
   },{
-    artists: ["Isuardi Therianto"],
+    artists: ["Isuardi Therianto","Carlos Cruchaga"],
     cardIdentifier: "codex-of-inertia-yellow",
     classes: [Class.Assassin,Class.Ranger],
     defaultImage: "OUT161.width-450",
@@ -117669,12 +117711,18 @@ Create a Ponder token under your control and a Frailty token under each opponent
       image: "OUT161.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "OUT161",
+      image: "OUT161_Marvel",
+      set: Release.Outsiders,
+      treatment: Treatment.AA,
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["OUT161"],
     sets: [Release.Outsiders],
-    specialImage: "OUT161.width-450",
+    specialImage: "OUT161_Marvel",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Assassin / Ranger Action",
@@ -118249,7 +118297,13 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
       set: Release.Promos,
       
     },{
+      foiling: Foiling.R,
+      identifier: "OUT174",
+      image: "OUT174.width-450",
+      set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.C,
       identifier: "OUT174",
       image: "OUT174.width-450",
       set: Release.Outsiders,

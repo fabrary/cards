@@ -10,6 +10,7 @@ import {
 import {
   Card,
   Class,
+  Foiling,
   Format,
   Fusion,
   Hero,
@@ -108,11 +109,12 @@ const getPrintings = (card: ParsedCard): Printing[] => {
   const images: Printing[] = [];
   const { images: unparsedImages } = card;
   for (const unparsedImage of unparsedImages) {
-    const [url, identifier, rawEdition, rawTreatment] =
+    const [url, identifier, rawEdition, rawFoiling, rawTreatment] =
       unparsedImage.split(" - ");
     const setAbbreviation = identifier.slice(0, 3);
     const set = setIdentifierToSetMappings[setAbbreviation];
     const edition = setEditionMapping[rawEdition];
+    const foiling = Foiling[rawFoiling];
     const treatment = Treatment[rawTreatment];
     const image = url.substring(url.lastIndexOf("/") + 1, url.lastIndexOf("."));
 
@@ -123,7 +125,8 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     });
 
     images.push({
-      ...(!!edition ? { edition } : {}),
+      ...(edition ? { edition } : {}),
+      ...(foiling ? { foiling } : {}),
       identifier,
       image,
       set,
