@@ -117792,7 +117792,7 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     
     pitch: 1,
     power: 6,
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -117835,7 +117835,7 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     
     pitch: 2,
     power: 5,
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -117878,7 +117878,7 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     
     pitch: 3,
     power: 4,
-    
+    restrictedFormats: [Format.Commoner],
     
     
     

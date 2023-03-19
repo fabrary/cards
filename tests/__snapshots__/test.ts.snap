@@ -30195,6 +30195,9 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     "Rare",
   ],
   "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
   "setIdentifiers": [
     "OUT164",
   ],
@@ -30250,6 +30253,9 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     "Rare",
   ],
   "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
   "setIdentifiers": [
     "FAB132",
     "OUT162",
@@ -30299,6 +30305,9 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     "Rare",
   ],
   "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
   "setIdentifiers": [
     "OUT163",
   ],
