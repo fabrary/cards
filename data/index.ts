@@ -60,10738 +60,6 @@ When you pitch Plague Hive, for each opposing hero, choose Inertia, Frailty, or 
     
     
   },{
-    artists: [],
-    cardIdentifier: "uzuri-switchblade",
-    classes: [Class.Assassin],
-    defaultImage: "OUT001.width-450",
-    name: "Uzuri, Switchblade",
-    printings: [{
-      
-      identifier: "OUT001",
-      image: "OUT001.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["OUT001"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT001.width-450",
-    subtypes: [],
-    types: [Type.Hero],
-    typeText: "Assassin Hero",
-
-    
-    
-    functionalText: `**Once per Turn Attack Reaction** - Banish a card from your hand face down: Turn the card banished this way face up. If it's an attack action card with cost 2 or less, put target attacking card with **stealth** from the active chain link on the bottom of it's owner's deck, then put the banished card onto the active chain link as the attacking card.`,
-    
-    hero: Hero.Uzuri,
-    intellect: 4,
-    
-    
-    life: 40,
-    
-    
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: [],
-    cardIdentifier: "uzuri",
-    classes: [Class.Assassin],
-    defaultImage: "OUT002.width-450",
-    name: "Uzuri",
-    printings: [{
-      
-      identifier: "OUT002",
-      image: "OUT002.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["OUT002"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT002.width-450",
-    subtypes: [Subtype.Young],
-    types: [Type.Hero],
-    typeText: "Assassin Hero – Young",
-
-    
-    
-    functionalText: `**Once per Turn Attack Reaction** - Banish a card from your hand face down: Turn the card banished this way face up. If it's an attack action card with cost 2 or less, put target attacking card with **stealth** from the active chain link on the bottom of it's owner's deck, then put the banished card onto the active chain link as the attacking card.`,
-    
-    hero: Hero.Uzuri,
-    intellect: 4,
-    
-    
-    life: 20,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    young: true
-  },{
-    artists: [],
-    cardIdentifier: "arakni-solitary-confinement",
-    classes: [Class.Assassin],
-    defaultImage: "OUT003.width-450",
-    name: "Arakni, Solitary Confinement",
-    printings: [{
-      
-      identifier: "HER079",
-      image: "HER079",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "OUT003",
-      image: "OUT003.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["OUT003"],
-    sets: [Release.Outsiders],
-    specialImage: "HER079",
-    subtypes: [Subtype.Young],
-    types: [Type.Hero],
-    typeText: "Assassin Hero – Young",
-
-    
-    
-    
-    
-    hero: Hero.Arakni,
-    intellect: 4,
-    
-    
-    life: 19,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    young: true
-  },{
-    artists: ["Marcus Reyno"],
-    cardIdentifier: "spiders-bite",
-    classes: [Class.Assassin],
-    defaultImage: "OUT004",
-    name: "Spider’s Bite",
-    printings: [{
-      
-      identifier: "DYN115",
-      image: "DYN115",
-      set: Release.Dynasty,
-      
-    },{
-      
-      identifier: "DYN116",
-      image: "DYN116",
-      set: Release.Dynasty,
-      
-    },{
-      
-      identifier: "OUT004",
-      image: "OUT004",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare,Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["DYN115","DYN116","OUT004"],
-    sets: [Release.Dynasty,Release.Outsiders],
-    specialImage: "DYN115",
-    subtypes: [Subtype.Dagger,Subtype.OneHanded],
-    types: [Type.Weapon],
-    typeText: "Assassin Weapon – Dagger (1H)",
-
-    
-    
-    functionalText: `**Once per Turn Action** – {r}{r}: **Attack**. **Go again**
-
-**Piercing 1**
-
-When this hits a hero, the next time they defend with 1 or more attack action cards this turn, those cards have -1{d} while defending.`,
-    
-    
-    
-    
-    keywords: [Keyword.Piercing,Keyword.GoAgain],
-    
-    
-    
-    power: 1,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tomasz Jedruszek"],
-    cardIdentifier: "nerve-scalpel",
-    classes: [Class.Assassin],
-    defaultImage: "OUT005",
-    name: "Nerve Scalpel",
-    printings: [{
-      
-      identifier: "OUT005",
-      image: "OUT005",
-      set: Release.Outsiders,
-      
-    },{
-      
-      identifier: "OUT006",
-      image: "OUT006",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["OUT005","OUT006"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT005",
-    subtypes: [Subtype.Dagger,Subtype.OneHanded],
-    types: [Type.Weapon],
-    typeText: "Assassin Weapon - Dagger (1H)",
-
-    
-    
-    functionalText: `**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
-
-**Piercing 1**
-
-When this hits a hero, the next time they defend with 1 or more reaction cards this turn, those cards have -1{d} while defending.`,
-    
-    
-    
-    
-    keywords: [Keyword.Piercing,Keyword.GoAgain],
-    
-    
-    
-    power: 1,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Alexis Susani"],
-    cardIdentifier: "orbitoclast",
-    classes: [Class.Assassin],
-    defaultImage: "OUT007",
-    name: "Orbitoclast",
-    printings: [{
-      
-      identifier: "OUT007",
-      image: "OUT007",
-      set: Release.Outsiders,
-      
-    },{
-      
-      identifier: "OUT008",
-      image: "OUT008",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["OUT007","OUT008"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT007",
-    subtypes: [Subtype.Dagger,Subtype.OneHanded],
-    types: [Type.Weapon],
-    typeText: "Assassin Weapon - Dagger (1H)",
-
-    
-    
-    functionalText: `**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
-
-**Piercing 1**
-
-When this hits a hero, the next time they defend with 1 or more 'non-attack' action cards this turn, those cards have -1{d} while defending.`,
-    
-    
-    
-    
-    keywords: [Keyword.Piercing,Keyword.GoAgain],
-    
-    
-    
-    power: 1,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Federico Musetti"],
-    cardIdentifier: "scale-peeler",
-    classes: [Class.Assassin],
-    defaultImage: "OUT009",
-    name: "Scale Peeler",
-    printings: [{
-      
-      identifier: "OUT009",
-      image: "OUT009",
-      set: Release.Outsiders,
-      
-    },{
-      
-      identifier: "OUT010",
-      image: "OUT010",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["OUT009","OUT010"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT009",
-    subtypes: [Subtype.Dagger,Subtype.OneHanded],
-    types: [Type.Weapon],
-    typeText: "Assassin Weapon - Dagger (1H)",
-
-    
-    
-    functionalText: `**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
-
-**Piercing 1**
-
-When this hits a hero, the next time they defend with 1 or more equipment this turn, those equipment have -1{d} while defending.`,
-    
-    
-    
-    
-    keywords: [Keyword.Piercing,Keyword.GoAgain],
-    
-    
-    
-    power: 1,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["soyameii"],
-    cardIdentifier: "redback-shroud",
-    classes: [Class.Assassin],
-    defaultImage: "OUT011",
-    name: "Redback Shroud",
-    printings: [{
-      
-      identifier: "OUT011",
-      image: "OUT011",
-      set: Release.Outsiders,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Legendary],
-    rarity: Rarity.Legendary,
-    setIdentifiers: ["OUT011"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT011",
-    subtypes: [Subtype.Chest],
-    types: [Type.Equipment],
-    typeText: "Assassin Equipment - Chest",
-
-    
-    defense: 1,
-    functionalText: `While Redback Shroud is in your graveyard, at the start of your turn, you may destroy 2 Silver you control. If you do, equip Redback Shroud.
-
-**Attack Reaction** - Destroy Redback Shroud: The next attack reaction card you play this turn costs {r} less to play.
-
-**Battleworn**`,
-    
-    
-    
-    
-    keywords: [Keyword.Battleworn],
-    
-    
-    
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Isuardi Therianto"],
-    cardIdentifier: "infiltrate-red",
-    classes: [Class.Assassin],
-    defaultImage: "OUT012",
-    name: "Infiltrate",
-    printings: [{
-      
-      identifier: "OUT012",
-      image: "OUT012",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["OUT012"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT012",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Stealth**
-
-When this hits a hero, banish the top card of their deck. You may play it until the end of your next turn.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 3,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tomasz Jedruszek"],
-    cardIdentifier: "shake-down-red",
-    classes: [Class.Assassin],
-    defaultImage: "OUT013.width-450",
-    name: "Shake Down",
-    printings: [{
-      
-      identifier: "OUT013",
-      image: "OUT013.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["OUT013"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT013.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Uzuri Specialization**
-
-If you've played or activated an attack reaction this chain link, Shake Down has "When this hits a hero, choose red, yellow, or blue. They reveal their hand. Banish a card of the chosen color."`,
-    
-    
-    
-    
-    keywords: [Keyword.Specialization],
-    
-    
-    pitch: 1,
-    power: 6,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    specializations: [Hero.Uzuri],
-    
-    
-  },{
-    artists: ["Othon Nikolaidis"],
-    cardIdentifier: "spreading-plague-yellow",
-    classes: [Class.Assassin],
-    defaultImage: "OUT014",
-    name: "Spreading Plague",
-    printings: [{
-      
-      identifier: "OUT014",
-      image: "OUT014",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["OUT014"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT014",
-    subtypes: [],
-    types: [Type.AttackReaction],
-    typeText: "Assassin Attack Reaction",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `Create X Bloodrot Pox tokens under the defending hero's control, where X is the number of defending cards this chain link.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Henrique Lindner"],
-    cardIdentifier: "back-stab-red",
-    classes: [Class.Assassin],
-    defaultImage: "OUT015.width-450",
-    name: "Back Stab",
-    printings: [{
-      
-      identifier: "OUT015",
-      image: "OUT015.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT015"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT015.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Stealth**
-
-Defense reactions can't be played to Back Stab's chain link.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 3,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Henrique Lindner"],
-    cardIdentifier: "back-stab-yellow",
-    classes: [Class.Assassin],
-    defaultImage: "OUT016.width-450",
-    name: "Back Stab",
-    printings: [{
-      
-      identifier: "OUT016",
-      image: "OUT016.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT016"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT016.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Stealth**
-
-Defense reactions can't be played to Back Stab's chain link.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    power: 2,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Henrique Lindner"],
-    cardIdentifier: "back-stab-blue",
-    classes: [Class.Assassin],
-    defaultImage: "OUT017.width-450",
-    name: "Back Stab",
-    printings: [{
-      
-      identifier: "OUT017",
-      image: "OUT017.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT017"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT017.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Stealth**
-
-Defense reactions can't be played to Back Stab's chain link.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    power: 1,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Raphael Pinna"],
-    cardIdentifier: "sneak-attack-red",
-    classes: [Class.Assassin],
-    defaultImage: "OUT018",
-    name: "Sneak Attack",
-    printings: [{
-      
-      identifier: "OUT018",
-      image: "OUT018",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT018"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT018",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin Action - Attack",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `If you've played or activated an attack reaction this chain link, Sneak ATtack has +4{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 3,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Raphael Pinna"],
-    cardIdentifier: "sneak-attack-yellow",
-    classes: [Class.Assassin],
-    defaultImage: "OUT019",
-    name: "Sneak Attack",
-    printings: [{
-      
-      identifier: "OUT019",
-      image: "OUT019",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT019"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT019",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin Action - Attack",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `If you've played or activated an attack reaction this chain link, Sneak Attack has +4{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    power: 2,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Raphael Pinna"],
-    cardIdentifier: "sneak-attack-blue",
-    classes: [Class.Assassin],
-    defaultImage: "OUT020",
-    name: "Sneak Attack",
-    printings: [{
-      
-      identifier: "OUT020",
-      image: "OUT020",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT020"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT020",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin Action - Attack",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `If you've played or activated an attack reaction this chain link, Sneak Attack has +4{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    power: 1,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mateusz Wiśniewski"],
-    cardIdentifier: "spike-with-bloodrot-red",
-    classes: [Class.Assassin],
-    defaultImage: "OUT021",
-    name: "Spike with Bloodrot",
-    printings: [{
-      
-      identifier: "LGS130",
-      image: "LGS130",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "OUT021",
-      image: "OUT021",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare,Rarity.Promo],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT021","LGS130"],
-    sets: [Release.Outsiders,Release.Promos],
-    specialImage: "LGS130",
-    subtypes: [],
-    types: [Type.AttackReaction],
-    typeText: "Assassin Attack Reaction",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `Target attack action card with **stealth** gains +3{p} and "When this hits a hero, create a Bloodrot Pox token under their control."`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Carlos Cruchaga"],
-    cardIdentifier: "spike-with-frailty-red",
-    classes: [Class.Assassin],
-    defaultImage: "OUT022",
-    name: "Spike with Frailty",
-    printings: [{
-      
-      identifier: "LGS131",
-      image: "LGS131",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "OUT022",
-      image: "OUT022",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare,Rarity.Promo],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT022","LGS131"],
-    sets: [Release.Outsiders,Release.Promos],
-    specialImage: "LGS131",
-    subtypes: [],
-    types: [Type.AttackReaction],
-    typeText: "Assassin Attack Reaction",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `Target attack action card with **stealth** gains +3{p} and "When this hits a hero, create a Frailty token under their control."`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Federico Musetti"],
-    cardIdentifier: "spike-with-inertia-red",
-    classes: [Class.Assassin],
-    defaultImage: "OUT023",
-    name: "Spike with Inertia",
-    printings: [{
-      
-      identifier: "LGS132",
-      image: "LGS132",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "OUT023",
-      image: "OUT023",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare,Rarity.Promo],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT023","LGS132"],
-    sets: [Release.Outsiders,Release.Promos],
-    specialImage: "LGS132",
-    subtypes: [],
-    types: [Type.AttackReaction],
-    typeText: "Assassin Attack Reaction",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `Target attack action card with **stealth** gains +3{p} and "When this hits a hero, create an Inertia token under their control."`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Muhammad Fajri"],
-    cardIdentifier: "infect-red",
-    classes: [Class.Assassin],
-    defaultImage: "OUT024.width-450",
-    name: "Infect",
-    printings: [{
-      
-      identifier: "OUT024",
-      image: "OUT024.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT024"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT024.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Stealth**
-
-When this hits a hero, create a Bloodrot Pox token under their control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Muhammad Fajri"],
-    cardIdentifier: "infect-yellow",
-    classes: [Class.Assassin],
-    defaultImage: "OUT025.width-450",
-    name: "Infect",
-    printings: [{
-      
-      identifier: "OUT025",
-      image: "OUT025.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT025"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT025.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Stealth**
-
-When this hits a hero, create a Bloodrot Pox token under their control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Muhammad Fajri"],
-    cardIdentifier: "infect-blue",
-    classes: [Class.Assassin],
-    defaultImage: "OUT026.width-450",
-    name: "Infect",
-    printings: [{
-      
-      identifier: "OUT026",
-      image: "OUT026.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT026"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT026.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Stealth**
-
-When this hits a hero, create a Bloodrot Pox token under their control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    power: 1,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Shen Fei"],
-    cardIdentifier: "isolate-red",
-    classes: [Class.Assassin],
-    defaultImage: "OUT027.width-450",
-    name: "Isolate",
-    printings: [{
-      
-      identifier: "OUT027",
-      image: "OUT027.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT027"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT027.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Stealth**
-
-**Dominate**`,
-    
-    
-    
-    
-    keywords: [Keyword.Dominate],
-    
-    
-    pitch: 1,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Shen Fei"],
-    cardIdentifier: "isolate-yellow",
-    classes: [Class.Assassin],
-    defaultImage: "OUT028.width-450",
-    name: "Isolate",
-    printings: [{
-      
-      identifier: "OUT028",
-      image: "OUT028.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT028"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT028.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Stealth**
-
-**Dominate**`,
-    
-    
-    
-    
-    keywords: [Keyword.Dominate],
-    
-    
-    pitch: 2,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Shen Fei"],
-    cardIdentifier: "isolate-blue",
-    classes: [Class.Assassin],
-    defaultImage: "OUT029.width-450",
-    name: "Isolate",
-    printings: [{
-      
-      identifier: "OUT029",
-      image: "OUT029.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT029"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT029.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Stealth**
-
-**Dominate**`,
-    
-    
-    
-    
-    keywords: [Keyword.Dominate],
-    
-    
-    pitch: 3,
-    power: 1,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Othon Nikolaidis"],
-    cardIdentifier: "malign-red",
-    classes: [Class.Assassin],
-    defaultImage: "OUT030",
-    name: "Malign",
-    printings: [{
-      
-      identifier: "OUT030",
-      image: "OUT030",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT030"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT030",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Stealth**
-
-Damage that would be dealt by Malign can't be prevented.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Othon Nikolaidis"],
-    cardIdentifier: "malign-yellow",
-    classes: [Class.Assassin],
-    defaultImage: "OUT031",
-    name: "Malign",
-    printings: [{
-      
-      identifier: "OUT031",
-      image: "OUT031",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT031"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT031",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Stealth**
-
-Damage that would be dealt by Malign can't be prevented.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Othon Nikolaidis"],
-    cardIdentifier: "malign-blue",
-    classes: [Class.Assassin],
-    defaultImage: "OUT032",
-    name: "Malign",
-    printings: [{
-      
-      identifier: "OUT032",
-      image: "OUT032",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT032"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT032",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Stealth**
-
-Damage that would be dealt by Malign can't be prevented.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    power: 1,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tomasz Jedruszek"],
-    cardIdentifier: "prowl-red",
-    classes: [Class.Assassin],
-    defaultImage: "OUT033",
-    name: "Prowl",
-    printings: [{
-      
-      identifier: "OUT033",
-      image: "OUT033",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT033"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT033",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Stealth**
-
-The next attack with **stealth** you play this combat chain gains +1{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tomasz Jedruszek"],
-    cardIdentifier: "prowl-yellow",
-    classes: [Class.Assassin],
-    defaultImage: "OUT034",
-    name: "Prowl",
-    printings: [{
-      
-      identifier: "OUT034",
-      image: "OUT034",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT034"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT034",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Stealth**
-
-The next attack with **stealth** you play this combat chain gains +1{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tomasz Jedruszek"],
-    cardIdentifier: "prowl-blue",
-    classes: [Class.Assassin],
-    defaultImage: "OUT035",
-    name: "Prowl",
-    printings: [{
-      
-      identifier: "OUT035",
-      image: "OUT035",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT035"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT035",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Stealth**
-
-The next attack with **stealth** you play this combat chain gains +1{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    power: 1,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Saad Irfan"],
-    cardIdentifier: "sedate-red",
-    classes: [Class.Assassin],
-    defaultImage: "OUT036.width-450",
-    name: "Sedate",
-    printings: [{
-      
-      identifier: "OUT036",
-      image: "OUT036.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT036"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT036.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Stealth**
-
-When this hits a hero, create an Inertia token under their control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Saad Irfan"],
-    cardIdentifier: "sedate-yellow",
-    classes: [Class.Assassin],
-    defaultImage: "OUT037.width-450",
-    name: "Sedate",
-    printings: [{
-      
-      identifier: "OUT037",
-      image: "OUT037.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT037"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT037.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Stealth**
-
-When this hits a hero, create an Inertia token under their control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Saad Irfan"],
-    cardIdentifier: "sedate-blue",
-    classes: [Class.Assassin],
-    defaultImage: "OUT038.width-450",
-    name: "Sedate",
-    printings: [{
-      
-      identifier: "OUT038",
-      image: "OUT038.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT038"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT038.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Stealth**
-
-When this hits a hero, create an Inertia token under their control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    power: 1,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Daria Khlebnikova"],
-    cardIdentifier: "wither-red",
-    classes: [Class.Assassin],
-    defaultImage: "OUT039.width-450",
-    name: "Wither",
-    printings: [{
-      
-      identifier: "OUT039",
-      image: "OUT039.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT039"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT039.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Stealth**
-
-When this hits a hero, create a Frailty token under their control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Daria Khlebnikova"],
-    cardIdentifier: "wither-yellow",
-    classes: [Class.Assassin],
-    defaultImage: "OUT040.width-450",
-    name: "Wither",
-    printings: [{
-      
-      identifier: "OUT040",
-      image: "OUT040.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT040"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT040.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Stealth**
-
-When this hits a hero, create a Frailty token under their control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Daria Khlebnikova"],
-    cardIdentifier: "wither-blue",
-    classes: [Class.Assassin],
-    defaultImage: "OUT041.width-450",
-    name: "Wither",
-    printings: [{
-      
-      identifier: "OUT041",
-      image: "OUT041.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT041"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT041.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Stealth**
-
-When this hits a hero, create a Frailty token under their control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    power: 1,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Isuardi Therianto"],
-    cardIdentifier: "razors-edge-red",
-    classes: [Class.Assassin],
-    defaultImage: "OUT042.original",
-    name: "Razor’s Edge",
-    printings: [{
-      
-      identifier: "OUT042",
-      image: "OUT042.original",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT042"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT042.original",
-    subtypes: [],
-    types: [Type.AttackReaction],
-    typeText: "Assassin Attack Reaction",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `Target attack action card with **stealth** gains +3{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Isuardi Therianto"],
-    cardIdentifier: "razors-edge-yellow",
-    classes: [Class.Assassin],
-    defaultImage: "OUT043",
-    name: "Razor’s Edge",
-    printings: [{
-      
-      identifier: "OUT043",
-      image: "OUT043",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT043"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT043",
-    subtypes: [],
-    types: [Type.AttackReaction],
-    typeText: "Assassin Attack Reaction",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `Target attack action card with **stealth** gains +2{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Isuardi Therianto"],
-    cardIdentifier: "razors-edge-blue",
-    classes: [Class.Assassin],
-    defaultImage: "OUT044",
-    name: "Razor’s Edge",
-    printings: [{
-      
-      identifier: "OUT044",
-      image: "OUT044",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT044"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT044",
-    subtypes: [],
-    types: [Type.AttackReaction],
-    typeText: "Assassin Attack Reaction",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `Target attack action card with **stealth** gains +1{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Adolfo Navarro"],
-    cardIdentifier: "katsu-the-wanderer",
-    classes: [Class.Ninja],
-    defaultImage: "OUT045.width-450",
-    name: "Katsu, the Wanderer",
-    printings: [{
-      
-      identifier: "HER003",
-      image: "HER003",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "HER023",
-      image: "HER023",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "KSU001",
-      image: "KSU.width-450",
-      set: Release.KatsuHeroDeck,
-      
-    },{
-      
-      identifier: "1HP086",
-      image: "1HP086.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR076",
-      image: "WTR076",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR076",
-      image: "U-WTR076",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "CRU045",
-      image: "CRU045",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "CRU045",
-      image: "U-CRU045",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      
-      identifier: "OUT045",
-      image: "OUT045.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["HER003","HER023","WIN003","KSU001","1HP086","WTR076","CRU045","OUT045"],
-    sets: [Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar,Release.Outsiders],
-    specialImage: "CRU045",
-    subtypes: [],
-    types: [Type.Hero],
-    typeText: "Ninja Hero",
-
-    
-    
-    functionalText: `The first time an attack action card you control hits, you may discard a card with cost 0. If you do, search your deck for a card with **combo**, banish it face up, then shuffle your deck. You may play it this turn.`,
-    
-    hero: Hero.Katsu,
-    intellect: 4,
-    
-    
-    life: 40,
-    
-    
-    
-    restrictedFormats: [Format.Blitz,Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Adolfo Navarro"],
-    cardIdentifier: "katsu",
-    classes: [Class.Ninja],
-    defaultImage: "OUT046.width-450",
-    name: "Katsu",
-    printings: [{
-      
-      identifier: "HER007",
-      image: "HER007",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "HER056",
-      image: "HER056.width-450",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "XXX004",
-      image: "XXX004",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "KSU002",
-      image: "KSU2.width-450",
-      set: Release.KatsuHeroDeck,
-      
-    },{
-      
-      identifier: "1HP087",
-      image: "1HP087.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR077",
-      image: "WTR077",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR077",
-      image: "U-WTR077",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      
-      identifier: "OUT046",
-      image: "OUT046.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
-    rarity: Rarity.Token,
-    setIdentifiers: ["HER007","HER056","XXX004","KSU002","1HP087","WTR077","OUT046"],
-    sets: [Release.Promos,Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.Outsiders],
-    specialImage: "WTR077",
-    subtypes: [Subtype.Young],
-    types: [Type.Hero],
-    typeText: "Ninja Hero – Young",
-
-    
-    
-    functionalText: `The first time an attack action card you control hits, you may discard a card with cost 0. If you do, search your deck for a card with **combo**, banish it face up, then shuffle your deck. You may play it this turn.`,
-    
-    hero: Hero.Katsu,
-    intellect: 4,
-    
-    
-    life: 20,
-    
-    
-    
-    restrictedFormats: [Format.ClassicConstructed],
-    
-    
-    
-    
-    
-    young: true
-  },{
-    artists: ["Sam Yang"],
-    cardIdentifier: "benji-the-piercing-wind",
-    classes: [Class.Ninja],
-    defaultImage: "OUT047.width-450",
-    name: "Benji, the Piercing Wind",
-    printings: [{
-      
-      identifier: "HER026",
-      image: "HER026",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "1HP088",
-      image: "1HP088.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "CRU047",
-      image: "CRU047",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "CRU047",
-      image: "CRU047-RF",
-      set: Release.CrucibleOfWar,
-      treatment: Treatment.AT,
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "CRU047",
-      image: "U-CRU047",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      
-      identifier: "OUT047",
-      image: "OUT047.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Promo,Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["HER026","1HP088","CRU047","OUT047"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar,Release.Outsiders],
-    specialImage: "CRU047-RF",
-    subtypes: [Subtype.Young],
-    types: [Type.Hero],
-    typeText: "Ninja Hero – Young",
-
-    
-    
-    functionalText: `Attack action cards you control with 2 or less {p} can't be defended by cards from hand.  **Once per Turn Effect** - When an attack action card you control hits, your next attack this turn gains +1{p}.`,
-    
-    hero: Hero.Benji,
-    intellect: 4,
-    
-    
-    life: 17,
-    
-    
-    
-    restrictedFormats: [Format.ClassicConstructed],
-    
-    
-    
-    
-    
-    young: true
-  },{
-    artists: ["Leo Avero"],
-    cardIdentifier: "harmonized-kodachi",
-    classes: [Class.Ninja],
-    defaultImage: "OUT048",
-    name: "Harmonized Kodachi",
-    printings: [{
-      
-      identifier: "LGS003",
-      image: "LGS003",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "XXX008",
-      image: "XXX008",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "KSU003",
-      image: "KSU3.width-450",
-      set: Release.KatsuHeroDeck,
-      
-    },{
-      
-      identifier: "KSU004",
-      image: "KSU4.width-450",
-      set: Release.KatsuHeroDeck,
-      
-    },{
-      
-      identifier: "1HP091",
-      image: "1HP091.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      
-      identifier: "1HP092",
-      image: "1HP092.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR078",
-      image: "WTR078",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR078",
-      image: "U-WTR078",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "CRU048",
-      image: "CRU48.width-450",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "CRU048",
-      image: "U-CRU048.width-450",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "CRU049",
-      image: "CRU049",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "CRU049",
-      image: "U-CRU049",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      
-      identifier: "OUT048",
-      image: "OUT048",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token,Rarity.Rare],
-    rarity: Rarity.Token,
-    setIdentifiers: ["LGS003","XXX008","KSU003","KSU004","1HP091","1HP092","WTR078","CRU048","CRU049","OUT048"],
-    sets: [Release.Promos,Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar,Release.Outsiders],
-    specialImage: "CRU48.width-450",
-    subtypes: [Subtype.Dagger,Subtype.OneHanded],
-    types: [Type.Weapon],
-    typeText: "Ninja Weapon – Dagger (1H)",
-
-    
-    
-    functionalText: `**Once per Turn Action** - {r}: **Attack**
-
-If you have a card with cost 0 in your pitch zone, Harmonized Kodachi has **go again**.`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    
-    power: 1,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Carlos Cruchaga"],
-    cardIdentifier: "mask-of-many-faces",
-    classes: [Class.Ninja],
-    defaultImage: "OUT049.width-450",
-    name: "Mask of Many Faces",
-    printings: [{
-      
-      identifier: "OUT049",
-      image: "OUT049.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT049"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT049.width-450",
-    subtypes: [Subtype.Head],
-    types: [Type.Equipment],
-    typeText: "Ninja Equipment - Head",
-
-    
-    defense: 1,
-    functionalText: `**Instant** - {r}, destroy Mask of Many Faces: Name a card. The next attack action card you play this turn gains that name.
-
-**Blade Break**`,
-    
-    
-    
-    
-    keywords: [Keyword.BladeBreak],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Narendra B Adi"],
-    cardIdentifier: "cyclone-roundhouse-yellow",
-    classes: [Class.Ninja],
-    defaultImage: "OUT050",
-    name: "Cyclone Roundhouse",
-    printings: [{
-      
-      identifier: "OUT050",
-      image: "OUT050",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["OUT050"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT050",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Combo** - If Spinning Wheel Kick was the last attack this combat chain, this has At the beginning of the reaction step, banish a random defending card from each chain link.`,
-    
-    
-    
-    
-    keywords: [Keyword.Combo],
-    
-    
-    pitch: 2,
-    power: 5,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Faizal Fikri"],
-    cardIdentifier: "dishonor-blue",
-    classes: [Class.Ninja],
-    defaultImage: "OUT051_tyYCr6g.width-450",
-    name: "Dishonor",
-    printings: [{
-      
-      identifier: "OUT051",
-      image: "OUT051_tyYCr6g.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["OUT051"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT051_tyYCr6g.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Combo** - If Bonds of Ancestry was the last attack this combat chain, this has +2{p}.
-
-When this hits a hero, if you control Surging Strike, Descendent Gustwave, and Bonds of Ancestry, that hero loses all abilities for the rest of the game.`,
-    
-    
-    
-    
-    keywords: [Keyword.Combo],
-    
-    
-    pitch: 3,
-    power: 2,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Faizal Fikri"],
-    cardIdentifier: "head-leads-the-tail-red",
-    classes: [Class.Ninja],
-    defaultImage: "OUT052.width-450",
-    name: "Head Leads the Tail",
-    printings: [{
-      
-      identifier: "OUT052",
-      image: "OUT052.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["OUT052"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT052.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `When this attacks, name another card. Attack action cards with that name have +1{p} this combat chain.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    power: 3,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Carlos Cruchaga"],
-    cardIdentifier: "wander-with-purpose-yellow",
-    classes: [Class.Ninja],
-    defaultImage: "OUT053",
-    name: "Wander With Purpose",
-    printings: [{
-      
-      identifier: "OUT053",
-      image: "OUT053",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["OUT053"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT053",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Benji Specialization**
-
-When this hits, you may discard a card with cose 0. If you do, search your deck for a card with **combo**, banish it, then shuffle. You may play it this turn.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.Specialization,Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    power: 2,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    specializations: [Hero.Benji],
-    
-    
-  },{
-    artists: ["Sam Yang"],
-    cardIdentifier: "silverwind-shuriken-blue",
-    classes: [Class.Ninja],
-    defaultImage: "OUT054",
-    name: "Silverwind Shuriken",
-    printings: [{
-      
-      identifier: "OUT054",
-      image: "OUT054",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["OUT054"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT054",
-    subtypes: [Subtype.Shuriken,Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Shuriken Item",
-
-    cost: 0,
-    
-    functionalText: `**Attack Reaction** - Destroy Silverwind SHuriken: Target attack action card with **combo** gains +1{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Joseph Qiu"],
-    cardIdentifier: "visit-the-floating-dojo-blue",
-    classes: [Class.Ninja],
-    defaultImage: "OUT055",
-    name: "Visit the Floating Dojo",
-    printings: [{
-      
-      identifier: "OUT055",
-      image: "OUT055",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["OUT055"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT055",
-    subtypes: [],
-    types: [Type.Instant],
-    typeText: "Ninja Instant",
-
-    cost: 0,
-    
-    functionalText: `**Katsu Specialization**
-
-Put a Surging Strike and a card with **combo** from your graveyard on the top and/or bottom of your deck.`,
-    
-    
-    
-    
-    keywords: [Keyword.Specialization,Keyword.Combo],
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    specializations: [Hero.Katsu],
-    
-    
-  },{
-    artists: ["Faizal Fikri"],
-    cardIdentifier: "bonds-of-ancestry-red",
-    classes: [Class.Ninja],
-    defaultImage: "OUT056.width-450",
-    name: "Bonds of Ancestry",
-    printings: [{
-      
-      identifier: "OUT056",
-      image: "OUT056.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT056"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT056.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Combo** - If a card with Gustwave in its name was the last attack this combat chain, this costs {r}{r} less to play, and has **go again** and "When this attacks, you may banish a card with **combo** from your graveyard. If you do, search your deck for a card with the same name, banish it, then shuffle. You may play it this combat chain."`,
-    
-    
-    
-    
-    keywords: [Keyword.Combo,Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    power: 4,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Faizal Fikri"],
-    cardIdentifier: "bonds-of-ancestry-yellow",
-    classes: [Class.Ninja],
-    defaultImage: "OUT057.width-450",
-    name: "Bonds of Ancestry",
-    printings: [{
-      
-      identifier: "OUT057",
-      image: "OUT057.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT057"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT057.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Combo** - If a card with Gustwave in its name was the last attack this combat chain, this costs {r}{r} less to play, and has **go again** and "When this attacks, you may banish a card with **combo** from your graveyard. If you do, search your deck for a card with the same name, banish it, then shuffle. You may play it this combat chain."`,
-    
-    
-    
-    
-    keywords: [Keyword.Combo,Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    power: 3,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Faizal Fikri"],
-    cardIdentifier: "bonds-of-ancestry-blue",
-    classes: [Class.Ninja],
-    defaultImage: "OUT058.width-450",
-    name: "Bonds of Ancestry",
-    printings: [{
-      
-      identifier: "OUT058",
-      image: "OUT058.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT058"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT058.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Combo** - If a card with Gustwave in its name was the last attack this combat chain, this costs {r}{r} less to play, and has **go again** and "When this attacks, you may banish a card with **combo** from your graveyard. If you do, search your deck for a card with the same name, banish it, then shuffle. You may play it this combat chain."`,
-    
-    
-    
-    
-    keywords: [Keyword.Combo,Keyword.GoAgain],
-    
-    
-    pitch: 3,
-    power: 2,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Le Vuong"],
-    cardIdentifier: "recoil-red",
-    classes: [Class.Ninja],
-    defaultImage: "OUT059",
-    name: "Recoil",
-    printings: [{
-      
-      identifier: "OUT059",
-      image: "OUT059",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT059"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT059",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Combo** - If Head Jab was the last attack this combat chain, this has When this hits a hero, they put a card from their hand on top of their deck.`,
-    
-    
-    
-    
-    keywords: [Keyword.Combo,Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    power: 3,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Le Vuong"],
-    cardIdentifier: "recoil-yellow",
-    classes: [Class.Ninja],
-    defaultImage: "OUT060",
-    name: "Recoil",
-    printings: [{
-      
-      identifier: "OUT060",
-      image: "OUT060",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT060"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT060",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Combo** - If Head Jab was the last attack this combat chain, this has "When this hits a hero, they put a card from their hand on top of their deck."`,
-    
-    
-    
-    
-    keywords: [Keyword.Combo],
-    
-    
-    pitch: 2,
-    power: 2,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Le Vuong"],
-    cardIdentifier: "recoil-blue",
-    classes: [Class.Ninja],
-    defaultImage: "OUT061",
-    name: "Recoil",
-    printings: [{
-      
-      identifier: "OUT061",
-      image: "OUT061",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT061"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT061",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Combo** - If Head Jab was the last attack this combat chain, this has "When this hits a hero, they put a card from their hand on top of their deck."`,
-    
-    
-    
-    
-    keywords: [Keyword.Combo],
-    
-    
-    pitch: 3,
-    power: 1,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Le Vuong"],
-    cardIdentifier: "spinning-wheel-kick-red",
-    classes: [Class.Ninja],
-    defaultImage: "OUT062",
-    name: "Spinning Wheel Kick",
-    printings: [{
-      
-      identifier: "OUT062",
-      image: "OUT062",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT062"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT062",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `**Combo** - If Twin Twisters or Spinning Wheel Kick was the last attack this combat chain, this has +1{p} and "When this hits, put it on the bottom of its owner's deck."
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.Combo,Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    power: 4,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Le Vuong"],
-    cardIdentifier: "spinning-wheel-kick-yellow",
-    classes: [Class.Ninja],
-    defaultImage: "OUT063",
-    name: "Spinning Wheel Kick",
-    printings: [{
-      
-      identifier: "OUT063",
-      image: "OUT063",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT063"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT063",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `**Combo** - If Twin Twisters or Spinning Wheel Kick was the last attack this combat chain, this has +1{p} and "When this hits, put it on the bottom of its owner's deck."
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.Combo,Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    power: 3,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Le Vuong"],
-    cardIdentifier: "spinning-wheel-kick-blue",
-    classes: [Class.Ninja],
-    defaultImage: "OUT064",
-    name: "Spinning Wheel Kick",
-    printings: [{
-      
-      identifier: "OUT064",
-      image: "OUT064",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT064"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT064",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `**Combo** - If Twin Twisters or Spinning Wheel Kick was the last attack this combat chain, this has +1{p} and "When this hits, put it on the bottom of its owner's deck."
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.Combo,Keyword.GoAgain],
-    
-    
-    pitch: 3,
-    power: 2,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Phu Thieu"],
-    cardIdentifier: "back-heel-kick-red",
-    classes: [Class.Ninja],
-    defaultImage: "OUT065",
-    name: "Back Heel Kick",
-    printings: [{
-      
-      identifier: "OUT065",
-      image: "OUT065",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT065"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT065",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Combo** - If Twin Twisters was the last attack this combat chain, this has If Back Heel Kick would gain {p}, instead it gains that much plus 1.`,
-    
-    
-    
-    
-    keywords: [Keyword.Combo],
-    
-    
-    pitch: 1,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Phu Thieu"],
-    cardIdentifier: "back-heel-kick-yellow",
-    classes: [Class.Ninja],
-    defaultImage: "OUT066",
-    name: "Back Heel Kick",
-    printings: [{
-      
-      identifier: "OUT066",
-      image: "OUT066",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT066"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT066",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Combo** - If Twin Twisters was the last attack this combat chain, this has "If Back Heel Kick would gain {p}, instead it gains that much plus 1."`,
-    
-    
-    
-    
-    keywords: [Keyword.Combo],
-    
-    
-    pitch: 2,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Phu Thieu"],
-    cardIdentifier: "back-heel-kick-blue",
-    classes: [Class.Ninja],
-    defaultImage: "OUT067",
-    name: "Back Heel Kick",
-    printings: [{
-      
-      identifier: "OUT067",
-      image: "OUT067",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT067"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT067",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Combo** - If Twin Twisters was the last attack this combat chain, this has "If Back Heel Kick would gain {p}, instead it gains that much plus 1."`,
-    
-    
-    
-    
-    keywords: [Keyword.Combo],
-    
-    
-    pitch: 3,
-    power: 1,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Enmoire"],
-    cardIdentifier: "be-like-water-red",
-    classes: [Class.Ninja],
-    defaultImage: "OUT068.width-450",
-    name: "Be Like Water",
-    printings: [{
-      
-      identifier: "OUT068",
-      image: "OUT068.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT068"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT068.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `When this hits, you may pay {r}. If you do, choose Head Jab, Surging Strike, or Twin Twisters. This gains the chosen name.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Enmoire"],
-    cardIdentifier: "be-like-water-yellow",
-    classes: [Class.Ninja],
-    defaultImage: "OUT069.width-450",
-    name: "Be Like Water",
-    printings: [{
-      
-      identifier: "OUT069",
-      image: "OUT069.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT069"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT069.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `When this hits, you may pay {r}. If you do, choose Head Jab, Surging Strike, or Twin Twisters. This gains the chosen name.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Enmoire"],
-    cardIdentifier: "be-like-water-blue",
-    classes: [Class.Ninja],
-    defaultImage: "OUT070.width-450",
-    name: "Be Like Water",
-    printings: [{
-      
-      identifier: "OUT070",
-      image: "OUT070.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT070"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT070.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `When this hits, you may pay {r}. If you do, choose Head Jab, Surging Strike, or Twin Twisters. This gains the chosen name.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 3,
-    power: 1,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Erick Efata"],
-    cardIdentifier: "deadly-duo-red",
-    classes: [Class.Ninja],
-    defaultImage: "OUT071",
-    name: "Deadly Duo",
-    printings: [{
-      
-      identifier: "OUT071",
-      image: "OUT071",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT071"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT071",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `When this hits, the next attack action card with 2 or less base {p} you play this combat chain gains +2 {p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Erick Efata"],
-    cardIdentifier: "deadly-duo-yellow",
-    classes: [Class.Ninja],
-    defaultImage: "OUT072",
-    name: "Deadly Duo",
-    printings: [{
-      
-      identifier: "OUT072",
-      image: "OUT072",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT072"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT072",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `When this hits, the next attack action card with 2 or less base {p} you play this combat chain gains +2 {p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Erick Efata"],
-    cardIdentifier: "deadly-duo-blue",
-    classes: [Class.Ninja],
-    defaultImage: "OUT073",
-    name: "Deadly Duo",
-    printings: [{
-      
-      identifier: "OUT073",
-      image: "OUT073",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT073"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT073",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `When this hits, the next attack action card with 2 or less base {p} you play this combat chain gains +2 {p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 3,
-    power: 1,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Faizal Fikri"],
-    cardIdentifier: "descendent-gustwave-red",
-    classes: [Class.Ninja],
-    defaultImage: "OUT074",
-    name: "Descendent Gustwave",
-    printings: [{
-      
-      identifier: "OUT074",
-      image: "OUT074",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT074"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT074",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `**Combo** - If Surging Strike was the last attack this combat chain, this costs {r} less to play and has +2{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.Combo,Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Faizal Fikri"],
-    cardIdentifier: "descendent-gustwave-yellow",
-    classes: [Class.Ninja],
-    defaultImage: "OUT075",
-    name: "Descendent Gustwave",
-    printings: [{
-      
-      identifier: "OUT075",
-      image: "OUT075",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT075"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT075",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `**Combo** - If Surging Strike was the last attack this combat chain, this costs {r} less to play and has +2{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.Combo,Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Faizal Fikri"],
-    cardIdentifier: "descendent-gustwave-blue",
-    classes: [Class.Ninja],
-    defaultImage: "OUT076",
-    name: "Descendent Gustwave",
-    printings: [{
-      
-      identifier: "OUT076",
-      image: "OUT076",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT076"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT076",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `**Combo** - If Surging Strike was the last attack this combat chain, this costs {r} less to play and has +2{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.Combo,Keyword.GoAgain],
-    
-    
-    pitch: 3,
-    power: 1,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Sam Yang","Maxim Kostin"],
-    cardIdentifier: "head-jab-red",
-    classes: [Class.Ninja],
-    defaultImage: "OUT077",
-    name: "Head Jab",
-    printings: [{
-      
-      identifier: "LGS017",
-      image: "LGS017",
-      set: Release.Promos,
-      treatment: Treatment.AA,
-    },{
-      
-      identifier: "KSU011",
-      image: "KSU11.width-450",
-      set: Release.KatsuHeroDeck,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR098",
-      image: "WTR098",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR098",
-      image: "U-WTR098",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      
-      identifier: "OUT077",
-      image: "OUT077",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Promo,Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["LGS017","KSU011","WTR098","OUT077"],
-    sets: [Release.Promos,Release.KatsuHeroDeck,Release.WelcomeToRathe,Release.Outsiders],
-    specialImage: "LGS017",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action – Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Sam Yang","Maxim Kostin"],
-    cardIdentifier: "head-jab-yellow",
-    classes: [Class.Ninja],
-    defaultImage: "OUT078",
-    name: "Head Jab",
-    printings: [{
-      
-      identifier: "LGS018",
-      image: "LGS018",
-      set: Release.Promos,
-      treatment: Treatment.AA,
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR099",
-      image: "WTR099",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR099",
-      image: "U-WTR099",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      
-      identifier: "OUT078",
-      image: "OUT078",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Promo,Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["LGS018","WTR099","OUT078"],
-    sets: [Release.Promos,Release.WelcomeToRathe,Release.Outsiders],
-    specialImage: "LGS018",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action – Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Sam Yang","Maxim Kostin"],
-    cardIdentifier: "head-jab-blue",
-    classes: [Class.Ninja],
-    defaultImage: "OUT079",
-    name: "Head Jab",
-    printings: [{
-      
-      identifier: "LGS019",
-      image: "LGS019",
-      set: Release.Promos,
-      treatment: Treatment.AA,
-    },{
-      
-      identifier: "IRA008",
-      image: "IRA008-P_EIEWAn1.width-450",
-      set: Release.IraWelcomeDeck,
-      
-    },{
-      
-      identifier: "KSU023",
-      image: "KSU23.width-450",
-      set: Release.KatsuHeroDeck,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR100",
-      image: "WTR100",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR100",
-      image: "U-WTR100",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      
-      identifier: "OUT079",
-      image: "OUT079",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Promo,Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["LGS019","IRA008","KSU023","WTR100","OUT079"],
-    sets: [Release.Promos,Release.IraWelcomeDeck,Release.KatsuHeroDeck,Release.WelcomeToRathe,Release.Outsiders],
-    specialImage: "LGS019",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action – Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 3,
-    power: 1,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tommy Suhartono"],
-    cardIdentifier: "one-two-punch-red",
-    classes: [Class.Ninja],
-    defaultImage: "OUT080",
-    name: "One-Two Punch",
-    printings: [{
-      
-      identifier: "OUT080",
-      image: "OUT080",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT080"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT080",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Combo** - If Head Jab was the last attack this combat chain, this has When this hits a hero, deal 2 damage to them.`,
-    
-    
-    
-    
-    keywords: [Keyword.Combo,Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tommy Suhartono"],
-    cardIdentifier: "one-two-punch-yellow",
-    classes: [Class.Ninja],
-    defaultImage: "OUT081",
-    name: "One-Two Punch",
-    printings: [{
-      
-      identifier: "OUT081",
-      image: "OUT081",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT081"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT081",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Combo** - If Head Jab was the last attack this combat chain, this has "When this hits a hero, deal 2 damage to them."`,
-    
-    
-    
-    
-    keywords: [Keyword.Combo],
-    
-    
-    pitch: 2,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tommy Suhartono"],
-    cardIdentifier: "one-two-punch-blue",
-    classes: [Class.Ninja],
-    defaultImage: "OUT082",
-    name: "One-Two Punch",
-    printings: [{
-      
-      identifier: "OUT082",
-      image: "OUT082",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT082"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT082",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Combo** - If Head Jab was the last attack this combat chain, this has "When this hits a hero, deal 2 damage to them."`,
-    
-    
-    
-    
-    keywords: [Keyword.Combo],
-    
-    
-    pitch: 3,
-    power: 1,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Vadim Kalabukh"],
-    cardIdentifier: "surging-strike-red",
-    classes: [Class.Ninja],
-    defaultImage: "OUT083",
-    name: "Surging Strike",
-    printings: [{
-      
-      identifier: "KSU015",
-      image: "KSU15.width-450",
-      set: Release.KatsuHeroDeck,
-      
-    },{
-      
-      identifier: "1HP125",
-      image: "1HP125.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR107",
-      image: "WTR107",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR107",
-      image: "U-WTR107",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      
-      identifier: "OUT083",
-      image: "OUT083",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["KSU015","1HP125","WTR107","OUT083"],
-    sets: [Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.Outsiders],
-    specialImage: "WTR107",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action – Attack",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    power: 5,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Vadim Kalabukh"],
-    cardIdentifier: "surging-strike-yellow",
-    classes: [Class.Ninja],
-    defaultImage: "OUT084",
-    name: "Surging Strike",
-    printings: [{
-      
-      identifier: "KSU020",
-      image: "KSU20.width-450",
-      set: Release.KatsuHeroDeck,
-      
-    },{
-      
-      identifier: "1HP126",
-      image: "1HP126.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR108",
-      image: "WTR108",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR108",
-      image: "U-WTR108",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      
-      identifier: "OUT084",
-      image: "OUT084",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["KSU020","1HP126","WTR108","OUT084"],
-    sets: [Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.Outsiders],
-    specialImage: "WTR108",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action – Attack",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Vadim Kalabukh"],
-    cardIdentifier: "surging-strike-blue",
-    classes: [Class.Ninja],
-    defaultImage: "OUT085",
-    name: "Surging Strike",
-    printings: [{
-      
-      identifier: "1HP127",
-      image: "1HP127.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR109",
-      image: "WTR109",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR109",
-      image: "U-WTR109",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      
-      identifier: "OUT085",
-      image: "OUT085",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP127","WTR109","OUT085"],
-    sets: [Release.HistoryPack1,Release.WelcomeToRathe,Release.Outsiders],
-    specialImage: "WTR109",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action – Attack",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 3,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Faizal Fikri"],
-    cardIdentifier: "twin-twisters-red",
-    classes: [Class.Ninja],
-    defaultImage: "OUT086",
-    name: "Twin Twisters",
-    printings: [{
-      edition: ReleaseEdition.First,
-      identifier: "EVR047",
-      image: "EVR047.width-450",
-      set: Release.Everfest,
-      
-    },{
-      
-      identifier: "OUT086",
-      image: "OUT086",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVR047","OUT086"],
-    sets: [Release.Everfest,Release.Outsiders],
-    specialImage: "EVR047.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action – Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `Choose 1:
-
-- Twin Twisters gains "When this hits, your next attack this combat chain gains +1{p}."
-- Twin Twisters gains +1{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Faizal Fikri"],
-    cardIdentifier: "twin-twisters-yellow",
-    classes: [Class.Ninja],
-    defaultImage: "OUT087",
-    name: "Twin Twisters",
-    printings: [{
-      edition: ReleaseEdition.First,
-      identifier: "EVR048",
-      image: "EVR048.width-450",
-      set: Release.Everfest,
-      
-    },{
-      
-      identifier: "OUT087",
-      image: "OUT087",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVR048","OUT087"],
-    sets: [Release.Everfest,Release.Outsiders],
-    specialImage: "EVR048.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action – Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `Choose 1:
-
-- Twin Twisters gains "When this hits, your next attack this combat chain gains +1{p}."
-- Twin Twisters gains +1{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Faizal Fikri"],
-    cardIdentifier: "twin-twisters-blue",
-    classes: [Class.Ninja],
-    defaultImage: "OUT088",
-    name: "Twin Twisters",
-    printings: [{
-      edition: ReleaseEdition.First,
-      identifier: "EVR049",
-      image: "EVR049.width-450",
-      set: Release.Everfest,
-      
-    },{
-      
-      identifier: "OUT088",
-      image: "OUT088",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVR049","OUT088"],
-    sets: [Release.Everfest,Release.Outsiders],
-    specialImage: "EVR049.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action – Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `Choose 1:
-
-- Twin Twisters gains "When this hits, your next attack this combat chain gains +1{p}."
-- Twin Twisters gains +1{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 3,
-    power: 1,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Maxim Kostin"],
-    cardIdentifier: "azalea-ace-in-the-hole",
-    classes: [Class.Ranger],
-    defaultImage: "OUT089",
-    name: "Azalea, Ace in the Hole",
-    printings: [{
-      
-      identifier: "HER010",
-      image: "HER010",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "HER018",
-      image: "HER018",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "1HP221",
-      image: "1HP221.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC038",
-      image: "ARC038",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ARC038",
-      image: "U-ARC038",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "CRU119",
-      image: "CRU119",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "CRU119",
-      image: "U-CRU119",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      
-      identifier: "OUT089",
-      image: "OUT089",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["HER010","HER018","WIN006","1HP221","ARC038","CRU119","OUT089"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar,Release.Outsiders],
-    specialImage: "ARC038",
-    subtypes: [],
-    types: [Type.Hero],
-    typeText: "Ranger Hero",
-
-    
-    
-    functionalText: `**Once per Turn Action** - 0: Put a card from your arsenal on the bottom of your deck. If you do, put the top card of your deck face up into your arsenal. If it’s an arrow card, it gains **dominate** until end of turn. **Go again**`,
-    
-    hero: Hero.Azalea,
-    intellect: 4,
-    
-    keywords: [Keyword.Dominate,Keyword.GoAgain],
-    life: 40,
-    
-    
-    
-    restrictedFormats: [Format.Blitz,Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Maxim Kostin"],
-    cardIdentifier: "azalea",
-    classes: [Class.Ranger],
-    defaultImage: "OUT090",
-    name: "Azalea",
-    printings: [{
-      
-      identifier: "HER014",
-      image: "HER014",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "1HP222",
-      image: "1HP222.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC039",
-      image: "ARC039",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ARC039",
-      image: "U-ARC039",
-      set: Release.ArcaneRising,
-      
-    },{
-      
-      identifier: "OUT090",
-      image: "OUT090",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["HER014","1HP222","ARC039","OUT090"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.Outsiders],
-    specialImage: "ARC039",
-    subtypes: [Subtype.Young],
-    types: [Type.Hero],
-    typeText: "Ranger Hero – Young",
-
-    
-    
-    functionalText: `**Once per Turn Action** - 0: Put a card from your arsenal on the bottom of your deck. If you do, put the top card of your deck face up into your arsenal. If it’s an arrow card, it gains **dominate** until end of turn. **Go again**`,
-    
-    hero: Hero.Azalea,
-    intellect: 4,
-    
-    keywords: [Keyword.Dominate,Keyword.GoAgain],
-    life: 20,
-    
-    
-    
-    restrictedFormats: [Format.ClassicConstructed],
-    
-    
-    
-    
-    
-    young: true
-  },{
-    artists: ["Joseph Qiu"],
-    cardIdentifier: "riptide-lurker-of-the-deep",
-    classes: [Class.Ranger],
-    defaultImage: "OUT091.width-450",
-    name: "Riptide, Lurker of the Deep",
-    printings: [{
-      
-      identifier: "OUT091",
-      image: "OUT091.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["OUT091"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT091.width-450",
-    subtypes: [],
-    types: [Type.Hero],
-    typeText: "Ranger Hero",
-
-    
-    
-    functionalText: `Whenever you play a card from hand, you may put a card from hand face down into your arsenal.
-
-Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
-    
-    hero: Hero.Riptide,
-    intellect: 4,
-    
-    
-    life: 38,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Joseph Qiu"],
-    cardIdentifier: "riptide",
-    classes: [Class.Ranger],
-    defaultImage: "OUT092.width-450",
-    name: "Riptide",
-    printings: [{
-      
-      identifier: "OUT092",
-      image: "OUT092.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["OUT092"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT092.width-450",
-    subtypes: [Subtype.Young],
-    types: [Type.Hero],
-    typeText: "Ranger Hero – Young",
-
-    
-    
-    functionalText: `Whenever you play a card from hand, you may put a card from hand face down into your arsenal.
-
-Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
-    
-    hero: Hero.Riptide,
-    intellect: 4,
-    
-    
-    life: 19,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    young: true
-  },{
-    artists: ["Tanapon Wachirakul"],
-    cardIdentifier: "barbed-castaway",
-    classes: [Class.Ranger],
-    defaultImage: "OUT093.width-450",
-    name: "Barbed Castaway",
-    printings: [{
-      
-      identifier: "LGS129",
-      image: "LGS129",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "OUT093",
-      image: "OUT093.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Promo,Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["LGS129","OUT093"],
-    sets: [Release.Promos,Release.Outsiders],
-    specialImage: "LGS129",
-    subtypes: [Subtype.Bow,Subtype.TwoHanded],
-    types: [Type.Weapon],
-    typeText: "Ranger Weapon - Bow (2H)",
-
-    
-    
-    functionalText: `**Once per Turn Instant** - {r}: You may put an arrow card from your hand face up into your arsenal.
-
-**Once per Turn Instant** - {r}: You may turn a face down arrow in your arsenal face up. If you do, put an aim counter on it.`,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Federico Musetti"],
-    cardIdentifier: "trench-of-sunken-treasure",
-    classes: [Class.Ranger],
-    defaultImage: "OUT094",
-    name: "Trench of Sunken Treasure",
-    printings: [{
-      
-      identifier: "OUT094",
-      image: "OUT094",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Legendary],
-    rarity: Rarity.Legendary,
-    setIdentifiers: ["OUT094"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT094",
-    subtypes: [Subtype.Chest],
-    types: [Type.Equipment],
-    typeText: "Ranger Equipment - Chest",
-
-    
-    defense: 1,
-    functionalText: `**Once per Turn Instant** - Put a face down card from your arsenal on the bottom of your deck: Gain {r}
-
-**Arcane Barrier 1**
-
-**Blade Break**`,
-    
-    
-    
-    
-    keywords: [Keyword.ArcaneBarrier,Keyword.BladeBreak],
-    
-    
-    
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Steve Argyle"],
-    cardIdentifier: "quiver-of-abyssal-depths",
-    classes: [Class.Ranger],
-    defaultImage: "OUT095",
-    name: "Quiver of Abyssal Depths",
-    printings: [{
-      
-      identifier: "OUT095",
-      image: "OUT095",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Legendary],
-    rarity: Rarity.Legendary,
-    setIdentifiers: ["OUT095"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT095",
-    subtypes: [Subtype.Quiver],
-    types: [Type.Equipment],
-    typeText: "Ranger Equipment - Quiver",
-
-    
-    
-    functionalText: `**Instant** - {r}{r}{r}, destroy Quiver of Abyssal Depths: Shuffle up to 3 arrows with different names from your graveyard into your deck.`,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mark Poole"],
-    cardIdentifier: "quiver-of-rustling-leaves",
-    classes: [Class.Ranger],
-    defaultImage: "OUT096",
-    name: "Quiver of Rustling Leaves",
-    printings: [{
-      
-      identifier: "OUT096",
-      image: "OUT096",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["OUT096"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT096",
-    subtypes: [Subtype.Quiver],
-    types: [Type.Equipment],
-    typeText: "Ranger Equipment - Quiver",
-
-    
-    
-    functionalText: `**Instant** - {r}{r}{r}: Reveal the top card of your deck. If it's an arrow, put it face up into your arsenal and destroy Quiver of Rustling Leaves.`,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Carlos Cruchaga"],
-    cardIdentifier: "crows-nest",
-    classes: [Class.Ranger],
-    defaultImage: "OUT097",
-    name: "Crow's Nest",
-    printings: [{
-      
-      identifier: "OUT097",
-      image: "OUT097",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["OUT097"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT097",
-    subtypes: [Subtype.Quiver],
-    types: [Type.Equipment],
-    typeText: "Ranger Equipment - Quiver",
-
-    
-    
-    functionalText: `**Azalea Specialization**
-
-Whenever an arrow is put face up into your arsenal from your deck, you may pay {r}. If you do, put an aim counter on it.`,
-    
-    
-    
-    
-    keywords: [Keyword.Specialization],
-    
-    
-    
-    
-    
-    
-    
-    
-    specializations: [Hero.Azalea],
-    
-    
-  },{
-    artists: ["Jessada Sutthi"],
-    cardIdentifier: "driftwood-quiver",
-    classes: [Class.Ranger],
-    defaultImage: "OUT098",
-    name: "Driftwood Quiver",
-    printings: [{
-      
-      identifier: "OUT098",
-      image: "OUT098",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["OUT098"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT098",
-    subtypes: [Subtype.Quiver],
-    types: [Type.Equipment],
-    typeText: "Ranger Equipment - Quiver",
-
-    
-    
-    functionalText: `**Riptide Specialization**
-
-**Instant** - Destroy Driftwood Quiver: Put a card from your arsenal on the bottom of your deck.`,
-    
-    
-    
-    
-    keywords: [Keyword.Specialization],
-    
-    
-    
-    
-    
-    
-    
-    
-    specializations: [Hero.Riptide],
-    
-    
-  },{
-    artists: ["Asur Miosa"],
-    cardIdentifier: "wayfinders-crest",
-    classes: [Class.Ranger],
-    defaultImage: "OUT099",
-    name: "Wayfinder's Crest",
-    printings: [{
-      
-      identifier: "OUT099",
-      image: "OUT099",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT099"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT099",
-    subtypes: [Subtype.Head],
-    types: [Type.Equipment],
-    typeText: "Ranger Equipment - Head",
-
-    
-    defense: 1,
-    functionalText: `When you defend with Wayfinder's Crest, look at the top card of target hero's deck.
-
-**Blade Break**`,
-    
-    
-    
-    
-    keywords: [Keyword.BladeBreak],
-    
-    
-    
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Ramza Ardyputra"],
-    cardIdentifier: "amplifying-arrow-yellow",
-    classes: [Class.Ranger],
-    defaultImage: "OUT100",
-    name: "Amplifying Arrow",
-    printings: [{
-      
-      identifier: "OUT100",
-      image: "OUT100",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["OUT100"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT100",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
-    types: [Type.Action],
-    typeText: "Ranger Action - Arrow Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `While Amplifying Arrow is face up in any zone, if it would gane {p}, instead it gains that much plus 1.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    power: 2,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Junaidi Lim"],
-    cardIdentifier: "barbed-undertow-red",
-    classes: [Class.Ranger],
-    defaultImage: "OUT101",
-    name: "Barbed Undertow",
-    printings: [{
-      
-      identifier: "OUT101",
-      image: "OUT101",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["OUT101"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT101",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
-    types: [Type.Action],
-    typeText: "Ranger Action - Arrow Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `If Barbed Undertow has an aim counter, it gains When this hits a hero, choose red, yellow, or blue.  Until the start of your next turn, they can't pitch cards of the chosen color.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 5,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tanapon Wachirakul"],
-    cardIdentifier: "buzzsaw-trap-blue",
-    classes: [Class.Ranger],
-    defaultImage: "OUT102",
-    name: "Buzzsaw Trap",
-    printings: [{
-      
-      identifier: "OUT102",
-      image: "OUT102",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["OUT102"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT102",
-    subtypes: [Subtype.Trap],
-    types: [Type.DefenseReaction],
-    typeText: "Ranger Defense Reaction - Trap",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Legendary Riptide Specialization**
-
-When this defends an attack with {p} greater than its base, the attack can't gain {p} this turn.`,
-    
-    
-    
-    
-    keywords: [Keyword.Legendary,Keyword.Specialization],
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    specializations: [Hero.Riptide],
-    
-    
-  },{
-    artists: ["Raphael Pinna"],
-    cardIdentifier: "collapsing-trap-blue",
-    classes: [Class.Ranger],
-    defaultImage: "OUT103",
-    name: "Collapsing Trap",
-    printings: [{
-      
-      identifier: "OUT103",
-      image: "OUT103",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["OUT103"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT103",
-    subtypes: [Subtype.Trap],
-    types: [Type.DefenseReaction],
-    typeText: "Ranger Defense Reaction - Trap",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Legendary Riptide Specialization**
-
-When this defends an attack with **go again**, the attacking hero discards their hand then draws that many cards minus 1.`,
-    
-    
-    
-    
-    keywords: [Keyword.Legendary,Keyword.Specialization],
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    specializations: [Hero.Riptide],
-    
-    
-  },{
-    artists: ["Henrique Lindner"],
-    cardIdentifier: "spike-pit-trap-blue",
-    classes: [Class.Ranger],
-    defaultImage: "OUT104",
-    name: "Spike Pit Trap",
-    printings: [{
-      
-      identifier: "OUT104",
-      image: "OUT104",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["OUT104"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT104",
-    subtypes: [Subtype.Trap],
-    types: [Type.DefenseReaction],
-    typeText: "Ranger Defense Reaction - Trap",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Legendary Riptide Specialization**
-
-When this defends and the attacking hero has played or activated a reaction this chain link, put the top card of their deck into their graveyard, then they lose X{h}, where X is the number of cards in their graveyard with that name.`,
-    
-    
-    
-    
-    keywords: [Keyword.Legendary,Keyword.Specialization],
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    specializations: [Hero.Riptide],
-    
-    
-  },{
-    artists: ["Carlos Cruchaga"],
-    cardIdentifier: "melting-point-red",
-    classes: [Class.Ranger],
-    defaultImage: "OUT105",
-    name: "Melting Point",
-    printings: [{
-      
-      identifier: "OUT105",
-      image: "OUT105",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["OUT105"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT105",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Ranger Action",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `Your next arrow attack this turn gains +4{p}.
-
-If it has an aim counter, it gains "When this hits a hero, destroy a 1H weapon they control with 1 base {p}."
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mateusz Wiśniewski"],
-    cardIdentifier: "boulder-trap-yellow",
-    classes: [Class.Ranger],
-    defaultImage: "OUT106",
-    name: "Boulder Trap",
-    printings: [{
-      
-      identifier: "OUT106",
-      image: "OUT106",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT106"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT106",
-    subtypes: [Subtype.Trap],
-    types: [Type.DefenseReaction],
-    typeText: "Ranger Defense Reaction - Trap",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `When this defends an attack with {p} greater than its base, put a -1{d} counter on an equipment the attacking hero controls.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Rio Sabda"],
-    cardIdentifier: "pendulum-trap-yellow",
-    classes: [Class.Ranger],
-    defaultImage: "OUT107",
-    name: "Pendulum Trap",
-    printings: [{
-      
-      identifier: "OUT107",
-      image: "OUT107",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT107"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT107",
-    subtypes: [Subtype.Trap],
-    types: [Type.DefenseReaction],
-    typeText: "Ranger Defense Reaction - Trap",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `When this defends and the attacking hero has played or activated a reaction this chain link, put the top 2 cards of their deck into their graveyard.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Rio Sabda"],
-    cardIdentifier: "tarpit-trap-yellow",
-    classes: [Class.Ranger],
-    defaultImage: "OUT108",
-    name: "Tarpit Trap",
-    printings: [{
-      
-      identifier: "OUT108",
-      image: "OUT108",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT108"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT108",
-    subtypes: [Subtype.Trap],
-    types: [Type.DefenseReaction],
-    typeText: "Ranger Defense Reaction - Trap",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `When this defends an attack with **go again**, the next time an attack action card hits this turn, effects don't trigger.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Alexis Susani"],
-    cardIdentifier: "fletch-a-red-tail-red",
-    classes: [Class.Ranger],
-    defaultImage: "OUT109",
-    name: "Fletch a Red Tail",
-    printings: [{
-      
-      identifier: "OUT109",
-      image: "OUT109",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT109"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT109",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Ranger Action",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `Your next arrow attack this turn gains +4{p}.
-
-If it has an aim counter, it gains "Red cards have -1{d} while defending this."
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Alexis Susani"],
-    cardIdentifier: "fletch-a-yellow-tail-yellow",
-    classes: [Class.Ranger],
-    defaultImage: "OUT110",
-    name: "Fletch a Yellow Tail",
-    printings: [{
-      
-      identifier: "OUT110",
-      image: "OUT110",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT110"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT110",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Ranger Action",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `Your next arrow attack this turn gains +3{p}.
-
-If it has an aim counter, it gains "Yellow cards have -1{d} while defending this."
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Alexis Susani"],
-    cardIdentifier: "fletch-a-blue-tail-blue",
-    classes: [Class.Ranger],
-    defaultImage: "OUT111",
-    name: "Fletch a Blue Tail",
-    printings: [{
-      
-      identifier: "OUT111",
-      image: "OUT111",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT111"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT111",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Ranger Action",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `Your next arrow attack this turn gains +2{p}.
-
-If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Phu Thieu"],
-    cardIdentifier: "lace-with-bloodrot-red",
-    classes: [Class.Ranger],
-    defaultImage: "OUT112",
-    name: "Lace with Bloodrot",
-    printings: [{
-      
-      identifier: "OUT112",
-      image: "OUT112",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT112"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT112",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Ranger Action",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `Your next arrow attack this turn gains +3{p} and "When this hits a hero, create a Bloodrot Pox token under their control."
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Marco González"],
-    cardIdentifier: "lace-with-frailty-red",
-    classes: [Class.Ranger],
-    defaultImage: "OUT113",
-    name: "Lace with Frailty",
-    printings: [{
-      
-      identifier: "OUT113",
-      image: "OUT113",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT113"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT113",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Ranger Action",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `Your next arrow attack this turn gains +3{p} and "When this hits a hero, create a Frailty token under their control."
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Shen Fei"],
-    cardIdentifier: "lace-with-inertia-red",
-    classes: [Class.Ranger],
-    defaultImage: "OUT114",
-    name: "Lace with Inertia",
-    printings: [{
-      
-      identifier: "OUT114",
-      image: "OUT114",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT114"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT114",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Ranger Action",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `Your next arrow attack this turn gains +3{p} and "When this hits a hero, create an Inertia token under their control."
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Alief Rusdiatama"],
-    cardIdentifier: "falcon-wing-red",
-    classes: [Class.Ranger],
-    defaultImage: "OUT115",
-    name: "Falcon Wing",
-    printings: [{
-      
-      identifier: "OUT115",
-      image: "OUT115",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT115"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT115",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
-    types: [Type.Action],
-    typeText: "Ranger Action",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `If Falcon Wing has an aim counter, it has +1 {p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Alief Rusdiatama"],
-    cardIdentifier: "falcon-wing-yellow",
-    classes: [Class.Ranger],
-    defaultImage: "OUT116",
-    name: "Falcon Wing",
-    printings: [{
-      
-      identifier: "OUT116",
-      image: "OUT116",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT116"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT116",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
-    types: [Type.Action],
-    typeText: "Ranger Action",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `If Falcon Wing has an aim counter, it has +1{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Alief Rusdiatama"],
-    cardIdentifier: "falcon-wing-blue",
-    classes: [Class.Ranger],
-    defaultImage: "OUT117",
-    name: "Falcon Wing",
-    printings: [{
-      
-      identifier: "OUT117",
-      image: "OUT117",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT117"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT117",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
-    types: [Type.Action],
-    typeText: "Ranger Action",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `If Falcon Wing has an aim counter, it has +1{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 3,
-    power: 1,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Kalashnikova N."],
-    cardIdentifier: "infecting-shot-red",
-    classes: [Class.Ranger],
-    defaultImage: "OUT118",
-    name: "Infecting Shot",
-    printings: [{
-      
-      identifier: "OUT118",
-      image: "OUT118",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT118"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT118",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
-    types: [Type.Action],
-    typeText: "Ranger Action - Arrow Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `If Infecting Shot has an aim counter, it has +1{p}.
-
-When this hits a hero, create a Bloodrot Pox token under their control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 5,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Kalashnikova N."],
-    cardIdentifier: "infecting-shot-yellow",
-    classes: [Class.Ranger],
-    defaultImage: "OUT119",
-    name: "Infecting Shot",
-    printings: [{
-      
-      identifier: "OUT119",
-      image: "OUT119",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT119"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT119",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
-    types: [Type.Action],
-    typeText: "Ranger Action - Arrow Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `If Infecting Shot has an aim counter, it has +1{p}.
-
-When this hits a hero, create a Bloodrot Pox token under their control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Kalashnikova N."],
-    cardIdentifier: "infecting-shot-blue",
-    classes: [Class.Ranger],
-    defaultImage: "OUT120",
-    name: "Infecting Shot",
-    printings: [{
-      
-      identifier: "OUT120",
-      image: "OUT120",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT120"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT120",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
-    types: [Type.Action],
-    typeText: "Ranger Action - Arrow Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `If Infecting Shot has an aim counter, it has +1{p}.
-
-When this hits a hero, create a Bloodrot Pox token under their control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Marco Gonzalez"],
-    cardIdentifier: "murkmire-grapnel-red",
-    classes: [Class.Ranger],
-    defaultImage: "OUT121",
-    name: "Murkmire Grapnel",
-    printings: [{
-      
-      identifier: "OUT121",
-      image: "OUT121",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT121"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT121",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
-    types: [Type.Action],
-    typeText: "Ranger Action - Arrow Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `If Murkmire Grapnel has an aim counter, it has +1{p}.
-
-Damage that would be dealt by Murkmire Grapnel can't be prevented`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Marco González"],
-    cardIdentifier: "murkmire-grapnel-yellow",
-    classes: [Class.Ranger],
-    defaultImage: "OUT122",
-    name: "Murkmire Grapnel",
-    printings: [{
-      
-      identifier: "OUT122",
-      image: "OUT122",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT122"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT122",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
-    types: [Type.Action],
-    typeText: "Ranger Action - Arrow Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `If Murkmire Grapnel has an aim counter, it has +1{p}.
-
-Damage that would be dealt by Murkmire Grapnel can't be prevented`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Marco González"],
-    cardIdentifier: "murkmire-grapnel-blue",
-    classes: [Class.Ranger],
-    defaultImage: "OUT123",
-    name: "Murkmire Grapnel",
-    printings: [{
-      
-      identifier: "OUT123",
-      image: "OUT123",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT123"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT123",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
-    types: [Type.Action],
-    typeText: "Ranger Action - Arrow Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `If Murkmire Grapnel has an aim counter, it has +1{p}.
-
-Damage that would be dealt by Murkmire Grapnel can't be prevented`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Elena Bakulina"],
-    cardIdentifier: "sedation-shot-red",
-    classes: [Class.Ranger],
-    defaultImage: "OUT124",
-    name: "Sedation Shot",
-    printings: [{
-      
-      identifier: "OUT124",
-      image: "OUT124",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT124"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT124",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
-    types: [Type.Action],
-    typeText: "Ranger Action - Arrow Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `If Sedation Shot has an aim counter, it has plus 1 {p}.
-
-When this hits a hero, create an Inertia token under their control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 5,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Elena Bakulina"],
-    cardIdentifier: "sedation-shot-yellow",
-    classes: [Class.Ranger],
-    defaultImage: "OUT125",
-    name: "Sedation Shot",
-    printings: [{
-      
-      identifier: "OUT125",
-      image: "OUT125",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT125"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT125",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
-    types: [Type.Action],
-    typeText: "Ranger Action - Arrow Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `If Sedation Shot has an aim counter, it has +1{p}.
-
-When this hits a hero, create an Inertia token under their control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Elena Bakulina"],
-    cardIdentifier: "sedation-shot-blue",
-    classes: [Class.Ranger],
-    defaultImage: "OUT126",
-    name: "Sedation Shot",
-    printings: [{
-      
-      identifier: "OUT126",
-      image: "OUT126",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT126"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT126",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
-    types: [Type.Action],
-    typeText: "Ranger Action - Arrow Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `If Sedation Shot has an aim counter, it has +1{p}.
-
-When this hits a hero, create an Inertia token under their control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Eilene Cherie"],
-    cardIdentifier: "skybound-shot-red",
-    classes: [Class.Ranger],
-    defaultImage: "OUT127",
-    name: "Skybound Shot",
-    printings: [{
-      
-      identifier: "OUT127",
-      image: "OUT127",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT127"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT127",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
-    types: [Type.Action],
-    typeText: "Ranger Action - Arrow Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `If Skybound Shot has an aim counter, it has +1{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 5,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Eilene Cherie"],
-    cardIdentifier: "skybound-shot-yellow",
-    classes: [Class.Ranger],
-    defaultImage: "OUT128",
-    name: "Skybound Shot",
-    printings: [{
-      
-      identifier: "OUT128",
-      image: "OUT128",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT128"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT128",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
-    types: [Type.Action],
-    typeText: "Ranger Action - Arrow Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `If Skybound Shot has an aim counter, it has +1{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Eilene Cherie"],
-    cardIdentifier: "skybound-shot-blue",
-    classes: [Class.Ranger],
-    defaultImage: "OUT129",
-    name: "Skybound Shot",
-    printings: [{
-      
-      identifier: "OUT129",
-      image: "OUT129",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT129"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT129",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
-    types: [Type.Action],
-    typeText: "Ranger Action - Arrow Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `If Skybound Shot has an aim counter, it has +1{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Muhammad Fajri"],
-    cardIdentifier: "spire-sniping-red",
-    classes: [Class.Ranger],
-    defaultImage: "OUT130",
-    name: "Spire Sniping",
-    printings: [{
-      
-      identifier: "OUT130",
-      image: "OUT130",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT130"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT130",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
-    types: [Type.Action],
-    typeText: "Ranger Action - Arrow Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `When Spire Sniping is put or turned face up in arsenal, look at the top 2 cards of your deck, then put them back in any order.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 5,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Muhammad Fajri"],
-    cardIdentifier: "spire-sniping-yellow",
-    classes: [Class.Ranger],
-    defaultImage: "OUT131",
-    name: "Spire Sniping",
-    printings: [{
-      
-      identifier: "OUT131",
-      image: "OUT131",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT131"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT131",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
-    types: [Type.Action],
-    typeText: "Ranger Action - Arrow Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `When Spire Sniping is put or turned face up in arsenal, look at the top 2 cards of your deck, then put them back in any order.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Muhammad Fajri"],
-    cardIdentifier: "spire-sniping-blue",
-    classes: [Class.Ranger],
-    defaultImage: "OUT132",
-    name: "Spire Sniping",
-    printings: [{
-      
-      identifier: "OUT132",
-      image: "OUT132",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT132"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT132",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
-    types: [Type.Action],
-    typeText: "Ranger Action - Arrow Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `When Spire Sniping is put or turned face up in arsenal, look at the top 2 cards of your deck, then put them back in any order.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Phu Thieu"],
-    cardIdentifier: "widowmaker-red",
-    classes: [Class.Ranger],
-    defaultImage: "OUT133",
-    name: "Widowmaker",
-    printings: [{
-      
-      identifier: "OUT133",
-      image: "OUT133",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT133"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT133",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
-    types: [Type.Action],
-    typeText: "Ranger Action - Arrow Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `Defense reactions can't be played to Widowmaker's chain link.
-
-If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Phu Thieu"],
-    cardIdentifier: "widowmaker-yellow",
-    classes: [Class.Ranger],
-    defaultImage: "OUT134",
-    name: "Widowmaker",
-    printings: [{
-      
-      identifier: "OUT134",
-      image: "OUT134",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT134"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT134",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
-    types: [Type.Action],
-    typeText: "Ranger Action - Arrow Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `Defense reactions can't be played to Widowmaker's chain link.
-
-If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Phu Thieu"],
-    cardIdentifier: "widowmaker-blue",
-    classes: [Class.Ranger],
-    defaultImage: "OUT135",
-    name: "Widowmaker",
-    printings: [{
-      
-      identifier: "OUT135",
-      image: "OUT135",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT135"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT135",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
-    types: [Type.Action],
-    typeText: "Ranger Action - Arrow Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `Defense reactions can't be played to Widowmaker's chain link.
-
-If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Nikita Bondarev"],
-    cardIdentifier: "withering-shot-red",
-    classes: [Class.Ranger],
-    defaultImage: "OUT136",
-    name: "Withering Shot",
-    printings: [{
-      
-      identifier: "OUT136",
-      image: "OUT136",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT136"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT136",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
-    types: [Type.Action],
-    typeText: "Ranger Action - Arrow Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `If Withering Shot has an aim counter, it has +1{p}.
-
-When this hits a hero, create a Frailty token under their control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 5,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Nikita Bondarev"],
-    cardIdentifier: "withering-shot-yellow",
-    classes: [Class.Ranger],
-    defaultImage: "OUT137",
-    name: "Withering Shot",
-    printings: [{
-      
-      identifier: "OUT137",
-      image: "OUT137",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT137"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT137",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
-    types: [Type.Action],
-    typeText: "Ranger Action - Arrow Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `If Withering Shot has an aim counter, it has +1{p}.
-
-When this hits a hero, create a Frailty token under their control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Nikita Bondarev"],
-    cardIdentifier: "withering-shot-blue",
-    classes: [Class.Ranger],
-    defaultImage: "OUT138",
-    name: "Withering Shot",
-    printings: [{
-      
-      identifier: "OUT138",
-      image: "OUT138",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT138"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT138",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
-    types: [Type.Action],
-    typeText: "Ranger Action - Arrow Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `If Withering Shot has an aim counter, it has +1{p}.
-
-When this hits a hero, create a Frailty token under their control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Nathaniel Himawan"],
-    cardIdentifier: "flick-knives",
-    classes: [Class.Assassin,Class.Ninja],
-    defaultImage: "OUT139",
-    name: "Flick Knives",
-    printings: [{
-      
-      identifier: "OUT139",
-      image: "OUT139",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Legendary],
-    rarity: Rarity.Legendary,
-    setIdentifiers: ["OUT139"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT139",
-    subtypes: [Subtype.Arms],
-    types: [Type.Equipment],
-    typeText: "Assassin / Ninja Equipment - Arms",
-
-    
-    defense: 1,
-    functionalText: `**Once per Turn Attack Reaction** - 0: Target dagger you control that isn't on the active chain link deals 1 damage to target hero. If damage is dealt this way, the dagger has hit. Destroy the dagger.
-
-**Blade Break**`,
-    
-    
-    
-    
-    keywords: [Keyword.BladeBreak],
-    
-    
-    
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Isuardi Therianto"],
-    cardIdentifier: "mask-of-shifting-perspectives",
-    classes: [Class.Assassin,Class.Ninja],
-    defaultImage: "OUT140",
-    name: "Mask of Shifting Perspectives",
-    printings: [{
-      
-      identifier: "OUT140",
-      image: "OUT140",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT140"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT140",
-    subtypes: [Subtype.Head],
-    types: [Type.Equipment],
-    typeText: "Assassin / Ninja Equipment - Head",
-
-    
-    defense: 1,
-    functionalText: `**Attack Reaction** - Destroy Mask of Shifting Perspectives: Whenever a dagger hits this turn, you may put a card from your hand on the bottom of your deck. If you do, draw a card.`,
-    
-    
-    
-    
-    keywords: [Keyword.BladeBreak],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Federico Musetti"],
-    cardIdentifier: "blade-cuff",
-    classes: [Class.Assassin,Class.Ninja],
-    defaultImage: "OUT141",
-    name: "Blade Cuff",
-    printings: [{
-      
-      identifier: "OUT141",
-      image: "OUT141",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT141"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT141",
-    subtypes: [Subtype.Arms],
-    types: [Type.Equipment],
-    typeText: "Assassin / Ninja Equipment - Arms",
-
-    
-    defense: 1,
-    functionalText: `**Action** - {r}{r}, destroy Blade Cuff: Your daggers gain +1{p} this turn. **Go again**
-
-**Blade Break**`,
-    
-    
-    
-    
-    keywords: [Keyword.BladeBreak,Keyword.GoAgain],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Narendra B Adi"],
-    cardIdentifier: "stab-wound-blue",
-    classes: [Class.Assassin,Class.Ninja],
-    defaultImage: "OUT142",
-    name: "Stab Wound",
-    printings: [{
-      
-      identifier: "OUT142",
-      image: "OUT142",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["OUT142"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT142",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin / Ninja Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `When this hits a hero, they lose X{h}, where X is the number of times a dagger has hit this combat chain.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    power: 2,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Isuardi Therianto"],
-    cardIdentifier: "concealed-blade-blue",
-    classes: [Class.Assassin,Class.Ninja],
-    defaultImage: "OUT143",
-    name: "Concealed Blade",
-    printings: [{
-      
-      identifier: "OUT143",
-      image: "OUT143",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["OUT143"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT143",
-    subtypes: [],
-    types: [Type.AttackReaction],
-    typeText: "Assassin / Ninja Attack Reaction",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `Target Assassin or Ninja attack action card gains +1{p} and When this hits, equip a dagger from your inventory.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Henrique Lindner"],
-    cardIdentifier: "knives-out-blue",
-    classes: [Class.Assassin,Class.Ninja],
-    defaultImage: "OUT144",
-    name: "Knives Out",
-    printings: [{
-      
-      identifier: "OUT144",
-      image: "OUT144",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["OUT144"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT144",
-    subtypes: [],
-    types: [Type.AttackReaction],
-    typeText: "Assassin / Ninja Attack Reaction",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `Your daggers gain +1{p} this turn.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Marco González"],
-    cardIdentifier: "bleed-out-red",
-    classes: [Class.Assassin,Class.Ninja],
-    defaultImage: "OUT145",
-    name: "Bleed Out",
-    printings: [{
-      
-      identifier: "OUT145",
-      image: "OUT145",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT145"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT145",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin / Ninja Action - Attack",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `Bleed Out costs X resource points less to play, where X is the total damage you've dealt with daggers this combat chain.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    power: 4,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Marco González"],
-    cardIdentifier: "bleed-out-yellow",
-    classes: [Class.Assassin,Class.Ninja],
-    defaultImage: "OUT146",
-    name: "Bleed Out",
-    printings: [{
-      
-      identifier: "OUT146",
-      image: "OUT146",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT146"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT146",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin / Ninja Action - Attack",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `Bleed Out costs X resource points less to play, where X is the total damage you've dealt with daggers this combat chain.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    power: 3,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Marco González"],
-    cardIdentifier: "bleed-out-blue",
-    classes: [Class.Assassin,Class.Ninja],
-    defaultImage: "OUT147",
-    name: "Bleed Out",
-    printings: [{
-      
-      identifier: "OUT147",
-      image: "OUT147",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT147"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT147",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin / Ninja Action - Attack",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `Bleed Out costs X resource points less to play, where X is the total damage you've dealt with daggers this combat chain.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 3,
-    power: 2,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tanapon Wachirakul"],
-    cardIdentifier: "hurl-red",
-    classes: [Class.Assassin,Class.Ninja],
-    defaultImage: "OUT148",
-    name: "Hurl",
-    printings: [{
-      
-      identifier: "OUT148",
-      image: "OUT148",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT148"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT148",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin / Ninja Action - Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `As an additional cost to play Hurl, you may pay {R}. When you do, it gains "When this attack, target dagger you control deals 1 damage to target hero. If damage is dealth this way, the dagger has hit. Destroy the dagger."
-
-**Go again**`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 3,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tanapon Wachirakul"],
-    cardIdentifier: "hurl-yellow",
-    classes: [Class.Assassin,Class.Ninja],
-    defaultImage: "OUT149",
-    name: "Hurl",
-    printings: [{
-      
-      identifier: "OUT149",
-      image: "OUT149",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT149"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT149",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin / Ninja Action - Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `As an additional cost to play Hurl, you may pay {r}. When you do, it gains "When this attack, target dagger you control deals 1 damage to target hero. If damage is dealth this way, the dagger has hit. Destroy the dagger."
-
-**Go again**`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    power: 2,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tanapon Wachirakul"],
-    cardIdentifier: "hurl-blue",
-    classes: [Class.Assassin,Class.Ninja],
-    defaultImage: "OUT150",
-    name: "Hurl",
-    printings: [{
-      
-      identifier: "OUT150",
-      image: "OUT150",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT150"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT150",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin / Ninja Action - Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `As an additional cost to play Hurl, you may pay {r}. When you do, it gains "When this attack, target dagger you control deals 1 damage to target hero. If damage is dealth this way, the dagger has hit. Destroy the dagger."
-
-**Go again**`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    power: 1,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Shen Fei"],
-    cardIdentifier: "plunge-red",
-    classes: [Class.Assassin,Class.Ninja],
-    defaultImage: "OUT151",
-    name: "Plunge",
-    printings: [{
-      
-      identifier: "OUT151",
-      image: "OUT151",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT151"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT151",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin / Ninja Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `When this hits, your next dagger attack this turn gains +1{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Shen Fei"],
-    cardIdentifier: "plunge-yellow",
-    classes: [Class.Assassin,Class.Ninja],
-    defaultImage: "OUT152",
-    name: "Plunge",
-    printings: [{
-      
-      identifier: "OUT152",
-      image: "OUT152",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT152"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT152",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin / Ninja Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `When this hits, your next dagger attack this turn gains +1{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Shen Fei"],
-    cardIdentifier: "plunge-blue",
-    classes: [Class.Assassin,Class.Ninja],
-    defaultImage: "OUT153",
-    name: "Plunge",
-    printings: [{
-      
-      identifier: "OUT153",
-      image: "OUT153",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT153"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT153",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin / Ninja Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `When this hits, your next dagger attack this turn gains +1{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    power: 1,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tommy Suhartono"],
-    cardIdentifier: "short-and-sharp-red",
-    classes: [Class.Assassin,Class.Ninja],
-    defaultImage: "OUT154",
-    name: "Short and Sharp",
-    printings: [{
-      
-      identifier: "OUT154",
-      image: "OUT154",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT154"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT154",
-    subtypes: [],
-    types: [Type.AttackReaction],
-    typeText: "Assassin / Ninja Attack Reaction",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `Choose 1;
-- Target dagger attack gains +3{p}.
-- Target attack action card with 2 or less base {p} gains +3{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tommy Suhartono"],
-    cardIdentifier: "short-and-sharp-yellow",
-    classes: [Class.Assassin,Class.Ninja],
-    defaultImage: "OUT155",
-    name: "Short and Sharp",
-    printings: [{
-      
-      identifier: "OUT155",
-      image: "OUT155",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT155"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT155",
-    subtypes: [],
-    types: [Type.AttackReaction],
-    typeText: "Assassin / Ninja Attack Reaction",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `Choose 1;
-- Target dagger attack gains +2{p}.
-- Target attack action card with 2 or less base {p} gains +2{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tommy Suhartono"],
-    cardIdentifier: "short-and-sharp-blue",
-    classes: [Class.Assassin,Class.Ninja],
-    defaultImage: "OUT156",
-    name: "Short and Sharp",
-    printings: [{
-      
-      identifier: "OUT156",
-      image: "OUT156",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT156"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT156",
-    subtypes: [],
-    types: [Type.AttackReaction],
-    typeText: "Assassin / Ninja Attack Reaction",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `Choose 1;
-- Target dagger attack gains +1{p}.
-- Target attack action card with 2 or less base {p} gains +1{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Isuardi Therianto"],
-    cardIdentifier: "mask-of-malicious-manifestations",
-    classes: [Class.Assassin,Class.Ranger],
-    defaultImage: "OUT157",
-    name: "Mask of Malicious Manifestations",
-    printings: [{
-      
-      identifier: "OUT157",
-      image: "OUT157",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT157"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT157",
-    subtypes: [Subtype.Head],
-    types: [Type.Equipment],
-    typeText: "Assassin / Ranger Equipment - Head",
-
-    
-    defense: 1,
-    functionalText: `**Action** - {r}, put a card from your hand or arsenal on the bottom of your deck, destroy Mask of Malicious Manifestations: Reveal cards from the top of your deck until you reveal an attack action card. Put it into your hand, then shuffle. **Go again**
-
-**Blade break**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Shen Fei"],
-    cardIdentifier: "toxic-tips",
-    classes: [Class.Assassin,Class.Ranger],
-    defaultImage: "OUT158",
-    name: "Toxic Tips",
-    printings: [{
-      
-      identifier: "OUT158",
-      image: "OUT158",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT158"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT158",
-    subtypes: [Subtype.Arms],
-    types: [Type.Equipment],
-    typeText: "Assassin / Ranger Equipment - Arms",
-
-    
-    defense: 1,
-    functionalText: `**Action** - {r}, destroy Toxic Tips: The next attack action card you play this turn gains "When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under their control." **Go again**
-
-**Blade Break**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain,Keyword.BladeBreak],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mateusz Wiśniewski"],
-    cardIdentifier: "codex-of-bloodrot-yellow",
-    classes: [Class.Assassin,Class.Ranger],
-    defaultImage: "OUT159",
-    name: "Codex of Bloodrot",
-    printings: [{
-      
-      identifier: "OUT159",
-      image: "OUT159",
-      set: Release.Outsiders,
-      
-    },{
-      
-      identifier: "OUT159_Marvel",
-      image: "OUT159_Marvel",
-      set: Release.Outsiders,
-      treatment: Treatment.FA,
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["OUT159"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT159_Marvel",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Assassin / Ranger Action",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `Each hero puts a card from their hand face down into their arsenal.
-
-Create a Ponder token under your control and a Bloodrot Pox token under each opponent's control.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Carlos Cruchaga"],
-    cardIdentifier: "codex-of-frailty-yellow",
-    classes: [Class.Assassin,Class.Ranger],
-    defaultImage: "OUT160",
-    name: "Codex of Frailty",
-    printings: [{
-      
-      identifier: "OUT160",
-      image: "OUT160",
-      set: Release.Outsiders,
-      
-    },{
-      
-      identifier: "OUT160_Marvel",
-      image: "OUT160_Marvel",
-      set: Release.Outsiders,
-      treatment: Treatment.FA,
-    },],
-    rarities: [Rarity.Majestic,Rarity.Marvel],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["OUT160"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT160_Marvel",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Assassin / Ranger Action",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `Each hero puts an attack action card from their graveyard face down into their arsenal. Each hero that does, discards a card.
-
-Create a Ponder token under your control and a Frailty token under each opponent's control.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Isuardi Therianto"],
-    cardIdentifier: "codex-of-inertia-yellow",
-    classes: [Class.Assassin,Class.Ranger],
-    defaultImage: "OUT161",
-    name: "Codex of Inertia",
-    printings: [{
-      
-      identifier: "OUT161",
-      image: "OUT161",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["OUT161"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT161",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Assassin / Ranger Action",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `Each hero puts the top card of their deck face down into their arsenal. Each hero that does, discards a card.
-
-Create a Ponder token under your control and an Inertia token under each opponent's control.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    power: 0,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Saad Irfan"],
-    cardIdentifier: "death-touch-red",
-    classes: [Class.Assassin,Class.Ranger],
-    defaultImage: "OUT162.width-450",
-    name: "Death Touch",
-    printings: [{
-      
-      identifier: "FAB132",
-      image: "FAB132",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "OUT162",
-      image: "OUT162.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Promo,Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["FAB132","OUT162"],
-    sets: [Release.Promos,Release.Outsiders],
-    specialImage: "FAB132",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin / Ranger Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `Death Touch can't be played from hand.
-
-When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under their control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 6,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Saad Irfan"],
-    cardIdentifier: "death-touch-yellow",
-    classes: [Class.Assassin,Class.Ranger],
-    defaultImage: "OUT163.width-450",
-    name: "Death Touch",
-    printings: [{
-      
-      identifier: "OUT163",
-      image: "OUT163.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT163"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT163.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin / Ranger Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `Death Touch can't be played from hand.
-
-When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under their control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    power: 5,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Saad Irfan"],
-    cardIdentifier: "death-touch-blue",
-    classes: [Class.Assassin,Class.Ranger],
-    defaultImage: "OUT164.width-450",
-    name: "Death Touch",
-    printings: [{
-      
-      identifier: "OUT164",
-      image: "OUT164.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT164"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT164.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin / Ranger Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `Death Touch can't be played from hand.
-
-When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under their control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    power: 4,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Federico Musetti"],
-    cardIdentifier: "toxicity-red",
-    classes: [Class.Assassin,Class.Ranger],
-    defaultImage: "OUT165",
-    name: "Toxicity",
-    printings: [{
-      
-      identifier: "OUT165",
-      image: "OUT165",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT165"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT165",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Assassin / Ranger Action",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `The next Assassin or Ranger attack action card you play this turn gains "When this hits a hero, they lose 5{h}."
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Federico Musetti"],
-    cardIdentifier: "toxicity-yellow",
-    classes: [Class.Assassin,Class.Ranger],
-    defaultImage: "OUT166",
-    name: "Toxicity",
-    printings: [{
-      
-      identifier: "OUT166",
-      image: "OUT166",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT166"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT166",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Assassin / Ranger Action",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `The next Assassin or Ranger attack action card you play this turn gains "When this hits a hero, they lose 4{h}."
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Federico Musetti"],
-    cardIdentifier: "toxicity-blue",
-    classes: [Class.Assassin,Class.Ranger],
-    defaultImage: "OUT167",
-    name: "Toxicity",
-    printings: [{
-      
-      identifier: "OUT167",
-      image: "OUT167",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT167"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT167",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Assassin / Ranger Action",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `The next Assassin or Ranger attack action card you play this turn gains "When this hits a hero, they lose 3{h}."
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mark Poole"],
-    cardIdentifier: "virulent-touch-red",
-    classes: [Class.Assassin,Class.Ranger],
-    defaultImage: "OUT168",
-    name: "Virulent Touch",
-    printings: [{
-      
-      identifier: "OUT168",
-      image: "OUT168",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT168"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT168",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin / Ranger Action - Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `Viruluent Touch can’t be played from hand.
-
-When this chain link resolves, if Virulent Touch is defended by a card from hand, create a Bloodrot Pox token under the defending hero’s control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mark Poole"],
-    cardIdentifier: "virulent-touch-yellow",
-    classes: [Class.Assassin,Class.Ranger],
-    defaultImage: "OUT169",
-    name: "Virulent Touch",
-    printings: [{
-      
-      identifier: "OUT169",
-      image: "OUT169",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT169"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT169",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin / Ranger Action - Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `Virulent Touch can't be played from hand.
-
-When this chain link resolves, if Virulent Touch is defended by a card from hand, create a Bloodrot Pox token under the defending hero's control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mark Poole"],
-    cardIdentifier: "virulent-touch-blue",
-    classes: [Class.Assassin,Class.Ranger],
-    defaultImage: "OUT170",
-    name: "Virulent Touch",
-    printings: [{
-      
-      identifier: "OUT170",
-      image: "OUT170",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT170"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT170",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin / Ranger Action - Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `Virulent Touch can't be played from hand.
-
-When this chain link resolves, if Virulent Touch is defended by a card from hand, create a Bloodrot Pox token under the defending hero's control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Henrique Lindner"],
-    cardIdentifier: "bloodrot-trap-red",
-    classes: [Class.Assassin,Class.Ranger],
-    defaultImage: "OUT171",
-    name: "Bloodrot Trap",
-    printings: [{
-      
-      identifier: "OUT171",
-      image: "OUT171",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT171"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT171",
-    subtypes: [Subtype.Trap],
-    types: [Type.DefenseReaction],
-    typeText: "Assassin / Ranger Defense Reaction - Trap",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `When this defends and the attacking hero has played or activated a reaction this chain link, create a Bloodrot Pox token under their control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Vito Vivodka"],
-    cardIdentifier: "frailty-trap-red",
-    classes: [Class.Assassin,Class.Ranger],
-    defaultImage: "OUT172",
-    name: "Frailty Trap",
-    printings: [{
-      
-      identifier: "OUT172",
-      image: "OUT172",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT172"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT172",
-    subtypes: [Subtype.Trap],
-    types: [Type.DefenseReaction],
-    typeText: "Assassin / Ranger Defense Reaction - Trap",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `When this defends an attack with **go again**, create a Frailty token under the attacking hero's control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Erick Efata"],
-    cardIdentifier: "inertia-trap-red",
-    classes: [Class.Assassin,Class.Ranger],
-    defaultImage: "OUT173",
-    name: "Inertia Trap",
-    printings: [{
-      
-      identifier: "OUT173",
-      image: "OUT173",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT173"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT173",
-    subtypes: [Subtype.Trap],
-    types: [Type.DefenseReaction],
-    typeText: "Assassin / Ranger Defense Reaction - Trap",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `When this defends an attack with {p} greater than its base, create an Inertia token under the attacking hero's control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Alexander Mokhov"],
-    cardIdentifier: "vambrace-of-determination",
-    classes: [Class.Generic],
-    defaultImage: "OUT174",
-    name: "Vambrace of Determination",
-    printings: [{
-      
-      identifier: "OUT174",
-      image: "OUT174",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Legendary],
-    rarity: Rarity.Legendary,
-    setIdentifiers: ["OUT174"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT174",
-    subtypes: [Subtype.Arms],
-    types: [Type.Equipment],
-    typeText: "Generic Equipment - Arms",
-
-    
-    defense: 0,
-    functionalText: `**Once per Turn Attack Reaction** - {r}: The next prevention effect that prevents {p} damage this turn, prevents 1 less of that damage.
-
-When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break**.`,
-    
-    
-    
-    
-    keywords: [Keyword.BladeBreak],
-    
-    
-    
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Lizhe Liang"],
-    cardIdentifier: "seekers-hood",
-    classes: [Class.Generic],
-    defaultImage: "OUT175",
-    name: "Seeker's Hood",
-    printings: [{
-      
-      identifier: "OUT175",
-      image: "OUT175",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT175"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT175",
-    subtypes: [Subtype.Head],
-    types: [Type.Equipment],
-    typeText: "Generic Equipment - Head",
-
-    
-    
-    functionalText: `**Instant** - {r}, destroy Seeker's Hood: Prevent the next 1 damage that would be dealt to your hero this turn. **Opt 1**`,
-    
-    
-    
-    
-    keywords: [Keyword.Opt],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Immanuela Crovus"],
-    cardIdentifier: "seekers-gilet",
-    classes: [Class.Generic],
-    defaultImage: "OUT176",
-    name: "Seeker's Gilet",
-    printings: [{
-      
-      identifier: "OUT176",
-      image: "OUT176",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT176"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT176",
-    subtypes: [Subtype.Chest],
-    types: [Type.Equipment],
-    typeText: "Generic Equipment - Chest",
-
-    
-    
-    functionalText: `**Instant** - {r}, destroy Seeker's Gilet: Prevent the next 1 damage that would be dealt to your hero this turn. **Opt 1**`,
-    
-    
-    
-    
-    keywords: [Keyword.Opt],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Felicia Liang"],
-    cardIdentifier: "seekers-mitts",
-    classes: [Class.Generic],
-    defaultImage: "OUT177",
-    name: "Seeker's Mitts",
-    printings: [{
-      
-      identifier: "OUT177",
-      image: "OUT177",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT177"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT177",
-    subtypes: [Subtype.Arms],
-    types: [Type.Equipment],
-    typeText: "Generic Equipment - Arms",
-
-    
-    
-    functionalText: `**Instant** - {r}, destroy Seeker's Mitts: Prevent the next 1 damage that would be dealt to your hero this turn. **Opt 1**`,
-    
-    
-    
-    
-    keywords: [Keyword.Opt],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Amelia Tan"],
-    cardIdentifier: "seekers-leggings",
-    classes: [Class.Generic],
-    defaultImage: "OUT178",
-    name: "Seeker's Leggings",
-    printings: [{
-      
-      identifier: "OUT178",
-      image: "OUT178",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT178"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT178",
-    subtypes: [Subtype.Legs],
-    types: [Type.Equipment],
-    typeText: "Generic Equipment - Legs",
-
-    
-    
-    functionalText: `**Instant** - {r}, destroy Seeker's Leggings: Prevent the next 1 damage that would be dealt to your hero this turn. **Opt 1**`,
-    
-    
-    
-    
-    keywords: [Keyword.Opt],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Alief Rusdiatama"],
-    cardIdentifier: "silken-gi",
-    classes: [Class.Generic],
-    defaultImage: "OUT179",
-    name: "Silken Gi",
-    printings: [{
-      
-      identifier: "OUT179",
-      image: "OUT179",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT179"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT179",
-    subtypes: [Subtype.Chest],
-    types: [Type.Equipment],
-    typeText: "Generic Equipment - Chest",
-
-    
-    
-    functionalText: `**Instant** - Destroy Silken Gi: The next attack action card you play this turn has -1{p} and costs {r} less to play.`,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Revazashvili E."],
-    cardIdentifier: "threadbare-tunic",
-    classes: [Class.Generic],
-    defaultImage: "OUT180",
-    name: "Threadbare Tunic",
-    printings: [{
-      
-      identifier: "OUT180",
-      image: "OUT180",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT180"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT180",
-    subtypes: [Subtype.Chest],
-    types: [Type.Equipment],
-    typeText: "Generic Equipment - Chest",
-
-    
-    
-    functionalText: `**Instant** - Destroy Threadbare Tunic: Gain {r}. Activate this ability only if you have no cards in hand.`,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Maria Mishina"],
-    cardIdentifier: "fisticuffs",
-    classes: [Class.Generic],
-    defaultImage: "OUT181",
-    name: "Fisticuffs",
-    printings: [{
-      
-      identifier: "OUT181",
-      image: "OUT181",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT181"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT181",
-    subtypes: [Subtype.Arms],
-    types: [Type.Equipment],
-    typeText: "Generic Equipment - Arms",
-
-    
-    
-    functionalText: `**Attack Reaction** - {r}{r}, destroy Fistcuffs: Target attack action card gains +1{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Kalashnikova N."],
-    cardIdentifier: "fleet-foot-sandals",
-    classes: [Class.Generic],
-    defaultImage: "OUT182",
-    name: "Fleet Foot Sandals",
-    printings: [{
-      
-      identifier: "OUT182",
-      image: "OUT182",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT182"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT182",
-    subtypes: [Subtype.Legs],
-    types: [Type.Equipment],
-    typeText: "Generic Equipment - Legs",
-
-    
-    
-    functionalText: `**Attack Reaction** - Destroy Fleet Foot Sandles: Target attack with 1 or less base {p} gains **go again**.`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Riordan Delmiro"],
-    cardIdentifier: "amnesia-red",
-    classes: [Class.Generic],
-    defaultImage: "OUT183",
-    name: "Amnesia",
-    printings: [{
-      
-      identifier: "OUT183",
-      image: "OUT183",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["OUT183"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT183",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `When this hits a hero, cards and tokens they own l ose and can't gain names until the start of your next turn.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 6,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Kevin Sidartha"],
-    cardIdentifier: "down-and-dirty-red",
-    classes: [Class.Generic],
-    defaultImage: "OUT184",
-    name: "Down and Dirty",
-    printings: [{
-      
-      identifier: "OUT184",
-      image: "OUT184",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["OUT184"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT184",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `While Down and Dirty is in your arsenal, you may defend with it.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 6,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Federico Musetti"],
-    cardIdentifier: "give-and-take-red",
-    classes: [Class.Generic],
-    defaultImage: "OUT185",
-    name: "Give and Take",
-    printings: [{
-      
-      identifier: "OUT185",
-      image: "OUT185",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["OUT185"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT185",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `Whenever Give and Take is defended by an action card, you may put an action card with cost less than Give and Take's {p} from your graveyard on top of your deck.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    power: 3,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Nikolay Moskvin"],
-    cardIdentifier: "gore-belching-red",
-    classes: [Class.Generic],
-    defaultImage: "OUT186",
-    name: "Gore Belching",
-    printings: [{
-      
-      identifier: "OUT186",
-      image: "OUT186",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["OUT186"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT186",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 0,
-    
-    functionalText: `When this attacks, reveal cards from the top of your deck until you reveal an attack action card. If you do, banish it and this gets -X{p}, where X is the {p} of the card banished this way. Otherwise, this gets -7{p}. Shuffle.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 7,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: [],
-    cardIdentifier: "burdens-of-the-past-blue",
-    classes: [Class.Generic],
-    defaultImage: "OUT187",
-    name: "Burdens of the Past",
-    printings: [{
-      
-      identifier: "OUT187",
-      image: "OUT187",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["OUT187"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT187",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Generic Action",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `Until end of turn, target hero can't play defense reaction cards with the same name as a card in their graveyard.
-
-If there are 10 or more defense reaction cards in their graveyard, draw a card.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Isuardi Therianto"],
-    cardIdentifier: "premeditate-red",
-    classes: [Class.Generic],
-    defaultImage: "OUT188",
-    name: "Premeditate",
-    printings: [{
-      
-      identifier: "OUT188",
-      image: "OUT188",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["OUT188"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT188",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Generic Action",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `The next time an attack action card hits a hero this turn, create a Ponder token.
-
-The next attack action card you play from arsenal this turn gains +3{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Henrique Lindner"],
-    cardIdentifier: "humble-red",
-    classes: [Class.Generic],
-    defaultImage: "OUT189",
-    name: "Humble",
-    printings: [{
-      
-      identifier: "OUT189",
-      image: "OUT189",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT189"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT189",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `When this hits a hero, that hero loses all abilities until the end of their next turn.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 6,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Henrique Lindner"],
-    cardIdentifier: "humble-yellow",
-    classes: [Class.Generic],
-    defaultImage: "OUT190",
-    name: "Humble",
-    printings: [{
-      
-      identifier: "OUT190",
-      image: "OUT190",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT190"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT190",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `When this hits a hero, that hero loses all abilities until the end of their next turn.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    power: 5,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Henrique Lindner"],
-    cardIdentifier: "humble-blue",
-    classes: [Class.Generic],
-    defaultImage: "OUT191",
-    name: "Humble",
-    printings: [{
-      
-      identifier: "OUT191",
-      image: "OUT191",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT191"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT191",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `When this hits a hero, that hero loses all abilities until the end of their next turn.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    power: 4,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Joseph Qiu"],
-    cardIdentifier: "infectious-host-red",
-    classes: [Class.Generic],
-    defaultImage: "OUT192",
-    name: "Infectious Host",
-    printings: [{
-      
-      identifier: "OUT192",
-      image: "OUT192",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT192"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT192",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `When this attacks a hero, if you control a Frailty token, create a Frailty token under their control, then repeat for Inertia and Bloodrot Pox.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 4,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Joseph Qiu"],
-    cardIdentifier: "infectious-host-yellow",
-    classes: [Class.Generic],
-    defaultImage: "OUT193",
-    name: "Infectious Host",
-    printings: [{
-      
-      identifier: "OUT193",
-      image: "OUT193",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT193"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT193",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `When this attacks a hero, if you control a Frailty token, create a Frailty token under their control, then repeat for Inertia and Bloodrot Pox.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    power: 3,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Joseph Qiu"],
-    cardIdentifier: "infectious-host-blue",
-    classes: [Class.Generic],
-    defaultImage: "OUT194",
-    name: "Infectious Host",
-    printings: [{
-      
-      identifier: "OUT194",
-      image: "OUT194",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT194"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT194",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `When this attacks a hero, if you control a Frailty token, create a Frailty token under their control, then repeat for Inertia and Bloodrot Pox.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    power: 2,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Shen Fei"],
-    cardIdentifier: "looking-for-a-scrap-red",
-    classes: [Class.Generic],
-    defaultImage: "OUT195",
-    name: "Looking for a Scrap",
-    printings: [{
-      
-      identifier: "OUT195",
-      image: "OUT195",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT195"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT195",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `As an additional cost to play Looking for a Scrap, you may banish a card with 1{p} from your graveyard. When you do, this gains +1{p} and **go again**.`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    power: 4,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Shen Fei"],
-    cardIdentifier: "looking-for-a-scrap-yellow",
-    classes: [Class.Generic],
-    defaultImage: "OUT196",
-    name: "Looking for a Scrap",
-    printings: [{
-      
-      identifier: "OUT196",
-      image: "OUT196",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT196"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT196",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `As an additional cost to play Looking for a Scrap, you may banish a card with 1{p} from your graveyard. When you do, this gains +1{p} and **go again**.`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    power: 3,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Shen Fei"],
-    cardIdentifier: "looking-for-a-scrap-blue",
-    classes: [Class.Generic],
-    defaultImage: "OUT197",
-    name: "Looking for a Scrap",
-    printings: [{
-      
-      identifier: "OUT197",
-      image: "OUT197",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT197"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT197",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `As an additional cost to play Looking for a Scrap, you may banish a card with 1{p} from your graveyard. When you do, this gains +1{p} and **go again**.`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 3,
-    power: 2,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Saad Irfan"],
-    cardIdentifier: "wreck-havoc-red",
-    classes: [Class.Generic],
-    defaultImage: "OUT198",
-    name: "Wreck Havoc",
-    printings: [{
-      
-      identifier: "OUT198",
-      image: "OUT198",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT198"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT198",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `Defense reactions can't be played to Wreck Havoc's chain link.
-
-When this hits a hero, you may turn a card in their arsenal face up, then destroy a defense reaction in their arsenal.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 6,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Saad Irfan"],
-    cardIdentifier: "wreck-havoc-yellow",
-    classes: [Class.Generic],
-    defaultImage: "OUT199",
-    name: "Wreck Havoc",
-    printings: [{
-      
-      identifier: "OUT199",
-      image: "OUT199",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT199"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT199",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `Defense reactions can't be played to Wreck Havoc's chain link.
-
-When this hits a hero, you may turn a card in their arsenal face up, then destroy a defense reaction in their arsenal.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    power: 5,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Saad Irfan"],
-    cardIdentifier: "wreck-havoc-blue",
-    classes: [Class.Generic],
-    defaultImage: "OUT200",
-    name: "Wreck Havoc",
-    printings: [{
-      
-      identifier: "OUT200",
-      image: "OUT200",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT200"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT200",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `Defense reactions can't be played to Wreck Havoc's chain link.
-
-When this hits a hero, you may turn a card in their arsenal face up, then destroy a defense reaction in their arsenal.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    power: 4,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Phu Theiu"],
-    cardIdentifier: "cut-down-to-size-red",
-    classes: [Class.Generic],
-    defaultImage: "OUT201",
-    name: "Cut Down to Size",
-    printings: [{
-      
-      identifier: "OUT201",
-      image: "OUT201",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT201"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT201",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `When this hits a hero, if they have 4 or more cards in hand, they discard a card.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 6,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Phu Thieu"],
-    cardIdentifier: "cut-down-to-size-yellow",
-    classes: [Class.Generic],
-    defaultImage: "OUT202",
-    name: "Cut Down to Size",
-    printings: [{
-      
-      identifier: "OUT202",
-      image: "OUT202",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT202"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT202",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `When this hits a hero, if they have 4 or more cards in hand, they discard a card.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    power: 5,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Phu Thieu"],
-    cardIdentifier: "cut-down-to-size-blue",
-    classes: [Class.Generic],
-    defaultImage: "OUT203",
-    name: "Cut Down to Size",
-    printings: [{
-      
-      identifier: "OUT203",
-      image: "OUT203",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT203"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT203",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `When this hits a hero, if they have 4 or more cards in hand, they discard a card.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Saad Irfan"],
-    cardIdentifier: "destructive-deliberation-red",
-    classes: [Class.Generic],
-    defaultImage: "OUT204",
-    name: "Destructive Deliberation",
-    printings: [{
-      
-      identifier: "OUT204",
-      image: "OUT204",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT204"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT204",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action – Attack",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `When this hits a hero, create a Ponder token.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 5,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Saad Irfan"],
-    cardIdentifier: "destructive-deliberation-yellow",
-    classes: [Class.Generic],
-    defaultImage: "OUT205",
-    name: "Destructive Deliberation",
-    printings: [{
-      
-      identifier: "OUT205",
-      image: "OUT205",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT205"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT205",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `When this hits a hero, create a Ponder token.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Saad Irfan"],
-    cardIdentifier: "destructive-deliberation-blue",
-    classes: [Class.Generic],
-    defaultImage: "OUT206",
-    name: "Destructive Deliberation",
-    printings: [{
-      
-      identifier: "OUT206",
-      image: "OUT206",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT206"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT206",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `When this hits a hero, create a Ponder token.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Hilary Purnamasari"],
-    cardIdentifier: "feisty-locals-red",
-    classes: [Class.Generic],
-    defaultImage: "OUT207",
-    name: "Feisty Locals",
-    printings: [{
-      
-      identifier: "OUT207",
-      image: "OUT207",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT207"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT207",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `If this is defended by an action card, this has +2{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Hilary Purnamasari"],
-    cardIdentifier: "feisty-locals-yellow",
-    classes: [Class.Generic],
-    defaultImage: "OUT208",
-    name: "Feisty Locals",
-    printings: [{
-      
-      identifier: "OUT208",
-      image: "OUT208",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT208"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT208",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `If this is defended by an action card, this has +2{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Hilary Purnamasari"],
-    cardIdentifier: "feisty-locals-blue",
-    classes: [Class.Generic],
-    defaultImage: "OUT209",
-    name: "Feisty Locals",
-    printings: [{
-      
-      identifier: "OUT209",
-      image: "OUT209",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT209"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT209",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `If this is defended by an action card, this has +2{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    power: 1,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Nikolay Moskvin"],
-    cardIdentifier: "freewheeling-renegades-red",
-    classes: [Class.Generic],
-    defaultImage: "OUT210",
-    name: "Freewheeling Renegades",
-    printings: [{
-      
-      identifier: "OUT210",
-      image: "OUT210",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT210"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT210",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `If this is defended by an action card, this has -2{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 6,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Nikolay Moskvin"],
-    cardIdentifier: "freewheeling-renegades-yellow",
-    classes: [Class.Generic],
-    defaultImage: "OUT211",
-    name: "Freewheeling Renegades",
-    printings: [{
-      
-      identifier: "OUT211",
-      image: "OUT211",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT211"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT211",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `If this is defended by an action card, this has -2{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    power: 5,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Nikolay Moskvin"],
-    cardIdentifier: "freewheeling-renegades-blue",
-    classes: [Class.Generic],
-    defaultImage: "OUT212",
-    name: "Freewheeling Renegades",
-    printings: [{
-      
-      identifier: "OUT212",
-      image: "OUT212",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT212"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT212",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `If this is defended by an action card, this has -2{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Maxim Kostin"],
-    cardIdentifier: "ravenous-rabble-red",
-    classes: [Class.Generic],
-    defaultImage: "OUT213",
-    name: "Ravenous Rabble",
-    printings: [{
-      
-      identifier: "DRO021",
-      image: "DRO021.width-450",
-      set: Release.DromaiBlitzDeck,
-      
-    },{
-      
-      identifier: "1HP393",
-      image: "1HP393.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC191",
-      image: "ARC191",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC191",
-      image: "ARC191-RF",
-      set: Release.ArcaneRising,
-      treatment: Treatment.AT,
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ARC191",
-      image: "U-ARC191",
-      set: Release.ArcaneRising,
-      
-    },{
-      
-      identifier: "OUT213",
-      image: "OUT213",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["DRO021","1HP393","ARC191","OUT213"],
-    sets: [Release.DromaiBlitzDeck,Release.HistoryPack1,Release.ArcaneRising,Release.Outsiders],
-    specialImage: "ARC191-RF",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action – Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `When you attack with Ravenous Rabble, reveal the top card of your deck. Ravenous Rabble gets -X{p}, where X is the pitch value of the card revealed this way.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    power: 5,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Maxim Kostin"],
-    cardIdentifier: "ravenous-rabble-yellow",
-    classes: [Class.Generic],
-    defaultImage: "OUT214",
-    name: "Ravenous Rabble",
-    printings: [{
-      
-      identifier: "1HP394",
-      image: "1HP394.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC192",
-      image: "ARC192",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC192",
-      image: "ARC192-RF",
-      set: Release.ArcaneRising,
-      treatment: Treatment.AT,
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ARC192",
-      image: "U-ARC192",
-      set: Release.ArcaneRising,
-      
-    },{
-      
-      identifier: "OUT214",
-      image: "OUT214",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP394","ARC192","OUT214"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising,Release.Outsiders],
-    specialImage: "ARC192-RF",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action – Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `When you attack with Ravenous Rabble, reveal the top card of your deck. Ravenous Rabble gets -X{p}, where X is the pitch value of the card revealed this way.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Maxim Kostin"],
-    cardIdentifier: "ravenous-rabble-blue",
-    classes: [Class.Generic],
-    defaultImage: "OUT215",
-    name: "Ravenous Rabble",
-    printings: [{
-      
-      identifier: "1HP395",
-      image: "1HP395.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC193",
-      image: "ARC193",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC193",
-      image: "ARC193-RF",
-      set: Release.ArcaneRising,
-      treatment: Treatment.AT,
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ARC193",
-      image: "U-ARC193",
-      set: Release.ArcaneRising,
-      
-    },{
-      
-      identifier: "OUT215",
-      image: "OUT215",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP395","ARC193","OUT215"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising,Release.Outsiders],
-    specialImage: "ARC193-RF",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action – Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `When you attack with Ravenous Rabble, reveal the top card of your deck. Ravenous Rabble gets -X{p}, where X is the pitch value of the card revealed this way.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 3,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tian Thongjomroon"],
-    cardIdentifier: "seek-horizon-red",
-    classes: [Class.Generic],
-    defaultImage: "OUT216",
-    name: "Seek Horizon",
-    printings: [{
-      edition: ReleaseEdition.First,
-      identifier: "MON251",
-      image: "MON251.width-450",
-      set: Release.Monarch,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "MON251",
-      image: "U-MON251.width-450",
-      set: Release.Monarch,
-      
-    },{
-      
-      identifier: "OUT216",
-      image: "OUT216",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common,Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["MON251","OUT216"],
-    sets: [Release.Monarch,Release.Outsiders],
-    specialImage: "MON251.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action – Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `As an additional cost to play Seek Horizon, you may put a card from your hand on top of your deck. If you do, Seek Horizon gains **go again**.`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tian Thongjomroon"],
-    cardIdentifier: "seek-horizon-yellow",
-    classes: [Class.Generic],
-    defaultImage: "OUT217",
-    name: "Seek Horizon",
-    printings: [{
-      edition: ReleaseEdition.First,
-      identifier: "MON252",
-      image: "MON252.width-450",
-      set: Release.Monarch,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "MON252",
-      image: "U-MON252.width-450",
-      set: Release.Monarch,
-      
-    },{
-      
-      identifier: "OUT217",
-      image: "OUT217",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common,Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["MON252","OUT217"],
-    sets: [Release.Monarch,Release.Outsiders],
-    specialImage: "MON252.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action – Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `As an additional cost to play Seek Horizon, you may put a card from your hand on top of your deck. If you do, Seek Horizon gains **go again**.`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tian Thongjomroon"],
-    cardIdentifier: "seek-horizon-blue",
-    classes: [Class.Generic],
-    defaultImage: "OUT218",
-    name: "Seek Horizon",
-    printings: [{
-      edition: ReleaseEdition.First,
-      identifier: "MON253",
-      image: "MON253.width-450",
-      set: Release.Monarch,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "MON253",
-      image: "U-MON253.width-450",
-      set: Release.Monarch,
-      
-    },{
-      
-      identifier: "OUT218",
-      image: "OUT218",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common,Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["MON253","OUT218"],
-    sets: [Release.Monarch,Release.Outsiders],
-    specialImage: "MON253.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action – Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `As an additional cost to play Seek Horizon, you may put a card from your hand on top of your deck. If you do, Seek Horizon gains **go again**.`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 3,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Narendra B Adi"],
-    cardIdentifier: "spring-load-red",
-    classes: [Class.Generic],
-    defaultImage: "OUT219",
-    name: "Spring Load",
-    printings: [{
-      
-      identifier: "OUT219",
-      image: "OUT219",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT219"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT219",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `When this attacks, if you have no cards in hand, it gains +1{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Narendra B Adi"],
-    cardIdentifier: "spring-load-yellow",
-    classes: [Class.Generic],
-    defaultImage: "OUT220",
-    name: "Spring Load",
-    printings: [{
-      
-      identifier: "OUT220",
-      image: "OUT220",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT220"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT220",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `When this attacks, if you have no cards in hand, it gains +1{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Narendra B Adi"],
-    cardIdentifier: "spring-load-blue",
-    classes: [Class.Generic],
-    defaultImage: "OUT221",
-    name: "Spring Load",
-    printings: [{
-      
-      identifier: "OUT221",
-      image: "OUT221",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT221"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT221",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `When this attacks, if you have no cards in hand, it gains +1{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    power: 1,
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Andrey Savchuk"],
-    cardIdentifier: "come-to-fight-red",
-    classes: [Class.Generic],
-    defaultImage: "OUT222",
-    name: "Come to Fight",
-    printings: [{
-      
-      identifier: "1HP414",
-      image: "1HP414.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC203",
-      image: "ARC203",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC203",
-      image: "ARC203-RF",
-      set: Release.ArcaneRising,
-      treatment: Treatment.AT,
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ARC203",
-      image: "U-ARC203",
-      set: Release.ArcaneRising,
-      
-    },{
-      
-      identifier: "OUT222",
-      image: "OUT222",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP414","ARC203","OUT222"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising,Release.Outsiders],
-    specialImage: "ARC203-RF",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Generic Action",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `The next attack action card you play this turn gains +3{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Andrey Savchuk"],
-    cardIdentifier: "come-to-fight-yellow",
-    classes: [Class.Generic],
-    defaultImage: "OUT223",
-    name: "Come to Fight",
-    printings: [{
-      
-      identifier: "1HP415",
-      image: "1HP415.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC204",
-      image: "ARC204",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC204",
-      image: "ARC204-RF",
-      set: Release.ArcaneRising,
-      treatment: Treatment.AT,
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ARC204",
-      image: "U-ARC204",
-      set: Release.ArcaneRising,
-      
-    },{
-      
-      identifier: "OUT223",
-      image: "OUT223",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP415","ARC204","OUT223"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising,Release.Outsiders],
-    specialImage: "ARC204-RF",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Generic Action",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `The next attack action card you play this turn gains +2{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Andrey Savchuk"],
-    cardIdentifier: "come-to-fight-blue",
-    classes: [Class.Generic],
-    defaultImage: "OUT224",
-    name: "Come to Fight",
-    printings: [{
-      
-      identifier: "RVD024",
-      image: "RVD024.width-450",
-      set: Release.ClassicBattlesRhinarDorinthea,
-      
-    },{
-      
-      identifier: "1HP416",
-      image: "1HP416.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC205",
-      image: "ARC205",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC205",
-      image: "ARC205-RF",
-      set: Release.ArcaneRising,
-      treatment: Treatment.AT,
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ARC205",
-      image: "U-ARC205",
-      set: Release.ArcaneRising,
-      
-    },{
-      
-      identifier: "OUT224",
-      image: "OUT224",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["RVD024","1HP416","ARC205","OUT224"],
-    sets: [Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.ArcaneRising,Release.Outsiders],
-    specialImage: "ARC205-RF",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Generic Action",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `The next attack action card you play this turn gains +1{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Raphael Pinna"],
-    cardIdentifier: "scout-the-periphery-red",
-    classes: [Class.Generic],
-    defaultImage: "OUT225",
-    name: "Scout the Periphery",
-    printings: [{
-      
-      identifier: "OUT225",
-      image: "OUT225",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT225"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT225",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Generic Action",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `Look at the top card of target hero's deck.
-
-The next attack action card you play from arsenal this turn gains +3{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Raphael Pinna"],
-    cardIdentifier: "scout-the-periphery-yellow",
-    classes: [Class.Generic],
-    defaultImage: "OUT226",
-    name: "Scout the Periphery",
-    printings: [{
-      
-      identifier: "OUT226",
-      image: "OUT226",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT226"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT226",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Generic Action",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `Look at the top card of target hero's deck.
-
-The next attack action card you play from arsenal this turn gains +2{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Raphael Pinna"],
-    cardIdentifier: "scout-the-periphery-blue",
-    classes: [Class.Generic],
-    defaultImage: "OUT227",
-    name: "Scout the Periphery",
-    printings: [{
-      
-      identifier: "OUT227",
-      image: "OUT227",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT227"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT227",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Generic Action",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `Look at the top card of target hero's deck.
-
-The next attack action card you play from arsenal this turn gains +1{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Narendra B Adi"],
-    cardIdentifier: "brush-off-red",
-    classes: [Class.Generic],
-    defaultImage: "OUT228",
-    name: "Brush Off",
-    printings: [{
-      
-      identifier: "OUT228",
-      image: "OUT228",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT228"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT228",
-    subtypes: [],
-    types: [Type.Instant],
-    typeText: "Generic Instant",
-
-    cost: 0,
-    
-    functionalText: `The next time you would be dealt 3 damage this turn, prevent it.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Narendra B Adi"],
-    cardIdentifier: "brush-off-yellow",
-    classes: [Class.Generic],
-    defaultImage: "OUT229",
-    name: "Brush Off",
-    printings: [{
-      
-      identifier: "OUT229",
-      image: "OUT229",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT229"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT229",
-    subtypes: [],
-    types: [Type.Instant],
-    typeText: "Generic Instant",
-
-    cost: 0,
-    
-    functionalText: `The next time you would be dealt 2 damage this turn, prevent it.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Narendra B Adi"],
-    cardIdentifier: "brush-off-blue",
-    classes: [Class.Generic],
-    defaultImage: "OUT230",
-    name: "Brush Off",
-    printings: [{
-      
-      identifier: "OUT230",
-      image: "OUT230",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT230"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT230",
-    subtypes: [],
-    types: [Type.Instant],
-    typeText: "Generic Instant",
-
-    cost: 0,
-    
-    functionalText: `The next time you would be dealt 1 damage this turn, prevent it.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Nikolay Moskvin","Hendrique Lindner"],
-    cardIdentifier: "peace-of-mind-red",
-    classes: [Class.Generic],
-    defaultImage: "OUT231",
-    name: "Peace of Mind",
-    printings: [{
-      
-      identifier: "FAB131",
-      image: "FAB131",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "OUT231",
-      image: "OUT231",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common,Rarity.Promo],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT231","FAB131"],
-    sets: [Release.Outsiders,Release.Promos],
-    specialImage: "FAB131",
-    subtypes: [],
-    types: [Type.Instant],
-    typeText: "Generic Instant",
-
-    cost: 2,
-    
-    functionalText: `The next time you would be dealt {p} damage, prevent 4 of that damage.
-
-Create a Ponder token.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Nikolay Moskvin"],
-    cardIdentifier: "peace-of-mind-yellow",
-    classes: [Class.Generic],
-    defaultImage: "OUT232",
-    name: "Peace of Mind",
-    printings: [{
-      
-      identifier: "OUT232",
-      image: "OUT232",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT232"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT232",
-    subtypes: [],
-    types: [Type.Instant],
-    typeText: "Generic Instant",
-
-    cost: 2,
-    
-    functionalText: `The next time you would be dealt {p} damage, prevent 3 of that damage.
-
-Create a Ponder token.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Nikolay Moskvin"],
-    cardIdentifier: "peace-of-mind-blue",
-    classes: [Class.Generic],
-    defaultImage: "OUT233",
-    name: "Peace of Mind",
-    printings: [{
-      
-      identifier: "OUT233",
-      image: "OUT233",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT233"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT233",
-    subtypes: [],
-    types: [Type.Instant],
-    typeText: "Generic Instant",
-
-    cost: 2,
-    
-    functionalText: `The next time you would be dealt {p} damage, prevent 2 of that damage.
-
-Create a Ponder token.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Carlos Cruchaga"],
-    cardIdentifier: "bloodrot-pox",
-    classes: [Class.Generic],
-    defaultImage: "OUT234",
-    name: "Bloodrot Pox",
-    printings: [{
-      
-      identifier: "LGS125",
-      image: "LGS125",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "OUT234",
-      image: "OUT234",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Promo,Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["LGS125","OUT234"],
-    sets: [Release.Promos,Release.Outsiders],
-    specialImage: "LGS125",
-    subtypes: [Subtype.Aura],
-    types: [Type.Token],
-    typeText: "Generic Token - Aura",
-
-    
-    
-    functionalText: `At the beginning of your end phase, destroy Bloodrot Pox, then it deals 2 damage to you unless you pay {r}{r}{r}.`,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Daria Khlebnikova"],
-    cardIdentifier: "frailty",
-    classes: [Class.Generic],
-    defaultImage: "OUT235",
-    name: "Frailty",
-    printings: [{
-      
-      identifier: "LGS126",
-      image: "LGS126",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "OUT235",
-      image: "OUT235",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Promo,Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["LGS126","OUT235"],
-    sets: [Release.Promos,Release.Outsiders],
-    specialImage: "LGS126",
-    subtypes: [Subtype.Aura],
-    types: [Type.Token],
-    typeText: "Generic Token - Aura",
-
-    
-    
-    functionalText: `Your attack action cards played from arsenal and weapon attacks have -1{p}.
-
-At the beginning of your end phase destroy Frailty.`,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Othon Nikolaidis"],
-    cardIdentifier: "inertia",
-    classes: [Class.Generic],
-    defaultImage: "OUT236",
-    name: "Inertia",
-    printings: [{
-      
-      identifier: "LGS127",
-      image: "LGS127",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "OUT236",
-      image: "OUT236",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Promo,Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["LGS127","OUT236"],
-    sets: [Release.Promos,Release.Outsiders],
-    specialImage: "LGS127",
-    subtypes: [Subtype.Aura],
-    types: [Type.Token],
-    typeText: "Generic Token - Aura",
-
-    
-    
-    functionalText: `At the beginning of your end phase, destroy Inertia, then put all cards from your hand and arsenal on the bottom of your deck.`,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Henrique Lindner"],
-    cardIdentifier: "ponder",
-    classes: [Class.Generic],
-    defaultImage: "OUT237",
-    name: "Ponder",
-    printings: [{
-      
-      identifier: "DYN244",
-      image: "DYN244",
-      set: Release.Dynasty,
-      
-    },{
-      
-      identifier: "OUT237",
-      image: "OUT237",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["DYN244","OUT237"],
-    sets: [Release.Dynasty,Release.Outsiders],
-    specialImage: "DYN244",
-    subtypes: [Subtype.Aura],
-    types: [Type.Token],
-    typeText: "Generic Token – Aura",
-
-    
-    
-    functionalText: `At the beginning of your end phase, destroy Ponder and draw a card.`,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Alexandra Malygina","Sam Yang"],
-    cardIdentifier: "cracked-bauble-yellow",
-    classes: [Class.Generic],
-    defaultImage: "OUT238",
-    name: "Cracked Bauble",
-    printings: [{
-      
-      identifier: "LGS083",
-      image: "LGS083",
-      set: Release.Promos,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR224",
-      image: "WTR224",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR224",
-      image: "U-WTR224",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC218",
-      image: "ARC218.width-450",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ARC218",
-      image: "U-ARC218.width-450",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "CRU195",
-      image: "CRU195",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "CRU195",
-      image: "U-CRU195",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "MON306",
-      image: "MON306.width-450",
-      set: Release.Monarch,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "MON306",
-      image: "U-MON306.width-450",
-      set: Release.Monarch,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ELE237",
-      image: "ELE237.width-450",
-      set: Release.TalesOfAria,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ELE237",
-      image: "U-ELE237.width-450",
-      set: Release.TalesOfAria,
-      
-    },{
-      
-      identifier: "UPR224",
-      image: "UPR224",
-      set: Release.Uprising,
-      
-    },{
-      
-      identifier: "OUT238",
-      image: "OUT238",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
-    rarity: Rarity.Token,
-    setIdentifiers: ["LGS083","WTR224","ARC218","CRU195","MON306","ELE237","UPR224","OUT238"],
-    sets: [Release.Promos,Release.WelcomeToRathe,Release.ArcaneRising,Release.CrucibleOfWar,Release.Monarch,Release.TalesOfAria,Release.Uprising,Release.Outsiders],
-    specialImage: "ARC218.width-450",
-    subtypes: [],
-    types: [Type.Resource],
-    typeText: "Generic Resource",
-
-    
-    
-    functionalText: `*(Cracked Bauble exists to support Booster Draft and sealed Deck formats. A player may add any number of Cracked Baubles to their deck. Typically, a player would only do this if they did not have enough legally playable cards to make a 30 card minimum deck.)*`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
     artists: ["Sam Yang"],
     cardIdentifier: "shitty-xmas-present-yellow",
     classes: [Class.Generic],
@@ -11744,7 +1012,7 @@ When you pitch Heart of Fyendal, if you have less {h} than your opponent, gain 1
 
     
     defense: 2,
-    functionalText: `**Once per turn Action** - 0: Roll a 6 sided die. Gain action points equal to half the number rolled, rounded down.
+    functionalText: `**Once per turn Action** - 0: Roll a 6 sided die. Gain action points equal to half the number rolled, rounded down.
 
 **Battleworn**`,
     
@@ -16765,6 +6033,311 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     
     
   },{
+    artists: ["Adolfo Navarro"],
+    cardIdentifier: "katsu-the-wanderer",
+    classes: [Class.Ninja],
+    defaultImage: "OUT045.width-450",
+    name: "Katsu, the Wanderer",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "HER003",
+      image: "HER003",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "HER023",
+      image: "HER023",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.G,
+      identifier: "WIN003",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR076",
+      image: "WTR076",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      
+      identifier: "KSU001",
+      image: "KSU.width-450",
+      set: Release.KatsuHeroDeck,
+      
+    },{
+      
+      identifier: "1HP086",
+      image: "1HP086.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR076",
+      image: "U-WTR076",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "CRU045",
+      image: "CRU045",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "CRU045",
+      image: "U-CRU045",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      
+      identifier: "OUT045",
+      image: "OUT045.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
+    rarity: Rarity.Token,
+    setIdentifiers: ["HER003","HER023","WIN003","WTR076","KSU001","1HP086","CRU045","OUT045"],
+    sets: [Release.Promos,Release.WelcomeToRathe,Release.KatsuHeroDeck,Release.HistoryPack1,Release.CrucibleOfWar,Release.Outsiders],
+    specialImage: "CRU045",
+    subtypes: [],
+    types: [Type.Hero],
+    typeText: "Ninja Hero",
+
+    
+    
+    functionalText: `The first time an attack action card you control hits each turn, you may discard a card with cost 0. If you do, search your deck for a card with **combo**, banish it face up, then shuffle your deck. You may play it this turn.`,
+    
+    hero: Hero.Katsu,
+    intellect: 4,
+    
+    
+    life: 40,
+    
+    
+    
+    restrictedFormats: [Format.Blitz,Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Adolfo Navarro"],
+    cardIdentifier: "katsu",
+    classes: [Class.Ninja],
+    defaultImage: "OUT046.width-450",
+    name: "Katsu",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "HER007",
+      image: "HER007",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "HER056",
+      image: "HER056",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "XXX004",
+      image: "XXX004",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "KSU002",
+      image: "KSU2.width-450",
+      set: Release.KatsuHeroDeck,
+      
+    },{
+      
+      identifier: "1HP087",
+      image: "1HP087.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR077",
+      image: "WTR077",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR077",
+      image: "U-WTR077",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      
+      identifier: "OUT046",
+      image: "OUT046.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
+    rarity: Rarity.Token,
+    setIdentifiers: ["HER007","HER056","XXX004","KSU002","1HP087","WTR077","OUT046"],
+    sets: [Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.Outsiders],
+    specialImage: "WTR077",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Ninja Hero – Young",
+
+    
+    
+    functionalText: `The first time an attack action card you control hits each turn, you may discard a card with cost 0. If you do, search your deck for a card with **combo**, banish it face up, then shuffle your deck. You may play it this turn.`,
+    
+    hero: Hero.Katsu,
+    intellect: 4,
+    
+    
+    life: 20,
+    
+    
+    
+    restrictedFormats: [Format.ClassicConstructed],
+    
+    
+    
+    
+    
+    young: true
+  },{
+    artists: ["Leo Avero"],
+    cardIdentifier: "harmonized-kodachi",
+    classes: [Class.Ninja],
+    defaultImage: "OUT048.width-450",
+    name: "Harmonized Kodachi",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "LGS003",
+      image: "LGS003",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "XXX008",
+      image: "XXX008",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "KSU003",
+      image: "KSU3.width-450",
+      set: Release.KatsuHeroDeck,
+      
+    },{
+      
+      identifier: "KSU004",
+      image: "KSU4.width-450",
+      set: Release.KatsuHeroDeck,
+      
+    },{
+      
+      identifier: "1HP091",
+      image: "1HP091.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "1HP092",
+      image: "1HP092.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR078",
+      image: "WTR078",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR078",
+      image: "U-WTR078",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "CRU048",
+      image: "CRU48.width-450",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "CRU048",
+      image: "U-CRU048.width-450",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "CRU049",
+      image: "CRU049",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.C,
+      identifier: "CRU049",
+      image: "CRU049",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "CRU049",
+      image: "U-CRU049",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "CRU049",
+      image: "U-CRU049",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      
+      identifier: "OUT048",
+      image: "OUT048.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token,Rarity.Rare],
+    rarity: Rarity.Token,
+    setIdentifiers: ["LGS003","XXX008","KSU003","KSU004","1HP091","1HP092","WTR078","CRU048","CRU049","OUT048"],
+    sets: [Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar,Release.Outsiders],
+    specialImage: "CRU48.width-450",
+    subtypes: [Subtype.Dagger,Subtype.OneHanded],
+    types: [Type.Weapon],
+    typeText: "Ninja Weapon – Dagger (1H)",
+
+    
+    
+    functionalText: `**Once per Turn Action** - {r}: **Attack**
+
+If you have a card in your pitch zone with cost 0, Harmonized Kodachi has **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Kate Fox"],
     cardIdentifier: "mask-of-momentum",
     classes: [Class.Ninja],
@@ -17992,6 +7565,237 @@ Draw a card.`,
     
     
   },{
+    artists: ["Sam Yang","Maxim Kostin"],
+    cardIdentifier: "head-jab-red",
+    classes: [Class.Ninja],
+    defaultImage: "OUT077.width-450",
+    name: "Head Jab",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS017",
+      image: "LGS017",
+      set: Release.Promos,
+      treatment: Treatment.AA,
+    },{
+      
+      identifier: "KSU011",
+      image: "KSU11.width-450",
+      set: Release.KatsuHeroDeck,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR098",
+      image: "WTR098",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
+      identifier: "WTR098",
+      image: "WTR098",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR098",
+      image: "U-WTR098",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "WTR098",
+      image: "U-WTR098",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      
+      identifier: "OUT077",
+      image: "OUT077.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["LGS017","KSU011","WTR098","OUT077"],
+    sets: [Release.Promos,Release.KatsuHeroDeck,Release.WelcomeToRathe,Release.Outsiders],
+    specialImage: "LGS017",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action – Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sam Yang","Maxim Kostin"],
+    cardIdentifier: "head-jab-yellow",
+    classes: [Class.Ninja],
+    defaultImage: "OUT078.width-450",
+    name: "Head Jab",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS018",
+      image: "LGS018",
+      set: Release.Promos,
+      treatment: Treatment.AA,
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR099",
+      image: "WTR099",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
+      identifier: "WTR099",
+      image: "WTR099",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR099",
+      image: "U-WTR099",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "WTR099",
+      image: "U-WTR099",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      
+      identifier: "OUT078",
+      image: "OUT078.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["LGS018","WTR099","OUT078"],
+    sets: [Release.Promos,Release.WelcomeToRathe,Release.Outsiders],
+    specialImage: "LGS018",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action – Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sam Yang","Maxim Kostin"],
+    cardIdentifier: "head-jab-blue",
+    classes: [Class.Ninja],
+    defaultImage: "OUT079.width-450",
+    name: "Head Jab",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS019",
+      image: "LGS019",
+      set: Release.Promos,
+      treatment: Treatment.AA,
+    },{
+      
+      identifier: "IRA008",
+      image: "IRA008-P_EIEWAn1.width-450",
+      set: Release.IraWelcomeDeck,
+      
+    },{
+      
+      identifier: "KSU023",
+      image: "KSU23.width-450",
+      set: Release.KatsuHeroDeck,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR100",
+      image: "WTR100",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
+      identifier: "WTR100",
+      image: "WTR100",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR100",
+      image: "U-WTR100",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "WTR100",
+      image: "U-WTR100",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      
+      identifier: "OUT079",
+      image: "OUT079.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["LGS019","IRA008","KSU023","WTR100","OUT079"],
+    sets: [Release.Promos,Release.IraWelcomeDeck,Release.KatsuHeroDeck,Release.WelcomeToRathe,Release.Outsiders],
+    specialImage: "LGS019",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action – Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Le Vuong"],
     cardIdentifier: "leg-tap-red",
     classes: [Class.Ninja],
@@ -18398,6 +8202,231 @@ Draw a card.`,
     
     pitch: 3,
     power: 1,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Vadim Kalabukh"],
+    cardIdentifier: "surging-strike-red",
+    classes: [Class.Ninja],
+    defaultImage: "OUT083.width-450",
+    name: "Surging Strike",
+    printings: [{
+      
+      identifier: "KSU015",
+      image: "KSU15.width-450",
+      set: Release.KatsuHeroDeck,
+      
+    },{
+      
+      identifier: "1HP125",
+      image: "1HP125.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR107",
+      image: "WTR107",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
+      identifier: "WTR107",
+      image: "WTR107",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR107",
+      image: "U-WTR107",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "WTR107",
+      image: "U-WTR107",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      
+      identifier: "OUT083",
+      image: "OUT083.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["KSU015","1HP125","WTR107","OUT083"],
+    sets: [Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.Outsiders],
+    specialImage: "WTR107",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action – Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Vadim Kalabukh"],
+    cardIdentifier: "surging-strike-yellow",
+    classes: [Class.Ninja],
+    defaultImage: "OUT084.width-450",
+    name: "Surging Strike",
+    printings: [{
+      
+      identifier: "KSU020",
+      image: "KSU20.width-450",
+      set: Release.KatsuHeroDeck,
+      
+    },{
+      
+      identifier: "1HP126",
+      image: "1HP126.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR108",
+      image: "WTR108",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
+      identifier: "WTR108",
+      image: "WTR108",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR108",
+      image: "U-WTR108",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "WTR108",
+      image: "U-WTR108",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      
+      identifier: "OUT084",
+      image: "OUT084.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["KSU020","1HP126","WTR108","OUT084"],
+    sets: [Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.Outsiders],
+    specialImage: "WTR108",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action – Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Vadim Kalabukh"],
+    cardIdentifier: "surging-strike-blue",
+    classes: [Class.Ninja],
+    defaultImage: "OUT085.width-450",
+    name: "Surging Strike",
+    printings: [{
+      
+      identifier: "1HP127",
+      image: "1HP127.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR109",
+      image: "WTR109",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
+      identifier: "WTR109",
+      image: "WTR109",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR109",
+      image: "U-WTR109",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "WTR109",
+      image: "U-WTR109",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      
+      identifier: "OUT085",
+      image: "OUT085.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP127","WTR109","OUT085"],
+    sets: [Release.HistoryPack1,Release.WelcomeToRathe,Release.Outsiders],
+    specialImage: "WTR109",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action – Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    power: 3,
     
     
     
@@ -26413,6 +16442,119 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.`,
     
     
   },{
+    artists: ["Alexandra Malygina","Sam Yang"],
+    cardIdentifier: "cracked-bauble-yellow",
+    classes: [Class.Generic],
+    defaultImage: "OUT238.width-450",
+    name: "Cracked Bauble",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "LGS083",
+      image: "LGS083",
+      set: Release.Promos,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR224",
+      image: "WTR224",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR224",
+      image: "U-WTR224",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "ARC218",
+      image: "ARC218.width-450",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ARC218",
+      image: "U-ARC218.width-450",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "CRU195",
+      image: "CRU195",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "CRU195",
+      image: "U-CRU195",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "MON306",
+      image: "MON306.width-450",
+      set: Release.Monarch,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "MON306",
+      image: "U-MON306.width-450",
+      set: Release.Monarch,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "ELE237",
+      image: "ELE237.width-450",
+      set: Release.TalesOfAria,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ELE237",
+      image: "U-ELE237.width-450",
+      set: Release.TalesOfAria,
+      
+    },{
+      
+      identifier: "UPR224",
+      image: "UPR224",
+      set: Release.Uprising,
+      
+    },{
+      
+      identifier: "OUT238",
+      image: "OUT238.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
+    rarity: Rarity.Token,
+    setIdentifiers: ["LGS083","WTR224","ARC218","CRU195","MON306","ELE237","UPR224","OUT238"],
+    sets: [Release.Promos,Release.WelcomeToRathe,Release.ArcaneRising,Release.CrucibleOfWar,Release.Monarch,Release.TalesOfAria,Release.Uprising,Release.Outsiders],
+    specialImage: "ARC218.width-450",
+    subtypes: [],
+    types: [Type.Resource],
+    typeText: "Generic Resource",
+
+    
+    
+    functionalText: `*(Cracked Bauble exists to support Booster Draft and sealed Deck formats. A player may add any number of Cracked Baubles to their deck. Typically, a player would only do this if they did not have enough legally playable cards to make a 30 card minimum deck.)*`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["King Fung Ng"],
     cardIdentifier: "quicken",
     classes: [Class.Generic],
@@ -29034,7 +19176,8 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     
     functionalText: `Optekal Monocle enters the arena with 5 steam counters on it. When Optekal Monocle has no steam counters on it, destroy it.
 
-**Action** - Remove a steam counter from Optekal Monocle: **Opt 1**. **Go again**`,
+**Action** - Remove a steam counter from Optekal Monocle: **Opt 1**. **Go again**
+`,
     
     
     
@@ -29051,6 +19194,166 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     
     
     
+  },{
+    artists: ["Maxim Kostin"],
+    cardIdentifier: "azalea-ace-in-the-hole",
+    classes: [Class.Ranger],
+    defaultImage: "OUT089.width-450",
+    name: "Azalea, Ace in the Hole",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "HER010",
+      image: "HER010",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "HER018",
+      image: "HER018",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.G,
+      identifier: "WIN006",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "1HP221",
+      image: "1HP221.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "ARC038",
+      image: "ARC038",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ARC038",
+      image: "U-ARC038",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "CRU119",
+      image: "CRU119",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "CRU119",
+      image: "U-CRU119",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      
+      identifier: "OUT089",
+      image: "OUT089.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["HER010","HER018","WIN006","1HP221","ARC038","CRU119","OUT089"],
+    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar,Release.Outsiders],
+    specialImage: "ARC038",
+    subtypes: [],
+    types: [Type.Hero],
+    typeText: "Ranger Hero",
+
+    
+    
+    functionalText: `**Once per Turn Action** - 0: Put a card from your arsenal on the bottom of your deck. If you do, put the top card of your deck face up into your arsenal. If it's an arrow card, it gains **dominate** until end of turn. **Go again**`,
+    
+    hero: Hero.Azalea,
+    intellect: 4,
+    
+    keywords: [Keyword.Dominate,Keyword.GoAgain],
+    life: 40,
+    
+    
+    
+    restrictedFormats: [Format.Blitz,Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Maxim Kostin"],
+    cardIdentifier: "azalea",
+    classes: [Class.Ranger],
+    defaultImage: "OUT090.width-450",
+    name: "Azalea",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "HER014",
+      image: "HER014",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "HER071",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "1HP222",
+      image: "1HP222.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "ARC039",
+      image: "ARC039",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ARC039",
+      image: "U-ARC039",
+      set: Release.ArcaneRising,
+      
+    },{
+      
+      identifier: "OUT090",
+      image: "OUT090.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["HER014","HER071","1HP222","ARC039","OUT090"],
+    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.Outsiders],
+    specialImage: "ARC039",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Ranger Hero – Young",
+
+    
+    
+    functionalText: `**Once per Turn Action** - 0: Put a card from your arsenal on the bottom of your deck. If you do, put the top card of your deck face up into your arsenal. If it's an arrow card, it gains **dominate** until end of turn. **Go again**`,
+    
+    hero: Hero.Azalea,
+    intellect: 4,
+    
+    keywords: [Keyword.Dominate,Keyword.GoAgain],
+    life: 20,
+    
+    
+    
+    restrictedFormats: [Format.ClassicConstructed],
+    
+    
+    
+    
+    
+    young: true
   },{
     artists: ["Maxim Kostin"],
     cardIdentifier: "death-dealer",
@@ -30050,8 +20353,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Maxim Kostin"],
     cardIdentifier: "take-aim-yellow",
     classes: [Class.Ranger],
@@ -39010,6 +29312,231 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     
     
   },{
+    artists: ["Maxim Kostin"],
+    cardIdentifier: "ravenous-rabble-red",
+    classes: [Class.Generic],
+    defaultImage: "OUT213.width-450",
+    name: "Ravenous Rabble",
+    printings: [{
+      
+      identifier: "DRO021",
+      image: "DRO021.width-450",
+      set: Release.DromaiBlitzDeck,
+      
+    },{
+      
+      identifier: "1HP393",
+      image: "1HP393.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "ARC191",
+      image: "ARC191",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "ARC191",
+      image: "ARC191-RF",
+      set: Release.ArcaneRising,
+      treatment: Treatment.AT,
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ARC191",
+      image: "U-ARC191",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "ARC191",
+      image: "U-ARC191",
+      set: Release.ArcaneRising,
+      
+    },{
+      
+      identifier: "OUT213",
+      image: "OUT213.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DRO021","1HP393","ARC191","OUT213"],
+    sets: [Release.DromaiBlitzDeck,Release.HistoryPack1,Release.ArcaneRising,Release.Outsiders],
+    specialImage: "ARC191-RF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action – Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `When this attacks, reveal the top card of your deck. This gets -X{p}, where X is the pitch value of the card revealed this way.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Maxim Kostin"],
+    cardIdentifier: "ravenous-rabble-yellow",
+    classes: [Class.Generic],
+    defaultImage: "OUT214.width-450",
+    name: "Ravenous Rabble",
+    printings: [{
+      
+      identifier: "1HP394",
+      image: "1HP394.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "ARC192",
+      image: "ARC192",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "ARC192",
+      image: "ARC192-RF",
+      set: Release.ArcaneRising,
+      treatment: Treatment.AT,
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ARC192",
+      image: "U-ARC192",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "ARC192",
+      image: "U-ARC192",
+      set: Release.ArcaneRising,
+      
+    },{
+      
+      identifier: "OUT214",
+      image: "OUT214.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP394","ARC192","OUT214"],
+    sets: [Release.HistoryPack1,Release.ArcaneRising,Release.Outsiders],
+    specialImage: "ARC192-RF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action – Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `When this attacks, reveal the top card of your deck. This gets -X{p}, where X is the pitch value of the card revealed this way.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Maxim Kostin"],
+    cardIdentifier: "ravenous-rabble-blue",
+    classes: [Class.Generic],
+    defaultImage: "OUT215.width-450",
+    name: "Ravenous Rabble",
+    printings: [{
+      
+      identifier: "1HP395",
+      image: "1HP395.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "ARC193",
+      image: "ARC193",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "ARC193",
+      image: "ARC193-RF",
+      set: Release.ArcaneRising,
+      treatment: Treatment.AT,
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ARC193",
+      image: "U-ARC193",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "ARC193",
+      image: "U-ARC193",
+      set: Release.ArcaneRising,
+      
+    },{
+      
+      identifier: "OUT215",
+      image: "OUT215.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP395","ARC193","OUT215"],
+    sets: [Release.HistoryPack1,Release.ArcaneRising,Release.Outsiders],
+    specialImage: "ARC193-RF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action – Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `When this attacks, reveal the top card of your deck. This gets -X{p}, where X is the pitch value of the card revealed this way.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Oxana Turlay"],
     cardIdentifier: "rifting-red",
     classes: [Class.Generic],
@@ -39553,6 +30080,231 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     
     
     keywords: [Keyword.Opt],
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Andrey Savchuk"],
+    cardIdentifier: "come-to-fight-red",
+    classes: [Class.Generic],
+    defaultImage: "OUT222.width-450",
+    name: "Come to Fight",
+    printings: [{
+      
+      identifier: "1HP414",
+      image: "1HP414.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "ARC203",
+      image: "ARC203",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "ARC203",
+      image: "ARC203-RF",
+      set: Release.ArcaneRising,
+      treatment: Treatment.AT,
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ARC203",
+      image: "U-ARC203",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "ARC203",
+      image: "U-ARC203",
+      set: Release.ArcaneRising,
+      
+    },{
+      
+      identifier: "OUT222",
+      image: "OUT222.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP414","ARC203","OUT222"],
+    sets: [Release.HistoryPack1,Release.ArcaneRising,Release.Outsiders],
+    specialImage: "ARC203-RF",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `The next attack action card you play this turn gains +3{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Andrey Savchuk"],
+    cardIdentifier: "come-to-fight-yellow",
+    classes: [Class.Generic],
+    defaultImage: "OUT223.width-450",
+    name: "Come to Fight",
+    printings: [{
+      
+      identifier: "1HP415",
+      image: "1HP415.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "ARC204",
+      image: "ARC204",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "ARC204",
+      image: "ARC204-RF",
+      set: Release.ArcaneRising,
+      treatment: Treatment.AT,
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ARC204",
+      image: "U-ARC204",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "ARC204",
+      image: "U-ARC204",
+      set: Release.ArcaneRising,
+      
+    },{
+      
+      identifier: "OUT223",
+      image: "OUT223.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP415","ARC204","OUT223"],
+    sets: [Release.HistoryPack1,Release.ArcaneRising,Release.Outsiders],
+    specialImage: "ARC204-RF",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `The next attack action card you play this turn gains +2{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Andrey Savchuk"],
+    cardIdentifier: "come-to-fight-blue",
+    classes: [Class.Generic],
+    defaultImage: "OUT224.width-450",
+    name: "Come to Fight",
+    printings: [{
+      
+      identifier: "RVD024",
+      image: "RVD024.width-450",
+      set: Release.ClassicBattlesRhinarDorinthea,
+      
+    },{
+      
+      identifier: "1HP416",
+      image: "1HP416.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "ARC205",
+      image: "ARC205",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "ARC205",
+      image: "ARC205-RF",
+      set: Release.ArcaneRising,
+      treatment: Treatment.AT,
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ARC205",
+      image: "U-ARC205",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "ARC205",
+      image: "U-ARC205",
+      set: Release.ArcaneRising,
+      
+    },{
+      
+      identifier: "OUT224",
+      image: "OUT224.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["RVD024","1HP416","ARC205","OUT224"],
+    sets: [Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.ArcaneRising,Release.Outsiders],
+    specialImage: "ARC205-RF",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `The next attack action card you play this turn gains +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 3,
@@ -42887,6 +33639,85 @@ At the beginning of your action phase, destroy Stamp Authority.`,
     
     young: true
   },{
+    artists: ["Sam Yang"],
+    cardIdentifier: "benji-the-piercing-wind",
+    classes: [Class.Ninja],
+    defaultImage: "OUT047.width-450",
+    name: "Benji, the Piercing Wind",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "HER026",
+      image: "HER026",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "1HP088",
+      image: "1HP088.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "CRU047",
+      image: "CRU047",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "CRU047",
+      image: "CRU047-RF",
+      set: Release.CrucibleOfWar,
+      treatment: Treatment.AT,
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "CRU047",
+      image: "U-CRU047",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "CRU047",
+      image: "U-CRU047",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      
+      identifier: "OUT047",
+      image: "OUT047.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["HER026","1HP088","CRU047","OUT047"],
+    sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar,Release.Outsiders],
+    specialImage: "CRU047-RF",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Ninja Hero – Young",
+
+    
+    
+    functionalText: `Your attack action cards with 2 or less {p} can't be defended by cards from hand.
+
+The first time an attack action card you control hits each turn, your next attack gains +1{p}.`,
+    
+    hero: Hero.Benji,
+    intellect: 4,
+    
+    
+    life: 17,
+    
+    
+    
+    restrictedFormats: [Format.ClassicConstructed],
+    
+    
+    
+    
+    
+    young: true
+  },{
     artists: ["Fajareka Setiawan"],
     cardIdentifier: "edge-of-autumn",
     classes: [Class.Ninja],
@@ -44158,7 +34989,8 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Asep Ariyanto"],
     cardIdentifier: "torrent-of-tempo-yellow",
     classes: [Class.Ninja],
@@ -57004,7 +47836,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
 
     cost: 1,
     defense: 2,
-    functionalText: `The next attack action card you play this turn gains +1{p} and "If this hits, put it into your hero's soul." 
+    functionalText: `The next attack action card you play this turn gains +1{p} and "If this hits, put it into your hero's soul."
 
 **Go again**`,
     
@@ -63743,8 +54575,7 @@ At the start of your turn, if you have 13 or less {h}, banish Carrion Husk.
     
     talents: [Talent.Shadow],
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Elena Danilova"],
     cardIdentifier: "ebon-fold",
     classes: [Class.NotClassed],
@@ -67725,6 +58556,201 @@ Shuffle your deck. Banish Sonata Arcanix.
     pitch: 3,
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tian Thongjomroon"],
+    cardIdentifier: "seek-horizon-red",
+    classes: [Class.Generic],
+    defaultImage: "OUT216.width-450",
+    name: "Seek Horizon",
+    printings: [{
+      edition: ReleaseEdition.First,
+      identifier: "MON251",
+      image: "MON251.width-450",
+      set: Release.Monarch,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "MON251",
+      image: "MON251.width-450",
+      set: Release.Monarch,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "MON251",
+      image: "U-MON251.width-450",
+      set: Release.Monarch,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "MON251",
+      image: "U-MON251.width-450",
+      set: Release.Monarch,
+      
+    },{
+      
+      identifier: "OUT216",
+      image: "OUT216.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare,Rarity.Common],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["MON251","OUT216"],
+    sets: [Release.Monarch,Release.Outsiders],
+    specialImage: "MON251.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action – Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `As an additional cost to play Seek Horizon, you may put a card from your hand on top of your deck. If you do, Seek Horizon gains **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tian Thongjomroon"],
+    cardIdentifier: "seek-horizon-yellow",
+    classes: [Class.Generic],
+    defaultImage: "OUT217.width-450",
+    name: "Seek Horizon",
+    printings: [{
+      edition: ReleaseEdition.First,
+      identifier: "MON252",
+      image: "MON252.width-450",
+      set: Release.Monarch,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "MON252",
+      image: "MON252.width-450",
+      set: Release.Monarch,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "MON252",
+      image: "U-MON252.width-450",
+      set: Release.Monarch,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "MON252",
+      image: "U-MON252.width-450",
+      set: Release.Monarch,
+      
+    },{
+      
+      identifier: "OUT217",
+      image: "OUT217.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare,Rarity.Common],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["MON252","OUT217"],
+    sets: [Release.Monarch,Release.Outsiders],
+    specialImage: "MON252.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action – Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `As an additional cost to play Seek Horizon, you may put a card from your hand on top of your deck. If you do, Seek Horizon gains **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tian Thongjomroon"],
+    cardIdentifier: "seek-horizon-blue",
+    classes: [Class.Generic],
+    defaultImage: "OUT218.width-450",
+    name: "Seek Horizon",
+    printings: [{
+      edition: ReleaseEdition.First,
+      identifier: "MON253",
+      image: "MON253.width-450",
+      set: Release.Monarch,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "MON253",
+      image: "MON253.width-450",
+      set: Release.Monarch,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "MON253",
+      image: "U-MON253.width-450",
+      set: Release.Monarch,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "MON253",
+      image: "U-MON253.width-450",
+      set: Release.Monarch,
+      
+    },{
+      
+      identifier: "OUT218",
+      image: "OUT218.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare,Rarity.Common],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["MON253","OUT218"],
+    sets: [Release.Monarch,Release.Outsiders],
+    specialImage: "MON253.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action – Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `As an additional cost to play Seek Horizon, you may put a card from your hand on top of your deck. If you do, Seek Horizon gains **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    power: 2,
+    
     
     
     
@@ -72860,7 +63886,7 @@ At the beginning of your action phase, destroy Emerging Avalanche then the next 
     talents: [Talent.Elemental],
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "strength-of-sequoia-red",
     classes: [Class.Guardian],
     defaultImage: "ELE028.width-450",
@@ -72937,7 +63963,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
     talents: [Talent.Elemental],
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "strength-of-sequoia-yellow",
     classes: [Class.Guardian],
     defaultImage: "ELE029.width-450",
@@ -73002,7 +64028,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
     talents: [Talent.Elemental],
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "strength-of-sequoia-blue",
     classes: [Class.Guardian],
     defaultImage: "ELE030.width-450",
@@ -74699,7 +65725,7 @@ If Dazzling Crescendo was **fused**, it gains **go again**.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `**Ice Fusion** 
+    functionalText: `**Ice Fusion**
 
 If Flake Out was **fused**, it gains **dominate**.`,
     fusions: [Fusion.Ice],
@@ -74760,7 +65786,7 @@ If Flake Out was **fused**, it gains **dominate**.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `**Ice Fusion** 
+    functionalText: `**Ice Fusion**
 
 If Flake Out was **fused**, it gains **dominate**.`,
     fusions: [Fusion.Ice],
@@ -74821,7 +65847,7 @@ If Flake Out was **fused**, it gains **dominate**.`,
 
     cost: 1,
     defense: 3,
-    functionalText: `**Ice Fusion** 
+    functionalText: `**Ice Fusion**
 
 If Flake Out was **fused**, it gains **dominate**.`,
     fusions: [Fusion.Ice],
@@ -77139,7 +68165,8 @@ If Exposed to the Elements was **fused** with an Ice card, destroy an equipment 
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Muhammad Fajri"],
     cardIdentifier: "entwine-earth-red",
     classes: [Class.NotClassed],
@@ -79109,7 +70136,7 @@ If it's **fused**, instead it gains +2{p}.
     talents: [Talent.Earth],
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "summerwood-shelter-red",
     classes: [Class.NotClassed],
     defaultImage: "ELE125.width-450",
@@ -79168,7 +70195,7 @@ If it's **fused**, instead it gains +2{p}.
     talents: [Talent.Earth],
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "summerwood-shelter-yellow",
     classes: [Class.NotClassed],
     defaultImage: "ELE126.width-450",
@@ -79233,7 +70260,7 @@ If it's **fused**, instead it gains +2{p}.
     talents: [Talent.Earth],
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "summerwood-shelter-blue",
     classes: [Class.NotClassed],
     defaultImage: "ELE127.width-450",
@@ -80267,7 +71294,7 @@ If Sow Tomorrow is played from arsenal, draw a card.
     talents: [Talent.Earth],
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "amulet-of-earth-blue",
     classes: [Class.NotClassed],
     defaultImage: "ELE143.width-450",
@@ -82120,7 +73147,7 @@ If Polar Blast is played from arsenal, draw a card.
     talents: [Talent.Ice],
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "amulet-of-ice-blue",
     classes: [Class.NotClassed],
     defaultImage: "ELE172.width-450",
@@ -83965,7 +74992,7 @@ If Electrify is played from arsenal, draw a card.
     talents: [Talent.Lightning],
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "amulet-of-lightning-blue",
     classes: [Class.NotClassed],
     defaultImage: "ELE201.width-450",
@@ -88081,7 +79108,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
     defense: 3,
     functionalText: `**Benji Specialization**
 
-When Spring Tidings hits, draw a card for each other attack action card with 2 or less base{p} you control on the combat chain.
+When Spring Tidings hits, draw a card for each other attack action card with 2 or less base {p} you control on the combat chain.
 
 **Go again**`,
     
@@ -88447,6 +79474,180 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
     cost: 0,
     defense: 2,
     functionalText: `When Ride the Tailwind hits, the next attack action card with 2 or less base {p} you play this combat chain gains **go again**.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "twin-twisters-red",
+    classes: [Class.Ninja],
+    defaultImage: "OUT086.width-450",
+    name: "Twin Twisters",
+    printings: [{
+      edition: ReleaseEdition.First,
+      identifier: "EVR047",
+      image: "EVR047.width-450",
+      set: Release.Everfest,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "EVR047",
+      image: "EVR047.width-450",
+      set: Release.Everfest,
+      
+    },{
+      
+      identifier: "OUT086",
+      image: "OUT086.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVR047","OUT086"],
+    sets: [Release.Everfest,Release.Outsiders],
+    specialImage: "EVR047.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action – Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Choose 1:
+
+- Twin Twisters gains "When this hits, your next attack this combat chain gains +1{p}."
+- Twin Twisters gains +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "twin-twisters-yellow",
+    classes: [Class.Ninja],
+    defaultImage: "OUT087.width-450",
+    name: "Twin Twisters",
+    printings: [{
+      edition: ReleaseEdition.First,
+      identifier: "EVR048",
+      image: "EVR048.width-450",
+      set: Release.Everfest,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "EVR048",
+      image: "EVR048.width-450",
+      set: Release.Everfest,
+      
+    },{
+      
+      identifier: "OUT087",
+      image: "OUT087.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVR048","OUT087"],
+    sets: [Release.Everfest,Release.Outsiders],
+    specialImage: "EVR048.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action – Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Choose 1:
+
+- Twin Twisters gains "When this hits, your next attack this combat chain gains +1{p}."
+- Twin Twisters gains +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "twin-twisters-blue",
+    classes: [Class.Ninja],
+    defaultImage: "OUT088.width-450",
+    name: "Twin Twisters",
+    printings: [{
+      edition: ReleaseEdition.First,
+      identifier: "EVR049",
+      image: "EVR049.width-450",
+      set: Release.Everfest,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "EVR049",
+      image: "EVR049.width-450",
+      set: Release.Everfest,
+      
+    },{
+      
+      identifier: "OUT088",
+      image: "OUT088.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVR049","OUT088"],
+    sets: [Release.Everfest,Release.Outsiders],
+    specialImage: "EVR049.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action – Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Choose 1:
+
+- Twin Twisters gains "When this hits, your next attack this combat chain gains +1{p}."
+- Twin Twisters gains +1{p}.
 
 **Go again**`,
     
@@ -90842,7 +82043,7 @@ Arrows you control have "Defense reactions can't be played from hand this chain 
     
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "timidity-point-red",
     classes: [Class.Ranger],
     defaultImage: "EVR097.width-450",
@@ -90889,7 +82090,7 @@ Arrows you control have "Defense reactions can't be played from hand this chain 
     
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "timidity-point-yellow",
     classes: [Class.Ranger],
     defaultImage: "EVR098.width-450",
@@ -90936,7 +82137,7 @@ Arrows you control have "Defense reactions can't be played from hand this chain 
     
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "timidity-point-blue",
     classes: [Class.Ranger],
     defaultImage: "EVR099.width-450",
@@ -92201,7 +83402,7 @@ If Aether Wildfire is played during an opponents turn, until end of turn, action
     
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "emeritus-scolding-red",
     classes: [Class.Wizard],
     defaultImage: "EVR125.width-450",
@@ -92254,7 +83455,7 @@ If Aether Wildfire is played during an opponents turn, until end of turn, action
     
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "emeritus-scolding-yellow",
     classes: [Class.Wizard],
     defaultImage: "EVR126.width-450",
@@ -92307,7 +83508,7 @@ If Aether Wildfire is played during an opponents turn, until end of turn, action
     
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "emeritus-scolding-blue",
     classes: [Class.Wizard],
     defaultImage: "EVR127.width-450",
@@ -93164,7 +84365,7 @@ When Miraging Metamorph is destroyed, create a token that's a copy of an aura yo
     
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "coalescence-mirage-red",
     classes: [Class.Illusionist],
     defaultImage: "EVR144.width-450",
@@ -93213,7 +84414,7 @@ When Coalescence Mirage is destroyed, you may put an Illusionist aura card with 
     
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "coalescence-mirage-yellow",
     classes: [Class.Illusionist],
     defaultImage: "EVR145.width-450",
@@ -93262,7 +84463,7 @@ When Coalescence Mirage is destroyed, you may put an Illusionist aura card with 
     
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "coalescence-mirage-blue",
     classes: [Class.Illusionist],
     defaultImage: "EVR146.width-450",
@@ -94352,8 +85553,7 @@ Choose a random card from their hand and reveal it. If it's the named card, crea
     
     
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "pick-a-card-any-card-blue",
     classes: [Class.Generic],
@@ -96233,7 +87433,7 @@ Your next sword attack this turn gains +2{p}.`,
     
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "bone-basher",
     classes: [Class.Brute],
     defaultImage: "RVD002.width-450",
@@ -97902,7 +89102,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     talents: [Talent.Draconic],
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "invoke-vynserakai-red",
     classes: [Class.Illusionist],
     defaultImage: "UPR016",
@@ -97949,7 +89149,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     talents: [Talent.Draconic],
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "vynserakai",
     classes: [Class.Illusionist],
     defaultImage: "UPR016_A_Back",
@@ -101737,7 +92937,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     talents: [Talent.Draconic],
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "tome-of-firebrand-red",
     classes: [Class.NotClassed],
     defaultImage: "UPR089",
@@ -102067,7 +93267,7 @@ Draw 2 cards.`,
     talents: [Talent.Draconic],
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "flameborn-retribution-red",
     classes: [Class.NotClassed],
     defaultImage: "UPR095",
@@ -104644,7 +95844,7 @@ Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you d
     talents: [Talent.Ice],
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "cold-snap-red",
     classes: [Class.NotClassed],
     defaultImage: "UPR147",
@@ -104695,7 +95895,7 @@ If Cold Snap is played from arsenal, draw a card.
     talents: [Talent.Ice],
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "cold-snap-yellow",
     classes: [Class.NotClassed],
     defaultImage: "UPR148",
@@ -104746,7 +95946,7 @@ If Cold Snap is played from arsenal, draw a card.
     talents: [Talent.Ice],
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "cold-snap-blue",
     classes: [Class.NotClassed],
     defaultImage: "UPR149",
@@ -104851,7 +96051,8 @@ If Cold Snap is played from arsenal, draw a card.
     
     
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Andrey Savchuk"],
     cardIdentifier: "silent-stilettos",
     classes: [Class.Illusionist],
@@ -108120,7 +99321,7 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
     
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "oasis-respite-red",
     classes: [Class.Generic],
     defaultImage: "UPR221",
@@ -108173,7 +99374,7 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
     
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "oasis-respite-yellow",
     classes: [Class.Generic],
     defaultImage: "UPR222",
@@ -108220,7 +99421,7 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
     
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "oasis-respite-blue",
     classes: [Class.Generic],
     defaultImage: "UPR223",
@@ -108728,7 +99929,7 @@ If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
     
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "reincarnate-red",
     classes: [Class.Brute],
     defaultImage: "DYN010",
@@ -108775,7 +99976,7 @@ If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
     
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "reincarnate-yellow",
     classes: [Class.Brute],
     defaultImage: "DYN011",
@@ -108822,7 +100023,7 @@ If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
     
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "reincarnate-blue",
     classes: [Class.Brute],
     defaultImage: "DYN012",
@@ -109878,7 +101079,7 @@ Your next Brute attack this turn gains +2{p}.
     specialImage: "DYN033",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
-    typeText: "Guardian Action – Aura",
+    typeText: "Guardian Action – Aura",
 
     cost: 1,
     defense: 3,
@@ -109925,7 +101126,7 @@ Your next Brute attack this turn gains +2{p}.
     specialImage: "DYN034",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
-    typeText: "Guardian Action – Aura",
+    typeText: "Guardian Action – Aura",
 
     cost: 1,
     defense: 3,
@@ -109972,7 +101173,7 @@ Your next Brute attack this turn gains +2{p}.
     specialImage: "DYN035",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
-    typeText: "Guardian Action – Aura",
+    typeText: "Guardian Action – Aura",
 
     cost: 1,
     defense: 3,
@@ -111519,6 +102720,12 @@ You may play Lumina Ascension as though it were an instant.`,
     defaultImage: "DYN067",
     name: "Jubeel, Spellbane",
     printings: [{
+      foiling: Foiling.C,
+      identifier: "FAB137",
+      image: "",
+      set: Release.Promos,
+      
+    },{
       
       identifier: "DYN067",
       image: "DYN067",
@@ -111531,10 +102738,10 @@ You may play Lumina Ascension as though it were an instant.`,
       set: Release.Dynasty,
       
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Promo,Rarity.Majestic],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["DYN067"],
-    sets: [Release.Dynasty],
+    setIdentifiers: ["FAB137","DYN067"],
+    sets: [Release.Promos,Release.Dynasty],
     specialImage: "DYN067",
     subtypes: [Subtype.Sword,Subtype.TwoHanded],
     types: [Type.Weapon],
@@ -113239,7 +104446,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "crankshaft-red",
     classes: [Class.Mechanologist],
     defaultImage: "DYN101",
@@ -113288,7 +104495,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "crankshaft-yellow",
     classes: [Class.Mechanologist],
     defaultImage: "DYN102",
@@ -113337,7 +104544,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "crankshaft-blue",
     classes: [Class.Mechanologist],
     defaultImage: "DYN103",
@@ -113790,6 +104997,18 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     defaultImage: "DYN113",
     name: "Arakni, Huntsman",
     printings: [{
+      foiling: Foiling.C,
+      identifier: "HER074",
+      image: "dyn_card_Arakni_Huntsman.width-10000",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.G,
+      identifier: "WIN020",
+      image: "",
+      set: Release.Promos,
+      
+    },{
       
       identifier: "DYN113",
       image: "DYN113",
@@ -113802,11 +105021,11 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
       set: Release.Dynasty,
       
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Promo,Rarity.Majestic],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["DYN113"],
-    sets: [Release.Dynasty],
-    specialImage: "DYN113",
+    setIdentifiers: ["HER074","WIN020","DYN113"],
+    sets: [Release.Promos,Release.Dynasty],
+    specialImage: "dyn_card_Arakni_Huntsman.width-10000",
     subtypes: [],
     types: [Type.Hero],
     typeText: "Assassin Hero",
@@ -113837,6 +105056,12 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     defaultImage: "DYN114",
     name: "Arakni",
     printings: [{
+      foiling: Foiling.C,
+      identifier: "HER073",
+      image: "",
+      set: Release.Promos,
+      
+    },{
       
       identifier: "DYN114",
       image: "DYN114",
@@ -113849,10 +105074,10 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
       set: Release.Dynasty,
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["DYN114"],
-    sets: [Release.Dynasty],
+    setIdentifiers: ["HER073","DYN114"],
+    sets: [Release.Promos,Release.Dynasty],
     specialImage: "DYN114",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -113877,6 +105102,87 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     
     
     young: true
+  },{
+    artists: ["Marcus Reyno"],
+    cardIdentifier: "spiders-bite",
+    classes: [Class.Assassin],
+    defaultImage: "OUT004.width-450",
+    name: "Spider's Bite",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "LGS111",
+      image: "dyn_card_Spider_s_Bite.width-10000",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "DYN115",
+      image: "DYN115",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN115",
+      image: "DYN115",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "DYN115",
+      image: "DYN115",
+      set: Release.Dynasty,
+      
+    },{
+      
+      identifier: "DYN116",
+      image: "DYN116",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN116",
+      image: "DYN116",
+      set: Release.Dynasty,
+      
+    },{
+      
+      identifier: "OUT004",
+      image: "OUT004.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["LGS111","DYN115","DYN116","OUT004"],
+    sets: [Release.Promos,Release.Dynasty,Release.Outsiders],
+    specialImage: "dyn_card_Spider_s_Bite.width-10000",
+    subtypes: [Subtype.Dagger,Subtype.OneHanded],
+    types: [Type.Weapon],
+    typeText: "Assassin Weapon – Dagger (1H)",
+
+    
+    
+    functionalText: `**Once per Turn Action** – {r}{r}: **Attack**. **Go again**
+
+**Piercing 1**
+
+When this hits a hero, the next time they defend with 1 or more attack action cards this turn, those cards have -1{d} while defending.`,
+    
+    
+    
+    
+    keywords: [Keyword.Piercing,Keyword.GoAgain],
+    
+    
+    
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
   },{
     artists: ["Sariya Asavametha"],
     cardIdentifier: "blacktek-whisperers",
@@ -115429,7 +106735,7 @@ When this hits a hero, banish the top card of their deck.`,
     printings: [{
       foiling: Foiling.R,
       identifier: "LGS113",
-      image: "",
+      image: "dyn_card_Cut_to_the_Chase_p1.width-10000",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -115449,7 +106755,7 @@ When this hits a hero, banish the top card of their deck.`,
     rarity: Rarity.Common,
     setIdentifiers: ["LGS113","DYN148"],
     sets: [Release.Promos,Release.Dynasty],
-    specialImage: "DYN148",
+    specialImage: "dyn_card_Cut_to_the_Chase_p1.width-10000",
     subtypes: [],
     types: [Type.AttackReaction],
     typeText: "Assassin Attack Reaction",
@@ -115866,7 +107172,7 @@ If it has an aim counter, it gains "When this hits a hero, look at their hand an
     specialImage: "DYN156",
     subtypes: [Subtype.Attack,Subtype.Arrow],
     types: [Type.Action],
-    typeText: "Ranger Action – Arrow Attack",
+    typeText: "Ranger Action – Arrow Attack",
 
     cost: 0,
     defense: 3,
@@ -115915,7 +107221,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
     specialImage: "DYN157",
     subtypes: [Subtype.Attack,Subtype.Arrow],
     types: [Type.Action],
-    typeText: "Ranger Action – Arrow Attack",
+    typeText: "Ranger Action – Arrow Attack",
 
     cost: 0,
     defense: 3,
@@ -115964,7 +107270,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
     specialImage: "DYN158",
     subtypes: [Subtype.Attack,Subtype.Arrow],
     types: [Type.Action],
-    typeText: "Ranger Action – Arrow Attack",
+    typeText: "Ranger Action – Arrow Attack",
 
     cost: 0,
     defense: 3,
@@ -116013,7 +107319,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
     specialImage: "DYN159",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
-    typeText: "Ranger Action – Aura",
+    typeText: "Ranger Action – Aura",
 
     cost: 1,
     defense: 3,
@@ -116060,7 +107366,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
     specialImage: "DYN160",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
-    typeText: "Ranger Action – Aura",
+    typeText: "Ranger Action – Aura",
 
     cost: 1,
     defense: 3,
@@ -116107,7 +107413,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
     specialImage: "DYN161",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
-    typeText: "Ranger Action – Aura",
+    typeText: "Ranger Action – Aura",
 
     cost: 1,
     defense: 3,
@@ -116137,7 +107443,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
     printings: [{
       foiling: Foiling.R,
       identifier: "LGS119",
-      image: "",
+      image: "dyn_card_Hemorrhage_Bore_p1.width-10000",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -116157,7 +107463,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
     rarity: Rarity.Common,
     setIdentifiers: ["LGS119","DYN162"],
     sets: [Release.Promos,Release.Dynasty],
-    specialImage: "DYN162",
+    specialImage: "dyn_card_Hemorrhage_Bore_p1.width-10000",
     subtypes: [Subtype.Attack,Subtype.Arrow],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
@@ -117644,7 +108950,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     specialImage: "DYN193",
     subtypes: [Subtype.Orb,Subtype.TwoHanded],
     types: [Type.Weapon],
-    typeText: "Wizard Weapon – Orb (2H)",
+    typeText: "Wizard Weapon – Orb (2H)",
 
     
     
@@ -117811,7 +109117,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "aether-quickening-red",
     classes: [Class.Wizard],
     defaultImage: "DYN197",
@@ -117866,7 +109172,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "aether-quickening-yellow",
     classes: [Class.Wizard],
     defaultImage: "DYN198",
@@ -117921,7 +109227,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "aether-quickening-blue",
     classes: [Class.Wizard],
     defaultImage: "DYN199",
@@ -119553,7 +110859,7 @@ Whenever Suraya deals damage, you gain that much {h}.
     
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "water-glow-lanterns-red",
     classes: [Class.Illusionist],
     defaultImage: "DYN230",
@@ -119602,7 +110908,7 @@ Whenever Suraya deals damage, you gain that much {h}.
     
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "water-glow-lanterns-yellow",
     classes: [Class.Illusionist],
     defaultImage: "DYN231",
@@ -119651,7 +110957,7 @@ Whenever Suraya deals damage, you gain that much {h}.
     
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "water-glow-lanterns-blue",
     classes: [Class.Illusionist],
     defaultImage: "DYN232",
@@ -120073,6 +111379,65 @@ When you equip Crown of Dominion, create a Gold token.`,
     
     
   },{
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "ponder",
+    classes: [Class.Generic],
+    defaultImage: "OUT237.width-450",
+    name: "Ponder",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "LGS128",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "DYN244",
+      image: "DYN244",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN244",
+      image: "DYN244",
+      set: Release.Dynasty,
+      
+    },{
+      
+      identifier: "OUT237",
+      image: "OUT237.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["LGS128","DYN244","OUT237"],
+    sets: [Release.Promos,Release.Dynasty,Release.Outsiders],
+    specialImage: "DYN244",
+    subtypes: [Subtype.Aura],
+    types: [Type.Token],
+    typeText: "Generic Token – Aura",
+
+    
+    
+    functionalText: `At the beginning of your end phase, destroy Ponder and draw a card.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Federico Musetti"],
     cardIdentifier: "spellbane-aegis",
     classes: [Class.Generic],
@@ -120119,6 +111484,9058 @@ When you equip Crown of Dominion, create a Gold token.`,
     
     
     
+  },{
+    artists: ["Jessada Sutthi"],
+    cardIdentifier: "uzuri-switchblade",
+    classes: [Class.Assassin],
+    defaultImage: "OUT001.width-450",
+    name: "Uzuri, Switchblade",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "HER077",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.G,
+      identifier: "WIN021",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "OUT001",
+      image: "OUT001.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["HER077","WIN021","OUT001"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImage: "OUT001.width-450",
+    subtypes: [],
+    types: [Type.Hero],
+    typeText: "Assassin Hero",
+
+    
+    
+    functionalText: `**Once per Turn Attack Reaction** - Banish a card from your hand face down: Turn the card banished this way face up. If it's an attack action card with cost 2 or less, put target attacking card with **stealth** from the active chain link on the bottom of its owner's deck, then put the banished card onto the active chain link as the attacking card.`,
+    
+    hero: Hero.Uzuri,
+    intellect: 4,
+    
+    
+    life: 40,
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["soyameii"],
+    cardIdentifier: "uzuri",
+    classes: [Class.Assassin],
+    defaultImage: "OUT002.width-450",
+    name: "Uzuri",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "HER076",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "HER082",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "OUT002",
+      image: "OUT002.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["HER076","HER082","OUT002"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImage: "OUT002.width-450",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Assassin Hero – Young",
+
+    
+    
+    functionalText: `**Once per Turn Attack Reaction** - Banish a card from your hand face down: Turn the card banished this way face up. If it's an attack action card with cost 2 or less, put target attacking card with **stealth** from the active chain link on the bottom of its owner's deck, then put the banished card onto the active chain link as the attacking card.`,
+    
+    hero: Hero.Uzuri,
+    intellect: 4,
+    
+    
+    life: 20,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    young: true
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "arakni-solitary-confinement",
+    classes: [Class.Assassin],
+    defaultImage: "OUT003.width-450",
+    name: "Arakni, Solitary Confinement",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "HER079",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "HER081",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "OUT003",
+      image: "OUT003.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["HER079","HER081","OUT003"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImage: "OUT003.width-450",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Assassin Hero – Young",
+
+    
+    
+    functionalText: `Your first attack with **stealth** each turn has **go again**.`,
+    
+    hero: Hero.Arakni,
+    intellect: 4,
+    
+    keywords: [Keyword.GoAgain],
+    life: 19,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    young: true
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "nerve-scalpel",
+    classes: [Class.Assassin],
+    defaultImage: "OUT005.width-450",
+    name: "Nerve Scalpel",
+    printings: [{
+      
+      identifier: "OUT005",
+      image: "OUT005.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      
+      identifier: "OUT006",
+      image: "OUT006.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT005","OUT006"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT005.width-450",
+    subtypes: [Subtype.Dagger,Subtype.OneHanded],
+    types: [Type.Weapon],
+    typeText: "Assassin Weapon - Dagger (1H)",
+
+    
+    
+    functionalText: `**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
+
+**Piercing 1**
+
+When this hits a hero, the next time they defend with 1 or more reaction cards this turn, those cards have -1{d} while defending.`,
+    
+    
+    
+    
+    keywords: [Keyword.Piercing,Keyword.GoAgain],
+    
+    
+    
+    power: 1,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Alexis Susani"],
+    cardIdentifier: "orbitoclast",
+    classes: [Class.Assassin],
+    defaultImage: "OUT007.width-450",
+    name: "Orbitoclast",
+    printings: [{
+      
+      identifier: "OUT007",
+      image: "OUT007.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      
+      identifier: "OUT008",
+      image: "OUT008.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT007","OUT008"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT007.width-450",
+    subtypes: [Subtype.Dagger,Subtype.OneHanded],
+    types: [Type.Weapon],
+    typeText: "Assassin Weapon - Dagger (1H)",
+
+    
+    
+    functionalText: `**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
+
+**Piercing 1**
+
+When this hits a hero, the next time they defend with 1 or more 'non-attack' action cards this turn, those cards have -1{d} while defending.`,
+    
+    
+    
+    
+    keywords: [Keyword.Piercing,Keyword.GoAgain],
+    
+    
+    
+    power: 1,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "scale-peeler",
+    classes: [Class.Assassin],
+    defaultImage: "OUT009.width-450",
+    name: "Scale Peeler",
+    printings: [{
+      
+      identifier: "OUT009",
+      image: "OUT009.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      
+      identifier: "OUT010",
+      image: "OUT010.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT009","OUT010"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT009.width-450",
+    subtypes: [Subtype.Dagger,Subtype.OneHanded],
+    types: [Type.Weapon],
+    typeText: "Assassin Weapon - Dagger (1H)",
+
+    
+    
+    functionalText: `**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
+
+**Piercing 1**
+
+When this hits a hero, the next time they defend with 1 or more equipment this turn, those equipment have -1{d} while defending.`,
+    
+    
+    
+    
+    keywords: [Keyword.Piercing,Keyword.GoAgain],
+    
+    
+    
+    power: 1,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["soyameii"],
+    cardIdentifier: "redback-shroud",
+    classes: [Class.Assassin],
+    defaultImage: "OUT011.width-450",
+    name: "Redback Shroud",
+    printings: [{
+      foiling: Foiling.G,
+      identifier: "FAB123",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT011",
+      image: "OUT011.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "OUT011",
+      image: "",
+      set: Release.Outsiders,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["FAB123","OUT011"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImage: "OUT011.width-450",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Assassin Equipment - Chest",
+
+    
+    defense: 1,
+    functionalText: `While Redback Shroud is in your graveyard, at the start of your turn, you may destroy 2 Silver you control. If you do, equip Redback Shroud.
+
+**Attack Reaction** - Destroy Redback Shroud: The next attack reaction card you play this turn costs {r} less to play.
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn],
+    
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "infiltrate-red",
+    classes: [Class.Assassin],
+    defaultImage: "OUT012.width-450",
+    name: "Infiltrate",
+    printings: [{
+      
+      identifier: "OUT012",
+      image: "OUT012.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT012"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT012.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+When this hits a hero, banish the top card of their deck. You may play it until the end of your next turn.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "shake-down-red",
+    classes: [Class.Assassin],
+    defaultImage: "OUT013.width-450",
+    name: "Shake Down",
+    printings: [{
+      
+      identifier: "OUT013",
+      image: "OUT013.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT013"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT013.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Uzuri Specialization**
+
+If you've played or activated an attack reaction this chain link, Shake Down has "When this hits a hero, choose red, yellow, or blue. They reveal their hand. Banish a card of the chosen color."`,
+    
+    
+    
+    
+    keywords: [Keyword.Specialization],
+    
+    
+    pitch: 1,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    specializations: [Hero.Uzuri],
+    
+    
+  },{
+    artists: ["Othon Nikolaidis"],
+    cardIdentifier: "spreading-plague-yellow",
+    classes: [Class.Assassin],
+    defaultImage: "OUT014.width-450",
+    name: "Spreading Plague",
+    printings: [{
+      
+      identifier: "OUT014",
+      image: "OUT014.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT014"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT014.width-450",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin Attack Reaction",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `Create X Bloodrot Pox tokens under the defending hero's control, where X is the number of defending cards this chain link.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "back-stab-red",
+    classes: [Class.Assassin],
+    defaultImage: "OUT015.width-450",
+    name: "Back Stab",
+    printings: [{
+      
+      identifier: "OUT015",
+      image: "OUT015.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT015"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT015.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+Defense reactions can't be played to Back Stab's chain link.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "back-stab-yellow",
+    classes: [Class.Assassin],
+    defaultImage: "OUT016.width-450",
+    name: "Back Stab",
+    printings: [{
+      
+      identifier: "OUT016",
+      image: "OUT016.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT016"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT016.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+Defense reactions can't be played to Back Stab's chain link.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 2,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "back-stab-blue",
+    classes: [Class.Assassin],
+    defaultImage: "OUT017.width-450",
+    name: "Back Stab",
+    printings: [{
+      
+      identifier: "OUT017",
+      image: "OUT017.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT017"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT017.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+Defense reactions can't be played to Back Stab's chain link.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 1,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Raphael Pinna"],
+    cardIdentifier: "sneak-attack-red",
+    classes: [Class.Assassin],
+    defaultImage: "OUT018.width-450",
+    name: "Sneak Attack",
+    printings: [{
+      
+      identifier: "OUT018",
+      image: "OUT018.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT018"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT018.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `If you've played or activated an attack reaction this chain link, Sneak Attack has +4{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Raphael Pinna"],
+    cardIdentifier: "sneak-attack-yellow",
+    classes: [Class.Assassin],
+    defaultImage: "OUT019.width-450",
+    name: "Sneak Attack",
+    printings: [{
+      
+      identifier: "OUT019",
+      image: "OUT019.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT019"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT019.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `If you've played or activated an attack reaction this chain link, Sneak Attack has +4{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 2,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Raphael Pinna"],
+    cardIdentifier: "sneak-attack-blue",
+    classes: [Class.Assassin],
+    defaultImage: "OUT020.width-450",
+    name: "Sneak Attack",
+    printings: [{
+      
+      identifier: "OUT020",
+      image: "OUT020.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT020"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT020.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `If you've played or activated an attack reaction this chain link, Sneak Attack has +4{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 1,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mateusz Wiśniewski"],
+    cardIdentifier: "spike-with-bloodrot-red",
+    classes: [Class.Assassin],
+    defaultImage: "OUT021.width-450",
+    name: "Spike with Bloodrot",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS130",
+      image: "card_Spike_with_Bloodrot.width-10000",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      
+      identifier: "OUT021",
+      image: "OUT021.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["LGS130","OUT021"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImage: "card_Spike_with_Bloodrot.width-10000",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin Attack Reaction",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `Target attack action card with **stealth** gains +3{p} and "When this hits a hero, create a Bloodrot Pox token under their control."`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "spike-with-frailty-red",
+    classes: [Class.Assassin],
+    defaultImage: "OUT022.width-450",
+    name: "Spike with Frailty",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS131",
+      image: "card_Spike_with_Fratality.width-10000",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      
+      identifier: "OUT022",
+      image: "OUT022.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["LGS131","OUT022"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImage: "card_Spike_with_Fratality.width-10000",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin Attack Reaction",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `Target attack action card with **stealth** gains +3{p} and "When this hits a hero, create a Frailty token under their control."`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "spike-with-inertia-red",
+    classes: [Class.Assassin],
+    defaultImage: "OUT023.width-450",
+    name: "Spike with Inertia",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS132",
+      image: "card_Spike_with_Inertia.width-10000",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      
+      identifier: "OUT023",
+      image: "OUT023.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["LGS132","OUT023"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImage: "card_Spike_with_Inertia.width-10000",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin Attack Reaction",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `Target attack action card with **stealth** gains +3{p} and "When this hits a hero, create an Inertia token under their control."`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "infect-red",
+    classes: [Class.Assassin],
+    defaultImage: "OUT024.width-450",
+    name: "Infect",
+    printings: [{
+      
+      identifier: "OUT024",
+      image: "OUT024.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT024"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT024.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+When this hits a hero, create a Bloodrot Pox token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "infect-yellow",
+    classes: [Class.Assassin],
+    defaultImage: "OUT025.width-450",
+    name: "Infect",
+    printings: [{
+      
+      identifier: "OUT025",
+      image: "OUT025.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT025"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT025.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+When this hits a hero, create a Bloodrot Pox token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "infect-blue",
+    classes: [Class.Assassin],
+    defaultImage: "OUT026.width-450",
+    name: "Infect",
+    printings: [{
+      
+      identifier: "OUT026",
+      image: "OUT026.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT026"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT026.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+When this hits a hero, create a Bloodrot Pox token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "isolate-red",
+    classes: [Class.Assassin],
+    defaultImage: "OUT027.width-450",
+    name: "Isolate",
+    printings: [{
+      
+      identifier: "OUT027",
+      image: "OUT027.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT027"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT027.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+**Dominate**`,
+    
+    
+    
+    
+    keywords: [Keyword.Dominate],
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "isolate-yellow",
+    classes: [Class.Assassin],
+    defaultImage: "OUT028.width-450",
+    name: "Isolate",
+    printings: [{
+      
+      identifier: "OUT028",
+      image: "OUT028.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT028"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT028.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+**Dominate**`,
+    
+    
+    
+    
+    keywords: [Keyword.Dominate],
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "isolate-blue",
+    classes: [Class.Assassin],
+    defaultImage: "OUT029.width-450",
+    name: "Isolate",
+    printings: [{
+      
+      identifier: "OUT029",
+      image: "OUT029.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT029"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT029.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+**Dominate**`,
+    
+    
+    
+    
+    keywords: [Keyword.Dominate],
+    
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Othon Nikolaidis"],
+    cardIdentifier: "malign-red",
+    classes: [Class.Assassin],
+    defaultImage: "OUT030.width-450",
+    name: "Malign",
+    printings: [{
+      
+      identifier: "OUT030",
+      image: "OUT030.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT030"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT030.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+Damage that would be dealt by Malign can't be prevented.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Othon Nikolaidis"],
+    cardIdentifier: "malign-yellow",
+    classes: [Class.Assassin],
+    defaultImage: "OUT031.width-450",
+    name: "Malign",
+    printings: [{
+      
+      identifier: "OUT031",
+      image: "OUT031.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT031"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT031.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+Damage that would be dealt by Malign can't be prevented.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Othon Nikolaidis"],
+    cardIdentifier: "malign-blue",
+    classes: [Class.Assassin],
+    defaultImage: "OUT032.width-450",
+    name: "Malign",
+    printings: [{
+      
+      identifier: "OUT032",
+      image: "OUT032.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT032"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT032.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+Damage that would be dealt by Malign can't be prevented.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "prowl-red",
+    classes: [Class.Assassin],
+    defaultImage: "OUT033.width-450",
+    name: "Prowl",
+    printings: [{
+      
+      identifier: "OUT033",
+      image: "OUT033.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT033"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT033.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+The next attack with **stealth** you play this combat chain gains +1{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "prowl-yellow",
+    classes: [Class.Assassin],
+    defaultImage: "OUT034.width-450",
+    name: "Prowl",
+    printings: [{
+      
+      identifier: "OUT034",
+      image: "OUT034.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT034"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT034.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+The next attack with **stealth** you play this combat chain gains +1{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "prowl-blue",
+    classes: [Class.Assassin],
+    defaultImage: "OUT035.width-450",
+    name: "Prowl",
+    printings: [{
+      
+      identifier: "OUT035",
+      image: "OUT035.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT035"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT035.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+The next attack with **stealth** you play this combat chain gains +1{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "sedate-red",
+    classes: [Class.Assassin],
+    defaultImage: "OUT036.width-450",
+    name: "Sedate",
+    printings: [{
+      
+      identifier: "OUT036",
+      image: "OUT036.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT036"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT036.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+When this hits a hero, create an Inertia token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "sedate-yellow",
+    classes: [Class.Assassin],
+    defaultImage: "OUT037.width-450",
+    name: "Sedate",
+    printings: [{
+      
+      identifier: "OUT037",
+      image: "OUT037.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT037"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT037.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+When this hits a hero, create an Inertia token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "sedate-blue",
+    classes: [Class.Assassin],
+    defaultImage: "OUT038.width-450",
+    name: "Sedate",
+    printings: [{
+      
+      identifier: "OUT038",
+      image: "OUT038.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT038"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT038.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+When this hits a hero, create an Inertia token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Daria Khlebnikova"],
+    cardIdentifier: "wither-red",
+    classes: [Class.Assassin],
+    defaultImage: "OUT039.width-450",
+    name: "Wither",
+    printings: [{
+      
+      identifier: "OUT039",
+      image: "OUT039.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT039"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT039.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+When this hits a hero, create a Frailty token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Daria Khlebnikova"],
+    cardIdentifier: "wither-yellow",
+    classes: [Class.Assassin],
+    defaultImage: "OUT040.width-450",
+    name: "Wither",
+    printings: [{
+      
+      identifier: "OUT040",
+      image: "OUT040.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT040"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT040.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+When this hits a hero, create a Frailty token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Daria Khlebnikova"],
+    cardIdentifier: "wither-blue",
+    classes: [Class.Assassin],
+    defaultImage: "OUT041.width-450",
+    name: "Wither",
+    printings: [{
+      
+      identifier: "OUT041",
+      image: "OUT041.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT041"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT041.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+When this hits a hero, create a Frailty token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "razors-edge-red",
+    classes: [Class.Assassin],
+    defaultImage: "OUT042.original",
+    name: "Razor's Edge",
+    printings: [{
+      
+      identifier: "OUT042",
+      image: "OUT042.original",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT042"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT042.original",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin Attack Reaction",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `Target attack action card with **stealth** gains +3{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "razors-edge-yellow",
+    classes: [Class.Assassin],
+    defaultImage: "OUT043.width-450",
+    name: "Razor's Edge",
+    printings: [{
+      
+      identifier: "OUT043",
+      image: "OUT043.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT043"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT043.width-450",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin Attack Reaction",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `Target attack action card with **stealth** gains +2{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "razors-edge-blue",
+    classes: [Class.Assassin],
+    defaultImage: "OUT044.width-450",
+    name: "Razor's Edge",
+    printings: [{
+      
+      identifier: "OUT044",
+      image: "OUT044.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT044"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT044.width-450",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin Attack Reaction",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `Target attack action card with **stealth** gains +1{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "mask-of-many-faces",
+    classes: [Class.Ninja],
+    defaultImage: "OUT049.width-450",
+    name: "Mask of Many Faces",
+    printings: [{
+      
+      identifier: "OUT049",
+      image: "OUT049.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT049"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT049.width-450",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Ninja Equipment - Head",
+
+    
+    defense: 1,
+    functionalText: `**Instant** - {r}, destroy Mask of Many Faces: Name a card. The next attack action card you play this turn gains that name.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "cyclone-roundhouse-yellow",
+    classes: [Class.Ninja],
+    defaultImage: "OUT050.width-450",
+    name: "Cyclone Roundhouse",
+    printings: [{
+      
+      identifier: "OUT050",
+      image: "OUT050.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT050"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT050.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Combo** - If Spinning Wheel Kick was the last attack this combat chain, this has "At the beginning of the reaction step, banish a random defending card from each chain link."`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo],
+    
+    
+    pitch: 2,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "dishonor-blue",
+    classes: [Class.Ninja],
+    defaultImage: "OUT051_tyYCr6g.width-450",
+    name: "Dishonor",
+    printings: [{
+      
+      identifier: "OUT051",
+      image: "OUT051_tyYCr6g.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT051"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT051_tyYCr6g.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Combo** - If Bonds of Ancestry was the last attack this combat chain, this has +2{p}.
+
+When this hits a hero, if you control Surging Strike, Descendent Gustwave, and Bonds of Ancestry, that hero loses all abilities for the rest of the game.`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo],
+    
+    
+    pitch: 3,
+    power: 2,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "head-leads-the-tail-red",
+    classes: [Class.Ninja],
+    defaultImage: "OUT052.width-450",
+    name: "Head Leads the Tail",
+    printings: [{
+      
+      identifier: "OUT052",
+      image: "OUT052.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT052"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT052.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `When this attacks, name another card. Attack action cards with that name have +1{p} this combat chain.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "wander-with-purpose-yellow",
+    classes: [Class.Ninja],
+    defaultImage: "OUT053.width-450",
+    name: "Wander With Purpose",
+    printings: [{
+      
+      identifier: "OUT053",
+      image: "OUT053.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT053"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT053.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Benji Specialization**
+
+When this hits, you may discard a card with cost 0. If you do, search your deck for a card with **combo**, banish it, then shuffle. You may play it this turn.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.Specialization,Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    power: 2,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    specializations: [Hero.Benji],
+    
+    
+  },{
+    artists: ["Sam Yang"],
+    cardIdentifier: "silverwind-shuriken-blue",
+    classes: [Class.Ninja],
+    defaultImage: "OUT054.width-450",
+    name: "Silverwind Shuriken",
+    printings: [{
+      
+      identifier: "OUT054",
+      image: "OUT054.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT054"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT054.width-450",
+    subtypes: [Subtype.Shuriken,Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Shuriken Item",
+
+    cost: 0,
+    
+    functionalText: `**Attack Reaction** - Destroy Silverwind Shuriken: Target attack action card with **combo** gains +1{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Joseph Qiu"],
+    cardIdentifier: "visit-the-floating-dojo-blue",
+    classes: [Class.Ninja],
+    defaultImage: "OUT055.width-450",
+    name: "Visit the Floating Dojo",
+    printings: [{
+      
+      identifier: "OUT055",
+      image: "OUT055.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT055"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT055.width-450",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Ninja Instant",
+
+    cost: 0,
+    
+    functionalText: `**Katsu Specialization**
+
+Put a Surging Strike and a card with **combo** from your graveyard on the top and/or bottom of your deck.`,
+    
+    
+    
+    
+    keywords: [Keyword.Specialization],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    specializations: [Hero.Katsu],
+    
+    
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "bonds-of-ancestry-red",
+    classes: [Class.Ninja],
+    defaultImage: "OUT056.width-450",
+    name: "Bonds of Ancestry",
+    printings: [{
+      
+      identifier: "OUT056",
+      image: "OUT056.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT056"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT056.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Combo** - If a card with Gustwave in its name was the last attack this combat chain, this costs {r}{r} less to play, and has **go again** and "When this attacks, you may banish a card with **combo** from your graveyard. If you do, search your deck for a card with the same name, banish it, then shuffle. You may play it this combat chain."`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo,Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "bonds-of-ancestry-yellow",
+    classes: [Class.Ninja],
+    defaultImage: "OUT057.width-450",
+    name: "Bonds of Ancestry",
+    printings: [{
+      
+      identifier: "OUT057",
+      image: "OUT057.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT057"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT057.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Combo** - If a card with Gustwave in its name was the last attack this combat chain, this costs {r}{r} less to play, and has **go again** and "When this attacks, you may banish a card with **combo** from your graveyard. If you do, search your deck for a card with the same name, banish it, then shuffle. You may play it this combat chain."`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo,Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "bonds-of-ancestry-blue",
+    classes: [Class.Ninja],
+    defaultImage: "OUT058.width-450",
+    name: "Bonds of Ancestry",
+    printings: [{
+      
+      identifier: "OUT058",
+      image: "OUT058.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT058"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT058.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Combo** - If a card with Gustwave in its name was the last attack this combat chain, this costs {r}{r} less to play, and has **go again** and "When this attacks, you may banish a card with **combo** from your graveyard. If you do, search your deck for a card with the same name, banish it, then shuffle. You may play it this combat chain."`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo,Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    power: 2,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Le Vuong"],
+    cardIdentifier: "recoil-red",
+    classes: [Class.Ninja],
+    defaultImage: "OUT059.width-450",
+    name: "Recoil",
+    printings: [{
+      
+      identifier: "OUT059",
+      image: "OUT059.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT059"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT059.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Combo** - If Head Jab was the last attack this combat chain, this has "When this hits a hero, they put a card from their hand on top of their deck."`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo],
+    
+    
+    pitch: 1,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Le Vuong"],
+    cardIdentifier: "recoil-yellow",
+    classes: [Class.Ninja],
+    defaultImage: "OUT060.width-450",
+    name: "Recoil",
+    printings: [{
+      
+      identifier: "OUT060",
+      image: "OUT060.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT060"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT060.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Combo** - If Head Jab was the last attack this combat chain, this has "When this hits a hero, they put a card from their hand on top of their deck."`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo],
+    
+    
+    pitch: 2,
+    power: 2,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Le Vuong"],
+    cardIdentifier: "recoil-blue",
+    classes: [Class.Ninja],
+    defaultImage: "OUT061.width-450",
+    name: "Recoil",
+    printings: [{
+      
+      identifier: "OUT061",
+      image: "OUT061.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT061"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT061.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Combo** - If Head Jab was the last attack this combat chain, this has "When this hits a hero, they put a card from their hand on top of their deck."`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo],
+    
+    
+    pitch: 3,
+    power: 1,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Le Vuong"],
+    cardIdentifier: "spinning-wheel-kick-red",
+    classes: [Class.Ninja],
+    defaultImage: "OUT062.width-450",
+    name: "Spinning Wheel Kick",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS141",
+      image: "",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      
+      identifier: "OUT062",
+      image: "OUT062.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["LGS141","OUT062"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImage: "OUT062.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `**Combo** - If Twin Twisters or Spinning Wheel Kick was the last attack this combat chain, this has +1{p} and "When this hits, put it on the bottom of its owner's deck."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo,Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Le Vuong"],
+    cardIdentifier: "spinning-wheel-kick-yellow",
+    classes: [Class.Ninja],
+    defaultImage: "OUT063.width-450",
+    name: "Spinning Wheel Kick",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS142",
+      image: "",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      
+      identifier: "OUT063",
+      image: "OUT063.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["LGS142","OUT063"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImage: "OUT063.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `**Combo** - If Twin Twisters or Spinning Wheel Kick was the last attack this combat chain, this has +1{p} and "When this hits, put it on the bottom of its owner's deck."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo,Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Le Vuong"],
+    cardIdentifier: "spinning-wheel-kick-blue",
+    classes: [Class.Ninja],
+    defaultImage: "OUT064.width-450",
+    name: "Spinning Wheel Kick",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS143",
+      image: "",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      
+      identifier: "OUT064",
+      image: "OUT064.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["LGS143","OUT064"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImage: "OUT064.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `**Combo** - If Twin Twisters or Spinning Wheel Kick was the last attack this combat chain, this has +1{p} and "When this hits, put it on the bottom of its owner's deck."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo,Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    power: 2,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Phu Thieu"],
+    cardIdentifier: "back-heel-kick-red",
+    classes: [Class.Ninja],
+    defaultImage: "OUT065.width-450",
+    name: "Back Heel Kick",
+    printings: [{
+      
+      identifier: "OUT065",
+      image: "OUT065.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT065"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT065.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Combo** - If Twin Twisters was the last attack this combat chain, while this is face-up in any zone and would gain {p}, instead it gains that much plus 1.`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo],
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Phu Thieu"],
+    cardIdentifier: "back-heel-kick-yellow",
+    classes: [Class.Ninja],
+    defaultImage: "OUT066.width-450",
+    name: "Back Heel Kick",
+    printings: [{
+      
+      identifier: "OUT066",
+      image: "OUT066.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT066"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT066.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Combo** - If Twin Twisters was the last attack this combat chain, while this is face-up in any zone and would gain {p}, instead it gains that much plus 1.`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo],
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Phu Thieu"],
+    cardIdentifier: "back-heel-kick-blue",
+    classes: [Class.Ninja],
+    defaultImage: "OUT067.width-450",
+    name: "Back Heel Kick",
+    printings: [{
+      
+      identifier: "OUT067",
+      image: "OUT067.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT067"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT067.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Combo** - If Twin Twisters was the last attack this combat chain, while this is face-up in any zone and would gain {p}, instead it gains that much plus 1.`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo],
+    
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Enmoire"],
+    cardIdentifier: "be-like-water-red",
+    classes: [Class.Ninja],
+    defaultImage: "OUT068.width-450",
+    name: "Be Like Water",
+    printings: [{
+      
+      identifier: "OUT068",
+      image: "OUT068.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT068"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT068.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `When this hits, you may pay {r}. If you do, choose Head Jab, Surging Strike, or Twin Twisters. This gains the chosen name.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Enmoire"],
+    cardIdentifier: "be-like-water-yellow",
+    classes: [Class.Ninja],
+    defaultImage: "OUT069.width-450",
+    name: "Be Like Water",
+    printings: [{
+      
+      identifier: "OUT069",
+      image: "OUT069.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT069"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT069.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `When this hits, you may pay {r}. If you do, choose Head Jab, Surging Strike, or Twin Twisters. This gains the chosen name.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Enmoire"],
+    cardIdentifier: "be-like-water-blue",
+    classes: [Class.Ninja],
+    defaultImage: "OUT070.width-450",
+    name: "Be Like Water",
+    printings: [{
+      
+      identifier: "OUT070",
+      image: "OUT070.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT070"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT070.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `When this hits, you may pay {r}. If you do, choose Head Jab, Surging Strike, or Twin Twisters. This gains the chosen name.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Erick Efata"],
+    cardIdentifier: "deadly-duo-red",
+    classes: [Class.Ninja],
+    defaultImage: "OUT071.width-450",
+    name: "Deadly Duo",
+    printings: [{
+      
+      identifier: "OUT071",
+      image: "OUT071.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT071"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT071.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `When this hits, the next attack action card with 2 or less base {p} you play this combat chain gains +2 {p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Erick Efata"],
+    cardIdentifier: "deadly-duo-yellow",
+    classes: [Class.Ninja],
+    defaultImage: "OUT072.width-450",
+    name: "Deadly Duo",
+    printings: [{
+      
+      identifier: "OUT072",
+      image: "OUT072.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT072"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT072.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `When this hits, the next attack action card with 2 or less base {p} you play this combat chain gains +2 {p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Erick Efata"],
+    cardIdentifier: "deadly-duo-blue",
+    classes: [Class.Ninja],
+    defaultImage: "OUT073.width-450",
+    name: "Deadly Duo",
+    printings: [{
+      
+      identifier: "OUT073",
+      image: "OUT073.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT073"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT073.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `When this hits, the next attack action card with 2 or less base {p} you play this combat chain gains +2 {p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "descendent-gustwave-red",
+    classes: [Class.Ninja],
+    defaultImage: "OUT074.width-450",
+    name: "Descendent Gustwave",
+    printings: [{
+      
+      identifier: "OUT074",
+      image: "OUT074.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT074"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT074.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `**Combo** - If Surging Strike was the last attack this combat chain, this costs {r} less to play and has +2{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo,Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "descendent-gustwave-yellow",
+    classes: [Class.Ninja],
+    defaultImage: "OUT075.width-450",
+    name: "Descendent Gustwave",
+    printings: [{
+      
+      identifier: "OUT075",
+      image: "OUT075.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT075"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT075.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `**Combo** - If Surging Strike was the last attack this combat chain, this costs {r} less to play and has +2{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo,Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "descendent-gustwave-blue",
+    classes: [Class.Ninja],
+    defaultImage: "OUT076.width-450",
+    name: "Descendent Gustwave",
+    printings: [{
+      
+      identifier: "OUT076",
+      image: "OUT076.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT076"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT076.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `**Combo** - If Surging Strike was the last attack this combat chain, this costs {r} less to play and has +2{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo,Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tommy Suhartono"],
+    cardIdentifier: "one-two-punch-red",
+    classes: [Class.Ninja],
+    defaultImage: "OUT080.width-450",
+    name: "One-Two Punch",
+    printings: [{
+      
+      identifier: "OUT080",
+      image: "OUT080.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT080"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT080.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Combo** - If Head Jab was the last attack this combat chain, this has "When this hits a hero, deal 2 damage to them."`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo],
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tommy Suhartono"],
+    cardIdentifier: "one-two-punch-yellow",
+    classes: [Class.Ninja],
+    defaultImage: "OUT081.width-450",
+    name: "One-Two Punch",
+    printings: [{
+      
+      identifier: "OUT081",
+      image: "OUT081.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT081"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT081.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Combo** - If Head Jab was the last attack this combat chain, this has "When this hits a hero, deal 2 damage to them."`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo],
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tommy Suhartono"],
+    cardIdentifier: "one-two-punch-blue",
+    classes: [Class.Ninja],
+    defaultImage: "OUT082.width-450",
+    name: "One-Two Punch",
+    printings: [{
+      
+      identifier: "OUT082",
+      image: "OUT082.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT082"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT082.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Combo** - If Head Jab was the last attack this combat chain, this has "When this hits a hero, deal 2 damage to them."`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo],
+    
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Joseph Qiu"],
+    cardIdentifier: "riptide-lurker-of-the-deep",
+    classes: [Class.Ranger],
+    defaultImage: "OUT091.width-450",
+    name: "Riptide, Lurker of the Deep",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "HER078",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.G,
+      identifier: "WIN022",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "OUT091",
+      image: "OUT091.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["HER078","WIN022","OUT091"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImage: "OUT091.width-450",
+    subtypes: [],
+    types: [Type.Hero],
+    typeText: "Ranger Hero",
+
+    
+    
+    functionalText: `Whenever you play a card from hand, you may put a card from hand face down into your arsenal.
+
+Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
+    
+    hero: Hero.Riptide,
+    intellect: 4,
+    
+    
+    life: 38,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Joseph Qiu"],
+    cardIdentifier: "riptide",
+    classes: [Class.Ranger],
+    defaultImage: "OUT092.width-450",
+    name: "Riptide",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "HER080",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "HER083",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "OUT092",
+      image: "OUT092.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["HER080","HER083","OUT092"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImage: "OUT092.width-450",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Ranger Hero – Young",
+
+    
+    
+    functionalText: `Whenever you play a card from hand, you may put a card from hand face down into your arsenal.
+
+Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
+    
+    hero: Hero.Riptide,
+    intellect: 4,
+    
+    
+    life: 19,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    young: true
+  },{
+    artists: ["Tanapon Wachirakul"],
+    cardIdentifier: "barbed-castaway",
+    classes: [Class.Ranger],
+    defaultImage: "OUT093.width-450",
+    name: "Barbed Castaway",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "LGS129",
+      image: "card_Barbed_Castaway.width-10000",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "OUT093",
+      image: "OUT093.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["LGS129","OUT093"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImage: "card_Barbed_Castaway.width-10000",
+    subtypes: [Subtype.Bow,Subtype.TwoHanded],
+    types: [Type.Weapon],
+    typeText: "Ranger Weapon - Bow (2H)",
+
+    
+    
+    functionalText: `**Once per Turn Instant** - {r}: You may put an arrow card from your hand face up into your arsenal.
+
+**Once per Turn Instant** - {r}: You may turn a face down arrow in your arsenal face up. If you do, put an aim counter on it.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "trench-of-sunken-treasure",
+    classes: [Class.Ranger],
+    defaultImage: "OUT094.width-450",
+    name: "Trench of Sunken Treasure",
+    printings: [{
+      
+      identifier: "FAB125",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "OUT094",
+      image: "OUT094.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["FAB125","OUT094"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImage: "OUT094.width-450",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Ranger Equipment - Chest",
+
+    
+    defense: 1,
+    functionalText: `**Once per Turn Instant** - Put a face down card from your arsenal on the bottom of your deck: Gain {r}
+
+**Arcane Barrier 1**
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.ArcaneBarrier,Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Steve Argyle"],
+    cardIdentifier: "quiver-of-abyssal-depths",
+    classes: [Class.Ranger],
+    defaultImage: "OUT095.width-450",
+    name: "Quiver of Abyssal Depths",
+    printings: [{
+      foiling: Foiling.G,
+      identifier: "FAB126",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "OUT095",
+      image: "OUT095.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["FAB126","OUT095"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImage: "OUT095.width-450",
+    subtypes: [Subtype.Quiver],
+    types: [Type.Equipment],
+    typeText: "Ranger Equipment - Quiver",
+
+    
+    
+    functionalText: `**Instant** - {r}{r}{r}, destroy Quiver of Abyssal Depths: Shuffle up to 3 arrows with different names from your graveyard into your deck.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mark Poole"],
+    cardIdentifier: "quiver-of-rustling-leaves",
+    classes: [Class.Ranger],
+    defaultImage: "OUT096.width-450",
+    name: "Quiver of Rustling Leaves",
+    printings: [{
+      
+      identifier: "OUT096",
+      image: "OUT096.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT096"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT096.width-450",
+    subtypes: [Subtype.Quiver],
+    types: [Type.Equipment],
+    typeText: "Ranger Equipment - Quiver",
+
+    
+    
+    functionalText: `**Instant** - {r}{r}{r}: Reveal the top card of your deck. If it's an arrow, put it face up into your arsenal and destroy Quiver of Rustling Leaves.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "crows-nest",
+    classes: [Class.Ranger],
+    defaultImage: "OUT097.width-450",
+    name: "Crow's Nest",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "LGS133",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "OUT097",
+      image: "OUT097.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["LGS133","OUT097"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImage: "OUT097.width-450",
+    subtypes: [Subtype.Quiver],
+    types: [Type.Equipment],
+    typeText: "Ranger Equipment - Quiver",
+
+    
+    
+    functionalText: `**Azalea Specialization**
+
+Whenever an arrow is put face up into your arsenal from your deck, you may pay {r}. If you do, put an aim counter on it.`,
+    
+    
+    
+    
+    keywords: [Keyword.Specialization],
+    
+    
+    
+    
+    
+    
+    
+    
+    specializations: [Hero.Azalea],
+    
+    
+  },{
+    artists: ["Jessada Sutthi"],
+    cardIdentifier: "driftwood-quiver",
+    classes: [Class.Ranger],
+    defaultImage: "OUT098.width-450",
+    name: "Driftwood Quiver",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "LGS137",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "OUT098",
+      image: "OUT098.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["LGS137","OUT098"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImage: "OUT098.width-450",
+    subtypes: [Subtype.Quiver],
+    types: [Type.Equipment],
+    typeText: "Ranger Equipment - Quiver",
+
+    
+    
+    functionalText: `**Riptide Specialization**
+
+**Instant** - Destroy Driftwood Quiver: Put a card from your arsenal on the bottom of your deck.`,
+    
+    
+    
+    
+    keywords: [Keyword.Specialization],
+    
+    
+    
+    
+    
+    
+    
+    
+    specializations: [Hero.Riptide],
+    
+    
+  },{
+    artists: ["Asur Misoa"],
+    cardIdentifier: "wayfinders-crest",
+    classes: [Class.Ranger],
+    defaultImage: "OUT099.width-450",
+    name: "Wayfinder's Crest",
+    printings: [{
+      
+      identifier: "OUT099",
+      image: "OUT099.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "OUT099",
+      image: "OUT099.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT099"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT099.width-450",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Ranger Equipment – Head",
+
+    
+    defense: 1,
+    functionalText: `When you defend with Wayfinder's Crest, look at the top card of target hero's deck.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Ramza Ardyputra"],
+    cardIdentifier: "amplifying-arrow-yellow",
+    classes: [Class.Ranger],
+    defaultImage: "OUT100.width-450",
+    name: "Amplifying Arrow",
+    printings: [{
+      
+      identifier: "OUT100",
+      image: "OUT100.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT100"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT100.width-450",
+    subtypes: [Subtype.Attack,Subtype.Arrow],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `While Amplifying Arrow is face up in any zone, if it would gain {p}, instead it gains that much plus 1.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 2,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Junaidi Lim"],
+    cardIdentifier: "barbed-undertow-red",
+    classes: [Class.Ranger],
+    defaultImage: "OUT101.width-450",
+    name: "Barbed Undertow",
+    printings: [{
+      
+      identifier: "OUT101",
+      image: "OUT101.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT101"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT101.width-450",
+    subtypes: [Subtype.Attack,Subtype.Arrow],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `If Barbed Undertow has an aim counter, it gains "When this hits a hero, choose red, yellow, or blue. Until the start of your next turn, they can't pitch cards of the chosen color."`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tanapon Wachirakul"],
+    cardIdentifier: "buzzsaw-trap-blue",
+    classes: [Class.Ranger],
+    defaultImage: "OUT102.width-450",
+    name: "Buzzsaw Trap",
+    printings: [{
+      
+      identifier: "OUT102",
+      image: "OUT102.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT102"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT102.width-450",
+    subtypes: [Subtype.Trap],
+    types: [Type.DefenseReaction],
+    typeText: "Ranger Defense Reaction - Trap",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Legendary Riptide Specialization**
+
+When this defends an attack with {p} greater than its base, the attack can't gain {p} this turn.`,
+    
+    
+    
+    
+    keywords: [Keyword.Legendary,Keyword.Specialization],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    specializations: [Hero.Riptide],
+    
+    
+  },{
+    artists: ["Raphael Pinna"],
+    cardIdentifier: "collapsing-trap-blue",
+    classes: [Class.Ranger],
+    defaultImage: "OUT103.width-350",
+    name: "Collapsing Trap",
+    printings: [{
+      
+      identifier: "OUT103",
+      image: "OUT103.width-350",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT103"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT103.width-350",
+    subtypes: [Subtype.Trap],
+    types: [Type.DefenseReaction],
+    typeText: "Ranger Defense Reaction - Trap",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Legendary Riptide Specialization**
+
+When this defends an attack with **go again**, the attacking hero discards their hand then draws that many cards minus 1.`,
+    
+    
+    
+    
+    keywords: [Keyword.Legendary,Keyword.Specialization],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    specializations: [Hero.Riptide],
+    
+    
+  },{
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "spike-pit-trap-blue",
+    classes: [Class.Ranger],
+    defaultImage: "OUT104.width-450",
+    name: "Spike Pit Trap",
+    printings: [{
+      
+      identifier: "OUT104",
+      image: "OUT104.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT104"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT104.width-450",
+    subtypes: [Subtype.Trap],
+    types: [Type.DefenseReaction],
+    typeText: "Ranger Defense Reaction - Trap",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Legendary Riptide Specialization**
+
+When this defends and the attacking hero has played or activated a reaction this chain link, put the top card of their deck into their graveyard, then they lose X{h}, where X is the number of cards in their graveyard with that name.`,
+    
+    
+    
+    
+    keywords: [Keyword.Legendary,Keyword.Specialization],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    specializations: [Hero.Riptide],
+    
+    
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "melting-point-red",
+    classes: [Class.Ranger],
+    defaultImage: "OUT105.width-450",
+    name: "Melting Point",
+    printings: [{
+      
+      identifier: "OUT105",
+      image: "OUT105.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT105"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT105.width-450",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Ranger Action",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `Your next arrow attack this turn gains +4{p}.
+
+If it has an aim counter, it gains "When this hits a hero, destroy a 1H weapon they control with 1 base {p}."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mateusz Wiśniewski"],
+    cardIdentifier: "boulder-trap-yellow",
+    classes: [Class.Ranger],
+    defaultImage: "OUT106.width-450",
+    name: "Boulder Trap",
+    printings: [{
+      
+      identifier: "OUT106",
+      image: "OUT106.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT106"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT106.width-450",
+    subtypes: [Subtype.Trap],
+    types: [Type.DefenseReaction],
+    typeText: "Ranger Defense Reaction - Trap",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `When this defends an attack with {p} greater than its base, put a -1{d} counter on an equipment the attacking hero controls.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "pendulum-trap-yellow",
+    classes: [Class.Ranger],
+    defaultImage: "OUT107.width-450",
+    name: "Pendulum Trap",
+    printings: [{
+      
+      identifier: "OUT107",
+      image: "OUT107.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT107"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT107.width-450",
+    subtypes: [Subtype.Trap],
+    types: [Type.DefenseReaction],
+    typeText: "Ranger Defense Reaction - Trap",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `When this defends and the attacking hero has played or activated a reaction this chain link, put the top 2 cards of their deck into their graveyard.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "tarpit-trap-yellow",
+    classes: [Class.Ranger],
+    defaultImage: "OUT108.width-450",
+    name: "Tarpit Trap",
+    printings: [{
+      
+      identifier: "OUT108",
+      image: "OUT108.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT108"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT108.width-450",
+    subtypes: [Subtype.Trap],
+    types: [Type.DefenseReaction],
+    typeText: "Ranger Defense Reaction - Trap",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `When this defends an attack with **go again**, the next time an attack action card hits this turn, effects don't trigger.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Alexis Susani"],
+    cardIdentifier: "fletch-a-red-tail-red",
+    classes: [Class.Ranger],
+    defaultImage: "OUT109_MXRPsJl.width-450",
+    name: "Fletch a Red Tail",
+    printings: [{
+      
+      identifier: "OUT109",
+      image: "OUT109_MXRPsJl.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT109"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT109_MXRPsJl.width-450",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Ranger Action",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Your next arrow attack this turn gains +4{p}.
+
+If it has an aim counter, it gains "Red cards have -1{d} while defending this."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Alexis Susani"],
+    cardIdentifier: "fletch-a-yellow-tail-yellow",
+    classes: [Class.Ranger],
+    defaultImage: "OUT110.width-450",
+    name: "Fletch a Yellow Tail",
+    printings: [{
+      
+      identifier: "OUT110",
+      image: "OUT110.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT110"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT110.width-450",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Ranger Action",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Your next arrow attack this turn gains +3{p}.
+
+If it has an aim counter, it gains "Yellow cards have -1{d} while defending this."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Alexis Susani"],
+    cardIdentifier: "fletch-a-blue-tail-blue",
+    classes: [Class.Ranger],
+    defaultImage: "OUT111.width-450",
+    name: "Fletch a Blue Tail",
+    printings: [{
+      
+      identifier: "OUT111",
+      image: "OUT111.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT111"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT111.width-450",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Ranger Action",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Your next arrow attack this turn gains +2{p}.
+
+If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Phu Thieu"],
+    cardIdentifier: "lace-with-bloodrot-red",
+    classes: [Class.Ranger],
+    defaultImage: "OUT112.width-450",
+    name: "Lace with Bloodrot",
+    printings: [{
+      
+      identifier: "OUT112",
+      image: "OUT112.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT112"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT112.width-450",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Ranger Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `Your next arrow attack this turn gains +3{p} and "When this hits a hero, create a Bloodrot Pox token under their control."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "lace-with-frailty-red",
+    classes: [Class.Ranger],
+    defaultImage: "OUT113.width-450",
+    name: "Lace with Frailty",
+    printings: [{
+      
+      identifier: "OUT113",
+      image: "OUT113.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT113"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT113.width-450",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Ranger Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `Your next arrow attack this turn gains +3{p} and "When this hits a hero, create a Frailty token under their control."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "lace-with-inertia-red",
+    classes: [Class.Ranger],
+    defaultImage: "OUT114.width-450",
+    name: "Lace with Inertia",
+    printings: [{
+      
+      identifier: "OUT114",
+      image: "OUT114.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT114"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT114.width-450",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Ranger Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `Your next arrow attack this turn gains +3{p} and "When this hits a hero, create an Inertia token under their control."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Alief Rusdiatama"],
+    cardIdentifier: "falcon-wing-red",
+    classes: [Class.Ranger],
+    defaultImage: "OUT115.width-450",
+    name: "Falcon Wing",
+    printings: [{
+      
+      identifier: "OUT115",
+      image: "OUT115.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT115"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT115.width-450",
+    subtypes: [Subtype.Attack,Subtype.Arrow],
+    types: [Type.Action],
+    typeText: "Ranger Action",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `If Falcon Wing has an aim counter, it has +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Alief Rusdiatama"],
+    cardIdentifier: "falcon-wing-yellow",
+    classes: [Class.Ranger],
+    defaultImage: "OUT116.width-450",
+    name: "Falcon Wing",
+    printings: [{
+      
+      identifier: "OUT116",
+      image: "OUT116.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT116"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT116.width-450",
+    subtypes: [Subtype.Attack,Subtype.Arrow],
+    types: [Type.Action],
+    typeText: "Ranger Action",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `If Falcon Wing has an aim counter, it has +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Alief Rusdiatama"],
+    cardIdentifier: "falcon-wing-blue",
+    classes: [Class.Ranger],
+    defaultImage: "OUT117.width-450",
+    name: "Falcon Wing",
+    printings: [{
+      
+      identifier: "OUT117",
+      image: "OUT117.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT117"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT117.width-450",
+    subtypes: [Subtype.Attack,Subtype.Arrow],
+    types: [Type.Action],
+    typeText: "Ranger Action",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `If Falcon Wing has an aim counter, it has +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kalashnikova N."],
+    cardIdentifier: "infecting-shot-red",
+    classes: [Class.Ranger],
+    defaultImage: "OUT118.width-450",
+    name: "Infecting Shot",
+    printings: [{
+      
+      identifier: "OUT118",
+      image: "OUT118.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT118"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT118.width-450",
+    subtypes: [Subtype.Attack,Subtype.Arrow],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `If Infecting Shot has an aim counter, it has +1{p}.
+
+When this hits a hero, create a Bloodrot Pox token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kalashnikova N."],
+    cardIdentifier: "infecting-shot-yellow",
+    classes: [Class.Ranger],
+    defaultImage: "OUT119.width-450",
+    name: "Infecting Shot",
+    printings: [{
+      
+      identifier: "OUT119",
+      image: "OUT119.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT119"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT119.width-450",
+    subtypes: [Subtype.Attack,Subtype.Arrow],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `If Infecting Shot has an aim counter, it has +1{p}.
+
+When this hits a hero, create a Bloodrot Pox token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kalashnikova N."],
+    cardIdentifier: "infecting-shot-blue",
+    classes: [Class.Ranger],
+    defaultImage: "OUT120.width-450",
+    name: "Infecting Shot",
+    printings: [{
+      
+      identifier: "OUT120",
+      image: "OUT120.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT120"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT120.width-450",
+    subtypes: [Subtype.Attack,Subtype.Arrow],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `If Infecting Shot has an aim counter, it has +1{p}.
+
+When this hits a hero, create a Bloodrot Pox token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "murkmire-grapnel-red",
+    classes: [Class.Ranger],
+    defaultImage: "OUT121.width-450",
+    name: "Murkmire Grapnel",
+    printings: [{
+      
+      identifier: "OUT121",
+      image: "OUT121.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT121"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT121.width-450",
+    subtypes: [Subtype.Attack,Subtype.Arrow],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `If Murkmire Grapnel has an aim counter, it has +1{p}.
+
+Damage that would be dealt by Murkmire Grapnel can't be prevented.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "murkmire-grapnel-yellow",
+    classes: [Class.Ranger],
+    defaultImage: "OUT122.width-450",
+    name: "Murkmire Grapnel",
+    printings: [{
+      
+      identifier: "OUT122",
+      image: "OUT122.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT122"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT122.width-450",
+    subtypes: [Subtype.Attack,Subtype.Arrow],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `If Murkmire Grapnel has an aim counter, it has +1{p}.
+
+Damage that would be dealt by Murkmire Grapnel can't be prevented.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "murkmire-grapnel-blue",
+    classes: [Class.Ranger],
+    defaultImage: "OUT123.width-450",
+    name: "Murkmire Grapnel",
+    printings: [{
+      
+      identifier: "OUT123",
+      image: "OUT123.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT123"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT123.width-450",
+    subtypes: [Subtype.Attack,Subtype.Arrow],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `If Murkmire Grapnel has an aim counter, it has +1{p}.
+
+Damage that would be dealt by Murkmire Grapnel can't be prevented.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Elena Bakulina"],
+    cardIdentifier: "sedation-shot-red",
+    classes: [Class.Ranger],
+    defaultImage: "OUT124.width-450",
+    name: "Sedation Shot",
+    printings: [{
+      
+      identifier: "OUT124",
+      image: "OUT124.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT124"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT124.width-450",
+    subtypes: [Subtype.Attack,Subtype.Arrow],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `If Sedation Shot has an aim counter, it has +1{p}.
+
+When this hits a hero, create an Inertia token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Elena Bakulina"],
+    cardIdentifier: "sedation-shot-yellow",
+    classes: [Class.Ranger],
+    defaultImage: "OUT125.width-450",
+    name: "Sedation Shot",
+    printings: [{
+      
+      identifier: "OUT125",
+      image: "OUT125.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT125"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT125.width-450",
+    subtypes: [Subtype.Attack,Subtype.Arrow],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `If Sedation Shot has an aim counter, it has +1{p}.
+
+When this hits a hero, create an Inertia token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Elena Bakulina"],
+    cardIdentifier: "sedation-shot-blue",
+    classes: [Class.Ranger],
+    defaultImage: "OUT126.width-450",
+    name: "Sedation Shot",
+    printings: [{
+      
+      identifier: "OUT126",
+      image: "OUT126.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT126"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT126.width-450",
+    subtypes: [Subtype.Attack,Subtype.Arrow],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `If Sedation Shot has an aim counter, it has +1{p}.
+
+When this hits a hero, create an Inertia token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Eilene Cherie"],
+    cardIdentifier: "skybound-shot-red",
+    classes: [Class.Ranger],
+    defaultImage: "OUT127.width-450",
+    name: "Skybound Shot",
+    printings: [{
+      
+      identifier: "OUT127",
+      image: "OUT127.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT127"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT127.width-450",
+    subtypes: [Subtype.Attack,Subtype.Arrow],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `If Skybound Shot has an aim counter, it has +1{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Eilene Cherie"],
+    cardIdentifier: "skybound-shot-yellow",
+    classes: [Class.Ranger],
+    defaultImage: "OUT128.width-450",
+    name: "Skybound Shot",
+    printings: [{
+      
+      identifier: "OUT128",
+      image: "OUT128.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT128"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT128.width-450",
+    subtypes: [Subtype.Attack,Subtype.Arrow],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `If Skybound Shot has an aim counter, it has +1{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Eilene Cherie"],
+    cardIdentifier: "skybound-shot-blue",
+    classes: [Class.Ranger],
+    defaultImage: "OUT129.width-450",
+    name: "Skybound Shot",
+    printings: [{
+      
+      identifier: "OUT129",
+      image: "OUT129.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT129"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT129.width-450",
+    subtypes: [Subtype.Attack,Subtype.Arrow],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `If Skybound Shot has an aim counter, it has +1{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "spire-sniping-red",
+    classes: [Class.Ranger],
+    defaultImage: "OUT130.width-450",
+    name: "Spire Sniping",
+    printings: [{
+      
+      identifier: "OUT130",
+      image: "OUT130.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT130"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT130.width-450",
+    subtypes: [Subtype.Attack,Subtype.Arrow],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `When Spire Sniping is put or turned face up in arsenal, look at the top 2 cards of your deck, then put them back in any order.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "spire-sniping-yellow",
+    classes: [Class.Ranger],
+    defaultImage: "OUT131.width-450",
+    name: "Spire Sniping",
+    printings: [{
+      
+      identifier: "OUT131",
+      image: "OUT131.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT131"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT131.width-450",
+    subtypes: [Subtype.Attack,Subtype.Arrow],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `When Spire Sniping is put or turned face up in arsenal, look at the top 2 cards of your deck, then put them back in any order.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "spire-sniping-blue",
+    classes: [Class.Ranger],
+    defaultImage: "OUT132.width-450",
+    name: "Spire Sniping",
+    printings: [{
+      
+      identifier: "OUT132",
+      image: "OUT132.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT132"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT132.width-450",
+    subtypes: [Subtype.Attack,Subtype.Arrow],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `When Spire Sniping is put or turned face up in arsenal, look at the top 2 cards of your deck, then put them back in any order.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Phu Thieu"],
+    cardIdentifier: "widowmaker-red",
+    classes: [Class.Ranger],
+    defaultImage: "OUT133.width-450",
+    name: "Widowmaker",
+    printings: [{
+      
+      identifier: "OUT133",
+      image: "OUT133.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT133"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT133.width-450",
+    subtypes: [Subtype.Attack,Subtype.Arrow],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `Defense reactions can't be played to Widowmaker's chain link.
+
+If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Phu Thieu"],
+    cardIdentifier: "widowmaker-yellow",
+    classes: [Class.Ranger],
+    defaultImage: "OUT134.width-450",
+    name: "Widowmaker",
+    printings: [{
+      
+      identifier: "OUT134",
+      image: "OUT134.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT134"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT134.width-450",
+    subtypes: [Subtype.Attack,Subtype.Arrow],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `Defense reactions can't be played to Widowmaker's chain link.
+
+If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Phu Thieu"],
+    cardIdentifier: "widowmaker-blue",
+    classes: [Class.Ranger],
+    defaultImage: "OUT135.width-450",
+    name: "Widowmaker",
+    printings: [{
+      
+      identifier: "OUT135",
+      image: "OUT135.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT135"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT135.width-450",
+    subtypes: [Subtype.Attack,Subtype.Arrow],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `Defense reactions can't be played to Widowmaker's chain link.
+
+If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Nikita Bondarev"],
+    cardIdentifier: "withering-shot-red",
+    classes: [Class.Ranger],
+    defaultImage: "OUT136.width-450",
+    name: "Withering Shot",
+    printings: [{
+      
+      identifier: "OUT136",
+      image: "OUT136.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT136"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT136.width-450",
+    subtypes: [Subtype.Attack,Subtype.Arrow],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `If Withering Shot has an aim counter, it has +1{p}.
+
+When this hits a hero, create a Frailty token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Nikita Bondarev"],
+    cardIdentifier: "withering-shot-yellow",
+    classes: [Class.Ranger],
+    defaultImage: "OUT137.width-450",
+    name: "Withering Shot",
+    printings: [{
+      
+      identifier: "OUT137",
+      image: "OUT137.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT137"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT137.width-450",
+    subtypes: [Subtype.Attack,Subtype.Arrow],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `If Withering Shot has an aim counter, it has +1{p}.
+
+When this hits a hero, create a Frailty token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Nikita Bondarev"],
+    cardIdentifier: "withering-shot-blue",
+    classes: [Class.Ranger],
+    defaultImage: "OUT138.width-450",
+    name: "Withering Shot",
+    printings: [{
+      
+      identifier: "OUT138",
+      image: "OUT138.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT138"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT138.width-450",
+    subtypes: [Subtype.Attack,Subtype.Arrow],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `If Withering Shot has an aim counter, it has +1{p}.
+
+When this hits a hero, create a Frailty token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Nathaniel Himawan"],
+    cardIdentifier: "flick-knives",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "OUT139.width-450",
+    name: "Flick Knives",
+    printings: [{
+      foiling: Foiling.G,
+      identifier: "FAB124",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "OUT139",
+      image: "OUT139.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["FAB124","OUT139"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImage: "OUT139.width-450",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Assassin / Ninja Equipment - Arms",
+
+    
+    defense: 1,
+    functionalText: `**Once per Turn Attack Reaction** - 0: Target dagger you control that isn't on the active chain link deals 1 damage to target hero. If damage is dealt this way, the dagger has hit. Destroy the dagger.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "mask-of-shifting-perspectives",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "OUT140.width-450",
+    name: "Mask of Shifting Perspectives",
+    printings: [{
+      
+      identifier: "OUT140",
+      image: "OUT140.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT140"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT140.width-450",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Assassin / Ninja Equipment - Head",
+
+    
+    defense: 1,
+    functionalText: `**Attack Reaction** - Destroy Mask of Shifting Perspectives: Whenever a dagger hits this turn, you may put a card from your hand on the bottom of your deck. If you do, draw a card.`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "blade-cuff",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "OUT141.width-450",
+    name: "Blade Cuff",
+    printings: [{
+      
+      identifier: "OUT141",
+      image: "OUT141.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT141"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT141.width-450",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Assassin / Ninja Equipment - Arms",
+
+    
+    defense: 1,
+    functionalText: `**Action** - {r}{r}, destroy Blade Cuff: Your daggers gain +1{p} this turn. **Go again**
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak,Keyword.GoAgain],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "stab-wound-blue",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "OUT142.width-450",
+    name: "Stab Wound",
+    printings: [{
+      
+      identifier: "OUT142",
+      image: "OUT142.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT142"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT142.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ninja Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `When this hits a hero, they lose X{h}, where X is the number of times a dagger has hit this combat chain.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 2,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "concealed-blade-blue",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "OUT143.width-450",
+    name: "Concealed Blade",
+    printings: [{
+      
+      identifier: "OUT143",
+      image: "OUT143.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT143"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT143.width-450",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin / Ninja Attack Reaction",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `Target Assassin or Ninja attack action card gains +1{p} and "When this hits, equip a dagger from your inventory."`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "knives-out-blue",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "OUT144.width-450",
+    name: "Knives Out",
+    printings: [{
+      
+      identifier: "OUT144",
+      image: "OUT144.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT144"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT144.width-450",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin / Ninja Attack Reaction",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `Your daggers gain +1{p} this turn.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "bleed-out-red",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "OUT145.width-450",
+    name: "Bleed Out",
+    printings: [{
+      
+      identifier: "OUT145",
+      image: "OUT145.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT145"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT145.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ninja Action - Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `Bleed Out costs X resource points less to play, where X is the total damage you've dealt with daggers this combat chain.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "bleed-out-yellow",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "OUT146.width-450",
+    name: "Bleed Out",
+    printings: [{
+      
+      identifier: "OUT146",
+      image: "OUT146.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT146"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT146.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ninja Action - Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `Bleed Out costs X resource points less to play, where X is the total damage you've dealt with daggers this combat chain.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "bleed-out-blue",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "OUT147.width-450",
+    name: "Bleed Out",
+    printings: [{
+      
+      identifier: "OUT147",
+      image: "OUT147.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT147"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT147.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ninja Action - Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `Bleed Out costs X resource points less to play, where X is the total damage you've dealt with daggers this combat chain.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    power: 2,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tanapon Wachirakul"],
+    cardIdentifier: "hurl-red",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "OUT148.width-450",
+    name: "Hurl",
+    printings: [{
+      
+      identifier: "OUT148",
+      image: "OUT148.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT148"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT148.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ninja Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `As an additional cost to play Hurl, you may pay {r}. When you do, it gains "When this attacks, target dagger you control deals 1 damage to target hero. If damage is dealt this way, the dagger has hit. Destroy the dagger."
+
+**Go again**`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tanapon Wachirakul"],
+    cardIdentifier: "hurl-yellow",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "OUT149.width-450",
+    name: "Hurl",
+    printings: [{
+      
+      identifier: "OUT149",
+      image: "OUT149.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT149"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT149.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ninja Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `As an additional cost to play Hurl, you may pay {r}. When you do, it gains "When this attacks, target dagger you control deals 1 damage to target hero. If damage is dealt this way, the dagger has hit. Destroy the dagger."
+
+**Go again**`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 2,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tanapon Wachirakul"],
+    cardIdentifier: "hurl-blue",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "OUT150.width-450",
+    name: "Hurl",
+    printings: [{
+      
+      identifier: "OUT150",
+      image: "OUT150.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT150"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT150.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ninja Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `As an additional cost to play Hurl, you may pay {r}. When you do, it gains "When this attacks, target dagger you control deals 1 damage to target hero. If damage is dealt this way, the dagger has hit. Destroy the dagger."
+
+**Go again**`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 1,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "plunge-red",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "OUT151.width-450",
+    name: "Plunge",
+    printings: [{
+      
+      identifier: "OUT151",
+      image: "OUT151.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT151"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT151.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ninja Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `When this hits, your next dagger attack this turn gains +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "plunge-yellow",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "OUT152.width-450",
+    name: "Plunge",
+    printings: [{
+      
+      identifier: "OUT152",
+      image: "OUT152.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT152"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT152.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ninja Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `When this hits, your next dagger attack this turn gains +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "plunge-blue",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "OUT153.width-450",
+    name: "Plunge",
+    printings: [{
+      
+      identifier: "OUT153",
+      image: "OUT153.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT153"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT153.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ninja Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `When this hits, your next dagger attack this turn gains +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tommy Suhartono"],
+    cardIdentifier: "short-and-sharp-red",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "OUT154.width-450",
+    name: "Short and Sharp",
+    printings: [{
+      
+      identifier: "OUT154",
+      image: "OUT154.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT154"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT154.width-450",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin / Ninja Attack Reaction",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Choose 1;
+- Target dagger attack gains +3{p}.
+- Target attack action card with 2 or less base {p} gains +3{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tommy Suhartono"],
+    cardIdentifier: "short-and-sharp-yellow",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "OUT155.width-450",
+    name: "Short and Sharp",
+    printings: [{
+      
+      identifier: "OUT155",
+      image: "OUT155.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT155"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT155.width-450",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin / Ninja Attack Reaction",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Choose 1;
+- Target dagger attack gains +2{p}.
+- Target attack action card with 2 or less base {p} gains +2{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tommy Suhartono"],
+    cardIdentifier: "short-and-sharp-blue",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "OUT156.width-450",
+    name: "Short and Sharp",
+    printings: [{
+      
+      identifier: "OUT156",
+      image: "OUT156.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT156"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT156.width-450",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin / Ninja Attack Reaction",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Choose 1;
+- Target dagger attack gains +1{p}.
+- Target attack action card with 2 or less base {p} gains +1{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "mask-of-malicious-manifestations",
+    classes: [Class.Assassin,Class.Ranger],
+    defaultImage: "OUT157.width-450",
+    name: "Mask of Malicious Manifestations",
+    printings: [{
+      
+      identifier: "OUT157",
+      image: "OUT157.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT157"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT157.width-450",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Assassin / Ranger Equipment - Head",
+
+    
+    defense: 1,
+    functionalText: `**Action** - {r}, put a card from your hand or arsenal on the bottom of your deck, destroy Mask of Malicious Manifestations: Reveal cards from the top of your deck until you reveal an attack action card. Put it into your hand, then shuffle. **Go again**
+
+**Blade break**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "toxic-tips",
+    classes: [Class.Assassin,Class.Ranger],
+    defaultImage: "OUT158.width-450",
+    name: "Toxic Tips",
+    printings: [{
+      
+      identifier: "OUT158",
+      image: "OUT158.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT158"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT158.width-450",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Assassin / Ranger Equipment - Arms",
+
+    
+    defense: 1,
+    functionalText: `**Action** - {r}, destroy Toxic Tips: The next attack action card you play this turn gains "When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under their control." **Go again**
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak,Keyword.GoAgain],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mateusz Wiśniewski"],
+    cardIdentifier: "codex-of-bloodrot-yellow",
+    classes: [Class.Assassin,Class.Ranger],
+    defaultImage: "OUT159.width-450",
+    name: "Codex of Bloodrot",
+    printings: [{
+      
+      identifier: "OUT159",
+      image: "OUT159.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT159"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT159.width-450",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Assassin / Ranger Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `Each hero puts a card from their hand face down into their arsenal.
+
+Create a Ponder token under your control and a Bloodrot Pox token under each opponent's control.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "codex-of-frailty-yellow",
+    classes: [Class.Assassin,Class.Ranger],
+    defaultImage: "OUT160.width-450",
+    name: "Codex of Frailty",
+    printings: [{
+      
+      identifier: "OUT160",
+      image: "OUT160.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      
+      identifier: "OUT160",
+      image: "",
+      set: Release.Outsiders,
+      treatment: Treatment.AA,
+    },],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT160"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT160.width-450",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Assassin / Ranger Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `Each hero puts an attack action card from their graveyard face down into their arsenal. Each hero that does, discards a card.
+
+Create a Ponder token under your control and a Frailty token under each opponent's control.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "codex-of-inertia-yellow",
+    classes: [Class.Assassin,Class.Ranger],
+    defaultImage: "OUT161.width-450",
+    name: "Codex of Inertia",
+    printings: [{
+      
+      identifier: "OUT161",
+      image: "OUT161.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT161"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT161.width-450",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Assassin / Ranger Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `Each hero puts the top card of their deck face down into their arsenal. Each hero that does, discards a card.
+
+Create a Ponder token under your control and an Inertia token under each opponent's control.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    power: 0,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "death-touch-red",
+    classes: [Class.Assassin,Class.Ranger],
+    defaultImage: "OUT162.width-450",
+    name: "Death Touch",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "FAB132",
+      image: "",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      
+      identifier: "OUT162",
+      image: "OUT162.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["FAB132","OUT162"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImage: "OUT162.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ranger Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Death Touch can't be played from hand.
+
+When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "death-touch-yellow",
+    classes: [Class.Assassin,Class.Ranger],
+    defaultImage: "OUT163.width-450",
+    name: "Death Touch",
+    printings: [{
+      
+      identifier: "OUT163",
+      image: "OUT163.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT163"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT163.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ranger Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Death Touch can't be played from hand.
+
+When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "death-touch-blue",
+    classes: [Class.Assassin,Class.Ranger],
+    defaultImage: "OUT164.width-450",
+    name: "Death Touch",
+    printings: [{
+      
+      identifier: "OUT164",
+      image: "OUT164.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT164"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT164.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ranger Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Death Touch can't be played from hand.
+
+When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "toxicity-red",
+    classes: [Class.Assassin,Class.Ranger],
+    defaultImage: "OUT165.width-450",
+    name: "Toxicity",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "FAB128",
+      image: "",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      
+      identifier: "OUT165",
+      image: "OUT165.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["FAB128","OUT165"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImage: "OUT165.width-450",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Assassin / Ranger Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `The next Assassin or Ranger attack action card you play this turn gains "When this hits a hero, they lose 5{h}."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "toxicity-yellow",
+    classes: [Class.Assassin,Class.Ranger],
+    defaultImage: "OUT166.width-450",
+    name: "Toxicity",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "FAB129",
+      image: "",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      
+      identifier: "OUT166",
+      image: "OUT166.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["FAB129","OUT166"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImage: "OUT166.width-450",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Assassin / Ranger Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `The next Assassin or Ranger attack action card you play this turn gains "When this hits a hero, they lose 4{h}."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "toxicity-blue",
+    classes: [Class.Assassin,Class.Ranger],
+    defaultImage: "OUT167.width-450",
+    name: "Toxicity",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "FAB130",
+      image: "",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      
+      identifier: "OUT167",
+      image: "OUT167.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["FAB130","OUT167"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImage: "OUT167.width-450",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Assassin / Ranger Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `The next Assassin or Ranger attack action card you play this turn gains "When this hits a hero, they lose 3{h}."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mark Poole"],
+    cardIdentifier: "virulent-touch-red",
+    classes: [Class.Assassin,Class.Ranger],
+    defaultImage: "OUT168.width-450",
+    name: "Virulent Touch",
+    printings: [{
+      
+      identifier: "OUT168",
+      image: "OUT168.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT168"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT168.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ranger Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `Virulent Touch can't be played from hand.
+
+When this chain link resolves, if Virulent Touch is defended by a card from hand, create a Bloodrot Pox token under the defending hero's control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mark Poole"],
+    cardIdentifier: "virulent-touch-yellow",
+    classes: [Class.Assassin,Class.Ranger],
+    defaultImage: "OUT169.width-450",
+    name: "Virulent Touch",
+    printings: [{
+      
+      identifier: "OUT169",
+      image: "OUT169.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT169"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT169.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ranger Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `Virulent Touch can't be played from hand.
+
+When this chain link resolves, if Virulent Touch is defended by a card from hand, create a Bloodrot Pox token under the defending hero's control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mark Poole"],
+    cardIdentifier: "virulent-touch-blue",
+    classes: [Class.Assassin,Class.Ranger],
+    defaultImage: "OUT170.width-450",
+    name: "Virulent Touch",
+    printings: [{
+      
+      identifier: "OUT170",
+      image: "OUT170.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT170"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT170.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ranger Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `Virulent Touch can't be played from hand.
+
+When this chain link resolves, if Virulent Touch is defended by a card from hand, create a Bloodrot Pox token under the defending hero's control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "bloodrot-trap-red",
+    classes: [Class.Assassin,Class.Ranger],
+    defaultImage: "OUT171.width-450",
+    name: "Bloodrot Trap",
+    printings: [{
+      
+      identifier: "OUT171",
+      image: "OUT171.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT171"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT171.width-450",
+    subtypes: [Subtype.Trap],
+    types: [Type.DefenseReaction],
+    typeText: "Assassin / Ranger Defense Reaction - Trap",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `When this defends and the attacking hero has played or activated a reaction this chain link, create a Bloodrot Pox token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Vito Vivodka"],
+    cardIdentifier: "frailty-trap-red",
+    classes: [Class.Assassin,Class.Ranger],
+    defaultImage: "OUT172.width-450",
+    name: "Frailty Trap",
+    printings: [{
+      
+      identifier: "OUT172",
+      image: "OUT172.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT172"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT172.width-450",
+    subtypes: [Subtype.Trap],
+    types: [Type.DefenseReaction],
+    typeText: "Assassin / Ranger Defense Reaction - Trap",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `When this defends an attack with **go again**, create a Frailty token under the attacking hero's control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Erick Efata"],
+    cardIdentifier: "inertia-trap-red",
+    classes: [Class.Assassin,Class.Ranger],
+    defaultImage: "OUT173.width-450",
+    name: "Inertia Trap",
+    printings: [{
+      
+      identifier: "OUT173",
+      image: "OUT173.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT173"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT173.width-450",
+    subtypes: [Subtype.Trap],
+    types: [Type.DefenseReaction],
+    typeText: "Assassin / Ranger Defense Reaction - Trap",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `When this defends an attack with {p} greater than its base, create an Inertia token under the attacking hero's control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Alexander Mokhov"],
+    cardIdentifier: "vambrace-of-determination",
+    classes: [Class.Generic],
+    defaultImage: "OUT174.width-450",
+    name: "Vambrace of Determination",
+    printings: [{
+      foiling: Foiling.G,
+      identifier: "FAB127",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "OUT174",
+      image: "OUT174.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["FAB127","OUT174"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImage: "OUT174.width-450",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Arms",
+
+    
+    defense: 0,
+    functionalText: `**Once per Turn Attack Reaction** - {r}: The next prevention effect that prevents {p} damage this turn, prevents 1 less of that damage.
+
+When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break**.`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Lizhe Liang"],
+    cardIdentifier: "seekers-hood",
+    classes: [Class.Generic],
+    defaultImage: "OUT175.width-450",
+    name: "Seeker's Hood",
+    printings: [{
+      
+      identifier: "OUT175",
+      image: "OUT175.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT175"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT175.width-450",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Head",
+
+    
+    
+    functionalText: `**Instant** - {r}, destroy Seeker's Hood: Prevent the next 1 damage that would be dealt to your hero this turn. **Opt 1**`,
+    
+    
+    
+    
+    keywords: [Keyword.Opt],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Immanuela Crovius"],
+    cardIdentifier: "seekers-gilet",
+    classes: [Class.Generic],
+    defaultImage: "OUT176.width-450",
+    name: "Seeker's Gilet",
+    printings: [{
+      
+      identifier: "OUT176",
+      image: "OUT176.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT176"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT176.width-450",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Chest",
+
+    
+    
+    functionalText: `**Instant** - {r}, destroy Seeker's Gilet: Prevent the next 1 damage that would be dealt to your hero this turn. **Opt 1**`,
+    
+    
+    
+    
+    keywords: [Keyword.Opt],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Felicia Liang"],
+    cardIdentifier: "seekers-mitts",
+    classes: [Class.Generic],
+    defaultImage: "OUT177.width-450",
+    name: "Seeker's Mitts",
+    printings: [{
+      
+      identifier: "OUT177",
+      image: "OUT177.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT177"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT177.width-450",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Arms",
+
+    
+    
+    functionalText: `**Instant** - {r}, destroy Seeker's Mitts: Prevent the next 1 damage that would be dealt to your hero this turn. **Opt 1**`,
+    
+    
+    
+    
+    keywords: [Keyword.Opt],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Amelia Tan"],
+    cardIdentifier: "seekers-leggings",
+    classes: [Class.Generic],
+    defaultImage: "OUT178.width-450",
+    name: "Seeker's Leggings",
+    printings: [{
+      
+      identifier: "OUT178",
+      image: "OUT178.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT178"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT178.width-450",
+    subtypes: [Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Legs",
+
+    
+    
+    functionalText: `**Instant** - {r}, destroy Seeker's Leggings: Prevent the next 1 damage that would be dealt to your hero this turn. **Opt 1**`,
+    
+    
+    
+    
+    keywords: [Keyword.Opt],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Alief Rusdiatama"],
+    cardIdentifier: "silken-gi",
+    classes: [Class.Generic],
+    defaultImage: "OUT179.width-450",
+    name: "Silken Gi",
+    printings: [{
+      
+      identifier: "OUT179",
+      image: "OUT179.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT179"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT179.width-450",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Chest",
+
+    
+    
+    functionalText: `**Instant** - Destroy Silken Gi: The next attack action card you play this turn has -1{p} and costs {r} less to play.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Revazashvili E."],
+    cardIdentifier: "threadbare-tunic",
+    classes: [Class.Generic],
+    defaultImage: "OUT180.width-450",
+    name: "Threadbare Tunic",
+    printings: [{
+      
+      identifier: "OUT180",
+      image: "OUT180.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT180"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT180.width-450",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Chest",
+
+    
+    
+    functionalText: `**Instant** - Destroy Threadbare Tunic: Gain {r}. Activate this ability only if you have no cards in hand.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Maria Mishina"],
+    cardIdentifier: "fisticuffs",
+    classes: [Class.Generic],
+    defaultImage: "OUT181.width-450",
+    name: "Fisticuffs",
+    printings: [{
+      
+      identifier: "OUT181",
+      image: "OUT181.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT181"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT181.width-450",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Arms",
+
+    
+    
+    functionalText: `**Attack Reaction** - {r}{r}, destroy Fisticuffs: Target attack action card gains +1{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kalashnikova N."],
+    cardIdentifier: "fleet-foot-sandals",
+    classes: [Class.Generic],
+    defaultImage: "OUT182.width-450",
+    name: "Fleet Foot Sandals",
+    printings: [{
+      
+      identifier: "OUT182",
+      image: "OUT182.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT182"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT182.width-450",
+    subtypes: [Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Legs",
+
+    
+    
+    functionalText: `**Attack Reaction** - Destroy Fleet Foot Sandals: Target attack with 1 or less base {p} gains **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Riordan Delmiro"],
+    cardIdentifier: "amnesia-red",
+    classes: [Class.Generic],
+    defaultImage: "OUT183.width-450",
+    name: "Amnesia",
+    printings: [{
+      
+      identifier: "OUT183",
+      image: "OUT183.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT183"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT183.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `When this hits a hero, cards and tokens they own lose and can't gain names until the start of your next turn.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kevin Sidharta"],
+    cardIdentifier: "down-and-dirty-red",
+    classes: [Class.Generic],
+    defaultImage: "OUT184.width-450",
+    name: "Down and Dirty",
+    printings: [{
+      
+      identifier: "OUT184",
+      image: "OUT184.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT184"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT184.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `While Down and Dirty is in your arsenal, you may defend with it.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "give-and-take-red",
+    classes: [Class.Generic],
+    defaultImage: "OUT185.width-450",
+    name: "Give and Take",
+    printings: [{
+      
+      identifier: "OUT185",
+      image: "OUT185.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT185"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT185.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `Whenever an action card defends Give and Take, you may put an action card with cost less than Give and Take's {p} from your graveyard on top of your deck.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "gore-belching-red",
+    classes: [Class.Generic],
+    defaultImage: "OUT186.width-450",
+    name: "Gore Belching",
+    printings: [{
+      
+      identifier: "OUT186",
+      image: "OUT186.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT186"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT186.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 0,
+    
+    functionalText: `When this attacks, reveal cards from the top of your deck until you reveal an attack action card. If you do, banish it and this gets -X{p}, where X is the {p} of the card banished this way. Otherwise, this gets -7{p}. Shuffle.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 7,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Ramza Ardyputra"],
+    cardIdentifier: "burdens-of-the-past-blue",
+    classes: [Class.Generic],
+    defaultImage: "OUT187.width-450",
+    name: "Burdens of the Past",
+    printings: [{
+      
+      identifier: "OUT187",
+      image: "OUT187.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT187"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT187.width-450",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `Until end of turn, target hero can't play defense reaction cards with the same name as a card in their graveyard.
+
+If there are 10 or more defense reaction cards in their graveyard, draw a card.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "premeditate-red",
+    classes: [Class.Generic],
+    defaultImage: "OUT188.width-450",
+    name: "Premeditate",
+    printings: [{
+      
+      identifier: "OUT188",
+      image: "OUT188.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OUT188"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT188.width-450",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `The next time an attack action card hits a hero this turn, create a Ponder token.
+
+The next attack action card you play from arsenal this turn gains +3{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "humble-red",
+    classes: [Class.Generic],
+    defaultImage: "OUT189.width-450",
+    name: "Humble",
+    printings: [{
+      
+      identifier: "OUT189",
+      image: "OUT189.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT189"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT189.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `When this hits a hero, that hero loses all abilities until the end of their next turn.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "humble-yellow",
+    classes: [Class.Generic],
+    defaultImage: "OUT190.width-450",
+    name: "Humble",
+    printings: [{
+      
+      identifier: "OUT190",
+      image: "OUT190.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT190"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT190.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `When this hits a hero, that hero loses all abilities until the end of their next turn.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "humble-blue",
+    classes: [Class.Generic],
+    defaultImage: "OUT191.width-450",
+    name: "Humble",
+    printings: [{
+      
+      identifier: "OUT191",
+      image: "OUT191.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT191"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT191.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `When this hits a hero, that hero loses all abilities until the end of their next turn.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Joseph Qiu"],
+    cardIdentifier: "infectious-host-red",
+    classes: [Class.Generic],
+    defaultImage: "OUT192.width-450",
+    name: "Infectious Host",
+    printings: [{
+      
+      identifier: "OUT192",
+      image: "OUT192.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT192"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT192.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `When this attacks a hero, if you control a Frailty token, create a Frailty token under their control, then repeat for Inertia and Bloodrot Pox.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Joseph Qiu"],
+    cardIdentifier: "infectious-host-yellow",
+    classes: [Class.Generic],
+    defaultImage: "OUT193.width-450",
+    name: "Infectious Host",
+    printings: [{
+      
+      identifier: "OUT193",
+      image: "OUT193.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT193"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT193.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `When this attacks a hero, if you control a Frailty token, create a Frailty token under their control, then repeat for Inertia and Bloodrot Pox.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Joseph Qiu"],
+    cardIdentifier: "infectious-host-blue",
+    classes: [Class.Generic],
+    defaultImage: "OUT194.width-450",
+    name: "Infectious Host",
+    printings: [{
+      
+      identifier: "OUT194",
+      image: "OUT194.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT194"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT194.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `When this attacks a hero, if you control a Frailty token, create a Frailty token under their control, then repeat for Inertia and Bloodrot Pox.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 2,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "looking-for-a-scrap-red",
+    classes: [Class.Generic],
+    defaultImage: "OUT195.width-450",
+    name: "Looking for a Scrap",
+    printings: [{
+      
+      identifier: "OUT195",
+      image: "OUT195.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT195"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT195.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `As an additional cost to play Looking for a Scrap, you may banish a card with 1{p} from your graveyard. When you do, this gains +1{p} and **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "looking-for-a-scrap-yellow",
+    classes: [Class.Generic],
+    defaultImage: "OUT196.width-450",
+    name: "Looking for a Scrap",
+    printings: [{
+      
+      identifier: "OUT196",
+      image: "OUT196.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT196"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT196.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `As an additional cost to play Looking for a Scrap, you may banish a card with 1{p} from your graveyard. When you do, this gains +1{p} and **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "looking-for-a-scrap-blue",
+    classes: [Class.Generic],
+    defaultImage: "OUT197.width-450",
+    name: "Looking for a Scrap",
+    printings: [{
+      
+      identifier: "OUT197",
+      image: "OUT197.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT197"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT197.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `As an additional cost to play Looking for a Scrap, you may banish a card with 1{p} from your graveyard. When you do, this gains +1{p} and **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    power: 2,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "wreck-havoc-red",
+    classes: [Class.Generic],
+    defaultImage: "OUT198.width-450",
+    name: "Wreck Havoc",
+    printings: [{
+      
+      identifier: "OUT198",
+      image: "OUT198.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT198"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT198.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `Defense reactions can't be played to Wreck Havoc's chain link.
+
+When this hits a hero, you may turn a card in their arsenal face up, then destroy a defense reaction in their arsenal.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "wreck-havoc-yellow",
+    classes: [Class.Generic],
+    defaultImage: "OUT199.width-450",
+    name: "Wreck Havoc",
+    printings: [{
+      
+      identifier: "OUT199",
+      image: "OUT199.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT199"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT199.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `Defense reactions can't be played to Wreck Havoc's chain link.
+
+When this hits a hero, you may turn a card in their arsenal face up, then destroy a defense reaction in their arsenal.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "wreck-havoc-blue",
+    classes: [Class.Generic],
+    defaultImage: "OUT200.width-450",
+    name: "Wreck Havoc",
+    printings: [{
+      
+      identifier: "OUT200",
+      image: "OUT200.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT200"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT200.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `Defense reactions can't be played to Wreck Havoc's chain link.
+
+When this hits a hero, you may turn a card in their arsenal face up, then destroy a defense reaction in their arsenal.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Phu Thieu"],
+    cardIdentifier: "cut-down-to-size-red",
+    classes: [Class.Generic],
+    defaultImage: "OUT201.width-450",
+    name: "Cut Down to Size",
+    printings: [{
+      
+      identifier: "OUT201",
+      image: "OUT201.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT201"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT201.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `When this hits a hero, if they have 4 or more cards in hand, they discard a card.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Phu Thieu"],
+    cardIdentifier: "cut-down-to-size-yellow",
+    classes: [Class.Generic],
+    defaultImage: "OUT202.width-450",
+    name: "Cut Down to Size",
+    printings: [{
+      
+      identifier: "OUT202",
+      image: "OUT202.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT202"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT202.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `When this hits a hero, if they have 4 or more cards in hand, they discard a card.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Phu Thieu"],
+    cardIdentifier: "cut-down-to-size-blue",
+    classes: [Class.Generic],
+    defaultImage: "OUT203.width-450",
+    name: "Cut Down to Size",
+    printings: [{
+      
+      identifier: "OUT203",
+      image: "OUT203.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT203"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT203.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `When this hits a hero, if they have 4 or more cards in hand, they discard a card.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "destructive-deliberation-red",
+    classes: [Class.Generic],
+    defaultImage: "OUT204.width-450",
+    name: "Destructive Deliberation",
+    printings: [{
+      
+      identifier: "OUT204",
+      image: "OUT204.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT204"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT204.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `When this hits a hero, create a Ponder token.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "destructive-deliberation-yellow",
+    classes: [Class.Generic],
+    defaultImage: "OUT205.width-450",
+    name: "Destructive Deliberation",
+    printings: [{
+      
+      identifier: "OUT205",
+      image: "OUT205.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT205"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT205.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `When this hits a hero, create a Ponder token.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "destructive-deliberation-blue",
+    classes: [Class.Generic],
+    defaultImage: "OUT206.width-450",
+    name: "Destructive Deliberation",
+    printings: [{
+      
+      identifier: "OUT206",
+      image: "OUT206.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT206"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT206.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `When this hits a hero, create a Ponder token.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Hilary Purnamasari"],
+    cardIdentifier: "feisty-locals-red",
+    classes: [Class.Generic],
+    defaultImage: "OUT207.width-450",
+    name: "Feisty Locals",
+    printings: [{
+      
+      identifier: "OUT207",
+      image: "OUT207.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT207"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT207.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `If this is defended by an action card, this has +2{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Hilary Purnamasari"],
+    cardIdentifier: "feisty-locals-yellow",
+    classes: [Class.Generic],
+    defaultImage: "OUT208.width-450",
+    name: "Feisty Locals",
+    printings: [{
+      
+      identifier: "OUT208",
+      image: "OUT208.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT208"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT208.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `If this is defended by an action card, this has +2{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Hilary Purnamasari"],
+    cardIdentifier: "feisty-locals-blue",
+    classes: [Class.Generic],
+    defaultImage: "OUT209.width-450",
+    name: "Feisty Locals",
+    printings: [{
+      
+      identifier: "OUT209",
+      image: "OUT209.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT209"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT209.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `If this is defended by an action card, this has +2{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "freewheeling-renegades-red",
+    classes: [Class.Generic],
+    defaultImage: "OUT210.width-450",
+    name: "Freewheeling Renegades",
+    printings: [{
+      
+      identifier: "OUT210",
+      image: "OUT210.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT210"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT210.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `If this is defended by an action card, this has -2{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "freewheeling-renegades-yellow",
+    classes: [Class.Generic],
+    defaultImage: "OUT211.width-450",
+    name: "Freewheeling Renegades",
+    printings: [{
+      
+      identifier: "OUT211",
+      image: "OUT211.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT211"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT211.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `If this is defended by an action card, this has -2{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "freewheeling-renegades-blue",
+    classes: [Class.Generic],
+    defaultImage: "OUT212.width-450",
+    name: "Freewheeling Renegades",
+    printings: [{
+      
+      identifier: "OUT212",
+      image: "OUT212.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT212"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT212.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `If this is defended by an action card, this has -2{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "spring-load-red",
+    classes: [Class.Generic],
+    defaultImage: "OUT219.width-450",
+    name: "Spring Load",
+    printings: [{
+      
+      identifier: "OUT219",
+      image: "OUT219.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT219"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT219.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `When this attacks, if you have no cards in hand, it gains +3{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "spring-load-yellow",
+    classes: [Class.Generic],
+    defaultImage: "OUT220.width-450",
+    name: "Spring Load",
+    printings: [{
+      
+      identifier: "OUT220",
+      image: "OUT220.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT220"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT220.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `When this attacks, if you have no cards in hand, it gains +2{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "spring-load-blue",
+    classes: [Class.Generic],
+    defaultImage: "OUT221.width-450",
+    name: "Spring Load",
+    printings: [{
+      
+      identifier: "OUT221",
+      image: "OUT221.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT221"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT221.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `When this attacks, if you have no cards in hand, it gains +1{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Raphael Pinna"],
+    cardIdentifier: "scout-the-periphery-red",
+    classes: [Class.Generic],
+    defaultImage: "OUT225.width-450",
+    name: "Scout the Periphery",
+    printings: [{
+      
+      identifier: "OUT225",
+      image: "OUT225.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT225"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT225.width-450",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `Look at the top card of target hero's deck.
+
+The next attack action card you play from arsenal this turn gains +3{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Raphael Pinna"],
+    cardIdentifier: "scout-the-periphery-yellow",
+    classes: [Class.Generic],
+    defaultImage: "OUT226.width-450",
+    name: "Scout the Periphery",
+    printings: [{
+      
+      identifier: "OUT226",
+      image: "OUT226.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT226"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT226.width-450",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `Look at the top card of target hero's deck.
+
+The next attack action card you play from arsenal this turn gains +2{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Raphael Pinna"],
+    cardIdentifier: "scout-the-periphery-blue",
+    classes: [Class.Generic],
+    defaultImage: "OUT227.width-450",
+    name: "Scout the Periphery",
+    printings: [{
+      
+      identifier: "OUT227",
+      image: "OUT227.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT227"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT227.width-450",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `Look at the top card of target hero's deck.
+
+The next attack action card you play from arsenal this turn gains +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "brush-off-red",
+    classes: [Class.Generic],
+    defaultImage: "OUT228.width-450",
+    name: "Brush Off",
+    printings: [{
+      
+      identifier: "OUT228",
+      image: "OUT228.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT228"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT228.width-450",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Generic Instant",
+
+    cost: 0,
+    
+    functionalText: `The next time you would be dealt 3 or less damage this turn, prevent it.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "brush-off-yellow",
+    classes: [Class.Generic],
+    defaultImage: "OUT229.width-450",
+    name: "Brush Off",
+    printings: [{
+      
+      identifier: "OUT229",
+      image: "OUT229.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT229"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT229.width-450",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Generic Instant",
+
+    cost: 0,
+    
+    functionalText: `The next time you would be dealt 2 or less damage this turn, prevent it.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "brush-off-blue",
+    classes: [Class.Generic],
+    defaultImage: "OUT230.width-450",
+    name: "Brush Off",
+    printings: [{
+      
+      identifier: "OUT230",
+      image: "OUT230.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT230"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT230.width-450",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Generic Instant",
+
+    cost: 0,
+    
+    functionalText: `The next time you would be dealt 1 damage this turn, prevent it.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Henrique Lindner","Nikolay Moskvin"],
+    cardIdentifier: "peace-of-mind-red",
+    classes: [Class.Generic],
+    defaultImage: "OUT231.width-450",
+    name: "Peace of Mind",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "FAB131",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "OUT231",
+      image: "OUT231.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["FAB131","OUT231"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImage: "OUT231.width-450",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Generic Instant",
+
+    cost: 2,
+    
+    functionalText: `The next time you would be dealt {p} damage, prevent 4 of that damage.
+
+Create a Ponder token.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "peace-of-mind-yellow",
+    classes: [Class.Generic],
+    defaultImage: "OUT232.width-450",
+    name: "Peace of Mind",
+    printings: [{
+      
+      identifier: "OUT232",
+      image: "OUT232.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT232"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT232.width-450",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Generic Instant",
+
+    cost: 2,
+    
+    functionalText: `The next time you would be dealt {p} damage, prevent 3 of that damage.
+
+Create a Ponder token.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "peace-of-mind-blue",
+    classes: [Class.Generic],
+    defaultImage: "OUT233.width-450",
+    name: "Peace of Mind",
+    printings: [{
+      
+      identifier: "OUT233",
+      image: "OUT233.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT233"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT233.width-450",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Generic Instant",
+
+    cost: 2,
+    
+    functionalText: `The next time you would be dealt {p} damage, prevent 2 of that damage.
+
+Create a Ponder token.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "bloodrot-pox",
+    classes: [Class.Generic],
+    defaultImage: "OUT234.width-450",
+    name: "Bloodrot Pox",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "FAB133",
+      image: "",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS125",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "OUT234",
+      image: "OUT234.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["FAB133","LGS125","OUT234"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImage: "OUT234.width-450",
+    subtypes: [Subtype.Aura],
+    types: [Type.Token],
+    typeText: "Generic Token - Aura",
+
+    
+    
+    functionalText: `At the beginning of your end phase, destroy Bloodrot Pox, then it deals 2 damage to you unless you pay {r}{r}{r}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Daria Khlebnikova"],
+    cardIdentifier: "frailty",
+    classes: [Class.Generic],
+    defaultImage: "OUT235.width-450",
+    name: "Frailty",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "FAB134",
+      image: "",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS126",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "OUT235",
+      image: "OUT235.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["FAB134","LGS126","OUT235"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImage: "OUT235.width-450",
+    subtypes: [Subtype.Aura],
+    types: [Type.Token],
+    typeText: "Generic Token - Aura",
+
+    
+    
+    functionalText: `Your attack action cards played from arsenal and weapon attacks have -1{p}.
+
+At the beginning of your end phase destroy Frailty.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Othon Nikolaidis"],
+    cardIdentifier: "inertia",
+    classes: [Class.Generic],
+    defaultImage: "OUT236.width-450",
+    name: "Inertia",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "FAB135",
+      image: "",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS127",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "OUT236",
+      image: "OUT236.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["FAB135","LGS127","OUT236"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImage: "OUT236.width-450",
+    subtypes: [Subtype.Aura],
+    types: [Type.Token],
+    typeText: "Generic Token - Aura",
+
+    
+    
+    functionalText: `At the beginning of your end phase, destroy Inertia, then put all cards from your hand and arsenal on the bottom of your deck.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   }];
 
   export const cards: Card[] = [
@@ -120128,7 +120545,7 @@ When you equip Crown of Dominion, create a Gold token.`,
     ...cards4,
   ];
 
-  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Miosa","Asur Misoa","Athiwut B.","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Eilene Cherie","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Erick Efata","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendrique Lindner","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Immanuela Crovus","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kalashnikova N.","Kanadekana","Kate Fox","Kevin Sidartha","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Maerel Hibadita","Marco Gonzalez","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wisniewski","Mateusz Wiśniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Theiu","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Revazashvili E.","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sariya Asavametha","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tomasz Jedruszek","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
+  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Eilene Cherie","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Erick Efata","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kalashnikova N.","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Maerel Hibadita","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wiśniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Revazashvili E.","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sariya Asavametha","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tomasz Jedruszek","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
 
   export * from "./interfaces";
   

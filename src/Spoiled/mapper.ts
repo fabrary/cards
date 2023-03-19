@@ -3,6 +3,7 @@ import {
   fullSetIdentifiers,
   getDefaultImage,
   getNumberOrUndefined,
+  getPrint,
   getSpecialImage,
   getStringIfNotNumber,
 } from "../Shared";
@@ -114,6 +115,12 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     const edition = setEditionMapping[rawEdition];
     const treatment = Treatment[rawTreatment];
     const image = url.substring(url.lastIndexOf("/") + 1, url.lastIndexOf("."));
+
+    const print = getPrint({
+      identifier,
+      edition: setEditionMapping[rawEdition] ? rawEdition : "",
+      treatment: rawTreatment,
+    });
 
     images.push({
       ...(!!edition ? { edition } : {}),
