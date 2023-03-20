@@ -565,7 +565,7 @@ exports[`Check for unintentional updates Aether Ashwing (aether-ashwing) vs snap
     {
       "identifier": "DRO003",
       "image": "DRO003.width-450",
-      "set": "Dromai Hero Deck",
+      "set": "Dromai Blitz Deck",
     },
     {
       "identifier": "UPR042",
@@ -598,7 +598,7 @@ exports[`Check for unintentional updates Aether Ashwing (aether-ashwing) vs snap
     "UPR042",
   ],
   "sets": [
-    "Dromai Hero Deck",
+    "Dromai Blitz Deck",
     "Uprising",
   ],
   "specialImage": "UPR042_CF",
@@ -5143,7 +5143,7 @@ exports[`Check for unintentional updates Ash (ash) vs snapshot 1`] = `
     {
       "identifier": "DRO002",
       "image": "DRO002.width-450",
-      "set": "Dromai Hero Deck",
+      "set": "Dromai Blitz Deck",
     },
     {
       "identifier": "UPR043",
@@ -5176,7 +5176,7 @@ exports[`Check for unintentional updates Ash (ash) vs snapshot 1`] = `
     "UPR043",
   ],
   "sets": [
-    "Dromai Hero Deck",
+    "Dromai Blitz Deck",
     "Uprising",
   ],
   "specialImage": "UPR043_CF",
@@ -9120,7 +9120,7 @@ exports[`Check for unintentional updates Billowing Mirage (billowing-mirage-red)
     {
       "identifier": "DRO012",
       "image": "DRO012.width-450",
-      "set": "Dromai Hero Deck",
+      "set": "Dromai Blitz Deck",
     },
     {
       "identifier": "UPR018",
@@ -9143,7 +9143,7 @@ exports[`Check for unintentional updates Billowing Mirage (billowing-mirage-red)
     "UPR018",
   ],
   "sets": [
-    "Dromai Hero Deck",
+    "Dromai Blitz Deck",
     "Uprising",
   ],
   "specialImage": "DRO012.width-450",
@@ -18508,7 +18508,7 @@ exports[`Check for unintentional updates Brutal Assault (brutal-assault-red) vs 
     {
       "identifier": "DRO024",
       "image": "DRO024.width-450",
-      "set": "Dromai Hero Deck",
+      "set": "Dromai Blitz Deck",
     },
     {
       "edition": "First",
@@ -18546,7 +18546,7 @@ exports[`Check for unintentional updates Brutal Assault (brutal-assault-red) vs 
     "CRU192",
   ],
   "sets": [
-    "Dromai Hero Deck",
+    "Dromai Blitz Deck",
     "Crucible of War",
   ],
   "specialImage": "CRU192",
@@ -26847,7 +26847,7 @@ exports[`Check for unintentional updates Critical Strike (critical-strike-red) v
     {
       "identifier": "DRO023",
       "image": "DRO023.width-450",
-      "set": "Dromai Hero Deck",
+      "set": "Dromai Blitz Deck",
     },
     {
       "identifier": "UPR206",
@@ -26870,7 +26870,7 @@ exports[`Check for unintentional updates Critical Strike (critical-strike-red) v
     "UPR206",
   ],
   "sets": [
-    "Dromai Hero Deck",
+    "Dromai Blitz Deck",
     "Uprising",
   ],
   "specialImage": "DRO023.width-450",
@@ -30743,7 +30743,7 @@ exports[`Check for unintentional updates Deep Blue (deep-blue) vs snapshot 1`] =
     {
       "identifier": "DRO006",
       "image": "DRO006.width-450",
-      "set": "Dromai Hero Deck",
+      "set": "Dromai Blitz Deck",
     },
     {
       "identifier": "LXI004",
@@ -30787,7 +30787,7 @@ exports[`Check for unintentional updates Deep Blue (deep-blue) vs snapshot 1`] =
     "ELE234",
   ],
   "sets": [
-    "Dromai Hero Deck",
+    "Dromai Blitz Deck",
     "Lexi Blitz Deck",
     "Tales of Aria",
   ],
@@ -33975,7 +33975,7 @@ If you've played a red card this turn, dragons you control have **go again** whi
       "foiling": "Rainbow",
       "identifier": "DRO001",
       "image": "DRO001.width-450",
-      "set": "Dromai Hero Deck",
+      "set": "Dromai Blitz Deck",
     },
     {
       "identifier": "UPR002",
@@ -33999,7 +33999,7 @@ If you've played a red card this turn, dragons you control have **go again** whi
   ],
   "sets": [
     "Promos",
-    "Dromai Hero Deck",
+    "Dromai Blitz Deck",
     "Uprising",
   ],
   "specialImage": "HER062",
@@ -34577,7 +34577,7 @@ When Dunebreaker Cenipai is destroyed, create an Ash token.
     {
       "identifier": "DRO015",
       "image": "DRO015.width-450",
-      "set": "Dromai Hero Deck",
+      "set": "Dromai Blitz Deck",
     },
     {
       "identifier": "UPR021",
@@ -34600,7 +34600,7 @@ When Dunebreaker Cenipai is destroyed, create an Ash token.
     "UPR021",
   ],
   "sets": [
-    "Dromai Hero Deck",
+    "Dromai Blitz Deck",
     "Uprising",
   ],
   "specialImage": "DRO015.width-450",
@@ -35444,7 +35444,7 @@ exports[`Check for unintentional updates Dustup (dustup-red) vs snapshot 1`] = `
     {
       "identifier": "DRO014",
       "image": "DRO014.width-450",
-      "set": "Dromai Hero Deck",
+      "set": "Dromai Blitz Deck",
     },
     {
       "identifier": "UPR024",
@@ -35467,7 +35467,7 @@ exports[`Check for unintentional updates Dustup (dustup-red) vs snapshot 1`] = `
     "UPR024",
   ],
   "sets": [
-    "Dromai Hero Deck",
+    "Dromai Blitz Deck",
     "Uprising",
   ],
   "specialImage": "DRO014.width-450",
@@ -36710,7 +36710,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.",
     {
       "identifier": "DRO016",
       "image": "DRO016.width-450",
-      "set": "Dromai Hero Deck",
+      "set": "Dromai Blitz Deck",
     },
     {
       "identifier": "UPR027",
@@ -36733,7 +36733,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.",
     "UPR027",
   ],
   "sets": [
-    "Dromai Hero Deck",
+    "Dromai Blitz Deck",
     "Uprising",
   ],
   "specialImage": "DRO016.width-450",
@@ -39514,7 +39514,7 @@ exports[`Check for unintentional updates Enigma Chimera (enigma-chimera-red) vs 
     {
       "identifier": "DRO020",
       "image": "DRO020.width-450",
-      "set": "Dromai Hero Deck",
+      "set": "Dromai Blitz Deck",
     },
     {
       "edition": "First",
@@ -39552,7 +39552,7 @@ exports[`Check for unintentional updates Enigma Chimera (enigma-chimera-red) vs 
     "MON098",
   ],
   "sets": [
-    "Dromai Hero Deck",
+    "Dromai Blitz Deck",
     "Monarch",
   ],
   "specialImage": "MON098.width-450",
@@ -52201,7 +52201,7 @@ exports[`Check for unintentional updates Healing Balm (healing-balm-red) vs snap
     {
       "identifier": "DRO025",
       "image": "DRO025.width-450",
-      "set": "Dromai Hero Deck",
+      "set": "Dromai Blitz Deck",
     },
     {
       "identifier": "UPR215",
@@ -52224,7 +52224,7 @@ exports[`Check for unintentional updates Healing Balm (healing-balm-red) vs snap
     "UPR215",
   ],
   "sets": [
-    "Dromai Hero Deck",
+    "Dromai Blitz Deck",
     "Uprising",
   ],
   "specialImage": "DRO025.width-450",
@@ -62359,7 +62359,7 @@ exports[`Check for unintentional updates Ironhide Helm (ironhide-helm) vs snapsh
     {
       "identifier": "DRO005",
       "image": "DRO005.width-450",
-      "set": "Dromai Hero Deck",
+      "set": "Dromai Blitz Deck",
     },
     {
       "edition": "First",
@@ -62397,7 +62397,7 @@ exports[`Check for unintentional updates Ironhide Helm (ironhide-helm) vs snapsh
     "MON241",
   ],
   "sets": [
-    "Dromai Hero Deck",
+    "Dromai Blitz Deck",
     "Monarch",
   ],
   "specialImage": "MON241.width-450",
@@ -62428,7 +62428,7 @@ exports[`Check for unintentional updates Ironhide Legs (ironhide-legs) vs snapsh
     {
       "identifier": "DRO008",
       "image": "DRO008.width-450",
-      "set": "Dromai Hero Deck",
+      "set": "Dromai Blitz Deck",
     },
     {
       "identifier": "OLD007",
@@ -62479,7 +62479,7 @@ exports[`Check for unintentional updates Ironhide Legs (ironhide-legs) vs snapsh
     "MON244",
   ],
   "sets": [
-    "Dromai Hero Deck",
+    "Dromai Blitz Deck",
     "Oldhim Blitz Deck",
     "Classic Battles: Rhinar vs Dorinthea",
     "Monarch",
@@ -65332,7 +65332,7 @@ exports[`Check for unintentional updates Lava Burst (lava-burst-red) vs snapshot
     {
       "identifier": "DRO010",
       "image": "DRO010.width-450",
-      "set": "Dromai Hero Deck",
+      "set": "Dromai Blitz Deck",
     },
     {
       "identifier": "UPR098",
@@ -65355,7 +65355,7 @@ exports[`Check for unintentional updates Lava Burst (lava-burst-red) vs snapshot
     "UPR098",
   ],
   "sets": [
-    "Dromai Hero Deck",
+    "Dromai Blitz Deck",
     "Uprising",
   ],
   "specialImage": "DRO010.width-450",
@@ -74853,7 +74853,7 @@ exports[`Check for unintentional updates Oasis Respite (oasis-respite-red) vs sn
     {
       "identifier": "DRO027",
       "image": "DRO027.width-450",
-      "set": "Dromai Hero Deck",
+      "set": "Dromai Blitz Deck",
     },
     {
       "identifier": "UPR221",
@@ -74876,7 +74876,7 @@ exports[`Check for unintentional updates Oasis Respite (oasis-respite-red) vs sn
     "UPR221",
   ],
   "sets": [
-    "Dromai Hero Deck",
+    "Dromai Blitz Deck",
     "Uprising",
   ],
   "specialImage": "DRO027.width-450",
@@ -88141,7 +88141,7 @@ exports[`Check for unintentional updates Rake the Embers (rake-the-embers-red) v
     {
       "identifier": "DRO011",
       "image": "DRO011.width-450",
-      "set": "Dromai Hero Deck",
+      "set": "Dromai Blitz Deck",
     },
     {
       "identifier": "UPR033",
@@ -88164,7 +88164,7 @@ exports[`Check for unintentional updates Rake the Embers (rake-the-embers-red) v
     "UPR033",
   ],
   "sets": [
-    "Dromai Hero Deck",
+    "Dromai Blitz Deck",
     "Uprising",
   ],
   "specialImage": "DRO011.width-450",
@@ -88994,7 +88994,7 @@ exports[`Check for unintentional updates Ravenous Rabble (ravenous-rabble-red) v
     {
       "identifier": "DRO021",
       "image": "DRO021.width-450",
-      "set": "Dromai Hero Deck",
+      "set": "Dromai Blitz Deck",
     },
     {
       "identifier": "1HP393",
@@ -89045,7 +89045,7 @@ exports[`Check for unintentional updates Ravenous Rabble (ravenous-rabble-red) v
     "OUT213",
   ],
   "sets": [
-    "Dromai Hero Deck",
+    "Dromai Blitz Deck",
     "History Pack 1",
     "Arcane Rising",
     "Outsiders",
@@ -90776,7 +90776,7 @@ exports[`Check for unintentional updates Red Hot (red-hot-red) vs snapshot 1`] =
     {
       "identifier": "DRO009",
       "image": "DRO009.width-450",
-      "set": "Dromai Hero Deck",
+      "set": "Dromai Blitz Deck",
     },
     {
       "identifier": "UPR090",
@@ -90805,7 +90805,7 @@ exports[`Check for unintentional updates Red Hot (red-hot-red) vs snapshot 1`] =
   ],
   "sets": [
     "Promos",
-    "Dromai Hero Deck",
+    "Dromai Blitz Deck",
     "Uprising",
   ],
   "specialImage": "LGS108",
@@ -107900,7 +107900,7 @@ exports[`Check for unintentional updates Sigil of Solace (sigil-of-solace-red) v
     {
       "identifier": "DRO026",
       "image": "DRO026.width-450",
-      "set": "Dromai Hero Deck",
+      "set": "Dromai Blitz Deck",
     },
     {
       "identifier": "1HP387",
@@ -107947,7 +107947,7 @@ exports[`Check for unintentional updates Sigil of Solace (sigil-of-solace-red) v
     "WTR173",
   ],
   "sets": [
-    "Dromai Hero Deck",
+    "Dromai Blitz Deck",
     "History Pack 1",
     "Welcome to Rathe",
   ],
@@ -108371,7 +108371,7 @@ exports[`Check for unintentional updates Silken Form (silken-form) vs snapshot 1
     {
       "identifier": "DRO007",
       "image": "DRO007.width-450",
-      "set": "Dromai Hero Deck",
+      "set": "Dromai Blitz Deck",
     },
     {
       "identifier": "UPR004",
@@ -108401,7 +108401,7 @@ exports[`Check for unintentional updates Silken Form (silken-form) vs snapshot 1
     "UPR004",
   ],
   "sets": [
-    "Dromai Hero Deck",
+    "Dromai Blitz Deck",
     "Uprising",
   ],
   "specialImage": "UPR004_CF",
@@ -109362,7 +109362,7 @@ exports[`Check for unintentional updates Sink Below (sink-below-red) vs snapshot
     {
       "identifier": "DRO028",
       "image": "DRO028.width-450",
-      "set": "Dromai Hero Deck",
+      "set": "Dromai Blitz Deck",
     },
     {
       "identifier": "1HP408",
@@ -109406,7 +109406,7 @@ exports[`Check for unintentional updates Sink Below (sink-below-red) vs snapshot
     "WTR215",
   ],
   "sets": [
-    "Dromai Hero Deck",
+    "Dromai Blitz Deck",
     "History Pack 1",
     "Welcome to Rathe",
   ],
@@ -109571,7 +109571,7 @@ exports[`Check for unintentional updates Skittering Sands (skittering-sands-red)
     {
       "identifier": "DRO013",
       "image": "DRO013.width-450",
-      "set": "Dromai Hero Deck",
+      "set": "Dromai Blitz Deck",
     },
     {
       "identifier": "UPR036",
@@ -109594,7 +109594,7 @@ exports[`Check for unintentional updates Skittering Sands (skittering-sands-red)
     "UPR036",
   ],
   "sets": [
-    "Dromai Hero Deck",
+    "Dromai Blitz Deck",
     "Uprising",
   ],
   "specialImage": "DRO013.width-450",
@@ -114393,7 +114393,7 @@ exports[`Check for unintentional updates Spears of Surreality (spears-of-surreal
     {
       "identifier": "DRO019",
       "image": "DRO019.width-450",
-      "set": "Dromai Hero Deck",
+      "set": "Dromai Blitz Deck",
     },
     {
       "edition": "First",
@@ -114431,7 +114431,7 @@ exports[`Check for unintentional updates Spears of Surreality (spears-of-surreal
     "MON101",
   ],
   "sets": [
-    "Dromai Hero Deck",
+    "Dromai Blitz Deck",
     "Monarch",
   ],
   "specialImage": "MON101.width-450",
@@ -119487,7 +119487,7 @@ exports[`Check for unintentional updates Storm of Sandikai (storm-of-sandikai) v
     {
       "identifier": "DRO004",
       "image": "DRO004.width-450",
-      "set": "Dromai Hero Deck",
+      "set": "Dromai Blitz Deck",
     },
     {
       "identifier": "UPR003",
@@ -119508,7 +119508,7 @@ exports[`Check for unintentional updates Storm of Sandikai (storm-of-sandikai) v
   ],
   "sets": [
     "Promos",
-    "Dromai Hero Deck",
+    "Dromai Blitz Deck",
     "Uprising",
   ],
   "specialImage": "LGS107",
@@ -121905,7 +121905,7 @@ exports[`Check for unintentional updates Sweeping Blow (sweeping-blow-blue) vs s
     {
       "identifier": "DRO018",
       "image": "DRO018.width-450",
-      "set": "Dromai Hero Deck",
+      "set": "Dromai Blitz Deck",
     },
     {
       "identifier": "UPR032",
@@ -121928,7 +121928,7 @@ exports[`Check for unintentional updates Sweeping Blow (sweeping-blow-blue) vs s
     "UPR032",
   ],
   "sets": [
-    "Dromai Hero Deck",
+    "Dromai Blitz Deck",
     "Uprising",
   ],
   "specialImage": "DRO018.width-450",
@@ -121970,7 +121970,7 @@ exports[`Check for unintentional updates Sweeping Blow (sweeping-blow-red) vs sn
     {
       "identifier": "DRO017",
       "image": "DRO017.width-450",
-      "set": "Dromai Hero Deck",
+      "set": "Dromai Blitz Deck",
     },
     {
       "identifier": "UPR030",
@@ -121993,7 +121993,7 @@ exports[`Check for unintentional updates Sweeping Blow (sweeping-blow-red) vs sn
     "UPR030",
   ],
   "sets": [
-    "Dromai Hero Deck",
+    "Dromai Blitz Deck",
     "Uprising",
   ],
   "specialImage": "DRO017.width-450",
@@ -138043,7 +138043,7 @@ exports[`Check for unintentional updates Wounding Blow (wounding-blow-red) vs sn
     {
       "identifier": "DRO022",
       "image": "DRO022.width-450",
-      "set": "Dromai Hero Deck",
+      "set": "Dromai Blitz Deck",
     },
     {
       "identifier": "TEA015",
@@ -138087,7 +138087,7 @@ exports[`Check for unintentional updates Wounding Blow (wounding-blow-red) vs sn
     "WTR203",
   ],
   "sets": [
-    "Dromai Hero Deck",
+    "Dromai Blitz Deck",
     "Dorinthea Hero Deck",
     "Welcome to Rathe",
   ],

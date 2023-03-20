@@ -128,7 +128,7 @@ export enum Release {
   BravoBlitzDeck = "Bravo Blitz Deck",
   ChaneBlitzDeck = "Chane Blitz Deck",
   ClassicBattlesRhinarDorinthea = "Classic Battles: Rhinar vs Dorinthea",
-  DromaiBlitzDeck = "Dromai Hero Deck",
+  DromaiBlitzDeck = "Dromai Blitz Deck",
   DorintheaHeroDeck = "Dorinthea Hero Deck",
   FaiBlitzDeck = "Fai Blitz Deck",
   IraWelcomeDeck = "Ira Welcome Deck",
