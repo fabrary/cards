@@ -21,7 +21,7 @@ for (const published of publishedCards) {
 }
 
 describe("Check for unintentional updates", () => {
-  xit.each(updated)("%s vs published", (_, comparison) => {
+  it.each(updated)("%s vs published", (_, comparison) => {
     const { toPublish, published } = comparison as UpdatedComparison;
     expect(toPublish).toEqual(published);
   });
