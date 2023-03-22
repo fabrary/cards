@@ -2526,6 +2526,12 @@ exports[`Check for unintentional updates Amnesia (amnesia-red) vs snapshot 1`] =
       "image": "OUT183.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT183",
+      "image": "OUT183.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Majestic",
@@ -2785,6 +2791,12 @@ exports[`Check for unintentional updates Amplifying Arrow (amplifying-arrow-yell
   "power": 2,
   "printings": [
     {
+      "identifier": "OUT100",
+      "image": "OUT100.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT100",
       "image": "OUT100.width-450",
       "set": "Outsiders",
@@ -6198,6 +6210,12 @@ exports[`Check for unintentional updates Back Heel Kick (back-heel-kick-blue) vs
       "image": "OUT067.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT067",
+      "image": "OUT067.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -6241,6 +6259,12 @@ exports[`Check for unintentional updates Back Heel Kick (back-heel-kick-red) vs 
   "power": 3,
   "printings": [
     {
+      "identifier": "OUT065",
+      "image": "OUT065.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT065",
       "image": "OUT065.width-450",
       "set": "Outsiders",
@@ -6292,6 +6316,12 @@ exports[`Check for unintentional updates Back Heel Kick (back-heel-kick-yellow) 
       "image": "OUT066.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT066",
+      "image": "OUT066.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -6334,6 +6364,12 @@ Defense reactions can't be played to Back Stab's chain link.",
   "power": 1,
   "printings": [
     {
+      "identifier": "OUT017",
+      "image": "OUT017.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT017",
       "image": "OUT017.width-450",
       "set": "Outsiders",
@@ -6387,6 +6423,12 @@ Defense reactions can't be played to Back Stab's chain link.",
       "image": "OUT015.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT015",
+      "image": "OUT015.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Rare",
@@ -6432,6 +6474,12 @@ Defense reactions can't be played to Back Stab's chain link.",
   "power": 2,
   "printings": [
     {
+      "identifier": "OUT016",
+      "image": "OUT016.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT016",
       "image": "OUT016.width-450",
       "set": "Outsiders",
@@ -6924,6 +6972,12 @@ exports[`Check for unintentional updates Barbed Undertow (barbed-undertow-red) v
   "power": 5,
   "printings": [
     {
+      "identifier": "OUT101",
+      "image": "OUT101.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT101",
       "image": "OUT101.width-450",
       "set": "Outsiders",
@@ -8202,6 +8256,12 @@ exports[`Check for unintentional updates Be Like Water (be-like-water-blue) vs s
       "image": "OUT070.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT070",
+      "image": "OUT070.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -8251,6 +8311,12 @@ exports[`Check for unintentional updates Be Like Water (be-like-water-red) vs sn
       "image": "OUT068.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT068",
+      "image": "OUT068.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -8296,6 +8362,12 @@ exports[`Check for unintentional updates Be Like Water (be-like-water-yellow) vs
   "power": 2,
   "printings": [
     {
+      "identifier": "OUT069",
+      "image": "OUT069.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT069",
       "image": "OUT069.width-450",
       "set": "Outsiders",
@@ -10206,6 +10278,18 @@ exports[`Check for unintentional updates Blade Cuff (blade-cuff) vs snapshot 1`]
       "image": "OUT141.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT141",
+      "image": "OUT141.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "OUT141",
+      "image": "OUT141.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -10754,6 +10838,12 @@ exports[`Check for unintentional updates Bleed Out (bleed-out-blue) vs snapshot 
       "image": "OUT147.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT147",
+      "image": "OUT147.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Rare",
@@ -10807,6 +10897,12 @@ exports[`Check for unintentional updates Bleed Out (bleed-out-red) vs snapshot 1
       "image": "OUT145.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT145",
+      "image": "OUT145.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Rare",
@@ -10856,6 +10952,12 @@ exports[`Check for unintentional updates Bleed Out (bleed-out-yellow) vs snapsho
   "power": 3,
   "printings": [
     {
+      "identifier": "OUT146",
+      "image": "OUT146.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT146",
       "image": "OUT146.width-450",
       "set": "Outsiders",
@@ -13890,6 +13992,12 @@ exports[`Check for unintentional updates Bloodrot Trap (bloodrot-trap-red) vs sn
       "image": "OUT171.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT171",
+      "image": "OUT171.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -15092,6 +15200,12 @@ exports[`Check for unintentional updates Bonds of Ancestry (bonds-of-ancestry-bl
       "image": "OUT058.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT058",
+      "image": "OUT058.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Rare",
@@ -15143,6 +15257,12 @@ exports[`Check for unintentional updates Bonds of Ancestry (bonds-of-ancestry-re
       "image": "OUT056.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT056",
+      "image": "OUT056.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Rare",
@@ -15190,6 +15310,12 @@ exports[`Check for unintentional updates Bonds of Ancestry (bonds-of-ancestry-ye
   "power": 3,
   "printings": [
     {
+      "identifier": "OUT057",
+      "image": "OUT057.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT057",
       "image": "OUT057.width-450",
       "set": "Outsiders",
@@ -15642,6 +15768,12 @@ exports[`Check for unintentional updates Boulder Trap (boulder-trap-yellow) vs s
   "pitch": 2,
   "printings": [
     {
+      "identifier": "OUT106",
+      "image": "OUT106.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT106",
       "image": "OUT106.width-450",
       "set": "Outsiders",
@@ -18317,6 +18449,12 @@ exports[`Check for unintentional updates Brush Off (brush-off-blue) vs snapshot 
       "image": "OUT230.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT230",
+      "image": "OUT230.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -18357,6 +18495,12 @@ exports[`Check for unintentional updates Brush Off (brush-off-red) vs snapshot 1
       "image": "OUT228.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT228",
+      "image": "OUT228.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -18393,6 +18537,12 @@ exports[`Check for unintentional updates Brush Off (brush-off-yellow) vs snapsho
   "pitch": 2,
   "printings": [
     {
+      "identifier": "OUT229",
+      "image": "OUT229.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT229",
       "image": "OUT229.width-450",
       "set": "Outsiders",
@@ -19008,6 +19158,12 @@ If there are 10 or more defense reaction cards in their graveyard, draw a card.
   "pitch": 3,
   "printings": [
     {
+      "identifier": "OUT187",
+      "image": "OUT187.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT187",
       "image": "OUT187.width-450",
       "set": "Outsiders",
@@ -19671,6 +19827,12 @@ When this defends an attack with {p} greater than its base, the attack can't gai
   "pitch": 3,
   "printings": [
     {
+      "identifier": "OUT102",
+      "image": "OUT102.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT102",
       "image": "OUT102.width-450",
       "set": "Outsiders",
@@ -23125,9 +23287,15 @@ Create a Ponder token under your control and a Bloodrot Pox token under each opp
       "set": "Outsiders",
     },
     {
+      "foiling": "Rainbow",
+      "identifier": "OUT159",
+      "image": "OUT159.width-450",
+      "set": "Outsiders",
+    },
+    {
       "foiling": "Cold",
       "identifier": "OUT159",
-      "image": "OUT159_Marvel",
+      "image": "EN_OUT_marvels_v1.0_FINAL_noopw.width-450",
       "set": "Outsiders",
       "treatment": "Alternate Art",
     },
@@ -23146,7 +23314,7 @@ Create a Ponder token under your control and a Bloodrot Pox token under each opp
   "sets": [
     "Outsiders",
   ],
-  "specialImage": "OUT159_Marvel",
+  "specialImage": "EN_OUT_marvels_v1.0_FINAL_noopw.width-450",
   "subtypes": [
     "Non-Attack",
   ],
@@ -23187,9 +23355,15 @@ Create a Ponder token under your control and a Frailty token under each opponent
       "set": "Outsiders",
     },
     {
+      "foiling": "Rainbow",
+      "identifier": "OUT160",
+      "image": "OUT160.width-450",
+      "set": "Outsiders",
+    },
+    {
       "foiling": "Cold",
       "identifier": "OUT160",
-      "image": "OUT160_Marvel",
+      "image": "EN_OUT_marvels_v1.0_FINAL_noopw2.width-450",
       "set": "Outsiders",
       "treatment": "Alternate Art",
     },
@@ -23208,7 +23382,7 @@ Create a Ponder token under your control and a Frailty token under each opponent
   "sets": [
     "Outsiders",
   ],
-  "specialImage": "OUT160_Marvel",
+  "specialImage": "EN_OUT_marvels_v1.0_FINAL_noopw2.width-450",
   "subtypes": [
     "Non-Attack",
   ],
@@ -23223,7 +23397,6 @@ exports[`Check for unintentional updates Codex of Inertia (codex-of-inertia-yell
 {
   "artists": [
     "Isuardi Therianto",
-    "Carlos Cruchaga",
   ],
   "cardIdentifier": "codex-of-inertia-yellow",
   "classes": [
@@ -23251,9 +23424,15 @@ Create a Ponder token under your control and an Inertia token under each opponen
       "set": "Outsiders",
     },
     {
+      "foiling": "Rainbow",
+      "identifier": "OUT161",
+      "image": "OUT161.width-450",
+      "set": "Outsiders",
+    },
+    {
       "foiling": "Cold",
       "identifier": "OUT161",
-      "image": "OUT161_Marvel",
+      "image": "EN_OUT_marvels_v1.0_FINAL_noopw3.width-450",
       "set": "Outsiders",
       "treatment": "Alternate Art",
     },
@@ -23272,7 +23451,7 @@ Create a Ponder token under your control and an Inertia token under each opponen
   "sets": [
     "Outsiders",
   ],
-  "specialImage": "OUT161_Marvel",
+  "specialImage": "EN_OUT_marvels_v1.0_FINAL_noopw3.width-450",
   "subtypes": [
     "Non-Attack",
   ],
@@ -23805,6 +23984,12 @@ When this defends an attack with **go again**, the attacking hero discards their
   "pitch": 3,
   "printings": [
     {
+      "identifier": "OUT103",
+      "image": "OUT103.width-350",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT103",
       "image": "OUT103.width-350",
       "set": "Outsiders",
@@ -24490,6 +24675,12 @@ exports[`Check for unintentional updates Concealed Blade (concealed-blade-blue) 
   "pitch": 3,
   "printings": [
     {
+      "identifier": "OUT143",
+      "image": "OUT143.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT143",
       "image": "OUT143.width-450",
       "set": "Outsiders",
@@ -28265,6 +28456,12 @@ exports[`Check for unintentional updates Cut Down to Size (cut-down-to-size-blue
       "image": "OUT203.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT203",
+      "image": "OUT203.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -28309,6 +28506,12 @@ exports[`Check for unintentional updates Cut Down to Size (cut-down-to-size-red)
       "image": "OUT201.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT201",
+      "image": "OUT201.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -28349,6 +28552,12 @@ exports[`Check for unintentional updates Cut Down to Size (cut-down-to-size-yell
   "power": 5,
   "printings": [
     {
+      "identifier": "OUT202",
+      "image": "OUT202.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT202",
       "image": "OUT202.width-450",
       "set": "Outsiders",
@@ -28573,6 +28782,12 @@ exports[`Check for unintentional updates Cyclone Roundhouse (cyclone-roundhouse-
   "power": 5,
   "printings": [
     {
+      "identifier": "OUT050",
+      "image": "OUT050.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT050",
       "image": "OUT050.width-450",
       "set": "Outsiders",
@@ -29725,6 +29940,12 @@ exports[`Check for unintentional updates Deadly Duo (deadly-duo-blue) vs snapsho
       "image": "OUT073.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT073",
+      "image": "OUT073.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -29774,6 +29995,12 @@ exports[`Check for unintentional updates Deadly Duo (deadly-duo-red) vs snapshot
       "image": "OUT071.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT071",
+      "image": "OUT071.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -29819,6 +30046,12 @@ exports[`Check for unintentional updates Deadly Duo (deadly-duo-yellow) vs snaps
   "power": 2,
   "printings": [
     {
+      "identifier": "OUT072",
+      "image": "OUT072.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT072",
       "image": "OUT072.width-450",
       "set": "Outsiders",
@@ -30190,6 +30423,12 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
       "image": "OUT164.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT164",
+      "image": "OUT164.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Rare",
@@ -30247,6 +30486,12 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
       "image": "OUT162.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT162",
+      "image": "OUT162.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Promo",
@@ -30296,6 +30541,12 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
   "power": 5,
   "printings": [
     {
+      "identifier": "OUT163",
+      "image": "OUT163.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT163",
       "image": "OUT163.width-450",
       "set": "Outsiders",
@@ -31115,6 +31366,12 @@ exports[`Check for unintentional updates Descendent Gustwave (descendent-gustwav
       "image": "OUT076.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT076",
+      "image": "OUT076.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -31161,6 +31418,12 @@ exports[`Check for unintentional updates Descendent Gustwave (descendent-gustwav
   "power": 3,
   "printings": [
     {
+      "identifier": "OUT074",
+      "image": "OUT074.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT074",
       "image": "OUT074.width-450",
       "set": "Outsiders",
@@ -31215,6 +31478,12 @@ exports[`Check for unintentional updates Descendent Gustwave (descendent-gustwav
       "image": "OUT075.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT075",
+      "image": "OUT075.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -31255,6 +31524,12 @@ exports[`Check for unintentional updates Destructive Deliberation (destructive-d
   "power": 3,
   "printings": [
     {
+      "identifier": "OUT206",
+      "image": "OUT206.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT206",
       "image": "OUT206.width-450",
       "set": "Outsiders",
@@ -31303,6 +31578,12 @@ exports[`Check for unintentional updates Destructive Deliberation (destructive-d
       "image": "OUT204.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT204",
+      "image": "OUT204.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -31343,6 +31624,12 @@ exports[`Check for unintentional updates Destructive Deliberation (destructive-d
   "power": 4,
   "printings": [
     {
+      "identifier": "OUT205",
+      "image": "OUT205.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT205",
       "image": "OUT205.width-450",
       "set": "Outsiders",
@@ -32010,6 +32297,12 @@ When this hits a hero, if you control Surging Strike, Descendent Gustwave, and B
       "image": "OUT051_tyYCr6g.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT051",
+      "image": "OUT051_tyYCr6g.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Majestic",
@@ -32651,6 +32944,12 @@ exports[`Check for unintentional updates Down and Dirty (down-and-dirty-red) vs 
   "power": 6,
   "printings": [
     {
+      "identifier": "OUT184",
+      "image": "OUT184.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT184",
       "image": "OUT184.width-450",
       "set": "Outsiders",
@@ -42060,6 +42359,12 @@ exports[`Check for unintentional updates Falcon Wing (falcon-wing-blue) vs snaps
       "image": "OUT117.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT117",
+      "image": "OUT117.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -42110,6 +42415,12 @@ exports[`Check for unintentional updates Falcon Wing (falcon-wing-red) vs snapsh
       "image": "OUT115.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT115",
+      "image": "OUT115.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -42156,6 +42467,12 @@ exports[`Check for unintentional updates Falcon Wing (falcon-wing-yellow) vs sna
   "power": 2,
   "printings": [
     {
+      "identifier": "OUT116",
+      "image": "OUT116.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT116",
       "image": "OUT116.width-450",
       "set": "Outsiders",
@@ -42663,6 +42980,12 @@ exports[`Check for unintentional updates Feisty Locals (feisty-locals-blue) vs s
       "image": "OUT209.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT209",
+      "image": "OUT209.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -42707,6 +43030,12 @@ exports[`Check for unintentional updates Feisty Locals (feisty-locals-red) vs sn
       "image": "OUT207.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT207",
+      "image": "OUT207.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -42747,6 +43076,12 @@ exports[`Check for unintentional updates Feisty Locals (feisty-locals-yellow) vs
   "power": 2,
   "printings": [
     {
+      "identifier": "OUT208",
+      "image": "OUT208.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT208",
       "image": "OUT208.width-450",
       "set": "Outsiders",
@@ -43298,6 +43633,18 @@ exports[`Check for unintentional updates Fisticuffs (fisticuffs) vs snapshot 1`]
   "name": "Fisticuffs",
   "printings": [
     {
+      "identifier": "OUT181",
+      "image": "OUT181.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT181",
+      "image": "OUT181.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Cold",
       "identifier": "OUT181",
       "image": "OUT181.width-450",
       "set": "Outsiders",
@@ -44266,6 +44613,18 @@ exports[`Check for unintentional updates Fleet Foot Sandals (fleet-foot-sandals)
       "image": "OUT182.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT182",
+      "image": "OUT182.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "OUT182",
+      "image": "OUT182.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -44312,6 +44671,12 @@ If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
   "pitch": 3,
   "printings": [
     {
+      "identifier": "OUT111",
+      "image": "OUT111.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT111",
       "image": "OUT111.width-450",
       "set": "Outsiders",
@@ -44369,6 +44734,12 @@ If it has an aim counter, it gains "Red cards have -1{d} while defending this."
       "image": "OUT109_MXRPsJl.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT109",
+      "image": "OUT109_MXRPsJl.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Rare",
@@ -44418,6 +44789,12 @@ If it has an aim counter, it gains "Yellow cards have -1{d} while defending this
   "pitch": 2,
   "printings": [
     {
+      "identifier": "OUT110",
+      "image": "OUT110.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT110",
       "image": "OUT110.width-450",
       "set": "Outsiders",
@@ -46772,6 +47149,12 @@ exports[`Check for unintentional updates Frailty Trap (frailty-trap-red) vs snap
       "image": "OUT172.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT172",
+      "image": "OUT172.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -47061,6 +47444,12 @@ exports[`Check for unintentional updates Freewheeling Renegades (freewheeling-re
       "image": "OUT212.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT212",
+      "image": "OUT212.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -47105,6 +47494,12 @@ exports[`Check for unintentional updates Freewheeling Renegades (freewheeling-re
       "image": "OUT210.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT210",
+      "image": "OUT210.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -47145,6 +47540,12 @@ exports[`Check for unintentional updates Freewheeling Renegades (freewheeling-re
   "power": 5,
   "printings": [
     {
+      "identifier": "OUT211",
+      "image": "OUT211.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT211",
       "image": "OUT211.width-450",
       "set": "Outsiders",
@@ -49340,6 +49741,12 @@ exports[`Check for unintentional updates Give and Take (give-and-take-red) vs sn
       "image": "OUT185.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT185",
+      "image": "OUT185.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Majestic",
@@ -50228,6 +50635,12 @@ exports[`Check for unintentional updates Gore Belching (gore-belching-red) vs sn
   "power": 7,
   "printings": [
     {
+      "identifier": "OUT186",
+      "image": "OUT186.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT186",
       "image": "OUT186.width-450",
       "set": "Outsiders",
@@ -51885,6 +52298,12 @@ exports[`Check for unintentional updates Head Leads the Tail (head-leads-the-tai
   "power": 3,
   "printings": [
     {
+      "identifier": "OUT052",
+      "image": "OUT052.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT052",
       "image": "OUT052.width-450",
       "set": "Outsiders",
@@ -56390,6 +56809,12 @@ exports[`Check for unintentional updates Humble (humble-blue) vs snapshot 1`] = 
       "image": "OUT191.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT191",
+      "image": "OUT191.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Rare",
@@ -56437,6 +56862,12 @@ exports[`Check for unintentional updates Humble (humble-red) vs snapshot 1`] = `
       "image": "OUT189.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT189",
+      "image": "OUT189.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Rare",
@@ -56480,6 +56911,12 @@ exports[`Check for unintentional updates Humble (humble-yellow) vs snapshot 1`] 
   "power": 5,
   "printings": [
     {
+      "identifier": "OUT190",
+      "image": "OUT190.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT190",
       "image": "OUT190.width-450",
       "set": "Outsiders",
@@ -57031,6 +57468,12 @@ exports[`Check for unintentional updates Hurl (hurl-blue) vs snapshot 1`] = `
       "image": "OUT150.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT150",
+      "image": "OUT150.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Rare",
@@ -57081,6 +57524,12 @@ exports[`Check for unintentional updates Hurl (hurl-red) vs snapshot 1`] = `
       "image": "OUT148.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT148",
+      "image": "OUT148.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Rare",
@@ -57127,6 +57576,12 @@ exports[`Check for unintentional updates Hurl (hurl-yellow) vs snapshot 1`] = `
   "power": 2,
   "printings": [
     {
+      "identifier": "OUT149",
+      "image": "OUT149.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT149",
       "image": "OUT149.width-450",
       "set": "Outsiders",
@@ -59880,6 +60335,12 @@ exports[`Check for unintentional updates Inertia Trap (inertia-trap-red) vs snap
       "image": "OUT173.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT173",
+      "image": "OUT173.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -59922,6 +60383,12 @@ When this hits a hero, create a Bloodrot Pox token under their control.",
   "power": 1,
   "printings": [
     {
+      "identifier": "OUT026",
+      "image": "OUT026.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT026",
       "image": "OUT026.width-450",
       "set": "Outsiders",
@@ -59972,6 +60439,12 @@ When this hits a hero, create a Bloodrot Pox token under their control.",
       "image": "OUT024.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT024",
+      "image": "OUT024.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -60018,6 +60491,12 @@ When this hits a hero, create a Bloodrot Pox token under their control.",
       "image": "OUT025.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT025",
+      "image": "OUT025.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -60060,6 +60539,12 @@ When this hits a hero, create a Bloodrot Pox token under their control.",
   "power": 3,
   "printings": [
     {
+      "identifier": "OUT120",
+      "image": "OUT120.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT120",
       "image": "OUT120.width-450",
       "set": "Outsiders",
@@ -60111,6 +60596,12 @@ When this hits a hero, create a Bloodrot Pox token under their control.",
       "image": "OUT118.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT118",
+      "image": "OUT118.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -60158,6 +60649,12 @@ When this hits a hero, create a Bloodrot Pox token under their control.",
       "image": "OUT119.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT119",
+      "image": "OUT119.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -60199,6 +60696,12 @@ exports[`Check for unintentional updates Infectious Host (infectious-host-blue) 
   "power": 2,
   "printings": [
     {
+      "identifier": "OUT194",
+      "image": "OUT194.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT194",
       "image": "OUT194.width-450",
       "set": "Outsiders",
@@ -60250,6 +60753,12 @@ exports[`Check for unintentional updates Infectious Host (infectious-host-red) v
       "image": "OUT192.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT192",
+      "image": "OUT192.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Rare",
@@ -60293,6 +60802,12 @@ exports[`Check for unintentional updates Infectious Host (infectious-host-yellow
   "power": 3,
   "printings": [
     {
+      "identifier": "OUT193",
+      "image": "OUT193.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT193",
       "image": "OUT193.width-450",
       "set": "Outsiders",
@@ -60342,6 +60857,12 @@ When this hits a hero, banish the top card of their deck. You may play it until 
   "power": 3,
   "printings": [
     {
+      "identifier": "OUT012",
+      "image": "OUT012.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT012",
       "image": "OUT012.width-450",
       "set": "Outsiders",
@@ -63563,6 +64084,12 @@ exports[`Check for unintentional updates Isolate (isolate-blue) vs snapshot 1`] 
       "image": "OUT029.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT029",
+      "image": "OUT029.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -63612,6 +64139,12 @@ exports[`Check for unintentional updates Isolate (isolate-red) vs snapshot 1`] =
       "image": "OUT027.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT027",
+      "image": "OUT027.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -63657,6 +64190,12 @@ exports[`Check for unintentional updates Isolate (isolate-yellow) vs snapshot 1`
   "power": 2,
   "printings": [
     {
+      "identifier": "OUT028",
+      "image": "OUT028.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT028",
       "image": "OUT028.width-450",
       "set": "Outsiders",
@@ -64821,6 +65360,12 @@ exports[`Check for unintentional updates Knives Out (knives-out-blue) vs snapsho
       "image": "OUT144.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT144",
+      "image": "OUT144.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Majestic",
@@ -65046,6 +65591,12 @@ exports[`Check for unintentional updates Lace with Bloodrot (lace-with-bloodrot-
       "image": "OUT112.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT112",
+      "image": "OUT112.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Rare",
@@ -65097,6 +65648,12 @@ exports[`Check for unintentional updates Lace with Frailty (lace-with-frailty-re
       "image": "OUT113.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT113",
+      "image": "OUT113.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Rare",
@@ -65144,6 +65701,12 @@ exports[`Check for unintentional updates Lace with Inertia (lace-with-inertia-re
   "pitch": 1,
   "printings": [
     {
+      "identifier": "OUT114",
+      "image": "OUT114.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT114",
       "image": "OUT114.width-450",
       "set": "Outsiders",
@@ -67891,6 +68454,12 @@ exports[`Check for unintentional updates Looking for a Scrap (looking-for-a-scra
       "image": "OUT197.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT197",
+      "image": "OUT197.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Rare",
@@ -67941,6 +68510,12 @@ exports[`Check for unintentional updates Looking for a Scrap (looking-for-a-scra
       "image": "OUT195.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT195",
+      "image": "OUT195.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Rare",
@@ -67987,6 +68562,12 @@ exports[`Check for unintentional updates Looking for a Scrap (looking-for-a-scra
   "power": 3,
   "printings": [
     {
+      "identifier": "OUT196",
+      "image": "OUT196.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT196",
       "image": "OUT196.width-450",
       "set": "Outsiders",
@@ -69307,6 +69888,12 @@ Damage that would be dealt by Malign can't be prevented.",
       "image": "OUT032.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT032",
+      "image": "OUT032.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -69353,6 +69940,12 @@ Damage that would be dealt by Malign can't be prevented.",
       "image": "OUT030.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT030",
+      "image": "OUT030.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -69395,6 +69988,12 @@ Damage that would be dealt by Malign can't be prevented.",
   "power": 2,
   "printings": [
     {
+      "identifier": "OUT031",
+      "image": "OUT031.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT031",
       "image": "OUT031.width-450",
       "set": "Outsiders",
@@ -69788,6 +70387,18 @@ exports[`Check for unintentional updates Mask of Malicious Manifestations (mask-
       "image": "OUT157.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT157",
+      "image": "OUT157.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "OUT157",
+      "image": "OUT157.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -69830,6 +70441,18 @@ exports[`Check for unintentional updates Mask of Many Faces (mask-of-many-faces)
   "name": "Mask of Many Faces",
   "printings": [
     {
+      "identifier": "OUT049",
+      "image": "OUT049.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT049",
+      "image": "OUT049.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Cold",
       "identifier": "OUT049",
       "image": "OUT049.width-450",
       "set": "Outsiders",
@@ -70012,6 +70635,18 @@ exports[`Check for unintentional updates Mask of Shifting Perspectives (mask-of-
   "name": "Mask of Shifting Perspectives",
   "printings": [
     {
+      "identifier": "OUT140",
+      "image": "OUT140.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT140",
+      "image": "OUT140.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Cold",
       "identifier": "OUT140",
       "image": "OUT140.width-450",
       "set": "Outsiders",
@@ -70810,6 +71445,12 @@ If it has an aim counter, it gains "When this hits a hero, destroy a 1H weapon t
   "pitch": 1,
   "printings": [
     {
+      "identifier": "OUT105",
+      "image": "OUT105.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT105",
       "image": "OUT105.width-450",
       "set": "Outsiders",
@@ -72627,6 +73268,12 @@ Damage that would be dealt by Murkmire Grapnel can't be prevented.",
       "image": "OUT123.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT123",
+      "image": "OUT123.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -72674,6 +73321,12 @@ Damage that would be dealt by Murkmire Grapnel can't be prevented.",
       "image": "OUT121.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT121",
+      "image": "OUT121.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -72717,6 +73370,12 @@ Damage that would be dealt by Murkmire Grapnel can't be prevented.",
   "power": 3,
   "printings": [
     {
+      "identifier": "OUT122",
+      "image": "OUT122.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT122",
       "image": "OUT122.width-450",
       "set": "Outsiders",
@@ -73280,6 +73939,30 @@ When this hits a hero, the next time they defend with 1 or more reaction cards t
       "set": "Outsiders",
     },
     {
+      "foiling": "Rainbow",
+      "identifier": "OUT005",
+      "image": "OUT005.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "OUT005",
+      "image": "OUT005.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "identifier": "OUT006",
+      "image": "OUT006.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT006",
+      "image": "OUT006.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Cold",
       "identifier": "OUT006",
       "image": "OUT006.width-450",
       "set": "Outsiders",
@@ -75571,6 +76254,12 @@ exports[`Check for unintentional updates One-Two Punch (one-two-punch-blue) vs s
       "image": "OUT082.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT082",
+      "image": "OUT082.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -75618,6 +76307,12 @@ exports[`Check for unintentional updates One-Two Punch (one-two-punch-red) vs sn
       "image": "OUT080.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT080",
+      "image": "OUT080.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -75661,6 +76356,12 @@ exports[`Check for unintentional updates One-Two Punch (one-two-punch-yellow) vs
   "power": 2,
   "printings": [
     {
+      "identifier": "OUT081",
+      "image": "OUT081.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT081",
       "image": "OUT081.width-450",
       "set": "Outsiders",
@@ -76011,6 +76712,30 @@ When this hits a hero, the next time they defend with 1 or more 'non-attack' act
       "set": "Outsiders",
     },
     {
+      "foiling": "Rainbow",
+      "identifier": "OUT007",
+      "image": "OUT007.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "OUT007",
+      "image": "OUT007.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "identifier": "OUT008",
+      "image": "OUT008.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT008",
+      "image": "OUT008.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Cold",
       "identifier": "OUT008",
       "image": "OUT008.width-450",
       "set": "Outsiders",
@@ -78785,6 +79510,12 @@ Create a Ponder token.",
       "image": "OUT233.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT233",
+      "image": "OUT233.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -78834,6 +79565,12 @@ Create a Ponder token.",
       "image": "OUT231.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT231",
+      "image": "OUT231.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Promo",
@@ -78875,6 +79612,12 @@ Create a Ponder token.",
   "pitch": 2,
   "printings": [
     {
+      "identifier": "OUT232",
+      "image": "OUT232.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT232",
       "image": "OUT232.width-450",
       "set": "Outsiders",
@@ -79162,6 +79905,12 @@ exports[`Check for unintentional updates Pendulum Trap (pendulum-trap-yellow) vs
   "pitch": 2,
   "printings": [
     {
+      "identifier": "OUT107",
+      "image": "OUT107.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT107",
       "image": "OUT107.width-450",
       "set": "Outsiders",
@@ -81644,6 +82393,12 @@ exports[`Check for unintentional updates Plunge (plunge-blue) vs snapshot 1`] = 
       "image": "OUT153.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT153",
+      "image": "OUT153.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -81691,6 +82446,12 @@ exports[`Check for unintentional updates Plunge (plunge-red) vs snapshot 1`] = `
       "image": "OUT151.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT151",
+      "image": "OUT151.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -81734,6 +82495,12 @@ exports[`Check for unintentional updates Plunge (plunge-yellow) vs snapshot 1`] 
   "power": 2,
   "printings": [
     {
+      "identifier": "OUT152",
+      "image": "OUT152.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT152",
       "image": "OUT152.width-450",
       "set": "Outsiders",
@@ -82478,9 +83245,8 @@ exports[`Check for unintentional updates Ponder (ponder) vs snapshot 1`] = `
   "rarities": [
     "Promo",
     "Common",
-    "Token",
   ],
-  "rarity": "Token",
+  "rarity": "Common",
   "setIdentifiers": [
     "LGS128",
     "DYN244",
@@ -84129,6 +84895,12 @@ The next attack action card you play from arsenal this turn gains +3{p}.
       "image": "OUT188.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT188",
+      "image": "OUT188.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Majestic",
@@ -85209,6 +85981,12 @@ The next attack with **stealth** you play this combat chain gains +1{p}.",
       "image": "OUT035.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT035",
+      "image": "OUT035.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -85255,6 +86033,12 @@ The next attack with **stealth** you play this combat chain gains +1{p}.",
       "image": "OUT033.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT033",
+      "image": "OUT033.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -85297,6 +86081,12 @@ The next attack with **stealth** you play this combat chain gains +1{p}.",
   "power": 2,
   "printings": [
     {
+      "identifier": "OUT034",
+      "image": "OUT034.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT034",
       "image": "OUT034.width-450",
       "set": "Outsiders",
@@ -87707,6 +88497,18 @@ exports[`Check for unintentional updates Quiver of Rustling Leaves (quiver-of-ru
       "image": "OUT096.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT096",
+      "image": "OUT096.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "OUT096",
+      "image": "OUT096.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Majestic",
@@ -89542,6 +90344,12 @@ exports[`Check for unintentional updates Razor's Edge (razors-edge-blue) vs snap
       "image": "OUT044.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT044",
+      "image": "OUT044.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -89583,6 +90391,12 @@ exports[`Check for unintentional updates Razor's Edge (razors-edge-red) vs snaps
       "image": "OUT042.original",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT042",
+      "image": "OUT042.original",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -89620,6 +90434,12 @@ exports[`Check for unintentional updates Razor's Edge (razors-edge-yellow) vs sn
   "pitch": 2,
   "printings": [
     {
+      "identifier": "OUT043",
+      "image": "OUT043.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT043",
       "image": "OUT043.width-450",
       "set": "Outsiders",
@@ -90618,6 +91438,12 @@ exports[`Check for unintentional updates Recoil (recoil-blue) vs snapshot 1`] = 
       "image": "OUT061.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT061",
+      "image": "OUT061.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Rare",
@@ -90668,6 +91494,12 @@ exports[`Check for unintentional updates Recoil (recoil-red) vs snapshot 1`] = `
       "image": "OUT059.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT059",
+      "image": "OUT059.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Rare",
@@ -90714,6 +91546,12 @@ exports[`Check for unintentional updates Recoil (recoil-yellow) vs snapshot 1`] 
   "power": 2,
   "printings": [
     {
+      "identifier": "OUT060",
+      "image": "OUT060.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT060",
       "image": "OUT060.width-450",
       "set": "Outsiders",
@@ -101591,6 +102429,30 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
       "set": "Outsiders",
     },
     {
+      "foiling": "Rainbow",
+      "identifier": "OUT009",
+      "image": "OUT009.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "OUT009",
+      "image": "OUT009.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "identifier": "OUT010",
+      "image": "OUT010.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT010",
+      "image": "OUT010.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Cold",
       "identifier": "OUT010",
       "image": "OUT010.width-450",
       "set": "Outsiders",
@@ -102206,6 +103068,12 @@ The next attack action card you play from arsenal this turn gains +1{p}.
       "image": "OUT227.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT227",
+      "image": "OUT227.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -102256,6 +103124,12 @@ The next attack action card you play from arsenal this turn gains +3{p}.
       "image": "OUT225.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT225",
+      "image": "OUT225.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -102302,6 +103176,12 @@ The next attack action card you play from arsenal this turn gains +2{p}.
   "pitch": 2,
   "printings": [
     {
+      "identifier": "OUT226",
+      "image": "OUT226.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT226",
       "image": "OUT226.width-450",
       "set": "Outsiders",
@@ -103143,6 +104023,12 @@ When this hits a hero, create an Inertia token under their control.",
       "image": "OUT038.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT038",
+      "image": "OUT038.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -103185,6 +104071,12 @@ When this hits a hero, create an Inertia token under their control.",
   "power": 3,
   "printings": [
     {
+      "identifier": "OUT036",
+      "image": "OUT036.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT036",
       "image": "OUT036.width-450",
       "set": "Outsiders",
@@ -103235,6 +104127,12 @@ When this hits a hero, create an Inertia token under their control.",
       "image": "OUT037.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT037",
+      "image": "OUT037.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -103277,6 +104175,12 @@ When this hits a hero, create an Inertia token under their control.",
   "power": 3,
   "printings": [
     {
+      "identifier": "OUT126",
+      "image": "OUT126.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT126",
       "image": "OUT126.width-450",
       "set": "Outsiders",
@@ -103328,6 +104232,12 @@ When this hits a hero, create an Inertia token under their control.",
       "image": "OUT124.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT124",
+      "image": "OUT124.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -103371,6 +104281,12 @@ When this hits a hero, create an Inertia token under their control.",
   "power": 4,
   "printings": [
     {
+      "identifier": "OUT125",
+      "image": "OUT125.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT125",
       "image": "OUT125.width-450",
       "set": "Outsiders",
@@ -104203,6 +105119,18 @@ exports[`Check for unintentional updates Seeker's Gilet (seekers-gilet) vs snaps
       "image": "OUT176.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT176",
+      "image": "OUT176.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "OUT176",
+      "image": "OUT176.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -104242,6 +105170,18 @@ exports[`Check for unintentional updates Seeker's Hood (seekers-hood) vs snapsho
   "name": "Seeker's Hood",
   "printings": [
     {
+      "identifier": "OUT175",
+      "image": "OUT175.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT175",
+      "image": "OUT175.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Cold",
       "identifier": "OUT175",
       "image": "OUT175.width-450",
       "set": "Outsiders",
@@ -104289,6 +105229,18 @@ exports[`Check for unintentional updates Seeker's Leggings (seekers-leggings) vs
       "image": "OUT178.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT178",
+      "image": "OUT178.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "OUT178",
+      "image": "OUT178.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -104328,6 +105280,18 @@ exports[`Check for unintentional updates Seeker's Mitts (seekers-mitts) vs snaps
   "name": "Seeker's Mitts",
   "printings": [
     {
+      "identifier": "OUT177",
+      "image": "OUT177.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT177",
+      "image": "OUT177.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Cold",
       "identifier": "OUT177",
       "image": "OUT177.width-450",
       "set": "Outsiders",
@@ -105306,6 +106270,12 @@ If you've played or activated an attack reaction this chain link, Shake Down has
   "power": 6,
   "printings": [
     {
+      "identifier": "OUT013",
+      "image": "OUT013.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT013",
       "image": "OUT013.width-450",
       "set": "Outsiders",
@@ -106456,6 +107426,12 @@ exports[`Check for unintentional updates Short and Sharp (short-and-sharp-blue) 
       "image": "OUT156.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT156",
+      "image": "OUT156.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -106500,6 +107476,12 @@ exports[`Check for unintentional updates Short and Sharp (short-and-sharp-red) v
       "image": "OUT154.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT154",
+      "image": "OUT154.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -106540,6 +107522,12 @@ exports[`Check for unintentional updates Short and Sharp (short-and-sharp-yellow
   "pitch": 2,
   "printings": [
     {
+      "identifier": "OUT155",
+      "image": "OUT155.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT155",
       "image": "OUT155.width-450",
       "set": "Outsiders",
@@ -108436,6 +109424,18 @@ exports[`Check for unintentional updates Silken Gi (silken-gi) vs snapshot 1`] =
       "image": "OUT179.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT179",
+      "image": "OUT179.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "OUT179",
+      "image": "OUT179.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -108817,6 +109817,18 @@ exports[`Check for unintentional updates Silverwind Shuriken (silverwind-shurike
   "pitch": 3,
   "printings": [
     {
+      "identifier": "OUT054",
+      "image": "OUT054.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT054",
+      "image": "OUT054.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Cold",
       "identifier": "OUT054",
       "image": "OUT054.width-450",
       "set": "Outsiders",
@@ -110122,6 +111134,12 @@ exports[`Check for unintentional updates Skybound Shot (skybound-shot-blue) vs s
       "image": "OUT129.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT129",
+      "image": "OUT129.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -110167,6 +111185,12 @@ exports[`Check for unintentional updates Skybound Shot (skybound-shot-red) vs sn
       "image": "OUT127.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT127",
+      "image": "OUT127.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -110208,6 +111232,12 @@ exports[`Check for unintentional updates Skybound Shot (skybound-shot-yellow) vs
   "power": 4,
   "printings": [
     {
+      "identifier": "OUT128",
+      "image": "OUT128.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT128",
       "image": "OUT128.width-450",
       "set": "Outsiders",
@@ -112672,6 +113702,12 @@ exports[`Check for unintentional updates Sneak Attack (sneak-attack-blue) vs sna
       "image": "OUT020.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT020",
+      "image": "OUT020.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Rare",
@@ -112719,6 +113755,12 @@ exports[`Check for unintentional updates Sneak Attack (sneak-attack-red) vs snap
       "image": "OUT018.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT018",
+      "image": "OUT018.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Rare",
@@ -112762,6 +113804,12 @@ exports[`Check for unintentional updates Sneak Attack (sneak-attack-yellow) vs s
   "power": 2,
   "printings": [
     {
+      "identifier": "OUT019",
+      "image": "OUT019.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT019",
       "image": "OUT019.width-450",
       "set": "Outsiders",
@@ -116194,6 +117242,12 @@ When this defends and the attacking hero has played or activated a reaction this
       "image": "OUT104.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT104",
+      "image": "OUT104.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Majestic",
@@ -116246,6 +117300,12 @@ exports[`Check for unintentional updates Spike with Bloodrot (spike-with-bloodro
       "treatment": "Extended Art",
     },
     {
+      "identifier": "OUT021",
+      "image": "OUT021.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT021",
       "image": "OUT021.width-450",
       "set": "Outsiders",
@@ -116304,6 +117364,12 @@ exports[`Check for unintentional updates Spike with Frailty (spike-with-frailty-
       "image": "OUT022.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT022",
+      "image": "OUT022.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Promo",
@@ -116354,6 +117420,12 @@ exports[`Check for unintentional updates Spike with Inertia (spike-with-inertia-
       "treatment": "Extended Art",
     },
     {
+      "identifier": "OUT023",
+      "image": "OUT023.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT023",
       "image": "OUT023.width-450",
       "set": "Outsiders",
@@ -116570,6 +117642,12 @@ exports[`Check for unintentional updates Spinning Wheel Kick (spinning-wheel-kic
       "image": "OUT064.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT064",
+      "image": "OUT064.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Promo",
@@ -116629,6 +117707,12 @@ exports[`Check for unintentional updates Spinning Wheel Kick (spinning-wheel-kic
       "treatment": "Extended Art",
     },
     {
+      "identifier": "OUT062",
+      "image": "OUT062.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT062",
       "image": "OUT062.width-450",
       "set": "Outsiders",
@@ -116696,6 +117780,12 @@ exports[`Check for unintentional updates Spinning Wheel Kick (spinning-wheel-kic
       "image": "OUT063.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT063",
+      "image": "OUT063.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Promo",
@@ -116746,6 +117836,12 @@ exports[`Check for unintentional updates Spire Sniping (spire-sniping-blue) vs s
       "image": "OUT132.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT132",
+      "image": "OUT132.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -116791,6 +117887,12 @@ exports[`Check for unintentional updates Spire Sniping (spire-sniping-red) vs sn
       "image": "OUT130.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT130",
+      "image": "OUT130.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -116832,6 +117934,12 @@ exports[`Check for unintentional updates Spire Sniping (spire-sniping-yellow) vs
   "power": 4,
   "printings": [
     {
+      "identifier": "OUT131",
+      "image": "OUT131.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT131",
       "image": "OUT131.width-450",
       "set": "Outsiders",
@@ -117085,6 +118193,12 @@ exports[`Check for unintentional updates Spreading Plague (spreading-plague-yell
       "image": "OUT014.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT014",
+      "image": "OUT014.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Majestic",
@@ -117126,6 +118240,12 @@ exports[`Check for unintentional updates Spring Load (spring-load-blue) vs snaps
   "power": 2,
   "printings": [
     {
+      "identifier": "OUT221",
+      "image": "OUT221.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT221",
       "image": "OUT221.width-450",
       "set": "Outsiders",
@@ -117174,6 +118294,12 @@ exports[`Check for unintentional updates Spring Load (spring-load-red) vs snapsh
       "image": "OUT219.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT219",
+      "image": "OUT219.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -117214,6 +118340,12 @@ exports[`Check for unintentional updates Spring Load (spring-load-yellow) vs sna
   "power": 2,
   "printings": [
     {
+      "identifier": "OUT220",
+      "image": "OUT220.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT220",
       "image": "OUT220.width-450",
       "set": "Outsiders",
@@ -117431,6 +118563,12 @@ exports[`Check for unintentional updates Stab Wound (stab-wound-blue) vs snapsho
   "power": 2,
   "printings": [
     {
+      "identifier": "OUT142",
+      "image": "OUT142.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT142",
       "image": "OUT142.width-450",
       "set": "Outsiders",
@@ -124055,6 +125193,12 @@ exports[`Check for unintentional updates Tarpit Trap (tarpit-trap-yellow) vs sna
       "image": "OUT108.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT108",
+      "image": "OUT108.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Rare",
@@ -125385,6 +126529,18 @@ exports[`Check for unintentional updates Threadbare Tunic (threadbare-tunic) vs 
   "name": "Threadbare Tunic",
   "printings": [
     {
+      "identifier": "OUT180",
+      "image": "OUT180.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT180",
+      "image": "OUT180.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Cold",
       "identifier": "OUT180",
       "image": "OUT180.width-450",
       "set": "Outsiders",
@@ -128133,6 +129289,18 @@ exports[`Check for unintentional updates Toxic Tips (toxic-tips) vs snapshot 1`]
       "image": "OUT158.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT158",
+      "image": "OUT158.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "OUT158",
+      "image": "OUT158.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -128185,6 +129353,12 @@ exports[`Check for unintentional updates Toxicity (toxicity-blue) vs snapshot 1`
       "treatment": "Extended Art",
     },
     {
+      "identifier": "OUT167",
+      "image": "OUT167.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT167",
       "image": "OUT167.width-450",
       "set": "Outsiders",
@@ -128251,6 +129425,12 @@ exports[`Check for unintentional updates Toxicity (toxicity-red) vs snapshot 1`]
       "image": "OUT165.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT165",
+      "image": "OUT165.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Promo",
@@ -128309,6 +129489,12 @@ exports[`Check for unintentional updates Toxicity (toxicity-yellow) vs snapshot 
       "treatment": "Extended Art",
     },
     {
+      "identifier": "OUT166",
+      "image": "OUT166.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT166",
       "image": "OUT166.width-450",
       "set": "Outsiders",
@@ -132585,6 +133771,12 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
       "image": "OUT170.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT170",
+      "image": "OUT170.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -132632,6 +133824,12 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
       "image": "OUT168.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT168",
+      "image": "OUT168.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -132675,6 +133873,12 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
   "power": 3,
   "printings": [
     {
+      "identifier": "OUT169",
+      "image": "OUT169.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT169",
       "image": "OUT169.width-450",
       "set": "Outsiders",
@@ -132940,6 +134144,12 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
   "pitch": 3,
   "printings": [
     {
+      "identifier": "OUT055",
+      "image": "OUT055.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT055",
       "image": "OUT055.width-450",
       "set": "Outsiders",
@@ -133848,6 +135058,12 @@ When this hits, you may discard a card with cost 0. If you do, search your deck 
   "power": 2,
   "printings": [
     {
+      "identifier": "OUT053",
+      "image": "OUT053.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT053",
       "image": "OUT053.width-450",
       "set": "Outsiders",
@@ -135058,6 +136274,12 @@ exports[`Check for unintentional updates Wayfinder's Crest (wayfinders-crest) vs
   "name": "Wayfinder's Crest",
   "printings": [
     {
+      "identifier": "OUT099",
+      "image": "OUT099.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT099",
       "image": "OUT099.width-450",
       "set": "Outsiders",
@@ -136457,6 +137679,12 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.",
       "image": "OUT135.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT135",
+      "image": "OUT135.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -136504,6 +137732,12 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.",
       "image": "OUT133.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT133",
+      "image": "OUT133.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -136547,6 +137781,12 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.",
   "power": 3,
   "printings": [
     {
+      "identifier": "OUT134",
+      "image": "OUT134.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT134",
       "image": "OUT134.width-450",
       "set": "Outsiders",
@@ -137334,6 +138574,12 @@ When this hits a hero, create a Frailty token under their control.",
       "image": "OUT041.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT041",
+      "image": "OUT041.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -137376,6 +138622,12 @@ When this hits a hero, create a Frailty token under their control.",
   "power": 3,
   "printings": [
     {
+      "identifier": "OUT039",
+      "image": "OUT039.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT039",
       "image": "OUT039.width-450",
       "set": "Outsiders",
@@ -137426,6 +138678,12 @@ When this hits a hero, create a Frailty token under their control.",
       "image": "OUT040.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT040",
+      "image": "OUT040.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -137468,6 +138726,12 @@ When this hits a hero, create a Frailty token under their control.",
   "power": 3,
   "printings": [
     {
+      "identifier": "OUT138",
+      "image": "OUT138.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT138",
       "image": "OUT138.width-450",
       "set": "Outsiders",
@@ -137519,6 +138783,12 @@ When this hits a hero, create a Frailty token under their control.",
       "image": "OUT136.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT136",
+      "image": "OUT136.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Common",
@@ -137562,6 +138832,12 @@ When this hits a hero, create a Frailty token under their control.",
   "power": 4,
   "printings": [
     {
+      "identifier": "OUT137",
+      "image": "OUT137.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT137",
       "image": "OUT137.width-450",
       "set": "Outsiders",
@@ -138190,6 +139466,12 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
       "image": "OUT200.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT200",
+      "image": "OUT200.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Rare",
@@ -138239,6 +139521,12 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
       "image": "OUT198.width-450",
       "set": "Outsiders",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "OUT198",
+      "image": "OUT198.width-450",
+      "set": "Outsiders",
+    },
   ],
   "rarities": [
     "Rare",
@@ -138284,6 +139572,12 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
   "power": 5,
   "printings": [
     {
+      "identifier": "OUT199",
+      "image": "OUT199.width-450",
+      "set": "Outsiders",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "OUT199",
       "image": "OUT199.width-450",
       "set": "Outsiders",

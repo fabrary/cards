@@ -111415,8 +111415,8 @@ When you equip Crown of Dominion, create a Gold token.`,
       set: Release.Outsiders,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
-    rarity: Rarity.Token,
+    rarities: [Rarity.Promo,Rarity.Common],
+    rarity: Rarity.Common,
     setIdentifiers: ["LGS128","DYN244","OUT237"],
     sets: [Release.Promos,Release.Dynasty,Release.Outsiders],
     specialImage: "DYN244",
@@ -111662,7 +111662,31 @@ When you equip Crown of Dominion, create a Gold token.`,
       set: Release.Outsiders,
       
     },{
+      foiling: Foiling.R,
+      identifier: "OUT005",
+      image: "OUT005.width-450",
+      set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "OUT005",
+      image: "OUT005.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      
+      identifier: "OUT006",
+      image: "OUT006.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT006",
+      image: "OUT006.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.C,
       identifier: "OUT006",
       image: "OUT006.width-450",
       set: Release.Outsiders,
@@ -111713,7 +111737,31 @@ When this hits a hero, the next time they defend with 1 or more reaction cards t
       set: Release.Outsiders,
       
     },{
+      foiling: Foiling.R,
+      identifier: "OUT007",
+      image: "OUT007.width-450",
+      set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "OUT007",
+      image: "OUT007.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      
+      identifier: "OUT008",
+      image: "OUT008.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT008",
+      image: "OUT008.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.C,
       identifier: "OUT008",
       image: "OUT008.width-450",
       set: Release.Outsiders,
@@ -111764,7 +111812,31 @@ When this hits a hero, the next time they defend with 1 or more 'non-attack' act
       set: Release.Outsiders,
       
     },{
+      foiling: Foiling.R,
+      identifier: "OUT009",
+      image: "OUT009.width-450",
+      set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "OUT009",
+      image: "OUT009.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      
+      identifier: "OUT010",
+      image: "OUT010.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT010",
+      image: "OUT010.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.C,
       identifier: "OUT010",
       image: "OUT010.width-450",
       set: Release.Outsiders,
@@ -111877,6 +111949,12 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
       image: "OUT012.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT012",
+      image: "OUT012.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -111916,6 +111994,12 @@ When this hits a hero, banish the top card of their deck. You may play it until 
     name: "Shake Down",
     printings: [{
       
+      identifier: "OUT013",
+      image: "OUT013.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT013",
       image: "OUT013.width-450",
       set: Release.Outsiders,
@@ -111963,6 +112047,12 @@ If you've played or activated an attack reaction this chain link, Shake Down has
       image: "OUT014.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT014",
+      image: "OUT014.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -112000,6 +112090,12 @@ If you've played or activated an attack reaction this chain link, Shake Down has
     name: "Back Stab",
     printings: [{
       
+      identifier: "OUT015",
+      image: "OUT015.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT015",
       image: "OUT015.width-450",
       set: Release.Outsiders,
@@ -112047,6 +112143,12 @@ Defense reactions can't be played to Back Stab's chain link.`,
       image: "OUT016.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT016",
+      image: "OUT016.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -112086,6 +112188,12 @@ Defense reactions can't be played to Back Stab's chain link.`,
     name: "Back Stab",
     printings: [{
       
+      identifier: "OUT017",
+      image: "OUT017.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT017",
       image: "OUT017.width-450",
       set: Release.Outsiders,
@@ -112133,6 +112241,12 @@ Defense reactions can't be played to Back Stab's chain link.`,
       image: "OUT018.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT018",
+      image: "OUT018.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -112174,6 +112288,12 @@ Defense reactions can't be played to Back Stab's chain link.`,
       image: "OUT019.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT019",
+      image: "OUT019.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -112211,6 +112331,12 @@ Defense reactions can't be played to Back Stab's chain link.`,
     name: "Sneak Attack",
     printings: [{
       
+      identifier: "OUT020",
+      image: "OUT020.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT020",
       image: "OUT020.width-450",
       set: Release.Outsiders,
@@ -112262,6 +112388,12 @@ Defense reactions can't be played to Back Stab's chain link.`,
       image: "OUT021.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT021",
+      image: "OUT021.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -112305,6 +112437,12 @@ Defense reactions can't be played to Back Stab's chain link.`,
       treatment: Treatment.EA,
     },{
       
+      identifier: "OUT022",
+      image: "OUT022.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT022",
       image: "OUT022.width-450",
       set: Release.Outsiders,
@@ -112356,6 +112494,12 @@ Defense reactions can't be played to Back Stab's chain link.`,
       image: "OUT023.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT023",
+      image: "OUT023.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -112393,6 +112537,12 @@ Defense reactions can't be played to Back Stab's chain link.`,
     name: "Infect",
     printings: [{
       
+      identifier: "OUT024",
+      image: "OUT024.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT024",
       image: "OUT024.width-450",
       set: Release.Outsiders,
@@ -112440,6 +112590,12 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
       image: "OUT025.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT025",
+      image: "OUT025.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -112479,6 +112635,12 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     name: "Infect",
     printings: [{
       
+      identifier: "OUT026",
+      image: "OUT026.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT026",
       image: "OUT026.width-450",
       set: Release.Outsiders,
@@ -112526,6 +112688,12 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
       image: "OUT027.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT027",
+      image: "OUT027.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -112565,6 +112733,12 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     name: "Isolate",
     printings: [{
       
+      identifier: "OUT028",
+      image: "OUT028.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT028",
       image: "OUT028.width-450",
       set: Release.Outsiders,
@@ -112612,6 +112786,12 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
       image: "OUT029.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT029",
+      image: "OUT029.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -112651,6 +112831,12 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     name: "Malign",
     printings: [{
       
+      identifier: "OUT030",
+      image: "OUT030.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT030",
       image: "OUT030.width-450",
       set: Release.Outsiders,
@@ -112698,6 +112884,12 @@ Damage that would be dealt by Malign can't be prevented.`,
       image: "OUT031.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT031",
+      image: "OUT031.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -112737,6 +112929,12 @@ Damage that would be dealt by Malign can't be prevented.`,
     name: "Malign",
     printings: [{
       
+      identifier: "OUT032",
+      image: "OUT032.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT032",
       image: "OUT032.width-450",
       set: Release.Outsiders,
@@ -112784,6 +112982,12 @@ Damage that would be dealt by Malign can't be prevented.`,
       image: "OUT033.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT033",
+      image: "OUT033.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -112823,6 +113027,12 @@ The next attack with **stealth** you play this combat chain gains +1{p}.`,
     name: "Prowl",
     printings: [{
       
+      identifier: "OUT034",
+      image: "OUT034.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT034",
       image: "OUT034.width-450",
       set: Release.Outsiders,
@@ -112870,6 +113080,12 @@ The next attack with **stealth** you play this combat chain gains +1{p}.`,
       image: "OUT035.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT035",
+      image: "OUT035.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -112909,6 +113125,12 @@ The next attack with **stealth** you play this combat chain gains +1{p}.`,
     name: "Sedate",
     printings: [{
       
+      identifier: "OUT036",
+      image: "OUT036.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT036",
       image: "OUT036.width-450",
       set: Release.Outsiders,
@@ -112956,6 +113178,12 @@ When this hits a hero, create an Inertia token under their control.`,
       image: "OUT037.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT037",
+      image: "OUT037.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -112995,6 +113223,12 @@ When this hits a hero, create an Inertia token under their control.`,
     name: "Sedate",
     printings: [{
       
+      identifier: "OUT038",
+      image: "OUT038.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT038",
       image: "OUT038.width-450",
       set: Release.Outsiders,
@@ -113042,6 +113276,12 @@ When this hits a hero, create an Inertia token under their control.`,
       image: "OUT039.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT039",
+      image: "OUT039.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -113081,6 +113321,12 @@ When this hits a hero, create a Frailty token under their control.`,
     name: "Wither",
     printings: [{
       
+      identifier: "OUT040",
+      image: "OUT040.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT040",
       image: "OUT040.width-450",
       set: Release.Outsiders,
@@ -113128,6 +113374,12 @@ When this hits a hero, create a Frailty token under their control.`,
       image: "OUT041.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT041",
+      image: "OUT041.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -113167,6 +113419,12 @@ When this hits a hero, create a Frailty token under their control.`,
     name: "Razor's Edge",
     printings: [{
       
+      identifier: "OUT042",
+      image: "OUT042.original",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT042",
       image: "OUT042.original",
       set: Release.Outsiders,
@@ -113212,6 +113470,12 @@ When this hits a hero, create a Frailty token under their control.`,
       image: "OUT043.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT043",
+      image: "OUT043.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -113253,6 +113517,12 @@ When this hits a hero, create a Frailty token under their control.`,
       image: "OUT044.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT044",
+      image: "OUT044.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -113290,6 +113560,18 @@ When this hits a hero, create a Frailty token under their control.`,
     name: "Mask of Many Faces",
     printings: [{
       
+      identifier: "OUT049",
+      image: "OUT049.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT049",
+      image: "OUT049.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.C,
       identifier: "OUT049",
       image: "OUT049.width-450",
       set: Release.Outsiders,
@@ -113337,6 +113619,12 @@ When this hits a hero, create a Frailty token under their control.`,
       image: "OUT050.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT050",
+      image: "OUT050.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -113374,6 +113662,12 @@ When this hits a hero, create a Frailty token under their control.`,
     name: "Dishonor",
     printings: [{
       
+      identifier: "OUT051",
+      image: "OUT051_tyYCr6g.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT051",
       image: "OUT051_tyYCr6g.width-450",
       set: Release.Outsiders,
@@ -113421,6 +113715,12 @@ When this hits a hero, if you control Surging Strike, Descendent Gustwave, and B
       image: "OUT052.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT052",
+      image: "OUT052.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -113460,6 +113760,12 @@ When this hits a hero, if you control Surging Strike, Descendent Gustwave, and B
     name: "Wander With Purpose",
     printings: [{
       
+      identifier: "OUT053",
+      image: "OUT053.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT053",
       image: "OUT053.width-450",
       set: Release.Outsiders,
@@ -113509,6 +113815,18 @@ When this hits, you may discard a card with cost 0. If you do, search your deck 
       image: "OUT054.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT054",
+      image: "OUT054.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "OUT054",
+      image: "OUT054.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -113546,6 +113864,12 @@ When this hits, you may discard a card with cost 0. If you do, search your deck 
     name: "Visit the Floating Dojo",
     printings: [{
       
+      identifier: "OUT055",
+      image: "OUT055.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT055",
       image: "OUT055.width-450",
       set: Release.Outsiders,
@@ -113593,6 +113917,12 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "OUT056.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT056",
+      image: "OUT056.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -113630,6 +113960,12 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     name: "Bonds of Ancestry",
     printings: [{
       
+      identifier: "OUT057",
+      image: "OUT057.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT057",
       image: "OUT057.width-450",
       set: Release.Outsiders,
@@ -113675,6 +114011,12 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "OUT058.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT058",
+      image: "OUT058.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -113712,6 +114054,12 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     name: "Recoil",
     printings: [{
       
+      identifier: "OUT059",
+      image: "OUT059.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT059",
       image: "OUT059.width-450",
       set: Release.Outsiders,
@@ -113757,6 +114105,12 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "OUT060.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT060",
+      image: "OUT060.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -113794,6 +114148,12 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     name: "Recoil",
     printings: [{
       
+      identifier: "OUT061",
+      image: "OUT061.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT061",
       image: "OUT061.width-450",
       set: Release.Outsiders,
@@ -113841,6 +114201,12 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       treatment: Treatment.EA,
     },{
       
+      identifier: "OUT062",
+      image: "OUT062.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT062",
       image: "OUT062.width-450",
       set: Release.Outsiders,
@@ -113894,6 +114260,12 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "OUT063.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT063",
+      image: "OUT063.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -113943,6 +114315,12 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "OUT064.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT064",
+      image: "OUT064.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -113982,6 +114360,12 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     name: "Back Heel Kick",
     printings: [{
       
+      identifier: "OUT065",
+      image: "OUT065.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT065",
       image: "OUT065.width-450",
       set: Release.Outsiders,
@@ -114027,6 +114411,12 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "OUT066.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT066",
+      image: "OUT066.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -114068,6 +114458,12 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "OUT067.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT067",
+      image: "OUT067.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -114105,6 +114501,12 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     name: "Be Like Water",
     printings: [{
       
+      identifier: "OUT068",
+      image: "OUT068.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT068",
       image: "OUT068.width-450",
       set: Release.Outsiders,
@@ -114152,6 +114554,12 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "OUT069.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT069",
+      image: "OUT069.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -114191,6 +114599,12 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     name: "Be Like Water",
     printings: [{
       
+      identifier: "OUT070",
+      image: "OUT070.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT070",
       image: "OUT070.width-450",
       set: Release.Outsiders,
@@ -114238,6 +114652,12 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "OUT071.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT071",
+      image: "OUT071.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -114277,6 +114697,12 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     name: "Deadly Duo",
     printings: [{
       
+      identifier: "OUT072",
+      image: "OUT072.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT072",
       image: "OUT072.width-450",
       set: Release.Outsiders,
@@ -114324,6 +114750,12 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "OUT073.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT073",
+      image: "OUT073.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -114363,6 +114795,12 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     name: "Descendent Gustwave",
     printings: [{
       
+      identifier: "OUT074",
+      image: "OUT074.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT074",
       image: "OUT074.width-450",
       set: Release.Outsiders,
@@ -114410,6 +114848,12 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "OUT075.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT075",
+      image: "OUT075.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -114449,6 +114893,12 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     name: "Descendent Gustwave",
     printings: [{
       
+      identifier: "OUT076",
+      image: "OUT076.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT076",
       image: "OUT076.width-450",
       set: Release.Outsiders,
@@ -114496,6 +114946,12 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "OUT080.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT080",
+      image: "OUT080.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -114537,6 +114993,12 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "OUT081.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT081",
+      image: "OUT081.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -114574,6 +115036,12 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     name: "One-Two Punch",
     printings: [{
       
+      identifier: "OUT082",
+      image: "OUT082.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT082",
       image: "OUT082.width-450",
       set: Release.Outsiders,
@@ -114894,6 +115362,18 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
       image: "OUT096.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT096",
+      image: "OUT096.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "OUT096",
+      image: "OUT096.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -115034,6 +115514,12 @@ Whenever an arrow is put face up into your arsenal from your deck, you may pay {
       set: Release.Outsiders,
       
     },{
+      foiling: Foiling.R,
+      identifier: "OUT099",
+      image: "OUT099.width-450",
+      set: Release.Outsiders,
+      
+    },{
       foiling: Foiling.C,
       identifier: "OUT099",
       image: "OUT099.width-450",
@@ -115082,6 +115568,12 @@ Whenever an arrow is put face up into your arsenal from your deck, you may pay {
       image: "OUT100.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT100",
+      image: "OUT100.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -115123,6 +115615,12 @@ Whenever an arrow is put face up into your arsenal from your deck, you may pay {
       image: "OUT101.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT101",
+      image: "OUT101.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -115160,6 +115658,12 @@ Whenever an arrow is put face up into your arsenal from your deck, you may pay {
     name: "Buzzsaw Trap",
     printings: [{
       
+      identifier: "OUT102",
+      image: "OUT102.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT102",
       image: "OUT102.width-450",
       set: Release.Outsiders,
@@ -115207,6 +115711,12 @@ When this defends an attack with {p} greater than its base, the attack can't gai
       image: "OUT103.width-350",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT103",
+      image: "OUT103.width-350",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -115250,6 +115760,12 @@ When this defends an attack with **go again**, the attacking hero discards their
       image: "OUT104.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT104",
+      image: "OUT104.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -115289,6 +115805,12 @@ When this defends and the attacking hero has played or activated a reaction this
     name: "Melting Point",
     printings: [{
       
+      identifier: "OUT105",
+      image: "OUT105.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT105",
       image: "OUT105.width-450",
       set: Release.Outsiders,
@@ -115338,6 +115860,12 @@ If it has an aim counter, it gains "When this hits a hero, destroy a 1H weapon t
       image: "OUT106.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT106",
+      image: "OUT106.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -115375,6 +115903,12 @@ If it has an aim counter, it gains "When this hits a hero, destroy a 1H weapon t
     name: "Pendulum Trap",
     printings: [{
       
+      identifier: "OUT107",
+      image: "OUT107.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT107",
       image: "OUT107.width-450",
       set: Release.Outsiders,
@@ -115420,6 +115954,12 @@ If it has an aim counter, it gains "When this hits a hero, destroy a 1H weapon t
       image: "OUT108.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT108",
+      image: "OUT108.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -115457,6 +115997,12 @@ If it has an aim counter, it gains "When this hits a hero, destroy a 1H weapon t
     name: "Fletch a Red Tail",
     printings: [{
       
+      identifier: "OUT109",
+      image: "OUT109_MXRPsJl.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT109",
       image: "OUT109_MXRPsJl.width-450",
       set: Release.Outsiders,
@@ -115506,6 +116052,12 @@ If it has an aim counter, it gains "Red cards have -1{d} while defending this."
       image: "OUT110.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT110",
+      image: "OUT110.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -115547,6 +116099,12 @@ If it has an aim counter, it gains "Yellow cards have -1{d} while defending this
     name: "Fletch a Blue Tail",
     printings: [{
       
+      identifier: "OUT111",
+      image: "OUT111.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT111",
       image: "OUT111.width-450",
       set: Release.Outsiders,
@@ -115596,6 +116154,12 @@ If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
       image: "OUT112.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT112",
+      image: "OUT112.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -115635,6 +116199,12 @@ If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
     name: "Lace with Frailty",
     printings: [{
       
+      identifier: "OUT113",
+      image: "OUT113.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT113",
       image: "OUT113.width-450",
       set: Release.Outsiders,
@@ -115682,6 +116252,12 @@ If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
       image: "OUT114.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT114",
+      image: "OUT114.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -115721,6 +116297,12 @@ If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
     name: "Falcon Wing",
     printings: [{
       
+      identifier: "OUT115",
+      image: "OUT115.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT115",
       image: "OUT115.width-450",
       set: Release.Outsiders,
@@ -115768,6 +116350,12 @@ If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
       image: "OUT116.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT116",
+      image: "OUT116.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -115807,6 +116395,12 @@ If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
     name: "Falcon Wing",
     printings: [{
       
+      identifier: "OUT117",
+      image: "OUT117.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT117",
       image: "OUT117.width-450",
       set: Release.Outsiders,
@@ -115854,6 +116448,12 @@ If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
       image: "OUT118.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT118",
+      image: "OUT118.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -115893,6 +116493,12 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     name: "Infecting Shot",
     printings: [{
       
+      identifier: "OUT119",
+      image: "OUT119.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT119",
       image: "OUT119.width-450",
       set: Release.Outsiders,
@@ -115940,6 +116546,12 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
       image: "OUT120.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT120",
+      image: "OUT120.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -115979,6 +116591,12 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     name: "Murkmire Grapnel",
     printings: [{
       
+      identifier: "OUT121",
+      image: "OUT121.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT121",
       image: "OUT121.width-450",
       set: Release.Outsiders,
@@ -116026,6 +116644,12 @@ Damage that would be dealt by Murkmire Grapnel can't be prevented.`,
       image: "OUT122.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT122",
+      image: "OUT122.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -116065,6 +116689,12 @@ Damage that would be dealt by Murkmire Grapnel can't be prevented.`,
     name: "Murkmire Grapnel",
     printings: [{
       
+      identifier: "OUT123",
+      image: "OUT123.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT123",
       image: "OUT123.width-450",
       set: Release.Outsiders,
@@ -116112,6 +116742,12 @@ Damage that would be dealt by Murkmire Grapnel can't be prevented.`,
       image: "OUT124.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT124",
+      image: "OUT124.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -116151,6 +116787,12 @@ When this hits a hero, create an Inertia token under their control.`,
     name: "Sedation Shot",
     printings: [{
       
+      identifier: "OUT125",
+      image: "OUT125.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT125",
       image: "OUT125.width-450",
       set: Release.Outsiders,
@@ -116198,6 +116840,12 @@ When this hits a hero, create an Inertia token under their control.`,
       image: "OUT126.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT126",
+      image: "OUT126.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -116237,6 +116885,12 @@ When this hits a hero, create an Inertia token under their control.`,
     name: "Skybound Shot",
     printings: [{
       
+      identifier: "OUT127",
+      image: "OUT127.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT127",
       image: "OUT127.width-450",
       set: Release.Outsiders,
@@ -116282,6 +116936,12 @@ When this hits a hero, create an Inertia token under their control.`,
       image: "OUT128.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT128",
+      image: "OUT128.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -116319,6 +116979,12 @@ When this hits a hero, create an Inertia token under their control.`,
     name: "Skybound Shot",
     printings: [{
       
+      identifier: "OUT129",
+      image: "OUT129.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT129",
       image: "OUT129.width-450",
       set: Release.Outsiders,
@@ -116364,6 +117030,12 @@ When this hits a hero, create an Inertia token under their control.`,
       image: "OUT130.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT130",
+      image: "OUT130.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -116401,6 +117073,12 @@ When this hits a hero, create an Inertia token under their control.`,
     name: "Spire Sniping",
     printings: [{
       
+      identifier: "OUT131",
+      image: "OUT131.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT131",
       image: "OUT131.width-450",
       set: Release.Outsiders,
@@ -116446,6 +117124,12 @@ When this hits a hero, create an Inertia token under their control.`,
       image: "OUT132.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT132",
+      image: "OUT132.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -116483,6 +117167,12 @@ When this hits a hero, create an Inertia token under their control.`,
     name: "Widowmaker",
     printings: [{
       
+      identifier: "OUT133",
+      image: "OUT133.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT133",
       image: "OUT133.width-450",
       set: Release.Outsiders,
@@ -116530,6 +117220,12 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
       image: "OUT134.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT134",
+      image: "OUT134.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -116569,6 +117265,12 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
     name: "Widowmaker",
     printings: [{
       
+      identifier: "OUT135",
+      image: "OUT135.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT135",
       image: "OUT135.width-450",
       set: Release.Outsiders,
@@ -116616,6 +117318,12 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
       image: "OUT136.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT136",
+      image: "OUT136.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -116659,6 +117367,12 @@ When this hits a hero, create a Frailty token under their control.`,
       image: "OUT137.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT137",
+      image: "OUT137.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -116698,6 +117412,12 @@ When this hits a hero, create a Frailty token under their control.`,
     name: "Withering Shot",
     printings: [{
       
+      identifier: "OUT138",
+      image: "OUT138.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT138",
       image: "OUT138.width-450",
       set: Release.Outsiders,
@@ -116800,6 +117520,18 @@ When this hits a hero, create a Frailty token under their control.`,
       image: "OUT140.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT140",
+      image: "OUT140.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "OUT140",
+      image: "OUT140.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -116837,6 +117569,18 @@ When this hits a hero, create a Frailty token under their control.`,
     name: "Blade Cuff",
     printings: [{
       
+      identifier: "OUT141",
+      image: "OUT141.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT141",
+      image: "OUT141.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.C,
       identifier: "OUT141",
       image: "OUT141.width-450",
       set: Release.Outsiders,
@@ -116884,6 +117628,12 @@ When this hits a hero, create a Frailty token under their control.`,
       image: "OUT142.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT142",
+      image: "OUT142.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -116921,6 +117671,12 @@ When this hits a hero, create a Frailty token under their control.`,
     name: "Concealed Blade",
     printings: [{
       
+      identifier: "OUT143",
+      image: "OUT143.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT143",
       image: "OUT143.width-450",
       set: Release.Outsiders,
@@ -116966,6 +117722,12 @@ When this hits a hero, create a Frailty token under their control.`,
       image: "OUT144.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT144",
+      image: "OUT144.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -117003,6 +117765,12 @@ When this hits a hero, create a Frailty token under their control.`,
     name: "Bleed Out",
     printings: [{
       
+      identifier: "OUT145",
+      image: "OUT145.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT145",
       image: "OUT145.width-450",
       set: Release.Outsiders,
@@ -117050,6 +117818,12 @@ When this hits a hero, create a Frailty token under their control.`,
       image: "OUT146.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT146",
+      image: "OUT146.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -117089,6 +117863,12 @@ When this hits a hero, create a Frailty token under their control.`,
     name: "Bleed Out",
     printings: [{
       
+      identifier: "OUT147",
+      image: "OUT147.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT147",
       image: "OUT147.width-450",
       set: Release.Outsiders,
@@ -117136,6 +117916,12 @@ When this hits a hero, create a Frailty token under their control.`,
       image: "OUT148.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT148",
+      image: "OUT148.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -117175,6 +117961,12 @@ When this hits a hero, create a Frailty token under their control.`,
     name: "Hurl",
     printings: [{
       
+      identifier: "OUT149",
+      image: "OUT149.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT149",
       image: "OUT149.width-450",
       set: Release.Outsiders,
@@ -117222,6 +118014,12 @@ When this hits a hero, create a Frailty token under their control.`,
       image: "OUT150.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT150",
+      image: "OUT150.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -117261,6 +118059,12 @@ When this hits a hero, create a Frailty token under their control.`,
     name: "Plunge",
     printings: [{
       
+      identifier: "OUT151",
+      image: "OUT151.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT151",
       image: "OUT151.width-450",
       set: Release.Outsiders,
@@ -117308,6 +118112,12 @@ When this hits a hero, create a Frailty token under their control.`,
       image: "OUT152.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT152",
+      image: "OUT152.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -117347,6 +118157,12 @@ When this hits a hero, create a Frailty token under their control.`,
     name: "Plunge",
     printings: [{
       
+      identifier: "OUT153",
+      image: "OUT153.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT153",
       image: "OUT153.width-450",
       set: Release.Outsiders,
@@ -117394,6 +118210,12 @@ When this hits a hero, create a Frailty token under their control.`,
       image: "OUT154.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT154",
+      image: "OUT154.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -117433,6 +118255,12 @@ When this hits a hero, create a Frailty token under their control.`,
     name: "Short and Sharp",
     printings: [{
       
+      identifier: "OUT155",
+      image: "OUT155.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT155",
       image: "OUT155.width-450",
       set: Release.Outsiders,
@@ -117480,6 +118308,12 @@ When this hits a hero, create a Frailty token under their control.`,
       image: "OUT156.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT156",
+      image: "OUT156.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -117523,6 +118357,18 @@ When this hits a hero, create a Frailty token under their control.`,
       image: "OUT157.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT157",
+      image: "OUT157.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "OUT157",
+      image: "OUT157.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -117562,6 +118408,18 @@ When this hits a hero, create a Frailty token under their control.`,
     name: "Toxic Tips",
     printings: [{
       
+      identifier: "OUT158",
+      image: "OUT158.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT158",
+      image: "OUT158.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.C,
       identifier: "OUT158",
       image: "OUT158.width-450",
       set: Release.Outsiders,
@@ -117610,9 +118468,15 @@ When this hits a hero, create a Frailty token under their control.`,
       set: Release.Outsiders,
       
     },{
+      foiling: Foiling.R,
+      identifier: "OUT159",
+      image: "OUT159.width-450",
+      set: Release.Outsiders,
+      
+    },{
       foiling: Foiling.C,
       identifier: "OUT159",
-      image: "OUT159_Marvel",
+      image: "EN_OUT_marvels_v1.0_FINAL_noopw.width-450",
       set: Release.Outsiders,
       treatment: Treatment.AA,
     },],
@@ -117620,7 +118484,7 @@ When this hits a hero, create a Frailty token under their control.`,
     rarity: Rarity.Majestic,
     setIdentifiers: ["OUT159"],
     sets: [Release.Outsiders],
-    specialImage: "OUT159_Marvel",
+    specialImage: "EN_OUT_marvels_v1.0_FINAL_noopw.width-450",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Assassin / Ranger Action",
@@ -117661,9 +118525,15 @@ Create a Ponder token under your control and a Bloodrot Pox token under each opp
       set: Release.Outsiders,
       
     },{
+      foiling: Foiling.R,
+      identifier: "OUT160",
+      image: "OUT160.width-450",
+      set: Release.Outsiders,
+      
+    },{
       foiling: Foiling.C,
       identifier: "OUT160",
-      image: "OUT160_Marvel",
+      image: "EN_OUT_marvels_v1.0_FINAL_noopw2.width-450",
       set: Release.Outsiders,
       treatment: Treatment.AA,
     },],
@@ -117671,7 +118541,7 @@ Create a Ponder token under your control and a Bloodrot Pox token under each opp
     rarity: Rarity.Majestic,
     setIdentifiers: ["OUT160"],
     sets: [Release.Outsiders],
-    specialImage: "OUT160_Marvel",
+    specialImage: "EN_OUT_marvels_v1.0_FINAL_noopw2.width-450",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Assassin / Ranger Action",
@@ -117700,7 +118570,7 @@ Create a Ponder token under your control and a Frailty token under each opponent
     
     
   },{
-    artists: ["Isuardi Therianto","Carlos Cruchaga"],
+    artists: ["Isuardi Therianto"],
     cardIdentifier: "codex-of-inertia-yellow",
     classes: [Class.Assassin,Class.Ranger],
     defaultImage: "OUT161.width-450",
@@ -117712,9 +118582,15 @@ Create a Ponder token under your control and a Frailty token under each opponent
       set: Release.Outsiders,
       
     },{
+      foiling: Foiling.R,
+      identifier: "OUT161",
+      image: "OUT161.width-450",
+      set: Release.Outsiders,
+      
+    },{
       foiling: Foiling.C,
       identifier: "OUT161",
-      image: "OUT161_Marvel",
+      image: "EN_OUT_marvels_v1.0_FINAL_noopw3.width-450",
       set: Release.Outsiders,
       treatment: Treatment.AA,
     },],
@@ -117722,7 +118598,7 @@ Create a Ponder token under your control and a Frailty token under each opponent
     rarity: Rarity.Majestic,
     setIdentifiers: ["OUT161"],
     sets: [Release.Outsiders],
-    specialImage: "OUT161_Marvel",
+    specialImage: "EN_OUT_marvels_v1.0_FINAL_noopw3.width-450",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Assassin / Ranger Action",
@@ -117764,6 +118640,12 @@ Create a Ponder token under your control and an Inertia token under each opponen
       treatment: Treatment.EA,
     },{
       
+      identifier: "OUT162",
+      image: "OUT162.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT162",
       image: "OUT162.width-450",
       set: Release.Outsiders,
@@ -117811,6 +118693,12 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
       image: "OUT163.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT163",
+      image: "OUT163.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -117850,6 +118738,12 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     name: "Death Touch",
     printings: [{
       
+      identifier: "OUT164",
+      image: "OUT164.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT164",
       image: "OUT164.width-450",
       set: Release.Outsiders,
@@ -117903,6 +118797,12 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
       image: "OUT165.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT165",
+      image: "OUT165.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -117948,6 +118848,12 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
       treatment: Treatment.EA,
     },{
       
+      identifier: "OUT166",
+      image: "OUT166.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT166",
       image: "OUT166.width-450",
       set: Release.Outsiders,
@@ -118001,6 +118907,12 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
       image: "OUT167.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT167",
+      image: "OUT167.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -118040,6 +118952,12 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     name: "Virulent Touch",
     printings: [{
       
+      identifier: "OUT168",
+      image: "OUT168.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT168",
       image: "OUT168.width-450",
       set: Release.Outsiders,
@@ -118087,6 +119005,12 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
       image: "OUT169.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT169",
+      image: "OUT169.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -118126,6 +119050,12 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
     name: "Virulent Touch",
     printings: [{
       
+      identifier: "OUT170",
+      image: "OUT170.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT170",
       image: "OUT170.width-450",
       set: Release.Outsiders,
@@ -118173,6 +119103,12 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
       image: "OUT171.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT171",
+      image: "OUT171.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -118214,6 +119150,12 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
       image: "OUT172.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT172",
+      image: "OUT172.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -118251,6 +119193,12 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
     name: "Inertia Trap",
     printings: [{
       
+      identifier: "OUT173",
+      image: "OUT173.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT173",
       image: "OUT173.width-450",
       set: Release.Outsiders,
@@ -118351,6 +119299,18 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
       image: "OUT175.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT175",
+      image: "OUT175.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "OUT175",
+      image: "OUT175.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -118388,6 +119348,18 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
     name: "Seeker's Gilet",
     printings: [{
       
+      identifier: "OUT176",
+      image: "OUT176.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT176",
+      image: "OUT176.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.C,
       identifier: "OUT176",
       image: "OUT176.width-450",
       set: Release.Outsiders,
@@ -118433,6 +119405,18 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
       image: "OUT177.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT177",
+      image: "OUT177.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "OUT177",
+      image: "OUT177.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -118470,6 +119454,18 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
     name: "Seeker's Leggings",
     printings: [{
       
+      identifier: "OUT178",
+      image: "OUT178.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT178",
+      image: "OUT178.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.C,
       identifier: "OUT178",
       image: "OUT178.width-450",
       set: Release.Outsiders,
@@ -118515,6 +119511,18 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
       image: "OUT179.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT179",
+      image: "OUT179.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "OUT179",
+      image: "OUT179.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -118552,6 +119560,18 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
     name: "Threadbare Tunic",
     printings: [{
       
+      identifier: "OUT180",
+      image: "OUT180.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT180",
+      image: "OUT180.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.C,
       identifier: "OUT180",
       image: "OUT180.width-450",
       set: Release.Outsiders,
@@ -118597,6 +119617,18 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
       image: "OUT181.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT181",
+      image: "OUT181.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "OUT181",
+      image: "OUT181.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -118634,6 +119666,18 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
     name: "Fleet Foot Sandals",
     printings: [{
       
+      identifier: "OUT182",
+      image: "OUT182.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT182",
+      image: "OUT182.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.C,
       identifier: "OUT182",
       image: "OUT182.width-450",
       set: Release.Outsiders,
@@ -118679,6 +119723,12 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
       image: "OUT183.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT183",
+      image: "OUT183.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -118720,6 +119770,12 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
       image: "OUT184.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT184",
+      image: "OUT184.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -118757,6 +119813,12 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
     name: "Give and Take",
     printings: [{
       
+      identifier: "OUT185",
+      image: "OUT185.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT185",
       image: "OUT185.width-450",
       set: Release.Outsiders,
@@ -118804,6 +119866,12 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
       image: "OUT186.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT186",
+      image: "OUT186.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -118841,6 +119909,12 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
     name: "Burdens of the Past",
     printings: [{
       
+      identifier: "OUT187",
+      image: "OUT187.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT187",
       image: "OUT187.width-450",
       set: Release.Outsiders,
@@ -118890,6 +119964,12 @@ If there are 10 or more defense reaction cards in their graveyard, draw a card.
       image: "OUT188.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT188",
+      image: "OUT188.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -118935,6 +120015,12 @@ The next attack action card you play from arsenal this turn gains +3{p}.
       image: "OUT189.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT189",
+      image: "OUT189.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -118972,6 +120058,12 @@ The next attack action card you play from arsenal this turn gains +3{p}.
     name: "Humble",
     printings: [{
       
+      identifier: "OUT190",
+      image: "OUT190.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT190",
       image: "OUT190.width-450",
       set: Release.Outsiders,
@@ -119017,6 +120109,12 @@ The next attack action card you play from arsenal this turn gains +3{p}.
       image: "OUT191.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT191",
+      image: "OUT191.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -119054,6 +120152,12 @@ The next attack action card you play from arsenal this turn gains +3{p}.
     name: "Infectious Host",
     printings: [{
       
+      identifier: "OUT192",
+      image: "OUT192.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT192",
       image: "OUT192.width-450",
       set: Release.Outsiders,
@@ -119099,6 +120203,12 @@ The next attack action card you play from arsenal this turn gains +3{p}.
       image: "OUT193.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT193",
+      image: "OUT193.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -119136,6 +120246,12 @@ The next attack action card you play from arsenal this turn gains +3{p}.
     name: "Infectious Host",
     printings: [{
       
+      identifier: "OUT194",
+      image: "OUT194.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT194",
       image: "OUT194.width-450",
       set: Release.Outsiders,
@@ -119181,6 +120297,12 @@ The next attack action card you play from arsenal this turn gains +3{p}.
       image: "OUT195.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT195",
+      image: "OUT195.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -119218,6 +120340,12 @@ The next attack action card you play from arsenal this turn gains +3{p}.
     name: "Looking for a Scrap",
     printings: [{
       
+      identifier: "OUT196",
+      image: "OUT196.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT196",
       image: "OUT196.width-450",
       set: Release.Outsiders,
@@ -119263,6 +120391,12 @@ The next attack action card you play from arsenal this turn gains +3{p}.
       image: "OUT197.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT197",
+      image: "OUT197.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -119300,6 +120434,12 @@ The next attack action card you play from arsenal this turn gains +3{p}.
     name: "Wreck Havoc",
     printings: [{
       
+      identifier: "OUT198",
+      image: "OUT198.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT198",
       image: "OUT198.width-450",
       set: Release.Outsiders,
@@ -119347,6 +120487,12 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
       image: "OUT199.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT199",
+      image: "OUT199.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -119386,6 +120532,12 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     name: "Wreck Havoc",
     printings: [{
       
+      identifier: "OUT200",
+      image: "OUT200.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT200",
       image: "OUT200.width-450",
       set: Release.Outsiders,
@@ -119433,6 +120585,12 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
       image: "OUT201.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT201",
+      image: "OUT201.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -119470,6 +120628,12 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     name: "Cut Down to Size",
     printings: [{
       
+      identifier: "OUT202",
+      image: "OUT202.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT202",
       image: "OUT202.width-450",
       set: Release.Outsiders,
@@ -119515,6 +120679,12 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
       image: "OUT203.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT203",
+      image: "OUT203.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -119552,6 +120722,12 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     name: "Destructive Deliberation",
     printings: [{
       
+      identifier: "OUT204",
+      image: "OUT204.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT204",
       image: "OUT204.width-450",
       set: Release.Outsiders,
@@ -119597,6 +120773,12 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
       image: "OUT205.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT205",
+      image: "OUT205.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -119634,6 +120816,12 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     name: "Destructive Deliberation",
     printings: [{
       
+      identifier: "OUT206",
+      image: "OUT206.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT206",
       image: "OUT206.width-450",
       set: Release.Outsiders,
@@ -119679,6 +120867,12 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
       image: "OUT207.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT207",
+      image: "OUT207.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -119716,6 +120910,12 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     name: "Feisty Locals",
     printings: [{
       
+      identifier: "OUT208",
+      image: "OUT208.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT208",
       image: "OUT208.width-450",
       set: Release.Outsiders,
@@ -119761,6 +120961,12 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
       image: "OUT209.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT209",
+      image: "OUT209.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -119798,6 +121004,12 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     name: "Freewheeling Renegades",
     printings: [{
       
+      identifier: "OUT210",
+      image: "OUT210.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT210",
       image: "OUT210.width-450",
       set: Release.Outsiders,
@@ -119843,6 +121055,12 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
       image: "OUT211.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT211",
+      image: "OUT211.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -119880,6 +121098,12 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     name: "Freewheeling Renegades",
     printings: [{
       
+      identifier: "OUT212",
+      image: "OUT212.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT212",
       image: "OUT212.width-450",
       set: Release.Outsiders,
@@ -119925,6 +121149,12 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
       image: "OUT219.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT219",
+      image: "OUT219.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -119962,6 +121192,12 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     name: "Spring Load",
     printings: [{
       
+      identifier: "OUT220",
+      image: "OUT220.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT220",
       image: "OUT220.width-450",
       set: Release.Outsiders,
@@ -120007,6 +121243,12 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
       image: "OUT221.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT221",
+      image: "OUT221.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -120044,6 +121286,12 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     name: "Scout the Periphery",
     printings: [{
       
+      identifier: "OUT225",
+      image: "OUT225.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT225",
       image: "OUT225.width-450",
       set: Release.Outsiders,
@@ -120093,6 +121341,12 @@ The next attack action card you play from arsenal this turn gains +3{p}.
       image: "OUT226.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT226",
+      image: "OUT226.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -120134,6 +121388,12 @@ The next attack action card you play from arsenal this turn gains +2{p}.
     name: "Scout the Periphery",
     printings: [{
       
+      identifier: "OUT227",
+      image: "OUT227.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT227",
       image: "OUT227.width-450",
       set: Release.Outsiders,
@@ -120183,6 +121443,12 @@ The next attack action card you play from arsenal this turn gains +1{p}.
       image: "OUT228.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT228",
+      image: "OUT228.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -120224,6 +121490,12 @@ The next attack action card you play from arsenal this turn gains +1{p}.
       image: "OUT229.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT229",
+      image: "OUT229.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -120261,6 +121533,12 @@ The next attack action card you play from arsenal this turn gains +1{p}.
     name: "Brush Off",
     printings: [{
       
+      identifier: "OUT230",
+      image: "OUT230.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT230",
       image: "OUT230.width-450",
       set: Release.Outsiders,
@@ -120312,6 +121590,12 @@ The next attack action card you play from arsenal this turn gains +1{p}.
       image: "OUT231.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT231",
+      image: "OUT231.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
@@ -120355,6 +121639,12 @@ Create a Ponder token.`,
       image: "OUT232.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT232",
+      image: "OUT232.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -120394,6 +121684,12 @@ Create a Ponder token.`,
     name: "Peace of Mind",
     printings: [{
       
+      identifier: "OUT233",
+      image: "OUT233.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "OUT233",
       image: "OUT233.width-450",
       set: Release.Outsiders,
