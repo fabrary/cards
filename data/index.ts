@@ -17,53 +17,45 @@
   } from './interfaces';
 
   const cards1: Card[] = [{
-    artists: ["Mark Poole"],
-    cardIdentifier: "plague-hive-yellow",
-    classes: [Class.Assassin,Class.Ranger],
-    defaultImage: "OUT000",
-    name: "Plague Hive",
+    artists: ["Andy Aslamov"],
+    cardIdentifier: "theryon-magister-of-justice",
+    classes: [Class.Adjudicator],
+    defaultImage: "JDG008",
+    name: "Theryon, Magister of Justice",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "OUT000",
-      image: "OUT000",
-      set: Release.Outsiders,
-      
-    },{
       foiling: Foiling.R,
-      identifier: "OUT000",
-      image: "OUT000",
-      set: Release.Outsiders,
+      identifier: "JDG008",
+      image: "JDG008",
+      set: Release.Promos,
       
     },],
-    rarities: [Rarity.Fabled],
-    rarity: Rarity.Fabled,
-    setIdentifiers: ["OUT000"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT000",
-    subtypes: [Subtype.Gem],
-    types: [Type.Resource],
-    typeText: "Assassin / Ranger Resource – Gem",
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["JDG008"],
+    sets: [Release.Promos],
+    specialImage: "JDG008",
+    subtypes: [],
+    types: [Type.Hero],
+    typeText: "Light Adjudicator Hero",
 
     
     
-    functionalText: `**Legendary**
-
-When you pitch Plague Hive, for each opposing hero, choose Inertia, Frailty, or Bloodrot Pox at random and create that token under their control.`,
+    functionalText: `The first time each turn another hero destroys a card they don’t control, you may pay {r}{r}. If you do, they destroy a non-hero permanent they control.`,
+    
+    hero: Hero.Theryon,
+    intellect: 4,
+    
+    
+    life: 20,
+    
+    
+    
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
     
     
     
     
-    keywords: [Keyword.Legendary],
-    
-    
-    pitch: 2,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
+    talents: [Talent.Light],
     
   },{
     artists: ["Sam Yang"],
@@ -329,6 +321,49 @@ You create a Copper, Silver, and Gold.`,
     
     
     specializations: [Hero.Yorick],
+    
+    
+  },{
+    artists: ["Andy Aslamov"],
+    cardIdentifier: "good-deeds-dont-go-unnoticed-yellow",
+    classes: [Class.Generic],
+    defaultImage: "LSS006",
+    name: "Good Deeds Don’t Go Unnoticed",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LSS006",
+      image: "LSS006",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LSS006"],
+    sets: [Release.Promos],
+    specialImage: "LSS006",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action – Aura",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `At the start of each other hero’s turn, choose 1; they draw a card, they gain {r}, they gain 1{h}, or their next attack this turn gains +1{p}.
+
+At the start of your turn, destroy this. If another hero drew a card from this, you draw a card, then repeat for {r}, {h}, and {p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    
+    
+    
+    
     
     
   },{
@@ -3932,8 +3967,8 @@ While there are 2 or more cards with cost 3 or greater in your pitch zone, Anoth
       set: Release.WelcomeToRathe,
       
     },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
+    rarities: [Rarity.SuperRare],
+    rarity: Rarity.SuperRare,
     setIdentifiers: ["WTR045"],
     sets: [Release.WelcomeToRathe],
     specialImage: "WTR045",
@@ -6187,11 +6222,17 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
       image: "OUT046.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "KAT001",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
     rarity: Rarity.Token,
-    setIdentifiers: ["HER007","HER056","XXX004","KSU002","1HP087","WTR077","OUT046"],
-    sets: [Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.Outsiders],
+    setIdentifiers: ["HER007","HER056","XXX004","KSU002","1HP087","WTR077","OUT046","KAT001"],
+    sets: [Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.Outsiders,Release.KatsuBlitzDeck],
     specialImage: "WTR077",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -6312,11 +6353,23 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
       image: "OUT048.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "BEN002",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
+    },{
+      
+      identifier: "KAT002",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Common,Rarity.Token,Rarity.Rare],
     rarity: Rarity.Token,
-    setIdentifiers: ["LGS003","XXX008","KSU003","KSU004","1HP091","1HP092","WTR078","CRU048","CRU049","OUT048"],
-    sets: [Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar,Release.Outsiders],
+    setIdentifiers: ["LGS003","XXX008","KSU003","KSU004","1HP091","1HP092","WTR078","CRU048","CRU049","OUT048","BEN002","KAT002"],
+    sets: [Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar,Release.Outsiders,Release.BenjiBlitzDeck,Release.KatsuBlitzDeck],
     specialImage: "CRU48.width-450",
     subtypes: [Subtype.Dagger,Subtype.OneHanded],
     types: [Type.Weapon],
@@ -6832,11 +6885,17 @@ Draw a card.`,
       image: "U-WTR086",
       set: Release.WelcomeToRathe,
       
+    },{
+      
+      identifier: "KAT011",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["KSU010","WTR086"],
-    sets: [Release.KatsuHeroDeck,Release.WelcomeToRathe],
+    setIdentifiers: ["KSU010","WTR086","KAT011"],
+    sets: [Release.KatsuHeroDeck,Release.WelcomeToRathe,Release.KatsuBlitzDeck],
     specialImage: "WTR086",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -7423,11 +7482,17 @@ Draw a card.`,
       image: "U-WTR095",
       set: Release.WelcomeToRathe,
       
+    },{
+      
+      identifier: "KAT012",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["KSU013","WTR095"],
-    sets: [Release.KatsuHeroDeck,Release.WelcomeToRathe],
+    setIdentifiers: ["KSU013","WTR095","KAT012"],
+    sets: [Release.KatsuHeroDeck,Release.WelcomeToRathe,Release.KatsuBlitzDeck],
     specialImage: "WTR095",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -7618,11 +7683,23 @@ Draw a card.`,
       image: "OUT077.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "BEN010",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
+    },{
+      
+      identifier: "KAT013",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["LGS017","KSU011","WTR098","OUT077"],
-    sets: [Release.Promos,Release.KatsuHeroDeck,Release.WelcomeToRathe,Release.Outsiders],
+    setIdentifiers: ["LGS017","KSU011","WTR098","OUT077","BEN010","KAT013"],
+    sets: [Release.Promos,Release.KatsuHeroDeck,Release.WelcomeToRathe,Release.Outsiders,Release.BenjiBlitzDeck,Release.KatsuBlitzDeck],
     specialImage: "LGS017",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -7689,11 +7766,23 @@ Draw a card.`,
       image: "OUT078.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "BEN017",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
+    },{
+      
+      identifier: "KAT017",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["LGS018","WTR099","OUT078"],
-    sets: [Release.Promos,Release.WelcomeToRathe,Release.Outsiders],
+    setIdentifiers: ["LGS018","WTR099","OUT078","BEN017","KAT017"],
+    sets: [Release.Promos,Release.WelcomeToRathe,Release.Outsiders,Release.BenjiBlitzDeck,Release.KatsuBlitzDeck],
     specialImage: "LGS018",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -7772,11 +7861,23 @@ Draw a card.`,
       image: "OUT079.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "BEN024",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
+    },{
+      
+      identifier: "KAT022",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["LGS019","IRA008","KSU023","WTR100","OUT079"],
-    sets: [Release.Promos,Release.IraWelcomeDeck,Release.KatsuHeroDeck,Release.WelcomeToRathe,Release.Outsiders],
+    setIdentifiers: ["LGS019","IRA008","KSU023","WTR100","OUT079","BEN024","KAT022"],
+    sets: [Release.Promos,Release.IraWelcomeDeck,Release.KatsuHeroDeck,Release.WelcomeToRathe,Release.Outsiders,Release.BenjiBlitzDeck,Release.KatsuBlitzDeck],
     specialImage: "LGS019",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -8263,11 +8364,17 @@ Draw a card.`,
       image: "OUT083.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "KAT010",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["KSU015","1HP125","WTR107","OUT083"],
-    sets: [Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.Outsiders],
+    setIdentifiers: ["KSU015","1HP125","WTR107","OUT083","KAT010"],
+    sets: [Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.Outsiders,Release.KatsuBlitzDeck],
     specialImage: "WTR107",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -8340,11 +8447,17 @@ Draw a card.`,
       image: "OUT084.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "KAT019",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["KSU020","1HP126","WTR108","OUT084"],
-    sets: [Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.Outsiders],
+    setIdentifiers: ["KSU020","1HP126","WTR108","OUT084","KAT019"],
+    sets: [Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.Outsiders,Release.KatsuBlitzDeck],
     specialImage: "WTR108",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -8411,11 +8524,17 @@ Draw a card.`,
       image: "OUT085.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "KAT024",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["1HP127","WTR109","OUT085"],
-    sets: [Release.HistoryPack1,Release.WelcomeToRathe,Release.Outsiders],
+    setIdentifiers: ["1HP127","WTR109","OUT085","KAT024"],
+    sets: [Release.HistoryPack1,Release.WelcomeToRathe,Release.Outsiders,Release.KatsuBlitzDeck],
     specialImage: "WTR109",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -8494,11 +8613,17 @@ Draw a card.`,
       image: "U-WTR110",
       set: Release.WelcomeToRathe,
       
+    },{
+      
+      identifier: "KAT009",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["LGS007","LGS026","KSU016","1HP131","WTR110"],
-    sets: [Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    setIdentifiers: ["LGS007","LGS026","KSU016","1HP131","WTR110","KAT009"],
+    sets: [Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.KatsuBlitzDeck],
     specialImage: "LGS007",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -8642,11 +8767,17 @@ Draw a card.`,
       image: "U-WTR112",
       set: Release.WelcomeToRathe,
       
+    },{
+      
+      identifier: "KAT023",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["LGS028","KSU024","1HP133","WTR112"],
-    sets: [Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    setIdentifiers: ["LGS028","KSU024","1HP133","WTR112","KAT023"],
+    sets: [Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.KatsuBlitzDeck],
     specialImage: "LGS028",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -11692,11 +11823,17 @@ Target weapon attack gains +1{p}.
       image: "U-WTR154",
       set: Release.WelcomeToRathe,
       
+    },{
+      
+      identifier: "ARA006",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["FAB065","BOL008","CHN007","RNR007","1HP353","WTR154"],
-    sets: [Release.Promos,Release.BoltynBlitzDeck,Release.ChaneBlitzDeck,Release.RhinarHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    setIdentifiers: ["FAB065","BOL008","CHN007","RNR007","1HP353","WTR154","ARA006"],
+    sets: [Release.Promos,Release.BoltynBlitzDeck,Release.ChaneBlitzDeck,Release.RhinarHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.ArakniBlitzDeck],
     specialImage: "WTR154",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -12048,11 +12185,23 @@ Target weapon attack gains +1{p}.
       image: "U-WTR158",
       set: Release.WelcomeToRathe,
       
+    },{
+      
+      identifier: "AZL007",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
+      
+      identifier: "RIP007",
+      image: "",
+      set: Release.RiptideBlitzDeck,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OXO004","BVO007","KSU008","LXI006","DVR006","1HP345","WTR158"],
-    sets: [Release.Promos,Release.BravoBlitzDeck,Release.KatsuHeroDeck,Release.LexiBlitzDeck,Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.WelcomeToRathe],
+    setIdentifiers: ["OXO004","BVO007","KSU008","LXI006","DVR006","1HP345","WTR158","AZL007","RIP007"],
+    sets: [Release.Promos,Release.BravoBlitzDeck,Release.KatsuHeroDeck,Release.LexiBlitzDeck,Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.WelcomeToRathe,Release.AzaleaBlitzDeck,Release.RiptideBlitzDeck],
     specialImage: "WTR158",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -13037,12 +13186,18 @@ Banish Remembrance.`,
     
     
   },{
-    artists: ["Adolfo Navarro"],
+    artists: ["Asur Misoa","Adolfo Navarro"],
     cardIdentifier: "sigil-of-solace-red",
     classes: [Class.Generic],
     defaultImage: "WTR173",
     name: "Sigil of Solace",
     printings: [{
+      
+      identifier: "FAB136",
+      image: "",
+      set: Release.Promos,
+      
+    },{
       
       identifier: "DRO026",
       image: "DRO026.width-450",
@@ -13079,10 +13234,10 @@ Banish Remembrance.`,
       set: Release.WelcomeToRathe,
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["DRO026","1HP387","WTR173"],
-    sets: [Release.DromaiBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    setIdentifiers: ["FAB136","DRO026","1HP387","WTR173"],
+    sets: [Release.Promos,Release.DromaiBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
     specialImage: "WTR173",
     subtypes: [],
     types: [Type.Instant],
@@ -13480,11 +13635,17 @@ Banish Remembrance.`,
       image: "U-WTR179",
       set: Release.WelcomeToRathe,
       
+    },{
+      
+      identifier: "UZU010",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["WTR179"],
-    sets: [Release.WelcomeToRathe],
+    setIdentifiers: ["WTR179","UZU010"],
+    sets: [Release.WelcomeToRathe,Release.UzuriBlitzDeck],
     specialImage: "WTR179",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -14284,11 +14445,17 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
       image: "UPR209",
       set: Release.Uprising,
       
+    },{
+      
+      identifier: "KAT015",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["FAB015","IRA009","KSU017","1HP396","WTR191","UPR209"],
-    sets: [Release.Promos,Release.IraWelcomeDeck,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.Uprising],
+    setIdentifiers: ["FAB015","IRA009","KSU017","1HP396","WTR191","UPR209","KAT015"],
+    sets: [Release.Promos,Release.IraWelcomeDeck,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.Uprising,Release.KatsuBlitzDeck],
     specialImage: "FAB015",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -15809,11 +15976,17 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.`,
       image: "U-WTR214",
       set: Release.WelcomeToRathe,
       
+    },{
+      
+      identifier: "UZU027",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["1HP413","WTR214"],
-    sets: [Release.HistoryPack1,Release.WelcomeToRathe],
+    setIdentifiers: ["1HP413","WTR214","UZU027"],
+    sets: [Release.HistoryPack1,Release.WelcomeToRathe,Release.UzuriBlitzDeck],
     specialImage: "WTR214",
     subtypes: [],
     types: [Type.DefenseReaction],
@@ -19331,11 +19504,17 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
       image: "OUT090.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "AZL001",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["HER014","HER071","1HP222","ARC039","OUT090"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.Outsiders],
+    setIdentifiers: ["HER014","HER071","1HP222","ARC039","OUT090","AZL001"],
+    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.Outsiders,Release.AzaleaBlitzDeck],
     specialImage: "ARC039",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -21100,11 +21279,23 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
       image: "ARC066_Salvage_Shot.width-10000",
       set: Release.ArcaneRising,
       
+    },{
+      
+      identifier: "AZL011",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
+      
+      identifier: "RIP017",
+      image: "",
+      set: Release.RiptideBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["1HP246","ARC066"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    setIdentifiers: ["1HP246","ARC066","AZL011","RIP017"],
+    sets: [Release.HistoryPack1,Release.ArcaneRising,Release.AzaleaBlitzDeck,Release.RiptideBlitzDeck],
     specialImage: "ARC066",
     subtypes: [Subtype.Attack,Subtype.Arrow],
     types: [Type.Action],
@@ -21295,11 +21486,17 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
       image: "U-ARC069",
       set: Release.ArcaneRising,
       
+    },{
+      
+      identifier: "RIP018",
+      image: "",
+      set: Release.RiptideBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["1HP249","ARC069"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    setIdentifiers: ["1HP249","ARC069","RIP018"],
+    sets: [Release.HistoryPack1,Release.ArcaneRising,Release.RiptideBlitzDeck],
     specialImage: "ARC069",
     subtypes: [Subtype.Attack,Subtype.Arrow],
     types: [Type.Action],
@@ -26902,11 +27099,17 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       image: "U-ARC153",
       set: Release.ArcaneRising,
       
+    },{
+      
+      identifier: "AZL006",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["1HP355","ARC153"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    setIdentifiers: ["1HP355","ARC153","AZL006"],
+    sets: [Release.HistoryPack1,Release.ArcaneRising,Release.AzaleaBlitzDeck],
     specialImage: "ARC153-CF",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
@@ -29365,11 +29568,23 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
       image: "OUT213.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "AZL017",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
+      
+      identifier: "RIP021",
+      image: "",
+      set: Release.RiptideBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["DRO021","1HP393","ARC191","OUT213"],
-    sets: [Release.DromaiBlitzDeck,Release.HistoryPack1,Release.ArcaneRising,Release.Outsiders],
+    setIdentifiers: ["DRO021","1HP393","ARC191","OUT213","AZL017","RIP021"],
+    sets: [Release.DromaiBlitzDeck,Release.HistoryPack1,Release.ArcaneRising,Release.Outsiders,Release.AzaleaBlitzDeck,Release.RiptideBlitzDeck],
     specialImage: "ARC191-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -33692,11 +33907,17 @@ At the beginning of your action phase, destroy Stamp Authority.`,
       image: "OUT047.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "BEN001",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Rare,Rarity.Token],
+    rarities: [Rarity.Promo,Rarity.Rare,Rarity.Token,Rarity.Common],
     rarity: Rarity.Token,
-    setIdentifiers: ["HER026","1HP088","CRU047","OUT047"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar,Release.Outsiders],
+    setIdentifiers: ["HER026","1HP088","CRU047","OUT047","BEN001"],
+    sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar,Release.Outsiders,Release.BenjiBlitzDeck],
     specialImage: "CRU047-RF",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -34895,11 +35116,17 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
       image: "U-CRU068",
       set: Release.CrucibleOfWar,
       
+    },{
+      
+      identifier: "BEN025",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["1HP124","CRU068"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    setIdentifiers: ["1HP124","CRU068","BEN025"],
+    sets: [Release.HistoryPack1,Release.CrucibleOfWar,Release.BenjiBlitzDeck],
     specialImage: "CRU068",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -35241,11 +35468,17 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
       image: "U-CRU073",
       set: Release.CrucibleOfWar,
       
+    },{
+      
+      identifier: "BEN020",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["IRA004","1HP135","CRU073"],
-    sets: [Release.IraWelcomeDeck,Release.HistoryPack1,Release.CrucibleOfWar],
+    setIdentifiers: ["IRA004","1HP135","CRU073","BEN020"],
+    sets: [Release.IraWelcomeDeck,Release.HistoryPack1,Release.CrucibleOfWar,Release.BenjiBlitzDeck],
     specialImage: "CRU073",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -38876,11 +39109,17 @@ When this defends, target attack gets -2{p}, unless the attacking hero pays {r}.
       image: "U-CRU135",
       set: Release.CrucibleOfWar,
       
+    },{
+      
+      identifier: "RIP022",
+      image: "",
+      set: Release.RiptideBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["CRU135"],
-    sets: [Release.CrucibleOfWar],
+    setIdentifiers: ["CRU135","RIP022"],
+    sets: [Release.CrucibleOfWar,Release.RiptideBlitzDeck],
     specialImage: "CRU135",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -41809,11 +42048,23 @@ If Promise of Plenty is played from arsenal, it gains **go again**.`,
       image: "U-CRU186",
       set: Release.CrucibleOfWar,
       
+    },{
+      
+      identifier: "BEN026",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
+    },{
+      
+      identifier: "KAT026",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Common,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["IRA011","KSU028","CRU186"],
-    sets: [Release.IraWelcomeDeck,Release.KatsuHeroDeck,Release.CrucibleOfWar],
+    setIdentifiers: ["IRA011","KSU028","CRU186","BEN026","KAT026"],
+    sets: [Release.IraWelcomeDeck,Release.KatsuHeroDeck,Release.CrucibleOfWar,Release.BenjiBlitzDeck,Release.KatsuBlitzDeck],
     specialImage: "CRU186",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -58183,11 +58434,17 @@ Shuffle your deck. Banish Sonata Arcanix.
       image: "U-MON244.width-450",
       set: Release.Monarch,
       
+    },{
+      
+      identifier: "UZU006",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["DRO008","OLD007","RVD006","MON244"],
-    sets: [Release.DromaiBlitzDeck,Release.OldhimBlitzDeck,Release.ClassicBattlesRhinarDorinthea,Release.Monarch],
+    setIdentifiers: ["DRO008","OLD007","RVD006","MON244","UZU006"],
+    sets: [Release.DromaiBlitzDeck,Release.OldhimBlitzDeck,Release.ClassicBattlesRhinarDorinthea,Release.Monarch,Release.UzuriBlitzDeck],
     specialImage: "MON244.width-450",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -58604,11 +58861,17 @@ Shuffle your deck. Banish Sonata Arcanix.
       image: "OUT216.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "AZL018",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
     },],
     rarities: [Rarity.Rare,Rarity.Common],
     rarity: Rarity.Rare,
-    setIdentifiers: ["MON251","OUT216"],
-    sets: [Release.Monarch,Release.Outsiders],
+    setIdentifiers: ["MON251","OUT216","AZL018"],
+    sets: [Release.Monarch,Release.Outsiders,Release.AzaleaBlitzDeck],
     specialImage: "MON251.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -78194,12 +78457,18 @@ At the start of your turn, if you control 3 or more Seismic Surge tokens, cards 
       image: "EVR020.width-450",
       set: Release.Everfest,
       
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.C,
+      identifier: "EVR020",
+      image: "EVR020-CF.width-450",
+      set: Release.Everfest,
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Promo,Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["FAB076","EVR020"],
     sets: [Release.Promos,Release.Everfest],
-    specialImage: "EVR020.width-450",
+    specialImage: "EVR020-CF.width-450",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
     typeText: "Guardian Equipment – Chest",
@@ -78368,7 +78637,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
     
     
     
-    keywords: [Keyword.Battleworn,Keyword.Temper],
+    
     
     
     pitch: 3,
@@ -78993,6 +79262,12 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
     defaultImage: "EVR037.width-450",
     name: "Mask of the Pouncing Lynx",
     printings: [{
+      foiling: Foiling.G,
+      identifier: "FAB079",
+      image: "",
+      set: Release.Promos,
+      
+    },{
       edition: ReleaseEdition.First,
       identifier: "EVR037",
       image: "EVR037.width-450",
@@ -79005,10 +79280,10 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
       set: Release.Everfest,
       
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Promo,Rarity.Majestic],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["EVR037"],
-    sets: [Release.Everfest],
+    setIdentifiers: ["FAB079","EVR037"],
+    sets: [Release.Promos,Release.Everfest],
     specialImage: "EVR037.width-450",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -79522,11 +79797,17 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
       image: "OUT086.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "BEN009",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["EVR047","OUT086"],
-    sets: [Release.Everfest,Release.Outsiders],
+    setIdentifiers: ["EVR047","OUT086","BEN009"],
+    sets: [Release.Everfest,Release.Outsiders,Release.BenjiBlitzDeck],
     specialImage: "EVR047.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -79580,11 +79861,17 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
       image: "OUT087.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "BEN015",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["EVR048","OUT087"],
-    sets: [Release.Everfest,Release.Outsiders],
+    setIdentifiers: ["EVR048","OUT087","BEN015"],
+    sets: [Release.Everfest,Release.Outsiders,Release.BenjiBlitzDeck],
     specialImage: "EVR048.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -80977,8 +81264,8 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
       set: Release.Everfest,
       
     },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
     setIdentifiers: ["EVR075"],
     sets: [Release.Everfest],
     specialImage: "EVR075.width-450",
@@ -86971,11 +87258,23 @@ The second time you attack with Dawnblade each turn, it gains +1{p} until end of
       image: "RVD004.width-450",
       set: Release.ClassicBattlesRhinarDorinthea,
       
+    },{
+      
+      identifier: "ARA004",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
+      identifier: "KAT004",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["LGS100","DVR004","RVD004"],
-    sets: [Release.Promos,Release.ClassicBattlesRhinarDorinthea],
+    setIdentifiers: ["LGS100","DVR004","RVD004","ARA004","KAT004"],
+    sets: [Release.Promos,Release.ClassicBattlesRhinarDorinthea,Release.ArakniBlitzDeck,Release.KatsuBlitzDeck],
     specialImage: "DVR004.width-450",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -87374,7 +87673,7 @@ Your next sword attack this turn gains +2{p}.`,
 
     cost: 2,
     defense: 4,
-    functionalText: `*(Defense reactions can be played from hand or arsenal to defend. Toughen Up costs 2 to play.)*`,
+    
     
     
     
@@ -97672,11 +97971,17 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
       image: "UPR184",
       set: Release.Uprising,
       
+    },{
+      
+      identifier: "UZU004",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["UPR184"],
-    sets: [Release.Uprising],
+    setIdentifiers: ["UPR184","UZU004"],
+    sets: [Release.Uprising,Release.UzuriBlitzDeck],
     specialImage: "UPR184",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -97784,11 +98089,17 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
       image: "UPR186",
       set: Release.Uprising,
       
+    },{
+      
+      identifier: "KAT006",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["FAI006","UPR186"],
-    sets: [Release.FaiBlitzDeck,Release.Uprising],
+    setIdentifiers: ["FAI006","UPR186","KAT006"],
+    sets: [Release.FaiBlitzDeck,Release.Uprising,Release.KatsuBlitzDeck],
     specialImage: "UPR186",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -105156,11 +105467,23 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
       image: "OUT004.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "ARA002",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
+      identifier: "UZU002",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Rare,Rarity.Token],
+    rarities: [Rarity.Promo,Rarity.Rare,Rarity.Token,Rarity.Common],
     rarity: Rarity.Token,
-    setIdentifiers: ["LGS111","DYN115","DYN116","OUT004"],
-    sets: [Release.Promos,Release.Dynasty,Release.Outsiders],
+    setIdentifiers: ["LGS111","DYN115","DYN116","OUT004","ARA002","UZU002"],
+    sets: [Release.Promos,Release.Dynasty,Release.Outsiders,Release.ArakniBlitzDeck,Release.UzuriBlitzDeck],
     specialImage: "dyn_card_Spider_s_Bite.width-10000",
     subtypes: [Subtype.Dagger,Subtype.OneHanded],
     types: [Type.Weapon],
@@ -107464,11 +107787,17 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
       image: "DYN162",
       set: Release.Dynasty,
       
+    },{
+      
+      identifier: "RIP015",
+      image: "",
+      set: Release.RiptideBlitzDeck,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["LGS119","DYN162"],
-    sets: [Release.Promos,Release.Dynasty],
+    setIdentifiers: ["LGS119","DYN162","RIP015"],
+    sets: [Release.Promos,Release.Dynasty,Release.RiptideBlitzDeck],
     specialImage: "dyn_card_Hemorrhage_Bore_p1.width-10000",
     subtypes: [Subtype.Attack,Subtype.Arrow],
     types: [Type.Action],
@@ -111306,6 +111635,12 @@ When you equip Crown of Dominion, create a Gold token.`,
       image: "DYN242",
       set: Release.Dynasty,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "DYN242",
+      image: "DYN242",
+      set: Release.Dynasty,
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -111414,11 +111749,17 @@ When you equip Crown of Dominion, create a Gold token.`,
       image: "OUT237.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "UZU031",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["LGS128","DYN244","OUT237"],
-    sets: [Release.Promos,Release.Dynasty,Release.Outsiders],
+    setIdentifiers: ["LGS128","DYN244","OUT237","UZU031"],
+    sets: [Release.Promos,Release.Dynasty,Release.Outsiders,Release.UzuriBlitzDeck],
     specialImage: "DYN244",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
@@ -111484,6 +111825,55 @@ When you equip Crown of Dominion, create a Gold token.`,
     
     
     
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mark Poole"],
+    cardIdentifier: "plague-hive-yellow",
+    classes: [Class.Assassin,Class.Ranger],
+    defaultImage: "OUT000.width-450",
+    name: "Plague Hive",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "OUT000",
+      image: "OUT000.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "OUT000",
+      image: "OUT000.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Fabled],
+    rarity: Rarity.Fabled,
+    setIdentifiers: ["OUT000"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT000.width-450",
+    subtypes: [Subtype.Gem],
+    types: [Type.Resource],
+    typeText: "Assassin / Ranger Resource – Gem",
+
+    
+    
+    functionalText: `**Legendary**
+
+When you pitch Plague Hive, for each opposing hero, choose Inertia, Frailty, or Bloodrot Pox at random and create that token under their control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Legendary],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -111567,11 +111957,17 @@ When you equip Crown of Dominion, create a Gold token.`,
       image: "OUT002.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "UZU001",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Token],
+    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
     rarity: Rarity.Token,
-    setIdentifiers: ["HER076","HER082","OUT002"],
-    sets: [Release.Promos,Release.Outsiders],
+    setIdentifiers: ["HER076","HER082","OUT002","UZU001"],
+    sets: [Release.Promos,Release.Outsiders,Release.UzuriBlitzDeck],
     specialImage: "OUT002.width-450",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -111620,11 +112016,17 @@ When you equip Crown of Dominion, create a Gold token.`,
       image: "OUT003.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "ARA001",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Token],
+    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
     rarity: Rarity.Token,
-    setIdentifiers: ["HER079","HER081","OUT003"],
-    sets: [Release.Promos,Release.Outsiders],
+    setIdentifiers: ["HER079","HER081","OUT003","ARA001"],
+    sets: [Release.Promos,Release.Outsiders,Release.ArakniBlitzDeck],
     specialImage: "OUT003.width-450",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -111901,7 +112303,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
     },{
       foiling: Foiling.C,
       identifier: "OUT011",
-      image: "",
+      image: "OUT011_EA",
       set: Release.Outsiders,
       treatment: Treatment.EA,
     },],
@@ -111909,7 +112311,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB123","OUT011"],
     sets: [Release.Promos,Release.Outsiders],
-    specialImage: "OUT011.width-450",
+    specialImage: "OUT011_EA",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
     typeText: "Assassin Equipment - Chest",
@@ -111974,7 +112376,7 @@ When this hits a hero, banish the top card of their deck. You may play it until 
     
     
     
-    
+    keywords: [Keyword.Stealth],
     
     
     pitch: 1,
@@ -112119,7 +112521,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     
     
     
-    
+    keywords: [Keyword.Stealth],
     
     
     pitch: 1,
@@ -112168,7 +112570,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     
     
     
-    
+    keywords: [Keyword.Stealth],
     
     
     pitch: 2,
@@ -112217,7 +112619,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     
     
     
-    
+    keywords: [Keyword.Stealth],
     
     
     pitch: 3,
@@ -112247,11 +112649,17 @@ Defense reactions can't be played to Back Stab's chain link.`,
       image: "OUT018.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "UZU007",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["OUT018"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT018","UZU007"],
+    sets: [Release.Outsiders,Release.UzuriBlitzDeck],
     specialImage: "OUT018.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -112394,11 +112802,17 @@ Defense reactions can't be played to Back Stab's chain link.`,
       image: "OUT021.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "ARA018",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["LGS130","OUT021"],
-    sets: [Release.Promos,Release.Outsiders],
+    setIdentifiers: ["LGS130","OUT021","ARA018"],
+    sets: [Release.Promos,Release.Outsiders,Release.ArakniBlitzDeck],
     specialImage: "card_Spike_with_Bloodrot.width-10000",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -112547,11 +112961,23 @@ Defense reactions can't be played to Back Stab's chain link.`,
       image: "OUT024.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "ARA008",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
+      identifier: "UZU013",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT024"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT024","ARA008","UZU013"],
+    sets: [Release.Outsiders,Release.ArakniBlitzDeck,Release.UzuriBlitzDeck],
     specialImage: "OUT024.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -112566,7 +112992,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     
     
     
-    
+    keywords: [Keyword.Stealth],
     
     
     pitch: 1,
@@ -112596,11 +113022,23 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
       image: "OUT025.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "ARA020",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
+      identifier: "UZU017",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT025"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT025","ARA020","UZU017"],
+    sets: [Release.Outsiders,Release.ArakniBlitzDeck,Release.UzuriBlitzDeck],
     specialImage: "OUT025.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -112615,7 +113053,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     
     
     
-    
+    keywords: [Keyword.Stealth],
     
     
     pitch: 2,
@@ -112645,11 +113083,23 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
       image: "OUT026.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "ARA022",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
+      identifier: "UZU021",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT026"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT026","ARA022","UZU021"],
+    sets: [Release.Outsiders,Release.ArakniBlitzDeck,Release.UzuriBlitzDeck],
     specialImage: "OUT026.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -112664,7 +113114,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     
     
     
-    
+    keywords: [Keyword.Stealth],
     
     
     pitch: 3,
@@ -112694,11 +113144,23 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
       image: "OUT027.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "ARA009",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
+      identifier: "UZU014",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT027"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT027","ARA009","UZU014"],
+    sets: [Release.Outsiders,Release.ArakniBlitzDeck,Release.UzuriBlitzDeck],
     specialImage: "OUT027.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -112713,7 +113175,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     
     
     
-    keywords: [Keyword.Dominate],
+    keywords: [Keyword.Stealth,Keyword.Dominate],
     
     
     pitch: 1,
@@ -112743,11 +113205,17 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
       image: "OUT028.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "UZU018",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT028"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT028","UZU018"],
+    sets: [Release.Outsiders,Release.UzuriBlitzDeck],
     specialImage: "OUT028.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -112762,7 +113230,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     
     
     
-    keywords: [Keyword.Dominate],
+    keywords: [Keyword.Stealth,Keyword.Dominate],
     
     
     pitch: 2,
@@ -112792,11 +113260,17 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
       image: "OUT029.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "UZU022",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT029"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT029","UZU022"],
+    sets: [Release.Outsiders,Release.UzuriBlitzDeck],
     specialImage: "OUT029.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -112811,7 +113285,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     
     
     
-    keywords: [Keyword.Dominate],
+    keywords: [Keyword.Stealth,Keyword.Dominate],
     
     
     pitch: 3,
@@ -112841,11 +113315,17 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
       image: "OUT030.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "ARA010",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT030"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT030","ARA010"],
+    sets: [Release.Outsiders,Release.ArakniBlitzDeck],
     specialImage: "OUT030.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -112860,7 +113340,7 @@ Damage that would be dealt by Malign can't be prevented.`,
     
     
     
-    
+    keywords: [Keyword.Stealth],
     
     
     pitch: 1,
@@ -112909,7 +113389,7 @@ Damage that would be dealt by Malign can't be prevented.`,
     
     
     
-    
+    keywords: [Keyword.Stealth],
     
     
     pitch: 2,
@@ -112958,7 +113438,7 @@ Damage that would be dealt by Malign can't be prevented.`,
     
     
     
-    
+    keywords: [Keyword.Stealth],
     
     
     pitch: 3,
@@ -112988,11 +113468,17 @@ Damage that would be dealt by Malign can't be prevented.`,
       image: "OUT033.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "ARA011",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT033"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT033","ARA011"],
+    sets: [Release.Outsiders,Release.ArakniBlitzDeck],
     specialImage: "OUT033.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -113007,7 +113493,7 @@ The next attack with **stealth** you play this combat chain gains +1{p}.`,
     
     
     
-    
+    keywords: [Keyword.Stealth],
     
     
     pitch: 1,
@@ -113037,11 +113523,17 @@ The next attack with **stealth** you play this combat chain gains +1{p}.`,
       image: "OUT034.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "ARA021",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT034"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT034","ARA021"],
+    sets: [Release.Outsiders,Release.ArakniBlitzDeck],
     specialImage: "OUT034.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -113056,7 +113548,7 @@ The next attack with **stealth** you play this combat chain gains +1{p}.`,
     
     
     
-    
+    keywords: [Keyword.Stealth],
     
     
     pitch: 2,
@@ -113086,11 +113578,23 @@ The next attack with **stealth** you play this combat chain gains +1{p}.`,
       image: "OUT035.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "ARA023",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
+      identifier: "UZU023",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT035"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT035","ARA023","UZU023"],
+    sets: [Release.Outsiders,Release.ArakniBlitzDeck,Release.UzuriBlitzDeck],
     specialImage: "OUT035.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -113105,7 +113609,7 @@ The next attack with **stealth** you play this combat chain gains +1{p}.`,
     
     
     
-    
+    keywords: [Keyword.Stealth],
     
     
     pitch: 3,
@@ -113135,11 +113639,23 @@ The next attack with **stealth** you play this combat chain gains +1{p}.`,
       image: "OUT036.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "ARA012",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
+      identifier: "UZU015",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT036"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT036","ARA012","UZU015"],
+    sets: [Release.Outsiders,Release.ArakniBlitzDeck,Release.UzuriBlitzDeck],
     specialImage: "OUT036.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -113154,7 +113670,7 @@ When this hits a hero, create an Inertia token under their control.`,
     
     
     
-    
+    keywords: [Keyword.Stealth],
     
     
     pitch: 1,
@@ -113184,11 +113700,17 @@ When this hits a hero, create an Inertia token under their control.`,
       image: "OUT037.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "UZU019",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT037"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT037","UZU019"],
+    sets: [Release.Outsiders,Release.UzuriBlitzDeck],
     specialImage: "OUT037.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -113203,7 +113725,7 @@ When this hits a hero, create an Inertia token under their control.`,
     
     
     
-    
+    keywords: [Keyword.Stealth],
     
     
     pitch: 2,
@@ -113233,11 +113755,23 @@ When this hits a hero, create an Inertia token under their control.`,
       image: "OUT038.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "ARA024",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
+      identifier: "UZU024",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT038"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT038","ARA024","UZU024"],
+    sets: [Release.Outsiders,Release.ArakniBlitzDeck,Release.UzuriBlitzDeck],
     specialImage: "OUT038.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -113252,7 +113786,7 @@ When this hits a hero, create an Inertia token under their control.`,
     
     
     
-    
+    keywords: [Keyword.Stealth],
     
     
     pitch: 3,
@@ -113282,11 +113816,17 @@ When this hits a hero, create an Inertia token under their control.`,
       image: "OUT039.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "ARA013",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT039"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT039","ARA013"],
+    sets: [Release.Outsiders,Release.ArakniBlitzDeck],
     specialImage: "OUT039.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -113301,7 +113841,7 @@ When this hits a hero, create a Frailty token under their control.`,
     
     
     
-    
+    keywords: [Keyword.Stealth],
     
     
     pitch: 1,
@@ -113331,11 +113871,17 @@ When this hits a hero, create a Frailty token under their control.`,
       image: "OUT040.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "UZU020",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT040"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT040","UZU020"],
+    sets: [Release.Outsiders,Release.UzuriBlitzDeck],
     specialImage: "OUT040.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -113350,7 +113896,7 @@ When this hits a hero, create a Frailty token under their control.`,
     
     
     
-    
+    keywords: [Keyword.Stealth],
     
     
     pitch: 2,
@@ -113380,11 +113926,23 @@ When this hits a hero, create a Frailty token under their control.`,
       image: "OUT041.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "ARA025",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
+      identifier: "UZU025",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT041"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT041","ARA025","UZU025"],
+    sets: [Release.Outsiders,Release.ArakniBlitzDeck,Release.UzuriBlitzDeck],
     specialImage: "OUT041.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -113399,7 +113957,7 @@ When this hits a hero, create a Frailty token under their control.`,
     
     
     
-    
+    keywords: [Keyword.Stealth],
     
     
     pitch: 3,
@@ -113429,11 +113987,17 @@ When this hits a hero, create a Frailty token under their control.`,
       image: "OUT042.original",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "ARA016",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT042"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT042","ARA016"],
+    sets: [Release.Outsiders,Release.ArakniBlitzDeck],
     specialImage: "OUT042.original",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -113523,11 +114087,23 @@ When this hits a hero, create a Frailty token under their control.`,
       image: "OUT044.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "ARA026",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
+      identifier: "UZU026",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT044"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT044","ARA026","UZU026"],
+    sets: [Release.Outsiders,Release.ArakniBlitzDeck,Release.UzuriBlitzDeck],
     specialImage: "OUT044.width-450",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -113576,11 +114152,17 @@ When this hits a hero, create a Frailty token under their control.`,
       image: "OUT049.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "KAT003",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT049"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT049","KAT003"],
+    sets: [Release.Outsiders,Release.KatsuBlitzDeck],
     specialImage: "OUT049.width-450",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -113923,11 +114505,17 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "OUT056.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "KAT007",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["OUT056"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT056","KAT007"],
+    sets: [Release.Outsiders,Release.KatsuBlitzDeck],
     specialImage: "OUT056.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -114158,11 +114746,17 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "OUT061.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "BEN023",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["OUT061"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT061","BEN023"],
+    sets: [Release.Outsiders,Release.BenjiBlitzDeck],
     specialImage: "OUT061.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -114370,11 +114964,17 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "OUT065.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "BEN008",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT065"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT065","BEN008"],
+    sets: [Release.Outsiders,Release.BenjiBlitzDeck],
     specialImage: "OUT065.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -114417,11 +115017,17 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "OUT066.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "BEN014",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT066"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT066","BEN014"],
+    sets: [Release.Outsiders,Release.BenjiBlitzDeck],
     specialImage: "OUT066.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -114511,11 +115117,23 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "OUT068.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "BEN018",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
+    },{
+      
+      identifier: "KAT014",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT068"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT068","BEN018","KAT014"],
+    sets: [Release.Outsiders,Release.BenjiBlitzDeck,Release.KatsuBlitzDeck],
     specialImage: "OUT068.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -114560,11 +115178,17 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "OUT069.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "KAT020",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT069"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT069","KAT020"],
+    sets: [Release.Outsiders,Release.KatsuBlitzDeck],
     specialImage: "OUT069.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -114609,11 +115233,23 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "OUT070.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "BEN021",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
+    },{
+      
+      identifier: "KAT025",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT070"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT070","BEN021","KAT025"],
+    sets: [Release.Outsiders,Release.BenjiBlitzDeck,Release.KatsuBlitzDeck],
     specialImage: "OUT070.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -114805,11 +115441,17 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "OUT074.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "KAT008",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT074"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT074","KAT008"],
+    sets: [Release.Outsiders,Release.KatsuBlitzDeck],
     specialImage: "OUT074.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -114854,11 +115496,17 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "OUT075.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "KAT018",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT075"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT075","KAT018"],
+    sets: [Release.Outsiders,Release.KatsuBlitzDeck],
     specialImage: "OUT075.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -114999,11 +115647,23 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "OUT081.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "BEN016",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
+    },{
+      
+      identifier: "KAT016",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT081"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT081","BEN016","KAT016"],
+    sets: [Release.Outsiders,Release.BenjiBlitzDeck,Release.KatsuBlitzDeck],
     specialImage: "OUT081.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -115046,11 +115706,23 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "OUT082.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "BEN022",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
+    },{
+      
+      identifier: "KAT021",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT082"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT082","BEN022","KAT021"],
+    sets: [Release.Outsiders,Release.BenjiBlitzDeck,Release.KatsuBlitzDeck],
     specialImage: "OUT082.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -115154,11 +115826,17 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
       image: "OUT092.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "RIP001",
+      image: "",
+      set: Release.RiptideBlitzDeck,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Token],
+    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
     rarity: Rarity.Token,
-    setIdentifiers: ["HER080","HER083","OUT092"],
-    sets: [Release.Promos,Release.Outsiders],
+    setIdentifiers: ["HER080","HER083","OUT092","RIP001"],
+    sets: [Release.Promos,Release.Outsiders,Release.RiptideBlitzDeck],
     specialImage: "OUT092.width-450",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -115203,11 +115881,23 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
       image: "OUT093.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "AZL002",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
+      
+      identifier: "RIP002",
+      image: "",
+      set: Release.RiptideBlitzDeck,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Token],
+    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
     rarity: Rarity.Token,
-    setIdentifiers: ["LGS129","OUT093"],
-    sets: [Release.Promos,Release.Outsiders],
+    setIdentifiers: ["LGS129","OUT093","AZL002","RIP002"],
+    sets: [Release.Promos,Release.Outsiders,Release.AzaleaBlitzDeck,Release.RiptideBlitzDeck],
     specialImage: "card_Barbed_Castaway.width-10000",
     subtypes: [Subtype.Bow,Subtype.TwoHanded],
     types: [Type.Weapon],
@@ -115261,7 +115951,7 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
     },{
       foiling: Foiling.C,
       identifier: "OUT094",
-      image: "",
+      image: "OUT094_EA",
       set: Release.Outsiders,
       treatment: Treatment.EA,
     },],
@@ -115269,7 +115959,7 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB125","OUT094"],
     sets: [Release.Promos,Release.Outsiders],
-    specialImage: "OUT094.width-450",
+    specialImage: "OUT094_EA",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
     typeText: "Ranger Equipment - Chest",
@@ -115290,7 +115980,7 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
     
     
     
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -115421,11 +116111,17 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
       image: "OUT097.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "AZL003",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Token],
+    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
     rarity: Rarity.Token,
-    setIdentifiers: ["LGS133","OUT097"],
-    sets: [Release.Promos,Release.Outsiders],
+    setIdentifiers: ["LGS133","OUT097","AZL003"],
+    sets: [Release.Promos,Release.Outsiders,Release.AzaleaBlitzDeck],
     specialImage: "OUT097.width-450",
     subtypes: [Subtype.Quiver],
     types: [Type.Equipment],
@@ -115470,11 +116166,17 @@ Whenever an arrow is put face up into your arsenal from your deck, you may pay {
       image: "OUT098.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "RIP003",
+      image: "",
+      set: Release.RiptideBlitzDeck,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Token],
+    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
     rarity: Rarity.Token,
-    setIdentifiers: ["LGS137","OUT098"],
-    sets: [Release.Promos,Release.Outsiders],
+    setIdentifiers: ["LGS137","OUT098","RIP003"],
+    sets: [Release.Promos,Release.Outsiders,Release.RiptideBlitzDeck],
     specialImage: "OUT098.width-450",
     subtypes: [Subtype.Quiver],
     types: [Type.Equipment],
@@ -115525,11 +116227,17 @@ Whenever an arrow is put face up into your arsenal from your deck, you may pay {
       image: "OUT099.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "AZL004",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT099"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT099","AZL004"],
+    sets: [Release.Outsiders,Release.AzaleaBlitzDeck],
     specialImage: "OUT099.width-450",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -115866,11 +116574,17 @@ If it has an aim counter, it gains "When this hits a hero, destroy a 1H weapon t
       image: "OUT106.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "RIP011",
+      image: "",
+      set: Release.RiptideBlitzDeck,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["OUT106"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT106","RIP011"],
+    sets: [Release.Outsiders,Release.RiptideBlitzDeck],
     specialImage: "OUT106.width-450",
     subtypes: [Subtype.Trap],
     types: [Type.DefenseReaction],
@@ -115913,11 +116627,17 @@ If it has an aim counter, it gains "When this hits a hero, destroy a 1H weapon t
       image: "OUT107.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "RIP012",
+      image: "",
+      set: Release.RiptideBlitzDeck,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["OUT107"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT107","RIP012"],
+    sets: [Release.Outsiders,Release.RiptideBlitzDeck],
     specialImage: "OUT107.width-450",
     subtypes: [Subtype.Trap],
     types: [Type.DefenseReaction],
@@ -115960,11 +116680,17 @@ If it has an aim counter, it gains "When this hits a hero, destroy a 1H weapon t
       image: "OUT108.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "RIP013",
+      image: "",
+      set: Release.RiptideBlitzDeck,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["OUT108"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT108","RIP013"],
+    sets: [Release.Outsiders,Release.RiptideBlitzDeck],
     specialImage: "OUT108.width-450",
     subtypes: [Subtype.Trap],
     types: [Type.DefenseReaction],
@@ -116007,11 +116733,17 @@ If it has an aim counter, it gains "When this hits a hero, destroy a 1H weapon t
       image: "OUT109_MXRPsJl.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "AZL019",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["OUT109"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT109","AZL019"],
+    sets: [Release.Outsiders,Release.AzaleaBlitzDeck],
     specialImage: "OUT109_MXRPsJl.width-450",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -116307,11 +117039,23 @@ If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
       image: "OUT115.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "AZL008",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
+      
+      identifier: "RIP014",
+      image: "",
+      set: Release.RiptideBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT115"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT115","AZL008","RIP014"],
+    sets: [Release.Outsiders,Release.AzaleaBlitzDeck,Release.RiptideBlitzDeck],
     specialImage: "OUT115.width-450",
     subtypes: [Subtype.Attack,Subtype.Arrow],
     types: [Type.Action],
@@ -116356,11 +117100,17 @@ If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
       image: "OUT116.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "RIP024",
+      image: "",
+      set: Release.RiptideBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT116"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT116","RIP024"],
+    sets: [Release.Outsiders,Release.RiptideBlitzDeck],
     specialImage: "OUT116.width-450",
     subtypes: [Subtype.Attack,Subtype.Arrow],
     types: [Type.Action],
@@ -116405,11 +117155,17 @@ If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
       image: "OUT117.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "AZL023",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT117"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT117","AZL023"],
+    sets: [Release.Outsiders,Release.AzaleaBlitzDeck],
     specialImage: "OUT117.width-450",
     subtypes: [Subtype.Attack,Subtype.Arrow],
     types: [Type.Action],
@@ -116454,11 +117210,17 @@ If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
       image: "OUT118.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "AZL009",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT118"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT118","AZL009"],
+    sets: [Release.Outsiders,Release.AzaleaBlitzDeck],
     specialImage: "OUT118.width-450",
     subtypes: [Subtype.Attack,Subtype.Arrow],
     types: [Type.Action],
@@ -116503,11 +117265,17 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
       image: "OUT119.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "RIP025",
+      image: "",
+      set: Release.RiptideBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT119"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT119","RIP025"],
+    sets: [Release.Outsiders,Release.RiptideBlitzDeck],
     specialImage: "OUT119.width-450",
     subtypes: [Subtype.Attack,Subtype.Arrow],
     types: [Type.Action],
@@ -116601,11 +117369,23 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
       image: "OUT121.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "AZL010",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
+      
+      identifier: "RIP016",
+      image: "",
+      set: Release.RiptideBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT121"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT121","AZL010","RIP016"],
+    sets: [Release.Outsiders,Release.AzaleaBlitzDeck,Release.RiptideBlitzDeck],
     specialImage: "OUT121.width-450",
     subtypes: [Subtype.Attack,Subtype.Arrow],
     types: [Type.Action],
@@ -116650,11 +117430,17 @@ Damage that would be dealt by Murkmire Grapnel can't be prevented.`,
       image: "OUT122.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "RIP026",
+      image: "",
+      set: Release.RiptideBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT122"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT122","RIP026"],
+    sets: [Release.Outsiders,Release.RiptideBlitzDeck],
     specialImage: "OUT122.width-450",
     subtypes: [Subtype.Attack,Subtype.Arrow],
     types: [Type.Action],
@@ -116748,11 +117534,23 @@ Damage that would be dealt by Murkmire Grapnel can't be prevented.`,
       image: "OUT124.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "AZL012",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
+      
+      identifier: "RIP019",
+      image: "",
+      set: Release.RiptideBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT124"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT124","AZL012","RIP019"],
+    sets: [Release.Outsiders,Release.AzaleaBlitzDeck,Release.RiptideBlitzDeck],
     specialImage: "OUT124.width-450",
     subtypes: [Subtype.Attack,Subtype.Arrow],
     types: [Type.Action],
@@ -116797,11 +117595,17 @@ When this hits a hero, create an Inertia token under their control.`,
       image: "OUT125.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "AZL021",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT125"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT125","AZL021"],
+    sets: [Release.Outsiders,Release.AzaleaBlitzDeck],
     specialImage: "OUT125.width-450",
     subtypes: [Subtype.Attack,Subtype.Arrow],
     types: [Type.Action],
@@ -116846,11 +117650,17 @@ When this hits a hero, create an Inertia token under their control.`,
       image: "OUT126.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "AZL024",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT126"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT126","AZL024"],
+    sets: [Release.Outsiders,Release.AzaleaBlitzDeck],
     specialImage: "OUT126.width-450",
     subtypes: [Subtype.Attack,Subtype.Arrow],
     types: [Type.Action],
@@ -116895,11 +117705,17 @@ When this hits a hero, create an Inertia token under their control.`,
       image: "OUT127.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "AZL013",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT127"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT127","AZL013"],
+    sets: [Release.Outsiders,Release.AzaleaBlitzDeck],
     specialImage: "OUT127.width-450",
     subtypes: [Subtype.Attack,Subtype.Arrow],
     types: [Type.Action],
@@ -117036,11 +117852,17 @@ When this hits a hero, create an Inertia token under their control.`,
       image: "OUT130.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "AZL014",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT130"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT130","AZL014"],
+    sets: [Release.Outsiders,Release.AzaleaBlitzDeck],
     specialImage: "OUT130.width-450",
     subtypes: [Subtype.Attack,Subtype.Arrow],
     types: [Type.Action],
@@ -117083,11 +117905,17 @@ When this hits a hero, create an Inertia token under their control.`,
       image: "OUT131.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "AZL022",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT131"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT131","AZL022"],
+    sets: [Release.Outsiders,Release.AzaleaBlitzDeck],
     specialImage: "OUT131.width-450",
     subtypes: [Subtype.Attack,Subtype.Arrow],
     types: [Type.Action],
@@ -117130,11 +117958,17 @@ When this hits a hero, create an Inertia token under their control.`,
       image: "OUT132.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "AZL025",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT132"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT132","AZL025"],
+    sets: [Release.Outsiders,Release.AzaleaBlitzDeck],
     specialImage: "OUT132.width-450",
     subtypes: [Subtype.Attack,Subtype.Arrow],
     types: [Type.Action],
@@ -117177,11 +118011,17 @@ When this hits a hero, create an Inertia token under their control.`,
       image: "OUT133.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "AZL015",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT133"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT133","AZL015"],
+    sets: [Release.Outsiders,Release.AzaleaBlitzDeck],
     specialImage: "OUT133.width-450",
     subtypes: [Subtype.Attack,Subtype.Arrow],
     types: [Type.Action],
@@ -117324,11 +118164,23 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
       image: "OUT136.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "AZL016",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
+      
+      identifier: "RIP020",
+      image: "",
+      set: Release.RiptideBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT136"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT136","AZL016","RIP020"],
+    sets: [Release.Outsiders,Release.AzaleaBlitzDeck,Release.RiptideBlitzDeck],
     specialImage: "OUT136.width-450",
     subtypes: [Subtype.Attack,Subtype.Arrow],
     types: [Type.Action],
@@ -117532,11 +118384,23 @@ When this hits a hero, create a Frailty token under their control.`,
       image: "OUT140.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "BEN003",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
+    },{
+      
+      identifier: "UZU003",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT140"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT140","BEN003","UZU003"],
+    sets: [Release.Outsiders,Release.BenjiBlitzDeck,Release.UzuriBlitzDeck],
     specialImage: "OUT140.width-450",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -117775,11 +118639,17 @@ When this hits a hero, create a Frailty token under their control.`,
       image: "OUT145.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "BEN007",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["OUT145"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT145","BEN007"],
+    sets: [Release.Outsiders,Release.BenjiBlitzDeck],
     specialImage: "OUT145.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -117922,11 +118792,17 @@ When this hits a hero, create a Frailty token under their control.`,
       image: "OUT148.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "ARA007",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["OUT148"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT148","ARA007"],
+    sets: [Release.Outsiders,Release.ArakniBlitzDeck],
     specialImage: "OUT148.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -118118,11 +118994,17 @@ When this hits a hero, create a Frailty token under their control.`,
       image: "OUT152.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "BEN019",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT152"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT152","BEN019"],
+    sets: [Release.Outsiders,Release.BenjiBlitzDeck],
     specialImage: "OUT152.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -118216,11 +119098,23 @@ When this hits a hero, create a Frailty token under their control.`,
       image: "OUT154.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "ARA017",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
+      identifier: "BEN013",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT154"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT154","ARA017","BEN013"],
+    sets: [Release.Outsiders,Release.ArakniBlitzDeck,Release.BenjiBlitzDeck],
     specialImage: "OUT154.width-450",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -118369,11 +119263,23 @@ When this hits a hero, create a Frailty token under their control.`,
       image: "OUT157.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "ARA003",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
+      identifier: "RIP004",
+      image: "",
+      set: Release.RiptideBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT157"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT157","ARA003","RIP004"],
+    sets: [Release.Outsiders,Release.ArakniBlitzDeck,Release.RiptideBlitzDeck],
     specialImage: "OUT157.width-450",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -118424,11 +119330,23 @@ When this hits a hero, create a Frailty token under their control.`,
       image: "OUT158.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "ARA005",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
+      identifier: "RIP006",
+      image: "",
+      set: Release.RiptideBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT158"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT158","ARA005","RIP006"],
+    sets: [Release.Outsiders,Release.ArakniBlitzDeck,Release.RiptideBlitzDeck],
     specialImage: "OUT158.width-450",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
@@ -118570,7 +119488,7 @@ Create a Ponder token under your control and a Frailty token under each opponent
     
     
   },{
-    artists: ["Isuardi Therianto"],
+    artists: ["Isuardi Therianto","Carlos Cruchaga"],
     cardIdentifier: "codex-of-inertia-yellow",
     classes: [Class.Assassin,Class.Ranger],
     defaultImage: "OUT161.width-450",
@@ -118650,11 +119568,17 @@ Create a Ponder token under your control and an Inertia token under each opponen
       image: "OUT162.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "UZU008",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["FAB132","OUT162"],
-    sets: [Release.Promos,Release.Outsiders],
+    setIdentifiers: ["FAB132","OUT162","UZU008"],
+    sets: [Release.Promos,Release.Outsiders,Release.UzuriBlitzDeck],
     specialImage: "OUT162.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -118913,11 +119837,17 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
       image: "OUT167.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "AZL027",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["FAB130","OUT167"],
-    sets: [Release.Promos,Release.Outsiders],
+    setIdentifiers: ["FAB130","OUT167","AZL027"],
+    sets: [Release.Promos,Release.Outsiders,Release.AzaleaBlitzDeck],
     specialImage: "OUT167.width-450",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -118962,11 +119892,17 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
       image: "OUT168.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "ARA014",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT168"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT168","ARA014"],
+    sets: [Release.Outsiders,Release.ArakniBlitzDeck],
     specialImage: "OUT168.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -119109,11 +120045,23 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
       image: "OUT171.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "ARA019",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
+      identifier: "RIP008",
+      image: "",
+      set: Release.RiptideBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT171"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT171","ARA019","RIP008"],
+    sets: [Release.Outsiders,Release.ArakniBlitzDeck,Release.RiptideBlitzDeck],
     specialImage: "OUT171.width-450",
     subtypes: [Subtype.Trap],
     types: [Type.DefenseReaction],
@@ -119156,11 +120104,17 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
       image: "OUT172.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "RIP009",
+      image: "",
+      set: Release.RiptideBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT172"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT172","RIP009"],
+    sets: [Release.Outsiders,Release.RiptideBlitzDeck],
     specialImage: "OUT172.width-450",
     subtypes: [Subtype.Trap],
     types: [Type.DefenseReaction],
@@ -119203,11 +120157,17 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
       image: "OUT173.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "RIP010",
+      image: "",
+      set: Release.RiptideBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT173"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT173","RIP010"],
+    sets: [Release.Outsiders,Release.RiptideBlitzDeck],
     specialImage: "OUT173.width-450",
     subtypes: [Subtype.Trap],
     types: [Type.DefenseReaction],
@@ -119523,11 +120483,17 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
       image: "OUT179.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "BEN004",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT179"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT179","BEN004"],
+    sets: [Release.Outsiders,Release.BenjiBlitzDeck],
     specialImage: "OUT179.width-450",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -119576,11 +120542,23 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
       image: "OUT180.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "AZL005",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
+      
+      identifier: "RIP005",
+      image: "",
+      set: Release.RiptideBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT180"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT180","AZL005","RIP005"],
+    sets: [Release.Outsiders,Release.AzaleaBlitzDeck,Release.RiptideBlitzDeck],
     specialImage: "OUT180.width-450",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -119629,11 +120607,29 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
       image: "OUT181.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "BEN005",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
+    },{
+      
+      identifier: "KAT005",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
+    },{
+      
+      identifier: "UZU005",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT181"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT181","BEN005","KAT005","UZU005"],
+    sets: [Release.Outsiders,Release.BenjiBlitzDeck,Release.KatsuBlitzDeck,Release.UzuriBlitzDeck],
     specialImage: "OUT181.width-450",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
@@ -119682,11 +120678,17 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
       image: "OUT182.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "BEN006",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT182"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT182","BEN006"],
+    sets: [Release.Outsiders,Release.BenjiBlitzDeck],
     specialImage: "OUT182.width-450",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -120021,11 +121023,17 @@ The next attack action card you play from arsenal this turn gains +3{p}.
       image: "OUT189.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "UZU012",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["OUT189"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT189","UZU012"],
+    sets: [Release.Outsiders,Release.UzuriBlitzDeck],
     specialImage: "OUT189.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -120591,11 +121599,17 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
       image: "OUT201.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "UZU009",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT201"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT201","UZU009"],
+    sets: [Release.Outsiders,Release.UzuriBlitzDeck],
     specialImage: "OUT201.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -120732,11 +121746,17 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
       image: "OUT204.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "UZU011",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT204"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT204","UZU011"],
+    sets: [Release.Outsiders,Release.UzuriBlitzDeck],
     specialImage: "OUT204.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -120873,11 +121893,17 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
       image: "OUT207.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "BEN011",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT207"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT207","BEN011"],
+    sets: [Release.Outsiders,Release.BenjiBlitzDeck],
     specialImage: "OUT207.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -121155,11 +122181,23 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
       image: "OUT219.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "ARA015",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
+      identifier: "BEN012",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT219"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT219","ARA015","BEN012"],
+    sets: [Release.Outsiders,Release.ArakniBlitzDeck,Release.BenjiBlitzDeck],
     specialImage: "OUT219.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -121296,11 +122334,23 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
       image: "OUT225.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "AZL020",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
+      
+      identifier: "RIP023",
+      image: "",
+      set: Release.RiptideBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT225"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT225","AZL020","RIP023"],
+    sets: [Release.Outsiders,Release.AzaleaBlitzDeck,Release.RiptideBlitzDeck],
     specialImage: "OUT225.width-450",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -121347,11 +122397,17 @@ The next attack action card you play from arsenal this turn gains +3{p}.
       image: "OUT226.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "RIP027",
+      image: "",
+      set: Release.RiptideBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT226"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT226","RIP027"],
+    sets: [Release.Outsiders,Release.RiptideBlitzDeck],
     specialImage: "OUT226.width-450",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -121398,11 +122454,17 @@ The next attack action card you play from arsenal this turn gains +2{p}.
       image: "OUT227.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "AZL026",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["OUT227"],
-    sets: [Release.Outsiders],
+    setIdentifiers: ["OUT227","AZL026"],
+    sets: [Release.Outsiders,Release.AzaleaBlitzDeck],
     specialImage: "OUT227.width-450",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -121596,11 +122658,17 @@ The next attack action card you play from arsenal this turn gains +1{p}.
       image: "OUT231.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "UZU016",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["FAB131","OUT231"],
-    sets: [Release.Promos,Release.Outsiders],
+    setIdentifiers: ["FAB131","OUT231","UZU016"],
+    sets: [Release.Promos,Release.Outsiders,Release.UzuriBlitzDeck],
     specialImage: "OUT231.width-450",
     subtypes: [],
     types: [Type.Instant],
@@ -121749,11 +122817,35 @@ Create a Ponder token.`,
       image: "OUT234.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "ARA027",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
+      identifier: "AZL028",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
+      
+      identifier: "UZU028",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
+    },{
+      
+      identifier: "RIP028",
+      image: "",
+      set: Release.RiptideBlitzDeck,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Token],
+    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
     rarity: Rarity.Token,
-    setIdentifiers: ["FAB133","LGS125","OUT234"],
-    sets: [Release.Promos,Release.Outsiders],
+    setIdentifiers: ["FAB133","LGS125","OUT234","ARA027","AZL028","UZU028","RIP028"],
+    sets: [Release.Promos,Release.Outsiders,Release.ArakniBlitzDeck,Release.AzaleaBlitzDeck,Release.UzuriBlitzDeck,Release.RiptideBlitzDeck],
     specialImage: "OUT234.width-450",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
@@ -121802,11 +122894,35 @@ Create a Ponder token.`,
       image: "OUT235.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "ARA028",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
+      identifier: "AZL029",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
+      
+      identifier: "UZU029",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
+    },{
+      
+      identifier: "RIP029",
+      image: "",
+      set: Release.RiptideBlitzDeck,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Token],
+    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
     rarity: Rarity.Token,
-    setIdentifiers: ["FAB134","LGS126","OUT235"],
-    sets: [Release.Promos,Release.Outsiders],
+    setIdentifiers: ["FAB134","LGS126","OUT235","ARA028","AZL029","UZU029","RIP029"],
+    sets: [Release.Promos,Release.Outsiders,Release.ArakniBlitzDeck,Release.AzaleaBlitzDeck,Release.UzuriBlitzDeck,Release.RiptideBlitzDeck],
     specialImage: "OUT235.width-450",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
@@ -121857,11 +122973,35 @@ At the beginning of your end phase destroy Frailty.`,
       image: "OUT236.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "ARA029",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
+      identifier: "AZL030",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
+      
+      identifier: "UZU030",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
+    },{
+      
+      identifier: "RIP030",
+      image: "",
+      set: Release.RiptideBlitzDeck,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Token],
+    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
     rarity: Rarity.Token,
-    setIdentifiers: ["FAB135","LGS127","OUT236"],
-    sets: [Release.Promos,Release.Outsiders],
+    setIdentifiers: ["FAB135","LGS127","OUT236","ARA029","AZL030","UZU030","RIP030"],
+    sets: [Release.Promos,Release.Outsiders,Release.ArakniBlitzDeck,Release.AzaleaBlitzDeck,Release.UzuriBlitzDeck,Release.RiptideBlitzDeck],
     specialImage: "OUT236.width-450",
     subtypes: [Subtype.Aura],
     types: [Type.Token],

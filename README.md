@@ -140,7 +140,7 @@ cards.forEach((card) => {
 **`Talent`**
 
 ```ts
-"Not talented", "Draconic", "Earth", "Elemental", "Ice", "Light", "Lightning", "Royal", "Shadow",
+"Draconic", "Earth", "Elemental", "Ice", "Light", "Lightning", "Royal", "Shadow",
 ```
 
 <br/>

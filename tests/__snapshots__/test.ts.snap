@@ -4004,20 +4004,28 @@ exports[`Check for unintentional updates Arakni, Solitary Confinement (arakni-so
       "image": "OUT003.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "ARA001",
+      "image": "",
+      "set": "Arakni Blitz Deck",
+    },
   ],
   "rarities": [
     "Promo",
     "Token",
+    "Common",
   ],
   "rarity": "Token",
   "setIdentifiers": [
     "HER079",
     "HER081",
     "OUT003",
+    "ARA001",
   ],
   "sets": [
     "Promos",
     "Outsiders",
+    "Arakni Blitz Deck",
   ],
   "specialImage": "OUT003.width-450",
   "subtypes": [
@@ -5790,6 +5798,11 @@ exports[`Check for unintentional updates Azalea (azalea) vs snapshot 1`] = `
       "image": "OUT090.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "AZL001",
+      "image": "",
+      "set": "Azalea Blitz Deck",
+    },
   ],
   "rarities": [
     "Promo",
@@ -5806,12 +5819,14 @@ exports[`Check for unintentional updates Azalea (azalea) vs snapshot 1`] = `
     "1HP222",
     "ARC039",
     "OUT090",
+    "AZL001",
   ],
   "sets": [
     "Promos",
     "History Pack 1",
     "Arcane Rising",
     "Outsiders",
+    "Azalea Blitz Deck",
   ],
   "specialImage": "ARC039",
   "subtypes": [
@@ -6269,6 +6284,11 @@ exports[`Check for unintentional updates Back Heel Kick (back-heel-kick-red) vs 
       "image": "OUT065.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "BEN008",
+      "image": "",
+      "set": "Benji Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -6276,9 +6296,11 @@ exports[`Check for unintentional updates Back Heel Kick (back-heel-kick-red) vs 
   "rarity": "Common",
   "setIdentifiers": [
     "OUT065",
+    "BEN008",
   ],
   "sets": [
     "Outsiders",
+    "Benji Blitz Deck",
   ],
   "specialImage": "OUT065.width-450",
   "subtypes": [
@@ -6322,6 +6344,11 @@ exports[`Check for unintentional updates Back Heel Kick (back-heel-kick-yellow) 
       "image": "OUT066.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "BEN014",
+      "image": "",
+      "set": "Benji Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -6329,9 +6356,11 @@ exports[`Check for unintentional updates Back Heel Kick (back-heel-kick-yellow) 
   "rarity": "Common",
   "setIdentifiers": [
     "OUT066",
+    "BEN014",
   ],
   "sets": [
     "Outsiders",
+    "Benji Blitz Deck",
   ],
   "specialImage": "OUT066.width-450",
   "subtypes": [
@@ -6359,6 +6388,9 @@ exports[`Check for unintentional updates Back Stab (back-stab-blue) vs snapshot 
   "functionalText": "**Stealth**
 
 Defense reactions can't be played to Back Stab's chain link.",
+  "keywords": [
+    "Stealth",
+  ],
   "name": "Back Stab",
   "pitch": 3,
   "power": 1,
@@ -6414,6 +6446,9 @@ exports[`Check for unintentional updates Back Stab (back-stab-red) vs snapshot 1
   "functionalText": "**Stealth**
 
 Defense reactions can't be played to Back Stab's chain link.",
+  "keywords": [
+    "Stealth",
+  ],
   "name": "Back Stab",
   "pitch": 1,
   "power": 3,
@@ -6469,6 +6504,9 @@ exports[`Check for unintentional updates Back Stab (back-stab-yellow) vs snapsho
   "functionalText": "**Stealth**
 
 Defense reactions can't be played to Back Stab's chain link.",
+  "keywords": [
+    "Stealth",
+  ],
   "name": "Back Stab",
   "pitch": 2,
   "power": 2,
@@ -6928,19 +6966,34 @@ exports[`Check for unintentional updates Barbed Castaway (barbed-castaway) vs sn
       "image": "OUT093.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "AZL002",
+      "image": "",
+      "set": "Azalea Blitz Deck",
+    },
+    {
+      "identifier": "RIP002",
+      "image": "",
+      "set": "Riptide Blitz Deck",
+    },
   ],
   "rarities": [
     "Promo",
     "Token",
+    "Common",
   ],
   "rarity": "Token",
   "setIdentifiers": [
     "LGS129",
     "OUT093",
+    "AZL002",
+    "RIP002",
   ],
   "sets": [
     "Promos",
     "Outsiders",
+    "Azalea Blitz Deck",
+    "Riptide Blitz Deck",
   ],
   "specialImage": "card_Barbed_Castaway.width-10000",
   "subtypes": [
@@ -8262,6 +8315,16 @@ exports[`Check for unintentional updates Be Like Water (be-like-water-blue) vs s
       "image": "OUT070.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "BEN021",
+      "image": "",
+      "set": "Benji Blitz Deck",
+    },
+    {
+      "identifier": "KAT025",
+      "image": "",
+      "set": "Katsu Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -8269,9 +8332,13 @@ exports[`Check for unintentional updates Be Like Water (be-like-water-blue) vs s
   "rarity": "Common",
   "setIdentifiers": [
     "OUT070",
+    "BEN021",
+    "KAT025",
   ],
   "sets": [
     "Outsiders",
+    "Benji Blitz Deck",
+    "Katsu Blitz Deck",
   ],
   "specialImage": "OUT070.width-450",
   "subtypes": [
@@ -8317,6 +8384,16 @@ exports[`Check for unintentional updates Be Like Water (be-like-water-red) vs sn
       "image": "OUT068.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "BEN018",
+      "image": "",
+      "set": "Benji Blitz Deck",
+    },
+    {
+      "identifier": "KAT014",
+      "image": "",
+      "set": "Katsu Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -8324,9 +8401,13 @@ exports[`Check for unintentional updates Be Like Water (be-like-water-red) vs sn
   "rarity": "Common",
   "setIdentifiers": [
     "OUT068",
+    "BEN018",
+    "KAT014",
   ],
   "sets": [
     "Outsiders",
+    "Benji Blitz Deck",
+    "Katsu Blitz Deck",
   ],
   "specialImage": "OUT068.width-450",
   "subtypes": [
@@ -8372,6 +8453,11 @@ exports[`Check for unintentional updates Be Like Water (be-like-water-yellow) vs
       "image": "OUT069.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "KAT020",
+      "image": "",
+      "set": "Katsu Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -8379,9 +8465,11 @@ exports[`Check for unintentional updates Be Like Water (be-like-water-yellow) vs
   "rarity": "Common",
   "setIdentifiers": [
     "OUT069",
+    "KAT020",
   ],
   "sets": [
     "Outsiders",
+    "Katsu Blitz Deck",
   ],
   "specialImage": "OUT069.width-450",
   "subtypes": [
@@ -9016,11 +9104,17 @@ The first time an attack action card you control hits each turn, your next attac
       "image": "OUT047.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "BEN001",
+      "image": "",
+      "set": "Benji Blitz Deck",
+    },
   ],
   "rarities": [
     "Promo",
     "Rare",
     "Token",
+    "Common",
   ],
   "rarity": "Token",
   "restrictedFormats": [
@@ -9031,12 +9125,14 @@ The first time an attack action card you control hits each turn, your next attac
     "1HP088",
     "CRU047",
     "OUT047",
+    "BEN001",
   ],
   "sets": [
     "Promos",
     "History Pack 1",
     "Crucible of War",
     "Outsiders",
+    "Benji Blitz Deck",
   ],
   "specialImage": "CRU047-RF",
   "subtypes": [
@@ -10903,6 +10999,11 @@ exports[`Check for unintentional updates Bleed Out (bleed-out-red) vs snapshot 1
       "image": "OUT145.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "BEN007",
+      "image": "",
+      "set": "Benji Blitz Deck",
+    },
   ],
   "rarities": [
     "Rare",
@@ -10913,9 +11014,11 @@ exports[`Check for unintentional updates Bleed Out (bleed-out-red) vs snapshot 1
   ],
   "setIdentifiers": [
     "OUT145",
+    "BEN007",
   ],
   "sets": [
     "Outsiders",
+    "Benji Blitz Deck",
   ],
   "specialImage": "OUT145.width-450",
   "subtypes": [
@@ -13944,20 +14047,49 @@ exports[`Check for unintentional updates Bloodrot Pox (bloodrot-pox) vs snapshot
       "image": "OUT234.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "ARA027",
+      "image": "",
+      "set": "Arakni Blitz Deck",
+    },
+    {
+      "identifier": "AZL028",
+      "image": "",
+      "set": "Azalea Blitz Deck",
+    },
+    {
+      "identifier": "UZU028",
+      "image": "",
+      "set": "Uzuri Blitz Deck",
+    },
+    {
+      "identifier": "RIP028",
+      "image": "",
+      "set": "Riptide Blitz Deck",
+    },
   ],
   "rarities": [
     "Promo",
     "Token",
+    "Common",
   ],
   "rarity": "Token",
   "setIdentifiers": [
     "FAB133",
     "LGS125",
     "OUT234",
+    "ARA027",
+    "AZL028",
+    "UZU028",
+    "RIP028",
   ],
   "sets": [
     "Promos",
     "Outsiders",
+    "Arakni Blitz Deck",
+    "Azalea Blitz Deck",
+    "Uzuri Blitz Deck",
+    "Riptide Blitz Deck",
   ],
   "specialImage": "OUT234.width-450",
   "subtypes": [
@@ -13998,6 +14130,16 @@ exports[`Check for unintentional updates Bloodrot Trap (bloodrot-trap-red) vs sn
       "image": "OUT171.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "ARA019",
+      "image": "",
+      "set": "Arakni Blitz Deck",
+    },
+    {
+      "identifier": "RIP008",
+      "image": "",
+      "set": "Riptide Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -14005,9 +14147,13 @@ exports[`Check for unintentional updates Bloodrot Trap (bloodrot-trap-red) vs sn
   "rarity": "Common",
   "setIdentifiers": [
     "OUT171",
+    "ARA019",
+    "RIP008",
   ],
   "sets": [
     "Outsiders",
+    "Arakni Blitz Deck",
+    "Riptide Blitz Deck",
   ],
   "specialImage": "OUT171.width-450",
   "subtypes": [
@@ -14456,6 +14602,16 @@ exports[`Check for unintentional updates Blossom of Spring (blossom-of-spring) v
       "image": "RVD004.width-450",
       "set": "Classic Battles: Rhinar vs Dorinthea",
     },
+    {
+      "identifier": "ARA004",
+      "image": "",
+      "set": "Arakni Blitz Deck",
+    },
+    {
+      "identifier": "KAT004",
+      "image": "",
+      "set": "Katsu Blitz Deck",
+    },
   ],
   "rarities": [
     "Promo",
@@ -14466,10 +14622,14 @@ exports[`Check for unintentional updates Blossom of Spring (blossom-of-spring) v
     "LGS100",
     "DVR004",
     "RVD004",
+    "ARA004",
+    "KAT004",
   ],
   "sets": [
     "Promos",
     "Classic Battles: Rhinar vs Dorinthea",
+    "Arakni Blitz Deck",
+    "Katsu Blitz Deck",
   ],
   "specialImage": "DVR004.width-450",
   "subtypes": [
@@ -15263,6 +15423,11 @@ exports[`Check for unintentional updates Bonds of Ancestry (bonds-of-ancestry-re
       "image": "OUT056.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "KAT007",
+      "image": "",
+      "set": "Katsu Blitz Deck",
+    },
   ],
   "rarities": [
     "Rare",
@@ -15273,9 +15438,11 @@ exports[`Check for unintentional updates Bonds of Ancestry (bonds-of-ancestry-re
   ],
   "setIdentifiers": [
     "OUT056",
+    "KAT007",
   ],
   "sets": [
     "Outsiders",
+    "Katsu Blitz Deck",
   ],
   "specialImage": "OUT056.width-450",
   "subtypes": [
@@ -15778,6 +15945,11 @@ exports[`Check for unintentional updates Boulder Trap (boulder-trap-yellow) vs s
       "image": "OUT106.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "RIP011",
+      "image": "",
+      "set": "Riptide Blitz Deck",
+    },
   ],
   "rarities": [
     "Rare",
@@ -15788,9 +15960,11 @@ exports[`Check for unintentional updates Boulder Trap (boulder-trap-yellow) vs s
   ],
   "setIdentifiers": [
     "OUT106",
+    "RIP011",
   ],
   "sets": [
     "Outsiders",
+    "Riptide Blitz Deck",
   ],
   "specialImage": "OUT106.width-450",
   "subtypes": [
@@ -16078,6 +16252,11 @@ exports[`Check for unintentional updates Bracers of Belief (bracers-of-belief) v
       "image": "U-ARC153",
       "set": "Arcane Rising",
     },
+    {
+      "identifier": "AZL006",
+      "image": "",
+      "set": "Azalea Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -16086,10 +16265,12 @@ exports[`Check for unintentional updates Bracers of Belief (bracers-of-belief) v
   "setIdentifiers": [
     "1HP355",
     "ARC153",
+    "AZL006",
   ],
   "sets": [
     "History Pack 1",
     "Arcane Rising",
+    "Azalea Blitz Deck",
   ],
   "specialImage": "ARC153-CF",
   "subtypes": [
@@ -23397,6 +23578,7 @@ exports[`Check for unintentional updates Codex of Inertia (codex-of-inertia-yell
 {
   "artists": [
     "Isuardi Therianto",
+    "Carlos Cruchaga",
   ],
   "cardIdentifier": "codex-of-inertia-yellow",
   "classes": [
@@ -26520,9 +26702,9 @@ exports[`Check for unintentional updates Cranial Crush (cranial-crush-blue) vs s
     },
   ],
   "rarities": [
-    "Majestic",
+    "Super Rare",
   ],
-  "rarity": "Majestic",
+  "rarity": "Super Rare",
   "restrictedFormats": [
     "Commoner",
   ],
@@ -27499,19 +27681,27 @@ Whenever an arrow is put face up into your arsenal from your deck, you may pay {
       "image": "OUT097.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "AZL003",
+      "image": "",
+      "set": "Azalea Blitz Deck",
+    },
   ],
   "rarities": [
     "Promo",
     "Token",
+    "Common",
   ],
   "rarity": "Token",
   "setIdentifiers": [
     "LGS133",
     "OUT097",
+    "AZL003",
   ],
   "sets": [
     "Promos",
     "Outsiders",
+    "Azalea Blitz Deck",
   ],
   "specialImage": "OUT097.width-450",
   "specializations": [
@@ -28512,6 +28702,11 @@ exports[`Check for unintentional updates Cut Down to Size (cut-down-to-size-red)
       "image": "OUT201.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "UZU009",
+      "image": "",
+      "set": "Uzuri Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -28519,9 +28714,11 @@ exports[`Check for unintentional updates Cut Down to Size (cut-down-to-size-red)
   "rarity": "Common",
   "setIdentifiers": [
     "OUT201",
+    "UZU009",
   ],
   "sets": [
     "Outsiders",
+    "Uzuri Blitz Deck",
   ],
   "specialImage": "OUT201.width-450",
   "subtypes": [
@@ -30492,6 +30689,11 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
       "image": "OUT162.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "UZU008",
+      "image": "",
+      "set": "Uzuri Blitz Deck",
+    },
   ],
   "rarities": [
     "Promo",
@@ -30504,10 +30706,12 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
   "setIdentifiers": [
     "FAB132",
     "OUT162",
+    "UZU008",
   ],
   "sets": [
     "Promos",
     "Outsiders",
+    "Uzuri Blitz Deck",
   ],
   "specialImage": "OUT162.width-450",
   "subtypes": [
@@ -31246,6 +31450,11 @@ exports[`Check for unintentional updates Demolition Crew (demolition-crew-red) v
       "image": "U-WTR179",
       "set": "Welcome to Rathe",
     },
+    {
+      "identifier": "UZU010",
+      "image": "",
+      "set": "Uzuri Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -31253,9 +31462,11 @@ exports[`Check for unintentional updates Demolition Crew (demolition-crew-red) v
   "rarity": "Common",
   "setIdentifiers": [
     "WTR179",
+    "UZU010",
   ],
   "sets": [
     "Welcome to Rathe",
+    "Uzuri Blitz Deck",
   ],
   "specialImage": "WTR179",
   "subtypes": [
@@ -31428,6 +31639,11 @@ exports[`Check for unintentional updates Descendent Gustwave (descendent-gustwav
       "image": "OUT074.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "KAT008",
+      "image": "",
+      "set": "Katsu Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -31435,9 +31651,11 @@ exports[`Check for unintentional updates Descendent Gustwave (descendent-gustwav
   "rarity": "Common",
   "setIdentifiers": [
     "OUT074",
+    "KAT008",
   ],
   "sets": [
     "Outsiders",
+    "Katsu Blitz Deck",
   ],
   "specialImage": "OUT074.width-450",
   "subtypes": [
@@ -31484,6 +31702,11 @@ exports[`Check for unintentional updates Descendent Gustwave (descendent-gustwav
       "image": "OUT075.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "KAT018",
+      "image": "",
+      "set": "Katsu Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -31491,9 +31714,11 @@ exports[`Check for unintentional updates Descendent Gustwave (descendent-gustwav
   "rarity": "Common",
   "setIdentifiers": [
     "OUT075",
+    "KAT018",
   ],
   "sets": [
     "Outsiders",
+    "Katsu Blitz Deck",
   ],
   "specialImage": "OUT075.width-450",
   "subtypes": [
@@ -31584,6 +31809,11 @@ exports[`Check for unintentional updates Destructive Deliberation (destructive-d
       "image": "OUT204.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "UZU011",
+      "image": "",
+      "set": "Uzuri Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -31591,9 +31821,11 @@ exports[`Check for unintentional updates Destructive Deliberation (destructive-d
   "rarity": "Common",
   "setIdentifiers": [
     "OUT204",
+    "UZU011",
   ],
   "sets": [
     "Outsiders",
+    "Uzuri Blitz Deck",
   ],
   "specialImage": "OUT204.width-450",
   "subtypes": [
@@ -33789,19 +34021,27 @@ exports[`Check for unintentional updates Driftwood Quiver (driftwood-quiver) vs 
       "image": "OUT098.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "RIP003",
+      "image": "",
+      "set": "Riptide Blitz Deck",
+    },
   ],
   "rarities": [
     "Promo",
     "Token",
+    "Common",
   ],
   "rarity": "Token",
   "setIdentifiers": [
     "LGS137",
     "OUT098",
+    "RIP003",
   ],
   "sets": [
     "Promos",
     "Outsiders",
+    "Riptide Blitz Deck",
   ],
   "specialImage": "OUT098.width-450",
   "specializations": [
@@ -35877,6 +36117,14 @@ exports[`Check for unintentional updates Earthlore Bounty (earthlore-bounty) vs 
       "image": "EVR020.width-450",
       "set": "Everfest",
     },
+    {
+      "edition": "First",
+      "foiling": "Cold",
+      "identifier": "EVR020",
+      "image": "EVR020-CF.width-450",
+      "set": "Everfest",
+      "treatment": "Extended Art",
+    },
   ],
   "rarities": [
     "Promo",
@@ -35894,7 +36142,7 @@ exports[`Check for unintentional updates Earthlore Bounty (earthlore-bounty) vs 
     "Promos",
     "Everfest",
   ],
-  "specialImage": "EVR020.width-450",
+  "specialImage": "EVR020-CF.width-450",
   "subtypes": [
     "Chest",
   ],
@@ -42365,6 +42613,11 @@ exports[`Check for unintentional updates Falcon Wing (falcon-wing-blue) vs snaps
       "image": "OUT117.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "AZL023",
+      "image": "",
+      "set": "Azalea Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -42372,9 +42625,11 @@ exports[`Check for unintentional updates Falcon Wing (falcon-wing-blue) vs snaps
   "rarity": "Common",
   "setIdentifiers": [
     "OUT117",
+    "AZL023",
   ],
   "sets": [
     "Outsiders",
+    "Azalea Blitz Deck",
   ],
   "specialImage": "OUT117.width-450",
   "subtypes": [
@@ -42421,6 +42676,16 @@ exports[`Check for unintentional updates Falcon Wing (falcon-wing-red) vs snapsh
       "image": "OUT115.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "AZL008",
+      "image": "",
+      "set": "Azalea Blitz Deck",
+    },
+    {
+      "identifier": "RIP014",
+      "image": "",
+      "set": "Riptide Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -42428,9 +42693,13 @@ exports[`Check for unintentional updates Falcon Wing (falcon-wing-red) vs snapsh
   "rarity": "Common",
   "setIdentifiers": [
     "OUT115",
+    "AZL008",
+    "RIP014",
   ],
   "sets": [
     "Outsiders",
+    "Azalea Blitz Deck",
+    "Riptide Blitz Deck",
   ],
   "specialImage": "OUT115.width-450",
   "subtypes": [
@@ -42477,6 +42746,11 @@ exports[`Check for unintentional updates Falcon Wing (falcon-wing-yellow) vs sna
       "image": "OUT116.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "RIP024",
+      "image": "",
+      "set": "Riptide Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -42484,9 +42758,11 @@ exports[`Check for unintentional updates Falcon Wing (falcon-wing-yellow) vs sna
   "rarity": "Common",
   "setIdentifiers": [
     "OUT116",
+    "RIP024",
   ],
   "sets": [
     "Outsiders",
+    "Riptide Blitz Deck",
   ],
   "specialImage": "OUT116.width-450",
   "subtypes": [
@@ -43036,6 +43312,11 @@ exports[`Check for unintentional updates Feisty Locals (feisty-locals-red) vs sn
       "image": "OUT207.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "BEN011",
+      "image": "",
+      "set": "Benji Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -43043,9 +43324,11 @@ exports[`Check for unintentional updates Feisty Locals (feisty-locals-red) vs sn
   "rarity": "Common",
   "setIdentifiers": [
     "OUT207",
+    "BEN011",
   ],
   "sets": [
     "Outsiders",
+    "Benji Blitz Deck",
   ],
   "specialImage": "OUT207.width-450",
   "subtypes": [
@@ -43649,6 +43932,21 @@ exports[`Check for unintentional updates Fisticuffs (fisticuffs) vs snapshot 1`]
       "image": "OUT181.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "BEN005",
+      "image": "",
+      "set": "Benji Blitz Deck",
+    },
+    {
+      "identifier": "KAT005",
+      "image": "",
+      "set": "Katsu Blitz Deck",
+    },
+    {
+      "identifier": "UZU005",
+      "image": "",
+      "set": "Uzuri Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -43656,9 +43954,15 @@ exports[`Check for unintentional updates Fisticuffs (fisticuffs) vs snapshot 1`]
   "rarity": "Common",
   "setIdentifiers": [
     "OUT181",
+    "BEN005",
+    "KAT005",
+    "UZU005",
   ],
   "sets": [
     "Outsiders",
+    "Benji Blitz Deck",
+    "Katsu Blitz Deck",
+    "Uzuri Blitz Deck",
   ],
   "specialImage": "OUT181.width-450",
   "subtypes": [
@@ -44625,6 +44929,11 @@ exports[`Check for unintentional updates Fleet Foot Sandals (fleet-foot-sandals)
       "image": "OUT182.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "BEN006",
+      "image": "",
+      "set": "Benji Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -44632,9 +44941,11 @@ exports[`Check for unintentional updates Fleet Foot Sandals (fleet-foot-sandals)
   "rarity": "Common",
   "setIdentifiers": [
     "OUT182",
+    "BEN006",
   ],
   "sets": [
     "Outsiders",
+    "Benji Blitz Deck",
   ],
   "specialImage": "OUT182.width-450",
   "subtypes": [
@@ -44740,6 +45051,11 @@ If it has an aim counter, it gains "Red cards have -1{d} while defending this."
       "image": "OUT109_MXRPsJl.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "AZL019",
+      "image": "",
+      "set": "Azalea Blitz Deck",
+    },
   ],
   "rarities": [
     "Rare",
@@ -44750,9 +45066,11 @@ If it has an aim counter, it gains "Red cards have -1{d} while defending this."
   ],
   "setIdentifiers": [
     "OUT109",
+    "AZL019",
   ],
   "sets": [
     "Outsiders",
+    "Azalea Blitz Deck",
   ],
   "specialImage": "OUT109_MXRPsJl.width-450",
   "subtypes": [
@@ -45987,6 +46305,11 @@ exports[`Check for unintentional updates Fluster Fist (fluster-fist-red) vs snap
       "image": "U-WTR086",
       "set": "Welcome to Rathe",
     },
+    {
+      "identifier": "KAT011",
+      "image": "",
+      "set": "Katsu Blitz Deck",
+    },
   ],
   "rarities": [
     "Rare",
@@ -45998,10 +46321,12 @@ exports[`Check for unintentional updates Fluster Fist (fluster-fist-red) vs snap
   "setIdentifiers": [
     "KSU010",
     "WTR086",
+    "KAT011",
   ],
   "sets": [
     "Katsu Hero Deck",
     "Welcome to Rathe",
+    "Katsu Blitz Deck",
   ],
   "specialImage": "WTR086",
   "subtypes": [
@@ -47101,20 +47426,49 @@ At the beginning of your end phase destroy Frailty.",
       "image": "OUT235.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "ARA028",
+      "image": "",
+      "set": "Arakni Blitz Deck",
+    },
+    {
+      "identifier": "AZL029",
+      "image": "",
+      "set": "Azalea Blitz Deck",
+    },
+    {
+      "identifier": "UZU029",
+      "image": "",
+      "set": "Uzuri Blitz Deck",
+    },
+    {
+      "identifier": "RIP029",
+      "image": "",
+      "set": "Riptide Blitz Deck",
+    },
   ],
   "rarities": [
     "Promo",
     "Token",
+    "Common",
   ],
   "rarity": "Token",
   "setIdentifiers": [
     "FAB134",
     "LGS126",
     "OUT235",
+    "ARA028",
+    "AZL029",
+    "UZU029",
+    "RIP029",
   ],
   "sets": [
     "Promos",
     "Outsiders",
+    "Arakni Blitz Deck",
+    "Azalea Blitz Deck",
+    "Uzuri Blitz Deck",
+    "Riptide Blitz Deck",
   ],
   "specialImage": "OUT235.width-450",
   "subtypes": [
@@ -47155,6 +47509,11 @@ exports[`Check for unintentional updates Frailty Trap (frailty-trap-red) vs snap
       "image": "OUT172.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "RIP009",
+      "image": "",
+      "set": "Riptide Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -47162,9 +47521,11 @@ exports[`Check for unintentional updates Frailty Trap (frailty-trap-red) vs snap
   "rarity": "Common",
   "setIdentifiers": [
     "OUT172",
+    "RIP009",
   ],
   "sets": [
     "Outsiders",
+    "Riptide Blitz Deck",
   ],
   "specialImage": "OUT172.width-450",
   "subtypes": [
@@ -50618,6 +50979,57 @@ exports[`Check for unintentional updates Goliath Gauntlet (goliath-gauntlet) vs 
 }
 `;
 
+exports[`Check for unintentional updates Good Deeds Don’t Go Unnoticed (good-deeds-dont-go-unnoticed-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Andy Aslamov",
+  ],
+  "cardIdentifier": "good-deeds-dont-go-unnoticed-yellow",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 0,
+  "defaultImage": "LSS006",
+  "defense": 3,
+  "functionalText": "At the start of each other hero’s turn, choose 1; they draw a card, they gain {r}, they gain 1{h}, or their next attack this turn gains +1{p}.
+
+At the start of your turn, destroy this. If another hero drew a card from this, you draw a card, then repeat for {r}, {h}, and {p}.",
+  "name": "Good Deeds Don’t Go Unnoticed",
+  "pitch": 2,
+  "printings": [
+    {
+      "foiling": "Rainbow",
+      "identifier": "LSS006",
+      "image": "LSS006",
+      "set": "Promos",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "restrictedFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "LSS006",
+  ],
+  "sets": [
+    "Promos",
+  ],
+  "specialImage": "LSS006",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Generic Action – Aura",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Gore Belching (gore-belching-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -51751,6 +52163,16 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi has **go a
       "image": "OUT048.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "BEN002",
+      "image": "",
+      "set": "Benji Blitz Deck",
+    },
+    {
+      "identifier": "KAT002",
+      "image": "",
+      "set": "Katsu Blitz Deck",
+    },
   ],
   "rarities": [
     "Promo",
@@ -51770,6 +52192,8 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi has **go a
     "CRU048",
     "CRU049",
     "OUT048",
+    "BEN002",
+    "KAT002",
   ],
   "sets": [
     "Promos",
@@ -51778,6 +52202,8 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi has **go a
     "Welcome to Rathe",
     "Crucible of War",
     "Outsiders",
+    "Benji Blitz Deck",
+    "Katsu Blitz Deck",
   ],
   "specialImage": "CRU48.width-450",
   "subtypes": [
@@ -52065,6 +52491,16 @@ exports[`Check for unintentional updates Head Jab (head-jab-blue) vs snapshot 1`
       "image": "OUT079.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "BEN024",
+      "image": "",
+      "set": "Benji Blitz Deck",
+    },
+    {
+      "identifier": "KAT022",
+      "image": "",
+      "set": "Katsu Blitz Deck",
+    },
   ],
   "rarities": [
     "Promo",
@@ -52077,6 +52513,8 @@ exports[`Check for unintentional updates Head Jab (head-jab-blue) vs snapshot 1`
     "KSU023",
     "WTR100",
     "OUT079",
+    "BEN024",
+    "KAT022",
   ],
   "sets": [
     "Promos",
@@ -52084,6 +52522,8 @@ exports[`Check for unintentional updates Head Jab (head-jab-blue) vs snapshot 1`
     "Katsu Hero Deck",
     "Welcome to Rathe",
     "Outsiders",
+    "Benji Blitz Deck",
+    "Katsu Blitz Deck",
   ],
   "specialImage": "LGS019",
   "subtypes": [
@@ -52160,6 +52600,16 @@ exports[`Check for unintentional updates Head Jab (head-jab-red) vs snapshot 1`]
       "image": "OUT077.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "BEN010",
+      "image": "",
+      "set": "Benji Blitz Deck",
+    },
+    {
+      "identifier": "KAT013",
+      "image": "",
+      "set": "Katsu Blitz Deck",
+    },
   ],
   "rarities": [
     "Promo",
@@ -52171,12 +52621,16 @@ exports[`Check for unintentional updates Head Jab (head-jab-red) vs snapshot 1`]
     "KSU011",
     "WTR098",
     "OUT077",
+    "BEN010",
+    "KAT013",
   ],
   "sets": [
     "Promos",
     "Katsu Hero Deck",
     "Welcome to Rathe",
     "Outsiders",
+    "Benji Blitz Deck",
+    "Katsu Blitz Deck",
   ],
   "specialImage": "LGS017",
   "subtypes": [
@@ -52248,6 +52702,16 @@ exports[`Check for unintentional updates Head Jab (head-jab-yellow) vs snapshot 
       "image": "OUT078.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "BEN017",
+      "image": "",
+      "set": "Benji Blitz Deck",
+    },
+    {
+      "identifier": "KAT017",
+      "image": "",
+      "set": "Katsu Blitz Deck",
+    },
   ],
   "rarities": [
     "Promo",
@@ -52258,11 +52722,15 @@ exports[`Check for unintentional updates Head Jab (head-jab-yellow) vs snapshot 
     "LGS018",
     "WTR099",
     "OUT078",
+    "BEN017",
+    "KAT017",
   ],
   "sets": [
     "Promos",
     "Welcome to Rathe",
     "Outsiders",
+    "Benji Blitz Deck",
+    "Katsu Blitz Deck",
   ],
   "specialImage": "LGS018",
   "subtypes": [
@@ -53637,6 +54105,11 @@ exports[`Check for unintentional updates Hemorrhage Bore (hemorrhage-bore-red) v
       "image": "DYN162",
       "set": "Dynasty",
     },
+    {
+      "identifier": "RIP015",
+      "image": "",
+      "set": "Riptide Blitz Deck",
+    },
   ],
   "rarities": [
     "Promo",
@@ -53646,10 +54119,12 @@ exports[`Check for unintentional updates Hemorrhage Bore (hemorrhage-bore-red) v
   "setIdentifiers": [
     "LGS119",
     "DYN162",
+    "RIP015",
   ],
   "sets": [
     "Promos",
     "Dynasty",
+    "Riptide Blitz Deck",
   ],
   "specialImage": "dyn_card_Hemorrhage_Bore_p1.width-10000",
   "subtypes": [
@@ -56868,6 +57343,11 @@ exports[`Check for unintentional updates Humble (humble-red) vs snapshot 1`] = `
       "image": "OUT189.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "UZU012",
+      "image": "",
+      "set": "Uzuri Blitz Deck",
+    },
   ],
   "rarities": [
     "Rare",
@@ -56878,9 +57358,11 @@ exports[`Check for unintentional updates Humble (humble-red) vs snapshot 1`] = `
   ],
   "setIdentifiers": [
     "OUT189",
+    "UZU012",
   ],
   "sets": [
     "Outsiders",
+    "Uzuri Blitz Deck",
   ],
   "specialImage": "OUT189.width-450",
   "subtypes": [
@@ -57530,6 +58012,11 @@ exports[`Check for unintentional updates Hurl (hurl-red) vs snapshot 1`] = `
       "image": "OUT148.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "ARA007",
+      "image": "",
+      "set": "Arakni Blitz Deck",
+    },
   ],
   "rarities": [
     "Rare",
@@ -57540,9 +58027,11 @@ exports[`Check for unintentional updates Hurl (hurl-red) vs snapshot 1`] = `
   ],
   "setIdentifiers": [
     "OUT148",
+    "ARA007",
   ],
   "sets": [
     "Outsiders",
+    "Arakni Blitz Deck",
   ],
   "specialImage": "OUT148.width-450",
   "subtypes": [
@@ -59522,6 +60011,12 @@ exports[`Check for unintentional updates Imperial Warhorn (imperial-warhorn-red)
       "image": "DYN242",
       "set": "Dynasty",
     },
+    {
+      "foiling": "Cold",
+      "identifier": "DYN242",
+      "image": "DYN242",
+      "set": "Dynasty",
+    },
   ],
   "rarities": [
     "Majestic",
@@ -59893,6 +60388,11 @@ exports[`Check for unintentional updates Increase the Tension (increase-the-tens
       "image": "U-CRU135",
       "set": "Crucible of War",
     },
+    {
+      "identifier": "RIP022",
+      "image": "",
+      "set": "Riptide Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -59900,9 +60400,11 @@ exports[`Check for unintentional updates Increase the Tension (increase-the-tens
   "rarity": "Common",
   "setIdentifiers": [
     "CRU135",
+    "RIP022",
   ],
   "sets": [
     "Crucible of War",
+    "Riptide Blitz Deck",
   ],
   "specialImage": "CRU135",
   "subtypes": [
@@ -60287,20 +60789,49 @@ exports[`Check for unintentional updates Inertia (inertia) vs snapshot 1`] = `
       "image": "OUT236.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "ARA029",
+      "image": "",
+      "set": "Arakni Blitz Deck",
+    },
+    {
+      "identifier": "AZL030",
+      "image": "",
+      "set": "Azalea Blitz Deck",
+    },
+    {
+      "identifier": "UZU030",
+      "image": "",
+      "set": "Uzuri Blitz Deck",
+    },
+    {
+      "identifier": "RIP030",
+      "image": "",
+      "set": "Riptide Blitz Deck",
+    },
   ],
   "rarities": [
     "Promo",
     "Token",
+    "Common",
   ],
   "rarity": "Token",
   "setIdentifiers": [
     "FAB135",
     "LGS127",
     "OUT236",
+    "ARA029",
+    "AZL030",
+    "UZU030",
+    "RIP030",
   ],
   "sets": [
     "Promos",
     "Outsiders",
+    "Arakni Blitz Deck",
+    "Azalea Blitz Deck",
+    "Uzuri Blitz Deck",
+    "Riptide Blitz Deck",
   ],
   "specialImage": "OUT236.width-450",
   "subtypes": [
@@ -60341,6 +60872,11 @@ exports[`Check for unintentional updates Inertia Trap (inertia-trap-red) vs snap
       "image": "OUT173.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "RIP010",
+      "image": "",
+      "set": "Riptide Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -60348,9 +60884,11 @@ exports[`Check for unintentional updates Inertia Trap (inertia-trap-red) vs snap
   "rarity": "Common",
   "setIdentifiers": [
     "OUT173",
+    "RIP010",
   ],
   "sets": [
     "Outsiders",
+    "Riptide Blitz Deck",
   ],
   "specialImage": "OUT173.width-450",
   "subtypes": [
@@ -60378,6 +60916,9 @@ exports[`Check for unintentional updates Infect (infect-blue) vs snapshot 1`] = 
   "functionalText": "**Stealth**
 
 When this hits a hero, create a Bloodrot Pox token under their control.",
+  "keywords": [
+    "Stealth",
+  ],
   "name": "Infect",
   "pitch": 3,
   "power": 1,
@@ -60393,6 +60934,16 @@ When this hits a hero, create a Bloodrot Pox token under their control.",
       "image": "OUT026.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "ARA022",
+      "image": "",
+      "set": "Arakni Blitz Deck",
+    },
+    {
+      "identifier": "UZU021",
+      "image": "",
+      "set": "Uzuri Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -60400,9 +60951,13 @@ When this hits a hero, create a Bloodrot Pox token under their control.",
   "rarity": "Common",
   "setIdentifiers": [
     "OUT026",
+    "ARA022",
+    "UZU021",
   ],
   "sets": [
     "Outsiders",
+    "Arakni Blitz Deck",
+    "Uzuri Blitz Deck",
   ],
   "specialImage": "OUT026.width-450",
   "subtypes": [
@@ -60430,6 +60985,9 @@ exports[`Check for unintentional updates Infect (infect-red) vs snapshot 1`] = `
   "functionalText": "**Stealth**
 
 When this hits a hero, create a Bloodrot Pox token under their control.",
+  "keywords": [
+    "Stealth",
+  ],
   "name": "Infect",
   "pitch": 1,
   "power": 3,
@@ -60445,6 +61003,16 @@ When this hits a hero, create a Bloodrot Pox token under their control.",
       "image": "OUT024.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "ARA008",
+      "image": "",
+      "set": "Arakni Blitz Deck",
+    },
+    {
+      "identifier": "UZU013",
+      "image": "",
+      "set": "Uzuri Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -60452,9 +61020,13 @@ When this hits a hero, create a Bloodrot Pox token under their control.",
   "rarity": "Common",
   "setIdentifiers": [
     "OUT024",
+    "ARA008",
+    "UZU013",
   ],
   "sets": [
     "Outsiders",
+    "Arakni Blitz Deck",
+    "Uzuri Blitz Deck",
   ],
   "specialImage": "OUT024.width-450",
   "subtypes": [
@@ -60482,6 +61054,9 @@ exports[`Check for unintentional updates Infect (infect-yellow) vs snapshot 1`] 
   "functionalText": "**Stealth**
 
 When this hits a hero, create a Bloodrot Pox token under their control.",
+  "keywords": [
+    "Stealth",
+  ],
   "name": "Infect",
   "pitch": 2,
   "power": 2,
@@ -60497,6 +61072,16 @@ When this hits a hero, create a Bloodrot Pox token under their control.",
       "image": "OUT025.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "ARA020",
+      "image": "",
+      "set": "Arakni Blitz Deck",
+    },
+    {
+      "identifier": "UZU017",
+      "image": "",
+      "set": "Uzuri Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -60504,9 +61089,13 @@ When this hits a hero, create a Bloodrot Pox token under their control.",
   "rarity": "Common",
   "setIdentifiers": [
     "OUT025",
+    "ARA020",
+    "UZU017",
   ],
   "sets": [
     "Outsiders",
+    "Arakni Blitz Deck",
+    "Uzuri Blitz Deck",
   ],
   "specialImage": "OUT025.width-450",
   "subtypes": [
@@ -60602,6 +61191,11 @@ When this hits a hero, create a Bloodrot Pox token under their control.",
       "image": "OUT118.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "AZL009",
+      "image": "",
+      "set": "Azalea Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -60609,9 +61203,11 @@ When this hits a hero, create a Bloodrot Pox token under their control.",
   "rarity": "Common",
   "setIdentifiers": [
     "OUT118",
+    "AZL009",
   ],
   "sets": [
     "Outsiders",
+    "Azalea Blitz Deck",
   ],
   "specialImage": "OUT118.width-450",
   "subtypes": [
@@ -60655,6 +61251,11 @@ When this hits a hero, create a Bloodrot Pox token under their control.",
       "image": "OUT119.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "RIP025",
+      "image": "",
+      "set": "Riptide Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -60662,9 +61263,11 @@ When this hits a hero, create a Bloodrot Pox token under their control.",
   "rarity": "Common",
   "setIdentifiers": [
     "OUT119",
+    "RIP025",
   ],
   "sets": [
     "Outsiders",
+    "Riptide Blitz Deck",
   ],
   "specialImage": "OUT119.width-450",
   "subtypes": [
@@ -60852,6 +61455,9 @@ exports[`Check for unintentional updates Infiltrate (infiltrate-red) vs snapshot
   "functionalText": "**Stealth**
 
 When this hits a hero, banish the top card of their deck. You may play it until the end of your next turn.",
+  "keywords": [
+    "Stealth",
+  ],
   "name": "Infiltrate",
   "pitch": 1,
   "power": 3,
@@ -62988,6 +63594,11 @@ exports[`Check for unintentional updates Ironhide Legs (ironhide-legs) vs snapsh
       "image": "U-MON244.width-450",
       "set": "Monarch",
     },
+    {
+      "identifier": "UZU006",
+      "image": "",
+      "set": "Uzuri Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -62998,12 +63609,14 @@ exports[`Check for unintentional updates Ironhide Legs (ironhide-legs) vs snapsh
     "OLD007",
     "RVD006",
     "MON244",
+    "UZU006",
   ],
   "sets": [
     "Dromai Blitz Deck",
     "Oldhim Blitz Deck",
     "Classic Battles: Rhinar vs Dorinthea",
     "Monarch",
+    "Uzuri Blitz Deck",
   ],
   "specialImage": "MON244.width-450",
   "subtypes": [
@@ -63355,6 +63968,16 @@ exports[`Check for unintentional updates Ironrot Legs (ironrot-legs) vs snapshot
       "image": "U-WTR158",
       "set": "Welcome to Rathe",
     },
+    {
+      "identifier": "AZL007",
+      "image": "",
+      "set": "Azalea Blitz Deck",
+    },
+    {
+      "identifier": "RIP007",
+      "image": "",
+      "set": "Riptide Blitz Deck",
+    },
   ],
   "rarities": [
     "Promo",
@@ -63369,6 +63992,8 @@ exports[`Check for unintentional updates Ironrot Legs (ironrot-legs) vs snapshot
     "DVR006",
     "1HP345",
     "WTR158",
+    "AZL007",
+    "RIP007",
   ],
   "sets": [
     "Promos",
@@ -63378,6 +64003,8 @@ exports[`Check for unintentional updates Ironrot Legs (ironrot-legs) vs snapshot
     "Classic Battles: Rhinar vs Dorinthea",
     "History Pack 1",
     "Welcome to Rathe",
+    "Azalea Blitz Deck",
+    "Riptide Blitz Deck",
   ],
   "specialImage": "WTR158",
   "subtypes": [
@@ -64073,6 +64700,7 @@ exports[`Check for unintentional updates Isolate (isolate-blue) vs snapshot 1`] 
 
 **Dominate**",
   "keywords": [
+    "Stealth",
     "Dominate",
   ],
   "name": "Isolate",
@@ -64090,6 +64718,11 @@ exports[`Check for unintentional updates Isolate (isolate-blue) vs snapshot 1`] 
       "image": "OUT029.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "UZU022",
+      "image": "",
+      "set": "Uzuri Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -64097,9 +64730,11 @@ exports[`Check for unintentional updates Isolate (isolate-blue) vs snapshot 1`] 
   "rarity": "Common",
   "setIdentifiers": [
     "OUT029",
+    "UZU022",
   ],
   "sets": [
     "Outsiders",
+    "Uzuri Blitz Deck",
   ],
   "specialImage": "OUT029.width-450",
   "subtypes": [
@@ -64128,6 +64763,7 @@ exports[`Check for unintentional updates Isolate (isolate-red) vs snapshot 1`] =
 
 **Dominate**",
   "keywords": [
+    "Stealth",
     "Dominate",
   ],
   "name": "Isolate",
@@ -64145,6 +64781,16 @@ exports[`Check for unintentional updates Isolate (isolate-red) vs snapshot 1`] =
       "image": "OUT027.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "ARA009",
+      "image": "",
+      "set": "Arakni Blitz Deck",
+    },
+    {
+      "identifier": "UZU014",
+      "image": "",
+      "set": "Uzuri Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -64152,9 +64798,13 @@ exports[`Check for unintentional updates Isolate (isolate-red) vs snapshot 1`] =
   "rarity": "Common",
   "setIdentifiers": [
     "OUT027",
+    "ARA009",
+    "UZU014",
   ],
   "sets": [
     "Outsiders",
+    "Arakni Blitz Deck",
+    "Uzuri Blitz Deck",
   ],
   "specialImage": "OUT027.width-450",
   "subtypes": [
@@ -64183,6 +64833,7 @@ exports[`Check for unintentional updates Isolate (isolate-yellow) vs snapshot 1`
 
 **Dominate**",
   "keywords": [
+    "Stealth",
     "Dominate",
   ],
   "name": "Isolate",
@@ -64200,6 +64851,11 @@ exports[`Check for unintentional updates Isolate (isolate-yellow) vs snapshot 1`
       "image": "OUT028.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "UZU018",
+      "image": "",
+      "set": "Uzuri Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -64207,9 +64863,11 @@ exports[`Check for unintentional updates Isolate (isolate-yellow) vs snapshot 1`
   "rarity": "Common",
   "setIdentifiers": [
     "OUT028",
+    "UZU018",
   ],
   "sets": [
     "Outsiders",
+    "Uzuri Blitz Deck",
   ],
   "specialImage": "OUT028.width-450",
   "subtypes": [
@@ -64949,6 +65607,11 @@ exports[`Check for unintentional updates Katsu (katsu) vs snapshot 1`] = `
       "image": "OUT046.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "KAT001",
+      "image": "",
+      "set": "Katsu Blitz Deck",
+    },
   ],
   "rarities": [
     "Promo",
@@ -64967,6 +65630,7 @@ exports[`Check for unintentional updates Katsu (katsu) vs snapshot 1`] = `
     "1HP087",
     "WTR077",
     "OUT046",
+    "KAT001",
   ],
   "sets": [
     "Promos",
@@ -64974,6 +65638,7 @@ exports[`Check for unintentional updates Katsu (katsu) vs snapshot 1`] = `
     "History Pack 1",
     "Welcome to Rathe",
     "Outsiders",
+    "Katsu Blitz Deck",
   ],
   "specialImage": "WTR077",
   "subtypes": [
@@ -69241,6 +69906,16 @@ exports[`Check for unintentional updates Lunging Press (lunging-press-blue) vs s
       "image": "U-CRU186",
       "set": "Crucible of War",
     },
+    {
+      "identifier": "BEN026",
+      "image": "",
+      "set": "Benji Blitz Deck",
+    },
+    {
+      "identifier": "KAT026",
+      "image": "",
+      "set": "Katsu Blitz Deck",
+    },
   ],
   "rarities": [
     "Promo",
@@ -69252,11 +69927,15 @@ exports[`Check for unintentional updates Lunging Press (lunging-press-blue) vs s
     "IRA011",
     "KSU028",
     "CRU186",
+    "BEN026",
+    "KAT026",
   ],
   "sets": [
     "Ira Welcome Deck",
     "Katsu Hero Deck",
     "Crucible of War",
+    "Benji Blitz Deck",
+    "Katsu Blitz Deck",
   ],
   "specialImage": "CRU186",
   "subtypes": [],
@@ -69879,6 +70558,9 @@ exports[`Check for unintentional updates Malign (malign-blue) vs snapshot 1`] = 
   "functionalText": "**Stealth**
 
 Damage that would be dealt by Malign can't be prevented.",
+  "keywords": [
+    "Stealth",
+  ],
   "name": "Malign",
   "pitch": 3,
   "power": 1,
@@ -69931,6 +70613,9 @@ exports[`Check for unintentional updates Malign (malign-red) vs snapshot 1`] = `
   "functionalText": "**Stealth**
 
 Damage that would be dealt by Malign can't be prevented.",
+  "keywords": [
+    "Stealth",
+  ],
   "name": "Malign",
   "pitch": 1,
   "power": 3,
@@ -69946,6 +70631,11 @@ Damage that would be dealt by Malign can't be prevented.",
       "image": "OUT030.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "ARA010",
+      "image": "",
+      "set": "Arakni Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -69953,9 +70643,11 @@ Damage that would be dealt by Malign can't be prevented.",
   "rarity": "Common",
   "setIdentifiers": [
     "OUT030",
+    "ARA010",
   ],
   "sets": [
     "Outsiders",
+    "Arakni Blitz Deck",
   ],
   "specialImage": "OUT030.width-450",
   "subtypes": [
@@ -69983,6 +70675,9 @@ exports[`Check for unintentional updates Malign (malign-yellow) vs snapshot 1`] 
   "functionalText": "**Stealth**
 
 Damage that would be dealt by Malign can't be prevented.",
+  "keywords": [
+    "Stealth",
+  ],
   "name": "Malign",
   "pitch": 2,
   "power": 2,
@@ -70399,6 +71094,16 @@ exports[`Check for unintentional updates Mask of Malicious Manifestations (mask-
       "image": "OUT157.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "ARA003",
+      "image": "",
+      "set": "Arakni Blitz Deck",
+    },
+    {
+      "identifier": "RIP004",
+      "image": "",
+      "set": "Riptide Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -70406,9 +71111,13 @@ exports[`Check for unintentional updates Mask of Malicious Manifestations (mask-
   "rarity": "Common",
   "setIdentifiers": [
     "OUT157",
+    "ARA003",
+    "RIP004",
   ],
   "sets": [
     "Outsiders",
+    "Arakni Blitz Deck",
+    "Riptide Blitz Deck",
   ],
   "specialImage": "OUT157.width-450",
   "subtypes": [
@@ -70457,6 +71166,11 @@ exports[`Check for unintentional updates Mask of Many Faces (mask-of-many-faces)
       "image": "OUT049.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "KAT003",
+      "image": "",
+      "set": "Katsu Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -70464,9 +71178,11 @@ exports[`Check for unintentional updates Mask of Many Faces (mask-of-many-faces)
   "rarity": "Common",
   "setIdentifiers": [
     "OUT049",
+    "KAT003",
   ],
   "sets": [
     "Outsiders",
+    "Katsu Blitz Deck",
   ],
   "specialImage": "OUT049.width-450",
   "subtypes": [
@@ -70651,6 +71367,16 @@ exports[`Check for unintentional updates Mask of Shifting Perspectives (mask-of-
       "image": "OUT140.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "BEN003",
+      "image": "",
+      "set": "Benji Blitz Deck",
+    },
+    {
+      "identifier": "UZU003",
+      "image": "",
+      "set": "Uzuri Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -70658,9 +71384,13 @@ exports[`Check for unintentional updates Mask of Shifting Perspectives (mask-of-
   "rarity": "Common",
   "setIdentifiers": [
     "OUT140",
+    "BEN003",
+    "UZU003",
   ],
   "sets": [
     "Outsiders",
+    "Benji Blitz Deck",
+    "Uzuri Blitz Deck",
   ],
   "specialImage": "OUT140.width-450",
   "subtypes": [
@@ -70693,6 +71423,12 @@ exports[`Check for unintentional updates Mask of the Pouncing Lynx (mask-of-the-
   "name": "Mask of the Pouncing Lynx",
   "printings": [
     {
+      "foiling": "Gold",
+      "identifier": "FAB079",
+      "image": "",
+      "set": "Promos",
+    },
+    {
       "edition": "First",
       "identifier": "EVR037",
       "image": "EVR037.width-450",
@@ -70707,6 +71443,7 @@ exports[`Check for unintentional updates Mask of the Pouncing Lynx (mask-of-the-
     },
   ],
   "rarities": [
+    "Promo",
     "Majestic",
   ],
   "rarity": "Majestic",
@@ -70715,9 +71452,11 @@ exports[`Check for unintentional updates Mask of the Pouncing Lynx (mask-of-the-
     "Commoner",
   ],
   "setIdentifiers": [
+    "FAB079",
     "EVR037",
   ],
   "sets": [
+    "Promos",
     "Everfest",
   ],
   "specialImage": "EVR037.width-450",
@@ -73327,6 +74066,16 @@ Damage that would be dealt by Murkmire Grapnel can't be prevented.",
       "image": "OUT121.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "AZL010",
+      "image": "",
+      "set": "Azalea Blitz Deck",
+    },
+    {
+      "identifier": "RIP016",
+      "image": "",
+      "set": "Riptide Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -73334,9 +74083,13 @@ Damage that would be dealt by Murkmire Grapnel can't be prevented.",
   "rarity": "Common",
   "setIdentifiers": [
     "OUT121",
+    "AZL010",
+    "RIP016",
   ],
   "sets": [
     "Outsiders",
+    "Azalea Blitz Deck",
+    "Riptide Blitz Deck",
   ],
   "specialImage": "OUT121.width-450",
   "subtypes": [
@@ -73380,6 +74133,11 @@ Damage that would be dealt by Murkmire Grapnel can't be prevented.",
       "image": "OUT122.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "RIP026",
+      "image": "",
+      "set": "Riptide Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -73387,9 +74145,11 @@ Damage that would be dealt by Murkmire Grapnel can't be prevented.",
   "rarity": "Common",
   "setIdentifiers": [
     "OUT122",
+    "RIP026",
   ],
   "sets": [
     "Outsiders",
+    "Riptide Blitz Deck",
   ],
   "specialImage": "OUT122.width-450",
   "subtypes": [
@@ -74011,10 +74771,6 @@ exports[`Check for unintentional updates Nerves of Steel (nerves-of-steel-blue) 
 **Battleworn** and **temper** on equipment you control doesn't trigger if it defends an attack with 2 or less {p}.
 
 When your hero is dealt damage, destroy Nerves of Steel.",
-  "keywords": [
-    "Battleworn",
-    "Temper",
-  ],
   "name": "Nerves of Steel",
   "pitch": 3,
   "printings": [
@@ -76260,6 +77016,16 @@ exports[`Check for unintentional updates One-Two Punch (one-two-punch-blue) vs s
       "image": "OUT082.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "BEN022",
+      "image": "",
+      "set": "Benji Blitz Deck",
+    },
+    {
+      "identifier": "KAT021",
+      "image": "",
+      "set": "Katsu Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -76267,9 +77033,13 @@ exports[`Check for unintentional updates One-Two Punch (one-two-punch-blue) vs s
   "rarity": "Common",
   "setIdentifiers": [
     "OUT082",
+    "BEN022",
+    "KAT021",
   ],
   "sets": [
     "Outsiders",
+    "Benji Blitz Deck",
+    "Katsu Blitz Deck",
   ],
   "specialImage": "OUT082.width-450",
   "subtypes": [
@@ -76366,6 +77136,16 @@ exports[`Check for unintentional updates One-Two Punch (one-two-punch-yellow) vs
       "image": "OUT081.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "BEN016",
+      "image": "",
+      "set": "Benji Blitz Deck",
+    },
+    {
+      "identifier": "KAT016",
+      "image": "",
+      "set": "Katsu Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -76373,9 +77153,13 @@ exports[`Check for unintentional updates One-Two Punch (one-two-punch-yellow) vs
   "rarity": "Common",
   "setIdentifiers": [
     "OUT081",
+    "BEN016",
+    "KAT016",
   ],
   "sets": [
     "Outsiders",
+    "Benji Blitz Deck",
+    "Katsu Blitz Deck",
   ],
   "specialImage": "OUT081.width-450",
   "subtypes": [
@@ -76511,6 +77295,11 @@ exports[`Check for unintentional updates Open the Center (open-the-center-red) v
       "image": "U-WTR095",
       "set": "Welcome to Rathe",
     },
+    {
+      "identifier": "KAT012",
+      "image": "",
+      "set": "Katsu Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -76519,10 +77308,12 @@ exports[`Check for unintentional updates Open the Center (open-the-center-red) v
   "setIdentifiers": [
     "KSU013",
     "WTR095",
+    "KAT012",
   ],
   "sets": [
     "Katsu Hero Deck",
     "Welcome to Rathe",
+    "Katsu Blitz Deck",
   ],
   "specialImage": "WTR095",
   "subtypes": [
@@ -79571,6 +80362,11 @@ Create a Ponder token.",
       "image": "OUT231.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "UZU016",
+      "image": "",
+      "set": "Uzuri Blitz Deck",
+    },
   ],
   "rarities": [
     "Promo",
@@ -79580,10 +80376,12 @@ Create a Ponder token.",
   "setIdentifiers": [
     "FAB131",
     "OUT231",
+    "UZU016",
   ],
   "sets": [
     "Promos",
     "Outsiders",
+    "Uzuri Blitz Deck",
   ],
   "specialImage": "OUT231.width-450",
   "subtypes": [],
@@ -79915,6 +80713,11 @@ exports[`Check for unintentional updates Pendulum Trap (pendulum-trap-yellow) vs
       "image": "OUT107.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "RIP012",
+      "image": "",
+      "set": "Riptide Blitz Deck",
+    },
   ],
   "rarities": [
     "Rare",
@@ -79925,9 +80728,11 @@ exports[`Check for unintentional updates Pendulum Trap (pendulum-trap-yellow) vs
   ],
   "setIdentifiers": [
     "OUT107",
+    "RIP012",
   ],
   "sets": [
     "Outsiders",
+    "Riptide Blitz Deck",
   ],
   "specialImage": "OUT107.width-450",
   "subtypes": [
@@ -81397,7 +82202,7 @@ exports[`Check for unintentional updates Plague Hive (plague-hive-yellow) vs sna
     "Assassin",
     "Ranger",
   ],
-  "defaultImage": "OUT000",
+  "defaultImage": "OUT000.width-450",
   "functionalText": "**Legendary**
 
 When you pitch Plague Hive, for each opposing hero, choose Inertia, Frailty, or Bloodrot Pox at random and create that token under their control.",
@@ -81408,15 +82213,15 @@ When you pitch Plague Hive, for each opposing hero, choose Inertia, Frailty, or 
   "pitch": 2,
   "printings": [
     {
-      "foiling": "Cold",
+      "foiling": "Rainbow",
       "identifier": "OUT000",
-      "image": "OUT000",
+      "image": "OUT000.width-450",
       "set": "Outsiders",
     },
     {
-      "foiling": "Rainbow",
+      "foiling": "Cold",
       "identifier": "OUT000",
-      "image": "OUT000",
+      "image": "OUT000.width-450",
       "set": "Outsiders",
     },
   ],
@@ -81433,7 +82238,7 @@ When you pitch Plague Hive, for each opposing hero, choose Inertia, Frailty, or 
   "sets": [
     "Outsiders",
   ],
-  "specialImage": "OUT000",
+  "specialImage": "OUT000.width-450",
   "subtypes": [
     "Gem",
   ],
@@ -82505,6 +83310,11 @@ exports[`Check for unintentional updates Plunge (plunge-yellow) vs snapshot 1`] 
       "image": "OUT152.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "BEN019",
+      "image": "",
+      "set": "Benji Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -82512,9 +83322,11 @@ exports[`Check for unintentional updates Plunge (plunge-yellow) vs snapshot 1`] 
   "rarity": "Common",
   "setIdentifiers": [
     "OUT152",
+    "BEN019",
   ],
   "sets": [
     "Outsiders",
+    "Benji Blitz Deck",
   ],
   "specialImage": "OUT152.width-450",
   "subtypes": [
@@ -83241,6 +84053,11 @@ exports[`Check for unintentional updates Ponder (ponder) vs snapshot 1`] = `
       "image": "OUT237.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "UZU031",
+      "image": "",
+      "set": "Uzuri Blitz Deck",
+    },
   ],
   "rarities": [
     "Promo",
@@ -83251,11 +84068,13 @@ exports[`Check for unintentional updates Ponder (ponder) vs snapshot 1`] = `
     "LGS128",
     "DYN244",
     "OUT237",
+    "UZU031",
   ],
   "sets": [
     "Promos",
     "Dynasty",
     "Outsiders",
+    "Uzuri Blitz Deck",
   ],
   "specialImage": "DYN244",
   "subtypes": [
@@ -85972,6 +86791,9 @@ exports[`Check for unintentional updates Prowl (prowl-blue) vs snapshot 1`] = `
   "functionalText": "**Stealth**
 
 The next attack with **stealth** you play this combat chain gains +1{p}.",
+  "keywords": [
+    "Stealth",
+  ],
   "name": "Prowl",
   "pitch": 3,
   "power": 1,
@@ -85987,6 +86809,16 @@ The next attack with **stealth** you play this combat chain gains +1{p}.",
       "image": "OUT035.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "ARA023",
+      "image": "",
+      "set": "Arakni Blitz Deck",
+    },
+    {
+      "identifier": "UZU023",
+      "image": "",
+      "set": "Uzuri Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -85994,9 +86826,13 @@ The next attack with **stealth** you play this combat chain gains +1{p}.",
   "rarity": "Common",
   "setIdentifiers": [
     "OUT035",
+    "ARA023",
+    "UZU023",
   ],
   "sets": [
     "Outsiders",
+    "Arakni Blitz Deck",
+    "Uzuri Blitz Deck",
   ],
   "specialImage": "OUT035.width-450",
   "subtypes": [
@@ -86024,6 +86860,9 @@ exports[`Check for unintentional updates Prowl (prowl-red) vs snapshot 1`] = `
   "functionalText": "**Stealth**
 
 The next attack with **stealth** you play this combat chain gains +1{p}.",
+  "keywords": [
+    "Stealth",
+  ],
   "name": "Prowl",
   "pitch": 1,
   "power": 3,
@@ -86039,6 +86878,11 @@ The next attack with **stealth** you play this combat chain gains +1{p}.",
       "image": "OUT033.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "ARA011",
+      "image": "",
+      "set": "Arakni Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -86046,9 +86890,11 @@ The next attack with **stealth** you play this combat chain gains +1{p}.",
   "rarity": "Common",
   "setIdentifiers": [
     "OUT033",
+    "ARA011",
   ],
   "sets": [
     "Outsiders",
+    "Arakni Blitz Deck",
   ],
   "specialImage": "OUT033.width-450",
   "subtypes": [
@@ -86076,6 +86922,9 @@ exports[`Check for unintentional updates Prowl (prowl-yellow) vs snapshot 1`] = 
   "functionalText": "**Stealth**
 
 The next attack with **stealth** you play this combat chain gains +1{p}.",
+  "keywords": [
+    "Stealth",
+  ],
   "name": "Prowl",
   "pitch": 2,
   "power": 2,
@@ -86091,6 +86940,11 @@ The next attack with **stealth** you play this combat chain gains +1{p}.",
       "image": "OUT034.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "ARA021",
+      "image": "",
+      "set": "Arakni Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -86098,9 +86952,11 @@ The next attack with **stealth** you play this combat chain gains +1{p}.",
   "rarity": "Common",
   "setIdentifiers": [
     "OUT034",
+    "ARA021",
   ],
   "sets": [
     "Outsiders",
+    "Arakni Blitz Deck",
   ],
   "specialImage": "OUT034.width-450",
   "subtypes": [
@@ -88088,6 +88944,11 @@ exports[`Check for unintentional updates Quelling Robe (quelling-robe) vs snapsh
       "image": "UPR184",
       "set": "Uprising",
     },
+    {
+      "identifier": "UZU004",
+      "image": "",
+      "set": "Uzuri Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -88095,9 +88956,11 @@ exports[`Check for unintentional updates Quelling Robe (quelling-robe) vs snapsh
   "rarity": "Common",
   "setIdentifiers": [
     "UPR184",
+    "UZU004",
   ],
   "sets": [
     "Uprising",
+    "Uzuri Blitz Deck",
   ],
   "specialImage": "UPR184",
   "subtypes": [
@@ -88205,6 +89068,11 @@ exports[`Check for unintentional updates Quelling Slippers (quelling-slippers) v
       "image": "UPR186",
       "set": "Uprising",
     },
+    {
+      "identifier": "KAT006",
+      "image": "",
+      "set": "Katsu Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -88213,10 +89081,12 @@ exports[`Check for unintentional updates Quelling Slippers (quelling-slippers) v
   "setIdentifiers": [
     "FAI006",
     "UPR186",
+    "KAT006",
   ],
   "sets": [
     "Fai Blitz Deck",
     "Uprising",
+    "Katsu Blitz Deck",
   ],
   "specialImage": "UPR186",
   "subtypes": [
@@ -89835,6 +90705,16 @@ exports[`Check for unintentional updates Ravenous Rabble (ravenous-rabble-red) v
       "image": "OUT213.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "AZL017",
+      "image": "",
+      "set": "Azalea Blitz Deck",
+    },
+    {
+      "identifier": "RIP021",
+      "image": "",
+      "set": "Riptide Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -89845,12 +90725,16 @@ exports[`Check for unintentional updates Ravenous Rabble (ravenous-rabble-red) v
     "1HP393",
     "ARC191",
     "OUT213",
+    "AZL017",
+    "RIP021",
   ],
   "sets": [
     "Dromai Blitz Deck",
     "History Pack 1",
     "Arcane Rising",
     "Outsiders",
+    "Azalea Blitz Deck",
+    "Riptide Blitz Deck",
   ],
   "specialImage": "ARC191-RF",
   "subtypes": [
@@ -90350,6 +91234,16 @@ exports[`Check for unintentional updates Razor's Edge (razors-edge-blue) vs snap
       "image": "OUT044.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "ARA026",
+      "image": "",
+      "set": "Arakni Blitz Deck",
+    },
+    {
+      "identifier": "UZU026",
+      "image": "",
+      "set": "Uzuri Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -90357,9 +91251,13 @@ exports[`Check for unintentional updates Razor's Edge (razors-edge-blue) vs snap
   "rarity": "Common",
   "setIdentifiers": [
     "OUT044",
+    "ARA026",
+    "UZU026",
   ],
   "sets": [
     "Outsiders",
+    "Arakni Blitz Deck",
+    "Uzuri Blitz Deck",
   ],
   "specialImage": "OUT044.width-450",
   "subtypes": [],
@@ -90397,6 +91295,11 @@ exports[`Check for unintentional updates Razor's Edge (razors-edge-red) vs snaps
       "image": "OUT042.original",
       "set": "Outsiders",
     },
+    {
+      "identifier": "ARA016",
+      "image": "",
+      "set": "Arakni Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -90404,9 +91307,11 @@ exports[`Check for unintentional updates Razor's Edge (razors-edge-red) vs snaps
   "rarity": "Common",
   "setIdentifiers": [
     "OUT042",
+    "ARA016",
   ],
   "sets": [
     "Outsiders",
+    "Arakni Blitz Deck",
   ],
   "specialImage": "OUT042.original",
   "subtypes": [],
@@ -91444,6 +92349,11 @@ exports[`Check for unintentional updates Recoil (recoil-blue) vs snapshot 1`] = 
       "image": "OUT061.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "BEN023",
+      "image": "",
+      "set": "Benji Blitz Deck",
+    },
   ],
   "rarities": [
     "Rare",
@@ -91454,9 +92364,11 @@ exports[`Check for unintentional updates Recoil (recoil-blue) vs snapshot 1`] = 
   ],
   "setIdentifiers": [
     "OUT061",
+    "BEN023",
   ],
   "sets": [
     "Outsiders",
+    "Benji Blitz Deck",
   ],
   "specialImage": "OUT061.width-450",
   "subtypes": [
@@ -91863,7 +92775,7 @@ exports[`Check for unintentional updates Redback Shroud (redback-shroud) vs snap
     {
       "foiling": "Cold",
       "identifier": "OUT011",
-      "image": "",
+      "image": "OUT011_EA",
       "set": "Outsiders",
       "treatment": "Extended Art",
     },
@@ -91884,7 +92796,7 @@ exports[`Check for unintentional updates Redback Shroud (redback-shroud) vs snap
     "Promos",
     "Outsiders",
   ],
-  "specialImage": "OUT011.width-450",
+  "specialImage": "OUT011_EA",
   "subtypes": [
     "Chest",
   ],
@@ -95913,20 +96825,28 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.",
       "image": "OUT092.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "RIP001",
+      "image": "",
+      "set": "Riptide Blitz Deck",
+    },
   ],
   "rarities": [
     "Promo",
     "Token",
+    "Common",
   ],
   "rarity": "Token",
   "setIdentifiers": [
     "HER080",
     "HER083",
     "OUT092",
+    "RIP001",
   ],
   "sets": [
     "Promos",
     "Outsiders",
+    "Riptide Blitz Deck",
   ],
   "specialImage": "OUT092.width-450",
   "subtypes": [
@@ -100773,6 +101693,11 @@ exports[`Check for unintentional updates Salt the Wound (salt-the-wound-yellow) 
       "image": "U-CRU073",
       "set": "Crucible of War",
     },
+    {
+      "identifier": "BEN020",
+      "image": "",
+      "set": "Benji Blitz Deck",
+    },
   ],
   "rarities": [
     "Promo",
@@ -100783,11 +101708,13 @@ exports[`Check for unintentional updates Salt the Wound (salt-the-wound-yellow) 
     "IRA004",
     "1HP135",
     "CRU073",
+    "BEN020",
   ],
   "sets": [
     "Ira Welcome Deck",
     "History Pack 1",
     "Crucible of War",
+    "Benji Blitz Deck",
   ],
   "specialImage": "CRU073",
   "subtypes": [
@@ -100921,6 +101848,16 @@ exports[`Check for unintentional updates Salvage Shot (salvage-shot-red) vs snap
       "image": "ARC066_Salvage_Shot.width-10000",
       "set": "Arcane Rising",
     },
+    {
+      "identifier": "AZL011",
+      "image": "",
+      "set": "Azalea Blitz Deck",
+    },
+    {
+      "identifier": "RIP017",
+      "image": "",
+      "set": "Riptide Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -100929,10 +101866,14 @@ exports[`Check for unintentional updates Salvage Shot (salvage-shot-red) vs snap
   "setIdentifiers": [
     "1HP246",
     "ARC066",
+    "AZL011",
+    "RIP017",
   ],
   "sets": [
     "History Pack 1",
     "Arcane Rising",
+    "Azalea Blitz Deck",
+    "Riptide Blitz Deck",
   ],
   "specialImage": "ARC066",
   "subtypes": [
@@ -102640,6 +103581,11 @@ exports[`Check for unintentional updates Scar for a Scar (scar-for-a-scar-red) v
       "image": "UPR209",
       "set": "Uprising",
     },
+    {
+      "identifier": "KAT015",
+      "image": "",
+      "set": "Katsu Blitz Deck",
+    },
   ],
   "rarities": [
     "Promo",
@@ -102653,6 +103599,7 @@ exports[`Check for unintentional updates Scar for a Scar (scar-for-a-scar-red) v
     "1HP396",
     "WTR191",
     "UPR209",
+    "KAT015",
   ],
   "sets": [
     "Promos",
@@ -102661,6 +103608,7 @@ exports[`Check for unintentional updates Scar for a Scar (scar-for-a-scar-red) v
     "History Pack 1",
     "Welcome to Rathe",
     "Uprising",
+    "Katsu Blitz Deck",
   ],
   "specialImage": "FAB015",
   "subtypes": [
@@ -103074,6 +104022,11 @@ The next attack action card you play from arsenal this turn gains +1{p}.
       "image": "OUT227.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "AZL026",
+      "image": "",
+      "set": "Azalea Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -103081,9 +104034,11 @@ The next attack action card you play from arsenal this turn gains +1{p}.
   "rarity": "Common",
   "setIdentifiers": [
     "OUT227",
+    "AZL026",
   ],
   "sets": [
     "Outsiders",
+    "Azalea Blitz Deck",
   ],
   "specialImage": "OUT227.width-450",
   "subtypes": [
@@ -103130,6 +104085,16 @@ The next attack action card you play from arsenal this turn gains +3{p}.
       "image": "OUT225.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "AZL020",
+      "image": "",
+      "set": "Azalea Blitz Deck",
+    },
+    {
+      "identifier": "RIP023",
+      "image": "",
+      "set": "Riptide Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -103137,9 +104102,13 @@ The next attack action card you play from arsenal this turn gains +3{p}.
   "rarity": "Common",
   "setIdentifiers": [
     "OUT225",
+    "AZL020",
+    "RIP023",
   ],
   "sets": [
     "Outsiders",
+    "Azalea Blitz Deck",
+    "Riptide Blitz Deck",
   ],
   "specialImage": "OUT225.width-450",
   "subtypes": [
@@ -103186,6 +104155,11 @@ The next attack action card you play from arsenal this turn gains +2{p}.
       "image": "OUT226.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "RIP027",
+      "image": "",
+      "set": "Riptide Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -103193,9 +104167,11 @@ The next attack action card you play from arsenal this turn gains +2{p}.
   "rarity": "Common",
   "setIdentifiers": [
     "OUT226",
+    "RIP027",
   ],
   "sets": [
     "Outsiders",
+    "Riptide Blitz Deck",
   ],
   "specialImage": "OUT226.width-450",
   "subtypes": [
@@ -103570,6 +104546,11 @@ exports[`Check for unintentional updates Searing Shot (searing-shot-red) vs snap
       "image": "U-ARC069",
       "set": "Arcane Rising",
     },
+    {
+      "identifier": "RIP018",
+      "image": "",
+      "set": "Riptide Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -103578,10 +104559,12 @@ exports[`Check for unintentional updates Searing Shot (searing-shot-red) vs snap
   "setIdentifiers": [
     "1HP249",
     "ARC069",
+    "RIP018",
   ],
   "sets": [
     "History Pack 1",
     "Arcane Rising",
+    "Riptide Blitz Deck",
   ],
   "specialImage": "ARC069",
   "subtypes": [
@@ -104014,6 +104997,9 @@ exports[`Check for unintentional updates Sedate (sedate-blue) vs snapshot 1`] = 
   "functionalText": "**Stealth**
 
 When this hits a hero, create an Inertia token under their control.",
+  "keywords": [
+    "Stealth",
+  ],
   "name": "Sedate",
   "pitch": 3,
   "power": 1,
@@ -104029,6 +105015,16 @@ When this hits a hero, create an Inertia token under their control.",
       "image": "OUT038.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "ARA024",
+      "image": "",
+      "set": "Arakni Blitz Deck",
+    },
+    {
+      "identifier": "UZU024",
+      "image": "",
+      "set": "Uzuri Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -104036,9 +105032,13 @@ When this hits a hero, create an Inertia token under their control.",
   "rarity": "Common",
   "setIdentifiers": [
     "OUT038",
+    "ARA024",
+    "UZU024",
   ],
   "sets": [
     "Outsiders",
+    "Arakni Blitz Deck",
+    "Uzuri Blitz Deck",
   ],
   "specialImage": "OUT038.width-450",
   "subtypes": [
@@ -104066,6 +105066,9 @@ exports[`Check for unintentional updates Sedate (sedate-red) vs snapshot 1`] = `
   "functionalText": "**Stealth**
 
 When this hits a hero, create an Inertia token under their control.",
+  "keywords": [
+    "Stealth",
+  ],
   "name": "Sedate",
   "pitch": 1,
   "power": 3,
@@ -104081,6 +105084,16 @@ When this hits a hero, create an Inertia token under their control.",
       "image": "OUT036.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "ARA012",
+      "image": "",
+      "set": "Arakni Blitz Deck",
+    },
+    {
+      "identifier": "UZU015",
+      "image": "",
+      "set": "Uzuri Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -104088,9 +105101,13 @@ When this hits a hero, create an Inertia token under their control.",
   "rarity": "Common",
   "setIdentifiers": [
     "OUT036",
+    "ARA012",
+    "UZU015",
   ],
   "sets": [
     "Outsiders",
+    "Arakni Blitz Deck",
+    "Uzuri Blitz Deck",
   ],
   "specialImage": "OUT036.width-450",
   "subtypes": [
@@ -104118,6 +105135,9 @@ exports[`Check for unintentional updates Sedate (sedate-yellow) vs snapshot 1`] 
   "functionalText": "**Stealth**
 
 When this hits a hero, create an Inertia token under their control.",
+  "keywords": [
+    "Stealth",
+  ],
   "name": "Sedate",
   "pitch": 2,
   "power": 2,
@@ -104133,6 +105153,11 @@ When this hits a hero, create an Inertia token under their control.",
       "image": "OUT037.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "UZU019",
+      "image": "",
+      "set": "Uzuri Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -104140,9 +105165,11 @@ When this hits a hero, create an Inertia token under their control.",
   "rarity": "Common",
   "setIdentifiers": [
     "OUT037",
+    "UZU019",
   ],
   "sets": [
     "Outsiders",
+    "Uzuri Blitz Deck",
   ],
   "specialImage": "OUT037.width-450",
   "subtypes": [
@@ -104185,6 +105212,11 @@ When this hits a hero, create an Inertia token under their control.",
       "image": "OUT126.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "AZL024",
+      "image": "",
+      "set": "Azalea Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -104192,9 +105224,11 @@ When this hits a hero, create an Inertia token under their control.",
   "rarity": "Common",
   "setIdentifiers": [
     "OUT126",
+    "AZL024",
   ],
   "sets": [
     "Outsiders",
+    "Azalea Blitz Deck",
   ],
   "specialImage": "OUT126.width-450",
   "subtypes": [
@@ -104238,6 +105272,16 @@ When this hits a hero, create an Inertia token under their control.",
       "image": "OUT124.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "AZL012",
+      "image": "",
+      "set": "Azalea Blitz Deck",
+    },
+    {
+      "identifier": "RIP019",
+      "image": "",
+      "set": "Riptide Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -104245,9 +105289,13 @@ When this hits a hero, create an Inertia token under their control.",
   "rarity": "Common",
   "setIdentifiers": [
     "OUT124",
+    "AZL012",
+    "RIP019",
   ],
   "sets": [
     "Outsiders",
+    "Azalea Blitz Deck",
+    "Riptide Blitz Deck",
   ],
   "specialImage": "OUT124.width-450",
   "subtypes": [
@@ -104291,6 +105339,11 @@ When this hits a hero, create an Inertia token under their control.",
       "image": "OUT125.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "AZL021",
+      "image": "",
+      "set": "Azalea Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -104298,9 +105351,11 @@ When this hits a hero, create an Inertia token under their control.",
   "rarity": "Common",
   "setIdentifiers": [
     "OUT125",
+    "AZL021",
   ],
   "sets": [
     "Outsiders",
+    "Azalea Blitz Deck",
   ],
   "specialImage": "OUT125.width-450",
   "subtypes": [
@@ -104925,6 +105980,11 @@ exports[`Check for unintentional updates Seek Horizon (seek-horizon-red) vs snap
       "image": "OUT216.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "AZL018",
+      "image": "",
+      "set": "Azalea Blitz Deck",
+    },
   ],
   "rarities": [
     "Rare",
@@ -104934,10 +105994,12 @@ exports[`Check for unintentional updates Seek Horizon (seek-horizon-red) vs snap
   "setIdentifiers": [
     "MON251",
     "OUT216",
+    "AZL018",
   ],
   "sets": [
     "Monarch",
     "Outsiders",
+    "Azalea Blitz Deck",
   ],
   "specialImage": "MON251.width-450",
   "subtypes": [
@@ -107482,6 +108544,16 @@ exports[`Check for unintentional updates Short and Sharp (short-and-sharp-red) v
       "image": "OUT154.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "ARA017",
+      "image": "",
+      "set": "Arakni Blitz Deck",
+    },
+    {
+      "identifier": "BEN013",
+      "image": "",
+      "set": "Benji Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -107489,9 +108561,13 @@ exports[`Check for unintentional updates Short and Sharp (short-and-sharp-red) v
   "rarity": "Common",
   "setIdentifiers": [
     "OUT154",
+    "ARA017",
+    "BEN013",
   ],
   "sets": [
     "Outsiders",
+    "Arakni Blitz Deck",
+    "Benji Blitz Deck",
   ],
   "specialImage": "OUT154.width-450",
   "subtypes": [],
@@ -108873,6 +109949,7 @@ exports[`Check for unintentional updates Sigil of Solace (sigil-of-solace-blue) 
 exports[`Check for unintentional updates Sigil of Solace (sigil-of-solace-red) vs snapshot 1`] = `
 {
   "artists": [
+    "Asur Misoa",
     "Adolfo Navarro",
   ],
   "cardIdentifier": "sigil-of-solace-red",
@@ -108885,6 +109962,11 @@ exports[`Check for unintentional updates Sigil of Solace (sigil-of-solace-red) v
   "name": "Sigil of Solace",
   "pitch": 1,
   "printings": [
+    {
+      "identifier": "FAB136",
+      "image": "",
+      "set": "Promos",
+    },
     {
       "identifier": "DRO026",
       "image": "DRO026.width-450",
@@ -108923,6 +110005,7 @@ exports[`Check for unintentional updates Sigil of Solace (sigil-of-solace-red) v
     },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
@@ -108930,11 +110013,13 @@ exports[`Check for unintentional updates Sigil of Solace (sigil-of-solace-red) v
     "Commoner",
   ],
   "setIdentifiers": [
+    "FAB136",
     "DRO026",
     "1HP387",
     "WTR173",
   ],
   "sets": [
+    "Promos",
     "Dromai Blitz Deck",
     "History Pack 1",
     "Welcome to Rathe",
@@ -109436,6 +110521,11 @@ exports[`Check for unintentional updates Silken Gi (silken-gi) vs snapshot 1`] =
       "image": "OUT179.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "BEN004",
+      "image": "",
+      "set": "Benji Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -109443,9 +110533,11 @@ exports[`Check for unintentional updates Silken Gi (silken-gi) vs snapshot 1`] =
   "rarity": "Common",
   "setIdentifiers": [
     "OUT179",
+    "BEN004",
   ],
   "sets": [
     "Outsiders",
+    "Benji Blitz Deck",
   ],
   "specialImage": "OUT179.width-450",
   "subtypes": [
@@ -111191,6 +112283,11 @@ exports[`Check for unintentional updates Skybound Shot (skybound-shot-red) vs sn
       "image": "OUT127.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "AZL013",
+      "image": "",
+      "set": "Azalea Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -111198,9 +112295,11 @@ exports[`Check for unintentional updates Skybound Shot (skybound-shot-red) vs sn
   "rarity": "Common",
   "setIdentifiers": [
     "OUT127",
+    "AZL013",
   ],
   "sets": [
     "Outsiders",
+    "Azalea Blitz Deck",
   ],
   "specialImage": "OUT127.width-450",
   "subtypes": [
@@ -113422,6 +114521,11 @@ exports[`Check for unintentional updates Snapdragon Scalers (snapdragon-scalers)
       "image": "U-WTR154",
       "set": "Welcome to Rathe",
     },
+    {
+      "identifier": "ARA006",
+      "image": "",
+      "set": "Arakni Blitz Deck",
+    },
   ],
   "rarities": [
     "Promo",
@@ -113435,6 +114539,7 @@ exports[`Check for unintentional updates Snapdragon Scalers (snapdragon-scalers)
     "RNR007",
     "1HP353",
     "WTR154",
+    "ARA006",
   ],
   "sets": [
     "Promos",
@@ -113443,6 +114548,7 @@ exports[`Check for unintentional updates Snapdragon Scalers (snapdragon-scalers)
     "Rhinar Hero Deck",
     "History Pack 1",
     "Welcome to Rathe",
+    "Arakni Blitz Deck",
   ],
   "specialImage": "WTR154",
   "subtypes": [
@@ -113761,6 +114867,11 @@ exports[`Check for unintentional updates Sneak Attack (sneak-attack-red) vs snap
       "image": "OUT018.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "UZU007",
+      "image": "",
+      "set": "Uzuri Blitz Deck",
+    },
   ],
   "rarities": [
     "Rare",
@@ -113771,9 +114882,11 @@ exports[`Check for unintentional updates Sneak Attack (sneak-attack-red) vs snap
   ],
   "setIdentifiers": [
     "OUT018",
+    "UZU007",
   ],
   "sets": [
     "Outsiders",
+    "Uzuri Blitz Deck",
   ],
   "specialImage": "OUT018.width-450",
   "subtypes": [
@@ -114841,6 +115954,11 @@ exports[`Check for unintentional updates Soulbead Strike (soulbead-strike-blue) 
       "image": "U-CRU068",
       "set": "Crucible of War",
     },
+    {
+      "identifier": "BEN025",
+      "image": "",
+      "set": "Benji Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -114849,10 +115967,12 @@ exports[`Check for unintentional updates Soulbead Strike (soulbead-strike-blue) 
   "setIdentifiers": [
     "1HP124",
     "CRU068",
+    "BEN025",
   ],
   "sets": [
     "History Pack 1",
     "Crucible of War",
+    "Benji Blitz Deck",
   ],
   "specialImage": "CRU068",
   "subtypes": [
@@ -117185,11 +118305,22 @@ When this hits a hero, the next time they defend with 1 or more attack action ca
       "image": "OUT004.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "ARA002",
+      "image": "",
+      "set": "Arakni Blitz Deck",
+    },
+    {
+      "identifier": "UZU002",
+      "image": "",
+      "set": "Uzuri Blitz Deck",
+    },
   ],
   "rarities": [
     "Promo",
     "Rare",
     "Token",
+    "Common",
   ],
   "rarity": "Token",
   "setIdentifiers": [
@@ -117197,11 +118328,15 @@ When this hits a hero, the next time they defend with 1 or more attack action ca
     "DYN115",
     "DYN116",
     "OUT004",
+    "ARA002",
+    "UZU002",
   ],
   "sets": [
     "Promos",
     "Dynasty",
     "Outsiders",
+    "Arakni Blitz Deck",
+    "Uzuri Blitz Deck",
   ],
   "specialImage": "dyn_card_Spider_s_Bite.width-10000",
   "subtypes": [
@@ -117310,6 +118445,11 @@ exports[`Check for unintentional updates Spike with Bloodrot (spike-with-bloodro
       "image": "OUT021.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "ARA018",
+      "image": "",
+      "set": "Arakni Blitz Deck",
+    },
   ],
   "rarities": [
     "Promo",
@@ -117322,10 +118462,12 @@ exports[`Check for unintentional updates Spike with Bloodrot (spike-with-bloodro
   "setIdentifiers": [
     "LGS130",
     "OUT021",
+    "ARA018",
   ],
   "sets": [
     "Promos",
     "Outsiders",
+    "Arakni Blitz Deck",
   ],
   "specialImage": "card_Spike_with_Bloodrot.width-10000",
   "subtypes": [],
@@ -117842,6 +118984,11 @@ exports[`Check for unintentional updates Spire Sniping (spire-sniping-blue) vs s
       "image": "OUT132.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "AZL025",
+      "image": "",
+      "set": "Azalea Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -117849,9 +118996,11 @@ exports[`Check for unintentional updates Spire Sniping (spire-sniping-blue) vs s
   "rarity": "Common",
   "setIdentifiers": [
     "OUT132",
+    "AZL025",
   ],
   "sets": [
     "Outsiders",
+    "Azalea Blitz Deck",
   ],
   "specialImage": "OUT132.width-450",
   "subtypes": [
@@ -117893,6 +119042,11 @@ exports[`Check for unintentional updates Spire Sniping (spire-sniping-red) vs sn
       "image": "OUT130.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "AZL014",
+      "image": "",
+      "set": "Azalea Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -117900,9 +119054,11 @@ exports[`Check for unintentional updates Spire Sniping (spire-sniping-red) vs sn
   "rarity": "Common",
   "setIdentifiers": [
     "OUT130",
+    "AZL014",
   ],
   "sets": [
     "Outsiders",
+    "Azalea Blitz Deck",
   ],
   "specialImage": "OUT130.width-450",
   "subtypes": [
@@ -117944,6 +119100,11 @@ exports[`Check for unintentional updates Spire Sniping (spire-sniping-yellow) vs
       "image": "OUT131.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "AZL022",
+      "image": "",
+      "set": "Azalea Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -117951,9 +119112,11 @@ exports[`Check for unintentional updates Spire Sniping (spire-sniping-yellow) vs
   "rarity": "Common",
   "setIdentifiers": [
     "OUT131",
+    "AZL022",
   ],
   "sets": [
     "Outsiders",
+    "Azalea Blitz Deck",
   ],
   "specialImage": "OUT131.width-450",
   "subtypes": [
@@ -118300,6 +119463,16 @@ exports[`Check for unintentional updates Spring Load (spring-load-red) vs snapsh
       "image": "OUT219.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "ARA015",
+      "image": "",
+      "set": "Arakni Blitz Deck",
+    },
+    {
+      "identifier": "BEN012",
+      "image": "",
+      "set": "Benji Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -118307,9 +119480,13 @@ exports[`Check for unintentional updates Spring Load (spring-load-red) vs snapsh
   "rarity": "Common",
   "setIdentifiers": [
     "OUT219",
+    "ARA015",
+    "BEN012",
   ],
   "sets": [
     "Outsiders",
+    "Arakni Blitz Deck",
+    "Benji Blitz Deck",
   ],
   "specialImage": "OUT219.width-450",
   "subtypes": [
@@ -122453,6 +123630,11 @@ exports[`Check for unintentional updates Surging Strike (surging-strike-blue) vs
       "image": "OUT085.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "KAT024",
+      "image": "",
+      "set": "Katsu Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -122462,11 +123644,13 @@ exports[`Check for unintentional updates Surging Strike (surging-strike-blue) vs
     "1HP127",
     "WTR109",
     "OUT085",
+    "KAT024",
   ],
   "sets": [
     "History Pack 1",
     "Welcome to Rathe",
     "Outsiders",
+    "Katsu Blitz Deck",
   ],
   "specialImage": "WTR109",
   "subtypes": [
@@ -122540,6 +123724,11 @@ exports[`Check for unintentional updates Surging Strike (surging-strike-red) vs 
       "image": "OUT083.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "KAT010",
+      "image": "",
+      "set": "Katsu Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -122550,12 +123739,14 @@ exports[`Check for unintentional updates Surging Strike (surging-strike-red) vs 
     "1HP125",
     "WTR107",
     "OUT083",
+    "KAT010",
   ],
   "sets": [
     "Katsu Hero Deck",
     "History Pack 1",
     "Welcome to Rathe",
     "Outsiders",
+    "Katsu Blitz Deck",
   ],
   "specialImage": "WTR107",
   "subtypes": [
@@ -122629,6 +123820,11 @@ exports[`Check for unintentional updates Surging Strike (surging-strike-yellow) 
       "image": "OUT084.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "KAT019",
+      "image": "",
+      "set": "Katsu Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -122639,12 +123835,14 @@ exports[`Check for unintentional updates Surging Strike (surging-strike-yellow) 
     "1HP126",
     "WTR108",
     "OUT084",
+    "KAT019",
   ],
   "sets": [
     "Katsu Hero Deck",
     "History Pack 1",
     "Welcome to Rathe",
     "Outsiders",
+    "Katsu Blitz Deck",
   ],
   "specialImage": "WTR108",
   "subtypes": [
@@ -123565,9 +124763,9 @@ exports[`Check for unintentional updates T-Bone (t-bone-blue) vs snapshot 1`] = 
     },
   ],
   "rarities": [
-    "Common",
+    "Rare",
   ],
-  "rarity": "Common",
+  "rarity": "Rare",
   "restrictedFormats": [
     "Commoner",
   ],
@@ -125199,6 +126397,11 @@ exports[`Check for unintentional updates Tarpit Trap (tarpit-trap-yellow) vs sna
       "image": "OUT108.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "RIP013",
+      "image": "",
+      "set": "Riptide Blitz Deck",
+    },
   ],
   "rarities": [
     "Rare",
@@ -125209,9 +126412,11 @@ exports[`Check for unintentional updates Tarpit Trap (tarpit-trap-yellow) vs sna
   ],
   "setIdentifiers": [
     "OUT108",
+    "RIP013",
   ],
   "sets": [
     "Outsiders",
+    "Riptide Blitz Deck",
   ],
   "specialImage": "OUT108.width-450",
   "subtypes": [
@@ -126454,6 +127659,56 @@ exports[`Check for unintentional updates Themai (themai) vs snapshot 1`] = `
 }
 `;
 
+exports[`Check for unintentional updates Theryon, Magister of Justice (theryon-magister-of-justice) vs snapshot 1`] = `
+{
+  "artists": [
+    "Andy Aslamov",
+  ],
+  "cardIdentifier": "theryon-magister-of-justice",
+  "classes": [
+    "Adjudicator",
+  ],
+  "defaultImage": "JDG008",
+  "functionalText": "The first time each turn another hero destroys a card they don’t control, you may pay {r}{r}. If you do, they destroy a non-hero permanent they control.",
+  "hero": "Theryon",
+  "intellect": 4,
+  "life": 20,
+  "name": "Theryon, Magister of Justice",
+  "printings": [
+    {
+      "foiling": "Rainbow",
+      "identifier": "JDG008",
+      "image": "JDG008",
+      "set": "Promos",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "restrictedFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "JDG008",
+  ],
+  "sets": [
+    "Promos",
+  ],
+  "specialImage": "JDG008",
+  "subtypes": [],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Adjudicator Hero",
+  "types": [
+    "Hero",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates This Round's on Me (this-rounds-on-me-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -126545,6 +127800,16 @@ exports[`Check for unintentional updates Threadbare Tunic (threadbare-tunic) vs 
       "image": "OUT180.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "AZL005",
+      "image": "",
+      "set": "Azalea Blitz Deck",
+    },
+    {
+      "identifier": "RIP005",
+      "image": "",
+      "set": "Riptide Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -126552,9 +127817,13 @@ exports[`Check for unintentional updates Threadbare Tunic (threadbare-tunic) vs 
   "rarity": "Common",
   "setIdentifiers": [
     "OUT180",
+    "AZL005",
+    "RIP005",
   ],
   "sets": [
     "Outsiders",
+    "Azalea Blitz Deck",
+    "Riptide Blitz Deck",
   ],
   "specialImage": "OUT180.width-450",
   "subtypes": [
@@ -129009,7 +130278,6 @@ exports[`Check for unintentional updates Toughen Up (toughen-up-blue) vs snapsho
   "cost": 2,
   "defaultImage": "DVR024.width-450",
   "defense": 4,
-  "functionalText": "*(Defense reactions can be played from hand or arsenal to defend. Toughen Up costs 2 to play.)*",
   "name": "Toughen Up",
   "pitch": 3,
   "printings": [
@@ -129301,6 +130569,16 @@ exports[`Check for unintentional updates Toxic Tips (toxic-tips) vs snapshot 1`]
       "image": "OUT158.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "ARA005",
+      "image": "",
+      "set": "Arakni Blitz Deck",
+    },
+    {
+      "identifier": "RIP006",
+      "image": "",
+      "set": "Riptide Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -129308,9 +130586,13 @@ exports[`Check for unintentional updates Toxic Tips (toxic-tips) vs snapshot 1`]
   "rarity": "Common",
   "setIdentifiers": [
     "OUT158",
+    "ARA005",
+    "RIP006",
   ],
   "sets": [
     "Outsiders",
+    "Arakni Blitz Deck",
+    "Riptide Blitz Deck",
   ],
   "specialImage": "OUT158.width-450",
   "subtypes": [
@@ -129363,6 +130645,11 @@ exports[`Check for unintentional updates Toxicity (toxicity-blue) vs snapshot 1`
       "image": "OUT167.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "AZL027",
+      "image": "",
+      "set": "Azalea Blitz Deck",
+    },
   ],
   "rarities": [
     "Promo",
@@ -129375,10 +130662,12 @@ exports[`Check for unintentional updates Toxicity (toxicity-blue) vs snapshot 1`
   "setIdentifiers": [
     "FAB130",
     "OUT167",
+    "AZL027",
   ],
   "sets": [
     "Promos",
     "Outsiders",
+    "Azalea Blitz Deck",
   ],
   "specialImage": "OUT167.width-450",
   "subtypes": [
@@ -130291,7 +131580,7 @@ exports[`Check for unintentional updates Trench of Sunken Treasure (trench-of-su
     {
       "foiling": "Cold",
       "identifier": "OUT094",
-      "image": "",
+      "image": "OUT094_EA",
       "set": "Outsiders",
       "treatment": "Extended Art",
     },
@@ -130301,6 +131590,9 @@ exports[`Check for unintentional updates Trench of Sunken Treasure (trench-of-su
     "Legendary",
   ],
   "rarity": "Legendary",
+  "restrictedFormats": [
+    "Commoner",
+  ],
   "setIdentifiers": [
     "FAB125",
     "OUT094",
@@ -130309,7 +131601,7 @@ exports[`Check for unintentional updates Trench of Sunken Treasure (trench-of-su
     "Promos",
     "Outsiders",
   ],
-  "specialImage": "OUT094.width-450",
+  "specialImage": "OUT094_EA",
   "subtypes": [
     "Chest",
   ],
@@ -130803,6 +132095,11 @@ exports[`Check for unintentional updates Twin Twisters (twin-twisters-red) vs sn
       "image": "OUT086.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "BEN009",
+      "image": "",
+      "set": "Benji Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -130811,10 +132108,12 @@ exports[`Check for unintentional updates Twin Twisters (twin-twisters-red) vs sn
   "setIdentifiers": [
     "EVR047",
     "OUT086",
+    "BEN009",
   ],
   "sets": [
     "Everfest",
     "Outsiders",
+    "Benji Blitz Deck",
   ],
   "specialImage": "EVR047.width-450",
   "subtypes": [
@@ -130870,6 +132169,11 @@ exports[`Check for unintentional updates Twin Twisters (twin-twisters-yellow) vs
       "image": "OUT087.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "BEN015",
+      "image": "",
+      "set": "Benji Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -130878,10 +132182,12 @@ exports[`Check for unintentional updates Twin Twisters (twin-twisters-yellow) vs
   "setIdentifiers": [
     "EVR048",
     "OUT087",
+    "BEN015",
   ],
   "sets": [
     "Everfest",
     "Outsiders",
+    "Benji Blitz Deck",
   ],
   "specialImage": "EVR048.width-450",
   "subtypes": [
@@ -131333,6 +132639,11 @@ exports[`Check for unintentional updates Unmovable (unmovable-blue) vs snapshot 
       "image": "U-WTR214",
       "set": "Welcome to Rathe",
     },
+    {
+      "identifier": "UZU027",
+      "image": "",
+      "set": "Uzuri Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -131341,10 +132652,12 @@ exports[`Check for unintentional updates Unmovable (unmovable-blue) vs snapshot 
   "setIdentifiers": [
     "1HP413",
     "WTR214",
+    "UZU027",
   ],
   "sets": [
     "History Pack 1",
     "Welcome to Rathe",
+    "Uzuri Blitz Deck",
   ],
   "specialImage": "WTR214",
   "subtypes": [],
@@ -132048,20 +133361,28 @@ exports[`Check for unintentional updates Uzuri (uzuri) vs snapshot 1`] = `
       "image": "OUT002.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "UZU001",
+      "image": "",
+      "set": "Uzuri Blitz Deck",
+    },
   ],
   "rarities": [
     "Promo",
     "Token",
+    "Common",
   ],
   "rarity": "Token",
   "setIdentifiers": [
     "HER076",
     "HER082",
     "OUT002",
+    "UZU001",
   ],
   "sets": [
     "Promos",
     "Outsiders",
+    "Uzuri Blitz Deck",
   ],
   "specialImage": "OUT002.width-450",
   "subtypes": [
@@ -133830,6 +135151,11 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
       "image": "OUT168.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "ARA014",
+      "image": "",
+      "set": "Arakni Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -133837,9 +135163,11 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
   "rarity": "Common",
   "setIdentifiers": [
     "OUT168",
+    "ARA014",
   ],
   "sets": [
     "Outsiders",
+    "Arakni Blitz Deck",
   ],
   "specialImage": "OUT168.width-450",
   "subtypes": [
@@ -136290,6 +137618,11 @@ exports[`Check for unintentional updates Wayfinder's Crest (wayfinders-crest) vs
       "image": "OUT099.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "AZL004",
+      "image": "",
+      "set": "Azalea Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -136297,9 +137630,11 @@ exports[`Check for unintentional updates Wayfinder's Crest (wayfinders-crest) vs
   "rarity": "Common",
   "setIdentifiers": [
     "OUT099",
+    "AZL004",
   ],
   "sets": [
     "Outsiders",
+    "Azalea Blitz Deck",
   ],
   "specialImage": "OUT099.width-450",
   "subtypes": [
@@ -137117,6 +138452,11 @@ exports[`Check for unintentional updates Whelming Gustwave (whelming-gustwave-bl
       "image": "U-WTR112",
       "set": "Welcome to Rathe",
     },
+    {
+      "identifier": "KAT023",
+      "image": "",
+      "set": "Katsu Blitz Deck",
+    },
   ],
   "rarities": [
     "Promo",
@@ -137128,12 +138468,14 @@ exports[`Check for unintentional updates Whelming Gustwave (whelming-gustwave-bl
     "KSU024",
     "1HP133",
     "WTR112",
+    "KAT023",
   ],
   "sets": [
     "Promos",
     "Katsu Hero Deck",
     "History Pack 1",
     "Welcome to Rathe",
+    "Katsu Blitz Deck",
   ],
   "specialImage": "LGS028",
   "subtypes": [
@@ -137216,6 +138558,11 @@ exports[`Check for unintentional updates Whelming Gustwave (whelming-gustwave-re
       "image": "U-WTR110",
       "set": "Welcome to Rathe",
     },
+    {
+      "identifier": "KAT009",
+      "image": "",
+      "set": "Katsu Blitz Deck",
+    },
   ],
   "rarities": [
     "Promo",
@@ -137228,12 +138575,14 @@ exports[`Check for unintentional updates Whelming Gustwave (whelming-gustwave-re
     "KSU016",
     "1HP131",
     "WTR110",
+    "KAT009",
   ],
   "sets": [
     "Promos",
     "Katsu Hero Deck",
     "History Pack 1",
     "Welcome to Rathe",
+    "Katsu Blitz Deck",
   ],
   "specialImage": "LGS007",
   "subtypes": [
@@ -137738,6 +139087,11 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.",
       "image": "OUT133.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "AZL015",
+      "image": "",
+      "set": "Azalea Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -137745,9 +139099,11 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.",
   "rarity": "Common",
   "setIdentifiers": [
     "OUT133",
+    "AZL015",
   ],
   "sets": [
     "Outsiders",
+    "Azalea Blitz Deck",
   ],
   "specialImage": "OUT133.width-450",
   "subtypes": [
@@ -138565,6 +139921,9 @@ exports[`Check for unintentional updates Wither (wither-blue) vs snapshot 1`] = 
   "functionalText": "**Stealth**
 
 When this hits a hero, create a Frailty token under their control.",
+  "keywords": [
+    "Stealth",
+  ],
   "name": "Wither",
   "pitch": 3,
   "power": 1,
@@ -138580,6 +139939,16 @@ When this hits a hero, create a Frailty token under their control.",
       "image": "OUT041.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "ARA025",
+      "image": "",
+      "set": "Arakni Blitz Deck",
+    },
+    {
+      "identifier": "UZU025",
+      "image": "",
+      "set": "Uzuri Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -138587,9 +139956,13 @@ When this hits a hero, create a Frailty token under their control.",
   "rarity": "Common",
   "setIdentifiers": [
     "OUT041",
+    "ARA025",
+    "UZU025",
   ],
   "sets": [
     "Outsiders",
+    "Arakni Blitz Deck",
+    "Uzuri Blitz Deck",
   ],
   "specialImage": "OUT041.width-450",
   "subtypes": [
@@ -138617,6 +139990,9 @@ exports[`Check for unintentional updates Wither (wither-red) vs snapshot 1`] = `
   "functionalText": "**Stealth**
 
 When this hits a hero, create a Frailty token under their control.",
+  "keywords": [
+    "Stealth",
+  ],
   "name": "Wither",
   "pitch": 1,
   "power": 3,
@@ -138632,6 +140008,11 @@ When this hits a hero, create a Frailty token under their control.",
       "image": "OUT039.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "ARA013",
+      "image": "",
+      "set": "Arakni Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -138639,9 +140020,11 @@ When this hits a hero, create a Frailty token under their control.",
   "rarity": "Common",
   "setIdentifiers": [
     "OUT039",
+    "ARA013",
   ],
   "sets": [
     "Outsiders",
+    "Arakni Blitz Deck",
   ],
   "specialImage": "OUT039.width-450",
   "subtypes": [
@@ -138669,6 +140052,9 @@ exports[`Check for unintentional updates Wither (wither-yellow) vs snapshot 1`] 
   "functionalText": "**Stealth**
 
 When this hits a hero, create a Frailty token under their control.",
+  "keywords": [
+    "Stealth",
+  ],
   "name": "Wither",
   "pitch": 2,
   "power": 2,
@@ -138684,6 +140070,11 @@ When this hits a hero, create a Frailty token under their control.",
       "image": "OUT040.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "UZU020",
+      "image": "",
+      "set": "Uzuri Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -138691,9 +140082,11 @@ When this hits a hero, create a Frailty token under their control.",
   "rarity": "Common",
   "setIdentifiers": [
     "OUT040",
+    "UZU020",
   ],
   "sets": [
     "Outsiders",
+    "Uzuri Blitz Deck",
   ],
   "specialImage": "OUT040.width-450",
   "subtypes": [
@@ -138789,6 +140182,16 @@ When this hits a hero, create a Frailty token under their control.",
       "image": "OUT136.width-450",
       "set": "Outsiders",
     },
+    {
+      "identifier": "AZL016",
+      "image": "",
+      "set": "Azalea Blitz Deck",
+    },
+    {
+      "identifier": "RIP020",
+      "image": "",
+      "set": "Riptide Blitz Deck",
+    },
   ],
   "rarities": [
     "Common",
@@ -138796,9 +140199,13 @@ When this hits a hero, create a Frailty token under their control.",
   "rarity": "Common",
   "setIdentifiers": [
     "OUT136",
+    "AZL016",
+    "RIP020",
   ],
   "sets": [
     "Outsiders",
+    "Azalea Blitz Deck",
+    "Riptide Blitz Deck",
   ],
   "specialImage": "OUT136.width-450",
   "subtypes": [

@@ -123,6 +123,9 @@ export enum Release {
   WelcomeToRathe = "Welcome to Rathe",
 
   // Hero/blitz decks
+  ArakniBlitzDeck = "Arakni Blitz Deck",
+  AzaleaBlitzDeck = "Azalea Blitz Deck",
+  BenjiBlitzDeck = "Benji Blitz Deck",
   BoltynBlitzDeck = "Boltyn Blitz Deck",
   BriarBlitzDeck = "Briar Blitz Deck",
   BravoBlitzDeck = "Bravo Blitz Deck",
@@ -132,12 +135,15 @@ export enum Release {
   DorintheaHeroDeck = "Dorinthea Hero Deck",
   FaiBlitzDeck = "Fai Blitz Deck",
   IraWelcomeDeck = "Ira Welcome Deck",
+  KatsuBlitzDeck = "Katsu Blitz Deck",
   KatsuHeroDeck = "Katsu Hero Deck",
   LeviaBlitzDeck = "Levia Blitz Deck",
   LexiBlitzDeck = "Lexi Blitz Deck",
   OldhimBlitzDeck = "Oldhim Blitz Deck",
   PrismBlitzDeck = "Prism Blitz Deck",
   RhinarHeroDeck = "Rhinar Hero Deck",
+  RiptideBlitzDeck = "Riptide Blitz Deck",
+  UzuriBlitzDeck = "Uzuri Blitz Deck",
 
   // One-offs
   Promos = "Promos",
@@ -151,7 +157,6 @@ export enum ReleaseEdition {
 }
 
 export enum Talent {
-  NotTalented = "Not talented",
   Royal = "Royal",
   Draconic = "Draconic",
   Earth = "Earth",
@@ -252,6 +257,7 @@ export enum Hero {
   Shiyana = "Shiyana",
   Taipanis = "Taipanis",
   Taylor = "Taylor",
+  Theryon = "Theryon",
   Uzuri = "Uzuri",
   Valda = "Valda",
   Viserai = "Viserai",
@@ -280,7 +286,6 @@ export enum Keyword {
   Intimidate = "Intimidate",
   Legendary = "Legendary",
   Material = "Material",
-  Mentor = "Mentor",
   Negate = "Negate",
   Opt = "Opt",
   Overpower = "Overpower",
@@ -293,6 +298,7 @@ export enum Keyword {
   Specialization = "Specialization",
   Spectra = "Spectra",
   Spellvoid = "Spellvoid",
+  Stealth = "Stealth",
   Surge = "Surge",
   Temper = "Temper",
   Transform = "Transform",

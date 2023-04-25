@@ -254,6 +254,9 @@ const setIdentifierToSetMappings = {
   ...fullSetIdentifiers,
 
   // Starter/blitz decks
+  ARA: Release.ArakniBlitzDeck,
+  AZL: Release.AzaleaBlitzDeck,
+  BEN: Release.BenjiBlitzDeck,
   BOL: Release.BoltynBlitzDeck,
   BRI: Release.BriarBlitzDeck,
   BVO: Release.BravoBlitzDeck,
@@ -261,15 +264,18 @@ const setIdentifierToSetMappings = {
   DRO: Release.DromaiBlitzDeck,
   FAI: Release.FaiBlitzDeck,
   IRA: Release.IraWelcomeDeck,
+  KAT: Release.KatsuBlitzDeck,
   KSU: Release.KatsuHeroDeck,
   LEV: Release.LeviaBlitzDeck,
   LXI: Release.LexiBlitzDeck,
   OLD: Release.OldhimBlitzDeck,
   PSM: Release.PrismBlitzDeck,
+  RIP: Release.RiptideBlitzDeck,
   RNR: Release.RhinarHeroDeck,
-  TEA: Release.DorintheaHeroDeck,
   DVR: Release.ClassicBattlesRhinarDorinthea,
   RVD: Release.ClassicBattlesRhinarDorinthea,
+  TEA: Release.DorintheaHeroDeck,
+  UZU: Release.UzuriBlitzDeck,
 
   // Promos
   FAB: Release.Promos,
