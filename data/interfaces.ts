@@ -289,6 +289,7 @@ export enum Keyword {
   Negate = "Negate",
   Opt = "Opt",
   Overpower = "Overpower",
+  Pairs = "Pairs",
   Piercing = "Piercing",
   Phantasm = "Phantasm",
   Quell = "Quell",

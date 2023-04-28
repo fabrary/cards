@@ -58,6 +58,133 @@
     talents: [Talent.Light],
     
   },{
+    artists: ["Jessica Nguyen"],
+    cardIdentifier: "gavel-of-natural-order",
+    classes: [Class.Adjudicator],
+    defaultImage: "JDG005",
+    name: "Gavel of Natural Order",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "JDG005",
+      image: "JDG005",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["JDG005"],
+    sets: [Release.Promos],
+    specialImage: "JDG005",
+    subtypes: [Subtype.Hammer,Subtype.OneHanded],
+    types: [Type.Weapon],
+    typeText: "Adjudicator Weapon – Hammer (1H)",
+
+    
+    
+    functionalText: `**Pairs** with an off-hand
+
+**Once per Turn Action** - {r}{r}: **Attack**
+
+Whenever an opponent plays or activates their first card or ability each turn, if it's not their turn, put a +1{p} counter on this. At the beginning of your end phase, remove all +1{p} counters from this.`,
+    
+    
+    
+    
+    keywords: [Keyword.Pairs],
+    
+    
+    
+    power: 2,
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kanadekana"],
+    cardIdentifier: "proclamation-of-abundance",
+    classes: [Class.Adjudicator],
+    defaultImage: "JDG009",
+    name: "Proclamation of Abundance",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "JDG009",
+      image: "JDG009",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["JDG009"],
+    sets: [Release.Promos],
+    specialImage: "JDG009",
+    subtypes: [Subtype.OffHand],
+    types: [Type.Equipment],
+    typeText: "Adjudicator Equipment – Off-Hand",
+
+    
+    
+    functionalText: `**Action** - {r}{r}{r}, destroy this: Each hero draws up to their {i}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Livia Prima"],
+    cardIdentifier: "prism-advent-of-thrones",
+    classes: [Class.Illusionist],
+    defaultImage: "HER084",
+    name: "Prism, Advent of Thrones",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "HER084",
+      image: "HER084",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["HER084"],
+    sets: [Release.Promos],
+    specialImage: "HER084",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Light Illusionist Hero – Young",
+
+    
+    
+    
+    
+    hero: Hero.Prism,
+    intellect: 4,
+    
+    
+    life: 16,
+    
+    
+    
+    restrictedFormats: [Format.ClassicConstructed],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    young: true
+  },{
     artists: ["Sam Yang"],
     cardIdentifier: "shitty-xmas-present-yellow",
     classes: [Class.Generic],
@@ -328,7 +455,7 @@ You create a Copper, Silver, and Gold.`,
     cardIdentifier: "good-deeds-dont-go-unnoticed-yellow",
     classes: [Class.Generic],
     defaultImage: "LSS006",
-    name: "Good Deeds Don’t Go Unnoticed",
+    name: "Good Deeds Don't Go Unnoticed",
     printings: [{
       foiling: Foiling.R,
       identifier: "LSS006",
@@ -341,13 +468,13 @@ You create a Copper, Silver, and Gold.`,
     setIdentifiers: ["LSS006"],
     sets: [Release.Promos],
     specialImage: "LSS006",
-    subtypes: [Subtype.NonAttack],
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action – Aura",
 
     cost: 0,
     defense: 3,
-    functionalText: `At the start of each other hero’s turn, choose 1; they draw a card, they gain {r}, they gain 1{h}, or their next attack this turn gains +1{p}.
+    functionalText: `At the start of each other hero's turn, choose 1; they draw a card, they gain {r}, they gain 1{h}, or their next attack this turn gains +1{p}.
 
 At the start of your turn, destroy this. If another hero drew a card from this, you draw a card, then repeat for {r}, {h}, and {p}.`,
     
@@ -15403,6 +15530,12 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.`,
     defaultImage: "WTR206",
     name: "Pummel",
     printings: [{
+      foiling: Foiling.C,
+      identifier: "JDG012",
+      image: "",
+      set: Release.Promos,
+      treatment: Treatment.AB,
+    },{
       
       identifier: "1HP399",
       image: "1HP399.width-450",
@@ -15433,10 +15566,10 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.`,
       set: Release.WelcomeToRathe,
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["1HP399","WTR206"],
-    sets: [Release.HistoryPack1,Release.WelcomeToRathe],
+    setIdentifiers: ["JDG012","1HP399","WTR206"],
+    sets: [Release.Promos,Release.HistoryPack1,Release.WelcomeToRathe],
     specialImage: "WTR206",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -35015,7 +35148,8 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Cristián Huerta"],
     cardIdentifier: "soulbead-strike-yellow",
     classes: [Class.Ninja],
@@ -35222,8 +35356,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Asep Ariyanto"],
     cardIdentifier: "torrent-of-tempo-yellow",
     classes: [Class.Ninja],
@@ -42760,6 +42893,18 @@ At the beginning of each end phase, if a hero has 2 or more cards with yellow co
       set: Release.Promos,
       
     },{
+      foiling: Foiling.C,
+      identifier: "HER069",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "HER069",
+      image: "",
+      set: Release.Promos,
+      treatment: Treatment.FA,
+    },{
       foiling: Foiling.G,
       identifier: "WIN009",
       image: "",
@@ -42780,7 +42925,7 @@ At the beginning of each end phase, if a hero has 2 or more cards with yellow co
     },],
     rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["HER030","HER038","WIN009","MON001"],
+    setIdentifiers: ["HER030","HER038","HER069","WIN009","MON001"],
     sets: [Release.Promos,Release.Monarch],
     specialImage: "MON001.width-450",
     subtypes: [],
@@ -68306,7 +68451,8 @@ If Fulminate was **fused** with a Lightning card, attack action cards you contro
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Mark Poole"],
     cardIdentifier: "flashfreeze-red",
     classes: [Class.NotClassed],
@@ -68434,8 +68580,7 @@ If Exposed to the Elements was **fused** with an Ice card, destroy an equipment 
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Muhammad Fajri"],
     cardIdentifier: "entwine-earth-red",
     classes: [Class.NotClassed],
@@ -96301,7 +96446,8 @@ If Cold Snap is played from arsenal, draw a card.
     
     talents: [Talent.Ice],
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "ghostly-touch",
     classes: [Class.Illusionist],
@@ -96356,8 +96502,7 @@ If Cold Snap is played from arsenal, draw a card.
     
     
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Andrey Savchuk"],
     cardIdentifier: "silent-stilettos",
     classes: [Class.Illusionist],
@@ -123035,7 +123180,7 @@ At the beginning of your end phase destroy Frailty.`,
     ...cards4,
   ];
 
-  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Eilene Cherie","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Erick Efata","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kalashnikova N.","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Maerel Hibadita","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wiśniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Revazashvili E.","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sariya Asavametha","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tomasz Jedruszek","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
+  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Eilene Cherie","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Erick Efata","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Jessica Nguyen","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kalashnikova N.","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Maerel Hibadita","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wiśniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Revazashvili E.","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sariya Asavametha","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tomasz Jedruszek","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
 
   export * from "./interfaces";
   

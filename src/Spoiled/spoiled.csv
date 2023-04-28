@@ -1,2 +1,9 @@
 Identifiers	Set Identifiers	Name	Pitch	Cost	Power	Defense	Health	Intelligence	Rarity	Types	Card Keywords	Abilities and Effects	Ability and Effect Keywords	Granted Keywords	Functional Text	Flavor Text	Type Text	Artists	Card Played Horizontally	Blitz Legal	CC Legal	Commoner Legal	Variations	Image URLs
 JDG008	JDG	Theryon, Magister of Justice					20	4	P	Light, Adjudicator, Hero					The first time each turn another hero destroys a card they don’t control, you may pay {r}{r}. If you do, they destroy a non-hero permanent they control.		Light Adjudicator Hero	Andy Aslamov		No	No	No	R – JDG008 - N	/JDG008.png – JDG008 – N – R
+JDG005	JDG	Gavel of Natural Order			2				P	Adjudicator, Weapon, Hammer, 1H	Pairs	Once per Turn Action	Attack		"**Pairs** with an off-hand
+
+**Once per Turn Action** - {r}{r}: **Attack**
+
+Whenever an opponent plays or activates their first card or ability each turn, if it's not their turn, put a +1{p} counter on this. At the beginning of your end phase, remove all +1{p} counters from this."		Adjudicator Weapon – Hammer (1H)	Jessica Nguyen		No	No	No	C - JDG005 - N	/JDG005.png – JDG005 – N – R
+JDG009	JDG	Proclamation of Abundance							P	Adjudicator, Equipment, Off-Hand		Action			**Action** - {r}{r}{r}, destroy this: Each hero draws up to their {i}.		Adjudicator Equipment – Off-Hand	Kanadekana		No	No	No	C - JDG009 - N	/JDG009.png – JDG009 – N – R
+HER084	HER	Prism, Advent of Thrones					16	4	P	Light, Illusionist, Hero, Young							Light Illusionist Hero – Young	Livia Prima			No		C – HER084 – N	/HER084.png – HER084 – N – C

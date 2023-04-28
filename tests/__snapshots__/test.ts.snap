@@ -49540,6 +49540,61 @@ exports[`Check for unintentional updates Gambler's Gloves (gamblers-gloves) vs s
 }
 `;
 
+exports[`Check for unintentional updates Gavel of Natural Order (gavel-of-natural-order) vs snapshot 1`] = `
+{
+  "artists": [
+    "Jessica Nguyen",
+  ],
+  "cardIdentifier": "gavel-of-natural-order",
+  "classes": [
+    "Adjudicator",
+  ],
+  "defaultImage": "JDG005",
+  "functionalText": "**Pairs** with an off-hand
+
+**Once per Turn Action** - {r}{r}: **Attack**
+
+Whenever an opponent plays or activates their first card or ability each turn, if it's not their turn, put a +1{p} counter on this. At the beginning of your end phase, remove all +1{p} counters from this.",
+  "keywords": [
+    "Pairs",
+  ],
+  "name": "Gavel of Natural Order",
+  "power": 2,
+  "printings": [
+    {
+      "foiling": "Rainbow",
+      "identifier": "JDG005",
+      "image": "JDG005",
+      "set": "Promos",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "restrictedFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "JDG005",
+  ],
+  "sets": [
+    "Promos",
+  ],
+  "specialImage": "JDG005",
+  "subtypes": [
+    "Hammer",
+    "1H",
+  ],
+  "typeText": "Adjudicator Weapon – Hammer (1H)",
+  "types": [
+    "Weapon",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Gaze the Ages (gaze-the-ages-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -50979,7 +51034,7 @@ exports[`Check for unintentional updates Goliath Gauntlet (goliath-gauntlet) vs 
 }
 `;
 
-exports[`Check for unintentional updates Good Deeds Don’t Go Unnoticed (good-deeds-dont-go-unnoticed-yellow) vs snapshot 1`] = `
+exports[`Check for unintentional updates Good Deeds Don't Go Unnoticed (good-deeds-dont-go-unnoticed-yellow) vs snapshot 1`] = `
 {
   "artists": [
     "Andy Aslamov",
@@ -50991,10 +51046,10 @@ exports[`Check for unintentional updates Good Deeds Don’t Go Unnoticed (good-d
   "cost": 0,
   "defaultImage": "LSS006",
   "defense": 3,
-  "functionalText": "At the start of each other hero’s turn, choose 1; they draw a card, they gain {r}, they gain 1{h}, or their next attack this turn gains +1{p}.
+  "functionalText": "At the start of each other hero's turn, choose 1; they draw a card, they gain {r}, they gain 1{h}, or their next attack this turn gains +1{p}.
 
 At the start of your turn, destroy this. If another hero drew a card from this, you draw a card, then repeat for {r}, {h}, and {p}.",
-  "name": "Good Deeds Don’t Go Unnoticed",
+  "name": "Good Deeds Don't Go Unnoticed",
   "pitch": 2,
   "printings": [
     {
@@ -51021,6 +51076,7 @@ At the start of your turn, destroy this. If another hero drew a card from this, 
   ],
   "specialImage": "LSS006",
   "subtypes": [
+    "Aura",
     "Non-Attack",
   ],
   "typeText": "Generic Action – Aura",
@@ -86090,6 +86146,19 @@ exports[`Check for unintentional updates Prism, Sculptor of Arc Light (prism-scu
       "set": "Promos",
     },
     {
+      "foiling": "Cold",
+      "identifier": "HER069",
+      "image": "",
+      "set": "Promos",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "HER069",
+      "image": "",
+      "set": "Promos",
+      "treatment": "Full Art",
+    },
+    {
       "foiling": "Gold",
       "identifier": "WIN009",
       "image": "",
@@ -86121,6 +86190,7 @@ exports[`Check for unintentional updates Prism, Sculptor of Arc Light (prism-scu
   "setIdentifiers": [
     "HER030",
     "HER038",
+    "HER069",
     "WIN009",
     "MON001",
   ],
@@ -86335,6 +86405,52 @@ exports[`Check for unintentional updates Prismatic Shield (prismatic-shield-yell
   "typeText": "Illusionist Instant",
   "types": [
     "Instant",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Proclamation of Abundance (proclamation-of-abundance) vs snapshot 1`] = `
+{
+  "artists": [
+    "Kanadekana",
+  ],
+  "cardIdentifier": "proclamation-of-abundance",
+  "classes": [
+    "Adjudicator",
+  ],
+  "defaultImage": "JDG009",
+  "functionalText": "**Action** - {r}{r}{r}, destroy this: Each hero draws up to their {i}.",
+  "name": "Proclamation of Abundance",
+  "printings": [
+    {
+      "foiling": "Rainbow",
+      "identifier": "JDG009",
+      "image": "JDG009",
+      "set": "Promos",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "restrictedFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "JDG009",
+  ],
+  "sets": [
+    "Promos",
+  ],
+  "specialImage": "JDG009",
+  "subtypes": [
+    "Off-Hand",
+  ],
+  "typeText": "Adjudicator Equipment – Off-Hand",
+  "types": [
+    "Equipment",
   ],
 }
 `;
@@ -87827,6 +87943,13 @@ exports[`Check for unintentional updates Pummel (pummel-red) vs snapshot 1`] = `
   "pitch": 1,
   "printings": [
     {
+      "foiling": "Cold",
+      "identifier": "JDG012",
+      "image": "",
+      "set": "Promos",
+      "treatment": "Alternate Border",
+    },
+    {
       "identifier": "1HP399",
       "image": "1HP399.width-450",
       "set": "History Pack 1",
@@ -87859,14 +87982,17 @@ exports[`Check for unintentional updates Pummel (pummel-red) vs snapshot 1`] = `
     },
   ],
   "rarities": [
+    "Promo",
     "Common",
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "JDG012",
     "1HP399",
     "WTR206",
   ],
   "sets": [
+    "Promos",
     "History Pack 1",
     "Welcome to Rathe",
   ],
