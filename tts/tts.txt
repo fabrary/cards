@@ -1076,6 +1076,7 @@ OSCCardDB = {
   ["DRO026"] = { name = "Sigil of Solace (1)", text = "Gain 3{h}", keywords = "", types = "Instant"},
   ["DRO027"] = { name = "Oasis Respite (1)", text = "Prevent the next 4 damage that would be dealt to target hero this turn by a source of your choice. If they have less life than each other hero, they may gain 1{h}.", keywords = "", types = "Instant"},
   ["DRO028"] = { name = "Sink Below (1)", text = "You may put a card from your hand on the bottom of your deck. If you do, draw a card.", keywords = "", types = "Defense Reaction"},
+  ["DTD012-BACK"] = { name = "Bellona, Archangel of War", text = "**Once per Turn Action – {r}{r}: Attack**\n\nWhen Bellona attacks, you may banish a card from your hero’s soul. If you do, put a +1{a} counter on each angel you control.\n\n**Ward 4**", keywords = "Ward", types = ""},
   ["DVR001"] = { name = "Dorinthea, Quicksilver Prodigy", text = "The first time Dawnblade, Resplendent gains **go again** each turn, you may attack an additional time with it this turn.", keywords = "", types = "Hero"},
   ["DVR002"] = { name = "Dawnblade, Resplendent", text = "**Once per Turn Action** - {r}: **Attack**\n\nThe second time you attack with Dawnblade each turn, it gains +1{p} until end of turn.", keywords = "", types = "Weapon"},
   ["DVR003"] = { name = "Ironrot Helm", text = "**Blade Break**", keywords = "Blade Break", types = "Equipment"},

@@ -226,6 +226,57 @@ Whenever an opponent plays or activates their first card or ability each turn, i
     talents: [Talent.Shadow],
     young: true
   },{
+    artists: ["Alexander Mokhov"],
+    cardIdentifier: "bellona-archangel-of-war",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD012_Back",
+    name: "Bellona, Archangel of War",
+    printings: [{
+      
+      identifier: "DTD012",
+      image: "DTD012_Back",
+      set: Release.DuskTillDawn,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "DTD012",
+      image: "DTD012_Back_Marvel",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.FA,
+    },],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD012"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD012_Back_Marvel",
+    subtypes: [Subtype.Ally],
+    types: [],
+    typeText: "Light – Angel Ally",
+
+    
+    
+    functionalText: `**Once per Turn Action – {r}{r}: Attack**
+
+When Bellona attacks, you may banish a card from your hero’s soul. If you do, put a +1{a} counter on each angel you control.
+
+**Ward 4**`,
+    
+    
+    
+    isCardBack: true,
+    keywords: [Keyword.Ward],
+    life: 4,
+    
+    
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
     artists: ["Sam Yang"],
     cardIdentifier: "shitty-xmas-present-yellow",
     classes: [Class.Generic],
@@ -35124,7 +35175,8 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Cristián Huerta"],
     cardIdentifier: "soulbead-strike-red",
     classes: [Class.Ninja],
@@ -35189,8 +35241,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Cristián Huerta"],
     cardIdentifier: "soulbead-strike-yellow",
     classes: [Class.Ninja],
@@ -68427,7 +68478,8 @@ If Inspire Lightning was **fused**, deal 1 arcane damage to target hero.`,
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "fulminate-yellow",
     classes: [Class.NotClassed],
@@ -68492,8 +68544,7 @@ If Fulminate was **fused** with a Lightning card, attack action cards you contro
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Mark Poole"],
     cardIdentifier: "flashfreeze-red",
     classes: [Class.NotClassed],

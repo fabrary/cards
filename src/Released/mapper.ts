@@ -3,7 +3,6 @@ import {
   fullSetIdentifiers,
   getDefaultImage,
   getNumberOrUndefined,
-  getPrint,
   getSpecialImage,
   getStringIfNotNumber,
 } from "../Shared";
@@ -128,12 +127,6 @@ const getPrintings = (card: ParsedCard): Printing[] => {
       : "";
     for (const rawFoiling of foilings) {
       const foiling = Foiling[rawFoiling];
-      const print = getPrint({
-        identifier,
-        edition: setEditionMapping[rawEdition] ? rawEdition : "",
-        foiling: rawFoiling,
-        treatment: artVariation,
-      });
       images.push({
         ...(edition ? { edition } : {}),
         ...(foiling ? { foiling } : {}),
@@ -381,7 +374,7 @@ const getCardData = (card: ParsedCard): Card => {
     classes: getClasses(card),
     defaultImage: getDefaultImage(printings),
     name: card.name,
-    printings: getPrintings(card),
+    printings,
     rarities: getRarities(card),
     rarity: getRarity(card) as Rarity,
     setIdentifiers: card.setIdentifiers,

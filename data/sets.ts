@@ -54,11 +54,7 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
 };
 
 let tempSetToSetIdentifierMappings: { [key: string]: string[] } = {};
-for (const [setIdentifier, capitalizedSet] of Object.entries(
-  setIdentifierToSetMappings
-)) {
-  const set = capitalizedSet.toLowerCase();
-
+for (const [setIdentifier, set] of Object.entries(setIdentifierToSetMappings)) {
   const entry = tempSetToSetIdentifierMappings[set];
   if (entry) {
     entry.push(setIdentifier);

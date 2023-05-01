@@ -118,12 +118,6 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     const treatment = Treatment[rawTreatment];
     const image = url.substring(url.lastIndexOf("/") + 1, url.lastIndexOf("."));
 
-    const print = getPrint({
-      identifier,
-      edition: setEditionMapping[rawEdition] ? rawEdition : "",
-      treatment: rawTreatment,
-    });
-
     images.push({
       ...(edition ? { edition } : {}),
       ...(foiling ? { foiling } : {}),
@@ -427,5 +421,11 @@ export const mapCSV = (parsedCards: ParsedCard[]): Card[] => {
   const cards = parsedCards.map((parsedCard) => {
     return getCardData(parsedCard);
   });
-  return addOppositeSideCardIdentifiers(cards);
+  const isBackOverrides = ["Bellona, Archangel of War"];
+  return addOppositeSideCardIdentifiers(cards).map((card) => {
+    if (isBackOverrides.includes(card.name)) {
+      card.isCardBack = true;
+    }
+    return card;
+  });
 };
