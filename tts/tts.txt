@@ -2034,6 +2034,7 @@ OSCCardDB = {
   ["HER082"] = { name = "Uzuri", text = "**Once per Turn Attack Reaction** - Banish a card from your hand face down: Turn the card banished this way face up. If it's an attack action card with cost 2 or less, put target attacking card with **stealth** from the active chain link on the bottom of its owner's deck, then put the banished card onto the active chain link as the attacking card.", keywords = "", types = "Hero"},
   ["HER083"] = { name = "Riptide", text = "Whenever you play a card from hand, you may put a card from hand face down into your arsenal.\n\nWhenever a trap you control triggers, deal 1 damage to the attacking hero.", keywords = "", types = "Hero"},
   ["HER084"] = { name = "Prism, Advent of Thrones", text = "", keywords = "", types = "Hero"},
+  ["HER085"] = { name = "Vynnset", text = "", keywords = "", types = "Hero"},
   ["IRA001"] = { name = "Ira, Crimson Haze", text = "Your second attack each turn gains +1{p}.", keywords = "", types = "Hero"},
   ["IRA002"] = { name = "Edge of Autumn", text = "**Once per Turn Action** - {r}: **Attack**. **Go again**", keywords = "Go again", types = "Weapon"},
   ["IRA003"] = { name = "Whirling Mist Blossom (2)", text = "**Ira Specialization**\n\nIf Whirling Mist Blossom hits, and it's the second or higher chain link in a row to hit, draw 2 cards.\n\n**Go again**", keywords = "Specialization,Go again", types = "Action"},

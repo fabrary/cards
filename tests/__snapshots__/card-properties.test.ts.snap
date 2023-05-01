@@ -86117,6 +86117,57 @@ exports[`Check for unintentional updates Prism (prism) vs snapshot 1`] = `
 }
 `;
 
+exports[`Check for unintentional updates Prism, Advent of Thrones (prism-advent-of-thrones) vs snapshot 1`] = `
+{
+  "artists": [
+    "Livia Prima",
+  ],
+  "cardIdentifier": "prism-advent-of-thrones",
+  "classes": [
+    "Illusionist",
+  ],
+  "defaultImage": "HER084",
+  "hero": "Prism",
+  "intellect": 4,
+  "life": 16,
+  "name": "Prism, Advent of Thrones",
+  "printings": [
+    {
+      "foiling": "Cold",
+      "identifier": "HER084",
+      "image": "HER084",
+      "set": "Promos",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "restrictedFormats": [
+    "Classic Constructed",
+  ],
+  "setIdentifiers": [
+    "HER084",
+  ],
+  "sets": [
+    "Promos",
+    "Dusk till Dawn",
+  ],
+  "specialImage": "HER084",
+  "subtypes": [
+    "Young",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Illusionist Hero – Young",
+  "types": [
+    "Hero",
+  ],
+  "young": true,
+}
+`;
+
 exports[`Check for unintentional updates Prism, Sculptor of Arc Light (prism-sculptor-of-arc-light) vs snapshot 1`] = `
 {
   "artists": [
@@ -136426,6 +136477,57 @@ exports[`Check for unintentional updates Voltic Bolt (voltic-bolt-yellow) vs sna
   "types": [
     "Action",
   ],
+}
+`;
+
+exports[`Check for unintentional updates Vynnset (vynnset) vs snapshot 1`] = `
+{
+  "artists": [
+    "Federico Musetti",
+  ],
+  "cardIdentifier": "vynnset",
+  "classes": [
+    "Runeblade",
+  ],
+  "defaultImage": "HER085",
+  "hero": "Vynnset",
+  "intellect": 4,
+  "life": 20,
+  "name": "Vynnset",
+  "printings": [
+    {
+      "foiling": "Cold",
+      "identifier": "HER085",
+      "image": "HER085",
+      "set": "Promos",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "restrictedFormats": [
+    "Classic Constructed",
+  ],
+  "setIdentifiers": [
+    "HER085",
+  ],
+  "sets": [
+    "Promos",
+    "Dusk till Dawn",
+  ],
+  "specialImage": "HER085",
+  "subtypes": [
+    "Young",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Hero – Young",
+  "types": [
+    "Hero",
+  ],
+  "young": true,
 }
 `;
 

@@ -112,9 +112,9 @@ export enum Release {
   // Full sets
   ArcaneRising = "Arcane Rising",
   CrucibleOfWar = "Crucible of War",
+  DuskTillDawn = "Dusk till Dawn",
   Dynasty = "Dynasty",
   Everfest = "Everfest",
-  HeroDeck = "Hero Deck",
   HistoryPack1 = "History Pack 1",
   Monarch = "Monarch",
   Outsiders = "Outsiders",
@@ -260,6 +260,7 @@ export enum Hero {
   Theryon = "Theryon",
   Uzuri = "Uzuri",
   Valda = "Valda",
+  Vynnset = "Vynnset",
   Viserai = "Viserai",
   Yorick = "Yorick",
   Yoji = "Yoji",

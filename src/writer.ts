@@ -178,6 +178,8 @@ const generateTS = (artists: string[], cards: Card[]): string => {
     .map((artist) => `"${artist}"`)
     .join(",")}];
 
+  export * from "./sets";
+
   export * from "./interfaces";
   `;
   return ts;
@@ -200,4 +202,5 @@ export const writeFiles = (
     `${__dirname}/Shared/interfaces.ts`,
     `${outputDirectory}/interfaces.ts`
   );
+  copyFileSync(`${__dirname}/Shared/sets.ts`, `${outputDirectory}/sets.ts`);
 };

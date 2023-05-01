@@ -1,6 +1,5 @@
 import {
   Card,
-  Foiling,
   Printing,
   Release,
   ReleaseEdition,
@@ -57,6 +56,7 @@ export const fullSetIdentifiers = {
   UPR: Release.Uprising,
   DYN: Release.Dynasty,
   OUT: Release.Outsiders,
+  DTD: Release.DuskTillDawn,
 };
 
 const orderedFullSetBlackBorderIdentifiers = Object.keys(fullSetIdentifiers)
