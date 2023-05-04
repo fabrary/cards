@@ -249,7 +249,7 @@ Whenever an opponent plays or activates their first card or ability each turn, i
     setIdentifiers: ["DTD012"],
     sets: [Release.DuskTillDawn],
     specialImage: "DTD012_Back_Marvel",
-    subtypes: [Subtype.Ally],
+    subtypes: [Subtype.Angel,Subtype.Ally],
     types: [],
     typeText: "Light – Angel Ally",
 
@@ -110558,7 +110558,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     setIdentifiers: ["DYN212"],
     sets: [Release.Dynasty],
     specialImage: "DYN212_Marvel_Back",
-    subtypes: [Subtype.Ally],
+    subtypes: [Subtype.Angel,Subtype.Ally],
     types: [],
     typeText: "Light Illusionist – Angel Ally",
 

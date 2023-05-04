@@ -185,6 +185,7 @@ export enum Subtype {
   TwoHanded = "2H",
   Affliction = "Affliction",
   Ally = "Ally",
+  Angel = "Angel",
   Arms = "Arms",
   Arrow = "Arrow",
   Ash = "Ash",

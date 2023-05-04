@@ -9043,6 +9043,69 @@ exports[`Check for unintentional updates Belittle (belittle-yellow) vs snapshot 
 }
 `;
 
+exports[`Check for unintentional updates Bellona, Archangel of War (bellona-archangel-of-war) vs snapshot 1`] = `
+{
+  "artists": [
+    "Alexander Mokhov",
+  ],
+  "cardIdentifier": "bellona-archangel-of-war",
+  "classes": [
+    "NotClassed",
+  ],
+  "defaultImage": "DTD012_Back",
+  "functionalText": "**Once per Turn Action – {r}{r}: Attack**
+
+When Bellona attacks, you may banish a card from your hero’s soul. If you do, put a +1{a} counter on each angel you control.
+
+**Ward 4**",
+  "isCardBack": true,
+  "keywords": [
+    "Ward",
+  ],
+  "life": 4,
+  "name": "Bellona, Archangel of War",
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "DTD012",
+      "image": "DTD012_Back",
+      "set": "Dusk till Dawn",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "DTD012",
+      "image": "DTD012_Back_Marvel",
+      "set": "Dusk till Dawn",
+      "treatment": "Full Art",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+    "Marvel",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD012",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD012_Back_Marvel",
+  "subtypes": [
+    "Angel",
+    "Ally",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light – Angel Ally",
+  "types": [],
+}
+`;
+
 exports[`Check for unintentional updates Benji, the Piercing Wind (benji-the-piercing-wind) vs snapshot 1`] = `
 {
   "artists": [
@@ -123425,6 +123488,7 @@ Whenever Suraya deals damage, you gain that much {h}.
   ],
   "specialImage": "DYN212_Marvel_Back",
   "subtypes": [
+    "Angel",
     "Ally",
   ],
   "talents": [
