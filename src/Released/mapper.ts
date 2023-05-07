@@ -1,6 +1,5 @@
 import {
   addOppositeSideCardIdentifiers,
-  fullSetIdentifiers,
   getDefaultImage,
   getNumberOrUndefined,
   getSpecialImage,
@@ -23,6 +22,7 @@ import {
   Treatment,
   Type,
 } from "../Shared/interfaces";
+import { setIdentifierToSetMappings } from "../Shared/sets";
 import { ParsedCard } from "./parser";
 
 const getClasses = (card: ParsedCard): Class[] => {
@@ -115,7 +115,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     setIdentifier: identifier,
     set: rawSet,
   } of printings) {
-    const set = setIdentifierToSetMappings[rawSet];
+    const set = setIdentifierToSetMappings[rawSet.toLowerCase()];
     const edition = setEditionMapping[rawEdition];
 
     const treatment = Treatment[artVariation];
@@ -243,48 +243,11 @@ const getRestrictedFormats = (card: ParsedCard): Format[] => {
   return restrictedFormats;
 };
 
-const setIdentifierToSetMappings = {
-  ...fullSetIdentifiers,
-
-  // Starter/blitz decks
-  ARA: Release.ArakniBlitzDeck,
-  AZL: Release.AzaleaBlitzDeck,
-  BEN: Release.BenjiBlitzDeck,
-  BOL: Release.BoltynBlitzDeck,
-  BRI: Release.BriarBlitzDeck,
-  BVO: Release.BravoBlitzDeck,
-  CHN: Release.ChaneBlitzDeck,
-  DRO: Release.DromaiBlitzDeck,
-  FAI: Release.FaiBlitzDeck,
-  IRA: Release.IraWelcomeDeck,
-  KAT: Release.KatsuBlitzDeck,
-  KSU: Release.KatsuHeroDeck,
-  LEV: Release.LeviaBlitzDeck,
-  LXI: Release.LexiBlitzDeck,
-  OLD: Release.OldhimBlitzDeck,
-  PSM: Release.PrismBlitzDeck,
-  RIP: Release.RiptideBlitzDeck,
-  RNR: Release.RhinarHeroDeck,
-  DVR: Release.ClassicBattlesRhinarDorinthea,
-  RVD: Release.ClassicBattlesRhinarDorinthea,
-  TEA: Release.DorintheaHeroDeck,
-  UZU: Release.UzuriBlitzDeck,
-
-  // Promos
-  FAB: Release.Promos,
-  HER: Release.Promos,
-  JDG: Release.Promos,
-  LGS: Release.Promos,
-  LSS: Release.Promos,
-  OXO: Release.Promos,
-  XXX: Release.Promos,
-  WIN: Release.Promos,
-};
 const getSets = (card: ParsedCard): Release[] => {
   const sets = card.setIdentifiers
     .map(
       (setIdentifier) =>
-        setIdentifierToSetMappings[setIdentifier.substring(0, 3)]
+        setIdentifierToSetMappings[setIdentifier.substring(0, 3).toLowerCase()]
     )
     .filter((set) => !!set);
   return Array.from(new Set(sets));
@@ -372,14 +335,14 @@ const getCardData = (card: ParsedCard): Card => {
     artists: card.artists,
     cardIdentifier: getIdentifier(card),
     classes: getClasses(card),
-    defaultImage: getDefaultImage(printings),
+    defaultImage: getDefaultImage(card.name, printings),
     name: card.name,
     printings,
     rarities: getRarities(card),
     rarity: getRarity(card) as Rarity,
     setIdentifiers: card.setIdentifiers,
     sets: getSets(card),
-    specialImage: getSpecialImage(printings),
+    specialImage: getSpecialImage(card.name, printings),
     subtypes,
     types,
     typeText: card.typeText,

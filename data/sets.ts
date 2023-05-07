@@ -1,19 +1,35 @@
 import { Release } from "./interfaces";
 
-export const setIdentifierToSetMappings: { [key: string]: Release } = {
-  // Full sets
+export const fullSetIdentifiers = {
+  wtr: Release.WelcomeToRathe,
   arc: Release.ArcaneRising,
   cru: Release.CrucibleOfWar,
-  dtd: Release.DuskTillDawn,
-  dyn: Release.Dynasty,
+  mon: Release.Monarch,
+  ele: Release.TalesOfAria,
   evr: Release.Everfest,
   "1hp": Release.HistoryPack1,
   hp1: Release.HistoryPack1,
-  mon: Release.Monarch,
-  out: Release.Outsiders,
-  ele: Release.TalesOfAria,
   upr: Release.Uprising,
-  wtr: Release.WelcomeToRathe,
+  dyn: Release.Dynasty,
+  out: Release.Outsiders,
+  dtd: Release.DuskTillDawn,
+};
+
+export const setIdentifierToSetMappings: { [key: string]: Release } = {
+  // Full sets
+  // arc: Release.ArcaneRising,
+  // cru: Release.CrucibleOfWar,
+  // dtd: Release.DuskTillDawn,
+  // dyn: Release.Dynasty,
+  // evr: Release.Everfest,
+  // "1hp": Release.HistoryPack1,
+  // hp1: Release.HistoryPack1,
+  // mon: Release.Monarch,
+  // out: Release.Outsiders,
+  // ele: Release.TalesOfAria,
+  // upr: Release.Uprising,
+  // wtr: Release.WelcomeToRathe,
+  ...fullSetIdentifiers,
 
   // Blitz decks
   ara: Release.ArakniBlitzDeck,
@@ -46,6 +62,7 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
   // Promos
   fab: Release.Promos,
   her: Release.Promos,
+  jdg: Release.Promos,
   lgs: Release.Promos,
   lss: Release.Promos,
   oxo: Release.Promos,

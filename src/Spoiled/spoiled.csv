@@ -1,4 +1,7 @@
 Identifiers	Set Identifiers	Name	Pitch	Cost	Power	Defense	Health	Intelligence	Rarity	Types	Card Keywords	Abilities and Effects	Ability and Effect Keywords	Granted Keywords	Functional Text	Flavor Text	Type Text	Artists	Card Played Horizontally	Blitz Legal	CC Legal	Commoner Legal	Variations	Image URLs
+LSS006	LSS	Good Deeds Don't Go Unnoticed	2	0		3			P	Generic, Action, Aura					"At the start of each other hero's turn, choose 1; they draw a card, they gain {r}, they gain 1{h}, or their next attack this turn gains +1{p}.
+
+At the start of your turn, destroy this. If another hero drew a card from this, you draw a card, then repeat for {r}, {h}, and {p}."		Generic Action – Aura	Andy Aslamov		No	No	No	R - LSS006 - N	/LSS006.png – LSS006 – N – R
 JDG008	JDG	Theryon, Magister of Justice					20	4	P	Light, Adjudicator, Hero					The first time each turn another hero destroys a card they don’t control, you may pay {r}{r}. If you do, they destroy a non-hero permanent they control.		Light Adjudicator Hero	Andy Aslamov		No	No	No	R – JDG008 - N	/JDG008.png – JDG008 – N – R
 JDG005	JDG	Gavel of Natural Order			2				P	Adjudicator, Weapon, Hammer, 1H	Pairs	Once per Turn Action	Attack		"**Pairs** with an off-hand
 

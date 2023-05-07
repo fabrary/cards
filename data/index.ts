@@ -18,6 +18,49 @@
 
   const cards1: Card[] = [{
     artists: ["Andy Aslamov"],
+    cardIdentifier: "good-deeds-dont-go-unnoticed-yellow",
+    classes: [Class.Generic],
+    defaultImage: "LSS006",
+    name: "Good Deeds Don't Go Unnoticed",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LSS006",
+      image: "LSS006",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LSS006"],
+    sets: [Release.Promos],
+    specialImage: "LSS006",
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action – Aura",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `At the start of each other hero's turn, choose 1; they draw a card, they gain {r}, they gain 1{h}, or their next attack this turn gains +1{p}.
+
+At the start of your turn, destroy this. If another hero drew a card from this, you draw a card, then repeat for {r}, {h}, and {p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Andy Aslamov"],
     cardIdentifier: "theryon-magister-of-justice",
     classes: [Class.Adjudicator],
     defaultImage: "JDG008",
@@ -540,49 +583,6 @@ You create a Copper, Silver, and Gold.`,
     
     
     specializations: [Hero.Yorick],
-    
-    
-  },{
-    artists: ["Andy Aslamov"],
-    cardIdentifier: "good-deeds-dont-go-unnoticed-yellow",
-    classes: [Class.Generic],
-    defaultImage: "LSS006",
-    name: "Good Deeds Don't Go Unnoticed",
-    printings: [{
-      foiling: Foiling.R,
-      identifier: "LSS006",
-      image: "LSS006",
-      set: Release.Promos,
-      
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LSS006"],
-    sets: [Release.Promos],
-    specialImage: "LSS006",
-    subtypes: [Subtype.Aura,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Generic Action – Aura",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `At the start of each other hero's turn, choose 1; they draw a card, they gain {r}, they gain 1{h}, or their next attack this turn gains +1{p}.
-
-At the start of your turn, destroy this. If another hero drew a card from this, you draw a card, then repeat for {r}, {h}, and {p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    
-    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
-    
-    
-    
-    
     
     
   },{
@@ -12841,7 +12841,7 @@ Banish Remembrance.`,
     
     pitch: 1,
     power: 6,
-    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
     
     
     
@@ -12900,7 +12900,7 @@ Banish Remembrance.`,
     
     pitch: 2,
     power: 5,
-    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
     
     
     
@@ -12965,7 +12965,7 @@ Banish Remembrance.`,
     
     pitch: 3,
     power: 4,
-    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
     
     
     
@@ -17200,7 +17200,7 @@ When you pitch Eye of Ophidia, **opt 2**.`,
     },{
       foiling: Foiling.C,
       identifier: "HER070",
-      image: "",
+      image: "HER070",
       set: Release.Promos,
       
     },{
@@ -19702,7 +19702,7 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     },{
       foiling: Foiling.C,
       identifier: "HER071",
-      image: "",
+      image: "HER071",
       set: Release.Promos,
       
     },{
@@ -38729,7 +38729,7 @@ The next time your hero would be dealt damage this turn, prevent it.`,
     artists: ["Faizal Fikri"],
     cardIdentifier: "tripwire-trap-red",
     classes: [Class.Ranger],
-    defaultImage: "CRU126",
+    defaultImage: "LGS150.width-10000",
     name: "Tripwire Trap",
     printings: [{
       edition: ReleaseEdition.First,
@@ -38766,7 +38766,7 @@ The next time your hero would be dealt damage this turn, prevent it.`,
     rarity: Rarity.Rare,
     setIdentifiers: ["CRU126","LGS150"],
     sets: [Release.CrucibleOfWar,Release.Promos],
-    specialImage: "CRU126-RF",
+    specialImage: "LGS150.width-10000",
     subtypes: [Subtype.Trap],
     types: [Type.DefenseReaction],
     typeText: "Ranger Defense Reaction – Trap",
@@ -38796,7 +38796,7 @@ When this defends, effects don't trigger when an attack hits this chain link unl
     artists: ["Rio Sabda"],
     cardIdentifier: "pitfall-trap-yellow",
     classes: [Class.Ranger],
-    defaultImage: "CRU127",
+    defaultImage: "LGS151.width-10000",
     name: "Pitfall Trap",
     printings: [{
       
@@ -38839,7 +38839,7 @@ When this defends, effects don't trigger when an attack hits this chain link unl
     rarity: Rarity.Rare,
     setIdentifiers: ["LXI029","CRU127","LGS151"],
     sets: [Release.LexiBlitzDeck,Release.CrucibleOfWar,Release.Promos],
-    specialImage: "CRU127",
+    specialImage: "LGS151.width-10000",
     subtypes: [Subtype.Trap],
     types: [Type.DefenseReaction],
     typeText: "Ranger Defense Reaction – Trap",
@@ -38869,7 +38869,7 @@ When this defends, deal 2 damage to the attacking hero unless they pay {r}.`,
     artists: ["Tatiana Trubnikova"],
     cardIdentifier: "rockslide-trap-blue",
     classes: [Class.Ranger],
-    defaultImage: "CRU128",
+    defaultImage: "LGS152.width-10000",
     name: "Rockslide Trap",
     printings: [{
       edition: ReleaseEdition.First,
@@ -38906,7 +38906,7 @@ When this defends, deal 2 damage to the attacking hero unless they pay {r}.`,
     rarity: Rarity.Rare,
     setIdentifiers: ["CRU128","LGS152"],
     sets: [Release.CrucibleOfWar,Release.Promos],
-    specialImage: "CRU128-RF",
+    specialImage: "LGS152.width-10000",
     subtypes: [Subtype.Trap],
     types: [Type.DefenseReaction],
     typeText: "Ranger Defense Reaction – Trap",
@@ -42987,13 +42987,13 @@ At the beginning of each end phase, if a hero has 2 or more cards with yellow co
     },{
       foiling: Foiling.C,
       identifier: "HER069",
-      image: "",
+      image: "HER069",
       set: Release.Promos,
       
     },{
       foiling: Foiling.C,
       identifier: "HER069",
-      image: "",
+      image: "HER069_Back",
       set: Release.Promos,
       treatment: Treatment.FA,
     },{
@@ -43019,7 +43019,7 @@ At the beginning of each end phase, if a hero has 2 or more cards with yellow co
     rarity: Rarity.Token,
     setIdentifiers: ["HER030","HER038","HER069","WIN009","MON001"],
     sets: [Release.Promos,Release.Monarch],
-    specialImage: "MON001.width-450",
+    specialImage: "HER069_Back",
     subtypes: [],
     types: [Type.Hero],
     typeText: "Light Illusionist Hero",
@@ -49682,7 +49682,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
     rarity: Rarity.Token,
     setIdentifiers: ["FAB082","PSM030","MON104","EVR153","DYN233"],
     sets: [Release.Promos,Release.PrismBlitzDeck,Release.Monarch,Release.Everfest,Release.Dynasty],
-    specialImage: "MON104.width-450",
+    specialImage: "DYN233",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
     typeText: "Illusionist Token – Aura",
@@ -62793,7 +62793,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
     
     
     
-    restrictedFormats: [Format.ClassicConstructed],
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed],
     
     
     
@@ -62854,7 +62854,7 @@ If an Ice card is pitched this way, Winter's Wail gains "If this hits a hero, cr
     
     
     power: 4,
-    restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
     
     
     
@@ -66600,7 +66600,7 @@ If Frazzle was **fused**, whenever an attack would deal damage this turn, instea
     },{
       
       identifier: "XXX012",
-      image: "",
+      image: "XXX012",
       set: Release.Promos,
       
     },{
@@ -66669,7 +66669,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
     },{
       
       identifier: "XXX011",
-      image: "",
+      image: "XXX011",
       set: Release.Promos,
       
     },{
@@ -70059,7 +70059,7 @@ Earth, Ice, and Elemental action cards have +1{d} while defending this turn.`,
     
     
     
-    restrictedFormats: [Format.Blitz,Format.Commoner],
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -83728,7 +83728,7 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
     
     
     
-    restrictedFormats: [Format.ClassicConstructed],
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed],
     
     
     
@@ -83775,7 +83775,7 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
     
     
     
-    restrictedFormats: [Format.Commoner],
+    restrictedFormats: [Format.Blitz,Format.Commoner],
     
     
     
@@ -87480,7 +87480,7 @@ The second time you attack with Dawnblade each turn, it gains +1{p} until end of
     printings: [{
       foiling: Foiling.C,
       identifier: "LGS100",
-      image: "",
+      image: "LGS100",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -87512,7 +87512,7 @@ The second time you attack with Dawnblade each turn, it gains +1{p} until end of
     rarity: Rarity.Common,
     setIdentifiers: ["LGS100","DVR004","RVD004","ARA004","KAT004"],
     sets: [Release.Promos,Release.ClassicBattlesRhinarDorinthea,Release.ArakniBlitzDeck,Release.KatsuBlitzDeck],
-    specialImage: "DVR004.width-450",
+    specialImage: "LGS100",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
     typeText: "Generic Equipment – Chest",
@@ -87678,7 +87678,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
     printings: [{
       foiling: Foiling.R,
       identifier: "LGS102",
-      image: "",
+      image: "LGS102",
       set: Release.Promos,
       
     },{
@@ -87692,7 +87692,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS102","DVR013"],
     sets: [Release.Promos,Release.ClassicBattlesRhinarDorinthea],
-    specialImage: "DVR013.width-450",
+    specialImage: "LGS102",
     subtypes: [],
     types: [Type.AttackReaction],
     typeText: "Warrior Attack Reaction",
@@ -88157,7 +88157,7 @@ While Ruk'utan is face up in arsenal, whenever you play a card with 6 or more {p
     printings: [{
       foiling: Foiling.R,
       identifier: "LGS101",
-      image: "",
+      image: "LGS101",
       set: Release.Promos,
       
     },{
@@ -88171,7 +88171,7 @@ While Ruk'utan is face up in arsenal, whenever you play a card with 6 or more {p
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS101","RVD013"],
     sets: [Release.Promos,Release.ClassicBattlesRhinarDorinthea],
-    specialImage: "RVD013.width-450",
+    specialImage: "LGS101",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Brute Action – Attack",
@@ -94761,7 +94761,7 @@ Deal 5 arcane damage to any target. If Aether Icevein was **fused** and deals da
     
     pitch: 1,
     
-    restrictedFormats: [Format.Blitz],
+    
     
     
     
@@ -94810,7 +94810,7 @@ Deal 4 arcane damage to any target. If Aether Icevein was **fused** and deals da
     
     pitch: 2,
     
-    restrictedFormats: [Format.Blitz],
+    
     
     
     
@@ -94859,7 +94859,7 @@ Deal 3 arcane damage to any target. If Aether Icevein was **fused** and deals da
     
     pitch: 3,
     
-    restrictedFormats: [Format.Blitz],
+    
     
     
     
@@ -96041,7 +96041,7 @@ At the beginning of your end phase, destroy Hypothermia.`,
     
     pitch: 3,
     
-    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
     
     
     
@@ -103276,7 +103276,7 @@ You may play Lumina Ascension as though it were an instant.`,
     printings: [{
       foiling: Foiling.C,
       identifier: "FAB137",
-      image: "",
+      image: "FAB137",
       set: Release.Promos,
       
     },{
@@ -103296,7 +103296,7 @@ You may play Lumina Ascension as though it were an instant.`,
     rarity: Rarity.Majestic,
     setIdentifiers: ["FAB137","DYN067"],
     sets: [Release.Promos,Release.Dynasty],
-    specialImage: "DYN067",
+    specialImage: "FAB137",
     subtypes: [Subtype.Sword,Subtype.TwoHanded],
     types: [Type.Weapon],
     typeText: "Warrior Weapon – Sword (2H)",
@@ -105553,7 +105553,7 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     printings: [{
       foiling: Foiling.C,
       identifier: "HER074",
-      image: "dyn_card_Arakni_Huntsman.width-10000",
+      image: "HER074",
       set: Release.Promos,
       
     },{
@@ -105579,7 +105579,7 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     rarity: Rarity.Majestic,
     setIdentifiers: ["HER074","WIN020","DYN113"],
     sets: [Release.Promos,Release.Dynasty],
-    specialImage: "dyn_card_Arakni_Huntsman.width-10000",
+    specialImage: "HER074",
     subtypes: [],
     types: [Type.Hero],
     typeText: "Assassin Hero",
@@ -105612,7 +105612,7 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     printings: [{
       foiling: Foiling.C,
       identifier: "HER073",
-      image: "",
+      image: "HER073",
       set: Release.Promos,
       
     },{
@@ -105632,7 +105632,7 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     rarity: Rarity.Rare,
     setIdentifiers: ["HER073","DYN114"],
     sets: [Release.Promos,Release.Dynasty],
-    specialImage: "DYN114",
+    specialImage: "HER073",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Assassin Hero – Young",
@@ -105665,7 +105665,7 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     printings: [{
       foiling: Foiling.C,
       identifier: "LGS111",
-      image: "dyn_card_Spider_s_Bite.width-10000",
+      image: "LGS111",
       set: Release.Promos,
       
     },{
@@ -105721,7 +105721,7 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     rarity: Rarity.Token,
     setIdentifiers: ["LGS111","DYN115","DYN116","OUT004","ARA002","UZU002"],
     sets: [Release.Promos,Release.Dynasty,Release.Outsiders,Release.ArakniBlitzDeck,Release.UzuriBlitzDeck],
-    specialImage: "dyn_card_Spider_s_Bite.width-10000",
+    specialImage: "LGS111",
     subtypes: [Subtype.Dagger,Subtype.OneHanded],
     types: [Type.Weapon],
     typeText: "Assassin Weapon – Dagger (1H)",
@@ -105968,7 +105968,7 @@ When this hits a hero, banish the top card of their deck and up to 1 card in the
     defaultImage: "DYN121",
     name: "Regicide",
     printings: [{
-      
+      foiling: Foiling.R,
       identifier: "FAB122",
       image: "FAB122",
       set: Release.Promos,
@@ -107301,7 +107301,7 @@ When this hits a hero, banish the top card of their deck.`,
     printings: [{
       foiling: Foiling.R,
       identifier: "LGS113",
-      image: "dyn_card_Cut_to_the_Chase_p1.width-10000",
+      image: "LGS113",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -107321,7 +107321,7 @@ When this hits a hero, banish the top card of their deck.`,
     rarity: Rarity.Common,
     setIdentifiers: ["LGS113","DYN148"],
     sets: [Release.Promos,Release.Dynasty],
-    specialImage: "dyn_card_Cut_to_the_Chase_p1.width-10000",
+    specialImage: "LGS113",
     subtypes: [],
     types: [Type.AttackReaction],
     typeText: "Assassin Attack Reaction",
@@ -107356,7 +107356,7 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
     printings: [{
       foiling: Foiling.R,
       identifier: "LGS114",
-      image: "",
+      image: "LGS114",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -107376,7 +107376,7 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
     rarity: Rarity.Common,
     setIdentifiers: ["LGS114","DYN149"],
     sets: [Release.Promos,Release.Dynasty],
-    specialImage: "DYN149",
+    specialImage: "LGS114",
     subtypes: [],
     types: [Type.AttackReaction],
     typeText: "Assassin Attack Reaction",
@@ -107411,7 +107411,7 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
     printings: [{
       foiling: Foiling.R,
       identifier: "LGS115",
-      image: "",
+      image: "LGS115",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -107431,7 +107431,7 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
     rarity: Rarity.Common,
     setIdentifiers: ["LGS115","DYN150"],
     sets: [Release.Promos,Release.Dynasty],
-    specialImage: "DYN150",
+    specialImage: "LGS115",
     subtypes: [],
     types: [Type.AttackReaction],
     typeText: "Assassin Attack Reaction",
@@ -108068,7 +108068,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
     printings: [{
       foiling: Foiling.R,
       identifier: "LGS120",
-      image: "",
+      image: "LGS120",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -108088,7 +108088,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
     rarity: Rarity.Common,
     setIdentifiers: ["LGS120","DYN163"],
     sets: [Release.Promos,Release.Dynasty],
-    specialImage: "DYN163",
+    specialImage: "LGS120",
     subtypes: [Subtype.Attack,Subtype.Arrow],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
@@ -108121,7 +108121,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
     printings: [{
       foiling: Foiling.R,
       identifier: "LGS121",
-      image: "",
+      image: "LGS121",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -108141,7 +108141,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
     rarity: Rarity.Common,
     setIdentifiers: ["LGS121","DYN164"],
     sets: [Release.Promos,Release.Dynasty],
-    specialImage: "DYN164",
+    specialImage: "LGS121",
     subtypes: [Subtype.Attack,Subtype.Arrow],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
@@ -111965,7 +111965,7 @@ When you equip Crown of Dominion, create a Gold token.`,
     printings: [{
       foiling: Foiling.C,
       identifier: "LGS128",
-      image: "",
+      image: "LGS128",
       set: Release.Promos,
       
     },{
@@ -111997,7 +111997,7 @@ When you equip Crown of Dominion, create a Gold token.`,
     rarity: Rarity.Common,
     setIdentifiers: ["LGS128","DYN244","OUT237","UZU031"],
     sets: [Release.Promos,Release.Dynasty,Release.Outsiders,Release.UzuriBlitzDeck],
-    specialImage: "DYN244",
+    specialImage: "LGS128",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
     typeText: "Generic Token – Aura",
@@ -112126,7 +112126,7 @@ When you pitch Plague Hive, for each opposing hero, choose Inertia, Frailty, or 
     printings: [{
       foiling: Foiling.C,
       identifier: "HER077",
-      image: "",
+      image: "HER077",
       set: Release.Promos,
       
     },{
@@ -112146,7 +112146,7 @@ When you pitch Plague Hive, for each opposing hero, choose Inertia, Frailty, or 
     rarity: Rarity.Token,
     setIdentifiers: ["HER077","WIN021","OUT001"],
     sets: [Release.Promos,Release.Outsiders],
-    specialImage: "OUT001.width-450",
+    specialImage: "HER077",
     subtypes: [],
     types: [Type.Hero],
     typeText: "Assassin Hero",
@@ -112179,13 +112179,13 @@ When you pitch Plague Hive, for each opposing hero, choose Inertia, Frailty, or 
     printings: [{
       foiling: Foiling.C,
       identifier: "HER076",
-      image: "",
+      image: "HER076",
       set: Release.Promos,
       
     },{
       foiling: Foiling.R,
-      identifier: "HER082",
-      image: "",
+      identifier: "HER083",
+      image: "HER083",
       set: Release.Promos,
       
     },{
@@ -112203,9 +112203,9 @@ When you pitch Plague Hive, for each opposing hero, choose Inertia, Frailty, or 
     },],
     rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
     rarity: Rarity.Token,
-    setIdentifiers: ["HER076","HER082","OUT002","UZU001"],
+    setIdentifiers: ["HER076","HER083","OUT002","UZU001"],
     sets: [Release.Promos,Release.Outsiders,Release.UzuriBlitzDeck],
-    specialImage: "OUT002.width-450",
+    specialImage: "HER076",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Assassin Hero – Young",
@@ -112243,8 +112243,8 @@ When you pitch Plague Hive, for each opposing hero, choose Inertia, Frailty, or 
       
     },{
       foiling: Foiling.R,
-      identifier: "HER081",
-      image: "",
+      identifier: "HER082",
+      image: "HER082",
       set: Release.Promos,
       
     },{
@@ -112262,9 +112262,9 @@ When you pitch Plague Hive, for each opposing hero, choose Inertia, Frailty, or 
     },],
     rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
     rarity: Rarity.Token,
-    setIdentifiers: ["HER079","HER081","OUT003","ARA001"],
+    setIdentifiers: ["HER079","HER082","OUT003","ARA001"],
     sets: [Release.Promos,Release.Outsiders,Release.ArakniBlitzDeck],
-    specialImage: "OUT003.width-450",
+    specialImage: "HER082",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Assassin Hero – Young",
@@ -112522,7 +112522,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
     printings: [{
       foiling: Foiling.G,
       identifier: "FAB123",
-      image: "",
+      image: "FAB123",
       set: Release.Promos,
       
     },{
@@ -113024,7 +113024,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     printings: [{
       foiling: Foiling.R,
       identifier: "LGS130",
-      image: "card_Spike_with_Bloodrot.width-10000",
+      image: "LGS130",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -113050,7 +113050,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS130","OUT021","ARA018"],
     sets: [Release.Promos,Release.Outsiders,Release.ArakniBlitzDeck],
-    specialImage: "card_Spike_with_Bloodrot.width-10000",
+    specialImage: "LGS130",
     subtypes: [],
     types: [Type.AttackReaction],
     typeText: "Assassin Attack Reaction",
@@ -113083,7 +113083,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     printings: [{
       foiling: Foiling.R,
       identifier: "LGS131",
-      image: "card_Spike_with_Fratality.width-10000",
+      image: "LGS131",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -113103,7 +113103,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS131","OUT022"],
     sets: [Release.Promos,Release.Outsiders],
-    specialImage: "card_Spike_with_Fratality.width-10000",
+    specialImage: "LGS131",
     subtypes: [],
     types: [Type.AttackReaction],
     typeText: "Assassin Attack Reaction",
@@ -113136,7 +113136,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     printings: [{
       foiling: Foiling.R,
       identifier: "LGS132",
-      image: "card_Spike_with_Inertia.width-10000",
+      image: "LGS132",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -113156,7 +113156,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS132","OUT023"],
     sets: [Release.Promos,Release.Outsiders],
-    specialImage: "card_Spike_with_Inertia.width-10000",
+    specialImage: "LGS132",
     subtypes: [],
     types: [Type.AttackReaction],
     typeText: "Assassin Attack Reaction",
@@ -115027,7 +115027,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     printings: [{
       foiling: Foiling.R,
       identifier: "LGS141",
-      image: "",
+      image: "LGS141",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -115047,7 +115047,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS141","OUT062"],
     sets: [Release.Promos,Release.Outsiders],
-    specialImage: "OUT062.width-450",
+    specialImage: "LGS141",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Ninja Action - Attack",
@@ -115082,7 +115082,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     printings: [{
       foiling: Foiling.R,
       identifier: "LGS142",
-      image: "",
+      image: "LGS142",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -115102,7 +115102,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS142","OUT063"],
     sets: [Release.Promos,Release.Outsiders],
-    specialImage: "OUT063.width-450",
+    specialImage: "LGS142",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Ninja Action - Attack",
@@ -115137,7 +115137,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     printings: [{
       foiling: Foiling.R,
       identifier: "LGS143",
-      image: "",
+      image: "LGS143",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -115157,7 +115157,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS143","OUT064"],
     sets: [Release.Promos,Release.Outsiders],
-    specialImage: "OUT064.width-450",
+    specialImage: "LGS143",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Ninja Action - Attack",
@@ -115993,7 +115993,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     printings: [{
       foiling: Foiling.C,
       identifier: "HER078",
-      image: "",
+      image: "HER078",
       set: Release.Promos,
       
     },{
@@ -116013,7 +116013,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     rarity: Rarity.Token,
     setIdentifiers: ["HER078","WIN022","OUT091"],
     sets: [Release.Promos,Release.Outsiders],
-    specialImage: "OUT091.width-450",
+    specialImage: "HER078",
     subtypes: [],
     types: [Type.Hero],
     typeText: "Ranger Hero",
@@ -116053,8 +116053,8 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
       
     },{
       foiling: Foiling.R,
-      identifier: "HER083",
-      image: "",
+      identifier: "HER081",
+      image: "HER081",
       set: Release.Promos,
       
     },{
@@ -116072,9 +116072,9 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
     },],
     rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
     rarity: Rarity.Token,
-    setIdentifiers: ["HER080","HER083","OUT092","RIP001"],
+    setIdentifiers: ["HER080","HER081","OUT092","RIP001"],
     sets: [Release.Promos,Release.Outsiders,Release.RiptideBlitzDeck],
-    specialImage: "OUT092.width-450",
+    specialImage: "HER081",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Ranger Hero – Young",
@@ -116109,7 +116109,7 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
     printings: [{
       foiling: Foiling.C,
       identifier: "LGS129",
-      image: "card_Barbed_Castaway.width-10000",
+      image: "LGS129",
       set: Release.Promos,
       
     },{
@@ -116135,7 +116135,7 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
     rarity: Rarity.Token,
     setIdentifiers: ["LGS129","OUT093","AZL002","RIP002"],
     sets: [Release.Promos,Release.Outsiders,Release.AzaleaBlitzDeck,Release.RiptideBlitzDeck],
-    specialImage: "card_Barbed_Castaway.width-10000",
+    specialImage: "LGS129",
     subtypes: [Subtype.Bow,Subtype.TwoHanded],
     types: [Type.Weapon],
     typeText: "Ranger Weapon - Bow (2H)",
@@ -116170,7 +116170,7 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
     printings: [{
       foiling: Foiling.G,
       identifier: "FAB125",
-      image: "",
+      image: "FAB125",
       set: Release.Promos,
       
     },{
@@ -116233,7 +116233,7 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
     printings: [{
       foiling: Foiling.G,
       identifier: "FAB126",
-      image: "",
+      image: "FAB126",
       set: Release.Promos,
       
     },{
@@ -116253,7 +116253,7 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB126","OUT095"],
     sets: [Release.Promos,Release.Outsiders],
-    specialImage: "OUT095.width-450",
+    specialImage: "FAB126",
     subtypes: [Subtype.Quiver],
     types: [Type.Equipment],
     typeText: "Ranger Equipment - Quiver",
@@ -116339,7 +116339,7 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
     printings: [{
       foiling: Foiling.C,
       identifier: "LGS133",
-      image: "",
+      image: "LGS133",
       set: Release.Promos,
       
     },{
@@ -116359,7 +116359,7 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
     rarity: Rarity.Token,
     setIdentifiers: ["LGS133","OUT097","AZL003"],
     sets: [Release.Promos,Release.Outsiders,Release.AzaleaBlitzDeck],
-    specialImage: "OUT097.width-450",
+    specialImage: "LGS133",
     subtypes: [Subtype.Quiver],
     types: [Type.Equipment],
     typeText: "Ranger Equipment - Quiver",
@@ -116394,7 +116394,7 @@ Whenever an arrow is put face up into your arsenal from your deck, you may pay {
     printings: [{
       foiling: Foiling.C,
       identifier: "LGS137",
-      image: "",
+      image: "LGS137",
       set: Release.Promos,
       
     },{
@@ -116414,7 +116414,7 @@ Whenever an arrow is put face up into your arsenal from your deck, you may pay {
     rarity: Rarity.Token,
     setIdentifiers: ["LGS137","OUT098","RIP003"],
     sets: [Release.Promos,Release.Outsiders,Release.RiptideBlitzDeck],
-    specialImage: "OUT098.width-450",
+    specialImage: "LGS137",
     subtypes: [Subtype.Quiver],
     types: [Type.Equipment],
     typeText: "Ranger Equipment - Quiver",
@@ -117118,6 +117118,12 @@ If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
     defaultImage: "OUT112.width-450",
     name: "Lace with Bloodrot",
     printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS134",
+      image: "LGS134",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
       
       identifier: "OUT112",
       image: "OUT112.width-450",
@@ -117130,11 +117136,11 @@ If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
       set: Release.Outsiders,
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["OUT112"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT112.width-450",
+    setIdentifiers: ["LGS134","OUT112"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImage: "LGS134",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action",
@@ -117167,6 +117173,12 @@ If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
     defaultImage: "OUT113.width-450",
     name: "Lace with Frailty",
     printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS135",
+      image: "LGS135",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
       
       identifier: "OUT113",
       image: "OUT113.width-450",
@@ -117179,11 +117191,11 @@ If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
       set: Release.Outsiders,
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["OUT113"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT113.width-450",
+    setIdentifiers: ["LGS135","OUT113"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImage: "LGS135",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action",
@@ -117216,6 +117228,12 @@ If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
     defaultImage: "OUT114.width-450",
     name: "Lace with Inertia",
     printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS136",
+      image: "LGS136",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
       
       identifier: "OUT114",
       image: "OUT114.width-450",
@@ -117228,11 +117246,11 @@ If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
       set: Release.Outsiders,
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["OUT114"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT114.width-450",
+    setIdentifiers: ["LGS136","OUT114"],
+    sets: [Release.Promos,Release.Outsiders],
+    specialImage: "LGS136",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ranger Action",
@@ -118551,7 +118569,7 @@ When this hits a hero, create a Frailty token under their control.`,
     printings: [{
       foiling: Foiling.G,
       identifier: "FAB124",
-      image: "",
+      image: "FAB124",
       set: Release.Promos,
       
     },{
@@ -118571,7 +118589,7 @@ When this hits a hero, create a Frailty token under their control.`,
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB124","OUT139"],
     sets: [Release.Promos,Release.Outsiders],
-    specialImage: "OUT139.width-450",
+    specialImage: "FAB124",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
     typeText: "Assassin / Ninja Equipment - Arms",
@@ -119790,7 +119808,7 @@ Create a Ponder token under your control and an Inertia token under each opponen
     printings: [{
       foiling: Foiling.R,
       identifier: "FAB132",
-      image: "",
+      image: "FAB132",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -119816,7 +119834,7 @@ Create a Ponder token under your control and an Inertia token under each opponen
     rarity: Rarity.Rare,
     setIdentifiers: ["FAB132","OUT162","UZU008"],
     sets: [Release.Promos,Release.Outsiders,Release.UzuriBlitzDeck],
-    specialImage: "OUT162.width-450",
+    specialImage: "FAB132",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Assassin / Ranger Action - Attack",
@@ -119949,7 +119967,7 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     printings: [{
       foiling: Foiling.R,
       identifier: "FAB128",
-      image: "",
+      image: "FAB128",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -119969,7 +119987,7 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     rarity: Rarity.Rare,
     setIdentifiers: ["FAB128","OUT165"],
     sets: [Release.Promos,Release.Outsiders],
-    specialImage: "OUT165.width-450",
+    specialImage: "FAB128",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Assassin / Ranger Action",
@@ -120004,7 +120022,7 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     printings: [{
       foiling: Foiling.R,
       identifier: "FAB129",
-      image: "",
+      image: "FAB129",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -120024,7 +120042,7 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     rarity: Rarity.Rare,
     setIdentifiers: ["FAB129","OUT166"],
     sets: [Release.Promos,Release.Outsiders],
-    specialImage: "OUT166.width-450",
+    specialImage: "FAB129",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Assassin / Ranger Action",
@@ -120059,7 +120077,7 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     printings: [{
       foiling: Foiling.R,
       identifier: "FAB130",
-      image: "",
+      image: "FAB130",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
@@ -120085,7 +120103,7 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     rarity: Rarity.Rare,
     setIdentifiers: ["FAB130","OUT167","AZL027"],
     sets: [Release.Promos,Release.Outsiders,Release.AzaleaBlitzDeck],
-    specialImage: "OUT167.width-450",
+    specialImage: "FAB130",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Assassin / Ranger Action",
@@ -120438,7 +120456,7 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
     printings: [{
       foiling: Foiling.G,
       identifier: "FAB127",
-      image: "",
+      image: "FAB127",
       set: Release.Promos,
       
     },{
@@ -120458,7 +120476,7 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB127","OUT174"],
     sets: [Release.Promos,Release.Outsiders],
-    specialImage: "OUT174.width-450",
+    specialImage: "FAB127",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
     typeText: "Generic Equipment - Arms",
@@ -122880,7 +122898,7 @@ The next attack action card you play from arsenal this turn gains +1{p}.
     printings: [{
       foiling: Foiling.R,
       identifier: "FAB131",
-      image: "",
+      image: "FAB131",
       set: Release.Promos,
       
     },{
@@ -122906,7 +122924,7 @@ The next attack action card you play from arsenal this turn gains +1{p}.
     rarity: Rarity.Common,
     setIdentifiers: ["FAB131","OUT231","UZU016"],
     sets: [Release.Promos,Release.Outsiders,Release.UzuriBlitzDeck],
-    specialImage: "OUT231.width-450",
+    specialImage: "FAB131",
     subtypes: [],
     types: [Type.Instant],
     typeText: "Generic Instant",
@@ -123039,13 +123057,13 @@ Create a Ponder token.`,
     printings: [{
       foiling: Foiling.R,
       identifier: "FAB133",
-      image: "",
+      image: "FAB133",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
       foiling: Foiling.C,
       identifier: "LGS125",
-      image: "",
+      image: "LGS125",
       set: Release.Promos,
       
     },{
@@ -123083,7 +123101,7 @@ Create a Ponder token.`,
     rarity: Rarity.Token,
     setIdentifiers: ["FAB133","LGS125","OUT234","ARA027","AZL028","UZU028","RIP028"],
     sets: [Release.Promos,Release.Outsiders,Release.ArakniBlitzDeck,Release.AzaleaBlitzDeck,Release.UzuriBlitzDeck,Release.RiptideBlitzDeck],
-    specialImage: "OUT234.width-450",
+    specialImage: "FAB133",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
     typeText: "Generic Token - Aura",
@@ -123116,13 +123134,13 @@ Create a Ponder token.`,
     printings: [{
       foiling: Foiling.R,
       identifier: "FAB134",
-      image: "",
+      image: "FAB134",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
       foiling: Foiling.C,
       identifier: "LGS126",
-      image: "",
+      image: "LGS126",
       set: Release.Promos,
       
     },{
@@ -123160,7 +123178,7 @@ Create a Ponder token.`,
     rarity: Rarity.Token,
     setIdentifiers: ["FAB134","LGS126","OUT235","ARA028","AZL029","UZU029","RIP029"],
     sets: [Release.Promos,Release.Outsiders,Release.ArakniBlitzDeck,Release.AzaleaBlitzDeck,Release.UzuriBlitzDeck,Release.RiptideBlitzDeck],
-    specialImage: "OUT235.width-450",
+    specialImage: "FAB134",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
     typeText: "Generic Token - Aura",
@@ -123195,13 +123213,13 @@ At the beginning of your end phase destroy Frailty.`,
     printings: [{
       foiling: Foiling.R,
       identifier: "FAB135",
-      image: "",
+      image: "FAB135",
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
       foiling: Foiling.C,
       identifier: "LGS127",
-      image: "",
+      image: "LGS127",
       set: Release.Promos,
       
     },{
@@ -123239,7 +123257,7 @@ At the beginning of your end phase destroy Frailty.`,
     rarity: Rarity.Token,
     setIdentifiers: ["FAB135","LGS127","OUT236","ARA029","AZL030","UZU030","RIP030"],
     sets: [Release.Promos,Release.Outsiders,Release.ArakniBlitzDeck,Release.AzaleaBlitzDeck,Release.UzuriBlitzDeck,Release.RiptideBlitzDeck],
-    specialImage: "OUT236.width-450",
+    specialImage: "FAB135",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
     typeText: "Generic Token - Aura",

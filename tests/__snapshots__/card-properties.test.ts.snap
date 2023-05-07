@@ -1247,9 +1247,6 @@ Deal 3 arcane damage to any target. If Aether Icevein was **fused** and deals da
     "Common",
   ],
   "rarity": "Common",
-  "restrictedFormats": [
-    "Blitz",
-  ],
   "setIdentifiers": [
     "UPR115",
   ],
@@ -1310,9 +1307,6 @@ Deal 5 arcane damage to any target. If Aether Icevein was **fused** and deals da
     "Common",
   ],
   "rarity": "Common",
-  "restrictedFormats": [
-    "Blitz",
-  ],
   "setIdentifiers": [
     "UPR113",
   ],
@@ -1373,9 +1367,6 @@ Deal 4 arcane damage to any target. If Aether Icevein was **fused** and deals da
     "Common",
   ],
   "rarity": "Common",
-  "restrictedFormats": [
-    "Blitz",
-  ],
   "setIdentifiers": [
     "UPR114",
   ],
@@ -3862,7 +3853,7 @@ exports[`Check for unintentional updates Arakni (arakni) vs snapshot 1`] = `
     {
       "foiling": "Cold",
       "identifier": "HER073",
-      "image": "",
+      "image": "HER073",
       "set": "Promos",
     },
     {
@@ -3890,7 +3881,7 @@ exports[`Check for unintentional updates Arakni (arakni) vs snapshot 1`] = `
     "Promos",
     "Dynasty",
   ],
-  "specialImage": "DYN114",
+  "specialImage": "HER073",
   "subtypes": [
     "Young",
   ],
@@ -3921,7 +3912,7 @@ exports[`Check for unintentional updates Arakni, Huntsman (arakni-huntsman) vs s
     {
       "foiling": "Cold",
       "identifier": "HER074",
-      "image": "dyn_card_Arakni_Huntsman.width-10000",
+      "image": "HER074",
       "set": "Promos",
     },
     {
@@ -3959,7 +3950,7 @@ exports[`Check for unintentional updates Arakni, Huntsman (arakni-huntsman) vs s
     "Promos",
     "Dynasty",
   ],
-  "specialImage": "dyn_card_Arakni_Huntsman.width-10000",
+  "specialImage": "HER074",
   "subtypes": [],
   "typeText": "Assassin Hero",
   "types": [
@@ -3995,8 +3986,8 @@ exports[`Check for unintentional updates Arakni, Solitary Confinement (arakni-so
     },
     {
       "foiling": "Rainbow",
-      "identifier": "HER081",
-      "image": "",
+      "identifier": "HER082",
+      "image": "HER082",
       "set": "Promos",
     },
     {
@@ -4018,7 +4009,7 @@ exports[`Check for unintentional updates Arakni, Solitary Confinement (arakni-so
   "rarity": "Token",
   "setIdentifiers": [
     "HER079",
-    "HER081",
+    "HER082",
     "OUT003",
     "ARA001",
   ],
@@ -4027,7 +4018,7 @@ exports[`Check for unintentional updates Arakni, Solitary Confinement (arakni-so
     "Outsiders",
     "Arakni Blitz Deck",
   ],
-  "specialImage": "OUT003.width-450",
+  "specialImage": "HER082",
   "subtypes": [
     "Young",
   ],
@@ -5773,7 +5764,7 @@ exports[`Check for unintentional updates Azalea (azalea) vs snapshot 1`] = `
     {
       "foiling": "Cold",
       "identifier": "HER071",
-      "image": "",
+      "image": "HER071",
       "set": "Promos",
     },
     {
@@ -6958,7 +6949,7 @@ exports[`Check for unintentional updates Barbed Castaway (barbed-castaway) vs sn
     {
       "foiling": "Cold",
       "identifier": "LGS129",
-      "image": "card_Barbed_Castaway.width-10000",
+      "image": "LGS129",
       "set": "Promos",
     },
     {
@@ -6995,7 +6986,7 @@ exports[`Check for unintentional updates Barbed Castaway (barbed-castaway) vs sn
     "Azalea Blitz Deck",
     "Riptide Blitz Deck",
   ],
-  "specialImage": "card_Barbed_Castaway.width-10000",
+  "specialImage": "LGS129",
   "subtypes": [
     "Bow",
     "2H",
@@ -14095,14 +14086,14 @@ exports[`Check for unintentional updates Bloodrot Pox (bloodrot-pox) vs snapshot
     {
       "foiling": "Rainbow",
       "identifier": "FAB133",
-      "image": "",
+      "image": "FAB133",
       "set": "Promos",
       "treatment": "Extended Art",
     },
     {
       "foiling": "Cold",
       "identifier": "LGS125",
-      "image": "",
+      "image": "LGS125",
       "set": "Promos",
     },
     {
@@ -14154,7 +14145,7 @@ exports[`Check for unintentional updates Bloodrot Pox (bloodrot-pox) vs snapshot
     "Uzuri Blitz Deck",
     "Riptide Blitz Deck",
   ],
-  "specialImage": "OUT234.width-450",
+  "specialImage": "FAB133",
   "subtypes": [
     "Aura",
   ],
@@ -14649,7 +14640,7 @@ exports[`Check for unintentional updates Blossom of Spring (blossom-of-spring) v
     {
       "foiling": "Cold",
       "identifier": "LGS100",
-      "image": "",
+      "image": "LGS100",
       "set": "Promos",
       "treatment": "Extended Art",
     },
@@ -14694,7 +14685,7 @@ exports[`Check for unintentional updates Blossom of Spring (blossom-of-spring) v
     "Arakni Blitz Deck",
     "Katsu Blitz Deck",
   ],
-  "specialImage": "DVR004.width-450",
+  "specialImage": "LGS100",
   "subtypes": [
     "Chest",
   ],
@@ -18353,7 +18344,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
     },
     {
       "identifier": "XXX011",
-      "image": "",
+      "image": "XXX011",
       "set": "Promos",
     },
     {
@@ -18462,7 +18453,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
     },
     {
       "identifier": "XXX012",
-      "image": "",
+      "image": "XXX012",
       "set": "Promos",
     },
     {
@@ -27736,7 +27727,7 @@ Whenever an arrow is put face up into your arsenal from your deck, you may pay {
     {
       "foiling": "Cold",
       "identifier": "LGS133",
-      "image": "",
+      "image": "LGS133",
       "set": "Promos",
     },
     {
@@ -27766,7 +27757,7 @@ Whenever an arrow is put face up into your arsenal from your deck, you may pay {
     "Outsiders",
     "Azalea Blitz Deck",
   ],
-  "specialImage": "OUT097.width-450",
+  "specialImage": "LGS133",
   "specializations": [
     "Azalea",
   ],
@@ -28086,7 +28077,6 @@ exports[`Check for unintentional updates Crown of Seeds (crown-of-seeds) vs snap
   ],
   "rarity": "Legendary",
   "restrictedFormats": [
-    "Blitz",
     "Commoner",
   ],
   "setIdentifiers": [
@@ -28865,7 +28855,7 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
     {
       "foiling": "Rainbow",
       "identifier": "LGS115",
-      "image": "",
+      "image": "LGS115",
       "set": "Promos",
       "treatment": "Extended Art",
     },
@@ -28894,7 +28884,7 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
     "Promos",
     "Dynasty",
   ],
-  "specialImage": "DYN150",
+  "specialImage": "LGS115",
   "subtypes": [],
   "typeText": "Assassin Attack Reaction",
   "types": [
@@ -28924,7 +28914,7 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
     {
       "foiling": "Rainbow",
       "identifier": "LGS113",
-      "image": "dyn_card_Cut_to_the_Chase_p1.width-10000",
+      "image": "LGS113",
       "set": "Promos",
       "treatment": "Extended Art",
     },
@@ -28953,7 +28943,7 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
     "Promos",
     "Dynasty",
   ],
-  "specialImage": "dyn_card_Cut_to_the_Chase_p1.width-10000",
+  "specialImage": "LGS113",
   "subtypes": [],
   "typeText": "Assassin Attack Reaction",
   "types": [
@@ -28983,7 +28973,7 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
     {
       "foiling": "Rainbow",
       "identifier": "LGS114",
-      "image": "",
+      "image": "LGS114",
       "set": "Promos",
       "treatment": "Extended Art",
     },
@@ -29012,7 +29002,7 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
     "Promos",
     "Dynasty",
   ],
-  "specialImage": "DYN149",
+  "specialImage": "LGS114",
   "subtypes": [],
   "typeText": "Assassin Attack Reaction",
   "types": [
@@ -29264,7 +29254,7 @@ exports[`Check for unintentional updates Dash (dash) vs snapshot 1`] = `
     {
       "foiling": "Cold",
       "identifier": "HER070",
-      "image": "",
+      "image": "HER070",
       "set": "Promos",
     },
     {
@@ -30737,7 +30727,7 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     {
       "foiling": "Rainbow",
       "identifier": "FAB132",
-      "image": "",
+      "image": "FAB132",
       "set": "Promos",
       "treatment": "Extended Art",
     },
@@ -30776,7 +30766,7 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     "Outsiders",
     "Uzuri Blitz Deck",
   ],
-  "specialImage": "OUT162.width-450",
+  "specialImage": "FAB132",
   "subtypes": [
     "Attack",
   ],
@@ -34076,7 +34066,7 @@ exports[`Check for unintentional updates Driftwood Quiver (driftwood-quiver) vs 
     {
       "foiling": "Cold",
       "identifier": "LGS137",
-      "image": "",
+      "image": "LGS137",
       "set": "Promos",
     },
     {
@@ -34106,7 +34096,7 @@ exports[`Check for unintentional updates Driftwood Quiver (driftwood-quiver) vs 
     "Outsiders",
     "Riptide Blitz Deck",
   ],
-  "specialImage": "OUT098.width-450",
+  "specialImage": "LGS137",
   "specializations": [
     "Riptide",
   ],
@@ -34749,7 +34739,6 @@ exports[`Check for unintentional updates Drone of Brutality (drone-of-brutality-
   ],
   "rarity": "Rare",
   "restrictedFormats": [
-    "Blitz",
     "Classic Constructed",
     "Commoner",
   ],
@@ -34826,7 +34815,6 @@ exports[`Check for unintentional updates Drone of Brutality (drone-of-brutality-
   ],
   "rarity": "Rare",
   "restrictedFormats": [
-    "Blitz",
     "Classic Constructed",
     "Commoner",
   ],
@@ -34898,7 +34886,6 @@ exports[`Check for unintentional updates Drone of Brutality (drone-of-brutality-
   ],
   "rarity": "Rare",
   "restrictedFormats": [
-    "Blitz",
     "Classic Constructed",
     "Commoner",
   ],
@@ -45791,7 +45778,7 @@ exports[`Check for unintentional updates Flick Knives (flick-knives) vs snapshot
     {
       "foiling": "Gold",
       "identifier": "FAB124",
-      "image": "",
+      "image": "FAB124",
       "set": "Promos",
     },
     {
@@ -45823,7 +45810,7 @@ exports[`Check for unintentional updates Flick Knives (flick-knives) vs snapshot
     "Promos",
     "Outsiders",
   ],
-  "specialImage": "OUT139.width-450",
+  "specialImage": "FAB124",
   "subtypes": [
     "Arms",
   ],
@@ -47474,14 +47461,14 @@ At the beginning of your end phase destroy Frailty.",
     {
       "foiling": "Rainbow",
       "identifier": "FAB134",
-      "image": "",
+      "image": "FAB134",
       "set": "Promos",
       "treatment": "Extended Art",
     },
     {
       "foiling": "Cold",
       "identifier": "LGS126",
-      "image": "",
+      "image": "LGS126",
       "set": "Promos",
     },
     {
@@ -47533,7 +47520,7 @@ At the beginning of your end phase destroy Frailty.",
     "Uzuri Blitz Deck",
     "Riptide Blitz Deck",
   ],
-  "specialImage": "OUT235.width-450",
+  "specialImage": "FAB134",
   "subtypes": [
     "Aura",
   ],
@@ -54148,7 +54135,7 @@ exports[`Check for unintentional updates Hemorrhage Bore (hemorrhage-bore-blue) 
     {
       "foiling": "Rainbow",
       "identifier": "LGS121",
-      "image": "",
+      "image": "LGS121",
       "set": "Promos",
       "treatment": "Extended Art",
     },
@@ -54177,7 +54164,7 @@ exports[`Check for unintentional updates Hemorrhage Bore (hemorrhage-bore-blue) 
     "Promos",
     "Dynasty",
   ],
-  "specialImage": "DYN164",
+  "specialImage": "LGS121",
   "subtypes": [
     "Attack",
     "Arrow",
@@ -54277,7 +54264,7 @@ exports[`Check for unintentional updates Hemorrhage Bore (hemorrhage-bore-yellow
     {
       "foiling": "Rainbow",
       "identifier": "LGS120",
-      "image": "",
+      "image": "LGS120",
       "set": "Promos",
       "treatment": "Extended Art",
     },
@@ -54306,7 +54293,7 @@ exports[`Check for unintentional updates Hemorrhage Bore (hemorrhage-bore-yellow
     "Promos",
     "Dynasty",
   ],
-  "specialImage": "DYN163",
+  "specialImage": "LGS120",
   "subtypes": [
     "Attack",
     "Arrow",
@@ -58526,7 +58513,6 @@ At the beginning of your end phase, destroy Hypothermia.",
   ],
   "rarity": "Majestic",
   "restrictedFormats": [
-    "Blitz",
     "Classic Constructed",
     "Commoner",
   ],
@@ -60893,14 +60879,14 @@ exports[`Check for unintentional updates Inertia (inertia) vs snapshot 1`] = `
     {
       "foiling": "Rainbow",
       "identifier": "FAB135",
-      "image": "",
+      "image": "FAB135",
       "set": "Promos",
       "treatment": "Extended Art",
     },
     {
       "foiling": "Cold",
       "identifier": "LGS127",
-      "image": "",
+      "image": "LGS127",
       "set": "Promos",
     },
     {
@@ -60952,7 +60938,7 @@ exports[`Check for unintentional updates Inertia (inertia) vs snapshot 1`] = `
     "Uzuri Blitz Deck",
     "Riptide Blitz Deck",
   ],
-  "specialImage": "OUT236.width-450",
+  "specialImage": "FAB135",
   "subtypes": [
     "Aura",
   ],
@@ -65070,6 +65056,7 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
   ],
   "rarity": "Token",
   "restrictedFormats": [
+    "Blitz",
     "Classic Constructed",
   ],
   "setIdentifiers": [
@@ -65196,7 +65183,7 @@ Whenever this hits a hero and you don't control a Spellbane Aegis, create a Spel
     {
       "foiling": "Cold",
       "identifier": "FAB137",
-      "image": "",
+      "image": "FAB137",
       "set": "Promos",
     },
     {
@@ -65227,7 +65214,7 @@ Whenever this hits a hero and you don't control a Spellbane Aegis, create a Spel
     "Promos",
     "Dynasty",
   ],
-  "specialImage": "DYN067",
+  "specialImage": "FAB137",
   "subtypes": [
     "Sword",
     "2H",
@@ -66272,6 +66259,7 @@ exports[`Check for unintentional updates Kraken's Aethervein (krakens-aethervein
   ],
   "rarity": "Majestic",
   "restrictedFormats": [
+    "Blitz",
     "Commoner",
   ],
   "setIdentifiers": [
@@ -66371,6 +66359,13 @@ exports[`Check for unintentional updates Lace with Bloodrot (lace-with-bloodrot-
   "pitch": 1,
   "printings": [
     {
+      "foiling": "Rainbow",
+      "identifier": "LGS134",
+      "image": "LGS134",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
+    {
       "identifier": "OUT112",
       "image": "OUT112.width-450",
       "set": "Outsiders",
@@ -66383,6 +66378,7 @@ exports[`Check for unintentional updates Lace with Bloodrot (lace-with-bloodrot-
     },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
@@ -66390,12 +66386,14 @@ exports[`Check for unintentional updates Lace with Bloodrot (lace-with-bloodrot-
     "Commoner",
   ],
   "setIdentifiers": [
+    "LGS134",
     "OUT112",
   ],
   "sets": [
+    "Promos",
     "Outsiders",
   ],
-  "specialImage": "OUT112.width-450",
+  "specialImage": "LGS134",
   "subtypes": [
     "Non-Attack",
   ],
@@ -66428,6 +66426,13 @@ exports[`Check for unintentional updates Lace with Frailty (lace-with-frailty-re
   "pitch": 1,
   "printings": [
     {
+      "foiling": "Rainbow",
+      "identifier": "LGS135",
+      "image": "LGS135",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
+    {
       "identifier": "OUT113",
       "image": "OUT113.width-450",
       "set": "Outsiders",
@@ -66440,6 +66445,7 @@ exports[`Check for unintentional updates Lace with Frailty (lace-with-frailty-re
     },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
@@ -66447,12 +66453,14 @@ exports[`Check for unintentional updates Lace with Frailty (lace-with-frailty-re
     "Commoner",
   ],
   "setIdentifiers": [
+    "LGS135",
     "OUT113",
   ],
   "sets": [
+    "Promos",
     "Outsiders",
   ],
-  "specialImage": "OUT113.width-450",
+  "specialImage": "LGS135",
   "subtypes": [
     "Non-Attack",
   ],
@@ -66485,6 +66493,13 @@ exports[`Check for unintentional updates Lace with Inertia (lace-with-inertia-re
   "pitch": 1,
   "printings": [
     {
+      "foiling": "Rainbow",
+      "identifier": "LGS136",
+      "image": "LGS136",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
+    {
       "identifier": "OUT114",
       "image": "OUT114.width-450",
       "set": "Outsiders",
@@ -66497,6 +66512,7 @@ exports[`Check for unintentional updates Lace with Inertia (lace-with-inertia-re
     },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
@@ -66504,12 +66520,14 @@ exports[`Check for unintentional updates Lace with Inertia (lace-with-inertia-re
     "Commoner",
   ],
   "setIdentifiers": [
+    "LGS136",
     "OUT114",
   ],
   "sets": [
+    "Promos",
     "Outsiders",
   ],
-  "specialImage": "OUT114.width-450",
+  "specialImage": "LGS136",
   "subtypes": [
     "Non-Attack",
   ],
@@ -76942,6 +76960,7 @@ exports[`Check for unintentional updates Oldhim (oldhim) vs snapshot 1`] = `
   ],
   "rarity": "Token",
   "restrictedFormats": [
+    "Blitz",
     "Classic Constructed",
   ],
   "setIdentifiers": [
@@ -80467,7 +80486,7 @@ Create a Ponder token.",
     {
       "foiling": "Rainbow",
       "identifier": "FAB131",
-      "image": "",
+      "image": "FAB131",
       "set": "Promos",
     },
     {
@@ -80502,7 +80521,7 @@ Create a Ponder token.",
     "Outsiders",
     "Uzuri Blitz Deck",
   ],
-  "specialImage": "OUT231.width-450",
+  "specialImage": "FAB131",
   "subtypes": [],
   "typeText": "Generic Instant",
   "types": [
@@ -82236,7 +82255,7 @@ exports[`Check for unintentional updates Pitfall Trap (pitfall-trap-yellow) vs s
     "Ranger",
   ],
   "cost": 0,
-  "defaultImage": "CRU127",
+  "defaultImage": "LGS151.width-10000",
   "defense": 3,
   "functionalText": "Pitfall Trap can only be played from arsenal.
 
@@ -82300,7 +82319,7 @@ When this defends, deal 2 damage to the attacking hero unless they pay {r}.",
     "Crucible of War",
     "Promos",
   ],
-  "specialImage": "CRU127",
+  "specialImage": "LGS151.width-10000",
   "subtypes": [
     "Trap",
   ],
@@ -84153,7 +84172,7 @@ exports[`Check for unintentional updates Ponder (ponder) vs snapshot 1`] = `
     {
       "foiling": "Cold",
       "identifier": "LGS128",
-      "image": "",
+      "image": "LGS128",
       "set": "Promos",
     },
     {
@@ -84195,7 +84214,7 @@ exports[`Check for unintentional updates Ponder (ponder) vs snapshot 1`] = `
     "Outsiders",
     "Uzuri Blitz Deck",
   ],
-  "specialImage": "DYN244",
+  "specialImage": "LGS128",
   "subtypes": [
     "Aura",
   ],
@@ -86262,13 +86281,13 @@ exports[`Check for unintentional updates Prism, Sculptor of Arc Light (prism-scu
     {
       "foiling": "Cold",
       "identifier": "HER069",
-      "image": "",
+      "image": "HER069",
       "set": "Promos",
     },
     {
       "foiling": "Cold",
       "identifier": "HER069",
-      "image": "",
+      "image": "HER069_Back",
       "set": "Promos",
       "treatment": "Full Art",
     },
@@ -86312,7 +86331,7 @@ exports[`Check for unintentional updates Prism, Sculptor of Arc Light (prism-scu
     "Promos",
     "Monarch",
   ],
-  "specialImage": "MON001.width-450",
+  "specialImage": "HER069_Back",
   "subtypes": [],
   "talents": [
     "Light",
@@ -89546,7 +89565,7 @@ exports[`Check for unintentional updates Quiver of Abyssal Depths (quiver-of-aby
     {
       "foiling": "Gold",
       "identifier": "FAB126",
-      "image": "",
+      "image": "FAB126",
       "set": "Promos",
     },
     {
@@ -89578,7 +89597,7 @@ exports[`Check for unintentional updates Quiver of Abyssal Depths (quiver-of-aby
     "Promos",
     "Outsiders",
   ],
-  "specialImage": "OUT095.width-450",
+  "specialImage": "FAB126",
   "subtypes": [
     "Quiver",
   ],
@@ -92997,7 +93016,7 @@ exports[`Check for unintentional updates Redback Shroud (redback-shroud) vs snap
     {
       "foiling": "Gold",
       "identifier": "FAB123",
-      "image": "",
+      "image": "FAB123",
       "set": "Promos",
     },
     {
@@ -93575,6 +93594,7 @@ Regicide can't be defended by cards with the same name as cards in the defending
   "power": 3,
   "printings": [
     {
+      "foiling": "Rainbow",
       "identifier": "FAB122",
       "image": "FAB122",
       "set": "Promos",
@@ -97056,8 +97076,8 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.",
     },
     {
       "foiling": "Rainbow",
-      "identifier": "HER083",
-      "image": "",
+      "identifier": "HER081",
+      "image": "HER081",
       "set": "Promos",
     },
     {
@@ -97079,7 +97099,7 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.",
   "rarity": "Token",
   "setIdentifiers": [
     "HER080",
-    "HER083",
+    "HER081",
     "OUT092",
     "RIP001",
   ],
@@ -97088,7 +97108,7 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.",
     "Outsiders",
     "Riptide Blitz Deck",
   ],
-  "specialImage": "OUT092.width-450",
+  "specialImage": "HER081",
   "subtypes": [
     "Young",
   ],
@@ -97121,7 +97141,7 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.",
     {
       "foiling": "Cold",
       "identifier": "HER078",
-      "image": "",
+      "image": "HER078",
       "set": "Promos",
     },
     {
@@ -97150,7 +97170,7 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.",
     "Promos",
     "Outsiders",
   ],
-  "specialImage": "OUT091.width-450",
+  "specialImage": "HER078",
   "subtypes": [],
   "typeText": "Ranger Hero",
   "types": [
@@ -99090,7 +99110,7 @@ exports[`Check for unintentional updates Rockslide Trap (rockslide-trap-blue) vs
     "Ranger",
   ],
   "cost": 0,
-  "defaultImage": "CRU128",
+  "defaultImage": "LGS152.width-10000",
   "defense": 2,
   "functionalText": "Rockslide Trap can only be played from arsenal.
 
@@ -99148,7 +99168,7 @@ When this defends, target attack gets -2{p}, unless the attacking hero pays {r}.
     "Crucible of War",
     "Promos",
   ],
-  "specialImage": "CRU128-RF",
+  "specialImage": "LGS152.width-10000",
   "subtypes": [
     "Trap",
   ],
@@ -100426,7 +100446,7 @@ Your next sword attack this turn gains +2{p}.",
     {
       "foiling": "Rainbow",
       "identifier": "LGS102",
-      "image": "",
+      "image": "LGS102",
       "set": "Promos",
     },
     {
@@ -100451,7 +100471,7 @@ Your next sword attack this turn gains +2{p}.",
     "Promos",
     "Classic Battles: Rhinar vs Dorinthea",
   ],
-  "specialImage": "DVR013.width-450",
+  "specialImage": "LGS102",
   "subtypes": [],
   "typeText": "Warrior Attack Reaction",
   "types": [
@@ -117396,7 +117416,7 @@ exports[`Check for unintentional updates Spectral Shield (spectral-shield) vs sn
     "Everfest",
     "Dynasty",
   ],
-  "specialImage": "MON104.width-450",
+  "specialImage": "DYN233",
   "subtypes": [
     "Aura",
   ],
@@ -118509,7 +118529,7 @@ When this hits a hero, the next time they defend with 1 or more attack action ca
     {
       "foiling": "Cold",
       "identifier": "LGS111",
-      "image": "dyn_card_Spider_s_Bite.width-10000",
+      "image": "LGS111",
       "set": "Promos",
     },
     {
@@ -118578,7 +118598,7 @@ When this hits a hero, the next time they defend with 1 or more attack action ca
     "Arakni Blitz Deck",
     "Uzuri Blitz Deck",
   ],
-  "specialImage": "dyn_card_Spider_s_Bite.width-10000",
+  "specialImage": "LGS111",
   "subtypes": [
     "Dagger",
     "1H",
@@ -118670,7 +118690,7 @@ exports[`Check for unintentional updates Spike with Bloodrot (spike-with-bloodro
     {
       "foiling": "Rainbow",
       "identifier": "LGS130",
-      "image": "card_Spike_with_Bloodrot.width-10000",
+      "image": "LGS130",
       "set": "Promos",
       "treatment": "Extended Art",
     },
@@ -118709,7 +118729,7 @@ exports[`Check for unintentional updates Spike with Bloodrot (spike-with-bloodro
     "Outsiders",
     "Arakni Blitz Deck",
   ],
-  "specialImage": "card_Spike_with_Bloodrot.width-10000",
+  "specialImage": "LGS130",
   "subtypes": [],
   "typeText": "Assassin Attack Reaction",
   "types": [
@@ -118737,7 +118757,7 @@ exports[`Check for unintentional updates Spike with Frailty (spike-with-frailty-
     {
       "foiling": "Rainbow",
       "identifier": "LGS131",
-      "image": "card_Spike_with_Fratality.width-10000",
+      "image": "LGS131",
       "set": "Promos",
       "treatment": "Extended Art",
     },
@@ -118769,7 +118789,7 @@ exports[`Check for unintentional updates Spike with Frailty (spike-with-frailty-
     "Promos",
     "Outsiders",
   ],
-  "specialImage": "card_Spike_with_Fratality.width-10000",
+  "specialImage": "LGS131",
   "subtypes": [],
   "typeText": "Assassin Attack Reaction",
   "types": [
@@ -118797,7 +118817,7 @@ exports[`Check for unintentional updates Spike with Inertia (spike-with-inertia-
     {
       "foiling": "Rainbow",
       "identifier": "LGS132",
-      "image": "card_Spike_with_Inertia.width-10000",
+      "image": "LGS132",
       "set": "Promos",
       "treatment": "Extended Art",
     },
@@ -118829,7 +118849,7 @@ exports[`Check for unintentional updates Spike with Inertia (spike-with-inertia-
     "Promos",
     "Outsiders",
   ],
-  "specialImage": "card_Spike_with_Inertia.width-10000",
+  "specialImage": "LGS132",
   "subtypes": [],
   "typeText": "Assassin Attack Reaction",
   "types": [
@@ -119015,7 +119035,7 @@ exports[`Check for unintentional updates Spinning Wheel Kick (spinning-wheel-kic
     {
       "foiling": "Rainbow",
       "identifier": "LGS143",
-      "image": "",
+      "image": "LGS143",
       "set": "Promos",
       "treatment": "Extended Art",
     },
@@ -119047,7 +119067,7 @@ exports[`Check for unintentional updates Spinning Wheel Kick (spinning-wheel-kic
     "Promos",
     "Outsiders",
   ],
-  "specialImage": "OUT064.width-450",
+  "specialImage": "LGS143",
   "subtypes": [
     "Attack",
   ],
@@ -119084,7 +119104,7 @@ exports[`Check for unintentional updates Spinning Wheel Kick (spinning-wheel-kic
     {
       "foiling": "Rainbow",
       "identifier": "LGS141",
-      "image": "",
+      "image": "LGS141",
       "set": "Promos",
       "treatment": "Extended Art",
     },
@@ -119116,7 +119136,7 @@ exports[`Check for unintentional updates Spinning Wheel Kick (spinning-wheel-kic
     "Promos",
     "Outsiders",
   ],
-  "specialImage": "OUT062.width-450",
+  "specialImage": "LGS141",
   "subtypes": [
     "Attack",
   ],
@@ -119153,7 +119173,7 @@ exports[`Check for unintentional updates Spinning Wheel Kick (spinning-wheel-kic
     {
       "foiling": "Rainbow",
       "identifier": "LGS142",
-      "image": "",
+      "image": "LGS142",
       "set": "Promos",
       "treatment": "Extended Art",
     },
@@ -119185,7 +119205,7 @@ exports[`Check for unintentional updates Spinning Wheel Kick (spinning-wheel-kic
     "Promos",
     "Outsiders",
   ],
-  "specialImage": "OUT063.width-450",
+  "specialImage": "LGS142",
   "subtypes": [
     "Attack",
   ],
@@ -130871,7 +130891,7 @@ exports[`Check for unintentional updates Toxicity (toxicity-blue) vs snapshot 1`
     {
       "foiling": "Rainbow",
       "identifier": "FAB130",
-      "image": "",
+      "image": "FAB130",
       "set": "Promos",
       "treatment": "Extended Art",
     },
@@ -130910,7 +130930,7 @@ exports[`Check for unintentional updates Toxicity (toxicity-blue) vs snapshot 1`
     "Outsiders",
     "Azalea Blitz Deck",
   ],
-  "specialImage": "OUT167.width-450",
+  "specialImage": "FAB130",
   "subtypes": [
     "Non-Attack",
   ],
@@ -130946,7 +130966,7 @@ exports[`Check for unintentional updates Toxicity (toxicity-red) vs snapshot 1`]
     {
       "foiling": "Rainbow",
       "identifier": "FAB128",
-      "image": "",
+      "image": "FAB128",
       "set": "Promos",
       "treatment": "Extended Art",
     },
@@ -130978,7 +130998,7 @@ exports[`Check for unintentional updates Toxicity (toxicity-red) vs snapshot 1`]
     "Promos",
     "Outsiders",
   ],
-  "specialImage": "OUT165.width-450",
+  "specialImage": "FAB128",
   "subtypes": [
     "Non-Attack",
   ],
@@ -131014,7 +131034,7 @@ exports[`Check for unintentional updates Toxicity (toxicity-yellow) vs snapshot 
     {
       "foiling": "Rainbow",
       "identifier": "FAB129",
-      "image": "",
+      "image": "FAB129",
       "set": "Promos",
       "treatment": "Extended Art",
     },
@@ -131046,7 +131066,7 @@ exports[`Check for unintentional updates Toxicity (toxicity-yellow) vs snapshot 
     "Promos",
     "Outsiders",
   ],
-  "specialImage": "OUT166.width-450",
+  "specialImage": "FAB129",
   "subtypes": [
     "Non-Attack",
   ],
@@ -131803,7 +131823,7 @@ exports[`Check for unintentional updates Trench of Sunken Treasure (trench-of-su
     {
       "foiling": "Gold",
       "identifier": "FAB125",
-      "image": "",
+      "image": "FAB125",
       "set": "Promos",
     },
     {
@@ -131922,7 +131942,7 @@ exports[`Check for unintentional updates Tripwire Trap (tripwire-trap-red) vs sn
     "Ranger",
   ],
   "cost": 0,
-  "defaultImage": "CRU126",
+  "defaultImage": "LGS150.width-10000",
   "defense": 4,
   "functionalText": "Tripwire Trap can only be played from arsenal.
 
@@ -131980,7 +132000,7 @@ When this defends, effects don't trigger when an attack hits this chain link unl
     "Crucible of War",
     "Promos",
   ],
-  "specialImage": "CRU126-RF",
+  "specialImage": "LGS150.width-10000",
   "subtypes": [
     "Trap",
   ],
@@ -133588,13 +133608,13 @@ exports[`Check for unintentional updates Uzuri (uzuri) vs snapshot 1`] = `
     {
       "foiling": "Cold",
       "identifier": "HER076",
-      "image": "",
+      "image": "HER076",
       "set": "Promos",
     },
     {
       "foiling": "Rainbow",
-      "identifier": "HER082",
-      "image": "",
+      "identifier": "HER083",
+      "image": "HER083",
       "set": "Promos",
     },
     {
@@ -133616,7 +133636,7 @@ exports[`Check for unintentional updates Uzuri (uzuri) vs snapshot 1`] = `
   "rarity": "Token",
   "setIdentifiers": [
     "HER076",
-    "HER082",
+    "HER083",
     "OUT002",
     "UZU001",
   ],
@@ -133625,7 +133645,7 @@ exports[`Check for unintentional updates Uzuri (uzuri) vs snapshot 1`] = `
     "Outsiders",
     "Uzuri Blitz Deck",
   ],
-  "specialImage": "OUT002.width-450",
+  "specialImage": "HER076",
   "subtypes": [
     "Young",
   ],
@@ -133656,7 +133676,7 @@ exports[`Check for unintentional updates Uzuri, Switchblade (uzuri-switchblade) 
     {
       "foiling": "Cold",
       "identifier": "HER077",
-      "image": "",
+      "image": "HER077",
       "set": "Promos",
     },
     {
@@ -133688,7 +133708,7 @@ exports[`Check for unintentional updates Uzuri, Switchblade (uzuri-switchblade) 
     "Promos",
     "Outsiders",
   ],
-  "specialImage": "OUT001.width-450",
+  "specialImage": "HER077",
   "subtypes": [],
   "typeText": "Assassin Hero",
   "types": [
@@ -134165,7 +134185,7 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
     {
       "foiling": "Gold",
       "identifier": "FAB127",
-      "image": "",
+      "image": "FAB127",
       "set": "Promos",
     },
     {
@@ -134197,7 +134217,7 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
     "Promos",
     "Outsiders",
   ],
-  "specialImage": "OUT174.width-450",
+  "specialImage": "FAB127",
   "subtypes": [
     "Arms",
   ],
@@ -140174,6 +140194,7 @@ If an Ice card is pitched this way, Winter's Wail gains "If this hits a hero, cr
   ],
   "rarity": "Majestic",
   "restrictedFormats": [
+    "Blitz",
     "Classic Constructed",
     "Commoner",
   ],
@@ -141602,7 +141623,7 @@ exports[`Check for unintentional updates Wrecking Ball (wrecking-ball-red) vs sn
     {
       "foiling": "Rainbow",
       "identifier": "LGS101",
-      "image": "",
+      "image": "LGS101",
       "set": "Promos",
     },
     {
@@ -141627,7 +141648,7 @@ exports[`Check for unintentional updates Wrecking Ball (wrecking-ball-red) vs sn
     "Promos",
     "Classic Battles: Rhinar vs Dorinthea",
   ],
-  "specialImage": "RVD013.width-450",
+  "specialImage": "LGS101",
   "subtypes": [
     "Attack",
   ],

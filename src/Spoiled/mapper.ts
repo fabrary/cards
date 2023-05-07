@@ -1,9 +1,7 @@
 import {
   addOppositeSideCardIdentifiers,
-  fullSetIdentifiers,
   getDefaultImage,
   getNumberOrUndefined,
-  getPrint,
   getSpecialImage,
   getStringIfNotNumber,
 } from "../Shared";
@@ -24,6 +22,7 @@ import {
   Treatment,
   Type,
 } from "../Shared/interfaces";
+import { setIdentifierToSetMappings } from "../Shared/sets";
 import { ParsedCard } from "./parser";
 
 const getClasses = (card: ParsedCard): Class[] => {
@@ -111,7 +110,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
   for (const unparsedImage of unparsedImages) {
     const [url, identifier, rawEdition, rawFoiling, rawTreatment] =
       unparsedImage.split(" - ");
-    const setAbbreviation = identifier.slice(0, 3);
+    const setAbbreviation = identifier.slice(0, 3).toLowerCase();
     const set = setIdentifierToSetMappings[setAbbreviation];
     const edition = setEditionMapping[rawEdition];
     const foiling = Foiling[rawFoiling];
@@ -268,39 +267,9 @@ const todayIsAfterDate = (date: string): boolean => {
   }
 };
 
-const setIdentifierToSetMappings = {
-  ...fullSetIdentifiers,
-
-  // Starter/blitz decks
-  BOL: Release.BoltynBlitzDeck,
-  BRI: Release.BriarBlitzDeck,
-  BVO: Release.BravoBlitzDeck,
-  CHN: Release.ChaneBlitzDeck,
-  DRO: Release.DromaiBlitzDeck,
-  FAI: Release.FaiBlitzDeck,
-  IRA: Release.IraWelcomeDeck,
-  KSU: Release.KatsuHeroDeck,
-  LEV: Release.LeviaBlitzDeck,
-  LXI: Release.LexiBlitzDeck,
-  OLD: Release.OldhimBlitzDeck,
-  PSM: Release.PrismBlitzDeck,
-  RNR: Release.RhinarHeroDeck,
-  TEA: Release.DorintheaHeroDeck,
-  DVR: Release.ClassicBattlesRhinarDorinthea,
-  RVD: Release.ClassicBattlesRhinarDorinthea,
-
-  // Promos
-  FAB: Release.Promos,
-  HER: Release.Promos,
-  JDG: Release.Promos,
-  LGS: Release.Promos,
-  LSS: Release.Promos,
-  OXO: Release.Promos,
-  XXX: Release.Promos,
-};
 const getSets = (card: ParsedCard): Release[] =>
   card.setIdentifiers
-    .map((set) => setIdentifierToSetMappings[set])
+    .map((set) => setIdentifierToSetMappings[set.toLowerCase()])
     .filter((set) => set);
 
 const getSpecializations = (card: ParsedCard): Hero[] => {
@@ -385,14 +354,14 @@ const getCardData = (card: ParsedCard): Card => {
     artists: card.artists,
     cardIdentifier: getIdentifier(card),
     classes: getClasses(card),
-    defaultImage: getDefaultImage(printings),
+    defaultImage: getDefaultImage(card.name, printings),
     printings: getPrintings(card),
     name: card.name,
     rarities: getRarities(card),
     rarity: getRarity(card) as Rarity,
     setIdentifiers: card.identifiers,
     sets: getSets(card),
-    specialImage: getSpecialImage(printings),
+    specialImage: getSpecialImage(card.name, printings),
     subtypes,
     types,
     typeText: card.typeText,

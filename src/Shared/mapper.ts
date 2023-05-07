@@ -6,6 +6,7 @@ import {
   Subtype,
   Treatment,
 } from "./interfaces";
+import { fullSetIdentifiers } from "./sets";
 
 export const getNumberOrUndefined = (value?: string): number | undefined => {
   if (value) {
@@ -45,148 +46,197 @@ export const addOppositeSideCardIdentifiers = (cards: Card[]) => {
   });
 };
 
-export const fullSetIdentifiers = {
-  WTR: Release.WelcomeToRathe,
-  ARC: Release.ArcaneRising,
-  CRU: Release.CrucibleOfWar,
-  MON: Release.Monarch,
-  ELE: Release.TalesOfAria,
-  EVR: Release.Everfest,
-  "1HP": Release.HistoryPack1,
-  UPR: Release.Uprising,
-  DYN: Release.Dynasty,
-  OUT: Release.Outsiders,
-  DTD: Release.DuskTillDawn,
+const orderedFullSetBlackBorderIdentifiers = Object.keys(fullSetIdentifiers)
+  .filter((set) => set !== "1hp")
+  .reverse()
+  .map((set) => set.toUpperCase());
+
+const defaultImagePrintingOverrides: {
+  [key: string]: { setIdentifier: string };
+} = {
+  "Pitfall Trap": {
+    setIdentifier: "LGS151",
+  },
+  "Rockslide Trap": {
+    setIdentifier: "LGS152",
+  },
+  "Spectral Shield": {
+    setIdentifier: "DYN233",
+  },
+  "Tripwire Trap": {
+    setIdentifier: "LGS150",
+  },
 };
 
-const orderedFullSetBlackBorderIdentifiers = Object.keys(fullSetIdentifiers)
-  .filter((set) => set !== "1HP")
-  .reverse();
+export const getDefaultImage = (
+  cardName: string,
+  printings: Printing[]
+): string => {
+  const matchingOverride = Object.entries(defaultImagePrintingOverrides).find(
+    ([name]) => cardName === name
+  );
+  if (matchingOverride) {
+    const [_, { setIdentifier }] = matchingOverride;
+    const matchingPrint = printings.find(
+      ({ identifier }) => identifier === setIdentifier
+    );
+    return matchingPrint?.image || "";
+  } else {
+    const reversedPrintings = [...printings];
 
-export const getDefaultImage = (printings: Printing[]): string => {
-  const reversedPrintings = [...printings];
-
-  let newestBlackBorderStandard;
-  let newestBlackBorder;
-  for (const set of orderedFullSetBlackBorderIdentifiers) {
-    const matchingPrinting = printings.find((printing) => {
-      const setIdentifier = printing.identifier.slice(0, 3);
-      return set === setIdentifier;
-    });
-    if (matchingPrinting) {
-      if (
-        !newestBlackBorderStandard &&
-        !matchingPrinting.foiling &&
-        !matchingPrinting.treatment &&
-        !!matchingPrinting.image
-      ) {
-        newestBlackBorderStandard = matchingPrinting;
-      }
-      if (!newestBlackBorder && !!matchingPrinting.image) {
-        newestBlackBorder = matchingPrinting;
+    let newestBlackBorderStandard;
+    let newestBlackBorder;
+    for (const set of orderedFullSetBlackBorderIdentifiers) {
+      const matchingPrinting = printings.find((printing) => {
+        const setIdentifier = printing.identifier.slice(0, 3);
+        return set === setIdentifier;
+      });
+      if (matchingPrinting) {
+        if (
+          !newestBlackBorderStandard &&
+          !matchingPrinting.foiling &&
+          !matchingPrinting.treatment &&
+          !!matchingPrinting.image
+        ) {
+          newestBlackBorderStandard = matchingPrinting;
+        }
+        if (!newestBlackBorder && !!matchingPrinting.image) {
+          newestBlackBorder = matchingPrinting;
+        }
       }
     }
-  }
 
-  const firstEdition = reversedPrintings.find(
-    (printing) => printing.edition === ReleaseEdition.First
-  );
-  const alphaEdition = reversedPrintings.find(
-    (printing) => printing.edition === ReleaseEdition.Alpha
-  );
-  const unlimitedEdition = reversedPrintings.find(
-    (printing) => printing.edition === ReleaseEdition.Unlimited
-  );
-  const nonPromoEdition = reversedPrintings.find(
-    (printing) => printing.set !== Release.Promos
-  );
-  const standardBlackBorder = reversedPrintings.find((printing) => {
-    const setIdentifier = printing.identifier.slice(0, 3);
-    const isFullSet = !!fullSetIdentifiers[setIdentifier];
-    const isBlackBorder = setIdentifier !== "1HP";
-    return (
-      !printing.foiling &&
-      !printing.treatment &&
-      !!printing.image &&
-      isFullSet &&
-      isBlackBorder
+    const firstEdition = reversedPrintings.find(
+      (printing) => printing.edition === ReleaseEdition.First
     );
-  });
-
-  const blackBorder = reversedPrintings.find((printing) => {
-    const setIdentifier = printing.identifier.slice(0, 3);
-    const isFullSet = !!fullSetIdentifiers[setIdentifier];
-    const isBlackBorder = setIdentifier !== "1HP";
-    return (
-      !printing.treatment && !!printing.image && isFullSet && isBlackBorder
+    const alphaEdition = reversedPrintings.find(
+      (printing) => printing.edition === ReleaseEdition.Alpha
     );
-  });
+    const unlimitedEdition = reversedPrintings.find(
+      (printing) => printing.edition === ReleaseEdition.Unlimited
+    );
+    const nonPromoEdition = reversedPrintings.find(
+      (printing) => printing.set !== Release.Promos
+    );
+    const standardBlackBorder = reversedPrintings.find((printing) => {
+      const setIdentifier = printing.identifier.slice(0, 3);
+      const isFullSet = !!fullSetIdentifiers[setIdentifier];
+      const isBlackBorder = setIdentifier !== "1HP";
+      return (
+        !printing.foiling &&
+        !printing.treatment &&
+        !!printing.image &&
+        isFullSet &&
+        isBlackBorder
+      );
+    });
 
-  const image =
-    reversedPrintings.length > 0
-      ? newestBlackBorderStandard?.image ||
-        newestBlackBorder?.image ||
-        standardBlackBorder?.image ||
-        blackBorder?.image ||
-        nonPromoEdition?.image ||
-        unlimitedEdition?.image ||
-        firstEdition?.image ||
-        alphaEdition?.image ||
-        reversedPrintings.reverse().find(({ image }) => !!image)?.image ||
-        ""
-      : "";
-  if (!image) {
-    // console.log(`Missing images for ${card.name}`);
+    const blackBorder = reversedPrintings.find((printing) => {
+      const setIdentifier = printing.identifier.slice(0, 3);
+      const isFullSet = !!fullSetIdentifiers[setIdentifier];
+      const isBlackBorder = setIdentifier !== "1HP";
+      return (
+        !printing.treatment && !!printing.image && isFullSet && isBlackBorder
+      );
+    });
+
+    const image =
+      reversedPrintings.length > 0
+        ? newestBlackBorderStandard?.image ||
+          newestBlackBorder?.image ||
+          standardBlackBorder?.image ||
+          blackBorder?.image ||
+          nonPromoEdition?.image ||
+          unlimitedEdition?.image ||
+          firstEdition?.image ||
+          alphaEdition?.image ||
+          reversedPrintings.reverse().find(({ image }) => !!image)?.image ||
+          ""
+        : "";
+    if (!image) {
+      console.log(`Missing images for ${cardName}`);
+    }
+    return image;
   }
-  return image;
 };
 
-export const getSpecialImage = (printings: Printing[]): string => {
-  const alternativeArt = printings.find(
-    (printing) => printing.treatment === Treatment.AA
+const specialImagePrintingOverrides: {
+  [key: string]: { setIdentifier: string };
+} = {
+  "Pitfall Trap": {
+    setIdentifier: "LGS151",
+  },
+  "Rockslide Trap": {
+    setIdentifier: "LGS152",
+  },
+  "Spectral Shield": {
+    setIdentifier: "DYN233",
+  },
+  "Tripwire Trap": {
+    setIdentifier: "LGS150",
+  },
+};
+
+export const getSpecialImage = (
+  cardName: string,
+  printings: Printing[]
+): string => {
+  const matchingOverride = Object.entries(defaultImagePrintingOverrides).find(
+    ([name]) => cardName === name
   );
-  const fullArt = printings.find(
-    (printing) => printing.treatment === Treatment.FA
-  );
-  const extendedArt = printings.find(
-    (printing) => printing.treatment === Treatment.EA
-  );
-  const alternateBorder = printings.find(
-    (printing) => printing.treatment === Treatment.AB
-  );
-  const alternateText = printings.find(
-    (printing) => printing.treatment === Treatment.AT
-  );
-  const doubleSided = printings.find(
-    (printing) => printing.treatment === Treatment.DS
-  );
-  const firstEdition = printings.find(
-    (printing) => printing.edition === ReleaseEdition.First
-  );
-  const alphaEdition = printings.find(
-    (printing) => printing.edition === ReleaseEdition.Alpha
-  );
-  const unlimitedEdition = printings.find(
-    (printing) => printing.edition === ReleaseEdition.Unlimited
-  );
-  let image =
-    printings.length > 0
-      ? fullArt?.image ||
-        extendedArt?.image ||
-        alternateBorder?.image ||
-        doubleSided?.image ||
-        alternativeArt?.image ||
-        alternateText?.image ||
-        firstEdition?.image ||
-        alphaEdition?.image ||
-        unlimitedEdition?.image ||
-        printings.find(({ image }) => !!image)?.image ||
-        ""
-      : "";
-  if (!image) {
-    // console.log(`Missing images for ${card.name}`);
+  if (matchingOverride) {
+    const [_, { setIdentifier }] = matchingOverride;
+    const matchingPrint = printings.find(
+      ({ identifier }) => identifier === setIdentifier
+    );
+    return matchingPrint?.image || "";
+  } else {
+    const alternativeArt = printings.find(
+      (printing) => printing.treatment === Treatment.AA
+    );
+    const fullArt = printings.find(
+      (printing) => printing.treatment === Treatment.FA
+    );
+    const extendedArt = printings.find(
+      (printing) => printing.treatment === Treatment.EA
+    );
+    const alternateBorder = printings.find(
+      (printing) => printing.treatment === Treatment.AB
+    );
+    const alternateText = printings.find(
+      (printing) => printing.treatment === Treatment.AT
+    );
+    const doubleSided = printings.find(
+      (printing) => printing.treatment === Treatment.DS
+    );
+    const firstEdition = printings.find(
+      (printing) => printing.edition === ReleaseEdition.First
+    );
+    const alphaEdition = printings.find(
+      (printing) => printing.edition === ReleaseEdition.Alpha
+    );
+    const unlimitedEdition = printings.find(
+      (printing) => printing.edition === ReleaseEdition.Unlimited
+    );
+    let image =
+      printings.length > 0
+        ? fullArt?.image ||
+          extendedArt?.image ||
+          alternateBorder?.image ||
+          doubleSided?.image ||
+          alternativeArt?.image ||
+          alternateText?.image ||
+          firstEdition?.image ||
+          alphaEdition?.image ||
+          unlimitedEdition?.image ||
+          printings.find(({ image }) => !!image)?.image ||
+          ""
+        : "";
+    if (!image) {
+      console.log(`Missing images for ${cardName}`);
+    }
+    return image;
   }
-  return image;
 };
 
 export const getPrint = (printing: {
