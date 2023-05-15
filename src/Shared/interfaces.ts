@@ -40,7 +40,6 @@ export interface Printing {
   foiling?: Foiling;
   identifier: string;
   image: string;
-  // print: string;
   set: Release;
   treatment?: Treatment;
 }

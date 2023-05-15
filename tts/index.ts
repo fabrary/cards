@@ -1,4 +1,4 @@
-import { existsSync, mkdirSync, writeFileSync } from "fs";
+import { writeFileSync } from "fs";
 import { cards } from "../dist/index";
 
 const generateTTSCardNameAndDescriptions = () => {

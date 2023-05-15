@@ -12,7 +12,8 @@
     "test": "jest",
     "new": "ts-node tests/new-cards.ts",
     "tts": "ts-node tts/index.ts",
-    "full": "npm run transform && npm run build && npm test && npm run new && npm run tts"
+    "sitemap": "ts-node sitemap/index.ts",
+    "full": "npm run transform && npm run build && npm test && npm run new && npm run tts && npm run sitemap"
   },
   "devDependencies": {
     "@types/jest": "^29.5.1",
