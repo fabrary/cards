@@ -269,6 +269,170 @@ Whenever an opponent plays or activates their first card or ability each turn, i
     talents: [Talent.Shadow],
     young: true
   },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "flail-of-agony",
+    classes: [Class.Runeblade],
+    defaultImage: "LGS156",
+    name: "Flail of Agony",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "LGS156",
+      image: "LGS156",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS156"],
+    sets: [Release.Promos],
+    specialImage: "LGS156",
+    subtypes: [Subtype.Flail,Subtype.OneHanded],
+    types: [Type.Weapon],
+    typeText: "Shadow Runeblade Weapon – Flail (1H)",
+
+    
+    
+    functionalText: `**Vynnset Specialization**  **Once per Turn Action** - {h}: **Attack**  When this hits, create a Runechant token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Specialization],
+    
+    
+    
+    power: 1,
+    
+    
+    
+    
+    specializations: [Hero.Vynnset],
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "vantom-banshee-red",
+    classes: [Class.Runeblade],
+    defaultImage: "LGS157",
+    name: "Vantom Banshee",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS157",
+      image: "LGS157",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS157"],
+    sets: [Release.Promos],
+    specialImage: "LGS157",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Rune Gate**  **Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.RuneGate,Keyword.BloodDebt],
+    
+    
+    pitch: 1,
+    power: 7,
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "vantom-banshee-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "LGS158",
+    name: "Vantom Banshee",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS158",
+      image: "LGS158",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS158"],
+    sets: [Release.Promos],
+    specialImage: "LGS158",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Rune Gate**  **Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.RuneGate,Keyword.BloodDebt],
+    
+    
+    pitch: 2,
+    power: 6,
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "vantom-banshee-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "LGS159",
+    name: "Vantom Banshee",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS159",
+      image: "LGS159",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS159"],
+    sets: [Release.Promos],
+    specialImage: "LGS159",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Rune Gate**  **Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.RuneGate,Keyword.BloodDebt],
+    
+    
+    pitch: 3,
+    power: 5,
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "bellona-archangel-of-war",
     classes: [Class.NotClassed],
@@ -34992,7 +35156,8 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Kevin Sidharta"],
     cardIdentifier: "flying-kick-red",
     classes: [Class.Ninja],
@@ -35175,8 +35340,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Cristián Huerta"],
     cardIdentifier: "soulbead-strike-red",
     classes: [Class.Ninja],
@@ -68356,7 +68520,8 @@ If Inspire Lightning was **fused**, deal 3 arcane damage to target hero.`,
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Jen Santos"],
     cardIdentifier: "inspire-lightning-yellow",
     classes: [Class.Runeblade],
@@ -68478,8 +68643,7 @@ If Inspire Lightning was **fused**, deal 1 arcane damage to target hero.`,
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "fulminate-yellow",
     classes: [Class.NotClassed],
@@ -96487,7 +96651,8 @@ If Cold Snap is played from arsenal, draw a card.
     
     talents: [Talent.Ice],
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "cold-snap-blue",
     classes: [Class.NotClassed],
@@ -96538,8 +96703,7 @@ If Cold Snap is played from arsenal, draw a card.
     
     talents: [Talent.Ice],
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "ghostly-touch",
     classes: [Class.Illusionist],
