@@ -44025,6 +44025,59 @@ exports[`Check for unintentional updates Fisticuffs (fisticuffs) vs snapshot 1`]
 }
 `;
 
+exports[`Check for unintentional updates Flail of Agony (flail-of-agony) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tomasz Jedruszek",
+  ],
+  "cardIdentifier": "flail-of-agony",
+  "classes": [
+    "Runeblade",
+  ],
+  "defaultImage": "LGS156",
+  "functionalText": "**Vynnset Specialization**  **Once per Turn Action** - {h}: **Attack**  When this hits, create a Runechant token.",
+  "keywords": [
+    "Specialization",
+  ],
+  "name": "Flail of Agony",
+  "power": 1,
+  "printings": [
+    {
+      "foiling": "Cold",
+      "identifier": "LGS156",
+      "image": "LGS156",
+      "set": "Promos",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "LGS156",
+  ],
+  "sets": [
+    "Promos",
+    "Dusk till Dawn",
+  ],
+  "specialImage": "LGS156",
+  "specializations": [
+    "Vynnset",
+  ],
+  "subtypes": [
+    "Flail",
+    "1H",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Weapon – Flail (1H)",
+  "types": [
+    "Weapon",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Flake Out (flake-out-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -134224,6 +134277,168 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
   "typeText": "Generic Equipment - Arms",
   "types": [
     "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Vantom Banshee (vantom-banshee-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Muhammad Fajri",
+  ],
+  "cardIdentifier": "vantom-banshee-blue",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 3,
+  "defaultImage": "LGS159",
+  "defense": 3,
+  "functionalText": "**Rune Gate**  **Blood Debt**",
+  "keywords": [
+    "Rune Gate",
+    "Blood Debt",
+  ],
+  "name": "Vantom Banshee",
+  "pitch": 3,
+  "power": 5,
+  "printings": [
+    {
+      "foiling": "Rainbow",
+      "identifier": "LGS159",
+      "image": "LGS159",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "LGS159",
+  ],
+  "sets": [
+    "Promos",
+    "Dusk till Dawn",
+  ],
+  "specialImage": "LGS159",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Vantom Banshee (vantom-banshee-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Muhammad Fajri",
+  ],
+  "cardIdentifier": "vantom-banshee-red",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 3,
+  "defaultImage": "LGS157",
+  "defense": 3,
+  "functionalText": "**Rune Gate**  **Blood Debt**",
+  "keywords": [
+    "Rune Gate",
+    "Blood Debt",
+  ],
+  "name": "Vantom Banshee",
+  "pitch": 1,
+  "power": 7,
+  "printings": [
+    {
+      "foiling": "Rainbow",
+      "identifier": "LGS157",
+      "image": "LGS157",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "LGS157",
+  ],
+  "sets": [
+    "Promos",
+    "Dusk till Dawn",
+  ],
+  "specialImage": "LGS157",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Vantom Banshee (vantom-banshee-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Muhammad Fajri",
+  ],
+  "cardIdentifier": "vantom-banshee-yellow",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 3,
+  "defaultImage": "LGS158",
+  "defense": 3,
+  "functionalText": "**Rune Gate**  **Blood Debt**",
+  "keywords": [
+    "Rune Gate",
+    "Blood Debt",
+  ],
+  "name": "Vantom Banshee",
+  "pitch": 2,
+  "power": 6,
+  "printings": [
+    {
+      "foiling": "Rainbow",
+      "identifier": "LGS158",
+      "image": "LGS158",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "LGS158",
+  ],
+  "sets": [
+    "Promos",
+    "Dusk till Dawn",
+  ],
+  "specialImage": "LGS158",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action - Attack",
+  "types": [
+    "Action",
   ],
 }
 `;
