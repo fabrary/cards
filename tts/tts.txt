@@ -1924,6 +1924,7 @@ OSCCardDB = {
   ["FAB135"] = { name = "Inertia", text = "At the beginning of your end phase, destroy Inertia, then put all cards from your hand and arsenal on the bottom of your deck.", keywords = "", types = "Token"},
   ["FAB136"] = { name = "Sigil of Solace (1)", text = "Gain 3{h}", keywords = "", types = "Instant"},
   ["FAB137"] = { name = "Jubeel, Spellbane", text = "**Once per Turn Action** – {r}: **Attack**\n\nWhenever this hits a hero and you don't control a Spellbane Aegis, create a Spellbane Aegis token.", keywords = "", types = "Weapon"},
+  ["FAB166"] = { name = "Luminaris, Celestial Fury", text = "**Once per Turn Instant - {r}{r}:** Target angel attack or attack action card with Herald in its name gets **go again**.", keywords = "Go again", types = "Weapon"},
   ["FAI001"] = { name = "Fai", text = "You may start the game with a Phoenix Flame in your graveyard.\n\n**Once per Turn Instant** - {r}{r}{r}: Return a Phoenix Flame from your graveyard to your hand. This ability costs {r} less for each Draconic chain link you control.", keywords = "", types = "Hero"},
   ["FAI002"] = { name = "Searing Emberblade", text = "**Once per Turn Action** - {r}{r}: **Attack**\n\nIf you control 2 or more Draconic chain links, Searing Emberblade has **go again**.", keywords = "Go again", types = "Weapon"},
   ["FAI003"] = { name = "Hope Merchant's Hood", text = "**Instant** - Destroy Hope Merchant's Hood: Shuffle any number of cards from your hand into your deck, then draw that many cards.", keywords = "", types = "Equipment"},
