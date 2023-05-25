@@ -433,6 +433,47 @@ Whenever an opponent plays or activates their first card or ability each turn, i
     talents: [Talent.Shadow],
     
   },{
+    artists: ["Othon Nikolaidis"],
+    cardIdentifier: "eloquence",
+    classes: [Class.Generic],
+    defaultImage: "FAB154",
+    name: "Eloquence",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "FAB154",
+      image: "FAB154",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["FAB154"],
+    sets: [Release.Promos,Release.DuskTillDawn],
+    specialImage: "FAB154",
+    subtypes: [Subtype.Aura],
+    types: [Type.Token],
+    typeText: "Generic Token - Aura",
+
+    
+    
+    functionalText: `When you play a non-attack action card, destroy this and the card gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Jessketchin"],
     cardIdentifier: "luminaris-celestial-fury",
     classes: [Class.Illusionist],
@@ -523,6 +564,96 @@ When Bellona attacks, you may banish a card from your hero’s soul. If you do, 
     
     
     talents: [Talent.Light],
+    
+  },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "chorus-of-ironsong-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "DTD208",
+    name: "Chorus of Ironsong",
+    printings: [{
+      
+      identifier: "DTD208",
+      image: "DTD208",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD208"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD208",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Warrior Attack Reaction",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Dorinthea Specialization**
+
+Until end of turn, target Dawnblade gets +1{p} and "Damage this would deal can't be prevented."
+
+**Unity** - When this defends together with a card from hand, create a Courage token under any number of heroes' control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Unity,Keyword.Specialization],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    specializations: [Hero.Dorinthea],
+    
+    
+  },{
+    artists: ["Andy Aslamov"],
+    cardIdentifier: "alluring-inducement-yellow",
+    classes: [Class.Shapeshifter],
+    defaultImage: "DTD215",
+    name: "Alluring Inducement",
+    printings: [{
+      
+      identifier: "DTD215",
+      image: "DTD215",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD215"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD215",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shapeshifter Action - Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `**Shiyana Specialization**
+
+When this attacks, the defending hero reveals their hand. You may choose an attack action card revealed this way. If you do, this becomes the chosen card.
+
+**Unity** - When this defends together with a card from hand, create an Eloquence token under any number of heroes' control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Specialization,Keyword.Unity],
+    
+    
+    pitch: 2,
+    power: 2,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    specializations: [Hero.Shiyana],
+    
     
   },{
     artists: ["Sam Yang"],
@@ -35002,7 +35133,8 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Arif Wijaya"],
     cardIdentifier: "rushing-river-red",
     classes: [Class.Ninja],
@@ -35132,8 +35264,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Arif Wijaya"],
     cardIdentifier: "rushing-river-blue",
     classes: [Class.Ninja],
@@ -68429,7 +68560,8 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "bramble-spark-blue",
     classes: [Class.Runeblade],
@@ -68561,8 +68693,7 @@ If Inspire Lightning was **fused**, deal 3 arcane damage to target hero.`,
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Jen Santos"],
     cardIdentifier: "inspire-lightning-yellow",
     classes: [Class.Runeblade],
@@ -96641,7 +96772,8 @@ If Cold Snap is played from arsenal, draw a card.
     
     talents: [Talent.Ice],
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "cold-snap-yellow",
     classes: [Class.NotClassed],
@@ -96692,8 +96824,7 @@ If Cold Snap is played from arsenal, draw a card.
     
     talents: [Talent.Ice],
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "cold-snap-blue",
     classes: [Class.NotClassed],

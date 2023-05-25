@@ -2271,6 +2271,64 @@ exports[`Check for unintentional updates Aetherize (aetherize-blue) vs snapshot 
 }
 `;
 
+exports[`Check for unintentional updates Alluring Inducement (alluring-inducement-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Andy Aslamov",
+  ],
+  "cardIdentifier": "alluring-inducement-yellow",
+  "classes": [
+    "Shapeshifter",
+  ],
+  "cost": 2,
+  "defaultImage": "DTD215",
+  "defense": 2,
+  "functionalText": "**Shiyana Specialization**
+
+When this attacks, the defending hero reveals their hand. You may choose an attack action card revealed this way. If you do, this becomes the chosen card.
+
+**Unity** - When this defends together with a card from hand, create an Eloquence token under any number of heroes' control.",
+  "keywords": [
+    "Specialization",
+    "Unity",
+  ],
+  "name": "Alluring Inducement",
+  "pitch": 2,
+  "power": 2,
+  "printings": [
+    {
+      "identifier": "DTD215",
+      "image": "DTD215",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD215",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD215",
+  "specializations": [
+    "Shiyana",
+  ],
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Shapeshifter Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Alluvion Constellas (alluvion-constellas) vs snapshot 1`] = `
 {
   "artists": [
@@ -37224,6 +37282,51 @@ If Electrify is played from arsenal, draw a card.
 }
 `;
 
+exports[`Check for unintentional updates Eloquence (eloquence) vs snapshot 1`] = `
+{
+  "artists": [
+    "Othon Nikolaidis",
+  ],
+  "cardIdentifier": "eloquence",
+  "classes": [
+    "Generic",
+  ],
+  "defaultImage": "FAB154",
+  "functionalText": "When you play a non-attack action card, destroy this and the card gets **go again**.",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Eloquence",
+  "printings": [
+    {
+      "foiling": "Cold",
+      "identifier": "FAB154",
+      "image": "FAB154",
+      "set": "Promos",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "FAB154",
+  ],
+  "sets": [
+    "Promos",
+    "Dusk till Dawn",
+  ],
+  "specialImage": "FAB154",
+  "subtypes": [
+    "Aura",
+  ],
+  "typeText": "Generic Token - Aura",
+  "types": [
+    "Token",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Embermaw Cenipai (embermaw-cenipai-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -69820,6 +69923,55 @@ While there is a card with a yellow color strip in your pitch zone, Illusionist 
     "Light",
   ],
   "typeText": "Light Illusionist Weapon – Scepter (2H)",
+  "types": [
+    "Weapon",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Luminaris, Celestial Fury (luminaris-celestial-fury) vs snapshot 1`] = `
+{
+  "artists": [
+    "Jessketchin",
+  ],
+  "cardIdentifier": "luminaris-celestial-fury",
+  "classes": [
+    "Illusionist",
+  ],
+  "defaultImage": "FAB166",
+  "functionalText": "**Once per Turn Instant - {r}{r}:** Target angel attack or attack action card with Herald in its name gets **go again**.",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Luminaris, Celestial Fury",
+  "printings": [
+    {
+      "foiling": "Rainbow",
+      "identifier": "FAB166",
+      "image": "FAB166",
+      "set": "Promos",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "FAB166",
+  ],
+  "sets": [
+    "Promos",
+    "Dusk till Dawn",
+  ],
+  "specialImage": "FAB166",
+  "subtypes": [
+    "Scepter",
+    "2H",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Illusionist Weapon - Scepter (2H)",
   "types": [
     "Weapon",
   ],
