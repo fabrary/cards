@@ -225,7 +225,11 @@ When Bellona attacks, you may banish a card from your hero’s soul. If you do, 
 	DTD200	DTD																										
 	DTD201	DTD																										
 	DTD202	DTD																										
-	DTD203	DTD																										
+	DTD203	DTD	Star Struck	2	7	10	3			M	Guardian, Action, Attack	Bravo Specialization, Crush, Unity						"**Bravo Specialization**
+
+**Crush** - When this deals 4 or more damage to a hero, the only attacks they may play or activate during their next turn are attacks with base {p} greater than the damage dealt this way.
+
+**Unity** - When this defends together with a card from hand, create a Seismic Surge token under any number of heroes' control."		Guardian Action - Attack	Andy Aslamov				No	S - DTD203 - N		/DTD203.png – DTD203 – N
 	DTD204	DTD																										
 	DTD205	DTD																										
 	DTD206	DTD																										

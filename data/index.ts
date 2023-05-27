@@ -566,6 +566,51 @@ When Bellona attacks, you may banish a card from your hero’s soul. If you do, 
     talents: [Talent.Light],
     
   },{
+    artists: ["Andy Aslamov"],
+    cardIdentifier: "star-struck-yellow",
+    classes: [Class.Guardian],
+    defaultImage: "DTD203",
+    name: "Star Struck",
+    printings: [{
+      
+      identifier: "DTD203",
+      image: "DTD203",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD203"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD203",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Guardian Action - Attack",
+
+    cost: 7,
+    defense: 3,
+    functionalText: `**Bravo Specialization**
+
+**Crush** - When this deals 4 or more damage to a hero, the only attacks they may play or activate during their next turn are attacks with base {p} greater than the damage dealt this way.
+
+**Unity** - When this defends together with a card from hand, create a Seismic Surge token under any number of heroes' control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Specialization,Keyword.Crush,Keyword.Unity],
+    
+    
+    pitch: 2,
+    power: 10,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    specializations: [Hero.Bravo],
+    
+    
+  },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "chorus-of-ironsong-yellow",
     classes: [Class.Warrior],
@@ -35068,7 +35113,8 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Asep Ariyanto"],
     cardIdentifier: "crane-dance-blue",
     classes: [Class.Ninja],
@@ -35133,8 +35179,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Arif Wijaya"],
     cardIdentifier: "rushing-river-red",
     classes: [Class.Ninja],
