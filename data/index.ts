@@ -149,7 +149,7 @@ Whenever an opponent plays or activates their first card or ability each turn, i
     artists: ["Kanadekana"],
     cardIdentifier: "proclamation-of-abundance",
     classes: [Class.Adjudicator],
-    defaultImage: "JDG009",
+    defaultImage: "JDG010",
     name: "Proclamation of Abundance",
     printings: [{
       foiling: Foiling.R,
@@ -157,10 +157,16 @@ Whenever an opponent plays or activates their first card or ability each turn, i
       image: "JDG009",
       set: Release.Promos,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "JDG010",
+      image: "JDG010",
+      set: Release.Promos,
+      
     },],
     rarities: [Rarity.Promo],
     rarity: Rarity.Promo,
-    setIdentifiers: ["JDG009"],
+    setIdentifiers: ["JDG009","JDG010"],
     sets: [Release.Promos],
     specialImage: "JDG009",
     subtypes: [Subtype.OffHand],
@@ -210,12 +216,14 @@ Whenever an opponent plays or activates their first card or ability each turn, i
 
     
     
-    
+    functionalText: `Whenever a card with Herald in its name is put into Prism’s soul during an action phase, you may search your deck for a figment, put it into the arena, then shuffle.
+
+**Once per Turn Instant** - {r}{r}, banish a card from Prism’s soul: **Awaken** target figment you control.`,
     
     hero: Hero.Prism,
     intellect: 4,
     
-    
+    keywords: [Keyword.Awaken],
     life: 16,
     
     
@@ -251,7 +259,9 @@ Whenever an opponent plays or activates their first card or ability each turn, i
 
     
     
-    
+    functionalText: `At the start of your turn, banish a card from your hand. If you do, create a Runechant token.
+
+Whenever you play a Shadow non-attack action card, you may pay {l}. If you do, the next Runechant effect that would deal damage this turn can’t be prevented.`,
     
     hero: Hero.Vynnset,
     intellect: 4,
@@ -564,6 +574,96 @@ When Bellona attacks, you may banish a card from your hero’s soul. If you do, 
     
     
     talents: [Talent.Light],
+    
+  },{
+    artists: ["Othon Nikolaidis"],
+    cardIdentifier: "anthem-of-spring-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD196",
+    name: "Anthem of Spring",
+    printings: [{
+      
+      identifier: "DTD196",
+      image: "DTD196",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD196"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD196",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Earth Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `**Briar Specialization**
+
+The next attack action card you play this turn gets +1{p}. **Go again**
+
+**Unity** - When this defends together with a card from hand, create an Embodiment of Earth token under any number of heroes’ control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Specialization,Keyword.Unity,Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    specializations: [Hero.Briar],
+    talents: [Talent.Earth],
+    
+  },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "northern-winds-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD197",
+    name: "Northern Winds",
+    printings: [{
+      
+      identifier: "DTD197",
+      image: "DTD197",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD197"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD197",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Ice Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `**Oldhim Specialization**
+
+**Freeze** up to 1 equipment, item, and/or ally each hero controls.
+
+**Unity** - When this defends together with a card from hand, create a Spellbane Aegis token under any number of heroes' control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Specialization,Keyword.Unity,Keyword.Freeze],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    specializations: [Hero.Oldhim],
+    talents: [Talent.Ice],
     
   },{
     artists: ["Andy Aslamov"],
@@ -35048,7 +35148,8 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Asep Ariyanto"],
     cardIdentifier: "crane-dance-yellow",
     classes: [Class.Ninja],
@@ -35113,8 +35214,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Asep Ariyanto"],
     cardIdentifier: "crane-dance-blue",
     classes: [Class.Ninja],
@@ -43795,7 +43895,7 @@ If Arc Light Sentinel is in the arena when an opponent announces an attack, they
     specialImage: "FAB028",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
-    typeText: "Light Illusionist Instant – Aura",
+    typeText: "Light Illusionist Action – Attack",
 
     cost: 2,
     defense: 3,
@@ -68540,7 +68640,8 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "bramble-spark-yellow",
     classes: [Class.Runeblade],
@@ -68605,8 +68706,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "bramble-spark-blue",
     classes: [Class.Runeblade],
@@ -96766,7 +96866,8 @@ Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you d
     
     talents: [Talent.Ice],
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "cold-snap-red",
     classes: [Class.NotClassed],
@@ -96817,8 +96918,7 @@ If Cold Snap is played from arsenal, draw a card.
     
     talents: [Talent.Ice],
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "cold-snap-yellow",
     classes: [Class.NotClassed],

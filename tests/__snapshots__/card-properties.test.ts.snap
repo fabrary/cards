@@ -3892,6 +3892,67 @@ While there are 2 or more cards with cost 3 or greater in your pitch zone, Anoth
 }
 `;
 
+exports[`Check for unintentional updates Anthem of Spring (anthem-of-spring-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Othon Nikolaidis",
+  ],
+  "cardIdentifier": "anthem-of-spring-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD196",
+  "defense": 2,
+  "functionalText": "**Briar Specialization**
+
+The next attack action card you play this turn gets +1{p}. **Go again**
+
+**Unity** - When this defends together with a card from hand, create an Embodiment of Earth token under any number of heroes’ control.",
+  "keywords": [
+    "Specialization",
+    "Unity",
+    "Go again",
+  ],
+  "name": "Anthem of Spring",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "DTD196",
+      "image": "DTD196",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD196",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD196",
+  "specializations": [
+    "Briar",
+  ],
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Earth",
+  ],
+  "typeText": "Earth Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Arakni (arakni) vs snapshot 1`] = `
 {
   "artists": [
@@ -54695,7 +54756,7 @@ If Herald of Judgment hits, put it into your hero's soul and the defending hero 
   "talents": [
     "Light",
   ],
-  "typeText": "Light Illusionist Instant – Aura",
+  "typeText": "Light Illusionist Action – Attack",
   "types": [
     "Action",
   ],
@@ -76149,6 +76210,67 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
 }
 `;
 
+exports[`Check for unintentional updates Northern Winds (northern-winds-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Federico Musetti",
+  ],
+  "cardIdentifier": "northern-winds-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD197",
+  "defense": 2,
+  "functionalText": "**Oldhim Specialization**
+
+**Freeze** up to 1 equipment, item, and/or ally each hero controls.
+
+**Unity** - When this defends together with a card from hand, create a Spellbane Aegis token under any number of heroes' control.",
+  "keywords": [
+    "Specialization",
+    "Unity",
+    "Freeze",
+  ],
+  "name": "Northern Winds",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "DTD197",
+      "image": "DTD197",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD197",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD197",
+  "specializations": [
+    "Oldhim",
+  ],
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Ice",
+  ],
+  "typeText": "Ice Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Nourishing Emptiness (nourishing-emptiness-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -86469,8 +86591,14 @@ exports[`Check for unintentional updates Prism, Advent of Thrones (prism-advent-
     "Illusionist",
   ],
   "defaultImage": "HER084",
+  "functionalText": "Whenever a card with Herald in its name is put into Prism’s soul during an action phase, you may search your deck for a figment, put it into the arena, then shuffle.
+
+**Once per Turn Instant** - {r}{r}, banish a card from Prism’s soul: **Awaken** target figment you control.",
   "hero": "Prism",
   "intellect": 4,
+  "keywords": [
+    "Awaken",
+  ],
   "life": 16,
   "name": "Prism, Advent of Thrones",
   "printings": [
@@ -86811,7 +86939,7 @@ exports[`Check for unintentional updates Proclamation of Abundance (proclamation
   "classes": [
     "Adjudicator",
   ],
-  "defaultImage": "JDG009",
+  "defaultImage": "JDG010",
   "functionalText": "**Action** - {r}{r}{r}, destroy this: Each hero draws up to their {i}.",
   "name": "Proclamation of Abundance",
   "printings": [
@@ -86819,6 +86947,12 @@ exports[`Check for unintentional updates Proclamation of Abundance (proclamation
       "foiling": "Rainbow",
       "identifier": "JDG009",
       "image": "JDG009",
+      "set": "Promos",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "JDG010",
+      "image": "JDG010",
       "set": "Promos",
     },
   ],
@@ -86833,6 +86967,7 @@ exports[`Check for unintentional updates Proclamation of Abundance (proclamation
   ],
   "setIdentifiers": [
     "JDG009",
+    "JDG010",
   ],
   "sets": [
     "Promos",
@@ -120428,6 +120563,65 @@ At the beginning of your action phase, destroy Stamp Authority.",
 }
 `;
 
+exports[`Check for unintentional updates Star Struck (star-struck-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Andy Aslamov",
+  ],
+  "cardIdentifier": "star-struck-yellow",
+  "classes": [
+    "Guardian",
+  ],
+  "cost": 7,
+  "defaultImage": "DTD203",
+  "defense": 3,
+  "functionalText": "**Bravo Specialization**
+
+**Crush** - When this deals 4 or more damage to a hero, the only attacks they may play or activate during their next turn are attacks with base {p} greater than the damage dealt this way.
+
+**Unity** - When this defends together with a card from hand, create a Seismic Surge token under any number of heroes' control.",
+  "keywords": [
+    "Specialization",
+    "Crush",
+    "Unity",
+  ],
+  "name": "Star Struck",
+  "pitch": 2,
+  "power": 10,
+  "printings": [
+    {
+      "identifier": "DTD203",
+      "image": "DTD203",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD203",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD203",
+  "specializations": [
+    "Bravo",
+  ],
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Guardian Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Staunch Response (staunch-response-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -136996,6 +137190,9 @@ exports[`Check for unintentional updates Vynnset (vynnset) vs snapshot 1`] = `
     "Runeblade",
   ],
   "defaultImage": "HER085",
+  "functionalText": "At the start of your turn, banish a card from your hand. If you do, create a Runechant token.
+
+Whenever you play a Shadow non-attack action card, you may pay {l}. If you do, the next Runechant effect that would deal damage this turn can’t be prevented.",
   "hero": "Vynnset",
   "intellect": 4,
   "life": 20,

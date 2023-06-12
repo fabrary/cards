@@ -8,9 +8,13 @@ At the start of your turn, destroy this. If another hero drew a card from this, 
 **Once per Turn Action** - {r}{r}: **Attack**
 
 Whenever an opponent plays or activates their first card or ability each turn, if it's not their turn, put a +1{p} counter on this. At the beginning of your end phase, remove all +1{p} counters from this."		Adjudicator Weapon – Hammer (1H)	Jessica Nguyen		No	No	No	C - JDG005 - N		/JDG005.png – JDG005 – N – R
-	JDG009	JDG	Proclamation of Abundance							P	Adjudicator, Equipment, Off-Hand		Action					**Action** - {r}{r}{r}, destroy this: Each hero draws up to their {i}.		Adjudicator Equipment – Off-Hand	Kanadekana		No	No	No	C - JDG009 - N		/JDG009.png – JDG009 – N – R
-	HER084	HER, DTD	Prism, Advent of Thrones					16	4	P	Light, Illusionist, Hero, Young									Light Illusionist Hero – Young	Livia Prima			No		C – HER084 – N		/HER084.png – HER084 – N – C
-	HER085	HER, DTD	Vynnset					20	4	P	Shadow, Runeblade, Hero, Young									Shadow Runeblade Hero – Young	Federico Musetti			No		C – HER085 – N		/HER085.png – HER085 – N – C
+	JDG009, JDG010	JDG	Proclamation of Abundance							P	Adjudicator, Equipment, Off-Hand		Action					**Action** - {r}{r}{r}, destroy this: Each hero draws up to their {i}.		Adjudicator Equipment – Off-Hand	Kanadekana		No	No	No	R - JDG009 – N, C – JDG010 - N		/JDG009.png – JDG009 – N – R, /JDG010.png – JDG010 – N – C
+	HER084	HER, DTD	Prism, Advent of Thrones					16	4	P	Light, Illusionist, Hero, Young	Once per Turn Instant, Awaken						"Whenever a card with Herald in its name is put into Prism’s soul during an action phase, you may search your deck for a figment, put it into the arena, then shuffle.
+
+**Once per Turn Instant** - {r}{r}, banish a card from Prism’s soul: **Awaken** target figment you control."		Light Illusionist Hero – Young	Livia Prima			No		C – HER084 – N		/HER084.png – HER084 – N – C
+	HER085	HER, DTD	Vynnset					20	4	P	Shadow, Runeblade, Hero, Young							"At the start of your turn, banish a card from your hand. If you do, create a Runechant token.
+
+Whenever you play a Shadow non-attack action card, you may pay {l}. If you do, the next Runechant effect that would deal damage this turn can’t be prevented."		Shadow Runeblade Hero – Young	Federico Musetti			No		C – HER085 – N		/HER085.png – HER085 – N – C
 KthQj9HCRMDRfngK88kCw	LGS156	LGS, DTD	Flail of Agony			1				P	Shadow, Runeblade, Weapon, Flail, 1H	Vynnset Specialization	Once per Turn Action	Attack				**Vynnset Specialization**  **Once per Turn Action** - {h}: **Attack**  When this hits, create a Runechant token.		Shadow Runeblade Weapon – Flail (1H)	Tomasz Jedruszek					C - LGS156 - N	BW9QqCLMwm8gkML9kfzWW - LGS156 - N	/LGS156.png – LGS156 – N – C
 9PJCCqpT8JhfHkfftKjwH	LGS157	LGS, DTD	Vantom Banshee	1	3	7	3			P	Shadow, Runeblade, Action, Attack	Rune Gate, Blood Debt						**Rune Gate**  **Blood Debt**		Shadow Runeblade Action - Attack	Muhammad Fajri					R - LGS157 - N - EA	PtwnJftGLhnQtDJMLWRqQ - LGS157 - N - EA	/LGS157.png – LGS157 – N – R – EA
 FhWgTR7RdKBTrfDhPWGrt	LGS158	LGS, DTD	Vantom Banshee	2	3	6	3			P	Shadow, Runeblade, Action, Attack	Rune Gate, Blood Debt						**Rune Gate**  **Blood Debt**		Shadow Runeblade Action - Attack	Muhammad Fajri					R - LGS158 - N - EA	KmC7PDzjT7gCcLpRhfwrJ - LGS158 - N - EA	/LGS158.png – LGS158 – N – R – EA
@@ -218,8 +222,16 @@ When Bellona attacks, you may banish a card from your hero’s soul. If you do, 
 	DTD193	DTD																										
 	DTD194	DTD																										
 	DTD195	DTD																										
-	DTD196	DTD																										
-	DTD197	DTD																										
+	DTD196	DTD	Anthem of Spring	3	0		2			M	Earth, Action	Briar Specialization, Unity, Go again						"**Briar Specialization**
+
+The next attack action card you play this turn gets +1{p}. **Go again**
+
+**Unity** - When this defends together with a card from hand, create an Embodiment of Earth token under any number of heroes’ control."		Earth Action	Othon Nikolaidis				No	S - DTD196 - N		/DTD196.png – DTD196 – N
+	DTD197	DTD	Northern Winds	3	0		2			M	Ice, Action	Oldhim Specialization, Unity, Freeze						"**Oldhim Specialization**
+
+**Freeze** up to 1 equipment, item, and/or ally each hero controls.
+
+**Unity** - When this defends together with a card from hand, create a Spellbane Aegis token under any number of heroes' control."		Ice Action	Federico Musetti				No	S - DTD197 - N		/DTD197.png – DTD197 – N
 	DTD198	DTD																										
 	DTD199	DTD																										
 	DTD200	DTD																										
