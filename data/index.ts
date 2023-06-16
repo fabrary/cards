@@ -443,6 +443,129 @@ Whenever you play a Shadow non-attack action card, you may pay {l}. If you do, t
     talents: [Talent.Shadow],
     
   },{
+    artists: ["Jessada Sutthi"],
+    cardIdentifier: "banneret-of-resilience-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "LGS179",
+    name: "Banneret of Resilience",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS179",
+      image: "LGS179",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS179"],
+    sets: [Release.Promos,Release.DuskTillDawn],
+    specialImage: "LGS179",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Warrior Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Solflare** - When this is **charged** to your hero's soul, the next action card you defend with this turn gets +1{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Solflare,Keyword.Charge],
+    
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Jessada Sutthi"],
+    cardIdentifier: "banneret-of-salvation-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "LGS180",
+    name: "Banneret of Salvation",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS180",
+      image: "LGS180",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS180"],
+    sets: [Release.Promos,Release.DuskTillDawn],
+    specialImage: "LGS180",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Warrior Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Solflare** - When this is **charged** to your hero's soul, the next time you hit this turn, gain 1{l}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Solflare,Keyword.Charge],
+    
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Jessada Sutthi"],
+    cardIdentifier: "banneret-of-vigor-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "LGS181",
+    name: "Banneret of Vigor",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS181",
+      image: "LGS181",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS181"],
+    sets: [Release.Promos,Release.DuskTillDawn],
+    specialImage: "LGS181",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Warrior Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Solflare** - When this is **charged** to your hero's soul, the next time you hit this turn, gain {r}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Solflare,Keyword.Charge],
+    
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "eloquence",
     classes: [Class.Generic],
@@ -482,6 +605,129 @@ Whenever you play a Shadow non-attack action card, you may pay {l}. If you do, t
     
     
     
+    
+  },{
+    artists: ["Jessada Sutthi"],
+    cardIdentifier: "banneret-of-courage-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "FAB161",
+    name: "Banneret of Courage",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "FAB161",
+      image: "FAB161",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["FAB161"],
+    sets: [Release.Promos,Release.DuskTillDawn],
+    specialImage: "FAB161",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Warrior Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Solflare** - When this is **charged** to your hero's soul, create a Courage token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Solflare,Keyword.Charge],
+    
+    
+    pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Jessada Sutthi"],
+    cardIdentifier: "banneret-of-gallantry-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "FAB162",
+    name: "Banneret of Gallantry",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "FAB162",
+      image: "FAB162",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["FAB162"],
+    sets: [Release.Promos,Release.DuskTillDawn],
+    specialImage: "FAB162",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Warrior Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Solflare** - When this is **charged** to your hero's soul, create a Quicken token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Solflare,Keyword.Charge],
+    
+    
+    pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Jessada Sutthi"],
+    cardIdentifier: "banneret-of-protection-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "FAB163",
+    name: "Banneret of Protection",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "FAB163",
+      image: "FAB163",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["FAB163"],
+    sets: [Release.Promos,Release.DuskTillDawn],
+    specialImage: "FAB163",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Warrior Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Solflare** - When this is **charged** to your hero's soul, create a Spellbane Aegis token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Solflare,Keyword.Charge],
+    
+    
+    pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
     
   },{
     artists: ["Jessketchin"],
@@ -568,6 +814,47 @@ When Bellona attacks, you may banish a card from your hero’s soul. If you do, 
     
     
     power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Alexander Mokhov"],
+    cardIdentifier: "united-we-stand-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD079",
+    name: "United We Stand",
+    printings: [{
+      
+      identifier: "DTD079",
+      image: "DTD079",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD079"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD079",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Action - Attack",
+
+    cost: 3,
+    defense: 2,
+    functionalText: `**Unity** - When this defends together with a card from hand, if Boltyn is in your party, create a Courage token under his control. Then repeat for Bravo and Seismic Surge, Briar and Embodiment of Earth, Dorinthea and Courage, Lexi and Embodiment of Lightning, Oldhim and Spellbane Aegis, Prism and Spectral Shield, and Shiyana and Eloquence.`,
+    
+    
+    
+    
+    keywords: [Keyword.Unity],
+    
+    
+    pitch: 2,
+    power: 6,
     restrictedFormats: [Format.Commoner],
     
     
@@ -664,6 +951,51 @@ The next attack action card you play this turn gets +1{p}. **Go again**
     
     specializations: [Hero.Oldhim],
     talents: [Talent.Ice],
+    
+  },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "call-down-the-lightning-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD198",
+    name: "Call Down the Lightning",
+    printings: [{
+      
+      identifier: "DTD198",
+      image: "DTD198",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD198"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD198",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Lightning Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `**Lexi Specialization**
+
+Your attacks this turn get "Whenever the defending hero adds 1 or more defending cards from hand to this chain link, this deals 1 damage to them." **Go again**
+
+**Unity** - When this defends together with a card from hand, create an Embodiment of Lightning token under any number of heroes' control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Specialization,Keyword.Unity,Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    specializations: [Hero.Lexi],
+    talents: [Talent.Lightning],
     
   },{
     artists: ["Andy Aslamov"],
@@ -34721,7 +35053,8 @@ The first time an attack action card you control hits each turn, your next attac
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Cristián Huerta"],
     cardIdentifier: "zephyr-needle",
     classes: [Class.Ninja],
@@ -35148,8 +35481,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Asep Ariyanto"],
     cardIdentifier: "crane-dance-yellow",
     classes: [Class.Ninja],
@@ -68362,7 +68694,8 @@ When you attack with Rites of Replenishment, if it was **fused**, you may put an
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Narendra B Adi","Marco González"],
     cardIdentifier: "stir-the-wildwood-red",
     classes: [Class.Runeblade],
@@ -68640,8 +68973,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "bramble-spark-yellow",
     classes: [Class.Runeblade],
@@ -96772,7 +97104,8 @@ Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you d
     
     talents: [Talent.Ice],
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Narendra B Adi"],
     cardIdentifier: "arctic-incarceration-yellow",
     classes: [Class.NotClassed],
@@ -96866,8 +97199,7 @@ Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you d
     
     talents: [Talent.Ice],
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "cold-snap-red",
     classes: [Class.NotClassed],

@@ -19,7 +19,13 @@ KthQj9HCRMDRfngK88kCw	LGS156	LGS, DTD	Flail of Agony			1				P	Shadow, Runeblade,
 9PJCCqpT8JhfHkfftKjwH	LGS157	LGS, DTD	Vantom Banshee	1	3	7	3			P	Shadow, Runeblade, Action, Attack	Rune Gate, Blood Debt						**Rune Gate**  **Blood Debt**		Shadow Runeblade Action - Attack	Muhammad Fajri					R - LGS157 - N - EA	PtwnJftGLhnQtDJMLWRqQ - LGS157 - N - EA	/LGS157.png – LGS157 – N – R – EA
 FhWgTR7RdKBTrfDhPWGrt	LGS158	LGS, DTD	Vantom Banshee	2	3	6	3			P	Shadow, Runeblade, Action, Attack	Rune Gate, Blood Debt						**Rune Gate**  **Blood Debt**		Shadow Runeblade Action - Attack	Muhammad Fajri					R - LGS158 - N - EA	KmC7PDzjT7gCcLpRhfwrJ - LGS158 - N - EA	/LGS158.png – LGS158 – N – R – EA
 tfJTWDjLzBdrDjWm9NnmN	LGS159	LGS, DTD	Vantom Banshee	3	3	5	3			P	Shadow, Runeblade, Action, Attack	Rune Gate, Blood Debt						**Rune Gate**  **Blood Debt**		Shadow Runeblade Action - Attack	Muhammad Fajri					R - LGS159 - N - EA	CkkLHHbN9mwBTr68pTb9B - LGS159 - N - EA	/LGS159.png – LGS159 – N – R – EA
+	LGS179	LGS, DTD	Banneret of Resilience	2	0	3	3			P	Light, Warrior, Action, Attack	Solflare, Charge						**Solflare** - When this is **charged** to your hero's soul, the next action card you defend with this turn gets +1{d}.		Light Warrior Action - Attack	Jessada Sutthi					R - LGS179 - N - EA		/LGS179.png – LGS179 – N – R – EA
+	LGS180	LGS, DTD	Banneret of Salvation	2	0	3	3			P	Light, Warrior, Action, Attack	Solflare, Charge						**Solflare** - When this is **charged** to your hero's soul, the next time you hit this turn, gain 1{l}.		Light Warrior Action - Attack	Jessada Sutthi					R - LGS180 - N - EA		/LGS180.png – LGS180 – N – R – EA
+	LGS181	LGS, DTD	Banneret of Vigor	2	0	3	3			P	Light, Warrior, Action, Attack	Solflare, Charge						**Solflare** - When this is **charged** to your hero's soul, the next time you hit this turn, gain {r}.		Light Warrior Action - Attack	Jessada Sutthi					R - LGS181 - N - EA		/LGS181.png – LGS181 – N – R – EA
 	FAB154	FAB, DTD	Eloquence							P	Generic, Token, Aura				Go again			When you play a non-attack action card, destroy this and the card gets **go again**.		Generic Token - Aura	Othon Nikolaidis					C - FAB154 - N		/FAB154.png – FAB154 – N – C
+	FAB161	FAB, DTD	Banneret of Courage	2	1	4	3			P	Light, Warrior, Action, Attack	Solflare, Charge						**Solflare** - When this is **charged** to your hero's soul, create a Courage token.		Light Warrior Action - Attack	Jessada Sutthi					R - FAB161 - N - EA		/FAB161.png – FAB161 – N – R – EA
+	FAB162	FAB, DTD	Banneret of Gallantry	2	1	4	3			P	Light, Warrior, Action, Attack	Solflare, Charge						**Solflare** - When this is **charged** to your hero's soul, create a Quicken token.		Light Warrior Action - Attack	Jessada Sutthi					R - FAB162 - N - EA		/FAB162.png – FAB162 – N – R – EA
+	FAB163	FAB, DTD	Banneret of Protection	2	1	4	3			P	Light, Warrior, Action, Attack	Solflare, Charge						**Solflare** - When this is **charged** to your hero's soul, create a Spellbane Aegis token.		Light Warrior Action - Attack	Jessada Sutthi					R - FAB163 - N - EA		/FAB163.png – FAB163 – N – R – EA
 	FAB166	FAB, DTD	Luminaris, Celestial Fury							P	Light, Illusionist, Weapon, Scepter, 2H	Instant, Go again						**Once per Turn Instant - {r}{r}:** Target angel attack or attack action card with Herald in its name gets **go again**.		Light Illusionist Weapon - Scepter (2H)	Jessketchin					R - FAB166 - N		/FAB166.png – FAB166 – N – R
 	DTD000	DTD																										
 	DTD001	DTD																										
@@ -105,7 +111,7 @@ When Bellona attacks, you may banish a card from your hero’s soul. If you do, 
 	DTD076	DTD																										
 	DTD077	DTD																										
 	DTD078	DTD																										
-	DTD079	DTD																										
+	DTD079	DTD	United We Stand	2	3	6	2			M	Light, Action, Attack	Unity						**Unity** - When this defends together with a card from hand, if Boltyn is in your party, create a Courage token under his control. Then repeat for Bravo and Seismic Surge, Briar and Embodiment of Earth, Dorinthea and Courage, Lexi and Embodiment of Lightning, Oldhim and Spellbane Aegis, Prism and Spectral Shield, and Shiyana and Eloquence.		Light Action - Attack	Alexander Mokhov				No	S – DTD079 - N		/DTD079.png – DTD079 – N
 	DTD080	DTD																										
 	DTD081	DTD																										
 	DTD082	DTD																										
@@ -232,7 +238,11 @@ The next attack action card you play this turn gets +1{p}. **Go again**
 **Freeze** up to 1 equipment, item, and/or ally each hero controls.
 
 **Unity** - When this defends together with a card from hand, create a Spellbane Aegis token under any number of heroes' control."		Ice Action	Federico Musetti				No	S - DTD197 - N		/DTD197.png – DTD197 – N
-	DTD198	DTD																										
+	DTD198	DTD	Call Down the Lightning	2	0		2			M	Lightning, Action	Lexi Specialization, Unity, Go again						"**Lexi Specialization**
+
+Your attacks this turn get ""Whenever the defending hero adds 1 or more defending cards from hand to this chain link, this deals 1 damage to them."" **Go again**
+
+**Unity** - When this defends together with a card from hand, create an Embodiment of Lightning token under any number of heroes' control."		Lightning Action	Federico Musetti				No	S - DTD198 - N		/DTD198.png – DTD198 – N
 	DTD199	DTD																										
 	DTD200	DTD																										
 	DTD201	DTD																										

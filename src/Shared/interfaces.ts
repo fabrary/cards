@@ -299,6 +299,7 @@ export enum Keyword {
   Reprise = "Reprise",
   RuneGate = "Rune Gate",
   Rupture = "Rupture",
+  Solflare = "Solflare",
   Specialization = "Specialization",
   Spectra = "Spectra",
   Spellvoid = "Spellvoid",

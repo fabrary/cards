@@ -7050,6 +7050,330 @@ exports[`Check for unintentional updates Ball Lightning (ball-lightning-yellow) 
 }
 `;
 
+exports[`Check for unintentional updates Banneret of Courage (banneret-of-courage-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Jessada Sutthi",
+  ],
+  "cardIdentifier": "banneret-of-courage-yellow",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 1,
+  "defaultImage": "FAB161",
+  "defense": 3,
+  "functionalText": "**Solflare** - When this is **charged** to your hero's soul, create a Courage token.",
+  "keywords": [
+    "Solflare",
+    "Charge",
+  ],
+  "name": "Banneret of Courage",
+  "pitch": 2,
+  "power": 4,
+  "printings": [
+    {
+      "foiling": "Rainbow",
+      "identifier": "FAB161",
+      "image": "FAB161",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "FAB161",
+  ],
+  "sets": [
+    "Promos",
+    "Dusk till Dawn",
+  ],
+  "specialImage": "FAB161",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Warrior Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Banneret of Gallantry (banneret-of-gallantry-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Jessada Sutthi",
+  ],
+  "cardIdentifier": "banneret-of-gallantry-yellow",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 1,
+  "defaultImage": "FAB162",
+  "defense": 3,
+  "functionalText": "**Solflare** - When this is **charged** to your hero's soul, create a Quicken token.",
+  "keywords": [
+    "Solflare",
+    "Charge",
+  ],
+  "name": "Banneret of Gallantry",
+  "pitch": 2,
+  "power": 4,
+  "printings": [
+    {
+      "foiling": "Rainbow",
+      "identifier": "FAB162",
+      "image": "FAB162",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "FAB162",
+  ],
+  "sets": [
+    "Promos",
+    "Dusk till Dawn",
+  ],
+  "specialImage": "FAB162",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Warrior Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Banneret of Protection (banneret-of-protection-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Jessada Sutthi",
+  ],
+  "cardIdentifier": "banneret-of-protection-yellow",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 1,
+  "defaultImage": "FAB163",
+  "defense": 3,
+  "functionalText": "**Solflare** - When this is **charged** to your hero's soul, create a Spellbane Aegis token.",
+  "keywords": [
+    "Solflare",
+    "Charge",
+  ],
+  "name": "Banneret of Protection",
+  "pitch": 2,
+  "power": 4,
+  "printings": [
+    {
+      "foiling": "Rainbow",
+      "identifier": "FAB163",
+      "image": "FAB163",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "FAB163",
+  ],
+  "sets": [
+    "Promos",
+    "Dusk till Dawn",
+  ],
+  "specialImage": "FAB163",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Warrior Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Banneret of Resilience (banneret-of-resilience-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Jessada Sutthi",
+  ],
+  "cardIdentifier": "banneret-of-resilience-yellow",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 0,
+  "defaultImage": "LGS179",
+  "defense": 3,
+  "functionalText": "**Solflare** - When this is **charged** to your hero's soul, the next action card you defend with this turn gets +1{d}.",
+  "keywords": [
+    "Solflare",
+    "Charge",
+  ],
+  "name": "Banneret of Resilience",
+  "pitch": 2,
+  "power": 3,
+  "printings": [
+    {
+      "foiling": "Rainbow",
+      "identifier": "LGS179",
+      "image": "LGS179",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "LGS179",
+  ],
+  "sets": [
+    "Promos",
+    "Dusk till Dawn",
+  ],
+  "specialImage": "LGS179",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Warrior Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Banneret of Salvation (banneret-of-salvation-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Jessada Sutthi",
+  ],
+  "cardIdentifier": "banneret-of-salvation-yellow",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 0,
+  "defaultImage": "LGS180",
+  "defense": 3,
+  "functionalText": "**Solflare** - When this is **charged** to your hero's soul, the next time you hit this turn, gain 1{l}.",
+  "keywords": [
+    "Solflare",
+    "Charge",
+  ],
+  "name": "Banneret of Salvation",
+  "pitch": 2,
+  "power": 3,
+  "printings": [
+    {
+      "foiling": "Rainbow",
+      "identifier": "LGS180",
+      "image": "LGS180",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "LGS180",
+  ],
+  "sets": [
+    "Promos",
+    "Dusk till Dawn",
+  ],
+  "specialImage": "LGS180",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Warrior Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Banneret of Vigor (banneret-of-vigor-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Jessada Sutthi",
+  ],
+  "cardIdentifier": "banneret-of-vigor-yellow",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 0,
+  "defaultImage": "LGS181",
+  "defense": 3,
+  "functionalText": "**Solflare** - When this is **charged** to your hero's soul, the next time you hit this turn, gain {r}.",
+  "keywords": [
+    "Solflare",
+    "Charge",
+  ],
+  "name": "Banneret of Vigor",
+  "pitch": 2,
+  "power": 3,
+  "printings": [
+    {
+      "foiling": "Rainbow",
+      "identifier": "LGS181",
+      "image": "LGS181",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "LGS181",
+  ],
+  "sets": [
+    "Promos",
+    "Dusk till Dawn",
+  ],
+  "specialImage": "LGS181",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Warrior Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Barbed Castaway (barbed-castaway) vs snapshot 1`] = `
 {
   "artists": [
@@ -20408,6 +20732,67 @@ exports[`Check for unintentional updates Cadaverous Contraband (cadaverous-contr
     "Attack",
   ],
   "typeText": "Generic Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Call Down the Lightning (call-down-the-lightning-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Federico Musetti",
+  ],
+  "cardIdentifier": "call-down-the-lightning-yellow",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD198",
+  "defense": 2,
+  "functionalText": "**Lexi Specialization**
+
+Your attacks this turn get "Whenever the defending hero adds 1 or more defending cards from hand to this chain link, this deals 1 damage to them." **Go again**
+
+**Unity** - When this defends together with a card from hand, create an Embodiment of Lightning token under any number of heroes' control.",
+  "keywords": [
+    "Specialization",
+    "Unity",
+    "Go again",
+  ],
+  "name": "Call Down the Lightning",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "DTD198",
+      "image": "DTD198",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD198",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD198",
+  "specializations": [
+    "Lexi",
+  ],
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Lightning",
+  ],
+  "typeText": "Lightning Action",
   "types": [
     "Action",
   ],
@@ -133303,6 +133688,59 @@ exports[`Check for unintentional updates Unified Decree (unified-decree-yellow) 
   "typeText": "Warrior Attack Reaction",
   "types": [
     "Attack Reaction",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates United We Stand (united-we-stand-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Alexander Mokhov",
+  ],
+  "cardIdentifier": "united-we-stand-yellow",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 3,
+  "defaultImage": "DTD079",
+  "defense": 2,
+  "functionalText": "**Unity** - When this defends together with a card from hand, if Boltyn is in your party, create a Courage token under his control. Then repeat for Bravo and Seismic Surge, Briar and Embodiment of Earth, Dorinthea and Courage, Lexi and Embodiment of Lightning, Oldhim and Spellbane Aegis, Prism and Spectral Shield, and Shiyana and Eloquence.",
+  "keywords": [
+    "Unity",
+  ],
+  "name": "United We Stand",
+  "pitch": 2,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "DTD079",
+      "image": "DTD079",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD079",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD079",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Action - Attack",
+  "types": [
+    "Action",
   ],
 }
 `;

@@ -51,8 +51,38 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/banneret-of-resilience-yellow</loc>
+    <lastmod>2023-06-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/banneret-of-salvation-yellow</loc>
+    <lastmod>2023-06-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/banneret-of-vigor-yellow</loc>
+    <lastmod>2023-06-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/eloquence</loc>
     <lastmod>2023-05-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/banneret-of-courage-yellow</loc>
+    <lastmod>2023-06-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/banneret-of-gallantry-yellow</loc>
+    <lastmod>2023-06-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/banneret-of-protection-yellow</loc>
+    <lastmod>2023-06-16</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -66,6 +96,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/united-we-stand-yellow</loc>
+    <lastmod>2023-06-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/anthem-of-spring-blue</loc>
     <lastmod>2023-05-31</lastmod>
     <priority>0.5</priority>
@@ -73,6 +108,11 @@
   <url>
     <loc>https://fabrary.net/cards/northern-winds-blue</loc>
     <lastmod>2023-06-08</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/call-down-the-lightning-yellow</loc>
+    <lastmod>2023-06-14</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
