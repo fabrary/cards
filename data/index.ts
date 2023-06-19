@@ -443,6 +443,129 @@ Whenever you play a Shadow non-attack action card, you may pay {l}. If you do, t
     talents: [Talent.Shadow],
     
   },{
+    artists: ["Lius Lasahido"],
+    cardIdentifier: "angelic-wrath-red",
+    classes: [Class.Illusionist],
+    defaultImage: "LGS161",
+    name: "Angelic Wrath",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS161",
+      image: "LGS161",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS161"],
+    sets: [Release.Promos,Release.DuskTillDawn],
+    specialImage: "LGS161",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Light Illusionist Instant",
+
+    cost: 0,
+    
+    functionalText: `Target attack action card with Herald in its name gets +4{p}`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Lius Lasahido"],
+    cardIdentifier: "angelic-wrath-yellow",
+    classes: [Class.Illusionist],
+    defaultImage: "LGS162",
+    name: "Angelic Wrath",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS162",
+      image: "LGS162",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS162"],
+    sets: [Release.Promos,Release.DuskTillDawn],
+    specialImage: "LGS162",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Light Illusionist Instant",
+
+    cost: 0,
+    
+    functionalText: `Target attack action card with Herald in its name gets +3{p}`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Lius Lasahido"],
+    cardIdentifier: "angelic-wrath-blue",
+    classes: [Class.Illusionist],
+    defaultImage: "LGS163",
+    name: "Angelic Wrath",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS163",
+      image: "LGS163",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS163"],
+    sets: [Release.Promos,Release.DuskTillDawn],
+    specialImage: "LGS163",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Light Illusionist Instant",
+
+    cost: 0,
+    
+    functionalText: `Target attack action card with Herald in its name gets +2{p}`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "banneret-of-resilience-yellow",
     classes: [Class.Warrior],
@@ -733,7 +856,7 @@ Whenever you play a Shadow non-attack action card, you may pay {l}. If you do, t
     artists: ["Jessketchin"],
     cardIdentifier: "luminaris-celestial-fury",
     classes: [Class.Illusionist],
-    defaultImage: "FAB166",
+    defaultImage: "LGS160",
     name: "Luminaris, Celestial Fury",
     printings: [{
       foiling: Foiling.R,
@@ -741,10 +864,16 @@ Whenever you play a Shadow non-attack action card, you may pay {l}. If you do, t
       image: "FAB166",
       set: Release.Promos,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS160",
+      image: "LGS160",
+      set: Release.Promos,
+      
     },],
     rarities: [Rarity.Promo],
     rarity: Rarity.Promo,
-    setIdentifiers: ["FAB166"],
+    setIdentifiers: ["FAB166","LGS160"],
     sets: [Release.Promos,Release.DuskTillDawn],
     specialImage: "FAB166",
     subtypes: [Subtype.Scepter,Subtype.TwoHanded],
@@ -34820,7 +34949,8 @@ At the beginning of your action phase, destroy Stamp Authority.`,
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Le Vuong"],
     cardIdentifier: "ira-crimson-haze",
     classes: [Class.Ninja],
@@ -35053,8 +35183,7 @@ The first time an attack action card you control hits each turn, your next attac
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Cristián Huerta"],
     cardIdentifier: "zephyr-needle",
     classes: [Class.Ninja],
@@ -68562,7 +68691,8 @@ When you attack with Rites of Replenishment, if it was **fused**, you may put an
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Rio Sabda"],
     cardIdentifier: "rites-of-replenishment-yellow",
     classes: [Class.Runeblade],
@@ -68694,8 +68824,7 @@ When you attack with Rites of Replenishment, if it was **fused**, you may put an
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Narendra B Adi","Marco González"],
     cardIdentifier: "stir-the-wildwood-red",
     classes: [Class.Runeblade],
@@ -97057,7 +97186,8 @@ Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you d
     
     talents: [Talent.Ice],
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Narendra B Adi"],
     cardIdentifier: "arctic-incarceration-red",
     classes: [Class.NotClassed],
@@ -97104,8 +97234,7 @@ Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you d
     
     talents: [Talent.Ice],
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "arctic-incarceration-yellow",
     classes: [Class.NotClassed],

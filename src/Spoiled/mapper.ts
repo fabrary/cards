@@ -267,10 +267,16 @@ const todayIsAfterDate = (date: string): boolean => {
   }
 };
 
-const getSets = (card: ParsedCard): Release[] =>
-  card.setIdentifiers
-    .map((set) => setIdentifierToSetMappings[set.toLowerCase()])
-    .filter((set) => set);
+const getSets = ({ setIdentifiers }: ParsedCard): Release[] => {
+  const sets = new Set<Release>();
+  for (const setIdentifier of setIdentifiers) {
+    const set = setIdentifierToSetMappings[setIdentifier.toLowerCase()];
+    if (set) {
+      sets.add(set);
+    }
+  }
+  return Array.from(sets);
+};
 
 const getSpecializations = (card: ParsedCard): Hero[] => {
   const { cardKeywords } = card;

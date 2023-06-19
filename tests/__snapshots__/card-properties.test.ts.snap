@@ -70439,7 +70439,7 @@ exports[`Check for unintentional updates Luminaris, Celestial Fury (luminaris-ce
   "classes": [
     "Illusionist",
   ],
-  "defaultImage": "FAB166",
+  "defaultImage": "LGS160",
   "functionalText": "**Once per Turn Instant - {r}{r}:** Target angel attack or attack action card with Herald in its name gets **go again**.",
   "keywords": [
     "Go again",
@@ -70452,6 +70452,12 @@ exports[`Check for unintentional updates Luminaris, Celestial Fury (luminaris-ce
       "image": "FAB166",
       "set": "Promos",
     },
+    {
+      "foiling": "Cold",
+      "identifier": "LGS160",
+      "image": "LGS160",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Promo",
@@ -70459,6 +70465,7 @@ exports[`Check for unintentional updates Luminaris, Celestial Fury (luminaris-ce
   "rarity": "Promo",
   "setIdentifiers": [
     "FAB166",
+    "LGS160",
   ],
   "sets": [
     "Promos",

@@ -51,6 +51,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/angelic-wrath-red</loc>
+    <lastmod>2023-06-19</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/angelic-wrath-yellow</loc>
+    <lastmod>2023-06-19</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/angelic-wrath-blue</loc>
+    <lastmod>2023-06-19</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/banneret-of-resilience-yellow</loc>
     <lastmod>2023-06-16</lastmod>
     <priority>0.5</priority>
