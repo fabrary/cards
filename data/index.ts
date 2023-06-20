@@ -1262,6 +1262,47 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
     
     
   },{
+    artists: ["Athiwut B."],
+    cardIdentifier: "flicker-trick-red",
+    classes: [Class.Illusionist],
+    defaultImage: "DTD218",
+    name: "Flicker Trick",
+    printings: [{
+      
+      identifier: "DTD218",
+      image: "DTD218",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD218"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD218",
+    subtypes: [],
+    types: [Type.DefenseReaction],
+    typeText: "Illusionist Defense Reaction",
+
+    cost: 0,
+    defense: 5,
+    functionalText: `**Mirage**`,
+    
+    
+    
+    
+    keywords: [Keyword.Mirage],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Sam Yang"],
     cardIdentifier: "shitty-xmas-present-yellow",
     classes: [Class.Generic],

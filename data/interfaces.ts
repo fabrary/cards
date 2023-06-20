@@ -288,6 +288,7 @@ export enum Keyword {
   Intimidate = "Intimidate",
   Legendary = "Legendary",
   Material = "Material",
+  Mirage = "Mirage",
   Negate = "Negate",
   Opt = "Opt",
   Overpower = "Overpower",

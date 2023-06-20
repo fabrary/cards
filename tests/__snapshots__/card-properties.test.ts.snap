@@ -3571,6 +3571,144 @@ Draw a card.",
 }
 `;
 
+exports[`Check for unintentional updates Angelic Wrath (angelic-wrath-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Lius Lasahido",
+  ],
+  "cardIdentifier": "angelic-wrath-blue",
+  "classes": [
+    "Illusionist",
+  ],
+  "cost": 0,
+  "defaultImage": "LGS163",
+  "functionalText": "Target attack action card with Herald in its name gets +2{p}",
+  "name": "Angelic Wrath",
+  "pitch": 3,
+  "printings": [
+    {
+      "foiling": "Rainbow",
+      "identifier": "LGS163",
+      "image": "LGS163",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "LGS163",
+  ],
+  "sets": [
+    "Promos",
+    "Dusk till Dawn",
+  ],
+  "specialImage": "LGS163",
+  "subtypes": [],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Illusionist Instant",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Angelic Wrath (angelic-wrath-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Lius Lasahido",
+  ],
+  "cardIdentifier": "angelic-wrath-red",
+  "classes": [
+    "Illusionist",
+  ],
+  "cost": 0,
+  "defaultImage": "LGS161",
+  "functionalText": "Target attack action card with Herald in its name gets +4{p}",
+  "name": "Angelic Wrath",
+  "pitch": 1,
+  "printings": [
+    {
+      "foiling": "Rainbow",
+      "identifier": "LGS161",
+      "image": "LGS161",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "LGS161",
+  ],
+  "sets": [
+    "Promos",
+    "Dusk till Dawn",
+  ],
+  "specialImage": "LGS161",
+  "subtypes": [],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Illusionist Instant",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Angelic Wrath (angelic-wrath-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Lius Lasahido",
+  ],
+  "cardIdentifier": "angelic-wrath-yellow",
+  "classes": [
+    "Illusionist",
+  ],
+  "cost": 0,
+  "defaultImage": "LGS162",
+  "functionalText": "Target attack action card with Herald in its name gets +3{p}",
+  "name": "Angelic Wrath",
+  "pitch": 2,
+  "printings": [
+    {
+      "foiling": "Rainbow",
+      "identifier": "LGS162",
+      "image": "LGS162",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "LGS162",
+  ],
+  "sets": [
+    "Promos",
+    "Dusk till Dawn",
+  ],
+  "specialImage": "LGS162",
+  "subtypes": [],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Illusionist Instant",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Annals of Sutcliffe (annals-of-sutcliffe) vs snapshot 1`] = `
 {
   "artists": [
