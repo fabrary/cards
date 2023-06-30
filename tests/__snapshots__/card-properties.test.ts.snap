@@ -5784,6 +5784,69 @@ exports[`Check for unintentional updates Autumn's Touch (autumns-touch-yellow) v
 }
 `;
 
+exports[`Check for unintentional updates Avalon, Archangel of Rebirth (avalon-archangel-of-rebirth) vs snapshot 1`] = `
+{
+  "artists": [
+    "soyameii",
+  ],
+  "cardIdentifier": "avalon-archangel-of-rebirth",
+  "classes": [
+    "NotClassed",
+  ],
+  "defaultImage": "DTD009_Back",
+  "functionalText": "**Once per Turn Action – {r}{r}: Attack**
+
+When Avalon attacks, you may banish a card from your hero’s soul. If you do, put a yellow card from your graveyard on top of your deck.
+
+**Ward 4**",
+  "isCardBack": true,
+  "keywords": [
+    "Ward",
+  ],
+  "life": 4,
+  "name": "Avalon, Archangel of Rebirth",
+  "oppositeSideCardIdentifier": "figment-of-rebirth-yellow",
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "DTD009",
+      "image": "DTD009_Back",
+      "set": "Dusk till Dawn",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "DTD009",
+      "image": "DTD009_Back_Marvel",
+      "set": "Dusk till Dawn",
+      "treatment": "Full Art",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD009",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD009_Back_Marvel",
+  "subtypes": [
+    "Angel",
+    "Ally",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light – Angel Ally",
+  "types": [],
+}
+`;
+
 exports[`Check for unintentional updates Awakening (awakening-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -33535,6 +33598,54 @@ If a 'non-attack' action card was pitched to play Diabolic Ultimatum, each hero 
 }
 `;
 
+exports[`Check for unintentional updates Diadem of Dreamstate (diadem-of-dreamstate) vs snapshot 1`] = `
+{
+  "artists": [
+    "Asur Misoa",
+  ],
+  "cardIdentifier": "diadem-of-dreamstate",
+  "classes": [
+    "Illusionist",
+  ],
+  "defaultImage": "DTD217",
+  "functionalText": "Once per turn, when this or a non-token permanent you control with ward is destroyed, you may pay {r}. If you do, create a Ponder token.
+
+**Ward 2**",
+  "keywords": [
+    "Ward",
+  ],
+  "name": "Diadem of Dreamstate",
+  "printings": [
+    {
+      "identifier": "DTD217",
+      "image": "DTD217",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Legendary",
+  ],
+  "rarity": "Legendary",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD217",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD217",
+  "subtypes": [
+    "Head",
+  ],
+  "typeText": "Illusionist Equipment – Head",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Dimenxxional Crossroads (dimenxxional-crossroads-yellow) vs snapshot 1`] = `
 {
   "artists": [
@@ -45633,6 +45744,67 @@ When this enters the arena, deal 1 arcane damage to any target.",
     "Dusk till Dawn",
   ],
   "specialImage": "DTD008_Marvel",
+  "subtypes": [
+    "Figment",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Illusionist Instant – Figment",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Figment of Rebirth (figment-of-rebirth-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Erik Klug",
+  ],
+  "cardIdentifier": "figment-of-rebirth-yellow",
+  "classes": [
+    "Illusionist",
+  ],
+  "cost": 4,
+  "defaultImage": "DTD009",
+  "functionalText": "**Legendary**
+
+When this enters the arena, you may put a yellow action card from your graveyard on top of your deck.",
+  "keywords": [
+    "Legendary",
+  ],
+  "name": "Figment of Rebirth",
+  "oppositeSideCardIdentifier": "avalon-archangel-of-rebirth",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "DTD009",
+      "image": "DTD009",
+      "set": "Dusk till Dawn",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "DTD009",
+      "image": "DTD009_Marvel",
+      "set": "Dusk till Dawn",
+      "treatment": "Full Art",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD009",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD009_Marvel",
   "subtypes": [
     "Figment",
   ],

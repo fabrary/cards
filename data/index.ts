@@ -1341,7 +1341,7 @@ When this enters the arena, you may put a yellow action card from your graveyard
     talents: [Talent.Light],
     
   },{
-    artists: ["Erik Klug"],
+    artists: ["soyameii"],
     cardIdentifier: "avalon-archangel-of-rebirth",
     classes: [Class.NotClassed],
     defaultImage: "DTD009_Back",
@@ -2959,6 +2959,88 @@ Gain 3{l}`,
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "blistering-assault-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD092",
+    name: "Blistering Assault",
+    printings: [{
+      
+      identifier: "DTD092",
+      image: "DTD092",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD092"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD092",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Action – Attach",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `If you have a yellow card in your pitch zone, this gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Alief Rusdiatama"],
+    cardIdentifier: "defender-of-daybreak-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD095",
+    name: "Defender of Daybreak",
+    printings: [{
+      
+      identifier: "DTD095",
+      image: "DTD095",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD095"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD095",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Action – Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `When this defends a Shadow attack, non-equipment Light cards get +1{d} this combat chain.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 3,
+    
     
     
     
@@ -34676,7 +34758,8 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "sun-kiss-blue",
     classes: [Class.Generic],
@@ -34737,8 +34820,7 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Masha Mishina"],
     cardIdentifier: "whisper-of-the-oracle-red",
     classes: [Class.Generic],
@@ -69292,7 +69374,8 @@ If Chilling Icevein was **fused**, whenever an attack deals damage to a hero thi
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Tanapon Wachirakul"],
     cardIdentifier: "chilling-icevein-yellow",
     classes: [Class.Ranger],
@@ -69359,8 +69442,7 @@ If Chilling Icevein was **fused**, whenever an attack deals damage to a hero thi
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Tanapon Wachirakul"],
     cardIdentifier: "chilling-icevein-blue",
     classes: [Class.Ranger],
