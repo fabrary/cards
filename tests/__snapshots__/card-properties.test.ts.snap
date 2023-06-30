@@ -71809,6 +71809,60 @@ If you've **charged** this turn, you may attack an additional time with each wea
 }
 `;
 
+exports[`Check for unintentional updates Lumina Lance (lumina-lance-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Jessada Sutthi",
+  ],
+  "cardIdentifier": "lumina-lance-yellow",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD080",
+  "defense": 3,
+  "functionalText": "As an additional cost to play this, banish up to 3 cards from your hero’s soul. Choose that many modes:
+
+- Target Light attack gets +2{p}.
+- Target Light attack gets “When this hits, draw a card.”
+- Target Light attack gets “When this hits, it gets **go again**.”",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Lumina Lance",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "DTD080",
+      "image": "DTD080",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD080",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD080",
+  "subtypes": [],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Attack Reaction",
+  "types": [
+    "Attack Reaction",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Luminaris (luminaris) vs snapshot 1`] = `
 {
   "artists": [

@@ -189,13 +189,17 @@ If you’ve **charged** this turn, create a Courage token."		Light Warrior Attac
 - Target Light attack gets +2{p}.
 - Target Light attack gets “When this hits, draw a card.”
 - Target Light attack gets “When this hits, it gets **go again**.”"		Light Attack Reaction	Jessada Sutthi				No	S – DTD080 - N		/DTD080.png – DTD080 – N
-	DTD081	DTD																										
+	DTD081	DTD	Radiant Forcefield	2	0					M	Light, Instant, Aura							"If your hero would be dealt damage, banish a card from your hero’s soul to prevent 1 of that damage.
+
+When there are no cards in your hero’s soul, destroy this."		Light Instant – Aura	Isuardi Therianto				No	S – DTD081 – N		/DTD081.png – DTD081 – N
 	DTD082	DTD																										
 	DTD083	DTD	Lay to Rest	2	1	4	3			R	Light, Action, Attack							"When this attacks a Shadow hero, it gets +1{p}.
 
 When this hits a hero, you may turn a card in their banished zone face-down."		Light Action – Attack	Faizal Fikri				No	S – DTD083 – N		/DTD083.png – DTD083 – N
 	DTD084	DTD																										
-	DTD085	DTD																										
+	DTD085	DTD	Blessing of Salvation	1	1		2			R	Light, Action							"If a card has been put into your hero’s soul this turn, you may play this as though it were an instant.
+
+Gain 3{l}"		Light Action 	Saad Irfan				No	S – DTD085 – N		/DTD085.png – DTD085 – N
 	DTD086	DTD																										
 	DTD087	DTD																										
 	DTD088	DTD																										
@@ -339,7 +343,9 @@ The first time this is defended by a non-equipment card each turn, halve the bas
 	DTD206	DTD	Bastion of Unity				1			M	Warrior, Equipment, Off-Hand	Unity, Temper						"**Unity** - When this defends together with a card from hand, this gets +1{d} until end of turn.
 
 **Temper**"		Warrior Equipment – Off-Hand	Kanadekana					S - DTD206 - N		/DTD206.png – DTD206 – N
-	DTD207	DTD																										
+	DTD207	DTD	Ironsong Versus				2			L	Warrior, Equipment, Arms	Temper, Go again						"**Once per Turn Action – {r}: Your next sword attack this turn gets “When this hits a hero, create a Courage token.” **Go again**
+
+**Temper**"		Warrior Equipment – Arms	Athiwut B.				No	C – DTD207 – N		/DTD207.png – DTD207 – N
 	DTD208	DTD	Chorus of Ironsong	2	1		3			M	Warrior, Attack Reaction	Unity, Dorinthea Specialization						"**Dorinthea Specialization**
 
 Until end of turn, target Dawnblade gets +1{p} and ""Damage this would deal can't be prevented.""
@@ -356,7 +362,7 @@ Until end of turn, target Dawnblade gets +1{p} and ""Damage this would deal can'
 When this attacks, the defending hero reveals their hand. You may choose an attack action card revealed this way. If you do, this becomes the chosen card.
 
 **Unity** - When this defends together with a card from hand, create an Eloquence token under any number of heroes' control."		Shapeshifter Action - Attack	Andy Aslamov				No	S – DTD215 - N		/DTD215.png – DTD215 – N
-	DTD216	DTD																										
+	DTD216	DTD	Reality Refractor							R	Illusionist, Weapon, Orb, 2H							"Illusionist auras you control are weapons with 5 base {p} and ""Once per Turn Action - {r}{r}: Attack"""		Illusionist Weapon – Orb (2H)	Enmoire					S – DTD216 - N		/DTD216.png – DTD216 – N
 	DTD217	DTD																										
 	DTD218	DTD	Flicker Trick	1	0		5			M	Illusionist, Defense Reaction	Mirage						**Mirage**		Illusionist Defense Reaction	Athiwut B.				No	S - DTD218 - N		/DTD218.png – DTD218 – N
 	DTD219	DTD	Lost in Thought	1	1		2			M	Illusionist, Action	Go again						"Look at target hero’s hand and choose an attack action card. If you do, they put that card on the bottom of their deck and they create a Ponder token.
@@ -374,7 +380,7 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
 	DTD229	DTD																										
 	DTD230	DTD																										
 	DTD231	DTD																										
-	DTD232	DTD																										
+	DTD232	DTD	Courage							C	Generic, Token, Aura							When you play an attack action card or activate a weapon attack, destroy this and the attack gets +1{p}.		Generic Token – Aura	Henrique Lindner					S - DTD232 - N		/DTD232.png – DTD232 – N
 	DTD233	DTD																										
 	DTD234	DTD																										
 	DTD235	DTD																										

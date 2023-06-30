@@ -286,7 +286,17 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/radiant-forcefield-yellow</loc>
+    <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/lay-to-rest-yellow</loc>
+    <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/blessing-of-salvation-red</loc>
     <lastmod>2023-06-30</lastmod>
     <priority>0.5</priority>
   </url>
@@ -331,6 +341,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/ironsong-versus</loc>
+    <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/chorus-of-ironsong-yellow</loc>
     <lastmod>2023-05-25</lastmod>
     <priority>0.5</priority>
@@ -338,6 +353,11 @@
   <url>
     <loc>https://fabrary.net/cards/alluring-inducement-yellow</loc>
     <lastmod>2023-05-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/reality-refractor</loc>
+    <lastmod>2023-06-30</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -353,6 +373,11 @@
   <url>
     <loc>https://fabrary.net/cards/hold-the-line-blue</loc>
     <lastmod>2023-06-28</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/courage</loc>
+    <lastmod>2023-06-30</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

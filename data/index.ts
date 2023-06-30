@@ -2524,6 +2524,49 @@ If you’ve **charged** this turn, create a Courage token.`,
     talents: [Talent.Light],
     
   },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "radiant-forcefield-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD081",
+    name: "Radiant Forcefield",
+    printings: [{
+      
+      identifier: "DTD081",
+      image: "DTD081",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD081"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD081",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Light Instant – Aura",
+
+    cost: 0,
+    
+    functionalText: `If your hero would be dealt damage, banish a card from your hero’s soul to prevent 1 of that damage.
+
+When there are no cards in your hero’s soul, destroy this.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "lay-to-rest-yellow",
     classes: [Class.NotClassed],
@@ -2559,6 +2602,49 @@ When this hits a hero, you may turn a card in their banished zone face-down.`,
     
     pitch: 2,
     power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "blessing-of-salvation-red",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD085",
+    name: "Blessing of Salvation",
+    printings: [{
+      
+      identifier: "DTD085",
+      image: "DTD085",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD085"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD085",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Light Action ",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `If a card has been put into your hero’s soul this turn, you may play this as though it were an instant.
+
+Gain 3{l}`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
     restrictedFormats: [Format.Commoner],
     
     
@@ -2917,6 +3003,49 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     
     
   },{
+    artists: ["Athiwut B."],
+    cardIdentifier: "ironsong-versus",
+    classes: [Class.Warrior],
+    defaultImage: "DTD207",
+    name: "Ironsong Versus",
+    printings: [{
+      
+      identifier: "DTD207",
+      image: "DTD207",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["DTD207"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD207",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Warrior Equipment – Arms",
+
+    
+    defense: 2,
+    functionalText: `**Once per Turn Action – {r}: Your next sword attack this turn gets “When this hits a hero, create a Courage token.” **Go again**
+
+**Temper**`,
+    
+    
+    
+    
+    keywords: [Keyword.Temper,Keyword.GoAgain],
+    
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "chorus-of-ironsong-yellow",
     classes: [Class.Warrior],
@@ -3004,6 +3133,47 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
     
     
     specializations: [Hero.Shiyana],
+    
+    
+  },{
+    artists: ["Enmoire"],
+    cardIdentifier: "reality-refractor",
+    classes: [Class.Illusionist],
+    defaultImage: "DTD216",
+    name: "Reality Refractor",
+    printings: [{
+      
+      identifier: "DTD216",
+      image: "DTD216",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD216"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD216",
+    subtypes: [Subtype.Orb,Subtype.TwoHanded],
+    types: [Type.Weapon],
+    typeText: "Illusionist Weapon – Orb (2H)",
+
+    
+    
+    functionalText: `Illusionist auras you control are weapons with 5 base {p} and "Once per Turn Action - {r}{r}: Attack"`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
   },{
@@ -3125,6 +3295,47 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "courage",
+    classes: [Class.Generic],
+    defaultImage: "DTD232",
+    name: "Courage",
+    printings: [{
+      
+      identifier: "DTD232",
+      image: "DTD232",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD232"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD232",
+    subtypes: [Subtype.Aura],
+    types: [Type.Token],
+    typeText: "Generic Token – Aura",
+
+    
+    
+    functionalText: `When you play an attack action card or activate a weapon attack, destroy this and the attack gets +1{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -34618,7 +34829,8 @@ If you have discarded a card with 6 or more {p} this turn, Mandible Claw gains *
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "beast-within-yellow",
     classes: [Class.Brute],
@@ -34872,8 +35084,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Rio Sabda"],
     cardIdentifier: "barraging-big-horn-yellow",
     classes: [Class.Brute],
@@ -69062,7 +69273,8 @@ If Flake Out was **fused**, it gains **dominate**.`,
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Faizal Fikri"],
     cardIdentifier: "flake-out-yellow",
     classes: [Class.Ranger],
@@ -69184,8 +69396,7 @@ If Flake Out was **fused**, it gains **dominate**.`,
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Marco Wulfr"],
     cardIdentifier: "frazzle-red",
     classes: [Class.Ranger],
@@ -98511,7 +98722,8 @@ Frostbites you control have "At the beginning of your end phase, this deals 1 ar
     
     talents: [Talent.Ice],
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Sam Yang"],
     cardIdentifier: "ice-bolt-red",
     classes: [Class.Wizard],
@@ -98558,8 +98770,7 @@ Frostbites you control have "At the beginning of your end phase, this deals 1 ar
     
     talents: [Talent.Ice],
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Sam Yang"],
     cardIdentifier: "ice-bolt-yellow",
     classes: [Class.Wizard],
