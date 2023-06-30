@@ -65,8 +65,14 @@ When this enters the arena, deal 1 arcane damage to any target."		Light Illusion
 When Aegis attacks, you may banish a card from your hero’s soul. If you do, deal 2 arcane damage to any target.
 
 **Ward 4**"		Light – Angel Ally	MJ Fetesio				No	S – DTD008 – N, C – DTD008 – N – FA		/DTD008_Back.png – DTD008 – N, /DTD008_Back_Marvel.png – DTD008 – N – C – FA
-	DTD009	DTD																										
-	DTD009	DTD																										
+	DTD009	DTD	Figment of Rebirth	2	4					M	Light, Illusionist, Instant, Figment	Legendary						"**Legendary**
+
+When this enters the arena, you may put a yellow action card from your graveyard on top of your deck."		Light Illusionist Instant – Figment	Erik Klug				No	S – DTD009 – N, C – DTD009 – N – FA		/DTD009.png – DTD009 – N, /DTD009_Marvel.png – DTD009 – N – C – FA
+	DTD009	DTD	Avalon, Archangel of Rebirth			4		4		M	Light, Angel, Ally	Ward 4						"**Once per Turn Action – {r}{r}: Attack**
+
+When Avalon attacks, you may banish a card from your hero’s soul. If you do, put a yellow card from your graveyard on top of your deck.
+
+**Ward 4**"		Light – Angel Ally	Erik Klug				No	S – DTD009 – N, C – DTD009 – N – FA		/DTD009_Back.png – DTD009 – N, /DTD009_Back_Marvel.png – DTD009 – N – C – FA
 	DTD010	DTD	Figment of Tenacity	2	4					M	Light, Illusionist, Instant, Figment	Legendary						"**Legendary**
 
 When this enters the arena, your next attack this turn gets dominate."		Light Illusionist Instant – Figment	Bastien Jez, Carlos Cruchaga				No	S – DTD010 – N, C – DTD010 – N – FA		/DTD010.png – DTD010 – N, /DTD010_Marvel.png – DTD010 – N – C – FA
@@ -134,7 +140,9 @@ If a yellow card has been put into your hero’s soul this turn, this gets +5{p}
 	DTD049	DTD																										
 	DTD050	DTD																										
 	DTD051	DTD																										
-	DTD052	DTD																										
+	DTD052	DTD	Spirit of War	1	0	3	3			M	Light, Warrior, Action, Attack	Charge						"As an additional cost to play this, you may **charge** your hero’s soul
+
+If a yellow card was **charged** this way, whenever an attack action card hits this combat chain, create a Courage token."		Light Warrior Action – Attack	Henrique Lindner				No	S – DTD052 – N		/DTD052.png – DTD052 – N
 	DTD053	DTD	Prayer of Bellona	2	1		3			M	Light, Warrior, Action	Charge, Go again						"Your next attack this turn gets +2{p}.
 
 Reveal the top card of your deck. If it’s yellow, put it into your hand, then **charge** your hero’s soul.
@@ -143,9 +151,15 @@ Reveal the top card of your deck. If it’s yellow, put it into your hand, then 
 	DTD054	DTD																										
 	DTD055	DTD																										
 	DTD056	DTD																										
-	DTD057	DTD																										
-	DTD058	DTD																										
-	DTD059	DTD																										
+	DTD057	DTD	Beaming Bravado	1	0	3	3			R	Light, Warrior, Action, Attack	Charge						"As an additional cost to play this, you may **charge** your hero’s soul.
+
+If a yellow card is **charged** this way, this gets +1{p}."		Light Warrior Action - Attack	Sebastian Szmyd				No	S – DTD057 – N		/DTD057.png – DTD057 – N
+	DTD058	DTD	Beaming Bravado	2	0	2	3			R	Light, Warrior, Action, Attack	Charge						"As an additional cost to play this, you may **charge** your hero’s soul.
+
+If a yellow card is **charged** this way, this gets +1{p}."		Light Warrior Action - Attack	Sebastian Szmyd				No	S – DTD058 – N		/DTD058.png – DTD058 – N
+	DTD059	DTD	Beaming Bravado	3	0	1	3			R	Light, Warrior, Action, Attack	Charge						"As an additional cost to play this, you may **charge** your hero’s soul.
+
+If a yellow card is **charged** this way, this gets +1{p}."		Light Warrior Action - Attack	Sebastian Szmyd				No	S – DTD059 – N		/DTD059.png – DTD059 – N
 	DTD060	DTD	V for Valor	1	0		2			R	Light, Warrior, Action, Aura	Attack Reaction, Charge						**Attack Reaction – {r}**, destroy this, **charge** your hero’s soul: target attack gets +3{p}.		Light Warrior Action – Aura	Isuardi Therianto				No	S – DTD060 – N		/DTD060.png – DTD060 – N
 	DTD061	DTD	V for Valor	2	0		2			R	Light, Warrior, Action, Aura	Attack Reaction, Charge						**Attack Reaction – {r}**, destroy this, **charge** your hero’s soul: target attack gets +2{p}.		Light Warrior Action – Aura	Isuardi Therianto				No	S – DTD061 – N		/DTD061.png – DTD061 – N
 	DTD062	DTD	V for Valor	3	0		2			R	Light, Warrior, Action, Aura	Attack Reaction, Charge						**Attack Reaction – {r}**, destroy this, **charge** your hero’s soul: target attack gets +1{p}.		Light Warrior Action – Aura	Isuardi Therianto				No	S – DTD062 – N		/DTD062.png – DTD062 – N
@@ -212,7 +226,7 @@ Gain 3{l}"		Light Action 	Saad Irfan				No	S – DTD085 – N		/DTD085.png – D
 	DTD095	DTD																										
 	DTD096	DTD																										
 	DTD097	DTD																										
-	DTD098	DTD																										
+	DTD098	DTD	Searing Ray	2	1	3	2			C	Light, Action, Attack							If you have a yellow card in your pitch zone, this gets +2{p}.		Light Action – Attack	Edward Chee					S – DTD098 – N		/DTD098.png – DTD098 – N
 	DTD099	DTD																										
 	DTD100	DTD																										
 	DTD101	DTD	Break of Dawn	2	0					C	Light, Instant							The next time a Shadow source would deal damage this turn, prevent 3 of that damage.		Light Instant	Nikolay Moskvin					S – DTD101 – N		/DTD101.png – DTD101 – N
@@ -363,7 +377,9 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
 
 **Unity** - When this defends together with a card from hand, create an Eloquence token under any number of heroes' control."		Shapeshifter Action - Attack	Andy Aslamov				No	S – DTD215 - N		/DTD215.png – DTD215 – N
 	DTD216	DTD	Reality Refractor							R	Illusionist, Weapon, Orb, 2H							"Illusionist auras you control are weapons with 5 base {p} and ""Once per Turn Action - {r}{r}: Attack"""		Illusionist Weapon – Orb (2H)	Enmoire					S – DTD216 - N		/DTD216.png – DTD216 – N
-	DTD217	DTD																										
+	DTD217	DTD	Diadem of Dreamstate							L	Illusionist, Equipment, Head	Ward 2						"Once per turn, when this or a non-token permanent you control with ward is destroyed, you may pay {r}. If you do, create a Ponder token.
+
+**Ward 2**"		Illusionist Equipment – Head	Asur Misoa				No	C – DTD217 – N		/DTD217.png – DTD217 – N
 	DTD218	DTD	Flicker Trick	1	0		5			M	Illusionist, Defense Reaction	Mirage						**Mirage**		Illusionist Defense Reaction	Athiwut B.				No	S - DTD218 - N		/DTD218.png – DTD218 – N
 	DTD219	DTD	Lost in Thought	1	1		2			M	Illusionist, Action	Go again						"Look at target hero’s hand and choose an attack action card. If you do, they put that card on the bottom of their deck and they create a Ponder token.
 

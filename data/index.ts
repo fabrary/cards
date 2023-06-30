@@ -1292,6 +1292,106 @@ When Aegis attacks, you may banish a card from your hero’s soul. If you do, de
     talents: [Talent.Light],
     
   },{
+    artists: ["Erik Klug"],
+    cardIdentifier: "figment-of-rebirth-yellow",
+    classes: [Class.Illusionist],
+    defaultImage: "DTD009",
+    name: "Figment of Rebirth",
+    printings: [{
+      
+      identifier: "DTD009",
+      image: "DTD009",
+      set: Release.DuskTillDawn,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "DTD009",
+      image: "DTD009_Marvel",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.FA,
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD009"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD009_Marvel",
+    subtypes: [Subtype.Figment],
+    types: [Type.Instant],
+    typeText: "Light Illusionist Instant – Figment",
+
+    cost: 4,
+    
+    functionalText: `**Legendary**
+
+When this enters the arena, you may put a yellow action card from your graveyard on top of your deck.`,
+    
+    
+    
+    
+    keywords: [Keyword.Legendary],
+    
+    oppositeSideCardIdentifier: `avalon-archangel-of-rebirth`,
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Erik Klug"],
+    cardIdentifier: "avalon-archangel-of-rebirth",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD009_Back",
+    name: "Avalon, Archangel of Rebirth",
+    printings: [{
+      
+      identifier: "DTD009",
+      image: "DTD009_Back",
+      set: Release.DuskTillDawn,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "DTD009",
+      image: "DTD009_Back_Marvel",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.FA,
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD009"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD009_Back_Marvel",
+    subtypes: [Subtype.Angel,Subtype.Ally],
+    types: [],
+    typeText: "Light – Angel Ally",
+
+    
+    
+    functionalText: `**Once per Turn Action – {r}{r}: Attack**
+
+When Avalon attacks, you may banish a card from your hero’s soul. If you do, put a yellow card from your graveyard on top of your deck.
+
+**Ward 4**`,
+    
+    
+    
+    isCardBack: true,
+    keywords: [Keyword.Ward],
+    life: 4,
+    oppositeSideCardIdentifier: `figment-of-rebirth-yellow`,
+    
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
     artists: ["Bastien Jez","Carlos Cruchaga"],
     cardIdentifier: "figment-of-tenacity-yellow",
     classes: [Class.Illusionist],
@@ -1760,6 +1860,49 @@ If a yellow card has been put into your hero’s soul this turn, this gets +5{p}
     talents: [Talent.Light],
     
   },{
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "spirit-of-war-red",
+    classes: [Class.Warrior],
+    defaultImage: "DTD052",
+    name: "Spirit of War",
+    printings: [{
+      
+      identifier: "DTD052",
+      image: "DTD052",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD052"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD052",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Warrior Action – Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `As an additional cost to play this, you may **charge** your hero’s soul
+
+If a yellow card was **charged** this way, whenever an attack action card hits this combat chain, create a Courage token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Charge],
+    
+    
+    pitch: 1,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
     artists: ["Asur Misoa"],
     cardIdentifier: "prayer-of-bellona-yellow",
     classes: [Class.Warrior],
@@ -1797,6 +1940,135 @@ Reveal the top card of your deck. If it’s yellow, put it into your hand, then 
     
     pitch: 2,
     
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Sebastian Szmyd"],
+    cardIdentifier: "beaming-bravado-red",
+    classes: [Class.Warrior],
+    defaultImage: "DTD057",
+    name: "Beaming Bravado",
+    printings: [{
+      
+      identifier: "DTD057",
+      image: "DTD057",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD057"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD057",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Warrior Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `As an additional cost to play this, you may **charge** your hero’s soul.
+
+If a yellow card is **charged** this way, this gets +1{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Charge],
+    
+    
+    pitch: 1,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Sebastian Szmyd"],
+    cardIdentifier: "beaming-bravado-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "DTD058",
+    name: "Beaming Bravado",
+    printings: [{
+      
+      identifier: "DTD058",
+      image: "DTD058",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD058"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD058",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Warrior Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `As an additional cost to play this, you may **charge** your hero’s soul.
+
+If a yellow card is **charged** this way, this gets +1{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Charge],
+    
+    
+    pitch: 2,
+    power: 2,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Sebastian Szmyd"],
+    cardIdentifier: "beaming-bravado-blue",
+    classes: [Class.Warrior],
+    defaultImage: "DTD059",
+    name: "Beaming Bravado",
+    printings: [{
+      
+      identifier: "DTD059",
+      image: "DTD059",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD059"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD059",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Warrior Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `As an additional cost to play this, you may **charge** your hero’s soul.
+
+If a yellow card is **charged** this way, this gets +1{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Charge],
+    
+    
+    pitch: 3,
+    power: 1,
     restrictedFormats: [Format.Commoner],
     
     
@@ -2694,6 +2966,47 @@ Gain 3{l}`,
     talents: [Talent.Light],
     
   },{
+    artists: ["Edward Chee"],
+    cardIdentifier: "searing-ray-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD098",
+    name: "Searing Ray",
+    printings: [{
+      
+      identifier: "DTD098",
+      image: "DTD098",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD098"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD098",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Action – Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `If you have a yellow card in your pitch zone, this gets +2{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "break-of-dawn-yellow",
     classes: [Class.NotClassed],
@@ -3211,6 +3524,49 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
     
     
     
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Asur Misoa"],
+    cardIdentifier: "diadem-of-dreamstate",
+    classes: [Class.Illusionist],
+    defaultImage: "DTD217",
+    name: "Diadem of Dreamstate",
+    printings: [{
+      
+      identifier: "DTD217",
+      image: "DTD217",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["DTD217"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD217",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Illusionist Equipment – Head",
+
+    
+    
+    functionalText: `Once per turn, when this or a non-token permanent you control with ward is destroyed, you may pay {r}. If you do, create a Ponder token.
+
+**Ward 2**`,
+    
+    
+    
+    
+    keywords: [Keyword.Ward],
+    
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -34381,7 +34737,8 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Masha Mishina"],
     cardIdentifier: "whisper-of-the-oracle-red",
     classes: [Class.Generic],
@@ -34803,8 +35160,7 @@ If you have discarded a card with 6 or more {p} this turn, Mandible Claw gains *
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Yolanda Felicia"],
     cardIdentifier: "skullhorn",
     classes: [Class.Brute],
@@ -69003,7 +69359,8 @@ If Chilling Icevein was **fused**, whenever an attack deals damage to a hero thi
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Tanapon Wachirakul"],
     cardIdentifier: "chilling-icevein-blue",
     classes: [Class.Ranger],
@@ -69253,8 +69610,7 @@ If Dazzling Crescendo was **fused**, it gains **go again**.`,
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "flake-out-red",
     classes: [Class.Ranger],
@@ -98622,7 +98978,8 @@ Frostbites you control have "At the beginning of your end phase, this deals 1 ar
     
     talents: [Talent.Ice],
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Immanuela Crovius"],
     cardIdentifier: "frosting-red",
     classes: [Class.Wizard],
@@ -98716,8 +99073,7 @@ Frostbites you control have "At the beginning of your end phase, this deals 1 ar
     
     talents: [Talent.Ice],
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Immanuela Crovius"],
     cardIdentifier: "frosting-blue",
     classes: [Class.Wizard],
@@ -126354,7 +126710,7 @@ At the beginning of your end phase destroy Frailty.`,
     ...cards4,
   ];
 
-  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","Bastien Jez","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","Daria Khlebnokova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Eilene Cherie","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Eric Klug","Erick Efata","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Jessica Nguyen","Jessketchin","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kalashnikova N.","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Maerel Hibadita","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wiśniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Revazashvili E.","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sariya Asavametha","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Stormy Elia Fanggidae","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tomasz Jedruszek","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
+  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","Bastien Jez","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","Daria Khlebnokova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Edward Chee","Eilene Cherie","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Eric Klug","Erick Efata","Erik Klug","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Jessica Nguyen","Jessketchin","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kalashnikova N.","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Maerel Hibadita","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wiśniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Revazashvili E.","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sariya Asavametha","Sebastian Szmyd","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Stormy Elia Fanggidae","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tomasz Jedruszek","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
 
   export * from "./sets";
 

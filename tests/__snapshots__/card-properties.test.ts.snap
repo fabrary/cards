@@ -9328,6 +9328,171 @@ If a yellow card has been put into your hero’s soul this turn, this gets +5{p}
 }
 `;
 
+exports[`Check for unintentional updates Beaming Bravado (beaming-bravado-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sebastian Szmyd",
+  ],
+  "cardIdentifier": "beaming-bravado-blue",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD059",
+  "defense": 3,
+  "functionalText": "As an additional cost to play this, you may **charge** your hero’s soul.
+
+If a yellow card is **charged** this way, this gets +1{p}.",
+  "keywords": [
+    "Charge",
+  ],
+  "name": "Beaming Bravado",
+  "pitch": 3,
+  "power": 1,
+  "printings": [
+    {
+      "identifier": "DTD059",
+      "image": "DTD059",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD059",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD059",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Warrior Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Beaming Bravado (beaming-bravado-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sebastian Szmyd",
+  ],
+  "cardIdentifier": "beaming-bravado-red",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD057",
+  "defense": 3,
+  "functionalText": "As an additional cost to play this, you may **charge** your hero’s soul.
+
+If a yellow card is **charged** this way, this gets +1{p}.",
+  "keywords": [
+    "Charge",
+  ],
+  "name": "Beaming Bravado",
+  "pitch": 1,
+  "power": 3,
+  "printings": [
+    {
+      "identifier": "DTD057",
+      "image": "DTD057",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD057",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD057",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Warrior Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Beaming Bravado (beaming-bravado-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sebastian Szmyd",
+  ],
+  "cardIdentifier": "beaming-bravado-yellow",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD058",
+  "defense": 3,
+  "functionalText": "As an additional cost to play this, you may **charge** your hero’s soul.
+
+If a yellow card is **charged** this way, this gets +1{p}.",
+  "keywords": [
+    "Charge",
+  ],
+  "name": "Beaming Bravado",
+  "pitch": 2,
+  "power": 2,
+  "printings": [
+    {
+      "identifier": "DTD058",
+      "image": "DTD058",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD058",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD058",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Warrior Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Beast Mode (beast-mode-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -22042,6 +22207,49 @@ exports[`Check for unintentional updates Celestial Kimono (celestial-kimono) vs 
   "typeText": "Illusionist Equipment – Chest",
   "types": [
     "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Celestial Reprimand (celestial-reprimand-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Faizal Fikri",
+  ],
+  "cardIdentifier": "celestial-reprimand-yellow",
+  "classes": [
+    "Illusionist",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD039",
+  "functionalText": "Target card defending an attack with Herald in its name gets -2{p} this combat chain.",
+  "name": "Celestial Reprimand",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "DTD039",
+      "image": "DTD039",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD039",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD039",
+  "subtypes": [],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Illusionist Instant",
+  "types": [
+    "Instant",
   ],
 }
 `;
@@ -107712,6 +107920,53 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
 }
 `;
 
+exports[`Check for unintentional updates Searing Ray (searing-ray-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Edward Chee",
+  ],
+  "cardIdentifier": "searing-ray-yellow",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 1,
+  "defaultImage": "DTD098",
+  "defense": 2,
+  "functionalText": "If you have a yellow card in your pitch zone, this gets +2{p}.",
+  "name": "Searing Ray",
+  "pitch": 2,
+  "power": 3,
+  "printings": [
+    {
+      "identifier": "DTD098",
+      "image": "DTD098",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD098",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD098",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Searing Shot (searing-shot-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -122537,6 +122792,61 @@ You may play Lumina Ascension as though it were an instant.",
     "Light",
   ],
   "typeText": "Light Warrior Action – Item",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Spirit of War (spirit-of-war-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Henrique Lindner",
+  ],
+  "cardIdentifier": "spirit-of-war-red",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD052",
+  "defense": 3,
+  "functionalText": "As an additional cost to play this, you may **charge** your hero’s soul
+
+If a yellow card was **charged** this way, whenever an attack action card hits this combat chain, create a Courage token.",
+  "keywords": [
+    "Charge",
+  ],
+  "name": "Spirit of War",
+  "pitch": 1,
+  "power": 3,
+  "printings": [
+    {
+      "identifier": "DTD052",
+      "image": "DTD052",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD052",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD052",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Warrior Action – Attack",
   "types": [
     "Action",
   ],
