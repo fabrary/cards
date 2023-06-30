@@ -38,20 +38,38 @@ tfJTWDjLzBdrDjWm9NnmN,LGS159,"LGS, DTD",Vantom Banshee,3,3,5,3,,,P,"Shadow, Rune
 
 **Once per Turn Instant** - {r}: This gets **ward 1** until end of turn.",,Light Illusionist Equipment – Chest,soyameii,,,,No,"C – DTD004 – N, C – DTD004 - N – EA",,"/DTD004.png – DTD004 – N – C, /DTD004_EA.png – DTD004 – N – C – EA"
 ,DTD005,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD005,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD006,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD007,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD008,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD006,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD007,DTD,Figment of Protection,2,4,,,,,M,"Light, Illusionist, Instant, Figment",Legendary,,,,,,"**Legendary**
+
+When this enters the arena, create a Spectral Shield token.",,Light Illusionist Instant – Figment,soyameii,,,,No,"S – DTD007 – N, C – DTD007 – N – FA",,"/DTD007.png – DTD007 – N, /DTD007_Marvel.png – DTD007 – N – C – FA"
+,DTD007,DTD,"Aegis, Archangel of Protection",,,4,,4,,M,"Light, Angel, Ally",Ward 4,,,,,,"**Once per Turn Action – {r}{r}: Attack**
+
+When Aegis attacks, you may banish a card from your hero’s soul. If you do, create 2 Spectral Shield tokens.
+
+**Ward 4**",,Light – Angel Ally,soyameii,,,,No,"S – DTD007 – N, C – DTD007 – N – FA",,"/DTD007_Back.png – DTD007 – N, /DTD007_Back_Marvel.png – DTD007 – N – C – FA"
+,DTD008,DTD,Figment of Ravages,2,4,,,,,M,"Light, Illusionist, Instant, Figment",Legendary,,,,,,"**Legendary**
+
+When this enters the arena, deal 1 arcane damage to any target.",,Light Illusionist Instant – Figment,MJ Fetesio,,,,No,"S – DTD008 – N, C – DTD008 – N – FA",,"/DTD008.png – DTD008 – N, /DTD008_Marvel.png – DTD008 – N – C – FA"
+,DTD008,DTD,"Sekem, Archangel of Ravages",,,4,,4,,M,"Light, Angel, Ally",Ward 4,,,,,,"**Once per Turn Action – {r}{r}: Attack**
+
+When Aegis attacks, you may banish a card from your hero’s soul. If you do, deal 2 arcane damage to any target.
+
+**Ward 4**",,Light – Angel Ally,MJ Fetesio,,,,No,"S – DTD008 – N, C – DTD008 – N – FA",,"/DTD008_Back.png – DTD008 – N, /DTD008_Back_Marvel.png – DTD008 – N – C – FA"
 ,DTD009,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD009,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD010,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD010,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD011,DTD,Figment of Triumph,2,4,,,,,M,"Light, Illusionist, Instant, Figment",Legendary,,,,,,"**Legendary**
 
-When this enters the arena, attack action cards your opponent control get -1{p} this turn.",,Joseph Qiu,,,,,No,"S – DTD011 – N, C – DTD011 – N – FA",,"/DTD011.png – DTD011 – N, /DTD011.png – DTD011 – N – C – FA"
+When this enters the arena, attack action cards your opponent control get -1{p} this turn.",,Light Illusionist Instant – Fragment,Joseph Qiu,,,,No,"S – DTD011 – N, C – DTD011 – N – FA",,"/DTD011.png – DTD011 – N, /DTD011_Marvel.png – DTD011 – N – C – FA"
 ,DTD011,DTD,"Victoria, Archangel of Triumph",,,4,,4,,M,"Light, Angel, Ally",Ward 4,,,,,,"**Once per Turn Action – {r}{r}: Attack**
 
 When VIctoria attacks, you may banish a card from your hero’s soul. If you do, attack action cards your opponents control get -1{p} until the start of your next turn.
 
-**Ward 4**",,Joseph Qiu,,,,,No,"S – DTD011 – N, C – DTD011 – N – FA",,"/DTD011_Back.png – DTD011 – N, /DTD011_Back_Marvel.png – DTD011 – N – C – FA"
-,DTD012,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Ward 4**",,Light – Angel Ally,Joseph Qiu,,,,No,"S – DTD011 – N, C – DTD011 – N – FA",,"/DTD011_Back.png – DTD011 – N, /DTD011_Back_Marvel.png – DTD011 – N – C – FA"
+,DTD012,DTD,Figment of War,2,4,,,,,M,"Light, Illusionist, Instant, Figment",Legendary,,,,,,,,Light Illusionist Instant – Figment,Alexander Mokhov,,,,No,"S – DTD012 – N, C – DTD012 – N – FA",,"/DTD012.png – DTD012 – N, /DTD012_Marvel.png – DTD012 – N – C – FA"
 ,DTD012,DTD,"Bellona, Archangel of War",,,4,,4,,"M, V","Light, Angel, Ally",Ward 4,,,,,,"**Once per Turn Action – {r}{r}: Attack**
 
 When Bellona attacks, you may banish a card from your hero’s soul. If you do, put a +1{a} counter on each angel you control.
@@ -90,7 +108,9 @@ When Bellona attacks, you may banish a card from your hero’s soul. If you do, 
 ,DTD043,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD044,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD045,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD046,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD046,DTD,Beaming Blade,,,0,,,,R,"Light, Warrior, Weapon, Sword, 2H",,,,,,,"**Once per Turn Action – {r}: Attack
+
+If a yellow card has been put into your hero’s soul this turn, this gets +5{p}.",,Light Warrior Weapon – Sword (2H),Jessketchin,,,,,S – DTD046 – N,,/DTD046.png – DTD046 – N
 ,DTD047,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD048,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD049,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -104,17 +124,21 @@ When Bellona attacks, you may banish a card from your hero’s soul. If you do, 
 ,DTD057,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD058,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD059,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD060,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD060,DTD,V for Valor,1,0,,2,,,R,"Light, Warrior, Action, Aura","Attack Reaction, Charge",,,,,,"**Attack Reaction – {r}**, destroy this, **charge** your hero’s soul: target attack gets +3{p}.",,Light Warrior Action – Aura,Isuardi Therianto,,,,No,S – DTD060 – N,,/DTD060.png – DTD060 – N
 ,DTD061,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD062,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD063,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD064,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD065,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD066,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD066,DTD,Light the Way,1,0,3,3,,,C,"Light, Warrior, Action, Attack","Charge, Go again",,,,,,"As an additional cost to play this, you may **charge** your hero’s soul.
+
+When this hits, if a yellow card was **charged** this way, this gets **go again**.",,Light Warrior Action – Attack,Rio Sabda,,,,,S – DTD066 – N,,/DTD066.png – DTD066 – N
 ,DTD067,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD068,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD069,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD060,DTD,V for Valor,1,0,,2,,,R,"Light, Warrior, Action, Aura","Attack Reaction, Charge",,,,,,"**Attack Reaction – {r}**, destroy this, **charge** your hero’s soul: target attack gets +3{p}.",,Light Warrior Action – Aura,Isuardi Therianto,,,,No,S – DTD060 – N,,/DTD060.png – DTD060 – N
+,DTD069,DTD,Resounding Courage,1,1,,3,,,C,"Light, Warrior, Attack, Reaction",Charge,,,,,,"Target Light Warrior attack gets +3{p}.
+
+If you’ve **charged** this turn, create a Courage token.",,Light Warrior Attack Reaction,Tomasz Jedruszek,,,,,S – DTD069 – N,,/DTD069.png – DTD069 – N
+,DTD070,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD071,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD072,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD073,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -127,7 +151,9 @@ When Bellona attacks, you may banish a card from your hero’s soul. If you do, 
 ,DTD080,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD081,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD082,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD083,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD083,DTD,Lay to Rest,2,1,4,3,,,R,"Light, Action, Attack",,,,,,,"When this attacks a Shadow hero, it gets +1{p}.
+
+When this hits a hero, you may turn a card in their banished zone face-down.",,Light Action – Attack,Faizal Fikri,,,,No,S – DTD083 – N,,/DTD083.png – DTD083 – N
 ,DTD084,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD085,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD086,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -267,8 +293,12 @@ Your attacks this turn get ""Whenever the defending hero adds 1 or more defendin
 
 **Unity** - When this defends together with a card from hand, create a Seismic Surge token under any number of heroes' control.",,Guardian Action - Attack,Andy Aslamov,,,,No,S - DTD203 - N,,/DTD203.png – DTD203 – N
 ,DTD204,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD205,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD206,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD205,DTD,Decimator Great Axe,,,4,,,,R,"Warrior, Weapon, Axe, 2H",,,,,,,"**Once per Turn Action – {r}{r}: Attack**
+
+The first time this is defended by a non-equipment card each turn, halve the base {d} of target defending card, rounded up.",,Warrior Weapon – Axe (2H),Stormy Elia Fanggidae,,,,,S - DTD205 - N,,/DTD205.png – DTD205 – N
+,DTD206,DTD,Bastion of Unity,,,,1,,,M,"Warrior, Equipment, Off-Hand","Unity, Temper",,,,,,"**Unity** - When this defends together with a card from hand, this gets +1{d} until end of turn.
+
+**Temper**",,Warrior Equipment – Off-Hand,Kanadekana,,,,,S - DTD206 - N,,/DTD206.png – DTD206 – N
 ,DTD207,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD208,DTD,Chorus of Ironsong,2,1,,3,,,M,"Warrior, Attack Reaction","Unity, Dorinthea Specialization",,,,,,"**Dorinthea Specialization**
 

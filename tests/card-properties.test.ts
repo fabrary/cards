@@ -44,7 +44,7 @@ describe("No special characters in cardIdentifier", () => {
 describe("All required fields present", () => {
   it.each(
     cardsToPublish.map((card) => [
-      `${card.name} (${card.cardIdentifier})`,
+      `${card.name} (${card.cardIdentifier}) ${card.setIdentifiers.join(",")}`,
       card,
     ])
   )("%s", (_, card) => {

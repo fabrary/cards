@@ -111,6 +111,26 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/figment-of-protection-yellow</loc>
+    <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/aegis-archangel-of-protection</loc>
+    <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/figment-of-ravages-yellow</loc>
+    <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/sekem-archangel-of-ravages</loc>
+    <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/figment-of-triumph-yellow</loc>
     <lastmod>2023-06-30</lastmod>
     <priority>0.5</priority>
@@ -121,8 +141,18 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/figment-of-war-yellow</loc>
+    <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/bellona-archangel-of-war</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/beaming-blade</loc>
+    <lastmod>2023-06-30</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -131,8 +161,23 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/light-the-way-red</loc>
+    <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/resounding-courage-red</loc>
+    <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/united-we-stand-yellow</loc>
     <lastmod>2023-06-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/lay-to-rest-yellow</loc>
+    <lastmod>2023-06-30</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -158,6 +203,16 @@
   <url>
     <loc>https://fabrary.net/cards/star-struck-yellow</loc>
     <lastmod>2023-05-27</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/decimator-great-axe</loc>
+    <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/bastion-of-unity</loc>
+    <lastmod>2023-06-30</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

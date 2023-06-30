@@ -544,6 +544,69 @@ exports[`Check for unintentional updates Adrenaline Rush (adrenaline-rush-yellow
 }
 `;
 
+exports[`Check for unintentional updates Aegis, Archangel of Protection (aegis-archangel-of-protection) vs snapshot 1`] = `
+{
+  "artists": [
+    "soyameii",
+  ],
+  "cardIdentifier": "aegis-archangel-of-protection",
+  "classes": [
+    "NotClassed",
+  ],
+  "defaultImage": "DTD007_Back",
+  "functionalText": "**Once per Turn Action – {r}{r}: Attack**
+
+When Aegis attacks, you may banish a card from your hero’s soul. If you do, create 2 Spectral Shield tokens.
+
+**Ward 4**",
+  "isCardBack": true,
+  "keywords": [
+    "Ward",
+  ],
+  "life": 4,
+  "name": "Aegis, Archangel of Protection",
+  "oppositeSideCardIdentifier": "figment-of-protection-yellow",
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "DTD007",
+      "image": "DTD007_Back",
+      "set": "Dusk till Dawn",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "DTD007",
+      "image": "DTD007_Back_Marvel",
+      "set": "Dusk till Dawn",
+      "treatment": "Full Art",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD007",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD007_Back_Marvel",
+  "subtypes": [
+    "Angel",
+    "Ally",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light – Angel Ally",
+  "types": [],
+}
+`;
+
 exports[`Check for unintentional updates Aether Ashwing (aether-ashwing) vs snapshot 1`] = `
 {
   "artists": [
@@ -8569,6 +8632,53 @@ exports[`Check for unintentional updates Barraging Brawnhide (barraging-brawnhid
 }
 `;
 
+exports[`Check for unintentional updates Bastion of Unity (bastion-of-unity) vs snapshot 1`] = `
+{
+  "artists": [
+    "Kanadekana",
+  ],
+  "cardIdentifier": "bastion-of-unity",
+  "classes": [
+    "Warrior",
+  ],
+  "defaultImage": "DTD206",
+  "defense": 1,
+  "functionalText": "**Unity** - When this defends together with a card from hand, this gets +1{d} until end of turn.
+
+**Temper**",
+  "keywords": [
+    "Unity",
+    "Temper",
+  ],
+  "name": "Bastion of Unity",
+  "printings": [
+    {
+      "identifier": "DTD206",
+      "image": "DTD206",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "setIdentifiers": [
+    "DTD206",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD206",
+  "subtypes": [
+    "Off-Hand",
+  ],
+  "typeText": "Warrior Equipment – Off-Hand",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Battering Bolt (battering-bolt-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -9126,6 +9236,53 @@ If you've **charged** this turn, search your deck for an action card with cost X
 }
 `;
 
+exports[`Check for unintentional updates Beaming Blade (beaming-blade) vs snapshot 1`] = `
+{
+  "artists": [
+    "Jessketchin",
+  ],
+  "cardIdentifier": "beaming-blade",
+  "classes": [
+    "Warrior",
+  ],
+  "defaultImage": "DTD046",
+  "functionalText": "**Once per Turn Action – {r}: Attack
+
+If a yellow card has been put into your hero’s soul this turn, this gets +5{p}.",
+  "name": "Beaming Blade",
+  "power": 0,
+  "printings": [
+    {
+      "identifier": "DTD046",
+      "image": "DTD046",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "DTD046",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD046",
+  "subtypes": [
+    "Sword",
+    "2H",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Warrior Weapon – Sword (2H)",
+  "types": [
+    "Weapon",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Beast Mode (beast-mode-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -9636,6 +9793,7 @@ When Bellona attacks, you may banish a card from your hero’s soul. If you do, 
   ],
   "life": 4,
   "name": "Bellona, Archangel of War",
+  "oppositeSideCardIdentifier": "figment-of-war-yellow",
   "power": 4,
   "printings": [
     {
@@ -31928,6 +32086,50 @@ exports[`Check for unintentional updates Debilitate (debilitate-yellow) vs snaps
 }
 `;
 
+exports[`Check for unintentional updates Decimator Great Axe (decimator-great-axe) vs snapshot 1`] = `
+{
+  "artists": [
+    "Stormy Elia Fanggidae",
+  ],
+  "cardIdentifier": "decimator-great-axe",
+  "classes": [
+    "Warrior",
+  ],
+  "defaultImage": "DTD205",
+  "functionalText": "**Once per Turn Action – {r}{r}: Attack**
+
+The first time this is defended by a non-equipment card each turn, halve the base {d} of target defending card, rounded up.",
+  "name": "Decimator Great Axe",
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "DTD205",
+      "image": "DTD205",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "DTD205",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD205",
+  "subtypes": [
+    "Axe",
+    "2H",
+  ],
+  "typeText": "Warrior Weapon – Axe (2H)",
+  "types": [
+    "Weapon",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Deep Blue (deep-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -44671,6 +44873,189 @@ If Fervent Forerunner is played from arsenal, it gains **go again**.",
   "typeText": "Generic Action – Attack",
   "types": [
     "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Figment of Protection (figment-of-protection-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "soyameii",
+  ],
+  "cardIdentifier": "figment-of-protection-yellow",
+  "classes": [
+    "Illusionist",
+  ],
+  "cost": 4,
+  "defaultImage": "DTD007",
+  "functionalText": "**Legendary**
+
+When this enters the arena, create a Spectral Shield token.",
+  "keywords": [
+    "Legendary",
+  ],
+  "name": "Figment of Protection",
+  "oppositeSideCardIdentifier": "aegis-archangel-of-protection",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "DTD007",
+      "image": "DTD007",
+      "set": "Dusk till Dawn",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "DTD007",
+      "image": "DTD007_Marvel",
+      "set": "Dusk till Dawn",
+      "treatment": "Full Art",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD007",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD007_Marvel",
+  "subtypes": [
+    "Figment",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Illusionist Instant – Figment",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Figment of Ravages (figment-of-ravages-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "MJ Fetesio",
+  ],
+  "cardIdentifier": "figment-of-ravages-yellow",
+  "classes": [
+    "Illusionist",
+  ],
+  "cost": 4,
+  "defaultImage": "DTD008",
+  "functionalText": "**Legendary**
+
+When this enters the arena, deal 1 arcane damage to any target.",
+  "keywords": [
+    "Legendary",
+  ],
+  "name": "Figment of Ravages",
+  "oppositeSideCardIdentifier": "sekem-archangel-of-ravages",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "DTD008",
+      "image": "DTD008",
+      "set": "Dusk till Dawn",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "DTD008",
+      "image": "DTD008_Marvel",
+      "set": "Dusk till Dawn",
+      "treatment": "Full Art",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD008",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD008_Marvel",
+  "subtypes": [
+    "Figment",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Illusionist Instant – Figment",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Figment of Triumph (figment-of-triumph-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Joseph Qiu",
+  ],
+  "cardIdentifier": "figment-of-triumph-yellow",
+  "classes": [
+    "Illusionist",
+  ],
+  "cost": 4,
+  "defaultImage": "DTD011",
+  "functionalText": "**Legendary**
+
+When this enters the arena, attack action cards your opponent control get -1{p} this turn.",
+  "keywords": [
+    "Legendary",
+  ],
+  "name": "Figment of Triumph",
+  "oppositeSideCardIdentifier": "victoria-archangel-of-triumph",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "DTD011",
+      "image": "DTD011",
+      "set": "Dusk till Dawn",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "DTD011",
+      "image": "DTD011_Marvel",
+      "set": "Dusk till Dawn",
+      "treatment": "Full Art",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD011",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD011_Marvel",
+  "subtypes": [
+    "Figment",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Illusionist Instant – Fragment",
+  "types": [
+    "Instant",
   ],
 }
 `;
@@ -67919,6 +68304,58 @@ exports[`Check for unintentional updates Lava Vein Loyalty (lava-vein-loyalty-ye
 }
 `;
 
+exports[`Check for unintentional updates Lay to Rest (lay-to-rest-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Faizal Fikri",
+  ],
+  "cardIdentifier": "lay-to-rest-yellow",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 1,
+  "defaultImage": "DTD083",
+  "defense": 3,
+  "functionalText": "When this attacks a Shadow hero, it gets +1{p}.
+
+When this hits a hero, you may turn a card in their banished zone face-down.",
+  "name": "Lay to Rest",
+  "pitch": 2,
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "DTD083",
+      "image": "DTD083",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD083",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD083",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Lead the Charge (lead-the-charge-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -69369,6 +69806,59 @@ If Light it Up deals damage to a hero equal to or greater than the number of equ
     "Elemental",
   ],
   "typeText": "Elemental Ranger Action – Arrow Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Light the Way (light-the-way-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Rio Sabda",
+  ],
+  "cardIdentifier": "light-the-way-red",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD066",
+  "defense": 3,
+  "functionalText": "As an additional cost to play this, you may **charge** your hero’s soul.
+
+When this hits, if a yellow card was **charged** this way, this gets **go again**.",
+  "keywords": [
+    "Charge",
+    "Go again",
+  ],
+  "name": "Light the Way",
+  "pitch": 1,
+  "power": 3,
+  "printings": [
+    {
+      "identifier": "DTD066",
+      "image": "DTD066",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD066",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD066",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Warrior Action – Attack",
   "types": [
     "Action",
   ],
@@ -96090,6 +96580,55 @@ If Remorseless hits a hero, until the end of their next turn, whenever they play
 }
 `;
 
+exports[`Check for unintentional updates Resounding Courage (resounding-courage-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tomasz Jedruszek",
+  ],
+  "cardIdentifier": "resounding-courage-red",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 1,
+  "defaultImage": "DTD069",
+  "defense": 3,
+  "functionalText": "Target Light Warrior attack gets +3{p}.
+
+If you’ve **charged** this turn, create a Courage token.",
+  "keywords": [
+    "Charge",
+  ],
+  "name": "Resounding Courage",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "DTD069",
+      "image": "DTD069",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD069",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD069",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Warrior Attack Reaction",
+  "types": [],
+}
+`;
+
 exports[`Check for unintentional updates Revel in Runeblood (revel-in-runeblood-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -108386,6 +108925,69 @@ exports[`Check for unintentional updates Seismic Surge (seismic-surge) vs snapsh
   "types": [
     "Token",
   ],
+}
+`;
+
+exports[`Check for unintentional updates Sekem, Archangel of Ravages (sekem-archangel-of-ravages) vs snapshot 1`] = `
+{
+  "artists": [
+    "MJ Fetesio",
+  ],
+  "cardIdentifier": "sekem-archangel-of-ravages",
+  "classes": [
+    "NotClassed",
+  ],
+  "defaultImage": "DTD008_Back",
+  "functionalText": "**Once per Turn Action – {r}{r}: Attack**
+
+When Aegis attacks, you may banish a card from your hero’s soul. If you do, deal 2 arcane damage to any target.
+
+**Ward 4**",
+  "isCardBack": true,
+  "keywords": [
+    "Ward",
+  ],
+  "life": 4,
+  "name": "Sekem, Archangel of Ravages",
+  "oppositeSideCardIdentifier": "figment-of-ravages-yellow",
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "DTD008",
+      "image": "DTD008_Back",
+      "set": "Dusk till Dawn",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "DTD008",
+      "image": "DTD008_Back_Marvel",
+      "set": "Dusk till Dawn",
+      "treatment": "Full Art",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD008",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD008_Back_Marvel",
+  "subtypes": [
+    "Angel",
+    "Ally",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light – Angel Ally",
+  "types": [],
 }
 `;
 
@@ -136576,6 +137178,69 @@ exports[`Check for unintentional updates Vexing Quillhand (vexing-quillhand) vs 
   "types": [
     "Equipment",
   ],
+}
+`;
+
+exports[`Check for unintentional updates Victoria, Archangel of Triumph (victoria-archangel-of-triumph) vs snapshot 1`] = `
+{
+  "artists": [
+    "Joseph Qiu",
+  ],
+  "cardIdentifier": "victoria-archangel-of-triumph",
+  "classes": [
+    "NotClassed",
+  ],
+  "defaultImage": "DTD011_Back",
+  "functionalText": "**Once per Turn Action – {r}{r}: Attack**
+
+When VIctoria attacks, you may banish a card from your hero’s soul. If you do, attack action cards your opponents control get -1{p} until the start of your next turn.
+
+**Ward 4**",
+  "isCardBack": true,
+  "keywords": [
+    "Ward",
+  ],
+  "life": 4,
+  "name": "Victoria, Archangel of Triumph",
+  "oppositeSideCardIdentifier": "figment-of-triumph-yellow",
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "DTD011",
+      "image": "DTD011_Back",
+      "set": "Dusk till Dawn",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "DTD011",
+      "image": "DTD011_Back_Marvel",
+      "set": "Dusk till Dawn",
+      "treatment": "Full Art",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD011",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD011_Back_Marvel",
+  "subtypes": [
+    "Angel",
+    "Ally",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light – Angel Ally",
+  "types": [],
 }
 `;
 
