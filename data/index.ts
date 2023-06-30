@@ -900,6 +900,49 @@ Whenever you play a Shadow non-attack action card, you may pay {l}. If you do, t
     talents: [Talent.Light],
     
   },{
+    artists: ["Livia Prima"],
+    cardIdentifier: "prism-awakener-of-sol",
+    classes: [Class.Illusionist],
+    defaultImage: "DTD001",
+    name: "Prism, Awakener of Sol",
+    printings: [{
+      
+      identifier: "DTD001",
+      image: "DTD001",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD001"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD001",
+    subtypes: [],
+    types: [Type.Hero],
+    typeText: "Light Illusionist Hero",
+
+    
+    
+    functionalText: `Whenever a card with Herald in its name is put into Prism’s soul during an action phase, you may search your deck for a figment, put it into the arena, then shuffle.
+
+**Once per Turn Instant** - {r}{r}, banish a card from Prism’s soul: **Awaken** target figment you control.`,
+    
+    hero: Hero.Prism,
+    intellect: 4,
+    
+    keywords: [Keyword.Awaken],
+    life: 32,
+    
+    
+    
+    restrictedFormats: [Format.Blitz],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
     artists: ["soyameii"],
     cardIdentifier: "empyrean-rapture",
     classes: [Class.Illusionist],
@@ -941,6 +984,106 @@ Whenever you play a Shadow non-attack action card, you may pay {l}. If you do, t
     
     
     
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Daria Khlebnokova"],
+    cardIdentifier: "figment-of-erudition-yellow",
+    classes: [Class.Illusionist],
+    defaultImage: "DTD005",
+    name: "Figment of Erudition",
+    printings: [{
+      
+      identifier: "DTD005",
+      image: "DTD005",
+      set: Release.DuskTillDawn,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "DTD005",
+      image: "DTD005_Marvel",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.FA,
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD005"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD005_Marvel",
+    subtypes: [Subtype.Figment],
+    types: [Type.Instant],
+    typeText: "Light Illusionist Instant – Figment",
+
+    cost: 4,
+    
+    functionalText: `**Legendary**
+
+When this enters the arena, create a Ponder token`,
+    
+    
+    
+    
+    keywords: [Keyword.Legendary],
+    
+    oppositeSideCardIdentifier: `suraya-archangel-of-erudition`,
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Daria Khlebnokova"],
+    cardIdentifier: "suraya-archangel-of-erudition",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD005_Back",
+    name: "Suraya, Archangel of Erudition",
+    printings: [{
+      
+      identifier: "DTD012",
+      image: "DTD005_Back",
+      set: Release.DuskTillDawn,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "DTD012",
+      image: "DTD005_Back_Marvel",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.FA,
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD005"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD005_Back_Marvel",
+    subtypes: [Subtype.Angel,Subtype.Ally],
+    types: [],
+    typeText: "Light – Angel Ally",
+
+    
+    
+    functionalText: `**Once per Turn Action – {r}{r}: Attack**
+
+When Suraya attacks, you may banish a card from your hero’s soul. If you do, draw 2 cards.
+
+**Ward 4**`,
+    
+    
+    
+    isCardBack: true,
+    keywords: [Keyword.Ward],
+    life: 4,
+    oppositeSideCardIdentifier: `figment-of-erudition-yellow`,
+    
+    power: 4,
     restrictedFormats: [Format.Commoner],
     
     
@@ -1149,6 +1292,106 @@ When Aegis attacks, you may banish a card from your hero’s soul. If you do, de
     talents: [Talent.Light],
     
   },{
+    artists: ["Bastien Jez","Carlos Cruchaga"],
+    cardIdentifier: "figment-of-tenacity-yellow",
+    classes: [Class.Illusionist],
+    defaultImage: "DTD010",
+    name: "Figment of Tenacity",
+    printings: [{
+      
+      identifier: "DTD010",
+      image: "DTD010",
+      set: Release.DuskTillDawn,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "DTD010",
+      image: "DTD010_Marvel",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.FA,
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD010"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD010_Marvel",
+    subtypes: [Subtype.Figment],
+    types: [Type.Instant],
+    typeText: "Light Illusionist Instant – Figment",
+
+    cost: 4,
+    
+    functionalText: `**Legendary**
+
+When this enters the arena, your next attack this turn gets dominate.`,
+    
+    
+    
+    
+    keywords: [Keyword.Legendary],
+    
+    oppositeSideCardIdentifier: `metis-archangel-of-tenacity`,
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Bastien Jez","Carlos Cruchaga"],
+    cardIdentifier: "metis-archangel-of-tenacity",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD010_Back",
+    name: "Metis, Archangel of Tenacity",
+    printings: [{
+      
+      identifier: "DTD010",
+      image: "DTD010_Back",
+      set: Release.DuskTillDawn,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "DTD010",
+      image: "DTD010_Back_Marvel",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.FA,
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD010"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD010_Back_Marvel",
+    subtypes: [Subtype.Angel,Subtype.Ally],
+    types: [],
+    typeText: "Light – Angel Ally",
+
+    
+    
+    functionalText: `**Once per Turn Action – {r}{r}: Attack**
+
+When Metis attacks, you may banish a card from your hero’s soul. If you do, your attacks this turn get dominate.
+
+**Ward 4**`,
+    
+    
+    
+    isCardBack: true,
+    keywords: [Keyword.Ward],
+    life: 4,
+    oppositeSideCardIdentifier: `figment-of-tenacity-yellow`,
+    
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
     artists: ["Joseph Qiu"],
     cardIdentifier: "figment-of-triumph-yellow",
     classes: [Class.Illusionist],
@@ -1249,7 +1492,7 @@ When VIctoria attacks, you may banish a card from your hero’s soul. If you do,
     talents: [Talent.Light],
     
   },{
-    artists: ["Alexander Mokhov"],
+    artists: ["Alexander Mokhov","Eric Klug"],
     cardIdentifier: "figment-of-war-yellow",
     classes: [Class.Illusionist],
     defaultImage: "DTD012",
@@ -1278,7 +1521,9 @@ When VIctoria attacks, you may banish a card from your hero’s soul. If you do,
 
     cost: 4,
     
-    
+    functionalText: `**Legendary**
+
+When this enters the arena, create a Courage token.`,
     
     
     
@@ -1347,6 +1592,90 @@ When Bellona attacks, you may banish a card from your hero’s soul. If you do, 
     talents: [Talent.Light],
     
   },{
+    artists: ["Alief Rusdiatama"],
+    cardIdentifier: "angelic-descent-yellow",
+    classes: [Class.Illusionist],
+    defaultImage: "DTD033",
+    name: "Angelic Descent",
+    printings: [{
+      
+      identifier: "DTD033",
+      image: "DTD033",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD033"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD033",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Light Illusionist Instant",
+
+    cost: 0,
+    
+    functionalText: `Target attack action card with Herald in its name gets go again.
+
+Your next angel attack this turn gets +2{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Jen Santos"],
+    cardIdentifier: "celestial-resolve-yellow",
+    classes: [Class.Illusionist],
+    defaultImage: "DTD042",
+    name: "Celestial Resolve",
+    printings: [{
+      
+      identifier: "DTD042",
+      image: "DTD042",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD042"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD042",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Light Illusionist Instant",
+
+    cost: 0,
+    
+    functionalText: `Target attack action card with Herald in its name gets +4{d}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
     artists: ["Jessketchin"],
     cardIdentifier: "beaming-blade",
     classes: [Class.Warrior],
@@ -1390,6 +1719,51 @@ If a yellow card has been put into your hero’s soul this turn, this gets +5{p}
     talents: [Talent.Light],
     
   },{
+    artists: ["Asur Misoa"],
+    cardIdentifier: "prayer-of-bellona-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "DTD053",
+    name: "Prayer of Bellona",
+    printings: [{
+      
+      identifier: "DTD053",
+      image: "DTD053",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD053"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD053",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Light Warrior Action ",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `Your next attack this turn gets +2{p}.
+
+Reveal the top card of your deck. If it’s yellow, put it into your hand, then **charge** your hero’s soul.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.Charge,Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "v-for-valor-red",
     classes: [Class.Warrior],
@@ -1422,6 +1796,88 @@ If a yellow card has been put into your hero’s soul this turn, this gets +5{p}
     
     
     pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "v-for-valor-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "DTD061",
+    name: "V for Valor",
+    printings: [{
+      
+      identifier: "DTD061",
+      image: "DTD061",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD061"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD061",
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Light Warrior Action – Aura",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `**Attack Reaction – {r}**, destroy this, **charge** your hero’s soul: target attack gets +2{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Charge],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "v-for-valor-blue",
+    classes: [Class.Warrior],
+    defaultImage: "DTD062",
+    name: "V for Valor",
+    printings: [{
+      
+      identifier: "DTD062",
+      image: "DTD062",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD062"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD062",
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Light Warrior Action – Aura",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `**Attack Reaction – {r}**, destroy this, **charge** your hero’s soul: target attack gets +1{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Charge],
+    
+    
+    pitch: 3,
     
     restrictedFormats: [Format.Commoner],
     
@@ -1474,6 +1930,92 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
     talents: [Talent.Light],
     
   },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "light-the-way-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "DTD067",
+    name: "Light the Way",
+    printings: [{
+      
+      identifier: "DTD067",
+      image: "DTD067",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD067"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD067",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Warrior Action – Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `As an additional cost to play this, you may **charge** your hero’s soul.
+
+When this hits, if a yellow card was **charged** this way, this gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Charge,Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "light-the-way-blue",
+    classes: [Class.Warrior],
+    defaultImage: "DTD068",
+    name: "Light the Way",
+    printings: [{
+      
+      identifier: "DTD068",
+      image: "DTD068",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD068"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD068",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Warrior Action – Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `As an additional cost to play this, you may **charge** your hero’s soul.
+
+When this hits, if a yellow card was **charged** this way, this gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Charge,Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
     artists: ["Tomasz Jedruszek"],
     cardIdentifier: "resounding-courage-red",
     classes: [Class.Warrior],
@@ -1508,6 +2050,385 @@ If you’ve **charged** this turn, create a Courage token.`,
     
     
     pitch: 1,
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "resounding-courage-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "DTD070",
+    name: "Resounding Courage",
+    printings: [{
+      
+      identifier: "DTD070",
+      image: "DTD070",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD070"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD070",
+    subtypes: [Subtype.Attack],
+    types: [],
+    typeText: "Light Warrior Attack Reaction",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `Target Light Warrior attack gets +2{p}.
+
+If you’ve **charged** this turn, create a Courage token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Charge],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "resounding-courage-blue",
+    classes: [Class.Warrior],
+    defaultImage: "DTD071",
+    name: "Resounding Courage",
+    printings: [{
+      
+      identifier: "DTD071",
+      image: "DTD071",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD071"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD071",
+    subtypes: [Subtype.Attack],
+    types: [],
+    typeText: "Light Warrior Attack Reaction",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `Target Light Warrior attack gets +1{p}.
+
+If you’ve **charged** this turn, create a Courage token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Charge],
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Erick Efata"],
+    cardIdentifier: "charge-of-the-light-brigade-red",
+    classes: [Class.Warrior],
+    defaultImage: "DTD072",
+    name: "Charge of the Light Brigade",
+    printings: [{
+      
+      identifier: "DTD072",
+      image: "DTD072",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD072"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD072",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Light Warrior Action ",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `The next attack you **charge** this turn gets +3{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.Charge,Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Erick Efata"],
+    cardIdentifier: "charge-of-the-light-brigade-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "DTD073",
+    name: "Charge of the Light Brigade",
+    printings: [{
+      
+      identifier: "DTD073",
+      image: "DTD073",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD073"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD073",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Light Warrior Action ",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `The next attack you **charge** this turn gets +2{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.Charge,Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Erick Efata"],
+    cardIdentifier: "charge-of-the-light-brigade-blue",
+    classes: [Class.Warrior],
+    defaultImage: "DTD074",
+    name: "Charge of the Light Brigade",
+    printings: [{
+      
+      identifier: "DTD074",
+      image: "DTD074",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD074"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD074",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Light Warrior Action ",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `The next attack you **charge** this turn gets +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.Charge,Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Eilene Cherie"],
+    cardIdentifier: "radiant-view",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD075",
+    name: "Radiant View",
+    printings: [{
+      
+      identifier: "DTD075",
+      image: "DTD075",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD075"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD075",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Light Equipment – Head",
+
+    
+    
+    functionalText: `**Instant** - Banish this and a card from your hero’s soul: Prevent the next 2 damage that would be dealt to your hero this turn.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Eilene Cherie"],
+    cardIdentifier: "radiant-raiment",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD076",
+    name: "Radiant Raiment",
+    printings: [{
+      
+      identifier: "DTD076",
+      image: "DTD076",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD076"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD076",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Light Equipment – Chest",
+
+    
+    
+    functionalText: `**Instant** - Banish this and a card from your hero’s soul: Prevent the next 2 damage that would be dealt to your hero this turn.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Eilene Cherie"],
+    cardIdentifier: "radiant-touch",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD077",
+    name: "Radiant Touch",
+    printings: [{
+      
+      identifier: "DTD077",
+      image: "DTD077",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD077"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD077",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Light Equipment – Arms",
+
+    
+    
+    functionalText: `**Instant** - Banish this and a card from your hero’s soul: Prevent the next 2 damage that would be dealt to your hero this turn.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Eilene Cherie"],
+    cardIdentifier: "radiant-flow",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD078",
+    name: "Radiant Flow",
+    printings: [{
+      
+      identifier: "DTD078",
+      image: "DTD078",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD078"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD078",
+    subtypes: [Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Light Equipment – Legs",
+
+    
+    
+    functionalText: `**Instant** - Banish this and a card from your hero’s soul: Prevent the next 2 damage that would be dealt to your hero this turn.`,
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1558,6 +2479,51 @@ If you’ve **charged** this turn, create a Courage token.`,
     talents: [Talent.Light],
     
   },{
+    artists: ["Jessada Sutthi"],
+    cardIdentifier: "lumina-lance-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD080",
+    name: "Lumina Lance",
+    printings: [{
+      
+      identifier: "DTD080",
+      image: "DTD080",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD080"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD080",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Light Attack Reaction",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `As an additional cost to play this, banish up to 3 cards from your hero’s soul. Choose that many modes:
+
+- Target Light attack gets +2{p}.
+- Target Light attack gets “When this hits, draw a card.”
+- Target Light attack gets “When this hits, it gets **go again**.”`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "lay-to-rest-yellow",
     classes: [Class.NotClassed],
@@ -1594,6 +2560,47 @@ When this hits a hero, you may turn a card in their banished zone face-down.`,
     pitch: 2,
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "break-of-dawn-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD101",
+    name: "Break of Dawn",
+    printings: [{
+      
+      identifier: "DTD101",
+      image: "DTD101",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD101"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD101",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Light Instant",
+
+    cost: 0,
+    
+    functionalText: `The next time a Shadow source would deal damage this turn, prevent 3 of that damage.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    
     
     
     
@@ -33865,7 +34872,8 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Rio Sabda"],
     cardIdentifier: "barraging-big-horn-yellow",
     classes: [Class.Brute],
@@ -34938,8 +35946,7 @@ At the beginning of your action phase, destroy Stamp Authority.`,
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["bimawithpencil"],
     cardIdentifier: "towering-titan-yellow",
     classes: [Class.Guardian],
@@ -68177,7 +69184,8 @@ If Flake Out was **fused**, it gains **dominate**.`,
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Marco Wulfr"],
     cardIdentifier: "frazzle-red",
     classes: [Class.Ranger],
@@ -68987,8 +69995,7 @@ If you have dealt arcane damage this turn, Rites of Lightning gains **go again**
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Alexander Gering"],
     cardIdentifier: "rites-of-lightning-yellow",
     classes: [Class.Runeblade],
@@ -97551,7 +98558,8 @@ Frostbites you control have "At the beginning of your end phase, this deals 1 ar
     
     talents: [Talent.Ice],
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Sam Yang"],
     cardIdentifier: "ice-bolt-yellow",
     classes: [Class.Wizard],
@@ -97853,8 +98861,7 @@ At the beginning of your end phase, destroy Hypothermia.`,
     
     talents: [Talent.Ice],
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Mark Poole"],
     cardIdentifier: "insidious-chill-blue",
     classes: [Class.NotClassed],
@@ -125095,7 +126102,7 @@ At the beginning of your end phase destroy Frailty.`,
     ...cards4,
   ];
 
-  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Eilene Cherie","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Erick Efata","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Jessica Nguyen","Jessketchin","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kalashnikova N.","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Maerel Hibadita","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wiśniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Revazashvili E.","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sariya Asavametha","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Stormy Elia Fanggidae","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tomasz Jedruszek","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
+  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","Bastien Jez","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","Daria Khlebnokova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Eilene Cherie","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Eric Klug","Erick Efata","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Jessica Nguyen","Jessketchin","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kalashnikova N.","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Maerel Hibadita","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wiśniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Revazashvili E.","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sariya Asavametha","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Stormy Elia Fanggidae","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tomasz Jedruszek","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
 
   export * from "./sets";
 

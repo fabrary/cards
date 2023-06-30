@@ -3634,6 +3634,51 @@ Draw a card.",
 }
 `;
 
+exports[`Check for unintentional updates Angelic Descent (angelic-descent-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Alief Rusdiatama",
+  ],
+  "cardIdentifier": "angelic-descent-yellow",
+  "classes": [
+    "Illusionist",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD033",
+  "functionalText": "Target attack action card with Herald in its name gets go again.
+
+Your next angel attack this turn gets +2{p}.",
+  "name": "Angelic Descent",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "DTD033",
+      "image": "DTD033",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD033",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD033",
+  "subtypes": [],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Illusionist Instant",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Angelic Wrath (angelic-wrath-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -18574,6 +18619,49 @@ exports[`Check for unintentional updates Break Tide (break-tide-yellow) vs snaps
 }
 `;
 
+exports[`Check for unintentional updates Break of Dawn (break-of-dawn-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Nikolay Moskvin",
+  ],
+  "cardIdentifier": "break-of-dawn-yellow",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD101",
+  "functionalText": "The next time a Shadow source would deal damage this turn, prevent 3 of that damage.",
+  "name": "Break of Dawn",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "DTD101",
+      "image": "DTD101",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD101",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD101",
+  "subtypes": [],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Instant",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Breaking Point (breaking-point-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -21907,6 +21995,49 @@ exports[`Check for unintentional updates Celestial Kimono (celestial-kimono) vs 
 }
 `;
 
+exports[`Check for unintentional updates Celestial Resolve (celestial-resolve-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Jen Santos",
+  ],
+  "cardIdentifier": "celestial-resolve-yellow",
+  "classes": [
+    "Illusionist",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD042",
+  "functionalText": "Target attack action card with Herald in its name gets +4{d}.",
+  "name": "Celestial Resolve",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "DTD042",
+      "image": "DTD042",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD042",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD042",
+  "subtypes": [],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Illusionist Instant",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Chain Lightning (chain-lightning-yellow) vs snapshot 1`] = `
 {
   "artists": [
@@ -22521,6 +22652,162 @@ Heroes can't reveal cards, search decks, or draw cards from effects.
     "Ice",
   ],
   "typeText": "Ice Action – Aura",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Charge of the Light Brigade (charge-of-the-light-brigade-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Erick Efata",
+  ],
+  "cardIdentifier": "charge-of-the-light-brigade-blue",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD074",
+  "defense": 3,
+  "functionalText": "The next attack you **charge** this turn gets +1{p}.
+
+**Go again**",
+  "keywords": [
+    "Charge",
+    "Go again",
+  ],
+  "name": "Charge of the Light Brigade",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "DTD074",
+      "image": "DTD074",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD074",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD074",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Warrior Action ",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Charge of the Light Brigade (charge-of-the-light-brigade-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Erick Efata",
+  ],
+  "cardIdentifier": "charge-of-the-light-brigade-red",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD072",
+  "defense": 3,
+  "functionalText": "The next attack you **charge** this turn gets +3{p}.
+
+**Go again**",
+  "keywords": [
+    "Charge",
+    "Go again",
+  ],
+  "name": "Charge of the Light Brigade",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "DTD072",
+      "image": "DTD072",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD072",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD072",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Warrior Action ",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Charge of the Light Brigade (charge-of-the-light-brigade-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Erick Efata",
+  ],
+  "cardIdentifier": "charge-of-the-light-brigade-yellow",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD073",
+  "defense": 3,
+  "functionalText": "The next attack you **charge** this turn gets +2{p}.
+
+**Go again**",
+  "keywords": [
+    "Charge",
+    "Go again",
+  ],
+  "name": "Charge of the Light Brigade",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "DTD073",
+      "image": "DTD073",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD073",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD073",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Warrior Action ",
   "types": [
     "Action",
   ],
@@ -44877,6 +45164,67 @@ If Fervent Forerunner is played from arsenal, it gains **go again**.",
 }
 `;
 
+exports[`Check for unintentional updates Figment of Erudition (figment-of-erudition-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Daria Khlebnokova",
+  ],
+  "cardIdentifier": "figment-of-erudition-yellow",
+  "classes": [
+    "Illusionist",
+  ],
+  "cost": 4,
+  "defaultImage": "DTD005",
+  "functionalText": "**Legendary**
+
+When this enters the arena, create a Ponder token",
+  "keywords": [
+    "Legendary",
+  ],
+  "name": "Figment of Erudition",
+  "oppositeSideCardIdentifier": "suraya-archangel-of-erudition",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "DTD005",
+      "image": "DTD005",
+      "set": "Dusk till Dawn",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "DTD005",
+      "image": "DTD005_Marvel",
+      "set": "Dusk till Dawn",
+      "treatment": "Full Art",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD005",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD005_Marvel",
+  "subtypes": [
+    "Figment",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Illusionist Instant – Figment",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Figment of Protection (figment-of-protection-yellow) vs snapshot 1`] = `
 {
   "artists": [
@@ -44999,6 +45347,68 @@ When this enters the arena, deal 1 arcane damage to any target.",
 }
 `;
 
+exports[`Check for unintentional updates Figment of Tenacity (figment-of-tenacity-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Bastien Jez",
+    "Carlos Cruchaga",
+  ],
+  "cardIdentifier": "figment-of-tenacity-yellow",
+  "classes": [
+    "Illusionist",
+  ],
+  "cost": 4,
+  "defaultImage": "DTD010",
+  "functionalText": "**Legendary**
+
+When this enters the arena, your next attack this turn gets dominate.",
+  "keywords": [
+    "Legendary",
+  ],
+  "name": "Figment of Tenacity",
+  "oppositeSideCardIdentifier": "metis-archangel-of-tenacity",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "DTD010",
+      "image": "DTD010",
+      "set": "Dusk till Dawn",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "DTD010",
+      "image": "DTD010_Marvel",
+      "set": "Dusk till Dawn",
+      "treatment": "Full Art",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD010",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD010_Marvel",
+  "subtypes": [
+    "Figment",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Illusionist Instant – Figment",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Figment of Triumph (figment-of-triumph-yellow) vs snapshot 1`] = `
 {
   "artists": [
@@ -45054,6 +45464,68 @@ When this enters the arena, attack action cards your opponent control get -1{p} 
     "Light",
   ],
   "typeText": "Light Illusionist Instant – Fragment",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Figment of War (figment-of-war-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Alexander Mokhov",
+    "Eric Klug",
+  ],
+  "cardIdentifier": "figment-of-war-yellow",
+  "classes": [
+    "Illusionist",
+  ],
+  "cost": 4,
+  "defaultImage": "DTD012",
+  "functionalText": "**Legendary**
+
+When this enters the arena, create a Courage token.",
+  "keywords": [
+    "Legendary",
+  ],
+  "name": "Figment of War",
+  "oppositeSideCardIdentifier": "bellona-archangel-of-war",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "DTD012",
+      "image": "DTD012",
+      "set": "Dusk till Dawn",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "DTD012",
+      "image": "DTD012_Marvel",
+      "set": "Dusk till Dawn",
+      "treatment": "Full Art",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD012",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD012_Marvel",
+  "subtypes": [
+    "Figment",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Illusionist Instant – Figment",
   "types": [
     "Instant",
   ],
@@ -69812,6 +70284,59 @@ If Light it Up deals damage to a hero equal to or greater than the number of equ
 }
 `;
 
+exports[`Check for unintentional updates Light the Way (light-the-way-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Rio Sabda",
+  ],
+  "cardIdentifier": "light-the-way-blue",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD068",
+  "defense": 3,
+  "functionalText": "As an additional cost to play this, you may **charge** your hero’s soul.
+
+When this hits, if a yellow card was **charged** this way, this gets **go again**.",
+  "keywords": [
+    "Charge",
+    "Go again",
+  ],
+  "name": "Light the Way",
+  "pitch": 3,
+  "power": 1,
+  "printings": [
+    {
+      "identifier": "DTD068",
+      "image": "DTD068",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD068",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD068",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Warrior Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Light the Way (light-the-way-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -69852,6 +70377,59 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
     "Dusk till Dawn",
   ],
   "specialImage": "DTD066",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Warrior Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Light the Way (light-the-way-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Rio Sabda",
+  ],
+  "cardIdentifier": "light-the-way-yellow",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD067",
+  "defense": 3,
+  "functionalText": "As an additional cost to play this, you may **charge** your hero’s soul.
+
+When this hits, if a yellow card was **charged** this way, this gets **go again**.",
+  "keywords": [
+    "Charge",
+    "Go again",
+  ],
+  "name": "Light the Way",
+  "pitch": 2,
+  "power": 2,
+  "printings": [
+    {
+      "identifier": "DTD067",
+      "image": "DTD067",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD067",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD067",
   "subtypes": [
     "Attack",
   ],
@@ -74373,6 +74951,70 @@ exports[`Check for unintentional updates Metacarpus Node (metacarpus-node) vs sn
   "types": [
     "Equipment",
   ],
+}
+`;
+
+exports[`Check for unintentional updates Metis, Archangel of Tenacity (metis-archangel-of-tenacity) vs snapshot 1`] = `
+{
+  "artists": [
+    "Bastien Jez",
+    "Carlos Cruchaga",
+  ],
+  "cardIdentifier": "metis-archangel-of-tenacity",
+  "classes": [
+    "NotClassed",
+  ],
+  "defaultImage": "DTD010_Back",
+  "functionalText": "**Once per Turn Action – {r}{r}: Attack**
+
+When Metis attacks, you may banish a card from your hero’s soul. If you do, your attacks this turn get dominate.
+
+**Ward 4**",
+  "isCardBack": true,
+  "keywords": [
+    "Ward",
+  ],
+  "life": 4,
+  "name": "Metis, Archangel of Tenacity",
+  "oppositeSideCardIdentifier": "figment-of-tenacity-yellow",
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "DTD010",
+      "image": "DTD010_Back",
+      "set": "Dusk till Dawn",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "DTD010",
+      "image": "DTD010_Back_Marvel",
+      "set": "Dusk till Dawn",
+      "treatment": "Full Art",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD010",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD010_Back_Marvel",
+  "subtypes": [
+    "Angel",
+    "Ally",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light – Angel Ally",
+  "types": [],
 }
 `;
 
@@ -86909,6 +87551,63 @@ exports[`Check for unintentional updates Powder Keg (powder-keg-blue) vs snapsho
 }
 `;
 
+exports[`Check for unintentional updates Prayer of Bellona (prayer-of-bellona-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Asur Misoa",
+  ],
+  "cardIdentifier": "prayer-of-bellona-yellow",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 1,
+  "defaultImage": "DTD053",
+  "defense": 3,
+  "functionalText": "Your next attack this turn gets +2{p}.
+
+Reveal the top card of your deck. If it’s yellow, put it into your hand, then **charge** your hero’s soul.
+
+**Go again**",
+  "keywords": [
+    "Charge",
+    "Go again",
+  ],
+  "name": "Prayer of Bellona",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "DTD053",
+      "image": "DTD053",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD053",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD053",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Warrior Action ",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Precision Press (precision-press-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -87911,6 +88610,58 @@ exports[`Check for unintentional updates Prism, Advent of Thrones (prism-advent-
     "Hero",
   ],
   "young": true,
+}
+`;
+
+exports[`Check for unintentional updates Prism, Awakener of Sol (prism-awakener-of-sol) vs snapshot 1`] = `
+{
+  "artists": [
+    "Livia Prima",
+  ],
+  "cardIdentifier": "prism-awakener-of-sol",
+  "classes": [
+    "Illusionist",
+  ],
+  "defaultImage": "DTD001",
+  "functionalText": "Whenever a card with Herald in its name is put into Prism’s soul during an action phase, you may search your deck for a figment, put it into the arena, then shuffle.
+
+**Once per Turn Instant** - {r}{r}, banish a card from Prism’s soul: **Awaken** target figment you control.",
+  "hero": "Prism",
+  "intellect": 4,
+  "keywords": [
+    "Awaken",
+  ],
+  "life": 32,
+  "name": "Prism, Awakener of Sol",
+  "printings": [
+    {
+      "identifier": "DTD001",
+      "image": "DTD001",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Blitz",
+  ],
+  "setIdentifiers": [
+    "DTD001",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD001",
+  "subtypes": [],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Illusionist Hero",
+  "types": [
+    "Hero",
+  ],
 }
 `;
 
@@ -91328,6 +92079,178 @@ exports[`Check for unintentional updates Quiver of Rustling Leaves (quiver-of-ru
     "Quiver",
   ],
   "typeText": "Ranger Equipment - Quiver",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Radiant Flow (radiant-flow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Eilene Cherie",
+  ],
+  "cardIdentifier": "radiant-flow",
+  "classes": [
+    "NotClassed",
+  ],
+  "defaultImage": "DTD078",
+  "functionalText": "**Instant** - Banish this and a card from your hero’s soul: Prevent the next 2 damage that would be dealt to your hero this turn.",
+  "name": "Radiant Flow",
+  "printings": [
+    {
+      "identifier": "DTD078",
+      "image": "DTD078",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD078",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD078",
+  "subtypes": [
+    "Legs",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Equipment – Legs",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Radiant Raiment (radiant-raiment) vs snapshot 1`] = `
+{
+  "artists": [
+    "Eilene Cherie",
+  ],
+  "cardIdentifier": "radiant-raiment",
+  "classes": [
+    "NotClassed",
+  ],
+  "defaultImage": "DTD076",
+  "functionalText": "**Instant** - Banish this and a card from your hero’s soul: Prevent the next 2 damage that would be dealt to your hero this turn.",
+  "name": "Radiant Raiment",
+  "printings": [
+    {
+      "identifier": "DTD076",
+      "image": "DTD076",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD076",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD076",
+  "subtypes": [
+    "Chest",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Equipment – Chest",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Radiant Touch (radiant-touch) vs snapshot 1`] = `
+{
+  "artists": [
+    "Eilene Cherie",
+  ],
+  "cardIdentifier": "radiant-touch",
+  "classes": [
+    "NotClassed",
+  ],
+  "defaultImage": "DTD077",
+  "functionalText": "**Instant** - Banish this and a card from your hero’s soul: Prevent the next 2 damage that would be dealt to your hero this turn.",
+  "name": "Radiant Touch",
+  "printings": [
+    {
+      "identifier": "DTD077",
+      "image": "DTD077",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD077",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD077",
+  "subtypes": [
+    "Arms",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Equipment – Arms",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Radiant View (radiant-view) vs snapshot 1`] = `
+{
+  "artists": [
+    "Eilene Cherie",
+  ],
+  "cardIdentifier": "radiant-view",
+  "classes": [
+    "NotClassed",
+  ],
+  "defaultImage": "DTD075",
+  "functionalText": "**Instant** - Banish this and a card from your hero’s soul: Prevent the next 2 damage that would be dealt to your hero this turn.",
+  "name": "Radiant View",
+  "printings": [
+    {
+      "identifier": "DTD075",
+      "image": "DTD075",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD075",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD075",
+  "subtypes": [
+    "Head",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Equipment – Head",
   "types": [
     "Equipment",
   ],
@@ -96580,6 +97503,55 @@ If Remorseless hits a hero, until the end of their next turn, whenever they play
 }
 `;
 
+exports[`Check for unintentional updates Resounding Courage (resounding-courage-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tomasz Jedruszek",
+  ],
+  "cardIdentifier": "resounding-courage-blue",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 1,
+  "defaultImage": "DTD071",
+  "defense": 3,
+  "functionalText": "Target Light Warrior attack gets +1{p}.
+
+If you’ve **charged** this turn, create a Courage token.",
+  "keywords": [
+    "Charge",
+  ],
+  "name": "Resounding Courage",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "DTD071",
+      "image": "DTD071",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD071",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD071",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Warrior Attack Reaction",
+  "types": [],
+}
+`;
+
 exports[`Check for unintentional updates Resounding Courage (resounding-courage-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -96618,6 +97590,55 @@ If you’ve **charged** this turn, create a Courage token.",
     "Dusk till Dawn",
   ],
   "specialImage": "DTD069",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Warrior Attack Reaction",
+  "types": [],
+}
+`;
+
+exports[`Check for unintentional updates Resounding Courage (resounding-courage-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tomasz Jedruszek",
+  ],
+  "cardIdentifier": "resounding-courage-yellow",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 1,
+  "defaultImage": "DTD070",
+  "defense": 3,
+  "functionalText": "Target Light Warrior attack gets +2{p}.
+
+If you’ve **charged** this turn, create a Courage token.",
+  "keywords": [
+    "Charge",
+  ],
+  "name": "Resounding Courage",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "DTD070",
+      "image": "DTD070",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD070",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD070",
   "subtypes": [
     "Attack",
   ],
@@ -125290,6 +126311,69 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
 }
 `;
 
+exports[`Check for unintentional updates Suraya, Archangel of Erudition (suraya-archangel-of-erudition) vs snapshot 1`] = `
+{
+  "artists": [
+    "Daria Khlebnokova",
+  ],
+  "cardIdentifier": "suraya-archangel-of-erudition",
+  "classes": [
+    "NotClassed",
+  ],
+  "defaultImage": "DTD005_Back",
+  "functionalText": "**Once per Turn Action – {r}{r}: Attack**
+
+When Suraya attacks, you may banish a card from your hero’s soul. If you do, draw 2 cards.
+
+**Ward 4**",
+  "isCardBack": true,
+  "keywords": [
+    "Ward",
+  ],
+  "life": 4,
+  "name": "Suraya, Archangel of Erudition",
+  "oppositeSideCardIdentifier": "figment-of-erudition-yellow",
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "DTD012",
+      "image": "DTD005_Back",
+      "set": "Dusk till Dawn",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "DTD012",
+      "image": "DTD005_Back_Marvel",
+      "set": "Dusk till Dawn",
+      "treatment": "Full Art",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD005",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD005_Back_Marvel",
+  "subtypes": [
+    "Angel",
+    "Ally",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light – Angel Ally",
+  "types": [],
+}
+`;
+
 exports[`Check for unintentional updates Suraya, Archangel of Knowledge (suraya-archangel-of-knowledge) vs snapshot 1`] = `
 {
   "artists": [
@@ -135612,6 +136696,59 @@ exports[`Check for unintentional updates Uzuri, Switchblade (uzuri-switchblade) 
 }
 `;
 
+exports[`Check for unintentional updates V for Valor (v-for-valor-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Isuardi Therianto",
+  ],
+  "cardIdentifier": "v-for-valor-blue",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD062",
+  "defense": 2,
+  "functionalText": "**Attack Reaction – {r}**, destroy this, **charge** your hero’s soul: target attack gets +1{p}.",
+  "keywords": [
+    "Charge",
+  ],
+  "name": "V for Valor",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "DTD062",
+      "image": "DTD062",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD062",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD062",
+  "subtypes": [
+    "Aura",
+    "Non-Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Warrior Action – Aura",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates V for Valor (v-for-valor-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -135651,6 +136788,59 @@ exports[`Check for unintentional updates V for Valor (v-for-valor-red) vs snapsh
     "Dusk till Dawn",
   ],
   "specialImage": "DTD060",
+  "subtypes": [
+    "Aura",
+    "Non-Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Warrior Action – Aura",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates V for Valor (v-for-valor-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Isuardi Therianto",
+  ],
+  "cardIdentifier": "v-for-valor-yellow",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD061",
+  "defense": 2,
+  "functionalText": "**Attack Reaction – {r}**, destroy this, **charge** your hero’s soul: target attack gets +2{p}.",
+  "keywords": [
+    "Charge",
+  ],
+  "name": "V for Valor",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "DTD061",
+      "image": "DTD061",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD061",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD061",
   "subtypes": [
     "Aura",
     "Non-Attack",

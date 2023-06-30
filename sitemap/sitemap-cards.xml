@@ -106,7 +106,22 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/prism-awakener-of-sol</loc>
+    <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/empyrean-rapture</loc>
+    <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/figment-of-erudition-yellow</loc>
+    <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/suraya-archangel-of-erudition</loc>
     <lastmod>2023-06-30</lastmod>
     <priority>0.5</priority>
   </url>
@@ -131,6 +146,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/figment-of-tenacity-yellow</loc>
+    <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/metis-archangel-of-tenacity</loc>
+    <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/figment-of-triumph-yellow</loc>
     <lastmod>2023-06-30</lastmod>
     <priority>0.5</priority>
@@ -151,7 +176,22 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/angelic-descent-yellow</loc>
+    <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/celestial-resolve-yellow</loc>
+    <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/beaming-blade</loc>
+    <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/prayer-of-bellona-yellow</loc>
     <lastmod>2023-06-30</lastmod>
     <priority>0.5</priority>
   </url>
@@ -161,7 +201,27 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/v-for-valor-yellow</loc>
+    <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/v-for-valor-blue</loc>
+    <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/light-the-way-red</loc>
+    <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/light-the-way-yellow</loc>
+    <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/light-the-way-blue</loc>
     <lastmod>2023-06-30</lastmod>
     <priority>0.5</priority>
   </url>
@@ -171,12 +231,67 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/resounding-courage-yellow</loc>
+    <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/resounding-courage-blue</loc>
+    <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/charge-of-the-light-brigade-red</loc>
+    <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/charge-of-the-light-brigade-yellow</loc>
+    <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/charge-of-the-light-brigade-blue</loc>
+    <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/radiant-view</loc>
+    <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/radiant-raiment</loc>
+    <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/radiant-touch</loc>
+    <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/radiant-flow</loc>
+    <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/united-we-stand-yellow</loc>
     <lastmod>2023-06-16</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/lumina-lance-yellow</loc>
+    <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/lay-to-rest-yellow</loc>
+    <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/break-of-dawn-yellow</loc>
     <lastmod>2023-06-30</lastmod>
     <priority>0.5</priority>
   </url>
