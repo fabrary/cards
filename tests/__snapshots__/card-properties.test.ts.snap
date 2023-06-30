@@ -32638,6 +32638,61 @@ exports[`Check for unintentional updates Destructive Deliberation (destructive-d
 }
 `;
 
+exports[`Check for unintentional updates Diabolic Offering (diabolic-offering-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Carlos Cruchaga",
+  ],
+  "cardIdentifier": "diabolic-offering-blue",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 1,
+  "defaultImage": "DTD107",
+  "functionalText": "If a card with 6 or more {p} has been put into your banished zone this turn, Diabolic Offering’s {p} and {d} are 6, otherwise they are 0.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Diabolic Offering",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "DTD107",
+      "image": "DTD107",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD107",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialDefense": "*",
+  "specialImage": "DTD107",
+  "specialPower": "*",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Diabolic Ultimatum (diabolic-ultimatum-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -46612,6 +46667,53 @@ exports[`Check for unintentional updates Flick Knives (flick-knives) vs snapshot
   "typeText": "Assassin / Ninja Equipment - Arms",
   "types": [
     "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Flicker Trick (flicker-trick-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Athiwut B.",
+  ],
+  "cardIdentifier": "flicker-trick-red",
+  "classes": [
+    "Illusionist",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD218",
+  "defense": 5,
+  "functionalText": "**Mirage**",
+  "keywords": [
+    "Mirage",
+  ],
+  "name": "Flicker Trick",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "DTD218",
+      "image": "DTD218",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD218",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD218",
+  "subtypes": [],
+  "typeText": "Illusionist Defense Reaction",
+  "types": [
+    "Defense Reaction",
   ],
 }
 `;
@@ -70388,6 +70490,57 @@ exports[`Check for unintentional updates Lord of Wind (lord-of-wind-blue) vs sna
     "Attack",
   ],
   "typeText": "Ninja Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Lost in Thought (lost-in-thought-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Carlos Cruchaga",
+  ],
+  "cardIdentifier": "lost-in-thought-red",
+  "classes": [
+    "Illusionist",
+  ],
+  "cost": 1,
+  "defaultImage": "DTD219",
+  "defense": 2,
+  "functionalText": "Look at target hero’s hand and choose an attack action card. If you do, they put that card on the bottom of their deck and they create a Ponder token.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Lost in Thought",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "DTD219",
+      "image": "DTD219",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD219",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD219",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Illusionist Action",
   "types": [
     "Action",
   ],

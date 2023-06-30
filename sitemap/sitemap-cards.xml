@@ -116,6 +116,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/diabolic-offering-blue</loc>
+    <lastmod>2023-06-26</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/anthem-of-spring-blue</loc>
     <lastmod>2023-05-31</lastmod>
     <priority>0.5</priority>
@@ -148,6 +153,16 @@
   <url>
     <loc>https://fabrary.net/cards/flicker-trick-red</loc>
     <lastmod>2023-06-20</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/lost-in-thought-red</loc>
+    <lastmod>2023-06-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/hold-the-line-blue</loc>
+    <lastmod>2023-06-28</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

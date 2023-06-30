@@ -992,6 +992,49 @@ When Bellona attacks, you may banish a card from your hero’s soul. If you do, 
     talents: [Talent.Light],
     
   },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "diabolic-offering-blue",
+    classes: [Class.Brute],
+    defaultImage: "DTD107",
+    name: "Diabolic Offering",
+    printings: [{
+      
+      identifier: "DTD107",
+      image: "DTD107",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD107"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD107",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action – Attack",
+
+    cost: 1,
+    
+    functionalText: `If a card with 6 or more {p} has been put into your banished zone this turn, Diabolic Offering’s {p} and {d} are 6, otherwise they are 0.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    specialDefense: "*",
+    specialPower: "*",
+    
+    talents: [Talent.Shadow],
+    
+  },{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "anthem-of-spring-blue",
     classes: [Class.NotClassed],
@@ -1294,6 +1337,90 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
     
     
     pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "lost-in-thought-red",
+    classes: [Class.Illusionist],
+    defaultImage: "DTD219",
+    name: "Lost in Thought",
+    printings: [{
+      
+      identifier: "DTD219",
+      image: "DTD219",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD219"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD219",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Illusionist Action",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Look at target hero’s hand and choose an attack action card. If you do, they put that card on the bottom of their deck and they create a Ponder token.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "hold-the-line-blue",
+    classes: [Class.Generic],
+    defaultImage: "DTD228",
+    name: "Hold the Line",
+    printings: [{
+      
+      identifier: "DTD228",
+      image: "DTD228",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD228"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD228",
+    subtypes: [],
+    types: [Type.DefenseReaction],
+    typeText: "Generic Defense Reaction",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `If the attacking hero has drawn 2 or more cards this turn, prevent the next 3 damage that would be dealt to your hero this turn.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
     
     restrictedFormats: [Format.Commoner],
     
@@ -34813,7 +34940,8 @@ At the beginning of your action phase, destroy Stamp Authority.`,
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "blessing-of-serenity-red",
     classes: [Class.Guardian],
@@ -34990,8 +35118,7 @@ At the beginning of your action phase, destroy Stamp Authority.`,
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Le Vuong"],
     cardIdentifier: "ira-crimson-haze",
     classes: [Class.Ninja],
@@ -68602,7 +68729,8 @@ If Vela Flash was **fused**, you may play your next 'non-attack' action card thi
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "vela-flash-blue",
     classes: [Class.Runeblade],
@@ -68732,8 +68860,7 @@ When you attack with Rites of Replenishment, if it was **fused**, you may put an
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Rio Sabda"],
     cardIdentifier: "rites-of-replenishment-yellow",
     classes: [Class.Runeblade],
@@ -97178,7 +97305,8 @@ Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you d
     
     talents: [Talent.Ice],
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Lizhe Liang"],
     cardIdentifier: "isenhowl-weathervane-blue",
     classes: [Class.NotClassed],
@@ -97227,8 +97355,7 @@ Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you d
     
     talents: [Talent.Ice],
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "arctic-incarceration-red",
     classes: [Class.NotClassed],

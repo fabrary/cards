@@ -142,7 +142,9 @@ When Bellona attacks, you may banish a card from your hero’s soul. If you do, 
 	DTD104	DTD																										
 	DTD105	DTD																										
 	DTD106	DTD																										
-	DTD107	DTD																										
+	DTD107	DTD	Diabolic Offering	3	1	*	*			M	Shadow, Brute, Action, Attack	Blood Debt						"If a card with 6 or more {p} has been put into your banished zone this turn, Diabolic Offering’s {p} and {d} are 6, otherwise they are 0.
+
+**Blood Debt**"		Shadow Brute Action – Attack	Carlos Cruchaga				No	S – DTD107 - N		/DTD107.png – DTD107 – N
 	DTD108	DTD																										
 	DTD109	DTD																										
 	DTD110	DTD																										
@@ -278,7 +280,9 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
 	DTD216	DTD																										
 	DTD217	DTD																										
 	DTD218	DTD	Flicker Trick	1	0		5			M	Illusionist, Defense Reaction	Mirage						**Mirage**		Illusionist Defense Reaction	Athiwut B.				No	S - DTD218 - N		/DTD218.png – DTD218 – N
-	DTD219	DTD																										
+	DTD219	DTD	Lost in Thought	1	1		2			M	Illusionist, Action	Go again						"Look at target hero’s hand and choose an attack action card. If you do, they put that card on the bottom of their deck and they create a Ponder token.
+
+**Go again**"		Illusionist Action	Carlos Cruchaga				No	S – DTD219 - N		/DTD219.png – DTD219 – N
 	DTD220	DTD																										
 	DTD221	DTD																										
 	DTD222	DTD																										
@@ -287,7 +291,7 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
 	DTD225	DTD																										
 	DTD226	DTD																										
 	DTD227	DTD																										
-	DTD228	DTD																										
+	DTD228	DTD	Hold the Line	3	0		2			M	Generic, Defense Reaction							If the attacking hero has drawn 2 or more cards this turn, prevent the next 3 damage that would be dealt to your hero this turn.		Generic Defense Reaction	Tomasz Jedruszek				No	S - DTD228 - N		/DTD228.png – DTD228 – N
 	DTD229	DTD																										
 	DTD230	DTD																										
 	DTD231	DTD																										
