@@ -35,7 +35,8 @@ export const addOppositeSideCardIdentifiers = (cards: Card[]) => {
     const isCardBack =
       oppositeSide &&
       (oppositeSide.subtypes.includes(Subtype.Invocation) ||
-        oppositeSide.subtypes.includes(Subtype.Construct));
+        oppositeSide.subtypes.includes(Subtype.Construct) ||
+        oppositeSide.subtypes.includes(Subtype.Figment));
     return {
       ...card,
       ...(oppositeSide

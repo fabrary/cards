@@ -39534,6 +39534,65 @@ exports[`Check for unintentional updates Emperor, Dracai of Aesir (emperor-draca
 }
 `;
 
+exports[`Check for unintentional updates Empyrean Rapture (empyrean-rapture) vs snapshot 1`] = `
+{
+  "artists": [
+    "soyameii",
+  ],
+  "cardIdentifier": "empyrean-rapture",
+  "classes": [
+    "Illusionist",
+  ],
+  "defaultImage": "DTD004",
+  "functionalText": "If a card with Herald in its name has been put into your hero's soul during your turn, the first hero ability you activate that turn costs {r}{r} less to activate.
+
+**Once per Turn Instant** - {r}: This gets **ward 1** until end of turn.",
+  "keywords": [
+    "Ward",
+  ],
+  "name": "Empyrean Rapture",
+  "printings": [
+    {
+      "foiling": "Cold",
+      "identifier": "DTD004",
+      "image": "DTD004",
+      "set": "Dusk till Dawn",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "DTD004",
+      "image": "DTD004_EA",
+      "set": "Dusk till Dawn",
+      "treatment": "Extended Art",
+    },
+  ],
+  "rarities": [
+    "Legendary",
+  ],
+  "rarity": "Legendary",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD004",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD004_EA",
+  "subtypes": [
+    "Chest",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Illusionist Equipment – Chest",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates En Garde (en-garde-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -57726,6 +57785,50 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
   "typeText": "Warrior Action",
   "types": [
     "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Hold the Line (hold-the-line-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tomasz Jedruszek",
+  ],
+  "cardIdentifier": "hold-the-line-blue",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD228",
+  "defense": 2,
+  "functionalText": "If the attacking hero has drawn 2 or more cards this turn, prevent the next 3 damage that would be dealt to your hero this turn.",
+  "name": "Hold the Line",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "DTD228",
+      "image": "DTD228",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD228",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD228",
+  "subtypes": [],
+  "typeText": "Generic Defense Reaction",
+  "types": [
+    "Defense Reaction",
   ],
 }
 `;
@@ -134903,6 +135006,59 @@ exports[`Check for unintentional updates Uzuri, Switchblade (uzuri-switchblade) 
   "typeText": "Assassin Hero",
   "types": [
     "Hero",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates V for Valor (v-for-valor-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Isuardi Therianto",
+  ],
+  "cardIdentifier": "v-for-valor-red",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD060",
+  "defense": 2,
+  "functionalText": "**Attack Reaction – {r}**, destroy this, **charge** your hero’s soul: target attack gets +3{p}.",
+  "keywords": [
+    "Charge",
+  ],
+  "name": "V for Valor",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "DTD060",
+      "image": "DTD060",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD060",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD060",
+  "subtypes": [
+    "Aura",
+    "Non-Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Warrior Action – Aura",
+  "types": [
+    "Action",
   ],
 }
 `;

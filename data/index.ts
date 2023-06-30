@@ -900,6 +900,155 @@ Whenever you play a Shadow non-attack action card, you may pay {l}. If you do, t
     talents: [Talent.Light],
     
   },{
+    artists: ["soyameii"],
+    cardIdentifier: "empyrean-rapture",
+    classes: [Class.Illusionist],
+    defaultImage: "DTD004",
+    name: "Empyrean Rapture",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "DTD004",
+      image: "DTD004",
+      set: Release.DuskTillDawn,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "DTD004",
+      image: "DTD004_EA",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["DTD004"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD004_EA",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Light Illusionist Equipment – Chest",
+
+    
+    
+    functionalText: `If a card with Herald in its name has been put into your hero's soul during your turn, the first hero ability you activate that turn costs {r}{r} less to activate.
+
+**Once per Turn Instant** - {r}: This gets **ward 1** until end of turn.`,
+    
+    
+    
+    
+    keywords: [Keyword.Ward],
+    
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: [],
+    cardIdentifier: "figment-of-triumph-yellow",
+    classes: [Class.Illusionist],
+    defaultImage: "DTD011",
+    name: "Figment of Triumph",
+    printings: [{
+      
+      identifier: "DTD011",
+      image: "DTD011",
+      set: Release.DuskTillDawn,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "DTD011",
+      image: "DTD011",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.FA,
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD011"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD011",
+    subtypes: [Subtype.Figment],
+    types: [Type.Instant],
+    typeText: "Joseph Qiu",
+
+    cost: 4,
+    
+    functionalText: `**Legendary**
+
+When this enters the arena, attack action cards your opponent control get -1{p} this turn.`,
+    
+    
+    
+    
+    keywords: [Keyword.Legendary],
+    
+    oppositeSideCardIdentifier: `victoria-archangel-of-triumph`,
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: [],
+    cardIdentifier: "victoria-archangel-of-triumph",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD011_Back",
+    name: "Victoria, Archangel of Triumph",
+    printings: [{
+      
+      identifier: "DTD011",
+      image: "DTD011_Back",
+      set: Release.DuskTillDawn,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "DTD011",
+      image: "DTD011_Back_Marvel",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.FA,
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD011"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD011_Back_Marvel",
+    subtypes: [Subtype.Angel,Subtype.Ally],
+    types: [],
+    typeText: "Joseph Qiu",
+
+    
+    
+    functionalText: `**Once per Turn Action – {r}{r}: Attack**
+
+When VIctoria attacks, you may banish a card from your hero’s soul. If you do, attack action cards your opponents control get -1{p} until the start of your next turn.
+
+**Ward 4**`,
+    
+    
+    
+    isCardBack: true,
+    keywords: [Keyword.Ward],
+    life: 4,
+    oppositeSideCardIdentifier: `figment-of-triumph-yellow`,
+    
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "bellona-archangel-of-war",
     classes: [Class.NotClassed],
@@ -943,6 +1092,47 @@ When Bellona attacks, you may banish a card from your hero’s soul. If you do, 
     
     
     power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "v-for-valor-red",
+    classes: [Class.Warrior],
+    defaultImage: "DTD060",
+    name: "V for Valor",
+    printings: [{
+      
+      identifier: "DTD060",
+      image: "DTD060",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD060"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD060",
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Light Warrior Action – Aura",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `**Attack Reaction – {r}**, destroy this, **charge** your hero’s soul: target attack gets +3{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Charge],
+    
+    
+    pitch: 1,
+    
     restrictedFormats: [Format.Commoner],
     
     
@@ -34745,7 +34935,8 @@ At the beginning of your action phase, destroy Stamp Authority.`,
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["bimawithpencil"],
     cardIdentifier: "emerging-dominance-red",
     classes: [Class.Guardian],
@@ -34940,8 +35131,7 @@ At the beginning of your action phase, destroy Stamp Authority.`,
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "blessing-of-serenity-red",
     classes: [Class.Guardian],
@@ -68607,7 +68797,8 @@ When you attack with Arcanic Shockwave, if it was **fused**, deal 1 arcane damag
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "vela-flash-red",
     classes: [Class.Runeblade],
@@ -68729,8 +68920,7 @@ If Vela Flash was **fused**, you may play your next 'non-attack' action card thi
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "vela-flash-blue",
     classes: [Class.Runeblade],
@@ -97256,7 +97446,8 @@ Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you d
     
     talents: [Talent.Ice],
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Lizhe Liang"],
     cardIdentifier: "isenhowl-weathervane-yellow",
     classes: [Class.NotClassed],
@@ -97305,8 +97496,7 @@ Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you d
     
     talents: [Talent.Ice],
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Lizhe Liang"],
     cardIdentifier: "isenhowl-weathervane-blue",
     classes: [Class.NotClassed],

@@ -200,6 +200,7 @@ export enum Subtype {
   Dagger = "Dagger",
   Demon = "Demon",
   Dragon = "Dragon",
+  Figment = "Figment",
   Flail = "Flail",
   Gem = "Gem",
   Gun = "Gun",
