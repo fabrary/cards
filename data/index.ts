@@ -1635,6 +1635,47 @@ Your next angel attack this turn gets +2{p}.`,
     talents: [Talent.Light],
     
   },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "celestial-reprimand-yellow",
+    classes: [Class.Illusionist],
+    defaultImage: "DTD039",
+    name: "Celestial Reprimand",
+    printings: [{
+      
+      identifier: "DTD039",
+      image: "DTD039",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD039"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD039",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Light Illusionist Instant",
+
+    cost: 0,
+    
+    functionalText: `Target card defending an attack with Herald in its name gets -2{p} this combat chain.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
     artists: ["Jen Santos"],
     cardIdentifier: "celestial-resolve-yellow",
     classes: [Class.Illusionist],
@@ -34762,7 +34803,8 @@ If you have discarded a card with 6 or more {p} this turn, Mandible Claw gains *
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Yolanda Felicia"],
     cardIdentifier: "skullhorn",
     classes: [Class.Brute],
@@ -34829,8 +34871,7 @@ If you have discarded a card with 6 or more {p} this turn, Mandible Claw gains *
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "beast-within-yellow",
     classes: [Class.Brute],
@@ -69212,7 +69253,8 @@ If Dazzling Crescendo was **fused**, it gains **go again**.`,
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Faizal Fikri"],
     cardIdentifier: "flake-out-red",
     classes: [Class.Ranger],
@@ -69273,8 +69315,7 @@ If Flake Out was **fused**, it gains **dominate**.`,
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "flake-out-yellow",
     classes: [Class.Ranger],
@@ -98675,7 +98716,8 @@ Frostbites you control have "At the beginning of your end phase, this deals 1 ar
     
     talents: [Talent.Ice],
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Immanuela Crovius"],
     cardIdentifier: "frosting-blue",
     classes: [Class.Wizard],
@@ -98722,8 +98764,7 @@ Frostbites you control have "At the beginning of your end phase, this deals 1 ar
     
     talents: [Talent.Ice],
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Sam Yang"],
     cardIdentifier: "ice-bolt-red",
     classes: [Class.Wizard],

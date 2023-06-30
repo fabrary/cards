@@ -13211,6 +13211,57 @@ exports[`Check for unintentional updates Blessing of Qi (blessing-of-qi-yellow) 
 }
 `;
 
+exports[`Check for unintentional updates Blessing of Salvation (blessing-of-salvation-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Saad Irfan",
+  ],
+  "cardIdentifier": "blessing-of-salvation-red",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 1,
+  "defaultImage": "DTD085",
+  "defense": 2,
+  "functionalText": "If a card has been put into your hero’s soul this turn, you may play this as though it were an instant.
+
+Gain 3{l}",
+  "name": "Blessing of Salvation",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "DTD085",
+      "image": "DTD085",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD085",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD085",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Action ",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Blessing of Savagery (blessing-of-savagery-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -27122,6 +27173,46 @@ exports[`Check for unintentional updates Coronet Peak (coronet-peak) vs snapshot
   "typeText": "Ice Equipment – Head",
   "types": [
     "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Courage (courage) vs snapshot 1`] = `
+{
+  "artists": [
+    "Henrique Lindner",
+  ],
+  "cardIdentifier": "courage",
+  "classes": [
+    "Generic",
+  ],
+  "defaultImage": "DTD232",
+  "functionalText": "When you play an attack action card or activate a weapon attack, destroy this and the attack gets +1{p}.",
+  "name": "Courage",
+  "printings": [
+    {
+      "identifier": "DTD232",
+      "image": "DTD232",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD232",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD232",
+  "subtypes": [
+    "Aura",
+  ],
+  "typeText": "Generic Token – Aura",
+  "types": [
+    "Token",
   ],
 }
 `;
@@ -66475,6 +66566,56 @@ exports[`Check for unintentional updates Ironsong Response (ironsong-response-ye
 }
 `;
 
+exports[`Check for unintentional updates Ironsong Versus (ironsong-versus) vs snapshot 1`] = `
+{
+  "artists": [
+    "Athiwut B.",
+  ],
+  "cardIdentifier": "ironsong-versus",
+  "classes": [
+    "Warrior",
+  ],
+  "defaultImage": "DTD207",
+  "defense": 2,
+  "functionalText": "**Once per Turn Action – {r}: Your next sword attack this turn gets “When this hits a hero, create a Courage token.” **Go again**
+
+**Temper**",
+  "keywords": [
+    "Temper",
+    "Go again",
+  ],
+  "name": "Ironsong Versus",
+  "printings": [
+    {
+      "identifier": "DTD207",
+      "image": "DTD207",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Legendary",
+  ],
+  "rarity": "Legendary",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD207",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD207",
+  "subtypes": [
+    "Arms",
+  ],
+  "typeText": "Warrior Equipment – Arms",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Isenhowl Weathervane (isenhowl-weathervane-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -92182,6 +92323,56 @@ exports[`Check for unintentional updates Radiant Flow (radiant-flow) vs snapshot
 }
 `;
 
+exports[`Check for unintentional updates Radiant Forcefield (radiant-forcefield-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Isuardi Therianto",
+  ],
+  "cardIdentifier": "radiant-forcefield-yellow",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD081",
+  "functionalText": "If your hero would be dealt damage, banish a card from your hero’s soul to prevent 1 of that damage.
+
+When there are no cards in your hero’s soul, destroy this.",
+  "name": "Radiant Forcefield",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "DTD081",
+      "image": "DTD081",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD081",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD081",
+  "subtypes": [
+    "Aura",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Instant – Aura",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Radiant Raiment (radiant-raiment) vs snapshot 1`] = `
 {
   "artists": [
@@ -94899,6 +95090,47 @@ If you would roll 1 or more dice this turn, instead roll that many dice plus 1 a
   "typeText": "Brute Action",
   "types": [
     "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Reality Refractor (reality-refractor) vs snapshot 1`] = `
+{
+  "artists": [
+    "Enmoire",
+  ],
+  "cardIdentifier": "reality-refractor",
+  "classes": [
+    "Illusionist",
+  ],
+  "defaultImage": "DTD216",
+  "functionalText": "Illusionist auras you control are weapons with 5 base {p} and "Once per Turn Action - {r}{r}: Attack"",
+  "name": "Reality Refractor",
+  "printings": [
+    {
+      "identifier": "DTD216",
+      "image": "DTD216",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "DTD216",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD216",
+  "subtypes": [
+    "Orb",
+    "2H",
+  ],
+  "typeText": "Illusionist Weapon – Orb (2H)",
+  "types": [
+    "Weapon",
   ],
 }
 `;

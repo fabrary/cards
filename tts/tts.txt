@@ -1091,6 +1091,7 @@ OSCCardDB = {
   ["DTD012"] = { name = "Figment of War (2)", text = "**Legendary**\n\nWhen this enters the arena, create a Courage token.", keywords = "Legendary", types = "Instant"},
   ["DTD012-BACK"] = { name = "Bellona, Archangel of War", text = "**Once per Turn Action – {r}{r}: Attack**\n\nWhen Bellona attacks, you may banish a card from your hero’s soul. If you do, put a +1{a} counter on each angel you control.\n\n**Ward 4**", keywords = "Ward", types = ""},
   ["DTD033"] = { name = "Angelic Descent (2)", text = "Target attack action card with Herald in its name gets go again.\n\nYour next angel attack this turn gets +2{p}.", keywords = "", types = "Instant"},
+  ["DTD039"] = { name = "Celestial Reprimand (2)", text = "Target card defending an attack with Herald in its name gets -2{p} this combat chain.", keywords = "", types = "Instant"},
   ["DTD042"] = { name = "Celestial Resolve (2)", text = "Target attack action card with Herald in its name gets +4{d}.", keywords = "", types = "Instant"},
   ["DTD046"] = { name = "Beaming Blade", text = "**Once per Turn Action – {r}: Attack\n\nIf a yellow card has been put into your hero’s soul this turn, this gets +5{p}.", keywords = "", types = "Weapon"},
   ["DTD053"] = { name = "Prayer of Bellona (2)", text = "Your next attack this turn gets +2{p}.\n\nReveal the top card of your deck. If it’s yellow, put it into your hand, then **charge** your hero’s soul.\n\n**Go again**", keywords = "Charge,Go again", types = "Action"},
