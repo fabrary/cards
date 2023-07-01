@@ -1059,7 +1059,7 @@ When this enters the arena, create a Ponder token`,
       set: Release.DuskTillDawn,
       treatment: Treatment.FA,
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DTD005"],
     sets: [Release.DuskTillDawn],
@@ -1092,6 +1092,106 @@ When Suraya attacks, you may banish a card from your hero’s soul. If you do, d
     talents: [Talent.Light],
     
   },{
+    artists: ["Asur Misoa"],
+    cardIdentifier: "figment-of-judgment-yellow",
+    classes: [Class.Illusionist],
+    defaultImage: "DTD006",
+    name: "Figment of Judgment",
+    printings: [{
+      
+      identifier: "DTD006",
+      image: "DTD006",
+      set: Release.DuskTillDawn,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "DTD006",
+      image: "DTD006_Marvel",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.FA,
+    },],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD006"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD006_Marvel",
+    subtypes: [Subtype.Figment],
+    types: [Type.Instant],
+    typeText: "Light Illusionist Instant – Figment",
+
+    cost: 4,
+    
+    functionalText: `**Legendary**
+
+When this enters the arena, you may turn a card in any banished zone face-down.`,
+    
+    
+    
+    
+    keywords: [Keyword.Legendary],
+    
+    oppositeSideCardIdentifier: `themis-archangel-of-judgment`,
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Asur Misoa"],
+    cardIdentifier: "themis-archangel-of-judgment",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD006_Back",
+    name: "Themis, Archangel of Judgment",
+    printings: [{
+      
+      identifier: "DTD006",
+      image: "DTD006_Back",
+      set: Release.DuskTillDawn,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "DTD006",
+      image: "DTD006_Back_Marvel",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.FA,
+    },],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD006"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD006_Back_Marvel",
+    subtypes: [Subtype.Angel,Subtype.Ally],
+    types: [],
+    typeText: "Light – Angel Ally",
+
+    
+    
+    functionalText: `**Once per Turn Action – {r}{r}: Attack**
+
+When Themis attacks, you may banish a card from your hero’s soul. If you do, turn a card in any banished zone face-down.
+
+**Ward 4**`,
+    
+    
+    
+    isCardBack: true,
+    keywords: [Keyword.Ward],
+    life: 4,
+    oppositeSideCardIdentifier: `figment-of-judgment-yellow`,
+    
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
     artists: ["soyameii"],
     cardIdentifier: "figment-of-protection-yellow",
     classes: [Class.Illusionist],
@@ -1110,7 +1210,7 @@ When Suraya attacks, you may banish a card from your hero’s soul. If you do, d
       set: Release.DuskTillDawn,
       treatment: Treatment.FA,
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DTD007"],
     sets: [Release.DuskTillDawn],
@@ -1159,7 +1259,7 @@ When this enters the arena, create a Spectral Shield token.`,
       set: Release.DuskTillDawn,
       treatment: Treatment.FA,
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DTD007"],
     sets: [Release.DuskTillDawn],
@@ -1210,7 +1310,7 @@ When Aegis attacks, you may banish a card from your hero’s soul. If you do, cr
       set: Release.DuskTillDawn,
       treatment: Treatment.FA,
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DTD008"],
     sets: [Release.DuskTillDawn],
@@ -1259,7 +1359,7 @@ When this enters the arena, deal 1 arcane damage to any target.`,
       set: Release.DuskTillDawn,
       treatment: Treatment.FA,
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DTD008"],
     sets: [Release.DuskTillDawn],
@@ -1310,7 +1410,7 @@ When Aegis attacks, you may banish a card from your hero’s soul. If you do, de
       set: Release.DuskTillDawn,
       treatment: Treatment.FA,
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DTD009"],
     sets: [Release.DuskTillDawn],
@@ -1359,7 +1459,7 @@ When this enters the arena, you may put a yellow action card from your graveyard
       set: Release.DuskTillDawn,
       treatment: Treatment.FA,
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DTD009"],
     sets: [Release.DuskTillDawn],
@@ -1410,7 +1510,7 @@ When Avalon attacks, you may banish a card from your hero’s soul. If you do, p
       set: Release.DuskTillDawn,
       treatment: Treatment.FA,
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DTD010"],
     sets: [Release.DuskTillDawn],
@@ -1459,7 +1559,7 @@ When this enters the arena, your next attack this turn gets dominate.`,
       set: Release.DuskTillDawn,
       treatment: Treatment.FA,
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DTD010"],
     sets: [Release.DuskTillDawn],
@@ -1510,7 +1610,7 @@ When Metis attacks, you may banish a card from your hero’s soul. If you do, yo
       set: Release.DuskTillDawn,
       treatment: Treatment.FA,
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DTD011"],
     sets: [Release.DuskTillDawn],
@@ -1559,7 +1659,7 @@ When this enters the arena, attack action cards your opponent control get -1{p} 
       set: Release.DuskTillDawn,
       treatment: Treatment.FA,
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DTD011"],
     sets: [Release.DuskTillDawn],
@@ -1610,7 +1710,7 @@ When VIctoria attacks, you may banish a card from your hero’s soul. If you do,
       set: Release.DuskTillDawn,
       treatment: Treatment.FA,
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DTD012"],
     sets: [Release.DuskTillDawn],
@@ -1853,6 +1953,94 @@ If a yellow card has been put into your hero’s soul this turn, this gets +5{p}
     
     power: 0,
     
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Tanapon Wachirakul"],
+    cardIdentifier: "soulbond-resolve",
+    classes: [Class.Warrior],
+    defaultImage: "DTD047",
+    name: "Soulbond Resolve",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "DTD047",
+      image: "DTD047",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["DTD047"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD047",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Light Warrior Equipment – Chest",
+
+    
+    defense: 2,
+    functionalText: `When this defends, you may **charge** your hero’s soul.
+
+The first time you would be dealt damage each turn, if you’ve **charged** this turn, prevent 1 of that damage.
+
+**Temper**`,
+    
+    
+    
+    
+    keywords: [Keyword.Charge,Keyword.Temper],
+    
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "beckoning-light-red",
+    classes: [Class.Warrior],
+    defaultImage: "DTD051",
+    name: "Beckoning Light",
+    printings: [{
+      
+      identifier: "DTD051",
+      image: "DTD051",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD051"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD051",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Warrior Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `As an additional cost to play this, you may charge your hero's soul.
+
+If a yellow card was charged this way, whenever an attack action card hits this combat chain, you may put an attack action card from your graveyard on top of your deck.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -2966,6 +3154,49 @@ Gain 3{l}`,
     talents: [Talent.Light],
     
   },{
+    artists: ["Mateusz Wisniewski"],
+    cardIdentifier: "cleansing-light-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD089",
+    name: "Cleansing Light",
+    printings: [{
+      
+      identifier: "DTD089",
+      image: "DTD089",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD089"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD089",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Light Action ",
+
+    cost: 3,
+    defense: 2,
+    functionalText: `If a card has been put into your hero’s soul this turn, you may play this as though it were an instant.
+
+Destroy target yellow aura.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "blistering-assault-yellow",
     classes: [Class.NotClassed],
@@ -3524,6 +3755,47 @@ Until end of turn, target Dawnblade gets +1{p} and "Damage this would deal can't
     
     
     specializations: [Hero.Dorinthea],
+    
+    
+  },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "morlock-hill-blue",
+    classes: [Class.Warrior],
+    defaultImage: "DTD209",
+    name: "Morlock Hill",
+    printings: [{
+      
+      identifier: "DTD209",
+      image: "DTD209",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD209"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD209",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Warrior Instant",
+
+    cost: 0,
+    
+    functionalText: `The next time you would be dealt lethal damage this turn, you may banish Minerva Themis from your hand or arsenal to prevent that damage.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
     
     
   },{
@@ -34453,7 +34725,8 @@ If Force Sight is played from arsenal, **opt 2**.
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["David Ogilvie"],
     cardIdentifier: "lead-the-charge-red",
     classes: [Class.Generic],
@@ -34758,8 +35031,7 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "sun-kiss-blue",
     classes: [Class.Generic],
@@ -69185,7 +69457,8 @@ If Buzz Bolt was **fused**, whenever an attack hits a hero this turn, it deals 1
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Kyxarie Peralta"],
     cardIdentifier: "buzz-bolt-yellow",
     classes: [Class.Ranger],
@@ -69374,8 +69647,7 @@ If Chilling Icevein was **fused**, whenever an attack deals damage to a hero thi
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Tanapon Wachirakul"],
     cardIdentifier: "chilling-icevein-yellow",
     classes: [Class.Ranger],
@@ -98966,7 +99238,8 @@ Frostbites you control have "At the beginning of your end phase, this deals 1 ar
     
     talents: [Talent.Ice],
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Junaidi Lim"],
     cardIdentifier: "aether-hail-yellow",
     classes: [Class.Wizard],
@@ -99060,8 +99333,7 @@ Frostbites you control have "At the beginning of your end phase, this deals 1 ar
     
     talents: [Talent.Ice],
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Immanuela Crovius"],
     cardIdentifier: "frosting-red",
     classes: [Class.Wizard],
@@ -126792,7 +127064,7 @@ At the beginning of your end phase destroy Frailty.`,
     ...cards4,
   ];
 
-  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","Bastien Jez","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","Daria Khlebnokova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Edward Chee","Eilene Cherie","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Eric Klug","Erick Efata","Erik Klug","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Jessica Nguyen","Jessketchin","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kalashnikova N.","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Maerel Hibadita","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wiśniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Revazashvili E.","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sariya Asavametha","Sebastian Szmyd","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Stormy Elia Fanggidae","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tomasz Jedruszek","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
+  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","Bastien Jez","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","Daria Khlebnokova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Edward Chee","Eilene Cherie","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Eric Klug","Erick Efata","Erik Klug","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Jessica Nguyen","Jessketchin","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kalashnikova N.","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Maerel Hibadita","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wisniewski","Mateusz Wiśniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Revazashvili E.","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sariya Asavametha","Sebastian Szmyd","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Stormy Elia Fanggidae","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tomasz Jedruszek","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
 
   export * from "./sets";
 

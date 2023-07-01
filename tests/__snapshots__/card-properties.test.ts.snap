@@ -583,6 +583,7 @@ When Aegis attacks, you may banish a card from your hero’s soul. If you do, cr
   ],
   "rarities": [
     "Majestic",
+    "Marvel",
   ],
   "rarity": "Majestic",
   "restrictedFormats": [
@@ -5823,6 +5824,7 @@ When Avalon attacks, you may banish a card from your hero’s soul. If you do, p
   ],
   "rarities": [
     "Majestic",
+    "Marvel",
   ],
   "rarity": "Majestic",
   "restrictedFormats": [
@@ -14426,6 +14428,56 @@ exports[`Check for unintentional updates Blink (blink-blue) vs snapshot 1`] = `
   "typeText": "Lightning Instant",
   "types": [
     "Instant",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Blistering Assault (blistering-assault-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Faizal Fikri",
+  ],
+  "cardIdentifier": "blistering-assault-yellow",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 2,
+  "defaultImage": "DTD092",
+  "defense": 2,
+  "functionalText": "If you have a yellow card in your pitch zone, this gets **go again**.",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Blistering Assault",
+  "pitch": 2,
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "DTD092",
+      "image": "DTD092",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD092",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD092",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Action – Attach",
+  "types": [
+    "Action",
   ],
 }
 `;
@@ -32933,6 +32985,53 @@ exports[`Check for unintentional updates Deep Rooted Evil (deep-rooted-evil-yell
 }
 `;
 
+exports[`Check for unintentional updates Defender of Daybreak (defender-of-daybreak-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Alief Rusdiatama",
+  ],
+  "cardIdentifier": "defender-of-daybreak-yellow",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD095",
+  "defense": 2,
+  "functionalText": "When this defends a Shadow attack, non-equipment Light cards get +1{d} this combat chain.",
+  "name": "Defender of Daybreak",
+  "pitch": 2,
+  "power": 3,
+  "printings": [
+    {
+      "identifier": "DTD095",
+      "image": "DTD095",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD095",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD095",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Demolition Crew (demolition-crew-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -45671,6 +45770,7 @@ When this enters the arena, create a Spectral Shield token.",
   ],
   "rarities": [
     "Majestic",
+    "Marvel",
   ],
   "rarity": "Majestic",
   "restrictedFormats": [
@@ -45732,6 +45832,7 @@ When this enters the arena, deal 1 arcane damage to any target.",
   ],
   "rarities": [
     "Majestic",
+    "Marvel",
   ],
   "rarity": "Majestic",
   "restrictedFormats": [
@@ -45793,6 +45894,7 @@ When this enters the arena, you may put a yellow action card from your graveyard
   ],
   "rarities": [
     "Majestic",
+    "Marvel",
   ],
   "rarity": "Majestic",
   "restrictedFormats": [
@@ -45855,6 +45957,7 @@ When this enters the arena, your next attack this turn gets dominate.",
   ],
   "rarities": [
     "Majestic",
+    "Marvel",
   ],
   "rarity": "Majestic",
   "restrictedFormats": [
@@ -45916,6 +46019,7 @@ When this enters the arena, attack action cards your opponent control get -1{p} 
   ],
   "rarities": [
     "Majestic",
+    "Marvel",
   ],
   "rarity": "Majestic",
   "restrictedFormats": [
@@ -45978,6 +46082,7 @@ When this enters the arena, create a Courage token.",
   ],
   "rarities": [
     "Majestic",
+    "Marvel",
   ],
   "rarity": "Majestic",
   "restrictedFormats": [
@@ -75569,6 +75674,7 @@ When Metis attacks, you may banish a card from your hero’s soul. If you do, yo
   ],
   "rarities": [
     "Majestic",
+    "Marvel",
   ],
   "rarity": "Majestic",
   "restrictedFormats": [
@@ -110701,6 +110807,7 @@ When Aegis attacks, you may banish a card from your hero’s soul. If you do, de
   ],
   "rarities": [
     "Majestic",
+    "Marvel",
   ],
   "rarity": "Majestic",
   "restrictedFormats": [
@@ -127118,6 +127225,7 @@ When Suraya attacks, you may banish a card from your hero’s soul. If you do, d
   ],
   "rarities": [
     "Majestic",
+    "Marvel",
   ],
   "rarity": "Majestic",
   "restrictedFormats": [
@@ -139178,6 +139286,7 @@ When VIctoria attacks, you may banish a card from your hero’s soul. If you do,
   ],
   "rarities": [
     "Majestic",
+    "Marvel",
   ],
   "rarity": "Majestic",
   "restrictedFormats": [

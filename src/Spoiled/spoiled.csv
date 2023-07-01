@@ -42,54 +42,60 @@ tfJTWDjLzBdrDjWm9NnmN	LGS159	LGS, DTD	Vantom Banshee	3	3	5	3			P	Shadow, Runebla
 	DTD005	DTD	Figment of Erudition	2	4					M	Light, Illusionist, Instant, Figment	Legendary						"**Legendary**
 
 When this enters the arena, create a Ponder token"		Light Illusionist Instant – Figment	Daria Khlebnokova				No	S – DTD005 – N, C – DTD005 – N – FA		/DTD005.png – DTD005 – N, /DTD005_Marvel.png – DTD005 – N – C – FA
-	DTD005	DTD	Suraya, Archangel of Erudition			4		4		M	Light, Angel, Ally	Ward 4						"**Once per Turn Action – {r}{r}: Attack**
+	DTD005	DTD	Suraya, Archangel of Erudition			4		4		M, V	Light, Angel, Ally	Ward 4						"**Once per Turn Action – {r}{r}: Attack**
 
 When Suraya attacks, you may banish a card from your hero’s soul. If you do, draw 2 cards.
 
 **Ward 4**"		Light – Angel Ally	Daria Khlebnokova				No	S – DTD005 – N, C – DTD005 – N – FA		/DTD005_Back.png – DTD012 – N, /DTD005_Back_Marvel.png – DTD012 – N – C – FA
-	DTD006	DTD																										
-	DTD006	DTD																										
-	DTD007	DTD	Figment of Protection	2	4					M	Light, Illusionist, Instant, Figment	Legendary						"**Legendary**
+	DTD006	DTD	Figment of Judgment	2	4					M, V	Light, Illusionist, Instant, Figment	Legendary						"**Legendary**
+
+When this enters the arena, you may turn a card in any banished zone face-down."		Light Illusionist Instant – Figment	Asur Misoa				No	S – DTD006 – N, C – DTD006 – N – FA		/DTD006.png – DTD006 – N, /DTD006_Marvel.png – DTD006 – N – C – FA
+	DTD006	DTD	Themis, Archangel of Judgment			4		4		M, V	Light, Angel, Ally	Ward 4						"**Once per Turn Action – {r}{r}: Attack**
+
+When Themis attacks, you may banish a card from your hero’s soul. If you do, turn a card in any banished zone face-down.
+
+**Ward 4**"		Light – Angel Ally	Asur Misoa				No	S – DTD006 – N, C – DTD006 – N – FA		/DTD006_Back.png – DTD006 – N, /DTD006_Back_Marvel.png – DTD006 – N – C – FA
+	DTD007	DTD	Figment of Protection	2	4					M, V	Light, Illusionist, Instant, Figment	Legendary						"**Legendary**
 
 When this enters the arena, create a Spectral Shield token."		Light Illusionist Instant – Figment	soyameii				No	S – DTD007 – N, C – DTD007 – N – FA		/DTD007.png – DTD007 – N, /DTD007_Marvel.png – DTD007 – N – C – FA
-	DTD007	DTD	Aegis, Archangel of Protection			4		4		M	Light, Angel, Ally	Ward 4						"**Once per Turn Action – {r}{r}: Attack**
+	DTD007	DTD	Aegis, Archangel of Protection			4		4		M, V	Light, Angel, Ally	Ward 4						"**Once per Turn Action – {r}{r}: Attack**
 
 When Aegis attacks, you may banish a card from your hero’s soul. If you do, create 2 Spectral Shield tokens.
 
 **Ward 4**"		Light – Angel Ally	soyameii				No	S – DTD007 – N, C – DTD007 – N – FA		/DTD007_Back.png – DTD007 – N, /DTD007_Back_Marvel.png – DTD007 – N – C – FA
-	DTD008	DTD	Figment of Ravages	2	4					M	Light, Illusionist, Instant, Figment	Legendary						"**Legendary**
+	DTD008	DTD	Figment of Ravages	2	4					M, V	Light, Illusionist, Instant, Figment	Legendary						"**Legendary**
 
 When this enters the arena, deal 1 arcane damage to any target."		Light Illusionist Instant – Figment	MJ Fetesio				No	S – DTD008 – N, C – DTD008 – N – FA		/DTD008.png – DTD008 – N, /DTD008_Marvel.png – DTD008 – N – C – FA
-	DTD008	DTD	Sekem, Archangel of Ravages			4		4		M	Light, Angel, Ally	Ward 4						"**Once per Turn Action – {r}{r}: Attack**
+	DTD008	DTD	Sekem, Archangel of Ravages			4		4		M, V	Light, Angel, Ally	Ward 4						"**Once per Turn Action – {r}{r}: Attack**
 
 When Aegis attacks, you may banish a card from your hero’s soul. If you do, deal 2 arcane damage to any target.
 
 **Ward 4**"		Light – Angel Ally	MJ Fetesio				No	S – DTD008 – N, C – DTD008 – N – FA		/DTD008_Back.png – DTD008 – N, /DTD008_Back_Marvel.png – DTD008 – N – C – FA
-	DTD009	DTD	Figment of Rebirth	2	4					M	Light, Illusionist, Instant, Figment	Legendary						"**Legendary**
+	DTD009	DTD	Figment of Rebirth	2	4					M, V	Light, Illusionist, Instant, Figment	Legendary						"**Legendary**
 
 When this enters the arena, you may put a yellow action card from your graveyard on top of your deck."		Light Illusionist Instant – Figment	Erik Klug				No	S – DTD009 – N, C – DTD009 – N – FA		/DTD009.png – DTD009 – N, /DTD009_Marvel.png – DTD009 – N – C – FA
-	DTD009	DTD	Avalon, Archangel of Rebirth			4		4		M	Light, Angel, Ally	Ward 4						"**Once per Turn Action – {r}{r}: Attack**
+	DTD009	DTD	Avalon, Archangel of Rebirth			4		4		M, V	Light, Angel, Ally	Ward 4						"**Once per Turn Action – {r}{r}: Attack**
 
 When Avalon attacks, you may banish a card from your hero’s soul. If you do, put a yellow card from your graveyard on top of your deck.
 
 **Ward 4**"		Light – Angel Ally	soyameii				No	S – DTD009 – N, C – DTD009 – N – FA		/DTD009_Back.png – DTD009 – N, /DTD009_Back_Marvel.png – DTD009 – N – C – FA
-	DTD010	DTD	Figment of Tenacity	2	4					M	Light, Illusionist, Instant, Figment	Legendary						"**Legendary**
+	DTD010	DTD	Figment of Tenacity	2	4					M, V	Light, Illusionist, Instant, Figment	Legendary						"**Legendary**
 
 When this enters the arena, your next attack this turn gets dominate."		Light Illusionist Instant – Figment	Bastien Jez, Carlos Cruchaga				No	S – DTD010 – N, C – DTD010 – N – FA		/DTD010.png – DTD010 – N, /DTD010_Marvel.png – DTD010 – N – C – FA
-	DTD010	DTD	Metis, Archangel of Tenacity			4		4		M	Light, Angel, Ally	Ward 4						"**Once per Turn Action – {r}{r}: Attack**
+	DTD010	DTD	Metis, Archangel of Tenacity			4		4		M, V	Light, Angel, Ally	Ward 4						"**Once per Turn Action – {r}{r}: Attack**
 
 When Metis attacks, you may banish a card from your hero’s soul. If you do, your attacks this turn get dominate.
 
 **Ward 4**"		Light – Angel Ally	Bastien Jez, Carlos Cruchaga				No	S – DTD010 – N, C – DTD010 – N – FA		/DTD010_Back.png – DTD010 – N, /DTD010_Back_Marvel.png – DTD010 – N – C – FA
-	DTD011	DTD	Figment of Triumph	2	4					M	Light, Illusionist, Instant, Figment	Legendary						"**Legendary**
+	DTD011	DTD	Figment of Triumph	2	4					M, V	Light, Illusionist, Instant, Figment	Legendary						"**Legendary**
 
 When this enters the arena, attack action cards your opponent control get -1{p} this turn."		Light Illusionist Instant – Fragment	Joseph Qiu				No	S – DTD011 – N, C – DTD011 – N – FA		/DTD011.png – DTD011 – N, /DTD011_Marvel.png – DTD011 – N – C – FA
-	DTD011	DTD	Victoria, Archangel of Triumph			4		4		M	Light, Angel, Ally	Ward 4						"**Once per Turn Action – {r}{r}: Attack**
+	DTD011	DTD	Victoria, Archangel of Triumph			4		4		M, V	Light, Angel, Ally	Ward 4						"**Once per Turn Action – {r}{r}: Attack**
 
 When VIctoria attacks, you may banish a card from your hero’s soul. If you do, attack action cards your opponents control get -1{p} until the start of your next turn.
 
 **Ward 4**"		Light – Angel Ally	Joseph Qiu				No	S – DTD011 – N, C – DTD011 – N – FA		/DTD011_Back.png – DTD011 – N, /DTD011_Back_Marvel.png – DTD011 – N – C – FA
-	DTD012	DTD	Figment of War	2	4					M	Light, Illusionist, Instant, Figment	Legendary						"**Legendary**
+	DTD012	DTD	Figment of War	2	4					M, V	Light, Illusionist, Instant, Figment	Legendary						"**Legendary**
 
 When this enters the arena, create a Courage token."		Light Illusionist Instant – Figment	Alexander Mokhov, Eric Klug				No	S – DTD012 – N, C – DTD012 – N – FA		/DTD012.png – DTD012 – N, /DTD012_Marvel.png – DTD012 – N – C – FA
 	DTD012	DTD	Bellona, Archangel of War			4		4		M, V	Light, Angel, Ally	Ward 4						"**Once per Turn Action – {r}{r}: Attack**
@@ -135,11 +141,17 @@ Your next angel attack this turn gets +2{p}."		Light Illusionist Instant	Alief R
 	DTD046	DTD	Beaming Blade			0				R	Light, Warrior, Weapon, Sword, 2H							"**Once per Turn Action – {r}: Attack
 
 If a yellow card has been put into your hero’s soul this turn, this gets +5{p}."		Light Warrior Weapon – Sword (2H)	Jessketchin					S – DTD046 – N		/DTD046.png – DTD046 – N
-	DTD047	DTD																										
+	DTD047	DTD	Soulbond Resolve				2			L	Light, Warrior, Equipment, Chest	Charge, Temper						"When this defends, you may **charge** your hero’s soul.
+
+The first time you would be dealt damage each turn, if you’ve **charged** this turn, prevent 1 of that damage.
+
+**Temper**"		Light Warrior Equipment – Chest	Tanapon Wachirakul				No	C – DTD047 – N		/DTD047.png – DTD047 – N – C
 	DTD048	DTD																										
 	DTD049	DTD																										
 	DTD050	DTD																										
-	DTD051	DTD																										
+	DTD051	DTD	Beckoning Light	1	0	3	3			M	Light, Warrior, Action, Attack							"As an additional cost to play this, you may charge your hero's soul.
+
+If a yellow card was charged this way, whenever an attack action card hits this combat chain, you may put an attack action card from your graveyard on top of your deck."		Light Warrior Action - Attack	Rio Sabda				No	S – DTD051 – N		/DTD051.png – DTD051 – N
 	DTD052	DTD	Spirit of War	1	0	3	3			M	Light, Warrior, Action, Attack	Charge						"As an additional cost to play this, you may **charge** your hero’s soul
 
 If a yellow card was **charged** this way, whenever an attack action card hits this combat chain, create a Courage token."		Light Warrior Action – Attack	Henrique Lindner				No	S – DTD052 – N		/DTD052.png – DTD052 – N
@@ -217,7 +229,9 @@ Gain 3{l}"		Light Action 	Saad Irfan				No	S – DTD085 – N		/DTD085.png – D
 	DTD086	DTD																										
 	DTD087	DTD																										
 	DTD088	DTD																										
-	DTD089	DTD																										
+	DTD089	DTD	Cleansing Light	2	3		2			R	Light, Action							"If a card has been put into your hero’s soul this turn, you may play this as though it were an instant.
+
+Destroy target yellow aura."		Light Action 	Mateusz Wisniewski				No	S – DTD089 – N		/DTD089.png – DTD089 – N
 	DTD090	DTD																										
 	DTD091	DTD																										
 	DTD092	DTD	Blistering Assault	2	2	4	2			C	Light, Action, Attack	Go again						If you have a yellow card in your pitch zone, this gets **go again**.		Light Action – Attach	Faizal Fikri					S – DTD092 – N		/DTD092.png – DTD092 – N
@@ -365,7 +379,7 @@ The first time this is defended by a non-equipment card each turn, halve the bas
 Until end of turn, target Dawnblade gets +1{p} and ""Damage this would deal can't be prevented.""
 
 **Unity** - When this defends together with a card from hand, create a Courage token under any number of heroes' control."		Warrior Attack Reaction	Narendra B Adi				No	S - DTD208 - N		/DTD208.png – DTD208 – N
-	DTD209	DTD																										
+	DTD209	DTD	Morlock Hill	3	0					M	Warrior, Instant							The next time you would be dealt lethal damage this turn, you may banish Minerva Themis from your hand or arsenal to prevent that damage.		Warrior Instant	Federico Musetti				No	S - DTD209 - N		/DTD209.png – DTD209 – N
 	DTD210	DTD																										
 	DTD211	DTD																										
 	DTD212	DTD																										
