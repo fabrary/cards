@@ -9738,6 +9738,58 @@ exports[`Check for unintentional updates Beaten Trackers (beaten-trackers) vs sn
 }
 `;
 
+exports[`Check for unintentional updates Beckoning Light (beckoning-light-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Rio Sabda",
+  ],
+  "cardIdentifier": "beckoning-light-red",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD051",
+  "defense": 3,
+  "functionalText": "As an additional cost to play this, you may charge your hero's soul.
+
+If a yellow card was charged this way, whenever an attack action card hits this combat chain, you may put an attack action card from your graveyard on top of your deck.",
+  "name": "Beckoning Light",
+  "pitch": 1,
+  "power": 3,
+  "printings": [
+    {
+      "identifier": "DTD051",
+      "image": "DTD051",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD051",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD051",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Warrior Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Become the Arknight (become-the-arknight-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -24558,6 +24610,57 @@ exports[`Check for unintentional updates Clarity Potion (clarity-potion-blue) vs
     "Non-Attack",
   ],
   "typeText": "Generic Action – Item",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Cleansing Light (cleansing-light-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mateusz Wisniewski",
+  ],
+  "cardIdentifier": "cleansing-light-yellow",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 3,
+  "defaultImage": "DTD089",
+  "defense": 2,
+  "functionalText": "If a card has been put into your hero’s soul this turn, you may play this as though it were an instant.
+
+Destroy target yellow aura.",
+  "name": "Cleansing Light",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "DTD089",
+      "image": "DTD089",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD089",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD089",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Action ",
   "types": [
     "Action",
   ],
@@ -45721,6 +45824,68 @@ When this enters the arena, create a Ponder token",
     "Dusk till Dawn",
   ],
   "specialImage": "DTD005_Marvel",
+  "subtypes": [
+    "Figment",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Illusionist Instant – Figment",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Figment of Judgment (figment-of-judgment-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Asur Misoa",
+  ],
+  "cardIdentifier": "figment-of-judgment-yellow",
+  "classes": [
+    "Illusionist",
+  ],
+  "cost": 4,
+  "defaultImage": "DTD006",
+  "functionalText": "**Legendary**
+
+When this enters the arena, you may turn a card in any banished zone face-down.",
+  "keywords": [
+    "Legendary",
+  ],
+  "name": "Figment of Judgment",
+  "oppositeSideCardIdentifier": "themis-archangel-of-judgment",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "DTD006",
+      "image": "DTD006",
+      "set": "Dusk till Dawn",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "DTD006",
+      "image": "DTD006_Marvel",
+      "set": "Dusk till Dawn",
+      "treatment": "Full Art",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+    "Marvel",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD006",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD006_Marvel",
   "subtypes": [
     "Figment",
   ],
@@ -76532,6 +76697,49 @@ exports[`Check for unintentional updates Mordred Tide (mordred-tide-red) vs snap
   "typeText": "Runeblade Action",
   "types": [
     "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Morlock Hill (morlock-hill-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Federico Musetti",
+  ],
+  "cardIdentifier": "morlock-hill-blue",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD209",
+  "functionalText": "The next time you would be dealt lethal damage this turn, you may banish Minerva Themis from your hand or arsenal to prevent that damage.",
+  "name": "Morlock Hill",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "DTD209",
+      "image": "DTD209",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD209",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD209",
+  "subtypes": [],
+  "typeText": "Warrior Instant",
+  "types": [
+    "Instant",
   ],
 }
 `;
@@ -120019,6 +120227,62 @@ exports[`Check for unintentional updates Soulbead Strike (soulbead-strike-yellow
 }
 `;
 
+exports[`Check for unintentional updates Soulbond Resolve (soulbond-resolve) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tanapon Wachirakul",
+  ],
+  "cardIdentifier": "soulbond-resolve",
+  "classes": [
+    "Warrior",
+  ],
+  "defaultImage": "DTD047",
+  "defense": 2,
+  "functionalText": "When this defends, you may **charge** your hero’s soul.
+
+The first time you would be dealt damage each turn, if you’ve **charged** this turn, prevent 1 of that damage.
+
+**Temper**",
+  "keywords": [
+    "Charge",
+    "Temper",
+  ],
+  "name": "Soulbond Resolve",
+  "printings": [
+    {
+      "foiling": "Cold",
+      "identifier": "DTD047",
+      "image": "DTD047",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Legendary",
+  ],
+  "rarity": "Legendary",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD047",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD047",
+  "subtypes": [
+    "Chest",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Warrior Equipment – Chest",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Sow Tomorrow (sow-tomorrow-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -131718,6 +131982,70 @@ exports[`Check for unintentional updates Themai (themai) vs snapshot 1`] = `
     "Draconic",
   ],
   "typeText": "Draconic Illusionist – Dragon Ally",
+  "types": [],
+}
+`;
+
+exports[`Check for unintentional updates Themis, Archangel of Judgment (themis-archangel-of-judgment) vs snapshot 1`] = `
+{
+  "artists": [
+    "Asur Misoa",
+  ],
+  "cardIdentifier": "themis-archangel-of-judgment",
+  "classes": [
+    "NotClassed",
+  ],
+  "defaultImage": "DTD006_Back",
+  "functionalText": "**Once per Turn Action – {r}{r}: Attack**
+
+When Themis attacks, you may banish a card from your hero’s soul. If you do, turn a card in any banished zone face-down.
+
+**Ward 4**",
+  "isCardBack": true,
+  "keywords": [
+    "Ward",
+  ],
+  "life": 4,
+  "name": "Themis, Archangel of Judgment",
+  "oppositeSideCardIdentifier": "figment-of-judgment-yellow",
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "DTD006",
+      "image": "DTD006_Back",
+      "set": "Dusk till Dawn",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "DTD006",
+      "image": "DTD006_Back_Marvel",
+      "set": "Dusk till Dawn",
+      "treatment": "Full Art",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+    "Marvel",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD006",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD006_Back_Marvel",
+  "subtypes": [
+    "Angel",
+    "Ally",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light – Angel Ally",
   "types": [],
 }
 `;

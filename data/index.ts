@@ -2388,6 +2388,49 @@ If a yellow card is **charged** this way, this gets +1{p}.`,
     talents: [Talent.Light],
     
   },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "glaring-impact-red",
+    classes: [Class.Warrior],
+    defaultImage: "DTD063",
+    name: "Glaring Impact",
+    printings: [{
+      
+      identifier: "DTD063",
+      image: "DTD063",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD063"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD063",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Warrior Action – Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `As an additional cost to play this, you may **charge** your hero’s soul.
+
+If a yellow card is **charged** this way, this gets **overpower**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Charge,Keyword.Overpower],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
     artists: ["Rio Sabda"],
     cardIdentifier: "light-the-way-red",
     classes: [Class.Warrior],

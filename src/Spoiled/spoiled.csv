@@ -175,7 +175,9 @@ If a yellow card is **charged** this way, this gets +1{p}."		Light Warrior Actio
 	DTD060	DTD	V for Valor	1	0		2			R	Light, Warrior, Action, Aura	Attack Reaction, Charge						**Attack Reaction – {r}**, destroy this, **charge** your hero’s soul: target attack gets +3{p}.		Light Warrior Action – Aura	Isuardi Therianto				No	S – DTD060 – N		/DTD060.png – DTD060 – N
 	DTD061	DTD	V for Valor	2	0		2			R	Light, Warrior, Action, Aura	Attack Reaction, Charge						**Attack Reaction – {r}**, destroy this, **charge** your hero’s soul: target attack gets +2{p}.		Light Warrior Action – Aura	Isuardi Therianto				No	S – DTD061 – N		/DTD061.png – DTD061 – N
 	DTD062	DTD	V for Valor	3	0		2			R	Light, Warrior, Action, Aura	Attack Reaction, Charge						**Attack Reaction – {r}**, destroy this, **charge** your hero’s soul: target attack gets +1{p}.		Light Warrior Action – Aura	Isuardi Therianto				No	S – DTD062 – N		/DTD062.png – DTD062 – N
-	DTD063	DTD																										
+	DTD063	DTD	Glaring Impact	1	1		3			C	Light, Warrior, Action, Attack	Charge, Overpower						"As an additional cost to play this, you may **charge** your hero’s soul.
+
+If a yellow card is **charged** this way, this gets **overpower**."		Light Warrior Action – Attack	Isuardi Therianto				No	S – DTD063 – N		/DTD063.png – DTD063 – N
 	DTD064	DTD																										
 	DTD065	DTD																										
 	DTD066	DTD	Light the Way	1	0	3	3			C	Light, Warrior, Action, Attack	Charge, Go again						"As an additional cost to play this, you may **charge** your hero’s soul.
