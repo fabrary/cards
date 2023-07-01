@@ -3447,6 +3447,143 @@ Destroy target yellow aura.`,
     talents: [Talent.Shadow],
     
   },{
+    artists: ["Reza Afshar"],
+    cardIdentifier: "widespread-destruction-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "DTD138",
+    name: "Widespread Destruction",
+    printings: [{
+      
+      identifier: "DTD138",
+      image: "DTD138",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD138"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD138",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action – Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Rune Gate**
+
+When the combat chain closes, each hero who has lost {l} this turn banishes a card from their arsenal.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.RuneGate,Keyword.BloodDebt],
+    
+    
+    pitch: 2,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Reza Afshar"],
+    cardIdentifier: "widespread-ruin-red",
+    classes: [Class.Runeblade],
+    defaultImage: "DTD139",
+    name: "Widespread Ruin",
+    printings: [{
+      
+      identifier: "DTD139",
+      image: "DTD139",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD139"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD139",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action – Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Rune Gate**
+
+When the combat chain closes, each hero who has lost {l} this turn banishes the top card of their deck.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.RuneGate,Keyword.BloodDebt],
+    
+    
+    pitch: 1,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "funeral-moon-red",
+    classes: [Class.Runeblade],
+    defaultImage: "DTD140",
+    name: "Funeral Moon",
+    printings: [{
+      
+      identifier: "DTD140",
+      image: "DTD140",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD140"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD140",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action ",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `You may play this from your banished zone.
+
+If a hero has lost {l} this turn, you may play this as though it were an instant.
+
+Create a Runechant token.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "anthem-of-spring-blue",
     classes: [Class.NotClassed],
@@ -34579,7 +34716,8 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Le Vuong"],
     cardIdentifier: "force-sight-red",
     classes: [Class.Generic],
@@ -34768,8 +34906,7 @@ If Force Sight is played from arsenal, **opt 2**.
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["David Ogilvie"],
     cardIdentifier: "lead-the-charge-red",
     classes: [Class.Generic],
@@ -69372,7 +69509,8 @@ If Blizzard Bolt was **fused**, whenever an attack deals damage to a hero this t
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Narendra B Adi"],
     cardIdentifier: "blizzard-bolt-blue",
     classes: [Class.Ranger],
@@ -69500,8 +69638,7 @@ If Buzz Bolt was **fused**, whenever an attack hits a hero this turn, it deals 1
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Kyxarie Peralta"],
     cardIdentifier: "buzz-bolt-yellow",
     classes: [Class.Ranger],
@@ -99234,7 +99371,8 @@ Frostbites you control have "At the beginning of your end phase, this deals 1 ar
     specializations: [Hero.Iyslander],
     talents: [Talent.Ice],
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Junaidi Lim"],
     cardIdentifier: "aether-hail-red",
     classes: [Class.Wizard],
@@ -99281,8 +99419,7 @@ Frostbites you control have "At the beginning of your end phase, this deals 1 ar
     
     talents: [Talent.Ice],
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Junaidi Lim"],
     cardIdentifier: "aether-hail-yellow",
     classes: [Class.Wizard],

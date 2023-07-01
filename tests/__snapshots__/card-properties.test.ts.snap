@@ -51579,6 +51579,64 @@ If Fulminate was **fused** with a Lightning card, attack action cards you contro
 }
 `;
 
+exports[`Check for unintentional updates Funeral Moon (funeral-moon-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Carlos Cruchaga",
+  ],
+  "cardIdentifier": "funeral-moon-red",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD140",
+  "defense": 3,
+  "functionalText": "You may play this from your banished zone.
+
+If a hero has lost {l} this turn, you may play this as though it were an instant.
+
+Create a Runechant token.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Funeral Moon",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "DTD140",
+      "image": "DTD140",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD140",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD140",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action ",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Fyendal's Fighting Spirit (fyendals-fighting-spirit-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -53093,6 +53151,61 @@ exports[`Check for unintentional updates Glacial Horns (glacial-horns) vs snapsh
   "typeText": "Ice Equipment – Head",
   "types": [
     "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Glaring Impact (glaring-impact-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Isuardi Therianto",
+  ],
+  "cardIdentifier": "glaring-impact-red",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 1,
+  "defaultImage": "DTD063",
+  "defense": 3,
+  "functionalText": "As an additional cost to play this, you may **charge** your hero’s soul.
+
+If a yellow card is **charged** this way, this gets **overpower**.",
+  "keywords": [
+    "Charge",
+    "Overpower",
+  ],
+  "name": "Glaring Impact",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "DTD063",
+      "image": "DTD063",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD063",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD063",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Warrior Action – Attack",
+  "types": [
+    "Action",
   ],
 }
 `;
@@ -143881,6 +143994,64 @@ exports[`Check for unintentional updates Whisper of the Oracle (whisper-of-the-o
     "Non-Attack",
   ],
   "typeText": "Generic Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Widespread Ruin (widespread-ruin-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Reza Afshar",
+  ],
+  "cardIdentifier": "widespread-ruin-red",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 2,
+  "defaultImage": "DTD139",
+  "defense": 3,
+  "functionalText": "**Rune Gate**
+
+When the combat chain closes, each hero who has lost {l} this turn banishes the top card of their deck.
+
+**Blood Debt**",
+  "keywords": [
+    "Rune Gate",
+    "Blood Debt",
+  ],
+  "name": "Widespread Ruin",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "DTD139",
+      "image": "DTD139",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD139",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD139",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action – Attack",
   "types": [
     "Action",
   ],

@@ -391,6 +391,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/widespread-destruction-yellow</loc>
+    <lastmod>2023-07-01</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/widespread-ruin-red</loc>
+    <lastmod>2023-07-01</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/funeral-moon-red</loc>
+    <lastmod>2023-07-01</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/anthem-of-spring-blue</loc>
     <lastmod>2023-05-31</lastmod>
     <priority>0.5</priority>
