@@ -108723,6 +108723,57 @@ The next attack action card you play from arsenal this turn gains +2{p}.
 }
 `;
 
+exports[`Check for unintentional updates Scowling Flesh Bag (scowling-flesh-bag) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tanapon Wachirakul",
+  ],
+  "cardIdentifier": "scowling-flesh-bag",
+  "classes": [
+    "Brute",
+  ],
+  "defaultImage": "DTD200",
+  "defense": 2,
+  "functionalText": "When this defends, **intimidate**.
+
+**Blade Break**",
+  "keywords": [
+    "Blade Break",
+    "Intimidate",
+  ],
+  "name": "Scowling Flesh Bag",
+  "printings": [
+    {
+      "foiling": "Cold",
+      "identifier": "DTD200",
+      "image": "DTD200",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Legendary",
+  ],
+  "rarity": "Legendary",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD200",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD200",
+  "subtypes": [
+    "Head",
+  ],
+  "typeText": "Brute Equipment – Head",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Scramble Pulse (scramble-pulse-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -136670,6 +136721,110 @@ exports[`Check for unintentional updates Tri-shot (tri-shot-blue) vs snapshot 1`
     "Non-Attack",
   ],
   "typeText": "Ranger Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Tribute to Demolition (tribute-to-demolition-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Anastasia Balakchina",
+  ],
+  "cardIdentifier": "tribute-to-demolition-red",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "defaultImage": "DTD127",
+  "defense": 3,
+  "functionalText": "As an additional cost to play this, banish a random card from your hand. If a card with 6 or more {p} is banished this way, this gets +2{p}.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Tribute to Demolition",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "DTD127",
+      "image": "DTD127",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD127",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD127",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Tribute to the Legions of Doom (tribute-to-the-legions-of-doom-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sandeep Karunakaran",
+  ],
+  "cardIdentifier": "tribute-to-the-legions-of-doom-red",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 3,
+  "defaultImage": "DTD130",
+  "defense": 3,
+  "functionalText": "As an additional cost to play this, banish a random card from your hand. If a card with 6 or more {p} is banished this way, this gets +2{p}.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Tribute to the Legions of Doom",
+  "pitch": 1,
+  "power": 7,
+  "printings": [
+    {
+      "identifier": "DTD130",
+      "image": "DTD130",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD130",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD130",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action – Attack",
   "types": [
     "Action",
   ],

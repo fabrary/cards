@@ -3457,6 +3457,49 @@ Destroy target yellow aura.`,
     talents: [Talent.Shadow],
     
   },{
+    artists: ["Phu Thieu"],
+    cardIdentifier: "ram-raider-red",
+    classes: [Class.Brute],
+    defaultImage: "DTD112",
+    name: "Ram Raider",
+    printings: [{
+      
+      identifier: "DTD112",
+      image: "DTD112",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD112"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD112",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action – Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `As an additional cost to play this, banish a random card from your hand. If a card with 6 or more {p} is banished this way, this gets **go again**.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
     artists: ["Marco González"],
     cardIdentifier: "shaden-scream-red",
     classes: [Class.Brute],
@@ -3950,6 +3993,94 @@ Create a Nasreth, the Soul Harrower token.`,
     talents: [Talent.Shadow],
     
   },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "envelop-in-darkness-red",
+    classes: [Class.Runeblade],
+    defaultImage: "DTD149",
+    name: "Envelop in Darkness",
+    printings: [{
+      
+      identifier: "DTD149",
+      image: "DTD149",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD149"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD149",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action ",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Create a Runechant token.
+
+The next attack action card you **rune gate** this turn gets +3{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "vantom-wraith-red",
+    classes: [Class.Runeblade],
+    defaultImage: "DTD158",
+    name: "Vantom Wraith",
+    printings: [{
+      
+      identifier: "DTD158",
+      image: "DTD158",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD158"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD158",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Rune Gate**
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.RuneGate,Keyword.BloodDebt],
+    
+    
+    pitch: 1,
+    power: 6,
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
     artists: ["Steve Argyle"],
     cardIdentifier: "levia-redeemed",
     classes: [Class.NotClassed],
@@ -4037,6 +4168,139 @@ Once each turn, you may play a card with **blood debt** from your banished zone.
     
     
     specializations: [Hero.Levia],
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Ausonia"],
+    cardIdentifier: "grim-feast-red",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD175",
+    name: "Grim Feast",
+    printings: [{
+      
+      identifier: "DTD175",
+      image: "DTD175",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD175"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD175",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Action",
+
+    cost: 3,
+    defense: 2,
+    functionalText: `You may play this from your banished zone. If you do, it costs {r}{r} less to play.
+
+Gain 3{l}
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Kyxarie Peralta"],
+    cardIdentifier: "vile-inquisition-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD180",
+    name: "Vile Inquisition",
+    printings: [{
+      
+      identifier: "DTD180",
+      image: "DTD180",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD180"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD180",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Action",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `You may play this from your banished zone. If you do, it costs {r}{r} less to play.
+
+Target hero banishes the top card of their deck. If it’s blue, they lost 1{g}.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "soul-butcher-red",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD181",
+    name: "Soul Butcher",
+    printings: [{
+      
+      identifier: "DTD181",
+      image: "DTD181",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD181"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD181",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action – Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `If the defending hero has 1 or more cards in their soul, this gets +2{p}.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    pitch: 1,
+    power: 6,
+    
+    
+    
+    
+    
     talents: [Talent.Shadow],
     
   },{
@@ -4345,6 +4609,49 @@ Your attacks this turn get "Whenever the defending hero adds 1 or more defending
     
     
   },{
+    artists: ["Kevin Sidharta"],
+    cardIdentifier: "dig-up-dinner-blue",
+    classes: [Class.Brute],
+    defaultImage: "DTD202",
+    name: "Dig Up Dinner",
+    printings: [{
+      
+      identifier: "DTD202",
+      image: "DTD202",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD202"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD202",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Brute Action",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `Choose 3 random cards in your graveyard. Shuffle all attack action cards with 6 or more {p} chosen this way into your deck, then gain that much {l}. Banish this.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Andy Aslamov"],
     cardIdentifier: "star-struck-yellow",
     classes: [Class.Guardian],
@@ -4596,6 +4903,51 @@ Until end of turn, target Dawnblade gets +1{p} and "Damage this would deal can't
     
     
     pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "runic-reckoning-red",
+    classes: [Class.Runeblade],
+    defaultImage: "DTD213",
+    name: "Runic Reckoning",
+    printings: [{
+      
+      identifier: "DTD213",
+      image: "DTD213",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD213"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD213",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Runeblade Action",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `This costs {r} less to play for each Runechant you control.
+
+The next Runeblade attack action card you play this turn gets +3{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
     
     restrictedFormats: [Format.Commoner],
     
@@ -34266,7 +34618,8 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "push-the-point-blue",
     classes: [Class.Generic],
@@ -34680,8 +35033,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Oxana Turlay"],
     cardIdentifier: "rifting-blue",
     classes: [Class.Generic],
@@ -69442,7 +69794,8 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "frost-lock-blue",
     classes: [Class.Ranger],
@@ -69696,8 +70049,7 @@ If Cold Wave was **fused**, cards and activated abilities cost opposing heroes a
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "cold-wave-yellow",
     classes: [Class.Ranger],
@@ -99740,7 +100092,8 @@ Deal 1 arcane damage to any target. If Icebind was **fused** and deals damage to
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Septimius Ferdian"],
     cardIdentifier: "polar-cap-red",
     classes: [Class.Wizard],
@@ -99838,8 +100191,7 @@ Deal 3 arcane damage to any target. If Polar Cap was **fused** and deals damage 
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Septimius Ferdian"],
     cardIdentifier: "polar-cap-blue",
     classes: [Class.Wizard],
@@ -127870,7 +128222,7 @@ At the beginning of your end phase destroy Frailty.`,
     ...cards4,
   ];
 
-  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasia Balakchina","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","Bastien Jez","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","Daria Khlebnokova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Edward Chee","Eilene Cherie","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Eric Klug","Erick Efata","Erik Klug","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Jessica Nguyen","Jessketchin","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kalashnikova N.","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Maerel Hibadita","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wisniewski","Mateusz Wiśniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Revazashvili E.","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sandeep Karunakaran","Sariya Asavametha","Sebastian Szmyd","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Stormy Elia Fanggidae","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tomasz Jedruszek","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
+  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasia Balakchina","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","Ausonia","Bastien Jez","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","Daria Khlebnokova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Edward Chee","Eilene Cherie","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Eric Klug","Erick Efata","Erik Klug","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Jessica Nguyen","Jessketchin","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kalashnikova N.","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Maerel Hibadita","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wisniewski","Mateusz Wiśniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Revazashvili E.","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sandeep Karunakaran","Sariya Asavametha","Sebastian Szmyd","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Stormy Elia Fanggidae","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tomasz Jedruszek","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
 
   export * from "./sets";
 

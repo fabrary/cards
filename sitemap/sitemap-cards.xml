@@ -391,6 +391,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/ram-raider-red</loc>
+    <lastmod>2023-07-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/shaden-scream-red</loc>
     <lastmod>2023-07-02</lastmod>
     <priority>0.5</priority>
@@ -446,12 +451,37 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/envelop-in-darkness-red</loc>
+    <lastmod>2023-07-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/vantom-wraith-red</loc>
+    <lastmod>2023-07-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/levia-redeemed</loc>
     <lastmod>2023-07-02</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://fabrary.net/cards/blasmophet-levia-consumed</loc>
+    <lastmod>2023-07-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/grim-feast-red</loc>
+    <lastmod>2023-07-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/vile-inquisition-blue</loc>
+    <lastmod>2023-07-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/soul-butcher-red</loc>
     <lastmod>2023-07-02</lastmod>
     <priority>0.5</priority>
   </url>
@@ -491,6 +521,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/dig-up-dinner-blue</loc>
+    <lastmod>2023-07-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/star-struck-yellow</loc>
     <lastmod>2023-05-27</lastmod>
     <priority>0.5</priority>
@@ -518,6 +553,11 @@
   <url>
     <loc>https://fabrary.net/cards/morlock-hill-blue</loc>
     <lastmod>2023-07-01</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/runic-reckoning-red</loc>
+    <lastmod>2023-07-02</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
