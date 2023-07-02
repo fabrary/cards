@@ -9,12 +9,6 @@ At the start of your turn, destroy this. If another hero drew a card from this, 
 
 Whenever an opponent plays or activates their first card or ability each turn, if it's not their turn, put a +1{p} counter on this. At the beginning of your end phase, remove all +1{p} counters from this.",,Adjudicator Weapon – Hammer (1H),Jessica Nguyen,,No,No,No,C - JDG005 - N,,/JDG005.png – JDG005 – N – R
 ,"JDG009, JDG010",JDG,Proclamation of Abundance,,,,,,,P,"Adjudicator, Equipment, Off-Hand",,Action,,,,,"**Action** - {r}{r}{r}, destroy this: Each hero draws up to their {i}.",,Adjudicator Equipment – Off-Hand,Kanadekana,,No,No,No,"R - JDG009 – N, C – JDG010 - N",,"/JDG009.png – JDG009 – N – R, /JDG010.png – JDG010 – N – C"
-,HER084,"HER, DTD","Prism, Advent of Thrones",,,,,16,4,P,"Light, Illusionist, Hero, Young","Once per Turn Instant, Awaken",,,,,,"Whenever a card with Herald in its name is put into Prism’s soul during an action phase, you may search your deck for a figment, put it into the arena, then shuffle.
-
-**Once per Turn Instant** - {r}{r}, banish a card from Prism’s soul: **Awaken** target figment you control.",,Light Illusionist Hero – Young,Livia Prima,,,No,,C – HER084 – N,,/HER084.png – HER084 – N – C
-,HER085,"HER, DTD",Vynnset,,,,,20,4,P,"Shadow, Runeblade, Hero, Young",,,,,,,"At the start of your turn, banish a card from your hand. If you do, create a Runechant token.
-
-Whenever you play a Shadow non-attack action card, you may pay {l}. If you do, the next Runechant effect that would deal damage this turn can’t be prevented.",,Shadow Runeblade Hero – Young,Federico Musetti,,,No,,C – HER085 – N,,/HER085.png – HER085 – N – C
 KthQj9HCRMDRfngK88kCw,LGS156,"LGS, DTD",Flail of Agony,,,1,,,,P,"Shadow, Runeblade, Weapon, Flail, 1H",Vynnset Specialization,Once per Turn Action,Attack,,,,"**Vynnset Specialization**  **Once per Turn Action** - {h}: **Attack**  When this hits, create a Runechant token.",,Shadow Runeblade Weapon – Flail (1H),Tomasz Jedruszek,,,,,C - LGS156 - N,BW9QqCLMwm8gkML9kfzWW - LGS156 - N,/LGS156.png – LGS156 – N – C
 9PJCCqpT8JhfHkfftKjwH,LGS157,"LGS, DTD",Vantom Banshee,1,3,7,3,,,P,"Shadow, Runeblade, Action, Attack","Rune Gate, Blood Debt",,,,,,**Rune Gate**  **Blood Debt**,,Shadow Runeblade Action - Attack,Muhammad Fajri,,,,,R - LGS157 - N - EA,PtwnJftGLhnQtDJMLWRqQ - LGS157 - N - EA,/LGS157.png – LGS157 – N – R – EA
 FhWgTR7RdKBTrfDhPWGrt,LGS158,"LGS, DTD",Vantom Banshee,2,3,6,3,,,P,"Shadow, Runeblade, Action, Attack","Rune Gate, Blood Debt",,,,,,**Rune Gate**  **Blood Debt**,,Shadow Runeblade Action - Attack,Muhammad Fajri,,,,,R - LGS158 - N - EA,KmC7PDzjT7gCcLpRhfwrJ - LGS158 - N - EA,/LGS158.png – LGS158 – N – R – EA
@@ -29,13 +23,14 @@ tfJTWDjLzBdrDjWm9NnmN,LGS159,"LGS, DTD",Vantom Banshee,3,3,5,3,,,P,"Shadow, Rune
 ,FAB161,"FAB, DTD",Banneret of Courage,2,1,4,3,,,P,"Light, Warrior, Action, Attack","Solflare, Charge",,,,,,"**Solflare** - When this is **charged** to your hero's soul, create a Courage token.",,Light Warrior Action - Attack,Jessada Sutthi,,,,,R - FAB161 - N - EA,,/FAB161.png – FAB161 – N – R – EA
 ,FAB162,"FAB, DTD",Banneret of Gallantry,2,1,4,3,,,P,"Light, Warrior, Action, Attack","Solflare, Charge",,,,,,"**Solflare** - When this is **charged** to your hero's soul, create a Quicken token.",,Light Warrior Action - Attack,Jessada Sutthi,,,,,R - FAB162 - N - EA,,/FAB162.png – FAB162 – N – R – EA
 ,FAB163,"FAB, DTD",Banneret of Protection,2,1,4,3,,,P,"Light, Warrior, Action, Attack","Solflare, Charge",,,,,,"**Solflare** - When this is **charged** to your hero's soul, create a Spellbane Aegis token.",,Light Warrior Action - Attack,Jessada Sutthi,,,,,R - FAB163 - N - EA,,/FAB163.png – FAB163 – N – R – EA
-,"FAB166, LGS160","FAB, DTD, LGS","Luminaris, Celestial Fury",,,,,,,P,"Light, Illusionist, Weapon, Scepter, 2H","Instant, Go again",,,,,,**Once per Turn Instant - {r}{r}:** Target angel attack or attack action card with Herald in its name gets **go again**.,,Light Illusionist Weapon - Scepter (2H),Jessketchin,,,,,"R - FAB166 – N, C – LGS160 – N",,"/FAB166.png – FAB166 – N – R, /LGS160.png – LGS160 – N – C"
 ,DTD000,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD001,DTD,"Prism, Awakener of Sol",,,,,32,4,M,"Light, Illusionist, Hero","Once per Turn Instant, Awaken",,,,,,"Whenever a card with Herald in its name is put into Prism’s soul during an action phase, you may search your deck for a figment, put it into the arena, then shuffle.
 
 **Once per Turn Instant** - {r}{r}, banish a card from Prism’s soul: **Awaken** target figment you control.",,Light Illusionist Hero,Livia Prima,,No,,,S – DTD001 – N,,/DTD001.png – DTD001 – N
-,DTD002,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD003,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,"DTD002, HER084","DTD, HER","Prism, Advent of Thrones",,,,,16,4,"M, P","Light, Illusionist, Hero, Young","Once per Turn Instant, Awaken",,,,,,"Whenever a card with Herald in its name is put into Prism’s soul during an action phase, you may search your deck for a figment, put it into the arena, then shuffle.
+
+**Once per Turn Instant** - {r}{r}, banish a card from Prism’s soul: **Awaken** target figment you control.",,Light Illusionist Hero – Young,Livia Prima,,,No,,"S – DTD002 – N, C – HER084 – N",,"/DTD002.png – DTD002 – N, /HER084.png – HER084 – N – C"
+,"DTD003, FAB166, LGS160","DTD, FAB, LGS","Luminaris, Celestial Fury",,,,,,,"R, P, P","Light, Illusionist, Weapon, Scepter, 2H","Instant, Go again",,,,,,**Once per Turn Instant - {r}{r}:** Target angel attack or attack action card with Herald in its name gets **go again**.,,Light Illusionist Weapon - Scepter (2H),Jessketchin,,,,,"S – DTD003 – N, R - FAB166 – N, C – LGS160 – N",,"/DTD003.png – DTD003 – N, /FAB166.png – FAB166 – N – R, /LGS160.png – LGS160 – N – C"
 ,DTD004,DTD,Empyrean Rapture,,,,,,,L,"Light, Illusionist, Equipment, Chest","Once per Turn Instant, Ward 1",,,,,,"If a card with Herald in its name has been put into your hero's soul during your turn, the first hero ability you activate that turn costs {r}{r} less to activate.
 
 **Once per Turn Instant** - {r}: This gets **ward 1** until end of turn.",,Light Illusionist Equipment – Chest,soyameii,,,,No,"C – DTD004 – N, C – DTD004 - N – EA",,"/DTD004.png – DTD004 – N – C, /DTD004_EA.png – DTD004 – N – C – EA"
@@ -267,7 +262,9 @@ Destroy target yellow aura.",,Light Action ,Mateusz Wisniewski,,,,No,S – DTD08
 ,DTD118,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD119,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD120,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD121,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD121,DTD,Battlefield Breaker,1,3,7,3,,,C,"Shadow, Brute, Action, Attack",Blood Debt,,,,,,"If you’ve banished a card with 6 or more {p} this turn, this gets +1{p}.
+
+**Blood Debt**",,Shadow Brute Action – Attack,Tomasz Jedruszek,,,,,S – DTD121 – N,,/DTD121.png – DTD121 – N
 ,DTD122,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD123,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD124,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -282,7 +279,9 @@ Destroy target yellow aura.",,Light Action ,Mateusz Wisniewski,,,,No,S – DTD08
 ,DTD133,DTD,"Vynnset, Iron Maiden",,,,,40,4,M,"Shadow, Runeblade, Hero",,,,,,,"At the start of your turn, banish a card from your hand. If you do, create a Runechant token.
 
 Whenever you play a Shadow non-attack action card, you may pay {l}. If you do, the next Runechant effect that would deal damage this turn can’t be prevented.",,Shadow Runeblade Hero,Federico Musetti,,,,,S – DTD133 – N,,/DTD133.png – DTD133 – N
-,DTD134,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,"DTD134, HER085","DTD, HER",Vynnset,,,,,20,4,"R, P","Shadow, Runeblade, Hero, Young",,,,,,,"At the start of your turn, banish a card from your hand. If you do, create a Runechant token.
+
+Whenever you play a Shadow non-attack action card, you may pay {l}. If you do, the next Runechant effect that would deal damage this turn can’t be prevented.",,Shadow Runeblade Hero – Young,Federico Musetti,,,No,,"S – DTD134 – N, C – HER085 – N",,"/DTD134.png – DTD134 – N, /HER085.png – HER085 – N – C"
 ,DTD135,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD136,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD137,DTD,Widespread Annihilation,3,4,6,3,,,M,"Shadow, Runeblade, Action, Attack","Rune Gate, Blood Debt",,,,,,"**Rune Gate**
@@ -334,7 +333,16 @@ Create a Nasreth, the Soul Harrower token.",,Shadow Runeblade Instant,Isuardi Th
 ,DTD161,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD162,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD163,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD164,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD164,DTD,"Levia, Redeemed",,,,,8,4,L,"Shadow, Demi-Hero","Legendary, Levia Specialization, Action, Transform",,,,,,"**Legendary Levia Specialization**
+
+**Action** - Turn all cards in your banished zone face-down: **Transform** into Levia, Redeemed. Activate this ability only while this is in your inventory and you have 13 or more cards with **blood debt** in your banished zone.
+
+Cards you own lose **blood debt**",,Shadow Demi-Hero,Steve Argyle,,,,No,C – DTD164 – N,,/DTD164_Redeemed.png – DTD164 – N – C
+,DTD164,DTD,"Blasmophet, Levia Consumed",,,,,13,4,L,"Shadow, Demi-Hero, Demon","Legendary, Levia Specialization, Transform",,,,,,"**Legendary Levia Specialization**
+
+While this is in your inventory, when **blood debt** reduces your {l} to 13, you may transform into Blasmophet, Levia Consumed.
+
+Once each turn, you may play a card with **blood debt** from your banished zone. Whenever a card is put into your banished zone, turn it face-down. If you would lose {l} from **blood debt**, instead banish the top card of your deck.",,Shadow Demi-Hero – Demon,Steve Argyle,,,,No,C – DTD164 – N,,/DTD164_Consumed.png – DTD164 – N – C
 ,DTD165,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD166,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD167,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -398,7 +406,7 @@ Your attacks this turn get ""Whenever the defending hero adds 1 or more defendin
 The first time this is defended by a non-equipment card each turn, halve the base {d} of target defending card, rounded up.",,Warrior Weapon – Axe (2H),Stormy Elia Fanggidae,,,,,S - DTD205 - N,,/DTD205.png – DTD205 – N
 ,DTD206,DTD,Bastion of Unity,,,,1,,,M,"Warrior, Equipment, Off-Hand","Unity, Temper",,,,,,"**Unity** - When this defends together with a card from hand, this gets +1{d} until end of turn.
 
-**Temper**",,Warrior Equipment – Off-Hand,Kanadekana,,,,,S - DTD206 - N,,/DTD206.png – DTD206 – N
+**Temper**",,Warrior Equipment – Off-Hand,Kanadekana,,,,No,S - DTD206 - N,,/DTD206.png – DTD206 – N
 ,DTD207,DTD,Ironsong Versus,,,,2,,,L,"Warrior, Equipment, Arms","Temper, Go again",,,,,,"**Once per Turn Action – {r}: Your next sword attack this turn gets “When this hits a hero, create a Courage token.” **Go again**
 
 **Temper**",,Warrior Equipment – Arms,Athiwut B.,,,,No,C – DTD207 – N,,/DTD207.png – DTD207 – N

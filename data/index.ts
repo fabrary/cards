@@ -193,92 +193,6 @@ Whenever an opponent plays or activates their first card or ability each turn, i
     
     
   },{
-    artists: ["Livia Prima"],
-    cardIdentifier: "prism-advent-of-thrones",
-    classes: [Class.Illusionist],
-    defaultImage: "HER084",
-    name: "Prism, Advent of Thrones",
-    printings: [{
-      foiling: Foiling.C,
-      identifier: "HER084",
-      image: "HER084",
-      set: Release.Promos,
-      
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["HER084"],
-    sets: [Release.Promos,Release.DuskTillDawn],
-    specialImage: "HER084",
-    subtypes: [Subtype.Young],
-    types: [Type.Hero],
-    typeText: "Light Illusionist Hero – Young",
-
-    
-    
-    functionalText: `Whenever a card with Herald in its name is put into Prism’s soul during an action phase, you may search your deck for a figment, put it into the arena, then shuffle.
-
-**Once per Turn Instant** - {r}{r}, banish a card from Prism’s soul: **Awaken** target figment you control.`,
-    
-    hero: Hero.Prism,
-    intellect: 4,
-    
-    keywords: [Keyword.Awaken],
-    life: 16,
-    
-    
-    
-    restrictedFormats: [Format.ClassicConstructed],
-    
-    
-    
-    
-    talents: [Talent.Light],
-    young: true
-  },{
-    artists: ["Federico Musetti"],
-    cardIdentifier: "vynnset",
-    classes: [Class.Runeblade],
-    defaultImage: "HER085",
-    name: "Vynnset",
-    printings: [{
-      foiling: Foiling.C,
-      identifier: "HER085",
-      image: "HER085",
-      set: Release.Promos,
-      
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["HER085"],
-    sets: [Release.Promos,Release.DuskTillDawn],
-    specialImage: "HER085",
-    subtypes: [Subtype.Young],
-    types: [Type.Hero],
-    typeText: "Shadow Runeblade Hero – Young",
-
-    
-    
-    functionalText: `At the start of your turn, banish a card from your hand. If you do, create a Runechant token.
-
-Whenever you play a Shadow non-attack action card, you may pay {l}. If you do, the next Runechant effect that would deal damage this turn can’t be prevented.`,
-    
-    hero: Hero.Vynnset,
-    intellect: 4,
-    
-    
-    life: 20,
-    
-    
-    
-    restrictedFormats: [Format.ClassicConstructed],
-    
-    
-    
-    
-    talents: [Talent.Shadow],
-    young: true
-  },{
     artists: ["Tomasz Jedruszek"],
     cardIdentifier: "flail-of-agony",
     classes: [Class.Runeblade],
@@ -853,53 +767,6 @@ Whenever you play a Shadow non-attack action card, you may pay {l}. If you do, t
     talents: [Talent.Light],
     
   },{
-    artists: ["Jessketchin"],
-    cardIdentifier: "luminaris-celestial-fury",
-    classes: [Class.Illusionist],
-    defaultImage: "LGS160",
-    name: "Luminaris, Celestial Fury",
-    printings: [{
-      foiling: Foiling.R,
-      identifier: "FAB166",
-      image: "FAB166",
-      set: Release.Promos,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "LGS160",
-      image: "LGS160",
-      set: Release.Promos,
-      
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["FAB166","LGS160"],
-    sets: [Release.Promos,Release.DuskTillDawn],
-    specialImage: "FAB166",
-    subtypes: [Subtype.Scepter,Subtype.TwoHanded],
-    types: [Type.Weapon],
-    typeText: "Light Illusionist Weapon - Scepter (2H)",
-
-    
-    
-    functionalText: `**Once per Turn Instant - {r}{r}:** Target angel attack or attack action card with Herald in its name gets **go again**.`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    talents: [Talent.Light],
-    
-  },{
     artists: ["Livia Prima"],
     cardIdentifier: "prism-awakener-of-sol",
     classes: [Class.Illusionist],
@@ -936,6 +803,108 @@ Whenever you play a Shadow non-attack action card, you may pay {l}. If you do, t
     
     
     restrictedFormats: [Format.Blitz],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Livia Prima"],
+    cardIdentifier: "prism-advent-of-thrones",
+    classes: [Class.Illusionist],
+    defaultImage: "DTD002",
+    name: "Prism, Advent of Thrones",
+    printings: [{
+      
+      identifier: "DTD002",
+      image: "DTD002",
+      set: Release.DuskTillDawn,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "HER084",
+      image: "HER084",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Majestic,Rarity.Promo],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD002","HER084"],
+    sets: [Release.DuskTillDawn,Release.Promos],
+    specialImage: "DTD002",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Light Illusionist Hero – Young",
+
+    
+    
+    functionalText: `Whenever a card with Herald in its name is put into Prism’s soul during an action phase, you may search your deck for a figment, put it into the arena, then shuffle.
+
+**Once per Turn Instant** - {r}{r}, banish a card from Prism’s soul: **Awaken** target figment you control.`,
+    
+    hero: Hero.Prism,
+    intellect: 4,
+    
+    keywords: [Keyword.Awaken],
+    life: 16,
+    
+    
+    
+    restrictedFormats: [Format.ClassicConstructed],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    young: true
+  },{
+    artists: ["Jessketchin"],
+    cardIdentifier: "luminaris-celestial-fury",
+    classes: [Class.Illusionist],
+    defaultImage: "DTD003",
+    name: "Luminaris, Celestial Fury",
+    printings: [{
+      
+      identifier: "DTD003",
+      image: "DTD003",
+      set: Release.DuskTillDawn,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "FAB166",
+      image: "FAB166",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS160",
+      image: "LGS160",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Rare,Rarity.Promo],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD003","FAB166","LGS160"],
+    sets: [Release.DuskTillDawn,Release.Promos],
+    specialImage: "DTD003",
+    subtypes: [Subtype.Scepter,Subtype.TwoHanded],
+    types: [Type.Weapon],
+    typeText: "Light Illusionist Weapon - Scepter (2H)",
+
+    
+    
+    functionalText: `**Once per Turn Instant - {r}{r}:** Target angel attack or attack action card with Herald in its name gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    
     
     
     
@@ -3447,6 +3416,49 @@ Destroy target yellow aura.`,
     talents: [Talent.Shadow],
     
   },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "battlefield-breaker-red",
+    classes: [Class.Brute],
+    defaultImage: "DTD121",
+    name: "Battlefield Breaker",
+    printings: [{
+      
+      identifier: "DTD121",
+      image: "DTD121",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD121"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD121",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action – Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `If you’ve banished a card with 6 or more {p} this turn, this gets +1{p}.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    pitch: 1,
+    power: 7,
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
     artists: ["Federico Musetti"],
     cardIdentifier: "vynnset-iron-maiden",
     classes: [Class.Runeblade],
@@ -3489,6 +3501,55 @@ Whenever you play a Shadow non-attack action card, you may pay {l}. If you do, t
     
     talents: [Talent.Shadow],
     
+  },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "vynnset",
+    classes: [Class.Runeblade],
+    defaultImage: "DTD134",
+    name: "Vynnset",
+    printings: [{
+      
+      identifier: "DTD134",
+      image: "DTD134",
+      set: Release.DuskTillDawn,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "HER085",
+      image: "HER085",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Rare,Rarity.Promo],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD134","HER085"],
+    sets: [Release.DuskTillDawn,Release.Promos],
+    specialImage: "DTD134",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Shadow Runeblade Hero – Young",
+
+    
+    
+    functionalText: `At the start of your turn, banish a card from your hand. If you do, create a Runechant token.
+
+Whenever you play a Shadow non-attack action card, you may pay {l}. If you do, the next Runechant effect that would deal damage this turn can’t be prevented.`,
+    
+    hero: Hero.Vynnset,
+    intellect: 4,
+    
+    
+    life: 20,
+    
+    
+    
+    restrictedFormats: [Format.ClassicConstructed],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    young: true
   },{
     artists: ["Reza Afshar"],
     cardIdentifier: "widespread-annihilation-blue",
@@ -3714,6 +3775,96 @@ Create a Nasreth, the Soul Harrower token.`,
     
     
     specializations: [Hero.Vynnset],
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Steve Argyle"],
+    cardIdentifier: "levia-redeemed",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD164_Redeemed",
+    name: "Levia, Redeemed",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "DTD164",
+      image: "DTD164_Redeemed",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["DTD164"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD164_Redeemed",
+    subtypes: [],
+    types: [Type.DemiHero],
+    typeText: "Shadow Demi-Hero",
+
+    
+    
+    functionalText: `**Legendary Levia Specialization**
+
+**Action** - Turn all cards in your banished zone face-down: **Transform** into Levia, Redeemed. Activate this ability only while this is in your inventory and you have 13 or more cards with **blood debt** in your banished zone.
+
+Cards you own lose **blood debt**`,
+    
+    
+    intellect: 4,
+    
+    keywords: [Keyword.Legendary,Keyword.Specialization,Keyword.Transform],
+    life: 8,
+    oppositeSideCardIdentifier: `blasmophet-levia-consumed`,
+    
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    specializations: [Hero.Levia],
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Steve Argyle"],
+    cardIdentifier: "blasmophet-levia-consumed",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD164_Consumed",
+    name: "Blasmophet, Levia Consumed",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "DTD164",
+      image: "DTD164_Consumed",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["DTD164"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD164_Consumed",
+    subtypes: [Subtype.Demon],
+    types: [Type.DemiHero],
+    typeText: "Shadow Demi-Hero – Demon",
+
+    
+    
+    functionalText: `**Legendary Levia Specialization**
+
+While this is in your inventory, when **blood debt** reduces your {l} to 13, you may transform into Blasmophet, Levia Consumed.
+
+Once each turn, you may play a card with **blood debt** from your banished zone. Whenever a card is put into your banished zone, turn it face-down. If you would lose {l} from **blood debt**, instead banish the top card of your deck.`,
+    
+    
+    intellect: 4,
+    isCardBack: true,
+    keywords: [Keyword.Legendary,Keyword.Specialization,Keyword.Transform],
+    life: 13,
+    oppositeSideCardIdentifier: `levia-redeemed`,
+    
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    specializations: [Hero.Levia],
     talents: [Talent.Shadow],
     
   },{
@@ -4018,7 +4169,7 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     
     
     
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -34537,7 +34688,8 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Anastasia Alexandrova"],
     cardIdentifier: "fate-foreseen-yellow",
     classes: [Class.Generic],
@@ -34667,8 +34819,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Andrey Savchuk"],
     cardIdentifier: "come-to-fight-red",
     classes: [Class.Generic],
@@ -69496,7 +69647,8 @@ If Snap Shot was **fused**, you may activate abilities of bows you control an ad
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Federico Musetti"],
     cardIdentifier: "snap-shot-blue",
     classes: [Class.Ranger],
@@ -69557,8 +69709,7 @@ If Snap Shot was **fused**, you may activate abilities of bows you control an ad
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "blizzard-bolt-red",
     classes: [Class.Ranger],

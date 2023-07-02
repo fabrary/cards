@@ -396,7 +396,7 @@ export const mapCSV = (parsedCards: ParsedCard[]): Card[] => {
   const cards = parsedCards.map((parsedCard) => {
     return getCardData(parsedCard);
   });
-  const isBackOverrides = ["Bellona, Archangel of War"];
+  const isBackOverrides = ["Blasmophet, Levia Consumed"];
   return addOppositeSideCardIdentifiers(cards).map((card) => {
     if (isBackOverrides.includes(card.name)) {
       card.isCardBack = true;

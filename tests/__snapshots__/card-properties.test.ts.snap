@@ -8772,6 +8772,9 @@ exports[`Check for unintentional updates Bastion of Unity (bastion-of-unity) vs 
     "Majestic",
   ],
   "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
   "setIdentifiers": [
     "DTD206",
   ],
@@ -72859,13 +72862,18 @@ exports[`Check for unintentional updates Luminaris, Celestial Fury (luminaris-ce
   "classes": [
     "Illusionist",
   ],
-  "defaultImage": "LGS160",
+  "defaultImage": "DTD003",
   "functionalText": "**Once per Turn Instant - {r}{r}:** Target angel attack or attack action card with Herald in its name gets **go again**.",
   "keywords": [
     "Go again",
   ],
   "name": "Luminaris, Celestial Fury",
   "printings": [
+    {
+      "identifier": "DTD003",
+      "image": "DTD003",
+      "set": "Dusk till Dawn",
+    },
     {
       "foiling": "Rainbow",
       "identifier": "FAB166",
@@ -72880,18 +72888,20 @@ exports[`Check for unintentional updates Luminaris, Celestial Fury (luminaris-ce
     },
   ],
   "rarities": [
+    "Rare",
     "Promo",
   ],
-  "rarity": "Promo",
+  "rarity": "Rare",
   "setIdentifiers": [
+    "DTD003",
     "FAB166",
     "LGS160",
   ],
   "sets": [
-    "Promos",
     "Dusk till Dawn",
+    "Promos",
   ],
-  "specialImage": "FAB166",
+  "specialImage": "DTD003",
   "subtypes": [
     "Scepter",
     "2H",
@@ -89675,7 +89685,7 @@ exports[`Check for unintentional updates Prism, Advent of Thrones (prism-advent-
   "classes": [
     "Illusionist",
   ],
-  "defaultImage": "HER084",
+  "defaultImage": "DTD002",
   "functionalText": "Whenever a card with Herald in its name is put into Prism’s soul during an action phase, you may search your deck for a figment, put it into the arena, then shuffle.
 
 **Once per Turn Instant** - {r}{r}, banish a card from Prism’s soul: **Awaken** target figment you control.",
@@ -89688,6 +89698,11 @@ exports[`Check for unintentional updates Prism, Advent of Thrones (prism-advent-
   "name": "Prism, Advent of Thrones",
   "printings": [
     {
+      "identifier": "DTD002",
+      "image": "DTD002",
+      "set": "Dusk till Dawn",
+    },
+    {
       "foiling": "Cold",
       "identifier": "HER084",
       "image": "HER084",
@@ -89695,20 +89710,22 @@ exports[`Check for unintentional updates Prism, Advent of Thrones (prism-advent-
     },
   ],
   "rarities": [
+    "Majestic",
     "Promo",
   ],
-  "rarity": "Promo",
+  "rarity": "Majestic",
   "restrictedFormats": [
     "Classic Constructed",
   ],
   "setIdentifiers": [
+    "DTD002",
     "HER084",
   ],
   "sets": [
-    "Promos",
     "Dusk till Dawn",
+    "Promos",
   ],
-  "specialImage": "HER084",
+  "specialImage": "DTD002",
   "subtypes": [
     "Young",
   ],
@@ -141362,7 +141379,7 @@ exports[`Check for unintentional updates Vynnset (vynnset) vs snapshot 1`] = `
   "classes": [
     "Runeblade",
   ],
-  "defaultImage": "HER085",
+  "defaultImage": "DTD134",
   "functionalText": "At the start of your turn, banish a card from your hand. If you do, create a Runechant token.
 
 Whenever you play a Shadow non-attack action card, you may pay {l}. If you do, the next Runechant effect that would deal damage this turn can’t be prevented.",
@@ -141372,6 +141389,11 @@ Whenever you play a Shadow non-attack action card, you may pay {l}. If you do, t
   "name": "Vynnset",
   "printings": [
     {
+      "identifier": "DTD134",
+      "image": "DTD134",
+      "set": "Dusk till Dawn",
+    },
+    {
       "foiling": "Cold",
       "identifier": "HER085",
       "image": "HER085",
@@ -141379,20 +141401,22 @@ Whenever you play a Shadow non-attack action card, you may pay {l}. If you do, t
     },
   ],
   "rarities": [
+    "Rare",
     "Promo",
   ],
-  "rarity": "Promo",
+  "rarity": "Rare",
   "restrictedFormats": [
     "Classic Constructed",
   ],
   "setIdentifiers": [
+    "DTD134",
     "HER085",
   ],
   "sets": [
-    "Promos",
     "Dusk till Dawn",
+    "Promos",
   ],
-  "specialImage": "HER085",
+  "specialImage": "DTD134",
   "subtypes": [
     "Young",
   ],
@@ -141404,6 +141428,52 @@ Whenever you play a Shadow non-attack action card, you may pay {l}. If you do, t
     "Hero",
   ],
   "young": true,
+}
+`;
+
+exports[`Check for unintentional updates Vynnset, Iron Maiden (vynnset-iron-maiden) vs snapshot 1`] = `
+{
+  "artists": [
+    "Federico Musetti",
+  ],
+  "cardIdentifier": "vynnset-iron-maiden",
+  "classes": [
+    "Runeblade",
+  ],
+  "defaultImage": "DTD133",
+  "functionalText": "At the start of your turn, banish a card from your hand. If you do, create a Runechant token.
+
+Whenever you play a Shadow non-attack action card, you may pay {l}. If you do, the next Runechant effect that would deal damage this turn can’t be prevented.",
+  "hero": "Vynnset",
+  "intellect": 4,
+  "life": 40,
+  "name": "Vynnset, Iron Maiden",
+  "printings": [
+    {
+      "identifier": "DTD133",
+      "image": "DTD133",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "setIdentifiers": [
+    "DTD133",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD133",
+  "subtypes": [],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Hero",
+  "types": [
+    "Hero",
+  ],
 }
 `;
 
@@ -144102,6 +144172,64 @@ exports[`Check for unintentional updates Whisper of the Oracle (whisper-of-the-o
     "Non-Attack",
   ],
   "typeText": "Generic Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Widespread Annihilation (widespread-annihilation-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Reza Afshar",
+  ],
+  "cardIdentifier": "widespread-annihilation-blue",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 4,
+  "defaultImage": "DTD137",
+  "defense": 3,
+  "functionalText": "**Rune Gate**
+
+When the combat chain closes, each hero who has lost {l} this turn banishes a card from their hand.
+
+**Blood Debt**",
+  "keywords": [
+    "Rune Gate",
+    "Blood Debt",
+  ],
+  "name": "Widespread Annihilation",
+  "pitch": 3,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "DTD137",
+      "image": "DTD137",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD137",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD137",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action – Attack",
   "types": [
     "Action",
   ],

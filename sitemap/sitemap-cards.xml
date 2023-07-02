@@ -21,16 +21,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fabrary.net/cards/prism-advent-of-thrones</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/vynnset</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://fabrary.net/cards/flail-of-agony</loc>
     <lastmod>2023-05-17</lastmod>
     <priority>0.5</priority>
@@ -101,13 +91,18 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fabrary.net/cards/luminaris-celestial-fury</loc>
-    <lastmod>2023-05-18</lastmod>
+    <loc>https://fabrary.net/cards/prism-awakener-of-sol</loc>
+    <lastmod>2023-06-30</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fabrary.net/cards/prism-awakener-of-sol</loc>
-    <lastmod>2023-06-30</lastmod>
+    <loc>https://fabrary.net/cards/prism-advent-of-thrones</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/luminaris-celestial-fury</loc>
+    <lastmod>2023-05-18</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -391,8 +386,18 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/battlefield-breaker-red</loc>
+    <lastmod>2023-07-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/vynnset-iron-maiden</loc>
     <lastmod>2023-07-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/vynnset</loc>
+    <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -418,6 +423,16 @@
   <url>
     <loc>https://fabrary.net/cards/oblivion-blue</loc>
     <lastmod>2023-07-01</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/levia-redeemed</loc>
+    <lastmod>2023-07-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/blasmophet-levia-consumed</loc>
+    <lastmod>2023-07-02</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

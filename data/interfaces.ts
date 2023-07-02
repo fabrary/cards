@@ -170,6 +170,7 @@ export enum Type {
   Action = "Action",
   AttackReaction = "Attack Reaction",
   DefenseReaction = "Defense Reaction",
+  DemiHero = "Demi-Hero",
   Equipment = "Equipment",
   Hero = "Hero",
   Instant = "Instant",
