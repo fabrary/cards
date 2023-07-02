@@ -244,7 +244,11 @@ Destroy target yellow aura.",,Light Action ,Mateusz Wisniewski,,,,No,S – DTD08
 ,DTD103,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD104,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD105,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD106,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD106,DTD,Spoiled Skull,,,,,,,M,"Shadow, Brute, Equipment, Head","Action, Blood Debt, Arcane Barrier 1, Go again",,,,,,"**Action – {r}**, banish this: Target 3 action cards with different names in your banished zone and choose one at random. You may play it this turn.  **Go again**.
+
+**Arcane Barrier 1**
+
+**Blood Debt**",,Shadow Brute Equipment – Head,Carlos Cruchaga,,,,No,S – DTD106 – N,,/DTD106.png – DTD106 – N
 ,DTD107,DTD,Diabolic Offering,3,1,*,*,,,M,"Shadow, Brute, Action, Attack",Blood Debt,,,,,,"If a card with 6 or more {p} has been put into your banished zone this turn, Diabolic Offering’s {p} and {d} are 6, otherwise they are 0.
 
 **Blood Debt**",,Shadow Brute Action – Attack,Carlos Cruchaga,,,,No,S – DTD107 - N,,/DTD107.png – DTD107 – N
@@ -255,7 +259,13 @@ Destroy target yellow aura.",,Light Action ,Mateusz Wisniewski,,,,No,S – DTD08
 
 **Blood Debt**",,Shadow Brute Action – Attack,Othon Nikolaidis,,,,No,S – DTD109 – N,,/DTD109.png – DTD109 – N
 ,DTD110,DTD,Expendable Limbs,3,0,,4,,,M,"Shadow, Brute, Defense Reaction",,,,,,,"As an additional cost to play this, banish a random card from your hand. If a card with 6 or more {p} is banished this way, you may play it from your banished zone during your next action phase.",,Shadow Brute Defense Reaction,Sam Yang,,,,No,S – DTD110 – N,,/DTD110.png – DTD110 – N
-,DTD111,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD111,DTD,Blood Dripping Frenzy,3,2,,3,,,M,"Shadow, Brute, Action",Go again,,,,,,"As an additional cost to play this, banish your hand.
+
+Draw a card for each card with **blood debt** banished this way.
+
+Your Brute and Shadow attacks get +X{p} this turn, where X is the number of cards with 6 or more {p} banished this way.
+
+**Go again**",,Shadow Brute Action,Simon Dominic,,,,No,S – DTD111 – N,,/DTD111.png – DTD111 – N
 ,DTD112,DTD,Ram Raider,1,2,6,3,,,R,"Shadow, Brute, Action, Attack","Blood Debt, Go again",,,,,,"As an additional cost to play this, banish a random card from your hand. If a card with 6 or more {p} is banished this way, this gets **go again**.
 
 **Blood Debt**",,Shadow Brute Action – Attack,Phu Thieu,,,,No,S – DTD112 – N,,/DTD112.png – DTD112 – N

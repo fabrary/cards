@@ -112787,6 +112787,61 @@ exports[`Check for unintentional updates Ser Boltyn, Breaker of Dawn (ser-boltyn
 }
 `;
 
+exports[`Check for unintentional updates Shaden Death Hydra (shaden-death-hydra-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Ausonia",
+  ],
+  "cardIdentifier": "shaden-death-hydra-yellow",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 6,
+  "defaultImage": "DTD108",
+  "defense": 3,
+  "functionalText": "When this attacks, it deals X damage to you, where X is 13 minus the number of cards with **blood debt** in your banished zone.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Shaden Death Hydra",
+  "pitch": 2,
+  "power": 13,
+  "printings": [
+    {
+      "identifier": "DTD108",
+      "image": "DTD108",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD108",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD108",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Shaden Scream (shaden-scream-red) vs snapshot 1`] = `
 {
   "artists": [

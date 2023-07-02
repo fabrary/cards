@@ -3333,6 +3333,51 @@ Destroy target yellow aura.`,
     
   },{
     artists: ["Carlos Cruchaga"],
+    cardIdentifier: "spoiled-skull",
+    classes: [Class.Brute],
+    defaultImage: "DTD106",
+    name: "Spoiled Skull",
+    printings: [{
+      
+      identifier: "DTD106",
+      image: "DTD106",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD106"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD106",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Shadow Brute Equipment – Head",
+
+    
+    
+    functionalText: `**Action – {r}**, banish this: Target 3 action cards with different names in your banished zone and choose one at random. You may play it this turn.  **Go again**.
+
+**Arcane Barrier 1**
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.ArcaneBarrier,Keyword.GoAgain],
+    
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Carlos Cruchaga"],
     cardIdentifier: "diabolic-offering-blue",
     classes: [Class.Brute],
     defaultImage: "DTD107",
@@ -3490,6 +3535,53 @@ Destroy target yellow aura.`,
     
     
     
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Simon Dominic"],
+    cardIdentifier: "blood-dripping-frenzy-blue",
+    classes: [Class.Brute],
+    defaultImage: "DTD111",
+    name: "Blood Dripping Frenzy",
+    printings: [{
+      
+      identifier: "DTD111",
+      image: "DTD111",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD111"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD111",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `As an additional cost to play this, banish your hand.
+
+Draw a card for each card with **blood debt** banished this way.
+
+Your Brute and Shadow attacks get +X{p} this turn, where X is the number of cards with 6 or more {p} banished this way.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 3,
@@ -34491,7 +34583,8 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Reza Afshar"],
     cardIdentifier: "eirinas-prayer-yellow",
     classes: [Class.Generic],
@@ -34621,8 +34714,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Pavel Chuvin"],
     cardIdentifier: "back-alley-breakline-red",
     classes: [Class.Generic],
@@ -69969,7 +70061,8 @@ If Snow Under was **fused**, it gains "If this hits a hero, create a Frostbite t
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Reza Afshar"],
     cardIdentifier: "emerging-avalanche-red",
     classes: [Class.Guardian],
@@ -70034,8 +70127,7 @@ At the beginning of your action phase, destroy Emerging Avalanche then the next 
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Reza Afshar"],
     cardIdentifier: "emerging-avalanche-yellow",
     classes: [Class.Guardian],
