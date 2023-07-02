@@ -3545,6 +3545,92 @@ Your next next Brute or Shadow attack this turn gets +5{p}.
     talents: [Talent.Shadow],
     
   },{
+    artists: ["Anastasia Balakchina"],
+    cardIdentifier: "tribute-to-demolition-red",
+    classes: [Class.Brute],
+    defaultImage: "DTD127",
+    name: "Tribute to Demolition",
+    printings: [{
+      
+      identifier: "DTD127",
+      image: "DTD127",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD127"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD127",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action – Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `As an additional cost to play this, banish a random card from your hand. If a card with 6 or more {p} is banished this way, this gets +2{p}.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    pitch: 1,
+    power: 6,
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Sandeep Karunakaran"],
+    cardIdentifier: "tribute-to-the-legions-of-doom-red",
+    classes: [Class.Brute],
+    defaultImage: "DTD130",
+    name: "Tribute to the Legions of Doom",
+    printings: [{
+      
+      identifier: "DTD130",
+      image: "DTD130",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD130"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD130",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action – Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `As an additional cost to play this, banish a random card from your hand. If a card with 6 or more {p} is banished this way, this gets +2{p}.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    pitch: 1,
+    power: 7,
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
     artists: ["Federico Musetti"],
     cardIdentifier: "vynnset-iron-maiden",
     classes: [Class.Runeblade],
@@ -3909,7 +3995,7 @@ Cards you own lose **blood debt**`,
     talents: [Talent.Shadow],
     
   },{
-    artists: ["Steve Argyle"],
+    artists: ["Wisnu Tan"],
     cardIdentifier: "blasmophet-levia-consumed",
     classes: [Class.NotClassed],
     defaultImage: "DTD164_Consumed",
@@ -4173,6 +4259,49 @@ Your attacks this turn get "Whenever the defending hero adds 1 or more defending
     
     specializations: [Hero.Lexi],
     talents: [Talent.Lightning],
+    
+  },{
+    artists: ["Tanapon Wachirakul"],
+    cardIdentifier: "scowling-flesh-bag",
+    classes: [Class.Brute],
+    defaultImage: "DTD200",
+    name: "Scowling Flesh Bag",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "DTD200",
+      image: "DTD200",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["DTD200"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD200",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Brute Equipment – Head",
+
+    
+    defense: 2,
+    functionalText: `When this defends, **intimidate**.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak,Keyword.Intimidate],
+    
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
     
   },{
     artists: ["Henrique Lindner"],
@@ -34551,7 +34680,8 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Oxana Turlay"],
     cardIdentifier: "rifting-blue",
     classes: [Class.Generic],
@@ -34669,8 +34799,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "vigor-rush-yellow",
     classes: [Class.Generic],
@@ -69567,7 +69696,8 @@ If Cold Wave was **fused**, cards and activated abilities cost opposing heroes a
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "cold-wave-yellow",
     classes: [Class.Ranger],
@@ -69689,8 +69819,7 @@ If Cold Wave was **fused**, cards and activated abilities cost opposing heroes a
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Federico Musetti"],
     cardIdentifier: "snap-shot-red",
     classes: [Class.Ranger],
@@ -99709,7 +99838,8 @@ Deal 3 arcane damage to any target. If Polar Cap was **fused** and deals damage 
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Septimius Ferdian"],
     cardIdentifier: "polar-cap-blue",
     classes: [Class.Wizard],
@@ -99758,8 +99888,7 @@ Deal 2 arcane damage to any target. If Polar Cap was **fused** and deals damage 
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Athiwut B."],
     cardIdentifier: "conduit-of-frostburn",
     classes: [Class.Wizard],
@@ -127741,7 +127870,7 @@ At the beginning of your end phase destroy Frailty.`,
     ...cards4,
   ];
 
-  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","Bastien Jez","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","Daria Khlebnokova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Edward Chee","Eilene Cherie","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Eric Klug","Erick Efata","Erik Klug","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Jessica Nguyen","Jessketchin","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kalashnikova N.","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Maerel Hibadita","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wisniewski","Mateusz Wiśniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Revazashvili E.","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sariya Asavametha","Sebastian Szmyd","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Stormy Elia Fanggidae","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tomasz Jedruszek","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
+  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasia Balakchina","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","Bastien Jez","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","Daria Khlebnokova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Edward Chee","Eilene Cherie","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Eric Klug","Erick Efata","Erik Klug","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Jessica Nguyen","Jessketchin","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kalashnikova N.","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Maerel Hibadita","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wisniewski","Mateusz Wiśniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Revazashvili E.","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sandeep Karunakaran","Sariya Asavametha","Sebastian Szmyd","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Stormy Elia Fanggidae","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tomasz Jedruszek","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
 
   export * from "./sets";
 

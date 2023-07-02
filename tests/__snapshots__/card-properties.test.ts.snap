@@ -10378,6 +10378,57 @@ exports[`Check for unintentional updates Berserk (berserk-yellow) vs snapshot 1`
 }
 `;
 
+exports[`Check for unintentional updates Beseech the Demigon (beseech-the-demigon-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Marco González",
+  ],
+  "cardIdentifier": "beseech-the-demigon-red",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD187",
+  "defense": 2,
+  "functionalText": "Choose an attack action card in your banished zone. It gets +3{p} until end of turn.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Beseech the Demigon",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "DTD187",
+      "image": "DTD187",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD187",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD187",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Billowing Mirage (billowing-mirage-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -11792,7 +11843,7 @@ Your next weapon attack this turn gains +2{p}.",
 exports[`Check for unintentional updates Blasmophet, Levia Consumed (blasmophet-levia-consumed) vs snapshot 1`] = `
 {
   "artists": [
-    "Steve Argyle",
+    "Wisnu Tan",
   ],
   "cardIdentifier": "blasmophet-levia-consumed",
   "classes": [
@@ -43874,6 +43925,53 @@ exports[`Check for unintentional updates Evergreen (evergreen-yellow) vs snapsho
   "typeText": "Earth Action – Attack",
   "types": [
     "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Expendable Limbs (expendable-limbs-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sam Yang",
+  ],
+  "cardIdentifier": "expendable-limbs-blue",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD110",
+  "defense": 4,
+  "functionalText": "As an additional cost to play this, banish a random card from your hand. If a card with 6 or more {p} is banished this way, you may play it from your banished zone during your next action phase.",
+  "name": "Expendable Limbs",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "DTD110",
+      "image": "DTD110",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD110",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD110",
+  "subtypes": [],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Defense Reaction",
+  "types": [
+    "Defense Reaction",
   ],
 }
 `;
@@ -79822,6 +79920,53 @@ exports[`Check for unintentional updates Nullrune Robe (nullrune-robe) vs snapsh
 }
 `;
 
+exports[`Check for unintentional updates Numbskull (numbskull-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Henrique Lindner",
+  ],
+  "cardIdentifier": "numbskull-red",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "defaultImage": "DTD201",
+  "defense": 3,
+  "functionalText": "While this is in any zone, its {r} cost to play, {p}, and {d} can’t be modified.",
+  "name": "Numbskull",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "DTD201",
+      "image": "DTD201",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD201",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD201",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Brute Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Oaken Old (oaken-old-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -111581,6 +111726,62 @@ exports[`Check for unintentional updates Ser Boltyn, Breaker of Dawn (ser-boltyn
   "typeText": "Light Warrior Hero",
   "types": [
     "Hero",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Shaden Scream (shaden-scream-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Marco González",
+  ],
+  "cardIdentifier": "shaden-scream-red",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD118",
+  "defense": 3,
+  "functionalText": "As an additional cost to play this, banish a random card from your hand.
+
+Your next next Brute or Shadow attack this turn gets +5{p}.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Shaden Scream",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "DTD118",
+      "image": "DTD118",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD118",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD118",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action",
+  "types": [
+    "Action",
   ],
 }
 `;
