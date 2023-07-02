@@ -34017,6 +34017,57 @@ exports[`Check for unintentional updates Diadem of Dreamstate (diadem-of-dreamst
 }
 `;
 
+exports[`Check for unintentional updates Dig Up Dinner (dig-up-dinner-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Kevin Sidharta",
+  ],
+  "cardIdentifier": "dig-up-dinner-blue",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 1,
+  "defaultImage": "DTD202",
+  "defense": 3,
+  "functionalText": "Choose 3 random cards in your graveyard. Shuffle all attack action cards with 6 or more {p} chosen this way into your deck, then gain that much {l}. Banish this.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Dig Up Dinner",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "DTD202",
+      "image": "DTD202",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD202",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD202",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Brute Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Dimenxxional Crossroads (dimenxxional-crossroads-yellow) vs snapshot 1`] = `
 {
   "artists": [
@@ -43387,6 +43438,62 @@ If Entwine Lightning was **fused**, it gains **go again**.",
     "Elemental",
   ],
   "typeText": "Elemental Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Envelop in Darkness (envelop-in-darkness-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tomasz Jedruszek",
+  ],
+  "cardIdentifier": "envelop-in-darkness-red",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 1,
+  "defaultImage": "DTD149",
+  "defense": 2,
+  "functionalText": "Create a Runechant token.
+
+The next attack action card you **rune gate** this turn gets +3{p}.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Envelop in Darkness",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "DTD149",
+      "image": "DTD149",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD149",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD149",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action ",
   "types": [
     "Action",
   ],
@@ -54562,6 +54669,62 @@ At the beginning of each end phase, if a hero has 2 or more cards with yellow co
     "Light",
   ],
   "typeText": "Light Action – Landmark",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Grim Feast (grim-feast-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Ausonia",
+  ],
+  "cardIdentifier": "grim-feast-red",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 3,
+  "defaultImage": "DTD175",
+  "defense": 2,
+  "functionalText": "You may play this from your banished zone. If you do, it costs {r}{r} less to play.
+
+Gain 3{l}
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Grim Feast",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "DTD175",
+      "image": "DTD175",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD175",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD175",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action",
   "types": [
     "Action",
   ],
@@ -94477,6 +94640,62 @@ exports[`Check for unintentional updates Rally the Rearguard (rally-the-rearguar
 }
 `;
 
+exports[`Check for unintentional updates Ram Raider (ram-raider-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Phu Thieu",
+  ],
+  "cardIdentifier": "ram-raider-red",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "defaultImage": "DTD112",
+  "defense": 3,
+  "functionalText": "As an additional cost to play this, banish a random card from your hand. If a card with 6 or more {p} is banished this way, this gets **go again**.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Go again",
+  ],
+  "name": "Ram Raider",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "DTD112",
+      "image": "DTD112",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD112",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD112",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Rampart of the Ram's Head (rampart-of-the-rams-head) vs snapshot 1`] = `
 {
   "artists": [
@@ -105592,6 +105811,59 @@ If an attack card was pitched to play Runic Reaping, the next Runeblade attack a
     "Dynasty",
   ],
   "specialImage": "DYN186",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Runeblade Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Runic Reckoning (runic-reckoning-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tomasz Jedruszek",
+  ],
+  "cardIdentifier": "runic-reckoning-red",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 1,
+  "defaultImage": "DTD213",
+  "defense": 3,
+  "functionalText": "This costs {r} less to play for each Runechant you control.
+
+The next Runeblade attack action card you play this turn gets +3{p}.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Runic Reckoning",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "DTD213",
+      "image": "DTD213",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD213",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD213",
   "subtypes": [
     "Non-Attack",
   ],
@@ -120271,6 +120543,58 @@ If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 
     "Non-Attack",
   ],
   "typeText": "Wizard Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Soul Butcher (soul-butcher-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Nikolay Moskvin",
+  ],
+  "cardIdentifier": "soul-butcher-red",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 2,
+  "defaultImage": "DTD181",
+  "defense": 2,
+  "functionalText": "If the defending hero has 1 or more cards in their soul, this gets +2{p}.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Soul Butcher",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "DTD181",
+      "image": "DTD181",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD181",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD181",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action – Attack",
   "types": [
     "Action",
   ],
@@ -139501,6 +139825,59 @@ exports[`Check for unintentional updates Vantom Banshee (vantom-banshee-yellow) 
 }
 `;
 
+exports[`Check for unintentional updates Vantom Wraith (vantom-wraith-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Muhammad Fajri",
+  ],
+  "cardIdentifier": "vantom-wraith-red",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 2,
+  "defaultImage": "DTD158",
+  "defense": 3,
+  "functionalText": "**Rune Gate**
+
+**Blood Debt**",
+  "keywords": [
+    "Rune Gate",
+    "Blood Debt",
+  ],
+  "name": "Vantom Wraith",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "DTD158",
+      "image": "DTD158",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD158",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD158",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Veiled Intentions (veiled-intentions-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -140606,6 +140983,62 @@ exports[`Check for unintentional updates Vigor Rush (vigor-rush-yellow) vs snaps
     "Attack",
   ],
   "typeText": "Generic Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Vile Inquisition (vile-inquisition-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Kyxarie Peralta",
+  ],
+  "cardIdentifier": "vile-inquisition-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 2,
+  "defaultImage": "DTD180",
+  "defense": 3,
+  "functionalText": "You may play this from your banished zone. If you do, it costs {r}{r} less to play.
+
+Target hero banishes the top card of their deck. If it’s blue, they lost 1{g}.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Vile Inquisition",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "DTD180",
+      "image": "DTD180",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD180",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD180",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action",
   "types": [
     "Action",
   ],

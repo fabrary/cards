@@ -258,7 +258,9 @@ Destroy target yellow aura.",,Light Action ,Mateusz Wisniewski,,,,No,S – DTD08
 **Blood Debt**",,Shadow Brute Action – Attack,Phu Thieu,,,,No,S – DTD112 – N,,/DTD112.png – DTD112 – N
 ,DTD113,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD114,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD115,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD115,DTD,Wall Breaker,1,2,6,3,,,R,"Shadow, Brute, Action, Attack","Blood Debt, Overpower",,,,,,"If you’ve banished a card with 6 or more {p} this turn, this gets **overpower**.
+
+**Blood Debt**",,Shadow Brute Action – Attack,Shen Fei,,,,No,S – DTD115 – N,,/DTD115.png – DTD115 – N
 ,DTD116,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD117,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD118,DTD,Shaden Scream,1,0,,3,,,R,"Shadow, Brute, Action",Go again,,,,,,"As an additional cost to play this, banish a random card from your hand.
@@ -335,7 +337,11 @@ The next attack action card you **rune gate** this turn gets +3{p}.
 **Go again**",,Shadow Runeblade Action ,Tomasz Jedruszek,,,,No,S – DTD149 – N,,/DTD149.png – DTD149 – N
 ,DTD150,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD151,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD152,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD152,DTD,Rift Skitter,1,3,4,3,,,C,"Shadow, Runeblade, Action, Attack","Rune Gate, Go again, Blood Debt",,,,,,"**Rune Gate**
+
+**Go again**
+
+**Blood Debt**",,Shadow Runeblade Action – Attack,Narendra B Adi,,,,,S – DTD152 – N,,/DTD152.png – DTD152 – N
 ,DTD153,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD154,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD155,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -364,9 +370,19 @@ Once each turn, you may play a card with **blood debt** from your banished zone.
 ,DTD167,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD168,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD169,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD170,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD170,DTD,Chains of Mephetis,3,0,,3,,,M,"Shadow, Action, Aura",Blood Debt,,,,,,"You may play this from your banished zone. If you do, it enters the arena with a doom count.
+
+At the start of your turn, destroy this unless you remove a doom counter from it.
+
+If a hero would draw a card during their action phase, instead they banish the top card of their deck and may play it this turn.
+
+**Blood Debt**",,Shadow Action – Aura,Saad Irfan,,,,No,S – DTD170 – N,,/DTD170.png – DTD170 – N
 ,DTD171,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD172,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD172,DTD,Hungering Demigon,1,2,6,3,,,R,"Shadow, Action, Attack",Blood Debt,,,,,,"If an opposing hero has 1 or more cards in their soul, you may play this from your banished zone.
+
+When this hits a hero, banish a card from their soul.
+
+**Blood Debt**",,Shadow Action – Attack,Simon Dominic,,,,No,S – DTD172 – N,,/DTD172.png – DTD172 – N
 ,DTD173,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD174,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD175,DTD,Grim Feast,1,3,,2,,,R,"Shadow, Action",Blood Debt,,,,,,"You may play this from your banished zone. If you do, it costs {r}{r} less to play.
@@ -419,7 +435,9 @@ The next attack action card you play this turn gets +1{p}. **Go again**
 Your attacks this turn get ""Whenever the defending hero adds 1 or more defending cards from hand to this chain link, this deals 1 damage to them."" **Go again**
 
 **Unity** - When this defends together with a card from hand, create an Embodiment of Lightning token under any number of heroes' control.",,Lightning Action,Federico Musetti,,,,No,S - DTD198 - N,,/DTD198.png – DTD198 – N
-,DTD199,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD199,DTD,Rugged Roller,,,6,,,,R,"Brute, Weapon, Club, 2H","Once per Turn Action, Attack",,,,,,"**Once per Turn Action** – {r}: **Attack**
+
+Activate Rugged Roller only if you’ve rolled a 6 on a die this turn",,Brute Weapon – Club (2H),Junaidi Lim,,,,,S – DTD199 – N,,/DTD199.png – DTD199 – N
 ,DTD200,DTD,Scowling Flesh Bag,,,,2,,,L,"Brute, Equipment, Head","Blade Break, Intimidate",,,,,,"When this defends, **intimidate**.
 
 **Blade Break**",,Brute Equipment – Head,Tanapon Wachirakul,,,,No,C – DTD200 – N,,/DTD200.png – DTD200 – N – C
