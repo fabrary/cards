@@ -381,6 +381,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/shaden-death-hydra-yellow</loc>
+    <lastmod>2023-07-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/slithering-shadowpede-red</loc>
     <lastmod>2023-07-02</lastmod>
     <priority>0.5</priority>
@@ -628,6 +633,11 @@
   <url>
     <loc>https://fabrary.net/cards/morlock-hill-blue</loc>
     <lastmod>2023-07-01</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/scepter-of-pain</loc>
+    <lastmod>2023-07-02</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

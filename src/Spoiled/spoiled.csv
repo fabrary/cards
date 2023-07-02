@@ -248,7 +248,9 @@ Destroy target yellow aura.",,Light Action ,Mateusz Wisniewski,,,,No,S – DTD08
 ,DTD107,DTD,Diabolic Offering,3,1,*,*,,,M,"Shadow, Brute, Action, Attack",Blood Debt,,,,,,"If a card with 6 or more {p} has been put into your banished zone this turn, Diabolic Offering’s {p} and {d} are 6, otherwise they are 0.
 
 **Blood Debt**",,Shadow Brute Action – Attack,Carlos Cruchaga,,,,No,S – DTD107 - N,,/DTD107.png – DTD107 – N
-,DTD108,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD108,DTD,Shaden Death Hydra,2,6,13,3,,,M,"Shadow, Brute, Action, Attack",Blood Debt,,,,,,"When this attacks, it deals X damage to you, where X is 13 minus the number of cards with **blood debt** in your banished zone.
+
+**Blood Debt**",,Shadow Brute Action – Attack,Ausonia,,,,No,S – DTD108 – N,,/DTD108.png – DTD108 – N
 ,DTD109,DTD,Slithering Shadowpede,1,1,6,,,,M,"Shadow, Brute, Action, Attack",Blood Debt,,,,,,"If this was banished from your hand this turn, you may play it from your banished zone.
 
 **Blood Debt**",,Shadow Brute Action – Attack,Othon Nikolaidis,,,,No,S – DTD109 – N,,/DTD109.png – DTD109 – N
@@ -495,7 +497,9 @@ Until end of turn, target Dawnblade gets +1{p} and ""Damage this would deal can'
 
 **Unity** - When this defends together with a card from hand, create a Courage token under any number of heroes' control.",,Warrior Attack Reaction,Narendra B Adi,,,,No,S - DTD208 - N,,/DTD208.png – DTD208 – N
 ,DTD209,DTD,Morlock Hill,3,0,,,,,M,"Warrior, Instant",,,,,,,"The next time you would be dealt lethal damage this turn, you may banish Minerva Themis from your hand or arsenal to prevent that damage.",,Warrior Instant,Federico Musetti,,,,No,S - DTD209 - N,,/DTD209.png – DTD209 – N
-,DTD210,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD210,DTD,Scepter of Pain,,,,,,,R,"Runeblade, Weapon, Scepter, 1H",Once per Turn Action,,,,,,"**Once per Turn Action** - {r}{r}: Deal 1 arcane damage to any opposing target.
+
+Create a Runechant token for each damage dealt this way.",,Runeblade Weapon - Scepter (1H),Henrique Lindner,,,,,S – DTD210 – N,,/DTD210.png – DTD210 – N
 ,DTD211,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD212,DTD,Bequest the Vast Beyond,1,0,,2,,,M,"Runeblade, Action","Viserai Specialization, Go again",,,,,,"**Viserai Specialization**
 

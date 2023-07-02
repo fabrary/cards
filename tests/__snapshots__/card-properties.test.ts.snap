@@ -32873,6 +32873,64 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
 }
 `;
 
+exports[`Check for unintentional updates Deathly Delight (deathly-delight-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sam Yang",
+  ],
+  "cardIdentifier": "deathly-delight-red",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 2,
+  "defaultImage": "DTD143",
+  "defense": 3,
+  "functionalText": "**Rune Gate**
+
+When the combat chain closes, gain {l} equal to the number of heroes who have lost {l} this turn.
+
+**Blood Debt**",
+  "keywords": [
+    "Rune Gate",
+    "Blood Debt",
+  ],
+  "name": "Deathly Delight",
+  "pitch": 1,
+  "power": 5,
+  "printings": [
+    {
+      "identifier": "DTD143",
+      "image": "DTD143",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD143",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD143",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Deathly Duet (deathly-duet-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -109147,6 +109205,49 @@ exports[`Check for unintentional updates Scar for a Scar (scar-for-a-scar-yellow
 }
 `;
 
+exports[`Check for unintentional updates Scepter of Pain (scepter-of-pain) vs snapshot 1`] = `
+{
+  "artists": [
+    "Henrique Lindner",
+  ],
+  "cardIdentifier": "scepter-of-pain",
+  "classes": [
+    "Runeblade",
+  ],
+  "defaultImage": "DTD210",
+  "functionalText": "**Once per Turn Action** - {r}{r}: Deal 1 arcane damage to any opposing target.
+
+Create a Runechant token for each damage dealt this way.",
+  "name": "Scepter of Pain",
+  "printings": [
+    {
+      "identifier": "DTD210",
+      "image": "DTD210",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "DTD210",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD210",
+  "subtypes": [
+    "Scepter",
+    "1H",
+  ],
+  "typeText": "Runeblade Weapon - Scepter (1H)",
+  "types": [
+    "Weapon",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Scour (scour-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -118742,6 +118843,60 @@ exports[`Check for unintentional updates Slice and Dice (slice-and-dice-yellow) 
     "Non-Attack",
   ],
   "typeText": "Warrior Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Slithering Shadowpede (slithering-shadowpede-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Othon Nikolaidis",
+  ],
+  "cardIdentifier": "slithering-shadowpede-red",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 1,
+  "defaultImage": "DTD109",
+  "functionalText": "If this was banished from your hand this turn, you may play it from your banished zone.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Slithering Shadowpede",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "DTD109",
+      "image": "DTD109",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD109",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD109",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action – Attack",
   "types": [
     "Action",
   ],

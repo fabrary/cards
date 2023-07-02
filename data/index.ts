@@ -3375,6 +3375,49 @@ Destroy target yellow aura.`,
     talents: [Talent.Shadow],
     
   },{
+    artists: ["Ausonia"],
+    cardIdentifier: "shaden-death-hydra-yellow",
+    classes: [Class.Brute],
+    defaultImage: "DTD108",
+    name: "Shaden Death Hydra",
+    printings: [{
+      
+      identifier: "DTD108",
+      image: "DTD108",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD108"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD108",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action – Attack",
+
+    cost: 6,
+    defense: 3,
+    functionalText: `When this attacks, it deals X damage to you, where X is 13 minus the number of cards with **blood debt** in your banished zone.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    pitch: 2,
+    power: 13,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "slithering-shadowpede-red",
     classes: [Class.Brute],
@@ -5574,6 +5617,49 @@ Until end of turn, target Dawnblade gets +1{p} and "Damage this would deal can't
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "scepter-of-pain",
+    classes: [Class.Runeblade],
+    defaultImage: "DTD210",
+    name: "Scepter of Pain",
+    printings: [{
+      
+      identifier: "DTD210",
+      image: "DTD210",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD210"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD210",
+    subtypes: [Subtype.Scepter,Subtype.OneHanded],
+    types: [Type.Weapon],
+    typeText: "Runeblade Weapon - Scepter (1H)",
+
+    
+    
+    functionalText: `**Once per Turn Action** - {r}{r}: Deal 1 arcane damage to any opposing target.
+
+Create a Runechant token for each damage dealt this way.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -34535,7 +34621,8 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Pavel Chuvin"],
     cardIdentifier: "back-alley-breakline-red",
     classes: [Class.Generic],
@@ -34594,8 +34681,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Pavel Chuvin"],
     cardIdentifier: "back-alley-breakline-yellow",
     classes: [Class.Generic],
@@ -69948,7 +70034,8 @@ At the beginning of your action phase, destroy Emerging Avalanche then the next 
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Reza Afshar"],
     cardIdentifier: "emerging-avalanche-yellow",
     classes: [Class.Guardian],
@@ -70013,8 +70100,7 @@ At the beginning of your action phase, destroy Emerging Avalanche then the next 
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Reza Afshar"],
     cardIdentifier: "emerging-avalanche-blue",
     classes: [Class.Guardian],
@@ -100602,7 +100688,8 @@ Target opponent reveals their hand. If Brain Freeze was **fused**, put an action
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Riordan Delmiro"],
     cardIdentifier: "brain-freeze-yellow",
     classes: [Class.Wizard],
@@ -100651,8 +100738,7 @@ Target opponent reveals their hand. If Brain Freeze was **fused**, put an action
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Riordan Delmiro"],
     cardIdentifier: "brain-freeze-blue",
     classes: [Class.Wizard],
