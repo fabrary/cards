@@ -3416,6 +3416,92 @@ Destroy target yellow aura.`,
     talents: [Talent.Shadow],
     
   },{
+    artists: ["Sam Yang"],
+    cardIdentifier: "expendable-limbs-blue",
+    classes: [Class.Brute],
+    defaultImage: "DTD110",
+    name: "Expendable Limbs",
+    printings: [{
+      
+      identifier: "DTD110",
+      image: "DTD110",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD110"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD110",
+    subtypes: [],
+    types: [Type.DefenseReaction],
+    typeText: "Shadow Brute Defense Reaction",
+
+    cost: 0,
+    defense: 4,
+    functionalText: `As an additional cost to play this, banish a random card from your hand. If a card with 6 or more {p} is banished this way, you may play it from your banished zone during your next action phase.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "shaden-scream-red",
+    classes: [Class.Brute],
+    defaultImage: "DTD118",
+    name: "Shaden Scream",
+    printings: [{
+      
+      identifier: "DTD118",
+      image: "DTD118",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD118"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD118",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `As an additional cost to play this, banish a random card from your hand.
+
+Your next next Brute or Shadow attack this turn gets +5{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
     artists: ["Tomasz Jedruszek"],
     cardIdentifier: "battlefield-breaker-red",
     classes: [Class.Brute],
@@ -3868,6 +3954,49 @@ Once each turn, you may play a card with **blood debt** from your banished zone.
     talents: [Talent.Shadow],
     
   },{
+    artists: ["Marco González"],
+    cardIdentifier: "beseech-the-demigon-red",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD187",
+    name: "Beseech the Demigon",
+    printings: [{
+      
+      identifier: "DTD187",
+      image: "DTD187",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD187"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD187",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `Choose an attack action card in your banished zone. It gets +3{p} until end of turn.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "nasreth-the-soul-harrower",
     classes: [Class.NotClassed],
@@ -4044,6 +4173,47 @@ Your attacks this turn get "Whenever the defending hero adds 1 or more defending
     
     specializations: [Hero.Lexi],
     talents: [Talent.Lightning],
+    
+  },{
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "numbskull-red",
+    classes: [Class.Brute],
+    defaultImage: "DTD201",
+    name: "Numbskull",
+    printings: [{
+      
+      identifier: "DTD201",
+      image: "DTD201",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD201"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD201",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Brute Action – Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `While this is in any zone, its {r} cost to play, {p}, and {d} can’t be modified.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
     
   },{
     artists: ["Andy Aslamov"],
@@ -34499,7 +34669,8 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "vigor-rush-yellow",
     classes: [Class.Generic],
@@ -34688,8 +34859,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Anastasia Alexandrova"],
     cardIdentifier: "fate-foreseen-yellow",
     classes: [Class.Generic],
@@ -69519,7 +69689,8 @@ If Cold Wave was **fused**, cards and activated abilities cost opposing heroes a
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Federico Musetti"],
     cardIdentifier: "snap-shot-red",
     classes: [Class.Ranger],
@@ -69647,8 +69818,7 @@ If Snap Shot was **fused**, you may activate abilities of bows you control an ad
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Federico Musetti"],
     cardIdentifier: "snap-shot-blue",
     classes: [Class.Ranger],
@@ -99588,7 +99758,8 @@ Deal 2 arcane damage to any target. If Polar Cap was **fused** and deals damage 
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Athiwut B."],
     cardIdentifier: "conduit-of-frostburn",
     classes: [Class.Wizard],
@@ -99643,8 +99814,7 @@ Deal 2 arcane damage to any target. If Polar Cap was **fused** and deals damage 
     
     talents: [Talent.Ice],
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "frost-hex-blue",
     classes: [Class.Wizard],

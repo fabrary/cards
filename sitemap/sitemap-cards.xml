@@ -386,6 +386,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/expendable-limbs-blue</loc>
+    <lastmod>2023-07-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/shaden-scream-red</loc>
+    <lastmod>2023-07-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/battlefield-breaker-red</loc>
     <lastmod>2023-07-02</lastmod>
     <priority>0.5</priority>
@@ -436,6 +446,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/beseech-the-demigon-red</loc>
+    <lastmod>2023-07-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/nasreth-the-soul-harrower</loc>
     <lastmod>2023-07-01</lastmod>
     <priority>0.5</priority>
@@ -453,6 +468,11 @@
   <url>
     <loc>https://fabrary.net/cards/call-down-the-lightning-yellow</loc>
     <lastmod>2023-06-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/numbskull-red</loc>
+    <lastmod>2023-07-02</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

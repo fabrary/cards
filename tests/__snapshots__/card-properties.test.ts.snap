@@ -9077,6 +9077,58 @@ exports[`Check for unintentional updates Battlefield Blitz (battlefield-blitz-ye
 }
 `;
 
+exports[`Check for unintentional updates Battlefield Breaker (battlefield-breaker-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tomasz Jedruszek",
+  ],
+  "cardIdentifier": "battlefield-breaker-red",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 3,
+  "defaultImage": "DTD121",
+  "defense": 3,
+  "functionalText": "If you’ve banished a card with 6 or more {p} this turn, this gets +1{p}.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Battlefield Breaker",
+  "pitch": 1,
+  "power": 7,
+  "printings": [
+    {
+      "identifier": "DTD121",
+      "image": "DTD121",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD121",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD121",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Be Like Water (be-like-water-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -11733,6 +11785,69 @@ Your next weapon attack this turn gains +2{p}.",
   "typeText": "Warrior Attack Reaction",
   "types": [
     "Attack Reaction",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Blasmophet, Levia Consumed (blasmophet-levia-consumed) vs snapshot 1`] = `
+{
+  "artists": [
+    "Steve Argyle",
+  ],
+  "cardIdentifier": "blasmophet-levia-consumed",
+  "classes": [
+    "NotClassed",
+  ],
+  "defaultImage": "DTD164_Consumed",
+  "functionalText": "**Legendary Levia Specialization**
+
+While this is in your inventory, when **blood debt** reduces your {l} to 13, you may transform into Blasmophet, Levia Consumed.
+
+Once each turn, you may play a card with **blood debt** from your banished zone. Whenever a card is put into your banished zone, turn it face-down. If you would lose {l} from **blood debt**, instead banish the top card of your deck.",
+  "intellect": 4,
+  "isCardBack": true,
+  "keywords": [
+    "Legendary",
+    "Specialization",
+    "Transform",
+  ],
+  "life": 13,
+  "name": "Blasmophet, Levia Consumed",
+  "oppositeSideCardIdentifier": "levia-redeemed",
+  "printings": [
+    {
+      "foiling": "Cold",
+      "identifier": "DTD164",
+      "image": "DTD164_Consumed",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Legendary",
+  ],
+  "rarity": "Legendary",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD164",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD164_Consumed",
+  "specializations": [
+    "Levia",
+  ],
+  "subtypes": [
+    "Demon",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Demi-Hero – Demon",
+  "types": [
+    "Demi-Hero",
   ],
 }
 `;
@@ -70397,6 +70512,66 @@ exports[`Check for unintentional updates Levia (levia) vs snapshot 1`] = `
     "Hero",
   ],
   "young": true,
+}
+`;
+
+exports[`Check for unintentional updates Levia, Redeemed (levia-redeemed) vs snapshot 1`] = `
+{
+  "artists": [
+    "Steve Argyle",
+  ],
+  "cardIdentifier": "levia-redeemed",
+  "classes": [
+    "NotClassed",
+  ],
+  "defaultImage": "DTD164_Redeemed",
+  "functionalText": "**Legendary Levia Specialization**
+
+**Action** - Turn all cards in your banished zone face-down: **Transform** into Levia, Redeemed. Activate this ability only while this is in your inventory and you have 13 or more cards with **blood debt** in your banished zone.
+
+Cards you own lose **blood debt**",
+  "intellect": 4,
+  "keywords": [
+    "Legendary",
+    "Specialization",
+    "Transform",
+  ],
+  "life": 8,
+  "name": "Levia, Redeemed",
+  "oppositeSideCardIdentifier": "blasmophet-levia-consumed",
+  "printings": [
+    {
+      "foiling": "Cold",
+      "identifier": "DTD164",
+      "image": "DTD164_Redeemed",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Legendary",
+  ],
+  "rarity": "Legendary",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD164",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD164_Redeemed",
+  "specializations": [
+    "Levia",
+  ],
+  "subtypes": [],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Demi-Hero",
+  "types": [
+    "Demi-Hero",
+  ],
 }
 `;
 
