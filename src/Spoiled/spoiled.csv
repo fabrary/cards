@@ -249,7 +249,9 @@ Destroy target yellow aura.",,Light Action ,Mateusz Wisniewski,,,,No,S – DTD08
 
 **Blood Debt**",,Shadow Brute Action – Attack,Carlos Cruchaga,,,,No,S – DTD107 - N,,/DTD107.png – DTD107 – N
 ,DTD108,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD109,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD109,DTD,Slithering Shadowpede,1,1,6,,,,M,"Shadow, Brute, Action, Attack",Blood Debt,,,,,,"If this was banished from your hand this turn, you may play it from your banished zone.
+
+**Blood Debt**",,Shadow Brute Action – Attack,Othon Nikolaidis,,,,No,S – DTD109 – N,,/DTD109.png – DTD109 – N
 ,DTD110,DTD,Expendable Limbs,3,0,,4,,,M,"Shadow, Brute, Defense Reaction",,,,,,,"As an additional cost to play this, banish a random card from your hand. If a card with 6 or more {p} is banished this way, you may play it from your banished zone during your next action phase.",,Shadow Brute Defense Reaction,Sam Yang,,,,No,S – DTD110 – N,,/DTD110.png – DTD110 – N
 ,DTD111,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD112,DTD,Ram Raider,1,2,6,3,,,R,"Shadow, Brute, Action, Attack","Blood Debt, Go again",,,,,,"As an additional cost to play this, banish a random card from your hand. If a card with 6 or more {p} is banished this way, this gets **go again**.
@@ -327,7 +329,11 @@ Create a Runechant token.
 Play this only if you control exactly 6 Runechants.
 
 Create a Nasreth, the Soul Harrower token.",,Shadow Runeblade Instant,Isuardi Therianto,,,,No,S – DTD142 – N,,/DTD142.png – DTD142 – N
-,DTD143,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD143,DTD,Deathly Delight,1,2,5,3,,,R,"Shadow, Runeblade, Action, Attack","Rune Gate, Blood Debt",,,,,,"**Rune Gate**
+
+When the combat chain closes, gain {l} equal to the number of heroes who have lost {l} this turn.
+
+**Blood Debt**",,Shadow Runeblade Action – Attack,Sam Yang,,,,No,S – DTD143 – N,,/DTD143.png – DTD143 – N
 ,DTD144,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD145,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD146,DTD,Deathly Wail,1,3,6,3,,,R,"Shadow, Runeblade, Action, Attack","Rune Gate, Blood Debt",,,,,,"**Rune Gate**
@@ -359,7 +365,13 @@ The next attack action card you **rune gate** this turn gets +3{p}.
 **Blood Debt**",,Shadow Runeblade Action - Attack,Muhammad Fajri,,,,,S – DTD158 – N,,/DTD158.png – DTD158 – N
 ,DTD159,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD160,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD161,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD161,DTD,Putrid Stirrings,1,3,,3,,,C,"Shadow, Runeblade, Action","Blood Debt, Go again, Rune Gate",,,,,,"You may play this from your banished zone.
+
+The next attack action card you **rune gate** this turn gets +5{p}.
+
+**Go again**
+
+**Blood debt**",,Shadow Runeblade Action ,Marco González,,,,,S – DTD161 – N,,/DTD161.png – DTD161 – N
 ,DTD162,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD163,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD164,DTD,"Levia, Redeemed",,,,,8,4,L,"Shadow, Demi-Hero","Legendary, Levia Specialization, Action, Transform",,,,,,"**Legendary Levia Specialization**
@@ -372,10 +384,18 @@ Cards you own lose **blood debt**",,Shadow Demi-Hero,Steve Argyle,,,,No,C – DT
 While this is in your inventory, when **blood debt** reduces your {l} to 13, you may transform into Blasmophet, Levia Consumed.
 
 Once each turn, you may play a card with **blood debt** from your banished zone. Whenever a card is put into your banished zone, turn it face-down. If you would lose {l} from **blood debt**, instead banish the top card of your deck.",,Shadow Demi-Hero – Demon,Wisnu Tan,,,,No,C – DTD164 – N,,/DTD164_Consumed.png – DTD164 – N – C
-,DTD165,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD166,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD167,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD168,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD165,DTD,Shroud of Darkness,,,,,,,C,"Shadow, Equipment, Head",Blood Debt,,,,,,"If your hero would be dealt damage, you may banish this to prevent 2 of that damage.
+
+**Blood Debt**",,Shadow Equipment – Head,Sebastian Szmyd,,,,,S – DTD165 – N,,/DTD165.png – DTD165 – N
+,DTD166,DTD,Cloak of Darkness,,,,,,,C,"Shadow, Equipment, Chest",Blood Debt,,,,,,"If your hero would be dealt damage, you may banish this to prevent 2 of that damage.
+
+**Blood Debt**",,Shadow Equipment – Chest,Yeong-Hao Han,,,,,S – DTD166 – N,,/DTD166.png – DTD166 – N
+,DTD167,DTD,Grasp of Darkness,,,,,,,C,"Shadow, Equipment, Arms",Blood Debt,,,,,,"If your hero would be dealt damage, you may banish this to prevent 2 of that damage.
+
+**Blood Debt**",,Shadow Equipment – Arms,Sebastian Szmyd,,,,,S – DTD167 – N,,/DTD167.png – DTD167 – N
+,DTD168,DTD,Dance of Darkness,,,,,,,C,"Shadow, Equipment, Legs",Blood Debt,,,,,,"If your hero would be dealt damage, you may banish this to prevent 2 of that damage.
+
+**Blood Debt**",,Shadow Equipment – Legs,Sebastian Szmyd,,,,,S – DTD168 – N,,/DTD168.png – DTD168 – N
 ,DTD169,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD170,DTD,Chains of Mephetis,3,0,,3,,,M,"Shadow, Action, Aura",Blood Debt,,,,,,"You may play this from your banished zone. If you do, it enters the arena with a doom count.
 

@@ -25061,6 +25061,54 @@ exports[`Check for unintentional updates Cleave (cleave-red) vs snapshot 1`] = `
 }
 `;
 
+exports[`Check for unintentional updates Cloak of Darkness (cloak-of-darkness) vs snapshot 1`] = `
+{
+  "artists": [
+    "Yeong-Hao Han",
+  ],
+  "cardIdentifier": "cloak-of-darkness",
+  "classes": [
+    "NotClassed",
+  ],
+  "defaultImage": "DTD166",
+  "functionalText": "If your hero would be dealt damage, you may banish this to prevent 2 of that damage.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Cloak of Darkness",
+  "printings": [
+    {
+      "identifier": "DTD166",
+      "image": "DTD166",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD166",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD166",
+  "subtypes": [
+    "Chest",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Equipment – Chest",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Coalescence Mirage (coalescence-mirage-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -31169,6 +31217,54 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
   "typeText": "Wizard Action",
   "types": [
     "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Dance of Darkness (dance-of-darkness) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sebastian Szmyd",
+  ],
+  "cardIdentifier": "dance-of-darkness",
+  "classes": [
+    "NotClassed",
+  ],
+  "defaultImage": "DTD168",
+  "functionalText": "If your hero would be dealt damage, you may banish this to prevent 2 of that damage.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Dance of Darkness",
+  "printings": [
+    {
+      "identifier": "DTD168",
+      "image": "DTD168",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD168",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD168",
+  "subtypes": [
+    "Legs",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Equipment – Legs",
+  "types": [
+    "Equipment",
   ],
 }
 `;
@@ -54490,6 +54586,54 @@ When you pitch Grandeur of Valahai, create a Seismic Surge token.",
 }
 `;
 
+exports[`Check for unintentional updates Grasp of Darkness (grasp-of-darkness) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sebastian Szmyd",
+  ],
+  "cardIdentifier": "grasp-of-darkness",
+  "classes": [
+    "NotClassed",
+  ],
+  "defaultImage": "DTD167",
+  "functionalText": "If your hero would be dealt damage, you may banish this to prevent 2 of that damage.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Grasp of Darkness",
+  "printings": [
+    {
+      "identifier": "DTD167",
+      "image": "DTD167",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD167",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD167",
+  "subtypes": [
+    "Arms",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Equipment – Arms",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Grasp of the Arknight (grasp-of-the-arknight) vs snapshot 1`] = `
 {
   "artists": [
@@ -54908,6 +55052,57 @@ Gain 3{l}
   "typeText": "Shadow Action",
   "types": [
     "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Grimoire of the Haunt (grimoire-of-the-haunt) vs snapshot 1`] = `
+{
+  "artists": [
+    "Carlos Cruchaga",
+  ],
+  "cardIdentifier": "grimoire-of-the-haunt",
+  "classes": [
+    "Runeblade",
+  ],
+  "defaultImage": "DTD136",
+  "functionalText": "**Instant – {r}**, banish this: Create an Eloquence token.
+
+**Arcane Barrier 1**
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Arcane Barrier",
+  ],
+  "name": "Grimoire of the Haunt",
+  "printings": [
+    {
+      "identifier": "DTD136",
+      "image": "DTD136",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "setIdentifiers": [
+    "DTD136",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD136",
+  "subtypes": [
+    "Off-Hand",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Equipment – Off-Hand",
+  "types": [
+    "Equipment",
   ],
 }
 `;
@@ -93161,6 +93356,63 @@ exports[`Check for unintentional updates Push the Point (push-the-point-yellow) 
 }
 `;
 
+exports[`Check for unintentional updates Putrid Stirrings (putrid-stirrings-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Marco González",
+  ],
+  "cardIdentifier": "putrid-stirrings-red",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 3,
+  "defaultImage": "DTD161",
+  "defense": 3,
+  "functionalText": "You may play this from your banished zone.
+
+The next attack action card you **rune gate** this turn gets +5{p}.
+
+**Go again**
+
+**Blood debt**",
+  "keywords": [
+    "Blood Debt",
+    "Go again",
+    "Rune Gate",
+  ],
+  "name": "Putrid Stirrings",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "DTD161",
+      "image": "DTD161",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD161",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD161",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action ",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Pyroglyphic Protection (pyroglyphic-protection-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -114426,6 +114678,54 @@ exports[`Check for unintentional updates Shrill of Skullform (shrill-of-skullfor
   "typeText": "Runeblade Action – Attack",
   "types": [
     "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Shroud of Darkness (shroud-of-darkness) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sebastian Szmyd",
+  ],
+  "cardIdentifier": "shroud-of-darkness",
+  "classes": [
+    "NotClassed",
+  ],
+  "defaultImage": "DTD165",
+  "functionalText": "If your hero would be dealt damage, you may banish this to prevent 2 of that damage.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Shroud of Darkness",
+  "printings": [
+    {
+      "identifier": "DTD165",
+      "image": "DTD165",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD165",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD165",
+  "subtypes": [
+    "Head",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Equipment – Head",
+  "types": [
+    "Equipment",
   ],
 }
 `;
