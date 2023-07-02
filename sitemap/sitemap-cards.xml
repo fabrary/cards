@@ -456,6 +456,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/deathly-wail-red</loc>
+    <lastmod>2023-07-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/envelop-in-darkness-red</loc>
     <lastmod>2023-07-02</lastmod>
     <priority>0.5</priority>
@@ -502,6 +507,11 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/soul-butcher-red</loc>
+    <lastmod>2023-07-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/soul-cleaver-red</loc>
     <lastmod>2023-07-02</lastmod>
     <priority>0.5</priority>
   </url>
@@ -581,6 +591,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/bequest-the-vast-beyond-red</loc>
+    <lastmod>2023-07-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/runic-reckoning-red</loc>
     <lastmod>2023-07-02</lastmod>
     <priority>0.5</priority>
@@ -613,6 +628,11 @@
   <url>
     <loc>https://fabrary.net/cards/hold-the-line-blue</loc>
     <lastmod>2023-06-28</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/poison-the-well-blue</loc>
+    <lastmod>2023-07-02</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

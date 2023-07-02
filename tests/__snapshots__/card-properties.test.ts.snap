@@ -22784,6 +22784,65 @@ At the beginning of your action phase, destroy Chains of Eminence",
 }
 `;
 
+exports[`Check for unintentional updates Chains of Mephetis (chains-of-mephetis-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Saad Irfan",
+  ],
+  "cardIdentifier": "chains-of-mephetis-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD170",
+  "defense": 3,
+  "functionalText": "You may play this from your banished zone. If you do, it enters the arena with a doom count.
+
+At the start of your turn, destroy this unless you remove a doom counter from it.
+
+If a hero would draw a card during their action phase, instead they banish the top card of their deck and may play it this turn.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Chains of Mephetis",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "DTD170",
+      "image": "DTD170",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD170",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD170",
+  "subtypes": [
+    "Aura",
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action – Aura",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Chane (chane) vs snapshot 1`] = `
 {
   "artists": [
@@ -46102,7 +46161,7 @@ If Fervent Forerunner is played from arsenal, it gains **go again**.",
 exports[`Check for unintentional updates Figment of Erudition (figment-of-erudition-yellow) vs snapshot 1`] = `
 {
   "artists": [
-    "Daria Khlebnokova",
+    "Daria Khlebnikova",
   ],
   "cardIdentifier": "figment-of-erudition-yellow",
   "classes": [
@@ -60882,6 +60941,63 @@ exports[`Check for unintentional updates Hundred Winds (hundred-winds-yellow) vs
     "Attack",
   ],
   "typeText": "Ninja Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Hungering Demigon (hungering-demigon-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Simon Dominic",
+  ],
+  "cardIdentifier": "hungering-demigon-red",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 2,
+  "defaultImage": "DTD172",
+  "defense": 3,
+  "functionalText": "If an opposing hero has 1 or more cards in their soul, you may play this from your banished zone.
+
+When this hits a hero, banish a card from their soul.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Hungering Demigon",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "DTD172",
+      "image": "DTD172",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD172",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD172",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action – Attack",
   "types": [
     "Action",
   ],
@@ -100591,6 +100707,62 @@ exports[`Check for unintentional updates Rift Bind (rift-bind-yellow) vs snapsho
 }
 `;
 
+exports[`Check for unintentional updates Rift Skitter (rift-skitter-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Narendra B Adi",
+  ],
+  "cardIdentifier": "rift-skitter-red",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 3,
+  "defaultImage": "DTD152",
+  "defense": 3,
+  "functionalText": "**Rune Gate**
+
+**Go again**
+
+**Blood Debt**",
+  "keywords": [
+    "Rune Gate",
+    "Go again",
+    "Blood Debt",
+  ],
+  "name": "Rift Skitter",
+  "pitch": 1,
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "DTD152",
+      "image": "DTD152",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD152",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD152",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Rifted Torment (rifted-torment-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -104748,6 +104920,50 @@ exports[`Check for unintentional updates Rout (rout-red) vs snapshot 1`] = `
   "typeText": "Warrior Attack Reaction",
   "types": [
     "Attack Reaction",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Rugged Roller (rugged-roller) vs snapshot 1`] = `
+{
+  "artists": [
+    "Junaidi Lim",
+  ],
+  "cardIdentifier": "rugged-roller",
+  "classes": [
+    "Brute",
+  ],
+  "defaultImage": "DTD199",
+  "functionalText": "**Once per Turn Action** – {r}: **Attack**
+
+Activate Rugged Roller only if you’ve rolled a 6 on a die this turn",
+  "name": "Rugged Roller",
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "DTD199",
+      "image": "DTD199",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "DTD199",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD199",
+  "subtypes": [
+    "Club",
+    "2H",
+  ],
+  "typeText": "Brute Weapon – Club (2H)",
+  "types": [
+    "Weapon",
   ],
 }
 `;
@@ -128442,7 +128658,7 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
 exports[`Check for unintentional updates Suraya, Archangel of Erudition (suraya-archangel-of-erudition) vs snapshot 1`] = `
 {
   "artists": [
-    "Daria Khlebnokova",
+    "Daria Khlebnikova",
   ],
   "cardIdentifier": "suraya-archangel-of-erudition",
   "classes": [
@@ -142495,6 +142711,62 @@ exports[`Check for unintentional updates Vynserakai (vynserakai) vs snapshot 1`]
   ],
   "typeText": "Draconic Illusionist – Dragon Ally",
   "types": [],
+}
+`;
+
+exports[`Check for unintentional updates Wall Breaker (wall-breaker-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Shen Fei",
+  ],
+  "cardIdentifier": "wall-breaker-red",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "defaultImage": "DTD115",
+  "defense": 3,
+  "functionalText": "If you’ve banished a card with 6 or more {p} this turn, this gets **overpower**.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Overpower",
+  ],
+  "name": "Wall Breaker",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "DTD115",
+      "image": "DTD115",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD115",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD115",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action – Attack",
+  "types": [
+    "Action",
+  ],
 }
 `;
 

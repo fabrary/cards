@@ -36,12 +36,12 @@ tfJTWDjLzBdrDjWm9NnmN,LGS159,"LGS, DTD",Vantom Banshee,3,3,5,3,,,P,"Shadow, Rune
 **Once per Turn Instant** - {r}: This gets **ward 1** until end of turn.",,Light Illusionist Equipment – Chest,soyameii,,,,No,"C – DTD004 – N, C – DTD004 - N – EA",,"/DTD004.png – DTD004 – N – C, /DTD004_EA.png – DTD004 – N – C – EA"
 ,DTD005,DTD,Figment of Erudition,2,4,,,,,M,"Light, Illusionist, Instant, Figment",Legendary,,,,,,"**Legendary**
 
-When this enters the arena, create a Ponder token",,Light Illusionist Instant – Figment,Daria Khlebnokova,,,,No,"S – DTD005 – N, C – DTD005 – N – FA",,"/DTD005.png – DTD005 – N, /DTD005_Marvel.png – DTD005 – N – C – FA"
+When this enters the arena, create a Ponder token",,Light Illusionist Instant – Figment,Daria Khlebnikova,,,,No,"S – DTD005 – N, C – DTD005 – N – FA",,"/DTD005.png – DTD005 – N, /DTD005_Marvel.png – DTD005 – N – C – FA"
 ,DTD005,DTD,"Suraya, Archangel of Erudition",,,4,,4,,"M, V","Light, Angel, Ally",Ward 4,,,,,,"**Once per Turn Action – {r}{r}: Attack**
 
 When Suraya attacks, you may banish a card from your hero’s soul. If you do, draw 2 cards.
 
-**Ward 4**",,Light – Angel Ally,Daria Khlebnokova,,,,No,"S – DTD005 – N, C – DTD005 – N – FA",,"/DTD005_Back.png – DTD012 – N, /DTD005_Back_Marvel.png – DTD012 – N – C – FA"
+**Ward 4**",,Light – Angel Ally,Daria Khlebnikova,,,,No,"S – DTD005 – N, C – DTD005 – N – FA",,"/DTD005_Back.png – DTD012 – N, /DTD005_Back_Marvel.png – DTD012 – N – C – FA"
 ,DTD006,DTD,Figment of Judgment,2,4,,,,,"M, V","Light, Illusionist, Instant, Figment",Legendary,,,,,,"**Legendary**
 
 When this enters the arena, you may turn a card in any banished zone face-down.",,Light Illusionist Instant – Figment,Asur Misoa,,,,No,"S – DTD006 – N, C – DTD006 – N – FA",,"/DTD006.png – DTD006 – N, /DTD006_Marvel.png – DTD006 – N – C – FA"
@@ -327,7 +327,11 @@ Create a Nasreth, the Soul Harrower token.",,Shadow Runeblade Instant,Isuardi Th
 ,DTD143,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD144,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD145,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD146,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD146,DTD,Deathly Wail,1,3,6,3,,,R,"Shadow, Runeblade, Action, Attack","Rune Gate, Blood Debt",,,,,,"**Rune Gate**
+
+When the combat chain closes, create Runechant tokens equal to the number of heroes who have lost {l} this turn.
+
+**Blood Debt**",,Shadow Runeblade Action – Attack,Marco González,,,,No,S – DTD146 – N,,/DTD146.png – DTD146 – N
 ,DTD147,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD148,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD149,DTD,Envelop in Darkness,1,1,,2,,,R,"Shadow, Runeblade, Action",Go again,,,,,,"Create a Runechant token.
@@ -404,7 +408,9 @@ Target hero banishes the top card of their deck. If it’s blue, they lost 1{g}.
 **Blood Debt**",,Shadow Action – Attack,Nikolay Moskvin,,,,,S – DTD181 – N,,/DTD181.png – DTD181 – N
 ,DTD182,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD183,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD184,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD184,DTD,Soul Cleaver,1,2,6,2,,,C,"Shadow, Action, Attack","Blood Debt, Go again",,,,,,"If the defending hero has 1 or more cards in their soul, this gets **go again**.
+
+**Blood Debt**",,Shadow Action – Attack,Marcus Reyno,,,,,S – DTD184 – N,,/DTD184.png – DTD184 – N
 ,DTD185,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD186,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD187,DTD,Beseech the Demigon,1,0,,2,,,C,"Shadow, Action",Go again,,,,,,"Choose an attack action card in your banished zone. It gets +3{p} until end of turn.
@@ -468,7 +474,11 @@ Until end of turn, target Dawnblade gets +1{p} and ""Damage this would deal can'
 ,DTD209,DTD,Morlock Hill,3,0,,,,,M,"Warrior, Instant",,,,,,,"The next time you would be dealt lethal damage this turn, you may banish Minerva Themis from your hand or arsenal to prevent that damage.",,Warrior Instant,Federico Musetti,,,,No,S - DTD209 - N,,/DTD209.png – DTD209 – N
 ,DTD210,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD211,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD212,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD212,DTD,Bequest the Vast Beyond,1,0,,2,,,M,"Runeblade, Action","Viserai Specialization, Go again",,,,,,"**Viserai Specialization**
+
+The next Runeblade attack action card you play this turn costs {r} less to play for each Runechant you control.
+
+**Go again**",,Runeblade Action,Daria Khlebnikova,,,,No,S – DTD212 – N,,/DTD212.png – DTD212 – N
 ,DTD213,DTD,Runic Reckoning,1,1,,3,,,M,"Runeblade, Action",Go again,,,,,,"This costs {r} less to play for each Runechant you control.
 
 The next Runeblade attack action card you play this turn gets +3{p}.
@@ -499,7 +509,7 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
 ,DTD228,DTD,Hold the Line,3,0,,2,,,M,"Generic, Defense Reaction",,,,,,,"If the attacking hero has drawn 2 or more cards this turn, prevent the next 3 damage that would be dealt to your hero this turn.",,Generic Defense Reaction,Tomasz Jedruszek,,,,No,S - DTD228 - N,,/DTD228.png – DTD228 – N
 ,DTD229,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD230,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD231,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD231,DTD,Poison the Well,3,0,,,,,M,"Generic, Instant",,,,,,,"The next time a hero would gain {l} this turn, instead they lose that much {l}.",,Generic Instant,Mateusz Wisniewski,,,,No,S – DTD231 – N,,/DTD231.png – DTD231 – N
 ,DTD232,DTD,Courage,,,,,,,C,"Generic, Token, Aura",,,,,,,"When you play an attack action card or activate a weapon attack, destroy this and the attack gets +1{p}.",,Generic Token – Aura,Henrique Lindner,,,,,S - DTD232 - N,,/DTD232.png – DTD232 – N
 ,DTD233,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD234,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
