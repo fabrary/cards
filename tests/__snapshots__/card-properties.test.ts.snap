@@ -10321,6 +10321,63 @@ The first time an attack action card you control hits each turn, your next attac
 }
 `;
 
+exports[`Check for unintentional updates Bequest the Vast Beyond (bequest-the-vast-beyond-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Daria Khlebnikova",
+  ],
+  "cardIdentifier": "bequest-the-vast-beyond-red",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD212",
+  "defense": 2,
+  "functionalText": "**Viserai Specialization**
+
+The next Runeblade attack action card you play this turn costs {r} less to play for each Runechant you control.
+
+**Go again**",
+  "keywords": [
+    "Specialization",
+    "Go again",
+  ],
+  "name": "Bequest the Vast Beyond",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "DTD212",
+      "image": "DTD212",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD212",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD212",
+  "specializations": [
+    "Viserai",
+  ],
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Runeblade Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Berserk (berserk-yellow) vs snapshot 1`] = `
 {
   "artists": [
@@ -32879,6 +32936,64 @@ exports[`Check for unintentional updates Deathly Duet (deathly-duet-yellow) vs s
 }
 `;
 
+exports[`Check for unintentional updates Deathly Wail (deathly-wail-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Marco González",
+  ],
+  "cardIdentifier": "deathly-wail-red",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 3,
+  "defaultImage": "DTD146",
+  "defense": 3,
+  "functionalText": "**Rune Gate**
+
+When the combat chain closes, create Runechant tokens equal to the number of heroes who have lost {l} this turn.
+
+**Blood Debt**",
+  "keywords": [
+    "Rune Gate",
+    "Blood Debt",
+  ],
+  "name": "Deathly Wail",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "DTD146",
+      "image": "DTD146",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD146",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD146",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Debilitate (debilitate-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -46870,7 +46985,7 @@ exports[`Check for unintentional updates Flail of Agony (flail-of-agony) vs snap
   "classes": [
     "Runeblade",
   ],
-  "defaultImage": "LGS156",
+  "defaultImage": "DTD135",
   "functionalText": "**Vynnset Specialization**  **Once per Turn Action** - {h}: **Attack**  When this hits, create a Runechant token.",
   "keywords": [
     "Specialization",
@@ -46884,13 +46999,20 @@ exports[`Check for unintentional updates Flail of Agony (flail-of-agony) vs snap
       "image": "LGS156",
       "set": "Promos",
     },
+    {
+      "identifier": "DTD135",
+      "image": "DTD135",
+      "set": "Dusk till Dawn",
+    },
   ],
   "rarities": [
     "Promo",
+    "Rare",
   ],
-  "rarity": "Promo",
+  "rarity": "Rare",
   "setIdentifiers": [
     "LGS156",
+    "DTD135",
   ],
   "sets": [
     "Promos",
@@ -87733,6 +87855,49 @@ exports[`Check for unintentional updates Poison the Tips (poison-the-tips-yellow
 }
 `;
 
+exports[`Check for unintentional updates Poison the Well (poison-the-well-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mateusz Wisniewski",
+  ],
+  "cardIdentifier": "poison-the-well-blue",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD231",
+  "functionalText": "The next time a hero would gain {l} this turn, instead they lose that much {l}.",
+  "name": "Poison the Well",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "DTD231",
+      "image": "DTD231",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD231",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD231",
+  "subtypes": [],
+  "typeText": "Generic Instant",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Polar Blast (polar-blast-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -120804,6 +120969,59 @@ exports[`Check for unintentional updates Soul Butcher (soul-butcher-red) vs snap
     "Dusk till Dawn",
   ],
   "specialImage": "DTD181",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Soul Cleaver (soul-cleaver-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Marcus Reyno",
+  ],
+  "cardIdentifier": "soul-cleaver-red",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 2,
+  "defaultImage": "DTD184",
+  "defense": 2,
+  "functionalText": "If the defending hero has 1 or more cards in their soul, this gets **go again**.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Go again",
+  ],
+  "name": "Soul Cleaver",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "DTD184",
+      "image": "DTD184",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD184",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD184",
   "subtypes": [
     "Attack",
   ],

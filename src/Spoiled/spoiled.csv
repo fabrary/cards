@@ -9,7 +9,6 @@ At the start of your turn, destroy this. If another hero drew a card from this, 
 
 Whenever an opponent plays or activates their first card or ability each turn, if it's not their turn, put a +1{p} counter on this. At the beginning of your end phase, remove all +1{p} counters from this.",,Adjudicator Weapon – Hammer (1H),Jessica Nguyen,,No,No,No,C - JDG005 - N,,/JDG005.png – JDG005 – N – R
 ,"JDG009, JDG010",JDG,Proclamation of Abundance,,,,,,,P,"Adjudicator, Equipment, Off-Hand",,Action,,,,,"**Action** - {r}{r}{r}, destroy this: Each hero draws up to their {i}.",,Adjudicator Equipment – Off-Hand,Kanadekana,,No,No,No,"R - JDG009 – N, C – JDG010 - N",,"/JDG009.png – JDG009 – N – R, /JDG010.png – JDG010 – N – C"
-KthQj9HCRMDRfngK88kCw,LGS156,"LGS, DTD",Flail of Agony,,,1,,,,P,"Shadow, Runeblade, Weapon, Flail, 1H",Vynnset Specialization,Once per Turn Action,Attack,,,,"**Vynnset Specialization**  **Once per Turn Action** - {h}: **Attack**  When this hits, create a Runechant token.",,Shadow Runeblade Weapon – Flail (1H),Tomasz Jedruszek,,,,,C - LGS156 - N,BW9QqCLMwm8gkML9kfzWW - LGS156 - N,/LGS156.png – LGS156 – N – C
 9PJCCqpT8JhfHkfftKjwH,LGS157,"LGS, DTD",Vantom Banshee,1,3,7,3,,,P,"Shadow, Runeblade, Action, Attack","Rune Gate, Blood Debt",,,,,,**Rune Gate**  **Blood Debt**,,Shadow Runeblade Action - Attack,Muhammad Fajri,,,,,R - LGS157 - N - EA,PtwnJftGLhnQtDJMLWRqQ - LGS157 - N - EA,/LGS157.png – LGS157 – N – R – EA
 FhWgTR7RdKBTrfDhPWGrt,LGS158,"LGS, DTD",Vantom Banshee,2,3,6,3,,,P,"Shadow, Runeblade, Action, Attack","Rune Gate, Blood Debt",,,,,,**Rune Gate**  **Blood Debt**,,Shadow Runeblade Action - Attack,Muhammad Fajri,,,,,R - LGS158 - N - EA,KmC7PDzjT7gCcLpRhfwrJ - LGS158 - N - EA,/LGS158.png – LGS158 – N – R – EA
 tfJTWDjLzBdrDjWm9NnmN,LGS159,"LGS, DTD",Vantom Banshee,3,3,5,3,,,P,"Shadow, Runeblade, Action, Attack","Rune Gate, Blood Debt",,,,,,**Rune Gate**  **Blood Debt**,,Shadow Runeblade Action - Attack,Muhammad Fajri,,,,,R - LGS159 - N - EA,CkkLHHbN9mwBTr68pTb9B - LGS159 - N - EA,/LGS159.png – LGS159 – N – R – EA
@@ -294,8 +293,12 @@ Whenever you play a Shadow non-attack action card, you may pay {l}. If you do, t
 ,"DTD134, HER085","DTD, HER",Vynnset,,,,,20,4,"R, P","Shadow, Runeblade, Hero, Young",,,,,,,"At the start of your turn, banish a card from your hand. If you do, create a Runechant token.
 
 Whenever you play a Shadow non-attack action card, you may pay {l}. If you do, the next Runechant effect that would deal damage this turn can’t be prevented.",,Shadow Runeblade Hero – Young,Federico Musetti,,,No,,"S – DTD134 – N, C – HER085 – N",,"/DTD134.png – DTD134 – N, /HER085.png – HER085 – N – C"
-,DTD135,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD136,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+KthQj9HCRMDRfngK88kCw,"LGS156, DTD135","LGS, DTD",Flail of Agony,,,1,,,,"P, R","Shadow, Runeblade, Weapon, Flail, 1H",Vynnset Specialization,Once per Turn Action,Attack,,,,"**Vynnset Specialization**  **Once per Turn Action** - {h}: **Attack**  When this hits, create a Runechant token.",,Shadow Runeblade Weapon – Flail (1H),Tomasz Jedruszek,,,,,"C - LGS156 – N, S – DTD135 – N",BW9QqCLMwm8gkML9kfzWW - LGS156 - N,"/LGS156.png – LGS156 – N – C, /DTD135.png – DTD135 – N"
+,DTD136,DTD,Grimoire of the Haunt,,,,,,,M,"Shadow, Runeblade, Equipment, Off-Hand","Blood Debt, Instant, Arcane Barrier 1",,,,,,"**Instant – {r}**, banish this: Create an Eloquence token.
+
+**Arcane Barrier 1**
+
+**Blood Debt**",,Shadow Runeblade Equipment – Off-Hand,Carlos Cruchaga,,,,,S – DTD136 – N,,/DTD136.png – DTD136 – N
 ,DTD137,DTD,Widespread Annihilation,3,4,6,3,,,M,"Shadow, Runeblade, Action, Attack","Rune Gate, Blood Debt",,,,,,"**Rune Gate**
 
 When the combat chain closes, each hero who has lost {l} this turn banishes a card from their hand.

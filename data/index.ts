@@ -193,47 +193,6 @@ Whenever an opponent plays or activates their first card or ability each turn, i
     
     
   },{
-    artists: ["Tomasz Jedruszek"],
-    cardIdentifier: "flail-of-agony",
-    classes: [Class.Runeblade],
-    defaultImage: "LGS156",
-    name: "Flail of Agony",
-    printings: [{
-      foiling: Foiling.C,
-      identifier: "LGS156",
-      image: "LGS156",
-      set: Release.Promos,
-      
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS156"],
-    sets: [Release.Promos,Release.DuskTillDawn],
-    specialImage: "LGS156",
-    subtypes: [Subtype.Flail,Subtype.OneHanded],
-    types: [Type.Weapon],
-    typeText: "Shadow Runeblade Weapon – Flail (1H)",
-
-    
-    
-    functionalText: `**Vynnset Specialization**  **Once per Turn Action** - {h}: **Attack**  When this hits, create a Runechant token.`,
-    
-    
-    
-    
-    keywords: [Keyword.Specialization],
-    
-    
-    
-    power: 1,
-    
-    
-    
-    
-    specializations: [Hero.Vynnset],
-    talents: [Talent.Shadow],
-    
-  },{
     artists: ["Muhammad Fajri"],
     cardIdentifier: "vantom-banshee-red",
     classes: [Class.Runeblade],
@@ -3808,6 +3767,98 @@ Whenever you play a Shadow non-attack action card, you may pay {l}. If you do, t
     
     talents: [Talent.Shadow],
     young: true
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "flail-of-agony",
+    classes: [Class.Runeblade],
+    defaultImage: "DTD135",
+    name: "Flail of Agony",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "LGS156",
+      image: "LGS156",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "DTD135",
+      image: "DTD135",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["LGS156","DTD135"],
+    sets: [Release.Promos,Release.DuskTillDawn],
+    specialImage: "LGS156",
+    subtypes: [Subtype.Flail,Subtype.OneHanded],
+    types: [Type.Weapon],
+    typeText: "Shadow Runeblade Weapon – Flail (1H)",
+
+    
+    
+    functionalText: `**Vynnset Specialization**  **Once per Turn Action** - {h}: **Attack**  When this hits, create a Runechant token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Specialization],
+    
+    
+    
+    power: 1,
+    
+    
+    
+    
+    specializations: [Hero.Vynnset],
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "grimoire-of-the-haunt",
+    classes: [Class.Runeblade],
+    defaultImage: "DTD136",
+    name: "Grimoire of the Haunt",
+    printings: [{
+      
+      identifier: "DTD136",
+      image: "DTD136",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD136"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD136",
+    subtypes: [Subtype.OffHand],
+    types: [Type.Equipment],
+    typeText: "Shadow Runeblade Equipment – Off-Hand",
+
+    
+    
+    functionalText: `**Instant – {r}**, banish this: Create an Eloquence token.
+
+**Arcane Barrier 1**
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.ArcaneBarrier],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
   },{
     artists: ["Reza Afshar"],
     cardIdentifier: "widespread-annihilation-blue",
@@ -34531,7 +34582,8 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Fedor Barkhatov"],
     cardIdentifier: "fervent-forerunner-red",
     classes: [Class.Generic],
@@ -34592,8 +34644,7 @@ If Fervent Forerunner is played from arsenal, it gains **go again**.`,
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Fedor Barkhatov"],
     cardIdentifier: "fervent-forerunner-yellow",
     classes: [Class.Generic],
@@ -69862,7 +69913,8 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "strength-of-sequoia-blue",
     classes: [Class.Guardian],
@@ -69933,8 +69985,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Federico Musetti"],
     cardIdentifier: "lexi-livewire",
     classes: [Class.Ranger],
@@ -100342,7 +100393,8 @@ Target opponent reveals their hand. If Brain Freeze was **fused**, put an action
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "icebind-red",
     classes: [Class.Wizard],
@@ -100391,8 +100443,7 @@ Deal 3 arcane damage to any target. If Icebind was **fused** and deals damage to
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "icebind-yellow",
     classes: [Class.Wizard],

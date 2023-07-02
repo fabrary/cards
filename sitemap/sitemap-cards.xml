@@ -21,11 +21,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fabrary.net/cards/flail-of-agony</loc>
-    <lastmod>2023-05-17</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://fabrary.net/cards/vantom-banshee-red</loc>
     <lastmod>2023-05-17</lastmod>
     <priority>0.5</priority>
@@ -428,6 +423,16 @@
   <url>
     <loc>https://fabrary.net/cards/vynnset</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/flail-of-agony</loc>
+    <lastmod>2023-05-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/grimoire-of-the-haunt</loc>
+    <lastmod>2023-07-02</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
