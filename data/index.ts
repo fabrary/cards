@@ -5108,6 +5108,49 @@ Target hero banishes the top card of their deck. If it’s blue, they lost 1{g}.
     talents: [Talent.Shadow],
     
   },{
+    artists: ["Mateusz Wisniewski"],
+    cardIdentifier: "tear-through-the-portal-red",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD190",
+    name: "Tear Through the Portal",
+    printings: [{
+      
+      identifier: "DTD190",
+      image: "DTD190",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD190"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD190",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `Choose a red action card in your banished zone. It gets **go again** until end of turn.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "nasreth-the-soul-harrower",
     classes: [Class.NotClassed],
@@ -34518,7 +34561,8 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Reza Afshar"],
     cardIdentifier: "eirinas-prayer-red",
     classes: [Class.Generic],
@@ -34583,8 +34627,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Reza Afshar"],
     cardIdentifier: "eirinas-prayer-yellow",
     classes: [Class.Generic],
@@ -69994,7 +70037,8 @@ If Snow Under was **fused**, it gains "If this hits a hero, create a Frostbite t
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Arif Wijaya"],
     cardIdentifier: "snow-under-blue",
     classes: [Class.Guardian],
@@ -70061,8 +70105,7 @@ If Snow Under was **fused**, it gains "If this hits a hero, create a Frostbite t
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Reza Afshar"],
     cardIdentifier: "emerging-avalanche-red",
     classes: [Class.Guardian],
@@ -100731,7 +100774,8 @@ Deal 3 arcane damage to any target. If Aether Icevein was **fused** and deals da
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Riordan Delmiro"],
     cardIdentifier: "brain-freeze-red",
     classes: [Class.Wizard],
@@ -100780,8 +100824,7 @@ Target opponent reveals their hand. If Brain Freeze was **fused**, put an action
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Riordan Delmiro"],
     cardIdentifier: "brain-freeze-yellow",
     classes: [Class.Wizard],

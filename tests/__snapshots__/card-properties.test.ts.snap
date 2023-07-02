@@ -15065,6 +15065,64 @@ If Blizzard Bolt was **fused**, whenever an attack deals damage to a hero this t
 }
 `;
 
+exports[`Check for unintentional updates Blood Dripping Frenzy (blood-dripping-frenzy-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Simon Dominic",
+  ],
+  "cardIdentifier": "blood-dripping-frenzy-blue",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "defaultImage": "DTD111",
+  "defense": 3,
+  "functionalText": "As an additional cost to play this, banish your hand.
+
+Draw a card for each card with **blood debt** banished this way.
+
+Your Brute and Shadow attacks get +X{p} this turn, where X is the number of cards with 6 or more {p} banished this way.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Blood Dripping Frenzy",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "DTD111",
+      "image": "DTD111",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD111",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD111",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Blood Drop Brocade (blood-drop-brocade) vs snapshot 1`] = `
 {
   "artists": [
@@ -125325,6 +125383,61 @@ If a yellow card was **charged** this way, whenever an attack action card hits t
   "typeText": "Light Warrior Action – Attack",
   "types": [
     "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Spoiled Skull (spoiled-skull) vs snapshot 1`] = `
+{
+  "artists": [
+    "Carlos Cruchaga",
+  ],
+  "cardIdentifier": "spoiled-skull",
+  "classes": [
+    "Brute",
+  ],
+  "defaultImage": "DTD106",
+  "functionalText": "**Action – {r}**, banish this: Target 3 action cards with different names in your banished zone and choose one at random. You may play it this turn.  **Go again**.
+
+**Arcane Barrier 1**
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Arcane Barrier",
+    "Go again",
+  ],
+  "name": "Spoiled Skull",
+  "printings": [
+    {
+      "identifier": "DTD106",
+      "image": "DTD106",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD106",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD106",
+  "subtypes": [
+    "Head",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Equipment – Head",
+  "types": [
+    "Equipment",
   ],
 }
 `;

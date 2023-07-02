@@ -453,7 +453,9 @@ Target hero banishes the top card of their deck. If it’s blue, they lost 1{g}.
 **Go again**",,Shadow Action,Marco González,,,,,S – DTD187 – N,,/DTD187.png – DTD187 – N
 ,DTD188,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD189,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD190,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD190,DTD,Tear Through the Portal,1,0,,2,,,C,"Shadow, Action",Go again,,,,,,"Choose a red action card in your banished zone. It gets **go again** until end of turn.
+
+**Go again**",,Shadow Action,Mateusz Wisniewski,,,,,S – DTD190 – N,,/DTD190.png – DTD190 – N
 ,DTD191,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD192,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD193,DTD,"Nasreth, the Soul Harrower",,,6,,6,,"C, V","Shadow, Token, Demon, Ally","Once per Turn Action, Attack",,,,,,"**Once per Turn Action – 0: Attack**
