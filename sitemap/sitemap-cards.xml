@@ -391,6 +391,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/vynnset-iron-maiden</loc>
+    <lastmod>2023-07-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/widespread-annihilation-blue</loc>
+    <lastmod>2023-07-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/widespread-destruction-yellow</loc>
     <lastmod>2023-07-01</lastmod>
     <priority>0.5</priority>
@@ -402,6 +412,16 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/funeral-moon-red</loc>
+    <lastmod>2023-07-01</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/oblivion-blue</loc>
+    <lastmod>2023-07-01</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/nasreth-the-soul-harrower</loc>
     <lastmod>2023-07-01</lastmod>
     <priority>0.5</priority>
   </url>

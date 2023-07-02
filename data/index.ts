@@ -3447,6 +3447,94 @@ Destroy target yellow aura.`,
     talents: [Talent.Shadow],
     
   },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "vynnset-iron-maiden",
+    classes: [Class.Runeblade],
+    defaultImage: "DTD133",
+    name: "Vynnset, Iron Maiden",
+    printings: [{
+      
+      identifier: "DTD133",
+      image: "DTD133",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD133"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD133",
+    subtypes: [],
+    types: [Type.Hero],
+    typeText: "Shadow Runeblade Hero",
+
+    
+    
+    functionalText: `At the start of your turn, banish a card from your hand. If you do, create a Runechant token.
+
+Whenever you play a Shadow non-attack action card, you may pay {l}. If you do, the next Runechant effect that would deal damage this turn can’t be prevented.`,
+    
+    hero: Hero.Vynnset,
+    intellect: 4,
+    
+    
+    life: 40,
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Reza Afshar"],
+    cardIdentifier: "widespread-annihilation-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "DTD137",
+    name: "Widespread Annihilation",
+    printings: [{
+      
+      identifier: "DTD137",
+      image: "DTD137",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD137"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD137",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action – Attack",
+
+    cost: 4,
+    defense: 3,
+    functionalText: `**Rune Gate**
+
+When the combat chain closes, each hero who has lost {l} this turn banishes a card from their hand.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.RuneGate,Keyword.BloodDebt],
+    
+    
+    pitch: 3,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
     artists: ["Reza Afshar"],
     cardIdentifier: "widespread-destruction-yellow",
     classes: [Class.Runeblade],
@@ -3577,6 +3665,94 @@ Create a Runechant token.
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "oblivion-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "DTD142",
+    name: "Oblivion",
+    printings: [{
+      
+      identifier: "DTD142",
+      image: "DTD142",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD142"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD142",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Shadow Runeblade Instant",
+
+    cost: 0,
+    
+    functionalText: `**Legendary Vynnset Specialization**
+
+Play this only if you control exactly 6 Runechants.
+
+Create a Nasreth, the Soul Harrower token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Legendary,Keyword.Specialization],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    specializations: [Hero.Vynnset],
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "nasreth-the-soul-harrower",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD193_Marvel",
+    name: "Nasreth, the Soul Harrower",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "DTD193",
+      image: "DTD193_Marvel",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Common,Rarity.Marvel],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD193"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD193_Marvel",
+    subtypes: [Subtype.Demon,Subtype.Ally],
+    types: [Type.Token],
+    typeText: "Shadow Token – Demon Ally",
+
+    
+    
+    functionalText: `**Once per Turn Action – 0: Attack**
+
+When Nasreth hits a hero, banish a card from their soul. If a Light card is banished this way, gain 1{l}.`,
+    
+    
+    
+    
+    
+    life: 6,
+    
+    
+    power: 6,
+    
     
     
     
@@ -34491,7 +34667,8 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Andrey Savchuk"],
     cardIdentifier: "come-to-fight-red",
     classes: [Class.Generic],
@@ -34716,8 +34893,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Le Vuong"],
     cardIdentifier: "force-sight-red",
     classes: [Class.Generic],
@@ -69381,7 +69557,8 @@ If Snap Shot was **fused**, you may activate abilities of bows you control an ad
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Narendra B Adi"],
     cardIdentifier: "blizzard-bolt-red",
     classes: [Class.Ranger],
@@ -69509,8 +69686,7 @@ If Blizzard Bolt was **fused**, whenever an attack deals damage to a hero this t
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "blizzard-bolt-blue",
     classes: [Class.Ranger],
@@ -99316,7 +99492,8 @@ Deal 2 arcane damage to any target. If Polar Cap was **fused** and deals damage 
     
     talents: [Talent.Ice],
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "frost-hex-blue",
     classes: [Class.Wizard],
@@ -99371,8 +99548,7 @@ Frostbites you control have "At the beginning of your end phase, this deals 1 ar
     specializations: [Hero.Iyslander],
     talents: [Talent.Ice],
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Junaidi Lim"],
     cardIdentifier: "aether-hail-red",
     classes: [Class.Wizard],

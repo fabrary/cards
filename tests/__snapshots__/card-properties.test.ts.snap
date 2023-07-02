@@ -77662,6 +77662,57 @@ Mutated Mass's {p} and {d} is equal to twice the number of cards in your pitch z
 }
 `;
 
+exports[`Check for unintentional updates Nasreth, the Soul Harrower (nasreth-the-soul-harrower) vs snapshot 1`] = `
+{
+  "artists": [
+    "Isuardi Therianto",
+  ],
+  "cardIdentifier": "nasreth-the-soul-harrower",
+  "classes": [
+    "NotClassed",
+  ],
+  "defaultImage": "DTD193_Marvel",
+  "functionalText": "**Once per Turn Action – 0: Attack**
+
+When Nasreth hits a hero, banish a card from their soul. If a Light card is banished this way, gain 1{l}.",
+  "life": 6,
+  "name": "Nasreth, the Soul Harrower",
+  "power": 6,
+  "printings": [
+    {
+      "foiling": "Cold",
+      "identifier": "DTD193",
+      "image": "DTD193_Marvel",
+      "set": "Dusk till Dawn",
+      "treatment": "Extended Art",
+    },
+  ],
+  "rarities": [
+    "Common",
+    "Marvel",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD193",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD193_Marvel",
+  "subtypes": [
+    "Demon",
+    "Ally",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Token – Demon Ally",
+  "types": [
+    "Token",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Nature's Path Pilgrimage (natures-path-pilgrimage-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -80112,6 +80163,63 @@ Create a Runechant token.
   "typeText": "Runeblade Action",
   "types": [
     "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Oblivion (oblivion-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Isuardi Therianto",
+  ],
+  "cardIdentifier": "oblivion-blue",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD142",
+  "functionalText": "**Legendary Vynnset Specialization**
+
+Play this only if you control exactly 6 Runechants.
+
+Create a Nasreth, the Soul Harrower token.",
+  "keywords": [
+    "Legendary",
+    "Specialization",
+  ],
+  "name": "Oblivion",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "DTD142",
+      "image": "DTD142",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD142",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD142",
+  "specializations": [
+    "Vynnset",
+  ],
+  "subtypes": [],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Instant",
+  "types": [
+    "Instant",
   ],
 }
 `;
@@ -143994,6 +144102,64 @@ exports[`Check for unintentional updates Whisper of the Oracle (whisper-of-the-o
     "Non-Attack",
   ],
   "typeText": "Generic Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Widespread Destruction (widespread-destruction-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Reza Afshar",
+  ],
+  "cardIdentifier": "widespread-destruction-yellow",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 3,
+  "defaultImage": "DTD138",
+  "defense": 3,
+  "functionalText": "**Rune Gate**
+
+When the combat chain closes, each hero who has lost {l} this turn banishes a card from their arsenal.
+
+**Blood Debt**",
+  "keywords": [
+    "Rune Gate",
+    "Blood Debt",
+  ],
+  "name": "Widespread Destruction",
+  "pitch": 2,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "DTD138",
+      "image": "DTD138",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD138",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD138",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action – Attack",
   "types": [
     "Action",
   ],

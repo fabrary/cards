@@ -279,11 +279,17 @@ Destroy target yellow aura.",,Light Action ,Mateusz Wisniewski,,,,No,S – DTD08
 ,DTD130,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD131,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD132,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD133,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD133,DTD,"Vynnset, Iron Maiden",,,,,40,4,M,"Shadow, Runeblade, Hero",,,,,,,"At the start of your turn, banish a card from your hand. If you do, create a Runechant token.
+
+Whenever you play a Shadow non-attack action card, you may pay {l}. If you do, the next Runechant effect that would deal damage this turn can’t be prevented.",,Shadow Runeblade Hero,Federico Musetti,,,,,S – DTD133 – N,,/DTD133.png – DTD133 – N
 ,DTD134,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD135,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD136,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD137,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD137,DTD,Widespread Annihilation,3,4,6,3,,,M,"Shadow, Runeblade, Action, Attack","Rune Gate, Blood Debt",,,,,,"**Rune Gate**
+
+When the combat chain closes, each hero who has lost {l} this turn banishes a card from their hand.
+
+**Blood Debt**",,Shadow Runeblade Action – Attack,Reza Afshar,,,,No,S – DTD137 – N,,/DTD137.png – DTD137 – N
 ,DTD138,DTD,Widespread Destruction,2,3,6,3,,,M,"Shadow, Runeblade, Action, Attack","Rune Gate, Blood Debt",,,,,,"**Rune Gate**
 
 When the combat chain closes, each hero who has lost {l} this turn banishes a card from their arsenal.
@@ -302,7 +308,11 @@ Create a Runechant token.
 
 **Blood Debt**",,Shadow Runeblade Action ,Carlos Cruchaga,,,,No,S – DTD140 – N,,/DTD140.png – DTD140 – N
 ,DTD141,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD142,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD142,DTD,Oblivion,3,0,,,,,M,"Shadow, Runeblade, Instant","Legendary, Vynnset Specialization",,,,,,"**Legendary Vynnset Specialization**
+
+Play this only if you control exactly 6 Runechants.
+
+Create a Nasreth, the Soul Harrower token.",,Shadow Runeblade Instant,Isuardi Therianto,,,,No,S – DTD142 – N,,/DTD142.png – DTD142 – N
 ,DTD143,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD144,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD145,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -353,7 +363,9 @@ Create a Runechant token.
 ,DTD190,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD191,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD192,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD193,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD193,DTD,"Nasreth, the Soul Harrower",,,6,,6,,"C, V","Shadow, Token, Demon, Ally","Once per Turn Action, Attack",,,,,,"**Once per Turn Action – 0: Attack**
+
+When Nasreth hits a hero, banish a card from their soul. If a Light card is banished this way, gain 1{l}.",,Shadow Token – Demon Ally,Isuardi Therianto,,,,,C - DTD193 – N – EA,,/DTD193_Marvel.png – DTD193 – N – C – EA
 ,DTD194,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD195,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD196,DTD,Anthem of Spring,3,0,,2,,,M,"Earth, Action","Briar Specialization, Unity, Go again",,,,,,"**Briar Specialization**
