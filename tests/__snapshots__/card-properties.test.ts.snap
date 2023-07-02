@@ -133002,6 +133002,57 @@ exports[`Check for unintentional updates Tear Limb from Limb (tear-limb-from-lim
 }
 `;
 
+exports[`Check for unintentional updates Tear Through the Portal (tear-through-the-portal-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mateusz Wisniewski",
+  ],
+  "cardIdentifier": "tear-through-the-portal-red",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD190",
+  "defense": 2,
+  "functionalText": "Choose a red action card in your banished zone. It gets **go again** until end of turn.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Tear Through the Portal",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "DTD190",
+      "image": "DTD190",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD190",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD190",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Tearing Shuko (tearing-shuko) vs snapshot 1`] = `
 {
   "artists": [

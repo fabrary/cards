@@ -376,6 +376,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/hell-hammer</loc>
+    <lastmod>2023-07-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/spoiled-skull</loc>
     <lastmod>2023-07-02</lastmod>
     <priority>0.5</priority>
@@ -541,6 +546,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/dabble-in-darkness-red</loc>
+    <lastmod>2023-07-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/chains-of-mephetis-blue</loc>
     <lastmod>2023-07-02</lastmod>
     <priority>0.5</priority>
@@ -652,6 +662,11 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/scepter-of-pain</loc>
+    <lastmod>2023-07-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/dyadic-carapace</loc>
     <lastmod>2023-07-02</lastmod>
     <priority>0.5</priority>
   </url>

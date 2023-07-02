@@ -3332,6 +3332,51 @@ Destroy target yellow aura.`,
     talents: [Talent.Light],
     
   },{
+    artists: ["Lizhe Liang"],
+    cardIdentifier: "hell-hammer",
+    classes: [Class.Brute],
+    defaultImage: "DTD105",
+    name: "Hell Hammer",
+    printings: [{
+      
+      identifier: "DTD105",
+      image: "DTD105",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD105"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD105",
+    subtypes: [Subtype.Hammer,Subtype.TwoHanded],
+    types: [Type.Weapon],
+    typeText: "Shadow Brute Weapon – Hammer (2H)",
+
+    
+    
+    functionalText: `**Once per Turn Action – {r}{r}: Attack**
+
+When the combat chain closes, if this attacked, banish it.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    
+    power: 6,
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "spoiled-skull",
     classes: [Class.Brute],
@@ -4797,6 +4842,49 @@ Once each turn, you may play a card with **blood debt** from your banished zone.
     talents: [Talent.Shadow],
     
   },{
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "dabble-in-darkness-red",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD169",
+    name: "Dabble in Darkness",
+    printings: [{
+      
+      identifier: "DTD169",
+      image: "DTD169",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD169"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD169",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action – Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `When this attacks, banish the top card of your deck. This gets -X{p}, where X is the pitch value of the card banished this way.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
     artists: ["Saad Irfan"],
     cardIdentifier: "chains-of-mephetis-blue",
     classes: [Class.NotClassed],
@@ -5795,6 +5883,49 @@ Create a Runechant token for each damage dealt this way.`,
     
     
     
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Ramza Ardyputra"],
+    cardIdentifier: "dyadic-carapace",
+    classes: [Class.Runeblade],
+    defaultImage: "DTD211",
+    name: "Dyadic Carapace",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "DTD211",
+      image: "DTD211",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["DTD211"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD211",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Runeblade Equipment – Chest",
+
+    
+    defense: 2,
+    functionalText: `**Arcane Barrier 2**
+
+**Temper**`,
+    
+    
+    
+    
+    keywords: [Keyword.ArcaneBarrier,Keyword.Temper],
+    
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -34423,7 +34554,8 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Immanuela Crovius"],
     cardIdentifier: "plunder-run-yellow",
     classes: [Class.Generic],
@@ -34561,8 +34693,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Reza Afshar"],
     cardIdentifier: "eirinas-prayer-red",
     classes: [Class.Generic],
@@ -69976,7 +70107,8 @@ If Snow Under was **fused**, it gains "If this hits a hero, create a Frostbite t
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Arif Wijaya"],
     cardIdentifier: "snow-under-yellow",
     classes: [Class.Guardian],
@@ -70037,8 +70169,7 @@ If Snow Under was **fused**, it gains "If this hits a hero, create a Frostbite t
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Arif Wijaya"],
     cardIdentifier: "snow-under-blue",
     classes: [Class.Guardian],

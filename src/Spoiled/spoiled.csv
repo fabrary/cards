@@ -243,7 +243,11 @@ Destroy target yellow aura.",,Light Action ,Mateusz Wisniewski,,,,No,S – DTD08
 ,DTD102,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD103,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD104,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD105,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD105,DTD,Hell Hammer,,,6,,,,R,"Shadow, Brute, Weapon, Hammer, 2H","Once per Turn Action, Attack, Blood Debt",,,,,,"**Once per Turn Action – {r}{r}: Attack**
+
+When the combat chain closes, if this attacked, banish it.
+
+**Blood Debt**",,Shadow Brute Weapon – Hammer (2H),Lizhe Liang,,,,,S – DTD105 – N,,/DTD105.png – DTD105 – N
 ,DTD106,DTD,Spoiled Skull,,,,,,,M,"Shadow, Brute, Equipment, Head","Action, Blood Debt, Arcane Barrier 1, Go again",,,,,,"**Action – {r}**, banish this: Target 3 action cards with different names in your banished zone and choose one at random. You may play it this turn.  **Go again**.
 
 **Arcane Barrier 1**
@@ -408,7 +412,9 @@ Once each turn, you may play a card with **blood debt** from your banished zone.
 ,DTD168,DTD,Dance of Darkness,,,,,,,C,"Shadow, Equipment, Legs",Blood Debt,,,,,,"If your hero would be dealt damage, you may banish this to prevent 2 of that damage.
 
 **Blood Debt**",,Shadow Equipment – Legs,Sebastian Szmyd,,,,,S – DTD168 – N,,/DTD168.png – DTD168 – N
-,DTD169,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD169,DTD,Dabble in Darkness,1,0,5,3,,,M,"Shadow, Action, Attack",Blood Debt,,,,,,"When this attacks, banish the top card of your deck. This gets -X{p}, where X is the pitch value of the card banished this way.
+
+**Blood Debt**",,Shadow Action – Attack,Henrique Lindner,,,,,S – DTD169 – N,,/DTD169.png – DTD169 – N
 ,DTD170,DTD,Chains of Mephetis,3,0,,3,,,M,"Shadow, Action, Aura",Blood Debt,,,,,,"You may play this from your banished zone. If you do, it enters the arena with a doom count.
 
 At the start of your turn, destroy this unless you remove a doom counter from it.
@@ -512,7 +518,9 @@ Until end of turn, target Dawnblade gets +1{p} and ""Damage this would deal can'
 ,DTD210,DTD,Scepter of Pain,,,,,,,R,"Runeblade, Weapon, Scepter, 1H",Once per Turn Action,,,,,,"**Once per Turn Action** - {r}{r}: Deal 1 arcane damage to any opposing target.
 
 Create a Runechant token for each damage dealt this way.",,Runeblade Weapon - Scepter (1H),Henrique Lindner,,,,,S – DTD210 – N,,/DTD210.png – DTD210 – N
-,DTD211,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD211,DTD,Dyadic Carapace,,,,2,,,L,"Runeblade, Equipment, Chest","Arcane Barrier 2, Temper",,,,,,"**Arcane Barrier 2**
+
+**Temper**",,Runeblade Equipment – Chest,Ramza Ardyputra,,,,No,C – DTD211 – N,,/DTD211.png – DTD211 – N – C
 ,DTD212,DTD,Bequest the Vast Beyond,1,0,,2,,,M,"Runeblade, Action","Viserai Specialization, Go again",,,,,,"**Viserai Specialization**
 
 The next Runeblade attack action card you play this turn costs {r} less to play for each Runechant you control.
