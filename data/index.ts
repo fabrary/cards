@@ -193,252 +193,6 @@ Whenever an opponent plays or activates their first card or ability each turn, i
     
     
   },{
-    artists: ["Muhammad Fajri"],
-    cardIdentifier: "vantom-banshee-red",
-    classes: [Class.Runeblade],
-    defaultImage: "LGS157",
-    name: "Vantom Banshee",
-    printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS157",
-      image: "LGS157",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS157"],
-    sets: [Release.Promos,Release.DuskTillDawn],
-    specialImage: "LGS157",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Shadow Runeblade Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Rune Gate**  **Blood Debt**`,
-    
-    
-    
-    
-    keywords: [Keyword.RuneGate,Keyword.BloodDebt],
-    
-    
-    pitch: 1,
-    power: 7,
-    
-    
-    
-    
-    
-    talents: [Talent.Shadow],
-    
-  },{
-    artists: ["Muhammad Fajri"],
-    cardIdentifier: "vantom-banshee-yellow",
-    classes: [Class.Runeblade],
-    defaultImage: "LGS158",
-    name: "Vantom Banshee",
-    printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS158",
-      image: "LGS158",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS158"],
-    sets: [Release.Promos,Release.DuskTillDawn],
-    specialImage: "LGS158",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Shadow Runeblade Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Rune Gate**  **Blood Debt**`,
-    
-    
-    
-    
-    keywords: [Keyword.RuneGate,Keyword.BloodDebt],
-    
-    
-    pitch: 2,
-    power: 6,
-    
-    
-    
-    
-    
-    talents: [Talent.Shadow],
-    
-  },{
-    artists: ["Muhammad Fajri"],
-    cardIdentifier: "vantom-banshee-blue",
-    classes: [Class.Runeblade],
-    defaultImage: "LGS159",
-    name: "Vantom Banshee",
-    printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS159",
-      image: "LGS159",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS159"],
-    sets: [Release.Promos,Release.DuskTillDawn],
-    specialImage: "LGS159",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Shadow Runeblade Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Rune Gate**  **Blood Debt**`,
-    
-    
-    
-    
-    keywords: [Keyword.RuneGate,Keyword.BloodDebt],
-    
-    
-    pitch: 3,
-    power: 5,
-    
-    
-    
-    
-    
-    talents: [Talent.Shadow],
-    
-  },{
-    artists: ["Lius Lasahido"],
-    cardIdentifier: "angelic-wrath-red",
-    classes: [Class.Illusionist],
-    defaultImage: "LGS161",
-    name: "Angelic Wrath",
-    printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS161",
-      image: "LGS161",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS161"],
-    sets: [Release.Promos,Release.DuskTillDawn],
-    specialImage: "LGS161",
-    subtypes: [],
-    types: [Type.Instant],
-    typeText: "Light Illusionist Instant",
-
-    cost: 0,
-    
-    functionalText: `Target attack action card with Herald in its name gets +4{p}`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    
-    
-    
-    
-    
-    
-    talents: [Talent.Light],
-    
-  },{
-    artists: ["Lius Lasahido"],
-    cardIdentifier: "angelic-wrath-yellow",
-    classes: [Class.Illusionist],
-    defaultImage: "LGS162",
-    name: "Angelic Wrath",
-    printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS162",
-      image: "LGS162",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS162"],
-    sets: [Release.Promos,Release.DuskTillDawn],
-    specialImage: "LGS162",
-    subtypes: [],
-    types: [Type.Instant],
-    typeText: "Light Illusionist Instant",
-
-    cost: 0,
-    
-    functionalText: `Target attack action card with Herald in its name gets +3{p}`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    talents: [Talent.Light],
-    
-  },{
-    artists: ["Lius Lasahido"],
-    cardIdentifier: "angelic-wrath-blue",
-    classes: [Class.Illusionist],
-    defaultImage: "LGS163",
-    name: "Angelic Wrath",
-    printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS163",
-      image: "LGS163",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS163"],
-    sets: [Release.Promos,Release.DuskTillDawn],
-    specialImage: "LGS163",
-    subtypes: [],
-    types: [Type.Instant],
-    typeText: "Light Illusionist Instant",
-
-    cost: 0,
-    
-    functionalText: `Target attack action card with Herald in its name gets +2{p}`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    
-    
-    
-    
-    
-    
-    talents: [Talent.Light],
-    
-  },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "banneret-of-resilience-yellow",
     classes: [Class.Warrior],
@@ -554,170 +308,6 @@ Whenever an opponent plays or activates their first card or ability each turn, i
     
     pitch: 2,
     power: 3,
-    
-    
-    
-    
-    
-    talents: [Talent.Light],
-    
-  },{
-    artists: ["Othon Nikolaidis"],
-    cardIdentifier: "eloquence",
-    classes: [Class.Generic],
-    defaultImage: "FAB154",
-    name: "Eloquence",
-    printings: [{
-      foiling: Foiling.C,
-      identifier: "FAB154",
-      image: "FAB154",
-      set: Release.Promos,
-      
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["FAB154"],
-    sets: [Release.Promos,Release.DuskTillDawn],
-    specialImage: "FAB154",
-    subtypes: [Subtype.Aura],
-    types: [Type.Token],
-    typeText: "Generic Token - Aura",
-
-    
-    
-    functionalText: `When you play a non-attack action card, destroy this and the card gets **go again**.`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Jessada Sutthi"],
-    cardIdentifier: "banneret-of-courage-yellow",
-    classes: [Class.Warrior],
-    defaultImage: "FAB161",
-    name: "Banneret of Courage",
-    printings: [{
-      foiling: Foiling.R,
-      identifier: "FAB161",
-      image: "FAB161",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["FAB161"],
-    sets: [Release.Promos,Release.DuskTillDawn],
-    specialImage: "FAB161",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Light Warrior Action - Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `**Solflare** - When this is **charged** to your hero's soul, create a Courage token.`,
-    
-    
-    
-    
-    keywords: [Keyword.Solflare,Keyword.Charge],
-    
-    
-    pitch: 2,
-    power: 4,
-    
-    
-    
-    
-    
-    talents: [Talent.Light],
-    
-  },{
-    artists: ["Jessada Sutthi"],
-    cardIdentifier: "banneret-of-gallantry-yellow",
-    classes: [Class.Warrior],
-    defaultImage: "FAB162",
-    name: "Banneret of Gallantry",
-    printings: [{
-      foiling: Foiling.R,
-      identifier: "FAB162",
-      image: "FAB162",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["FAB162"],
-    sets: [Release.Promos,Release.DuskTillDawn],
-    specialImage: "FAB162",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Light Warrior Action - Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `**Solflare** - When this is **charged** to your hero's soul, create a Quicken token.`,
-    
-    
-    
-    
-    keywords: [Keyword.Solflare,Keyword.Charge],
-    
-    
-    pitch: 2,
-    power: 4,
-    
-    
-    
-    
-    
-    talents: [Talent.Light],
-    
-  },{
-    artists: ["Jessada Sutthi"],
-    cardIdentifier: "banneret-of-protection-yellow",
-    classes: [Class.Warrior],
-    defaultImage: "FAB163",
-    name: "Banneret of Protection",
-    printings: [{
-      foiling: Foiling.R,
-      identifier: "FAB163",
-      image: "FAB163",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["FAB163"],
-    sets: [Release.Promos,Release.DuskTillDawn],
-    specialImage: "FAB163",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Light Warrior Action - Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `**Solflare** - When this is **charged** to your hero's soul, create a Spellbane Aegis token.`,
-    
-    
-    
-    
-    keywords: [Keyword.Solflare,Keyword.Charge],
-    
-    
-    pitch: 2,
-    power: 4,
     
     
     
@@ -1721,6 +1311,49 @@ When Bellona attacks, you may banish a card from your hero’s soul. If you do, 
     
   },{
     artists: ["Alief Rusdiatama"],
+    cardIdentifier: "angelic-descent-red",
+    classes: [Class.Illusionist],
+    defaultImage: "DTD032",
+    name: "Angelic Descent",
+    printings: [{
+      
+      identifier: "DTD032",
+      image: "DTD032",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD032"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD032",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Light Illusionist Instant",
+
+    cost: 0,
+    
+    functionalText: `Target attack action card with Herald in its name gets go again.
+
+Your next angel attack this turn gets +3{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Alief Rusdiatama"],
     cardIdentifier: "angelic-descent-yellow",
     classes: [Class.Illusionist],
     defaultImage: "DTD033",
@@ -1754,6 +1387,231 @@ Your next angel attack this turn gets +2{p}.`,
     
     
     pitch: 2,
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Alief Rusdiatama"],
+    cardIdentifier: "angelic-descent-blue",
+    classes: [Class.Illusionist],
+    defaultImage: "DTD034",
+    name: "Angelic Descent",
+    printings: [{
+      
+      identifier: "DTD034",
+      image: "DTD034",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD034"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD034",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Light Illusionist Instant",
+
+    cost: 0,
+    
+    functionalText: `Target attack action card with Herald in its name gets go again.
+
+Your next angel attack this turn gets +1{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Lius Lasahido"],
+    cardIdentifier: "angelic-wrath-red",
+    classes: [Class.Illusionist],
+    defaultImage: "DTD035",
+    name: "Angelic Wrath",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS161",
+      image: "LGS161",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      
+      identifier: "DTD035",
+      image: "DTD035",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["LGS161","DTD035"],
+    sets: [Release.Promos,Release.DuskTillDawn],
+    specialImage: "LGS161",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Light Illusionist Instant",
+
+    cost: 0,
+    
+    functionalText: `Target attack action card with Herald in its name gets +4{p}`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Lius Lasahido"],
+    cardIdentifier: "angelic-wrath-yellow",
+    classes: [Class.Illusionist],
+    defaultImage: "DTD036",
+    name: "Angelic Wrath",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS162",
+      image: "LGS162",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      
+      identifier: "DTD036",
+      image: "DTD036",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["LGS162","DTD036"],
+    sets: [Release.Promos,Release.DuskTillDawn],
+    specialImage: "LGS162",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Light Illusionist Instant",
+
+    cost: 0,
+    
+    functionalText: `Target attack action card with Herald in its name gets +3{p}`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Lius Lasahido"],
+    cardIdentifier: "angelic-wrath-blue",
+    classes: [Class.Illusionist],
+    defaultImage: "DTD037",
+    name: "Angelic Wrath",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS163",
+      image: "LGS163",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      
+      identifier: "DTD037",
+      image: "DTD037",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["LGS163","DTD037"],
+    sets: [Release.Promos,Release.DuskTillDawn],
+    specialImage: "LGS163",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Light Illusionist Instant",
+
+    cost: 0,
+    
+    functionalText: `Target attack action card with Herald in its name gets +2{p}`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "celestial-reprimand-red",
+    classes: [Class.Illusionist],
+    defaultImage: "DTD038",
+    name: "Celestial Reprimand",
+    printings: [{
+      
+      identifier: "DTD038",
+      image: "DTD038",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD038"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD038",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Light Illusionist Instant",
+
+    cost: 0,
+    
+    functionalText: `Target card defending an attack with Herald in its name gets -3{p} this combat chain.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
     
     
     
@@ -1804,6 +1662,88 @@ Your next angel attack this turn gets +2{p}.`,
     talents: [Talent.Light],
     
   },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "celestial-reprimand-blue",
+    classes: [Class.Illusionist],
+    defaultImage: "DTD040",
+    name: "Celestial Reprimand",
+    printings: [{
+      
+      identifier: "DTD040",
+      image: "DTD040",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD040"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD040",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Light Illusionist Instant",
+
+    cost: 0,
+    
+    functionalText: `Target card defending an attack with Herald in its name gets -1{p} this combat chain.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Jen Santos"],
+    cardIdentifier: "celestial-resolve-red",
+    classes: [Class.Illusionist],
+    defaultImage: "DTD041",
+    name: "Celestial Resolve",
+    printings: [{
+      
+      identifier: "DTD041",
+      image: "DTD041",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD041"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD041",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Light Illusionist Instant",
+
+    cost: 0,
+    
+    functionalText: `Target attack action card with Herald in its name gets +5{d}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
     artists: ["Jen Santos"],
     cardIdentifier: "celestial-resolve-yellow",
     classes: [Class.Illusionist],
@@ -1836,6 +1776,47 @@ Your next angel attack this turn gets +2{p}.`,
     
     
     pitch: 2,
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Jen Santos"],
+    cardIdentifier: "celestial-resolve-blue",
+    classes: [Class.Illusionist],
+    defaultImage: "DTD043",
+    name: "Celestial Resolve",
+    printings: [{
+      
+      identifier: "DTD043",
+      image: "DTD043",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD043"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD043",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Light Illusionist Instant",
+
+    cost: 0,
+    
+    functionalText: `Target attack action card with Herald in its name gets +3{d}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
     
     
     
@@ -1925,6 +1906,147 @@ The first time you would be dealt damage each turn, if you’ve **charged** this
     
     
     
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Jessada Sutthi"],
+    cardIdentifier: "banneret-of-courage-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "DTD048",
+    name: "Banneret of Courage",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "FAB161",
+      image: "FAB161",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      
+      identifier: "DTD048",
+      image: "DTD048",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["FAB161","DTD048"],
+    sets: [Release.Promos,Release.DuskTillDawn],
+    specialImage: "FAB161",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Warrior Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Solflare** - When this is **charged** to your hero's soul, create a Courage token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Solflare,Keyword.Charge],
+    
+    
+    pitch: 2,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Jessada Sutthi"],
+    cardIdentifier: "banneret-of-gallantry-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "DTD049",
+    name: "Banneret of Gallantry",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "FAB162",
+      image: "FAB162",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      
+      identifier: "DTD049",
+      image: "DTD049",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["FAB162","DTD049"],
+    sets: [Release.Promos,Release.DuskTillDawn],
+    specialImage: "FAB162",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Warrior Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Solflare** - When this is **charged** to your hero's soul, create a Quicken token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Solflare,Keyword.Charge],
+    
+    
+    pitch: 2,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Jessada Sutthi"],
+    cardIdentifier: "banneret-of-protection-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "DTD050",
+    name: "Banneret of Protection",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "FAB163",
+      image: "FAB163",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      
+      identifier: "DTD050",
+      image: "DTD050",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["FAB163","DTD050"],
+    sets: [Release.Promos,Release.DuskTillDawn],
+    specialImage: "FAB163",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Warrior Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Solflare** - When this is **charged** to your hero's soul, create a Spellbane Aegis token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Solflare,Keyword.Charge],
+    
+    
+    pitch: 2,
+    power: 4,
     restrictedFormats: [Format.Commoner],
     
     
@@ -2352,6 +2474,92 @@ If a yellow card is **charged** this way, this gets **overpower**.`,
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "glaring-impact-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "DTD064",
+    name: "Glaring Impact",
+    printings: [{
+      
+      identifier: "DTD064",
+      image: "DTD064",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD064"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD064",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Warrior Action – Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `As an additional cost to play this, you may **charge** your hero’s soul.
+
+If a yellow card is **charged** this way, this gets **overpower**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Charge,Keyword.Overpower],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "glaring-impact-blue",
+    classes: [Class.Warrior],
+    defaultImage: "DTD065",
+    name: "Glaring Impact",
+    printings: [{
+      
+      identifier: "DTD065",
+      image: "DTD065",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD065"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD065",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Warrior Action – Attack",
+
+    cost: 1,
+    defense: 1,
+    functionalText: `As an additional cost to play this, you may **charge** your hero’s soul.
+
+If a yellow card is **charged** this way, this gets **overpower**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Charge,Keyword.Overpower],
+    
+    
+    pitch: 3,
+    
+    
     
     
     
@@ -3040,6 +3248,49 @@ When there are no cards in your hero’s soul, destroy this.`,
     
   },{
     artists: ["Faizal Fikri"],
+    cardIdentifier: "lay-to-rest-red",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD082",
+    name: "Lay to Rest",
+    printings: [{
+      
+      identifier: "DTD082",
+      image: "DTD082",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD082"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD082",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Action – Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `When this attacks a Shadow hero, it gets +1{p}.
+
+When this hits a hero, you may turn a card in their banished zone face-down.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Faizal Fikri"],
     cardIdentifier: "lay-to-rest-yellow",
     classes: [Class.NotClassed],
     defaultImage: "DTD083",
@@ -3082,6 +3333,49 @@ When this hits a hero, you may turn a card in their banished zone face-down.`,
     talents: [Talent.Light],
     
   },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "lay-to-rest-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD084",
+    name: "Lay to Rest",
+    printings: [{
+      
+      identifier: "DTD084",
+      image: "DTD084",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD084"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD084",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Action – Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `When this attacks a Shadow hero, it gets +1{p}.
+
+When this hits a hero, you may turn a card in their banished zone face-down.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
     artists: ["Saad Irfan"],
     cardIdentifier: "blessing-of-salvation-red",
     classes: [Class.NotClassed],
@@ -3108,6 +3402,135 @@ When this hits a hero, you may turn a card in their banished zone face-down.`,
     functionalText: `If a card has been put into your hero’s soul this turn, you may play this as though it were an instant.
 
 Gain 3{l}`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "blessing-of-salvation-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD086",
+    name: "Blessing of Salvation",
+    printings: [{
+      
+      identifier: "DTD086",
+      image: "DTD086",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD086"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD086",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Light Action ",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `If a card has been put into your hero’s soul this turn, you may play this as though it were an instant.
+
+Gain 2{l}`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "blessing-of-salvation-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD087",
+    name: "Blessing of Salvation",
+    printings: [{
+      
+      identifier: "DTD087",
+      image: "DTD087",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD087"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD087",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Light Action ",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `If a card has been put into your hero’s soul this turn, you may play this as though it were an instant.
+
+Gain 1{l}`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Mateusz Wisniewski"],
+    cardIdentifier: "cleansing-light-red",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD088",
+    name: "Cleansing Light",
+    printings: [{
+      
+      identifier: "DTD088",
+      image: "DTD088",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD088"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD088",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Light Action ",
+
+    cost: 3,
+    defense: 2,
+    functionalText: `If a card has been put into your hero’s soul this turn, you may play this as though it were an instant.
+
+Destroy target red aura.`,
     
     
     
@@ -3168,6 +3591,90 @@ Destroy target yellow aura.`,
     talents: [Talent.Light],
     
   },{
+    artists: ["Mateusz Wisniewski"],
+    cardIdentifier: "cleansing-light-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD090",
+    name: "Cleansing Light",
+    printings: [{
+      
+      identifier: "DTD090",
+      image: "DTD090",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD090"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD090",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Light Action ",
+
+    cost: 3,
+    defense: 2,
+    functionalText: `If a card has been put into your hero’s soul this turn, you may play this as though it were an instant.
+
+Destroy target blue aura.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "blistering-assault-red",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD091",
+    name: "Blistering Assault",
+    printings: [{
+      
+      identifier: "DTD091",
+      image: "DTD091",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD091"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD091",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Action – Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `If you have a yellow card in your pitch zone, this gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "blistering-assault-yellow",
     classes: [Class.NotClassed],
@@ -3187,7 +3694,7 @@ Destroy target yellow aura.`,
     specialImage: "DTD092",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
-    typeText: "Light Action – Attach",
+    typeText: "Light Action – Attack",
 
     cost: 2,
     defense: 2,
@@ -3200,6 +3707,88 @@ Destroy target yellow aura.`,
     
     
     pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "blistering-assault-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD093",
+    name: "Blistering Assault",
+    printings: [{
+      
+      identifier: "DTD093",
+      image: "DTD093",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD093"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD093",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Action – Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `If you have a yellow card in your pitch zone, this gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    power: 3,
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Alief Rusdiatama"],
+    cardIdentifier: "defender-of-daybreak-red",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD094",
+    name: "Defender of Daybreak",
+    printings: [{
+      
+      identifier: "DTD094",
+      image: "DTD094",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD094"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD094",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Action – Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `When this defends a Shadow attack, non-equipment Light cards get +1{d} this combat chain.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
     power: 4,
     
     
@@ -3250,6 +3839,88 @@ Destroy target yellow aura.`,
     talents: [Talent.Light],
     
   },{
+    artists: ["Alief Rusdiatama"],
+    cardIdentifier: "defender-of-daybreak-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD096",
+    name: "Defender of Daybreak",
+    printings: [{
+      
+      identifier: "DTD096",
+      image: "DTD096",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD096"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD096",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Action – Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `When this defends a Shadow attack, non-equipment Light cards get +1{d} this combat chain.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 2,
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Edward Chee"],
+    cardIdentifier: "searing-ray-red",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD097",
+    name: "Searing Ray",
+    printings: [{
+      
+      identifier: "DTD097",
+      image: "DTD097",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD097"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD097",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Action – Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `If you have a yellow card in your pitch zone, this gets +2{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
     artists: ["Edward Chee"],
     cardIdentifier: "searing-ray-yellow",
     classes: [Class.NotClassed],
@@ -3291,6 +3962,88 @@ Destroy target yellow aura.`,
     talents: [Talent.Light],
     
   },{
+    artists: ["Edward Chee"],
+    cardIdentifier: "searing-ray-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD099",
+    name: "Searing Ray",
+    printings: [{
+      
+      identifier: "DTD099",
+      image: "DTD099",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD099"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD099",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Action – Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `If you have a yellow card in your pitch zone, this gets +2{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 2,
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "break-of-dawn-red",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD100",
+    name: "Break of Dawn",
+    printings: [{
+      
+      identifier: "DTD100",
+      image: "DTD100",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD100"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD100",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Light Instant",
+
+    cost: 0,
+    
+    functionalText: `The next time a Shadow source would deal damage this turn, prevent 4 of that damage.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "break-of-dawn-yellow",
     classes: [Class.NotClassed],
@@ -3323,6 +4076,47 @@ Destroy target yellow aura.`,
     
     
     pitch: 2,
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "break-of-dawn-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD102",
+    name: "Break of Dawn",
+    printings: [{
+      
+      identifier: "DTD102",
+      image: "DTD102",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD102"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD102",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Light Instant",
+
+    cost: 0,
+    
+    functionalText: `The next time a Shadow source would deal damage this turn, prevent 2 of that damage.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
     
     
     
@@ -3682,6 +4476,92 @@ Your Brute and Shadow attacks get +X{p} this turn, where X is the number of card
     talents: [Talent.Shadow],
     
   },{
+    artists: ["Phu Thieu"],
+    cardIdentifier: "ram-raider-yellow",
+    classes: [Class.Brute],
+    defaultImage: "DTD113",
+    name: "Ram Raider",
+    printings: [{
+      
+      identifier: "DTD113",
+      image: "DTD113",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD113"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD113",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action – Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `As an additional cost to play this, banish a random card from your hand. If a card with 6 or more {p} is banished this way, this gets **go again**.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Phu Thieu"],
+    cardIdentifier: "ram-raider-blue",
+    classes: [Class.Brute],
+    defaultImage: "DTD114",
+    name: "Ram Raider",
+    printings: [{
+      
+      identifier: "DTD114",
+      image: "DTD114",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD114"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD114",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action – Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `As an additional cost to play this, banish a random card from your hand. If a card with 6 or more {p} is banished this way, this gets **go again**.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
     artists: ["Shen Fei"],
     cardIdentifier: "wall-breaker-red",
     classes: [Class.Brute],
@@ -3717,6 +4597,92 @@ Your Brute and Shadow attacks get +X{p} this turn, where X is the number of card
     
     pitch: 1,
     power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "wall-breaker-yellow",
+    classes: [Class.Brute],
+    defaultImage: "DTD116",
+    name: "Wall Breaker",
+    printings: [{
+      
+      identifier: "DTD116",
+      image: "DTD116",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD116"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD116",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action – Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `If you’ve banished a card with 6 or more {p} this turn, this gets **overpower**.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.Overpower],
+    
+    
+    pitch: 2,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "wall-breaker-blue",
+    classes: [Class.Brute],
+    defaultImage: "DTD117",
+    name: "Wall Breaker",
+    printings: [{
+      
+      identifier: "DTD117",
+      image: "DTD117",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD117"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD117",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action – Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `If you’ve banished a card with 6 or more {p} this turn, this gets **overpower**.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.Overpower],
+    
+    
+    pitch: 3,
+    power: 4,
     restrictedFormats: [Format.Commoner],
     
     
@@ -3770,6 +4736,96 @@ Your next next Brute or Shadow attack this turn gets +5{p}.
     talents: [Talent.Shadow],
     
   },{
+    artists: ["Marco González"],
+    cardIdentifier: "shaden-scream-yellow",
+    classes: [Class.Brute],
+    defaultImage: "DTD119",
+    name: "Shaden Scream",
+    printings: [{
+      
+      identifier: "DTD119",
+      image: "DTD119",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD119"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD119",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `As an additional cost to play this, banish a random card from your hand.
+
+Your next next Brute or Shadow attack this turn gets +4{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "shaden-scream-blue",
+    classes: [Class.Brute],
+    defaultImage: "DTD120",
+    name: "Shaden Scream",
+    printings: [{
+      
+      identifier: "DTD120",
+      image: "DTD120",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD120"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD120",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `As an additional cost to play this, banish a random card from your hand.
+
+Your next next Brute or Shadow attack this turn gets +3{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
     artists: ["Tomasz Jedruszek"],
     cardIdentifier: "battlefield-breaker-red",
     classes: [Class.Brute],
@@ -3805,6 +4861,221 @@ Your next next Brute or Shadow attack this turn gets +5{p}.
     
     pitch: 1,
     power: 7,
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "battlefield-breaker-yellow",
+    classes: [Class.Brute],
+    defaultImage: "DTD122",
+    name: "Battlefield Breaker",
+    printings: [{
+      
+      identifier: "DTD122",
+      image: "DTD122",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD122"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD122",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action – Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `If you’ve banished a card with 6 or more {p} this turn, this gets +1{p}.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    pitch: 2,
+    power: 6,
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "battlefield-breaker-blue",
+    classes: [Class.Brute],
+    defaultImage: "DTD123",
+    name: "Battlefield Breaker",
+    printings: [{
+      
+      identifier: "DTD123",
+      image: "DTD123",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD123"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD123",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action – Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `If you’ve banished a card with 6 or more {p} this turn, this gets +1{p}.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    pitch: 3,
+    power: 5,
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Kimberly Pantoni"],
+    cardIdentifier: "shaden-swing-red",
+    classes: [Class.Brute],
+    defaultImage: "DTD124",
+    name: "Shaden Swing",
+    printings: [{
+      
+      identifier: "DTD124",
+      image: "DTD124",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD124"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD124",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action – Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `As an additional cost to play this, banish a random card from your hand.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    pitch: 1,
+    power: 7,
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Kimberly Pantoni"],
+    cardIdentifier: "shaden-swing-yellow",
+    classes: [Class.Brute],
+    defaultImage: "DTD125",
+    name: "Shaden Swing",
+    printings: [{
+      
+      identifier: "DTD125",
+      image: "DTD125",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD125"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD125",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action – Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `As an additional cost to play this, banish a random card from your hand.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    pitch: 2,
+    power: 6,
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Kimberly Pantoni"],
+    cardIdentifier: "shaden-swing-blue",
+    classes: [Class.Brute],
+    defaultImage: "DTD126",
+    name: "Shaden Swing",
+    printings: [{
+      
+      identifier: "DTD126",
+      image: "DTD126",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD126"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD126",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action – Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `As an additional cost to play this, banish a random card from your hand.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    pitch: 3,
+    power: 5,
     
     
     
@@ -3856,6 +5127,92 @@ Your next next Brute or Shadow attack this turn gets +5{p}.
     talents: [Talent.Shadow],
     
   },{
+    artists: ["Anastasia Balakchina"],
+    cardIdentifier: "tribute-to-demolition-yellow",
+    classes: [Class.Brute],
+    defaultImage: "DTD128",
+    name: "Tribute to Demolition",
+    printings: [{
+      
+      identifier: "DTD128",
+      image: "DTD128",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD128"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD128",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action – Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `As an additional cost to play this, banish a random card from your hand. If a card with 6 or more {p} is banished this way, this gets +2{p}.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    pitch: 2,
+    power: 5,
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Anastasia Balakchina"],
+    cardIdentifier: "tribute-to-demolition-blue",
+    classes: [Class.Brute],
+    defaultImage: "DTD129",
+    name: "Tribute to Demolition",
+    printings: [{
+      
+      identifier: "DTD129",
+      image: "DTD129",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD129"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD129",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action – Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `As an additional cost to play this, banish a random card from your hand. If a card with 6 or more {p} is banished this way, this gets +2{p}.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    pitch: 3,
+    power: 4,
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
     artists: ["Sandeep Karunakaran"],
     cardIdentifier: "tribute-to-the-legions-of-doom-red",
     classes: [Class.Brute],
@@ -3891,6 +5248,92 @@ Your next next Brute or Shadow attack this turn gets +5{p}.
     
     pitch: 1,
     power: 7,
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Sandeep Karunakaran"],
+    cardIdentifier: "tribute-to-the-legions-of-doom-yellow",
+    classes: [Class.Brute],
+    defaultImage: "DTD131",
+    name: "Tribute to the Legions of Doom",
+    printings: [{
+      
+      identifier: "DTD131",
+      image: "DTD131",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD131"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD131",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action – Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `As an additional cost to play this, banish a random card from your hand. If a card with 6 or more {p} is banished this way, this gets +2{p}.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    pitch: 2,
+    power: 6,
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Sandeep Karunakaran"],
+    cardIdentifier: "tribute-to-the-legions-of-doom-blue",
+    classes: [Class.Brute],
+    defaultImage: "DTD132",
+    name: "Tribute to the Legions of Doom",
+    printings: [{
+      
+      identifier: "DTD132",
+      image: "DTD132",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD132"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD132",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action – Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `As an additional cost to play this, banish a random card from your hand. If a card with 6 or more {p} is banished this way, this gets +2{p}.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    pitch: 3,
+    power: 5,
     
     
     
@@ -4402,6 +5845,96 @@ When the combat chain closes, gain {l} equal to the number of heroes who have lo
     talents: [Talent.Shadow],
     
   },{
+    artists: ["Sam Yang"],
+    cardIdentifier: "deathly-delight-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "DTD144",
+    name: "Deathly Delight",
+    printings: [{
+      
+      identifier: "DTD144",
+      image: "DTD144",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD144"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD144",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action – Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Rune Gate**
+
+When the combat chain closes, gain {l} equal to the number of heroes who have lost {l} this turn.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.RuneGate,Keyword.BloodDebt],
+    
+    
+    pitch: 2,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Sam Yang"],
+    cardIdentifier: "deathly-delight-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "DTD145",
+    name: "Deathly Delight",
+    printings: [{
+      
+      identifier: "DTD145",
+      image: "DTD145",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD145"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD145",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action – Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Rune Gate**
+
+When the combat chain closes, gain {l} equal to the number of heroes who have lost {l} this turn.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.RuneGate,Keyword.BloodDebt],
+    
+    
+    pitch: 3,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
     artists: ["Marco González"],
     cardIdentifier: "deathly-wail-red",
     classes: [Class.Runeblade],
@@ -4438,6 +5971,96 @@ When the combat chain closes, create Runechant tokens equal to the number of her
     
     
     pitch: 1,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "deathly-wail-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "DTD147",
+    name: "Deathly Wail",
+    printings: [{
+      
+      identifier: "DTD147",
+      image: "DTD147",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD147"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD147",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action – Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Rune Gate**
+
+When the combat chain closes, create Runechant tokens equal to the number of heroes who have lost {l} this turn.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.RuneGate,Keyword.BloodDebt],
+    
+    
+    pitch: 2,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "deathly-wail-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "DTD148",
+    name: "Deathly Wail",
+    printings: [{
+      
+      identifier: "DTD148",
+      image: "DTD148",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD148"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD148",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action – Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Rune Gate**
+
+When the combat chain closes, create Runechant tokens equal to the number of heroes who have lost {l} this turn.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.RuneGate,Keyword.BloodDebt],
+    
+    
+    pitch: 3,
     power: 6,
     restrictedFormats: [Format.Commoner],
     
@@ -4492,6 +6115,96 @@ The next attack action card you **rune gate** this turn gets +3{p}.
     talents: [Talent.Shadow],
     
   },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "envelop-in-darkness-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "DTD150",
+    name: "Envelop in Darkness",
+    printings: [{
+      
+      identifier: "DTD150",
+      image: "DTD150",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD150"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD150",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action ",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Create a Runechant token.
+
+The next attack action card you **rune gate** this turn gets +2{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "envelop-in-darkness-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "DTD151",
+    name: "Envelop in Darkness",
+    printings: [{
+      
+      identifier: "DTD151",
+      image: "DTD151",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD151"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD151",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action ",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Create a Runechant token.
+
+The next attack action card you **rune gate** this turn gets +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "rift-skitter-red",
     classes: [Class.Runeblade],
@@ -4529,6 +6242,243 @@ The next attack action card you **rune gate** this turn gets +3{p}.
     
     pitch: 1,
     power: 4,
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "rift-skitter-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "DTD153",
+    name: "Rift Skitter",
+    printings: [{
+      
+      identifier: "DTD153",
+      image: "DTD153",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD153"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD153",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action – Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Rune Gate**
+
+**Go again**
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.RuneGate,Keyword.GoAgain,Keyword.BloodDebt],
+    
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "rift-skitter-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "DTD154",
+    name: "Rift Skitter",
+    printings: [{
+      
+      identifier: "DTD154",
+      image: "DTD154",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD154"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD154",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action – Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Rune Gate**
+
+**Go again**
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.RuneGate,Keyword.GoAgain,Keyword.BloodDebt],
+    
+    
+    pitch: 3,
+    power: 2,
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "vantom-banshee-red",
+    classes: [Class.Runeblade],
+    defaultImage: "DTD155",
+    name: "Vantom Banshee",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS157",
+      image: "LGS157",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      
+      identifier: "DTD155",
+      image: "DTD155",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["LGS157","DTD155"],
+    sets: [Release.Promos,Release.DuskTillDawn],
+    specialImage: "LGS157",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Rune Gate**
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.RuneGate,Keyword.BloodDebt],
+    
+    
+    pitch: 1,
+    power: 7,
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "vantom-banshee-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "DTD156",
+    name: "Vantom Banshee",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS158",
+      image: "LGS158",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      
+      identifier: "DTD156",
+      image: "DTD156",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["LGS158","DTD156"],
+    sets: [Release.Promos,Release.DuskTillDawn],
+    specialImage: "LGS158",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Rune Gate**
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.RuneGate,Keyword.BloodDebt],
+    
+    
+    pitch: 2,
+    power: 6,
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "vantom-banshee-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "DTD157",
+    name: "Vantom Banshee",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS159",
+      image: "LGS159",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      
+      identifier: "DTD157",
+      image: "DTD157",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["LGS159","DTD157"],
+    sets: [Release.Promos,Release.DuskTillDawn],
+    specialImage: "LGS159",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Rune Gate**
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.RuneGate,Keyword.BloodDebt],
+    
+    
+    pitch: 3,
+    power: 5,
     
     
     
@@ -4580,6 +6530,92 @@ The next attack action card you **rune gate** this turn gets +3{p}.
     talents: [Talent.Shadow],
     
   },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "vantom-wraith-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "DTD159",
+    name: "Vantom Wraith",
+    printings: [{
+      
+      identifier: "DTD159",
+      image: "DTD159",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD159"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD159",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Rune Gate**
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.RuneGate,Keyword.BloodDebt],
+    
+    
+    pitch: 2,
+    power: 5,
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "vantom-wraith-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "DTD160",
+    name: "Vantom Wraith",
+    printings: [{
+      
+      identifier: "DTD160",
+      image: "DTD160",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD160"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD160",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Rune Gate**
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.RuneGate,Keyword.BloodDebt],
+    
+    
+    pitch: 3,
+    power: 4,
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
     artists: ["Marco González"],
     cardIdentifier: "putrid-stirrings-red",
     classes: [Class.Runeblade],
@@ -4618,6 +6654,100 @@ The next attack action card you **rune gate** this turn gets +5{p}.
     
     
     pitch: 1,
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "putrid-stirrings-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "DTD162",
+    name: "Putrid Stirrings",
+    printings: [{
+      
+      identifier: "DTD162",
+      image: "DTD162",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD162"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD162",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action ",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `You may play this from your banished zone.
+
+The next attack action card you **rune gate** this turn gets +4{p}.
+
+**Go again**
+
+**Blood debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain,Keyword.RuneGate],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "putrid-stirrings-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "DTD163",
+    name: "Putrid Stirrings",
+    printings: [{
+      
+      identifier: "DTD163",
+      image: "DTD163",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD163"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD163",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action ",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `You may play this from your banished zone.
+
+The next attack action card you **rune gate** this turn gets +3{p}.
+
+**Go again**
+
+**Blood debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain,Keyword.RuneGate],
+    
+    
+    pitch: 3,
     
     
     
@@ -5069,6 +7199,96 @@ When this hits a hero, banish a card from their soul.
     talents: [Talent.Shadow],
     
   },{
+    artists: ["Simon Dominic"],
+    cardIdentifier: "hungering-demigon-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD173",
+    name: "Hungering Demigon",
+    printings: [{
+      
+      identifier: "DTD173",
+      image: "DTD173",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD173"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD173",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action – Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `If an opposing hero has 1 or more cards in their soul, you may play this from your banished zone.
+
+When this hits a hero, banish a card from their soul.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    pitch: 2,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Simon Dominic"],
+    cardIdentifier: "hungering-demigon-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD174",
+    name: "Hungering Demigon",
+    printings: [{
+      
+      identifier: "DTD174",
+      image: "DTD174",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD174"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD174",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action – Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `If an opposing hero has 1 or more cards in their soul, you may play this from your banished zone.
+
+When this hits a hero, banish a card from their soul.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    pitch: 3,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
     artists: ["Ausonia"],
     cardIdentifier: "grim-feast-red",
     classes: [Class.NotClassed],
@@ -5105,6 +7325,186 @@ Gain 3{l}
     
     
     pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Ausonia"],
+    cardIdentifier: "grim-feast-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD176",
+    name: "Grim Feast",
+    printings: [{
+      
+      identifier: "DTD176",
+      image: "DTD176",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD176"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD176",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Action",
+
+    cost: 3,
+    defense: 2,
+    functionalText: `You may play this from your banished zone. If you do, it costs {r}{r} less to play.
+
+Gain 2{l}
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Ausonia"],
+    cardIdentifier: "grim-feast-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD177",
+    name: "Grim Feast",
+    printings: [{
+      
+      identifier: "DTD177",
+      image: "DTD177",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD177"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD177",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Action",
+
+    cost: 3,
+    defense: 2,
+    functionalText: `You may play this from your banished zone. If you do, it costs {r}{r} less to play.
+
+Gain 1{l}
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Kyxarie Peralta"],
+    cardIdentifier: "vile-inquisition-red",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD178",
+    name: "Vile Inquisition",
+    printings: [{
+      
+      identifier: "DTD178",
+      image: "DTD178",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD178"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD178",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Action",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `You may play this from your banished zone. If you do, it costs {r}{r} less to play.
+
+Target hero banishes the top card of their deck. If it’s red, they lost 1{g}.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Kyxarie Peralta"],
+    cardIdentifier: "vile-inquisition-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD179",
+    name: "Vile Inquisition",
+    printings: [{
+      
+      identifier: "DTD179",
+      image: "DTD179",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD179"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD179",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Action",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `You may play this from your banished zone. If you do, it costs {r}{r} less to play.
+
+Target hero banishes the top card of their deck. If it’s yellow, they lost 1{g}.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    pitch: 2,
     
     restrictedFormats: [Format.Commoner],
     
@@ -5202,6 +7602,92 @@ Target hero banishes the top card of their deck. If it’s blue, they lost 1{g}.
     talents: [Talent.Shadow],
     
   },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "soul-butcher-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD182",
+    name: "Soul Butcher",
+    printings: [{
+      
+      identifier: "DTD182",
+      image: "DTD182",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD182"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD182",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action – Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `If the defending hero has 1 or more cards in their soul, this gets +2{p}.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    pitch: 2,
+    power: 5,
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "soul-butcher-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD183",
+    name: "Soul Butcher",
+    printings: [{
+      
+      identifier: "DTD183",
+      image: "DTD183",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD183"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD183",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action – Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `If the defending hero has 1 or more cards in their soul, this gets +2{p}.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    pitch: 3,
+    power: 4,
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
     artists: ["Marcus Reyno"],
     cardIdentifier: "soul-cleaver-red",
     classes: [Class.NotClassed],
@@ -5236,6 +7722,92 @@ Target hero banishes the top card of their deck. If it’s blue, they lost 1{g}.
     
     
     pitch: 1,
+    power: 6,
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Marcus Reyno"],
+    cardIdentifier: "soul-cleaver-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD185",
+    name: "Soul Cleaver",
+    printings: [{
+      
+      identifier: "DTD185",
+      image: "DTD185",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD185"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD185",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action – Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `If the defending hero has 1 or more cards in their soul, this gets **go again**.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    power: 6,
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Marcus Reyno"],
+    cardIdentifier: "soul-cleaver-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD186",
+    name: "Soul Cleaver",
+    printings: [{
+      
+      identifier: "DTD186",
+      image: "DTD186",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD186"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD186",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action – Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `If the defending hero has 1 or more cards in their soul, this gets **go again**.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    
+    
+    pitch: 3,
     power: 6,
     
     
@@ -5288,6 +7860,92 @@ Target hero banishes the top card of their deck. If it’s blue, they lost 1{g}.
     talents: [Talent.Shadow],
     
   },{
+    artists: ["Marco González"],
+    cardIdentifier: "beseech-the-demigon-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD188",
+    name: "Beseech the Demigon",
+    printings: [{
+      
+      identifier: "DTD188",
+      image: "DTD188",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD188"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD188",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `Choose an attack action card in your banished zone. It gets +2{p} until end of turn.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "beseech-the-demigon-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD189",
+    name: "Beseech the Demigon",
+    printings: [{
+      
+      identifier: "DTD189",
+      image: "DTD189",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD189"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD189",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `Choose an attack action card in your banished zone. It gets +1{p} until end of turn.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "tear-through-the-portal-red",
     classes: [Class.NotClassed],
@@ -5322,6 +7980,92 @@ Target hero banishes the top card of their deck. If it’s blue, they lost 1{g}.
     
     
     pitch: 1,
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Mateusz Wisniewski"],
+    cardIdentifier: "tear-through-the-portal-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD191",
+    name: "Tear Through the Portal",
+    printings: [{
+      
+      identifier: "DTD191",
+      image: "DTD191",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD191"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD191",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `Choose a yellow action card in your banished zone. It gets **go again** until end of turn.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Mateusz Wisniewski"],
+    cardIdentifier: "tear-through-the-portal-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD192",
+    name: "Tear Through the Portal",
+    printings: [{
+      
+      identifier: "DTD192",
+      image: "DTD192",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD192"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD192",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `Choose a blue action card in your banished zone. It gets **go again** until end of turn.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
     
     
     
@@ -6328,6 +9072,47 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
     
     
   },{
+    artists: [],
+    cardIdentifier: "censor-red",
+    classes: [Class.Generic],
+    defaultImage: "DTD226",
+    name: "Censor",
+    printings: [{
+      
+      identifier: "DTD226",
+      image: "DTD226",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD226"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD226",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action – Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `When this hits a hero, name a card. They can’t play the named card until the end of their next turn.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Tomasz Jedruszek"],
     cardIdentifier: "hold-the-line-blue",
     classes: [Class.Generic],
@@ -6439,6 +9224,53 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Othon Nikolaidis"],
+    cardIdentifier: "eloquence",
+    classes: [Class.Generic],
+    defaultImage: "DTD233",
+    name: "Eloquence",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "FAB154",
+      image: "FAB154",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "DTD233",
+      image: "DTD233",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["FAB154","DTD233"],
+    sets: [Release.Promos,Release.DuskTillDawn],
+    specialImage: "FAB154",
+    subtypes: [Subtype.Aura],
+    types: [Type.Token],
+    typeText: "Generic Token - Aura",
+
+    
+    
+    functionalText: `When you play a non-attack action card, destroy this and the card gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
     
     
     
@@ -31387,7 +34219,8 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     specializations: [Hero.Kano],
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Yolanda Felicia"],
     cardIdentifier: "tome-of-aetherwind-red",
     classes: [Class.Wizard],
@@ -34577,8 +37410,7 @@ At the beginning of your end phase, destroy Enchanting Melody unless you have pl
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Immanuela Crovius"],
     cardIdentifier: "plunder-run-red",
     classes: [Class.Generic],
@@ -68188,7 +71020,8 @@ While Yinti Yanti is defending and you control an aura, it has +1{d}.`,
     
     
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Oliver Morit"],
     cardIdentifier: "warmongers-recital-yellow",
     classes: [Class.Generic],
@@ -70132,8 +72965,7 @@ If Mulch was **fused**, it gains "If this hits a hero, put a card from their ars
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Arif Wijaya"],
     cardIdentifier: "snow-under-red",
     classes: [Class.Guardian],
@@ -100116,7 +102948,8 @@ Draw 2 cards.`,
     
     talents: [Talent.Draconic],
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Faizal Fikri"],
     cardIdentifier: "lava-burst-red",
     classes: [Class.NotClassed],
@@ -100948,8 +103781,7 @@ Deal 4 arcane damage to any target. If Aether Icevein was **fused** and deals da
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Rio Sabda"],
     cardIdentifier: "aether-icevein-blue",
     classes: [Class.Wizard],

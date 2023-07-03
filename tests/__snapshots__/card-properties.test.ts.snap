@@ -3690,7 +3690,7 @@ exports[`Check for unintentional updates Angelic Wrath (angelic-wrath-blue) vs s
     "Illusionist",
   ],
   "cost": 0,
-  "defaultImage": "LGS163",
+  "defaultImage": "DTD037",
   "functionalText": "Target attack action card with Herald in its name gets +2{p}",
   "name": "Angelic Wrath",
   "pitch": 3,
@@ -3702,13 +3702,20 @@ exports[`Check for unintentional updates Angelic Wrath (angelic-wrath-blue) vs s
       "set": "Promos",
       "treatment": "Extended Art",
     },
+    {
+      "identifier": "DTD037",
+      "image": "DTD037",
+      "set": "Dusk till Dawn",
+    },
   ],
   "rarities": [
     "Promo",
+    "Common",
   ],
-  "rarity": "Promo",
+  "rarity": "Common",
   "setIdentifiers": [
     "LGS163",
+    "DTD037",
   ],
   "sets": [
     "Promos",
@@ -3736,7 +3743,7 @@ exports[`Check for unintentional updates Angelic Wrath (angelic-wrath-red) vs sn
     "Illusionist",
   ],
   "cost": 0,
-  "defaultImage": "LGS161",
+  "defaultImage": "DTD035",
   "functionalText": "Target attack action card with Herald in its name gets +4{p}",
   "name": "Angelic Wrath",
   "pitch": 1,
@@ -3748,13 +3755,20 @@ exports[`Check for unintentional updates Angelic Wrath (angelic-wrath-red) vs sn
       "set": "Promos",
       "treatment": "Extended Art",
     },
+    {
+      "identifier": "DTD035",
+      "image": "DTD035",
+      "set": "Dusk till Dawn",
+    },
   ],
   "rarities": [
     "Promo",
+    "Common",
   ],
-  "rarity": "Promo",
+  "rarity": "Common",
   "setIdentifiers": [
     "LGS161",
+    "DTD035",
   ],
   "sets": [
     "Promos",
@@ -3782,7 +3796,7 @@ exports[`Check for unintentional updates Angelic Wrath (angelic-wrath-yellow) vs
     "Illusionist",
   ],
   "cost": 0,
-  "defaultImage": "LGS162",
+  "defaultImage": "DTD036",
   "functionalText": "Target attack action card with Herald in its name gets +3{p}",
   "name": "Angelic Wrath",
   "pitch": 2,
@@ -3794,13 +3808,20 @@ exports[`Check for unintentional updates Angelic Wrath (angelic-wrath-yellow) vs
       "set": "Promos",
       "treatment": "Extended Art",
     },
+    {
+      "identifier": "DTD036",
+      "image": "DTD036",
+      "set": "Dusk till Dawn",
+    },
   ],
   "rarities": [
     "Promo",
+    "Common",
   ],
-  "rarity": "Promo",
+  "rarity": "Common",
   "setIdentifiers": [
     "LGS162",
+    "DTD036",
   ],
   "sets": [
     "Promos",
@@ -7371,7 +7392,7 @@ exports[`Check for unintentional updates Banneret of Courage (banneret-of-courag
     "Warrior",
   ],
   "cost": 1,
-  "defaultImage": "FAB161",
+  "defaultImage": "DTD048",
   "defense": 3,
   "functionalText": "**Solflare** - When this is **charged** to your hero's soul, create a Courage token.",
   "keywords": [
@@ -7389,13 +7410,23 @@ exports[`Check for unintentional updates Banneret of Courage (banneret-of-courag
       "set": "Promos",
       "treatment": "Extended Art",
     },
+    {
+      "identifier": "DTD048",
+      "image": "DTD048",
+      "set": "Dusk till Dawn",
+    },
   ],
   "rarities": [
     "Promo",
+    "Majestic",
   ],
-  "rarity": "Promo",
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
   "setIdentifiers": [
     "FAB161",
+    "DTD048",
   ],
   "sets": [
     "Promos",
@@ -7425,7 +7456,7 @@ exports[`Check for unintentional updates Banneret of Gallantry (banneret-of-gall
     "Warrior",
   ],
   "cost": 1,
-  "defaultImage": "FAB162",
+  "defaultImage": "DTD049",
   "defense": 3,
   "functionalText": "**Solflare** - When this is **charged** to your hero's soul, create a Quicken token.",
   "keywords": [
@@ -7443,13 +7474,23 @@ exports[`Check for unintentional updates Banneret of Gallantry (banneret-of-gall
       "set": "Promos",
       "treatment": "Extended Art",
     },
+    {
+      "identifier": "DTD049",
+      "image": "DTD049",
+      "set": "Dusk till Dawn",
+    },
   ],
   "rarities": [
     "Promo",
+    "Majestic",
   ],
-  "rarity": "Promo",
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
   "setIdentifiers": [
     "FAB162",
+    "DTD049",
   ],
   "sets": [
     "Promos",
@@ -7479,7 +7520,7 @@ exports[`Check for unintentional updates Banneret of Protection (banneret-of-pro
     "Warrior",
   ],
   "cost": 1,
-  "defaultImage": "FAB163",
+  "defaultImage": "DTD050",
   "defense": 3,
   "functionalText": "**Solflare** - When this is **charged** to your hero's soul, create a Spellbane Aegis token.",
   "keywords": [
@@ -7497,13 +7538,23 @@ exports[`Check for unintentional updates Banneret of Protection (banneret-of-pro
       "set": "Promos",
       "treatment": "Extended Art",
     },
+    {
+      "identifier": "DTD050",
+      "image": "DTD050",
+      "set": "Dusk till Dawn",
+    },
   ],
   "rarities": [
     "Promo",
+    "Majestic",
   ],
-  "rarity": "Promo",
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
   "setIdentifiers": [
     "FAB163",
+    "DTD050",
   ],
   "sets": [
     "Promos",
@@ -14753,7 +14804,7 @@ exports[`Check for unintentional updates Blistering Assault (blistering-assault-
   "talents": [
     "Light",
   ],
-  "typeText": "Light Action – Attach",
+  "typeText": "Light Action – Attack",
   "types": [
     "Action",
   ],
@@ -34818,6 +34869,60 @@ Reveal the top card of your deck. If it's a Runeblade card, deal 1 arcane damage
 }
 `;
 
+exports[`Check for unintentional updates Dimenxxional Vortex (dimenxxional-vortex) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mark Poole",
+  ],
+  "cardIdentifier": "dimenxxional-vortex",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 3,
+  "defaultImage": "DTD171",
+  "functionalText": "You may play this from your banished zone. If you do, it costs {r}{r} less to play.
+
+Each hero banishes a card from their arsenal.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Dimenxxional Vortex",
+  "printings": [
+    {
+      "identifier": "DTD171",
+      "image": "DTD171",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD171",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD171",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Disable (disable-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -39795,7 +39900,7 @@ exports[`Check for unintentional updates Eloquence (eloquence) vs snapshot 1`] =
   "classes": [
     "Generic",
   ],
-  "defaultImage": "FAB154",
+  "defaultImage": "DTD233",
   "functionalText": "When you play a non-attack action card, destroy this and the card gets **go again**.",
   "keywords": [
     "Go again",
@@ -39808,13 +39913,20 @@ exports[`Check for unintentional updates Eloquence (eloquence) vs snapshot 1`] =
       "image": "FAB154",
       "set": "Promos",
     },
+    {
+      "identifier": "DTD233",
+      "image": "DTD233",
+      "set": "Dusk till Dawn",
+    },
   ],
   "rarities": [
     "Promo",
+    "Common",
   ],
-  "rarity": "Promo",
+  "rarity": "Common",
   "setIdentifiers": [
     "FAB154",
+    "DTD233",
   ],
   "sets": [
     "Promos",
@@ -100064,6 +100176,64 @@ If Remorseless hits a hero, until the end of their next turn, whenever they play
 }
 `;
 
+exports[`Check for unintentional updates Requiem for the Damned (requiem-for-the-damned-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Othon Nikolaidis",
+  ],
+  "cardIdentifier": "requiem-for-the-damned-red",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD141",
+  "defense": 3,
+  "functionalText": "You may play this from your banished zone.
+
+If a hero has lost {l} this turn, you may play this as though it were an instant.
+
+Create an Eloquence token.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Requiem for the Damned",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "DTD141",
+      "image": "DTD141",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD141",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD141",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action ",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Resounding Courage (resounding-courage-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -140936,9 +141106,11 @@ exports[`Check for unintentional updates Vantom Banshee (vantom-banshee-blue) vs
     "Runeblade",
   ],
   "cost": 3,
-  "defaultImage": "LGS159",
+  "defaultImage": "DTD157",
   "defense": 3,
-  "functionalText": "**Rune Gate**  **Blood Debt**",
+  "functionalText": "**Rune Gate**
+
+**Blood Debt**",
   "keywords": [
     "Rune Gate",
     "Blood Debt",
@@ -140954,13 +141126,20 @@ exports[`Check for unintentional updates Vantom Banshee (vantom-banshee-blue) vs
       "set": "Promos",
       "treatment": "Extended Art",
     },
+    {
+      "identifier": "DTD157",
+      "image": "DTD157",
+      "set": "Dusk till Dawn",
+    },
   ],
   "rarities": [
     "Promo",
+    "Common",
   ],
-  "rarity": "Promo",
+  "rarity": "Common",
   "setIdentifiers": [
     "LGS159",
+    "DTD157",
   ],
   "sets": [
     "Promos",
@@ -140990,9 +141169,11 @@ exports[`Check for unintentional updates Vantom Banshee (vantom-banshee-red) vs 
     "Runeblade",
   ],
   "cost": 3,
-  "defaultImage": "LGS157",
+  "defaultImage": "DTD155",
   "defense": 3,
-  "functionalText": "**Rune Gate**  **Blood Debt**",
+  "functionalText": "**Rune Gate**
+
+**Blood Debt**",
   "keywords": [
     "Rune Gate",
     "Blood Debt",
@@ -141008,13 +141189,20 @@ exports[`Check for unintentional updates Vantom Banshee (vantom-banshee-red) vs 
       "set": "Promos",
       "treatment": "Extended Art",
     },
+    {
+      "identifier": "DTD155",
+      "image": "DTD155",
+      "set": "Dusk till Dawn",
+    },
   ],
   "rarities": [
     "Promo",
+    "Common",
   ],
-  "rarity": "Promo",
+  "rarity": "Common",
   "setIdentifiers": [
     "LGS157",
+    "DTD155",
   ],
   "sets": [
     "Promos",
@@ -141044,9 +141232,11 @@ exports[`Check for unintentional updates Vantom Banshee (vantom-banshee-yellow) 
     "Runeblade",
   ],
   "cost": 3,
-  "defaultImage": "LGS158",
+  "defaultImage": "DTD156",
   "defense": 3,
-  "functionalText": "**Rune Gate**  **Blood Debt**",
+  "functionalText": "**Rune Gate**
+
+**Blood Debt**",
   "keywords": [
     "Rune Gate",
     "Blood Debt",
@@ -141062,13 +141252,20 @@ exports[`Check for unintentional updates Vantom Banshee (vantom-banshee-yellow) 
       "set": "Promos",
       "treatment": "Extended Art",
     },
+    {
+      "identifier": "DTD156",
+      "image": "DTD156",
+      "set": "Dusk till Dawn",
+    },
   ],
   "rarities": [
     "Promo",
+    "Common",
   ],
-  "rarity": "Promo",
+  "rarity": "Common",
   "setIdentifiers": [
     "LGS158",
+    "DTD156",
   ],
   "sets": [
     "Promos",

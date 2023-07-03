@@ -65,10 +65,15 @@ describe("No cards should be removed", () => {
 
 describe("No duplicate identifiers", () => {
   it("Duplicate cardIdentifiers", () => {
+    const duplicates: string[] = [];
     const cardIdentifiers = new Set();
     for (const { cardIdentifier } of cardsToPublish) {
+      if (cardIdentifiers.has(cardIdentifier)) {
+        duplicates.push(cardIdentifier);
+      }
       cardIdentifiers.add(cardIdentifier);
     }
+    expect(duplicates).toEqual([]);
     expect(cardIdentifiers.size).toEqual(cardsToPublish.length);
   });
 
