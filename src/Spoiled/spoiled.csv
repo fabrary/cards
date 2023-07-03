@@ -339,7 +339,13 @@ If a hero has lost {l} this turn, you may play this as though it were an instant
 Create a Runechant token.
 
 **Blood Debt**",,Shadow Runeblade Action ,Carlos Cruchaga,,,,No,S – DTD140 – N,,/DTD140.png – DTD140 – N
-,DTD141,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD141,DTD,Requiem for the Damned,1,0,,3,,,M,"Shadow, Runeblade, Action",Blood Debt,,,,,,"You may play this from your banished zone.
+
+If a hero has lost {l} this turn, you may play this as though it were an instant.
+
+Create an Eloquence token.
+
+**Blood Debt**",,Shadow Runeblade Action ,Othon Nikolaidis,,,,No,S – DTD141 – N,,/DTD141.png – DTD141 – N
 ,DTD142,DTD,Oblivion,3,0,,,,,M,"Shadow, Runeblade, Instant","Legendary, Vynnset Specialization",,,,,,"**Legendary Vynnset Specialization**
 
 Play this only if you control exactly 6 Runechants.
@@ -422,7 +428,11 @@ At the start of your turn, destroy this unless you remove a doom counter from it
 If a hero would draw a card during their action phase, instead they banish the top card of their deck and may play it this turn.
 
 **Blood Debt**",,Shadow Action – Aura,Saad Irfan,,,,No,S – DTD170 – N,,/DTD170.png – DTD170 – N
-,DTD171,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD171,DTD,Dimenxxional Vortex,,3,,,,,M,"Shadow, Action",Blood Debt,,,,,,"You may play this from your banished zone. If you do, it costs {r}{r} less to play.
+
+Each hero banishes a card from their arsenal.
+
+**Blood Debt**",,Shadow Action,Mark Poole,,,,No,S – DTD171 – N,,/DTD171.png – DTD171 – N
 ,DTD172,DTD,Hungering Demigon,1,2,6,3,,,R,"Shadow, Action, Attack",Blood Debt,,,,,,"If an opposing hero has 1 or more cards in their soul, you may play this from your banished zone.
 
 When this hits a hero, banish a card from their soul.

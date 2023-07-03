@@ -481,6 +481,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/requiem-for-the-damned-red</loc>
+    <lastmod>2023-07-03</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/oblivion-blue</loc>
     <lastmod>2023-07-01</lastmod>
     <priority>0.5</priority>
@@ -553,6 +558,11 @@
   <url>
     <loc>https://fabrary.net/cards/chains-of-mephetis-blue</loc>
     <lastmod>2023-07-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/dimenxxional-vortex</loc>
+    <lastmod>2023-07-03</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

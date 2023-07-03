@@ -4265,6 +4265,53 @@ Create a Runechant token.
     talents: [Talent.Shadow],
     
   },{
+    artists: ["Othon Nikolaidis"],
+    cardIdentifier: "requiem-for-the-damned-red",
+    classes: [Class.Runeblade],
+    defaultImage: "DTD141",
+    name: "Requiem for the Damned",
+    printings: [{
+      
+      identifier: "DTD141",
+      image: "DTD141",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD141"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD141",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action ",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `You may play this from your banished zone.
+
+If a hero has lost {l} this turn, you may play this as though it were an instant.
+
+Create an Eloquence token.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "oblivion-blue",
     classes: [Class.Runeblade],
@@ -4923,6 +4970,51 @@ If a hero would draw a card during their action phase, instead they banish the t
     
     
     pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Mark Poole"],
+    cardIdentifier: "dimenxxional-vortex",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD171",
+    name: "Dimenxxional Vortex",
+    printings: [{
+      
+      identifier: "DTD171",
+      image: "DTD171",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD171"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD171",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Action",
+
+    cost: 3,
+    
+    functionalText: `You may play this from your banished zone. If you do, it costs {r}{r} less to play.
+
+Each hero banishes a card from their arsenal.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -34485,7 +34577,8 @@ At the beginning of your end phase, destroy Enchanting Melody unless you have pl
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Immanuela Crovius"],
     cardIdentifier: "plunder-run-red",
     classes: [Class.Generic],
@@ -34554,8 +34647,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Immanuela Crovius"],
     cardIdentifier: "plunder-run-yellow",
     classes: [Class.Generic],
@@ -70040,7 +70132,8 @@ If Mulch was **fused**, it gains "If this hits a hero, put a card from their ars
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Arif Wijaya"],
     cardIdentifier: "snow-under-red",
     classes: [Class.Guardian],
@@ -70107,8 +70200,7 @@ If Snow Under was **fused**, it gains "If this hits a hero, create a Frostbite t
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Arif Wijaya"],
     cardIdentifier: "snow-under-yellow",
     classes: [Class.Guardian],
@@ -100856,7 +100948,8 @@ Deal 4 arcane damage to any target. If Aether Icevein was **fused** and deals da
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Rio Sabda"],
     cardIdentifier: "aether-icevein-blue",
     classes: [Class.Wizard],
@@ -100905,8 +100998,7 @@ Deal 3 arcane damage to any target. If Aether Icevein was **fused** and deals da
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Riordan Delmiro"],
     cardIdentifier: "brain-freeze-red",
     classes: [Class.Wizard],

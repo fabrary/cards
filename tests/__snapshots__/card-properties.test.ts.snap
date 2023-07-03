@@ -31117,6 +31117,58 @@ exports[`Check for unintentional updates Cyclone Roundhouse (cyclone-roundhouse-
 }
 `;
 
+exports[`Check for unintentional updates Dabble in Darkness (dabble-in-darkness-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Henrique Lindner",
+  ],
+  "cardIdentifier": "dabble-in-darkness-red",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD169",
+  "defense": 3,
+  "functionalText": "When this attacks, banish the top card of your deck. This gets -X{p}, where X is the pitch value of the card banished this way.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Dabble in Darkness",
+  "pitch": 1,
+  "power": 5,
+  "printings": [
+    {
+      "identifier": "DTD169",
+      "image": "DTD169",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "setIdentifiers": [
+    "DTD169",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD169",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Dampen (dampen-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -38584,6 +38636,57 @@ exports[`Check for unintentional updates Dustup (dustup-yellow) vs snapshot 1`] 
   "typeText": "Draconic Illusionist Action – Attack",
   "types": [
     "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Dyadic Carapace (dyadic-carapace) vs snapshot 1`] = `
+{
+  "artists": [
+    "Ramza Ardyputra",
+  ],
+  "cardIdentifier": "dyadic-carapace",
+  "classes": [
+    "Runeblade",
+  ],
+  "defaultImage": "DTD211",
+  "defense": 2,
+  "functionalText": "**Arcane Barrier 2**
+
+**Temper**",
+  "keywords": [
+    "Arcane Barrier",
+    "Temper",
+  ],
+  "name": "Dyadic Carapace",
+  "printings": [
+    {
+      "foiling": "Cold",
+      "identifier": "DTD211",
+      "image": "DTD211",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Legendary",
+  ],
+  "rarity": "Legendary",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD211",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD211",
+  "subtypes": [
+    "Chest",
+  ],
+  "typeText": "Runeblade Equipment – Chest",
+  "types": [
+    "Equipment",
   ],
 }
 `;
@@ -57504,6 +57607,58 @@ exports[`Check for unintentional updates Helio's Mitre (helios-mitre) vs snapsho
   "typeText": "Generic Equipment – Head",
   "types": [
     "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Hell Hammer (hell-hammer) vs snapshot 1`] = `
+{
+  "artists": [
+    "Lizhe Liang",
+  ],
+  "cardIdentifier": "hell-hammer",
+  "classes": [
+    "Brute",
+  ],
+  "defaultImage": "DTD105",
+  "functionalText": "**Once per Turn Action – {r}{r}: Attack**
+
+When the combat chain closes, if this attacked, banish it.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Hell Hammer",
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "DTD105",
+      "image": "DTD105",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "DTD105",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD105",
+  "subtypes": [
+    "Hammer",
+    "2H",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Weapon – Hammer (2H)",
+  "types": [
+    "Weapon",
   ],
 }
 `;
