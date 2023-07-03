@@ -703,7 +703,11 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
 ,DTD227,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD228,DTD,Hold the Line,3,0,,2,,,M,"Generic, Defense Reaction",,,,,,,"If the attacking hero has drawn 2 or more cards this turn, prevent the next 3 damage that would be dealt to your hero this turn.",,Generic Defense Reaction,Tomasz Jedruszek,,,,No,S - DTD228 - N,,/DTD228.png – DTD228 – N
 ,DTD229,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD230,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD230,DTD,Warmonger’s Diplomacy,3,0,,3,,,M,"Generic, Action",,,,,,,"Starting with the hero to your left, each hero chooses war or peace.
+
+If they choose war, the only actions they may play or activate during their next turn are weapon and attack actions.
+
+If they choose peace, the only actions they may play or activate during their next turn are non-weapon non-attack actions.",,Generic Action,Carlos Cruchaga,,,,No,S – DTD230 – N,,/DTD230.png – DTD230 – N
 ,DTD231,DTD,Poison the Well,3,0,,,,,M,"Generic, Instant",,,,,,,"The next time a hero would gain {l} this turn, instead they lose that much {l}.",,Generic Instant,Mateusz Wisniewski,,,,No,S – DTD231 – N,,/DTD231.png – DTD231 – N
 ,DTD232,DTD,Courage,,,,,,,C,"Generic, Token, Aura",,,,,,,"When you play an attack action card or activate a weapon attack, destroy this and the attack gets +1{p}.",,Generic Token – Aura,Henrique Lindner,,,,,S - DTD232 - N,,/DTD232.png – DTD232 – N
 ,"FAB154, DTD233","FAB, DTD",Eloquence,,,,,,,"P, C","Generic, Token, Aura",,,,Go again,,,"When you play a non-attack action card, destroy this and the card gets **go again**.",,Generic Token - Aura,Othon Nikolaidis,,,,,"C - FAB154 – N, S – DTD233 – N",,"/FAB154.png – FAB154 – N – C, /DTD233.png – DTD233 – N"

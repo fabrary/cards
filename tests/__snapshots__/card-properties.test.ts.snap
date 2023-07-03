@@ -3635,6 +3635,96 @@ Draw a card.",
 }
 `;
 
+exports[`Check for unintentional updates Angelic Descent (angelic-descent-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Alief Rusdiatama",
+  ],
+  "cardIdentifier": "angelic-descent-blue",
+  "classes": [
+    "Illusionist",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD034",
+  "functionalText": "Target attack action card with Herald in its name gets go again.
+
+Your next angel attack this turn gets +1{p}.",
+  "name": "Angelic Descent",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "DTD034",
+      "image": "DTD034",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD034",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD034",
+  "subtypes": [],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Illusionist Instant",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Angelic Descent (angelic-descent-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Alief Rusdiatama",
+  ],
+  "cardIdentifier": "angelic-descent-red",
+  "classes": [
+    "Illusionist",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD032",
+  "functionalText": "Target attack action card with Herald in its name gets go again.
+
+Your next angel attack this turn gets +3{p}.",
+  "name": "Angelic Descent",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "DTD032",
+      "image": "DTD032",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD032",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD032",
+  "subtypes": [],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Illusionist Instant",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Angelic Descent (angelic-descent-yellow) vs snapshot 1`] = `
 {
   "artists": [
@@ -9128,6 +9218,58 @@ exports[`Check for unintentional updates Battlefield Blitz (battlefield-blitz-ye
 }
 `;
 
+exports[`Check for unintentional updates Battlefield Breaker (battlefield-breaker-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tomasz Jedruszek",
+  ],
+  "cardIdentifier": "battlefield-breaker-blue",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 3,
+  "defaultImage": "DTD123",
+  "defense": 3,
+  "functionalText": "If you’ve banished a card with 6 or more {p} this turn, this gets +1{p}.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Battlefield Breaker",
+  "pitch": 3,
+  "power": 5,
+  "printings": [
+    {
+      "identifier": "DTD123",
+      "image": "DTD123",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD123",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD123",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Battlefield Breaker (battlefield-breaker-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -9167,6 +9309,58 @@ exports[`Check for unintentional updates Battlefield Breaker (battlefield-breake
     "Dusk till Dawn",
   ],
   "specialImage": "DTD121",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Battlefield Breaker (battlefield-breaker-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tomasz Jedruszek",
+  ],
+  "cardIdentifier": "battlefield-breaker-yellow",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 3,
+  "defaultImage": "DTD122",
+  "defense": 3,
+  "functionalText": "If you’ve banished a card with 6 or more {p} this turn, this gets +1{p}.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Battlefield Breaker",
+  "pitch": 2,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "DTD122",
+      "image": "DTD122",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD122",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD122",
   "subtypes": [
     "Attack",
   ],
@@ -10486,6 +10680,57 @@ exports[`Check for unintentional updates Berserk (berserk-yellow) vs snapshot 1`
 }
 `;
 
+exports[`Check for unintentional updates Beseech the Demigon (beseech-the-demigon-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Marco González",
+  ],
+  "cardIdentifier": "beseech-the-demigon-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD189",
+  "defense": 2,
+  "functionalText": "Choose an attack action card in your banished zone. It gets +1{p} until end of turn.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Beseech the Demigon",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "DTD189",
+      "image": "DTD189",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD189",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD189",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Beseech the Demigon (beseech-the-demigon-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -10524,6 +10769,57 @@ exports[`Check for unintentional updates Beseech the Demigon (beseech-the-demigo
     "Dusk till Dawn",
   ],
   "specialImage": "DTD187",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Beseech the Demigon (beseech-the-demigon-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Marco González",
+  ],
+  "cardIdentifier": "beseech-the-demigon-yellow",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD188",
+  "defense": 2,
+  "functionalText": "Choose an attack action card in your banished zone. It gets +2{p} until end of turn.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Beseech the Demigon",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "DTD188",
+      "image": "DTD188",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD188",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD188",
   "subtypes": [
     "Non-Attack",
   ],
@@ -13770,6 +14066,57 @@ exports[`Check for unintentional updates Blessing of Qi (blessing-of-qi-yellow) 
 }
 `;
 
+exports[`Check for unintentional updates Blessing of Salvation (blessing-of-salvation-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Saad Irfan",
+  ],
+  "cardIdentifier": "blessing-of-salvation-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 1,
+  "defaultImage": "DTD087",
+  "defense": 2,
+  "functionalText": "If a card has been put into your hero’s soul this turn, you may play this as though it were an instant.
+
+Gain 1{l}",
+  "name": "Blessing of Salvation",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "DTD087",
+      "image": "DTD087",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD087",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD087",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Action ",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Blessing of Salvation (blessing-of-salvation-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -13808,6 +14155,57 @@ Gain 3{l}",
     "Dusk till Dawn",
   ],
   "specialImage": "DTD085",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Action ",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Blessing of Salvation (blessing-of-salvation-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Saad Irfan",
+  ],
+  "cardIdentifier": "blessing-of-salvation-yellow",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 1,
+  "defaultImage": "DTD086",
+  "defense": 2,
+  "functionalText": "If a card has been put into your hero’s soul this turn, you may play this as though it were an instant.
+
+Gain 2{l}",
+  "name": "Blessing of Salvation",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "DTD086",
+      "image": "DTD086",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD086",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD086",
   "subtypes": [
     "Non-Attack",
   ],
@@ -14757,6 +15155,106 @@ exports[`Check for unintentional updates Blink (blink-blue) vs snapshot 1`] = `
   "typeText": "Lightning Instant",
   "types": [
     "Instant",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Blistering Assault (blistering-assault-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Faizal Fikri",
+  ],
+  "cardIdentifier": "blistering-assault-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 2,
+  "defaultImage": "DTD093",
+  "defense": 2,
+  "functionalText": "If you have a yellow card in your pitch zone, this gets **go again**.",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Blistering Assault",
+  "pitch": 3,
+  "power": 3,
+  "printings": [
+    {
+      "identifier": "DTD093",
+      "image": "DTD093",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD093",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD093",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Blistering Assault (blistering-assault-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Faizal Fikri",
+  ],
+  "cardIdentifier": "blistering-assault-red",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 2,
+  "defaultImage": "DTD091",
+  "defense": 2,
+  "functionalText": "If you have a yellow card in your pitch zone, this gets **go again**.",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Blistering Assault",
+  "pitch": 1,
+  "power": 5,
+  "printings": [
+    {
+      "identifier": "DTD091",
+      "image": "DTD091",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD091",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD091",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Action – Attack",
+  "types": [
+    "Action",
   ],
 }
 `;
@@ -19337,6 +19835,92 @@ exports[`Check for unintentional updates Break Tide (break-tide-yellow) vs snaps
 }
 `;
 
+exports[`Check for unintentional updates Break of Dawn (break-of-dawn-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Nikolay Moskvin",
+  ],
+  "cardIdentifier": "break-of-dawn-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD102",
+  "functionalText": "The next time a Shadow source would deal damage this turn, prevent 2 of that damage.",
+  "name": "Break of Dawn",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "DTD102",
+      "image": "DTD102",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD102",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD102",
+  "subtypes": [],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Instant",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Break of Dawn (break-of-dawn-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Nikolay Moskvin",
+  ],
+  "cardIdentifier": "break-of-dawn-red",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD100",
+  "functionalText": "The next time a Shadow source would deal damage this turn, prevent 4 of that damage.",
+  "name": "Break of Dawn",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "DTD100",
+      "image": "DTD100",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD100",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD100",
+  "subtypes": [],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Instant",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Break of Dawn (break-of-dawn-yellow) vs snapshot 1`] = `
 {
   "artists": [
@@ -22713,6 +23297,92 @@ exports[`Check for unintentional updates Celestial Kimono (celestial-kimono) vs 
 }
 `;
 
+exports[`Check for unintentional updates Celestial Reprimand (celestial-reprimand-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Faizal Fikri",
+  ],
+  "cardIdentifier": "celestial-reprimand-blue",
+  "classes": [
+    "Illusionist",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD040",
+  "functionalText": "Target card defending an attack with Herald in its name gets -1{p} this combat chain.",
+  "name": "Celestial Reprimand",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "DTD040",
+      "image": "DTD040",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD040",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD040",
+  "subtypes": [],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Illusionist Instant",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Celestial Reprimand (celestial-reprimand-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Faizal Fikri",
+  ],
+  "cardIdentifier": "celestial-reprimand-red",
+  "classes": [
+    "Illusionist",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD038",
+  "functionalText": "Target card defending an attack with Herald in its name gets -3{p} this combat chain.",
+  "name": "Celestial Reprimand",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "DTD038",
+      "image": "DTD038",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD038",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD038",
+  "subtypes": [],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Illusionist Instant",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Celestial Reprimand (celestial-reprimand-yellow) vs snapshot 1`] = `
 {
   "artists": [
@@ -22745,6 +23415,92 @@ exports[`Check for unintentional updates Celestial Reprimand (celestial-repriman
     "Dusk till Dawn",
   ],
   "specialImage": "DTD039",
+  "subtypes": [],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Illusionist Instant",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Celestial Resolve (celestial-resolve-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Jen Santos",
+  ],
+  "cardIdentifier": "celestial-resolve-blue",
+  "classes": [
+    "Illusionist",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD043",
+  "functionalText": "Target attack action card with Herald in its name gets +3{d}.",
+  "name": "Celestial Resolve",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "DTD043",
+      "image": "DTD043",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD043",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD043",
+  "subtypes": [],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Illusionist Instant",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Celestial Resolve (celestial-resolve-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Jen Santos",
+  ],
+  "cardIdentifier": "celestial-resolve-red",
+  "classes": [
+    "Illusionist",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD041",
+  "functionalText": "Target attack action card with Herald in its name gets +5{d}.",
+  "name": "Celestial Resolve",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "DTD041",
+      "image": "DTD041",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD041",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD041",
   "subtypes": [],
   "talents": [
     "Light",
@@ -22795,6 +23551,51 @@ exports[`Check for unintentional updates Celestial Resolve (celestial-resolve-ye
   "typeText": "Light Illusionist Instant",
   "types": [
     "Instant",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Censor (censor-red) vs snapshot 1`] = `
+{
+  "artists": [],
+  "cardIdentifier": "censor-red",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 1,
+  "defaultImage": "DTD226",
+  "defense": 3,
+  "functionalText": "When this hits a hero, name a card. They can’t play the named card until the end of their next turn.",
+  "name": "Censor",
+  "pitch": 1,
+  "power": 5,
+  "printings": [
+    {
+      "identifier": "DTD226",
+      "image": "DTD226",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD226",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD226",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action – Attack",
+  "types": [
+    "Action",
   ],
 }
 `;
@@ -25004,6 +25805,108 @@ exports[`Check for unintentional updates Clarity Potion (clarity-potion-blue) vs
     "Non-Attack",
   ],
   "typeText": "Generic Action – Item",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Cleansing Light (cleansing-light-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mateusz Wisniewski",
+  ],
+  "cardIdentifier": "cleansing-light-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 3,
+  "defaultImage": "DTD090",
+  "defense": 2,
+  "functionalText": "If a card has been put into your hero’s soul this turn, you may play this as though it were an instant.
+
+Destroy target blue aura.",
+  "name": "Cleansing Light",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "DTD090",
+      "image": "DTD090",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD090",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD090",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Action ",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Cleansing Light (cleansing-light-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mateusz Wisniewski",
+  ],
+  "cardIdentifier": "cleansing-light-red",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 3,
+  "defaultImage": "DTD088",
+  "defense": 2,
+  "functionalText": "If a card has been put into your hero’s soul this turn, you may play this as though it were an instant.
+
+Destroy target red aura.",
+  "name": "Cleansing Light",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "DTD088",
+      "image": "DTD088",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD088",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD088",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Action ",
   "types": [
     "Action",
   ],
@@ -33034,6 +33937,64 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
 }
 `;
 
+exports[`Check for unintentional updates Deathly Delight (deathly-delight-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sam Yang",
+  ],
+  "cardIdentifier": "deathly-delight-blue",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 2,
+  "defaultImage": "DTD145",
+  "defense": 3,
+  "functionalText": "**Rune Gate**
+
+When the combat chain closes, gain {l} equal to the number of heroes who have lost {l} this turn.
+
+**Blood Debt**",
+  "keywords": [
+    "Rune Gate",
+    "Blood Debt",
+  ],
+  "name": "Deathly Delight",
+  "pitch": 3,
+  "power": 3,
+  "printings": [
+    {
+      "identifier": "DTD145",
+      "image": "DTD145",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD145",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD145",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Deathly Delight (deathly-delight-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -33079,6 +34040,64 @@ When the combat chain closes, gain {l} equal to the number of heroes who have lo
     "Dusk till Dawn",
   ],
   "specialImage": "DTD143",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Deathly Delight (deathly-delight-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sam Yang",
+  ],
+  "cardIdentifier": "deathly-delight-yellow",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 2,
+  "defaultImage": "DTD144",
+  "defense": 3,
+  "functionalText": "**Rune Gate**
+
+When the combat chain closes, gain {l} equal to the number of heroes who have lost {l} this turn.
+
+**Blood Debt**",
+  "keywords": [
+    "Rune Gate",
+    "Blood Debt",
+  ],
+  "name": "Deathly Delight",
+  "pitch": 2,
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "DTD144",
+      "image": "DTD144",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD144",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD144",
   "subtypes": [
     "Attack",
   ],
@@ -33251,6 +34270,64 @@ exports[`Check for unintentional updates Deathly Duet (deathly-duet-yellow) vs s
 }
 `;
 
+exports[`Check for unintentional updates Deathly Wail (deathly-wail-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Marco González",
+  ],
+  "cardIdentifier": "deathly-wail-blue",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 3,
+  "defaultImage": "DTD148",
+  "defense": 3,
+  "functionalText": "**Rune Gate**
+
+When the combat chain closes, create Runechant tokens equal to the number of heroes who have lost {l} this turn.
+
+**Blood Debt**",
+  "keywords": [
+    "Rune Gate",
+    "Blood Debt",
+  ],
+  "name": "Deathly Wail",
+  "pitch": 3,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "DTD148",
+      "image": "DTD148",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD148",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD148",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Deathly Wail (deathly-wail-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -33296,6 +34373,64 @@ When the combat chain closes, create Runechant tokens equal to the number of her
     "Dusk till Dawn",
   ],
   "specialImage": "DTD146",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Deathly Wail (deathly-wail-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Marco González",
+  ],
+  "cardIdentifier": "deathly-wail-yellow",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 3,
+  "defaultImage": "DTD147",
+  "defense": 3,
+  "functionalText": "**Rune Gate**
+
+When the combat chain closes, create Runechant tokens equal to the number of heroes who have lost {l} this turn.
+
+**Blood Debt**",
+  "keywords": [
+    "Rune Gate",
+    "Blood Debt",
+  ],
+  "name": "Deathly Wail",
+  "pitch": 2,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "DTD147",
+      "image": "DTD147",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD147",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD147",
   "subtypes": [
     "Attack",
   ],
@@ -33740,6 +34875,100 @@ exports[`Check for unintentional updates Deep Rooted Evil (deep-rooted-evil-yell
     "Shadow",
   ],
   "typeText": "Shadow Brute Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Defender of Daybreak (defender-of-daybreak-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Alief Rusdiatama",
+  ],
+  "cardIdentifier": "defender-of-daybreak-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD096",
+  "defense": 2,
+  "functionalText": "When this defends a Shadow attack, non-equipment Light cards get +1{d} this combat chain.",
+  "name": "Defender of Daybreak",
+  "pitch": 3,
+  "power": 2,
+  "printings": [
+    {
+      "identifier": "DTD096",
+      "image": "DTD096",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD096",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD096",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Defender of Daybreak (defender-of-daybreak-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Alief Rusdiatama",
+  ],
+  "cardIdentifier": "defender-of-daybreak-red",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD094",
+  "defense": 2,
+  "functionalText": "When this defends a Shadow attack, non-equipment Light cards get +1{d} this combat chain.",
+  "name": "Defender of Daybreak",
+  "pitch": 1,
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "DTD094",
+      "image": "DTD094",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD094",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD094",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Action – Attack",
   "types": [
     "Action",
   ],
@@ -44045,6 +45274,62 @@ If Entwine Lightning was **fused**, it gains **go again**.",
 }
 `;
 
+exports[`Check for unintentional updates Envelop in Darkness (envelop-in-darkness-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tomasz Jedruszek",
+  ],
+  "cardIdentifier": "envelop-in-darkness-blue",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 1,
+  "defaultImage": "DTD151",
+  "defense": 2,
+  "functionalText": "Create a Runechant token.
+
+The next attack action card you **rune gate** this turn gets +1{p}.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Envelop in Darkness",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "DTD151",
+      "image": "DTD151",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD151",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD151",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action ",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Envelop in Darkness (envelop-in-darkness-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -44088,6 +45373,62 @@ The next attack action card you **rune gate** this turn gets +3{p}.
     "Dusk till Dawn",
   ],
   "specialImage": "DTD149",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action ",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Envelop in Darkness (envelop-in-darkness-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tomasz Jedruszek",
+  ],
+  "cardIdentifier": "envelop-in-darkness-yellow",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 1,
+  "defaultImage": "DTD150",
+  "defense": 2,
+  "functionalText": "Create a Runechant token.
+
+The next attack action card you **rune gate** this turn gets +2{p}.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Envelop in Darkness",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "DTD150",
+      "image": "DTD150",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD150",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD150",
   "subtypes": [
     "Non-Attack",
   ],
@@ -54086,6 +55427,58 @@ exports[`Check for unintentional updates Glacial Horns (glacial-horns) vs snapsh
 }
 `;
 
+exports[`Check for unintentional updates Glaring Impact (glaring-impact-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Isuardi Therianto",
+  ],
+  "cardIdentifier": "glaring-impact-blue",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 1,
+  "defaultImage": "DTD065",
+  "defense": 1,
+  "functionalText": "As an additional cost to play this, you may **charge** your hero’s soul.
+
+If a yellow card is **charged** this way, this gets **overpower**.",
+  "keywords": [
+    "Charge",
+    "Overpower",
+  ],
+  "name": "Glaring Impact",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "DTD065",
+      "image": "DTD065",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD065",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD065",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Warrior Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Glaring Impact (glaring-impact-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -54128,6 +55521,58 @@ If a yellow card is **charged** this way, this gets **overpower**.",
     "Dusk till Dawn",
   ],
   "specialImage": "DTD063",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Warrior Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Glaring Impact (glaring-impact-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Isuardi Therianto",
+  ],
+  "cardIdentifier": "glaring-impact-yellow",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 1,
+  "defaultImage": "DTD064",
+  "defense": 2,
+  "functionalText": "As an additional cost to play this, you may **charge** your hero’s soul.
+
+If a yellow card is **charged** this way, this gets **overpower**.",
+  "keywords": [
+    "Charge",
+    "Overpower",
+  ],
+  "name": "Glaring Impact",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "DTD064",
+      "image": "DTD064",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD064",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD064",
   "subtypes": [
     "Attack",
   ],
@@ -55331,6 +56776,62 @@ At the beginning of each end phase, if a hero has 2 or more cards with yellow co
 }
 `;
 
+exports[`Check for unintentional updates Grim Feast (grim-feast-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Ausonia",
+  ],
+  "cardIdentifier": "grim-feast-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 3,
+  "defaultImage": "DTD177",
+  "defense": 2,
+  "functionalText": "You may play this from your banished zone. If you do, it costs {r}{r} less to play.
+
+Gain 1{l}
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Grim Feast",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "DTD177",
+      "image": "DTD177",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD177",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD177",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Grim Feast (grim-feast-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -55374,6 +56875,62 @@ Gain 3{l}
     "Dusk till Dawn",
   ],
   "specialImage": "DTD175",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Grim Feast (grim-feast-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Ausonia",
+  ],
+  "cardIdentifier": "grim-feast-yellow",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 3,
+  "defaultImage": "DTD176",
+  "defense": 2,
+  "functionalText": "You may play this from your banished zone. If you do, it costs {r}{r} less to play.
+
+Gain 2{l}
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Grim Feast",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "DTD176",
+      "image": "DTD176",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD176",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD176",
   "subtypes": [
     "Non-Attack",
   ],
@@ -61647,6 +63204,63 @@ exports[`Check for unintentional updates Hundred Winds (hundred-winds-yellow) vs
 }
 `;
 
+exports[`Check for unintentional updates Hungering Demigon (hungering-demigon-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Simon Dominic",
+  ],
+  "cardIdentifier": "hungering-demigon-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 2,
+  "defaultImage": "DTD174",
+  "defense": 3,
+  "functionalText": "If an opposing hero has 1 or more cards in their soul, you may play this from your banished zone.
+
+When this hits a hero, banish a card from their soul.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Hungering Demigon",
+  "pitch": 3,
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "DTD174",
+      "image": "DTD174",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD174",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD174",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Hungering Demigon (hungering-demigon-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -61691,6 +63305,63 @@ When this hits a hero, banish a card from their soul.
     "Dusk till Dawn",
   ],
   "specialImage": "DTD172",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Hungering Demigon (hungering-demigon-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Simon Dominic",
+  ],
+  "cardIdentifier": "hungering-demigon-yellow",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 2,
+  "defaultImage": "DTD173",
+  "defense": 3,
+  "functionalText": "If an opposing hero has 1 or more cards in their soul, you may play this from your banished zone.
+
+When this hits a hero, banish a card from their soul.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Hungering Demigon",
+  "pitch": 2,
+  "power": 5,
+  "printings": [
+    {
+      "identifier": "DTD173",
+      "image": "DTD173",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD173",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD173",
   "subtypes": [
     "Attack",
   ],
@@ -70869,6 +72540,110 @@ exports[`Check for unintentional updates Lava Vein Loyalty (lava-vein-loyalty-ye
     "Draconic",
   ],
   "typeText": "Draconic Ninja Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Lay to Rest (lay-to-rest-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Faizal Fikri",
+  ],
+  "cardIdentifier": "lay-to-rest-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 1,
+  "defaultImage": "DTD084",
+  "defense": 3,
+  "functionalText": "When this attacks a Shadow hero, it gets +1{p}.
+
+When this hits a hero, you may turn a card in their banished zone face-down.",
+  "name": "Lay to Rest",
+  "pitch": 3,
+  "power": 3,
+  "printings": [
+    {
+      "identifier": "DTD084",
+      "image": "DTD084",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD084",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD084",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Lay to Rest (lay-to-rest-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Faizal Fikri",
+  ],
+  "cardIdentifier": "lay-to-rest-red",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 1,
+  "defaultImage": "DTD082",
+  "defense": 3,
+  "functionalText": "When this attacks a Shadow hero, it gets +1{p}.
+
+When this hits a hero, you may turn a card in their banished zone face-down.",
+  "name": "Lay to Rest",
+  "pitch": 1,
+  "power": 5,
+  "printings": [
+    {
+      "identifier": "DTD082",
+      "image": "DTD082",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD082",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD082",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Action – Attack",
   "types": [
     "Action",
   ],
@@ -93739,6 +95514,63 @@ exports[`Check for unintentional updates Push the Point (push-the-point-yellow) 
 }
 `;
 
+exports[`Check for unintentional updates Putrid Stirrings (putrid-stirrings-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Marco González",
+  ],
+  "cardIdentifier": "putrid-stirrings-blue",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 3,
+  "defaultImage": "DTD163",
+  "defense": 3,
+  "functionalText": "You may play this from your banished zone.
+
+The next attack action card you **rune gate** this turn gets +3{p}.
+
+**Go again**
+
+**Blood debt**",
+  "keywords": [
+    "Blood Debt",
+    "Go again",
+    "Rune Gate",
+  ],
+  "name": "Putrid Stirrings",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "DTD163",
+      "image": "DTD163",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD163",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD163",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action ",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Putrid Stirrings (putrid-stirrings-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -93783,6 +95615,63 @@ The next attack action card you **rune gate** this turn gets +5{p}.
     "Dusk till Dawn",
   ],
   "specialImage": "DTD161",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action ",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Putrid Stirrings (putrid-stirrings-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Marco González",
+  ],
+  "cardIdentifier": "putrid-stirrings-yellow",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 3,
+  "defaultImage": "DTD162",
+  "defense": 3,
+  "functionalText": "You may play this from your banished zone.
+
+The next attack action card you **rune gate** this turn gets +4{p}.
+
+**Go again**
+
+**Blood debt**",
+  "keywords": [
+    "Blood Debt",
+    "Go again",
+    "Rune Gate",
+  ],
+  "name": "Putrid Stirrings",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "DTD162",
+      "image": "DTD162",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD162",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD162",
   "subtypes": [
     "Non-Attack",
   ],
@@ -95556,6 +97445,62 @@ exports[`Check for unintentional updates Rally the Rearguard (rally-the-rearguar
 }
 `;
 
+exports[`Check for unintentional updates Ram Raider (ram-raider-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Phu Thieu",
+  ],
+  "cardIdentifier": "ram-raider-blue",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "defaultImage": "DTD114",
+  "defense": 3,
+  "functionalText": "As an additional cost to play this, banish a random card from your hand. If a card with 6 or more {p} is banished this way, this gets **go again**.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Go again",
+  ],
+  "name": "Ram Raider",
+  "pitch": 3,
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "DTD114",
+      "image": "DTD114",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD114",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD114",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Ram Raider (ram-raider-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -95599,6 +97544,62 @@ exports[`Check for unintentional updates Ram Raider (ram-raider-red) vs snapshot
     "Dusk till Dawn",
   ],
   "specialImage": "DTD112",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Ram Raider (ram-raider-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Phu Thieu",
+  ],
+  "cardIdentifier": "ram-raider-yellow",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "defaultImage": "DTD113",
+  "defense": 3,
+  "functionalText": "As an additional cost to play this, banish a random card from your hand. If a card with 6 or more {p} is banished this way, this gets **go again**.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Go again",
+  ],
+  "name": "Ram Raider",
+  "pitch": 2,
+  "power": 5,
+  "printings": [
+    {
+      "identifier": "DTD113",
+      "image": "DTD113",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD113",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD113",
   "subtypes": [
     "Attack",
   ],
@@ -101565,6 +103566,62 @@ exports[`Check for unintentional updates Rift Bind (rift-bind-yellow) vs snapsho
 }
 `;
 
+exports[`Check for unintentional updates Rift Skitter (rift-skitter-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Narendra B Adi",
+  ],
+  "cardIdentifier": "rift-skitter-blue",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 3,
+  "defaultImage": "DTD154",
+  "defense": 3,
+  "functionalText": "**Rune Gate**
+
+**Go again**
+
+**Blood Debt**",
+  "keywords": [
+    "Rune Gate",
+    "Go again",
+    "Blood Debt",
+  ],
+  "name": "Rift Skitter",
+  "pitch": 3,
+  "power": 2,
+  "printings": [
+    {
+      "identifier": "DTD154",
+      "image": "DTD154",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD154",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD154",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Rift Skitter (rift-skitter-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -101608,6 +103665,62 @@ exports[`Check for unintentional updates Rift Skitter (rift-skitter-red) vs snap
     "Dusk till Dawn",
   ],
   "specialImage": "DTD152",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Rift Skitter (rift-skitter-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Narendra B Adi",
+  ],
+  "cardIdentifier": "rift-skitter-yellow",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 3,
+  "defaultImage": "DTD153",
+  "defense": 3,
+  "functionalText": "**Rune Gate**
+
+**Go again**
+
+**Blood Debt**",
+  "keywords": [
+    "Rune Gate",
+    "Go again",
+    "Blood Debt",
+  ],
+  "name": "Rift Skitter",
+  "pitch": 2,
+  "power": 3,
+  "printings": [
+    {
+      "identifier": "DTD153",
+      "image": "DTD153",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD153",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD153",
   "subtypes": [
     "Attack",
   ],
@@ -110404,6 +112517,100 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
 }
 `;
 
+exports[`Check for unintentional updates Searing Ray (searing-ray-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Edward Chee",
+  ],
+  "cardIdentifier": "searing-ray-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 1,
+  "defaultImage": "DTD099",
+  "defense": 2,
+  "functionalText": "If you have a yellow card in your pitch zone, this gets +2{p}.",
+  "name": "Searing Ray",
+  "pitch": 3,
+  "power": 2,
+  "printings": [
+    {
+      "identifier": "DTD099",
+      "image": "DTD099",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD099",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD099",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Searing Ray (searing-ray-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Edward Chee",
+  ],
+  "cardIdentifier": "searing-ray-red",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 1,
+  "defaultImage": "DTD097",
+  "defense": 2,
+  "functionalText": "If you have a yellow card in your pitch zone, this gets +2{p}.",
+  "name": "Searing Ray",
+  "pitch": 1,
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "DTD097",
+      "image": "DTD097",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD097",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD097",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Searing Ray (searing-ray-yellow) vs snapshot 1`] = `
 {
   "artists": [
@@ -113225,6 +115432,62 @@ exports[`Check for unintentional updates Shaden Death Hydra (shaden-death-hydra-
 }
 `;
 
+exports[`Check for unintentional updates Shaden Scream (shaden-scream-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Marco González",
+  ],
+  "cardIdentifier": "shaden-scream-blue",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD120",
+  "defense": 3,
+  "functionalText": "As an additional cost to play this, banish a random card from your hand.
+
+Your next next Brute or Shadow attack this turn gets +3{p}.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Shaden Scream",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "DTD120",
+      "image": "DTD120",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD120",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD120",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Shaden Scream (shaden-scream-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -113275,6 +115538,218 @@ Your next next Brute or Shadow attack this turn gets +5{p}.
     "Shadow",
   ],
   "typeText": "Shadow Brute Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Shaden Scream (shaden-scream-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Marco González",
+  ],
+  "cardIdentifier": "shaden-scream-yellow",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD119",
+  "defense": 3,
+  "functionalText": "As an additional cost to play this, banish a random card from your hand.
+
+Your next next Brute or Shadow attack this turn gets +4{p}.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Shaden Scream",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "DTD119",
+      "image": "DTD119",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD119",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD119",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Shaden Swing (shaden-swing-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Kimberly Pantoni",
+  ],
+  "cardIdentifier": "shaden-swing-blue",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 1,
+  "defaultImage": "DTD126",
+  "defense": 3,
+  "functionalText": "As an additional cost to play this, banish a random card from your hand.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Shaden Swing",
+  "pitch": 3,
+  "power": 5,
+  "printings": [
+    {
+      "identifier": "DTD126",
+      "image": "DTD126",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD126",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD126",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Shaden Swing (shaden-swing-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Kimberly Pantoni",
+  ],
+  "cardIdentifier": "shaden-swing-red",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 1,
+  "defaultImage": "DTD124",
+  "defense": 3,
+  "functionalText": "As an additional cost to play this, banish a random card from your hand.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Shaden Swing",
+  "pitch": 1,
+  "power": 7,
+  "printings": [
+    {
+      "identifier": "DTD124",
+      "image": "DTD124",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD124",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD124",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Shaden Swing (shaden-swing-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Kimberly Pantoni",
+  ],
+  "cardIdentifier": "shaden-swing-yellow",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 1,
+  "defaultImage": "DTD125",
+  "defense": 3,
+  "functionalText": "As an additional cost to play this, banish a random card from your hand.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Shaden Swing",
+  "pitch": 2,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "DTD125",
+      "image": "DTD125",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD125",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD125",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action – Attack",
   "types": [
     "Action",
   ],
@@ -121823,6 +124298,58 @@ If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 
 }
 `;
 
+exports[`Check for unintentional updates Soul Butcher (soul-butcher-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Nikolay Moskvin",
+  ],
+  "cardIdentifier": "soul-butcher-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 2,
+  "defaultImage": "DTD183",
+  "defense": 2,
+  "functionalText": "If the defending hero has 1 or more cards in their soul, this gets +2{p}.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Soul Butcher",
+  "pitch": 3,
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "DTD183",
+      "image": "DTD183",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD183",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD183",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Soul Butcher (soul-butcher-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -121862,6 +124389,111 @@ exports[`Check for unintentional updates Soul Butcher (soul-butcher-red) vs snap
     "Dusk till Dawn",
   ],
   "specialImage": "DTD181",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Soul Butcher (soul-butcher-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Nikolay Moskvin",
+  ],
+  "cardIdentifier": "soul-butcher-yellow",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 2,
+  "defaultImage": "DTD182",
+  "defense": 2,
+  "functionalText": "If the defending hero has 1 or more cards in their soul, this gets +2{p}.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Soul Butcher",
+  "pitch": 2,
+  "power": 5,
+  "printings": [
+    {
+      "identifier": "DTD182",
+      "image": "DTD182",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD182",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD182",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Soul Cleaver (soul-cleaver-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Marcus Reyno",
+  ],
+  "cardIdentifier": "soul-cleaver-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 2,
+  "defaultImage": "DTD186",
+  "defense": 2,
+  "functionalText": "If the defending hero has 1 or more cards in their soul, this gets **go again**.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Go again",
+  ],
+  "name": "Soul Cleaver",
+  "pitch": 3,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "DTD186",
+      "image": "DTD186",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD186",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD186",
   "subtypes": [
     "Attack",
   ],
@@ -121915,6 +124547,59 @@ exports[`Check for unintentional updates Soul Cleaver (soul-cleaver-red) vs snap
     "Dusk till Dawn",
   ],
   "specialImage": "DTD184",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Soul Cleaver (soul-cleaver-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Marcus Reyno",
+  ],
+  "cardIdentifier": "soul-cleaver-yellow",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 2,
+  "defaultImage": "DTD185",
+  "defense": 2,
+  "functionalText": "If the defending hero has 1 or more cards in their soul, this gets **go again**.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Go again",
+  ],
+  "name": "Soul Cleaver",
+  "pitch": 2,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "DTD185",
+      "image": "DTD185",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD185",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD185",
   "subtypes": [
     "Attack",
   ],
@@ -133327,6 +136012,57 @@ exports[`Check for unintentional updates Tear Limb from Limb (tear-limb-from-lim
 }
 `;
 
+exports[`Check for unintentional updates Tear Through the Portal (tear-through-the-portal-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mateusz Wisniewski",
+  ],
+  "cardIdentifier": "tear-through-the-portal-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD192",
+  "defense": 2,
+  "functionalText": "Choose a blue action card in your banished zone. It gets **go again** until end of turn.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Tear Through the Portal",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "DTD192",
+      "image": "DTD192",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD192",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD192",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Tear Through the Portal (tear-through-the-portal-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -133365,6 +136101,57 @@ exports[`Check for unintentional updates Tear Through the Portal (tear-through-t
     "Dusk till Dawn",
   ],
   "specialImage": "DTD190",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Tear Through the Portal (tear-through-the-portal-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mateusz Wisniewski",
+  ],
+  "cardIdentifier": "tear-through-the-portal-yellow",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD191",
+  "defense": 2,
+  "functionalText": "Choose a yellow action card in your banished zone. It gets **go again** until end of turn.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Tear Through the Portal",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "DTD191",
+      "image": "DTD191",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD191",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD191",
   "subtypes": [
     "Non-Attack",
   ],
@@ -138484,6 +141271,58 @@ exports[`Check for unintentional updates Tri-shot (tri-shot-blue) vs snapshot 1`
 }
 `;
 
+exports[`Check for unintentional updates Tribute to Demolition (tribute-to-demolition-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Anastasia Balakchina",
+  ],
+  "cardIdentifier": "tribute-to-demolition-blue",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "defaultImage": "DTD129",
+  "defense": 3,
+  "functionalText": "As an additional cost to play this, banish a random card from your hand. If a card with 6 or more {p} is banished this way, this gets +2{p}.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Tribute to Demolition",
+  "pitch": 3,
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "DTD129",
+      "image": "DTD129",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD129",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD129",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Tribute to Demolition (tribute-to-demolition-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -138536,6 +141375,110 @@ exports[`Check for unintentional updates Tribute to Demolition (tribute-to-demol
 }
 `;
 
+exports[`Check for unintentional updates Tribute to Demolition (tribute-to-demolition-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Anastasia Balakchina",
+  ],
+  "cardIdentifier": "tribute-to-demolition-yellow",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "defaultImage": "DTD128",
+  "defense": 3,
+  "functionalText": "As an additional cost to play this, banish a random card from your hand. If a card with 6 or more {p} is banished this way, this gets +2{p}.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Tribute to Demolition",
+  "pitch": 2,
+  "power": 5,
+  "printings": [
+    {
+      "identifier": "DTD128",
+      "image": "DTD128",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD128",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD128",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Tribute to the Legions of Doom (tribute-to-the-legions-of-doom-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sandeep Karunakaran",
+  ],
+  "cardIdentifier": "tribute-to-the-legions-of-doom-blue",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 3,
+  "defaultImage": "DTD132",
+  "defense": 3,
+  "functionalText": "As an additional cost to play this, banish a random card from your hand. If a card with 6 or more {p} is banished this way, this gets +2{p}.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Tribute to the Legions of Doom",
+  "pitch": 3,
+  "power": 5,
+  "printings": [
+    {
+      "identifier": "DTD132",
+      "image": "DTD132",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD132",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD132",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Tribute to the Legions of Doom (tribute-to-the-legions-of-doom-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -138575,6 +141518,58 @@ exports[`Check for unintentional updates Tribute to the Legions of Doom (tribute
     "Dusk till Dawn",
   ],
   "specialImage": "DTD130",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Tribute to the Legions of Doom (tribute-to-the-legions-of-doom-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sandeep Karunakaran",
+  ],
+  "cardIdentifier": "tribute-to-the-legions-of-doom-yellow",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 3,
+  "defaultImage": "DTD131",
+  "defense": 3,
+  "functionalText": "As an additional cost to play this, banish a random card from your hand. If a card with 6 or more {p} is banished this way, this gets +2{p}.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Tribute to the Legions of Doom",
+  "pitch": 2,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "DTD131",
+      "image": "DTD131",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD131",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD131",
   "subtypes": [
     "Attack",
   ],
@@ -141285,6 +144280,59 @@ exports[`Check for unintentional updates Vantom Banshee (vantom-banshee-yellow) 
 }
 `;
 
+exports[`Check for unintentional updates Vantom Wraith (vantom-wraith-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Muhammad Fajri",
+  ],
+  "cardIdentifier": "vantom-wraith-blue",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 2,
+  "defaultImage": "DTD160",
+  "defense": 3,
+  "functionalText": "**Rune Gate**
+
+**Blood Debt**",
+  "keywords": [
+    "Rune Gate",
+    "Blood Debt",
+  ],
+  "name": "Vantom Wraith",
+  "pitch": 3,
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "DTD160",
+      "image": "DTD160",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD160",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD160",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Vantom Wraith (vantom-wraith-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -141325,6 +144373,59 @@ exports[`Check for unintentional updates Vantom Wraith (vantom-wraith-red) vs sn
     "Dusk till Dawn",
   ],
   "specialImage": "DTD158",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Vantom Wraith (vantom-wraith-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Muhammad Fajri",
+  ],
+  "cardIdentifier": "vantom-wraith-yellow",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 2,
+  "defaultImage": "DTD159",
+  "defense": 3,
+  "functionalText": "**Rune Gate**
+
+**Blood Debt**",
+  "keywords": [
+    "Rune Gate",
+    "Blood Debt",
+  ],
+  "name": "Vantom Wraith",
+  "pitch": 2,
+  "power": 5,
+  "printings": [
+    {
+      "identifier": "DTD159",
+      "image": "DTD159",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "DTD159",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD159",
   "subtypes": [
     "Attack",
   ],
@@ -142492,6 +145593,118 @@ Target hero banishes the top card of their deck. If it’s blue, they lost 1{g}.
     "Dusk till Dawn",
   ],
   "specialImage": "DTD180",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Vile Inquisition (vile-inquisition-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Kyxarie Peralta",
+  ],
+  "cardIdentifier": "vile-inquisition-red",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 2,
+  "defaultImage": "DTD178",
+  "defense": 3,
+  "functionalText": "You may play this from your banished zone. If you do, it costs {r}{r} less to play.
+
+Target hero banishes the top card of their deck. If it’s red, they lost 1{g}.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Vile Inquisition",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "DTD178",
+      "image": "DTD178",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD178",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD178",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Vile Inquisition (vile-inquisition-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Kyxarie Peralta",
+  ],
+  "cardIdentifier": "vile-inquisition-yellow",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 2,
+  "defaultImage": "DTD179",
+  "defense": 3,
+  "functionalText": "You may play this from your banished zone. If you do, it costs {r}{r} less to play.
+
+Target hero banishes the top card of their deck. If it’s yellow, they lost 1{g}.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "name": "Vile Inquisition",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "DTD179",
+      "image": "DTD179",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD179",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD179",
   "subtypes": [
     "Non-Attack",
   ],
@@ -143958,6 +147171,62 @@ exports[`Check for unintentional updates Vynserakai (vynserakai) vs snapshot 1`]
 }
 `;
 
+exports[`Check for unintentional updates Wall Breaker (wall-breaker-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Shen Fei",
+  ],
+  "cardIdentifier": "wall-breaker-blue",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "defaultImage": "DTD117",
+  "defense": 3,
+  "functionalText": "If you’ve banished a card with 6 or more {p} this turn, this gets **overpower**.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Overpower",
+  ],
+  "name": "Wall Breaker",
+  "pitch": 3,
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "DTD117",
+      "image": "DTD117",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD117",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD117",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Wall Breaker (wall-breaker-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -144001,6 +147270,62 @@ exports[`Check for unintentional updates Wall Breaker (wall-breaker-red) vs snap
     "Dusk till Dawn",
   ],
   "specialImage": "DTD115",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Wall Breaker (wall-breaker-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Shen Fei",
+  ],
+  "cardIdentifier": "wall-breaker-yellow",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "defaultImage": "DTD116",
+  "defense": 3,
+  "functionalText": "If you’ve banished a card with 6 or more {p} this turn, this gets **overpower**.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Overpower",
+  ],
+  "name": "Wall Breaker",
+  "pitch": 2,
+  "power": 5,
+  "printings": [
+    {
+      "identifier": "DTD116",
+      "image": "DTD116",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD116",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD116",
   "subtypes": [
     "Attack",
   ],

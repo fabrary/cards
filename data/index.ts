@@ -9154,6 +9154,51 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
     
     
   },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "warmongers-diplomacy-blue",
+    classes: [Class.Generic],
+    defaultImage: "DTD230",
+    name: "Warmonger’s Diplomacy",
+    printings: [{
+      
+      identifier: "DTD230",
+      image: "DTD230",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD230"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD230",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `Starting with the hero to your left, each hero chooses war or peace.
+
+If they choose war, the only actions they may play or activate during their next turn are weapon and attack actions.
+
+If they choose peace, the only actions they may play or activate during their next turn are non-weapon non-attack actions.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Mateusz Wisniewski"],
     cardIdentifier: "poison-the-well-blue",
     classes: [Class.Generic],
@@ -34150,7 +34195,8 @@ If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "lesson-in-lava-yellow",
     classes: [Class.Wizard],
@@ -34219,8 +34265,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     specializations: [Hero.Kano],
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Yolanda Felicia"],
     cardIdentifier: "tome-of-aetherwind-red",
     classes: [Class.Wizard],
@@ -70953,7 +70998,8 @@ While Yinti Yanti is defending and you control an aura, it has +1{d}.`,
     
     
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Oliver Morit"],
     cardIdentifier: "warmongers-recital-red",
     classes: [Class.Generic],
@@ -71020,8 +71066,7 @@ While Yinti Yanti is defending and you control an aura, it has +1{d}.`,
     
     
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Oliver Morit"],
     cardIdentifier: "warmongers-recital-yellow",
     classes: [Class.Generic],
