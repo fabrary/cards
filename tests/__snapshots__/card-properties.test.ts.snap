@@ -12274,7 +12274,7 @@ exports[`Check for unintentional updates Blasmophet, Levia Consumed (blasmophet-
   "classes": [
     "NotClassed",
   ],
-  "defaultImage": "DTD164_Consumed",
+  "defaultImage": "DTD164_Back",
   "functionalText": "**Legendary Levia Specialization**
 
 While this is in your inventory, when **blood debt** reduces your {l} to 13, you may transform into Blasmophet, Levia Consumed.
@@ -12294,8 +12294,15 @@ Once each turn, you may play a card with **blood debt** from your banished zone.
     {
       "foiling": "Cold",
       "identifier": "DTD164",
-      "image": "DTD164_Consumed",
+      "image": "DTD164_Back",
       "set": "Dusk till Dawn",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "DTD164",
+      "image": "DTD164_Back_Marvel",
+      "set": "Dusk till Dawn",
+      "treatment": "Extended Art",
     },
   ],
   "rarities": [
@@ -12311,7 +12318,7 @@ Once each turn, you may play a card with **blood debt** from your banished zone.
   "sets": [
     "Dusk till Dawn",
   ],
-  "specialImage": "DTD164_Consumed",
+  "specialImage": "DTD164_Back_Marvel",
   "specializations": [
     "Levia",
   ],
@@ -30955,7 +30962,7 @@ exports[`Check for unintentional updates Crown of Providence (crown-of-providenc
   "classes": [
     "Generic",
   ],
-  "defaultImage": "UPR182",
+  "defaultImage": "DTD221",
   "defense": 2,
   "functionalText": "When you defend with Crown of Providence, you may put a card from your hand or arsenal on the bottom of your deck. If you do, draw a card.
 
@@ -30965,6 +30972,11 @@ exports[`Check for unintentional updates Crown of Providence (crown-of-providenc
   ],
   "name": "Crown of Providence",
   "printings": [
+    {
+      "identifier": "DTD221",
+      "image": "DTD221",
+      "set": "Dusk till Dawn",
+    },
     {
       "foiling": "Gold",
       "identifier": "FAB088",
@@ -30985,22 +30997,24 @@ exports[`Check for unintentional updates Crown of Providence (crown-of-providenc
     },
   ],
   "rarities": [
-    "Promo",
     "Legendary",
+    "Promo",
   ],
   "rarity": "Legendary",
   "restrictedFormats": [
     "Commoner",
   ],
   "setIdentifiers": [
+    "DTD221",
     "FAB088",
     "UPR182",
   ],
   "sets": [
+    "Dusk till Dawn",
     "Promos",
     "Uprising",
   ],
-  "specialImage": "FAB088",
+  "specialImage": "DTD221",
   "subtypes": [
     "Head",
   ],
@@ -35738,6 +35752,13 @@ exports[`Check for unintentional updates Diadem of Dreamstate (diadem-of-dreamst
       "image": "DTD217",
       "set": "Dusk till Dawn",
     },
+    {
+      "foiling": "Cold",
+      "identifier": "DTD217",
+      "image": "DTD217_EA",
+      "set": "Dusk till Dawn",
+      "treatment": "Extended Art",
+    },
   ],
   "rarities": [
     "Legendary",
@@ -35752,7 +35773,7 @@ exports[`Check for unintentional updates Diadem of Dreamstate (diadem-of-dreamst
   "sets": [
     "Dusk till Dawn",
   ],
-  "specialImage": "DTD217",
+  "specialImage": "DTD217_EA",
   "subtypes": [
     "Head",
   ],
@@ -59823,7 +59844,7 @@ If Herald of Judgment hits, put it into your hero's soul and the defending hero 
   "printings": [
     {
       "identifier": "DTD013",
-      "image": "DTD014",
+      "image": "DTD013",
       "set": "Dusk till Dawn",
       "treatment": "Extended Art",
     },
@@ -59886,7 +59907,7 @@ If Herald of Judgment hits, put it into your hero's soul and the defending hero 
     "Prism Blitz Deck",
     "Monarch",
   ],
-  "specialImage": "DTD014",
+  "specialImage": "DTD013",
   "specializations": [
     "Prism",
   ],
@@ -73565,7 +73586,7 @@ exports[`Check for unintentional updates Levia, Redeemed (levia-redeemed) vs sna
   "classes": [
     "NotClassed",
   ],
-  "defaultImage": "DTD164_Redeemed",
+  "defaultImage": "DTD164",
   "functionalText": "**Legendary Levia Specialization**
 
 **Action** - Turn all cards in your banished zone face-down: **Transform** into Levia, Redeemed. Activate this ability only while this is in your inventory and you have 13 or more cards with **blood debt** in your banished zone.
@@ -73584,8 +73605,15 @@ Cards you own lose **blood debt**",
     {
       "foiling": "Cold",
       "identifier": "DTD164",
-      "image": "DTD164_Redeemed",
+      "image": "DTD164",
       "set": "Dusk till Dawn",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "DTD164",
+      "image": "DTD164_Marvel",
+      "set": "Dusk till Dawn",
+      "treatment": "Extended Art",
     },
   ],
   "rarities": [
@@ -73601,7 +73629,7 @@ Cards you own lose **blood debt**",
   "sets": [
     "Dusk till Dawn",
   ],
-  "specialImage": "DTD164_Redeemed",
+  "specialImage": "DTD164_Marvel",
   "specializations": [
     "Levia",
   ],
@@ -80919,6 +80947,11 @@ When Nasreth hits a hero, banish a card from their soul. If a Light card is bani
       "image": "DTD193_Marvel",
       "set": "Dusk till Dawn",
       "treatment": "Extended Art",
+    },
+    {
+      "identifier": "DTD193",
+      "image": "DTD193",
+      "set": "Dusk till Dawn",
     },
   ],
   "rarities": [
@@ -150330,6 +150363,12 @@ When the combat chain closes, each hero who has lost {l} this turn banishes a ca
       "image": "DTD137",
       "set": "Dusk till Dawn",
     },
+    {
+      "identifier": "DTD137",
+      "image": "DTD137_EA",
+      "set": "Dusk till Dawn",
+      "treatment": "Extended Art",
+    },
   ],
   "rarities": [
     "Majestic",
@@ -150344,7 +150383,7 @@ When the combat chain closes, each hero who has lost {l} this turn banishes a ca
   "sets": [
     "Dusk till Dawn",
   ],
-  "specialImage": "DTD137",
+  "specialImage": "DTD137_EA",
   "subtypes": [
     "Attack",
   ],
@@ -150388,6 +150427,12 @@ When the combat chain closes, each hero who has lost {l} this turn banishes a ca
       "image": "DTD138",
       "set": "Dusk till Dawn",
     },
+    {
+      "identifier": "DTD138",
+      "image": "DTD138_EA",
+      "set": "Dusk till Dawn",
+      "treatment": "Extended Art",
+    },
   ],
   "rarities": [
     "Majestic",
@@ -150402,7 +150447,7 @@ When the combat chain closes, each hero who has lost {l} this turn banishes a ca
   "sets": [
     "Dusk till Dawn",
   ],
-  "specialImage": "DTD138",
+  "specialImage": "DTD138_EA",
   "subtypes": [
     "Attack",
   ],
@@ -150446,6 +150491,12 @@ When the combat chain closes, each hero who has lost {l} this turn banishes the 
       "image": "DTD139",
       "set": "Dusk till Dawn",
     },
+    {
+      "identifier": "DTD139",
+      "image": "DTD139_EA",
+      "set": "Dusk till Dawn",
+      "treatment": "Extended Art",
+    },
   ],
   "rarities": [
     "Majestic",
@@ -150460,7 +150511,7 @@ When the combat chain closes, each hero who has lost {l} this turn banishes the 
   "sets": [
     "Dusk till Dawn",
   ],
-  "specialImage": "DTD139",
+  "specialImage": "DTD139_EA",
   "subtypes": [
     "Attack",
   ],

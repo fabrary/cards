@@ -1046,6 +1046,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/frontline-helm</loc>
+    <lastmod>2023-07-05</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/frontline-guantlets</loc>
+    <lastmod>2023-07-05</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/censor-red</loc>
     <lastmod>2023-07-03</lastmod>
     <priority>0.5</priority>

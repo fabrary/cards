@@ -5687,12 +5687,18 @@ Whenever you play a Shadow non-attack action card, you may pay {l}. If you do, t
       image: "DTD137",
       set: Release.DuskTillDawn,
       
+    },{
+      
+      identifier: "DTD137",
+      image: "DTD137_EA",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DTD137"],
     sets: [Release.DuskTillDawn],
-    specialImage: "DTD137",
+    specialImage: "DTD137_EA",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Shadow Runeblade Action – Attack",
@@ -5732,12 +5738,18 @@ When the combat chain closes, each hero who has lost {l} this turn banishes a ca
       image: "DTD138",
       set: Release.DuskTillDawn,
       
+    },{
+      
+      identifier: "DTD138",
+      image: "DTD138_EA",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DTD138"],
     sets: [Release.DuskTillDawn],
-    specialImage: "DTD138",
+    specialImage: "DTD138_EA",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Shadow Runeblade Action – Attack",
@@ -5777,12 +5789,18 @@ When the combat chain closes, each hero who has lost {l} this turn banishes a ca
       image: "DTD139",
       set: Release.DuskTillDawn,
       
+    },{
+      
+      identifier: "DTD139",
+      image: "DTD139_EA",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DTD139"],
     sets: [Release.DuskTillDawn],
-    specialImage: "DTD139",
+    specialImage: "DTD139_EA",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Shadow Runeblade Action – Attack",
@@ -6910,20 +6928,26 @@ The next attack action card you **rune gate** this turn gets +3{p}.
     artists: ["Steve Argyle"],
     cardIdentifier: "levia-redeemed",
     classes: [Class.NotClassed],
-    defaultImage: "DTD164_Redeemed",
+    defaultImage: "DTD164",
     name: "Levia, Redeemed",
     printings: [{
       foiling: Foiling.C,
       identifier: "DTD164",
-      image: "DTD164_Redeemed",
+      image: "DTD164",
       set: Release.DuskTillDawn,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "DTD164",
+      image: "DTD164_Marvel",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["DTD164"],
     sets: [Release.DuskTillDawn],
-    specialImage: "DTD164_Redeemed",
+    specialImage: "DTD164_Marvel",
     subtypes: [],
     types: [Type.DemiHero],
     typeText: "Shadow Demi-Hero",
@@ -6955,20 +6979,26 @@ Cards you own lose **blood debt**`,
     artists: ["Wisnu Tan"],
     cardIdentifier: "blasmophet-levia-consumed",
     classes: [Class.NotClassed],
-    defaultImage: "DTD164_Consumed",
+    defaultImage: "DTD164_Back",
     name: "Blasmophet, Levia Consumed",
     printings: [{
       foiling: Foiling.C,
       identifier: "DTD164",
-      image: "DTD164_Consumed",
+      image: "DTD164_Back",
       set: Release.DuskTillDawn,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "DTD164",
+      image: "DTD164_Back_Marvel",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["DTD164"],
     sets: [Release.DuskTillDawn],
-    specialImage: "DTD164_Consumed",
+    specialImage: "DTD164_Back_Marvel",
     subtypes: [Subtype.Demon],
     types: [Type.DemiHero],
     typeText: "Shadow Demi-Hero – Demon",
@@ -8236,6 +8266,12 @@ Target hero banishes the top card of their deck. If it’s blue, they lost 1{g}.
       image: "DTD193_Marvel",
       set: Release.DuskTillDawn,
       treatment: Treatment.EA,
+    },{
+      
+      identifier: "DTD193",
+      image: "DTD193",
+      set: Release.DuskTillDawn,
+      
     },],
     rarities: [Rarity.Common,Rarity.Marvel],
     rarity: Rarity.Common,
@@ -9238,12 +9274,18 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
       image: "DTD217",
       set: Release.DuskTillDawn,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "DTD217",
+      image: "DTD217_EA",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["DTD217"],
     sets: [Release.DuskTillDawn],
-    specialImage: "DTD217",
+    specialImage: "DTD217_EA",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
     typeText: "Illusionist Equipment – Head",
@@ -9347,6 +9389,92 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "frontline-helm",
+    classes: [Class.Generic],
+    defaultImage: "DTD222",
+    name: "Frontline Helm",
+    printings: [{
+      
+      identifier: "DTD222",
+      image: "DTD222",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD222"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD222",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment – Head",
+
+    
+    defense: 2,
+    functionalText: `At the beginning of your end phase, put a -1{d} counter on this.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "frontline-guantlets",
+    classes: [Class.Generic],
+    defaultImage: "DTD224",
+    name: "Frontline Guantlets",
+    printings: [{
+      
+      identifier: "DTD224",
+      image: "DTD224",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD224"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD224",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment – Arms",
+
+    
+    defense: 2,
+    functionalText: `At the beginning of your end phase, put a -1{d} counter on this.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
     
     
     
@@ -34079,7 +34207,8 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "kano",
     classes: [Class.Wizard],
@@ -34221,8 +34350,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Anna Kharitonova"],
     cardIdentifier: "storm-striders",
     classes: [Class.Wizard],
@@ -52734,7 +52862,7 @@ If Arc Light Sentinel is in the arena when an opponent announces an attack, they
     printings: [{
       
       identifier: "DTD013",
-      image: "DTD014",
+      image: "DTD013",
       set: Release.DuskTillDawn,
       treatment: Treatment.EA,
     },{
@@ -52778,7 +52906,7 @@ If Arc Light Sentinel is in the arena when an opponent announces an attack, they
     rarity: Rarity.Rare,
     setIdentifiers: ["DTD013","FAB028","PSM008","MON007"],
     sets: [Release.DuskTillDawn,Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
-    specialImage: "DTD014",
+    specialImage: "DTD013",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Light Illusionist Action – Attack",
@@ -71121,7 +71249,8 @@ While Yinti Yanti is defending and you control an aura, it has +1{d}.`,
     
     
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Brian Adriel"],
     cardIdentifier: "zealous-belting-blue",
     classes: [Class.Generic],
@@ -71180,8 +71309,7 @@ While Yinti Yanti is defending and you control an aura, it has +1{d}.`,
     
     
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "minnowism-red",
     classes: [Class.Generic],
@@ -103116,7 +103244,8 @@ Draw 2 cards.`,
     
     talents: [Talent.Draconic],
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "flamecall-awakening-red",
     classes: [Class.NotClassed],
@@ -103177,8 +103306,7 @@ Draw 2 cards.`,
     
     talents: [Talent.Draconic],
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "inflame-red",
     classes: [Class.NotClassed],
@@ -107331,9 +107459,15 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     artists: ["Andy Aslamov"],
     cardIdentifier: "crown-of-providence",
     classes: [Class.Generic],
-    defaultImage: "UPR182",
+    defaultImage: "DTD221",
     name: "Crown of Providence",
     printings: [{
+      
+      identifier: "DTD221",
+      image: "DTD221",
+      set: Release.DuskTillDawn,
+      
+    },{
       foiling: Foiling.G,
       identifier: "FAB088",
       image: "FAB088",
@@ -107352,11 +107486,11 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
       set: Release.Uprising,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
-    setIdentifiers: ["FAB088","UPR182"],
-    sets: [Release.Promos,Release.Uprising],
-    specialImage: "FAB088",
+    setIdentifiers: ["DTD221","FAB088","UPR182"],
+    sets: [Release.DuskTillDawn,Release.Promos,Release.Uprising],
+    specialImage: "DTD221",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
     typeText: "Generic Equipment – Head",

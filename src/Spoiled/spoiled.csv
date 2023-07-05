@@ -362,17 +362,17 @@ KthQj9HCRMDRfngK88kCw,"LGS156, DTD135","LGS, DTD",Flail of Agony,,,1,,,,"P, R","
 
 When the combat chain closes, each hero who has lost {l} this turn banishes a card from their hand.
 
-**Blood Debt**",,Shadow Runeblade Action – Attack,Reza Afshar,,,,No,S – DTD137 – N,,/DTD137.png – DTD137 – N
+**Blood Debt**",,Shadow Runeblade Action – Attack,Reza Afshar,,,,No,"S – DTD137 – N, S – DTD137 – N – EA",,"/DTD137.png – DTD137 – N, /DTD137_EA.png – DTD137 – N – S – EA"
 ,DTD138,DTD,Widespread Destruction,2,3,6,3,,,M,"Shadow, Runeblade, Action, Attack","Rune Gate, Blood Debt",,,,,,"**Rune Gate**
 
 When the combat chain closes, each hero who has lost {l} this turn banishes a card from their arsenal.
 
-**Blood Debt**",,Shadow Runeblade Action – Attack,Reza Afshar,,,,No,S – DTD138 – N,,/DTD138.png – DTD138 – N
+**Blood Debt**",,Shadow Runeblade Action – Attack,Reza Afshar,,,,No,"S – DTD138 – N, S – DTD138 – N – EA",,"/DTD138.png – DTD138 – N, /DTD138_EA.png – DTD138 – N – S – EA"
 ,DTD139,DTD,Widespread Ruin,1,2,6,3,,,M,"Shadow, Runeblade, Action, Attack","Rune Gate, Blood Debt",,,,,,"**Rune Gate**
 
 When the combat chain closes, each hero who has lost {l} this turn banishes the top card of their deck.
 
-**Blood Debt**",,Shadow Runeblade Action – Attack,Reza Afshar,,,,No,S – DTD139 – N,,/DTD139.png – DTD139 – N
+**Blood Debt**",,Shadow Runeblade Action – Attack,Reza Afshar,,,,No,"S – DTD139 – N, S – DTD139 – N – EA",,"/DTD139.png – DTD139 – N, /DTD139_EA.png – DTD139 – N – S – EA"
 ,DTD140,DTD,Funeral Moon,1,0,,3,,,M,"Shadow, Runeblade, Action",Blood Debt,,,,,,"You may play this from your banished zone.
 
 If a hero has lost {l} this turn, you may play this as though it were an instant.
@@ -495,12 +495,12 @@ The next attack action card you **rune gate** this turn gets +3{p}.
 
 **Action** - Turn all cards in your banished zone face-down: **Transform** into Levia, Redeemed. Activate this ability only while this is in your inventory and you have 13 or more cards with **blood debt** in your banished zone.
 
-Cards you own lose **blood debt**",,Shadow Demi-Hero,Steve Argyle,,,,No,C – DTD164 – N,,/DTD164_Redeemed.png – DTD164 – N – C
+Cards you own lose **blood debt**",,Shadow Demi-Hero,Steve Argyle,,,,No,"C – DTD164 – N, C – DTD164 – N – EA",,"/DTD164.png – DTD164 – N – C, /DTD164_Marvel.png – DTD164 – N – C – EA"
 ,DTD164,DTD,"Blasmophet, Levia Consumed",,,,,13,4,L,"Shadow, Demi-Hero, Demon","Legendary, Levia Specialization, Transform",,,,,,"**Legendary Levia Specialization**
 
 While this is in your inventory, when **blood debt** reduces your {l} to 13, you may transform into Blasmophet, Levia Consumed.
 
-Once each turn, you may play a card with **blood debt** from your banished zone. Whenever a card is put into your banished zone, turn it face-down. If you would lose {l} from **blood debt**, instead banish the top card of your deck.",,Shadow Demi-Hero – Demon,Wisnu Tan,,,,No,C – DTD164 – N,,/DTD164_Consumed.png – DTD164 – N – C
+Once each turn, you may play a card with **blood debt** from your banished zone. Whenever a card is put into your banished zone, turn it face-down. If you would lose {l} from **blood debt**, instead banish the top card of your deck.",,Shadow Demi-Hero – Demon,Wisnu Tan,,,,No,"C – DTD164 – N, C – DTD164 – N – EA",,"/DTD164_Back.png – DTD164 – N – C, /DTD164_Back_Marvel.png – DTD164 – N – C – EA"
 ,DTD165,DTD,Shroud of Darkness,,,,,,,C,"Shadow, Equipment, Head",Blood Debt,,,,,,"If your hero would be dealt damage, you may banish this to prevent 2 of that damage.
 
 **Blood Debt**",,Shadow Equipment – Head,Sebastian Szmyd,,,,,S – DTD165 – N,,/DTD165.png – DTD165 – N
@@ -611,7 +611,7 @@ Target hero banishes the top card of their deck. If it’s blue, they lost 1{g}.
 **Go again**",,Shadow Action,Mateusz Wisniewski,,,,,S – DTD192 – N,,/DTD192.png – DTD192 – N
 ,DTD193,DTD,"Nasreth, the Soul Harrower",,,6,,6,,"C, V","Shadow, Token, Demon, Ally","Once per Turn Action, Attack",,,,,,"**Once per Turn Action – 0: Attack**
 
-When Nasreth hits a hero, banish a card from their soul. If a Light card is banished this way, gain 1{l}.",,Shadow Token – Demon Ally,Isuardi Therianto,,,,,C - DTD193 – N – EA,,/DTD193_Marvel.png – DTD193 – N – C – EA
+When Nasreth hits a hero, banish a card from their soul. If a Light card is banished this way, gain 1{l}.",,Shadow Token – Demon Ally,Isuardi Therianto,,,,,"C - DTD193 – N – EA, C – DTD193 – N",,"/DTD193_Marvel.png – DTD193 – N – C – EA, /DTD193.png – DTD193 – N"
 jrcdWNnMQCtrjQqKjd9Fw,"FAB118, BRI003, ELE109, DTD194","FAB, BRI, ELE, DTD",Embodiment of Earth,,,,,,,"P, T, T","Elemental, Token, Aura",,,,,,,"'Non-attack' action cards you control have +1{d} while defending.
 
 At the beginning of your action phase, destroy Embodiment of Earth.",,Elemental Token – Aura,Othon Nikolaidis,,,,,"C - FAB118 - N, S - BRI003 - N, S - ELE109 - F, S - ELE109 – U, S – DTD194 – N","crLDqnwMqBjddQ9mRHDMn - FAB118 - N, wgPCprWkFMGJzc8hgKKnK - BRI003 - N, 7BKrjc8RnChRWMpWGQgn8 - ELE109 - F, Jj8KpfNKPBPmrCp8MwLbT - ELE109 - U","https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB118.png - FAB118 – N – C, https://storage.googleapis.com/fabmaster/media/images/BRI003.width-450.png - BRI003 - N, https://storage.googleapis.com/fabmaster/media/images/ELE109.width-450.png - ELE109 - F, https://storage.googleapis.com/fabmaster/media/images/U-ELE109.width-450.png - ELE109 – U, /DTD194.png – DTD194 – N"
@@ -686,16 +686,20 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
 ,DTD216,DTD,Reality Refractor,,,,,,,R,"Illusionist, Weapon, Orb, 2H",,,,,,,"Illusionist auras you control are weapons with 5 base {p} and ""Once per Turn Action - {r}{r}: Attack""",,Illusionist Weapon – Orb (2H),Enmoire,,,,,S – DTD216 - N,,/DTD216.png – DTD216 – N
 ,DTD217,DTD,Diadem of Dreamstate,,,,,,,L,"Illusionist, Equipment, Head",Ward 2,,,,,,"Once per turn, when this or a non-token permanent you control with ward is destroyed, you may pay {r}. If you do, create a Ponder token.
 
-**Ward 2**",,Illusionist Equipment – Head,Asur Misoa,,,,No,C – DTD217 – N,,/DTD217.png – DTD217 – N
+**Ward 2**",,Illusionist Equipment – Head,Asur Misoa,,,,No,"C – DTD217 – N, C – DTD217 – N – EA",,"/DTD217.png – DTD217 – N, /DTD217_EA.png – DTD217 – N – C – EA"
 ,DTD218,DTD,Flicker Trick,1,0,,5,,,M,"Illusionist, Defense Reaction",Mirage,,,,,,**Mirage**,,Illusionist Defense Reaction,Athiwut B.,,,,No,S - DTD218 - N,,/DTD218.png – DTD218 – N
 ,DTD219,DTD,Lost in Thought,1,1,,2,,,M,"Illusionist, Action",Go again,,,,,,"Look at target hero’s hand and choose an attack action card. If you do, they put that card on the bottom of their deck and they create a Ponder token.
 
 **Go again**",,Illusionist Action,Carlos Cruchaga,,,,No,S – DTD219 - N,,/DTD219.png – DTD219 – N
 ,DTD220,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD221,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD222,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD222,DTD,Frontline Helm,,,,2,,,R,"Generic, Equipment, Head",Blade Break,,,,,,"At the beginning of your end phase, put a -1{d} counter on this.
+
+**Blade Break**",,Generic Equipment – Head,Shen Fei,,,,,S – DTD222 – N,,/DTD222.png – DTD222 – N
 ,DTD223,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD224,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD224,DTD,Frontline Guantlets,,,,2,,,R,"Generic, Equipment, Arms",Blade Break,,,,,,"At the beginning of your end phase, put a -1{d} counter on this.
+
+**Blade Break**",,Generic Equipment – Arms,Shen Fei,,,,,S – DTD224 – N,,/DTD224.png – DTD224 – N
 ,DTD225,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD226,DTD,Censor,1,1,5,3,,,M,"Generic, Action, Attack",,,,,,,"When this hits a hero, name a card. They can’t play the named card until the end of their next turn.",,Generic Action – Attack,,,,,No,S – DTD226 – N,,/DTD226.png – DTD226 – N
 ,DTD227,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
