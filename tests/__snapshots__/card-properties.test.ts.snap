@@ -7674,7 +7674,7 @@ exports[`Check for unintentional updates Banneret of Resilience (banneret-of-res
     "Warrior",
   ],
   "cost": 0,
-  "defaultImage": "LGS179",
+  "defaultImage": "DTD054",
   "defense": 3,
   "functionalText": "**Solflare** - When this is **charged** to your hero's soul, the next action card you defend with this turn gets +1{d}.",
   "keywords": [
@@ -7692,13 +7692,20 @@ exports[`Check for unintentional updates Banneret of Resilience (banneret-of-res
       "set": "Promos",
       "treatment": "Extended Art",
     },
+    {
+      "identifier": "DTD054",
+      "image": "DTD054",
+      "set": "Dusk till Dawn",
+    },
   ],
   "rarities": [
     "Promo",
+    "Rare",
   ],
-  "rarity": "Promo",
+  "rarity": "Rare",
   "setIdentifiers": [
     "LGS179",
+    "DTD054",
   ],
   "sets": [
     "Promos",
@@ -7746,13 +7753,20 @@ exports[`Check for unintentional updates Banneret of Salvation (banneret-of-salv
       "set": "Promos",
       "treatment": "Extended Art",
     },
+    {
+      "identifier": "DTD055",
+      "image": "",
+      "set": "Dusk till Dawn",
+    },
   ],
   "rarities": [
     "Promo",
+    "Rare",
   ],
-  "rarity": "Promo",
+  "rarity": "Rare",
   "setIdentifiers": [
     "LGS180",
+    "DTD055",
   ],
   "sets": [
     "Promos",
@@ -7800,13 +7814,20 @@ exports[`Check for unintentional updates Banneret of Vigor (banneret-of-vigor-ye
       "set": "Promos",
       "treatment": "Extended Art",
     },
+    {
+      "identifier": "DTD056",
+      "image": "",
+      "set": "Dusk till Dawn",
+    },
   ],
   "rarities": [
     "Promo",
+    "Rare",
   ],
-  "rarity": "Promo",
+  "rarity": "Rare",
   "setIdentifiers": [
     "LGS181",
+    "DTD056",
   ],
   "sets": [
     "Promos",
@@ -17317,7 +17338,7 @@ exports[`Check for unintentional updates Boltyn (boltyn) vs snapshot 1`] = `
   "classes": [
     "Warrior",
   ],
-  "defaultImage": "MON030.width-450",
+  "defaultImage": "DTD045",
   "functionalText": "If you've **charged** this turn, attacks you control have +1{p} while defended by an attack action card.
 
 **Attack Reaction** - Banish a card from Boltyn's soul: Target attack with {p} greater than its base {p} gains **go again**.",
@@ -17353,6 +17374,11 @@ exports[`Check for unintentional updates Boltyn (boltyn) vs snapshot 1`] = `
       "image": "U-MON030.width-450",
       "set": "Monarch",
     },
+    {
+      "identifier": "DTD045",
+      "image": "DTD045",
+      "set": "Dusk till Dawn",
+    },
   ],
   "rarities": [
     "Promo",
@@ -17367,11 +17393,13 @@ exports[`Check for unintentional updates Boltyn (boltyn) vs snapshot 1`] = `
     "HER035",
     "BOL001",
     "MON030",
+    "DTD045",
   ],
   "sets": [
     "Promos",
     "Boltyn Blitz Deck",
     "Monarch",
+    "Dusk till Dawn",
   ],
   "specialImage": "MON030.width-450",
   "subtypes": [
@@ -41362,7 +41390,7 @@ exports[`Check for unintentional updates Embodiment of Earth (embodiment-of-eart
   "classes": [
     "NotClassed",
   ],
-  "defaultImage": "ELE109.width-450",
+  "defaultImage": "DTD194",
   "functionalText": "'Non-attack' action cards you control have +1{d} while defending.
 
 At the beginning of your action phase, destroy Embodiment of Earth.",
@@ -41391,6 +41419,11 @@ At the beginning of your action phase, destroy Embodiment of Earth.",
       "image": "U-ELE109.width-450",
       "set": "Tales of Aria",
     },
+    {
+      "identifier": "DTD194",
+      "image": "DTD194",
+      "set": "Dusk till Dawn",
+    },
   ],
   "rarities": [
     "Promo",
@@ -41401,11 +41434,13 @@ At the beginning of your action phase, destroy Embodiment of Earth.",
     "FAB118",
     "BRI003",
     "ELE109",
+    "DTD194",
   ],
   "sets": [
     "Promos",
     "Briar Blitz Deck",
     "Tales of Aria",
+    "Dusk till Dawn",
   ],
   "specialImage": "ELE109.width-450",
   "subtypes": [
@@ -41430,7 +41465,7 @@ exports[`Check for unintentional updates Embodiment of Lightning (embodiment-of-
   "classes": [
     "NotClassed",
   ],
-  "defaultImage": "ELE110.width-450",
+  "defaultImage": "DTD195",
   "functionalText": "When you play an attack action card, destroy Embodiment of Lightning and the attack gains **go again**.",
   "keywords": [
     "Go again",
@@ -41460,6 +41495,11 @@ exports[`Check for unintentional updates Embodiment of Lightning (embodiment-of-
       "image": "U-ELE110.width-450",
       "set": "Tales of Aria",
     },
+    {
+      "identifier": "DTD195",
+      "image": "DTD195",
+      "set": "Dusk till Dawn",
+    },
   ],
   "rarities": [
     "Promo",
@@ -41470,11 +41510,13 @@ exports[`Check for unintentional updates Embodiment of Lightning (embodiment-of-
     "FAB119",
     "BRI002",
     "ELE110",
+    "DTD195",
   ],
   "sets": [
     "Promos",
     "Briar Blitz Deck",
     "Tales of Aria",
+    "Dusk till Dawn",
   ],
   "specialImage": "ELE110.width-450",
   "subtypes": [
@@ -59780,6 +59822,12 @@ If Herald of Judgment hits, put it into your hero's soul and the defending hero 
   "power": 6,
   "printings": [
     {
+      "identifier": "DTD013",
+      "image": "DTD014",
+      "set": "Dusk till Dawn",
+      "treatment": "Extended Art",
+    },
+    {
       "foiling": "Rainbow",
       "identifier": "FAB028",
       "image": "FAB028",
@@ -59819,24 +59867,26 @@ If Herald of Judgment hits, put it into your hero's soul and the defending hero 
     },
   ],
   "rarities": [
-    "Promo",
     "Rare",
+    "Promo",
   ],
   "rarity": "Rare",
   "restrictedFormats": [
     "Commoner",
   ],
   "setIdentifiers": [
+    "DTD013",
     "FAB028",
     "PSM008",
     "MON007",
   ],
   "sets": [
+    "Dusk till Dawn",
     "Promos",
     "Prism Blitz Deck",
     "Monarch",
   ],
-  "specialImage": "FAB028",
+  "specialImage": "DTD014",
   "specializations": [
     "Prism",
   ],
@@ -59875,6 +59925,12 @@ exports[`Check for unintentional updates Herald of Protection (herald-of-protect
   "pitch": 3,
   "power": 5,
   "printings": [
+    {
+      "identifier": "DTD016",
+      "image": "DTD016",
+      "set": "Dusk till Dawn",
+      "treatment": "Extended Art",
+    },
     {
       "foiling": "Rainbow",
       "identifier": "FAB031",
@@ -59915,21 +59971,24 @@ exports[`Check for unintentional updates Herald of Protection (herald-of-protect
     },
   ],
   "rarities": [
+    "Rare",
     "Promo",
     "Common",
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "DTD016",
     "FAB031",
     "PSM016",
     "MON016",
   ],
   "sets": [
+    "Dusk till Dawn",
     "Promos",
     "Prism Blitz Deck",
     "Monarch",
   ],
-  "specialImage": "FAB031",
+  "specialImage": "DTD016",
   "subtypes": [
     "Attack",
   ],
@@ -59965,6 +60024,12 @@ exports[`Check for unintentional updates Herald of Protection (herald-of-protect
   "pitch": 1,
   "power": 7,
   "printings": [
+    {
+      "identifier": "DTD014",
+      "image": "DTD014",
+      "set": "Dusk till Dawn",
+      "treatment": "Extended Art",
+    },
     {
       "foiling": "Rainbow",
       "identifier": "FAB029",
@@ -60005,21 +60070,24 @@ exports[`Check for unintentional updates Herald of Protection (herald-of-protect
     },
   ],
   "rarities": [
+    "Rare",
     "Promo",
     "Common",
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "DTD014",
     "FAB029",
     "PSM009",
     "MON014",
   ],
   "sets": [
+    "Dusk till Dawn",
     "Promos",
     "Prism Blitz Deck",
     "Monarch",
   ],
-  "specialImage": "FAB029",
+  "specialImage": "DTD014",
   "subtypes": [
     "Attack",
   ],
@@ -60056,6 +60124,12 @@ exports[`Check for unintentional updates Herald of Protection (herald-of-protect
   "power": 6,
   "printings": [
     {
+      "identifier": "DTD015",
+      "image": "DTD015",
+      "set": "Dusk till Dawn",
+      "treatment": "Extended Art",
+    },
+    {
       "foiling": "Rainbow",
       "identifier": "FAB030",
       "image": "FAB030",
@@ -60090,19 +60164,22 @@ exports[`Check for unintentional updates Herald of Protection (herald-of-protect
     },
   ],
   "rarities": [
+    "Rare",
     "Promo",
     "Common",
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "DTD015",
     "FAB030",
     "MON015",
   ],
   "sets": [
+    "Dusk till Dawn",
     "Promos",
     "Monarch",
   ],
-  "specialImage": "FAB030",
+  "specialImage": "DTD015",
   "subtypes": [
     "Attack",
   ],
@@ -60139,6 +60216,12 @@ exports[`Check for unintentional updates Herald of Ravages (herald-of-ravages-bl
   "power": 5,
   "printings": [
     {
+      "identifier": "DTD019",
+      "image": "DTD019",
+      "set": "Dusk till Dawn",
+      "treatment": "Extended Art",
+    },
+    {
       "identifier": "PSM017",
       "image": "PSM017.width-450",
       "set": "Prism Blitz Deck",
@@ -60171,18 +60254,21 @@ exports[`Check for unintentional updates Herald of Ravages (herald-of-ravages-bl
     },
   ],
   "rarities": [
+    "Rare",
     "Common",
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "DTD019",
     "PSM017",
     "MON019",
   ],
   "sets": [
+    "Dusk till Dawn",
     "Prism Blitz Deck",
     "Monarch",
   ],
-  "specialImage": "456b443654yteb65764.width-450",
+  "specialImage": "DTD019",
   "subtypes": [
     "Attack",
   ],
@@ -60219,6 +60305,12 @@ exports[`Check for unintentional updates Herald of Ravages (herald-of-ravages-re
   "power": 7,
   "printings": [
     {
+      "identifier": "DTD017",
+      "image": "DTD017",
+      "set": "Dusk till Dawn",
+      "treatment": "Extended Art",
+    },
+    {
       "identifier": "PSM010",
       "image": "PSM010.width-450",
       "set": "Prism Blitz Deck",
@@ -60251,18 +60343,21 @@ exports[`Check for unintentional updates Herald of Ravages (herald-of-ravages-re
     },
   ],
   "rarities": [
+    "Rare",
     "Common",
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "DTD017",
     "PSM010",
     "MON017",
   ],
   "sets": [
+    "Dusk till Dawn",
     "Prism Blitz Deck",
     "Monarch",
   ],
-  "specialImage": "9986165132..223435430.width-450",
+  "specialImage": "DTD017",
   "subtypes": [
     "Attack",
   ],
@@ -60299,6 +60394,12 @@ exports[`Check for unintentional updates Herald of Ravages (herald-of-ravages-ye
   "power": 6,
   "printings": [
     {
+      "identifier": "DTD018",
+      "image": "DTD018",
+      "set": "Dusk till Dawn",
+      "treatment": "Extended Art",
+    },
+    {
       "edition": "First",
       "identifier": "MON018",
       "image": "23fgw5465b464.width-450",
@@ -60326,16 +60427,19 @@ exports[`Check for unintentional updates Herald of Ravages (herald-of-ravages-ye
     },
   ],
   "rarities": [
+    "Rare",
     "Common",
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "DTD018",
     "MON018",
   ],
   "sets": [
+    "Dusk till Dawn",
     "Monarch",
   ],
-  "specialImage": "23fgw5465b464.width-450",
+  "specialImage": "DTD018",
   "subtypes": [
     "Attack",
   ],
@@ -60371,6 +60475,12 @@ exports[`Check for unintentional updates Herald of Rebirth (herald-of-rebirth-bl
   "pitch": 3,
   "power": 5,
   "printings": [
+    {
+      "identifier": "DTD022",
+      "image": "DTD022",
+      "set": "Dusk till Dawn",
+      "treatment": "Extended Art",
+    },
     {
       "foiling": "Rainbow",
       "identifier": "FAB034",
@@ -60411,21 +60521,24 @@ exports[`Check for unintentional updates Herald of Rebirth (herald-of-rebirth-bl
     },
   ],
   "rarities": [
+    "Rare",
     "Promo",
     "Common",
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "DTD022",
     "FAB034",
     "PSM018",
     "MON022",
   ],
   "sets": [
+    "Dusk till Dawn",
     "Promos",
     "Prism Blitz Deck",
     "Monarch",
   ],
-  "specialImage": "FAB034",
+  "specialImage": "DTD022",
   "subtypes": [
     "Attack",
   ],
@@ -60461,6 +60574,12 @@ exports[`Check for unintentional updates Herald of Rebirth (herald-of-rebirth-re
   "pitch": 1,
   "power": 7,
   "printings": [
+    {
+      "identifier": "DTD020",
+      "image": "DTD020",
+      "set": "Dusk till Dawn",
+      "treatment": "Extended Art",
+    },
     {
       "foiling": "Rainbow",
       "identifier": "FAB032",
@@ -60501,21 +60620,24 @@ exports[`Check for unintentional updates Herald of Rebirth (herald-of-rebirth-re
     },
   ],
   "rarities": [
+    "Rare",
     "Promo",
     "Common",
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "DTD020",
     "FAB032",
     "PSM011",
     "MON020",
   ],
   "sets": [
+    "Dusk till Dawn",
     "Promos",
     "Prism Blitz Deck",
     "Monarch",
   ],
-  "specialImage": "FAB032",
+  "specialImage": "DTD020",
   "subtypes": [
     "Attack",
   ],
@@ -60552,6 +60674,12 @@ exports[`Check for unintentional updates Herald of Rebirth (herald-of-rebirth-ye
   "power": 6,
   "printings": [
     {
+      "identifier": "DTD021",
+      "image": "DTD021",
+      "set": "Dusk till Dawn",
+      "treatment": "Extended Art",
+    },
+    {
       "foiling": "Rainbow",
       "identifier": "FAB033",
       "image": "FAB033",
@@ -60586,19 +60714,22 @@ exports[`Check for unintentional updates Herald of Rebirth (herald-of-rebirth-ye
     },
   ],
   "rarities": [
+    "Rare",
     "Promo",
     "Common",
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "DTD021",
     "FAB033",
     "MON021",
   ],
   "sets": [
+    "Dusk till Dawn",
     "Promos",
     "Monarch",
   ],
-  "specialImage": "FAB033",
+  "specialImage": "DTD021",
   "subtypes": [
     "Attack",
   ],
@@ -60638,6 +60769,12 @@ If Herald of Tenacity hits, put it into your hero's soul.
   "power": 4,
   "printings": [
     {
+      "identifier": "DTD025",
+      "image": "DTD025",
+      "set": "Dusk till Dawn",
+      "treatment": "Extended Art",
+    },
+    {
       "identifier": "PSM019",
       "image": "PSM019.width-450",
       "set": "Prism Blitz Deck",
@@ -60670,18 +60807,21 @@ If Herald of Tenacity hits, put it into your hero's soul.
     },
   ],
   "rarities": [
+    "Rare",
     "Common",
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "DTD025",
     "PSM019",
     "MON025",
   ],
   "sets": [
+    "Dusk till Dawn",
     "Prism Blitz Deck",
     "Monarch",
   ],
-  "specialImage": "MON025.width-450",
+  "specialImage": "DTD025",
   "subtypes": [
     "Attack",
   ],
@@ -60721,6 +60861,12 @@ If Herald of Tenacity hits, put it into your hero's soul.
   "power": 6,
   "printings": [
     {
+      "identifier": "DTD023",
+      "image": "DTD023",
+      "set": "Dusk till Dawn",
+      "treatment": "Extended Art",
+    },
+    {
       "identifier": "PSM012",
       "image": "PSM012.width-450",
       "set": "Prism Blitz Deck",
@@ -60753,18 +60899,21 @@ If Herald of Tenacity hits, put it into your hero's soul.
     },
   ],
   "rarities": [
+    "Rare",
     "Common",
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "DTD023",
     "PSM012",
     "MON023",
   ],
   "sets": [
+    "Dusk till Dawn",
     "Prism Blitz Deck",
     "Monarch",
   ],
-  "specialImage": "MON023.width-450",
+  "specialImage": "DTD023",
   "subtypes": [
     "Attack",
   ],
@@ -60804,6 +60953,12 @@ If Herald of Tenacity hits, put it into your hero's soul.
   "power": 5,
   "printings": [
     {
+      "identifier": "DTD024",
+      "image": "DTD024",
+      "set": "Dusk till Dawn",
+      "treatment": "Extended Art",
+    },
+    {
       "edition": "First",
       "identifier": "MON024",
       "image": "MON024.width-450",
@@ -60831,16 +60986,19 @@ If Herald of Tenacity hits, put it into your hero's soul.
     },
   ],
   "rarities": [
+    "Rare",
     "Common",
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "DTD024",
     "MON024",
   ],
   "sets": [
+    "Dusk till Dawn",
     "Monarch",
   ],
-  "specialImage": "MON024.width-450",
+  "specialImage": "DTD024",
   "subtypes": [
     "Attack",
   ],
@@ -60879,6 +61037,12 @@ If Herald of Triumph hits, put it into your hero's soul.
   "power": 5,
   "printings": [
     {
+      "identifier": "DTD028",
+      "image": "DTD028",
+      "set": "Dusk till Dawn",
+      "treatment": "Extended Art",
+    },
+    {
       "edition": "First",
       "identifier": "MON010",
       "image": "MON010.width-450",
@@ -60913,12 +61077,14 @@ If Herald of Triumph hits, put it into your hero's soul.
     "Commoner",
   ],
   "setIdentifiers": [
+    "DTD028",
     "MON010",
   ],
   "sets": [
+    "Dusk till Dawn",
     "Monarch",
   ],
-  "specialImage": "MON010.width-450",
+  "specialImage": "DTD028",
   "subtypes": [
     "Attack",
   ],
@@ -60957,6 +61123,12 @@ If Herald of Triumph hits, put it into your hero's soul.
   "power": 7,
   "printings": [
     {
+      "identifier": "DTD026",
+      "image": "DTD026",
+      "set": "Dusk till Dawn",
+      "treatment": "Extended Art",
+    },
+    {
       "edition": "First",
       "identifier": "MON008",
       "image": "MON008.width-450",
@@ -60991,12 +61163,14 @@ If Herald of Triumph hits, put it into your hero's soul.
     "Commoner",
   ],
   "setIdentifiers": [
+    "DTD026",
     "MON008",
   ],
   "sets": [
+    "Dusk till Dawn",
     "Monarch",
   ],
-  "specialImage": "MON008.width-450",
+  "specialImage": "DTD026",
   "subtypes": [
     "Attack",
   ],
@@ -61035,6 +61209,12 @@ If Herald of Triumph hits, put it into your hero's soul.
   "power": 6,
   "printings": [
     {
+      "identifier": "DTD027",
+      "image": "DTD027",
+      "set": "Dusk till Dawn",
+      "treatment": "Extended Art",
+    },
+    {
       "edition": "First",
       "identifier": "MON009",
       "image": "MON009.width-450",
@@ -61069,12 +61249,14 @@ If Herald of Triumph hits, put it into your hero's soul.
     "Commoner",
   ],
   "setIdentifiers": [
+    "DTD027",
     "MON009",
   ],
   "sets": [
+    "Dusk till Dawn",
     "Monarch",
   ],
-  "specialImage": "MON009.width-450",
+  "specialImage": "DTD027",
   "subtypes": [
     "Attack",
   ],
@@ -73301,7 +73483,7 @@ exports[`Check for unintentional updates Levia (levia) vs snapshot 1`] = `
   "classes": [
     "Brute",
   ],
-  "defaultImage": "QB393QB0F93d2Hhhs5Cf_iMdCfa8qpl1J91FOlwlsYvSnv.width-450",
+  "defaultImage": "DTD104",
   "functionalText": "If a card with 6 or more {p} has been put into your banished zone this turn, cards you own lose **blood debt** during the end phase.",
   "hero": "Levia",
   "intellect": 4,
@@ -73332,6 +73514,11 @@ exports[`Check for unintentional updates Levia (levia) vs snapshot 1`] = `
       "image": "U-MON120.width-450",
       "set": "Monarch",
     },
+    {
+      "identifier": "DTD104",
+      "image": "DTD104",
+      "set": "Dusk till Dawn",
+    },
   ],
   "rarities": [
     "Promo",
@@ -73346,11 +73533,13 @@ exports[`Check for unintentional updates Levia (levia) vs snapshot 1`] = `
     "HER036",
     "LEV001",
     "MON120",
+    "DTD104",
   ],
   "sets": [
     "Promos",
     "Levia Blitz Deck",
     "Monarch",
+    "Dusk till Dawn",
   ],
   "specialImage": "QB393QB0F93d2Hhhs5Cf_iMdCfa8qpl1J91FOlwlsYvSnv.width-450",
   "subtypes": [
@@ -73436,13 +73625,18 @@ exports[`Check for unintentional updates Levia, Shadowborn Abomination (levia-sh
   "classes": [
     "Brute",
   ],
-  "defaultImage": "Mty2ZQtPLgqDHz9EjdOMHZOUJhISA3s8RIgr3lus4KTmVq.width-450",
+  "defaultImage": "DTD103",
   "functionalText": "If a card with 6 or more {p} has been put into your banished zone this turn, cards you own lose **blood debt** during the end phase.",
   "hero": "Levia",
   "intellect": 4,
   "life": 40,
   "name": "Levia, Shadowborn Abomination",
   "printings": [
+    {
+      "identifier": "DTD103",
+      "image": "DTD103",
+      "set": "Dusk till Dawn",
+    },
     {
       "foiling": "Cold",
       "identifier": "HER032",
@@ -73475,6 +73669,7 @@ exports[`Check for unintentional updates Levia, Shadowborn Abomination (levia-sh
     },
   ],
   "rarities": [
+    "Common",
     "Promo",
     "Token",
   ],
@@ -73484,12 +73679,14 @@ exports[`Check for unintentional updates Levia, Shadowborn Abomination (levia-sh
     "Commoner",
   ],
   "setIdentifiers": [
+    "DTD103",
     "HER032",
     "HER040",
     "WIN011",
     "MON119",
   ],
   "sets": [
+    "Dusk till Dawn",
     "Promos",
     "Monarch",
   ],
@@ -76229,7 +76426,7 @@ exports[`Check for unintentional updates Lunging Press (lunging-press-blue) vs s
     "Common",
     "Rare",
   ],
-  "rarity": "Rare",
+  "rarity": "Common",
   "setIdentifiers": [
     "IRA011",
     "KSU028",
@@ -96204,13 +96401,18 @@ exports[`Check for unintentional updates Quicken (quicken) vs snapshot 1`] = `
   "classes": [
     "Generic",
   ],
-  "defaultImage": "EVR196.width-450",
+  "defaultImage": "DTD234",
   "functionalText": "When you play an attack action card or activate a weapon attack, destroy Quicken and the attack gains **go again**.",
   "keywords": [
     "Go again",
   ],
   "name": "Quicken",
   "printings": [
+    {
+      "identifier": "DTD234",
+      "image": "DTD234",
+      "set": "Dusk till Dawn",
+    },
     {
       "identifier": "XXX009",
       "image": "XXX009",
@@ -96270,12 +96472,13 @@ exports[`Check for unintentional updates Quicken (quicken) vs snapshot 1`] = `
     },
   ],
   "rarities": [
+    "Common",
     "Promo",
     "Token",
-    "Common",
   ],
   "rarity": "Token",
   "setIdentifiers": [
+    "DTD234",
     "XXX009",
     "RNR031",
     "TEA030",
@@ -96286,6 +96489,7 @@ exports[`Check for unintentional updates Quicken (quicken) vs snapshot 1`] = `
     "EVR196",
   ],
   "sets": [
+    "Dusk till Dawn",
     "Promos",
     "Rhinar Hero Deck",
     "Dorinthea Hero Deck",
@@ -108756,10 +108960,15 @@ exports[`Check for unintentional updates Runechant (runechant) vs snapshot 1`] =
   "classes": [
     "Runeblade",
   ],
-  "defaultImage": "DYN191",
+  "defaultImage": "DTD214",
   "functionalText": "When you play an attack action card or activate a weapon attack, destroy Runechant and deal 1 arcane damage to target opposing hero.",
   "name": "Runechant",
   "printings": [
+    {
+      "identifier": "DTD214",
+      "image": "DTD214",
+      "set": "Dusk till Dawn",
+    },
     {
       "identifier": "1HP300",
       "image": "1HP300.width-450",
@@ -108816,6 +109025,7 @@ exports[`Check for unintentional updates Runechant (runechant) vs snapshot 1`] =
   ],
   "rarity": "Token",
   "setIdentifiers": [
+    "DTD214",
     "1HP300",
     "ARC112",
     "CRU157",
@@ -108823,6 +109033,7 @@ exports[`Check for unintentional updates Runechant (runechant) vs snapshot 1`] =
     "DYN191",
   ],
   "sets": [
+    "Dusk till Dawn",
     "History Pack 1",
     "Arcane Rising",
     "Crucible of War",
@@ -114142,7 +114353,7 @@ exports[`Check for unintentional updates Seek Horizon (seek-horizon-blue) vs sna
     "Rare",
     "Common",
   ],
-  "rarity": "Rare",
+  "rarity": "Common",
   "setIdentifiers": [
     "MON253",
     "OUT218",
@@ -114223,7 +114434,7 @@ exports[`Check for unintentional updates Seek Horizon (seek-horizon-red) vs snap
     "Rare",
     "Common",
   ],
-  "rarity": "Rare",
+  "rarity": "Common",
   "setIdentifiers": [
     "MON251",
     "OUT216",
@@ -114301,7 +114512,7 @@ exports[`Check for unintentional updates Seek Horizon (seek-horizon-yellow) vs s
     "Rare",
     "Common",
   ],
-  "rarity": "Rare",
+  "rarity": "Common",
   "setIdentifiers": [
     "MON252",
     "OUT217",
@@ -115090,10 +115301,15 @@ exports[`Check for unintentional updates Seismic Surge (seismic-surge) vs snapsh
   "classes": [
     "Guardian",
   ],
-  "defaultImage": "EVR036.width-450",
+  "defaultImage": "DTD204",
   "functionalText": "At the beginning of your action phase, destroy Seismic Surge then the next Guardian attack action card you play this turn costs {r} less to play.",
   "name": "Seismic Surge",
   "printings": [
+    {
+      "identifier": "DTD204",
+      "image": "DTD204",
+      "set": "Dusk till Dawn",
+    },
     {
       "identifier": "OLD032",
       "image": "OLD032.width-450",
@@ -115150,11 +115366,12 @@ exports[`Check for unintentional updates Seismic Surge (seismic-surge) vs snapsh
     },
   ],
   "rarities": [
-    "Token",
     "Common",
+    "Token",
   ],
   "rarity": "Token",
   "setIdentifiers": [
+    "DTD204",
     "OLD032",
     "1HP085",
     "WTR075",
@@ -115163,6 +115380,7 @@ exports[`Check for unintentional updates Seismic Surge (seismic-surge) vs snapsh
     "EVR036",
   ],
   "sets": [
+    "Dusk till Dawn",
     "Oldhim Blitz Deck",
     "History Pack 1",
     "Welcome to Rathe",
@@ -115303,7 +115521,7 @@ exports[`Check for unintentional updates Ser Boltyn, Breaker of Dawn (ser-boltyn
   "classes": [
     "Warrior",
   ],
-  "defaultImage": "MON029.width-450",
+  "defaultImage": "DTD044",
   "functionalText": "If you've **charged** this turn, attacks you control have +1{p} while defended by an attack action card.
 
 **Attack Reaction** - Banish a card from Boltyn's soul: Target attack with {p} greater than its base {p} gains **go again**.",
@@ -115315,6 +115533,11 @@ exports[`Check for unintentional updates Ser Boltyn, Breaker of Dawn (ser-boltyn
   "life": 40,
   "name": "Ser Boltyn, Breaker of Dawn",
   "printings": [
+    {
+      "identifier": "DTD044",
+      "image": "DTD044",
+      "set": "Dusk till Dawn",
+    },
     {
       "foiling": "Cold",
       "identifier": "HER031",
@@ -115347,6 +115570,7 @@ exports[`Check for unintentional updates Ser Boltyn, Breaker of Dawn (ser-boltyn
     },
   ],
   "rarities": [
+    "Common",
     "Promo",
     "Token",
   ],
@@ -115356,12 +115580,14 @@ exports[`Check for unintentional updates Ser Boltyn, Breaker of Dawn (ser-boltyn
     "Commoner",
   ],
   "setIdentifiers": [
+    "DTD044",
     "HER031",
     "HER039",
     "WIN010",
     "MON029",
   ],
   "sets": [
+    "Dusk till Dawn",
     "Promos",
     "Monarch",
   ],
@@ -126244,6 +126470,11 @@ exports[`Check for unintentional updates Spectral Shield (spectral-shield) vs sn
   "name": "Spectral Shield",
   "printings": [
     {
+      "identifier": "DTD220",
+      "image": "DTD220",
+      "set": "Dusk till Dawn",
+    },
+    {
       "foiling": "Cold",
       "identifier": "FAB082",
       "image": "FAB082",
@@ -126286,12 +126517,13 @@ exports[`Check for unintentional updates Spectral Shield (spectral-shield) vs sn
     },
   ],
   "rarities": [
+    "Common",
     "Promo",
     "Token",
-    "Common",
   ],
   "rarity": "Token",
   "setIdentifiers": [
+    "DTD220",
     "FAB082",
     "PSM030",
     "MON104",
@@ -126299,6 +126531,7 @@ exports[`Check for unintentional updates Spectral Shield (spectral-shield) vs sn
     "DYN233",
   ],
   "sets": [
+    "Dusk till Dawn",
     "Promos",
     "Prism Blitz Deck",
     "Monarch",
@@ -126577,7 +126810,7 @@ exports[`Check for unintentional updates Spellbane Aegis (spellbane-aegis) vs sn
   "classes": [
     "Generic",
   ],
-  "defaultImage": "DYN246",
+  "defaultImage": "DTD235",
   "functionalText": "**Spellvoid 1**",
   "keywords": [
     "Spellvoid",
@@ -126595,6 +126828,11 @@ exports[`Check for unintentional updates Spellbane Aegis (spellbane-aegis) vs sn
       "image": "DYN246",
       "set": "Dynasty",
     },
+    {
+      "identifier": "DTD235",
+      "image": "DTD235",
+      "set": "Dusk till Dawn",
+    },
   ],
   "rarities": [
     "Common",
@@ -126602,9 +126840,11 @@ exports[`Check for unintentional updates Spellbane Aegis (spellbane-aegis) vs sn
   "rarity": "Common",
   "setIdentifiers": [
     "DYN246",
+    "DTD235",
   ],
   "sets": [
     "Dynasty",
+    "Dusk till Dawn",
   ],
   "specialImage": "DYN246",
   "subtypes": [
@@ -128952,7 +129192,7 @@ exports[`Check for unintentional updates Springboard Somersault (springboard-som
     "Promo",
     "Rare",
   ],
-  "rarity": "Rare",
+  "rarity": "Common",
   "setIdentifiers": [
     "BVO015",
     "IRA012",
@@ -147674,6 +147914,56 @@ exports[`Check for unintentional updates Warmonger's Recital (warmongers-recital
 }
 `;
 
+exports[`Check for unintentional updates Warmonger’s Diplomacy (warmongers-diplomacy-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Carlos Cruchaga",
+  ],
+  "cardIdentifier": "warmongers-diplomacy-blue",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 0,
+  "defaultImage": "DTD230",
+  "defense": 3,
+  "functionalText": "Starting with the hero to your left, each hero chooses war or peace.
+
+If they choose war, the only actions they may play or activate during their next turn are weapon and attack actions.
+
+If they choose peace, the only actions they may play or activate during their next turn are non-weapon non-attack actions.",
+  "name": "Warmonger’s Diplomacy",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "DTD230",
+      "image": "DTD230",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD230",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD230",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Generic Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Warrior's Valor (warriors-valor-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -147955,6 +148245,12 @@ exports[`Check for unintentional updates Wartune Herald (wartune-herald-blue) vs
   "power": 5,
   "printings": [
     {
+      "identifier": "DTD031",
+      "image": "DTD031",
+      "set": "Dusk till Dawn",
+      "treatment": "Extended Art",
+    },
+    {
       "foiling": "Rainbow",
       "identifier": "FAB037",
       "image": "FAB037",
@@ -147994,21 +148290,24 @@ exports[`Check for unintentional updates Wartune Herald (wartune-herald-blue) vs
     },
   ],
   "rarities": [
+    "Rare",
     "Promo",
     "Common",
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "DTD031",
     "FAB037",
     "PSM020",
     "MON028",
   ],
   "sets": [
+    "Dusk till Dawn",
     "Promos",
     "Prism Blitz Deck",
     "Monarch",
   ],
-  "specialImage": "FAB037",
+  "specialImage": "DTD031",
   "subtypes": [
     "Attack",
   ],
@@ -148044,6 +148343,12 @@ exports[`Check for unintentional updates Wartune Herald (wartune-herald-red) vs 
   "pitch": 1,
   "power": 7,
   "printings": [
+    {
+      "identifier": "DTD029",
+      "image": "DTD029",
+      "set": "Dusk till Dawn",
+      "treatment": "Extended Art",
+    },
     {
       "foiling": "Rainbow",
       "identifier": "FAB035",
@@ -148084,21 +148389,24 @@ exports[`Check for unintentional updates Wartune Herald (wartune-herald-red) vs 
     },
   ],
   "rarities": [
+    "Rare",
     "Promo",
     "Common",
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "DTD029",
     "FAB035",
     "PSM013",
     "MON026",
   ],
   "sets": [
+    "Dusk till Dawn",
     "Promos",
     "Prism Blitz Deck",
     "Monarch",
   ],
-  "specialImage": "FAB035",
+  "specialImage": "DTD029",
   "subtypes": [
     "Attack",
   ],
@@ -148135,6 +148443,12 @@ exports[`Check for unintentional updates Wartune Herald (wartune-herald-yellow) 
   "power": 6,
   "printings": [
     {
+      "identifier": "DTD030",
+      "image": "DTD030",
+      "set": "Dusk till Dawn",
+      "treatment": "Extended Art",
+    },
+    {
       "foiling": "Rainbow",
       "identifier": "FAB036",
       "image": "FAB036",
@@ -148169,19 +148483,22 @@ exports[`Check for unintentional updates Wartune Herald (wartune-herald-yellow) 
     },
   ],
   "rarities": [
+    "Rare",
     "Promo",
     "Common",
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "DTD030",
     "FAB036",
     "MON027",
   ],
   "sets": [
+    "Dusk till Dawn",
     "Promos",
     "Monarch",
   ],
-  "specialImage": "FAB036",
+  "specialImage": "DTD030",
   "subtypes": [
     "Attack",
   ],
@@ -153591,7 +153908,7 @@ Whenever your hero would be dealt damage, prevent 1 damage that source would dea
     "Common",
     "Rare",
   ],
-  "rarity": "Rare",
+  "rarity": "Common",
   "setIdentifiers": [
     "1HP137",
     "CRU075",

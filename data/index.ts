@@ -193,129 +193,6 @@ Whenever an opponent plays or activates their first card or ability each turn, i
     
     
   },{
-    artists: ["Jessada Sutthi"],
-    cardIdentifier: "banneret-of-resilience-yellow",
-    classes: [Class.Warrior],
-    defaultImage: "LGS179",
-    name: "Banneret of Resilience",
-    printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS179",
-      image: "LGS179",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS179"],
-    sets: [Release.Promos,Release.DuskTillDawn],
-    specialImage: "LGS179",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Light Warrior Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Solflare** - When this is **charged** to your hero's soul, the next action card you defend with this turn gets +1{d}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Solflare,Keyword.Charge],
-    
-    
-    pitch: 2,
-    power: 3,
-    
-    
-    
-    
-    
-    talents: [Talent.Light],
-    
-  },{
-    artists: ["Jessada Sutthi"],
-    cardIdentifier: "banneret-of-salvation-yellow",
-    classes: [Class.Warrior],
-    defaultImage: "LGS180",
-    name: "Banneret of Salvation",
-    printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS180",
-      image: "LGS180",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS180"],
-    sets: [Release.Promos,Release.DuskTillDawn],
-    specialImage: "LGS180",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Light Warrior Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Solflare** - When this is **charged** to your hero's soul, the next time you hit this turn, gain 1{l}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Solflare,Keyword.Charge],
-    
-    
-    pitch: 2,
-    power: 3,
-    
-    
-    
-    
-    
-    talents: [Talent.Light],
-    
-  },{
-    artists: ["Jessada Sutthi"],
-    cardIdentifier: "banneret-of-vigor-yellow",
-    classes: [Class.Warrior],
-    defaultImage: "LGS181",
-    name: "Banneret of Vigor",
-    printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS181",
-      image: "LGS181",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS181"],
-    sets: [Release.Promos,Release.DuskTillDawn],
-    specialImage: "LGS181",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Light Warrior Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Solflare** - When this is **charged** to your hero's soul, the next time you hit this turn, gain {r}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Solflare,Keyword.Charge],
-    
-    
-    pitch: 2,
-    power: 3,
-    
-    
-    
-    
-    
-    talents: [Talent.Light],
-    
-  },{
     artists: ["Livia Prima"],
     cardIdentifier: "prism-awakener-of-sol",
     classes: [Class.Illusionist],
@@ -1826,6 +1703,73 @@ Your next angel attack this turn gets +1{p}.`,
     talents: [Talent.Light],
     
   },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "boltyn",
+    classes: [Class.Warrior],
+    defaultImage: "DTD045",
+    name: "Boltyn",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "HER035",
+      image: "HER035",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "BOL001",
+      image: "BOL001.width-450",
+      set: Release.BoltynBlitzDeck,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "MON030",
+      image: "MON030.width-450",
+      set: Release.Monarch,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "MON030",
+      image: "U-MON030.width-450",
+      set: Release.Monarch,
+      
+    },{
+      
+      identifier: "DTD045",
+      image: "DTD045",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["HER035","BOL001","MON030","DTD045"],
+    sets: [Release.Promos,Release.BoltynBlitzDeck,Release.Monarch,Release.DuskTillDawn],
+    specialImage: "MON030.width-450",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Light Warrior Hero – Young",
+
+    
+    
+    functionalText: `If you've **charged** this turn, attacks you control have +1{p} while defended by an attack action card.
+
+**Attack Reaction** - Banish a card from Boltyn's soul: Target attack with {p} greater than its base {p} gains **go again**.`,
+    
+    hero: Hero.Boltyn,
+    intellect: 4,
+    
+    keywords: [Keyword.GoAgain],
+    life: 20,
+    
+    
+    
+    restrictedFormats: [Format.ClassicConstructed],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    young: true
+  },{
     artists: ["Jessketchin"],
     cardIdentifier: "beaming-blade",
     classes: [Class.Warrior],
@@ -2179,6 +2123,147 @@ Reveal the top card of your deck. If it’s yellow, put it into your hand, then 
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Jessada Sutthi"],
+    cardIdentifier: "banneret-of-resilience-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "DTD054",
+    name: "Banneret of Resilience",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS179",
+      image: "LGS179",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      
+      identifier: "DTD054",
+      image: "DTD054",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["LGS179","DTD054"],
+    sets: [Release.Promos,Release.DuskTillDawn],
+    specialImage: "LGS179",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Warrior Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Solflare** - When this is **charged** to your hero's soul, the next action card you defend with this turn gets +1{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Solflare,Keyword.Charge],
+    
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Jessada Sutthi"],
+    cardIdentifier: "banneret-of-salvation-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "LGS180",
+    name: "Banneret of Salvation",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS180",
+      image: "LGS180",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      
+      identifier: "DTD055",
+      image: "",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["LGS180","DTD055"],
+    sets: [Release.Promos,Release.DuskTillDawn],
+    specialImage: "LGS180",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Warrior Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Solflare** - When this is **charged** to your hero's soul, the next time you hit this turn, gain 1{l}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Solflare,Keyword.Charge],
+    
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Jessada Sutthi"],
+    cardIdentifier: "banneret-of-vigor-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "LGS181",
+    name: "Banneret of Vigor",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS181",
+      image: "LGS181",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      
+      identifier: "DTD056",
+      image: "",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["LGS181","DTD056"],
+    sets: [Release.Promos,Release.DuskTillDawn],
+    specialImage: "LGS181",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Warrior Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Solflare** - When this is **charged** to your hero's soul, the next time you hit this turn, gain {r}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Solflare,Keyword.Charge],
+    
+    
+    pitch: 2,
+    power: 3,
+    
     
     
     
@@ -4125,6 +4210,71 @@ Destroy target blue aura.`,
     
     talents: [Talent.Light],
     
+  },{
+    artists: ["Wisnu Tan"],
+    cardIdentifier: "levia",
+    classes: [Class.Brute],
+    defaultImage: "DTD104",
+    name: "Levia",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "HER036",
+      image: "HER036",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "LEV001",
+      image: "LEV001.width-450",
+      set: Release.LeviaBlitzDeck,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "MON120",
+      image: "QB393QB0F93d2Hhhs5Cf_iMdCfa8qpl1J91FOlwlsYvSnv.width-450",
+      set: Release.Monarch,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "MON120",
+      image: "U-MON120.width-450",
+      set: Release.Monarch,
+      
+    },{
+      
+      identifier: "DTD104",
+      image: "DTD104",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["HER036","LEV001","MON120","DTD104"],
+    sets: [Release.Promos,Release.LeviaBlitzDeck,Release.Monarch,Release.DuskTillDawn],
+    specialImage: "QB393QB0F93d2Hhhs5Cf_iMdCfa8qpl1J91FOlwlsYvSnv.width-450",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Shadow Brute Hero – Young",
+
+    
+    
+    functionalText: `If a card with 6 or more {p} has been put into your banished zone this turn, cards you own lose **blood debt** during the end phase.`,
+    
+    hero: Hero.Levia,
+    intellect: 4,
+    
+    
+    life: 20,
+    
+    
+    
+    restrictedFormats: [Format.ClassicConstructed],
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    young: true
   },{
     artists: ["Lizhe Liang"],
     cardIdentifier: "hell-hammer",
@@ -8119,6 +8269,138 @@ When Nasreth hits a hero, banish a card from their soul. If a Light card is bani
     
   },{
     artists: ["Othon Nikolaidis"],
+    cardIdentifier: "embodiment-of-earth",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD194",
+    name: "Embodiment of Earth",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "FAB118",
+      image: "FAB118",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "BRI003",
+      image: "BRI003.width-450",
+      set: Release.BriarBlitzDeck,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "ELE109",
+      image: "ELE109.width-450",
+      set: Release.TalesOfAria,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ELE109",
+      image: "U-ELE109.width-450",
+      set: Release.TalesOfAria,
+      
+    },{
+      
+      identifier: "DTD194",
+      image: "DTD194",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["FAB118","BRI003","ELE109","DTD194"],
+    sets: [Release.Promos,Release.BriarBlitzDeck,Release.TalesOfAria,Release.DuskTillDawn],
+    specialImage: "ELE109.width-450",
+    subtypes: [Subtype.Aura],
+    types: [Type.Token],
+    typeText: "Elemental Token – Aura",
+
+    
+    
+    functionalText: `'Non-attack' action cards you control have +1{d} while defending.
+
+At the beginning of your action phase, destroy Embodiment of Earth.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Elemental],
+    
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "embodiment-of-lightning",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD195",
+    name: "Embodiment of Lightning",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "FAB119",
+      image: "FAB119",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "BRI002",
+      image: "BRI002.width-450",
+      set: Release.BriarBlitzDeck,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "ELE110",
+      image: "ELE110.width-450",
+      set: Release.TalesOfAria,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ELE110",
+      image: "U-ELE110.width-450",
+      set: Release.TalesOfAria,
+      
+    },{
+      
+      identifier: "DTD195",
+      image: "DTD195",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["FAB119","BRI002","ELE110","DTD195"],
+    sets: [Release.Promos,Release.BriarBlitzDeck,Release.TalesOfAria,Release.DuskTillDawn],
+    specialImage: "ELE110.width-450",
+    subtypes: [Subtype.Aura],
+    types: [Type.Token],
+    typeText: "Elemental Token – Aura",
+
+    
+    
+    functionalText: `When you play an attack action card, destroy Embodiment of Lightning and the attack gains **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Elemental],
+    
+  },{
+    artists: ["Othon Nikolaidis"],
     cardIdentifier: "anthem-of-spring-blue",
     classes: [Class.NotClassed],
     defaultImage: "DTD196",
@@ -9316,6 +9598,59 @@ If they choose peace, the only actions they may play or activate during their ne
     
     
     keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "spellbane-aegis",
+    classes: [Class.Generic],
+    defaultImage: "DTD235",
+    name: "Spellbane Aegis",
+    printings: [{
+      
+      identifier: "DYN246",
+      image: "DYN246",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN246",
+      image: "DYN246",
+      set: Release.Dynasty,
+      
+    },{
+      
+      identifier: "DTD235",
+      image: "DTD235",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DYN246","DTD235"],
+    sets: [Release.Dynasty,Release.DuskTillDawn],
+    specialImage: "DYN246",
+    subtypes: [Subtype.Aura],
+    types: [Type.Token],
+    typeText: "Generic Token – Aura",
+
+    
+    
+    functionalText: `**Spellvoid 1**`,
+    
+    
+    
+    
+    keywords: [Keyword.Spellvoid],
     
     
     
@@ -15215,9 +15550,15 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "seismic-surge",
     classes: [Class.Guardian],
-    defaultImage: "EVR036.width-450",
+    defaultImage: "DTD204",
     name: "Seismic Surge",
     printings: [{
+      
+      identifier: "DTD204",
+      image: "DTD204",
+      set: Release.DuskTillDawn,
+      
+    },{
       
       identifier: "OLD032",
       image: "OLD032.width-450",
@@ -15272,10 +15613,10 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
       set: Release.Everfest,
       
     },],
-    rarities: [Rarity.Token,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["OLD032","1HP085","WTR075","CRU044","ELE212","EVR036"],
-    sets: [Release.OldhimBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar,Release.TalesOfAria,Release.Everfest],
+    setIdentifiers: ["DTD204","OLD032","1HP085","WTR075","CRU044","ELE212","EVR036"],
+    sets: [Release.DuskTillDawn,Release.OldhimBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar,Release.TalesOfAria,Release.Everfest],
     specialImage: "CRU044",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
@@ -25970,9 +26311,15 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.`,
     artists: ["King Fung Ng"],
     cardIdentifier: "quicken",
     classes: [Class.Generic],
-    defaultImage: "EVR196.width-450",
+    defaultImage: "DTD234",
     name: "Quicken",
     printings: [{
+      
+      identifier: "DTD234",
+      image: "DTD234",
+      set: Release.DuskTillDawn,
+      
+    },{
       
       identifier: "XXX009",
       image: "XXX009",
@@ -26033,10 +26380,10 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.`,
       set: Release.Everfest,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["XXX009","RNR031","TEA030","DVR028","1HP427","WTR225","CRU196","EVR196"],
-    sets: [Release.Promos,Release.RhinarHeroDeck,Release.DorintheaHeroDeck,Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar,Release.Everfest],
+    setIdentifiers: ["DTD234","XXX009","RNR031","TEA030","DVR028","1HP427","WTR225","CRU196","EVR196"],
+    sets: [Release.DuskTillDawn,Release.Promos,Release.RhinarHeroDeck,Release.DorintheaHeroDeck,Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar,Release.Everfest],
     specialImage: "CRU196",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
@@ -33564,9 +33911,15 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     artists: ["Daniel Jiménez"],
     cardIdentifier: "runechant",
     classes: [Class.Runeblade],
-    defaultImage: "DYN191",
+    defaultImage: "DTD214",
     name: "Runechant",
     printings: [{
+      
+      identifier: "DTD214",
+      image: "DTD214",
+      set: Release.DuskTillDawn,
+      
+    },{
       
       identifier: "1HP300",
       image: "1HP300.width-450",
@@ -33617,8 +33970,8 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     },],
     rarities: [Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["1HP300","ARC112","CRU157","EVR119","DYN191"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar,Release.Everfest,Release.Dynasty],
+    setIdentifiers: ["DTD214","1HP300","ARC112","CRU157","EVR119","DYN191"],
+    sets: [Release.DuskTillDawn,Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar,Release.Everfest,Release.Dynasty],
     specialImage: "CRU157-RF",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
@@ -33868,7 +34221,8 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Anna Kharitonova"],
     cardIdentifier: "storm-striders",
     classes: [Class.Wizard],
@@ -34195,8 +34549,7 @@ If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "lesson-in-lava-yellow",
     classes: [Class.Wizard],
@@ -44849,7 +45202,7 @@ If Whirling Mist Blossom hits, and it's the second or higher chain link in a row
       
     },],
     rarities: [Rarity.Common,Rarity.Rare],
-    rarity: Rarity.Rare,
+    rarity: Rarity.Common,
     setIdentifiers: ["1HP137","CRU075"],
     sets: [Release.HistoryPack1,Release.CrucibleOfWar],
     specialImage: "CRU075",
@@ -51295,7 +51648,7 @@ If Promise of Plenty is played from arsenal, it gains **go again**.`,
       
     },],
     rarities: [Rarity.Promo,Rarity.Common,Rarity.Rare],
-    rarity: Rarity.Rare,
+    rarity: Rarity.Common,
     setIdentifiers: ["IRA011","KSU028","CRU186","BEN026","KAT026"],
     sets: [Release.IraWelcomeDeck,Release.KatsuHeroDeck,Release.CrucibleOfWar,Release.BenjiBlitzDeck,Release.KatsuBlitzDeck],
     specialImage: "CRU186",
@@ -51390,7 +51743,7 @@ If Promise of Plenty is played from arsenal, it gains **go again**.`,
       
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
-    rarity: Rarity.Rare,
+    rarity: Rarity.Common,
     setIdentifiers: ["BVO015","IRA012","KSU021","RNR022","TEA019","1HP374","CRU187"],
     sets: [Release.BravoBlitzDeck,Release.IraWelcomeDeck,Release.KatsuHeroDeck,Release.RhinarHeroDeck,Release.DorintheaHeroDeck,Release.HistoryPack1,Release.CrucibleOfWar],
     specialImage: "CRU187",
@@ -52379,6 +52732,12 @@ If Arc Light Sentinel is in the arena when an opponent announces an attack, they
     defaultImage: "MON007.width-450",
     name: "Herald of Judgment",
     printings: [{
+      
+      identifier: "DTD013",
+      image: "DTD014",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.EA,
+    },{
       foiling: Foiling.R,
       identifier: "FAB028",
       image: "FAB028",
@@ -52415,11 +52774,11 @@ If Arc Light Sentinel is in the arena when an opponent announces an attack, they
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Rare],
+    rarities: [Rarity.Rare,Rarity.Promo],
     rarity: Rarity.Rare,
-    setIdentifiers: ["FAB028","PSM008","MON007"],
-    sets: [Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
-    specialImage: "FAB028",
+    setIdentifiers: ["DTD013","FAB028","PSM008","MON007"],
+    sets: [Release.DuskTillDawn,Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
+    specialImage: "DTD014",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Light Illusionist Action – Attack",
@@ -52454,6 +52813,12 @@ If Herald of Judgment hits, put it into your hero's soul and the defending hero 
     defaultImage: "MON008.width-450",
     name: "Herald of Triumph",
     printings: [{
+      
+      identifier: "DTD026",
+      image: "DTD026",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.EA,
+    },{
       edition: ReleaseEdition.First,
       identifier: "MON008",
       image: "MON008.width-450",
@@ -52480,9 +52845,9 @@ If Herald of Judgment hits, put it into your hero's soul and the defending hero 
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["MON008"],
-    sets: [Release.Monarch],
-    specialImage: "MON008.width-450",
+    setIdentifiers: ["DTD026","MON008"],
+    sets: [Release.DuskTillDawn,Release.Monarch],
+    specialImage: "DTD026",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Light Illusionist Action – Attack",
@@ -52517,6 +52882,12 @@ If Herald of Triumph hits, put it into your hero's soul.
     defaultImage: "MON009.width-450",
     name: "Herald of Triumph",
     printings: [{
+      
+      identifier: "DTD027",
+      image: "DTD027",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.EA,
+    },{
       edition: ReleaseEdition.First,
       identifier: "MON009",
       image: "MON009.width-450",
@@ -52543,9 +52914,9 @@ If Herald of Triumph hits, put it into your hero's soul.
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["MON009"],
-    sets: [Release.Monarch],
-    specialImage: "MON009.width-450",
+    setIdentifiers: ["DTD027","MON009"],
+    sets: [Release.DuskTillDawn,Release.Monarch],
+    specialImage: "DTD027",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Light Illusionist Action – Attack",
@@ -52580,6 +52951,12 @@ If Herald of Triumph hits, put it into your hero's soul.
     defaultImage: "MON010.width-450",
     name: "Herald of Triumph",
     printings: [{
+      
+      identifier: "DTD028",
+      image: "DTD028",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.EA,
+    },{
       edition: ReleaseEdition.First,
       identifier: "MON010",
       image: "MON010.width-450",
@@ -52606,9 +52983,9 @@ If Herald of Triumph hits, put it into your hero's soul.
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["MON010"],
-    sets: [Release.Monarch],
-    specialImage: "MON010.width-450",
+    setIdentifiers: ["DTD028","MON010"],
+    sets: [Release.DuskTillDawn,Release.Monarch],
+    specialImage: "DTD028",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Light Illusionist Action – Attack",
@@ -52858,6 +53235,12 @@ Illusionist attack action cards you control have **go again**.
     defaultImage: "MON014.width-450",
     name: "Herald of Protection",
     printings: [{
+      
+      identifier: "DTD014",
+      image: "DTD014",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.EA,
+    },{
       foiling: Foiling.R,
       identifier: "FAB029",
       image: "FAB029",
@@ -52894,11 +53277,11 @@ Illusionist attack action cards you control have **go again**.
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Rare,Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["FAB029","PSM009","MON014"],
-    sets: [Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
-    specialImage: "FAB029",
+    setIdentifiers: ["DTD014","FAB029","PSM009","MON014"],
+    sets: [Release.DuskTillDawn,Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
+    specialImage: "DTD014",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Light Illusionist Action – Attack",
@@ -52931,6 +53314,12 @@ Illusionist attack action cards you control have **go again**.
     defaultImage: "MON015.width-450",
     name: "Herald of Protection",
     printings: [{
+      
+      identifier: "DTD015",
+      image: "DTD015",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.EA,
+    },{
       foiling: Foiling.R,
       identifier: "FAB030",
       image: "FAB030",
@@ -52961,11 +53350,11 @@ Illusionist attack action cards you control have **go again**.
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Rare,Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["FAB030","MON015"],
-    sets: [Release.Promos,Release.Monarch],
-    specialImage: "FAB030",
+    setIdentifiers: ["DTD015","FAB030","MON015"],
+    sets: [Release.DuskTillDawn,Release.Promos,Release.Monarch],
+    specialImage: "DTD015",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Light Illusionist Action – Attack",
@@ -52998,6 +53387,12 @@ Illusionist attack action cards you control have **go again**.
     defaultImage: "MON016.width-450",
     name: "Herald of Protection",
     printings: [{
+      
+      identifier: "DTD016",
+      image: "DTD016",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.EA,
+    },{
       foiling: Foiling.R,
       identifier: "FAB031",
       image: "FAB031",
@@ -53034,11 +53429,11 @@ Illusionist attack action cards you control have **go again**.
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Rare,Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["FAB031","PSM016","MON016"],
-    sets: [Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
-    specialImage: "FAB031",
+    setIdentifiers: ["DTD016","FAB031","PSM016","MON016"],
+    sets: [Release.DuskTillDawn,Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
+    specialImage: "DTD016",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Light Illusionist Action – Attack",
@@ -53072,6 +53467,12 @@ Illusionist attack action cards you control have **go again**.
     name: "Herald of Ravages",
     printings: [{
       
+      identifier: "DTD017",
+      image: "DTD017",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.EA,
+    },{
+      
       identifier: "PSM010",
       image: "PSM010.width-450",
       set: Release.PrismBlitzDeck,
@@ -53101,11 +53502,11 @@ Illusionist attack action cards you control have **go again**.
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Rare,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["PSM010","MON017"],
-    sets: [Release.PrismBlitzDeck,Release.Monarch],
-    specialImage: "9986165132..223435430.width-450",
+    setIdentifiers: ["DTD017","PSM010","MON017"],
+    sets: [Release.DuskTillDawn,Release.PrismBlitzDeck,Release.Monarch],
+    specialImage: "DTD017",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Light Illusionist Action – Attack",
@@ -53138,6 +53539,12 @@ Illusionist attack action cards you control have **go again**.
     defaultImage: "23fgw5465b464.width-450",
     name: "Herald of Ravages",
     printings: [{
+      
+      identifier: "DTD018",
+      image: "DTD018",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.EA,
+    },{
       edition: ReleaseEdition.First,
       identifier: "MON018",
       image: "23fgw5465b464.width-450",
@@ -53162,11 +53569,11 @@ Illusionist attack action cards you control have **go again**.
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Rare,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["MON018"],
-    sets: [Release.Monarch],
-    specialImage: "23fgw5465b464.width-450",
+    setIdentifiers: ["DTD018","MON018"],
+    sets: [Release.DuskTillDawn,Release.Monarch],
+    specialImage: "DTD018",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Light Illusionist Action – Attack",
@@ -53200,6 +53607,12 @@ Illusionist attack action cards you control have **go again**.
     name: "Herald of Ravages",
     printings: [{
       
+      identifier: "DTD019",
+      image: "DTD019",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.EA,
+    },{
+      
       identifier: "PSM017",
       image: "PSM017.width-450",
       set: Release.PrismBlitzDeck,
@@ -53229,11 +53642,11 @@ Illusionist attack action cards you control have **go again**.
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Rare,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["PSM017","MON019"],
-    sets: [Release.PrismBlitzDeck,Release.Monarch],
-    specialImage: "456b443654yteb65764.width-450",
+    setIdentifiers: ["DTD019","PSM017","MON019"],
+    sets: [Release.DuskTillDawn,Release.PrismBlitzDeck,Release.Monarch],
+    specialImage: "DTD019",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Light Illusionist Action – Attack",
@@ -53266,6 +53679,12 @@ Illusionist attack action cards you control have **go again**.
     defaultImage: "MON020.width-450",
     name: "Herald of Rebirth",
     printings: [{
+      
+      identifier: "DTD020",
+      image: "DTD020",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.EA,
+    },{
       foiling: Foiling.R,
       identifier: "FAB032",
       image: "FAB032",
@@ -53302,11 +53721,11 @@ Illusionist attack action cards you control have **go again**.
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Rare,Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["FAB032","PSM011","MON020"],
-    sets: [Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
-    specialImage: "FAB032",
+    setIdentifiers: ["DTD020","FAB032","PSM011","MON020"],
+    sets: [Release.DuskTillDawn,Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
+    specialImage: "DTD020",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Light Illusionist Action – Attack",
@@ -53339,6 +53758,12 @@ Illusionist attack action cards you control have **go again**.
     defaultImage: "MON021.width-450",
     name: "Herald of Rebirth",
     printings: [{
+      
+      identifier: "DTD021",
+      image: "DTD021",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.EA,
+    },{
       foiling: Foiling.R,
       identifier: "FAB033",
       image: "FAB033",
@@ -53369,11 +53794,11 @@ Illusionist attack action cards you control have **go again**.
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Rare,Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["FAB033","MON021"],
-    sets: [Release.Promos,Release.Monarch],
-    specialImage: "FAB033",
+    setIdentifiers: ["DTD021","FAB033","MON021"],
+    sets: [Release.DuskTillDawn,Release.Promos,Release.Monarch],
+    specialImage: "DTD021",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Light Illusionist Action – Attack",
@@ -53406,6 +53831,12 @@ Illusionist attack action cards you control have **go again**.
     defaultImage: "MON022.width-450",
     name: "Herald of Rebirth",
     printings: [{
+      
+      identifier: "DTD022",
+      image: "DTD022",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.EA,
+    },{
       foiling: Foiling.R,
       identifier: "FAB034",
       image: "FAB034",
@@ -53442,11 +53873,11 @@ Illusionist attack action cards you control have **go again**.
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Rare,Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["FAB034","PSM018","MON022"],
-    sets: [Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
-    specialImage: "FAB034",
+    setIdentifiers: ["DTD022","FAB034","PSM018","MON022"],
+    sets: [Release.DuskTillDawn,Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
+    specialImage: "DTD022",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Light Illusionist Action – Attack",
@@ -53480,6 +53911,12 @@ Illusionist attack action cards you control have **go again**.
     name: "Herald of Tenacity",
     printings: [{
       
+      identifier: "DTD023",
+      image: "DTD023",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.EA,
+    },{
+      
       identifier: "PSM012",
       image: "PSM012.width-450",
       set: Release.PrismBlitzDeck,
@@ -53509,11 +53946,11 @@ Illusionist attack action cards you control have **go again**.
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Rare,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["PSM012","MON023"],
-    sets: [Release.PrismBlitzDeck,Release.Monarch],
-    specialImage: "MON023.width-450",
+    setIdentifiers: ["DTD023","PSM012","MON023"],
+    sets: [Release.DuskTillDawn,Release.PrismBlitzDeck,Release.Monarch],
+    specialImage: "DTD023",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Light Illusionist Action – Attack",
@@ -53548,6 +53985,12 @@ If Herald of Tenacity hits, put it into your hero's soul.
     defaultImage: "MON024.width-450",
     name: "Herald of Tenacity",
     printings: [{
+      
+      identifier: "DTD024",
+      image: "DTD024",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.EA,
+    },{
       edition: ReleaseEdition.First,
       identifier: "MON024",
       image: "MON024.width-450",
@@ -53572,11 +54015,11 @@ If Herald of Tenacity hits, put it into your hero's soul.
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Rare,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["MON024"],
-    sets: [Release.Monarch],
-    specialImage: "MON024.width-450",
+    setIdentifiers: ["DTD024","MON024"],
+    sets: [Release.DuskTillDawn,Release.Monarch],
+    specialImage: "DTD024",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Light Illusionist Action – Attack",
@@ -53612,6 +54055,12 @@ If Herald of Tenacity hits, put it into your hero's soul.
     name: "Herald of Tenacity",
     printings: [{
       
+      identifier: "DTD025",
+      image: "DTD025",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.EA,
+    },{
+      
       identifier: "PSM019",
       image: "PSM019.width-450",
       set: Release.PrismBlitzDeck,
@@ -53641,11 +54090,11 @@ If Herald of Tenacity hits, put it into your hero's soul.
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Rare,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["PSM019","MON025"],
-    sets: [Release.PrismBlitzDeck,Release.Monarch],
-    specialImage: "MON025.width-450",
+    setIdentifiers: ["DTD025","PSM019","MON025"],
+    sets: [Release.DuskTillDawn,Release.PrismBlitzDeck,Release.Monarch],
+    specialImage: "DTD025",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Light Illusionist Action – Attack",
@@ -53680,6 +54129,12 @@ If Herald of Tenacity hits, put it into your hero's soul.
     defaultImage: "MON026.width-450",
     name: "Wartune Herald",
     printings: [{
+      
+      identifier: "DTD029",
+      image: "DTD029",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.EA,
+    },{
       foiling: Foiling.R,
       identifier: "FAB035",
       image: "FAB035",
@@ -53716,11 +54171,11 @@ If Herald of Tenacity hits, put it into your hero's soul.
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Rare,Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["FAB035","PSM013","MON026"],
-    sets: [Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
-    specialImage: "FAB035",
+    setIdentifiers: ["DTD029","FAB035","PSM013","MON026"],
+    sets: [Release.DuskTillDawn,Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
+    specialImage: "DTD029",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Light Illusionist Action – Attack",
@@ -53753,6 +54208,12 @@ If Herald of Tenacity hits, put it into your hero's soul.
     defaultImage: "MON027.width-450",
     name: "Wartune Herald",
     printings: [{
+      
+      identifier: "DTD030",
+      image: "DTD030",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.EA,
+    },{
       foiling: Foiling.R,
       identifier: "FAB036",
       image: "FAB036",
@@ -53783,11 +54244,11 @@ If Herald of Tenacity hits, put it into your hero's soul.
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Rare,Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["FAB036","MON027"],
-    sets: [Release.Promos,Release.Monarch],
-    specialImage: "FAB036",
+    setIdentifiers: ["DTD030","FAB036","MON027"],
+    sets: [Release.DuskTillDawn,Release.Promos,Release.Monarch],
+    specialImage: "DTD030",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Light Illusionist Action – Attack",
@@ -53820,6 +54281,12 @@ If Herald of Tenacity hits, put it into your hero's soul.
     defaultImage: "MON028.width-450",
     name: "Wartune Herald",
     printings: [{
+      
+      identifier: "DTD031",
+      image: "DTD031",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.EA,
+    },{
       foiling: Foiling.R,
       identifier: "FAB037",
       image: "FAB037",
@@ -53856,11 +54323,11 @@ If Herald of Tenacity hits, put it into your hero's soul.
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Rare,Rarity.Promo,Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["FAB037","PSM020","MON028"],
-    sets: [Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
-    specialImage: "FAB037",
+    setIdentifiers: ["DTD031","FAB037","PSM020","MON028"],
+    sets: [Release.DuskTillDawn,Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
+    specialImage: "DTD031",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Light Illusionist Action – Attack",
@@ -53890,9 +54357,15 @@ If Herald of Tenacity hits, put it into your hero's soul.
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "ser-boltyn-breaker-of-dawn",
     classes: [Class.Warrior],
-    defaultImage: "MON029.width-450",
+    defaultImage: "DTD044",
     name: "Ser Boltyn, Breaker of Dawn",
     printings: [{
+      
+      identifier: "DTD044",
+      image: "DTD044",
+      set: Release.DuskTillDawn,
+      
+    },{
       foiling: Foiling.C,
       identifier: "HER031",
       image: "HER031",
@@ -53923,10 +54396,10 @@ If Herald of Tenacity hits, put it into your hero's soul.
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["HER031","HER039","WIN010","MON029"],
-    sets: [Release.Promos,Release.Monarch],
+    setIdentifiers: ["DTD044","HER031","HER039","WIN010","MON029"],
+    sets: [Release.DuskTillDawn,Release.Promos,Release.Monarch],
     specialImage: "MON029.width-450",
     subtypes: [],
     types: [Type.Hero],
@@ -53953,67 +54426,6 @@ If Herald of Tenacity hits, put it into your hero's soul.
     
     talents: [Talent.Light],
     
-  },{
-    artists: ["Nikolay Moskvin"],
-    cardIdentifier: "boltyn",
-    classes: [Class.Warrior],
-    defaultImage: "MON030.width-450",
-    name: "Boltyn",
-    printings: [{
-      foiling: Foiling.C,
-      identifier: "HER035",
-      image: "HER035",
-      set: Release.Promos,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "BOL001",
-      image: "BOL001.width-450",
-      set: Release.BoltynBlitzDeck,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "MON030",
-      image: "MON030.width-450",
-      set: Release.Monarch,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "MON030",
-      image: "U-MON030.width-450",
-      set: Release.Monarch,
-      
-    },],
-    rarities: [Rarity.Promo,Rarity.Rare,Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["HER035","BOL001","MON030"],
-    sets: [Release.Promos,Release.BoltynBlitzDeck,Release.Monarch],
-    specialImage: "MON030.width-450",
-    subtypes: [Subtype.Young],
-    types: [Type.Hero],
-    typeText: "Light Warrior Hero – Young",
-
-    
-    
-    functionalText: `If you've **charged** this turn, attacks you control have +1{p} while defended by an attack action card.
-
-**Attack Reaction** - Banish a card from Boltyn's soul: Target attack with {p} greater than its base {p} gains **go again**.`,
-    
-    hero: Hero.Boltyn,
-    intellect: 4,
-    
-    keywords: [Keyword.GoAgain],
-    life: 20,
-    
-    
-    
-    restrictedFormats: [Format.ClassicConstructed],
-    
-    
-    
-    
-    talents: [Talent.Light],
-    young: true
   },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "raydn-duskbane",
@@ -58644,6 +59056,12 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
     defaultImage: "DYN233",
     name: "Spectral Shield",
     printings: [{
+      
+      identifier: "DTD220",
+      image: "DTD220",
+      set: Release.DuskTillDawn,
+      
+    },{
       foiling: Foiling.C,
       identifier: "FAB082",
       image: "FAB082",
@@ -58686,10 +59104,10 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
       set: Release.Dynasty,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["FAB082","PSM030","MON104","EVR153","DYN233"],
-    sets: [Release.Promos,Release.PrismBlitzDeck,Release.Monarch,Release.Everfest,Release.Dynasty],
+    setIdentifiers: ["DTD220","FAB082","PSM030","MON104","EVR153","DYN233"],
+    sets: [Release.DuskTillDawn,Release.Promos,Release.PrismBlitzDeck,Release.Monarch,Release.Everfest,Release.Dynasty],
     specialImage: "DYN233",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
@@ -59608,9 +60026,15 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     artists: ["Wisnu Tan"],
     cardIdentifier: "levia-shadowborn-abomination",
     classes: [Class.Brute],
-    defaultImage: "Mty2ZQtPLgqDHz9EjdOMHZOUJhISA3s8RIgr3lus4KTmVq.width-450",
+    defaultImage: "DTD103",
     name: "Levia, Shadowborn Abomination",
     printings: [{
+      
+      identifier: "DTD103",
+      image: "DTD103",
+      set: Release.DuskTillDawn,
+      
+    },{
       foiling: Foiling.C,
       identifier: "HER032",
       image: "HER032",
@@ -59641,10 +60065,10 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["HER032","HER040","WIN011","MON119"],
-    sets: [Release.Promos,Release.Monarch],
+    setIdentifiers: ["DTD103","HER032","HER040","WIN011","MON119"],
+    sets: [Release.DuskTillDawn,Release.Promos,Release.Monarch],
     specialImage: "Mty2ZQtPLgqDHz9EjdOMHZOUJhISA3s8RIgr3lus4KTmVq.width-450",
     subtypes: [],
     types: [Type.Hero],
@@ -59669,65 +60093,6 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     
     talents: [Talent.Shadow],
     
-  },{
-    artists: ["Wisnu Tan"],
-    cardIdentifier: "levia",
-    classes: [Class.Brute],
-    defaultImage: "QB393QB0F93d2Hhhs5Cf_iMdCfa8qpl1J91FOlwlsYvSnv.width-450",
-    name: "Levia",
-    printings: [{
-      foiling: Foiling.C,
-      identifier: "HER036",
-      image: "HER036",
-      set: Release.Promos,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "LEV001",
-      image: "LEV001.width-450",
-      set: Release.LeviaBlitzDeck,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "MON120",
-      image: "QB393QB0F93d2Hhhs5Cf_iMdCfa8qpl1J91FOlwlsYvSnv.width-450",
-      set: Release.Monarch,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "MON120",
-      image: "U-MON120.width-450",
-      set: Release.Monarch,
-      
-    },],
-    rarities: [Rarity.Promo,Rarity.Rare,Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["HER036","LEV001","MON120"],
-    sets: [Release.Promos,Release.LeviaBlitzDeck,Release.Monarch],
-    specialImage: "QB393QB0F93d2Hhhs5Cf_iMdCfa8qpl1J91FOlwlsYvSnv.width-450",
-    subtypes: [Subtype.Young],
-    types: [Type.Hero],
-    typeText: "Shadow Brute Hero – Young",
-
-    
-    
-    functionalText: `If a card with 6 or more {p} has been put into your banished zone this turn, cards you own lose **blood debt** during the end phase.`,
-    
-    hero: Hero.Levia,
-    intellect: 4,
-    
-    
-    life: 20,
-    
-    
-    
-    restrictedFormats: [Format.ClassicConstructed],
-    
-    
-    
-    
-    talents: [Talent.Shadow],
-    young: true
   },{
     artists: ["Yolanda Felicia"],
     cardIdentifier: "hexagore-the-death-hydra",
@@ -68114,7 +68479,7 @@ Shuffle your deck. Banish Sonata Arcanix.
       
     },],
     rarities: [Rarity.Rare,Rarity.Common],
-    rarity: Rarity.Rare,
+    rarity: Rarity.Common,
     setIdentifiers: ["MON251","OUT216","AZL018"],
     sets: [Release.Monarch,Release.Outsiders,Release.AzaleaBlitzDeck],
     specialImage: "MON251.width-450",
@@ -68179,7 +68544,7 @@ Shuffle your deck. Banish Sonata Arcanix.
       
     },],
     rarities: [Rarity.Rare,Rarity.Common],
-    rarity: Rarity.Rare,
+    rarity: Rarity.Common,
     setIdentifiers: ["MON252","OUT217"],
     sets: [Release.Monarch,Release.Outsiders],
     specialImage: "MON252.width-450",
@@ -68244,7 +68609,7 @@ Shuffle your deck. Banish Sonata Arcanix.
       
     },],
     rarities: [Rarity.Rare,Rarity.Common],
-    rarity: Rarity.Rare,
+    rarity: Rarity.Common,
     setIdentifiers: ["MON253","OUT218"],
     sets: [Release.Monarch,Release.Outsiders],
     specialImage: "MON253.width-450",
@@ -70815,7 +71180,8 @@ While Yinti Yanti is defending and you control an aura, it has +1{d}.`,
     
     
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "minnowism-red",
     classes: [Class.Generic],
@@ -70998,8 +71364,7 @@ While Yinti Yanti is defending and you control an aura, it has +1{d}.`,
     
     
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Oliver Morit"],
     cardIdentifier: "warmongers-recital-red",
     classes: [Class.Generic],
@@ -78623,126 +78988,6 @@ If you've **fused** this turn, you may play Rejuvenate as though it were an inst
     
     
     pitch: 3,
-    
-    
-    
-    
-    
-    
-    talents: [Talent.Elemental],
-    
-  },{
-    artists: ["Othon Nikolaidis"],
-    cardIdentifier: "embodiment-of-earth",
-    classes: [Class.NotClassed],
-    defaultImage: "ELE109.width-450",
-    name: "Embodiment of Earth",
-    printings: [{
-      foiling: Foiling.C,
-      identifier: "FAB118",
-      image: "FAB118",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "BRI003",
-      image: "BRI003.width-450",
-      set: Release.BriarBlitzDeck,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ELE109",
-      image: "ELE109.width-450",
-      set: Release.TalesOfAria,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ELE109",
-      image: "U-ELE109.width-450",
-      set: Release.TalesOfAria,
-      
-    },],
-    rarities: [Rarity.Promo,Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["FAB118","BRI003","ELE109"],
-    sets: [Release.Promos,Release.BriarBlitzDeck,Release.TalesOfAria],
-    specialImage: "ELE109.width-450",
-    subtypes: [Subtype.Aura],
-    types: [Type.Token],
-    typeText: "Elemental Token – Aura",
-
-    
-    
-    functionalText: `'Non-attack' action cards you control have +1{d} while defending.
-
-At the beginning of your action phase, destroy Embodiment of Earth.`,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    talents: [Talent.Elemental],
-    
-  },{
-    artists: ["Nikolay Moskvin"],
-    cardIdentifier: "embodiment-of-lightning",
-    classes: [Class.NotClassed],
-    defaultImage: "ELE110.width-450",
-    name: "Embodiment of Lightning",
-    printings: [{
-      foiling: Foiling.C,
-      identifier: "FAB119",
-      image: "FAB119",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "BRI002",
-      image: "BRI002.width-450",
-      set: Release.BriarBlitzDeck,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ELE110",
-      image: "ELE110.width-450",
-      set: Release.TalesOfAria,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ELE110",
-      image: "U-ELE110.width-450",
-      set: Release.TalesOfAria,
-      
-    },],
-    rarities: [Rarity.Promo,Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["FAB119","BRI002","ELE110"],
-    sets: [Release.Promos,Release.BriarBlitzDeck,Release.TalesOfAria],
-    specialImage: "ELE110.width-450",
-    subtypes: [Subtype.Aura],
-    types: [Type.Token],
-    typeText: "Elemental Token – Aura",
-
-    
-    
-    functionalText: `When you play an attack action card, destroy Embodiment of Lightning and the attack gains **go again**.`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    
     
     
     
@@ -102932,7 +103177,8 @@ Draw 2 cards.`,
     
     talents: [Talent.Draconic],
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Henrique Lindner"],
     cardIdentifier: "inflame-red",
     classes: [Class.NotClassed],
@@ -102993,8 +103239,7 @@ Draw 2 cards.`,
     
     talents: [Talent.Draconic],
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "lava-burst-red",
     classes: [Class.NotClassed],
@@ -121018,53 +121263,6 @@ When you equip Crown of Dominion, create a Gold token.`,
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Federico Musetti"],
-    cardIdentifier: "spellbane-aegis",
-    classes: [Class.Generic],
-    defaultImage: "DYN246",
-    name: "Spellbane Aegis",
-    printings: [{
-      
-      identifier: "DYN246",
-      image: "DYN246",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN246",
-      image: "DYN246",
-      set: Release.Dynasty,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["DYN246"],
-    sets: [Release.Dynasty],
-    specialImage: "DYN246",
-    subtypes: [Subtype.Aura],
-    types: [Type.Token],
-    typeText: "Generic Token – Aura",
-
-    
-    
-    functionalText: `**Spellvoid 1**`,
-    
-    
-    
-    
-    keywords: [Keyword.Spellvoid],
     
     
     

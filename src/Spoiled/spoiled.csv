@@ -9,9 +9,6 @@ At the start of your turn, destroy this. If another hero drew a card from this, 
 
 Whenever an opponent plays or activates their first card or ability each turn, if it's not their turn, put a +1{p} counter on this. At the beginning of your end phase, remove all +1{p} counters from this.",,Adjudicator Weapon – Hammer (1H),Jessica Nguyen,,No,No,No,C - JDG005 - N,,/JDG005.png – JDG005 – N – R
 ,"JDG009, JDG010",JDG,Proclamation of Abundance,,,,,,,P,"Adjudicator, Equipment, Off-Hand",,Action,,,,,"**Action** - {r}{r}{r}, destroy this: Each hero draws up to their {i}.",,Adjudicator Equipment – Off-Hand,Kanadekana,,No,No,No,"R - JDG009 – N, C – JDG010 - N",,"/JDG009.png – JDG009 – N – R, /JDG010.png – JDG010 – N – C"
-,LGS179,"LGS, DTD",Banneret of Resilience,2,0,3,3,,,P,"Light, Warrior, Action, Attack","Solflare, Charge",,,,,,"**Solflare** - When this is **charged** to your hero's soul, the next action card you defend with this turn gets +1{d}.",,Light Warrior Action - Attack,Jessada Sutthi,,,,,R - LGS179 - N - EA,,/LGS179.png – LGS179 – N – R – EA
-,LGS180,"LGS, DTD",Banneret of Salvation,2,0,3,3,,,P,"Light, Warrior, Action, Attack","Solflare, Charge",,,,,,"**Solflare** - When this is **charged** to your hero's soul, the next time you hit this turn, gain 1{l}.",,Light Warrior Action - Attack,Jessada Sutthi,,,,,R - LGS180 - N - EA,,/LGS180.png – LGS180 – N – R – EA
-,LGS181,"LGS, DTD",Banneret of Vigor,2,0,3,3,,,P,"Light, Warrior, Action, Attack","Solflare, Charge",,,,,,"**Solflare** - When this is **charged** to your hero's soul, the next time you hit this turn, gain {r}.",,Light Warrior Action - Attack,Jessada Sutthi,,,,,R - LGS181 - N - EA,,/LGS181.png – LGS181 – N – R – EA
 ,DTD000,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD001,DTD,"Prism, Awakener of Sol",,,,,32,4,M,"Light, Illusionist, Hero","Once per Turn Instant, Awaken",,,,,,"Whenever a card with Herald in its name is put into Prism’s soul during an action phase, you may search your deck for a figment, put it into the arena, then shuffle.
 
@@ -124,8 +121,9 @@ Your next angel attack this turn gets +1{p}.",,Light Illusionist Instant,Alief R
 ,DTD041,DTD,Celestial Resolve,1,0,,,,,C,"Light, Illusionist, Instant",,,,,,,Target attack action card with Herald in its name gets +5{d}.,,Light Illusionist Instant,Jen Santos,,,,,S – DTD041 – N,,/DTD041.png – DTD041 – N
 ,DTD042,DTD,Celestial Resolve,2,0,,,,,C,"Light, Illusionist, Instant",,,,,,,Target attack action card with Herald in its name gets +4{d}.,,Light Illusionist Instant,Jen Santos,,,,,S – DTD042 – N,,/DTD042.png – DTD042 – N
 ,DTD043,DTD,Celestial Resolve,3,0,,,,,C,"Light, Illusionist, Instant",,,,,,,Target attack action card with Herald in its name gets +3{d}.,,Light Illusionist Instant,Jen Santos,,,,,S – DTD043 – N,,/DTD043.png – DTD043 – N
-,DTD044,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD045,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+Fmf8trg9w8B8BBbWrf8w9,"HER035, BOL001, MON030, DTD045","HER, BOL, MON, DTD",Boltyn,,,,,20,4,"P, R, T","Light, Warrior, Hero, Young",,Attack Reaction,,Go again,,Charge,"If you've **charged** this turn, attacks you control have +1{p} while defended by an attack action card.
+
+**Attack Reaction** - Banish a card from Boltyn's soul: Target attack with {p} greater than its base {p} gains **go again**.",,Light Warrior Hero – Young,Nikolay Moskvin,,,No,,"C - HER035 - N, R - BOL001 - N, S - MON030 - F, S - MON030 – U, S – DTD045 – N","NmkLLkcwrN97Bc8QBQQRG - HER035 - N, jCd7FFBgfrMKBPJmmKz8J - BOL001 - N, 8wCfLRQR6PgLHLGCNzwhz - MON030 - F, pTRkj6B7KDr7r89nqWPmz - MON030 - U","https://storage.googleapis.com/fabmaster/cardfaces/promos/HER035.png - HER035 – N - C, https://storage.googleapis.com/fabmaster/media/images/BOL001.width-450.png - BOL001 – N – R, https://storage.googleapis.com/fabmaster/media/images/MON030.width-450.png - MON030 - F, https://storage.googleapis.com/fabmaster/media/images/U-MON030.width-450.png - MON030 – U, /DTD045.png – DTD045 – N"
 ,DTD046,DTD,Beaming Blade,,,0,,,,R,"Light, Warrior, Weapon, Sword, 2H",,,,,,,"**Once per Turn Action – {r}: Attack
 
 If a yellow card has been put into your hero’s soul this turn, this gets +5{p}.",,Light Warrior Weapon – Sword (2H),Jessketchin,,,,,S – DTD046 – N,,/DTD046.png – DTD046 – N
@@ -148,9 +146,9 @@ If a yellow card was **charged** this way, whenever an attack action card hits t
 Reveal the top card of your deck. If it’s yellow, put it into your hand, then **charge** your hero’s soul.
 
 **Go again**",,Light Warrior Action ,Asur Misoa,,,,No,S – DTD053 – N,,/DTD053.png – DTD053 – N
-,DTD054,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD055,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD056,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,"LGS179, DTD054","LGS, DTD",Banneret of Resilience,2,0,3,3,,,"P, R","Light, Warrior, Action, Attack","Solflare, Charge",,,,,,"**Solflare** - When this is **charged** to your hero's soul, the next action card you defend with this turn gets +1{d}.",,Light Warrior Action - Attack,Jessada Sutthi,,,,,"R - LGS179 - N – EA, S – DTD054 – N",,"/LGS179.png – LGS179 – N – R – EA, DTD054.png – DTD054 – N"
+,"LGS180, DTD055","LGS, DTD",Banneret of Salvation,2,0,3,3,,,"P, R","Light, Warrior, Action, Attack","Solflare, Charge",,,,,,"**Solflare** - When this is **charged** to your hero's soul, the next time you hit this turn, gain 1{l}.",,Light Warrior Action - Attack,Jessada Sutthi,,,,,"R - LGS180 - N – EA, S – DTD055 – N",,"/LGS180.png – LGS180 – N – R – EA, DTD055png – DTD055 – N"
+,"LGS181, DTD056","LGS, DTD",Banneret of Vigor,2,0,3,3,,,"P, R","Light, Warrior, Action, Attack","Solflare, Charge",,,,,,"**Solflare** - When this is **charged** to your hero's soul, the next time you hit this turn, gain {r}.",,Light Warrior Action - Attack,Jessada Sutthi,,,,,"R - LGS181 - N – EA, S – DTD056 – N",,"/LGS181.png – LGS181 – N – R – EA, DTD056png – DTD056 – N"
 ,DTD057,DTD,Beaming Bravado,1,0,3,3,,,R,"Light, Warrior, Action, Attack",Charge,,,,,,"As an additional cost to play this, you may **charge** your hero’s soul.
 
 If a yellow card is **charged** this way, this gets +1{p}.",,Light Warrior Action - Attack,Sebastian Szmyd,,,,No,S – DTD057 – N,,/DTD057.png – DTD057 – N
@@ -251,8 +249,7 @@ Destroy target blue aura.",,Light Action ,Mateusz Wisniewski,,,,No,S – DTD090 
 ,DTD100,DTD,Break of Dawn,1,0,,,,,C,"Light, Instant",,,,,,,"The next time a Shadow source would deal damage this turn, prevent 4 of that damage.",,Light Instant,Nikolay Moskvin,,,,,S – DTD100 – N,,/DTD100.png – DTD100 – N
 ,DTD101,DTD,Break of Dawn,2,0,,,,,C,"Light, Instant",,,,,,,"The next time a Shadow source would deal damage this turn, prevent 3 of that damage.",,Light Instant,Nikolay Moskvin,,,,,S – DTD101 – N,,/DTD101.png – DTD101 – N
 ,DTD102,DTD,Break of Dawn,3,0,,,,,C,"Light, Instant",,,,,,,"The next time a Shadow source would deal damage this turn, prevent 2 of that damage.",,Light Instant,Nikolay Moskvin,,,,,S – DTD102 – N,,/DTD102.png – DTD102 – N
-,DTD103,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD104,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+WwzJLfPwhRTkFLDNjJPrk,"HER036, LEV001, MON120, DTD104","HER, LEV, MON, DTD",Levia,,,,,20,4,"P, R, T","Shadow, Brute, Hero, Young",,,,,Blood Debt,,"If a card with 6 or more {p} has been put into your banished zone this turn, cards you own lose **blood debt** during the end phase.",,Shadow Brute Hero – Young,Wisnu Tan,,,No,,"C - HER036 - N, R - LEV001 - N, S - MON120 - F, S - MON120 – U, S – DTD104 – N","tH66BDmHBrfwrpghFhhkL - HER036 - N, JwLhdqFTckrgFWgfFpdW8 - LEV001 - N, 7DrgBnLtbpFqnQRWjNfTG - MON120 - F, fp8QBWGwtHdBFkcNTMtmw - MON120 - U","https://storage.googleapis.com/fabmaster/cardfaces/promos/HER036.png - HER036 – N – C, https://storage.googleapis.com/fabmaster/media/images/LEV001.width-450.png - LEV001 – N – R, https://storage.googleapis.com/fabmaster/media/images/QB393QB0F93d2Hhhs5Cf_iMdCfa8qpl1J91FOlwlsYvSnv.width-450.png - MON120 - F, https://storage.googleapis.com/fabmaster/media/images/U-MON120.width-450.png - MON120 – U, /DTD104.png – DTD104 – N"
 ,DTD105,DTD,Hell Hammer,,,6,,,,R,"Shadow, Brute, Weapon, Hammer, 2H","Once per Turn Action, Attack, Blood Debt",,,,,,"**Once per Turn Action – {r}{r}: Attack**
 
 When the combat chain closes, if this attacked, banish it.
@@ -615,8 +612,10 @@ Target hero banishes the top card of their deck. If it’s blue, they lost 1{g}.
 ,DTD193,DTD,"Nasreth, the Soul Harrower",,,6,,6,,"C, V","Shadow, Token, Demon, Ally","Once per Turn Action, Attack",,,,,,"**Once per Turn Action – 0: Attack**
 
 When Nasreth hits a hero, banish a card from their soul. If a Light card is banished this way, gain 1{l}.",,Shadow Token – Demon Ally,Isuardi Therianto,,,,,C - DTD193 – N – EA,,/DTD193_Marvel.png – DTD193 – N – C – EA
-,DTD194,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD195,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+jrcdWNnMQCtrjQqKjd9Fw,"FAB118, BRI003, ELE109, DTD194","FAB, BRI, ELE, DTD",Embodiment of Earth,,,,,,,"P, T, T","Elemental, Token, Aura",,,,,,,"'Non-attack' action cards you control have +1{d} while defending.
+
+At the beginning of your action phase, destroy Embodiment of Earth.",,Elemental Token – Aura,Othon Nikolaidis,,,,,"C - FAB118 - N, S - BRI003 - N, S - ELE109 - F, S - ELE109 – U, S – DTD194 – N","crLDqnwMqBjddQ9mRHDMn - FAB118 - N, wgPCprWkFMGJzc8hgKKnK - BRI003 - N, 7BKrjc8RnChRWMpWGQgn8 - ELE109 - F, Jj8KpfNKPBPmrCp8MwLbT - ELE109 - U","https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB118.png - FAB118 – N – C, https://storage.googleapis.com/fabmaster/media/images/BRI003.width-450.png - BRI003 - N, https://storage.googleapis.com/fabmaster/media/images/ELE109.width-450.png - ELE109 - F, https://storage.googleapis.com/fabmaster/media/images/U-ELE109.width-450.png - ELE109 – U, /DTD194.png – DTD194 – N"
+QBwTWNc9FMGQfwHRTTdHj,"FAB119, BRI002, ELE110, DTD195","FAB, BRI, ELE, DTD",Embodiment of Lightning,,,,,,,"P, T, T","Elemental, Token, Aura",,,,Go again,,,"When you play an attack action card, destroy Embodiment of Lightning and the attack gains **go again**.",,Elemental Token – Aura,Nikolay Moskvin,,,,,"C - FAB119 - N, S - BRI002 - N, S - ELE110 - F, S - ELE110 – U, S – DTD195 – N","qBrrgrr9hW8Fm6tdKqfCR - FAB119 - N, gchhRHddRfR7jpdc8T9LB - BRI002 - N, 9jBjJD9DL9NzPzqTjhzQb - ELE110 - F, bJmDzPGH9bDGpL6LMPHHk - ELE110 - U","https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB119.png - FAB119 – N – C, https://storage.googleapis.com/fabmaster/media/images/BRI002.width-450.png - BRI002 - N, https://storage.googleapis.com/fabmaster/media/images/ELE110.width-450.png - ELE110 - F, https://storage.googleapis.com/fabmaster/media/images/U-ELE110.width-450.png - ELE110 – U, /DTD195.png – DTD195 – N"
 ,DTD196,DTD,Anthem of Spring,3,0,,2,,,M,"Earth, Action","Briar Specialization, Unity, Go again",,,,,,"**Briar Specialization**
 
 The next attack action card you play this turn gets +1{p}. **Go again**
@@ -647,7 +646,6 @@ Activate Rugged Roller only if you’ve rolled a 6 on a die this turn",,Brute We
 **Crush** - When this deals 4 or more damage to a hero, the only attacks they may play or activate during their next turn are attacks with base {p} greater than the damage dealt this way.
 
 **Unity** - When this defends together with a card from hand, create a Seismic Surge token under any number of heroes' control.",,Guardian Action - Attack,Andy Aslamov,,,,No,S - DTD203 - N,,/DTD203.png – DTD203 – N
-,DTD204,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,DTD205,DTD,Decimator Great Axe,,,4,,,,R,"Warrior, Weapon, Axe, 2H",,,,,,,"**Once per Turn Action – {r}{r}: Attack**
 
 The first time this is defended by a non-equipment card each turn, halve the base {d} of target defending card, rounded up.",,Warrior Weapon – Axe (2H),Stormy Elia Fanggidae,,,,,S - DTD205 - N,,/DTD205.png – DTD205 – N
@@ -711,5 +709,4 @@ If they choose peace, the only actions they may play or activate during their ne
 ,DTD231,DTD,Poison the Well,3,0,,,,,M,"Generic, Instant",,,,,,,"The next time a hero would gain {l} this turn, instead they lose that much {l}.",,Generic Instant,Mateusz Wisniewski,,,,No,S – DTD231 – N,,/DTD231.png – DTD231 – N
 ,DTD232,DTD,Courage,,,,,,,C,"Generic, Token, Aura",,,,,,,"When you play an attack action card or activate a weapon attack, destroy this and the attack gets +1{p}.",,Generic Token – Aura,Henrique Lindner,,,,,S - DTD232 - N,,/DTD232.png – DTD232 – N
 ,"FAB154, DTD233","FAB, DTD",Eloquence,,,,,,,"P, C","Generic, Token, Aura",,,,Go again,,,"When you play a non-attack action card, destroy this and the card gets **go again**.",,Generic Token - Aura,Othon Nikolaidis,,,,,"C - FAB154 – N, S – DTD233 – N",,"/FAB154.png – FAB154 – N – C, /DTD233.png – DTD233 – N"
-,DTD234,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
-,DTD235,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+pdMgMzHwDgBpCNjD7WGLD,"DYN246, DTD235","DYN, DTD",Spellbane Aegis,,,,,,,C,"Generic, Token, Aura",Spellvoid 1,,,,,,**Spellvoid 1**,,Generic Token – Aura,Federico Musetti,,,,,"S - DYN246 – N, R – DYN246 – N, S – DTD235 – N",zwg7CcCCpCrcrFtQHMRGJ - DYN246 - N,"https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN246.png - DYN246 – N, https://storage.googleapis.com/fabmaster/cardfaces/2022-DYN/EN/DYN246.png - DYN246 – N – R, /DTD235.png – DTD235 – N"

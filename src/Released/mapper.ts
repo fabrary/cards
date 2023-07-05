@@ -172,10 +172,10 @@ const getRarity = (card: ParsedCard): Rarity | undefined => {
     return Rarity.Majestic;
   } else if (rarities.some((rarity) => rarity.startsWith("S"))) {
     return Rarity.SuperRare;
-  } else if (rarities.some((rarity) => rarity.startsWith("R"))) {
-    return Rarity.Rare;
   } else if (rarities.some((rarity) => rarity.startsWith("C"))) {
     return Rarity.Common;
+  } else if (rarities.some((rarity) => rarity.startsWith("R"))) {
+    return Rarity.Rare;
   } else if (rarities.some((rarity) => rarity.startsWith("P"))) {
     return Rarity.Promo;
   }

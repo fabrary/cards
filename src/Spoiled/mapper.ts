@@ -110,6 +110,9 @@ const getPrintings = (card: ParsedCard): Printing[] => {
   for (const unparsedImage of unparsedImages) {
     const [url, identifier, rawEdition, rawFoiling, rawTreatment] =
       unparsedImage.split(" - ");
+    if (!identifier) {
+      console.log({ card });
+    }
     const setAbbreviation = identifier.slice(0, 3).toLowerCase();
     const set = setIdentifierToSetMappings[setAbbreviation];
     const edition = setEditionMapping[rawEdition];

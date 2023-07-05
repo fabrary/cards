@@ -21,21 +21,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fabrary.net/cards/banneret-of-resilience-yellow</loc>
-    <lastmod>2023-06-16</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/banneret-of-salvation-yellow</loc>
-    <lastmod>2023-06-16</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/banneret-of-vigor-yellow</loc>
-    <lastmod>2023-06-16</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://fabrary.net/cards/prism-awakener-of-sol</loc>
     <lastmod>2023-06-30</lastmod>
     <priority>0.5</priority>
@@ -196,6 +181,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/boltyn</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/beaming-blade</loc>
     <lastmod>2023-06-30</lastmod>
     <priority>0.5</priority>
@@ -233,6 +223,21 @@
   <url>
     <loc>https://fabrary.net/cards/prayer-of-bellona-yellow</loc>
     <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/banneret-of-resilience-yellow</loc>
+    <lastmod>2023-06-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/banneret-of-salvation-yellow</loc>
+    <lastmod>2023-06-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/banneret-of-vigor-yellow</loc>
+    <lastmod>2023-06-16</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -463,6 +468,11 @@
   <url>
     <loc>https://fabrary.net/cards/break-of-dawn-blue</loc>
     <lastmod>2023-07-03</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/levia</loc>
+    <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -916,6 +926,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/embodiment-of-earth</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/embodiment-of-lightning</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/anthem-of-spring-blue</loc>
     <lastmod>2023-05-31</lastmod>
     <priority>0.5</priority>
@@ -1053,6 +1073,11 @@
   <url>
     <loc>https://fabrary.net/cards/eloquence</loc>
     <lastmod>2023-05-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/spellbane-aegis</loc>
+    <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -4351,11 +4376,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fabrary.net/cards/boltyn</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://fabrary.net/cards/raydn-duskbane</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -4797,11 +4817,6 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/levia-shadowborn-abomination</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/levia</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>
@@ -6292,16 +6307,6 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/rejuvenate-blue</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/embodiment-of-earth</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/embodiment-of-lightning</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>
@@ -10337,11 +10342,6 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/ponder</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/spellbane-aegis</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>
