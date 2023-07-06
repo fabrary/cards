@@ -193,6 +193,49 @@ Whenever an opponent plays or activates their first card or ability each turn, i
     
     
   },{
+    artists: ["Andy Aslamov"],
+    cardIdentifier: "light-of-sol-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD000",
+    name: "Light of Sol",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "DTD000",
+      image: "DTD000",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Fabled],
+    rarity: Rarity.Fabled,
+    setIdentifiers: ["DTD000"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD000",
+    subtypes: [Subtype.Gem],
+    types: [Type.Resource],
+    typeText: "Light Resource – Gem",
+
+    
+    
+    functionalText: `**Legendary**
+
+When this is pitched, reveal the top card of your deck. If it’s yellow, you may put it into your hero’s soul.`,
+    
+    
+    
+    
+    keywords: [Keyword.Legendary],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
     artists: ["Livia Prima"],
     cardIdentifier: "prism-awakener-of-sol",
     classes: [Class.Illusionist],
@@ -9055,12 +9098,18 @@ Create a Runechant token for each damage dealt this way.`,
       image: "DTD211",
       set: Release.DuskTillDawn,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "DTD211",
+      image: "DTD211_EA",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["DTD211"],
     sets: [Release.DuskTillDawn],
-    specialImage: "DTD211",
+    specialImage: "DTD211_EA",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
     typeText: "Runeblade Equipment – Chest",
@@ -9440,6 +9489,49 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
     
   },{
     artists: ["Shen Fei"],
+    cardIdentifier: "frontline-plating",
+    classes: [Class.Generic],
+    defaultImage: "DTD223",
+    name: "Frontline Plating",
+    printings: [{
+      
+      identifier: "DTD223",
+      image: "DTD223",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD223"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD223",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment – Chest",
+
+    
+    defense: 2,
+    functionalText: `At the beginning of your end phase, put a -1{d} counter on this.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
     cardIdentifier: "frontline-guantlets",
     classes: [Class.Generic],
     defaultImage: "DTD224",
@@ -9459,6 +9551,49 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
     typeText: "Generic Equipment – Arms",
+
+    
+    defense: 2,
+    functionalText: `At the beginning of your end phase, put a -1{d} counter on this.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "frontline-legs",
+    classes: [Class.Generic],
+    defaultImage: "DTD225",
+    name: "Frontline Legs",
+    printings: [{
+      
+      identifier: "DTD225",
+      image: "DTD225",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DTD225"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD225",
+    subtypes: [Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment – Legs",
 
     
     defense: 2,
@@ -9523,6 +9658,49 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
     
     
   },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "mischievous-meeps-red",
+    classes: [Class.Generic],
+    defaultImage: "DTD227",
+    name: "Mischievous Meeps",
+    printings: [{
+      
+      identifier: "DTD227",
+      image: "DTD227",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD227"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD227",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action – Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `When this hits a hero, gain control of an item with cost 2 or less they control. Otherwise, draw a card.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 2,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Tomasz Jedruszek"],
     cardIdentifier: "hold-the-line-blue",
     classes: [Class.Generic],
@@ -9555,6 +9733,51 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
     
     
     pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Riordan Delmiro"],
+    cardIdentifier: "hack-to-reality-yellow",
+    classes: [Class.Generic],
+    defaultImage: "DTD229",
+    name: "Hack to Reality",
+    printings: [{
+      
+      identifier: "DTD229",
+      image: "DTD229",
+      set: Release.DuskTillDawn,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DTD229"],
+    sets: [Release.DuskTillDawn],
+    specialImage: "DTD229",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Your next attack this turn gets +2{p}.
+
+The next time you hit a hero this turn, destroy a non-token aura they own with cost less than or equal to the damage dealt this way.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
     
     restrictedFormats: [Format.Commoner],
     
@@ -29453,7 +29676,7 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     
     
     
-    
+    restrictedFormats: [Format.ClassicConstructed],
     
     
     
@@ -33970,7 +34193,8 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Maxim Kostin"],
     cardIdentifier: "read-the-runes-blue",
     classes: [Class.Runeblade],
@@ -34207,8 +34431,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "kano",
     classes: [Class.Wizard],
@@ -71131,7 +71354,8 @@ While Yinti Yanti is defending and you control an aura, it has +1{d}.`,
     
     
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Brian Adriel"],
     cardIdentifier: "zealous-belting-red",
     classes: [Class.Generic],
@@ -71249,8 +71473,7 @@ While Yinti Yanti is defending and you control an aura, it has +1{d}.`,
     
     
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Brian Adriel"],
     cardIdentifier: "zealous-belting-blue",
     classes: [Class.Generic],
@@ -72234,7 +72457,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
     
     
     
-    restrictedFormats: [Format.Blitz,Format.Commoner],
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
     
     
     
@@ -79387,7 +79610,7 @@ Earth, Ice, and Elemental action cards have +1{d} while defending this turn.`,
     
     pitch: 3,
     
-    restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -103189,7 +103412,8 @@ Draw 2 cards.`,
     
     talents: [Talent.Draconic],
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "flameborn-retribution-red",
     classes: [Class.NotClassed],
@@ -103244,8 +103468,7 @@ Draw 2 cards.`,
     
     talents: [Talent.Draconic],
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "flamecall-awakening-red",
     classes: [Class.NotClassed],

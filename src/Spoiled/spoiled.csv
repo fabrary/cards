@@ -9,7 +9,9 @@ At the start of your turn, destroy this. If another hero drew a card from this, 
 
 Whenever an opponent plays or activates their first card or ability each turn, if it's not their turn, put a +1{p} counter on this. At the beginning of your end phase, remove all +1{p} counters from this.",,Adjudicator Weapon – Hammer (1H),Jessica Nguyen,,No,No,No,C - JDG005 - N,,/JDG005.png – JDG005 – N – R
 ,"JDG009, JDG010",JDG,Proclamation of Abundance,,,,,,,P,"Adjudicator, Equipment, Off-Hand",,Action,,,,,"**Action** - {r}{r}{r}, destroy this: Each hero draws up to their {i}.",,Adjudicator Equipment – Off-Hand,Kanadekana,,No,No,No,"R - JDG009 – N, C – JDG010 - N",,"/JDG009.png – JDG009 – N – R, /JDG010.png – JDG010 – N – C"
-,DTD000,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD000,DTD,Light of Sol,2,,,,,,F,"Light, Resource, Gem",Legendary,,,,,,"**Legendary**
+
+When this is pitched, reveal the top card of your deck. If it’s yellow, you may put it into your hero’s soul.",,Light Resource – Gem,Andy Aslamov,,,,No,C – DTD000 – N,,/DTD000.png – DTD000 – N – C
 ,DTD001,DTD,"Prism, Awakener of Sol",,,,,32,4,M,"Light, Illusionist, Hero","Once per Turn Instant, Awaken",,,,,,"Whenever a card with Herald in its name is put into Prism’s soul during an action phase, you may search your deck for a figment, put it into the arena, then shuffle.
 
 **Once per Turn Instant** - {r}{r}, banish a card from Prism’s soul: **Awaken** target figment you control.",,Light Illusionist Hero,Livia Prima,,No,,,S – DTD001 – N,,/DTD001.png – DTD001 – N
@@ -666,7 +668,7 @@ Until end of turn, target Dawnblade gets +1{p} and ""Damage this would deal can'
 Create a Runechant token for each damage dealt this way.",,Runeblade Weapon - Scepter (1H),Henrique Lindner,,,,,S – DTD210 – N,,/DTD210.png – DTD210 – N
 ,DTD211,DTD,Dyadic Carapace,,,,2,,,L,"Runeblade, Equipment, Chest","Arcane Barrier 2, Temper",,,,,,"**Arcane Barrier 2**
 
-**Temper**",,Runeblade Equipment – Chest,Ramza Ardyputra,,,,No,C – DTD211 – N,,/DTD211.png – DTD211 – N – C
+**Temper**",,Runeblade Equipment – Chest,Ramza Ardyputra,,,,No,"C – DTD211 – N, C – DTD211 – N – EA",,"/DTD211.png – DTD211 – N – C, /DTD211_EA.png – DTD211 – N – C – EA"
 ,DTD212,DTD,Bequest the Vast Beyond,1,0,,2,,,M,"Runeblade, Action","Viserai Specialization, Go again",,,,,,"**Viserai Specialization**
 
 The next Runeblade attack action card you play this turn costs {r} less to play for each Runechant you control.
@@ -696,15 +698,25 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
 ,DTD222,DTD,Frontline Helm,,,,2,,,R,"Generic, Equipment, Head",Blade Break,,,,,,"At the beginning of your end phase, put a -1{d} counter on this.
 
 **Blade Break**",,Generic Equipment – Head,Shen Fei,,,,,S – DTD222 – N,,/DTD222.png – DTD222 – N
-,DTD223,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD223,DTD,Frontline Plating,,,,2,,,R,"Generic, Equipment, Chest",Blade Break,,,,,,"At the beginning of your end phase, put a -1{d} counter on this.
+
+**Blade Break**",,Generic Equipment – Chest,Shen Fei,,,,,S – DTD223 – N,,/DTD223.png – DTD223 – N
 ,DTD224,DTD,Frontline Guantlets,,,,2,,,R,"Generic, Equipment, Arms",Blade Break,,,,,,"At the beginning of your end phase, put a -1{d} counter on this.
 
 **Blade Break**",,Generic Equipment – Arms,Shen Fei,,,,,S – DTD224 – N,,/DTD224.png – DTD224 – N
-,DTD225,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD225,DTD,Frontline Legs,,,,2,,,R,"Generic, Equipment, Legs",Blade Break,,,,,,"At the beginning of your end phase, put a -1{d} counter on this.
+
+**Blade Break**",,Generic Equipment – Legs,Shen Fei,,,,,S – DTD225 – N,,/DTD225.png – DTD225 – N
 ,DTD226,DTD,Censor,1,1,5,3,,,M,"Generic, Action, Attack",,,,,,,"When this hits a hero, name a card. They can’t play the named card until the end of their next turn.",,Generic Action – Attack,,,,,No,S – DTD226 – N,,/DTD226.png – DTD226 – N
-,DTD227,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD227,DTD,Mischievous Meeps,1,1,2,2,,,M,"Generic, Action, Attack",Go again,,,,,,"When this hits a hero, gain control of an item with cost 2 or less they control. Otherwise, draw a card.
+
+**Go again**",,Generic Action – Attack,Rio Sabda,,,,No,S – DTD227 – N,,/DTD227.png – DTD227 – N
 ,DTD228,DTD,Hold the Line,3,0,,2,,,M,"Generic, Defense Reaction",,,,,,,"If the attacking hero has drawn 2 or more cards this turn, prevent the next 3 damage that would be dealt to your hero this turn.",,Generic Defense Reaction,Tomasz Jedruszek,,,,No,S - DTD228 - N,,/DTD228.png – DTD228 – N
-,DTD229,DTD,,,,,,,,,,,,,,,,,,,,,,,,,,
+,DTD229,DTD,Hack to Reality,2,1,,2,,,M,"Generic, Action",Go again,,,,,,"Your next attack this turn gets +2{p}.
+
+The next time you hit a hero this turn, destroy a non-token aura they own with cost less than or equal to the damage dealt this way.
+
+**Go again**",,Generic Action,Riordan Delmiro,,,,No,S – DTD229 – N,,/DTD229.png – DTD229 – N
 ,DTD230,DTD,Warmonger’s Diplomacy,3,0,,3,,,M,"Generic, Action",,,,,,,"Starting with the hero to your left, each hero chooses war or peace.
 
 If they choose war, the only actions they may play or activate during their next turn are weapon and attack actions.

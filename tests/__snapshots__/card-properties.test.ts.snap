@@ -21512,6 +21512,9 @@ exports[`Check for unintentional updates Bull's Eye Bracers (bulls-eye-bracers) 
     "Common",
   ],
   "rarity": "Common",
+  "restrictedFormats": [
+    "Classic Constructed",
+  ],
   "setIdentifiers": [
     "FAB102",
     "1HP226",
@@ -40049,6 +40052,13 @@ exports[`Check for unintentional updates Dyadic Carapace (dyadic-carapace) vs sn
       "image": "DTD211",
       "set": "Dusk till Dawn",
     },
+    {
+      "foiling": "Cold",
+      "identifier": "DTD211",
+      "image": "DTD211_EA",
+      "set": "Dusk till Dawn",
+      "treatment": "Extended Art",
+    },
   ],
   "rarities": [
     "Legendary",
@@ -40063,7 +40073,7 @@ exports[`Check for unintentional updates Dyadic Carapace (dyadic-carapace) vs sn
   "sets": [
     "Dusk till Dawn",
   ],
-  "specialImage": "DTD211",
+  "specialImage": "DTD211_EA",
   "subtypes": [
     "Chest",
   ],
@@ -52992,6 +53002,190 @@ exports[`Check for unintentional updates Frightmare (frightmare-red) vs snapshot
 }
 `;
 
+exports[`Check for unintentional updates Frontline Guantlets (frontline-guantlets) vs snapshot 1`] = `
+{
+  "artists": [
+    "Shen Fei",
+  ],
+  "cardIdentifier": "frontline-guantlets",
+  "classes": [
+    "Generic",
+  ],
+  "defaultImage": "DTD224",
+  "defense": 2,
+  "functionalText": "At the beginning of your end phase, put a -1{d} counter on this.
+
+**Blade Break**",
+  "keywords": [
+    "Blade Break",
+  ],
+  "name": "Frontline Guantlets",
+  "printings": [
+    {
+      "identifier": "DTD224",
+      "image": "DTD224",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "DTD224",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD224",
+  "subtypes": [
+    "Arms",
+  ],
+  "typeText": "Generic Equipment – Arms",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Frontline Helm (frontline-helm) vs snapshot 1`] = `
+{
+  "artists": [
+    "Shen Fei",
+  ],
+  "cardIdentifier": "frontline-helm",
+  "classes": [
+    "Generic",
+  ],
+  "defaultImage": "DTD222",
+  "defense": 2,
+  "functionalText": "At the beginning of your end phase, put a -1{d} counter on this.
+
+**Blade Break**",
+  "keywords": [
+    "Blade Break",
+  ],
+  "name": "Frontline Helm",
+  "printings": [
+    {
+      "identifier": "DTD222",
+      "image": "DTD222",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "DTD222",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD222",
+  "subtypes": [
+    "Head",
+  ],
+  "typeText": "Generic Equipment – Head",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Frontline Legs (frontline-legs) vs snapshot 1`] = `
+{
+  "artists": [
+    "Shen Fei",
+  ],
+  "cardIdentifier": "frontline-legs",
+  "classes": [
+    "Generic",
+  ],
+  "defaultImage": "DTD225",
+  "defense": 2,
+  "functionalText": "At the beginning of your end phase, put a -1{d} counter on this.
+
+**Blade Break**",
+  "keywords": [
+    "Blade Break",
+  ],
+  "name": "Frontline Legs",
+  "printings": [
+    {
+      "identifier": "DTD225",
+      "image": "DTD225",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "DTD225",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD225",
+  "subtypes": [
+    "Legs",
+  ],
+  "typeText": "Generic Equipment – Legs",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Frontline Plating (frontline-plating) vs snapshot 1`] = `
+{
+  "artists": [
+    "Shen Fei",
+  ],
+  "cardIdentifier": "frontline-plating",
+  "classes": [
+    "Generic",
+  ],
+  "defaultImage": "DTD223",
+  "defense": 2,
+  "functionalText": "At the beginning of your end phase, put a -1{d} counter on this.
+
+**Blade Break**",
+  "keywords": [
+    "Blade Break",
+  ],
+  "name": "Frontline Plating",
+  "printings": [
+    {
+      "identifier": "DTD223",
+      "image": "DTD223",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "DTD223",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD223",
+  "subtypes": [
+    "Chest",
+  ],
+  "typeText": "Generic Equipment – Chest",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Frontline Scout (frontline-scout-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -57127,6 +57321,59 @@ exports[`Check for unintentional updates Guardian of the Shadowrealm (guardian-o
   "typeText": "Shadow Defense Reaction",
   "types": [
     "Defense Reaction",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Hack to Reality (hack-to-reality-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Riordan Delmiro",
+  ],
+  "cardIdentifier": "hack-to-reality-yellow",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 1,
+  "defaultImage": "DTD229",
+  "defense": 2,
+  "functionalText": "Your next attack this turn gets +2{p}.
+
+The next time you hit a hero this turn, destroy a non-token aura they own with cost less than or equal to the damage dealt this way.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Hack to Reality",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "DTD229",
+      "image": "DTD229",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD229",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD229",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Generic Action",
+  "types": [
+    "Action",
   ],
 }
 `;
@@ -74443,6 +74690,59 @@ If Light it Up deals damage to a hero equal to or greater than the number of equ
 }
 `;
 
+exports[`Check for unintentional updates Light of Sol (light-of-sol-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Andy Aslamov",
+  ],
+  "cardIdentifier": "light-of-sol-yellow",
+  "classes": [
+    "NotClassed",
+  ],
+  "defaultImage": "DTD000",
+  "functionalText": "**Legendary**
+
+When this is pitched, reveal the top card of your deck. If it’s yellow, you may put it into your hero’s soul.",
+  "keywords": [
+    "Legendary",
+  ],
+  "name": "Light of Sol",
+  "pitch": 2,
+  "printings": [
+    {
+      "foiling": "Cold",
+      "identifier": "DTD000",
+      "image": "DTD000",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Fabled",
+  ],
+  "rarity": "Fabled",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD000",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD000",
+  "subtypes": [
+    "Gem",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Resource – Gem",
+  "types": [
+    "Resource",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Light the Way (light-the-way-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -79796,6 +80096,58 @@ When Miraging Metamorph is destroyed, create a token that's a copy of an aura yo
 }
 `;
 
+exports[`Check for unintentional updates Mischievous Meeps (mischievous-meeps-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Rio Sabda",
+  ],
+  "cardIdentifier": "mischievous-meeps-red",
+  "classes": [
+    "Generic",
+  ],
+  "cost": 1,
+  "defaultImage": "DTD227",
+  "defense": 2,
+  "functionalText": "When this hits a hero, gain control of an item with cost 2 or less they control. Otherwise, draw a card.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Mischievous Meeps",
+  "pitch": 1,
+  "power": 2,
+  "printings": [
+    {
+      "identifier": "DTD227",
+      "image": "DTD227",
+      "set": "Dusk till Dawn",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "DTD227",
+  ],
+  "sets": [
+    "Dusk till Dawn",
+  ],
+  "specialImage": "DTD227",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Generic Action – Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Moon Wish (moon-wish-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -83773,6 +84125,7 @@ exports[`Check for unintentional updates Oldhim, Grandfather of Eternity (oldhim
   "rarity": "Token",
   "restrictedFormats": [
     "Blitz",
+    "Classic Constructed",
     "Commoner",
   ],
   "setIdentifiers": [
@@ -94654,7 +95007,6 @@ Earth, Ice, and Elemental action cards have +1{d} while defending this turn.",
   ],
   "rarity": "Majestic",
   "restrictedFormats": [
-    "Classic Constructed",
     "Commoner",
   ],
   "setIdentifiers": [

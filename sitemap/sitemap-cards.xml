@@ -21,6 +21,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/light-of-sol-yellow</loc>
+    <lastmod>2023-07-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/prism-awakener-of-sol</loc>
     <lastmod>2023-06-30</lastmod>
     <priority>0.5</priority>
@@ -1051,8 +1056,18 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/frontline-plating</loc>
+    <lastmod>2023-07-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/frontline-guantlets</loc>
     <lastmod>2023-07-05</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/frontline-legs</loc>
+    <lastmod>2023-07-06</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -1061,8 +1076,18 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/mischievous-meeps-red</loc>
+    <lastmod>2023-07-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/hold-the-line-blue</loc>
     <lastmod>2023-06-28</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/hack-to-reality-yellow</loc>
+    <lastmod>2023-07-06</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
