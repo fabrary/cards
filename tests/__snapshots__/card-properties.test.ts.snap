@@ -9677,7 +9677,7 @@ exports[`Check for unintentional updates Beaming Blade (beaming-blade) vs snapsh
     "Warrior",
   ],
   "defaultImage": "DTD046",
-  "functionalText": "**Once per Turn Action – {r}: Attack
+  "functionalText": "**Once per Turn Action** – {r}{r}: **Attack**
 
 If a yellow card has been put into your hero’s soul this turn, this gets +5{p}.",
   "name": "Beaming Blade",
@@ -12307,6 +12307,7 @@ Once each turn, you may play a card with **blood debt** from your banished zone.
   ],
   "rarities": [
     "Legendary",
+    "Marvel",
   ],
   "rarity": "Legendary",
   "restrictedFormats": [
@@ -48240,7 +48241,7 @@ When this enters the arena, you may turn a card in any banished zone face-down."
 exports[`Check for unintentional updates Figment of Protection (figment-of-protection-yellow) vs snapshot 1`] = `
 {
   "artists": [
-    "soyameii",
+    "Bastien Jez",
   ],
   "cardIdentifier": "figment-of-protection-yellow",
   "classes": [
@@ -48427,7 +48428,6 @@ exports[`Check for unintentional updates Figment of Tenacity (figment-of-tenacit
 {
   "artists": [
     "Bastien Jez",
-    "Carlos Cruchaga",
   ],
   "cardIdentifier": "figment-of-tenacity-yellow",
   "classes": [
@@ -48489,7 +48489,7 @@ When this enters the arena, your next attack this turn gets dominate.",
 exports[`Check for unintentional updates Figment of Triumph (figment-of-triumph-yellow) vs snapshot 1`] = `
 {
   "artists": [
-    "Joseph Qiu",
+    "Eleonor Piteira",
   ],
   "cardIdentifier": "figment-of-triumph-yellow",
   "classes": [
@@ -48551,7 +48551,6 @@ When this enters the arena, attack action cards your opponent control get -1{p} 
 exports[`Check for unintentional updates Figment of War (figment-of-war-yellow) vs snapshot 1`] = `
 {
   "artists": [
-    "Alexander Mokhov",
     "Eric Klug",
   ],
   "cardIdentifier": "figment-of-war-yellow",
@@ -73865,6 +73864,7 @@ Cards you own lose **blood debt**",
   ],
   "rarities": [
     "Legendary",
+    "Marvel",
   ],
   "rarity": "Legendary",
   "restrictedFormats": [
@@ -79477,7 +79477,6 @@ exports[`Check for unintentional updates Metacarpus Node (metacarpus-node) vs sn
 exports[`Check for unintentional updates Metis, Archangel of Tenacity (metis-archangel-of-tenacity) vs snapshot 1`] = `
 {
   "artists": [
-    "Bastien Jez",
     "Carlos Cruchaga",
   ],
   "cardIdentifier": "metis-archangel-of-tenacity",
@@ -115787,7 +115786,7 @@ exports[`Check for unintentional updates Seismic Surge (seismic-surge) vs snapsh
 exports[`Check for unintentional updates Sekem, Archangel of Ravages (sekem-archangel-of-ravages) vs snapshot 1`] = `
 {
   "artists": [
-    "MJ Fetesio",
+    "Billy Christian",
   ],
   "cardIdentifier": "sekem-archangel-of-ravages",
   "classes": [
@@ -129049,6 +129048,13 @@ exports[`Check for unintentional updates Spoiled Skull (spoiled-skull) vs snapsh
       "image": "DTD106",
       "set": "Dusk till Dawn",
     },
+    {
+      "foiling": "Cold",
+      "identifier": "DTD106",
+      "image": "DTD106_EA",
+      "set": "Dusk till Dawn",
+      "treatment": "Extended Art",
+    },
   ],
   "rarities": [
     "Majestic",
@@ -129063,7 +129069,7 @@ exports[`Check for unintentional updates Spoiled Skull (spoiled-skull) vs snapsh
   "sets": [
     "Dusk till Dawn",
   ],
-  "specialImage": "DTD106",
+  "specialImage": "DTD106_EA",
   "subtypes": [
     "Head",
   ],
@@ -133134,7 +133140,7 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
 exports[`Check for unintentional updates Suraya, Archangel of Erudition (suraya-archangel-of-erudition) vs snapshot 1`] = `
 {
   "artists": [
-    "Daria Khlebnikova",
+    "Asur Misoa",
   ],
   "cardIdentifier": "suraya-archangel-of-erudition",
   "classes": [

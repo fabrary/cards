@@ -1,7 +1,7 @@
 {
   "name": "fab-cards",
   "description": "TypeScript representations of Flesh and Blood cards",
-  "version": "8.0.102",
+  "version": "8.0.105",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -17,14 +17,14 @@
   },
   "devDependencies": {
     "@types/jest": "^29.5.2",
-    "@types/node": "^20.4.0",
+    "@types/node": "^20.4.1",
     "@types/papaparse": "5.3.7",
     "chalk": "^4.1.2",
     "esbuild": "^0.18.11",
     "esbuild-jest": "^0.5.0",
-    "fab-cards": "^8.0.101",
+    "fab-cards": "^8.0.104",
     "fast-xml-parser": "^4.2.5",
-    "jest": "^29.6.0",
+    "jest": "^29.6.1",
     "papaparse": "5.3.2",
     "ts-node": "^10.9.1",
     "typescript": "^5.1.6"

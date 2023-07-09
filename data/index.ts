@@ -479,7 +479,7 @@ When this enters the arena, create a Ponder token`,
     talents: [Talent.Light],
     
   },{
-    artists: ["Daria Khlebnikova"],
+    artists: ["Asur Misoa"],
     cardIdentifier: "suraya-archangel-of-erudition",
     classes: [Class.NotClassed],
     defaultImage: "DTD005_Back",
@@ -630,7 +630,7 @@ When Themis attacks, you may banish a card from your hero’s soul. If you do, t
     talents: [Talent.Light],
     
   },{
-    artists: ["soyameii"],
+    artists: ["Bastien Jez"],
     cardIdentifier: "figment-of-protection-yellow",
     classes: [Class.Illusionist],
     defaultImage: "DTD007",
@@ -779,7 +779,7 @@ When this enters the arena, deal 1 arcane damage to any target.`,
     talents: [Talent.Light],
     
   },{
-    artists: ["MJ Fetesio"],
+    artists: ["Billy Christian"],
     cardIdentifier: "sekem-archangel-of-ravages",
     classes: [Class.NotClassed],
     defaultImage: "DTD008_Back",
@@ -930,7 +930,7 @@ When Avalon attacks, you may banish a card from your hero’s soul. If you do, p
     talents: [Talent.Light],
     
   },{
-    artists: ["Bastien Jez","Carlos Cruchaga"],
+    artists: ["Bastien Jez"],
     cardIdentifier: "figment-of-tenacity-yellow",
     classes: [Class.Illusionist],
     defaultImage: "DTD010",
@@ -979,7 +979,7 @@ When this enters the arena, your next attack this turn gets dominate.`,
     talents: [Talent.Light],
     
   },{
-    artists: ["Bastien Jez","Carlos Cruchaga"],
+    artists: ["Carlos Cruchaga"],
     cardIdentifier: "metis-archangel-of-tenacity",
     classes: [Class.NotClassed],
     defaultImage: "DTD010_Back",
@@ -1030,7 +1030,7 @@ When Metis attacks, you may banish a card from your hero’s soul. If you do, yo
     talents: [Talent.Light],
     
   },{
-    artists: ["Joseph Qiu"],
+    artists: ["Eleonor Piteira"],
     cardIdentifier: "figment-of-triumph-yellow",
     classes: [Class.Illusionist],
     defaultImage: "DTD011",
@@ -1130,7 +1130,7 @@ When VIctoria attacks, you may banish a card from your hero’s soul. If you do,
     talents: [Talent.Light],
     
   },{
-    artists: ["Alexander Mokhov","Eric Klug"],
+    artists: ["Eric Klug"],
     cardIdentifier: "figment-of-war-yellow",
     classes: [Class.Illusionist],
     defaultImage: "DTD012",
@@ -1836,7 +1836,7 @@ Your next angel attack this turn gets +1{p}.`,
 
     
     
-    functionalText: `**Once per Turn Action – {r}: Attack
+    functionalText: `**Once per Turn Action** – {r}{r}: **Attack**
 
 If a yellow card has been put into your hero’s soul this turn, this gets +5{p}.`,
     
@@ -4375,12 +4375,18 @@ When the combat chain closes, if this attacked, banish it.
       image: "DTD106",
       set: Release.DuskTillDawn,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "DTD106",
+      image: "DTD106_EA",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DTD106"],
     sets: [Release.DuskTillDawn],
-    specialImage: "DTD106",
+    specialImage: "DTD106_EA",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
     typeText: "Shadow Brute Equipment – Head",
@@ -6986,7 +6992,7 @@ The next attack action card you **rune gate** this turn gets +3{p}.
       set: Release.DuskTillDawn,
       treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Marvel],
     rarity: Rarity.Legendary,
     setIdentifiers: ["DTD164"],
     sets: [Release.DuskTillDawn],
@@ -7037,7 +7043,7 @@ Cards you own lose **blood debt**`,
       set: Release.DuskTillDawn,
       treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Marvel],
     rarity: Rarity.Legendary,
     setIdentifiers: ["DTD164"],
     sets: [Release.DuskTillDawn],
@@ -132853,7 +132859,7 @@ At the beginning of your end phase destroy Frailty.`,
     ...cards4,
   ];
 
-  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasia Balakchina","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","Ausonia","Bastien Jez","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Edward Chee","Eilene Cherie","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Eric Klug","Erick Efata","Erik Klug","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Jessica Nguyen","Jessketchin","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kalashnikova N.","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Maerel Hibadita","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wisniewski","Mateusz Wiśniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Revazashvili E.","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sandeep Karunakaran","Sariya Asavametha","Sebastian Szmyd","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Dominic","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Stormy Elia Fanggidae","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tomasz Jedruszek","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yeong-Hao Han","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
+  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasia Balakchina","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","Ausonia","Bastien Jez","Billy Christian","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Edward Chee","Eilene Cherie","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Eric Klug","Erick Efata","Erik Klug","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Jessica Nguyen","Jessketchin","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kalashnikova N.","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Maerel Hibadita","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wisniewski","Mateusz Wiśniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Revazashvili E.","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sandeep Karunakaran","Sariya Asavametha","Sebastian Szmyd","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Dominic","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Stormy Elia Fanggidae","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tomasz Jedruszek","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yeong-Hao Han","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
 
   export * from "./sets";
 
