@@ -80,6 +80,7 @@ export enum Class {
 
 export enum Format {
   Blitz = "Blitz",
+  BlitzPlus = "Blitz (Skirmish Season 7 rules)",
   Clash = "Clash",
   ClassicConstructed = "Classic Constructed",
   Commoner = "Commoner",

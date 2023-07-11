@@ -34339,7 +34339,7 @@ When the combat chain closes, create Runechant tokens equal to the number of her
   ],
   "name": "Deathly Wail",
   "pitch": 3,
-  "power": 6,
+  "power": 4,
   "printings": [
     {
       "identifier": "DTD148",
@@ -34455,7 +34455,7 @@ When the combat chain closes, create Runechant tokens equal to the number of her
   ],
   "name": "Deathly Wail",
   "pitch": 2,
-  "power": 6,
+  "power": 5,
   "printings": [
     {
       "identifier": "DTD147",

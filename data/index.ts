@@ -6233,7 +6233,7 @@ When the combat chain closes, create Runechant tokens equal to the number of her
     
     
     pitch: 2,
-    power: 6,
+    power: 5,
     restrictedFormats: [Format.Commoner],
     
     
@@ -6278,7 +6278,7 @@ When the combat chain closes, create Runechant tokens equal to the number of her
     
     
     pitch: 3,
-    power: 6,
+    power: 4,
     restrictedFormats: [Format.Commoner],
     
     
