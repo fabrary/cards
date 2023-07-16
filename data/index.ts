@@ -204,6 +204,12 @@ Whenever an opponent plays or activates their first card or ability each turn, i
       image: "DTD000",
       set: Release.DuskTillDawn,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "DTD000",
+      image: "DTD000",
+      set: Release.DuskTillDawn,
+      
     },],
     rarities: [Rarity.Fabled],
     rarity: Rarity.Fabled,
@@ -387,7 +393,7 @@ When this is pitched, reveal the top card of your deck. If it’s yellow, you ma
     defaultImage: "DTD004",
     name: "Empyrean Rapture",
     printings: [{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "DTD004",
       image: "DTD004",
       set: Release.DuskTillDawn,
@@ -1863,6 +1869,12 @@ If a yellow card has been put into your hero’s soul this turn, this gets +5{p}
     name: "Soulbond Resolve",
     printings: [{
       foiling: Foiling.C,
+      identifier: "DTD047",
+      image: "DTD047",
+      set: Release.DuskTillDawn,
+      
+    },{
+      foiling: Foiling.R,
       identifier: "DTD047",
       image: "DTD047",
       set: Release.DuskTillDawn,
@@ -6980,7 +6992,7 @@ The next attack action card you **rune gate** this turn gets +3{p}.
     defaultImage: "DTD164",
     name: "Levia, Redeemed",
     printings: [{
-      foiling: Foiling.C,
+      
       identifier: "DTD164",
       image: "DTD164",
       set: Release.DuskTillDawn,
@@ -7031,7 +7043,7 @@ Cards you own lose **blood debt**`,
     defaultImage: "DTD164_Back",
     name: "Blasmophet, Levia Consumed",
     printings: [{
-      foiling: Foiling.C,
+      
       identifier: "DTD164",
       image: "DTD164_Back",
       set: Release.DuskTillDawn,
@@ -8674,6 +8686,12 @@ Activate Rugged Roller only if you’ve rolled a 6 on a die this turn`,
       image: "DTD200",
       set: Release.DuskTillDawn,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "DTD200",
+      image: "DTD200",
+      set: Release.DuskTillDawn,
+      
     },],
     rarities: [Rarity.Legendary],
     rarity: Rarity.Legendary,
@@ -8858,7 +8876,7 @@ Activate Rugged Roller only if you’ve rolled a 6 on a die this turn`,
 
     
     
-    functionalText: `**Once per Turn Action – {r}{r}: Attack**
+    functionalText: `**Once per Turn Action – {r}{r}{r}: Attack**
 
 The first time this is defended by a non-equipment card each turn, halve the base {d} of target defending card, rounded up.`,
     
@@ -8927,7 +8945,13 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     defaultImage: "DTD207",
     name: "Ironsong Versus",
     printings: [{
+      foiling: Foiling.C,
+      identifier: "DTD207",
+      image: "DTD207",
+      set: Release.DuskTillDawn,
       
+    },{
+      foiling: Foiling.R,
       identifier: "DTD207",
       image: "DTD207",
       set: Release.DuskTillDawn,
@@ -9099,7 +9123,7 @@ Create a Runechant token for each damage dealt this way.`,
     defaultImage: "DTD211",
     name: "Dyadic Carapace",
     printings: [{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "DTD211",
       image: "DTD211",
       set: Release.DuskTillDawn,
@@ -9324,7 +9348,7 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
     defaultImage: "DTD217",
     name: "Diadem of Dreamstate",
     printings: [{
-      
+      foiling: Foiling.R,
       identifier: "DTD217",
       image: "DTD217",
       set: Release.DuskTillDawn,
@@ -9538,10 +9562,10 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
     
   },{
     artists: ["Shen Fei"],
-    cardIdentifier: "frontline-guantlets",
+    cardIdentifier: "frontline-gauntlets",
     classes: [Class.Generic],
     defaultImage: "DTD224",
-    name: "Frontline Guantlets",
+    name: "Frontline Gauntlets",
     printings: [{
       
       identifier: "DTD224",

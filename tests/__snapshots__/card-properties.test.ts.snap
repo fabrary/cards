@@ -12292,7 +12292,6 @@ Once each turn, you may play a card with **blood debt** from your banished zone.
   "oppositeSideCardIdentifier": "levia-redeemed",
   "printings": [
     {
-      "foiling": "Cold",
       "identifier": "DTD164",
       "image": "DTD164_Back",
       "set": "Dusk till Dawn",
@@ -34739,7 +34738,7 @@ exports[`Check for unintentional updates Decimator Great Axe (decimator-great-ax
     "Warrior",
   ],
   "defaultImage": "DTD205",
-  "functionalText": "**Once per Turn Action – {r}{r}: Attack**
+  "functionalText": "**Once per Turn Action – {r}{r}{r}: Attack**
 
 The first time this is defended by a non-equipment card each turn, halve the base {d} of target defending card, rounded up.",
   "name": "Decimator Great Axe",
@@ -35752,6 +35751,7 @@ exports[`Check for unintentional updates Diadem of Dreamstate (diadem-of-dreamst
   "name": "Diadem of Dreamstate",
   "printings": [
     {
+      "foiling": "Rainbow",
       "identifier": "DTD217",
       "image": "DTD217",
       "set": "Dusk till Dawn",
@@ -40048,7 +40048,7 @@ exports[`Check for unintentional updates Dyadic Carapace (dyadic-carapace) vs sn
   "name": "Dyadic Carapace",
   "printings": [
     {
-      "foiling": "Cold",
+      "foiling": "Rainbow",
       "identifier": "DTD211",
       "image": "DTD211",
       "set": "Dusk till Dawn",
@@ -42778,7 +42778,7 @@ exports[`Check for unintentional updates Empyrean Rapture (empyrean-rapture) vs 
   "name": "Empyrean Rapture",
   "printings": [
     {
-      "foiling": "Cold",
+      "foiling": "Rainbow",
       "identifier": "DTD004",
       "image": "DTD004",
       "set": "Dusk till Dawn",
@@ -52997,52 +52997,6 @@ exports[`Check for unintentional updates Frightmare (frightmare-red) vs snapshot
   "typeText": "Illusionist Action – Attack",
   "types": [
     "Action",
-  ],
-}
-`;
-
-exports[`Check for unintentional updates Frontline Guantlets (frontline-guantlets) vs snapshot 1`] = `
-{
-  "artists": [
-    "Shen Fei",
-  ],
-  "cardIdentifier": "frontline-guantlets",
-  "classes": [
-    "Generic",
-  ],
-  "defaultImage": "DTD224",
-  "defense": 2,
-  "functionalText": "At the beginning of your end phase, put a -1{d} counter on this.
-
-**Blade Break**",
-  "keywords": [
-    "Blade Break",
-  ],
-  "name": "Frontline Guantlets",
-  "printings": [
-    {
-      "identifier": "DTD224",
-      "image": "DTD224",
-      "set": "Dusk till Dawn",
-    },
-  ],
-  "rarities": [
-    "Rare",
-  ],
-  "rarity": "Rare",
-  "setIdentifiers": [
-    "DTD224",
-  ],
-  "sets": [
-    "Dusk till Dawn",
-  ],
-  "specialImage": "DTD224",
-  "subtypes": [
-    "Arms",
-  ],
-  "typeText": "Generic Equipment – Arms",
-  "types": [
-    "Equipment",
   ],
 }
 `;
@@ -70665,6 +70619,13 @@ exports[`Check for unintentional updates Ironsong Versus (ironsong-versus) vs sn
   "name": "Ironsong Versus",
   "printings": [
     {
+      "foiling": "Cold",
+      "identifier": "DTD207",
+      "image": "DTD207",
+      "set": "Dusk till Dawn",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "DTD207",
       "image": "DTD207",
       "set": "Dusk till Dawn",
@@ -73849,7 +73810,6 @@ Cards you own lose **blood debt**",
   "oppositeSideCardIdentifier": "blasmophet-levia-consumed",
   "printings": [
     {
-      "foiling": "Cold",
       "identifier": "DTD164",
       "image": "DTD164",
       "set": "Dusk till Dawn",
@@ -74711,6 +74671,12 @@ When this is pitched, reveal the top card of your deck. If it’s yellow, you ma
   "printings": [
     {
       "foiling": "Cold",
+      "identifier": "DTD000",
+      "image": "DTD000",
+      "set": "Dusk till Dawn",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "DTD000",
       "image": "DTD000",
       "set": "Dusk till Dawn",
@@ -112846,6 +112812,12 @@ exports[`Check for unintentional updates Scowling Flesh Bag (scowling-flesh-bag)
       "image": "DTD200",
       "set": "Dusk till Dawn",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "DTD200",
+      "image": "DTD200",
+      "set": "Dusk till Dawn",
+    },
   ],
   "rarities": [
     "Legendary",
@@ -125862,6 +125834,12 @@ The first time you would be dealt damage each turn, if you’ve **charged** this
   "printings": [
     {
       "foiling": "Cold",
+      "identifier": "DTD047",
+      "image": "DTD047",
+      "set": "Dusk till Dawn",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "DTD047",
       "image": "DTD047",
       "set": "Dusk till Dawn",

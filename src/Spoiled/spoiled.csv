@@ -11,7 +11,7 @@ Whenever an opponent plays or activates their first card or ability each turn, i
 ,"JDG009, JDG010",JDG,Proclamation of Abundance,,,,,,,P,"Adjudicator, Equipment, Off-Hand",,Action,,,,,"**Action** - {r}{r}{r}, destroy this: Each hero draws up to their {i}.",,Adjudicator Equipment – Off-Hand,Kanadekana,,No,No,No,"R - JDG009 – N, C – JDG010 - N",,"/JDG009.png – JDG009 – N – R, /JDG010.png – JDG010 – N – C"
 ,DTD000,DTD,Light of Sol,2,,,,,,F,"Light, Resource, Gem",Legendary,,,,,,"**Legendary**
 
-When this is pitched, reveal the top card of your deck. If it’s yellow, you may put it into your hero’s soul.",,Light Resource – Gem,Andy Aslamov,,,,No,C – DTD000 – N,,/DTD000.png – DTD000 – N – C
+When this is pitched, reveal the top card of your deck. If it’s yellow, you may put it into your hero’s soul.",,Light Resource – Gem,Andy Aslamov,,,,No,"C – DTD000 – N, R – DTD000 – N",,"/DTD000.png – DTD000 – N – C, /DTD000.png – DTD000 – N – R"
 ,DTD001,DTD,"Prism, Awakener of Sol",,,,,32,4,M,"Light, Illusionist, Hero","Once per Turn Instant, Awaken",,,,,,"Whenever a card with Herald in its name is put into Prism’s soul during an action phase, you may search your deck for a figment, put it into the arena, then shuffle.
 
 **Once per Turn Instant** - {r}{r}, banish a card from Prism’s soul: **Awaken** target figment you control.",,Light Illusionist Hero,Livia Prima,,No,,,S – DTD001 – N,,/DTD001.png – DTD001 – N
@@ -21,7 +21,7 @@ When this is pitched, reveal the top card of your deck. If it’s yellow, you ma
 ,"DTD003, FAB166, LGS160","DTD, FAB, LGS","Luminaris, Celestial Fury",,,,,,,"R, P, P","Light, Illusionist, Weapon, Scepter, 2H","Instant, Go again",,,,,,**Once per Turn Instant - {r}{r}:** Target angel attack or attack action card with Herald in its name gets **go again**.,,Light Illusionist Weapon - Scepter (2H),Jessketchin,,,,,"S – DTD003 – N, R - FAB166 – N, C – LGS160 – N",,"/DTD003.png – DTD003 – N, /FAB166.png – FAB166 – N – R, /LGS160.png – LGS160 – N – C"
 ,DTD004,DTD,Empyrean Rapture,,,,,,,L,"Light, Illusionist, Equipment, Chest","Once per Turn Instant, Ward 1",,,,,,"If a card with Herald in its name has been put into your hero's soul during your turn, the first hero ability you activate that turn costs {r}{r} less to activate.
 
-**Once per Turn Instant** - {r}: This gets **ward 1** until end of turn.",,Light Illusionist Equipment – Chest,soyameii,,,,No,"C – DTD004 – N, C – DTD004 - N – EA",,"/DTD004.png – DTD004 – N – C, /DTD004_EA.png – DTD004 – N – C – EA"
+**Once per Turn Instant** - {r}: This gets **ward 1** until end of turn.",,Light Illusionist Equipment – Chest,soyameii,,,,No,"R – DTD004 – N, C – DTD004 - N – EA",,"/DTD004.png – DTD004 – N – R, /DTD004_EA.png – DTD004 – N – C – EA"
 ,DTD005,DTD,Figment of Erudition,2,4,,,,,M,"Light, Illusionist, Instant, Figment",Legendary,,,,,,"**Legendary**
 
 When this enters the arena, create a Ponder token",,Light Illusionist Instant – Figment,Daria Khlebnikova,,,,No,"S – DTD005 – N, C – DTD005 – N – FA",,"/DTD005.png – DTD005 – N, /DTD005_Marvel.png – DTD005 – N – C – FA"
@@ -133,7 +133,7 @@ If a yellow card has been put into your hero’s soul this turn, this gets +5{p}
 
 The first time you would be dealt damage each turn, if you’ve **charged** this turn, prevent 1 of that damage.
 
-**Temper**",,Light Warrior Equipment – Chest,Tanapon Wachirakul,,,,No,C – DTD047 – N,,/DTD047.png – DTD047 – N – C
+**Temper**",,Light Warrior Equipment – Chest,Tanapon Wachirakul,,,,No,"C – DTD047 – N, R – DTD047 – N",,"/DTD047.png – DTD047 – N – C, /DTD047.png – DTD047 – N – R"
 ,"FAB161, DTD048","FAB, DTD",Banneret of Courage,2,1,4,3,,,"P, M","Light, Warrior, Action, Attack","Solflare, Charge",,,,,,"**Solflare** - When this is **charged** to your hero's soul, create a Courage token.",,Light Warrior Action - Attack,Jessada Sutthi,,,,No,"R - FAB161 - N – EA, S – DTD048 – N",,"/FAB161.png – FAB161 – N – R – EA, DTD048.png – DTD048 – N"
 ,"FAB162, DTD049","FAB, DTD",Banneret of Gallantry,2,1,4,3,,,"P, M","Light, Warrior, Action, Attack","Solflare, Charge",,,,,,"**Solflare** - When this is **charged** to your hero's soul, create a Quicken token.",,Light Warrior Action - Attack,Jessada Sutthi,,,,No,"R - FAB162 - N - EA, S – DTD049 – N",,"/FAB162.png – FAB162 – N – R – EA, DTD049.png – DTD049 – N"
 ,"FAB163, DTD050","FAB, DTD",Banneret of Protection,2,1,4,3,,,"P, M","Light, Warrior, Action, Attack","Solflare, Charge",,,,,,"**Solflare** - When this is **charged** to your hero's soul, create a Spellbane Aegis token.",,Light Warrior Action - Attack,Jessada Sutthi,,,,No,"R - FAB163 - N - EA, S – DTD050 – N",,"/FAB163.png – FAB163 – N – R – EA, DTD050.png – DTD050 – N"
@@ -497,12 +497,12 @@ The next attack action card you **rune gate** this turn gets +3{p}.
 
 **Action** - Turn all cards in your banished zone face-down: **Transform** into Levia, Redeemed. Activate this ability only while this is in your inventory and you have 13 or more cards with **blood debt** in your banished zone.
 
-Cards you own lose **blood debt**",,Shadow Demi-Hero,Steve Argyle,,,,No,"C – DTD164 – N, C – DTD164 – N – EA",,"/DTD164.png – DTD164 – N – C, /DTD164_Marvel.png – DTD164 – N – C – EA"
+Cards you own lose **blood debt**",,Shadow Demi-Hero,Steve Argyle,,,,No,"S – DTD164 – N, C – DTD164_Marvel – N – EA",,"/DTD164.png – DTD164 – N, /DTD164_Marvel.png – DTD164 – N – C – EA"
 ,DTD164,DTD,"Blasmophet, Levia Consumed",,,,,13,4,"L, V","Shadow, Demi-Hero, Demon","Legendary, Levia Specialization, Transform",,,,,,"**Legendary Levia Specialization**
 
 While this is in your inventory, when **blood debt** reduces your {l} to 13, you may transform into Blasmophet, Levia Consumed.
 
-Once each turn, you may play a card with **blood debt** from your banished zone. Whenever a card is put into your banished zone, turn it face-down. If you would lose {l} from **blood debt**, instead banish the top card of your deck.",,Shadow Demi-Hero – Demon,Wisnu Tan,,,,No,"C – DTD164 – N, C – DTD164 – N – EA",,"/DTD164_Back.png – DTD164 – N – C, /DTD164_Back_Marvel.png – DTD164 – N – C – EA"
+Once each turn, you may play a card with **blood debt** from your banished zone. Whenever a card is put into your banished zone, turn it face-down. If you would lose {l} from **blood debt**, instead banish the top card of your deck.",,Shadow Demi-Hero – Demon,Wisnu Tan,,,,No,"S – DTD164 – N, C – DTD164_Back_Marvel – N – EA",,"/DTD164_Back.png – DTD164 – N, /DTD164_Back_Marvel.png – DTD164 – N – C – EA"
 ,DTD165,DTD,Shroud of Darkness,,,,,,,C,"Shadow, Equipment, Head",Blood Debt,,,,,,"If your hero would be dealt damage, you may banish this to prevent 2 of that damage.
 
 **Blood Debt**",,Shadow Equipment – Head,Sebastian Szmyd,,,,,S – DTD165 – N,,/DTD165.png – DTD165 – N
@@ -638,7 +638,7 @@ Your attacks this turn get ""Whenever the defending hero adds 1 or more defendin
 Activate Rugged Roller only if you’ve rolled a 6 on a die this turn",,Brute Weapon – Club (2H),Junaidi Lim,,,,,S – DTD199 – N,,/DTD199.png – DTD199 – N
 ,DTD200,DTD,Scowling Flesh Bag,,,,2,,,L,"Brute, Equipment, Head","Blade Break, Intimidate",,,,,,"When this defends, **intimidate**.
 
-**Blade Break**",,Brute Equipment – Head,Tanapon Wachirakul,,,,No,C – DTD200 – N,,/DTD200.png – DTD200 – N – C
+**Blade Break**",,Brute Equipment – Head,Tanapon Wachirakul,,,,No,"C – DTD200 – N, R – DTD200 – N",,"/DTD200.png – DTD200 – N – C, /DTD200.png – DTD200 – N – R"
 ,DTD201,DTD,Numbskull,1,2,6,3,,,M,"Brute, Action, Attack",,,,,,,"While this is in any zone, its {r} cost to play, {p}, and {d} can’t be modified.",,Brute Action – Attack,Henrique Lindner,,,,No,S – DTD201 – N,,/DTD201.png – DTD201 – N
 ,DTD202,DTD,Dig Up Dinner,3,1,,3,,,M,"Brute, Action",Go again,,,,,,"Choose 3 random cards in your graveyard. Shuffle all attack action cards with 6 or more {p} chosen this way into your deck, then gain that much {l}. Banish this.
 
@@ -648,7 +648,7 @@ Activate Rugged Roller only if you’ve rolled a 6 on a die this turn",,Brute We
 **Crush** - When this deals 4 or more damage to a hero, the only attacks they may play or activate during their next turn are attacks with base {p} greater than the damage dealt this way.
 
 **Unity** - When this defends together with a card from hand, create a Seismic Surge token under any number of heroes' control.",,Guardian Action - Attack,Andy Aslamov,,,,No,S - DTD203 - N,,/DTD203.png – DTD203 – N
-,DTD205,DTD,Decimator Great Axe,,,4,,,,R,"Warrior, Weapon, Axe, 2H",,,,,,,"**Once per Turn Action – {r}{r}: Attack**
+,DTD205,DTD,Decimator Great Axe,,,4,,,,R,"Warrior, Weapon, Axe, 2H",,,,,,,"**Once per Turn Action – {r}{r}{r}: Attack**
 
 The first time this is defended by a non-equipment card each turn, halve the base {d} of target defending card, rounded up.",,Warrior Weapon – Axe (2H),Stormy Elia Fanggidae,,,,,S - DTD205 - N,,/DTD205.png – DTD205 – N
 ,DTD206,DTD,Bastion of Unity,,,,1,,,M,"Warrior, Equipment, Off-Hand","Unity, Temper",,,,,,"**Unity** - When this defends together with a card from hand, this gets +1{d} until end of turn.
@@ -656,7 +656,7 @@ The first time this is defended by a non-equipment card each turn, halve the bas
 **Temper**",,Warrior Equipment – Off-Hand,Kanadekana,,,,No,S - DTD206 - N,,/DTD206.png – DTD206 – N
 ,DTD207,DTD,Ironsong Versus,,,,2,,,L,"Warrior, Equipment, Arms","Temper, Go again",,,,,,"**Once per Turn Action – {r}: Your next sword attack this turn gets “When this hits a hero, create a Courage token.” **Go again**
 
-**Temper**",,Warrior Equipment – Arms,Athiwut B.,,,,No,C – DTD207 – N,,/DTD207.png – DTD207 – N
+**Temper**",,Warrior Equipment – Arms,Athiwut B.,,,,No,"C – DTD207 – N, R – DTD207 – N",,"/DTD207.png – DTD207 – N – C, /DTD207.png – DTD207 – N – R"
 ,DTD208,DTD,Chorus of Ironsong,2,1,,3,,,M,"Warrior, Attack Reaction","Unity, Dorinthea Specialization",,,,,,"**Dorinthea Specialization**
 
 Until end of turn, target Dawnblade gets +1{p} and ""Damage this would deal can't be prevented.""
@@ -668,7 +668,7 @@ Until end of turn, target Dawnblade gets +1{p} and ""Damage this would deal can'
 Create a Runechant token for each damage dealt this way.",,Runeblade Weapon - Scepter (1H),Henrique Lindner,,,,,S – DTD210 – N,,/DTD210.png – DTD210 – N
 ,DTD211,DTD,Dyadic Carapace,,,,2,,,L,"Runeblade, Equipment, Chest","Arcane Barrier 2, Temper",,,,,,"**Arcane Barrier 2**
 
-**Temper**",,Runeblade Equipment – Chest,Ramza Ardyputra,,,,No,"C – DTD211 – N, C – DTD211 – N – EA",,"/DTD211.png – DTD211 – N – C, /DTD211_EA.png – DTD211 – N – C – EA"
+**Temper**",,Runeblade Equipment – Chest,Ramza Ardyputra,,,,No,"R – DTD211 – N, C – DTD211 – N – EA",,"/DTD211.png – DTD211 – N – R, /DTD211_EA.png – DTD211 – N – C – EA"
 ,DTD212,DTD,Bequest the Vast Beyond,1,0,,2,,,M,"Runeblade, Action","Viserai Specialization, Go again",,,,,,"**Viserai Specialization**
 
 The next Runeblade attack action card you play this turn costs {r} less to play for each Runechant you control.
@@ -688,7 +688,7 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
 ,DTD216,DTD,Reality Refractor,,,,,,,R,"Illusionist, Weapon, Orb, 2H",,,,,,,"Illusionist auras you control are weapons with 5 base {p} and ""Once per Turn Action - {r}{r}: Attack""",,Illusionist Weapon – Orb (2H),Enmoire,,,,,S – DTD216 - N,,/DTD216.png – DTD216 – N
 ,DTD217,DTD,Diadem of Dreamstate,,,,,,,L,"Illusionist, Equipment, Head",Ward 2,,,,,,"Once per turn, when this or a non-token permanent you control with ward is destroyed, you may pay {r}. If you do, create a Ponder token.
 
-**Ward 2**",,Illusionist Equipment – Head,Asur Misoa,,,,No,"C – DTD217 – N, C – DTD217 – N – EA",,"/DTD217.png – DTD217 – N, /DTD217_EA.png – DTD217 – N – C – EA"
+**Ward 2**",,Illusionist Equipment – Head,Asur Misoa,,,,No,"R – DTD217 – N, C – DTD217 – N – EA",,"/DTD217.png – DTD217 – N – R, /DTD217_EA.png – DTD217 – N – C – EA"
 ,DTD218,DTD,Flicker Trick,1,0,,5,,,M,"Illusionist, Defense Reaction",Mirage,,,,,,**Mirage**,,Illusionist Defense Reaction,Athiwut B.,,,,No,S - DTD218 - N,,/DTD218.png – DTD218 – N
 ,DTD219,DTD,Lost in Thought,1,1,,2,,,M,"Illusionist, Action",Go again,,,,,,"Look at target hero’s hand and choose an attack action card. If you do, they put that card on the bottom of their deck and they create a Ponder token.
 
@@ -701,7 +701,7 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
 ,DTD223,DTD,Frontline Plating,,,,2,,,R,"Generic, Equipment, Chest",Blade Break,,,,,,"At the beginning of your end phase, put a -1{d} counter on this.
 
 **Blade Break**",,Generic Equipment – Chest,Shen Fei,,,,,S – DTD223 – N,,/DTD223.png – DTD223 – N
-,DTD224,DTD,Frontline Guantlets,,,,2,,,R,"Generic, Equipment, Arms",Blade Break,,,,,,"At the beginning of your end phase, put a -1{d} counter on this.
+,DTD224,DTD,Frontline Gauntlets,,,,2,,,R,"Generic, Equipment, Arms",Blade Break,,,,,,"At the beginning of your end phase, put a -1{d} counter on this.
 
 **Blade Break**",,Generic Equipment – Arms,Shen Fei,,,,,S – DTD224 – N,,/DTD224.png – DTD224 – N
 ,DTD225,DTD,Frontline Legs,,,,2,,,R,"Generic, Equipment, Legs",Blade Break,,,,,,"At the beginning of your end phase, put a -1{d} counter on this.
