@@ -118,7 +118,7 @@ At the start of your turn, destroy this. If another hero drew a card from this, 
     setIdentifiers: ["JDG005"],
     sets: [Release.Promos],
     specialImage: "JDG005",
-    subtypes: [Subtype.Hammer,Subtype.OneHanded],
+    subtypes: [Subtype.OneHanded,Subtype.Hammer],
     types: [Type.Weapon],
     typeText: "Adjudicator Weapon – Hammer (1H)",
 
@@ -358,12 +358,12 @@ When this is pitched, reveal the top card of your deck. If it’s yellow, you ma
       set: Release.Promos,
       
     },],
-    rarities: [Rarity.Rare,Rarity.Promo],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DTD003","FAB166","LGS160"],
     sets: [Release.DuskTillDawn,Release.Promos],
     specialImage: "DTD003",
-    subtypes: [Subtype.Scepter,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Scepter],
     types: [Type.Weapon],
     typeText: "Light Illusionist Weapon - Scepter (2H)",
 
@@ -390,20 +390,20 @@ When this is pitched, reveal the top card of your deck. If it’s yellow, you ma
     artists: ["soyameii"],
     cardIdentifier: "empyrean-rapture",
     classes: [Class.Illusionist],
-    defaultImage: "DTD004",
+    defaultImage: "DTD004_EA",
     name: "Empyrean Rapture",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "DTD004",
-      image: "DTD004",
-      set: Release.DuskTillDawn,
-      
-    },{
       foiling: Foiling.C,
       identifier: "DTD004",
       image: "DTD004_EA",
       set: Release.DuskTillDawn,
       treatment: Treatment.EA,
+    },{
+      foiling: Foiling.R,
+      identifier: "DTD004",
+      image: "DTD004",
+      set: Release.DuskTillDawn,
+      
     },],
     rarities: [Rarity.Legendary],
     rarity: Rarity.Legendary,
@@ -508,7 +508,7 @@ When this enters the arena, create a Ponder token`,
     setIdentifiers: ["DTD005"],
     sets: [Release.DuskTillDawn],
     specialImage: "DTD005_Back_Marvel",
-    subtypes: [Subtype.Angel,Subtype.Ally],
+    subtypes: [Subtype.Ally,Subtype.Angel],
     types: [],
     typeText: "Light – Angel Ally",
 
@@ -608,7 +608,7 @@ When this enters the arena, you may turn a card in any banished zone face-down.`
     setIdentifiers: ["DTD006"],
     sets: [Release.DuskTillDawn],
     specialImage: "DTD006_Back_Marvel",
-    subtypes: [Subtype.Angel,Subtype.Ally],
+    subtypes: [Subtype.Ally,Subtype.Angel],
     types: [],
     typeText: "Light – Angel Ally",
 
@@ -708,7 +708,7 @@ When this enters the arena, create a Spectral Shield token.`,
     setIdentifiers: ["DTD007"],
     sets: [Release.DuskTillDawn],
     specialImage: "DTD007_Back_Marvel",
-    subtypes: [Subtype.Angel,Subtype.Ally],
+    subtypes: [Subtype.Ally,Subtype.Angel],
     types: [],
     typeText: "Light – Angel Ally",
 
@@ -808,7 +808,7 @@ When this enters the arena, deal 1 arcane damage to any target.`,
     setIdentifiers: ["DTD008"],
     sets: [Release.DuskTillDawn],
     specialImage: "DTD008_Back_Marvel",
-    subtypes: [Subtype.Angel,Subtype.Ally],
+    subtypes: [Subtype.Ally,Subtype.Angel],
     types: [],
     typeText: "Light – Angel Ally",
 
@@ -908,7 +908,7 @@ When this enters the arena, you may put a yellow action card from your graveyard
     setIdentifiers: ["DTD009"],
     sets: [Release.DuskTillDawn],
     specialImage: "DTD009_Back_Marvel",
-    subtypes: [Subtype.Angel,Subtype.Ally],
+    subtypes: [Subtype.Ally,Subtype.Angel],
     types: [],
     typeText: "Light – Angel Ally",
 
@@ -1008,7 +1008,7 @@ When this enters the arena, your next attack this turn gets dominate.`,
     setIdentifiers: ["DTD010"],
     sets: [Release.DuskTillDawn],
     specialImage: "DTD010_Back_Marvel",
-    subtypes: [Subtype.Angel,Subtype.Ally],
+    subtypes: [Subtype.Ally,Subtype.Angel],
     types: [],
     typeText: "Light – Angel Ally",
 
@@ -1108,7 +1108,7 @@ When this enters the arena, attack action cards your opponent control get -1{p} 
     setIdentifiers: ["DTD011"],
     sets: [Release.DuskTillDawn],
     specialImage: "DTD011_Back_Marvel",
-    subtypes: [Subtype.Angel,Subtype.Ally],
+    subtypes: [Subtype.Ally,Subtype.Angel],
     types: [],
     typeText: "Light – Angel Ally",
 
@@ -1208,7 +1208,7 @@ When this enters the arena, create a Courage token.`,
     setIdentifiers: ["DTD012"],
     sets: [Release.DuskTillDawn],
     specialImage: "DTD012_Back_Marvel",
-    subtypes: [Subtype.Angel,Subtype.Ally],
+    subtypes: [Subtype.Ally,Subtype.Angel],
     types: [],
     typeText: "Light – Angel Ally",
 
@@ -1371,22 +1371,22 @@ Your next angel attack this turn gets +1{p}.`,
     defaultImage: "DTD035",
     name: "Angelic Wrath",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS161",
-      image: "LGS161",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       
       identifier: "DTD035",
       image: "DTD035",
       set: Release.DuskTillDawn,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS161",
+      image: "LGS161",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS161","DTD035"],
-    sets: [Release.Promos,Release.DuskTillDawn],
+    sets: [Release.DuskTillDawn,Release.Promos],
     specialImage: "LGS161",
     subtypes: [],
     types: [Type.Instant],
@@ -1418,22 +1418,22 @@ Your next angel attack this turn gets +1{p}.`,
     defaultImage: "DTD036",
     name: "Angelic Wrath",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS162",
-      image: "LGS162",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       
       identifier: "DTD036",
       image: "DTD036",
       set: Release.DuskTillDawn,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS162",
+      image: "LGS162",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS162","DTD036"],
-    sets: [Release.Promos,Release.DuskTillDawn],
+    sets: [Release.DuskTillDawn,Release.Promos],
     specialImage: "LGS162",
     subtypes: [],
     types: [Type.Instant],
@@ -1465,22 +1465,22 @@ Your next angel attack this turn gets +1{p}.`,
     defaultImage: "DTD037",
     name: "Angelic Wrath",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS163",
-      image: "LGS163",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       
       identifier: "DTD037",
       image: "DTD037",
       set: Release.DuskTillDawn,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS163",
+      image: "LGS163",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS163","DTD037"],
-    sets: [Release.Promos,Release.DuskTillDawn],
+    sets: [Release.DuskTillDawn,Release.Promos],
     specialImage: "LGS163",
     subtypes: [],
     types: [Type.Instant],
@@ -1758,16 +1758,22 @@ Your next angel attack this turn gets +1{p}.`,
     defaultImage: "DTD045",
     name: "Boltyn",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "HER035",
-      image: "HER035",
-      set: Release.Promos,
-      
-    },{
       foiling: Foiling.R,
       identifier: "BOL001",
       image: "BOL001.width-450",
       set: Release.BoltynBlitzDeck,
+      
+    },{
+      
+      identifier: "DTD045",
+      image: "DTD045",
+      set: Release.DuskTillDawn,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "HER035",
+      image: "HER035",
+      set: Release.Promos,
       
     },{
       edition: ReleaseEdition.First,
@@ -1781,17 +1787,11 @@ Your next angel attack this turn gets +1{p}.`,
       image: "U-MON030.width-450",
       set: Release.Monarch,
       
-    },{
-      
-      identifier: "DTD045",
-      image: "DTD045",
-      set: Release.DuskTillDawn,
-      
     },],
     rarities: [Rarity.Promo,Rarity.Rare,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER035","BOL001","MON030","DTD045"],
-    sets: [Release.Promos,Release.BoltynBlitzDeck,Release.Monarch,Release.DuskTillDawn],
+    sets: [Release.BoltynBlitzDeck,Release.DuskTillDawn,Release.Monarch,Release.Promos],
     specialImage: "MON030.width-450",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -1836,7 +1836,7 @@ Your next angel attack this turn gets +1{p}.`,
     setIdentifiers: ["DTD046"],
     sets: [Release.DuskTillDawn],
     specialImage: "DTD046",
-    subtypes: [Subtype.Sword,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Sword],
     types: [Type.Weapon],
     typeText: "Light Warrior Weapon – Sword (2H)",
 
@@ -1919,22 +1919,22 @@ The first time you would be dealt damage each turn, if you’ve **charged** this
     defaultImage: "DTD048",
     name: "Banneret of Courage",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "FAB161",
-      image: "FAB161",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       
       identifier: "DTD048",
       image: "DTD048",
       set: Release.DuskTillDawn,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "FAB161",
+      image: "FAB161",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Promo,Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
     setIdentifiers: ["FAB161","DTD048"],
-    sets: [Release.Promos,Release.DuskTillDawn],
+    sets: [Release.DuskTillDawn,Release.Promos],
     specialImage: "FAB161",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -1947,7 +1947,7 @@ The first time you would be dealt damage each turn, if you’ve **charged** this
     
     
     
-    keywords: [Keyword.Solflare,Keyword.Charge],
+    keywords: [Keyword.Charge,Keyword.Solflare],
     
     
     pitch: 2,
@@ -1966,22 +1966,22 @@ The first time you would be dealt damage each turn, if you’ve **charged** this
     defaultImage: "DTD049",
     name: "Banneret of Gallantry",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "FAB162",
-      image: "FAB162",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       
       identifier: "DTD049",
       image: "DTD049",
       set: Release.DuskTillDawn,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "FAB162",
+      image: "FAB162",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Promo,Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
     setIdentifiers: ["FAB162","DTD049"],
-    sets: [Release.Promos,Release.DuskTillDawn],
+    sets: [Release.DuskTillDawn,Release.Promos],
     specialImage: "FAB162",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -1994,7 +1994,7 @@ The first time you would be dealt damage each turn, if you’ve **charged** this
     
     
     
-    keywords: [Keyword.Solflare,Keyword.Charge],
+    keywords: [Keyword.Charge,Keyword.Solflare],
     
     
     pitch: 2,
@@ -2013,22 +2013,22 @@ The first time you would be dealt damage each turn, if you’ve **charged** this
     defaultImage: "DTD050",
     name: "Banneret of Protection",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "FAB163",
-      image: "FAB163",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       
       identifier: "DTD050",
       image: "DTD050",
       set: Release.DuskTillDawn,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "FAB163",
+      image: "FAB163",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Promo,Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
     setIdentifiers: ["FAB163","DTD050"],
-    sets: [Release.Promos,Release.DuskTillDawn],
+    sets: [Release.DuskTillDawn,Release.Promos],
     specialImage: "FAB163",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -2041,7 +2041,7 @@ The first time you would be dealt damage each turn, if you’ve **charged** this
     
     
     
-    keywords: [Keyword.Solflare,Keyword.Charge],
+    keywords: [Keyword.Charge,Keyword.Solflare],
     
     
     pitch: 2,
@@ -2191,22 +2191,22 @@ Reveal the top card of your deck. If it’s yellow, put it into your hand, then 
     defaultImage: "DTD054",
     name: "Banneret of Resilience",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS179",
-      image: "LGS179",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       
       identifier: "DTD054",
       image: "DTD054",
       set: Release.DuskTillDawn,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS179",
+      image: "LGS179",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS179","DTD054"],
-    sets: [Release.Promos,Release.DuskTillDawn],
+    sets: [Release.DuskTillDawn,Release.Promos],
     specialImage: "LGS179",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -2219,7 +2219,7 @@ Reveal the top card of your deck. If it’s yellow, put it into your hand, then 
     
     
     
-    keywords: [Keyword.Solflare,Keyword.Charge],
+    keywords: [Keyword.Charge,Keyword.Solflare],
     
     
     pitch: 2,
@@ -2238,22 +2238,22 @@ Reveal the top card of your deck. If it’s yellow, put it into your hand, then 
     defaultImage: "LGS180",
     name: "Banneret of Salvation",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS180",
-      image: "LGS180",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       
       identifier: "DTD055",
       image: "",
       set: Release.DuskTillDawn,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS180",
+      image: "LGS180",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS180","DTD055"],
-    sets: [Release.Promos,Release.DuskTillDawn],
+    sets: [Release.DuskTillDawn,Release.Promos],
     specialImage: "LGS180",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -2266,7 +2266,7 @@ Reveal the top card of your deck. If it’s yellow, put it into your hand, then 
     
     
     
-    keywords: [Keyword.Solflare,Keyword.Charge],
+    keywords: [Keyword.Charge,Keyword.Solflare],
     
     
     pitch: 2,
@@ -2285,22 +2285,22 @@ Reveal the top card of your deck. If it’s yellow, put it into your hand, then 
     defaultImage: "LGS181",
     name: "Banneret of Vigor",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS181",
-      image: "LGS181",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       
       identifier: "DTD056",
       image: "",
       set: Release.DuskTillDawn,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS181",
+      image: "LGS181",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS181","DTD056"],
-    sets: [Release.Promos,Release.DuskTillDawn],
+    sets: [Release.DuskTillDawn,Release.Promos],
     specialImage: "LGS181",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -2313,7 +2313,7 @@ Reveal the top card of your deck. If it’s yellow, put it into your hand, then 
     
     
     
-    keywords: [Keyword.Solflare,Keyword.Charge],
+    keywords: [Keyword.Charge,Keyword.Solflare],
     
     
     pitch: 2,
@@ -4272,6 +4272,12 @@ Destroy target blue aura.`,
     defaultImage: "DTD104",
     name: "Levia",
     printings: [{
+      
+      identifier: "DTD104",
+      image: "DTD104",
+      set: Release.DuskTillDawn,
+      
+    },{
       foiling: Foiling.C,
       identifier: "HER036",
       image: "HER036",
@@ -4295,17 +4301,11 @@ Destroy target blue aura.`,
       image: "U-MON120.width-450",
       set: Release.Monarch,
       
-    },{
-      
-      identifier: "DTD104",
-      image: "DTD104",
-      set: Release.DuskTillDawn,
-      
     },],
     rarities: [Rarity.Promo,Rarity.Rare,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER036","LEV001","MON120","DTD104"],
-    sets: [Release.Promos,Release.LeviaBlitzDeck,Release.Monarch,Release.DuskTillDawn],
+    sets: [Release.DuskTillDawn,Release.LeviaBlitzDeck,Release.Monarch,Release.Promos],
     specialImage: "QB393QB0F93d2Hhhs5Cf_iMdCfa8qpl1J91FOlwlsYvSnv.width-450",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -4348,7 +4348,7 @@ Destroy target blue aura.`,
     setIdentifiers: ["DTD105"],
     sets: [Release.DuskTillDawn],
     specialImage: "DTD105",
-    subtypes: [Subtype.Hammer,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Hammer],
     types: [Type.Weapon],
     typeText: "Shadow Brute Weapon – Hammer (2H)",
 
@@ -4414,7 +4414,7 @@ When the combat chain closes, if this attacked, banish it.
     
     
     
-    keywords: [Keyword.BloodDebt,Keyword.ArcaneBarrier,Keyword.GoAgain],
+    keywords: [Keyword.ArcaneBarrier,Keyword.BloodDebt,Keyword.GoAgain],
     
     
     
@@ -5614,7 +5614,7 @@ Whenever you play a Shadow non-attack action card, you may pay {l}. If you do, t
       set: Release.Promos,
       
     },],
-    rarities: [Rarity.Rare,Rarity.Promo],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DTD134","HER085"],
     sets: [Release.DuskTillDawn,Release.Promos],
@@ -5651,24 +5651,24 @@ Whenever you play a Shadow non-attack action card, you may pay {l}. If you do, t
     defaultImage: "DTD135",
     name: "Flail of Agony",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "LGS156",
-      image: "LGS156",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "DTD135",
       image: "DTD135",
       set: Release.DuskTillDawn,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS156",
+      image: "LGS156",
+      set: Release.Promos,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS156","DTD135"],
-    sets: [Release.Promos,Release.DuskTillDawn],
-    specialImage: "LGS156",
-    subtypes: [Subtype.Flail,Subtype.OneHanded],
+    sets: [Release.DuskTillDawn,Release.Promos],
+    specialImage: "DTD135",
+    subtypes: [Subtype.OneHanded,Subtype.Flail],
     types: [Type.Weapon],
     typeText: "Shadow Runeblade Weapon – Flail (1H)",
 
@@ -5724,7 +5724,7 @@ Whenever you play a Shadow non-attack action card, you may pay {l}. If you do, t
     
     
     
-    keywords: [Keyword.BloodDebt,Keyword.ArcaneBarrier],
+    keywords: [Keyword.ArcaneBarrier,Keyword.BloodDebt],
     
     
     
@@ -5775,7 +5775,7 @@ When the combat chain closes, each hero who has lost {l} this turn banishes a ca
     
     
     
-    keywords: [Keyword.RuneGate,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.RuneGate],
     
     
     pitch: 3,
@@ -5826,7 +5826,7 @@ When the combat chain closes, each hero who has lost {l} this turn banishes a ca
     
     
     
-    keywords: [Keyword.RuneGate,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.RuneGate],
     
     
     pitch: 2,
@@ -5877,7 +5877,7 @@ When the combat chain closes, each hero who has lost {l} this turn banishes the 
     
     
     
-    keywords: [Keyword.RuneGate,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.RuneGate],
     
     
     pitch: 1,
@@ -6061,7 +6061,7 @@ When the combat chain closes, gain {l} equal to the number of heroes who have lo
     
     
     
-    keywords: [Keyword.RuneGate,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.RuneGate],
     
     
     pitch: 1,
@@ -6106,7 +6106,7 @@ When the combat chain closes, gain {l} equal to the number of heroes who have lo
     
     
     
-    keywords: [Keyword.RuneGate,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.RuneGate],
     
     
     pitch: 2,
@@ -6151,7 +6151,7 @@ When the combat chain closes, gain {l} equal to the number of heroes who have lo
     
     
     
-    keywords: [Keyword.RuneGate,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.RuneGate],
     
     
     pitch: 3,
@@ -6196,7 +6196,7 @@ When the combat chain closes, create Runechant tokens equal to the number of her
     
     
     
-    keywords: [Keyword.RuneGate,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.RuneGate],
     
     
     pitch: 1,
@@ -6241,7 +6241,7 @@ When the combat chain closes, create Runechant tokens equal to the number of her
     
     
     
-    keywords: [Keyword.RuneGate,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.RuneGate],
     
     
     pitch: 2,
@@ -6286,7 +6286,7 @@ When the combat chain closes, create Runechant tokens equal to the number of her
     
     
     
-    keywords: [Keyword.RuneGate,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.RuneGate],
     
     
     pitch: 3,
@@ -6466,7 +6466,7 @@ The next attack action card you **rune gate** this turn gets +1{p}.
     
     
     
-    keywords: [Keyword.RuneGate,Keyword.GoAgain,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain,Keyword.RuneGate],
     
     
     pitch: 1,
@@ -6511,7 +6511,7 @@ The next attack action card you **rune gate** this turn gets +1{p}.
     
     
     
-    keywords: [Keyword.RuneGate,Keyword.GoAgain,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain,Keyword.RuneGate],
     
     
     pitch: 2,
@@ -6556,7 +6556,7 @@ The next attack action card you **rune gate** this turn gets +1{p}.
     
     
     
-    keywords: [Keyword.RuneGate,Keyword.GoAgain,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain,Keyword.RuneGate],
     
     
     pitch: 3,
@@ -6575,22 +6575,22 @@ The next attack action card you **rune gate** this turn gets +1{p}.
     defaultImage: "DTD155",
     name: "Vantom Banshee",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS157",
-      image: "LGS157",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       
       identifier: "DTD155",
       image: "DTD155",
       set: Release.DuskTillDawn,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS157",
+      image: "LGS157",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS157","DTD155"],
-    sets: [Release.Promos,Release.DuskTillDawn],
+    sets: [Release.DuskTillDawn,Release.Promos],
     specialImage: "LGS157",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -6605,7 +6605,7 @@ The next attack action card you **rune gate** this turn gets +1{p}.
     
     
     
-    keywords: [Keyword.RuneGate,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.RuneGate],
     
     
     pitch: 1,
@@ -6624,22 +6624,22 @@ The next attack action card you **rune gate** this turn gets +1{p}.
     defaultImage: "DTD156",
     name: "Vantom Banshee",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS158",
-      image: "LGS158",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       
       identifier: "DTD156",
       image: "DTD156",
       set: Release.DuskTillDawn,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS158",
+      image: "LGS158",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS158","DTD156"],
-    sets: [Release.Promos,Release.DuskTillDawn],
+    sets: [Release.DuskTillDawn,Release.Promos],
     specialImage: "LGS158",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -6654,7 +6654,7 @@ The next attack action card you **rune gate** this turn gets +1{p}.
     
     
     
-    keywords: [Keyword.RuneGate,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.RuneGate],
     
     
     pitch: 2,
@@ -6673,22 +6673,22 @@ The next attack action card you **rune gate** this turn gets +1{p}.
     defaultImage: "DTD157",
     name: "Vantom Banshee",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS159",
-      image: "LGS159",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       
       identifier: "DTD157",
       image: "DTD157",
       set: Release.DuskTillDawn,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS159",
+      image: "LGS159",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS159","DTD157"],
-    sets: [Release.Promos,Release.DuskTillDawn],
+    sets: [Release.DuskTillDawn,Release.Promos],
     specialImage: "LGS159",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -6703,7 +6703,7 @@ The next attack action card you **rune gate** this turn gets +1{p}.
     
     
     
-    keywords: [Keyword.RuneGate,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.RuneGate],
     
     
     pitch: 3,
@@ -6746,7 +6746,7 @@ The next attack action card you **rune gate** this turn gets +1{p}.
     
     
     
-    keywords: [Keyword.RuneGate,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.RuneGate],
     
     
     pitch: 1,
@@ -6789,7 +6789,7 @@ The next attack action card you **rune gate** this turn gets +1{p}.
     
     
     
-    keywords: [Keyword.RuneGate,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.RuneGate],
     
     
     pitch: 2,
@@ -6832,7 +6832,7 @@ The next attack action card you **rune gate** this turn gets +1{p}.
     
     
     
-    keywords: [Keyword.RuneGate,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.RuneGate],
     
     
     pitch: 3,
@@ -8319,27 +8319,27 @@ Target hero banishes the top card of their deck. If it’s blue, they lost 1{g}.
     artists: ["Isuardi Therianto"],
     cardIdentifier: "nasreth-the-soul-harrower",
     classes: [Class.NotClassed],
-    defaultImage: "DTD193_Marvel",
+    defaultImage: "DTD193",
     name: "Nasreth, the Soul Harrower",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "DTD193",
-      image: "DTD193_Marvel",
-      set: Release.DuskTillDawn,
-      treatment: Treatment.EA,
-    },{
       
       identifier: "DTD193",
       image: "DTD193",
       set: Release.DuskTillDawn,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "DTD193",
+      image: "DTD193_Marvel",
+      set: Release.DuskTillDawn,
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Common,Rarity.Marvel],
     rarity: Rarity.Common,
     setIdentifiers: ["DTD193"],
     sets: [Release.DuskTillDawn],
     specialImage: "DTD193_Marvel",
-    subtypes: [Subtype.Demon,Subtype.Ally],
+    subtypes: [Subtype.Ally,Subtype.Demon],
     types: [Type.Token],
     typeText: "Shadow Token – Demon Ally",
 
@@ -8371,16 +8371,16 @@ When Nasreth hits a hero, banish a card from their soul. If a Light card is bani
     defaultImage: "DTD194",
     name: "Embodiment of Earth",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "FAB118",
-      image: "FAB118",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "BRI003",
       image: "BRI003.width-450",
       set: Release.BriarBlitzDeck,
+      
+    },{
+      
+      identifier: "DTD194",
+      image: "DTD194",
+      set: Release.DuskTillDawn,
       
     },{
       edition: ReleaseEdition.First,
@@ -8395,16 +8395,16 @@ When Nasreth hits a hero, banish a card from their soul. If a Light card is bani
       set: Release.TalesOfAria,
       
     },{
-      
-      identifier: "DTD194",
-      image: "DTD194",
-      set: Release.DuskTillDawn,
+      foiling: Foiling.C,
+      identifier: "FAB118",
+      image: "FAB118",
+      set: Release.Promos,
       
     },],
     rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["FAB118","BRI003","ELE109","DTD194"],
-    sets: [Release.Promos,Release.BriarBlitzDeck,Release.TalesOfAria,Release.DuskTillDawn],
+    sets: [Release.BriarBlitzDeck,Release.DuskTillDawn,Release.Promos,Release.TalesOfAria],
     specialImage: "ELE109.width-450",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
@@ -8438,16 +8438,16 @@ At the beginning of your action phase, destroy Embodiment of Earth.`,
     defaultImage: "DTD195",
     name: "Embodiment of Lightning",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "FAB119",
-      image: "FAB119",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "BRI002",
       image: "BRI002.width-450",
       set: Release.BriarBlitzDeck,
+      
+    },{
+      
+      identifier: "DTD195",
+      image: "DTD195",
+      set: Release.DuskTillDawn,
       
     },{
       edition: ReleaseEdition.First,
@@ -8462,16 +8462,16 @@ At the beginning of your action phase, destroy Embodiment of Earth.`,
       set: Release.TalesOfAria,
       
     },{
-      
-      identifier: "DTD195",
-      image: "DTD195",
-      set: Release.DuskTillDawn,
+      foiling: Foiling.C,
+      identifier: "FAB119",
+      image: "FAB119",
+      set: Release.Promos,
       
     },],
     rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["FAB119","BRI002","ELE110","DTD195"],
-    sets: [Release.Promos,Release.BriarBlitzDeck,Release.TalesOfAria,Release.DuskTillDawn],
+    sets: [Release.BriarBlitzDeck,Release.DuskTillDawn,Release.Promos,Release.TalesOfAria],
     specialImage: "ELE110.width-450",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
@@ -8529,7 +8529,7 @@ The next attack action card you play this turn gets +1{p}. **Go again**
     
     
     
-    keywords: [Keyword.Specialization,Keyword.Unity,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Specialization,Keyword.Unity],
     
     
     pitch: 3,
@@ -8574,7 +8574,7 @@ The next attack action card you play this turn gets +1{p}. **Go again**
     
     
     
-    keywords: [Keyword.Specialization,Keyword.Unity,Keyword.Freeze],
+    keywords: [Keyword.Freeze,Keyword.Specialization,Keyword.Unity],
     
     
     pitch: 3,
@@ -8619,7 +8619,7 @@ Your attacks this turn get "Whenever the defending hero adds 1 or more defending
     
     
     
-    keywords: [Keyword.Specialization,Keyword.Unity,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Specialization,Keyword.Unity],
     
     
     pitch: 2,
@@ -8649,7 +8649,7 @@ Your attacks this turn get "Whenever the defending hero adds 1 or more defending
     setIdentifiers: ["DTD199"],
     sets: [Release.DuskTillDawn],
     specialImage: "DTD199",
-    subtypes: [Subtype.Club,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Club],
     types: [Type.Weapon],
     typeText: "Brute Weapon – Club (2H)",
 
@@ -8840,7 +8840,7 @@ Activate Rugged Roller only if you’ve rolled a 6 on a die this turn`,
     
     
     
-    keywords: [Keyword.Specialization,Keyword.Crush,Keyword.Unity],
+    keywords: [Keyword.Crush,Keyword.Specialization,Keyword.Unity],
     
     
     pitch: 2,
@@ -8870,7 +8870,7 @@ Activate Rugged Roller only if you’ve rolled a 6 on a die this turn`,
     setIdentifiers: ["DTD205"],
     sets: [Release.DuskTillDawn],
     specialImage: "DTD205",
-    subtypes: [Subtype.Axe,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Axe],
     types: [Type.Weapon],
     typeText: "Warrior Weapon – Axe (2H)",
 
@@ -8926,7 +8926,7 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     
     
     
-    keywords: [Keyword.Unity,Keyword.Temper],
+    keywords: [Keyword.Temper,Keyword.Unity],
     
     
     
@@ -8975,7 +8975,7 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     
     
     
-    keywords: [Keyword.Temper,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Temper],
     
     
     
@@ -9020,7 +9020,7 @@ Until end of turn, target Dawnblade gets +1{p} and "Damage this would deal can't
     
     
     
-    keywords: [Keyword.Unity,Keyword.Specialization],
+    keywords: [Keyword.Specialization,Keyword.Unity],
     
     
     pitch: 2,
@@ -9091,7 +9091,7 @@ Until end of turn, target Dawnblade gets +1{p} and "Damage this would deal can't
     setIdentifiers: ["DTD210"],
     sets: [Release.DuskTillDawn],
     specialImage: "DTD210",
-    subtypes: [Subtype.Scepter,Subtype.OneHanded],
+    subtypes: [Subtype.OneHanded,Subtype.Scepter],
     types: [Type.Weapon],
     typeText: "Runeblade Weapon - Scepter (1H)",
 
@@ -9120,20 +9120,20 @@ Create a Runechant token for each damage dealt this way.`,
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "dyadic-carapace",
     classes: [Class.Runeblade],
-    defaultImage: "DTD211",
+    defaultImage: "DTD211_EA",
     name: "Dyadic Carapace",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "DTD211",
-      image: "DTD211",
-      set: Release.DuskTillDawn,
-      
-    },{
       foiling: Foiling.C,
       identifier: "DTD211",
       image: "DTD211_EA",
       set: Release.DuskTillDawn,
       treatment: Treatment.EA,
+    },{
+      foiling: Foiling.R,
+      identifier: "DTD211",
+      image: "DTD211",
+      set: Release.DuskTillDawn,
+      
     },],
     rarities: [Rarity.Legendary],
     rarity: Rarity.Legendary,
@@ -9198,7 +9198,7 @@ The next Runeblade attack action card you play this turn costs {r} less to play 
     
     
     
-    keywords: [Keyword.Specialization,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Specialization],
     
     
     pitch: 1,
@@ -9318,7 +9318,7 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
     setIdentifiers: ["DTD216"],
     sets: [Release.DuskTillDawn],
     specialImage: "DTD216",
-    subtypes: [Subtype.Orb,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Orb],
     types: [Type.Weapon],
     typeText: "Illusionist Weapon – Orb (2H)",
 
@@ -9345,20 +9345,20 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
     artists: ["Asur Misoa"],
     cardIdentifier: "diadem-of-dreamstate",
     classes: [Class.Illusionist],
-    defaultImage: "DTD217",
+    defaultImage: "DTD217_EA",
     name: "Diadem of Dreamstate",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "DTD217",
-      image: "DTD217",
-      set: Release.DuskTillDawn,
-      
-    },{
       foiling: Foiling.C,
       identifier: "DTD217",
       image: "DTD217_EA",
       set: Release.DuskTillDawn,
       treatment: Treatment.EA,
+    },{
+      foiling: Foiling.R,
+      identifier: "DTD217",
+      image: "DTD217",
+      set: Release.DuskTillDawn,
+      
     },],
     rarities: [Rarity.Legendary],
     rarity: Rarity.Legendary,
@@ -9568,6 +9568,12 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
     name: "Frontline Gauntlets",
     printings: [{
       
+      identifier: "DTD224",
+      image: "DTD224",
+      set: Release.DuskTillDawn,
+      
+    },{
+      foiling: Foiling.C,
       identifier: "DTD224",
       image: "DTD224",
       set: Release.DuskTillDawn,
@@ -9950,23 +9956,23 @@ If they choose peace, the only actions they may play or activate during their ne
     defaultImage: "DTD233",
     name: "Eloquence",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "FAB154",
-      image: "FAB154",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "DTD233",
       image: "DTD233",
       set: Release.DuskTillDawn,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "FAB154",
+      image: "FAB154",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB154","DTD233"],
-    sets: [Release.Promos,Release.DuskTillDawn],
-    specialImage: "FAB154",
+    sets: [Release.DuskTillDawn,Release.Promos],
+    specialImage: "DTD233",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
     typeText: "Generic Token - Aura",
@@ -9998,6 +10004,12 @@ If they choose peace, the only actions they may play or activate during their ne
     name: "Spellbane Aegis",
     printings: [{
       
+      identifier: "DTD235",
+      image: "DTD235",
+      set: Release.DuskTillDawn,
+      
+    },{
+      
       identifier: "DYN246",
       image: "DYN246",
       set: Release.Dynasty,
@@ -10008,18 +10020,12 @@ If they choose peace, the only actions they may play or activate during their ne
       image: "DYN246",
       set: Release.Dynasty,
       
-    },{
-      
-      identifier: "DTD235",
-      image: "DTD235",
-      set: Release.DuskTillDawn,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DYN246","DTD235"],
-    sets: [Release.Dynasty,Release.DuskTillDawn],
-    specialImage: "DYN246",
+    sets: [Release.DuskTillDawn,Release.Dynasty],
+    specialImage: "DTD235",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
     typeText: "Generic Token – Aura",
@@ -10333,7 +10339,7 @@ You create a Copper, Silver, and Gold.`,
     setIdentifiers: ["FAB094"],
     sets: [Release.Promos],
     specialImage: "FAB094_B",
-    subtypes: [Subtype.Lute,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Lute],
     types: [Type.Weapon],
     typeText: "Bard Weapon – Lute (2H)",
 
@@ -10473,12 +10479,12 @@ You create a Copper, Silver, and Gold.`,
       
     },{
       
-      identifier: "LEV005",
-      image: "LEV005.width-450",
-      set: Release.LeviaBlitzDeck,
+      identifier: "DYN237",
+      image: "DYN237",
+      set: Release.Dynasty,
       
     },{
-      
+      foiling: Foiling.C,
       identifier: "DYN237",
       image: "DYN237",
       set: Release.Dynasty,
@@ -10490,16 +10496,16 @@ You create a Copper, Silver, and Gold.`,
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.C,
-      identifier: "DYN237",
-      image: "DYN237",
-      set: Release.Dynasty,
+      
+      identifier: "LEV005",
+      image: "LEV005.width-450",
+      set: Release.LeviaBlitzDeck,
       
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["BOL006","LEV005","DYN237"],
-    sets: [Release.BoltynBlitzDeck,Release.LeviaBlitzDeck,Release.Dynasty],
+    sets: [Release.BoltynBlitzDeck,Release.Dynasty,Release.LeviaBlitzDeck],
     specialImage: "BOL006.width-450",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -10543,13 +10549,13 @@ You create a Copper, Silver, and Gold.`,
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "DYN238",
       image: "DYN238",
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "DYN238",
       image: "DYN238",
       set: Release.Dynasty,
@@ -10591,12 +10597,12 @@ You create a Copper, Silver, and Gold.`,
     name: "Spell Fray Leggings",
     printings: [{
       
-      identifier: "PSM007",
-      image: "PSM007.width-450",
-      set: Release.PrismBlitzDeck,
+      identifier: "DYN239",
+      image: "DYN239",
+      set: Release.Dynasty,
       
     },{
-      
+      foiling: Foiling.C,
       identifier: "DYN239",
       image: "DYN239",
       set: Release.Dynasty,
@@ -10608,17 +10614,17 @@ You create a Copper, Silver, and Gold.`,
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.C,
-      identifier: "DYN239",
-      image: "DYN239",
-      set: Release.Dynasty,
+      
+      identifier: "PSM007",
+      image: "PSM007.width-450",
+      set: Release.PrismBlitzDeck,
       
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["PSM007","DYN239"],
-    sets: [Release.PrismBlitzDeck,Release.Dynasty],
-    specialImage: "PSM007.width-450",
+    sets: [Release.Dynasty,Release.PrismBlitzDeck],
+    specialImage: "DYN239",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
     typeText: "Generic Equipment – Legs",
@@ -10698,46 +10704,10 @@ When you pitch Heart of Fyendal, if you have less {h} than your opponent, gain 1
     defaultImage: "CRU001",
     name: "Rhinar, Reckless Rampage",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "HER001",
-      image: "HER001",
-      set: Release.Promos,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "HER021",
-      image: "HER021",
-      set: Release.Promos,
-      
-    },{
-      foiling: Foiling.G,
-      identifier: "WIN001",
-      image: "",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "RNR001",
-      image: "RNR.width-450",
-      set: Release.RhinarHeroDeck,
-      
-    },{
       
       identifier: "1HP001",
       image: "1HP001.width-450",
       set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR001",
-      image: "WTR001",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR001",
-      image: "U-WTR001",
-      set: Release.WelcomeToRathe,
       
     },{
       edition: ReleaseEdition.First,
@@ -10751,11 +10721,47 @@ When you pitch Heart of Fyendal, if you have less {h} than your opponent, gain 1
       image: "U-CRU001",
       set: Release.CrucibleOfWar,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "HER001",
+      image: "HER001",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "HER021",
+      image: "HER021",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "RNR001",
+      image: "RNR.width-450",
+      set: Release.RhinarHeroDeck,
+      
+    },{
+      foiling: Foiling.G,
+      identifier: "WIN001",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR001",
+      image: "WTR001",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR001",
+      image: "U-WTR001",
+      set: Release.WelcomeToRathe,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER001","HER021","WIN001","RNR001","1HP001","WTR001","CRU001"],
-    sets: [Release.Promos,Release.RhinarHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.Promos,Release.RhinarHeroDeck,Release.WelcomeToRathe],
     specialImage: "CRU001",
     subtypes: [],
     types: [Type.Hero],
@@ -10787,6 +10793,12 @@ When you pitch Heart of Fyendal, if you have less {h} than your opponent, gain 1
     defaultImage: "WTR002",
     name: "Rhinar",
     printings: [{
+      
+      identifier: "1HP002",
+      image: "1HP002.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
       foiling: Foiling.R,
       identifier: "HER005",
       image: "HER005",
@@ -10796,12 +10808,6 @@ When you pitch Heart of Fyendal, if you have less {h} than your opponent, gain 1
       foiling: Foiling.C,
       identifier: "HER054",
       image: "HER054",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "XXX003",
-      image: "XXX003",
       set: Release.Promos,
       
     },{
@@ -10817,12 +10823,6 @@ When you pitch Heart of Fyendal, if you have less {h} than your opponent, gain 1
       set: Release.ClassicBattlesRhinarDorinthea,
       
     },{
-      
-      identifier: "1HP002",
-      image: "1HP002.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR002",
       image: "WTR002",
@@ -10834,11 +10834,17 @@ When you pitch Heart of Fyendal, if you have less {h} than your opponent, gain 1
       image: "U-WTR002",
       set: Release.WelcomeToRathe,
       
+    },{
+      
+      identifier: "XXX003",
+      image: "XXX003",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Token,Rarity.Majestic,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Majestic,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER005","HER054","XXX003","RNR002","RVD001","1HP002","WTR002"],
-    sets: [Release.Promos,Release.RhinarHeroDeck,Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.Promos,Release.RhinarHeroDeck,Release.WelcomeToRathe],
     specialImage: "WTR002",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -10870,6 +10876,24 @@ When you pitch Heart of Fyendal, if you have less {h} than your opponent, gain 1
     defaultImage: "CRU003",
     name: "Romping Club",
     printings: [{
+      
+      identifier: "1HP006",
+      image: "1HP006.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "CRU003",
+      image: "CRU003",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "CRU003",
+      image: "U-CRU003",
+      set: Release.CrucibleOfWar,
+      
+    },{
       foiling: Foiling.G,
       identifier: "FAB095",
       image: "",
@@ -10883,21 +10907,9 @@ When you pitch Heart of Fyendal, if you have less {h} than your opponent, gain 1
       
     },{
       
-      identifier: "XXX005",
-      image: "XXX005",
-      set: Release.Promos,
-      
-    },{
-      
       identifier: "RNR003",
       image: "RNR3.width-450",
       set: Release.RhinarHeroDeck,
-      
-    },{
-      
-      identifier: "1HP006",
-      image: "1HP006.width-450",
-      set: Release.HistoryPack1,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -10912,24 +10924,18 @@ When you pitch Heart of Fyendal, if you have less {h} than your opponent, gain 1
       set: Release.WelcomeToRathe,
       
     },{
-      edition: ReleaseEdition.First,
-      identifier: "CRU003",
-      image: "CRU003",
-      set: Release.CrucibleOfWar,
       
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "CRU003",
-      image: "U-CRU003",
-      set: Release.CrucibleOfWar,
+      identifier: "XXX005",
+      image: "XXX005",
+      set: Release.Promos,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["FAB095","LGS001","XXX005","RNR003","1HP006","WTR003","CRU003"],
-    sets: [Release.Promos,Release.RhinarHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.Promos,Release.RhinarHeroDeck,Release.WelcomeToRathe],
     specialImage: "CRU003",
-    subtypes: [Subtype.Club,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Club],
     types: [Type.Weapon],
     typeText: "Brute Weapon - Club (2H)",
 
@@ -10961,16 +10967,16 @@ When you pitch Heart of Fyendal, if you have less {h} than your opponent, gain 1
     defaultImage: "WTR004",
     name: "Scabskin Leathers",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB003",
-      image: "FAB003",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP007",
       image: "1HP007.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB003",
+      image: "FAB003",
+      set: Release.Promos,
       
     },{
       edition: ReleaseEdition.Alpha,foiling: Foiling.C,
@@ -10985,10 +10991,10 @@ When you pitch Heart of Fyendal, if you have less {h} than your opponent, gain 1
       set: Release.WelcomeToRathe,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB003","1HP007","WTR004"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
     specialImage: "WTR004",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -11023,15 +11029,15 @@ When you pitch Heart of Fyendal, if you have less {h} than your opponent, gain 1
     name: "Barkbone Strapping",
     printings: [{
       
-      identifier: "RNR005",
-      image: "RNR5.width-450",
-      set: Release.RhinarHeroDeck,
-      
-    },{
-      
       identifier: "1HP008",
       image: "1HP008.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "RNR005",
+      image: "RNR5.width-450",
+      set: Release.RhinarHeroDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -11061,7 +11067,7 @@ When you pitch Heart of Fyendal, if you have less {h} than your opponent, gain 1
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["RNR005","1HP008","WTR005"],
-    sets: [Release.RhinarHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.HistoryPack1,Release.RhinarHeroDeck,Release.WelcomeToRathe],
     specialImage: "WTR005",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -11096,15 +11102,15 @@ When you pitch Heart of Fyendal, if you have less {h} than your opponent, gain 1
     name: "Alpha Rampage",
     printings: [{
       
-      identifier: "RVD008",
-      image: "RVD008.width-450",
-      set: Release.ClassicBattlesRhinarDorinthea,
-      
-    },{
-      
       identifier: "1HP010",
       image: "1HP010.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "RVD008",
+      image: "RVD008.width-450",
+      set: Release.ClassicBattlesRhinarDorinthea,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -11151,7 +11157,7 @@ When you attack with Alpha Rampage, **intimidate**.`,
     
     
     
-    keywords: [Keyword.Specialization,Keyword.Intimidate],
+    keywords: [Keyword.Intimidate,Keyword.Specialization],
     
     
     pitch: 1,
@@ -11642,15 +11648,15 @@ If the discarded card has 6 or more {p}, Breakneck Battery gains **go again**.`,
     name: "Savage Feast",
     printings: [{
       
-      identifier: "RNR010",
-      image: "RNR10.width-450",
-      set: Release.RhinarHeroDeck,
-      
-    },{
-      
       identifier: "1HP019",
       image: "1HP019.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "RNR010",
+      image: "RNR10.width-450",
+      set: Release.RhinarHeroDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -11680,7 +11686,7 @@ If the discarded card has 6 or more {p}, Breakneck Battery gains **go again**.`,
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["RNR010","1HP019","WTR014"],
-    sets: [Release.RhinarHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.HistoryPack1,Release.RhinarHeroDeck,Release.WelcomeToRathe],
     specialImage: "WTR014",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -11898,7 +11904,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     
     
     
-    keywords: [Keyword.Intimidate,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Intimidate],
     
     
     pitch: 1,
@@ -11918,6 +11924,12 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     name: "Barraging Beatdown",
     printings: [{
       
+      identifier: "1HP023",
+      image: "1HP023.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      
       identifier: "RNR018",
       image: "RNR18.width-450",
       set: Release.RhinarHeroDeck,
@@ -11927,12 +11939,6 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
       identifier: "RVD021",
       image: "RVD021.width-450",
       set: Release.ClassicBattlesRhinarDorinthea,
-      
-    },{
-      
-      identifier: "1HP023",
-      image: "1HP023.width-450",
-      set: Release.HistoryPack1,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -11962,7 +11968,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["RNR018","RVD021","1HP023","WTR018"],
-    sets: [Release.RhinarHeroDeck,Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.RhinarHeroDeck,Release.WelcomeToRathe],
     specialImage: "WTR018",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -11979,7 +11985,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     
     
     
-    keywords: [Keyword.Intimidate,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Intimidate],
     
     
     pitch: 2,
@@ -11999,15 +12005,15 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     name: "Barraging Beatdown",
     printings: [{
       
-      identifier: "RNR025",
-      image: "RNR25.width-450",
-      set: Release.RhinarHeroDeck,
-      
-    },{
-      
       identifier: "1HP024",
       image: "1HP024.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "RNR025",
+      image: "RNR25.width-450",
+      set: Release.RhinarHeroDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -12037,7 +12043,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["RNR025","1HP024","WTR019"],
-    sets: [Release.RhinarHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.HistoryPack1,Release.RhinarHeroDeck,Release.WelcomeToRathe],
     specialImage: "WTR019",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -12054,7 +12060,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     
     
     
-    keywords: [Keyword.Intimidate,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Intimidate],
     
     
     pitch: 3,
@@ -12074,15 +12080,15 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     name: "Savage Swing",
     printings: [{
       
-      identifier: "RNR011",
-      image: "RNR11.width-450",
-      set: Release.RhinarHeroDeck,
-      
-    },{
-      
       identifier: "1HP031",
       image: "1HP031.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "RNR011",
+      image: "RNR11.width-450",
+      set: Release.RhinarHeroDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -12112,7 +12118,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["RNR011","1HP031","WTR020"],
-    sets: [Release.RhinarHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.HistoryPack1,Release.RhinarHeroDeck,Release.WelcomeToRathe],
     specialImage: "WTR020",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -12145,15 +12151,15 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     name: "Savage Swing",
     printings: [{
       
-      identifier: "RNR016",
-      image: "RNR16.width-450",
-      set: Release.RhinarHeroDeck,
-      
-    },{
-      
       identifier: "1HP032",
       image: "1HP032.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "RNR016",
+      image: "RNR16.width-450",
+      set: Release.RhinarHeroDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -12183,7 +12189,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["RNR016","1HP032","WTR021"],
-    sets: [Release.RhinarHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.HistoryPack1,Release.RhinarHeroDeck,Release.WelcomeToRathe],
     specialImage: "WTR021",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -12281,6 +12287,12 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     name: "Pack Hunt",
     printings: [{
       
+      identifier: "1HP025",
+      image: "1HP025.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      
       identifier: "RNR009",
       image: "RNR9.width-450",
       set: Release.RhinarHeroDeck,
@@ -12290,12 +12302,6 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
       identifier: "RVD010",
       image: "RVD010.width-450",
       set: Release.ClassicBattlesRhinarDorinthea,
-      
-    },{
-      
-      identifier: "1HP025",
-      image: "1HP025.width-450",
-      set: Release.HistoryPack1,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -12325,7 +12331,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["RNR009","RVD010","1HP025","WTR023"],
-    sets: [Release.RhinarHeroDeck,Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.RhinarHeroDeck,Release.WelcomeToRathe],
     specialImage: "WTR023",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -12488,15 +12494,15 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     name: "Smash Instinct",
     printings: [{
       
-      identifier: "RNR012",
-      image: "RNR12.width-450",
-      set: Release.RhinarHeroDeck,
-      
-    },{
-      
       identifier: "1HP034",
       image: "1HP034.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "RNR012",
+      image: "RNR12.width-450",
+      set: Release.RhinarHeroDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -12526,7 +12532,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["RNR012","1HP034","WTR026"],
-    sets: [Release.RhinarHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.HistoryPack1,Release.RhinarHeroDeck,Release.WelcomeToRathe],
     specialImage: "WTR026",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -12559,6 +12565,12 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     name: "Smash Instinct",
     printings: [{
       
+      identifier: "1HP035",
+      image: "1HP035.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      
       identifier: "RNR017",
       image: "RNR17.width-450",
       set: Release.RhinarHeroDeck,
@@ -12568,12 +12580,6 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
       identifier: "RVD016",
       image: "RVD016.width-450",
       set: Release.ClassicBattlesRhinarDorinthea,
-      
-    },{
-      
-      identifier: "1HP035",
-      image: "1HP035.width-450",
-      set: Release.HistoryPack1,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -12603,7 +12609,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["RNR017","RVD016","1HP035","WTR027"],
-    sets: [Release.RhinarHeroDeck,Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.RhinarHeroDeck,Release.WelcomeToRathe],
     specialImage: "WTR027",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -12700,6 +12706,12 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     defaultImage: "WTR029",
     name: "Wrecker Romp",
     printings: [{
+      
+      identifier: "1HP037",
+      image: "1HP037.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
       foiling: Foiling.R,
       identifier: "LGS020",
       image: "LGS020",
@@ -12710,12 +12722,6 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
       identifier: "RNR013",
       image: "RNR13.width-450",
       set: Release.RhinarHeroDeck,
-      
-    },{
-      
-      identifier: "1HP037",
-      image: "1HP037.width-450",
-      set: Release.HistoryPack1,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -12742,10 +12748,10 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
       set: Release.WelcomeToRathe,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS020","RNR013","1HP037","WTR029"],
-    sets: [Release.Promos,Release.RhinarHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.HistoryPack1,Release.Promos,Release.RhinarHeroDeck,Release.WelcomeToRathe],
     specialImage: "LGS020",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -12777,17 +12783,17 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     defaultImage: "WTR030",
     name: "Wrecker Romp",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS021",
-      image: "LGS021",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       
       identifier: "1HP038",
       image: "1HP038.width-450",
       set: Release.HistoryPack1,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS021",
+      image: "LGS021",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR030",
@@ -12813,10 +12819,10 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
       set: Release.WelcomeToRathe,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS021","1HP038","WTR030"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
     specialImage: "LGS021",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -12849,6 +12855,12 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     name: "Wrecker Romp",
     printings: [{
       
+      identifier: "1HP039",
+      image: "1HP039.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      
       identifier: "LGS005",
       image: "LGS005",
       set: Release.Promos,
@@ -12870,12 +12882,6 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
       identifier: "RVD023",
       image: "RVD023.width-450",
       set: Release.ClassicBattlesRhinarDorinthea,
-      
-    },{
-      
-      identifier: "1HP039",
-      image: "1HP039.width-450",
-      set: Release.HistoryPack1,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -12902,10 +12908,10 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
       set: Release.WelcomeToRathe,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS005","LGS022","RNR023","RVD023","1HP039","WTR031"],
-    sets: [Release.Promos,Release.RhinarHeroDeck,Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.Promos,Release.RhinarHeroDeck,Release.WelcomeToRathe],
     specialImage: "LGS005",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -12976,7 +12982,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["RNR014","RVD014","WTR032"],
-    sets: [Release.RhinarHeroDeck,Release.ClassicBattlesRhinarDorinthea,Release.WelcomeToRathe],
+    sets: [Release.ClassicBattlesRhinarDorinthea,Release.RhinarHeroDeck,Release.WelcomeToRathe],
     specialImage: "WTR032",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -12993,7 +12999,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     
     
     
-    keywords: [Keyword.Intimidate,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Intimidate],
     
     
     pitch: 1,
@@ -13056,7 +13062,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     
     
     
-    keywords: [Keyword.Intimidate,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Intimidate],
     
     
     pitch: 2,
@@ -13125,7 +13131,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     
     
     
-    keywords: [Keyword.Intimidate,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Intimidate],
     
     
     pitch: 3,
@@ -13283,15 +13289,15 @@ Your next Brute attack this turn gains +4{p}.
     name: "Primeval Bellow",
     printings: [{
       
-      identifier: "RNR026",
-      image: "RNR26.width-450",
-      set: Release.RhinarHeroDeck,
-      
-    },{
-      
       identifier: "1HP042",
       image: "1HP042.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "RNR026",
+      image: "RNR26.width-450",
+      set: Release.RhinarHeroDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -13321,7 +13327,7 @@ Your next Brute attack this turn gains +4{p}.
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["RNR026","1HP042","WTR037"],
-    sets: [Release.RhinarHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.HistoryPack1,Release.RhinarHeroDeck,Release.WelcomeToRathe],
     specialImage: "WTR037",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -13357,6 +13363,30 @@ Your next Brute attack this turn gains +3{p}.
     defaultImage: "CRU022",
     name: "Bravo, Showstopper",
     printings: [{
+      
+      identifier: "1HP043",
+      image: "1HP043.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "BVO001",
+      image: "BVO.width-450",
+      set: Release.BravoBlitzDeck,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "CRU022",
+      image: "CRU022",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "CRU022",
+      image: "U-CRU022",
+      set: Release.CrucibleOfWar,
+      
+    },{
       foiling: Foiling.C,
       identifier: "HER002",
       image: "HER002",
@@ -13375,18 +13405,6 @@ Your next Brute attack this turn gains +3{p}.
       set: Release.Promos,
       
     },{
-      
-      identifier: "BVO001",
-      image: "BVO.width-450",
-      set: Release.BravoBlitzDeck,
-      
-    },{
-      
-      identifier: "1HP043",
-      image: "1HP043.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR038",
       image: "WTR038",
@@ -13398,23 +13416,11 @@ Your next Brute attack this turn gains +3{p}.
       image: "U-WTR038",
       set: Release.WelcomeToRathe,
       
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "CRU022",
-      image: "CRU022",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "CRU022",
-      image: "U-CRU022",
-      set: Release.CrucibleOfWar,
-      
     },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER002","HER022","WIN002","BVO001","1HP043","WTR038","CRU022"],
-    sets: [Release.Promos,Release.BravoBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar],
+    sets: [Release.BravoBlitzDeck,Release.CrucibleOfWar,Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
     specialImage: "CRU022",
     subtypes: [],
     types: [Type.Hero],
@@ -13446,6 +13452,18 @@ Your next Brute attack this turn gains +3{p}.
     defaultImage: "WTR039",
     name: "Bravo",
     printings: [{
+      
+      identifier: "1HP044",
+      image: "1HP044.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "BVO002",
+      image: "BVO2.width-450",
+      set: Release.BravoBlitzDeck,
+      
+    },{
       foiling: Foiling.R,
       identifier: "HER006",
       image: "HER006",
@@ -13456,24 +13474,6 @@ Your next Brute attack this turn gains +3{p}.
       identifier: "HER055",
       image: "HER055",
       set: Release.Promos,
-      
-    },{
-      
-      identifier: "XXX002",
-      image: "XXX002",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "BVO002",
-      image: "BVO2.width-450",
-      set: Release.BravoBlitzDeck,
-      
-    },{
-      
-      identifier: "1HP044",
-      image: "1HP044.width-450",
-      set: Release.HistoryPack1,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -13487,11 +13487,17 @@ Your next Brute attack this turn gains +3{p}.
       image: "U-WTR039",
       set: Release.WelcomeToRathe,
       
+    },{
+      
+      identifier: "XXX002",
+      image: "XXX002",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER006","HER055","XXX002","BVO002","1HP044","WTR039"],
-    sets: [Release.Promos,Release.BravoBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.BravoBlitzDeck,Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
     specialImage: "WTR039",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -13523,6 +13529,30 @@ Your next Brute attack this turn gains +3{p}.
     defaultImage: "CRU023",
     name: "Anothos",
     printings: [{
+      
+      identifier: "1HP045",
+      image: "1HP045.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "BVO003",
+      image: "BVO3.width-450",
+      set: Release.BravoBlitzDeck,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "CRU023",
+      image: "CRU023",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "CRU023",
+      image: "U-CRU023",
+      set: Release.CrucibleOfWar,
+      
+    },{
       foiling: Foiling.G,
       identifier: "FAB061",
       image: "FAB061",
@@ -13533,24 +13563,6 @@ Your next Brute attack this turn gains +3{p}.
       identifier: "LGS002",
       image: "LGS002",
       set: Release.Promos,
-      
-    },{
-      
-      identifier: "XXX006",
-      image: "XXX006",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "BVO003",
-      image: "BVO3.width-450",
-      set: Release.BravoBlitzDeck,
-      
-    },{
-      
-      identifier: "1HP045",
-      image: "1HP045.width-450",
-      set: Release.HistoryPack1,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -13565,24 +13577,18 @@ Your next Brute attack this turn gains +3{p}.
       set: Release.WelcomeToRathe,
       
     },{
-      edition: ReleaseEdition.First,
-      identifier: "CRU023",
-      image: "CRU023",
-      set: Release.CrucibleOfWar,
       
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "CRU023",
-      image: "U-CRU023",
-      set: Release.CrucibleOfWar,
+      identifier: "XXX006",
+      image: "XXX006",
+      set: Release.Promos,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["FAB061","LGS002","XXX006","BVO003","1HP045","WTR040","CRU023"],
-    sets: [Release.Promos,Release.BravoBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar],
+    sets: [Release.BravoBlitzDeck,Release.CrucibleOfWar,Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
     specialImage: "CRU023",
-    subtypes: [Subtype.Hammer,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Hammer],
     types: [Type.Weapon],
     typeText: "Guardian Weapon – Hammer (2H)",
 
@@ -13614,16 +13620,16 @@ While there are 2 or more cards with cost 3 or greater in your pitch zone, Anoth
     defaultImage: "WTR041",
     name: "Tectonic Plating",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB004",
-      image: "FAB004",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP047",
       image: "1HP047.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB004",
+      image: "FAB004",
+      set: Release.Promos,
       
     },{
       edition: ReleaseEdition.Alpha,foiling: Foiling.C,
@@ -13638,10 +13644,10 @@ While there are 2 or more cards with cost 3 or greater in your pitch zone, Anoth
       set: Release.WelcomeToRathe,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB004","1HP047","WTR041"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
     specialImage: "WTR041",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -13676,6 +13682,12 @@ While there are 2 or more cards with cost 3 or greater in your pitch zone, Anoth
     name: "Helm of Isen's Peak",
     printings: [{
       
+      identifier: "1HP048",
+      image: "1HP048.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      
       identifier: "BVO004",
       image: "BVO4.width-450",
       set: Release.BravoBlitzDeck,
@@ -13685,12 +13697,6 @@ While there are 2 or more cards with cost 3 or greater in your pitch zone, Anoth
       identifier: "OLD004",
       image: "OLD004.width-450",
       set: Release.OldhimBlitzDeck,
-      
-    },{
-      
-      identifier: "1HP048",
-      image: "1HP048.width-450",
-      set: Release.HistoryPack1,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -13720,7 +13726,7 @@ While there are 2 or more cards with cost 3 or greater in your pitch zone, Anoth
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BVO004","OLD004","1HP048","WTR042"],
-    sets: [Release.BravoBlitzDeck,Release.OldhimBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.BravoBlitzDeck,Release.HistoryPack1,Release.OldhimBlitzDeck,Release.WelcomeToRathe],
     specialImage: "WTR042",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -13802,7 +13808,7 @@ While there are 2 or more cards with cost 3 or greater in your pitch zone, Anoth
     
     
     
-    keywords: [Keyword.Specialization,Keyword.Crush],
+    keywords: [Keyword.Crush,Keyword.Specialization],
     
     
     pitch: 1,
@@ -14078,15 +14084,15 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     name: "Disable",
     printings: [{
       
-      identifier: "BVO011",
-      image: "BVO11.width-450",
-      set: Release.BravoBlitzDeck,
-      
-    },{
-      
       identifier: "1HP055",
       image: "1HP055.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "BVO011",
+      image: "BVO11.width-450",
+      set: Release.BravoBlitzDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -14214,15 +14220,15 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     name: "Disable",
     printings: [{
       
-      identifier: "BVO019",
-      image: "BVO19.width-450",
-      set: Release.BravoBlitzDeck,
-      
-    },{
-      
       identifier: "1HP057",
       image: "1HP057.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "BVO019",
+      image: "BVO19.width-450",
+      set: Release.BravoBlitzDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -14415,15 +14421,15 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     name: "Staunch Response",
     printings: [{
       
-      identifier: "BVO020",
-      image: "BVO20.width-450",
-      set: Release.BravoBlitzDeck,
-      
-    },{
-      
       identifier: "1HP060",
       image: "1HP060.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "BVO020",
+      image: "BVO20.width-450",
+      set: Release.BravoBlitzDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -14486,6 +14492,12 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     name: "Blessing of Deliverance",
     printings: [{
       
+      identifier: "1HP061",
+      image: "1HP061.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      
       identifier: "LGS006",
       image: "LGS006",
       set: Release.Promos,
@@ -14496,12 +14508,6 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
       image: "LGS023",
       set: Release.Promos,
       treatment: Treatment.EA,
-    },{
-      
-      identifier: "1HP061",
-      image: "1HP061.width-450",
-      set: Release.HistoryPack1,
-      
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR054",
@@ -14530,7 +14536,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS006","LGS023","1HP061","WTR054"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
     specialImage: "LGS006",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
@@ -14566,17 +14572,17 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     defaultImage: "WTR055",
     name: "Blessing of Deliverance",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS024",
-      image: "LGS024",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       
       identifier: "1HP062",
       image: "1HP062.width-450",
       set: Release.HistoryPack1,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS024",
+      image: "LGS024",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR055",
@@ -14605,7 +14611,7 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS024","1HP062","WTR055"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
     specialImage: "LGS024",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
@@ -14641,11 +14647,11 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     defaultImage: "WTR056",
     name: "Blessing of Deliverance",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS025",
-      image: "LGS025",
-      set: Release.Promos,
-      treatment: Treatment.EA,
+      
+      identifier: "1HP063",
+      image: "1HP063.width-450",
+      set: Release.HistoryPack1,
+      
     },{
       
       identifier: "BVO021",
@@ -14653,11 +14659,11 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
       set: Release.BravoBlitzDeck,
       
     },{
-      
-      identifier: "1HP063",
-      image: "1HP063.width-450",
-      set: Release.HistoryPack1,
-      
+      foiling: Foiling.R,
+      identifier: "LGS025",
+      image: "LGS025",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR056",
@@ -14686,7 +14692,7 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS025","BVO021","1HP063","WTR056"],
-    sets: [Release.Promos,Release.BravoBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.BravoBlitzDeck,Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
     specialImage: "LGS025",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
@@ -14912,15 +14918,15 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     name: "Cartilage Crush",
     printings: [{
       
-      identifier: "BVO009",
-      image: "BVO9.width-450",
-      set: Release.BravoBlitzDeck,
-      
-    },{
-      
       identifier: "1HP067",
       image: "1HP067.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "BVO009",
+      image: "BVO9.width-450",
+      set: Release.BravoBlitzDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -15048,15 +15054,15 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     name: "Cartilage Crush",
     printings: [{
       
-      identifier: "BVO017",
-      image: "BVO17.width-450",
-      set: Release.BravoBlitzDeck,
-      
-    },{
-      
       identifier: "1HP069",
       image: "1HP069.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "BVO017",
+      image: "BVO17.width-450",
+      set: Release.BravoBlitzDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -15249,15 +15255,15 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     name: "Crush Confidence",
     printings: [{
       
-      identifier: "BVO018",
-      image: "BVO18.width-450",
-      set: Release.BravoBlitzDeck,
-      
-    },{
-      
       identifier: "1HP075",
       image: "1HP075.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "BVO018",
+      image: "BVO18.width-450",
+      set: Release.BravoBlitzDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -15320,15 +15326,15 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     name: "Debilitate",
     printings: [{
       
-      identifier: "BVO010",
-      image: "BVO10.width-450",
-      set: Release.BravoBlitzDeck,
-      
-    },{
-      
       identifier: "1HP076",
       image: "1HP076.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "BVO010",
+      image: "BVO10.width-450",
+      set: Release.BravoBlitzDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -15391,15 +15397,15 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     name: "Debilitate",
     printings: [{
       
-      identifier: "BVO013",
-      image: "BVO13.width-450",
-      set: Release.BravoBlitzDeck,
-      
-    },{
-      
       identifier: "1HP077",
       image: "1HP077.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "BVO013",
+      image: "BVO13.width-450",
+      set: Release.BravoBlitzDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -15898,7 +15904,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP084","BVO022","WTR074"],
-    sets: [Release.HistoryPack1,Release.BravoBlitzDeck,Release.WelcomeToRathe],
+    sets: [Release.BravoBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
     specialImage: "WTR074",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
@@ -15935,33 +15941,9 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     name: "Seismic Surge",
     printings: [{
       
-      identifier: "DTD204",
-      image: "DTD204",
-      set: Release.DuskTillDawn,
-      
-    },{
-      
-      identifier: "OLD032",
-      image: "OLD032.width-450",
-      set: Release.OldhimBlitzDeck,
-      
-    },{
-      
       identifier: "1HP085",
       image: "1HP085.width-450",
       set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR075",
-      image: "WTR075",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR075",
-      image: "U-WTR075",
-      set: Release.WelcomeToRathe,
       
     },{
       edition: ReleaseEdition.First,foiling: Foiling.R,
@@ -15974,6 +15956,12 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
       identifier: "CRU044",
       image: "U-CRU044",
       set: Release.CrucibleOfWar,
+      
+    },{
+      
+      identifier: "DTD204",
+      image: "DTD204",
+      set: Release.DuskTillDawn,
       
     },{
       edition: ReleaseEdition.First,
@@ -15993,11 +15981,29 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
       image: "EVR036.width-450",
       set: Release.Everfest,
       
+    },{
+      
+      identifier: "OLD032",
+      image: "OLD032.width-450",
+      set: Release.OldhimBlitzDeck,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR075",
+      image: "WTR075",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR075",
+      image: "U-WTR075",
+      set: Release.WelcomeToRathe,
+      
     },],
     rarities: [Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["DTD204","OLD032","1HP085","WTR075","CRU044","ELE212","EVR036"],
-    sets: [Release.DuskTillDawn,Release.OldhimBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar,Release.TalesOfAria,Release.Everfest],
+    sets: [Release.CrucibleOfWar,Release.DuskTillDawn,Release.Everfest,Release.HistoryPack1,Release.OldhimBlitzDeck,Release.TalesOfAria,Release.WelcomeToRathe],
     specialImage: "CRU044",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
@@ -16029,46 +16035,10 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     defaultImage: "OUT045.width-450",
     name: "Katsu, the Wanderer",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "HER003",
-      image: "HER003",
-      set: Release.Promos,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "HER023",
-      image: "HER023",
-      set: Release.Promos,
-      
-    },{
-      foiling: Foiling.G,
-      identifier: "WIN003",
-      image: "",
-      set: Release.Promos,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR076",
-      image: "WTR076",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      
-      identifier: "KSU001",
-      image: "KSU.width-450",
-      set: Release.KatsuHeroDeck,
-      
-    },{
       
       identifier: "1HP086",
       image: "1HP086.width-450",
       set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR076",
-      image: "U-WTR076",
-      set: Release.WelcomeToRathe,
       
     },{
       edition: ReleaseEdition.First,
@@ -16083,16 +16053,52 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
       set: Release.CrucibleOfWar,
       
     },{
+      foiling: Foiling.C,
+      identifier: "HER003",
+      image: "HER003",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "HER023",
+      image: "HER023",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "KSU001",
+      image: "KSU.width-450",
+      set: Release.KatsuHeroDeck,
+      
+    },{
       
       identifier: "OUT045",
       image: "OUT045.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "WIN003",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR076",
+      image: "WTR076",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR076",
+      image: "U-WTR076",
+      set: Release.WelcomeToRathe,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER003","HER023","WIN003","WTR076","KSU001","1HP086","CRU045","OUT045"],
-    sets: [Release.Promos,Release.WelcomeToRathe,Release.KatsuHeroDeck,Release.HistoryPack1,Release.CrucibleOfWar,Release.Outsiders],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.KatsuHeroDeck,Release.Outsiders,Release.Promos,Release.WelcomeToRathe],
     specialImage: "CRU045",
     subtypes: [],
     types: [Type.Hero],
@@ -16124,6 +16130,12 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     defaultImage: "OUT046.width-450",
     name: "Katsu",
     printings: [{
+      
+      identifier: "1HP087",
+      image: "1HP087.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
       foiling: Foiling.R,
       identifier: "HER007",
       image: "HER007",
@@ -16137,9 +16149,9 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
       
     },{
       
-      identifier: "XXX004",
-      image: "XXX004",
-      set: Release.Promos,
+      identifier: "KAT001",
+      image: "",
+      set: Release.KatsuBlitzDeck,
       
     },{
       
@@ -16149,9 +16161,9 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
       
     },{
       
-      identifier: "1HP087",
-      image: "1HP087.width-450",
-      set: Release.HistoryPack1,
+      identifier: "OUT046",
+      image: "OUT046.width-450",
+      set: Release.Outsiders,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -16167,21 +16179,15 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
       
     },{
       
-      identifier: "OUT046",
-      image: "OUT046.width-450",
-      set: Release.Outsiders,
-      
-    },{
-      
-      identifier: "KAT001",
-      image: "",
-      set: Release.KatsuBlitzDeck,
+      identifier: "XXX004",
+      image: "XXX004",
+      set: Release.Promos,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER007","HER056","XXX004","KSU002","1HP087","WTR077","OUT046","KAT001"],
-    sets: [Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.Outsiders,Release.KatsuBlitzDeck],
+    sets: [Release.HistoryPack1,Release.KatsuBlitzDeck,Release.KatsuHeroDeck,Release.Outsiders,Release.Promos,Release.WelcomeToRathe],
     specialImage: "WTR077",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -16213,30 +16219,6 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     defaultImage: "OUT048.width-450",
     name: "Harmonized Kodachi",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "LGS003",
-      image: "LGS003",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "XXX008",
-      image: "XXX008",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "KSU003",
-      image: "KSU3.width-450",
-      set: Release.KatsuHeroDeck,
-      
-    },{
-      
-      identifier: "KSU004",
-      image: "KSU4.width-450",
-      set: Release.KatsuHeroDeck,
-      
-    },{
       
       identifier: "1HP091",
       image: "1HP091.width-450",
@@ -16249,16 +16231,10 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
       set: Release.HistoryPack1,
       
     },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR078",
-      image: "WTR078",
-      set: Release.WelcomeToRathe,
       
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR078",
-      image: "U-WTR078",
-      set: Release.WelcomeToRathe,
+      identifier: "BEN002",
+      image: "",
+      set: Release.BenjiBlitzDeck,
       
     },{
       edition: ReleaseEdition.First,
@@ -16298,29 +16274,59 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
       
     },{
       
+      identifier: "KAT002",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
+    },{
+      
+      identifier: "KSU003",
+      image: "KSU3.width-450",
+      set: Release.KatsuHeroDeck,
+      
+    },{
+      
+      identifier: "KSU004",
+      image: "KSU4.width-450",
+      set: Release.KatsuHeroDeck,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS003",
+      image: "LGS003",
+      set: Release.Promos,
+      
+    },{
+      
       identifier: "OUT048",
       image: "OUT048.width-450",
       set: Release.Outsiders,
       
     },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR078",
+      image: "WTR078",
+      set: Release.WelcomeToRathe,
       
-      identifier: "BEN002",
-      image: "",
-      set: Release.BenjiBlitzDeck,
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR078",
+      image: "U-WTR078",
+      set: Release.WelcomeToRathe,
       
     },{
       
-      identifier: "KAT002",
-      image: "",
-      set: Release.KatsuBlitzDeck,
+      identifier: "XXX008",
+      image: "XXX008",
+      set: Release.Promos,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token,Rarity.Rare],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS003","XXX008","KSU003","KSU004","1HP091","1HP092","WTR078","CRU048","CRU049","OUT048","BEN002","KAT002"],
-    sets: [Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar,Release.Outsiders,Release.BenjiBlitzDeck,Release.KatsuBlitzDeck],
+    sets: [Release.BenjiBlitzDeck,Release.CrucibleOfWar,Release.HistoryPack1,Release.KatsuBlitzDeck,Release.KatsuHeroDeck,Release.Outsiders,Release.Promos,Release.WelcomeToRathe],
     specialImage: "CRU48.width-450",
-    subtypes: [Subtype.Dagger,Subtype.OneHanded],
+    subtypes: [Subtype.OneHanded,Subtype.Dagger],
     types: [Type.Weapon],
     typeText: "Ninja Weapon – Dagger (1H)",
 
@@ -16352,16 +16358,16 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi has **go a
     defaultImage: "WTR079",
     name: "Mask of Momentum",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB005",
-      image: "FAB005",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP095",
       image: "1HP095.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB005",
+      image: "FAB005",
+      set: Release.Promos,
       
     },{
       edition: ReleaseEdition.Alpha,foiling: Foiling.C,
@@ -16376,10 +16382,10 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi has **go a
       set: Release.WelcomeToRathe,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB005","1HP095","WTR079"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
     specialImage: "WTR079",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -16414,15 +16420,15 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi has **go a
     name: "Breaking Scales",
     printings: [{
       
-      identifier: "KSU007",
-      image: "KSU7.width-450",
-      set: Release.KatsuHeroDeck,
-      
-    },{
-      
       identifier: "1HP096",
       image: "1HP096.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "KSU007",
+      image: "KSU7.width-450",
+      set: Release.KatsuHeroDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -16452,7 +16458,7 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi has **go a
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["KSU007","1HP096","WTR080"],
-    sets: [Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.HistoryPack1,Release.KatsuHeroDeck,Release.WelcomeToRathe],
     specialImage: "WTR080",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
@@ -16534,7 +16540,7 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi has **go a
     
     
     
-    keywords: [Keyword.Specialization,Keyword.Combo],
+    keywords: [Keyword.Combo,Keyword.Specialization],
     
     
     pitch: 3,
@@ -16668,7 +16674,7 @@ Draw a card.`,
     
     
     
-    keywords: [Keyword.Specialization,Keyword.Combo,Keyword.GoAgain],
+    keywords: [Keyword.Combo,Keyword.GoAgain,Keyword.Specialization],
     
     
     pitch: 2,
@@ -16806,6 +16812,12 @@ Draw a card.`,
     name: "Fluster Fist",
     printings: [{
       
+      identifier: "KAT011",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
+    },{
+      
       identifier: "KSU010",
       image: "KSU10.width-450",
       set: Release.KatsuHeroDeck,
@@ -16834,17 +16846,11 @@ Draw a card.`,
       image: "U-WTR086",
       set: Release.WelcomeToRathe,
       
-    },{
-      
-      identifier: "KAT011",
-      image: "",
-      set: Release.KatsuBlitzDeck,
-      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["KSU010","WTR086","KAT011"],
-    sets: [Release.KatsuHeroDeck,Release.WelcomeToRathe,Release.KatsuBlitzDeck],
+    sets: [Release.KatsuBlitzDeck,Release.KatsuHeroDeck,Release.WelcomeToRathe],
     specialImage: "WTR086",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -17001,15 +17007,15 @@ Draw a card.`,
     name: "Blackout Kick",
     printings: [{
       
-      identifier: "KSU009",
-      image: "KSU9.width-450",
-      set: Release.KatsuHeroDeck,
-      
-    },{
-      
       identifier: "1HP104",
       image: "1HP104.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "KSU009",
+      image: "KSU9.width-450",
+      set: Release.KatsuHeroDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -17039,7 +17045,7 @@ Draw a card.`,
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["KSU009","1HP104","WTR089"],
-    sets: [Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.HistoryPack1,Release.KatsuHeroDeck,Release.WelcomeToRathe],
     specialImage: "WTR089",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -17332,15 +17338,15 @@ Draw a card.`,
     name: "Flic Flak",
     printings: [{
       
-      identifier: "KSU025",
-      image: "KSU25.width-450",
-      set: Release.KatsuHeroDeck,
-      
-    },{
-      
       identifier: "1HP115",
       image: "1HP115.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "KSU025",
+      image: "KSU25.width-450",
+      set: Release.KatsuHeroDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -17370,7 +17376,7 @@ Draw a card.`,
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["KSU025","1HP115","WTR094"],
-    sets: [Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.HistoryPack1,Release.KatsuHeroDeck,Release.WelcomeToRathe],
     specialImage: "WTR094",
     subtypes: [],
     types: [Type.DefenseReaction],
@@ -17403,6 +17409,12 @@ Draw a card.`,
     name: "Open the Center",
     printings: [{
       
+      identifier: "KAT012",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
+    },{
+      
       identifier: "KSU013",
       image: "KSU13.width-450",
       set: Release.KatsuHeroDeck,
@@ -17431,17 +17443,11 @@ Draw a card.`,
       image: "U-WTR095",
       set: Release.WelcomeToRathe,
       
-    },{
-      
-      identifier: "KAT012",
-      image: "",
-      set: Release.KatsuBlitzDeck,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["KSU013","WTR095","KAT012"],
-    sets: [Release.KatsuHeroDeck,Release.WelcomeToRathe,Release.KatsuBlitzDeck],
+    sets: [Release.KatsuBlitzDeck,Release.KatsuHeroDeck,Release.WelcomeToRathe],
     specialImage: "WTR095",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -17454,7 +17460,7 @@ Draw a card.`,
     
     
     
-    keywords: [Keyword.Combo,Keyword.GoAgain,Keyword.Dominate],
+    keywords: [Keyword.Combo,Keyword.Dominate,Keyword.GoAgain],
     
     
     pitch: 1,
@@ -17513,7 +17519,7 @@ Draw a card.`,
     
     
     
-    keywords: [Keyword.Combo,Keyword.GoAgain,Keyword.Dominate],
+    keywords: [Keyword.Combo,Keyword.Dominate,Keyword.GoAgain],
     
     
     pitch: 2,
@@ -17572,7 +17578,7 @@ Draw a card.`,
     
     
     
-    keywords: [Keyword.Combo,Keyword.GoAgain,Keyword.Dominate],
+    keywords: [Keyword.Combo,Keyword.Dominate,Keyword.GoAgain],
     
     
     pitch: 3,
@@ -17585,12 +17591,30 @@ Draw a card.`,
     
     
   },{
-    artists: ["Sam Yang","Maxim Kostin"],
+    artists: ["Maxim Kostin","Sam Yang"],
     cardIdentifier: "head-jab-red",
     classes: [Class.Ninja],
     defaultImage: "OUT077.width-450",
     name: "Head Jab",
     printings: [{
+      
+      identifier: "BEN010",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
+    },{
+      
+      identifier: "KAT013",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
+    },{
+      
+      identifier: "KSU011",
+      image: "KSU11.width-450",
+      set: Release.KatsuHeroDeck,
+      
+    },{
       foiling: Foiling.R,
       identifier: "LGS017",
       image: "LGS017",
@@ -17598,9 +17622,9 @@ Draw a card.`,
       treatment: Treatment.AA,
     },{
       
-      identifier: "KSU011",
-      image: "KSU11.width-450",
-      set: Release.KatsuHeroDeck,
+      identifier: "OUT077",
+      image: "OUT077.width-450",
+      set: Release.Outsiders,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -17626,29 +17650,11 @@ Draw a card.`,
       image: "U-WTR098",
       set: Release.WelcomeToRathe,
       
-    },{
-      
-      identifier: "OUT077",
-      image: "OUT077.width-450",
-      set: Release.Outsiders,
-      
-    },{
-      
-      identifier: "BEN010",
-      image: "",
-      set: Release.BenjiBlitzDeck,
-      
-    },{
-      
-      identifier: "KAT013",
-      image: "",
-      set: Release.KatsuBlitzDeck,
-      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS017","KSU011","WTR098","OUT077","BEN010","KAT013"],
-    sets: [Release.Promos,Release.KatsuHeroDeck,Release.WelcomeToRathe,Release.Outsiders,Release.BenjiBlitzDeck,Release.KatsuBlitzDeck],
+    sets: [Release.BenjiBlitzDeck,Release.KatsuBlitzDeck,Release.KatsuHeroDeck,Release.Outsiders,Release.Promos,Release.WelcomeToRathe],
     specialImage: "LGS017",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -17674,17 +17680,35 @@ Draw a card.`,
     
     
   },{
-    artists: ["Sam Yang","Maxim Kostin"],
+    artists: ["Maxim Kostin","Sam Yang"],
     cardIdentifier: "head-jab-yellow",
     classes: [Class.Ninja],
     defaultImage: "OUT078.width-450",
     name: "Head Jab",
     printings: [{
+      
+      identifier: "BEN017",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
+    },{
+      
+      identifier: "KAT017",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
+    },{
       foiling: Foiling.R,
       identifier: "LGS018",
       image: "LGS018",
       set: Release.Promos,
       treatment: Treatment.AA,
+    },{
+      
+      identifier: "OUT078",
+      image: "OUT078.width-450",
+      set: Release.Outsiders,
+      
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR099",
@@ -17709,29 +17733,11 @@ Draw a card.`,
       image: "U-WTR099",
       set: Release.WelcomeToRathe,
       
-    },{
-      
-      identifier: "OUT078",
-      image: "OUT078.width-450",
-      set: Release.Outsiders,
-      
-    },{
-      
-      identifier: "BEN017",
-      image: "",
-      set: Release.BenjiBlitzDeck,
-      
-    },{
-      
-      identifier: "KAT017",
-      image: "",
-      set: Release.KatsuBlitzDeck,
-      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS018","WTR099","OUT078","BEN017","KAT017"],
-    sets: [Release.Promos,Release.WelcomeToRathe,Release.Outsiders,Release.BenjiBlitzDeck,Release.KatsuBlitzDeck],
+    sets: [Release.BenjiBlitzDeck,Release.KatsuBlitzDeck,Release.Outsiders,Release.Promos,Release.WelcomeToRathe],
     specialImage: "LGS018",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -17757,17 +17763,17 @@ Draw a card.`,
     
     
   },{
-    artists: ["Sam Yang","Maxim Kostin"],
+    artists: ["Maxim Kostin","Sam Yang"],
     cardIdentifier: "head-jab-blue",
     classes: [Class.Ninja],
     defaultImage: "OUT079.width-450",
     name: "Head Jab",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS019",
-      image: "LGS019",
-      set: Release.Promos,
-      treatment: Treatment.AA,
+      
+      identifier: "BEN024",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
     },{
       
       identifier: "IRA008",
@@ -17776,9 +17782,27 @@ Draw a card.`,
       
     },{
       
+      identifier: "KAT022",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
+    },{
+      
       identifier: "KSU023",
       image: "KSU23.width-450",
       set: Release.KatsuHeroDeck,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS019",
+      image: "LGS019",
+      set: Release.Promos,
+      treatment: Treatment.AA,
+    },{
+      
+      identifier: "OUT079",
+      image: "OUT079.width-450",
+      set: Release.Outsiders,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -17804,29 +17828,11 @@ Draw a card.`,
       image: "U-WTR100",
       set: Release.WelcomeToRathe,
       
-    },{
-      
-      identifier: "OUT079",
-      image: "OUT079.width-450",
-      set: Release.Outsiders,
-      
-    },{
-      
-      identifier: "BEN024",
-      image: "",
-      set: Release.BenjiBlitzDeck,
-      
-    },{
-      
-      identifier: "KAT022",
-      image: "",
-      set: Release.KatsuBlitzDeck,
-      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS019","IRA008","KSU023","WTR100","OUT079","BEN024","KAT022"],
-    sets: [Release.Promos,Release.IraWelcomeDeck,Release.KatsuHeroDeck,Release.WelcomeToRathe,Release.Outsiders,Release.BenjiBlitzDeck,Release.KatsuBlitzDeck],
+    sets: [Release.BenjiBlitzDeck,Release.IraWelcomeDeck,Release.KatsuBlitzDeck,Release.KatsuHeroDeck,Release.Outsiders,Release.Promos,Release.WelcomeToRathe],
     specialImage: "LGS019",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -17859,15 +17865,15 @@ Draw a card.`,
     name: "Leg Tap",
     printings: [{
       
-      identifier: "KSU012",
-      image: "KSU12.width-450",
-      set: Release.KatsuHeroDeck,
-      
-    },{
-      
       identifier: "1HP116",
       image: "1HP116.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "KSU012",
+      image: "KSU12.width-450",
+      set: Release.KatsuHeroDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -17897,7 +17903,7 @@ Draw a card.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["KSU012","1HP116","WTR101"],
-    sets: [Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.HistoryPack1,Release.KatsuHeroDeck,Release.WelcomeToRathe],
     specialImage: "WTR101",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -17930,15 +17936,15 @@ Draw a card.`,
     name: "Leg Tap",
     printings: [{
       
-      identifier: "KSU018",
-      image: "KSU18.width-450",
-      set: Release.KatsuHeroDeck,
-      
-    },{
-      
       identifier: "1HP117",
       image: "1HP117.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "KSU018",
+      image: "KSU18.width-450",
+      set: Release.KatsuHeroDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -17968,7 +17974,7 @@ Draw a card.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["KSU018","1HP117","WTR102"],
-    sets: [Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.HistoryPack1,Release.KatsuHeroDeck,Release.WelcomeToRathe],
     specialImage: "WTR102",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -18066,15 +18072,15 @@ Draw a card.`,
     name: "Rising Knee Thrust",
     printings: [{
       
-      identifier: "KSU014",
-      image: "KSU14.width-450",
-      set: Release.KatsuHeroDeck,
-      
-    },{
-      
       identifier: "1HP119",
       image: "1HP119.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "KSU014",
+      image: "KSU14.width-450",
+      set: Release.KatsuHeroDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -18104,7 +18110,7 @@ Draw a card.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["KSU014","1HP119","WTR104"],
-    sets: [Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.HistoryPack1,Release.KatsuHeroDeck,Release.WelcomeToRathe],
     specialImage: "WTR104",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -18137,15 +18143,15 @@ Draw a card.`,
     name: "Rising Knee Thrust",
     printings: [{
       
-      identifier: "KSU019",
-      image: "KSU19.width-450",
-      set: Release.KatsuHeroDeck,
-      
-    },{
-      
       identifier: "1HP120",
       image: "1HP120.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "KSU019",
+      image: "KSU19.width-450",
+      set: Release.KatsuHeroDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -18175,7 +18181,7 @@ Draw a card.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["KSU019","1HP120","WTR105"],
-    sets: [Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.HistoryPack1,Release.KatsuHeroDeck,Release.WelcomeToRathe],
     specialImage: "WTR105",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -18273,15 +18279,27 @@ Draw a card.`,
     name: "Surging Strike",
     printings: [{
       
+      identifier: "1HP125",
+      image: "1HP125.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "KAT010",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
+    },{
+      
       identifier: "KSU015",
       image: "KSU15.width-450",
       set: Release.KatsuHeroDeck,
       
     },{
       
-      identifier: "1HP125",
-      image: "1HP125.width-450",
-      set: Release.HistoryPack1,
+      identifier: "OUT083",
+      image: "OUT083.width-450",
+      set: Release.Outsiders,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -18307,23 +18325,11 @@ Draw a card.`,
       image: "U-WTR107",
       set: Release.WelcomeToRathe,
       
-    },{
-      
-      identifier: "OUT083",
-      image: "OUT083.width-450",
-      set: Release.Outsiders,
-      
-    },{
-      
-      identifier: "KAT010",
-      image: "",
-      set: Release.KatsuBlitzDeck,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["KSU015","1HP125","WTR107","OUT083","KAT010"],
-    sets: [Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.Outsiders,Release.KatsuBlitzDeck],
+    sets: [Release.HistoryPack1,Release.KatsuBlitzDeck,Release.KatsuHeroDeck,Release.Outsiders,Release.WelcomeToRathe],
     specialImage: "WTR107",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -18356,15 +18362,27 @@ Draw a card.`,
     name: "Surging Strike",
     printings: [{
       
+      identifier: "1HP126",
+      image: "1HP126.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "KAT019",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
+    },{
+      
       identifier: "KSU020",
       image: "KSU20.width-450",
       set: Release.KatsuHeroDeck,
       
     },{
       
-      identifier: "1HP126",
-      image: "1HP126.width-450",
-      set: Release.HistoryPack1,
+      identifier: "OUT084",
+      image: "OUT084.width-450",
+      set: Release.Outsiders,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -18390,23 +18408,11 @@ Draw a card.`,
       image: "U-WTR108",
       set: Release.WelcomeToRathe,
       
-    },{
-      
-      identifier: "OUT084",
-      image: "OUT084.width-450",
-      set: Release.Outsiders,
-      
-    },{
-      
-      identifier: "KAT019",
-      image: "",
-      set: Release.KatsuBlitzDeck,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["KSU020","1HP126","WTR108","OUT084","KAT019"],
-    sets: [Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.Outsiders,Release.KatsuBlitzDeck],
+    sets: [Release.HistoryPack1,Release.KatsuBlitzDeck,Release.KatsuHeroDeck,Release.Outsiders,Release.WelcomeToRathe],
     specialImage: "WTR108",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -18444,6 +18450,18 @@ Draw a card.`,
       set: Release.HistoryPack1,
       
     },{
+      
+      identifier: "KAT024",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
+    },{
+      
+      identifier: "OUT085",
+      image: "OUT085.width-450",
+      set: Release.Outsiders,
+      
+    },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR109",
       image: "WTR109",
@@ -18467,23 +18485,11 @@ Draw a card.`,
       image: "U-WTR109",
       set: Release.WelcomeToRathe,
       
-    },{
-      
-      identifier: "OUT085",
-      image: "OUT085.width-450",
-      set: Release.Outsiders,
-      
-    },{
-      
-      identifier: "KAT024",
-      image: "",
-      set: Release.KatsuBlitzDeck,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP127","WTR109","OUT085","KAT024"],
-    sets: [Release.HistoryPack1,Release.WelcomeToRathe,Release.Outsiders,Release.KatsuBlitzDeck],
+    sets: [Release.HistoryPack1,Release.KatsuBlitzDeck,Release.Outsiders,Release.WelcomeToRathe],
     specialImage: "WTR109",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -18516,6 +18522,24 @@ Draw a card.`,
     name: "Whelming Gustwave",
     printings: [{
       
+      identifier: "1HP131",
+      image: "1HP131.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "KAT009",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
+    },{
+      
+      identifier: "KSU016",
+      image: "KSU16.width-450",
+      set: Release.KatsuHeroDeck,
+      
+    },{
+      
       identifier: "LGS007",
       image: "LGS007",
       set: Release.Promos,
@@ -18526,18 +18550,6 @@ Draw a card.`,
       image: "LGS026",
       set: Release.Promos,
       treatment: Treatment.EA,
-    },{
-      
-      identifier: "KSU016",
-      image: "KSU16.width-450",
-      set: Release.KatsuHeroDeck,
-      
-    },{
-      
-      identifier: "1HP131",
-      image: "1HP131.width-450",
-      set: Release.HistoryPack1,
-      
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR110",
@@ -18562,17 +18574,11 @@ Draw a card.`,
       image: "U-WTR110",
       set: Release.WelcomeToRathe,
       
-    },{
-      
-      identifier: "KAT009",
-      image: "",
-      set: Release.KatsuBlitzDeck,
-      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS007","LGS026","KSU016","1HP131","WTR110","KAT009"],
-    sets: [Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.KatsuBlitzDeck],
+    sets: [Release.HistoryPack1,Release.KatsuBlitzDeck,Release.KatsuHeroDeck,Release.Promos,Release.WelcomeToRathe],
     specialImage: "LGS007",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -18604,17 +18610,17 @@ Draw a card.`,
     defaultImage: "WTR111",
     name: "Whelming Gustwave",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS027",
-      image: "LGS027",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       
       identifier: "1HP132",
       image: "1HP132.width-450",
       set: Release.HistoryPack1,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS027",
+      image: "LGS027",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR111",
@@ -18640,10 +18646,10 @@ Draw a card.`,
       set: Release.WelcomeToRathe,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS027","1HP132","WTR111"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
     specialImage: "LGS027",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -18675,11 +18681,17 @@ Draw a card.`,
     defaultImage: "WTR112",
     name: "Whelming Gustwave",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS028",
-      image: "LGS028",
-      set: Release.Promos,
-      treatment: Treatment.EA,
+      
+      identifier: "1HP133",
+      image: "1HP133.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "KAT023",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
     },{
       
       identifier: "KSU024",
@@ -18687,11 +18699,11 @@ Draw a card.`,
       set: Release.KatsuHeroDeck,
       
     },{
-      
-      identifier: "1HP133",
-      image: "1HP133.width-450",
-      set: Release.HistoryPack1,
-      
+      foiling: Foiling.R,
+      identifier: "LGS028",
+      image: "LGS028",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR112",
@@ -18716,17 +18728,11 @@ Draw a card.`,
       image: "U-WTR112",
       set: Release.WelcomeToRathe,
       
-    },{
-      
-      identifier: "KAT023",
-      image: "",
-      set: Release.KatsuBlitzDeck,
-      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS028","KSU024","1HP133","WTR112","KAT023"],
-    sets: [Release.Promos,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.KatsuBlitzDeck],
+    sets: [Release.HistoryPack1,Release.KatsuBlitzDeck,Release.KatsuHeroDeck,Release.Promos,Release.WelcomeToRathe],
     specialImage: "LGS028",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -18758,46 +18764,10 @@ Draw a card.`,
     defaultImage: "CRU076",
     name: "Dorinthea Ironsong",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "HER004",
-      image: "HER004",
-      set: Release.Promos,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "HER024",
-      image: "HER024",
-      set: Release.Promos,
-      
-    },{
-      foiling: Foiling.G,
-      identifier: "WIN004",
-      image: "",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "TEA001",
-      image: "TEA.width-450",
-      set: Release.DorintheaHeroDeck,
-      
-    },{
       
       identifier: "1HP138",
       image: "1HP138.width-450",
       set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR113",
-      image: "WTR113",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR113",
-      image: "U-WTR113",
-      set: Release.WelcomeToRathe,
       
     },{
       edition: ReleaseEdition.First,
@@ -18811,11 +18781,47 @@ Draw a card.`,
       image: "U-CRU076",
       set: Release.CrucibleOfWar,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "HER004",
+      image: "HER004",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "HER024",
+      image: "HER024",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "TEA001",
+      image: "TEA.width-450",
+      set: Release.DorintheaHeroDeck,
+      
+    },{
+      foiling: Foiling.G,
+      identifier: "WIN004",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR113",
+      image: "WTR113",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR113",
+      image: "U-WTR113",
+      set: Release.WelcomeToRathe,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER004","HER024","WIN004","TEA001","1HP138","WTR113","CRU076"],
-    sets: [Release.Promos,Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.DorintheaHeroDeck,Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
     specialImage: "CRU076",
     subtypes: [],
     types: [Type.Hero],
@@ -18847,6 +18853,12 @@ Draw a card.`,
     defaultImage: "WTR114",
     name: "Dorinthea",
     printings: [{
+      
+      identifier: "1HP139",
+      image: "1HP139.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
       foiling: Foiling.R,
       identifier: "HER008",
       image: "HER008",
@@ -18860,21 +18872,9 @@ Draw a card.`,
       
     },{
       
-      identifier: "XXX001",
-      image: "XXX001",
-      set: Release.Promos,
-      
-    },{
-      
       identifier: "TEA002",
       image: "TEA2.width-450",
       set: Release.DorintheaHeroDeck,
-      
-    },{
-      
-      identifier: "1HP139",
-      image: "1HP139.width-450",
-      set: Release.HistoryPack1,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -18888,11 +18888,17 @@ Draw a card.`,
       image: "U-WTR114",
       set: Release.WelcomeToRathe,
       
+    },{
+      
+      identifier: "XXX001",
+      image: "XXX001",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER008","HER057","XXX001","TEA002","1HP139","WTR114"],
-    sets: [Release.Promos,Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.DorintheaHeroDeck,Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
     specialImage: "WTR114",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -18924,6 +18930,24 @@ Draw a card.`,
     defaultImage: "CRU078",
     name: "Dawnblade",
     printings: [{
+      
+      identifier: "1HP143",
+      image: "1HP143.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "CRU078",
+      image: "CRU078",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "CRU078",
+      image: "U-CRU078",
+      set: Release.CrucibleOfWar,
+      
+    },{
       foiling: Foiling.G,
       identifier: "FAB062",
       image: "FAB062",
@@ -18937,21 +18961,9 @@ Draw a card.`,
       
     },{
       
-      identifier: "XXX007",
-      image: "XXX007",
-      set: Release.Promos,
-      
-    },{
-      
       identifier: "TEA003",
       image: "TEA3.width-450",
       set: Release.DorintheaHeroDeck,
-      
-    },{
-      
-      identifier: "1HP143",
-      image: "1HP143.width-450",
-      set: Release.HistoryPack1,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -18966,24 +18978,18 @@ Draw a card.`,
       set: Release.WelcomeToRathe,
       
     },{
-      edition: ReleaseEdition.First,
-      identifier: "CRU078",
-      image: "CRU078",
-      set: Release.CrucibleOfWar,
       
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "CRU078",
-      image: "U-CRU078",
-      set: Release.CrucibleOfWar,
+      identifier: "XXX007",
+      image: "XXX007",
+      set: Release.Promos,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["FAB062","LGS004","XXX007","TEA003","1HP143","WTR115","CRU078"],
-    sets: [Release.Promos,Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.DorintheaHeroDeck,Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
     specialImage: "CRU078",
-    subtypes: [Subtype.Sword,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Sword],
     types: [Type.Weapon],
     typeText: "Warrior Weapon – Sword (2H)",
 
@@ -19017,16 +19023,16 @@ At the beginning of your end phase, if Dawnblade has not hit this turn, remove a
     defaultImage: "WTR116",
     name: "Braveforge Bracers",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB006",
-      image: "FAB006",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP144",
       image: "1HP144.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB006",
+      image: "FAB006",
+      set: Release.Promos,
       
     },{
       edition: ReleaseEdition.Alpha,foiling: Foiling.C,
@@ -19041,10 +19047,10 @@ At the beginning of your end phase, if Dawnblade has not hit this turn, remove a
       set: Release.WelcomeToRathe,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB006","1HP144","WTR116"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
     specialImage: "WTR116",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
@@ -19079,15 +19085,15 @@ At the beginning of your end phase, if Dawnblade has not hit this turn, remove a
     name: "Refraction Bolters",
     printings: [{
       
-      identifier: "TEA007",
-      image: "TEA7.width-450",
-      set: Release.DorintheaHeroDeck,
-      
-    },{
-      
       identifier: "1HP145",
       image: "1HP145.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "TEA007",
+      image: "TEA7.width-450",
+      set: Release.DorintheaHeroDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -19199,7 +19205,7 @@ At the beginning of your end phase, if Dawnblade has not hit this turn, remove a
     
     
     
-    keywords: [Keyword.Reprise,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Reprise],
     
     
     pitch: 3,
@@ -19268,7 +19274,7 @@ Until end of turn, target weapon gains +2{p} and "Whenever this weapon hits, dra
     
     
     
-    keywords: [Keyword.Specialization,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Specialization],
     
     
     pitch: 1,
@@ -19404,7 +19410,7 @@ Target weapon attack gains +1{p}.
     
     
     
-    keywords: [Keyword.Specialization,Keyword.Reprise],
+    keywords: [Keyword.Reprise,Keyword.Specialization],
     
     
     pitch: 2,
@@ -19465,7 +19471,7 @@ Target weapon attack gains +1{p}.
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.GoAgain],
     
     
     pitch: 2,
@@ -19485,15 +19491,15 @@ Target weapon attack gains +1{p}.
     name: "Overpower",
     printings: [{
       
-      identifier: "TEA010",
-      image: "TEA10.width-450",
-      set: Release.DorintheaHeroDeck,
-      
-    },{
-      
       identifier: "1HP153",
       image: "1HP153.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "TEA010",
+      image: "TEA10.width-450",
+      set: Release.DorintheaHeroDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -19692,15 +19698,15 @@ Target weapon attack gains +1{p}.
     name: "Steelblade Shunt",
     printings: [{
       
-      identifier: "TEA011",
-      image: "TEA11.width-450",
-      set: Release.DorintheaHeroDeck,
-      
-    },{
-      
       identifier: "1HP156",
       image: "1HP156.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "TEA011",
+      image: "TEA11.width-450",
+      set: Release.DorintheaHeroDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -19893,15 +19899,15 @@ Target weapon attack gains +1{p}.
     name: "Warrior's Valor",
     printings: [{
       
-      identifier: "DVR011",
-      image: "DVR011.width-450",
-      set: Release.ClassicBattlesRhinarDorinthea,
-      
-    },{
-      
       identifier: "1HP159",
       image: "1HP159.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "DVR011",
+      image: "DVR011.width-450",
+      set: Release.ClassicBattlesRhinarDorinthea,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -19966,15 +19972,15 @@ Target weapon attack gains +1{p}.
     name: "Warrior's Valor",
     printings: [{
       
-      identifier: "TEA018",
-      image: "TEA18.width-450",
-      set: Release.DorintheaHeroDeck,
-      
-    },{
-      
       identifier: "1HP160",
       image: "1HP160.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "TEA018",
+      image: "TEA18.width-450",
+      set: Release.DorintheaHeroDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -20039,15 +20045,15 @@ Target weapon attack gains +1{p}.
     name: "Warrior's Valor",
     printings: [{
       
-      identifier: "TEA025",
-      image: "TEA25.width-450",
-      set: Release.DorintheaHeroDeck,
-      
-    },{
-      
       identifier: "1HP161",
       image: "1HP161.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "TEA025",
+      image: "TEA25.width-450",
+      set: Release.DorintheaHeroDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -20112,6 +20118,18 @@ Target weapon attack gains +1{p}.
     name: "Ironsong Response",
     printings: [{
       
+      identifier: "1HP162",
+      image: "1HP162.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "DVR016",
+      image: "DVR016.width-450",
+      set: Release.ClassicBattlesRhinarDorinthea,
+      
+    },{
+      
       identifier: "LGS008",
       image: "LGS008",
       set: Release.Promos,
@@ -20122,18 +20140,6 @@ Target weapon attack gains +1{p}.
       image: "LGS029",
       set: Release.Promos,
       treatment: Treatment.EA,
-    },{
-      
-      identifier: "DVR016",
-      image: "DVR016.width-450",
-      set: Release.ClassicBattlesRhinarDorinthea,
-      
-    },{
-      
-      identifier: "1HP162",
-      image: "1HP162.width-450",
-      set: Release.HistoryPack1,
-      
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR132",
@@ -20159,10 +20165,10 @@ Target weapon attack gains +1{p}.
       set: Release.WelcomeToRathe,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS008","LGS029","DVR016","1HP162","WTR132"],
-    sets: [Release.Promos,Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
     specialImage: "LGS008",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -20194,17 +20200,17 @@ Target weapon attack gains +1{p}.
     defaultImage: "WTR133",
     name: "Ironsong Response",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS030",
-      image: "LGS030",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       
       identifier: "1HP163",
       image: "1HP163.width-450",
       set: Release.HistoryPack1,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS030",
+      image: "LGS030",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR133",
@@ -20230,10 +20236,10 @@ Target weapon attack gains +1{p}.
       set: Release.WelcomeToRathe,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS030","1HP163","WTR133"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
     specialImage: "LGS030",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -20265,6 +20271,12 @@ Target weapon attack gains +1{p}.
     defaultImage: "WTR134",
     name: "Ironsong Response",
     printings: [{
+      
+      identifier: "1HP164",
+      image: "1HP164.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
       foiling: Foiling.R,
       identifier: "LGS031",
       image: "LGS031",
@@ -20275,12 +20287,6 @@ Target weapon attack gains +1{p}.
       identifier: "TEA021",
       image: "TEA21.width-450",
       set: Release.DorintheaHeroDeck,
-      
-    },{
-      
-      identifier: "1HP164",
-      image: "1HP164.width-450",
-      set: Release.HistoryPack1,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -20307,10 +20313,10 @@ Target weapon attack gains +1{p}.
       set: Release.WelcomeToRathe,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS031","TEA021","1HP164","WTR134"],
-    sets: [Release.Promos,Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.DorintheaHeroDeck,Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
     specialImage: "LGS031",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -20538,15 +20544,15 @@ Target weapon attack gains +1{p}.
     name: "Stroke of Foresight",
     printings: [{
       
-      identifier: "TEA009",
-      image: "TEA9.width-450",
-      set: Release.DorintheaHeroDeck,
-      
-    },{
-      
       identifier: "1HP168",
       image: "1HP168.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "TEA009",
+      image: "TEA9.width-450",
+      set: Release.DorintheaHeroDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -20611,15 +20617,15 @@ Target weapon attack gains +1{p}.
     name: "Stroke of Foresight",
     printings: [{
       
-      identifier: "TEA017",
-      image: "TEA17.width-450",
-      set: Release.DorintheaHeroDeck,
-      
-    },{
-      
       identifier: "1HP169",
       image: "1HP169.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "TEA017",
+      image: "TEA17.width-450",
+      set: Release.DorintheaHeroDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -20751,15 +20757,15 @@ Target weapon attack gains +1{p}.
     name: "Sharpen Steel",
     printings: [{
       
-      identifier: "TEA014",
-      image: "TEA14.width-450",
-      set: Release.DorintheaHeroDeck,
-      
-    },{
-      
       identifier: "DVR012",
       image: "DVR012.width-450",
       set: Release.ClassicBattlesRhinarDorinthea,
+      
+    },{
+      
+      identifier: "TEA014",
+      image: "TEA14.width-450",
+      set: Release.DorintheaHeroDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -20789,7 +20795,7 @@ Target weapon attack gains +1{p}.
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["TEA014","DVR012","WTR141"],
-    sets: [Release.DorintheaHeroDeck,Release.ClassicBattlesRhinarDorinthea,Release.WelcomeToRathe],
+    sets: [Release.ClassicBattlesRhinarDorinthea,Release.DorintheaHeroDeck,Release.WelcomeToRathe],
     specialImage: "WTR141",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -20952,15 +20958,15 @@ Target weapon attack gains +1{p}.
     name: "Driving Blade",
     printings: [{
       
-      identifier: "TEA012",
-      image: "TEA12.width-450",
-      set: Release.DorintheaHeroDeck,
-      
-    },{
-      
       identifier: "1HP171",
       image: "1HP171.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "TEA012",
+      image: "TEA12.width-450",
+      set: Release.DorintheaHeroDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -21025,15 +21031,15 @@ Target weapon attack gains +1{p}.
     name: "Driving Blade",
     printings: [{
       
-      identifier: "DVR017",
-      image: "DVR017.width-450",
-      set: Release.ClassicBattlesRhinarDorinthea,
-      
-    },{
-      
       identifier: "1HP172",
       image: "1HP172.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "DVR017",
+      image: "DVR017.width-450",
+      set: Release.ClassicBattlesRhinarDorinthea,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -21098,15 +21104,15 @@ Target weapon attack gains +1{p}.
     name: "Driving Blade",
     printings: [{
       
-      identifier: "TEA022",
-      image: "TEA22.width-450",
-      set: Release.DorintheaHeroDeck,
-      
-    },{
-      
       identifier: "1HP173",
       image: "1HP173.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "TEA022",
+      image: "TEA22.width-450",
+      set: Release.DorintheaHeroDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -21171,15 +21177,15 @@ Target weapon attack gains +1{p}.
     name: "Nature's Path Pilgrimage",
     printings: [{
       
-      identifier: "TEA013",
-      image: "TEA13.width-450",
-      set: Release.DorintheaHeroDeck,
-      
-    },{
-      
       identifier: "1HP177",
       image: "1HP177.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "TEA013",
+      image: "TEA13.width-450",
+      set: Release.DorintheaHeroDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -21311,15 +21317,15 @@ Target weapon attack gains +1{p}.
     name: "Nature's Path Pilgrimage",
     printings: [{
       
-      identifier: "TEA023",
-      image: "TEA23.width-450",
-      set: Release.DorintheaHeroDeck,
-      
-    },{
-      
       identifier: "1HP179",
       image: "1HP179.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "TEA023",
+      image: "TEA23.width-450",
+      set: Release.DorintheaHeroDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -21383,34 +21389,10 @@ Target weapon attack gains +1{p}.
     defaultImage: "CRU178",
     name: "Fyendal's Spring Tunic",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB001",
-      image: "FAB001",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
-      foiling: Foiling.R,
-      identifier: "FAB002",
-      image: "FAB002",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       
       identifier: "1HP341",
       image: "1HP341.width-450",
       set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.Alpha,foiling: Foiling.C,
-      identifier: "WTR150",
-      image: "WTR150",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "WTR150",
-      image: "U-WTR150",
-      set: Release.WelcomeToRathe,
       
     },{
       edition: ReleaseEdition.First,
@@ -21424,11 +21406,35 @@ Target weapon attack gains +1{p}.
       image: "U-CRU178",
       set: Release.CrucibleOfWar,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB001",
+      image: "FAB001",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      foiling: Foiling.R,
+      identifier: "FAB002",
+      image: "FAB002",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      edition: ReleaseEdition.Alpha,foiling: Foiling.C,
+      identifier: "WTR150",
+      image: "WTR150",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "WTR150",
+      image: "U-WTR150",
+      set: Release.WelcomeToRathe,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB001","FAB002","1HP341","WTR150","CRU178"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
     specialImage: "FAB001",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -21465,6 +21471,12 @@ Target weapon attack gains +1{p}.
     name: "Hope Merchant's Hood",
     printings: [{
       
+      identifier: "1HP350",
+      image: "1HP350.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      
       identifier: "FAI003",
       image: "",
       set: Release.FaiBlitzDeck,
@@ -21474,12 +21486,6 @@ Target weapon attack gains +1{p}.
       identifier: "TEA004",
       image: "TEA4.width-450",
       set: Release.DorintheaHeroDeck,
-      
-    },{
-      
-      identifier: "1HP350",
-      image: "1HP350.width-450",
-      set: Release.HistoryPack1,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -21509,7 +21515,7 @@ Target weapon attack gains +1{p}.
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAI003","TEA004","1HP350","WTR151"],
-    sets: [Release.FaiBlitzDeck,Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.DorintheaHeroDeck,Release.FaiBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
     specialImage: "WTR151",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -21541,16 +21547,22 @@ Target weapon attack gains +1{p}.
     defaultImage: "WTR152",
     name: "Heartened Cross Strap",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB063",
-      image: "FAB063",
-      set: Release.Promos,
+      
+      identifier: "1HP351",
+      image: "1HP351.width-450",
+      set: Release.HistoryPack1,
       
     },{
       
       identifier: "BRI006",
       image: "BRI006.width-450",
       set: Release.BriarBlitzDeck,
+      
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB063",
+      image: "FAB063",
+      set: Release.Promos,
       
     },{
       
@@ -21563,12 +21575,6 @@ Target weapon attack gains +1{p}.
       identifier: "PSM005",
       image: "PSM005.width-450",
       set: Release.PrismBlitzDeck,
-      
-    },{
-      
-      identifier: "1HP351",
-      image: "1HP351.width-450",
-      set: Release.HistoryPack1,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -21595,10 +21601,10 @@ Target weapon attack gains +1{p}.
       set: Release.WelcomeToRathe,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB063","BRI006","KSU006","PSM005","1HP351","WTR152"],
-    sets: [Release.Promos,Release.BriarBlitzDeck,Release.KatsuHeroDeck,Release.PrismBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.BriarBlitzDeck,Release.HistoryPack1,Release.KatsuHeroDeck,Release.PrismBlitzDeck,Release.Promos,Release.WelcomeToRathe],
     specialImage: "WTR152",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -21630,16 +21636,22 @@ Target weapon attack gains +1{p}.
     defaultImage: "WTR153",
     name: "Goliath Gauntlet",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB064",
-      image: "FAB064",
-      set: Release.Promos,
+      
+      identifier: "1HP352",
+      image: "1HP352.width-450",
+      set: Release.HistoryPack1,
       
     },{
       
       identifier: "BVO006",
       image: "BVO6.width-450",
       set: Release.BravoBlitzDeck,
+      
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB064",
+      image: "FAB064",
+      set: Release.Promos,
       
     },{
       
@@ -21652,12 +21664,6 @@ Target weapon attack gains +1{p}.
       identifier: "OLD006",
       image: "OLD006.width-450",
       set: Release.OldhimBlitzDeck,
-      
-    },{
-      
-      identifier: "1HP352",
-      image: "1HP352.width-450",
-      set: Release.HistoryPack1,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -21684,10 +21690,10 @@ Target weapon attack gains +1{p}.
       set: Release.WelcomeToRathe,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB064","BVO006","LEV006","OLD006","1HP352","WTR153"],
-    sets: [Release.Promos,Release.BravoBlitzDeck,Release.LeviaBlitzDeck,Release.OldhimBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.BravoBlitzDeck,Release.HistoryPack1,Release.LeviaBlitzDeck,Release.OldhimBlitzDeck,Release.Promos,Release.WelcomeToRathe],
     specialImage: "WTR153",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
@@ -21719,10 +21725,16 @@ Target weapon attack gains +1{p}.
     defaultImage: "WTR154",
     name: "Snapdragon Scalers",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB065",
-      image: "FAB065",
-      set: Release.Promos,
+      
+      identifier: "1HP353",
+      image: "1HP353.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "ARA006",
+      image: "",
+      set: Release.ArakniBlitzDeck,
       
     },{
       
@@ -21737,16 +21749,16 @@ Target weapon attack gains +1{p}.
       set: Release.ChaneBlitzDeck,
       
     },{
+      foiling: Foiling.G,
+      identifier: "FAB065",
+      image: "FAB065",
+      set: Release.Promos,
+      
+    },{
       
       identifier: "RNR007",
       image: "RNR7.width-450",
       set: Release.RhinarHeroDeck,
-      
-    },{
-      
-      identifier: "1HP353",
-      image: "1HP353.width-450",
-      set: Release.HistoryPack1,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -21772,17 +21784,11 @@ Target weapon attack gains +1{p}.
       image: "U-WTR154",
       set: Release.WelcomeToRathe,
       
-    },{
-      
-      identifier: "ARA006",
-      image: "",
-      set: Release.ArakniBlitzDeck,
-      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB065","BOL008","CHN007","RNR007","1HP353","WTR154","ARA006"],
-    sets: [Release.Promos,Release.BoltynBlitzDeck,Release.ChaneBlitzDeck,Release.RhinarHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.ArakniBlitzDeck],
+    sets: [Release.ArakniBlitzDeck,Release.BoltynBlitzDeck,Release.ChaneBlitzDeck,Release.HistoryPack1,Release.Promos,Release.RhinarHeroDeck,Release.WelcomeToRathe],
     specialImage: "WTR154",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -21815,21 +21821,9 @@ Target weapon attack gains +1{p}.
     name: "Ironrot Helm",
     printings: [{
       
-      identifier: "OXO001",
-      image: "IRONROT01.width-450",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "KSU005",
-      image: "KSU5.width-450",
-      set: Release.KatsuHeroDeck,
-      
-    },{
-      
-      identifier: "RNR004",
-      image: "RNR4.width-450",
-      set: Release.RhinarHeroDeck,
+      identifier: "1HP342",
+      image: "1HP342.width-450",
+      set: Release.HistoryPack1,
       
     },{
       foiling: Foiling.R,
@@ -21839,9 +21833,21 @@ Target weapon attack gains +1{p}.
       
     },{
       
-      identifier: "1HP342",
-      image: "1HP342.width-450",
-      set: Release.HistoryPack1,
+      identifier: "KSU005",
+      image: "KSU5.width-450",
+      set: Release.KatsuHeroDeck,
+      
+    },{
+      
+      identifier: "OXO001",
+      image: "IRONROT01.width-450",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "RNR004",
+      image: "RNR4.width-450",
+      set: Release.RhinarHeroDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -21868,10 +21874,10 @@ Target weapon attack gains +1{p}.
       set: Release.WelcomeToRathe,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["OXO001","KSU005","RNR004","DVR003","1HP342","WTR155"],
-    sets: [Release.Promos,Release.KatsuHeroDeck,Release.RhinarHeroDeck,Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.KatsuHeroDeck,Release.Promos,Release.RhinarHeroDeck,Release.WelcomeToRathe],
     specialImage: "WTR155",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -21904,9 +21910,9 @@ Target weapon attack gains +1{p}.
     name: "Ironrot Plate",
     printings: [{
       
-      identifier: "OXO002",
-      image: "IRONROT02.width-450",
-      set: Release.Promos,
+      identifier: "1HP343",
+      image: "1HP343.width-450",
+      set: Release.HistoryPack1,
       
     },{
       
@@ -21916,15 +21922,15 @@ Target weapon attack gains +1{p}.
       
     },{
       
-      identifier: "TEA005",
-      image: "TEA5.width-450",
-      set: Release.DorintheaHeroDeck,
+      identifier: "OXO002",
+      image: "IRONROT02.width-450",
+      set: Release.Promos,
       
     },{
       
-      identifier: "1HP343",
-      image: "1HP343.width-450",
-      set: Release.HistoryPack1,
+      identifier: "TEA005",
+      image: "TEA5.width-450",
+      set: Release.DorintheaHeroDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -21951,10 +21957,10 @@ Target weapon attack gains +1{p}.
       set: Release.WelcomeToRathe,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["OXO002","BVO005","TEA005","1HP343","WTR156"],
-    sets: [Release.Promos,Release.BravoBlitzDeck,Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.BravoBlitzDeck,Release.DorintheaHeroDeck,Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
     specialImage: "WTR156",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -21987,15 +21993,21 @@ Target weapon attack gains +1{p}.
     name: "Ironrot Gauntlet",
     printings: [{
       
-      identifier: "OXO003",
-      image: "IRONROT03.width-450",
-      set: Release.Promos,
+      identifier: "1HP344",
+      image: "1HP344.width-450",
+      set: Release.HistoryPack1,
       
     },{
       
       identifier: "BRI007",
       image: "BRI007.width-450",
       set: Release.BriarBlitzDeck,
+      
+    },{
+      
+      identifier: "OXO003",
+      image: "IRONROT03.width-450",
+      set: Release.Promos,
       
     },{
       
@@ -22008,12 +22020,6 @@ Target weapon attack gains +1{p}.
       identifier: "TEA006",
       image: "TEA6.width-450",
       set: Release.DorintheaHeroDeck,
-      
-    },{
-      
-      identifier: "1HP344",
-      image: "1HP344.width-450",
-      set: Release.HistoryPack1,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -22040,10 +22046,10 @@ Target weapon attack gains +1{p}.
       set: Release.WelcomeToRathe,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["OXO003","BRI007","RNR006","TEA006","1HP344","WTR157"],
-    sets: [Release.Promos,Release.BriarBlitzDeck,Release.RhinarHeroDeck,Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.BriarBlitzDeck,Release.DorintheaHeroDeck,Release.HistoryPack1,Release.Promos,Release.RhinarHeroDeck,Release.WelcomeToRathe],
     specialImage: "WTR157",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
@@ -22076,15 +22082,27 @@ Target weapon attack gains +1{p}.
     name: "Ironrot Legs",
     printings: [{
       
-      identifier: "OXO004",
-      image: "IRONROT04.width-450",
-      set: Release.Promos,
+      identifier: "1HP345",
+      image: "1HP345.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "AZL007",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
       
     },{
       
       identifier: "BVO007",
       image: "BVO7.width-450",
       set: Release.BravoBlitzDeck,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DVR006",
+      image: "DVR006.width-450",
+      set: Release.ClassicBattlesRhinarDorinthea,
       
     },{
       
@@ -22099,16 +22117,16 @@ Target weapon attack gains +1{p}.
       set: Release.LexiBlitzDeck,
       
     },{
-      foiling: Foiling.R,
-      identifier: "DVR006",
-      image: "DVR006.width-450",
-      set: Release.ClassicBattlesRhinarDorinthea,
+      
+      identifier: "OXO004",
+      image: "IRONROT04.width-450",
+      set: Release.Promos,
       
     },{
       
-      identifier: "1HP345",
-      image: "1HP345.width-450",
-      set: Release.HistoryPack1,
+      identifier: "RIP007",
+      image: "",
+      set: Release.RiptideBlitzDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -22134,23 +22152,11 @@ Target weapon attack gains +1{p}.
       image: "U-WTR158",
       set: Release.WelcomeToRathe,
       
-    },{
-      
-      identifier: "AZL007",
-      image: "",
-      set: Release.AzaleaBlitzDeck,
-      
-    },{
-      
-      identifier: "RIP007",
-      image: "",
-      set: Release.RiptideBlitzDeck,
-      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["OXO004","BVO007","KSU008","LXI006","DVR006","1HP345","WTR158","AZL007","RIP007"],
-    sets: [Release.Promos,Release.BravoBlitzDeck,Release.KatsuHeroDeck,Release.LexiBlitzDeck,Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.WelcomeToRathe,Release.AzaleaBlitzDeck,Release.RiptideBlitzDeck],
+    sets: [Release.AzaleaBlitzDeck,Release.BravoBlitzDeck,Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.KatsuHeroDeck,Release.LexiBlitzDeck,Release.Promos,Release.RiptideBlitzDeck,Release.WelcomeToRathe],
     specialImage: "WTR158",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -22384,16 +22390,16 @@ If Tome of Fyendal is played from arsenal, gain 1{h} for each card in your hand.
     defaultImage: "WTR162",
     name: "Crazy Brew",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "FAB016",
-      image: "FAB016",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP363",
       image: "1HP363.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "FAB016",
+      image: "FAB016",
+      set: Release.Promos,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -22420,10 +22426,10 @@ If Tome of Fyendal is played from arsenal, gain 1{h} for each card in your hand.
       set: Release.WelcomeToRathe,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Majestic,Rarity.SuperRare],
+    rarities: [Rarity.Majestic,Rarity.Promo,Rarity.SuperRare],
     rarity: Rarity.Majestic,
     setIdentifiers: ["FAB016","1HP363","WTR162"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
     specialImage: "WTR162",
     subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
@@ -22904,6 +22910,12 @@ Banish Remembrance.`,
     defaultImage: "WTR170",
     name: "Energy Potion",
     printings: [{
+      
+      identifier: "1HP381",
+      image: "1HP381.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
       foiling: Foiling.C,
       identifier: "FAB012",
       image: "FAB012",
@@ -22920,12 +22932,6 @@ Banish Remembrance.`,
       identifier: "TEA028",
       image: "TEA28.width-450",
       set: Release.DorintheaHeroDeck,
-      
-    },{
-      
-      identifier: "1HP381",
-      image: "1HP381.width-450",
-      set: Release.HistoryPack1,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -22955,7 +22961,7 @@ Banish Remembrance.`,
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["FAB012","KSU029","TEA028","1HP381","WTR170"],
-    sets: [Release.Promos,Release.KatsuHeroDeck,Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.DorintheaHeroDeck,Release.HistoryPack1,Release.KatsuHeroDeck,Release.Promos,Release.WelcomeToRathe],
     specialImage: "WTR170",
     subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
@@ -22987,10 +22993,10 @@ Banish Remembrance.`,
     defaultImage: "WTR171",
     name: "Potion of Strength",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "FAB013",
-      image: "FAB013",
-      set: Release.Promos,
+      
+      identifier: "1HP382",
+      image: "1HP382.width-450",
+      set: Release.HistoryPack1,
       
     },{
       
@@ -22999,10 +23005,10 @@ Banish Remembrance.`,
       set: Release.BravoBlitzDeck,
       
     },{
-      
-      identifier: "1HP382",
-      image: "1HP382.width-450",
-      set: Release.HistoryPack1,
+      foiling: Foiling.C,
+      identifier: "FAB013",
+      image: "FAB013",
+      set: Release.Promos,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -23032,7 +23038,7 @@ Banish Remembrance.`,
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["FAB013","BVO028","1HP382","WTR171"],
-    sets: [Release.Promos,Release.BravoBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.BravoBlitzDeck,Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
     specialImage: "WTR171",
     subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
@@ -23064,6 +23070,12 @@ Banish Remembrance.`,
     defaultImage: "WTR172",
     name: "Timesnap Potion",
     printings: [{
+      
+      identifier: "1HP383",
+      image: "1HP383.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
       foiling: Foiling.C,
       identifier: "FAB014",
       image: "FAB014",
@@ -23074,12 +23086,6 @@ Banish Remembrance.`,
       identifier: "RNR029",
       image: "RNR29.width-450",
       set: Release.RhinarHeroDeck,
-      
-    },{
-      
-      identifier: "1HP383",
-      image: "1HP383.width-450",
-      set: Release.HistoryPack1,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -23109,7 +23115,7 @@ Banish Remembrance.`,
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["FAB014","RNR029","1HP383","WTR172"],
-    sets: [Release.Promos,Release.RhinarHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.HistoryPack1,Release.Promos,Release.RhinarHeroDeck,Release.WelcomeToRathe],
     specialImage: "WTR172",
     subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
@@ -23135,16 +23141,16 @@ Banish Remembrance.`,
     
     
   },{
-    artists: ["Asur Misoa","Adolfo Navarro"],
+    artists: ["Adolfo Navarro","Asur Misoa"],
     cardIdentifier: "sigil-of-solace-red",
     classes: [Class.Generic],
     defaultImage: "WTR173",
     name: "Sigil of Solace",
     printings: [{
       
-      identifier: "FAB136",
-      image: "",
-      set: Release.Promos,
+      identifier: "1HP387",
+      image: "1HP387.width-450",
+      set: Release.HistoryPack1,
       
     },{
       
@@ -23154,9 +23160,9 @@ Banish Remembrance.`,
       
     },{
       
-      identifier: "1HP387",
-      image: "1HP387.width-450",
-      set: Release.HistoryPack1,
+      identifier: "FAB136",
+      image: "",
+      set: Release.Promos,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -23186,7 +23192,7 @@ Banish Remembrance.`,
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["FAB136","DRO026","1HP387","WTR173"],
-    sets: [Release.Promos,Release.DromaiBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.DromaiBlitzDeck,Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
     specialImage: "WTR173",
     subtypes: [],
     types: [Type.Instant],
@@ -23284,21 +23290,9 @@ Banish Remembrance.`,
     name: "Sigil of Solace",
     printings: [{
       
-      identifier: "KSU030",
-      image: "KSU30.width-450",
-      set: Release.KatsuHeroDeck,
-      
-    },{
-      
-      identifier: "TEA029",
-      image: "TEA29.width-450",
-      set: Release.DorintheaHeroDeck,
-      
-    },{
-      
-      identifier: "RNR030",
-      image: "RNR30.width-450",
-      set: Release.RhinarHeroDeck,
+      identifier: "1HP389",
+      image: "1HP389.width-450",
+      set: Release.HistoryPack1,
       
     },{
       
@@ -23308,9 +23302,21 @@ Banish Remembrance.`,
       
     },{
       
-      identifier: "1HP389",
-      image: "1HP389.width-450",
-      set: Release.HistoryPack1,
+      identifier: "KSU030",
+      image: "KSU30.width-450",
+      set: Release.KatsuHeroDeck,
+      
+    },{
+      
+      identifier: "RNR030",
+      image: "RNR30.width-450",
+      set: Release.RhinarHeroDeck,
+      
+    },{
+      
+      identifier: "TEA029",
+      image: "TEA29.width-450",
+      set: Release.DorintheaHeroDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -23340,7 +23346,7 @@ Banish Remembrance.`,
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["KSU030","TEA029","RNR030","DVR025","1HP389","WTR175"],
-    sets: [Release.KatsuHeroDeck,Release.DorintheaHeroDeck,Release.RhinarHeroDeck,Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.ClassicBattlesRhinarDorinthea,Release.DorintheaHeroDeck,Release.HistoryPack1,Release.KatsuHeroDeck,Release.RhinarHeroDeck,Release.WelcomeToRathe],
     specialImage: "WTR175",
     subtypes: [],
     types: [Type.Instant],
@@ -23561,6 +23567,12 @@ Banish Remembrance.`,
     defaultImage: "WTR179",
     name: "Demolition Crew",
     printings: [{
+      
+      identifier: "UZU010",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
+    },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR179",
       image: "WTR179",
@@ -23584,17 +23596,11 @@ Banish Remembrance.`,
       image: "U-WTR179",
       set: Release.WelcomeToRathe,
       
-    },{
-      
-      identifier: "UZU010",
-      image: "",
-      set: Release.UzuriBlitzDeck,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["WTR179","UZU010"],
-    sets: [Release.WelcomeToRathe,Release.UzuriBlitzDeck],
+    sets: [Release.UzuriBlitzDeck,Release.WelcomeToRathe],
     specialImage: "WTR179",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -23751,15 +23757,15 @@ Banish Remembrance.`,
     name: "Flock of the Feather Walkers",
     printings: [{
       
-      identifier: "DVR026",
-      image: "DVR026.width-450",
-      set: Release.ClassicBattlesRhinarDorinthea,
-      
-    },{
-      
       identifier: "1HP390",
       image: "1HP390.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "DVR026",
+      image: "DVR026.width-450",
+      set: Release.ClassicBattlesRhinarDorinthea,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -23891,6 +23897,12 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
     name: "Flock of the Feather Walkers",
     printings: [{
       
+      identifier: "1HP392",
+      image: "1HP392.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      
       identifier: "RNR027",
       image: "RNR27.width-450",
       set: Release.RhinarHeroDeck,
@@ -23900,12 +23912,6 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
       identifier: "TEA026",
       image: "TEA26.width-450",
       set: Release.DorintheaHeroDeck,
-      
-    },{
-      
-      identifier: "1HP392",
-      image: "1HP392.width-450",
-      set: Release.HistoryPack1,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -23935,7 +23941,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["RNR027","TEA026","1HP392","WTR184"],
-    sets: [Release.RhinarHeroDeck,Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.DorintheaHeroDeck,Release.HistoryPack1,Release.RhinarHeroDeck,Release.WelcomeToRathe],
     specialImage: "WTR184",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -24244,7 +24250,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["RNR020","RVD019","WTR189"],
-    sets: [Release.RhinarHeroDeck,Release.ClassicBattlesRhinarDorinthea,Release.WelcomeToRathe],
+    sets: [Release.ClassicBattlesRhinarDorinthea,Release.RhinarHeroDeck,Release.WelcomeToRathe],
     specialImage: "WTR189",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -24341,6 +24347,12 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
     defaultImage: "UPR209",
     name: "Scar for a Scar",
     printings: [{
+      
+      identifier: "1HP396",
+      image: "1HP396.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
       foiling: Foiling.R,
       identifier: "FAB015",
       image: "FAB015",
@@ -24354,15 +24366,21 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
       
     },{
       
+      identifier: "KAT015",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
+    },{
+      
       identifier: "KSU017",
       image: "KSU17.width-450",
       set: Release.KatsuHeroDeck,
       
     },{
       
-      identifier: "1HP396",
-      image: "1HP396.width-450",
-      set: Release.HistoryPack1,
+      identifier: "UPR209",
+      image: "UPR209",
+      set: Release.Uprising,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -24388,23 +24406,11 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
       image: "U-WTR191",
       set: Release.WelcomeToRathe,
       
-    },{
-      
-      identifier: "UPR209",
-      image: "UPR209",
-      set: Release.Uprising,
-      
-    },{
-      
-      identifier: "KAT015",
-      image: "",
-      set: Release.KatsuBlitzDeck,
-      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB015","IRA009","KSU017","1HP396","WTR191","UPR209","KAT015"],
-    sets: [Release.Promos,Release.IraWelcomeDeck,Release.KatsuHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe,Release.Uprising,Release.KatsuBlitzDeck],
+    sets: [Release.HistoryPack1,Release.IraWelcomeDeck,Release.KatsuBlitzDeck,Release.KatsuHeroDeck,Release.Promos,Release.Uprising,Release.WelcomeToRathe],
     specialImage: "FAB015",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -24442,6 +24448,12 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
       set: Release.HistoryPack1,
       
     },{
+      
+      identifier: "UPR210",
+      image: "UPR210",
+      set: Release.Uprising,
+      
+    },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR192",
       image: "WTR192",
@@ -24465,17 +24477,11 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
       image: "U-WTR192",
       set: Release.WelcomeToRathe,
       
-    },{
-      
-      identifier: "UPR210",
-      image: "UPR210",
-      set: Release.Uprising,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP397","WTR192","UPR210"],
-    sets: [Release.HistoryPack1,Release.WelcomeToRathe,Release.Uprising],
+    sets: [Release.HistoryPack1,Release.Uprising,Release.WelcomeToRathe],
     specialImage: "WTR192",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -24513,6 +24519,12 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
       set: Release.HistoryPack1,
       
     },{
+      
+      identifier: "UPR211",
+      image: "UPR211",
+      set: Release.Uprising,
+      
+    },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR193",
       image: "WTR193",
@@ -24536,17 +24548,11 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
       image: "U-WTR193",
       set: Release.WelcomeToRathe,
       
-    },{
-      
-      identifier: "UPR211",
-      image: "UPR211",
-      set: Release.Uprising,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP398","WTR193","UPR211"],
-    sets: [Release.HistoryPack1,Release.WelcomeToRathe,Release.Uprising],
+    sets: [Release.HistoryPack1,Release.Uprising,Release.WelcomeToRathe],
     specialImage: "WTR193",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -24745,7 +24751,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["KSU026","RNR028","TEA027","WTR196"],
-    sets: [Release.KatsuHeroDeck,Release.RhinarHeroDeck,Release.DorintheaHeroDeck,Release.WelcomeToRathe],
+    sets: [Release.DorintheaHeroDeck,Release.KatsuHeroDeck,Release.RhinarHeroDeck,Release.WelcomeToRathe],
     specialImage: "WTR196",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -25054,7 +25060,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["RNR021","RVD020","WTR201"],
-    sets: [Release.RhinarHeroDeck,Release.ClassicBattlesRhinarDorinthea,Release.WelcomeToRathe],
+    sets: [Release.ClassicBattlesRhinarDorinthea,Release.RhinarHeroDeck,Release.WelcomeToRathe],
     specialImage: "WTR201",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -25190,7 +25196,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DRO022","TEA015","WTR203"],
-    sets: [Release.DromaiBlitzDeck,Release.DorintheaHeroDeck,Release.WelcomeToRathe],
+    sets: [Release.DorintheaHeroDeck,Release.DromaiBlitzDeck,Release.WelcomeToRathe],
     specialImage: "WTR203",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -25352,17 +25358,17 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.`,
     defaultImage: "WTR206",
     name: "Pummel",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "JDG012",
-      image: "",
-      set: Release.Promos,
-      treatment: Treatment.AB,
-    },{
       
       identifier: "1HP399",
       image: "1HP399.width-450",
       set: Release.HistoryPack1,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "JDG012",
+      image: "",
+      set: Release.Promos,
+      treatment: Treatment.AB,
     },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR206",
@@ -25388,10 +25394,10 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.`,
       set: Release.WelcomeToRathe,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["JDG012","1HP399","WTR206"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.WelcomeToRathe],
+    sets: [Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
     specialImage: "WTR206",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -25493,15 +25499,15 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.`,
     name: "Pummel",
     printings: [{
       
-      identifier: "BVO027",
-      image: "BVO27.width-450",
-      set: Release.BravoBlitzDeck,
-      
-    },{
-      
       identifier: "1HP401",
       image: "1HP401.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "BVO027",
+      image: "BVO27.width-450",
+      set: Release.BravoBlitzDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -25566,15 +25572,15 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.`,
     name: "Razor Reflex",
     printings: [{
       
-      identifier: "TEA016",
-      image: "TEA16.width-450",
-      set: Release.DorintheaHeroDeck,
-      
-    },{
-      
       identifier: "1HP402",
       image: "1HP402.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "TEA016",
+      image: "TEA16.width-450",
+      set: Release.DorintheaHeroDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -25908,6 +25914,12 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.`,
       set: Release.HistoryPack1,
       
     },{
+      
+      identifier: "UZU027",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
+    },{
       edition: ReleaseEdition.Alpha,
       identifier: "WTR214",
       image: "WTR214",
@@ -25931,17 +25943,11 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.`,
       image: "U-WTR214",
       set: Release.WelcomeToRathe,
       
-    },{
-      
-      identifier: "UZU027",
-      image: "",
-      set: Release.UzuriBlitzDeck,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP413","WTR214","UZU027"],
-    sets: [Release.HistoryPack1,Release.WelcomeToRathe,Release.UzuriBlitzDeck],
+    sets: [Release.HistoryPack1,Release.UzuriBlitzDeck,Release.WelcomeToRathe],
     specialImage: "WTR214",
     subtypes: [],
     types: [Type.DefenseReaction],
@@ -25974,15 +25980,15 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.`,
     name: "Sink Below",
     printings: [{
       
-      identifier: "DRO028",
-      image: "DRO028.width-450",
-      set: Release.DromaiBlitzDeck,
-      
-    },{
-      
       identifier: "1HP408",
       image: "1HP408.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "DRO028",
+      image: "DRO028.width-450",
+      set: Release.DromaiBlitzDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -26510,15 +26516,15 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.`,
     name: "Sloggism",
     printings: [{
       
-      identifier: "BVO029",
-      image: "BVO29.width-450",
-      set: Release.BravoBlitzDeck,
-      
-    },{
-      
       identifier: "1HP422",
       image: "1HP422.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "BVO029",
+      image: "BVO29.width-450",
+      set: Release.BravoBlitzDeck,
       
     },{
       edition: ReleaseEdition.Alpha,
@@ -26582,24 +26588,6 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.`,
     defaultImage: "OUT238.width-450",
     name: "Cracked Bauble",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "LGS083",
-      image: "LGS083",
-      set: Release.Promos,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR224",
-      image: "WTR224",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR224",
-      image: "U-WTR224",
-      set: Release.WelcomeToRathe,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ARC218",
       image: "ARC218.width-450",
@@ -26625,18 +26613,6 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.`,
       
     },{
       edition: ReleaseEdition.First,
-      identifier: "MON306",
-      image: "MON306.width-450",
-      set: Release.Monarch,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "MON306",
-      image: "U-MON306.width-450",
-      set: Release.Monarch,
-      
-    },{
-      edition: ReleaseEdition.First,
       identifier: "ELE237",
       image: "ELE237.width-450",
       set: Release.TalesOfAria,
@@ -26648,10 +26624,22 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.`,
       set: Release.TalesOfAria,
       
     },{
+      foiling: Foiling.C,
+      identifier: "LGS083",
+      image: "LGS083",
+      set: Release.Promos,
       
-      identifier: "UPR224",
-      image: "UPR224",
-      set: Release.Uprising,
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "MON306",
+      image: "MON306.width-450",
+      set: Release.Monarch,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "MON306",
+      image: "U-MON306.width-450",
+      set: Release.Monarch,
       
     },{
       
@@ -26659,11 +26647,29 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.`,
       image: "OUT238.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "UPR224",
+      image: "UPR224",
+      set: Release.Uprising,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR224",
+      image: "WTR224",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR224",
+      image: "U-WTR224",
+      set: Release.WelcomeToRathe,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS083","WTR224","ARC218","CRU195","MON306","ELE237","UPR224","OUT238"],
-    sets: [Release.Promos,Release.WelcomeToRathe,Release.ArcaneRising,Release.CrucibleOfWar,Release.Monarch,Release.TalesOfAria,Release.Uprising,Release.Outsiders],
+    sets: [Release.ArcaneRising,Release.CrucibleOfWar,Release.Monarch,Release.Outsiders,Release.Promos,Release.TalesOfAria,Release.Uprising,Release.WelcomeToRathe],
     specialImage: "ARC218.width-450",
     subtypes: [],
     types: [Type.Resource],
@@ -26696,51 +26702,9 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.`,
     name: "Quicken",
     printings: [{
       
-      identifier: "DTD234",
-      image: "DTD234",
-      set: Release.DuskTillDawn,
-      
-    },{
-      
-      identifier: "XXX009",
-      image: "XXX009",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "RNR031",
-      image: "RNR31.width-450",
-      set: Release.RhinarHeroDeck,
-      
-    },{
-      
-      identifier: "TEA030",
-      image: "TEA30.width-450",
-      set: Release.DorintheaHeroDeck,
-      
-    },{
-      
-      identifier: "DVR028",
-      image: "DVR028.width-450",
-      set: Release.ClassicBattlesRhinarDorinthea,
-      
-    },{
-      
       identifier: "1HP427",
       image: "1HP427_Quicken.width-10000",
       set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR225",
-      image: "WTR225",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR225",
-      image: "U-WTR225",
-      set: Release.WelcomeToRathe,
       
     },{
       edition: ReleaseEdition.First,foiling: Foiling.R,
@@ -26755,16 +26719,58 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.`,
       set: Release.CrucibleOfWar,
       
     },{
+      
+      identifier: "DTD234",
+      image: "DTD234",
+      set: Release.DuskTillDawn,
+      
+    },{
+      
+      identifier: "DVR028",
+      image: "DVR028.width-450",
+      set: Release.ClassicBattlesRhinarDorinthea,
+      
+    },{
       edition: ReleaseEdition.First,
       identifier: "EVR196",
       image: "EVR196.width-450",
       set: Release.Everfest,
       
+    },{
+      
+      identifier: "RNR031",
+      image: "RNR31.width-450",
+      set: Release.RhinarHeroDeck,
+      
+    },{
+      
+      identifier: "TEA030",
+      image: "TEA30.width-450",
+      set: Release.DorintheaHeroDeck,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR225",
+      image: "WTR225",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR225",
+      image: "U-WTR225",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      
+      identifier: "XXX009",
+      image: "XXX009",
+      set: Release.Promos,
+      
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["DTD234","XXX009","RNR031","TEA030","DVR028","1HP427","WTR225","CRU196","EVR196"],
-    sets: [Release.DuskTillDawn,Release.Promos,Release.RhinarHeroDeck,Release.DorintheaHeroDeck,Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.WelcomeToRathe,Release.CrucibleOfWar,Release.Everfest],
+    sets: [Release.ClassicBattlesRhinarDorinthea,Release.CrucibleOfWar,Release.DorintheaHeroDeck,Release.DuskTillDawn,Release.Everfest,Release.HistoryPack1,Release.Promos,Release.RhinarHeroDeck,Release.WelcomeToRathe],
     specialImage: "CRU196",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
@@ -26845,24 +26851,6 @@ When you pitch Eye of Ophidia, **opt 2**.`,
     defaultImage: "CRU098",
     name: "Dash, Inventor Extraordinaire",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "HER009",
-      image: "HER009",
-      set: Release.Promos,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "HER017",
-      image: "HER017",
-      set: Release.Promos,
-      
-    },{
-      foiling: Foiling.G,
-      identifier: "WIN005",
-      image: "",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP180",
       image: "1HP180.width-450",
@@ -26892,11 +26880,29 @@ When you pitch Eye of Ophidia, **opt 2**.`,
       image: "U-CRU098",
       set: Release.CrucibleOfWar,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "HER009",
+      image: "HER009",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "HER017",
+      image: "HER017",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.G,
+      identifier: "WIN005",
+      image: "",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER009","HER017","WIN005","1HP180","ARC001","CRU098"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar],
+    sets: [Release.ArcaneRising,Release.CrucibleOfWar,Release.HistoryPack1,Release.Promos],
     specialImage: "ARC001",
     subtypes: [],
     types: [Type.Hero],
@@ -26928,18 +26934,6 @@ When you pitch Eye of Ophidia, **opt 2**.`,
     defaultImage: "ARC002",
     name: "Dash",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "HER013",
-      image: "HER013",
-      set: Release.Promos,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "HER070",
-      image: "HER070",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP181",
       image: "1HP181.width-450",
@@ -26957,11 +26951,23 @@ When you pitch Eye of Ophidia, **opt 2**.`,
       image: "U-ARC002",
       set: Release.ArcaneRising,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "HER013",
+      image: "HER013",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "HER070",
+      image: "HER070",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER013","HER070","1HP181","ARC002"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos],
     specialImage: "ARC002",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -26993,12 +26999,6 @@ When you pitch Eye of Ophidia, **opt 2**.`,
     defaultImage: "CRU100",
     name: "Teklo Plasma Pistol",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "LGS009",
-      image: "LGS009",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP184",
       image: "1HP184.width-450",
@@ -27028,13 +27028,19 @@ When you pitch Eye of Ophidia, **opt 2**.`,
       image: "U-CRU100",
       set: Release.CrucibleOfWar,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS009",
+      image: "LGS009",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS009","1HP184","ARC003","CRU100"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar],
+    sets: [Release.ArcaneRising,Release.CrucibleOfWar,Release.HistoryPack1,Release.Promos],
     specialImage: "ARC003",
-    subtypes: [Subtype.Pistol,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Pistol],
     types: [Type.Weapon],
     typeText: "Mechanologist Weapon – Pistol (2H)",
 
@@ -27066,12 +27072,6 @@ When you pitch Eye of Ophidia, **opt 2**.`,
     defaultImage: "ARC004",
     name: "Teklo Foundry Heart",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB008",
-      image: "FAB008",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP185",
       image: "1HP185.width-450",
@@ -27089,11 +27089,17 @@ When you pitch Eye of Ophidia, **opt 2**.`,
       image: "U-ARC004",
       set: Release.ArcaneRising,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB008",
+      image: "FAB008",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB008","1HP185","ARC004"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos],
     specialImage: "ARC004",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -27127,12 +27133,6 @@ When you pitch Eye of Ophidia, **opt 2**.`,
     defaultImage: "ARC005",
     name: "Achilles Accelerator",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB101",
-      image: "",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP186",
       image: "1HP186.width-450",
@@ -27162,11 +27162,17 @@ When you pitch Eye of Ophidia, **opt 2**.`,
       image: "U-ARC005",
       set: Release.ArcaneRising,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB101",
+      image: "",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB101","1HP186","ARC005"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos],
     specialImage: "ARC005",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -27233,7 +27239,7 @@ When you pitch Eye of Ophidia, **opt 2**.`,
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP188","ARC006"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC006",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -27302,7 +27308,7 @@ Draw a card.
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP192","ARC007"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC007-RF",
     subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
@@ -27430,7 +27436,7 @@ At the beginning of your action phase, remove a steam counter from Teklo Core an
     rarities: [Rarity.Majestic,Rarity.SuperRare],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP191","ARC009"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC009-RF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -27499,7 +27505,7 @@ If you have **boosted** this turn, draw a card.`,
     rarities: [Rarity.Majestic,Rarity.SuperRare],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP189","ARC010"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC010",
     subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
@@ -27566,7 +27572,7 @@ If you have **boosted** this turn, draw a card.`,
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP196","ARC011"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC011-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -27633,7 +27639,7 @@ If you have **boosted** this turn, draw a card.`,
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP197","ARC012"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC012-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -27700,7 +27706,7 @@ If you have **boosted** this turn, draw a card.`,
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP198","ARC013"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC013-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -27956,7 +27962,7 @@ If you have **boosted** this turn, put a steam counter on it.
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP199","ARC017"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC017",
     subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
@@ -27973,7 +27979,7 @@ If you have **boosted** this turn, put a steam counter on it.
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.ArcaneBarrier],
+    keywords: [Keyword.ArcaneBarrier,Keyword.GoAgain],
     
     
     pitch: 2,
@@ -28025,7 +28031,7 @@ If you have **boosted** this turn, put a steam counter on it.
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP200","ARC018"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC018",
     subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
@@ -28092,7 +28098,7 @@ If you have **boosted** this turn, put a steam counter on it.
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP201","ARC019"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC019-RF",
     subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
@@ -28127,18 +28133,6 @@ If you have **boosted** this turn, put a steam counter on it.
     name: "Over Loop",
     printings: [{
       
-      identifier: "LGS013",
-      image: "LGS013",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
-      foiling: Foiling.R,
-      identifier: "LGS032",
-      image: "LGS032",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
-      
       identifier: "1HP205",
       image: "1HP205.width-450",
       set: Release.HistoryPack1,
@@ -28167,11 +28161,23 @@ If you have **boosted** this turn, put a steam counter on it.
       image: "ARC020_Over_Loop.width-10000",
       set: Release.ArcaneRising,
       
+    },{
+      
+      identifier: "LGS013",
+      image: "LGS013",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS032",
+      image: "LGS032",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS013","LGS032","1HP205","ARC020"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos],
     specialImage: "LGS013",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -28205,12 +28211,6 @@ If you have **boosted** this turn, put a steam counter on it.
     defaultImage: "ARC021",
     name: "Over Loop",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS033",
-      image: "LGS033",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       
       identifier: "1HP206",
       image: "1HP206.width-450",
@@ -28240,11 +28240,17 @@ If you have **boosted** this turn, put a steam counter on it.
       image: "ARC021_Over_Loop.width-10000",
       set: Release.ArcaneRising,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS033",
+      image: "LGS033",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS033","1HP206","ARC021"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos],
     specialImage: "LGS033",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -28278,12 +28284,6 @@ If you have **boosted** this turn, put a steam counter on it.
     defaultImage: "ARC022",
     name: "Over Loop",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS034",
-      image: "LGS034",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       
       identifier: "1HP207",
       image: "1HP207.width-450",
@@ -28313,11 +28313,17 @@ If you have **boosted** this turn, put a steam counter on it.
       image: "ARC022_Over_Loop.width-10000",
       set: Release.ArcaneRising,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS034",
+      image: "LGS034",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS034","1HP207","ARC022"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos],
     specialImage: "LGS034",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -28384,7 +28390,7 @@ If you have **boosted** this turn, put a steam counter on it.
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP208","ARC023"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC023-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -28449,7 +28455,7 @@ If you have **boosted** this turn, put a steam counter on it.
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP209","ARC024"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC024-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -28514,7 +28520,7 @@ If you have **boosted** this turn, put a steam counter on it.
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP210","ARC025"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC025-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -28579,7 +28585,7 @@ If you have **boosted** this turn, put a steam counter on it.
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP211","ARC026"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC026-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -28644,7 +28650,7 @@ If you have **boosted** this turn, put a steam counter on it.
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP212","ARC027"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC027-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -28709,7 +28715,7 @@ If you have **boosted** this turn, put a steam counter on it.
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP213","ARC028"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC028-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -28774,7 +28780,7 @@ If you have **boosted** this turn, put a steam counter on it.
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP214","ARC029"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC029-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -28839,7 +28845,7 @@ If you have **boosted** this turn, put a steam counter on it.
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP215","ARC030"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC030-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -28904,7 +28910,7 @@ If you have **boosted** this turn, put a steam counter on it.
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP216","ARC031"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC031-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -28980,7 +28986,7 @@ If you have **boosted** this turn, **opt 1**.
     
     
     
-    keywords: [Keyword.Opt,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Opt],
     
     
     pitch: 1,
@@ -29043,7 +29049,7 @@ If you have **boosted** this turn, **opt 1**.
     
     
     
-    keywords: [Keyword.Opt,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Opt],
     
     
     pitch: 2,
@@ -29106,7 +29112,7 @@ If you have **boosted** this turn, **opt 1**.
     
     
     
-    keywords: [Keyword.Opt,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Opt],
     
     
     pitch: 3,
@@ -29158,7 +29164,7 @@ If you have **boosted** this turn, **opt 1**.
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP217","ARC035"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC035",
     subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
@@ -29239,7 +29245,7 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP218","ARC036","DYN110"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising,Release.Dynasty],
+    sets: [Release.ArcaneRising,Release.Dynasty,Release.HistoryPack1],
     specialImage: "ARC036",
     subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
@@ -29306,7 +29312,7 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP219","ARC037"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC037-RF",
     subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
@@ -29322,7 +29328,7 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     
     
     
-    keywords: [Keyword.Opt,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Opt],
     
     
     pitch: 3,
@@ -29341,24 +29347,6 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     defaultImage: "OUT089.width-450",
     name: "Azalea, Ace in the Hole",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "HER010",
-      image: "HER010",
-      set: Release.Promos,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "HER018",
-      image: "HER018",
-      set: Release.Promos,
-      
-    },{
-      foiling: Foiling.G,
-      identifier: "WIN006",
-      image: "",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP221",
       image: "1HP221.width-450",
@@ -29389,16 +29377,34 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
       set: Release.CrucibleOfWar,
       
     },{
+      foiling: Foiling.C,
+      identifier: "HER010",
+      image: "HER010",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "HER018",
+      image: "HER018",
+      set: Release.Promos,
+      
+    },{
       
       identifier: "OUT089",
       image: "OUT089.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "WIN006",
+      image: "",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER010","HER018","WIN006","1HP221","ARC038","CRU119","OUT089"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar,Release.Outsiders],
+    sets: [Release.ArcaneRising,Release.CrucibleOfWar,Release.HistoryPack1,Release.Outsiders,Release.Promos],
     specialImage: "ARC038",
     subtypes: [],
     types: [Type.Hero],
@@ -29430,18 +29436,6 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     defaultImage: "OUT090.width-450",
     name: "Azalea",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "HER014",
-      image: "HER014",
-      set: Release.Promos,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "HER071",
-      image: "HER071",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP222",
       image: "1HP222.width-450",
@@ -29461,21 +29455,33 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
       
     },{
       
-      identifier: "OUT090",
-      image: "OUT090.width-450",
-      set: Release.Outsiders,
-      
-    },{
-      
       identifier: "AZL001",
       image: "",
       set: Release.AzaleaBlitzDeck,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "HER014",
+      image: "HER014",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "HER071",
+      image: "HER071",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "OUT090",
+      image: "OUT090.width-450",
+      set: Release.Outsiders,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER014","HER071","1HP222","ARC039","OUT090","AZL001"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.Outsiders,Release.AzaleaBlitzDeck],
+    sets: [Release.ArcaneRising,Release.AzaleaBlitzDeck,Release.HistoryPack1,Release.Outsiders,Release.Promos],
     specialImage: "ARC039",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -29507,18 +29513,6 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     defaultImage: "CRU120",
     name: "Death Dealer",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB096",
-      image: "",
-      set: Release.Promos,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "LGS010",
-      image: "LGS010",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP223",
       image: "1HP223.width-450",
@@ -29548,13 +29542,25 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
       image: "U-CRU120",
       set: Release.CrucibleOfWar,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB096",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS010",
+      image: "LGS010",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["FAB096","LGS010","1HP223","ARC040","CRU120"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar],
+    sets: [Release.ArcaneRising,Release.CrucibleOfWar,Release.HistoryPack1,Release.Promos],
     specialImage: "ARC040",
-    subtypes: [Subtype.Bow,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Bow],
     types: [Type.Weapon],
     typeText: "Ranger Weapon – Bow (2H)",
 
@@ -29584,12 +29590,6 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     defaultImage: "ARC041",
     name: "Skullbone Crosswrap",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB009",
-      image: "FAB009",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP225",
       image: "1HP225.width-450",
@@ -29607,11 +29607,17 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
       image: "U-ARC041",
       set: Release.ArcaneRising,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB009",
+      image: "FAB009",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB009","1HP225","ARC041"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos],
     specialImage: "ARC041",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -29628,7 +29634,7 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     
     
     
-    keywords: [Keyword.ArcaneBarrier,Keyword.BladeBreak,Keyword.Opt,Keyword.GoAgain],
+    keywords: [Keyword.ArcaneBarrier,Keyword.BladeBreak,Keyword.GoAgain,Keyword.Opt],
     
     
     
@@ -29647,12 +29653,6 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     defaultImage: "ARC042",
     name: "Bull's Eye Bracers",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB102",
-      image: "",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP226",
       image: "1HP226.width-450",
@@ -29682,11 +29682,17 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
       image: "U-ARC042",
       set: Release.ArcaneRising,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB102",
+      image: "",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB102","1HP226","ARC042"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos],
     specialImage: "ARC042",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
@@ -29753,9 +29759,9 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP229","ARC043"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC043-RF",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -29820,7 +29826,7 @@ If Red in the Ledger hits a hero, they can't play or activate more than 1 action
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP232","ARC044"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC044",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -29887,9 +29893,9 @@ If Red in the Ledger hits a hero, they can't play or activate more than 1 action
     rarities: [Rarity.Majestic,Rarity.SuperRare],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP228","ARC045"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC045",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -29952,7 +29958,7 @@ If Red in the Ledger hits a hero, they can't play or activate more than 1 action
     rarities: [Rarity.Majestic,Rarity.SuperRare],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP231","ARC046"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC046-RF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -29971,7 +29977,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     
     
     
-    keywords: [Keyword.Specialization,Keyword.Reload,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Reload,Keyword.Specialization],
     
     
     pitch: 3,
@@ -30034,7 +30040,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     
     
     
-    keywords: [Keyword.Reload,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Reload],
     
     
     pitch: 2,
@@ -30086,7 +30092,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP234","ARC048"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC048",
     subtypes: [],
     types: [Type.DefenseReaction],
@@ -30151,7 +30157,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP235","ARC049"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC049",
     subtypes: [],
     types: [Type.DefenseReaction],
@@ -30216,7 +30222,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP236","ARC050"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC050",
     subtypes: [],
     types: [Type.DefenseReaction],
@@ -30432,12 +30438,6 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     name: "Take Aim",
     printings: [{
       
-      identifier: "LXI028",
-      image: "LXI028.width-450",
-      set: Release.LexiBlitzDeck,
-      
-    },{
-      
       identifier: "1HP237",
       image: "1HP237.width-450",
       set: Release.HistoryPack1,
@@ -30466,11 +30466,17 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
       image: "U-ARC054",
       set: Release.ArcaneRising,
       
+    },{
+      
+      identifier: "LXI028",
+      image: "LXI028.width-450",
+      set: Release.LexiBlitzDeck,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LXI028","1HP237","ARC054"],
-    sets: [Release.LexiBlitzDeck,Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.LexiBlitzDeck],
     specialImage: "ARC054",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -30487,7 +30493,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     
     
     
-    keywords: [Keyword.Reload,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Reload],
     
     
     pitch: 1,
@@ -30539,7 +30545,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP238","ARC055"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC055",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -30556,7 +30562,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     
     
     
-    keywords: [Keyword.Reload,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Reload],
     
     
     pitch: 2,
@@ -30608,7 +30614,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP239","ARC056"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC056",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -30625,7 +30631,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     
     
     
-    keywords: [Keyword.Reload,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Reload],
     
     
     pitch: 3,
@@ -30677,9 +30683,9 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP240","ARC057"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC057",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -30742,9 +30748,9 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP241","ARC058"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC058",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -30807,9 +30813,9 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP242","ARC059"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC059",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -30868,7 +30874,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     setIdentifiers: ["ARC060"],
     sets: [Release.ArcaneRising],
     specialImage: "ARC060",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -30927,7 +30933,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     setIdentifiers: ["ARC061"],
     sets: [Release.ArcaneRising],
     specialImage: "ARC061",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -30986,7 +30992,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     setIdentifiers: ["ARC062"],
     sets: [Release.ArcaneRising],
     specialImage: "ARC062",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -31049,9 +31055,9 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP243","ARC063"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC063-RF",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -31114,9 +31120,9 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP244","ARC064"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC064-RF",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -31179,9 +31185,9 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP245","ARC065"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC065-RF",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -31256,9 +31262,9 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP246","ARC066","AZL011","RIP017"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising,Release.AzaleaBlitzDeck,Release.RiptideBlitzDeck],
+    sets: [Release.ArcaneRising,Release.AzaleaBlitzDeck,Release.HistoryPack1,Release.RiptideBlitzDeck],
     specialImage: "ARC066",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -31321,9 +31327,9 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP247","ARC067"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC067",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -31386,9 +31392,9 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP248","ARC068"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC068",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -31457,9 +31463,9 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP249","ARC069","RIP018"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising,Release.RiptideBlitzDeck],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.RiptideBlitzDeck],
     specialImage: "ARC069",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -31522,9 +31528,9 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP250","ARC070"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC070",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -31587,9 +31593,9 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP251","ARC071"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC071",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -31620,18 +31626,6 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     name: "Sic 'Em Shot",
     printings: [{
       
-      identifier: "LGS014",
-      image: "LGS014",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
-      foiling: Foiling.R,
-      identifier: "LGS035",
-      image: "LGS035",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
-      
       identifier: "1HP252",
       image: "1HP252.width-450",
       set: Release.HistoryPack1,
@@ -31660,13 +31654,25 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
       image: "U-ARC072",
       set: Release.ArcaneRising,
       
+    },{
+      
+      identifier: "LGS014",
+      image: "LGS014",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS035",
+      image: "LGS035",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS014","LGS035","1HP252","ARC072"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos],
     specialImage: "LGS014",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -31696,12 +31702,6 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     defaultImage: "ARC073",
     name: "Sic 'Em Shot",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS036",
-      image: "LGS036",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       
       identifier: "1HP253",
       image: "1HP253.width-450",
@@ -31731,13 +31731,19 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
       image: "U-ARC073",
       set: Release.ArcaneRising,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS036",
+      image: "LGS036",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS036","1HP253","ARC073"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos],
     specialImage: "LGS036",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -31767,12 +31773,6 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     defaultImage: "ARC074",
     name: "Sic 'Em Shot",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS037",
-      image: "LGS037",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       
       identifier: "1HP254",
       image: "1HP254.width-450",
@@ -31802,13 +31802,19 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
       image: "U-ARC074",
       set: Release.ArcaneRising,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS037",
+      image: "LGS037",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS037","1HP254","ARC074"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos],
     specialImage: "LGS037",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -31838,24 +31844,6 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     defaultImage: "CRU138",
     name: "Viserai, Rune Blood",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "HER011",
-      image: "HER011",
-      set: Release.Promos,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "HER019",
-      image: "HER019",
-      set: Release.Promos,
-      
-    },{
-      foiling: Foiling.G,
-      identifier: "WIN007",
-      image: "",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP258",
       image: "1HP258.width-450",
@@ -31885,11 +31873,29 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
       image: "U-CRU138",
       set: Release.CrucibleOfWar,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "HER011",
+      image: "HER011",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "HER019",
+      image: "HER019",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.G,
+      identifier: "WIN007",
+      image: "",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER011","HER019","WIN007","1HP258","ARC075","CRU138"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar],
+    sets: [Release.ArcaneRising,Release.CrucibleOfWar,Release.HistoryPack1,Release.Promos],
     specialImage: "ARC075",
     subtypes: [],
     types: [Type.Hero],
@@ -31921,12 +31927,6 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     defaultImage: "ARC076",
     name: "Viserai",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "HER015",
-      image: "HER015",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP259",
       image: "1HP259.width-450",
@@ -31944,11 +31944,17 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
       image: "U-ARC076",
       set: Release.ArcaneRising,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "HER015",
+      image: "HER015",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER015","1HP259","ARC076"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos],
     specialImage: "ARC076",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -31980,12 +31986,6 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     defaultImage: "CRU139",
     name: "Nebula Blade",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "LGS011",
-      image: "LGS011",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP260",
       image: "1HP260.width-450",
@@ -32015,13 +32015,19 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
       image: "U-CRU139",
       set: Release.CrucibleOfWar,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS011",
+      image: "LGS011",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS011","1HP260","ARC077","CRU139"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar],
+    sets: [Release.ArcaneRising,Release.CrucibleOfWar,Release.HistoryPack1,Release.Promos],
     specialImage: "ARC077",
-    subtypes: [Subtype.Sword,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Sword],
     types: [Type.Weapon],
     typeText: "Runeblade Weapon – Sword (2H)",
 
@@ -32055,12 +32061,6 @@ If you have played a 'non-attack' action card this turn, Nebula Blade gains +3{p
     defaultImage: "ARC078",
     name: "Grasp of the Arknight",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB010",
-      image: "FAB010",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP262",
       image: "1HP262.width-450",
@@ -32078,11 +32078,17 @@ If you have played a 'non-attack' action card this turn, Nebula Blade gains +3{p
       image: "U-ARC078",
       set: Release.ArcaneRising,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB010",
+      image: "FAB010",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB010","1HP262","ARC078"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos],
     specialImage: "ARC078",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
@@ -32149,7 +32155,7 @@ If you have played a 'non-attack' action card this turn, Nebula Blade gains +3{p
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP263","ARC079"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC079",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -32216,7 +32222,7 @@ If you have played a 'non-attack' action card this turn, Nebula Blade gains +3{p
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP265","ARC080"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC080-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -32235,7 +32241,7 @@ If Arknight Ascendency hits, create X Runechant tokens, where X is the damage de
     
     
     
-    keywords: [Keyword.Specialization,Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.Specialization],
     
     
     pitch: 1,
@@ -32287,7 +32293,7 @@ If Arknight Ascendency hits, create X Runechant tokens, where X is the damage de
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP268","ARC081"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC081",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -32413,7 +32419,7 @@ If Arknight Ascendency hits, create X Runechant tokens, where X is the damage de
     rarities: [Rarity.Majestic,Rarity.SuperRare],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP267","ARC083"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC083-RF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -32430,7 +32436,7 @@ You may discard an action card. If you discard an attack action card this way, s
     
     
     
-    keywords: [Keyword.Specialization,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Specialization],
     
     
     pitch: 3,
@@ -32543,7 +32549,7 @@ You may discard an action card. If you discard an attack action card this way, s
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP270","ARC085"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC085-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -32608,7 +32614,7 @@ You may discard an action card. If you discard an attack action card this way, s
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP271","ARC086"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC086-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -32673,7 +32679,7 @@ You may discard an action card. If you discard an attack action card this way, s
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP272","ARC087"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC087-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -32706,18 +32712,6 @@ You may discard an action card. If you discard an attack action card this way, s
     name: "Reduce to Runechant",
     printings: [{
       
-      identifier: "LGS015",
-      image: "LGS015",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
-      foiling: Foiling.R,
-      identifier: "LGS038",
-      image: "LGS038",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
-      
       identifier: "1HP273",
       image: "1HP273.width-450",
       set: Release.HistoryPack1,
@@ -32746,11 +32740,23 @@ You may discard an action card. If you discard an attack action card this way, s
       image: "U-ARC088",
       set: Release.ArcaneRising,
       
+    },{
+      
+      identifier: "LGS015",
+      image: "LGS015",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS038",
+      image: "LGS038",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS015","LGS038","1HP273","ARC088"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos],
     specialImage: "LGS015",
     subtypes: [],
     types: [Type.DefenseReaction],
@@ -32784,12 +32790,6 @@ Create a Runechant token.`,
     defaultImage: "ARC089",
     name: "Reduce to Runechant",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS039",
-      image: "LGS039",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       
       identifier: "1HP274",
       image: "1HP274.width-450",
@@ -32819,11 +32819,17 @@ Create a Runechant token.`,
       image: "U-ARC089",
       set: Release.ArcaneRising,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS039",
+      image: "LGS039",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS039","1HP274","ARC089"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos],
     specialImage: "LGS039",
     subtypes: [],
     types: [Type.DefenseReaction],
@@ -32857,12 +32863,6 @@ Create a Runechant token.`,
     defaultImage: "ARC090",
     name: "Reduce to Runechant",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS040",
-      image: "LGS040",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       
       identifier: "1HP275",
       image: "1HP275.width-450",
@@ -32892,11 +32892,17 @@ Create a Runechant token.`,
       image: "U-ARC090",
       set: Release.ArcaneRising,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS040",
+      image: "LGS040",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS040","1HP275","ARC090"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos],
     specialImage: "LGS040",
     subtypes: [],
     types: [Type.DefenseReaction],
@@ -32963,7 +32969,7 @@ Create a Runechant token.`,
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP279","ARC091"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC091-RF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -33032,7 +33038,7 @@ Create a Runechant token.
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP280","ARC092"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC092-RF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -33101,7 +33107,7 @@ Create a Runechant token.
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP281","ARC093"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC093-RF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -33170,7 +33176,7 @@ Create a Runechant token.
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP282","ARC094"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC094",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -33235,7 +33241,7 @@ Create a Runechant token.
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP283","ARC095"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC095",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -33300,7 +33306,7 @@ Create a Runechant token.
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP284","ARC096"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC096",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -33548,7 +33554,7 @@ Draw a card.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP288","ARC100"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC100",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -33615,7 +33621,7 @@ Draw a card.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP289","ARC101"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC101",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -33682,7 +33688,7 @@ Draw a card.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP290","ARC102"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC102",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -33926,7 +33932,7 @@ Draw a card.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP291","ARC106"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC106-RF",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
@@ -33995,7 +34001,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP292","ARC107"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC107-RF",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
@@ -34064,7 +34070,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP293","ARC108"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC108-RF",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
@@ -34133,7 +34139,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP294","ARC109"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC109-RF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -34198,7 +34204,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP295","ARC110"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC110-RF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -34264,7 +34270,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP296","ARC111"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC111-RF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -34296,12 +34302,6 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     defaultImage: "DTD214",
     name: "Runechant",
     printings: [{
-      
-      identifier: "DTD214",
-      image: "DTD214",
-      set: Release.DuskTillDawn,
-      
-    },{
       
       identifier: "1HP300",
       image: "1HP300.width-450",
@@ -34338,10 +34338,10 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
       set: Release.CrucibleOfWar,
       
     },{
-      edition: ReleaseEdition.First,
-      identifier: "EVR119",
-      image: "EVR119.width-450",
-      set: Release.Everfest,
+      
+      identifier: "DTD214",
+      image: "DTD214",
+      set: Release.DuskTillDawn,
       
     },{
       
@@ -34349,11 +34349,17 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
       image: "DYN191",
       set: Release.Dynasty,
       
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "EVR119",
+      image: "EVR119.width-450",
+      set: Release.Everfest,
+      
     },],
     rarities: [Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["DTD214","1HP300","ARC112","CRU157","EVR119","DYN191"],
-    sets: [Release.DuskTillDawn,Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar,Release.Everfest,Release.Dynasty],
+    sets: [Release.ArcaneRising,Release.CrucibleOfWar,Release.DuskTillDawn,Release.Dynasty,Release.Everfest,Release.HistoryPack1],
     specialImage: "CRU157-RF",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
@@ -34385,24 +34391,6 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     defaultImage: "CRU158",
     name: "Kano, Dracai of Aether",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "HER012",
-      image: "HER012",
-      set: Release.Promos,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "HER020",
-      image: "HER020",
-      set: Release.Promos,
-      
-    },{
-      foiling: Foiling.G,
-      identifier: "WIN008",
-      image: "",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP301",
       image: "1HP301.width-450",
@@ -34432,11 +34420,29 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
       image: "U-CRU158",
       set: Release.CrucibleOfWar,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "HER012",
+      image: "HER012",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "HER020",
+      image: "HER020",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.G,
+      identifier: "WIN008",
+      image: "",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER012","HER020","WIN008","1HP301","ARC113","CRU158"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar],
+    sets: [Release.ArcaneRising,Release.CrucibleOfWar,Release.HistoryPack1,Release.Promos],
     specialImage: "ARC113",
     subtypes: [],
     types: [Type.Hero],
@@ -34468,18 +34474,6 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     defaultImage: "ARC114",
     name: "Kano",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "HER016",
-      image: "HER016",
-      set: Release.Promos,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "HER072",
-      image: "HER072",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP302",
       image: "1HP302.width-450",
@@ -34497,11 +34491,23 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
       image: "U-ARC114",
       set: Release.ArcaneRising,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "HER016",
+      image: "HER016",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "HER072",
+      image: "HER072",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER016","HER072","1HP302","ARC114"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos],
     specialImage: "ARC114",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -34533,18 +34539,6 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     defaultImage: "CRU159",
     name: "Crucible of Aetherweave",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB097",
-      image: "",
-      set: Release.Promos,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "LGS012",
-      image: "LGS012",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP303",
       image: "1HP303.width-450",
@@ -34574,13 +34568,25 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
       image: "U-CRU159",
       set: Release.CrucibleOfWar,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB097",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS012",
+      image: "LGS012",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["FAB097","LGS012","1HP303","ARC115","CRU159"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising,Release.CrucibleOfWar],
+    sets: [Release.ArcaneRising,Release.CrucibleOfWar,Release.HistoryPack1,Release.Promos],
     specialImage: "ARC115",
-    subtypes: [Subtype.Staff,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Staff],
     types: [Type.Weapon],
     typeText: "Wizard Weapon – Staff (2H)",
 
@@ -34610,12 +34616,6 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     defaultImage: "ARC116",
     name: "Storm Striders",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB011",
-      image: "FAB011",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP305",
       image: "1HP305.width-450",
@@ -34633,11 +34633,17 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
       image: "U-ARC116",
       set: Release.ArcaneRising,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB011",
+      image: "FAB011",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB011","1HP305","ARC116"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos],
     specialImage: "ARC116",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -34704,7 +34710,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP306","ARC117"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC117",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -34771,7 +34777,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP308","ARC118"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC118-RF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -34838,7 +34844,7 @@ Deal X arcane damage to target hero, where X is the amount of arcane damage you 
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP312","ARC119"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC119",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -34905,7 +34911,7 @@ If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 
     rarities: [Rarity.Majestic,Rarity.SuperRare],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP310","ARC120"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC120-RF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -34970,7 +34976,7 @@ If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 
     rarities: [Rarity.Majestic,Rarity.SuperRare],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP311","ARC121"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC121-RF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -35039,7 +35045,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     rarities: [Rarity.Majestic,Rarity.SuperRare],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP313","ARC122"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC122",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -35284,7 +35290,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP314","ARC126"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC126-RF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -35351,7 +35357,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP315","ARC127"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC127-RF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -35418,7 +35424,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP316","ARC128"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC128-RF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -35485,7 +35491,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP320","ARC129"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC129",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -35550,7 +35556,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP321","ARC130"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC130",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -35615,7 +35621,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP322","ARC131"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC131",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -35680,7 +35686,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP323","ARC132"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC132",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -35747,7 +35753,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP324","ARC133"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC133",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -35814,7 +35820,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP325","ARC134"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC134",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -36058,7 +36064,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP326","ARC138"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC138",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -36125,7 +36131,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP327","ARC139"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC139",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -36192,7 +36198,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP328","ARC140"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC140",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -36259,7 +36265,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP329","ARC141"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC141",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -36324,7 +36330,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP330","ARC142"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC142",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -36389,7 +36395,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP331","ARC143"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC143",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -36454,7 +36460,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP338","ARC144"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC144",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -36519,7 +36525,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP339","ARC145"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC145",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -36584,7 +36590,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP340","ARC146"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC146",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -36617,18 +36623,6 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     name: "Voltic Bolt",
     printings: [{
       
-      identifier: "LGS016",
-      image: "LGS016",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
-      foiling: Foiling.R,
-      identifier: "LGS041",
-      image: "LGS041",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
-      
       identifier: "1HP335",
       image: "1HP335.width-450",
       set: Release.HistoryPack1,
@@ -36657,11 +36651,23 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       image: "U-ARC147",
       set: Release.ArcaneRising,
       
+    },{
+      
+      identifier: "LGS016",
+      image: "LGS016",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS041",
+      image: "LGS041",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS016","LGS041","1HP335","ARC147"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos],
     specialImage: "LGS016",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -36693,12 +36699,6 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     defaultImage: "ARC148",
     name: "Voltic Bolt",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS042",
-      image: "LGS042",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       
       identifier: "1HP336",
       image: "",
@@ -36728,11 +36728,17 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       image: "U-ARC148",
       set: Release.ArcaneRising,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS042",
+      image: "LGS042",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS042","1HP336","ARC148"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos],
     specialImage: "LGS042",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -36764,12 +36770,6 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     defaultImage: "ARC149",
     name: "Voltic Bolt",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS043",
-      image: "LGS043",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       
       identifier: "1HP337",
       image: "1HP337.width-450",
@@ -36799,11 +36799,17 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       image: "U-ARC149",
       set: Release.ArcaneRising,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS043",
+      image: "LGS043",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS043","1HP337","ARC149"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos],
     specialImage: "LGS043",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -36835,12 +36841,6 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     defaultImage: "EVR154.width-450",
     name: "Arcanite Skullcap",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB007",
-      image: "FAB007",
-      set: Release.Promos,
-      
-    },{
       edition: ReleaseEdition.First,foiling: Foiling.C,
       identifier: "ARC150",
       image: "ARC150",
@@ -36858,11 +36858,17 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       image: "EVR154.width-450",
       set: Release.Everfest,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB007",
+      image: "FAB007",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB007","ARC150","EVR154"],
-    sets: [Release.Promos,Release.ArcaneRising,Release.Everfest],
+    sets: [Release.ArcaneRising,Release.Everfest,Release.Promos],
     specialImage: "ARC150",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -36896,12 +36902,6 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     defaultImage: "ARC151",
     name: "Talismanic Lens",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB066",
-      image: "FAB066",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP354",
       image: "1HP354.width-450",
@@ -36931,11 +36931,17 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       image: "U-ARC151",
       set: Release.ArcaneRising,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB066",
+      image: "FAB066",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB066","1HP354","ARC151"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos],
     specialImage: "ARC151-CF",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -36967,12 +36973,6 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     defaultImage: "ARC152",
     name: "Vest of the First Fist",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB100",
-      image: "",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP356",
       image: "1HP356.width-450",
@@ -37002,11 +37002,17 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       image: "U-ARC152",
       set: Release.ArcaneRising,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB100",
+      image: "",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB100","1HP356","ARC152"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos],
     specialImage: "ARC152",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -37077,7 +37083,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP355","ARC153","AZL006"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising,Release.AzaleaBlitzDeck],
+    sets: [Release.ArcaneRising,Release.AzaleaBlitzDeck,Release.HistoryPack1],
     specialImage: "ARC153-CF",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
@@ -37109,12 +37115,6 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     defaultImage: "ARC154",
     name: "Mage Master Boots",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB067",
-      image: "FAB067",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP357",
       image: "1HP357.width-450",
@@ -37144,11 +37144,17 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       image: "U-ARC154",
       set: Release.ArcaneRising,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB067",
+      image: "FAB067",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB067","1HP357","ARC154"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos],
     specialImage: "ARC154",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -37180,12 +37186,6 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     defaultImage: "ARC155",
     name: "Nullrune Hood",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB068",
-      image: "FAB068",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP346",
       image: "1HP346.width-450",
@@ -37215,11 +37215,17 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       image: "U-ARC155",
       set: Release.ArcaneRising,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB068",
+      image: "FAB068",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB068","1HP346","ARC155"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos],
     specialImage: "ARC155",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -37251,12 +37257,6 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     defaultImage: "ARC156",
     name: "Nullrune Robe",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB069",
-      image: "FAB069",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP347",
       image: "1HP347.width-450",
@@ -37286,11 +37286,17 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       image: "U-ARC156",
       set: Release.ArcaneRising,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB069",
+      image: "FAB069",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB069","1HP347","ARC156"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos],
     specialImage: "ARC156",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -37322,12 +37328,6 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     defaultImage: "ARC157",
     name: "Nullrune Gloves",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB070",
-      image: "FAB070",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP348",
       image: "1HP348.width-450",
@@ -37357,11 +37357,17 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       image: "U-ARC157",
       set: Release.ArcaneRising,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB070",
+      image: "FAB070",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB070","1HP348","ARC157"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos],
     specialImage: "ARC157",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
@@ -37393,12 +37399,6 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     defaultImage: "ARC158",
     name: "Nullrune Boots",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB071",
-      image: "FAB071",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP349",
       image: "1HP349.width-450",
@@ -37428,11 +37428,17 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       image: "U-ARC158",
       set: Release.ArcaneRising,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB071",
+      image: "FAB071",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB071","1HP349","ARC158"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos],
     specialImage: "ARC158",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -37500,10 +37506,10 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
       set: Release.Dynasty,
       
     },],
-    rarities: [Rarity.Majestic,Rarity.Fabled],
+    rarities: [Rarity.Fabled,Rarity.Majestic],
     rarity: Rarity.Fabled,
     setIdentifiers: ["1HP360","ARC159","DYN000"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising,Release.Dynasty],
+    sets: [Release.ArcaneRising,Release.Dynasty,Release.HistoryPack1],
     specialImage: "ARC159",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -37570,7 +37576,7 @@ If Command and Conquer hits a hero, destroy all cards in their arsenal.`,
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP366","ARC160"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC160",
     subtypes: [],
     types: [Type.Instant],
@@ -37821,7 +37827,7 @@ At the beginning of your action phase, destroy Chains of Eminence`,
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP368","ARC164"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC164",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -37888,7 +37894,7 @@ When you play Life for a Life, if you have less {h} than an opposing hero, it ga
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP369","ARC165"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC165",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -37955,7 +37961,7 @@ When you play Life for a Life, if you have less {h} than an opposing hero, it ga
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP370","ARC166"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC166",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -38022,7 +38028,7 @@ When you play Life for a Life, if you have less {h} than an opposing hero, it ga
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP375","ARC167"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC167",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
@@ -38091,7 +38097,7 @@ At the beginning of your end phase, destroy Enchanting Melody unless you have pl
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP376","ARC168"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC168",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
@@ -38160,7 +38166,7 @@ At the beginning of your end phase, destroy Enchanting Melody unless you have pl
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP377","ARC169"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC169",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
@@ -38229,7 +38235,7 @@ At the beginning of your end phase, destroy Enchanting Melody unless you have pl
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP378","ARC170"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC170",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -38298,7 +38304,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP379","ARC171"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC171",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -38367,7 +38373,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP380","ARC172"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC172",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -38436,7 +38442,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP384","ARC173"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC173-RF",
     subtypes: [],
     types: [Type.Instant],
@@ -38501,7 +38507,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP385","ARC174"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC174-RF",
     subtypes: [],
     types: [Type.Instant],
@@ -38566,7 +38572,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP386","ARC175"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC175-RF",
     subtypes: [],
     types: [Type.Instant],
@@ -38994,7 +39000,7 @@ If Fervent Forerunner is played from arsenal, it gains **go again**.`,
     
     
     
-    keywords: [Keyword.Opt,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Opt],
     
     
     pitch: 1,
@@ -39055,7 +39061,7 @@ If Fervent Forerunner is played from arsenal, it gains **go again**.`,
     
     
     
-    keywords: [Keyword.Opt,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Opt],
     
     
     pitch: 2,
@@ -39116,7 +39122,7 @@ If Fervent Forerunner is played from arsenal, it gains **go again**.`,
     
     
     
-    keywords: [Keyword.Opt,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Opt],
     
     
     pitch: 3,
@@ -39496,12 +39502,6 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     name: "Ravenous Rabble",
     printings: [{
       
-      identifier: "DRO021",
-      image: "DRO021.width-450",
-      set: Release.DromaiBlitzDeck,
-      
-    },{
-      
       identifier: "1HP393",
       image: "1HP393.width-450",
       set: Release.HistoryPack1,
@@ -39532,15 +39532,21 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
       
     },{
       
-      identifier: "OUT213",
-      image: "OUT213.width-450",
-      set: Release.Outsiders,
-      
-    },{
-      
       identifier: "AZL017",
       image: "",
       set: Release.AzaleaBlitzDeck,
+      
+    },{
+      
+      identifier: "DRO021",
+      image: "DRO021.width-450",
+      set: Release.DromaiBlitzDeck,
+      
+    },{
+      
+      identifier: "OUT213",
+      image: "OUT213.width-450",
+      set: Release.Outsiders,
       
     },{
       
@@ -39552,7 +39558,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DRO021","1HP393","ARC191","OUT213","AZL017","RIP021"],
-    sets: [Release.DromaiBlitzDeck,Release.HistoryPack1,Release.ArcaneRising,Release.Outsiders,Release.AzaleaBlitzDeck,Release.RiptideBlitzDeck],
+    sets: [Release.ArcaneRising,Release.AzaleaBlitzDeck,Release.DromaiBlitzDeck,Release.HistoryPack1,Release.Outsiders,Release.RiptideBlitzDeck],
     specialImage: "ARC191-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -39625,7 +39631,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP394","ARC192","OUT214"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising,Release.Outsiders],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Outsiders],
     specialImage: "ARC192-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -39698,7 +39704,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP395","ARC193","OUT215"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising,Release.Outsiders],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Outsiders],
     specialImage: "ARC193-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -40086,12 +40092,6 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     defaultImage: "ARC200",
     name: "Fate Foreseen",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "FAB024",
-      image: "FAB024",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP405",
       image: "1HP405.width-450",
@@ -40121,11 +40121,17 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
       image: "U-ARC200",
       set: Release.ArcaneRising,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "FAB024",
+      image: "FAB024",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB024","1HP405","ARC200"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos],
     specialImage: "ARC200",
     subtypes: [],
     types: [Type.DefenseReaction],
@@ -40190,7 +40196,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP406","ARC201"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC201",
     subtypes: [],
     types: [Type.DefenseReaction],
@@ -40255,7 +40261,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP407","ARC202"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC202",
     subtypes: [],
     types: [Type.DefenseReaction],
@@ -40326,7 +40332,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP414","ARC203","OUT222"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising,Release.Outsiders],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Outsiders],
     specialImage: "ARC203-RF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -40399,7 +40405,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP415","ARC204","OUT223"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising,Release.Outsiders],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Outsiders],
     specialImage: "ARC204-RF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -40433,12 +40439,6 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     defaultImage: "OUT224.width-450",
     name: "Come to Fight",
     printings: [{
-      
-      identifier: "RVD024",
-      image: "RVD024.width-450",
-      set: Release.ClassicBattlesRhinarDorinthea,
-      
-    },{
       
       identifier: "1HP416",
       image: "1HP416.width-450",
@@ -40474,11 +40474,17 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
       image: "OUT224.width-450",
       set: Release.Outsiders,
       
+    },{
+      
+      identifier: "RVD024",
+      image: "RVD024.width-450",
+      set: Release.ClassicBattlesRhinarDorinthea,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["RVD024","1HP416","ARC205","OUT224"],
-    sets: [Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.ArcaneRising,Release.Outsiders],
+    sets: [Release.ArcaneRising,Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.Outsiders],
     specialImage: "ARC205-RF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -40556,7 +40562,7 @@ If Force Sight is played from arsenal, **opt 2**.
     
     
     
-    keywords: [Keyword.Opt,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Opt],
     
     
     pitch: 1,
@@ -40619,7 +40625,7 @@ If Force Sight is played from arsenal, **opt 2**.
     
     
     
-    keywords: [Keyword.Opt,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Opt],
     
     
     pitch: 2,
@@ -40682,7 +40688,7 @@ If Force Sight is played from arsenal, **opt 2**.
     
     
     
-    keywords: [Keyword.Opt,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Opt],
     
     
     pitch: 3,
@@ -41100,7 +41106,7 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP423","ARC215"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC215",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -41115,7 +41121,7 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
     
     
     
-    keywords: [Keyword.Opt,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Opt],
     
     
     pitch: 1,
@@ -41167,7 +41173,7 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP424","ARC216"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC216",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -41182,7 +41188,7 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
     
     
     
-    keywords: [Keyword.Opt,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Opt],
     
     
     pitch: 2,
@@ -41234,7 +41240,7 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP425","ARC217"],
-    sets: [Release.HistoryPack1,Release.ArcaneRising],
+    sets: [Release.ArcaneRising,Release.HistoryPack1],
     specialImage: "ARC217",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -41249,7 +41255,7 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
     
     
     
-    keywords: [Keyword.Opt,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Opt],
     
     
     pitch: 3,
@@ -41317,12 +41323,6 @@ When you pitch Arknight Shard, create a Runechant token.`,
     defaultImage: "CRU002",
     name: "Kayo, Berserker Runt",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "HER025",
-      image: "HER025",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP003",
       image: "1HP003.width-450",
@@ -41352,11 +41352,17 @@ When you pitch Arknight Shard, create a Runechant token.`,
       image: "U-CRU002",
       set: Release.CrucibleOfWar,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "HER025",
+      image: "HER025",
+      set: Release.Promos,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["HER025","1HP003","CRU002"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.Promos],
     specialImage: "CRU002",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -41455,9 +41461,9 @@ When you pitch Arknight Shard, create a Runechant token.`,
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP004","1HP005","CRU004","CRU005"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU004",
-    subtypes: [Subtype.Claw,Subtype.OneHanded],
+    subtypes: [Subtype.OneHanded,Subtype.Claw],
     types: [Type.Weapon],
     typeText: "Brute Weapon – Claw (1H)",
 
@@ -41522,7 +41528,7 @@ If you have discarded a card with 6 or more {p} this turn, Mandible Claw gains *
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP009","CRU006"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU006",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -41589,7 +41595,7 @@ If you have discarded a card with 6 or more {p} this turn, Mandible Claw gains *
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP011","CRU007"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU007",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -41654,7 +41660,7 @@ If you have discarded a card with 6 or more {p} this turn, Mandible Claw gains *
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP012","CRU008"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU008",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -42142,7 +42148,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP028","CRU016"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU016",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -42207,7 +42213,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP029","CRU017"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU017",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -42272,7 +42278,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP030","CRU018"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU018",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -42520,9 +42526,9 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP046","CRU024"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU024",
-    subtypes: [Subtype.Hammer,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Hammer],
     types: [Type.Weapon],
     typeText: "Guardian Weapon – Hammer (2H)",
 
@@ -42552,12 +42558,6 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     defaultImage: "CRU025",
     name: "Crater Fist",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB107",
-      image: "",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP049",
       image: "1HP049.width-450",
@@ -42587,11 +42587,17 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
       image: "U-CRU025",
       set: Release.CrucibleOfWar,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB107",
+      image: "",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
     setIdentifiers: ["FAB107","1HP049","CRU025"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.Promos],
     specialImage: "CRU025",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
@@ -42606,7 +42612,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     
     
     
-    keywords: [Keyword.Temper,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Temper],
     
     
     
@@ -42658,7 +42664,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP051","CRU026"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU026",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -42723,7 +42729,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP052","CRU027"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU027",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -42851,7 +42857,7 @@ At the beginning of your action phase, destroy Stamp Authority.`,
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP064","CRU029"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU029",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
@@ -42916,7 +42922,7 @@ At the beginning of your action phase, destroy Stamp Authority.`,
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP065","CRU030"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU030",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
@@ -42981,7 +42987,7 @@ At the beginning of your action phase, destroy Stamp Authority.`,
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP066","CRU031"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU031",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
@@ -43223,7 +43229,7 @@ At the beginning of your action phase, destroy Stamp Authority.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP070","CRU035"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU035",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -43288,7 +43294,7 @@ At the beginning of your action phase, destroy Stamp Authority.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP071","CRU036"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU036",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -43353,7 +43359,7 @@ At the beginning of your action phase, destroy Stamp Authority.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP072","CRU037"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU037",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -43418,7 +43424,7 @@ At the beginning of your action phase, destroy Stamp Authority.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP079","CRU038"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU038-RF",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
@@ -43483,7 +43489,7 @@ At the beginning of your action phase, destroy Stamp Authority.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP080","CRU039"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU039-RF",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
@@ -43548,7 +43554,7 @@ At the beginning of your action phase, destroy Stamp Authority.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP081","CRU040"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU040-RF",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
@@ -43757,18 +43763,6 @@ At the beginning of your action phase, destroy Stamp Authority.`,
     defaultImage: "CRU046",
     name: "Ira, Crimson Haze",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "HER000",
-      image: "HER000",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "IRA001",
-      image: "IRA001-P_EUmBrk0.width-450",
-      set: Release.IraWelcomeDeck,
-      
-    },{
       
       identifier: "1HP089",
       image: "1HP089.width-450",
@@ -43798,11 +43792,23 @@ At the beginning of your action phase, destroy Stamp Authority.`,
       image: "U-CRU046",
       set: Release.CrucibleOfWar,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "HER000",
+      image: "HER000",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "IRA001",
+      image: "IRA001-P_EUmBrk0.width-450",
+      set: Release.IraWelcomeDeck,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["HER000","IRA001","1HP089","CRU046"],
-    sets: [Release.Promos,Release.IraWelcomeDeck,Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.IraWelcomeDeck,Release.Promos],
     specialImage: "CRU046",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -43834,16 +43840,16 @@ At the beginning of your action phase, destroy Stamp Authority.`,
     defaultImage: "OUT047.width-450",
     name: "Benji, the Piercing Wind",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "HER026",
-      image: "HER026",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP088",
       image: "1HP088.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "BEN001",
+      image: "",
+      set: Release.BenjiBlitzDeck,
       
     },{
       edition: ReleaseEdition.First,
@@ -43870,22 +43876,22 @@ At the beginning of your action phase, destroy Stamp Authority.`,
       set: Release.CrucibleOfWar,
       
     },{
+      foiling: Foiling.C,
+      identifier: "HER026",
+      image: "HER026",
+      set: Release.Promos,
+      
+    },{
       
       identifier: "OUT047",
       image: "OUT047.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "BEN001",
-      image: "",
-      set: Release.BenjiBlitzDeck,
-      
     },],
-    rarities: [Rarity.Promo,Rarity.Rare,Rarity.Token,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER026","1HP088","CRU047","OUT047","BEN001"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar,Release.Outsiders,Release.BenjiBlitzDeck],
+    sets: [Release.BenjiBlitzDeck,Release.CrucibleOfWar,Release.HistoryPack1,Release.Outsiders,Release.Promos],
     specialImage: "CRU047-RF",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -43920,12 +43926,6 @@ The first time an attack action card you control hits each turn, your next attac
     name: "Edge of Autumn",
     printings: [{
       
-      identifier: "IRA002",
-      image: "IRA002-P_03Jc6pa.width-450",
-      set: Release.IraWelcomeDeck,
-      
-    },{
-      
       identifier: "1HP090",
       image: "1HP090.width-450",
       set: Release.HistoryPack1,
@@ -43954,13 +43954,19 @@ The first time an attack action card you control hits each turn, your next attac
       image: "U-CRU050",
       set: Release.CrucibleOfWar,
       
+    },{
+      
+      identifier: "IRA002",
+      image: "IRA002-P_03Jc6pa.width-450",
+      set: Release.IraWelcomeDeck,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["IRA002","1HP090","CRU050"],
-    sets: [Release.IraWelcomeDeck,Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.IraWelcomeDeck],
     specialImage: "CRU050",
-    subtypes: [Subtype.Sword,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Sword],
     types: [Type.Weapon],
     typeText: "Ninja Weapon – Sword (2H)",
 
@@ -44053,9 +44059,9 @@ The first time an attack action card you control hits each turn, your next attac
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP093","1HP094","CRU051","CRU052"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU51.width-450",
-    subtypes: [Subtype.Dagger,Subtype.OneHanded],
+    subtypes: [Subtype.OneHanded,Subtype.Dagger],
     types: [Type.Weapon],
     typeText: "Ninja Weapon – Dagger (1H)",
 
@@ -44120,7 +44126,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP097","CRU053"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU053",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -44187,7 +44193,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP098","CRU054"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU054",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -44252,7 +44258,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP099","CRU055"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU055",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -44317,7 +44323,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP100","CRU056"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU056",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -44385,7 +44391,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP107","CRU057"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU057",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -44450,7 +44456,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP108","CRU058"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU058",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -44515,7 +44521,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP109","CRU059"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU059",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -44580,7 +44586,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP110","CRU060"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU60.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -44645,7 +44651,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP111","CRU061"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU061",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -44710,7 +44716,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP112","CRU062"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU062",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -44742,12 +44748,6 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     defaultImage: "CRU063",
     name: "Flying Kick",
     printings: [{
-      
-      identifier: "IRA007",
-      image: "IRA007-P_9qjDnLM.width-450",
-      set: Release.IraWelcomeDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "CRU063",
       image: "CRU063",
@@ -44771,11 +44771,17 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
       image: "U-CRU063",
       set: Release.CrucibleOfWar,
       
+    },{
+      
+      identifier: "IRA007",
+      image: "IRA007-P_9qjDnLM.width-450",
+      set: Release.IraWelcomeDeck,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["IRA007","CRU063"],
-    sets: [Release.IraWelcomeDeck,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.IraWelcomeDeck],
     specialImage: "CRU063",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -44958,7 +44964,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP122","CRU066"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU066",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -45023,7 +45029,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP123","CRU067"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU067",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -45061,6 +45067,12 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
       set: Release.HistoryPack1,
       
     },{
+      
+      identifier: "BEN025",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
+    },{
       edition: ReleaseEdition.First,
       identifier: "CRU068",
       image: "CRU068",
@@ -45084,17 +45096,11 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
       image: "U-CRU068",
       set: Release.CrucibleOfWar,
       
-    },{
-      
-      identifier: "BEN025",
-      image: "",
-      set: Release.BenjiBlitzDeck,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP124","CRU068","BEN025"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar,Release.BenjiBlitzDeck],
+    sets: [Release.BenjiBlitzDeck,Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU068",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -45127,12 +45133,6 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     name: "Torrent of Tempo",
     printings: [{
       
-      identifier: "IRA006",
-      image: "IRA006-P_Qj0R6lE.width-450",
-      set: Release.IraWelcomeDeck,
-      
-    },{
-      
       identifier: "1HP128",
       image: "1HP128.width-450",
       set: Release.HistoryPack1,
@@ -45161,11 +45161,17 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
       image: "U-CRU069",
       set: Release.CrucibleOfWar,
       
+    },{
+      
+      identifier: "IRA006",
+      image: "IRA006-P_Qj0R6lE.width-450",
+      set: Release.IraWelcomeDeck,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["IRA006","1HP128","CRU069"],
-    sets: [Release.IraWelcomeDeck,Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.IraWelcomeDeck],
     specialImage: "CRU069",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -45230,7 +45236,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP129","CRU070"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU070",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -45295,7 +45301,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP130","CRU071"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU071",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -45328,12 +45334,6 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     name: "Bittering Thorns",
     printings: [{
       
-      identifier: "IRA005",
-      image: "IRA005-P_YAgf1In.width-450",
-      set: Release.IraWelcomeDeck,
-      
-    },{
-      
       identifier: "1HP134",
       image: "1HP134.width-450",
       set: Release.HistoryPack1,
@@ -45362,11 +45362,17 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
       image: "U-CRU072",
       set: Release.CrucibleOfWar,
       
+    },{
+      
+      identifier: "IRA005",
+      image: "IRA005-P_YAgf1In.width-450",
+      set: Release.IraWelcomeDeck,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["IRA005","1HP134","CRU072"],
-    sets: [Release.IraWelcomeDeck,Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.IraWelcomeDeck],
     specialImage: "CRU072",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -45401,15 +45407,15 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     name: "Salt the Wound",
     printings: [{
       
-      identifier: "IRA004",
-      image: "IRA004-P_c88KAnK.width-450",
-      set: Release.IraWelcomeDeck,
-      
-    },{
-      
       identifier: "1HP135",
       image: "1HP135.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "BEN020",
+      image: "",
+      set: Release.BenjiBlitzDeck,
       
     },{
       edition: ReleaseEdition.First,
@@ -45437,15 +45443,15 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
       
     },{
       
-      identifier: "BEN020",
-      image: "",
-      set: Release.BenjiBlitzDeck,
+      identifier: "IRA004",
+      image: "IRA004-P_c88KAnK.width-450",
+      set: Release.IraWelcomeDeck,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["IRA004","1HP135","CRU073","BEN020"],
-    sets: [Release.IraWelcomeDeck,Release.HistoryPack1,Release.CrucibleOfWar,Release.BenjiBlitzDeck],
+    sets: [Release.BenjiBlitzDeck,Release.CrucibleOfWar,Release.HistoryPack1,Release.IraWelcomeDeck],
     specialImage: "CRU073",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -45478,12 +45484,6 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     name: "Whirling Mist Blossom",
     printings: [{
       
-      identifier: "IRA003",
-      image: "IRA003-P_BrjByqK.width-450",
-      set: Release.IraWelcomeDeck,
-      
-    },{
-      
       identifier: "1HP136",
       image: "1HP136.width-450",
       set: Release.HistoryPack1,
@@ -45512,11 +45512,17 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
       image: "U-CRU074",
       set: Release.CrucibleOfWar,
       
+    },{
+      
+      identifier: "IRA003",
+      image: "IRA003-P_BrjByqK.width-450",
+      set: Release.IraWelcomeDeck,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["IRA003","1HP136","CRU074"],
-    sets: [Release.IraWelcomeDeck,Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.IraWelcomeDeck],
     specialImage: "CRU074-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -45533,7 +45539,7 @@ If Whirling Mist Blossom hits, and it's the second or higher chain link in a row
     
     
     
-    keywords: [Keyword.Specialization,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Specialization],
     
     
     pitch: 2,
@@ -45585,7 +45591,7 @@ If Whirling Mist Blossom hits, and it's the second or higher chain link in a row
     rarities: [Rarity.Common,Rarity.Rare],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP137","CRU075"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU075",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
@@ -45619,12 +45625,6 @@ Whenever your hero would be dealt damage, prevent 1 damage that source would dea
     defaultImage: "CRU077",
     name: "Kassai, Cintari Sellsword",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "HER029",
-      image: "HER029",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP140",
       image: "1HP140.width-450",
@@ -45654,11 +45654,17 @@ Whenever your hero would be dealt damage, prevent 1 damage that source would dea
       image: "U-CRU077",
       set: Release.CrucibleOfWar,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "HER029",
+      image: "HER029",
+      set: Release.Promos,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["HER029","1HP140","CRU077"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.Promos],
     specialImage: "CRU077-RF",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -45755,9 +45761,9 @@ At the beginning of your end phase, if you have attacked 2 or more times with we
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP141","1HP142","CRU079","CRU080"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU079",
-    subtypes: [Subtype.Sword,Subtype.OneHanded],
+    subtypes: [Subtype.OneHanded,Subtype.Sword],
     types: [Type.Weapon],
     typeText: "Warrior Weapon – Sword (1H)",
 
@@ -45789,12 +45795,6 @@ Whenever Cintari Saber is defended by 1 or more attack action cards, it gains +1
     defaultImage: "CRU081",
     name: "Courage of Bladehold",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB073",
-      image: "FAB073",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP146",
       image: "1HP146.width-450",
@@ -45824,11 +45824,17 @@ Whenever Cintari Saber is defended by 1 or more attack action cards, it gains +1
       image: "U-CRU081",
       set: Release.CrucibleOfWar,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB073",
+      image: "FAB073",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
     setIdentifiers: ["FAB073","1HP146","CRU081"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.Promos],
     specialImage: "CRU081",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -45843,7 +45849,7 @@ Whenever Cintari Saber is defended by 1 or more attack action cards, it gains +1
     
     
     
-    keywords: [Keyword.Temper,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Temper],
     
     
     
@@ -45901,7 +45907,7 @@ Whenever Cintari Saber is defended by 1 or more attack action cards, it gains +1
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP150","CRU082"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU082-EA",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -46027,7 +46033,7 @@ Whenever Cintari Saber is defended by 1 or more attack action cards, it gains +1
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP151","CRU084"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU084",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -46285,7 +46291,7 @@ The next defense reaction card the defending hero plays this turn costs an addit
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP165","CRU088"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU088",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -46320,12 +46326,6 @@ The next defense reaction card the defending hero plays this turn costs an addit
     name: "Out for Blood",
     printings: [{
       
-      identifier: "DVR020",
-      image: "DVR020.width-450",
-      set: Release.ClassicBattlesRhinarDorinthea,
-      
-    },{
-      
       identifier: "1HP166",
       image: "1HP166.width-450",
       set: Release.HistoryPack1,
@@ -46354,11 +46354,17 @@ The next defense reaction card the defending hero plays this turn costs an addit
       image: "U-CRU089",
       set: Release.CrucibleOfWar,
       
+    },{
+      
+      identifier: "DVR020",
+      image: "DVR020.width-450",
+      set: Release.ClassicBattlesRhinarDorinthea,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DVR020","1HP166","CRU089"],
-    sets: [Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.ClassicBattlesRhinarDorinthea,Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU089",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -46425,7 +46431,7 @@ The next defense reaction card the defending hero plays this turn costs an addit
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP167","CRU090"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU090",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -46492,7 +46498,7 @@ The next defense reaction card the defending hero plays this turn costs an addit
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP174","CRU091"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU091",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -46561,7 +46567,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP175","CRU092"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU092",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -46598,12 +46604,6 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
     name: "Hit and Run",
     printings: [{
       
-      identifier: "DVR021",
-      image: "DVR021.width-450",
-      set: Release.ClassicBattlesRhinarDorinthea,
-      
-    },{
-      
       identifier: "1HP176",
       image: "1HP176.width-450",
       set: Release.HistoryPack1,
@@ -46632,11 +46632,17 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
       image: "U-CRU093",
       set: Release.CrucibleOfWar,
       
+    },{
+      
+      identifier: "DVR021",
+      image: "DVR021.width-450",
+      set: Release.ClassicBattlesRhinarDorinthea,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DVR021","1HP176","CRU093"],
-    sets: [Release.ClassicBattlesRhinarDorinthea,Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.ClassicBattlesRhinarDorinthea,Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU093",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -46722,7 +46728,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains *
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.GoAgain],
     
     
     pitch: 1,
@@ -46785,7 +46791,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains *
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.GoAgain],
     
     
     pitch: 2,
@@ -46848,7 +46854,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains *
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.GoAgain],
     
     
     pitch: 3,
@@ -46916,12 +46922,6 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
     defaultImage: "CRU099",
     name: "Data Doll MKII",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "HER027",
-      image: "HER027",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP182",
       image: "1HP182.width-450",
@@ -46951,11 +46951,17 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
       image: "U-CRU099",
       set: Release.CrucibleOfWar,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "HER027",
+      image: "HER027",
+      set: Release.Promos,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["HER027","1HP182","CRU099"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.Promos],
     specialImage: "CRU099",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -47020,9 +47026,9 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP183","CRU101"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU101",
-    subtypes: [Subtype.Gun,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Gun],
     types: [Type.Weapon],
     typeText: "Mechanologist Weapon – Gun (2H)",
 
@@ -47089,7 +47095,7 @@ X is equal to 1 plus the number of times you have **boosted** this combat chain.
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP187","CRU102"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU102",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -47278,7 +47284,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP190","CRU105"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU105",
     subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
@@ -47345,7 +47351,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP193","CRU106"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU106-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -47412,7 +47418,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP194","CRU107"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU107-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -47479,7 +47485,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP195","CRU108"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU108-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -47546,7 +47552,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP202","CRU109"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU109-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -47613,7 +47619,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP203","CRU110"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU110-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -47680,7 +47686,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP204","CRU111"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU111-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -48074,12 +48080,6 @@ Reveal the top card of your deck. If it's a Mechanologist item card with cost 0,
     defaultImage: "CRU118",
     name: "Kavdaen, Trader of Skins",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "HER028",
-      image: "HER028",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP220",
       image: "1HP220.width-450",
@@ -48109,11 +48109,17 @@ Reveal the top card of your deck. If it's a Mechanologist item card with cost 0,
       image: "U-CRU118",
       set: Release.CrucibleOfWar,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "HER028",
+      image: "HER028",
+      set: Release.Promos,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["HER028","1HP220","CRU118"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.Promos],
     specialImage: "CRU118-RF",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -48178,9 +48184,9 @@ Reveal the top card of your deck. If it's a Mechanologist item card with cost 0,
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP224","CRU121"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU121",
-    subtypes: [Subtype.Bow,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Bow],
     types: [Type.Weapon],
     typeText: "Ranger Weapon – Bow (2H)",
 
@@ -48243,7 +48249,7 @@ Reveal the top card of your deck. If it's a Mechanologist item card with cost 0,
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP227","CRU122"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU122",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -48310,9 +48316,9 @@ Reveal the top card of your deck. If it's a Mechanologist item card with cost 0,
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP230","CRU123"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU123",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -48388,7 +48394,7 @@ If Remorseless hits a hero, until the end of their next turn, whenever they play
     
     
     
-    keywords: [Keyword.Reload,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Reload],
     
     
     pitch: 2,
@@ -48440,7 +48446,7 @@ If Remorseless hits a hero, until the end of their next turn, whenever they play
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP233","CRU125"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU125",
     subtypes: [],
     types: [Type.Instant],
@@ -48504,7 +48510,7 @@ The next time your hero would be dealt damage this turn, prevent it.`,
       set: Release.Promos,
       
     },],
-    rarities: [Rarity.Rare,Rarity.Promo],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["CRU126","LGS150"],
     sets: [Release.CrucibleOfWar,Release.Promos],
@@ -48541,12 +48547,6 @@ When this defends, effects don't trigger when an attack hits this chain link unl
     defaultImage: "LGS151.width-10000",
     name: "Pitfall Trap",
     printings: [{
-      
-      identifier: "LXI029",
-      image: "LXI029.width-450",
-      set: Release.LexiBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "CRU127",
       image: "CRU127",
@@ -48576,11 +48576,17 @@ When this defends, effects don't trigger when an attack hits this chain link unl
       image: "LGS151.width-10000",
       set: Release.Promos,
       
+    },{
+      
+      identifier: "LXI029",
+      image: "LXI029.width-450",
+      set: Release.LexiBlitzDeck,
+      
     },],
-    rarities: [Rarity.Rare,Rarity.Promo],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LXI029","CRU127","LGS151"],
-    sets: [Release.LexiBlitzDeck,Release.CrucibleOfWar,Release.Promos],
+    sets: [Release.CrucibleOfWar,Release.LexiBlitzDeck,Release.Promos],
     specialImage: "LGS151.width-10000",
     subtypes: [Subtype.Trap],
     types: [Type.DefenseReaction],
@@ -48644,7 +48650,7 @@ When this defends, deal 2 damage to the attacking hero unless they pay {r}.`,
       set: Release.Promos,
       
     },],
-    rarities: [Rarity.Rare,Rarity.Promo],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["CRU128","LGS152"],
     sets: [Release.CrucibleOfWar,Release.Promos],
@@ -48710,7 +48716,7 @@ When this defends, target attack gets -2{p}, unless the attacking hero pays {r}.
     setIdentifiers: ["CRU129"],
     sets: [Release.CrucibleOfWar],
     specialImage: "CRU129",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -48769,7 +48775,7 @@ When this defends, target attack gets -2{p}, unless the attacking hero pays {r}.
     setIdentifiers: ["CRU130"],
     sets: [Release.CrucibleOfWar],
     specialImage: "CRU130",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -48828,7 +48834,7 @@ When this defends, target attack gets -2{p}, unless the attacking hero pays {r}.
     setIdentifiers: ["CRU131"],
     sets: [Release.CrucibleOfWar],
     specialImage: "CRU131",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -48891,9 +48897,9 @@ When this defends, target attack gets -2{p}, unless the attacking hero pays {r}.
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP255","CRU132"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU132-RF",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -48956,9 +48962,9 @@ When this defends, target attack gets -2{p}, unless the attacking hero pays {r}.
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP256","CRU133"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU133-RF",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -49021,9 +49027,9 @@ When this defends, target attack gets -2{p}, unless the attacking hero pays {r}.
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP257","CRU134"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU134-RF",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -49275,9 +49281,9 @@ When this defends, target attack gets -2{p}, unless the attacking hero pays {r}.
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP261","CRU140"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU140",
-    subtypes: [Subtype.Sword,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Sword],
     types: [Type.Weapon],
     typeText: "Runeblade Weapon – Sword (2H)",
 
@@ -49342,7 +49348,7 @@ If a hero has more {h} than any other hero, they can't gain {h}.`,
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP264","CRU141"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU141",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -49409,7 +49415,7 @@ If a hero has more {h} than any other hero, they can't gain {h}.`,
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP266","CRU142"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU142",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -49541,7 +49547,7 @@ If you have dealt arcane damage to an opposing hero this turn, you may play Ratt
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP269","CRU144"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU144",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
@@ -49610,7 +49616,7 @@ At the beginning of your action phase, destroy Runeblood Barrier.`,
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP276","CRU145"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU145-RF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -49677,7 +49683,7 @@ At the beginning of your action phase, destroy Runeblood Barrier.`,
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP277","CRU146"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU146-RF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -49744,7 +49750,7 @@ At the beginning of your action phase, destroy Runeblood Barrier.`,
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP278","CRU147"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU147-RF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -49994,7 +50000,7 @@ At the beginning of your action phase, destroy Runeblood Barrier.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP285","CRU151"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU151-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -50061,7 +50067,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP286","CRU152"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU152-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -50128,7 +50134,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP287","CRU153"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU153-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -50195,7 +50201,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP297","CRU154"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU154-RF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -50262,7 +50268,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP298","CRU155"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU155-RF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -50329,7 +50335,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP299","CRU156"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU156-RF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -50396,9 +50402,9 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP304","CRU160"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU160",
-    subtypes: [Subtype.Staff,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Staff],
     types: [Type.Weapon],
     typeText: "Wizard Weapon – Staff (2H)",
 
@@ -50428,12 +50434,6 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
     defaultImage: "CRU161",
     name: "Metacarpus Node",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB108",
-      image: "",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP307",
       image: "1HP307.width-450",
@@ -50463,11 +50463,17 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
       image: "CRU161_Metacarpus_Node.width-10000",
       set: Release.CrucibleOfWar,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB108",
+      image: "",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
     setIdentifiers: ["FAB108","1HP307","CRU161"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.Promos],
     specialImage: "CRU161",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
@@ -50534,7 +50540,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP309","CRU162"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU162",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -50721,7 +50727,7 @@ If you have played another Wizard 'non-attack' action card this turn, put Gaze t
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP317","CRU165"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU165",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -50790,7 +50796,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP318","CRU166"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU166",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -50859,7 +50865,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP319","CRU167"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU167",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -51294,7 +51300,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP332","CRU174"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU174",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -51361,7 +51367,7 @@ If you have played another Wizard 'non-attack' action card this turn, you may pl
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP333","CRU175"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU175",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -51428,7 +51434,7 @@ If you have played another Wizard 'non-attack' action card this turn, you may pl
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["1HP334","CRU176"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU176",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -51495,9 +51501,9 @@ If you have played another Wizard 'non-attack' action card this turn, you may pl
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["1HP367","CRU177"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU177",
-    subtypes: [Subtype.Sword,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Sword],
     types: [Type.Weapon],
     typeText: "Generic Weapon – Sword (2H)",
 
@@ -51529,12 +51535,6 @@ At the beginning of your end phase, if Talishar, the Lost Prince has 3 or more r
     defaultImage: "CRU179",
     name: "Gambler's Gloves",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB074",
-      image: "FAB074",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP358",
       image: "1HP358.width-450",
@@ -51564,11 +51564,17 @@ At the beginning of your end phase, if Talishar, the Lost Prince has 3 or more r
       image: "CRU179_Gamblers_Gloves.width-10000",
       set: Release.CrucibleOfWar,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB074",
+      image: "FAB074",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
     setIdentifiers: ["FAB074","1HP358","CRU179"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.Promos],
     specialImage: "CRU179",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
@@ -51633,7 +51639,7 @@ At the beginning of your end phase, if Talishar, the Lost Prince has 3 or more r
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP359","CRU180"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU180",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -51702,7 +51708,7 @@ At the beginning of your end phase, if Talishar, the Lost Prince has 3 or more r
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP364","CRU181"],
-    sets: [Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
     specialImage: "CRU181",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -51719,7 +51725,7 @@ Draw X cards, where X is 1 plus the number of Gorganian Tomes in all graveyards.
     
     
     
-    keywords: [Keyword.Legendary,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Legendary],
     
     
     
@@ -51981,15 +51987,9 @@ If Promise of Plenty is played from arsenal, it gains **go again**.`,
     name: "Lunging Press",
     printings: [{
       
-      identifier: "IRA011",
-      image: "IRA011-P_6omATzN.width-450",
-      set: Release.IraWelcomeDeck,
-      
-    },{
-      
-      identifier: "KSU028",
-      image: "KSU28.width-450",
-      set: Release.KatsuHeroDeck,
+      identifier: "BEN026",
+      image: "",
+      set: Release.BenjiBlitzDeck,
       
     },{
       edition: ReleaseEdition.First,
@@ -52017,9 +52017,9 @@ If Promise of Plenty is played from arsenal, it gains **go again**.`,
       
     },{
       
-      identifier: "BEN026",
-      image: "",
-      set: Release.BenjiBlitzDeck,
+      identifier: "IRA011",
+      image: "IRA011-P_6omATzN.width-450",
+      set: Release.IraWelcomeDeck,
       
     },{
       
@@ -52027,11 +52027,17 @@ If Promise of Plenty is played from arsenal, it gains **go again**.`,
       image: "",
       set: Release.KatsuBlitzDeck,
       
+    },{
+      
+      identifier: "KSU028",
+      image: "KSU28.width-450",
+      set: Release.KatsuHeroDeck,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Rare],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
     setIdentifiers: ["IRA011","KSU028","CRU186","BEN026","KAT026"],
-    sets: [Release.IraWelcomeDeck,Release.KatsuHeroDeck,Release.CrucibleOfWar,Release.BenjiBlitzDeck,Release.KatsuBlitzDeck],
+    sets: [Release.BenjiBlitzDeck,Release.CrucibleOfWar,Release.IraWelcomeDeck,Release.KatsuBlitzDeck,Release.KatsuHeroDeck],
     specialImage: "CRU186",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -52064,39 +52070,15 @@ If Promise of Plenty is played from arsenal, it gains **go again**.`,
     name: "Springboard Somersault",
     printings: [{
       
-      identifier: "BVO015",
-      image: "BVO15.width-450",
-      set: Release.BravoBlitzDeck,
-      
-    },{
-      
-      identifier: "IRA012",
-      image: "IRA012-P_kmiIZwp.width-450",
-      set: Release.IraWelcomeDeck,
-      
-    },{
-      
-      identifier: "KSU021",
-      image: "KSU21.width-450",
-      set: Release.KatsuHeroDeck,
-      
-    },{
-      
-      identifier: "RNR022",
-      image: "RNR22.width-450",
-      set: Release.RhinarHeroDeck,
-      
-    },{
-      
-      identifier: "TEA019",
-      image: "TEA19.width-450",
-      set: Release.DorintheaHeroDeck,
-      
-    },{
-      
       identifier: "1HP374",
       image: "1HP374.width-450",
       set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "BVO015",
+      image: "BVO15.width-450",
+      set: Release.BravoBlitzDeck,
       
     },{
       edition: ReleaseEdition.First,
@@ -52122,11 +52104,35 @@ If Promise of Plenty is played from arsenal, it gains **go again**.`,
       image: "U-CRU187",
       set: Release.CrucibleOfWar,
       
+    },{
+      
+      identifier: "IRA012",
+      image: "IRA012-P_kmiIZwp.width-450",
+      set: Release.IraWelcomeDeck,
+      
+    },{
+      
+      identifier: "KSU021",
+      image: "KSU21.width-450",
+      set: Release.KatsuHeroDeck,
+      
+    },{
+      
+      identifier: "RNR022",
+      image: "RNR22.width-450",
+      set: Release.RhinarHeroDeck,
+      
+    },{
+      
+      identifier: "TEA019",
+      image: "TEA19.width-450",
+      set: Release.DorintheaHeroDeck,
+      
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
     setIdentifiers: ["BVO015","IRA012","KSU021","RNR022","TEA019","1HP374","CRU187"],
-    sets: [Release.BravoBlitzDeck,Release.IraWelcomeDeck,Release.KatsuHeroDeck,Release.RhinarHeroDeck,Release.DorintheaHeroDeck,Release.HistoryPack1,Release.CrucibleOfWar],
+    sets: [Release.BravoBlitzDeck,Release.CrucibleOfWar,Release.DorintheaHeroDeck,Release.HistoryPack1,Release.IraWelcomeDeck,Release.KatsuHeroDeck,Release.RhinarHeroDeck],
     specialImage: "CRU187",
     subtypes: [],
     types: [Type.DefenseReaction],
@@ -52398,12 +52404,6 @@ Draw 2 cards.
     defaultImage: "CRU192",
     name: "Brutal Assault",
     printings: [{
-      
-      identifier: "DRO024",
-      image: "DRO024.width-450",
-      set: Release.DromaiBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "CRU192",
       image: "CRU192",
@@ -52427,11 +52427,17 @@ Draw 2 cards.
       image: "U-CRU192",
       set: Release.CrucibleOfWar,
       
+    },{
+      
+      identifier: "DRO024",
+      image: "DRO024.width-450",
+      set: Release.DromaiBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DRO024","CRU192"],
-    sets: [Release.DromaiBlitzDeck,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.DromaiBlitzDeck],
     specialImage: "CRU192",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -52522,12 +52528,6 @@ Draw 2 cards.
     defaultImage: "CRU194",
     name: "Brutal Assault",
     printings: [{
-      
-      identifier: "IRA010",
-      image: "IRA010-P_CGHBP7m.width-450",
-      set: Release.IraWelcomeDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "CRU194",
       image: "CRU194",
@@ -52551,11 +52551,17 @@ Draw 2 cards.
       image: "U-CRU194",
       set: Release.CrucibleOfWar,
       
+    },{
+      
+      identifier: "IRA010",
+      image: "IRA010-P_CGHBP7m.width-450",
+      set: Release.IraWelcomeDeck,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["IRA010","CRU194"],
-    sets: [Release.IraWelcomeDeck,Release.CrucibleOfWar],
+    sets: [Release.CrucibleOfWar,Release.IraWelcomeDeck],
     specialImage: "CRU194",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -52587,12 +52593,6 @@ Draw 2 cards.
     defaultImage: "EVR194.width-450",
     name: "Copper",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "FAB055",
-      image: "FAB055",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "1HP426",
       image: "1HP426.width-450",
@@ -52628,11 +52628,17 @@ Draw 2 cards.
       image: "EVR194.width-450",
       set: Release.Everfest,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "FAB055",
+      image: "FAB055",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB055","1HP426","CRU197","EVR194"],
-    sets: [Release.Promos,Release.HistoryPack1,Release.CrucibleOfWar,Release.Everfest],
+    sets: [Release.CrucibleOfWar,Release.Everfest,Release.HistoryPack1,Release.Promos],
     specialImage: "CRU197",
     subtypes: [Subtype.Item],
     types: [Type.Token],
@@ -52696,7 +52702,7 @@ At the beginning of each end phase, if a hero has 2 or more cards with yellow co
     
     
     
-    keywords: [Keyword.Legendary,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Legendary],
     
     
     
@@ -52739,12 +52745,6 @@ At the beginning of each end phase, if a hero has 2 or more cards with yellow co
       set: Release.Promos,
       treatment: Treatment.FA,
     },{
-      foiling: Foiling.G,
-      identifier: "WIN009",
-      image: "",
-      set: Release.Promos,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "MON001",
       image: "MON001.width-450",
@@ -52756,11 +52756,17 @@ At the beginning of each end phase, if a hero has 2 or more cards with yellow co
       image: "U-MON001.width-450",
       set: Release.Monarch,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "WIN009",
+      image: "",
+      set: Release.Promos,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER030","HER038","HER069","WIN009","MON001"],
-    sets: [Release.Promos,Release.Monarch],
+    sets: [Release.Monarch,Release.Promos],
     specialImage: "HER069_Back",
     subtypes: [],
     types: [Type.Hero],
@@ -52798,12 +52804,6 @@ At the beginning of each end phase, if a hero has 2 or more cards with yellow co
       set: Release.Promos,
       
     },{
-      foiling: Foiling.R,
-      identifier: "PSM001",
-      image: "PSM001.width-450",
-      set: Release.PrismBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "MON002",
       image: "MON002.width-450",
@@ -52815,11 +52815,17 @@ At the beginning of each end phase, if a hero has 2 or more cards with yellow co
       image: "U-MON002.width-450",
       set: Release.Monarch,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "PSM001",
+      image: "PSM001.width-450",
+      set: Release.PrismBlitzDeck,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Rare,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER034","PSM001","MON002"],
-    sets: [Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
+    sets: [Release.Monarch,Release.PrismBlitzDeck,Release.Promos],
     specialImage: "MON002.width-450",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -52881,12 +52887,12 @@ At the beginning of each end phase, if a hero has 2 or more cards with yellow co
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
     setIdentifiers: ["FAB109","MON003"],
-    sets: [Release.Promos,Release.Monarch],
+    sets: [Release.Monarch,Release.Promos],
     specialImage: "MON003.width-450",
-    subtypes: [Subtype.Scepter,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Scepter],
     types: [Type.Weapon],
     typeText: "Light Illusionist Weapon – Scepter (2H)",
 
@@ -53125,12 +53131,6 @@ If Arc Light Sentinel is in the arena when an opponent announces an attack, they
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
-      
-      identifier: "PSM008",
-      image: "PSM008.width-450",
-      set: Release.PrismBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "MON007",
       image: "MON007.width-450",
@@ -53154,11 +53154,17 @@ If Arc Light Sentinel is in the arena when an opponent announces an attack, they
       image: "U-MON007.width-450",
       set: Release.Monarch,
       
+    },{
+      
+      identifier: "PSM008",
+      image: "PSM008.width-450",
+      set: Release.PrismBlitzDeck,
+      
     },],
-    rarities: [Rarity.Rare,Rarity.Promo],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["DTD013","FAB028","PSM008","MON007"],
-    sets: [Release.DuskTillDawn,Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
+    sets: [Release.DuskTillDawn,Release.Monarch,Release.PrismBlitzDeck,Release.Promos],
     specialImage: "DTD013",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -53175,7 +53181,7 @@ If Herald of Judgment hits, put it into your hero's soul and the defending hero 
     
     
     
-    keywords: [Keyword.Specialization,Keyword.Phantasm],
+    keywords: [Keyword.Phantasm,Keyword.Specialization],
     
     
     pitch: 2,
@@ -53434,7 +53440,7 @@ If Herald of Triumph hits, put it into your hero's soul.
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["FAB025","MON011"],
-    sets: [Release.Promos,Release.Monarch],
+    sets: [Release.Monarch,Release.Promos],
     specialImage: "16984263482378r4623792.width-450",
     subtypes: [Subtype.Aura],
     types: [Type.Instant],
@@ -53474,12 +53480,6 @@ If Herald of Triumph hits, put it into your hero's soul.
       set: Release.Promos,
       
     },{
-      
-      identifier: "PSM014",
-      image: "PSM014.width-450",
-      set: Release.PrismBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "MON012",
       image: "MON012.width-450",
@@ -53503,11 +53503,17 @@ If Herald of Triumph hits, put it into your hero's soul.
       image: "U-MON012.width-450",
       set: Release.Monarch,
       
+    },{
+      
+      identifier: "PSM014",
+      image: "PSM014.width-450",
+      set: Release.PrismBlitzDeck,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["FAB026","PSM014","MON012"],
-    sets: [Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
+    sets: [Release.Monarch,Release.PrismBlitzDeck,Release.Promos],
     specialImage: "MON012.width-450",
     subtypes: [Subtype.Aura],
     types: [Type.Instant],
@@ -53547,12 +53553,6 @@ If Herald of Triumph hits, put it into your hero's soul.
       set: Release.Promos,
       
     },{
-      
-      identifier: "PSM015",
-      image: "PSM015.width-450",
-      set: Release.PrismBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "MON013",
       image: "MON013.width-450",
@@ -53576,11 +53576,17 @@ If Herald of Triumph hits, put it into your hero's soul.
       image: "U-MON013.width-450",
       set: Release.Monarch,
       
+    },{
+      
+      identifier: "PSM015",
+      image: "PSM015.width-450",
+      set: Release.PrismBlitzDeck,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["FAB027","PSM015","MON013"],
-    sets: [Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
+    sets: [Release.Monarch,Release.PrismBlitzDeck,Release.Promos],
     specialImage: "MON013.width-450",
     subtypes: [Subtype.Aura],
     types: [Type.Instant],
@@ -53597,7 +53603,7 @@ Illusionist attack action cards you control have **go again**.
     
     
     
-    keywords: [Keyword.Spectra,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Spectra],
     
     
     pitch: 2,
@@ -53628,12 +53634,6 @@ Illusionist attack action cards you control have **go again**.
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
-      
-      identifier: "PSM009",
-      image: "PSM009.width-450",
-      set: Release.PrismBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "MON014",
       image: "MON014.width-450",
@@ -53657,11 +53657,17 @@ Illusionist attack action cards you control have **go again**.
       image: "U-MON014.width-450",
       set: Release.Monarch,
       
+    },{
+      
+      identifier: "PSM009",
+      image: "PSM009.width-450",
+      set: Release.PrismBlitzDeck,
+      
     },],
-    rarities: [Rarity.Rare,Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
     setIdentifiers: ["DTD014","FAB029","PSM009","MON014"],
-    sets: [Release.DuskTillDawn,Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
+    sets: [Release.DuskTillDawn,Release.Monarch,Release.PrismBlitzDeck,Release.Promos],
     specialImage: "DTD014",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -53731,10 +53737,10 @@ Illusionist attack action cards you control have **go again**.
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Rare,Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
     setIdentifiers: ["DTD015","FAB030","MON015"],
-    sets: [Release.DuskTillDawn,Release.Promos,Release.Monarch],
+    sets: [Release.DuskTillDawn,Release.Monarch,Release.Promos],
     specialImage: "DTD015",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -53780,12 +53786,6 @@ Illusionist attack action cards you control have **go again**.
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
-      
-      identifier: "PSM016",
-      image: "PSM016.width-450",
-      set: Release.PrismBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "MON016",
       image: "MON016.width-450",
@@ -53809,11 +53809,17 @@ Illusionist attack action cards you control have **go again**.
       image: "U-MON016.width-450",
       set: Release.Monarch,
       
+    },{
+      
+      identifier: "PSM016",
+      image: "PSM016.width-450",
+      set: Release.PrismBlitzDeck,
+      
     },],
-    rarities: [Rarity.Rare,Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
     setIdentifiers: ["DTD016","FAB031","PSM016","MON016"],
-    sets: [Release.DuskTillDawn,Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
+    sets: [Release.DuskTillDawn,Release.Monarch,Release.PrismBlitzDeck,Release.Promos],
     specialImage: "DTD016",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -53853,12 +53859,6 @@ Illusionist attack action cards you control have **go again**.
       set: Release.DuskTillDawn,
       treatment: Treatment.EA,
     },{
-      
-      identifier: "PSM010",
-      image: "PSM010.width-450",
-      set: Release.PrismBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "MON017",
       image: "9986165132..223435430.width-450",
@@ -53882,11 +53882,17 @@ Illusionist attack action cards you control have **go again**.
       image: "U-MON017.width-450",
       set: Release.Monarch,
       
+    },{
+      
+      identifier: "PSM010",
+      image: "PSM010.width-450",
+      set: Release.PrismBlitzDeck,
+      
     },],
-    rarities: [Rarity.Rare,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Rare],
     rarity: Rarity.Common,
     setIdentifiers: ["DTD017","PSM010","MON017"],
-    sets: [Release.DuskTillDawn,Release.PrismBlitzDeck,Release.Monarch],
+    sets: [Release.DuskTillDawn,Release.Monarch,Release.PrismBlitzDeck],
     specialImage: "DTD017",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -53950,7 +53956,7 @@ Illusionist attack action cards you control have **go again**.
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Rare,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Rare],
     rarity: Rarity.Common,
     setIdentifiers: ["DTD018","MON018"],
     sets: [Release.DuskTillDawn,Release.Monarch],
@@ -53993,12 +53999,6 @@ Illusionist attack action cards you control have **go again**.
       set: Release.DuskTillDawn,
       treatment: Treatment.EA,
     },{
-      
-      identifier: "PSM017",
-      image: "PSM017.width-450",
-      set: Release.PrismBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "MON019",
       image: "456b443654yteb65764.width-450",
@@ -54022,11 +54022,17 @@ Illusionist attack action cards you control have **go again**.
       image: "U-MON019.width-450",
       set: Release.Monarch,
       
+    },{
+      
+      identifier: "PSM017",
+      image: "PSM017.width-450",
+      set: Release.PrismBlitzDeck,
+      
     },],
-    rarities: [Rarity.Rare,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Rare],
     rarity: Rarity.Common,
     setIdentifiers: ["DTD019","PSM017","MON019"],
-    sets: [Release.DuskTillDawn,Release.PrismBlitzDeck,Release.Monarch],
+    sets: [Release.DuskTillDawn,Release.Monarch,Release.PrismBlitzDeck],
     specialImage: "DTD019",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -54072,12 +54078,6 @@ Illusionist attack action cards you control have **go again**.
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
-      
-      identifier: "PSM011",
-      image: "PSM011.width-450",
-      set: Release.PrismBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "MON020",
       image: "MON020.width-450",
@@ -54101,11 +54101,17 @@ Illusionist attack action cards you control have **go again**.
       image: "U_MON020.width-450",
       set: Release.Monarch,
       
+    },{
+      
+      identifier: "PSM011",
+      image: "PSM011.width-450",
+      set: Release.PrismBlitzDeck,
+      
     },],
-    rarities: [Rarity.Rare,Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
     setIdentifiers: ["DTD020","FAB032","PSM011","MON020"],
-    sets: [Release.DuskTillDawn,Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
+    sets: [Release.DuskTillDawn,Release.Monarch,Release.PrismBlitzDeck,Release.Promos],
     specialImage: "DTD020",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -54175,10 +54181,10 @@ Illusionist attack action cards you control have **go again**.
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Rare,Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
     setIdentifiers: ["DTD021","FAB033","MON021"],
-    sets: [Release.DuskTillDawn,Release.Promos,Release.Monarch],
+    sets: [Release.DuskTillDawn,Release.Monarch,Release.Promos],
     specialImage: "DTD021",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -54224,12 +54230,6 @@ Illusionist attack action cards you control have **go again**.
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
-      
-      identifier: "PSM018",
-      image: "PSM018.width-450",
-      set: Release.PrismBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "MON022",
       image: "MON022.width-450",
@@ -54253,11 +54253,17 @@ Illusionist attack action cards you control have **go again**.
       image: "U-MON022.width-450",
       set: Release.Monarch,
       
+    },{
+      
+      identifier: "PSM018",
+      image: "PSM018.width-450",
+      set: Release.PrismBlitzDeck,
+      
     },],
-    rarities: [Rarity.Rare,Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
     setIdentifiers: ["DTD022","FAB034","PSM018","MON022"],
-    sets: [Release.DuskTillDawn,Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
+    sets: [Release.DuskTillDawn,Release.Monarch,Release.PrismBlitzDeck,Release.Promos],
     specialImage: "DTD022",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -54297,12 +54303,6 @@ Illusionist attack action cards you control have **go again**.
       set: Release.DuskTillDawn,
       treatment: Treatment.EA,
     },{
-      
-      identifier: "PSM012",
-      image: "PSM012.width-450",
-      set: Release.PrismBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "MON023",
       image: "MON023.width-450",
@@ -54326,11 +54326,17 @@ Illusionist attack action cards you control have **go again**.
       image: "U-MON023.width-450",
       set: Release.Monarch,
       
+    },{
+      
+      identifier: "PSM012",
+      image: "PSM012.width-450",
+      set: Release.PrismBlitzDeck,
+      
     },],
-    rarities: [Rarity.Rare,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Rare],
     rarity: Rarity.Common,
     setIdentifiers: ["DTD023","PSM012","MON023"],
-    sets: [Release.DuskTillDawn,Release.PrismBlitzDeck,Release.Monarch],
+    sets: [Release.DuskTillDawn,Release.Monarch,Release.PrismBlitzDeck],
     specialImage: "DTD023",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -54396,7 +54402,7 @@ If Herald of Tenacity hits, put it into your hero's soul.
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Rare,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Rare],
     rarity: Rarity.Common,
     setIdentifiers: ["DTD024","MON024"],
     sets: [Release.DuskTillDawn,Release.Monarch],
@@ -54441,12 +54447,6 @@ If Herald of Tenacity hits, put it into your hero's soul.
       set: Release.DuskTillDawn,
       treatment: Treatment.EA,
     },{
-      
-      identifier: "PSM019",
-      image: "PSM019.width-450",
-      set: Release.PrismBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "MON025",
       image: "MON025.width-450",
@@ -54470,11 +54470,17 @@ If Herald of Tenacity hits, put it into your hero's soul.
       image: "U-MON025.width-450",
       set: Release.Monarch,
       
+    },{
+      
+      identifier: "PSM019",
+      image: "PSM019.width-450",
+      set: Release.PrismBlitzDeck,
+      
     },],
-    rarities: [Rarity.Rare,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Rare],
     rarity: Rarity.Common,
     setIdentifiers: ["DTD025","PSM019","MON025"],
-    sets: [Release.DuskTillDawn,Release.PrismBlitzDeck,Release.Monarch],
+    sets: [Release.DuskTillDawn,Release.Monarch,Release.PrismBlitzDeck],
     specialImage: "DTD025",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -54522,12 +54528,6 @@ If Herald of Tenacity hits, put it into your hero's soul.
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
-      
-      identifier: "PSM013",
-      image: "PSM013.width-450",
-      set: Release.PrismBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "MON026",
       image: "MON026.width-450",
@@ -54551,11 +54551,17 @@ If Herald of Tenacity hits, put it into your hero's soul.
       image: "U-MON026.width-450",
       set: Release.Monarch,
       
+    },{
+      
+      identifier: "PSM013",
+      image: "PSM013.width-450",
+      set: Release.PrismBlitzDeck,
+      
     },],
-    rarities: [Rarity.Rare,Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
     setIdentifiers: ["DTD029","FAB035","PSM013","MON026"],
-    sets: [Release.DuskTillDawn,Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
+    sets: [Release.DuskTillDawn,Release.Monarch,Release.PrismBlitzDeck,Release.Promos],
     specialImage: "DTD029",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -54625,10 +54631,10 @@ If Herald of Tenacity hits, put it into your hero's soul.
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Rare,Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
     setIdentifiers: ["DTD030","FAB036","MON027"],
-    sets: [Release.DuskTillDawn,Release.Promos,Release.Monarch],
+    sets: [Release.DuskTillDawn,Release.Monarch,Release.Promos],
     specialImage: "DTD030",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -54674,12 +54680,6 @@ If Herald of Tenacity hits, put it into your hero's soul.
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
-      
-      identifier: "PSM020",
-      image: "PSM020.width-450",
-      set: Release.PrismBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "MON028",
       image: "MON028.width-450",
@@ -54703,11 +54703,17 @@ If Herald of Tenacity hits, put it into your hero's soul.
       image: "U-MON028.width-450",
       set: Release.Monarch,
       
+    },{
+      
+      identifier: "PSM020",
+      image: "PSM020.width-450",
+      set: Release.PrismBlitzDeck,
+      
     },],
-    rarities: [Rarity.Rare,Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
     setIdentifiers: ["DTD031","FAB037","PSM020","MON028"],
-    sets: [Release.DuskTillDawn,Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
+    sets: [Release.DuskTillDawn,Release.Monarch,Release.PrismBlitzDeck,Release.Promos],
     specialImage: "DTD031",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -54759,12 +54765,6 @@ If Herald of Tenacity hits, put it into your hero's soul.
       set: Release.Promos,
       
     },{
-      foiling: Foiling.G,
-      identifier: "WIN010",
-      image: "",
-      set: Release.Promos,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "MON029",
       image: "MON029.width-450",
@@ -54776,11 +54776,17 @@ If Herald of Tenacity hits, put it into your hero's soul.
       image: "U-MON029.width-450",
       set: Release.Monarch,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "WIN010",
+      image: "",
+      set: Release.Promos,
+      
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["DTD044","HER031","HER039","WIN010","MON029"],
-    sets: [Release.DuskTillDawn,Release.Promos,Release.Monarch],
+    sets: [Release.DuskTillDawn,Release.Monarch,Release.Promos],
     specialImage: "MON029.width-450",
     subtypes: [],
     types: [Type.Hero],
@@ -54843,7 +54849,7 @@ If Herald of Tenacity hits, put it into your hero's soul.
     setIdentifiers: ["MON031"],
     sets: [Release.Monarch],
     specialImage: "MON031.width-450",
-    subtypes: [Subtype.Sword,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Sword],
     types: [Type.Weapon],
     typeText: "Light Warrior Weapon – Sword (2H)",
 
@@ -55049,7 +55055,7 @@ If you've **charged** this turn, you may attack an additional time with each wea
     
     
     
-    keywords: [Keyword.Specialization,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Specialization],
     
     
     pitch: 2,
@@ -55118,7 +55124,7 @@ Attacks on this combat chain gain +1{p} for each Light card charged this way.`,
     
     
     
-    keywords: [Keyword.Specialization,Keyword.Charge],
+    keywords: [Keyword.Charge,Keyword.Specialization],
     
     
     pitch: 2,
@@ -56673,10 +56679,10 @@ If you've **charged** this turn, Take Flight gains **go again**.`,
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB017","MON060"],
-    sets: [Release.Promos,Release.Monarch],
+    sets: [Release.Monarch,Release.Promos],
     specialImage: "MON060.width-450",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -56710,22 +56716,16 @@ If you've **charged** this turn, Take Flight gains **go again**.`,
     defaultImage: "MON061.width-450",
     name: "Halo of Illumination",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB103",
-      image: "",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "BOL005",
       image: "BOL005.width-450",
       set: Release.BoltynBlitzDeck,
       
     },{
-      
-      identifier: "PSM004",
-      image: "PSM004.width-450",
-      set: Release.PrismBlitzDeck,
+      foiling: Foiling.G,
+      identifier: "FAB103",
+      image: "",
+      set: Release.Promos,
       
     },{
       edition: ReleaseEdition.First,
@@ -56751,11 +56751,17 @@ If you've **charged** this turn, Take Flight gains **go again**.`,
       image: "U-MON061.width-450",
       set: Release.Monarch,
       
+    },{
+      
+      identifier: "PSM004",
+      image: "PSM004.width-450",
+      set: Release.PrismBlitzDeck,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB103","BOL005","PSM004","MON061"],
-    sets: [Release.Promos,Release.BoltynBlitzDeck,Release.PrismBlitzDeck,Release.Monarch],
+    sets: [Release.BoltynBlitzDeck,Release.Monarch,Release.PrismBlitzDeck,Release.Promos],
     specialImage: "MON061.width-450",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -57395,12 +57401,6 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
     defaultImage: "MON072.width-450",
     name: "Illuminate",
     printings: [{
-      
-      identifier: "PSM021",
-      image: "PSM021.width-450",
-      set: Release.PrismBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "MON072",
       image: "MON072.width-450",
@@ -57424,11 +57424,17 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
       image: "U-MON072.width-450",
       set: Release.Monarch,
       
+    },{
+      
+      identifier: "PSM021",
+      image: "PSM021.width-450",
+      set: Release.PrismBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["PSM021","MON072"],
-    sets: [Release.PrismBlitzDeck,Release.Monarch],
+    sets: [Release.Monarch,Release.PrismBlitzDeck],
     specialImage: "MON072.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -57525,12 +57531,6 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
       set: Release.BoltynBlitzDeck,
       
     },{
-      
-      identifier: "PSM024",
-      image: "PSM024.width-450",
-      set: Release.PrismBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "MON074",
       image: "MON074.width-450",
@@ -57554,11 +57554,17 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
       image: "U-MON074.width-450",
       set: Release.Monarch,
       
+    },{
+      
+      identifier: "PSM024",
+      image: "PSM024.width-450",
+      set: Release.PrismBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BOL027","PSM024","MON074"],
-    sets: [Release.BoltynBlitzDeck,Release.PrismBlitzDeck,Release.Monarch],
+    sets: [Release.BoltynBlitzDeck,Release.Monarch,Release.PrismBlitzDeck],
     specialImage: "MON074.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -57838,12 +57844,6 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
       set: Release.BoltynBlitzDeck,
       
     },{
-      
-      identifier: "PSM023",
-      image: "PSM023.width-450",
-      set: Release.PrismBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "MON079",
       image: "MON079.width-450",
@@ -57867,11 +57867,17 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
       image: "U-MON079.width-450",
       set: Release.Monarch,
       
+    },{
+      
+      identifier: "PSM023",
+      image: "PSM023.width-450",
+      set: Release.PrismBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["BOL026","PSM023","MON079"],
-    sets: [Release.BoltynBlitzDeck,Release.PrismBlitzDeck,Release.Monarch],
+    sets: [Release.BoltynBlitzDeck,Release.Monarch,Release.PrismBlitzDeck],
     specialImage: "MON079.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -57962,12 +57968,6 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
     defaultImage: "MON081.width-450",
     name: "Seek Enlightenment",
     printings: [{
-      
-      identifier: "PSM022",
-      image: "PSM022.width-450",
-      set: Release.PrismBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "MON081",
       image: "MON081.width-450",
@@ -57991,11 +57991,17 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
       image: "U-MON081.width-450",
       set: Release.Monarch,
       
+    },{
+      
+      identifier: "PSM022",
+      image: "PSM022.width-450",
+      set: Release.PrismBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["PSM022","MON081"],
-    sets: [Release.PrismBlitzDeck,Release.Monarch],
+    sets: [Release.Monarch,Release.PrismBlitzDeck],
     specialImage: "MON081.width-450",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -58370,10 +58376,10 @@ Target attacking or defending attack action card gets -1{p}.`,
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS044","MON087"],
-    sets: [Release.Promos,Release.Monarch],
+    sets: [Release.Monarch,Release.Promos],
     specialImage: "MON087.width-450",
     subtypes: [],
     types: [Type.Instant],
@@ -58419,12 +58425,6 @@ If you have less {h} than an opposing Shadow hero, put Ray of Hope into your her
       set: Release.Promos,
       
     },{
-      
-      identifier: "PSM003",
-      image: "PSM003.width-450",
-      set: Release.PrismBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "MON088",
       image: "MON088.width-450",
@@ -58436,13 +58436,19 @@ If you have less {h} than an opposing Shadow hero, put Ray of Hope into your her
       image: "U-MON088.width-450",
       set: Release.Monarch,
       
+    },{
+      
+      identifier: "PSM003",
+      image: "PSM003.width-450",
+      set: Release.PrismBlitzDeck,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["FAB098","LGS048","PSM003","MON088"],
-    sets: [Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
+    sets: [Release.Monarch,Release.PrismBlitzDeck,Release.Promos],
     specialImage: "MON088.width-450",
-    subtypes: [Subtype.Orb,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Orb],
     types: [Type.Weapon],
     typeText: "Illusionist Weapon – Orb (2H)",
 
@@ -58490,10 +58496,10 @@ If you have less {h} than an opposing Shadow hero, put Ray of Hope into your her
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB019","MON089"],
-    sets: [Release.Promos,Release.Monarch],
+    sets: [Release.Monarch,Release.Promos],
     specialImage: "MON089.width-450",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -58529,12 +58535,6 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
     defaultImage: "MON090.width-450",
     name: "Dream Weavers",
     printings: [{
-      
-      identifier: "PSM006",
-      image: "PSM006.width-450",
-      set: Release.PrismBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "MON090",
       image: "MON090.width-450",
@@ -58558,11 +58558,17 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
       image: "U-MON090.width-450",
       set: Release.Monarch,
       
+    },{
+      
+      identifier: "PSM006",
+      image: "PSM006.width-450",
+      set: Release.PrismBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["PSM006","MON090"],
-    sets: [Release.PrismBlitzDeck,Release.Monarch],
+    sets: [Release.Monarch,Release.PrismBlitzDeck],
     specialImage: "MON090.width-450",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
@@ -58577,7 +58583,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
     
     
     
-    keywords: [Keyword.Spellvoid,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Spellvoid],
     
     
     
@@ -58657,12 +58663,6 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
     defaultImage: "MON092.width-450",
     name: "Prismatic Shield",
     printings: [{
-      
-      identifier: "PSM026",
-      image: "PSM026.width-450",
-      set: Release.PrismBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "MON092",
       image: "MON092.width-450",
@@ -58686,11 +58686,17 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
       image: "U-MON092.width-450",
       set: Release.Monarch,
       
+    },{
+      
+      identifier: "PSM026",
+      image: "PSM026.width-450",
+      set: Release.PrismBlitzDeck,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["PSM026","MON092"],
-    sets: [Release.PrismBlitzDeck,Release.Monarch],
+    sets: [Release.Monarch,Release.PrismBlitzDeck],
     specialImage: "MON092.width-450",
     subtypes: [],
     types: [Type.Instant],
@@ -58846,12 +58852,6 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
       set: Release.Promos,
       treatment: Treatment.EA,
     },{
-      
-      identifier: "PSM025",
-      image: "PSM025.width-450",
-      set: Release.PrismBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "MON095",
       image: "MON095.width-450",
@@ -58875,11 +58875,17 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
       image: "U-MON095.width-450",
       set: Release.Monarch,
       
+    },{
+      
+      identifier: "PSM025",
+      image: "PSM025.width-450",
+      set: Release.PrismBlitzDeck,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS054","PSM025","MON095"],
-    sets: [Release.Promos,Release.PrismBlitzDeck,Release.Monarch],
+    sets: [Release.Monarch,Release.PrismBlitzDeck,Release.Promos],
     specialImage: "LGS054",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -58946,7 +58952,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS055","MON096"],
-    sets: [Release.Promos,Release.Monarch],
+    sets: [Release.Monarch,Release.Promos],
     specialImage: "LGS055",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -59013,7 +59019,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS056","MON097"],
-    sets: [Release.Promos,Release.Monarch],
+    sets: [Release.Monarch,Release.Promos],
     specialImage: "LGS056",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -59112,12 +59118,6 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
     defaultImage: "MON099.width-450",
     name: "Enigma Chimera",
     printings: [{
-      
-      identifier: "PSM027",
-      image: "PSM027.width-450",
-      set: Release.PrismBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "MON099",
       image: "MON099.width-450",
@@ -59141,11 +59141,17 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
       image: "U-MON099.width-450",
       set: Release.Monarch,
       
+    },{
+      
+      identifier: "PSM027",
+      image: "PSM027.width-450",
+      set: Release.PrismBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["PSM027","MON099"],
-    sets: [Release.PrismBlitzDeck,Release.Monarch],
+    sets: [Release.Monarch,Release.PrismBlitzDeck],
     specialImage: "MON099.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -59177,12 +59183,6 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
     defaultImage: "MON100.width-450",
     name: "Enigma Chimera",
     printings: [{
-      
-      identifier: "PSM028",
-      image: "PSM028.width-450",
-      set: Release.PrismBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "MON100",
       image: "MON100.width-450",
@@ -59206,11 +59206,17 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
       image: "U-MON100.width-450",
       set: Release.Monarch,
       
+    },{
+      
+      identifier: "PSM028",
+      image: "PSM028.width-450",
+      set: Release.PrismBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["PSM028","MON100"],
-    sets: [Release.PrismBlitzDeck,Release.Monarch],
+    sets: [Release.Monarch,Release.PrismBlitzDeck],
     specialImage: "MON100.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -59290,7 +59296,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
     
     
     
-    keywords: [Keyword.Phantasm,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Phantasm],
     
     
     pitch: 1,
@@ -59351,7 +59357,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
     
     
     
-    keywords: [Keyword.Phantasm,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Phantasm],
     
     
     pitch: 2,
@@ -59370,12 +59376,6 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
     defaultImage: "MON103.width-450",
     name: "Spears of Surreality",
     printings: [{
-      
-      identifier: "PSM029",
-      image: "PSM029.width-450",
-      set: Release.PrismBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "MON103",
       image: "MON103.width-450",
@@ -59399,11 +59399,17 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
       image: "U-MON103.width-450",
       set: Release.Monarch,
       
+    },{
+      
+      identifier: "PSM029",
+      image: "PSM029.width-450",
+      set: Release.PrismBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["PSM029","MON103"],
-    sets: [Release.PrismBlitzDeck,Release.Monarch],
+    sets: [Release.Monarch,Release.PrismBlitzDeck],
     specialImage: "MON103.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -59418,7 +59424,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
     
     
     
-    keywords: [Keyword.Phantasm,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Phantasm],
     
     
     pitch: 3,
@@ -59443,28 +59449,10 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
       set: Release.DuskTillDawn,
       
     },{
-      foiling: Foiling.C,
-      identifier: "FAB082",
-      image: "FAB082",
-      set: Release.Promos,
       
-    },{
-      
-      identifier: "PSM030",
-      image: "PSM030.width-450",
-      set: Release.PrismBlitzDeck,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "MON104",
-      image: "MON104.width-450",
-      set: Release.Monarch,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "MON104",
-      image: "U-MON104.width-450",
-      set: Release.Monarch,
+      identifier: "DYN233",
+      image: "DYN233",
+      set: Release.Dynasty,
       
     },{
       edition: ReleaseEdition.First,
@@ -59479,16 +59467,34 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
       set: Release.Everfest,
       
     },{
+      foiling: Foiling.C,
+      identifier: "FAB082",
+      image: "FAB082",
+      set: Release.Promos,
       
-      identifier: "DYN233",
-      image: "DYN233",
-      set: Release.Dynasty,
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "MON104",
+      image: "MON104.width-450",
+      set: Release.Monarch,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "MON104",
+      image: "U-MON104.width-450",
+      set: Release.Monarch,
+      
+    },{
+      
+      identifier: "PSM030",
+      image: "PSM030.width-450",
+      set: Release.PrismBlitzDeck,
       
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["DTD220","FAB082","PSM030","MON104","EVR153","DYN233"],
-    sets: [Release.DuskTillDawn,Release.Promos,Release.PrismBlitzDeck,Release.Monarch,Release.Everfest,Release.Dynasty],
+    sets: [Release.DuskTillDawn,Release.Dynasty,Release.Everfest,Release.Monarch,Release.PrismBlitzDeck,Release.Promos],
     specialImage: "DYN233",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
@@ -59520,16 +59526,16 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
     defaultImage: "MON105.width-450",
     name: "Hatchet of Body",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "LGS049",
-      image: "LGS049",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "BOL003",
       image: "BOL003.width-450",
       set: Release.BoltynBlitzDeck,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS049",
+      image: "LGS049",
+      set: Release.Promos,
       
     },{
       edition: ReleaseEdition.First,
@@ -59544,12 +59550,12 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS049","BOL003","MON105"],
-    sets: [Release.Promos,Release.BoltynBlitzDeck,Release.Monarch],
+    sets: [Release.BoltynBlitzDeck,Release.Monarch,Release.Promos],
     specialImage: "MON105.width-450",
-    subtypes: [Subtype.Axe,Subtype.OneHanded],
+    subtypes: [Subtype.OneHanded,Subtype.Axe],
     types: [Type.Weapon],
     typeText: "Warrior Weapon – Axe (1H)",
 
@@ -59581,16 +59587,16 @@ Whenever you attack with Hatchet of Body, if Hatchet of Mind was the last attack
     defaultImage: "MON106.width-450",
     name: "Hatchet of Mind",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "LGS050",
-      image: "LGS050",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "BOL004",
       image: "BOL004.width-450",
       set: Release.BoltynBlitzDeck,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS050",
+      image: "LGS050",
+      set: Release.Promos,
       
     },{
       edition: ReleaseEdition.First,
@@ -59605,12 +59611,12 @@ Whenever you attack with Hatchet of Body, if Hatchet of Mind was the last attack
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS050","BOL004","MON106"],
-    sets: [Release.Promos,Release.BoltynBlitzDeck,Release.Monarch],
+    sets: [Release.BoltynBlitzDeck,Release.Monarch,Release.Promos],
     specialImage: "MON106.width-450",
-    subtypes: [Subtype.Axe,Subtype.OneHanded],
+    subtypes: [Subtype.OneHanded,Subtype.Axe],
     types: [Type.Weapon],
     typeText: "Warrior Weapon – Axe (1H)",
 
@@ -59660,10 +59666,10 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB020","MON107"],
-    sets: [Release.Promos,Release.Monarch],
+    sets: [Release.Monarch,Release.Promos],
     specialImage: "MON107.width-450",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -59812,7 +59818,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.GoAgain],
     
     
     pitch: 1,
@@ -59831,17 +59837,17 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     defaultImage: "MON110.width-450",
     name: "Dusk Path Pilgrimage",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS060",
-      image: "LGS060",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       
       identifier: "BOL029",
       image: "BOL029.width-450",
       set: Release.BoltynBlitzDeck,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS060",
+      image: "LGS060",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },{
       edition: ReleaseEdition.First,
       identifier: "MON110",
@@ -59870,7 +59876,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS060","BOL029","MON110"],
-    sets: [Release.Promos,Release.BoltynBlitzDeck,Release.Monarch],
+    sets: [Release.BoltynBlitzDeck,Release.Monarch,Release.Promos],
     specialImage: "LGS060",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -59937,7 +59943,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS061","MON111"],
-    sets: [Release.Promos,Release.Monarch],
+    sets: [Release.Monarch,Release.Promos],
     specialImage: "LGS061",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -60004,7 +60010,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS062","MON112"],
-    sets: [Release.Promos,Release.Monarch],
+    sets: [Release.Monarch,Release.Promos],
     specialImage: "LGS062",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -60428,12 +60434,6 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
       set: Release.Promos,
       
     },{
-      foiling: Foiling.G,
-      identifier: "WIN011",
-      image: "",
-      set: Release.Promos,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "MON119",
       image: "Mty2ZQtPLgqDHz9EjdOMHZOUJhISA3s8RIgr3lus4KTmVq.width-450",
@@ -60445,11 +60445,17 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
       image: "U-MON119.width-450",
       set: Release.Monarch,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "WIN011",
+      image: "",
+      set: Release.Promos,
+      
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["DTD103","HER032","HER040","WIN011","MON119"],
-    sets: [Release.DuskTillDawn,Release.Promos,Release.Monarch],
+    sets: [Release.DuskTillDawn,Release.Monarch,Release.Promos],
     specialImage: "Mty2ZQtPLgqDHz9EjdOMHZOUJhISA3s8RIgr3lus4KTmVq.width-450",
     subtypes: [],
     types: [Type.Hero],
@@ -60510,7 +60516,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     setIdentifiers: ["MON121"],
     sets: [Release.Monarch],
     specialImage: "MON121.width-450",
-    subtypes: [Subtype.Flail,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Flail],
     types: [Type.Weapon],
     typeText: "Shadow Brute Weapon – Flail (2H)",
 
@@ -61043,7 +61049,7 @@ If a card with 6 or more {p} is banished this way, Writhing Beast Hulk gains **d
     
     
     
-    keywords: [Keyword.Dominate,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.Dominate],
     
     
     pitch: 1,
@@ -61106,7 +61112,7 @@ If a card with 6 or more {p} is banished this way, Writhing Beast Hulk gains **d
     
     
     
-    keywords: [Keyword.Dominate,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.Dominate],
     
     
     pitch: 2,
@@ -61169,7 +61175,7 @@ If a card with 6 or more {p} is banished this way, Writhing Beast Hulk gains **d
     
     
     
-    keywords: [Keyword.Dominate,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.Dominate],
     
     
     pitch: 3,
@@ -61232,7 +61238,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.GoAgain],
     
     
     pitch: 1,
@@ -61295,7 +61301,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.GoAgain],
     
     
     pitch: 2,
@@ -61364,7 +61370,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.GoAgain],
     
     
     pitch: 3,
@@ -61419,10 +61425,10 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB023","LEV009","MON135"],
-    sets: [Release.Promos,Release.LeviaBlitzDeck,Release.Monarch],
+    sets: [Release.LeviaBlitzDeck,Release.Monarch,Release.Promos],
     specialImage: "MON135.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -61829,7 +61835,7 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
     
     
     pitch: 1,
@@ -61892,7 +61898,7 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
     
     
     pitch: 2,
@@ -61961,7 +61967,7 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
     
     
     pitch: 3,
@@ -62577,12 +62583,6 @@ The next Brute or Shadow attack action card you play this turn gains +2{p}.
       set: Release.Promos,
       
     },{
-      foiling: Foiling.G,
-      identifier: "WIN012",
-      image: "",
-      set: Release.Promos,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "MON153",
       image: "MON153.width-450",
@@ -62594,11 +62594,17 @@ The next Brute or Shadow attack action card you play this turn gains +2{p}.
       image: "U-MON153.width-450",
       set: Release.Monarch,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "WIN012",
+      image: "",
+      set: Release.Promos,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER033","HER041","WIN012","MON153"],
-    sets: [Release.Promos,Release.Monarch],
+    sets: [Release.Monarch,Release.Promos],
     specialImage: "MON153.width-450",
     subtypes: [],
     types: [Type.Hero],
@@ -62630,16 +62636,16 @@ The next Brute or Shadow attack action card you play this turn gains +2{p}.
     defaultImage: "MON154.width-450",
     name: "Chane",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "HER037",
-      image: "HER037",
-      set: Release.Promos,
-      
-    },{
       foiling: Foiling.R,
       identifier: "CHN001",
       image: "CHN001.width-450",
       set: Release.ChaneBlitzDeck,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "HER037",
+      image: "HER037",
+      set: Release.Promos,
       
     },{
       edition: ReleaseEdition.First,
@@ -62657,7 +62663,7 @@ The next Brute or Shadow attack action card you play this turn gains +2{p}.
     rarities: [Rarity.Promo,Rarity.Rare,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER037","CHN001","MON154"],
-    sets: [Release.Promos,Release.ChaneBlitzDeck,Release.Monarch],
+    sets: [Release.ChaneBlitzDeck,Release.Monarch,Release.Promos],
     specialImage: "MON154.width-450",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -62689,16 +62695,16 @@ The next Brute or Shadow attack action card you play this turn gains +2{p}.
     defaultImage: "MON155.width-450",
     name: "Galaxxi Black",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "LGS046",
-      image: "LGS046",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "CHN003",
       image: "CHN003.width-450",
       set: Release.ChaneBlitzDeck,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS046",
+      image: "LGS046",
+      set: Release.Promos,
       
     },{
       edition: ReleaseEdition.First,
@@ -62719,12 +62725,12 @@ The next Brute or Shadow attack action card you play this turn gains +2{p}.
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS046","CHN003","MON155"],
-    sets: [Release.Promos,Release.ChaneBlitzDeck,Release.Monarch],
+    sets: [Release.ChaneBlitzDeck,Release.Monarch,Release.Promos],
     specialImage: "MON155-CF",
-    subtypes: [Subtype.Sword,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Sword],
     types: [Type.Weapon],
     typeText: "Shadow Runeblade Weapon – Sword (2H)",
 
@@ -62802,7 +62808,7 @@ As an additional cost to play Shadow of Ursur, you may banish a card with blood 
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
     
     
     pitch: 3,
@@ -63186,7 +63192,7 @@ Reveal the top card of your deck. If it's a Runeblade card, deal 1 arcane damage
     
     
     
-    keywords: [Keyword.Opt,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Opt],
     
     
     pitch: 1,
@@ -63249,7 +63255,7 @@ Reveal the top card of your deck. If it's a Runeblade card, deal 1 arcane damage
     
     
     
-    keywords: [Keyword.Opt,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Opt],
     
     
     pitch: 2,
@@ -63312,7 +63318,7 @@ Reveal the top card of your deck. If it's a Runeblade card, deal 1 arcane damage
     
     
     
-    keywords: [Keyword.Opt,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Opt],
     
     
     pitch: 3,
@@ -63377,7 +63383,7 @@ The next attack action card with cost 2 or less you play this turns gains +1{p} 
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
     
     
     pitch: 1,
@@ -63448,7 +63454,7 @@ The next attack action card with cost 1 or less you play this turns gains +1{p} 
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
     
     
     pitch: 2,
@@ -63513,7 +63519,7 @@ The next attack action card with cost 0 you play this turns gains +1{p} and **go
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
     
     
     pitch: 3,
@@ -64362,7 +64368,7 @@ If you have dealt arcane damage to an opposing hero this turn, Rip Through Reali
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
     
     
     pitch: 1,
@@ -64425,7 +64431,7 @@ If you have dealt arcane damage to an opposing hero this turn, Rip Through Reali
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
     
     
     pitch: 2,
@@ -64488,7 +64494,7 @@ If you have dealt arcane damage to an opposing hero this turn, Rip Through Reali
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
     
     
     pitch: 3,
@@ -64559,7 +64565,7 @@ The next attack action card with cost 2 or less you play this turn gains "When y
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
     
     
     pitch: 1,
@@ -64630,7 +64636,7 @@ The next attack action card with cost 1 or less you play this turn gains "When y
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
     
     
     pitch: 2,
@@ -64695,7 +64701,7 @@ The next attack action card with cost 0 or less you play this turn gains "When y
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
     
     
     pitch: 3,
@@ -64714,16 +64720,16 @@ The next attack action card with cost 0 or less you play this turn gains "When y
     defaultImage: "MON186.width-450",
     name: "Soul Shackle",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "FAB120",
-      image: "FAB120",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "CHN030",
       image: "CHN030.width-450",
       set: Release.ChaneBlitzDeck,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "FAB120",
+      image: "FAB120",
+      set: Release.Promos,
       
     },{
       edition: ReleaseEdition.First,
@@ -64741,7 +64747,7 @@ The next attack action card with cost 0 or less you play this turn gains "When y
     rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["FAB120","CHN030","MON186"],
-    sets: [Release.Promos,Release.ChaneBlitzDeck,Release.Monarch],
+    sets: [Release.ChaneBlitzDeck,Release.Monarch,Release.Promos],
     specialImage: "MON186.width-450",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
@@ -64791,10 +64797,10 @@ The next attack action card with cost 0 or less you play this turn gains "When y
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB018","MON187"],
-    sets: [Release.Promos,Release.Monarch],
+    sets: [Release.Monarch,Release.Promos],
     specialImage: "MON187.width-450",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -64830,16 +64836,16 @@ At the start of your turn, if you have 13 or less {h}, banish Carrion Husk.
     defaultImage: "MON188.width-450",
     name: "Ebon Fold",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB072",
-      image: "FAB072",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "CHN004",
       image: "CHN004.width-450",
       set: Release.ChaneBlitzDeck,
+      
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB072",
+      image: "FAB072",
+      set: Release.Promos,
       
     },{
       
@@ -64872,10 +64878,10 @@ At the start of your turn, if you have 13 or less {h}, banish Carrion Husk.
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB072","CHN004","LEV004","MON188"],
-    sets: [Release.Promos,Release.ChaneBlitzDeck,Release.LeviaBlitzDeck,Release.Monarch],
+    sets: [Release.ChaneBlitzDeck,Release.LeviaBlitzDeck,Release.Monarch,Release.Promos],
     specialImage: "MON188.width-450",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -65561,7 +65567,7 @@ While Soul Reaping is attacking a hero with 1 or more cards in their soul, it ha
     
     
     
-    keywords: [Keyword.Legendary,Keyword.Specialization,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Legendary,Keyword.Specialization],
     
     
     pitch: 1,
@@ -65632,7 +65638,7 @@ The next attack action card you play this turn gains +3{p}.
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
     
     
     pitch: 1,
@@ -65697,7 +65703,7 @@ The next attack action card you play this turn gains +2{p}.
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
     
     
     pitch: 2,
@@ -65762,7 +65768,7 @@ The next attack action card you play this turn gains +1{p}.
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.BloodDebt],
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
     
     
     pitch: 3,
@@ -65781,17 +65787,17 @@ The next attack action card you play this turn gains +1{p}.
     defaultImage: "MON203.width-450",
     name: "Ghostly Visit",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "FAB038",
-      image: "FAB038",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       
       identifier: "CHN021",
       image: "CHN021.width-450",
       set: Release.ChaneBlitzDeck,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "FAB038",
+      image: "FAB038",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },{
       edition: ReleaseEdition.First,
       identifier: "MON203",
@@ -65817,10 +65823,10 @@ The next attack action card you play this turn gains +1{p}.
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB038","CHN021","MON203"],
-    sets: [Release.Promos,Release.ChaneBlitzDeck,Release.Monarch],
+    sets: [Release.ChaneBlitzDeck,Release.Monarch,Release.Promos],
     specialImage: "FAB038",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -65884,10 +65890,10 @@ The next attack action card you play this turn gains +1{p}.
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB039","MON204"],
-    sets: [Release.Promos,Release.Monarch],
+    sets: [Release.Monarch,Release.Promos],
     specialImage: "FAB039",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -65951,10 +65957,10 @@ The next attack action card you play this turn gains +1{p}.
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB040","MON205"],
-    sets: [Release.Promos,Release.Monarch],
+    sets: [Release.Monarch,Release.Promos],
     specialImage: "FAB040",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -66762,10 +66768,10 @@ The next attack action card you play this turn gains +1{p}.
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS045","MON218"],
-    sets: [Release.Promos,Release.Monarch],
+    sets: [Release.Monarch,Release.Promos],
     specialImage: "MON218.width-450",
     subtypes: [],
     types: [Type.Instant],
@@ -66826,9 +66832,9 @@ If you have more {h} than an opposing Light hero, you may banish an action card 
     rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["FAB021","FAB041","MON219"],
-    sets: [Release.Promos,Release.Monarch],
+    sets: [Release.Monarch,Release.Promos],
     specialImage: "FAB021",
-    subtypes: [Subtype.Demon,Subtype.Ally],
+    subtypes: [Subtype.Ally,Subtype.Demon],
     types: [Type.Token],
     typeText: "Shadow Token – Demon Ally",
 
@@ -66887,9 +66893,9 @@ Whenever Blasmophet attacks, you may banish a Shadow card from your hand. If you
     rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["FAB022","FAB042","MON220"],
-    sets: [Release.Promos,Release.Monarch],
+    sets: [Release.Monarch,Release.Promos],
     specialImage: "FAB022",
-    subtypes: [Subtype.Demon,Subtype.Ally],
+    subtypes: [Subtype.Ally,Subtype.Demon],
     types: [Type.Token],
     typeText: "Shadow Token – Demon Ally",
 
@@ -66921,16 +66927,16 @@ While Ursur is attacking a hero with 1 or more cards in their soul, the attack h
     defaultImage: "MON221.width-450",
     name: "Ravenous Meataxe",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "LGS047",
-      image: "LGS047",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "LEV003",
       image: "LEV003.width-450",
       set: Release.LeviaBlitzDeck,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS047",
+      image: "LGS047",
+      set: Release.Promos,
       
     },{
       edition: ReleaseEdition.First,
@@ -66945,12 +66951,12 @@ While Ursur is attacking a hero with 1 or more cards in their soul, the attack h
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS047","LEV003","MON221"],
-    sets: [Release.Promos,Release.LeviaBlitzDeck,Release.Monarch],
+    sets: [Release.LeviaBlitzDeck,Release.Monarch,Release.Promos],
     specialImage: "MON221.width-450",
-    subtypes: [Subtype.Axe,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Axe],
     types: [Type.Weapon],
     typeText: "Brute Weapon – Axe (2H)",
 
@@ -67076,7 +67082,7 @@ Whenever you attack with Ravenous Meataxe, draw a card then discard a random car
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS051","MON223"],
-    sets: [Release.Promos,Release.Monarch],
+    sets: [Release.Monarch,Release.Promos],
     specialImage: "LGS051",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -67143,7 +67149,7 @@ While Pulping is defended by less than 2 non-equipment cards, it has **go again*
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS052","MON224"],
-    sets: [Release.Promos,Release.Monarch],
+    sets: [Release.Monarch,Release.Promos],
     specialImage: "LGS052",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -67210,7 +67216,7 @@ While Pulping is defended by less than 2 non-equipment cards, it has **go again*
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS053","MON225"],
-    sets: [Release.Promos,Release.Monarch],
+    sets: [Release.Monarch,Release.Promos],
     specialImage: "LGS053",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -67315,12 +67321,6 @@ While Pulping is defended by less than 2 non-equipment cards, it has **go again*
       set: Release.LeviaBlitzDeck,
       
     },{
-      
-      identifier: "RVD017",
-      image: "RVD017.width-450",
-      set: Release.ClassicBattlesRhinarDorinthea,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "MON227",
       image: "MON227.width-450",
@@ -67344,11 +67344,17 @@ While Pulping is defended by less than 2 non-equipment cards, it has **go again*
       image: "U-MON227.width-450",
       set: Release.Monarch,
       
+    },{
+      
+      identifier: "RVD017",
+      image: "RVD017.width-450",
+      set: Release.ClassicBattlesRhinarDorinthea,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LEV027","RVD017","MON227"],
-    sets: [Release.LeviaBlitzDeck,Release.ClassicBattlesRhinarDorinthea,Release.Monarch],
+    sets: [Release.ClassicBattlesRhinarDorinthea,Release.LeviaBlitzDeck,Release.Monarch],
     specialImage: "MON227.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -67468,7 +67474,7 @@ While Pulping is defended by less than 2 non-equipment cards, it has **go again*
     setIdentifiers: ["MON229"],
     sets: [Release.Monarch],
     specialImage: "MON229.width-450",
-    subtypes: [Subtype.Scythe,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Scythe],
     types: [Type.Weapon],
     typeText: "Runeblade Weapon – Scythe (2H)",
 
@@ -67634,17 +67640,17 @@ Shuffle your deck. Banish Sonata Arcanix.
     defaultImage: "MON232.width-450",
     name: "Vexing Malice",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS057",
-      image: "LGS057",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       
       identifier: "CHN026",
       image: "CHN026.width-450",
       set: Release.ChaneBlitzDeck,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS057",
+      image: "LGS057",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },{
       edition: ReleaseEdition.First,
       identifier: "MON232",
@@ -67673,7 +67679,7 @@ Shuffle your deck. Banish Sonata Arcanix.
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS057","CHN026","MON232"],
-    sets: [Release.Promos,Release.ChaneBlitzDeck,Release.Monarch],
+    sets: [Release.ChaneBlitzDeck,Release.Monarch,Release.Promos],
     specialImage: "LGS057",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -67738,7 +67744,7 @@ Shuffle your deck. Banish Sonata Arcanix.
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS058","MON233"],
-    sets: [Release.Promos,Release.Monarch],
+    sets: [Release.Monarch,Release.Promos],
     specialImage: "LGS058",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -67803,7 +67809,7 @@ Shuffle your deck. Banish Sonata Arcanix.
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS059","MON234"],
-    sets: [Release.Promos,Release.Monarch],
+    sets: [Release.Monarch,Release.Promos],
     specialImage: "LGS059",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -68319,12 +68325,6 @@ Shuffle your deck. Banish Sonata Arcanix.
     defaultImage: "MON243.width-450",
     name: "Ironhide Gauntlet",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "RVD005",
-      image: "RVD005.width-450",
-      set: Release.ClassicBattlesRhinarDorinthea,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "MON243",
       image: "MON243.width-450",
@@ -68347,6 +68347,12 @@ Shuffle your deck. Banish Sonata Arcanix.
       identifier: "MON243",
       image: "U-MON243.width-450",
       set: Release.Monarch,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "RVD005",
+      image: "RVD005.width-450",
+      set: Release.ClassicBattlesRhinarDorinthea,
       
     },],
     rarities: [Rarity.Common],
@@ -68390,18 +68396,6 @@ Shuffle your deck. Banish Sonata Arcanix.
       set: Release.DromaiBlitzDeck,
       
     },{
-      
-      identifier: "OLD007",
-      image: "OLD007.width-450",
-      set: Release.OldhimBlitzDeck,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "RVD006",
-      image: "RVD006.width-450",
-      set: Release.ClassicBattlesRhinarDorinthea,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "MON244",
       image: "MON244.width-450",
@@ -68427,6 +68421,18 @@ Shuffle your deck. Banish Sonata Arcanix.
       
     },{
       
+      identifier: "OLD007",
+      image: "OLD007.width-450",
+      set: Release.OldhimBlitzDeck,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "RVD006",
+      image: "RVD006.width-450",
+      set: Release.ClassicBattlesRhinarDorinthea,
+      
+    },{
+      
       identifier: "UZU006",
       image: "",
       set: Release.UzuriBlitzDeck,
@@ -68435,7 +68441,7 @@ Shuffle your deck. Banish Sonata Arcanix.
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["DRO008","OLD007","RVD006","MON244","UZU006"],
-    sets: [Release.DromaiBlitzDeck,Release.OldhimBlitzDeck,Release.ClassicBattlesRhinarDorinthea,Release.Monarch,Release.UzuriBlitzDeck],
+    sets: [Release.ClassicBattlesRhinarDorinthea,Release.DromaiBlitzDeck,Release.Monarch,Release.OldhimBlitzDeck,Release.UzuriBlitzDeck],
     specialImage: "MON244.width-450",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -68823,6 +68829,12 @@ Shuffle your deck. Banish Sonata Arcanix.
     defaultImage: "OUT216.width-450",
     name: "Seek Horizon",
     printings: [{
+      
+      identifier: "AZL018",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
       edition: ReleaseEdition.First,
       identifier: "MON251",
       image: "MON251.width-450",
@@ -68852,17 +68864,11 @@ Shuffle your deck. Banish Sonata Arcanix.
       image: "OUT216.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "AZL018",
-      image: "",
-      set: Release.AzaleaBlitzDeck,
-      
     },],
-    rarities: [Rarity.Rare,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Rare],
     rarity: Rarity.Common,
     setIdentifiers: ["MON251","OUT216","AZL018"],
-    sets: [Release.Monarch,Release.Outsiders,Release.AzaleaBlitzDeck],
+    sets: [Release.AzaleaBlitzDeck,Release.Monarch,Release.Outsiders],
     specialImage: "MON251.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -68924,7 +68930,7 @@ Shuffle your deck. Banish Sonata Arcanix.
       set: Release.Outsiders,
       
     },],
-    rarities: [Rarity.Rare,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Rare],
     rarity: Rarity.Common,
     setIdentifiers: ["MON252","OUT217"],
     sets: [Release.Monarch,Release.Outsiders],
@@ -68989,7 +68995,7 @@ Shuffle your deck. Banish Sonata Arcanix.
       set: Release.Outsiders,
       
     },],
-    rarities: [Rarity.Rare,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Rare],
     rarity: Rarity.Common,
     setIdentifiers: ["MON253","OUT218"],
     sets: [Release.Monarch,Release.Outsiders],
@@ -70789,12 +70795,6 @@ If Overload hits, it gains **go again**.`,
       set: Release.LeviaBlitzDeck,
       
     },{
-      
-      identifier: "RVD022",
-      image: "RVD022.width-450",
-      set: Release.ClassicBattlesRhinarDorinthea,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "MON283",
       image: "MON283.width-450",
@@ -70818,11 +70818,17 @@ If Overload hits, it gains **go again**.`,
       image: "U-MON283.width-450",
       set: Release.Monarch,
       
+    },{
+      
+      identifier: "RVD022",
+      image: "RVD022.width-450",
+      set: Release.ClassicBattlesRhinarDorinthea,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LEV029","RVD022","MON283"],
-    sets: [Release.LeviaBlitzDeck,Release.ClassicBattlesRhinarDorinthea,Release.Monarch],
+    sets: [Release.ClassicBattlesRhinarDorinthea,Release.LeviaBlitzDeck,Release.Monarch],
     specialImage: "MON283.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -72185,23 +72191,23 @@ While Yinti Yanti is defending and you control an aura, it has +1{d}.`,
     defaultImage: "BOL002_Minerva_Themis.width-10000",
     name: "Minerva Themis",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "FAB044",
-      image: "FAB044",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "BOL002",
       image: "BOL002_Minerva_Themis.width-10000",
       set: Release.BoltynBlitzDeck,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "FAB044",
+      image: "FAB044",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
     setIdentifiers: ["FAB044","BOL002"],
-    sets: [Release.Promos,Release.BoltynBlitzDeck],
-    specialImage: "FAB044",
+    sets: [Release.BoltynBlitzDeck,Release.Promos],
+    specialImage: "BOL002_Minerva_Themis.width-10000",
     subtypes: [],
     types: [Type.Mentor],
     typeText: "Warrior Mentor",
@@ -72234,23 +72240,23 @@ While Minerva is face up in arsenal, 1H weapons you control have +1{p}. Whenever
     defaultImage: "CHN002_Lord_Sutcliffe.width-10000",
     name: "Lord Sutcliffe",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "FAB046",
-      image: "FAB046",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "CHN002",
       image: "CHN002_Lord_Sutcliffe.width-10000",
       set: Release.ChaneBlitzDeck,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "FAB046",
+      image: "FAB046",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
     setIdentifiers: ["FAB046","CHN002"],
-    sets: [Release.Promos,Release.ChaneBlitzDeck],
-    specialImage: "FAB046",
+    sets: [Release.ChaneBlitzDeck,Release.Promos],
+    specialImage: "CHN002_Lord_Sutcliffe.width-10000",
     subtypes: [],
     types: [Type.Mentor],
     typeText: "Runeblade Mentor",
@@ -72295,10 +72301,10 @@ While Sutcliffe is face up in arsenal, whenever you play a 'non-attack' action c
       set: Release.LeviaBlitzDeck,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
     setIdentifiers: ["FAB045","LEV002"],
-    sets: [Release.Promos,Release.LeviaBlitzDeck],
+    sets: [Release.LeviaBlitzDeck,Release.Promos],
     specialImage: "FAB045",
     subtypes: [],
     types: [Type.Mentor],
@@ -72344,10 +72350,10 @@ While Barthimont is face up in arsenal, whenever you play an attack action card,
       set: Release.PrismBlitzDeck,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
     setIdentifiers: ["FAB043","PSM002"],
-    sets: [Release.Promos,Release.PrismBlitzDeck],
+    sets: [Release.PrismBlitzDeck,Release.Promos],
     specialImage: "FAB043",
     subtypes: [],
     types: [Type.Mentor],
@@ -72415,7 +72421,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
     
     
     
-    keywords: [Keyword.Legendary,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Legendary],
     
     
     
@@ -72434,6 +72440,18 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
     defaultImage: "ELE001.width-450",
     name: "Oldhim, Grandfather of Eternity",
     printings: [{
+      edition: ReleaseEdition.First,
+      identifier: "ELE001",
+      image: "ELE001.width-450",
+      set: Release.TalesOfAria,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ELE001",
+      image: "U-ELE001.width-450",
+      set: Release.TalesOfAria,
+      
+    },{
       foiling: Foiling.C,
       identifier: "HER042",
       image: "HER042",
@@ -72450,18 +72468,6 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
       identifier: "WIN013",
       image: "",
       set: Release.Promos,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ELE001",
-      image: "ELE001.width-450",
-      set: Release.TalesOfAria,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ELE001",
-      image: "U-ELE001.width-450",
-      set: Release.TalesOfAria,
       
     },],
     rarities: [Rarity.Promo,Rarity.Token],
@@ -72501,18 +72507,6 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
     defaultImage: "ELE002.width-450",
     name: "Oldhim",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "HER045",
-      image: "HER045",
-      set: Release.Promos,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "OLD001",
-      image: "OLD001.width-450",
-      set: Release.OldhimBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE002",
       image: "ELE002.width-450",
@@ -72524,11 +72518,23 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
       image: "U-ELE002.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "HER045",
+      image: "HER045",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "OLD001",
+      image: "OLD001.width-450",
+      set: Release.OldhimBlitzDeck,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Rare,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER045","OLD001","ELE002"],
-    sets: [Release.Promos,Release.OldhimBlitzDeck,Release.TalesOfAria],
+    sets: [Release.OldhimBlitzDeck,Release.Promos,Release.TalesOfAria],
     specialImage: "ELE002.width-450",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -72591,7 +72597,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
     setIdentifiers: ["ELE003"],
     sets: [Release.TalesOfAria],
     specialImage: "ELE003.width-450",
-    subtypes: [Subtype.Hammer,Subtype.OneHanded],
+    subtypes: [Subtype.OneHanded,Subtype.Hammer],
     types: [Type.Weapon],
     typeText: "Elemental Guardian Weapon – Hammer (1H)",
 
@@ -72669,7 +72675,7 @@ If Endless Winter hits a hero, until the end of their next turn, whenever they a
     
     
     
-    keywords: [Keyword.Specialization,Keyword.Fusion],
+    keywords: [Keyword.Fusion,Keyword.Specialization],
     
     
     pitch: 1,
@@ -72730,7 +72736,7 @@ If Oaken Old was **fused**, it gains +2{p}, **dominate**, and "If this hits a he
     
     
     
-    keywords: [Keyword.Fusion,Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.Fusion],
     
     
     pitch: 1,
@@ -72873,12 +72879,6 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
     defaultImage: "ELE008.width-450",
     name: "Biting Gale",
     printings: [{
-      
-      identifier: "OLD012",
-      image: "OLD012.width-450",
-      set: Release.OldhimBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE008",
       image: "ELE008.width-450",
@@ -72901,6 +72901,12 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
       identifier: "ELE008",
       image: "U-ELE008.width-450",
       set: Release.TalesOfAria,
+      
+    },{
+      
+      identifier: "OLD012",
+      image: "OLD012.width-450",
+      set: Release.OldhimBlitzDeck,
       
     },],
     rarities: [Rarity.Rare],
@@ -73001,12 +73007,6 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
     defaultImage: "ELE010.width-450",
     name: "Turn Timber",
     printings: [{
-      
-      identifier: "OLD019",
-      image: "OLD019.width-450",
-      set: Release.OldhimBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE010",
       image: "ELE010.width-450",
@@ -73029,6 +73029,12 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
       identifier: "ELE010",
       image: "U-ELE010.width-450",
       set: Release.TalesOfAria,
+      
+    },{
+      
+      identifier: "OLD019",
+      image: "OLD019.width-450",
+      set: Release.OldhimBlitzDeck,
       
     },],
     rarities: [Rarity.Rare],
@@ -73312,12 +73318,6 @@ If Entangle was **fused**, it gains "If this hits a hero, their first attack dur
     defaultImage: "ELE015.width-450",
     name: "Entangle",
     printings: [{
-      
-      identifier: "OLD021",
-      image: "OLD021.width-450",
-      set: Release.OldhimBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE015",
       image: "ELE015.width-450",
@@ -73340,6 +73340,12 @@ If Entangle was **fused**, it gains "If this hits a hero, their first attack dur
       identifier: "ELE015",
       image: "U-ELE015.width-450",
       set: Release.TalesOfAria,
+      
+    },{
+      
+      identifier: "OLD021",
+      image: "OLD021.width-450",
+      set: Release.OldhimBlitzDeck,
       
     },],
     rarities: [Rarity.Common],
@@ -73379,12 +73385,6 @@ If Entangle was **fused**, it gains "If this hits a hero, their first attack dur
     defaultImage: "ELE016.width-450",
     name: "Glacial Footsteps",
     printings: [{
-      
-      identifier: "OLD008",
-      image: "OLD008.width-450",
-      set: Release.OldhimBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE016",
       image: "ELE016.width-450",
@@ -73408,6 +73408,12 @@ If Entangle was **fused**, it gains "If this hits a hero, their first attack dur
       image: "U-ELE016.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      
+      identifier: "OLD008",
+      image: "OLD008.width-450",
+      set: Release.OldhimBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -73427,7 +73433,7 @@ If Glacial Footsteps was **fused**, it gains **dominate**.`,
     
     
     
-    keywords: [Keyword.Fusion,Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.Fusion],
     
     
     pitch: 1,
@@ -73488,7 +73494,7 @@ If Glacial Footsteps was **fused**, it gains **dominate**.`,
     
     
     
-    keywords: [Keyword.Fusion,Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.Fusion],
     
     
     pitch: 2,
@@ -73507,12 +73513,6 @@ If Glacial Footsteps was **fused**, it gains **dominate**.`,
     defaultImage: "ELE018.width-450",
     name: "Glacial Footsteps",
     printings: [{
-      
-      identifier: "OLD010",
-      image: "OLD010.width-450",
-      set: Release.OldhimBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE018",
       image: "ELE018.width-450",
@@ -73536,6 +73536,12 @@ If Glacial Footsteps was **fused**, it gains **dominate**.`,
       image: "U-ELE018.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      
+      identifier: "OLD010",
+      image: "OLD010.width-450",
+      set: Release.OldhimBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -73555,7 +73561,7 @@ If Glacial Footsteps was **fused**, it gains **dominate**.`,
     
     
     
-    keywords: [Keyword.Fusion,Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.Fusion],
     
     
     pitch: 3,
@@ -73696,12 +73702,6 @@ If Mulch was **fused**, it gains "If this hits a hero, put a card from their ars
     defaultImage: "ELE021.width-450",
     name: "Mulch",
     printings: [{
-      
-      identifier: "OLD022",
-      image: "OLD022.width-450",
-      set: Release.OldhimBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE021",
       image: "ELE021.width-450",
@@ -73724,6 +73724,12 @@ If Mulch was **fused**, it gains "If this hits a hero, put a card from their ars
       identifier: "ELE021",
       image: "U-ELE021.width-450",
       set: Release.TalesOfAria,
+      
+    },{
+      
+      identifier: "OLD022",
+      image: "OLD022.width-450",
+      set: Release.OldhimBlitzDeck,
       
     },],
     rarities: [Rarity.Common],
@@ -73763,12 +73769,6 @@ If Mulch was **fused**, it gains "If this hits a hero, put a card from their ars
     defaultImage: "ELE022.width-450",
     name: "Snow Under",
     printings: [{
-      
-      identifier: "OLD009",
-      image: "OLD009.width-450",
-      set: Release.OldhimBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE022",
       image: "ELE022.width-450",
@@ -73791,6 +73791,12 @@ If Mulch was **fused**, it gains "If this hits a hero, put a card from their ars
       identifier: "ELE022",
       image: "U-ELE022.width-450",
       set: Release.TalesOfAria,
+      
+    },{
+      
+      identifier: "OLD009",
+      image: "OLD009.width-450",
+      set: Release.OldhimBlitzDeck,
       
     },],
     rarities: [Rarity.Common],
@@ -73891,12 +73897,6 @@ If Snow Under was **fused**, it gains "If this hits a hero, create a Frostbite t
     defaultImage: "ELE024.width-450",
     name: "Snow Under",
     printings: [{
-      
-      identifier: "OLD011",
-      image: "OLD011.width-450",
-      set: Release.OldhimBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE024",
       image: "ELE024.width-450",
@@ -73919,6 +73919,12 @@ If Snow Under was **fused**, it gains "If this hits a hero, create a Frostbite t
       identifier: "ELE024",
       image: "U-ELE024.width-450",
       set: Release.TalesOfAria,
+      
+    },{
+      
+      identifier: "OLD011",
+      image: "OLD011.width-450",
+      set: Release.OldhimBlitzDeck,
       
     },],
     rarities: [Rarity.Common],
@@ -74153,18 +74159,6 @@ At the beginning of your action phase, destroy Emerging Avalanche then the next 
     defaultImage: "ELE028.width-450",
     name: "Strength of Sequoia",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS078",
-      image: "LGS078",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
-      
-      identifier: "OLD020",
-      image: "OLD020.width-450",
-      set: Release.OldhimBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE028",
       image: "ELE028.width-450",
@@ -74188,11 +74182,23 @@ At the beginning of your action phase, destroy Emerging Avalanche then the next 
       image: "U-ELE028.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS078",
+      image: "LGS078",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      
+      identifier: "OLD020",
+      image: "OLD020.width-450",
+      set: Release.OldhimBlitzDeck,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS078","OLD020","ELE028"],
-    sets: [Release.Promos,Release.OldhimBlitzDeck,Release.TalesOfAria],
+    sets: [Release.OldhimBlitzDeck,Release.Promos,Release.TalesOfAria],
     specialImage: "LGS078",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
@@ -74295,12 +74301,6 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
     defaultImage: "ELE030.width-450",
     name: "Strength of Sequoia",
     printings: [{
-      
-      identifier: "OLD023",
-      image: "OLD023.width-450",
-      set: Release.OldhimBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE030",
       image: "ELE030.width-450",
@@ -74323,6 +74323,12 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
       identifier: "ELE030",
       image: "U-ELE030.width-450",
       set: Release.TalesOfAria,
+      
+    },{
+      
+      identifier: "OLD023",
+      image: "OLD023.width-450",
+      set: Release.OldhimBlitzDeck,
       
     },],
     rarities: [Rarity.Common],
@@ -74366,6 +74372,18 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
     defaultImage: "ELE031.width-450",
     name: "Lexi, Livewire",
     printings: [{
+      edition: ReleaseEdition.First,
+      identifier: "ELE031",
+      image: "ELE031.width-450",
+      set: Release.TalesOfAria,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ELE031",
+      image: "U-ELE031.width-450",
+      set: Release.TalesOfAria,
+      
+    },{
       foiling: Foiling.C,
       identifier: "HER043",
       image: "HER043",
@@ -74382,18 +74400,6 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
       identifier: "WIN014",
       image: "",
       set: Release.Promos,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ELE031",
-      image: "ELE031.width-450",
-      set: Release.TalesOfAria,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ELE031",
-      image: "U-ELE031.width-450",
-      set: Release.TalesOfAria,
       
     },],
     rarities: [Rarity.Promo,Rarity.Token],
@@ -74433,18 +74439,6 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
     defaultImage: "ELE032.width-450",
     name: "Lexi",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "HER046",
-      image: "HER046",
-      set: Release.Promos,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "LXI001",
-      image: "LXI001.width-450",
-      set: Release.LexiBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE032",
       image: "ELE032.width-450",
@@ -74456,11 +74450,23 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
       image: "U-ELE032.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "HER046",
+      image: "HER046",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "LXI001",
+      image: "LXI001.width-450",
+      set: Release.LexiBlitzDeck,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Rare,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER046","LXI001","ELE032"],
-    sets: [Release.Promos,Release.LexiBlitzDeck,Release.TalesOfAria],
+    sets: [Release.LexiBlitzDeck,Release.Promos,Release.TalesOfAria],
     specialImage: "ELE032.width-450",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -74494,18 +74500,6 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
     defaultImage: "ELE033.width-450",
     name: "Shiver",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "LGS067",
-      image: "LGS067",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "LXI002",
-      image: "LXI002.width-450",
-      set: Release.LexiBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE033",
       image: "ELE033.width-450",
@@ -74517,13 +74511,25 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
       image: "U-ELE033.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS067",
+      image: "LGS067",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "LXI002",
+      image: "LXI002.width-450",
+      set: Release.LexiBlitzDeck,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS067","LXI002","ELE033"],
-    sets: [Release.Promos,Release.LexiBlitzDeck,Release.TalesOfAria],
+    sets: [Release.LexiBlitzDeck,Release.Promos,Release.TalesOfAria],
     specialImage: "ELE033.width-450",
-    subtypes: [Subtype.Bow,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Bow],
     types: [Type.Weapon],
     typeText: "Elemental Ranger Weapon – Bow (2H)",
 
@@ -74556,12 +74562,6 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
     defaultImage: "ELE034.width-450",
     name: "Voltaire, Strike Twice",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB075",
-      image: "FAB075",
-      set: Release.Promos,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE034",
       image: "ELE034.width-450",
@@ -74585,13 +74585,19 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
       image: "U-ELE034.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB075",
+      image: "FAB075",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
     setIdentifiers: ["FAB075","ELE034"],
     sets: [Release.Promos,Release.TalesOfAria],
     specialImage: "ELE034.width-450",
-    subtypes: [Subtype.Bow,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Bow],
     types: [Type.Weapon],
     typeText: "Elemental Ranger Weapon – Bow (2H)",
 
@@ -74653,7 +74659,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
     setIdentifiers: ["ELE035"],
     sets: [Release.TalesOfAria],
     specialImage: "ELE035.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Elemental Ranger Action – Arrow Attack",
 
@@ -74716,7 +74722,7 @@ If Frost Lock was **fused**, it gains +1{p} and "If this hits a hero, until the 
     setIdentifiers: ["ELE036"],
     sets: [Release.TalesOfAria],
     specialImage: "ELE036.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Elemental Ranger Action – Arrow Attack",
 
@@ -74733,7 +74739,7 @@ If Light it Up deals damage to a hero equal to or greater than the number of equ
     
     
     
-    keywords: [Keyword.Specialization,Keyword.Fusion],
+    keywords: [Keyword.Fusion,Keyword.Specialization],
     
     
     pitch: 2,
@@ -74846,7 +74852,7 @@ If Ice Storm was **fused**, your next arrow attack this turn gains "If this hits
     setIdentifiers: ["ELE038"],
     sets: [Release.TalesOfAria],
     specialImage: "ELE038.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Elemental Ranger Action – Arrow Attack",
 
@@ -74907,7 +74913,7 @@ If Cold Wave was **fused**, cards and activated abilities cost opposing heroes a
     setIdentifiers: ["ELE039"],
     sets: [Release.TalesOfAria],
     specialImage: "ELE039.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Elemental Ranger Action – Arrow Attack",
 
@@ -74968,7 +74974,7 @@ If Cold Wave was **fused**, cards and activated abilities cost opposing heroes a
     setIdentifiers: ["ELE040"],
     sets: [Release.TalesOfAria],
     specialImage: "ELE040.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Elemental Ranger Action – Arrow Attack",
 
@@ -75000,12 +75006,6 @@ If Cold Wave was **fused**, cards and activated abilities cost opposing heroes a
     defaultImage: "ELE041.width-450",
     name: "Snap Shot",
     printings: [{
-      
-      identifier: "LXI010",
-      image: "LXI010.width-450",
-      set: Release.LexiBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE041",
       image: "ELE041.width-450",
@@ -75029,13 +75029,19 @@ If Cold Wave was **fused**, cards and activated abilities cost opposing heroes a
       image: "U-ELE041.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      
+      identifier: "LXI010",
+      image: "LXI010.width-450",
+      set: Release.LexiBlitzDeck,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LXI010","ELE041"],
     sets: [Release.LexiBlitzDeck,Release.TalesOfAria],
     specialImage: "ELE041.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Elemental Ranger Action – Arrow Attack",
 
@@ -75096,7 +75102,7 @@ If Snap Shot was **fused**, you may activate abilities of bows you control an ad
     setIdentifiers: ["ELE042"],
     sets: [Release.TalesOfAria],
     specialImage: "ELE042.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Elemental Ranger Action – Arrow Attack",
 
@@ -75157,7 +75163,7 @@ If Snap Shot was **fused**, you may activate abilities of bows you control an ad
     setIdentifiers: ["ELE043"],
     sets: [Release.TalesOfAria],
     specialImage: "ELE043.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Elemental Ranger Action – Arrow Attack",
 
@@ -75189,12 +75195,6 @@ If Snap Shot was **fused**, you may activate abilities of bows you control an ad
     defaultImage: "ELE044.width-450",
     name: "Blizzard Bolt",
     printings: [{
-      
-      identifier: "LXI022",
-      image: "LXI022.width-450",
-      set: Release.LexiBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE044",
       image: "ELE044.width-450",
@@ -75218,13 +75218,19 @@ If Snap Shot was **fused**, you may activate abilities of bows you control an ad
       image: "U-ELE044.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      
+      identifier: "LXI022",
+      image: "LXI022.width-450",
+      set: Release.LexiBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LXI022","ELE044"],
     sets: [Release.LexiBlitzDeck,Release.TalesOfAria],
     specialImage: "ELE044.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Elemental Ranger Action – Arrow Attack",
 
@@ -75285,7 +75291,7 @@ If Blizzard Bolt was **fused**, whenever an attack deals damage to a hero this t
     setIdentifiers: ["ELE045"],
     sets: [Release.TalesOfAria],
     specialImage: "ELE045.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Elemental Ranger Action – Arrow Attack",
 
@@ -75346,7 +75352,7 @@ If Blizzard Bolt was **fused**, whenever an attack deals damage to a hero this t
     setIdentifiers: ["ELE046"],
     sets: [Release.TalesOfAria],
     specialImage: "ELE046.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Elemental Ranger Action – Arrow Attack",
 
@@ -75378,12 +75384,6 @@ If Blizzard Bolt was **fused**, whenever an attack deals damage to a hero this t
     defaultImage: "ELE047.width-450",
     name: "Buzz Bolt",
     printings: [{
-      
-      identifier: "LXI007",
-      image: "LXI007.width-450",
-      set: Release.LexiBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE047",
       image: "ELE047.width-450",
@@ -75407,13 +75407,19 @@ If Blizzard Bolt was **fused**, whenever an attack deals damage to a hero this t
       image: "U-ELE047.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      
+      identifier: "LXI007",
+      image: "LXI007.width-450",
+      set: Release.LexiBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LXI007","ELE047"],
     sets: [Release.LexiBlitzDeck,Release.TalesOfAria],
     specialImage: "ELE047.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Elemental Ranger Action – Arrow Attack",
 
@@ -75445,12 +75451,6 @@ If Buzz Bolt was **fused**, whenever an attack hits a hero this turn, it deals 1
     defaultImage: "ELE048.width-450",
     name: "Buzz Bolt",
     printings: [{
-      
-      identifier: "LXI011",
-      image: "LXI011.width-450",
-      set: Release.LexiBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE048",
       image: "ELE048.width-450",
@@ -75474,13 +75474,19 @@ If Buzz Bolt was **fused**, whenever an attack hits a hero this turn, it deals 1
       image: "U-ELE048.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      
+      identifier: "LXI011",
+      image: "LXI011.width-450",
+      set: Release.LexiBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LXI011","ELE048"],
     sets: [Release.LexiBlitzDeck,Release.TalesOfAria],
     specialImage: "ELE048.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Elemental Ranger Action – Arrow Attack",
 
@@ -75541,7 +75547,7 @@ If Buzz Bolt was **fused**, whenever an attack hits a hero this turn, it deals 1
     setIdentifiers: ["ELE049"],
     sets: [Release.TalesOfAria],
     specialImage: "ELE049.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Elemental Ranger Action – Arrow Attack",
 
@@ -75602,7 +75608,7 @@ If Buzz Bolt was **fused**, whenever an attack hits a hero this turn, it deals 1
     setIdentifiers: ["ELE050"],
     sets: [Release.TalesOfAria],
     specialImage: "ELE050.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Elemental Ranger Action – Arrow Attack",
 
@@ -75634,12 +75640,6 @@ If Chilling Icevein was **fused**, whenever an attack deals damage to a hero thi
     defaultImage: "ELE051.width-450",
     name: "Chilling Icevein",
     printings: [{
-      
-      identifier: "LXI023",
-      image: "LXI023.width-450",
-      set: Release.LexiBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE051",
       image: "ELE051.width-450",
@@ -75663,13 +75663,19 @@ If Chilling Icevein was **fused**, whenever an attack deals damage to a hero thi
       image: "ELE051.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      
+      identifier: "LXI023",
+      image: "LXI023.width-450",
+      set: Release.LexiBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LXI023","ELE051"],
     sets: [Release.LexiBlitzDeck,Release.TalesOfAria],
     specialImage: "ELE051.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Elemental Ranger Action – Arrow Attack",
 
@@ -75730,7 +75736,7 @@ If Chilling Icevein was **fused**, whenever an attack deals damage to a hero thi
     setIdentifiers: ["ELE052"],
     sets: [Release.TalesOfAria],
     specialImage: "ELE052.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Elemental Ranger Action – Arrow Attack",
 
@@ -75762,12 +75768,6 @@ If Chilling Icevein was **fused**, whenever an attack deals damage to a hero thi
     defaultImage: "ELE053.width-450",
     name: "Dazzling Crescendo",
     printings: [{
-      
-      identifier: "LXI008",
-      image: "LXI008.width-450",
-      set: Release.LexiBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE053",
       image: "ELE053.width-450",
@@ -75791,13 +75791,19 @@ If Chilling Icevein was **fused**, whenever an attack deals damage to a hero thi
       image: "U-ELE053.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      
+      identifier: "LXI008",
+      image: "LXI008.width-450",
+      set: Release.LexiBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LXI008","ELE053"],
     sets: [Release.LexiBlitzDeck,Release.TalesOfAria],
     specialImage: "ELE053.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Elemental Ranger Action – Arrow Attack",
 
@@ -75858,7 +75864,7 @@ If Dazzling Crescendo was **fused**, it gains **go again**.`,
     setIdentifiers: ["ELE054"],
     sets: [Release.TalesOfAria],
     specialImage: "ELE054.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Elemental Ranger Action – Arrow Attack",
 
@@ -75919,7 +75925,7 @@ If Dazzling Crescendo was **fused**, it gains **go again**.`,
     setIdentifiers: ["ELE055"],
     sets: [Release.TalesOfAria],
     specialImage: "ELE055.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Elemental Ranger Action – Arrow Attack",
 
@@ -75980,7 +75986,7 @@ If Dazzling Crescendo was **fused**, it gains **go again**.`,
     setIdentifiers: ["ELE056"],
     sets: [Release.TalesOfAria],
     specialImage: "ELE056.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Elemental Ranger Action – Arrow Attack",
 
@@ -75993,7 +75999,7 @@ If Flake Out was **fused**, it gains **dominate**.`,
     
     
     
-    keywords: [Keyword.Fusion,Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.Fusion],
     
     
     pitch: 1,
@@ -76041,7 +76047,7 @@ If Flake Out was **fused**, it gains **dominate**.`,
     setIdentifiers: ["ELE057"],
     sets: [Release.TalesOfAria],
     specialImage: "ELE057.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Elemental Ranger Action – Arrow Attack",
 
@@ -76054,7 +76060,7 @@ If Flake Out was **fused**, it gains **dominate**.`,
     
     
     
-    keywords: [Keyword.Fusion,Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.Fusion],
     
     
     pitch: 2,
@@ -76102,7 +76108,7 @@ If Flake Out was **fused**, it gains **dominate**.`,
     setIdentifiers: ["ELE058"],
     sets: [Release.TalesOfAria],
     specialImage: "ELE058.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Elemental Ranger Action – Arrow Attack",
 
@@ -76115,7 +76121,7 @@ If Flake Out was **fused**, it gains **dominate**.`,
     
     
     
-    keywords: [Keyword.Fusion,Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.Fusion],
     
     
     pitch: 3,
@@ -76134,12 +76140,6 @@ If Flake Out was **fused**, it gains **dominate**.`,
     defaultImage: "ELE059.width-450",
     name: "Frazzle",
     printings: [{
-      
-      identifier: "LXI009",
-      image: "LXI009.width-450",
-      set: Release.LexiBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE059",
       image: "ELE059.width-450",
@@ -76163,13 +76163,19 @@ If Flake Out was **fused**, it gains **dominate**.`,
       image: "U-ELE059.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      
+      identifier: "LXI009",
+      image: "LXI009.width-450",
+      set: Release.LexiBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LXI009","ELE059"],
     sets: [Release.LexiBlitzDeck,Release.TalesOfAria],
     specialImage: "ELE059.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Elemental Ranger Action – Arrow Attack",
 
@@ -76201,12 +76207,6 @@ If Frazzle was **fused**, whenever an attack would deal damage this turn, instea
     defaultImage: "ELE060.width-450",
     name: "Frazzle",
     printings: [{
-      
-      identifier: "LXI012",
-      image: "LXI012.width-450",
-      set: Release.LexiBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE060",
       image: "ELE060.width-450",
@@ -76230,13 +76230,19 @@ If Frazzle was **fused**, whenever an attack would deal damage this turn, instea
       image: "U-ELE060.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      
+      identifier: "LXI012",
+      image: "LXI012.width-450",
+      set: Release.LexiBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["LXI012","ELE060"],
     sets: [Release.LexiBlitzDeck,Release.TalesOfAria],
     specialImage: "ELE060.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Elemental Ranger Action – Arrow Attack",
 
@@ -76297,7 +76303,7 @@ If Frazzle was **fused**, whenever an attack would deal damage this turn, instea
     setIdentifiers: ["ELE061"],
     sets: [Release.TalesOfAria],
     specialImage: "ELE061.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Elemental Ranger Action – Arrow Attack",
 
@@ -76329,6 +76335,18 @@ If Frazzle was **fused**, whenever an attack would deal damage this turn, instea
     defaultImage: "ELE062_Briar_errata.width-450",
     name: "Briar, Warden of Thorns",
     printings: [{
+      edition: ReleaseEdition.First,
+      identifier: "ELE062",
+      image: "ELE062_Briar_errata.width-450",
+      set: Release.TalesOfAria,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ELE062",
+      image: "U-ELE062.width-450",
+      set: Release.TalesOfAria,
+      
+    },{
       foiling: Foiling.C,
       identifier: "HER044",
       image: "HER044",
@@ -76357,18 +76375,6 @@ If Frazzle was **fused**, whenever an attack would deal damage this turn, instea
       identifier: "XXX012",
       image: "XXX012",
       set: Release.Promos,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ELE062",
-      image: "ELE062_Briar_errata.width-450",
-      set: Release.TalesOfAria,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ELE062",
-      image: "U-ELE062.width-450",
-      set: Release.TalesOfAria,
       
     },],
     rarities: [Rarity.Promo,Rarity.Token],
@@ -76410,24 +76416,6 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
     defaultImage: "ELE063_Briar_errata.width-450",
     name: "Briar",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "HER047",
-      image: "HER047",
-      set: Release.Promos,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "HER064",
-      image: "HER064",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "XXX011",
-      image: "XXX011",
-      set: Release.Promos,
-      
-    },{
       foiling: Foiling.R,
       identifier: "BRI001",
       image: "BRI001.width-450",
@@ -76445,11 +76433,29 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
       image: "U-ELE063.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "HER047",
+      image: "HER047",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "HER064",
+      image: "HER064",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "XXX011",
+      image: "XXX011",
+      set: Release.Promos,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Rare,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER047","HER064","XXX011","BRI001","ELE063"],
-    sets: [Release.Promos,Release.BriarBlitzDeck,Release.TalesOfAria],
+    sets: [Release.BriarBlitzDeck,Release.Promos,Release.TalesOfAria],
     specialImage: "ELE063_Briar_errata.width-450",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -76661,7 +76667,7 @@ If Force of Nature was fused, your next attack this turn gains +1{p}.
     
     
     
-    keywords: [Keyword.Specialization,Keyword.Fusion,Keyword.GoAgain],
+    keywords: [Keyword.Fusion,Keyword.GoAgain,Keyword.Specialization],
     
     
     pitch: 3,
@@ -77070,12 +77076,6 @@ If you have dealt arcane damage this turn, Rites of Lightning gains **go again**
     defaultImage: "ELE073.width-450",
     name: "Arcanic Shockwave",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS079",
-      image: "LGS079",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE073",
       image: "ELE073.width-450",
@@ -77099,8 +77099,14 @@ If you have dealt arcane damage this turn, Rites of Lightning gains **go again**
       image: "U-ELE073.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS079",
+      image: "LGS079",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS079","ELE073"],
     sets: [Release.Promos,Release.TalesOfAria],
@@ -77637,18 +77643,12 @@ When you attack with Rites of Replenishment, if it was **fused**, you may put an
     talents: [Talent.Elemental],
     
   },{
-    artists: ["Narendra B Adi","Marco González"],
+    artists: ["Marco González","Narendra B Adi"],
     cardIdentifier: "stir-the-wildwood-red",
     classes: [Class.Runeblade],
     defaultImage: "ELE082.width-450",
     name: "Stir the Wildwood",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "FAB047",
-      image: "FAB047",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "BRI011",
       image: "BRi0111.width-450",
@@ -77678,11 +77678,17 @@ When you attack with Rites of Replenishment, if it was **fused**, you may put an
       image: "U-ELE082.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "FAB047",
+      image: "FAB047",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB047","BRI011","ELE082"],
-    sets: [Release.Promos,Release.BriarBlitzDeck,Release.TalesOfAria],
+    sets: [Release.BriarBlitzDeck,Release.Promos,Release.TalesOfAria],
     specialImage: "ELE082.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -78351,7 +78357,7 @@ If Flashfreeze was **fused** with a Lightning card, attacks you control this tur
     
     
     
-    keywords: [Keyword.Fusion,Keyword.GoAgain,Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.Fusion,Keyword.GoAgain],
     
     
     pitch: 1,
@@ -78664,7 +78670,7 @@ If Entwine Ice was **fused**, it gains **dominate**.`,
     
     
     
-    keywords: [Keyword.Fusion,Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.Fusion],
     
     
     pitch: 1,
@@ -78725,7 +78731,7 @@ If Entwine Ice was **fused**, it gains **dominate**.`,
     
     
     
-    keywords: [Keyword.Fusion,Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.Fusion],
     
     
     pitch: 2,
@@ -78786,7 +78792,7 @@ If Entwine Ice was **fused**, it gains **dominate**.`,
     
     
     
-    keywords: [Keyword.Fusion,Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.Fusion],
     
     
     pitch: 3,
@@ -78811,12 +78817,6 @@ If Entwine Ice was **fused**, it gains **dominate**.`,
       set: Release.BriarBlitzDeck,
       
     },{
-      
-      identifier: "LXI013",
-      image: "LXI013.width-450",
-      set: Release.LexiBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE100",
       image: "ELE100.width-450",
@@ -78839,6 +78839,12 @@ If Entwine Ice was **fused**, it gains **dominate**.`,
       identifier: "ELE100",
       image: "U-ELE100.width-450",
       set: Release.TalesOfAria,
+      
+    },{
+      
+      identifier: "LXI013",
+      image: "LXI013.width-450",
+      set: Release.LexiBlitzDeck,
       
     },],
     rarities: [Rarity.Common],
@@ -79000,12 +79006,6 @@ If Entwine Lightning was **fused**, it gains **go again**.`,
     defaultImage: "ELE103.width-450",
     name: "Invigorate",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS080",
-      image: "LGS080",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE103",
       image: "ELE103.width-450",
@@ -79029,8 +79029,14 @@ If Entwine Lightning was **fused**, it gains **go again**.`,
       image: "U-ELE103.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS080",
+      image: "LGS080",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS080","ELE103"],
     sets: [Release.Promos,Release.TalesOfAria],
@@ -79067,12 +79073,6 @@ If Entwine Lightning was **fused**, it gains **go again**.`,
     defaultImage: "ELE104.width-450",
     name: "Invigorate",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS081",
-      image: "LGS081",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE104",
       image: "ELE104.width-450",
@@ -79096,8 +79096,14 @@ If Entwine Lightning was **fused**, it gains **go again**.`,
       image: "U-ELE104.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS081",
+      image: "LGS081",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS081","ELE104"],
     sets: [Release.Promos,Release.TalesOfAria],
@@ -79134,12 +79140,6 @@ If Entwine Lightning was **fused**, it gains **go again**.`,
     defaultImage: "ELE105.width-450",
     name: "Invigorate",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS082",
-      image: "LGS082",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE105",
       image: "ELE105.width-450",
@@ -79163,8 +79163,14 @@ If Entwine Lightning was **fused**, it gains **go again**.`,
       image: "U-ELE105.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS082",
+      image: "LGS082",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS082","ELE105"],
     sets: [Release.Promos,Release.TalesOfAria],
@@ -79384,24 +79390,6 @@ If you've **fused** this turn, you may play Rejuvenate as though it were an inst
     defaultImage: "UPR150",
     name: "Frostbite",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "FAB081",
-      image: "",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "LXI030",
-      image: "LXI030.width-450",
-      set: Release.LexiBlitzDeck,
-      
-    },{
-      
-      identifier: "OLD031",
-      image: "OLD031.width-450",
-      set: Release.OldhimBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE111",
       image: "ELE111.width-450",
@@ -79426,16 +79414,34 @@ If you've **fused** this turn, you may play Rejuvenate as though it were an inst
       set: Release.Everfest,
       
     },{
+      foiling: Foiling.C,
+      identifier: "FAB081",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "LXI030",
+      image: "LXI030.width-450",
+      set: Release.LexiBlitzDeck,
+      
+    },{
+      
+      identifier: "OLD031",
+      image: "OLD031.width-450",
+      set: Release.OldhimBlitzDeck,
+      
+    },{
       
       identifier: "UPR150",
       image: "UPR150",
       set: Release.Uprising,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["FAB081","LXI030","OLD031","ELE111","EVR197","UPR150"],
-    sets: [Release.Promos,Release.LexiBlitzDeck,Release.OldhimBlitzDeck,Release.TalesOfAria,Release.Everfest,Release.Uprising],
+    sets: [Release.Everfest,Release.LexiBlitzDeck,Release.OldhimBlitzDeck,Release.Promos,Release.TalesOfAria,Release.Uprising],
     specialImage: "ELE111.width-450",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
@@ -79574,7 +79580,7 @@ Put up to 2 target Earth, Lightning and/or Elemental action cards from your grav
     
     
     
-    keywords: [Keyword.Legendary,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Legendary],
     
     
     pitch: 2,
@@ -79654,12 +79660,6 @@ Earth, Ice, and Elemental action cards have +1{d} while defending this turn.`,
     defaultImage: "ELE115.width-450",
     name: "Crown of Seeds",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB052",
-      image: "FAB052",
-      set: Release.Promos,
-      
-    },{
       edition: ReleaseEdition.First,foiling: Foiling.C,
       identifier: "ELE115",
       image: "ELE115.width-450",
@@ -79671,8 +79671,14 @@ Earth, Ice, and Elemental action cards have +1{d} while defending this turn.`,
       image: "U-ELE115.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB052",
+      image: "FAB052",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB052","ELE115"],
     sets: [Release.Promos,Release.TalesOfAria],
@@ -79816,7 +79822,7 @@ Attack action cards you control have +3{p}.
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.Channel],
+    keywords: [Keyword.Channel,Keyword.GoAgain],
     
     
     pitch: 1,
@@ -80022,12 +80028,6 @@ Draw 3 cards.
     defaultImage: "ELE121.width-450",
     name: "Evergreen",
     printings: [{
-      
-      identifier: "OLD026",
-      image: "OLD026.width-450",
-      set: Release.OldhimBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE121",
       image: "ELE121.width-450",
@@ -80050,6 +80050,12 @@ Draw 3 cards.
       identifier: "ELE121",
       image: "ELE121_Evergreen.width-10000",
       set: Release.TalesOfAria,
+      
+    },{
+      
+      identifier: "OLD026",
+      image: "OLD026.width-450",
+      set: Release.OldhimBlitzDeck,
       
     },],
     rarities: [Rarity.Rare],
@@ -80589,12 +80595,6 @@ If it's **fused**, instead it gains +2{p}.
     defaultImage: "ELE130.width-450",
     name: "Autumn's Touch",
     printings: [{
-      
-      identifier: "OLD024",
-      image: "OLD024.width-450",
-      set: Release.OldhimBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE130",
       image: "ELE130.width-450",
@@ -80617,6 +80617,12 @@ If it's **fused**, instead it gains +2{p}.
       identifier: "ELE130",
       image: "U-ELE130.width-450",
       set: Release.TalesOfAria,
+      
+    },{
+      
+      identifier: "OLD024",
+      image: "OLD024.width-450",
+      set: Release.OldhimBlitzDeck,
       
     },],
     rarities: [Rarity.Common],
@@ -80772,12 +80778,6 @@ If it's **fused**, instead it gains +2{p}.
     defaultImage: "ELE133.width-450",
     name: "Break Ground",
     printings: [{
-      
-      identifier: "OLD025",
-      image: "OLD025.width-450",
-      set: Release.OldhimBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE133",
       image: "ELE133.width-450",
@@ -80800,6 +80800,12 @@ If it's **fused**, instead it gains +2{p}.
       identifier: "ELE133",
       image: "U-ELE133.width-450",
       set: Release.TalesOfAria,
+      
+    },{
+      
+      identifier: "OLD025",
+      image: "OLD025.width-450",
+      set: Release.OldhimBlitzDeck,
       
     },],
     rarities: [Rarity.Common],
@@ -80837,12 +80843,6 @@ If it's **fused**, instead it gains +2{p}.
     defaultImage: "ELE134.width-450",
     name: "Burgeoning",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS069",
-      image: "LGS069",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       
       identifier: "BRI017",
       image: "BRI017.width-450",
@@ -80872,11 +80872,17 @@ If it's **fused**, instead it gains +2{p}.
       image: "U-ELE134.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS069",
+      image: "LGS069",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS069","BRI017","ELE134"],
-    sets: [Release.Promos,Release.BriarBlitzDeck,Release.TalesOfAria],
+    sets: [Release.BriarBlitzDeck,Release.Promos,Release.TalesOfAria],
     specialImage: "LGS069",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -80908,12 +80914,6 @@ If it's **fused**, instead it gains +2{p}.
     defaultImage: "ELE135.width-450",
     name: "Burgeoning",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS070",
-      image: "LGS070",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE135",
       image: "ELE135.width-450",
@@ -80937,8 +80937,14 @@ If it's **fused**, instead it gains +2{p}.
       image: "U-ELE135.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS070",
+      image: "LGS070",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS070","ELE135"],
     sets: [Release.Promos,Release.TalesOfAria],
@@ -80973,12 +80979,6 @@ If it's **fused**, instead it gains +2{p}.
     defaultImage: "ELE136.width-450",
     name: "Burgeoning",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS071",
-      image: "LGS071",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE136",
       image: "ELE136.width-450",
@@ -81002,8 +81002,14 @@ If it's **fused**, instead it gains +2{p}.
       image: "U-ELE136.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS071",
+      image: "LGS071",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS071","ELE136"],
     sets: [Release.Promos,Release.TalesOfAria],
@@ -81172,12 +81178,6 @@ If it's **fused**, instead it gains +2{p}.
       set: Release.BriarBlitzDeck,
       
     },{
-      
-      identifier: "OLD027",
-      image: "OLD027.width-450",
-      set: Release.OldhimBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE139",
       image: "ELE139.width-450",
@@ -81200,6 +81200,12 @@ If it's **fused**, instead it gains +2{p}.
       identifier: "ELE139",
       image: "U-ELE139.width-450",
       set: Release.TalesOfAria,
+      
+    },{
+      
+      identifier: "OLD027",
+      image: "OLD027.width-450",
+      set: Release.OldhimBlitzDeck,
       
     },],
     rarities: [Rarity.Common],
@@ -81440,12 +81446,6 @@ If Sow Tomorrow is played from arsenal, draw a card.
     defaultImage: "ELE143.width-450",
     name: "Amulet of Earth",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "LGS063",
-      image: "LGS063",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "BRI026",
       image: "BRI026.width-450",
@@ -81475,11 +81475,17 @@ If Sow Tomorrow is played from arsenal, draw a card.
       image: "U-ELE143.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS063",
+      image: "LGS063",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS063","BRI026","ELE143"],
-    sets: [Release.Promos,Release.BriarBlitzDeck,Release.TalesOfAria],
+    sets: [Release.BriarBlitzDeck,Release.Promos,Release.TalesOfAria],
     specialImage: "ELE143.width-450",
     subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
@@ -81513,12 +81519,6 @@ If Sow Tomorrow is played from arsenal, draw a card.
     defaultImage: "ELE144.width-450",
     name: "Heart of Ice",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB053",
-      image: "FAB053",
-      set: Release.Promos,
-      
-    },{
       edition: ReleaseEdition.First,foiling: Foiling.C,
       identifier: "ELE144",
       image: "ELE144.width-450",
@@ -81530,8 +81530,14 @@ If Sow Tomorrow is played from arsenal, draw a card.
       image: "U-ELE144.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB053",
+      image: "FAB053",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB053","ELE144"],
     sets: [Release.Promos,Release.TalesOfAria],
@@ -81570,18 +81576,6 @@ If Sow Tomorrow is played from arsenal, draw a card.
     defaultImage: "ELE145.width-450",
     name: "Coat of Frost",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB105",
-      image: "",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "OLD005",
-      image: "OLD005.width-450",
-      set: Release.OldhimBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE145",
       image: "ELE145.width-450",
@@ -81605,11 +81599,23 @@ If Sow Tomorrow is played from arsenal, draw a card.
       image: "U-ELE145.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB105",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "OLD005",
+      image: "OLD005.width-450",
+      set: Release.OldhimBlitzDeck,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB105","OLD005","ELE145"],
-    sets: [Release.Promos,Release.OldhimBlitzDeck,Release.TalesOfAria],
+    sets: [Release.OldhimBlitzDeck,Release.Promos,Release.TalesOfAria],
     specialImage: "ELE145.width-450",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -81691,7 +81697,7 @@ Cards and activated abilities cost opposing heroes an additional {r}.
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.Channel],
+    keywords: [Keyword.Channel,Keyword.GoAgain],
     
     
     pitch: 3,
@@ -81769,12 +81775,6 @@ Cards and activated abilities cost opposing heroes an additional {r}.
     defaultImage: "ELE148.width-450",
     name: "Frost Fang",
     printings: [{
-      
-      identifier: "OLD013",
-      image: "OLD013.width-450",
-      set: Release.OldhimBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE148",
       image: "ELE148.width-450",
@@ -81797,6 +81797,12 @@ Cards and activated abilities cost opposing heroes an additional {r}.
       identifier: "ELE148",
       image: "U-ELE148.width-450",
       set: Release.TalesOfAria,
+      
+    },{
+      
+      identifier: "OLD013",
+      image: "OLD013.width-450",
+      set: Release.OldhimBlitzDeck,
       
     },],
     rarities: [Rarity.Rare],
@@ -82141,12 +82147,6 @@ Whenever an attack hits a hero this turn, create a Frostbite token under their c
     defaultImage: "ELE154.width-450",
     name: "Weave Ice",
     printings: [{
-      
-      identifier: "OLD014",
-      image: "OLD014.width-450",
-      set: Release.OldhimBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE154",
       image: "ELE154.width-450",
@@ -82170,6 +82170,12 @@ Whenever an attack hits a hero this turn, create a Frostbite token under their c
       image: "U-ELE154.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      
+      identifier: "OLD014",
+      image: "OLD014.width-450",
+      set: Release.OldhimBlitzDeck,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -82191,7 +82197,7 @@ If it's **fused**, it gains **dominate**.
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.GoAgain],
     
     
     pitch: 1,
@@ -82254,7 +82260,7 @@ If it's **fused**, it gains **dominate**.
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.GoAgain],
     
     
     pitch: 2,
@@ -82317,7 +82323,7 @@ If it's **fused**, it gains **dominate**.
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.GoAgain],
     
     
     pitch: 3,
@@ -82631,12 +82637,6 @@ If it's **fused**, it gains **dominate**.
     defaultImage: "ELE162.width-450",
     name: "Winter's Grasp",
     printings: [{
-      
-      identifier: "OLD017",
-      image: "OLD017.width-450",
-      set: Release.OldhimBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE162",
       image: "ELE162.width-450",
@@ -82659,6 +82659,12 @@ If it's **fused**, it gains **dominate**.
       identifier: "ELE162",
       image: "U-ELE162.width-450",
       set: Release.TalesOfAria,
+      
+    },{
+      
+      identifier: "OLD017",
+      image: "OLD017.width-450",
+      set: Release.OldhimBlitzDeck,
       
     },],
     rarities: [Rarity.Common],
@@ -82757,12 +82763,6 @@ If it's **fused**, it gains **dominate**.
     defaultImage: "ELE164.width-450",
     name: "Chill to the Bone",
     printings: [{
-      
-      identifier: "LXI024",
-      image: "LXI024.width-450",
-      set: Release.LexiBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE164",
       image: "ELE164.width-450",
@@ -82785,6 +82785,12 @@ If it's **fused**, it gains **dominate**.
       identifier: "ELE164",
       image: "U-ELE164.width-450",
       set: Release.TalesOfAria,
+      
+    },{
+      
+      identifier: "LXI024",
+      image: "LXI024.width-450",
+      set: Release.LexiBlitzDeck,
       
     },],
     rarities: [Rarity.Common],
@@ -82885,12 +82891,6 @@ If it's **fused**, it gains **dominate**.
     defaultImage: "ELE166.width-450",
     name: "Polar Blast",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS072",
-      image: "LGS072",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE166",
       image: "ELE166.width-450",
@@ -82914,8 +82914,14 @@ If it's **fused**, it gains **dominate**.
       image: "U-ELE166.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS072",
+      image: "LGS072",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS072","ELE166"],
     sets: [Release.Promos,Release.TalesOfAria],
@@ -82935,7 +82941,7 @@ If Polar Blast is played from arsenal, draw a card.
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.GoAgain],
     
     
     pitch: 1,
@@ -82954,18 +82960,6 @@ If Polar Blast is played from arsenal, draw a card.
     defaultImage: "ELE167.width-450",
     name: "Polar Blast",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS073",
-      image: "LGS073",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
-      
-      identifier: "OLD015",
-      image: "OLD015.width-450",
-      set: Release.OldhimBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE167",
       image: "ELE167.width-450",
@@ -82989,11 +82983,23 @@ If Polar Blast is played from arsenal, draw a card.
       image: "U-ELE167.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS073",
+      image: "LGS073",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      
+      identifier: "OLD015",
+      image: "OLD015.width-450",
+      set: Release.OldhimBlitzDeck,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS073","OLD015","ELE167"],
-    sets: [Release.Promos,Release.OldhimBlitzDeck,Release.TalesOfAria],
+    sets: [Release.OldhimBlitzDeck,Release.Promos,Release.TalesOfAria],
     specialImage: "LGS073",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -83010,7 +83016,7 @@ If Polar Blast is played from arsenal, draw a card.
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.GoAgain],
     
     
     pitch: 2,
@@ -83029,12 +83035,6 @@ If Polar Blast is played from arsenal, draw a card.
     defaultImage: "ELE168.width-450",
     name: "Polar Blast",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS074",
-      image: "LGS074",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE168",
       image: "ELE168.width-450",
@@ -83058,8 +83058,14 @@ If Polar Blast is played from arsenal, draw a card.
       image: "U-ELE168.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS074",
+      image: "LGS074",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS074","ELE168"],
     sets: [Release.Promos,Release.TalesOfAria],
@@ -83079,7 +83085,7 @@ If Polar Blast is played from arsenal, draw a card.
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.GoAgain],
     
     
     pitch: 3,
@@ -83159,12 +83165,6 @@ If Polar Blast is played from arsenal, draw a card.
     defaultImage: "ELE170.width-450",
     name: "Winter's Bite",
     printings: [{
-      
-      identifier: "OLD016",
-      image: "OLD016.width-450",
-      set: Release.OldhimBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE170",
       image: "ELE170.width-450",
@@ -83187,6 +83187,12 @@ If Polar Blast is played from arsenal, draw a card.
       identifier: "ELE170",
       image: "U-ELE170.width-450",
       set: Release.TalesOfAria,
+      
+    },{
+      
+      identifier: "OLD016",
+      image: "OLD016.width-450",
+      set: Release.OldhimBlitzDeck,
       
     },],
     rarities: [Rarity.Common],
@@ -83226,12 +83232,6 @@ If Polar Blast is played from arsenal, draw a card.
     defaultImage: "ELE171.width-450",
     name: "Winter's Bite",
     printings: [{
-      
-      identifier: "LXI025",
-      image: "LXI025.width-450",
-      set: Release.LexiBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE171",
       image: "ELE171.width-450",
@@ -83254,6 +83254,12 @@ If Polar Blast is played from arsenal, draw a card.
       identifier: "ELE171",
       image: "U-ELE171.width-450",
       set: Release.TalesOfAria,
+      
+    },{
+      
+      identifier: "LXI025",
+      image: "LXI025.width-450",
+      set: Release.LexiBlitzDeck,
       
     },],
     rarities: [Rarity.Common],
@@ -83293,18 +83299,6 @@ If Polar Blast is played from arsenal, draw a card.
     defaultImage: "ELE172.width-450",
     name: "Amulet of Ice",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "LGS064",
-      image: "LGS064",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "OLD018",
-      image: "OLD018.width-450",
-      set: Release.OldhimBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE172",
       image: "ELE172.width-450",
@@ -83328,11 +83322,23 @@ If Polar Blast is played from arsenal, draw a card.
       image: "U-ELE172.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS064",
+      image: "LGS064",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "OLD018",
+      image: "OLD018.width-450",
+      set: Release.OldhimBlitzDeck,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS064","OLD018","ELE172"],
-    sets: [Release.Promos,Release.OldhimBlitzDeck,Release.TalesOfAria],
+    sets: [Release.OldhimBlitzDeck,Release.Promos,Release.TalesOfAria],
     specialImage: "ELE172.width-450",
     subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
@@ -83366,12 +83372,6 @@ If Polar Blast is played from arsenal, draw a card.
     defaultImage: "ELE173.width-450",
     name: "Shock Charmers",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB054",
-      image: "FAB054",
-      set: Release.Promos,
-      
-    },{
       edition: ReleaseEdition.First,foiling: Foiling.C,
       identifier: "ELE173",
       image: "ELE173.width-450",
@@ -83383,8 +83383,14 @@ If Polar Blast is played from arsenal, draw a card.
       image: "U-ELE173.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB054",
+      image: "FAB054",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB054","ELE173"],
     sets: [Release.Promos,Release.TalesOfAria],
@@ -83421,12 +83427,6 @@ If Polar Blast is played from arsenal, draw a card.
     defaultImage: "ELE174.width-450",
     name: "Mark of Lightning",
     printings: [{
-      
-      identifier: "LXI005",
-      image: "LXI005.width-450",
-      set: Release.LexiBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE174",
       image: "ELE174.width-450",
@@ -83449,6 +83449,12 @@ If Polar Blast is played from arsenal, draw a card.
       identifier: "ELE174",
       image: "U-ELE174.width-450",
       set: Release.TalesOfAria,
+      
+    },{
+      
+      identifier: "LXI005",
+      image: "LXI005.width-450",
+      set: Release.LexiBlitzDeck,
       
     },],
     rarities: [Rarity.Common],
@@ -83530,7 +83536,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.Channel],
+    keywords: [Keyword.Channel,Keyword.GoAgain],
     
     
     pitch: 2,
@@ -83797,18 +83803,6 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     defaultImage: "ELE180.width-450",
     name: "Weave Lightning",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS075",
-      image: "LGS075",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
-      
-      identifier: "LXI017",
-      image: "LXI017.width-450",
-      set: Release.LexiBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE180",
       image: "ELE180.width-450",
@@ -83832,11 +83826,23 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
       image: "U-ELE180.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS075",
+      image: "LGS075",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      
+      identifier: "LXI017",
+      image: "LXI017.width-450",
+      set: Release.LexiBlitzDeck,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS075","LXI017","ELE180"],
-    sets: [Release.Promos,Release.LexiBlitzDeck,Release.TalesOfAria],
+    sets: [Release.LexiBlitzDeck,Release.Promos,Release.TalesOfAria],
     specialImage: "LGS075",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -83870,12 +83876,6 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     defaultImage: "ELE181.width-450",
     name: "Weave Lightning",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS076",
-      image: "LGS076",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE181",
       image: "ELE181.width-450",
@@ -83899,6 +83899,12 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
       image: "U-ELE181.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS076",
+      image: "LGS076",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -83937,12 +83943,6 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     defaultImage: "ELE182.width-450",
     name: "Weave Lightning",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS077",
-      image: "LGS077",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE182",
       image: "ELE182.width-450",
@@ -83966,6 +83966,12 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
       image: "U-ELE182.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS077",
+      image: "LGS077",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -84004,12 +84010,6 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     defaultImage: "ELE183.width-450",
     name: "Lightning Press",
     printings: [{
-      
-      identifier: "LXI018",
-      image: "LXI018.width-450",
-      set: Release.LexiBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE183",
       image: "ELE183.width-450",
@@ -84032,6 +84032,12 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
       identifier: "ELE183",
       image: "U-ELE183.width-450",
       set: Release.TalesOfAria,
+      
+    },{
+      
+      identifier: "LXI018",
+      image: "LXI018.width-450",
+      set: Release.LexiBlitzDeck,
       
     },],
     rarities: [Rarity.Rare],
@@ -84553,12 +84559,6 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     defaultImage: "ELE192.width-450",
     name: "Heaven's Claws",
     printings: [{
-      
-      identifier: "LXI014",
-      image: "LXI014.width-450",
-      set: Release.LexiBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE192",
       image: "ELE192.width-450",
@@ -84581,6 +84581,12 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
       identifier: "ELE192",
       image: "U-ELE192.width-450",
       set: Release.TalesOfAria,
+      
+    },{
+      
+      identifier: "LXI014",
+      image: "LXI014.width-450",
+      set: Release.LexiBlitzDeck,
       
     },],
     rarities: [Rarity.Common],
@@ -84618,12 +84624,6 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     defaultImage: "ELE193.width-450",
     name: "Heaven's Claws",
     printings: [{
-      
-      identifier: "LXI019",
-      image: "LXI019.width-450",
-      set: Release.LexiBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE193",
       image: "ELE193.width-450",
@@ -84646,6 +84646,12 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
       identifier: "ELE193",
       image: "U-ELE193.width-450",
       set: Release.TalesOfAria,
+      
+    },{
+      
+      identifier: "LXI019",
+      image: "LXI019.width-450",
+      set: Release.LexiBlitzDeck,
       
     },],
     rarities: [Rarity.Common],
@@ -84742,12 +84748,6 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     defaultImage: "ELE195.width-450",
     name: "Shock Striker",
     printings: [{
-      
-      identifier: "LXI015",
-      image: "LXI015.width-450",
-      set: Release.LexiBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE195",
       image: "ELE195.width-450",
@@ -84770,6 +84770,12 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
       identifier: "ELE195",
       image: "U-ELE195.width-450",
       set: Release.TalesOfAria,
+      
+    },{
+      
+      identifier: "LXI015",
+      image: "LXI015.width-450",
+      set: Release.LexiBlitzDeck,
       
     },],
     rarities: [Rarity.Common],
@@ -84925,12 +84931,6 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     defaultImage: "ELE198.width-450",
     name: "Electrify",
     printings: [{
-      
-      identifier: "LXI016",
-      image: "LXI016.width-450",
-      set: Release.LexiBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE198",
       image: "ELE198.width-450",
@@ -84953,6 +84953,12 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
       identifier: "ELE198",
       image: "U-ELE198.width-450",
       set: Release.TalesOfAria,
+      
+    },{
+      
+      identifier: "LXI016",
+      image: "LXI016.width-450",
+      set: Release.LexiBlitzDeck,
       
     },],
     rarities: [Rarity.Common],
@@ -85057,24 +85063,12 @@ If Electrify is played from arsenal, draw a card.
     talents: [Talent.Lightning],
     
   },{
-    artists: ["Henrique Lindner","Faizal Fikri"],
+    artists: ["Faizal Fikri","Henrique Lindner"],
     cardIdentifier: "electrify-blue",
     classes: [Class.NotClassed],
     defaultImage: "ELE200.width-450",
     name: "Electrify",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "FAB048",
-      image: "FAB048",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "LXI020",
-      image: "LXI020.width-450",
-      set: Release.LexiBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE200",
       image: "ELE200.width-450",
@@ -85098,11 +85092,23 @@ If Electrify is played from arsenal, draw a card.
       image: "U-ELE200.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "FAB048",
+      image: "FAB048",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "LXI020",
+      image: "LXI020.width-450",
+      set: Release.LexiBlitzDeck,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB048","LXI020","ELE200"],
-    sets: [Release.Promos,Release.LexiBlitzDeck,Release.TalesOfAria],
+    sets: [Release.LexiBlitzDeck,Release.Promos,Release.TalesOfAria],
     specialImage: "ELE200.width-450",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -85138,18 +85144,6 @@ If Electrify is played from arsenal, draw a card.
     defaultImage: "ELE201.width-450",
     name: "Amulet of Lightning",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "LGS065",
-      image: "LGS065",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "LXI021",
-      image: "LXI021.width-450",
-      set: Release.LexiBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE201",
       image: "ELE201.width-450",
@@ -85173,11 +85167,23 @@ If Electrify is played from arsenal, draw a card.
       image: "U-ELE201.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS065",
+      image: "LGS065",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "LXI021",
+      image: "LXI021.width-450",
+      set: Release.LexiBlitzDeck,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS065","LXI021","ELE201"],
-    sets: [Release.Promos,Release.LexiBlitzDeck,Release.TalesOfAria],
+    sets: [Release.LexiBlitzDeck,Release.Promos,Release.TalesOfAria],
     specialImage: "ELE201.width-450",
     subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
@@ -85211,18 +85217,6 @@ If Electrify is played from arsenal, draw a card.
     defaultImage: "ELE202.width-450",
     name: "Titan's Fist",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "LGS066",
-      image: "LGS066",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "OLD002",
-      image: "OLD002.width-450",
-      set: Release.OldhimBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE202",
       image: "ELE202.width-450",
@@ -85234,13 +85228,25 @@ If Electrify is played from arsenal, draw a card.
       image: "U-ELE202.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS066",
+      image: "LGS066",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "OLD002",
+      image: "OLD002.width-450",
+      set: Release.OldhimBlitzDeck,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS066","OLD002","ELE202"],
-    sets: [Release.Promos,Release.OldhimBlitzDeck,Release.TalesOfAria],
+    sets: [Release.OldhimBlitzDeck,Release.Promos,Release.TalesOfAria],
     specialImage: "ELE202.width-450",
-    subtypes: [Subtype.Hammer,Subtype.OneHanded],
+    subtypes: [Subtype.OneHanded,Subtype.Hammer],
     types: [Type.Weapon],
     typeText: "Guardian Weapon – Hammer (1H)",
 
@@ -85272,12 +85278,6 @@ If there is a card with cost 3 or greater in your pitch zone, Titan's Fist has +
     defaultImage: "ELE203.width-450",
     name: "Rampart of the Ram's Head",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB049",
-      image: "FAB049",
-      set: Release.Promos,
-      
-    },{
       edition: ReleaseEdition.First,foiling: Foiling.C,
       identifier: "ELE203",
       image: "ELE203.width-450",
@@ -85289,8 +85289,14 @@ If there is a card with cost 3 or greater in your pitch zone, Titan's Fist has +
       image: "U-ELE203.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB049",
+      image: "FAB049",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB049","ELE203"],
     sets: [Release.Promos,Release.TalesOfAria],
@@ -85325,12 +85331,6 @@ If there is a card with cost 3 or greater in your pitch zone, Titan's Fist has +
     defaultImage: "ELE204.width-450",
     name: "Rotten Old Buckler",
     printings: [{
-      
-      identifier: "OLD003",
-      image: "OLD003.width-450",
-      set: Release.OldhimBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE204",
       image: "ELE204.width-450",
@@ -85353,6 +85353,12 @@ If there is a card with cost 3 or greater in your pitch zone, Titan's Fist has +
       identifier: "ELE204",
       image: "U-ELE204.width-450",
       set: Release.TalesOfAria,
+      
+    },{
+      
+      identifier: "OLD003",
+      image: "OLD003.width-450",
+      set: Release.OldhimBlitzDeck,
       
     },],
     rarities: [Rarity.Common],
@@ -85432,7 +85438,7 @@ If there is a card with cost 3 or greater in your pitch zone, Titan's Fist has +
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.GoAgain],
     
     
     pitch: 3,
@@ -85451,12 +85457,6 @@ If there is a card with cost 3 or greater in your pitch zone, Titan's Fist has +
     defaultImage: "ELE206.width-450",
     name: "Embolden",
     printings: [{
-      
-      identifier: "OLD030",
-      image: "OLD030.width-450",
-      set: Release.OldhimBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE206",
       image: "ELE206.width-450",
@@ -85479,6 +85479,12 @@ If there is a card with cost 3 or greater in your pitch zone, Titan's Fist has +
       identifier: "ELE206",
       image: "U-ELE206.width-450",
       set: Release.TalesOfAria,
+      
+    },{
+      
+      identifier: "OLD030",
+      image: "OLD030.width-450",
+      set: Release.OldhimBlitzDeck,
       
     },],
     rarities: [Rarity.Rare],
@@ -85646,12 +85652,6 @@ At the beginning of your action phase, destroy Embolden then the next Guardian a
     defaultImage: "ELE209.width-450",
     name: "Thump",
     printings: [{
-      
-      identifier: "OLD028",
-      image: "OLD028.width-450",
-      set: Release.OldhimBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE209",
       image: "ELE209.width-450",
@@ -85674,6 +85674,12 @@ At the beginning of your action phase, destroy Embolden then the next Guardian a
       identifier: "ELE209",
       image: "U-ELE209.width-450",
       set: Release.TalesOfAria,
+      
+    },{
+      
+      identifier: "OLD028",
+      image: "OLD028.width-450",
+      set: Release.OldhimBlitzDeck,
       
     },],
     rarities: [Rarity.Common],
@@ -85770,12 +85776,6 @@ At the beginning of your action phase, destroy Embolden then the next Guardian a
     defaultImage: "ELE211.width-450",
     name: "Thump",
     printings: [{
-      
-      identifier: "OLD029",
-      image: "OLD029.width-450",
-      set: Release.OldhimBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE211",
       image: "ELE211.width-450",
@@ -85798,6 +85798,12 @@ At the beginning of your action phase, destroy Embolden then the next Guardian a
       identifier: "ELE211",
       image: "U-ELE211.width-450",
       set: Release.TalesOfAria,
+      
+    },{
+      
+      identifier: "OLD029",
+      image: "OLD029.width-450",
+      set: Release.OldhimBlitzDeck,
       
     },],
     rarities: [Rarity.Common],
@@ -85835,12 +85841,6 @@ At the beginning of your action phase, destroy Embolden then the next Guardian a
     defaultImage: "ELE213.width-450",
     name: "New Horizon",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB050",
-      image: "FAB050",
-      set: Release.Promos,
-      
-    },{
       edition: ReleaseEdition.First,foiling: Foiling.C,
       identifier: "ELE213",
       image: "ELE213.width-450",
@@ -85852,8 +85852,14 @@ At the beginning of your action phase, destroy Embolden then the next Guardian a
       image: "U-ELE213.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB050",
+      image: "FAB050",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB050","ELE213"],
     sets: [Release.Promos,Release.TalesOfAria],
@@ -85892,12 +85898,6 @@ If New Horizon is destroyed, destroy all cards in your arsenal.
     defaultImage: "ELE214.width-450",
     name: "Honing Hood",
     printings: [{
-      
-      identifier: "LXI003",
-      image: "LXI003.width-450",
-      set: Release.LexiBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE214",
       image: "ELE214.width-450",
@@ -85920,6 +85920,12 @@ If New Horizon is destroyed, destroy all cards in your arsenal.
       identifier: "ELE214",
       image: "U-ELE214.width-450",
       set: Release.TalesOfAria,
+      
+    },{
+      
+      identifier: "LXI003",
+      image: "LXI003.width-450",
+      set: Release.LexiBlitzDeck,
       
     },],
     rarities: [Rarity.Common],
@@ -86018,12 +86024,6 @@ If New Horizon is destroyed, destroy all cards in your arsenal.
     defaultImage: "ELE216.width-450",
     name: "Bolt'n' Shot",
     printings: [{
-      
-      identifier: "LXI026",
-      image: "LXI026.width-450",
-      set: Release.LexiBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE216",
       image: "ELE216.width-450",
@@ -86047,13 +86047,19 @@ If New Horizon is destroyed, destroy all cards in your arsenal.
       image: "U-ELE216.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      
+      identifier: "LXI026",
+      image: "LXI026.width-450",
+      set: Release.LexiBlitzDeck,
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LXI026","ELE216"],
     sets: [Release.LexiBlitzDeck,Release.TalesOfAria],
     specialImage: "ELE216.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -86112,7 +86118,7 @@ If New Horizon is destroyed, destroy all cards in your arsenal.
     setIdentifiers: ["ELE217"],
     sets: [Release.TalesOfAria],
     specialImage: "ELE217.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -86171,7 +86177,7 @@ If New Horizon is destroyed, destroy all cards in your arsenal.
     setIdentifiers: ["ELE218"],
     sets: [Release.TalesOfAria],
     specialImage: "ELE218.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -86201,12 +86207,6 @@ If New Horizon is destroyed, destroy all cards in your arsenal.
     defaultImage: "ELE219.width-450",
     name: "Over Flex",
     printings: [{
-      
-      identifier: "LXI027",
-      image: "LXI027.width-450",
-      set: Release.LexiBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE219",
       image: "ELE219.width-450",
@@ -86230,6 +86230,12 @@ If New Horizon is destroyed, destroy all cards in your arsenal.
       image: "U-ELE219.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      
+      identifier: "LXI027",
+      image: "LXI027.width-450",
+      set: Release.LexiBlitzDeck,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -86251,7 +86257,7 @@ If New Horizon is destroyed, destroy all cards in your arsenal.
     
     
     
-    keywords: [Keyword.Reload,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Reload],
     
     
     pitch: 1,
@@ -86314,7 +86320,7 @@ If New Horizon is destroyed, destroy all cards in your arsenal.
     
     
     
-    keywords: [Keyword.Reload,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Reload],
     
     
     pitch: 2,
@@ -86377,7 +86383,7 @@ If New Horizon is destroyed, destroy all cards in your arsenal.
     
     
     
-    keywords: [Keyword.Reload,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Reload],
     
     
     pitch: 3,
@@ -86396,18 +86402,6 @@ If New Horizon is destroyed, destroy all cards in your arsenal.
     defaultImage: "ELE222.width-450",
     name: "Rosetta Thorn",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB099",
-      image: "",
-      set: Release.Promos,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "LGS068",
-      image: "LGS068",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "BRI004",
       image: "BRI004.width-450",
@@ -86425,13 +86419,25 @@ If New Horizon is destroyed, destroy all cards in your arsenal.
       image: "U-ELE222.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB099",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS068",
+      image: "LGS068",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["FAB099","LGS068","BRI004","ELE222"],
-    sets: [Release.Promos,Release.BriarBlitzDeck,Release.TalesOfAria],
+    sets: [Release.BriarBlitzDeck,Release.Promos,Release.TalesOfAria],
     specialImage: "ELE222.width-450",
-    subtypes: [Subtype.Sword,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Sword],
     types: [Type.Weapon],
     typeText: "Runeblade Weapon – Sword (2H)",
 
@@ -86492,7 +86498,7 @@ Whenever you attack with Rosetta Thorn, if you've played an attack action card a
     setIdentifiers: ["ELE223"],
     sets: [Release.TalesOfAria],
     specialImage: "ELE223.width-450",
-    subtypes: [Subtype.Sword,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Sword],
     types: [Type.Weapon],
     typeText: "Runeblade Weapon – Sword (2H)",
 
@@ -86526,12 +86532,6 @@ At the beginning of your end phase, if you haven't played an attack action card 
     defaultImage: "ELE224.width-450",
     name: "Spellbound Creepers",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB051",
-      image: "FAB051",
-      set: Release.Promos,
-      
-    },{
       edition: ReleaseEdition.First,foiling: Foiling.C,
       identifier: "ELE224",
       image: "ELE224.width-450",
@@ -86543,8 +86543,14 @@ At the beginning of your end phase, if you haven't played an attack action card 
       image: "U-ELE224.width-450",
       set: Release.TalesOfAria,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB051",
+      image: "FAB051",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB051","ELE224"],
     sets: [Release.Promos,Release.TalesOfAria],
@@ -87136,12 +87142,6 @@ If you have dealt arcane damage this turn, Sigil of Suffering gains +1{d}.`,
       set: Release.DromaiBlitzDeck,
       
     },{
-      
-      identifier: "LXI004",
-      image: "LXI004.width-450",
-      set: Release.LexiBlitzDeck,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "ELE234",
       image: "ELE234.width-450",
@@ -87164,6 +87164,12 @@ If you have dealt arcane damage this turn, Sigil of Suffering gains +1{d}.`,
       identifier: "ELE234",
       image: "U-ELE234.width-450",
       set: Release.TalesOfAria,
+      
+    },{
+      
+      identifier: "LXI004",
+      image: "LXI004.width-450",
+      set: Release.LexiBlitzDeck,
       
     },],
     rarities: [Rarity.Common],
@@ -87492,7 +87498,7 @@ If you would roll 1 or more dice this turn, instead roll that many dice plus 1 a
     
     
     
-    keywords: [Keyword.Specialization,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Specialization],
     
     
     pitch: 3,
@@ -87592,7 +87598,7 @@ If you have rolled a 4, 5, or 6 on a die this turn, instead **intimidate** twice
     
     
     
-    keywords: [Keyword.Intimidate,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Intimidate],
     
     
     pitch: 1,
@@ -87643,7 +87649,7 @@ If you have rolled a 5 or 6 on a die this turn, instead **intimidate** twice.
     
     
     
-    keywords: [Keyword.Intimidate,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Intimidate],
     
     
     pitch: 2,
@@ -87694,7 +87700,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
     
     
     
-    keywords: [Keyword.Intimidate,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Intimidate],
     
     
     pitch: 3,
@@ -87713,12 +87719,6 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
     defaultImage: "EVR008.width-450",
     name: "Bare Fangs",
     printings: [{
-      
-      identifier: "RVD011",
-      image: "RVD011.width-450",
-      set: Release.ClassicBattlesRhinarDorinthea,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "EVR008",
       image: "EVR008.width-450",
@@ -87729,6 +87729,12 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
       identifier: "EVR008",
       image: "EVR008.width-450",
       set: Release.Everfest,
+      
+    },{
+      
+      identifier: "RVD011",
+      image: "RVD011.width-450",
+      set: Release.ClassicBattlesRhinarDorinthea,
       
     },],
     rarities: [Rarity.Common],
@@ -87860,12 +87866,6 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
     defaultImage: "EVR011.width-450",
     name: "Wild Ride",
     printings: [{
-      
-      identifier: "RVD012",
-      image: "RVD012.width-450",
-      set: Release.ClassicBattlesRhinarDorinthea,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "EVR011",
       image: "EVR011.width-450",
@@ -87876,6 +87876,12 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
       identifier: "EVR011",
       image: "EVR011.width-450",
       set: Release.Everfest,
+      
+    },{
+      
+      identifier: "RVD012",
+      image: "RVD012.width-450",
+      set: Release.ClassicBattlesRhinarDorinthea,
       
     },],
     rarities: [Rarity.Common],
@@ -88154,12 +88160,6 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
     defaultImage: "EVR017.width-450",
     name: "Bravo, Star of the Show",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "WIN016",
-      image: "",
-      set: Release.Promos,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "EVR017",
       image: "EVR017.width-450",
@@ -88171,11 +88171,17 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
       image: "EVR017.width-450",
       set: Release.Everfest,
       treatment: Treatment.DS,
+    },{
+      foiling: Foiling.G,
+      identifier: "WIN016",
+      image: "",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
     setIdentifiers: ["WIN016","EVR017"],
-    sets: [Release.Promos,Release.Everfest],
+    sets: [Release.Everfest,Release.Promos],
     specialImage: "EVR017.width-450",
     subtypes: [],
     types: [Type.Hero],
@@ -88190,7 +88196,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
     hero: Hero.Bravo,
     intellect: 4,
     
-    keywords: [Keyword.Essence,Keyword.Dominate,Keyword.GoAgain],
+    keywords: [Keyword.Dominate,Keyword.Essence,Keyword.GoAgain],
     life: 40,
     
     
@@ -88209,22 +88215,22 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
     defaultImage: "EVR018.width-450",
     name: "Stalagmite, Bastion of Isenloft",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB078",
-      image: "FAB078",
-      set: Release.Promos,
-      
-    },{
       edition: ReleaseEdition.First,foiling: Foiling.C,
       identifier: "EVR018",
       image: "EVR018.width-450",
       set: Release.Everfest,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB078",
+      image: "FAB078",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB078","EVR018"],
-    sets: [Release.Promos,Release.Everfest],
+    sets: [Release.Everfest,Release.Promos],
     specialImage: "EVR018.width-450",
     subtypes: [Subtype.OffHand],
     types: [Type.Equipment],
@@ -88256,12 +88262,6 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
     defaultImage: "EVR019.width-450",
     name: "Valda Brightaxe",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "HER051",
-      image: "HER051",
-      set: Release.Promos,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "EVR019",
       image: "EVR019.width-450",
@@ -88273,11 +88273,17 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
       image: "EVR019.width-450",
       set: Release.Everfest,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "HER051",
+      image: "HER051",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
     setIdentifiers: ["HER051","EVR019"],
-    sets: [Release.Promos,Release.Everfest],
+    sets: [Release.Everfest,Release.Promos],
     specialImage: "EVR019.width-450",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -88311,12 +88317,6 @@ At the start of your turn, if you control 3 or more Seismic Surge tokens, cards 
     defaultImage: "EVR020.width-450",
     name: "Earthlore Bounty",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB076",
-      image: "FAB076",
-      set: Release.Promos,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "EVR020",
       image: "EVR020.width-450",
@@ -88334,11 +88334,17 @@ At the start of your turn, if you control 3 or more Seismic Surge tokens, cards 
       image: "EVR020-CF.width-450",
       set: Release.Everfest,
       treatment: Treatment.EA,
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB076",
+      image: "FAB076",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
     setIdentifiers: ["FAB076","EVR020"],
-    sets: [Release.Promos,Release.Everfest],
+    sets: [Release.Everfest,Release.Promos],
     specialImage: "EVR020-CF.width-450",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -88686,12 +88692,6 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
     defaultImage: "EVR027.width-450",
     name: "Macho Grande",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS087",
-      image: "LGS087",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       edition: ReleaseEdition.First,
       identifier: "EVR027",
       image: "EVR027.width-450",
@@ -88703,11 +88703,17 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
       image: "EVR027.width-450",
       set: Release.Everfest,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS087",
+      image: "LGS087",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS087","EVR027"],
-    sets: [Release.Promos,Release.Everfest],
+    sets: [Release.Everfest,Release.Promos],
     specialImage: "LGS087",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -88739,12 +88745,6 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
     defaultImage: "EVR028.width-450",
     name: "Macho Grande",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS088",
-      image: "LGS088",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       edition: ReleaseEdition.First,
       identifier: "EVR028",
       image: "EVR028.width-450",
@@ -88756,11 +88756,17 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
       image: "EVR028.width-450",
       set: Release.Everfest,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS088",
+      image: "LGS088",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS088","EVR028"],
-    sets: [Release.Promos,Release.Everfest],
+    sets: [Release.Everfest,Release.Promos],
     specialImage: "LGS088",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -88792,12 +88798,6 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
     defaultImage: "EVR029.width-450",
     name: "Macho Grande",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS089",
-      image: "LGS089",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       edition: ReleaseEdition.First,
       identifier: "EVR029",
       image: "EVR029.width-450",
@@ -88809,11 +88809,17 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
       image: "EVR029.width-450",
       set: Release.Everfest,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS089",
+      image: "LGS089",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS089","EVR029"],
-    sets: [Release.Promos,Release.Everfest],
+    sets: [Release.Everfest,Release.Promos],
     specialImage: "LGS089",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -89133,12 +89139,6 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
     defaultImage: "EVR037.width-450",
     name: "Mask of the Pouncing Lynx",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB079",
-      image: "",
-      set: Release.Promos,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "EVR037",
       image: "EVR037.width-450",
@@ -89150,11 +89150,17 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
       image: "EVR037.width-450",
       set: Release.Everfest,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB079",
+      image: "",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
     setIdentifiers: ["FAB079","EVR037"],
-    sets: [Release.Promos,Release.Everfest],
+    sets: [Release.Everfest,Release.Promos],
     specialImage: "EVR037.width-450",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -89267,7 +89273,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
     
     
     
-    keywords: [Keyword.Specialization,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Specialization],
     
     
     pitch: 2,
@@ -89651,6 +89657,12 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
     defaultImage: "OUT086.width-450",
     name: "Twin Twisters",
     printings: [{
+      
+      identifier: "BEN009",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
+    },{
       edition: ReleaseEdition.First,
       identifier: "EVR047",
       image: "EVR047.width-450",
@@ -89668,17 +89680,11 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
       image: "OUT086.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "BEN009",
-      image: "",
-      set: Release.BenjiBlitzDeck,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR047","OUT086","BEN009"],
-    sets: [Release.Everfest,Release.Outsiders,Release.BenjiBlitzDeck],
+    sets: [Release.BenjiBlitzDeck,Release.Everfest,Release.Outsiders],
     specialImage: "EVR047.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -89715,6 +89721,12 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
     defaultImage: "OUT087.width-450",
     name: "Twin Twisters",
     printings: [{
+      
+      identifier: "BEN015",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
+    },{
       edition: ReleaseEdition.First,
       identifier: "EVR048",
       image: "EVR048.width-450",
@@ -89732,17 +89744,11 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
       image: "OUT087.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "BEN015",
-      image: "",
-      set: Release.BenjiBlitzDeck,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["EVR048","OUT087","BEN015"],
-    sets: [Release.Everfest,Release.Outsiders,Release.BenjiBlitzDeck],
+    sets: [Release.BenjiBlitzDeck,Release.Everfest,Release.Outsiders],
     specialImage: "EVR048.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -90110,7 +90116,7 @@ As an additional cost to play Blood on Her Hands, destroy any number of Copper y
     
     
     
-    keywords: [Keyword.Specialization,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Specialization],
     
     
     pitch: 2,
@@ -90501,18 +90507,12 @@ Your next weapon attack this turn gains +1{p}.`,
     
     
   },{
-    artists: ["Phu Thieu","Bramasta Aji"],
+    artists: ["Bramasta Aji","Phu Thieu"],
     cardIdentifier: "in-the-swing-red",
     classes: [Class.Warrior],
     defaultImage: "EVR063.width-450",
     name: "In the Swing",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "FAB057",
-      image: "FAB057",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "DVR015",
       image: "DVR015.width-450",
@@ -90530,11 +90530,17 @@ Your next weapon attack this turn gains +1{p}.`,
       image: "EVR063.width-450",
       set: Release.Everfest,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "FAB057",
+      image: "FAB057",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB057","DVR015","EVR063"],
-    sets: [Release.Promos,Release.ClassicBattlesRhinarDorinthea,Release.Everfest],
+    sets: [Release.ClassicBattlesRhinarDorinthea,Release.Everfest,Release.Promos],
     specialImage: "EVR063.width-450",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -90906,7 +90912,7 @@ The first time you activate Micro-processor each turn, gain 1 action point.`,
     
     
     
-    keywords: [Keyword.Specialization,Keyword.Opt],
+    keywords: [Keyword.Opt,Keyword.Specialization],
     
     
     pitch: 3,
@@ -91343,7 +91349,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     
     
     
-    keywords: [Keyword.Opt,Keyword.Boost],
+    keywords: [Keyword.Boost,Keyword.Opt],
     
     
     pitch: 1,
@@ -91392,7 +91398,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     
     
     
-    keywords: [Keyword.Opt,Keyword.Boost],
+    keywords: [Keyword.Boost,Keyword.Opt],
     
     
     pitch: 2,
@@ -91441,7 +91447,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     
     
     
-    keywords: [Keyword.Opt,Keyword.Boost],
+    keywords: [Keyword.Boost,Keyword.Opt],
     
     
     pitch: 3,
@@ -91613,12 +91619,6 @@ If you have **boosted** this turn, put Rotary Ram on the bottom of your deck.
     defaultImage: "EVR085.width-450",
     name: "Genis Wotchuneed",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "HER053",
-      image: "HER053",
-      set: Release.Promos,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "EVR085",
       image: "EVR085.width-450",
@@ -91630,11 +91630,17 @@ If you have **boosted** this turn, put Rotary Ram on the bottom of your deck.
       image: "EVR085.width-450",
       set: Release.Everfest,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "HER053",
+      image: "HER053",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
     setIdentifiers: ["HER053","EVR085"],
-    sets: [Release.Promos,Release.Everfest],
+    sets: [Release.Everfest,Release.Promos],
     specialImage: "EVR085.width-450",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -91666,22 +91672,22 @@ If you have **boosted** this turn, put Rotary Ram on the bottom of your deck.
     defaultImage: "EVR086.width-450",
     name: "Silver Palms",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB077",
-      image: "FAB077",
-      set: Release.Promos,
-      
-    },{
       edition: ReleaseEdition.First,foiling: Foiling.C,
       identifier: "EVR086",
       image: "EVR086.width-450",
       set: Release.Everfest,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB077",
+      image: "FAB077",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB077","EVR086"],
-    sets: [Release.Promos,Release.Everfest],
+    sets: [Release.Everfest,Release.Promos],
     specialImage: "EVR086.width-450",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
@@ -91732,7 +91738,7 @@ If you have **boosted** this turn, put Rotary Ram on the bottom of your deck.
     setIdentifiers: ["EVR087"],
     sets: [Release.Everfest],
     specialImage: "EVR087.width-450",
-    subtypes: [Subtype.Bow,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Bow],
     types: [Type.Weapon],
     typeText: "Ranger Weapon – Bow (2H)",
 
@@ -91781,7 +91787,7 @@ Arrows you control have "Defense reactions can't be played from hand this chain 
     setIdentifiers: ["EVR088"],
     sets: [Release.Everfest],
     specialImage: "EVR088.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -91907,12 +91913,6 @@ Arrows you control have "Defense reactions can't be played from hand this chain 
     defaultImage: "EVR091.width-450",
     name: "Release the Tension",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS096",
-      image: "LGS096",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       edition: ReleaseEdition.First,
       identifier: "EVR091",
       image: "EVR091.width-450",
@@ -91924,11 +91924,17 @@ Arrows you control have "Defense reactions can't be played from hand this chain 
       image: "EVR091.width-450",
       set: Release.Everfest,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS096",
+      image: "LGS096",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS096","EVR091"],
-    sets: [Release.Promos,Release.Everfest],
+    sets: [Release.Everfest,Release.Promos],
     specialImage: "LGS096",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -91962,12 +91968,6 @@ Arrows you control have "Defense reactions can't be played from hand this chain 
     defaultImage: "EVR092.width-450",
     name: "Release the Tension",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS097",
-      image: "LGS097",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       edition: ReleaseEdition.First,
       identifier: "EVR092",
       image: "EVR092.width-450",
@@ -91979,11 +91979,17 @@ Arrows you control have "Defense reactions can't be played from hand this chain 
       image: "EVR092.width-450",
       set: Release.Everfest,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS097",
+      image: "LGS097",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS097","EVR092"],
-    sets: [Release.Promos,Release.Everfest],
+    sets: [Release.Everfest,Release.Promos],
     specialImage: "LGS097",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -92017,12 +92023,6 @@ Arrows you control have "Defense reactions can't be played from hand this chain 
     defaultImage: "EVR093.width-450",
     name: "Release the Tension",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS098",
-      image: "LGS098",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       edition: ReleaseEdition.First,
       identifier: "EVR093",
       image: "EVR093.width-450",
@@ -92034,11 +92034,17 @@ Arrows you control have "Defense reactions can't be played from hand this chain 
       image: "EVR093.width-450",
       set: Release.Everfest,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS098",
+      image: "LGS098",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS098","EVR093"],
-    sets: [Release.Promos,Release.Everfest],
+    sets: [Release.Everfest,Release.Promos],
     specialImage: "LGS098",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -92089,7 +92095,7 @@ Arrows you control have "Defense reactions can't be played from hand this chain 
     setIdentifiers: ["EVR094"],
     sets: [Release.Everfest],
     specialImage: "EVR094.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -92136,7 +92142,7 @@ Arrows you control have "Defense reactions can't be played from hand this chain 
     setIdentifiers: ["EVR095"],
     sets: [Release.Everfest],
     specialImage: "EVR095.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -92183,7 +92189,7 @@ Arrows you control have "Defense reactions can't be played from hand this chain 
     setIdentifiers: ["EVR096"],
     sets: [Release.Everfest],
     specialImage: "EVR096.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -92230,7 +92236,7 @@ Arrows you control have "Defense reactions can't be played from hand this chain 
     setIdentifiers: ["EVR097"],
     sets: [Release.Everfest],
     specialImage: "EVR097.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -92277,7 +92283,7 @@ Arrows you control have "Defense reactions can't be played from hand this chain 
     setIdentifiers: ["EVR098"],
     sets: [Release.Everfest],
     specialImage: "EVR098.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -92324,7 +92330,7 @@ Arrows you control have "Defense reactions can't be played from hand this chain 
     setIdentifiers: ["EVR099"],
     sets: [Release.Everfest],
     specialImage: "EVR099.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -92386,7 +92392,7 @@ Arrows you control have "Defense reactions can't be played from hand this chain 
     
     
     
-    keywords: [Keyword.Opt,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Opt],
     
     
     pitch: 1,
@@ -92437,7 +92443,7 @@ Arrows you control have "Defense reactions can't be played from hand this chain 
     
     
     
-    keywords: [Keyword.Opt,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Opt],
     
     
     pitch: 2,
@@ -92488,7 +92494,7 @@ Arrows you control have "Defense reactions can't be played from hand this chain 
     
     
     
-    keywords: [Keyword.Opt,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Opt],
     
     
     pitch: 3,
@@ -93295,18 +93301,12 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
     
     
   },{
-    artists: ["Steve Argyle","Alexander Mokhov"],
+    artists: ["Alexander Mokhov","Steve Argyle"],
     cardIdentifier: "iyslander",
     classes: [Class.Wizard],
     defaultImage: "UPR103",
     name: "Iyslander",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "HER052",
-      image: "HER052",
-      set: Release.Promos,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "EVR120",
       image: "EVR120.width-450",
@@ -93317,6 +93317,12 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
       identifier: "EVR120",
       image: "EVR120.width-450",
       set: Release.Everfest,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "HER052",
+      image: "HER052",
+      set: Release.Promos,
       
     },{
       
@@ -93337,10 +93343,10 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
       set: Release.Uprising,
       treatment: Treatment.FA,
     },],
-    rarities: [Rarity.Promo,Rarity.Majestic,Rarity.Token,Rarity.Marvel],
+    rarities: [Rarity.Majestic,Rarity.Marvel,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER052","EVR120","UPR103"],
-    sets: [Release.Promos,Release.Everfest,Release.Uprising],
+    sets: [Release.Everfest,Release.Promos,Release.Uprising],
     specialImage: "UPR103_B_Back",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -93393,7 +93399,7 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
     setIdentifiers: ["EVR121"],
     sets: [Release.Everfest],
     specialImage: "EVR121.width-450",
-    subtypes: [Subtype.Staff,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Staff],
     types: [Type.Weapon],
     typeText: "Wizard Weapon – Staff (2H)",
 
@@ -93572,12 +93578,6 @@ If Aether Wildfire is played during an opponents turn, until end of turn, action
     defaultImage: "EVR125.width-450",
     name: "Emeritus Scolding",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS090",
-      image: "LGS090",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       edition: ReleaseEdition.First,
       identifier: "EVR125",
       image: "EVR125.width-450",
@@ -93589,11 +93589,17 @@ If Aether Wildfire is played during an opponents turn, until end of turn, action
       image: "EVR125.width-450",
       set: Release.Everfest,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS090",
+      image: "LGS090",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS090","EVR125"],
-    sets: [Release.Promos,Release.Everfest],
+    sets: [Release.Everfest,Release.Promos],
     specialImage: "LGS090",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -93625,12 +93631,6 @@ If Aether Wildfire is played during an opponents turn, until end of turn, action
     defaultImage: "EVR126.width-450",
     name: "Emeritus Scolding",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS091",
-      image: "LGS091",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       edition: ReleaseEdition.First,
       identifier: "EVR126",
       image: "EVR126.width-450",
@@ -93642,11 +93642,17 @@ If Aether Wildfire is played during an opponents turn, until end of turn, action
       image: "EVR126.width-450",
       set: Release.Everfest,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS091",
+      image: "LGS091",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS091","EVR126"],
-    sets: [Release.Promos,Release.Everfest],
+    sets: [Release.Everfest,Release.Promos],
     specialImage: "LGS091",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -93678,12 +93684,6 @@ If Aether Wildfire is played during an opponents turn, until end of turn, action
     defaultImage: "EVR127.width-450",
     name: "Emeritus Scolding",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS092",
-      image: "LGS092",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       edition: ReleaseEdition.First,
       identifier: "EVR127",
       image: "EVR127.width-450",
@@ -93695,11 +93695,17 @@ If Aether Wildfire is played during an opponents turn, until end of turn, action
       image: "EVR127.width-450",
       set: Release.Everfest,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS092",
+      image: "LGS092",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS092","EVR127"],
-    sets: [Release.Promos,Release.Everfest],
+    sets: [Release.Everfest,Release.Promos],
     specialImage: "LGS092",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -94370,12 +94376,6 @@ When Miraging Metamorph is destroyed, create a token that's a copy of an aura yo
     defaultImage: "EVR141.width-450",
     name: "Haze Bending",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "LGS093",
-      image: "LGS093",
-      set: Release.Promos,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "EVR141",
       image: "EVR141.width-450",
@@ -94387,11 +94387,17 @@ When Miraging Metamorph is destroyed, create a token that's a copy of an aura yo
       image: "EVR141.width-450",
       set: Release.Everfest,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS093",
+      image: "LGS093",
+      set: Release.Promos,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS093","EVR141"],
-    sets: [Release.Promos,Release.Everfest],
+    sets: [Release.Everfest,Release.Promos],
     specialImage: "EVR141.width-450",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
@@ -94425,12 +94431,6 @@ When Miraging Metamorph is destroyed, create a token that's a copy of an aura yo
     defaultImage: "EVR142.width-450",
     name: "Passing Mirage",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "LGS094",
-      image: "LGS094",
-      set: Release.Promos,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "EVR142",
       image: "EVR142.width-450",
@@ -94442,11 +94442,17 @@ When Miraging Metamorph is destroyed, create a token that's a copy of an aura yo
       image: "EVR142.width-450",
       set: Release.Everfest,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS094",
+      image: "LGS094",
+      set: Release.Promos,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS094","EVR142"],
-    sets: [Release.Promos,Release.Everfest],
+    sets: [Release.Everfest,Release.Promos],
     specialImage: "EVR142.width-450",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
@@ -94480,12 +94486,6 @@ When Miraging Metamorph is destroyed, create a token that's a copy of an aura yo
     defaultImage: "EVR143.width-450",
     name: "Pierce Reality",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "LGS095",
-      image: "LGS095",
-      set: Release.Promos,
-      
-    },{
       edition: ReleaseEdition.First,
       identifier: "EVR143",
       image: "EVR143.width-450",
@@ -94497,11 +94497,17 @@ When Miraging Metamorph is destroyed, create a token that's a copy of an aura yo
       image: "EVR143.width-450",
       set: Release.Everfest,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS095",
+      image: "LGS095",
+      set: Release.Promos,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS095","EVR143"],
-    sets: [Release.Promos,Release.Everfest],
+    sets: [Release.Everfest,Release.Promos],
     specialImage: "EVR143.width-450",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
@@ -95274,12 +95280,6 @@ Until the start of your next turn, attacks that target you have -1{p}.
     defaultImage: "EVR161.width-450",
     name: "Life of the Party",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS084",
-      image: "LGS084",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       edition: ReleaseEdition.First,
       identifier: "EVR161",
       image: "EVR161.width-450",
@@ -95291,11 +95291,17 @@ Until the start of your next turn, attacks that target you have -1{p}.
       image: "EVR161.width-450",
       set: Release.Everfest,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS084",
+      image: "LGS084",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS084","EVR161"],
-    sets: [Release.Promos,Release.Everfest],
+    sets: [Release.Everfest,Release.Promos],
     specialImage: "LGS084",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -95331,12 +95337,6 @@ Until the start of your next turn, attacks that target you have -1{p}.
     defaultImage: "EVR162.width-450",
     name: "Life of the Party",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS085",
-      image: "LGS085",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       edition: ReleaseEdition.First,
       identifier: "EVR162",
       image: "EVR162.width-450",
@@ -95348,11 +95348,17 @@ Until the start of your next turn, attacks that target you have -1{p}.
       image: "EVR162.width-450",
       set: Release.Everfest,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS085",
+      image: "LGS085",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS085","EVR162"],
-    sets: [Release.Promos,Release.Everfest],
+    sets: [Release.Everfest,Release.Promos],
     specialImage: "LGS085",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -95388,12 +95394,6 @@ Until the start of your next turn, attacks that target you have -1{p}.
     defaultImage: "EVR163.width-450",
     name: "Life of the Party",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS086",
-      image: "LGS086",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       edition: ReleaseEdition.First,
       identifier: "EVR163",
       image: "EVR163.width-450",
@@ -95405,11 +95405,17 @@ Until the start of your next turn, attacks that target you have -1{p}.
       image: "EVR163.width-450",
       set: Release.Everfest,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS086",
+      image: "LGS086",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS086","EVR163"],
-    sets: [Release.Promos,Release.Everfest],
+    sets: [Release.Everfest,Release.Promos],
     specialImage: "LGS086",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -95934,12 +95940,6 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     defaultImage: "EVR173.width-450",
     name: "Even Bigger Than That!",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "FAB058",
-      image: "FAB058",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       edition: ReleaseEdition.First,
       identifier: "EVR173",
       image: "EVR173.width-450",
@@ -95951,11 +95951,17 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
       image: "EVR173.width-450",
       set: Release.Everfest,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "FAB058",
+      image: "FAB058",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["FAB058","EVR173"],
-    sets: [Release.Promos,Release.Everfest],
+    sets: [Release.Everfest,Release.Promos],
     specialImage: "FAB058",
     subtypes: [],
     types: [Type.Instant],
@@ -95989,12 +95995,6 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     defaultImage: "EVR174.width-450",
     name: "Even Bigger Than That!",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "FAB059",
-      image: "FAB059",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       edition: ReleaseEdition.First,
       identifier: "EVR174",
       image: "EVR174.width-450",
@@ -96006,11 +96006,17 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
       image: "EVR174.width-450",
       set: Release.Everfest,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "FAB059",
+      image: "FAB059",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["FAB059","EVR174"],
-    sets: [Release.Promos,Release.Everfest],
+    sets: [Release.Everfest,Release.Promos],
     specialImage: "FAB059",
     subtypes: [],
     types: [Type.Instant],
@@ -96044,12 +96050,6 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     defaultImage: "EVR175.width-450",
     name: "Even Bigger Than That!",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "FAB060",
-      image: "FAB060",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       edition: ReleaseEdition.First,
       identifier: "EVR175",
       image: "EVR175.width-450",
@@ -96061,11 +96061,17 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
       image: "EVR175.width-450",
       set: Release.Everfest,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "FAB060",
+      image: "FAB060",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["FAB060","EVR175"],
-    sets: [Release.Promos,Release.Everfest],
+    sets: [Release.Everfest,Release.Promos],
     specialImage: "FAB060",
     subtypes: [],
     types: [Type.Instant],
@@ -96969,10 +96975,10 @@ When a source you control deals exactly 2 damage to an opposing hero, destroy Ta
     defaultImage: "DYN245",
     name: "Silver",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "FAB056",
-      image: "FAB056",
-      set: Release.Promos,
+      
+      identifier: "DYN245",
+      image: "DYN245",
+      set: Release.Dynasty,
       
     },{
       edition: ReleaseEdition.First,
@@ -96987,16 +96993,16 @@ When a source you control deals exactly 2 damage to an opposing hero, destroy Ta
       set: Release.Everfest,
       
     },{
-      
-      identifier: "DYN245",
-      image: "DYN245",
-      set: Release.Dynasty,
+      foiling: Foiling.C,
+      identifier: "FAB056",
+      image: "FAB056",
+      set: Release.Promos,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB056","EVR195","DYN245"],
-    sets: [Release.Promos,Release.Everfest,Release.Dynasty],
+    sets: [Release.Dynasty,Release.Everfest,Release.Promos],
     specialImage: "EVR195.width-450",
     subtypes: [Subtype.Item],
     types: [Type.Token],
@@ -97080,7 +97086,7 @@ When a source you control deals exactly 2 damage to an opposing hero, destroy Ta
     setIdentifiers: ["DVR002"],
     sets: [Release.ClassicBattlesRhinarDorinthea],
     specialImage: "DVR002.width-450",
-    subtypes: [Subtype.Sword,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Sword],
     types: [Type.Weapon],
     typeText: "Warrior Weapon – Sword (2H)",
 
@@ -97109,14 +97115,14 @@ The second time you attack with Dawnblade each turn, it gains +1{p} until end of
     artists: ["Andy Aslamov"],
     cardIdentifier: "blossom-of-spring",
     classes: [Class.Generic],
-    defaultImage: "DVR004.width-450",
+    defaultImage: "RVD004.width-450",
     name: "Blossom of Spring",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "LGS100",
-      image: "LGS100",
-      set: Release.Promos,
-      treatment: Treatment.EA,
+      
+      identifier: "ARA004",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
     },{
       foiling: Foiling.R,
       identifier: "DVR004",
@@ -97124,28 +97130,28 @@ The second time you attack with Dawnblade each turn, it gains +1{p} until end of
       set: Release.ClassicBattlesRhinarDorinthea,
       
     },{
-      foiling: Foiling.R,
-      identifier: "RVD004",
-      image: "RVD004.width-450",
-      set: Release.ClassicBattlesRhinarDorinthea,
-      
-    },{
-      
-      identifier: "ARA004",
-      image: "",
-      set: Release.ArakniBlitzDeck,
-      
-    },{
       
       identifier: "KAT004",
       image: "",
       set: Release.KatsuBlitzDeck,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS100",
+      image: "LGS100",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      foiling: Foiling.R,
+      identifier: "RVD004",
+      image: "RVD004.width-450",
+      set: Release.ClassicBattlesRhinarDorinthea,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS100","DVR004","RVD004","ARA004","KAT004"],
-    sets: [Release.Promos,Release.ClassicBattlesRhinarDorinthea,Release.ArakniBlitzDeck,Release.KatsuBlitzDeck],
+    sets: [Release.ArakniBlitzDeck,Release.ClassicBattlesRhinarDorinthea,Release.KatsuBlitzDeck,Release.Promos],
     specialImage: "LGS100",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -97248,7 +97254,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
     
     
     
-    keywords: [Keyword.Specialization,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Specialization],
     
     
     pitch: 2,
@@ -97310,23 +97316,23 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
     defaultImage: "DVR013.width-450",
     name: "Run Through",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS102",
-      image: "LGS102",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "DVR013",
       image: "DVR013.width-450",
       set: Release.ClassicBattlesRhinarDorinthea,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS102",
+      image: "LGS102",
+      set: Release.Promos,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS102","DVR013"],
-    sets: [Release.Promos,Release.ClassicBattlesRhinarDorinthea],
-    specialImage: "LGS102",
+    sets: [Release.ClassicBattlesRhinarDorinthea,Release.Promos],
+    specialImage: "DVR013.width-450",
     subtypes: [],
     types: [Type.AttackReaction],
     typeText: "Warrior Attack Reaction",
@@ -97626,7 +97632,7 @@ Your next sword attack this turn gains +2{p}.`,
     setIdentifiers: ["RVD002"],
     sets: [Release.ClassicBattlesRhinarDorinthea],
     specialImage: "RVD002.width-450",
-    subtypes: [Subtype.Club,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Club],
     types: [Type.Weapon],
     typeText: "Brute Weapon – Club (2H)",
 
@@ -97668,10 +97674,10 @@ Your next sword attack this turn gains +2{p}.`,
       set: Release.ClassicBattlesRhinarDorinthea,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB106","RVD003"],
-    sets: [Release.Promos,Release.ClassicBattlesRhinarDorinthea],
+    sets: [Release.ClassicBattlesRhinarDorinthea,Release.Promos],
     specialImage: "RVD003.width-450",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -97804,7 +97810,7 @@ While Ruk'utan is face up in arsenal, whenever you play a card with 6 or more {p
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS101","RVD013"],
-    sets: [Release.Promos,Release.ClassicBattlesRhinarDorinthea],
+    sets: [Release.ClassicBattlesRhinarDorinthea,Release.Promos],
     specialImage: "LGS101",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -97942,7 +97948,7 @@ While Ruk'utan is face up in arsenal, whenever you play a card with 6 or more {p
     
     
     
-    keywords: [Keyword.Intimidate,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Intimidate],
     
     
     pitch: 3,
@@ -98002,13 +98008,13 @@ While Ruk'utan is face up in arsenal, whenever you play a card with 6 or more {p
     defaultImage: "UPR000",
     name: "Blood of the Dracai",
     printings: [{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "UPR000",
       image: "UPR000",
       set: Release.Uprising,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "UPR000",
       image: "UPR000",
       set: Release.Uprising,
@@ -98063,16 +98069,16 @@ When you pitch Blood of the Dracai, the next 3 Draconic cards you play this turn
       set: Release.Promos,
       
     },{
-      foiling: Foiling.G,
-      identifier: "WIN018",
-      image: "",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "UPR001",
       image: "UPR001",
       set: Release.Uprising,
+      
+    },{
+      foiling: Foiling.G,
+      identifier: "WIN018",
+      image: "",
+      set: Release.Promos,
       
     },],
     rarities: [Rarity.Promo,Rarity.Token],
@@ -98112,16 +98118,16 @@ If you've played a red card this turn, dragons you control have **go again** whi
     defaultImage: "UPR002",
     name: "Dromai",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "HER062",
-      image: "HER062",
-      set: Release.Promos,
-      
-    },{
       foiling: Foiling.R,
       identifier: "DRO001",
       image: "DRO001.width-450",
       set: Release.DromaiBlitzDeck,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "HER062",
+      image: "HER062",
+      set: Release.Promos,
       
     },{
       
@@ -98133,8 +98139,8 @@ If you've played a red card this turn, dragons you control have **go again** whi
     rarities: [Rarity.Promo,Rarity.Rare,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER062","DRO001","UPR002"],
-    sets: [Release.Promos,Release.DromaiBlitzDeck,Release.Uprising],
-    specialImage: "HER062",
+    sets: [Release.DromaiBlitzDeck,Release.Promos,Release.Uprising],
+    specialImage: "DRO001.width-450",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Draconic Illusionist Hero – Young",
@@ -98167,16 +98173,16 @@ If you've played a red card this turn, dragons you control have **go again** whi
     defaultImage: "UPR003",
     name: "Storm of Sandikai",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "LGS107",
-      image: "LGS107",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "DRO004",
       image: "DRO004.width-450",
       set: Release.DromaiBlitzDeck,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS107",
+      image: "LGS107",
+      set: Release.Promos,
       
     },{
       
@@ -98185,12 +98191,12 @@ If you've played a red card this turn, dragons you control have **go again** whi
       set: Release.Uprising,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS107","DRO004","UPR003"],
-    sets: [Release.Promos,Release.DromaiBlitzDeck,Release.Uprising],
-    specialImage: "LGS107",
-    subtypes: [Subtype.Scepter,Subtype.TwoHanded],
+    sets: [Release.DromaiBlitzDeck,Release.Promos,Release.Uprising],
+    specialImage: "DRO004.width-450",
+    subtypes: [Subtype.TwoHanded,Subtype.Scepter],
     types: [Type.Weapon],
     typeText: "Draconic Illusionist Weapon – Scepter (2H)",
 
@@ -98232,17 +98238,17 @@ If you've played a red card this turn, dragons you control have **go again** whi
       set: Release.Uprising,
       
     },{
-      foiling: Foiling.R,
-      identifier: "UPR004",
-      image: "UPR004",
-      set: Release.Uprising,
-      
-    },{
       foiling: Foiling.C,
       identifier: "UPR004",
       image: "UPR004_CF",
       set: Release.Uprising,
       treatment: Treatment.AT,
+    },{
+      foiling: Foiling.R,
+      identifier: "UPR004",
+      image: "UPR004",
+      set: Release.Uprising,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -98287,13 +98293,13 @@ If you've played a red card this turn, dragons you control have **go again** whi
       set: Release.Uprising,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "UPR005",
       image: "UPR005",
       set: Release.Uprising,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "UPR005",
       image: "UPR005",
       set: Release.Uprising,
@@ -98368,7 +98374,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     
     
     
-    keywords: [Keyword.Legendary,Keyword.Transform,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Legendary,Keyword.Transform],
     
     oppositeSideCardIdentifier: `dracona-optimai`,
     pitch: 1,
@@ -98404,7 +98410,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     setIdentifiers: ["UPR006"],
     sets: [Release.Uprising],
     specialImage: "UPR006_B_Back",
-    subtypes: [Subtype.Dragon,Subtype.Ally],
+    subtypes: [Subtype.Ally,Subtype.Dragon],
     types: [],
     typeText: "Draconic Illusionist – Dragon Ally",
 
@@ -98464,7 +98470,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     
     
     
-    keywords: [Keyword.Legendary,Keyword.Transform,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Legendary,Keyword.Transform],
     
     oppositeSideCardIdentifier: `tomeltai`,
     pitch: 1,
@@ -98500,7 +98506,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     setIdentifiers: ["UPR007"],
     sets: [Release.Uprising],
     specialImage: "UPR007_B_Back",
-    subtypes: [Subtype.Dragon,Subtype.Ally],
+    subtypes: [Subtype.Ally,Subtype.Dragon],
     types: [],
     typeText: "Draconic Illusionist – Dragon Ally",
 
@@ -98560,7 +98566,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     
     
     
-    keywords: [Keyword.Legendary,Keyword.Transform,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Legendary,Keyword.Transform],
     
     oppositeSideCardIdentifier: `dominia`,
     pitch: 1,
@@ -98596,7 +98602,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     setIdentifiers: ["UPR008"],
     sets: [Release.Uprising],
     specialImage: "UPR008_B_Back",
-    subtypes: [Subtype.Dragon,Subtype.Ally],
+    subtypes: [Subtype.Ally,Subtype.Dragon],
     types: [],
     typeText: "Draconic Illusionist – Dragon Ally",
 
@@ -98638,7 +98644,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       set: Release.Uprising,
       treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Rare,Rarity.Marvel],
+    rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR009"],
     sets: [Release.Uprising],
@@ -98654,7 +98660,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     
     
     
-    keywords: [Keyword.Transform,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Transform],
     
     oppositeSideCardIdentifier: `azvolai`,
     pitch: 1,
@@ -98685,12 +98691,12 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       set: Release.Uprising,
       treatment: Treatment.FA,
     },],
-    rarities: [Rarity.Rare,Rarity.Marvel],
+    rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR009"],
     sets: [Release.Uprising],
     specialImage: "UPR009_B_Back",
-    subtypes: [Subtype.Dragon,Subtype.Ally],
+    subtypes: [Subtype.Ally,Subtype.Dragon],
     types: [],
     typeText: "Draconic Illusionist – Dragon Ally",
 
@@ -98732,7 +98738,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       set: Release.Uprising,
       treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Rare,Rarity.Marvel],
+    rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR010"],
     sets: [Release.Uprising],
@@ -98748,7 +98754,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     
     
     
-    keywords: [Keyword.Transform,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Transform],
     
     oppositeSideCardIdentifier: `cromai`,
     pitch: 1,
@@ -98779,12 +98785,12 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       set: Release.Uprising,
       treatment: Treatment.FA,
     },],
-    rarities: [Rarity.Rare,Rarity.Marvel],
+    rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR010"],
     sets: [Release.Uprising],
     specialImage: "UPR010_B_Back",
-    subtypes: [Subtype.Dragon,Subtype.Ally],
+    subtypes: [Subtype.Ally,Subtype.Dragon],
     types: [],
     typeText: "Draconic Illusionist – Dragon Ally",
 
@@ -98826,7 +98832,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       set: Release.Uprising,
       treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Rare,Rarity.Marvel],
+    rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR011"],
     sets: [Release.Uprising],
@@ -98842,7 +98848,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     
     
     
-    keywords: [Keyword.Transform,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Transform],
     
     oppositeSideCardIdentifier: `kyloria`,
     pitch: 1,
@@ -98873,12 +98879,12 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       set: Release.Uprising,
       treatment: Treatment.FA,
     },],
-    rarities: [Rarity.Rare,Rarity.Marvel],
+    rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR011"],
     sets: [Release.Uprising],
     specialImage: "UPR011_B_Back",
-    subtypes: [Subtype.Dragon,Subtype.Ally],
+    subtypes: [Subtype.Ally,Subtype.Dragon],
     types: [],
     typeText: "Draconic Illusionist – Dragon Ally",
 
@@ -98920,7 +98926,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       set: Release.Uprising,
       treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Rare,Rarity.Marvel],
+    rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR012"],
     sets: [Release.Uprising],
@@ -98936,7 +98942,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     
     
     
-    keywords: [Keyword.Transform,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Transform],
     
     oppositeSideCardIdentifier: `miragai`,
     pitch: 1,
@@ -98967,12 +98973,12 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       set: Release.Uprising,
       treatment: Treatment.FA,
     },],
-    rarities: [Rarity.Rare,Rarity.Marvel],
+    rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR012"],
     sets: [Release.Uprising],
     specialImage: "UPR012_B_Back",
-    subtypes: [Subtype.Dragon,Subtype.Ally],
+    subtypes: [Subtype.Ally,Subtype.Dragon],
     types: [],
     typeText: "Draconic Illusionist – Dragon Ally",
 
@@ -99014,7 +99020,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       set: Release.Uprising,
       treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Rare,Rarity.Marvel],
+    rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR013"],
     sets: [Release.Uprising],
@@ -99030,7 +99036,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     
     
     
-    keywords: [Keyword.Transform,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Transform],
     
     oppositeSideCardIdentifier: `nekria`,
     pitch: 1,
@@ -99061,12 +99067,12 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       set: Release.Uprising,
       treatment: Treatment.FA,
     },],
-    rarities: [Rarity.Rare,Rarity.Marvel],
+    rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR013"],
     sets: [Release.Uprising],
     specialImage: "UPR013_B_Back",
-    subtypes: [Subtype.Dragon,Subtype.Ally],
+    subtypes: [Subtype.Ally,Subtype.Dragon],
     types: [],
     typeText: "Draconic Illusionist – Dragon Ally",
 
@@ -99108,7 +99114,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       set: Release.Uprising,
       treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Rare,Rarity.Marvel],
+    rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR014"],
     sets: [Release.Uprising],
@@ -99124,7 +99130,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     
     
     
-    keywords: [Keyword.Transform,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Transform],
     
     oppositeSideCardIdentifier: `ouvia`,
     pitch: 1,
@@ -99155,12 +99161,12 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       set: Release.Uprising,
       treatment: Treatment.FA,
     },],
-    rarities: [Rarity.Rare,Rarity.Marvel],
+    rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR014"],
     sets: [Release.Uprising],
     specialImage: "UPR014_B_Back",
-    subtypes: [Subtype.Dragon,Subtype.Ally],
+    subtypes: [Subtype.Ally,Subtype.Dragon],
     types: [],
     typeText: "Draconic Illusionist – Dragon Ally",
 
@@ -99202,7 +99208,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       set: Release.Uprising,
       treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Rare,Rarity.Marvel],
+    rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR015"],
     sets: [Release.Uprising],
@@ -99218,7 +99224,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     
     
     
-    keywords: [Keyword.Transform,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Transform],
     
     oppositeSideCardIdentifier: `themai`,
     pitch: 1,
@@ -99249,12 +99255,12 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       set: Release.Uprising,
       treatment: Treatment.FA,
     },],
-    rarities: [Rarity.Rare,Rarity.Marvel],
+    rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR015"],
     sets: [Release.Uprising],
     specialImage: "UPR015_B_Back",
-    subtypes: [Subtype.Dragon,Subtype.Ally],
+    subtypes: [Subtype.Ally,Subtype.Dragon],
     types: [],
     typeText: "Draconic Illusionist – Dragon Ally",
 
@@ -99296,7 +99302,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       set: Release.Uprising,
       treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Rare,Rarity.Marvel],
+    rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR016"],
     sets: [Release.Uprising],
@@ -99312,7 +99318,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     
     
     
-    keywords: [Keyword.Transform,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Transform],
     
     oppositeSideCardIdentifier: `vynserakai`,
     pitch: 1,
@@ -99343,12 +99349,12 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       set: Release.Uprising,
       treatment: Treatment.FA,
     },],
-    rarities: [Rarity.Rare,Rarity.Marvel],
+    rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR016"],
     sets: [Release.Uprising],
     specialImage: "UPR016_B_Back",
-    subtypes: [Subtype.Dragon,Subtype.Ally],
+    subtypes: [Subtype.Ally,Subtype.Dragon],
     types: [],
     typeText: "Draconic Illusionist – Dragon Ally",
 
@@ -99390,7 +99396,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       set: Release.Uprising,
       treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Rare,Rarity.Marvel],
+    rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR017"],
     sets: [Release.Uprising],
@@ -99406,7 +99412,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     
     
     
-    keywords: [Keyword.Transform,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Transform],
     
     oppositeSideCardIdentifier: `yendurai`,
     pitch: 1,
@@ -99437,12 +99443,12 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
       set: Release.Uprising,
       treatment: Treatment.FA,
     },],
-    rarities: [Rarity.Rare,Rarity.Marvel],
+    rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["UPR017"],
     sets: [Release.Uprising],
     specialImage: "UPR017_B_Back",
-    subtypes: [Subtype.Dragon,Subtype.Ally],
+    subtypes: [Subtype.Ally,Subtype.Dragon],
     types: [],
     typeText: "Draconic Illusionist – Dragon Ally",
 
@@ -99510,7 +99516,7 @@ If Yendurai would be dealt damage, remove an endurance counter from him to preve
     
     
     
-    keywords: [Keyword.Transform,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Transform],
     
     
     pitch: 1,
@@ -99559,7 +99565,7 @@ If Yendurai would be dealt damage, remove an endurance counter from him to preve
     
     
     
-    keywords: [Keyword.Transform,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Transform],
     
     
     pitch: 2,
@@ -99608,7 +99614,7 @@ If Yendurai would be dealt damage, remove an endurance counter from him to preve
     
     
     
-    keywords: [Keyword.Transform,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Transform],
     
     
     pitch: 3,
@@ -99665,7 +99671,7 @@ When Dunebreaker Cenipai is destroyed, create an Ash token.
     
     
     
-    keywords: [Keyword.Phantasm,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Phantasm],
     
     
     pitch: 1,
@@ -99716,7 +99722,7 @@ When Dunebreaker Cenipai is destroyed, create an Ash token.
     
     
     
-    keywords: [Keyword.Phantasm,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Phantasm],
     
     
     pitch: 2,
@@ -99767,7 +99773,7 @@ When Dunebreaker Cenipai is destroyed, create an Ash token.
     
     
     
-    keywords: [Keyword.Phantasm,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Phantasm],
     
     
     pitch: 3,
@@ -100281,7 +100287,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
     
     
     
-    keywords: [Keyword.Transform,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Transform],
     
     
     pitch: 1,
@@ -100330,7 +100336,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
     
     
     
-    keywords: [Keyword.Transform,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Transform],
     
     
     pitch: 2,
@@ -100379,7 +100385,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
     
     
     
-    keywords: [Keyword.Transform,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Transform],
     
     
     pitch: 3,
@@ -100434,7 +100440,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
     
     
     
-    keywords: [Keyword.Transform,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Transform],
     
     
     pitch: 1,
@@ -100483,7 +100489,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
     
     
     
-    keywords: [Keyword.Transform,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Transform],
     
     
     pitch: 2,
@@ -100532,7 +100538,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
     
     
     
-    keywords: [Keyword.Transform,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Transform],
     
     
     pitch: 3,
@@ -100569,7 +100575,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
       set: Release.Uprising,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB090","UPR039"],
     sets: [Release.Promos,Release.Uprising],
@@ -100712,22 +100718,22 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
     },{
       foiling: Foiling.C,
       identifier: "UPR042",
-      image: "UPR042_B",
-      set: Release.Uprising,
-      treatment: Treatment.AT,
-    },{
-      foiling: Foiling.C,
-      identifier: "UPR042",
       image: "UPR042_CF",
       set: Release.Uprising,
       treatment: Treatment.AA,
+    },{
+      foiling: Foiling.C,
+      identifier: "UPR042",
+      image: "UPR042_B",
+      set: Release.Uprising,
+      treatment: Treatment.AT,
     },],
-    rarities: [Rarity.Token,Rarity.Common,Rarity.Marvel],
+    rarities: [Rarity.Common,Rarity.Marvel,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["DRO003","UPR042"],
     sets: [Release.DromaiBlitzDeck,Release.Uprising],
     specialImage: "UPR042_CF",
-    subtypes: [Subtype.Dragon,Subtype.Ally],
+    subtypes: [Subtype.Ally,Subtype.Dragon],
     types: [Type.Token],
     typeText: "Draconic Illusionist Token – Dragon Ally",
 
@@ -100771,17 +100777,17 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
     },{
       foiling: Foiling.C,
       identifier: "UPR043",
-      image: "UPR043_B",
-      set: Release.Uprising,
-      treatment: Treatment.AT,
-    },{
-      foiling: Foiling.C,
-      identifier: "UPR043",
       image: "UPR043_CF",
       set: Release.Uprising,
       treatment: Treatment.AA,
+    },{
+      foiling: Foiling.C,
+      identifier: "UPR043",
+      image: "UPR043_B",
+      set: Release.Uprising,
+      treatment: Treatment.AT,
     },],
-    rarities: [Rarity.Token,Rarity.Common,Rarity.Marvel],
+    rarities: [Rarity.Common,Rarity.Marvel,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["DRO002","UPR043"],
     sets: [Release.DromaiBlitzDeck,Release.Uprising],
@@ -100828,16 +100834,16 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
       set: Release.Promos,
       
     },{
-      foiling: Foiling.G,
-      identifier: "WIN017",
-      image: "",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "UPR044",
       image: "UPR044",
       set: Release.Uprising,
+      
+    },{
+      foiling: Foiling.G,
+      identifier: "WIN017",
+      image: "",
+      set: Release.Promos,
       
     },],
     rarities: [Rarity.Promo,Rarity.Token],
@@ -100877,16 +100883,16 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
     defaultImage: "UPR045",
     name: "Fai",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "HER061",
-      image: "HER061",
-      set: Release.Promos,
-      
-    },{
       foiling: Foiling.R,
       identifier: "FAI001",
       image: "",
       set: Release.FaiBlitzDeck,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "HER061",
+      image: "HER061",
+      set: Release.Promos,
       
     },{
       
@@ -100898,7 +100904,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
     rarities: [Rarity.Promo,Rarity.Rare,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER061","FAI001","UPR045"],
-    sets: [Release.Promos,Release.FaiBlitzDeck,Release.Uprising],
+    sets: [Release.FaiBlitzDeck,Release.Promos,Release.Uprising],
     specialImage: "HER061",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -100932,16 +100938,16 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
     defaultImage: "UPR046",
     name: "Searing Emberblade",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "LGS105",
-      image: "LGS105",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "FAI002",
       image: "",
       set: Release.FaiBlitzDeck,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS105",
+      image: "LGS105",
+      set: Release.Promos,
       
     },{
       
@@ -100950,12 +100956,12 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
       set: Release.Uprising,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS105","FAI002","UPR046"],
-    sets: [Release.Promos,Release.FaiBlitzDeck,Release.Uprising],
+    sets: [Release.FaiBlitzDeck,Release.Promos,Release.Uprising],
     specialImage: "LGS105",
-    subtypes: [Subtype.Sword,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Sword],
     types: [Type.Weapon],
     typeText: "Draconic Ninja Weapon – Sword (2H)",
 
@@ -100999,13 +101005,13 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
       set: Release.Uprising,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "UPR047",
       image: "UPR047",
       set: Release.Uprising,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "UPR047",
       image: "UPR047",
       set: Release.Uprising,
@@ -102864,19 +102870,19 @@ You may return a Phoenix Flame from your graveyard to your hand.
       set: Release.Promos,
       
     },{
-      foiling: Foiling.R,
-      identifier: "UPR084",
-      image: "UPR084",
-      set: Release.Uprising,
-      
-    },{
       foiling: Foiling.C,
       identifier: "UPR084",
       image: "UPR084",
       set: Release.Uprising,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "UPR084",
+      image: "UPR084",
+      set: Release.Uprising,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB087","UPR084"],
     sets: [Release.Promos,Release.Uprising],
@@ -102925,13 +102931,13 @@ You may return a Phoenix Flame from your graveyard to your hand.
       set: Release.Uprising,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "UPR085",
       image: "UPR085",
       set: Release.Uprising,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "UPR085",
       image: "UPR085",
       set: Release.Uprising,
@@ -103168,17 +103174,17 @@ Draw 2 cards.`,
     defaultImage: "UPR090",
     name: "Red Hot",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS108",
-      image: "LGS108",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       
       identifier: "DRO009",
       image: "DRO009.width-450",
       set: Release.DromaiBlitzDeck,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS108",
+      image: "LGS108",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },{
       
       identifier: "UPR090",
@@ -103195,7 +103201,7 @@ Draw 2 cards.`,
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS108","DRO009","UPR090"],
-    sets: [Release.Promos,Release.DromaiBlitzDeck,Release.Uprising],
+    sets: [Release.DromaiBlitzDeck,Release.Promos,Release.Uprising],
     specialImage: "LGS108",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -103210,7 +103216,7 @@ Draw 2 cards.`,
     
     
     
-    keywords: [Keyword.Specialization,Keyword.Rupture],
+    keywords: [Keyword.Rupture,Keyword.Specialization],
     
     
     pitch: 1,
@@ -103229,17 +103235,17 @@ Draw 2 cards.`,
     defaultImage: "UPR091",
     name: "Rise Up",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS106",
-      image: "LGS106",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       
       identifier: "FAI007",
       image: "",
       set: Release.FaiBlitzDeck,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS106",
+      image: "LGS106",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },{
       
       identifier: "UPR091",
@@ -103256,7 +103262,7 @@ Draw 2 cards.`,
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS106","FAI007","UPR091"],
-    sets: [Release.Promos,Release.FaiBlitzDeck,Release.Uprising],
+    sets: [Release.FaiBlitzDeck,Release.Promos,Release.Uprising],
     specialImage: "LGS106",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -103271,7 +103277,7 @@ Draw 2 cards.`,
     
     
     
-    keywords: [Keyword.Specialization,Keyword.Rupture,Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.Rupture,Keyword.Specialization],
     
     
     pitch: 1,
@@ -103314,10 +103320,10 @@ Draw 2 cards.`,
       set: Release.Uprising,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB089","FAI010","UPR092"],
-    sets: [Release.Promos,Release.FaiBlitzDeck,Release.Uprising],
+    sets: [Release.FaiBlitzDeck,Release.Promos,Release.Uprising],
     specialImage: "FAB089",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -103367,7 +103373,7 @@ Draw 2 cards.`,
       set: Release.Uprising,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB091","UPR093"],
     sets: [Release.Promos,Release.Uprising],
@@ -103786,17 +103792,17 @@ Draw 2 cards.`,
     defaultImage: "UPR101",
     name: "Phoenix Flame",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS104",
-      image: "LGS104",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
       
       identifier: "FAI008",
       image: "",
       set: Release.FaiBlitzDeck,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS104",
+      image: "LGS104",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },{
       
       identifier: "UPR101",
@@ -103810,10 +103816,10 @@ Draw 2 cards.`,
       set: Release.Uprising,
       treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Promo,Rarity.Common,Rarity.Token,Rarity.Marvel],
+    rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS104","FAI008","UPR101"],
-    sets: [Release.Promos,Release.FaiBlitzDeck,Release.Uprising],
+    sets: [Release.FaiBlitzDeck,Release.Promos,Release.Uprising],
     specialImage: "LGS104",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -103861,16 +103867,16 @@ If you control 2 or more Draconic chain links, Phoenix Flame has +1{p}.
       set: Release.Promos,
       
     },{
-      foiling: Foiling.G,
-      identifier: "WIN019",
-      image: "",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "UPR102",
       image: "UPR102",
       set: Release.Uprising,
+      
+    },{
+      foiling: Foiling.G,
+      identifier: "WIN019",
+      image: "",
+      set: Release.Promos,
       
     },],
     rarities: [Rarity.Promo,Rarity.Token],
@@ -103942,7 +103948,7 @@ Deal 3 arcane damage to any target. If Encase was **fused** and deals damage to 
     
     
     
-    keywords: [Keyword.Fusion,Keyword.Freeze],
+    keywords: [Keyword.Freeze,Keyword.Fusion],
     
     
     pitch: 1,
@@ -104195,7 +104201,7 @@ Create X Frostbite tokens under target hero's control. Then, if Ice Eternal was 
     
     
     
-    keywords: [Keyword.Specialization,Keyword.Fusion],
+    keywords: [Keyword.Fusion,Keyword.Specialization],
     
     
     pitch: 3,
@@ -104685,7 +104691,7 @@ Deal 3 arcane damage to any target. If Icebind was **fused** and deals damage to
     
     
     
-    keywords: [Keyword.Fusion,Keyword.Freeze],
+    keywords: [Keyword.Freeze,Keyword.Fusion],
     
     
     pitch: 1,
@@ -104734,7 +104740,7 @@ Deal 2 arcane damage to any target. If Icebind was **fused** and deals damage to
     
     
     
-    keywords: [Keyword.Fusion,Keyword.Freeze],
+    keywords: [Keyword.Freeze,Keyword.Fusion],
     
     
     pitch: 2,
@@ -104783,7 +104789,7 @@ Deal 1 arcane damage to any target. If Icebind was **fused** and deals damage to
     
     
     
-    keywords: [Keyword.Fusion,Keyword.Freeze],
+    keywords: [Keyword.Freeze,Keyword.Fusion],
     
     
     pitch: 3,
@@ -104955,13 +104961,13 @@ Deal 2 arcane damage to any target. If Polar Cap was **fused** and deals damage 
       set: Release.Uprising,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "UPR125",
       image: "UPR125",
       set: Release.Uprising,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "UPR125",
       image: "UPR125",
       set: Release.Uprising,
@@ -105010,24 +105016,24 @@ Deal 2 arcane damage to any target. If Polar Cap was **fused** and deals damage 
       set: Release.Uprising,
       
     },{
-      foiling: Foiling.R,
-      identifier: "UPR126",
-      image: "UPR126",
-      set: Release.Uprising,
-      
-    },{
       foiling: Foiling.C,
       identifier: "UPR126",
       image: "UPR126_CF",
       set: Release.Uprising,
       treatment: Treatment.AT,
+    },{
+      foiling: Foiling.R,
+      identifier: "UPR126",
+      image: "UPR126",
+      set: Release.Uprising,
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["UPR126"],
     sets: [Release.Uprising],
     specialImage: "UPR126_CF",
-    subtypes: [Subtype.Aura,Subtype.Affliction,Subtype.NonAttack],
+    subtypes: [Subtype.Affliction,Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Wizard Action – Affliction Aura",
 
@@ -105488,19 +105494,19 @@ Frostbites you control have "At the beginning of your end phase, this deals 1 ar
       set: Release.Promos,
       
     },{
-      foiling: Foiling.R,
-      identifier: "UPR136",
-      image: "UPR136",
-      set: Release.Uprising,
-      
-    },{
       foiling: Foiling.C,
       identifier: "UPR136",
       image: "UPR136",
       set: Release.Uprising,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "UPR136",
+      image: "UPR136",
+      set: Release.Uprising,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB086","UPR136"],
     sets: [Release.Promos,Release.Uprising],
@@ -105543,13 +105549,13 @@ Frostbites you control have "At the beginning of your end phase, this deals 1 ar
       set: Release.Uprising,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "UPR137",
       image: "UPR137",
       set: Release.Uprising,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "UPR137",
       image: "UPR137",
       set: Release.Uprising,
@@ -105622,7 +105628,7 @@ Heroes can't reveal cards, search decks, or draw cards from effects.
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.Channel],
+    keywords: [Keyword.Channel,Keyword.GoAgain],
     
     
     pitch: 3,
@@ -105658,7 +105664,7 @@ Heroes can't reveal cards, search decks, or draw cards from effects.
     setIdentifiers: ["UPR139"],
     sets: [Release.Uprising],
     specialImage: "UPR139",
-    subtypes: [Subtype.Aura,Subtype.Affliction,Subtype.NonAttack],
+    subtypes: [Subtype.Affliction,Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Ice Action – Affliction Aura",
 
@@ -106059,7 +106065,7 @@ If Cold Snap is played from arsenal, draw a card.
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.Freeze],
+    keywords: [Keyword.Freeze,Keyword.GoAgain],
     
     
     pitch: 1,
@@ -106110,7 +106116,7 @@ If Cold Snap is played from arsenal, draw a card.
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.Freeze],
+    keywords: [Keyword.Freeze,Keyword.GoAgain],
     
     
     pitch: 2,
@@ -106161,7 +106167,7 @@ If Cold Snap is played from arsenal, draw a card.
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.Freeze],
+    keywords: [Keyword.Freeze,Keyword.GoAgain],
     
     
     pitch: 3,
@@ -106186,19 +106192,19 @@ If Cold Snap is played from arsenal, draw a card.
       set: Release.Promos,
       
     },{
-      foiling: Foiling.R,
-      identifier: "UPR151",
-      image: "UPR151",
-      set: Release.Uprising,
-      
-    },{
       foiling: Foiling.C,
       identifier: "UPR151",
       image: "UPR151",
       set: Release.Uprising,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "UPR151",
+      image: "UPR151",
+      set: Release.Uprising,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB085","UPR151"],
     sets: [Release.Promos,Release.Uprising],
@@ -106241,13 +106247,13 @@ If Cold Snap is played from arsenal, draw a card.
       set: Release.Uprising,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "UPR152",
       image: "UPR152",
       set: Release.Uprising,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "UPR152",
       image: "UPR152",
       set: Release.Uprising,
@@ -106539,19 +106545,19 @@ If Cold Snap is played from arsenal, draw a card.
       set: Release.Promos,
       
     },{
-      foiling: Foiling.R,
-      identifier: "UPR158",
-      image: "UPR158",
-      set: Release.Uprising,
-      
-    },{
       foiling: Foiling.C,
       identifier: "UPR158",
       image: "UPR158",
       set: Release.Uprising,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "UPR158",
+      image: "UPR158",
+      set: Release.Uprising,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB083","UPR158"],
     sets: [Release.Promos,Release.Uprising],
@@ -106594,13 +106600,13 @@ If Cold Snap is played from arsenal, draw a card.
       set: Release.Uprising,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "UPR159",
       image: "UPR159",
       set: Release.Uprising,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "UPR159",
       image: "UPR159",
       set: Release.Uprising,
@@ -106897,7 +106903,7 @@ If Cold Snap is played from arsenal, draw a card.
     setIdentifiers: ["LGS109","UPR165"],
     sets: [Release.Promos,Release.Uprising],
     specialImage: "LGS109",
-    subtypes: [Subtype.Staff,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Staff],
     types: [Type.Weapon],
     typeText: "Wizard Weapon – Staff (2H)",
 
@@ -106933,19 +106939,19 @@ If Cold Snap is played from arsenal, draw a card.
       set: Release.Promos,
       
     },{
-      foiling: Foiling.R,
-      identifier: "UPR166",
-      image: "UPR166",
-      set: Release.Uprising,
-      
-    },{
       foiling: Foiling.C,
       identifier: "UPR166",
       image: "UPR166",
       set: Release.Uprising,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "UPR166",
+      image: "UPR166",
+      set: Release.Uprising,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB084","UPR166"],
     sets: [Release.Promos,Release.Uprising],
@@ -106990,13 +106996,13 @@ If Cold Snap is played from arsenal, draw a card.
       set: Release.Uprising,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "UPR167",
       image: "UPR167",
       set: Release.Uprising,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "UPR167",
       image: "UPR167",
       set: Release.Uprising,
@@ -107539,7 +107545,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
       set: Release.Uprising,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB092","UPR178"],
     sets: [Release.Promos,Release.Uprising],
@@ -107727,13 +107733,13 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
       set: Release.Promos,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "UPR182",
       image: "UPR182",
       set: Release.Uprising,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "UPR182",
       image: "UPR182",
       set: Release.Uprising,
@@ -107837,13 +107843,13 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
       set: Release.Uprising,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "UPR184",
       image: "UPR184",
       set: Release.Uprising,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "UPR184",
       image: "UPR184",
       set: Release.Uprising,
@@ -107896,13 +107902,13 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
       set: Release.Uprising,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "UPR185",
       image: "UPR185",
       set: Release.Uprising,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "UPR185",
       image: "UPR185",
       set: Release.Uprising,
@@ -107950,12 +107956,12 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
       
     },{
       
-      identifier: "UPR186",
-      image: "UPR186",
-      set: Release.Uprising,
+      identifier: "KAT006",
+      image: "",
+      set: Release.KatsuBlitzDeck,
       
     },{
-      foiling: Foiling.R,
+      
       identifier: "UPR186",
       image: "UPR186",
       set: Release.Uprising,
@@ -107967,16 +107973,16 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
       set: Release.Uprising,
       
     },{
-      
-      identifier: "KAT006",
-      image: "",
-      set: Release.KatsuBlitzDeck,
+      foiling: Foiling.R,
+      identifier: "UPR186",
+      image: "UPR186",
+      set: Release.Uprising,
       
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["FAI006","UPR186","KAT006"],
-    sets: [Release.FaiBlitzDeck,Release.Uprising,Release.KatsuBlitzDeck],
+    sets: [Release.FaiBlitzDeck,Release.KatsuBlitzDeck,Release.Uprising],
     specialImage: "UPR186",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -108892,7 +108898,7 @@ At the beginning of your action phase, destroy Fog Down.`,
       set: Release.Uprising,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB093","UPR205"],
     sets: [Release.Promos,Release.Uprising],
@@ -109668,12 +109674,6 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
     defaultImage: "DYN001",
     name: "Emperor, Dracai of Aesir",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "DYN001",
-      image: "DYN001",
-      set: Release.Dynasty,
-      
-    },{
       foiling: Foiling.C,
       identifier: "DYN001",
       image: "DYN001",
@@ -109691,6 +109691,12 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
       image: "DYN001_Marvel_Back",
       set: Release.Dynasty,
       treatment: Treatment.FA,
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN001",
+      image: "DYN001",
+      set: Release.Dynasty,
+      
     },],
     rarities: [Rarity.Legendary,Rarity.Marvel],
     rarity: Rarity.Legendary,
@@ -109720,7 +109726,7 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
     
     
     
-    talents: [Talent.Royal,Talent.Draconic],
+    talents: [Talent.Draconic,Talent.Royal],
     young: true
   },{
     artists: ["Asur Misoa"],
@@ -109876,24 +109882,24 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.R,
-      identifier: "DYN005",
-      image: "DYN005",
-      set: Release.Dynasty,
-      
-    },{
       foiling: Foiling.C,
       identifier: "DYN005",
       image: "DYN005_Marvel",
       set: Release.Dynasty,
       treatment: Treatment.AB,
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN005",
+      image: "DYN005",
+      set: Release.Dynasty,
+      
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN005"],
     sets: [Release.Dynasty],
     specialImage: "DYN005_Marvel",
-    subtypes: [Subtype.Rock,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Rock],
     types: [Type.Weapon],
     typeText: "Brute Weapon – Rock (2H)",
 
@@ -109933,13 +109939,13 @@ Damage that would be dealt by Rok can't be prevented.`,
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "DYN006",
       image: "DYN006",
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "DYN006",
       image: "DYN006",
       set: Release.Dynasty,
@@ -110858,12 +110864,6 @@ Your next Brute attack this turn gains +2{p}.
     defaultImage: "DYN025",
     name: "Yoji, Royal Protector",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "HER075",
-      image: "HER075",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "DYN025",
       image: "DYN025",
@@ -110875,12 +110875,18 @@ Your next Brute attack this turn gains +2{p}.
       image: "DYN025",
       set: Release.Dynasty,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "HER075",
+      image: "HER075",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
     setIdentifiers: ["HER075","DYN025"],
-    sets: [Release.Promos,Release.Dynasty],
-    specialImage: "HER075",
+    sets: [Release.Dynasty,Release.Promos],
+    specialImage: "DYN025",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Guardian Hero – Young",
@@ -110917,17 +110923,17 @@ Your next Brute attack this turn gains +2{p}.
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.R,
-      identifier: "DYN026",
-      image: "DYN026",
-      set: Release.Dynasty,
-      
-    },{
       foiling: Foiling.C,
       identifier: "DYN026",
       image: "DYN026_Marvel",
       set: Release.Dynasty,
       treatment: Treatment.AB,
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN026",
+      image: "DYN026",
+      set: Release.Dynasty,
+      
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -110970,13 +110976,13 @@ Your next Brute attack this turn gains +2{p}.
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "DYN027",
       image: "DYN027",
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "DYN027",
       image: "DYN027",
       set: Release.Dynasty,
@@ -111047,7 +111053,7 @@ Your next Brute attack this turn gains +2{p}.
     
     
     
-    keywords: [Keyword.GoAgain,Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.GoAgain],
     
     
     pitch: 3,
@@ -111824,17 +111830,17 @@ Your next Brute attack this turn gains +2{p}.
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.R,
-      identifier: "DYN045",
-      image: "DYN045",
-      set: Release.Dynasty,
-      
-    },{
       foiling: Foiling.C,
       identifier: "DYN045",
       image: "DYN045_Marvel",
       set: Release.Dynasty,
       treatment: Treatment.AB,
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN045",
+      image: "DYN045",
+      set: Release.Dynasty,
+      
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -111879,13 +111885,13 @@ Your next Brute attack this turn gains +2{p}.
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "DYN046",
       image: "DYN046",
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "DYN046",
       image: "DYN046",
       set: Release.Dynasty,
@@ -112643,28 +112649,28 @@ Crouching Tigers you control gain +1{p} this turn.
     defaultImage: "DYN062",
     name: "Predatory Streak",
     printings: [{
+      
+      identifier: "DYN062",
+      image: "DYN062",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN062",
+      image: "DYN062",
+      set: Release.Dynasty,
+      
+    },{
       foiling: Foiling.R,
       identifier: "LGS122",
       image: "LGS122",
       set: Release.Promos,
       treatment: Treatment.EA,
-    },{
-      
-      identifier: "DYN062",
-      image: "DYN062",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN062",
-      image: "DYN062",
-      set: Release.Dynasty,
-      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS122","DYN062"],
-    sets: [Release.Promos,Release.Dynasty],
+    sets: [Release.Dynasty,Release.Promos],
     specialImage: "LGS122",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -112698,28 +112704,28 @@ Crouching Tigers you control gain +1{p} this turn.
     defaultImage: "DYN063",
     name: "Predatory Streak",
     printings: [{
+      
+      identifier: "DYN063",
+      image: "DYN063",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN063",
+      image: "DYN063",
+      set: Release.Dynasty,
+      
+    },{
       foiling: Foiling.R,
       identifier: "LGS123",
       image: "LGS123",
       set: Release.Promos,
       treatment: Treatment.EA,
-    },{
-      
-      identifier: "DYN063",
-      image: "DYN063",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN063",
-      image: "DYN063",
-      set: Release.Dynasty,
-      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS123","DYN063"],
-    sets: [Release.Promos,Release.Dynasty],
+    sets: [Release.Dynasty,Release.Promos],
     specialImage: "LGS123",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -112753,28 +112759,28 @@ Crouching Tigers you control gain +1{p} this turn.
     defaultImage: "DYN064",
     name: "Predatory Streak",
     printings: [{
+      
+      identifier: "DYN064",
+      image: "DYN064",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN064",
+      image: "DYN064",
+      set: Release.Dynasty,
+      
+    },{
       foiling: Foiling.R,
       identifier: "LGS124",
       image: "LGS124",
       set: Release.Promos,
       treatment: Treatment.EA,
-    },{
-      
-      identifier: "DYN064",
-      image: "DYN064",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN064",
-      image: "DYN064",
-      set: Release.Dynasty,
-      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS124","DYN064"],
-    sets: [Release.Promos,Release.Dynasty],
+    sets: [Release.Dynasty,Release.Promos],
     specialImage: "LGS124",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -112814,17 +112820,17 @@ Crouching Tigers you control gain +1{p} this turn.
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.R,
-      identifier: "DYN065",
-      image: "DYN065",
-      set: Release.Dynasty,
-      
-    },{
       foiling: Foiling.C,
       identifier: "DYN065",
       image: "DYN065_Marvel",
       set: Release.Dynasty,
       treatment: Treatment.AA,
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN065",
+      image: "DYN065",
+      set: Release.Dynasty,
+      
     },],
     rarities: [Rarity.Common,Rarity.Marvel],
     rarity: Rarity.Common,
@@ -112863,13 +112869,13 @@ Crouching Tigers you control gain +1{p} this turn.
     defaultImage: "DYN066",
     name: "Spirit of Eirina",
     printings: [{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "DYN066",
       image: "DYN066",
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "DYN066",
       image: "DYN066",
       set: Release.Dynasty,
@@ -112914,12 +112920,6 @@ You may play Lumina Ascension as though it were an instant.`,
     defaultImage: "DYN067",
     name: "Jubeel, Spellbane",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "FAB137",
-      image: "FAB137",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "DYN067",
       image: "DYN067",
@@ -112931,13 +112931,19 @@ You may play Lumina Ascension as though it were an instant.`,
       image: "DYN067",
       set: Release.Dynasty,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "FAB137",
+      image: "FAB137",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
     setIdentifiers: ["FAB137","DYN067"],
-    sets: [Release.Promos,Release.Dynasty],
-    specialImage: "FAB137",
-    subtypes: [Subtype.Sword,Subtype.TwoHanded],
+    sets: [Release.Dynasty,Release.Promos],
+    specialImage: "DYN067",
+    subtypes: [Subtype.TwoHanded,Subtype.Sword],
     types: [Type.Weapon],
     typeText: "Warrior Weapon – Sword (2H)",
 
@@ -112975,24 +112981,24 @@ Whenever this hits a hero and you don't control a Spellbane Aegis, create a Spel
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.R,
-      identifier: "DYN068",
-      image: "DYN068",
-      set: Release.Dynasty,
-      
-    },{
       foiling: Foiling.C,
       identifier: "DYN068",
       image: "DYN068_Marvel",
       set: Release.Dynasty,
       treatment: Treatment.AB,
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN068",
+      image: "DYN068",
+      set: Release.Dynasty,
+      
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN068"],
     sets: [Release.Dynasty],
     specialImage: "DYN068_Marvel",
-    subtypes: [Subtype.Axe,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Axe],
     types: [Type.Weapon],
     typeText: "Warrior Weapon – Axe (2H)",
 
@@ -113024,48 +113030,48 @@ Whenever Merciless Battleaxe attacks, if its {p} is greater than twice its base 
     defaultImage: "DYN069",
     name: "Quicksilver Dagger",
     printings: [{
+      
+      identifier: "DYN069",
+      image: "DYN069",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "DYN069",
+      image: "DYN069",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN069",
+      image: "DYN069",
+      set: Release.Dynasty,
+      
+    },{
+      
+      identifier: "DYN070",
+      image: "DYN070",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN070",
+      image: "DYN070",
+      set: Release.Dynasty,
+      
+    },{
       foiling: Foiling.C,
       identifier: "LGS112",
       image: "LGS112",
       set: Release.Promos,
       
-    },{
-      
-      identifier: "DYN069",
-      image: "DYN069",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN069",
-      image: "DYN069",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "DYN069",
-      image: "DYN069",
-      set: Release.Dynasty,
-      
-    },{
-      
-      identifier: "DYN070",
-      image: "DYN070",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN070",
-      image: "DYN070",
-      set: Release.Dynasty,
-      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS112","DYN069","DYN070"],
-    sets: [Release.Promos,Release.Dynasty],
-    specialImage: "LGS112",
-    subtypes: [Subtype.Dagger,Subtype.OneHanded],
+    sets: [Release.Dynasty,Release.Promos],
+    specialImage: "DYN069",
+    subtypes: [Subtype.OneHanded,Subtype.Dagger],
     types: [Type.Weapon],
     typeText: "Warrior Weapon – Dagger (1H)",
 
@@ -113932,24 +113938,24 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.R,
-      identifier: "DYN088",
-      image: "DYN088",
-      set: Release.Dynasty,
-      
-    },{
       foiling: Foiling.C,
       identifier: "DYN088",
       image: "DYN088_Marvel",
       set: Release.Dynasty,
       treatment: Treatment.AB,
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN088",
+      image: "DYN088",
+      set: Release.Dynasty,
+      
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN088"],
     sets: [Release.Dynasty],
     specialImage: "DYN088_Marvel",
-    subtypes: [Subtype.Gun,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Gun],
     types: [Type.Weapon],
     typeText: "Mechanologist Weapon – Gun (2H)",
 
@@ -113989,13 +113995,13 @@ The third time you play a card with **boost** each turn, put a steam counter on 
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "DYN089",
       image: "DYN089",
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "DYN089",
       image: "DYN089",
       set: Release.Dynasty,
@@ -114019,7 +114025,7 @@ The third time you play a card with **boost** each turn, put a steam counter on 
     
     
     
-    keywords: [Keyword.Material,Keyword.Battleworn],
+    keywords: [Keyword.Battleworn,Keyword.Material],
     
     
     
@@ -114138,12 +114144,6 @@ The next time a Mechanologist item with cost 2 or less is banished to pay a **bo
     defaultImage: "DYN092",
     name: "Construct Nitro Mechanoid",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "DYN092",
-      image: "DYN092",
-      set: Release.Dynasty,
-      
-    },{
       foiling: Foiling.C,
       identifier: "DYN092",
       image: "DYN092",
@@ -114155,6 +114155,12 @@ The next time a Mechanologist item with cost 2 or less is banished to pay a **bo
       image: "DYN092_Marvel",
       set: Release.Dynasty,
       treatment: Treatment.EA,
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN092",
+      image: "DYN092",
+      set: Release.Dynasty,
+      
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -114174,7 +114180,7 @@ The next time a Mechanologist item with cost 2 or less is banished to pay a **bo
     
     
     
-    keywords: [Keyword.Transform,Keyword.Negate,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Negate,Keyword.Transform],
     
     oppositeSideCardIdentifier: `nitro-mechanoid`,
     pitch: 2,
@@ -114193,12 +114199,6 @@ The next time a Mechanologist item with cost 2 or less is banished to pay a **bo
     defaultImage: "DYN092_Back",
     name: "Nitro Mechanoid",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "DYN092",
-      image: "DYN092_Back",
-      set: Release.Dynasty,
-      
-    },{
       foiling: Foiling.C,
       identifier: "DYN092",
       image: "DYN092_Back",
@@ -114210,6 +114210,12 @@ The next time a Mechanologist item with cost 2 or less is banished to pay a **bo
       image: "DYN092_Marvel_Back",
       set: Release.Dynasty,
       treatment: Treatment.FA,
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN092",
+      image: "DYN092_Back",
+      set: Release.Dynasty,
+      
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -114256,13 +114262,13 @@ The next time a Mechanologist item with cost 2 or less is banished to pay a **bo
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "DYN093",
       image: "DYN093",
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "DYN093",
       image: "DYN093",
       set: Release.Dynasty,
@@ -114311,13 +114317,13 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "DYN094",
       image: "DYN094",
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "DYN094",
       image: "DYN094",
       set: Release.Dynasty,
@@ -115087,13 +115093,13 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "DYN111",
       image: "DYN111",
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "DYN111",
       image: "DYN111",
       set: Release.Dynasty,
@@ -115142,13 +115148,13 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "DYN112",
       image: "DYN112",
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "DYN112",
       image: "DYN112",
       set: Release.Dynasty,
@@ -115191,18 +115197,6 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     defaultImage: "DYN113",
     name: "Arakni, Huntsman",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "HER074",
-      image: "HER074",
-      set: Release.Promos,
-      
-    },{
-      foiling: Foiling.G,
-      identifier: "WIN020",
-      image: "",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "DYN113",
       image: "DYN113",
@@ -115214,12 +115208,24 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
       image: "DYN113",
       set: Release.Dynasty,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "HER074",
+      image: "HER074",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.G,
+      identifier: "WIN020",
+      image: "",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
     setIdentifiers: ["HER074","WIN020","DYN113"],
-    sets: [Release.Promos,Release.Dynasty],
-    specialImage: "HER074",
+    sets: [Release.Dynasty,Release.Promos],
+    specialImage: "DYN113",
     subtypes: [],
     types: [Type.Hero],
     typeText: "Assassin Hero",
@@ -115250,12 +115256,6 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     defaultImage: "DYN114",
     name: "Arakni",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "HER073",
-      image: "HER073",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "DYN114",
       image: "DYN114",
@@ -115267,12 +115267,18 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
       image: "DYN114",
       set: Release.Dynasty,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "HER073",
+      image: "HER073",
+      set: Release.Promos,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["HER073","DYN114"],
-    sets: [Release.Promos,Release.Dynasty],
-    specialImage: "HER073",
+    sets: [Release.Dynasty,Release.Promos],
+    specialImage: "DYN114",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Assassin Hero – Young",
@@ -115303,40 +115309,46 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     defaultImage: "OUT004.width-450",
     name: "Spider's Bite",
     printings: [{
+      
+      identifier: "ARA002",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
+      identifier: "DYN115",
+      image: "DYN115",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "DYN115",
+      image: "DYN115",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN115",
+      image: "DYN115",
+      set: Release.Dynasty,
+      
+    },{
+      
+      identifier: "DYN116",
+      image: "DYN116",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN116",
+      image: "DYN116",
+      set: Release.Dynasty,
+      
+    },{
       foiling: Foiling.C,
       identifier: "LGS111",
       image: "LGS111",
       set: Release.Promos,
-      
-    },{
-      
-      identifier: "DYN115",
-      image: "DYN115",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN115",
-      image: "DYN115",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "DYN115",
-      image: "DYN115",
-      set: Release.Dynasty,
-      
-    },{
-      
-      identifier: "DYN116",
-      image: "DYN116",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN116",
-      image: "DYN116",
-      set: Release.Dynasty,
       
     },{
       
@@ -115346,23 +115358,17 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
       
     },{
       
-      identifier: "ARA002",
-      image: "",
-      set: Release.ArakniBlitzDeck,
-      
-    },{
-      
       identifier: "UZU002",
       image: "",
       set: Release.UzuriBlitzDeck,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Rare,Rarity.Token,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS111","DYN115","DYN116","OUT004","ARA002","UZU002"],
-    sets: [Release.Promos,Release.Dynasty,Release.Outsiders,Release.ArakniBlitzDeck,Release.UzuriBlitzDeck],
-    specialImage: "LGS111",
-    subtypes: [Subtype.Dagger,Subtype.OneHanded],
+    sets: [Release.ArakniBlitzDeck,Release.Dynasty,Release.Outsiders,Release.Promos,Release.UzuriBlitzDeck],
+    specialImage: "DYN115",
+    subtypes: [Subtype.OneHanded,Subtype.Dagger],
     types: [Type.Weapon],
     typeText: "Assassin Weapon – Dagger (1H)",
 
@@ -115377,7 +115383,7 @@ When this hits a hero, the next time they defend with 1 or more attack action ca
     
     
     
-    keywords: [Keyword.Piercing,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Piercing],
     
     
     
@@ -115396,10 +115402,10 @@ When this hits a hero, the next time they defend with 1 or more attack action ca
     defaultImage: "DYN117",
     name: "Blacktek Whisperers",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB110",
-      image: "FAB110",
-      set: Release.Promos,
+      foiling: Foiling.C,
+      identifier: "DYN117",
+      image: "DYN117",
+      set: Release.Dynasty,
       
     },{
       foiling: Foiling.R,
@@ -115408,17 +115414,17 @@ When this hits a hero, the next time they defend with 1 or more attack action ca
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.C,
-      identifier: "DYN117",
-      image: "DYN117",
-      set: Release.Dynasty,
+      foiling: Foiling.G,
+      identifier: "FAB110",
+      image: "FAB110",
+      set: Release.Promos,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB110","DYN117"],
-    sets: [Release.Promos,Release.Dynasty],
-    specialImage: "FAB110",
+    sets: [Release.Dynasty,Release.Promos],
+    specialImage: "DYN117",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
     typeText: "Assassin Equipment – Leg",
@@ -115459,13 +115465,13 @@ When this hits a hero, the next time they defend with 1 or more attack action ca
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "DYN118",
       image: "DYN118",
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "DYN118",
       image: "DYN118",
       set: Release.Dynasty,
@@ -115608,12 +115614,6 @@ When this hits a hero, banish the top card of their deck and up to 1 card in the
     defaultImage: "DYN121",
     name: "Regicide",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "FAB122",
-      image: "FAB122",
-      set: Release.Promos,
-      treatment: Treatment.AA,
-    },{
       
       identifier: "DYN121",
       image: "DYN121",
@@ -115631,11 +115631,17 @@ When this hits a hero, banish the top card of their deck and up to 1 card in the
       image: "",
       set: Release.Dynasty,
       treatment: Treatment.EA,
+    },{
+      foiling: Foiling.R,
+      identifier: "FAB122",
+      image: "FAB122",
+      set: Release.Promos,
+      treatment: Treatment.AA,
     },],
-    rarities: [Rarity.Promo,Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
     setIdentifiers: ["FAB122","DYN121"],
-    sets: [Release.Promos,Release.Dynasty],
+    sets: [Release.Dynasty,Release.Promos],
     specialImage: "FAB122",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -116939,28 +116945,28 @@ When this hits a hero, banish the top card of their deck.`,
     defaultImage: "DYN148",
     name: "Cut to the Chase",
     printings: [{
+      
+      identifier: "DYN148",
+      image: "DYN148",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN148",
+      image: "DYN148",
+      set: Release.Dynasty,
+      
+    },{
       foiling: Foiling.R,
       identifier: "LGS113",
       image: "LGS113",
       set: Release.Promos,
       treatment: Treatment.EA,
-    },{
-      
-      identifier: "DYN148",
-      image: "DYN148",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN148",
-      image: "DYN148",
-      set: Release.Dynasty,
-      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS113","DYN148"],
-    sets: [Release.Promos,Release.Dynasty],
+    sets: [Release.Dynasty,Release.Promos],
     specialImage: "LGS113",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -116994,28 +117000,28 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
     defaultImage: "DYN149",
     name: "Cut to the Chase",
     printings: [{
+      
+      identifier: "DYN149",
+      image: "DYN149",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN149",
+      image: "DYN149",
+      set: Release.Dynasty,
+      
+    },{
       foiling: Foiling.R,
       identifier: "LGS114",
       image: "LGS114",
       set: Release.Promos,
       treatment: Treatment.EA,
-    },{
-      
-      identifier: "DYN149",
-      image: "DYN149",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN149",
-      image: "DYN149",
-      set: Release.Dynasty,
-      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS114","DYN149"],
-    sets: [Release.Promos,Release.Dynasty],
+    sets: [Release.Dynasty,Release.Promos],
     specialImage: "LGS114",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -117049,28 +117055,28 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
     defaultImage: "DYN150",
     name: "Cut to the Chase",
     printings: [{
+      
+      identifier: "DYN150",
+      image: "DYN150",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN150",
+      image: "DYN150",
+      set: Release.Dynasty,
+      
+    },{
       foiling: Foiling.R,
       identifier: "LGS115",
       image: "LGS115",
       set: Release.Promos,
       treatment: Treatment.EA,
-    },{
-      
-      identifier: "DYN150",
-      image: "DYN150",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN150",
-      image: "DYN150",
-      set: Release.Dynasty,
-      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS115","DYN150"],
-    sets: [Release.Promos,Release.Dynasty],
+    sets: [Release.Dynasty,Release.Promos],
     specialImage: "LGS115",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -117110,24 +117116,24 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.R,
-      identifier: "DYN151",
-      image: "DYN151",
-      set: Release.Dynasty,
-      
-    },{
       foiling: Foiling.C,
       identifier: "DYN151",
       image: "DYN151_Marvel",
       set: Release.Dynasty,
       treatment: Treatment.AB,
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN151",
+      image: "DYN151",
+      set: Release.Dynasty,
+      
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN151"],
     sets: [Release.Dynasty],
     specialImage: "DYN151_Marvel",
-    subtypes: [Subtype.Bow,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Bow],
     types: [Type.Weapon],
     typeText: "Ranger Weapon – Bow (2H)",
 
@@ -117165,13 +117171,13 @@ Whenever an arrow is put face up in arsenal from your deck, put an aim counter o
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "DYN152",
       image: "DYN152",
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "DYN152",
       image: "DYN152",
       set: Release.Dynasty,
@@ -117231,7 +117237,7 @@ Whenever an arrow is put face up in arsenal from your deck, put an aim counter o
     setIdentifiers: ["DYN153"],
     sets: [Release.Dynasty],
     specialImage: "DYN153",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -117278,7 +117284,7 @@ Whenever an arrow is put face up in arsenal from your deck, put an aim counter o
     setIdentifiers: ["DYN154"],
     sets: [Release.Dynasty],
     specialImage: "DYN154",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -117376,7 +117382,7 @@ If it has an aim counter, it gains "When this hits a hero, look at their hand an
     setIdentifiers: ["DYN156"],
     sets: [Release.Dynasty],
     specialImage: "DYN156",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -117425,7 +117431,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
     setIdentifiers: ["DYN157"],
     sets: [Release.Dynasty],
     specialImage: "DYN157",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -117474,7 +117480,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
     setIdentifiers: ["DYN158"],
     sets: [Release.Dynasty],
     specialImage: "DYN158",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -117647,6 +117653,18 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
     defaultImage: "DYN162",
     name: "Hemorrhage Bore",
     printings: [{
+      
+      identifier: "DYN162",
+      image: "DYN162",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN162",
+      image: "DYN162",
+      set: Release.Dynasty,
+      
+    },{
       foiling: Foiling.R,
       identifier: "LGS119",
       image: "dyn_card_Hemorrhage_Bore_p1.width-10000",
@@ -117654,29 +117672,17 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
       treatment: Treatment.EA,
     },{
       
-      identifier: "DYN162",
-      image: "DYN162",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN162",
-      image: "DYN162",
-      set: Release.Dynasty,
-      
-    },{
-      
       identifier: "RIP015",
       image: "",
       set: Release.RiptideBlitzDeck,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS119","DYN162","RIP015"],
-    sets: [Release.Promos,Release.Dynasty,Release.RiptideBlitzDeck],
+    sets: [Release.Dynasty,Release.Promos,Release.RiptideBlitzDeck],
     specialImage: "dyn_card_Hemorrhage_Bore_p1.width-10000",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -117706,30 +117712,30 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
     defaultImage: "DYN163",
     name: "Hemorrhage Bore",
     printings: [{
+      
+      identifier: "DYN163",
+      image: "DYN163",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN163",
+      image: "DYN163",
+      set: Release.Dynasty,
+      
+    },{
       foiling: Foiling.R,
       identifier: "LGS120",
       image: "LGS120",
       set: Release.Promos,
       treatment: Treatment.EA,
-    },{
-      
-      identifier: "DYN163",
-      image: "DYN163",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN163",
-      image: "DYN163",
-      set: Release.Dynasty,
-      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS120","DYN163"],
-    sets: [Release.Promos,Release.Dynasty],
+    sets: [Release.Dynasty,Release.Promos],
     specialImage: "LGS120",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -117759,30 +117765,30 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
     defaultImage: "DYN164",
     name: "Hemorrhage Bore",
     printings: [{
+      
+      identifier: "DYN164",
+      image: "DYN164",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN164",
+      image: "DYN164",
+      set: Release.Dynasty,
+      
+    },{
       foiling: Foiling.R,
       identifier: "LGS121",
       image: "LGS121",
       set: Release.Promos,
       treatment: Treatment.EA,
-    },{
-      
-      identifier: "DYN164",
-      image: "DYN164",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN164",
-      image: "DYN164",
-      set: Release.Dynasty,
-      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS121","DYN164"],
-    sets: [Release.Promos,Release.Dynasty],
+    sets: [Release.Dynasty,Release.Promos],
     specialImage: "LGS121",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -117829,7 +117835,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
     setIdentifiers: ["DYN165"],
     sets: [Release.Dynasty],
     specialImage: "DYN165",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -117876,7 +117882,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
     setIdentifiers: ["DYN166"],
     sets: [Release.Dynasty],
     specialImage: "DYN166",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -117923,7 +117929,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
     setIdentifiers: ["DYN167"],
     sets: [Release.Dynasty],
     specialImage: "DYN167",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action – Arrow Attack",
 
@@ -118106,17 +118112,17 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.R,
-      identifier: "DYN171",
-      image: "DYN171",
-      set: Release.Dynasty,
-      
-    },{
       foiling: Foiling.C,
       identifier: "DYN171",
       image: "DYN171_Marvel",
       set: Release.Dynasty,
       treatment: Treatment.AB,
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN171",
+      image: "DYN171",
+      set: Release.Dynasty,
+      
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -118161,13 +118167,13 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "DYN172",
       image: "DYN172",
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "DYN172",
       image: "DYN172",
       set: Release.Dynasty,
@@ -118178,7 +118184,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
     setIdentifiers: ["DYN172"],
     sets: [Release.Dynasty],
     specialImage: "DYN172",
-    subtypes: [Subtype.Book,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Book],
     types: [Type.Weapon],
     typeText: "Runeblade Weapon – Book (2H)",
 
@@ -119088,24 +119094,24 @@ If an attack card was pitched to play Runic Reaping, the next Runeblade attack a
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.R,
-      identifier: "DYN192",
-      image: "DYN192",
-      set: Release.Dynasty,
-      
-    },{
       foiling: Foiling.C,
       identifier: "DYN192",
       image: "DYN192_Marvel",
       set: Release.Dynasty,
       treatment: Treatment.AB,
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN192",
+      image: "DYN192",
+      set: Release.Dynasty,
+      
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN192"],
     sets: [Release.Dynasty],
     specialImage: "DYN192_Marvel",
-    subtypes: [Subtype.Staff,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Staff],
     types: [Type.Weapon],
     typeText: "Wizard Weapon – Staff (2H)",
 
@@ -119143,13 +119149,13 @@ The first card you play each turn with an arcane damage effect, instead deals th
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "DYN193",
       image: "DYN193",
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "DYN193",
       image: "DYN193",
       set: Release.Dynasty,
@@ -119160,7 +119166,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     setIdentifiers: ["DYN193"],
     sets: [Release.Dynasty],
     specialImage: "DYN193",
-    subtypes: [Subtype.Orb,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Orb],
     types: [Type.Weapon],
     typeText: "Wizard Weapon – Orb (2H)",
 
@@ -119335,28 +119341,28 @@ The first card you play each turn with an arcane damage effect, instead deals th
     defaultImage: "DYN197",
     name: "Aether Quickening",
     printings: [{
+      
+      identifier: "DYN197",
+      image: "DYN197",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN197",
+      image: "DYN197",
+      set: Release.Dynasty,
+      
+    },{
       foiling: Foiling.R,
       identifier: "FAB112",
       image: "FAB112",
       set: Release.Promos,
       treatment: Treatment.EA,
-    },{
-      
-      identifier: "DYN197",
-      image: "DYN197",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN197",
-      image: "DYN197",
-      set: Release.Dynasty,
-      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["FAB112","DYN197"],
-    sets: [Release.Promos,Release.Dynasty],
+    sets: [Release.Dynasty,Release.Promos],
     specialImage: "FAB112",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -119371,7 +119377,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     
     
     
-    keywords: [Keyword.Surge,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Surge],
     
     
     pitch: 1,
@@ -119390,28 +119396,28 @@ The first card you play each turn with an arcane damage effect, instead deals th
     defaultImage: "DYN198",
     name: "Aether Quickening",
     printings: [{
+      
+      identifier: "DYN198",
+      image: "DYN198",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN198",
+      image: "DYN198",
+      set: Release.Dynasty,
+      
+    },{
       foiling: Foiling.R,
       identifier: "FAB113",
       image: "FAB113",
       set: Release.Promos,
       treatment: Treatment.EA,
-    },{
-      
-      identifier: "DYN198",
-      image: "DYN198",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN198",
-      image: "DYN198",
-      set: Release.Dynasty,
-      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["FAB113","DYN198"],
-    sets: [Release.Promos,Release.Dynasty],
+    sets: [Release.Dynasty,Release.Promos],
     specialImage: "FAB113",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -119426,7 +119432,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     
     
     
-    keywords: [Keyword.Surge,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Surge],
     
     
     pitch: 2,
@@ -119445,28 +119451,28 @@ The first card you play each turn with an arcane damage effect, instead deals th
     defaultImage: "DYN199",
     name: "Aether Quickening",
     printings: [{
+      
+      identifier: "DYN199",
+      image: "DYN199",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN199",
+      image: "DYN199",
+      set: Release.Dynasty,
+      
+    },{
       foiling: Foiling.R,
       identifier: "FAB114",
       image: "FAB114",
       set: Release.Promos,
       treatment: Treatment.EA,
-    },{
-      
-      identifier: "DYN199",
-      image: "DYN199",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN199",
-      image: "DYN199",
-      set: Release.Dynasty,
-      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["FAB114","DYN199"],
-    sets: [Release.Promos,Release.Dynasty],
+    sets: [Release.Dynasty,Release.Promos],
     specialImage: "FAB114",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -119481,7 +119487,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     
     
     
-    keywords: [Keyword.Surge,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Surge],
     
     
     pitch: 3,
@@ -119500,28 +119506,28 @@ The first card you play each turn with an arcane damage effect, instead deals th
     defaultImage: "DYN200",
     name: "Blessing of Aether",
     printings: [{
+      
+      identifier: "DYN200",
+      image: "DYN200",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN200",
+      image: "DYN200",
+      set: Release.Dynasty,
+      
+    },{
       foiling: Foiling.R,
       identifier: "LGS116",
       image: "LGS116",
       set: Release.Promos,
       treatment: Treatment.EA,
-    },{
-      
-      identifier: "DYN200",
-      image: "DYN200",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN200",
-      image: "DYN200",
-      set: Release.Dynasty,
-      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS116","DYN200"],
-    sets: [Release.Promos,Release.Dynasty],
+    sets: [Release.Dynasty,Release.Promos],
     specialImage: "LGS116",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
@@ -119553,28 +119559,28 @@ The first card you play each turn with an arcane damage effect, instead deals th
     defaultImage: "DYN201",
     name: "Blessing of Aether",
     printings: [{
+      
+      identifier: "DYN201",
+      image: "DYN201",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN201",
+      image: "DYN201",
+      set: Release.Dynasty,
+      
+    },{
       foiling: Foiling.R,
       identifier: "LGS117",
       image: "LGS117",
       set: Release.Promos,
       treatment: Treatment.EA,
-    },{
-      
-      identifier: "DYN201",
-      image: "DYN201",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN201",
-      image: "DYN201",
-      set: Release.Dynasty,
-      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS117","DYN201"],
-    sets: [Release.Promos,Release.Dynasty],
+    sets: [Release.Dynasty,Release.Promos],
     specialImage: "LGS117",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
@@ -119606,28 +119612,28 @@ The first card you play each turn with an arcane damage effect, instead deals th
     defaultImage: "DYN202",
     name: "Blessing of Aether",
     printings: [{
+      
+      identifier: "DYN202",
+      image: "DYN202",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN202",
+      image: "DYN202",
+      set: Release.Dynasty,
+      
+    },{
       foiling: Foiling.R,
       identifier: "LGS118",
       image: "LGS118",
       set: Release.Promos,
       treatment: Treatment.EA,
-    },{
-      
-      identifier: "DYN202",
-      image: "DYN202",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN202",
-      image: "DYN202",
-      set: Release.Dynasty,
-      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS118","DYN202"],
-    sets: [Release.Promos,Release.Dynasty],
+    sets: [Release.Dynasty,Release.Promos],
     specialImage: "LGS118",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
@@ -119689,7 +119695,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     
     
     
-    keywords: [Keyword.Surge,Keyword.Opt],
+    keywords: [Keyword.Opt,Keyword.Surge],
     
     
     pitch: 1,
@@ -119738,7 +119744,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     
     
     
-    keywords: [Keyword.Surge,Keyword.Opt],
+    keywords: [Keyword.Opt,Keyword.Surge],
     
     
     pitch: 2,
@@ -119787,7 +119793,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     
     
     
-    keywords: [Keyword.Surge,Keyword.Opt],
+    keywords: [Keyword.Opt,Keyword.Surge],
     
     
     pitch: 3,
@@ -119800,35 +119806,35 @@ The first card you play each turn with an arcane damage effect, instead deals th
     
     
   },{
-    artists: ["Riordan Delmiro","Asep Ariyanto"],
+    artists: ["Asep Ariyanto","Riordan Delmiro"],
     cardIdentifier: "sap-red",
     classes: [Class.Wizard],
     defaultImage: "DYN206",
     name: "Sap",
     printings: [{
+      
+      identifier: "DYN206",
+      image: "DYN206",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN206",
+      image: "DYN206",
+      set: Release.Dynasty,
+      
+    },{
       foiling: Foiling.R,
       identifier: "FAB115",
       image: "FAB115",
       set: Release.Promos,
       
-    },{
-      
-      identifier: "DYN206",
-      image: "DYN206",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN206",
-      image: "DYN206",
-      set: Release.Dynasty,
-      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB115","DYN206"],
-    sets: [Release.Promos,Release.Dynasty],
-    specialImage: "FAB115",
+    sets: [Release.Dynasty,Release.Promos],
+    specialImage: "DYN206",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
@@ -119855,35 +119861,35 @@ The first card you play each turn with an arcane damage effect, instead deals th
     
     
   },{
-    artists: ["Riordan Delmiro","Asep Ariyanto"],
+    artists: ["Asep Ariyanto","Riordan Delmiro"],
     cardIdentifier: "sap-yellow",
     classes: [Class.Wizard],
     defaultImage: "DYN207",
     name: "Sap",
     printings: [{
+      
+      identifier: "DYN207",
+      image: "DYN207",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN207",
+      image: "DYN207",
+      set: Release.Dynasty,
+      
+    },{
       foiling: Foiling.R,
       identifier: "FAB116",
       image: "FAB116",
       set: Release.Promos,
       
-    },{
-      
-      identifier: "DYN207",
-      image: "DYN207",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN207",
-      image: "DYN207",
-      set: Release.Dynasty,
-      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB116","DYN207"],
-    sets: [Release.Promos,Release.Dynasty],
-    specialImage: "FAB116",
+    sets: [Release.Dynasty,Release.Promos],
+    specialImage: "DYN207",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
@@ -119910,35 +119916,35 @@ The first card you play each turn with an arcane damage effect, instead deals th
     
     
   },{
-    artists: ["Riordan Delmiro","Asep Ariyanto"],
+    artists: ["Asep Ariyanto","Riordan Delmiro"],
     cardIdentifier: "sap-blue",
     classes: [Class.Wizard],
     defaultImage: "DYN208",
     name: "Sap",
     printings: [{
+      
+      identifier: "DYN208",
+      image: "DYN208",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN208",
+      image: "DYN208",
+      set: Release.Dynasty,
+      
+    },{
       foiling: Foiling.R,
       identifier: "FAB117",
       image: "FAB117",
       set: Release.Promos,
       
-    },{
-      
-      identifier: "DYN208",
-      image: "DYN208",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN208",
-      image: "DYN208",
-      set: Release.Dynasty,
-      
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB117","DYN208"],
-    sets: [Release.Promos,Release.Dynasty],
-    specialImage: "FAB117",
+    sets: [Release.Dynasty,Release.Promos],
+    specialImage: "DYN208",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Wizard Action",
@@ -120118,12 +120124,6 @@ The first card you play each turn with an arcane damage effect, instead deals th
     defaultImage: "DYN212",
     name: "Invoke Suraya",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "DYN212",
-      image: "DYN212",
-      set: Release.Dynasty,
-      
-    },{
       foiling: Foiling.C,
       identifier: "DYN212",
       image: "DYN212",
@@ -120135,6 +120135,12 @@ The first card you play each turn with an arcane damage effect, instead deals th
       image: "DYN212_Marvel",
       set: Release.Dynasty,
       treatment: Treatment.EA,
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN212",
+      image: "DYN212",
+      set: Release.Dynasty,
+      
     },],
     rarities: [Rarity.Legendary,Rarity.Marvel],
     rarity: Rarity.Legendary,
@@ -120156,7 +120162,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     
     
     
-    keywords: [Keyword.Legendary,Keyword.Transform,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Legendary,Keyword.Transform],
     
     oppositeSideCardIdentifier: `suraya-archangel-of-knowledge`,
     pitch: 2,
@@ -120175,12 +120181,6 @@ The first card you play each turn with an arcane damage effect, instead deals th
     defaultImage: "DYN212_BACK",
     name: "Suraya, Archangel of Knowledge",
     printings: [{
-      foiling: Foiling.R,
-      identifier: "DYN212",
-      image: "DYN212_BACK",
-      set: Release.Dynasty,
-      
-    },{
       foiling: Foiling.C,
       identifier: "DYN212",
       image: "DYN212_BACK",
@@ -120192,13 +120192,19 @@ The first card you play each turn with an arcane damage effect, instead deals th
       image: "DYN212_Marvel_Back",
       set: Release.Dynasty,
       treatment: Treatment.FA,
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN212",
+      image: "DYN212_BACK",
+      set: Release.Dynasty,
+      
     },],
     rarities: [Rarity.Legendary,Rarity.Marvel],
     rarity: Rarity.Legendary,
     setIdentifiers: ["DYN212"],
     sets: [Release.Dynasty],
     specialImage: "DYN212_Marvel_Back",
-    subtypes: [Subtype.Angel,Subtype.Ally],
+    subtypes: [Subtype.Ally,Subtype.Angel],
     types: [],
     typeText: "Light Illusionist – Angel Ally",
 
@@ -120238,17 +120244,17 @@ Whenever Suraya deals damage, you gain that much {h}.
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.R,
-      identifier: "DYN213",
-      image: "DYN213",
-      set: Release.Dynasty,
-      
-    },{
       foiling: Foiling.C,
       identifier: "DYN213",
       image: "DYN213_Marvel",
       set: Release.Dynasty,
       treatment: Treatment.AB,
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN213",
+      image: "DYN213",
+      set: Release.Dynasty,
+      
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -120293,13 +120299,13 @@ Whenever Suraya deals damage, you gain that much {h}.
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "DYN214",
       image: "DYN214",
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "DYN214",
       image: "DYN214",
       set: Release.Dynasty,
@@ -121224,18 +121230,6 @@ Whenever Suraya deals damage, you gain that much {h}.
     defaultImage: "DYN234",
     name: "Crown of Dominion",
     printings: [{
-      foiling: Foiling.G,
-      identifier: "FAB111",
-      image: "FAB111",
-      set: Release.Promos,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN234",
-      image: "DYN234",
-      set: Release.Dynasty,
-      
-    },{
       foiling: Foiling.C,
       identifier: "DYN234",
       image: "DYN234",
@@ -121247,11 +121241,23 @@ Whenever Suraya deals damage, you gain that much {h}.
       image: "DYN234_Marvel",
       set: Release.Dynasty,
       treatment: Treatment.EA,
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN234",
+      image: "DYN234",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB111",
+      image: "FAB111",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary,Rarity.Marvel],
+    rarities: [Rarity.Legendary,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB111","DYN234"],
-    sets: [Release.Promos,Release.Dynasty],
+    sets: [Release.Dynasty,Release.Promos],
     specialImage: "DYN234_Marvel",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -121291,13 +121297,13 @@ When you equip Crown of Dominion, create a Gold token.`,
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "DYN235",
       image: "DYN235",
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "DYN235",
       image: "DYN235",
       set: Release.Dynasty,
@@ -121344,13 +121350,13 @@ When you equip Crown of Dominion, create a Gold token.`,
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "DYN236",
       image: "DYN236",
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "DYN236",
       image: "DYN236",
       set: Release.Dynasty,
@@ -121397,13 +121403,13 @@ When you equip Crown of Dominion, create a Gold token.`,
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "DYN240",
       image: "DYN240",
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "DYN240",
       image: "DYN240",
       set: Release.Dynasty,
@@ -121427,7 +121433,7 @@ When you equip Crown of Dominion, create a Gold token.`,
     
     
     
-    keywords: [Keyword.Legendary,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Legendary],
     
     
     pitch: 1,
@@ -121452,13 +121458,13 @@ When you equip Crown of Dominion, create a Gold token.`,
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "DYN241",
       image: "DYN241",
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "DYN241",
       image: "DYN241",
       set: Release.Dynasty,
@@ -121507,13 +121513,13 @@ When you equip Crown of Dominion, create a Gold token.`,
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "DYN242",
       image: "DYN242",
       set: Release.Dynasty,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "DYN242",
       image: "DYN242",
       set: Release.Dynasty,
@@ -121603,12 +121609,6 @@ When you equip Crown of Dominion, create a Gold token.`,
     defaultImage: "OUT237.width-450",
     name: "Ponder",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "LGS128",
-      image: "LGS128",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "DYN244",
       image: "DYN244",
@@ -121619,6 +121619,12 @@ When you equip Crown of Dominion, create a Gold token.`,
       identifier: "DYN244",
       image: "DYN244",
       set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS128",
+      image: "LGS128",
+      set: Release.Promos,
       
     },{
       
@@ -121633,11 +121639,11 @@ When you equip Crown of Dominion, create a Gold token.`,
       set: Release.UzuriBlitzDeck,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS128","DYN244","OUT237","UZU031"],
-    sets: [Release.Promos,Release.Dynasty,Release.Outsiders,Release.UzuriBlitzDeck],
-    specialImage: "LGS128",
+    sets: [Release.Dynasty,Release.Outsiders,Release.Promos,Release.UzuriBlitzDeck],
+    specialImage: "DYN244",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
     typeText: "Generic Token – Aura",
@@ -121668,13 +121674,13 @@ When you equip Crown of Dominion, create a Gold token.`,
     defaultImage: "OUT000.width-450",
     name: "Plague Hive",
     printings: [{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "OUT000",
       image: "OUT000.width-450",
       set: Release.Outsiders,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "OUT000",
       image: "OUT000.width-450",
       set: Release.Outsiders,
@@ -121723,22 +121729,22 @@ When you pitch Plague Hive, for each opposing hero, choose Inertia, Frailty, or 
       set: Release.Promos,
       
     },{
-      foiling: Foiling.G,
-      identifier: "WIN021",
-      image: "",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "OUT001",
       image: "OUT001.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "WIN021",
+      image: "",
+      set: Release.Promos,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER077","WIN021","OUT001"],
-    sets: [Release.Promos,Release.Outsiders],
+    sets: [Release.Outsiders,Release.Promos],
     specialImage: "HER077",
     subtypes: [],
     types: [Type.Hero],
@@ -121794,10 +121800,10 @@ When you pitch Plague Hive, for each opposing hero, choose Inertia, Frailty, or 
       set: Release.UzuriBlitzDeck,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER076","HER083","OUT002","UZU001"],
-    sets: [Release.Promos,Release.Outsiders,Release.UzuriBlitzDeck],
+    sets: [Release.Outsiders,Release.Promos,Release.UzuriBlitzDeck],
     specialImage: "HER076",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -121829,6 +121835,12 @@ When you pitch Plague Hive, for each opposing hero, choose Inertia, Frailty, or 
     defaultImage: "OUT003.width-450",
     name: "Arakni, Solitary Confinement",
     printings: [{
+      
+      identifier: "ARA001",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
       foiling: Foiling.C,
       identifier: "HER079",
       image: "",
@@ -121846,17 +121858,11 @@ When you pitch Plague Hive, for each opposing hero, choose Inertia, Frailty, or 
       image: "OUT003.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "ARA001",
-      image: "",
-      set: Release.ArakniBlitzDeck,
-      
     },],
-    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER079","HER082","OUT003","ARA001"],
-    sets: [Release.Promos,Release.Outsiders,Release.ArakniBlitzDeck],
+    sets: [Release.ArakniBlitzDeck,Release.Outsiders,Release.Promos],
     specialImage: "HER082",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -121894,13 +121900,13 @@ When you pitch Plague Hive, for each opposing hero, choose Inertia, Frailty, or 
       set: Release.Outsiders,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "OUT005",
       image: "OUT005.width-450",
       set: Release.Outsiders,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "OUT005",
       image: "OUT005.width-450",
       set: Release.Outsiders,
@@ -121912,13 +121918,13 @@ When you pitch Plague Hive, for each opposing hero, choose Inertia, Frailty, or 
       set: Release.Outsiders,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "OUT006",
       image: "OUT006.width-450",
       set: Release.Outsiders,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "OUT006",
       image: "OUT006.width-450",
       set: Release.Outsiders,
@@ -121929,7 +121935,7 @@ When you pitch Plague Hive, for each opposing hero, choose Inertia, Frailty, or 
     setIdentifiers: ["OUT005","OUT006"],
     sets: [Release.Outsiders],
     specialImage: "OUT005.width-450",
-    subtypes: [Subtype.Dagger,Subtype.OneHanded],
+    subtypes: [Subtype.OneHanded,Subtype.Dagger],
     types: [Type.Weapon],
     typeText: "Assassin Weapon - Dagger (1H)",
 
@@ -121944,7 +121950,7 @@ When this hits a hero, the next time they defend with 1 or more reaction cards t
     
     
     
-    keywords: [Keyword.Piercing,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Piercing],
     
     
     
@@ -121969,13 +121975,13 @@ When this hits a hero, the next time they defend with 1 or more reaction cards t
       set: Release.Outsiders,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "OUT007",
       image: "OUT007.width-450",
       set: Release.Outsiders,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "OUT007",
       image: "OUT007.width-450",
       set: Release.Outsiders,
@@ -121987,13 +121993,13 @@ When this hits a hero, the next time they defend with 1 or more reaction cards t
       set: Release.Outsiders,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "OUT008",
       image: "OUT008.width-450",
       set: Release.Outsiders,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "OUT008",
       image: "OUT008.width-450",
       set: Release.Outsiders,
@@ -122004,7 +122010,7 @@ When this hits a hero, the next time they defend with 1 or more reaction cards t
     setIdentifiers: ["OUT007","OUT008"],
     sets: [Release.Outsiders],
     specialImage: "OUT007.width-450",
-    subtypes: [Subtype.Dagger,Subtype.OneHanded],
+    subtypes: [Subtype.OneHanded,Subtype.Dagger],
     types: [Type.Weapon],
     typeText: "Assassin Weapon - Dagger (1H)",
 
@@ -122019,7 +122025,7 @@ When this hits a hero, the next time they defend with 1 or more 'non-attack' act
     
     
     
-    keywords: [Keyword.Piercing,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Piercing],
     
     
     
@@ -122044,13 +122050,13 @@ When this hits a hero, the next time they defend with 1 or more 'non-attack' act
       set: Release.Outsiders,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "OUT009",
       image: "OUT009.width-450",
       set: Release.Outsiders,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "OUT009",
       image: "OUT009.width-450",
       set: Release.Outsiders,
@@ -122062,13 +122068,13 @@ When this hits a hero, the next time they defend with 1 or more 'non-attack' act
       set: Release.Outsiders,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "OUT010",
       image: "OUT010.width-450",
       set: Release.Outsiders,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "OUT010",
       image: "OUT010.width-450",
       set: Release.Outsiders,
@@ -122079,7 +122085,7 @@ When this hits a hero, the next time they defend with 1 or more 'non-attack' act
     setIdentifiers: ["OUT009","OUT010"],
     sets: [Release.Outsiders],
     specialImage: "OUT009.width-450",
-    subtypes: [Subtype.Dagger,Subtype.OneHanded],
+    subtypes: [Subtype.OneHanded,Subtype.Dagger],
     types: [Type.Weapon],
     typeText: "Assassin Weapon - Dagger (1H)",
 
@@ -122094,7 +122100,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
     
     
     
-    keywords: [Keyword.Piercing,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Piercing],
     
     
     
@@ -122119,12 +122125,6 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
       set: Release.Promos,
       
     },{
-      foiling: Foiling.R,
-      identifier: "OUT011",
-      image: "OUT011.width-450",
-      set: Release.Outsiders,
-      
-    },{
       foiling: Foiling.C,
       identifier: "OUT011",
       image: "OUT011.width-450",
@@ -122136,11 +122136,17 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
       image: "OUT011_EA",
       set: Release.Outsiders,
       treatment: Treatment.EA,
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT011",
+      image: "OUT011.width-450",
+      set: Release.Outsiders,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB123","OUT011"],
-    sets: [Release.Promos,Release.Outsiders],
+    sets: [Release.Outsiders,Release.Promos],
     specialImage: "OUT011_EA",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -122615,6 +122621,12 @@ Defense reactions can't be played to Back Stab's chain link.`,
     defaultImage: "OUT021.width-450",
     name: "Spike with Bloodrot",
     printings: [{
+      
+      identifier: "ARA018",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
       foiling: Foiling.R,
       identifier: "LGS130",
       image: "LGS130",
@@ -122632,17 +122644,11 @@ Defense reactions can't be played to Back Stab's chain link.`,
       image: "OUT021.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "ARA018",
-      image: "",
-      set: Release.ArakniBlitzDeck,
-      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS130","OUT021","ARA018"],
-    sets: [Release.Promos,Release.Outsiders,Release.ArakniBlitzDeck],
+    sets: [Release.ArakniBlitzDeck,Release.Outsiders,Release.Promos],
     specialImage: "LGS130",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -122695,7 +122701,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS131","OUT022"],
-    sets: [Release.Promos,Release.Outsiders],
+    sets: [Release.Outsiders,Release.Promos],
     specialImage: "LGS131",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -122748,7 +122754,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS132","OUT023"],
-    sets: [Release.Promos,Release.Outsiders],
+    sets: [Release.Outsiders,Release.Promos],
     specialImage: "LGS132",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -122781,6 +122787,12 @@ Defense reactions can't be played to Back Stab's chain link.`,
     name: "Infect",
     printings: [{
       
+      identifier: "ARA008",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
       identifier: "OUT024",
       image: "OUT024.width-450",
       set: Release.Outsiders,
@@ -122793,12 +122805,6 @@ Defense reactions can't be played to Back Stab's chain link.`,
       
     },{
       
-      identifier: "ARA008",
-      image: "",
-      set: Release.ArakniBlitzDeck,
-      
-    },{
-      
       identifier: "UZU013",
       image: "",
       set: Release.UzuriBlitzDeck,
@@ -122807,7 +122813,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT024","ARA008","UZU013"],
-    sets: [Release.Outsiders,Release.ArakniBlitzDeck,Release.UzuriBlitzDeck],
+    sets: [Release.ArakniBlitzDeck,Release.Outsiders,Release.UzuriBlitzDeck],
     specialImage: "OUT024.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -122842,6 +122848,12 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     name: "Infect",
     printings: [{
       
+      identifier: "ARA020",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
       identifier: "OUT025",
       image: "OUT025.width-450",
       set: Release.Outsiders,
@@ -122854,12 +122866,6 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
       
     },{
       
-      identifier: "ARA020",
-      image: "",
-      set: Release.ArakniBlitzDeck,
-      
-    },{
-      
       identifier: "UZU017",
       image: "",
       set: Release.UzuriBlitzDeck,
@@ -122868,7 +122874,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT025","ARA020","UZU017"],
-    sets: [Release.Outsiders,Release.ArakniBlitzDeck,Release.UzuriBlitzDeck],
+    sets: [Release.ArakniBlitzDeck,Release.Outsiders,Release.UzuriBlitzDeck],
     specialImage: "OUT025.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -122903,6 +122909,12 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     name: "Infect",
     printings: [{
       
+      identifier: "ARA022",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
       identifier: "OUT026",
       image: "OUT026.width-450",
       set: Release.Outsiders,
@@ -122915,12 +122927,6 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
       
     },{
       
-      identifier: "ARA022",
-      image: "",
-      set: Release.ArakniBlitzDeck,
-      
-    },{
-      
       identifier: "UZU021",
       image: "",
       set: Release.UzuriBlitzDeck,
@@ -122929,7 +122935,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT026","ARA022","UZU021"],
-    sets: [Release.Outsiders,Release.ArakniBlitzDeck,Release.UzuriBlitzDeck],
+    sets: [Release.ArakniBlitzDeck,Release.Outsiders,Release.UzuriBlitzDeck],
     specialImage: "OUT026.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -122964,6 +122970,12 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     name: "Isolate",
     printings: [{
       
+      identifier: "ARA009",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
       identifier: "OUT027",
       image: "OUT027.width-450",
       set: Release.Outsiders,
@@ -122976,12 +122988,6 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
       
     },{
       
-      identifier: "ARA009",
-      image: "",
-      set: Release.ArakniBlitzDeck,
-      
-    },{
-      
       identifier: "UZU014",
       image: "",
       set: Release.UzuriBlitzDeck,
@@ -122990,7 +122996,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT027","ARA009","UZU014"],
-    sets: [Release.Outsiders,Release.ArakniBlitzDeck,Release.UzuriBlitzDeck],
+    sets: [Release.ArakniBlitzDeck,Release.Outsiders,Release.UzuriBlitzDeck],
     specialImage: "OUT027.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -123005,7 +123011,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     
     
     
-    keywords: [Keyword.Stealth,Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.Stealth],
     
     
     pitch: 1,
@@ -123060,7 +123066,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     
     
     
-    keywords: [Keyword.Stealth,Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.Stealth],
     
     
     pitch: 2,
@@ -123115,7 +123121,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     
     
     
-    keywords: [Keyword.Stealth,Keyword.Dominate],
+    keywords: [Keyword.Dominate,Keyword.Stealth],
     
     
     pitch: 3,
@@ -123135,6 +123141,12 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     name: "Malign",
     printings: [{
       
+      identifier: "ARA010",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
       identifier: "OUT030",
       image: "OUT030.width-450",
       set: Release.Outsiders,
@@ -123145,17 +123157,11 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
       image: "OUT030.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "ARA010",
-      image: "",
-      set: Release.ArakniBlitzDeck,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT030","ARA010"],
-    sets: [Release.Outsiders,Release.ArakniBlitzDeck],
+    sets: [Release.ArakniBlitzDeck,Release.Outsiders],
     specialImage: "OUT030.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -123288,6 +123294,12 @@ Damage that would be dealt by Malign can't be prevented.`,
     name: "Prowl",
     printings: [{
       
+      identifier: "ARA011",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
       identifier: "OUT033",
       image: "OUT033.width-450",
       set: Release.Outsiders,
@@ -123298,17 +123310,11 @@ Damage that would be dealt by Malign can't be prevented.`,
       image: "OUT033.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "ARA011",
-      image: "",
-      set: Release.ArakniBlitzDeck,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT033","ARA011"],
-    sets: [Release.Outsiders,Release.ArakniBlitzDeck],
+    sets: [Release.ArakniBlitzDeck,Release.Outsiders],
     specialImage: "OUT033.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -123343,6 +123349,12 @@ The next attack with **stealth** you play this combat chain gains +1{p}.`,
     name: "Prowl",
     printings: [{
       
+      identifier: "ARA021",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
       identifier: "OUT034",
       image: "OUT034.width-450",
       set: Release.Outsiders,
@@ -123353,17 +123365,11 @@ The next attack with **stealth** you play this combat chain gains +1{p}.`,
       image: "OUT034.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "ARA021",
-      image: "",
-      set: Release.ArakniBlitzDeck,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT034","ARA021"],
-    sets: [Release.Outsiders,Release.ArakniBlitzDeck],
+    sets: [Release.ArakniBlitzDeck,Release.Outsiders],
     specialImage: "OUT034.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -123398,6 +123404,12 @@ The next attack with **stealth** you play this combat chain gains +1{p}.`,
     name: "Prowl",
     printings: [{
       
+      identifier: "ARA023",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
       identifier: "OUT035",
       image: "OUT035.width-450",
       set: Release.Outsiders,
@@ -123410,12 +123422,6 @@ The next attack with **stealth** you play this combat chain gains +1{p}.`,
       
     },{
       
-      identifier: "ARA023",
-      image: "",
-      set: Release.ArakniBlitzDeck,
-      
-    },{
-      
       identifier: "UZU023",
       image: "",
       set: Release.UzuriBlitzDeck,
@@ -123424,7 +123430,7 @@ The next attack with **stealth** you play this combat chain gains +1{p}.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT035","ARA023","UZU023"],
-    sets: [Release.Outsiders,Release.ArakniBlitzDeck,Release.UzuriBlitzDeck],
+    sets: [Release.ArakniBlitzDeck,Release.Outsiders,Release.UzuriBlitzDeck],
     specialImage: "OUT035.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -123459,6 +123465,12 @@ The next attack with **stealth** you play this combat chain gains +1{p}.`,
     name: "Sedate",
     printings: [{
       
+      identifier: "ARA012",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
       identifier: "OUT036",
       image: "OUT036.width-450",
       set: Release.Outsiders,
@@ -123471,12 +123483,6 @@ The next attack with **stealth** you play this combat chain gains +1{p}.`,
       
     },{
       
-      identifier: "ARA012",
-      image: "",
-      set: Release.ArakniBlitzDeck,
-      
-    },{
-      
       identifier: "UZU015",
       image: "",
       set: Release.UzuriBlitzDeck,
@@ -123485,7 +123491,7 @@ The next attack with **stealth** you play this combat chain gains +1{p}.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT036","ARA012","UZU015"],
-    sets: [Release.Outsiders,Release.ArakniBlitzDeck,Release.UzuriBlitzDeck],
+    sets: [Release.ArakniBlitzDeck,Release.Outsiders,Release.UzuriBlitzDeck],
     specialImage: "OUT036.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -123575,6 +123581,12 @@ When this hits a hero, create an Inertia token under their control.`,
     name: "Sedate",
     printings: [{
       
+      identifier: "ARA024",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
       identifier: "OUT038",
       image: "OUT038.width-450",
       set: Release.Outsiders,
@@ -123587,12 +123599,6 @@ When this hits a hero, create an Inertia token under their control.`,
       
     },{
       
-      identifier: "ARA024",
-      image: "",
-      set: Release.ArakniBlitzDeck,
-      
-    },{
-      
       identifier: "UZU024",
       image: "",
       set: Release.UzuriBlitzDeck,
@@ -123601,7 +123607,7 @@ When this hits a hero, create an Inertia token under their control.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT038","ARA024","UZU024"],
-    sets: [Release.Outsiders,Release.ArakniBlitzDeck,Release.UzuriBlitzDeck],
+    sets: [Release.ArakniBlitzDeck,Release.Outsiders,Release.UzuriBlitzDeck],
     specialImage: "OUT038.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -123636,6 +123642,12 @@ When this hits a hero, create an Inertia token under their control.`,
     name: "Wither",
     printings: [{
       
+      identifier: "ARA013",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
       identifier: "OUT039",
       image: "OUT039.width-450",
       set: Release.Outsiders,
@@ -123646,17 +123658,11 @@ When this hits a hero, create an Inertia token under their control.`,
       image: "OUT039.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "ARA013",
-      image: "",
-      set: Release.ArakniBlitzDeck,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT039","ARA013"],
-    sets: [Release.Outsiders,Release.ArakniBlitzDeck],
+    sets: [Release.ArakniBlitzDeck,Release.Outsiders],
     specialImage: "OUT039.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -123746,6 +123752,12 @@ When this hits a hero, create a Frailty token under their control.`,
     name: "Wither",
     printings: [{
       
+      identifier: "ARA025",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
       identifier: "OUT041",
       image: "OUT041.width-450",
       set: Release.Outsiders,
@@ -123758,12 +123770,6 @@ When this hits a hero, create a Frailty token under their control.`,
       
     },{
       
-      identifier: "ARA025",
-      image: "",
-      set: Release.ArakniBlitzDeck,
-      
-    },{
-      
       identifier: "UZU025",
       image: "",
       set: Release.UzuriBlitzDeck,
@@ -123772,7 +123778,7 @@ When this hits a hero, create a Frailty token under their control.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT041","ARA025","UZU025"],
-    sets: [Release.Outsiders,Release.ArakniBlitzDeck,Release.UzuriBlitzDeck],
+    sets: [Release.ArakniBlitzDeck,Release.Outsiders,Release.UzuriBlitzDeck],
     specialImage: "OUT041.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -123807,6 +123813,12 @@ When this hits a hero, create a Frailty token under their control.`,
     name: "Razor's Edge",
     printings: [{
       
+      identifier: "ARA016",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
       identifier: "OUT042",
       image: "OUT042.original",
       set: Release.Outsiders,
@@ -123817,17 +123829,11 @@ When this hits a hero, create a Frailty token under their control.`,
       image: "OUT042.original",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "ARA016",
-      image: "",
-      set: Release.ArakniBlitzDeck,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT042","ARA016"],
-    sets: [Release.Outsiders,Release.ArakniBlitzDeck],
+    sets: [Release.ArakniBlitzDeck,Release.Outsiders],
     specialImage: "OUT042.original",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -123907,6 +123913,12 @@ When this hits a hero, create a Frailty token under their control.`,
     name: "Razor's Edge",
     printings: [{
       
+      identifier: "ARA026",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
       identifier: "OUT044",
       image: "OUT044.width-450",
       set: Release.Outsiders,
@@ -123919,12 +123931,6 @@ When this hits a hero, create a Frailty token under their control.`,
       
     },{
       
-      identifier: "ARA026",
-      image: "",
-      set: Release.ArakniBlitzDeck,
-      
-    },{
-      
       identifier: "UZU026",
       image: "",
       set: Release.UzuriBlitzDeck,
@@ -123933,7 +123939,7 @@ When this hits a hero, create a Frailty token under their control.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT044","ARA026","UZU026"],
-    sets: [Release.Outsiders,Release.ArakniBlitzDeck,Release.UzuriBlitzDeck],
+    sets: [Release.ArakniBlitzDeck,Release.Outsiders,Release.UzuriBlitzDeck],
     specialImage: "OUT044.width-450",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -123966,12 +123972,12 @@ When this hits a hero, create a Frailty token under their control.`,
     name: "Mask of Many Faces",
     printings: [{
       
-      identifier: "OUT049",
-      image: "OUT049.width-450",
-      set: Release.Outsiders,
+      identifier: "KAT003",
+      image: "",
+      set: Release.KatsuBlitzDeck,
       
     },{
-      foiling: Foiling.R,
+      
       identifier: "OUT049",
       image: "OUT049.width-450",
       set: Release.Outsiders,
@@ -123983,16 +123989,16 @@ When this hits a hero, create a Frailty token under their control.`,
       set: Release.Outsiders,
       
     },{
-      
-      identifier: "KAT003",
-      image: "",
-      set: Release.KatsuBlitzDeck,
+      foiling: Foiling.R,
+      identifier: "OUT049",
+      image: "OUT049.width-450",
+      set: Release.Outsiders,
       
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT049","KAT003"],
-    sets: [Release.Outsiders,Release.KatsuBlitzDeck],
+    sets: [Release.KatsuBlitzDeck,Release.Outsiders],
     specialImage: "OUT049.width-450",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -124203,7 +124209,7 @@ When this hits, you may discard a card with cost 0. If you do, search your deck 
     
     
     
-    keywords: [Keyword.Specialization,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Specialization],
     
     
     pitch: 2,
@@ -124228,13 +124234,13 @@ When this hits, you may discard a card with cost 0. If you do, search your deck 
       set: Release.Outsiders,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "OUT054",
       image: "OUT054.width-450",
       set: Release.Outsiders,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "OUT054",
       image: "OUT054.width-450",
       set: Release.Outsiders,
@@ -124245,7 +124251,7 @@ When this hits, you may discard a card with cost 0. If you do, search your deck 
     setIdentifiers: ["OUT054"],
     sets: [Release.Outsiders],
     specialImage: "OUT054.width-450",
-    subtypes: [Subtype.Shuriken,Subtype.Item,Subtype.NonAttack],
+    subtypes: [Subtype.Item,Subtype.NonAttack,Subtype.Shuriken],
     types: [Type.Action],
     typeText: "Ninja Action - Shuriken Item",
 
@@ -124325,6 +124331,12 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     name: "Bonds of Ancestry",
     printings: [{
       
+      identifier: "KAT007",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
+    },{
+      
       identifier: "OUT056",
       image: "OUT056.width-450",
       set: Release.Outsiders,
@@ -124335,17 +124347,11 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "OUT056.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "KAT007",
-      image: "",
-      set: Release.KatsuBlitzDeck,
-      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["OUT056","KAT007"],
-    sets: [Release.Outsiders,Release.KatsuBlitzDeck],
+    sets: [Release.KatsuBlitzDeck,Release.Outsiders],
     specialImage: "OUT056.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -124566,6 +124572,12 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     name: "Recoil",
     printings: [{
       
+      identifier: "BEN023",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
+    },{
+      
       identifier: "OUT061",
       image: "OUT061.width-450",
       set: Release.Outsiders,
@@ -124576,17 +124588,11 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "OUT061.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "BEN023",
-      image: "",
-      set: Release.BenjiBlitzDeck,
-      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["OUT061","BEN023"],
-    sets: [Release.Outsiders,Release.BenjiBlitzDeck],
+    sets: [Release.BenjiBlitzDeck,Release.Outsiders],
     specialImage: "OUT061.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -124639,7 +124645,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS141","OUT062"],
-    sets: [Release.Promos,Release.Outsiders],
+    sets: [Release.Outsiders,Release.Promos],
     specialImage: "LGS141",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -124694,7 +124700,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS142","OUT063"],
-    sets: [Release.Promos,Release.Outsiders],
+    sets: [Release.Outsiders,Release.Promos],
     specialImage: "LGS142",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -124749,7 +124755,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS143","OUT064"],
-    sets: [Release.Promos,Release.Outsiders],
+    sets: [Release.Outsiders,Release.Promos],
     specialImage: "LGS143",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -124784,6 +124790,12 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     name: "Back Heel Kick",
     printings: [{
       
+      identifier: "BEN008",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
+    },{
+      
       identifier: "OUT065",
       image: "OUT065.width-450",
       set: Release.Outsiders,
@@ -124794,17 +124806,11 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "OUT065.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "BEN008",
-      image: "",
-      set: Release.BenjiBlitzDeck,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT065","BEN008"],
-    sets: [Release.Outsiders,Release.BenjiBlitzDeck],
+    sets: [Release.BenjiBlitzDeck,Release.Outsiders],
     specialImage: "OUT065.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -124837,6 +124843,12 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     name: "Back Heel Kick",
     printings: [{
       
+      identifier: "BEN014",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
+    },{
+      
       identifier: "OUT066",
       image: "OUT066.width-450",
       set: Release.Outsiders,
@@ -124847,17 +124859,11 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "OUT066.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "BEN014",
-      image: "",
-      set: Release.BenjiBlitzDeck,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT066","BEN014"],
-    sets: [Release.Outsiders,Release.BenjiBlitzDeck],
+    sets: [Release.BenjiBlitzDeck,Release.Outsiders],
     specialImage: "OUT066.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -124937,18 +124943,6 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     name: "Be Like Water",
     printings: [{
       
-      identifier: "OUT068",
-      image: "OUT068.width-450",
-      set: Release.Outsiders,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "OUT068",
-      image: "OUT068.width-450",
-      set: Release.Outsiders,
-      
-    },{
-      
       identifier: "BEN018",
       image: "",
       set: Release.BenjiBlitzDeck,
@@ -124959,11 +124953,23 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "",
       set: Release.KatsuBlitzDeck,
       
+    },{
+      
+      identifier: "OUT068",
+      image: "OUT068.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT068",
+      image: "OUT068.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT068","BEN018","KAT014"],
-    sets: [Release.Outsiders,Release.BenjiBlitzDeck,Release.KatsuBlitzDeck],
+    sets: [Release.BenjiBlitzDeck,Release.KatsuBlitzDeck,Release.Outsiders],
     specialImage: "OUT068.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -124998,6 +125004,12 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     name: "Be Like Water",
     printings: [{
       
+      identifier: "KAT020",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
+    },{
+      
       identifier: "OUT069",
       image: "OUT069.width-450",
       set: Release.Outsiders,
@@ -125008,17 +125020,11 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "OUT069.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "KAT020",
-      image: "",
-      set: Release.KatsuBlitzDeck,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT069","KAT020"],
-    sets: [Release.Outsiders,Release.KatsuBlitzDeck],
+    sets: [Release.KatsuBlitzDeck,Release.Outsiders],
     specialImage: "OUT069.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -125053,18 +125059,6 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     name: "Be Like Water",
     printings: [{
       
-      identifier: "OUT070",
-      image: "OUT070.width-450",
-      set: Release.Outsiders,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "OUT070",
-      image: "OUT070.width-450",
-      set: Release.Outsiders,
-      
-    },{
-      
       identifier: "BEN021",
       image: "",
       set: Release.BenjiBlitzDeck,
@@ -125075,11 +125069,23 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "",
       set: Release.KatsuBlitzDeck,
       
+    },{
+      
+      identifier: "OUT070",
+      image: "OUT070.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT070",
+      image: "OUT070.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT070","BEN021","KAT025"],
-    sets: [Release.Outsiders,Release.BenjiBlitzDeck,Release.KatsuBlitzDeck],
+    sets: [Release.BenjiBlitzDeck,Release.KatsuBlitzDeck,Release.Outsiders],
     specialImage: "OUT070.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -125261,6 +125267,12 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     name: "Descendent Gustwave",
     printings: [{
       
+      identifier: "KAT008",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
+    },{
+      
       identifier: "OUT074",
       image: "OUT074.width-450",
       set: Release.Outsiders,
@@ -125271,17 +125283,11 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "OUT074.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "KAT008",
-      image: "",
-      set: Release.KatsuBlitzDeck,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT074","KAT008"],
-    sets: [Release.Outsiders,Release.KatsuBlitzDeck],
+    sets: [Release.KatsuBlitzDeck,Release.Outsiders],
     specialImage: "OUT074.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -125316,6 +125322,12 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     name: "Descendent Gustwave",
     printings: [{
       
+      identifier: "KAT018",
+      image: "",
+      set: Release.KatsuBlitzDeck,
+      
+    },{
+      
       identifier: "OUT075",
       image: "OUT075.width-450",
       set: Release.Outsiders,
@@ -125326,17 +125338,11 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "OUT075.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "KAT018",
-      image: "",
-      set: Release.KatsuBlitzDeck,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT075","KAT018"],
-    sets: [Release.Outsiders,Release.KatsuBlitzDeck],
+    sets: [Release.KatsuBlitzDeck,Release.Outsiders],
     specialImage: "OUT075.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -125467,18 +125473,6 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     name: "One-Two Punch",
     printings: [{
       
-      identifier: "OUT081",
-      image: "OUT081.width-450",
-      set: Release.Outsiders,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "OUT081",
-      image: "OUT081.width-450",
-      set: Release.Outsiders,
-      
-    },{
-      
       identifier: "BEN016",
       image: "",
       set: Release.BenjiBlitzDeck,
@@ -125489,11 +125483,23 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "",
       set: Release.KatsuBlitzDeck,
       
+    },{
+      
+      identifier: "OUT081",
+      image: "OUT081.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT081",
+      image: "OUT081.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT081","BEN016","KAT016"],
-    sets: [Release.Outsiders,Release.BenjiBlitzDeck,Release.KatsuBlitzDeck],
+    sets: [Release.BenjiBlitzDeck,Release.KatsuBlitzDeck,Release.Outsiders],
     specialImage: "OUT081.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -125526,18 +125532,6 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     name: "One-Two Punch",
     printings: [{
       
-      identifier: "OUT082",
-      image: "OUT082.width-450",
-      set: Release.Outsiders,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "OUT082",
-      image: "OUT082.width-450",
-      set: Release.Outsiders,
-      
-    },{
-      
       identifier: "BEN022",
       image: "",
       set: Release.BenjiBlitzDeck,
@@ -125548,11 +125542,23 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       image: "",
       set: Release.KatsuBlitzDeck,
       
+    },{
+      
+      identifier: "OUT082",
+      image: "OUT082.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT082",
+      image: "OUT082.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT082","BEN022","KAT021"],
-    sets: [Release.Outsiders,Release.BenjiBlitzDeck,Release.KatsuBlitzDeck],
+    sets: [Release.BenjiBlitzDeck,Release.KatsuBlitzDeck,Release.Outsiders],
     specialImage: "OUT082.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -125590,22 +125596,22 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
       set: Release.Promos,
       
     },{
-      foiling: Foiling.G,
-      identifier: "WIN022",
-      image: "",
-      set: Release.Promos,
-      
-    },{
       
       identifier: "OUT091",
       image: "OUT091.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "WIN022",
+      image: "",
+      set: Release.Promos,
+      
     },],
     rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER078","WIN022","OUT091"],
-    sets: [Release.Promos,Release.Outsiders],
+    sets: [Release.Outsiders,Release.Promos],
     specialImage: "HER078",
     subtypes: [],
     types: [Type.Hero],
@@ -125663,10 +125669,10 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
       set: Release.RiptideBlitzDeck,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HER080","HER081","OUT092","RIP001"],
-    sets: [Release.Promos,Release.Outsiders,Release.RiptideBlitzDeck],
+    sets: [Release.Outsiders,Release.Promos,Release.RiptideBlitzDeck],
     specialImage: "HER081",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -125700,6 +125706,12 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
     defaultImage: "OUT093.width-450",
     name: "Barbed Castaway",
     printings: [{
+      
+      identifier: "AZL002",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
       foiling: Foiling.C,
       identifier: "LGS129",
       image: "LGS129",
@@ -125713,23 +125725,17 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
       
     },{
       
-      identifier: "AZL002",
-      image: "",
-      set: Release.AzaleaBlitzDeck,
-      
-    },{
-      
       identifier: "RIP002",
       image: "",
       set: Release.RiptideBlitzDeck,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS129","OUT093","AZL002","RIP002"],
-    sets: [Release.Promos,Release.Outsiders,Release.AzaleaBlitzDeck,Release.RiptideBlitzDeck],
+    sets: [Release.AzaleaBlitzDeck,Release.Outsiders,Release.Promos,Release.RiptideBlitzDeck],
     specialImage: "LGS129",
-    subtypes: [Subtype.Bow,Subtype.TwoHanded],
+    subtypes: [Subtype.TwoHanded,Subtype.Bow],
     types: [Type.Weapon],
     typeText: "Ranger Weapon - Bow (2H)",
 
@@ -125767,12 +125773,6 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
       set: Release.Promos,
       
     },{
-      foiling: Foiling.R,
-      identifier: "OUT094",
-      image: "OUT094.width-450",
-      set: Release.Outsiders,
-      
-    },{
       foiling: Foiling.C,
       identifier: "OUT094",
       image: "OUT094.width-450",
@@ -125784,11 +125784,17 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
       image: "OUT094_EA",
       set: Release.Outsiders,
       treatment: Treatment.EA,
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT094",
+      image: "OUT094.width-450",
+      set: Release.Outsiders,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB125","OUT094"],
-    sets: [Release.Promos,Release.Outsiders],
+    sets: [Release.Outsiders,Release.Promos],
     specialImage: "OUT094_EA",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -125830,22 +125836,22 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
       set: Release.Promos,
       
     },{
-      foiling: Foiling.R,
-      identifier: "OUT095",
-      image: "OUT095.width-450",
-      set: Release.Outsiders,
-      
-    },{
       foiling: Foiling.C,
       identifier: "OUT095",
       image: "OUT095.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT095",
+      image: "OUT095.width-450",
+      set: Release.Outsiders,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB126","OUT095"],
-    sets: [Release.Promos,Release.Outsiders],
+    sets: [Release.Outsiders,Release.Promos],
     specialImage: "FAB126",
     subtypes: [Subtype.Quiver],
     types: [Type.Equipment],
@@ -125883,13 +125889,13 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
       set: Release.Outsiders,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "OUT096",
       image: "OUT096.width-450",
       set: Release.Outsiders,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "OUT096",
       image: "OUT096.width-450",
       set: Release.Outsiders,
@@ -125930,6 +125936,12 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
     defaultImage: "OUT097.width-450",
     name: "Crow's Nest",
     printings: [{
+      
+      identifier: "AZL003",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
       foiling: Foiling.C,
       identifier: "LGS133",
       image: "LGS133",
@@ -125941,17 +125953,11 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
       image: "OUT097.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "AZL003",
-      image: "",
-      set: Release.AzaleaBlitzDeck,
-      
     },],
-    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS133","OUT097","AZL003"],
-    sets: [Release.Promos,Release.Outsiders,Release.AzaleaBlitzDeck],
+    sets: [Release.AzaleaBlitzDeck,Release.Outsiders,Release.Promos],
     specialImage: "LGS133",
     subtypes: [Subtype.Quiver],
     types: [Type.Equipment],
@@ -126003,10 +126009,10 @@ Whenever an arrow is put face up into your arsenal from your deck, you may pay {
       set: Release.RiptideBlitzDeck,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["LGS137","OUT098","RIP003"],
-    sets: [Release.Promos,Release.Outsiders,Release.RiptideBlitzDeck],
+    sets: [Release.Outsiders,Release.Promos,Release.RiptideBlitzDeck],
     specialImage: "LGS137",
     subtypes: [Subtype.Quiver],
     types: [Type.Equipment],
@@ -126041,12 +126047,12 @@ Whenever an arrow is put face up into your arsenal from your deck, you may pay {
     name: "Wayfinder's Crest",
     printings: [{
       
-      identifier: "OUT099",
-      image: "OUT099.width-450",
-      set: Release.Outsiders,
+      identifier: "AZL004",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
       
     },{
-      foiling: Foiling.R,
+      
       identifier: "OUT099",
       image: "OUT099.width-450",
       set: Release.Outsiders,
@@ -126058,16 +126064,16 @@ Whenever an arrow is put face up into your arsenal from your deck, you may pay {
       set: Release.Outsiders,
       
     },{
-      
-      identifier: "AZL004",
-      image: "",
-      set: Release.AzaleaBlitzDeck,
+      foiling: Foiling.R,
+      identifier: "OUT099",
+      image: "OUT099.width-450",
+      set: Release.Outsiders,
       
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT099","AZL004"],
-    sets: [Release.Outsiders,Release.AzaleaBlitzDeck],
+    sets: [Release.AzaleaBlitzDeck,Release.Outsiders],
     specialImage: "OUT099.width-450",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -126118,7 +126124,7 @@ Whenever an arrow is put face up into your arsenal from your deck, you may pay {
     setIdentifiers: ["OUT100"],
     sets: [Release.Outsiders],
     specialImage: "OUT100.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action - Arrow Attack",
 
@@ -126165,7 +126171,7 @@ Whenever an arrow is put face up into your arsenal from your deck, you may pay {
     setIdentifiers: ["OUT101"],
     sets: [Release.Outsiders],
     specialImage: "OUT101.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action - Arrow Attack",
 
@@ -126553,6 +126559,12 @@ If it has an aim counter, it gains "When this hits a hero, destroy a 1H weapon t
     name: "Fletch a Red Tail",
     printings: [{
       
+      identifier: "AZL019",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
+      
       identifier: "OUT109",
       image: "OUT109_MXRPsJl.width-450",
       set: Release.Outsiders,
@@ -126563,17 +126575,11 @@ If it has an aim counter, it gains "When this hits a hero, destroy a 1H weapon t
       image: "OUT109_MXRPsJl.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "AZL019",
-      image: "",
-      set: Release.AzaleaBlitzDeck,
-      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["OUT109","AZL019"],
-    sets: [Release.Outsiders,Release.AzaleaBlitzDeck],
+    sets: [Release.AzaleaBlitzDeck,Release.Outsiders],
     specialImage: "OUT109_MXRPsJl.width-450",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -126732,7 +126738,7 @@ If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS134","OUT112"],
-    sets: [Release.Promos,Release.Outsiders],
+    sets: [Release.Outsiders,Release.Promos],
     specialImage: "LGS134",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -126787,7 +126793,7 @@ If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS135","OUT113"],
-    sets: [Release.Promos,Release.Outsiders],
+    sets: [Release.Outsiders,Release.Promos],
     specialImage: "LGS135",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -126842,7 +126848,7 @@ If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["LGS136","OUT114"],
-    sets: [Release.Promos,Release.Outsiders],
+    sets: [Release.Outsiders,Release.Promos],
     specialImage: "LGS136",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -126877,6 +126883,12 @@ If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
     name: "Falcon Wing",
     printings: [{
       
+      identifier: "AZL008",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
+      
       identifier: "OUT115",
       image: "OUT115.width-450",
       set: Release.Outsiders,
@@ -126889,12 +126901,6 @@ If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
       
     },{
       
-      identifier: "AZL008",
-      image: "",
-      set: Release.AzaleaBlitzDeck,
-      
-    },{
-      
       identifier: "RIP014",
       image: "",
       set: Release.RiptideBlitzDeck,
@@ -126903,9 +126909,9 @@ If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT115","AZL008","RIP014"],
-    sets: [Release.Outsiders,Release.AzaleaBlitzDeck,Release.RiptideBlitzDeck],
+    sets: [Release.AzaleaBlitzDeck,Release.Outsiders,Release.RiptideBlitzDeck],
     specialImage: "OUT115.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action",
 
@@ -126960,7 +126966,7 @@ If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
     setIdentifiers: ["OUT116","RIP024"],
     sets: [Release.Outsiders,Release.RiptideBlitzDeck],
     specialImage: "OUT116.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action",
 
@@ -126993,6 +126999,12 @@ If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
     name: "Falcon Wing",
     printings: [{
       
+      identifier: "AZL023",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
+      
       identifier: "OUT117",
       image: "OUT117.width-450",
       set: Release.Outsiders,
@@ -127003,19 +127015,13 @@ If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
       image: "OUT117.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "AZL023",
-      image: "",
-      set: Release.AzaleaBlitzDeck,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT117","AZL023"],
-    sets: [Release.Outsiders,Release.AzaleaBlitzDeck],
+    sets: [Release.AzaleaBlitzDeck,Release.Outsiders],
     specialImage: "OUT117.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action",
 
@@ -127048,6 +127054,12 @@ If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
     name: "Infecting Shot",
     printings: [{
       
+      identifier: "AZL009",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
+      
       identifier: "OUT118",
       image: "OUT118.width-450",
       set: Release.Outsiders,
@@ -127058,19 +127070,13 @@ If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
       image: "OUT118.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "AZL009",
-      image: "",
-      set: Release.AzaleaBlitzDeck,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT118","AZL009"],
-    sets: [Release.Outsiders,Release.AzaleaBlitzDeck],
+    sets: [Release.AzaleaBlitzDeck,Release.Outsiders],
     specialImage: "OUT118.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action - Arrow Attack",
 
@@ -127125,7 +127131,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     setIdentifiers: ["OUT119","RIP025"],
     sets: [Release.Outsiders,Release.RiptideBlitzDeck],
     specialImage: "OUT119.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action - Arrow Attack",
 
@@ -127174,7 +127180,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     setIdentifiers: ["OUT120"],
     sets: [Release.Outsiders],
     specialImage: "OUT120.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action - Arrow Attack",
 
@@ -127207,6 +127213,12 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     name: "Murkmire Grapnel",
     printings: [{
       
+      identifier: "AZL010",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
+      
       identifier: "OUT121",
       image: "OUT121.width-450",
       set: Release.Outsiders,
@@ -127219,12 +127231,6 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
       
     },{
       
-      identifier: "AZL010",
-      image: "",
-      set: Release.AzaleaBlitzDeck,
-      
-    },{
-      
       identifier: "RIP016",
       image: "",
       set: Release.RiptideBlitzDeck,
@@ -127233,9 +127239,9 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT121","AZL010","RIP016"],
-    sets: [Release.Outsiders,Release.AzaleaBlitzDeck,Release.RiptideBlitzDeck],
+    sets: [Release.AzaleaBlitzDeck,Release.Outsiders,Release.RiptideBlitzDeck],
     specialImage: "OUT121.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action - Arrow Attack",
 
@@ -127290,7 +127296,7 @@ Damage that would be dealt by Murkmire Grapnel can't be prevented.`,
     setIdentifiers: ["OUT122","RIP026"],
     sets: [Release.Outsiders,Release.RiptideBlitzDeck],
     specialImage: "OUT122.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action - Arrow Attack",
 
@@ -127339,7 +127345,7 @@ Damage that would be dealt by Murkmire Grapnel can't be prevented.`,
     setIdentifiers: ["OUT123"],
     sets: [Release.Outsiders],
     specialImage: "OUT123.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action - Arrow Attack",
 
@@ -127372,6 +127378,12 @@ Damage that would be dealt by Murkmire Grapnel can't be prevented.`,
     name: "Sedation Shot",
     printings: [{
       
+      identifier: "AZL012",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
+      
       identifier: "OUT124",
       image: "OUT124.width-450",
       set: Release.Outsiders,
@@ -127384,12 +127396,6 @@ Damage that would be dealt by Murkmire Grapnel can't be prevented.`,
       
     },{
       
-      identifier: "AZL012",
-      image: "",
-      set: Release.AzaleaBlitzDeck,
-      
-    },{
-      
       identifier: "RIP019",
       image: "",
       set: Release.RiptideBlitzDeck,
@@ -127398,9 +127404,9 @@ Damage that would be dealt by Murkmire Grapnel can't be prevented.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT124","AZL012","RIP019"],
-    sets: [Release.Outsiders,Release.AzaleaBlitzDeck,Release.RiptideBlitzDeck],
+    sets: [Release.AzaleaBlitzDeck,Release.Outsiders,Release.RiptideBlitzDeck],
     specialImage: "OUT124.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action - Arrow Attack",
 
@@ -127433,6 +127439,12 @@ When this hits a hero, create an Inertia token under their control.`,
     name: "Sedation Shot",
     printings: [{
       
+      identifier: "AZL021",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
+      
       identifier: "OUT125",
       image: "OUT125.width-450",
       set: Release.Outsiders,
@@ -127443,19 +127455,13 @@ When this hits a hero, create an Inertia token under their control.`,
       image: "OUT125.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "AZL021",
-      image: "",
-      set: Release.AzaleaBlitzDeck,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT125","AZL021"],
-    sets: [Release.Outsiders,Release.AzaleaBlitzDeck],
+    sets: [Release.AzaleaBlitzDeck,Release.Outsiders],
     specialImage: "OUT125.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action - Arrow Attack",
 
@@ -127488,6 +127494,12 @@ When this hits a hero, create an Inertia token under their control.`,
     name: "Sedation Shot",
     printings: [{
       
+      identifier: "AZL024",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
+      
       identifier: "OUT126",
       image: "OUT126.width-450",
       set: Release.Outsiders,
@@ -127498,19 +127510,13 @@ When this hits a hero, create an Inertia token under their control.`,
       image: "OUT126.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "AZL024",
-      image: "",
-      set: Release.AzaleaBlitzDeck,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT126","AZL024"],
-    sets: [Release.Outsiders,Release.AzaleaBlitzDeck],
+    sets: [Release.AzaleaBlitzDeck,Release.Outsiders],
     specialImage: "OUT126.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action - Arrow Attack",
 
@@ -127543,6 +127549,12 @@ When this hits a hero, create an Inertia token under their control.`,
     name: "Skybound Shot",
     printings: [{
       
+      identifier: "AZL013",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
+      
       identifier: "OUT127",
       image: "OUT127.width-450",
       set: Release.Outsiders,
@@ -127553,19 +127565,13 @@ When this hits a hero, create an Inertia token under their control.`,
       image: "OUT127.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "AZL013",
-      image: "",
-      set: Release.AzaleaBlitzDeck,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT127","AZL013"],
-    sets: [Release.Outsiders,Release.AzaleaBlitzDeck],
+    sets: [Release.AzaleaBlitzDeck,Release.Outsiders],
     specialImage: "OUT127.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action - Arrow Attack",
 
@@ -127612,7 +127618,7 @@ When this hits a hero, create an Inertia token under their control.`,
     setIdentifiers: ["OUT128"],
     sets: [Release.Outsiders],
     specialImage: "OUT128.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action - Arrow Attack",
 
@@ -127659,7 +127665,7 @@ When this hits a hero, create an Inertia token under their control.`,
     setIdentifiers: ["OUT129"],
     sets: [Release.Outsiders],
     specialImage: "OUT129.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action - Arrow Attack",
 
@@ -127690,6 +127696,12 @@ When this hits a hero, create an Inertia token under their control.`,
     name: "Spire Sniping",
     printings: [{
       
+      identifier: "AZL014",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
+      
       identifier: "OUT130",
       image: "OUT130.width-450",
       set: Release.Outsiders,
@@ -127700,19 +127712,13 @@ When this hits a hero, create an Inertia token under their control.`,
       image: "OUT130.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "AZL014",
-      image: "",
-      set: Release.AzaleaBlitzDeck,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT130","AZL014"],
-    sets: [Release.Outsiders,Release.AzaleaBlitzDeck],
+    sets: [Release.AzaleaBlitzDeck,Release.Outsiders],
     specialImage: "OUT130.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action - Arrow Attack",
 
@@ -127743,6 +127749,12 @@ When this hits a hero, create an Inertia token under their control.`,
     name: "Spire Sniping",
     printings: [{
       
+      identifier: "AZL022",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
+      
       identifier: "OUT131",
       image: "OUT131.width-450",
       set: Release.Outsiders,
@@ -127753,19 +127765,13 @@ When this hits a hero, create an Inertia token under their control.`,
       image: "OUT131.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "AZL022",
-      image: "",
-      set: Release.AzaleaBlitzDeck,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT131","AZL022"],
-    sets: [Release.Outsiders,Release.AzaleaBlitzDeck],
+    sets: [Release.AzaleaBlitzDeck,Release.Outsiders],
     specialImage: "OUT131.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action - Arrow Attack",
 
@@ -127796,6 +127802,12 @@ When this hits a hero, create an Inertia token under their control.`,
     name: "Spire Sniping",
     printings: [{
       
+      identifier: "AZL025",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
+      
       identifier: "OUT132",
       image: "OUT132.width-450",
       set: Release.Outsiders,
@@ -127806,19 +127818,13 @@ When this hits a hero, create an Inertia token under their control.`,
       image: "OUT132.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "AZL025",
-      image: "",
-      set: Release.AzaleaBlitzDeck,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT132","AZL025"],
-    sets: [Release.Outsiders,Release.AzaleaBlitzDeck],
+    sets: [Release.AzaleaBlitzDeck,Release.Outsiders],
     specialImage: "OUT132.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action - Arrow Attack",
 
@@ -127849,6 +127855,12 @@ When this hits a hero, create an Inertia token under their control.`,
     name: "Widowmaker",
     printings: [{
       
+      identifier: "AZL015",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
+      
       identifier: "OUT133",
       image: "OUT133.width-450",
       set: Release.Outsiders,
@@ -127859,19 +127871,13 @@ When this hits a hero, create an Inertia token under their control.`,
       image: "OUT133.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "AZL015",
-      image: "",
-      set: Release.AzaleaBlitzDeck,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT133","AZL015"],
-    sets: [Release.Outsiders,Release.AzaleaBlitzDeck],
+    sets: [Release.AzaleaBlitzDeck,Release.Outsiders],
     specialImage: "OUT133.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action - Arrow Attack",
 
@@ -127920,7 +127926,7 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
     setIdentifiers: ["OUT134"],
     sets: [Release.Outsiders],
     specialImage: "OUT134.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action - Arrow Attack",
 
@@ -127969,7 +127975,7 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
     setIdentifiers: ["OUT135"],
     sets: [Release.Outsiders],
     specialImage: "OUT135.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action - Arrow Attack",
 
@@ -128002,6 +128008,12 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
     name: "Withering Shot",
     printings: [{
       
+      identifier: "AZL016",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
+      
       identifier: "OUT136",
       image: "OUT136.width-450",
       set: Release.Outsiders,
@@ -128014,12 +128026,6 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
       
     },{
       
-      identifier: "AZL016",
-      image: "",
-      set: Release.AzaleaBlitzDeck,
-      
-    },{
-      
       identifier: "RIP020",
       image: "",
       set: Release.RiptideBlitzDeck,
@@ -128028,9 +128034,9 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT136","AZL016","RIP020"],
-    sets: [Release.Outsiders,Release.AzaleaBlitzDeck,Release.RiptideBlitzDeck],
+    sets: [Release.AzaleaBlitzDeck,Release.Outsiders,Release.RiptideBlitzDeck],
     specialImage: "OUT136.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action - Arrow Attack",
 
@@ -128079,7 +128085,7 @@ When this hits a hero, create a Frailty token under their control.`,
     setIdentifiers: ["OUT137"],
     sets: [Release.Outsiders],
     specialImage: "OUT137.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action - Arrow Attack",
 
@@ -128128,7 +128134,7 @@ When this hits a hero, create a Frailty token under their control.`,
     setIdentifiers: ["OUT138"],
     sets: [Release.Outsiders],
     specialImage: "OUT138.width-450",
-    subtypes: [Subtype.Attack,Subtype.Arrow],
+    subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Ranger Action - Arrow Attack",
 
@@ -128166,22 +128172,22 @@ When this hits a hero, create a Frailty token under their control.`,
       set: Release.Promos,
       
     },{
-      foiling: Foiling.R,
-      identifier: "OUT139",
-      image: "OUT139.width-450",
-      set: Release.Outsiders,
-      
-    },{
       foiling: Foiling.C,
       identifier: "OUT139",
       image: "OUT139.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT139",
+      image: "OUT139.width-450",
+      set: Release.Outsiders,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB124","OUT139"],
-    sets: [Release.Promos,Release.Outsiders],
+    sets: [Release.Outsiders,Release.Promos],
     specialImage: "FAB124",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
@@ -128216,12 +128222,12 @@ When this hits a hero, create a Frailty token under their control.`,
     name: "Mask of Shifting Perspectives",
     printings: [{
       
-      identifier: "OUT140",
-      image: "OUT140.width-450",
-      set: Release.Outsiders,
+      identifier: "BEN003",
+      image: "",
+      set: Release.BenjiBlitzDeck,
       
     },{
-      foiling: Foiling.R,
+      
       identifier: "OUT140",
       image: "OUT140.width-450",
       set: Release.Outsiders,
@@ -128233,10 +128239,10 @@ When this hits a hero, create a Frailty token under their control.`,
       set: Release.Outsiders,
       
     },{
-      
-      identifier: "BEN003",
-      image: "",
-      set: Release.BenjiBlitzDeck,
+      foiling: Foiling.R,
+      identifier: "OUT140",
+      image: "OUT140.width-450",
+      set: Release.Outsiders,
       
     },{
       
@@ -128248,7 +128254,7 @@ When this hits a hero, create a Frailty token under their control.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT140","BEN003","UZU003"],
-    sets: [Release.Outsiders,Release.BenjiBlitzDeck,Release.UzuriBlitzDeck],
+    sets: [Release.BenjiBlitzDeck,Release.Outsiders,Release.UzuriBlitzDeck],
     specialImage: "OUT140.width-450",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -128286,13 +128292,13 @@ When this hits a hero, create a Frailty token under their control.`,
       set: Release.Outsiders,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "OUT141",
       image: "OUT141.width-450",
       set: Release.Outsiders,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "OUT141",
       image: "OUT141.width-450",
       set: Release.Outsiders,
@@ -128477,6 +128483,12 @@ When this hits a hero, create a Frailty token under their control.`,
     name: "Bleed Out",
     printings: [{
       
+      identifier: "BEN007",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
+    },{
+      
       identifier: "OUT145",
       image: "OUT145.width-450",
       set: Release.Outsiders,
@@ -128487,17 +128499,11 @@ When this hits a hero, create a Frailty token under their control.`,
       image: "OUT145.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "BEN007",
-      image: "",
-      set: Release.BenjiBlitzDeck,
-      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["OUT145","BEN007"],
-    sets: [Release.Outsiders,Release.BenjiBlitzDeck],
+    sets: [Release.BenjiBlitzDeck,Release.Outsiders],
     specialImage: "OUT145.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -128630,6 +128636,12 @@ When this hits a hero, create a Frailty token under their control.`,
     name: "Hurl",
     printings: [{
       
+      identifier: "ARA007",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
       identifier: "OUT148",
       image: "OUT148.width-450",
       set: Release.Outsiders,
@@ -128640,17 +128652,11 @@ When this hits a hero, create a Frailty token under their control.`,
       image: "OUT148.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "ARA007",
-      image: "",
-      set: Release.ArakniBlitzDeck,
-      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["OUT148","ARA007"],
-    sets: [Release.Outsiders,Release.ArakniBlitzDeck],
+    sets: [Release.ArakniBlitzDeck,Release.Outsiders],
     specialImage: "OUT148.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -128832,6 +128838,12 @@ When this hits a hero, create a Frailty token under their control.`,
     name: "Plunge",
     printings: [{
       
+      identifier: "BEN019",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
+    },{
+      
       identifier: "OUT152",
       image: "OUT152.width-450",
       set: Release.Outsiders,
@@ -128842,17 +128854,11 @@ When this hits a hero, create a Frailty token under their control.`,
       image: "OUT152.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "BEN019",
-      image: "",
-      set: Release.BenjiBlitzDeck,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT152","BEN019"],
-    sets: [Release.Outsiders,Release.BenjiBlitzDeck],
+    sets: [Release.BenjiBlitzDeck,Release.Outsiders],
     specialImage: "OUT152.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -128936,18 +128942,6 @@ When this hits a hero, create a Frailty token under their control.`,
     name: "Short and Sharp",
     printings: [{
       
-      identifier: "OUT154",
-      image: "OUT154.width-450",
-      set: Release.Outsiders,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "OUT154",
-      image: "OUT154.width-450",
-      set: Release.Outsiders,
-      
-    },{
-      
       identifier: "ARA017",
       image: "",
       set: Release.ArakniBlitzDeck,
@@ -128958,11 +128952,23 @@ When this hits a hero, create a Frailty token under their control.`,
       image: "",
       set: Release.BenjiBlitzDeck,
       
+    },{
+      
+      identifier: "OUT154",
+      image: "OUT154.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT154",
+      image: "OUT154.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT154","ARA017","BEN013"],
-    sets: [Release.Outsiders,Release.ArakniBlitzDeck,Release.BenjiBlitzDeck],
+    sets: [Release.ArakniBlitzDeck,Release.BenjiBlitzDeck,Release.Outsiders],
     specialImage: "OUT154.width-450",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -129095,12 +129101,12 @@ When this hits a hero, create a Frailty token under their control.`,
     name: "Mask of Malicious Manifestations",
     printings: [{
       
-      identifier: "OUT157",
-      image: "OUT157.width-450",
-      set: Release.Outsiders,
+      identifier: "ARA003",
+      image: "",
+      set: Release.ArakniBlitzDeck,
       
     },{
-      foiling: Foiling.R,
+      
       identifier: "OUT157",
       image: "OUT157.width-450",
       set: Release.Outsiders,
@@ -129112,10 +129118,10 @@ When this hits a hero, create a Frailty token under their control.`,
       set: Release.Outsiders,
       
     },{
-      
-      identifier: "ARA003",
-      image: "",
-      set: Release.ArakniBlitzDeck,
+      foiling: Foiling.R,
+      identifier: "OUT157",
+      image: "OUT157.width-450",
+      set: Release.Outsiders,
       
     },{
       
@@ -129127,7 +129133,7 @@ When this hits a hero, create a Frailty token under their control.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT157","ARA003","RIP004"],
-    sets: [Release.Outsiders,Release.ArakniBlitzDeck,Release.RiptideBlitzDeck],
+    sets: [Release.ArakniBlitzDeck,Release.Outsiders,Release.RiptideBlitzDeck],
     specialImage: "OUT157.width-450",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -129162,12 +129168,12 @@ When this hits a hero, create a Frailty token under their control.`,
     name: "Toxic Tips",
     printings: [{
       
-      identifier: "OUT158",
-      image: "OUT158.width-450",
-      set: Release.Outsiders,
+      identifier: "ARA005",
+      image: "",
+      set: Release.ArakniBlitzDeck,
       
     },{
-      foiling: Foiling.R,
+      
       identifier: "OUT158",
       image: "OUT158.width-450",
       set: Release.Outsiders,
@@ -129179,10 +129185,10 @@ When this hits a hero, create a Frailty token under their control.`,
       set: Release.Outsiders,
       
     },{
-      
-      identifier: "ARA005",
-      image: "",
-      set: Release.ArakniBlitzDeck,
+      foiling: Foiling.R,
+      identifier: "OUT158",
+      image: "OUT158.width-450",
+      set: Release.Outsiders,
       
     },{
       
@@ -129194,7 +129200,7 @@ When this hits a hero, create a Frailty token under their control.`,
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT158","ARA005","RIP006"],
-    sets: [Release.Outsiders,Release.ArakniBlitzDeck,Release.RiptideBlitzDeck],
+    sets: [Release.ArakniBlitzDeck,Release.Outsiders,Release.RiptideBlitzDeck],
     specialImage: "OUT158.width-450",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
@@ -129222,7 +129228,7 @@ When this hits a hero, create a Frailty token under their control.`,
     
     
   },{
-    artists: ["Mateusz Wiśniewski","Carlos Cruchaga"],
+    artists: ["Carlos Cruchaga","Mateusz Wiśniewski"],
     cardIdentifier: "codex-of-bloodrot-yellow",
     classes: [Class.Assassin,Class.Ranger],
     defaultImage: "OUT159.width-450",
@@ -129234,17 +129240,17 @@ When this hits a hero, create a Frailty token under their control.`,
       set: Release.Outsiders,
       
     },{
-      foiling: Foiling.R,
-      identifier: "OUT159",
-      image: "OUT159.width-450",
-      set: Release.Outsiders,
-      
-    },{
       foiling: Foiling.C,
       identifier: "OUT159",
       image: "EN_OUT_marvels_v1.0_FINAL_noopw.width-450",
       set: Release.Outsiders,
       treatment: Treatment.AA,
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT159",
+      image: "OUT159.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -129291,17 +129297,17 @@ Create a Ponder token under your control and a Bloodrot Pox token under each opp
       set: Release.Outsiders,
       
     },{
-      foiling: Foiling.R,
-      identifier: "OUT160",
-      image: "OUT160.width-450",
-      set: Release.Outsiders,
-      
-    },{
       foiling: Foiling.C,
       identifier: "OUT160",
       image: "EN_OUT_marvels_v1.0_FINAL_noopw2.width-450",
       set: Release.Outsiders,
       treatment: Treatment.AA,
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT160",
+      image: "OUT160.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -129336,7 +129342,7 @@ Create a Ponder token under your control and a Frailty token under each opponent
     
     
   },{
-    artists: ["Isuardi Therianto","Carlos Cruchaga"],
+    artists: ["Carlos Cruchaga","Isuardi Therianto"],
     cardIdentifier: "codex-of-inertia-yellow",
     classes: [Class.Assassin,Class.Ranger],
     defaultImage: "OUT161.width-450",
@@ -129348,17 +129354,17 @@ Create a Ponder token under your control and a Frailty token under each opponent
       set: Release.Outsiders,
       
     },{
-      foiling: Foiling.R,
-      identifier: "OUT161",
-      image: "OUT161.width-450",
-      set: Release.Outsiders,
-      
-    },{
       foiling: Foiling.C,
       identifier: "OUT161",
       image: "EN_OUT_marvels_v1.0_FINAL_noopw3.width-450",
       set: Release.Outsiders,
       treatment: Treatment.AA,
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT161",
+      image: "OUT161.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -129426,7 +129432,7 @@ Create a Ponder token under your control and an Inertia token under each opponen
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["FAB132","OUT162","UZU008"],
-    sets: [Release.Promos,Release.Outsiders,Release.UzuriBlitzDeck],
+    sets: [Release.Outsiders,Release.Promos,Release.UzuriBlitzDeck],
     specialImage: "FAB132",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -129579,7 +129585,7 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["FAB128","OUT165"],
-    sets: [Release.Promos,Release.Outsiders],
+    sets: [Release.Outsiders,Release.Promos],
     specialImage: "FAB128",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -129634,7 +129640,7 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["FAB129","OUT166"],
-    sets: [Release.Promos,Release.Outsiders],
+    sets: [Release.Outsiders,Release.Promos],
     specialImage: "FAB129",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -129668,6 +129674,12 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     defaultImage: "OUT167.width-450",
     name: "Toxicity",
     printings: [{
+      
+      identifier: "AZL027",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
       foiling: Foiling.R,
       identifier: "FAB130",
       image: "FAB130",
@@ -129685,17 +129697,11 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
       image: "OUT167.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "AZL027",
-      image: "",
-      set: Release.AzaleaBlitzDeck,
-      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["FAB130","OUT167","AZL027"],
-    sets: [Release.Promos,Release.Outsiders,Release.AzaleaBlitzDeck],
+    sets: [Release.AzaleaBlitzDeck,Release.Outsiders,Release.Promos],
     specialImage: "FAB130",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -129730,6 +129736,12 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     name: "Virulent Touch",
     printings: [{
       
+      identifier: "ARA014",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
       identifier: "OUT168",
       image: "OUT168.width-450",
       set: Release.Outsiders,
@@ -129740,17 +129752,11 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
       image: "OUT168.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "ARA014",
-      image: "",
-      set: Release.ArakniBlitzDeck,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT168","ARA014"],
-    sets: [Release.Outsiders,Release.ArakniBlitzDeck],
+    sets: [Release.ArakniBlitzDeck,Release.Outsiders],
     specialImage: "OUT168.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -129883,6 +129889,12 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
     name: "Bloodrot Trap",
     printings: [{
       
+      identifier: "ARA019",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
       identifier: "OUT171",
       image: "OUT171.width-450",
       set: Release.Outsiders,
@@ -129895,12 +129907,6 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
       
     },{
       
-      identifier: "ARA019",
-      image: "",
-      set: Release.ArakniBlitzDeck,
-      
-    },{
-      
       identifier: "RIP008",
       image: "",
       set: Release.RiptideBlitzDeck,
@@ -129909,7 +129915,7 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT171","ARA019","RIP008"],
-    sets: [Release.Outsiders,Release.ArakniBlitzDeck,Release.RiptideBlitzDeck],
+    sets: [Release.ArakniBlitzDeck,Release.Outsiders,Release.RiptideBlitzDeck],
     specialImage: "OUT171.width-450",
     subtypes: [Subtype.Trap],
     types: [Type.DefenseReaction],
@@ -130053,22 +130059,22 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
       set: Release.Promos,
       
     },{
-      foiling: Foiling.R,
-      identifier: "OUT174",
-      image: "OUT174.width-450",
-      set: Release.Outsiders,
-      
-    },{
       foiling: Foiling.C,
       identifier: "OUT174",
       image: "OUT174.width-450",
       set: Release.Outsiders,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT174",
+      image: "OUT174.width-450",
+      set: Release.Outsiders,
+      
     },],
-    rarities: [Rarity.Promo,Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["FAB127","OUT174"],
-    sets: [Release.Promos,Release.Outsiders],
+    sets: [Release.Outsiders,Release.Promos],
     specialImage: "FAB127",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
@@ -130108,13 +130114,13 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
       set: Release.Outsiders,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "OUT175",
       image: "OUT175.width-450",
       set: Release.Outsiders,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "OUT175",
       image: "OUT175.width-450",
       set: Release.Outsiders,
@@ -130161,13 +130167,13 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
       set: Release.Outsiders,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "OUT176",
       image: "OUT176.width-450",
       set: Release.Outsiders,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "OUT176",
       image: "OUT176.width-450",
       set: Release.Outsiders,
@@ -130214,13 +130220,13 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
       set: Release.Outsiders,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "OUT177",
       image: "OUT177.width-450",
       set: Release.Outsiders,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "OUT177",
       image: "OUT177.width-450",
       set: Release.Outsiders,
@@ -130267,13 +130273,13 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
       set: Release.Outsiders,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "OUT178",
       image: "OUT178.width-450",
       set: Release.Outsiders,
       
     },{
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "OUT178",
       image: "OUT178.width-450",
       set: Release.Outsiders,
@@ -130315,12 +130321,12 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
     name: "Silken Gi",
     printings: [{
       
-      identifier: "OUT179",
-      image: "OUT179.width-450",
-      set: Release.Outsiders,
+      identifier: "BEN004",
+      image: "",
+      set: Release.BenjiBlitzDeck,
       
     },{
-      foiling: Foiling.R,
+      
       identifier: "OUT179",
       image: "OUT179.width-450",
       set: Release.Outsiders,
@@ -130332,16 +130338,16 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
       set: Release.Outsiders,
       
     },{
-      
-      identifier: "BEN004",
-      image: "",
-      set: Release.BenjiBlitzDeck,
+      foiling: Foiling.R,
+      identifier: "OUT179",
+      image: "OUT179.width-450",
+      set: Release.Outsiders,
       
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT179","BEN004"],
-    sets: [Release.Outsiders,Release.BenjiBlitzDeck],
+    sets: [Release.BenjiBlitzDeck,Release.Outsiders],
     specialImage: "OUT179.width-450",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -130374,12 +130380,12 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
     name: "Threadbare Tunic",
     printings: [{
       
-      identifier: "OUT180",
-      image: "OUT180.width-450",
-      set: Release.Outsiders,
+      identifier: "AZL005",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
       
     },{
-      foiling: Foiling.R,
+      
       identifier: "OUT180",
       image: "OUT180.width-450",
       set: Release.Outsiders,
@@ -130391,10 +130397,10 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
       set: Release.Outsiders,
       
     },{
-      
-      identifier: "AZL005",
-      image: "",
-      set: Release.AzaleaBlitzDeck,
+      foiling: Foiling.R,
+      identifier: "OUT180",
+      image: "OUT180.width-450",
+      set: Release.Outsiders,
       
     },{
       
@@ -130406,7 +130412,7 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT180","AZL005","RIP005"],
-    sets: [Release.Outsiders,Release.AzaleaBlitzDeck,Release.RiptideBlitzDeck],
+    sets: [Release.AzaleaBlitzDeck,Release.Outsiders,Release.RiptideBlitzDeck],
     specialImage: "OUT180.width-450",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -130439,24 +130445,6 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
     name: "Fisticuffs",
     printings: [{
       
-      identifier: "OUT181",
-      image: "OUT181.width-450",
-      set: Release.Outsiders,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "OUT181",
-      image: "OUT181.width-450",
-      set: Release.Outsiders,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "OUT181",
-      image: "OUT181.width-450",
-      set: Release.Outsiders,
-      
-    },{
-      
       identifier: "BEN005",
       image: "",
       set: Release.BenjiBlitzDeck,
@@ -130469,6 +130457,24 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
       
     },{
       
+      identifier: "OUT181",
+      image: "OUT181.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "OUT181",
+      image: "OUT181.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT181",
+      image: "OUT181.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      
       identifier: "UZU005",
       image: "",
       set: Release.UzuriBlitzDeck,
@@ -130477,7 +130483,7 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT181","BEN005","KAT005","UZU005"],
-    sets: [Release.Outsiders,Release.BenjiBlitzDeck,Release.KatsuBlitzDeck,Release.UzuriBlitzDeck],
+    sets: [Release.BenjiBlitzDeck,Release.KatsuBlitzDeck,Release.Outsiders,Release.UzuriBlitzDeck],
     specialImage: "OUT181.width-450",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
@@ -130510,12 +130516,12 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
     name: "Fleet Foot Sandals",
     printings: [{
       
-      identifier: "OUT182",
-      image: "OUT182.width-450",
-      set: Release.Outsiders,
+      identifier: "BEN006",
+      image: "",
+      set: Release.BenjiBlitzDeck,
       
     },{
-      foiling: Foiling.R,
+      
       identifier: "OUT182",
       image: "OUT182.width-450",
       set: Release.Outsiders,
@@ -130527,16 +130533,16 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
       set: Release.Outsiders,
       
     },{
-      
-      identifier: "BEN006",
-      image: "",
-      set: Release.BenjiBlitzDeck,
+      foiling: Foiling.R,
+      identifier: "OUT182",
+      image: "OUT182.width-450",
+      set: Release.Outsiders,
       
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT182","BEN006"],
-    sets: [Release.Outsiders,Release.BenjiBlitzDeck],
+    sets: [Release.BenjiBlitzDeck,Release.Outsiders],
     specialImage: "OUT182.width-450",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -131731,6 +131737,12 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     name: "Feisty Locals",
     printings: [{
       
+      identifier: "BEN011",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
+    },{
+      
       identifier: "OUT207",
       image: "OUT207.width-450",
       set: Release.Outsiders,
@@ -131741,17 +131753,11 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
       image: "OUT207.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "BEN011",
-      image: "",
-      set: Release.BenjiBlitzDeck,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT207","BEN011"],
-    sets: [Release.Outsiders,Release.BenjiBlitzDeck],
+    sets: [Release.BenjiBlitzDeck,Release.Outsiders],
     specialImage: "OUT207.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -132019,18 +132025,6 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     name: "Spring Load",
     printings: [{
       
-      identifier: "OUT219",
-      image: "OUT219.width-450",
-      set: Release.Outsiders,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "OUT219",
-      image: "OUT219.width-450",
-      set: Release.Outsiders,
-      
-    },{
-      
       identifier: "ARA015",
       image: "",
       set: Release.ArakniBlitzDeck,
@@ -132041,11 +132035,23 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
       image: "",
       set: Release.BenjiBlitzDeck,
       
+    },{
+      
+      identifier: "OUT219",
+      image: "OUT219.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT219",
+      image: "OUT219.width-450",
+      set: Release.Outsiders,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT219","ARA015","BEN012"],
-    sets: [Release.Outsiders,Release.ArakniBlitzDeck,Release.BenjiBlitzDeck],
+    sets: [Release.ArakniBlitzDeck,Release.BenjiBlitzDeck,Release.Outsiders],
     specialImage: "OUT219.width-450",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -132172,6 +132178,12 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     name: "Scout the Periphery",
     printings: [{
       
+      identifier: "AZL020",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
+      
       identifier: "OUT225",
       image: "OUT225.width-450",
       set: Release.Outsiders,
@@ -132184,12 +132196,6 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
       
     },{
       
-      identifier: "AZL020",
-      image: "",
-      set: Release.AzaleaBlitzDeck,
-      
-    },{
-      
       identifier: "RIP023",
       image: "",
       set: Release.RiptideBlitzDeck,
@@ -132198,7 +132204,7 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT225","AZL020","RIP023"],
-    sets: [Release.Outsiders,Release.AzaleaBlitzDeck,Release.RiptideBlitzDeck],
+    sets: [Release.AzaleaBlitzDeck,Release.Outsiders,Release.RiptideBlitzDeck],
     specialImage: "OUT225.width-450",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -132292,6 +132298,12 @@ The next attack action card you play from arsenal this turn gains +2{p}.
     name: "Scout the Periphery",
     printings: [{
       
+      identifier: "AZL026",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
+      
       identifier: "OUT227",
       image: "OUT227.width-450",
       set: Release.Outsiders,
@@ -132302,17 +132314,11 @@ The next attack action card you play from arsenal this turn gains +2{p}.
       image: "OUT227.width-450",
       set: Release.Outsiders,
       
-    },{
-      
-      identifier: "AZL026",
-      image: "",
-      set: Release.AzaleaBlitzDeck,
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["OUT227","AZL026"],
-    sets: [Release.Outsiders,Release.AzaleaBlitzDeck],
+    sets: [Release.AzaleaBlitzDeck,Release.Outsiders],
     specialImage: "OUT227.width-450",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -132513,10 +132519,10 @@ The next attack action card you play from arsenal this turn gains +1{p}.
       set: Release.UzuriBlitzDeck,
       
     },],
-    rarities: [Rarity.Promo,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB131","OUT231","UZU016"],
-    sets: [Release.Promos,Release.Outsiders,Release.UzuriBlitzDeck],
+    sets: [Release.Outsiders,Release.Promos,Release.UzuriBlitzDeck],
     specialImage: "FAB131",
     subtypes: [],
     types: [Type.Instant],
@@ -132648,6 +132654,18 @@ Create a Ponder token.`,
     defaultImage: "OUT234.width-450",
     name: "Bloodrot Pox",
     printings: [{
+      
+      identifier: "ARA027",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
+      identifier: "AZL028",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
       foiling: Foiling.R,
       identifier: "FAB133",
       image: "FAB133",
@@ -132667,15 +132685,9 @@ Create a Ponder token.`,
       
     },{
       
-      identifier: "ARA027",
+      identifier: "RIP028",
       image: "",
-      set: Release.ArakniBlitzDeck,
-      
-    },{
-      
-      identifier: "AZL028",
-      image: "",
-      set: Release.AzaleaBlitzDeck,
+      set: Release.RiptideBlitzDeck,
       
     },{
       
@@ -132683,17 +132695,11 @@ Create a Ponder token.`,
       image: "",
       set: Release.UzuriBlitzDeck,
       
-    },{
-      
-      identifier: "RIP028",
-      image: "",
-      set: Release.RiptideBlitzDeck,
-      
     },],
-    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["FAB133","LGS125","OUT234","ARA027","AZL028","UZU028","RIP028"],
-    sets: [Release.Promos,Release.Outsiders,Release.ArakniBlitzDeck,Release.AzaleaBlitzDeck,Release.UzuriBlitzDeck,Release.RiptideBlitzDeck],
+    sets: [Release.ArakniBlitzDeck,Release.AzaleaBlitzDeck,Release.Outsiders,Release.Promos,Release.RiptideBlitzDeck,Release.UzuriBlitzDeck],
     specialImage: "FAB133",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
@@ -132725,6 +132731,18 @@ Create a Ponder token.`,
     defaultImage: "OUT235.width-450",
     name: "Frailty",
     printings: [{
+      
+      identifier: "ARA028",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
+      identifier: "AZL029",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
       foiling: Foiling.R,
       identifier: "FAB134",
       image: "FAB134",
@@ -132744,15 +132762,9 @@ Create a Ponder token.`,
       
     },{
       
-      identifier: "ARA028",
+      identifier: "RIP029",
       image: "",
-      set: Release.ArakniBlitzDeck,
-      
-    },{
-      
-      identifier: "AZL029",
-      image: "",
-      set: Release.AzaleaBlitzDeck,
+      set: Release.RiptideBlitzDeck,
       
     },{
       
@@ -132760,17 +132772,11 @@ Create a Ponder token.`,
       image: "",
       set: Release.UzuriBlitzDeck,
       
-    },{
-      
-      identifier: "RIP029",
-      image: "",
-      set: Release.RiptideBlitzDeck,
-      
     },],
-    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["FAB134","LGS126","OUT235","ARA028","AZL029","UZU029","RIP029"],
-    sets: [Release.Promos,Release.Outsiders,Release.ArakniBlitzDeck,Release.AzaleaBlitzDeck,Release.UzuriBlitzDeck,Release.RiptideBlitzDeck],
+    sets: [Release.ArakniBlitzDeck,Release.AzaleaBlitzDeck,Release.Outsiders,Release.Promos,Release.RiptideBlitzDeck,Release.UzuriBlitzDeck],
     specialImage: "FAB134",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
@@ -132804,6 +132810,18 @@ At the beginning of your end phase destroy Frailty.`,
     defaultImage: "OUT236.width-450",
     name: "Inertia",
     printings: [{
+      
+      identifier: "ARA029",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
+      identifier: "AZL030",
+      image: "",
+      set: Release.AzaleaBlitzDeck,
+      
+    },{
       foiling: Foiling.R,
       identifier: "FAB135",
       image: "FAB135",
@@ -132823,15 +132841,9 @@ At the beginning of your end phase destroy Frailty.`,
       
     },{
       
-      identifier: "ARA029",
+      identifier: "RIP030",
       image: "",
-      set: Release.ArakniBlitzDeck,
-      
-    },{
-      
-      identifier: "AZL030",
-      image: "",
-      set: Release.AzaleaBlitzDeck,
+      set: Release.RiptideBlitzDeck,
       
     },{
       
@@ -132839,17 +132851,11 @@ At the beginning of your end phase destroy Frailty.`,
       image: "",
       set: Release.UzuriBlitzDeck,
       
-    },{
-      
-      identifier: "RIP030",
-      image: "",
-      set: Release.RiptideBlitzDeck,
-      
     },],
-    rarities: [Rarity.Promo,Rarity.Token,Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["FAB135","LGS127","OUT236","ARA029","AZL030","UZU030","RIP030"],
-    sets: [Release.Promos,Release.Outsiders,Release.ArakniBlitzDeck,Release.AzaleaBlitzDeck,Release.UzuriBlitzDeck,Release.RiptideBlitzDeck],
+    sets: [Release.ArakniBlitzDeck,Release.AzaleaBlitzDeck,Release.Outsiders,Release.Promos,Release.RiptideBlitzDeck,Release.UzuriBlitzDeck],
     specialImage: "FAB135",
     subtypes: [Subtype.Aura],
     types: [Type.Token],

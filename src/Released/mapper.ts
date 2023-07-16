@@ -1,7 +1,10 @@
 import {
   addOppositeSideCardIdentifiers,
   getDefaultImage,
+  getFusions,
   getNumberOrUndefined,
+  getPrint,
+  getRarities,
   getSpecialImage,
   getStringIfNotNumber,
 } from "../Shared";
@@ -39,22 +42,8 @@ const getClasses = (card: ParsedCard): Class[] => {
   if (classes.length === 0) {
     classes.push(Class.Generic);
   }
+  classes.sort();
   return classes;
-};
-
-const getFusions = (card: ParsedCard): Fusion[] => {
-  const { cardKeywords } = card;
-  const fusions = new Set<Fusion>();
-  cardKeywords.forEach((keyword) => {
-    if (keyword.includes("Fusion")) {
-      for (const [fusion, value] of Object.entries(Fusion)) {
-        if (keyword.includes(value)) {
-          fusions.add(Fusion[fusion]);
-        }
-      }
-    }
-  });
-  return [...fusions];
 };
 
 const getHero = (card: ParsedCard): Hero | null => {
@@ -112,6 +101,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     imageUrl,
     edition: rawEdition,
     foilings,
+    // foiling: rawFoiling,
     setIdentifier: identifier,
     set: rawSet,
   } of printings) {
@@ -125,6 +115,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
           imageUrl.lastIndexOf(".")
         )
       : "";
+
     for (const rawFoiling of foilings) {
       const foiling = Foiling[rawFoiling];
       images.push({
@@ -136,7 +127,17 @@ const getPrintings = (card: ParsedCard): Printing[] => {
         ...(treatment ? { treatment } : {}),
       });
     }
+    // const foiling = Foiling[rawFoiling];
+    // images.push({
+    //   ...(edition ? { edition } : {}),
+    //   ...(foiling ? { foiling } : {}),
+    //   identifier,
+    //   image,
+    //   set,
+    //   ...(treatment ? { treatment } : {}),
+    // });
   }
+  images.sort((i1, i2) => getPrint(i1).localeCompare(getPrint(i2)));
   return images;
 };
 
@@ -157,6 +158,7 @@ const getKeywords = (card: ParsedCard): Keyword[] => {
     }
   );
 
+  keywords.sort();
   return keywords;
 };
 
@@ -179,34 +181,6 @@ const getRarity = (card: ParsedCard): Rarity | undefined => {
   } else if (rarities.some((rarity) => rarity.startsWith("P"))) {
     return Rarity.Promo;
   }
-};
-
-const rarityStringMapping: { [key: string]: Rarity } = {
-  T: Rarity.Token,
-  F: Rarity.Fabled,
-  L: Rarity.Legendary,
-  M: Rarity.Majestic,
-  V: Rarity.Marvel,
-  S: Rarity.SuperRare,
-  R: Rarity.Rare,
-  C: Rarity.Common,
-  P: Rarity.Promo,
-};
-
-const getRarities = (card: ParsedCard): Rarity[] => {
-  const { rarity } = card;
-  const rarities: Rarity[] = [];
-  rarity.forEach((rawRarity) => {
-    const rarityString = rawRarity.split(" - ")[0];
-    const rarity = rarityStringMapping[rarityString];
-    if (!rarity) {
-      console.error(`No rarity found for ${rarityString} (${rawRarity})`);
-    }
-    if (!rarities.includes(rarity)) {
-      rarities.push(rarity);
-    }
-  });
-  return rarities;
 };
 
 const getRestrictedFormats = (card: ParsedCard): Format[] => {
@@ -240,6 +214,7 @@ const getRestrictedFormats = (card: ParsedCard): Format[] => {
   if (!commonerLegal || commonerBanned || commonerSuspended) {
     restrictedFormats.push(Format.Commoner);
   }
+  restrictedFormats.sort();
   return restrictedFormats;
 };
 
@@ -250,7 +225,10 @@ const getSets = (card: ParsedCard): Release[] => {
         setIdentifierToSetMappings[setIdentifier.substring(0, 3).toLowerCase()]
     )
     .filter((set) => !!set);
-  return Array.from(new Set(sets));
+  const arr = Array.from(new Set(sets));
+  arr.sort();
+
+  return arr;
 };
 
 const getSpecializations = (card: ParsedCard): Hero[] => {
@@ -266,6 +244,8 @@ const getSpecializations = (card: ParsedCard): Hero[] => {
       }
     }
   });
+
+  specializations.sort();
 
   return specializations;
 };
@@ -288,7 +268,10 @@ const getTalents = (card: ParsedCard): Talent[] => {
       }
     }
   }
-  return [...talents];
+  const arr = Array.from(talents);
+  arr.sort();
+
+  return arr;
 };
 
 const getTypeAndSubType = (
@@ -319,6 +302,9 @@ const getTypeAndSubType = (
     subtypes.push(Subtype.NonAttack);
   }
 
+  types.sort();
+  subtypes.sort();
+
   return { types, subtypes };
 };
 
@@ -331,8 +317,10 @@ const getCardData = (card: ParsedCard): Card => {
   const { subtypes, types } = getTypeAndSubType(card);
   const printings = getPrintings(card);
 
+  const artists = card.artists.sort();
+
   return {
-    artists: card.artists,
+    artists,
     cardIdentifier: getIdentifier(card),
     classes: getClasses(card),
     defaultImage: getDefaultImage(card.name, printings),

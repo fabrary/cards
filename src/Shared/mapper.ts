@@ -1,12 +1,14 @@
 import {
   Card,
+  Fusion,
   Printing,
+  Rarity,
   Release,
   ReleaseEdition,
   Subtype,
   Treatment,
 } from "./interfaces";
-import { fullSetIdentifiers } from "./sets";
+import { fullSetIdentifiers, setIdentifierToSetMappings } from "./sets";
 
 export const getNumberOrUndefined = (value?: string): number | undefined => {
   if (value) {
@@ -251,4 +253,69 @@ export const getPrint = (printing: {
   const foiling = printing.foiling ? `-${printing.foiling}` : ``;
   const treatment = printing.treatment ? `-${printing.treatment}` : ``;
   return `${identifier}${edition}${foiling}${treatment}`;
+};
+
+export const getSets = ({
+  setIdentifiers,
+}: {
+  setIdentifiers: string[];
+}): Release[] => {
+  const sets = new Set<Release>();
+  for (const setIdentifier of setIdentifiers) {
+    const set = setIdentifierToSetMappings[setIdentifier.toLowerCase()];
+    if (set) {
+      sets.add(set);
+    }
+  }
+  const arr = Array.from(sets);
+  arr.sort();
+
+  return arr;
+};
+
+export const getFusions = (card: { cardKeywords: string[] }): Fusion[] => {
+  const { cardKeywords } = card;
+  const fusions = new Set<Fusion>();
+  cardKeywords.forEach((keyword) => {
+    if (keyword.includes("Fusion")) {
+      for (const [fusion, value] of Object.entries(Fusion)) {
+        if (keyword.includes(value)) {
+          fusions.add(Fusion[fusion]);
+        }
+      }
+    }
+  });
+  const arr = Array.from(fusions);
+  arr.sort();
+
+  return arr;
+};
+
+const rarityStringMapping: { [key: string]: Rarity } = {
+  T: Rarity.Token,
+  F: Rarity.Fabled,
+  L: Rarity.Legendary,
+  M: Rarity.Majestic,
+  V: Rarity.Marvel,
+  S: Rarity.SuperRare,
+  R: Rarity.Rare,
+  C: Rarity.Common,
+  P: Rarity.Promo,
+};
+
+export const getRarities = (card: { rarity: string[] }): Rarity[] => {
+  const { rarity } = card;
+  const rarities: Rarity[] = [];
+  rarity.forEach((rawRarity) => {
+    const rarityString = rawRarity.split(" - ")[0];
+    const rarity = rarityStringMapping[rarityString];
+    if (!rarity) {
+      console.error(`No rarity found for ${rarityString} (${rawRarity})`);
+    }
+    if (!rarities.includes(rarity)) {
+      rarities.push(rarity);
+    }
+  });
+  rarities.sort();
+  return rarities;
 };
