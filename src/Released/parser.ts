@@ -4,9 +4,8 @@ export interface Printing {
   setIdentifier: string;
   set: string;
   edition: string;
-  // foiling: string;
-
-  foilings: string[];
+  foiling: string;
+  // foilings: string[];
   rarity: string;
   artist: string;
   artVariation: string;
@@ -78,8 +77,8 @@ interface SourcePrinting {
   id: string;
   set_id: string;
   edition: string;
-  foilings: string[];
-  // foiling: string;
+  // foilings: string[];
+  foiling: string;
   rarity: string;
   artist: string;
   art_variation: string;
@@ -160,8 +159,8 @@ export const parseJSON = (json): ParsedCard[] => {
           artist,
           art_variation,
           edition,
-          // foiling,
-          foilings,
+          foiling,
+          // foilings,
           id,
           image_url,
           rarity,
@@ -171,8 +170,8 @@ export const parseJSON = (json): ParsedCard[] => {
             artist,
             artVariation: art_variation,
             edition,
-            // foiling,
-            foilings,
+            foiling,
+            // foilings,
             imageUrl: image_url,
             rarity,
             set: set_id,

@@ -100,8 +100,8 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     artVariation,
     imageUrl,
     edition: rawEdition,
-    foilings,
-    // foiling: rawFoiling,
+    // foilings,
+    foiling: rawFoiling,
     setIdentifier: identifier,
     set: rawSet,
   } of printings) {
@@ -116,26 +116,26 @@ const getPrintings = (card: ParsedCard): Printing[] => {
         )
       : "";
 
-    for (const rawFoiling of foilings) {
-      const foiling = Foiling[rawFoiling];
-      images.push({
-        ...(edition ? { edition } : {}),
-        ...(foiling ? { foiling } : {}),
-        identifier,
-        image,
-        set,
-        ...(treatment ? { treatment } : {}),
-      });
-    }
-    // const foiling = Foiling[rawFoiling];
-    // images.push({
-    //   ...(edition ? { edition } : {}),
-    //   ...(foiling ? { foiling } : {}),
-    //   identifier,
-    //   image,
-    //   set,
-    //   ...(treatment ? { treatment } : {}),
-    // });
+    // for (const rawFoiling of foilings) {
+    //   const foiling = Foiling[rawFoiling];
+    //   images.push({
+    //     ...(edition ? { edition } : {}),
+    //     ...(foiling ? { foiling } : {}),
+    //     identifier,
+    //     image,
+    //     set,
+    //     ...(treatment ? { treatment } : {}),
+    //   });
+    // }
+    const foiling = Foiling[rawFoiling];
+    images.push({
+      ...(edition ? { edition } : {}),
+      ...(foiling ? { foiling } : {}),
+      identifier,
+      image,
+      set,
+      ...(treatment ? { treatment } : {}),
+    });
   }
   images.sort((i1, i2) => getPrint(i1).localeCompare(getPrint(i2)));
   return images;
@@ -359,5 +359,12 @@ export const mapJSON = (parsedCards: ParsedCard[]): Card[] => {
   const cards = parsedCards.map((parsedCard) => {
     return getCardData(parsedCard);
   });
-  return addOppositeSideCardIdentifiers(cards);
+
+  const isBackOverrides = ["Blasmophet, Levia Consumed"];
+  return addOppositeSideCardIdentifiers(cards).map((card) => {
+    if (isBackOverrides.includes(card.name)) {
+      card.isCardBack = true;
+    }
+    return card;
+  });
 };
