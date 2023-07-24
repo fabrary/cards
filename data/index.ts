@@ -108254,7 +108254,7 @@ If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 
     
     
     pitch: 2,
-    power: 6,
+    power: 5,
     
     
     
@@ -108303,7 +108303,7 @@ If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 
     
     
     pitch: 3,
-    power: 6,
+    power: 4,
     
     
     

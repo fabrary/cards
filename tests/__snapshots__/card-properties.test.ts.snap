@@ -126229,7 +126229,7 @@ exports[`Check for unintentional updates Soul Cleaver (soul-cleaver-blue) vs sna
   ],
   "name": "Soul Cleaver",
   "pitch": 3,
-  "power": 6,
+  "power": 4,
   "printings": [
     {
       "identifier": "DTD186",
@@ -126347,7 +126347,7 @@ exports[`Check for unintentional updates Soul Cleaver (soul-cleaver-yellow) vs s
   ],
   "name": "Soul Cleaver",
   "pitch": 2,
-  "power": 6,
+  "power": 5,
   "printings": [
     {
       "identifier": "DTD185",
