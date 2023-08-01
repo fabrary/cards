@@ -46600,6 +46600,64 @@ exports[`Check for unintentional updates Evergreen (evergreen-yellow) vs snapsho
 }
 `;
 
+exports[`Check for unintentional updates Evo Steel Soul Memory (evo-steel-soul-memory-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Kimberly Pantoni",
+  ],
+  "cardIdentifier": "evo-steel-soul-memory-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 4,
+  "defaultImage": "EVO026",
+  "defense": 3,
+  "functionalText": "If you have a base head equipped, ** transform** it into this, then equip this.
+
+When this **transforms** from or into an Evo with a different name, your hero gets +1{i} until end of turn.
+
+**Temper**",
+  "keywords": [
+    "Temper",
+    "Transform",
+  ],
+  "name": "Evo Steel Soul Memory",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "EVO026",
+      "image": "EVO026",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO026",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO026",
+  "subtypes": [
+    "Base",
+    "Evo",
+    "Head",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action Equipment – Evo Base Head",
+  "types": [
+    "Action",
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Expendable Limbs (expendable-limbs-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -92231,8 +92289,9 @@ exports[`Check for unintentional updates Ponder (ponder) vs snapshot 1`] = `
   "rarities": [
     "Common",
     "Promo",
+    "Token",
   ],
-  "rarity": "Common",
+  "rarity": "Token",
   "setIdentifiers": [
     "DYN244",
     "LGS128",
@@ -95188,6 +95247,166 @@ If Promise of Plenty is played from arsenal, it gains **go again**.",
   "typeText": "Generic Action - Attack",
   "types": [
     "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Proto Base Arms (proto-base-arms) vs snapshot 1`] = `
+{
+  "artists": [
+    "Vlad Tashkinov",
+  ],
+  "cardIdentifier": "proto-base-arms",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "EVO024",
+  "name": "Proto Base Arms",
+  "printings": [
+    {
+      "identifier": "EVO024",
+      "image": "EVO024",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Token",
+  ],
+  "rarity": "Token",
+  "setIdentifiers": [
+    "EVO024",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO024",
+  "subtypes": [
+    "Arms",
+    "Base",
+  ],
+  "typeText": "Mechanologist Equipment – Base Arms",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Proto Base Chest (proto-base-chest) vs snapshot 1`] = `
+{
+  "artists": [
+    "Vlad Tashkinov",
+  ],
+  "cardIdentifier": "proto-base-chest",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "EVO023",
+  "name": "Proto Base Chest",
+  "printings": [
+    {
+      "identifier": "EVO023",
+      "image": "EVO023",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Token",
+  ],
+  "rarity": "Token",
+  "setIdentifiers": [
+    "EVO023",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO023",
+  "subtypes": [
+    "Base",
+    "Chest",
+  ],
+  "typeText": "Mechanologist Equipment – Base Chest",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Proto Base Head (proto-base-head) vs snapshot 1`] = `
+{
+  "artists": [
+    "Vlad Tashkinov",
+  ],
+  "cardIdentifier": "proto-base-head",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "EVO022",
+  "name": "Proto Base Head",
+  "printings": [
+    {
+      "identifier": "EVO022",
+      "image": "EVO022",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Token",
+  ],
+  "rarity": "Token",
+  "setIdentifiers": [
+    "EVO022",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO022",
+  "subtypes": [
+    "Base",
+    "Head",
+  ],
+  "typeText": "Mechanologist Equipment – Base Head",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Proto Base Legs (proto-base-legs) vs snapshot 1`] = `
+{
+  "artists": [
+    "Vlad Tashkinov",
+  ],
+  "cardIdentifier": "proto-base-legs",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "EVO025",
+  "name": "Proto Base Legs",
+  "printings": [
+    {
+      "identifier": "EVO025",
+      "image": "EVO025",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Token",
+  ],
+  "rarity": "Token",
+  "setIdentifiers": [
+    "EVO025",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO025",
+  "subtypes": [
+    "Base",
+    "Legs",
+  ],
+  "typeText": "Mechanologist Equipment – Base Legs",
+  "types": [
+    "Equipment",
   ],
 }
 `;
@@ -138148,6 +138367,194 @@ exports[`Check for unintentional updates Tectonic Plating (tectonic-plating) vs 
 }
 `;
 
+exports[`Check for unintentional updates Teklo Base Arms (teklo-base-arms) vs snapshot 1`] = `
+{
+  "artists": [
+    "Alief Rusdiatama",
+  ],
+  "cardIdentifier": "teklo-base-arms",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "LGS188",
+  "defense": 1,
+  "functionalText": "**Blade Break**",
+  "keywords": [
+    "Blade Break",
+  ],
+  "name": "Teklo Base Arms",
+  "printings": [
+    {
+      "foiling": "Rainbow",
+      "identifier": "LGS188",
+      "image": "LGS188",
+      "set": "Promos",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "LGS188",
+  ],
+  "sets": [
+    "Bright Lights",
+    "Promos",
+  ],
+  "specialImage": "LGS188",
+  "subtypes": [
+    "Arms",
+    "Base",
+  ],
+  "typeText": "Mechanologist Equipment – Base Arms",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Teklo Base Chest (teklo-base-chest) vs snapshot 1`] = `
+{
+  "artists": [
+    "Alief Rusdiatama",
+  ],
+  "cardIdentifier": "teklo-base-chest",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "LGS187",
+  "defense": 1,
+  "functionalText": "**Blade Break**",
+  "keywords": [
+    "Blade Break",
+  ],
+  "name": "Teklo Base Chest",
+  "printings": [
+    {
+      "foiling": "Rainbow",
+      "identifier": "LGS187",
+      "image": "LGS187",
+      "set": "Promos",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "LGS187",
+  ],
+  "sets": [
+    "Bright Lights",
+    "Promos",
+  ],
+  "specialImage": "LGS187",
+  "subtypes": [
+    "Base",
+    "Chest",
+  ],
+  "typeText": "Mechanologist Equipment – Base Chest",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Teklo Base Head (teklo-base-head) vs snapshot 1`] = `
+{
+  "artists": [
+    "Alief Rusdiatama",
+  ],
+  "cardIdentifier": "teklo-base-head",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "LGS186",
+  "defense": 1,
+  "functionalText": "**Blade Break**",
+  "keywords": [
+    "Blade Break",
+  ],
+  "name": "Teklo Base Head",
+  "printings": [
+    {
+      "foiling": "Rainbow",
+      "identifier": "LGS186",
+      "image": "LGS186",
+      "set": "Promos",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "LGS186",
+  ],
+  "sets": [
+    "Bright Lights",
+    "Promos",
+  ],
+  "specialImage": "LGS186",
+  "subtypes": [
+    "Base",
+    "Head",
+  ],
+  "typeText": "Mechanologist Equipment – Base Head",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Teklo Base Legs (teklo-base-legs) vs snapshot 1`] = `
+{
+  "artists": [
+    "Alief Rusdiatama",
+  ],
+  "cardIdentifier": "teklo-base-legs",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "LGS189",
+  "defense": 1,
+  "functionalText": "**Blade Break**",
+  "keywords": [
+    "Blade Break",
+  ],
+  "name": "Teklo Base Legs",
+  "printings": [
+    {
+      "foiling": "Rainbow",
+      "identifier": "LGS189",
+      "image": "LGS189",
+      "set": "Promos",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "LGS189",
+  ],
+  "sets": [
+    "Bright Lights",
+    "Promos",
+  ],
+  "specialImage": "LGS189",
+  "subtypes": [
+    "Base",
+    "Legs",
+  ],
+  "typeText": "Mechanologist Equipment – Base Legs",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Teklo Core (teklo-core-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -138450,6 +138857,55 @@ exports[`Check for unintentional updates Teklo Pounder (teklo-pounder-blue) vs s
 }
 `;
 
+exports[`Check for unintentional updates Teklovossen (teklovossen) vs snapshot 1`] = `
+{
+  "artists": [
+    "Simon Dominic",
+  ],
+  "cardIdentifier": "teklovossen",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "EVO008",
+  "functionalText": "You may play Evos from your banished zone.
+
+**Once per Turn Instant** - {r}{r}{r}: You may play your next Evo this turn as though it were an instant. When you do, draw a card.",
+  "hero": "Teklovossen",
+  "intellect": 4,
+  "life": 20,
+  "name": "Teklovossen",
+  "printings": [
+    {
+      "identifier": "EVO008",
+      "image": "EVO008",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Token",
+  ],
+  "rarity": "Token",
+  "restrictedFormats": [
+    "Classic Constructed",
+  ],
+  "setIdentifiers": [
+    "EVO008",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO008",
+  "subtypes": [
+    "Young",
+  ],
+  "typeText": "Mechanologist Hero",
+  "types": [
+    "Hero",
+  ],
+  "young": true,
+}
+`;
+
 exports[`Check for unintentional updates Teklovossen's Workshop (teklovossens-workshop-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -138660,6 +139116,53 @@ Reveal the top card of your deck. If it's a Mechanologist item card with cost 1 
 }
 `;
 
+exports[`Check for unintentional updates Teklovossen, Esteemed Magnate (teklovossen-esteemed-magnate) vs snapshot 1`] = `
+{
+  "artists": [
+    "Simon Dominic",
+  ],
+  "cardIdentifier": "teklovossen-esteemed-magnate",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "EVO007",
+  "functionalText": "You may play Evos from your banished zone.
+
+**Once per Turn Instant** - {r}{r}{r}: You may play your next Evo this turn as though it were an instant. When you do, draw a card.",
+  "hero": "Teklovossen",
+  "intellect": 4,
+  "life": 40,
+  "name": "Teklovossen, Esteemed Magnate",
+  "printings": [
+    {
+      "identifier": "EVO007",
+      "image": "EVO007",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Blitz",
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO007",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO007",
+  "subtypes": [],
+  "typeText": "Mechanologist Hero",
+  "types": [
+    "Hero",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Tempest Aurora (tempest-aurora-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -138816,6 +139319,67 @@ exports[`Check for unintentional updates Tempest Aurora (tempest-aurora-yellow) 
     "Non-Attack",
   ],
   "typeText": "Wizard Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Terminator Tank (terminator-tank-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Simon Dominic",
+  ],
+  "cardIdentifier": "terminator-tank-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 6,
+  "defaultImage": "EVO055",
+  "defense": 3,
+  "functionalText": "If you have 1 or more Evos equipped, this gets “When this hits a hero, they discard a card,”
+
+- 2 or more, this costs {r}{r}{r} less to play,
+- 3 or more, this gets **overpower**,
+- 4 or more, this gets +3{p}.",
+  "keywords": [
+    "Overpower",
+  ],
+  "name": "Terminator Tank",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "EVO055",
+      "image": "EVO055",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO055",
+      "image": "EVO055_EA",
+      "set": "Bright Lights",
+      "treatment": "Extended Art",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO055",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO055_EA",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action – Attack",
   "types": [
     "Action",
   ],

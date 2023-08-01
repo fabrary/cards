@@ -156,6 +156,516 @@ Whenever an opponent plays or activates their first card or ability each turn, i
     
     
   },{
+    artists: ["Alief Rusdiatama"],
+    cardIdentifier: "teklo-base-head",
+    classes: [Class.Mechanologist],
+    defaultImage: "LGS186",
+    name: "Teklo Base Head",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS186",
+      image: "LGS186",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS186"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "LGS186",
+    subtypes: [Subtype.Base,Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment – Base Head",
+
+    
+    defense: 1,
+    functionalText: `**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Alief Rusdiatama"],
+    cardIdentifier: "teklo-base-chest",
+    classes: [Class.Mechanologist],
+    defaultImage: "LGS187",
+    name: "Teklo Base Chest",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS187",
+      image: "LGS187",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS187"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "LGS187",
+    subtypes: [Subtype.Base,Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment – Base Chest",
+
+    
+    defense: 1,
+    functionalText: `**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Alief Rusdiatama"],
+    cardIdentifier: "teklo-base-arms",
+    classes: [Class.Mechanologist],
+    defaultImage: "LGS188",
+    name: "Teklo Base Arms",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS188",
+      image: "LGS188",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS188"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "LGS188",
+    subtypes: [Subtype.Arms,Subtype.Base],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment – Base Arms",
+
+    
+    defense: 1,
+    functionalText: `**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Alief Rusdiatama"],
+    cardIdentifier: "teklo-base-legs",
+    classes: [Class.Mechanologist],
+    defaultImage: "LGS189",
+    name: "Teklo Base Legs",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS189",
+      image: "LGS189",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS189"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "LGS189",
+    subtypes: [Subtype.Base,Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment – Base Legs",
+
+    
+    defense: 1,
+    functionalText: `**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Simon Dominic"],
+    cardIdentifier: "teklovossen-esteemed-magnate",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO007",
+    name: "Teklovossen, Esteemed Magnate",
+    printings: [{
+      
+      identifier: "EVO007",
+      image: "EVO007",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO007"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO007",
+    subtypes: [],
+    types: [Type.Hero],
+    typeText: "Mechanologist Hero",
+
+    
+    
+    functionalText: `You may play Evos from your banished zone.
+
+**Once per Turn Instant** - {r}{r}{r}: You may play your next Evo this turn as though it were an instant. When you do, draw a card.`,
+    
+    hero: Hero.Teklovossen,
+    intellect: 4,
+    
+    
+    life: 40,
+    
+    
+    
+    restrictedFormats: [Format.Blitz,Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Simon Dominic"],
+    cardIdentifier: "teklovossen",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO008",
+    name: "Teklovossen",
+    printings: [{
+      
+      identifier: "EVO008",
+      image: "EVO008",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["EVO008"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO008",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Mechanologist Hero",
+
+    
+    
+    functionalText: `You may play Evos from your banished zone.
+
+**Once per Turn Instant** - {r}{r}{r}: You may play your next Evo this turn as though it were an instant. When you do, draw a card.`,
+    
+    hero: Hero.Teklovossen,
+    intellect: 4,
+    
+    
+    life: 20,
+    
+    
+    
+    restrictedFormats: [Format.ClassicConstructed],
+    
+    
+    
+    
+    
+    young: true
+  },{
+    artists: ["Vlad Tashkinov"],
+    cardIdentifier: "proto-base-head",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO022",
+    name: "Proto Base Head",
+    printings: [{
+      
+      identifier: "EVO022",
+      image: "EVO022",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["EVO022"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO022",
+    subtypes: [Subtype.Base,Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment – Base Head",
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Vlad Tashkinov"],
+    cardIdentifier: "proto-base-chest",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO023",
+    name: "Proto Base Chest",
+    printings: [{
+      
+      identifier: "EVO023",
+      image: "EVO023",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["EVO023"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO023",
+    subtypes: [Subtype.Base,Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment – Base Chest",
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Vlad Tashkinov"],
+    cardIdentifier: "proto-base-arms",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO024",
+    name: "Proto Base Arms",
+    printings: [{
+      
+      identifier: "EVO024",
+      image: "EVO024",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["EVO024"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO024",
+    subtypes: [Subtype.Arms,Subtype.Base],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment – Base Arms",
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Vlad Tashkinov"],
+    cardIdentifier: "proto-base-legs",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO025",
+    name: "Proto Base Legs",
+    printings: [{
+      
+      identifier: "EVO025",
+      image: "EVO025",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["EVO025"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO025",
+    subtypes: [Subtype.Base,Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment – Base Legs",
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kimberly Pantoni"],
+    cardIdentifier: "evo-steel-soul-memory-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO026",
+    name: "Evo Steel Soul Memory",
+    printings: [{
+      
+      identifier: "EVO026",
+      image: "EVO026",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO026"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO026",
+    subtypes: [Subtype.Base,Subtype.Evo,Subtype.Head,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment – Evo Base Head",
+
+    cost: 4,
+    defense: 3,
+    functionalText: `If you have a base head equipped, ** transform** it into this, then equip this.
+
+When this **transforms** from or into an Evo with a different name, your hero gets +1{i} until end of turn.
+
+**Temper**`,
+    
+    
+    
+    
+    keywords: [Keyword.Temper,Keyword.Transform],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Simon Dominic"],
+    cardIdentifier: "terminator-tank-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO055",
+    name: "Terminator Tank",
+    printings: [{
+      
+      identifier: "EVO055",
+      image: "EVO055",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO055",
+      image: "EVO055_EA",
+      set: Release.BrightLights,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO055"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO055_EA",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action – Attack",
+
+    cost: 6,
+    defense: 3,
+    functionalText: `If you have 1 or more Evos equipped, this gets “When this hits a hero, they discard a card,”
+
+- 2 or more, this costs {r}{r}{r} less to play,
+- 3 or more, this gets **overpower**,
+- 4 or more, this gets +3{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Overpower],
+    
+    
+    pitch: 1,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Daria Cherkashina"],
     cardIdentifier: "absorb-in-aether-red",
     classes: [Class.Wizard],
@@ -32588,7 +33098,8 @@ Draw a card.`,
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Mihail Spil-Haufter"],
     cardIdentifier: "dread-screamer-red",
     classes: [Class.Brute],
@@ -33141,8 +33652,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Maria Mishina"],
     cardIdentifier: "drill-shot-yellow",
     classes: [Class.Ranger],
@@ -66738,7 +67248,8 @@ Damage that would be dealt by Malign can't be prevented.`,
     
     
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "mandible-claw",
     classes: [Class.Brute],
@@ -67160,8 +67671,7 @@ If you have discarded a card with 6 or more {p} this turn, Mandible Claw gains *
     
     
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Kate Fox"],
     cardIdentifier: "mask-of-momentum",
     classes: [Class.Ninja],
@@ -78620,8 +79130,8 @@ Deal 2 arcane damage to any target. If Polar Cap was **fused** and deals damage 
       set: Release.UzuriBlitzDeck,
       
     },],
-    rarities: [Rarity.Common,Rarity.Promo],
-    rarity: Rarity.Common,
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Token,
     setIdentifiers: ["DYN244","LGS128","OUT237","UZU031"],
     sets: [Release.Dynasty,Release.Outsiders,Release.Promos,Release.UzuriBlitzDeck],
     specialImage: "DYN244",
@@ -100597,7 +101107,8 @@ Your next Brute or Shadow attack this turn gets +3{p}.
     
     talents: [Talent.Shadow],
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Grégory Nunkovics"],
     cardIdentifier: "shadow-of-ursur-blue",
     classes: [Class.Runeblade],
@@ -100770,8 +101281,7 @@ If you've played or activated an attack reaction this chain link, Shake Down has
     specializations: [Hero.Uzuri],
     
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "sharpen-steel-red",
     classes: [Class.Warrior],
@@ -134132,7 +134642,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     ...cards4,
   ];
 
-  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasia Balakchina","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","Ausonia","Bastien Jez","Billy Christian","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Edward Chee","Eilene Cherie","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Enmorie","Eric Klug","Erick Efata","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Jessica Nguyen","Jessketchin","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kalashnikova N.","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Madeline Boni","Maerel Hibadita","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wisniewski","Mateusz Wiśniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Revazashvili E.","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sandeep Karunakaran","Sariya Asavametha","Sebastian Szmyd","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Dominic","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Stormy Elia Fanggidae","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tomasz Jedruszek","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yeong-Hao Han","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
+  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasia Balakchina","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","Ausonia","Bastien Jez","Billy Christian","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Edward Chee","Eilene Cherie","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Enmorie","Eric Klug","Erick Efata","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Jessica Nguyen","Jessketchin","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kalashnikova N.","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Madeline Boni","Maerel Hibadita","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wisniewski","Mateusz Wiśniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Revazashvili E.","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sandeep Karunakaran","Sariya Asavametha","Sebastian Szmyd","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Dominic","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Stormy Elia Fanggidae","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tomasz Jedruszek","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Tashkinov","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yeong-Hao Han","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
 
   export * from "./sets";
 

@@ -111,6 +111,7 @@ export enum Rarity {
 export enum Release {
   // Full sets
   ArcaneRising = "Arcane Rising",
+  BrightLights = "Bright Lights",
   CrucibleOfWar = "Crucible of War",
   DuskTillDawn = "Dusk till Dawn",
   Dynasty = "Dynasty",
@@ -193,6 +194,7 @@ export enum Subtype {
   Attack = "Attack",
   Aura = "Aura",
   Axe = "Axe",
+  Base = "Base",
   Book = "Book",
   Bow = "Bow",
   Chest = "Chest",
@@ -202,6 +204,7 @@ export enum Subtype {
   Dagger = "Dagger",
   Demon = "Demon",
   Dragon = "Dragon",
+  Evo = "Evo",
   Figment = "Figment",
   Flail = "Flail",
   Gem = "Gem",
@@ -260,6 +263,7 @@ export enum Hero {
   Shiyana = "Shiyana",
   Taipanis = "Taipanis",
   Taylor = "Taylor",
+  Teklovossen = "Teklovossen",
   Theryon = "Theryon",
   Uzuri = "Uzuri",
   Valda = "Valda",
