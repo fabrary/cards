@@ -4368,6 +4368,58 @@ The next attack action card you play this turn gets +1{p}. **Go again**
 }
 `;
 
+exports[`Check for unintentional updates Apocalypse Automaton (apocalypse-automaton-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Simon Dominic",
+  ],
+  "cardIdentifier": "apocalypse-automaton-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "TCC011",
+  "defense": 3,
+  "functionalText": "Play this only if you have 1 or more Evos equipped.
+
+**Evo Upgrade** - This attacks up to X target opposing heroes, where X is the number of Evos you have equipped.",
+  "keywords": [
+    "Evo Upgrade",
+  ],
+  "name": "Apocalypse Automaton",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "TCC011",
+      "image": "TCC011",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "TCC011",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC011",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Arakni (arakni) vs snapshot 1`] = `
 {
   "artists": [
@@ -9004,6 +9056,53 @@ exports[`Check for unintentional updates Barraging Brawnhide (barraging-brawnhid
 }
 `;
 
+exports[`Check for unintentional updates Bastion of Duty (bastion-of-duty) vs snapshot 1`] = `
+{
+  "artists": [
+    "Jessketchin",
+  ],
+  "cardIdentifier": "bastion-of-duty",
+  "classes": [
+    "Guardian",
+  ],
+  "defaultImage": "TCC029",
+  "defense": 2,
+  "functionalText": "**Protect**
+
+**Temper**",
+  "keywords": [
+    "Protect",
+    "Temper",
+  ],
+  "name": "Bastion of Duty",
+  "printings": [
+    {
+      "identifier": "TCC029",
+      "image": "TCC029",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "TCC029",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC029",
+  "subtypes": [
+    "Off-Hand",
+  ],
+  "typeText": "Guardian Equipment - Off-Hand",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Bastion of Unity (bastion-of-unity) vs snapshot 1`] = `
 {
   "artists": [
@@ -11785,6 +11884,55 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
   "typeText": "Elemental Guardian Defense Reaction",
   "types": [
     "Defense Reaction",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Bittering Thorns (bittering-thorns-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Maerel Hibadita",
+  ],
+  "cardIdentifier": "bittering-thorns-red",
+  "classes": [
+    "Ninja",
+  ],
+  "cost": 1,
+  "defaultImage": "TCC083",
+  "defense": 2,
+  "functionalText": "When this hits, your next attack this turn gets +1{p}.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Bittering Thorns",
+  "pitch": 1,
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "TCC083",
+      "image": "TCC083",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "TCC083",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC083",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Ninja Action - Attack",
+  "types": [
+    "Action",
   ],
 }
 `;
@@ -20744,6 +20892,59 @@ exports[`Check for unintentional updates Breeze Rider Boots (breeze-rider-boots)
 }
 `;
 
+exports[`Check for unintentional updates Brevant, Civic Protector (brevant-civic-protector) vs snapshot 1`] = `
+{
+  "artists": [
+    "Isuardi Therianto",
+  ],
+  "cardIdentifier": "brevant-civic-protector",
+  "classes": [
+    "Guardian",
+  ],
+  "defaultImage": "TCC027",
+  "functionalText": "You may have any number of Chivalry in your deck.
+
+Whenever you **protect** another hero, create a Might token.",
+  "hero": "Brevant",
+  "intellect": 4,
+  "keywords": [
+    "Protect",
+  ],
+  "life": 20,
+  "name": "Brevant, Civic Protector",
+  "printings": [
+    {
+      "identifier": "TCC027",
+      "image": "TCC027",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Classic Constructed",
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "TCC027",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC027",
+  "subtypes": [
+    "Young",
+  ],
+  "typeText": "Guardian Hero - Young",
+  "types": [
+    "Hero",
+  ],
+  "young": true,
+}
+`;
+
 exports[`Check for unintentional updates Briar (briar) vs snapshot 1`] = `
 {
   "artists": [
@@ -26156,6 +26357,190 @@ Whenever Cintari Saber is defended by 1 or more attack action cards, it gains +1
   "typeText": "Warrior Weapon - Sword (1H)",
   "types": [
     "Weapon",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Civic Duty (civic-duty) vs snapshot 1`] = `
+{
+  "artists": [
+    "Wisnu Tan",
+  ],
+  "cardIdentifier": "civic-duty",
+  "classes": [
+    "Guardian",
+  ],
+  "defaultImage": "TCC031",
+  "defense": 2,
+  "functionalText": "Whenever this defends, create a Vigor token under another hero's control.
+
+**Temper**",
+  "keywords": [
+    "Temper",
+  ],
+  "name": "Civic Duty",
+  "printings": [
+    {
+      "identifier": "TCC031",
+      "image": "TCC031",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "TCC031",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC031",
+  "subtypes": [
+    "Chest",
+  ],
+  "typeText": "Guardian Equipment - Chest",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Civic Guide (civic-guide) vs snapshot 1`] = `
+{
+  "artists": [
+    "Wisnu Tan",
+  ],
+  "cardIdentifier": "civic-guide",
+  "classes": [
+    "Guardian",
+  ],
+  "defaultImage": "TCC032",
+  "defense": 2,
+  "functionalText": "Whenever this defends, create a Might token under another hero's control.
+
+**Temper**",
+  "keywords": [
+    "Temper",
+  ],
+  "name": "Civic Guide",
+  "printings": [
+    {
+      "identifier": "TCC032",
+      "image": "TCC032",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "TCC032",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC032",
+  "subtypes": [
+    "Arms",
+  ],
+  "typeText": "Guardian Equipment - Arms",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Civic Peak (civic-peak) vs snapshot 1`] = `
+{
+  "artists": [
+    "Wisnu Tan",
+  ],
+  "cardIdentifier": "civic-peak",
+  "classes": [
+    "Guardian",
+  ],
+  "defaultImage": "TCC030",
+  "defense": 2,
+  "functionalText": "Whenever this defends, another target hero draws a card.
+
+**Temper**",
+  "keywords": [
+    "Temper",
+  ],
+  "name": "Civic Peak",
+  "printings": [
+    {
+      "identifier": "TCC030",
+      "image": "TCC030",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "TCC030",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC030",
+  "subtypes": [
+    "Head",
+  ],
+  "typeText": "Guardian Equipment - Head",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Civic Steps (civic-steps) vs snapshot 1`] = `
+{
+  "artists": [
+    "Wisnu Tan",
+  ],
+  "cardIdentifier": "civic-steps",
+  "classes": [
+    "Guardian",
+  ],
+  "defaultImage": "TCC033",
+  "defense": 2,
+  "functionalText": "Whenever this defends, create a Quicken token under another hero's control.
+
+**Temper**",
+  "keywords": [
+    "Temper",
+  ],
+  "name": "Civic Steps",
+  "printings": [
+    {
+      "identifier": "TCC033",
+      "image": "TCC033",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "TCC033",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC033",
+  "subtypes": [
+    "Legs",
+  ],
+  "typeText": "Guardian Equipment - Legs",
+  "types": [
+    "Equipment",
   ],
 }
 `;
@@ -39138,6 +39523,7 @@ exports[`Check for unintentional updates Drone of Brutality (drone-of-brutality-
   ],
   "rarity": "Rare",
   "restrictedFormats": [
+    "Blitz",
     "Classic Constructed",
     "Commoner",
   ],
@@ -39214,6 +39600,7 @@ exports[`Check for unintentional updates Drone of Brutality (drone-of-brutality-
   ],
   "rarity": "Rare",
   "restrictedFormats": [
+    "Blitz",
     "Classic Constructed",
     "Commoner",
   ],
@@ -39285,6 +39672,7 @@ exports[`Check for unintentional updates Drone of Brutality (drone-of-brutality-
   ],
   "rarity": "Rare",
   "restrictedFormats": [
+    "Blitz",
     "Classic Constructed",
     "Commoner",
   ],
@@ -43706,6 +44094,57 @@ At the beginning of your end phase, destroy Enchanting Melody unless you have pl
 }
 `;
 
+exports[`Check for unintentional updates Encore (encore-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sebastian Giacobino",
+  ],
+  "cardIdentifier": "encore-yellow",
+  "classes": [
+    "Bard",
+  ],
+  "cost": 1,
+  "defaultImage": "TCC061",
+  "defense": 2,
+  "functionalText": "Return a Bard attack action card from your graveyard to your hand.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Encore",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "TCC061",
+      "image": "TCC061",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "TCC061",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC061",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Bard Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Endless Arrow (endless-arrow-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -46600,57 +47039,228 @@ exports[`Check for unintentional updates Evergreen (evergreen-yellow) vs snapsho
 }
 `;
 
-exports[`Check for unintentional updates Evo Steel Soul Memory (evo-steel-soul-memory-blue) vs snapshot 1`] = `
+exports[`Check for unintentional updates Evo Energy Matrix (evo-energy-matrix-blue) vs snapshot 1`] = `
 {
   "artists": [
-    "Kimberly Pantoni",
+    "Elena Bakulina",
   ],
-  "cardIdentifier": "evo-steel-soul-memory-blue",
+  "cardIdentifier": "evo-energy-matrix-blue",
   "classes": [
     "Mechanologist",
   ],
-  "cost": 4,
-  "defaultImage": "EVO026",
-  "defense": 3,
-  "functionalText": "If you have a base head equipped, ** transform** it into this, then equip this.
+  "cost": 3,
+  "defaultImage": "TCC008",
+  "defense": 2,
+  "functionalText": "If you have a base chest equipped, **transform** it into this, then equip this.
 
-When this **transforms** from or into an Evo with a different name, your hero gets +1{i} until end of turn.
+Your Teklo Blaster attacks cost {r} less to activate for each opposing hero.
 
-**Temper**",
+**Battleworn**",
   "keywords": [
-    "Temper",
+    "Battleworn",
     "Transform",
   ],
-  "name": "Evo Steel Soul Memory",
+  "name": "Evo Energy Matrix",
   "pitch": 3,
   "printings": [
     {
-      "identifier": "EVO026",
-      "image": "EVO026",
-      "set": "Bright Lights",
+      "identifier": "TCC008",
+      "image": "TCC008",
+      "set": "Round the Table",
     },
   ],
   "rarities": [
-    "Majestic",
+    "Rare",
   ],
-  "rarity": "Majestic",
+  "rarity": "Rare",
   "restrictedFormats": [
     "Commoner",
   ],
   "setIdentifiers": [
-    "EVO026",
+    "TCC008",
   ],
   "sets": [
-    "Bright Lights",
+    "Round the Table",
   ],
-  "specialImage": "EVO026",
+  "specialImage": "TCC008",
   "subtypes": [
-    "Base",
+    "Chest",
+    "Evo",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action Equipment - Evo Chest",
+  "types": [
+    "Action",
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Evo Rapid Fire (evo-rapid-fire-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Irina Si",
+  ],
+  "cardIdentifier": "evo-rapid-fire-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "TCC010",
+  "defense": 2,
+  "functionalText": ""If you have a base legs equipped, **transform** it into this, then equip this.
+
+Your Teklo Blaster attacks gets **go again**.
+
+**Battleworn**"",
+  "keywords": [
+    "Battleworn",
+    "Go again",
+    "Transform",
+  ],
+  "name": "Evo Rapid Fire",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "TCC010",
+      "image": "TCC010",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "TCC010",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC010",
+  "subtypes": [
+    "Evo",
+    "Legs",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action Equipment - Evo Legs",
+  "types": [
+    "Action",
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Evo Scatter Shot (evo-scatter-shot-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Anastasia Pronina",
+  ],
+  "cardIdentifier": "evo-scatter-shot-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "TCC009",
+  "defense": 2,
+  "functionalText": "If you have a base arms equipped, **transform** it into this, then equip this.
+
+Your Teklo Blaster attacks gets +1{p} for each opposing hero.
+
+**Battleworn**",
+  "keywords": [
+    "Battleworn",
+    "Transform",
+  ],
+  "name": "Evo Scatter Shot",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "TCC009",
+      "image": "TCC009",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "TCC009",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC009",
+  "subtypes": [
+    "Arms",
+    "Evo",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action Equipment - Evo Arms",
+  "types": [
+    "Action",
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Evo Tekloscope (evo-tekloscope-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Revazashvili E.",
+  ],
+  "cardIdentifier": "evo-tekloscope-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "TCC007",
+  "defense": 2,
+  "functionalText": "If you have a base head equipped, **transform** it into this, then equip this.
+
+Your Teklo Blaster attacks can target any opposing hero.
+
+**Battleworn**",
+  "keywords": [
+    "Battleworn",
+    "Transform",
+  ],
+  "name": "Evo Tekloscope",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "TCC007",
+      "image": "TCC007",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "TCC007",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC007",
+  "subtypes": [
     "Evo",
     "Head",
     "Non-Attack",
   ],
-  "typeText": "Mechanologist Action Equipment – Evo Base Head",
+  "typeText": "Mechanologist Action Equipment - Evo Head",
   "types": [
     "Action",
     "Equipment",
@@ -49222,6 +49832,53 @@ When this enters the arena, create a Courage token.",
   "typeText": "Light Illusionist Instant - Figment",
   "types": [
     "Instant",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Final Act (final-act-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Rio Sabda",
+  ],
+  "cardIdentifier": "final-act-red",
+  "classes": [
+    "Bard",
+  ],
+  "cost": 1,
+  "defaultImage": "TCC057",
+  "defense": 3,
+  "functionalText": "When this attacks, it gets +X{p}, where X is twice the number of cards in all pitch zones.",
+  "name": "Final Act",
+  "pitch": 1,
+  "power": 1,
+  "printings": [
+    {
+      "identifier": "TCC057",
+      "image": "TCC057",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "TCC057",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC057",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Bard Action - Attack",
+  "types": [
+    "Action",
   ],
 }
 `;
@@ -55002,6 +55659,11 @@ exports[`Check for unintentional updates Fyendal's Spring Tunic (fyendals-spring
   "name": "Fyendal's Spring Tunic",
   "printings": [
     {
+      "identifier": "",
+      "image": "",
+      "set": "Bright Lights",
+    },
+    {
       "identifier": "1HP341",
       "image": "1HP341.width-450",
       "set": "History Pack 1",
@@ -55063,6 +55725,7 @@ exports[`Check for unintentional updates Fyendal's Spring Tunic (fyendals-spring
     "WTR150",
   ],
   "sets": [
+    "Bright Lights",
     "Crucible of War",
     "History Pack 1",
     "Promos",
@@ -55408,7 +56071,7 @@ Whenever an opponent plays or activates their first card or ability each turn, i
   "power": 2,
   "printings": [
     {
-      "foiling": "Rainbow",
+      "foiling": "Cold",
       "identifier": "JDG005",
       "image": "JDG005",
       "set": "Promos",
@@ -55434,7 +56097,7 @@ Whenever an opponent plays or activates their first card or ability each turn, i
     "1H",
     "Hammer",
   ],
-  "typeText": "Adjudicator Weapon – Hammer (1H)",
+  "typeText": "Adjudicator Weapon - Hammer (1H)",
   "types": [
     "Weapon",
   ],
@@ -57967,6 +58630,58 @@ exports[`Check for unintentional updates Grimoire of the Haunt (grimoire-of-the-
 }
 `;
 
+exports[`Check for unintentional updates Growl (growl-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Vito Vivodka",
+  ],
+  "cardIdentifier": "growl-red",
+  "classes": [
+    "Ninja",
+  ],
+  "cost": 0,
+  "defaultImage": "TCC086",
+  "defense": 2,
+  "functionalText": "When this attacks, the next Crouching Tiger you play this combat chain gets +1{p}.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Growl",
+  "pitch": 1,
+  "power": 3,
+  "printings": [
+    {
+      "identifier": "TCC086",
+      "image": "TCC086",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "TCC086",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC086",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Ninja Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Guardian of the Shadowrealm (guardian-of-the-shadowrealm-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -58245,6 +58960,50 @@ exports[`Check for unintentional updates Halo of Illumination (halo-of-illuminat
   "typeText": "Light Equipment - Head",
   "types": [
     "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Hammer of Havenhold (hammer-of-havenhold) vs snapshot 1`] = `
+{
+  "artists": [
+    "Junaidi Lim",
+  ],
+  "cardIdentifier": "hammer-of-havenhold",
+  "classes": [
+    "Guardian",
+  ],
+  "defaultImage": "TCC028",
+  "functionalText": "**Once per Turn Action** - {r}{r}{r}: **Attack**
+
+If you have a Chivalray in your pitch zone, this gets +1{p}.",
+  "name": "Hammer of Havenhold",
+  "power": 3,
+  "printings": [
+    {
+      "identifier": "TCC028",
+      "image": "TCC028",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "TCC028",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC028",
+  "subtypes": [
+    "1H",
+    "Hammer",
+  ],
+  "typeText": "Guardian Weapon - Hammer (1H)",
+  "types": [
+    "Weapon",
   ],
 }
 `;
@@ -68808,6 +69567,46 @@ If Inspire Lightning was **fused**, deal 2 arcane damage to target hero.",
 }
 `;
 
+exports[`Check for unintentional updates Interlude (interlude-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Veto Zomer",
+  ],
+  "cardIdentifier": "interlude-red",
+  "classes": [
+    "Bard",
+  ],
+  "cost": 0,
+  "defaultImage": "TCC058",
+  "functionalText": "Choose a hero. The next time they would be dealt damage this turn, prevent 3 of that damage. If you prevent damage to another hero this way, create a Copper token.",
+  "name": "Interlude",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "TCC058",
+      "image": "TCC058",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "TCC058",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC058",
+  "subtypes": [],
+  "typeText": "Bard Instant",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Invert Existence (invert-existence-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -70246,6 +71045,11 @@ exports[`Check for unintentional updates Ira, Crimson Haze (ira-crimson-haze) vs
       "image": "IRA001-P_EUmBrk0.width-450",
       "set": "Ira Welcome Deck",
     },
+    {
+      "identifier": "TCC077",
+      "image": "TCC077",
+      "set": "Round the Table",
+    },
   ],
   "rarities": [
     "Common",
@@ -70256,6 +71060,7 @@ exports[`Check for unintentional updates Ira, Crimson Haze (ira-crimson-haze) vs
     "Classic Constructed",
   ],
   "setIdentifiers": [
+    "TCC077",
     "1HP089",
     "CRU046",
     "HER000",
@@ -70266,6 +71071,7 @@ exports[`Check for unintentional updates Ira, Crimson Haze (ira-crimson-haze) vs
     "History Pack 1",
     "Ira Welcome Deck",
     "Promos",
+    "Round the Table",
   ],
   "specialImage": "CRU046",
   "subtypes": [
@@ -72097,6 +72903,53 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
 }
 `;
 
+exports[`Check for unintentional updates Jinglewood, Smash Hit (jinglewood-smash-hit) vs snapshot 1`] = `
+{
+  "artists": [
+    "Brian Adriel",
+  ],
+  "cardIdentifier": "jinglewood-smash-hit",
+  "classes": [
+    "Bard",
+  ],
+  "defaultImage": "TCC050",
+  "functionalText": "**Once per Turn Action** - {r}{r}{r}: Target opposing hero chooses and creates a Might, Quicken, or Vigor token. You create a Copper token. **Go again**
+
+**Action** - 0: **Attack**.  When this hits, destroy it.",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Jinglewood, Smash Hit",
+  "power": 2,
+  "printings": [
+    {
+      "identifier": "TCC050",
+      "image": "TCC050",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "TCC050",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC050",
+  "subtypes": [
+    "2H",
+    "Fiddle",
+  ],
+  "typeText": "Bard Weapon - Fiddle (2H)",
+  "types": [
+    "Weapon",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Jubeel, Spellbane (jubeel-spellbane) vs snapshot 1`] = `
 {
   "artists": [
@@ -73846,6 +74699,56 @@ exports[`Check for unintentional updates Lava Vein Loyalty (lava-vein-loyalty-ye
     "Draconic",
   ],
   "typeText": "Draconic Ninja Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Lay Down the Law (lay-down-the-law-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Marco Wulfr",
+  ],
+  "cardIdentifier": "lay-down-the-law-red",
+  "classes": [
+    "Guardian",
+  ],
+  "cost": 3,
+  "defaultImage": "TCC035",
+  "defense": 3,
+  "functionalText": "**Tower** - If this has 13 or more {p}, non-equipment cards get -1{d} while defending this.",
+  "keywords": [
+    "Tower",
+  ],
+  "name": "Lay Down the Law",
+  "pitch": 1,
+  "power": 7,
+  "printings": [
+    {
+      "identifier": "TCC035",
+      "image": "TCC035",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "TCC035",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC035",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Guardian Action - Attack",
   "types": [
     "Action",
   ],
@@ -79147,6 +80050,47 @@ exports[`Check for unintentional updates Mask of Shifting Perspectives (mask-of-
 }
 `;
 
+exports[`Check for unintentional updates Mask of Three Tails (mask-of-three-tails) vs snapshot 1`] = `
+{
+  "artists": [
+    "Kimberly Pantoni",
+  ],
+  "cardIdentifier": "mask-of-three-tails",
+  "classes": [
+    "Ninja",
+  ],
+  "defaultImage": "TCC079",
+  "defense": 0,
+  "functionalText": "**Instant** - Destroy this: Draw a card. Activate this ability only if you've hit 3 or more times this combat chain.",
+  "name": "Mask of Three Tails",
+  "printings": [
+    {
+      "identifier": "TCC079",
+      "image": "TCC079",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "TCC079",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC079",
+  "subtypes": [
+    "Head",
+  ],
+  "typeText": "Ninja Equipment - Head",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Mask of the Pouncing Lynx (mask-of-the-pouncing-lynx) vs snapshot 1`] = `
 {
   "artists": [
@@ -79288,6 +80232,56 @@ If Massacre is discarded to pay the cost of a Brute attack action card, **intimi
     "Attack",
   ],
   "typeText": "Brute Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Mauling Qi (mauling-qi-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Jessketchin",
+  ],
+  "cardIdentifier": "mauling-qi-red",
+  "classes": [
+    "Ninja",
+  ],
+  "cost": 1,
+  "defaultImage": "TCC088",
+  "defense": 3,
+  "functionalText": "**Combo** - When this hits, if Crouching Tiger was the last attack this combat chain, deal 1 damage to each opposing hero.",
+  "keywords": [
+    "Combo",
+  ],
+  "name": "Mauling Qi",
+  "pitch": 1,
+  "power": 5,
+  "printings": [
+    {
+      "identifier": "TCC088",
+      "image": "TCC088",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "TCC088",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC088",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Ninja Action - Attack",
   "types": [
     "Action",
   ],
@@ -79836,6 +80830,56 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
 }
 `;
 
+exports[`Check for unintentional updates Mechanical Strength (mechanical-strength-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tomasz Jedruszek",
+  ],
+  "cardIdentifier": "mechanical-strength-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "TCC013",
+  "defense": 3,
+  "functionalText": "**Evo Upgrade** - This gets +X{p}, where X is the number of Evos you have equipped.",
+  "keywords": [
+    "Evo Upgrade",
+  ],
+  "name": "Mechanical Strength",
+  "pitch": 1,
+  "power": 5,
+  "printings": [
+    {
+      "identifier": "TCC013",
+      "image": "TCC013",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "TCC013",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC013",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Meganetic Shockwave (meganetic-shockwave-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -79901,6 +80945,54 @@ exports[`Check for unintentional updates Meganetic Shockwave (meganetic-shockwav
   "types": [
     "Action",
   ],
+}
+`;
+
+exports[`Check for unintentional updates Melody, Sing-along (melody-sing-along) vs snapshot 1`] = `
+{
+  "artists": [
+    "Andy Aslamov",
+  ],
+  "cardIdentifier": "melody-sing-along",
+  "classes": [
+    "Bard",
+  ],
+  "defaultImage": "TCC049",
+  "functionalText": "Whenever you play a song, create Copper tokens equal to the number of other heroes in the game.",
+  "hero": "Melody",
+  "intellect": 4,
+  "life": 20,
+  "name": "Melody, Sing-along",
+  "printings": [
+    {
+      "identifier": "TCC049",
+      "image": "TCC049",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Classic Constructed",
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "TCC049",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC049",
+  "subtypes": [
+    "Young",
+  ],
+  "typeText": "Bard Hero - Young",
+  "types": [
+    "Hero",
+  ],
+  "young": true,
 }
 `;
 
@@ -92624,6 +93716,52 @@ exports[`Check for unintentional updates Potion of Strength (potion-of-strength-
 }
 `;
 
+exports[`Check for unintentional updates Pouncing Paws (pouncing-paws) vs snapshot 1`] = `
+{
+  "artists": [
+    "Kimberly Pantoni",
+  ],
+  "cardIdentifier": "pouncing-paws",
+  "classes": [
+    "Ninja",
+  ],
+  "defaultImage": "TCC082",
+  "defense": 1,
+  "functionalText": "**Instant** - Destroy this: Create a Crouching Tiger in your banished zone. You may play it this turn.
+
+**Battleworn**",
+  "keywords": [
+    "Battleworn",
+  ],
+  "name": "Pouncing Paws",
+  "printings": [
+    {
+      "identifier": "TCC082",
+      "image": "TCC082",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "TCC082",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC082",
+  "subtypes": [
+    "Legs",
+  ],
+  "typeText": "Ninja Equipment - Legs",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Pouncing Qi (pouncing-qi-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -94392,6 +95530,7 @@ exports[`Check for unintentional updates Prism, Advent of Thrones (prism-advent-
   "rarity": "Majestic",
   "restrictedFormats": [
     "Classic Constructed",
+    "Commoner",
   ],
   "setIdentifiers": [
     "DTD002",
@@ -94867,6 +96006,56 @@ exports[`Check for unintentional updates Proclamation of Requisition (proclamati
 }
 `;
 
+exports[`Check for unintentional updates Professor Teklovossen (professor-teklovossen) vs snapshot 1`] = `
+{
+  "artists": [
+    "Simon Dominic",
+  ],
+  "cardIdentifier": "professor-teklovossen",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "TCC001",
+  "functionalText": "Evos cost {r} less to play for each opposing hero.
+
+You may play Evos from your banished zone.",
+  "hero": "Professor Teklovossen",
+  "intellect": 4,
+  "life": 20,
+  "name": "Professor Teklovossen",
+  "printings": [
+    {
+      "identifier": "TCC001",
+      "image": "TCC001",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Classic Constructed",
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "TCC001",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC001",
+  "subtypes": [
+    "Young",
+  ],
+  "typeText": "Mechanologist Hero - Young",
+  "types": [
+    "Hero",
+  ],
+  "young": true,
+}
+`;
+
 exports[`Check for unintentional updates Prognosticate (prognosticate-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -95254,7 +96443,7 @@ If Promise of Plenty is played from arsenal, it gains **go again**.",
 exports[`Check for unintentional updates Proto Base Arms (proto-base-arms) vs snapshot 1`] = `
 {
   "artists": [
-    "Vlad Tashkinov",
+    "Grigoriy Parshakov",
   ],
   "cardIdentifier": "proto-base-arms",
   "classes": [
@@ -95284,7 +96473,7 @@ exports[`Check for unintentional updates Proto Base Arms (proto-base-arms) vs sn
     "Arms",
     "Base",
   ],
-  "typeText": "Mechanologist Equipment – Base Arms",
+  "typeText": "Mechanologist Equipment - Base Arms",
   "types": [
     "Equipment",
   ],
@@ -95294,7 +96483,7 @@ exports[`Check for unintentional updates Proto Base Arms (proto-base-arms) vs sn
 exports[`Check for unintentional updates Proto Base Chest (proto-base-chest) vs snapshot 1`] = `
 {
   "artists": [
-    "Vlad Tashkinov",
+    "Dmitriy Semyonov",
   ],
   "cardIdentifier": "proto-base-chest",
   "classes": [
@@ -95324,7 +96513,7 @@ exports[`Check for unintentional updates Proto Base Chest (proto-base-chest) vs 
     "Base",
     "Chest",
   ],
-  "typeText": "Mechanologist Equipment – Base Chest",
+  "typeText": "Mechanologist Equipment - Base Chest",
   "types": [
     "Equipment",
   ],
@@ -95364,7 +96553,7 @@ exports[`Check for unintentional updates Proto Base Head (proto-base-head) vs sn
     "Base",
     "Head",
   ],
-  "typeText": "Mechanologist Equipment – Base Head",
+  "typeText": "Mechanologist Equipment - Base Head",
   "types": [
     "Equipment",
   ],
@@ -95374,7 +96563,7 @@ exports[`Check for unintentional updates Proto Base Head (proto-base-head) vs sn
 exports[`Check for unintentional updates Proto Base Legs (proto-base-legs) vs snapshot 1`] = `
 {
   "artists": [
-    "Vlad Tashkinov",
+    "Revazashvili E.",
   ],
   "cardIdentifier": "proto-base-legs",
   "classes": [
@@ -95404,7 +96593,7 @@ exports[`Check for unintentional updates Proto Base Legs (proto-base-legs) vs sn
     "Base",
     "Legs",
   ],
-  "typeText": "Mechanologist Equipment – Base Legs",
+  "typeText": "Mechanologist Equipment - Base Legs",
   "types": [
     "Equipment",
   ],
@@ -126177,6 +127366,270 @@ Shuffle your deck. Banish Sonata Arcanix.
 }
 `;
 
+exports[`Check for unintentional updates Song of Jack-be-Quick (song-of-jack-be-quick-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sebastian Giacobino",
+  ],
+  "cardIdentifier": "song-of-jack-be-quick-blue",
+  "classes": [
+    "Bard",
+  ],
+  "cost": 0,
+  "defaultImage": "TCC064",
+  "defense": 3,
+  "functionalText": "Create a Quicken token under each other hero's control.",
+  "name": "Song of Jack-be-Quick",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "TCC064",
+      "image": "TCC064",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "TCC064",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC064",
+  "subtypes": [
+    "Non-Attack",
+    "Song",
+  ],
+  "typeText": "Bard Action - Song",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Song of Sweet Nectar (song-of-sweet-nectar-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mateusz Wisniewski",
+  ],
+  "cardIdentifier": "song-of-sweet-nectar-blue",
+  "classes": [
+    "Bard",
+  ],
+  "cost": 0,
+  "defaultImage": "TCC065",
+  "defense": 3,
+  "functionalText": "Each other hero gains 1{l}.",
+  "name": "Song of Sweet Nectar",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "TCC065",
+      "image": "TCC065",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "TCC065",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC065",
+  "subtypes": [
+    "Non-Attack",
+    "Song",
+  ],
+  "typeText": "Bard Action - Song",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Song of Yesteryears (song-of-yesteryears-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mateusz Wisniewski",
+  ],
+  "cardIdentifier": "song-of-yesteryears-blue",
+  "classes": [
+    "Bard",
+  ],
+  "cost": 0,
+  "defaultImage": "TCC069",
+  "defense": 3,
+  "functionalText": "Each other hero puts an attack action card from their graveyard on the. bottom of their deck.",
+  "name": "Song of Yesteryears",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "TCC069",
+      "image": "TCC069",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "TCC069",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC069",
+  "subtypes": [
+    "Non-Attack",
+    "Song",
+  ],
+  "typeText": "Bard Action - Song",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Song of the Rosen Matador (song-of-the-rosen-matador-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Saad Irfan",
+  ],
+  "cardIdentifier": "song-of-the-rosen-matador-blue",
+  "classes": [
+    "Bard",
+  ],
+  "cost": 0,
+  "defaultImage": "TCC066",
+  "defense": 3,
+  "functionalText": "Create a Vigor token under each other hero's control.",
+  "name": "Song of the Rosen Matador",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "TCC066",
+      "image": "TCC066",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "TCC066",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC066",
+  "subtypes": [
+    "Non-Attack",
+    "Song",
+  ],
+  "typeText": "Bard Action - Song",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Song of the Shining Knight (song-of-the-shining-knight-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Saad Irfan",
+  ],
+  "cardIdentifier": "song-of-the-shining-knight-blue",
+  "classes": [
+    "Bard",
+  ],
+  "cost": 0,
+  "defaultImage": "TCC067",
+  "defense": 3,
+  "functionalText": "Create a Might token under each other hero's control.",
+  "name": "Song of the Shining Knight",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "TCC067",
+      "image": "TCC067",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "TCC067",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC067",
+  "subtypes": [
+    "Non-Attack",
+    "Song",
+  ],
+  "typeText": "Bard Action - Song",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Song of the Wandering Mind (song-of-the-wandering-mind-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Artur Treffner",
+  ],
+  "cardIdentifier": "song-of-the-wandering-mind-blue",
+  "classes": [
+    "Bard",
+  ],
+  "cost": 0,
+  "defaultImage": "TCC068",
+  "defense": 3,
+  "functionalText": "Each other hero draws a card.",
+  "name": "Song of the Wandering Mind",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "TCC068",
+      "image": "TCC068",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "TCC068",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC068",
+  "subtypes": [
+    "Non-Attack",
+    "Song",
+  ],
+  "typeText": "Bard Action - Song",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Sonic Boom (sonic-boom-yellow) vs snapshot 1`] = `
 {
   "artists": [
@@ -138370,7 +139823,7 @@ exports[`Check for unintentional updates Tectonic Plating (tectonic-plating) vs 
 exports[`Check for unintentional updates Teklo Base Arms (teklo-base-arms) vs snapshot 1`] = `
 {
   "artists": [
-    "Alief Rusdiatama",
+    "Lizhe Liang",
   ],
   "cardIdentifier": "teklo-base-arms",
   "classes": [
@@ -138385,7 +139838,7 @@ exports[`Check for unintentional updates Teklo Base Arms (teklo-base-arms) vs sn
   "name": "Teklo Base Arms",
   "printings": [
     {
-      "foiling": "Rainbow",
+      "foiling": "Cold",
       "identifier": "LGS188",
       "image": "LGS188",
       "set": "Promos",
@@ -138407,7 +139860,7 @@ exports[`Check for unintentional updates Teklo Base Arms (teklo-base-arms) vs sn
     "Arms",
     "Base",
   ],
-  "typeText": "Mechanologist Equipment – Base Arms",
+  "typeText": "Mechanologist Equipment - Base Arms",
   "types": [
     "Equipment",
   ],
@@ -138417,7 +139870,7 @@ exports[`Check for unintentional updates Teklo Base Arms (teklo-base-arms) vs sn
 exports[`Check for unintentional updates Teklo Base Chest (teklo-base-chest) vs snapshot 1`] = `
 {
   "artists": [
-    "Alief Rusdiatama",
+    "Septimius Ferdian",
   ],
   "cardIdentifier": "teklo-base-chest",
   "classes": [
@@ -138432,7 +139885,7 @@ exports[`Check for unintentional updates Teklo Base Chest (teklo-base-chest) vs 
   "name": "Teklo Base Chest",
   "printings": [
     {
-      "foiling": "Rainbow",
+      "foiling": "Cold",
       "identifier": "LGS187",
       "image": "LGS187",
       "set": "Promos",
@@ -138454,7 +139907,7 @@ exports[`Check for unintentional updates Teklo Base Chest (teklo-base-chest) vs 
     "Base",
     "Chest",
   ],
-  "typeText": "Mechanologist Equipment – Base Chest",
+  "typeText": "Mechanologist Equipment - Base Chest",
   "types": [
     "Equipment",
   ],
@@ -138479,7 +139932,7 @@ exports[`Check for unintentional updates Teklo Base Head (teklo-base-head) vs sn
   "name": "Teklo Base Head",
   "printings": [
     {
-      "foiling": "Rainbow",
+      "foiling": "Cold",
       "identifier": "LGS186",
       "image": "LGS186",
       "set": "Promos",
@@ -138501,7 +139954,7 @@ exports[`Check for unintentional updates Teklo Base Head (teklo-base-head) vs sn
     "Base",
     "Head",
   ],
-  "typeText": "Mechanologist Equipment – Base Head",
+  "typeText": "Mechanologist Equipment - Base Head",
   "types": [
     "Equipment",
   ],
@@ -138511,7 +139964,7 @@ exports[`Check for unintentional updates Teklo Base Head (teklo-base-head) vs sn
 exports[`Check for unintentional updates Teklo Base Legs (teklo-base-legs) vs snapshot 1`] = `
 {
   "artists": [
-    "Alief Rusdiatama",
+    "Erick Efata",
   ],
   "cardIdentifier": "teklo-base-legs",
   "classes": [
@@ -138526,7 +139979,7 @@ exports[`Check for unintentional updates Teklo Base Legs (teklo-base-legs) vs sn
   "name": "Teklo Base Legs",
   "printings": [
     {
-      "foiling": "Rainbow",
+      "foiling": "Cold",
       "identifier": "LGS189",
       "image": "LGS189",
       "set": "Promos",
@@ -138548,7 +140001,7 @@ exports[`Check for unintentional updates Teklo Base Legs (teklo-base-legs) vs sn
     "Base",
     "Legs",
   ],
-  "typeText": "Mechanologist Equipment – Base Legs",
+  "typeText": "Mechanologist Equipment - Base Legs",
   "types": [
     "Equipment",
   ],
@@ -138898,7 +140351,7 @@ exports[`Check for unintentional updates Teklovossen (teklovossen) vs snapshot 1
   "subtypes": [
     "Young",
   ],
-  "typeText": "Mechanologist Hero",
+  "typeText": "Mechanologist Hero - Young",
   "types": [
     "Hero",
   ],
@@ -139337,7 +140790,7 @@ exports[`Check for unintentional updates Terminator Tank (terminator-tank-red) v
   "cost": 6,
   "defaultImage": "EVO055",
   "defense": 3,
-  "functionalText": "If you have 1 or more Evos equipped, this gets “When this hits a hero, they discard a card,”
+  "functionalText": "If you have 1 or more Evos equipped, this gets "When this hits a hero, they discard a card," 
 
 - 2 or more, this costs {r}{r}{r} less to play,
 - 3 or more, this gets **overpower**,
@@ -139379,7 +140832,7 @@ exports[`Check for unintentional updates Terminator Tank (terminator-tank-red) v
   "subtypes": [
     "Attack",
   ],
-  "typeText": "Mechanologist Action – Attack",
+  "typeText": "Mechanologist Action - Attack",
   "types": [
     "Action",
   ],
@@ -139713,8 +141166,8 @@ exports[`Check for unintentional updates Theryon, Magister of Justice (theryon-m
     "Commoner",
   ],
   "setIdentifiers": [
-    "JDG006",
     "JDG008",
+    "JDG006",
   ],
   "sets": [
     "Promos",

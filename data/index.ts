@@ -17,309 +17,6 @@
   } from './interfaces';
 
   const cards1: Card[] = [{
-    artists: ["Andy Aslamov"],
-    cardIdentifier: "theryon-magister-of-justice",
-    classes: [Class.Adjudicator],
-    defaultImage: "JDG008",
-    name: "Theryon, Magister of Justice",
-    printings: [{
-      foiling: Foiling.C,
-      identifier: "JDG006",
-      image: "JDG006",
-      set: Release.Promos,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "JDG008",
-      image: "JDG008",
-      set: Release.Promos,
-      
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["JDG006","JDG008"],
-    sets: [Release.Promos],
-    specialImage: "JDG006",
-    subtypes: [],
-    types: [Type.Hero],
-    typeText: "Light Adjudicator Hero",
-
-    
-    
-    functionalText: `The first time each turn another hero destroys a card they don’t control, you may pay {r}{r}. If you do, they destroy a non-hero permanent they control.`,
-    
-    hero: Hero.Theryon,
-    intellect: 4,
-    
-    
-    life: 20,
-    
-    
-    
-    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
-    
-    
-    
-    
-    talents: [Talent.Light],
-    
-  },{
-    artists: ["Jessica Nguyen"],
-    cardIdentifier: "gavel-of-natural-order",
-    classes: [Class.Adjudicator],
-    defaultImage: "JDG005",
-    name: "Gavel of Natural Order",
-    printings: [{
-      foiling: Foiling.R,
-      identifier: "JDG005",
-      image: "JDG005",
-      set: Release.Promos,
-      
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["JDG005"],
-    sets: [Release.Promos],
-    specialImage: "JDG005",
-    subtypes: [Subtype.OneHanded,Subtype.Hammer],
-    types: [Type.Weapon],
-    typeText: "Adjudicator Weapon – Hammer (1H)",
-
-    
-    
-    functionalText: `**Pairs** with an off-hand
-
-**Once per Turn Action** - {r}{r}: **Attack**
-
-Whenever an opponent plays or activates their first card or ability each turn, if it's not their turn, put a +1{p} counter on this. At the beginning of your end phase, remove all +1{p} counters from this.`,
-    
-    
-    
-    
-    keywords: [Keyword.Pairs],
-    
-    
-    
-    power: 2,
-    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Kanadekana"],
-    cardIdentifier: "proclamation-of-abundance",
-    classes: [Class.Adjudicator],
-    defaultImage: "JDG010",
-    name: "Proclamation of Abundance",
-    printings: [{
-      foiling: Foiling.R,
-      identifier: "JDG009",
-      image: "JDG009",
-      set: Release.Promos,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "JDG010",
-      image: "JDG010",
-      set: Release.Promos,
-      
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["JDG009","JDG010"],
-    sets: [Release.Promos],
-    specialImage: "JDG009",
-    subtypes: [Subtype.OffHand],
-    types: [Type.Equipment],
-    typeText: "Adjudicator Equipment – Off-Hand",
-
-    
-    
-    functionalText: `**Action** - {r}{r}{r}, destroy this: Each hero draws up to their {i}.`,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Alief Rusdiatama"],
-    cardIdentifier: "teklo-base-head",
-    classes: [Class.Mechanologist],
-    defaultImage: "LGS186",
-    name: "Teklo Base Head",
-    printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS186",
-      image: "LGS186",
-      set: Release.Promos,
-      
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS186"],
-    sets: [Release.BrightLights,Release.Promos],
-    specialImage: "LGS186",
-    subtypes: [Subtype.Base,Subtype.Head],
-    types: [Type.Equipment],
-    typeText: "Mechanologist Equipment – Base Head",
-
-    
-    defense: 1,
-    functionalText: `**Blade Break**`,
-    
-    
-    
-    
-    keywords: [Keyword.BladeBreak],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Alief Rusdiatama"],
-    cardIdentifier: "teklo-base-chest",
-    classes: [Class.Mechanologist],
-    defaultImage: "LGS187",
-    name: "Teklo Base Chest",
-    printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS187",
-      image: "LGS187",
-      set: Release.Promos,
-      
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS187"],
-    sets: [Release.BrightLights,Release.Promos],
-    specialImage: "LGS187",
-    subtypes: [Subtype.Base,Subtype.Chest],
-    types: [Type.Equipment],
-    typeText: "Mechanologist Equipment – Base Chest",
-
-    
-    defense: 1,
-    functionalText: `**Blade Break**`,
-    
-    
-    
-    
-    keywords: [Keyword.BladeBreak],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Alief Rusdiatama"],
-    cardIdentifier: "teklo-base-arms",
-    classes: [Class.Mechanologist],
-    defaultImage: "LGS188",
-    name: "Teklo Base Arms",
-    printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS188",
-      image: "LGS188",
-      set: Release.Promos,
-      
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS188"],
-    sets: [Release.BrightLights,Release.Promos],
-    specialImage: "LGS188",
-    subtypes: [Subtype.Arms,Subtype.Base],
-    types: [Type.Equipment],
-    typeText: "Mechanologist Equipment – Base Arms",
-
-    
-    defense: 1,
-    functionalText: `**Blade Break**`,
-    
-    
-    
-    
-    keywords: [Keyword.BladeBreak],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Alief Rusdiatama"],
-    cardIdentifier: "teklo-base-legs",
-    classes: [Class.Mechanologist],
-    defaultImage: "LGS189",
-    name: "Teklo Base Legs",
-    printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS189",
-      image: "LGS189",
-      set: Release.Promos,
-      
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS189"],
-    sets: [Release.BrightLights,Release.Promos],
-    specialImage: "LGS189",
-    subtypes: [Subtype.Base,Subtype.Legs],
-    types: [Type.Equipment],
-    typeText: "Mechanologist Equipment – Base Legs",
-
-    
-    defense: 1,
-    functionalText: `**Blade Break**`,
-    
-    
-    
-    
-    keywords: [Keyword.BladeBreak],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
     artists: ["Simon Dominic"],
     cardIdentifier: "teklovossen-esteemed-magnate",
     classes: [Class.Mechanologist],
@@ -382,7 +79,7 @@ Whenever an opponent plays or activates their first card or ability each turn, i
     specialImage: "EVO008",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
-    typeText: "Mechanologist Hero",
+    typeText: "Mechanologist Hero - Young",
 
     
     
@@ -425,7 +122,7 @@ Whenever an opponent plays or activates their first card or ability each turn, i
     specialImage: "EVO022",
     subtypes: [Subtype.Base,Subtype.Head],
     types: [Type.Equipment],
-    typeText: "Mechanologist Equipment – Base Head",
+    typeText: "Mechanologist Equipment - Base Head",
 
     
     
@@ -447,7 +144,7 @@ Whenever an opponent plays or activates their first card or ability each turn, i
     
     
   },{
-    artists: ["Vlad Tashkinov"],
+    artists: ["Dmitriy Semyonov"],
     cardIdentifier: "proto-base-chest",
     classes: [Class.Mechanologist],
     defaultImage: "EVO023",
@@ -466,7 +163,7 @@ Whenever an opponent plays or activates their first card or ability each turn, i
     specialImage: "EVO023",
     subtypes: [Subtype.Base,Subtype.Chest],
     types: [Type.Equipment],
-    typeText: "Mechanologist Equipment – Base Chest",
+    typeText: "Mechanologist Equipment - Base Chest",
 
     
     
@@ -488,7 +185,7 @@ Whenever an opponent plays or activates their first card or ability each turn, i
     
     
   },{
-    artists: ["Vlad Tashkinov"],
+    artists: ["Grigoriy Parshakov"],
     cardIdentifier: "proto-base-arms",
     classes: [Class.Mechanologist],
     defaultImage: "EVO024",
@@ -507,7 +204,7 @@ Whenever an opponent plays or activates their first card or ability each turn, i
     specialImage: "EVO024",
     subtypes: [Subtype.Arms,Subtype.Base],
     types: [Type.Equipment],
-    typeText: "Mechanologist Equipment – Base Arms",
+    typeText: "Mechanologist Equipment - Base Arms",
 
     
     
@@ -529,7 +226,7 @@ Whenever an opponent plays or activates their first card or ability each turn, i
     
     
   },{
-    artists: ["Vlad Tashkinov"],
+    artists: ["Revazashvili E."],
     cardIdentifier: "proto-base-legs",
     classes: [Class.Mechanologist],
     defaultImage: "EVO025",
@@ -548,7 +245,7 @@ Whenever an opponent plays or activates their first card or ability each turn, i
     specialImage: "EVO025",
     subtypes: [Subtype.Base,Subtype.Legs],
     types: [Type.Equipment],
-    typeText: "Mechanologist Equipment – Base Legs",
+    typeText: "Mechanologist Equipment - Base Legs",
 
     
     
@@ -563,51 +260,6 @@ Whenever an opponent plays or activates their first card or ability each turn, i
     
     
     
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Kimberly Pantoni"],
-    cardIdentifier: "evo-steel-soul-memory-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO026",
-    name: "Evo Steel Soul Memory",
-    printings: [{
-      
-      identifier: "EVO026",
-      image: "EVO026",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO026"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO026",
-    subtypes: [Subtype.Base,Subtype.Evo,Subtype.Head,Subtype.NonAttack],
-    types: [Type.Action,Type.Equipment],
-    typeText: "Mechanologist Action Equipment – Evo Base Head",
-
-    cost: 4,
-    defense: 3,
-    functionalText: `If you have a base head equipped, ** transform** it into this, then equip this.
-
-When this **transforms** from or into an Evo with a different name, your hero gets +1{i} until end of turn.
-
-**Temper**`,
-    
-    
-    
-    
-    keywords: [Keyword.Temper,Keyword.Transform],
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
     
     
     
@@ -640,11 +292,11 @@ When this **transforms** from or into an Evo with a different name, your hero ge
     specialImage: "EVO055_EA",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
-    typeText: "Mechanologist Action – Attack",
+    typeText: "Mechanologist Action - Attack",
 
     cost: 6,
     defense: 3,
-    functionalText: `If you have 1 or more Evos equipped, this gets “When this hits a hero, they discard a card,”
+    functionalText: `If you have 1 or more Evos equipped, this gets "When this hits a hero, they discard a card," 
 
 - 2 or more, this costs {r}{r}{r} less to play,
 - 3 or more, this gets **overpower**,
@@ -659,6 +311,1579 @@ When this **transforms** from or into an Evo with a different name, your hero ge
     pitch: 1,
     power: 6,
     restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Alief Rusdiatama"],
+    cardIdentifier: "teklo-base-head",
+    classes: [Class.Mechanologist],
+    defaultImage: "LGS186",
+    name: "Teklo Base Head",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "LGS186",
+      image: "LGS186",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS186"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "LGS186",
+    subtypes: [Subtype.Base,Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment - Base Head",
+
+    
+    defense: 1,
+    functionalText: `**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Septimius Ferdian"],
+    cardIdentifier: "teklo-base-chest",
+    classes: [Class.Mechanologist],
+    defaultImage: "LGS187",
+    name: "Teklo Base Chest",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "LGS187",
+      image: "LGS187",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS187"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "LGS187",
+    subtypes: [Subtype.Base,Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment - Base Chest",
+
+    
+    defense: 1,
+    functionalText: `**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Lizhe Liang"],
+    cardIdentifier: "teklo-base-arms",
+    classes: [Class.Mechanologist],
+    defaultImage: "LGS188",
+    name: "Teklo Base Arms",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "LGS188",
+      image: "LGS188",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS188"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "LGS188",
+    subtypes: [Subtype.Arms,Subtype.Base],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment - Base Arms",
+
+    
+    defense: 1,
+    functionalText: `**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Erick Efata"],
+    cardIdentifier: "teklo-base-legs",
+    classes: [Class.Mechanologist],
+    defaultImage: "LGS189",
+    name: "Teklo Base Legs",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "LGS189",
+      image: "LGS189",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS189"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "LGS189",
+    subtypes: [Subtype.Base,Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment - Base Legs",
+
+    
+    defense: 1,
+    functionalText: `**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Simon Dominic"],
+    cardIdentifier: "professor-teklovossen",
+    classes: [Class.Mechanologist],
+    defaultImage: "TCC001",
+    name: "Professor Teklovossen",
+    printings: [{
+      
+      identifier: "TCC001",
+      image: "TCC001",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["TCC001"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC001",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Mechanologist Hero - Young",
+
+    
+    
+    functionalText: `Evos cost {r} less to play for each opposing hero.
+
+You may play Evos from your banished zone.`,
+    
+    hero: Hero.ProfessorTeklovossen,
+    intellect: 4,
+    
+    
+    life: 20,
+    
+    
+    
+    restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
+    
+    
+    
+    
+    
+    young: true
+  },{
+    artists: ["Revazashvili E."],
+    cardIdentifier: "evo-tekloscope-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "TCC007",
+    name: "Evo Tekloscope",
+    printings: [{
+      
+      identifier: "TCC007",
+      image: "TCC007",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC007"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC007",
+    subtypes: [Subtype.Evo,Subtype.Head,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Head",
+
+    cost: 3,
+    defense: 2,
+    functionalText: `If you have a base head equipped, **transform** it into this, then equip this.
+
+Your Teklo Blaster attacks can target any opposing hero.
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn,Keyword.Transform],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Elena Bakulina"],
+    cardIdentifier: "evo-energy-matrix-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "TCC008",
+    name: "Evo Energy Matrix",
+    printings: [{
+      
+      identifier: "TCC008",
+      image: "TCC008",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC008"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC008",
+    subtypes: [Subtype.Chest,Subtype.Evo,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Chest",
+
+    cost: 3,
+    defense: 2,
+    functionalText: `If you have a base chest equipped, **transform** it into this, then equip this.
+
+Your Teklo Blaster attacks cost {r} less to activate for each opposing hero.
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn,Keyword.Transform],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Anastasia Pronina"],
+    cardIdentifier: "evo-scatter-shot-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "TCC009",
+    name: "Evo Scatter Shot",
+    printings: [{
+      
+      identifier: "TCC009",
+      image: "TCC009",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC009"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC009",
+    subtypes: [Subtype.Arms,Subtype.Evo,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Arms",
+
+    cost: 3,
+    defense: 2,
+    functionalText: `If you have a base arms equipped, **transform** it into this, then equip this.
+
+Your Teklo Blaster attacks gets +1{p} for each opposing hero.
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn,Keyword.Transform],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Irina Si"],
+    cardIdentifier: "evo-rapid-fire-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "TCC010",
+    name: "Evo Rapid Fire",
+    printings: [{
+      
+      identifier: "TCC010",
+      image: "TCC010",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC010"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC010",
+    subtypes: [Subtype.Evo,Subtype.Legs,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Legs",
+
+    cost: 3,
+    defense: 2,
+    functionalText: `"If you have a base legs equipped, **transform** it into this, then equip this.
+
+Your Teklo Blaster attacks gets **go again**.
+
+**Battleworn**"`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn,Keyword.GoAgain,Keyword.Transform],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Simon Dominic"],
+    cardIdentifier: "apocalypse-automaton-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "TCC011",
+    name: "Apocalypse Automaton",
+    printings: [{
+      
+      identifier: "TCC011",
+      image: "TCC011",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["TCC011"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC011",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `Play this only if you have 1 or more Evos equipped.
+
+**Evo Upgrade** - This attacks up to X target opposing heroes, where X is the number of Evos you have equipped.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 1,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "mechanical-strength-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "TCC013",
+    name: "Mechanical Strength",
+    printings: [{
+      
+      identifier: "TCC013",
+      image: "TCC013",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC013"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC013",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Evo Upgrade** - This gets +X{p}, where X is the number of Evos you have equipped.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 1,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "brevant-civic-protector",
+    classes: [Class.Guardian],
+    defaultImage: "TCC027",
+    name: "Brevant, Civic Protector",
+    printings: [{
+      
+      identifier: "TCC027",
+      image: "TCC027",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["TCC027"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC027",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Guardian Hero - Young",
+
+    
+    
+    functionalText: `You may have any number of Chivalry in your deck.
+
+Whenever you **protect** another hero, create a Might token.`,
+    
+    hero: Hero.Brevant,
+    intellect: 4,
+    
+    keywords: [Keyword.Protect],
+    life: 20,
+    
+    
+    
+    restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
+    
+    
+    
+    
+    
+    young: true
+  },{
+    artists: ["Junaidi Lim"],
+    cardIdentifier: "hammer-of-havenhold",
+    classes: [Class.Guardian],
+    defaultImage: "TCC028",
+    name: "Hammer of Havenhold",
+    printings: [{
+      
+      identifier: "TCC028",
+      image: "TCC028",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC028"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC028",
+    subtypes: [Subtype.OneHanded,Subtype.Hammer],
+    types: [Type.Weapon],
+    typeText: "Guardian Weapon - Hammer (1H)",
+
+    
+    
+    functionalText: `**Once per Turn Action** - {r}{r}{r}: **Attack**
+
+If you have a Chivalray in your pitch zone, this gets +1{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Jessketchin"],
+    cardIdentifier: "bastion-of-duty",
+    classes: [Class.Guardian],
+    defaultImage: "TCC029",
+    name: "Bastion of Duty",
+    printings: [{
+      
+      identifier: "TCC029",
+      image: "TCC029",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC029"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC029",
+    subtypes: [Subtype.OffHand],
+    types: [Type.Equipment],
+    typeText: "Guardian Equipment - Off-Hand",
+
+    
+    defense: 2,
+    functionalText: `**Protect**
+
+**Temper**`,
+    
+    
+    
+    
+    keywords: [Keyword.Protect,Keyword.Temper],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Wisnu Tan"],
+    cardIdentifier: "civic-peak",
+    classes: [Class.Guardian],
+    defaultImage: "TCC030",
+    name: "Civic Peak",
+    printings: [{
+      
+      identifier: "TCC030",
+      image: "TCC030",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC030"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC030",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Guardian Equipment - Head",
+
+    
+    defense: 2,
+    functionalText: `Whenever this defends, another target hero draws a card.
+
+**Temper**`,
+    
+    
+    
+    
+    keywords: [Keyword.Temper],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Wisnu Tan"],
+    cardIdentifier: "civic-duty",
+    classes: [Class.Guardian],
+    defaultImage: "TCC031",
+    name: "Civic Duty",
+    printings: [{
+      
+      identifier: "TCC031",
+      image: "TCC031",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC031"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC031",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Guardian Equipment - Chest",
+
+    
+    defense: 2,
+    functionalText: `Whenever this defends, create a Vigor token under another hero's control.
+
+**Temper**`,
+    
+    
+    
+    
+    keywords: [Keyword.Temper],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Wisnu Tan"],
+    cardIdentifier: "civic-guide",
+    classes: [Class.Guardian],
+    defaultImage: "TCC032",
+    name: "Civic Guide",
+    printings: [{
+      
+      identifier: "TCC032",
+      image: "TCC032",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC032"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC032",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Guardian Equipment - Arms",
+
+    
+    defense: 2,
+    functionalText: `Whenever this defends, create a Might token under another hero's control.
+
+**Temper**`,
+    
+    
+    
+    
+    keywords: [Keyword.Temper],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Wisnu Tan"],
+    cardIdentifier: "civic-steps",
+    classes: [Class.Guardian],
+    defaultImage: "TCC033",
+    name: "Civic Steps",
+    printings: [{
+      
+      identifier: "TCC033",
+      image: "TCC033",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC033"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC033",
+    subtypes: [Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Guardian Equipment - Legs",
+
+    
+    defense: 2,
+    functionalText: `Whenever this defends, create a Quicken token under another hero's control.
+
+**Temper**`,
+    
+    
+    
+    
+    keywords: [Keyword.Temper],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Marco Wulfr"],
+    cardIdentifier: "lay-down-the-law-red",
+    classes: [Class.Guardian],
+    defaultImage: "TCC035",
+    name: "Lay Down the Law",
+    printings: [{
+      
+      identifier: "TCC035",
+      image: "TCC035",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC035"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC035",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Guardian Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Tower** - If this has 13 or more {p}, non-equipment cards get -1{d} while defending this.`,
+    
+    
+    
+    
+    keywords: [Keyword.Tower],
+    
+    
+    pitch: 1,
+    power: 7,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Andy Aslamov"],
+    cardIdentifier: "melody-sing-along",
+    classes: [Class.Bard],
+    defaultImage: "TCC049",
+    name: "Melody, Sing-along",
+    printings: [{
+      
+      identifier: "TCC049",
+      image: "TCC049",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["TCC049"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC049",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Bard Hero - Young",
+
+    
+    
+    functionalText: `Whenever you play a song, create Copper tokens equal to the number of other heroes in the game.`,
+    
+    hero: Hero.Melody,
+    intellect: 4,
+    
+    
+    life: 20,
+    
+    
+    
+    restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
+    
+    
+    
+    
+    
+    young: true
+  },{
+    artists: ["Brian Adriel"],
+    cardIdentifier: "jinglewood-smash-hit",
+    classes: [Class.Bard],
+    defaultImage: "TCC050",
+    name: "Jinglewood, Smash Hit",
+    printings: [{
+      
+      identifier: "TCC050",
+      image: "TCC050",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC050"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC050",
+    subtypes: [Subtype.TwoHanded,Subtype.Fiddle],
+    types: [Type.Weapon],
+    typeText: "Bard Weapon - Fiddle (2H)",
+
+    
+    
+    functionalText: `**Once per Turn Action** - {r}{r}{r}: Target opposing hero chooses and creates a Might, Quicken, or Vigor token. You create a Copper token. **Go again**
+
+**Action** - 0: **Attack**.  When this hits, destroy it.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "final-act-red",
+    classes: [Class.Bard],
+    defaultImage: "TCC057",
+    name: "Final Act",
+    printings: [{
+      
+      identifier: "TCC057",
+      image: "TCC057",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["TCC057"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC057",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Bard Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `When this attacks, it gets +X{p}, where X is twice the number of cards in all pitch zones.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 1,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Veto Zomer"],
+    cardIdentifier: "interlude-red",
+    classes: [Class.Bard],
+    defaultImage: "TCC058",
+    name: "Interlude",
+    printings: [{
+      
+      identifier: "TCC058",
+      image: "TCC058",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["TCC058"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC058",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Bard Instant",
+
+    cost: 0,
+    
+    functionalText: `Choose a hero. The next time they would be dealt damage this turn, prevent 3 of that damage. If you prevent damage to another hero this way, create a Copper token.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sebastian Giacobino"],
+    cardIdentifier: "encore-yellow",
+    classes: [Class.Bard],
+    defaultImage: "TCC061",
+    name: "Encore",
+    printings: [{
+      
+      identifier: "TCC061",
+      image: "TCC061",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC061"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC061",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Bard Action",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Return a Bard attack action card from your graveyard to your hand.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sebastian Giacobino"],
+    cardIdentifier: "song-of-jack-be-quick-blue",
+    classes: [Class.Bard],
+    defaultImage: "TCC064",
+    name: "Song of Jack-be-Quick",
+    printings: [{
+      
+      identifier: "TCC064",
+      image: "TCC064",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["TCC064"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC064",
+    subtypes: [Subtype.NonAttack,Subtype.Song],
+    types: [Type.Action],
+    typeText: "Bard Action - Song",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `Create a Quicken token under each other hero's control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mateusz Wisniewski"],
+    cardIdentifier: "song-of-sweet-nectar-blue",
+    classes: [Class.Bard],
+    defaultImage: "TCC065",
+    name: "Song of Sweet Nectar",
+    printings: [{
+      
+      identifier: "TCC065",
+      image: "TCC065",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["TCC065"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC065",
+    subtypes: [Subtype.NonAttack,Subtype.Song],
+    types: [Type.Action],
+    typeText: "Bard Action - Song",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `Each other hero gains 1{l}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "song-of-the-rosen-matador-blue",
+    classes: [Class.Bard],
+    defaultImage: "TCC066",
+    name: "Song of the Rosen Matador",
+    printings: [{
+      
+      identifier: "TCC066",
+      image: "TCC066",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["TCC066"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC066",
+    subtypes: [Subtype.NonAttack,Subtype.Song],
+    types: [Type.Action],
+    typeText: "Bard Action - Song",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `Create a Vigor token under each other hero's control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "song-of-the-shining-knight-blue",
+    classes: [Class.Bard],
+    defaultImage: "TCC067",
+    name: "Song of the Shining Knight",
+    printings: [{
+      
+      identifier: "TCC067",
+      image: "TCC067",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["TCC067"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC067",
+    subtypes: [Subtype.NonAttack,Subtype.Song],
+    types: [Type.Action],
+    typeText: "Bard Action - Song",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `Create a Might token under each other hero's control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Artur Treffner"],
+    cardIdentifier: "song-of-the-wandering-mind-blue",
+    classes: [Class.Bard],
+    defaultImage: "TCC068",
+    name: "Song of the Wandering Mind",
+    printings: [{
+      
+      identifier: "TCC068",
+      image: "TCC068",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["TCC068"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC068",
+    subtypes: [Subtype.NonAttack,Subtype.Song],
+    types: [Type.Action],
+    typeText: "Bard Action - Song",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `Each other hero draws a card.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mateusz Wisniewski"],
+    cardIdentifier: "song-of-yesteryears-blue",
+    classes: [Class.Bard],
+    defaultImage: "TCC069",
+    name: "Song of Yesteryears",
+    printings: [{
+      
+      identifier: "TCC069",
+      image: "TCC069",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["TCC069"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC069",
+    subtypes: [Subtype.NonAttack,Subtype.Song],
+    types: [Type.Action],
+    typeText: "Bard Action - Song",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `Each other hero puts an attack action card from their graveyard on the. bottom of their deck.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kimberly Pantoni"],
+    cardIdentifier: "mask-of-three-tails",
+    classes: [Class.Ninja],
+    defaultImage: "TCC079",
+    name: "Mask of Three Tails",
+    printings: [{
+      
+      identifier: "TCC079",
+      image: "TCC079",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC079"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC079",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Ninja Equipment - Head",
+
+    
+    defense: 0,
+    functionalText: `**Instant** - Destroy this: Draw a card. Activate this ability only if you've hit 3 or more times this combat chain.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kimberly Pantoni"],
+    cardIdentifier: "pouncing-paws",
+    classes: [Class.Ninja],
+    defaultImage: "TCC082",
+    name: "Pouncing Paws",
+    printings: [{
+      
+      identifier: "TCC082",
+      image: "TCC082",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC082"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC082",
+    subtypes: [Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Ninja Equipment - Legs",
+
+    
+    defense: 1,
+    functionalText: `**Instant** - Destroy this: Create a Crouching Tiger in your banished zone. You may play it this turn.
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Maerel Hibadita"],
+    cardIdentifier: "bittering-thorns-red",
+    classes: [Class.Ninja],
+    defaultImage: "TCC083",
+    name: "Bittering Thorns",
+    printings: [{
+      
+      identifier: "TCC083",
+      image: "TCC083",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["TCC083"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC083",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `When this hits, your next attack this turn gets +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Vito Vivodka"],
+    cardIdentifier: "growl-red",
+    classes: [Class.Ninja],
+    defaultImage: "TCC086",
+    name: "Growl",
+    printings: [{
+      
+      identifier: "TCC086",
+      image: "TCC086",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC086"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC086",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `When this attacks, the next Crouching Tiger you play this combat chain gets +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Jessketchin"],
+    cardIdentifier: "mauling-qi-red",
+    classes: [Class.Ninja],
+    defaultImage: "TCC088",
+    name: "Mauling Qi",
+    printings: [{
+      
+      identifier: "TCC088",
+      image: "TCC088",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["TCC088"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC088",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Combo** - When this hits, if Crouching Tiger was the last attack this combat chain, deal 1 damage to each opposing hero.`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo],
+    
+    
+    pitch: 1,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Andy Aslamov"],
+    cardIdentifier: "theryon-magister-of-justice",
+    classes: [Class.Adjudicator],
+    defaultImage: "JDG008",
+    name: "Theryon, Magister of Justice",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "JDG006",
+      image: "JDG006",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "JDG008",
+      image: "JDG008",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["JDG008","JDG006"],
+    sets: [Release.Promos],
+    specialImage: "JDG006",
+    subtypes: [],
+    types: [Type.Hero],
+    typeText: "Light Adjudicator Hero",
+
+    
+    
+    functionalText: `The first time each turn another hero destroys a card they don’t control, you may pay {r}{r}. If you do, they destroy a non-hero permanent they control.`,
+    
+    hero: Hero.Theryon,
+    intellect: 4,
+    
+    
+    life: 20,
+    
+    
+    
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Kanadekana"],
+    cardIdentifier: "proclamation-of-abundance",
+    classes: [Class.Adjudicator],
+    defaultImage: "JDG010",
+    name: "Proclamation of Abundance",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "JDG009",
+      image: "JDG009",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "JDG010",
+      image: "JDG010",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["JDG009","JDG010"],
+    sets: [Release.Promos],
+    specialImage: "JDG009",
+    subtypes: [Subtype.OffHand],
+    types: [Type.Equipment],
+    typeText: "Adjudicator Equipment – Off-Hand",
+
+    
+    
+    functionalText: `**Action** - {r}{r}{r}, destroy this: Each hero draws up to their {i}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
     
     
     
@@ -31810,7 +33035,8 @@ If you lose {h} during your turn, destroy Dimenxxional Crossroads.`,
     
     talents: [Talent.Shadow],
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Reza Afshar"],
     cardIdentifier: "dimenxxional-gateway-red",
     classes: [Class.Runeblade],
@@ -33098,8 +34324,7 @@ Draw a card.`,
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Mihail Spil-Haufter"],
     cardIdentifier: "dread-screamer-red",
     classes: [Class.Brute],
@@ -34143,7 +35368,7 @@ If you've played a red card this turn, dragons you control have **go again** whi
     
     pitch: 1,
     power: 6,
-    restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
     
     
     
@@ -34202,7 +35427,7 @@ If you've played a red card this turn, dragons you control have **go again** whi
     
     pitch: 2,
     power: 5,
-    restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
     
     
     
@@ -34267,7 +35492,7 @@ If you've played a red card this turn, dragons you control have **go again** whi
     
     pitch: 3,
     power: 4,
-    restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
     
     
     
@@ -47458,6 +48683,12 @@ Create a Runechant token.
     name: "Fyendal's Spring Tunic",
     printings: [{
       
+      identifier: "",
+      image: "",
+      set: Release.BrightLights,
+      
+    },{
+      
       identifier: "1HP341",
       image: "1HP341.width-450",
       set: Release.HistoryPack1,
@@ -47502,7 +48733,7 @@ Create a Runechant token.
     rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
     setIdentifiers: ["1HP341","CRU178","FAB001","FAB002","WTR150"],
-    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
+    sets: [Release.BrightLights,Release.CrucibleOfWar,Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
     specialImage: "FAB001",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -47793,6 +49024,51 @@ If Galaxxi Black hits a hero, deal 1 arcane damage to that hero.`,
     
     
     restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Jessica Nguyen"],
+    cardIdentifier: "gavel-of-natural-order",
+    classes: [Class.Adjudicator],
+    defaultImage: "JDG005",
+    name: "Gavel of Natural Order",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "JDG005",
+      image: "JDG005",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["JDG005"],
+    sets: [Release.Promos],
+    specialImage: "JDG005",
+    subtypes: [Subtype.OneHanded,Subtype.Hammer],
+    types: [Type.Weapon],
+    typeText: "Adjudicator Weapon - Hammer (1H)",
+
+    
+    
+    functionalText: `**Pairs** with an off-hand
+
+**Once per Turn Action** - {r}{r}: **Attack**
+
+Whenever an opponent plays or activates their first card or ability each turn, if it's not their turn, put a +1{p} counter on this. At the beginning of your end phase, remove all +1{p} counters from this.`,
+    
+    
+    
+    
+    keywords: [Keyword.Pairs],
+    
+    
+    
+    power: 2,
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
     
     
     
@@ -60263,11 +61539,17 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
       image: "IRA001-P_EUmBrk0.width-450",
       set: Release.IraWelcomeDeck,
       
+    },{
+      
+      identifier: "TCC077",
+      image: "TCC077",
+      set: Release.RoundTheTable,
+      
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["1HP089","CRU046","HER000","IRA001"],
-    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.IraWelcomeDeck,Release.Promos],
+    setIdentifiers: ["TCC077","1HP089","CRU046","HER000","IRA001"],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.IraWelcomeDeck,Release.Promos,Release.RoundTheTable],
     specialImage: "CRU046",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -66429,7 +67711,8 @@ While there is a card with a yellow color strip in your pitch zone, Illusionist 
     
     talents: [Talent.Shadow],
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Immanuela Crovius"],
     cardIdentifier: "lunartide-plunderer-blue",
     classes: [Class.NotClassed],
@@ -67248,8 +68531,7 @@ Damage that would be dealt by Malign can't be prevented.`,
     
     
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "mandible-claw",
     classes: [Class.Brute],
@@ -80947,7 +82229,7 @@ Your next Brute attack this turn gains +3{p}.
     
     
     
-    restrictedFormats: [Format.ClassicConstructed],
+    restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
     
     
     
@@ -100746,7 +102028,8 @@ When Sekem attacks, you may banish a card from your hero's soul. If you do, deal
     
     talents: [Talent.Shadow],
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Marco González"],
     cardIdentifier: "shaden-scream-red",
     classes: [Class.Brute],
@@ -101107,8 +102390,7 @@ Your next Brute or Shadow attack this turn gets +3{p}.
     
     talents: [Talent.Shadow],
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Grégory Nunkovics"],
     cardIdentifier: "shadow-of-ursur-blue",
     classes: [Class.Runeblade],
@@ -134642,7 +135924,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     ...cards4,
   ];
 
-  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasia Balakchina","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","Ausonia","Bastien Jez","Billy Christian","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","David Ogilvie","Dmitry Isakevitch","Dmitry Solodovnikov","Edward Chee","Eilene Cherie","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Enmorie","Eric Klug","Erick Efata","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Jessica Nguyen","Jessketchin","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kalashnikova N.","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Madeline Boni","Maerel Hibadita","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wisniewski","Mateusz Wiśniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Revazashvili E.","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sandeep Karunakaran","Sariya Asavametha","Sebastian Szmyd","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Dominic","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Stormy Elia Fanggidae","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tomasz Jedruszek","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Victoria Belyaeva","Vito Vivodka","Vlad Tashkinov","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yeong-Hao Han","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
+  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasia Balakchina","Anastasia Pronina","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Artur Treffner","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","Ausonia","Bastien Jez","Billy Christian","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","David Ogilvie","Dmitriy Semyonov","Dmitry Isakevitch","Dmitry Solodovnikov","Edward Chee","Eilene Cherie","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Enmorie","Eric Klug","Erick Efata","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Jessica Nguyen","Jessketchin","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kalashnikova N.","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Madeline Boni","Maerel Hibadita","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wisniewski","Mateusz Wiśniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Revazashvili E.","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sandeep Karunakaran","Sariya Asavametha","Sebastian Giacobino","Sebastian Szmyd","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Dominic","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Stormy Elia Fanggidae","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tomasz Jedruszek","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Veto Zomer","Victoria Belyaeva","Vito Vivodka","Vlad Tashkinov","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yeong-Hao Han","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
 
   export * from "./sets";
 

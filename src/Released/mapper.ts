@@ -110,10 +110,9 @@ const getPrintings = (card: ParsedCard): Printing[] => {
 
     const treatment = Treatment[artVariation];
     const image = !!imageUrl
-      ? imageUrl.substring(
-          imageUrl.lastIndexOf("/") + 1,
-          imageUrl.lastIndexOf(".")
-        )
+      ? imageUrl
+          .substring(imageUrl.lastIndexOf("/") + 1, imageUrl.lastIndexOf("."))
+          .replace(".format-webp", "")
       : "";
 
     // for (const rawFoiling of foilings) {
@@ -225,7 +224,8 @@ const getSets = (card: ParsedCard): Release[] => {
         setIdentifierToSetMappings[setIdentifier.substring(0, 3).toLowerCase()]
     )
     .filter((set) => !!set);
-  const arr = Array.from(new Set(sets));
+  const printingSets = getPrintings(card).map(({ set }) => set);
+  const arr = Array.from(new Set([...sets, ...printingSets]));
   arr.sort();
 
   return arr;

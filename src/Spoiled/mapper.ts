@@ -4,22 +4,20 @@ import {
   getFusions,
   getNumberOrUndefined,
   getPrint,
-  getRarities,
   getSpecialImage,
   getStringIfNotNumber,
+  rarityStringMapping,
 } from "../Shared";
 import {
   Card,
   Class,
   Foiling,
   Format,
-  Fusion,
   Hero,
   Keyword,
   Printing,
   Rarity,
   Release,
-  ReleaseEdition,
   Subtype,
   Talent,
   Treatment,
@@ -27,6 +25,15 @@ import {
 } from "../Shared/interfaces";
 import { setIdentifierToSetMappings } from "../Shared/sets";
 import { ParsedCard } from "./parser";
+
+const getArtists = (card: ParsedCard): string[] => {
+  const { artist, artist2 } = card;
+
+  const artists = [artist, artist2]
+    .filter((artist) => !!artist)
+    .sort() as string[];
+  return Array.from(new Set(artists));
+};
 
 const getClasses = (card: ParsedCard): Class[] => {
   const classes: Class[] = [];
@@ -88,38 +95,73 @@ const getIdentifier = (card: ParsedCard): string => {
   return color ? `${name}-${color}` : name;
 };
 
-const setEditionMapping = {
-  A: ReleaseEdition.Alpha,
-  F: ReleaseEdition.First,
-  U: ReleaseEdition.Unlimited,
-};
 const getPrintings = (card: ParsedCard): Printing[] => {
-  const images: Printing[] = [];
-  const { images: unparsedImages } = card;
-  for (const unparsedImage of unparsedImages) {
-    const [url, identifier, rawEdition, rawFoiling, rawTreatment] =
-      unparsedImage.split(" - ");
-    if (!identifier) {
-      console.log({ card });
-    }
-    const setAbbreviation = identifier.slice(0, 3).toLowerCase();
-    const set = setIdentifierToSetMappings[setAbbreviation];
-    const edition = setEditionMapping[rawEdition];
-    const foiling = Foiling[rawFoiling];
-    const treatment = Treatment[rawTreatment];
-    const image = url.substring(url.lastIndexOf("/") + 1, url.lastIndexOf("."));
+  const printings: Printing[] = [];
 
-    images.push({
-      ...(edition ? { edition } : {}),
-      ...(foiling ? { foiling } : {}),
-      identifier,
-      image,
-      set,
-      ...(treatment ? { treatment } : {}),
-    });
+  const {
+    identifiers,
+    setIdentifiers,
+    foiling,
+    imageUrl,
+    treatment,
+    foiling2,
+    imageUrl2,
+    rarity2,
+    treatment2,
+  } = card;
+
+  const printing1: Printing = {
+    identifier: identifiers[0],
+    image: "",
+    set: setIdentifierToSetMappings[setIdentifiers[0].toLowerCase()],
+  };
+  if (treatment) {
+    printing1.treatment = Treatment[treatment];
   }
-  images.sort((i1, i2) => getPrint(i1).localeCompare(getPrint(i2)));
-  return images;
+  if (foiling) {
+    printing1.foiling = Foiling[foiling];
+  }
+  if (imageUrl) {
+    const truncatedImageUrl = imageUrl
+      .replace(".format-webp", "")
+      .replace(".width-450", "")
+      .replace("_yajPa8R", "");
+    printing1.image = truncatedImageUrl.substring(
+      truncatedImageUrl.lastIndexOf("/") + 1,
+      truncatedImageUrl.lastIndexOf(".")
+    );
+  }
+  printings.push(printing1);
+
+  if (rarity2) {
+    const identifier = identifiers.length > 1 ? identifiers[1] : identifiers[0];
+    const setIdentifier =
+      setIdentifiers.length > 1 ? setIdentifiers[1] : setIdentifiers[0];
+    const printing2: Printing = {
+      identifier,
+      image: "",
+      set: setIdentifierToSetMappings[setIdentifier.toLowerCase()],
+    };
+    if (treatment2) {
+      printing2.treatment = Treatment[treatment2];
+    }
+    if (foiling2) {
+      printing2.foiling = Foiling[foiling2];
+    }
+    if (imageUrl2) {
+      const truncatedImageUrl = imageUrl2
+        .replace(".format-webp", "")
+        .replace(".width-450", "")
+        .replace("_yajPa8R", "");
+      printing2.image = truncatedImageUrl.substring(
+        truncatedImageUrl.lastIndexOf("/") + 1,
+        truncatedImageUrl.lastIndexOf(".")
+      );
+    }
+    printings.push(printing2);
+  }
+  printings.sort((i1, i2) => getPrint(i1).localeCompare(getPrint(i2)));
+  return printings;
 };
 
 const getKeywords = (card: ParsedCard): Keyword[] => {
@@ -144,94 +186,36 @@ const getKeywords = (card: ParsedCard): Keyword[] => {
 };
 
 const getRarity = (card: ParsedCard): Rarity | undefined => {
-  const { rarity: rarities } = card;
-  if (rarities.some((rarity) => rarity.startsWith("T"))) {
-    return Rarity.Token;
-  } else if (rarities.some((rarity) => rarity.startsWith("F"))) {
-    return Rarity.Fabled;
-  } else if (rarities.some((rarity) => rarity.startsWith("L"))) {
-    return Rarity.Legendary;
-  } else if (rarities.some((rarity) => rarity.startsWith("M"))) {
-    return Rarity.Majestic;
-  } else if (rarities.some((rarity) => rarity.startsWith("S"))) {
-    return Rarity.SuperRare;
-  } else if (rarities.some((rarity) => rarity.startsWith("R"))) {
-    return Rarity.Rare;
-  } else if (rarities.some((rarity) => rarity.startsWith("C"))) {
-    return Rarity.Common;
-  } else if (rarities.some((rarity) => rarity.startsWith("P"))) {
-    return Rarity.Promo;
-  }
+  return rarityStringMapping[card.rarity];
+};
+
+export const getRarities = (card: ParsedCard): Rarity[] => {
+  const { rarity, rarity2 } = card;
+
+  const rarities = [rarity, rarity2]
+    .filter((rarity) => !!rarity)
+    .map((rarity) => rarityStringMapping[rarity as string])
+    .sort();
+  return Array.from(new Set(rarities));
 };
 
 const getRestrictedFormats = (card: ParsedCard): Format[] => {
-  const {
-    blitzLegal,
-    blitzBanned,
-    blitzLivingLegend,
-    blitzSuspendedStart,
-    blitzSuspendedEnd,
-    classicConstructedLegal,
-    classicConstructedBanned,
-    classicConstructedLivingLegend,
-    classicConstructedSuspendedStart,
-    classicConstructedSuspendedEnd,
-    commonerLegal,
-    commonerBanned,
-  } = card;
+  const { blitzLegal, classicConstructedLegal, commonerLegal } = card;
 
   const restrictedFormats: Format[] = [];
 
   const ILLEGAL_IN_FORMAT_FLAG = "No";
-  if (
-    blitzLivingLegend ||
-    todayIsAfterDate(blitzBanned) ||
-    todayIsWithinDateRanges(blitzSuspendedStart, blitzSuspendedEnd) ||
-    blitzLegal === ILLEGAL_IN_FORMAT_FLAG
-  ) {
+  if (blitzLegal === ILLEGAL_IN_FORMAT_FLAG) {
     restrictedFormats.push(Format.Blitz);
   }
-  if (
-    classicConstructedLivingLegend ||
-    todayIsAfterDate(classicConstructedBanned) ||
-    todayIsWithinDateRanges(
-      classicConstructedSuspendedStart,
-      classicConstructedSuspendedEnd
-    ) ||
-    classicConstructedLegal === ILLEGAL_IN_FORMAT_FLAG
-  ) {
+  if (classicConstructedLegal === ILLEGAL_IN_FORMAT_FLAG) {
     restrictedFormats.push(Format.ClassicConstructed);
   }
-  if (commonerBanned || commonerLegal === ILLEGAL_IN_FORMAT_FLAG) {
+  if (commonerLegal === ILLEGAL_IN_FORMAT_FLAG) {
     restrictedFormats.push(Format.Commoner);
   }
   restrictedFormats.sort();
   return restrictedFormats;
-};
-
-const todayIsWithinDateRanges = (start: string, end: string): boolean => {
-  if (start && end) {
-    const today = new Date();
-    const startDate = new Date(start);
-    const endDate = new Date(end);
-    if (typeof endDate === "number") {
-      return startDate < today && today < (endDate as Date);
-    } else {
-      return startDate < today;
-    }
-  } else {
-    return false;
-  }
-};
-
-const todayIsAfterDate = (date: string): boolean => {
-  if (date) {
-    const today = new Date();
-    const dat = new Date(date);
-    return today > dat;
-  } else {
-    return false;
-  }
 };
 
 const getSets = ({ setIdentifiers }: ParsedCard): Release[] => {
@@ -333,10 +317,8 @@ const getCardData = (card: ParsedCard): Card => {
   const { types, subtypes } = getTypeAndSubType(card);
   const printings = getPrintings(card);
 
-  const artists = card.artists.sort();
-
   return {
-    artists,
+    artists: getArtists(card),
     cardIdentifier: getIdentifier(card),
     classes: getClasses(card),
     defaultImage: getDefaultImage(card.name, printings),

@@ -55,6 +55,9 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
   rvd: Release.ClassicBattlesRhinarDorinthea,
   ira: Release.IraWelcomeDeck,
 
+  // Other decks
+  tcc: Release.RoundTheTable,
+
   // Hero decks
   tea: Release.DorintheaHeroDeck,
   ksu: Release.KatsuHeroDeck,

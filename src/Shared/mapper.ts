@@ -291,7 +291,7 @@ export const getFusions = (card: { cardKeywords: string[] }): Fusion[] => {
   return arr;
 };
 
-const rarityStringMapping: { [key: string]: Rarity } = {
+export const rarityStringMapping: { [key: string]: Rarity } = {
   T: Rarity.Token,
   F: Rarity.Fabled,
   L: Rarity.Legendary,

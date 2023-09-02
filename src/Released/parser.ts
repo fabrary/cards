@@ -188,7 +188,7 @@ export const parseJSON = (json): ParsedCard[] => {
       );
       const setIdentifiers: string[] = Array.from(
         new Set(printings.map(({ setIdentifier }) => setIdentifier))
-      );
+      ).filter((setIdentifier) => !!setIdentifier);
       const sets: string[] = Array.from(
         new Set(printings.map(({ set }) => set))
       );
