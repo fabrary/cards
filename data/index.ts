@@ -1131,6 +1131,47 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
   },{
+    artists: ["Bastien Jez"],
+    cardIdentifier: "chivalry-blue",
+    classes: [Class.Guardian],
+    defaultImage: "TCC048",
+    name: "Chivalry",
+    printings: [{
+      
+      identifier: "TCC048",
+      image: "TCC048",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["TCC048"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC048",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Guardian Block",
+
+    
+    defense: 3,
+    functionalText: `**Protect**`,
+    
+    
+    
+    
+    keywords: [Keyword.Protect],
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Andy Aslamov"],
     cardIdentifier: "melody-sing-along",
     classes: [Class.Bard],
@@ -1790,6 +1831,47 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     pitch: 1,
     power: 5,
     restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "might",
+    classes: [Class.Generic],
+    defaultImage: "TCC105",
+    name: "Might",
+    printings: [{
+      
+      identifier: "TCC105",
+      image: "TCC105",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["TCC105"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC105",
+    subtypes: [Subtype.Aura],
+    types: [Type.Token],
+    typeText: "Generic Token - Aura",
+
+    
+    
+    functionalText: `At the start of your turn, destroy this, then your next attack this turn gets +1{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -26872,11 +26954,17 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
       image: "FAB055",
       set: Release.Promos,
       
+    },{
+      
+      identifier: "TCC103",
+      image: "TCC103",
+      set: Release.RoundTheTable,
+      
     },],
-    rarities: [Rarity.Common,Rarity.Promo],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP426","CRU197","EVR194","FAB055"],
-    sets: [Release.CrucibleOfWar,Release.Everfest,Release.HistoryPack1,Release.Promos],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["TCC103","1HP426","CRU197","EVR194","FAB055"],
+    sets: [Release.CrucibleOfWar,Release.Everfest,Release.HistoryPack1,Release.Promos,Release.RoundTheTable],
     specialImage: "CRU197",
     subtypes: [Subtype.Item],
     types: [Type.Token],
@@ -28454,11 +28542,17 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
       image: "DYN065",
       set: Release.Dynasty,
       
+    },{
+      
+      identifier: "TCC104",
+      image: "TCC104",
+      set: Release.RoundTheTable,
+      
     },],
-    rarities: [Rarity.Common,Rarity.Marvel],
-    rarity: Rarity.Common,
-    setIdentifiers: ["DYN065"],
-    sets: [Release.Dynasty],
+    rarities: [Rarity.Common,Rarity.Marvel,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["TCC104","DYN065"],
+    sets: [Release.Dynasty,Release.RoundTheTable],
     specialImage: "DYN065_Marvel",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -32972,7 +33066,8 @@ If a 'non-attack' action card was pitched to play Diabolic Ultimatum, each hero 
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Sergey Averkin"],
     cardIdentifier: "dimenxxional-crossroads-yellow",
     classes: [Class.Runeblade],
@@ -33035,8 +33130,7 @@ If you lose {h} during your turn, destroy Dimenxxional Crossroads.`,
     
     talents: [Talent.Shadow],
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Reza Afshar"],
     cardIdentifier: "dimenxxional-gateway-red",
     classes: [Class.Runeblade],
@@ -67640,7 +67734,8 @@ While there is a card with a yellow color strip in your pitch zone, Illusionist 
     
     talents: [Talent.Shadow],
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Immanuela Crovius"],
     cardIdentifier: "lunartide-plunderer-yellow",
     classes: [Class.NotClassed],
@@ -67711,8 +67806,7 @@ While there is a card with a yellow color strip in your pitch zone, Illusionist 
     
     talents: [Talent.Shadow],
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Immanuela Crovius"],
     cardIdentifier: "lunartide-plunderer-blue",
     classes: [Class.NotClassed],
@@ -101979,7 +102073,8 @@ When Sekem attacks, you may banish a card from your hero's soul. If you do, deal
     
     talents: [Talent.Light],
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Ausonia"],
     cardIdentifier: "shaden-death-hydra-yellow",
     classes: [Class.Brute],
@@ -102028,8 +102123,7 @@ When Sekem attacks, you may banish a card from your hero's soul. If you do, deal
     
     talents: [Talent.Shadow],
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Marco González"],
     cardIdentifier: "shaden-scream-red",
     classes: [Class.Brute],

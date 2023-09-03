@@ -29673,13 +29673,20 @@ exports[`Check for unintentional updates Copper (copper) vs snapshot 1`] = `
       "image": "FAB055",
       "set": "Promos",
     },
+    {
+      "identifier": "TCC103",
+      "image": "TCC103",
+      "set": "Round the Table",
+    },
   ],
   "rarities": [
     "Common",
     "Promo",
+    "Token",
   ],
-  "rarity": "Common",
+  "rarity": "Token",
   "setIdentifiers": [
+    "TCC103",
     "1HP426",
     "CRU197",
     "EVR194",
@@ -29690,6 +29697,7 @@ exports[`Check for unintentional updates Copper (copper) vs snapshot 1`] = `
     "Everfest",
     "History Pack 1",
     "Promos",
+    "Round the Table",
   ],
   "specialImage": "CRU197",
   "subtypes": [
@@ -31509,17 +31517,25 @@ exports[`Check for unintentional updates Crouching Tiger (crouching-tiger) vs sn
       "image": "DYN065",
       "set": "Dynasty",
     },
+    {
+      "identifier": "TCC104",
+      "image": "TCC104",
+      "set": "Round the Table",
+    },
   ],
   "rarities": [
     "Common",
     "Marvel",
+    "Token",
   ],
-  "rarity": "Common",
+  "rarity": "Token",
   "setIdentifiers": [
+    "TCC104",
     "DYN065",
   ],
   "sets": [
     "Dynasty",
+    "Round the Table",
   ],
   "specialImage": "DYN065_Marvel",
   "subtypes": [

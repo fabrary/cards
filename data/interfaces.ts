@@ -173,6 +173,7 @@ export enum Talent {
 export enum Type {
   Action = "Action",
   AttackReaction = "Attack Reaction",
+  Block = "Block",
   DefenseReaction = "Defense Reaction",
   DemiHero = "Demi-Hero",
   Equipment = "Equipment",
