@@ -8,6 +8,7 @@ import {
   getStringIfNotNumber,
   rarityStringMapping,
 } from "../Shared";
+import { overrides } from "../Shared/artist-overrides";
 import {
   Card,
   Class,
@@ -32,7 +33,12 @@ const getArtists = (card: ParsedCard): string[] => {
   const artists = [artist, artist2]
     .filter((artist) => !!artist)
     .sort() as string[];
-  return Array.from(new Set(artists));
+  return Array.from(new Set(artists)).map((artist) => {
+    const matchingOverride = overrides.find(
+      ({ original }) => artist === original
+    );
+    return matchingOverride ? matchingOverride.override : artist;
+  });
 };
 
 const getClasses = (card: ParsedCard): Class[] => {

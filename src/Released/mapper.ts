@@ -8,6 +8,7 @@ import {
   getSpecialImage,
   getStringIfNotNumber,
 } from "../Shared";
+import { overrides } from "../Shared/artist-overrides";
 import {
   Card,
   Class,
@@ -317,7 +318,12 @@ const getCardData = (card: ParsedCard): Card => {
   const { subtypes, types } = getTypeAndSubType(card);
   const printings = getPrintings(card);
 
-  const artists = card.artists.sort();
+  const artists = card.artists.sort().map((artist) => {
+    const matchingOverride = overrides.find(
+      ({ original }) => artist === original
+    );
+    return matchingOverride ? matchingOverride.override : artist;
+  });
 
   return {
     artists,

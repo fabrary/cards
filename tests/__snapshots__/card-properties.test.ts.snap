@@ -25545,6 +25545,49 @@ If Chilling Icevein was **fused**, whenever an attack deals damage to a hero thi
 }
 `;
 
+exports[`Check for unintentional updates Chivalry (chivalry-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Bastien Jez",
+  ],
+  "cardIdentifier": "chivalry-blue",
+  "classes": [
+    "Guardian",
+  ],
+  "defaultImage": "TCC048",
+  "defense": 3,
+  "functionalText": "**Protect**",
+  "keywords": [
+    "Protect",
+  ],
+  "name": "Chivalry",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "TCC048",
+      "image": "TCC048",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "TCC048",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC048",
+  "subtypes": [],
+  "typeText": "Guardian Block",
+  "types": [
+    "Block",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Chokeslam (chokeslam-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -26605,7 +26648,7 @@ exports[`Check for unintentional updates Clarity Potion (clarity-potion-blue) vs
 exports[`Check for unintentional updates Cleansing Light (cleansing-light-blue) vs snapshot 1`] = `
 {
   "artists": [
-    "Mateusz Wisniewski",
+    "Mateusz Wiśniewski",
   ],
   "cardIdentifier": "cleansing-light-blue",
   "classes": [
@@ -26662,7 +26705,7 @@ Destroy target blue aura.",
 exports[`Check for unintentional updates Cleansing Light (cleansing-light-red) vs snapshot 1`] = `
 {
   "artists": [
-    "Mateusz Wisniewski",
+    "Mateusz Wiśniewski",
   ],
   "cardIdentifier": "cleansing-light-red",
   "classes": [
@@ -26719,7 +26762,7 @@ Destroy target red aura.",
 exports[`Check for unintentional updates Cleansing Light (cleansing-light-yellow) vs snapshot 1`] = `
 {
   "artists": [
-    "Mateusz Wisniewski",
+    "Mateusz Wiśniewski",
   ],
   "cardIdentifier": "cleansing-light-yellow",
   "classes": [
@@ -81628,6 +81671,46 @@ The first time you activate Micro-processor each turn, gain 1 action point.",
 }
 `;
 
+exports[`Check for unintentional updates Might (might) vs snapshot 1`] = `
+{
+  "artists": [
+    "Henrique Lindner",
+  ],
+  "cardIdentifier": "might",
+  "classes": [
+    "Generic",
+  ],
+  "defaultImage": "TCC105",
+  "functionalText": "At the start of your turn, destroy this, then your next attack this turn gets +1{p}.",
+  "name": "Might",
+  "printings": [
+    {
+      "identifier": "TCC105",
+      "image": "TCC105",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Token",
+  ],
+  "rarity": "Token",
+  "setIdentifiers": [
+    "TCC105",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC105",
+  "subtypes": [
+    "Aura",
+  ],
+  "typeText": "Generic Token - Aura",
+  "types": [
+    "Token",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Mind Warp (mind-warp-yellow) vs snapshot 1`] = `
 {
   "artists": [
@@ -125850,6 +125933,52 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
 }
 `;
 
+exports[`Check for unintentional updates Smashing Performance (smashing-performance-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Henrique Lindner",
+  ],
+  "cardIdentifier": "smashing-performance-yellow",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 3,
+  "defaultImage": "EVO237",
+  "functionalText": "When this attacks draw a card, then discard a random card. If a card with 6 or more {p} is discarded this way, destroy a random item in the arena.",
+  "name": "Smashing Performance",
+  "pitch": 2,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "EVO237",
+      "image": "EVO237",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO237",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO237",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Brute Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Snag (snag-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -127429,7 +127558,7 @@ exports[`Check for unintentional updates Song of Jack-be-Quick (song-of-jack-be-
 exports[`Check for unintentional updates Song of Sweet Nectar (song-of-sweet-nectar-blue) vs snapshot 1`] = `
 {
   "artists": [
-    "Mateusz Wisniewski",
+    "Mateusz Wiśniewski",
   ],
   "cardIdentifier": "song-of-sweet-nectar-blue",
   "classes": [
@@ -127473,7 +127602,7 @@ exports[`Check for unintentional updates Song of Sweet Nectar (song-of-sweet-nec
 exports[`Check for unintentional updates Song of Yesteryears (song-of-yesteryears-blue) vs snapshot 1`] = `
 {
   "artists": [
-    "Mateusz Wisniewski",
+    "Mateusz Wiśniewski",
   ],
   "cardIdentifier": "song-of-yesteryears-blue",
   "classes": [
@@ -139536,7 +139665,7 @@ exports[`Check for unintentional updates Tear Limb from Limb (tear-limb-from-lim
 exports[`Check for unintentional updates Tear Through the Portal (tear-through-the-portal-blue) vs snapshot 1`] = `
 {
   "artists": [
-    "Mateusz Wisniewski",
+    "Mateusz Wiśniewski",
   ],
   "cardIdentifier": "tear-through-the-portal-blue",
   "classes": [
@@ -139593,7 +139722,7 @@ exports[`Check for unintentional updates Tear Through the Portal (tear-through-t
 exports[`Check for unintentional updates Tear Through the Portal (tear-through-the-portal-red) vs snapshot 1`] = `
 {
   "artists": [
-    "Mateusz Wisniewski",
+    "Mateusz Wiśniewski",
   ],
   "cardIdentifier": "tear-through-the-portal-red",
   "classes": [
@@ -139650,7 +139779,7 @@ exports[`Check for unintentional updates Tear Through the Portal (tear-through-t
 exports[`Check for unintentional updates Tear Through the Portal (tear-through-the-portal-yellow) vs snapshot 1`] = `
 {
   "artists": [
-    "Mateusz Wisniewski",
+    "Mateusz Wiśniewski",
   ],
   "cardIdentifier": "tear-through-the-portal-yellow",
   "classes": [
@@ -143313,6 +143442,60 @@ Draw 3 cards.
     "Earth",
   ],
   "typeText": "Earth Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Tome of Imperial Flame (tome-of-imperial-flame-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mateusz Wiśniewski",
+  ],
+  "cardIdentifier": "tome-of-imperial-flame-red",
+  "classes": [
+    "NotClassed",
+  ],
+  "defaultImage": "EVO245",
+  "functionalText": "Draw a card. If you are Royal, instead draw 2 cards.
+
+You may pitch 2 red cards. If you don't, banish your hand.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Tome of Imperial Flame",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "EVO245",
+      "image": "EVO245",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO245",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO245",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Draconic",
+  ],
+  "typeText": "Draconic Action",
   "types": [
     "Action",
   ],

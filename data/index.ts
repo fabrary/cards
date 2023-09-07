@@ -318,6 +318,92 @@
     
     
   },{
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "smashing-performance-yellow",
+    classes: [Class.Brute],
+    defaultImage: "EVO237",
+    name: "Smashing Performance",
+    printings: [{
+      
+      identifier: "EVO237",
+      image: "EVO237",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO237"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO237",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Brute Action - Attack",
+
+    cost: 3,
+    
+    functionalText: `When this attacks draw a card, then discard a random card. If a card with 6 or more {p} is discarded this way, destroy a random item in the arena.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mateusz Wiśniewski"],
+    cardIdentifier: "tome-of-imperial-flame-red",
+    classes: [Class.NotClassed],
+    defaultImage: "EVO245",
+    name: "Tome of Imperial Flame",
+    printings: [{
+      
+      identifier: "EVO245",
+      image: "EVO245",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO245"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO245",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Draconic Action",
+
+    
+    
+    functionalText: `Draw a card. If you are Royal, instead draw 2 cards.
+
+You may pitch 2 red cards. If you don't, banish your hand.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+    
+  },{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "teklo-base-head",
     classes: [Class.Mechanologist],
@@ -524,6 +610,47 @@ You may play Evos from your banished zone.`,
     
     
     young: true
+  },{
+    artists: ["Irina Si"],
+    cardIdentifier: "teklo-blaster",
+    classes: [Class.Mechanologist],
+    defaultImage: "TCC002",
+    name: "Teklo Blaster",
+    printings: [{
+      
+      identifier: "TCC002",
+      image: "TCC002",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC002"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC002",
+    subtypes: [Subtype.TwoHanded,Subtype.Gun],
+    types: [Type.Weapon],
+    typeText: "Mechanologist Weapon - Gun (2H)",
+
+    
+    
+    functionalText: `**Once per Turn Action** - {r}{r}{r}: **Attack**`,
+    
+    
+    
+    
+    
+    
+    
+    
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
   },{
     artists: ["Revazashvili E."],
     cardIdentifier: "evo-tekloscope-blue",
@@ -1422,7 +1549,7 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "song-of-sweet-nectar-blue",
     classes: [Class.Bard],
     defaultImage: "TCC065",
@@ -1586,7 +1713,7 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "song-of-yesteryears-blue",
     classes: [Class.Bard],
     defaultImage: "TCC069",
@@ -24372,7 +24499,7 @@ Whenever Cintari Saber is defended by 1 or more attack action cards, it gains +1
     
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "cleansing-light-red",
     classes: [Class.NotClassed],
     defaultImage: "DTD088",
@@ -24421,7 +24548,7 @@ Destroy target red aura.`,
     talents: [Talent.Light],
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "cleansing-light-yellow",
     classes: [Class.NotClassed],
     defaultImage: "DTD089",
@@ -24470,7 +24597,7 @@ Destroy target yellow aura.`,
     talents: [Talent.Light],
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "cleansing-light-blue",
     classes: [Class.NotClassed],
     defaultImage: "DTD090",
@@ -32913,7 +33040,8 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     
     talents: [Talent.Shadow],
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Federico Musetti"],
     cardIdentifier: "diabolic-ultimatum-red",
     classes: [Class.Runeblade],
@@ -33066,8 +33194,7 @@ If a 'non-attack' action card was pitched to play Diabolic Ultimatum, each hero 
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Sergey Averkin"],
     cardIdentifier: "dimenxxional-crossroads-yellow",
     classes: [Class.Runeblade],
@@ -67622,7 +67749,8 @@ While there is a card with a yellow color strip in your pitch zone, Illusionist 
     
     talents: [Talent.Light],
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Jessketchin"],
     cardIdentifier: "luminaris-celestial-fury",
     classes: [Class.Illusionist],
@@ -67734,8 +67862,7 @@ While there is a card with a yellow color strip in your pitch zone, Illusionist 
     
     talents: [Talent.Shadow],
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Immanuela Crovius"],
     cardIdentifier: "lunartide-plunderer-yellow",
     classes: [Class.NotClassed],
@@ -102000,7 +102127,8 @@ When Sekem attacks, you may banish a card from your hero's soul. If you do, deal
     
     
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "ser-boltyn-breaker-of-dawn",
     classes: [Class.Warrior],
@@ -102073,8 +102201,7 @@ When Sekem attacks, you may banish a card from your hero's soul. If you do, deal
     
     talents: [Talent.Light],
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Ausonia"],
     cardIdentifier: "shaden-death-hydra-yellow",
     classes: [Class.Brute],
@@ -120043,7 +120170,7 @@ At the start of your turn, you may banish an equipment you control. If you do, e
     
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "tear-through-the-portal-red",
     classes: [Class.NotClassed],
     defaultImage: "DTD190",
@@ -120092,7 +120219,7 @@ At the start of your turn, you may banish an equipment you control. If you do, e
     talents: [Talent.Shadow],
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "tear-through-the-portal-yellow",
     classes: [Class.NotClassed],
     defaultImage: "DTD191",
@@ -120141,7 +120268,7 @@ At the start of your turn, you may banish an equipment you control. If you do, e
     talents: [Talent.Shadow],
     
   },{
-    artists: ["Mateusz Wisniewski"],
+    artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "tear-through-the-portal-blue",
     classes: [Class.NotClassed],
     defaultImage: "DTD192",
@@ -136018,7 +136145,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     ...cards4,
   ];
 
-  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasia Balakchina","Anastasia Pronina","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Artur Treffner","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","Ausonia","Bastien Jez","Billy Christian","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","David Ogilvie","Dmitriy Semyonov","Dmitry Isakevitch","Dmitry Solodovnikov","Edward Chee","Eilene Cherie","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Enmorie","Eric Klug","Erick Efata","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Jessica Nguyen","Jessketchin","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kalashnikova N.","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Madeline Boni","Maerel Hibadita","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wisniewski","Mateusz Wiśniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Revazashvili E.","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sandeep Karunakaran","Sariya Asavametha","Sebastian Giacobino","Sebastian Szmyd","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Dominic","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Stormy Elia Fanggidae","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tomasz Jedruszek","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Veto Zomer","Victoria Belyaeva","Vito Vivodka","Vlad Tashkinov","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yeong-Hao Han","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
+  export const artists: string[] = ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasia Balakchina","Anastasia Pronina","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Artur Treffner","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","Ausonia","Bastien Jez","Billy Christian","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","David Ogilvie","Dmitriy Semyonov","Dmitry Isakevitch","Dmitry Solodovnikov","Edward Chee","Eilene Cherie","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Enmorie","Eric Klug","Erick Efata","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Jessica Nguyen","Jessketchin","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kalashnikova N.","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Madeline Boni","Maerel Hibadita","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wiśniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Revazashvili E.","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sandeep Karunakaran","Sariya Asavametha","Sebastian Giacobino","Sebastian Szmyd","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Dominic","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Stormy Elia Fanggidae","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tomasz Jedruszek","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Veto Zomer","Victoria Belyaeva","Vito Vivodka","Vlad Tashkinov","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yeong-Hao Han","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
 
   export * from "./sets";
 
