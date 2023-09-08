@@ -36202,6 +36202,55 @@ exports[`Check for unintentional updates Demolition Crew (demolition-crew-yellow
 }
 `;
 
+exports[`Check for unintentional updates Demolition Protocol (demolition-protocol-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Carlos Cruchaga",
+  ],
+  "cardIdentifier": "demolition-protocol-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "FAB174",
+  "defense": 3,
+  "functionalText": "**Evo Upgrade** - When this attacks a hero, remove all steam counters from up to X equipment, items, and/or weapons they control, where X is the number of Evos you have equipped.",
+  "keywords": [
+    "Evo Upgrade",
+  ],
+  "name": "Demolition Protocol",
+  "pitch": 1,
+  "power": 7,
+  "printings": [
+    {
+      "foiling": "Rainbow",
+      "identifier": "FAB174",
+      "image": "FAB174",
+      "set": "Promos",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "FAB174",
+  ],
+  "sets": [
+    "Bright Lights",
+    "Promos",
+  ],
+  "specialImage": "FAB174",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Descendent Gustwave (descendent-gustwave-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -80939,6 +80988,55 @@ exports[`Check for unintentional updates Mechanical Strength (mechanical-strengt
 }
 `;
 
+exports[`Check for unintentional updates Meganetic Protocol (meganetic-protocol-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tanapon Wachirakul",
+  ],
+  "cardIdentifier": "meganetic-protocol-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "FAB172",
+  "defense": 3,
+  "functionalText": "**Evo Upgrade** - The defending hero must defend this with X equipment they control with -1{d} counters if able, where X is the number of Evos you have equipped.",
+  "keywords": [
+    "Evo Upgrade",
+  ],
+  "name": "Meganetic Protocol",
+  "pitch": 3,
+  "power": 5,
+  "printings": [
+    {
+      "foiling": "Rainbow",
+      "identifier": "FAB172",
+      "image": "FAB172",
+      "set": "Promos",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "FAB172",
+  ],
+  "sets": [
+    "Bright Lights",
+    "Promos",
+  ],
+  "specialImage": "FAB172",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Meganetic Shockwave (meganetic-shockwave-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -97574,6 +97672,55 @@ exports[`Check for unintentional updates Pulsewave Harpoon (pulsewave-harpoon-re
     "Dynasty",
   ],
   "specialImage": "DYN090",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Pulsewave Protocol (pulsewave-protocol-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Asur Misoa",
+  ],
+  "cardIdentifier": "pulsewave-protocol-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "FAB173",
+  "defense": 3,
+  "functionalText": "**Evo Upgrade** - When this attacks a hero, they reveal X cards from their hand, where X is the number of Evos you have equipped. Choose an action card with {d} less than X, then add it to this chain link as a defending card.",
+  "keywords": [
+    "Evo Upgrade",
+  ],
+  "name": "Pulsewave Protocol",
+  "pitch": 2,
+  "power": 6,
+  "printings": [
+    {
+      "foiling": "Rainbow",
+      "identifier": "FAB173",
+      "image": "FAB173",
+      "set": "Promos",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "FAB173",
+  ],
+  "sets": [
+    "Bright Lights",
+    "Promos",
+  ],
+  "specialImage": "FAB173",
   "subtypes": [
     "Attack",
   ],
@@ -140149,6 +140296,48 @@ exports[`Check for unintentional updates Teklo Base Legs (teklo-base-legs) vs sn
   "typeText": "Mechanologist Equipment - Base Legs",
   "types": [
     "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Teklo Blaster (teklo-blaster) vs snapshot 1`] = `
+{
+  "artists": [
+    "Irina Si",
+  ],
+  "cardIdentifier": "teklo-blaster",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "TCC002",
+  "functionalText": "**Once per Turn Action** - {r}{r}{r}: **Attack**",
+  "name": "Teklo Blaster",
+  "power": 2,
+  "printings": [
+    {
+      "identifier": "TCC002",
+      "image": "TCC002",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "TCC002",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC002",
+  "subtypes": [
+    "2H",
+    "Gun",
+  ],
+  "typeText": "Mechanologist Weapon - Gun (2H)",
+  "types": [
+    "Weapon",
   ],
 }
 `;

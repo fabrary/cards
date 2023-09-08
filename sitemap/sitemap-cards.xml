@@ -31,6 +31,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/evo-steel-soul-memory-blue</loc>
+    <lastmod>2023-09-08</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/terminator-tank-red</loc>
     <lastmod>2023-09-06</lastmod>
     <priority>0.5</priority>
@@ -43,6 +48,26 @@
   <url>
     <loc>https://fabrary.net/cards/tome-of-imperial-flame-red</loc>
     <lastmod>2023-09-07</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/warband-of-bellona</loc>
+    <lastmod>2023-09-08</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/meganetic-protocol-blue</loc>
+    <lastmod>2023-09-08</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/pulsewave-protocol-yellow</loc>
+    <lastmod>2023-09-08</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/demolition-protocol-red</loc>
+    <lastmod>2023-09-08</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

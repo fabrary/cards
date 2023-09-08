@@ -29,7 +29,11 @@ EVO022,EVO,Proto Base Head,,,,,,,"Mechanologist, Equipment, Base, Head",,,,,,,,M
 EVO023,EVO,Proto Base Chest,,,,,,,"Mechanologist, Equipment, Base, Chest",,,,,,,,Mechanologist Equipment - Base Chest,,,,,T,S,,Dmitriy Semyonov,,https://dhhim4ltzu1pj.cloudfront.net/media/images/EVO023.width-450.format-webp.webp,,,,,,
 EVO024,EVO,Proto Base Arms,,,,,,,"Mechanologist, Equipment, Base, Arms",,,,,,,,Mechanologist Equipment - Base Arms,,,,,T,S,,Grigoriy Parshakov,,https://dhhim4ltzu1pj.cloudfront.net/media/images/EVO024.width-450.format-webp.webp,,,,,,
 EVO025,EVO,Proto Base Legs,,,,,,,"Mechanologist, Equipment, Base, Legs",,,,,,,,Mechanologist Equipment - Base Legs,,,,,T,S,,Revazashvili E.,,https://dhhim4ltzu1pj.cloudfront.net/media/images/EVO025.width-450.format-webp.webp,,,,,,
-EVO026,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO026,EVO,Evo Steel Soul Memory,3,4,,3,,,"Mechanologist, Action, Equipment, Evo, Base, Head","Transform, Temper",,,,,,"If you have a base head equipped, **transform** it into this, then equip this.
+
+When this **transforms** from or into an Evo with a different name, your hero gets +1{i} until end of turn. [REDACTED]
+
+**Temper**",Mechanologist Action Equipment - Evo Base Head,,,,No,M,,,Kimberly Pantoni,,/EVO026.webp,,,,,,
 EVO027,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO028,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO029,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -258,10 +262,15 @@ You may pitch 2 red cards. If you don't, banish your hand.
 
 **Go again**",Draconic Action,,,,No,M,,,Mateusz Wiśniewski,,/EVO245.webp,,,,,,
 EVO246,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO247,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO247,EVO,Warband of Bellona,,,,2,,,"Light, Warrior, Equipment, Head","Go again, Temper, Charge",,,,,,"**Action** - {r}{r}, destroy this: The next time you attack this turn, you may **charge** your hero's soul. If a yellow card is **charged** this way, draw a card. **Go again**
+
+**Temper**",Light Warrior Equipment - Head,,,,No,L,C,,soyameii,,/EVO247.webp,,,,,,
 EVO248,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO249,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO250,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+FAB172,"FAB, EVO",Meganetic Protocol,3,3,5,3,,,"Mechanologist, Action, Attack",Evo Upgrade,,,,,,"**Evo Upgrade** - The defending hero must defend this with X equipment they control with -1{d} counters if able, where X is the number of Evos you have equipped.",Mechanologist Action - Attack,,,,,P,R,,Tanapon Wachirakul,,/FAB172.webp,,,,,,
+FAB173,"FAB, EVO",Pulsewave Protocol,2,3,6,3,,,"Mechanologist, Action, Attack",Evo Upgrade,,,,,,"**Evo Upgrade** - When this attacks a hero, they reveal X cards from their hand, where X is the number of Evos you have equipped. Choose an action card with {d} less than X, then add it to this chain link as a defending card.",Mechanologist Action - Attack,,,,,P,R,,Asur Misoa,,/FAB173.webp,,,,,,
+FAB174,"FAB, EVO",Demolition Protocol,1,3,7,3,,,"Mechanologist, Action, Attack",Evo Upgrade,,,,,,"**Evo Upgrade** - When this attacks a hero, remove all steam counters from up to X equipment, items, and/or weapons they control, where X is the number of Evos you have equipped.",Mechanologist Action - Attack,,,,,P,R,,Carlos Cruchaga,,/FAB174.webp,,,,,,
 LGS186,"LGS, EVO",Teklo Base Head,,,,1,,,"Mechanologist, Equipment, Base, Head",Blade Break,,,,,,**Blade Break**,Mechanologist Equipment - Base Head,,,,,P,C,,Alief Rusdiatama,,https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS186.width-450.format-webp.webp,,,,,,
 LGS187,"LGS, EVO",Teklo Base Chest,,,,1,,,"Mechanologist, Equipment, Base, Chest",Blade Break,,,,,,**Blade Break**,Mechanologist Equipment - Base Chest,,,,,P,C,,Septimius Ferdian,,https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS187.width-450.format-webp.webp,,,,,,
 LGS188,"LGS, EVO",Teklo Base Arms,,,,1,,,"Mechanologist, Equipment, Base, Arms",Blade Break,,,,,,**Blade Break**,Mechanologist Equipment - Base Arms,,,,,P,C,,Lizhe Liang,,https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS188.width-450.format-webp.webp,,,,,,

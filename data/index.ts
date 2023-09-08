@@ -267,6 +267,51 @@
     
     
   },{
+    artists: ["Kimberly Pantoni"],
+    cardIdentifier: "evo-steel-soul-memory-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO026",
+    name: "Evo Steel Soul Memory",
+    printings: [{
+      
+      identifier: "EVO026",
+      image: "EVO026",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO026"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO026",
+    subtypes: [Subtype.Base,Subtype.Evo,Subtype.Head,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Base Head",
+
+    cost: 4,
+    defense: 3,
+    functionalText: `If you have a base head equipped, **transform** it into this, then equip this.
+
+When this **transforms** from or into an Evo with a different name, your hero gets +1{i} until end of turn. [REDACTED]
+
+**Temper**`,
+    
+    
+    
+    
+    keywords: [Keyword.Temper,Keyword.Transform],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Simon Dominic"],
     cardIdentifier: "terminator-tank-red",
     classes: [Class.Mechanologist],
@@ -402,6 +447,172 @@ You may pitch 2 red cards. If you don't, banish your hand.
     
     
     talents: [Talent.Draconic],
+    
+  },{
+    artists: ["soyameii"],
+    cardIdentifier: "warband-of-bellona",
+    classes: [Class.Warrior],
+    defaultImage: "EVO247",
+    name: "Warband of Bellona",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "EVO247",
+      image: "EVO247",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["EVO247"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO247",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Light Warrior Equipment - Head",
+
+    
+    defense: 2,
+    functionalText: `**Action** - {r}{r}, destroy this: The next time you attack this turn, you may **charge** your hero's soul. If a yellow card is **charged** this way, draw a card. **Go again**
+
+**Temper**`,
+    
+    
+    
+    
+    keywords: [Keyword.Charge,Keyword.GoAgain,Keyword.Temper],
+    
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Tanapon Wachirakul"],
+    cardIdentifier: "meganetic-protocol-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "FAB172",
+    name: "Meganetic Protocol",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "FAB172",
+      image: "FAB172",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["FAB172"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "FAB172",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Evo Upgrade** - The defending hero must defend this with X equipment they control with -1{d} counters if able, where X is the number of Evos you have equipped.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 3,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Asur Misoa"],
+    cardIdentifier: "pulsewave-protocol-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "FAB173",
+    name: "Pulsewave Protocol",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "FAB173",
+      image: "FAB173",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["FAB173"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "FAB173",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Evo Upgrade** - When this attacks a hero, they reveal X cards from their hand, where X is the number of Evos you have equipped. Choose an action card with {d} less than X, then add it to this chain link as a defending card.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 2,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "demolition-protocol-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "FAB174",
+    name: "Demolition Protocol",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "FAB174",
+      image: "FAB174",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["FAB174"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "FAB174",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Evo Upgrade** - When this attacks a hero, remove all steam counters from up to X equipment, items, and/or weapons they control, where X is the number of Evos you have equipped.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 1,
+    power: 7,
+    
+    
+    
+    
+    
+    
     
   },{
     artists: ["Alief Rusdiatama"],
@@ -32897,7 +33108,8 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Saad Irfan"],
     cardIdentifier: "destructive-deliberation-yellow",
     classes: [Class.Generic],
@@ -33040,8 +33252,7 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     
     talents: [Talent.Shadow],
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Federico Musetti"],
     cardIdentifier: "diabolic-ultimatum-red",
     classes: [Class.Runeblade],
@@ -67631,7 +67842,8 @@ If you've **charged** this turn, you may attack an additional time with each wea
     specializations: [Hero.Boltyn],
     talents: [Talent.Light],
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "lumina-lance-yellow",
     classes: [Class.NotClassed],
@@ -67749,8 +67961,7 @@ While there is a card with a yellow color strip in your pitch zone, Illusionist 
     
     talents: [Talent.Light],
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Jessketchin"],
     cardIdentifier: "luminaris-celestial-fury",
     classes: [Class.Illusionist],
@@ -102080,7 +102291,8 @@ When Sekem attacks, you may banish a card from your hero's soul. If you do, deal
     
     talents: [Talent.Light],
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Asur Misoa"],
     cardIdentifier: "semblance-blue",
     classes: [Class.Illusionist],
@@ -102127,8 +102339,7 @@ When Sekem attacks, you may banish a card from your hero's soul. If you do, deal
     
     
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "ser-boltyn-breaker-of-dawn",
     classes: [Class.Warrior],
