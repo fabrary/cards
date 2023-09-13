@@ -257,7 +257,9 @@ When this hits a hero, banish the top card of their deck and a defending card.",
 EVO237,EVO,Smashing Performance,2,3,6,,,,"Brute, Action, Attack",,,,,,,"When this attacks draw a card, then discard a random card. If a card with 6 or more {p} is discarded this way, destroy a random item in the arena.",Brute Action - Attack,,,,No,M,,,Henrique Lindner,,/EVO237.webp,,,,,,
 EVO238,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO239,EVO,Wax Off,3,0,,2,,,"Ninja, Defense Reaction",,,,,,,"If you've played Wax On this turn, create a Zen State token.",Ninja Defense Reaction,,,,No,M,,,Nathaniel Himawan,,/EVO239.webp,,,,,,
-EVO240,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO240,EVO,Emboldened Blade,3,0,,3,,,"Warrior, Action",Go again,,,,,,"Turn a face-down card in any arsenal face-up. If it's a defense reaction, destroy it and your next weapon attack this turn gets +1{p}.
+
+**Go again**",Warrior Action,,,,No,M,,,Bastien Jez,,/EVO240.webp,,,,,,
 EVO241,EVO,Intoxicating Shot,3,0,4,3,,,"Ranger, Action, Arrow, Attack",Riptide Specialization,,,,,,"**Riptide Specialization**
 
 When this hits a hero, they create a Courage and Quicken token.",Ranger Action - Arrow Attack,,,,No,M,,,Joseph Qiu,,/EVO241.webp,,,,,,

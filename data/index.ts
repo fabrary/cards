@@ -533,6 +533,49 @@ When this hits a hero, banish the top card of their deck and a defending card.`,
     
     
   },{
+    artists: ["Bastien Jez"],
+    cardIdentifier: "emboldened-blade-blue",
+    classes: [Class.Warrior],
+    defaultImage: "EVO240",
+    name: "Emboldened Blade",
+    printings: [{
+      
+      identifier: "EVO240",
+      image: "EVO240",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO240"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO240",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `Turn a face-down card in any arsenal face-up. If it's a defense reaction, destroy it and your next weapon attack this turn gets +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Joseph Qiu"],
     cardIdentifier: "intoxicating-shot-blue",
     classes: [Class.Ranger],
@@ -33068,7 +33111,8 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Faizal Fikri"],
     cardIdentifier: "descendent-gustwave-red",
     classes: [Class.Ninja],
@@ -33123,8 +33167,7 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "descendent-gustwave-yellow",
     classes: [Class.Ninja],
@@ -67845,7 +67888,8 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
     specializations: [Hero.Katsu],
     
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["bimawithpencil"],
     cardIdentifier: "lord-sutcliffe",
     classes: [Class.Runeblade],
@@ -67894,8 +67938,7 @@ While Sutcliffe is face up in arsenal, whenever you play a 'non-attack' action c
     
     
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "lost-in-thought-red",
     classes: [Class.Illusionist],

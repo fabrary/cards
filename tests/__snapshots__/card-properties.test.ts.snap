@@ -69826,6 +69826,62 @@ exports[`Check for unintentional updates Interlude (interlude-red) vs snapshot 1
 }
 `;
 
+exports[`Check for unintentional updates Intoxicating Shot (intoxicating-shot-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Joseph Qiu",
+  ],
+  "cardIdentifier": "intoxicating-shot-blue",
+  "classes": [
+    "Ranger",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO241",
+  "defense": 3,
+  "functionalText": "**Riptide Specialization**
+
+When this hits a hero, they create a Courage and Quicken token.",
+  "keywords": [
+    "Specialization",
+  ],
+  "name": "Intoxicating Shot",
+  "pitch": 3,
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "EVO241",
+      "image": "EVO241",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO241",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO241",
+  "specializations": [
+    "Riptide",
+  ],
+  "subtypes": [
+    "Arrow",
+    "Attack",
+  ],
+  "typeText": "Ranger Action - Arrow Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Invert Existence (invert-existence-blue) vs snapshot 1`] = `
 {
   "artists": [
