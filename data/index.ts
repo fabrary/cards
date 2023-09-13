@@ -363,6 +363,94 @@ When this **transforms** from or into an Evo with a different name, your hero ge
     
     
   },{
+    artists: ["Athiwut B."],
+    cardIdentifier: "shriek-razors",
+    classes: [Class.Assassin],
+    defaultImage: "EVO235",
+    name: "Shriek Razors",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "EVO235",
+      image: "EVO235",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["EVO235"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO235",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Assassin Equipment - Arms",
+
+    
+    defense: 1,
+    functionalText: `While this is in your graveyard, at the start of your turn, you may destroy 2 Silvers you control. If you do, equip this.
+
+**Attack Reaction** - {r}{r}, destroy this: Target attack action card defending an Assassin attack gets -1{d}.
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn],
+    
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Alexander Mokhov"],
+    cardIdentifier: "already-dead-red",
+    classes: [Class.Assassin],
+    defaultImage: "EVO236",
+    name: "Already Dead",
+    printings: [{
+      
+      identifier: "EVO236",
+      image: "EVO236",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO236"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO236",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Contract** - You are contracted to banish opponents' non-action cards. Whenever you complete this contract, create a Silver token.
+
+When this hits a hero, banish the top card of their deck and a defending card.`,
+    
+    
+    
+    
+    keywords: [Keyword.Contract],
+    
+    
+    pitch: 1,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "smashing-performance-yellow",
     classes: [Class.Brute],
@@ -404,6 +492,90 @@ When this **transforms** from or into an Evo with a different name, your hero ge
     
     
   },{
+    artists: ["Nathaniel Himawan"],
+    cardIdentifier: "wax-off-blue",
+    classes: [Class.Ninja],
+    defaultImage: "EVO239",
+    name: "Wax Off",
+    printings: [{
+      
+      identifier: "EVO239",
+      image: "EVO239",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO239"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO239",
+    subtypes: [],
+    types: [Type.DefenseReaction],
+    typeText: "Ninja Defense Reaction",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `If you've played Wax On this turn, create a Zen State token.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Joseph Qiu"],
+    cardIdentifier: "intoxicating-shot-blue",
+    classes: [Class.Ranger],
+    defaultImage: "EVO241",
+    name: "Intoxicating Shot",
+    printings: [{
+      
+      identifier: "EVO241",
+      image: "EVO241",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO241"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO241",
+    subtypes: [Subtype.Arrow,Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Riptide Specialization**
+
+When this hits a hero, they create a Courage and Quicken token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Specialization],
+    
+    
+    pitch: 3,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    specializations: [Hero.Riptide],
+    
+    
+  },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "tome-of-imperial-flame-red",
     classes: [Class.NotClassed],
@@ -425,7 +597,7 @@ When this **transforms** from or into an Evo with a different name, your hero ge
     types: [Type.Action],
     typeText: "Draconic Action",
 
-    
+    cost: 0,
     
     functionalText: `Draw a card. If you are Royal, instead draw 2 cards.
 
@@ -459,7 +631,7 @@ You may pitch 2 red cards. If you don't, banish your hand.
       identifier: "EVO247",
       image: "EVO247",
       set: Release.BrightLights,
-      
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Legendary],
     rarity: Rarity.Legendary,
@@ -502,7 +674,7 @@ You may pitch 2 red cards. If you don't, banish your hand.
       identifier: "FAB172",
       image: "FAB172",
       set: Release.Promos,
-      
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Promo],
     rarity: Rarity.Promo,
@@ -543,7 +715,7 @@ You may pitch 2 red cards. If you don't, banish your hand.
       identifier: "FAB173",
       image: "FAB173",
       set: Release.Promos,
-      
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Promo],
     rarity: Rarity.Promo,
@@ -584,7 +756,7 @@ You may pitch 2 red cards. If you don't, banish your hand.
       identifier: "FAB174",
       image: "FAB174",
       set: Release.Promos,
-      
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Promo],
     rarity: Rarity.Promo,
@@ -32951,7 +33123,8 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     
     
     
-  },{
+  }];
+  const cards2: Card[] = [{
     artists: ["Faizal Fikri"],
     cardIdentifier: "descendent-gustwave-yellow",
     classes: [Class.Ninja],
@@ -33108,8 +33281,7 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     
     
     
-  }];
-  const cards2: Card[] = [{
+  },{
     artists: ["Saad Irfan"],
     cardIdentifier: "destructive-deliberation-yellow",
     classes: [Class.Generic],
@@ -67722,7 +67894,8 @@ While Sutcliffe is face up in arsenal, whenever you play a 'non-attack' action c
     
     
     
-  },{
+  }];
+  const cards3: Card[] = [{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "lost-in-thought-red",
     classes: [Class.Illusionist],
@@ -67842,8 +68015,7 @@ If you've **charged** this turn, you may attack an additional time with each wea
     specializations: [Hero.Boltyn],
     talents: [Talent.Light],
     
-  }];
-  const cards3: Card[] = [{
+  },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "lumina-lance-yellow",
     classes: [Class.NotClassed],
@@ -102240,7 +102412,8 @@ The next attack action card with cost 0 you play this turns gains +1{p} and **go
     
     
     
-  },{
+  }];
+  const cards4: Card[] = [{
     artists: ["Billy Christian"],
     cardIdentifier: "sekem-archangel-of-ravages",
     classes: [Class.NotClassed],
@@ -102291,8 +102464,7 @@ When Sekem attacks, you may banish a card from your hero's soul. If you do, deal
     
     talents: [Talent.Light],
     
-  }];
-  const cards4: Card[] = [{
+  },{
     artists: ["Asur Misoa"],
     cardIdentifier: "semblance-blue",
     classes: [Class.Illusionist],

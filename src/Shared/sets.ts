@@ -17,19 +17,6 @@ export const fullSetIdentifiers = {
 };
 
 export const setIdentifierToSetMappings: { [key: string]: Release } = {
-  // Full sets
-  // arc: Release.ArcaneRising,
-  // cru: Release.CrucibleOfWar,
-  // dtd: Release.DuskTillDawn,
-  // dyn: Release.Dynasty,
-  // evr: Release.Everfest,
-  // "1hp": Release.HistoryPack1,
-  // hp1: Release.HistoryPack1,
-  // mon: Release.Monarch,
-  // out: Release.Outsiders,
-  // ele: Release.TalesOfAria,
-  // upr: Release.Uprising,
-  // wtr: Release.WelcomeToRathe,
   ...fullSetIdentifiers,
 
   // Blitz decks

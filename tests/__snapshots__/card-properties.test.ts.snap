@@ -2559,6 +2559,58 @@ When you attack with Alpha Rampage, **intimidate**.",
 }
 `;
 
+exports[`Check for unintentional updates Already Dead (already-dead-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Alexander Mokhov",
+  ],
+  "cardIdentifier": "already-dead-red",
+  "classes": [
+    "Assassin",
+  ],
+  "cost": 2,
+  "defaultImage": "EVO236",
+  "defense": 3,
+  "functionalText": "**Contract** - You are contracted to banish opponents' non-action cards. Whenever you complete this contract, create a Silver token.
+
+When this hits a hero, banish the top card of their deck and a defending card.",
+  "keywords": [
+    "Contract",
+  ],
+  "name": "Already Dead",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "EVO236",
+      "image": "EVO236",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO236",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO236",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Assassin Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Amethyst Tiara (amethyst-tiara) vs snapshot 1`] = `
 {
   "artists": [
@@ -36227,6 +36279,7 @@ exports[`Check for unintentional updates Demolition Protocol (demolition-protoco
       "identifier": "FAB174",
       "image": "FAB174",
       "set": "Promos",
+      "treatment": "Extended Art",
     },
   ],
   "rarities": [
@@ -47312,6 +47365,64 @@ Your Teklo Blaster attacks gets +1{p} for each opposing hero.
     "Non-Attack",
   ],
   "typeText": "Mechanologist Action Equipment - Evo Arms",
+  "types": [
+    "Action",
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Evo Steel Soul Memory (evo-steel-soul-memory-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Kimberly Pantoni",
+  ],
+  "cardIdentifier": "evo-steel-soul-memory-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 4,
+  "defaultImage": "EVO026",
+  "defense": 3,
+  "functionalText": "If you have a base head equipped, **transform** it into this, then equip this.
+
+When this **transforms** from or into an Evo with a different name, your hero gets +1{i} until end of turn. [REDACTED]
+
+**Temper**",
+  "keywords": [
+    "Temper",
+    "Transform",
+  ],
+  "name": "Evo Steel Soul Memory",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "EVO026",
+      "image": "EVO026",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO026",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO026",
+  "subtypes": [
+    "Base",
+    "Evo",
+    "Head",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action Equipment - Evo Base Head",
   "types": [
     "Action",
     "Equipment",
@@ -81013,6 +81124,7 @@ exports[`Check for unintentional updates Meganetic Protocol (meganetic-protocol-
       "identifier": "FAB172",
       "image": "FAB172",
       "set": "Promos",
+      "treatment": "Extended Art",
     },
   ],
   "rarities": [
@@ -97707,6 +97819,7 @@ exports[`Check for unintentional updates Pulsewave Protocol (pulsewave-protocol-
       "identifier": "FAB173",
       "image": "FAB173",
       "set": "Promos",
+      "treatment": "Extended Art",
     },
   ],
   "rarities": [
@@ -120918,6 +121031,58 @@ exports[`Check for unintentional updates Shred (shred-yellow) vs snapshot 1`] = 
 }
 `;
 
+exports[`Check for unintentional updates Shriek Razors (shriek-razors) vs snapshot 1`] = `
+{
+  "artists": [
+    "Athiwut B.",
+  ],
+  "cardIdentifier": "shriek-razors",
+  "classes": [
+    "Assassin",
+  ],
+  "defaultImage": "EVO235",
+  "defense": 1,
+  "functionalText": "While this is in your graveyard, at the start of your turn, you may destroy 2 Silvers you control. If you do, equip this.
+
+**Attack Reaction** - {r}{r}, destroy this: Target attack action card defending an Assassin attack gets -1{d}.
+
+**Battleworn**",
+  "keywords": [
+    "Battleworn",
+  ],
+  "name": "Shriek Razors",
+  "printings": [
+    {
+      "foiling": "Cold",
+      "identifier": "EVO235",
+      "image": "EVO235",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Legendary",
+  ],
+  "rarity": "Legendary",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO235",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO235",
+  "subtypes": [
+    "Arms",
+  ],
+  "typeText": "Assassin Equipment - Arms",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Shrill of Skullform (shrill-of-skullform-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -143646,6 +143811,7 @@ exports[`Check for unintentional updates Tome of Imperial Flame (tome-of-imperia
   "classes": [
     "NotClassed",
   ],
+  "cost": 0,
   "defaultImage": "EVO245",
   "functionalText": "Draw a card. If you are Royal, instead draw 2 cards.
 
@@ -151873,6 +152039,62 @@ exports[`Check for unintentional updates Waning Moon (waning-moon) vs snapshot 1
 }
 `;
 
+exports[`Check for unintentional updates Warband of Bellona (warband-of-bellona) vs snapshot 1`] = `
+{
+  "artists": [
+    "soyameii",
+  ],
+  "cardIdentifier": "warband-of-bellona",
+  "classes": [
+    "Warrior",
+  ],
+  "defaultImage": "EVO247",
+  "defense": 2,
+  "functionalText": "**Action** - {r}{r}, destroy this: The next time you attack this turn, you may **charge** your hero's soul. If a yellow card is **charged** this way, draw a card. **Go again**
+
+**Temper**",
+  "keywords": [
+    "Charge",
+    "Go again",
+    "Temper",
+  ],
+  "name": "Warband of Bellona",
+  "printings": [
+    {
+      "foiling": "Cold",
+      "identifier": "EVO247",
+      "image": "EVO247",
+      "set": "Bright Lights",
+      "treatment": "Extended Art",
+    },
+  ],
+  "rarities": [
+    "Legendary",
+  ],
+  "rarity": "Legendary",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO247",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO247",
+  "subtypes": [
+    "Head",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Warrior Equipment - Head",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Warmonger's Diplomacy (warmongers-diplomacy-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -152913,6 +153135,50 @@ exports[`Check for unintentional updates Wave of Reality (wave-of-reality) vs sn
   "typeText": "Illusionist Equipment - Arms",
   "types": [
     "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Wax Off (wax-off-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Nathaniel Himawan",
+  ],
+  "cardIdentifier": "wax-off-blue",
+  "classes": [
+    "Ninja",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO239",
+  "defense": 2,
+  "functionalText": "If you've played Wax On this turn, create a Zen State token.",
+  "name": "Wax Off",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "EVO239",
+      "image": "EVO239",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO239",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO239",
+  "subtypes": [],
+  "typeText": "Ninja Defense Reaction",
+  "types": [
+    "Defense Reaction",
   ],
 }
 `;

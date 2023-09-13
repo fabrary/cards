@@ -2,7 +2,7 @@ import { mapCSV } from "./mapper";
 import { parseCSV } from "./parser";
 import { filterOutUnwantedCards } from "../Shared";
 
-const spoiledCardsFile = `${__dirname}/spoiled.csv`;
+const spoiledCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - Bright Lights.csv`;
 const overrideCardsFile = `${__dirname}/overrides.csv`;
 
 const parsedOverrideCards = parseCSV(overrideCardsFile)
