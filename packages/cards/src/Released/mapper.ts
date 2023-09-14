@@ -1,20 +1,8 @@
 import {
-  addOppositeSideCardIdentifiers,
-  getDefaultImage,
-  getFusions,
-  getNumberOrUndefined,
-  getPrint,
-  getRarities,
-  getSpecialImage,
-  getStringIfNotNumber,
-} from "../Shared";
-import { overrides } from "../Shared/artist-overrides";
-import {
   Card,
   Class,
   Foiling,
   Format,
-  Fusion,
   Hero,
   Keyword,
   Printing,
@@ -25,8 +13,19 @@ import {
   Talent,
   Treatment,
   Type,
-} from "../Shared/interfaces";
-import { setIdentifierToSetMappings } from "../Shared/sets";
+  setIdentifierToSetMappings,
+} from "@flesh-and-blood/types";
+import {
+  addOppositeSideCardIdentifiers,
+  getDefaultImage,
+  getFusions,
+  getNumberOrUndefined,
+  getPrint,
+  getRarities,
+  getSpecialImage,
+  getStringIfNotNumber,
+} from "../Shared";
+import { overrides } from "../Shared/artist-overrides";
 import { ParsedCard } from "./parser";
 
 const getClasses = (card: ParsedCard): Class[] => {
