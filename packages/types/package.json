@@ -1,0 +1,51 @@
+{
+  "name": "@flesh-and-blood/types",
+  "description": "TypeScript representations of Flesh and Blood card types",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "esbuild ./src/index.ts --outdir=dist --bundle --minify --platform=node --target=es6",
+    "postbuild": "tsc --declaration",
+    "test": "jest",
+    "full": "npm run test && npm run build",
+    "prepublish": "npm run full"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.4",
+    "@types/node": "^20.6.0",
+    "@types/papaparse": "5.3.8",
+    "chalk": "^4.1.2",
+    "esbuild": "^0.19.2",
+    "esbuild-jest": "^0.5.0",
+    "fab-cards": "^8.0.142",
+    "fast-xml-parser": "^4.2.7",
+    "jest": "^29.7.0",
+    "papaparse": "5.3.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "files": [
+    "/dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabrary/fab-cards.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fabrary/fab-cards/issues"
+  },
+  "homepage": "https://github.com/fabrary/fab-cards#readme",
+  "author": "Phillip Manwaring",
+  "license": "MIT",
+  "keywords": [
+    "Flesh and Blood",
+    "FAB",
+    "FABTCG"
+  ]
+}
