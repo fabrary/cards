@@ -1,4 +1,4 @@
-import { copyFileSync, existsSync, mkdirSync, writeFileSync } from "fs";
+import { existsSync, mkdirSync, writeFileSync } from "fs";
 import {
   Card,
   Class,
@@ -177,10 +177,6 @@ const generateTS = (artists: string[], cards: Card[]): string => {
   export const artists: string[] =  [${artists
     .map((artist) => `"${artist}"`)
     .join(",")}];
-
-  export * from "./sets";
-
-  export * from "./interfaces";
   `;
   return ts;
 };
@@ -198,9 +194,4 @@ export const writeFiles = (
   // write typescript
   const ts = generateTS(artists, cards);
   writeFileSync(`${outputDirectory}/index.ts`, ts);
-  copyFileSync(
-    `${__dirname}/Shared/interfaces.ts`,
-    `${outputDirectory}/interfaces.ts`
-  );
-  copyFileSync(`${__dirname}/Shared/sets.ts`, `${outputDirectory}/sets.ts`);
 };
