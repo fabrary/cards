@@ -162,19 +162,27 @@ const generateTS = (artists: string[], cards: Card[]): string => {
     Type 
   } from './interfaces';
 
-  const cards1: Card[] = [${cards1.map(generateCardTypeScript)}];
-  const cards2: Card[] = [${cards2.map(generateCardTypeScript)}];
-  const cards3: Card[] = [${cards3.map(generateCardTypeScript)}];
-  const cards4: Card[] = [${cards4.map(generateCardTypeScript)}];
+  const cards1: Card[] = /* @__PURE__ */ [${cards1.map(
+    generateCardTypeScript
+  )}];
+  const cards2: Card[] = /* @__PURE__ */ [${cards2.map(
+    generateCardTypeScript
+  )}];
+  const cards3: Card[] = /* @__PURE__ */ [${cards3.map(
+    generateCardTypeScript
+  )}];
+  const cards4: Card[] = /* @__PURE__ */ [${cards4.map(
+    generateCardTypeScript
+  )}];
 
-  export const cards: Card[] = [
+  export const cards: Card[] = /* @__PURE__ */ [
     ...cards1,
     ...cards2,
     ...cards3,
     ...cards4,
   ];
 
-  export const artists: string[] = [${artists
+  export const artists: string[] = /* @__PURE__ */ [${artists
     .map((artist) => `"${artist}"`)
     .join(",")}];
 

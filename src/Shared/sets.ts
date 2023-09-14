@@ -1,6 +1,6 @@
 import { Release } from "./interfaces";
 
-export const fullSetIdentifiers = {
+export const fullSetIdentifiers = /* @__PURE__ */ {
   wtr: Release.WelcomeToRathe,
   arc: Release.ArcaneRising,
   cru: Release.CrucibleOfWar,
@@ -16,50 +16,51 @@ export const fullSetIdentifiers = {
   evo: Release.BrightLights,
 };
 
-export const setIdentifierToSetMappings: { [key: string]: Release } = {
-  ...fullSetIdentifiers,
+export const setIdentifierToSetMappings: { [key: string]: Release } =
+  /* @__PURE__ */ {
+    ...fullSetIdentifiers,
 
-  // Blitz decks
-  ara: Release.ArakniBlitzDeck,
-  azl: Release.AzaleaBlitzDeck,
-  ben: Release.BenjiBlitzDeck,
-  bol: Release.BoltynBlitzDeck,
-  bri: Release.BriarBlitzDeck,
-  bvo: Release.BravoBlitzDeck,
-  chn: Release.ChaneBlitzDeck,
-  dro: Release.DromaiBlitzDeck,
-  fai: Release.FaiBlitzDeck,
-  kat: Release.KatsuBlitzDeck,
-  lev: Release.LeviaBlitzDeck,
-  lxi: Release.LexiBlitzDeck,
-  old: Release.OldhimBlitzDeck,
-  psm: Release.PrismBlitzDeck,
-  rip: Release.RiptideBlitzDeck,
-  uzu: Release.UzuriBlitzDeck,
+    // Blitz decks
+    ara: Release.ArakniBlitzDeck,
+    azl: Release.AzaleaBlitzDeck,
+    ben: Release.BenjiBlitzDeck,
+    bol: Release.BoltynBlitzDeck,
+    bri: Release.BriarBlitzDeck,
+    bvo: Release.BravoBlitzDeck,
+    chn: Release.ChaneBlitzDeck,
+    dro: Release.DromaiBlitzDeck,
+    fai: Release.FaiBlitzDeck,
+    kat: Release.KatsuBlitzDeck,
+    lev: Release.LeviaBlitzDeck,
+    lxi: Release.LexiBlitzDeck,
+    old: Release.OldhimBlitzDeck,
+    psm: Release.PrismBlitzDeck,
+    rip: Release.RiptideBlitzDeck,
+    uzu: Release.UzuriBlitzDeck,
 
-  // Starter decks
-  dvr: Release.ClassicBattlesRhinarDorinthea,
-  rvd: Release.ClassicBattlesRhinarDorinthea,
-  ira: Release.IraWelcomeDeck,
+    // Starter decks
+    dvr: Release.ClassicBattlesRhinarDorinthea,
+    rvd: Release.ClassicBattlesRhinarDorinthea,
+    ira: Release.IraWelcomeDeck,
 
-  // Other decks
-  tcc: Release.RoundTheTable,
+    // Other decks
+    tcc: Release.RoundTheTable,
 
-  // Hero decks
-  tea: Release.DorintheaHeroDeck,
-  ksu: Release.KatsuHeroDeck,
-  rnr: Release.RhinarHeroDeck,
+    // Hero decks
+    tea: Release.DorintheaHeroDeck,
+    ksu: Release.KatsuHeroDeck,
+    rnr: Release.RhinarHeroDeck,
 
-  // Promos
-  fab: Release.Promos,
-  her: Release.Promos,
-  jdg: Release.Promos,
-  lgs: Release.Promos,
-  lss: Release.Promos,
-  oxo: Release.Promos,
-  xxx: Release.Promos,
-  win: Release.Promos,
-};
+    // Promos
+    fab: Release.Promos,
+    her: Release.Promos,
+    jdg: Release.Promos,
+    lgs: Release.Promos,
+    lss: Release.Promos,
+    oxo: Release.Promos,
+    xxx: Release.Promos,
+    win: Release.Promos,
+  };
 
 let tempSetToSetIdentifierMappings: { [key: string]: string[] } = {};
 for (const [setIdentifier, set] of Object.entries(setIdentifierToSetMappings)) {
@@ -71,4 +72,5 @@ for (const [setIdentifier, set] of Object.entries(setIdentifierToSetMappings)) {
   }
 }
 
-export const setToSetIdentifierMappings = tempSetToSetIdentifierMappings;
+export const setToSetIdentifierMappings =
+  /* @__PURE__ */ tempSetToSetIdentifierMappings;

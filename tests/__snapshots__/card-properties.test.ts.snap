@@ -42857,6 +42857,57 @@ At the beginning of your action phase, destroy Embolden then the next Guardian a
 }
 `;
 
+exports[`Check for unintentional updates Emboldened Blade (emboldened-blade-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Bastien Jez",
+  ],
+  "cardIdentifier": "emboldened-blade-blue",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO240",
+  "defense": 3,
+  "functionalText": "Turn a face-down card in any arsenal face-up. If it's a defense reaction, destroy it and your next weapon attack this turn gets +1{p}.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Emboldened Blade",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "EVO240",
+      "image": "EVO240",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO240",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO240",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Warrior Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Emerging Avalanche (emerging-avalanche-blue) vs snapshot 1`] = `
 {
   "artists": [
