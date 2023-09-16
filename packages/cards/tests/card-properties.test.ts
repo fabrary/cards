@@ -1,9 +1,10 @@
-import { cards as cardsToPublish, Card as NewCard } from "../dist/index";
-import { Card, cards as publishedCards } from "fab-cards";
+import { cards as cardsToPublish } from "../dist/index";
+import { cards as publishedCards } from "@flesh-and-blood/cards";
+import { Card } from "@flesh-and-blood/types";
 import { getPrint } from "../src/Shared";
 
 interface UpdatedComparison {
-  toPublish: NewCard;
+  toPublish: Card;
   published: Card;
 }
 const updated: (string | UpdatedComparison)[][] = [];
@@ -49,7 +50,7 @@ describe("All required fields present", () => {
     ])
   )("%s", (_, card) => {
     const { defaultImage, printings, specialImage, subtypes, types } =
-      card as unknown as NewCard;
+      card as unknown as Card;
     expect(defaultImage).toBeTruthy();
     expect(specialImage).toBeTruthy();
     expect(types.length || subtypes.length).toBeGreaterThan(0);

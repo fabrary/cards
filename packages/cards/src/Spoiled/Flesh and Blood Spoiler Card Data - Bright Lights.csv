@@ -1,7 +1,9 @@
 Identifiers,Set Identifiers,Name,Pitch,Cost,Power,Defense,Life,Intelligence,Types,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,Rarity,Foiling,Art Variation,Artist,Flavor Text,Image URL,Rarity 2,Foiling 2,Art Variation 2,Artist 2,Flavor Text 2,Image URL 2
 EVO000,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO001,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO002,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO002,EVO,"Dash, Database",,,,,18,4,"Mechanologist, Hero, Young",,,,,,,"You may look at the top card of your deck at any time.
+
+Once per turn, you may play a Mechanologist item with cost 0 or 1 from the top of your deck as though it were an instant. It costs an additional {r} to play.",Mechanologist Hero - Young,,,No,,T,,,Sam Yang,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO002.png,,,,,,
 EVO003,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO004,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO005,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -66,7 +68,7 @@ EVO055,EVO,Terminator Tank,1,6,6,3,,,"Mechanologist, Action, Attack",Overpower,,
 
 - 2 or more, this costs {r}{r}{r} less to play,
 - 3 or more, this gets **overpower**,
-- 4 or more, this gets +3{p}.",Mechanologist Action - Attack,,,,No,M,,,Simon Dominic,,https://dhhim4ltzu1pj.cloudfront.net/media/images/EVO055.width-450.format-webp.webp,M,R,EA,Simon Dominic,,/EVO055_EA.webp
+- 4 or more, this gets +3{p}.",Mechanologist Action - Attack,,,,No,M,,,Simon Dominic,,https://dhhim4ltzu1pj.cloudfront.net/media/images/EVO055.width-450.format-webp.webp,M,R,EA,Simon Dominic,,/EVO055_V2.webp
 EVO056,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO057,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO058,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -263,8 +265,14 @@ EVO240,EVO,Emboldened Blade,3,0,,3,,,"Warrior, Action",Go again,,,,,,"Turn a fac
 EVO241,EVO,Intoxicating Shot,3,0,4,3,,,"Ranger, Action, Arrow, Attack",Riptide Specialization,,,,,,"**Riptide Specialization**
 
 When this hits a hero, they create a Courage and Quicken token.",Ranger Action - Arrow Attack,,,,No,M,,,Joseph Qiu,,/EVO241.webp,,,,,,
-EVO242,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO243,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO242,EVO,Sonata Fantasmia,3,XX,,3,,,"Runeblade, Action",Viserai Specialization,,,,,,"**Viserai Specialization**
+
+Create X Runechant tokens.
+
+If X is 6 or greater, target hero discards 3 random cards.",Runeblade Action,,,,No,M,,,Saad Irfan,,/EVO242.webp,,,,,,
+EVO243,EVO,Contest the Mindfield,3,2,,2,,,"Wizard, Action, Aura",,,,,,,"All heroes get -1{i}.
+
+At the start of your turn, destroy this.",Wizard Action - Aura,,,,No,M,,,Olga Tereshenko,,/EVO243.webp,,,,,,
 EVO244,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO245,EVO,Tome of Imperial Flame,1,0,,,,,"Draconic, Action",Go again,,,,,,"Draw a card. If you are Royal, instead draw 2 cards.
 
@@ -274,7 +282,7 @@ You may pitch 2 red cards. If you don't, banish your hand.
 EVO246,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO247,EVO,Warband of Bellona,,,,2,,,"Light, Warrior, Equipment, Head",Temper,Action,"Go again, Charge",,,,"**Action** - {r}{r}, destroy this: The next time you attack this turn, you may **charge** your hero's soul. If a yellow card is **charged** this way, draw a card. **Go again**
 
-**Temper**",Light Warrior Equipment - Head,,,,No,L,C,EA,soyameii,,/EVO247.webp,,,,,,
+**Temper**",Light Warrior Equipment - Head,,,,No,L,R,,soyameii,,/EVO247.webp,L,C,EA,soyameii,,/EVO247_V2.webp
 EVO248,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO249,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO250,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

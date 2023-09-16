@@ -12667,7 +12667,7 @@ exports[`Check for unintentional updates Blasmophet, Levia Consumed (blasmophet-
   "classes": [
     "NotClassed",
   ],
-  "defaultImage": "DTD164_BACK_V2",
+  "defaultImage": "DTD164_BACK",
   "functionalText": "**Legendary Levia Specialization**
 
 While this is in your inventory, when **blood debt** reduces your {h} to 13, you may **transform** into Blasmophet, Levia Consumed.
@@ -36767,7 +36767,7 @@ exports[`Check for unintentional updates Diadem of Dreamstate (diadem-of-dreamst
   "classes": [
     "Illusionist",
   ],
-  "defaultImage": "DTD217_V2",
+  "defaultImage": "DTD217",
   "functionalText": "Once per turn, when this or a non-token permanent you control with **ward** is destroyed, you may pay {r}. If you do, create a Ponder token.
 
 **Ward 2**",
@@ -41086,7 +41086,7 @@ exports[`Check for unintentional updates Dyadic Carapace (dyadic-carapace) vs sn
   "classes": [
     "Runeblade",
   ],
-  "defaultImage": "DTD211_V2",
+  "defaultImage": "DTD211",
   "defense": 2,
   "functionalText": "**Arcane Barrier 2**
 
@@ -43880,7 +43880,7 @@ exports[`Check for unintentional updates Empyrean Rapture (empyrean-rapture) vs 
   "classes": [
     "Illusionist",
   ],
-  "defaultImage": "DTD004_EA",
+  "defaultImage": "DTD004",
   "functionalText": "If a card with Herald in its name has been put into your hero's soul during your turn, the first hero ability you activate that turn costs {r}{r} less to activate.
 
 **Once per Turn Instant** - {r}: This gets **ward 1** until end of turn.",
@@ -75937,7 +75937,7 @@ exports[`Check for unintentional updates Levia, Redeemed (levia-redeemed) vs sna
   "classes": [
     "NotClassed",
   ],
-  "defaultImage": "DTD164_V2",
+  "defaultImage": "DTD164",
   "functionalText": "**Legendary Levia Specialization**
 
 **Action** - Turn all cards in your banished zone face-down: **Transform** into Levia, Redeemed. Activate this ability only while this is in your inventory and you have 13 or more cards with **blood debt** in your banished zone.
@@ -141416,7 +141416,7 @@ exports[`Check for unintentional updates Terminator Tank (terminator-tank-red) v
     {
       "foiling": "Rainbow",
       "identifier": "EVO055",
-      "image": "EVO055_EA",
+      "image": "EVO055_V2",
       "set": "Bright Lights",
       "treatment": "Extended Art",
     },
@@ -141434,7 +141434,7 @@ exports[`Check for unintentional updates Terminator Tank (terminator-tank-red) v
   "sets": [
     "Bright Lights",
   ],
-  "specialImage": "EVO055_EA",
+  "specialImage": "EVO055_V2",
   "subtypes": [
     "Attack",
   ],
@@ -152170,9 +152170,15 @@ exports[`Check for unintentional updates Warband of Bellona (warband-of-bellona)
     {
       "foiling": "Cold",
       "identifier": "EVO247",
-      "image": "EVO247",
+      "image": "EVO247_V2",
       "set": "Bright Lights",
       "treatment": "Extended Art",
+    },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO247",
+      "image": "EVO247",
+      "set": "Bright Lights",
     },
   ],
   "rarities": [
@@ -152188,7 +152194,7 @@ exports[`Check for unintentional updates Warband of Bellona (warband-of-bellona)
   "sets": [
     "Bright Lights",
   ],
-  "specialImage": "EVO247",
+  "specialImage": "EVO247_V2",
   "subtypes": [
     "Head",
   ],

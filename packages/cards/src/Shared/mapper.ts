@@ -91,16 +91,24 @@ export const getDefaultImage = (
     let newestBlackBorderStandard;
     let newestBlackBorder;
     for (const set of orderedFullSetBlackBorderIdentifiers) {
-      const matchingPrinting = printings.find((printing) => {
+      const matchingPrintings = printings.filter((printing) => {
         const setIdentifier = printing.identifier.slice(0, 3);
         return set === setIdentifier;
       });
-      if (matchingPrinting) {
+      for (const matchingPrinting of matchingPrintings) {
         if (
           !newestBlackBorderStandard &&
           !matchingPrinting.foiling &&
           !matchingPrinting.treatment &&
           !!matchingPrinting.image
+        ) {
+          newestBlackBorderStandard = matchingPrinting;
+        }
+        if (
+          !newestBlackBorderStandard &&
+          !matchingPrinting.treatment &&
+          !!matchingPrinting.image &&
+          !matchingPrinting.identifier.includes("000")
         ) {
           newestBlackBorderStandard = matchingPrinting;
         }
