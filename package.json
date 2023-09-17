@@ -6,11 +6,12 @@
   ],
   "scripts": {
     "build": "lerna run build",
-    "prefull": "lerna run update",
+    "prefull": "npm run update",
     "full": "lerna run full",
     "ncu": "lerna exec ncu",
     "publish": "lerna publish",
-    "test": "lerna run test"
+    "test": "lerna run test",
+    "update": "lerna run update"
   },
   "devDependencies": {
     "lerna": "^7.3.0"
