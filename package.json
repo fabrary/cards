@@ -4,7 +4,9 @@
   "workspaces": [
     "packages/*"
   ],
-  "dependencies": {},
+  "scripts": {
+    "full": "lerna run full"
+  },
   "devDependencies": {
     "lerna": "^7.3.0"
   }
