@@ -5,7 +5,10 @@
     "packages/*"
   ],
   "scripts": {
-    "full": "lerna run full"
+    "build": "lerna run build",
+    "full": "lerna run full",
+    "publish": "lerna run publish",
+    "test": "lerna run test"
   },
   "devDependencies": {
     "lerna": "^7.3.0"
