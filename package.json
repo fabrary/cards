@@ -7,7 +7,7 @@
   "scripts": {
     "build": "lerna run build",
     "full": "lerna run full",
-    "publish": "lerna run publish",
+    "publish": "lerna publish",
     "test": "lerna run test"
   },
   "devDependencies": {
