@@ -8,6 +8,7 @@
 # @flesh-and-blood/\* breaking changes
 
 - Card data has it's own package (@flesh-and-blood/cards)
+- Card search has been added to this repo and has its own package (@flesh-and-blood/search)
 - Card typings and enums have their own package (@flesh-and-blood/types)
 - More documentation updates to come soon
 

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gets the right attribute filters Gets matching foilings for foil:cf,g 1`] = `
+[
+  "Cold",
+  "Gold",
+]
+`;
+
+exports[`Gets the right attribute filters Gets matching foilings for foiling:r 1`] = `
+[
+  "Rainbow",
+]
+`;
+
+exports[`Gets the right attribute filters Gets matching foilings for treat:"alt art",fa 1`] = `
+[
+  "Alternate Art",
+  "Full Art",
+]
+`;
+
+exports[`Gets the right attribute filters Gets matching foilings for treatment:ea 1`] = `
+[
+  "Extended Art",
+]
+`;
+
+exports[`Gets the right attribute filters Gets matching sets for s:ara 1`] = `
+[
+  "Arakni Blitz Deck",
+]
+`;
+
+exports[`Gets the right attribute filters Gets matching sets for s:welcome 1`] = `
+[
+  "Welcome to Rathe",
+  "Ira Welcome Deck",
+]
+`;
