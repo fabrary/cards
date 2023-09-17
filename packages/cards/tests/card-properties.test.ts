@@ -1,5 +1,5 @@
 import { cards as cardsToPublish } from "../dist/index";
-import { cards as publishedCards } from "@flesh-and-blood/cards";
+import { cards as publishedCards } from "latest-cards";
 import { Card } from "@flesh-and-blood/types";
 import { getPrint } from "../src/Shared";
 

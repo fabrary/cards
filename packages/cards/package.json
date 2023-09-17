@@ -19,10 +19,9 @@
     "update": "ncu -u @flesh-and-blood/cards && npm i"
   },
   "dependencies": {
-    "@flesh-and-blood/types": "^0.0.10"
+    "@flesh-and-blood/types": "file:../types"
   },
   "devDependencies": {
-    "@flesh-and-blood/cards": "0.0.9",
     "@types/jest": "^29.5.5",
     "@types/node": "^20.6.2",
     "@types/papaparse": "5.3.8",
@@ -31,6 +30,7 @@
     "esbuild-jest": "^0.5.0",
     "fast-xml-parser": "^4.2.7",
     "jest": "^29.7.0",
+    "latest-cards": "npm:@flesh-and-blood/cards@^0.0.9",
     "papaparse": "5.3.2",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
@@ -56,5 +56,5 @@
     "FAB",
     "FABTCG"
   ],
-  "gitHead": "4677cef48635bee60b0ed00c6c4eab4f1c744cc5"
+  "gitHead": "1bd90a5d0f5b22caa427e740bcc4a31be637f5e5"
 }

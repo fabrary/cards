@@ -1,5 +1,5 @@
 import chalk from "chalk";
-import { cards as publishedCards } from "@flesh-and-blood/cards";
+import { cards as publishedCards } from "latest-cards";
 import { cards as cardsToPublish } from "../dist/index";
 
 const added: string[] = [];
