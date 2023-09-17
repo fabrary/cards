@@ -22,7 +22,7 @@
     "@flesh-and-blood/types": "^0.0.9"
   },
   "devDependencies": {
-    "@flesh-and-blood/cards": "0.0.7",
+    "@flesh-and-blood/cards": "0.0.9",
     "@types/jest": "^29.5.5",
     "@types/node": "^20.6.2",
     "@types/papaparse": "5.3.8",

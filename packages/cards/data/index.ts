@@ -79475,6 +79475,49 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
     talents: [Talent.Shadow],
     
   },{
+    artists: ["Riordan Delmiro"],
+    cardIdentifier: "pink-visor",
+    classes: [Class.Merchant],
+    defaultImage: "LSS007",
+    name: "Pink Visor",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "LSS007",
+      image: "LSS007",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LSS007"],
+    sets: [Release.Promos],
+    specialImage: "LSS007",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Merchant Equipment - Head",
+
+    
+    
+    functionalText: `**Ruu'di Specialization**
+
+**Once per Turn Action** - {r}: The next card you reveal this turn has its grade increased by 1. **Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.Specialization],
+    
+    
+    
+    
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    
+    
+    
+    specializations: [],
+    
+    
+  },{
     artists: ["Rio Sabda"],
     cardIdentifier: "pitfall-trap-yellow",
     classes: [Class.Ranger],
