@@ -1,7 +1,7 @@
 {
   "name": "@flesh-and-blood/cards",
   "description": "TypeScript representations of Flesh and Blood cards",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "sideEffects": false,
@@ -19,7 +19,7 @@
     "update": "ncu -u @flesh-and-blood/cards && npm i"
   },
   "dependencies": {
-    "@flesh-and-blood/types": "^0.0.8"
+    "@flesh-and-blood/types": "^0.0.9"
   },
   "devDependencies": {
     "@flesh-and-blood/cards": "0.0.7",
