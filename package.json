@@ -6,7 +6,9 @@
   ],
   "scripts": {
     "build": "lerna run build",
+    "prefull": "lerna run update",
     "full": "lerna run full",
+    "ncu": "lerna exec ncu",
     "publish": "lerna publish",
     "test": "lerna run test"
   },

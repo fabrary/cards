@@ -15,15 +15,16 @@
     "tts": "ts-node tts/index.ts",
     "sitemap": "ts-node sitemap/index.ts",
     "full": "npm run transform && npm run build && npm test && npm run new && npm run tts && npm run sitemap",
-    "prepublish": "npm run full"
+    "prepublish": "npm run full",
+    "update": "ncu -u @flesh-and-blood/cards && npm i"
   },
   "dependencies": {
     "@flesh-and-blood/types": "file:../types"
   },
   "devDependencies": {
-    "@flesh-and-blood/cards": "0.0.3",
+    "@flesh-and-blood/cards": "0.0.7",
     "@types/jest": "^29.5.5",
-    "@types/node": "^20.6.1",
+    "@types/node": "^20.6.2",
     "@types/papaparse": "5.3.8",
     "chalk": "^4.1.2",
     "esbuild": "^0.19.3",

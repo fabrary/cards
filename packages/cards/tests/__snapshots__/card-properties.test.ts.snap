@@ -29387,6 +29387,55 @@ exports[`Check for unintentional updates Consuming Volition (consuming-volition-
 }
 `;
 
+exports[`Check for unintentional updates Contest the Mindfield (contest-the-mindfield-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Olga Tereshenko",
+  ],
+  "cardIdentifier": "contest-the-mindfield-blue",
+  "classes": [
+    "Wizard",
+  ],
+  "cost": 2,
+  "defaultImage": "EVO243",
+  "defense": 2,
+  "functionalText": "All heroes get -1{i}.
+
+At the start of your turn, destroy this.",
+  "name": "Contest the Mindfield",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "EVO243",
+      "image": "EVO243",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO243",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO243",
+  "subtypes": [
+    "Aura",
+    "Non-Attack",
+  ],
+  "typeText": "Wizard Action - Aura",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Convection Amplifier (convection-amplifier-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -33355,6 +33404,55 @@ exports[`Check for unintentional updates Dash (dash) vs snapshot 1`] = `
     "Promos",
   ],
   "specialImage": "ARC002",
+  "subtypes": [
+    "Young",
+  ],
+  "typeText": "Mechanologist Hero - Young",
+  "types": [
+    "Hero",
+  ],
+  "young": true,
+}
+`;
+
+exports[`Check for unintentional updates Dash, Database (dash-database) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sam Yang",
+  ],
+  "cardIdentifier": "dash-database",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "EVO002",
+  "functionalText": "You may look at the top card of your deck at any time.
+
+Once per turn, you may play a Mechanologist item with cost 0 or 1 from the top of your deck as though it were an instant. It costs an additional {r} to play.",
+  "hero": "Dash",
+  "intellect": 4,
+  "life": 18,
+  "name": "Dash, Database",
+  "printings": [
+    {
+      "identifier": "EVO002",
+      "image": "EVO002",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Token",
+  ],
+  "rarity": "Token",
+  "restrictedFormats": [
+    "Classic Constructed",
+  ],
+  "setIdentifiers": [
+    "EVO002",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO002",
   "subtypes": [
     "Young",
   ],
@@ -127920,6 +128018,62 @@ Shuffle your deck. Banish Sonata Arcanix.
   ],
   "specialCost": "XX",
   "specialImage": "MON231.width-450",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Runeblade Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Sonata Fantasmia (sonata-fantasmia-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Saad Irfan",
+  ],
+  "cardIdentifier": "sonata-fantasmia-blue",
+  "classes": [
+    "Runeblade",
+  ],
+  "defaultImage": "EVO242",
+  "defense": 3,
+  "functionalText": "**Viserai Specialization**
+
+Create X Runechant tokens.
+
+If X is 6 or greater, target hero discards 3 random cards.",
+  "keywords": [
+    "Specialization",
+  ],
+  "name": "Sonata Fantasmia",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "EVO242",
+      "image": "EVO242",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO242",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialCost": "XX",
+  "specialImage": "EVO242",
+  "specializations": [
+    "Viserai",
+  ],
   "subtypes": [
     "Non-Attack",
   ],
