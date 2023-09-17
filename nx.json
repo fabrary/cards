@@ -3,36 +3,27 @@
     "default": {
       "runner": "nx/tasks-runners/default",
       "options": {
-        "cacheableOperations": [
-          "build",
-          "test",
-          "tts",
-          "sitemap",
-          "full"
-        ]
+        "cacheableOperations": ["build", "test", "tts", "sitemap", "full"]
       }
     }
   },
   "targetDefaults": {
     "build": {
-      "outputs": [
-        "{projectRoot}/dist"
-      ]
+      "dependsOn": ["prebuild", "^build"],
+      "outputs": ["{projectRoot}/dist"]
+    },
+    "full": {
+      "dependsOn": ["^full"],
+      "outputs": ["{projectRoot}/dist"]
     },
     "test": {
-      "outputs": [
-        "{projectRoot}/coverage"
-      ]
+      "outputs": ["{projectRoot}/coverage"]
     },
     "tts": {
-      "outputs": [
-        "{projectRoot}/tts"
-      ]
+      "outputs": ["{projectRoot}/tts"]
     },
     "sitemap": {
-      "outputs": [
-        "{projectRoot}/sitemap"
-      ]
+      "outputs": ["{projectRoot}/sitemap"]
     }
   }
 }
