@@ -1,6 +1,6 @@
 import { Card, Class, Rarity, Release, Type } from "@flesh-and-blood/types";
 
-interface HeroBreakdown {
+export interface HeroBreakdown {
   all: Card[];
   adult: Card[];
   nonPromo: Card[];
