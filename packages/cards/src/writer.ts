@@ -114,6 +114,7 @@ const generateCardTypeScript = (card: Card): String => {
     }
     ${card.specialCost ? `specialCost: "${card.specialCost}",` : ``}
     ${card.specialDefense ? `specialDefense: "${card.specialDefense}",` : ``}
+    ${card.specialLife ? `specialLife: "${card.specialLife}",` : ``}
     ${card.specialPower ? `specialPower: "${card.specialPower}",` : ``}
     ${
       card.specializations && card.specializations.length > 0

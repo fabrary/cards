@@ -157,6 +157,7 @@ const legalFilter: FilterToPropertyMapping = {
 
 const lifeFilter: FilterToPropertyMapping = {
   property: "life",
+  specialProperty: "specialLife",
   isNumber: true,
 };
 

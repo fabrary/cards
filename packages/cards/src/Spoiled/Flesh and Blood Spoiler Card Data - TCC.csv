@@ -1,0 +1,151 @@
+Identifiers,Set Identifiers,Name,Pitch,Cost,Power,Defense,Life,Intelligence,Types,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,Rarity,Foiling,Art Variation,Artist,Flavor Text,Image URL,Rarity 2,Foiling 2,Art Variation 2,Artist 2,Flavor Text 2,Image URL 2
+TCC001,TCC,Professor Teklovossen,,,,,20,4,"Mechanologist, Hero, Young",,,,,,,"Evos cost {r} less to play for each opposing hero.
+
+You may play Evos from your banished zone.",Mechanologist Hero - Young,,,No,No,M,,,Simon Dominic,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC001_yajPa8R.width-450.format-webp.webp,,,,,,
+TCC002,TCC,Teklo Blaster,,,2,,,,"Mechanologist, Weapon, Gun, 2H","Once per Turn Action, Attack",,,,,,**Once per Turn Action** - {r}{r}{r}: **Attack**,Mechanologist Weapon - Gun (2H),,,,,R,,,Irina Si,,/TCC002.webp,,,,,,
+TCC003,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC004,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC005,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC006,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC007,TCC,Evo Tekloscope,3,3,,2,,,"Mechanologist, Action, Equipment, Evo, Head","Transform, Battleworn",,,,,,"If you have a base head equipped, **transform** it into this, then equip this.
+
+Your Teklo Blaster attacks can target any opposing hero.
+
+**Battleworn**",Mechanologist Action Equipment - Evo Head,,,,No,R,,,Revazashvili E.,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC007_yajPa8R.width-450.format-webp.webp,,,,,,
+TCC008,TCC,Evo Energy Matrix,3,3,,2,,,"Mechanologist, Action, Equipment, Evo, Chest","Transform, Battleworn",,,,,,"If you have a base chest equipped, **transform** it into this, then equip this.
+
+Your Teklo Blaster attacks cost {r} less to activate for each opposing hero.
+
+**Battleworn**",Mechanologist Action Equipment - Evo Chest,,,,No,R,,,Elena Bakulina,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC008_yajPa8R.width-450.format-webp.webp,,,,,,
+TCC009,TCC,Evo Scatter Shot,3,3,,2,,,"Mechanologist, Action, Equipment, Evo, Arms","Transform, Battleworn",,,,,,"If you have a base arms equipped, **transform** it into this, then equip this.
+
+Your Teklo Blaster attacks gets +1{p} for each opposing hero.
+
+**Battleworn**",Mechanologist Action Equipment - Evo Arms,,,,No,R,,,Anastasia Pronina,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC009_yajPa8R.width-450.format-webp.webp,,,,,,
+TCC010,TCC,Evo Rapid Fire,3,3,,2,,,"Mechanologist, Action, Equipment, Evo, Legs","Transform, Battleworn, Go again",,,,,,"""If you have a base legs equipped, **transform** it into this, then equip this.
+
+Your Teklo Blaster attacks gets **go again**.
+
+**Battleworn**""",Mechanologist Action Equipment - Evo Legs,,,,No,R,,,Irina Si,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC010_yajPa8R.width-450.format-webp.webp,,,,,,
+TCC011,TCC,Apocalypse Automaton,1,3,6,3,,,"Mechanologist, Action, Attack",Evo Upgrade,,,,,,"Play this only if you have 1 or more Evos equipped.
+
+**Evo Upgrade** - This attacks up to X target opposing heroes, where X is the number of Evos you have equipped.",Mechanologist Action - Attack,,,,No,M,,,Simon Dominic,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC011_yajPa8R.width-450.format-webp.webp,,,,,,
+TCC012,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC013,TCC,Mechanical Strength,1,3,5,3,,,"Mechanologist, Action, Attack",Evo Upgrade,,,,,,"**Evo Upgrade** - This gets +X{p}, where X is the number of Evos you have equipped.",Mechanologist Action - Attack,,,,No,R,,,Tomasz Jedruszek,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC013_yajPa8R.width-450.format-webp.webp,,,,,,
+TCC014,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC015,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC016,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC017,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC018,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC019,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC020,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC021,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC022,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC023,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC024,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC025,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC026,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC027,TCC,"Brevant, Civic Protector",,,,,20,4,"Guardian, Hero, Young",Protect,,,,,,"You may have any number of Chivalry in your deck.
+
+Whenever you **protect** another hero, create a Might token.",Guardian Hero - Young,,,No,No,M,,,Isuardi Therianto,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC027_yajPa8R.width-450.format-webp.webp,,,,,,
+TCC028,TCC,Hammer of Havenhold,,,3,,,,"Guardian, Weapon, Hammer, 1H","Once per Turn Action, Attack",,,,,,"**Once per Turn Action** - {r}{r}{r}: **Attack**
+
+If you have a Chivalray in your pitch zone, this gets +1{p}.",Guardian Weapon - Hammer (1H),,,,,R,,,Junaidi Lim,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC028_yajPa8R.width-450.format-webp.webp,,,,,,
+TCC029,TCC,Bastion of Duty,,,,2,,,"Guardian, Equipment, Off-Hand","Protect, Temper",,,,,,"**Protect**
+
+**Temper**",Guardian Equipment - Off-Hand,,,,,R,,,Jessketchin,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC029_yajPa8R.width-450.format-webp.webp,,,,,,
+TCC030,TCC,Civic Peak,,,,2,,,"Guardian, Equipment, Head",Temper,,,,,,"Whenever this defends, another target hero draws a card.
+
+**Temper**",Guardian Equipment - Head,,,,,R,,,Wisnu Tan,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC030_yajPa8R.width-450.format-webp.webp,,,,,,
+TCC031,TCC,Civic Duty,,,,2,,,"Guardian, Equipment, Chest",Temper,,,,,,"Whenever this defends, create a Vigor token under another hero's control.
+
+**Temper**",Guardian Equipment - Chest,,,,,R,,,Wisnu Tan,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC031_yajPa8R.width-450.format-webp.webp,,,,,,
+TCC032,TCC,Civic Guide,,,,2,,,"Guardian, Equipment, Arms",Temper,,,,,,"Whenever this defends, create a Might token under another hero's control.
+
+**Temper**",Guardian Equipment - Arms,,,,,R,,,Wisnu Tan,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC032_yajPa8R.width-450.format-webp.webp,,,,,,
+TCC033,TCC,Civic Steps,,,,2,,,"Guardian, Equipment, Legs",Temper,,,,,,"Whenever this defends, create a Quicken token under another hero's control.
+
+**Temper**",Guardian Equipment - Legs,,,,,R,,,Wisnu Tan,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC033_yajPa8R.width-450.format-webp.webp,,,,,,
+TCC034,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC035,TCC,Lay Down the Law,1,3,7,3,,,"Guardian, Action, Attack",Tower,,,,,,"**Tower** - If this has 13 or more {p}, non-equipment cards get -1{d} while defending this.",Guardian Action - Attack,,,,No,R,,,Marco Wulfr,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC035_yajPa8R.width-450.format-webp.webp,,,,,,
+TCC036,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC037,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC038,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC039,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC040,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC041,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC042,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC043,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC044,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC045,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC046,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC047,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC048,TCC,Chivalry,3,,,3,,,"Guardian, Block",Protect,,,,,,**Protect**,Guardian Block,,,,,C,,,Bastien Jez,,/TCC048.webp,,,,,,
+TCC049,TCC,"Melody, Sing-along",,,,,20,4,"Bard, Hero, Young",,,,,,,"Whenever you play a song, create Copper tokens equal to the number of other heroes in the game.",Bard Hero - Young,,,No,No,M,,,Andy Aslamov,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC049_yajPa8R.width-450.format-webp.webp,,,,,,
+TCC050,TCC,"Jinglewood, Smash Hit",,,2,,,,"Bard, Weapon, Fiddle, 2H","Once per Turn Action, Go again, Attack",,,,,,"**Once per Turn Action** - {r}{r}{r}: Target opposing hero chooses and creates a Might, Quicken, or Vigor token. You create a Copper token. **Go again**
+
+**Action** - 0: **Attack**.  When this hits, destroy it.",Bard Weapon - Fiddle (2H),,,,,R,,,Brian Adriel,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC050_yajPa8R.width-450.format-webp.webp,,,,,,
+TCC051,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC052,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC053,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC054,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC055,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC056,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC057,TCC,Final Act,1,1,1,3,,,"Bard, Action, Attack",,,,,,,"When this attacks, it gets +X{p}, where X is twice the number of cards in all pitch zones.",Bard Action - Attack,,,,No,M,,,Rio Sabda,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC057_yajPa8R.width-450.format-webp.webp,,,,,,
+TCC058,TCC,Interlude,1,0,,,,,"Bard, Instant",,,,,,,"Choose a hero. The next time they would be dealt damage this turn, prevent 3 of that damage. If you prevent damage to another hero this way, create a Copper token.",Bard Instant,,,,,C,,,Veto Zomer,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC058_yajPa8R.width-450.format-webp.webp,,,,,,
+TCC059,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC060,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC061,TCC,Encore,2,1,,2,,,"Bard, Action",Go again,,,,,,"Return a Bard attack action card from your graveyard to your hand.
+
+**Go again**",Bard Action,,,,No,R,,,Sebastian Giacobino,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC061_yajPa8R.width-450.format-webp.webp,,,,,,
+TCC062,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC063,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC064,TCC,Song of Jack-be-Quick,3,0,,3,,,"Bard, Action, Song",,,,,,,Create a Quicken token under each other hero's control.,Bard Action - Song,,,,,C,,,Sebastian Giacobino,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC064_yajPa8R.width-450.format-webp.webp,,,,,,
+TCC065,TCC,Song of Sweet Nectar,3,0,,3,,,"Bard, Action, Song",,,,,,,Each other hero gains 1{l}.,Bard Action - Song,,,,,C,,,Mateusz Wiśniewski,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC065_yajPa8R.width-450.format-webp.webp,,,,,,
+TCC066,TCC,Song of the Rosen Matador,3,0,,3,,,"Bard, Action, Song",,,,,,,Create a Vigor token under each other hero's control.,Bard Action - Song,,,,,C,,,Saad Irfan,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC066_yajPa8R.width-450.format-webp.webp,,,,,,
+TCC067,TCC,Song of the Shining Knight,3,0,,3,,,"Bard, Action, Song",,,,,,,Create a Might token under each other hero's control.,Bard Action - Song,,,,,C,,,Saad Irfan,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC067_yajPa8R.width-450.format-webp.webp,,,,,,
+TCC068,TCC,Song of the Wandering Mind,3,0,,3,,,"Bard, Action, Song",,,,,,,Each other hero draws a card.,Bard Action - Song,,,,,C,,,Artur Treffner,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC068_yajPa8R.width-450.format-webp.webp,,,,,,
+TCC069,TCC,Song of Yesteryears,3,0,,3,,,"Bard, Action, Song",,,,,,,Each other hero puts an attack action card from their graveyard on the. bottom of their deck.,Bard Action - Song,,,,,C,,,Mateusz Wiśniewski,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC069_yajPa8R.width-450.format-webp.webp,,,,,,
+TCC070,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC071,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC072,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC073,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC074,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC075,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC076,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC077,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC078,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC079,TCC,Mask of Three Tails,,,,0,,,"Ninja, Equipment, Head",Instant,,,,,,**Instant** - Destroy this: Draw a card. Activate this ability only if you've hit 3 or more times this combat chain.,Ninja Equipment - Head,,,,,R,,,Kimberly Pantoni,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC079_yajPa8R.width-450.format-webp.webp,,,,,,
+TCC080,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC081,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC082,TCC,Pouncing Paws,,,,1,,,"Ninja, Equipment, Legs","Instant, Battleworn",,,,,,"**Instant** - Destroy this: Create a Crouching Tiger in your banished zone. You may play it this turn.
+
+**Battleworn**",Ninja Equipment - Legs,,,,,R,,,Kimberly Pantoni,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC082_yajPa8R.width-450.format-webp.webp,,,,,,
+TCC083,TCC,Bittering Thorns,1,1,4,2,,,"Ninja, Action, Attack",Go again,,,,,,"When this hits, your next attack this turn gets +1{p}.
+
+**Go again**",Ninja Action - Attack,,,,,C,,,Maerel Hibadita,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC083_yajPa8R.width-450.format-webp.webp,,,,,,
+TCC084,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC085,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC086,TCC,Growl,1,0,3,2,,,"Ninja, Action, Attack",Go again,,,,,,"When this attacks, the next Crouching Tiger you play this combat chain gets +1{p}.
+
+**Go again**",Ninja Action - Attack,,,,No,R,,,Vito Vivodka,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC086_yajPa8R.width-450.format-webp.webp,,,,,,
+TCC087,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC088,TCC,Mauling Qi,1,1,5,3,,,"Ninja, Action, Attack",Combo,,,,,,"**Combo** - When this hits, if Crouching Tiger was the last attack this combat chain, deal 1 damage to each opposing hero.",Ninja Action - Attack,,,,No,M,,,Jessketchin,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC088_yajPa8R.width-450.format-webp.webp,,,,,,
+TCC089,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC090,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC091,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC092,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC093,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC094,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC095,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC096,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC097,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC098,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC099,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC100,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC101,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC102,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC103,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC104,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TCC105,TCC,Might,,,,,,,"Generic, Token, Aura",,,,,,,"At the start of your turn, destroy this, then your next attack this turn gets +1{p}.",Generic Token - Aura,,,,,T,,,Henrique Lindner,,/TCC105.webp,,,,,,
+TCC106,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

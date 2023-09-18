@@ -131,6 +131,26 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/teklo-leveler</loc>
+    <lastmod>2023-09-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/heavy-artillery-red</loc>
+    <lastmod>2023-09-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/heavy-artillery-yellow</loc>
+    <lastmod>2023-09-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/heavy-artillery-blue</loc>
+    <lastmod>2023-09-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/professor-teklovossen</loc>
     <lastmod>2023-09-06</lastmod>
     <priority>0.5</priority>

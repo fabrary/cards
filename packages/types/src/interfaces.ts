@@ -29,6 +29,7 @@ export interface Card {
   restrictedFormats?: Format[];
   specialCost?: string;
   specialDefense?: string;
+  specialLife?: string;
   specialPower?: string;
   specializations?: Hero[];
   talents?: Talent[];
@@ -261,6 +262,7 @@ export enum Hero {
   Kayo = "Kayo",
   Levia = "Levia",
   Lexi = "Lexi",
+  Maxx = "Maxx",
   Melody = "Melody",
   Oldhim = "Oldhim",
   ProfessorTeklovossen = "Professor Teklovossen",
@@ -292,6 +294,7 @@ export enum Keyword {
   Charge = "Charge",
   Combo = "Combo",
   Contract = "Contract",
+  Crank = "Crank",
   Crush = "Crush",
   Dominate = "Dominate",
   Ephemeral = "Ephemeral",

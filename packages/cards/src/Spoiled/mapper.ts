@@ -352,6 +352,7 @@ const getCardData = (card: ParsedCard): Card => {
     restrictedFormats: getRestrictedFormats(card),
     specialCost: getStringIfNotNumber(card.cost) as string,
     specialDefense: getStringIfNotNumber(card.defense) as string,
+    specialLife: getStringIfNotNumber(card.life) as string,
     specialPower: getStringIfNotNumber(card.power) as string,
     specializations: getSpecializations(card),
     talents: getTalents(card),

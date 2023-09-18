@@ -91882,6 +91882,58 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
 }
 `;
 
+exports[`Check for unintentional updates Pink Visor (pink-visor) vs snapshot 1`] = `
+{
+  "artists": [
+    "Riordan Delmiro",
+  ],
+  "cardIdentifier": "pink-visor",
+  "classes": [
+    "Merchant",
+  ],
+  "defaultImage": "LSS007",
+  "functionalText": "**Ruu'di Specialization**
+
+**Once per Turn Action** - {r}: The next card you reveal this turn has its grade increased by 1. **Go again**",
+  "keywords": [
+    "Specialization",
+  ],
+  "name": "Pink Visor",
+  "printings": [
+    {
+      "foiling": "Cold",
+      "identifier": "LSS007",
+      "image": "LSS007",
+      "set": "Promos",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "restrictedFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "LSS007",
+  ],
+  "sets": [
+    "Promos",
+  ],
+  "specialImage": "LSS007",
+  "specializations": [],
+  "subtypes": [
+    "Head",
+  ],
+  "typeText": "Merchant Equipment - Head",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Pitfall Trap (pitfall-trap-yellow) vs snapshot 1`] = `
 {
   "artists": [

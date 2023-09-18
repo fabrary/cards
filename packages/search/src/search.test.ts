@@ -6,7 +6,7 @@ const exactSearches = [
   // Abbreviations & shorthands
   [3, "bbd"],
   [2, "cnc"],
-  [167, "poppers"],
+  [168, "poppers"],
   [1, "newminaris"],
 
   // Sets

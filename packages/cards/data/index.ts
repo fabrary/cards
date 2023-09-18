@@ -58,6 +58,7 @@ Once per turn, you may play a Mechanologist item with cost 0 or 1 from the top o
     
     
     
+    
     young: true
   },{
     artists: ["Simon Dominic"],
@@ -96,6 +97,7 @@ Once per turn, you may play a Mechanologist item with cost 0 or 1 from the top o
     
     
     restrictedFormats: [Format.Blitz,Format.Commoner],
+    
     
     
     
@@ -144,6 +146,7 @@ Once per turn, you may play a Mechanologist item with cost 0 or 1 from the top o
     
     
     
+    
     young: true
   },{
     artists: ["Vlad Tashkinov"],
@@ -167,6 +170,7 @@ Once per turn, you may play a Mechanologist item with cost 0 or 1 from the top o
     types: [Type.Equipment],
     typeText: "Mechanologist Equipment - Base Head",
 
+    
     
     
     
@@ -227,6 +231,7 @@ Once per turn, you may play a Mechanologist item with cost 0 or 1 from the top o
     
     
     
+    
   },{
     artists: ["Grigoriy Parshakov"],
     cardIdentifier: "proto-base-arms",
@@ -268,6 +273,7 @@ Once per turn, you may play a Mechanologist item with cost 0 or 1 from the top o
     
     
     
+    
   },{
     artists: ["Revazashvili E."],
     cardIdentifier: "proto-base-legs",
@@ -290,6 +296,7 @@ Once per turn, you may play a Mechanologist item with cost 0 or 1 from the top o
     types: [Type.Equipment],
     typeText: "Mechanologist Equipment - Base Legs",
 
+    
     
     
     
@@ -354,6 +361,7 @@ When this **transforms** from or into an Evo with a different name, your hero ge
     
     
     
+    
   },{
     artists: ["Simon Dominic"],
     cardIdentifier: "terminator-tank-red",
@@ -405,6 +413,7 @@ When this **transforms** from or into an Evo with a different name, your hero ge
     
     
     
+    
   },{
     artists: ["Athiwut B."],
     cardIdentifier: "shriek-razors",
@@ -444,6 +453,7 @@ When this **transforms** from or into an Evo with a different name, your hero ge
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -493,6 +503,7 @@ When this hits a hero, banish the top card of their deck and a defending card.`,
     
     
     
+    
   },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "smashing-performance-yellow",
@@ -534,6 +545,7 @@ When this hits a hero, banish the top card of their deck and a defending card.`,
     
     
     
+    
   },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "wax-off-blue",
@@ -569,6 +581,7 @@ When this hits a hero, banish the top card of their deck and a defending card.`,
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -618,6 +631,7 @@ When this hits a hero, banish the top card of their deck and a defending card.`,
     
     
     
+    
   },{
     artists: ["Joseph Qiu"],
     cardIdentifier: "intoxicating-shot-blue",
@@ -655,6 +669,7 @@ When this hits a hero, they create a Courage and Quicken token.`,
     pitch: 3,
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -703,6 +718,7 @@ If X is 6 or greater, target hero discards 3 random cards.`,
     specialCost: "XX",
     
     
+    
     specializations: [Hero.Viserai],
     
     
@@ -749,6 +765,7 @@ At the start of your turn, destroy this.`,
     
     
     
+    
   },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "tome-of-imperial-flame-red",
@@ -788,6 +805,7 @@ You may pitch 2 red cards. If you don't, banish your hand.
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -841,6 +859,7 @@ You may pitch 2 red cards. If you don't, banish your hand.
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -877,6 +896,7 @@ You may pitch 2 red cards. If you don't, banish your hand.
     
     pitch: 3,
     power: 5,
+    
     
     
     
@@ -925,6 +945,7 @@ You may pitch 2 red cards. If you don't, banish your hand.
     
     
     
+    
   },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "demolition-protocol-red",
@@ -966,6 +987,7 @@ You may pitch 2 red cards. If you don't, banish your hand.
     
     
     
+    
   },{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "teklo-base-head",
@@ -996,6 +1018,7 @@ You may pitch 2 red cards. If you don't, banish your hand.
     
     
     keywords: [Keyword.BladeBreak],
+    
     
     
     
@@ -1048,6 +1071,7 @@ You may pitch 2 red cards. If you don't, banish your hand.
     
     
     
+    
   },{
     artists: ["Lizhe Liang"],
     cardIdentifier: "teklo-base-arms",
@@ -1078,6 +1102,7 @@ You may pitch 2 red cards. If you don't, banish your hand.
     
     
     keywords: [Keyword.BladeBreak],
+    
     
     
     
@@ -1130,6 +1155,179 @@ You may pitch 2 red cards. If you don't, banish your hand.
     
     
     
+    
+  },{
+    artists: ["Joseph Qiu"],
+    cardIdentifier: "teklo-leveler",
+    classes: [Class.Mechanologist],
+    defaultImage: "LGS190.width-10000",
+    name: "Teklo Leveler",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "LGS190",
+      image: "LGS190.width-10000",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS190"],
+    sets: [Release.Promos],
+    specialImage: "LGS190.width-10000",
+    subtypes: [Subtype.TwoHanded,Subtype.Gun],
+    types: [Type.Weapon],
+    typeText: "Mechanologist Weapon - Gun (2H)",
+
+    
+    
+    functionalText: `If you have 1 or more Evos equipped, this gets "**Once per Turn Action** - {r}{r}{r}: **Attack**,"
+
+* 2 or more, this costs {r}{r} less to activate,
+* 3 or more, this gets **go again**,
+* 4 or more, this gets +1{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tanapon Wachirakul"],
+    cardIdentifier: "heavy-artillery-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "LGS191.width-10000",
+    name: "Heavy Artillery",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS191",
+      image: "LGS191.width-10000",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS191"],
+    sets: [Release.Promos],
+    specialImage: "LGS191.width-10000",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Evo Upgrade** - The defending hero can't defend this with attack action cards with cost less than X, where X is the number of Evos you have equipped.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 1,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tanapon Wachirakul"],
+    cardIdentifier: "heavy-artillery-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "LGS192.width-10000",
+    name: "Heavy Artillery",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS192",
+      image: "LGS192.width-10000",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS192"],
+    sets: [Release.Promos],
+    specialImage: "LGS192.width-10000",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Evo Upgrade** - The defending hero can't defend this with attack action cards with cost less than X, where X is the number of Evos you have equipped.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 2,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tanapon Wachirakul"],
+    cardIdentifier: "heavy-artillery-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "LGS193.width-10000",
+    name: "Heavy Artillery",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS193",
+      image: "LGS193.width-10000",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS193"],
+    sets: [Release.Promos],
+    specialImage: "LGS193.width-10000",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Evo Upgrade** - The defending hero can't defend this with attack action cards with cost less than X, where X is the number of Evos you have equipped.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 3,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
   },{
     artists: ["Simon Dominic"],
     cardIdentifier: "professor-teklovossen",
@@ -1172,6 +1370,7 @@ You may play Evos from your banished zone.`,
     
     
     
+    
     young: true
   },{
     artists: ["Irina Si"],
@@ -1207,6 +1406,7 @@ You may play Evos from your banished zone.`,
     
     
     power: 2,
+    
     
     
     
@@ -1259,6 +1459,7 @@ Your Teklo Blaster attacks can target any opposing hero.
     
     
     
+    
   },{
     artists: ["Elena Bakulina"],
     cardIdentifier: "evo-energy-matrix-blue",
@@ -1298,6 +1499,7 @@ Your Teklo Blaster attacks cost {r} less to activate for each opposing hero.
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -1349,6 +1551,7 @@ Your Teklo Blaster attacks gets +1{p} for each opposing hero.
     
     
     
+    
   },{
     artists: ["Irina Si"],
     cardIdentifier: "evo-rapid-fire-blue",
@@ -1388,6 +1591,7 @@ Your Teklo Blaster attacks gets **go again**.
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -1437,6 +1641,7 @@ Your Teklo Blaster attacks gets **go again**.
     
     
     
+    
   },{
     artists: ["Tomasz Jedruszek"],
     cardIdentifier: "mechanical-strength-red",
@@ -1472,6 +1677,7 @@ Your Teklo Blaster attacks gets **go again**.
     pitch: 1,
     power: 5,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -1515,6 +1721,7 @@ Whenever you **protect** another hero, create a Might token.`,
     
     
     restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
+    
     
     
     
@@ -1564,6 +1771,7 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
     
+    
   },{
     artists: ["Jessketchin"],
     cardIdentifier: "bastion-of-duty",
@@ -1596,6 +1804,7 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
     keywords: [Keyword.Protect,Keyword.Temper],
+    
     
     
     
@@ -1650,6 +1859,7 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
     
+    
   },{
     artists: ["Wisnu Tan"],
     cardIdentifier: "civic-duty",
@@ -1682,6 +1892,7 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
     keywords: [Keyword.Temper],
+    
     
     
     
@@ -1736,6 +1947,7 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
     
+    
   },{
     artists: ["Wisnu Tan"],
     cardIdentifier: "civic-steps",
@@ -1768,6 +1980,7 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
     keywords: [Keyword.Temper],
+    
     
     
     
@@ -1820,6 +2033,7 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
     
+    
   },{
     artists: ["Bastien Jez"],
     cardIdentifier: "chivalry-blue",
@@ -1853,6 +2067,7 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
     pitch: 3,
+    
     
     
     
@@ -1896,6 +2111,7 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
     restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
+    
     
     
     
@@ -1945,6 +2161,7 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
     
+    
   },{
     artists: ["Rio Sabda"],
     cardIdentifier: "final-act-red",
@@ -1986,6 +2203,7 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
     
+    
   },{
     artists: ["Veto Zomer"],
     cardIdentifier: "interlude-red",
@@ -2019,6 +2237,7 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
     pitch: 1,
+    
     
     
     
@@ -2070,6 +2289,7 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
     
+    
   },{
     artists: ["Sebastian Giacobino"],
     cardIdentifier: "song-of-jack-be-quick-blue",
@@ -2103,6 +2323,7 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
     pitch: 3,
+    
     
     
     
@@ -2152,6 +2373,7 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
     
+    
   },{
     artists: ["Saad Irfan"],
     cardIdentifier: "song-of-the-rosen-matador-blue",
@@ -2185,6 +2407,7 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
     pitch: 3,
+    
     
     
     
@@ -2234,6 +2457,7 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
     
+    
   },{
     artists: ["Artur Treffner"],
     cardIdentifier: "song-of-the-wandering-mind-blue",
@@ -2267,6 +2491,7 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
     pitch: 3,
+    
     
     
     
@@ -2316,6 +2541,7 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
     
+    
   },{
     artists: ["Kimberly Pantoni"],
     cardIdentifier: "mask-of-three-tails",
@@ -2341,6 +2567,7 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     defense: 0,
     functionalText: `**Instant** - Destroy this: Draw a card. Activate this ability only if you've hit 3 or more times this combat chain.`,
+    
     
     
     
@@ -2400,6 +2627,7 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
     
+    
   },{
     artists: ["Maerel Hibadita"],
     cardIdentifier: "bittering-thorns-red",
@@ -2436,6 +2664,7 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -2486,6 +2715,7 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
     
+    
   },{
     artists: ["Jessketchin"],
     cardIdentifier: "mauling-qi-red",
@@ -2527,6 +2757,7 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
     
+    
   },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "might",
@@ -2552,6 +2783,7 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
     functionalText: `At the start of your turn, destroy this, then your next attack this turn gets +1{p}.`,
+    
     
     
     
@@ -2613,6 +2845,7 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -2656,6 +2889,7 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
     restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    
     
     
     
@@ -2721,6 +2955,7 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
     
+    
   },{
     artists: ["Daria Cherkashina"],
     cardIdentifier: "absorb-in-aether-yellow",
@@ -2774,6 +3009,7 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -2839,6 +3075,7 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
     
+    
   },{
     artists: ["Tommy Suhartono"],
     cardIdentifier: "absorption-dome-yellow",
@@ -2896,6 +3133,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -2975,6 +3213,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
     
     
     
+    
   },{
     artists: ["Silvia Meiliani"],
     cardIdentifier: "adrenaline-rush-red",
@@ -3027,6 +3266,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -3093,6 +3333,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
     
     
     
+    
   },{
     artists: ["Silvia Meiliani"],
     cardIdentifier: "adrenaline-rush-blue",
@@ -3152,6 +3393,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
     
     
     
+    
   },{
     artists: ["soyameii"],
     cardIdentifier: "aegis-archangel-of-protection",
@@ -3197,6 +3439,7 @@ When Aegis attacks, you may banish a card from your hero's soul. If you do, crea
     
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -3255,6 +3498,7 @@ When Aegis attacks, you may banish a card from your hero's soul. If you do, crea
     
     
     power: 1,
+    
     
     
     
@@ -3327,6 +3571,7 @@ When Aegis attacks, you may banish a card from your hero's soul. If you do, crea
     
     
     
+    
   },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "aether-dart-red",
@@ -3366,6 +3611,7 @@ When Aegis attacks, you may banish a card from your hero's soul. If you do, crea
     
     
     pitch: 1,
+    
     
     
     
@@ -3421,6 +3667,7 @@ When Aegis attacks, you may banish a card from your hero's soul. If you do, crea
     
     
     
+    
   },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "aether-dart-blue",
@@ -3460,6 +3707,7 @@ When Aegis attacks, you may banish a card from your hero's soul. If you do, crea
     
     
     pitch: 3,
+    
     
     
     
@@ -3535,6 +3783,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     
     
     
+    
   },{
     artists: ["Cindy Handoyo"],
     cardIdentifier: "aether-flare-yellow",
@@ -3594,6 +3843,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     
     
     pitch: 2,
+    
     
     
     
@@ -3669,6 +3919,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     
     
     
+    
   },{
     artists: ["Junaidi Lim"],
     cardIdentifier: "aether-hail-red",
@@ -3708,6 +3959,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     
     
     pitch: 1,
+    
     
     
     
@@ -3761,6 +4013,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     
     
     
+    
     talents: [Talent.Ice],
     
   },{
@@ -3802,6 +4055,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     
     
     pitch: 3,
+    
     
     
     
@@ -3857,6 +4111,7 @@ Deal 5 arcane damage to any target. If Aether Icevein was **fused** and deals da
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -3906,6 +4161,7 @@ Deal 4 arcane damage to any target. If Aether Icevein was **fused** and deals da
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -3949,6 +4205,7 @@ Deal 3 arcane damage to any target. If Aether Icevein was **fused** and deals da
     
     
     pitch: 3,
+    
     
     
     
@@ -4024,6 +4281,7 @@ Deal 3 arcane damage to any target. If Aether Icevein was **fused** and deals da
     
     
     
+    
   },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "aether-quickening-red",
@@ -4073,6 +4331,7 @@ Deal 3 arcane damage to any target. If Aether Icevein was **fused** and deals da
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -4134,6 +4393,7 @@ Deal 3 arcane damage to any target. If Aether Icevein was **fused** and deals da
     
     
     
+    
   },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "aether-quickening-blue",
@@ -4183,6 +4443,7 @@ Deal 3 arcane damage to any target. If Aether Icevein was **fused** and deals da
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -4258,6 +4519,7 @@ Deal 3 arcane damage to any target. If Aether Icevein was **fused** and deals da
     
     
     
+    
   },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "aether-slash-red",
@@ -4298,6 +4560,7 @@ Deal 3 arcane damage to any target. If Aether Icevein was **fused** and deals da
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -4352,6 +4615,7 @@ Deal 3 arcane damage to any target. If Aether Icevein was **fused** and deals da
     
     
     
+    
   },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "aether-slash-blue",
@@ -4392,6 +4656,7 @@ Deal 3 arcane damage to any target. If Aether Icevein was **fused** and deals da
     
     pitch: 3,
     power: 2,
+    
     
     
     
@@ -4466,6 +4731,7 @@ Deal 3 arcane damage to any target. If Aether Icevein was **fused** and deals da
     
     
     
+    
   },{
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "aether-spindle-yellow",
@@ -4527,6 +4793,7 @@ Deal 3 arcane damage to any target. If Aether Icevein was **fused** and deals da
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -4600,6 +4867,7 @@ Deal 3 arcane damage to any target. If Aether Icevein was **fused** and deals da
     
     
     
+    
   },{
     artists: ["Mark Poole"],
     cardIdentifier: "aether-wildfire-red",
@@ -4649,6 +4917,7 @@ If Aether Wildfire is played during an opponents turn, until end of turn, action
     pitch: 1,
     
     restrictedFormats: [Format.Blitz,Format.Commoner],
+    
     
     
     
@@ -4714,6 +4983,7 @@ If Aether Wildfire is played during an opponents turn, until end of turn, action
     
     
     
+    
   },{
     artists: ["Andy Aslamov"],
     cardIdentifier: "alluring-inducement-yellow",
@@ -4759,6 +5029,7 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
     pitch: 2,
     power: 2,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -4816,6 +5087,7 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -4894,6 +5166,7 @@ When you attack with Alpha Rampage, **intimidate**.`,
     
     
     
+    
     specializations: [Hero.Rhinar],
     
     
@@ -4952,6 +5225,7 @@ When you attack with Alpha Rampage, **intimidate**.`,
     
     
     
+    
   },{
     artists: ["Riordan Delmiro"],
     cardIdentifier: "amnesia-red",
@@ -4993,6 +5267,7 @@ When you attack with Alpha Rampage, **intimidate**.`,
     pitch: 1,
     power: 6,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -5057,6 +5332,7 @@ When you attack with Alpha Rampage, **intimidate**.`,
     
     pitch: 1,
     power: 6,
+    
     
     
     
@@ -5129,6 +5405,7 @@ When you attack with Alpha Rampage, **intimidate**.`,
     
     
     
+    
   },{
     artists: ["Daniel Jiménez"],
     cardIdentifier: "amplify-the-arknight-blue",
@@ -5194,6 +5471,7 @@ When you attack with Alpha Rampage, **intimidate**.`,
     
     
     
+    
   },{
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "amplifying-arrow-yellow",
@@ -5235,6 +5513,7 @@ When you attack with Alpha Rampage, **intimidate**.`,
     pitch: 2,
     power: 2,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -5284,6 +5563,7 @@ When you attack with Alpha Rampage, **intimidate**.`,
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -5361,6 +5641,7 @@ When you attack with Alpha Rampage, **intimidate**.`,
     
     
     
+    
     talents: [Talent.Earth],
     
   },{
@@ -5412,6 +5693,7 @@ When you attack with Alpha Rampage, **intimidate**.`,
     
     
     
+    
   },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "amulet-of-havencall-blue",
@@ -5455,6 +5737,7 @@ When you attack with Alpha Rampage, **intimidate**.`,
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -5532,6 +5815,7 @@ When you attack with Alpha Rampage, **intimidate**.`,
     
     
     
+    
     talents: [Talent.Ice],
     
   },{
@@ -5583,6 +5867,7 @@ When you attack with Alpha Rampage, **intimidate**.`,
     
     
     
+    
   },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "amulet-of-intervention-blue",
@@ -5626,6 +5911,7 @@ When you attack with Alpha Rampage, **intimidate**.`,
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -5703,6 +5989,7 @@ When you attack with Alpha Rampage, **intimidate**.`,
     
     
     
+    
     talents: [Talent.Lightning],
     
   },{
@@ -5748,6 +6035,7 @@ When you attack with Alpha Rampage, **intimidate**.`,
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -5821,6 +6109,7 @@ Draw a card.`,
     
     
     
+    
   },{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "angelic-descent-red",
@@ -5862,6 +6151,7 @@ Your next angel attack this turn gets +3{p}.`,
     
     
     pitch: 1,
+    
     
     
     
@@ -5917,6 +6207,7 @@ Your next angel attack this turn gets +2{p}.`,
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -5960,6 +6251,7 @@ Your next angel attack this turn gets +1{p}.`,
     
     
     pitch: 3,
+    
     
     
     
@@ -6019,6 +6311,7 @@ Your next angel attack this turn gets +1{p}.`,
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -6066,6 +6359,7 @@ Your next angel attack this turn gets +1{p}.`,
     
     
     pitch: 2,
+    
     
     
     
@@ -6125,6 +6419,7 @@ Your next angel attack this turn gets +1{p}.`,
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -6164,6 +6459,7 @@ Your next angel attack this turn gets +1{p}.`,
     
     
     functionalText: `**Once per Turn Action** - {r}{r}{r}: Draw a card. If an attack action card and a 'non-attack' action card were pitched this way, create a Runechant token.`,
+    
     
     
     
@@ -6229,6 +6525,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
+    
   },{
     artists: ["Shen Fei"],
     cardIdentifier: "annihilate-the-armed-yellow",
@@ -6278,6 +6575,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
+    
   },{
     artists: ["Shen Fei"],
     cardIdentifier: "annihilate-the-armed-blue",
@@ -6320,6 +6618,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     pitch: 3,
     power: 3,
+    
     
     
     
@@ -6418,6 +6717,7 @@ While there are 2 or more cards with cost 3 or greater in your pitch zone, Anoth
     
     
     
+    
   },{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "anthem-of-spring-blue",
@@ -6463,6 +6763,7 @@ The next attack action card you play this turn gets +1{p}. **Go again**
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -6512,6 +6813,7 @@ The next attack action card you play this turn gets +1{p}. **Go again**
     
     
     life: 20,
+    
     
     
     
@@ -6581,6 +6883,7 @@ The next attack action card you play this turn gets +1{p}. **Go again**
     
     
     
+    
   },{
     artists: ["Tomasz Jedruszek"],
     cardIdentifier: "arakni-solitary-confinement",
@@ -6630,6 +6933,7 @@ The next attack action card you play this turn gets +1{p}. **Go again**
     
     keywords: [Keyword.GoAgain],
     life: 19,
+    
     
     
     
@@ -6706,6 +7010,7 @@ Opponents may only select Arc Light Sentinel as the target of an attack.
     
     
     
+    
     specializations: [Hero.Prism],
     talents: [Talent.Light],
     
@@ -6745,6 +7050,7 @@ Opponents may only select Arc Light Sentinel as the target of an attack.
     
     
     keywords: [Keyword.ArcaneBarrier],
+    
     
     
     
@@ -6815,6 +7121,7 @@ Opponents may only select Arc Light Sentinel as the target of an attack.
     
     
     
+    
   },{
     artists: ["Joshua Raphael"],
     cardIdentifier: "arcanic-crackle-yellow",
@@ -6867,6 +7174,7 @@ Opponents may only select Arc Light Sentinel as the target of an attack.
     
     pitch: 2,
     power: 2,
+    
     
     
     
@@ -6939,6 +7247,7 @@ Opponents may only select Arc Light Sentinel as the target of an attack.
     
     
     
+    
   },{
     artists: ["Vathan Suwannaworn"],
     cardIdentifier: "arcanic-shockwave-red",
@@ -6999,6 +7308,7 @@ When you attack with Arcanic Shockwave, if it was **fused**, deal 1 arcane damag
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -7065,6 +7375,7 @@ When you attack with Arcanic Shockwave, if it was **fused**, deal 1 arcane damag
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -7121,6 +7432,7 @@ When you attack with Arcanic Shockwave, if it was **fused**, deal 1 arcane damag
     
     pitch: 3,
     power: 2,
+    
     
     
     
@@ -7189,6 +7501,7 @@ When you attack with Arcanic Shockwave, if it was **fused**, deal 1 arcane damag
     
     
     
+    
   },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "arctic-incarceration-red",
@@ -7228,6 +7541,7 @@ When you attack with Arcanic Shockwave, if it was **fused**, deal 1 arcane damag
     
     
     pitch: 1,
+    
     
     
     
@@ -7281,6 +7595,7 @@ When you attack with Arcanic Shockwave, if it was **fused**, deal 1 arcane damag
     
     
     
+    
     talents: [Talent.Ice],
     
   },{
@@ -7322,6 +7637,7 @@ When you attack with Arcanic Shockwave, if it was **fused**, deal 1 arcane damag
     
     
     pitch: 3,
+    
     
     
     
@@ -7385,6 +7701,7 @@ When you attack with Arcanic Shockwave, if it was **fused**, deal 1 arcane damag
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -7459,6 +7776,7 @@ If Arknight Ascendency hits, create X Runechant tokens, where X is the damage de
     
     
     
+    
     specializations: [Hero.Viserai],
     
     
@@ -7505,6 +7823,7 @@ When you pitch Arknight Shard, create a Runechant token.`,
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -7581,6 +7900,7 @@ When you pitch Arknight Shard, create a Runechant token.`,
     
     
     
+    
   },{
     artists: ["Surya Prasteya"],
     cardIdentifier: "ash",
@@ -7629,6 +7949,7 @@ When you pitch Arknight Shard, create a Runechant token.`,
     
     
     keywords: [Keyword.Material,Keyword.Phantasm],
+    
     
     
     
@@ -7692,6 +8013,7 @@ When you pitch Arknight Shard, create a Runechant token.`,
     
     pitch: 1,
     power: 7,
+    
     
     
     
@@ -7762,6 +8084,7 @@ When you pitch Arknight Shard, create a Runechant token.`,
     
     
     
+    
     talents: [Talent.Earth],
     
   },{
@@ -7827,6 +8150,7 @@ When you pitch Arknight Shard, create a Runechant token.`,
     
     
     
+    
     talents: [Talent.Earth],
     
   },{
@@ -7874,6 +8198,7 @@ When Avalon attacks, you may banish a card from your hero's soul. If you do, put
     
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -7937,6 +8262,7 @@ Search your deck for a Guardian attack action card with cost less than or equal 
     pitch: 3,
     
     restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    
     
     
     
@@ -8018,6 +8344,7 @@ Search your deck for a Guardian attack action card with cost less than or equal 
     
     
     
+    
   },{
     artists: ["Raphael Masalimov"],
     cardIdentifier: "awakening-bellow-yellow",
@@ -8073,6 +8400,7 @@ Search your deck for a Guardian attack action card with cost less than or equal 
     
     
     pitch: 2,
+    
     
     
     
@@ -8142,6 +8470,7 @@ Search your deck for a Guardian attack action card with cost less than or equal 
     
     
     pitch: 3,
+    
     
     
     
@@ -8221,6 +8550,7 @@ Search your deck for a Guardian attack action card with cost less than or equal 
     
     
     restrictedFormats: [Format.ClassicConstructed],
+    
     
     
     
@@ -8316,6 +8646,7 @@ Search your deck for a Guardian attack action card with cost less than or equal 
     
     
     
+    
   },{
     artists: ["Federico Musetti"],
     cardIdentifier: "azvolai",
@@ -8357,6 +8688,7 @@ Search your deck for a Guardian attack action card with cost less than or equal 
     
     power: 2,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -8415,6 +8747,7 @@ Search your deck for a Guardian attack action card with cost less than or equal 
     
     pitch: 1,
     power: 5,
+    
     
     
     
@@ -8481,6 +8814,7 @@ Search your deck for a Guardian attack action card with cost less than or equal 
     
     
     
+    
   },{
     artists: ["Pavel Chuvin"],
     cardIdentifier: "back-alley-breakline-blue",
@@ -8533,6 +8867,7 @@ Search your deck for a Guardian attack action card with cost less than or equal 
     
     pitch: 3,
     power: 3,
+    
     
     
     
@@ -8593,6 +8928,7 @@ Search your deck for a Guardian attack action card with cost less than or equal 
     
     
     
+    
   },{
     artists: ["Phu Thieu"],
     cardIdentifier: "back-heel-kick-yellow",
@@ -8646,6 +8982,7 @@ Search your deck for a Guardian attack action card with cost less than or equal 
     
     
     
+    
   },{
     artists: ["Phu Thieu"],
     cardIdentifier: "back-heel-kick-blue",
@@ -8686,6 +9023,7 @@ Search your deck for a Guardian attack action card with cost less than or equal 
     
     pitch: 3,
     power: 1,
+    
     
     
     
@@ -8742,6 +9080,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     
     
     
+    
   },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "back-stab-yellow",
@@ -8785,6 +9124,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     pitch: 2,
     power: 2,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -8840,6 +9180,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     
     
     
+    
   },{
     artists: ["bimawithpencil"],
     cardIdentifier: "bad-beats-red",
@@ -8881,6 +9222,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     
     
     pitch: 1,
+    
     
     
     
@@ -8938,6 +9280,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     
     
     
+    
   },{
     artists: ["bimawithpencil"],
     cardIdentifier: "bad-beats-blue",
@@ -8979,6 +9322,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     
     
     pitch: 3,
+    
     
     
     
@@ -9046,6 +9390,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     
     
     
+    
     talents: [Talent.Lightning],
     
   },{
@@ -9103,6 +9448,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     pitch: 2,
     power: 2,
     restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    
     
     
     
@@ -9168,6 +9514,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     
     
     
+    
     talents: [Talent.Lightning],
     
   },{
@@ -9217,6 +9564,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     pitch: 2,
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -9274,6 +9622,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -9322,6 +9671,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     
     pitch: 2,
     power: 4,
+    
     
     
     
@@ -9380,6 +9730,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -9433,6 +9784,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -9481,6 +9833,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     
     pitch: 2,
     power: 3,
+    
     
     
     
@@ -9549,6 +9902,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     
     
     
+    
   },{
     artists: ["Junaidi Lim"],
     cardIdentifier: "barbed-undertow-red",
@@ -9590,6 +9944,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     pitch: 1,
     power: 5,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -9649,6 +10004,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     
     
     
+    
   },{
     artists: ["Yugin Maffioli"],
     cardIdentifier: "bare-fangs-yellow",
@@ -9696,6 +10052,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     
     
     
+    
   },{
     artists: ["Yugin Maffioli"],
     cardIdentifier: "bare-fangs-blue",
@@ -9736,6 +10093,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     
     pitch: 3,
     power: 4,
+    
     
     
     
@@ -9816,6 +10174,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     
     
     
+    
   },{
     artists: ["Olga Khariton"],
     cardIdentifier: "barraging-beatdown-red",
@@ -9879,6 +10238,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -9966,6 +10326,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     
     
     
+    
   },{
     artists: ["Olga Khariton"],
     cardIdentifier: "barraging-beatdown-blue",
@@ -10041,6 +10402,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     
     
     
+    
   },{
     artists: ["Rio Sabda"],
     cardIdentifier: "barraging-big-horn-red",
@@ -10096,6 +10458,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     pitch: 1,
     power: 7,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -10163,6 +10526,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     
     
     
+    
   },{
     artists: ["Rio Sabda"],
     cardIdentifier: "barraging-big-horn-blue",
@@ -10224,6 +10588,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     
     
     
+    
   },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "barraging-brawnhide-red",
@@ -10276,6 +10641,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     
     pitch: 1,
     power: 7,
+    
     
     
     
@@ -10348,6 +10714,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     
     
     
+    
   },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "barraging-brawnhide-blue",
@@ -10413,6 +10780,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     
     
     
+    
   },{
     artists: ["Kanadekana"],
     cardIdentifier: "bastion-of-unity",
@@ -10462,6 +10830,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     
     
     
+    
   },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "battering-bolt-red",
@@ -10503,6 +10872,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     pitch: 1,
     power: 6,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -10572,6 +10942,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -10627,6 +10998,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     pitch: 2,
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -10690,6 +11062,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -10734,6 +11107,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     
     pitch: 1,
     power: 7,
+    
     
     
     
@@ -10788,6 +11162,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -10832,6 +11207,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     
     pitch: 3,
     power: 5,
+    
     
     
     
@@ -10887,6 +11263,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     
     pitch: 1,
     power: 3,
+    
     
     
     
@@ -10955,6 +11332,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     
     
     
+    
   },{
     artists: ["Enmoire"],
     cardIdentifier: "be-like-water-blue",
@@ -11009,6 +11387,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     
     pitch: 3,
     power: 1,
+    
     
     
     
@@ -11077,6 +11456,7 @@ If you've **charged** this turn, search your deck for an action card with cost X
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -11115,6 +11495,7 @@ If a yellow card has been put into your hero's soul this turn, this gets +5{p}.`
     
     
     power: 0,
+    
     
     
     
@@ -11169,6 +11550,7 @@ If a yellow card is **charged** this way, this gets +1{p}`,
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -11214,6 +11596,7 @@ If a yellow card is **charged** this way, this gets +1{p}`,
     pitch: 2,
     power: 2,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -11267,6 +11650,7 @@ If a yellow card is **charged** this way, this gets +1{p}`,
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -11310,6 +11694,7 @@ If a yellow card is **charged** this way, this gets +1{p}`,
     pitch: 1,
     power: 6,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -11381,6 +11766,7 @@ If a yellow card is **charged** this way, this gets +1{p}`,
     
     
     
+    
   },{
     artists: ["Kimberly Pantoni"],
     cardIdentifier: "beaten-trackers",
@@ -11436,6 +11822,7 @@ If a yellow card is **charged** this way, this gets +1{p}`,
     
     
     
+    
   },{
     artists: ["Rio Sabda"],
     cardIdentifier: "beckoning-light-red",
@@ -11479,6 +11866,7 @@ If a yellow card is **charged** this way, whenever an attack action card hits th
     pitch: 1,
     power: 3,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -11551,6 +11939,7 @@ You may discard an action card. If you discard an attack action card this way, s
     
     
     
+    
     specializations: [Hero.Viserai],
     
     
@@ -11609,6 +11998,7 @@ You may discard an action card. If you discard an attack action card this way, s
     pitch: 1,
     power: 3,
     restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
+    
     
     
     
@@ -11676,6 +12066,7 @@ You may discard an action card. If you discard an attack action card this way, s
     
     
     
+    
   },{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "belittle-blue",
@@ -11737,6 +12128,7 @@ You may discard an action card. If you discard an attack action card this way, s
     
     
     
+    
   },{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "bellona-archangel-of-war",
@@ -11782,6 +12174,7 @@ When Bellona attacks, you may banish a card from your hero's soul. If you do, pu
     
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -11872,6 +12265,7 @@ The first time an attack action card you control hits each turn, your next attac
     
     
     
+    
     young: true
   },{
     artists: ["Daria Khlebnikova"],
@@ -11918,6 +12312,7 @@ The next Runeblade attack action card you play this turn costs {r} less to play 
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -11973,6 +12368,7 @@ The next Runeblade attack action card you play this turn costs {r} less to play 
     
     
     
+    
   },{
     artists: ["Marco González"],
     cardIdentifier: "beseech-the-demigon-red",
@@ -12014,6 +12410,7 @@ The next Runeblade attack action card you play this turn costs {r} less to play 
     
     
     pitch: 1,
+    
     
     
     
@@ -12069,6 +12466,7 @@ The next Runeblade attack action card you play this turn costs {r} less to play 
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -12112,6 +12510,7 @@ The next Runeblade attack action card you play this turn costs {r} less to play 
     
     
     pitch: 3,
+    
     
     
     
@@ -12173,6 +12572,7 @@ The next Runeblade attack action card you play this turn costs {r} less to play 
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -12217,6 +12617,7 @@ The next Runeblade attack action card you play this turn costs {r} less to play 
     
     pitch: 2,
     power: 2,
+    
     
     
     
@@ -12271,6 +12672,7 @@ The next Runeblade attack action card you play this turn costs {r} less to play 
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -12314,6 +12716,7 @@ The next Runeblade attack action card you play this turn costs {r} less to play 
     pitch: 1,
     power: 5,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -12365,6 +12768,7 @@ The next time a Mechanologist item with cost 2 or less is banished to pay a **bo
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -12438,6 +12842,7 @@ The next time a Mechanologist item with cost 2 or less is banished to pay a **bo
     
     
     
+    
   },{
     artists: ["Wírawan Pranoto"],
     cardIdentifier: "biting-blade-yellow",
@@ -12491,6 +12896,7 @@ The next time a Mechanologist item with cost 2 or less is banished to pay a **bo
     
     
     pitch: 2,
+    
     
     
     
@@ -12566,6 +12972,7 @@ The next time a Mechanologist item with cost 2 or less is banished to pay a **bo
     
     
     
+    
   },{
     artists: ["Rio Sabda"],
     cardIdentifier: "biting-gale-red",
@@ -12621,6 +13028,7 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -12692,6 +13100,7 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -12749,6 +13158,7 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -12828,6 +13238,7 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
     
     
     
+    
   },{
     artists: ["Carlos Jose Camus"],
     cardIdentifier: "blackout-kick-red",
@@ -12899,6 +13310,7 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
     
     
     
+    
   },{
     artists: ["Carlos Jose Camus"],
     cardIdentifier: "blackout-kick-yellow",
@@ -12958,6 +13370,7 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
     pitch: 2,
     power: 3,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -13029,6 +13442,7 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
     
     
     
+    
   },{
     artists: ["Sariya Asavametha"],
     cardIdentifier: "blacktek-whisperers",
@@ -13080,6 +13494,7 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -13141,6 +13556,7 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
     
     
     
+    
   },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "blade-flash-blue",
@@ -13180,6 +13596,7 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
     
     
     pitch: 3,
+    
     
     
     
@@ -13237,6 +13654,7 @@ Your next weapon attack this turn gains +3{p}.`,
     
     
     
+    
   },{
     artists: ["Federico Musetti"],
     cardIdentifier: "blade-runner-yellow",
@@ -13278,6 +13696,7 @@ Your next weapon attack this turn gains +2{p}.`,
     
     
     pitch: 2,
+    
     
     
     
@@ -13335,6 +13754,7 @@ Your next weapon attack this turn gains +1{p}.`,
     
     
     
+    
   },{
     artists: ["Wisnu Tan"],
     cardIdentifier: "blasmophet-levia-consumed",
@@ -13380,6 +13800,7 @@ Once each turn, you may play a card with **blood debt** from your banished zone.
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -13445,6 +13866,7 @@ Whenever Blasmophet attacks, you may banish a Shadow card from your hand. If you
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -13504,6 +13926,7 @@ Whenever Blasmophet attacks, you may banish a Shadow card from your hand. If you
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -13555,6 +13978,7 @@ Whenever Blasmophet attacks, you may banish a Shadow card from your hand. If you
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -13625,6 +14049,7 @@ Deal X arcane damage to target hero, where X is the amount of arcane damage you 
     
     
     
+    
     specializations: [Hero.Kano],
     
     
@@ -13683,6 +14108,7 @@ Deal X arcane damage to target hero, where X is the amount of arcane damage you 
     
     
     
+    
   },{
     artists: ["Marco González"],
     cardIdentifier: "bleed-out-yellow",
@@ -13732,6 +14158,7 @@ Deal X arcane damage to target hero, where X is the amount of arcane damage you 
     
     
     
+    
   },{
     artists: ["Marco González"],
     cardIdentifier: "bleed-out-blue",
@@ -13775,6 +14202,7 @@ Deal X arcane damage to target hero, where X is the amount of arcane damage you 
     pitch: 3,
     power: 2,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -13834,6 +14262,7 @@ Deal X arcane damage to target hero, where X is the amount of arcane damage you 
     
     
     
+    
   },{
     artists: ["soyameii"],
     cardIdentifier: "blessing-of-aether-yellow",
@@ -13887,6 +14316,7 @@ Deal X arcane damage to target hero, where X is the amount of arcane damage you 
     
     
     
+    
   },{
     artists: ["soyameii"],
     cardIdentifier: "blessing-of-aether-blue",
@@ -13934,6 +14364,7 @@ Deal X arcane damage to target hero, where X is the amount of arcane damage you 
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -14021,6 +14452,7 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     
     
     
+    
   },{
     artists: ["Asep Ariyanto"],
     cardIdentifier: "blessing-of-deliverance-yellow",
@@ -14090,6 +14522,7 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -14177,6 +14610,7 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     
     
     
+    
   },{
     artists: ["Asur Misoa"],
     cardIdentifier: "blessing-of-focus-red",
@@ -14218,6 +14652,7 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -14271,6 +14706,7 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     
     
     
+    
   },{
     artists: ["Asur Misoa"],
     cardIdentifier: "blessing-of-focus-blue",
@@ -14312,6 +14748,7 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -14365,6 +14802,7 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     
     
     
+    
   },{
     artists: ["Kevin Sidharta"],
     cardIdentifier: "blessing-of-ingenuity-yellow",
@@ -14406,6 +14844,7 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -14459,6 +14898,7 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     
     
     
+    
   },{
     artists: ["Federico Musetti"],
     cardIdentifier: "blessing-of-occult-red",
@@ -14500,6 +14940,7 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -14553,6 +14994,7 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     
     
     
+    
   },{
     artists: ["Federico Musetti"],
     cardIdentifier: "blessing-of-occult-blue",
@@ -14594,6 +15036,7 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -14647,6 +15090,7 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     
     
     
+    
   },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "blessing-of-patience-yellow",
@@ -14688,6 +15132,7 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -14741,6 +15186,7 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     
     
     
+    
   },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "blessing-of-qi-red",
@@ -14782,6 +15228,7 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -14835,6 +15282,7 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     
     
     
+    
   },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "blessing-of-qi-blue",
@@ -14876,6 +15324,7 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -14929,6 +15378,7 @@ Gain 3{h}`,
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -14974,6 +15424,7 @@ Gain 2{h}`,
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -15027,6 +15478,7 @@ Gain 1{h}`,
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -15070,6 +15522,7 @@ Gain 1{h}`,
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -15123,6 +15576,7 @@ Gain 1{h}`,
     
     
     
+    
   },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "blessing-of-savagery-blue",
@@ -15164,6 +15618,7 @@ Gain 1{h}`,
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -15221,6 +15676,7 @@ Gain 1{h}`,
     
     
     pitch: 1,
+    
     
     
     
@@ -15288,6 +15744,7 @@ Gain 1{h}`,
     
     
     
+    
   },{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "blessing-of-serenity-blue",
@@ -15347,6 +15804,7 @@ Gain 1{h}`,
     
     
     
+    
   },{
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "blessing-of-spirits-red",
@@ -15390,6 +15848,7 @@ Gain 1{h}`,
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -15445,6 +15904,7 @@ Gain 1{h}`,
     
     
     
+    
   },{
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "blessing-of-spirits-blue",
@@ -15488,6 +15948,7 @@ Gain 1{h}`,
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -15541,6 +16002,7 @@ Gain 1{h}`,
     
     
     
+    
   },{
     artists: ["Rio Sabda"],
     cardIdentifier: "blessing-of-steel-yellow",
@@ -15588,6 +16050,7 @@ Gain 1{h}`,
     
     
     
+    
   },{
     artists: ["Rio Sabda"],
     cardIdentifier: "blessing-of-steel-blue",
@@ -15629,6 +16092,7 @@ Gain 1{h}`,
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -15688,6 +16152,7 @@ Target attacking or defending attack action card gets -3{p}.`,
     
     
     pitch: 1,
+    
     
     
     
@@ -15755,6 +16220,7 @@ Target attacking or defending attack action card gets -2{p}.`,
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -15810,6 +16276,7 @@ Target attacking or defending attack action card gets -1{p}.`,
     
     
     pitch: 3,
+    
     
     
     
@@ -15875,6 +16342,7 @@ Target attacking or defending attack action card gets -1{p}.`,
     
     
     
+    
     talents: [Talent.Lightning],
     
   },{
@@ -15917,6 +16385,7 @@ Target attacking or defending attack action card gets -1{p}.`,
     
     pitch: 1,
     power: 5,
+    
     
     
     
@@ -15969,6 +16438,7 @@ Target attacking or defending attack action card gets -1{p}.`,
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -16011,6 +16481,7 @@ Target attacking or defending attack action card gets -1{p}.`,
     
     pitch: 3,
     power: 3,
+    
     
     
     
@@ -16071,6 +16542,7 @@ Target attacking or defending attack action card gets -1{p}.`,
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -16142,6 +16614,7 @@ If Blizzard Bolt was **fused**, whenever an attack deals damage to a hero this t
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -16198,6 +16671,7 @@ If Blizzard Bolt was **fused**, whenever an attack deals damage to a hero this t
     
     pitch: 2,
     power: 4,
+    
     
     
     
@@ -16264,6 +16738,7 @@ If Blizzard Bolt was **fused**, whenever an attack deals damage to a hero this t
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -16313,6 +16788,7 @@ Your Brute and Shadow attacks get +X{p} this turn where X is the number of cards
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -16378,6 +16854,7 @@ Your Brute and Shadow attacks get +X{p} this turn where X is the number of cards
     
     
     
+    
   },{
     artists: ["Steve Argyle"],
     cardIdentifier: "blood-of-the-dracai-red",
@@ -16421,6 +16898,7 @@ When you pitch Blood of the Dracai, the next 3 Draconic cards you play this turn
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -16479,6 +16957,7 @@ As an additional cost to play Blood on Her Hands, destroy any number of Copper y
     
     
     
+    
     specializations: [Hero.Kassai],
     
     
@@ -16533,6 +17012,7 @@ As an additional cost to play Blood on Her Hands, destroy any number of Copper y
     
     
     pitch: 1,
+    
     
     
     
@@ -16598,6 +17078,7 @@ As an additional cost to play Blood on Her Hands, destroy any number of Copper y
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -16657,6 +17138,7 @@ As an additional cost to play Blood on Her Hands, destroy any number of Copper y
     
     
     pitch: 3,
+    
     
     
     
@@ -16742,6 +17224,7 @@ As an additional cost to play Blood on Her Hands, destroy any number of Copper y
     
     
     
+    
   },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "bloodrot-trap-red",
@@ -16793,6 +17276,7 @@ As an additional cost to play Blood on Her Hands, destroy any number of Copper y
     
     
     pitch: 1,
+    
     
     
     
@@ -16870,6 +17354,7 @@ If the discarded card has 6 or more {p}, draw 2 cards and Bloodrush Bellow gains
     
     
     
+    
   },{
     artists: ["Trung Tin Shinji"],
     cardIdentifier: "bloodsheath-skeleta",
@@ -16937,6 +17422,7 @@ If the discarded card has 6 or more {p}, draw 2 cards and Bloodrush Bellow gains
     
     
     
+    
   },{
     artists: ["Wírawan Pranoto"],
     cardIdentifier: "bloodspill-invocation-red",
@@ -16998,6 +17484,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     
     
     pitch: 1,
+    
     
     
     
@@ -17075,6 +17562,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     
     
     
+    
   },{
     artists: ["Wírawan Pranoto"],
     cardIdentifier: "bloodspill-invocation-blue",
@@ -17136,6 +17624,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     
     
     pitch: 3,
+    
     
     
     
@@ -17209,6 +17698,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     
     
     
+    
   },{
     artists: ["Hoàng Lập"],
     cardIdentifier: "blossoming-spellblade-red",
@@ -17266,6 +17756,7 @@ When you attack with Blossoming Spellblade, if it was **fused**, deal 1 arcane d
     pitch: 1,
     power: 6,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -17337,6 +17828,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -17393,6 +17885,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     
     pitch: 2,
     power: 2,
+    
     
     
     
@@ -17465,6 +17958,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -17532,6 +18026,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     
     
     
+    
   },{
     artists: ["Cristián Huerta"],
     cardIdentifier: "boltn-shot-yellow",
@@ -17585,6 +18080,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     pitch: 2,
     power: 3,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -17650,6 +18146,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     
     
     
+    
   },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "bolting-blade-yellow",
@@ -17703,6 +18200,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     pitch: 2,
     power: 7,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -17774,6 +18272,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     
     
     
+    
     talents: [Talent.Light],
     young: true
   },{
@@ -17829,6 +18328,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     
     
     
+    
   },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "bonds-of-ancestry-yellow",
@@ -17870,6 +18370,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     pitch: 2,
     power: 3,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -17923,6 +18424,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     
     
     
+    
   },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "bone-basher",
@@ -17957,6 +18459,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     
     
     power: 4,
+    
     
     
     
@@ -18023,6 +18526,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     
     
     
+    
   },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "bone-vizier",
@@ -18061,6 +18565,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     
     
     keywords: [Keyword.BladeBreak],
+    
     
     
     
@@ -18143,6 +18648,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -18199,6 +18705,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     
     pitch: 2,
     power: 5,
+    
     
     
     
@@ -18271,6 +18778,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -18326,6 +18834,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -18397,6 +18906,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -18458,6 +18968,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -18514,6 +19025,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     
     pitch: 3,
     power: 1,
+    
     
     
     
@@ -18592,6 +19104,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     
     
     
+    
   },{
     artists: ["Riordan Delmiro"],
     cardIdentifier: "brain-freeze-red",
@@ -18633,6 +19146,7 @@ Target opponent reveals their hand. If Brain Freeze was **fused**, put an action
     
     
     pitch: 1,
+    
     
     
     
@@ -18688,6 +19202,7 @@ Target opponent reveals their hand. If Brain Freeze was **fused**, put an action
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -18737,6 +19252,7 @@ Target opponent reveals their hand. If Brain Freeze was **fused**, put an action
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -18780,6 +19296,7 @@ Target opponent reveals their hand. If Brain Freeze was **fused**, put an action
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -18855,6 +19372,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -18914,6 +19432,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     
     
     pitch: 2,
+    
     
     
     
@@ -18991,6 +19510,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -19046,6 +19566,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -19095,6 +19616,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -19139,6 +19661,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     
     pitch: 3,
     power: 1,
+    
     
     
     
@@ -19207,6 +19730,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     
     
     
+    
   },{
     artists: ["Phu Thieu"],
     cardIdentifier: "brandish-yellow",
@@ -19261,6 +19785,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     
     pitch: 2,
     power: 2,
+    
     
     
     
@@ -19329,6 +19854,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     
     
     
+    
   },{
     artists: ["Adolfo Navarro"],
     cardIdentifier: "braveforge-bracers",
@@ -19384,6 +19910,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -19461,6 +19988,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     
     
     restrictedFormats: [Format.ClassicConstructed],
+    
     
     
     
@@ -19556,6 +20084,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     
     
     
+    
   },{
     artists: ["Marco Wulfr"],
     cardIdentifier: "bravo-star-of-the-show",
@@ -19611,6 +20140,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
     
     
     restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    
     
     
     
@@ -19674,6 +20204,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
     
     
     
+    
     talents: [Talent.Earth],
     
   },{
@@ -19728,6 +20259,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
     
     pitch: 2,
     power: 6,
+    
     
     
     
@@ -19798,6 +20330,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
     
     
     
+    
     talents: [Talent.Earth],
     
   },{
@@ -19839,6 +20372,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
     
     
     pitch: 1,
+    
     
     
     
@@ -19892,6 +20426,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -19933,6 +20468,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
     
     
     pitch: 3,
+    
     
     
     
@@ -19988,6 +20524,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
     
     
     
+    
   },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "breaking-point-red",
@@ -20034,6 +20571,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
     
     pitch: 1,
     power: 5,
+    
     
     
     
@@ -20103,6 +20641,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
     
     
     keywords: [Keyword.Battleworn],
+    
     
     
     
@@ -20187,6 +20726,7 @@ If the discarded card has 6 or more {p}, Breakneck Battery gains **go again**.`,
     
     
     
+    
   },{
     artists: ["Adolfo Navarro"],
     cardIdentifier: "breakneck-battery-yellow",
@@ -20248,6 +20788,7 @@ If the discarded card has 6 or more {p}, Breakneck Battery gains **go again**.`,
     pitch: 2,
     power: 5,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -20321,6 +20862,7 @@ If the discarded card has 6 or more {p}, Breakneck Battery gains **go again**.`,
     
     
     
+    
   },{
     artists: ["Leony Tobing"],
     cardIdentifier: "breeze-rider-boots",
@@ -20382,6 +20924,7 @@ If the discarded card has 6 or more {p}, Breakneck Battery gains **go again**.`,
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -20457,6 +21000,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
     
     
     restrictedFormats: [Format.ClassicConstructed],
+    
     
     
     
@@ -20542,6 +21086,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
     
     
     
+    
     talents: [Talent.Earth,Talent.Elemental,Talent.Lightning],
     
   },{
@@ -20591,6 +21136,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
     
     
     
+    
   },{
     artists: ["Peyeyo"],
     cardIdentifier: "brothers-in-arms-yellow",
@@ -20631,6 +21177,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
     
     pitch: 2,
     power: 5,
+    
     
     
     
@@ -20691,6 +21238,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
     
     
     
+    
   },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "brush-off-red",
@@ -20730,6 +21278,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
     
     
     pitch: 1,
+    
     
     
     
@@ -20785,6 +21334,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
     
     
     
+    
   },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "brush-off-blue",
@@ -20824,6 +21374,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
     
     
     pitch: 3,
+    
     
     
     
@@ -20897,6 +21448,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
     
     
     
+    
   },{
     artists: ["Wisnu Tan"],
     cardIdentifier: "brutal-assault-yellow",
@@ -20949,6 +21501,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
     
     pitch: 2,
     power: 5,
+    
     
     
     
@@ -21021,6 +21574,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
     
     
     
+    
   },{
     artists: ["Federico Musetti"],
     cardIdentifier: "buckle-blue",
@@ -21064,6 +21618,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -21135,6 +21690,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
     
     
     
+    
   },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "buckling-blow-yellow",
@@ -21187,6 +21743,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
     
     pitch: 2,
     power: 7,
+    
     
     
     
@@ -21252,6 +21809,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
     
     pitch: 3,
     power: 6,
+    
     
     
     
@@ -21332,6 +21890,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
     
     
     
+    
   },{
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "burdens-of-the-past-blue",
@@ -21377,6 +21936,7 @@ If there are 10 or more defense reaction cards in their graveyard, draw a card.
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -21452,6 +22012,7 @@ If there are 10 or more defense reaction cards in their graveyard, draw a card.
     
     
     
+    
     talents: [Talent.Earth],
     
   },{
@@ -21512,6 +22073,7 @@ If there are 10 or more defense reaction cards in their graveyard, draw a card.
     
     pitch: 2,
     power: 5,
+    
     
     
     
@@ -21582,6 +22144,7 @@ If there are 10 or more defense reaction cards in their graveyard, draw a card.
     
     
     
+    
     talents: [Talent.Earth],
     
   },{
@@ -21624,6 +22187,7 @@ If there are 10 or more defense reaction cards in their graveyard, draw a card.
     
     pitch: 1,
     power: 2,
+    
     
     
     
@@ -21682,6 +22246,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -21748,6 +22313,7 @@ If Buzz Bolt was **fused**, whenever an attack hits a hero this turn, it deals 1
     
     pitch: 1,
     power: 5,
+    
     
     
     
@@ -21820,6 +22386,7 @@ If Buzz Bolt was **fused**, whenever an attack hits a hero this turn, it deals 1
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -21881,6 +22448,7 @@ If Buzz Bolt was **fused**, whenever an attack hits a hero this turn, it deals 1
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -21926,6 +22494,7 @@ When this defends an attack with {p} greater than its base, the attack can't gai
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -21984,6 +22553,7 @@ When this defends an attack with {p} greater than its base, the attack can't gai
     
     pitch: 1,
     power: 6,
+    
     
     
     
@@ -22050,6 +22620,7 @@ When this defends an attack with {p} greater than its base, the attack can't gai
     
     
     
+    
   },{
     artists: ["Alexey Peregrudov"],
     cardIdentifier: "cadaverous-contraband-blue",
@@ -22109,6 +22680,7 @@ When this defends an attack with {p} greater than its base, the attack can't gai
     
     
     
+    
   },{
     artists: ["Federico Musetti"],
     cardIdentifier: "call-down-the-lightning-yellow",
@@ -22154,6 +22726,7 @@ Your attacks this turn get "Whenever the defending hero adds 1 or more defending
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -22225,6 +22798,7 @@ The next attack action card with cost 2 or less you play this turn gains **go ag
     
     
     
+    
   },{
     artists: ["Joshua Raphael"],
     cardIdentifier: "captains-call-yellow",
@@ -22284,6 +22858,7 @@ The next attack action card with cost 1 or less you play this turn gains **go ag
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -22355,6 +22930,7 @@ The next attack action card with cost 0 you play this turn gains **go again**.
     
     
     
+    
   },{
     artists: ["Sergey Gurskiy"],
     cardIdentifier: "carrion-husk",
@@ -22406,6 +22982,7 @@ At the start of your turn, if you have 13 or less {h}, banish Carrion Husk.
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -22483,6 +23060,7 @@ At the start of your turn, if you have 13 or less {h}, banish Carrion Husk.
     
     
     
+    
   },{
     artists: ["Mike Dalzell"],
     cardIdentifier: "cartilage-crush-yellow",
@@ -22541,6 +23119,7 @@ At the start of your turn, if you have 13 or less {h}, banish Carrion Husk.
     
     pitch: 2,
     power: 6,
+    
     
     
     
@@ -22619,6 +23198,7 @@ At the start of your turn, if you have 13 or less {h}, banish Carrion Husk.
     
     
     
+    
   },{
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "cash-in-yellow",
@@ -22688,6 +23268,7 @@ Draw 2 cards.
     
     
     
+    
   },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "cash-out-blue",
@@ -22733,6 +23314,7 @@ Create a Silver token for each permanent destroyed this way.
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -22798,6 +23380,7 @@ Create a Silver token for each permanent destroyed this way.
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -22855,6 +23438,7 @@ Create a Silver token for each permanent destroyed this way.
     
     
     
+    
   },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "celestial-reprimand-red",
@@ -22894,6 +23478,7 @@ Create a Silver token for each permanent destroyed this way.
     
     
     pitch: 1,
+    
     
     
     
@@ -22947,6 +23532,7 @@ Create a Silver token for each permanent destroyed this way.
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -22988,6 +23574,7 @@ Create a Silver token for each permanent destroyed this way.
     
     
     pitch: 3,
+    
     
     
     
@@ -23041,6 +23628,7 @@ Create a Silver token for each permanent destroyed this way.
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -23082,6 +23670,7 @@ Create a Silver token for each permanent destroyed this way.
     
     
     pitch: 2,
+    
     
     
     
@@ -23135,6 +23724,7 @@ Create a Silver token for each permanent destroyed this way.
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -23178,6 +23768,7 @@ Create a Silver token for each permanent destroyed this way.
     pitch: 1,
     power: 5,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -23251,6 +23842,7 @@ If you have played another Wizard 'non-attack' action card this turn, deal 3 arc
     
     
     
+    
   },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "chains-of-eminence-red",
@@ -23314,6 +23906,7 @@ At the beginning of your action phase, destroy Chains of Eminence`,
     
     
     
+    
   },{
     artists: ["Saad Irfan"],
     cardIdentifier: "chains-of-mephetis-blue",
@@ -23361,6 +23954,7 @@ If a hero would draw a card during an action phase, instead they banish the top 
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -23420,6 +24014,7 @@ If a hero would draw a card during an action phase, instead they banish the top 
     
     
     restrictedFormats: [Format.ClassicConstructed],
+    
     
     
     
@@ -23485,6 +24080,7 @@ If a hero would draw a card during an action phase, instead they banish the top 
     
     
     restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    
     
     
     
@@ -23558,6 +24154,7 @@ Cards and activated abilities cost opposing heroes an additional {r}.
     
     
     
+    
     talents: [Talent.Ice],
     
   },{
@@ -23621,6 +24218,7 @@ Attack action cards you control have +3{p}.
     
     
     
+    
     talents: [Talent.Earth],
     
   },{
@@ -23668,6 +24266,7 @@ Heroes can't reveal cards, search decks, or draw cards from effects.
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -23735,6 +24334,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     
     
     
+    
     talents: [Talent.Lightning],
     
   },{
@@ -23778,6 +24378,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     
     
     pitch: 1,
+    
     
     
     
@@ -23833,6 +24434,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -23876,6 +24478,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     
     
     pitch: 3,
+    
     
     
     
@@ -23927,6 +24530,7 @@ While Ruk'utan is face up in arsenal, whenever you play a card with 6 or more {p
     
     
     restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
+    
     
     
     
@@ -23986,6 +24590,7 @@ While Ruk'utan is face up in arsenal, whenever you play a card with 6 or more {p
     
     
     pitch: 1,
+    
     
     
     
@@ -24059,6 +24664,7 @@ While Ruk'utan is face up in arsenal, whenever you play a card with 6 or more {p
     
     
     
+    
     talents: [Talent.Ice],
     
   },{
@@ -24114,6 +24720,7 @@ While Ruk'utan is face up in arsenal, whenever you play a card with 6 or more {p
     
     
     pitch: 3,
+    
     
     
     
@@ -24176,6 +24783,7 @@ If Chilling Icevein was **fused**, whenever an attack deals damage to a hero thi
     
     pitch: 1,
     power: 5,
+    
     
     
     
@@ -24248,6 +24856,7 @@ If Chilling Icevein was **fused**, whenever an attack deals damage to a hero thi
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -24304,6 +24913,7 @@ If Chilling Icevein was **fused**, whenever an attack deals damage to a hero thi
     
     pitch: 3,
     power: 3,
+    
     
     
     
@@ -24376,6 +24986,7 @@ If Chilling Icevein was **fused**, whenever an attack deals damage to a hero thi
     
     
     
+    
   },{
     artists: ["Emilis Emka"],
     cardIdentifier: "chokeslam-yellow",
@@ -24434,6 +25045,7 @@ If Chilling Icevein was **fused**, whenever an attack deals damage to a hero thi
     
     pitch: 2,
     power: 7,
+    
     
     
     
@@ -24506,6 +25118,7 @@ If Chilling Icevein was **fused**, whenever an attack deals damage to a hero thi
     
     
     
+    
   },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "chorus-of-ironsong-yellow",
@@ -24551,6 +25164,7 @@ Until end of turn, target Dawnblade gets +1{p} and "Damage this would deal can't
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -24626,6 +25240,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     
     
     
+    
   },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "cindering-foresight-yellow",
@@ -24689,6 +25304,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -24764,6 +25380,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     
     
     
+    
   },{
     artists: ["Athiwut B."],
     cardIdentifier: "cinderskin-devotion-red",
@@ -24815,6 +25432,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -24857,6 +25475,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     
     pitch: 2,
     power: 3,
+    
     
     
     
@@ -24910,6 +25529,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     
     pitch: 3,
     power: 2,
+    
     
     
     
@@ -25014,6 +25634,7 @@ Whenever Cintari Saber is defended by 1 or more attack action cards, it gains +1
     
     
     
+    
   },{
     artists: ["Immanuela Crovius"],
     cardIdentifier: "clarity-potion-blue",
@@ -25055,6 +25676,7 @@ Whenever Cintari Saber is defended by 1 or more attack action cards, it gains +1
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -25108,6 +25730,7 @@ Destroy target red aura.`,
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -25157,6 +25780,7 @@ Destroy target yellow aura.`,
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -25202,6 +25826,7 @@ Destroy target blue aura.`,
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -25257,6 +25882,7 @@ Destroy target blue aura.`,
     
     
     
+    
   },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "cleave-red",
@@ -25306,6 +25932,7 @@ Destroy target blue aura.`,
     
     
     
+    
   },{
     artists: ["Yeong-Hao Han"],
     cardIdentifier: "cloak-of-darkness",
@@ -25344,6 +25971,7 @@ Destroy target blue aura.`,
     
     
     keywords: [Keyword.BloodDebt],
+    
     
     
     
@@ -25404,6 +26032,7 @@ When Coalescence Mirage is destroyed, you may put an Illusionist aura card with 
     
     
     
+    
   },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "coalescence-mirage-yellow",
@@ -25453,6 +26082,7 @@ When Coalescence Mirage is destroyed, you may put an Illusionist aura card with 
     
     
     
+    
   },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "coalescence-mirage-blue",
@@ -25495,6 +26125,7 @@ When Coalescence Mirage is destroyed, you may put an Illusionist aura card with 
     
     pitch: 3,
     power: 5,
+    
     
     
     
@@ -25562,6 +26193,7 @@ When Coalescence Mirage is destroyed, you may put an Illusionist aura card with 
     
     
     keywords: [Keyword.GoAgain],
+    
     
     
     
@@ -25642,6 +26274,7 @@ When Coalescence Mirage is destroyed, you may put an Illusionist aura card with 
     
     
     
+    
   },{
     artists: ["Carlos Cruchaga","Mateusz Wiśniewski"],
     cardIdentifier: "codex-of-bloodrot-yellow",
@@ -25693,6 +26326,7 @@ Create a Ponder token under your control and a Bloodrot Pox token under each opp
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -25756,6 +26390,7 @@ Create a Ponder token under your control and a Frailty token under each opponent
     
     
     
+    
   },{
     artists: ["Carlos Cruchaga","Isuardi Therianto"],
     cardIdentifier: "codex-of-inertia-yellow",
@@ -25807,6 +26442,7 @@ Create a Ponder token under your control and an Inertia token under each opponen
     pitch: 2,
     power: 0,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -25880,6 +26516,7 @@ Create a Ponder token under your control and an Inertia token under each opponen
     
     
     
+    
   },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "cold-snap-red",
@@ -25923,6 +26560,7 @@ If Cold Snap is played from arsenal, draw a card.
     
     
     pitch: 1,
+    
     
     
     
@@ -25980,6 +26618,7 @@ If Cold Snap is played from arsenal, draw a card.
     
     
     
+    
     talents: [Talent.Ice],
     
   },{
@@ -26025,6 +26664,7 @@ If Cold Snap is played from arsenal, draw a card.
     
     
     pitch: 3,
+    
     
     
     
@@ -26092,6 +26732,7 @@ If Cold Wave was **fused**, cards and activated abilities cost opposing heroes a
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -26149,6 +26790,7 @@ If Cold Wave was **fused**, cards and activated abilities cost opposing heroes a
     pitch: 2,
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -26214,6 +26856,7 @@ If Cold Wave was **fused**, cards and activated abilities cost opposing heroes a
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -26259,6 +26902,7 @@ When this defends an attack with **go again**, the attacking hero discards their
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -26325,6 +26969,7 @@ When this defends an attack with **go again**, the attacking hero discards their
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -26399,6 +27044,7 @@ When this defends an attack with **go again**, the attacking hero discards their
     
     
     
+    
   },{
     artists: ["Hendry Iwanaga"],
     cardIdentifier: "combustible-courier-blue",
@@ -26466,6 +27112,7 @@ When this defends an attack with **go again**, the attacking hero discards their
     
     
     
+    
   },{
     artists: ["Federico Musetti"],
     cardIdentifier: "combustion-point-red",
@@ -26509,6 +27156,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -26588,6 +27236,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
     
     
     
+    
   },{
     artists: ["Andrey Savchuk"],
     cardIdentifier: "come-to-fight-yellow",
@@ -26653,6 +27302,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
     
     
     pitch: 2,
+    
     
     
     
@@ -26740,6 +27390,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
     
     
     
+    
   },{
     artists: ["Fajareka Setiawan","Othon Nikolaidis"],
     cardIdentifier: "command-and-conquer-red",
@@ -26811,6 +27462,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
     
     
     
+    
   },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "concealed-blade-blue",
@@ -26852,6 +27504,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -26902,6 +27555,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
     
     
     keywords: [Keyword.Quell],
+    
     
     
     
@@ -26962,6 +27616,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -27031,6 +27686,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -27090,6 +27746,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -27145,6 +27802,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
     pitch: 3,
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -27216,6 +27874,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
     
     
     
+    
   },{
     artists: ["Stanislav Sherbakov"],
     cardIdentifier: "consuming-volition-yellow",
@@ -27275,6 +27934,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
     
     
     
+    
   },{
     artists: ["Stanislav Sherbakov"],
     cardIdentifier: "consuming-volition-blue",
@@ -27327,6 +27987,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
     
     pitch: 3,
     power: 2,
+    
     
     
     
@@ -27401,6 +28062,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
     
     
     
+    
   },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "convulsions-from-the-bellows-of-hell-red",
@@ -27458,6 +28120,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -27521,6 +28184,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -27590,6 +28254,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -27679,6 +28344,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     
+    
   },{
     artists: ["soyameii"],
     cardIdentifier: "coronet-peak",
@@ -27732,6 +28398,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     
+    
     talents: [Talent.Ice],
     
   },{
@@ -27759,6 +28426,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     functionalText: `When you play an attack action card or activate a weapon attack, destroy this and the attack gets +1{p}.`,
+    
     
     
     
@@ -27848,6 +28516,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     
+    
   },{
     artists: ["Sam Yang"],
     cardIdentifier: "courageous-steelhand-red",
@@ -27905,6 +28574,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     pitch: 1,
+    
     
     
     
@@ -27976,6 +28646,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -28029,6 +28700,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     pitch: 3,
+    
     
     
     
@@ -28150,6 +28822,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     
+    
   },{
     artists: ["Pavel Chuvin"],
     cardIdentifier: "cracker-jax",
@@ -28198,6 +28871,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     keywords: [Keyword.GoAgain],
+    
     
     
     
@@ -28274,6 +28948,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     
+    
   },{
     artists: ["Asep Ariyanto"],
     cardIdentifier: "crane-dance-yellow",
@@ -28333,6 +29008,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     pitch: 2,
     power: 2,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -28404,6 +29080,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     
+    
   },{
     artists: ["Ksenia Belova"],
     cardIdentifier: "cranial-crush-blue",
@@ -28463,6 +29140,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     
+    
   },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "crankshaft-red",
@@ -28505,6 +29183,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     pitch: 1,
     power: 5,
+    
     
     
     
@@ -28561,6 +29240,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     
+    
   },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "crankshaft-blue",
@@ -28603,6 +29283,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     pitch: 3,
     power: 3,
+    
     
     
     
@@ -28677,6 +29358,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -28758,6 +29440,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     
+    
   },{
     artists: ["Wisnu Tan"],
     cardIdentifier: "crippling-crush-red",
@@ -28822,6 +29505,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     
+    
     specializations: [Hero.Bravo],
     
     
@@ -28878,6 +29562,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     
+    
   },{
     artists: ["Phu Thieu"],
     cardIdentifier: "critical-strike-yellow",
@@ -28918,6 +29603,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     pitch: 2,
     power: 4,
+    
     
     
     
@@ -28972,6 +29658,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     
+    
   },{
     artists: ["Asur Misoa"],
     cardIdentifier: "cromai",
@@ -29013,6 +29700,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     power: 3,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -29077,6 +29765,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     pitch: 1,
     power: 5,
+    
     
     
     
@@ -29147,6 +29836,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -29201,6 +29891,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     pitch: 3,
     power: 3,
+    
     
     
     
@@ -29269,6 +29960,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     
+    
   },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "crows-nest",
@@ -29313,6 +30005,7 @@ Whenever an arrow is put face up into your arsenal from your deck, you may pay {
     
     
     keywords: [Keyword.Specialization],
+    
     
     
     
@@ -29391,6 +30084,7 @@ Whenever an arrow is put face up into your arsenal from your deck, you may pay {
     
     
     
+    
   },{
     artists: ["Andy Aslamov"],
     cardIdentifier: "crown-of-dominion",
@@ -29446,6 +30140,7 @@ When you equip Crown of Dominion, create a Gold token.`,
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -29513,6 +30208,7 @@ When you equip Crown of Dominion, create a Gold token.`,
     
     
     
+    
   },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "crown-of-reflection",
@@ -29556,6 +30252,7 @@ When you equip Crown of Dominion, create a Gold token.`,
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -29609,6 +30306,7 @@ When you equip Crown of Dominion, create a Gold token.`,
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -29692,6 +30390,7 @@ When you equip Crown of Dominion, create a Gold token.`,
     
     
     
+    
   },{
     artists: ["Daniel Jiménez"],
     cardIdentifier: "crush-confidence-red",
@@ -29757,6 +30456,7 @@ When you equip Crown of Dominion, create a Gold token.`,
     
     
     
+    
   },{
     artists: ["Daniel Jiménez"],
     cardIdentifier: "crush-confidence-yellow",
@@ -29815,6 +30515,7 @@ When you equip Crown of Dominion, create a Gold token.`,
     
     pitch: 2,
     power: 6,
+    
     
     
     
@@ -29893,6 +30594,7 @@ When you equip Crown of Dominion, create a Gold token.`,
     
     
     
+    
   },{
     artists: ["Mihail Spil-Haufter"],
     cardIdentifier: "crush-the-weak-red",
@@ -29945,6 +30647,7 @@ When you equip Crown of Dominion, create a Gold token.`,
     
     pitch: 1,
     power: 7,
+    
     
     
     
@@ -30011,6 +30714,7 @@ When you equip Crown of Dominion, create a Gold token.`,
     
     
     
+    
   },{
     artists: ["Mihail Spil-Haufter"],
     cardIdentifier: "crush-the-weak-blue",
@@ -30070,6 +30774,7 @@ When you equip Crown of Dominion, create a Gold token.`,
     
     
     
+    
   },{
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "cryptic-crossing-yellow",
@@ -30111,6 +30816,7 @@ When you equip Crown of Dominion, create a Gold token.`,
     pitch: 2,
     power: 6,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -30170,6 +30876,7 @@ When you equip Crown of Dominion, create a Gold token.`,
     
     
     
+    
   },{
     artists: ["Phu Thieu"],
     cardIdentifier: "cut-down-to-size-yellow",
@@ -30210,6 +30917,7 @@ When you equip Crown of Dominion, create a Gold token.`,
     
     pitch: 2,
     power: 5,
+    
     
     
     
@@ -30264,6 +30972,7 @@ When you equip Crown of Dominion, create a Gold token.`,
     
     
     
+    
   },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "cut-to-the-chase-red",
@@ -30311,6 +31020,7 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
     
     
     pitch: 1,
+    
     
     
     
@@ -30374,6 +31084,7 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
     
     
     
+    
   },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "cut-to-the-chase-blue",
@@ -30429,6 +31140,7 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
     
     
     
+    
   },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "cyclone-roundhouse-yellow",
@@ -30470,6 +31182,7 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
     pitch: 2,
     power: 5,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -30519,6 +31232,7 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
     pitch: 1,
     power: 5,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -30574,6 +31288,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     
     
     
+    
   },{
     artists: ["Marco González"],
     cardIdentifier: "dampen-yellow",
@@ -30617,6 +31332,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -30672,6 +31388,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     
     
     
+    
   },{
     artists: ["Sebastian Szmyd"],
     cardIdentifier: "dance-of-darkness",
@@ -30710,6 +31427,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     
     
     keywords: [Keyword.BloodDebt],
+    
     
     
     
@@ -30780,6 +31498,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     
     
     restrictedFormats: [Format.ClassicConstructed],
+    
     
     
     
@@ -30869,6 +31588,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     
     
     
+    
   },{
     artists: ["Tatiana Trubnikova"],
     cardIdentifier: "data-doll-mkii",
@@ -30939,6 +31659,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     
     
     
+    
     young: true
   },{
     artists: ["Narendra B Adi"],
@@ -30997,6 +31718,7 @@ The next defense reaction card the defending hero plays this turn costs an addit
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -31066,6 +31788,7 @@ The next defense reaction card the defending hero plays this turn costs an addit
     
     
     
+    
   },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "dauntless-blue",
@@ -31123,6 +31846,7 @@ The next defense reaction card the defending hero plays this turn costs an addit
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -31222,6 +31946,7 @@ At the beginning of your end phase, if Dawnblade has not hit this turn, remove a
     
     
     
+    
   },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "dawnblade-resplendent",
@@ -31259,6 +31984,7 @@ The second time you attack with Dawnblade each turn, it gains +1{p} until end of
     
     power: 2,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -31330,6 +32056,7 @@ If Dazzling Crescendo was **fused**, it gains **go again**.`,
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -31386,6 +32113,7 @@ If Dazzling Crescendo was **fused**, it gains **go again**.`,
     
     pitch: 2,
     power: 3,
+    
     
     
     
@@ -31452,6 +32180,7 @@ If Dazzling Crescendo was **fused**, it gains **go again**.`,
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -31505,6 +32234,7 @@ If it has an aim counter, it gains "When this hits a hero, look at their hand an
     
     
     
+    
   },{
     artists: ["Erick Efata"],
     cardIdentifier: "deadly-duo-red",
@@ -31547,6 +32277,7 @@ If it has an aim counter, it gains "When this hits a hero, look at their hand an
     
     pitch: 1,
     power: 3,
+    
     
     
     
@@ -31603,6 +32334,7 @@ If it has an aim counter, it gains "When this hits a hero, look at their hand an
     
     
     
+    
   },{
     artists: ["Erick Efata"],
     cardIdentifier: "deadly-duo-blue",
@@ -31645,6 +32377,7 @@ If it has an aim counter, it gains "When this hits a hero, look at their hand an
     
     pitch: 3,
     power: 1,
+    
     
     
     
@@ -31717,6 +32450,7 @@ If it has an aim counter, it gains "When this hits a hero, look at their hand an
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -31773,6 +32507,7 @@ If it has an aim counter, it gains "When this hits a hero, look at their hand an
     
     pitch: 2,
     power: 7,
+    
     
     
     
@@ -31840,6 +32575,7 @@ If it has an aim counter, it gains "When this hits a hero, look at their hand an
     
     pitch: 3,
     power: 6,
+    
     
     
     
@@ -31924,6 +32660,7 @@ If it has an aim counter, it gains "When this hits a hero, look at their hand an
     
     
     
+    
   },{
     artists: ["Saad Irfan"],
     cardIdentifier: "death-touch-red",
@@ -31985,6 +32722,7 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     
     
     
+    
   },{
     artists: ["Saad Irfan"],
     cardIdentifier: "death-touch-yellow",
@@ -32028,6 +32766,7 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     pitch: 2,
     power: 5,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -32083,6 +32822,7 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     
     
     
+    
   },{
     artists: ["Sam Yang"],
     cardIdentifier: "deathly-delight-red",
@@ -32128,6 +32868,7 @@ When the combat chain closes, gain {h} equal to the number of heroes who have lo
     pitch: 1,
     power: 5,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -32183,6 +32924,7 @@ When the combat chain closes, gain {h} equal to the number of heroes who have lo
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -32230,6 +32972,7 @@ When the combat chain closes, gain {h} equal to the number of heroes who have lo
     pitch: 3,
     power: 3,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -32283,6 +33026,7 @@ When the combat chain closes, gain {h} equal to the number of heroes who have lo
     
     
     
+    
   },{
     artists: ["Maxim Kostin"],
     cardIdentifier: "deathly-duet-yellow",
@@ -32330,6 +33074,7 @@ When the combat chain closes, gain {h} equal to the number of heroes who have lo
     
     
     
+    
   },{
     artists: ["Maxim Kostin"],
     cardIdentifier: "deathly-duet-blue",
@@ -32371,6 +33116,7 @@ When the combat chain closes, gain {h} equal to the number of heroes who have lo
     pitch: 3,
     power: 2,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -32426,6 +33172,7 @@ When the combat chain closes, create Runechant tokens equal to the number of her
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -32477,6 +33224,7 @@ When the combat chain closes, create Runechant tokens equal to the number of her
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -32524,6 +33272,7 @@ When the combat chain closes, create Runechant tokens equal to the number of her
     pitch: 3,
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -32594,6 +33343,7 @@ When the combat chain closes, create Runechant tokens equal to the number of her
     
     pitch: 1,
     power: 8,
+    
     
     
     
@@ -32672,6 +33422,7 @@ When the combat chain closes, create Runechant tokens equal to the number of her
     
     
     
+    
   },{
     artists: ["Yulia Litvinova"],
     cardIdentifier: "debilitate-blue",
@@ -32737,6 +33488,7 @@ When the combat chain closes, create Runechant tokens equal to the number of her
     
     
     
+    
   },{
     artists: ["Stormy Elia Fanggidae"],
     cardIdentifier: "decimator-great-axe",
@@ -32779,6 +33531,7 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     
     
     power: 4,
+    
     
     
     
@@ -32857,6 +33610,7 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     
     
     
+    
   },{
     artists: ["Marcus Reyno"],
     cardIdentifier: "deep-rooted-evil-yellow",
@@ -32916,6 +33670,7 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -32963,9 +33718,11 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     
     
     
+    
     talents: [Talent.Light],
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "defender-of-daybreak-yellow",
     classes: [Class.NotClassed],
@@ -33005,6 +33762,7 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     
     pitch: 2,
     power: 3,
+    
     
     
     
@@ -33052,6 +33810,7 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     
     pitch: 3,
     power: 2,
+    
     
     
     
@@ -33126,8 +33885,8 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     
     
     
-  }];
-  const cards2: Card[] =  [{
+    
+  },{
     artists: ["Carlos Jose Camus"],
     cardIdentifier: "demolition-crew-yellow",
     classes: [Class.Generic],
@@ -33181,6 +33940,7 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     
     pitch: 2,
     power: 5,
+    
     
     
     
@@ -33249,6 +34009,7 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     
     
     
+    
   },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "descendent-gustwave-red",
@@ -33297,6 +34058,7 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     
     pitch: 1,
     power: 3,
+    
     
     
     
@@ -33359,6 +34121,7 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     
     
     
+    
   },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "descendent-gustwave-blue",
@@ -33401,6 +34164,7 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     
     pitch: 3,
     power: 1,
+    
     
     
     
@@ -33461,6 +34225,7 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     
     
     
+    
   },{
     artists: ["Saad Irfan"],
     cardIdentifier: "destructive-deliberation-yellow",
@@ -33501,6 +34266,7 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     
     pitch: 2,
     power: 4,
+    
     
     
     
@@ -33555,6 +34321,7 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     
     
     
+    
   },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "diabolic-offering-blue",
@@ -33600,6 +34367,7 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     restrictedFormats: [Format.Commoner],
     
     specialDefense: "*",
+    
     specialPower: "*",
     
     talents: [Talent.Shadow],
@@ -33647,6 +34415,7 @@ If a 'non-attack' action card was pitched to play Diabolic Ultimatum, each hero 
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -33708,6 +34477,7 @@ If a 'non-attack' action card was pitched to play Diabolic Ultimatum, each hero 
     
     
     
+    
   },{
     artists: ["Kevin Sidharta"],
     cardIdentifier: "dig-up-dinner-blue",
@@ -33751,6 +34521,7 @@ If a 'non-attack' action card was pitched to play Diabolic Ultimatum, each hero 
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -33818,6 +34589,7 @@ If you lose {h} during your turn, destroy Dimenxxional Crossroads.`,
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -33877,6 +34649,7 @@ Reveal the top card of your deck. If it's a Runeblade card, deal 1 arcane damage
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -33944,6 +34717,7 @@ Reveal the top card of your deck. If it's a Runeblade card, deal 1 arcane damage
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -34007,6 +34781,7 @@ Reveal the top card of your deck. If it's a Runeblade card, deal 1 arcane damage
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -34054,6 +34829,7 @@ Each hero banishes a card from their arsenal.
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -34131,6 +34907,7 @@ Each hero banishes a card from their arsenal.
     
     
     
+    
   },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "disable-yellow",
@@ -34190,6 +34967,7 @@ Each hero banishes a card from their arsenal.
     pitch: 2,
     power: 8,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -34267,6 +35045,7 @@ Each hero banishes a card from their arsenal.
     
     
     
+    
   },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "dishonor-blue",
@@ -34310,6 +35089,7 @@ When this hits a hero, if you control Surging Strike, Descendent Gustwave, and B
     pitch: 3,
     power: 2,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -34385,6 +35165,7 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
     
     
     
+    
   },{
     artists: ["Athiwut B."],
     cardIdentifier: "dissolution-sphere-yellow",
@@ -34436,6 +35217,7 @@ Whenever your hero would be dealt exactly 1 damage, prevent it.`,
     
     
     
+    
   },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "dodge-blue",
@@ -34469,6 +35251,7 @@ Whenever your hero would be dealt exactly 1 damage, prevent it.`,
     
     
     pitch: 3,
+    
     
     
     
@@ -34522,6 +35305,7 @@ Whenever your hero would be dealt exactly 1 damage, prevent it.`,
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -34569,6 +35353,7 @@ Create a Blasmophet, the Soul Harvester token.`,
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -34646,6 +35431,7 @@ Create a Blasmophet, the Soul Harvester token.`,
     
     
     restrictedFormats: [Format.ClassicConstructed],
+    
     
     
     
@@ -34741,6 +35527,7 @@ Create a Blasmophet, the Soul Harvester token.`,
     
     
     
+    
   },{
     artists: ["Lius Lasahido"],
     cardIdentifier: "dorinthea-quicksilver-prodigy",
@@ -34776,6 +35563,7 @@ Create a Blasmophet, the Soul Harvester token.`,
     
     
     restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
+    
     
     
     
@@ -34831,6 +35619,7 @@ Create a Blasmophet, the Soul Harvester token.`,
     
     
     
+    
   },{
     artists: ["Kevin Sidharta"],
     cardIdentifier: "down-and-dirty-red",
@@ -34878,6 +35667,7 @@ Create a Blasmophet, the Soul Harvester token.`,
     
     
     
+    
   },{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "dracona-optimai",
@@ -34919,6 +35709,7 @@ Create a Blasmophet, the Soul Harvester token.`,
     
     power: 6,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -34979,6 +35770,7 @@ Draw a card.`,
     
     pitch: 1,
     power: 3,
+    
     
     
     
@@ -35047,6 +35839,7 @@ Draw a card.`,
     
     
     
+    
   },{
     artists: ["Adolfo Navarro"],
     cardIdentifier: "drawn-to-the-dark-dimension-blue",
@@ -35101,6 +35894,7 @@ Draw a card.`,
     
     pitch: 3,
     power: 1,
+    
     
     
     
@@ -35175,6 +35969,7 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -35233,6 +36028,7 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
     
     pitch: 2,
     power: 5,
+    
     
     
     
@@ -35307,6 +36103,7 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -35366,6 +36163,7 @@ A hero dealt damage by Dread Scythe can't gain {h} during their next action phas
     
     power: 3,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -35441,6 +36239,7 @@ If Dread Triptych hits, create a Runechant token.`,
     
     
     
+    
   },{
     artists: ["Junaidi Lim"],
     cardIdentifier: "dreadbore",
@@ -35484,6 +36283,7 @@ Arrows you control have "Defense reactions can't be played from hand this chain 
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -35557,6 +36357,7 @@ Arrows you control have "Defense reactions can't be played from hand this chain 
     
     
     
+    
   },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "driftwood-quiver",
@@ -35601,6 +36402,7 @@ Arrows you control have "Defense reactions can't be played from hand this chain 
     
     
     keywords: [Keyword.Specialization],
+    
     
     
     
@@ -35661,6 +36463,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
     
     
     
+    
   },{
     artists: ["Maria Mishina"],
     cardIdentifier: "drill-shot-yellow",
@@ -35710,6 +36513,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
     
     
     
+    
   },{
     artists: ["Maria Mishina"],
     cardIdentifier: "drill-shot-blue",
@@ -35753,6 +36557,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
     pitch: 3,
     power: 2,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -35824,6 +36629,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
     
     
     pitch: 1,
+    
     
     
     
@@ -35905,6 +36711,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
     
     
     
+    
   },{
     artists: ["Adolfo Navarro"],
     cardIdentifier: "driving-blade-blue",
@@ -35978,6 +36785,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
     
     
     
+    
   },{
     artists: ["Kate Fox"],
     cardIdentifier: "dromai",
@@ -36027,6 +36835,7 @@ If you've played a red card this turn, dragons you control have **go again** whi
     
     
     restrictedFormats: [Format.ClassicConstructed],
+    
     
     
     
@@ -36088,6 +36897,7 @@ If you've played a red card this turn, dragons you control have **go again** whi
     
     
     restrictedFormats: [Format.Blitz,Format.Commoner],
+    
     
     
     
@@ -36159,6 +36969,7 @@ If you've played a red card this turn, dragons you control have **go again** whi
     
     
     
+    
   },{
     artists: ["Leo Avero"],
     cardIdentifier: "drone-of-brutality-yellow",
@@ -36212,6 +37023,7 @@ If you've played a red card this turn, dragons you control have **go again** whi
     pitch: 2,
     power: 5,
     restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    
     
     
     
@@ -36283,6 +37095,7 @@ If you've played a red card this turn, dragons you control have **go again** whi
     
     
     
+    
   },{
     artists: ["Stanislav Sherbakov"],
     cardIdentifier: "drowning-dire-red",
@@ -36325,6 +37138,7 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
     
     pitch: 1,
     power: 5,
+    
     
     
     
@@ -36381,6 +37195,7 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
     
     
     
+    
   },{
     artists: ["Stanislav Sherbakov"],
     cardIdentifier: "drowning-dire-blue",
@@ -36423,6 +37238,7 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
     
     pitch: 3,
     power: 3,
+    
     
     
     
@@ -36485,6 +37301,7 @@ When Dunebreaker Cenipai is destroyed, create an Ash token.
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -36536,6 +37353,7 @@ When Dunebreaker Cenipai is destroyed, create an Ash token.
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -36582,6 +37400,7 @@ When Dunebreaker Cenipai is destroyed, create an Ash token.
     
     pitch: 3,
     power: 3,
+    
     
     
     
@@ -36662,6 +37481,7 @@ When Dunebreaker Cenipai is destroyed, create an Ash token.
     
     
     
+    
   },{
     artists: ["Reza Afshar"],
     cardIdentifier: "dusk-path-pilgrimage-yellow",
@@ -36723,6 +37543,7 @@ When Dunebreaker Cenipai is destroyed, create an Ash token.
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -36796,6 +37617,7 @@ When Dunebreaker Cenipai is destroyed, create an Ash token.
     
     
     
+    
   },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "duskblade",
@@ -36859,6 +37681,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
     
     
     
+    
   },{
     artists: ["Asur Misoa"],
     cardIdentifier: "dust-from-the-golden-plains-red",
@@ -36900,6 +37723,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -36951,6 +37775,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -36994,6 +37819,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -37051,6 +37877,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -37093,6 +37920,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
     
     pitch: 2,
     power: 3,
+    
     
     
     
@@ -37151,6 +37979,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -37204,6 +38033,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -37251,6 +38081,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -37293,6 +38124,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
     
     pitch: 3,
     power: 2,
+    
     
     
     
@@ -37355,6 +38187,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
     
     
     
+    
   },{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "earthlore-bounty",
@@ -37410,6 +38243,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -37481,6 +38315,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
     
     
     
+    
     talents: [Talent.Earth],
     
   },{
@@ -37536,6 +38371,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
     
     
     pitch: 2,
+    
     
     
     
@@ -37609,6 +38445,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
     
     
     pitch: 3,
+    
     
     
     
@@ -37694,6 +38531,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -37741,6 +38579,7 @@ Create an Ursur, the Soul Reaper token.`,
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -37806,6 +38645,7 @@ If you have more {h} than an opposing Light hero, you may banish an action card 
     
     
     pitch: 3,
+    
     
     
     
@@ -37885,6 +38725,7 @@ If you have more {h} than an opposing Light hero, you may banish an action card 
     
     
     
+    
   },{
     artists: ["Reza Afshar"],
     cardIdentifier: "eirinas-prayer-red",
@@ -37944,6 +38785,7 @@ If you have more {h} than an opposing Light hero, you may banish an action card 
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -38015,6 +38857,7 @@ If you have more {h} than an opposing Light hero, you may banish an action card 
     
     
     
+    
   },{
     artists: ["Reza Afshar"],
     cardIdentifier: "eirinas-prayer-blue",
@@ -38074,6 +38917,7 @@ If you have more {h} than an opposing Light hero, you may banish an action card 
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -38147,6 +38991,7 @@ If Electrify is played from arsenal, draw a card.
     
     
     
+    
     talents: [Talent.Lightning],
     
   },{
@@ -38210,6 +39055,7 @@ If Electrify is played from arsenal, draw a card.
     
     
     pitch: 2,
+    
     
     
     
@@ -38291,6 +39137,7 @@ If Electrify is played from arsenal, draw a card.
     
     
     
+    
     talents: [Talent.Lightning],
     
   },{
@@ -38329,6 +39176,7 @@ If Electrify is played from arsenal, draw a card.
     
     
     keywords: [Keyword.GoAgain],
+    
     
     
     
@@ -38393,6 +39241,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -38442,6 +39291,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -38486,6 +39336,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
     
     pitch: 3,
     power: 6,
+    
     
     
     
@@ -38558,6 +39409,7 @@ At the beginning of your action phase, destroy Embodiment of Earth.`,
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -38614,6 +39466,7 @@ At the beginning of your action phase, destroy Embodiment of Earth.`,
     
     
     keywords: [Keyword.GoAgain],
+    
     
     
     
@@ -38694,6 +39547,7 @@ At the beginning of your action phase, destroy Embolden then the next Guardian a
     
     
     
+    
   },{
     artists: ["Irene Francisco"],
     cardIdentifier: "embolden-yellow",
@@ -38751,6 +39605,7 @@ At the beginning of your action phase, destroy Embolden then the next Guardian a
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -38820,6 +39675,7 @@ At the beginning of your action phase, destroy Embolden then the next Guardian a
     
     
     
+    
   },{
     artists: ["Reza Afshar"],
     cardIdentifier: "emerging-avalanche-red",
@@ -38877,6 +39733,7 @@ At the beginning of your action phase, destroy Emerging Avalanche then the next 
     
     
     pitch: 1,
+    
     
     
     
@@ -38948,6 +39805,7 @@ At the beginning of your action phase, destroy Emerging Avalanche then the next 
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -39007,6 +39865,7 @@ At the beginning of your action phase, destroy Emerging Avalanche then the next 
     
     
     pitch: 3,
+    
     
     
     
@@ -39080,6 +39939,7 @@ At the beginning of your action phase, destroy Emerging Avalanche then the next 
     
     
     
+    
   },{
     artists: ["bimawithpencil"],
     cardIdentifier: "emerging-dominance-yellow",
@@ -39145,6 +40005,7 @@ At the beginning of your action phase, destroy Emerging Avalanche then the next 
     
     
     
+    
   },{
     artists: ["bimawithpencil"],
     cardIdentifier: "emerging-dominance-blue",
@@ -39202,6 +40063,7 @@ At the beginning of your action phase, destroy Emerging Avalanche then the next 
     
     
     pitch: 3,
+    
     
     
     
@@ -39277,6 +40139,7 @@ At the beginning of your action phase, destroy Emerging Power then the next Guar
     
     
     
+    
   },{
     artists: ["Fedor Barkhatov"],
     cardIdentifier: "emerging-power-yellow",
@@ -39336,6 +40199,7 @@ At the beginning of your action phase, destroy Emerging Power then the next Guar
     
     
     pitch: 2,
+    
     
     
     
@@ -39405,6 +40269,7 @@ At the beginning of your action phase, destroy Emerging Power then the next Guar
     
     
     
+    
   },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "emeritus-scolding-red",
@@ -39452,6 +40317,7 @@ At the beginning of your action phase, destroy Emerging Power then the next Guar
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -39511,6 +40377,7 @@ At the beginning of your action phase, destroy Emerging Power then the next Guar
     
     
     
+    
   },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "emeritus-scolding-blue",
@@ -39558,6 +40425,7 @@ At the beginning of your action phase, destroy Emerging Power then the next Guar
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -39623,6 +40491,7 @@ At the beginning of your action phase, destroy Emerging Power then the next Guar
     
     
     
+    
     talents: [Talent.Draconic,Talent.Royal],
     young: true
   },{
@@ -39678,6 +40547,7 @@ At the beginning of your action phase, destroy Emerging Power then the next Guar
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -39729,6 +40599,7 @@ At the beginning of your action phase, destroy Emerging Power then the next Guar
     
     
     
+    
   },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "encase-red",
@@ -39772,6 +40643,7 @@ Deal 3 arcane damage to any target. If Encase was **fused** and deals damage to 
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -39847,6 +40719,7 @@ At the beginning of your end phase, destroy Enchanting Melody unless you have pl
     
     
     
+    
   },{
     artists: ["Cristián Huerta"],
     cardIdentifier: "enchanting-melody-yellow",
@@ -39910,6 +40783,7 @@ At the beginning of your end phase, destroy Enchanting Melody unless you have pl
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -39985,6 +40859,7 @@ At the beginning of your end phase, destroy Enchanting Melody unless you have pl
     
     
     
+    
   },{
     artists: ["Igor Heras"],
     cardIdentifier: "endless-arrow-red",
@@ -40044,6 +40919,7 @@ At the beginning of your end phase, destroy Enchanting Melody unless you have pl
     pitch: 1,
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -40117,6 +40993,7 @@ If a card with 6 or more {p} is banished this way, Endless maw gains +3{p}.
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -40176,6 +41053,7 @@ If a card with 6 or more {p} is banished this way, Endless maw gains +3{p}.
     pitch: 2,
     power: 5,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -40243,6 +41121,7 @@ If a card with 6 or more {p} is banished this way, Endless maw gains +3{p}.
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -40304,6 +41183,7 @@ If Endless Winter hits a hero, until the end of their next turn, whenever they a
     pitch: 1,
     power: 8,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -40393,6 +41273,7 @@ If Endless Winter hits a hero, until the end of their next turn, whenever they a
     
     
     
+    
   },{
     artists: ["bimawithpencil"],
     cardIdentifier: "engulfing-flamewave-red",
@@ -40436,6 +41317,7 @@ If Endless Winter hits a hero, until the end of their next turn, whenever they a
     pitch: 1,
     power: 5,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -40489,6 +41371,7 @@ If Endless Winter hits a hero, until the end of their next turn, whenever they a
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -40534,6 +41417,7 @@ If Endless Winter hits a hero, until the end of their next turn, whenever they a
     pitch: 3,
     power: 3,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -40605,6 +41489,7 @@ If you've **charged** this turn, Engulfing Light gains "If this hits, put it int
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -40661,6 +41546,7 @@ If you've **charged** this turn, Engulfing Light gains "If this hits, put it int
     
     pitch: 2,
     power: 2,
+    
     
     
     
@@ -40733,6 +41619,7 @@ If you've **charged** this turn, Engulfing Light gains "If this hits, put it int
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -40793,6 +41680,7 @@ If you've **charged** this turn, Engulfing Light gains "If this hits, put it int
     
     pitch: 1,
     power: 8,
+    
     
     
     
@@ -40865,6 +41753,7 @@ If you've **charged** this turn, Engulfing Light gains "If this hits, put it int
     
     
     
+    
   },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "enigma-chimera-blue",
@@ -40923,6 +41812,7 @@ If you've **charged** this turn, Engulfing Light gains "If this hits, put it int
     
     pitch: 3,
     power: 6,
+    
     
     
     
@@ -41000,6 +41890,7 @@ Choose 1;
     
     
     
+    
   },{
     artists: ["Vito Vivodka"],
     cardIdentifier: "entangle-red",
@@ -41054,6 +41945,7 @@ If Entangle was **fused**, it gains "If this hits a hero, their first attack dur
     
     pitch: 1,
     power: 7,
+    
     
     
     
@@ -41115,6 +42007,7 @@ If Entangle was **fused**, it gains "If this hits a hero, their first attack dur
     
     pitch: 2,
     power: 6,
+    
     
     
     
@@ -41187,6 +42080,7 @@ If Entangle was **fused**, it gains "If this hits a hero, their first attack dur
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -41254,6 +42148,7 @@ If Entwine Earth was **fused**, it gains +2{p}.`,
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -41310,6 +42205,7 @@ If Entwine Earth was **fused**, it gains +2{p}.`,
     
     pitch: 2,
     power: 5,
+    
     
     
     
@@ -41376,6 +42272,7 @@ If Entwine Earth was **fused**, it gains +2{p}.`,
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -41432,6 +42329,7 @@ If Entwine Ice was **fused**, it gains **dominate**.`,
     
     pitch: 1,
     power: 5,
+    
     
     
     
@@ -41498,6 +42396,7 @@ If Entwine Ice was **fused**, it gains **dominate**.`,
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -41554,6 +42453,7 @@ If Entwine Ice was **fused**, it gains **dominate**.`,
     
     pitch: 3,
     power: 3,
+    
     
     
     
@@ -41632,6 +42532,7 @@ If Entwine Lightning was **fused**, it gains **go again**.`,
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -41688,6 +42589,7 @@ If Entwine Lightning was **fused**, it gains **go again**.`,
     
     pitch: 2,
     power: 3,
+    
     
     
     
@@ -41754,6 +42656,7 @@ If Entwine Lightning was **fused**, it gains **go again**.`,
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -41801,6 +42704,7 @@ The next attack action card you **rune gate** this turn gets +3{p}.
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -41856,6 +42760,7 @@ The next attack action card you **rune gate** this turn gets +2{p}.
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -41903,6 +42808,7 @@ The next attack action card you **rune gate** this turn gets +1{p}.
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -41958,6 +42864,7 @@ When this hits a hero, banish the top X cards of their deck, where X is the dama
     
     
     
+    
   },{
     artists: ["Riordan Delmiro"],
     cardIdentifier: "erase-face-red",
@@ -41999,6 +42906,7 @@ When this hits a hero, banish the top X cards of their deck, where X is the dama
     pitch: 1,
     power: 6,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -42060,6 +42968,7 @@ When this hits a hero, banish the top X cards of their deck, where X is the dama
     
     
     
+    
   },{
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "even-bigger-than-that-yellow",
@@ -42115,6 +43024,7 @@ When this hits a hero, banish the top X cards of their deck, where X is the dama
     
     
     
+    
   },{
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "even-bigger-than-that-blue",
@@ -42164,6 +43074,7 @@ When this hits a hero, banish the top X cards of their deck, where X is the dama
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -42233,6 +43144,7 @@ When this hits a hero, banish the top X cards of their deck, where X is the dama
     
     
     
+    
     talents: [Talent.Earth],
     
   },{
@@ -42288,6 +43200,7 @@ When this hits a hero, banish the top X cards of their deck, where X is the dama
     pitch: 2,
     power: 6,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -42357,6 +43270,7 @@ When this hits a hero, banish the top X cards of their deck, where X is the dama
     
     
     
+    
     talents: [Talent.Earth],
     
   },{
@@ -42402,6 +43316,7 @@ If a card with 6 or more {p} is banished this way, you may play it from your ban
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -42475,6 +43390,7 @@ When you attack with Explosive Growth, deal 1 arcane damage to target hero.`,
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -42534,6 +43450,7 @@ When you attack with Explosive Growth, deal 1 arcane damage to target hero.`,
     pitch: 2,
     power: 2,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -42601,6 +43518,7 @@ When you attack with Explosive Growth, deal 1 arcane damage to target hero.`,
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -42660,6 +43578,7 @@ If Exposed to the Elements was **fused** with an Ice card, destroy an equipment 
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -42724,6 +43643,7 @@ If Exposed to the Elements was **fused** with an Ice card, destroy an equipment 
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -42794,6 +43714,7 @@ If Exposed to the Elements was **fused** with an Ice card, destroy an equipment 
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -42848,6 +43769,7 @@ If Exposed to the Elements was **fused** with an Ice card, destroy an equipment 
     
     pitch: 3,
     power: 2,
+    
     
     
     
@@ -42916,6 +43838,7 @@ If Exposed to the Elements was **fused** with an Ice card, destroy an equipment 
     
     
     
+    
   },{
     artists: ["Alexandra Malygina"],
     cardIdentifier: "eye-of-ophidia-blue",
@@ -42959,6 +43882,7 @@ When you pitch Eye of Ophidia, **opt 2**.`,
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -43014,6 +43938,7 @@ When you pitch Eye of Ophidia, **opt 2**.`,
     
     
     restrictedFormats: [Format.ClassicConstructed],
+    
     
     
     
@@ -43075,6 +44000,7 @@ When you pitch Eye of Ophidia, **opt 2**.`,
     
     
     restrictedFormats: [Format.Blitz,Format.Commoner],
+    
     
     
     
@@ -43142,6 +44068,7 @@ When you pitch Eye of Ophidia, **opt 2**.`,
     
     
     
+    
   },{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "falcon-wing-yellow",
@@ -43197,6 +44124,7 @@ When you pitch Eye of Ophidia, **opt 2**.`,
     
     
     
+    
   },{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "falcon-wing-blue",
@@ -43245,6 +44173,7 @@ When you pitch Eye of Ophidia, **opt 2**.`,
     
     pitch: 3,
     power: 1,
+    
     
     
     
@@ -43323,6 +44252,7 @@ When you pitch Eye of Ophidia, **opt 2**.`,
     
     
     
+    
   },{
     artists: ["Anastasia Alexandrova"],
     cardIdentifier: "fate-foreseen-yellow",
@@ -43380,6 +44310,7 @@ When you pitch Eye of Ophidia, **opt 2**.`,
     
     
     pitch: 2,
+    
     
     
     
@@ -43453,6 +44384,7 @@ When you pitch Eye of Ophidia, **opt 2**.`,
     
     
     
+    
   },{
     artists: ["Marco González"],
     cardIdentifier: "fatigue-shot-red",
@@ -43493,6 +44425,7 @@ When you pitch Eye of Ophidia, **opt 2**.`,
     
     pitch: 1,
     power: 5,
+    
     
     
     
@@ -43547,6 +44480,7 @@ When you pitch Eye of Ophidia, **opt 2**.`,
     
     
     
+    
   },{
     artists: ["Marco González"],
     cardIdentifier: "fatigue-shot-blue",
@@ -43587,6 +44521,7 @@ When you pitch Eye of Ophidia, **opt 2**.`,
     
     pitch: 3,
     power: 3,
+    
     
     
     
@@ -43661,6 +44596,7 @@ The next time your hero would be dealt damage this turn, prevent it.`,
     
     
     
+    
   },{
     artists: ["Hilary Purnamasari"],
     cardIdentifier: "feisty-locals-red",
@@ -43707,6 +44643,7 @@ The next time your hero would be dealt damage this turn, prevent it.`,
     
     pitch: 1,
     power: 3,
+    
     
     
     
@@ -43761,6 +44698,7 @@ The next time your hero would be dealt damage this turn, prevent it.`,
     
     
     
+    
   },{
     artists: ["Hilary Purnamasari"],
     cardIdentifier: "feisty-locals-blue",
@@ -43801,6 +44739,7 @@ The next time your hero would be dealt damage this turn, prevent it.`,
     
     pitch: 3,
     power: 1,
+    
     
     
     
@@ -43849,6 +44788,7 @@ The next time your hero would be dealt damage this turn, prevent it.`,
     
     
     pitch: 1,
+    
     
     
     
@@ -43906,6 +44846,7 @@ The next time your hero would be dealt damage this turn, prevent it.`,
     
     
     
+    
   },{
     artists: ["Angelina Tyshchik"],
     cardIdentifier: "felling-swing-blue",
@@ -43947,6 +44888,7 @@ The next time your hero would be dealt damage this turn, prevent it.`,
     
     
     pitch: 3,
+    
     
     
     
@@ -44016,6 +44958,7 @@ If Fervent Forerunner is played from arsenal, it gains **go again**.`,
     
     
     
+    
   },{
     artists: ["Fedor Barkhatov"],
     cardIdentifier: "fervent-forerunner-yellow",
@@ -44070,6 +45013,7 @@ If Fervent Forerunner is played from arsenal, it gains **go again**.`,
     
     pitch: 2,
     power: 2,
+    
     
     
     
@@ -44138,6 +45082,7 @@ If Fervent Forerunner is played from arsenal, it gains **go again**.`,
     
     
     
+    
   },{
     artists: ["Asur Misoa"],
     cardIdentifier: "figment-of-erudition-yellow",
@@ -44181,6 +45126,7 @@ When this enters the arena, create a Ponder token.`,
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -44234,6 +45180,7 @@ When this enters the arena, you may turn a card in any banished zone face-down.`
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -44279,6 +45226,7 @@ When this enters the arena, create a Spectral Shield token.`,
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -44332,6 +45280,7 @@ When this enters the arena, deal 1 arcane damage to any target.`,
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -44377,6 +45326,7 @@ When this enters the arena, you may put a yellow action card from your graveyard
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -44430,6 +45380,7 @@ When this enters the arena, your next attack this turn gets **dominate**.`,
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -44479,6 +45430,7 @@ When this enters the arena, attack action cards your opponents control get -1{p}
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -44524,6 +45476,7 @@ When this enters the arena, create a Courage token.`,
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -44595,6 +45548,7 @@ When this enters the arena, create a Courage token.`,
     
     
     
+    
   },{
     artists: ["Marco Wulfr"],
     cardIdentifier: "firebreathing-red",
@@ -44636,6 +45590,7 @@ When this enters the arena, create a Courage token.`,
     pitch: 1,
     power: 3,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -44713,6 +45668,7 @@ When this enters the arena, create a Courage token.`,
     
     
     
+    
   },{
     artists: ["Tomasz Jedruszek"],
     cardIdentifier: "flail-of-agony",
@@ -44757,6 +45713,7 @@ When this hits, create a Runechant token.`,
     
     
     power: 1,
+    
     
     
     
@@ -44823,6 +45780,7 @@ If Flake Out was **fused**, it gains **dominate**.`,
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -44879,6 +45837,7 @@ If Flake Out was **fused**, it gains **dominate**.`,
     
     pitch: 2,
     power: 4,
+    
     
     
     
@@ -44945,6 +45904,7 @@ If Flake Out was **fused**, it gains **dominate**.`,
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -44995,6 +45955,7 @@ If Flake Out was **fused**, it gains **dominate**.`,
     
     pitch: 1,
     power: 3,
+    
     
     
     
@@ -45061,6 +46022,7 @@ If Flake Out was **fused**, it gains **dominate**.`,
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -45112,6 +46074,7 @@ If Flake Out was **fused**, it gains **dominate**.`,
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -45173,6 +46136,7 @@ If Flake Out was **fused**, it gains **dominate**.`,
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -45244,6 +46208,7 @@ If Flake Out was **fused**, it gains **dominate**.`,
     
     
     
+    
     talents: [Talent.Lightning],
     
   },{
@@ -45301,6 +46266,7 @@ If Flake Out was **fused**, it gains **dominate**.`,
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -45370,6 +46336,7 @@ If Flashfreeze was **fused** with a Lightning card, attacks you control this tur
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -45414,6 +46381,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -45470,6 +46438,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
+    
   },{
     artists: ["Marco González"],
     cardIdentifier: "fleece-the-frail-blue",
@@ -45512,6 +46481,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     pitch: 3,
     power: 2,
+    
     
     
     
@@ -45578,6 +46548,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
+    
   },{
     artists: ["Alexis Susani"],
     cardIdentifier: "fletch-a-blue-tail-blue",
@@ -45623,6 +46594,7 @@ If it has an aim counter, it gains "Blue cards have -1{d} while defending this."
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -45686,6 +46658,7 @@ If it has an aim counter, it gains "Red cards have -1{d} while defending this."
     
     
     
+    
   },{
     artists: ["Alexis Susani"],
     cardIdentifier: "fletch-a-yellow-tail-yellow",
@@ -45731,6 +46704,7 @@ If it has an aim counter, it gains "Yellow cards have -1{d} while defending this
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -45790,6 +46764,7 @@ If it has an aim counter, it gains "Yellow cards have -1{d} while defending this
     
     
     
+    
   },{
     artists: ["Todor Hristov"],
     cardIdentifier: "flex-yellow",
@@ -45837,6 +46812,7 @@ If it has an aim counter, it gains "Yellow cards have -1{d} while defending this
     
     
     
+    
   },{
     artists: ["Todor Hristov"],
     cardIdentifier: "flex-blue",
@@ -45878,6 +46854,7 @@ If it has an aim counter, it gains "Yellow cards have -1{d} while defending this
     pitch: 3,
     power: 2,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -45933,6 +46910,7 @@ If it has an aim counter, it gains "Yellow cards have -1{d} while defending this
     
     
     
+    
   },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "flex-claws-yellow",
@@ -45982,6 +46960,7 @@ If it has an aim counter, it gains "Yellow cards have -1{d} while defending this
     
     
     
+    
   },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "flex-claws-blue",
@@ -46025,6 +47004,7 @@ If it has an aim counter, it gains "Yellow cards have -1{d} while defending this
     pitch: 3,
     power: 2,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -46096,6 +47076,7 @@ If it has an aim counter, it gains "Yellow cards have -1{d} while defending this
     
     
     
+    
   },{
     artists: ["Daniel Jiménez"],
     cardIdentifier: "flic-flak-yellow",
@@ -46155,6 +47136,7 @@ If it has an aim counter, it gains "Yellow cards have -1{d} while defending this
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -46232,6 +47214,7 @@ If it has an aim counter, it gains "Yellow cards have -1{d} while defending this
     
     
     
+    
   },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "flick-knives",
@@ -46287,6 +47270,7 @@ If it has an aim counter, it gains "Yellow cards have -1{d} while defending this
     
     
     
+    
   },{
     artists: ["Athiwut B."],
     cardIdentifier: "flicker-trick-red",
@@ -46328,6 +47312,7 @@ If it has an aim counter, it gains "Yellow cards have -1{d} while defending this
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -46393,6 +47378,7 @@ Deal 1 arcane damage to target hero.
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -46472,6 +47458,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
     
     
     
+    
   },{
     artists: ["Adolfo Navarro"],
     cardIdentifier: "flock-of-the-feather-walkers-yellow",
@@ -46532,6 +47519,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
     
     pitch: 2,
     power: 4,
+    
     
     
     
@@ -46618,6 +47606,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
     
     
     
+    
   },{
     artists: ["Silvia Meiliani"],
     cardIdentifier: "flood-of-force-yellow",
@@ -46677,6 +47666,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
     pitch: 2,
     power: 1,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -46754,6 +47744,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
     
     
     
+    
   },{
     artists: ["Anna Kharitonova"],
     cardIdentifier: "fluster-fist-yellow",
@@ -46807,6 +47798,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
     pitch: 2,
     power: 3,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -46878,6 +47870,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
     
     
     
+    
   },{
     artists: ["Kevin Sidharta"],
     cardIdentifier: "flying-kick-red",
@@ -46936,6 +47929,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
     
     pitch: 1,
     power: 5,
+    
     
     
     
@@ -47002,6 +47996,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
     
     
     
+    
   },{
     artists: ["Kevin Sidharta"],
     cardIdentifier: "flying-kick-blue",
@@ -47061,6 +48056,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
     
     
     
+    
   },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "fog-down-yellow",
@@ -47104,6 +48100,7 @@ At the beginning of your action phase, destroy Fog Down.`,
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -47174,6 +48171,7 @@ If Force of Nature was fused, your next attack this turn gains +1{p}.
     
     
     
+    
     specializations: [Hero.Briar],
     talents: [Talent.Elemental],
     
@@ -47232,6 +48230,7 @@ If Force Sight is played from arsenal, **opt 2**.
     
     
     pitch: 1,
+    
     
     
     
@@ -47303,6 +48302,7 @@ If Force Sight is played from arsenal, **opt 2**.
     
     
     
+    
   },{
     artists: ["Le Vuong"],
     cardIdentifier: "force-sight-blue",
@@ -47358,6 +48358,7 @@ If Force Sight is played from arsenal, **opt 2**.
     
     
     pitch: 3,
+    
     
     
     
@@ -47427,6 +48428,7 @@ If Force Sight is played from arsenal, **opt 2**.
     
     
     
+    
   },{
     artists: ["Jsraphael"],
     cardIdentifier: "foreboding-bolt-yellow",
@@ -47488,6 +48490,7 @@ If Force Sight is played from arsenal, **opt 2**.
     
     
     
+    
   },{
     artists: ["Jsraphael"],
     cardIdentifier: "foreboding-bolt-blue",
@@ -47541,6 +48544,7 @@ If Force Sight is played from arsenal, **opt 2**.
     
     
     pitch: 3,
+    
     
     
     
@@ -47612,6 +48616,7 @@ At the beginning of your action phase, destroy Forged for War.`,
     
     
     
+    
   },{
     artists: ["Igor Heras"],
     cardIdentifier: "forked-lightning-red",
@@ -47677,6 +48682,7 @@ At the beginning of your action phase, destroy Forged for War.`,
     
     
     
+    
   },{
     artists: ["Hoàng Lập"],
     cardIdentifier: "fractal-replication-red",
@@ -47724,6 +48730,7 @@ Fractal Replication's {d} is equal to the greatest base {d} among Illusionist at
     restrictedFormats: [Format.Commoner],
     
     specialDefense: "*",
+    
     specialPower: "*",
     
     
@@ -47807,6 +48814,7 @@ At the beginning of your end phase destroy Frailty.`,
     
     
     
+    
   },{
     artists: ["Vito Vivodka"],
     cardIdentifier: "frailty-trap-red",
@@ -47852,6 +48860,7 @@ At the beginning of your end phase destroy Frailty.`,
     
     
     pitch: 1,
+    
     
     
     
@@ -47925,6 +48934,7 @@ If Frazzle was **fused**, whenever an attack would deal damage this turn, instea
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -47992,6 +49002,7 @@ If Frazzle was **fused**, whenever an attack would deal damage this turn, instea
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -48053,6 +49064,7 @@ If Frazzle was **fused**, whenever an attack would deal damage this turn, instea
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -48095,6 +49107,7 @@ If Frazzle was **fused**, whenever an attack would deal damage this turn, instea
     
     pitch: 1,
     power: 6,
+    
     
     
     
@@ -48149,6 +49162,7 @@ If Frazzle was **fused**, whenever an attack would deal damage this turn, instea
     
     
     
+    
   },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "freewheeling-renegades-blue",
@@ -48189,6 +49203,7 @@ If Frazzle was **fused**, whenever an attack would deal damage this turn, instea
     
     pitch: 3,
     power: 4,
+    
     
     
     
@@ -48239,6 +49254,7 @@ Deal 5 arcane damage to a target hero. If Freezing Point was fused, instead deal
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -48294,6 +49310,7 @@ Deal 5 arcane damage to a target hero. If Freezing Point was fused, instead deal
     
     
     
+    
   },{
     artists: ["Shen Fei"],
     cardIdentifier: "frontline-gauntlets",
@@ -48332,6 +49349,7 @@ Deal 5 arcane damage to a target hero. If Freezing Point was fused, instead deal
     
     
     keywords: [Keyword.BladeBreak],
+    
     
     
     
@@ -48392,6 +49410,7 @@ Deal 5 arcane damage to a target hero. If Freezing Point was fused, instead deal
     
     
     
+    
   },{
     artists: ["Shen Fei"],
     cardIdentifier: "frontline-legs",
@@ -48441,6 +49460,7 @@ Deal 5 arcane damage to a target hero. If Freezing Point was fused, instead deal
     
     
     
+    
   },{
     artists: ["Shen Fei"],
     cardIdentifier: "frontline-plating",
@@ -48479,6 +49499,7 @@ Deal 5 arcane damage to a target hero. If Freezing Point was fused, instead deal
     
     
     keywords: [Keyword.BladeBreak],
+    
     
     
     
@@ -48551,6 +49572,7 @@ If Frontline Scout is played from arsenal, it gains **go again**.`,
     
     
     
+    
   },{
     artists: ["Agus Setiawan"],
     cardIdentifier: "frontline-scout-yellow",
@@ -48612,6 +49634,7 @@ If Frontline Scout is played from arsenal, it gains **go again**.`,
     
     
     
+    
   },{
     artists: ["Agus Setiawan"],
     cardIdentifier: "frontline-scout-blue",
@@ -48666,6 +49689,7 @@ If Frontline Scout is played from arsenal, it gains **go again**.`,
     
     pitch: 3,
     power: 1,
+    
     
     
     
@@ -48736,6 +49760,7 @@ If Frontline Scout is played from arsenal, it gains **go again**.`,
     
     
     
+    
     talents: [Talent.Ice],
     
   },{
@@ -48791,6 +49816,7 @@ If Frontline Scout is played from arsenal, it gains **go again**.`,
     pitch: 2,
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -48854,6 +49880,7 @@ If Frontline Scout is played from arsenal, it gains **go again**.`,
     
     
     
+    
     talents: [Talent.Ice],
     
   },{
@@ -48905,6 +49932,7 @@ Frostbites you control have "At the beginning of your end phase, this deals 1 ar
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -48968,6 +49996,7 @@ If Frost Lock was **fused**, it gains +1{p} and "If this hits a hero, until the 
     pitch: 3,
     power: 3,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -49057,6 +50086,7 @@ At the beginning of your end phase or when you play a card or activate an abilit
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -49098,6 +50128,7 @@ At the beginning of your end phase or when you play a card or activate an abilit
     
     
     pitch: 1,
+    
     
     
     
@@ -49151,6 +50182,7 @@ At the beginning of your end phase or when you play a card or activate an abilit
     
     
     
+    
     talents: [Talent.Ice],
     
   },{
@@ -49192,6 +50224,7 @@ At the beginning of your end phase or when you play a card or activate an abilit
     
     
     pitch: 3,
+    
     
     
     
@@ -49263,6 +50296,7 @@ If Fulminate was **fused** with a Lightning card, attack action cards you contro
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -49316,6 +50350,7 @@ Create a Runechant token.
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -49359,6 +50394,7 @@ Create a Runechant token.
     pitch: 1,
     power: 7,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -49412,6 +50448,7 @@ Create a Runechant token.
     
     
     
+    
   },{
     artists: ["Joseph Qiu"],
     cardIdentifier: "fyendals-fighting-spirit-blue",
@@ -49453,6 +50490,7 @@ Create a Runechant token.
     pitch: 3,
     power: 5,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -49546,6 +50584,7 @@ Create a Runechant token.
     
     
     
+    
   },{
     artists: ["Federico Musetti"],
     cardIdentifier: "galaxxi-black",
@@ -49609,6 +50648,7 @@ If Galaxxi Black hits a hero, deal 1 arcane damage to that hero.`,
     
     power: 1,
     restrictedFormats: [Format.ClassicConstructed],
+    
     
     
     
@@ -49688,6 +50728,7 @@ If Galaxxi Black hits a hero, deal 1 arcane damage to that hero.`,
     
     
     
+    
   },{
     artists: ["Angelina Tyshchik"],
     cardIdentifier: "galvanic-bender",
@@ -49732,6 +50773,7 @@ If Galaxxi Black hits a hero, deal 1 arcane damage to that hero.`,
     
     
     keywords: [Keyword.Battleworn,Keyword.Material],
+    
     
     
     
@@ -49814,6 +50856,7 @@ If Galaxxi Black hits a hero, deal 1 arcane damage to that hero.`,
     
     
     
+    
   },{
     artists: ["Jessica Nguyen"],
     cardIdentifier: "gavel-of-natural-order",
@@ -49853,6 +50896,7 @@ Whenever an opponent plays or activates their first card or ability each turn, i
     
     power: 2,
     restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    
     
     
     
@@ -49914,6 +50958,7 @@ If you have played another Wizard 'non-attack' action card this turn, put Gaze t
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -49985,6 +51030,7 @@ If you have played another Wizard 'non-attack' action card this turn, put Gaze t
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -50034,6 +51080,7 @@ If you have played another Wizard 'non-attack' action card this turn, put Gaze t
     
     
     restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
+    
     
     
     
@@ -50089,6 +51136,7 @@ If you have played another Wizard 'non-attack' action card this turn, put Gaze t
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -50166,6 +51214,7 @@ If you have played another Wizard 'non-attack' action card this turn, put Gaze t
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -50228,6 +51277,7 @@ If you have played another Wizard 'non-attack' action card this turn, put Gaze t
     
     pitch: 2,
     power: 3,
+    
     
     
     
@@ -50300,6 +51350,7 @@ If you have played another Wizard 'non-attack' action card this turn, put Gaze t
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -50345,6 +51396,7 @@ If you have played another Wizard 'non-attack' action card this turn, put Gaze t
     pitch: 1,
     power: 3,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -50416,6 +51468,7 @@ If Glacial Footsteps was **fused**, it gains **dominate**.`,
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -50472,6 +51525,7 @@ If Glacial Footsteps was **fused**, it gains **dominate**.`,
     
     pitch: 2,
     power: 9,
+    
     
     
     
@@ -50544,6 +51598,7 @@ If Glacial Footsteps was **fused**, it gains **dominate**.`,
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -50588,6 +51643,7 @@ If Glacial Footsteps was **fused**, it gains **dominate**.`,
     
     
     keywords: [Keyword.Freeze,Keyword.GoAgain],
+    
     
     
     
@@ -50646,6 +51702,7 @@ If a yellow card is **charged** this way, this gets **overpower**.`,
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -50695,6 +51752,7 @@ If a yellow card is **charged** this way, this gets **overpower**.`,
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -50739,6 +51797,7 @@ If a yellow card is **charged** this way, this gets **overpower**.`,
     
     pitch: 3,
     power: 2,
+    
     
     
     
@@ -50813,6 +51872,7 @@ If a yellow card is **charged** this way, this gets **overpower**.`,
     
     
     
+    
   },{
     artists: ["Marco González"],
     cardIdentifier: "glisten-red",
@@ -50868,6 +51928,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -50933,6 +51994,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -50994,6 +52056,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -51037,6 +52100,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -51084,6 +52148,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
     
     
     
+    
   },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "gold",
@@ -51120,6 +52185,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
     
     
     keywords: [Keyword.GoAgain],
+    
     
     
     
@@ -51220,6 +52286,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
     
     
     
+    
   },{
     artists: ["Andy Aslamov"],
     cardIdentifier: "good-deeds-dont-go-unnoticed-yellow",
@@ -51257,6 +52324,7 @@ At the start of your turn, destroy this. If another hero drew a card from this, 
     pitch: 2,
     
     restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    
     
     
     
@@ -51304,6 +52372,7 @@ At the start of your turn, destroy this. If another hero drew a card from this, 
     pitch: 1,
     power: 7,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -51379,6 +52448,7 @@ Draw X cards, where X is 1 plus the number of Gorganian Tomes in all graveyards.
     
     
     
+    
   },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "grandeur-of-valahai-blue",
@@ -51416,6 +52486,7 @@ When you pitch Grandeur of Valahai, create a Seismic Surge token.`,
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -51460,6 +52531,7 @@ When you pitch Grandeur of Valahai, create a Seismic Surge token.`,
     
     
     keywords: [Keyword.BloodDebt],
+    
     
     
     
@@ -51532,6 +52604,7 @@ When you pitch Grandeur of Valahai, create a Seismic Surge token.`,
     
     
     
+    
   },{
     artists: ["Marco Wulfr"],
     cardIdentifier: "graveling-growl-red",
@@ -51592,6 +52665,7 @@ When you pitch Grandeur of Valahai, create a Seismic Surge token.`,
     
     pitch: 1,
     power: 7,
+    
     
     
     
@@ -51658,6 +52732,7 @@ When you pitch Grandeur of Valahai, create a Seismic Surge token.`,
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -51719,6 +52794,7 @@ When you pitch Grandeur of Valahai, create a Seismic Surge token.`,
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -51766,6 +52842,7 @@ At the beginning of each end phase, if a hero has 2 or more cards with yellow co
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -51821,6 +52898,7 @@ Gain 3{h}
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -51868,6 +52946,7 @@ Gain 2{h}
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -51923,6 +53002,7 @@ Gain 1{h}
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -51970,6 +53050,7 @@ Gain 1{h}
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -52035,6 +53116,7 @@ Gain 1{h}
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -52088,6 +53170,7 @@ The next time you hit a hero this turn, destroy a non-token aura they own with c
     
     
     
+    
   },{
     artists: ["Federico Musetti"],
     cardIdentifier: "hala-goldenhelm",
@@ -52131,6 +53214,7 @@ While Hala is face up in arsenal, whenever a sword attack you control hits, it g
     
     
     restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
+    
     
     
     
@@ -52214,6 +53298,7 @@ While Hala is face up in arsenal, whenever a sword attack you control hits, it g
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -52268,6 +53353,7 @@ While Hala is face up in arsenal, whenever a sword attack you control hits, it g
     
     pitch: 1,
     power: 5,
+    
     
     
     
@@ -52334,6 +53420,7 @@ While Hala is face up in arsenal, whenever a sword attack you control hits, it g
     
     
     
+    
   },{
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "hamstring-shot-blue",
@@ -52393,6 +53480,7 @@ While Hala is face up in arsenal, whenever a sword attack you control hits, it g
     
     
     
+    
   },{
     artists: ["Joseph Qiu"],
     cardIdentifier: "hanabi-blaster",
@@ -52444,6 +53532,7 @@ The third time you play a card with **boost** each turn, put a steam counter on 
     
     power: 5,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -52589,6 +53678,7 @@ If you have a card in your pitch zone with cost 0, Harmonized Kodachi has **go a
     
     
     
+    
   },{
     artists: ["Iain Miki"],
     cardIdentifier: "hatchet-of-body",
@@ -52643,6 +53733,7 @@ Whenever you attack with Hatchet of Body, if Hatchet of Mind was the last attack
     
     
     power: 2,
+    
     
     
     
@@ -52711,6 +53802,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     
     
     
+    
   },{
     artists: ["Saad Irfan"],
     cardIdentifier: "haze-bending-blue",
@@ -52760,6 +53852,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -52855,6 +53948,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     
     
     
+    
   },{
     artists: ["Maxim Kostin","Sam Yang"],
     cardIdentifier: "head-jab-yellow",
@@ -52931,6 +54025,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     
     pitch: 2,
     power: 2,
+    
     
     
     
@@ -53033,6 +54128,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     
     
     
+    
   },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "head-leads-the-tail-red",
@@ -53076,6 +54172,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     pitch: 1,
     power: 3,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -53140,6 +54237,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -53212,6 +54310,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     
     
     
+    
   },{
     artists: ["Igor Heras"],
     cardIdentifier: "head-shot-blue",
@@ -53277,6 +54376,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     
     
     
+    
   },{
     artists: ["Dmitry Isakevitch"],
     cardIdentifier: "healing-balm-red",
@@ -53322,6 +54422,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     
     
     pitch: 1,
+    
     
     
     
@@ -53377,6 +54478,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     
     
     
+    
   },{
     artists: ["Dmitry Isakevitch"],
     cardIdentifier: "healing-balm-blue",
@@ -53416,6 +54518,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     
     
     pitch: 3,
+    
     
     
     
@@ -53471,6 +54574,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     
     
     
+    
   },{
     artists: ["Adolfo Navarro"],
     cardIdentifier: "heart-of-fyendal-blue",
@@ -53514,6 +54618,7 @@ When you pitch Heart of Fyendal, if you have less {h} than an opposing hero, gai
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -53571,6 +54676,7 @@ When you pitch Heart of Fyendal, if you have less {h} than an opposing hero, gai
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -53666,6 +54772,7 @@ When you pitch Heart of Fyendal, if you have less {h} than an opposing hero, gai
     
     
     
+    
   },{
     artists: ["Irina Si"],
     cardIdentifier: "heat-seeker-red",
@@ -53707,6 +54814,7 @@ When you pitch Heart of Fyendal, if you have less {h} than an opposing hero, gai
     pitch: 1,
     power: 5,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -53763,6 +54871,7 @@ When you pitch Heart of Fyendal, if you have less {h} than an opposing hero, gai
     
     
     keywords: [Keyword.Quell],
+    
     
     
     
@@ -53837,6 +54946,7 @@ When you pitch Heart of Fyendal, if you have less {h} than an opposing hero, gai
     
     
     
+    
     talents: [Talent.Lightning],
     
   },{
@@ -53902,6 +55012,7 @@ When you pitch Heart of Fyendal, if you have less {h} than an opposing hero, gai
     
     
     
+    
     talents: [Talent.Lightning],
     
   },{
@@ -53956,6 +55067,7 @@ When you pitch Heart of Fyendal, if you have less {h} than an opposing hero, gai
     
     pitch: 3,
     power: 3,
+    
     
     
     
@@ -54018,6 +55130,7 @@ When you pitch Heart of Fyendal, if you have less {h} than an opposing hero, gai
     
     
     
+    
   },{
     artists: ["Lizhe Liang"],
     cardIdentifier: "hell-hammer",
@@ -54056,6 +55169,7 @@ When the combat chain closes, if this attacked, banish it.
     
     
     power: 6,
+    
     
     
     
@@ -54142,6 +55256,7 @@ When the combat chain closes, if this attacked, banish it.
     
     
     
+    
   },{
     artists: ["Federico Musetti"],
     cardIdentifier: "helm-of-sharp-eye",
@@ -54185,6 +55300,7 @@ When the combat chain closes, if this attacked, banish it.
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -54250,6 +55366,7 @@ When the combat chain closes, if this attacked, banish it.
     
     
     
+    
   },{
     artists: ["Shen Fei"],
     cardIdentifier: "hemorrhage-bore-yellow",
@@ -54303,6 +55420,7 @@ When the combat chain closes, if this attacked, banish it.
     
     
     
+    
   },{
     artists: ["Shen Fei"],
     cardIdentifier: "hemorrhage-bore-blue",
@@ -54349,6 +55467,7 @@ When the combat chain closes, if this attacked, banish it.
     
     pitch: 3,
     power: 3,
+    
     
     
     
@@ -54419,6 +55538,7 @@ If Herald of Erudition hits, put it into your hero's soul and draw 2 cards.
     pitch: 2,
     power: 5,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -54503,6 +55623,7 @@ When this hits, put it into your hero's soul and the defending hero can't play c
     
     
     
+    
     specializations: [Hero.Prism],
     talents: [Talent.Light],
     
@@ -54583,6 +55704,7 @@ When this hits, put it into your hero's soul and the defending hero can't play c
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -54651,6 +55773,7 @@ When this hits, put it into your hero's soul and the defending hero can't play c
     
     pitch: 2,
     power: 6,
+    
     
     
     
@@ -54735,6 +55858,7 @@ When this hits, put it into your hero's soul and the defending hero can't play c
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -54814,6 +55938,7 @@ When this hits, put it into your hero's soul and the defending hero can't play c
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -54882,6 +56007,7 @@ When this hits, put it into your hero's soul and the defending hero can't play c
     
     pitch: 2,
     power: 6,
+    
     
     
     
@@ -54966,6 +56092,7 @@ When this hits, put it into your hero's soul and the defending hero can't play c
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -55045,6 +56172,7 @@ When this hits, put it into your hero's soul and the defending hero can't play c
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -55113,6 +56241,7 @@ When this hits, put it into your hero's soul and the defending hero can't play c
     
     pitch: 2,
     power: 6,
+    
     
     
     
@@ -55192,6 +56321,7 @@ When this hits, put it into your hero's soul and the defending hero can't play c
     
     pitch: 3,
     power: 5,
+    
     
     
     
@@ -55278,6 +56408,7 @@ When this hits, put it into your hero's soul.
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -55348,6 +56479,7 @@ When this hits, put it into your hero's soul.
     
     pitch: 2,
     power: 5,
+    
     
     
     
@@ -55434,6 +56566,7 @@ When this hits, put it into your hero's soul.
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -55499,6 +56632,7 @@ When this hits, put it into your hero's soul.
     pitch: 1,
     power: 7,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -55572,6 +56706,7 @@ When this hits, put it into your hero's soul.
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -55637,6 +56772,7 @@ When this hits, put it into your hero's soul.
     pitch: 3,
     power: 5,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -55711,6 +56847,7 @@ When this hits, put it into your hero's soul.
     
     
     
+    
   },{
     artists: ["Yolanda Felicia"],
     cardIdentifier: "hexagore-the-death-hydra",
@@ -55766,6 +56903,7 @@ Whenever you attack with Hexagore, it deals damage to you equal to 6 minus the n
     
     power: 6,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -55841,6 +56979,7 @@ Draw a card.
     
     
     
+    
   },{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "high-roller-red",
@@ -55886,6 +57025,7 @@ If you have rolled a 4, 5, or 6 on a die this turn, instead **intimidate** twice
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -55943,6 +57083,7 @@ If you have rolled a 5 or 6 on a die this turn, instead **intimidate** twice.
     
     
     
+    
   },{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "high-roller-blue",
@@ -55988,6 +57129,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -56061,6 +57203,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
     
     
     
+    
   },{
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "high-speed-impact-yellow",
@@ -56122,6 +57265,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
     pitch: 2,
     power: 3,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -56195,6 +57339,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
     
     
     
+    
   },{
     artists: ["Marco Wulfr"],
     cardIdentifier: "high-striker-red",
@@ -56244,6 +57389,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -56305,6 +57451,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
     
     
     
+    
   },{
     artists: ["Marco Wulfr"],
     cardIdentifier: "high-striker-blue",
@@ -56354,6 +57501,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -56429,6 +57577,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
     
     
     
+    
   },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "hit-and-run-yellow",
@@ -56490,6 +57639,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
     
     
     pitch: 2,
+    
     
     
     
@@ -56573,6 +57723,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
     
     
     
+    
   },{
     artists: ["Tomasz Jedruszek"],
     cardIdentifier: "hold-the-line-blue",
@@ -56614,6 +57765,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -56669,6 +57821,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
     cost: 0,
     defense: 0,
     functionalText: `**Instant** - Destroy Honing Hood: Return all cards in your arsenal to your hand, then put a card from your hand face down into your arsenal.`,
+    
     
     
     
@@ -56741,6 +57894,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
     
     
     keywords: [Keyword.Battleworn],
+    
     
     
     
@@ -56829,6 +57983,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
     
     
     
+    
   },{
     artists: ["Grigoriy Parshakov"],
     cardIdentifier: "hornets-sting",
@@ -56873,6 +58028,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
     
     
     keywords: [Keyword.BladeBreak],
+    
     
     
     
@@ -56953,6 +58109,7 @@ The next attack action card you play this turn gains +3{p}.
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -57014,6 +58171,7 @@ The next attack action card you play this turn gains +2{p}.
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -57083,6 +58241,7 @@ The next attack action card you play this turn gains +1{p}.
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -57138,6 +58297,7 @@ The next attack action card you play this turn gains +1{p}.
     
     
     
+    
   },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "humble-yellow",
@@ -57179,6 +58339,7 @@ The next attack action card you play this turn gains +1{p}.
     pitch: 2,
     power: 5,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -57232,6 +58393,7 @@ The next attack action card you play this turn gains +1{p}.
     
     
     
+    
   },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "hummingbird-adventurers-call",
@@ -57276,6 +58438,7 @@ The next attack action card you play this turn gains +1{p}.
     
     
     restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    
     
     
     
@@ -57337,6 +58500,7 @@ The next attack action card you play this turn gains +1{p}.
     
     
     
+    
   },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "hundred-winds-yellow",
@@ -57386,6 +58550,7 @@ The next attack action card you play this turn gains +1{p}.
     pitch: 2,
     power: 2,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -57447,6 +58612,7 @@ The next attack action card you play this turn gains +1{p}.
     
     
     
+    
   },{
     artists: ["Simon Dominic"],
     cardIdentifier: "hungering-demigon-red",
@@ -57492,6 +58658,7 @@ When this hits a hero, banish a card from their soul.
     pitch: 1,
     power: 6,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -57547,6 +58714,7 @@ When this hits a hero, banish a card from their soul.
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -57594,6 +58762,7 @@ When this hits a hero, banish a card from their soul.
     pitch: 3,
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -57660,6 +58829,7 @@ When this hits a hero, banish a card from their soul.
     
     pitch: 1,
     power: 7,
+    
     
     
     
@@ -57732,6 +58902,7 @@ When this hits a hero, banish a card from their soul.
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -57788,6 +58959,7 @@ When this hits a hero, banish a card from their soul.
     
     pitch: 3,
     power: 5,
+    
     
     
     
@@ -57850,6 +59022,7 @@ When this hits a hero, banish a card from their soul.
     
     
     
+    
   },{
     artists: ["Tanapon Wachirakul"],
     cardIdentifier: "hurl-yellow",
@@ -57899,6 +59072,7 @@ When this hits a hero, banish a card from their soul.
     
     
     
+    
   },{
     artists: ["Tanapon Wachirakul"],
     cardIdentifier: "hurl-blue",
@@ -57942,6 +59116,7 @@ When this hits a hero, banish a card from their soul.
     pitch: 3,
     power: 1,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -58001,6 +59176,7 @@ When this hits a hero, banish a card from their soul.
     pitch: 2,
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -58086,6 +59262,7 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     
     
     
+    
   },{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "hyper-driver-yellow",
@@ -58133,6 +59310,7 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     
     
     pitch: 2,
+    
     
     
     
@@ -58196,6 +59374,7 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     
     
     
+    
   },{
     artists: ["Alexis Susani"],
     cardIdentifier: "hypothermia-blue",
@@ -58243,6 +59422,7 @@ At the beginning of your end phase, destroy Hypothermia.`,
     
     
     
+    
     talents: [Talent.Ice],
     
   },{
@@ -58284,6 +59464,7 @@ At the beginning of your end phase, destroy Hypothermia.`,
     
     
     pitch: 1,
+    
     
     
     
@@ -58337,6 +59518,7 @@ At the beginning of your end phase, destroy Hypothermia.`,
     
     
     
+    
     talents: [Talent.Ice],
     
   },{
@@ -58378,6 +59560,7 @@ At the beginning of your end phase, destroy Hypothermia.`,
     
     
     pitch: 3,
+    
     
     
     
@@ -58440,6 +59623,7 @@ Create X Frostbite tokens under target hero's control. Then, if Ice Eternal was 
     specialCost: "XX",
     
     
+    
     specializations: [Hero.Iyslander],
     talents: [Talent.Elemental],
     
@@ -58500,6 +59684,7 @@ Whenever an attack hits a hero this turn, create a Frostbite token under their c
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -58567,6 +59752,7 @@ Whenever an attack hits a hero this turn, create a Frostbite token under their c
     
     
     
+    
     talents: [Talent.Ice],
     
   },{
@@ -58626,6 +59812,7 @@ Whenever an attack hits a hero this turn, create a Frostbite token under their c
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -58695,6 +59882,7 @@ If Ice Storm was **fused**, your next arrow attack this turn gains "If this hits
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -58738,6 +59926,7 @@ Deal 3 arcane damage to any target. If Icebind was **fused** and deals damage to
     
     
     pitch: 1,
+    
     
     
     
@@ -58793,6 +59982,7 @@ Deal 2 arcane damage to any target. If Icebind was **fused** and deals damage to
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -58836,6 +60026,7 @@ Deal 1 arcane damage to any target. If Icebind was **fused** and deals damage to
     
     
     pitch: 3,
+    
     
     
     
@@ -58901,6 +60092,7 @@ Deal 1 arcane damage to any target. If Icebind was **fused** and deals damage to
     
     
     
+    
     talents: [Talent.Ice],
     
   },{
@@ -58960,6 +60152,7 @@ Deal 1 arcane damage to any target. If Icebind was **fused** and deals damage to
     
     
     
+    
     talents: [Talent.Ice],
     
   },{
@@ -59014,6 +60207,7 @@ Deal 1 arcane damage to any target. If Icebind was **fused** and deals damage to
     
     pitch: 3,
     power: 4,
+    
     
     
     
@@ -59084,6 +60278,7 @@ Deal 1 arcane damage to any target. If Icebind was **fused** and deals damage to
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -59138,6 +60333,7 @@ Deal 1 arcane damage to any target. If Icebind was **fused** and deals damage to
     
     pitch: 2,
     power: 3,
+    
     
     
     
@@ -59214,6 +60410,7 @@ Deal 1 arcane damage to any target. If Icebind was **fused** and deals damage to
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -59257,6 +60454,7 @@ Deal 1 arcane damage to any target. If Icebind was **fused** and deals damage to
     pitch: 1,
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -59315,6 +60513,7 @@ Deal 1 arcane damage to any target. If Icebind was **fused** and deals damage to
     
     pitch: 1,
     power: 5,
+    
     
     
     
@@ -59379,6 +60578,7 @@ Deal 1 arcane damage to any target. If Icebind was **fused** and deals damage to
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -59433,6 +60633,7 @@ Deal 1 arcane damage to any target. If Icebind was **fused** and deals damage to
     
     pitch: 3,
     power: 3,
+    
     
     
     
@@ -59495,6 +60696,7 @@ Deal 1 arcane damage to any target. If Icebind was **fused** and deals damage to
     
     
     
+    
   },{
     artists: ["Aleksey Peregudov"],
     cardIdentifier: "imperial-ledger-red",
@@ -59544,6 +60746,7 @@ Deal 1 arcane damage to any target. If Icebind was **fused** and deals damage to
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -59605,6 +60808,7 @@ Deal 1 arcane damage to any target. If Icebind was **fused** and deals damage to
     
     
     
+    
   },{
     artists: ["Simon Wong"],
     cardIdentifier: "imposing-visage-blue",
@@ -59649,6 +60853,7 @@ Deal 1 arcane damage to any target. If Icebind was **fused** and deals damage to
     
     restrictedFormats: [Format.Commoner],
     specialCost: "X3",
+    
     
     
     
@@ -59715,6 +60920,7 @@ Target weapon attack gains +3{p}.`,
     
     
     
+    
   },{
     artists: ["Bramasta Aji"],
     cardIdentifier: "in-the-swing-yellow",
@@ -59764,6 +60970,7 @@ Target weapon attack gains +2{p}.`,
     
     
     
+    
   },{
     artists: ["Bramasta Aji"],
     cardIdentifier: "in-the-swing-blue",
@@ -59805,6 +61012,7 @@ Target weapon attack gains +1{p}.`,
     
     
     pitch: 3,
+    
     
     
     
@@ -59880,6 +61088,7 @@ Target weapon attack gains +1{p}.`,
     
     
     
+    
   },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "increase-the-tension-yellow",
@@ -59933,6 +61142,7 @@ Target weapon attack gains +1{p}.`,
     
     
     pitch: 2,
+    
     
     
     
@@ -60002,6 +61212,7 @@ Target weapon attack gains +1{p}.`,
     
     
     
+    
   },{
     artists: ["Wírawan Pranoto"],
     cardIdentifier: "index-red",
@@ -60053,6 +61264,7 @@ Target weapon attack gains +1{p}.`,
     
     
     pitch: 1,
+    
     
     
     
@@ -60120,6 +61332,7 @@ Target weapon attack gains +1{p}.`,
     
     
     
+    
   },{
     artists: ["Wírawan Pranoto"],
     cardIdentifier: "index-blue",
@@ -60171,6 +61384,7 @@ Target weapon attack gains +1{p}.`,
     
     
     pitch: 3,
+    
     
     
     
@@ -60240,6 +61454,7 @@ Target weapon attack gains +1{p}.`,
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -60323,6 +61538,7 @@ Target weapon attack gains +1{p}.`,
     
     
     
+    
   },{
     artists: ["Erick Efata"],
     cardIdentifier: "inertia-trap-red",
@@ -60368,6 +61584,7 @@ Target weapon attack gains +1{p}.`,
     
     
     pitch: 1,
+    
     
     
     
@@ -60437,6 +61654,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     
     
     
+    
   },{
     artists: ["Muhammad Fajri"],
     cardIdentifier: "infect-yellow",
@@ -60491,6 +61709,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     
     pitch: 2,
     power: 2,
+    
     
     
     
@@ -60559,6 +61778,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     
     
     
+    
   },{
     artists: ["Kalashnikova N."],
     cardIdentifier: "infecting-shot-red",
@@ -60607,6 +61827,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     
     pitch: 1,
     power: 5,
+    
     
     
     
@@ -60669,6 +61890,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     
     
     
+    
   },{
     artists: ["Kalashnikova N."],
     cardIdentifier: "infecting-shot-blue",
@@ -60711,6 +61933,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     
     pitch: 3,
     power: 3,
+    
     
     
     
@@ -60765,6 +61988,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     
     
     
+    
   },{
     artists: ["Joseph Qiu"],
     cardIdentifier: "infectious-host-yellow",
@@ -60806,6 +62030,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     pitch: 2,
     power: 3,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -60859,6 +62084,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     
     
     
+    
   },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "infiltrate-red",
@@ -60902,6 +62128,7 @@ When this hits a hero, banish the top card of their deck. You may play it until 
     pitch: 1,
     power: 3,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -60967,6 +62194,7 @@ When this hits a hero, banish the top card of their deck. You may play it until 
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -61012,6 +62240,7 @@ Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you d
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -61071,6 +62300,7 @@ If Inspire Lightning was **fused**, deal 3 arcane damage to target hero.`,
     
     
     pitch: 1,
+    
     
     
     
@@ -61138,6 +62368,7 @@ If Inspire Lightning was **fused**, deal 2 arcane damage to target hero.`,
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -61193,6 +62424,7 @@ If Inspire Lightning was **fused**, deal 1 arcane damage to target hero.`,
     
     
     pitch: 3,
+    
     
     
     
@@ -61262,6 +62494,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -61323,6 +62556,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     pitch: 1,
+    
     
     
     
@@ -61396,6 +62630,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -61457,6 +62692,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     pitch: 3,
+    
     
     
     
@@ -61528,6 +62764,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -61583,6 +62820,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     pitch: 2,
     power: 5,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -61646,6 +62884,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -61693,6 +62932,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -61736,6 +62976,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -61789,6 +63030,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -61834,6 +63076,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -61885,6 +63128,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -61928,6 +63172,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -61979,6 +63224,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -62022,6 +63268,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -62083,6 +63330,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -62126,6 +63374,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -62179,6 +63428,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -62226,6 +63476,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -62269,6 +63520,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -62357,6 +63609,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
+    
     young: true
   },{
     artists: ["Jessada Sutthi","Madeline Boni"],
@@ -62418,6 +63671,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     keywords: [Keyword.GoAgain],
+    
     
     
     
@@ -62494,6 +63748,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
+    
   },{
     artists: ["Alsu Nurieva"],
     cardIdentifier: "ironhide-helm",
@@ -62543,6 +63798,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     defense: 0,
     functionalText: `When you defend with Ironhide Helm, you may pay {r}. If you do, it gains +2{d} and "When the combat chain closes, destroy Ironhide Helm."`,
+    
     
     
     
@@ -62642,6 +63898,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
+    
   },{
     artists: ["Regina Krivolapova"],
     cardIdentifier: "ironhide-plate",
@@ -62685,6 +63942,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     defense: 0,
     functionalText: `When you defend with Ironhide Plate, you may pay {r}. If you do, it gains +2{d} and destroy it when the combat chain closes.`,
+    
     
     
     
@@ -62790,6 +64048,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
+    
   },{
     artists: ["Yulia Litvinova"],
     cardIdentifier: "ironrot-helm",
@@ -62868,6 +64127,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     keywords: [Keyword.BladeBreak],
+    
     
     
     
@@ -62986,6 +64246,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
+    
   },{
     artists: ["Gorshkov Stanislav"],
     cardIdentifier: "ironrot-plate",
@@ -63069,6 +64330,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
+    
   },{
     artists: ["Olga Khariton"],
     cardIdentifier: "ironsong-determination-yellow",
@@ -63130,6 +64392,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
+    
   },{
     artists: ["soyameii"],
     cardIdentifier: "ironsong-pride-red",
@@ -63181,6 +64444,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -63270,6 +64534,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     
     
     
+    
   },{
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "ironsong-response-yellow",
@@ -63333,6 +64598,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     
     
     pitch: 2,
+    
     
     
     
@@ -63418,6 +64684,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     
     
     
+    
   },{
     artists: ["Athiwut B."],
     cardIdentifier: "ironsong-versus",
@@ -63473,6 +64740,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     
     
     
+    
   },{
     artists: ["Lizhe Liang"],
     cardIdentifier: "isenhowl-weathervane-red",
@@ -63516,6 +64784,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -63569,6 +64838,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     
     
     
+    
     talents: [Talent.Ice],
     
   },{
@@ -63614,6 +64884,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -63681,6 +64952,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     
     
     
+    
   },{
     artists: ["Shen Fei"],
     cardIdentifier: "isolate-yellow",
@@ -63736,6 +65008,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     
     
     
+    
   },{
     artists: ["Shen Fei"],
     cardIdentifier: "isolate-blue",
@@ -63784,6 +65057,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     
     pitch: 3,
     power: 1,
+    
     
     
     
@@ -63864,6 +65138,7 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
     
     
     
+    
     talents: [Talent.Elemental,Talent.Ice],
     young: true
   },{
@@ -63927,6 +65202,7 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
     
     
     
+    
     talents: [Talent.Elemental,Talent.Ice],
     
   },{
@@ -63984,6 +65260,7 @@ Whenever this hits a hero and you don't control a Spellbane Aegis, create a Spel
     
     
     
+    
   },{
     artists: ["Amelia Tan"],
     cardIdentifier: "jump-start-red",
@@ -64026,6 +65303,7 @@ Whenever this hits a hero and you don't control a Spellbane Aegis, create a Spel
     
     pitch: 1,
     power: 5,
+    
     
     
     
@@ -64082,6 +65360,7 @@ Whenever this hits a hero and you don't control a Spellbane Aegis, create a Spel
     
     
     
+    
   },{
     artists: ["Amelia Tan"],
     cardIdentifier: "jump-start-blue",
@@ -64124,6 +65403,7 @@ Whenever this hits a hero and you don't control a Spellbane Aegis, create a Spel
     
     pitch: 3,
     power: 3,
+    
     
     
     
@@ -64190,6 +65470,7 @@ Whenever this hits a hero and you don't control a Spellbane Aegis, create a Spel
     
     
     restrictedFormats: [Format.ClassicConstructed],
+    
     
     
     
@@ -64279,6 +65560,7 @@ Whenever this hits a hero and you don't control a Spellbane Aegis, create a Spel
     
     
     
+    
   },{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "kassai-cintari-sellsword",
@@ -64346,6 +65628,7 @@ At the beginning of your end phase, if you have attacked 2 or more times with we
     
     
     restrictedFormats: [Format.ClassicConstructed],
+    
     
     
     
@@ -64435,6 +65718,7 @@ At the beginning of your end phase, if you have attacked 2 or more times with we
     
     
     restrictedFormats: [Format.ClassicConstructed],
+    
     
     
     
@@ -64536,6 +65820,7 @@ At the beginning of your end phase, if you have attacked 2 or more times with we
     
     
     
+    
   },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "kavdaen-trader-of-skins",
@@ -64601,6 +65886,7 @@ At the beginning of your end phase, if you have attacked 2 or more times with we
     
     
     restrictedFormats: [Format.ClassicConstructed],
+    
     
     
     
@@ -64681,6 +65967,7 @@ At the beginning of your end phase, if you have attacked 2 or more times with we
     
     
     
+    
     young: true
   },{
     artists: ["Carlos Cruchaga"],
@@ -64737,6 +66024,7 @@ Search your deck for a card with Amulet, Potion, or Talisman in its name, put it
     
     
     
+    
   },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "knives-out-blue",
@@ -64778,6 +66066,7 @@ Search your deck for a card with Amulet, Potion, or Talisman in its name, put it
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -64835,6 +66124,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -64884,6 +66174,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
     
     
     
+    
   },{
     artists: ["Steve Argyle"],
     cardIdentifier: "kyloria",
@@ -64925,6 +66216,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
     
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -64986,6 +66278,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
     
     
     
+    
   },{
     artists: ["Marco González"],
     cardIdentifier: "lace-with-frailty-red",
@@ -65035,6 +66328,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -65096,6 +66390,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
     
     
     
+    
   },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "lady-barthimont",
@@ -65139,6 +66434,7 @@ While Barthimont is face up in arsenal, whenever you play an attack action card,
     
     
     restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
+    
     
     
     
@@ -65210,6 +66506,7 @@ While Barthimont is face up in arsenal, whenever you play an attack action card,
     
     
     
+    
   },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "lava-burst-red",
@@ -65256,6 +66553,7 @@ While Barthimont is face up in arsenal, whenever you play an attack action card,
     
     pitch: 1,
     power: 2,
+    
     
     
     
@@ -65314,6 +66612,7 @@ While Barthimont is face up in arsenal, whenever you play an attack action card,
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -65356,6 +66655,7 @@ While Barthimont is face up in arsenal, whenever you play an attack action card,
     
     pitch: 2,
     power: 2,
+    
     
     
     
@@ -65414,6 +66714,7 @@ While Barthimont is face up in arsenal, whenever you play an attack action card,
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -65459,6 +66760,7 @@ When this hits a hero, you may turn a card in their banished zone face-down.`,
     pitch: 1,
     power: 5,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -65512,6 +66814,7 @@ When this hits a hero, you may turn a card in their banished zone face-down.`,
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -65557,6 +66860,7 @@ When this hits a hero, you may turn a card in their banished zone face-down.`,
     pitch: 3,
     power: 3,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -65616,6 +66920,7 @@ When this hits a hero, you may turn a card in their banished zone face-down.`,
     
     
     pitch: 1,
+    
     
     
     
@@ -65685,6 +66990,7 @@ When this hits a hero, you may turn a card in their banished zone face-down.`,
     
     
     
+    
   },{
     artists: ["David Ogilvie"],
     cardIdentifier: "lead-the-charge-blue",
@@ -65746,6 +67052,7 @@ When this hits a hero, you may turn a card in their banished zone face-down.`,
     
     
     
+    
   },{
     artists: ["soyameii"],
     cardIdentifier: "leave-no-witnesses-red",
@@ -65789,6 +67096,7 @@ When this hits a hero, banish the top card of their deck and up to 1 card in the
     pitch: 1,
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -65859,6 +67167,7 @@ When this hits a hero, banish the top card of their deck and up to 1 card in the
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -65937,6 +67246,7 @@ When this hits a hero, banish the top card of their deck and up to 1 card in the
     
     
     
+    
   },{
     artists: ["Le Vuong"],
     cardIdentifier: "leg-tap-blue",
@@ -65995,6 +67305,7 @@ When this hits a hero, banish the top card of their deck and up to 1 card in the
     
     pitch: 3,
     power: 2,
+    
     
     
     
@@ -66068,6 +67379,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     
     
     
+    
     specializations: [Hero.Kano],
     
     
@@ -66134,6 +67446,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     
     
     
+    
     talents: [Talent.Shadow],
     young: true
   },{
@@ -66181,6 +67494,7 @@ Cards you own lose **blood debt**.`,
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -66256,6 +67570,7 @@ Cards you own lose **blood debt**.`,
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -66313,6 +67628,7 @@ Cards you own lose **blood debt**.`,
     
     
     restrictedFormats: [Format.ClassicConstructed],
+    
     
     
     
@@ -66380,6 +67696,7 @@ Cards you own lose **blood debt**.`,
     
     
     restrictedFormats: [Format.Blitz,Format.Commoner],
+    
     
     
     
@@ -66453,6 +67770,7 @@ When you play Life for a Life, if you have less {h} than an opposing hero, it ga
     
     
     
+    
   },{
     artists: ["Regina Krivolapova"],
     cardIdentifier: "life-for-a-life-yellow",
@@ -66514,6 +67832,7 @@ When you play Life for a Life, if you have less {h} than an opposing hero, it ga
     pitch: 2,
     power: 3,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -66587,6 +67906,7 @@ When you play Life for a Life, if you have less {h} than an opposing hero, it ga
     
     
     
+    
   },{
     artists: ["Sam Yang"],
     cardIdentifier: "life-of-the-party-red",
@@ -66638,6 +67958,7 @@ When you play Life for a Life, if you have less {h} than an opposing hero, it ga
     pitch: 1,
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -66701,6 +68022,7 @@ When you play Life for a Life, if you have less {h} than an opposing hero, it ga
     
     
     
+    
   },{
     artists: ["Sam Yang"],
     cardIdentifier: "life-of-the-party-blue",
@@ -66752,6 +68074,7 @@ When you play Life for a Life, if you have less {h} than an opposing hero, it ga
     pitch: 3,
     power: 2,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -66820,6 +68143,7 @@ If Light it Up deals damage to a hero equal to or greater than the number of equ
     
     
     
+    
     specializations: [Hero.Lexi],
     talents: [Talent.Elemental],
     
@@ -66870,6 +68194,7 @@ When this is pitched, reveal the top card of your deck. If it's yellow, you may 
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -66914,6 +68239,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
     
     pitch: 1,
     power: 3,
+    
     
     
     
@@ -66968,6 +68294,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -67012,6 +68339,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
     
     pitch: 3,
     power: 1,
+    
     
     
     
@@ -67082,6 +68410,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
     
     
     
+    
     talents: [Talent.Lightning],
     
   },{
@@ -67137,6 +68466,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -67200,6 +68530,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
     
     
     
+    
     talents: [Talent.Lightning],
     
   },{
@@ -67254,6 +68585,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -67324,6 +68656,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
     
     
     
+    
     talents: [Talent.Lightning],
     
   },{
@@ -67383,6 +68716,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
     
     
     
+    
     talents: [Talent.Lightning],
     
   },{
@@ -67426,6 +68760,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -67487,6 +68822,7 @@ If you have **boosted** this turn, **opt 1**.
     
     
     pitch: 1,
+    
     
     
     
@@ -67558,6 +68894,7 @@ If you have **boosted** this turn, **opt 1**.
     
     
     
+    
   },{
     artists: ["Leony Tobing"],
     cardIdentifier: "locked-and-loaded-blue",
@@ -67621,6 +68958,7 @@ If you have **boosted** this turn, **opt 1**.
     
     
     
+    
   },{
     artists: ["Junaidi Lim"],
     cardIdentifier: "long-shot-red",
@@ -67661,6 +68999,7 @@ If you have **boosted** this turn, **opt 1**.
     
     pitch: 1,
     power: 3,
+    
     
     
     
@@ -67715,6 +69054,7 @@ If you have **boosted** this turn, **opt 1**.
     
     
     
+    
   },{
     artists: ["Junaidi Lim"],
     cardIdentifier: "long-shot-blue",
@@ -67755,6 +69095,7 @@ If you have **boosted** this turn, **opt 1**.
     
     pitch: 3,
     power: 1,
+    
     
     
     
@@ -67809,6 +69150,7 @@ If you have **boosted** this turn, **opt 1**.
     
     
     
+    
   },{
     artists: ["Shen Fei"],
     cardIdentifier: "looking-for-a-scrap-yellow",
@@ -67856,7 +69198,9 @@ If you have **boosted** this turn, **opt 1**.
     
     
     
-  },{
+    
+  }];
+  const cards3: Card[] =  [{
     artists: ["Shen Fei"],
     cardIdentifier: "looking-for-a-scrap-blue",
     classes: [Class.Generic],
@@ -67897,6 +69241,7 @@ If you have **boosted** this turn, **opt 1**.
     pitch: 3,
     power: 2,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -67958,8 +69303,8 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
     
     
     
-  }];
-  const cards3: Card[] =  [{
+    
+  },{
     artists: ["Andrey Savchuk"],
     cardIdentifier: "lord-of-wind-blue",
     classes: [Class.Ninja],
@@ -68023,6 +69368,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
     
     
     
+    
     specializations: [Hero.Katsu],
     
     
@@ -68075,6 +69421,7 @@ While Sutcliffe is face up in arsenal, whenever you play a 'non-attack' action c
     
     
     
+    
   },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "lost-in-thought-red",
@@ -68118,6 +69465,7 @@ While Sutcliffe is face up in arsenal, whenever you play a 'non-attack' action c
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -68192,6 +69540,7 @@ If you've **charged** this turn, you may attack an additional time with each wea
     
     
     
+    
     specializations: [Hero.Boltyn],
     talents: [Talent.Light],
     
@@ -68240,6 +69589,7 @@ If you've **charged** this turn, you may attack an additional time with each wea
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -68311,6 +69661,7 @@ While there is a card with a yellow color strip in your pitch zone, Illusionist 
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -68355,6 +69706,7 @@ While there is a card with a yellow color strip in your pitch zone, Illusionist 
     
     
     keywords: [Keyword.GoAgain],
+    
     
     
     
@@ -68418,6 +69770,7 @@ While there is a card with a yellow color strip in your pitch zone, Illusionist 
     
     pitch: 1,
     power: 7,
+    
     
     
     
@@ -68494,6 +69847,7 @@ While there is a card with a yellow color strip in your pitch zone, Illusionist 
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -68548,6 +69902,7 @@ While there is a card with a yellow color strip in your pitch zone, Illusionist 
     
     pitch: 3,
     power: 5,
+    
     
     
     
@@ -68638,6 +69993,7 @@ While there is a card with a yellow color strip in your pitch zone, Illusionist 
     
     
     
+    
   },{
     artists: ["Andy Aslamov"],
     cardIdentifier: "macho-grande-red",
@@ -68684,6 +70040,7 @@ While there is a card with a yellow color strip in your pitch zone, Illusionist 
     
     pitch: 1,
     power: 10,
+    
     
     
     
@@ -68744,6 +70101,7 @@ While there is a card with a yellow color strip in your pitch zone, Illusionist 
     
     
     
+    
   },{
     artists: ["Andy Aslamov"],
     cardIdentifier: "macho-grande-blue",
@@ -68790,6 +70148,7 @@ While there is a card with a yellow color strip in your pitch zone, Illusionist 
     
     pitch: 3,
     power: 8,
+    
     
     
     
@@ -68846,6 +70205,7 @@ If the discarded card has 6 or more {p}, Madcap Charger has **go again**.`,
     
     
     
+    
   },{
     artists: ["Septimius Ferdian"],
     cardIdentifier: "madcap-charger-yellow",
@@ -68888,6 +70248,7 @@ If the discarded card has 6 or more {p}, Madcap Charger has **go again**.`,
     
     pitch: 2,
     power: 4,
+    
     
     
     
@@ -68944,6 +70305,7 @@ If the discarded card has 6 or more {p}, Madcap Charger has **go again**.`,
     
     
     
+    
   },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "madcap-muscle-red",
@@ -68986,6 +70348,7 @@ If the discarded card has 6 or more {p}, Madcap Muscle has +3{p}.`,
     
     pitch: 1,
     power: 6,
+    
     
     
     
@@ -69042,6 +70405,7 @@ If the discarded card has 6 or more {p}, Madcap Muscle has +3{p}.`,
     
     
     
+    
   },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "madcap-muscle-blue",
@@ -69084,6 +70448,7 @@ If the discarded card has 6 or more {p}, Madcap Muscle has +3{p}.`,
     
     pitch: 3,
     power: 4,
+    
     
     
     
@@ -69162,6 +70527,7 @@ If the discarded card has 6 or more {p}, Madcap Muscle has +3{p}.`,
     
     
     
+    
   },{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "malign-red",
@@ -69210,6 +70576,7 @@ Damage that would be dealt by Malign can't be prevented.`,
     
     pitch: 1,
     power: 3,
+    
     
     
     
@@ -69266,6 +70633,7 @@ Damage that would be dealt by Malign can't be prevented.`,
     
     
     
+    
   },{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "malign-blue",
@@ -69308,6 +70676,7 @@ Damage that would be dealt by Malign can't be prevented.`,
     
     pitch: 3,
     power: 1,
+    
     
     
     
@@ -69412,6 +70781,7 @@ If you have discarded a card with 6 or more {p} this turn, Mandible Claw gains *
     
     
     
+    
   },{
     artists: ["Federico Musetti"],
     cardIdentifier: "mangle-red",
@@ -69477,6 +70847,7 @@ If you have discarded a card with 6 or more {p} this turn, Mandible Claw gains *
     
     
     
+    
   },{
     artists: ["Elena Bakulina"],
     cardIdentifier: "mark-of-lightning",
@@ -69526,6 +70897,7 @@ If you have discarded a card with 6 or more {p} this turn, Mandible Claw gains *
     
     defense: 0,
     functionalText: `Whenever a Lightning or Elemental attack you control is defended by a card from hand, you may destroy Mark of Lightning. If you do, the attack deals 1 damage to the defending hero.`,
+    
     
     
     
@@ -69607,6 +70979,7 @@ If you have discarded a card with 6 or more {p} this turn, Mandible Claw gains *
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -69665,6 +71038,7 @@ If you have discarded a card with 6 or more {p} this turn, Mandible Claw gains *
     
     
     keywords: [Keyword.GoAgain],
+    
     
     
     
@@ -69737,6 +71111,7 @@ If you have discarded a card with 6 or more {p} this turn, Mandible Claw gains *
     
     
     
+    
   },{
     artists: ["Kate Fox"],
     cardIdentifier: "mask-of-momentum",
@@ -69798,6 +71173,7 @@ If you have discarded a card with 6 or more {p} this turn, Mandible Claw gains *
     
     
     
+    
   },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "mask-of-perdition",
@@ -69849,6 +71225,7 @@ If you have discarded a card with 6 or more {p} this turn, Mandible Claw gains *
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -69920,6 +71297,7 @@ If you have discarded a card with 6 or more {p} this turn, Mandible Claw gains *
     
     
     
+    
   },{
     artists: ["Sam Yang"],
     cardIdentifier: "mask-of-the-pouncing-lynx",
@@ -69969,6 +71347,7 @@ If you have discarded a card with 6 or more {p} this turn, Mandible Claw gains *
     
     
     restrictedFormats: [Format.Blitz,Format.Commoner],
+    
     
     
     
@@ -70042,6 +71421,7 @@ If Massacre is discarded to pay the cost of a Brute attack action card, **intimi
     
     
     
+    
   },{
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "mauvrion-skies-red",
@@ -70103,6 +71483,7 @@ If Massacre is discarded to pay the cost of a Brute attack action card, **intimi
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -70176,6 +71557,7 @@ If Massacre is discarded to pay the cost of a Brute attack action card, **intimi
     
     
     
+    
   },{
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "mauvrion-skies-blue",
@@ -70243,6 +71625,7 @@ If Massacre is discarded to pay the cost of a Brute attack action card, **intimi
     
     
     
+    
   },{
     artists: ["Nikolai Maslakov"],
     cardIdentifier: "maximum-velocity-red",
@@ -70296,6 +71679,7 @@ If Massacre is discarded to pay the cost of a Brute attack action card, **intimi
     pitch: 1,
     power: 10,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -70362,6 +71746,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -70436,6 +71821,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
     
     
     
+    
   },{
     artists: ["Immanuela Crovius"],
     cardIdentifier: "meat-and-greet-blue",
@@ -70503,6 +71889,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
     
     
     
+    
   },{
     artists: ["Sam Yang"],
     cardIdentifier: "meganetic-shockwave-blue",
@@ -70562,6 +71949,7 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
     
     
     
+    
   },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "melting-point-red",
@@ -70607,6 +71995,7 @@ If it has an aim counter, it gains "When this hits a hero, destroy a 1H weapon t
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -70664,6 +72053,7 @@ If it has an aim counter, it gains "When this hits a hero, destroy a 1H weapon t
     
     
     pitch: 1,
+    
     
     
     
@@ -70731,6 +72121,7 @@ If it has an aim counter, it gains "When this hits a hero, destroy a 1H weapon t
     
     
     
+    
   },{
     artists: ["Dmitry Isakevitch"],
     cardIdentifier: "memorial-ground-blue",
@@ -70782,6 +72173,7 @@ If it has an aim counter, it gains "When this hits a hero, destroy a 1H weapon t
     
     
     pitch: 3,
+    
     
     
     
@@ -70861,6 +72253,7 @@ If it has an aim counter, it gains "When this hits a hero, destroy a 1H weapon t
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -70912,6 +72305,7 @@ Whenever Merciless Battleaxe attacks, if its {p} is greater than twice its base 
     
     power: 3,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -70991,6 +72385,7 @@ Whenever Merciless Battleaxe attacks, if its {p} is greater than twice its base 
     
     
     
+    
   },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "metis-archangel-of-tenacity",
@@ -71036,6 +72431,7 @@ When Metis attacks, you may banish a card from your hero's soul. If you do, your
     
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -71094,6 +72490,7 @@ The first time you activate Micro-processor each turn, gain 1 action point.`,
     
     
     
+    
     specializations: [Hero.DataDoll],
     
     
@@ -71140,6 +72537,7 @@ The first time you activate Micro-processor each turn, gain 1 action point.`,
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -71193,6 +72591,7 @@ The first time you activate Micro-processor each turn, gain 1 action point.`,
     
     
     
+    
   },{
     artists: ["Mihail Spil-Haufter"],
     cardIdentifier: "minerva-themis",
@@ -71236,6 +72635,7 @@ While Minerva is face up in arsenal, 1H weapons you control have +1{p}. Whenever
     
     
     restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
+    
     
     
     
@@ -71295,6 +72695,7 @@ While Minerva is face up in arsenal, 1H weapons you control have +1{p}. Whenever
     
     
     pitch: 1,
+    
     
     
     
@@ -71364,6 +72765,7 @@ While Minerva is face up in arsenal, 1H weapons you control have +1{p}. Whenever
     
     
     
+    
   },{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "minnowism-blue",
@@ -71425,6 +72827,7 @@ While Minerva is face up in arsenal, 1H weapons you control have +1{p}. Whenever
     
     
     
+    
   },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "miragai",
@@ -71466,6 +72869,7 @@ While Minerva is face up in arsenal, 1H weapons you control have +1{p}. Whenever
     
     power: 2,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -71521,6 +72925,7 @@ When Miraging Metamorph is destroyed, create a token that's a copy of an aura yo
     
     
     
+    
   },{
     artists: ["Rio Sabda"],
     cardIdentifier: "mischievous-meeps-red",
@@ -71564,6 +72969,7 @@ When Miraging Metamorph is destroyed, create a token that's a copy of an aura yo
     pitch: 1,
     power: 2,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -71624,6 +73030,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     
     pitch: 1,
     power: 5,
+    
     
     
     
@@ -71692,6 +73099,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     
     
     
+    
   },{
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "moon-wish-blue",
@@ -71746,6 +73154,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     
     pitch: 3,
     power: 3,
+    
     
     
     
@@ -71820,6 +73229,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     
     
     
+    
   },{
     artists: ["Federico Musetti"],
     cardIdentifier: "morlock-hill-blue",
@@ -71861,6 +73271,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -71914,6 +73325,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -71963,6 +73375,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -72008,6 +73421,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     pitch: 3,
     power: 2,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -72078,6 +73492,7 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     
     
     
+    
     specializations: [Hero.Katsu],
     
     
@@ -72140,6 +73555,7 @@ If Mulch was **fused**, it gains "If this hits a hero, put a card from their ars
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -72196,6 +73612,7 @@ If Mulch was **fused**, it gains "If this hits a hero, put a card from their ars
     
     pitch: 2,
     power: 7,
+    
     
     
     
@@ -72268,6 +73685,7 @@ If Mulch was **fused**, it gains "If this hits a hero, put a card from their ars
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -72331,6 +73749,7 @@ Damage that would be dealt by Murkmire Grapnel can't be prevented.`,
     
     
     
+    
   },{
     artists: ["Marco González"],
     cardIdentifier: "murkmire-grapnel-yellow",
@@ -72379,6 +73798,7 @@ Damage that would be dealt by Murkmire Grapnel can't be prevented.`,
     
     pitch: 2,
     power: 3,
+    
     
     
     
@@ -72435,6 +73855,7 @@ Damage that would be dealt by Murkmire Grapnel can't be prevented.`,
     
     
     
+    
   },{
     artists: ["Yugin Maffioli"],
     cardIdentifier: "muscle-mutt-yellow",
@@ -72469,6 +73890,7 @@ Damage that would be dealt by Murkmire Grapnel can't be prevented.`,
     
     pitch: 2,
     power: 6,
+    
     
     
     
@@ -72535,6 +73957,7 @@ Mutated Mass's {p} and {d} is equal to twice the number of cards in your pitch z
     restrictedFormats: [Format.Commoner],
     
     specialDefense: "*",
+    
     specialPower: "*",
     
     talents: [Talent.Shadow],
@@ -72581,6 +74004,7 @@ When Nasreth hits a hero, banish a card from their soul. If a Light card is bani
     
     
     power: 6,
+    
     
     
     
@@ -72661,6 +74085,7 @@ When Nasreth hits a hero, banish a card from their soul. If a Light card is bani
     
     
     
+    
   },{
     artists: ["Reza Afshar"],
     cardIdentifier: "natures-path-pilgrimage-yellow",
@@ -72720,6 +74145,7 @@ When Nasreth hits a hero, banish a card from their soul. If a Light card is bani
     
     
     pitch: 2,
+    
     
     
     
@@ -72793,6 +74219,7 @@ When Nasreth hits a hero, banish a card from their soul. If a Light card is bani
     
     
     pitch: 3,
+    
     
     
     
@@ -72876,6 +74303,7 @@ If you have played a 'non-attack' action card this turn, Nebula Blade gains +3{p
     
     
     
+    
   },{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "nekria",
@@ -72917,6 +74345,7 @@ If you have played a 'non-attack' action card this turn, Nebula Blade gains +3{p
     
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -72998,6 +74427,7 @@ When this hits a hero, the next time they defend with 1 or more reaction cards t
     
     
     
+    
   },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "nerves-of-steel-blue",
@@ -73049,6 +74479,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
     
     
     
+    
   },{
     artists: ["Joseph Qiu"],
     cardIdentifier: "never-yield-blue",
@@ -73090,6 +74521,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -73153,6 +74585,7 @@ If New Horizon is destroyed, destroy all cards in your arsenal.
     
     
     
+    
   },{
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "nimble-strike-red",
@@ -73205,6 +74638,7 @@ If New Horizon is destroyed, destroy all cards in your arsenal.
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -73271,6 +74705,7 @@ If New Horizon is destroyed, destroy all cards in your arsenal.
     
     
     
+    
   },{
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "nimble-strike-blue",
@@ -73323,6 +74758,7 @@ If New Horizon is destroyed, destroy all cards in your arsenal.
     
     pitch: 3,
     power: 2,
+    
     
     
     
@@ -73389,6 +74825,7 @@ If New Horizon is destroyed, destroy all cards in your arsenal.
     
     
     pitch: 1,
+    
     
     
     
@@ -73464,6 +74901,7 @@ If New Horizon is destroyed, destroy all cards in your arsenal.
     
     
     
+    
   },{
     artists: ["Fedor Barkhatov"],
     cardIdentifier: "nimblism-blue",
@@ -73531,6 +74969,7 @@ If New Horizon is destroyed, destroy all cards in your arsenal.
     
     
     
+    
   },{
     artists: ["Leo Avero"],
     cardIdentifier: "ninth-blade-of-the-blood-oath-yellow",
@@ -73584,6 +75023,7 @@ If New Horizon is destroyed, destroy all cards in your arsenal.
     pitch: 2,
     power: 9,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -73647,6 +75087,7 @@ If New Horizon is destroyed, destroy all cards in your arsenal.
     
     
     
+    
   },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "nix-the-nimble-red",
@@ -73689,6 +75130,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     pitch: 1,
     power: 5,
+    
     
     
     
@@ -73745,6 +75187,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
+    
   },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "nix-the-nimble-blue",
@@ -73787,6 +75230,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     pitch: 3,
     power: 3,
+    
     
     
     
@@ -73862,6 +75306,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     
     
     
+    
     specializations: [Hero.Azalea],
     
     
@@ -73910,6 +75355,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -73969,6 +75415,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     pitch: 1,
     power: 6,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -74035,6 +75482,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     
     
     keywords: [Keyword.ArcaneBarrier],
+    
     
     
     
@@ -74117,6 +75565,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     
     
     
+    
   },{
     artists: ["Alena Marchenko"],
     cardIdentifier: "nullrune-hood",
@@ -74177,6 +75626,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     
     
     keywords: [Keyword.ArcaneBarrier],
+    
     
     
     
@@ -74259,6 +75709,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     
     
     
+    
   },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "numbskull-red",
@@ -74300,6 +75751,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     pitch: 1,
     power: 6,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -74365,6 +75817,7 @@ If Oaken Old was **fused**, it gains +2{p}, **dominate**, and "If this hits a he
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -74420,6 +75873,7 @@ If Oaken Old was **fused**, it gains +2{p}, **dominate**, and "If this hits a he
     
     
     
+    
   },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "oasis-respite-yellow",
@@ -74459,6 +75913,7 @@ If Oaken Old was **fused**, it gains +2{p}, **dominate**, and "If this hits a he
     
     
     pitch: 2,
+    
     
     
     
@@ -74514,6 +75969,7 @@ If Oaken Old was **fused**, it gains +2{p}, **dominate**, and "If this hits a he
     
     
     
+    
   },{
     artists: ["Hoàng Lập"],
     cardIdentifier: "oath-of-steel-red",
@@ -74559,6 +76015,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -74634,6 +76091,7 @@ Create a Runechant token.
     
     
     
+    
   },{
     artists: ["Yen Lee"],
     cardIdentifier: "oath-of-the-arknight-yellow",
@@ -74697,6 +76155,7 @@ Create a Runechant token.
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -74772,6 +76231,7 @@ Create a Runechant token.
     
     
     
+    
   },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "oblivion-blue",
@@ -74817,6 +76277,7 @@ Create a Nasreth, the Soul Harrower token.`,
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -74896,6 +76357,7 @@ Illusionist attack action cards you control have **go again**.
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -74953,6 +76415,7 @@ Illusionist attack action cards you control have **go again**.
     
     
     restrictedFormats: [Format.Blitz,Format.ClassicConstructed],
+    
     
     
     
@@ -75024,6 +76487,7 @@ Illusionist attack action cards you control have **go again**.
     
     
     
+    
     talents: [Talent.Earth,Talent.Elemental,Talent.Ice],
     
   },{
@@ -75061,6 +76525,7 @@ Illusionist attack action cards you control have **go again**.
     
     
     pitch: 2,
+    
     
     
     
@@ -75109,6 +76574,7 @@ Illusionist attack action cards you control have **go again**.
     
     pitch: 1,
     power: 3,
+    
     
     
     
@@ -75175,6 +76641,7 @@ Illusionist attack action cards you control have **go again**.
     
     
     
+    
   },{
     artists: ["Tommy Suhartono"],
     cardIdentifier: "one-two-punch-blue",
@@ -75227,6 +76694,7 @@ Illusionist attack action cards you control have **go again**.
     
     pitch: 3,
     power: 1,
+    
     
     
     
@@ -75305,6 +76773,7 @@ Illusionist attack action cards you control have **go again**.
     
     
     
+    
   },{
     artists: ["Leo Avero"],
     cardIdentifier: "open-the-center-yellow",
@@ -75357,6 +76826,7 @@ Illusionist attack action cards you control have **go again**.
     
     pitch: 2,
     power: 4,
+    
     
     
     
@@ -75423,6 +76893,7 @@ Illusionist attack action cards you control have **go again**.
     
     
     
+    
   },{
     artists: ["Sergey Gurskiy"],
     cardIdentifier: "optekal-monocle-blue",
@@ -75482,6 +76953,7 @@ Illusionist attack action cards you control have **go again**.
     
     
     pitch: 3,
+    
     
     
     
@@ -75565,6 +77037,7 @@ When this hits a hero, the next time they defend with 1 or more 'non-attack' act
     
     
     
+    
   },{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "ornate-tessen",
@@ -75602,6 +77075,7 @@ When this hits a hero, the next time they defend with 1 or more 'non-attack' act
     
     
     functionalText: `**Instant** - {r}, destroy Ornate Tessen: Put a card from your hand on the bottom of your deck. If you do, draw a card.`,
+    
     
     
     
@@ -75685,6 +77159,7 @@ When this hits a hero, the next time they defend with 1 or more 'non-attack' act
     
     
     
+    
   },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "out-for-blood-yellow",
@@ -75750,6 +77225,7 @@ When this hits a hero, the next time they defend with 1 or more 'non-attack' act
     
     
     pitch: 2,
+    
     
     
     
@@ -75825,6 +77301,7 @@ When this hits a hero, the next time they defend with 1 or more 'non-attack' act
     
     
     
+    
   },{
     artists: ["Marco González"],
     cardIdentifier: "out-muscle-red",
@@ -75878,6 +77355,7 @@ When this hits a hero, the next time they defend with 1 or more 'non-attack' act
     pitch: 1,
     power: 6,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -75943,6 +77421,7 @@ When this hits a hero, the next time they defend with 1 or more 'non-attack' act
     
     
     
+    
   },{
     artists: ["Marco González"],
     cardIdentifier: "out-muscle-blue",
@@ -76002,6 +77481,7 @@ When this hits a hero, the next time they defend with 1 or more 'non-attack' act
     
     
     
+    
   },{
     artists: ["Rio Sabda"],
     cardIdentifier: "outland-skirmish-red",
@@ -76045,6 +77525,7 @@ The next time a weapon hits this turn, create a Copper token.
     
     
     pitch: 1,
+    
     
     
     
@@ -76104,6 +77585,7 @@ The next time a weapon hits this turn, create a Copper token.
     
     
     
+    
   },{
     artists: ["Rio Sabda"],
     cardIdentifier: "outland-skirmish-blue",
@@ -76155,6 +77637,7 @@ The next time a weapon hits this turn, create a Copper token.
     
     
     
+    
   },{
     artists: ["Mihail Spil-Haufter"],
     cardIdentifier: "ouvia",
@@ -76196,6 +77679,7 @@ The next time a weapon hits this turn, create a Copper token.
     
     power: 1,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -76271,6 +77755,7 @@ The next time a weapon hits this turn, create a Copper token.
     
     
     
+    
   },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "over-flex-yellow",
@@ -76334,6 +77819,7 @@ The next time a weapon hits this turn, create a Copper token.
     
     
     
+    
   },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "over-flex-blue",
@@ -76389,6 +77875,7 @@ The next time a weapon hits this turn, create a Copper token.
     
     
     pitch: 3,
+    
     
     
     
@@ -76476,6 +77963,7 @@ The next time a weapon hits this turn, create a Copper token.
     
     
     
+    
   },{
     artists: ["Mikhail Babkin"],
     cardIdentifier: "over-loop-yellow",
@@ -76542,6 +78030,7 @@ The next time a weapon hits this turn, create a Copper token.
     
     pitch: 2,
     power: 4,
+    
     
     
     
@@ -76622,6 +78111,7 @@ The next time a weapon hits this turn, create a Copper token.
     
     
     
+    
   },{
     artists: ["Henry Leung"],
     cardIdentifier: "overblast-red",
@@ -76674,6 +78164,7 @@ The next time a weapon hits this turn, create a Copper token.
     
     pitch: 1,
     power: 5,
+    
     
     
     
@@ -76740,6 +78231,7 @@ The next time a weapon hits this turn, create a Copper token.
     
     
     
+    
   },{
     artists: ["Henry Leung"],
     cardIdentifier: "overblast-blue",
@@ -76792,6 +78284,7 @@ The next time a weapon hits this turn, create a Copper token.
     
     pitch: 3,
     power: 3,
+    
     
     
     
@@ -76860,6 +78353,7 @@ If Overload hits, it gains **go again**.`,
     
     
     
+    
   },{
     artists: ["Kevin Sidharta"],
     cardIdentifier: "overload-yellow",
@@ -76921,6 +78415,7 @@ If Overload hits, it gains **go again**.`,
     
     
     
+    
   },{
     artists: ["Kevin Sidharta"],
     cardIdentifier: "overload-blue",
@@ -76975,6 +78470,7 @@ If Overload hits, it gains **go again**.`,
     
     pitch: 3,
     power: 1,
+    
     
     
     
@@ -77055,6 +78551,7 @@ If Overload hits, it gains **go again**.`,
     
     
     
+    
   },{
     artists: ["Nikolai Maslakov"],
     cardIdentifier: "overpower-yellow",
@@ -77116,6 +78613,7 @@ If Overload hits, it gains **go again**.`,
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -77189,6 +78687,7 @@ If Overload hits, it gains **go again**.`,
     
     
     
+    
   },{
     artists: ["Kevin Sidharta"],
     cardIdentifier: "pack-call-yellow",
@@ -77224,6 +78723,7 @@ If Overload hits, it gains **go again**.`,
     pitch: 2,
     power: 6,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -77307,6 +78807,7 @@ If Overload hits, it gains **go again**.`,
     
     
     
+    
   },{
     artists: ["Olga Khariton"],
     cardIdentifier: "pack-hunt-yellow",
@@ -77365,6 +78866,7 @@ If Overload hits, it gains **go again**.`,
     
     pitch: 2,
     power: 5,
+    
     
     
     
@@ -77437,6 +78939,7 @@ If Overload hits, it gains **go again**.`,
     
     
     
+    
   },{
     artists: ["Eleonor Piteira"],
     cardIdentifier: "parable-of-humility-yellow",
@@ -77502,6 +79005,7 @@ If Overload hits, it gains **go again**.`,
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -77553,6 +79057,7 @@ If Overload hits, it gains **go again**.`,
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -77611,6 +79116,7 @@ If Overload hits, it gains **go again**.`,
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -77677,6 +79183,7 @@ If Overload hits, it gains **go again**.`,
     
     
     
+    
   },{
     artists: ["Trung Tin Shinji"],
     cardIdentifier: "pathing-helix-blue",
@@ -77736,6 +79243,7 @@ If Overload hits, it gains **go again**.`,
     
     
     
+    
   },{
     artists: ["Athiwut B."],
     cardIdentifier: "pay-day-blue",
@@ -77783,6 +79291,7 @@ If Overload hits, it gains **go again**.`,
     
     
     
+    
   },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "payload-red",
@@ -77823,6 +79332,7 @@ If Overload hits, it gains **go again**.`,
     
     pitch: 1,
     power: 6,
+    
     
     
     
@@ -77877,6 +79387,7 @@ If Overload hits, it gains **go again**.`,
     
     
     
+    
   },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "payload-blue",
@@ -77917,6 +79428,7 @@ If Overload hits, it gains **go again**.`,
     
     pitch: 3,
     power: 4,
+    
     
     
     
@@ -77985,6 +79497,7 @@ Create a Ponder token.`,
     
     
     
+    
   },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "peace-of-mind-yellow",
@@ -78034,6 +79547,7 @@ Create a Ponder token.`,
     
     
     
+    
   },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "peace-of-mind-blue",
@@ -78075,6 +79589,7 @@ Create a Ponder token.`,
     
     
     pitch: 3,
+    
     
     
     
@@ -78150,6 +79665,7 @@ Create a Ponder token.`,
     
     
     
+    
   },{
     artists: ["Sam Yang"],
     cardIdentifier: "pedal-to-the-metal-yellow",
@@ -78211,6 +79727,7 @@ Create a Ponder token.`,
     pitch: 2,
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -78284,6 +79801,7 @@ Create a Ponder token.`,
     
     
     
+    
   },{
     artists: ["Rio Sabda"],
     cardIdentifier: "pendulum-trap-yellow",
@@ -78337,6 +79855,7 @@ Create a Ponder token.`,
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -78410,6 +79929,7 @@ Create a Ponder token.`,
     
     
     
+    
   },{
     artists: ["Marco González"],
     cardIdentifier: "phantasmaclasm-red",
@@ -78465,6 +79985,7 @@ Create a Ponder token.`,
     pitch: 1,
     power: 9,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -78528,6 +80049,7 @@ When Phantasmal Footsteps is defending a non-Illusionist attack with 6 or more {
     
     
     
+    
   },{
     artists: ["Marco González"],
     cardIdentifier: "phantasmal-haze-red",
@@ -78570,6 +80092,7 @@ When Phantasmal Haze is destroyed, create a Spectral Shield token.`,
     
     pitch: 1,
     power: 8,
+    
     
     
     
@@ -78626,6 +80149,7 @@ When Phantasmal Haze is destroyed, create a Spectral Shield token.`,
     
     
     
+    
   },{
     artists: ["Marco González"],
     cardIdentifier: "phantasmal-haze-blue",
@@ -78668,6 +80192,7 @@ When Phantasmal Haze is destroyed, create a Spectral Shield token.`,
     
     pitch: 3,
     power: 6,
+    
     
     
     
@@ -78718,6 +80243,7 @@ When Phantasmal Haze is destroyed, create a Spectral Shield token.`,
     pitch: 2,
     power: 6,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -78797,6 +80323,7 @@ When Phantasmal Haze is destroyed, create a Spectral Shield token.`,
     
     
     
+    
   },{
     artists: ["bimawithpencil"],
     cardIdentifier: "phantasmify-yellow",
@@ -78858,6 +80385,7 @@ When Phantasmal Haze is destroyed, create a Spectral Shield token.`,
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -78931,6 +80459,7 @@ When Phantasmal Haze is destroyed, create a Spectral Shield token.`,
     
     
     
+    
   },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "phoenix-flame-red",
@@ -78992,6 +80521,7 @@ If you control 2 or more Draconic chain links, Phoenix Flame has +1{p}.
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -79041,6 +80571,7 @@ If you control 2 or more Draconic chain links, Phoenix Flame has +1{p}.
     pitch: 1,
     power: 3,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -79104,6 +80635,7 @@ Choose a random card from their hand and reveal it. If it's the named card, crea
     
     
     
+    
   },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "pick-a-card-any-card-yellow",
@@ -79155,6 +80687,7 @@ Choose a random card from their hand and reveal it. If it's the named card, crea
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -79218,6 +80751,7 @@ Choose a random card from their hand and reveal it. If it's the named card, crea
     
     
     
+    
   },{
     artists: ["Saad Irfan"],
     cardIdentifier: "pierce-reality-blue",
@@ -79267,6 +80801,7 @@ Choose a random card from their hand and reveal it. If it's the named card, crea
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -79340,6 +80875,7 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -79398,6 +80934,7 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
     
     pitch: 2,
     power: 3,
+    
     
     
     
@@ -79472,6 +81009,7 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -79511,6 +81049,7 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
     
     
     restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    
     
     
     
@@ -79590,6 +81129,7 @@ When this defends, deal 2 damage to the attacking hero unless they pay {r}.`,
     
     
     
+    
   },{
     artists: ["Mark Poole"],
     cardIdentifier: "plague-hive-yellow",
@@ -79633,6 +81173,7 @@ When you pitch Plague Hive, for each opposing hero, choose Inertia, Frailty, or 
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -79704,6 +81245,7 @@ X is equal to 1 plus the number of times you have **boosted** this combat chain.
     
     
     
+    
     specialPower: "X",
     
     
@@ -79757,6 +81299,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -79830,6 +81373,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     
     
     
+    
   },{
     artists: ["bimawithpencil"],
     cardIdentifier: "plow-through-red",
@@ -79885,6 +81429,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -79952,6 +81497,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     
     
     
+    
   },{
     artists: ["bimawithpencil"],
     cardIdentifier: "plow-through-blue",
@@ -80013,6 +81559,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     
     
     
+    
   },{
     artists: ["Kyxarie Peralta"],
     cardIdentifier: "plume-of-evergrowth",
@@ -80062,6 +81609,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     
     defense: 0,
     functionalText: `**Instant** - {r}{r}{r}, destroy Plume of Evergrowth: Return target Earth action card or Earth instant card from your graveyard to your hand.`,
+    
     
     
     
@@ -80147,6 +81695,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     
     
     
+    
   },{
     artists: ["Immanuela Crovius"],
     cardIdentifier: "plunder-run-yellow",
@@ -80210,6 +81759,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     pitch: 2,
     
     restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
+    
     
     
     
@@ -80285,6 +81835,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     
     
     
+    
   },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "plunder-the-poor-red",
@@ -80328,6 +81879,7 @@ When this hits a hero, banish the top card of their deck.`,
     pitch: 1,
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -80383,6 +81935,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
+    
   },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "plunder-the-poor-blue",
@@ -80432,6 +81985,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
+    
   },{
     artists: ["Shen Fei"],
     cardIdentifier: "plunge-red",
@@ -80474,6 +82028,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     pitch: 1,
     power: 3,
+    
     
     
     
@@ -80536,6 +82091,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
+    
   },{
     artists: ["Shen Fei"],
     cardIdentifier: "plunge-blue",
@@ -80585,6 +82141,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
+    
   },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "point-the-tip-red",
@@ -80626,6 +82183,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     pitch: 1,
+    
     
     
     
@@ -80683,6 +82241,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
+    
   },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "point-the-tip-blue",
@@ -80724,6 +82283,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     pitch: 3,
+    
     
     
     
@@ -80795,6 +82355,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
+    
   },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "poison-the-well-blue",
@@ -80836,6 +82397,7 @@ When this hits a hero, banish the top card of their deck.`,
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -80903,6 +82465,7 @@ If Polar Blast is played from arsenal, draw a card.
     
     
     pitch: 1,
+    
     
     
     
@@ -80984,6 +82547,7 @@ If Polar Blast is played from arsenal, draw a card.
     
     
     
+    
     talents: [Talent.Ice],
     
   },{
@@ -81053,6 +82617,7 @@ If Polar Blast is played from arsenal, draw a card.
     
     
     
+    
     talents: [Talent.Ice],
     
   },{
@@ -81096,6 +82661,7 @@ Deal 4 arcane damage to any target. If Polar Cap was **fused** and deals damage 
     
     
     pitch: 1,
+    
     
     
     
@@ -81151,6 +82717,7 @@ Deal 3 arcane damage to any target. If Polar Cap was **fused** and deals damage 
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -81194,6 +82761,7 @@ Deal 2 arcane damage to any target. If Polar Cap was **fused** and deals damage 
     
     
     pitch: 3,
+    
     
     
     
@@ -81267,6 +82835,7 @@ Deal 2 arcane damage to any target. If Polar Cap was **fused** and deals damage 
     
     
     
+    
   },{
     artists: ["Saad Irfan"],
     cardIdentifier: "potion-of-deja-vu-blue",
@@ -81308,6 +82877,7 @@ Deal 2 arcane damage to any target. If Polar Cap was **fused** and deals damage 
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -81361,6 +82931,7 @@ Deal 2 arcane damage to any target. If Polar Cap was **fused** and deals damage 
     
     
     
+    
   },{
     artists: ["Enmoire"],
     cardIdentifier: "potion-of-luck-blue",
@@ -81408,6 +82979,7 @@ Deal 2 arcane damage to any target. If Polar Cap was **fused** and deals damage 
     
     
     
+    
   },{
     artists: ["Alexandra Malygina"],
     cardIdentifier: "potion-of-seeing-blue",
@@ -81449,6 +83021,7 @@ Deal 2 arcane damage to any target. If Polar Cap was **fused** and deals damage 
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -81532,6 +83105,7 @@ Deal 2 arcane damage to any target. If Polar Cap was **fused** and deals damage 
     
     
     
+    
   },{
     artists: ["Rio Sabda"],
     cardIdentifier: "pouncing-qi-red",
@@ -81572,6 +83146,7 @@ Deal 2 arcane damage to any target. If Polar Cap was **fused** and deals damage 
     
     pitch: 1,
     power: 3,
+    
     
     
     
@@ -81626,6 +83201,7 @@ Deal 2 arcane damage to any target. If Polar Cap was **fused** and deals damage 
     
     
     
+    
   },{
     artists: ["Rio Sabda"],
     cardIdentifier: "pouncing-qi-blue",
@@ -81666,6 +83242,7 @@ Deal 2 arcane damage to any target. If Polar Cap was **fused** and deals damage 
     
     pitch: 3,
     power: 1,
+    
     
     
     
@@ -81732,6 +83309,7 @@ Deal 2 arcane damage to any target. If Polar Cap was **fused** and deals damage 
     
     
     
+    
   },{
     artists: ["Septimius Ferdian"],
     cardIdentifier: "pound-for-pound-yellow",
@@ -81784,6 +83362,7 @@ Deal 2 arcane damage to any target. If Polar Cap was **fused** and deals damage 
     
     pitch: 2,
     power: 5,
+    
     
     
     
@@ -81850,6 +83429,7 @@ Deal 2 arcane damage to any target. If Polar Cap was **fused** and deals damage 
     
     
     
+    
   },{
     artists: ["Sonia Sandoval"],
     cardIdentifier: "pounding-gale-red",
@@ -81903,6 +83483,7 @@ Deal 2 arcane damage to any target. If Polar Cap was **fused** and deals damage 
     pitch: 1,
     power: 5,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -81972,6 +83553,7 @@ If you have **boosted** this turn, put a steam counter on it.
     
     
     
+    
   },{
     artists: ["Reza Afshar"],
     cardIdentifier: "pour-the-mold-yellow",
@@ -82029,6 +83611,7 @@ If you have **boosted** this turn, put a steam counter on it.
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -82098,6 +83681,7 @@ If you have **boosted** this turn, put a steam counter on it.
     
     
     
+    
   },{
     artists: ["Victoria Belyaeva"],
     cardIdentifier: "powder-keg-blue",
@@ -82145,6 +83729,7 @@ If you have **boosted** this turn, put a steam counter on it.
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -82200,6 +83785,7 @@ Reveal the top card of your deck. If it's yellow, put it into your hand, then **
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -82245,6 +83831,7 @@ Reveal the top card of your deck. If it's yellow, put it into your hand, then **
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -82300,6 +83887,7 @@ Reveal the top card of your deck. If it's yellow, put it into your hand, then **
     
     
     
+    
   },{
     artists: ["Federico Musetti"],
     cardIdentifier: "precision-press-blue",
@@ -82343,6 +83931,7 @@ Reveal the top card of your deck. If it's yellow, put it into your hand, then **
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -82401,6 +83990,7 @@ Reveal the top card of your deck. If it's yellow, put it into your hand, then **
     
     pitch: 1,
     power: 6,
+    
     
     
     
@@ -82467,6 +84057,7 @@ Reveal the top card of your deck. If it's yellow, put it into your hand, then **
     
     
     
+    
   },{
     artists: ["Ksenia Belova"],
     cardIdentifier: "predatory-assault-blue",
@@ -82526,6 +84117,7 @@ Reveal the top card of your deck. If it's yellow, put it into your hand, then **
     
     
     
+    
   },{
     artists: ["Immanuela Crovius"],
     cardIdentifier: "predatory-streak-red",
@@ -82573,6 +84165,7 @@ Reveal the top card of your deck. If it's yellow, put it into your hand, then **
     
     
     pitch: 1,
+    
     
     
     
@@ -82636,6 +84229,7 @@ Reveal the top card of your deck. If it's yellow, put it into your hand, then **
     
     
     
+    
   },{
     artists: ["Immanuela Crovius"],
     cardIdentifier: "predatory-streak-blue",
@@ -82691,6 +84285,7 @@ Reveal the top card of your deck. If it's yellow, put it into your hand, then **
     
     
     
+    
   },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "premeditate-red",
@@ -82736,6 +84331,7 @@ The next attack action card you play from arsenal this turn gains +3{p}.
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -82811,6 +84407,7 @@ Your next Brute attack this turn gains +5{p}.
     
     
     
+    
   },{
     artists: ["Raphael Masalimov"],
     cardIdentifier: "primeval-bellow-yellow",
@@ -82872,6 +84469,7 @@ Your next Brute attack this turn gains +4{p}.
     
     
     pitch: 2,
+    
     
     
     
@@ -82955,6 +84553,7 @@ Your next Brute attack this turn gains +3{p}.
     
     
     
+    
   },{
     artists: ["Livia Prima"],
     cardIdentifier: "prism",
@@ -83012,6 +84611,7 @@ Your next Brute attack this turn gains +3{p}.
     
     
     
+    
     talents: [Talent.Light],
     young: true
   },{
@@ -83061,6 +84661,7 @@ Your next Brute attack this turn gains +3{p}.
     
     
     
+    
     talents: [Talent.Light],
     young: true
   },{
@@ -83100,6 +84701,7 @@ Your next Brute attack this turn gains +3{p}.
     
     
     restrictedFormats: [Format.Blitz,Format.Commoner],
+    
     
     
     
@@ -83181,6 +84783,7 @@ Your next Brute attack this turn gains +3{p}.
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -83248,6 +84851,7 @@ Your next Brute attack this turn gains +3{p}.
     
     
     
+    
   },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "prismatic-shield-yellow",
@@ -83301,6 +84905,7 @@ Your next Brute attack this turn gains +3{p}.
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -83366,6 +84971,7 @@ Your next Brute attack this turn gains +3{p}.
     
     
     
+    
   },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "proclamation-of-requisition",
@@ -83413,6 +85019,7 @@ Your next Brute attack this turn gains +3{p}.
     
     
     
+    
   },{
     artists: ["Riordan Delmiro"],
     cardIdentifier: "prognosticate-red",
@@ -83454,6 +85061,7 @@ Your next Brute attack this turn gains +3{p}.
     
     
     pitch: 1,
+    
     
     
     
@@ -83511,6 +85119,7 @@ Your next Brute attack this turn gains +3{p}.
     
     
     
+    
   },{
     artists: ["Riordan Delmiro"],
     cardIdentifier: "prognosticate-blue",
@@ -83552,6 +85161,7 @@ Your next Brute attack this turn gains +3{p}.
     
     
     pitch: 3,
+    
     
     
     
@@ -83621,6 +85231,7 @@ If Promise of Plenty is played from arsenal, it gains **go again**.`,
     
     
     
+    
   },{
     artists: ["Alexander Gering"],
     cardIdentifier: "promise-of-plenty-yellow",
@@ -83676,6 +85287,7 @@ If Promise of Plenty is played from arsenal, it gains **go again**.`,
     pitch: 2,
     power: 2,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -83743,6 +85355,7 @@ If Promise of Plenty is played from arsenal, it gains **go again**.`,
     
     
     
+    
   },{
     artists: ["Tomasz Jedruszek"],
     cardIdentifier: "prowl-red",
@@ -83798,6 +85411,7 @@ The next attack with **stealth** you play this combat chain gains +1{p}.`,
     
     
     
+    
   },{
     artists: ["Tomasz Jedruszek"],
     cardIdentifier: "prowl-yellow",
@@ -83846,6 +85460,7 @@ The next attack with **stealth** you play this combat chain gains +1{p}.`,
     
     pitch: 2,
     power: 2,
+    
     
     
     
@@ -83914,6 +85529,7 @@ The next attack with **stealth** you play this combat chain gains +1{p}.`,
     
     
     
+    
   },{
     artists: ["Alexis Susani"],
     cardIdentifier: "pry-red",
@@ -83955,6 +85571,7 @@ You may choose a card revealed this way. If you do, that hero puts it on the bot
     
     
     pitch: 1,
+    
     
     
     
@@ -84012,6 +85629,7 @@ You may choose a card revealed this way. If you do, that hero puts it on the bot
     
     
     
+    
   },{
     artists: ["Alexis Susani"],
     cardIdentifier: "pry-blue",
@@ -84053,6 +85671,7 @@ You may choose a card revealed this way. If you do, that hero puts it on the bot
     
     
     pitch: 3,
+    
     
     
     
@@ -84128,6 +85747,7 @@ While Pulping is defended by less than 2 non-equipment cards, it has **go again*
     
     
     
+    
   },{
     artists: ["Kevin Sidharta"],
     cardIdentifier: "pulping-yellow",
@@ -84189,6 +85809,7 @@ While Pulping is defended by less than 2 non-equipment cards, it has **go again*
     pitch: 2,
     power: 5,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -84262,6 +85883,7 @@ While Pulping is defended by less than 2 non-equipment cards, it has **go again*
     
     
     
+    
   },{
     artists: ["Pavel Kondrashov"],
     cardIdentifier: "pulse-of-candlehold-yellow",
@@ -84319,6 +85941,7 @@ Put up to 2 target Earth, Lightning and/or Elemental action cards from your grav
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -84384,6 +86007,7 @@ Earth, Ice, and Elemental action cards have +1{d} while defending this turn.`,
     
     
     
+    
     talents: [Talent.Earth,Talent.Ice],
     
   },{
@@ -84445,6 +86069,7 @@ Your next Ice, Lightning, or Elemental attack this turn gains +4{p}.`,
     
     
     
+    
     talents: [Talent.Ice,Talent.Lightning],
     
   },{
@@ -84490,6 +86115,7 @@ Your next Ice, Lightning, or Elemental attack this turn gains +4{p}.`,
     pitch: 1,
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -84545,6 +86171,7 @@ If Pulverize hits a hero, their first attack during their next turn has -4{p}.`,
     pitch: 1,
     power: 14,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -84624,6 +86251,7 @@ If Pulverize hits a hero, their first attack during their next turn has -4{p}.`,
     
     
     
+    
   },{
     artists: ["Ksenia Belova"],
     cardIdentifier: "pummel-yellow",
@@ -84683,6 +86311,7 @@ If Pulverize hits a hero, their first attack during their next turn has -4{p}.`,
     
     
     pitch: 2,
+    
     
     
     
@@ -84764,6 +86393,7 @@ If Pulverize hits a hero, their first attack during their next turn has -4{p}.`,
     
     
     
+    
   },{
     artists: ["Tommy Suhartono"],
     cardIdentifier: "puncture-red",
@@ -84803,6 +86433,7 @@ If Pulverize hits a hero, their first attack during their next turn has -4{p}.`,
     
     
     pitch: 1,
+    
     
     
     
@@ -84858,6 +86489,7 @@ If Pulverize hits a hero, their first attack during their next turn has -4{p}.`,
     
     
     
+    
   },{
     artists: ["Tommy Suhartono"],
     cardIdentifier: "puncture-blue",
@@ -84897,6 +86529,7 @@ If Pulverize hits a hero, their first attack during their next turn has -4{p}.`,
     
     
     pitch: 3,
+    
     
     
     
@@ -84958,6 +86591,7 @@ If Pulverize hits a hero, their first attack during their next turn has -4{p}.`,
     pitch: 3,
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -85033,6 +86667,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains *
     
     
     
+    
   },{
     artists: ["Camille Alquier"],
     cardIdentifier: "push-forward-yellow",
@@ -85088,6 +86723,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains *
     
     
     pitch: 2,
+    
     
     
     
@@ -85159,6 +86795,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains *
     
     
     
+    
   },{
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "push-the-point-red",
@@ -85211,6 +86848,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains *
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -85277,6 +86915,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains *
     
     
     
+    
   },{
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "push-the-point-blue",
@@ -85336,6 +86975,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains *
     
     
     
+    
   },{
     artists: ["Marco González"],
     cardIdentifier: "putrid-stirrings-red",
@@ -85381,6 +87021,7 @@ The next attack action card you **rune gate** this turn gets +5{p}.
     
     
     pitch: 1,
+    
     
     
     
@@ -85440,6 +87081,7 @@ The next attack action card you **rune gate** this turn gets +4{p}.
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -85487,6 +87129,7 @@ The next attack action card you **rune gate** this turn gets +3{p}.
     
     
     pitch: 3,
+    
     
     
     
@@ -85544,6 +87187,7 @@ At the beginning of your action phase, destroy Pyroglyphic Protection.`,
     
     
     
+    
   },{
     artists: ["Marco González"],
     cardIdentifier: "pyroglyphic-protection-yellow",
@@ -85585,6 +87229,7 @@ At the beginning of your action phase, destroy Pyroglyphic Protection.`,
     
     
     pitch: 2,
+    
     
     
     
@@ -85642,6 +87287,7 @@ At the beginning of your action phase, destroy Pyroglyphic Protection.`,
     
     
     
+    
   },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "qi-unleashed-red",
@@ -85682,6 +87328,7 @@ At the beginning of your action phase, destroy Pyroglyphic Protection.`,
     
     pitch: 1,
     power: 3,
+    
     
     
     
@@ -85736,6 +87383,7 @@ At the beginning of your action phase, destroy Pyroglyphic Protection.`,
     
     
     
+    
   },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "qi-unleashed-blue",
@@ -85776,6 +87424,7 @@ At the beginning of your action phase, destroy Pyroglyphic Protection.`,
     
     pitch: 3,
     power: 1,
+    
     
     
     
@@ -85842,6 +87491,7 @@ At the beginning of your action phase, destroy Pyroglyphic Protection.`,
     
     
     
+    
   },{
     artists: ["Elena Perelygina"],
     cardIdentifier: "quelling-sleeves",
@@ -85884,6 +87534,7 @@ At the beginning of your action phase, destroy Pyroglyphic Protection.`,
     
     
     keywords: [Keyword.Quell],
+    
     
     
     
@@ -85949,6 +87600,7 @@ At the beginning of your action phase, destroy Pyroglyphic Protection.`,
     
     
     keywords: [Keyword.Quell],
+    
     
     
     
@@ -86061,6 +87713,7 @@ At the beginning of your action phase, destroy Pyroglyphic Protection.`,
     
     
     
+    
   },{
     artists: ["Alexis Susani"],
     cardIdentifier: "quicksilver-dagger",
@@ -86134,6 +87787,7 @@ If another weapon you control has gained **go again** this turn, Quicksilver Dag
     
     
     
+    
   },{
     artists: ["Steve Argyle"],
     cardIdentifier: "quiver-of-abyssal-depths",
@@ -86181,6 +87835,7 @@ If another weapon you control has gained **go again** this turn, Quicksilver Dag
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -86240,6 +87895,7 @@ If another weapon you control has gained **go again** this turn, Quicksilver Dag
     
     
     
+    
   },{
     artists: ["Eilene Cherie"],
     cardIdentifier: "radiant-flow",
@@ -86271,6 +87927,7 @@ If another weapon you control has gained **go again** this turn, Quicksilver Dag
     
     
     functionalText: `**Instant** - Banish this and a card from your hero's soul: Prevent the next 2 damage that would be dealt to your hero this turn.`,
+    
     
     
     
@@ -86334,6 +87991,7 @@ When there are no cards in your hero's soul, destroy this.`,
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -86367,6 +88025,7 @@ When there are no cards in your hero's soul, destroy this.`,
     
     
     functionalText: `**Instant** - Banish this and a card from your hero's soul: Prevent the next 2 damage that would be dealt to your hero this turn.`,
+    
     
     
     
@@ -86428,6 +88087,7 @@ When there are no cards in your hero's soul, destroy this.`,
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -86461,6 +88121,7 @@ When there are no cards in your hero's soul, destroy this.`,
     
     
     functionalText: `**Instant** - Banish this and a card from your hero's soul: Prevent the next 2 damage that would be dealt to your hero this turn.`,
+    
     
     
     
@@ -86536,6 +88197,7 @@ When there are no cards in your hero's soul, destroy this.`,
     
     
     
+    
   },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "raging-onslaught-red",
@@ -86588,6 +88250,7 @@ When there are no cards in your hero's soul, destroy this.`,
     
     pitch: 1,
     power: 7,
+    
     
     
     
@@ -86666,6 +88329,7 @@ When there are no cards in your hero's soul, destroy this.`,
     
     
     
+    
   },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "raging-onslaught-blue",
@@ -86731,6 +88395,7 @@ When there are no cards in your hero's soul, destroy this.`,
     
     
     
+    
   },{
     artists: ["Lizhe Liang"],
     cardIdentifier: "rain-razors-yellow",
@@ -86772,6 +88437,7 @@ When there are no cards in your hero's soul, destroy this.`,
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -86831,6 +88497,7 @@ When there are no cards in your hero's soul, destroy this.`,
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -86880,6 +88547,7 @@ When there are no cards in your hero's soul, destroy this.`,
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -86923,6 +88591,7 @@ When there are no cards in your hero's soul, destroy this.`,
     
     
     pitch: 3,
+    
     
     
     
@@ -86996,6 +88665,7 @@ When there are no cards in your hero's soul, destroy this.`,
     
     
     
+    
   },{
     artists: ["Peyeyo"],
     cardIdentifier: "rally-the-rearguard-yellow",
@@ -87048,6 +88718,7 @@ When there are no cards in your hero's soul, destroy this.`,
     
     pitch: 2,
     power: 5,
+    
     
     
     
@@ -87126,6 +88797,7 @@ When there are no cards in your hero's soul, destroy this.`,
     
     
     
+    
   },{
     artists: ["Phu Thieu"],
     cardIdentifier: "ram-raider-red",
@@ -87169,6 +88841,7 @@ When there are no cards in your hero's soul, destroy this.`,
     pitch: 1,
     power: 6,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -87222,6 +88895,7 @@ When there are no cards in your hero's soul, destroy this.`,
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -87267,6 +88941,7 @@ When there are no cards in your hero's soul, destroy this.`,
     pitch: 3,
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -87320,6 +88995,7 @@ When there are no cards in your hero's soul, destroy this.`,
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -87389,6 +89065,7 @@ When there are no cards in your hero's soul, destroy this.`,
     
     
     
+    
   },{
     artists: ["Tommy Suhartono"],
     cardIdentifier: "rapid-reflex-red",
@@ -87430,6 +89107,7 @@ When there are no cards in your hero's soul, destroy this.`,
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -87483,6 +89161,7 @@ When there are no cards in your hero's soul, destroy this.`,
     
     
     
+    
   },{
     artists: ["Tommy Suhartono"],
     cardIdentifier: "rapid-reflex-blue",
@@ -87524,6 +89203,7 @@ When there are no cards in your hero's soul, destroy this.`,
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -87593,6 +89273,7 @@ If you have dealt arcane damage to an opposing hero this turn, you may play Ratt
     
     
     
+    
   },{
     artists: ["Pavel Chuvin"],
     cardIdentifier: "ravenous-meataxe",
@@ -87647,6 +89328,7 @@ Whenever you attack with Ravenous Meataxe, draw a card then discard a random car
     
     
     power: 3,
+    
     
     
     
@@ -87745,6 +89427,7 @@ Whenever you attack with Ravenous Meataxe, draw a card then discard a random car
     
     
     
+    
   },{
     artists: ["Maxim Kostin"],
     cardIdentifier: "ravenous-rabble-yellow",
@@ -87811,6 +89494,7 @@ Whenever you attack with Ravenous Meataxe, draw a card then discard a random car
     
     pitch: 2,
     power: 4,
+    
     
     
     
@@ -87891,6 +89575,7 @@ Whenever you attack with Ravenous Meataxe, draw a card then discard a random car
     
     
     
+    
   },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "ray-of-hope-yellow",
@@ -87956,6 +89641,7 @@ If you have less {h} than an opposing Shadow hero, put Ray of Hope into your her
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -88013,6 +89699,7 @@ If you've **charged** this turn, Raydn gains +3{p}.`,
     
     power: 0,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -88092,6 +89779,7 @@ If you've **charged** this turn, Raydn gains +3{p}.`,
     
     
     
+    
   },{
     artists: ["Adolfo Navarro"],
     cardIdentifier: "razor-reflex-yellow",
@@ -88151,6 +89839,7 @@ If you've **charged** this turn, Raydn gains +3{p}.`,
     
     
     pitch: 2,
+    
     
     
     
@@ -88226,6 +89915,7 @@ If you've **charged** this turn, Raydn gains +3{p}.`,
     
     
     
+    
   },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "razors-edge-red",
@@ -88279,6 +89969,7 @@ If you've **charged** this turn, Raydn gains +3{p}.`,
     
     
     
+    
   },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "razors-edge-yellow",
@@ -88318,6 +90009,7 @@ If you've **charged** this turn, Raydn gains +3{p}.`,
     
     
     pitch: 2,
+    
     
     
     
@@ -88385,6 +90077,7 @@ If you've **charged** this turn, Raydn gains +3{p}.`,
     
     
     
+    
   },{
     artists: ["Patchanee Treedet"],
     cardIdentifier: "read-the-glide-path-red",
@@ -88428,6 +90121,7 @@ If you've **charged** this turn, Raydn gains +3{p}.`,
     
     
     pitch: 1,
+    
     
     
     
@@ -88487,6 +90181,7 @@ If you've **charged** this turn, Raydn gains +3{p}.`,
     
     
     
+    
   },{
     artists: ["Patchanee Treedet"],
     cardIdentifier: "read-the-glide-path-blue",
@@ -88530,6 +90225,7 @@ If you've **charged** this turn, Raydn gains +3{p}.`,
     
     
     pitch: 3,
+    
     
     
     
@@ -88585,6 +90281,7 @@ If you've **charged** this turn, Raydn gains +3{p}.`,
     
     
     
+    
   },{
     artists: ["Joseph Qiu"],
     cardIdentifier: "read-the-ripples-yellow",
@@ -88624,6 +90321,7 @@ If you've **charged** this turn, Raydn gains +3{p}.`,
     
     
     pitch: 2,
+    
     
     
     
@@ -88677,6 +90375,7 @@ If you've **charged** this turn, Raydn gains +3{p}.`,
     
     
     pitch: 3,
+    
     
     
     
@@ -88750,6 +90449,7 @@ If you've **charged** this turn, Raydn gains +3{p}.`,
     
     
     
+    
   },{
     artists: ["Maxim Kostin"],
     cardIdentifier: "read-the-runes-yellow",
@@ -88807,6 +90507,7 @@ If you've **charged** this turn, Raydn gains +3{p}.`,
     
     
     pitch: 2,
+    
     
     
     
@@ -88880,6 +90581,7 @@ If you've **charged** this turn, Raydn gains +3{p}.`,
     
     
     
+    
   },{
     artists: ["Yugin Maffioli"],
     cardIdentifier: "ready-to-roll-blue",
@@ -88928,6 +90630,7 @@ If you would roll 1 or more dice this turn, instead roll that many dice plus 1 a
     
     
     
+    
     specializations: [Hero.Kayo],
     
     
@@ -88962,6 +90665,7 @@ If you would roll 1 or more dice this turn, instead roll that many dice plus 1 a
     
     
     functionalText: `Illusionist auras you control are weapons with 5 base {p} and "**Once per Turn Action** - {r]{r}: **Attack**"`,
+    
     
     
     
@@ -89045,6 +90749,7 @@ If a hero has more {h} than any other hero, they can't gain {h}.`,
     
     
     
+    
   },{
     artists: ["Rio Sabda"],
     cardIdentifier: "rebellious-rush-red",
@@ -89091,6 +90796,7 @@ If a hero has more {h} than any other hero, they can't gain {h}.`,
     
     pitch: 1,
     power: 5,
+    
     
     
     
@@ -89143,6 +90849,7 @@ If a hero has more {h} than any other hero, they can't gain {h}.`,
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -89185,6 +90892,7 @@ If a hero has more {h} than any other hero, they can't gain {h}.`,
     
     pitch: 3,
     power: 3,
+    
     
     
     
@@ -89259,6 +90967,7 @@ If the discarded card has 6 or more {p}, deal 2 damage to the attacking hero.`,
     
     
     
+    
   },{
     artists: ["Le Vuong"],
     cardIdentifier: "recoil-red",
@@ -89300,6 +91009,7 @@ If the discarded card has 6 or more {p}, deal 2 damage to the attacking hero.`,
     pitch: 1,
     power: 3,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -89353,6 +91063,7 @@ If the discarded card has 6 or more {p}, deal 2 damage to the attacking hero.`,
     
     
     
+    
   },{
     artists: ["Le Vuong"],
     cardIdentifier: "recoil-blue",
@@ -89400,6 +91111,7 @@ If the discarded card has 6 or more {p}, deal 2 damage to the attacking hero.`,
     pitch: 3,
     power: 1,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -89461,6 +91173,7 @@ If the discarded card has 6 or more {p}, deal 2 damage to the attacking hero.`,
     pitch: 1,
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -89528,6 +91241,7 @@ If Red in the Ledger hits a hero, they can't play or activate more than 1 action
     pitch: 1,
     power: 5,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -89599,6 +91313,7 @@ If Red in the Ledger hits a hero, they can't play or activate more than 1 action
     
     
     
+    
   },{
     artists: ["soyameii"],
     cardIdentifier: "redback-shroud",
@@ -89656,6 +91371,7 @@ If Red in the Ledger hits a hero, they can't play or activate more than 1 action
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -89741,6 +91457,7 @@ Create a Runechant token.`,
     
     
     
+    
   },{
     artists: ["Yen Lee"],
     cardIdentifier: "reduce-to-runechant-yellow",
@@ -89808,6 +91525,7 @@ Create a Runechant token.`,
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -89887,6 +91605,7 @@ Create a Runechant token.`,
     
     
     
+    
   },{
     artists: ["Jen Santos"],
     cardIdentifier: "reek-of-corruption-red",
@@ -89927,6 +91646,7 @@ Create a Runechant token.`,
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -89981,6 +91701,7 @@ Create a Runechant token.`,
     
     
     
+    
   },{
     artists: ["Jen Santos"],
     cardIdentifier: "reek-of-corruption-blue",
@@ -90021,6 +91742,7 @@ Create a Runechant token.`,
     
     pitch: 3,
     power: 2,
+    
     
     
     
@@ -90101,6 +91823,7 @@ Create a Runechant token.`,
     
     
     
+    
   },{
     artists: ["Sam Yang"],
     cardIdentifier: "regicide-blue",
@@ -90163,6 +91886,7 @@ Regicide can't be defended by cards with the same name as cards in the defending
     
     
     
+    
     specializations: [Hero.Arakni],
     
     
@@ -90218,6 +91942,7 @@ Regicide can't be defended by cards with the same name as cards in the defending
     
     pitch: 1,
     power: 6,
+    
     
     
     
@@ -90284,6 +92009,7 @@ Regicide can't be defended by cards with the same name as cards in the defending
     
     
     
+    
   },{
     artists: ["CGlas"],
     cardIdentifier: "regurgitating-slog-blue",
@@ -90343,6 +92069,7 @@ Regicide can't be defended by cards with the same name as cards in the defending
     
     
     
+    
   },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "reincarnate-red",
@@ -90384,6 +92111,7 @@ Regicide can't be defended by cards with the same name as cards in the defending
     pitch: 1,
     power: 7,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -90437,6 +92165,7 @@ Regicide can't be defended by cards with the same name as cards in the defending
     
     
     
+    
   },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "reincarnate-blue",
@@ -90484,6 +92213,7 @@ Regicide can't be defended by cards with the same name as cards in the defending
     
     
     
+    
   },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "reinforce-steel-red",
@@ -90523,6 +92253,7 @@ Regicide can't be defended by cards with the same name as cards in the defending
     
     
     pitch: 1,
+    
     
     
     
@@ -90578,6 +92309,7 @@ Regicide can't be defended by cards with the same name as cards in the defending
     
     
     
+    
   },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "reinforce-steel-blue",
@@ -90617,6 +92349,7 @@ Regicide can't be defended by cards with the same name as cards in the defending
     
     
     pitch: 3,
+    
     
     
     
@@ -90684,6 +92417,7 @@ Regicide can't be defended by cards with the same name as cards in the defending
     
     
     
+    
   },{
     artists: ["Shen Fei"],
     cardIdentifier: "reinforce-the-line-yellow",
@@ -90737,6 +92471,7 @@ Regicide can't be defended by cards with the same name as cards in the defending
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -90802,6 +92537,7 @@ Regicide can't be defended by cards with the same name as cards in the defending
     
     
     
+    
   },{
     artists: ["Simon Wong"],
     cardIdentifier: "rejuvenate-red",
@@ -90855,6 +92591,7 @@ If you've **fused** this turn, you may play Rejuvenate as though it were an inst
     
     
     pitch: 1,
+    
     
     
     
@@ -90922,6 +92659,7 @@ If you've **fused** this turn, you may play Rejuvenate as though it were an inst
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -90977,6 +92715,7 @@ If you've **fused** this turn, you may play Rejuvenate as though it were an inst
     
     
     pitch: 3,
+    
     
     
     
@@ -91040,6 +92779,7 @@ If you've **fused** this turn, you may play Rejuvenate as though it were an inst
     
     
     
+    
   },{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "release-the-tension-yellow",
@@ -91089,6 +92829,7 @@ If you've **fused** this turn, you may play Rejuvenate as though it were an inst
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -91150,6 +92891,7 @@ If you've **fused** this turn, you may play Rejuvenate as though it were an inst
     
     
     
+    
   },{
     artists: ["Vlad Varlamov"],
     cardIdentifier: "remembrance-yellow",
@@ -91205,6 +92947,7 @@ Banish Remembrance.`,
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -91278,6 +93021,7 @@ If Remorseless hits a hero, until the end of their next turn, whenever they play
     
     
     
+    
   },{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "requiem-for-the-damned-red",
@@ -91329,6 +93073,7 @@ Create an Eloquence token.
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -91372,6 +93117,7 @@ If you've **charged** this turn, create a Courage token.`,
     
     
     pitch: 1,
+    
     
     
     
@@ -91427,6 +93173,7 @@ If you've **charged** this turn, create a Courage token.`,
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -91470,6 +93217,7 @@ If you've **charged** this turn, create a Courage token.`,
     
     
     pitch: 3,
+    
     
     
     
@@ -91523,6 +93271,7 @@ At the beginning of your end phase, destroy all Runechants you control.
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -91588,6 +93337,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     
     pitch: 1,
+    
     
     
     
@@ -91663,6 +93413,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     
     
+    
   },{
     artists: ["Cristián Huerta"],
     cardIdentifier: "reverberate-blue",
@@ -91730,6 +93481,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     
     
+    
   },{
     artists: ["Riordan Delmiro"],
     cardIdentifier: "rewind-blue",
@@ -91777,6 +93529,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -91860,6 +93613,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     
     restrictedFormats: [Format.ClassicConstructed],
+    
     
     
     
@@ -91955,6 +93709,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     
     
+    
   },{
     artists: ["Rio Sabda"],
     cardIdentifier: "ride-the-tailwind-red",
@@ -91997,6 +93752,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     pitch: 1,
     power: 3,
+    
     
     
     
@@ -92053,6 +93809,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     
     
+    
   },{
     artists: ["Rio Sabda"],
     cardIdentifier: "ride-the-tailwind-blue",
@@ -92095,6 +93852,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     pitch: 3,
     power: 1,
+    
     
     
     
@@ -92167,6 +93925,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     
     
+    
   },{
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "ridge-rider-shot-yellow",
@@ -92225,6 +93984,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     pitch: 2,
     power: 3,
+    
     
     
     
@@ -92297,6 +94057,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     
     
+    
   },{
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "rift-bind-red",
@@ -92362,6 +94123,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -92418,6 +94180,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     pitch: 2,
     power: 2,
+    
     
     
     
@@ -92490,6 +94253,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -92536,6 +94300,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -92592,6 +94357,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -92638,6 +94404,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     pitch: 3,
     power: 2,
+    
     
     
     
@@ -92710,6 +94477,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -92766,6 +94534,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     pitch: 2,
     power: 3,
+    
     
     
     
@@ -92838,6 +94607,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -92892,6 +94662,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     pitch: 1,
     power: 6,
+    
     
     
     
@@ -92958,6 +94729,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     
     
+    
   },{
     artists: ["Oxana Turlay"],
     cardIdentifier: "rifting-blue",
@@ -93010,6 +94782,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     pitch: 3,
     power: 4,
+    
     
     
     
@@ -93082,6 +94855,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     
     
+    
   },{
     artists: ["Sergey Averkin"],
     cardIdentifier: "riled-up-red",
@@ -93140,6 +94914,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     pitch: 1,
     power: 7,
+    
     
     
     
@@ -93212,6 +94987,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     
     
+    
   },{
     artists: ["Sergey Averkin"],
     cardIdentifier: "riled-up-blue",
@@ -93270,6 +95046,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     pitch: 3,
     power: 5,
+    
     
     
     
@@ -93344,6 +95121,7 @@ If you have dealt arcane damage to an opposing hero this turn, Rip Through Reali
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -93402,6 +95180,7 @@ If you have dealt arcane damage to an opposing hero this turn, Rip Through Reali
     
     pitch: 2,
     power: 3,
+    
     
     
     
@@ -93470,6 +95249,7 @@ If you have dealt arcane damage to an opposing hero this turn, Rip Through Reali
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -93532,6 +95312,7 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
     
     
     
+    
     young: true
   },{
     artists: ["Joseph Qiu"],
@@ -93578,6 +95359,7 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
     
     
     life: 38,
+    
     
     
     
@@ -93647,6 +95429,7 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
     
     
     
+    
   },{
     artists: ["Saad Irfan"],
     cardIdentifier: "rise-above-yellow",
@@ -93700,6 +95483,7 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -93765,6 +95549,7 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
     
     
     
+    
   },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "rise-from-the-ashes-red",
@@ -93820,6 +95605,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -93871,6 +95657,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -93918,6 +95705,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -93979,6 +95767,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     pitch: 1,
     power: 3,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -94049,6 +95838,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     
     pitch: 1,
     power: 3,
+    
     
     
     
@@ -94127,6 +95917,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     
     
     
+    
   },{
     artists: ["Alexander Pachin"],
     cardIdentifier: "rising-knee-thrust-blue",
@@ -94192,6 +95983,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     
     
     
+    
   },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "rising-resentment-red",
@@ -94234,6 +96026,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     
     pitch: 1,
     power: 3,
+    
     
     
     
@@ -94288,6 +96081,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -94332,6 +96126,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     
     pitch: 3,
     power: 1,
+    
     
     
     
@@ -94397,6 +96192,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     
     pitch: 1,
     power: 5,
+    
     
     
     
@@ -94473,6 +96269,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -94527,6 +96324,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     
     pitch: 3,
     power: 3,
+    
     
     
     
@@ -94601,6 +96399,7 @@ If you have dealt arcane damage this turn, Rites of Lightning gains **go again**
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -94664,6 +96463,7 @@ If you have dealt arcane damage this turn, Rites of Lightning gains **go again**
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -94723,6 +96523,7 @@ If you have dealt arcane damage this turn, Rites of Lightning gains **go again**
     pitch: 3,
     power: 2,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -94796,6 +96597,7 @@ When you attack with Rites of Replenishment, if it was **fused**, you may put an
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -94854,6 +96656,7 @@ When you attack with Rites of Replenishment, if it was **fused**, you may put an
     
     pitch: 2,
     power: 5,
+    
     
     
     
@@ -94928,6 +96731,7 @@ When you attack with Rites of Replenishment, if it was **fused**, you may put an
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -94975,6 +96779,7 @@ Crouching Tigers you control gain +1{p} this turn.
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -95030,6 +96835,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
+    
   },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "rob-the-rich-yellow",
@@ -95079,6 +96885,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
+    
   },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "rob-the-rich-blue",
@@ -95122,6 +96929,7 @@ When this hits a hero, banish the top card of their deck.`,
     pitch: 3,
     power: 3,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -95184,6 +96992,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     keywords: [Keyword.ArcaneBarrier],
+    
     
     
     
@@ -95262,6 +97071,7 @@ When this defends, target attack gets -2{p}, unless the attacking hero pays {r}.
     
     
     
+    
   },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "rok",
@@ -95319,6 +97129,7 @@ Damage that would be dealt by Rok can't be prevented.`,
     
     
     
+    
   },{
     artists: ["Stanislav Sherbakov"],
     cardIdentifier: "rolling-thunder-red",
@@ -95362,6 +97173,7 @@ Damage that would be dealt by Rok can't be prevented.`,
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -95459,6 +97271,7 @@ Damage that would be dealt by Rok can't be prevented.`,
     
     
     
+    
   },{
     artists: ["Phu Thieu"],
     cardIdentifier: "ronin-renegade-red",
@@ -95510,6 +97323,7 @@ Damage that would be dealt by Rok can't be prevented.`,
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -95552,6 +97366,7 @@ Damage that would be dealt by Rok can't be prevented.`,
     
     pitch: 2,
     power: 2,
+    
     
     
     
@@ -95605,6 +97420,7 @@ Damage that would be dealt by Rok can't be prevented.`,
     
     pitch: 3,
     power: 1,
+    
     
     
     
@@ -95679,6 +97495,7 @@ Whenever you attack with Rosetta Thorn, if you've played an attack action card a
     
     
     
+    
   },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "rotary-ram-red",
@@ -95722,6 +97539,7 @@ If you have **boosted** this turn, put Rotary Ram on the bottom of your deck.
     
     
     pitch: 1,
+    
     
     
     
@@ -95781,6 +97599,7 @@ If you have **boosted** this turn, put Rotary Ram on the bottom of your deck.
     
     
     
+    
   },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "rotary-ram-blue",
@@ -95824,6 +97643,7 @@ If you have **boosted** this turn, put Rotary Ram on the bottom of your deck.
     
     
     pitch: 3,
+    
     
     
     
@@ -95897,6 +97717,7 @@ If you have **boosted** this turn, put Rotary Ram on the bottom of your deck.
     
     
     
+    
   },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "rouse-the-ancients-blue",
@@ -95956,6 +97777,7 @@ If you have **boosted** this turn, put Rotary Ram on the bottom of your deck.
     
     
     
+    
   },{
     artists: ["Jsraphael"],
     cardIdentifier: "rousing-aether-red",
@@ -96009,6 +97831,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     
     
     pitch: 1,
+    
     
     
     
@@ -96078,6 +97901,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     
     
     
+    
   },{
     artists: ["Jsraphael"],
     cardIdentifier: "rousing-aether-blue",
@@ -96131,6 +97955,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     
     
     pitch: 3,
+    
     
     
     
@@ -96206,6 +98031,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     
     
     
+    
   },{
     artists: ["Junaidi Lim"],
     cardIdentifier: "rugged-roller",
@@ -96248,6 +98074,7 @@ Activate Rugged Roller only if you've rolled a 6 on a die this turn.`,
     
     
     power: 6,
+    
     
     
     
@@ -96298,6 +98125,7 @@ Your next Brute attack this turn gains +4{p}.
     
     
     pitch: 1,
+    
     
     
     
@@ -96357,6 +98185,7 @@ Your next Brute attack this turn gains +3{p}.
     
     
     
+    
   },{
     artists: ["Yugin Maffioli"],
     cardIdentifier: "rumble-grunting-blue",
@@ -96400,6 +98229,7 @@ Your next Brute attack this turn gains +2{p}.
     
     
     pitch: 3,
+    
     
     
     
@@ -96457,6 +98287,7 @@ Your next sword attack this turn gains +2{p}.`,
     
     
     
+    
   },{
     artists: ["Kyxarie Peralta"],
     cardIdentifier: "runaways",
@@ -96500,6 +98331,7 @@ Your next sword attack this turn gains +2{p}.`,
     
     defense: 0,
     functionalText: `**Instant** - Destroy Runaways: Prevent the next 1 damage that would be dealt to your hero this turn. Activate this ability only if your hero has been dealt damage this turn.`,
+    
     
     
     
@@ -96583,6 +98415,7 @@ Your next sword attack this turn gains +2{p}.`,
     
     
     
+    
   },{
     artists: ["Dmitry Solodovnikov"],
     cardIdentifier: "rune-flash-yellow",
@@ -96650,6 +98483,7 @@ Your next sword attack this turn gains +2{p}.`,
     
     
     
+    
   },{
     artists: ["Dmitry Solodovnikov"],
     cardIdentifier: "rune-flash-blue",
@@ -96710,6 +98544,7 @@ Your next sword attack this turn gains +2{p}.`,
     
     pitch: 3,
     power: 2,
+    
     
     
     
@@ -96786,6 +98621,7 @@ At the beginning of your action phase, destroy Runeblood Barrier.`,
     
     
     
+    
   },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "runeblood-incantation-red",
@@ -96837,6 +98673,7 @@ At the beginning of your action phase, remove a verse counter from Runeblood Inc
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -96900,6 +98737,7 @@ At the beginning of your action phase, remove a verse counter from Runeblood Inc
     
     
     
+    
   },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "runeblood-incantation-blue",
@@ -96951,6 +98789,7 @@ At the beginning of your action phase, remove a verse counter from Runeblood Inc
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -97046,6 +98885,7 @@ At the beginning of your action phase, remove a verse counter from Runeblood Inc
     
     
     
+    
   },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "runic-reaping-red",
@@ -97089,6 +98929,7 @@ If an attack card was pitched to play Runic Reaping, the next Runeblade attack a
     
     
     pitch: 1,
+    
     
     
     
@@ -97148,6 +98989,7 @@ If an attack card was pitched to play Runic Reaping, the next Runeblade attack a
     
     
     
+    
   },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "runic-reaping-blue",
@@ -97191,6 +99033,7 @@ If an attack card was pitched to play Runic Reaping, the next Runeblade attack a
     
     
     pitch: 3,
+    
     
     
     
@@ -97250,6 +99093,7 @@ The next Runeblade attack action card you play this turn gets +3{p}.
     
     
     
+    
   },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "runic-reclamation-red",
@@ -97291,6 +99135,7 @@ The next Runeblade attack action card you play this turn gets +3{p}.
     pitch: 1,
     power: 7,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -97362,6 +99207,7 @@ The next Runeblade attack action card you play this turn gets +3{p}.
     
     
     
+    
   },{
     artists: ["Arif Wijaya"],
     cardIdentifier: "rushing-river-yellow",
@@ -97421,6 +99267,7 @@ The next Runeblade attack action card you play this turn gets +3{p}.
     pitch: 2,
     power: 2,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -97492,6 +99339,7 @@ The next Runeblade attack action card you play this turn gets +3{p}.
     
     
     
+    
   },{
     artists: ["Cristián Huerta"],
     cardIdentifier: "rusted-relic-blue",
@@ -97551,6 +99399,7 @@ The next Runeblade attack action card you play this turn gets +3{p}.
     
     
     
+    
   },{
     artists: ["Lius Lasahido"],
     cardIdentifier: "ruudi-gem-keeper",
@@ -97588,6 +99437,7 @@ The next Runeblade attack action card you play this turn gets +3{p}.
     
     
     restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    
     
     
     
@@ -97636,6 +99486,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -97692,6 +99543,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
+    
   },{
     artists: ["Shen Fei"],
     cardIdentifier: "sack-the-shifty-blue",
@@ -97734,6 +99586,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     pitch: 3,
     power: 2,
+    
     
     
     
@@ -97818,6 +99671,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
+    
   },{
     artists: ["Rachel Alderson"],
     cardIdentifier: "salvage-shot-red",
@@ -97895,6 +99749,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
+    
   },{
     artists: ["Rachel Alderson"],
     cardIdentifier: "salvage-shot-yellow",
@@ -97953,6 +99808,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     pitch: 2,
     power: 4,
+    
     
     
     
@@ -98025,6 +99881,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
+    
   },{
     artists: ["Federico Musetti","Henrique Lindner"],
     cardIdentifier: "sand-cover-red",
@@ -98070,6 +99927,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     pitch: 1,
+    
     
     
     
@@ -98123,6 +99981,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -98164,6 +100023,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     pitch: 3,
+    
     
     
     
@@ -98238,6 +100098,7 @@ If the discarded card has 6 or more {p}, gain 2 action points.`,
     
     
     
+    
     specializations: [Hero.Rhinar],
     
     
@@ -98296,6 +100157,7 @@ Whenever an arrow is put face up in arsenal from your deck, put an aim counter o
     
     
     
+    
   },{
     artists: ["Asep Ariyanto","Riordan Delmiro"],
     cardIdentifier: "sap-red",
@@ -98343,6 +100205,7 @@ Whenever an arrow is put face up in arsenal from your deck, put an aim counter o
     
     
     pitch: 1,
+    
     
     
     
@@ -98406,6 +100269,7 @@ Whenever an arrow is put face up in arsenal from your deck, put an aim counter o
     
     
     
+    
   },{
     artists: ["Asep Ariyanto","Riordan Delmiro"],
     cardIdentifier: "sap-blue",
@@ -98453,6 +100317,7 @@ Whenever an arrow is put face up in arsenal from your deck, put an aim counter o
     
     
     pitch: 3,
+    
     
     
     
@@ -98518,6 +100383,7 @@ Whenever an arrow is put face up in arsenal from your deck, put an aim counter o
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -98565,6 +100431,7 @@ If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
     pitch: 1,
     power: 6,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -98644,6 +100511,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     
     
     
+    
   },{
     artists: ["Vladimir Shatunov"],
     cardIdentifier: "savage-feast-yellow",
@@ -98705,6 +100573,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     pitch: 2,
     power: 5,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -98778,6 +100647,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     
     
     
+    
   },{
     artists: ["Yulia Litvinova"],
     cardIdentifier: "savage-swing-red",
@@ -98842,6 +100712,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     
     pitch: 1,
     power: 7,
+    
     
     
     
@@ -98920,6 +100791,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     
     
     
+    
   },{
     artists: ["Yulia Litvinova"],
     cardIdentifier: "savage-swing-blue",
@@ -98978,6 +100850,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     
     pitch: 3,
     power: 5,
+    
     
     
     
@@ -99046,6 +100919,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     
     
     
+    
   },{
     artists: ["Igor Heras"],
     cardIdentifier: "scalding-rain-red",
@@ -99103,6 +100977,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     
     
     pitch: 1,
+    
     
     
     
@@ -99176,6 +101051,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     
     
     
+    
   },{
     artists: ["Igor Heras"],
     cardIdentifier: "scalding-rain-blue",
@@ -99233,6 +101109,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     
     
     pitch: 3,
+    
     
     
     
@@ -99310,6 +101187,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
     
     power: 1,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -99411,6 +101289,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
     
     
     
+    
   },{
     artists: ["Arif Wijaya"],
     cardIdentifier: "scar-for-a-scar-yellow",
@@ -99475,6 +101354,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
     
     pitch: 2,
     power: 3,
+    
     
     
     
@@ -99553,6 +101433,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
     
     
     
+    
   },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "scepter-of-pain",
@@ -99586,6 +101467,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
     functionalText: `**Once per Turn Action** - {r}{r}: Deal 1 arcane damage to any opposing target.
 
 Create a Runechant token for each damage dealt this way.`,
+    
     
     
     
@@ -99644,6 +101526,7 @@ Create a Runechant token for each damage dealt this way.`,
     
     restrictedFormats: [Format.Commoner],
     specialCost: "X",
+    
     
     
     
@@ -99710,6 +101593,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.`,
     
     
     
+    
   },{
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "scour-the-battlescape-yellow",
@@ -99764,6 +101648,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.`,
     
     pitch: 2,
     power: 2,
+    
     
     
     
@@ -99850,6 +101735,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.`,
     
     
     
+    
   },{
     artists: ["Raphael Pinna"],
     cardIdentifier: "scout-the-periphery-red",
@@ -99905,6 +101791,7 @@ The next attack action card you play from arsenal this turn gains +3{p}.
     
     
     pitch: 1,
+    
     
     
     
@@ -99970,6 +101857,7 @@ The next attack action card you play from arsenal this turn gains +2{p}.
     
     
     
+    
   },{
     artists: ["Raphael Pinna"],
     cardIdentifier: "scout-the-periphery-blue",
@@ -100019,6 +101907,7 @@ The next attack action card you play from arsenal this turn gains +1{p}.
     
     
     pitch: 3,
+    
     
     
     
@@ -100082,6 +101971,7 @@ The next attack action card you play from arsenal this turn gains +1{p}.
     
     
     
+    
   },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "scramble-pulse-red",
@@ -100125,6 +102015,7 @@ The next attack action card you play from arsenal this turn gains +1{p}.
     pitch: 1,
     power: 5,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -100180,6 +102071,7 @@ The next attack action card you play from arsenal this turn gains +1{p}.
     
     
     
+    
   },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "scramble-pulse-blue",
@@ -100223,6 +102115,7 @@ The next attack action card you play from arsenal this turn gains +1{p}.
     pitch: 3,
     power: 3,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -100282,6 +102175,7 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -100324,6 +102218,7 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -100376,6 +102271,7 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -100418,6 +102314,7 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
     
     pitch: 3,
     power: 2,
+    
     
     
     
@@ -100496,6 +102393,7 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
     
     
     
+    
   },{
     artists: ["Vadim Kalabukh"],
     cardIdentifier: "searing-shot-yellow",
@@ -100554,6 +102452,7 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
     
     pitch: 2,
     power: 3,
+    
     
     
     
@@ -100626,6 +102525,7 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
     
     
     
+    
   },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "searing-touch-red",
@@ -100666,6 +102566,7 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
     
     pitch: 1,
     power: 3,
+    
     
     
     
@@ -100720,6 +102621,7 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -100793,6 +102695,7 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
     
     
     
+    
   },{
     artists: ["Inkognit"],
     cardIdentifier: "second-swing-yellow",
@@ -100846,6 +102749,7 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
     
     
     pitch: 2,
+    
     
     
     
@@ -100915,6 +102819,7 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
     
     
     
+    
   },{
     artists: ["Saad Irfan"],
     cardIdentifier: "sedate-red",
@@ -100976,6 +102881,7 @@ When this hits a hero, create an Inertia token under their control.`,
     
     
     
+    
   },{
     artists: ["Saad Irfan"],
     cardIdentifier: "sedate-yellow",
@@ -101024,6 +102930,7 @@ When this hits a hero, create an Inertia token under their control.`,
     
     pitch: 2,
     power: 2,
+    
     
     
     
@@ -101092,6 +102999,7 @@ When this hits a hero, create an Inertia token under their control.`,
     
     
     
+    
   },{
     artists: ["Elena Bakulina"],
     cardIdentifier: "sedation-shot-red",
@@ -101146,6 +103054,7 @@ When this hits a hero, create an Inertia token under their control.`,
     
     pitch: 1,
     power: 5,
+    
     
     
     
@@ -101208,6 +103117,7 @@ When this hits a hero, create an Inertia token under their control.`,
     
     
     
+    
   },{
     artists: ["Elena Bakulina"],
     cardIdentifier: "sedation-shot-blue",
@@ -101256,6 +103166,7 @@ When this hits a hero, create an Inertia token under their control.`,
     
     pitch: 3,
     power: 3,
+    
     
     
     
@@ -101332,6 +103243,7 @@ The next attack action card with cost 2 or less you play this turn gains "When y
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -101403,6 +103315,7 @@ The next attack action card with cost 1 or less you play this turn gains "When y
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -101468,6 +103381,7 @@ The next attack action card with cost 0 or less you play this turn gains "When y
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -101525,6 +103439,7 @@ The next attack action card with cost 0 or less you play this turn gains "When y
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -101596,6 +103511,7 @@ The next attack action card with cost 0 or less you play this turn gains "When y
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -101651,6 +103567,7 @@ The next attack action card with cost 0 or less you play this turn gains "When y
     
     
     pitch: 2,
+    
     
     
     
@@ -101718,6 +103635,7 @@ The next attack action card with cost 0 or less you play this turn gains "When y
     
     
     pitch: 3,
+    
     
     
     
@@ -101797,6 +103715,7 @@ The next attack action card with cost 0 or less you play this turn gains "When y
     
     
     
+    
   },{
     artists: ["Tian Thongjomroon"],
     cardIdentifier: "seek-horizon-yellow",
@@ -101855,6 +103774,7 @@ The next attack action card with cost 0 or less you play this turn gains "When y
     
     pitch: 2,
     power: 3,
+    
     
     
     
@@ -101927,6 +103847,7 @@ The next attack action card with cost 0 or less you play this turn gains "When y
     
     
     
+    
   },{
     artists: ["Immanuela Crovius"],
     cardIdentifier: "seekers-gilet",
@@ -101969,6 +103890,7 @@ The next attack action card with cost 0 or less you play this turn gains "When y
     
     
     keywords: [Keyword.Opt],
+    
     
     
     
@@ -102033,6 +103955,7 @@ The next attack action card with cost 0 or less you play this turn gains "When y
     
     
     
+    
   },{
     artists: ["Amelia Tan"],
     cardIdentifier: "seekers-leggings",
@@ -102086,6 +104009,7 @@ The next attack action card with cost 0 or less you play this turn gains "When y
     
     
     
+    
   },{
     artists: ["Felicia Liang"],
     cardIdentifier: "seekers-mitts",
@@ -102128,6 +104052,7 @@ The next attack action card with cost 0 or less you play this turn gains "When y
     
     
     keywords: [Keyword.Opt],
+    
     
     
     
@@ -102198,6 +104123,7 @@ The next attack action card with cost 2 or less you play this turns gains +1{p} 
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -102273,6 +104199,7 @@ The next attack action card with cost 1 or less you play this turns gains +1{p} 
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -102338,6 +104265,7 @@ The next attack action card with cost 0 you play this turns gains +1{p} and **go
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -102377,6 +104305,7 @@ The next attack action card with cost 0 you play this turns gains +1{p} and **go
     
     
     functionalText: `**Action** - {r}{r}{r}: Look at the top card of your deck. You may put it on the bottom. Create a Ponder token.`,
+    
     
     
     
@@ -102442,6 +104371,7 @@ The next attack action card with cost 0 you play this turns gains +1{p} and **go
     
     
     
+    
   },{
     artists: ["Kyxarie Peralta"],
     cardIdentifier: "seismic-stir-yellow",
@@ -102491,7 +104421,9 @@ The next attack action card with cost 0 you play this turns gains +1{p} and **go
     
     
     
-  },{
+    
+  }];
+  const cards4: Card[] =  [{
     artists: ["Kyxarie Peralta"],
     cardIdentifier: "seismic-stir-blue",
     classes: [Class.Guardian],
@@ -102540,8 +104472,8 @@ The next attack action card with cost 0 you play this turns gains +1{p} and **go
     
     
     
-  }];
-  const cards4: Card[] =  [{
+    
+  },{
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "seismic-surge",
     classes: [Class.Guardian],
@@ -102636,6 +104568,7 @@ The next attack action card with cost 0 you play this turns gains +1{p} and **go
     
     
     
+    
   },{
     artists: ["Billy Christian"],
     cardIdentifier: "sekem-archangel-of-ravages",
@@ -102685,6 +104618,7 @@ When Sekem attacks, you may banish a card from your hero's soul. If you do, deal
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -102728,6 +104662,7 @@ When Sekem attacks, you may banish a card from your hero's soul. If you do, deal
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -102805,6 +104740,7 @@ When Sekem attacks, you may banish a card from your hero's soul. If you do, deal
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -102850,6 +104786,7 @@ When Sekem attacks, you may banish a card from your hero's soul. If you do, deal
     pitch: 2,
     power: 13,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -102905,6 +104842,7 @@ Your next Brute or Shadow attack this turn gets +5{p}.
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -102952,6 +104890,7 @@ Your next Brute or Shadow attack this turn gets +4{p}.
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -103007,6 +104946,7 @@ Your next Brute or Shadow attack this turn gets +3{p}.
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -103051,6 +104991,7 @@ Your next Brute or Shadow attack this turn gets +3{p}.
     
     pitch: 1,
     power: 7,
+    
     
     
     
@@ -103105,6 +105046,7 @@ Your next Brute or Shadow attack this turn gets +3{p}.
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -103149,6 +105091,7 @@ Your next Brute or Shadow attack this turn gets +3{p}.
     
     pitch: 3,
     power: 5,
+    
     
     
     
@@ -103211,6 +105154,7 @@ Your next Brute or Shadow attack this turn gets +3{p}.
     pitch: 1,
     power: 6,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -103278,6 +105222,7 @@ As an additional cost to play Shadow of Ursur, you may banish a card with blood 
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -103339,6 +105284,7 @@ As an additional cost to play Shadow of Ursur, you may banish a card with blood 
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -103384,6 +105330,7 @@ If you've played or activated an attack reaction this chain link, Shake Down has
     pitch: 1,
     power: 6,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -103463,6 +105410,7 @@ If you've played or activated an attack reaction this chain link, Shake Down has
     
     
     
+    
   },{
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "sharpen-steel-yellow",
@@ -103516,6 +105464,7 @@ If you've played or activated an attack reaction this chain link, Shake Down has
     
     
     pitch: 2,
+    
     
     
     
@@ -103591,6 +105540,7 @@ If you've played or activated an attack reaction this chain link, Shake Down has
     
     
     
+    
   },{
     artists: ["Yugin Maffioli"],
     cardIdentifier: "shatter-yellow",
@@ -103632,6 +105582,7 @@ If you've played or activated an attack reaction this chain link, Shake Down has
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -103685,6 +105636,7 @@ If you've played or activated an attack reaction this chain link, Shake Down has
     
     
     
+    
   },{
     artists: ["Federico Musetti"],
     cardIdentifier: "shield-bash-yellow",
@@ -103726,6 +105678,7 @@ If you've played or activated an attack reaction this chain link, Shake Down has
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -103779,6 +105732,7 @@ If you've played or activated an attack reaction this chain link, Shake Down has
     
     
     
+    
   },{
     artists: ["Arif Wijaya"],
     cardIdentifier: "shield-wall-red",
@@ -103818,6 +105772,7 @@ If you've played or activated an attack reaction this chain link, Shake Down has
     
     
     pitch: 1,
+    
     
     
     
@@ -103873,6 +105828,7 @@ If you've played or activated an attack reaction this chain link, Shake Down has
     
     
     
+    
   },{
     artists: ["Arif Wijaya"],
     cardIdentifier: "shield-wall-blue",
@@ -103912,6 +105868,7 @@ If you've played or activated an attack reaction this chain link, Shake Down has
     
     
     pitch: 3,
+    
     
     
     
@@ -103969,6 +105926,7 @@ If you've played or activated an attack reaction this chain link, Shake Down has
     
     
     
+    
   },{
     artists: ["Sam Yang"],
     cardIdentifier: "shitty-xmas-present-yellow",
@@ -104004,6 +105962,7 @@ If you've played or activated an attack reaction this chain link, Shake Down has
     pitch: 2,
     
     restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    
     
     
     
@@ -104070,6 +106029,7 @@ If you've played or activated an attack reaction this chain link, Shake Down has
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -104115,6 +106075,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
     
     
     restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
+    
     
     
     
@@ -104170,6 +106131,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -104239,6 +106201,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
     
     
     
+    
     talents: [Talent.Lightning],
     
   },{
@@ -104298,6 +106261,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
     
     
     
+    
     talents: [Talent.Lightning],
     
   },{
@@ -104352,6 +106316,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
     
     pitch: 3,
     power: 3,
+    
     
     
     
@@ -104420,6 +106385,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
     
     
     
+    
   },{
     artists: ["Tommy Suhartono"],
     cardIdentifier: "short-and-sharp-yellow",
@@ -104469,6 +106435,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
     
     
     
+    
   },{
     artists: ["Tommy Suhartono"],
     cardIdentifier: "short-and-sharp-blue",
@@ -104510,6 +106477,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
     
     
     pitch: 3,
+    
     
     
     
@@ -104584,6 +106552,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     
     
     
+    
     specializations: [Hero.Bravo],
     
     
@@ -104628,6 +106597,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -104681,6 +106651,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     
     
     
+    
   },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "shred-blue",
@@ -104728,6 +106699,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     
     
     
+    
   },{
     artists: ["Mihail Spil-Haufter"],
     cardIdentifier: "shrill-of-skullform-red",
@@ -104768,6 +106740,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -104822,6 +106795,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     
     
     
+    
   },{
     artists: ["Mihail Spil-Haufter"],
     cardIdentifier: "shrill-of-skullform-blue",
@@ -104869,6 +106843,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     
     
     
+    
   },{
     artists: ["Sebastian Szmyd"],
     cardIdentifier: "shroud-of-darkness",
@@ -104907,6 +106882,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     
     
     keywords: [Keyword.BloodDebt],
+    
     
     
     
@@ -104995,6 +106971,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     
     
     
+    
   },{
     artists: ["Alexandra Malygina"],
     cardIdentifier: "sic-em-shot-yellow",
@@ -105059,6 +107036,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     
     pitch: 2,
     power: 3,
+    
     
     
     
@@ -105137,6 +107115,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     
     
     
+    
   },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "sift-red",
@@ -105180,6 +107159,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -105235,6 +107215,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     
     
     
+    
   },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "sift-blue",
@@ -105278,6 +107259,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -105331,6 +107313,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     
     
     
+    
   },{
     artists: ["Hoàng Lập"],
     cardIdentifier: "sigil-of-permafrost-red",
@@ -105374,6 +107357,7 @@ If Sigil of Permafrost was **fused**, the next time you deal arcane damage to a 
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -105427,6 +107411,7 @@ If Sigil of Permafrost was **fused**, the next time you deal arcane damage to a 
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -105476,6 +107461,7 @@ If Sigil of Permafrost was **fused**, the next time you deal arcane damage to a 
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -105519,6 +107505,7 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
     
     
     pitch: 1,
+    
     
     
     
@@ -105576,6 +107563,7 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
     
     
     
+    
   },{
     artists: ["Alexandra Malygina"],
     cardIdentifier: "sigil-of-protection-blue",
@@ -105617,6 +107605,7 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
     
     
     pitch: 3,
+    
     
     
     
@@ -105702,6 +107691,7 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
     
     
     
+    
   },{
     artists: ["Adolfo Navarro"],
     cardIdentifier: "sigil-of-solace-yellow",
@@ -105761,6 +107751,7 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -105856,6 +107847,7 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
     
     
     
+    
   },{
     artists: ["Brian Adriel"],
     cardIdentifier: "sigil-of-suffering-red",
@@ -105911,6 +107903,7 @@ If you have dealt arcane damage this turn, Sigil of Suffering gains +1{d}.`,
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -105978,6 +107971,7 @@ If you have dealt arcane damage this turn, Sigil of Suffering gains +1{d}.`,
     
     
     
+    
   },{
     artists: ["Brian Adriel"],
     cardIdentifier: "sigil-of-suffering-blue",
@@ -106039,6 +108033,7 @@ If you have dealt arcane damage this turn, Sigil of Suffering gains +1{d}.`,
     
     
     
+    
   },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "signal-jammer-blue",
@@ -106090,6 +108085,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     
     
     
+    
   },{
     artists: ["Andrey Savchuk"],
     cardIdentifier: "silent-stilettos",
@@ -106134,6 +108130,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     
     
     keywords: [Keyword.ArcaneBarrier],
+    
     
     
     
@@ -106204,6 +108201,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -106249,6 +108247,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     
     
     functionalText: `**Instant** - Destroy Silken Gi: The next attack action card you play this turn has -1{p} and costs {r} less to play.`,
+    
     
     
     
@@ -106324,6 +108323,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     
     
     
+    
   },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "silver-palms",
@@ -106367,6 +108367,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -106434,6 +108435,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     
     
     
+    
   },{
     artists: ["Sonia Sandoval"],
     cardIdentifier: "silver-the-tip-yellow",
@@ -106489,6 +108491,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -106556,6 +108559,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     
     
     
+    
   },{
     artists: ["Sam Yang"],
     cardIdentifier: "silverwind-shuriken-blue",
@@ -106609,6 +108613,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     
     
     
+    
   },{
     artists: ["Marco González"],
     cardIdentifier: "singe-red",
@@ -106648,6 +108653,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     
     
     pitch: 1,
+    
     
     
     
@@ -106703,6 +108709,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     
     
     
+    
   },{
     artists: ["Marco González"],
     cardIdentifier: "singe-blue",
@@ -106742,6 +108749,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     
     
     pitch: 3,
+    
     
     
     
@@ -106809,6 +108817,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     
     
     
+    
   },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "singeing-steelblade-yellow",
@@ -106868,6 +108877,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     
     
     
+    
   },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "singeing-steelblade-blue",
@@ -106920,6 +108930,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     
     pitch: 3,
     power: 2,
+    
     
     
     
@@ -106990,6 +109001,7 @@ Target weapon attack gains +1{p}.
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -107067,6 +109079,7 @@ Target weapon attack gains +1{p}.
     
     
     
+    
   },{
     artists: ["Vlad Varlamov"],
     cardIdentifier: "sink-below-yellow",
@@ -107124,6 +109137,7 @@ Target weapon attack gains +1{p}.
     
     
     pitch: 2,
+    
     
     
     
@@ -107197,6 +109211,7 @@ Target weapon attack gains +1{p}.
     
     
     
+    
   },{
     artists: ["Marco González"],
     cardIdentifier: "skittering-sands-red",
@@ -107244,6 +109259,7 @@ Target weapon attack gains +1{p}.
     
     
     pitch: 1,
+    
     
     
     
@@ -107299,6 +109315,7 @@ Target weapon attack gains +1{p}.
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -107342,6 +109359,7 @@ Target weapon attack gains +1{p}.
     
     
     pitch: 3,
+    
     
     
     
@@ -107397,6 +109415,7 @@ Target weapon attack gains +1{p}.
     
     
     
+    
   },{
     artists: ["Jason Kiantoro"],
     cardIdentifier: "skull-crushers",
@@ -107442,6 +109461,7 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -107505,6 +109525,7 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -107578,6 +109599,7 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     
     
     
+    
   },{
     artists: ["Shen Fei"],
     cardIdentifier: "sky-fire-lanterns-red",
@@ -107619,6 +109641,7 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     
     
     pitch: 1,
+    
     
     
     
@@ -107676,6 +109699,7 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     
     
     
+    
   },{
     artists: ["Shen Fei"],
     cardIdentifier: "sky-fire-lanterns-blue",
@@ -107717,6 +109741,7 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     
     
     pitch: 3,
+    
     
     
     
@@ -107778,6 +109803,7 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     
     
     
+    
   },{
     artists: ["Eilene Cherie"],
     cardIdentifier: "skybound-shot-yellow",
@@ -107825,6 +109851,7 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     
     
     
+    
   },{
     artists: ["Eilene Cherie"],
     cardIdentifier: "skybound-shot-blue",
@@ -107865,6 +109892,7 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     
     pitch: 3,
     power: 3,
+    
     
     
     
@@ -107921,6 +109949,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
+    
   },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "slay-the-scholars-yellow",
@@ -107970,6 +109999,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
+    
   },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "slay-the-scholars-blue",
@@ -108012,6 +110042,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     pitch: 3,
     power: 2,
+    
     
     
     
@@ -108084,6 +110115,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
+    
   },{
     artists: ["Marco González"],
     cardIdentifier: "sleep-dart-red",
@@ -108142,6 +110174,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     pitch: 1,
     power: 5,
+    
     
     
     
@@ -108214,6 +110247,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
+    
   },{
     artists: ["Marco González"],
     cardIdentifier: "sleep-dart-blue",
@@ -108279,6 +110313,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
+    
   },{
     artists: ["Federico Musetti"],
     cardIdentifier: "slice-and-dice-red",
@@ -108331,6 +110366,7 @@ When this hits a hero, banish the top card of their deck.`,
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -108401,6 +110437,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
+    
   },{
     artists: ["Federico Musetti"],
     cardIdentifier: "slice-and-dice-blue",
@@ -108459,6 +110496,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
+    
   },{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "slithering-shadowpede-red",
@@ -108502,6 +110540,7 @@ When this hits a hero, banish the top card of their deck.`,
     pitch: 1,
     power: 6,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -108575,6 +110614,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
+    
   },{
     artists: ["Fedor Barkhatov"],
     cardIdentifier: "sloggism-yellow",
@@ -108634,6 +110674,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     pitch: 2,
+    
     
     
     
@@ -108715,6 +110756,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
+    
   },{
     artists: ["Olga Khariton"],
     cardIdentifier: "smash-instinct-red",
@@ -108779,6 +110821,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     pitch: 1,
     power: 7,
+    
     
     
     
@@ -108863,6 +110906,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
+    
   },{
     artists: ["Olga Khariton"],
     cardIdentifier: "smash-instinct-blue",
@@ -108928,6 +110972,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
+    
   },{
     artists: ["Muhammad Fajri"],
     cardIdentifier: "smash-with-big-tree-red",
@@ -108986,6 +111031,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     pitch: 1,
     power: 7,
+    
     
     
     
@@ -109064,6 +111110,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
+    
   },{
     artists: ["Muhammad Fajri"],
     cardIdentifier: "smash-with-big-tree-blue",
@@ -109123,6 +111170,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
+    
   },{
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "smashing-good-time-red",
@@ -109168,6 +111216,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -109225,6 +111274,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     
     
     
+    
   },{
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "smashing-good-time-blue",
@@ -109270,6 +111320,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -109329,6 +111380,7 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -109400,6 +111452,7 @@ If Snap Shot was **fused**, you may activate abilities of bows you control an ad
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -109461,6 +111514,7 @@ If Snap Shot was **fused**, you may activate abilities of bows you control an ad
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -109518,6 +111572,7 @@ If Snap Shot was **fused**, you may activate abilities of bows you control an ad
     pitch: 3,
     power: 2,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -109591,6 +111646,7 @@ If you have played another Wizard 'non-attack' action card this turn, you may pl
     
     
     
+    
   },{
     artists: ["Alexandra Malygina"],
     cardIdentifier: "snapback-yellow",
@@ -109658,6 +111714,7 @@ If you have played another Wizard 'non-attack' action card this turn, you may pl
     
     
     
+    
   },{
     artists: ["Alexandra Malygina"],
     cardIdentifier: "snapback-blue",
@@ -109719,6 +111776,7 @@ If you have played another Wizard 'non-attack' action card this turn, you may pl
     pitch: 3,
     
     restrictedFormats: [Format.Blitz],
+    
     
     
     
@@ -109820,6 +111878,7 @@ If you have played another Wizard 'non-attack' action card this turn, you may pl
     
     
     
+    
   },{
     artists: ["Yulia Litvinova"],
     cardIdentifier: "snatch-red",
@@ -109879,6 +111938,7 @@ If you have played another Wizard 'non-attack' action card this turn, you may pl
     pitch: 1,
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -109950,6 +112010,7 @@ If you have played another Wizard 'non-attack' action card this turn, you may pl
     
     
     
+    
   },{
     artists: ["Yulia Litvinova"],
     cardIdentifier: "snatch-blue",
@@ -110015,6 +112076,7 @@ If you have played another Wizard 'non-attack' action card this turn, you may pl
     
     
     
+    
   },{
     artists: ["Raphael Pinna"],
     cardIdentifier: "sneak-attack-red",
@@ -110068,6 +112130,7 @@ If you have played another Wizard 'non-attack' action card this turn, you may pl
     
     
     
+    
   },{
     artists: ["Raphael Pinna"],
     cardIdentifier: "sneak-attack-yellow",
@@ -110115,6 +112178,7 @@ If you have played another Wizard 'non-attack' action card this turn, you may pl
     
     
     
+    
   },{
     artists: ["Raphael Pinna"],
     cardIdentifier: "sneak-attack-blue",
@@ -110156,6 +112220,7 @@ If you have played another Wizard 'non-attack' action card this turn, you may pl
     pitch: 3,
     power: 1,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -110227,6 +112292,7 @@ If Snow Under was **fused**, it gains "If this hits a hero, create a Frostbite t
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -110283,6 +112349,7 @@ If Snow Under was **fused**, it gains "If this hits a hero, create a Frostbite t
     
     pitch: 2,
     power: 6,
+    
     
     
     
@@ -110355,6 +112422,7 @@ If Snow Under was **fused**, it gains "If this hits a hero, create a Frostbite t
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -110399,6 +112467,7 @@ If Snow Under was **fused**, it gains "If this hits a hero, create a Frostbite t
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -110453,6 +112522,7 @@ If Snow Under was **fused**, it gains "If this hits a hero, create a Frostbite t
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -110497,6 +112567,7 @@ If Snow Under was **fused**, it gains "If this hits a hero, create a Frostbite t
     
     pitch: 3,
     power: 2,
+    
     
     
     
@@ -110569,6 +112640,7 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     
     
+    
   },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "sonic-boom-yellow",
@@ -110636,6 +112708,7 @@ If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 
     
     
     
+    
   },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "soul-butcher-red",
@@ -110678,6 +112751,7 @@ If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 
     
     pitch: 1,
     power: 6,
+    
     
     
     
@@ -110732,6 +112806,7 @@ If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -110776,6 +112851,7 @@ If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 
     
     pitch: 3,
     power: 4,
+    
     
     
     
@@ -110830,6 +112906,7 @@ If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -110879,6 +112956,7 @@ If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -110923,6 +113001,7 @@ If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 
     
     pitch: 3,
     power: 4,
+    
     
     
     
@@ -110983,6 +113062,7 @@ If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -111055,6 +113135,7 @@ If Soul Harvest hits a hero, they banish all cards in their soul and lose {h} eq
     
     
     
+    
     specializations: [Hero.Levia],
     talents: [Talent.Shadow],
     
@@ -111124,6 +113205,7 @@ While Soul Reaping is attacking a hero with 1 or more cards in their soul, it ha
     
     
     
+    
     specializations: [Hero.Chane],
     talents: [Talent.Shadow],
     
@@ -111170,6 +113252,7 @@ While Soul Reaping is attacking a hero with 1 or more cards in their soul, it ha
     
     
     functionalText: `At the beginning of your action phase, banish the top card of your deck.`,
+    
     
     
     
@@ -111243,6 +113326,7 @@ While Soul Reaping is attacking a hero with 1 or more cards in their soul, it ha
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -111310,6 +113394,7 @@ While Soul Reaping is attacking a hero with 1 or more cards in their soul, it ha
     
     
     
+    
   },{
     artists: ["Cristián Huerta"],
     cardIdentifier: "soulbead-strike-yellow",
@@ -111368,6 +113453,7 @@ While Soul Reaping is attacking a hero with 1 or more cards in their soul, it ha
     
     pitch: 2,
     power: 3,
+    
     
     
     
@@ -111446,6 +113532,7 @@ While Soul Reaping is attacking a hero with 1 or more cards in their soul, it ha
     
     
     
+    
   },{
     artists: ["Tanapon Wachirakul"],
     cardIdentifier: "soulbond-resolve",
@@ -111497,6 +113584,7 @@ The first time you would be dealt damage each turn, if you've **charged** this t
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -111570,6 +113658,7 @@ If Sow Tomorrow is played from arsenal, draw a card.
     
     
     
+    
     talents: [Talent.Earth],
     
   },{
@@ -111627,6 +113716,7 @@ If Sow Tomorrow is played from arsenal, draw a card.
     
     
     pitch: 2,
+    
     
     
     
@@ -111702,6 +113792,7 @@ If Sow Tomorrow is played from arsenal, draw a card.
     
     
     
+    
     talents: [Talent.Earth],
     
   },{
@@ -111768,6 +113859,7 @@ If you have **boosted** this turn, draw a card.`,
     
     restrictedFormats: [Format.Commoner],
     specialCost: "XX",
+    
     
     
     specializations: [Hero.Dash],
@@ -111840,6 +113932,7 @@ If you have **boosted** this turn, draw a card.`,
     
     
     
+    
   },{
     artists: ["Immanuela Crovius"],
     cardIdentifier: "spears-of-surreality-yellow",
@@ -111894,6 +113987,7 @@ If you have **boosted** this turn, draw a card.`,
     
     pitch: 2,
     power: 4,
+    
     
     
     
@@ -111968,6 +114062,7 @@ If you have **boosted** this turn, draw a card.`,
     
     
     
+    
   },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "spectral-procession-red",
@@ -112011,6 +114106,7 @@ If you have **boosted** this turn, draw a card.`,
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     specialPower: "*",
@@ -112059,6 +114155,7 @@ If you have **boosted** this turn, draw a card.`,
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -112115,6 +114212,7 @@ If you have **boosted** this turn, draw a card.`,
     
     
     
+    
   },{
     artists: ["Rio Sabda"],
     cardIdentifier: "spectral-prowler-blue",
@@ -112157,6 +114255,7 @@ If you have **boosted** this turn, draw a card.`,
     
     pitch: 3,
     power: 2,
+    
     
     
     
@@ -112213,6 +114312,7 @@ If you have **boosted** this turn, draw a card.`,
     
     
     
+    
   },{
     artists: ["BWusagi"],
     cardIdentifier: "spectral-rider-yellow",
@@ -112262,6 +114362,7 @@ If you have **boosted** this turn, draw a card.`,
     
     
     
+    
   },{
     artists: ["BWusagi"],
     cardIdentifier: "spectral-rider-blue",
@@ -112304,6 +114405,7 @@ If you have **boosted** this turn, draw a card.`,
     
     pitch: 3,
     power: 6,
+    
     
     
     
@@ -112394,6 +114496,7 @@ If you have **boosted** this turn, draw a card.`,
     
     
     
+    
   },{
     artists: ["Saad Irfan"],
     cardIdentifier: "spell-fray-cloak",
@@ -112448,6 +114551,7 @@ If you have **boosted** this turn, draw a card.`,
     
     
     keywords: [Keyword.Spellvoid],
+    
     
     
     
@@ -112518,6 +114622,7 @@ If you have **boosted** this turn, draw a card.`,
     
     
     
+    
   },{
     artists: ["Tian Thongjomroon"],
     cardIdentifier: "spell-fray-leggings",
@@ -112566,6 +114671,7 @@ If you have **boosted** this turn, draw a card.`,
     
     
     keywords: [Keyword.Spellvoid],
+    
     
     
     
@@ -112630,6 +114736,7 @@ If you have **boosted** this turn, draw a card.`,
     
     
     
+    
   },{
     artists: ["Federico Musetti"],
     cardIdentifier: "spellbane-aegis",
@@ -112672,6 +114779,7 @@ If you have **boosted** this turn, draw a card.`,
     
     
     keywords: [Keyword.Spellvoid],
+    
     
     
     
@@ -112748,6 +114856,7 @@ If you have **boosted** this turn, draw a card.`,
     
     
     
+    
   },{
     artists: ["Wírawan Pranoto"],
     cardIdentifier: "spellblade-assault-yellow",
@@ -112807,6 +114916,7 @@ If you have **boosted** this turn, draw a card.`,
     pitch: 2,
     power: 3,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -112878,6 +114988,7 @@ If you have **boosted** this turn, draw a card.`,
     
     
     
+    
   },{
     artists: ["Andrey Savchuk"],
     cardIdentifier: "spellblade-strike-red",
@@ -112930,6 +115041,7 @@ If you have **boosted** this turn, draw a card.`,
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -112996,6 +115108,7 @@ If you have **boosted** this turn, draw a card.`,
     
     
     
+    
   },{
     artists: ["Andrey Savchuk"],
     cardIdentifier: "spellblade-strike-blue",
@@ -113048,6 +115161,7 @@ If you have **boosted** this turn, draw a card.`,
     
     pitch: 3,
     power: 2,
+    
     
     
     
@@ -113112,6 +115226,7 @@ At the beginning of your end phase, destroy Spellbound Creepers unless you have 
     
     
     
+    
   },{
     artists: ["Akifa Shahgeldleva"],
     cardIdentifier: "spellfire-cloak",
@@ -113156,6 +115271,7 @@ At the beginning of your end phase, destroy Spellbound Creepers unless you have 
     
     
     keywords: [Keyword.ArcaneBarrier],
+    
     
     
     
@@ -113220,6 +115336,7 @@ At the beginning of your end phase, destroy Spellbound Creepers unless you have 
     
     
     pitch: 1,
+    
     
     
     
@@ -113293,6 +115410,7 @@ At the beginning of your end phase, destroy Spellbound Creepers unless you have 
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -113348,6 +115466,7 @@ At the beginning of your end phase, destroy Spellbound Creepers unless you have 
     
     
     pitch: 3,
+    
     
     
     
@@ -113449,6 +115568,7 @@ When this hits a hero, the next time they defend with 1 or more attack action ca
     
     
     
+    
   },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "spike-pit-trap-blue",
@@ -113492,6 +115612,7 @@ When this defends and the attacking hero has played or activated a reaction this
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -113557,6 +115678,7 @@ When this defends and the attacking hero has played or activated a reaction this
     
     
     
+    
   },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "spike-with-frailty-red",
@@ -113610,6 +115732,7 @@ When this defends and the attacking hero has played or activated a reaction this
     
     
     
+    
   },{
     artists: ["Federico Musetti"],
     cardIdentifier: "spike-with-inertia-red",
@@ -113657,6 +115780,7 @@ When this defends and the attacking hero has played or activated a reaction this
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -113718,6 +115842,7 @@ When this defends and the attacking hero has played or activated a reaction this
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -113789,6 +115914,7 @@ When this defends and the attacking hero has played or activated a reaction this
     
     
     
+    
   },{
     artists: ["Le Vuong"],
     cardIdentifier: "spinning-wheel-kick-red",
@@ -113838,6 +115964,7 @@ When this defends and the attacking hero has played or activated a reaction this
     pitch: 1,
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -113899,6 +116026,7 @@ When this defends and the attacking hero has played or activated a reaction this
     
     
     
+    
   },{
     artists: ["Le Vuong"],
     cardIdentifier: "spinning-wheel-kick-blue",
@@ -113954,6 +116082,7 @@ When this defends and the attacking hero has played or activated a reaction this
     
     
     
+    
   },{
     artists: ["Muhammad Fajri"],
     cardIdentifier: "spire-sniping-red",
@@ -114000,6 +116129,7 @@ When this defends and the attacking hero has played or activated a reaction this
     
     pitch: 1,
     power: 5,
+    
     
     
     
@@ -114060,6 +116190,7 @@ When this defends and the attacking hero has played or activated a reaction this
     
     
     
+    
   },{
     artists: ["Muhammad Fajri"],
     cardIdentifier: "spire-sniping-blue",
@@ -114106,6 +116237,7 @@ When this defends and the attacking hero has played or activated a reaction this
     
     pitch: 3,
     power: 3,
+    
     
     
     
@@ -114162,6 +116294,7 @@ You may play Lumina Ascension as though it were an instant.`,
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -114207,6 +116340,7 @@ If a yellow card is **charged** this way, whenever an attack action card hits th
     pitch: 1,
     power: 3,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -114258,6 +116392,7 @@ If a yellow card is **charged** this way, whenever an attack action card hits th
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -114333,6 +116468,7 @@ Whenever a weapon you control hits this turn, create 2 Copper tokens.
     
     
     
+    
   },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "spreading-flames-red",
@@ -114380,6 +116516,7 @@ Whenever a weapon you control hits this turn, create 2 Copper tokens.
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -114423,6 +116560,7 @@ Whenever a weapon you control hits this turn, create 2 Copper tokens.
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -114488,6 +116626,7 @@ Whenever a weapon you control hits this turn, create 2 Copper tokens.
     
     
     
+    
   },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "spring-load-yellow",
@@ -114528,6 +116667,7 @@ Whenever a weapon you control hits this turn, create 2 Copper tokens.
     
     pitch: 2,
     power: 2,
+    
     
     
     
@@ -114582,6 +116722,7 @@ Whenever a weapon you control hits this turn, create 2 Copper tokens.
     
     
     
+    
   },{
     artists: ["Rio Sabda"],
     cardIdentifier: "spring-tidings-yellow",
@@ -114627,6 +116768,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
     pitch: 2,
     power: 2,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -114728,6 +116870,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
     
     
     
+    
   },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "stab-wound-blue",
@@ -114775,6 +116918,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
     
     
     
+    
   },{
     artists: ["Lizhe Liang"],
     cardIdentifier: "stalagmite-bastion-of-isenloft",
@@ -114816,6 +116960,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -114885,6 +117030,7 @@ At the beginning of your action phase, destroy Stamp Authority.`,
     
     
     
+    
   },{
     artists: ["Andy Aslamov"],
     cardIdentifier: "star-struck-yellow",
@@ -114930,6 +117076,7 @@ At the beginning of your action phase, destroy Stamp Authority.`,
     pitch: 2,
     power: 10,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -115001,6 +117148,7 @@ At the beginning of your action phase, destroy Stamp Authority.`,
     
     
     
+    
   },{
     artists: ["Nikolai Maslakov"],
     cardIdentifier: "staunch-response-yellow",
@@ -115060,6 +117208,7 @@ At the beginning of your action phase, destroy Stamp Authority.`,
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -115137,6 +117286,7 @@ At the beginning of your action phase, destroy Stamp Authority.`,
     
     
     
+    
   },{
     artists: ["Maerel Hibadita"],
     cardIdentifier: "steadfast-red",
@@ -115176,6 +117326,7 @@ At the beginning of your action phase, destroy Stamp Authority.`,
     
     
     pitch: 1,
+    
     
     
     
@@ -115231,6 +117382,7 @@ At the beginning of your action phase, destroy Stamp Authority.`,
     
     
     
+    
   },{
     artists: ["Maerel Hibadita"],
     cardIdentifier: "steadfast-blue",
@@ -115270,6 +117422,7 @@ At the beginning of your action phase, destroy Stamp Authority.`,
     
     
     pitch: 3,
+    
     
     
     
@@ -115349,6 +117502,7 @@ At the beginning of your action phase, destroy Stamp Authority.`,
     
     
     
+    
   },{
     artists: ["Cindy Handoyo"],
     cardIdentifier: "steelblade-shunt-yellow",
@@ -115414,6 +117568,7 @@ At the beginning of your action phase, destroy Stamp Authority.`,
     
     
     
+    
   },{
     artists: ["Cindy Handoyo"],
     cardIdentifier: "steelblade-shunt-blue",
@@ -115473,6 +117628,7 @@ At the beginning of your action phase, destroy Stamp Authority.`,
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -115545,6 +117701,7 @@ Until end of turn, target weapon gains +2{p} and "Whenever this weapon hits, dra
     
     
     
+    
     specializations: [Hero.Dorinthea],
     
     
@@ -115590,6 +117747,7 @@ Until end of turn, target weapon gains +2{p} and "Whenever this weapon hits, dra
     
     
     keywords: [Keyword.Temper],
+    
     
     
     
@@ -115664,6 +117822,7 @@ At the beginning of your end phase, destroy Sting of Sorcery.`,
     
     
     
+    
   },{
     artists: ["Igor Heras"],
     cardIdentifier: "stir-the-aetherwinds-red",
@@ -115723,6 +117882,7 @@ At the beginning of your end phase, destroy Sting of Sorcery.`,
     pitch: 1,
     
     restrictedFormats: [Format.Blitz,Format.Commoner],
+    
     
     
     
@@ -115794,6 +117954,7 @@ At the beginning of your end phase, destroy Sting of Sorcery.`,
     
     
     
+    
   },{
     artists: ["Igor Heras"],
     cardIdentifier: "stir-the-aetherwinds-blue",
@@ -115853,6 +118014,7 @@ At the beginning of your end phase, destroy Sting of Sorcery.`,
     pitch: 3,
     
     restrictedFormats: [Format.Blitz,Format.Commoner],
+    
     
     
     
@@ -115932,6 +118094,7 @@ If Stir the Wildwood was **fused**, it gains +2{p}.`,
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -116001,6 +118164,7 @@ If Stir the Wildwood was **fused**, it gains +2{p}.`,
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -116064,6 +118228,7 @@ If Stir the Wildwood was **fused**, it gains +2{p}.`,
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -116118,6 +118283,7 @@ If Stir the Wildwood was **fused**, it gains +2{p}.`,
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -116194,6 +118360,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     
     
     
+    
   },{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "stonewall-confidence-yellow",
@@ -116255,6 +118422,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     
     
     pitch: 2,
+    
     
     
     
@@ -116338,6 +118506,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     
     
     
+    
   },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "stony-woottonhog-red",
@@ -116390,6 +118559,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     
     pitch: 1,
     power: 6,
+    
     
     
     
@@ -116456,6 +118626,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     
     
     
+    
   },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "stony-woottonhog-blue",
@@ -116515,6 +118686,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     
     
     
+    
   },{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "storm-of-sandikai",
@@ -116552,6 +118724,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     
     
     functionalText: `Dragon allies you control have "**Once per Turn Action** - 0: **Attack**".`,
+    
     
     
     
@@ -116629,6 +118802,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     
     
     
+    
   },{
     artists: ["Peyeyo"],
     cardIdentifier: "strategic-planning-red",
@@ -116672,6 +118846,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -116727,6 +118902,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     
     
     
+    
   },{
     artists: ["Peyeyo"],
     cardIdentifier: "strategic-planning-blue",
@@ -116770,6 +118946,7 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -116851,6 +119028,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -116910,6 +119088,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
     
     
     pitch: 2,
+    
     
     
     
@@ -116981,6 +119160,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
     
     
     pitch: 3,
+    
     
     
     
@@ -117062,6 +119242,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
     
     
     
+    
   },{
     artists: ["Sonia Sandoval"],
     cardIdentifier: "stroke-of-foresight-yellow",
@@ -117127,6 +119308,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
     
     
     pitch: 2,
+    
     
     
     
@@ -117202,6 +119384,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
     
     
     
+    
   },{
     artists: ["Alsu Nurieva"],
     cardIdentifier: "stubby-hammerers",
@@ -117261,6 +119444,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
     
     
     
+    
   },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "succumb-to-winter-red",
@@ -117304,6 +119488,7 @@ Deal 5 arcane damage to any target. If Succumb to Winter was **fused** and targe
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -117357,6 +119542,7 @@ Deal 4 arcane damage to any target. If Succumb to Winter was **fused** and targe
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -117402,6 +119588,7 @@ Deal 3 arcane damage to any target. If Succumb to Winter was **fused** and targe
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -117461,6 +119648,7 @@ Deal 3 arcane damage to any target. If Succumb to Winter was **fused** and targe
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -117530,6 +119718,7 @@ Deal 3 arcane damage to any target. If Succumb to Winter was **fused** and targe
     
     
     
+    
     talents: [Talent.Earth],
     
   },{
@@ -117589,6 +119778,7 @@ Deal 3 arcane damage to any target. If Succumb to Winter was **fused** and targe
     
     
     
+    
     talents: [Talent.Earth],
     
   },{
@@ -117644,6 +119834,7 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
     
     
     pitch: 1,
+    
     
     
     
@@ -117713,6 +119904,7 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
     
     
     
+    
   },{
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "sun-kiss-blue",
@@ -117774,6 +119966,7 @@ If you have played a card named Moon Wish this turn, draw a card and Sun Kiss ga
     
     
     
+    
   },{
     artists: ["Asur Misoa"],
     cardIdentifier: "suraya-archangel-of-erudition",
@@ -117819,6 +120012,7 @@ When Suraya attacks, you may banish a card from your hero's soul. If you do, dra
     
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -117880,6 +120074,7 @@ Whenever Suraya deals damage, you gain that much {h}.
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -117937,6 +120132,7 @@ The first card you play each turn with an arcane damage effect, instead deals th
     
     
     
+    
   },{
     artists: ["Wisnu Tan"],
     cardIdentifier: "surgical-extraction-blue",
@@ -117980,6 +120176,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     pitch: 3,
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -118038,6 +120235,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     
     pitch: 1,
     power: 5,
+    
     
     
     
@@ -118104,6 +120302,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     
     
     
+    
   },{
     artists: ["Kyxarie Peralta"],
     cardIdentifier: "surging-militia-blue",
@@ -118156,6 +120355,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     
     pitch: 3,
     power: 3,
+    
     
     
     
@@ -118246,6 +120446,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     
     
     
+    
   },{
     artists: ["Vadim Kalabukh"],
     cardIdentifier: "surging-strike-yellow",
@@ -118322,6 +120523,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     
     pitch: 2,
     power: 4,
+    
     
     
     
@@ -118406,6 +120608,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     
     
     
+    
   },{
     artists: ["Marco Wulfr"],
     cardIdentifier: "sutcliffes-research-notes-red",
@@ -118465,6 +120668,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     
     
     pitch: 1,
+    
     
     
     
@@ -118540,6 +120744,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     
     
     
+    
   },{
     artists: ["Marco Wulfr"],
     cardIdentifier: "sutcliffes-research-notes-blue",
@@ -118599,6 +120804,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     
     
     pitch: 3,
+    
     
     
     
@@ -118672,6 +120878,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     
     
     
+    
   },{
     artists: ["Phu Thieu"],
     cardIdentifier: "swarming-gloomveil-red",
@@ -118713,6 +120920,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     pitch: 1,
     power: 3,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -118772,6 +120980,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -118816,6 +121025,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     
     pitch: 2,
     power: 2,
+    
     
     
     
@@ -118876,6 +121086,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -118927,6 +121138,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     
     
     
+    
   },{
     artists: ["Phu Thieu"],
     cardIdentifier: "swing-big-red",
@@ -118968,6 +121180,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     pitch: 1,
     power: 8,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -119028,6 +121241,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -119096,6 +121310,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     
     
     
+    
   },{
     artists: ["Sergey Averkin"],
     cardIdentifier: "swing-fist-think-later-blue",
@@ -119157,6 +121372,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     
     
     
+    
   },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "t-bone-red",
@@ -119200,6 +121416,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     pitch: 1,
     power: 3,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -119255,6 +121472,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     
     
     
+    
   },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "t-bone-blue",
@@ -119298,6 +121516,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     pitch: 3,
     power: 1,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -119351,6 +121570,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     
     
     restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    
     
     
     
@@ -119432,6 +121652,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     
     
     
+    
   },{
     artists: ["Maxim Kostin"],
     cardIdentifier: "take-aim-yellow",
@@ -119495,6 +121716,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -119570,6 +121792,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     
     
     
+    
   },{
     artists: ["Adolfo Navarro"],
     cardIdentifier: "take-cover-red",
@@ -119629,6 +121852,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -119700,6 +121924,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     
     
     
+    
   },{
     artists: ["Adolfo Navarro"],
     cardIdentifier: "take-cover-blue",
@@ -119759,6 +121984,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -119825,6 +122051,7 @@ If you've **charged** this turn, Take Flight gains **go again**.`,
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -119897,6 +122124,7 @@ If you've **charged** this turn, Take Flight gains **go again**.`,
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -119958,6 +122186,7 @@ If you've **charged** this turn, Take Flight gains **go again**.`,
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -120007,6 +122236,7 @@ If you've **charged** this turn, Take Flight gains **go again**.`,
     
     
     
+    
   },{
     artists: ["Andy Aslamov"],
     cardIdentifier: "tales-of-adventure-blue",
@@ -120046,6 +122276,7 @@ You create a Copper, Silver, and Gold.`,
     pitch: 3,
     
     restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    
     
     
     
@@ -120119,6 +122350,7 @@ At the beginning of your end phase, if Talishar, the Lost Prince has 3 or more r
     
     
     
+    
   },{
     artists: ["Brian Adriel"],
     cardIdentifier: "talisman-of-balance-blue",
@@ -120168,6 +122400,7 @@ At the beginning of your end phase, if you have less cards in arsenal than an op
     
     
     
+    
   },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "talisman-of-cremation-blue",
@@ -120211,6 +122444,7 @@ When you play a card from your banished zone, destroy Talisman of Cremation and 
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -120278,6 +122512,7 @@ When you play a card from your banished zone, destroy Talisman of Cremation and 
     
     
     
+    
   },{
     artists: ["Lizhe Liang"],
     cardIdentifier: "talisman-of-featherfoot-yellow",
@@ -120321,6 +122556,7 @@ When an attack you control gains exactly +1{p} from an effect during the reactio
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -120376,6 +122612,7 @@ Whenever you pitch a card, if you would gain exactly one {r}, instead destroy Ta
     
     
     
+    
   },{
     artists: ["Kanadekana"],
     cardIdentifier: "talisman-of-tithes-blue",
@@ -120425,6 +122662,7 @@ If an opponent would draw 1 or more cards during your action phase, instead dest
     
     
     
+    
   },{
     artists: ["Dmitry Isakevitch"],
     cardIdentifier: "talisman-of-warfare-yellow",
@@ -120468,6 +122706,7 @@ When a source you control deals exactly 2 damage to an opposing hero, destroy Ta
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -120545,6 +122784,7 @@ When a source you control deals exactly 2 damage to an opposing hero, destroy Ta
     
     
     
+    
   },{
     artists: ["Rio Sabda"],
     cardIdentifier: "tarpit-trap-yellow",
@@ -120604,6 +122844,7 @@ When a source you control deals exactly 2 damage to an opposing hero, destroy Ta
     
     
     
+    
   },{
     artists: ["Andy Aslamov"],
     cardIdentifier: "taylor",
@@ -120647,6 +122888,7 @@ At the start of your turn, you may banish an equipment you control. If you do, e
     
     
     restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    
     
     
     
@@ -120714,6 +122956,7 @@ At the start of your turn, you may banish an equipment you control. If you do, e
     
     
     
+    
   },{
     artists: ["Muhammad Fajri"],
     cardIdentifier: "tear-limb-from-limb-blue",
@@ -120775,6 +123018,7 @@ At the start of your turn, you may banish an equipment you control. If you do, e
     
     
     
+    
   },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "tear-through-the-portal-red",
@@ -120816,6 +123060,7 @@ At the start of your turn, you may banish an equipment you control. If you do, e
     
     
     pitch: 1,
+    
     
     
     
@@ -120871,6 +123116,7 @@ At the start of your turn, you may banish an equipment you control. If you do, e
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -120914,6 +123160,7 @@ At the start of your turn, you may banish an equipment you control. If you do, e
     
     
     pitch: 3,
+    
     
     
     
@@ -120966,6 +123213,7 @@ At the start of your turn, you may banish an equipment you control. If you do, e
     
     
     keywords: [Keyword.Battleworn],
+    
     
     
     
@@ -121038,6 +123286,7 @@ At the start of your turn, you may banish an equipment you control. If you do, e
     
     
     
+    
   },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "teklo-core-blue",
@@ -121104,6 +123353,7 @@ At the beginning of your action phase, remove a steam counter from Teklo Core an
     
     
     
+    
     specializations: [Hero.Dash],
     
     
@@ -121162,6 +123412,7 @@ At the beginning of your action phase, remove a steam counter from Teklo Core an
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -121241,6 +123492,7 @@ At the beginning of your action phase, remove a steam counter from Teklo Core an
     
     
     
+    
   },{
     artists: ["Athiwut B."],
     cardIdentifier: "teklo-pounder-blue",
@@ -121284,6 +123536,7 @@ At the beginning of your action phase, remove a steam counter from Teklo Core an
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -121343,6 +123596,7 @@ Reveal the top card of your deck. If it's a Mechanologist item card with cost 2 
     
     
     pitch: 1,
+    
     
     
     
@@ -121412,6 +123666,7 @@ Reveal the top card of your deck. If it's a Mechanologist item card with cost 1 
     
     
     
+    
   },{
     artists: ["Kevin Sidharta"],
     cardIdentifier: "teklovossens-workshop-blue",
@@ -121473,6 +123728,7 @@ Reveal the top card of your deck. If it's a Mechanologist item card with cost 0,
     
     
     
+    
   },{
     artists: ["Shen Fei"],
     cardIdentifier: "tempest-aurora-red",
@@ -121514,6 +123770,7 @@ Reveal the top card of your deck. If it's a Mechanologist item card with cost 0,
     
     
     pitch: 1,
+    
     
     
     
@@ -121571,6 +123828,7 @@ Reveal the top card of your deck. If it's a Mechanologist item card with cost 0,
     
     
     
+    
   },{
     artists: ["Shen Fei"],
     cardIdentifier: "tempest-aurora-blue",
@@ -121612,6 +123870,7 @@ Reveal the top card of your deck. If it's a Mechanologist item card with cost 0,
     
     
     pitch: 3,
+    
     
     
     
@@ -121667,6 +123926,7 @@ Reveal the top card of your deck. If it's a Mechanologist item card with cost 0,
     
     
     
+    
   },{
     artists: ["Hoàng Lập"],
     cardIdentifier: "thaw-red",
@@ -121712,6 +123972,7 @@ Reveal the top card of your deck. If it's a Mechanologist item card with cost 0,
     pitch: 1,
     power: 6,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -121767,6 +124028,7 @@ While The Librarian is face up in arsenal, once per turn when you create a Spect
     
     
     
+    
   },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "themai",
@@ -121808,6 +124070,7 @@ While The Librarian is face up in arsenal, once per turn when you create a Spect
     
     power: 3,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -121859,6 +124122,7 @@ When Themis attacks, you may banish a card from your hero's soul. If you do, tur
     
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -121916,6 +124180,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
     
     
     
+    
   },{
     artists: ["Revazashvili E."],
     cardIdentifier: "threadbare-tunic",
@@ -121965,6 +124230,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
     
     
     functionalText: `**Instant** - Destroy Threadbare Tunic: Gain {r}. Activate this ability only if you have no cards in hand.`,
+    
     
     
     
@@ -122048,6 +124314,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
     
     
     
+    
   },{
     artists: ["Kevin Sidharta"],
     cardIdentifier: "throttle-red",
@@ -122106,6 +124373,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
     
     pitch: 1,
     power: 6,
+    
     
     
     
@@ -122178,6 +124446,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
     
     
     
+    
   },{
     artists: ["Kevin Sidharta"],
     cardIdentifier: "throttle-blue",
@@ -122243,6 +124512,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
     
     
     
+    
   },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "thrust-red",
@@ -122276,6 +124546,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
     
     
     pitch: 1,
+    
     
     
     
@@ -122349,6 +124620,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
     
     
     
+    
   },{
     artists: ["Arif Wijaya"],
     cardIdentifier: "thump-yellow",
@@ -122401,6 +124673,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
     
     pitch: 2,
     power: 5,
+    
     
     
     
@@ -122473,6 +124746,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
     
     
     
+    
   },{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "thunder-quake-red",
@@ -122520,6 +124794,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
     pitch: 1,
     power: 10,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -122579,6 +124854,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
     
     
     
+    
   },{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "thunder-quake-blue",
@@ -122632,6 +124908,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
     
     
     
+    
   },{
     artists: ["Enmoire"],
     cardIdentifier: "tide-flippers",
@@ -122676,6 +124953,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
     
     
     keywords: [Keyword.ArcaneBarrier,Keyword.GoAgain],
+    
     
     
     
@@ -122742,6 +125020,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
     
     
     
+    
   },{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "tiger-swipe-red",
@@ -122783,6 +125062,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
     pitch: 1,
     power: 2,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -122848,6 +125128,7 @@ Until the start of your next turn, attacks that target you have -1{p}.
     
     
     
+    
   },{
     artists: ["Riordan Delmiro"],
     cardIdentifier: "timekeepers-whim-red",
@@ -122889,6 +125170,7 @@ If Timekeeper's Whim is played during an opponent's turn, put it on the bottom o
     
     
     pitch: 1,
+    
     
     
     
@@ -122946,6 +125228,7 @@ If Timekeeper's Whim is played during an opponent's turn, put it on the bottom o
     
     
     
+    
   },{
     artists: ["Riordan Delmiro"],
     cardIdentifier: "timekeepers-whim-blue",
@@ -122987,6 +125270,7 @@ If Timekeeper's Whim is played during an opponent's turn, put it on the bottom o
     
     
     pitch: 3,
+    
     
     
     
@@ -123072,6 +125356,7 @@ If Timekeeper's Whim is played during an opponent's turn, put it on the bottom o
     
     
     
+    
   },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "timidity-point-red",
@@ -123112,6 +125397,7 @@ If Timekeeper's Whim is played during an opponent's turn, put it on the bottom o
     
     pitch: 1,
     power: 5,
+    
     
     
     
@@ -123166,6 +125452,7 @@ If Timekeeper's Whim is played during an opponent's turn, put it on the bottom o
     
     
     
+    
   },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "timidity-point-blue",
@@ -123206,6 +125493,7 @@ If Timekeeper's Whim is played during an opponent's turn, put it on the bottom o
     
     pitch: 3,
     power: 3,
+    
     
     
     
@@ -123274,6 +125562,7 @@ If there is a card with cost 3 or greater in your pitch zone, Titan's Fist has +
     
     
     
+    
   },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "titanium-bauble-blue",
@@ -123313,6 +125602,7 @@ If there is a card with cost 3 or greater in your pitch zone, Titan's Fist has +
     
     
     pitch: 3,
+    
     
     
     
@@ -123364,6 +125654,7 @@ If there is a card with cost 3 or greater in your pitch zone, Titan's Fist has +
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -123438,6 +125729,7 @@ If there is a card with cost 3 or greater in your pitch zone, Titan's Fist has +
     
     
     
+    
   },{
     artists: ["Alexander Gering"],
     cardIdentifier: "tome-of-divinity-yellow",
@@ -123497,6 +125789,7 @@ If a card has been put into your hero's soul this turn, instead draw 3 cards.`,
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -123546,6 +125839,7 @@ If a card has been put into your hero's soul this turn, instead draw 3 cards.`,
     
     
     
+    
   },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "tome-of-firebrand-red",
@@ -123589,6 +125883,7 @@ Draw 2 cards.`,
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -123662,6 +125957,7 @@ If Tome of Fyendal is played from arsenal, gain 1{h} for each card in your hand.
     
     
     
+    
   },{
     artists: ["Mark Poole"],
     cardIdentifier: "tome-of-harvests-blue",
@@ -123719,6 +126015,7 @@ Draw 3 cards.
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -123786,6 +126083,7 @@ Draw 3 cards.
     
     
     
+    
   },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "tome-of-torment-red",
@@ -123847,6 +126145,7 @@ Draw a card.
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -123890,6 +126189,7 @@ Draw a card.
     
     power: 5,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -123967,6 +126267,7 @@ Draw a card.
     
     
     
+    
   },{
     artists: ["Asep Ariyanto"],
     cardIdentifier: "torrent-of-tempo-yellow",
@@ -124025,6 +126326,7 @@ Draw a card.
     
     pitch: 2,
     power: 4,
+    
     
     
     
@@ -124097,6 +126399,7 @@ Draw a card.
     
     
     
+    
   },{
     artists: ["Federico Musetti"],
     cardIdentifier: "toughen-up-blue",
@@ -124130,6 +126433,7 @@ Draw a card.
     
     
     pitch: 3,
+    
     
     
     
@@ -124203,6 +126507,7 @@ Draw a card.
     
     
     
+    
   },{
     artists: ["bimawithpencil"],
     cardIdentifier: "towering-titan-yellow",
@@ -124268,6 +126573,7 @@ Draw a card.
     
     
     
+    
   },{
     artists: ["bimawithpencil"],
     cardIdentifier: "towering-titan-blue",
@@ -124327,6 +126633,7 @@ Draw a card.
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -124400,6 +126707,7 @@ Draw a card.
     
     
     
+    
   },{
     artists: ["Federico Musetti"],
     cardIdentifier: "toxicity-red",
@@ -124455,6 +126763,7 @@ Draw a card.
     
     
     
+    
   },{
     artists: ["Federico Musetti"],
     cardIdentifier: "toxicity-yellow",
@@ -124504,6 +126813,7 @@ Draw a card.
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -124571,6 +126881,7 @@ Draw a card.
     
     
     
+    
   },{
     artists: ["Tanapon Wachirakul"],
     cardIdentifier: "trade-in-red",
@@ -124619,6 +126930,7 @@ If Trade In is played from arsenal, it gains **go again**.`,
     
     pitch: 1,
     power: 3,
+    
     
     
     
@@ -124675,6 +126987,7 @@ If Trade In is played from arsenal, it gains **go again**.`,
     
     
     
+    
   },{
     artists: ["Tanapon Wachirakul"],
     cardIdentifier: "trade-in-blue",
@@ -124717,6 +127030,7 @@ If Trade In is played from arsenal, it gains **go again**.`,
     
     pitch: 3,
     power: 1,
+    
     
     
     
@@ -124773,6 +127087,7 @@ If Trade In is played from arsenal, it gains **go again**.`,
     
     
     
+    
   },{
     artists: ["Alexandra Malygina"],
     cardIdentifier: "tranquil-passing-yellow",
@@ -124816,6 +127131,7 @@ If Trade In is played from arsenal, it gains **go again**.`,
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -124871,6 +127187,7 @@ If Trade In is played from arsenal, it gains **go again**.`,
     
     
     
+    
   },{
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "transmogrify-red",
@@ -124914,6 +127231,7 @@ If Trade In is played from arsenal, it gains **go again**.`,
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -124969,6 +127287,7 @@ If Trade In is played from arsenal, it gains **go again**.`,
     
     
     
+    
   },{
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "transmogrify-blue",
@@ -125012,6 +127331,7 @@ If Trade In is played from arsenal, it gains **go again**.`,
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -125077,6 +127397,7 @@ If Trade In is played from arsenal, it gains **go again**.`,
     
     
     
+    
   },{
     artists: ["Alexis Susani"],
     cardIdentifier: "tremor-of-iarathael-yellow",
@@ -125136,6 +127457,7 @@ If Trade In is played from arsenal, it gains **go again**.`,
     
     
     
+    
   },{
     artists: ["Alexis Susani"],
     cardIdentifier: "tremor-of-iarathael-blue",
@@ -125189,6 +127511,7 @@ If Trade In is played from arsenal, it gains **go again**.`,
     pitch: 3,
     power: 2,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -125258,6 +127581,7 @@ If Trade In is played from arsenal, it gains **go again**.`,
     
     
     
+    
   },{
     artists: ["bimawithpencil"],
     cardIdentifier: "tri-shot-blue",
@@ -125301,6 +127625,7 @@ If Trade In is played from arsenal, it gains **go again**.`,
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -125351,6 +127676,7 @@ If a card with 6 or more {p} is banished this way, this gets +2{p}.
     
     pitch: 1,
     power: 6,
+    
     
     
     
@@ -125407,6 +127733,7 @@ If a card with 6 or more {p} is banished this way, this gets +2{p}.
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -125453,6 +127780,7 @@ If a card with 6 or more {p} is banished this way, this gets +2{p}.
     
     pitch: 3,
     power: 4,
+    
     
     
     
@@ -125509,6 +127837,7 @@ If a card with 6 or more {p} is banished this way, this gets +2{p}.
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -125560,6 +127889,7 @@ If a card with 6 or more {p} is banished this way, this gets +2{p}.
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -125606,6 +127936,7 @@ If a card with 6 or more {p} is banished this way, this gets +2{p}.
     
     pitch: 3,
     power: 5,
+    
     
     
     
@@ -125680,6 +128011,7 @@ When this defends, effects don't trigger when an attack hits this chain link unl
     
     
     
+    
   },{
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "turn-timber-red",
@@ -125745,6 +128077,7 @@ If Turn Timber was **fused**, it gains +2{d}.`,
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -125802,6 +128135,7 @@ If Turn Timber was **fused**, it gains +2{d}.`,
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -125867,6 +128201,7 @@ If Turn Timber was **fused**, it gains +2{d}.`,
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -125926,6 +128261,7 @@ If Turn Timber was **fused**, it gains +2{d}.`,
     
     pitch: 1,
     power: 3,
+    
     
     
     
@@ -125997,6 +128333,7 @@ If Turn Timber was **fused**, it gains +2{d}.`,
     
     
     
+    
   },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "twin-twisters-blue",
@@ -126048,6 +128385,7 @@ If Turn Timber was **fused**, it gains +2{d}.`,
     
     pitch: 3,
     power: 1,
+    
     
     
     
@@ -126126,6 +128464,7 @@ If Turn Timber was **fused**, it gains +2{d}.`,
     
     
     
+    
   },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "unhallowed-rites-red",
@@ -126193,6 +128532,7 @@ You may put a 'non-attack' action card with blood debt from your graveyard on th
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -126252,6 +128592,7 @@ You may put a 'non-attack' action card with blood debt from your graveyard on th
     pitch: 2,
     power: 3,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -126319,6 +128660,7 @@ You may put a 'non-attack' action card with blood debt from your graveyard on th
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -126382,6 +128724,7 @@ You may put a 'non-attack' action card with blood debt from your graveyard on th
     
     
     
+    
   },{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "united-we-stand-yellow",
@@ -126423,6 +128766,7 @@ You may put a 'non-attack' action card with blood debt from your graveyard on th
     pitch: 2,
     power: 6,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -126494,6 +128838,7 @@ You may put a 'non-attack' action card with blood debt from your graveyard on th
     
     
     
+    
   },{
     artists: ["Daniel Jiménez"],
     cardIdentifier: "unmovable-yellow",
@@ -126551,6 +128896,7 @@ You may put a 'non-attack' action card with blood debt from your graveyard on th
     
     
     pitch: 2,
+    
     
     
     
@@ -126630,6 +128976,7 @@ You may put a 'non-attack' action card with blood debt from your graveyard on th
     
     
     
+    
   },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "unworldly-bellow-red",
@@ -126697,6 +129044,7 @@ The next Brute or Shadow attack action card you play this turn gains +4{p}.
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -126754,6 +129102,7 @@ The next Brute or Shadow attack action card you play this turn gains +3{p}.
     
     
     pitch: 2,
+    
     
     
     
@@ -126829,6 +129178,7 @@ The next Brute or Shadow attack action card you play this turn gains +2{p}.
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -126878,6 +129228,7 @@ The next Brute or Shadow attack action card you play this turn gains +2{p}.
     
     
     
+    
     talents: [Talent.Draconic],
     
   },{
@@ -126920,6 +129271,7 @@ The next Brute or Shadow attack action card you play this turn gains +2{p}.
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -126974,6 +129326,7 @@ The next Brute or Shadow attack action card you play this turn gains +2{p}.
     
     
     
+    
   },{
     artists: ["Rio Sabda"],
     cardIdentifier: "urgent-delivery-blue",
@@ -127014,6 +129367,7 @@ The next Brute or Shadow attack action card you play this turn gains +2{p}.
     
     pitch: 3,
     power: 2,
+    
     
     
     
@@ -127080,6 +129434,7 @@ While Ursur is attacking a hero with 1 or more cards in their soul, the attack h
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -127131,6 +129486,7 @@ While Ursur is attacking a hero with 1 or more cards in their soul, the attack h
     
     
     life: 20,
+    
     
     
     
@@ -127194,6 +129550,7 @@ While Ursur is attacking a hero with 1 or more cards in their soul, the attack h
     
     
     
+    
   },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "v-for-valor-red",
@@ -127235,6 +129592,7 @@ While Ursur is attacking a hero with 1 or more cards in their soul, the attack h
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -127286,6 +129644,7 @@ While Ursur is attacking a hero with 1 or more cards in their soul, the attack h
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -127329,6 +129688,7 @@ While Ursur is attacking a hero with 1 or more cards in their soul, the attack h
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -127401,6 +129761,7 @@ Attacks on this combat chain gain +1{p} for each Light card charged this way.`,
     
     
     
+    
     specializations: [Hero.Boltyn],
     talents: [Talent.Light],
     
@@ -127458,6 +129819,7 @@ At the start of your turn, if you control 3 or more Seismic Surge tokens, cards 
     
     
     
+    
     young: true
   },{
     artists: ["Pavel Chuvin"],
@@ -127508,6 +129870,7 @@ At the start of your turn, if you control 3 or more Seismic Surge tokens, cards 
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -127577,6 +129940,7 @@ At the start of your turn, if you control 3 or more Seismic Surge tokens, cards 
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -127632,6 +129996,7 @@ At the start of your turn, if you control 3 or more Seismic Surge tokens, cards 
     pitch: 2,
     power: 3,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -127695,6 +130060,7 @@ At the start of your turn, if you control 3 or more Seismic Surge tokens, cards 
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -127752,6 +130118,7 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
     
     
     
+    
   },{
     artists: ["Muhammad Fajri"],
     cardIdentifier: "vantom-banshee-red",
@@ -127800,6 +130167,7 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
     
     pitch: 1,
     power: 7,
+    
     
     
     
@@ -127860,6 +130228,7 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -127915,6 +130284,7 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -127959,6 +130329,7 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
     
     pitch: 1,
     power: 6,
+    
     
     
     
@@ -128013,6 +130384,7 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -128062,6 +130434,7 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -128105,6 +130478,7 @@ The next attack action card you play this turn is Illusionist in addition to its
     
     
     pitch: 1,
+    
     
     
     
@@ -128162,6 +130536,7 @@ The next attack action card you play this turn is Illusionist in addition to its
     
     
     
+    
   },{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "veiled-intentions-blue",
@@ -128203,6 +130578,7 @@ The next attack action card you play this turn is Illusionist in addition to its
     
     
     pitch: 3,
+    
     
     
     
@@ -128270,6 +130646,7 @@ If Vela Flash was **fused**, you may play your next 'non-attack' action card thi
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -128331,6 +130708,7 @@ If Vela Flash was **fused**, you may play your next 'non-attack' action card thi
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -128387,6 +130765,7 @@ If Vela Flash was **fused**, you may play your next 'non-attack' action card thi
     
     pitch: 3,
     power: 3,
+    
     
     
     
@@ -128465,6 +130844,7 @@ If Vela Flash was **fused**, you may play your next 'non-attack' action card thi
     
     
     
+    
   },{
     artists: ["Mihail Spil-Haufter"],
     cardIdentifier: "vestige-of-sol",
@@ -128514,6 +130894,7 @@ If Vela Flash was **fused**, you may play your next 'non-attack' action card thi
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -128591,6 +130972,7 @@ If Vela Flash was **fused**, you may play your next 'non-attack' action card thi
     
     
     
+    
   },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "vexing-malice-yellow",
@@ -128650,6 +131032,7 @@ If Vela Flash was **fused**, you may play your next 'non-attack' action card thi
     pitch: 2,
     power: 2,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -128721,6 +131104,7 @@ If Vela Flash was **fused**, you may play your next 'non-attack' action card thi
     
     
     
+    
   },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "vexing-quillhand",
@@ -128776,6 +131160,7 @@ If Vela Flash was **fused**, you may play your next 'non-attack' action card thi
     
     
     
+    
   },{
     artists: ["Joseph Qiu"],
     cardIdentifier: "victoria-archangel-of-triumph",
@@ -128821,6 +131206,7 @@ When Victoria attacks, you may banish a card from your hero's soul. If you do, a
     
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -128879,6 +131265,7 @@ When Victoria attacks, you may banish a card from your hero's soul. If you do, a
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -128945,6 +131332,7 @@ When Victoria attacks, you may banish a card from your hero's soul. If you do, a
     
     
     
+    
   },{
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "vigor-rush-blue",
@@ -129004,6 +131392,7 @@ When Victoria attacks, you may banish a card from your hero's soul. If you do, a
     
     
     
+    
   },{
     artists: ["Kyxarie Peralta"],
     cardIdentifier: "vile-inquisition-red",
@@ -129049,6 +131438,7 @@ Target hero banishes the top card of their deck. If it's red, they lose 1{h}.
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -129104,6 +131494,7 @@ Target hero banishes the top card of their deck. If it's yellow, they lose 1{h}.
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -129155,6 +131546,7 @@ Target hero banishes the top card of their deck. If it's blue, they lose 1{h}.
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -129198,6 +131590,7 @@ Target hero banishes the top card of their deck. If it's blue, they lose 1{h}.
     pitch: 1,
     power: 1,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -129259,6 +131652,7 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
     
     
     
+    
   },{
     artists: ["Mark Poole"],
     cardIdentifier: "virulent-touch-yellow",
@@ -129308,6 +131702,7 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
     
     
     
+    
   },{
     artists: ["Mark Poole"],
     cardIdentifier: "virulent-touch-blue",
@@ -129350,6 +131745,7 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
     
     pitch: 3,
     power: 2,
+    
     
     
     
@@ -129410,6 +131806,7 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
     
     
     restrictedFormats: [Format.Blitz,Format.ClassicConstructed],
+    
     
     
     
@@ -129499,6 +131896,7 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
     
     
     
+    
   },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "visit-the-blacksmith-blue",
@@ -129534,6 +131932,7 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
     
     
     pitch: 3,
+    
     
     
     
@@ -129588,6 +131987,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     
     
     
+    
     specializations: [Hero.Katsu],
     
     
@@ -129632,6 +132032,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     
     
     pitch: 1,
+    
     
     
     
@@ -129689,6 +132090,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     
     
     
+    
   },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "visit-the-imperial-forge-blue",
@@ -129730,6 +132132,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     
     
     pitch: 3,
+    
     
     
     
@@ -129805,6 +132208,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     
     
     
+    
   },{
     artists: ["Peyeyo"],
     cardIdentifier: "void-wraith-red",
@@ -129859,6 +132263,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     
     pitch: 1,
     power: 5,
+    
     
     
     
@@ -129925,6 +132330,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -129981,6 +132387,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     
     pitch: 3,
     power: 3,
+    
     
     
     
@@ -130050,6 +132457,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -130133,6 +132541,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     
     
     
+    
   },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "voltic-bolt-yellow",
@@ -130196,6 +132605,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     
     
     pitch: 2,
+    
     
     
     
@@ -130275,6 +132685,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     
     
     
+    
   },{
     artists: ["Federico Musetti"],
     cardIdentifier: "vynnset",
@@ -130322,6 +132733,7 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
     
     
     
+    
     talents: [Talent.Shadow],
     young: true
   },{
@@ -130361,6 +132773,7 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
     
     
     restrictedFormats: [Format.Blitz,Format.Commoner],
+    
     
     
     
@@ -130408,6 +132821,7 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
     
     power: 6,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -130461,6 +132875,7 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -130510,6 +132925,7 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -130555,6 +132971,7 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
     pitch: 3,
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -130609,6 +133026,7 @@ When this hits, you may discard a card with cost 0. If you do, search your deck 
     
     
     
+    
     specializations: [Hero.Benji],
     
     
@@ -130643,6 +133061,7 @@ When this hits, you may discard a card with cost 0. If you do, search your deck 
     
     
     functionalText: `**Once per Turn Instant** - {r}{r}: Deal 2 arcane damage to target hero. If it's not your turn, instead deal 3 arcane damage to them. Activate this ability only if you've played a 'non-attack' action card this turn.`,
+    
     
     
     
@@ -130710,6 +133129,7 @@ If they choose peace, the only actions they may play or activate during their ne
     
     
     
+    
   },{
     artists: ["Oliver Morit"],
     cardIdentifier: "warmongers-recital-red",
@@ -130769,6 +133189,7 @@ If they choose peace, the only actions they may play or activate during their ne
     
     
     pitch: 1,
+    
     
     
     
@@ -130844,6 +133265,7 @@ If they choose peace, the only actions they may play or activate during their ne
     
     
     
+    
   },{
     artists: ["Oliver Morit"],
     cardIdentifier: "warmongers-recital-blue",
@@ -130897,6 +133319,7 @@ If they choose peace, the only actions they may play or activate during their ne
     
     
     pitch: 3,
+    
     
     
     
@@ -130978,6 +133401,7 @@ If they choose peace, the only actions they may play or activate during their ne
     
     
     
+    
   },{
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "warriors-valor-yellow",
@@ -131051,6 +133475,7 @@ If they choose peace, the only actions they may play or activate during their ne
     
     
     
+    
   },{
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "warriors-valor-blue",
@@ -131118,6 +133543,7 @@ If they choose peace, the only actions they may play or activate during their ne
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -131201,6 +133627,7 @@ If they choose peace, the only actions they may play or activate during their ne
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -131269,6 +133696,7 @@ If they choose peace, the only actions they may play or activate during their ne
     
     pitch: 2,
     power: 6,
+    
     
     
     
@@ -131353,6 +133781,7 @@ If they choose peace, the only actions they may play or activate during their ne
     
     
     
+    
     talents: [Talent.Light],
     
   },{
@@ -131396,6 +133825,7 @@ If they choose peace, the only actions they may play or activate during their ne
     
     
     pitch: 1,
+    
     
     
     
@@ -131453,6 +133883,7 @@ If they choose peace, the only actions they may play or activate during their ne
     
     
     
+    
   },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "water-glow-lanterns-blue",
@@ -131494,6 +133925,7 @@ If they choose peace, the only actions they may play or activate during their ne
     
     
     pitch: 3,
+    
     
     
     
@@ -131557,6 +133989,7 @@ If they choose peace, the only actions they may play or activate during their ne
     
     
     
+    
   },{
     artists: ["Jason Kiantoro"],
     cardIdentifier: "wax-on-red",
@@ -131596,6 +134029,7 @@ If they choose peace, the only actions they may play or activate during their ne
     
     
     pitch: 1,
+    
     
     
     
@@ -131651,6 +134085,7 @@ If they choose peace, the only actions they may play or activate during their ne
     
     
     
+    
   },{
     artists: ["Jason Kiantoro"],
     cardIdentifier: "wax-on-blue",
@@ -131690,6 +134125,7 @@ If they choose peace, the only actions they may play or activate during their ne
     
     
     pitch: 3,
+    
     
     
     
@@ -131748,6 +134184,7 @@ If they choose peace, the only actions they may play or activate during their ne
     
     
     keywords: [Keyword.BladeBreak],
+    
     
     
     
@@ -131826,6 +134263,7 @@ If it's **fused**, instead it gains +4{p}.
     
     
     
+    
     talents: [Talent.Earth],
     
   },{
@@ -131889,6 +134327,7 @@ If it's **fused**, instead it gains +3{p}.
     
     
     
+    
     talents: [Talent.Earth],
     
   },{
@@ -131948,6 +134387,7 @@ If it's **fused**, instead it gains +2{p}.
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -132021,6 +134461,7 @@ If it's **fused**, it gains **dominate**.
     
     
     
+    
     talents: [Talent.Ice],
     
   },{
@@ -132084,6 +134525,7 @@ If it's **fused**, it gains **dominate**.
     
     
     
+    
     talents: [Talent.Ice],
     
   },{
@@ -132143,6 +134585,7 @@ If it's **fused**, it gains **dominate**.
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -132220,6 +134663,7 @@ If it's **fused**, it gains **dominate**.
     
     
     
+    
     talents: [Talent.Lightning],
     
   },{
@@ -132287,6 +134731,7 @@ If it's **fused**, it gains **dominate**.
     
     
     
+    
     talents: [Talent.Lightning],
     
   },{
@@ -132350,6 +134795,7 @@ If it's **fused**, it gains **dominate**.
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -132445,6 +134891,7 @@ If it's **fused**, it gains **dominate**.
     
     
     
+    
   },{
     artists: ["Sonia Sandoval"],
     cardIdentifier: "whelming-gustwave-yellow",
@@ -132509,6 +134956,7 @@ If it's **fused**, it gains **dominate**.
     
     pitch: 2,
     power: 2,
+    
     
     
     
@@ -132599,6 +135047,7 @@ If it's **fused**, it gains **dominate**.
     
     
     
+    
   },{
     artists: ["Agri Karuniawan"],
     cardIdentifier: "whirling-mist-blossom-yellow",
@@ -132671,6 +135120,7 @@ If Whirling Mist Blossom hits, and it's the second or higher chain link in a row
     
     
     
+    
     specializations: [Hero.Ira],
     
     
@@ -132733,6 +135183,7 @@ If Whirling Mist Blossom hits, and it's the second or higher chain link in a row
     
     
     pitch: 1,
+    
     
     
     
@@ -132808,6 +135259,7 @@ If Whirling Mist Blossom hits, and it's the second or higher chain link in a row
     
     
     
+    
   },{
     artists: ["Masha Mishina"],
     cardIdentifier: "whisper-of-the-oracle-blue",
@@ -132875,6 +135327,7 @@ If Whirling Mist Blossom hits, and it's the second or higher chain link in a row
     
     
     
+    
   },{
     artists: ["Reza Afshar"],
     cardIdentifier: "widespread-annihilation-blue",
@@ -132926,6 +135379,7 @@ When the combat chain closes, each hero who has lost {h} this turn banishes a ca
     pitch: 3,
     power: 6,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -132987,6 +135441,7 @@ When the combat chain closes, each hero who has lost {h} this turn banishes a ca
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -133040,6 +135495,7 @@ When the combat chain closes, each hero who has lost {h} this turn banishes the 
     pitch: 1,
     power: 6,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -133101,6 +135557,7 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
     
     
     
+    
   },{
     artists: ["Phu Thieu"],
     cardIdentifier: "widowmaker-yellow",
@@ -133150,6 +135607,7 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
     
     
     
+    
   },{
     artists: ["Phu Thieu"],
     cardIdentifier: "widowmaker-blue",
@@ -133192,6 +135650,7 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
     
     pitch: 3,
     power: 2,
+    
     
     
     
@@ -133252,6 +135711,7 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
     
     
     
+    
   },{
     artists: ["Federico Musetti"],
     cardIdentifier: "wild-ride-yellow",
@@ -133299,6 +135759,7 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
     
     
     
+    
   },{
     artists: ["Federico Musetti"],
     cardIdentifier: "wild-ride-blue",
@@ -133339,6 +135800,7 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
     
     pitch: 3,
     power: 4,
+    
     
     
     
@@ -133399,6 +135861,7 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
     
     
     
+    
   },{
     artists: ["Marco González"],
     cardIdentifier: "winters-bite-red",
@@ -133452,6 +135915,7 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
     
     
     pitch: 1,
+    
     
     
     
@@ -133525,6 +135989,7 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
     
     
     
+    
     talents: [Talent.Ice],
     
   },{
@@ -133592,6 +136057,7 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
     
     
     
+    
     talents: [Talent.Ice],
     
   },{
@@ -133651,6 +136117,7 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
     
     
     
+    
     talents: [Talent.Ice],
     
   },{
@@ -133705,6 +136172,7 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
     
     pitch: 2,
     power: 5,
+    
     
     
     
@@ -133775,6 +136243,7 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
     
     
     
+    
     talents: [Talent.Ice],
     
   },{
@@ -133836,6 +136305,7 @@ If an Ice card is pitched this way, Winter's Wail gains "If this hits a hero, cr
     
     
     
+    
     talents: [Talent.Elemental],
     
   },{
@@ -133893,6 +136363,7 @@ When this hits a hero, create a Frailty token under their control.`,
     
     
     
+    
   },{
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "wither-yellow",
@@ -133941,6 +136412,7 @@ When this hits a hero, create a Frailty token under their control.`,
     
     pitch: 2,
     power: 2,
+    
     
     
     
@@ -134009,6 +136481,7 @@ When this hits a hero, create a Frailty token under their control.`,
     
     
     
+    
   },{
     artists: ["Nikita Bondarev"],
     cardIdentifier: "withering-shot-red",
@@ -134070,6 +136543,7 @@ When this hits a hero, create a Frailty token under their control.`,
     
     
     
+    
   },{
     artists: ["Nikita Bondarev"],
     cardIdentifier: "withering-shot-yellow",
@@ -134112,6 +136586,7 @@ When this hits a hero, create a Frailty token under their control.`,
     
     pitch: 2,
     power: 4,
+    
     
     
     
@@ -134168,6 +136643,7 @@ When this hits a hero, create a Frailty token under their control.`,
     
     
     
+    
   },{
     artists: ["Shen Fei"],
     cardIdentifier: "withstand-red",
@@ -134207,6 +136683,7 @@ When this hits a hero, create a Frailty token under their control.`,
     
     
     pitch: 1,
+    
     
     
     
@@ -134262,6 +136739,7 @@ When this hits a hero, create a Frailty token under their control.`,
     
     
     
+    
   },{
     artists: ["Shen Fei"],
     cardIdentifier: "withstand-blue",
@@ -134301,6 +136779,7 @@ When this hits a hero, create a Frailty token under their control.`,
     
     
     pitch: 3,
+    
     
     
     
@@ -134367,6 +136846,7 @@ When this hits a hero, create a Frailty token under their control.`,
     
     pitch: 1,
     power: 7,
+    
     
     
     
@@ -134445,6 +136925,7 @@ When this hits a hero, create a Frailty token under their control.`,
     
     
     
+    
   },{
     artists: ["Adolfo Navarro"],
     cardIdentifier: "wounded-bull-blue",
@@ -134503,6 +136984,7 @@ When this hits a hero, create a Frailty token under their control.`,
     
     pitch: 3,
     power: 5,
+    
     
     
     
@@ -134581,6 +137063,7 @@ When this hits a hero, create a Frailty token under their control.`,
     
     
     
+    
   },{
     artists: ["Sonia Sandoval"],
     cardIdentifier: "wounding-blow-yellow",
@@ -134633,6 +137116,7 @@ When this hits a hero, create a Frailty token under their control.`,
     
     pitch: 2,
     power: 3,
+    
     
     
     
@@ -134711,6 +137195,7 @@ When this hits a hero, create a Frailty token under their control.`,
     
     
     
+    
   },{
     artists: ["Saad Irfan"],
     cardIdentifier: "wreck-havoc-red",
@@ -134754,6 +137239,7 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     pitch: 1,
     power: 6,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -134809,6 +137295,7 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     
     
     
+    
   },{
     artists: ["Saad Irfan"],
     cardIdentifier: "wreck-havoc-blue",
@@ -134852,6 +137339,7 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     pitch: 3,
     power: 4,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -134935,6 +137423,7 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     
     
     
+    
   },{
     artists: ["Arif Wijaya"],
     cardIdentifier: "wrecker-romp-yellow",
@@ -134999,6 +137488,7 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     
     pitch: 2,
     power: 7,
+    
     
     
     
@@ -135095,6 +137585,7 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     
     
     
+    
   },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "wrecking-ball-red",
@@ -135136,6 +137627,7 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     pitch: 1,
     power: 6,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -135209,6 +137701,7 @@ If a card with 6 or more {p} is banished this way, Writhing Beast Hulk gains **d
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -135268,6 +137761,7 @@ If a card with 6 or more {p} is banished this way, Writhing Beast Hulk gains **d
     pitch: 2,
     power: 5,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -135335,6 +137829,7 @@ If a card with 6 or more {p} is banished this way, Writhing Beast Hulk gains **d
     
     
     
+    
     talents: [Talent.Shadow],
     
   },{
@@ -135380,6 +137875,7 @@ If Yendurai would be dealt damage, remove an endurance counter from him to preve
     
     power: 3,
     restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -135440,6 +137936,7 @@ While Yinti Yanti is defending and you control an aura, it has +1{d}.`,
     
     pitch: 1,
     power: 3,
+    
     
     
     
@@ -135508,6 +138005,7 @@ While Yinti Yanti is defending and you control an aura, it has +1{d}.`,
     
     
     
+    
   },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "yinti-yanti-blue",
@@ -135569,6 +138067,7 @@ While Yinti Yanti is defending and you control an aura, it has +1{d}.`,
     
     
     
+    
   },{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "yoji-royal-protector",
@@ -135621,6 +138120,7 @@ While Yinti Yanti is defending and you control an aura, it has +1{d}.`,
     
     
     
+    
     young: true
   },{
     artists: ["Carlos Cruchaga"],
@@ -135663,6 +138163,7 @@ While Yinti Yanti is defending and you control an aura, it has +1{d}.`,
     
     
     restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    
     
     
     
@@ -135726,6 +138227,7 @@ While Yinti Yanti is defending and you control an aura, it has +1{d}.`,
     
     
     pitch: 1,
+    
     
     
     
@@ -135799,6 +138301,7 @@ While Yinti Yanti is defending and you control an aura, it has +1{d}.`,
     
     
     
+    
   },{
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "zap-blue",
@@ -135856,6 +138359,7 @@ While Yinti Yanti is defending and you control an aura, it has +1{d}.`,
     
     
     pitch: 3,
+    
     
     
     
@@ -135923,6 +138427,7 @@ While Yinti Yanti is defending and you control an aura, it has +1{d}.`,
     
     
     
+    
   },{
     artists: ["Brian Adriel"],
     cardIdentifier: "zealous-belting-yellow",
@@ -135975,6 +138480,7 @@ While Yinti Yanti is defending and you control an aura, it has +1{d}.`,
     
     pitch: 2,
     power: 4,
+    
     
     
     
@@ -136041,6 +138547,7 @@ While Yinti Yanti is defending and you control an aura, it has +1{d}.`,
     
     
     
+    
   },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "zen-state",
@@ -136092,6 +138599,7 @@ While Yinti Yanti is defending and you control an aura, it has +1{d}.`,
     functionalText: `Zen State enters the arena with 1 balance counter on it. At the beginning of your action phase, destroy Zen State unless you remove a balance counter from it.
 
 Whenever your hero would be dealt damage, prevent 1 damage that source would deal.`,
+    
     
     
     
@@ -136205,6 +138713,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     
     
     
+    
   },{
     artists: ["Fedor Barkhatov"],
     cardIdentifier: "zero-to-sixty-red",
@@ -136263,6 +138772,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -136335,6 +138845,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     
     
     
+    
   },{
     artists: ["Fedor Barkhatov"],
     cardIdentifier: "zero-to-sixty-blue",
@@ -136393,6 +138904,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     
     pitch: 3,
     power: 2,
+    
     
     
     
@@ -136465,6 +138977,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     
     
     
+    
   },{
     artists: ["Sergey Gurskiy"],
     cardIdentifier: "zipper-hit-yellow",
@@ -136523,6 +139036,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     
     pitch: 2,
     power: 4,
+    
     
     
     
@@ -136595,6 +139109,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     
     
     
+    
   },{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "zoom-in-red",
@@ -136637,6 +139152,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     
     pitch: 1,
     power: 5,
+    
     
     
     
@@ -136693,6 +139209,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     
     
     
+    
   },{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "zoom-in-blue",
@@ -136735,6 +139252,7 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     
     pitch: 3,
     power: 3,
+    
     
     
     
