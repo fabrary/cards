@@ -57,7 +57,7 @@ const exactSearches = [
   [66, "legal:rhinar power:>=6", "l:rhinar pwr:>=6"],
   [13, "legal:kassai copper", "l:kassai copper"],
   [21, "legal:cc type:hero", "l:cc t:hero"],
-  [38, "legal:blitz type:hero", "l:blitz t:hero"],
+  [39, "legal:blitz type:hero", "l:blitz t:hero"],
 
   // Punctuation
   [1, "show time!", "show time"],

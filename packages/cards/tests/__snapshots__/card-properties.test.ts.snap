@@ -66405,6 +66405,50 @@ exports[`Check for unintentional updates Hurricane Technique (hurricane-techniqu
 }
 `;
 
+exports[`Check for unintentional updates Hyper Driver (hyper-driver) vs snapshot 1`] = `
+{
+  "artists": [
+    "Alexander Mokhov",
+  ],
+  "cardIdentifier": "hyper-driver",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "FAB176",
+  "functionalText": "When this has no steam counters, destroy it.
+
+Once per turn, when you **boost** a card, remove a steam counter from this and gain {r}.",
+  "name": "Hyper Driver",
+  "printings": [
+    {
+      "foiling": "Cold",
+      "identifier": "FAB176",
+      "image": "FAB176",
+      "set": "Promos",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "FAB176",
+  ],
+  "sets": [
+    "Bright Lights",
+    "Promos",
+  ],
+  "specialImage": "FAB176",
+  "subtypes": [
+    "Item",
+  ],
+  "typeText": "Mechanologist Token - Item",
+  "types": [
+    "Token",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Hyper Driver (hyper-driver-blue) vs snapshot 1`] = `
 {
   "artists": [

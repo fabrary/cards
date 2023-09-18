@@ -61,6 +61,50 @@ Once per turn, you may play a Mechanologist item with cost 0 or 1 from the top o
     
     young: true
   },{
+    artists: ["Mateus Manhanini"],
+    cardIdentifier: "maxx-nitro",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO005",
+    name: "Maxx Nitro",
+    printings: [{
+      
+      identifier: "EVO005",
+      image: "EVO005",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["EVO005"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO005",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Mechanologist Hero - Young",
+
+    
+    
+    functionalText: `**Once per Turn Action** - {r}{r}: Create a Hyper Driver token with 2 steam counters.  Activate this ability only if you've **boosted** this turn.
+
+Hyper Drivers you control get **Crank**.`,
+    
+    hero: Hero.Maxx,
+    intellect: 4,
+    
+    keywords: [Keyword.Crank],
+    life: 20,
+    
+    
+    
+    restrictedFormats: [Format.ClassicConstructed],
+    
+    
+    
+    
+    
+    
+    young: true
+  },{
     artists: ["Simon Dominic"],
     cardIdentifier: "teklovossen-esteemed-magnate",
     classes: [Class.Mechanologist],
@@ -995,7 +1039,7 @@ You may pitch 2 red cards. If you don't, banish your hand.
     defaultImage: "FAB176",
     name: "Hyper Driver",
     printings: [{
-      
+      foiling: Foiling.C,
       identifier: "FAB176",
       image: "FAB176",
       set: Release.Promos,
@@ -33655,7 +33699,8 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     
     
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Marcus Reyno"],
     cardIdentifier: "deep-rooted-evil-yellow",
     classes: [Class.Brute],
@@ -33717,8 +33762,7 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     
     talents: [Talent.Shadow],
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "defender-of-daybreak-red",
     classes: [Class.NotClassed],
@@ -69195,7 +69239,8 @@ If you have **boosted** this turn, **opt 1**.
     
     
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Shen Fei"],
     cardIdentifier: "looking-for-a-scrap-yellow",
     classes: [Class.Generic],
@@ -69243,8 +69288,7 @@ If you have **boosted** this turn, **opt 1**.
     
     
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Shen Fei"],
     cardIdentifier: "looking-for-a-scrap-blue",
     classes: [Class.Generic],
@@ -104416,7 +104460,8 @@ The next attack action card with cost 0 you play this turns gains +1{p} and **go
     
     
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Kyxarie Peralta"],
     cardIdentifier: "seismic-stir-yellow",
     classes: [Class.Guardian],
@@ -104466,8 +104511,7 @@ The next attack action card with cost 0 you play this turns gains +1{p} and **go
     
     
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Kyxarie Peralta"],
     cardIdentifier: "seismic-stir-blue",
     classes: [Class.Guardian],
@@ -139313,5 +139357,5 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     ...cards4,
   ];
 
-  export const artists: string[] =  ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasia Balakchina","Anastasia Pronina","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Artur Treffner","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","Ausonia","Bastien Jez","Billy Christian","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","David Ogilvie","Dmitriy Semyonov","Dmitry Isakevitch","Dmitry Solodovnikov","Edward Chee","Eilene Cherie","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Enmorie","Eric Klug","Erick Efata","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Jessica Nguyen","Jessketchin","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kalashnikova N.","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Madeline Boni","Maerel Hibadita","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateusz Wiśniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Olga Tereshenko","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Revazashvili E.","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sandeep Karunakaran","Sariya Asavametha","Sebastian Giacobino","Sebastian Szmyd","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Dominic","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Stormy Elia Fanggidae","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tomasz Jedruszek","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Veto Zomer","Victoria Belyaeva","Vito Vivodka","Vlad Tashkinov","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yeong-Hao Han","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
+  export const artists: string[] =  ["Adolfo Navarro","Agri Karuniawan","Agus Setiawan","Akifa Shahgeldleva","Aleksey Peregudov","Alena Marchenko","Alexander Gering","Alexander Mokhov","Alexander Nikolaev","Alexander Pachin","Alexander Staronosov","Alexandra Malygina","Alexey Peregrudov","Alexis Susani","Alief Rusdiatama","Alsu Nurieva","Amelia Tan","Anastasia Alexandrova","Anastasia Balakchina","Anastasia Pronina","Anastasiya Grintsova","Andrew Chou","Andrey Savchuk","Andy Aslamov","Angelina Tyshchik","Anna Kharitonova","Anna Tanygina","Arif Wijaya","Artur Treffner","Asep Ariyanto","Askapoj T","Asur Misoa","Athiwut B.","Ausonia","Bastien Jez","Billy Christian","bimawithpencil","Bramasta Aji","Brian Adriel","BWusagi","Camille Alquier","Carlos Cruchaga","Carlos Jose Camus","CGlas","Cindy Handoyo","Cristián Huerta","Daniel Jiménez","Daniil Goncharov","Daria Cherkashina","Daria Khlebnikova","David Ogilvie","Dmitriy Semyonov","Dmitry Isakevitch","Dmitry Solodovnikov","Edward Chee","Eilene Cherie","Ekaterina Revazashvili","Elena Bakulina","Elena Danilova","Elena Perelygina","Eleonor Piteira","Elina Akhiamova","Elizaveta Zaichikova","Emilis Emka","Enmoire","Enmorie","Eric Klug","Erick Efata","Faizal Fikri","Fajareka Setiawan","Federico Musetti","Fedor Barkhatov","Felicia Liang","Gorshkov Stanislav","Grant Griffin","Grégory Nunkovics","Grigoriy Parshakov","Hendry Iwanaga","Henrique Lindner","Henry Leung","Hilary Purnamasari","Hoàng Lập","Iain Miki","Igor Heras","Immanuela Crovius","Inkognit","Irene Francisco","Irina Kononenko","Irina Plotnikova","Irina Si","Ironical Ghosty","Isuardi Therianto","J. Sebastián S.C.","Jason Kiantoro","Jen Santos","Jessada Sutthi","Jessica Nguyen","Jessketchin","Joseph Qiu","Joshua Raphael","Jsraphael","Junaidi Lim","Kalashnikova N.","Kanadekana","Kate Fox","Kevin Sidharta","Kimberly Pantoni","King Fung Ng","Ksenia Belova","Kyxarie Peralta","Le Vuong","Leo Avero","Leony Tobing","Lius Lasahido","Livia Prima","Lizhe Liang","Madeline Boni","Maerel Hibadita","Marco González","Marco Wulfr","Marcus Reyno","Maria Mishina","Marina Lunina","Mark Poole","Masha Mishina","Mateus Manhanini","Mateusz Wiśniewski","Maxim Kostin","Mihail Spil-Haufter","Mike Dalzell","Mikhail Babkin","Milena Vasyukova","MJ Fetesio","Muhammad Fajri","Narendra B Adi","Nathaniel Himawan","Nikita Bondarev","Nikolai Maslakov","Nikolay Moskvin","Olga Khariton","Olga Krivolapova","Olga Tereshenko","Oliver Morit","Othon Nikolaidis","Oxana Turlay","Panji Bagus P","Patchanee Treedet","Pavel Chuvin","Pavel Kondrashov","Peyeyo","Phu Thieu","Rachel Alderson","Ramza Ardyputra","Raphael Masalimov","Raphael Pinna","Regina Krivolapova","Revazashvili E.","Reza Afshar","Richard Elrassi","Rio Sabda","Riordan Delmiro","Saad Irfan","Sam Yang","Sandeep Karunakaran","Sariya Asavametha","Sebastian Giacobino","Sebastian Szmyd","Septimius Ferdian","Sergey Averkin","Sergey Gurskiy","Shen Fei","Silvia Meiliani","Simon Dominic","Simon Wong","Sofia Akimova","Sonia Sandoval","Sooraj Babu","soyameii","Stanislav Sherbakov","Steve Argyle","Stormy Elia Fanggidae","Surya P","Surya Prasteya","Tanapon Wachirakul","Tatiana Trubnikova","Tian Thongjomroon","Todor Hristov","Tomasz Jedruszek","Tommy Suhartono","Trung Tin Shinji","Vadim Kalabukh","Vathan Suwannaworn","Veto Zomer","Victoria Belyaeva","Vito Vivodka","Vlad Tashkinov","Vlad Varlamov","Vladimir Shatunov","Wírawan Pranoto","Wisnu Tan","Yen Lee","Yeong-Hao Han","Yolanda Felicia","Yugin Maffioli","Yulia Litvinova","Yulia Tarushko"];
   
