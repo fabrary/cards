@@ -989,6 +989,50 @@ You may pitch 2 red cards. If you don't, banish your hand.
     
     
   },{
+    artists: ["Alexander Mokhov"],
+    cardIdentifier: "hyper-driver",
+    classes: [Class.Mechanologist],
+    defaultImage: "FAB176",
+    name: "Hyper Driver",
+    printings: [{
+      
+      identifier: "FAB176",
+      image: "FAB176",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["FAB176"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "FAB176",
+    subtypes: [Subtype.Item],
+    types: [Type.Token],
+    typeText: "Mechanologist Token - Item",
+
+    
+    
+    functionalText: `When this has no steam counters, destroy it.
+
+Once per turn, when you **boost** a card, remove a steam counter from this and gain {r}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "teklo-base-head",
     classes: [Class.Mechanologist],
@@ -33673,7 +33717,8 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     
     talents: [Talent.Shadow],
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "defender-of-daybreak-red",
     classes: [Class.NotClassed],
@@ -33721,8 +33766,7 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     
     talents: [Talent.Light],
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "defender-of-daybreak-yellow",
     classes: [Class.NotClassed],

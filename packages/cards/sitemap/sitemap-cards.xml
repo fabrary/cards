@@ -111,6 +111,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/hyper-driver</loc>
+    <lastmod>2023-09-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/teklo-base-head</loc>
     <lastmod>2023-09-06</lastmod>
     <priority>0.5</priority>
