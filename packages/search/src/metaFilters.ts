@@ -259,6 +259,11 @@ const lexi: AppliedFilter[] = [
   ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Lexi),
 ];
 
+const maxx: AppliedFilter[] = [
+  ...CLASSES_AND_TALENTS([Class.Mechanologist]),
+  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Maxx),
+];
+
 const melody: AppliedFilter[] = [
   ...CLASSES_AND_TALENTS([Class.Bard]),
   ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Melody),
@@ -539,6 +544,7 @@ const legalFiltersMappings: { [key: string]: AppliedFilter[] } = {
   kayo,
   levia,
   lexi,
+  maxx,
   melody,
   oldhim,
   prism,
