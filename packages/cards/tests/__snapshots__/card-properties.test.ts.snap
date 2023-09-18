@@ -61388,6 +61388,156 @@ exports[`Check for unintentional updates Heaven's Claws (heavens-claws-yellow) v
 }
 `;
 
+exports[`Check for unintentional updates Heavy Artillery (heavy-artillery-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tanapon Wachirakul",
+  ],
+  "cardIdentifier": "heavy-artillery-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "LGS193.width-10000",
+  "defense": 3,
+  "functionalText": "**Evo Upgrade** - The defending hero can't defend this with attack action cards with cost less than X, where X is the number of Evos you have equipped.",
+  "keywords": [
+    "Evo Upgrade",
+  ],
+  "name": "Heavy Artillery",
+  "pitch": 3,
+  "power": 4,
+  "printings": [
+    {
+      "foiling": "Rainbow",
+      "identifier": "LGS193",
+      "image": "LGS193.width-10000",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "LGS193",
+  ],
+  "sets": [
+    "Bright Lights",
+    "Promos",
+  ],
+  "specialImage": "LGS193.width-10000",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Heavy Artillery (heavy-artillery-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tanapon Wachirakul",
+  ],
+  "cardIdentifier": "heavy-artillery-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "LGS191.width-10000",
+  "defense": 3,
+  "functionalText": "**Evo Upgrade** - The defending hero can't defend this with attack action cards with cost less than X, where X is the number of Evos you have equipped.",
+  "keywords": [
+    "Evo Upgrade",
+  ],
+  "name": "Heavy Artillery",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "foiling": "Rainbow",
+      "identifier": "LGS191",
+      "image": "LGS191.width-10000",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "LGS191",
+  ],
+  "sets": [
+    "Bright Lights",
+    "Promos",
+  ],
+  "specialImage": "LGS191.width-10000",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Heavy Artillery (heavy-artillery-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tanapon Wachirakul",
+  ],
+  "cardIdentifier": "heavy-artillery-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "LGS192.width-10000",
+  "defense": 3,
+  "functionalText": "**Evo Upgrade** - The defending hero can't defend this with attack action cards with cost less than X, where X is the number of Evos you have equipped.",
+  "keywords": [
+    "Evo Upgrade",
+  ],
+  "name": "Heavy Artillery",
+  "pitch": 2,
+  "power": 5,
+  "printings": [
+    {
+      "foiling": "Rainbow",
+      "identifier": "LGS192",
+      "image": "LGS192.width-10000",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "LGS192",
+  ],
+  "sets": [
+    "Bright Lights",
+    "Promos",
+  ],
+  "specialImage": "LGS192.width-10000",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Helio's Mitre (helios-mitre) vs snapshot 1`] = `
 {
   "artists": [
@@ -140976,6 +141126,57 @@ exports[`Check for unintentional updates Teklo Foundry Heart (teklo-foundry-hear
   "typeText": "Mechanologist Equipment - Chest",
   "types": [
     "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Teklo Leveler (teklo-leveler) vs snapshot 1`] = `
+{
+  "artists": [
+    "Joseph Qiu",
+  ],
+  "cardIdentifier": "teklo-leveler",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "LGS190.width-10000",
+  "functionalText": "If you have 1 or more Evos equipped, this gets "**Once per Turn Action** - {r}{r}{r}: **Attack**,"
+
+* 2 or more, this costs {r}{r} less to activate,
+* 3 or more, this gets **go again**,
+* 4 or more, this gets +1{p}.",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Teklo Leveler",
+  "power": 2,
+  "printings": [
+    {
+      "foiling": "Cold",
+      "identifier": "LGS190",
+      "image": "LGS190.width-10000",
+      "set": "Promos",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "LGS190",
+  ],
+  "sets": [
+    "Bright Lights",
+    "Promos",
+  ],
+  "specialImage": "LGS190.width-10000",
+  "subtypes": [
+    "2H",
+    "Gun",
+  ],
+  "typeText": "Mechanologist Weapon - Gun (2H)",
+  "types": [
+    "Weapon",
   ],
 }
 `;
