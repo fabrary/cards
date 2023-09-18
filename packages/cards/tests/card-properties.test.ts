@@ -1,7 +1,7 @@
 import { cards as cardsToPublish } from "../dist/index";
 import { cards as publishedCards } from "latest-cards";
 import { Card } from "@flesh-and-blood/types";
-import { getPrint } from "../src/Shared";
+import { getPrint } from "../scripts/Shared";
 
 interface UpdatedComparison {
   toPublish: Card;

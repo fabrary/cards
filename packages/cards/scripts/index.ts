@@ -1,10 +1,9 @@
+import { Card } from "@flesh-and-blood/types";
 import { writeFiles } from "./writer";
-import { getArtists } from "./artists";
-import { Card } from "./Shared/interfaces";
 import { spoiledCards } from "./Spoiled";
 import { releasedCards } from "./Released";
 
-const outputDirectory = "data";
+const outputDirectory = "src";
 
 const deduplicatedCards: Card[] = [...spoiledCards];
 releasedCards.forEach((card) => {
@@ -21,6 +20,4 @@ releasedCards.forEach((card) => {
   }
 });
 
-const artists = getArtists(deduplicatedCards);
-
-writeFiles(artists, deduplicatedCards, outputDirectory);
+writeFiles(deduplicatedCards, outputDirectory);

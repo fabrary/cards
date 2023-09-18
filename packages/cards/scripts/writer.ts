@@ -1,4 +1,4 @@
-import { copyFileSync, existsSync, mkdirSync, writeFileSync } from "fs";
+import { existsSync, mkdirSync, writeFileSync } from "fs";
 import {
   Card,
   Class,
@@ -15,7 +15,7 @@ import {
   Talent,
   Treatment,
   Type,
-} from "./Shared";
+} from "@flesh-and-blood/types";
 
 const getEnumValues = (values: any, enumName: string, enm: any) => {
   if (!values || (values.length === 1 && !values[0])) {
@@ -114,6 +114,7 @@ const generateCardTypeScript = (card: Card): String => {
     }
     ${card.specialCost ? `specialCost: "${card.specialCost}",` : ``}
     ${card.specialDefense ? `specialDefense: "${card.specialDefense}",` : ``}
+    ${card.specialLife ? `specialLife: "${card.specialLife}",` : ``}
     ${card.specialPower ? `specialPower: "${card.specialPower}",` : ``}
     ${
       card.specializations && card.specializations.length > 0
@@ -133,7 +134,7 @@ const generateCardTypeScript = (card: Card): String => {
   }`;
 };
 
-const generateTS = (artists: string[], cards: Card[]): string => {
+const generateTS = (cards: Card[]): string => {
   const cards1 = cards.slice(0, Math.ceil(cards.length / 4));
   const cards2 = cards.slice(
     Math.ceil(cards.length / 4),
@@ -160,55 +161,30 @@ const generateTS = (artists: string[], cards: Card[]): string => {
     Talent,
     Treatment,
     Type 
-  } from './interfaces';
+  } from '@flesh-and-blood/types';
 
-  const cards1: Card[] = /* @__PURE__ */ [${cards1.map(
-    generateCardTypeScript
-  )}];
-  const cards2: Card[] = /* @__PURE__ */ [${cards2.map(
-    generateCardTypeScript
-  )}];
-  const cards3: Card[] = /* @__PURE__ */ [${cards3.map(
-    generateCardTypeScript
-  )}];
-  const cards4: Card[] = /* @__PURE__ */ [${cards4.map(
-    generateCardTypeScript
-  )}];
+  const cards1: Card[] =  [${cards1.map(generateCardTypeScript)}];
+  const cards2: Card[] =  [${cards2.map(generateCardTypeScript)}];
+  const cards3: Card[] =  [${cards3.map(generateCardTypeScript)}];
+  const cards4: Card[] =  [${cards4.map(generateCardTypeScript)}];
 
-  export const cards: Card[] = /* @__PURE__ */ [
+  export const cards: Card[] =  [
     ...cards1,
     ...cards2,
     ...cards3,
     ...cards4,
   ];
-
-  export const artists: string[] = /* @__PURE__ */ [${artists
-    .map((artist) => `"${artist}"`)
-    .join(",")}];
-
-  export * from "./sets";
-
-  export * from "./interfaces";
   `;
   return ts;
 };
 
-export const writeFiles = (
-  artists: string[],
-  cards: Card[],
-  outputDirectory: string
-) => {
+export const writeFiles = (cards: Card[], outputDirectory: string) => {
   // make sure directory exists
   if (!existsSync(outputDirectory)) {
     mkdirSync(outputDirectory);
   }
 
   // write typescript
-  const ts = generateTS(artists, cards);
+  const ts = generateTS(cards);
   writeFileSync(`${outputDirectory}/index.ts`, ts);
-  copyFileSync(
-    `${__dirname}/Shared/interfaces.ts`,
-    `${outputDirectory}/interfaces.ts`
-  );
-  copyFileSync(`${__dirname}/Shared/sets.ts`, `${outputDirectory}/sets.ts`);
 };

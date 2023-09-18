@@ -6,9 +6,9 @@
   "types": "dist/index.d.ts",
   "sideEffects": false,
   "scripts": {
-    "transform": "ts-node src/index.ts",
+    "transform": "ts-node scripts/index.ts",
     "prebuild": "rm -rf dist",
-    "build": "esbuild ./data/index.ts --outdir=dist --bundle --minify --platform=node --target=es6",
+    "build": "esbuild ./src/index.ts --outdir=dist --bundle --minify --platform=node --target=es6",
     "postbuild": "tsc --declaration",
     "test": "jest",
     "new": "ts-node tests/new-cards.ts",

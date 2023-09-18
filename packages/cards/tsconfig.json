@@ -6,7 +6,9 @@
     "isolatedModules": true,
     "outDir": "dist",
     "skipLibCheck": true,
-    "target": "ES6"
+    "target": "ES6",
+    "module": "NodeNext",
+    "moduleResolution": "nodenext"
   },
-  "include": ["data"]
+  "include": ["src"]
 }
