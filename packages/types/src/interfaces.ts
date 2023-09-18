@@ -262,6 +262,7 @@ export enum Hero {
   Kayo = "Kayo",
   Levia = "Levia",
   Lexi = "Lexi",
+  Maxx = "Maxx",
   Melody = "Melody",
   Oldhim = "Oldhim",
   ProfessorTeklovossen = "Professor Teklovossen",
