@@ -81214,6 +81214,58 @@ exports[`Check for unintentional updates Maximum Velocity (maximum-velocity-red)
 }
 `;
 
+exports[`Check for unintentional updates Maxx Nitro (maxx-nitro) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mateus Manhanini",
+  ],
+  "cardIdentifier": "maxx-nitro",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "EVO005",
+  "functionalText": "**Once per Turn Action** - {r}{r}: Create a Hyper Driver token with 2 steam counters.  Activate this ability only if you've **boosted** this turn.
+
+Hyper Drivers you control get **Crank**.",
+  "hero": "Maxx",
+  "intellect": 4,
+  "keywords": [
+    "Crank",
+  ],
+  "life": 20,
+  "name": "Maxx Nitro",
+  "printings": [
+    {
+      "identifier": "EVO005",
+      "image": "EVO005",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Token",
+  ],
+  "rarity": "Token",
+  "restrictedFormats": [
+    "Classic Constructed",
+  ],
+  "setIdentifiers": [
+    "EVO005",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO005",
+  "subtypes": [
+    "Young",
+  ],
+  "typeText": "Mechanologist Hero - Young",
+  "types": [
+    "Hero",
+  ],
+  "young": true,
+}
+`;
+
 exports[`Check for unintentional updates Meat and Greet (meat-and-greet-blue) vs snapshot 1`] = `
 {
   "artists": [
