@@ -21166,6 +21166,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
   "rarity": "Token",
   "restrictedFormats": [
     "Blitz",
+    "Classic Constructed",
     "Commoner",
   ],
   "setIdentifiers": [
@@ -111158,6 +111159,9 @@ Whenever you attack with Rosetta Thorn, if you've played an attack action card a
     "Token",
   ],
   "rarity": "Token",
+  "restrictedFormats": [
+    "Classic Constructed",
+  ],
   "setIdentifiers": [
     "BRI004",
     "ELE222",

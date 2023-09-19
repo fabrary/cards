@@ -21169,7 +21169,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
     
     
     
-    restrictedFormats: [Format.Blitz,Format.Commoner],
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
     
     
     
@@ -97576,7 +97576,7 @@ Whenever you attack with Rosetta Thorn, if you've played an attack action card a
     
     
     power: 2,
-    
+    restrictedFormats: [Format.ClassicConstructed],
     
     
     
