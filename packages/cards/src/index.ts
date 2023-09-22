@@ -913,6 +913,236 @@ When this **transforms** from or into an Evo with a different name, gain 1 actio
     
     
   },{
+    artists: ["Marco González"],
+    cardIdentifier: "evo-command-center-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO034",
+    name: "Evo Command Center",
+    printings: [{
+      
+      identifier: "EVO034",
+      image: "EVO034",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO034"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO034",
+    subtypes: [Subtype.Evo,Subtype.Head,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Head",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `If you have a base head equipped, **transform** it into this, then equip this.
+
+**Once per Turn Instant** - Destroy a card under this: Your next weapon attack this turn gets "When this hits, draw a card."
+ 
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak,Keyword.Transform],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "evo-engine-room-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO035",
+    name: "Evo Engine Room",
+    printings: [{
+      
+      identifier: "EVO035",
+      image: "EVO035",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO035"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO035",
+    subtypes: [Subtype.Chest,Subtype.Evo,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Chest",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `If you have a base chest equipped, **transform** it into this, then equip this.
+
+**Once per Turn Instant** - Destroy a card under this: Your next weapon attack this turn costs {r} less to activate.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak,Keyword.Transform],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "evo-smoothbore-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO036",
+    name: "Evo Smoothbore",
+    printings: [{
+      
+      identifier: "EVO036",
+      image: "EVO036",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO036"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO036",
+    subtypes: [Subtype.Arms,Subtype.Evo,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Arms",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `If you have a base arms equipped, **transform** it into this, then equip this.
+
+**Once per Turn Instant** - Destroy a card under this: Your next weapon attack this turn gets +1{p}.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak,Keyword.Transform],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "evo-thruster-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO037",
+    name: "Evo Thruster",
+    printings: [{
+      
+      identifier: "EVO037",
+      image: "EVO037",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO037"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO037",
+    subtypes: [Subtype.Evo,Subtype.Legs,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Legs",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `If you have a base legs equipped, **transform** it into this, then equip this.
+
+**Once per Turn Instant** - Destroy a card under this: You may attack an additional time with target weapon this turn.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak,Keyword.Transform],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "annihilator-engine-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO054_EA",
+    name: "Annihilator Engine",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "EVO054",
+      image: "EVO054_EA",
+      set: Release.BrightLights,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO054"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO054_EA",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 6,
+    defense: 3,
+    functionalText: `If you have 1 or more Evos equipped, this gets "When this hits a hero, destroy all cards defending this," 
+
+- 2 or more, this costs {r}{r}{r} less to play,
+- 3 or more, this gets **overpower**,
+- 4 or more, this gets +3{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Overpower],
+    
+    
+    pitch: 1,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Simon Dominic"],
     cardIdentifier: "terminator-tank-red",
     classes: [Class.Mechanologist],
@@ -2401,6 +2631,50 @@ This gets +X{p}, where X is the number of equipment defending it.`,
     
     pitch: 3,
     power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Anastasia Balakchina"],
+    cardIdentifier: "panel-beater-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO213",
+    name: "Panel Beater",
+    printings: [{
+      
+      identifier: "EVO213",
+      image: "EVO213",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO213"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO213",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+This gets +X{p}, where X is the number of equipment defending it.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 5,
     
     
     
@@ -34044,7 +34318,8 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Pavel Chuvin"],
     cardIdentifier: "cracker-jax",
     classes: [Class.Generic],
@@ -34302,8 +34577,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "crankshaft-red",
     classes: [Class.Mechanologist],
@@ -70466,7 +70740,8 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
     
     
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Steve Argyle"],
     cardIdentifier: "kyloria",
     classes: [Class.Illusionist],
@@ -70626,8 +70901,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
     
     
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Shen Fei"],
     cardIdentifier: "lace-with-inertia-red",
     classes: [Class.Ranger],
@@ -106411,7 +106685,8 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
     
     
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Saad Irfan"],
     cardIdentifier: "sedate-red",
     classes: [Class.Assassin],
@@ -106529,8 +106804,7 @@ When this hits a hero, create an Inertia token under their control.`,
     
     
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Saad Irfan"],
     cardIdentifier: "sedate-blue",
     classes: [Class.Assassin],

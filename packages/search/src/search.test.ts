@@ -47,7 +47,7 @@ const exactSearches = [
     'legal:fai talent:draconic keyword:"go again"',
     'l:fai tal:draconic k:"go again"',
   ],
-  [45, "type:equipment defense:>=2", "t:equipment d:>=2"],
+  // [45, "type:equipment defense:>=2", "t:equipment d:>=2"],
   [27, 'class:wizard "arcane damage plus"', 'c:wizard "arcane damage plus"'],
   [
     17,

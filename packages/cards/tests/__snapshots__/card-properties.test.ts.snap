@@ -118846,6 +118846,58 @@ When this attacks, if it scrapped a card, put a steam counter on an item you con
 }
 `;
 
+exports[`Check for unintentional updates Scrap Hopper (scrap-hopper-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Carlos Cruchaga",
+  ],
+  "cardIdentifier": "scrap-hopper-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO110",
+  "defense": 3,
+  "functionalText": "**Scrap**
+
+When this attacks, if it scrapped a card, create a Quicken token.",
+  "keywords": [
+    "Scrap",
+  ],
+  "name": "Scrap Hopper",
+  "pitch": 3,
+  "power": 1,
+  "printings": [
+    {
+      "identifier": "EVO110",
+      "image": "EVO110",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO110",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO110",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Scrap Trader (scrap-trader-red) vs snapshot 1`] = `
 {
   "artists": [
