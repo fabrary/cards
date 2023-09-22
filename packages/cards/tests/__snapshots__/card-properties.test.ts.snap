@@ -118696,6 +118696,55 @@ exports[`Check for unintentional updates Scramble Pulse (scramble-pulse-yellow) 
 }
 `;
 
+exports[`Check for unintentional updates Scrap Harvester (scrap-harvester-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sandeep Karunakaran",
+  ],
+  "cardIdentifier": "scrap-harvester-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "EVO132",
+  "defense": 3,
+  "functionalText": "**Scrap**
+
+When this attacks, if it scrapped a card, put a steam counter on an item you control with crank.",
+  "keywords": [
+    "Scrap",
+  ],
+  "name": "Scrap Harvester",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "EVO132",
+      "image": "EVO132",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO132",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO132",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Scrap Trader (scrap-trader-red) vs snapshot 1`] = `
 {
   "artists": [

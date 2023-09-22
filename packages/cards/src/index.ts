@@ -1750,6 +1750,50 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.`,
     
     
   },{
+    artists: ["Yugin Maffioli"],
+    cardIdentifier: "scrap-compactor-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO131",
+    name: "Scrap Compactor",
+    printings: [{
+      
+      identifier: "EVO131",
+      image: "EVO131",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO131"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO131",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Scrap**
+
+When this attacks, if it scrapped a card, you may play your next Evo this turn as though it were an instant.`,
+    
+    
+    
+    
+    keywords: [Keyword.Scrap],
+    
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Sandeep Karunakaran"],
     cardIdentifier: "scrap-harvester-red",
     classes: [Class.Mechanologist],
@@ -1786,6 +1830,50 @@ When this attacks, if it scrapped a card, put a steam counter on an item you con
     pitch: 1,
     power: 6,
     
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "heist-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO138",
+    name: "Heist",
+    printings: [{
+      
+      identifier: "EVO138",
+      image: "EVO138",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO138"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO138",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits a hero, you may put an item with cost 0 or 1 from any banished zone into the arena under your control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -34220,7 +34308,8 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "crankshaft-yellow",
     classes: [Class.Mechanologist],
@@ -34270,8 +34359,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "crankshaft-blue",
     classes: [Class.Mechanologist],
@@ -70494,7 +70582,8 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
     
     
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Shen Fei"],
     cardIdentifier: "lace-with-inertia-red",
     classes: [Class.Ranger],
@@ -70550,8 +70639,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
     
     
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "lady-barthimont",
     classes: [Class.Brute],
