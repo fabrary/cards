@@ -38,13 +38,6 @@ const parsedSpoiledCards2 = parseCSV(spoiledCardsFile2)
         card.name === overrideCard.name && card.pitch === overrideCard.pitch
     );
     return !matchingOverride;
-  })
-  .filter((card) => {
-    const matchingOverride = parsedSpoiledCards1.some(
-      (overrideCard) =>
-        card.name === overrideCard.name && card.pitch === overrideCard.pitch
-    );
-    return !matchingOverride;
   });
 const spoiledCards2 = mapCSV(parsedSpoiledCards2);
 

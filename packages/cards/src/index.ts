@@ -295,7 +295,7 @@ Hyper Drivers you control get **Crank**.`,
     
     young: true
   },{
-    artists: ["Vlad Tashkinov"],
+    artists: ["Grigoriy Parshakov","Vlad Tashkinov"],
     cardIdentifier: "proto-base-head",
     classes: [Class.Mechanologist],
     defaultImage: "EVO022",
@@ -306,11 +306,17 @@ Hyper Drivers you control get **Crank**.`,
       image: "EVO022",
       set: Release.BrightLights,
       
+    },{
+      
+      identifier: "TCC005",
+      image: "TCC005",
+      set: Release.RoundTheTable,
+      
     },],
-    rarities: [Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["EVO022"],
-    sets: [Release.BrightLights],
+    setIdentifiers: ["EVO022","TCC005"],
+    sets: [Release.BrightLights,Release.RoundTheTable],
     specialImage: "EVO022",
     subtypes: [Subtype.Base,Subtype.Head],
     types: [Type.Equipment],
@@ -337,7 +343,7 @@ Hyper Drivers you control get **Crank**.`,
     
     
   },{
-    artists: ["Dmitriy Semyonov"],
+    artists: ["Dmitriy Semyonov","Dmitry Semyonov"],
     cardIdentifier: "proto-base-chest",
     classes: [Class.Mechanologist],
     defaultImage: "EVO023",
@@ -348,11 +354,17 @@ Hyper Drivers you control get **Crank**.`,
       image: "EVO023",
       set: Release.BrightLights,
       
+    },{
+      
+      identifier: "TCC004",
+      image: "TCC004",
+      set: Release.RoundTheTable,
+      
     },],
-    rarities: [Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["EVO023"],
-    sets: [Release.BrightLights],
+    setIdentifiers: ["EVO023","TCC004"],
+    sets: [Release.BrightLights,Release.RoundTheTable],
     specialImage: "EVO023",
     subtypes: [Subtype.Base,Subtype.Chest],
     types: [Type.Equipment],
@@ -379,7 +391,7 @@ Hyper Drivers you control get **Crank**.`,
     
     
   },{
-    artists: ["Grigoriy Parshakov"],
+    artists: ["Grigoriy Parshakov","Vlas Tashkinov"],
     cardIdentifier: "proto-base-arms",
     classes: [Class.Mechanologist],
     defaultImage: "EVO024",
@@ -390,11 +402,17 @@ Hyper Drivers you control get **Crank**.`,
       image: "EVO024",
       set: Release.BrightLights,
       
+    },{
+      
+      identifier: "TCC003",
+      image: "TCC003",
+      set: Release.RoundTheTable,
+      
     },],
-    rarities: [Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["EVO024"],
-    sets: [Release.BrightLights],
+    setIdentifiers: ["EVO024","TCC003"],
+    sets: [Release.BrightLights,Release.RoundTheTable],
     specialImage: "EVO024",
     subtypes: [Subtype.Arms,Subtype.Base],
     types: [Type.Equipment],
@@ -432,11 +450,17 @@ Hyper Drivers you control get **Crank**.`,
       image: "EVO025",
       set: Release.BrightLights,
       
+    },{
+      
+      identifier: "TCC006",
+      image: "TCC006",
+      set: Release.RoundTheTable,
+      
     },],
-    rarities: [Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["EVO025"],
-    sets: [Release.BrightLights],
+    setIdentifiers: ["EVO025","TCC006"],
+    sets: [Release.BrightLights,Release.RoundTheTable],
     specialImage: "EVO025",
     subtypes: [Subtype.Base,Subtype.Legs],
     types: [Type.Equipment],

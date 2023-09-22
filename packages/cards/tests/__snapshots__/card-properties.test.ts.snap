@@ -16220,6 +16220,52 @@ exports[`Check for unintentional updates Blood Drop Brocade (blood-drop-brocade)
 }
 `;
 
+exports[`Check for unintentional updates Blood Scent (blood-scent) vs snapshot 1`] = `
+{
+  "artists": [
+    "Kimberly Pantoni",
+  ],
+  "cardIdentifier": "blood-scent",
+  "classes": [
+    "Ninja",
+  ],
+  "defaultImage": "TCC080",
+  "defense": 1,
+  "functionalText": "**Instant** - Destroy this: Gain {r}. Activate this only if you've attacked with a Crouching Tiget this turn.
+
+**Battleworn**",
+  "keywords": [
+    "Battleworn",
+  ],
+  "name": "Blood Scent",
+  "printings": [
+    {
+      "identifier": "TCC080",
+      "image": "TCC080",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "TCC080",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC080",
+  "subtypes": [
+    "Chest",
+  ],
+  "typeText": "Ninja Equipment - Chest",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Blood Tribute (blood-tribute-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -18460,6 +18506,106 @@ exports[`Check for unintentional updates Boneyard Marauder (boneyard-marauder-ye
     "Shadow",
   ],
   "typeText": "Shadow Brute Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Boulder Drop (boulder-drop-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Raphael Pinna",
+  ],
+  "cardIdentifier": "boulder-drop-blue",
+  "classes": [
+    "Guardian",
+  ],
+  "cost": 3,
+  "defaultImage": "TCC044",
+  "defense": 3,
+  "functionalText": "**Crush** - When this deals 4 or more damage to a hero, they put a card from their hand on top of their deck.",
+  "keywords": [
+    "Crush",
+  ],
+  "name": "Boulder Drop",
+  "pitch": 3,
+  "power": 5,
+  "printings": [
+    {
+      "identifier": "TCC044",
+      "image": "TCC044",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "TCC044",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC044",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Guardian Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Boulder Drop (boulder-drop-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Raphael Pinna",
+  ],
+  "cardIdentifier": "boulder-drop-yellow",
+  "classes": [
+    "Guardian",
+  ],
+  "cost": 3,
+  "defaultImage": "TCC039",
+  "defense": 3,
+  "functionalText": "**Crush** - When this deals 4 or more damage to a hero, they put a card from their hand on top of their deck.",
+  "keywords": [
+    "Crush",
+  ],
+  "name": "Boulder Drop",
+  "pitch": 2,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "TCC039",
+      "image": "TCC039",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "TCC039",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC039",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Guardian Action - Attack",
   "types": [
     "Action",
   ],
@@ -28184,6 +28330,56 @@ When this defends an attack with **go again**, the attacking hero discards their
 }
 `;
 
+exports[`Check for unintentional updates Colossal Bearing (colossal-bearing-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Vito Vivodka",
+  ],
+  "cardIdentifier": "colossal-bearing-red",
+  "classes": [
+    "Guardian",
+  ],
+  "cost": 4,
+  "defaultImage": "TCC034",
+  "defense": 3,
+  "functionalText": "**Tower** - If this has 13 or more {p}, it gets "When this hits a hero, destroy an equipment they control with 1 or less {d}."",
+  "keywords": [
+    "Tower",
+  ],
+  "name": "Colossal Bearing",
+  "pitch": 1,
+  "power": 8,
+  "printings": [
+    {
+      "identifier": "TCC034",
+      "image": "TCC034",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "TCC034",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC034",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Guardian Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Combustible Courier (combustible-courier-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -30979,6 +31175,94 @@ exports[`Check for unintentional updates Crankshaft (crankshaft-yellow) vs snaps
 }
 `;
 
+exports[`Check for unintentional updates Crash Down (crash-down-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Edward Chee",
+  ],
+  "cardIdentifier": "crash-down-red",
+  "classes": [
+    "Guardian",
+  ],
+  "cost": 3,
+  "defaultImage": "TCC037",
+  "defense": 3,
+  "functionalText": "At the start of your turn, destroy this, then the next Guardian attack action card you play this turn gets +6{p}.",
+  "name": "Crash Down",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "TCC037",
+      "image": "TCC037",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "TCC037",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC037",
+  "subtypes": [
+    "Aura",
+    "Non-Attack",
+  ],
+  "typeText": "Guardian Action - Aura",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Crash Down (crash-down-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Edward Chee",
+  ],
+  "cardIdentifier": "crash-down-yellow",
+  "classes": [
+    "Guardian",
+  ],
+  "cost": 3,
+  "defaultImage": "TCC042",
+  "defense": 3,
+  "functionalText": "At the start of your turn, destroy this, then the next Guardian attack action card you play this turn gets +5{p}.",
+  "name": "Crash Down",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "TCC042",
+      "image": "TCC042",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "TCC042",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC042",
+  "subtypes": [
+    "Aura",
+    "Non-Attack",
+  ],
+  "typeText": "Guardian Action - Aura",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Crater Fist (crater-fist) vs snapshot 1`] = `
 {
   "artists": [
@@ -31817,6 +32101,126 @@ Whenever an arrow is put face up into your arsenal from your deck, you may pay {
   "typeText": "Ranger Equipment - Quiver",
   "types": [
     "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Crowd Control (crowd-control-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sebastian Szmyd",
+  ],
+  "cardIdentifier": "crowd-control-blue",
+  "classes": [
+    "Bard",
+  ],
+  "defaultImage": "TCC076",
+  "defense": 2,
+  "functionalText": "When this defends, you may pay {r}{r}{r}. If you do, it gets +1{d} for each opposing hero.",
+  "name": "Crowd Control",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "TCC076",
+      "image": "TCC076",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "TCC076",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC076",
+  "subtypes": [],
+  "typeText": "Bard Block",
+  "types": [
+    "Block",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Crowd Control (crowd-control-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sebastian Szmyd",
+  ],
+  "cardIdentifier": "crowd-control-red",
+  "classes": [
+    "Bard",
+  ],
+  "defaultImage": "TCC060",
+  "defense": 4,
+  "functionalText": "When this defends, you may pay {r}{r}{r}. If you do, it gets +1{d} for each opposing hero.",
+  "name": "Crowd Control",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "TCC060",
+      "image": "TCC060",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "TCC060",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC060",
+  "subtypes": [],
+  "typeText": "Bard Block",
+  "types": [
+    "Block",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Crowd Control (crowd-control-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sebastian Szmyd",
+  ],
+  "cardIdentifier": "crowd-control-yellow",
+  "classes": [
+    "Bard",
+  ],
+  "defaultImage": "TCC063",
+  "defense": 3,
+  "functionalText": "When this defends, you may pay {r}{r}{r}. If you do, it gets +1{d} for each opposing hero.",
+  "name": "Crowd Control",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "TCC063",
+      "image": "TCC063",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "TCC063",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC063",
+  "subtypes": [],
+  "typeText": "Bard Block",
+  "types": [
+    "Block",
   ],
 }
 `;
@@ -41394,6 +41798,94 @@ exports[`Check for unintentional updates Earthlore Bounty (earthlore-bounty) vs 
 }
 `;
 
+exports[`Check for unintentional updates Earthlore Empowerment (earthlore-empowerment-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Phu Thieu",
+  ],
+  "cardIdentifier": "earthlore-empowerment-red",
+  "classes": [
+    "Guardian",
+  ],
+  "cost": 3,
+  "defaultImage": "TCC038",
+  "defense": 3,
+  "functionalText": "At the start of your turn, destroy this, then the next Guardian attack action card you play this turn costs {r} less to play and gets +5{p}.",
+  "name": "Earthlore Empowerment",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "TCC038",
+      "image": "TCC038",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "TCC038",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC038",
+  "subtypes": [
+    "Aura",
+    "Non-Attack",
+  ],
+  "typeText": "Guardian Action - Aura",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Earthlore Empowerment (earthlore-empowerment-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Phu Thieu",
+  ],
+  "cardIdentifier": "earthlore-empowerment-yellow",
+  "classes": [
+    "Guardian",
+  ],
+  "cost": 3,
+  "defaultImage": "TCC043",
+  "defense": 3,
+  "functionalText": "At the start of your turn, destroy this, then the next Guardian attack action card you play this turn costs {r} less to play and gets +4{p}.",
+  "name": "Earthlore Empowerment",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "TCC043",
+      "image": "TCC043",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "TCC043",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC043",
+  "subtypes": [
+    "Aura",
+    "Non-Attack",
+  ],
+  "typeText": "Guardian Action - Aura",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Earthlore Surge (earthlore-surge-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -49799,6 +50291,52 @@ If Fervent Forerunner is played from arsenal, it gains **go again**.",
 }
 `;
 
+exports[`Check for unintentional updates Fiddle-dee (fiddle-dee) vs snapshot 1`] = `
+{
+  "artists": [
+    "Shen Fei",
+  ],
+  "cardIdentifier": "fiddle-dee",
+  "classes": [
+    "Bard",
+  ],
+  "defaultImage": "TCC053",
+  "functionalText": "**Action** - Destroy this: Each hero creates a Might token.  **Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Fiddle-dee",
+  "printings": [
+    {
+      "identifier": "TCC053",
+      "image": "TCC053",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "TCC053",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC053",
+  "subtypes": [
+    "Arms",
+  ],
+  "typeText": "Bard Equipment - Arms",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Figment of Erudition (figment-of-erudition-yellow) vs snapshot 1`] = `
 {
   "artists": [
@@ -50472,6 +51010,135 @@ exports[`Check for unintentional updates Firebreathing (firebreathing-red) vs sn
   "typeText": "Generic Action - Attack",
   "types": [
     "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Firewall (firewall-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Ricordan Delmiro",
+  ],
+  "cardIdentifier": "firewall-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "TCC026",
+  "defense": 2,
+  "functionalText": "When this defends, reveal the top card of your deck. If it's an Evo, put it on top of your deck. Otherwise, put it on the bottom.",
+  "name": "Firewall",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "TCC026",
+      "image": "TCC026",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "TCC026",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC026",
+  "subtypes": [],
+  "typeText": "Mechanologist Block",
+  "types": [
+    "Block",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Firewall (firewall-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Ricordan Delmiro",
+  ],
+  "cardIdentifier": "firewall-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "TCC019",
+  "defense": 4,
+  "functionalText": "When this defends, reveal the top card of your deck. If it's an Evo, put it on top of your deck. Otherwise, put it on the bottom.",
+  "name": "Firewall",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "TCC019",
+      "image": "TCC019",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "TCC019",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC019",
+  "subtypes": [],
+  "typeText": "Mechanologist Block",
+  "types": [
+    "Block",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Firewall (firewall-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Ricordan Delmiro",
+  ],
+  "cardIdentifier": "firewall-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "TCC022",
+  "defense": 3,
+  "functionalText": "When this defends, reveal the top card of your deck. If it's an Evo, put it on top of your deck. Otherwise, put it on the bottom.",
+  "name": "Firewall",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "TCC022",
+      "image": "TCC022",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "TCC022",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC022",
+  "subtypes": [],
+  "typeText": "Mechanologist Block",
+  "types": [
+    "Block",
   ],
 }
 `;
@@ -59170,6 +59837,58 @@ exports[`Check for unintentional updates Growl (growl-red) vs snapshot 1`] = `
 }
 `;
 
+exports[`Check for unintentional updates Growl (growl-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Vito Vivodka",
+  ],
+  "cardIdentifier": "growl-yellow",
+  "classes": [
+    "Ninja",
+  ],
+  "cost": 0,
+  "defaultImage": "TCC094",
+  "defense": 2,
+  "functionalText": "When this attacks, the next Crouching Tiger you play this combat chain gets +1{p}.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Growl",
+  "pitch": 2,
+  "power": 2,
+  "printings": [
+    {
+      "identifier": "TCC094",
+      "image": "TCC094",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "TCC094",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC094",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Ninja Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Guardian of the Shadowrealm (guardian-of-the-shadowrealm-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -61067,6 +61786,52 @@ exports[`Check for unintentional updates Heart of Ice (heart-of-ice) vs snapshot
     "Ice",
   ],
   "typeText": "Ice Equipment - Chest",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Heart-throb (heart-throb) vs snapshot 1`] = `
+{
+  "artists": [
+    "Shen Fei",
+  ],
+  "cardIdentifier": "heart-throb",
+  "classes": [
+    "Bard",
+  ],
+  "defaultImage": "TCC052",
+  "functionalText": "**Action** - Destroy this: Each hero creates a Vigor token.  **Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Heart-throb",
+  "printings": [
+    {
+      "identifier": "TCC052",
+      "image": "TCC052",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "TCC052",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC052",
+  "subtypes": [
+    "Chest",
+  ],
+  "typeText": "Bard Equipment - Chest",
   "types": [
     "Equipment",
   ],
@@ -70256,6 +71021,46 @@ If Inspire Lightning was **fused**, deal 2 arcane damage to target hero.",
 }
 `;
 
+exports[`Check for unintentional updates Interlude (interlude-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Veto Zomer",
+  ],
+  "cardIdentifier": "interlude-blue",
+  "classes": [
+    "Bard",
+  ],
+  "cost": 0,
+  "defaultImage": "TCC075",
+  "functionalText": "Choose a hero. The next time they would be dealt damage this turn, prevent 1 of that damage. If you prevent damage to another hero this way, create a Copper token.",
+  "name": "Interlude",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "TCC075",
+      "image": "TCC075",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "TCC075",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC075",
+  "subtypes": [],
+  "typeText": "Bard Instant",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Interlude (interlude-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -70288,6 +71093,46 @@ exports[`Check for unintentional updates Interlude (interlude-red) vs snapshot 1
     "Round the Table",
   ],
   "specialImage": "TCC058",
+  "subtypes": [],
+  "typeText": "Bard Instant",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Interlude (interlude-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Veto Zomer",
+  ],
+  "cardIdentifier": "interlude-yellow",
+  "classes": [
+    "Bard",
+  ],
+  "cost": 0,
+  "defaultImage": "TCC062",
+  "functionalText": "Choose a hero. The next time they would be dealt damage this turn, prevent 2 of that damage. If you prevent damage to another hero this way, create a Copper token.",
+  "name": "Interlude",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "TCC062",
+      "image": "TCC062",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "TCC062",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC062",
   "subtypes": [],
   "typeText": "Bard Instant",
   "types": [
@@ -77955,6 +78800,106 @@ exports[`Check for unintentional updates Liquefy (liquefy-red) vs snapshot 1`] =
 }
 `;
 
+exports[`Check for unintentional updates Liquid-Cooled Mayhem (liquid-cooled-mayhem-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tanapon Wachirakul",
+  ],
+  "cardIdentifier": "liquid-cooled-mayhem-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 4,
+  "defaultImage": "TCC023",
+  "defense": 3,
+  "functionalText": "**Evo Upgrade** - This costs 1 {r} less to play for each Evo you have equipped.",
+  "keywords": [
+    "Evo Upgrade",
+  ],
+  "name": "Liquid-Cooled Mayhem",
+  "pitch": 3,
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "TCC023",
+      "image": "TCC023",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "TCC023",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC023",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Liquid-Cooled Mayhem (liquid-cooled-mayhem-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tanapon Wachirakul",
+  ],
+  "cardIdentifier": "liquid-cooled-mayhem-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 4,
+  "defaultImage": "TCC012",
+  "defense": 3,
+  "functionalText": "**Evo Upgrade** - This costs 1 {r} less to play for each Evo you have equipped.",
+  "keywords": [
+    "Evo Upgrade",
+  ],
+  "name": "Liquid-Cooled Mayhem",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "TCC012",
+      "image": "TCC012",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "TCC012",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC012",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Locked and Loaded (locked-and-loaded-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -81642,6 +82587,56 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
     "Attack",
   ],
   "typeText": "Runeblade Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Mechanical Strength (mechanical-strength-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tomasz Jedruszek",
+  ],
+  "cardIdentifier": "mechanical-strength-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "TCC024",
+  "defense": 3,
+  "functionalText": "**Evo Upgrade** - This gets +X{p}, where X is the number of Evos you have equipped.",
+  "keywords": [
+    "Evo Upgrade",
+  ],
+  "name": "Mechanical Strength",
+  "pitch": 3,
+  "power": 3,
+  "printings": [
+    {
+      "identifier": "TCC024",
+      "image": "TCC024",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "TCC024",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC024",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
   "types": [
     "Action",
   ],
@@ -85720,6 +86715,52 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
   "typeText": "Ranger Action",
   "types": [
     "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Nom de Plume (nom-de-plume) vs snapshot 1`] = `
+{
+  "artists": [
+    "Shen Fei",
+  ],
+  "cardIdentifier": "nom-de-plume",
+  "classes": [
+    "Bard",
+  ],
+  "defaultImage": "TCC051",
+  "functionalText": "**Action** - Destroy this: Each hero draws a card.  **Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Nom de Plume",
+  "printings": [
+    {
+      "identifier": "TCC051",
+      "image": "TCC051",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "TCC051",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC051",
+  "subtypes": [
+    "Head",
+  ],
+  "typeText": "Bard Equipment - Head",
+  "types": [
+    "Equipment",
   ],
 }
 `;
@@ -97445,6 +98486,7 @@ exports[`Check for unintentional updates Proto Base Arms (proto-base-arms) vs sn
 {
   "artists": [
     "Grigoriy Parshakov",
+    "Vlas Tashkinov",
   ],
   "cardIdentifier": "proto-base-arms",
   "classes": [
@@ -97458,16 +98500,24 @@ exports[`Check for unintentional updates Proto Base Arms (proto-base-arms) vs sn
       "image": "EVO024",
       "set": "Bright Lights",
     },
+    {
+      "identifier": "TCC003",
+      "image": "TCC003",
+      "set": "Round the Table",
+    },
   ],
   "rarities": [
+    "Common",
     "Token",
   ],
   "rarity": "Token",
   "setIdentifiers": [
     "EVO024",
+    "TCC003",
   ],
   "sets": [
     "Bright Lights",
+    "Round the Table",
   ],
   "specialImage": "EVO024",
   "subtypes": [
@@ -97485,6 +98535,7 @@ exports[`Check for unintentional updates Proto Base Chest (proto-base-chest) vs 
 {
   "artists": [
     "Dmitriy Semyonov",
+    "Dmitry Semyonov",
   ],
   "cardIdentifier": "proto-base-chest",
   "classes": [
@@ -97498,16 +98549,24 @@ exports[`Check for unintentional updates Proto Base Chest (proto-base-chest) vs 
       "image": "EVO023",
       "set": "Bright Lights",
     },
+    {
+      "identifier": "TCC004",
+      "image": "TCC004",
+      "set": "Round the Table",
+    },
   ],
   "rarities": [
+    "Common",
     "Token",
   ],
   "rarity": "Token",
   "setIdentifiers": [
     "EVO023",
+    "TCC004",
   ],
   "sets": [
     "Bright Lights",
+    "Round the Table",
   ],
   "specialImage": "EVO023",
   "subtypes": [
@@ -97524,6 +98583,7 @@ exports[`Check for unintentional updates Proto Base Chest (proto-base-chest) vs 
 exports[`Check for unintentional updates Proto Base Head (proto-base-head) vs snapshot 1`] = `
 {
   "artists": [
+    "Grigoriy Parshakov",
     "Vlad Tashkinov",
   ],
   "cardIdentifier": "proto-base-head",
@@ -97538,16 +98598,24 @@ exports[`Check for unintentional updates Proto Base Head (proto-base-head) vs sn
       "image": "EVO022",
       "set": "Bright Lights",
     },
+    {
+      "identifier": "TCC005",
+      "image": "TCC005",
+      "set": "Round the Table",
+    },
   ],
   "rarities": [
+    "Common",
     "Token",
   ],
   "rarity": "Token",
   "setIdentifiers": [
     "EVO022",
+    "TCC005",
   ],
   "sets": [
     "Bright Lights",
+    "Round the Table",
   ],
   "specialImage": "EVO022",
   "subtypes": [
@@ -97578,16 +98646,24 @@ exports[`Check for unintentional updates Proto Base Legs (proto-base-legs) vs sn
       "image": "EVO025",
       "set": "Bright Lights",
     },
+    {
+      "identifier": "TCC006",
+      "image": "TCC006",
+      "set": "Round the Table",
+    },
   ],
   "rarities": [
+    "Common",
     "Token",
   ],
   "rarity": "Token",
   "setIdentifiers": [
     "EVO025",
+    "TCC006",
   ],
   "sets": [
     "Bright Lights",
+    "Round the Table",
   ],
   "specialImage": "EVO025",
   "subtypes": [
@@ -99821,6 +100897,53 @@ At the beginning of your action phase, destroy Pyroglyphic Protection.",
 }
 `;
 
+exports[`Check for unintentional updates Qi Unbound (qi-unbound-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Narendra B Adi",
+  ],
+  "cardIdentifier": "qi-unbound-red",
+  "classes": [
+    "Ninja",
+  ],
+  "cost": 2,
+  "defaultImage": "TCC090",
+  "defense": 3,
+  "functionalText": "**Combo** - If Crouching Tiger was the last attack this combat chain, this gets +4 {p}.",
+  "keywords": [
+    "Combo",
+  ],
+  "name": "Qi Unbound",
+  "pitch": 1,
+  "power": 3,
+  "printings": [
+    {
+      "identifier": "TCC090",
+      "image": "TCC090",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "TCC090",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC090",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Ninja Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Qi Unleashed (qi-unleashed-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -100371,6 +101494,52 @@ If another weapon you control has gained **go again** this turn, Quicksilver Dag
   "typeText": "Warrior Weapon - Dagger (1H)",
   "types": [
     "Weapon",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Quickstep (quickstep) vs snapshot 1`] = `
+{
+  "artists": [
+    "Shen Fei",
+  ],
+  "cardIdentifier": "quickstep",
+  "classes": [
+    "Bard",
+  ],
+  "defaultImage": "TCC054",
+  "functionalText": "**Action** - Destroy this: Each hero creates a Quicken token.  **Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Quickstep",
+  "printings": [
+    {
+      "identifier": "TCC054",
+      "image": "TCC054",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "TCC054",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC054",
+  "subtypes": [
+    "Legs",
+  ],
+  "typeText": "Bard Equipment - Legs",
+  "types": [
+    "Equipment",
   ],
 }
 `;
@@ -126323,6 +127492,56 @@ exports[`Check for unintentional updates Sloggism (sloggism-yellow) vs snapshot 
 }
 `;
 
+exports[`Check for unintentional updates Smack of Reality (smack-of-reality-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Alief Rudiatama",
+  ],
+  "cardIdentifier": "smack-of-reality-red",
+  "classes": [
+    "Guardian",
+  ],
+  "cost": 5,
+  "defaultImage": "TCC036",
+  "defense": 3,
+  "functionalText": "**Tower** - If this has 13 or more {p}, it gets "When this hits a hero, destroy all aura tokens they control."",
+  "keywords": [
+    "Tower",
+  ],
+  "name": "Smack of Reality",
+  "pitch": 1,
+  "power": 9,
+  "printings": [
+    {
+      "identifier": "TCC036",
+      "image": "TCC036",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "TCC036",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC036",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Guardian Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Smash Instinct (smash-instinct-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -143485,6 +144704,102 @@ exports[`Check for unintentional updates Tide Flippers (tide-flippers) vs snapsh
 }
 `;
 
+exports[`Check for unintentional updates Tiger Eye Reflex (tiger-eye-reflex-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Raphael Pinna",
+  ],
+  "cardIdentifier": "tiger-eye-reflex-blue",
+  "classes": [
+    "Ninja",
+  ],
+  "defaultImage": "TCC102",
+  "defense": 2,
+  "functionalText": "**Ambush**
+
+When this defends, create a Crouching Tiger in your Banished Zone. You may play it during your next turn",
+  "keywords": [
+    "Ambush",
+  ],
+  "name": "Tiger Eye Reflex",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "TCC102",
+      "image": "TCC102",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "TCC102",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC102",
+  "subtypes": [],
+  "typeText": "Ninja Block",
+  "types": [
+    "Block",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Tiger Eye Reflex (tiger-eye-reflex-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Raphael Pinna",
+  ],
+  "cardIdentifier": "tiger-eye-reflex-yellow",
+  "classes": [
+    "Ninja",
+  ],
+  "defaultImage": "TCC098",
+  "defense": 3,
+  "functionalText": "**Ambush**
+
+When this defends, create a Crouching Tiger in your Banished Zone. You may play it during your next turn",
+  "keywords": [
+    "Ambush",
+  ],
+  "name": "Tiger Eye Reflex",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "TCC098",
+      "image": "TCC098",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "TCC098",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC098",
+  "subtypes": [],
+  "typeText": "Ninja Block",
+  "types": [
+    "Block",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Tiger Stripe Shuko (tiger-stripe-shuko) vs snapshot 1`] = `
 {
   "artists": [
@@ -147529,6 +148844,55 @@ exports[`Check for unintentional updates Twinning Blade (twinning-blade-yellow) 
 }
 `;
 
+exports[`Check for unintentional updates Under Loop (under-loop-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Artur Treffner",
+  ],
+  "cardIdentifier": "under-loop-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 1,
+  "defaultImage": "TCC016",
+  "defense": 3,
+  "functionalText": "**Boost**
+
+When this hits, put it on the bottom of its owner's deck.",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "Under Loop",
+  "pitch": 1,
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "TCC016",
+      "image": "TCC016",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "TCC016",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC016",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Unhallowed Rites (unhallowed-rites-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -150748,6 +152112,46 @@ When Victoria attacks, you may banish a card from your hero's soul. If you do, a
   ],
   "typeText": "Light - Angel Ally",
   "types": [],
+}
+`;
+
+exports[`Check for unintentional updates Vigor (vigor) vs snapshot 1`] = `
+{
+  "artists": [
+    "Rio Sabda",
+  ],
+  "cardIdentifier": "vigor",
+  "classes": [
+    "Generic",
+  ],
+  "defaultImage": "TCC107",
+  "functionalText": "At the start of your turn, destroy this and gain {h}.",
+  "name": "Vigor",
+  "printings": [
+    {
+      "identifier": "TCC107",
+      "image": "TCC107",
+      "set": "Round the Table",
+    },
+  ],
+  "rarities": [
+    "Token",
+  ],
+  "rarity": "Token",
+  "setIdentifiers": [
+    "TCC107",
+  ],
+  "sets": [
+    "Round the Table",
+  ],
+  "specialImage": "TCC107",
+  "subtypes": [
+    "Aura",
+  ],
+  "typeText": "Generic Token - Aura",
+  "types": [
+    "Token",
+  ],
 }
 `;
 
