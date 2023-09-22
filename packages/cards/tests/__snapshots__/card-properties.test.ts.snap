@@ -4250,6 +4250,67 @@ When this hits a hero, banish the top card of their deck.",
 }
 `;
 
+exports[`Check for unintentional updates Annihilator Engine (annihilator-engine-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Isuardi Therianto",
+  ],
+  "cardIdentifier": "annihilator-engine-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 6,
+  "defaultImage": "EVO054",
+  "defense": 3,
+  "functionalText": "If you have 1 or more Evos equipped, this gets "When this hits a hero, destroy all cards defending this," 
+
+- 2 or more, this costs {r}{r}{r} less to play,
+- 3 or more, this gets **overpower**,
+- 4 or more, this gets +3{p}.",
+  "keywords": [
+    "Overpower",
+  ],
+  "name": "Annihilator Engine",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "EVO054",
+      "image": "EVO054",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO054",
+      "image": "EVO054_EA",
+      "set": "Bright Lights",
+      "treatment": "Extended Art",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO054",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO054_EA",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Anothos (anothos) vs snapshot 1`] = `
 {
   "artists": [
@@ -47986,6 +48047,63 @@ exports[`Check for unintentional updates Evergreen (evergreen-yellow) vs snapsho
 }
 `;
 
+exports[`Check for unintentional updates Evo Command Center (evo-command-center-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Marco González",
+  ],
+  "cardIdentifier": "evo-command-center-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "EVO034",
+  "defense": 3,
+  "functionalText": "If you have a base head equipped, **transform** it into this, then equip this.
+
+**Once per Turn Instant** - Destroy a card under this: Your next weapon attack this turn gets "When this hits, draw a card."
+ 
+**Blade Break**",
+  "keywords": [
+    "Blade Break",
+    "Transform",
+  ],
+  "name": "Evo Command Center",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "EVO034",
+      "image": "EVO034",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO034",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO034",
+  "subtypes": [
+    "Evo",
+    "Head",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action Equipment - Evo Head",
+  "types": [
+    "Action",
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Evo Energy Matrix (evo-energy-matrix-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -48030,6 +48148,63 @@ Your Teklo Blaster attacks cost {r} less to activate for each opposing hero.
     "Round the Table",
   ],
   "specialImage": "TCC008",
+  "subtypes": [
+    "Chest",
+    "Evo",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action Equipment - Evo Chest",
+  "types": [
+    "Action",
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Evo Engine Room (evo-engine-room-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Marco González",
+  ],
+  "cardIdentifier": "evo-engine-room-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "EVO035",
+  "defense": 3,
+  "functionalText": "If you have a base chest equipped, **transform** it into this, then equip this.
+
+**Once per Turn Instant** - Destroy a card under this: Your next weapon attack this turn costs {r} less to activate.
+
+**Blade Break**",
+  "keywords": [
+    "Blade Break",
+    "Transform",
+  ],
+  "name": "Evo Engine Room",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "EVO035",
+      "image": "EVO035",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO035",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO035",
   "subtypes": [
     "Chest",
     "Evo",
@@ -48158,6 +48333,63 @@ Your Teklo Blaster attacks gets +1{p} for each opposing hero.
 }
 `;
 
+exports[`Check for unintentional updates Evo Smoothbore (evo-smoothbore-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Marco González",
+  ],
+  "cardIdentifier": "evo-smoothbore-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "EVO036",
+  "defense": 3,
+  "functionalText": "If you have a base arms equipped, **transform** it into this, then equip this.
+
+**Once per Turn Instant** - Destroy a card under this: Your next weapon attack this turn gets +1{p}.
+
+**Blade Break**",
+  "keywords": [
+    "Blade Break",
+    "Transform",
+  ],
+  "name": "Evo Smoothbore",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "EVO036",
+      "image": "EVO036",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO036",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO036",
+  "subtypes": [
+    "Arms",
+    "Evo",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action Equipment - Evo Arms",
+  "types": [
+    "Action",
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Evo Steel Soul Controller (evo-steel-soul-controller-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -48168,7 +48400,7 @@ exports[`Check for unintentional updates Evo Steel Soul Controller (evo-steel-so
     "Mechanologist",
   ],
   "cost": 4,
-  "defaultImage": "EVO028_V2",
+  "defaultImage": "EVO028",
   "defense": 3,
   "functionalText": "If you have base arms equipped, **transform** it into this, then equip this.
 
@@ -48183,6 +48415,11 @@ When this **transforms** from or into an Evo with a different name, you may put 
   "pitch": 3,
   "printings": [
     {
+      "identifier": "EVO028",
+      "image": "EVO028",
+      "set": "Bright Lights",
+    },
+    {
       "foiling": "Cold",
       "identifier": "EVO028",
       "image": "EVO028_V2",
@@ -48190,6 +48427,7 @@ When this **transforms** from or into an Evo with a different name, you may put 
     },
   ],
   "rarities": [
+    "Majestic",
     "Marvel",
   ],
   "rarity": "Marvel",
@@ -48257,7 +48495,7 @@ When this **transforms** from or into an Evo with a different name, your hero ge
     "Majestic",
     "Marvel",
   ],
-  "rarity": "Majestic",
+  "rarity": "Marvel",
   "restrictedFormats": [
     "Commoner",
   ],
@@ -48292,7 +48530,7 @@ exports[`Check for unintentional updates Evo Steel Soul Processor (evo-steel-sou
     "Mechanologist",
   ],
   "cost": 4,
-  "defaultImage": "EVO027_V2",
+  "defaultImage": "EVO027",
   "defense": 3,
   "functionalText": "If you have a base chest equipped, **transform** it into this, then equip this.
 
@@ -48307,6 +48545,11 @@ When this **transforms** from or into an Evo with a different name, gain {r}{r}{
   "pitch": 3,
   "printings": [
     {
+      "identifier": "EVO027",
+      "image": "EVO027",
+      "set": "Bright Lights",
+    },
+    {
       "foiling": "Cold",
       "identifier": "EVO027",
       "image": "EVO027_V2",
@@ -48314,6 +48557,7 @@ When this **transforms** from or into an Evo with a different name, gain {r}{r}{
     },
   ],
   "rarities": [
+    "Majestic",
     "Marvel",
   ],
   "rarity": "Marvel",
@@ -48351,7 +48595,7 @@ exports[`Check for unintentional updates Evo Steel Soul Tower (evo-steel-soul-to
     "Mechanologist",
   ],
   "cost": 4,
-  "defaultImage": "EVO029_V2",
+  "defaultImage": "EVO029",
   "defense": 3,
   "functionalText": "If you have a base legs equipped, **transform** it into this, then equip this.
 
@@ -48366,6 +48610,11 @@ When this **transforms** from or into an Evo with a different name, gain 1 actio
   "pitch": 3,
   "printings": [
     {
+      "identifier": "EVO029",
+      "image": "EVO029",
+      "set": "Bright Lights",
+    },
+    {
       "foiling": "Cold",
       "identifier": "EVO029",
       "image": "EVO029_V2",
@@ -48373,6 +48622,7 @@ When this **transforms** from or into an Evo with a different name, gain 1 actio
     },
   ],
   "rarities": [
+    "Majestic",
     "Marvel",
   ],
   "rarity": "Marvel",
@@ -48450,6 +48700,63 @@ Your Teklo Blaster attacks can target any opposing hero.
     "Non-Attack",
   ],
   "typeText": "Mechanologist Action Equipment - Evo Head",
+  "types": [
+    "Action",
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Evo Thruster (evo-thruster-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Marco González",
+  ],
+  "cardIdentifier": "evo-thruster-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "EVO037",
+  "defense": 3,
+  "functionalText": "If you have a base legs equipped, **transform** it into this, then equip this.
+
+**Once per Turn Instant** - Destroy a card under this: You may attack an additional time with target weapon this turn.
+
+**Blade Break**",
+  "keywords": [
+    "Blade Break",
+    "Transform",
+  ],
+  "name": "Evo Thruster",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "EVO037",
+      "image": "EVO037",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO037",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO037",
+  "subtypes": [
+    "Evo",
+    "Legs",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action Equipment - Evo Legs",
   "types": [
     "Action",
     "Equipment",
@@ -91915,6 +92222,55 @@ exports[`Check for unintentional updates Pack Hunt (pack-hunt-yellow) vs snapsho
 }
 `;
 
+exports[`Check for unintentional updates Panel Beater (panel-beater-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Anastasia Balakchina",
+  ],
+  "cardIdentifier": "panel-beater-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 2,
+  "defaultImage": "EVO213",
+  "defense": 3,
+  "functionalText": "**Boost**
+
+This gets +X{p}, where X is the number of equipment defending it.",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "Panel Beater",
+  "pitch": 1,
+  "power": 5,
+  "printings": [
+    {
+      "identifier": "EVO213",
+      "image": "EVO213",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO213",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO213",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Parable of Humility (parable-of-humility-yellow) vs snapshot 1`] = `
 {
   "artists": [
@@ -102305,13 +102661,18 @@ exports[`Check for unintentional updates Quicken (quicken) vs snapshot 1`] = `
   "classes": [
     "Generic",
   ],
-  "defaultImage": "DTD234",
-  "functionalText": "When you play an attack action card or activate a weapon attack, destroy this and the attack gains go again.",
+  "defaultImage": "EVO250",
+  "functionalText": "When you play an attack action card or activate a weapon attack, destroy this and the attack gets **go again**.",
   "keywords": [
     "Go again",
   ],
   "name": "Quicken",
   "printings": [
+    {
+      "identifier": "EVO250",
+      "image": "EVO250",
+      "set": "Bright Lights",
+    },
     {
       "identifier": "TCC106",
       "image": "TCC106",
@@ -102391,6 +102752,7 @@ exports[`Check for unintentional updates Quicken (quicken) vs snapshot 1`] = `
     "CRU196",
     "DTD234",
     "DVR028",
+    "EVO250",
     "EVR196",
     "RNR031",
     "TCC106",
@@ -102399,6 +102761,7 @@ exports[`Check for unintentional updates Quicken (quicken) vs snapshot 1`] = `
     "XXX009",
   ],
   "sets": [
+    "Bright Lights",
     "Classic Battles: Rhinar vs Dorinthea",
     "Crucible of War",
     "Dorinthea Hero Deck",

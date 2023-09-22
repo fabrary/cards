@@ -191,6 +191,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/scrap-hopper-red</loc>
+    <lastmod>2023-09-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/scrap-hopper-yellow</loc>
+    <lastmod>2023-09-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/scrap-hopper-blue</loc>
     <lastmod>2023-09-22</lastmod>
     <priority>0.5</priority>
@@ -211,12 +221,32 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/scrap-compactor-red</loc>
+    <lastmod>2023-09-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/scrap-compactor-yellow</loc>
+    <lastmod>2023-09-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/scrap-compactor-blue</loc>
     <lastmod>2023-09-22</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://fabrary.net/cards/scrap-harvester-red</loc>
+    <lastmod>2023-09-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/scrap-harvester-yellow</loc>
+    <lastmod>2023-09-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/scrap-harvester-blue</loc>
     <lastmod>2023-09-22</lastmod>
     <priority>0.5</priority>
   </url>
@@ -231,7 +261,27 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/sprocket-rocket-yellow</loc>
+    <lastmod>2023-09-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/sprocket-rocket-blue</loc>
+    <lastmod>2023-09-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/dumpster-dive-red</loc>
+    <lastmod>2023-09-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/dumpster-dive-yellow</loc>
+    <lastmod>2023-09-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/dumpster-dive-blue</loc>
     <lastmod>2023-09-22</lastmod>
     <priority>0.5</priority>
   </url>
@@ -282,6 +332,16 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/panel-beater-red</loc>
+    <lastmod>2023-09-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/panel-beater-yellow</loc>
+    <lastmod>2023-09-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/panel-beater-blue</loc>
     <lastmod>2023-09-22</lastmod>
     <priority>0.5</priority>
   </url>
@@ -353,6 +413,11 @@
   <url>
     <loc>https://fabrary.net/cards/warband-of-bellona</loc>
     <lastmod>2023-09-08</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/quicken</loc>
+    <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -853,11 +918,6 @@
   <url>
     <loc>https://fabrary.net/cards/might</loc>
     <lastmod>2023-09-06</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/quicken</loc>
-    <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

@@ -742,7 +742,7 @@ Hyper Drivers you control get **Crank**.`,
       
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
-    rarity: Rarity.Majestic,
+    rarity: Rarity.Marvel,
     setIdentifiers: ["EVO026"],
     sets: [Release.BrightLights],
     specialImage: "EVO026_V2",
@@ -778,16 +778,22 @@ When this **transforms** from or into an Evo with a different name, your hero ge
     artists: ["Wisnu Tan"],
     cardIdentifier: "evo-steel-soul-processor-blue",
     classes: [Class.Mechanologist],
-    defaultImage: "EVO027_V2",
+    defaultImage: "EVO027",
     name: "Evo Steel Soul Processor",
     printings: [{
+      
+      identifier: "EVO027",
+      image: "EVO027",
+      set: Release.BrightLights,
+      
+    },{
       foiling: Foiling.C,
       identifier: "EVO027",
       image: "EVO027_V2",
       set: Release.BrightLights,
       
     },],
-    rarities: [Rarity.Marvel],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Marvel,
     setIdentifiers: ["EVO027"],
     sets: [Release.BrightLights],
@@ -824,16 +830,22 @@ When this **transforms** from or into an Evo with a different name, gain {r}{r}{
     artists: ["Wisnu Tan"],
     cardIdentifier: "evo-steel-soul-controller-blue",
     classes: [Class.Mechanologist],
-    defaultImage: "EVO028_V2",
+    defaultImage: "EVO028",
     name: "Evo Steel Soul Controller",
     printings: [{
+      
+      identifier: "EVO028",
+      image: "EVO028",
+      set: Release.BrightLights,
+      
+    },{
       foiling: Foiling.C,
       identifier: "EVO028",
       image: "EVO028_V2",
       set: Release.BrightLights,
       
     },],
-    rarities: [Rarity.Marvel],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Marvel,
     setIdentifiers: ["EVO028"],
     sets: [Release.BrightLights],
@@ -870,16 +882,22 @@ When this **transforms** from or into an Evo with a different name, you may put 
     artists: ["Kimberly Pantoni"],
     cardIdentifier: "evo-steel-soul-tower-blue",
     classes: [Class.Mechanologist],
-    defaultImage: "EVO029_V2",
+    defaultImage: "EVO029",
     name: "Evo Steel Soul Tower",
     printings: [{
+      
+      identifier: "EVO029",
+      image: "EVO029",
+      set: Release.BrightLights,
+      
+    },{
       foiling: Foiling.C,
       identifier: "EVO029",
       image: "EVO029_V2",
       set: Release.BrightLights,
       
     },],
-    rarities: [Rarity.Marvel],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Marvel,
     setIdentifiers: ["EVO029"],
     sets: [Release.BrightLights],
@@ -1100,9 +1118,15 @@ When this **transforms** from or into an Evo with a different name, gain 1 actio
     artists: ["Isuardi Therianto"],
     cardIdentifier: "annihilator-engine-red",
     classes: [Class.Mechanologist],
-    defaultImage: "EVO054_EA",
+    defaultImage: "EVO054",
     name: "Annihilator Engine",
     printings: [{
+      
+      identifier: "EVO054",
+      image: "EVO054",
+      set: Release.BrightLights,
+      
+    },{
       foiling: Foiling.R,
       identifier: "EVO054",
       image: "EVO054_EA",
@@ -1849,6 +1873,94 @@ Gain {r}{r} for each card this *scrapped**.`,
     
   },{
     artists: ["Carlos Cruchaga"],
+    cardIdentifier: "scrap-hopper-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO108",
+    name: "Scrap Hopper",
+    printings: [{
+      
+      identifier: "EVO108",
+      image: "EVO108",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO108"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO108",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Scrap**
+
+When this attacks, if it scrapped a card, create a Quicken token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Scrap],
+    
+    
+    pitch: 1,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "scrap-hopper-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO109",
+    name: "Scrap Hopper",
+    printings: [{
+      
+      identifier: "EVO109",
+      image: "EVO109",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO109"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO109",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Scrap**
+
+When this attacks, if it scrapped a card, create a Quicken token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Scrap],
+    
+    
+    pitch: 2,
+    power: 2,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Carlos Cruchaga"],
     cardIdentifier: "scrap-hopper-blue",
     classes: [Class.Mechanologist],
     defaultImage: "EVO110",
@@ -2025,6 +2137,94 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.`,
     
   },{
     artists: ["Yugin Maffioli"],
+    cardIdentifier: "scrap-compactor-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO129",
+    name: "Scrap Compactor",
+    printings: [{
+      
+      identifier: "EVO129",
+      image: "EVO129",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO129"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO129",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Scrap**
+
+When this attacks, if it scrapped a card, you may play your next Evo this turn as though it were an instant.`,
+    
+    
+    
+    
+    keywords: [Keyword.Scrap],
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Yugin Maffioli"],
+    cardIdentifier: "scrap-compactor-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO130",
+    name: "Scrap Compactor",
+    printings: [{
+      
+      identifier: "EVO130",
+      image: "EVO130",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO130"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO130",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Scrap**
+
+When this attacks, if it scrapped a card, you may play your next Evo this turn as though it were an instant.`,
+    
+    
+    
+    
+    keywords: [Keyword.Scrap],
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Yugin Maffioli"],
     cardIdentifier: "scrap-compactor-blue",
     classes: [Class.Mechanologist],
     defaultImage: "EVO131",
@@ -2103,6 +2303,94 @@ When this attacks, if it scrapped a card, put a steam counter on an item you con
     
     pitch: 1,
     power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sandeep Karunakaran"],
+    cardIdentifier: "scrap-harvester-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO133",
+    name: "Scrap Harvester",
+    printings: [{
+      
+      identifier: "EVO133",
+      image: "EVO133",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO133"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO133",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Scrap**
+
+When this attacks, if it scrapped a card, put a steam counter on an item you control with crank.`,
+    
+    
+    
+    
+    keywords: [Keyword.Scrap],
+    
+    
+    pitch: 2,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sandeep Karunakaran"],
+    cardIdentifier: "scrap-harvester-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO134",
+    name: "Scrap Harvester",
+    printings: [{
+      
+      identifier: "EVO134",
+      image: "EVO134",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO134"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO134",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Scrap**
+
+When this attacks, if it scrapped a card, put a steam counter on an item you control with crank.`,
+    
+    
+    
+    
+    keywords: [Keyword.Scrap],
+    
+    
+    pitch: 3,
+    power: 4,
     
     
     
@@ -2200,6 +2488,94 @@ If an item or equipment was banished from boosting this, this gets +1{p}.`,
     
     
   },{
+    artists: ["Veto Zomer"],
+    cardIdentifier: "sprocket-rocket-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO193",
+    name: "Sprocket Rocket",
+    printings: [{
+      
+      identifier: "EVO193",
+      image: "EVO193",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO193"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO193",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Boost**
+ 
+If an item or equipment was banished from boosting this, this gets +1{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Veto Zomer"],
+    cardIdentifier: "sprocket-rocket-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO194",
+    name: "Sprocket Rocket",
+    printings: [{
+      
+      identifier: "EVO194",
+      image: "EVO194",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO194"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO194",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Boost**
+ 
+If an item or equipment was banished from boosting this, this gets +1{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Shen Fei"],
     cardIdentifier: "dumpster-dive-red",
     classes: [Class.Mechanologist],
@@ -2235,6 +2611,94 @@ If an item or equipment was banished from boosting this, this gets +1{p}.`,
     
     pitch: 1,
     power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "dumpster-dive-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO196",
+    name: "Dumpster Dive",
+    printings: [{
+      
+      identifier: "EVO196",
+      image: "EVO196",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO196"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO196",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**
+ 
+If an item or equipment was banished from boosting this, this gets +1{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "dumpster-dive-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO197",
+    name: "Dumpster Dive",
+    printings: [{
+      
+      identifier: "EVO197",
+      image: "EVO197",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO197"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO197",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**
+ 
+If an item or equipment was banished from boosting this, this gets +1{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 2,
     
     
     
@@ -2675,6 +3139,94 @@ This gets +X{p}, where X is the number of equipment defending it.`,
     
     pitch: 1,
     power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Anastasia Balakchina"],
+    cardIdentifier: "panel-beater-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO214",
+    name: "Panel Beater",
+    printings: [{
+      
+      identifier: "EVO214",
+      image: "EVO214",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO214"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO214",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+This gets +X{p}, where X is the number of equipment defending it.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Anastasia Balakchina"],
+    cardIdentifier: "panel-beater-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO215",
+    name: "Panel Beater",
+    printings: [{
+      
+      identifier: "EVO215",
+      image: "EVO215",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO215"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO215",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+This gets +X{p}, where X is the number of equipment defending it.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 3,
+    power: 3,
     
     
     
@@ -3306,6 +3858,120 @@ You may pitch 2 red cards. If you don't, banish your hand.
     
     
     talents: [Talent.Light],
+    
+  },{
+    artists: ["King Fung Ng","Tomasz Jedruszek"],
+    cardIdentifier: "quicken",
+    classes: [Class.Generic],
+    defaultImage: "EVO250",
+    name: "Quicken",
+    printings: [{
+      
+      identifier: "EVO250",
+      image: "EVO250",
+      set: Release.BrightLights,
+      
+    },{
+      
+      identifier: "TCC106",
+      image: "TCC106",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "1HP427",
+      image: "1HP427_Quicken.width-10000",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "CRU196",
+      image: "CRU196",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "CRU196",
+      image: "U-CRU196",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      
+      identifier: "DTD234",
+      image: "DTD234",
+      set: Release.DuskTillDawn,
+      
+    },{
+      
+      identifier: "DVR028",
+      image: "DVR028.width-450",
+      set: Release.ClassicBattlesRhinarDorinthea,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "EVR196",
+      image: "EVR196.width-450",
+      set: Release.Everfest,
+      
+    },{
+      
+      identifier: "RNR031",
+      image: "RNR31.width-450",
+      set: Release.RhinarHeroDeck,
+      
+    },{
+      
+      identifier: "TEA030",
+      image: "TEA30.width-450",
+      set: Release.DorintheaHeroDeck,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR225",
+      image: "WTR225",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR225",
+      image: "U-WTR225",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      
+      identifier: "XXX009",
+      image: "XXX009",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["1HP427","CRU196","DTD234","DVR028","EVO250","EVR196","RNR031","TCC106","TEA030","WTR225","XXX009"],
+    sets: [Release.BrightLights,Release.ClassicBattlesRhinarDorinthea,Release.CrucibleOfWar,Release.DorintheaHeroDeck,Release.DuskTillDawn,Release.Everfest,Release.HistoryPack1,Release.Promos,Release.RhinarHeroDeck,Release.RoundTheTable,Release.WelcomeToRathe],
+    specialImage: "CRU196",
+    subtypes: [Subtype.Aura],
+    types: [Type.Token],
+    typeText: "Generic Token - Aura",
+
+    
+    
+    functionalText: `When you play an attack action card or activate a weapon attack, destroy this and the attack gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
   },{
     artists: ["Joseph Qiu"],
@@ -8685,114 +9351,6 @@ When this defends, create a Crouching Tiger in your Banished Zone. You may play 
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["King Fung Ng","Tomasz Jedruszek"],
-    cardIdentifier: "quicken",
-    classes: [Class.Generic],
-    defaultImage: "DTD234",
-    name: "Quicken",
-    printings: [{
-      
-      identifier: "TCC106",
-      image: "TCC106",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "1HP427",
-      image: "1HP427_Quicken.width-10000",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "CRU196",
-      image: "CRU196",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "CRU196",
-      image: "U-CRU196",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      
-      identifier: "DTD234",
-      image: "DTD234",
-      set: Release.DuskTillDawn,
-      
-    },{
-      
-      identifier: "DVR028",
-      image: "DVR028.width-450",
-      set: Release.ClassicBattlesRhinarDorinthea,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "EVR196",
-      image: "EVR196.width-450",
-      set: Release.Everfest,
-      
-    },{
-      
-      identifier: "RNR031",
-      image: "RNR31.width-450",
-      set: Release.RhinarHeroDeck,
-      
-    },{
-      
-      identifier: "TEA030",
-      image: "TEA30.width-450",
-      set: Release.DorintheaHeroDeck,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR225",
-      image: "WTR225",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR225",
-      image: "U-WTR225",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      
-      identifier: "XXX009",
-      image: "XXX009",
-      set: Release.Promos,
-      
-    },],
-    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["1HP427","CRU196","DTD234","DVR028","EVR196","RNR031","TCC106","TEA030","WTR225","XXX009"],
-    sets: [Release.ClassicBattlesRhinarDorinthea,Release.CrucibleOfWar,Release.DorintheaHeroDeck,Release.DuskTillDawn,Release.Everfest,Release.HistoryPack1,Release.Promos,Release.RhinarHeroDeck,Release.RoundTheTable,Release.WelcomeToRathe],
-    specialImage: "CRU196",
-    subtypes: [Subtype.Aura],
-    types: [Type.Token],
-    typeText: "Generic Token - Aura",
-
-    
-    
-    functionalText: `When you play an attack action card or activate a weapon attack, destroy this and the attack gains go again.`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
     
     
     
@@ -33706,7 +34264,8 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     talents: [Talent.Shadow],
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "convulsions-from-the-bellows-of-hell-yellow",
     classes: [Class.Brute],
@@ -34318,8 +34877,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Pavel Chuvin"],
     cardIdentifier: "cracker-jax",
     classes: [Class.Generic],
@@ -70386,7 +70944,8 @@ At the beginning of your end phase, if you have attacked 2 or more times with we
     
     
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "kavdaen-trader-of-skins",
     classes: [Class.Merchant],
@@ -70740,8 +71299,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
     
     
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Steve Argyle"],
     cardIdentifier: "kyloria",
     classes: [Class.Illusionist],
@@ -106493,7 +107051,8 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
     
     
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Inkognit"],
     cardIdentifier: "second-swing-red",
     classes: [Class.Warrior],
@@ -106685,8 +107244,7 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
     
     
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Saad Irfan"],
     cardIdentifier: "sedate-red",
     classes: [Class.Assassin],
