@@ -17,6 +17,108 @@
   } from '@flesh-and-blood/types';
 
   const cards1: Card[] =  [{
+    artists: ["Andy Aslamov"],
+    cardIdentifier: "theryon-magister-of-justice",
+    classes: [Class.Adjudicator],
+    defaultImage: "JDG008",
+    name: "Theryon, Magister of Justice",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "JDG006",
+      image: "JDG006",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "JDG008",
+      image: "JDG008",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["JDG006","JDG008"],
+    sets: [Release.Promos],
+    specialImage: "JDG006",
+    subtypes: [],
+    types: [Type.Hero],
+    typeText: "Light Adjudicator Hero",
+
+    
+    
+    functionalText: `The first time each turn another hero destroys a card they don’t control, you may pay {r}{r}. If you do, they destroy a non-hero permanent they control.`,
+    
+    hero: Hero.Theryon,
+    intellect: 4,
+    
+    
+    life: 20,
+    
+    
+    
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Kanadekana"],
+    cardIdentifier: "proclamation-of-abundance",
+    classes: [Class.Adjudicator],
+    defaultImage: "JDG009",
+    name: "Proclamation of Abundance",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "JDG009",
+      image: "JDG009",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "JDG010",
+      image: "JDG010",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "JDG009",
+      image: "JDG009",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["JDG009","JDG010"],
+    sets: [Release.Promos],
+    specialImage: "JDG009",
+    subtypes: [Subtype.OffHand],
+    types: [Type.Equipment],
+    typeText: "Adjudicator Equipment – Off-Hand",
+
+    
+    
+    functionalText: `**Action** - {r}{r}{r}, destroy this: Each hero draws up to their {i}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Sam Yang"],
     cardIdentifier: "dash-database",
     classes: [Class.Mechanologist],
@@ -2881,102 +2983,6 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
     
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Andy Aslamov"],
-    cardIdentifier: "theryon-magister-of-justice",
-    classes: [Class.Adjudicator],
-    defaultImage: "JDG008",
-    name: "Theryon, Magister of Justice",
-    printings: [{
-      foiling: Foiling.C,
-      identifier: "JDG006",
-      image: "JDG006",
-      set: Release.Promos,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "JDG008",
-      image: "JDG008",
-      set: Release.Promos,
-      
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["JDG008","JDG006"],
-    sets: [Release.Promos],
-    specialImage: "JDG006",
-    subtypes: [],
-    types: [Type.Hero],
-    typeText: "Light Adjudicator Hero",
-
-    
-    
-    functionalText: `The first time each turn another hero destroys a card they don’t control, you may pay {r}{r}. If you do, they destroy a non-hero permanent they control.`,
-    
-    hero: Hero.Theryon,
-    intellect: 4,
-    
-    
-    life: 20,
-    
-    
-    
-    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
-    
-    
-    
-    
-    
-    talents: [Talent.Light],
-    
-  },{
-    artists: ["Kanadekana"],
-    cardIdentifier: "proclamation-of-abundance",
-    classes: [Class.Adjudicator],
-    defaultImage: "JDG010",
-    name: "Proclamation of Abundance",
-    printings: [{
-      foiling: Foiling.R,
-      identifier: "JDG009",
-      image: "JDG009",
-      set: Release.Promos,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "JDG010",
-      image: "JDG010",
-      set: Release.Promos,
-      
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["JDG009","JDG010"],
-    sets: [Release.Promos],
-    specialImage: "JDG009",
-    subtypes: [Subtype.OffHand],
-    types: [Type.Equipment],
-    typeText: "Adjudicator Equipment – Off-Hand",
-
-    
-    
-    functionalText: `**Action** - {r}{r}{r}, destroy this: Each hero draws up to their {i}.`,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
     
     
     

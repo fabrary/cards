@@ -284,6 +284,7 @@ export enum Hero {
 }
 
 export enum Keyword {
+  Ambush = "Ambush",
   ArcaneBarrier = "Arcane Barrier",
   Awaken = "Awaken",
   Battleworn = "Battleworn",

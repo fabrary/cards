@@ -96722,7 +96722,7 @@ exports[`Check for unintentional updates Proclamation of Abundance (proclamation
   "classes": [
     "Adjudicator",
   ],
-  "defaultImage": "JDG010",
+  "defaultImage": "JDG009",
   "functionalText": "**Action** - {r}{r}{r}, destroy this: Each hero draws up to their {i}.",
   "name": "Proclamation of Abundance",
   "printings": [
@@ -96736,6 +96736,12 @@ exports[`Check for unintentional updates Proclamation of Abundance (proclamation
       "foiling": "Cold",
       "identifier": "JDG010",
       "image": "JDG010",
+      "set": "Promos",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "JDG009",
+      "image": "JDG009",
       "set": "Promos",
     },
   ],
@@ -142279,8 +142285,8 @@ exports[`Check for unintentional updates Theryon, Magister of Justice (theryon-m
     "Commoner",
   ],
   "setIdentifiers": [
-    "JDG008",
     "JDG006",
+    "JDG008",
   ],
   "sets": [
     "Promos",

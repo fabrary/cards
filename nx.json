@@ -9,11 +9,11 @@
   },
   "targetDefaults": {
     "build": {
-      "dependsOn": ["update", "prebuild", "^build"],
+      "dependsOn": ["prebuild", "^build"],
       "outputs": ["{projectRoot}/dist"]
     },
     "full": {
-      "dependsOn": ["update", "^full"],
+      "dependsOn": ["^full"],
       "outputs": ["{projectRoot}/dist"]
     },
     "test": {
