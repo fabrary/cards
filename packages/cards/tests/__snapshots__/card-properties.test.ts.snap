@@ -62845,6 +62845,58 @@ exports[`Check for unintentional updates Heavy Artillery (heavy-artillery-yellow
 }
 `;
 
+exports[`Check for unintentional updates Heist (heist-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Marco González",
+  ],
+  "cardIdentifier": "heist-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 2,
+  "defaultImage": "EVO138",
+  "defense": 3,
+  "functionalText": "**Boost**
+
+When this hits a hero, you may put an item with cost 0 or 1 from any banished zone into the arena under your control.",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "Heist",
+  "pitch": 1,
+  "power": 5,
+  "printings": [
+    {
+      "identifier": "EVO138",
+      "image": "EVO138",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO138",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO138",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Helio's Mitre (helios-mitre) vs snapshot 1`] = `
 {
   "artists": [
@@ -118686,6 +118738,55 @@ exports[`Check for unintentional updates Scramble Pulse (scramble-pulse-yellow) 
     "Dynasty",
   ],
   "specialImage": "DYN096",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Scrap Compactor (scrap-compactor-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Yugin Maffioli",
+  ],
+  "cardIdentifier": "scrap-compactor-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO131",
+  "defense": 3,
+  "functionalText": "**Scrap**
+
+When this attacks, if it scrapped a card, you may play your next Evo this turn as though it were an instant.",
+  "keywords": [
+    "Scrap",
+  ],
+  "name": "Scrap Compactor",
+  "pitch": 3,
+  "power": 1,
+  "printings": [
+    {
+      "identifier": "EVO131",
+      "image": "EVO131",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO131",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO131",
   "subtypes": [
     "Attack",
   ],

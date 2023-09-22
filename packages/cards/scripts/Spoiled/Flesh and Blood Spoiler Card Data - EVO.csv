@@ -1,5 +1,5 @@
 Identifiers,Set Identifiers,Name,Pitch,Cost,Power,Defense,Life,Intelligence,Types,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,Rarity,Foiling,Art Variation,Artist,Flavor Text,Image URL,Rarity 2,Foiling 2,Art Variation 2,Artist 2,Flavor Text 2,Image URL 2
-EVO000,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO000,EVO,,,,,,,,,,,,,,,,,,,,,F,,,,,,,,,,,
 EVO001,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO002,EVO,"Dash, Database",,,,,18,4,"Mechanologist, Hero, Young",,,,,,,"You may look at the top card of your deck at any time.
 
@@ -154,7 +154,9 @@ EVO106,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO107,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO108,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO109,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO110,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO110,EVO,Scrap Hopper,3,0,1,3,,,"Mechanologist, Action, Attack",Scrap,,,,,,"**Scrap**
+
+When this attacks, if it scrapped a card, create a Quicken token.",Mechanologist Action - Attack,,,,No,R,,,Carlos Cruchaga,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO110.png,,,,,,
 EVO111,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO112,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO113,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

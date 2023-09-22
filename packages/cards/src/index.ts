@@ -1618,6 +1618,50 @@ Gain {r}{r} for each card this *scrapped**.`,
     
     
   },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "scrap-hopper-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO110",
+    name: "Scrap Hopper",
+    printings: [{
+      
+      identifier: "EVO110",
+      image: "EVO110",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO110"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO110",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Scrap**
+
+When this attacks, if it scrapped a card, create a Quicken token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Scrap],
+    
+    
+    pitch: 3,
+    power: 1,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Marco González"],
     cardIdentifier: "junkyard-dogg-red",
     classes: [Class.Mechanologist],
@@ -34258,7 +34302,8 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "crankshaft-red",
     classes: [Class.Mechanologist],
@@ -34308,8 +34353,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "crankshaft-yellow",
     classes: [Class.Mechanologist],

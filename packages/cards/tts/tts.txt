@@ -1867,6 +1867,7 @@ OSCCardDB = {
   ["EVO069"] = { name = "Mechanical Strength (3)", text = "**Evo Upgrade** - This gets +X{p}, where X is the number of Evos you have equipped.", keywords = "Evo Upgrade", types = "Action"},
   ["EVO099"] = { name = "Hyper Driver (1)", text = "This enters the arena with 3 steam counters. When it has none, destroy it.\n\nOnce per turn, when you **boost** a card, remove a steam counter from this and gain {r}.", keywords = "Boost", types = "Action"},
   ["EVO101"] = { name = "Scrap Trader (1)", text = "**Scrap**\n\n**Scrap**\n\nGain {r}{r} for each card this *scrapped**.", keywords = "Scrap", types = "Action"},
+  ["EVO110"] = { name = "Scrap Hopper (3)", text = "**Scrap**\n\nWhen this attacks, if it scrapped a card, create a Quicken token.", keywords = "Scrap", types = "Action"},
   ["EVO126"] = { name = "Junkyard Dogg (1)", text = "**Scrap**\n\nWhen this attacks, if it **scrapped** a card, this gets +1{p}.", keywords = "Scrap", types = "Action"},
   ["EVO127"] = { name = "Junkyard Dogg (2)", text = "**Scrap**\n\nWhen this attacks, if it **scrapped** a card, this gets +1{p}.", keywords = "Scrap", types = "Action"},
   ["EVO128"] = { name = "Junkyard Dogg (3)", text = "**Scrap**\n\nWhen this attacks, if it **scrapped** a card, this gets +1{p}.", keywords = "Scrap", types = "Action"},
