@@ -48126,7 +48126,7 @@ exports[`Check for unintentional updates Evo Steel Soul Memory (evo-steel-soul-m
   "defense": 3,
   "functionalText": "If you have a base head equipped, **transform** it into this, then equip this.
 
-When this **transforms** from or into an Evo with a different name, your hero gets +1{i} until end of turn. [REDACTED]
+When this **transforms** from or into an Evo with a different name, your hero gets +1{i} until end of turn. If that Evo is a hero, instead this triggers twice.
 
 **Temper**",
   "keywords": [
@@ -48141,9 +48141,16 @@ When this **transforms** from or into an Evo with a different name, your hero ge
       "image": "EVO026",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Cold",
+      "identifier": "EVO026",
+      "image": "EVO026_V2",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Majestic",
+    "Marvel",
   ],
   "rarity": "Majestic",
   "restrictedFormats": [
@@ -50082,6 +50089,55 @@ exports[`Check for unintentional updates Felling Swing (felling-swing-yellow) vs
 }
 `;
 
+exports[`Check for unintentional updates Fender Bender (fender-bender-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Narendra B Adi",
+  ],
+  "cardIdentifier": "fender-bender-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 1,
+  "defaultImage": "EVO212",
+  "defense": 3,
+  "functionalText": "**Boost**
+
+This gets +X{p}, where X is the number of equipment defending it.",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "Fender Bender",
+  "pitch": 3,
+  "power": 2,
+  "printings": [
+    {
+      "identifier": "EVO212",
+      "image": "EVO212",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO212",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO212",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Fender Bender (fender-bender-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -50121,6 +50177,55 @@ This gets +X{p}, where X is the number of equipment defending it.",
     "Bright Lights",
   ],
   "specialImage": "EVO210",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Fender Bender (fender-bender-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Narendra B Adi",
+  ],
+  "cardIdentifier": "fender-bender-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 1,
+  "defaultImage": "EVO211",
+  "defense": 3,
+  "functionalText": "**Boost**
+
+This gets +X{p}, where X is the number of equipment defending it.",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "Fender Bender",
+  "pitch": 2,
+  "power": 3,
+  "printings": [
+    {
+      "identifier": "EVO211",
+      "image": "EVO211",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO211",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO211",
   "subtypes": [
     "Attack",
   ],
@@ -74920,6 +75025,104 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.",
 }
 `;
 
+exports[`Check for unintentional updates Junkyard Dogg (junkyard-dogg-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Marco González",
+  ],
+  "cardIdentifier": "junkyard-dogg-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "EVO126",
+  "defense": 3,
+  "functionalText": "**Scrap**
+
+When this attacks, if it **scrapped** a card, this gets +1{p}.",
+  "keywords": [
+    "Scrap",
+  ],
+  "name": "Junkyard Dogg",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "EVO126",
+      "image": "EVO126",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO126",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO126",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Junkyard Dogg (junkyard-dogg-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Marco González",
+  ],
+  "cardIdentifier": "junkyard-dogg-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "EVO127",
+  "defense": 3,
+  "functionalText": "**Scrap**
+
+When this attacks, if it **scrapped** a card, this gets +1{p}.",
+  "keywords": [
+    "Scrap",
+  ],
+  "name": "Junkyard Dogg",
+  "pitch": 2,
+  "power": 5,
+  "printings": [
+    {
+      "identifier": "EVO127",
+      "image": "EVO127",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO127",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO127",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Kano (kano) vs snapshot 1`] = `
 {
   "artists": [
@@ -76492,6 +76695,153 @@ exports[`Check for unintentional updates Lay Down the Law (lay-down-the-law-red)
     "Attack",
   ],
   "typeText": "Guardian Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Lay Waste (lay-waste-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Shen Fei",
+  ],
+  "cardIdentifier": "lay-waste-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 2,
+  "defaultImage": "EVO209",
+  "defense": 3,
+  "functionalText": "**Boost**
+
+This can't be defended by equipment.",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "Lay Waste",
+  "pitch": 3,
+  "power": 3,
+  "printings": [
+    {
+      "identifier": "EVO209",
+      "image": "EVO209",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO209",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO209",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Lay Waste (lay-waste-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Shen Fei",
+  ],
+  "cardIdentifier": "lay-waste-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 2,
+  "defaultImage": "EVO207",
+  "defense": 3,
+  "functionalText": "**Boost**
+
+This can't be defended by equipment.",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "Lay Waste",
+  "pitch": 1,
+  "power": 5,
+  "printings": [
+    {
+      "identifier": "EVO207",
+      "image": "EVO207",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO207",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO207",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Lay Waste (lay-waste-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Shen Fei",
+  ],
+  "cardIdentifier": "lay-waste-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 2,
+  "defaultImage": "EVO208",
+  "defense": 3,
+  "functionalText": "**Boost**
+
+This can't be defended by equipment.",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "Lay Waste",
+  "pitch": 2,
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "EVO208",
+      "image": "EVO208",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO208",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO208",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
   "types": [
     "Action",
   ],
@@ -82860,6 +83210,56 @@ exports[`Check for unintentional updates Mechanical Strength (mechanical-strengt
 }
 `;
 
+exports[`Check for unintentional updates Mechanical Strength (mechanical-strength-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tomasz Jedruszek",
+  ],
+  "cardIdentifier": "mechanical-strength-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "EVO068",
+  "defense": 3,
+  "functionalText": "**Evo Upgrade** - This gets +X{p}, where X is the number of Evos you have equipped.",
+  "keywords": [
+    "Evo Upgrade",
+  ],
+  "name": "Mechanical Strength",
+  "pitch": 2,
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "EVO068",
+      "image": "EVO068",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO068",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO068",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Meganetic Protocol (meganetic-protocol-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -89191,6 +89591,153 @@ exports[`Check for unintentional updates Out Muscle (out-muscle-yellow) vs snaps
     "Attack",
   ],
   "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Out Pace (out-pace-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Eilene Cherie",
+  ],
+  "cardIdentifier": "out-pace-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 1,
+  "defaultImage": "EVO206",
+  "defense": 3,
+  "functionalText": "**Boost**
+
+This can't be defended by equipment.",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "Out Pace",
+  "pitch": 3,
+  "power": 2,
+  "printings": [
+    {
+      "identifier": "EVO206",
+      "image": "EVO206",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO206",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO206",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Out Pace (out-pace-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Eilene Cherie",
+  ],
+  "cardIdentifier": "out-pace-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 1,
+  "defaultImage": "EVO204",
+  "defense": 3,
+  "functionalText": "**Boost**
+
+This can't be defended by equipment.",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "Out Pace",
+  "pitch": 1,
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "EVO204",
+      "image": "EVO204",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO204",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO204",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Out Pace (out-pace-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Eilene Cherie",
+  ],
+  "cardIdentifier": "out-pace-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 1,
+  "defaultImage": "EVO205",
+  "defense": 3,
+  "functionalText": "**Boost**
+
+This can't be defended by equipment.",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "Out Pace",
+  "pitch": 2,
+  "power": 3,
+  "printings": [
+    {
+      "identifier": "EVO205",
+      "image": "EVO205",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO205",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO205",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
   "types": [
     "Action",
   ],
@@ -117920,6 +118467,56 @@ exports[`Check for unintentional updates Scramble Pulse (scramble-pulse-yellow) 
     "Attack",
   ],
   "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Scrap Trader (scrap-trader-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Anastasia Balakchina",
+  ],
+  "cardIdentifier": "scrap-trader-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO101",
+  "defense": 2,
+  "functionalText": "**Scrap**
+
+**Scrap**
+
+Gain {r}{r} for each card this *scrapped**.",
+  "keywords": [
+    "Scrap",
+  ],
+  "name": "Scrap Trader",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "EVO101",
+      "image": "EVO101",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "setIdentifiers": [
+    "EVO101",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO101",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action",
   "types": [
     "Action",
   ],

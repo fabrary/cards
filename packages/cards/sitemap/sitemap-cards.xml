@@ -31,6 +31,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/singularity-red</loc>
+    <lastmod>2023-09-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/teklo-base-head</loc>
     <lastmod>2023-09-06</lastmod>
     <priority>0.5</priority>
@@ -73,6 +78,21 @@
   <url>
     <loc>https://fabrary.net/cards/evo-steel-soul-memory-blue</loc>
     <lastmod>2023-09-08</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/evo-steel-soul-processor-blue</loc>
+    <lastmod>2023-09-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/evo-steel-soul-controller-blue</loc>
+    <lastmod>2023-09-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/evo-steel-soul-tower-blue</loc>
+    <lastmod>2023-09-22</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

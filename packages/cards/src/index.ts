@@ -295,6 +295,50 @@ Hyper Drivers you control get **Crank**.`,
     
     young: true
   },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "singularity-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO010_V2",
+    name: "Singularity",
+    printings: [{
+      
+      identifier: "EVO010",
+      image: "EVO010_V2",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Marvel],
+    rarity: Rarity.Marvel,
+    setIdentifiers: ["EVO010"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO010_V2",
+    subtypes: [Subtype.Construct,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Construct",
+
+    cost: 6,
+    defense: 3,
+    functionalText: `**Legendary Teklovossen Specialization**
+
+**Transform** your hero, your weapon, and 4 Evos you have equiped into [REDACTED]`,
+    
+    
+    
+    
+    keywords: [Keyword.Legendary,Keyword.Specialization,Keyword.Transform],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    specializations: [Hero.Teklovossen],
+    
+    
+  },{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "teklo-base-head",
     classes: [Class.Mechanologist],
@@ -690,8 +734,14 @@ Hyper Drivers you control get **Crank**.`,
       image: "EVO026",
       set: Release.BrightLights,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO026",
+      image: "EVO026_V2",
+      set: Release.BrightLights,
+      
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVO026"],
     sets: [Release.BrightLights],
@@ -704,7 +754,145 @@ Hyper Drivers you control get **Crank**.`,
     defense: 3,
     functionalText: `If you have a base head equipped, **transform** it into this, then equip this.
 
-When this **transforms** from or into an Evo with a different name, your hero gets +1{i} until end of turn. [REDACTED]
+When this **transforms** from or into an Evo with a different name, your hero gets +1{i} until end of turn. If that Evo is a hero, instead this triggers twice.
+
+**Temper**`,
+    
+    
+    
+    
+    keywords: [Keyword.Temper,Keyword.Transform],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Wisnu Tan"],
+    cardIdentifier: "evo-steel-soul-processor-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO027_V2",
+    name: "Evo Steel Soul Processor",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "EVO027",
+      image: "EVO027_V2",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Marvel],
+    rarity: Rarity.Marvel,
+    setIdentifiers: ["EVO027"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO027_V2",
+    subtypes: [Subtype.Base,Subtype.Chest,Subtype.Evo,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Base Chest",
+
+    cost: 4,
+    defense: 3,
+    functionalText: `If you have a base chest equipped, **transform** it into this, then equip this.
+
+When this **transforms** from or into an Evo with a different name, gain {r}{r}{r}. If that Evo is a hero, instead this triggers twice.
+
+**Temper**`,
+    
+    
+    
+    
+    keywords: [Keyword.Temper,Keyword.Transform],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Wisnu Tan"],
+    cardIdentifier: "evo-steel-soul-controller-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO028_V2",
+    name: "Evo Steel Soul Controller",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "EVO028",
+      image: "EVO028_V2",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Marvel],
+    rarity: Rarity.Marvel,
+    setIdentifiers: ["EVO028"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO028_V2",
+    subtypes: [Subtype.Arms,Subtype.Base,Subtype.Evo,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Base Arms",
+
+    cost: 4,
+    defense: 3,
+    functionalText: `If you have base arms equipped, **transform** it into this, then equip this.
+
+When this **transforms** from or into an Evo with a different name, you may put an attack action card with 6{p} from your graveyard into your deck fifth from the top. If that Evo is a hero, instead this triggers twice.
+
+**Temper**`,
+    
+    
+    
+    
+    keywords: [Keyword.Temper,Keyword.Transform],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kimberly Pantoni"],
+    cardIdentifier: "evo-steel-soul-tower-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO029_V2",
+    name: "Evo Steel Soul Tower",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "EVO029",
+      image: "EVO029_V2",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Marvel],
+    rarity: Rarity.Marvel,
+    setIdentifiers: ["EVO029"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO029_V2",
+    subtypes: [Subtype.Base,Subtype.Evo,Subtype.Legs,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Base Legs",
+
+    cost: 4,
+    defense: 3,
+    functionalText: `If you have a base legs equipped, **transform** it into this, then equip this.
+
+When this **transforms** from or into an Evo with a different name, gain 1 action point. If that Evo is a hero, instead this triggers twice.
 
 **Temper**`,
     
@@ -34071,7 +34259,8 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Asur Misoa"],
     cardIdentifier: "cromai",
     classes: [Class.Illusionist],
@@ -34251,8 +34440,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     talents: [Talent.Light],
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Iain Miki"],
     cardIdentifier: "cross-the-line-blue",
     classes: [Class.Warrior],
@@ -70233,7 +70421,8 @@ While Barthimont is face up in arsenal, whenever you play an attack action card,
     
     talents: [Talent.Draconic],
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Maerel Hibadita"],
     cardIdentifier: "lava-vein-loyalty-yellow",
     classes: [Class.Ninja],
@@ -70335,8 +70524,7 @@ While Barthimont is face up in arsenal, whenever you play an attack action card,
     
     talents: [Talent.Draconic],
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "lay-to-rest-red",
     classes: [Class.NotClassed],
@@ -105980,7 +106168,8 @@ When this hits a hero, create an Inertia token under their control.`,
     
     
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Elena Bakulina"],
     cardIdentifier: "sedation-shot-yellow",
     classes: [Class.Ranger],
@@ -106036,8 +106225,7 @@ When this hits a hero, create an Inertia token under their control.`,
     
     
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Elena Bakulina"],
     cardIdentifier: "sedation-shot-blue",
     classes: [Class.Ranger],

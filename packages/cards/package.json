@@ -11,6 +11,7 @@
     "build": "esbuild ./src/index.ts --outdir=dist --bundle --minify --platform=node --target=es6",
     "postbuild": "tsc --declaration",
     "test": "jest",
+    "update": "npm test -- -u",
     "new": "ts-node tests/new-cards.ts",
     "tts": "ts-node tts/index.ts",
     "sitemap": "ts-node sitemap/index.ts",
@@ -29,7 +30,7 @@
     "esbuild-jest": "^0.5.0",
     "fast-xml-parser": "4.2.7",
     "jest": "^29.7.0",
-    "latest-cards": "npm:@flesh-and-blood/cards@^0.0.24",
+    "latest-cards": "npm:@flesh-and-blood/cards@^0.0.25",
     "papaparse": "5.3.2",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"

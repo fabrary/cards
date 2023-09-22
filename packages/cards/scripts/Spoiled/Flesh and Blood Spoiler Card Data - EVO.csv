@@ -17,7 +17,9 @@ EVO008,EVO,Teklovossen,,,,,20,4,"Mechanologist, Hero, Young",,Once per Turn Inst
 
 **Once per Turn Instant** - {r}{r}{r}: You may play your next Evo this turn as though it were an instant. When you do, draw a card.",Mechanologist Hero - Young,,,No,,T,S,,Simon Dominic,,https://dhhim4ltzu1pj.cloudfront.net/media/images/EVO008.width-450.format-webp.webp,,,,,,
 EVO009,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO010,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO010,EVO,Singularity,1,6,,3,,,"Mechanologist, Action, Construct","Transform, Legendary, Teklovossen Specialization",,,,,,"**Legendary Teklovossen Specialization**
+
+**Transform** your hero, your weapon, and 4 Evos you have equiped into [REDACTED]",Mechanologist Action - Construct,,,,No,V,CF,,Mariusz Gandzel,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO010_V2.png,,,,,,
 EVO011,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO012,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO013,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -35,12 +37,24 @@ EVO024,EVO,Proto Base Arms,,,,,,,"Mechanologist, Equipment, Base, Arms",,,,,,,,M
 EVO025,EVO,Proto Base Legs,,,,,,,"Mechanologist, Equipment, Base, Legs",,,,,,,,Mechanologist Equipment - Base Legs,,,,,T,S,,Revazashvili E.,,https://dhhim4ltzu1pj.cloudfront.net/media/images/EVO025.width-450.format-webp.webp,,,,,,
 EVO026,EVO,Evo Steel Soul Memory,3,4,,3,,,"Mechanologist, Action, Equipment, Evo, Base, Head","Transform, Temper",,,,,,"If you have a base head equipped, **transform** it into this, then equip this.
 
-When this **transforms** from or into an Evo with a different name, your hero gets +1{i} until end of turn. [REDACTED]
+When this **transforms** from or into an Evo with a different name, your hero gets +1{i} until end of turn. If that Evo is a hero, instead this triggers twice.
 
-**Temper**",Mechanologist Action Equipment - Evo Base Head,,,,No,M,,,Kimberly Pantoni,,/EVO026.webp,,,,,,
-EVO027,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO028,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO029,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Temper**",Mechanologist Action Equipment - Evo Base Head,,,,No,M,,,Kimberly Pantoni,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO026.png,V,C,,Kimberly Pantoni,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO026_V2.png
+EVO027,EVO,Evo Steel Soul Processor,3,4,,3,,,"Mechanologist, Action, Equipment, Evo, Base, Chest","Transform, Temper",,,,,,"If you have a base chest equipped, **transform** it into this, then equip this.
+
+When this **transforms** from or into an Evo with a different name, gain {r}{r}{r}. If that Evo is a hero, instead this triggers twice.
+
+**Temper**",Mechanologist Action Equipment - Evo Base Chest,,,,No,V,C,,Wisnu Tan,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO027_V2.png,,,,,,
+EVO028,EVO,Evo Steel Soul Controller,3,4,,3,,,"Mechanologist, Action, Equipment, Evo, Base, Arms","Transform, Temper",,,,,,"If you have base arms equipped, **transform** it into this, then equip this.
+
+When this **transforms** from or into an Evo with a different name, you may put an attack action card with 6{p} from your graveyard into your deck fifth from the top. If that Evo is a hero, instead this triggers twice.
+
+**Temper**",Mechanologist Action Equipment - Evo Base Arms,,,,No,V,C,,Wisnu Tan,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO028_V2.png,,,,,,
+EVO029,EVO,Evo Steel Soul Tower,3,4,,3,,,"Mechanologist, Action, Equipment, Evo, Base, Legs","Transform, Temper",,,,,,"If you have a base legs equipped, **transform** it into this, then equip this.
+
+When this **transforms** from or into an Evo with a different name, gain 1 action point. If that Evo is a hero, instead this triggers twice.
+
+**Temper**",Mechanologist Action Equipment - Evo Base Legs,,,,No,V,C,,Kimberly Pantoni,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO029_V2.png,,,,,,
 EVO030,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO031,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO032,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
