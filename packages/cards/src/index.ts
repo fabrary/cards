@@ -585,6 +585,94 @@ When this **transforms** from or into an Evo with a different name, your hero ge
     
     
   },{
+    artists: ["Marco González"],
+    cardIdentifier: "junkyard-dogg-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO128",
+    name: "Junkyard Dogg",
+    printings: [{
+      
+      identifier: "EVO128",
+      image: "EVO128",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO128"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO128",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Scrap**
+
+When this attacks, if it **scrapped** a card, this gets +1{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "fender-bender-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO210",
+    name: "Fender Bender",
+    printings: [{
+      
+      identifier: "EVO210",
+      image: "EVO210",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO210"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO210",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**
+
+This gets +X{p}, where X is the number of equipment defending it.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Athiwut B."],
     cardIdentifier: "shriek-razors",
     classes: [Class.Assassin],
@@ -34093,7 +34181,8 @@ When you equip Crown of Dominion, create a Gold token.`,
     
     
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Daniel Jiménez"],
     cardIdentifier: "crush-confidence-blue",
     classes: [Class.Guardian],
@@ -34225,8 +34314,7 @@ When you equip Crown of Dominion, create a Gold token.`,
     
     
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Mihail Spil-Haufter"],
     cardIdentifier: "crush-the-weak-yellow",
     classes: [Class.Guardian],
@@ -69971,7 +70059,8 @@ When this hits a hero, you may turn a card in their banished zone face-down.`,
     
     
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["soyameii"],
     cardIdentifier: "leave-no-witnesses-red",
     classes: [Class.Assassin],
@@ -70021,8 +70110,7 @@ When this hits a hero, banish the top card of their deck and up to 1 card in the
     
     
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Le Vuong"],
     cardIdentifier: "leg-tap-blue",
     classes: [Class.Ninja],
@@ -105536,7 +105624,8 @@ The next attack action card with cost 1 or less you play this turn gains "When y
     
     talents: [Talent.Shadow],
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["bimawithpencil"],
     cardIdentifier: "seeds-of-agony-blue",
     classes: [Class.Runeblade],
@@ -105602,8 +105691,7 @@ The next attack action card with cost 0 or less you play this turn gains "When y
     
     talents: [Talent.Shadow],
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Kevin Sidharta"],
     cardIdentifier: "seek-and-destroy-red",
     classes: [Class.Ranger],

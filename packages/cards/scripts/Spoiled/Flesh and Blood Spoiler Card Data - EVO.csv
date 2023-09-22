@@ -143,7 +143,9 @@ EVO124,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO125,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO126,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO127,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO128,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO128,EVO,Junkyard Dogg,3,3,4,3,,,"Mechanologist, Action, Attack",Scrap,,,,,,"**Scrap**
+
+When this attacks, if it **scrapped** a card, this gets +1{p}.",Mechanologist Action - Attack,,,,,C,S,,Marco González,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO128.png,,,,,,
 EVO129,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO130,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO131,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -225,7 +227,9 @@ EVO206,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO207,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO208,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO209,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO210,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO210,EVO,Fender Bender,1,1,4,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
+
+This gets +X{p}, where X is the number of equipment defending it.",Mechanologist Action - Attack,,,,,C,S,,Narendra B Adi,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO210.png,,,,,,
 EVO211,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO212,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO213,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
