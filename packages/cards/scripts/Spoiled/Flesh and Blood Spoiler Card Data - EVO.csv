@@ -182,7 +182,9 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.",Mechanologist Ac
 EVO129,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO130,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO131,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO132,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO132,EVO,Scrap Harvester,1,3,6,3,,,"Mechanologist, Action, Attack",Scrap,,,,,,"**Scrap**
+
+When this attacks, if it scrapped a card, put a steam counter on an item you control with crank.",Mechanologist Action - Attack,,,,,C,,,Sandeep Karunakaran,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO132.png,,,,,,
 EVO133,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO134,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO135,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

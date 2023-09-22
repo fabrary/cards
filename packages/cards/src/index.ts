@@ -1750,6 +1750,50 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.`,
     
     
   },{
+    artists: ["Sandeep Karunakaran"],
+    cardIdentifier: "scrap-harvester-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO132",
+    name: "Scrap Harvester",
+    printings: [{
+      
+      identifier: "EVO132",
+      image: "EVO132",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO132"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO132",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Scrap**
+
+When this attacks, if it scrapped a card, put a steam counter on an item you control with crank.`,
+    
+    
+    
+    
+    keywords: [Keyword.Scrap],
+    
+    
+    pitch: 1,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Veto Zomer"],
     cardIdentifier: "sprocket-rocket-red",
     classes: [Class.Mechanologist],
@@ -2931,7 +2975,7 @@ You may pitch 2 red cards. If you don't, banish your hand.
 
 You may play Evos from your banished zone.`,
     
-    hero: Hero.ProfessorTeklovossen,
+    hero: Hero.Teklovossen,
     intellect: 4,
     
     
@@ -34226,7 +34270,8 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "crankshaft-blue",
     classes: [Class.Mechanologist],
@@ -34276,8 +34321,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Shen Fei"],
     cardIdentifier: "crater-fist",
     classes: [Class.Guardian],
@@ -70506,7 +70550,8 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
     
     
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "lady-barthimont",
     classes: [Class.Brute],
@@ -70556,8 +70601,7 @@ While Barthimont is face up in arsenal, whenever you play an attack action card,
     
     
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Richard Elrassi"],
     cardIdentifier: "last-ditch-effort-blue",
     classes: [Class.Generic],
@@ -106353,7 +106397,8 @@ When this hits a hero, create an Inertia token under their control.`,
     
     
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Saad Irfan"],
     cardIdentifier: "sedate-blue",
     classes: [Class.Assassin],
@@ -106415,8 +106460,7 @@ When this hits a hero, create an Inertia token under their control.`,
     
     
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Elena Bakulina"],
     cardIdentifier: "sedation-shot-red",
     classes: [Class.Ranger],

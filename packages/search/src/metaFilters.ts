@@ -320,11 +320,6 @@ const taylor: AppliedFilter[] = [
   ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Taylor),
 ];
 
-const professor: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Mechanologist]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.ProfessorTeklovossen),
-];
-
 const teklovossen: AppliedFilter[] = [
   ...CLASSES_AND_TALENTS([Class.Mechanologist]),
   ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Teklovossen),
@@ -548,8 +543,6 @@ const legalFiltersMappings: { [key: string]: AppliedFilter[] } = {
   melody,
   oldhim,
   prism,
-  professor,
-  professorteklovossen: professor,
   rhinar,
   riptide,
   ruudi,
