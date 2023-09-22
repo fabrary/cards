@@ -36830,7 +36830,7 @@ exports[`Check for unintentional updates Demolition Protocol (demolition-protoco
     "Mechanologist",
   ],
   "cost": 3,
-  "defaultImage": "FAB174",
+  "defaultImage": "EVO057",
   "defense": 3,
   "functionalText": "**Evo Upgrade** - When this attacks a hero, remove all steam counters from up to X equipment, items, and/or weapons they control, where X is the number of Evos you have equipped.",
   "keywords": [
@@ -36841,6 +36841,11 @@ exports[`Check for unintentional updates Demolition Protocol (demolition-protoco
   "power": 7,
   "printings": [
     {
+      "identifier": "EVO057",
+      "image": "EVO057",
+      "set": "Bright Lights",
+    },
+    {
       "foiling": "Rainbow",
       "identifier": "FAB174",
       "image": "FAB174",
@@ -36849,11 +36854,13 @@ exports[`Check for unintentional updates Demolition Protocol (demolition-protoco
     },
   ],
   "rarities": [
+    "Majestic",
     "Promo",
   ],
   "rarity": "Promo",
   "setIdentifiers": [
     "FAB174",
+    "EVO057",
   ],
   "sets": [
     "Bright Lights",
@@ -56850,7 +56857,7 @@ exports[`Check for unintentional updates Fyendal's Spring Tunic (fyendals-spring
   "classes": [
     "Generic",
   ],
-  "defaultImage": "CRU178",
+  "defaultImage": "EVO249",
   "defense": 1,
   "functionalText": "At the start of your turn, if Fyendal's Spring Tunic has less than 3 energy counters, you may put an energy counter on it.
 
@@ -56862,11 +56869,6 @@ exports[`Check for unintentional updates Fyendal's Spring Tunic (fyendals-spring
   ],
   "name": "Fyendal's Spring Tunic",
   "printings": [
-    {
-      "identifier": "",
-      "image": "",
-      "set": "Bright Lights",
-    },
     {
       "identifier": "1HP341",
       "image": "1HP341.width-450",
@@ -56883,6 +56885,11 @@ exports[`Check for unintentional updates Fyendal's Spring Tunic (fyendals-spring
       "identifier": "CRU178",
       "image": "U-CRU178",
       "set": "Crucible of War",
+    },
+    {
+      "identifier": "EVO249",
+      "image": "EVO249",
+      "set": "Bright Lights",
     },
     {
       "foiling": "Gold",
@@ -56922,6 +56929,7 @@ exports[`Check for unintentional updates Fyendal's Spring Tunic (fyendals-spring
     "Commoner",
   ],
   "setIdentifiers": [
+    "EVO249",
     "1HP341",
     "CRU178",
     "FAB001",
@@ -62339,7 +62347,7 @@ exports[`Check for unintentional updates Heavy Artillery (heavy-artillery-blue) 
     "Mechanologist",
   ],
   "cost": 3,
-  "defaultImage": "LGS193.width-10000",
+  "defaultImage": "EVO063",
   "defense": 3,
   "functionalText": "**Evo Upgrade** - The defending hero can't defend this with attack action cards with cost less than X, where X is the number of Evos you have equipped.",
   "keywords": [
@@ -62350,6 +62358,11 @@ exports[`Check for unintentional updates Heavy Artillery (heavy-artillery-blue) 
   "power": 4,
   "printings": [
     {
+      "identifier": "EVO063",
+      "image": "EVO063",
+      "set": "Bright Lights",
+    },
+    {
       "foiling": "Rainbow",
       "identifier": "LGS193",
       "image": "LGS193.width-10000",
@@ -62359,10 +62372,15 @@ exports[`Check for unintentional updates Heavy Artillery (heavy-artillery-blue) 
   ],
   "rarities": [
     "Promo",
+    "Rare",
   ],
   "rarity": "Promo",
+  "restrictedFormats": [
+    "Commoner",
+  ],
   "setIdentifiers": [
     "LGS193",
+    "EVO063",
   ],
   "sets": [
     "Bright Lights",
@@ -62389,7 +62407,7 @@ exports[`Check for unintentional updates Heavy Artillery (heavy-artillery-red) v
     "Mechanologist",
   ],
   "cost": 3,
-  "defaultImage": "LGS191.width-10000",
+  "defaultImage": "EVO061",
   "defense": 3,
   "functionalText": "**Evo Upgrade** - The defending hero can't defend this with attack action cards with cost less than X, where X is the number of Evos you have equipped.",
   "keywords": [
@@ -62400,6 +62418,11 @@ exports[`Check for unintentional updates Heavy Artillery (heavy-artillery-red) v
   "power": 6,
   "printings": [
     {
+      "identifier": "EVO061",
+      "image": "EVO061",
+      "set": "Bright Lights",
+    },
+    {
       "foiling": "Rainbow",
       "identifier": "LGS191",
       "image": "LGS191.width-10000",
@@ -62409,10 +62432,15 @@ exports[`Check for unintentional updates Heavy Artillery (heavy-artillery-red) v
   ],
   "rarities": [
     "Promo",
+    "Rare",
   ],
   "rarity": "Promo",
+  "restrictedFormats": [
+    "Commoner",
+  ],
   "setIdentifiers": [
     "LGS191",
+    "EVO061",
   ],
   "sets": [
     "Bright Lights",
@@ -62439,7 +62467,7 @@ exports[`Check for unintentional updates Heavy Artillery (heavy-artillery-yellow
     "Mechanologist",
   ],
   "cost": 3,
-  "defaultImage": "LGS192.width-10000",
+  "defaultImage": "EVO062",
   "defense": 3,
   "functionalText": "**Evo Upgrade** - The defending hero can't defend this with attack action cards with cost less than X, where X is the number of Evos you have equipped.",
   "keywords": [
@@ -62450,6 +62478,11 @@ exports[`Check for unintentional updates Heavy Artillery (heavy-artillery-yellow
   "power": 5,
   "printings": [
     {
+      "identifier": "EVO062",
+      "image": "EVO062",
+      "set": "Bright Lights",
+    },
+    {
       "foiling": "Rainbow",
       "identifier": "LGS192",
       "image": "LGS192.width-10000",
@@ -62459,10 +62492,15 @@ exports[`Check for unintentional updates Heavy Artillery (heavy-artillery-yellow
   ],
   "rarities": [
     "Promo",
+    "Rare",
   ],
   "rarity": "Promo",
+  "restrictedFormats": [
+    "Commoner",
+  ],
   "setIdentifiers": [
     "LGS192",
+    "EVO062",
   ],
   "sets": [
     "Bright Lights",
@@ -67355,12 +67393,17 @@ exports[`Check for unintentional updates Hyper Driver (hyper-driver) vs snapshot
   "classes": [
     "Mechanologist",
   ],
-  "defaultImage": "FAB176",
+  "defaultImage": "EVO234",
   "functionalText": "When this has no steam counters, destroy it.
 
 Once per turn, when you **boost** a card, remove a steam counter from this and gain {r}.",
   "name": "Hyper Driver",
   "printings": [
+    {
+      "identifier": "EVO234",
+      "image": "EVO234",
+      "set": "Bright Lights",
+    },
     {
       "foiling": "Cold",
       "identifier": "FAB176",
@@ -67370,16 +67413,18 @@ Once per turn, when you **boost** a card, remove a steam counter from this and g
   ],
   "rarities": [
     "Promo",
+    "Token",
   ],
   "rarity": "Promo",
   "setIdentifiers": [
     "FAB176",
+    "EVO234",
   ],
   "sets": [
     "Bright Lights",
     "Promos",
   ],
-  "specialImage": "FAB176",
+  "specialImage": "EVO234",
   "subtypes": [
     "Item",
   ],
@@ -67457,13 +67502,21 @@ exports[`Check for unintentional updates Hyper Driver (hyper-driver-red) vs snap
     "Mechanologist",
   ],
   "cost": 1,
-  "defaultImage": "DYN110",
-  "functionalText": "Hyper Driver enters the arena with 3 steam counters on it. When Hyper Driver has no steam counters on it, destroy it.
+  "defaultImage": "EVO099",
+  "functionalText": "This enters the arena with 3 steam counters. When it has none, destroy it.
 
-Once per turn, when you **boost** a card, remove a steam counter from Hyper Driver and gain {r}.",
+Once per turn, when you **boost** a card, remove a steam counter from this and gain {r}.",
+  "keywords": [
+    "Boost",
+  ],
   "name": "Hyper Driver",
   "pitch": 1,
   "printings": [
+    {
+      "identifier": "EVO099",
+      "image": "EVO099",
+      "set": "Bright Lights",
+    },
     {
       "identifier": "1HP218",
       "image": "1HP218.width-450",
@@ -67515,9 +67568,11 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     "1HP218",
     "ARC036",
     "DYN110",
+    "EVO099",
   ],
   "sets": [
     "Arcane Rising",
+    "Bright Lights",
     "Dynasty",
     "History Pack 1",
   ],
@@ -82701,7 +82756,7 @@ exports[`Check for unintentional updates Mechanical Strength (mechanical-strengt
     "Mechanologist",
   ],
   "cost": 3,
-  "defaultImage": "TCC024",
+  "defaultImage": "EVO069",
   "defense": 3,
   "functionalText": "**Evo Upgrade** - This gets +X{p}, where X is the number of Evos you have equipped.",
   "keywords": [
@@ -82711,6 +82766,11 @@ exports[`Check for unintentional updates Mechanical Strength (mechanical-strengt
   "pitch": 3,
   "power": 3,
   "printings": [
+    {
+      "identifier": "EVO069",
+      "image": "EVO069",
+      "set": "Bright Lights",
+    },
     {
       "identifier": "TCC024",
       "image": "TCC024",
@@ -82725,12 +82785,14 @@ exports[`Check for unintentional updates Mechanical Strength (mechanical-strengt
     "Commoner",
   ],
   "setIdentifiers": [
+    "EVO069",
     "TCC024",
   ],
   "sets": [
+    "Bright Lights",
     "Round the Table",
   ],
-  "specialImage": "TCC024",
+  "specialImage": "EVO069",
   "subtypes": [
     "Attack",
   ],
@@ -82751,7 +82813,7 @@ exports[`Check for unintentional updates Mechanical Strength (mechanical-strengt
     "Mechanologist",
   ],
   "cost": 3,
-  "defaultImage": "TCC013",
+  "defaultImage": "EVO067",
   "defense": 3,
   "functionalText": "**Evo Upgrade** - This gets +X{p}, where X is the number of Evos you have equipped.",
   "keywords": [
@@ -82761,6 +82823,11 @@ exports[`Check for unintentional updates Mechanical Strength (mechanical-strengt
   "pitch": 1,
   "power": 5,
   "printings": [
+    {
+      "identifier": "EVO067",
+      "image": "EVO067",
+      "set": "Bright Lights",
+    },
     {
       "identifier": "TCC013",
       "image": "TCC013",
@@ -82775,12 +82842,14 @@ exports[`Check for unintentional updates Mechanical Strength (mechanical-strengt
     "Commoner",
   ],
   "setIdentifiers": [
+    "EVO067",
     "TCC013",
   ],
   "sets": [
+    "Bright Lights",
     "Round the Table",
   ],
-  "specialImage": "TCC013",
+  "specialImage": "EVO067",
   "subtypes": [
     "Attack",
   ],
@@ -82801,7 +82870,7 @@ exports[`Check for unintentional updates Meganetic Protocol (meganetic-protocol-
     "Mechanologist",
   ],
   "cost": 3,
-  "defaultImage": "FAB172",
+  "defaultImage": "EVO059",
   "defense": 3,
   "functionalText": "**Evo Upgrade** - The defending hero must defend this with X equipment they control with -1{d} counters if able, where X is the number of Evos you have equipped.",
   "keywords": [
@@ -82812,6 +82881,11 @@ exports[`Check for unintentional updates Meganetic Protocol (meganetic-protocol-
   "power": 5,
   "printings": [
     {
+      "identifier": "EVO059",
+      "image": "EVO059",
+      "set": "Bright Lights",
+    },
+    {
       "foiling": "Rainbow",
       "identifier": "FAB172",
       "image": "FAB172",
@@ -82820,11 +82894,13 @@ exports[`Check for unintentional updates Meganetic Protocol (meganetic-protocol-
     },
   ],
   "rarities": [
+    "Majestic",
     "Promo",
   ],
   "rarity": "Promo",
   "setIdentifiers": [
     "FAB172",
+    "EVO059",
   ],
   "sets": [
     "Bright Lights",
@@ -99670,7 +99746,7 @@ exports[`Check for unintentional updates Pulsewave Protocol (pulsewave-protocol-
     "Mechanologist",
   ],
   "cost": 3,
-  "defaultImage": "FAB173",
+  "defaultImage": "EVO058",
   "defense": 3,
   "functionalText": "**Evo Upgrade** - When this attacks a hero, they reveal X cards from their hand, where X is the number of Evos you have equipped. Choose an action card with {d} less than X, then add it to this chain link as a defending card.",
   "keywords": [
@@ -99681,6 +99757,11 @@ exports[`Check for unintentional updates Pulsewave Protocol (pulsewave-protocol-
   "power": 6,
   "printings": [
     {
+      "identifier": "EVO058",
+      "image": "EVO058",
+      "set": "Bright Lights",
+    },
+    {
       "foiling": "Rainbow",
       "identifier": "FAB173",
       "image": "FAB173",
@@ -99689,11 +99770,13 @@ exports[`Check for unintentional updates Pulsewave Protocol (pulsewave-protocol-
     },
   ],
   "rarities": [
+    "Majestic",
     "Promo",
   ],
   "rarity": "Promo",
   "setIdentifiers": [
     "FAB173",
+    "EVO058",
   ],
   "sets": [
     "Bright Lights",
@@ -142383,7 +142466,7 @@ exports[`Check for unintentional updates Teklo Base Arms (teklo-base-arms) vs sn
   "classes": [
     "Mechanologist",
   ],
-  "defaultImage": "LGS188",
+  "defaultImage": "EVO020",
   "defense": 1,
   "functionalText": "**Blade Break**",
   "keywords": [
@@ -142392,6 +142475,11 @@ exports[`Check for unintentional updates Teklo Base Arms (teklo-base-arms) vs sn
   "name": "Teklo Base Arms",
   "printings": [
     {
+      "identifier": "EVO020",
+      "image": "EVO020",
+      "set": "Bright Lights",
+    },
+    {
       "foiling": "Cold",
       "identifier": "LGS188",
       "image": "LGS188",
@@ -142399,17 +142487,19 @@ exports[`Check for unintentional updates Teklo Base Arms (teklo-base-arms) vs sn
     },
   ],
   "rarities": [
+    "Common",
     "Promo",
   ],
   "rarity": "Promo",
   "setIdentifiers": [
     "LGS188",
+    "EVO020",
   ],
   "sets": [
     "Bright Lights",
     "Promos",
   ],
-  "specialImage": "LGS188",
+  "specialImage": "EVO020",
   "subtypes": [
     "Arms",
     "Base",
@@ -142430,7 +142520,7 @@ exports[`Check for unintentional updates Teklo Base Chest (teklo-base-chest) vs 
   "classes": [
     "Mechanologist",
   ],
-  "defaultImage": "LGS187",
+  "defaultImage": "EVO019",
   "defense": 1,
   "functionalText": "**Blade Break**",
   "keywords": [
@@ -142439,6 +142529,11 @@ exports[`Check for unintentional updates Teklo Base Chest (teklo-base-chest) vs 
   "name": "Teklo Base Chest",
   "printings": [
     {
+      "identifier": "EVO019",
+      "image": "EVO019",
+      "set": "Bright Lights",
+    },
+    {
       "foiling": "Cold",
       "identifier": "LGS187",
       "image": "LGS187",
@@ -142446,17 +142541,19 @@ exports[`Check for unintentional updates Teklo Base Chest (teklo-base-chest) vs 
     },
   ],
   "rarities": [
+    "Common",
     "Promo",
   ],
   "rarity": "Promo",
   "setIdentifiers": [
     "LGS187",
+    "EVO019",
   ],
   "sets": [
     "Bright Lights",
     "Promos",
   ],
-  "specialImage": "LGS187",
+  "specialImage": "EVO019",
   "subtypes": [
     "Base",
     "Chest",
@@ -142477,7 +142574,7 @@ exports[`Check for unintentional updates Teklo Base Head (teklo-base-head) vs sn
   "classes": [
     "Mechanologist",
   ],
-  "defaultImage": "LGS186",
+  "defaultImage": "EVO018",
   "defense": 1,
   "functionalText": "**Blade Break**",
   "keywords": [
@@ -142486,6 +142583,11 @@ exports[`Check for unintentional updates Teklo Base Head (teklo-base-head) vs sn
   "name": "Teklo Base Head",
   "printings": [
     {
+      "identifier": "EVO018",
+      "image": "EVO018",
+      "set": "Bright Lights",
+    },
+    {
       "foiling": "Cold",
       "identifier": "LGS186",
       "image": "LGS186",
@@ -142493,17 +142595,19 @@ exports[`Check for unintentional updates Teklo Base Head (teklo-base-head) vs sn
     },
   ],
   "rarities": [
+    "Common",
     "Promo",
   ],
   "rarity": "Promo",
   "setIdentifiers": [
     "LGS186",
+    "EVO018",
   ],
   "sets": [
     "Bright Lights",
     "Promos",
   ],
-  "specialImage": "LGS186",
+  "specialImage": "EVO018",
   "subtypes": [
     "Base",
     "Head",
@@ -142524,7 +142628,7 @@ exports[`Check for unintentional updates Teklo Base Legs (teklo-base-legs) vs sn
   "classes": [
     "Mechanologist",
   ],
-  "defaultImage": "LGS189",
+  "defaultImage": "EVO021",
   "defense": 1,
   "functionalText": "**Blade Break**",
   "keywords": [
@@ -142533,6 +142637,11 @@ exports[`Check for unintentional updates Teklo Base Legs (teklo-base-legs) vs sn
   "name": "Teklo Base Legs",
   "printings": [
     {
+      "identifier": "EVO021",
+      "image": "EVO021",
+      "set": "Bright Lights",
+    },
+    {
       "foiling": "Cold",
       "identifier": "LGS189",
       "image": "LGS189",
@@ -142540,17 +142649,19 @@ exports[`Check for unintentional updates Teklo Base Legs (teklo-base-legs) vs sn
     },
   ],
   "rarities": [
+    "Common",
     "Promo",
   ],
   "rarity": "Promo",
   "setIdentifiers": [
     "LGS189",
+    "EVO021",
   ],
   "sets": [
     "Bright Lights",
     "Promos",
   ],
-  "specialImage": "LGS189",
+  "specialImage": "EVO021",
   "subtypes": [
     "Base",
     "Legs",

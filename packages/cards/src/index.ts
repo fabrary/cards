@@ -295,6 +295,198 @@ Hyper Drivers you control get **Crank**.`,
     
     young: true
   },{
+    artists: ["Alief Rusdiatama"],
+    cardIdentifier: "teklo-base-head",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO018",
+    name: "Teklo Base Head",
+    printings: [{
+      
+      identifier: "EVO018",
+      image: "EVO018",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS186",
+      image: "LGS186",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS186","EVO018"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "EVO018",
+    subtypes: [Subtype.Base,Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment - Base Head",
+
+    
+    defense: 1,
+    functionalText: `**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Septimius Ferdian"],
+    cardIdentifier: "teklo-base-chest",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO019",
+    name: "Teklo Base Chest",
+    printings: [{
+      
+      identifier: "EVO019",
+      image: "EVO019",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS187",
+      image: "LGS187",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS187","EVO019"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "EVO019",
+    subtypes: [Subtype.Base,Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment - Base Chest",
+
+    
+    defense: 1,
+    functionalText: `**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Lizhe Liang"],
+    cardIdentifier: "teklo-base-arms",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO020",
+    name: "Teklo Base Arms",
+    printings: [{
+      
+      identifier: "EVO020",
+      image: "EVO020",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS188",
+      image: "LGS188",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS188","EVO020"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "EVO020",
+    subtypes: [Subtype.Arms,Subtype.Base],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment - Base Arms",
+
+    
+    defense: 1,
+    functionalText: `**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Erick Efata"],
+    cardIdentifier: "teklo-base-legs",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO021",
+    name: "Teklo Base Legs",
+    printings: [{
+      
+      identifier: "EVO021",
+      image: "EVO021",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS189",
+      image: "LGS189",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS189","EVO021"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "EVO021",
+    subtypes: [Subtype.Base,Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment - Base Legs",
+
+    
+    defense: 1,
+    functionalText: `**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Grigoriy Parshakov","Vlad Tashkinov"],
     cardIdentifier: "proto-base-head",
     classes: [Class.Mechanologist],
@@ -585,6 +777,652 @@ When this **transforms** from or into an Evo with a different name, your hero ge
     
     
   },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "demolition-protocol-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO057",
+    name: "Demolition Protocol",
+    printings: [{
+      
+      identifier: "EVO057",
+      image: "EVO057",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "FAB174",
+      image: "FAB174",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Majestic,Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["FAB174","EVO057"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "FAB174",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Evo Upgrade** - When this attacks a hero, remove all steam counters from up to X equipment, items, and/or weapons they control, where X is the number of Evos you have equipped.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 1,
+    power: 7,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Asur Misoa"],
+    cardIdentifier: "pulsewave-protocol-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO058",
+    name: "Pulsewave Protocol",
+    printings: [{
+      
+      identifier: "EVO058",
+      image: "EVO058",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "FAB173",
+      image: "FAB173",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Majestic,Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["FAB173","EVO058"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "FAB173",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Evo Upgrade** - When this attacks a hero, they reveal X cards from their hand, where X is the number of Evos you have equipped. Choose an action card with {d} less than X, then add it to this chain link as a defending card.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 2,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tanapon Wachirakul"],
+    cardIdentifier: "meganetic-protocol-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO059",
+    name: "Meganetic Protocol",
+    printings: [{
+      
+      identifier: "EVO059",
+      image: "EVO059",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "FAB172",
+      image: "FAB172",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Majestic,Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["FAB172","EVO059"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "FAB172",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Evo Upgrade** - The defending hero must defend this with X equipment they control with -1{d} counters if able, where X is the number of Evos you have equipped.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 3,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tanapon Wachirakul"],
+    cardIdentifier: "heavy-artillery-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO061",
+    name: "Heavy Artillery",
+    printings: [{
+      
+      identifier: "EVO061",
+      image: "EVO061",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS191",
+      image: "LGS191.width-10000",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS191","EVO061"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "LGS191.width-10000",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Evo Upgrade** - The defending hero can't defend this with attack action cards with cost less than X, where X is the number of Evos you have equipped.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 1,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tanapon Wachirakul"],
+    cardIdentifier: "heavy-artillery-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO062",
+    name: "Heavy Artillery",
+    printings: [{
+      
+      identifier: "EVO062",
+      image: "EVO062",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS192",
+      image: "LGS192.width-10000",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS192","EVO062"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "LGS192.width-10000",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Evo Upgrade** - The defending hero can't defend this with attack action cards with cost less than X, where X is the number of Evos you have equipped.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 2,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tanapon Wachirakul"],
+    cardIdentifier: "heavy-artillery-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO063",
+    name: "Heavy Artillery",
+    printings: [{
+      
+      identifier: "EVO063",
+      image: "EVO063",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS193",
+      image: "LGS193.width-10000",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS193","EVO063"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "LGS193.width-10000",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Evo Upgrade** - The defending hero can't defend this with attack action cards with cost less than X, where X is the number of Evos you have equipped.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 3,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "mechanical-strength-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO067",
+    name: "Mechanical Strength",
+    printings: [{
+      
+      identifier: "EVO067",
+      image: "EVO067",
+      set: Release.BrightLights,
+      
+    },{
+      
+      identifier: "TCC013",
+      image: "TCC013",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO067","TCC013"],
+    sets: [Release.BrightLights,Release.RoundTheTable],
+    specialImage: "EVO067",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Evo Upgrade** - This gets +X{p}, where X is the number of Evos you have equipped.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 1,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "mechanical-strength-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO068",
+    name: "Mechanical Strength",
+    printings: [{
+      
+      identifier: "EVO068",
+      image: "EVO068",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO068"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO068",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Evo Upgrade** - This gets +X{p}, where X is the number of Evos you have equipped.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 2,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "mechanical-strength-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO069",
+    name: "Mechanical Strength",
+    printings: [{
+      
+      identifier: "EVO069",
+      image: "EVO069",
+      set: Release.BrightLights,
+      
+    },{
+      
+      identifier: "TCC024",
+      image: "TCC024",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO069","TCC024"],
+    sets: [Release.BrightLights,Release.RoundTheTable],
+    specialImage: "EVO069",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Evo Upgrade** - This gets +X{p}, where X is the number of Evos you have equipped.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 3,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Alexander Mokhov"],
+    cardIdentifier: "hyper-driver-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO099",
+    name: "Hyper Driver",
+    printings: [{
+      
+      identifier: "EVO099",
+      image: "EVO099",
+      set: Release.BrightLights,
+      
+    },{
+      
+      identifier: "1HP218",
+      image: "1HP218.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "ARC036",
+      image: "ARC036",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "ARC036",
+      image: "ARC036",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ARC036",
+      image: "U-ARC036",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "ARC036",
+      image: "U-ARC036",
+      set: Release.ArcaneRising,
+      
+    },{
+      
+      identifier: "DYN110",
+      image: "DYN110",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "DYN110",
+      image: "DYN110",
+      set: Release.Dynasty,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP218","ARC036","DYN110","EVO099"],
+    sets: [Release.ArcaneRising,Release.BrightLights,Release.Dynasty,Release.HistoryPack1],
+    specialImage: "ARC036",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 1,
+    
+    functionalText: `This enters the arena with 3 steam counters. When it has none, destroy it.
+
+Once per turn, when you **boost** a card, remove a steam counter from this and gain {r}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Anastasia Balakchina"],
+    cardIdentifier: "scrap-trader-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO101",
+    name: "Scrap Trader",
+    printings: [{
+      
+      identifier: "EVO101",
+      image: "EVO101",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO101"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO101",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `**Scrap**
+
+**Scrap**
+
+Gain {r}{r} for each card this *scrapped**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Scrap],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "junkyard-dogg-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO126",
+    name: "Junkyard Dogg",
+    printings: [{
+      
+      identifier: "EVO126",
+      image: "EVO126",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO126"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO126",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Scrap**
+
+When this attacks, if it **scrapped** a card, this gets +1{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Scrap],
+    
+    
+    pitch: 1,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "junkyard-dogg-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO127",
+    name: "Junkyard Dogg",
+    printings: [{
+      
+      identifier: "EVO127",
+      image: "EVO127",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO127"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO127",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Scrap**
+
+When this attacks, if it **scrapped** a card, this gets +1{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Scrap],
+    
+    
+    pitch: 2,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Marco González"],
     cardIdentifier: "junkyard-dogg-blue",
     classes: [Class.Mechanologist],
@@ -629,6 +1467,270 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.`,
     
     
   },{
+    artists: ["Eilene Cherie"],
+    cardIdentifier: "out-pace-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO204",
+    name: "Out Pace",
+    printings: [{
+      
+      identifier: "EVO204",
+      image: "EVO204",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO204"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO204",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**
+
+This can't be defended by equipment.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Eilene Cherie"],
+    cardIdentifier: "out-pace-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO205",
+    name: "Out Pace",
+    printings: [{
+      
+      identifier: "EVO205",
+      image: "EVO205",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO205"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO205",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**
+
+This can't be defended by equipment.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Eilene Cherie"],
+    cardIdentifier: "out-pace-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO206",
+    name: "Out Pace",
+    printings: [{
+      
+      identifier: "EVO206",
+      image: "EVO206",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO206"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO206",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**
+
+This can't be defended by equipment.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 3,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "lay-waste-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO207",
+    name: "Lay Waste",
+    printings: [{
+      
+      identifier: "EVO207",
+      image: "EVO207",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO207"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO207",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+This can't be defended by equipment.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "lay-waste-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO208",
+    name: "Lay Waste",
+    printings: [{
+      
+      identifier: "EVO208",
+      image: "EVO208",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO208"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO208",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+This can't be defended by equipment.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "lay-waste-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO209",
+    name: "Lay Waste",
+    printings: [{
+      
+      identifier: "EVO209",
+      image: "EVO209",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO209"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO209",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+This can't be defended by equipment.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 3,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "fender-bender-red",
     classes: [Class.Mechanologist],
@@ -664,6 +1766,144 @@ This gets +X{p}, where X is the number of equipment defending it.`,
     
     pitch: 1,
     power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "fender-bender-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO211",
+    name: "Fender Bender",
+    printings: [{
+      
+      identifier: "EVO211",
+      image: "EVO211",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO211"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO211",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**
+
+This gets +X{p}, where X is the number of equipment defending it.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "fender-bender-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO212",
+    name: "Fender Bender",
+    printings: [{
+      
+      identifier: "EVO212",
+      image: "EVO212",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO212"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO212",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**
+
+This gets +X{p}, where X is the number of equipment defending it.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 3,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Alexander Mokhov"],
+    cardIdentifier: "hyper-driver",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO234",
+    name: "Hyper Driver",
+    printings: [{
+      
+      identifier: "EVO234",
+      image: "EVO234",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "FAB176",
+      image: "FAB176",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["FAB176","EVO234"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "EVO234",
+    subtypes: [Subtype.Item],
+    types: [Type.Token],
+    typeText: "Mechanologist Token - Item",
+
+    
+    
+    functionalText: `When this has no steam counters, destroy it.
+
+Once per turn, when you **boost** a card, remove a steam counter from this and gain {r}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1121,344 +2361,6 @@ You may pitch 2 red cards. If you don't, banish your hand.
     talents: [Talent.Light],
     
   },{
-    artists: ["Tanapon Wachirakul"],
-    cardIdentifier: "meganetic-protocol-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "FAB172",
-    name: "Meganetic Protocol",
-    printings: [{
-      foiling: Foiling.R,
-      identifier: "FAB172",
-      image: "FAB172",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["FAB172"],
-    sets: [Release.BrightLights,Release.Promos],
-    specialImage: "FAB172",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Evo Upgrade** - The defending hero must defend this with X equipment they control with -1{d} counters if able, where X is the number of Evos you have equipped.`,
-    
-    
-    
-    
-    keywords: [Keyword.EvoUpgrade],
-    
-    
-    pitch: 3,
-    power: 5,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Asur Misoa"],
-    cardIdentifier: "pulsewave-protocol-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "FAB173",
-    name: "Pulsewave Protocol",
-    printings: [{
-      foiling: Foiling.R,
-      identifier: "FAB173",
-      image: "FAB173",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["FAB173"],
-    sets: [Release.BrightLights,Release.Promos],
-    specialImage: "FAB173",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Evo Upgrade** - When this attacks a hero, they reveal X cards from their hand, where X is the number of Evos you have equipped. Choose an action card with {d} less than X, then add it to this chain link as a defending card.`,
-    
-    
-    
-    
-    keywords: [Keyword.EvoUpgrade],
-    
-    
-    pitch: 2,
-    power: 6,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Carlos Cruchaga"],
-    cardIdentifier: "demolition-protocol-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "FAB174",
-    name: "Demolition Protocol",
-    printings: [{
-      foiling: Foiling.R,
-      identifier: "FAB174",
-      image: "FAB174",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["FAB174"],
-    sets: [Release.BrightLights,Release.Promos],
-    specialImage: "FAB174",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Evo Upgrade** - When this attacks a hero, remove all steam counters from up to X equipment, items, and/or weapons they control, where X is the number of Evos you have equipped.`,
-    
-    
-    
-    
-    keywords: [Keyword.EvoUpgrade],
-    
-    
-    pitch: 1,
-    power: 7,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Alexander Mokhov"],
-    cardIdentifier: "hyper-driver",
-    classes: [Class.Mechanologist],
-    defaultImage: "FAB176",
-    name: "Hyper Driver",
-    printings: [{
-      foiling: Foiling.C,
-      identifier: "FAB176",
-      image: "FAB176",
-      set: Release.Promos,
-      
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["FAB176"],
-    sets: [Release.BrightLights,Release.Promos],
-    specialImage: "FAB176",
-    subtypes: [Subtype.Item],
-    types: [Type.Token],
-    typeText: "Mechanologist Token - Item",
-
-    
-    
-    functionalText: `When this has no steam counters, destroy it.
-
-Once per turn, when you **boost** a card, remove a steam counter from this and gain {r}.`,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Alief Rusdiatama"],
-    cardIdentifier: "teklo-base-head",
-    classes: [Class.Mechanologist],
-    defaultImage: "LGS186",
-    name: "Teklo Base Head",
-    printings: [{
-      foiling: Foiling.C,
-      identifier: "LGS186",
-      image: "LGS186",
-      set: Release.Promos,
-      
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS186"],
-    sets: [Release.BrightLights,Release.Promos],
-    specialImage: "LGS186",
-    subtypes: [Subtype.Base,Subtype.Head],
-    types: [Type.Equipment],
-    typeText: "Mechanologist Equipment - Base Head",
-
-    
-    defense: 1,
-    functionalText: `**Blade Break**`,
-    
-    
-    
-    
-    keywords: [Keyword.BladeBreak],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Septimius Ferdian"],
-    cardIdentifier: "teklo-base-chest",
-    classes: [Class.Mechanologist],
-    defaultImage: "LGS187",
-    name: "Teklo Base Chest",
-    printings: [{
-      foiling: Foiling.C,
-      identifier: "LGS187",
-      image: "LGS187",
-      set: Release.Promos,
-      
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS187"],
-    sets: [Release.BrightLights,Release.Promos],
-    specialImage: "LGS187",
-    subtypes: [Subtype.Base,Subtype.Chest],
-    types: [Type.Equipment],
-    typeText: "Mechanologist Equipment - Base Chest",
-
-    
-    defense: 1,
-    functionalText: `**Blade Break**`,
-    
-    
-    
-    
-    keywords: [Keyword.BladeBreak],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Lizhe Liang"],
-    cardIdentifier: "teklo-base-arms",
-    classes: [Class.Mechanologist],
-    defaultImage: "LGS188",
-    name: "Teklo Base Arms",
-    printings: [{
-      foiling: Foiling.C,
-      identifier: "LGS188",
-      image: "LGS188",
-      set: Release.Promos,
-      
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS188"],
-    sets: [Release.BrightLights,Release.Promos],
-    specialImage: "LGS188",
-    subtypes: [Subtype.Arms,Subtype.Base],
-    types: [Type.Equipment],
-    typeText: "Mechanologist Equipment - Base Arms",
-
-    
-    defense: 1,
-    functionalText: `**Blade Break**`,
-    
-    
-    
-    
-    keywords: [Keyword.BladeBreak],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Erick Efata"],
-    cardIdentifier: "teklo-base-legs",
-    classes: [Class.Mechanologist],
-    defaultImage: "LGS189",
-    name: "Teklo Base Legs",
-    printings: [{
-      foiling: Foiling.C,
-      identifier: "LGS189",
-      image: "LGS189",
-      set: Release.Promos,
-      
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS189"],
-    sets: [Release.BrightLights,Release.Promos],
-    specialImage: "LGS189",
-    subtypes: [Subtype.Base,Subtype.Legs],
-    types: [Type.Equipment],
-    typeText: "Mechanologist Equipment - Base Legs",
-
-    
-    defense: 1,
-    functionalText: `**Blade Break**`,
-    
-    
-    
-    
-    keywords: [Keyword.BladeBreak],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
     artists: ["Joseph Qiu"],
     cardIdentifier: "teklo-leveler",
     classes: [Class.Mechanologist],
@@ -1496,132 +2398,6 @@ Once per turn, when you **boost** a card, remove a steam counter from this and g
     
     
     power: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tanapon Wachirakul"],
-    cardIdentifier: "heavy-artillery-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "LGS191.width-10000",
-    name: "Heavy Artillery",
-    printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS191",
-      image: "LGS191.width-10000",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS191"],
-    sets: [Release.BrightLights,Release.Promos],
-    specialImage: "LGS191.width-10000",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Evo Upgrade** - The defending hero can't defend this with attack action cards with cost less than X, where X is the number of Evos you have equipped.`,
-    
-    
-    
-    
-    keywords: [Keyword.EvoUpgrade],
-    
-    
-    pitch: 1,
-    power: 6,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tanapon Wachirakul"],
-    cardIdentifier: "heavy-artillery-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "LGS192.width-10000",
-    name: "Heavy Artillery",
-    printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS192",
-      image: "LGS192.width-10000",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS192"],
-    sets: [Release.BrightLights,Release.Promos],
-    specialImage: "LGS192.width-10000",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Evo Upgrade** - The defending hero can't defend this with attack action cards with cost less than X, where X is the number of Evos you have equipped.`,
-    
-    
-    
-    
-    keywords: [Keyword.EvoUpgrade],
-    
-    
-    pitch: 2,
-    power: 5,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tanapon Wachirakul"],
-    cardIdentifier: "heavy-artillery-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "LGS193.width-10000",
-    name: "Heavy Artillery",
-    printings: [{
-      foiling: Foiling.R,
-      identifier: "LGS193",
-      image: "LGS193.width-10000",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS193"],
-    sets: [Release.BrightLights,Release.Promos],
-    specialImage: "LGS193.width-10000",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Evo Upgrade** - The defending hero can't defend this with attack action cards with cost less than X, where X is the number of Evos you have equipped.`,
-    
-    
-    
-    
-    keywords: [Keyword.EvoUpgrade],
-    
-    
-    pitch: 3,
-    power: 4,
     
     
     
@@ -1978,48 +2754,6 @@ Your Teklo Blaster attacks gets **go again**.
     
     pitch: 1,
     power: 6,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tomasz Jedruszek"],
-    cardIdentifier: "mechanical-strength-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "TCC013",
-    name: "Mechanical Strength",
-    printings: [{
-      
-      identifier: "TCC013",
-      image: "TCC013",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["TCC013"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC013",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Evo Upgrade** - This gets +X{p}, where X is the number of Evos you have equipped.`,
-    
-    
-    
-    
-    keywords: [Keyword.EvoUpgrade],
-    
-    
-    pitch: 1,
-    power: 5,
     restrictedFormats: [Format.Commoner],
     
     
@@ -2636,48 +3370,6 @@ When this hits, put it on the bottom of its owner's deck.`,
     
     pitch: 3,
     power: 4,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tomasz Jedruszek"],
-    cardIdentifier: "mechanical-strength-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "TCC024",
-    name: "Mechanical Strength",
-    printings: [{
-      
-      identifier: "TCC024",
-      image: "TCC024",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["TCC024"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC024",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Evo Upgrade** - This gets +X{p}, where X is the number of Evos you have equipped.`,
-    
-    
-    
-    
-    keywords: [Keyword.EvoUpgrade],
-    
-    
-    pitch: 3,
-    power: 3,
     restrictedFormats: [Format.Commoner],
     
     
@@ -33559,7 +34251,8 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     talents: [Talent.Light],
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Iain Miki"],
     cardIdentifier: "cross-the-line-blue",
     classes: [Class.Warrior],
@@ -34181,8 +34874,7 @@ When you equip Crown of Dominion, create a Gold token.`,
     
     
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Daniel Jiménez"],
     cardIdentifier: "crush-confidence-blue",
     classes: [Class.Guardian],
@@ -53639,15 +54331,9 @@ Create a Runechant token.
     artists: ["Sergey Gurskiy"],
     cardIdentifier: "fyendals-spring-tunic",
     classes: [Class.Generic],
-    defaultImage: "CRU178",
+    defaultImage: "EVO249",
     name: "Fyendal's Spring Tunic",
     printings: [{
-      
-      identifier: "",
-      image: "",
-      set: Release.BrightLights,
-      
-    },{
       
       identifier: "1HP341",
       image: "1HP341.width-450",
@@ -53664,6 +54350,12 @@ Create a Runechant token.
       identifier: "CRU178",
       image: "U-CRU178",
       set: Release.CrucibleOfWar,
+      
+    },{
+      
+      identifier: "EVO249",
+      image: "EVO249",
+      set: Release.BrightLights,
       
     },{
       foiling: Foiling.G,
@@ -53692,7 +54384,7 @@ Create a Runechant token.
     },],
     rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
-    setIdentifiers: ["1HP341","CRU178","FAB001","FAB002","WTR150"],
+    setIdentifiers: ["EVO249","1HP341","CRU178","FAB001","FAB002","WTR150"],
     sets: [Release.BrightLights,Release.CrucibleOfWar,Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
     specialImage: "FAB001",
     subtypes: [Subtype.Chest],
@@ -62275,86 +62967,6 @@ When this hits a hero, banish a card from their soul.
     
   },{
     artists: ["Alexander Mokhov"],
-    cardIdentifier: "hyper-driver-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "DYN110",
-    name: "Hyper Driver",
-    printings: [{
-      
-      identifier: "1HP218",
-      image: "1HP218.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC036",
-      image: "ARC036",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "ARC036",
-      image: "ARC036",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ARC036",
-      image: "U-ARC036",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "ARC036",
-      image: "U-ARC036",
-      set: Release.ArcaneRising,
-      
-    },{
-      
-      identifier: "DYN110",
-      image: "DYN110",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "DYN110",
-      image: "DYN110",
-      set: Release.Dynasty,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP218","ARC036","DYN110"],
-    sets: [Release.ArcaneRising,Release.Dynasty,Release.HistoryPack1],
-    specialImage: "ARC036",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Item",
-
-    cost: 1,
-    
-    functionalText: `Hyper Driver enters the arena with 3 steam counters on it. When Hyper Driver has no steam counters on it, destroy it.
-
-Once per turn, when you **boost** a card, remove a steam counter from Hyper Driver and gain {r}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Alexander Mokhov"],
     cardIdentifier: "hyper-driver-yellow",
     classes: [Class.Mechanologist],
     defaultImage: "DYN111",
@@ -69723,7 +70335,8 @@ While Barthimont is face up in arsenal, whenever you play an attack action card,
     
     talents: [Talent.Draconic],
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Faizal Fikri"],
     cardIdentifier: "lay-to-rest-red",
     classes: [Class.NotClassed],
@@ -70059,8 +70672,7 @@ When this hits a hero, you may turn a card in their banished zone face-down.`,
     
     
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["soyameii"],
     cardIdentifier: "leave-no-witnesses-red",
     classes: [Class.Assassin],
@@ -105424,7 +106036,8 @@ When this hits a hero, create an Inertia token under their control.`,
     
     
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Elena Bakulina"],
     cardIdentifier: "sedation-shot-blue",
     classes: [Class.Ranger],
@@ -105624,8 +106237,7 @@ The next attack action card with cost 1 or less you play this turn gains "When y
     
     talents: [Talent.Shadow],
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["bimawithpencil"],
     cardIdentifier: "seeds-of-agony-blue",
     classes: [Class.Runeblade],
