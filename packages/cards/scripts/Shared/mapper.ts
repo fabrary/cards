@@ -221,6 +221,8 @@ export const getSpecialImage = (
     const doubleSided = printings.find(
       (printing) => printing.treatment === Treatment.DS
     );
+
+    const marvel = printings.find((printing) => printing.image.includes("_V2"));
     const firstEdition = printings.find(
       (printing) => printing.edition === ReleaseEdition.First
     );
@@ -238,6 +240,7 @@ export const getSpecialImage = (
           doubleSided?.image ||
           alternativeArt?.image ||
           alternateText?.image ||
+          marvel?.image ||
           firstEdition?.image ||
           alphaEdition?.image ||
           unlimitedEdition?.image ||

@@ -48112,6 +48112,65 @@ Your Teklo Blaster attacks gets +1{p} for each opposing hero.
 }
 `;
 
+exports[`Check for unintentional updates Evo Steel Soul Controller (evo-steel-soul-controller-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Wisnu Tan",
+  ],
+  "cardIdentifier": "evo-steel-soul-controller-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 4,
+  "defaultImage": "EVO028_V2",
+  "defense": 3,
+  "functionalText": "If you have base arms equipped, **transform** it into this, then equip this.
+
+When this **transforms** from or into an Evo with a different name, you may put an attack action card with 6{p} from your graveyard into your deck fifth from the top. If that Evo is a hero, instead this triggers twice.
+
+**Temper**",
+  "keywords": [
+    "Temper",
+    "Transform",
+  ],
+  "name": "Evo Steel Soul Controller",
+  "pitch": 3,
+  "printings": [
+    {
+      "foiling": "Cold",
+      "identifier": "EVO028",
+      "image": "EVO028_V2",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Marvel",
+  ],
+  "rarity": "Marvel",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO028",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO028_V2",
+  "subtypes": [
+    "Arms",
+    "Base",
+    "Evo",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action Equipment - Evo Base Arms",
+  "types": [
+    "Action",
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Evo Steel Soul Memory (evo-steel-soul-memory-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -48162,7 +48221,7 @@ When this **transforms** from or into an Evo with a different name, your hero ge
   "sets": [
     "Bright Lights",
   ],
-  "specialImage": "EVO026",
+  "specialImage": "EVO026_V2",
   "subtypes": [
     "Base",
     "Evo",
@@ -48170,6 +48229,124 @@ When this **transforms** from or into an Evo with a different name, your hero ge
     "Non-Attack",
   ],
   "typeText": "Mechanologist Action Equipment - Evo Base Head",
+  "types": [
+    "Action",
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Evo Steel Soul Processor (evo-steel-soul-processor-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Wisnu Tan",
+  ],
+  "cardIdentifier": "evo-steel-soul-processor-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 4,
+  "defaultImage": "EVO027_V2",
+  "defense": 3,
+  "functionalText": "If you have a base chest equipped, **transform** it into this, then equip this.
+
+When this **transforms** from or into an Evo with a different name, gain {r}{r}{r}. If that Evo is a hero, instead this triggers twice.
+
+**Temper**",
+  "keywords": [
+    "Temper",
+    "Transform",
+  ],
+  "name": "Evo Steel Soul Processor",
+  "pitch": 3,
+  "printings": [
+    {
+      "foiling": "Cold",
+      "identifier": "EVO027",
+      "image": "EVO027_V2",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Marvel",
+  ],
+  "rarity": "Marvel",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO027",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO027_V2",
+  "subtypes": [
+    "Base",
+    "Chest",
+    "Evo",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action Equipment - Evo Base Chest",
+  "types": [
+    "Action",
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Evo Steel Soul Tower (evo-steel-soul-tower-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Kimberly Pantoni",
+  ],
+  "cardIdentifier": "evo-steel-soul-tower-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 4,
+  "defaultImage": "EVO029_V2",
+  "defense": 3,
+  "functionalText": "If you have a base legs equipped, **transform** it into this, then equip this.
+
+When this **transforms** from or into an Evo with a different name, gain 1 action point. If that Evo is a hero, instead this triggers twice.
+
+**Temper**",
+  "keywords": [
+    "Temper",
+    "Transform",
+  ],
+  "name": "Evo Steel Soul Tower",
+  "pitch": 3,
+  "printings": [
+    {
+      "foiling": "Cold",
+      "identifier": "EVO029",
+      "image": "EVO029_V2",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Marvel",
+  ],
+  "rarity": "Marvel",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO029",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO029_V2",
+  "subtypes": [
+    "Base",
+    "Evo",
+    "Legs",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action Equipment - Evo Base Legs",
   "types": [
     "Action",
     "Equipment",
@@ -126311,6 +126488,63 @@ Target weapon attack gains +1{p}.
   "typeText": "Warrior Attack Reaction",
   "types": [
     "Attack Reaction",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Singularity (singularity-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mariusz Gandzel",
+  ],
+  "cardIdentifier": "singularity-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 6,
+  "defaultImage": "EVO010_V2",
+  "defense": 3,
+  "functionalText": "**Legendary Teklovossen Specialization**
+
+**Transform** your hero, your weapon, and 4 Evos you have equiped into [REDACTED]",
+  "keywords": [
+    "Legendary",
+    "Specialization",
+    "Transform",
+  ],
+  "name": "Singularity",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "EVO010",
+      "image": "EVO010_V2",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Marvel",
+  ],
+  "rarity": "Marvel",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO010",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO010_V2",
+  "specializations": [
+    "Teklovossen",
+  ],
+  "subtypes": [
+    "Construct",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action - Construct",
+  "types": [
+    "Action",
   ],
 }
 `;

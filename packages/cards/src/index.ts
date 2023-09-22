@@ -745,7 +745,7 @@ Hyper Drivers you control get **Crank**.`,
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVO026"],
     sets: [Release.BrightLights],
-    specialImage: "EVO026",
+    specialImage: "EVO026_V2",
     subtypes: [Subtype.Base,Subtype.Evo,Subtype.Head,Subtype.NonAttack],
     types: [Type.Action,Type.Equipment],
     typeText: "Mechanologist Action Equipment - Evo Base Head",
@@ -965,6 +965,58 @@ When this **transforms** from or into an Evo with a different name, gain 1 actio
     
     
   },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "war-machine-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO060",
+    name: "War Machine",
+    printings: [{
+      
+      identifier: "EVO056",
+      image: "EVO060",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO056",
+      image: "EVO060_EA",
+      set: Release.BrightLights,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO056"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO060_EA",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 6,
+    defense: 3,
+    functionalText: `If you have 1 or more Evos equipped, this gets "When this hits a hero, destroy all cards in their arsenal," 
+
+- 2 or more, this costs {r}{r}{r} less to play,
+- 3 or more, this gets **overpower**,
+- 4 or more, this gets +3{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Overpower],
+    
+    
+    pitch: 1,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "demolition-protocol-red",
     classes: [Class.Mechanologist],
@@ -1100,6 +1152,49 @@ When this **transforms** from or into an Evo with a different name, gain 1 actio
     
     pitch: 3,
     power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "steel-street-enforcement-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO060",
+    name: "Steel Street Enforcement",
+    printings: [{
+      
+      identifier: "EVO060",
+      image: "EVO060",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO060"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO060",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Mechanologist Block",
+
+    
+    defense: 1,
+    functionalText: `**Evo Upgrade** - While this is defending, it gets +X{d} where X is the
+ number of Evos you have equipped.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 3,
+    
     
     
     
@@ -1655,6 +1750,94 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.`,
     
     
   },{
+    artists: ["Veto Zomer"],
+    cardIdentifier: "sprocket-rocket-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO192",
+    name: "Sprocket Rocket",
+    printings: [{
+      
+      identifier: "EVO192",
+      image: "EVO192",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO192"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO192",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Boost**
+ 
+If an item or equipment was banished from boosting this, this gets +1{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "dumpster-dive-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO195",
+    name: "Dumpster Dive",
+    printings: [{
+      
+      identifier: "EVO195",
+      image: "EVO195",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO195"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO195",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**
+ 
+If an item or equipment was banished from boosting this, this gets +1{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Eilene Cherie"],
     cardIdentifier: "out-pace-red",
     classes: [Class.Mechanologist],
@@ -2042,6 +2225,132 @@ This gets +X{p}, where X is the number of equipment defending it.`,
     
     pitch: 3,
     power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Riordan Delmiro"],
+    cardIdentifier: "teklonetic-force-field-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO231",
+    name: "Teklonetic Force Field",
+    printings: [{
+      
+      identifier: "EVO231",
+      image: "EVO231",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO231"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO231",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Mechanologist Block",
+
+    
+    defense: 3,
+    functionalText: `When this defends an attack with **overpower**, this gets +2{d}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Riordan Delmiro"],
+    cardIdentifier: "teklonetic-force-field-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO232",
+    name: "Teklonetic Force Field",
+    printings: [{
+      
+      identifier: "EVO232",
+      image: "EVO232",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO232"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO232",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Mechanologist Block",
+
+    
+    defense: 2,
+    functionalText: `When this defends an attack with **overpower**, this gets +2{d}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Riordan Delmiro"],
+    cardIdentifier: "teklonetic-force-field-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO233",
+    name: "Teklonetic Force Field",
+    printings: [{
+      
+      identifier: "EVO233",
+      image: "EVO233",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO233"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO233",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Mechanologist Block",
+
+    
+    defense: 1,
+    functionalText: `When this defends an attack with **overpower**, this gets +2{d}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
     
     
     
@@ -33967,7 +34276,8 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Shen Fei"],
     cardIdentifier: "crater-fist",
     classes: [Class.Guardian],
@@ -34259,8 +34569,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Asur Misoa"],
     cardIdentifier: "cromai",
     classes: [Class.Illusionist],
@@ -70247,7 +70556,8 @@ While Barthimont is face up in arsenal, whenever you play an attack action card,
     
     
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Richard Elrassi"],
     cardIdentifier: "last-ditch-effort-blue",
     classes: [Class.Generic],
@@ -70421,8 +70731,7 @@ While Barthimont is face up in arsenal, whenever you play an attack action card,
     
     talents: [Talent.Draconic],
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Maerel Hibadita"],
     cardIdentifier: "lava-vein-loyalty-yellow",
     classes: [Class.Ninja],
@@ -106106,7 +106415,8 @@ When this hits a hero, create an Inertia token under their control.`,
     
     
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Elena Bakulina"],
     cardIdentifier: "sedation-shot-red",
     classes: [Class.Ranger],
@@ -106168,8 +106478,7 @@ When this hits a hero, create an Inertia token under their control.`,
     
     
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Elena Bakulina"],
     cardIdentifier: "sedation-shot-yellow",
     classes: [Class.Ranger],

@@ -101,6 +101,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/war-machine-red</loc>
+    <lastmod>2023-09-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/demolition-protocol-red</loc>
     <lastmod>2023-09-08</lastmod>
     <priority>0.5</priority>
@@ -113,6 +118,11 @@
   <url>
     <loc>https://fabrary.net/cards/meganetic-protocol-blue</loc>
     <lastmod>2023-09-08</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/steel-street-enforcement-blue</loc>
+    <lastmod>2023-09-22</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -171,6 +181,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/sprocket-rocket-red</loc>
+    <lastmod>2023-09-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/dumpster-dive-red</loc>
+    <lastmod>2023-09-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/out-pace-red</loc>
     <lastmod>2023-09-22</lastmod>
     <priority>0.5</priority>
@@ -212,6 +232,21 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/fender-bender-blue</loc>
+    <lastmod>2023-09-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/teklonetic-force-field-red</loc>
+    <lastmod>2023-09-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/teklonetic-force-field-yellow</loc>
+    <lastmod>2023-09-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/teklonetic-force-field-blue</loc>
     <lastmod>2023-09-22</lastmod>
     <priority>0.5</priority>
   </url>
