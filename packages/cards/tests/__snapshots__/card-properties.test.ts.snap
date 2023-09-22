@@ -40612,6 +40612,52 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
 }
 `;
 
+exports[`Check for unintentional updates Dumpster Dive (dumpster-dive-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Shen Fei",
+  ],
+  "cardIdentifier": "dumpster-dive-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 1,
+  "defaultImage": "EVO195",
+  "defense": 3,
+  "functionalText": "**Boost**
+ 
+If an item or equipment was banished from boosting this, this gets +1{p}.",
+  "name": "Dumpster Dive",
+  "pitch": 1,
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "EVO195",
+      "image": "EVO195",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO195",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO195",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Dunebreaker Cenipai (dunebreaker-cenipai-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -135927,6 +135973,52 @@ exports[`Check for unintentional updates Springboard Somersault (springboard-som
 }
 `;
 
+exports[`Check for unintentional updates Sprocket Rocket (sprocket-rocket-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Veto Zomer",
+  ],
+  "cardIdentifier": "sprocket-rocket-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO192",
+  "defense": 3,
+  "functionalText": "**Boost**
+ 
+If an item or equipment was banished from boosting this, this gets +1{p}.",
+  "name": "Sprocket Rocket",
+  "pitch": 1,
+  "power": 3,
+  "printings": [
+    {
+      "identifier": "EVO192",
+      "image": "EVO192",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO192",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO192",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Stab Wound (stab-wound-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -136542,6 +136634,50 @@ exports[`Check for unintentional updates Steadfast (steadfast-yellow) vs snapsho
   "typeText": "Guardian Instant",
   "types": [
     "Instant",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Steel Street Enforcement (steel-street-enforcement-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tomasz Jedruszek",
+  ],
+  "cardIdentifier": "steel-street-enforcement-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "EVO060",
+  "defense": 1,
+  "functionalText": "**Evo Upgrade** - While this is defending, it gets +X{d} where X is the
+ number of Evos you have equipped.",
+  "keywords": [
+    "Evo Upgrade",
+  ],
+  "name": "Steel Street Enforcement",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "EVO060",
+      "image": "EVO060",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "setIdentifiers": [
+    "EVO060",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO060",
+  "subtypes": [],
+  "typeText": "Mechanologist Block",
+  "types": [
+    "Block",
   ],
 }
 `;
@@ -143895,6 +144031,126 @@ exports[`Check for unintentional updates Teklo Pounder (teklo-pounder-blue) vs s
   "typeText": "Mechanologist Action - Item",
   "types": [
     "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Teklonetic Force Field (teklonetic-force-field-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Riordan Delmiro",
+  ],
+  "cardIdentifier": "teklonetic-force-field-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "EVO233",
+  "defense": 1,
+  "functionalText": "When this defends an attack with **overpower**, this gets +2{d}.",
+  "name": "Teklonetic Force Field",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "EVO233",
+      "image": "EVO233",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO233",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO233",
+  "subtypes": [],
+  "typeText": "Mechanologist Block",
+  "types": [
+    "Block",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Teklonetic Force Field (teklonetic-force-field-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Riordan Delmiro",
+  ],
+  "cardIdentifier": "teklonetic-force-field-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "EVO231",
+  "defense": 3,
+  "functionalText": "When this defends an attack with **overpower**, this gets +2{d}.",
+  "name": "Teklonetic Force Field",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "EVO231",
+      "image": "EVO231",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO231",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO231",
+  "subtypes": [],
+  "typeText": "Mechanologist Block",
+  "types": [
+    "Block",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Teklonetic Force Field (teklonetic-force-field-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Riordan Delmiro",
+  ],
+  "cardIdentifier": "teklonetic-force-field-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "EVO232",
+  "defense": 2,
+  "functionalText": "When this defends an attack with **overpower**, this gets +2{d}.",
+  "name": "Teklonetic Force Field",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "EVO232",
+      "image": "EVO232",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO232",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO232",
+  "subtypes": [],
+  "typeText": "Mechanologist Block",
+  "types": [
+    "Block",
   ],
 }
 `;
@@ -155338,6 +155594,67 @@ exports[`Check for unintentional updates Waning Moon (waning-moon) vs snapshot 1
   "typeText": "Wizard Weapon - Staff (2H)",
   "types": [
     "Weapon",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates War Machine (war-machine-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Federico Musetti",
+  ],
+  "cardIdentifier": "war-machine-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 6,
+  "defaultImage": "EVO056",
+  "defense": 3,
+  "functionalText": "If you have 1 or more Evos equipped, this gets "When this hits a hero, destroy all cards in their arsenal," 
+
+- 2 or more, this costs {r}{r}{r} less to play,
+- 3 or more, this gets **overpower**,
+- 4 or more, this gets +3{p}.",
+  "keywords": [
+    "Overpower",
+  ],
+  "name": "War Machine",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "EVO056",
+      "image": "EVO056",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO056",
+      "image": "EVO056_EA",
+      "set": "Bright Lights",
+      "treatment": "Extended Art",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO056",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO056_EA",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
   ],
 }
 `;

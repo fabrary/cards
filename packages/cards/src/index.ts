@@ -968,18 +968,18 @@ When this **transforms** from or into an Evo with a different name, gain 1 actio
     artists: ["Federico Musetti"],
     cardIdentifier: "war-machine-red",
     classes: [Class.Mechanologist],
-    defaultImage: "EVO060",
+    defaultImage: "EVO056",
     name: "War Machine",
     printings: [{
       
       identifier: "EVO056",
-      image: "EVO060",
+      image: "EVO056",
       set: Release.BrightLights,
       
     },{
       foiling: Foiling.R,
       identifier: "EVO056",
-      image: "EVO060_EA",
+      image: "EVO056_EA",
       set: Release.BrightLights,
       treatment: Treatment.EA,
     },],
@@ -987,7 +987,7 @@ When this **transforms** from or into an Evo with a different name, gain 1 actio
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVO056"],
     sets: [Release.BrightLights],
-    specialImage: "EVO060_EA",
+    specialImage: "EVO056_EA",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Mechanologist Action - Attack",
