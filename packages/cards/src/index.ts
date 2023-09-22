@@ -1833,6 +1833,48 @@ Your Teklo Blaster attacks gets **go again**.
     
     
   },{
+    artists: ["Tanapon Wachirakul"],
+    cardIdentifier: "liquid-cooled-mayhem-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "TCC012",
+    name: "Liquid-Cooled Mayhem",
+    printings: [{
+      
+      identifier: "TCC012",
+      image: "TCC012",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC012"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC012",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 4,
+    defense: 3,
+    functionalText: `**Evo Upgrade** - This costs 1 {r} less to play for each Evo you have equipped.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 1,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Tomasz Jedruszek"],
     cardIdentifier: "mechanical-strength-red",
     classes: [Class.Mechanologist],
@@ -1866,6 +1908,778 @@ Your Teklo Blaster attacks gets **go again**.
     
     pitch: 1,
     power: 5,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mikhail Babkin"],
+    cardIdentifier: "over-loop-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "ARC020",
+    name: "Over Loop",
+    printings: [{
+      
+      identifier: "TCC014",
+      image: "TCC014",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "1HP205",
+      image: "1HP205.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "ARC020",
+      image: "ARC020",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "ARC020",
+      image: "ARC020-RF",
+      set: Release.ArcaneRising,
+      treatment: Treatment.AT,
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ARC020",
+      image: "ARC020_Over_Loop.width-10000",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "ARC020",
+      image: "ARC020_Over_Loop.width-10000",
+      set: Release.ArcaneRising,
+      
+    },{
+      
+      identifier: "LGS013",
+      image: "LGS013",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS032",
+      image: "LGS032",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP205","ARC020","LGS013","LGS032","TCC014"],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos,Release.RoundTheTable],
+    specialImage: "LGS013",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits, put it on the bottom of its owner's deck.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kevin Sidharta"],
+    cardIdentifier: "throttle-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "ARC023",
+    name: "Throttle",
+    printings: [{
+      
+      identifier: "TCC015",
+      image: "TCC015",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "1HP208",
+      image: "1HP208.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "ARC023",
+      image: "ARC023",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "ARC023",
+      image: "ARC023-RF",
+      set: Release.ArcaneRising,
+      treatment: Treatment.AT,
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ARC023",
+      image: "U-ARC023",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "ARC023",
+      image: "U-ARC023",
+      set: Release.ArcaneRising,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP208","ARC023","TCC015"],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.RoundTheTable],
+    specialImage: "ARC023-RF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Artur Treffner"],
+    cardIdentifier: "under-loop-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "TCC016",
+    name: "Under Loop",
+    printings: [{
+      
+      identifier: "TCC016",
+      image: "TCC016",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["TCC016"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC016",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits, put it on the bottom of its owner's deck.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Fedor Barkhatov"],
+    cardIdentifier: "zero-to-sixty-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "ARC026",
+    name: "Zero to Sixty",
+    printings: [{
+      
+      identifier: "TCC017",
+      image: "TCC017",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "1HP211",
+      image: "1HP211.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "ARC026",
+      image: "ARC026",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "ARC026",
+      image: "ARC026-RF",
+      set: Release.ArcaneRising,
+      treatment: Treatment.AT,
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ARC026",
+      image: "U-ARC026",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "ARC026",
+      image: "U-ARC026",
+      set: Release.ArcaneRising,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP211","ARC026","TCC017"],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.RoundTheTable],
+    specialImage: "ARC026-RF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sergey Gurskiy"],
+    cardIdentifier: "zipper-hit-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "ARC029",
+    name: "Zipper Hit",
+    printings: [{
+      
+      identifier: "TCC018",
+      image: "TCC018",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "1HP214",
+      image: "1HP214.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "ARC029",
+      image: "ARC029",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "ARC029",
+      image: "ARC029-RF",
+      set: Release.ArcaneRising,
+      treatment: Treatment.AT,
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ARC029",
+      image: "U-ARC029",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "ARC029",
+      image: "U-ARC029",
+      set: Release.ArcaneRising,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP214","ARC029","TCC018"],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.RoundTheTable],
+    specialImage: "ARC029-RF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Ricordan Delmiro"],
+    cardIdentifier: "firewall-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "TCC019",
+    name: "Firewall",
+    printings: [{
+      
+      identifier: "TCC019",
+      image: "TCC019",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC019"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC019",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Mechanologist Block",
+
+    
+    defense: 4,
+    functionalText: `When this defends, reveal the top card of your deck. If it's an Evo, put it on top of your deck. Otherwise, put it on the bottom.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kevin Sidharta"],
+    cardIdentifier: "throttle-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "ARC024",
+    name: "Throttle",
+    printings: [{
+      
+      identifier: "TCC020",
+      image: "TCC020",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "1HP209",
+      image: "1HP209.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "ARC024",
+      image: "ARC024",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "ARC024",
+      image: "ARC024-RF",
+      set: Release.ArcaneRising,
+      treatment: Treatment.AT,
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ARC024",
+      image: "U-ARC024",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "ARC024",
+      image: "U-ARC024",
+      set: Release.ArcaneRising,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP209","ARC024","TCC020"],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.RoundTheTable],
+    specialImage: "ARC024-RF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sergey Gurskiy"],
+    cardIdentifier: "zipper-hit-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "ARC030",
+    name: "Zipper Hit",
+    printings: [{
+      
+      identifier: "TCC021",
+      image: "TCC021",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "1HP215",
+      image: "1HP215.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "ARC030",
+      image: "ARC030",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "ARC030",
+      image: "ARC030-RF",
+      set: Release.ArcaneRising,
+      treatment: Treatment.AT,
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ARC030",
+      image: "U-ARC030",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "ARC030",
+      image: "U-ARC030",
+      set: Release.ArcaneRising,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP215","ARC030","TCC021"],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.RoundTheTable],
+    specialImage: "ARC030-RF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Ricordan Delmiro"],
+    cardIdentifier: "firewall-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "TCC022",
+    name: "Firewall",
+    printings: [{
+      
+      identifier: "TCC022",
+      image: "TCC022",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC022"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC022",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Mechanologist Block",
+
+    
+    defense: 3,
+    functionalText: `When this defends, reveal the top card of your deck. If it's an Evo, put it on top of your deck. Otherwise, put it on the bottom.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tanapon Wachirakul"],
+    cardIdentifier: "liquid-cooled-mayhem-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "TCC023",
+    name: "Liquid-Cooled Mayhem",
+    printings: [{
+      
+      identifier: "TCC023",
+      image: "TCC023",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC023"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC023",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 4,
+    defense: 3,
+    functionalText: `**Evo Upgrade** - This costs 1 {r} less to play for each Evo you have equipped.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 3,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "mechanical-strength-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "TCC024",
+    name: "Mechanical Strength",
+    printings: [{
+      
+      identifier: "TCC024",
+      image: "TCC024",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC024"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC024",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Evo Upgrade** - This gets +X{p}, where X is the number of Evos you have equipped.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 3,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kevin Sidharta"],
+    cardIdentifier: "throttle-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "ARC025",
+    name: "Throttle",
+    printings: [{
+      
+      identifier: "TCC025",
+      image: "TCC025",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "1HP210",
+      image: "1HP210.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "ARC025",
+      image: "ARC025",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "ARC025",
+      image: "ARC025-RF",
+      set: Release.ArcaneRising,
+      treatment: Treatment.AT,
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ARC025",
+      image: "U-ARC025",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "ARC025",
+      image: "U-ARC025",
+      set: Release.ArcaneRising,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP210","ARC025","TCC025"],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.RoundTheTable],
+    specialImage: "ARC025-RF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 3,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Ricordan Delmiro"],
+    cardIdentifier: "firewall-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "TCC026",
+    name: "Firewall",
+    printings: [{
+      
+      identifier: "TCC026",
+      image: "TCC026",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC026"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC026",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Mechanologist Block",
+
+    
+    defense: 2,
+    functionalText: `When this defends, reveal the top card of your deck. If it's an Evo, put it on top of your deck. Otherwise, put it on the bottom.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
     restrictedFormats: [Format.Commoner],
     
     
@@ -2183,6 +2997,48 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
   },{
+    artists: ["Vito Vivodka"],
+    cardIdentifier: "colossal-bearing-red",
+    classes: [Class.Guardian],
+    defaultImage: "TCC034",
+    name: "Colossal Bearing",
+    printings: [{
+      
+      identifier: "TCC034",
+      image: "TCC034",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC034"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC034",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Guardian Action - Attack",
+
+    cost: 4,
+    defense: 3,
+    functionalText: `**Tower** - If this has 13 or more {p}, it gets "When this hits a hero, destroy an equipment they control with 1 or less {d}."`,
+    
+    
+    
+    
+    keywords: [Keyword.Tower],
+    
+    
+    pitch: 1,
+    power: 8,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Marco Wulfr"],
     cardIdentifier: "lay-down-the-law-red",
     classes: [Class.Guardian],
@@ -2215,6 +3071,660 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
     pitch: 1,
+    power: 7,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Alief Rudiatama"],
+    cardIdentifier: "smack-of-reality-red",
+    classes: [Class.Guardian],
+    defaultImage: "TCC036",
+    name: "Smack of Reality",
+    printings: [{
+      
+      identifier: "TCC036",
+      image: "TCC036",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC036"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC036",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Guardian Action - Attack",
+
+    cost: 5,
+    defense: 3,
+    functionalText: `**Tower** - If this has 13 or more {p}, it gets "When this hits a hero, destroy all aura tokens they control."`,
+    
+    
+    
+    
+    keywords: [Keyword.Tower],
+    
+    
+    pitch: 1,
+    power: 9,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Edward Chee"],
+    cardIdentifier: "crash-down-red",
+    classes: [Class.Guardian],
+    defaultImage: "TCC037",
+    name: "Crash Down",
+    printings: [{
+      
+      identifier: "TCC037",
+      image: "TCC037",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["TCC037"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC037",
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Guardian Action - Aura",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `At the start of your turn, destroy this, then the next Guardian attack action card you play this turn gets +6{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Phu Thieu"],
+    cardIdentifier: "earthlore-empowerment-red",
+    classes: [Class.Guardian],
+    defaultImage: "TCC038",
+    name: "Earthlore Empowerment",
+    printings: [{
+      
+      identifier: "TCC038",
+      image: "TCC038",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["TCC038"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC038",
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Guardian Action - Aura",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `At the start of your turn, destroy this, then the next Guardian attack action card you play this turn costs {r} less to play and gets +5{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Raphael Pinna"],
+    cardIdentifier: "boulder-drop-yellow",
+    classes: [Class.Guardian],
+    defaultImage: "TCC039",
+    name: "Boulder Drop",
+    printings: [{
+      
+      identifier: "TCC039",
+      image: "TCC039",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC039"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC039",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Guardian Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Crush** - When this deals 4 or more damage to a hero, they put a card from their hand on top of their deck.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crush],
+    
+    
+    pitch: 2,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Emilis Emka"],
+    cardIdentifier: "chokeslam-yellow",
+    classes: [Class.Guardian],
+    defaultImage: "CRU036",
+    name: "Chokeslam",
+    printings: [{
+      
+      identifier: "TCC040",
+      image: "TCC040",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "1HP071",
+      image: "1HP071.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "CRU036",
+      image: "CRU036",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "CRU036",
+      image: "CRU036",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "CRU036",
+      image: "U-CRU036",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "CRU036",
+      image: "U-CRU036",
+      set: Release.CrucibleOfWar,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP071","CRU036","TCC040"],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.RoundTheTable],
+    specialImage: "CRU036",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Guardian Action - Attack",
+
+    cost: 4,
+    defense: 3,
+    functionalText: `**Crush** - If this deals 4 or more damage to a hero, attack action cards they control can't gain {p} during their next action phase.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crush],
+    
+    
+    pitch: 2,
+    power: 7,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Nathaniel Himawan"],
+    cardIdentifier: "disable-yellow",
+    classes: [Class.Guardian],
+    defaultImage: "WTR049",
+    name: "Disable",
+    printings: [{
+      
+      identifier: "TCC041",
+      image: "TCC041",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "1HP056",
+      image: "1HP056.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR049",
+      image: "WTR049",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
+      identifier: "WTR049",
+      image: "WTR049",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR049",
+      image: "U-WTR049",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "WTR049",
+      image: "U-WTR049",
+      set: Release.WelcomeToRathe,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["1HP056","TCC041","WTR049"],
+    sets: [Release.HistoryPack1,Release.RoundTheTable,Release.WelcomeToRathe],
+    specialImage: "WTR049",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Guardian Action - Attack",
+
+    cost: 5,
+    defense: 3,
+    functionalText: `**Crush** - If this deals 4 or more damage to a hero, put a card from their arsenal on the bottom of its owner deck.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crush],
+    
+    
+    pitch: 2,
+    power: 8,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Edward Chee"],
+    cardIdentifier: "crash-down-yellow",
+    classes: [Class.Guardian],
+    defaultImage: "TCC042",
+    name: "Crash Down",
+    printings: [{
+      
+      identifier: "TCC042",
+      image: "TCC042",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["TCC042"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC042",
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Guardian Action - Aura",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `At the start of your turn, destroy this, then the next Guardian attack action card you play this turn gets +5{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Phu Thieu"],
+    cardIdentifier: "earthlore-empowerment-yellow",
+    classes: [Class.Guardian],
+    defaultImage: "TCC043",
+    name: "Earthlore Empowerment",
+    printings: [{
+      
+      identifier: "TCC043",
+      image: "TCC043",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["TCC043"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC043",
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Guardian Action - Aura",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `At the start of your turn, destroy this, then the next Guardian attack action card you play this turn costs {r} less to play and gets +4{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Raphael Pinna"],
+    cardIdentifier: "boulder-drop-blue",
+    classes: [Class.Guardian],
+    defaultImage: "TCC044",
+    name: "Boulder Drop",
+    printings: [{
+      
+      identifier: "TCC044",
+      image: "TCC044",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC044"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC044",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Guardian Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Crush** - When this deals 4 or more damage to a hero, they put a card from their hand on top of their deck.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crush],
+    
+    
+    pitch: 3,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Emilis Emka"],
+    cardIdentifier: "chokeslam-blue",
+    classes: [Class.Guardian],
+    defaultImage: "CRU037",
+    name: "Chokeslam",
+    printings: [{
+      
+      identifier: "TCC045",
+      image: "TCC045",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "1HP072",
+      image: "1HP072.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "CRU037",
+      image: "CRU037",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "CRU037",
+      image: "CRU037",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "CRU037",
+      image: "U-CRU037",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "CRU037",
+      image: "U-CRU037",
+      set: Release.CrucibleOfWar,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP072","CRU037","TCC045"],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.RoundTheTable],
+    specialImage: "CRU037",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Guardian Action - Attack",
+
+    cost: 4,
+    defense: 3,
+    functionalText: `**Crush** - If this deals 4 or more damage to a hero, attack action cards they control can't gain {p} during their next action phase.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crush],
+    
+    
+    pitch: 3,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Ksenia Belova"],
+    cardIdentifier: "cranial-crush-blue",
+    classes: [Class.Guardian],
+    defaultImage: "WTR045",
+    name: "Cranial Crush",
+    printings: [{
+      
+      identifier: "TCC046",
+      image: "TCC046",
+      set: Release.RoundTheTable,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR045",
+      image: "WTR045",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
+      identifier: "WTR045",
+      image: "WTR045",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR045",
+      image: "U-WTR045",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "WTR045",
+      image: "U-WTR045",
+      set: Release.WelcomeToRathe,
+      
+    },],
+    rarities: [Rarity.Majestic,Rarity.SuperRare],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["TCC046","WTR045"],
+    sets: [Release.RoundTheTable,Release.WelcomeToRathe],
+    specialImage: "WTR045",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Guardian Action - Attack",
+
+    cost: 6,
+    defense: 3,
+    functionalText: `**Crush** - If this  deals 4 or more damage to a hero, they can't draw cards during their next action phase`,
+    
+    
+    
+    
+    keywords: [Keyword.Crush],
+    
+    
+    pitch: 3,
+    power: 8,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Nathaniel Himawan"],
+    cardIdentifier: "disable-blue",
+    classes: [Class.Guardian],
+    defaultImage: "WTR050",
+    name: "Disable",
+    printings: [{
+      
+      identifier: "TCC047",
+      image: "TCC047",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "1HP057",
+      image: "1HP057.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "BVO019",
+      image: "BVO19.width-450",
+      set: Release.BravoBlitzDeck,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR050",
+      image: "WTR050",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
+      identifier: "WTR050",
+      image: "WTR050",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR050",
+      image: "U-WTR050",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "WTR050",
+      image: "U-WTR050",
+      set: Release.WelcomeToRathe,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["1HP057","BVO019","TCC047","WTR050"],
+    sets: [Release.BravoBlitzDeck,Release.HistoryPack1,Release.RoundTheTable,Release.WelcomeToRathe],
+    specialImage: "WTR050",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Guardian Action - Attack",
+
+    cost: 5,
+    defense: 3,
+    functionalText: `**Crush** - If this deals 4 or more damage to a hero, put a card from their arsenal on the bottom of its owner deck.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crush],
+    
+    
+    pitch: 3,
     power: 7,
     restrictedFormats: [Format.Commoner],
     
@@ -2353,6 +3863,314 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
   },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "nom-de-plume",
+    classes: [Class.Bard],
+    defaultImage: "TCC051",
+    name: "Nom de Plume",
+    printings: [{
+      
+      identifier: "TCC051",
+      image: "TCC051",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC051"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC051",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Bard Equipment - Head",
+
+    
+    
+    functionalText: `**Action** - Destroy this: Each hero draws a card.  **Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "heart-throb",
+    classes: [Class.Bard],
+    defaultImage: "TCC052",
+    name: "Heart-throb",
+    printings: [{
+      
+      identifier: "TCC052",
+      image: "TCC052",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC052"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC052",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Bard Equipment - Chest",
+
+    
+    
+    functionalText: `**Action** - Destroy this: Each hero creates a Vigor token.  **Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "fiddle-dee",
+    classes: [Class.Bard],
+    defaultImage: "TCC053",
+    name: "Fiddle-dee",
+    printings: [{
+      
+      identifier: "TCC053",
+      image: "TCC053",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC053"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC053",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Bard Equipment - Arms",
+
+    
+    
+    functionalText: `**Action** - Destroy this: Each hero creates a Might token.  **Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "quickstep",
+    classes: [Class.Bard],
+    defaultImage: "TCC054",
+    name: "Quickstep",
+    printings: [{
+      
+      identifier: "TCC054",
+      image: "TCC054",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC054"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC054",
+    subtypes: [Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Bard Equipment - Legs",
+
+    
+    
+    functionalText: `**Action** - Destroy this: Each hero creates a Quicken token.  **Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Jessada Sutthi"],
+    cardIdentifier: "coax-a-commotion-red",
+    classes: [Class.Generic],
+    defaultImage: "CRU180",
+    name: "Coax a Commotion",
+    printings: [{
+      
+      identifier: "TCC055",
+      image: "TCC055",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "1HP359",
+      image: "1HP359.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "CRU180",
+      image: "CRU180",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "CRU180",
+      image: "CRU180",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "CRU180",
+      image: "U-CRU180",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "CRU180",
+      image: "U-CRU180",
+      set: Release.CrucibleOfWar,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["1HP359","CRU180","TCC055"],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.RoundTheTable],
+    specialImage: "CRU180",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `When this hits, choose any number:
+
+- Each hero creates a Quicken token.
+- Each hero draws a card.
+- Each hero gains 1{h}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sam Yang"],
+    cardIdentifier: "life-of-the-party-red",
+    classes: [Class.Generic],
+    defaultImage: "EVR161.width-450",
+    name: "Life of the Party",
+    printings: [{
+      
+      identifier: "TCC056",
+      image: "TCC056",
+      set: Release.RoundTheTable,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "EVR161",
+      image: "EVR161.width-450",
+      set: Release.Everfest,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "EVR161",
+      image: "EVR161.width-450",
+      set: Release.Everfest,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS084",
+      image: "LGS084",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVR161","LGS084","TCC056"],
+    sets: [Release.Everfest,Release.Promos,Release.RoundTheTable],
+    specialImage: "LGS084",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `You may discard or destroy a card you control named Crazy Brew rather than pay Life of the Party's {r} cost. If you do, choose all modes, otherwise choose 1 at random;
+
+- Life of the Party gains "When this hits, gain life 2{h}."
+- Life of the Party gains +2{p}.
+- Life of the Party gains **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Rio Sabda"],
     cardIdentifier: "final-act-red",
     classes: [Class.Bard],
@@ -2437,6 +4255,132 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
   },{
+    artists: ["Adolfo Navarro","Asur Misoa"],
+    cardIdentifier: "sigil-of-solace-red",
+    classes: [Class.Generic],
+    defaultImage: "WTR173",
+    name: "Sigil of Solace",
+    printings: [{
+      
+      identifier: "TCC059",
+      image: "TCC059",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "1HP387",
+      image: "1HP387.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "DRO026",
+      image: "DRO026.width-450",
+      set: Release.DromaiBlitzDeck,
+      
+    },{
+      
+      identifier: "FAB136",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR173",
+      image: "WTR173",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
+      identifier: "WTR173",
+      image: "WTR173",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR173",
+      image: "U-WTR173",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "WTR173",
+      image: "U-WTR173",
+      set: Release.WelcomeToRathe,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["1HP387","DRO026","FAB136","TCC059","WTR173"],
+    sets: [Release.DromaiBlitzDeck,Release.HistoryPack1,Release.Promos,Release.RoundTheTable,Release.WelcomeToRathe],
+    specialImage: "WTR173",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Generic Instant",
+
+    cost: 0,
+    
+    functionalText: `Gain 3{h}`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sebastian Szmyd"],
+    cardIdentifier: "crowd-control-red",
+    classes: [Class.Bard],
+    defaultImage: "TCC060",
+    name: "Crowd Control",
+    printings: [{
+      
+      identifier: "TCC060",
+      image: "TCC060",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["TCC060"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC060",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Bard Block",
+
+    
+    defense: 4,
+    functionalText: `When this defends, you may pay {r}{r}{r}. If you do, it gets +1{d} for each opposing hero.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Sebastian Giacobino"],
     cardIdentifier: "encore-yellow",
     classes: [Class.Bard],
@@ -2473,6 +4417,90 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Veto Zomer"],
+    cardIdentifier: "interlude-yellow",
+    classes: [Class.Bard],
+    defaultImage: "TCC062",
+    name: "Interlude",
+    printings: [{
+      
+      identifier: "TCC062",
+      image: "TCC062",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["TCC062"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC062",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Bard Instant",
+
+    cost: 0,
+    
+    functionalText: `Choose a hero. The next time they would be dealt damage this turn, prevent 2 of that damage. If you prevent damage to another hero this way, create a Copper token.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sebastian Szmyd"],
+    cardIdentifier: "crowd-control-yellow",
+    classes: [Class.Bard],
+    defaultImage: "TCC063",
+    name: "Crowd Control",
+    printings: [{
+      
+      identifier: "TCC063",
+      image: "TCC063",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["TCC063"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC063",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Bard Block",
+
+    
+    defense: 3,
+    functionalText: `When this defends, you may pay {r}{r}{r}. If you do, it gets +1{d} for each opposing hero.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    
     
     
     
@@ -2733,6 +4761,646 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
   },{
+    artists: ["Daniel Jiménez"],
+    cardIdentifier: "crazy-brew-blue",
+    classes: [Class.Generic],
+    defaultImage: "WTR162",
+    name: "Crazy Brew",
+    printings: [{
+      
+      identifier: "TCC070",
+      image: "TCC070",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "1HP363",
+      image: "1HP363.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "FAB016",
+      image: "FAB016",
+      set: Release.Promos,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR162",
+      image: "WTR162",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
+      identifier: "WTR162",
+      image: "WTR162",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR162",
+      image: "U-WTR162",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "WTR162",
+      image: "U-WTR162",
+      set: Release.WelcomeToRathe,
+      
+    },],
+    rarities: [Rarity.Majestic,Rarity.Promo,Rarity.SuperRare],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["1HP363","FAB016","TCC070","WTR162"],
+    sets: [Release.HistoryPack1,Release.Promos,Release.RoundTheTable,Release.WelcomeToRathe],
+    specialImage: "WTR162",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Action** - Destroy this: Roll a 6 sided die. On;
+
+- 1 or 2 - Lose 2{h}. **Go again**
+- 3 or 4 - Gain 2{h}. **Go again**
+- 5 or 6 - Gain {r}{r}, gain 2 action points, and your next attack this turn gets +2{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Daniel Jiménez"],
+    cardIdentifier: "energy-potion-blue",
+    classes: [Class.Generic],
+    defaultImage: "WTR170",
+    name: "Energy Potion",
+    printings: [{
+      
+      identifier: "TCC071",
+      image: "TCC071",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "1HP381",
+      image: "1HP381.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "FAB012",
+      image: "FAB012",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "KSU029",
+      image: "KSU29.width-450",
+      set: Release.KatsuHeroDeck,
+      
+    },{
+      
+      identifier: "TEA028",
+      image: "TEA28.width-450",
+      set: Release.DorintheaHeroDeck,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR170",
+      image: "WTR170",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
+      identifier: "WTR170",
+      image: "WTR170",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR170",
+      image: "U-WTR170",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "WTR170",
+      image: "U-WTR170",
+      set: Release.WelcomeToRathe,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["1HP381","FAB012","KSU029","TCC071","TEA028","WTR170"],
+    sets: [Release.DorintheaHeroDeck,Release.HistoryPack1,Release.KatsuHeroDeck,Release.Promos,Release.RoundTheTable,Release.WelcomeToRathe],
+    specialImage: "WTR170",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Instant** - Destroy this: Gain {r}{r}`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Simon Wong"],
+    cardIdentifier: "healing-potion-blue",
+    classes: [Class.Generic],
+    defaultImage: "EVR183.width-450",
+    name: "Healing Potion",
+    printings: [{
+      
+      identifier: "TCC072",
+      image: "TCC072",
+      set: Release.RoundTheTable,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "EVR183",
+      image: "EVR183.width-450",
+      set: Release.Everfest,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.C,
+      identifier: "EVR183",
+      image: "EVR183.width-450",
+      set: Release.Everfest,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVR183","TCC072"],
+    sets: [Release.Everfest,Release.RoundTheTable],
+    specialImage: "EVR183.width-450",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Action** - Destroy this: Gain 2{h}. **Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Panji Bagus P"],
+    cardIdentifier: "potion-of-strength-blue",
+    classes: [Class.Generic],
+    defaultImage: "WTR171",
+    name: "Potion of Strength",
+    printings: [{
+      
+      identifier: "TCC073",
+      image: "TCC073",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "1HP382",
+      image: "1HP382.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "BVO028",
+      image: "BVO28.width-450",
+      set: Release.BravoBlitzDeck,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "FAB013",
+      image: "FAB013",
+      set: Release.Promos,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR171",
+      image: "WTR171",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
+      identifier: "WTR171",
+      image: "WTR171",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR171",
+      image: "U-WTR171",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "WTR171",
+      image: "U-WTR171",
+      set: Release.WelcomeToRathe,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["1HP382","BVO028","FAB013","TCC073","WTR171"],
+    sets: [Release.BravoBlitzDeck,Release.HistoryPack1,Release.Promos,Release.RoundTheTable,Release.WelcomeToRathe],
+    specialImage: "WTR171",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Action** - Destroy this: Your next attack this turn gets +2{p}. **Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Daniel Jiménez"],
+    cardIdentifier: "timesnap-potion-blue",
+    classes: [Class.Generic],
+    defaultImage: "WTR172",
+    name: "Timesnap Potion",
+    printings: [{
+      
+      identifier: "TCC074",
+      image: "TCC074",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "1HP383",
+      image: "1HP383.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "FAB014",
+      image: "FAB014",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "RNR029",
+      image: "RNR29.width-450",
+      set: Release.RhinarHeroDeck,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR172",
+      image: "WTR172",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
+      identifier: "WTR172",
+      image: "WTR172",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR172",
+      image: "U-WTR172",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "WTR172",
+      image: "U-WTR172",
+      set: Release.WelcomeToRathe,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["1HP383","FAB014","RNR029","TCC074","WTR172"],
+    sets: [Release.HistoryPack1,Release.Promos,Release.RhinarHeroDeck,Release.RoundTheTable,Release.WelcomeToRathe],
+    specialImage: "WTR172",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Action** - Destroy this: Gain 2 action points.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Veto Zomer"],
+    cardIdentifier: "interlude-blue",
+    classes: [Class.Bard],
+    defaultImage: "TCC075",
+    name: "Interlude",
+    printings: [{
+      
+      identifier: "TCC075",
+      image: "TCC075",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["TCC075"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC075",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Bard Instant",
+
+    cost: 0,
+    
+    functionalText: `Choose a hero. The next time they would be dealt damage this turn, prevent 1 of that damage. If you prevent damage to another hero this way, create a Copper token.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sebastian Szmyd"],
+    cardIdentifier: "crowd-control-blue",
+    classes: [Class.Bard],
+    defaultImage: "TCC076",
+    name: "Crowd Control",
+    printings: [{
+      
+      identifier: "TCC076",
+      image: "TCC076",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["TCC076"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC076",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Bard Block",
+
+    
+    defense: 2,
+    functionalText: `When this defends, you may pay {r}{r}{r}. If you do, it gets +1{d} for each opposing hero.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Le Vuong"],
+    cardIdentifier: "ira-crimson-haze",
+    classes: [Class.Ninja],
+    defaultImage: "CRU046",
+    name: "Ira, Crimson Haze",
+    printings: [{
+      
+      identifier: "TCC077",
+      image: "TCC077",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "1HP089",
+      image: "1HP089.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "CRU046",
+      image: "CRU046",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "CRU046",
+      image: "CRU046",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "CRU046",
+      image: "U-CRU046",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "CRU046",
+      image: "U-CRU046",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "HER000",
+      image: "HER000",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "IRA001",
+      image: "IRA001-P_EUmBrk0.width-450",
+      set: Release.IraWelcomeDeck,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP089","CRU046","HER000","IRA001","TCC077"],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.IraWelcomeDeck,Release.Promos,Release.RoundTheTable],
+    specialImage: "CRU046",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Ninja Hero - Young",
+
+    
+    
+    functionalText: `Your second attack each turn gets +1{p}.`,
+    
+    hero: Hero.Ira,
+    intellect: 4,
+    
+    
+    life: 20,
+    
+    
+    
+    restrictedFormats: [Format.ClassicConstructed],
+    
+    
+    
+    
+    
+    
+    young: true
+  },{
+    artists: ["Fajareka Setiawan"],
+    cardIdentifier: "edge-of-autumn",
+    classes: [Class.Ninja],
+    defaultImage: "CRU050",
+    name: "Edge of Autumn",
+    printings: [{
+      
+      identifier: "TCC078",
+      image: "TCC078",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "1HP090",
+      image: "1HP090.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "CRU050",
+      image: "CRU050",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.C,
+      identifier: "CRU050",
+      image: "CRU050",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "CRU050",
+      image: "U-CRU050",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "CRU050",
+      image: "U-CRU050",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      
+      identifier: "IRA002",
+      image: "IRA002-P_03Jc6pa.width-450",
+      set: Release.IraWelcomeDeck,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["1HP090","CRU050","IRA002","TCC078"],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.IraWelcomeDeck,Release.RoundTheTable],
+    specialImage: "CRU050",
+    subtypes: [Subtype.TwoHanded,Subtype.Sword],
+    types: [Type.Weapon],
+    typeText: "Ninja Weapon - Sword (2H)",
+
+    
+    
+    functionalText: `**Once per Turn Action** - {r}: **Attack**. **Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Kimberly Pantoni"],
     cardIdentifier: "mask-of-three-tails",
     classes: [Class.Ninja],
@@ -2762,6 +5430,112 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kimberly Pantoni"],
+    cardIdentifier: "blood-scent",
+    classes: [Class.Ninja],
+    defaultImage: "TCC080",
+    name: "Blood Scent",
+    printings: [{
+      
+      identifier: "TCC080",
+      image: "TCC080",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC080"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC080",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Ninja Equipment - Chest",
+
+    
+    defense: 1,
+    functionalText: `**Instant** - Destroy this: Gain {r}. Activate this only if you've attacked with a Crouching Tiget this turn.
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Enmoire"],
+    cardIdentifier: "tearing-shuko",
+    classes: [Class.Ninja],
+    defaultImage: "DYN046",
+    name: "Tearing Shuko",
+    printings: [{
+      
+      identifier: "TCC081",
+      image: "TCC081",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "DYN046",
+      image: "DYN046",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "DYN046",
+      image: "DYN046",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN046",
+      image: "DYN046",
+      set: Release.Dynasty,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DYN046","TCC081"],
+    sets: [Release.Dynasty,Release.RoundTheTable],
+    specialImage: "TCC081",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Ninja Equipment - Arms",
+
+    
+    defense: 1,
+    functionalText: `**Instant** - Destroy this: The next Crouching Tiger you play this turn gets +2{p}.
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn],
     
     
     
@@ -2863,6 +5637,134 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
   },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "flex-claws-red",
+    classes: [Class.Ninja],
+    defaultImage: "DYN050",
+    name: "Flex Claws",
+    printings: [{
+      
+      identifier: "TCC084",
+      image: "TCC084",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "DYN050",
+      image: "DYN050",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN050",
+      image: "DYN050",
+      set: Release.Dynasty,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DYN050","TCC084"],
+    sets: [Release.Dynasty,Release.RoundTheTable],
+    specialImage: "TCC084",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `When this hits, create a Crouching Tiger in your banished zone. You may play it this turn.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kevin Sidharta"],
+    cardIdentifier: "flying-kick-red",
+    classes: [Class.Ninja],
+    defaultImage: "CRU063",
+    name: "Flying Kick",
+    printings: [{
+      
+      identifier: "TCC085",
+      image: "TCC085",
+      set: Release.RoundTheTable,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "CRU063",
+      image: "CRU063",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "CRU063",
+      image: "CRU063",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "CRU063",
+      image: "U-CRU063",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "CRU063",
+      image: "U-CRU063",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      
+      identifier: "IRA007",
+      image: "IRA007-P_9qjDnLM.width-450",
+      set: Release.IraWelcomeDeck,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["CRU063","IRA007","TCC085"],
+    sets: [Release.CrucibleOfWar,Release.IraWelcomeDeck,Release.RoundTheTable],
+    specialImage: "CRU063",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `If Flying Kick is played as chain link 3 or higher, it gets +2{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Vito Vivodka"],
     cardIdentifier: "growl-red",
     classes: [Class.Ninja],
@@ -2899,6 +5801,84 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     pitch: 1,
     power: 3,
     restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Le Vuong"],
+    cardIdentifier: "leg-tap-red",
+    classes: [Class.Ninja],
+    defaultImage: "WTR101",
+    name: "Leg Tap",
+    printings: [{
+      
+      identifier: "TCC087",
+      image: "TCC087",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "1HP116",
+      image: "1HP116.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "KSU012",
+      image: "KSU12.width-450",
+      set: Release.KatsuHeroDeck,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR101",
+      image: "WTR101",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
+      identifier: "WTR101",
+      image: "WTR101",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR101",
+      image: "U-WTR101",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "WTR101",
+      image: "U-WTR101",
+      set: Release.WelcomeToRathe,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP116","KSU012","TCC087","WTR101"],
+    sets: [Release.HistoryPack1,Release.KatsuHeroDeck,Release.RoundTheTable,Release.WelcomeToRathe],
+    specialImage: "WTR101",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 4,
+    
     
     
     
@@ -2949,6 +5929,982 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
   },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "pouncing-qi-red",
+    classes: [Class.Ninja],
+    defaultImage: "DYN056",
+    name: "Pouncing Qi",
+    printings: [{
+      
+      identifier: "TCC089",
+      image: "TCC089",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "DYN056",
+      image: "DYN056",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN056",
+      image: "DYN056",
+      set: Release.Dynasty,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DYN056","TCC089"],
+    sets: [Release.Dynasty,Release.RoundTheTable],
+    specialImage: "TCC089",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Combo** - If Crouching Tiger was the last attack this combat chain, this gets +1{p} and **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo,Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "qi-unbound-red",
+    classes: [Class.Ninja],
+    defaultImage: "TCC090",
+    name: "Qi Unbound",
+    printings: [{
+      
+      identifier: "TCC090",
+      image: "TCC090",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["TCC090"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC090",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Combo** - If Crouching Tiger was the last attack this combat chain, this gets +4 {p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo],
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "blessing-of-qi-red",
+    classes: [Class.Ninja],
+    defaultImage: "DYN053",
+    name: "Blessing of Qi",
+    printings: [{
+      
+      identifier: "TCC091",
+      image: "TCC091",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "DYN053",
+      image: "DYN053",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN053",
+      image: "DYN053",
+      set: Release.Dynasty,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DYN053","TCC091"],
+    sets: [Release.Dynasty,Release.RoundTheTable],
+    specialImage: "TCC091",
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Aura",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `At the start of your turn, destroy this then create a Crouching Tiger in your banished zone. It gets +3{p} and you may play it this turn.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Maerel Hibadita"],
+    cardIdentifier: "bittering-thorns-yellow",
+    classes: [Class.Ninja],
+    defaultImage: "CRU072",
+    name: "Bittering Thorns",
+    printings: [{
+      
+      identifier: "TCC092",
+      image: "TCC092",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "1HP134",
+      image: "1HP134.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "CRU072",
+      image: "CRU072",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "CRU072",
+      image: "CRU072",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "CRU072",
+      image: "U-CRU072",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "CRU072",
+      image: "U-CRU072",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      
+      identifier: "IRA005",
+      image: "IRA005-P_YAgf1In.width-450",
+      set: Release.IraWelcomeDeck,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP134","CRU072","IRA005","TCC092"],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.IraWelcomeDeck,Release.RoundTheTable],
+    specialImage: "CRU072",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `When this hits, your next attack this turn gets +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "flex-claws-yellow",
+    classes: [Class.Ninja],
+    defaultImage: "DYN051",
+    name: "Flex Claws",
+    printings: [{
+      
+      identifier: "TCC093",
+      image: "TCC093",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "DYN051",
+      image: "DYN051",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN051",
+      image: "DYN051",
+      set: Release.Dynasty,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DYN051","TCC093"],
+    sets: [Release.Dynasty,Release.RoundTheTable],
+    specialImage: "TCC093",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `When this hits, create a Crouching Tiger in your banished zone. You may play it this turn.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Vito Vivodka"],
+    cardIdentifier: "growl-yellow",
+    classes: [Class.Ninja],
+    defaultImage: "TCC094",
+    name: "Growl",
+    printings: [{
+      
+      identifier: "TCC094",
+      image: "TCC094",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC094"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC094",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `When this attacks, the next Crouching Tiger you play this combat chain gets +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    power: 2,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Le Vuong"],
+    cardIdentifier: "leg-tap-yellow",
+    classes: [Class.Ninja],
+    defaultImage: "WTR102",
+    name: "Leg Tap",
+    printings: [{
+      
+      identifier: "TCC095",
+      image: "TCC095",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "1HP117",
+      image: "1HP117.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "KSU018",
+      image: "KSU18.width-450",
+      set: Release.KatsuHeroDeck,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR102",
+      image: "WTR102",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
+      identifier: "WTR102",
+      image: "WTR102",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR102",
+      image: "U-WTR102",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "WTR102",
+      image: "U-WTR102",
+      set: Release.WelcomeToRathe,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP117","KSU018","TCC095","WTR102"],
+    sets: [Release.HistoryPack1,Release.KatsuHeroDeck,Release.RoundTheTable,Release.WelcomeToRathe],
+    specialImage: "WTR102",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Yulia Litvinova"],
+    cardIdentifier: "salt-the-wound-yellow",
+    classes: [Class.Ninja],
+    defaultImage: "CRU073",
+    name: "Salt the Wound",
+    printings: [{
+      
+      identifier: "TCC096",
+      image: "TCC096",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "1HP135",
+      image: "1HP135.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "BEN020",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "CRU073",
+      image: "CRU073",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "CRU073",
+      image: "CRU073",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "CRU073",
+      image: "U-CRU073",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "CRU073",
+      image: "U-CRU073",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      
+      identifier: "IRA004",
+      image: "IRA004-P_c88KAnK.width-450",
+      set: Release.IraWelcomeDeck,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP135","BEN020","CRU073","IRA004","TCC096"],
+    sets: [Release.BenjiBlitzDeck,Release.CrucibleOfWar,Release.HistoryPack1,Release.IraWelcomeDeck,Release.RoundTheTable],
+    specialImage: "CRU073",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `This gets +1{p} for each attack that has hit this combat chain.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Immanuela Crovius"],
+    cardIdentifier: "predatory-streak-yellow",
+    classes: [Class.Ninja],
+    defaultImage: "DYN063",
+    name: "Predatory Streak",
+    printings: [{
+      
+      identifier: "TCC097",
+      image: "TCC097",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "DYN063",
+      image: "DYN063",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN063",
+      image: "DYN063",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS123",
+      image: "LGS123",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DYN063","LGS123","TCC097"],
+    sets: [Release.Dynasty,Release.Promos,Release.RoundTheTable],
+    specialImage: "LGS123",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Ninja Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `Create 2 Crouching Tigers in your banished zone. You may play them this turn.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Raphael Pinna"],
+    cardIdentifier: "tiger-eye-reflex-yellow",
+    classes: [Class.Ninja],
+    defaultImage: "TCC098",
+    name: "Tiger Eye Reflex",
+    printings: [{
+      
+      identifier: "TCC098",
+      image: "TCC098",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC098"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC098",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Ninja Block",
+
+    
+    defense: 3,
+    functionalText: `**Ambush**
+
+When this defends, create a Crouching Tiger in your Banished Zone. You may play it during your next turn`,
+    
+    
+    
+    
+    keywords: [Keyword.Ambush],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kevin Sidharta"],
+    cardIdentifier: "flying-kick-blue",
+    classes: [Class.Ninja],
+    defaultImage: "CRU065",
+    name: "Flying Kick",
+    printings: [{
+      
+      identifier: "TCC099",
+      image: "TCC099",
+      set: Release.RoundTheTable,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "CRU065",
+      image: "CRU065",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "CRU065",
+      image: "CRU065",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "CRU065",
+      image: "U-CRU065",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "CRU065",
+      image: "U-CRU065",
+      set: Release.CrucibleOfWar,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["CRU065","TCC099"],
+    sets: [Release.CrucibleOfWar,Release.RoundTheTable],
+    specialImage: "CRU065",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `If Flying Kick is played as chain link 3 or higher, it gets +2{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "blessing-of-qi-blue",
+    classes: [Class.Ninja],
+    defaultImage: "DYN055",
+    name: "Blessing of Qi",
+    printings: [{
+      
+      identifier: "TCC100",
+      image: "TCC100",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "DYN055",
+      image: "DYN055",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN055",
+      image: "DYN055",
+      set: Release.Dynasty,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DYN055","TCC100"],
+    sets: [Release.Dynasty,Release.RoundTheTable],
+    specialImage: "TCC100",
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Aura",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `At the start of your turn, destroy this then create a Crouching Tiger in your banished zone. It gets +1{p} and you may play it this turn.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Immanuela Crovius"],
+    cardIdentifier: "predatory-streak-blue",
+    classes: [Class.Ninja],
+    defaultImage: "DYN064",
+    name: "Predatory Streak",
+    printings: [{
+      
+      identifier: "TCC101",
+      image: "TCC101",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "DYN064",
+      image: "DYN064",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN064",
+      image: "DYN064",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS124",
+      image: "LGS124",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DYN064","LGS124","TCC101"],
+    sets: [Release.Dynasty,Release.Promos,Release.RoundTheTable],
+    specialImage: "LGS124",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Ninja Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `Create a Crouching Tiger in your banished zone. You may play it this turn.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Raphael Pinna"],
+    cardIdentifier: "tiger-eye-reflex-blue",
+    classes: [Class.Ninja],
+    defaultImage: "TCC102",
+    name: "Tiger Eye Reflex",
+    printings: [{
+      
+      identifier: "TCC102",
+      image: "TCC102",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC102"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC102",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Ninja Block",
+
+    
+    defense: 2,
+    functionalText: `**Ambush**
+
+When this defends, create a Crouching Tiger in your Banished Zone. You may play it during your next turn`,
+    
+    
+    
+    
+    keywords: [Keyword.Ambush],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Anastasiya Grintsova"],
+    cardIdentifier: "copper",
+    classes: [Class.Generic],
+    defaultImage: "EVR194.width-450",
+    name: "Copper",
+    printings: [{
+      
+      identifier: "TCC103",
+      image: "TCC103",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "TCC108",
+      image: "TCC108",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "1HP426",
+      image: "1HP426.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "CRU197",
+      image: "CRU197",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "CRU197",
+      image: "CRU197",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "CRU197",
+      image: "U-CRU197",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "CRU197",
+      image: "U-CRU197",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "EVR194",
+      image: "EVR194.width-450",
+      set: Release.Everfest,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "FAB055",
+      image: "FAB055",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["1HP426","CRU197","EVR194","FAB055","TCC103","TCC108"],
+    sets: [Release.CrucibleOfWar,Release.Everfest,Release.HistoryPack1,Release.Promos,Release.RoundTheTable],
+    specialImage: "CRU197",
+    subtypes: [Subtype.Item],
+    types: [Type.Token],
+    typeText: "Generic Token - Item",
+
+    
+    
+    functionalText: `**Action** - {r}{r}{r}{r}, destroy this: Draw a card. **Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "crouching-tiger",
+    classes: [Class.Ninja],
+    defaultImage: "DYN065",
+    name: "Crouching Tiger",
+    printings: [{
+      
+      identifier: "TCC104",
+      image: "TCC104",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "DYN065",
+      image: "DYN065",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "DYN065",
+      image: "DYN065_Marvel",
+      set: Release.Dynasty,
+      treatment: Treatment.AA,
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN065",
+      image: "DYN065",
+      set: Release.Dynasty,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Marvel,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["DYN065","TCC104"],
+    sets: [Release.Dynasty,Release.RoundTheTable],
+    specialImage: "DYN065_Marvel",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 0,
+    
+    functionalText: `**Ephemeral**
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.Ephemeral,Keyword.GoAgain],
+    
+    
+    
+    power: 0,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "might",
     classes: [Class.Generic],
@@ -2973,6 +6929,156 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
     
     functionalText: `At the start of your turn, destroy this, then your next attack this turn gets +1{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["King Fung Ng","Tomasz Jedruszek"],
+    cardIdentifier: "quicken",
+    classes: [Class.Generic],
+    defaultImage: "DTD234",
+    name: "Quicken",
+    printings: [{
+      
+      identifier: "TCC106",
+      image: "TCC106",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "1HP427",
+      image: "1HP427_Quicken.width-10000",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "CRU196",
+      image: "CRU196",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "CRU196",
+      image: "U-CRU196",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      
+      identifier: "DTD234",
+      image: "DTD234",
+      set: Release.DuskTillDawn,
+      
+    },{
+      
+      identifier: "DVR028",
+      image: "DVR028.width-450",
+      set: Release.ClassicBattlesRhinarDorinthea,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "EVR196",
+      image: "EVR196.width-450",
+      set: Release.Everfest,
+      
+    },{
+      
+      identifier: "RNR031",
+      image: "RNR31.width-450",
+      set: Release.RhinarHeroDeck,
+      
+    },{
+      
+      identifier: "TEA030",
+      image: "TEA30.width-450",
+      set: Release.DorintheaHeroDeck,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR225",
+      image: "WTR225",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR225",
+      image: "U-WTR225",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      
+      identifier: "XXX009",
+      image: "XXX009",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["1HP427","CRU196","DTD234","DVR028","EVR196","RNR031","TCC106","TEA030","WTR225","XXX009"],
+    sets: [Release.ClassicBattlesRhinarDorinthea,Release.CrucibleOfWar,Release.DorintheaHeroDeck,Release.DuskTillDawn,Release.Everfest,Release.HistoryPack1,Release.Promos,Release.RhinarHeroDeck,Release.RoundTheTable,Release.WelcomeToRathe],
+    specialImage: "CRU196",
+    subtypes: [Subtype.Aura],
+    types: [Type.Token],
+    typeText: "Generic Token - Aura",
+
+    
+    
+    functionalText: `When you play an attack action card or activate a weapon attack, destroy this and the attack gains go again.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "vigor",
+    classes: [Class.Generic],
+    defaultImage: "TCC107",
+    name: "Vigor",
+    printings: [{
+      
+      identifier: "TCC107",
+      image: "TCC107",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["TCC107"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC107",
+    subtypes: [Subtype.Aura],
+    types: [Type.Token],
+    typeText: "Generic Token - Aura",
+
+    
+    
+    functionalText: `At the start of your turn, destroy this and gain {h}.`,
     
     
     
@@ -13260,80 +17366,6 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
     talents: [Talent.Elemental],
     
   },{
-    artists: ["Maerel Hibadita"],
-    cardIdentifier: "bittering-thorns-yellow",
-    classes: [Class.Ninja],
-    defaultImage: "CRU072",
-    name: "Bittering Thorns",
-    printings: [{
-      
-      identifier: "1HP134",
-      image: "1HP134.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "CRU072",
-      image: "CRU072",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "CRU072",
-      image: "CRU072",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "CRU072",
-      image: "U-CRU072",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "CRU072",
-      image: "U-CRU072",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      
-      identifier: "IRA005",
-      image: "IRA005-P_YAgf1In.width-450",
-      set: Release.IraWelcomeDeck,
-      
-    },],
-    rarities: [Rarity.Common,Rarity.Promo],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP134","CRU072","IRA005"],
-    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.IraWelcomeDeck],
-    specialImage: "CRU072",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `If Bittering Thorns hits, your next attack this turn gains +1{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
     artists: ["Carlos Jose Camus"],
     cardIdentifier: "blackout-kick-red",
     classes: [Class.Ninja],
@@ -15283,54 +19315,6 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     
   },{
     artists: ["Faizal Fikri"],
-    cardIdentifier: "blessing-of-qi-red",
-    classes: [Class.Ninja],
-    defaultImage: "DYN053",
-    name: "Blessing of Qi",
-    printings: [{
-      
-      identifier: "DYN053",
-      image: "DYN053",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN053",
-      image: "DYN053",
-      set: Release.Dynasty,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["DYN053"],
-    sets: [Release.Dynasty],
-    specialImage: "DYN053",
-    subtypes: [Subtype.Aura,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Aura",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `At the start of your turn, destroy Blessing of Qi then create a Crouching Tiger in your banished zone. It gains +3{p} and you may play it this turn.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Faizal Fikri"],
     cardIdentifier: "blessing-of-qi-yellow",
     classes: [Class.Ninja],
     defaultImage: "DYN054",
@@ -15368,54 +19352,6 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     
     
     pitch: 2,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Faizal Fikri"],
-    cardIdentifier: "blessing-of-qi-blue",
-    classes: [Class.Ninja],
-    defaultImage: "DYN055",
-    name: "Blessing of Qi",
-    printings: [{
-      
-      identifier: "DYN055",
-      image: "DYN055",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN055",
-      image: "DYN055",
-      set: Release.Dynasty,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["DYN055"],
-    sets: [Release.Dynasty],
-    specialImage: "DYN055",
-    subtypes: [Subtype.Aura,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Aura",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `At the start of your turn, destroy Blessing of Qi then create a Crouching Tiger in your banished zone. It gains +1{p} and you may play it this turn.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
     
     restrictedFormats: [Format.Commoner],
     
@@ -25082,138 +29018,6 @@ If Chilling Icevein was **fused**, whenever an attack deals damage to a hero thi
     
     
   },{
-    artists: ["Emilis Emka"],
-    cardIdentifier: "chokeslam-yellow",
-    classes: [Class.Guardian],
-    defaultImage: "CRU036",
-    name: "Chokeslam",
-    printings: [{
-      
-      identifier: "1HP071",
-      image: "1HP071.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "CRU036",
-      image: "CRU036",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "CRU036",
-      image: "CRU036",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "CRU036",
-      image: "U-CRU036",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "CRU036",
-      image: "U-CRU036",
-      set: Release.CrucibleOfWar,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP071","CRU036"],
-    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
-    specialImage: "CRU036",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Guardian Action - Attack",
-
-    cost: 4,
-    defense: 3,
-    functionalText: `**Crush** - If Chokeslam deals 4 or more damage to a hero, attack action cards they control can't gain {p} during their next action phase.`,
-    
-    
-    
-    
-    keywords: [Keyword.Crush],
-    
-    
-    pitch: 2,
-    power: 7,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Emilis Emka"],
-    cardIdentifier: "chokeslam-blue",
-    classes: [Class.Guardian],
-    defaultImage: "CRU037",
-    name: "Chokeslam",
-    printings: [{
-      
-      identifier: "1HP072",
-      image: "1HP072.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "CRU037",
-      image: "CRU037",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "CRU037",
-      image: "CRU037",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "CRU037",
-      image: "U-CRU037",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "CRU037",
-      image: "U-CRU037",
-      set: Release.CrucibleOfWar,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP072","CRU037"],
-    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
-    specialImage: "CRU037",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Guardian Action - Attack",
-
-    cost: 4,
-    defense: 3,
-    functionalText: `**Crush** - If Chokeslam deals 4 or more damage to a hero, attack action cards they control can't gain {p} during their next action phase.`,
-    
-    
-    
-    
-    keywords: [Keyword.Crush],
-    
-    
-    pitch: 3,
-    power: 6,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "chorus-of-ironsong-yellow",
     classes: [Class.Warrior],
@@ -26298,76 +30102,6 @@ When Coalescence Mirage is destroyed, you may put an Illusionist aura card with 
     
     
     talents: [Talent.Ice],
-    
-  },{
-    artists: ["Jessada Sutthi"],
-    cardIdentifier: "coax-a-commotion-red",
-    classes: [Class.Generic],
-    defaultImage: "CRU180",
-    name: "Coax a Commotion",
-    printings: [{
-      
-      identifier: "1HP359",
-      image: "1HP359.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "CRU180",
-      image: "CRU180",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "CRU180",
-      image: "CRU180",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "CRU180",
-      image: "U-CRU180",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "CRU180",
-      image: "U-CRU180",
-      set: Release.CrucibleOfWar,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["1HP359","CRU180"],
-    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
-    specialImage: "CRU180",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `If Coax a Commotion hits, choose any number:
-
-- Each hero creates a Quicken token.
-- Each hero draws a card.
-- Each hero gains 1{h}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 4,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
     
   },{
     artists: ["Carlos Cruchaga","Mateusz Wiśniewski"],
@@ -28356,90 +32090,6 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     talents: [Talent.Shadow],
     
   },{
-    artists: ["Anastasiya Grintsova"],
-    cardIdentifier: "copper",
-    classes: [Class.Generic],
-    defaultImage: "EVR194.width-450",
-    name: "Copper",
-    printings: [{
-      
-      identifier: "1HP426",
-      image: "1HP426.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "CRU197",
-      image: "CRU197",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "CRU197",
-      image: "CRU197",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "CRU197",
-      image: "U-CRU197",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "CRU197",
-      image: "U-CRU197",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "EVR194",
-      image: "EVR194.width-450",
-      set: Release.Everfest,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "FAB055",
-      image: "FAB055",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "TCC103",
-      image: "TCC103",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["TCC103","1HP426","CRU197","EVR194","FAB055"],
-    sets: [Release.CrucibleOfWar,Release.Everfest,Release.HistoryPack1,Release.Promos,Release.RoundTheTable],
-    specialImage: "CRU197",
-    subtypes: [Subtype.Item],
-    types: [Type.Token],
-    typeText: "Generic Token - Item",
-
-    
-    
-    functionalText: `**Action** - {r}{r}{r}{r}, destroy Copper: Draw a card. **Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
     artists: ["soyameii"],
     cardIdentifier: "coronet-peak",
     classes: [Class.NotClassed],
@@ -29176,66 +32826,6 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
   },{
-    artists: ["Ksenia Belova"],
-    cardIdentifier: "cranial-crush-blue",
-    classes: [Class.Guardian],
-    defaultImage: "WTR045",
-    name: "Cranial Crush",
-    printings: [{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR045",
-      image: "WTR045",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
-      identifier: "WTR045",
-      image: "WTR045",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR045",
-      image: "U-WTR045",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "WTR045",
-      image: "U-WTR045",
-      set: Release.WelcomeToRathe,
-      
-    },],
-    rarities: [Rarity.SuperRare],
-    rarity: Rarity.SuperRare,
-    setIdentifiers: ["WTR045"],
-    sets: [Release.WelcomeToRathe],
-    specialImage: "WTR045",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Guardian Action - Attack",
-
-    cost: 6,
-    defense: 3,
-    functionalText: `**Crush** - If Cranial Crush deals 4 or more damage to a hero, they can't draw cards during their next action phase`,
-    
-    
-    
-    
-    keywords: [Keyword.Crush],
-    
-    
-    pitch: 3,
-    power: 8,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "crankshaft-red",
     classes: [Class.Mechanologist],
@@ -29450,82 +33040,6 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Daniel Jiménez"],
-    cardIdentifier: "crazy-brew-blue",
-    classes: [Class.Generic],
-    defaultImage: "WTR162",
-    name: "Crazy Brew",
-    printings: [{
-      
-      identifier: "1HP363",
-      image: "1HP363.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "FAB016",
-      image: "FAB016",
-      set: Release.Promos,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR162",
-      image: "WTR162",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
-      identifier: "WTR162",
-      image: "WTR162",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR162",
-      image: "U-WTR162",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "WTR162",
-      image: "U-WTR162",
-      set: Release.WelcomeToRathe,
-      
-    },],
-    rarities: [Rarity.Majestic,Rarity.Promo,Rarity.SuperRare],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["1HP363","FAB016","WTR162"],
-    sets: [Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
-    specialImage: "WTR162",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Generic Action - Item",
-
-    cost: 0,
-    
-    functionalText: `**Action** - Destroy Crazy Brew: Roll a 6 sided die. On;
-
-- 1 or 2 - Lose 2{h}. **Go again**
-- 3 or 4 - Gain 2{h}. **Go again**
-- 5 or 6 - Gain {r}{r}, gain 2 action points, and your next attack this turn gains +2{p}.`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 3,
     
     restrictedFormats: [Format.Commoner],
     
@@ -29992,68 +33506,6 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     talents: [Talent.Light],
-    
-  },{
-    artists: ["Carlos Cruchaga"],
-    cardIdentifier: "crouching-tiger",
-    classes: [Class.Ninja],
-    defaultImage: "DYN065",
-    name: "Crouching Tiger",
-    printings: [{
-      
-      identifier: "DYN065",
-      image: "DYN065",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "DYN065",
-      image: "DYN065_Marvel",
-      set: Release.Dynasty,
-      treatment: Treatment.AA,
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN065",
-      image: "DYN065",
-      set: Release.Dynasty,
-      
-    },{
-      
-      identifier: "TCC104",
-      image: "TCC104",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Common,Rarity.Marvel,Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["TCC104","DYN065"],
-    sets: [Release.Dynasty,Release.RoundTheTable],
-    specialImage: "DYN065_Marvel",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 0,
-    
-    functionalText: `**Ephemeral**
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.Ephemeral,Keyword.GoAgain],
-    
-    
-    
-    power: 0,
-    
-    
-    
-    
-    
-    
-    
     
   },{
     artists: ["Carlos Cruchaga"],
@@ -30749,7 +34201,8 @@ When you equip Crown of Dominion, create a Gold token.`,
     
     
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Mihail Spil-Haufter"],
     cardIdentifier: "crush-the-weak-yellow",
     classes: [Class.Guardian],
@@ -33705,8 +37158,7 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     
     
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Marcus Reyno"],
     cardIdentifier: "deep-rooted-evil-yellow",
     classes: [Class.Brute],
@@ -34994,144 +38446,6 @@ Each hero banishes a card from their arsenal.
     
     pitch: 1,
     power: 9,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Nathaniel Himawan"],
-    cardIdentifier: "disable-yellow",
-    classes: [Class.Guardian],
-    defaultImage: "WTR049",
-    name: "Disable",
-    printings: [{
-      
-      identifier: "1HP056",
-      image: "1HP056.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR049",
-      image: "WTR049",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
-      identifier: "WTR049",
-      image: "WTR049",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR049",
-      image: "U-WTR049",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "WTR049",
-      image: "U-WTR049",
-      set: Release.WelcomeToRathe,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["1HP056","WTR049"],
-    sets: [Release.HistoryPack1,Release.WelcomeToRathe],
-    specialImage: "WTR049",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Guardian Action - Attack",
-
-    cost: 5,
-    defense: 3,
-    functionalText: `**Crush** - If Disable deals 4 or more damage to a hero, put a card from their arsenal on the bottom of its owner deck.`,
-    
-    
-    
-    
-    keywords: [Keyword.Crush],
-    
-    
-    pitch: 2,
-    power: 8,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Nathaniel Himawan"],
-    cardIdentifier: "disable-blue",
-    classes: [Class.Guardian],
-    defaultImage: "WTR050",
-    name: "Disable",
-    printings: [{
-      
-      identifier: "1HP057",
-      image: "1HP057.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      
-      identifier: "BVO019",
-      image: "BVO19.width-450",
-      set: Release.BravoBlitzDeck,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR050",
-      image: "WTR050",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
-      identifier: "WTR050",
-      image: "WTR050",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR050",
-      image: "U-WTR050",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "WTR050",
-      image: "U-WTR050",
-      set: Release.WelcomeToRathe,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["1HP057","BVO019","WTR050"],
-    sets: [Release.BravoBlitzDeck,Release.HistoryPack1,Release.WelcomeToRathe],
-    specialImage: "WTR050",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Guardian Action - Attack",
-
-    cost: 5,
-    defense: 3,
-    functionalText: `**Crush** - If Disable deals 4 or more damage to a hero, put a card from their arsenal on the bottom of its owner deck.`,
-    
-    
-    
-    
-    keywords: [Keyword.Crush],
-    
-    
-    pitch: 3,
-    power: 7,
     restrictedFormats: [Format.Commoner],
     
     
@@ -38749,78 +42063,6 @@ If you have more {h} than an opposing Light hero, you may banish an action card 
     talents: [Talent.Shadow],
     
   },{
-    artists: ["Fajareka Setiawan"],
-    cardIdentifier: "edge-of-autumn",
-    classes: [Class.Ninja],
-    defaultImage: "CRU050",
-    name: "Edge of Autumn",
-    printings: [{
-      
-      identifier: "1HP090",
-      image: "1HP090.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "CRU050",
-      image: "CRU050",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.C,
-      identifier: "CRU050",
-      image: "CRU050",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "CRU050",
-      image: "U-CRU050",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "CRU050",
-      image: "U-CRU050",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      
-      identifier: "IRA002",
-      image: "IRA002-P_03Jc6pa.width-450",
-      set: Release.IraWelcomeDeck,
-      
-    },],
-    rarities: [Rarity.Promo,Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["1HP090","CRU050","IRA002"],
-    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.IraWelcomeDeck],
-    specialImage: "CRU050",
-    subtypes: [Subtype.TwoHanded,Subtype.Sword],
-    types: [Type.Weapon],
-    typeText: "Ninja Weapon - Sword (2H)",
-
-    
-    
-    functionalText: `**Once per Turn Action** - {r}: **Attack**. **Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    
-    power: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
     artists: ["Reza Afshar"],
     cardIdentifier: "eirinas-prayer-red",
     classes: [Class.Generic],
@@ -41283,90 +44525,6 @@ If Endless Winter hits a hero, until the end of their next turn, whenever they a
     
     specializations: [Hero.Oldhim],
     talents: [Talent.Elemental],
-    
-  },{
-    artists: ["Daniel Jiménez"],
-    cardIdentifier: "energy-potion-blue",
-    classes: [Class.Generic],
-    defaultImage: "WTR170",
-    name: "Energy Potion",
-    printings: [{
-      
-      identifier: "1HP381",
-      image: "1HP381.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "FAB012",
-      image: "FAB012",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "KSU029",
-      image: "KSU29.width-450",
-      set: Release.KatsuHeroDeck,
-      
-    },{
-      
-      identifier: "TEA028",
-      image: "TEA28.width-450",
-      set: Release.DorintheaHeroDeck,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR170",
-      image: "WTR170",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
-      identifier: "WTR170",
-      image: "WTR170",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR170",
-      image: "U-WTR170",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "WTR170",
-      image: "U-WTR170",
-      set: Release.WelcomeToRathe,
-      
-    },],
-    rarities: [Rarity.Promo,Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["1HP381","FAB012","KSU029","TEA028","WTR170"],
-    sets: [Release.DorintheaHeroDeck,Release.HistoryPack1,Release.KatsuHeroDeck,Release.Promos,Release.WelcomeToRathe],
-    specialImage: "WTR170",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Generic Action - Item",
-
-    cost: 0,
-    
-    functionalText: `**Instant** - Destroy Energy Potion: Gain {r}{r}`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
     
   },{
     artists: ["bimawithpencil"],
@@ -46957,106 +50115,6 @@ If it has an aim counter, it gains "Yellow cards have -1{d} while defending this
     
   },{
     artists: ["Isuardi Therianto"],
-    cardIdentifier: "flex-claws-red",
-    classes: [Class.Ninja],
-    defaultImage: "DYN050",
-    name: "Flex Claws",
-    printings: [{
-      
-      identifier: "DYN050",
-      image: "DYN050",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN050",
-      image: "DYN050",
-      set: Release.Dynasty,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["DYN050"],
-    sets: [Release.Dynasty],
-    specialImage: "DYN050",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `When this hits, create a Crouching Tiger in your banished zone. You may play it this turn.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    power: 4,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Isuardi Therianto"],
-    cardIdentifier: "flex-claws-yellow",
-    classes: [Class.Ninja],
-    defaultImage: "DYN051",
-    name: "Flex Claws",
-    printings: [{
-      
-      identifier: "DYN051",
-      image: "DYN051",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN051",
-      image: "DYN051",
-      set: Release.Dynasty,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["DYN051"],
-    sets: [Release.Dynasty],
-    specialImage: "DYN051",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `When this hits, create a Crouching Tiger in your banished zone. You may play it this turn.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    power: 3,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Isuardi Therianto"],
     cardIdentifier: "flex-claws-blue",
     classes: [Class.Ninja],
     defaultImage: "DYN052",
@@ -47967,72 +51025,6 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
     
   },{
     artists: ["Kevin Sidharta"],
-    cardIdentifier: "flying-kick-red",
-    classes: [Class.Ninja],
-    defaultImage: "CRU063",
-    name: "Flying Kick",
-    printings: [{
-      edition: ReleaseEdition.First,
-      identifier: "CRU063",
-      image: "CRU063",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "CRU063",
-      image: "CRU063",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "CRU063",
-      image: "U-CRU063",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "CRU063",
-      image: "U-CRU063",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      
-      identifier: "IRA007",
-      image: "IRA007-P_9qjDnLM.width-450",
-      set: Release.IraWelcomeDeck,
-      
-    },],
-    rarities: [Rarity.Common,Rarity.Promo],
-    rarity: Rarity.Common,
-    setIdentifiers: ["CRU063","IRA007"],
-    sets: [Release.CrucibleOfWar,Release.IraWelcomeDeck],
-    specialImage: "CRU063",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `If Flying Kick is played as chain link 3 or higher, it gains +2{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 5,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Kevin Sidharta"],
     cardIdentifier: "flying-kick-yellow",
     classes: [Class.Ninja],
     defaultImage: "CRU064",
@@ -48083,66 +51075,6 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
     
     pitch: 2,
     power: 4,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Kevin Sidharta"],
-    cardIdentifier: "flying-kick-blue",
-    classes: [Class.Ninja],
-    defaultImage: "CRU065",
-    name: "Flying Kick",
-    printings: [{
-      edition: ReleaseEdition.First,
-      identifier: "CRU065",
-      image: "CRU065",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "CRU065",
-      image: "CRU065",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "CRU065",
-      image: "U-CRU065",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "CRU065",
-      image: "U-CRU065",
-      set: Release.CrucibleOfWar,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["CRU065"],
-    sets: [Release.CrucibleOfWar],
-    specialImage: "CRU065",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `If Flying Kick is played as chain link 3 or higher, it gains +2{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    power: 3,
     
     
     
@@ -54614,54 +57546,6 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     pitch: 3,
     
     
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Simon Wong"],
-    cardIdentifier: "healing-potion-blue",
-    classes: [Class.Generic],
-    defaultImage: "EVR183.width-450",
-    name: "Healing Potion",
-    printings: [{
-      edition: ReleaseEdition.First,
-      identifier: "EVR183",
-      image: "EVR183.width-450",
-      set: Release.Everfest,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.C,
-      identifier: "EVR183",
-      image: "EVR183.width-450",
-      set: Release.Everfest,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVR183"],
-    sets: [Release.Everfest],
-    specialImage: "EVR183.width-450",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Generic Action - Item",
-
-    cost: 0,
-    
-    functionalText: `**Action** - Destroy Healing Potion: Gain 2{h}. **Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
     
     
     
@@ -63622,90 +66506,6 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     talents: [Talent.Draconic],
     
   },{
-    artists: ["Le Vuong"],
-    cardIdentifier: "ira-crimson-haze",
-    classes: [Class.Ninja],
-    defaultImage: "CRU046",
-    name: "Ira, Crimson Haze",
-    printings: [{
-      
-      identifier: "1HP089",
-      image: "1HP089.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "CRU046",
-      image: "CRU046",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "CRU046",
-      image: "CRU046",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "CRU046",
-      image: "U-CRU046",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "CRU046",
-      image: "U-CRU046",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "HER000",
-      image: "HER000",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "IRA001",
-      image: "IRA001-P_EUmBrk0.width-450",
-      set: Release.IraWelcomeDeck,
-      
-    },{
-      
-      identifier: "TCC077",
-      image: "TCC077",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Common,Rarity.Promo],
-    rarity: Rarity.Common,
-    setIdentifiers: ["TCC077","1HP089","CRU046","HER000","IRA001"],
-    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.IraWelcomeDeck,Release.Promos,Release.RoundTheTable],
-    specialImage: "CRU046",
-    subtypes: [Subtype.Young],
-    types: [Type.Hero],
-    typeText: "Ninja Hero - Young",
-
-    
-    
-    functionalText: `Your second attack each turn gains +1{p}.`,
-    
-    hero: Hero.Ira,
-    intellect: 4,
-    
-    
-    life: 20,
-    
-    
-    
-    restrictedFormats: [Format.ClassicConstructed],
-    
-    
-    
-    
-    
-    
-    young: true
-  },{
     artists: ["Jessada Sutthi","Madeline Boni"],
     cardIdentifier: "iris-of-reality",
     classes: [Class.Illusionist],
@@ -67197,151 +69997,8 @@ When this hits a hero, banish the top card of their deck and up to 1 card in the
     
     
     
-  },{
-    artists: ["Le Vuong"],
-    cardIdentifier: "leg-tap-red",
-    classes: [Class.Ninja],
-    defaultImage: "WTR101",
-    name: "Leg Tap",
-    printings: [{
-      
-      identifier: "1HP116",
-      image: "1HP116.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      
-      identifier: "KSU012",
-      image: "KSU12.width-450",
-      set: Release.KatsuHeroDeck,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR101",
-      image: "WTR101",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
-      identifier: "WTR101",
-      image: "WTR101",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR101",
-      image: "U-WTR101",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "WTR101",
-      image: "U-WTR101",
-      set: Release.WelcomeToRathe,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP116","KSU012","WTR101"],
-    sets: [Release.HistoryPack1,Release.KatsuHeroDeck,Release.WelcomeToRathe],
-    specialImage: "WTR101",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Le Vuong"],
-    cardIdentifier: "leg-tap-yellow",
-    classes: [Class.Ninja],
-    defaultImage: "WTR102",
-    name: "Leg Tap",
-    printings: [{
-      
-      identifier: "1HP117",
-      image: "1HP117.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      
-      identifier: "KSU018",
-      image: "KSU18.width-450",
-      set: Release.KatsuHeroDeck,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR102",
-      image: "WTR102",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
-      identifier: "WTR102",
-      image: "WTR102",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR102",
-      image: "U-WTR102",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "WTR102",
-      image: "U-WTR102",
-      set: Release.WelcomeToRathe,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP117","KSU018","WTR102"],
-    sets: [Release.HistoryPack1,Release.KatsuHeroDeck,Release.WelcomeToRathe],
-    specialImage: "WTR102",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Le Vuong"],
     cardIdentifier: "leg-tap-blue",
     classes: [Class.Ninja],
@@ -67993,64 +70650,6 @@ When you play Life for a Life, if you have less {h} than an opposing hero, it ga
     
     pitch: 3,
     power: 2,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Sam Yang"],
-    cardIdentifier: "life-of-the-party-red",
-    classes: [Class.Generic],
-    defaultImage: "EVR161.width-450",
-    name: "Life of the Party",
-    printings: [{
-      edition: ReleaseEdition.First,
-      identifier: "EVR161",
-      image: "EVR161.width-450",
-      set: Release.Everfest,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "EVR161",
-      image: "EVR161.width-450",
-      set: Release.Everfest,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "LGS084",
-      image: "LGS084",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Promo,Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVR161","LGS084"],
-    sets: [Release.Everfest,Release.Promos],
-    specialImage: "LGS084",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `You may discard or destroy a card you control named Crazy Brew rather than pay Life of the Party's {r} cost. If you do, choose all modes, otherwise choose 1 at random;
-
-- Life of the Party gains "When this hits, gain life 2{h}."
-- Life of the Party gains +2{p}.
-- Life of the Party gains **go again**.`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    power: 4,
     restrictedFormats: [Format.Commoner],
     
     
@@ -69245,8 +71844,7 @@ If you have **boosted** this turn, **opt 1**.
     
     
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Shen Fei"],
     cardIdentifier: "looking-for-a-scrap-yellow",
     classes: [Class.Generic],
@@ -77980,86 +80578,6 @@ The next time a weapon hits this turn, create a Copper token.
     
   },{
     artists: ["Mikhail Babkin"],
-    cardIdentifier: "over-loop-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "ARC020",
-    name: "Over Loop",
-    printings: [{
-      
-      identifier: "1HP205",
-      image: "1HP205.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC020",
-      image: "ARC020",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "ARC020",
-      image: "ARC020-RF",
-      set: Release.ArcaneRising,
-      treatment: Treatment.AT,
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ARC020",
-      image: "ARC020_Over_Loop.width-10000",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "ARC020",
-      image: "ARC020_Over_Loop.width-10000",
-      set: Release.ArcaneRising,
-      
-    },{
-      
-      identifier: "LGS013",
-      image: "LGS013",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
-      foiling: Foiling.R,
-      identifier: "LGS032",
-      image: "LGS032",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Common,Rarity.Promo],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP205","ARC020","LGS013","LGS032"],
-    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos],
-    specialImage: "LGS013",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `When this hits, put it on the bottom of its owner's deck.
-
-**Boost**`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 1,
-    power: 5,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mikhail Babkin"],
     cardIdentifier: "over-loop-yellow",
     classes: [Class.Mechanologist],
     defaultImage: "ARC021",
@@ -83123,132 +85641,6 @@ Deal 2 arcane damage to any target. If Polar Cap was **fused** and deals damage 
     
     
   },{
-    artists: ["Panji Bagus P"],
-    cardIdentifier: "potion-of-strength-blue",
-    classes: [Class.Generic],
-    defaultImage: "WTR171",
-    name: "Potion of Strength",
-    printings: [{
-      
-      identifier: "1HP382",
-      image: "1HP382.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      
-      identifier: "BVO028",
-      image: "BVO28.width-450",
-      set: Release.BravoBlitzDeck,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "FAB013",
-      image: "FAB013",
-      set: Release.Promos,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR171",
-      image: "WTR171",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
-      identifier: "WTR171",
-      image: "WTR171",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR171",
-      image: "U-WTR171",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "WTR171",
-      image: "U-WTR171",
-      set: Release.WelcomeToRathe,
-      
-    },],
-    rarities: [Rarity.Promo,Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["1HP382","BVO028","FAB013","WTR171"],
-    sets: [Release.BravoBlitzDeck,Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
-    specialImage: "WTR171",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Generic Action - Item",
-
-    cost: 0,
-    
-    functionalText: `**Action** - Destroy Potion of Strength: Your next attack this turn gains +2{p}. **Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Rio Sabda"],
-    cardIdentifier: "pouncing-qi-red",
-    classes: [Class.Ninja],
-    defaultImage: "DYN056",
-    name: "Pouncing Qi",
-    printings: [{
-      
-      identifier: "DYN056",
-      image: "DYN056",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN056",
-      image: "DYN056",
-      set: Release.Dynasty,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["DYN056"],
-    sets: [Release.Dynasty],
-    specialImage: "DYN056",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Combo** - If Crouching Tiger was the last attack this combat chain, Pouncing Qi has +1{p} and **go again**.`,
-    
-    
-    
-    
-    keywords: [Keyword.Combo,Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
     artists: ["Rio Sabda"],
     cardIdentifier: "pouncing-qi-yellow",
     classes: [Class.Ninja],
@@ -84259,118 +86651,6 @@ Reveal the top card of your deck. If it's yellow, put it into your hand, then **
     
     
     pitch: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Immanuela Crovius"],
-    cardIdentifier: "predatory-streak-yellow",
-    classes: [Class.Ninja],
-    defaultImage: "DYN063",
-    name: "Predatory Streak",
-    printings: [{
-      
-      identifier: "DYN063",
-      image: "DYN063",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN063",
-      image: "DYN063",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "LGS123",
-      image: "LGS123",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Common,Rarity.Promo],
-    rarity: Rarity.Common,
-    setIdentifiers: ["DYN063","LGS123"],
-    sets: [Release.Dynasty,Release.Promos],
-    specialImage: "LGS123",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Ninja Action",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `Create 2 Crouching Tigers in your banished zone. You may play them this turn.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Immanuela Crovius"],
-    cardIdentifier: "predatory-streak-blue",
-    classes: [Class.Ninja],
-    defaultImage: "DYN064",
-    name: "Predatory Streak",
-    printings: [{
-      
-      identifier: "DYN064",
-      image: "DYN064",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN064",
-      image: "DYN064",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "LGS124",
-      image: "LGS124",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Common,Rarity.Promo],
-    rarity: Rarity.Common,
-    setIdentifiers: ["DYN064","LGS124"],
-    sets: [Release.Dynasty,Release.Promos],
-    specialImage: "LGS124",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Ninja Action",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `Create a Crouching Tiger in your banished zone. You may play it this turn.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 3,
     
     
     
@@ -87694,108 +89974,6 @@ At the beginning of your action phase, destroy Pyroglyphic Protection.`,
     
     
     keywords: [Keyword.Quell],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["King Fung Ng"],
-    cardIdentifier: "quicken",
-    classes: [Class.Generic],
-    defaultImage: "DTD234",
-    name: "Quicken",
-    printings: [{
-      
-      identifier: "1HP427",
-      image: "1HP427_Quicken.width-10000",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "CRU196",
-      image: "CRU196",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "CRU196",
-      image: "U-CRU196",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      
-      identifier: "DTD234",
-      image: "DTD234",
-      set: Release.DuskTillDawn,
-      
-    },{
-      
-      identifier: "DVR028",
-      image: "DVR028.width-450",
-      set: Release.ClassicBattlesRhinarDorinthea,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "EVR196",
-      image: "EVR196.width-450",
-      set: Release.Everfest,
-      
-    },{
-      
-      identifier: "RNR031",
-      image: "RNR31.width-450",
-      set: Release.RhinarHeroDeck,
-      
-    },{
-      
-      identifier: "TEA030",
-      image: "TEA30.width-450",
-      set: Release.DorintheaHeroDeck,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR225",
-      image: "WTR225",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR225",
-      image: "U-WTR225",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      
-      identifier: "XXX009",
-      image: "XXX009",
-      set: Release.Promos,
-      
-    },],
-    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["1HP427","CRU196","DTD234","DVR028","EVR196","RNR031","TEA030","WTR225","XXX009"],
-    sets: [Release.ClassicBattlesRhinarDorinthea,Release.CrucibleOfWar,Release.DorintheaHeroDeck,Release.DuskTillDawn,Release.Everfest,Release.HistoryPack1,Release.Promos,Release.RhinarHeroDeck,Release.WelcomeToRathe],
-    specialImage: "CRU196",
-    subtypes: [Subtype.Aura],
-    types: [Type.Token],
-    typeText: "Generic Token - Aura",
-
-    
-    
-    functionalText: `When you play an attack action card or activate a weapon attack, destroy Quicken and the attack gains **go again**.`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
     
     
     
@@ -99689,84 +101867,6 @@ When this hits a hero, banish the top card of their deck.`,
     
     
   },{
-    artists: ["Yulia Litvinova"],
-    cardIdentifier: "salt-the-wound-yellow",
-    classes: [Class.Ninja],
-    defaultImage: "CRU073",
-    name: "Salt the Wound",
-    printings: [{
-      
-      identifier: "1HP135",
-      image: "1HP135.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      
-      identifier: "BEN020",
-      image: "",
-      set: Release.BenjiBlitzDeck,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "CRU073",
-      image: "CRU073",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "CRU073",
-      image: "CRU073",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "CRU073",
-      image: "U-CRU073",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "CRU073",
-      image: "U-CRU073",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      
-      identifier: "IRA004",
-      image: "IRA004-P_c88KAnK.width-450",
-      set: Release.IraWelcomeDeck,
-      
-    },],
-    rarities: [Rarity.Common,Rarity.Promo],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP135","BEN020","CRU073","IRA004"],
-    sets: [Release.BenjiBlitzDeck,Release.CrucibleOfWar,Release.HistoryPack1,Release.IraWelcomeDeck],
-    specialImage: "CRU073",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `Salt the Wound gains +1{p} for each attack that has hit this combat chain.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
     artists: ["Rachel Alderson"],
     cardIdentifier: "salvage-shot-red",
     classes: [Class.Ranger],
@@ -103478,7 +105578,8 @@ The next attack action card with cost 0 or less you play this turn gains "When y
     
     talents: [Talent.Shadow],
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Kevin Sidharta"],
     cardIdentifier: "seek-and-destroy-red",
     classes: [Class.Ranger],
@@ -104466,8 +106567,7 @@ The next attack action card with cost 0 you play this turns gains +1{p} and **go
     
     
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Kyxarie Peralta"],
     cardIdentifier: "seismic-stir-yellow",
     classes: [Class.Guardian],
@@ -107701,84 +109801,6 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
     pitch: 3,
     
     
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Adolfo Navarro","Asur Misoa"],
-    cardIdentifier: "sigil-of-solace-red",
-    classes: [Class.Generic],
-    defaultImage: "WTR173",
-    name: "Sigil of Solace",
-    printings: [{
-      
-      identifier: "1HP387",
-      image: "1HP387.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      
-      identifier: "DRO026",
-      image: "DRO026.width-450",
-      set: Release.DromaiBlitzDeck,
-      
-    },{
-      
-      identifier: "FAB136",
-      image: "",
-      set: Release.Promos,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR173",
-      image: "WTR173",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
-      identifier: "WTR173",
-      image: "WTR173",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR173",
-      image: "U-WTR173",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "WTR173",
-      image: "U-WTR173",
-      set: Release.WelcomeToRathe,
-      
-    },],
-    rarities: [Rarity.Promo,Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["1HP387","DRO026","FAB136","WTR173"],
-    sets: [Release.DromaiBlitzDeck,Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
-    specialImage: "WTR173",
-    subtypes: [],
-    types: [Type.Instant],
-    typeText: "Generic Instant",
-
-    cost: 0,
-    
-    functionalText: `Gain 3{h}`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    
-    restrictedFormats: [Format.Commoner],
     
     
     
@@ -123264,62 +125286,6 @@ At the start of your turn, you may banish an equipment you control. If you do, e
     talents: [Talent.Shadow],
     
   },{
-    artists: ["Enmoire"],
-    cardIdentifier: "tearing-shuko",
-    classes: [Class.Ninja],
-    defaultImage: "DYN046",
-    name: "Tearing Shuko",
-    printings: [{
-      
-      identifier: "DYN046",
-      image: "DYN046",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "DYN046",
-      image: "DYN046",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN046",
-      image: "DYN046",
-      set: Release.Dynasty,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["DYN046"],
-    sets: [Release.Dynasty],
-    specialImage: "DYN046",
-    subtypes: [Subtype.Arms],
-    types: [Type.Equipment],
-    typeText: "Ninja Equipment - Arms",
-
-    
-    defense: 1,
-    functionalText: `**Instant** - Destroy Tearing Shuko: The next Crouching Tiger you play this turn gains +2{p}.
-
-**Battleworn**`,
-    
-    
-    
-    
-    keywords: [Keyword.Battleworn],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "tectonic-plating",
     classes: [Class.Guardian],
@@ -124410,204 +126376,6 @@ Until the start of your next turn, attacks that target you have -1{p}.
     
     
   },{
-    artists: ["Kevin Sidharta"],
-    cardIdentifier: "throttle-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "ARC023",
-    name: "Throttle",
-    printings: [{
-      
-      identifier: "1HP208",
-      image: "1HP208.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC023",
-      image: "ARC023",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "ARC023",
-      image: "ARC023-RF",
-      set: Release.ArcaneRising,
-      treatment: Treatment.AT,
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ARC023",
-      image: "U-ARC023",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "ARC023",
-      image: "U-ARC023",
-      set: Release.ArcaneRising,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP208","ARC023"],
-    sets: [Release.ArcaneRising,Release.HistoryPack1],
-    specialImage: "ARC023-RF",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Boost**`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 1,
-    power: 6,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Kevin Sidharta"],
-    cardIdentifier: "throttle-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "ARC024",
-    name: "Throttle",
-    printings: [{
-      
-      identifier: "1HP209",
-      image: "1HP209.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC024",
-      image: "ARC024",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "ARC024",
-      image: "ARC024-RF",
-      set: Release.ArcaneRising,
-      treatment: Treatment.AT,
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ARC024",
-      image: "U-ARC024",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "ARC024",
-      image: "U-ARC024",
-      set: Release.ArcaneRising,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP209","ARC024"],
-    sets: [Release.ArcaneRising,Release.HistoryPack1],
-    specialImage: "ARC024-RF",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Boost**`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 2,
-    power: 5,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Kevin Sidharta"],
-    cardIdentifier: "throttle-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "ARC025",
-    name: "Throttle",
-    printings: [{
-      
-      identifier: "1HP210",
-      image: "1HP210.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC025",
-      image: "ARC025",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "ARC025",
-      image: "ARC025-RF",
-      set: Release.ArcaneRising,
-      treatment: Treatment.AT,
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ARC025",
-      image: "U-ARC025",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "ARC025",
-      image: "U-ARC025",
-      set: Release.ArcaneRising,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP210","ARC025"],
-    sets: [Release.ArcaneRising,Release.HistoryPack1],
-    specialImage: "ARC025-RF",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Boost**`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 3,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "thrust-red",
     classes: [Class.Generic],
@@ -125366,84 +127134,6 @@ If Timekeeper's Whim is played during an opponent's turn, put it on the bottom o
     pitch: 3,
     
     
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Daniel Jiménez"],
-    cardIdentifier: "timesnap-potion-blue",
-    classes: [Class.Generic],
-    defaultImage: "WTR172",
-    name: "Timesnap Potion",
-    printings: [{
-      
-      identifier: "1HP383",
-      image: "1HP383.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "FAB014",
-      image: "FAB014",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "RNR029",
-      image: "RNR29.width-450",
-      set: Release.RhinarHeroDeck,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR172",
-      image: "WTR172",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
-      identifier: "WTR172",
-      image: "WTR172",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR172",
-      image: "U-WTR172",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "WTR172",
-      image: "U-WTR172",
-      set: Release.WelcomeToRathe,
-      
-    },],
-    rarities: [Rarity.Promo,Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["1HP383","FAB014","RNR029","WTR172"],
-    sets: [Release.HistoryPack1,Release.Promos,Release.RhinarHeroDeck,Release.WelcomeToRathe],
-    specialImage: "WTR172",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Generic Action - Item",
-
-    cost: 0,
-    
-    functionalText: `**Action** - Destroy Timesnap Potion: Gain 2 action points.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
     
     
     
@@ -138810,72 +140500,6 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     
   },{
     artists: ["Fedor Barkhatov"],
-    cardIdentifier: "zero-to-sixty-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "ARC026",
-    name: "Zero to Sixty",
-    printings: [{
-      
-      identifier: "1HP211",
-      image: "1HP211.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC026",
-      image: "ARC026",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "ARC026",
-      image: "ARC026-RF",
-      set: Release.ArcaneRising,
-      treatment: Treatment.AT,
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ARC026",
-      image: "U-ARC026",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "ARC026",
-      image: "U-ARC026",
-      set: Release.ArcaneRising,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP211","ARC026"],
-    sets: [Release.ArcaneRising,Release.HistoryPack1],
-    specialImage: "ARC026-RF",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Boost**`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 1,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Fedor Barkhatov"],
     cardIdentifier: "zero-to-sixty-yellow",
     classes: [Class.Mechanologist],
     defaultImage: "ARC027",
@@ -138998,138 +140622,6 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     
     pitch: 3,
     power: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Sergey Gurskiy"],
-    cardIdentifier: "zipper-hit-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "ARC029",
-    name: "Zipper Hit",
-    printings: [{
-      
-      identifier: "1HP214",
-      image: "1HP214.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC029",
-      image: "ARC029",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "ARC029",
-      image: "ARC029-RF",
-      set: Release.ArcaneRising,
-      treatment: Treatment.AT,
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ARC029",
-      image: "U-ARC029",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "ARC029",
-      image: "U-ARC029",
-      set: Release.ArcaneRising,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP214","ARC029"],
-    sets: [Release.ArcaneRising,Release.HistoryPack1],
-    specialImage: "ARC029-RF",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `**Boost**`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 1,
-    power: 5,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Sergey Gurskiy"],
-    cardIdentifier: "zipper-hit-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "ARC030",
-    name: "Zipper Hit",
-    printings: [{
-      
-      identifier: "1HP215",
-      image: "1HP215.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC030",
-      image: "ARC030",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "ARC030",
-      image: "ARC030-RF",
-      set: Release.ArcaneRising,
-      treatment: Treatment.AT,
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ARC030",
-      image: "U-ARC030",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "ARC030",
-      image: "U-ARC030",
-      set: Release.ArcaneRising,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP215","ARC030"],
-    sets: [Release.ArcaneRising,Release.HistoryPack1],
-    specialImage: "ARC030-RF",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `**Boost**`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 2,
-    power: 4,
     
     
     

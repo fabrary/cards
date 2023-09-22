@@ -12001,7 +12001,7 @@ exports[`Check for unintentional updates Bittering Thorns (bittering-thorns-yell
   "cost": 1,
   "defaultImage": "CRU072",
   "defense": 2,
-  "functionalText": "If Bittering Thorns hits, your next attack this turn gains +1{p}.
+  "functionalText": "When this hits, your next attack this turn gets +1{p}.
 
 **Go again**",
   "keywords": [
@@ -12011,6 +12011,11 @@ exports[`Check for unintentional updates Bittering Thorns (bittering-thorns-yell
   "pitch": 2,
   "power": 3,
   "printings": [
+    {
+      "identifier": "TCC092",
+      "image": "TCC092",
+      "set": "Round the Table",
+    },
     {
       "identifier": "1HP134",
       "image": "1HP134.width-450",
@@ -12057,11 +12062,13 @@ exports[`Check for unintentional updates Bittering Thorns (bittering-thorns-yell
     "1HP134",
     "CRU072",
     "IRA005",
+    "TCC092",
   ],
   "sets": [
     "Crucible of War",
     "History Pack 1",
     "Ira Welcome Deck",
+    "Round the Table",
   ],
   "specialImage": "CRU072",
   "subtypes": [
@@ -14341,10 +14348,15 @@ exports[`Check for unintentional updates Blessing of Qi (blessing-of-qi-blue) vs
   "cost": 1,
   "defaultImage": "DYN055",
   "defense": 3,
-  "functionalText": "At the start of your turn, destroy Blessing of Qi then create a Crouching Tiger in your banished zone. It gains +1{p} and you may play it this turn.",
+  "functionalText": "At the start of your turn, destroy this then create a Crouching Tiger in your banished zone. It gets +1{p} and you may play it this turn.",
   "name": "Blessing of Qi",
   "pitch": 3,
   "printings": [
+    {
+      "identifier": "TCC100",
+      "image": "TCC100",
+      "set": "Round the Table",
+    },
     {
       "identifier": "DYN055",
       "image": "DYN055",
@@ -14366,11 +14378,13 @@ exports[`Check for unintentional updates Blessing of Qi (blessing-of-qi-blue) vs
   ],
   "setIdentifiers": [
     "DYN055",
+    "TCC100",
   ],
   "sets": [
     "Dynasty",
+    "Round the Table",
   ],
-  "specialImage": "DYN055",
+  "specialImage": "TCC100",
   "subtypes": [
     "Aura",
     "Non-Attack",
@@ -14394,10 +14408,15 @@ exports[`Check for unintentional updates Blessing of Qi (blessing-of-qi-red) vs 
   "cost": 1,
   "defaultImage": "DYN053",
   "defense": 3,
-  "functionalText": "At the start of your turn, destroy Blessing of Qi then create a Crouching Tiger in your banished zone. It gains +3{p} and you may play it this turn.",
+  "functionalText": "At the start of your turn, destroy this then create a Crouching Tiger in your banished zone. It gets +3{p} and you may play it this turn.",
   "name": "Blessing of Qi",
   "pitch": 1,
   "printings": [
+    {
+      "identifier": "TCC091",
+      "image": "TCC091",
+      "set": "Round the Table",
+    },
     {
       "identifier": "DYN053",
       "image": "DYN053",
@@ -14419,11 +14438,13 @@ exports[`Check for unintentional updates Blessing of Qi (blessing-of-qi-red) vs 
   ],
   "setIdentifiers": [
     "DYN053",
+    "TCC091",
   ],
   "sets": [
     "Dynasty",
+    "Round the Table",
   ],
-  "specialImage": "DYN053",
+  "specialImage": "TCC091",
   "subtypes": [
     "Aura",
     "Non-Attack",
@@ -25653,7 +25674,7 @@ exports[`Check for unintentional updates Chokeslam (chokeslam-blue) vs snapshot 
   "cost": 4,
   "defaultImage": "CRU037",
   "defense": 3,
-  "functionalText": "**Crush** - If Chokeslam deals 4 or more damage to a hero, attack action cards they control can't gain {p} during their next action phase.",
+  "functionalText": "**Crush** - If this deals 4 or more damage to a hero, attack action cards they control can't gain {p} during their next action phase.",
   "keywords": [
     "Crush",
   ],
@@ -25661,6 +25682,11 @@ exports[`Check for unintentional updates Chokeslam (chokeslam-blue) vs snapshot 
   "pitch": 3,
   "power": 6,
   "printings": [
+    {
+      "identifier": "TCC045",
+      "image": "TCC045",
+      "set": "Round the Table",
+    },
     {
       "identifier": "1HP072",
       "image": "1HP072.width-450",
@@ -25700,10 +25726,12 @@ exports[`Check for unintentional updates Chokeslam (chokeslam-blue) vs snapshot 
   "setIdentifiers": [
     "1HP072",
     "CRU037",
+    "TCC045",
   ],
   "sets": [
     "Crucible of War",
     "History Pack 1",
+    "Round the Table",
   ],
   "specialImage": "CRU037",
   "subtypes": [
@@ -25803,7 +25831,7 @@ exports[`Check for unintentional updates Chokeslam (chokeslam-yellow) vs snapsho
   "cost": 4,
   "defaultImage": "CRU036",
   "defense": 3,
-  "functionalText": "**Crush** - If Chokeslam deals 4 or more damage to a hero, attack action cards they control can't gain {p} during their next action phase.",
+  "functionalText": "**Crush** - If this deals 4 or more damage to a hero, attack action cards they control can't gain {p} during their next action phase.",
   "keywords": [
     "Crush",
   ],
@@ -25811,6 +25839,11 @@ exports[`Check for unintentional updates Chokeslam (chokeslam-yellow) vs snapsho
   "pitch": 2,
   "power": 7,
   "printings": [
+    {
+      "identifier": "TCC040",
+      "image": "TCC040",
+      "set": "Round the Table",
+    },
     {
       "identifier": "1HP071",
       "image": "1HP071.width-450",
@@ -25850,10 +25883,12 @@ exports[`Check for unintentional updates Chokeslam (chokeslam-yellow) vs snapsho
   "setIdentifiers": [
     "1HP071",
     "CRU036",
+    "TCC040",
   ],
   "sets": [
     "Crucible of War",
     "History Pack 1",
+    "Round the Table",
   ],
   "specialImage": "CRU036",
   "subtypes": [
@@ -27308,7 +27343,7 @@ exports[`Check for unintentional updates Coax a Commotion (coax-a-commotion-red)
   "cost": 0,
   "defaultImage": "CRU180",
   "defense": 2,
-  "functionalText": "If Coax a Commotion hits, choose any number:
+  "functionalText": "When this hits, choose any number:
 
 - Each hero creates a Quicken token.
 - Each hero draws a card.
@@ -27317,6 +27352,11 @@ exports[`Check for unintentional updates Coax a Commotion (coax-a-commotion-red)
   "pitch": 1,
   "power": 4,
   "printings": [
+    {
+      "identifier": "TCC055",
+      "image": "TCC055",
+      "set": "Round the Table",
+    },
     {
       "identifier": "1HP359",
       "image": "1HP359.width-450",
@@ -27359,10 +27399,12 @@ exports[`Check for unintentional updates Coax a Commotion (coax-a-commotion-red)
   "setIdentifiers": [
     "1HP359",
     "CRU180",
+    "TCC055",
   ],
   "sets": [
     "Crucible of War",
     "History Pack 1",
+    "Round the Table",
   ],
   "specialImage": "CRU180",
   "subtypes": [
@@ -29769,12 +29811,22 @@ exports[`Check for unintentional updates Copper (copper) vs snapshot 1`] = `
     "Generic",
   ],
   "defaultImage": "EVR194.width-450",
-  "functionalText": "**Action** - {r}{r}{r}{r}, destroy Copper: Draw a card. **Go again**",
+  "functionalText": "**Action** - {r}{r}{r}{r}, destroy this: Draw a card. **Go again**",
   "keywords": [
     "Go again",
   ],
   "name": "Copper",
   "printings": [
+    {
+      "identifier": "TCC103",
+      "image": "TCC103",
+      "set": "Round the Table",
+    },
+    {
+      "identifier": "TCC108",
+      "image": "TCC108",
+      "set": "Round the Table",
+    },
     {
       "identifier": "1HP426",
       "image": "1HP426.width-450",
@@ -29818,11 +29870,6 @@ exports[`Check for unintentional updates Copper (copper) vs snapshot 1`] = `
       "image": "FAB055",
       "set": "Promos",
     },
-    {
-      "identifier": "TCC103",
-      "image": "TCC103",
-      "set": "Round the Table",
-    },
   ],
   "rarities": [
     "Common",
@@ -29831,11 +29878,12 @@ exports[`Check for unintentional updates Copper (copper) vs snapshot 1`] = `
   ],
   "rarity": "Token",
   "setIdentifiers": [
-    "TCC103",
     "1HP426",
     "CRU197",
     "EVR194",
     "FAB055",
+    "TCC103",
+    "TCC108",
   ],
   "sets": [
     "Crucible of War",
@@ -30699,7 +30747,7 @@ exports[`Check for unintentional updates Cranial Crush (cranial-crush-blue) vs s
   "cost": 6,
   "defaultImage": "WTR045",
   "defense": 3,
-  "functionalText": "**Crush** - If Cranial Crush deals 4 or more damage to a hero, they can't draw cards during their next action phase",
+  "functionalText": "**Crush** - If this  deals 4 or more damage to a hero, they can't draw cards during their next action phase",
   "keywords": [
     "Crush",
   ],
@@ -30707,6 +30755,11 @@ exports[`Check for unintentional updates Cranial Crush (cranial-crush-blue) vs s
   "pitch": 3,
   "power": 8,
   "printings": [
+    {
+      "identifier": "TCC046",
+      "image": "TCC046",
+      "set": "Round the Table",
+    },
     {
       "edition": "Alpha",
       "identifier": "WTR045",
@@ -30735,16 +30788,19 @@ exports[`Check for unintentional updates Cranial Crush (cranial-crush-blue) vs s
     },
   ],
   "rarities": [
+    "Majestic",
     "Super Rare",
   ],
-  "rarity": "Super Rare",
+  "rarity": "Majestic",
   "restrictedFormats": [
     "Commoner",
   ],
   "setIdentifiers": [
+    "TCC046",
     "WTR045",
   ],
   "sets": [
+    "Round the Table",
     "Welcome to Rathe",
   ],
   "specialImage": "WTR045",
@@ -31021,17 +31077,22 @@ exports[`Check for unintentional updates Crazy Brew (crazy-brew-blue) vs snapsho
   ],
   "cost": 0,
   "defaultImage": "WTR162",
-  "functionalText": "**Action** - Destroy Crazy Brew: Roll a 6 sided die. On;
+  "functionalText": "**Action** - Destroy this: Roll a 6 sided die. On;
 
 - 1 or 2 - Lose 2{h}. **Go again**
 - 3 or 4 - Gain 2{h}. **Go again**
-- 5 or 6 - Gain {r}{r}, gain 2 action points, and your next attack this turn gains +2{p}.",
+- 5 or 6 - Gain {r}{r}, gain 2 action points, and your next attack this turn gets +2{p}.",
   "keywords": [
     "Go again",
   ],
   "name": "Crazy Brew",
   "pitch": 3,
   "printings": [
+    {
+      "identifier": "TCC070",
+      "image": "TCC070",
+      "set": "Round the Table",
+    },
     {
       "identifier": "1HP363",
       "image": "1HP363.width-450",
@@ -31082,11 +31143,13 @@ exports[`Check for unintentional updates Crazy Brew (crazy-brew-blue) vs snapsho
   "setIdentifiers": [
     "1HP363",
     "FAB016",
+    "TCC070",
     "WTR162",
   ],
   "sets": [
     "History Pack 1",
     "Promos",
+    "Round the Table",
     "Welcome to Rathe",
   ],
   "specialImage": "WTR162",
@@ -31645,6 +31708,11 @@ exports[`Check for unintentional updates Crouching Tiger (crouching-tiger) vs sn
   "power": 0,
   "printings": [
     {
+      "identifier": "TCC104",
+      "image": "TCC104",
+      "set": "Round the Table",
+    },
+    {
       "identifier": "DYN065",
       "image": "DYN065",
       "set": "Dynasty",
@@ -31662,11 +31730,6 @@ exports[`Check for unintentional updates Crouching Tiger (crouching-tiger) vs sn
       "image": "DYN065",
       "set": "Dynasty",
     },
-    {
-      "identifier": "TCC104",
-      "image": "TCC104",
-      "set": "Round the Table",
-    },
   ],
   "rarities": [
     "Common",
@@ -31675,8 +31738,8 @@ exports[`Check for unintentional updates Crouching Tiger (crouching-tiger) vs sn
   ],
   "rarity": "Token",
   "setIdentifiers": [
-    "TCC104",
     "DYN065",
+    "TCC104",
   ],
   "sets": [
     "Dynasty",
@@ -37363,7 +37426,7 @@ exports[`Check for unintentional updates Disable (disable-blue) vs snapshot 1`] 
   "cost": 5,
   "defaultImage": "WTR050",
   "defense": 3,
-  "functionalText": "**Crush** - If Disable deals 4 or more damage to a hero, put a card from their arsenal on the bottom of its owner deck.",
+  "functionalText": "**Crush** - If this deals 4 or more damage to a hero, put a card from their arsenal on the bottom of its owner deck.",
   "keywords": [
     "Crush",
   ],
@@ -37371,6 +37434,11 @@ exports[`Check for unintentional updates Disable (disable-blue) vs snapshot 1`] 
   "pitch": 3,
   "power": 7,
   "printings": [
+    {
+      "identifier": "TCC047",
+      "image": "TCC047",
+      "set": "Round the Table",
+    },
     {
       "identifier": "1HP057",
       "image": "1HP057.width-450",
@@ -37418,11 +37486,13 @@ exports[`Check for unintentional updates Disable (disable-blue) vs snapshot 1`] 
   "setIdentifiers": [
     "1HP057",
     "BVO019",
+    "TCC047",
     "WTR050",
   ],
   "sets": [
     "Bravo Blitz Deck",
     "History Pack 1",
+    "Round the Table",
     "Welcome to Rathe",
   ],
   "specialImage": "WTR050",
@@ -37533,7 +37603,7 @@ exports[`Check for unintentional updates Disable (disable-yellow) vs snapshot 1`
   "cost": 5,
   "defaultImage": "WTR049",
   "defense": 3,
-  "functionalText": "**Crush** - If Disable deals 4 or more damage to a hero, put a card from their arsenal on the bottom of its owner deck.",
+  "functionalText": "**Crush** - If this deals 4 or more damage to a hero, put a card from their arsenal on the bottom of its owner deck.",
   "keywords": [
     "Crush",
   ],
@@ -37541,6 +37611,11 @@ exports[`Check for unintentional updates Disable (disable-yellow) vs snapshot 1`
   "pitch": 2,
   "power": 8,
   "printings": [
+    {
+      "identifier": "TCC041",
+      "image": "TCC041",
+      "set": "Round the Table",
+    },
     {
       "identifier": "1HP056",
       "image": "1HP056.width-450",
@@ -37582,10 +37657,12 @@ exports[`Check for unintentional updates Disable (disable-yellow) vs snapshot 1`
   ],
   "setIdentifiers": [
     "1HP056",
+    "TCC041",
     "WTR049",
   ],
   "sets": [
     "History Pack 1",
+    "Round the Table",
     "Welcome to Rathe",
   ],
   "specialImage": "WTR049",
@@ -41806,6 +41883,11 @@ exports[`Check for unintentional updates Edge of Autumn (edge-of-autumn) vs snap
   "power": 1,
   "printings": [
     {
+      "identifier": "TCC078",
+      "image": "TCC078",
+      "set": "Round the Table",
+    },
+    {
       "identifier": "1HP090",
       "image": "1HP090.width-450",
       "set": "History Pack 1",
@@ -41851,11 +41933,13 @@ exports[`Check for unintentional updates Edge of Autumn (edge-of-autumn) vs snap
     "1HP090",
     "CRU050",
     "IRA002",
+    "TCC078",
   ],
   "sets": [
     "Crucible of War",
     "History Pack 1",
     "Ira Welcome Deck",
+    "Round the Table",
   ],
   "specialImage": "CRU050",
   "subtypes": [
@@ -44872,10 +44956,15 @@ exports[`Check for unintentional updates Energy Potion (energy-potion-blue) vs s
   ],
   "cost": 0,
   "defaultImage": "WTR170",
-  "functionalText": "**Instant** - Destroy Energy Potion: Gain {r}{r}",
+  "functionalText": "**Instant** - Destroy this: Gain {r}{r}",
   "name": "Energy Potion",
   "pitch": 3,
   "printings": [
+    {
+      "identifier": "TCC071",
+      "image": "TCC071",
+      "set": "Round the Table",
+    },
     {
       "identifier": "1HP381",
       "image": "1HP381.width-450",
@@ -44936,6 +45025,7 @@ exports[`Check for unintentional updates Energy Potion (energy-potion-blue) vs s
     "1HP381",
     "FAB012",
     "KSU029",
+    "TCC071",
     "TEA028",
     "WTR170",
   ],
@@ -44944,6 +45034,7 @@ exports[`Check for unintentional updates Energy Potion (energy-potion-blue) vs s
     "History Pack 1",
     "Katsu Hero Deck",
     "Promos",
+    "Round the Table",
     "Welcome to Rathe",
   ],
   "specialImage": "WTR170",
@@ -51936,6 +52027,11 @@ exports[`Check for unintentional updates Flex Claws (flex-claws-red) vs snapshot
   "power": 4,
   "printings": [
     {
+      "identifier": "TCC084",
+      "image": "TCC084",
+      "set": "Round the Table",
+    },
+    {
       "identifier": "DYN050",
       "image": "DYN050",
       "set": "Dynasty",
@@ -51956,11 +52052,13 @@ exports[`Check for unintentional updates Flex Claws (flex-claws-red) vs snapshot
   ],
   "setIdentifiers": [
     "DYN050",
+    "TCC084",
   ],
   "sets": [
     "Dynasty",
+    "Round the Table",
   ],
-  "specialImage": "DYN050",
+  "specialImage": "TCC084",
   "subtypes": [
     "Attack",
   ],
@@ -51994,6 +52092,11 @@ exports[`Check for unintentional updates Flex Claws (flex-claws-yellow) vs snaps
   "power": 3,
   "printings": [
     {
+      "identifier": "TCC093",
+      "image": "TCC093",
+      "set": "Round the Table",
+    },
+    {
       "identifier": "DYN051",
       "image": "DYN051",
       "set": "Dynasty",
@@ -52014,11 +52117,13 @@ exports[`Check for unintentional updates Flex Claws (flex-claws-yellow) vs snaps
   ],
   "setIdentifiers": [
     "DYN051",
+    "TCC093",
   ],
   "sets": [
     "Dynasty",
+    "Round the Table",
   ],
-  "specialImage": "DYN051",
+  "specialImage": "TCC093",
   "subtypes": [
     "Attack",
   ],
@@ -53022,11 +53127,16 @@ exports[`Check for unintentional updates Flying Kick (flying-kick-blue) vs snaps
   "cost": 2,
   "defaultImage": "CRU065",
   "defense": 3,
-  "functionalText": "If Flying Kick is played as chain link 3 or higher, it gains +2{p}.",
+  "functionalText": "If Flying Kick is played as chain link 3 or higher, it gets +2{p}.",
   "name": "Flying Kick",
   "pitch": 3,
   "power": 3,
   "printings": [
+    {
+      "identifier": "TCC099",
+      "image": "TCC099",
+      "set": "Round the Table",
+    },
     {
       "edition": "First",
       "identifier": "CRU065",
@@ -53060,9 +53170,11 @@ exports[`Check for unintentional updates Flying Kick (flying-kick-blue) vs snaps
   "rarity": "Common",
   "setIdentifiers": [
     "CRU065",
+    "TCC099",
   ],
   "sets": [
     "Crucible of War",
+    "Round the Table",
   ],
   "specialImage": "CRU065",
   "subtypes": [
@@ -53087,11 +53199,16 @@ exports[`Check for unintentional updates Flying Kick (flying-kick-red) vs snapsh
   "cost": 2,
   "defaultImage": "CRU063",
   "defense": 3,
-  "functionalText": "If Flying Kick is played as chain link 3 or higher, it gains +2{p}.",
+  "functionalText": "If Flying Kick is played as chain link 3 or higher, it gets +2{p}.",
   "name": "Flying Kick",
   "pitch": 1,
   "power": 5,
   "printings": [
+    {
+      "identifier": "TCC085",
+      "image": "TCC085",
+      "set": "Round the Table",
+    },
     {
       "edition": "First",
       "identifier": "CRU063",
@@ -53132,10 +53249,12 @@ exports[`Check for unintentional updates Flying Kick (flying-kick-red) vs snapsh
   "setIdentifiers": [
     "CRU063",
     "IRA007",
+    "TCC085",
   ],
   "sets": [
     "Crucible of War",
     "Ira Welcome Deck",
+    "Round the Table",
   ],
   "specialImage": "CRU063",
   "subtypes": [
@@ -60769,13 +60888,18 @@ exports[`Check for unintentional updates Healing Potion (healing-potion-blue) vs
   ],
   "cost": 0,
   "defaultImage": "EVR183.width-450",
-  "functionalText": "**Action** - Destroy Healing Potion: Gain 2{h}. **Go again**",
+  "functionalText": "**Action** - Destroy this: Gain 2{h}. **Go again**",
   "keywords": [
     "Go again",
   ],
   "name": "Healing Potion",
   "pitch": 3,
   "printings": [
+    {
+      "identifier": "TCC072",
+      "image": "TCC072",
+      "set": "Round the Table",
+    },
     {
       "edition": "First",
       "identifier": "EVR183",
@@ -60799,9 +60923,11 @@ exports[`Check for unintentional updates Healing Potion (healing-potion-blue) vs
   ],
   "setIdentifiers": [
     "EVR183",
+    "TCC072",
   ],
   "sets": [
     "Everfest",
+    "Round the Table",
   ],
   "specialImage": "EVR183.width-450",
   "subtypes": [
@@ -71616,12 +71742,17 @@ exports[`Check for unintentional updates Ira, Crimson Haze (ira-crimson-haze) vs
     "Ninja",
   ],
   "defaultImage": "CRU046",
-  "functionalText": "Your second attack each turn gains +1{p}.",
+  "functionalText": "Your second attack each turn gets +1{p}.",
   "hero": "Ira",
   "intellect": 4,
   "life": 20,
   "name": "Ira, Crimson Haze",
   "printings": [
+    {
+      "identifier": "TCC077",
+      "image": "TCC077",
+      "set": "Round the Table",
+    },
     {
       "identifier": "1HP089",
       "image": "1HP089.width-450",
@@ -71664,11 +71795,6 @@ exports[`Check for unintentional updates Ira, Crimson Haze (ira-crimson-haze) vs
       "image": "IRA001-P_EUmBrk0.width-450",
       "set": "Ira Welcome Deck",
     },
-    {
-      "identifier": "TCC077",
-      "image": "TCC077",
-      "set": "Round the Table",
-    },
   ],
   "rarities": [
     "Common",
@@ -71679,11 +71805,11 @@ exports[`Check for unintentional updates Ira, Crimson Haze (ira-crimson-haze) vs
     "Classic Constructed",
   ],
   "setIdentifiers": [
-    "TCC077",
     "1HP089",
     "CRU046",
     "HER000",
     "IRA001",
+    "TCC077",
   ],
   "sets": [
     "Crucible of War",
@@ -75909,6 +76035,11 @@ exports[`Check for unintentional updates Leg Tap (leg-tap-red) vs snapshot 1`] =
   "power": 4,
   "printings": [
     {
+      "identifier": "TCC087",
+      "image": "TCC087",
+      "set": "Round the Table",
+    },
+    {
       "identifier": "1HP116",
       "image": "1HP116.width-450",
       "set": "History Pack 1",
@@ -75952,11 +76083,13 @@ exports[`Check for unintentional updates Leg Tap (leg-tap-red) vs snapshot 1`] =
   "setIdentifiers": [
     "1HP116",
     "KSU012",
+    "TCC087",
     "WTR101",
   ],
   "sets": [
     "History Pack 1",
     "Katsu Hero Deck",
+    "Round the Table",
     "Welcome to Rathe",
   ],
   "specialImage": "WTR101",
@@ -75990,6 +76123,11 @@ exports[`Check for unintentional updates Leg Tap (leg-tap-yellow) vs snapshot 1`
   "pitch": 2,
   "power": 3,
   "printings": [
+    {
+      "identifier": "TCC095",
+      "image": "TCC095",
+      "set": "Round the Table",
+    },
     {
       "identifier": "1HP117",
       "image": "1HP117.width-450",
@@ -76034,11 +76172,13 @@ exports[`Check for unintentional updates Leg Tap (leg-tap-yellow) vs snapshot 1`
   "setIdentifiers": [
     "1HP117",
     "KSU018",
+    "TCC095",
     "WTR102",
   ],
   "sets": [
     "History Pack 1",
     "Katsu Hero Deck",
+    "Round the Table",
     "Welcome to Rathe",
   ],
   "specialImage": "WTR102",
@@ -76881,6 +77021,11 @@ exports[`Check for unintentional updates Life of the Party (life-of-the-party-re
   "power": 4,
   "printings": [
     {
+      "identifier": "TCC056",
+      "image": "TCC056",
+      "set": "Round the Table",
+    },
+    {
       "edition": "First",
       "identifier": "EVR161",
       "image": "EVR161.width-450",
@@ -76912,10 +77057,12 @@ exports[`Check for unintentional updates Life of the Party (life-of-the-party-re
   "setIdentifiers": [
     "EVR161",
     "LGS084",
+    "TCC056",
   ],
   "sets": [
     "Everfest",
     "Promos",
+    "Round the Table",
   ],
   "specialImage": "LGS084",
   "subtypes": [
@@ -88621,9 +88768,9 @@ exports[`Check for unintentional updates Over Loop (over-loop-red) vs snapshot 1
   "cost": 2,
   "defaultImage": "ARC020",
   "defense": 3,
-  "functionalText": "When this hits, put it on the bottom of its owner's deck.
+  "functionalText": "**Boost**
 
-**Boost**",
+When this hits, put it on the bottom of its owner's deck.",
   "keywords": [
     "Boost",
   ],
@@ -88631,6 +88778,11 @@ exports[`Check for unintentional updates Over Loop (over-loop-red) vs snapshot 1
   "pitch": 1,
   "power": 5,
   "printings": [
+    {
+      "identifier": "TCC014",
+      "image": "TCC014",
+      "set": "Round the Table",
+    },
     {
       "identifier": "1HP205",
       "image": "1HP205.width-450",
@@ -88687,11 +88839,13 @@ exports[`Check for unintentional updates Over Loop (over-loop-red) vs snapshot 1
     "ARC020",
     "LGS013",
     "LGS032",
+    "TCC014",
   ],
   "sets": [
     "Arcane Rising",
     "History Pack 1",
     "Promos",
+    "Round the Table",
   ],
   "specialImage": "LGS013",
   "subtypes": [
@@ -94447,13 +94601,18 @@ exports[`Check for unintentional updates Potion of Strength (potion-of-strength-
   ],
   "cost": 0,
   "defaultImage": "WTR171",
-  "functionalText": "**Action** - Destroy Potion of Strength: Your next attack this turn gains +2{p}. **Go again**",
+  "functionalText": "**Action** - Destroy this: Your next attack this turn gets +2{p}. **Go again**",
   "keywords": [
     "Go again",
   ],
   "name": "Potion of Strength",
   "pitch": 3,
   "printings": [
+    {
+      "identifier": "TCC073",
+      "image": "TCC073",
+      "set": "Round the Table",
+    },
     {
       "identifier": "1HP382",
       "image": "1HP382.width-450",
@@ -94509,12 +94668,14 @@ exports[`Check for unintentional updates Potion of Strength (potion-of-strength-
     "1HP382",
     "BVO028",
     "FAB013",
+    "TCC073",
     "WTR171",
   ],
   "sets": [
     "Bravo Blitz Deck",
     "History Pack 1",
     "Promos",
+    "Round the Table",
     "Welcome to Rathe",
   ],
   "specialImage": "WTR171",
@@ -94641,7 +94802,7 @@ exports[`Check for unintentional updates Pouncing Qi (pouncing-qi-red) vs snapsh
   "cost": 0,
   "defaultImage": "DYN056",
   "defense": 3,
-  "functionalText": "**Combo** - If Crouching Tiger was the last attack this combat chain, Pouncing Qi has +1{p} and **go again**.",
+  "functionalText": "**Combo** - If Crouching Tiger was the last attack this combat chain, this gets +1{p} and **go again**.",
   "keywords": [
     "Combo",
     "Go again",
@@ -94650,6 +94811,11 @@ exports[`Check for unintentional updates Pouncing Qi (pouncing-qi-red) vs snapsh
   "pitch": 1,
   "power": 3,
   "printings": [
+    {
+      "identifier": "TCC089",
+      "image": "TCC089",
+      "set": "Round the Table",
+    },
     {
       "identifier": "DYN056",
       "image": "DYN056",
@@ -94668,11 +94834,13 @@ exports[`Check for unintentional updates Pouncing Qi (pouncing-qi-red) vs snapsh
   "rarity": "Common",
   "setIdentifiers": [
     "DYN056",
+    "TCC089",
   ],
   "sets": [
     "Dynasty",
+    "Round the Table",
   ],
-  "specialImage": "DYN056",
+  "specialImage": "TCC089",
   "subtypes": [
     "Attack",
   ],
@@ -95758,6 +95926,11 @@ exports[`Check for unintentional updates Predatory Streak (predatory-streak-blue
   "pitch": 3,
   "printings": [
     {
+      "identifier": "TCC101",
+      "image": "TCC101",
+      "set": "Round the Table",
+    },
+    {
       "identifier": "DYN064",
       "image": "DYN064",
       "set": "Dynasty",
@@ -95784,10 +95957,12 @@ exports[`Check for unintentional updates Predatory Streak (predatory-streak-blue
   "setIdentifiers": [
     "DYN064",
     "LGS124",
+    "TCC101",
   ],
   "sets": [
     "Dynasty",
     "Promos",
+    "Round the Table",
   ],
   "specialImage": "LGS124",
   "subtypes": [
@@ -95886,6 +96061,11 @@ exports[`Check for unintentional updates Predatory Streak (predatory-streak-yell
   "pitch": 2,
   "printings": [
     {
+      "identifier": "TCC097",
+      "image": "TCC097",
+      "set": "Round the Table",
+    },
+    {
       "identifier": "DYN063",
       "image": "DYN063",
       "set": "Dynasty",
@@ -95912,10 +96092,12 @@ exports[`Check for unintentional updates Predatory Streak (predatory-streak-yell
   "setIdentifiers": [
     "DYN063",
     "LGS123",
+    "TCC097",
   ],
   "sets": [
     "Dynasty",
     "Promos",
+    "Round the Table",
   ],
   "specialImage": "LGS123",
   "subtypes": [
@@ -99991,18 +100173,24 @@ exports[`Check for unintentional updates Quicken (quicken) vs snapshot 1`] = `
 {
   "artists": [
     "King Fung Ng",
+    "Tomasz Jedruszek",
   ],
   "cardIdentifier": "quicken",
   "classes": [
     "Generic",
   ],
   "defaultImage": "DTD234",
-  "functionalText": "When you play an attack action card or activate a weapon attack, destroy Quicken and the attack gains **go again**.",
+  "functionalText": "When you play an attack action card or activate a weapon attack, destroy this and the attack gains go again.",
   "keywords": [
     "Go again",
   ],
   "name": "Quicken",
   "printings": [
+    {
+      "identifier": "TCC106",
+      "image": "TCC106",
+      "set": "Round the Table",
+    },
     {
       "identifier": "1HP427",
       "image": "1HP427_Quicken.width-10000",
@@ -100079,6 +100267,7 @@ exports[`Check for unintentional updates Quicken (quicken) vs snapshot 1`] = `
     "DVR028",
     "EVR196",
     "RNR031",
+    "TCC106",
     "TEA030",
     "WTR225",
     "XXX009",
@@ -100092,6 +100281,7 @@ exports[`Check for unintentional updates Quicken (quicken) vs snapshot 1`] = `
     "History Pack 1",
     "Promos",
     "Rhinar Hero Deck",
+    "Round the Table",
     "Welcome to Rathe",
   ],
   "specialImage": "CRU196",
@@ -113558,11 +113748,16 @@ exports[`Check for unintentional updates Salt the Wound (salt-the-wound-yellow) 
   "cost": 0,
   "defaultImage": "CRU073",
   "defense": 3,
-  "functionalText": "Salt the Wound gains +1{p} for each attack that has hit this combat chain.",
+  "functionalText": "This gets +1{p} for each attack that has hit this combat chain.",
   "name": "Salt the Wound",
   "pitch": 2,
   "power": 2,
   "printings": [
+    {
+      "identifier": "TCC096",
+      "image": "TCC096",
+      "set": "Round the Table",
+    },
     {
       "identifier": "1HP135",
       "image": "1HP135.width-450",
@@ -113615,12 +113810,14 @@ exports[`Check for unintentional updates Salt the Wound (salt-the-wound-yellow) 
     "BEN020",
     "CRU073",
     "IRA004",
+    "TCC096",
   ],
   "sets": [
     "Benji Blitz Deck",
     "Crucible of War",
     "History Pack 1",
     "Ira Welcome Deck",
+    "Round the Table",
   ],
   "specialImage": "CRU073",
   "subtypes": [
@@ -122749,6 +122946,11 @@ exports[`Check for unintentional updates Sigil of Solace (sigil-of-solace-red) v
   "pitch": 1,
   "printings": [
     {
+      "identifier": "TCC059",
+      "image": "TCC059",
+      "set": "Round the Table",
+    },
+    {
       "identifier": "1HP387",
       "image": "1HP387.width-450",
       "set": "History Pack 1",
@@ -122802,12 +123004,14 @@ exports[`Check for unintentional updates Sigil of Solace (sigil-of-solace-red) v
     "1HP387",
     "DRO026",
     "FAB136",
+    "TCC059",
     "WTR173",
   ],
   "sets": [
     "Dromai Blitz Deck",
     "History Pack 1",
     "Promos",
+    "Round the Table",
     "Welcome to Rathe",
   ],
   "specialImage": "WTR173",
@@ -140725,7 +140929,7 @@ exports[`Check for unintentional updates Tearing Shuko (tearing-shuko) vs snapsh
   ],
   "defaultImage": "DYN046",
   "defense": 1,
-  "functionalText": "**Instant** - Destroy Tearing Shuko: The next Crouching Tiger you play this turn gains +2{p}.
+  "functionalText": "**Instant** - Destroy this: The next Crouching Tiger you play this turn gets +2{p}.
 
 **Battleworn**",
   "keywords": [
@@ -140733,6 +140937,11 @@ exports[`Check for unintentional updates Tearing Shuko (tearing-shuko) vs snapsh
   ],
   "name": "Tearing Shuko",
   "printings": [
+    {
+      "identifier": "TCC081",
+      "image": "TCC081",
+      "set": "Round the Table",
+    },
     {
       "identifier": "DYN046",
       "image": "DYN046",
@@ -140757,11 +140966,13 @@ exports[`Check for unintentional updates Tearing Shuko (tearing-shuko) vs snapsh
   "rarity": "Rare",
   "setIdentifiers": [
     "DYN046",
+    "TCC081",
   ],
   "sets": [
     "Dynasty",
+    "Round the Table",
   ],
-  "specialImage": "DYN046",
+  "specialImage": "TCC081",
   "subtypes": [
     "Arms",
   ],
@@ -142530,6 +142741,11 @@ exports[`Check for unintentional updates Throttle (throttle-blue) vs snapshot 1`
   "power": 4,
   "printings": [
     {
+      "identifier": "TCC025",
+      "image": "TCC025",
+      "set": "Round the Table",
+    },
+    {
       "identifier": "1HP210",
       "image": "1HP210.width-450",
       "set": "History Pack 1",
@@ -142569,10 +142785,12 @@ exports[`Check for unintentional updates Throttle (throttle-blue) vs snapshot 1`
   "setIdentifiers": [
     "1HP210",
     "ARC025",
+    "TCC025",
   ],
   "sets": [
     "Arcane Rising",
     "History Pack 1",
+    "Round the Table",
   ],
   "specialImage": "ARC025-RF",
   "subtypes": [
@@ -142605,6 +142823,11 @@ exports[`Check for unintentional updates Throttle (throttle-red) vs snapshot 1`]
   "pitch": 1,
   "power": 6,
   "printings": [
+    {
+      "identifier": "TCC015",
+      "image": "TCC015",
+      "set": "Round the Table",
+    },
     {
       "identifier": "1HP208",
       "image": "1HP208.width-450",
@@ -142645,10 +142868,12 @@ exports[`Check for unintentional updates Throttle (throttle-red) vs snapshot 1`]
   "setIdentifiers": [
     "1HP208",
     "ARC023",
+    "TCC015",
   ],
   "sets": [
     "Arcane Rising",
     "History Pack 1",
+    "Round the Table",
   ],
   "specialImage": "ARC023-RF",
   "subtypes": [
@@ -142681,6 +142906,11 @@ exports[`Check for unintentional updates Throttle (throttle-yellow) vs snapshot 
   "pitch": 2,
   "power": 5,
   "printings": [
+    {
+      "identifier": "TCC020",
+      "image": "TCC020",
+      "set": "Round the Table",
+    },
     {
       "identifier": "1HP209",
       "image": "1HP209.width-450",
@@ -142721,10 +142951,12 @@ exports[`Check for unintentional updates Throttle (throttle-yellow) vs snapshot 
   "setIdentifiers": [
     "1HP209",
     "ARC024",
+    "TCC020",
   ],
   "sets": [
     "Arcane Rising",
     "History Pack 1",
+    "Round the Table",
   ],
   "specialImage": "ARC024-RF",
   "subtypes": [
@@ -143607,10 +143839,15 @@ exports[`Check for unintentional updates Timesnap Potion (timesnap-potion-blue) 
   ],
   "cost": 0,
   "defaultImage": "WTR172",
-  "functionalText": "**Action** - Destroy Timesnap Potion: Gain 2 action points.",
+  "functionalText": "**Action** - Destroy this: Gain 2 action points.",
   "name": "Timesnap Potion",
   "pitch": 3,
   "printings": [
+    {
+      "identifier": "TCC074",
+      "image": "TCC074",
+      "set": "Round the Table",
+    },
     {
       "identifier": "1HP383",
       "image": "1HP383.width-450",
@@ -143666,12 +143903,14 @@ exports[`Check for unintentional updates Timesnap Potion (timesnap-potion-blue) 
     "1HP383",
     "FAB014",
     "RNR029",
+    "TCC074",
     "WTR172",
   ],
   "sets": [
     "History Pack 1",
     "Promos",
     "Rhinar Hero Deck",
+    "Round the Table",
     "Welcome to Rathe",
   ],
   "specialImage": "WTR172",
@@ -159256,6 +159495,11 @@ exports[`Check for unintentional updates Zero to Sixty (zero-to-sixty-red) vs sn
   "power": 4,
   "printings": [
     {
+      "identifier": "TCC017",
+      "image": "TCC017",
+      "set": "Round the Table",
+    },
+    {
       "identifier": "1HP211",
       "image": "1HP211.width-450",
       "set": "History Pack 1",
@@ -159295,10 +159539,12 @@ exports[`Check for unintentional updates Zero to Sixty (zero-to-sixty-red) vs sn
   "setIdentifiers": [
     "1HP211",
     "ARC026",
+    "TCC017",
   ],
   "sets": [
     "Arcane Rising",
     "History Pack 1",
+    "Round the Table",
   ],
   "specialImage": "ARC026-RF",
   "subtypes": [
@@ -159484,6 +159730,11 @@ exports[`Check for unintentional updates Zipper Hit (zipper-hit-red) vs snapshot
   "power": 5,
   "printings": [
     {
+      "identifier": "TCC018",
+      "image": "TCC018",
+      "set": "Round the Table",
+    },
+    {
       "identifier": "1HP214",
       "image": "1HP214.width-450",
       "set": "History Pack 1",
@@ -159523,10 +159774,12 @@ exports[`Check for unintentional updates Zipper Hit (zipper-hit-red) vs snapshot
   "setIdentifiers": [
     "1HP214",
     "ARC029",
+    "TCC018",
   ],
   "sets": [
     "Arcane Rising",
     "History Pack 1",
+    "Round the Table",
   ],
   "specialImage": "ARC029-RF",
   "subtypes": [
@@ -159559,6 +159812,11 @@ exports[`Check for unintentional updates Zipper Hit (zipper-hit-yellow) vs snaps
   "pitch": 2,
   "power": 4,
   "printings": [
+    {
+      "identifier": "TCC021",
+      "image": "TCC021",
+      "set": "Round the Table",
+    },
     {
       "identifier": "1HP215",
       "image": "1HP215.width-450",
@@ -159599,10 +159857,12 @@ exports[`Check for unintentional updates Zipper Hit (zipper-hit-yellow) vs snaps
   "setIdentifiers": [
     "1HP215",
     "ARC030",
+    "TCC021",
   ],
   "sets": [
     "Arcane Rising",
     "History Pack 1",
+    "Round the Table",
   ],
   "specialImage": "ARC030-RF",
   "subtypes": [

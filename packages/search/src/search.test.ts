@@ -6,7 +6,7 @@ const exactSearches = [
   // Abbreviations & shorthands
   [3, "bbd"],
   [2, "cnc"],
-  [168, "poppers"],
+  [172, "poppers"],
   [1, "newminaris"],
 
   // Sets
@@ -65,7 +65,7 @@ const exactSearches = [
   [1, "this round's on me", "this round’s on me", "this rounds on me"],
 
   // Text
-  [18, "text:copper"],
+  [19, "text:copper"],
 
   // Chain
   [10, "chain:dishonor"],
@@ -76,7 +76,7 @@ const exactSearches = [
   [1, "referencedBy:Viserai"],
 
   // References
-  [17, "references:copper"],
+  [19, "references:copper"],
 ];
 
 describe("Card search", () => {

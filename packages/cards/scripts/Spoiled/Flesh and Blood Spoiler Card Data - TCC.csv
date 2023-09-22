@@ -1,151 +1,190 @@
 Identifiers,Set Identifiers,Name,Pitch,Cost,Power,Defense,Life,Intelligence,Types,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,Rarity,Foiling,Art Variation,Artist,Flavor Text,Image URL,Rarity 2,Foiling 2,Art Variation 2,Artist 2,Flavor Text 2,Image URL 2
 TCC001,TCC,Professor Teklovossen,,,,,20,4,"Mechanologist, Hero, Young",,,,,,,"Evos cost {r} less to play for each opposing hero.
 
-You may play Evos from your banished zone.",Mechanologist Hero - Young,,,No,No,M,,,Simon Dominic,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC001_yajPa8R.width-450.format-webp.webp,,,,,,
-TCC002,TCC,Teklo Blaster,,,2,,,,"Mechanologist, Weapon, Gun, 2H","Once per Turn Action, Attack",,,,,,**Once per Turn Action** - {r}{r}{r}: **Attack**,Mechanologist Weapon - Gun (2H),,,,,R,,,Irina Si,,/TCC002.webp,,,,,,
-TCC003,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC004,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC005,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC006,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+You may play Evos from your banished zone.",Mechanologist Hero - Young,,,No,No,M,,,Simon Dominic,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC001.png,,,,,,
+TCC002,TCC,Teklo Blaster,,,2,,,,"Mechanologist, Weapon, Gun, 2H","Once per Turn Action, Attack",,,,,,**Once per Turn Action** - {r}{r}{r}: **Attack**,Mechanologist Weapon - Gun (2H),,,,,R,,,Irina Si,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC002.png,,,,,,
+TCC003,TCC,Proto Base Arms,,,,,,,"Mechanologist, Equipment, Base, Arms",,,,,,,,Mechanologist Equipment - Base Arms,,,,Yes,C,,,Vlas Tashkinov,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC003.png,,,,,,
+TCC004,TCC,Proto Base Chest,,,,,,,"Mechanologist, Equipment, Base, Chest",,,,,,,,Mechanologist Equipment - Base Chest,,,,Yes,C,,,Dmitry Semyonov,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC004.png,,,,,,
+TCC005,TCC,Proto Base Head,,,,,,,"Mechanologist, Equipment, Base, Head",,,,,,,,Mechanologist Equipment - Base Head,,,,Yes,C,,,Grigoriy Parshakov,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC005.png,,,,,,
+TCC006,TCC,Proto Base Legs,,,,,,,"Mechanologist, Equipment, Base, Legs",,,,,,,,Mechanologist Equipment - Base Legs,,,,Yes,C,,,Revazashvili E.,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC006.png,,,,,,
 TCC007,TCC,Evo Tekloscope,3,3,,2,,,"Mechanologist, Action, Equipment, Evo, Head","Transform, Battleworn",,,,,,"If you have a base head equipped, **transform** it into this, then equip this.
 
 Your Teklo Blaster attacks can target any opposing hero.
 
-**Battleworn**",Mechanologist Action Equipment - Evo Head,,,,No,R,,,Revazashvili E.,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC007_yajPa8R.width-450.format-webp.webp,,,,,,
+**Battleworn**",Mechanologist Action Equipment - Evo Head,,,,No,R,,,Revazashvili E.,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC007.png,,,,,,
 TCC008,TCC,Evo Energy Matrix,3,3,,2,,,"Mechanologist, Action, Equipment, Evo, Chest","Transform, Battleworn",,,,,,"If you have a base chest equipped, **transform** it into this, then equip this.
 
 Your Teklo Blaster attacks cost {r} less to activate for each opposing hero.
 
-**Battleworn**",Mechanologist Action Equipment - Evo Chest,,,,No,R,,,Elena Bakulina,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC008_yajPa8R.width-450.format-webp.webp,,,,,,
+**Battleworn**",Mechanologist Action Equipment - Evo Chest,,,,No,R,,,Elena Bakulina,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC008.png,,,,,,
 TCC009,TCC,Evo Scatter Shot,3,3,,2,,,"Mechanologist, Action, Equipment, Evo, Arms","Transform, Battleworn",,,,,,"If you have a base arms equipped, **transform** it into this, then equip this.
 
 Your Teklo Blaster attacks gets +1{p} for each opposing hero.
 
-**Battleworn**",Mechanologist Action Equipment - Evo Arms,,,,No,R,,,Anastasia Pronina,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC009_yajPa8R.width-450.format-webp.webp,,,,,,
+**Battleworn**",Mechanologist Action Equipment - Evo Arms,,,,No,R,,,Anastasia Pronina,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC009.png,,,,,,
 TCC010,TCC,Evo Rapid Fire,3,3,,2,,,"Mechanologist, Action, Equipment, Evo, Legs","Transform, Battleworn, Go again",,,,,,"""If you have a base legs equipped, **transform** it into this, then equip this.
 
 Your Teklo Blaster attacks gets **go again**.
 
-**Battleworn**""",Mechanologist Action Equipment - Evo Legs,,,,No,R,,,Irina Si,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC010_yajPa8R.width-450.format-webp.webp,,,,,,
+**Battleworn**""",Mechanologist Action Equipment - Evo Legs,,,,No,R,,,Irina Si,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC010.png,,,,,,
 TCC011,TCC,Apocalypse Automaton,1,3,6,3,,,"Mechanologist, Action, Attack",Evo Upgrade,,,,,,"Play this only if you have 1 or more Evos equipped.
 
-**Evo Upgrade** - This attacks up to X target opposing heroes, where X is the number of Evos you have equipped.",Mechanologist Action - Attack,,,,No,M,,,Simon Dominic,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC011_yajPa8R.width-450.format-webp.webp,,,,,,
-TCC012,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC013,TCC,Mechanical Strength,1,3,5,3,,,"Mechanologist, Action, Attack",Evo Upgrade,,,,,,"**Evo Upgrade** - This gets +X{p}, where X is the number of Evos you have equipped.",Mechanologist Action - Attack,,,,No,R,,,Tomasz Jedruszek,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC013_yajPa8R.width-450.format-webp.webp,,,,,,
-TCC014,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC015,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC016,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC017,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC018,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC019,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC020,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC021,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC022,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC023,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC024,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC025,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC026,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Evo Upgrade** - This attacks up to X target opposing heroes, where X is the number of Evos you have equipped.",Mechanologist Action - Attack,,,,No,M,,,Simon Dominic,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC011.png,,,,,,
+TCC012,TCC,Liquid-Cooled Mayhem,1,4,6,3,,,"Mechanologist, Action, Attack",Evo Upgrade,,,,,,**Evo Upgrade** - This costs 1 {r} less to play for each Evo you have equipped.,Mechanologist Action - Attack,,,,No,R,,,Tanapon Wachirakul,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC012.png,,,,,,
+TCC013,TCC,Mechanical Strength,1,3,5,3,,,"Mechanologist, Action, Attack",Evo Upgrade,,,,,,"**Evo Upgrade** - This gets +X{p}, where X is the number of Evos you have equipped.",Mechanologist Action - Attack,,,,No,R,,,Tomasz Jedruszek,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC013.png,,,,,,
+TCC014,TCC,Over Loop,1,2,5,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
+
+When this hits, put it on the bottom of its owner's deck.",Mechanologist Action - Attack,,,,Yes,C,,,Mikhail Babkin,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC014.png,,,,,,
+TCC015,TCC,Throttle,1,2,6,3,,,"Mechanologist, Action, Attack",Boost,,,,,,**Boost**,Mechanologist Action - Attack,,,,Yes,C,,,Kevin Sidharta,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC015.png,,,,,,
+TCC016,TCC,Under Loop,1,1,4,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
+
+When this hits, put it on the bottom of its owner's deck.",Mechanologist Action - Attack,,,,Yes,C,,,Artur Treffner,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC016.png,,,,,,
+TCC017,TCC,Zero to Sixty,1,0,4,3,,,"Mechanologist, Action, Attack",Boost,,,,,,**Boost**,Mechanologist Action - Attack,,,,Yes,C,,,Fedor Barkhatov,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC017.png,,,,,,
+TCC018,TCC,Zipper Hit,1,1,5,3,,,"Mechanologist, Action, Attack",Boost,,,,,,**Boost**,Mechanologist Action - Attack,,,,Yes,C,,,Sergey Gurskiy,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC018.png,,,,,,
+TCC019,TCC,Firewall,1,,,4,,,"Mechanologist, Block",,,,,,,"When this defends, reveal the top card of your deck. If it's an Evo, put it on top of your deck. Otherwise, put it on the bottom.",Mechanologist Block,,,,No,R,,,Ricordan Delmiro,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC019.png,,,,,,
+TCC020,TCC,Throttle,2,2,5,3,,,"Mechanologist, Action, Attack",Boost,,,,,,**Boost**,Mechanologist Action - Attack,,,,Yes,C,,,Kevin Sidharta,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC020.png,,,,,,
+TCC021,TCC,Zipper Hit,2,1,4,3,,,"Mechanologist, Action, Attack",Boost,,,,,,**Boost**,Mechanologist Action - Attack,,,,Yes,C,,,Sergey Gurskiy,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC021.png,,,,,,
+TCC022,TCC,Firewall,2,,,3,,,"Mechanologist, Block",,,,,,,"When this defends, reveal the top card of your deck. If it's an Evo, put it on top of your deck. Otherwise, put it on the bottom.",Mechanologist Block,,,,No,R,,,Ricordan Delmiro,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC022.png,,,,,,
+TCC023,TCC,Liquid-Cooled Mayhem,3,4,4,3,,,"Mechanologist, Action, Attack",Evo Upgrade,,,,,,**Evo Upgrade** - This costs 1 {r} less to play for each Evo you have equipped.,Mechanologist Action - Attack,,,,No,R,,,Tanapon Wachirakul,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC023.png,,,,,,
+TCC024,TCC,Mechanical Strength,3,3,3,3,,,"Mechanologist, Action, Attack",Evo Upgrade,,,,,,"**Evo Upgrade** - This gets +X{p}, where X is the number of Evos you have equipped.",Mechanologist Action - Attack,,,,No,R,,,Tomasz Jedruszek,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC024.png,,,,,,
+TCC025,TCC,Throttle,3,2,4,3,,,"Mechanologist, Action, Attack",Boost,,,,,,**Boost**,Mechanologist Action - Attack,,,,Yes,C,,,Kevin Sidharta,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC025.png,,,,,,
+TCC026,TCC,Firewall,3,,,2,,,"Mechanologist, Block",,,,,,,"When this defends, reveal the top card of your deck. If it's an Evo, put it on top of your deck. Otherwise, put it on the bottom.",Mechanologist Block,,,,No,R,,,Ricordan Delmiro,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC026.png,,,,,,
 TCC027,TCC,"Brevant, Civic Protector",,,,,20,4,"Guardian, Hero, Young",Protect,,,,,,"You may have any number of Chivalry in your deck.
 
-Whenever you **protect** another hero, create a Might token.",Guardian Hero - Young,,,No,No,M,,,Isuardi Therianto,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC027_yajPa8R.width-450.format-webp.webp,,,,,,
+Whenever you **protect** another hero, create a Might token.",Guardian Hero - Young,,,No,No,M,,,Isuardi Therianto,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC027.png,,,,,,
 TCC028,TCC,Hammer of Havenhold,,,3,,,,"Guardian, Weapon, Hammer, 1H","Once per Turn Action, Attack",,,,,,"**Once per Turn Action** - {r}{r}{r}: **Attack**
 
-If you have a Chivalray in your pitch zone, this gets +1{p}.",Guardian Weapon - Hammer (1H),,,,,R,,,Junaidi Lim,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC028_yajPa8R.width-450.format-webp.webp,,,,,,
+If you have a Chivalray in your pitch zone, this gets +1{p}.",Guardian Weapon - Hammer (1H),,,,,R,,,Junaidi Lim,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC028.png,,,,,,
 TCC029,TCC,Bastion of Duty,,,,2,,,"Guardian, Equipment, Off-Hand","Protect, Temper",,,,,,"**Protect**
 
-**Temper**",Guardian Equipment - Off-Hand,,,,,R,,,Jessketchin,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC029_yajPa8R.width-450.format-webp.webp,,,,,,
+**Temper**",Guardian Equipment - Off-Hand,,,,,R,,,Jessketchin,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC029.png,,,,,,
 TCC030,TCC,Civic Peak,,,,2,,,"Guardian, Equipment, Head",Temper,,,,,,"Whenever this defends, another target hero draws a card.
 
-**Temper**",Guardian Equipment - Head,,,,,R,,,Wisnu Tan,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC030_yajPa8R.width-450.format-webp.webp,,,,,,
+**Temper**",Guardian Equipment - Head,,,,,R,,,Wisnu Tan,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC030.png,,,,,,
 TCC031,TCC,Civic Duty,,,,2,,,"Guardian, Equipment, Chest",Temper,,,,,,"Whenever this defends, create a Vigor token under another hero's control.
 
-**Temper**",Guardian Equipment - Chest,,,,,R,,,Wisnu Tan,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC031_yajPa8R.width-450.format-webp.webp,,,,,,
+**Temper**",Guardian Equipment - Chest,,,,,R,,,Wisnu Tan,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC031.png,,,,,,
 TCC032,TCC,Civic Guide,,,,2,,,"Guardian, Equipment, Arms",Temper,,,,,,"Whenever this defends, create a Might token under another hero's control.
 
-**Temper**",Guardian Equipment - Arms,,,,,R,,,Wisnu Tan,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC032_yajPa8R.width-450.format-webp.webp,,,,,,
+**Temper**",Guardian Equipment - Arms,,,,,R,,,Wisnu Tan,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC032.png,,,,,,
 TCC033,TCC,Civic Steps,,,,2,,,"Guardian, Equipment, Legs",Temper,,,,,,"Whenever this defends, create a Quicken token under another hero's control.
 
-**Temper**",Guardian Equipment - Legs,,,,,R,,,Wisnu Tan,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC033_yajPa8R.width-450.format-webp.webp,,,,,,
-TCC034,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC035,TCC,Lay Down the Law,1,3,7,3,,,"Guardian, Action, Attack",Tower,,,,,,"**Tower** - If this has 13 or more {p}, non-equipment cards get -1{d} while defending this.",Guardian Action - Attack,,,,No,R,,,Marco Wulfr,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC035_yajPa8R.width-450.format-webp.webp,,,,,,
-TCC036,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC037,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC038,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC039,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC040,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC041,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC042,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC043,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC044,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC045,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC046,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC047,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC048,TCC,Chivalry,3,,,3,,,"Guardian, Block",Protect,,,,,,**Protect**,Guardian Block,,,,,C,,,Bastien Jez,,/TCC048.webp,,,,,,
-TCC049,TCC,"Melody, Sing-along",,,,,20,4,"Bard, Hero, Young",,,,,,,"Whenever you play a song, create Copper tokens equal to the number of other heroes in the game.",Bard Hero - Young,,,No,No,M,,,Andy Aslamov,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC049_yajPa8R.width-450.format-webp.webp,,,,,,
+**Temper**",Guardian Equipment - Legs,,,,,R,,,Wisnu Tan,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC033.png,,,,,,
+TCC034,TCC,Colossal Bearing,1,4,8,3,,,"Guardian, Action, Attack",Tower,,,,,,"**Tower** - If this has 13 or more {p}, it gets ""When this hits a hero, destroy an equipment they control with 1 or less {d}.""",Guardian Action - Attack,,,,No,R,,,Vito Vivodka,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC034.png,,,,,,
+TCC035,TCC,Lay Down the Law,1,3,7,3,,,"Guardian, Action, Attack",Tower,,,,,,"**Tower** - If this has 13 or more {p}, non-equipment cards get -1{d} while defending this.",Guardian Action - Attack,,,,No,R,,,Marco Wulfr,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC035.png,,,,,,
+TCC036,TCC,Smack of Reality,1,5,9,3,,,"Guardian, Action, Attack",Tower,,,,,,"**Tower** - If this has 13 or more {p}, it gets ""When this hits a hero, destroy all aura tokens they control.""",Guardian Action - Attack,,,,No,R,,,Alief Rudiatama,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC036.png,,,,,,
+TCC037,TCC,Crash Down,1,3,,3,,,"Guardian, Action, Aura",,,,,,,"At the start of your turn, destroy this, then the next Guardian attack action card you play this turn gets +6{p}.",Guardian Action - Aura,,,,Yes,C,,,Edward Chee,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC037.png,,,,,,
+TCC038,TCC,Earthlore Empowerment,1,3,,3,,,"Guardian, Action, Aura",,,,,,,"At the start of your turn, destroy this, then the next Guardian attack action card you play this turn costs {r} less to play and gets +5{p}.",Guardian Action - Aura,,,,Yes,C,,,Phu Thieu,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC038.png,,,,,,
+TCC039,TCC,Boulder Drop,2,3,6,3,,,"Guardian, Action, Attack",Crush,,,,,,"**Crush** - When this deals 4 or more damage to a hero, they put a card from their hand on top of their deck.",Guardian Action - Attack,,,,No,R,,,Raphael Pinna,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC039.png,,,,,,
+TCC040,TCC,Chokeslam,2,4,7,3,,,"Guardian, Action, Attack",Crush,,,,,,"**Crush** - If this deals 4 or more damage to a hero, attack action cards they control can't gain {p} during their next action phase.",Guardian Action - Attack,,,,Yes,C,,,Emilis Emka,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC040.png,,,,,,
+TCC041,TCC,Disable,2,5,8,3,,,"Guardian, Action, Attack",Crush,,,,,,"**Crush** - If this deals 4 or more damage to a hero, put a card from their arsenal on the bottom of its owner deck.",Guardian Action - Attack,,,,No,R,,,Nathaniel Himawan,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC041.png,,,,,,
+TCC042,TCC,Crash Down,2,3,,3,,,"Guardian, Action, Aura",,,,,,,"At the start of your turn, destroy this, then the next Guardian attack action card you play this turn gets +5{p}.",Guardian Action - Aura,,,,Yes,C,,,Edward Chee,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC042.png,,,,,,
+TCC043,TCC,Earthlore Empowerment,2,3,,3,,,"Guardian, Action, Aura",,,,,,,"At the start of your turn, destroy this, then the next Guardian attack action card you play this turn costs {r} less to play and gets +4{p}.",Guardian Action - Aura,,,,Yes,C,,,Phu Thieu,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC043.png,,,,,,
+TCC044,TCC,Boulder Drop,3,3,5,3,,,"Guardian, Action, Attack",Crush,,,,,,"**Crush** - When this deals 4 or more damage to a hero, they put a card from their hand on top of their deck.",Guardian Action - Attack,,,,No,R,,,Raphael Pinna,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC044.png,,,,,,
+TCC045,TCC,Chokeslam,3,4,6,3,,,"Guardian, Action, Attack",Crush,,,,,,"**Crush** - If this deals 4 or more damage to a hero, attack action cards they control can't gain {p} during their next action phase.",Guardian Action - Attack,,,,Yes,C,,,Emilis Emka,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC045.png,,,,,,
+TCC046,TCC,Cranial Crush,3,6,8,3,,,"Guardian, Action, Attack",Crush,,,,,,"**Crush** - If this  deals 4 or more damage to a hero, they can't draw cards during their next action phase",Guardian Action - Attack,,,,No,M,,,Ksenia Belova,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC046.png,,,,,,
+TCC047,TCC,Disable,3,5,7,3,,,"Guardian, Action, Attack",Crush,,,,,,"**Crush** - If this deals 4 or more damage to a hero, put a card from their arsenal on the bottom of its owner deck.",Guardian Action - Attack,,,,No,R,,,Nathaniel Himawan,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC047.png,,,,,,
+TCC048,TCC,Chivalry,3,,,3,,,"Guardian, Block",Protect,,,,,,**Protect**,Guardian Block,,,,,C,,,Bastien Jez,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC048.png,,,,,,
+TCC049,TCC,"Melody, Sing-along",,,,,20,4,"Bard, Hero, Young",,,,,,,"Whenever you play a song, create Copper tokens equal to the number of other heroes in the game.",Bard Hero - Young,,,No,No,M,,,Andy Aslamov,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC049.png,,,,,,
 TCC050,TCC,"Jinglewood, Smash Hit",,,2,,,,"Bard, Weapon, Fiddle, 2H","Once per Turn Action, Go again, Attack",,,,,,"**Once per Turn Action** - {r}{r}{r}: Target opposing hero chooses and creates a Might, Quicken, or Vigor token. You create a Copper token. **Go again**
 
-**Action** - 0: **Attack**.  When this hits, destroy it.",Bard Weapon - Fiddle (2H),,,,,R,,,Brian Adriel,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC050_yajPa8R.width-450.format-webp.webp,,,,,,
-TCC051,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC052,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC053,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC054,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC055,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC056,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC057,TCC,Final Act,1,1,1,3,,,"Bard, Action, Attack",,,,,,,"When this attacks, it gets +X{p}, where X is twice the number of cards in all pitch zones.",Bard Action - Attack,,,,No,M,,,Rio Sabda,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC057_yajPa8R.width-450.format-webp.webp,,,,,,
-TCC058,TCC,Interlude,1,0,,,,,"Bard, Instant",,,,,,,"Choose a hero. The next time they would be dealt damage this turn, prevent 3 of that damage. If you prevent damage to another hero this way, create a Copper token.",Bard Instant,,,,,C,,,Veto Zomer,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC058_yajPa8R.width-450.format-webp.webp,,,,,,
-TCC059,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC060,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Action** - 0: **Attack**.  When this hits, destroy it.",Bard Weapon - Fiddle (2H),,,,,R,,,Brian Adriel,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC050.png,,,,,,
+TCC051,TCC,Nom de Plume,,,,,,,"Bard, Equipment, Head",Go again,,,,,,**Action** - Destroy this: Each hero draws a card.  **Go again**,Bard Equipment - Head,,,,No,R,,,Shen Fei,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC051.png,,,,,,
+TCC052,TCC,Heart-throb,,,,,,,"Bard, Equipment, Chest",Go again,,,,,,**Action** - Destroy this: Each hero creates a Vigor token.  **Go again**,Bard Equipment - Chest,,,,No,R,,,Shen Fei,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC052.png,,,,,,
+TCC053,TCC,Fiddle-dee,,,,,,,"Bard, Equipment, Arms",Go again,,,,,,**Action** - Destroy this: Each hero creates a Might token.  **Go again**,Bard Equipment - Arms,,,,No,R,,,Shen Fei,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC053.png,,,,,,
+TCC054,TCC,Quickstep,,,,,,,"Bard, Equipment, Legs",Go again,,,,,,**Action** - Destroy this: Each hero creates a Quicken token.  **Go again**,Bard Equipment - Legs,,,,No,R,,,Shen Fei,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC054.png,,,,,,
+TCC055,TCC,Coax a Commotion,1,0,4,2,,,"Generic, Action, Attack",,,,,,,"When this hits, choose any number:
+
+- Each hero creates a Quicken token.
+- Each hero draws a card.
+- Each hero gains 1{h}.",Generic Action - Attack,,,,No,M,,,Jessada Sutthi,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC055.png,,,,,,
+TCC056,TCC,Life of the Party,1,2,4,2,,,"Generic, Action, Attack",Go again,,,,,,"You may discard or destroy a card you control named Crazy Brew rather than pay Life of the Party's {r} cost. If you do, choose all modes, otherwise choose 1 at random;
+
+- Life of the Party gains ""When this hits, gain life 2{h}.""
+- Life of the Party gains +2{p}.
+- Life of the Party gains **go again**.",Generic Action - Attack,,,,No,R,,,Sam Yang,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC056.png,,,,,,
+TCC057,TCC,Final Act,1,1,1,3,,,"Bard, Action, Attack",,,,,,,"When this attacks, it gets +X{p}, where X is twice the number of cards in all pitch zones.",Bard Action - Attack,,,,No,M,,,Rio Sabda,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC057.png,,,,,,
+TCC058,TCC,Interlude,1,0,,,,,"Bard, Instant",,,,,,,"Choose a hero. The next time they would be dealt damage this turn, prevent 3 of that damage. If you prevent damage to another hero this way, create a Copper token.",Bard Instant,,,,,C,,,Veto Zomer,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC058.png,,,,,,
+TCC059,TCC,Sigil of Solace,1,0,,,,,"Generic, Instant",,,,,,,Gain 3{h},Generic Instant,,,,No,R,,,Adolfo Navarro,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC059.png,,,,,,
+TCC060,TCC,Crowd Control,1,,,4,,,"Bard, Block",,,,,,,"When this defends, you may pay {r}{r}{r}. If you do, it gets +1{d} for each opposing hero.",Bard Block,,,,Yes,C,,,Sebastian Szmyd,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC060.png,,,,,,
 TCC061,TCC,Encore,2,1,,2,,,"Bard, Action",Go again,,,,,,"Return a Bard attack action card from your graveyard to your hand.
 
-**Go again**",Bard Action,,,,No,R,,,Sebastian Giacobino,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC061_yajPa8R.width-450.format-webp.webp,,,,,,
-TCC062,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC063,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC064,TCC,Song of Jack-be-Quick,3,0,,3,,,"Bard, Action, Song",,,,,,,Create a Quicken token under each other hero's control.,Bard Action - Song,,,,,C,,,Sebastian Giacobino,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC064_yajPa8R.width-450.format-webp.webp,,,,,,
-TCC065,TCC,Song of Sweet Nectar,3,0,,3,,,"Bard, Action, Song",,,,,,,Each other hero gains 1{l}.,Bard Action - Song,,,,,C,,,Mateusz Wiśniewski,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC065_yajPa8R.width-450.format-webp.webp,,,,,,
-TCC066,TCC,Song of the Rosen Matador,3,0,,3,,,"Bard, Action, Song",,,,,,,Create a Vigor token under each other hero's control.,Bard Action - Song,,,,,C,,,Saad Irfan,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC066_yajPa8R.width-450.format-webp.webp,,,,,,
-TCC067,TCC,Song of the Shining Knight,3,0,,3,,,"Bard, Action, Song",,,,,,,Create a Might token under each other hero's control.,Bard Action - Song,,,,,C,,,Saad Irfan,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC067_yajPa8R.width-450.format-webp.webp,,,,,,
-TCC068,TCC,Song of the Wandering Mind,3,0,,3,,,"Bard, Action, Song",,,,,,,Each other hero draws a card.,Bard Action - Song,,,,,C,,,Artur Treffner,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC068_yajPa8R.width-450.format-webp.webp,,,,,,
-TCC069,TCC,Song of Yesteryears,3,0,,3,,,"Bard, Action, Song",,,,,,,Each other hero puts an attack action card from their graveyard on the. bottom of their deck.,Bard Action - Song,,,,,C,,,Mateusz Wiśniewski,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC069_yajPa8R.width-450.format-webp.webp,,,,,,
-TCC070,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC071,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC072,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC073,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC074,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC075,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC076,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC077,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC078,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC079,TCC,Mask of Three Tails,,,,0,,,"Ninja, Equipment, Head",Instant,,,,,,**Instant** - Destroy this: Draw a card. Activate this ability only if you've hit 3 or more times this combat chain.,Ninja Equipment - Head,,,,,R,,,Kimberly Pantoni,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC079_yajPa8R.width-450.format-webp.webp,,,,,,
-TCC080,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC081,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Bard Action,,,,No,R,,,Sebastian Giacobino,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC061.png,,,,,,
+TCC062,TCC,Interlude,2,0,,,,,"Bard, Instant",,,,,,,"Choose a hero. The next time they would be dealt damage this turn, prevent 2 of that damage. If you prevent damage to another hero this way, create a Copper token.",Bard Instant,,,,,C,,,Veto Zomer,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC062.png,,,,,,
+TCC063,TCC,Crowd Control,2,,,3,,,"Bard, Block",,,,,,,"When this defends, you may pay {r}{r}{r}. If you do, it gets +1{d} for each opposing hero.",Bard Block,,,,Yes,C,,,Sebastian Szmyd,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC063.png,,,,,,
+TCC064,TCC,Song of Jack-be-Quick,3,0,,3,,,"Bard, Action, Song",,,,,,,Create a Quicken token under each other hero's control.,Bard Action - Song,,,,,C,,,Sebastian Giacobino,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC064.png,,,,,,
+TCC065,TCC,Song of Sweet Nectar,3,0,,3,,,"Bard, Action, Song",,,,,,,Each other hero gains 1{l}.,Bard Action - Song,,,,,C,,,Mateusz Wiśniewski,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC065.png,,,,,,
+TCC066,TCC,Song of the Rosen Matador,3,0,,3,,,"Bard, Action, Song",,,,,,,Create a Vigor token under each other hero's control.,Bard Action - Song,,,,,C,,,Saad Irfan,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC066.png,,,,,,
+TCC067,TCC,Song of the Shining Knight,3,0,,3,,,"Bard, Action, Song",,,,,,,Create a Might token under each other hero's control.,Bard Action - Song,,,,,C,,,Saad Irfan,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC067.png,,,,,,
+TCC068,TCC,Song of the Wandering Mind,3,0,,3,,,"Bard, Action, Song",,,,,,,Each other hero draws a card.,Bard Action - Song,,,,,C,,,Artur Treffner,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC068.png,,,,,,
+TCC069,TCC,Song of Yesteryears,3,0,,3,,,"Bard, Action, Song",,,,,,,Each other hero puts an attack action card from their graveyard on the. bottom of their deck.,Bard Action - Song,,,,,C,,,Mateusz Wiśniewski,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC069.png,,,,,,
+TCC070,TCC,Crazy Brew,3,0,,,,,"Generic, Action, Item",Go again,,,,,,"**Action** - Destroy this: Roll a 6 sided die. On;
+
+- 1 or 2 - Lose 2{h}. **Go again**
+- 3 or 4 - Gain 2{h}. **Go again**
+- 5 or 6 - Gain {r}{r}, gain 2 action points, and your next attack this turn gets +2{p}.",Generic Action - Item,,,,No,M,,,Daniel Jiménez,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC070.png,,,,,,
+TCC071,TCC,Energy Potion,3,0,,,,,"Generic, Action, Item",Instant,,,,,,**Instant** - Destroy this: Gain {r}{r},Generic Action - Item,,,,No,R,,,Daniel Jiménez,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC071.png,,,,,,
+TCC072,TCC,Healing Potion,3,0,,,,,"Generic, Action, Item",Go again,,,,,,**Action** - Destroy this: Gain 2{h}. **Go again**,Generic Action - Item,,,,No,R,,,Simon Wong,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC072.png,,,,,,
+TCC073,TCC,Potion of Strength,3,0,,,,,"Generic, Action, Item",Go again,,,,,,**Action** - Destroy this: Your next attack this turn gets +2{p}. **Go again**,Generic Action - Item,,,,No,R,,,Panji Bagus P,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC073.png,,,,,,
+TCC074,TCC,Timesnap Potion,3,0,,,,,"Generic, Action, Item",,,,,,,**Action** - Destroy this: Gain 2 action points.,Generic Action - Item,,,,No,R,,,Daniel Jiménez,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC074.png,,,,,,
+TCC075,TCC,Interlude,3,0,,,,,"Bard, Instant",,,,,,,"Choose a hero. The next time they would be dealt damage this turn, prevent 1 of that damage. If you prevent damage to another hero this way, create a Copper token.",Bard Instant,,,,,C,,,Veto Zomer,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC075.png,,,,,,
+TCC076,TCC,Crowd Control,3,,,2,,,"Bard, Block",,,,,,,"When this defends, you may pay {r}{r}{r}. If you do, it gets +1{d} for each opposing hero.",Bard Block,,,,Yes,C,,,Sebastian Szmyd,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC076.png,,,,,,
+TCC077,TCC,"Ira, Crimson Haze",,,,,20,4,"Ninja, Hero, Young",,,,,,,Your second attack each turn gets +1{p}.,Ninja Hero - Young,,,No,Yes,C,,,Le Vuong,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC077.png,,,,,,
+TCC078,TCC,Edge of Autumn,,,1,,,,"Ninja, Weapon, Sword, 2H","Once per Turn Action, Attack, Go again",,,,,,**Once per Turn Action** - {r}: **Attack**. **Go again**,Ninja Weapon - Sword (2H),,,,,R,,,Fajareka Setiawan,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC078.png,,,,,,
+TCC079,TCC,Mask of Three Tails,,,,0,,,"Ninja, Equipment, Head",Instant,,,,,,**Instant** - Destroy this: Draw a card. Activate this ability only if you've hit 3 or more times this combat chain.,Ninja Equipment - Head,,,,,R,,,Kimberly Pantoni,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC079.png,,,,,,
+TCC080,TCC,Blood Scent,,,,1,,,"Ninja, Equipment, Chest","Instant, Battleworn",,,,,,"**Instant** - Destroy this: Gain {r}. Activate this only if you've attacked with a Crouching Tiget this turn.
+
+**Battleworn**",Ninja Equipment - Chest,,,,,R,,,Kimberly Pantoni,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC080.png,,,,,,
+TCC081,TCC,Tearing Shuko,,,,1,,,"Ninja, Equipment, Arms","Instant, Battleworn",,,,,,"**Instant** - Destroy this: The next Crouching Tiger you play this turn gets +2{p}.
+
+**Battleworn**",Ninja Equipment - Arms,,,,,R,,,Enmoire,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC081.png,,,,,,
 TCC082,TCC,Pouncing Paws,,,,1,,,"Ninja, Equipment, Legs","Instant, Battleworn",,,,,,"**Instant** - Destroy this: Create a Crouching Tiger in your banished zone. You may play it this turn.
 
-**Battleworn**",Ninja Equipment - Legs,,,,,R,,,Kimberly Pantoni,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC082_yajPa8R.width-450.format-webp.webp,,,,,,
+**Battleworn**",Ninja Equipment - Legs,,,,,R,,,Kimberly Pantoni,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC082.png,,,,,,
 TCC083,TCC,Bittering Thorns,1,1,4,2,,,"Ninja, Action, Attack",Go again,,,,,,"When this hits, your next attack this turn gets +1{p}.
 
-**Go again**",Ninja Action - Attack,,,,,C,,,Maerel Hibadita,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC083_yajPa8R.width-450.format-webp.webp,,,,,,
-TCC084,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC085,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Ninja Action - Attack,,,,,C,,,Maerel Hibadita,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC083.png,,,,,,
+TCC084,TCC,Flex Claws,1,1,4,2,,,"Ninja, Action, Attack",Go again,,,,,,"When this hits, create a Crouching Tiger in your banished zone. You may play it this turn.
+
+**Go again**",Ninja Action - Attack,,,,No,R,,,Isuardi Therianto,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC084.png,,,,,,
+TCC085,TCC,Flying Kick,1,2,5,3,,,"Ninja, Action, Attack",,,,,,,"If Flying Kick is played as chain link 3 or higher, it gets +2{p}.",Ninja Action - Attack,,,,Yes,C,,,Kevin Sidharta,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC085.png,,,,,,
 TCC086,TCC,Growl,1,0,3,2,,,"Ninja, Action, Attack",Go again,,,,,,"When this attacks, the next Crouching Tiger you play this combat chain gets +1{p}.
 
-**Go again**",Ninja Action - Attack,,,,No,R,,,Vito Vivodka,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC086_yajPa8R.width-450.format-webp.webp,,,,,,
-TCC087,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC088,TCC,Mauling Qi,1,1,5,3,,,"Ninja, Action, Attack",Combo,,,,,,"**Combo** - When this hits, if Crouching Tiger was the last attack this combat chain, deal 1 damage to each opposing hero.",Ninja Action - Attack,,,,No,M,,,Jessketchin,,https://dhhim4ltzu1pj.cloudfront.net/media/images/TCC088_yajPa8R.width-450.format-webp.webp,,,,,,
-TCC089,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC090,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC091,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC092,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC093,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC094,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC095,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC096,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC097,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC098,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC099,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC100,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC101,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC102,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC103,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC104,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TCC105,TCC,Might,,,,,,,"Generic, Token, Aura",,,,,,,"At the start of your turn, destroy this, then your next attack this turn gets +1{p}.",Generic Token - Aura,,,,,T,,,Henrique Lindner,,/TCC105.webp,,,,,,
-TCC106,TCC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Ninja Action - Attack,,,,No,R,,,Vito Vivodka,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC086.png,,,,,,
+TCC087,TCC,Leg Tap,1,1,4,2,,,"Ninja, Action, Attack",Go again,,,,,,**Go again**,Ninja Action - Attack,,,,Yes,C,,,Le Vuong,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC087.png,,,,,,
+TCC088,TCC,Mauling Qi,1,1,5,3,,,"Ninja, Action, Attack",Combo,,,,,,"**Combo** - When this hits, if Crouching Tiger was the last attack this combat chain, deal 1 damage to each opposing hero.",Ninja Action - Attack,,,,No,M,,,Jessketchin,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC088.png,,,,,,
+TCC089,TCC,Pouncing Qi,1,0,3,3,,,"Ninja, Action, Attack",Combo,,,Go again,,,"**Combo** - If Crouching Tiger was the last attack this combat chain, this gets +1{p} and **go again**.",Ninja Action - Attack,,,,Yes,C,,,Rio Sabda,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC089.png,,,,,,
+TCC090,TCC,Qi Unbound,1,2,3,3,,,"Ninja, Action, Attack",Combo,,,,,,"**Combo** - If Crouching Tiger was the last attack this combat chain, this gets +4 {p}.",Ninja Action - Attack,,,,Yes,C,,,Narendra B Adi,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC090.png,,,,,,
+TCC091,TCC,Blessing of Qi,1,1,,3,,,"Ninja, Action, Aura",,,,,,,"At the start of your turn, destroy this then create a Crouching Tiger in your banished zone. It gets +3{p} and you may play it this turn.",Ninja Action - Aura,,,,No,R,,,Faizal Fikri,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC091.png,,,,,,
+TCC092,TCC,Bittering Thorns,2,1,3,2,,,"Ninja, Action, Attack",Go again,,,,,,"When this hits, your next attack this turn gets +1{p}.
+
+**Go again**",Ninja Action - Attack,,,,,C,,,Maerel Hibadita,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC092.png,,,,,,
+TCC093,TCC,Flex Claws,2,1,3,2,,,"Ninja, Action, Attack",Go again,,,,,,"When this hits, create a Crouching Tiger in your banished zone. You may play it this turn.
+
+**Go again**",Ninja Action - Attack,,,,No,R,,,Isuardi Therianto,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC093.png,,,,,,
+TCC094,TCC,Growl,2,0,2,2,,,"Ninja, Action, Attack",Go again,,,,,,"When this attacks, the next Crouching Tiger you play this combat chain gets +1{p}.
+
+**Go again**",Ninja Action - Attack,,,,No,R,,,Vito Vivodka,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC094.png,,,,,,
+TCC095,TCC,Leg Tap,2,1,3,2,,,"Ninja, Action, Attack",Go again,,,,,,**Go again**,Ninja Action - Attack,,,,Yes,C,,,Le Vuong,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC095.png,,,,,,
+TCC096,TCC,Salt the Wound,2,0,2,3,,,"Ninja, Action, Attack",,,,,,,This gets +1{p} for each attack that has hit this combat chain.,Ninja Action - Attack,,,,Yes,C,,,Yulia Litvinova,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC096.png,,,,,,
+TCC097,TCC,Predatory Streak,2,0,,2,,,"Ninja, Action",Go again,,,,,,"Create 2 Crouching Tigers in your banished zone. You may play them this turn.
+
+**Go again**",Ninja Action,,,,Yes,C,,,Immanuela Crovius,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC097.png,,,,,,
+TCC098,TCC,Tiger Eye Reflex,2,,,3,,,"Ninja, Block",Ambush,,,,,,"**Ambush**
+
+When this defends, create a Crouching Tiger in your Banished Zone. You may play it during your next turn",Ninja Block,,,,No,R,,,Raphael Pinna,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC098.png,,,,,,
+TCC099,TCC,Flying Kick,3,2,3,3,,,"Ninja, Action, Attack",,,,,,,"If Flying Kick is played as chain link 3 or higher, it gets +2{p}.",Ninja Action - Attack,,,,Yes,C,,,Kevin Sidharta,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC099.png,,,,,,
+TCC100,TCC,Blessing of Qi,3,1,,3,,,"Ninja, Action, Aura",,,,,,,"At the start of your turn, destroy this then create a Crouching Tiger in your banished zone. It gets +1{p} and you may play it this turn.",Ninja Action - Aura,,,,No,R,,,Faizal Fikri,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC100.png,,,,,,
+TCC101,TCC,Predatory Streak,3,0,,2,,,"Ninja, Action",Go again,,,,,,"Create a Crouching Tiger in your banished zone. You may play it this turn.
+
+**Go again**",Ninja Action,,,,Yes,C,,,Immanuela Crovius,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC101.png,,,,,,
+TCC102,TCC,Tiger Eye Reflex,3,,,2,,,"Ninja, Block",Ambush,,,,,,"**Ambush**
+
+When this defends, create a Crouching Tiger in your Banished Zone. You may play it during your next turn",Ninja Block,,,,No,R,,,Raphael Pinna,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC102.png,,,,,,
+"TCC103, TCC108",TCC,Copper,,,,,,,"Generic, Token, Item",Go again,,,,,,"**Action** - {r}{r}{r}{r}, destroy this: Draw a card. **Go again**",Generic Token - Item,,,,,T,,,Anastasiya Grintsova,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC103.png,T,,,Anastasiya Grintsova,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC108.png
+TCC104,TCC,Crouching Tiger,,0,0,,,,"Ninja, Action, Attack","Go again, Ephemeral",,,,,,"**Ephemeral**
+
+**Go again**",Ninja Action - Attack,,,,,T,,,Carlos Cruchaga,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC104.png,,,,,,
+TCC105,TCC,Might,,,,,,,"Generic, Token, Aura",,,,,,,"At the start of your turn, destroy this, then your next attack this turn gets +1{p}.",Generic Token - Aura,,,,,T,,,Henrique Lindner,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC105.png,,,,,,
+TCC106,TCC,Quicken,,,,,,,"Generic, Token, Aura",,,,Go again,,,"When you play an attack action card or activate a weapon attack, destroy this and the attack gains go again.",Generic Token - Aura,,,,,T,,,Tomasz Jedruszek,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC106.png,,,,,,
+TCC107,TCC,Vigor,,,,,,,"Generic, Token, Aura",,,,,,,"At the start of your turn, destroy this and gain {h}.",Generic Token - Aura,,,,,T,,,Rio Sabda,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC107.png,,,,,,

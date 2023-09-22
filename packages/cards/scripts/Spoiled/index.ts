@@ -60,6 +60,9 @@ spoiledCards1.forEach((card) => {
       card.cardIdentifier
     );
 
+    const artists = Array.from(
+      new Set([...duplicate.artists, ...card.artists])
+    ).sort();
     const deduplicatedPrintings = [...duplicate.printings];
     card.printings.forEach((printing) => {
       const duplicate = deduplicatedPrintings.find(
@@ -72,13 +75,18 @@ spoiledCards1.forEach((card) => {
     });
     const defaultImage = getDefaultImage(card.name, deduplicatedPrintings);
     const specialImage = getSpecialImage(card.name, deduplicatedPrintings);
+    const rarities = Array.from(
+      new Set([...duplicate.rarities, ...card.rarities])
+    ).sort();
     const setIdentifiers = Array.from(
       new Set([...duplicate.setIdentifiers, ...card.setIdentifiers])
     ).sort();
     const sets = Array.from(new Set([...duplicate.sets, ...card.sets])).sort();
 
+    duplicate.artists = artists;
     duplicate.defaultImage = defaultImage;
     duplicate.printings = deduplicatedPrintings;
+    duplicate.rarities = rarities;
     duplicate.setIdentifiers = setIdentifiers;
     duplicate.sets = sets;
     duplicate.specialImage = specialImage;
@@ -97,6 +105,9 @@ spoiledCards2.forEach((card) => {
       card.cardIdentifier
     );
 
+    const artists = Array.from(
+      new Set([...duplicate.artists, ...card.artists])
+    ).sort();
     const deduplicatedPrintings = [...duplicate.printings];
     card.printings.forEach((printing) => {
       const duplicate = deduplicatedPrintings.find(
@@ -109,13 +120,18 @@ spoiledCards2.forEach((card) => {
     });
     const defaultImage = getDefaultImage(card.name, deduplicatedPrintings);
     const specialImage = getSpecialImage(card.name, deduplicatedPrintings);
+    const rarities = Array.from(
+      new Set([...duplicate.rarities, ...card.rarities])
+    ).sort();
     const setIdentifiers = Array.from(
       new Set([...duplicate.setIdentifiers, ...card.setIdentifiers])
     ).sort();
     const sets = Array.from(new Set([...duplicate.sets, ...card.sets])).sort();
 
+    duplicate.artists = artists;
     duplicate.defaultImage = defaultImage;
     duplicate.printings = deduplicatedPrintings;
+    duplicate.rarities = rarities;
     duplicate.setIdentifiers = setIdentifiers;
     duplicate.sets = sets;
     duplicate.specialImage = specialImage;
