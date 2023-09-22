@@ -50075,6 +50075,55 @@ exports[`Check for unintentional updates Felling Swing (felling-swing-yellow) vs
 }
 `;
 
+exports[`Check for unintentional updates Fender Bender (fender-bender-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Narendra B Adi",
+  ],
+  "cardIdentifier": "fender-bender-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 1,
+  "defaultImage": "EVO210",
+  "defense": 3,
+  "functionalText": "**Boost**
+
+This gets +X{p}, where X is the number of equipment defending it.",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "Fender Bender",
+  "pitch": 1,
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "EVO210",
+      "image": "EVO210",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO210",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO210",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Fervent Forerunner (fervent-forerunner-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -74757,6 +74806,55 @@ exports[`Check for unintentional updates Jump Start (jump-start-yellow) vs snaps
     "Dynasty",
   ],
   "specialImage": "DYN105",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Junkyard Dogg (junkyard-dogg-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Marco González",
+  ],
+  "cardIdentifier": "junkyard-dogg-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "EVO128",
+  "defense": 3,
+  "functionalText": "**Scrap**
+
+When this attacks, if it **scrapped** a card, this gets +1{p}.",
+  "keywords": [
+    "Scrap",
+  ],
+  "name": "Junkyard Dogg",
+  "pitch": 3,
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "EVO128",
+      "image": "EVO128",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO128",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO128",
   "subtypes": [
     "Attack",
   ],

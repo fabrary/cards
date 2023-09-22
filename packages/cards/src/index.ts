@@ -615,7 +615,7 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.`,
     
     
     
-    
+    keywords: [Keyword.Scrap],
     
     
     pitch: 3,
