@@ -28,7 +28,7 @@ EVO011,EVO,Hyper-X3,,,,1,,,"Mechanologist, Equipment, Head",Battleworn,,,,,Boost
 
 Once per turn, when a Hyper Driver is put under this, if there are 3 or more Hyper Drivers under this, draw a card.
 
-**Battleworn**",Mechanologist Equipment - Head,,,,No,L,C,EA,soyameii,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO011_v2.png,,,,,,
+**Battleworn**",Mechanologist Equipment - Head,,,,No,L,C,EA,soyameii,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO011_V2.png,,,,,,
 EVO012,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO013,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO014,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -139,7 +139,11 @@ EVO070,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO071,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO072,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO073,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO074,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO074,EVO,Tick Tock Clock,1,0,,,,,"Mechanologist, Action, Item",Crank,,,,,,"**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this and it deals 1 damage to you unless you remove a steam counter from it.
+
+When a Mechanologist attack action card you control hits a hero, destroy this and up to 2 other items in the arena. Then deal X damage to them, where X is the number of items destroyed this way.",Mechanologist Action - Item,,,,No,M,,,MJ Fetesio,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO074.png,,,,,,
 EVO075,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO076,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO077,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

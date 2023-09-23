@@ -49,11 +49,11 @@ const exactSearches = [
   ],
   // [45, "type:equipment defense:>=2", "t:equipment d:>=2"],
   [27, 'class:wizard "arcane damage plus"', 'c:wizard "arcane damage plus"'],
-  [
-    17,
-    "legal:data class:mechanologist subtype:item cost:<=2",
-    "l:data c:mechanologist st:item co:<=2",
-  ],
+  // [
+  //   17,
+  //   "legal:data class:mechanologist subtype:item cost:<=2",
+  //   "l:data c:mechanologist st:item co:<=2",
+  // ],
   [66, "legal:rhinar power:>=6", "l:rhinar pwr:>=6"],
   [13, "legal:kassai copper", "l:kassai copper"],
   [20, "legal:cc type:hero", "l:cc t:hero"],

@@ -394,12 +394,12 @@ Hyper Drivers you control get **Crank**.`,
     artists: ["soyameii"],
     cardIdentifier: "hyper-x",
     classes: [Class.Mechanologist],
-    defaultImage: "EVO011_v2",
+    defaultImage: "EVO011_V2",
     name: "Hyper-X3",
     printings: [{
       foiling: Foiling.C,
       identifier: "EVO011",
-      image: "EVO011_v2",
+      image: "EVO011_V2",
       set: Release.BrightLights,
       treatment: Treatment.EA,
     },],
@@ -407,7 +407,7 @@ Hyper Drivers you control get **Crank**.`,
     rarity: Rarity.Legendary,
     setIdentifiers: ["EVO011"],
     sets: [Release.BrightLights],
-    specialImage: "EVO011_v2",
+    specialImage: "EVO011_V2",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
     typeText: "Mechanologist Equipment - Head",
@@ -1828,6 +1828,52 @@ When this **transforms** from or into an Evo with a different name, gain 1 actio
     
     pitch: 3,
     power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["MJ Fetesio"],
+    cardIdentifier: "tick-tock-clock-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO074",
+    name: "Tick Tock Clock",
+    printings: [{
+      
+      identifier: "EVO074",
+      image: "EVO074",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO074"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO074",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this and it deals 1 damage to you unless you remove a steam counter from it.
+
+When a Mechanologist attack action card you control hits a hero, destroy this and up to 2 other items in the arena. Then deal X damage to them, where X is the number of items destroyed this way.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 1,
+    
     restrictedFormats: [Format.Commoner],
     
     

@@ -68483,6 +68483,108 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
 }
 `;
 
+exports[`Check for unintentional updates Hyper Scrapper (hyper-scrapper-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Marco González",
+  ],
+  "cardIdentifier": "hyper-scrapper-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "EVO100",
+  "defense": 3,
+  "functionalText": "As an additional cost to play this, banish X items from your graveyard.
+
+When this attacks it gets +X{p}. If 3 or more Hyper Drivers were banished to play this, gain {r}{r}{r} {r}{r}{r} and this gets **go again**.",
+  "name": "Hyper Scrapper",
+  "pitch": 3,
+  "power": 2,
+  "printings": [
+    {
+      "identifier": "EVO100",
+      "image": "EVO100",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO100",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialCost": "X",
+  "specialImage": "EVO100",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Hyper-X3 (hyper-x) vs snapshot 1`] = `
+{
+  "artists": [
+    "soyameii",
+  ],
+  "cardIdentifier": "hyper-x",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "EVO011_V2",
+  "defense": 1,
+  "functionalText": "Whenever you banish a Hyper Driver from **boosting**, put it under this.
+
+Once per turn, when a Hyper Driver is put under this, if there are 3 or more Hyper Drivers under this, draw a card.
+
+**Battleworn**",
+  "keywords": [
+    "Battleworn",
+  ],
+  "name": "Hyper-X3",
+  "printings": [
+    {
+      "foiling": "Cold",
+      "identifier": "EVO011",
+      "image": "EVO011_V2",
+      "set": "Bright Lights",
+      "treatment": "Extended Art",
+    },
+  ],
+  "rarities": [
+    "Legendary",
+  ],
+  "rarity": "Legendary",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO011",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO011_V2",
+  "subtypes": [
+    "Head",
+  ],
+  "typeText": "Mechanologist Equipment - Head",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Hypothermia (hypothermia-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -83987,6 +84089,54 @@ exports[`Check for unintentional updates Mechanical Strength (mechanical-strengt
     "Attack",
   ],
   "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Meganetic Lockwave (meganetic-lockwave-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Asur Misoa",
+  ],
+  "cardIdentifier": "meganetic-lockwave-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "EVO143",
+  "defense": 3,
+  "functionalText": "Target hero chooses X equipment they control, then you choose 1 from among them. That hero must defend your attacks this turn with that equipment if able. 
+
+**Go again**",
+  "name": "Meganetic Lockwave",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "EVO143",
+      "image": "EVO143",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO143",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialCost": "XXX",
+  "specialImage": "EVO143",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action",
   "types": [
     "Action",
   ],
@@ -109230,6 +109380,55 @@ If you've **charged** this turn, create a Courage token.",
 }
 `;
 
+exports[`Check for unintentional updates Rev Up (rev-up-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Nikolay Moskvin",
+  ],
+  "cardIdentifier": "rev-up-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "EVO183",
+  "defense": 3,
+  "functionalText": "If you control a Hyper Driver, this costs {r} less to play.
+
+**Boost**",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "Rev Up",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "EVO183",
+      "image": "EVO183",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO183",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO183",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Revel in Runeblood (revel-in-runeblood-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -129964,6 +130163,53 @@ exports[`Check for unintentional updates Smash Instinct (smash-instinct-yellow) 
     "Attack",
   ],
   "typeText": "Brute Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Smash and Grab (smash-and-grab-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Shen Fei",
+  ],
+  "cardIdentifier": "smash-and-grab-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "EVO155",
+  "defense": 3,
+  "functionalText": "If you've **boosted** 2 or more times this turn, this gets +2{p} and "When this hits a hero, gain control of an item they control."",
+  "name": "Smash and Grab",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "EVO155",
+      "image": "EVO155",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO155",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO155",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
   "types": [
     "Action",
   ],
