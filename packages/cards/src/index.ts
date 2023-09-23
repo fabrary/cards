@@ -1362,7 +1362,7 @@ When this **transforms** from or into an Evo with a different name, gain 1 actio
     
     pitch: 1,
     power: 7,
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -1410,7 +1410,7 @@ When this **transforms** from or into an Evo with a different name, gain 1 actio
     
     pitch: 2,
     power: 6,
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -1458,7 +1458,7 @@ When this **transforms** from or into an Evo with a different name, gain 1 actio
     
     pitch: 3,
     power: 5,
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -1490,8 +1490,7 @@ When this **transforms** from or into an Evo with a different name, gain 1 actio
 
     
     defense: 1,
-    functionalText: `**Evo Upgrade** - While this is defending, it gets +X{d} where X is the
- number of Evos you have equipped.`,
+    functionalText: `**Evo Upgrade** - While this is defending, it gets +X{d} where X is the number of Evos you have equipped.`,
     
     
     
@@ -1501,7 +1500,7 @@ When this **transforms** from or into an Evo with a different name, gain 1 actio
     
     pitch: 3,
     
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -1905,7 +1904,7 @@ Once per turn, when you **boost** a card, remove a steam counter from this and g
 
 **Scrap**
 
-Gain {r}{r} for each card this *scrapped**.`,
+Gain {r}{r} for each card this **scrapped**.`,
     
     
     
@@ -1915,7 +1914,7 @@ Gain {r}{r} for each card this *scrapped**.`,
     
     pitch: 1,
     
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -1949,7 +1948,7 @@ Gain {r}{r} for each card this *scrapped**.`,
     defense: 3,
     functionalText: `**Scrap**
 
-When this attacks, if it scrapped a card, create a Quicken token.`,
+When this attacks, if it **scrapped** a card, create a Quicken token.`,
     
     
     
@@ -1993,7 +1992,7 @@ When this attacks, if it scrapped a card, create a Quicken token.`,
     defense: 3,
     functionalText: `**Scrap**
 
-When this attacks, if it scrapped a card, create a Quicken token.`,
+When this attacks, if it **scrapped** a card, create a Quicken token.`,
     
     
     
@@ -2037,7 +2036,7 @@ When this attacks, if it scrapped a card, create a Quicken token.`,
     defense: 3,
     functionalText: `**Scrap**
 
-When this attacks, if it scrapped a card, create a Quicken token.`,
+When this attacks, if it **scrapped** a card, create a Quicken token.`,
     
     
     
@@ -2213,7 +2212,7 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.`,
     defense: 3,
     functionalText: `**Scrap**
 
-When this attacks, if it scrapped a card, you may play your next Evo this turn as though it were an instant.`,
+When this attacks, if it **scrapped** a card, you may play your next Evo this turn as though it were an instant.`,
     
     
     
@@ -2257,7 +2256,7 @@ When this attacks, if it scrapped a card, you may play your next Evo this turn a
     defense: 3,
     functionalText: `**Scrap**
 
-When this attacks, if it scrapped a card, you may play your next Evo this turn as though it were an instant.`,
+When this attacks, if it **scrapped** a card, you may play your next Evo this turn as though it were an instant.`,
     
     
     
@@ -2301,7 +2300,7 @@ When this attacks, if it scrapped a card, you may play your next Evo this turn a
     defense: 3,
     functionalText: `**Scrap**
 
-When this attacks, if it scrapped a card, you may play your next Evo this turn as though it were an instant.`,
+When this attacks, if it **scrapped** a card, you may play your next Evo this turn as though it were an instant.`,
     
     
     
@@ -2345,7 +2344,7 @@ When this attacks, if it scrapped a card, you may play your next Evo this turn a
     defense: 3,
     functionalText: `**Scrap**
 
-When this attacks, if it scrapped a card, put a steam counter on an item you control with crank.`,
+When this attacks, if it **scrapped** a card, put a steam counter on an item you control with **crank**.`,
     
     
     
@@ -2389,7 +2388,7 @@ When this attacks, if it scrapped a card, put a steam counter on an item you con
     defense: 3,
     functionalText: `**Scrap**
 
-When this attacks, if it scrapped a card, put a steam counter on an item you control with crank.`,
+When this attacks, if it **scrapped** a card, put a steam counter on an item you control with **crank**.`,
     
     
     
@@ -2433,7 +2432,7 @@ When this attacks, if it scrapped a card, put a steam counter on an item you con
     defense: 3,
     functionalText: `**Scrap**
 
-When this attacks, if it scrapped a card, put a steam counter on an item you control with crank.`,
+When this attacks, if it **scrapped** a card, put a steam counter on an item you control with **crank**.`,
     
     
     
@@ -2567,12 +2566,12 @@ When this hits a hero, you may put an item with cost 0 or 1 from any banished zo
     defense: 3,
     functionalText: `**Boost**
  
-If an item or equipment was banished from boosting this, this gets +1{p}.`,
+If an item or equipment was banished from **boosting** this, this gets +1{p}.`,
     
     
     
     
-    
+    keywords: [Keyword.Boost],
     
     
     pitch: 1,
@@ -2611,7 +2610,7 @@ If an item or equipment was banished from boosting this, this gets +1{p}.`,
     defense: 3,
     functionalText: `**Boost**
  
-If an item or equipment was banished from boosting this, this gets +1{p}.`,
+If an item or equipment was banished from **boosting** this, this gets +1{p}.`,
     
     
     
@@ -2655,7 +2654,7 @@ If an item or equipment was banished from boosting this, this gets +1{p}.`,
     defense: 3,
     functionalText: `**Boost**
  
-If an item or equipment was banished from boosting this, this gets +1{p}.`,
+If an item or equipment was banished from **boosting** this, this gets +1{p}.`,
     
     
     
@@ -2699,12 +2698,12 @@ If an item or equipment was banished from boosting this, this gets +1{p}.`,
     defense: 3,
     functionalText: `**Boost**
  
-If an item or equipment was banished from boosting this, this gets +1{p}.`,
+If an item or equipment was banished from **boosting** this, this gets +1{p}.`,
     
     
     
     
-    
+    keywords: [Keyword.Boost],
     
     
     pitch: 1,
@@ -2743,12 +2742,12 @@ If an item or equipment was banished from boosting this, this gets +1{p}.`,
     defense: 3,
     functionalText: `**Boost**
  
-If an item or equipment was banished from boosting this, this gets +1{p}.`,
+If an item or equipment was banished from **boosting** this, this gets +1{p}.`,
     
     
     
     
-    
+    keywords: [Keyword.Boost],
     
     
     pitch: 2,
@@ -2787,12 +2786,12 @@ If an item or equipment was banished from boosting this, this gets +1{p}.`,
     defense: 3,
     functionalText: `**Boost**
  
-If an item or equipment was banished from boosting this, this gets +1{p}.`,
+If an item or equipment was banished from **boosting** this, this gets +1{p}.`,
     
     
     
     
-    
+    keywords: [Keyword.Boost],
     
     
     pitch: 3,

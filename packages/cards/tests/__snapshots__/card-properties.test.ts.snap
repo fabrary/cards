@@ -36919,6 +36919,9 @@ exports[`Check for unintentional updates Demolition Protocol (demolition-protoco
     "Promo",
   ],
   "rarity": "Promo",
+  "restrictedFormats": [
+    "Commoner",
+  ],
   "setIdentifiers": [
     "FAB174",
     "EVO057",
@@ -40687,7 +40690,10 @@ exports[`Check for unintentional updates Dumpster Dive (dumpster-dive-blue) vs s
   "defense": 3,
   "functionalText": "**Boost**
  
-If an item or equipment was banished from boosting this, this gets +1{p}.",
+If an item or equipment was banished from **boosting** this, this gets +1{p}.",
+  "keywords": [
+    "Boost",
+  ],
   "name": "Dumpster Dive",
   "pitch": 3,
   "power": 2,
@@ -40733,7 +40739,10 @@ exports[`Check for unintentional updates Dumpster Dive (dumpster-dive-red) vs sn
   "defense": 3,
   "functionalText": "**Boost**
  
-If an item or equipment was banished from boosting this, this gets +1{p}.",
+If an item or equipment was banished from **boosting** this, this gets +1{p}.",
+  "keywords": [
+    "Boost",
+  ],
   "name": "Dumpster Dive",
   "pitch": 1,
   "power": 4,
@@ -40779,7 +40788,10 @@ exports[`Check for unintentional updates Dumpster Dive (dumpster-dive-yellow) vs
   "defense": 3,
   "functionalText": "**Boost**
  
-If an item or equipment was banished from boosting this, this gets +1{p}.",
+If an item or equipment was banished from **boosting** this, this gets +1{p}.",
+  "keywords": [
+    "Boost",
+  ],
   "name": "Dumpster Dive",
   "pitch": 2,
   "power": 3,
@@ -49591,6 +49603,53 @@ When you pitch Eye of Ophidia, **opt 2**.",
   "typeText": "Generic Resource - Gem",
   "types": [
     "Resource",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Fabricate (fabricate-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Ausonia",
+  ],
+  "cardIdentifier": "fabricate-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO146",
+  "functionalText": "Choose 2;
+- Equip a base equipment with Proto in its name from your inventory.
+- Evo permanents you control get +1{d} this turn.
+- Put this under an Evo permanent you control.
+- You may banish an Evo from your hand. If you do, draw a card.",
+  "name": "Fabricate",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "EVO146",
+      "image": "EVO146",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO146",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO146",
+  "subtypes": [],
+  "typeText": "Mechanologist Instant",
+  "types": [
+    "Instant",
   ],
 }
 `;
@@ -83972,6 +84031,9 @@ exports[`Check for unintentional updates Meganetic Protocol (meganetic-protocol-
     "Promo",
   ],
   "rarity": "Promo",
+  "restrictedFormats": [
+    "Commoner",
+  ],
   "setIdentifiers": [
     "FAB172",
     "EVO059",
@@ -101142,6 +101204,9 @@ exports[`Check for unintentional updates Pulsewave Protocol (pulsewave-protocol-
     "Promo",
   ],
   "rarity": "Promo",
+  "restrictedFormats": [
+    "Commoner",
+  ],
   "setIdentifiers": [
     "FAB173",
     "EVO058",
@@ -119315,7 +119380,7 @@ exports[`Check for unintentional updates Scrap Compactor (scrap-compactor-blue) 
   "defense": 3,
   "functionalText": "**Scrap**
 
-When this attacks, if it scrapped a card, you may play your next Evo this turn as though it were an instant.",
+When this attacks, if it **scrapped** a card, you may play your next Evo this turn as though it were an instant.",
   "keywords": [
     "Scrap",
   ],
@@ -119364,7 +119429,7 @@ exports[`Check for unintentional updates Scrap Compactor (scrap-compactor-red) v
   "defense": 3,
   "functionalText": "**Scrap**
 
-When this attacks, if it scrapped a card, you may play your next Evo this turn as though it were an instant.",
+When this attacks, if it **scrapped** a card, you may play your next Evo this turn as though it were an instant.",
   "keywords": [
     "Scrap",
   ],
@@ -119413,7 +119478,7 @@ exports[`Check for unintentional updates Scrap Compactor (scrap-compactor-yellow
   "defense": 3,
   "functionalText": "**Scrap**
 
-When this attacks, if it scrapped a card, you may play your next Evo this turn as though it were an instant.",
+When this attacks, if it **scrapped** a card, you may play your next Evo this turn as though it were an instant.",
   "keywords": [
     "Scrap",
   ],
@@ -119462,7 +119527,7 @@ exports[`Check for unintentional updates Scrap Harvester (scrap-harvester-blue) 
   "defense": 3,
   "functionalText": "**Scrap**
 
-When this attacks, if it scrapped a card, put a steam counter on an item you control with crank.",
+When this attacks, if it **scrapped** a card, put a steam counter on an item you control with **crank**.",
   "keywords": [
     "Scrap",
   ],
@@ -119511,7 +119576,7 @@ exports[`Check for unintentional updates Scrap Harvester (scrap-harvester-red) v
   "defense": 3,
   "functionalText": "**Scrap**
 
-When this attacks, if it scrapped a card, put a steam counter on an item you control with crank.",
+When this attacks, if it **scrapped** a card, put a steam counter on an item you control with **crank**.",
   "keywords": [
     "Scrap",
   ],
@@ -119560,7 +119625,7 @@ exports[`Check for unintentional updates Scrap Harvester (scrap-harvester-yellow
   "defense": 3,
   "functionalText": "**Scrap**
 
-When this attacks, if it scrapped a card, put a steam counter on an item you control with crank.",
+When this attacks, if it **scrapped** a card, put a steam counter on an item you control with **crank**.",
   "keywords": [
     "Scrap",
   ],
@@ -119609,7 +119674,7 @@ exports[`Check for unintentional updates Scrap Hopper (scrap-hopper-blue) vs sna
   "defense": 3,
   "functionalText": "**Scrap**
 
-When this attacks, if it scrapped a card, create a Quicken token.",
+When this attacks, if it **scrapped** a card, create a Quicken token.",
   "keywords": [
     "Scrap",
   ],
@@ -119661,7 +119726,7 @@ exports[`Check for unintentional updates Scrap Hopper (scrap-hopper-red) vs snap
   "defense": 3,
   "functionalText": "**Scrap**
 
-When this attacks, if it scrapped a card, create a Quicken token.",
+When this attacks, if it **scrapped** a card, create a Quicken token.",
   "keywords": [
     "Scrap",
   ],
@@ -119713,7 +119778,7 @@ exports[`Check for unintentional updates Scrap Hopper (scrap-hopper-yellow) vs s
   "defense": 3,
   "functionalText": "**Scrap**
 
-When this attacks, if it scrapped a card, create a Quicken token.",
+When this attacks, if it **scrapped** a card, create a Quicken token.",
   "keywords": [
     "Scrap",
   ],
@@ -119767,7 +119832,7 @@ exports[`Check for unintentional updates Scrap Trader (scrap-trader-red) vs snap
 
 **Scrap**
 
-Gain {r}{r} for each card this *scrapped**.",
+Gain {r}{r} for each card this **scrapped**.",
   "keywords": [
     "Scrap",
   ],
@@ -119784,6 +119849,9 @@ Gain {r}{r} for each card this *scrapped**.",
     "Majestic",
   ],
   "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
   "setIdentifiers": [
     "EVO101",
   ],
@@ -137042,7 +137110,7 @@ exports[`Check for unintentional updates Sprocket Rocket (sprocket-rocket-blue) 
   "defense": 3,
   "functionalText": "**Boost**
  
-If an item or equipment was banished from boosting this, this gets +1{p}.",
+If an item or equipment was banished from **boosting** this, this gets +1{p}.",
   "keywords": [
     "Boost",
   ],
@@ -137091,7 +137159,10 @@ exports[`Check for unintentional updates Sprocket Rocket (sprocket-rocket-red) v
   "defense": 3,
   "functionalText": "**Boost**
  
-If an item or equipment was banished from boosting this, this gets +1{p}.",
+If an item or equipment was banished from **boosting** this, this gets +1{p}.",
+  "keywords": [
+    "Boost",
+  ],
   "name": "Sprocket Rocket",
   "pitch": 1,
   "power": 3,
@@ -137137,7 +137208,7 @@ exports[`Check for unintentional updates Sprocket Rocket (sprocket-rocket-yellow
   "defense": 3,
   "functionalText": "**Boost**
  
-If an item or equipment was banished from boosting this, this gets +1{p}.",
+If an item or equipment was banished from **boosting** this, this gets +1{p}.",
   "keywords": [
     "Boost",
   ],
@@ -137802,8 +137873,7 @@ exports[`Check for unintentional updates Steel Street Enforcement (steel-street-
   ],
   "defaultImage": "EVO060",
   "defense": 1,
-  "functionalText": "**Evo Upgrade** - While this is defending, it gets +X{d} where X is the
- number of Evos you have equipped.",
+  "functionalText": "**Evo Upgrade** - While this is defending, it gets +X{d} where X is the number of Evos you have equipped.",
   "keywords": [
     "Evo Upgrade",
   ],
@@ -137820,6 +137890,9 @@ exports[`Check for unintentional updates Steel Street Enforcement (steel-street-
     "Majestic",
   ],
   "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
   "setIdentifiers": [
     "EVO060",
   ],
