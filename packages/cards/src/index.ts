@@ -2496,6 +2496,52 @@ When this hits a hero, you may put an item with cost 0 or 1 from any banished zo
     
     
   },{
+    artists: ["Ausonia"],
+    cardIdentifier: "fabricate-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO146",
+    name: "Fabricate",
+    printings: [{
+      
+      identifier: "EVO146",
+      image: "EVO146",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO146"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO146",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Mechanologist Instant",
+
+    cost: 0,
+    
+    functionalText: `Choose 2;
+- Equip a base equipment with Proto in its name from your inventory.
+- Evo permanents you control get +1{d} this turn.
+- Put this under an Evo permanent you control.
+- You may banish an Evo from your hand. If you do, draw a card.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Veto Zomer"],
     cardIdentifier: "sprocket-rocket-red",
     classes: [Class.Mechanologist],
@@ -34206,7 +34252,8 @@ You may banish a non-equipment defending card with {d} less than the number of D
     
     
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "convulsions-from-the-bellows-of-hell-red",
     classes: [Class.Brute],
@@ -34270,8 +34317,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     talents: [Talent.Shadow],
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "convulsions-from-the-bellows-of-hell-yellow",
     classes: [Class.Brute],
@@ -70854,7 +70900,8 @@ At the beginning of your end phase, if you have attacked 2 or more times with we
     
     
     young: true
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Adolfo Navarro"],
     cardIdentifier: "katsu-the-wanderer",
     classes: [Class.Ninja],
@@ -70950,8 +70997,7 @@ At the beginning of your end phase, if you have attacked 2 or more times with we
     
     
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "kavdaen-trader-of-skins",
     classes: [Class.Merchant],

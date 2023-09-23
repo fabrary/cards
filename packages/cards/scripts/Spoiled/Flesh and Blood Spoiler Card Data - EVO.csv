@@ -240,7 +240,11 @@ EVO142,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO143,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO144,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO145,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO146,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO146,EVO,Fabricate,1,0,,,,,"Mechanologist, Instant",,,,,,,"Choose 2;
+- Equip a base equipment with Proto in its name from your inventory.
+- Evo permanents you control get +1{d} this turn.
+- Put this under an Evo permanent you control.
+- You may banish an Evo from your hand. If you do, draw a card.",Mechanologist Instant,,,,No,M,,,Ausonia,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO146.png,,,,,,
 EVO147,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO148,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO149,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
