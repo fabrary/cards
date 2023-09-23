@@ -147467,6 +147467,59 @@ exports[`Check for unintentional updates Thunder Quake (thunder-quake-yellow) vs
 }
 `;
 
+exports[`Check for unintentional updates Tick Tock Clock (tick-tock-clock-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "MJ Fetesio",
+  ],
+  "cardIdentifier": "tick-tock-clock-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO074",
+  "functionalText": "**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this and it deals 1 damage to you unless you remove a steam counter from it.
+
+When a Mechanologist attack action card you control hits a hero, destroy this and up to 2 other items in the arena. Then deal X damage to them, where X is the number of items destroyed this way.",
+  "keywords": [
+    "Crank",
+  ],
+  "name": "Tick Tock Clock",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "EVO074",
+      "image": "EVO074",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO074",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO074",
+  "subtypes": [
+    "Item",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action - Item",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Tide Flippers (tide-flippers) vs snapshot 1`] = `
 {
   "artists": [

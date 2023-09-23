@@ -3641,6 +3641,52 @@ This gets +X{p}, where X is the number of equipment defending it.`,
     
     
   },{
+    artists: ["Alief Rusdiatama"],
+    cardIdentifier: "quickfire-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO225",
+    name: "Quickfire",
+    printings: [{
+      
+      identifier: "EVO225",
+      image: "EVO225",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO225"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO225",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `This costs {r} less to play for each Hyper Driver you control.
+
+The next attack you **boost** this turn gets +4{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost,Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Riordan Delmiro"],
     cardIdentifier: "teklonetic-force-field-red",
     classes: [Class.Mechanologist],
@@ -34185,7 +34231,8 @@ You may banish a non-equipment defending card with {d} less than the number of D
     
     talents: [Talent.Shadow],
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Vito Vivodka"],
     cardIdentifier: "consuming-aftermath-yellow",
     classes: [Class.NotClassed],
@@ -34245,8 +34292,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
     
     talents: [Talent.Shadow],
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Vito Vivodka"],
     cardIdentifier: "consuming-aftermath-blue",
     classes: [Class.NotClassed],
@@ -70893,7 +70939,8 @@ Whenever this hits a hero and you don't control a Spellbane Aegis, create a Spel
     
     
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "kano",
     classes: [Class.Wizard],
@@ -70959,8 +71006,7 @@ Whenever this hits a hero and you don't control a Spellbane Aegis, create a Spel
     
     
     young: true
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "kano-dracai-of-aether",
     classes: [Class.Wizard],

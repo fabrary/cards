@@ -372,7 +372,11 @@ EVO221,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO222,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO223,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO224,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO225,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO225,EVO,Quickfire,1,2,,2,,,"Mechanologist, Action","Boost, Go again",,,,,,"This costs {r} less to play for each Hyper Driver you control.
+
+The next attack you **boost** this turn gets +4{p}.
+
+**Go again**",Mechanologist Action,,,,,C,,,Alief Rusdiatama,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO225.png,,,,,,
 EVO226,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO227,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO228,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
