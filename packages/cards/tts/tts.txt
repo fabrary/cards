@@ -1941,8 +1941,6 @@ OSCCardDB = {
   ["EVO226"] = { name = "Quickfire (2)", text = "This costs {r} less to play for each Hyper Driver you control.\n\nThe next attack you **boost** this turn gets +3{p}.\n\n**Go again**", keywords = "Boost,Go again", types = "Action"},
   ["EVO227"] = { name = "Quickfire (3)", text = "This costs {r} less to play for each Hyper Driver you control.\n\nThe next attack you **boost** this turn gets +2{p}.\n\n**Go again**", keywords = "Boost,Go again", types = "Action"},
   ["EVO228"] = { name = "Re-Charge! (1)", text = "Put a steam counter on a Hyper Driver you control.\n\nThe next attack you **boost** this turn gets +4{p}.\n\n**Go again**", keywords = "Boost,Go again", types = "Action"},
-  ["EVO229"] = { name = "Re-Charge! (2)", text = "Put a steam counter on a Hyper Driver you control.\n\nThe next attack you **boost** this turn gets +3{p}.\n\n**Go again**", keywords = "Boost,Go again", types = "Action"},
-  ["EVO230"] = { name = "Re-Charge! (3)", text = "Put a steam counter on a Hyper Driver you control.\n\nThe next attack you **boost** this turn gets +2{p}.\n\n**Go again**", keywords = "Boost,Go again", types = "Action"},
   ["EVO231"] = { name = "Teklonetic Force Field (1)", text = "When this defends an attack with **overpower**, this gets +2{d}.", keywords = "", types = "Block"},
   ["EVO232"] = { name = "Teklonetic Force Field (2)", text = "When this defends an attack with **overpower**, this gets +2{d}.", keywords = "", types = "Block"},
   ["EVO233"] = { name = "Teklonetic Force Field (3)", text = "When this defends an attack with **overpower**, this gets +2{d}.", keywords = "", types = "Block"},

@@ -11404,6 +11404,104 @@ When this is banished from **boosting**, put a steam counter on a Hyper Driver y
 }
 `;
 
+exports[`Check for unintentional updates Big Bertha (big-bertha-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Ausonia",
+  ],
+  "cardIdentifier": "big-bertha-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "EVO177",
+  "defense": 3,
+  "functionalText": "**Boost**
+
+When this is banished from **boosting**, put a steam counter on a Hyper Driver you control.",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "Big Bertha",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "EVO177",
+      "image": "EVO177",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO177",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO177",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Big Bertha (big-bertha-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Ausonia",
+  ],
+  "cardIdentifier": "big-bertha-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "EVO178",
+  "defense": 3,
+  "functionalText": "**Boost**
+
+When this is banished from **boosting**, put a steam counter on a Hyper Driver you control.",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "Big Bertha",
+  "pitch": 2,
+  "power": 5,
+  "printings": [
+    {
+      "identifier": "EVO178",
+      "image": "EVO178",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO178",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO178",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Billowing Mirage (billowing-mirage-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -22358,6 +22456,59 @@ exports[`Check for unintentional updates Buckling Blow (buckling-blow-yellow) vs
 }
 `;
 
+exports[`Check for unintentional updates Bull Bar (bull-bar-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Faizal Fikri",
+  ],
+  "cardIdentifier": "bull-bar-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 2,
+  "defaultImage": "EVO149",
+  "defense": 3,
+  "functionalText": "**Boost**
+
+If you control a Hyper Driver, this gets **overpower**.",
+  "keywords": [
+    "Boost",
+    "Overpower",
+  ],
+  "name": "Bull Bar",
+  "pitch": 3,
+  "power": 3,
+  "printings": [
+    {
+      "identifier": "EVO149",
+      "image": "EVO149",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO149",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO149",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Bull Bar (bull-bar-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -22401,6 +22552,59 @@ If you control a Hyper Driver, this gets **overpower**.",
     "Bright Lights",
   ],
   "specialImage": "EVO147",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Bull Bar (bull-bar-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Faizal Fikri",
+  ],
+  "cardIdentifier": "bull-bar-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 2,
+  "defaultImage": "EVO148",
+  "defense": 3,
+  "functionalText": "**Boost**
+
+If you control a Hyper Driver, this gets **overpower**.",
+  "keywords": [
+    "Boost",
+    "Overpower",
+  ],
+  "name": "Bull Bar",
+  "pitch": 2,
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "EVO148",
+      "image": "EVO148",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO148",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO148",
   "subtypes": [
     "Attack",
   ],
@@ -28126,7 +28330,7 @@ exports[`Check for unintentional updates Cogwerx Base Arms (cogwerx-base-arms) v
   "classes": [
     "Mechanologist",
   ],
-  "defaultImage": "21a864c3-5125-42dd-ae01-deb1dc18a009",
+  "defaultImage": "EVO016",
   "functionalText": "When this is equipped, put a steam counter on it.
 
 **Once per turn Instant** - {r}, remove a steam counter from this: Your next Mechanologist attack this turn gets +1{p}. Activate this ability only if you've **boosted** this turn.",
@@ -28134,7 +28338,7 @@ exports[`Check for unintentional updates Cogwerx Base Arms (cogwerx-base-arms) v
   "printings": [
     {
       "identifier": "EVO016",
-      "image": "21a864c3-5125-42dd-ae01-deb1dc18a009",
+      "image": "EVO016",
       "set": "Bright Lights",
     },
   ],
@@ -28148,7 +28352,7 @@ exports[`Check for unintentional updates Cogwerx Base Arms (cogwerx-base-arms) v
   "sets": [
     "Bright Lights",
   ],
-  "specialImage": "21a864c3-5125-42dd-ae01-deb1dc18a009",
+  "specialImage": "EVO016",
   "subtypes": [],
   "typeText": "Mechanologist Equipment - Base Arms",
   "types": [
@@ -28166,7 +28370,7 @@ exports[`Check for unintentional updates Cogwerx Base Chest (cogwerx-base-chest)
   "classes": [
     "Mechanologist",
   ],
-  "defaultImage": "82550f56-83a8-4681-b9ab-827572706ceb",
+  "defaultImage": "EVO015",
   "functionalText": "When this is equipped, put a steam counter on it.
 
 **Once per turn Instant** - {r}, remove a steam counter from this: Gain {r}{r}. Activate this ability only if you've **boosted** this turn.",
@@ -28174,7 +28378,7 @@ exports[`Check for unintentional updates Cogwerx Base Chest (cogwerx-base-chest)
   "printings": [
     {
       "identifier": "EVO015",
-      "image": "82550f56-83a8-4681-b9ab-827572706ceb",
+      "image": "EVO015",
       "set": "Bright Lights",
     },
   ],
@@ -28188,7 +28392,7 @@ exports[`Check for unintentional updates Cogwerx Base Chest (cogwerx-base-chest)
   "sets": [
     "Bright Lights",
   ],
-  "specialImage": "82550f56-83a8-4681-b9ab-827572706ceb",
+  "specialImage": "EVO015",
   "subtypes": [],
   "typeText": "Mechanologist Equipment - Base Chest",
   "types": [
@@ -28206,7 +28410,7 @@ exports[`Check for unintentional updates Cogwerx Base Head (cogwerx-base-head) v
   "classes": [
     "Mechanologist",
   ],
-  "defaultImage": "733ebdf6-6f68-4686-a309-df626d5340e2",
+  "defaultImage": "EVO014",
   "functionalText": "When this is equipped, put a steam counter on it.
 
 **Once per turn Instant** - {r}, remove a steam counter from this: Shuffle a Mechanologist attack action card from your banished zone into your deck. Activate this ability only if you've **boosted** this turn.",
@@ -28214,7 +28418,7 @@ exports[`Check for unintentional updates Cogwerx Base Head (cogwerx-base-head) v
   "printings": [
     {
       "identifier": "EVO014",
-      "image": "733ebdf6-6f68-4686-a309-df626d5340e2",
+      "image": "EVO014",
       "set": "Bright Lights",
     },
   ],
@@ -28228,7 +28432,7 @@ exports[`Check for unintentional updates Cogwerx Base Head (cogwerx-base-head) v
   "sets": [
     "Bright Lights",
   ],
-  "specialImage": "733ebdf6-6f68-4686-a309-df626d5340e2",
+  "specialImage": "EVO014",
   "subtypes": [],
   "typeText": "Mechanologist Equipment - Base Head",
   "types": [
@@ -28246,7 +28450,7 @@ exports[`Check for unintentional updates Cogwerx Base Legs (cogwerx-base-legs) v
   "classes": [
     "Mechanologist",
   ],
-  "defaultImage": "86379047-06c3-4933-8f8b-23b6fef35bef",
+  "defaultImage": "EVO017",
   "functionalText": "When this is equipped, put a steam counter on it.
 
 **Once per turn Instant** - {r}, remove a steam counter from this: Gain 1 action point. Activate this ability only if you've **boosted** this turn.",
@@ -28254,7 +28458,7 @@ exports[`Check for unintentional updates Cogwerx Base Legs (cogwerx-base-legs) v
   "printings": [
     {
       "identifier": "EVO017",
-      "image": "86379047-06c3-4933-8f8b-23b6fef35bef",
+      "image": "EVO017",
       "set": "Bright Lights",
     },
   ],
@@ -28268,7 +28472,7 @@ exports[`Check for unintentional updates Cogwerx Base Legs (cogwerx-base-legs) v
   "sets": [
     "Bright Lights",
   ],
-  "specialImage": "86379047-06c3-4933-8f8b-23b6fef35bef",
+  "specialImage": "EVO017",
   "subtypes": [],
   "typeText": "Mechanologist Equipment - Base Legs",
   "types": [
@@ -58414,6 +58618,57 @@ exports[`Check for unintentional updates Gambler's Gloves (gamblers-gloves) vs s
 }
 `;
 
+exports[`Check for unintentional updates Gas Up (gas-up-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sebastian Giacobino",
+  ],
+  "cardIdentifier": "gas-up-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 1,
+  "defaultImage": "EVO224",
+  "defense": 2,
+  "functionalText": "The next attack you **boost** this turn gets +2{p}.
+
+You may put a Hyper Driver from your banished zone into the arena.
+
+**Go again**",
+  "keywords": [
+    "Boost",
+    "Go again",
+  ],
+  "name": "Gas Up",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "EVO224",
+      "image": "EVO224",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO224",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO224",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Gas Up (gas-up-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -58455,6 +58710,57 @@ You may put a Hyper Driver from your banished zone into the arena.
     "Bright Lights",
   ],
   "specialImage": "EVO222",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Gas Up (gas-up-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sebastian Giacobino",
+  ],
+  "cardIdentifier": "gas-up-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 1,
+  "defaultImage": "EVO223",
+  "defense": 2,
+  "functionalText": "The next attack you **boost** this turn gets +3{p}.
+
+You may put a Hyper Driver from your banished zone into the arena.
+
+**Go again**",
+  "keywords": [
+    "Boost",
+    "Go again",
+  ],
+  "name": "Gas Up",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "EVO223",
+      "image": "EVO223",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO223",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO223",
   "subtypes": [
     "Non-Attack",
   ],
@@ -103867,6 +104173,57 @@ exports[`Check for unintentional updates Quicken (quicken) vs snapshot 1`] = `
 }
 `;
 
+exports[`Check for unintentional updates Quickfire (quickfire-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Alief Rusdiatama",
+  ],
+  "cardIdentifier": "quickfire-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 2,
+  "defaultImage": "EVO227",
+  "defense": 2,
+  "functionalText": "This costs {r} less to play for each Hyper Driver you control.
+
+The next attack you **boost** this turn gets +2{p}.
+
+**Go again**",
+  "keywords": [
+    "Boost",
+    "Go again",
+  ],
+  "name": "Quickfire",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "EVO227",
+      "image": "EVO227",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO227",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO227",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Quickfire (quickfire-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -103907,6 +104264,57 @@ The next attack you **boost** this turn gets +4{p}.
     "Bright Lights",
   ],
   "specialImage": "EVO225",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Quickfire (quickfire-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Alief Rusdiatama",
+  ],
+  "cardIdentifier": "quickfire-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 2,
+  "defaultImage": "EVO226",
+  "defense": 2,
+  "functionalText": "This costs {r} less to play for each Hyper Driver you control.
+
+The next attack you **boost** this turn gets +3{p}.
+
+**Go again**",
+  "keywords": [
+    "Boost",
+    "Go again",
+  ],
+  "name": "Quickfire",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "EVO226",
+      "image": "EVO226",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO226",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO226",
   "subtypes": [
     "Non-Attack",
   ],
@@ -106556,6 +106964,57 @@ exports[`Check for unintentional updates Razor's Edge (razors-edge-yellow) vs sn
   "typeText": "Assassin Attack Reaction",
   "types": [
     "Attack Reaction",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Re-Charge! (re-charge-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tomasz Jedruszek",
+  ],
+  "cardIdentifier": "re-charge-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 1,
+  "defaultImage": "EVO228",
+  "defense": 2,
+  "functionalText": "Put a steam counter on a Hyper Driver you control.
+
+The next attack you **boost** this turn gets +4{p}.
+
+**Go again**",
+  "keywords": [
+    "Boost",
+    "Go again",
+  ],
+  "name": "Re-Charge!",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "EVO228",
+      "image": "EVO228",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO228",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO228",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action",
+  "types": [
+    "Action",
   ],
 }
 `;
@@ -110108,6 +110567,55 @@ If you've **charged** this turn, create a Courage token.",
 }
 `;
 
+exports[`Check for unintentional updates Rev Up (rev-up-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Nikolay Moskvin",
+  ],
+  "cardIdentifier": "rev-up-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "EVO185",
+  "defense": 3,
+  "functionalText": "If you control a Hyper Driver, this costs {r} less to play.
+
+**Boost**",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "Rev Up",
+  "pitch": 3,
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "EVO185",
+      "image": "EVO185",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO185",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO185",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Rev Up (rev-up-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -110147,6 +110655,55 @@ exports[`Check for unintentional updates Rev Up (rev-up-red) vs snapshot 1`] = `
     "Bright Lights",
   ],
   "specialImage": "EVO183",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Rev Up (rev-up-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Nikolay Moskvin",
+  ],
+  "cardIdentifier": "rev-up-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "EVO184",
+  "defense": 3,
+  "functionalText": "If you control a Hyper Driver, this costs {r} less to play.
+
+**Boost**",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "Rev Up",
+  "pitch": 2,
+  "power": 5,
+  "printings": [
+    {
+      "identifier": "EVO184",
+      "image": "EVO184",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO184",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO184",
   "subtypes": [
     "Attack",
   ],
@@ -137965,6 +138522,58 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
 }
 `;
 
+exports[`Check for unintentional updates Spring a Leak (spring-a-leak-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Narendra B Adi",
+  ],
+  "cardIdentifier": "spring-a-leak-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 2,
+  "defaultImage": "EVO152",
+  "defense": 3,
+  "functionalText": "**Boost**
+
+When this hits a hero, remove all steam counters from an equipment, item, or weapon they control.",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "Spring a Leak",
+  "pitch": 3,
+  "power": 3,
+  "printings": [
+    {
+      "identifier": "EVO152",
+      "image": "EVO152",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO152",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO152",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Spring a Leak (spring-a-leak-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -138007,6 +138616,58 @@ When this hits a hero, remove all steam counters from an equipment, item, or wea
     "Bright Lights",
   ],
   "specialImage": "EVO150",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Spring a Leak (spring-a-leak-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Narendra B Adi",
+  ],
+  "cardIdentifier": "spring-a-leak-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 2,
+  "defaultImage": "EVO151",
+  "defense": 3,
+  "functionalText": "**Boost**
+
+When this hits a hero, remove all steam counters from an equipment, item, or weapon they control.",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "Spring a Leak",
+  "pitch": 2,
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "EVO151",
+      "image": "EVO151",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO151",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO151",
   "subtypes": [
     "Attack",
   ],

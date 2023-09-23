@@ -584,12 +584,12 @@ Once per turn, when a Hyper Driver is put under this, if there are 3 or more Hyp
     artists: ["Maxim Nikiforov"],
     cardIdentifier: "cogwerx-base-head",
     classes: [Class.Mechanologist],
-    defaultImage: "733ebdf6-6f68-4686-a309-df626d5340e2",
+    defaultImage: "EVO014",
     name: "Cogwerx Base Head",
     printings: [{
       
       identifier: "EVO014",
-      image: "733ebdf6-6f68-4686-a309-df626d5340e2",
+      image: "EVO014",
       set: Release.BrightLights,
       
     },],
@@ -597,7 +597,7 @@ Once per turn, when a Hyper Driver is put under this, if there are 3 or more Hyp
     rarity: Rarity.Common,
     setIdentifiers: ["EVO014"],
     sets: [Release.BrightLights],
-    specialImage: "733ebdf6-6f68-4686-a309-df626d5340e2",
+    specialImage: "EVO014",
     subtypes: [],
     types: [Type.Equipment],
     typeText: "Mechanologist Equipment - Base Head",
@@ -628,12 +628,12 @@ Once per turn, when a Hyper Driver is put under this, if there are 3 or more Hyp
     artists: ["Irina Si"],
     cardIdentifier: "cogwerx-base-chest",
     classes: [Class.Mechanologist],
-    defaultImage: "82550f56-83a8-4681-b9ab-827572706ceb",
+    defaultImage: "EVO015",
     name: "Cogwerx Base Chest",
     printings: [{
       
       identifier: "EVO015",
-      image: "82550f56-83a8-4681-b9ab-827572706ceb",
+      image: "EVO015",
       set: Release.BrightLights,
       
     },],
@@ -641,7 +641,7 @@ Once per turn, when a Hyper Driver is put under this, if there are 3 or more Hyp
     rarity: Rarity.Common,
     setIdentifiers: ["EVO015"],
     sets: [Release.BrightLights],
-    specialImage: "82550f56-83a8-4681-b9ab-827572706ceb",
+    specialImage: "EVO015",
     subtypes: [],
     types: [Type.Equipment],
     typeText: "Mechanologist Equipment - Base Chest",
@@ -672,12 +672,12 @@ Once per turn, when a Hyper Driver is put under this, if there are 3 or more Hyp
     artists: ["Elizaveta Alipatova"],
     cardIdentifier: "cogwerx-base-arms",
     classes: [Class.Mechanologist],
-    defaultImage: "21a864c3-5125-42dd-ae01-deb1dc18a009",
+    defaultImage: "EVO016",
     name: "Cogwerx Base Arms",
     printings: [{
       
       identifier: "EVO016",
-      image: "21a864c3-5125-42dd-ae01-deb1dc18a009",
+      image: "EVO016",
       set: Release.BrightLights,
       
     },],
@@ -685,7 +685,7 @@ Once per turn, when a Hyper Driver is put under this, if there are 3 or more Hyp
     rarity: Rarity.Common,
     setIdentifiers: ["EVO016"],
     sets: [Release.BrightLights],
-    specialImage: "21a864c3-5125-42dd-ae01-deb1dc18a009",
+    specialImage: "EVO016",
     subtypes: [],
     types: [Type.Equipment],
     typeText: "Mechanologist Equipment - Base Arms",
@@ -716,12 +716,12 @@ Once per turn, when a Hyper Driver is put under this, if there are 3 or more Hyp
     artists: ["Irina Si"],
     cardIdentifier: "cogwerx-base-legs",
     classes: [Class.Mechanologist],
-    defaultImage: "86379047-06c3-4933-8f8b-23b6fef35bef",
+    defaultImage: "EVO017",
     name: "Cogwerx Base Legs",
     printings: [{
       
       identifier: "EVO017",
-      image: "86379047-06c3-4933-8f8b-23b6fef35bef",
+      image: "EVO017",
       set: Release.BrightLights,
       
     },],
@@ -729,7 +729,7 @@ Once per turn, when a Hyper Driver is put under this, if there are 3 or more Hyp
     rarity: Rarity.Common,
     setIdentifiers: ["EVO017"],
     sets: [Release.BrightLights],
-    specialImage: "86379047-06c3-4933-8f8b-23b6fef35bef",
+    specialImage: "EVO017",
     subtypes: [],
     types: [Type.Equipment],
     typeText: "Mechanologist Equipment - Base Legs",
@@ -4941,98 +4941,6 @@ The next attack you **boost** this turn gets +4{p}.
     
     
     pitch: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tomasz Jedruszek"],
-    cardIdentifier: "re-charge-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO229",
-    name: "Re-Charge!",
-    printings: [{
-      
-      identifier: "EVO229",
-      image: "EVO229",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO229"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO229",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `Put a steam counter on a Hyper Driver you control.
-
-The next attack you **boost** this turn gets +3{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost,Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tomasz Jedruszek"],
-    cardIdentifier: "re-charge-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO230",
-    name: "Re-Charge!",
-    printings: [{
-      
-      identifier: "EVO230",
-      image: "EVO230",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO230"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO230",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `Put a steam counter on a Hyper Driver you control.
-
-The next attack you **boost** this turn gets +2{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost,Keyword.GoAgain],
-    
-    
-    pitch: 3,
     
     
     
@@ -34173,8 +34081,7 @@ When Coalescence Mirage is destroyed, you may put an Illusionist aura card with 
     
     talents: [Talent.Ice],
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Carlos Cruchaga","Mateusz Wiśniewski"],
     cardIdentifier: "codex-of-bloodrot-yellow",
     classes: [Class.Assassin,Class.Ranger],
@@ -34290,7 +34197,8 @@ Create a Ponder token under your control and a Frailty token under each opponent
     
     
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Carlos Cruchaga","Isuardi Therianto"],
     cardIdentifier: "codex-of-inertia-yellow",
     classes: [Class.Assassin,Class.Ranger],
@@ -71419,8 +71327,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     
     
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "ironsong-response-yellow",
     classes: [Class.Warrior],
@@ -71492,7 +71399,8 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     
     
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "ironsong-response-blue",
     classes: [Class.Warrior],
@@ -108256,8 +108164,7 @@ The next attack action card you play from arsenal this turn gains +1{p}.
     
     
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "scramble-pulse-blue",
     classes: [Class.Mechanologist],
@@ -108307,7 +108214,8 @@ The next attack action card you play from arsenal this turn gains +1{p}.
     
     
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Enmoire"],
     cardIdentifier: "searing-emberblade",
     classes: [Class.Ninja],
