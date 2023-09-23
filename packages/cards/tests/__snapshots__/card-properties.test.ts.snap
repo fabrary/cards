@@ -28117,6 +28117,166 @@ exports[`Check for unintentional updates Cognition Nodes (cognition-nodes-blue) 
 }
 `;
 
+exports[`Check for unintentional updates Cogwerx Base Arms (cogwerx-base-arms) vs snapshot 1`] = `
+{
+  "artists": [
+    "Elizaveta Alipatova",
+  ],
+  "cardIdentifier": "cogwerx-base-arms",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "21a864c3-5125-42dd-ae01-deb1dc18a009",
+  "functionalText": "When this is equipped, put a steam counter on it.
+
+**Once per turn Instant** - {r}, remove a steam counter from this: Your next Mechanologist attack this turn gets +1{p}. Activate this ability only if you've **boosted** this turn.",
+  "name": "Cogwerx Base Arms",
+  "printings": [
+    {
+      "identifier": "EVO016",
+      "image": "21a864c3-5125-42dd-ae01-deb1dc18a009",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO016",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "21a864c3-5125-42dd-ae01-deb1dc18a009",
+  "subtypes": [],
+  "typeText": "Mechanologist Equipment - Base Arms",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Cogwerx Base Chest (cogwerx-base-chest) vs snapshot 1`] = `
+{
+  "artists": [
+    "Irina Si",
+  ],
+  "cardIdentifier": "cogwerx-base-chest",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "82550f56-83a8-4681-b9ab-827572706ceb",
+  "functionalText": "When this is equipped, put a steam counter on it.
+
+**Once per turn Instant** - {r}, remove a steam counter from this: Gain {r}{r}. Activate this ability only if you've **boosted** this turn.",
+  "name": "Cogwerx Base Chest",
+  "printings": [
+    {
+      "identifier": "EVO015",
+      "image": "82550f56-83a8-4681-b9ab-827572706ceb",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO015",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "82550f56-83a8-4681-b9ab-827572706ceb",
+  "subtypes": [],
+  "typeText": "Mechanologist Equipment - Base Chest",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Cogwerx Base Head (cogwerx-base-head) vs snapshot 1`] = `
+{
+  "artists": [
+    "Maxim Nikiforov",
+  ],
+  "cardIdentifier": "cogwerx-base-head",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "733ebdf6-6f68-4686-a309-df626d5340e2",
+  "functionalText": "When this is equipped, put a steam counter on it.
+
+**Once per turn Instant** - {r}, remove a steam counter from this: Shuffle a Mechanologist attack action card from your banished zone into your deck. Activate this ability only if you've **boosted** this turn.",
+  "name": "Cogwerx Base Head",
+  "printings": [
+    {
+      "identifier": "EVO014",
+      "image": "733ebdf6-6f68-4686-a309-df626d5340e2",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO014",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "733ebdf6-6f68-4686-a309-df626d5340e2",
+  "subtypes": [],
+  "typeText": "Mechanologist Equipment - Base Head",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Cogwerx Base Legs (cogwerx-base-legs) vs snapshot 1`] = `
+{
+  "artists": [
+    "Irina Si",
+  ],
+  "cardIdentifier": "cogwerx-base-legs",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "86379047-06c3-4933-8f8b-23b6fef35bef",
+  "functionalText": "When this is equipped, put a steam counter on it.
+
+**Once per turn Instant** - {r}, remove a steam counter from this: Gain 1 action point. Activate this ability only if you've **boosted** this turn.",
+  "name": "Cogwerx Base Legs",
+  "printings": [
+    {
+      "identifier": "EVO017",
+      "image": "86379047-06c3-4933-8f8b-23b6fef35bef",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO017",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "86379047-06c3-4933-8f8b-23b6fef35bef",
+  "subtypes": [],
+  "typeText": "Mechanologist Equipment - Base Legs",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Cold Snap (cold-snap-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -68949,7 +69109,7 @@ exports[`Check for unintentional updates Hyper-X3 (hyper-x) vs snapshot 1`] = `
   "classes": [
     "Mechanologist",
   ],
-  "defaultImage": "EVO011_V2",
+  "defaultImage": "EVO011",
   "defense": 1,
   "functionalText": "Whenever you banish a Hyper Driver from **boosting**, put it under this.
 
@@ -68967,6 +69127,12 @@ Once per turn, when a Hyper Driver is put under this, if there are 3 or more Hyp
       "image": "EVO011_V2",
       "set": "Bright Lights",
       "treatment": "Extended Art",
+    },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO011",
+      "image": "EVO011",
+      "set": "Bright Lights",
     },
   ],
   "rarities": [

@@ -693,29 +693,54 @@ const getFilterValuesAndModifier = (
     const [, rawValue] = unparsedFilterValue.split(modifier);
     if (filterIsAnd(rawValue)) {
       isAnd = true;
-      values.push(...rawValue.trim().split("+"));
+      values.push(
+        ...rawValue
+          .trim()
+          .split("+")
+          .map((value) => value.replace(PUNCTUATION, ""))
+      );
     } else if (filterIsOr(rawValue)) {
       isOr = true;
-      values.push(...rawValue.trim().split(","));
+      values.push(
+        ...rawValue
+          .trim()
+          .split(",")
+          .map((value) => value.replace(PUNCTUATION, ""))
+      );
     } else {
-      values.push(rawValue.trim());
+      values.push(rawValue.trim().replace(PUNCTUATION, ""));
     }
   } else {
     // otherwise the whole string is the filter value
     if (filterIsAnd(unparsedFilterValue)) {
       isAnd = true;
-      values.push(...unparsedFilterValue.trim().split("+"));
+      values.push(
+        ...unparsedFilterValue
+          .trim()
+          .split("+")
+          .map((value) => value.replace(PUNCTUATION, ""))
+      );
     } else if (filterIsOr(unparsedFilterValue)) {
       isOr = true;
-      values.push(...unparsedFilterValue.trim().split(","));
+      values.push(
+        ...unparsedFilterValue
+          .trim()
+          .split(",")
+          .map((value) => value.replace(PUNCTUATION, ""))
+      );
     } else {
       if (
         unparsedFilterValue.startsWith('"') &&
         unparsedFilterValue.endsWith('"')
       ) {
-        values.push(unparsedFilterValue.trim().replaceAll('"', ""));
+        values.push(
+          unparsedFilterValue
+            .trim()
+            .replaceAll('"', "")
+            .replace(PUNCTUATION, "")
+        );
       } else {
-        values.push(unparsedFilterValue.trim());
+        values.push(unparsedFilterValue.trim().replace(PUNCTUATION, ""));
       }
     }
   }

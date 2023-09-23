@@ -204,6 +204,7 @@ describe("Card search", () => {
   });
 
   const hasQuantity = [
+    ['t:"demi-hero"'],
     ["!pitch"],
     ["artist:delmiro"],
     ["treatment:ab"],

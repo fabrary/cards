@@ -34,7 +34,7 @@ EVO011,EVO,Hyper-X3,,,,1,,,"Mechanologist, Equipment, Head",Battleworn,,,,,Boost
 
 Once per turn, when a Hyper Driver is put under this, if there are 3 or more Hyper Drivers under this, draw a card.
 
-**Battleworn**",Mechanologist Equipment - Head,,,,No,L,C,EA,soyameii,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO011_V2.png,,,,,,
+**Battleworn**",Mechanologist Equipment - Head,,,,No,L,C,EA,soyameii,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO011_V2.png,L,R,,soyameii,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO011.png
 EVO012,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO013,EVO,Adaptive Plating,,,,1,,,"Mechanologist, Equipment","Modular, Galvanize, Blade Break",,,,,,"**Modular**
 
@@ -295,13 +295,21 @@ EVO146,EVO,Fabricate,1,0,,,,,"Mechanologist, Instant",,,,,,,"Choose 2;
 EVO147,EVO,Bull Bar,1,2,5,3,,,"Mechanologist, Action, Attack","Boost, Overpower",,,,,,"**Boost**
 
 If you control a Hyper Driver, this gets **overpower**.",Mechanologist Action - Attack,,,,No,R,,,Faizal Fikri,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO147.png,,,,,,
-EVO148,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO149,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO148,EVO,Bull Bar,2,2,4,3,,,"Mechanologist, Action, Attack","Boost, Overpower",,,,,,"**Boost**
+
+If you control a Hyper Driver, this gets **overpower**.",Mechanologist Action - Attack,,,,No,R,,,Faizal Fikri,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO148.png,,,,,,
+EVO149,EVO,Bull Bar,3,2,3,3,,,"Mechanologist, Action, Attack","Boost, Overpower",,,,,,"**Boost**
+
+If you control a Hyper Driver, this gets **overpower**.",Mechanologist Action - Attack,,,,No,R,,,Faizal Fikri,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO149.png,,,,,,
 EVO150,EVO,Spring a Leak,1,2,5,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
 
 When this hits a hero, remove all steam counters from an equipment, item, or weapon they control.",Mechanologist Action - Attack,,,,No,R,,,Narendra B Adi,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO150.png,,,,,,
-EVO151,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO152,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO151,EVO,Spring a Leak,2,2,4,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
+
+When this hits a hero, remove all steam counters from an equipment, item, or weapon they control.",Mechanologist Action - Attack,,,,No,R,,,Narendra B Adi,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO151.png,,,,,,
+EVO152,EVO,Spring a Leak,3,2,3,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
+
+When this hits a hero, remove all steam counters from an equipment, item, or weapon they control.",Mechanologist Action - Attack,,,,No,R,,,Narendra B Adi,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO152.png,,,,,,
 EVO153,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO154,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO155,EVO,Smash and Grab,1,3,5,3,,,"Mechanologist, Action, Attack",,,,,,Boost,"If you've **boosted** 2 or more times this turn, this gets +2{p} and ""When this hits a hero, gain control of an item they control.""",Mechanologist Action - Attack,,,,No,R,,,Shen Fei,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO155.png,,,,,,
@@ -326,8 +334,12 @@ EVO173,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO174,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO175,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO176,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO177,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO178,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO177,EVO,Big Bertha,1,3,6,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
+
+When this is banished from **boosting**, put a steam counter on a Hyper Driver you control.",Mechanologist Action - Attack,,,,,C,,,Ausonia,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO177.png,,,,,,
+EVO178,EVO,Big Bertha,2,3,5,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
+
+When this is banished from **boosting**, put a steam counter on a Hyper Driver you control.",Mechanologist Action - Attack,,,,,C,,,Ausonia,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO178.png,,,,,,
 EVO179,EVO,Big Bertha,3,3,4,3,,,"Mechanologist, Action, Attack",Boost,,,,,Boost,"**Boost**
 
 When this is banished from **boosting**, put a steam counter on a Hyper Driver you control.",Mechanologist Action - Attack,,,,,C,,,Ausonia,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO179.png,,,,,,
@@ -337,8 +349,12 @@ EVO182,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO183,EVO,Rev Up,1,3,6,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"If you control a Hyper Driver, this costs {r} less to play.
 
 **Boost**",Mechanologist Action - Attack,,,,,C,,,Nikolay Moskvin,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO183.png,,,,,,
-EVO184,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO185,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO184,EVO,Rev Up,2,3,5,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"If you control a Hyper Driver, this costs {r} less to play.
+
+**Boost**",Mechanologist Action - Attack,,,,,C,,,Nikolay Moskvin,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO184.png,,,,,,
+EVO185,EVO,Rev Up,3,3,4,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"If you control a Hyper Driver, this costs {r} less to play.
+
+**Boost**",Mechanologist Action - Attack,,,,,C,,,Nikolay Moskvin,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO185.png,,,,,,
 EVO186,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO187,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO188,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -416,18 +432,46 @@ EVO222,EVO,Gas Up,1,1,,2,,,"Mechanologist, Action","Boost, Go again",,,,,,"The n
 You may put a Hyper Driver from your banished zone into the arena.
 
 **Go again**",Mechanologist Action,,,,,C,,,Sebastian Giacobino,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO222.png,,,,,,
-EVO223,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO224,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO223,EVO,Gas Up,2,1,,2,,,"Mechanologist, Action","Boost, Go again",,,,,,"The next attack you **boost** this turn gets +3{p}.
+
+You may put a Hyper Driver from your banished zone into the arena.
+
+**Go again**",Mechanologist Action,,,,,C,,,Sebastian Giacobino,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO223.png,,,,,,
+EVO224,EVO,Gas Up,3,1,,2,,,"Mechanologist, Action","Boost, Go again",,,,,,"The next attack you **boost** this turn gets +2{p}.
+
+You may put a Hyper Driver from your banished zone into the arena.
+
+**Go again**",Mechanologist Action,,,,,C,,,Sebastian Giacobino,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO224.png,,,,,,
 EVO225,EVO,Quickfire,1,2,,2,,,"Mechanologist, Action",Go again,,,,,Boost,"This costs {r} less to play for each Hyper Driver you control.
 
 The next attack you **boost** this turn gets +4{p}.
 
 **Go again**",Mechanologist Action,,,,,C,,,Alief Rusdiatama,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO225.png,,,,,,
-EVO226,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO227,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO228,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO229,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO230,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO226,EVO,Quickfire,2,2,,2,,,"Mechanologist, Action","Boost, Go again",,,,,,"This costs {r} less to play for each Hyper Driver you control.
+
+The next attack you **boost** this turn gets +3{p}.
+
+**Go again**",Mechanologist Action,,,,,C,,,Alief Rusdiatama,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO226.png,,,,,,
+EVO227,EVO,Quickfire,3,2,,2,,,"Mechanologist, Action","Boost, Go again",,,,,,"This costs {r} less to play for each Hyper Driver you control.
+
+The next attack you **boost** this turn gets +2{p}.
+
+**Go again**",Mechanologist Action,,,,,C,,,Alief Rusdiatama,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO227.png,,,,,,
+EVO228,EVO,Re-Charge!,1,1,,2,,,"Mechanologist, Action","Boost, Go again",,,,,,"Put a steam counter on a Hyper Driver you control.
+
+The next attack you **boost** this turn gets +4{p}.
+
+**Go again**",Mechanologist Action,,,,,C,,,Tomasz Jedruszek,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO228.png,,,,,,
+EVO229,EVO,Re-Charge!,2,1,,2,,,"Mechanologist, Action","Boost, Go again",,,,,,"Put a steam counter on a Hyper Driver you control.
+
+The next attack you **boost** this turn gets +3{p}.
+
+**Go again**",Mechanologist Action,,,,,C,,,Tomasz Jedruszek,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO229.png,,,,,,
+EVO230,EVO,Re-Charge!,3,1,,2,,,"Mechanologist, Action","Boost, Go again",,,,,,"Put a steam counter on a Hyper Driver you control.
+
+The next attack you **boost** this turn gets +2{p}.
+
+**Go again**",Mechanologist Action,,,,,C,,,Tomasz Jedruszek,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO230.png,,,,,,
 EVO231,EVO,Teklonetic Force Field,1,,,3,,,"Mechanologist, Block",,,,,,,"When this defends an attack with **overpower**, this gets +2{d}.",Mechanologist Block,,,,,C,,,Riordan Delmiro,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO231.png,,,,,,
 EVO232,EVO,Teklonetic Force Field,2,,,2,,,"Mechanologist, Block",,,,,,,"When this defends an attack with **overpower**, this gets +2{d}.",Mechanologist Block,,,,,C,,,Riordan Delmiro,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO232.png,,,,,,
 EVO233,EVO,Teklonetic Force Field,3,,,1,,,"Mechanologist, Block",,,,,,,"When this defends an attack with **overpower**, this gets +2{d}.",Mechanologist Block,,,,,C,,,Riordan Delmiro,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO233.png,,,,,,

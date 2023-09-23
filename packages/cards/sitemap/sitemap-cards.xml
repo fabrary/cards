@@ -351,12 +351,42 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/bull-bar-yellow</loc>
+    <lastmod>2023-09-23</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/bull-bar-blue</loc>
+    <lastmod>2023-09-23</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/spring-a-leak-red</loc>
     <lastmod>2023-09-23</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/spring-a-leak-yellow</loc>
+    <lastmod>2023-09-23</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/spring-a-leak-blue</loc>
+    <lastmod>2023-09-23</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/smash-and-grab-red</loc>
+    <lastmod>2023-09-23</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/big-bertha-red</loc>
+    <lastmod>2023-09-23</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/big-bertha-yellow</loc>
     <lastmod>2023-09-23</lastmod>
     <priority>0.5</priority>
   </url>
@@ -367,6 +397,16 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/rev-up-red</loc>
+    <lastmod>2023-09-23</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/rev-up-yellow</loc>
+    <lastmod>2023-09-23</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/rev-up-blue</loc>
     <lastmod>2023-09-23</lastmod>
     <priority>0.5</priority>
   </url>
@@ -466,7 +506,42 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/gas-up-yellow</loc>
+    <lastmod>2023-09-23</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/gas-up-blue</loc>
+    <lastmod>2023-09-23</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/quickfire-red</loc>
+    <lastmod>2023-09-23</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/quickfire-yellow</loc>
+    <lastmod>2023-09-23</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/quickfire-blue</loc>
+    <lastmod>2023-09-23</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/re-charge-red</loc>
+    <lastmod>2023-09-23</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/re-charge-yellow</loc>
+    <lastmod>2023-09-23</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/re-charge-blue</loc>
     <lastmod>2023-09-23</lastmod>
     <priority>0.5</priority>
   </url>

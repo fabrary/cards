@@ -484,7 +484,7 @@ When this hits a hero, put a steam counter on an item you control with **crank**
     artists: ["soyameii"],
     cardIdentifier: "hyper-x",
     classes: [Class.Mechanologist],
-    defaultImage: "EVO011_V2",
+    defaultImage: "EVO011",
     name: "Hyper-X3",
     printings: [{
       foiling: Foiling.C,
@@ -492,6 +492,12 @@ When this hits a hero, put a steam counter on an item you control with **crank**
       image: "EVO011_V2",
       set: Release.BrightLights,
       treatment: Treatment.EA,
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO011",
+      image: "EVO011",
+      set: Release.BrightLights,
+      
     },],
     rarities: [Rarity.Legendary],
     rarity: Rarity.Legendary,
@@ -3305,6 +3311,94 @@ If you control a Hyper Driver, this gets **overpower**.`,
     
     
   },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "bull-bar-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO148",
+    name: "Bull Bar",
+    printings: [{
+      
+      identifier: "EVO148",
+      image: "EVO148",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO148"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO148",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+If you control a Hyper Driver, this gets **overpower**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost,Keyword.Overpower],
+    
+    
+    pitch: 2,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "bull-bar-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO149",
+    name: "Bull Bar",
+    printings: [{
+      
+      identifier: "EVO149",
+      image: "EVO149",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO149"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO149",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+If you control a Hyper Driver, this gets **overpower**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost,Keyword.Overpower],
+    
+    
+    pitch: 3,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "spring-a-leak-red",
     classes: [Class.Mechanologist],
@@ -3349,6 +3443,94 @@ When this hits a hero, remove all steam counters from an equipment, item, or wea
     
     
   },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "spring-a-leak-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO151",
+    name: "Spring a Leak",
+    printings: [{
+      
+      identifier: "EVO151",
+      image: "EVO151",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO151"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO151",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits a hero, remove all steam counters from an equipment, item, or weapon they control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "spring-a-leak-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO152",
+    name: "Spring a Leak",
+    printings: [{
+      
+      identifier: "EVO152",
+      image: "EVO152",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO152"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO152",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits a hero, remove all steam counters from an equipment, item, or weapon they control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 3,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Shen Fei"],
     cardIdentifier: "smash-and-grab-red",
     classes: [Class.Mechanologist],
@@ -3383,6 +3565,94 @@ When this hits a hero, remove all steam counters from an equipment, item, or wea
     pitch: 1,
     power: 5,
     restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Ausonia"],
+    cardIdentifier: "big-bertha-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO177",
+    name: "Big Bertha",
+    printings: [{
+      
+      identifier: "EVO177",
+      image: "EVO177",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO177"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO177",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this is banished from **boosting**, put a steam counter on a Hyper Driver you control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Ausonia"],
+    cardIdentifier: "big-bertha-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO178",
+    name: "Big Bertha",
+    printings: [{
+      
+      identifier: "EVO178",
+      image: "EVO178",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO178"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO178",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this is banished from **boosting**, put a steam counter on a Hyper Driver you control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 5,
+    
     
     
     
@@ -3470,6 +3740,94 @@ When this is banished from **boosting**, put a steam counter on a Hyper Driver y
     
     pitch: 1,
     power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "rev-up-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO184",
+    name: "Rev Up",
+    printings: [{
+      
+      identifier: "EVO184",
+      image: "EVO184",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO184"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO184",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `If you control a Hyper Driver, this costs {r} less to play.
+
+**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "rev-up-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO185",
+    name: "Rev Up",
+    printings: [{
+      
+      identifier: "EVO185",
+      image: "EVO185",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO185"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO185",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `If you control a Hyper Driver, this costs {r} less to play.
+
+**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 3,
+    power: 4,
     
     
     
@@ -4317,6 +4675,98 @@ You may put a Hyper Driver from your banished zone into the arena.
     
     
   },{
+    artists: ["Sebastian Giacobino"],
+    cardIdentifier: "gas-up-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO223",
+    name: "Gas Up",
+    printings: [{
+      
+      identifier: "EVO223",
+      image: "EVO223",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO223"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO223",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `The next attack you **boost** this turn gets +3{p}.
+
+You may put a Hyper Driver from your banished zone into the arena.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost,Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sebastian Giacobino"],
+    cardIdentifier: "gas-up-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO224",
+    name: "Gas Up",
+    printings: [{
+      
+      identifier: "EVO224",
+      image: "EVO224",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO224"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO224",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `The next attack you **boost** this turn gets +2{p}.
+
+You may put a Hyper Driver from your banished zone into the arena.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost,Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "quickfire-red",
     classes: [Class.Mechanologist],
@@ -4353,6 +4803,236 @@ The next attack you **boost** this turn gets +4{p}.
     
     
     pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Alief Rusdiatama"],
+    cardIdentifier: "quickfire-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO226",
+    name: "Quickfire",
+    printings: [{
+      
+      identifier: "EVO226",
+      image: "EVO226",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO226"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO226",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `This costs {r} less to play for each Hyper Driver you control.
+
+The next attack you **boost** this turn gets +3{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost,Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Alief Rusdiatama"],
+    cardIdentifier: "quickfire-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO227",
+    name: "Quickfire",
+    printings: [{
+      
+      identifier: "EVO227",
+      image: "EVO227",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO227"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO227",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `This costs {r} less to play for each Hyper Driver you control.
+
+The next attack you **boost** this turn gets +2{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost,Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "re-charge-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO228",
+    name: "Re-Charge!",
+    printings: [{
+      
+      identifier: "EVO228",
+      image: "EVO228",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO228"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO228",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Put a steam counter on a Hyper Driver you control.
+
+The next attack you **boost** this turn gets +4{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost,Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "re-charge-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO229",
+    name: "Re-Charge!",
+    printings: [{
+      
+      identifier: "EVO229",
+      image: "EVO229",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO229"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO229",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Put a steam counter on a Hyper Driver you control.
+
+The next attack you **boost** this turn gets +3{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost,Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "re-charge-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO230",
+    name: "Re-Charge!",
+    printings: [{
+      
+      identifier: "EVO230",
+      image: "EVO230",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO230"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO230",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Put a steam counter on a Hyper Driver you control.
+
+The next attack you **boost** this turn gets +2{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost,Keyword.GoAgain],
+    
+    
+    pitch: 3,
     
     
     
@@ -33493,7 +34173,8 @@ When Coalescence Mirage is destroyed, you may put an Illusionist aura card with 
     
     talents: [Talent.Ice],
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Carlos Cruchaga","Mateusz Wiśniewski"],
     cardIdentifier: "codex-of-bloodrot-yellow",
     classes: [Class.Assassin,Class.Ranger],
@@ -34195,8 +34876,7 @@ When this defends an attack with **go again**, the attacking hero discards their
     
     
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Hendry Iwanaga"],
     cardIdentifier: "combustible-courier-yellow",
     classes: [Class.Mechanologist],
@@ -70739,7 +71419,8 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     
     
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "ironsong-response-yellow",
     classes: [Class.Warrior],
@@ -71213,8 +71894,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     
     
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Shen Fei"],
     cardIdentifier: "isolate-blue",
     classes: [Class.Assassin],
@@ -107576,7 +108256,8 @@ The next attack action card you play from arsenal this turn gains +1{p}.
     
     
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Faizal Fikri"],
     cardIdentifier: "scramble-pulse-blue",
     classes: [Class.Mechanologist],
@@ -107778,8 +108459,7 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
     
     talents: [Talent.Light],
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Edward Chee"],
     cardIdentifier: "searing-ray-blue",
     classes: [Class.NotClassed],
