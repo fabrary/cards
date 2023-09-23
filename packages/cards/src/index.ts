@@ -1973,6 +1973,52 @@ When a Mechanologist attack action card you control hits a hero, destroy this an
     
     
   },{
+    artists: ["Mateusz Wiśniewski"],
+    cardIdentifier: "hadron-collider-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO090",
+    name: "Hadron Collider",
+    printings: [{
+      
+      identifier: "EVO090",
+      image: "EVO090",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO090"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO090",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 1,
+    
+    functionalText: `**Crank**
+
+This enters the arena with 4 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+When you **boost** an attack, destroy this. If you do, the attack gets +X{p}, where X is the number of steam counters on this.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "hyper-driver-red",
     classes: [Class.Mechanologist],
@@ -2890,6 +2936,50 @@ If this has 10 or more {p}, it gets **overpower**.`,
     
     pitch: 1,
     
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "bull-bar-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO147",
+    name: "Bull Bar",
+    printings: [{
+      
+      identifier: "EVO147",
+      image: "EVO147",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO147"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO147",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+If you control a Hyper Driver, this gets **overpower**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost,Keyword.Overpower],
+    
+    
+    pitch: 1,
+    power: 5,
     restrictedFormats: [Format.Commoner],
     
     
@@ -34157,7 +34247,8 @@ You may banish a non-equipment defending card with {d} less than the number of D
     
     
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Fajareka Setiawan","Othon Nikolaidis"],
     cardIdentifier: "command-and-conquer-red",
     classes: [Class.Generic],
@@ -34229,8 +34320,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
     
     
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "concealed-blade-blue",
     classes: [Class.Assassin,Class.Ninja],
@@ -71013,7 +71103,8 @@ Whenever this hits a hero and you don't control a Spellbane Aegis, create a Spel
     
     
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Amelia Tan"],
     cardIdentifier: "jump-start-red",
     classes: [Class.Mechanologist],
@@ -71063,8 +71154,7 @@ Whenever this hits a hero and you don't control a Spellbane Aegis, create a Spel
     
     
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Amelia Tan"],
     cardIdentifier: "jump-start-yellow",
     classes: [Class.Mechanologist],
@@ -107446,7 +107536,8 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
     
     
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Vadim Kalabukh"],
     cardIdentifier: "searing-shot-yellow",
     classes: [Class.Ranger],
@@ -107512,8 +107603,7 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
     
     
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Vadim Kalabukh"],
     cardIdentifier: "searing-shot-blue",
     classes: [Class.Ranger],

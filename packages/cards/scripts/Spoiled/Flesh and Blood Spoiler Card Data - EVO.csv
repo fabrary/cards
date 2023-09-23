@@ -165,7 +165,11 @@ EVO086,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO087,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO088,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO089,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO090,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO090,EVO,Hadron Collider,1,1,,,,,"Mechanologist, Action, Item",Crank,,,,,,"**Crank**
+
+This enters the arena with 4 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+When you **boost** an attack, destroy this. If you do, the attack gets +X{p}, where X is the number of steam counters on this.",Mechanologist Action - Item,,,,,C,,,Mateusz Wiśniewski,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO090.png,,,,,,
 EVO091,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO092,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO093,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -266,7 +270,9 @@ EVO146,EVO,Fabricate,1,0,,,,,"Mechanologist, Instant",,,,,,,"Choose 2;
 - Evo permanents you control get +1{d} this turn.
 - Put this under an Evo permanent you control.
 - You may banish an Evo from your hand. If you do, draw a card.",Mechanologist Instant,,,,No,M,,,Ausonia,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO146.png,,,,,,
-EVO147,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO147,EVO,Bull Bar,1,2,5,3,,,"Mechanologist, Action, Attack","Boost, Overpower",,,,,,"**Boost**
+
+If you control a Hyper Driver, this gets **overpower**.",Mechanologist Action - Attack,,,,No,R,,,Faizal Fikri,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO147.png,,,,,,
 EVO148,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO149,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO150,EVO,Spring a Leak,1,2,5,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**

@@ -7710,6 +7710,58 @@ exports[`Check for unintentional updates Ball Lightning (ball-lightning-yellow) 
 }
 `;
 
+exports[`Check for unintentional updates Banksy (banksy) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mateus Manhanini",
+  ],
+  "cardIdentifier": "banksy",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "EVO006",
+  "functionalText": "**Maxx Specialization**
+
+**Once per Turn Action** - {r}: **Attack**. Activate this ability only if you've **cranked** this turn.
+
+When this hits a hero, put a steam counter on an item you control with **crank**.",
+  "keywords": [
+    "Specialization",
+  ],
+  "name": "Banksy",
+  "power": 3,
+  "printings": [
+    {
+      "identifier": "EVO006",
+      "image": "EVO006",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Token",
+  ],
+  "rarity": "Token",
+  "setIdentifiers": [
+    "EVO006",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO006",
+  "specializations": [
+    "Maxx",
+  ],
+  "subtypes": [
+    "2H",
+    "Wrench",
+  ],
+  "typeText": "Mechanologist Weapon - Wrench (2H)",
+  "types": [
+    "Weapon",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Banneret of Courage (banneret-of-courage-yellow) vs snapshot 1`] = `
 {
   "artists": [
@@ -11244,6 +11296,55 @@ exports[`Check for unintentional updates Beseech the Demigon (beseech-the-demigo
     "Shadow",
   ],
   "typeText": "Shadow Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Big Bertha (big-bertha-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Ausonia",
+  ],
+  "cardIdentifier": "big-bertha-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "EVO179",
+  "defense": 3,
+  "functionalText": "**Boost**
+
+When this is banished from **boosting**, put a steam counter on a Hyper Driver you control.",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "Big Bertha",
+  "pitch": 3,
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "EVO179",
+      "image": "EVO179",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO179",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO179",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
   "types": [
     "Action",
   ],
@@ -83645,6 +83746,56 @@ exports[`Check for unintentional updates Maximum Velocity (maximum-velocity-red)
 }
 `;
 
+exports[`Check for unintentional updates Maxx 'The Hype' Nitro (maxx-the-hype-nitro) vs snapshot 1`] = `
+{
+  "artists": [
+    "Jessada Sutthi",
+  ],
+  "cardIdentifier": "maxx-the-hype-nitro",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "EVO004",
+  "functionalText": "**Once per Turn Action** - {r}{r}: Create a Hyper Driver token with 2 steam counters.  Activate this ability only if you've **boosted** this turn.
+
+Hyper Drivers you control get **Crank**.",
+  "hero": "Maxx",
+  "intellect": 4,
+  "keywords": [
+    "Crank",
+  ],
+  "life": 40,
+  "name": "Maxx 'The Hype' Nitro",
+  "printings": [
+    {
+      "identifier": "EVO004",
+      "image": "EVO004",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Blitz",
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO004",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO004",
+  "subtypes": [],
+  "typeText": "Mechanologist Hero",
+  "types": [
+    "Hero",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Maxx Nitro (maxx-nitro) vs snapshot 1`] = `
 {
   "artists": [
@@ -85716,6 +85867,60 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     "Attack",
   ],
   "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Moonshot (moonshot-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Jessada Sutthi",
+  ],
+  "cardIdentifier": "moonshot-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "EVO140",
+  "defense": 3,
+  "functionalText": "Play this only if you've **boosted** this turn. As an additional cost to play this, destroy X Hyper Drivers you control.
+
+When this attacks, it gets +3{p} for each Hyper Driver destroyed this way.
+
+If this has 10 or more {p}, it gets **overpower**.",
+  "keywords": [
+    "Overpower",
+  ],
+  "name": "Moonshot",
+  "pitch": 2,
+  "power": 3,
+  "printings": [
+    {
+      "identifier": "EVO140",
+      "image": "EVO140",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO140",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialCost": "XX",
+  "specialImage": "EVO140",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
   "types": [
     "Action",
   ],
@@ -137281,6 +137486,58 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
     "Attack",
   ],
   "typeText": "Ninja Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Spring a Leak (spring-a-leak-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Narendra B Adi",
+  ],
+  "cardIdentifier": "spring-a-leak-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 2,
+  "defaultImage": "EVO150",
+  "defense": 3,
+  "functionalText": "**Boost**
+
+When this hits a hero, remove all steam counters from an equipment, item, or weapon they control.",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "Spring a Leak",
+  "pitch": 1,
+  "power": 5,
+  "printings": [
+    {
+      "identifier": "EVO150",
+      "image": "EVO150",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO150",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO150",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
   "types": [
     "Action",
   ],
